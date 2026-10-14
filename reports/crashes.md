@@ -1,17 +1,17 @@
 # Crashes (fall of 50%+ within 5 trading days, with a news day of 25%+)
-scanned 908 price files
+scanned 953 price files
 
-**888 crashes** (591 crossed -50% in a single day)
+**943 crashes** (632 crossed -50% in a single day)
 
 | Year | Crashes |
 |---|---|
-| 2020 | 26 |
-| 2021 | 70 |
-| 2022 | 152 |
-| 2023 | 161 |
-| 2024 | 184 |
-| 2025 | 180 |
-| 2026 | 115 |
+| 2020 | 27 |
+| 2021 | 74 |
+| 2022 | 162 |
+| 2023 | 175 |
+| 2024 | 202 |
+| 2025 | 185 |
+| 2026 | 118 |
 
 Latest 15:
 
@@ -20,6 +20,7 @@ Latest 15:
 | 2026-10-08 | China SXT Pharmaceuticals, Inc. | SXTC | -88.4% | 1 |
 | 2026-10-08 | Medicus Pharma Ltd. | MDCX | -57.1% | 3 |
 | 2026-10-07 | Caribou Biosciences, Inc. | CRBU | -51.4% | 1 |
+| 2026-10-06 | Vicapsys Life Sciences, Inc. | VICP | -63.6% | 2 |
 | 2026-10-06 | ArriVent BioPharma, Inc. | AVBP | -50.2% | 1 |
 | 2026-10-01 | Karyopharm Therapeutics Inc. | KPTI | -50.5% | 2 |
 | 2026-09-30 | Liquidia Corp | LQDA | -62.5% | 1 |
@@ -31,4 +32,3 @@ Latest 15:
 | 2026-09-08 | Jaguar Health, Inc. | JAGX | -56.3% | 3 |
 | 2026-09-02 | CDT Equity Inc. | CDT | -51.9% | 1 |
 | 2026-09-01 | ALUMIS INC. | ALMS | -60.5% | 1 |
-| 2026-08-28 | Propanc Biopharma, Inc. | PPCB | -54.3% | 4 |
