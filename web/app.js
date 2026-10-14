@@ -9,6 +9,7 @@ const VERDICT = {
   justified:["p-crit","■","Justified","var(--r-line)"],
   pending:["p-pend","","Not scored yet","var(--axis)"]};
 const pill = v => { const [c,i,t] = VERDICT[v] || VERDICT.pending; return `<span class="pill ${c}">${i?`<i>${i}</i>`:""}${t}</span>`; };
+const dur = c => `${c.days} day${c.days === 1 ? "" : "s"}`;
 const pct = v => v == null ? "–" : `${v > 0 ? "+" : v < 0 ? "−" : ""}${Math.abs(v).toFixed(0)}%`;
 let D = null, SHOW = 60;
 
@@ -25,13 +26,13 @@ function viewCrashes(){
   const years = [...new Set(D.crashes.map(c => c.date.slice(0,4)))].sort().reverse();
   const trig = [...new Set(D.crashes.map(c => c.trigger).filter(Boolean))].sort();
   $("#app").innerHTML = `
-  <div class="toprow"><div><h1>Biotech crashes</h1><div class="muted">${D.crashes.length} US biotech stocks that fell 50% or more in one day · ${esc(D.range)}</div></div>
+  <div class="toprow"><div><h1>Biotech crashes</h1><div class="muted">${D.crashes.length} times a US biotech stock fell 50% or more within 5 trading days, starting with a news day · ${esc(D.range)}</div></div>
    <div class="filters">
     <select id="fy"><option value="">All years</option>${years.map(y=>`<option>${y}</option>`).join("")}</select>
     <select id="fv"><option value="">All verdicts</option>${Object.entries(VERDICT).map(([k,v])=>`<option value="${k}">${v[2]}</option>`).join("")}</select>
     <select id="ft"><option value="">All triggers</option>${trig.map(t=>`<option>${esc(t)}</option>`).join("")}</select>
     <input id="fq" placeholder="Search company, ticker or drug"></div></div>
-  <div class="tablewrap"><table class="crash"><thead><tr><th>Company</th><th>Crash</th><th class="r">1-day</th><th>What happened</th>
+  <div class="tablewrap"><table class="crash"><thead><tr><th>Company</th><th>Crash</th><th class="r">Fall</th><th>What happened</th>
    ${FACT.map(f=>`<th class="fh">${f[1]}</th>`).join("")}<th>Verdict</th></tr></thead><tbody id="rows"></tbody></table></div>
   <div class="legend"><span class="lg f-g"><span class="ic">✓</span>Good</span><span class="lg f-n"><span class="ic">–</span>Neutral</span><span class="lg f-r"><span class="ic">✕</span>Bad</span>
    <span class="muted" id="cnt"></span></div><div class="more" id="more"></div>`;
@@ -43,7 +44,7 @@ function fill(){
   const list = D.crashes.filter(c => (!y || c.date.startsWith(y)) && (!v || (c.verdict||"pending") === v) && (!t || c.trigger === t)
     && (!q || `${c.name} ${c.ticker} ${c.summary||""}`.toLowerCase().includes(q)));
   $("#rows").innerHTML = list.slice(0, SHOW).map(c => `<tr data-id="${c.id}"><td><b>${esc(c.name)}</b><div class="muted" style="font-size:11.5px">${esc(c.ticker)}</div></td>
-    <td style="white-space:nowrap">${esc(c.month)}</td><td class="r num">${pct(c.move)}</td><td class="what">${esc(c.summary || "Reading the company's announcement…")}</td>
+    <td style="white-space:nowrap">${esc(c.month)}</td><td class="r" style="white-space:nowrap"><span class="num">${pct(c.move)}</span><div class="muted" style="font-size:11.5px">${dur(c)}</div></td><td class="what">${esc(c.summary || "Reading the company's announcement…")}</td>
     ${FACT.map(f => cell(c.factors?.[f[0]])).join("")}<td>${pill(c.verdict)}</td></tr>`).join("") ||
     `<tr><td colspan="10" class="empty">No crashes match these filters.</td></tr>`;
   $("#cnt").textContent = `Showing ${Math.min(SHOW, list.length)} of ${list.length}.`;
@@ -64,8 +65,8 @@ function viewCrash(id){
      <div><b>${pct(c.ret365)}</b><span>stock move from day 30 to day 365${c.ended ? ` (${esc(c.ended)})` : ""}</span></div>
      ${c.xbi365 == null ? "" : `<div><b>${pct(c.xbi365)}</b><span>biotech index, same dates</span></div>`}</div></div>`;
   $("#app").innerHTML = `
-  <div class="vhead"><div><div class="muted">${esc(c.date)} · <a href="#/">‹ All crashes</a></div>
-    <h2>${esc(c.name)} <span class="muted" style="font-size:18px">${esc(c.ticker)}</span><span class="mv">${pct(c.move)}</span></h2>
+  <div class="vhead"><div><div class="muted">News day ${esc(c.date)} (${pct(c.news_day)} that day) · <a href="#/">‹ All crashes</a></div>
+    <h2>${esc(c.name)} <span class="muted" style="font-size:18px">${esc(c.ticker)}</span><span class="mv">${pct(c.move)}</span><span class="muted" style="font-size:16px;margin-left:8px">in ${dur(c)}</span></h2>
     <div class="what1">${esc(c.summary || "Reading the company's announcement…")}</div></div>
    <div class="vbox">${pill(c.verdict)}${c.score!=null?`<div class="conf">Score ${c.score} / 100</div>`:""}</div></div>
   <div class="fcs">${cards}</div>
@@ -96,7 +97,7 @@ function viewOutcomes(){
   });
   $("#oc").innerHTML = s + "</svg>";
   document.querySelectorAll(".pt").forEach(el => { const c = D.crashes.find(x => x.id === el.dataset.id);
-    el.onmousemove = e => showTip(e, `<b>${esc(c.name)} · ${esc(c.month)}</b>${pct(c.move)} crash → ${pct(c.ret365)} by day 365<br><span class="a">Click to open ›</span>`);
+    el.onmousemove = e => showTip(e, `<b>${esc(c.name)} · ${esc(c.month)}</b>${pct(c.move)} fall in ${dur(c)} → ${pct(c.ret365)} by day 365<br><span class="a">Click to open ›</span>`);
     el.onmouseleave = hideTip; el.onclick = () => { hideTip(); location.hash = "#/c/" + c.id; }; });
 }
 

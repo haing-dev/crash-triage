@@ -62,7 +62,8 @@ for c in (csv.DictReader(cpath.open()) if cpath.exists() else []):
         continue
     cid = f"{c['cik']}_{c['date']}"
     rec = {"id": cid, "name": c["name"], "ticker": c["ticker"], "date": c["date"], "month": c["month"],
-           "move": float(c["move_pct"]), "verdict": "pending"}
+           "move": float(c["fall_pct"]), "days": int(c["days"]), "news_day": float(c["news_day_pct"]),
+           "verdict": "pending"}
     ev = ROOT / "data" / "events" / f"{cid}.json"
     if ev.exists():
         e = json.loads(ev.read_text())
