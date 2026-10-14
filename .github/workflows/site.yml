@@ -1,0 +1,28 @@
+name: build-site
+on:
+  schedule:
+    - cron: "23 6,22 * * *"      # twice a day; Cloudflare only deploys the 'site' branch
+  push:
+    paths: ["web/**", "pipeline/build_site.py", ".github/workflows/site.yml"]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: { group: site, cancel-in-progress: true }
+jobs:
+  site:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: cd pipeline && python build_site.py
+      - name: Publish to the 'site' branch
+        run: |
+          cd site
+          git init -q -b site
+          git config user.name "crash-triage-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          git commit -q -m "site build $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push -q -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" site

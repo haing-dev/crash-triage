@@ -70,6 +70,15 @@ def main():
     budget = {"twelvedata": min(a.twelvedata, 760 - use["twelvedata"]) if TD else 0,
               "tiingo": min(a.tiingo, 950 - use["tiingo"]) if TI else 0}
     got = {"twelvedata": 0, "tiingo": 0}
+    # benchmark: biotech index ETF (XBI), refreshed daily
+    if TD and st["done"].get("XBI", "") < (date.today() - timedelta(days=1)).isoformat() and budget["twelvedata"] > 0:
+        try:
+            save("XBI", twelvedata("XBI", START), "twelvedata")
+            st["done"]["XBI"] = today
+            use["twelvedata"] += 1
+            got["twelvedata"] += 1
+        except Exception as e:
+            print("XBI failed", e)
     for u in uni:
         src, cik = u["price_source"], u["cik"]
         if src not in budget or got[src] >= budget[src]:
