@@ -1,5 +1,5 @@
 cik,name,sic,first_period,last_period,ticker,exchange,status,price_source,tiingo_ticker,tiingo_start,tiingo_end
-1848948,10X Capital Venture Acquisition Corp. III,2836,2021-12-31,2023-09-30,VCXB.U,(delisted),stopped trading · no price source,,,,
+1848948,10X Capital Venture Acquisition Corp. III,2836,2021-12-31,2023-09-30,VCXB.U,(delisted),ticker found · no price source,,,,
 1860782,"2seventy bio, Inc.",2834,2021-03-31,2025-03-31,TSVT,(delisted),stopped trading,tiingo,TSVT,2021-11-03,2025-05-13
 1650648,"4D Molecular Therapeutics, Inc.",2836,2021-03-31,2026-06-30,FDMT,Nasdaq,listed,twelvedata,FDMT,2020-12-11,2026-10-13
 1830162,4D Pharma PLC,2834,2021-06-30,2021-12-31,,,no ticker found,,,,
@@ -48,7 +48,7 @@ cik,name,sic,first_period,last_period,ticker,exchange,status,price_source,tiingo
 1621221,"ARTELO BIOSCIENCES, INC.",2834,2021-02-28,2026-06-30,ARTL,Nasdaq,listed,twelvedata,ARTL,2017-11-14,2026-10-13
 1655759,"ARVINAS, INC.",2834,2021-03-31,2026-06-30,ARVN,Nasdaq,listed,twelvedata,ARVN,2018-09-27,2026-10-13
 1426800,"ASSEMBLY BIOSCIENCES, INC.",2834,2021-03-31,2026-06-30,ASMB,Nasdaq,listed,twelvedata,ASMB,2010-12-17,2026-10-13
-1368148,"ATHERSYS, INC / NEW",2834,2021-03-31,2023-09-30,,,no ticker found,,,,
+1368148,"ATHERSYS, INC / NEW",2834,2021-03-31,2023-09-30,ATHX,,listed (via Tiingo),tiingo,ATHXQ,2007-06-12,2026-10-13
 1488039,"ATOSSA THERAPEUTICS, INC.",2834,2021-03-31,2026-06-30,ATOS,Nasdaq,listed,twelvedata,ATOS,2012-11-08,2026-10-13
 1012477,AVADEL PHARMACEUTICALS PLC,2834,2021-03-31,2025-09-30,AVDL,(delisted),stopped trading,tiingo,AVDL,1996-06-07,2026-02-12
 1644963,"AVENUE THERAPEUTICS, INC.",2834,2021-03-31,2026-06-30,ATXI,OTC,OTC/other (OTC),tiingo,ATXI,2017-06-27,2026-10-13
@@ -61,7 +61,7 @@ cik,name,sic,first_period,last_period,ticker,exchange,status,price_source,tiingo
 1893219,"Abpro Holdings, Inc.",2836,2021-12-31,2026-06-30,ABPO,OTC,OTC/other (OTC),tiingo,ABPO,2026-05-22,2026-10-13
 1672688,Absci Corp,8731,2021-06-30,2026-06-30,ABSI,Nasdaq,listed,twelvedata,ABSI,2021-07-22,2026-10-13
 1850767,Accustem Sciences Inc.,2834,2021-12-31,2026-06-30,ACUT,OTC,OTC/other (OTC),tiingo,ACUT,2022-03-02,2026-10-13
-1069308,Acer Therapeutics Inc.,2834,2021-03-31,2023-09-30,,,no ticker found,,,,
+1069308,Acer Therapeutics Inc.,2834,2021-03-31,2023-09-30,ACER,,stopped trading,tiingo,ACER,2017-09-22,2023-11-20
 861838,"Aceragen, Inc.",2836,2021-03-31,2023-03-31,ACGN,(delisted),stopped trading,tiingo,ACGN,1996-01-25,2023-09-01
 1830749,Achilles Therapeutics plc,2836,2021-12-31,2024-06-30,,,no ticker found,,,,
 1557746,"Aclaris Therapeutics, Inc.",2834,2021-03-31,2026-06-30,ACRS,Nasdaq,listed,twelvedata,ACRS,2015-10-07,2026-10-13
@@ -72,7 +72,7 @@ cik,name,sic,first_period,last_period,ticker,exchange,status,price_source,tiingo
 1736243,"Acurx Pharmaceuticals, Inc.",2834,2021-06-30,2026-06-30,ACXP,Nasdaq,listed,twelvedata,ACXP,2021-06-25,2026-10-13
 1818838,Adagene Inc.,2834,2021-12-31,2025-12-31,ADAG,Nasdaq,listed,twelvedata,ADAG,2021-02-09,2026-10-13
 1328143,Adamas Pharmaceuticals Inc,2834,2021-03-31,2021-09-30,ADMS,(delisted),stopped trading,tiingo,ADMS,2014-04-10,2021-11-24
-1621227,Adaptimmune Therapeutics PLC,2836,2021-03-31,2025-06-30,ADAPY,OTC,OTC/other (OTC),,,,
+1621227,Adaptimmune Therapeutics PLC,2836,2021-03-31,2025-06-30,ADAP,OTC,stopped trading,tiingo,ADAP,2015-05-06,2025-10-27
 1478320,Adaptive Biotechnologies Corp,2836,2021-03-31,2026-06-30,ADPT,Nasdaq,listed,twelvedata,ADPT,2019-06-27,2026-10-13
 737207,"Adhera Therapeutics, Inc.",2834,2021-03-31,2023-09-30,,,no ticker found,,,,
 1720580,"Adicet Bio, Inc.",2834,2021-03-31,2026-06-30,ACET,Nasdaq,listed,twelvedata,ACET,2018-01-26,2026-10-13
@@ -108,7 +108,7 @@ cik,name,sic,first_period,last_period,ticker,exchange,status,price_source,tiingo
 715446,Anixa Biosciences Inc,2834,2021-04-30,2026-07-31,ANIX,Nasdaq,listed,twelvedata,ANIX,2001-01-02,2026-10-13
 1528115,"Annexon, Inc.",2834,2021-03-31,2026-06-30,ANNX,Nasdaq,listed,twelvedata,ANNX,2020-07-24,2026-10-13
 1477845,"Annovis Bio, Inc.",2834,2021-03-31,2026-06-30,ANVS,NYSE,listed,twelvedata,ANVS,2020-01-29,2026-10-13
-1849011,Apeiron Capital Investment Corp.,2836,2021-09-30,2023-03-31,APN,(delisted),stopped trading · no price source,,,,
+1849011,Apeiron Capital Investment Corp.,2836,2021-09-30,2023-03-31,APN,(delisted),ticker found · no price source,,,,
 1492422,"Apellis Pharmaceuticals, Inc.",2834,2021-03-31,2026-03-31,APLS,(delisted),stopped trading,tiingo,APLS,2017-11-09,2026-05-14
 1814140,"Apexigen, Inc.",2834,2021-03-31,2023-06-30,APGN,(delisted),stopped trading,tiingo,APGN,2021-02-22,2023-09-01
 1894525,"Apimeds Pharmaceuticals US, Inc.",2834,2023-12-31,2026-06-30,APUS,NYSE,listed,twelvedata,APUS,2025-05-09,2026-10-13
@@ -147,7 +147,7 @@ cik,name,sic,first_period,last_period,ticker,exchange,status,price_source,tiingo
 1730463,Autolus Therapeutics plc,2836,2021-03-31,2026-06-30,AUTL,Nasdaq,listed,twelvedata,AUTL,2018-06-22,2026-10-13
 1534120,"Avalo Therapeutics, Inc.",2834,2021-03-31,2026-06-30,AVTX,Nasdaq,listed,twelvedata,AVTX,2015-11-13,2026-10-13
 1540171,Avalyn Pharma Inc.,2834,2025-12-31,2026-06-30,AVLN,Nasdaq,listed,twelvedata,AVLN,2026-04-30,2026-10-13
-1643301,"Avenir Wellness Solutions, Inc.",2834,2021-03-31,2024-09-30,,,no ticker found,,,,
+1643301,"Avenir Wellness Solutions, Inc.",2834,2021-03-31,2024-09-30,AVRW,,listed (via Tiingo),tiingo,AVRW,2023-08-09,2026-10-13
 704562,"Avid Bioservices, Inc.",2834,2021-04-30,2024-10-31,CDMO,(delisted),stopped trading,tiingo,CDMO,2018-01-08,2025-02-05
 1599901,"Avidity Biosciences, Inc.",2834,2021-03-31,2025-12-31,RNA,(delisted),stopped trading,tiingo,RNA,2020-06-12,2026-02-26
 1633070,Axcella Health Inc.,2836,2021-03-31,2023-06-30,AXLA,(delisted),stopped trading,tiingo,AXLA,2019-05-09,2026-10-13
@@ -156,7 +156,7 @@ cik,name,sic,first_period,last_period,ticker,exchange,status,price_source,tiingo
 1701478,"Azitra, Inc.",2834,2022-12-31,2026-06-30,AZTR,NYSE,listed,twelvedata,AZTR,2023-06-16,2026-10-13
 2094256,"BEACON TOPCO, INC.",2834,2025-12-31,2026-06-30,CLYD,,stopped trading · no price source,,,,
 1889109,"BELITE BIO, INC",2834,2021-12-31,2025-12-31,BLTE,Nasdaq,listed,twelvedata,BLTE,2022-04-29,2026-10-13
-1358403,"BELLICUM PHARMACEUTICALS, INC",2834,2021-03-31,2023-09-30,,,no ticker found,,,,
+1358403,"BELLICUM PHARMACEUTICALS, INC",2834,2021-03-31,2023-09-30,BLCM,,stopped trading,tiingo,BLCM,2014-12-18,2024-03-04
 1779578,BGM Group Ltd.,2834,2021-09-30,2025-09-30,BGM,Nasdaq,listed,twelvedata,BGM,2024-08-12,2026-10-13
 1761612,BICYCLE THERAPEUTICS PLC,2834,2021-03-31,2026-06-30,BCYC,Nasdaq,listed,twelvedata,BCYC,2019-05-23,2026-10-13
 1133818,"BIO-PATH HOLDINGS, INC.",2834,2021-03-31,2026-03-31,BPTH,OTC,OTC/other (OTC),tiingo,BPTH,2008-03-04,2026-10-13
@@ -195,7 +195,7 @@ cik,name,sic,first_period,last_period,ticker,exchange,status,price_source,tiingo
 1689813,Biohaven Pharmaceutical Holding Co Ltd.,2834,2021-03-31,2022-06-30,BHVN,(delisted),stopped trading,tiingo,BHVN,2017-05-04,2022-10-03
 1840439,"Biomea Fusion, Inc.",2834,2021-03-31,2026-06-30,BMEA,Nasdaq,listed,twelvedata,BMEA,2021-04-16,2026-10-13
 1568628,Bioquest Corp,2834,2021-04-30,2022-07-31,,,no ticker found,,,,
-1559356,Biostax Corp.,2834,2021-03-31,2024-06-30,,,no ticker found,,,,
+1559356,Biostax Corp.,2834,2021-03-31,2024-06-30,BTAX,,listed (via Tiingo),tiingo,BTAX,2023-10-24,2026-10-13
 1701541,"Black Diamond Therapeutics, Inc.",2836,2021-03-31,2026-06-30,BDTX,Nasdaq,listed,twelvedata,BDTX,2020-01-30,2026-10-13
 2000775,Black Hawk Acquisition Corp,2836,2023-11-30,2026-08-31,BKHA,Nasdaq,listed,twelvedata,BKHA,2024-05-13,2026-10-13
 1839970,"BlossomHill Therapeutics, Inc.",2834,2025-12-31,2026-06-30,BLSM,Nasdaq,listed,twelvedata,,,
@@ -277,7 +277,7 @@ cik,name,sic,first_period,last_period,ticker,exchange,status,price_source,tiingo
 1534248,Chemomab Therapeutics Ltd.,2834,2021-03-31,2025-12-31,CMMB,Nasdaq,listed,twelvedata,CMMB,2019-02-12,2026-10-13
 1309057,"China Health Industries Holdings, Inc.",2834,2021-03-31,2024-03-31,,,no ticker found,,,,
 1723980,"China SXT Pharmaceuticals, Inc.",2834,2021-03-31,2026-03-31,SXTC,Nasdaq,listed,twelvedata,SXTC,2019-01-04,2026-10-13
-1804591,Chrome Holding Co.,2834,2021-03-31,2025-06-30,,,no ticker found,,,,
+1804591,Chrome Holding Co.,2834,2021-03-31,2025-06-30,ME,,listed (via Tiingo),tiingo,ME,2020-11-23,2026-10-13
 1610618,"Cidara Therapeutics, Inc.",2836,2021-03-31,2025-09-30,CDTX,(delisted),stopped trading,tiingo,CDTX,2015-04-15,2026-01-07
 1868734,"CinCor Pharma, Inc.",2834,2021-12-31,2022-09-30,CINC,(delisted),stopped trading,tiingo,CINC,2022-01-07,2023-02-24
 1862150,Cingulate Inc.,2834,2021-12-31,2026-06-30,CING,Nasdaq,listed,twelvedata,CING,2021-12-08,2026-10-13
@@ -310,12 +310,12 @@ cik,name,sic,first_period,last_period,ticker,exchange,status,price_source,tiingo
 2025942,Curanex Pharmaceuticals Inc,2834,2024-12-31,2026-06-30,CURX,Nasdaq,listed,twelvedata,CURX,2025-08-26,2026-10-13
 922247,"Cyclo Therapeutics, Inc.",2836,2021-03-31,2024-09-30,CYTH,(delisted),stopped trading,tiingo,CYTH,2011-02-23,2025-03-26
 1042074,"CymaBay Therapeutics, Inc.",2834,2021-03-31,2023-12-31,CBAY,(delisted),stopped trading,tiingo,CBAY,2014-02-03,2024-04-01
-1662244,"Cyteir Therapeutics, Inc.",2834,2021-03-31,2023-09-30,CYT,(delisted),stopped trading · no price source,,,,
+1662244,"Cyteir Therapeutics, Inc.",2834,2021-03-31,2023-09-30,CYT,(delisted),ticker found · no price source,,,,
 1175680,CytoDyn Inc.,2834,2021-02-28,2026-08-31,CYDY,OTC,OTC/other (OTC),tiingo,CYDY,2007-07-16,2026-10-13
 1501989,"CytomX Therapeutics, Inc.",2834,2021-03-31,2026-06-30,CTMX,Nasdaq,listed,twelvedata,CTMX,2015-10-08,2026-10-13
 1613780,DBV Technologies S.A.,2836,2021-03-31,2026-06-30,DBVT,Nasdaq,listed,twelvedata,DBVT,2014-10-22,2026-10-13
 1645569,"DICE Therapeutics, Inc.",2834,2021-03-31,2023-06-30,DICE,(delisted),stopped trading,tiingo,DICE,2021-09-15,2023-08-14
-887247,DMK PHARMACEUTICALS Corp,2834,2021-03-31,2023-09-30,DMK,(delisted),stopped trading · no price source,,,,
+887247,DMK PHARMACEUTICALS Corp,2834,2021-03-31,2023-09-30,DMK,(delisted),ticker found · no price source,,,,
 1082038,DURECT CORP,2834,2021-03-31,2025-06-30,DRRX,(delisted),stopped trading,tiingo,DRRX,2000-09-28,2025-09-11
 1213809,DYADIC INTERNATIONAL INC,2836,2021-03-31,2026-06-30,DYAI,Nasdaq,listed,twelvedata,DYAI,2016-01-04,2026-10-13
 1029142,DYNAVAX TECHNOLOGIES CORP,2834,2021-03-31,2025-09-30,DVAX,(delisted),stopped trading,tiingo,DVAX,2004-02-19,2026-02-11
@@ -390,20 +390,20 @@ cik,name,sic,first_period,last_period,ticker,exchange,status,price_source,tiingo
 1958777,"FibroBiologics, Inc.",2834,2022-12-31,2026-06-30,FBLG,Nasdaq,listed,twelvedata,FBLG,2024-01-31,2026-10-13
 1733257,"Finch Therapeutics Group, Inc.",2836,2021-03-31,2024-06-30,FNCH,(delisted),stopped trading,tiingo,FNCHQ,2021-03-19,2026-10-13
 2091349,"First Tracks Biotherapeutics, Inc.",2834,2025-12-31,2026-06-30,TRAX,Nasdaq,listed,twelvedata,TRAX,2026-04-20,2026-10-13
-1419600,Flexion Therapeutics Inc,2834,2021-03-31,2021-09-30,FLXN,(delisted),stopped trading · no price source,,,,
+1419600,Flexion Therapeutics Inc,2834,2021-03-31,2021-09-30,FLXN,(delisted),ticker found · no price source,,,,
 1822462,Foghorn Therapeutics Inc.,2834,2021-03-31,2026-06-30,FHTX,Nasdaq,listed,twelvedata,FHTX,2020-10-23,2026-10-13
 1538927,"Forma Therapeutics Holdings, Inc.",2836,2021-03-31,2022-06-30,FMTX,(delisted),stopped trading,tiingo,FMTX,2020-06-19,2022-11-02
 1419041,"Forte Biosciences, Inc.",2834,2021-03-31,2026-06-30,FBRX,(delisted),stopped trading,tiingo,FBRX,2017-04-13,2026-08-27
 1429260,"Fortress Biotech, Inc.",2834,2021-03-31,2026-06-30,FBIO,Nasdaq,listed,twelvedata,FBIO,2011-11-17,2026-10-13
 1810031,Freeline Therapeutics Holdings plc,2836,2021-03-31,2023-09-30,,,no ticker found,,,,
-819050,"Fresh Tracks Therapeutics, Inc.",2836,2021-03-31,2023-12-31,,,no ticker found,,,,
+819050,"Fresh Tracks Therapeutics, Inc.",2836,2021-03-31,2023-12-31,FRTX,,listed (via Tiingo),tiingo,FRTX,1993-03-15,2026-10-13
 1680581,"Fulcrum Therapeutics, Inc.",2834,2021-03-31,2026-06-30,FULC,Nasdaq,listed,twelvedata,FULC,2019-07-18,2026-10-13
 1805890,Fusion Pharmaceuticals Inc.,2836,2021-03-31,2024-03-31,FUSN,(delisted),stopped trading,tiingo,FUSN,2020-06-26,2024-06-04
 926844,Fuss Brands Corp.,2834,2021-04-30,2025-07-31,,,no ticker found,,,,
 1889450,FutureTech II Acquisition Corp.,2836,2021-12-31,2025-06-30,FTIIU,(delisted),stopped trading,tiingo,FTIIU,2022-02-16,2026-10-13
 1560241,"G1 Therapeutics, Inc.",2834,2021-03-31,2024-06-30,GTHX,(delisted),stopped trading,tiingo,GTHX,2017-05-17,2024-09-18
 1133416,GALECTIN THERAPEUTICS INC,2834,2021-03-31,2026-06-30,GALT,Nasdaq,listed,twelvedata,GALT,2002-09-09,2026-10-13
-1805087,"GELESIS HOLDINGS, INC.",2834,2021-03-31,2023-06-30,,,no ticker found,,,,
+1805087,"GELESIS HOLDINGS, INC.",2834,2021-03-31,2023-06-30,GLS,,ticker found · no price source,,,,
 1231457,GENELUX Corp,2834,2022-12-31,2026-06-30,GNLX,Nasdaq,listed,twelvedata,GNLX,2023-01-26,2026-10-13
 1059784,GENEREX BIOTECHNOLOGY CORP,2834,2021-04-30,2021-04-30,,,no ticker found,,,,
 1017110,GENETHERA INC,2836,2021-03-31,2022-09-30,,,no ticker found,,,,
@@ -415,7 +415,7 @@ cik,name,sic,first_period,last_period,ticker,exchange,status,price_source,tiingo
 1351288,GW PHARMACEUTICALS PLC,2834,2021-03-31,2021-03-31,GWPH,(delisted),stopped trading,tiingo,GWPH,2013-05-01,2021-05-05
 1124105,"GYRE THERAPEUTICS, INC.",2834,2021-03-31,2026-06-30,GYRE,Nasdaq,listed,twelvedata,GYRE,2006-04-12,2026-10-13
 1819411,"Gain Therapeutics, Inc.",2834,2021-03-31,2026-06-30,GANX,Nasdaq,listed,twelvedata,GANX,2021-03-18,2026-10-13
-1563577,"Galera Therapeutics, Inc.",2834,2021-03-31,2026-03-31,GRTX,(delisted),stopped trading · no price source,,,,
+1563577,"Galera Therapeutics, Inc.",2834,2021-03-31,2026-03-31,GRTX,(delisted),ticker found · no price source,,,,
 1595353,Galmed Pharmaceuticals Ltd.,2834,2021-06-30,2026-06-30,EOCN,Nasdaq,listed,twelvedata,EOCN,2014-03-13,2026-10-13
 1600847,Gamida Cell Ltd.,2836,2021-12-31,2024-03-31,GMDAQ,(delisted),stopped trading,tiingo,GMDAQ,2018-10-26,2024-05-24
 1838716,Genenta Science S.p.A.,2836,2021-12-31,2021-12-31,GNTA,Nasdaq,listed,twelvedata,GNTA,2021-12-15,2026-10-13
@@ -499,8 +499,8 @@ cik,name,sic,first_period,last_period,ticker,exchange,status,price_source,tiingo
 720154,"Inotiv, Inc.",8731,2021-03-31,2026-03-31,NOTV,(delisted),stopped trading,tiingo,NOTVQ,1997-11-25,2026-10-13
 1693011,"Inozyme Pharma, Inc.",2834,2021-03-31,2025-03-31,INZY,(delisted),stopped trading,tiingo,INZY,2020-07-24,2025-07-01
 1789769,"Instil Bio, Inc.",2836,2021-03-31,2026-06-30,TIL,Nasdaq,listed,twelvedata,TIL,2021-03-19,2026-10-13
-1638381,Intec Pharma Ltd.,2834,2021-03-31,2021-03-31,NTEC,(delisted),stopped trading · no price source,,,,
-1098880,IntelGenx Technologies Corp.,2834,2021-03-31,2024-03-31,,,no ticker found,,,,
+1638381,Intec Pharma Ltd.,2834,2021-03-31,2021-03-31,NTEC,(delisted),ticker found · no price source,,,,
+1098880,IntelGenx Technologies Corp.,2834,2021-03-31,2024-03-31,IGXT,,listed (via Tiingo),tiingo,IGXT,2016-01-04,2026-10-13
 1474835,Intellipharmaceutics International Inc.,2834,2021-02-28,2023-08-31,,,no ticker found,,,,
 1355790,International Stem Cell CORP,2834,2021-03-31,2026-06-30,ISCO,OTC,OTC/other (OTC),tiingo,ISCO,2012-07-23,2026-10-13
 1567514,"Intra-Cellular Therapies, Inc.",2834,2021-03-31,2024-12-31,ITCI,(delisted),stopped trading,tiingo,ITCI,2014-01-07,2025-04-02
@@ -547,8 +547,8 @@ cik,name,sic,first_period,last_period,ticker,exchange,status,price_source,tiingo
 1815442,"Kymera Therapeutics, Inc.",2836,2021-03-31,2026-06-30,KYMR,Nasdaq,listed,twelvedata,KYMR,2020-08-21,2026-10-13
 1164888,"Kyto Technology & Life Science, Inc.",2834,2021-03-31,2021-12-31,KBPH,(delisted),stopped trading,tiingo,KBPH,2004-08-02,2024-05-09
 1994702,"Kyverna Therapeutics, Inc.",2836,2023-03-31,2026-06-30,KYTX,Nasdaq,listed,twelvedata,KYTX,2024-02-08,2026-10-13
-920465,LA JOLLA PHARMACEUTICAL CO,2836,2021-03-31,2022-06-30,LJPC,(delisted),stopped trading · no price source,,,,
-57725,LANNETT CO INC,2834,2021-03-31,2023-03-31,,,no ticker found,,,,
+920465,LA JOLLA PHARMACEUTICAL CO,2836,2021-03-31,2022-06-30,LJPC,(delisted),ticker found · no price source,,,,
+57725,LANNETT CO INC,2834,2021-03-31,2023-03-31,LCI,,ticker found · no price source,,,,
 1840748,LAVA Therapeutics NV,2834,2023-12-31,2025-09-30,LVTX,(delisted),stopped trading,tiingo,LVTX,2021-03-25,2025-12-05
 1691082,LB PHARMACEUTICALS INC,2834,2024-12-31,2026-06-30,LBRX,Nasdaq,listed,twelvedata,LBRX,2025-09-11,2026-10-13
 1815776,"LENZ Therapeutics, Inc.",2836,2021-03-31,2026-06-30,LENZ,Nasdaq,listed,twelvedata,LENZ,2021-06-25,2026-10-13
@@ -631,7 +631,7 @@ cik,name,sic,first_period,last_period,ticker,exchange,status,price_source,tiingo
 1971543,Mural Oncology plc,2834,2022-12-31,2025-09-30,MURA,(delisted),stopped trading,tiingo,MURA,2023-11-16,2026-10-13
 1415684,MusclePharm Corp,2834,2021-03-31,2022-03-31,,,no ticker found,,,,
 1679082,Myovant Sciences Ltd.,2834,2021-03-31,2022-12-31,MYOV,(delisted),stopped trading,tiingo,MYOV,2016-10-27,2023-03-09
-1473579,NANOMIX Corp,2834,2021-03-31,2022-12-31,,,no ticker found,,,,
+1473579,NANOMIX Corp,2834,2021-03-31,2022-12-31,NNMX,,listed (via Tiingo),tiingo,NNMX,2015-01-22,2026-10-13
 1379006,"NANOVIRICIDES, INC.",2834,2021-03-31,2026-06-30,NNVC,NYSE,listed,twelvedata,NNVC,2005-10-26,2026-10-13
 275053,NATURES SUNSHINE PRODUCTS INC,2834,2021-03-31,2026-06-30,NATR,Nasdaq,listed,twelvedata,NATR,2009-06-25,2026-10-13
 906709,NEKTAR THERAPEUTICS,2834,2021-03-31,2026-06-30,NKTR,Nasdaq,listed,twelvedata,NKTR,1994-05-03,2026-10-13
@@ -683,13 +683,13 @@ cik,name,sic,first_period,last_period,ticker,exchange,status,price_source,tiingo
 1795091,OS Therapies Inc,2834,2023-12-31,2026-06-30,OSTX,NYSE,listed,twelvedata,OSTX,2024-08-01,2026-10-13
 1493566,"OTONOMY, INC.",2834,2021-03-31,2022-09-30,OTIC,(delisted),stopped trading,tiingo,OTIC,2014-08-13,2023-04-12
 1821318,OTR Acquisition Corp.,2834,2021-03-31,2022-03-31,OTRAU,(delisted),stopped trading,tiingo,OTRAU,2020-11-16,2022-05-19
-1685316,ObsEva SA,2834,2021-12-31,2022-12-31,OBSVF,(delisted),stopped trading · no price source,,,,
+1685316,ObsEva SA,2834,2021-12-31,2022-12-31,OBSVF,(delisted),ticker found · no price source,,,,
 2130606,"Obsidian Therapeutics, Inc.",2834,2024-12-31,2026-06-30,OBX,Nasdaq,listed,twelvedata,,,
 1869974,"Ocean Biomedical, Inc.",2834,2021-09-30,2025-03-31,OCEA,OTC,OTC/other (OTC),tiingo,OCEA,2023-02-15,2026-10-13
 1372299,"Ocugen, Inc.",2836,2021-03-31,2026-06-30,OCGN,Nasdaq,listed,twelvedata,OCGN,2014-12-03,2026-10-13
-1717452,"Odonate Therapeutics, Inc.",2834,2021-03-31,2021-09-30,ODT,(delisted),stopped trading · no price source,,,,
+1717452,"Odonate Therapeutics, Inc.",2834,2021-03-31,2021-09-30,ODT,(delisted),ticker found · no price source,,,,
 1882782,"Odyssey Therapeutics, Inc.",2836,2025-03-31,2026-06-30,ODTX,Nasdaq,listed,twelvedata,ODTX,2026-05-08,2026-10-13
-1797336,"Old Ayala, Inc",2836,2021-03-31,2022-12-31,,,no ticker found,,,,
+1797336,"Old Ayala, Inc",2836,2021-03-31,2022-12-31,AYLA,,stopped trading,tiingo,AYLA,2020-05-08,2023-01-19
 1750284,"Olema Pharmaceuticals, Inc.",2834,2021-03-31,2026-06-30,OLMA,Nasdaq,listed,twelvedata,OLMA,2020-11-19,2026-10-13
 1850838,"Omega Therapeutics, Inc.",2836,2021-03-31,2024-09-30,OMGA,(delisted),stopped trading,tiingo,OMGA,2021-07-30,2026-10-13
 1846253,"OmniAb, Inc.",8731,2021-06-30,2026-06-30,OABI,Nasdaq,listed,twelvedata,OABI,2022-11-02,2026-10-13
@@ -726,7 +726,7 @@ cik,name,sic,first_period,last_period,ticker,exchange,status,price_source,tiingo
 1840563,PMGC Holdings Inc.,2834,2022-12-31,2026-06-30,ELAB,Nasdaq,listed,twelvedata,ELAB,2023-11-21,2026-10-13
 1699382,"PMV Pharmaceuticals, Inc.",2834,2021-03-31,2026-06-30,PMVP,Nasdaq,listed,twelvedata,PMVP,2020-09-25,2026-10-13
 1811764,POINT Biopharma Global Inc.,2834,2021-03-31,2023-09-30,PNT,(delisted),stopped trading,tiingo,PNT,2020-07-08,2023-12-27
-1076682,"POLARITYTE, INC.",2836,2021-03-31,2023-03-31,PTE,(delisted),stopped trading · no price source,,,,
+1076682,"POLARITYTE, INC.",2836,2021-03-31,2023-03-31,PTE,(delisted),ticker found · no price source,,,,
 1793294,"PPD, Inc.",8731,2021-03-31,2021-09-30,PPD,(delisted),stopped trading,tiingo,PPD,2020-02-06,2021-12-08
 1613859,"PRA Health Sciences, Inc.",8731,2021-03-31,2021-03-31,PRAH,(delisted),stopped trading,tiingo,PRAH,2014-11-13,2021-07-01
 1356090,"PRECIGEN, INC.",2834,2021-03-31,2026-06-30,PGEN,Nasdaq,listed,twelvedata,PGEN,2013-08-08,2026-10-13
@@ -740,7 +740,7 @@ cik,name,sic,first_period,last_period,ticker,exchange,status,price_source,tiingo
 1070081,"PTC THERAPEUTICS, INC.",2834,2021-03-31,2026-06-30,PTCT,Nasdaq,listed,twelvedata,PTCT,2013-06-20,2026-10-13
 1401667,"PUMA BIOTECHNOLOGY, INC.",2834,2021-03-31,2026-06-30,PBYI,Nasdaq,listed,twelvedata,PBYI,2012-04-24,2026-10-13
 1396814,"Pacira BioSciences, Inc.",2834,2021-03-31,2026-06-30,PCRX,Nasdaq,listed,twelvedata,PCRX,2011-02-03,2026-10-13
-1029125,"Panbela Therapeutics, Inc.",2834,2021-03-31,2024-09-30,,,no ticker found,,,,
+1029125,"Panbela Therapeutics, Inc.",2834,2021-03-31,2024-09-30,PBLA,,listed (via Tiingo),tiingo,PBLA,2017-01-03,2026-10-13
 1657677,"Parabilis Medicines, Inc.",2834,2025-06-30,2026-06-30,PBLS,Nasdaq,listed,twelvedata,PBLS,2026-06-10,2026-10-13
 1178711,"Paratek Pharmaceuticals, Inc.",2834,2021-03-31,2023-06-30,PRTK,(delisted),stopped trading,tiingo,PRTK,2006-05-11,2023-09-21
 1841330,Pasithea Therapeutics Corp.,2834,2021-09-30,2026-06-30,KTTA,Nasdaq,listed,twelvedata,KTTA,2021-09-15,2026-10-13
@@ -776,7 +776,7 @@ cik,name,sic,first_period,last_period,ticker,exchange,status,price_source,tiingo
 1695357,"Provention Bio, Inc.",2834,2021-03-31,2022-12-31,PRVB,(delisted),stopped trading,tiingo,PRVB,2018-07-24,2023-04-27
 1574235,"Pulmatrix, Inc.",2834,2021-03-31,2026-06-30,PULM,Nasdaq,listed,twelvedata,PULM,2014-03-21,2026-10-13
 1782223,"Pyxis Oncology, Inc.",2834,2021-03-31,2026-06-30,PYXS,Nasdaq,listed,twelvedata,PYXS,2021-10-08,2026-10-13
-1596062,Q BioMed Inc.,2834,2021-02-28,2023-02-28,,,no ticker found,,,,
+1596062,Q BioMed Inc.,2834,2021-02-28,2023-02-28,QBIO,,listed (via Tiingo),tiingo,QBIO,2015-06-17,2026-10-13
 1661998,Q32 Bio Inc.,2834,2021-03-31,2026-06-30,QTTB,Nasdaq,listed,twelvedata,QTTB,2018-03-28,2026-10-13
 1015820,QIAGEN N.V.,2836,2021-12-31,2025-12-31,QGEN,NYSE,listed,twelvedata,QGEN,1996-06-28,2026-10-13
 1689084,Qrons Inc.,2836,2021-03-31,2024-12-31,,,no ticker found,,,,
@@ -828,7 +828,7 @@ cik,name,sic,first_period,last_period,ticker,exchange,status,price_source,tiingo
 1802768,Royalty Pharma plc,2834,2021-03-31,2026-06-30,RPRX,Nasdaq,listed,twelvedata,RPRX,2020-06-16,2026-10-13
 1709401,"Rubius Therapeutics, Inc.",2836,2021-03-31,2022-12-31,RUBY,(delisted),stopped trading,tiingo,RUBY,2018-07-18,2023-12-29
 1833214,"SAB Biotherapeutics, Inc.",2836,2021-03-31,2026-06-30,SABS,Nasdaq,listed,twelvedata,SABS,2021-02-09,2026-10-13
-1001233,"SANGAMO THERAPEUTICS, INC",2836,2021-03-31,2026-03-31,SGMOQ,OTC,OTC/other (OTC),,,,
+1001233,"SANGAMO THERAPEUTICS, INC",2836,2021-03-31,2026-03-31,SGMO,OTC,listed (via Tiingo),tiingo,SGMO,2000-04-06,2026-10-13
 1104280,SANGUI BIOTECH INTERNATIONAL INC,2834,2021-03-31,2023-03-31,,,no ticker found,,,,
 1178253,SCYNEXIS INC,2834,2021-03-31,2026-06-30,SCYX,Nasdaq,listed,twelvedata,SCYX,2014-05-02,2026-10-13
 1017491,"SEELOS THERAPEUTICS, INC.",2834,2021-03-31,2024-06-30,SEEL,(delisted),stopped trading,tiingo,SEELQ,1999-04-19,2026-10-13
@@ -862,7 +862,7 @@ cik,name,sic,first_period,last_period,ticker,exchange,status,price_source,tiingo
 1820190,Scilex Holding Co,2836,2021-03-31,2026-06-30,SCLX,Nasdaq,listed,twelvedata,SCLX,2021-03-05,2026-10-13
 1611747,Scinai Immunotherapeutics Ltd.,2836,2021-12-31,2025-12-31,SCNI,Nasdaq,listed,twelvedata,SCNI,2015-05-12,2026-10-13
 1772028,Scopus BioPharma Inc.,2834,2021-03-31,2023-06-30,,,no ticker found,,,,
-1476963,"Scorpius Holdings, Inc.",2834,2021-03-31,2025-09-30,,,no ticker found,,,,
+1476963,"Scorpius Holdings, Inc.",2834,2021-03-31,2025-09-30,SCPX,,listed (via Tiingo),tiingo,SCPX,2024-01-08,2026-10-13
 1853921,"Scribe Therapeutics, Inc.",2836,2025-12-31,2026-06-30,SCTX,Nasdaq,listed,twelvedata,,,
 1060736,Seagen Inc.,2836,2021-03-31,2023-09-30,SGEN,(delisted),stopped trading,tiingo,SGEN,2001-03-09,2026-10-13
 2042347,"Seaport Therapeutics, Inc.",2834,2025-12-31,2026-06-30,SPTX,Nasdaq,listed,twelvedata,SPTX,2026-05-01,2026-10-13
@@ -886,7 +886,7 @@ cik,name,sic,first_period,last_period,ticker,exchange,status,price_source,tiingo
 1707502,Solid Biosciences Inc.,2836,2021-03-31,2026-06-30,SLDB,Nasdaq,listed,twelvedata,SLDB,2018-01-26,2026-10-13
 1837412,"SomaLogic, Inc.",8731,2021-03-31,2023-09-30,SLGC,(delisted),stopped trading,tiingo,SLGC,2021-04-23,2026-05-28
 1106838,"Sonnet BioTherapeutics Holdings, Inc.",2834,2021-03-31,2025-09-30,SONN,(delisted),stopped trading,tiingo,SONN,2006-10-31,2025-12-02
-850261,"Sorrento Therapeutics, Inc.",2836,2021-03-31,2023-06-30,SRNEQ,(delisted),stopped trading · no price source,,,,
+850261,"Sorrento Therapeutics, Inc.",2836,2021-03-31,2023-06-30,SRNEQ,(delisted),ticker found · no price source,,,,
 1701108,"Spero Therapeutics, Inc.",2834,2021-03-31,2026-06-30,SPRO,Nasdaq,listed,twelvedata,SPRO,2004-11-22,2026-10-13
 1773427,"SpringWorks Therapeutics, Inc.",2836,2021-03-31,2025-03-31,SWTX,(delisted),stopped trading,tiingo,SWTX,2019-09-13,2025-07-01
 1636282,"Spyre Therapeutics, Inc.",2834,2021-03-31,2026-06-30,SYRE,Nasdaq,listed,twelvedata,SYRE,2016-04-07,2026-10-13
@@ -980,7 +980,7 @@ cik,name,sic,first_period,last_period,ticker,exchange,status,price_source,tiingo
 1468639,"Vicapsys Life Sciences, Inc.",2834,2021-03-31,2024-09-30,VICP,OTC,OTC/other (OTC),tiingo,VICP,2017-12-13,2026-10-13
 1827087,"Vigil Neuroscience, Inc.",2836,2021-03-31,2025-06-30,VIGL,(delisted),stopped trading,tiingo,VIGL,2022-01-07,2025-08-05
 1607678,"Viking Therapeutics, Inc.",2834,2021-03-31,2026-06-30,VKTX,Nasdaq,listed,twelvedata,VKTX,2015-04-29,2026-10-13
-1796129,"Vincerx Pharma, Inc.",2834,2021-03-31,2025-03-31,,,no ticker found,,,,
+1796129,"Vincerx Pharma, Inc.",2834,2021-03-31,2025-03-31,VINC,,listed (via Tiingo),tiingo,VINC,2020-05-27,2026-10-13
 1706431,"Vir Biotechnology, Inc.",2836,2021-03-31,2026-06-30,VIR,Nasdaq,listed,twelvedata,VIR,2019-10-11,2026-10-13
 1061027,"Viracta Therapeutics, Inc.",2834,2021-03-31,2024-09-30,VIRX,(delisted),stopped trading,tiingo,VIRX,2005-09-27,2026-10-13
 1771706,Vireo Growth Inc.,2834,2021-03-31,2026-06-30,VREOF,OTC,OTC/other (OTC),tiingo,VREOF,2026-06-05,2026-10-13
