@@ -1,0 +1,33 @@
+name: prices-and-crashes
+on:
+  schedule:
+    - cron: "17 * * * *"        # hourly; each run stays inside the free-plan limits
+  workflow_dispatch:
+    inputs:
+      twelvedata: { description: "Twelve Data calls this run", default: "380" }
+      tiingo: { description: "Tiingo calls this run", default: "45" }
+permissions:
+  contents: write
+concurrency: { group: data-writes, cancel-in-progress: false }
+jobs:
+  prices:
+    runs-on: ubuntu-latest
+    timeout-minutes: 70
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Download prices
+        env:
+          TIINGO_API_KEY: ${{ secrets.TIINGO_API_KEY }}
+          TWELVEDATA_API_KEY: ${{ secrets.TWELVEDATA_API_KEY }}
+        run: cd pipeline && python prices.py --twelvedata ${{ inputs.twelvedata || '380' }} --tiingo ${{ inputs.tiingo || '45' }}
+      - name: Find crashes
+        run: cd pipeline && python crashes.py
+      - name: Save
+        run: |
+          git config user.name "crash-triage-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/prices data/state data/crashes.csv reports/crashes.md
+          git commit -m "prices + crashes update [skip ci]" || echo "no change"
+          git pull --rebase && git push
