@@ -17,9 +17,19 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
       - run: cd pipeline && python build_site.py
+      - name: Package for Cloudflare (Worker with static assets)
+        run: |
+          mkdir -p deploy && mv site deploy/public
+          cat > deploy/wrangler.jsonc <<'JSON'
+          {
+            "name": "crash-triage",
+            "compatibility_date": "2026-10-01",
+            "assets": { "directory": "./public", "not_found_handling": "single-page-application" }
+          }
+          JSON
       - name: Publish to the 'site' branch
         run: |
-          cd site
+          cd deploy
           git init -q -b site
           git config user.name "crash-triage-bot"
           git config user.email "actions@users.noreply.github.com"
