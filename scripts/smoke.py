@@ -79,6 +79,21 @@ def claude():
     return f"Claude Code replied {r.stdout.strip()!r}"
 
 
+def ti_delisted_stats():
+    z = zipfile.ZipFile(io.BytesIO(get("https://apimedia.tiingo.com/docs/tiingo/daily/supported_tickers.zip", raw=True)))
+    rows = list(csv.DictReader(io.TextIOWrapper(z.open(z.namelist()[0]), "utf-8")))
+    us = [r for r in rows if r.get("exchange") in ("NASDAQ", "NYSE", "NYSE MKT", "AMEX") and r.get("assetType") == "Stock"]
+    ended = [r for r in us if r.get("endDate") and "2021-10-01" <= r["endDate"] < "2026-09-01"]
+    hits = {t: next(({k: r[k] for k in ("exchange", "startDate", "endDate")} for r in rows if r["ticker"].upper() == t), None)
+            for t in ("SGEN", "MRTX", "KRTX", "CERE", "ATHX", "CLVSQ")}
+    return f"{len(ended):,} US stocks that stopped trading Oct 2021–Aug 2026; {hits}"
+
+
+check("Tiingo · delisted coverage in ticker list", ti_delisted_stats)
+for t, a, b in (("SGEN", "2023-06-01", "2023-12-31"), ("MRTX", "2023-06-01", "2024-01-31"), ("KRTX", "2023-06-01", "2024-03-31"),
+                ("CERE", "2024-01-01", "2024-08-31"), ("ATHX", "2023-01-01", "2024-02-28"), ("CLVSQ", "2022-06-01", "2023-06-30")):
+    check(f"Tiingo · acquired/delisted {t}", lambda t=t, a=a, b=b: ti(t, a, b))
+check("Twelve Data · acquired SGEN (2023)", lambda: td("SGEN", "2023-06-01", "2023-12-31"))
 check("Twelve Data · listed stock (VRTX)", lambda: td("VRTX"))
 check("Twelve Data · delisted stock (CLVS, 2022)", lambda: td("CLVS", "2022-01-01", "2022-12-31"))
 check("Tiingo · listed stock (VRTX)", lambda: ti("VRTX", "2026-09-01", "2026-10-13"))
@@ -86,7 +101,7 @@ check("Tiingo · delisted stock (CLVS, 2022)", lambda: ti("CLVS", "2022-01-01", 
 check("Tiingo · full ticker list incl. delisted", ti_list)
 check("SEC EDGAR · filings + XBRL (Vertex)", sec)
 check("ClinicalTrials.gov API v2", ctgov)
-check("Claude Code · subscription token", claude)
+# Claude Code already verified in the first run
 os.makedirs("reports", exist_ok=True)
 open("reports/smoke.md", "w").write("\n".join(out) + "\n")
 print("\n".join(out))
