@@ -183,6 +183,7 @@ cik,name,ticker,date,month,start_date,end_date,prev_close,low_close,fall_pct,day
 1907223,Greenland Mines Ltd,GRML,2025-06-27,Jun 2025,2025-06-20,2025-06-27,1.54,0.72,-53.2,1,-36.3,listed
 1326190,"Altimmune, Inc.",ALT,2025-06-26,Jun 2025,2025-06-25,2025-06-27,7.71,3.5,-54.6,1,-53.2,listed
 1834105,IMPACT BIOMEDICAL INC.,IBO,2025-06-24,Jun 2025,2025-06-23,2025-06-30,20.38,8.19,-59.8,4,-47.8,listed
+1347242,LIPELLA PHARMACEUTICALS INC.,LIPO,2025-06-23,Jun 2025,2025-06-16,2025-06-24,2.87,0.76,-73.5,1,-33.3,stopped trading
 1816590,COMPASS Pathways plc,CMPS,2025-06-23,Jun 2025,2025-06-18,2025-06-23,4.8,2.35,-51.0,1,-49.2,listed
 1659617,"Moleculin Biotech, Inc.",MBRX,2025-06-20,Jun 2025,2025-06-16,2025-06-20,17.12,6.675,-61.0,1,-54.2,listed
 1870404,"CERO THERAPEUTICS HOLDINGS, INC.",CERO,2025-06-18,Jun 2025,2025-06-17,2025-06-23,19.83,8.16,-58.9,3,-42.0,OTC/other (OTC)
@@ -229,6 +230,7 @@ cik,name,ticker,date,month,start_date,end_date,prev_close,low_close,fall_pct,day
 1800315,"Damora Therapeutics, Inc.",DMRA,2025-03-25,Mar 2025,2025-03-24,2025-03-31,6.7,3.1,-53.7,5,-26.9,listed
 1804591,Chrome Holding Co.,ME,2025-03-24,Mar 2025,2025-03-17,2025-03-24,2,0.73,-63.5,1,-59.2,listed (via Tiingo)
 1829635,"Transcode Therapeutics, Inc.",RNAZ,2025-03-24,Mar 2025,2025-03-21,2025-03-28,31.36,13.72,-56.2,4,-38.1,listed
+1792581,"Kiromic Biopharma, Inc.",KRBP,2025-03-21,Mar 2025,2025-03-14,2025-03-21,1.173,0.312,-73.4,1,-67.8,stopped trading
 1585608,"Jaguar Health, Inc.",JAGX,2025-03-18,Mar 2025,2025-03-17,2025-03-21,6156,3032,-50.7,4,-47.8,listed
 1726711,"Aditxt, Inc.",ADTX,2025-03-13,Mar 2025,2025-03-11,2025-03-18,3.661e+05,1.831e+05,-50.0,4,-41.2,OTC/other (OTC)
 1583771,"Hepion Pharmaceuticals, Inc.",HEPA,2025-03-12,Mar 2025,2025-03-06,2025-03-13,4.315,1.89,-56.2,2,-41.9,OTC/other (OTC)
@@ -262,9 +264,12 @@ cik,name,ticker,date,month,start_date,end_date,prev_close,low_close,fall_pct,day
 1533040,Phio Pharmaceuticals Corp.,PHIO,2025-01-14,Jan 2025,2025-01-13,2025-01-21,6.6,2.48,-62.4,2,-45.8,listed
 1679628,"JUPITER NEUROSCIENCES, INC.",JUNS,2025-01-14,Jan 2025,2025-01-08,2025-01-16,8.65,4.27,-50.6,3,-28.4,listed
 1680048,"MUSTANG BIO, INC.",MBIO,2025-01-14,Jan 2025,2025-01-10,2025-01-17,12.85,5.55,-56.8,2,-35.7,listed
+1442836,"Mersana Therapeutics, Inc.",MRSN,2025-01-10,Jan 2025,2025-01-03,2025-01-13,34.75,15.54,-55.3,2,-44.6,stopped trading
 1496323,"IGM Biosciences, Inc.",IGMS,2025-01-10,Jan 2025,2025-01-07,2025-01-14,6.8,1.71,-74.9,1,-66.3,stopped trading
+1693011,"Inozyme Pharma, Inc.",INZY,2025-01-10,Jan 2025,2025-01-07,2025-01-15,2.82,1.38,-51.1,4,-28.7,stopped trading
 1788028,"Jasper Therapeutics, Inc.",JSPR,2025-01-08,Jan 2025,2024-12-31,2025-01-08,21.38,6.99,-67.3,1,-60.5,listed
 1870404,"CERO THERAPEUTICS HOLDINGS, INC.",CERO,2025-01-08,Jan 2025,2025-01-07,2025-01-15,104.6,51.6,-50.7,5,-29.3,OTC/other (OTC)
+1239819,LUNA INNOVATIONS INC,LUNA,2025-01-06,Jan 2025,2024-12-27,2025-01-06,2.17,0.8891,-59.0,1,-56.6,stopped trading
 1837607,"AEON Biopharma, Inc.",AEON,2025-01-06,Jan 2025,2024-12-27,2025-01-06,42.48,15.12,-64.4,1,-63.1,listed
 1885522,"Neumora Therapeutics, Inc.",NMRA,2025-01-02,Jan 2025,2024-12-26,2025-01-02,11.34,1.97,-82.6,1,-81.4,listed
 1191070,Neuphoria Therapeutics Inc.,NEUP,2024-12-26,Dec 2024,2024-12-24,2025-01-02,6.63,2.93,-55.8,5,-32.9,listed
@@ -307,6 +312,7 @@ cik,name,ticker,date,month,start_date,end_date,prev_close,low_close,fall_pct,day
 1582554,"Matinas BioPharma Holdings, Inc.",MTNB,2024-10-31,Oct 2024,2024-10-25,2024-11-01,3.25,0.582,-82.1,1,-67.9,listed
 1819615,Clever Leaves Holdings Inc.,CLVR,2024-10-31,Oct 2024,2024-10-24,2024-10-31,1,0.0001,-100.0,1,-100.0,stopped trading
 1723059,Bio Essence Corp,BIOE,2024-10-25,Oct 2024,2024-10-18,2024-10-25,3.33,0.76,-77.2,1,-69.6,OTC/other (OTC)
+1267813,"MARINUS PHARMACEUTICALS, INC.",MRNS,2024-10-24,Oct 2024,2024-10-18,2024-10-24,1.85,0.296,-84.0,1,-82.5,stopped trading
 1999480,"Alto Neuroscience, Inc.",ANRO,2024-10-23,Oct 2024,2024-10-22,2024-10-29,14.53,4.01,-72.4,1,-70.0,listed
 827871,"EAGLE PHARMACEUTICALS, INC.",EGRX,2024-10-02,Oct 2024,2024-09-26,2024-10-03,4.06,1.99,-51.0,2,-39.9,stopped trading
 1642375,"Guardion Health Sciences, Inc.",GHSI,2024-10-01,Oct 2024,2024-09-24,2024-10-01,6.55,3.23,-50.7,1,-41.7,stopped trading
@@ -370,6 +376,7 @@ cik,name,ticker,date,month,start_date,end_date,prev_close,low_close,fall_pct,day
 109657,"GT Biopharma, Inc.",GTBP,2024-05-21,May 2024,2024-05-20,2024-05-28,7.8,3.53,-54.7,3,-28.2,listed
 1585608,"Jaguar Health, Inc.",JAGX,2024-05-20,May 2024,2024-05-16,2024-05-23,2.26e+05,6.733e+04,-70.2,2,-34.7,listed
 1818844,"Dogwood Therapeutics, Inc.",DWTX,2024-05-20,May 2024,2024-05-15,2024-05-21,10.18,4.6,-54.8,1,-43.9,listed
+720154,"Inotiv, Inc.",NOTV,2024-05-14,May 2024,2024-05-08,2024-05-14,4.75,2.12,-55.4,1,-49.2,stopped trading
 1829635,"Transcode Therapeutics, Inc.",RNAZ,2024-05-13,May 2024,2024-05-10,2024-05-13,1303,569.2,-56.3,1,-56.3,listed
 1125345,MACROGENICS INC,MGNX,2024-05-10,May 2024,2024-05-06,2024-05-10,16.37,3.31,-79.8,1,-77.4,listed
 1501989,"CytomX Therapeutics, Inc.",CTMX,2024-05-09,May 2024,2024-05-02,2024-05-09,4.5,2.04,-54.7,1,-51.3,listed
@@ -381,8 +388,10 @@ cik,name,ticker,date,month,start_date,end_date,prev_close,low_close,fall_pct,day
 1860871,Tevogen Inc.,TVGN,2024-04-25,Apr 2024,2024-04-18,2024-04-25,106,42.5,-59.9,1,-43.3,listed
 1644963,"AVENUE THERAPEUTICS, INC.",ATXI,2024-04-24,Apr 2024,2024-04-23,2024-04-29,10.05,4.515,-55.1,4,-29.6,OTC/other (OTC)
 318306,ABEONA THERAPEUTICS INC.,ABEO,2024-04-23,Apr 2024,2024-04-17,2024-04-24,7.93,3.17,-60.0,1,-53.7,listed
+1391135,LFTD PARTNERS INC.,LIFD,2024-04-22,Apr 2024,2024-04-15,2024-04-22,1.708,0.68,-60.2,1,-35.2,OTC/other (OTC)
 1402328,Sunshine Biopharma Inc.,SBFM,2024-04-17,Apr 2024,2024-04-10,2024-04-17,1960,760,-61.2,1,-44.1,listed
 1855485,"Calidi Biotherapeutics, Inc.",CLDI,2024-04-16,Apr 2024,2024-04-12,2024-04-18,83.4,19.2,-77.0,1,-65.5,listed
+1267813,"MARINUS PHARMACEUTICALS, INC.",MRNS,2024-04-15,Apr 2024,2024-04-09,2024-04-16,8.38,1.2,-85.7,1,-82.7,stopped trading
 1596812,Enlivex Ltd.,ENLV,2024-04-11,Apr 2024,2024-04-08,2024-04-15,61.5,19.5,-68.3,1,-54.0,listed
 1671584,Aptevo Therapeutics Inc.,APVO,2024-04-11,Apr 2024,2024-04-08,2024-04-15,4.955e+04,1.043e+04,-79.0,1,-60.1,listed
 1860657,"Allarity Therapeutics, Inc.",ALLR,2024-04-11,Apr 2024,2024-04-04,2024-04-11,148.2,68.91,-53.5,1,-28.9,listed
@@ -400,6 +409,7 @@ cik,name,ticker,date,month,start_date,end_date,prev_close,low_close,fall_pct,day
 1712762,"bioAffinity Technologies, Inc.",BIAF,2024-03-06,Mar 2024,2024-03-05,2024-03-06,90,45,-50.0,1,-50.0,listed
 1671502,Quoin Pharmaceuticals Ltd.,QNRX,2024-03-05,Mar 2024,2024-03-04,2024-03-11,101.5,39.9,-60.7,2,-48.3,listed
 1580149,BIOVIE INC.,BIVI,2024-03-04,Mar 2024,2024-03-01,2024-03-08,189,71.8,-62.0,2,-43.7,listed
+1445283,"KINETA, INC./DE",KANT,2024-02-29,Feb 2024,2024-02-22,2024-02-29,2.61,0.82,-68.6,1,-63.7,stopped trading
 1174940,ORAGENICS INC,OGEN,2024-02-28,Feb 2024,2024-02-22,2024-02-29,98.7,42.9,-56.5,2,-42.0,listed
 911216,PALATIN TECHNOLOGIES INC,PTN,2024-02-28,Feb 2024,2024-02-27,2024-03-05,198.5,98.5,-50.4,4,-38.3,listed
 1598646,"Minerva Neurosciences, Inc.",NERV,2024-02-27,Feb 2024,2024-02-20,2024-02-27,8.8,2.8,-68.2,1,-58.8,listed
@@ -445,6 +455,7 @@ cik,name,ticker,date,month,start_date,end_date,prev_close,low_close,fall_pct,day
 1874252,Quantum Cyber N.V.,QUCY,2023-11-13,Nov 2023,2023-11-08,2023-11-13,3.15,1.2,-61.9,1,-46.4,listed
 1604464,"Atara Biotherapeutics, Inc.",ATRA,2023-11-09,Nov 2023,2023-11-07,2023-11-10,33.25,5.75,-82.7,1,-80.2,listed
 1808665,"Assertio Holdings, Inc.",ASRT,2023-11-09,Nov 2023,2023-11-03,2023-11-10,35.1,16.8,-52.1,2,-43.2,stopped trading
+1811623,"Kuvatris Therapeutics, Inc.",PXMD,2023-11-09,Nov 2023,2023-11-07,2023-11-13,4.5,1.71,-62.0,2,-30.9,stopped trading
 1835579,"ImageneBio, Inc.",IMA,2023-11-09,Nov 2023,2023-11-03,2023-11-09,52.8,15.96,-69.8,1,-67.8,listed
 1082038,DURECT CORP,DRRX,2023-11-08,Nov 2023,2023-11-01,2023-11-08,2.98,0.527,-82.3,1,-79.6,stopped trading
 1512762,"Coherus Oncology, Inc.",CHRS,2023-11-07,Nov 2023,2023-11-03,2023-11-10,3.61,1.59,-56.0,3,-30.2,listed
@@ -467,6 +478,7 @@ cik,name,ticker,date,month,start_date,end_date,prev_close,low_close,fall_pct,day
 1671858,"ARS Pharmaceuticals, Inc.",SPRY,2023-09-20,Sep 2023,2023-09-18,2023-09-20,7.44,2.92,-60.8,1,-55.8,listed
 1534120,"Avalo Therapeutics, Inc.",AVTX,2023-09-15,Sep 2023,2023-09-13,2023-09-20,53.76,26.64,-50.4,4,-38.1,listed
 1633070,Axcella Health Inc.,AXLA,2023-09-15,Sep 2023,2023-09-13,2023-09-20,29.75,10.36,-65.2,3,-38.2,stopped trading
+1792581,"Kiromic Biopharma, Inc.",KRBP,2023-09-14,Sep 2023,2023-09-12,2023-09-15,1.58,0.375,-76.3,1,-58.6,stopped trading
 1855485,"Calidi Biotherapeutics, Inc.",CLDI,2023-09-14,Sep 2023,2023-09-07,2023-09-14,1050,476.4,-54.6,1,-50.4,listed
 1962918,"ACELYRIN, Inc.",SLRN,2023-09-12,Sep 2023,2023-09-11,2023-09-13,27.9,10.71,-61.6,1,-54.1,stopped trading
 1516551,"Skye Bioscience, Inc.",SKYE,2023-09-08,Sep 2023,2023-09-07,2023-09-14,4.5,1.983,-55.9,5,-30.0,listed
@@ -488,6 +500,7 @@ cik,name,ticker,date,month,start_date,end_date,prev_close,low_close,fall_pct,day
 1513818,"Aravive, Inc.",ARAV,2023-08-03,Aug 2023,2023-07-28,2023-08-04,1.41,0.253,-82.1,1,-77.3,stopped trading
 1001316,"TG THERAPEUTICS, INC.",TGTX,2023-08-01,Aug 2023,2023-07-31,2023-08-07,20.69,10.1,-51.2,5,-49.3,listed
 1173313,"ABVC BIOPHARMA, INC.",ABVC,2023-07-27,Jul 2023,2023-07-26,2023-07-31,5.32,2.49,-53.2,3,-41.7,listed
+1442836,"Mersana Therapeutics, Inc.",MRSN,2023-07-27,Jul 2023,2023-07-26,2023-08-02,97.75,26.5,-72.9,1,-72.6,stopped trading
 1468748,Kodiak Sciences Inc.,KOD,2023-07-24,Jul 2023,2023-07-21,2023-07-28,7.29,2.87,-60.6,2,-45.8,listed
 925741,"BioCardia, Inc.",BCDA,2023-07-24,Jul 2023,2023-07-17,2023-07-24,37.2,16.5,-55.6,1,-44.4,listed
 1492422,"Apellis Pharmaceuticals, Inc.",APLS,2023-07-17,Jul 2023,2023-07-11,2023-07-18,86.5,40,-53.8,2,-37.9,stopped trading
@@ -499,8 +512,10 @@ cik,name,ticker,date,month,start_date,end_date,prev_close,low_close,fall_pct,day
 1787400,"Nkarta, Inc.",NKTX,2023-06-27,Jun 2023,2023-06-23,2023-06-30,4.62,2.19,-52.6,4,-38.0,listed
 1534120,"Avalo Therapeutics, Inc.",AVTX,2023-06-26,Jun 2023,2023-06-23,2023-06-30,1061,85.2,-92.0,1,-88.7,listed
 921299,"KYNTRA BIO, INC.",KYNB,2023-06-26,Jun 2023,2023-06-21,2023-06-28,425.2,62.25,-85.4,1,-83.1,listed
+799698,LadRx Corp,LADX,2023-06-22,Jun 2023,2023-05-17,2023-06-22,7.5,2.413,-67.8,1,-39.7,stopped trading
 1583648,"PALVELLA THERAPEUTICS, INC.",PVLA,2023-06-21,Jun 2023,2023-06-13,2023-06-21,75.44,20.88,-72.3,1,-70.8,listed
 1809616,Universe Pharmaceuticals INC,UPC,2023-06-16,Jun 2023,2023-06-13,2023-06-21,3474,1620,-53.4,2,-37.3,listed
+1442836,"Mersana Therapeutics, Inc.",MRSN,2023-06-15,Jun 2023,2023-06-14,2023-06-22,238.8,81,-66.1,1,-59.3,stopped trading
 1517681,"Propanc Biopharma, Inc.",PPCB,2023-06-09,Jun 2023,2023-06-07,2023-06-09,5,2.5,-50.0,1,-37.5,listed
 1600132,"Bellerophon Therapeutics, Inc.",BLPH,2023-06-05,Jun 2023,2023-05-26,2023-06-05,7.44,0.943,-87.3,1,-86.6,stopped trading
 1372514,KIORA PHARMACEUTICALS INC,KPRX,2023-06-02,Jun 2023,2023-05-30,2023-06-06,19.17,7.02,-63.4,1,-49.5,listed
@@ -516,15 +531,18 @@ cik,name,ticker,date,month,start_date,end_date,prev_close,low_close,fall_pct,day
 1740279,"IN8BIO, INC.",INAB,2023-04-25,Apr 2023,2023-04-24,2023-04-28,90,43.8,-51.3,4,-36.3,listed
 1820190,Scilex Holding Co,SCLX,2023-04-24,Apr 2023,2023-04-18,2023-04-25,314.7,148,-53.0,2,-29.3,listed
 1824293,"GRI Bio, Inc.",GRI,2023-04-24,Apr 2023,2023-04-19,2023-04-26,7.004e+05,2.577e+05,-63.2,3,-28.5,listed
+1797768,Kinnate Biopharma Inc.,KNTE,2023-04-18,Apr 2023,2023-04-13,2023-04-20,6.69,2.95,-55.9,2,-31.1,stopped trading
 1716947,"Ensysce Biosciences, Inc.",ENSC,2023-03-31,Mar 2023,2023-03-29,2023-04-05,102.6,51,-50.3,4,-28.4,listed
 1645469,Monopar Therapeutics,MNPR,2023-03-28,Mar 2023,2023-03-27,2023-03-30,14.9,6.95,-53.4,1,-51.3,listed
 1600847,Gamida Cell Ltd.,GMDAQ,2023-03-27,Mar 2023,2023-03-21,2023-03-27,1.48,0.68,-54.1,1,-49.6,stopped trading
 1855644,Zura Bio Ltd,ZURA,2023-03-27,Mar 2023,2023-03-23,2023-03-30,33.21,15.82,-52.4,2,-42.8,listed
 1860657,"Allarity Therapeutics, Inc.",ALLR,2023-03-24,Mar 2023,2023-03-23,2023-03-30,9.492e+04,4.224e+04,-55.5,4,-31.9,listed
 1094038,"Marker Therapeutics, Inc.",MRKR,2023-03-22,Mar 2023,2023-03-16,2023-03-23,2,0.94,-53.0,2,-31.8,listed
+1391135,LFTD PARTNERS INC.,LIFD,2023-03-22,Mar 2023,2023-03-15,2023-03-22,4.34,1.76,-59.4,1,-55.4,OTC/other (OTC)
 1326190,"Altimmune, Inc.",ALT,2023-03-21,Mar 2023,2023-03-14,2023-03-21,11.09,4.95,-55.4,1,-54.7,listed
 1708527,ELUTIA INC.,ELUT,2023-03-20,Mar 2023,2023-03-16,2023-03-22,4.23,1.19,-71.9,1,-62.8,listed
 1069308,Acer Therapeutics Inc.,ACER,2023-03-17,Mar 2023,2023-03-13,2023-03-17,1.72,0.67,-61.0,1,-56.8,stopped trading
+1445283,"KINETA, INC./DE",KANT,2023-03-17,Mar 2023,2023-03-14,2023-03-20,6.09,3.01,-50.6,2,-40.0,stopped trading
 1434868,"Esperion Therapeutics, Inc.",ESPR,2023-03-16,Mar 2023,2023-03-09,2023-03-16,4.82,1.82,-62.2,1,-54.3,stopped trading
 1231457,GENELUX Corp,GNLX,2023-03-13,Mar 2023,2023-03-06,2023-03-13,29.63,14.25,-51.9,1,-36.2,listed
 1862150,Cingulate Inc.,CING,2023-03-13,Mar 2023,2023-03-10,2023-03-17,444,222,-50.0,5,-28.6,listed
@@ -557,6 +575,7 @@ cik,name,ticker,date,month,start_date,end_date,prev_close,low_close,fall_pct,day
 1801777,Applied Molecular Transport Inc.,AMTI,2022-12-23,Dec 2022,2022-12-16,2022-12-23,1.12,0.435,-61.2,1,-57.8,stopped trading
 1580149,BIOVIE INC.,BIVI,2022-12-20,Dec 2022,2022-12-16,2022-12-21,1338,594,-55.6,1,-39.4,listed
 1690585,"Dianthus Therapeutics, Inc. /DE/",DNTH,2022-12-20,Dec 2022,2022-12-14,2022-12-21,17.12,5.76,-66.4,1,-53.0,listed
+1445283,"KINETA, INC./DE",KANT,2022-12-19,Dec 2022,2022-12-12,2022-12-19,11.19,4.95,-55.8,1,-51.8,stopped trading
 1611747,Scinai Immunotherapeutics Ltd.,SCNI,2022-12-16,Dec 2022,2022-12-09,2022-12-16,1096,360,-67.1,1,-58.6,listed
 1633070,Axcella Health Inc.,AXLA,2022-12-16,Dec 2022,2022-12-14,2022-12-20,22.3,8.225,-63.1,2,-63.1,stopped trading
 1708493,"Harpoon Therapeutics, Inc.",HARP,2022-12-13,Dec 2022,2022-12-12,2022-12-19,14.1,6.507,-53.9,4,-36.9,stopped trading
@@ -567,6 +586,7 @@ cik,name,ticker,date,month,start_date,end_date,prev_close,low_close,fall_pct,day
 1305253,"Eiger BioPharmaceuticals, Inc.",EIGR,2022-12-08,Dec 2022,2022-12-02,2022-12-08,135.9,35.1,-74.2,1,-69.5,stopped trading
 1553643,"RELMADA THERAPEUTICS, INC.",RLMD,2022-12-08,Dec 2022,2022-12-01,2022-12-08,4.6,2.17,-52.8,1,-47.8,listed
 1420720,"iBio, Inc.",IBIO,2022-12-07,Dec 2022,2022-12-02,2022-12-08,34,12.4,-63.5,1,-58.1,listed
+1576263,"Mirati Therapeutics, Inc.",MRTX,2022-12-07,Dec 2022,2022-12-02,2022-12-09,96.25,41.75,-56.6,2,-30.7,stopped trading
 1716947,"Ensysce Biosciences, Inc.",ENSC,2022-12-07,Dec 2022,2022-11-30,2022-12-07,522,187.2,-64.1,1,-53.4,listed
 1728117,"Gossamer Bio, Inc.",GOSS,2022-12-06,Dec 2022,2022-12-05,2022-12-08,743.2,172,-76.9,1,-74.6,listed
 1853816,"Dermata Therapeutics, Inc.",DRMA,2022-12-05,Dec 2022,2022-11-30,2022-12-07,1548,468,-69.8,1,-59.9,listed
@@ -574,9 +594,11 @@ cik,name,ticker,date,month,start_date,end_date,prev_close,low_close,fall_pct,day
 1729427,"CNS Pharmaceuticals, Inc.",CNSP,2022-11-30,Nov 2022,2022-11-23,2022-12-01,1.971e+05,8.7e+04,-55.9,1,-25.2,listed
 1868734,"CinCor Pharma, Inc.",CINC,2022-11-28,Nov 2022,2022-11-25,2022-11-30,26.53,11.8,-55.5,2,-46.8,stopped trading
 1820190,Scilex Holding Co,SCLX,2022-11-18,Nov 2022,2022-11-14,2022-11-21,220.3,107.9,-51.0,2,-40.6,listed
+720154,"Inotiv, Inc.",NOTV,2022-11-17,Nov 2022,2022-11-10,2022-11-17,17.27,6.82,-60.5,1,-57.0,stopped trading
 1824893,"Surrozen, Inc./DE",SRZN,2022-11-15,Nov 2022,2022-11-11,2022-11-18,27.6,13.35,-51.6,4,-30.2,listed
 1390478,"SELLAS Life Sciences Group, Inc.",SLS,2022-11-14,Nov 2022,2022-11-07,2022-11-14,5.27,2.55,-51.6,1,-44.0,listed
 1137883,BRAINSTORM CELL THERAPEUTICS INC.,BCLI,2022-11-10,Nov 2022,2022-11-03,2022-11-10,51.15,25.05,-51.0,1,-42.2,OTC/other (OTC)
+1640455,"Jounce Therapeutics, Inc.",JNCE,2022-11-10,Nov 2022,2022-11-09,2022-11-16,1.99,0.9832,-50.6,5,-41.2,stopped trading
 863894,VERU INC.,VERU,2022-11-10,Nov 2022,2022-11-08,2022-11-14,150.1,61.9,-58.8,1,-53.6,listed
 1368148,"ATHERSYS, INC / NEW",ATHX,2022-11-08,Nov 2022,2022-11-01,2022-11-08,2.69,1.28,-52.4,1,-43.4,listed (via Tiingo)
 1133818,"BIO-PATH HOLDINGS, INC.",BPTH,2022-11-07,Nov 2022,2022-11-01,2022-11-08,65.6,28.4,-56.7,1,-46.0,OTC/other (OTC)
@@ -590,6 +612,7 @@ cik,name,ticker,date,month,start_date,end_date,prev_close,low_close,fall_pct,day
 1854270,"Senti Biosciences Holdings, Inc.",SNTI,2022-10-07,Oct 2022,2022-10-06,2022-10-12,65.2,32,-50.9,4,-31.3,listed
 1755237,"Korsana Biosciences, Inc.",KRSA,2022-10-06,Oct 2022,2022-10-05,2022-10-11,131.6,52.22,-60.3,3,-37.6,listed
 1644963,"AVENUE THERAPEUTICS, INC.",ATXI,2022-10-05,Oct 2022,2022-10-04,2022-10-10,1088,193.5,-82.2,2,-41.6,OTC/other (OTC)
+1348911,"KalVista Pharmaceuticals, Inc.",KALV,2022-10-04,Oct 2022,2022-09-28,2022-10-05,14.8,5.15,-65.2,1,-58.9,stopped trading
 1411906,"Ampio Pharmaceuticals, Inc.",AMPE,2022-10-04,Oct 2022,2022-09-28,2022-10-04,19.26,6,-68.8,1,-65.8,stopped trading
 1420720,"iBio, Inc.",IBIO,2022-09-28,Sep 2022,2022-09-22,2022-09-29,185,90,-51.4,2,-34.4,listed
 1614067,"Aridis Pharmaceuticals, Inc.",ARDS,2022-09-26,Sep 2022,2022-09-21,2022-09-27,1.47,0.7289,-50.4,2,-29.7,stopped trading
@@ -646,6 +669,7 @@ cik,name,ticker,date,month,start_date,end_date,prev_close,low_close,fall_pct,day
 25743,"TherapeuticsMD, Inc.",TXMD,2022-05-09,May 2022,2022-05-03,2022-05-10,9.5,4.6,-51.6,2,-35.5,listed
 1466301,"Clovis Oncology, Inc.",CLVS,2022-05-06,May 2022,2022-05-03,2022-05-09,2.1,0.8139,-61.2,1,-32.6,stopped trading
 1618835,"Evofem Biosciences, Inc.",EVFM,2022-05-05,May 2022,2022-05-03,2022-05-10,2.475,1.12,-54.7,3,-32.9,OTC/other (OTC)
+1645666,"Kezar Life Sciences, Inc.",KZR,2022-05-04,May 2022,2022-05-02,2022-05-09,125.4,57.1,-54.5,4,-43.5,stopped trading
 1835268,Connect Biopharma Holdings Ltd,CNTB,2022-05-04,May 2022,2022-04-27,2022-05-04,2.27,0.82,-63.9,1,-57.7,listed
 897448,AMARIN CORP PLC\UK,AMRN,2022-05-04,May 2022,2022-04-28,2022-05-05,55.6,27,-51.4,2,-43.1,listed
 1701108,"Spero Therapeutics, Inc.",SPRO,2022-05-03,May 2022,2022-04-26,2022-05-03,5.25,1.85,-64.8,1,-63.7,listed
@@ -657,12 +681,14 @@ cik,name,ticker,date,month,start_date,end_date,prev_close,low_close,fall_pct,day
 1402328,Sunshine Biopharma Inc.,SBFM,2022-04-08,Apr 2022,2022-04-07,2022-04-14,1.93e+05,8.06e+04,-58.2,2,-37.5,listed
 1457612,"GENOCEA BIOSCIENCES, INC.",GNCA,2022-04-08,Apr 2022,2022-04-04,2022-04-08,1.38,0.4,-71.0,1,-69.2,stopped trading
 1662579,"C4 Therapeutics, Inc.",CCCC,2022-04-08,Apr 2022,2022-04-04,2022-04-11,26.46,8.01,-69.7,1,-50.6,listed
+1751299,"Kaleido Biosciences, Inc.",KLDO,2022-04-08,Apr 2022,2022-04-01,2022-04-08,1.7,0.2699,-84.1,1,-81.8,stopped trading
 1782107,"Onconetix, Inc.",ONCO,2022-04-08,Apr 2022,2022-04-04,2022-04-12,1.071e+07,1.13e+06,-89.4,1,-81.6,listed
 1674365,Aptinyx Inc.,APTX,2022-04-07,Apr 2022,2022-04-04,2022-04-07,2.58,1.19,-53.9,1,-49.1,stopped trading
 1517022,"Akebia Therapeutics, Inc.",AKBA,2022-03-30,Mar 2022,2022-03-24,2022-03-31,2.5,0.718,-71.3,1,-66.0,listed
 1810560,"REVELATION BIOSCIENCES, INC.",REVB,2022-03-30,Mar 2022,2022-03-25,2022-03-31,5.201e+05,2.298e+05,-55.8,2,-38.3,listed
 1819615,Clever Leaves Holdings Inc.,CLVR,2022-03-28,Mar 2022,2022-03-25,2022-03-28,115.2,57.3,-50.3,1,-50.3,stopped trading
 1262104,"Lite Strategy, Inc.",LITS,2022-03-25,Mar 2022,2022-03-22,2022-03-28,36.8,10.8,-70.7,1,-65.2,listed
+1786255,"Icosavax, Inc.",ICVX,2022-03-25,Mar 2022,2022-03-21,2022-03-25,14.97,4.41,-70.5,1,-64.5,stopped trading
 1850767,Accustem Sciences Inc.,ACUT,2022-03-23,Mar 2022,2022-03-18,2022-03-25,3,1.5,-50.0,3,-41.7,OTC/other (OTC)
 1824293,"GRI Bio, Inc.",GRI,2022-03-21,Mar 2022,2022-03-15,2022-03-22,9.954e+06,2.846e+06,-71.4,1,-69.0,listed
 1873875,Incannex Healthcare Inc.,IXHL,2022-03-16,Mar 2022,2022-03-15,2022-03-21,4260,1414,-66.8,1,-61.1,listed
@@ -708,6 +734,7 @@ cik,name,ticker,date,month,start_date,end_date,prev_close,low_close,fall_pct,day
 1713863,"Rafael Holdings, Inc.",RFL,2021-10-28,Oct 2021,2021-10-21,2021-10-28,30.88,7.978,-74.2,1,-73.2,listed
 1601485,"Elicio Therapeutics, Inc.",ELTX,2021-10-27,Oct 2021,2021-10-25,2021-10-27,90.5,38.6,-57.3,1,-55.6,listed
 1662774,"Quince Therapeutics, Inc.",QNCX,2021-10-27,Oct 2021,2021-10-22,2021-10-29,594.1,132,-77.8,1,-76.6,listed
+1634379,"Metacrine, Inc.",MTCR,2021-10-22,Oct 2021,2021-10-21,2021-10-27,3.83,1.43,-62.7,1,-57.4,stopped trading
 1593899,"Atea Pharmaceuticals, Inc.",AVIR,2021-10-19,Oct 2021,2021-10-13,2021-10-20,41.7,13.24,-68.2,1,-66.0,listed
 1678660,Prelude Therapeutics Inc,PRLD,2021-10-07,Oct 2021,2021-10-01,2021-10-08,31.74,15.87,-50.0,2,-39.7,listed
 1377121,"Protagonist Therapeutics, Inc",PTGX,2021-09-17,Sep 2021,2021-09-15,2021-09-20,46.47,12.95,-72.1,1,-62.0,listed
@@ -725,6 +752,7 @@ cik,name,ticker,date,month,start_date,end_date,prev_close,low_close,fall_pct,day
 1437402,"ARDELYX, INC.",ARDX,2021-07-20,Jul 2021,2021-07-13,2021-07-20,7.87,2.01,-74.5,1,-73.9,listed
 1766140,"Unicycive Therapeutics, Inc.",UNCY,2021-07-14,Jul 2021,2021-07-13,2021-07-19,58.5,27,-53.8,4,-35.0,listed
 1829635,"Transcode Therapeutics, Inc.",RNAZ,2021-07-13,Jul 2021,2021-07-12,2021-07-19,4.768e+06,2.188e+06,-54.1,4,-29.3,listed
+1792581,"Kiromic Biopharma, Inc.",KRBP,2021-06-30,Jun 2021,2021-06-24,2021-06-30,310.2,144.3,-53.5,1,-27.6,stopped trading
 725363,CEL SCI CORP,CVM,2021-06-28,Jun 2021,2021-06-25,2021-07-02,752.4,241.5,-67.9,3,-45.4,listed
 1750149,"Inhibikase Therapeutics, Inc.",IKT,2021-06-16,Jun 2021,2021-06-10,2021-06-17,36.96,17.34,-53.1,1,-27.1,listed
 1701541,"Black Diamond Therapeutics, Inc.",BDTX,2021-05-20,May 2021,2021-05-14,2021-05-21,27.5,13.4,-51.3,2,-37.3,listed
@@ -761,6 +789,7 @@ cik,name,ticker,date,month,start_date,end_date,prev_close,low_close,fall_pct,day
 1358403,"BELLICUM PHARMACEUTICALS, INC",BLCM,2020-10-30,Oct 2020,2020-10-28,2020-11-04,6.4,2.94,-54.1,3,-37.1,stopped trading
 1454789,"Astria Therapeutics, Inc.",ATXS,2020-10-27,Oct 2020,2020-10-22,2020-10-29,35.4,8.34,-76.4,1,-70.9,stopped trading
 1611747,Scinai Immunotherapeutics Ltd.,SCNI,2020-10-23,Oct 2020,2020-10-16,2020-10-23,4.097e+04,5200,-87.3,1,-86.3,listed
+1659323,Iterum Therapeutics plc,ITRM,2020-10-23,Oct 2020,2020-10-21,2020-10-28,17.7,6.849,-61.3,1,-44.7,stopped trading
 1780097,"Baudax Bio, Inc.",BXRX,2020-10-20,Oct 2020,2020-10-19,2020-10-26,3549,1734,-51.1,5,-40.2,stopped trading
 1755237,"Korsana Biosciences, Inc.",KRSA,2020-10-14,Oct 2020,2020-10-13,2020-10-20,996.8,371,-62.8,1,-52.9,listed
 1819576,Liquidia Corp,LQDA,2020-10-13,Oct 2020,2020-10-12,2020-10-16,5.79,2.86,-50.6,4,-29.5,listed
