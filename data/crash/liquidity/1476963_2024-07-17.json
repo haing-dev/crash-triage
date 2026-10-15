@@ -1,0 +1,45 @@
+{
+ "id": "1476963_2024-07-17",
+ "asof": "2024-07-22",
+ "chars": 25505,
+ "one_off_receipts": [
+  {
+   "amount_usd": 1000000,
+   "what": "Sale of intellectual property license (Shattuck license / patent rights) to Kopfkino IP, LLC",
+   "quote": "the sale of an intellectual property license of $1.0 million."
+  }
+ ],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-05-01",
+   "net_proceeds_usd": 750000,
+   "what": "1% non-convertible promissory note issued to related party (Elusys Holdings), repaid from the May offering proceeds",
+   "quote": "in May 2024 the Company issued the Note for proceeds of $750,000 and raised net proceeds of $5.3 million (after repayment of the Note) in a public offering."
+  },
+  {
+   "date": "2024-05-16",
+   "net_proceeds_usd": 5300000,
+   "what": "Public offering of units and pre-funded units, net proceeds after repayment of the Note",
+   "quote": "raised net proceeds of $5.3 million (after repayment of the Note) in a public offering."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 61309000,
+   "exercise_price_usd": 0.12,
+   "expiry": "2029-05-16",
+   "quote": "one warrant (the \u201cCommon Warrants\u201d) to purchase one share of common stock (the \u201cCommon Warrant Shares\u201d), at an exercise price of $0.12 per share (120% of the offering price per Unit)."
+  },
+  {
+   "count": 30180000,
+   "exercise_price_usd": 0.0002,
+   "expiry": null,
+   "quote": "The Pre-Funded Warrants are immediately exercisable for one share of common stock at an exercise price of $0.0002 per share and will remain exercisable until exercised in full."
+  }
+ ],
+ "warrants_dropped": 0
+}

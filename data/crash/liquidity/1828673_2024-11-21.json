@@ -1,0 +1,39 @@
+{
+ "id": "1828673_2024-11-21",
+ "asof": "2024-11-25",
+ "chars": 19777,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-10-31",
+   "net_proceeds_usd": 375000,
+   "what": "Additional Secured Notes issued in October 2024 (date is the latest possible; the filing says only 'During October 2024')",
+   "quote": "During October 2024, the Company issued $375,000 in Additional Secured Notes"
+  },
+  {
+   "date": "2024-11-20",
+   "net_proceeds_usd": 6900000,
+   "what": "Registered direct offering plus concurrent private placement, closed Nov 20, 2024 (gross proceeds; net not given)",
+   "quote": "The gross proceeds to the Company from the Offering are approximately $6.9 million before deducting the placement agent\u2019s fees and other offering expenses payable by the Company."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 6717000,
+   "exercise_price_usd": null,
+   "expiry": null,
+   "quote": "unregistered warrants to purchase up to an aggregate of 6,717,000 shares of Common Stock"
+  },
+  {
+   "count": 2557000,
+   "exercise_price_usd": null,
+   "expiry": null,
+   "quote": "pre-funded warrants to purchase up to 2,557,000 shares of common stock (the \u201cPre-Funded Warrants\u201d)"
+  }
+ ],
+ "warrants_dropped": 0
+}

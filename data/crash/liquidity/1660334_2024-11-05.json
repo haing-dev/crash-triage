@@ -1,0 +1,32 @@
+{
+ "id": "1660334_2024-11-05",
+ "asof": "2024-11-05",
+ "chars": 21288,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 1481481,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "Pre-funded warrants issued pursuant to 2023 underwritten public offering"
+  },
+  {
+   "count": 518551,
+   "exercise_price_usd": 6.0264,
+   "expiry": "2033-07-25",
+   "quote": "the Company also issued the Initial Lender warrants to purchase up to 518,551 shares of the Company\u2019s common stock, at an exercise price of $6.0264 per share"
+  },
+  {
+   "count": 500000,
+   "exercise_price_usd": 9.56,
+   "expiry": "2034-05-14",
+   "quote": "Warrants issued in connection with Torii amendment"
+  }
+ ],
+ "warrants_dropped": 0
+}

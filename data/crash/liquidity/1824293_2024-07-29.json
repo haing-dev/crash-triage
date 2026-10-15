@@ -1,0 +1,39 @@
+{
+ "id": "1824293_2024-07-29",
+ "asof": "2024-08-02",
+ "chars": 31097,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-06-27",
+   "net_proceeds_usd": 3200000,
+   "what": "June 2024 public offering via H.C. Wainwright (shares/pre-funded warrants with Series C-1/C-2 warrants); closing date not stated, so the offering's filing date is used",
+   "quote": "excluding the net proceeds, if any, from the exercise of the Warrants, is approximately $3.2 million"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 5000000,
+   "exercise_price_usd": 1.1,
+   "expiry": "2029-02-06",
+   "quote": "Each Series B-1 Common Warrant is exercisable into one share of Common Stock at a price per share of $1.10 for a five-year period after February 6, 2024, the date of issuance."
+  },
+  {
+   "count": 5000000,
+   "exercise_price_usd": 1.1,
+   "expiry": "2025-08-06",
+   "quote": "Each Series B-2 Common Warrant is exercisable into one share of Common Stock at a price per share of $1.10 for an 18-month period after February 6,2024, the date of issuance."
+  },
+  {
+   "count": 4669550,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "Each Pre-Funded Warrant is exercisable for one share of Common Stock at a price per share of $0.0001 and does not expire."
+  }
+ ],
+ "warrants_dropped": 0
+}

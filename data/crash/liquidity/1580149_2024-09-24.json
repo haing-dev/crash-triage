@@ -1,0 +1,32 @@
+{
+ "id": "1580149_2024-09-24",
+ "asof": "2024-09-24",
+ "chars": 9888,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 7272728,
+   "exercise_price_usd": 1.0,
+   "expiry": null,
+   "quote": "a warrant to purchase 7,272,728 shares of Common Stock (\u201cPIPE Warrant Shares\u201d), at an exercise price of $1.82, with a term of exercise of five years."
+  },
+  {
+   "count": 361002,
+   "exercise_price_usd": 5.82,
+   "expiry": "2026-11-30",
+   "quote": "The Avenue Warrants are exercisable until November 30, 2026."
+  },
+  {
+   "count": 10500000,
+   "exercise_price_usd": 1.5,
+   "expiry": "2029-03-06",
+   "quote": "The Common Warrants have an exercise price of $1.50 per share and are immediately exercisable upon issuance for a period of five years following the date of issuance."
+  }
+ ],
+ "warrants_dropped": 0
+}

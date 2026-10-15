@@ -1,0 +1,33 @@
+{
+ "id": "1896212_2024-07-03",
+ "asof": "2024-07-08",
+ "chars": 10368,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-04-30",
+   "net_proceeds_usd": 180965.63,
+   "what": "April 2024 private placement of 1,447,725 warrants at $0.125 per warrant (exact April closing date not stated; April 30 is a placeholder)",
+   "quote": "to purchase up to an aggregate 1,447,725 shares of the Company\u2019s common stock, in exchange for entering into a lock-up"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 1447725,
+   "exercise_price_usd": 3.12,
+   "expiry": null,
+   "quote": "Each Warrant is exercisable into one share of the Company\u2019s common stock at a price per share of $3.12"
+  },
+  {
+   "count": 54000,
+   "exercise_price_usd": 11.0,
+   "expiry": null,
+   "quote": "warrants to purchase 54,000 shares of Common Stock at an exercise price of $11.00 per share"
+  }
+ ],
+ "warrants_dropped": 0
+}
