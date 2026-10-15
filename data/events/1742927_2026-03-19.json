@@ -1,0 +1,47 @@
+{
+ "cik": "1742927",
+ "name": "REVIVA PHARMACEUTICALS HOLDINGS, INC.",
+ "ticker": "RVPH",
+ "date": "2026-03-19",
+ "fall_pct": "-68.6",
+ "days": "1",
+ "news_day_pct": "-55.4",
+ "status": "read",
+ "source": {
+  "filing_date": "2026-03-19",
+  "accession": "0001437749-26-009063",
+  "doc": "rvph20260319_8k.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1742927/000143774926009063/rvph20260319_8k.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Priced $10M discounted registered offering with two warrant series \u00b7 Phase 3 planned \u00b7 brilaroxazine in schizophrenia \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "brilaroxazine",
+  "indication": "schizophrenia",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "the Company agreed to sell and issue, in a registered public offering (the \u201cOffering\u201d), (i) an aggregate of 6,283,334 shares",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "cik": "1980845",
+ "name": "enGene Therapeutics Inc.",
+ "ticker": "ENGN",
+ "date": "2026-05-07",
+ "fall_pct": "-83.7",
+ "days": "1",
+ "news_day_pct": "-80.6",
+ "status": "read",
+ "source": {
+  "filing_date": "2026-05-07",
+  "accession": "0001193125-26-210316",
+  "doc": "d335486dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1980845/000119312526210316/d335486dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Durability disappointing, lower CR in newer patients \u00b7 Phase 2 pivotal \u00b7 detalimogene voraplasmid in BCG-unresponsive NMIBC \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "detalimogene voraplasmid",
+  "indication": "BCG-unresponsive non-muscle invasive bladder cancer with carcinoma in situ",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": 125,
+   "serious_drug_related_patients": 6,
+   "deaths": 0,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "While durability outcomes to date are not what we hoped, these data are preliminary.",
+   "primary_endpoint_met": null,
+   "safety": "Six patients experienced Grade \u22653 TRAEs, including one Grade 4 TRAE, which has resolved. There were no Grade 5 TRAEs reported.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

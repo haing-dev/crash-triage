@@ -1,0 +1,47 @@
+{
+ "cik": "1341235",
+ "name": "Aldeyra Therapeutics, Inc.",
+ "ticker": "ALDX",
+ "date": "2026-03-17",
+ "fall_pct": "-75.2",
+ "days": "1",
+ "news_day_pct": "-70.7",
+ "status": "read",
+ "source": {
+  "filing_date": "2026-03-17",
+  "accession": "0001193125-26-109511",
+  "doc": "aldx-ex99_1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1341235/000119312526109511/aldx-ex99_1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "regulatory rejection",
+  "summary": "FDA issued complete response letter citing lack of efficacy evidence \u00b7 Filed (NDA) \u00b7 reproxalap in dry eye disease \u00b7 filed for approval",
+  "phase": "Filed",
+  "drug": "reproxalap",
+  "indication": "dry eye disease",
+  "market_stage": "filed for approval",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "the application has failed to demonstrate efficacy in adequate and well controlled studies in the treatment of signs and symptoms of dry eye disease.",
+   "primary_endpoint_met": "the \u201ctotality of evidence from the completed clinical trials does not support the effectiveness of the product.\u201d",
+   "safety": "Consistent with prior NDA reviews of reproxalap, no safety or manufacturing concerns were identified.",
+   "program_discontinued": "intends to expeditiously request a Type A meeting to understand the actions needed for NDA approval."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

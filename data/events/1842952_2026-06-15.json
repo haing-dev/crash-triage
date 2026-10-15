@@ -1,0 +1,47 @@
+{
+ "cik": "1842952",
+ "name": "Context Therapeutics Inc.",
+ "ticker": "CNTX",
+ "date": "2026-06-15",
+ "fall_pct": "-60.3",
+ "days": "1",
+ "news_day_pct": "-51.2",
+ "status": "read",
+ "source": {
+  "filing_date": "2026-06-15",
+  "accession": "0001628280-26-043042",
+  "doc": "cntx-20260615.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1842952/000162828026043042/cntx-20260615.htm"
+ },
+ "facts": {
+  "related": false,
+  "trigger": "other",
+  "summary": "Company announced positive interim Phase 1 results; no cause for drop stated \u00b7 Phase 1 \u00b7 CTIM-76 in indication not stated \u00b7 not yet approved",
+  "phase": "Phase 1",
+  "drug": "CTIM-76",
+  "indication": "n/a",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "announcing positive interim efficacy and safety results from its ongoing Phase 1 clinical trial for CTIM-76, the Company\u2019s investigational Claudin 6 x CD3 T cell engaging bispecific antibody",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

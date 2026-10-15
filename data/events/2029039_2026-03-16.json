@@ -1,0 +1,47 @@
+{
+ "cik": "2029039",
+ "name": "Nasus Pharma Ltd",
+ "ticker": "NSRX",
+ "date": "2026-03-16",
+ "fall_pct": "-50.4",
+ "days": "4",
+ "news_day_pct": "-38.0",
+ "status": "read",
+ "source": {
+  "filing_date": "2026-03-16",
+  "accession": "0001493152-26-010189",
+  "doc": "ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/2029039/000149315226010189/ex99-1.htm"
+ },
+ "facts": {
+  "related": false,
+  "trigger": "other",
+  "summary": "Positive Phase 2 PK data announced, no explanation for drop \u00b7 Phase 2 \u00b7 NS002 intranasal epinephrine in anaphylaxis \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "NS002",
+  "indication": "anaphylaxis",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": true,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": 50,
+   "serious_drug_related_patients": 0,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "Nasus Pharma Announces Positive Top Line Data from Phase 2 Clinical Study of NS002: Achieves Significantly Superior and Faster Epinephrine Delivery Compared to EpiPen\u00ae",
+   "primary_endpoint_met": "NS002 demonstrated significantly faster time to the critical 100 pg/mL epinephrine threshold compared to EpiPen\u00ae, with a median T100 of 1.69 minutes versus 3.42 minutes (p=0.033).",
+   "safety": "NS002 demonstrated a favorable safety and tolerability profile consistent with previous studies, with no serious adverse events reported.",
+   "program_discontinued": "Pivotal study initiation planned for fourth quarter of 2026"
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

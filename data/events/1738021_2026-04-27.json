@@ -1,0 +1,47 @@
+{
+ "cik": "1738021",
+ "name": "Compass Therapeutics, Inc.",
+ "ticker": "CMPX",
+ "date": "2026-04-27",
+ "fall_pct": "-66.9",
+ "days": "1",
+ "news_day_pct": "-64.4",
+ "status": "read",
+ "source": {
+  "filing_date": "2026-04-27",
+  "accession": "0001171843-26-002720",
+  "doc": "f8k_042526.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1738021/000117184326002720/f8k_042526.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Overall survival secondary endpoint missed despite PFS gain \u00b7 Phase 2/3 \u00b7 tovecimig plus paclitaxel in biliary tract cancer \u00b7 not yet approved",
+  "phase": "Phase 2/3",
+  "drug": "tovecimig",
+  "indication": "biliary tract cancer",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": true,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "Tovecimig did not meet the OS secondary endpoint due to high crossover from the control arm (31 of 57 patients, or 54%) and prolonged survival of those crossover patients after receiving tovecimig",
+   "primary_endpoint_met": "The difference in ORR between the two treatment arms, the primary endpoint of the study, was statistically significant (p=0.031)",
+   "safety": "Tovecimig was generally well tolerated and the safety profile was consistent with previously reported data from prior studies, with no new safety signals.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

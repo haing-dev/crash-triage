@@ -1,0 +1,47 @@
+{
+ "cik": "1709941",
+ "name": "BioAge Labs, Inc.",
+ "ticker": "BIOA",
+ "date": "2026-07-31",
+ "fall_pct": "-63.6",
+ "days": "1",
+ "news_day_pct": "-63.6",
+ "status": "read",
+ "source": {
+  "filing_date": "2026-08-05",
+  "accession": "0001193125-26-335368",
+  "doc": "bioa-ex99_1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1709941/000119312526335368/bioa-ex99_1.htm"
+ },
+ "facts": {
+  "related": false,
+  "trigger": "other",
+  "summary": "Q2 2026 earnings and business update; no negative event disclosed \u00b7 Phase 2 ongoing \u00b7 BGE-102 in obesity with inflammation \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "BGE-102",
+  "indication": "obesity with elevated inflammation / cardiovascular risk",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "First participant dosed in QUELL-CV, a Phase 2 dose-ranging proof-of-concept trial of BGE-102 measuring inflammatory and cardiometabolic biomarkers; topline data anticipated in the second half of 2026",
+   "primary_endpoint_met": null,
+   "safety": "BGE-102 was well tolerated across all dose levels evaluated, with no serious adverse events, no treatment-emergent adverse events leading to discontinuation",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

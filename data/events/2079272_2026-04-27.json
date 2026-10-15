@@ -1,0 +1,47 @@
+{
+ "cik": "2079272",
+ "name": "Lakewood-Amedex Biotherapeutics Inc.",
+ "ticker": "LABT",
+ "date": "2026-04-27",
+ "fall_pct": "-69.2",
+ "days": "1",
+ "news_day_pct": "-50.2",
+ "status": "read",
+ "source": {
+  "filing_date": "2026-04-28",
+  "accession": "0001213900-26-048553",
+  "doc": "ea028796001ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/2079272/000121390026048553/ea028796001ex99-1.htm"
+ },
+ "facts": {
+  "related": false,
+  "trigger": "other",
+  "summary": "Board appointment of new director after Nasdaq direct listing \u00b7 Phase 2 planned \u00b7 Nu-3 in infected diabetic foot ulcers \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "Nu-3",
+  "indication": "mildly infected diabetic foot ulcers",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "today announced the appointment of Joseph Tucker, Ph.D., Chief Executive Officer of Enveric Biosciences (Nasdaq: ENVB), to its Board of Directors.",
+   "primary_endpoint_met": null,
+   "safety": "Data from initial exploratory clinical trials with Nu-3 using subclinical doses did not reveal any safety signals",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

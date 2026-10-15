@@ -1,0 +1,47 @@
+{
+ "cik": "1771910",
+ "name": "ADC Therapeutics SA",
+ "ticker": "ADCT",
+ "date": "2026-06-04",
+ "fall_pct": "-61.7",
+ "days": "1",
+ "news_day_pct": "-57.1",
+ "status": "read",
+ "source": {
+  "filing_date": "2026-06-03",
+  "accession": "0000950103-26-008465",
+  "doc": "dp247928_8k.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1771910/000095010326008465/dp247928_8k.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "safety",
+  "summary": "Primary endpoint met but higher Grade 5 deaths and SAEs vs control \u00b7 Phase 3 \u00b7 ZYNLONTA plus rituximab in r/r DLBCL \u00b7 on market",
+  "phase": "Phase 3",
+  "drug": "ZYNLONTA (loncastuximab tesirine-lpyl) plus rituximab",
+  "indication": "relapsed or refractory diffuse large B-cell lymphoma",
+  "market_stage": "on market",
+  "primary_endpoint_met": true,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": 27,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": false
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "A higher rate of Grade 5 TEAEs was observed in the ZYNLONTA plus rituximab arm (27 pts/13.2%) vs. R-GemOx (9 pts/4.6%).",
+   "primary_endpoint_met": "The study met the primary endpoint of progression-free survival (\u201cPFS\u201d) (per independent review committee) with statistical significance (HR = 0.73; p-value = 0.008 two sided)",
+   "safety": "A higher rate of Grade 5 TEAEs was observed in the ZYNLONTA plus rituximab arm (27 pts/13.2%) vs. R-GemOx (9 pts/4.6%).",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

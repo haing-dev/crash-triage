@@ -1,0 +1,47 @@
+{
+ "cik": "1661059",
+ "name": "NextCure, Inc.",
+ "ticker": "NXTC",
+ "date": "2026-06-01",
+ "fall_pct": "-56.8",
+ "days": "1",
+ "news_day_pct": "-45.5",
+ "status": "read",
+ "source": {
+  "filing_date": "2026-06-01",
+  "accession": "0001104659-26-068604",
+  "doc": "nxtc-20260601xex99d1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1661059/000110465926068604/nxtc-20260601xex99d1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "other",
+  "summary": "Positive-framed Phase 1 ADC data (55% ORR) presented at ASCO, stock fell \u00b7 Phase 1 \u00b7 SIM0505 in gynecologic cancers \u00b7 not yet approved",
+  "phase": "Phase 1",
+  "drug": "SIM0505",
+  "indication": "platinum-resistant ovarian cancer and uterine serous carcinoma (gynecologic cancers)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": 59,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "NextCure Presents Positive SIM0505 Phase 1 Dose Escalation Data in Patients with Gynecologic Cancers at ASCO 2026",
+   "primary_endpoint_met": null,
+   "safety": "Favorable safety and tolerability in heavily pretreated population supports ongoing Phase 1 dose-optimization with emphasis on PROC",
+   "program_discontinued": "In May 2026, NextCure initiated a Phase 1 dose optimization segment in gynecologic cancers, initially focusing on patients with PROC."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

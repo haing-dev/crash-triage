@@ -1,0 +1,47 @@
+{
+ "cik": "1402328",
+ "name": "Sunshine Biopharma Inc.",
+ "ticker": "SBFM",
+ "date": "2026-05-13",
+ "fall_pct": "-56.6",
+ "days": "2",
+ "news_day_pct": "-37.1",
+ "status": "read",
+ "source": {
+  "filing_date": "2026-05-19",
+  "accession": "0001683168-26-004116",
+  "doc": "sunshine_ex9901.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1402328/000168316826004116/sunshine_ex9901.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Priced $6.0M dilutive public offering at $0.50 with two warrants per unit \u00b7 n/a \u00b7 K1.1 mRNA in liver cancer \u00b7 not yet approved",
+  "phase": "Preclinical",
+  "drug": "K1.1 mRNA",
+  "indication": "liver cancer",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "announced the pricing of a public offering made on a reasonable best efforts basis with gross proceeds to the Company expected to be approximately $6.0 million",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

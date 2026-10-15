@@ -1,0 +1,47 @@
+{
+ "cik": "1689375",
+ "name": "Entrada Therapeutics, Inc.",
+ "ticker": "TRDA",
+ "date": "2026-05-07",
+ "fall_pct": "-57.3",
+ "days": "1",
+ "news_day_pct": "-57.3",
+ "status": "read",
+ "source": {
+  "filing_date": "2026-05-07",
+  "accession": "0001689375-26-000027",
+  "doc": "trda-20260507.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1689375/000168937526000027/trda-20260507.htm"
+ },
+ "facts": {
+  "related": false,
+  "trigger": "other",
+  "summary": "Company announced positive topline cohort 1 results; no detail explaining drop \u00b7 Phase 1/2 \u00b7 ENTR-601-44 in Duchenne muscular dystrophy \u00b7 not yet approved",
+  "phase": "Phase 1/2",
+  "drug": "ENTR-601-44",
+  "indication": "Duchenne muscular dystrophy",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "Entrada Therapeutics Announces Positive Topline Results from Cohort 1 of Participants with Duchenne Muscular Dystrophy Treated with ENTR-601-44 in Phase 1/2 ELEVATE-44-201 Study.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

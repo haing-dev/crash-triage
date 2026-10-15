@@ -1,0 +1,47 @@
+{
+ "cik": "1680581",
+ "name": "Fulcrum Therapeutics, Inc.",
+ "ticker": "FULC",
+ "date": "2026-06-02",
+ "fall_pct": "-54.6",
+ "days": "1",
+ "news_day_pct": "-51.1",
+ "status": "read",
+ "source": {
+  "filing_date": "2026-06-01",
+  "accession": "0001193125-26-251394",
+  "doc": "fulc-ex99_1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1680581/000119312526251394/fulc-ex99_1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "regulatory rejection",
+  "summary": "FDA safety concerns ended program; company starts strategic review \u00b7 Phase 1b \u00b7 pociredir in sickle cell disease \u00b7 not yet approved",
+  "phase": "Phase 1",
+  "drug": "pociredir",
+  "indication": "sickle cell disease",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": 0,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "FDA considered this position but concluded that any pharmacological intervention targeting the PRC2 complex carries equivalent malignancy risk regardless of the specific subunit engaged.",
+   "primary_endpoint_met": null,
+   "safety": "Across the 12 mg and 20 mg dose cohorts, pociredir has been generally well-tolerated with up to three months of exposure, with no treatment-related serious adverse events reported.",
+   "program_discontinued": "today announced the discontinuation of its pociredir program for the treatment of SCD and the initiation of a comprehensive review of strategic alternatives to maximize stockholder value."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

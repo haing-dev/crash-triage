@@ -1,0 +1,47 @@
+{
+ "cik": "1737953",
+ "name": "Replimune Group, Inc.",
+ "ticker": "REPL",
+ "date": "2026-04-13",
+ "fall_pct": "-80.1",
+ "days": "1",
+ "news_day_pct": "-64.3",
+ "status": "read",
+ "source": {
+  "filing_date": "2026-04-13",
+  "accession": "0001104659-26-042141",
+  "doc": "tm2611633d1_ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1737953/000110465926042141/tm2611633d1_ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "regulatory rejection",
+  "summary": "FDA issued complete response letter, company cutting jobs \u00b7 Filed (BLA resubmission) \u00b7 RP1 plus nivolumab in advanced melanoma \u00b7 not yet approved",
+  "phase": "Filed",
+  "drug": "RP1 (vusolimogene oderparepvec) plus nivolumab",
+  "indication": "advanced melanoma",
+  "market_stage": "filed for approval",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "Replimune Receives Complete Response Letter from the FDA for RP1 Biologics License Application for the Treatment of Advanced Melanoma",
+   "primary_endpoint_met": null,
+   "safety": "patients with confirmed progression on an anti-PD-1 based regimen who received RP1 plus nivolumab had a 34% response rate with a median duration of 24.8 months with a favorable safety profile.",
+   "program_discontinued": "without timely accelerated approval, the development of RP1 will not be viable."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "cik": "1835597",
+ "name": "PepGen Inc.",
+ "ticker": "PEPG",
+ "date": "2026-03-31",
+ "fall_pct": "-64.6",
+ "days": "1",
+ "news_day_pct": "-58.2",
+ "status": "read",
+ "source": {
+  "filing_date": "2026-03-30",
+  "accession": "0001193125-26-131786",
+  "doc": "pepg-ex99_1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1835597/000119312526131786/pepg-ex99_1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Low-dose cohort showed weak splicing correction versus placebo, no functional gains \u00b7 Phase 2 \u00b7 PGN-EDODM1 in myotonic dystrophy type 1 \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "PGN-EDODM1",
+  "indication": "myotonic dystrophy type 1 (DM1)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": 6,
+   "serious_drug_related_patients": 0,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "Patients (n=6) treated with PGN-EDODM1 at 5 mg/kg demonstrated a mean splicing correction of 7.3%, compared to 6.8% in placebo-treated patients (n=2).",
+   "primary_endpoint_met": null,
+   "safety": "PGN-EDODM1 was generally well-tolerated, with no serious adverse events (SAEs), all related treatment emergent adverse events (TEAEs) reported as mild and non-related TEAEs reported as mild or moderate",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

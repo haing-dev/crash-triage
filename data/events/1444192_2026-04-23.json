@@ -1,0 +1,47 @@
+{
+ "cik": "1444192",
+ "name": "Grace Therapeutics, Inc.",
+ "ticker": "GRCE",
+ "date": "2026-04-23",
+ "fall_pct": "-54.9",
+ "days": "2",
+ "news_day_pct": "-45.5",
+ "status": "read",
+ "source": {
+  "filing_date": "2026-04-23",
+  "accession": "0001140361-26-016324",
+  "doc": "ef20070593_ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1444192/000114036126016324/ef20070593_ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "regulatory rejection",
+  "summary": "FDA issued complete response letter citing CMC and non-clinical issues; no new clinical data requested \u00b7 Filed \u00b7 GTx-104 in aSAH \u00b7 filed for approval",
+  "phase": "Filed",
+  "drug": "GTx-104",
+  "indication": "aneurysmal subarachnoid hemorrhage (aSAH)",
+  "market_stage": "filed for approval",
+  "primary_endpoint_met": true,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": 50,
+   "serious_drug_related_patients": null,
+   "deaths": 8,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "the U.S. Food and Drug Administration (FDA) has issued a Complete Response Letter (CRL) for the Company\u2019s New Drug Application (NDA) for GTx-104 for the treatment of patients with aSAH.",
+   "primary_endpoint_met": "The trial met its primary endpoint, with patients receiving GTx-104 observed to have a 19% reduction in at least one incidence of clinically significant hypotension compared to oral nimodipine (28% versus 35%).",
+   "safety": "No deaths were determined to be related to GTx-104 or oral nimodipine.",
+   "program_discontinued": "Company Intends to Resubmit Application Following Resolution of Cited Items"
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

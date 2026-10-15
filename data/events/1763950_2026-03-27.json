@@ -1,0 +1,47 @@
+{
+ "cik": "1763950",
+ "name": "Lantern Pharma Inc.",
+ "ticker": "LTRN",
+ "date": "2026-03-27",
+ "fall_pct": "-50.0",
+ "days": "1",
+ "news_day_pct": "-46.4",
+ "status": "read",
+ "source": {
+  "filing_date": "2026-03-30",
+  "accession": "0001493152-26-013608",
+  "doc": "ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1763950/000149315226013608/ex99-1.htm"
+ },
+ "facts": {
+  "related": false,
+  "trigger": "other",
+  "summary": "Q4 results with going-concern-style funding warning and trial redesign plan \u00b7 Phase 2 \u00b7 LP-300 in never-smoker NSCLC \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "LP-300",
+  "indication": "never-smoker non-small cell lung cancer (NSCLC)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "The company will need to obtain substantial additional funding in the near future and it is actively evaluating and pursuing potential funding alternatives.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}
