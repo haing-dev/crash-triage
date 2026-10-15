@@ -1,0 +1,44 @@
+{
+ "cik": "1880438",
+ "name": "AN2 Therapeutics, Inc.",
+ "ticker": "ANTX",
+ "date": "2024-02-12",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-02-12",
+  "accession": "0001193125-24-031008",
+  "doc": "d744326d8k.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1880438/000119312524031008/d744326d8k.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Paused Phase 3 enrollment after blinded pooled analysis showed lower than expected efficacy \u00b7 Phase 2/3 \u00b7 epetraborole in treatment-refractory MAC lung disease \u00b7 not yet approved",
+  "phase": "Phase 2/3",
+  "drug": "epetraborole",
+  "indication": "treatment-refractory Mycobacterium avium complex (MAC) lung disease",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": true,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "The voluntary pause was instituted following a blinded aggregate analysis of the ongoing Phase 2 study, including pooled patients from both treatment arms, which showed potentially lower than expected efficacy.",
+   "primary_endpoint_met": null,
+   "safety": "The decision was not due to safety concerns.",
+   "program_discontinued": "Patients already enrolled in the Phase 2/3 trial will be allowed to continue on study."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

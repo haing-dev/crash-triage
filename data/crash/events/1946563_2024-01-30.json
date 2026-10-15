@@ -1,0 +1,44 @@
+{
+ "cik": "1946563",
+ "name": "60 DEGREES PHARMACEUTICALS, INC.",
+ "ticker": "SXTP",
+ "date": "2024-01-30",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-01-31",
+  "accession": "0001213900-24-008068",
+  "doc": "ea192477-424b4_60degrees.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1946563/000121390024008068/ea192477-424b4_60degrees.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": null,
+  "phase": "Approved",
+  "drug": "Arakoda (Tafenoquine)",
+  "indication": "malaria prevention",
+  "market_stage": "on market",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "at a public offering price of $0.3850 per Unit. Each Warrant offered hereby is immediately exercisable on the date of issuance at an exercise price of $0.4235 per share",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": false,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

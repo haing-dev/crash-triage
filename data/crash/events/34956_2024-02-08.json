@@ -1,0 +1,44 @@
+{
+ "cik": "34956",
+ "name": "TENAX THERAPEUTICS, INC.",
+ "ticker": "TENX",
+ "date": "2024-02-08",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-02-08",
+  "accession": "0001654954-24-001465",
+  "doc": "tenx_ex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/34956/000165495424001465/tenx_ex991.htm"
+ },
+ "facts": {
+  "related": false,
+  "trigger": "other",
+  "summary": "First patient enrolled in pivotal trial \u00b7 Phase 3 \u00b7 TNX-103 (oral levosimendan) in PH-HFpEF \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "TNX-103 (oral levosimendan)",
+  "indication": "pulmonary hypertension in heart failure with preserved ejection fraction (PH-HFpEF)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "Tenax Therapeutics Enrolls First Patient in Phase 3 LEVEL Study Evaluating TNX-103 (Oral Levosimendan) for the Treatment of Pulmonary Hypertension in Heart Failure with Preserved Ejection Fraction (PH-HFpEF)",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

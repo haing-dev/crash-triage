@@ -1,0 +1,44 @@
+{
+ "cik": "1305253",
+ "name": "Eiger BioPharmaceuticals, Inc.",
+ "ticker": "EIGR",
+ "date": "2024-04-01",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-04-01",
+  "accession": "0001193125-24-083403",
+  "doc": "d818699dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1305253/000119312524083403/d818699dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Filed Chapter 11 bankruptcy and agreed to sell Zokinvy to Sentynl \u00b7 n/a \u00b7 Zokinvy (lonafarnib) in progeria \u00b7 on market",
+  "phase": "Approved",
+  "drug": "Zokinvy (lonafarnib)",
+  "indication": "n/a",
+  "market_stage": "on market",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "Eiger BioPharmaceuticals, Inc. (Nasdaq:EIGR) today announced that it and its direct subsidiaries have filed voluntary petitions for chapter 11 protection under the United States Bankruptcy Code",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": "The company intends to sell substantially all of its assets during the bankruptcy case and to facilitate an orderly wind down of its operations."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": true
+  }
+ }
+}

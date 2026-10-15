@@ -1,0 +1,44 @@
+{
+ "cik": "1673772",
+ "name": "RAPT Therapeutics, Inc.",
+ "ticker": "RAPT",
+ "date": "2024-02-20",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-02-20",
+  "accession": "0000950170-24-017155",
+  "doc": "rapt-20240220.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1673772/000095017024017155/rapt-20240220.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "safety",
+  "summary": "FDA clinical hold after liver failure case; dosing halted \u00b7 Phase 2b/2a \u00b7 zelnecirnon in atopic dermatitis and asthma \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "zelnecirnon (RPT193)",
+  "indication": "atopic dermatitis and asthma",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": 1,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": true,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "The clinical hold determination was based on a serious adverse event of liver failure in one patient in the atopic dermatitis trial, the cause of which is currently unknown but which has been characterized as potentially related to zelnecirnon.",
+   "primary_endpoint_met": null,
+   "safety": "The clinical hold determination was based on a serious adverse event of liver failure in one patient in the atopic dermatitis trial, the cause of which is currently unknown but which has been characterized as potentially related to zelnecirnon.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

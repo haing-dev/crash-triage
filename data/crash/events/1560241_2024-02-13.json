@@ -1,0 +1,44 @@
+{
+ "cik": "1560241",
+ "name": "G1 Therapeutics, Inc.",
+ "ticker": "GTHX",
+ "date": "2024-02-13",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-02-12",
+  "accession": "0001628280-24-004188",
+  "doc": "gthx-20240212.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1560241/000162828024004188/gthx-20240212.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "other",
+  "summary": "DMC recommended PRESERVE 2 continue to final analysis, not stopping early for efficacy \u00b7 Phase 3 \u00b7 trilaciclib in mTNBC \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "trilaciclib",
+  "indication": "metastatic triple negative breast cancer (mTNBC)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "the independent Data Monitoring Committee recommended continuation of the pivotal Phase 3 trial (PRESERVE 2), evaluating trilaciclib in combination with gemcitabine and carboplatin for the first line treatment of metastatic triple negative breast cancer (mTNBC), to the final analysis",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

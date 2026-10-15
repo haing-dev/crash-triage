@@ -1,0 +1,44 @@
+{
+ "cik": "1267813",
+ "name": "MARINUS PHARMACEUTICALS, INC.",
+ "ticker": "MRNS",
+ "date": "2024-04-15",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-04-15",
+  "accession": "0001104659-24-046976",
+  "doc": "tm2411822d1_ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1267813/000110465924046976/tm2411822d1_ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 3 trial missed early stopping criteria at interim analysis, continues to full enrollment \u00b7 Phase 3 \u00b7 IV ganaxolone in refractory status epilepticus \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "IV ganaxolone",
+  "indication": "refractory status epilepticus",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": false,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "Trial did not meet pre-defined stopping criteria at the interim analysis; Marinus has completed RAISE enrollment at approximately 100 patients with topline results expected summer 2024",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": "Future development of IV ganaxolone in refractory status epilepticus to be assessed following review of the final RAISE results"
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": true
+  }
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "cik": "1862150",
+ "name": "Cingulate Inc.",
+ "ticker": "CING",
+ "date": "2024-02-02",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-02-05",
+  "accession": "0001493152-24-004951",
+  "doc": "form424b4.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1862150/000149315224004951/form424b4.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Dilutive discounted $2.00 offering with warrants priced far below prior close \u00b7 Phase 3 \u00b7 CTx-1301 in ADHD \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "CTx-1301",
+  "indication": "ADHD",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "We are offering 1,375,000 shares of common stock, par value $0.0001 per share, together with Series A warrants to purchase up to 3,750,000 shares of common stock",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

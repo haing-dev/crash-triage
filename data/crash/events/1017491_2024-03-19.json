@@ -1,0 +1,44 @@
+{
+ "cik": "1017491",
+ "name": "SEELOS THERAPEUTICS, INC.",
+ "ticker": "SEEL",
+ "date": "2024-03-19",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-03-19",
+  "accession": "0001104659-24-036125",
+  "doc": "tm249064d1_ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1017491/000110465924036125/tm249064d1_ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 2/3 missed primary endpoint, only subgroup signal \u00b7 Phase 2/3 \u00b7 SLS-005 in ALS \u00b7 not yet approved",
+  "phase": "Phase 2/3",
+  "drug": "SLS-005 (IV trehalose)",
+  "indication": "Amyotrophic lateral sclerosis (ALS)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": 120,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "While the study did not meet statistical significance in the primary and secondary endpoint in the Full Analysis Set (FAS)2, by showing a 13% improvement in Function and Mortality with an 88% success probability",
+   "primary_endpoint_met": "While the study did not meet statistical significance in the primary and secondary endpoint in the Full Analysis Set (FAS)2",
+   "safety": "SLS-005 was generally well-tolerated and comparable to placebo in safety. There was an imbalance of deaths/death equivalents observed in the study, with more events seen in the SLS-005 group compared to placebo",
+   "program_discontinued": "We plan to request a meeting with the FDA to discuss potential next steps for the program and will continue our potential partner discussions."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

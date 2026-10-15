@@ -1,0 +1,44 @@
+{
+ "cik": "1411906",
+ "name": "Ampio Pharmaceuticals, Inc.",
+ "ticker": "AMPE",
+ "date": "2024-03-26",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-03-25",
+  "accession": "0001558370-24-003858",
+  "doc": "ampe-20240325xex99d1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1411906/000155837024003858/ampe-20240325xex99d1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "other",
+  "summary": "Voluntary NYSE American delisting and SEC deregistration, wind-down planned \u00b7 terminated program \u00b7 OA-201 in knee osteoarthritis \u00b7 not yet approved",
+  "phase": "n/a",
+  "drug": "OA-201",
+  "indication": "osteoarthritis of the knee",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "the Board has determined that it is in the Company\u2019s best interests that the Company take steps designed to ensure sufficient cash to adequately fund an orderly wind down of the Company\u2019s operations",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": "the pain reduction benefit was not observed in the data from a set of non-clinical studies of OA-201, resulting in the termination of the OA-201 program at that time."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": true
+  }
+ }
+}

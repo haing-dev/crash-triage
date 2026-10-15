@@ -1,0 +1,44 @@
+{
+ "cik": "1596812",
+ "name": "Enlivex Ltd.",
+ "ticker": "ENLV",
+ "date": "2024-04-11",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-04-11",
+  "accession": "0001213900-24-032005",
+  "doc": "ea020325202ex99-1_enlivex.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1596812/000121390024032005/ea020325202ex99-1_enlivex.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase II sepsis topline showed no clear overall benefit vs placebo, only a High Risk UTI signal \u00b7 Phase 2 \u00b7 Allocetra in sepsis \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "Allocetra",
+  "indication": "sepsis",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "Relative analysis demonstrates a potential indication of effect of Allocetra\u2122 as compared with placebo in high-risk, severe sepsis patient population (organ failure scores >=7), originating from urinary tract infections (\u201cHigh Risk UTI\u201d).",
+   "primary_endpoint_met": null,
+   "safety": "Stand-alone and placebo-compared analysis across all sepsis patient subgroups and risk categories demonstrated acceptable safety and tolerability profile of Allocetra\u2122 IV infusions.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

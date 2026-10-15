@@ -1,0 +1,44 @@
+{
+ "cik": "1658551",
+ "name": "Amylyx Pharmaceuticals, Inc.",
+ "ticker": "AMLX",
+ "date": "2024-03-08",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-03-08",
+  "accession": "0001193125-24-062878",
+  "doc": "d787565dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1658551/000119312524062878/d787565dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 3 missed primary and secondary endpoints; market withdrawal possible \u00b7 Phase 3 \u00b7 AMX0035 in ALS \u00b7 on market",
+  "phase": "Phase 3",
+  "drug": "AMX0035 (RELYVRIO/ALBRIOZA)",
+  "indication": "amyotrophic lateral sclerosis (ALS)",
+  "market_stage": "on market",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": false,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": false,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "PHOENIX did not meet its primary endpoint of reaching statistical significance (p=0.667) as measured by change from baseline in the Revised Amyotrophic Lateral Sclerosis Functional Rating Scale",
+   "primary_endpoint_met": "PHOENIX did not meet its primary endpoint of reaching statistical significance (p=0.667)",
+   "safety": "AMX0035 was well-tolerated in PHOENIX. There were no new safety signals, reinforcing the favorable and manageable safety profile observed with AMX0035 to date.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

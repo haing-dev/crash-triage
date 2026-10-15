@@ -1,0 +1,44 @@
+{
+ "cik": "1824293",
+ "name": "GRI Bio, Inc.",
+ "ticker": "GRI",
+ "date": "2024-01-31",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-01-30",
+  "accession": "0001824293-24-000023",
+  "doc": "ex991_pressreleasererevers.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1824293/000182429324000023/ex991_pressreleasererevers.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Announced 1-for-7 reverse stock split to regain Nasdaq compliance \u00b7 Phase n/a \u00b7 GRI-0621 in idiopathic pulmonary fibrosis \u00b7 not yet approved",
+  "phase": "n/a",
+  "drug": "GRI-0621",
+  "indication": "idiopathic pulmonary fibrosis",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "The Reverse Split is intended to increase the per share trading price of the Company\u2019s common stock to enable the Company to regain compliance with the minimum bid price requirement",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

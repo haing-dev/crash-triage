@@ -1,0 +1,44 @@
+{
+ "cik": "1445283",
+ "name": "KINETA, INC./DE",
+ "ticker": "KANT",
+ "date": "2024-02-29",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-02-29",
+  "accession": "0000950170-24-022632",
+  "doc": "ka-ex99_1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1445283/000095017024022632/ka-ex99_1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Restructuring, 64% layoffs, enrollment halted, strategic alternatives after investors defaulted on funding \u00b7 Phase 1/2 \u00b7 KVA12123 in advanced solid tumors \u00b7 not yet approved",
+  "phase": "Phase 1/2",
+  "drug": "KVA12123",
+  "indication": "advanced solid tumors",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "The company has made this decision, in part, because certain investors have indicated they will not fulfill their funding obligations pursuant the previously disclosed second tranche of the company\u2019s contemplated private placement later this year.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": "the termination of enrollment of new patients in its ongoing VISTA-101 Phase 1/2 clinical trial evaluating KVA12123 in patients with advanced solid tumors. Patients currently enrolled in the trial will be permitted to continue to participate."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": true
+  }
+ }
+}

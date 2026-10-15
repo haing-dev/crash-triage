@@ -1,0 +1,44 @@
+{
+ "cik": "1729427",
+ "name": "CNS Pharmaceuticals, Inc.",
+ "ticker": "CNSP",
+ "date": "2024-01-30",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-01-31",
+  "accession": "0001683168-24-000580",
+  "doc": "cnspharma_424b4.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1729427/000168316824000580/cnspharma_424b4.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Priced highly dilutive $4M offering with warrants at $0.30 \u00b7 Phase 2 \u00b7 Berubicin in glioblastoma \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "Berubicin",
+  "indication": "Glioblastoma",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "We are offering on a reasonable best efforts basis 2,215,667 shares of our common stock together with series A warrants (each, a \u201cSeries A warrant\u201d) to purchase up to 13,333,334 shares of our common stock",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": "which was that we continue our CNS-201 trial without modification."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": true
+  }
+ }
+}

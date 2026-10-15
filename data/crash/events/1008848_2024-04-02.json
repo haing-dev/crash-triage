@@ -1,0 +1,44 @@
+{
+ "cik": "1008848",
+ "name": "Acorda Therapeutics, Inc.",
+ "ticker": "ACORQ",
+ "date": "2024-04-02",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-04-02",
+  "accession": "0000950170-24-039674",
+  "doc": "acor-ex99_1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1008848/000095017024039674/acor-ex99_1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Chapter 11 filing and $185M stalking-horse asset sale to Merz \u00b7 n/a \u00b7 INBRIJA and AMPYRA in Parkinson's and MS \u00b7 on market",
+  "phase": "Approved",
+  "drug": "INBRIJA, AMPYRA",
+  "indication": "Parkinson's disease OFF episodes; multiple sclerosis",
+  "market_stage": "on market",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "Acorda and certain of its affiliates filed voluntary petitions to commence Chapter 11 proceedings in the U.S. Bankruptcy Court for the Southern District of New York.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

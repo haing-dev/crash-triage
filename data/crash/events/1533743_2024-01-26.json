@@ -1,0 +1,44 @@
+{
+ "cik": "1533743",
+ "name": "Processa Pharmaceuticals, Inc.",
+ "ticker": "PCSA",
+ "date": "2024-01-26",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-01-25",
+  "accession": "0001493152-24-003705",
+  "doc": "ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1533743/000149315224003705/ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "other",
+  "summary": "Phase 1b completed with high-dose myelosuppression and dropouts; Phase 2 doses chosen \u00b7 Phase 1b \u00b7 NGC-Cap in advanced GI cancer \u00b7 not yet approved",
+  "phase": "Phase 1",
+  "drug": "NGC-Cap (PCS6422 + capecitabine)",
+  "indication": "advanced gastrointestinal cancer",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": 18,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "announces the successful completion of the safety tolerability evaluation in its Phase 1b trial of Next Generation Capecitabine (\u201cNGC-Cap\u201d). From the Phase 1b data, two dosage regimens have been selected for the Phase 2 trial.",
+   "primary_endpoint_met": null,
+   "safety": "The incidence of myelosuppression in patients on the high dose of NGC-Cap (225 mg BID) is currently approximately 71%, with more severe myelosuppression occurring in approximately 57% of the patients.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

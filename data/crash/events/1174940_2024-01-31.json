@@ -1,0 +1,44 @@
+{
+ "cik": "1174940",
+ "name": "ORAGENICS INC",
+ "ticker": "OGEN",
+ "date": "2024-01-31",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-02-05",
+  "accession": "0001493152-24-004887",
+  "doc": "ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1174940/000149315224004887/ex99-1.htm"
+ },
+ "facts": {
+  "related": false,
+  "trigger": "other",
+  "summary": "Preparing Phase II trial start; no adverse event reported \u00b7 Phase 1 completed \u00b7 ONP-002 in concussion \u00b7 not yet approved",
+  "phase": "Phase 1",
+  "drug": "ONP-002",
+  "indication": "concussion (mild traumatic brain injury)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": 40,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "Oragenics, Inc. (NYSE American: OGEN) ... today announced it is preparing for a Phase II clinical trial using its novel drug - device combination for the treatment of mild Traumatic Brain Injury, aka concussion.",
+   "primary_endpoint_met": null,
+   "safety": "A 40-patient Phase I study showed ONP-002 to be safe and well-tolerated.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

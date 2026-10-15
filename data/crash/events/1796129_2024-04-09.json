@@ -1,0 +1,44 @@
+{
+ "cik": "1796129",
+ "name": "Vincerx Pharma, Inc.",
+ "ticker": "VINC",
+ "date": "2024-04-09",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-04-08",
+  "accession": "0001193125-24-089665",
+  "doc": "d801591d8k.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1796129/000119312524089665/d801591d8k.htm"
+ },
+ "facts": {
+  "related": false,
+  "trigger": "other",
+  "summary": "Positive preliminary Phase 1 data presented at AACR, no DLTs \u00b7 Phase 1 \u00b7 VIP236 in metastatic solid tumors \u00b7 not yet approved",
+  "phase": "Phase 1",
+  "drug": "VIP236",
+  "indication": "metastatic solid tumors",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": 15,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "Vincerx Pharma, Inc. (the \u201cCompany\u201d) presented positive preliminary Phase 1 data for VIP236 and provided an update on pipeline progress at the American Association for Cancer Research (AACR) Annual Meeting 2024.",
+   "primary_endpoint_met": null,
+   "safety": "The Q3W schedule is well tolerated with no dose-limiting toxicity (DLT) in any patients, and no patients have discontinued VIP236 due to an adverse event.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

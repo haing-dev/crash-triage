@@ -1,0 +1,44 @@
+{
+ "cik": "1816736",
+ "name": "Disc Medicine, Inc.",
+ "ticker": "IRON",
+ "date": "2024-04-01",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-04-02",
+  "accession": "0001193125-24-084937",
+  "doc": "d815786dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1816736/000119312524084937/d815786dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Key secondary light-tolerance endpoint missed vs placebo despite primary PPIX win \u00b7 Phase 2 \u00b7 bitopertin in EPP \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "bitopertin",
+  "indication": "erythropoietic protoporphyria (EPP)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": true,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": 50,
+   "serious_drug_related_patients": 0,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "On the key secondary endpoint of cumulative time in sunlight on days without pain, bitopertin patients had a positive response consistent with BEACON results, but the endpoint did not meet statistical significance due to strong placebo performance.",
+   "primary_endpoint_met": "Treatment with bitopertin resulted in statistically significant reductions in PPIX, the primary endpoint",
+   "safety": "Bitopertin was generally well tolerated in both dose groups with no serious adverse events and stable hemoglobin levels.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}
