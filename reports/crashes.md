@@ -1,17 +1,17 @@
 # Crashes (fall of 50%+ within 5 trading days, with a news day of 25%+)
-scanned 953 price files
+scanned 970 price files
 
-**943 crashes** (632 crossed -50% in a single day)
+**960 crashes** (643 crossed -50% in a single day)
 
 | Year | Crashes |
 |---|---|
 | 2020 | 27 |
-| 2021 | 74 |
-| 2022 | 162 |
-| 2023 | 175 |
-| 2024 | 202 |
+| 2021 | 77 |
+| 2022 | 167 |
+| 2023 | 180 |
+| 2024 | 205 |
 | 2025 | 185 |
-| 2026 | 118 |
+| 2026 | 119 |
 
 Latest 15:
 
