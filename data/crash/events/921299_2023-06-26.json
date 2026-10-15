@@ -1,0 +1,44 @@
+{
+ "cik": "921299",
+ "name": "KYNTRA BIO, INC.",
+ "ticker": "KYNB",
+ "date": "2023-06-26",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-06-26",
+  "accession": "0000950170-23-029736",
+  "doc": "fgen-ex99_1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/921299/000095017023029736/fgen-ex99_1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 3 trial missed primary endpoint, second trial stopped \u00b7 Phase 3 \u00b7 pamrevlumab in idiopathic pulmonary fibrosis \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "pamrevlumab",
+  "indication": "idiopathic pulmonary fibrosis",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": false,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "Study did not meet the primary endpoint",
+   "primary_endpoint_met": "did not meet the primary endpoint of change from baseline in forced vital capacity (FVC) at week 48 (p=0.29)",
+   "safety": "Pamrevlumab was generally safe and well tolerated",
+   "program_discontinued": "Based on the results of ZEPHYRUS-1, ZEPHYRUS-2, the second Phase 3 clinical trial, will be discontinued."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

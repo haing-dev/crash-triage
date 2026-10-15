@@ -1,0 +1,44 @@
+{
+ "cik": "1576263",
+ "name": "Mirati Therapeutics, Inc.",
+ "ticker": "MRTX",
+ "date": "2022-12-07",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-12-06",
+  "accession": "0001193125-22-298618",
+  "doc": "d377748dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1576263/000119312522298618/d377748dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "safety",
+  "summary": "Combination data showed high grade 3 toxicity and modest response rate \u00b7 Phase 2 \u00b7 adagrasib plus pembrolizumab in KRAS G12C NSCLC \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "adagrasib (MRTX849) + pembrolizumab",
+  "indication": "first-line KRAS G12C-mutated advanced/metastatic non-small cell lung cancer",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": 75,
+   "serious_drug_related_patients": null,
+   "deaths": 0,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "Treatment-related adverse events (TRAEs) were Grade 1-2 (39%), Grade 3 (40%) and Grade 4 (4%); there were no Grade 5 TRAEs observed.",
+   "primary_endpoint_met": null,
+   "safety": "Treatment-related adverse events (TRAEs) were Grade 1-2 (39%), Grade 3 (40%) and Grade 4 (4%); there were no Grade 5 TRAEs observed.",
+   "program_discontinued": "Based on these data, we look forward to initiating a Phase 3 trial."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

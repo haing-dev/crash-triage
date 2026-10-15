@@ -1,0 +1,44 @@
+{
+ "cik": "906709",
+ "name": "NEKTAR THERAPEUTICS",
+ "ticker": "NKTR",
+ "date": "2023-02-24",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-02-23",
+  "accession": "0001213900-23-014008",
+  "doc": "ea174171ex99-1_nektartherap.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/906709/000121390023014008/ea174171ex99-1_nektartherap.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Primary endpoint missed at all doses; secondary results mixed \u00b7 Phase 2 \u00b7 REZPEG in systemic lupus erythematosus \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "REZPEG",
+  "indication": "systemic lupus erythematosus (SLE)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": 217,
+   "serious_drug_related_patients": 2,
+   "deaths": 1,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "Primary endpoint (SLEDAI - 2K) was not chosen as critical success factor",
+   "primary_endpoint_met": "p = 0.06 13.9% \u2206 mITT PP 47.3% p = 0.309 8.8% \u2206 38.6%",
+   "safety": "Deaths 0 0 1 (1.4%)^ 0",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

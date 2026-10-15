@@ -1,0 +1,44 @@
+{
+ "cik": "1176309",
+ "name": "ORAMED PHARMACEUTICALS INC.",
+ "ticker": "ORMP",
+ "date": "2023-01-12",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-01-12",
+  "accession": "0001213900-23-002343",
+  "doc": "ea171576-8k_oramed.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1176309/000121390023002343/ea171576-8k_oramed.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 3 missed primary and secondary endpoints, oral insulin T2D activities to stop \u00b7 Phase 3 \u00b7 ORMD-0801 in type 2 diabetes \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "ORMD-0801",
+  "indication": "Type 2 Diabetes",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": false,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": 0,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "The trial did not meet its primary endpoint, which compared the efficacy of ORMD-0801 to placebo in improving glycemic control as assessed by the mean change from baseline in A1C at 26 weeks.",
+   "primary_endpoint_met": "The trial did not meet its primary endpoint, which compared the efficacy of ORMD-0801 to placebo in improving glycemic control as assessed by the mean change from baseline in A1C at 26 weeks.",
+   "safety": "There were no serious drug-related adverse events.",
+   "program_discontinued": "As a result, the Company expects to discontinue its oral insulin clinical activities for T2D."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

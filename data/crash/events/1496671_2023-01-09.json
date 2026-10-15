@@ -1,0 +1,44 @@
+{
+ "cik": "1496671",
+ "name": "Calithera Biosciences, Inc.",
+ "ticker": "CALA",
+ "date": "2023-01-09",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-01-09",
+  "accession": "0001193125-23-004182",
+  "doc": "d406710dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1496671/000119312523004182/d406710dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Board approves liquidation and dissolution, all clinical programs discontinued \u00b7 n/a \u00b7 n/a \u00b7 n/a",
+  "phase": "n/a",
+  "drug": "n/a",
+  "indication": "n/a",
+  "market_stage": "n/a",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "its Board of Directors has determined, after extensive consideration of potential strategic alternatives, that it is in the best interests of its shareholders to dissolve the Company and liquidate its assets",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": "Calithera is discontinuing all clinical development programs and reducing its workforce, including the termination of most employees by the end of the first quarter."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": true
+  }
+ }
+}

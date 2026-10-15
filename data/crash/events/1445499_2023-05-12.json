@@ -1,0 +1,44 @@
+{
+ "cik": "1445499",
+ "name": "IPI Legacy Liquidation Co",
+ "ticker": "IMPL",
+ "date": "2023-05-12",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-05-12",
+  "accession": "0000950170-23-021506",
+  "doc": "impl-ex99_1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1445499/000095017023021506/impl-ex99_1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Q1 results show cash runway only into Q3 2023, raising going-concern risk \u00b7 n/a \u00b7 Trudhesa in migraine \u00b7 on market",
+  "phase": "Approved",
+  "drug": "Trudhesa",
+  "indication": "acute migraine",
+  "market_stage": "on market",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "The Company believes, based on its current operating plan, that it has sufficient capital to fund operations into Q3 2023.",
+   "primary_endpoint_met": null,
+   "safety": "concomitant use of Trudhesa with triptans and erenumab (a preventive CGRP medication) were well-tolerated with limited treatment-emergent adverse events reported.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

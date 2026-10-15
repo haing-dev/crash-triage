@@ -1,0 +1,44 @@
+{
+ "cik": "1528115",
+ "name": "Annexon, Inc.",
+ "ticker": "ANNX",
+ "date": "2023-05-25",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-05-25",
+  "accession": "0001193125-23-153420",
+  "doc": "d468662dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1528115/000119312523153420/d468662dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Primary lesion-growth endpoint missed, vision preservation positive \u00b7 Phase 2 \u00b7 ANX007 in geographic atrophy \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "ANX007",
+  "indication": "geographic atrophy",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": 181,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "The primary endpoint of mean rate of change (slope) in GA lesion area compared to sham at 12 months did not reach statistical significance.",
+   "primary_endpoint_met": "The primary endpoint of mean rate of change (slope) in GA lesion area compared to sham at 12 months did not reach statistical significance.",
+   "safety": "Treatment with ANX007 was generally well-tolerated in the 181 GA patients treated either monthly or every other month.",
+   "program_discontinued": "Based on the ARCHER trial results, we plan to engage with regulators to determine the optimal path forward to bring ANX007 to patients as expeditiously as possible."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

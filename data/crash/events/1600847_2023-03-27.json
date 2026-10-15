@@ -1,0 +1,44 @@
+{
+ "cik": "1600847",
+ "name": "Gamida Cell Ltd.",
+ "ticker": "GMDAQ",
+ "date": "2023-03-27",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-03-27",
+  "accession": "0001213900-23-022951",
+  "doc": "ea175734ex99-1_gamida.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1600847/000121390023022951/ea175734ex99-1_gamida.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Restructuring, 17% layoffs, NK pipeline cut, cash runway only to Q3 2023 \u00b7 Filed \u00b7 omidubicel in blood cancer transplant \u00b7 filed for approval",
+  "phase": "Filed",
+  "drug": "omidubicel",
+  "indication": "hematologic malignancies requiring allogeneic stem cell transplant",
+  "market_stage": "filed for approval",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "Given the challenging economic environment, to date, we have not been able to raise adequate funding to support our full pipeline and enable a more robust launch of omidubicel, if approved.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": "The company will discontinue the development of its engineered NK cell therapy preclinical pipeline, including GDA-301, GDA-501 and GDA-601, while maintaining the IP to these candidates."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": true
+  }
+ }
+}

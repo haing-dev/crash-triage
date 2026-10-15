@@ -1,0 +1,44 @@
+{
+ "cik": "1434316",
+ "name": "FATE THERAPEUTICS INC",
+ "ticker": "FATE",
+ "date": "2023-01-06",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-01-05",
+  "accession": "0001193125-23-002504",
+  "doc": "d418503dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1434316/000119312523002504/d418503dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "partner exit",
+  "summary": "Janssen collaboration terminated, workforce cut, NK programs discontinued \u00b7 Phase 1 \u00b7 FT596 CAR NK in B-cell lymphoma \u00b7 not yet approved",
+  "phase": "Phase 1",
+  "drug": "FT596",
+  "indication": "B-cell lymphoma",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "it has declined a proposal from Janssen Biotech, Inc. (\u201cJanssen\u201d) for continuation of the collaboration and option agreement between the parties on revised terms and conditions and, as a result, the agreement has been terminated",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": "is discontinuing clinical development of its FT516 and FT538 NK cell programs in acute myeloid leukemia, its FT516 and FT596 NK cell programs in B-cell lymphoma"
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": true
+  }
+ }
+}

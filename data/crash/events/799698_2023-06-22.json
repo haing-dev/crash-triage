@@ -1,0 +1,44 @@
+{
+ "cik": "799698",
+ "name": "LadRx Corp",
+ "ticker": "LADX",
+ "date": "2023-06-22",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-06-26",
+  "accession": "0001493152-23-022337",
+  "doc": "ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/799698/000149315223022337/ex99-1.htm"
+ },
+ "facts": {
+  "related": false,
+  "trigger": "other",
+  "summary": "Sold royalty and milestone rights to XOMA for up to $11M non-dilutive funding \u00b7 Preclinical \u00b7 LADR7 in cancer \u00b7 not yet approved",
+  "phase": "Preclinical",
+  "drug": "LADR7",
+  "indication": "cancer",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "today announced that it has transferred the royalty and milestone rights associated with arimoclomol and aldoxorubicin to XOMA Corporation",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

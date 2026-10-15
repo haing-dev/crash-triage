@@ -1,0 +1,44 @@
+{
+ "cik": "1001316",
+ "name": "TG THERAPEUTICS, INC.",
+ "ticker": "TGTX",
+ "date": "2023-08-01",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-08-01",
+  "accession": "0001558370-23-012631",
+  "doc": "tgtx-20230728xex99d1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001316/000155837023012631/tgtx-20230728xex99d1.htm"
+ },
+ "facts": {
+  "related": false,
+  "trigger": "other",
+  "summary": "Q2 results and ex-U.S. partnering deal reported; no clear negative event \u00b7 n/a \u00b7 BRIUMVI in relapsing multiple sclerosis \u00b7 on market",
+  "phase": "Approved",
+  "drug": "BRIUMVI (ublituximab-xiiy)",
+  "indication": "relapsing forms of multiple sclerosis",
+  "market_stage": "on market",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "Second quarter 2023 BRIUMVI\u00ae net sales of $16 million in the United States, representing 100% quarter over quarter growth; total net revenue of approximately $24 million since launch",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

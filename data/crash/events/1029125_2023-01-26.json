@@ -1,0 +1,44 @@
+{
+ "cik": "1029125",
+ "name": "Panbela Therapeutics, Inc.",
+ "ticker": "PBLA",
+ "date": "2023-01-26",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-01-30",
+  "accession": "0001437749-23-002015",
+  "doc": "pbla20230127_424b4.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1029125/000143774923002015/pbla20230127_424b4.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Priced best-efforts offering of stock and 2x warrants at $2.25, below prior close \u00b7 n/a \u00b7 ivospemin in pancreatic cancer \u00b7 not yet approved",
+  "phase": "n/a",
+  "drug": "ivospemin",
+  "indication": "metastatic pancreatic cancer",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "This is a best efforts public offering of 6,675,000 shares of our common stock and common stock purchase warrants (the \u201ccommon warrants\u201d) to purchase an aggregate of up to 13,350,000 shares of our common stock at a public offering price of $2.25 per share.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

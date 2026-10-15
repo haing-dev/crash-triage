@@ -1,0 +1,44 @@
+{
+ "cik": "1671502",
+ "name": "Quoin Pharmaceuticals Ltd.",
+ "ticker": "QNRX",
+ "date": "2023-02-22",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-02-23",
+  "accession": "0001410578-23-000149",
+  "doc": "qnrx-20220930x424b4.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1671502/000141057823000149/qnrx-20220930x424b4.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Priced discounted equity offering with warrants, raising ~$7M \u00b7 Phase 2 \u00b7 QRX003 in Netherton Syndrome \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "QRX003",
+  "indication": "Netherton Syndrome",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "The public offering price for our securities in this offering was determined at the time of pricing, and was at a discount to the then current market price.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

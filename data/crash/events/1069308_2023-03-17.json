@@ -1,0 +1,44 @@
+{
+ "cik": "1069308",
+ "name": "Acer Therapeutics Inc.",
+ "ticker": "ACER",
+ "date": "2023-03-17",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-03-17",
+  "accession": "0001564590-23-003860",
+  "doc": "acer-ex991_15.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1069308/000156459023003860/acer-ex991_15.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 2a missed hot flash efficacy, program paused \u00b7 Phase 2a \u00b7 ACER-801 (osanetant) in menopausal vasomotor symptoms \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "ACER-801 (osanetant)",
+  "indication": "Vasomotor symptoms (hot flashes) associated with menopause",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": 49,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "ACER-801 was safe and well-tolerated but did not achieve statistical significance when evaluating ACER-801\u2019s ability to decrease the frequency or severity of hot flashes in postmenopausal women.",
+   "primary_endpoint_met": "did not achieve statistical significance when evaluating ACER-801\u2019s ability to decrease the frequency or severity of hot flashes in postmenopausal women",
+   "safety": "ACER-801 was safe and well-tolerated",
+   "program_discontinued": "Acer is pausing the ACER-801 program until Acer has conducted a thorough review of the full data set."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

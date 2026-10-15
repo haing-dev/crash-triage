@@ -1,0 +1,44 @@
+{
+ "cik": "1645469",
+ "name": "Monopar Therapeutics",
+ "ticker": "MNPR",
+ "date": "2023-03-28",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-03-27",
+  "accession": "0001654954-23-003607",
+  "doc": "mnpr_ex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1645469/000165495423003607/mnpr_ex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Interim analysis missed efficacy threshold; trial and drug development stopped \u00b7 Phase 2b/3 \u00b7 Validive in severe oral mucositis \u00b7 not yet approved",
+  "phase": "Phase 2/3",
+  "drug": "Validive",
+  "indication": "severe oral mucositis in oropharyngeal cancer patients undergoing chemoradiotherapy",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "the trial did not meet the pre-defined threshold for efficacy of a 15% absolute difference in SOM prevention between Validive and placebo.",
+   "primary_endpoint_met": "the trial did not meet the pre-defined threshold for efficacy of a 15% absolute difference in SOM prevention between Validive and placebo.",
+   "safety": "The DSMB also reported that there were no safety concerns attributed to Validive.",
+   "program_discontinued": "Monopar announced today that it will be discontinuing the study along with the active development of Validive."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "cik": "1868734",
+ "name": "CinCor Pharma, Inc.",
+ "ticker": "CINC",
+ "date": "2022-11-28",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-11-28",
+  "accession": "0000950170-22-025707",
+  "doc": "cinc-ex99_1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1868734/000095017022025707/cinc-ex99_1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 2 HALO missed primary endpoint in overall population, subgroup positive \u00b7 Phase 2 \u00b7 baxdrostat in uncontrolled hypertension \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "baxdrostat",
+  "indication": "uncontrolled hypertension",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": 249,
+   "serious_drug_related_patients": 0,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "Primary endpoint in Intention to Treat (ITT) was not met despite large absolute reductions in Systolic Blood Pressure (SBP)",
+   "primary_endpoint_met": "HALO did not achieve its primary endpoint of statistically significant change from baseline in mean seated SBP versus placebo in the ITT population",
+   "safety": "No drug related serious adverse events (SAEs) observed and no major safety concerns were reported across all three dose cohorts tested after 8 weeks of treatment",
+   "program_discontinued": "Baxdrostat's clinical program remains on track for a potential NDA submission in 2025"
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

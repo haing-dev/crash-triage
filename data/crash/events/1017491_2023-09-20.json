@@ -1,0 +1,44 @@
+{
+ "cik": "1017491",
+ "name": "SEELOS THERAPEUTICS, INC.",
+ "ticker": "SEEL",
+ "date": "2023-09-20",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-09-20",
+  "accession": "0001104659-23-102121",
+  "doc": "tm2326491d2_ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1017491/000110465923102121/tm2326491d2_ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase II missed primary endpoint at 24 hours due to underenrollment \u00b7 Phase 2 \u00b7 SLS-002 in suicidal MDD \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "SLS-002",
+  "indication": "Major Depressive Disorder with acute suicidal ideation and behavior",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": 74,
+   "serious_drug_related_patients": 0,
+   "deaths": 0,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "Due to the limited sample size, the study did not meet the pre-defined primary endpoint (MADRS ANCOVA at 24 hours post dosing).",
+   "primary_endpoint_met": "Due to the limited sample size, the study did not meet the pre-defined primary endpoint (MADRS ANCOVA at 24 hours post dosing).",
+   "safety": "There were 5 serious adverse events (3 with SLS-002, 2 with placebo), all for suicidality, all judged unrelated to the study drug, and all resolved.",
+   "program_discontinued": "We expect to move forward with our development of SLS-002 after the end of Phase II meeting with the FDA"
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

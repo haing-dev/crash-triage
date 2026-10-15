@@ -1,0 +1,44 @@
+{
+ "cik": "1429560",
+ "name": "TREVENA INC",
+ "ticker": "TRVN",
+ "date": "2023-05-09",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-05-09",
+  "accession": "0001104659-23-057465",
+  "doc": "tm2315104d1_ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1429560/000110465923057465/tm2315104d1_ex99-1.htm"
+ },
+ "facts": {
+  "related": false,
+  "trigger": "other",
+  "summary": "Announced date of Q1 2023 earnings call; no drop-explaining news \u00b7 n/a \u00b7 OLINVYK (oliceridine) in acute pain \u00b7 on market",
+  "phase": "Approved",
+  "drug": "OLINVYK (oliceridine)",
+  "indication": "acute pain severe enough to require an intravenous opioid analgesic",
+  "market_stage": "on market",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "Trevena, Inc. (Nasdaq: TRVN)... today announced that it will release its financial results for the first quarter ended March 31, 2023, prior to the market open on Monday, May 15, 2023.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

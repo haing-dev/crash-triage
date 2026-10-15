@@ -1,0 +1,44 @@
+{
+ "cik": "925741",
+ "name": "BioCardia, Inc.",
+ "ticker": "BCDA",
+ "date": "2023-07-24",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-07-24",
+  "accession": "0001437749-23-020488",
+  "doc": "bcda20230723_8k.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/925741/000143774923020488/bcda20230723_8k.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "regulatory delay",
+  "summary": "DSMB recommended pausing enrollment pending one-year follow-up analysis \u00b7 Phase 3 \u00b7 CardiAMP Cell Therapy in cardiac disease \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "CardiAMP Cell Therapy",
+  "indication": "n/a",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": true,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "recommended that the trial enrollment be paused, pending the one-year follow-up outcomes analysis for patients that have been treated and those that have been enrolled but not yet treated.",
+   "primary_endpoint_met": null,
+   "safety": "recommended that the trial enrollment be paused, pending the one-year follow-up outcomes analysis for patients that have been treated and those that have been enrolled but not yet treated.",
+   "program_discontinued": "to ensure that the study may be restarted without compromise after the completion of the one-year data analysis."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

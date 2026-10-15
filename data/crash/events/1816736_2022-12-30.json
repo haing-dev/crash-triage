@@ -1,0 +1,44 @@
+{
+ "cik": "1816736",
+ "name": "Disc Medicine, Inc.",
+ "ticker": "IRON",
+ "date": "2022-12-30",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-12-29",
+  "accession": "0001140361-22-047453",
+  "doc": "brhc10045896_ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1816736/000114036122047453/brhc10045896_ex99-1.htm"
+ },
+ "facts": {
+  "related": false,
+  "trigger": "other",
+  "summary": "Merger with Gemini completed with $53.5M financing and reverse split \u00b7 Phase 2 \u00b7 bitopertin in EPP \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "bitopertin",
+  "indication": "erythropoietic protoporphyria (EPP)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "its shares will commence trading on a 1-10 reverse split adjusted basis effective with the open of business on\n December 30, 2022 on the Nasdaq Global Market under the ticker symbol IRON.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

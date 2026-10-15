@@ -1,0 +1,44 @@
+{
+ "cik": "1690585",
+ "name": "Dianthus Therapeutics, Inc. /DE/",
+ "ticker": "DNTH",
+ "date": "2022-12-20",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-12-20",
+  "accession": "0001193125-22-308821",
+  "doc": "d434259dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1690585/000119312522308821/d434259dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "safety",
+  "summary": "Dosing stopped at higher cohort after two dose-limiting toxicities (respiratory SAEs) \u00b7 Phase 1/2 \u00b7 MGTA-117 in relapsed/refractory AML and MDS \u00b7 not yet approved",
+  "phase": "Phase 1/2",
+  "drug": "MGTA-117",
+  "indication": "relapsed/refractory acute myeloid leukemia and myelodysplastic syndrome",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": 18,
+   "serious_drug_related_patients": 2,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": false,
+   "described_as_well_tolerated": false
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "it has stopped dosing participants at the Cohort 4 dosing level (0.13 mg/kg) and plans to dose additional participants at the Cohort 3 dosing level (0.08 mg/kg).",
+   "primary_endpoint_met": null,
+   "safety": "This SAE was subsequently determined to be the second DLT in Cohort 4, thereby triggering prespecified stopping rules for further dosing in Cohort 4.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

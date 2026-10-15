@@ -1,0 +1,44 @@
+{
+ "cik": "1485003",
+ "name": "Carisma Therapeutics Inc.",
+ "ticker": "CARM",
+ "date": "2023-03-08",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-03-08",
+  "accession": "0001104659-23-029687",
+  "doc": "tm238578d1_ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1485003/000110465923029687/tm238578d1_ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "other",
+  "summary": "Reverse merger closed with Sesen Bio; $75M special dividend paid out \u00b7 Phase 1 \u00b7 CT-0508 in solid tumors \u00b7 not yet approved",
+  "phase": "Phase 1",
+  "drug": "CT-0508",
+  "indication": "solid tumors",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "a one-time special cash dividend of $75 million, or approximately $0.36 per share, will be paid no later than March 10, 2023 to Sesen Bio stockholders of record at the close of business on March 7, 2023.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

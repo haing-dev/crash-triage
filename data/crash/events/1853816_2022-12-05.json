@@ -1,0 +1,44 @@
+{
+ "cik": "1853816",
+ "name": "Dermata Therapeutics, Inc.",
+ "ticker": "DRMA",
+ "date": "2022-12-05",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-12-05",
+  "accession": "0001654954-22-016099",
+  "doc": "drma_ex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1853816/000165495422016099/drma_ex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Rosacea trial missed primary endpoints \u00b7 Phase 2 \u00b7 DMT310 in moderate-to-severe rosacea \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "DMT310",
+  "indication": "moderate-to-severe rosacea",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": 0,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "Data supportive of DMT310 as a treatment for inflammatory skin diseases, but rosacea study did not meet primary endpoints",
+   "primary_endpoint_met": "Data supportive of DMT310 as a treatment for inflammatory skin diseases, but rosacea study did not meet primary endpoints",
+   "safety": "DMT310 produced no serious adverse events related to treatment",
+   "program_discontinued": "We will continue to evaluate the full data set to determine DMT310\u2019s potential as a treatment for moderate-to-severe rosacea."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

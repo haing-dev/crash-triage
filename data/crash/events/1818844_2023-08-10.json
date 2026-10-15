@@ -1,0 +1,44 @@
+{
+ "cik": "1818844",
+ "name": "Dogwood Therapeutics, Inc.",
+ "ticker": "DWTX",
+ "date": "2023-08-10",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-08-10",
+  "accession": "0001558370-23-014396",
+  "doc": "tmb-20230810xex99d1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1818844/000155837023014396/tmb-20230810xex99d1.htm"
+ },
+ "facts": {
+  "related": false,
+  "trigger": "other",
+  "summary": "Q2 2023 results and corporate update, no negative clinical news \u00b7 Pre-Phase 3 \u00b7 IMC-1 in fibromyalgia \u00b7 not yet approved",
+  "phase": "Phase 2/3",
+  "drug": "IMC-1",
+  "indication": "fibromyalgia",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "the program\u2019s studies appear adequate to support the safety of IMC-1 at the dose proposed by the Company for chronic use treating fibromyalgia.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": "Following completion of the pK study, the goal will be to begin enrollment in the first fibromyalgia Phase 3 safety and efficacy study in mid-2024."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": true
+  }
+ }
+}

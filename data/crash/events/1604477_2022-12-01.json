@@ -1,0 +1,44 @@
+{
+ "cik": "1604477",
+ "name": "SQZ Biotechnologies Co",
+ "ticker": "SQZB",
+ "date": "2022-12-01",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-11-30",
+  "accession": "0000950170-22-025877",
+  "doc": "sqz-ex99_1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1604477/000095017022025877/sqz-ex99_1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "other",
+  "summary": "Pipeline cut to one program, 60% layoffs, CEO steps down \u00b7 Phase 1/2 \u00b7 SQZ-eAPC-HPV in HPV16+ solid tumors \u00b7 not yet approved",
+  "phase": "Phase 1/2",
+  "drug": "SQZ-eAPC-HPV",
+  "indication": "HPV16 positive recurrent, locally advanced, or metastatic solid tumors",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "the company will pause its APC, Activating Antigen Carrier (AAC) and Tolerizing Antigen Carrier (TAC) programs.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": "the company will pause its APC, Activating Antigen Carrier (AAC) and Tolerizing Antigen Carrier (TAC) programs."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": true
+  }
+ }
+}

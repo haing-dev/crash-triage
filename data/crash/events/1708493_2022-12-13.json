@@ -1,0 +1,44 @@
+{
+ "cik": "1708493",
+ "name": "Harpoon Therapeutics, Inc.",
+ "ticker": "HARP",
+ "date": "2022-12-13",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-12-12",
+  "accession": "0001193125-22-302733",
+  "doc": "d409100dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1708493/000119312522302733/d409100dex991.htm"
+ },
+ "facts": {
+  "related": false,
+  "trigger": "other",
+  "summary": "Positive interim Phase 1 data presented at ASH; no negative event explaining the drop \u00b7 Phase 1 \u00b7 HPN217 in relapsed/refractory multiple myeloma \u00b7 not yet approved",
+  "phase": "Phase 1",
+  "drug": "HPN217",
+  "indication": "relapsed/refractory multiple myeloma",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": 62,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "77% (10/13) objective response rate (ORR) observed across highest doses (12 and 24 mg)",
+   "primary_endpoint_met": null,
+   "safety": "Generally well-tolerated with a low incidence of cytokine release syndrome (CRS): Low-grade CRS in 29% of patients across highest step dose regimens",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

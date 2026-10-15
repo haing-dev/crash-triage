@@ -1,0 +1,44 @@
+{
+ "cik": "1831828",
+ "name": "Vera Therapeutics, Inc.",
+ "ticker": "VERA",
+ "date": "2023-01-04",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-01-03",
+  "accession": "0001193125-23-000830",
+  "doc": "d445567dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1831828/000119312523000830/d445567dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "other",
+  "summary": "Phase 2b met primary endpoint, 33% proteinuria cut \u00b7 Phase 2 \u00b7 atacicept in IgA nephropathy \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "atacicept",
+  "indication": "IgA nephropathy (IgAN)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": true,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": 116,
+   "serious_drug_related_patients": null,
+   "deaths": 0,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "Atacicept met primary endpoint at week 24",
+   "primary_endpoint_met": "Atacicept met primary endpoint at week 24",
+   "safety": "Atacicept was generally well tolerated in IgAN patients, with no reported deaths, low rate (2%) of serious AEs overall, and 1 patient (1%) discontinued atacicept due to AE",
+   "program_discontinued": "Atacicept 150 mg dose selected for Phase 3 clinical trial, expected to initiate in 1H 2023"
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

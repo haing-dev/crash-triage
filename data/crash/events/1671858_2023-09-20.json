@@ -1,0 +1,44 @@
+{
+ "cik": "1671858",
+ "name": "ARS Pharmaceuticals, Inc.",
+ "ticker": "SPRY",
+ "date": "2023-09-20",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-09-20",
+  "accession": "0001193125-23-237996",
+  "doc": "d556858d8k.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1671858/000119312523237996/d556858d8k.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "regulatory rejection",
+  "summary": "FDA issued complete response letter requiring new repeat-dose study \u00b7 Filed (NDA) \u00b7 neffy epinephrine nasal spray in anaphylaxis/allergic reactions \u00b7 not yet approved",
+  "phase": "Filed",
+  "drug": "neffy (epinephrine nasal spray)",
+  "indication": "Type I allergic reactions, including anaphylaxis",
+  "market_stage": "filed for approval",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "announced the receipt of a Complete Response Letter (\"CRL\") from the U.S. Food and Drug Administration (the \"FDA\") regarding the Company's New Drug Application (\"NDA\") for neffy (epinephrine nasal spray)",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": "anticipates a resubmission to the FDA in the first half of 2024, positioning the Company for an anticipated FDA action date in the second half of 2024."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": true
+  }
+ }
+}

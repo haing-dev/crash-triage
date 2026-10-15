@@ -1,0 +1,44 @@
+{
+ "cik": "1600132",
+ "name": "Bellerophon Therapeutics, Inc.",
+ "ticker": "BLPH",
+ "date": "2023-06-05",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-06-05",
+  "accession": "0001104659-23-067854",
+  "doc": "tm2317784d1_ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1600132/000110465923067854/tm2317784d1_ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 3 trial missed primary endpoint, iNO45 worse than placebo \u00b7 Phase 3 \u00b7 INOpulse in fibrotic ILD \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "INOpulse (iNO45)",
+  "indication": "fibrotic Interstitial Lung Disease",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": false,
+  "safety": {
+   "treated_patients": 145,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "The trial did not meet its primary endpoint, with iNO45 performing worse than placebo by 5.49 minutes per day (p=0.2646).",
+   "primary_endpoint_met": "The trial did not meet its primary endpoint, with iNO45 performing worse than placebo by 5.49 minutes per day (p=0.2646).",
+   "safety": "Overall, INOpulse\u00ae was well-tolerated with no safety concerns, consistent with what has been observed in the prior Phase 2 studies.",
+   "program_discontinued": "the overall outcome of this pivotal validation study is conclusive and we do not see a path forward for continuing the REBUILD trial"
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

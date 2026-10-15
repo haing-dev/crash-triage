@@ -1,0 +1,44 @@
+{
+ "cik": "1728117",
+ "name": "Gossamer Bio, Inc.",
+ "ticker": "GOSS",
+ "date": "2022-12-06",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-12-06",
+  "accession": "0001728117-22-000102",
+  "doc": "goss-20221206.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1728117/000172811722000102/goss-20221206.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 2 met primary PVR endpoint but modest effect, 6MWD gain small and not significant \u00b7 Phase 2 \u00b7 seralutinib in PAH \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "seralutinib",
+  "indication": "pulmonary arterial hypertension (PAH)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": true,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": 44,
+   "serious_drug_related_patients": 1,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "In the secondary endpoint, an observed mean difference in 6MWD between placebo and seralutinib of 6.5 meters numerically favored the seralutinib arm.",
+   "primary_endpoint_met": "The Phase 2 TORREY study met its primary endpoint with a mean difference in PVR between the placebo and seralutinib arms of -96.1 dynes (p = 0.0310), equating to a placebo-corrected improvement of 14.3%.",
+   "safety": "In the seralutinib arm, there was one serious adverse event (SAE) related to study drug reported, while no SAEs related to study drug were reported in the placebo arm.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

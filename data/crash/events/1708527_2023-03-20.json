@@ -1,0 +1,44 @@
+{
+ "cik": "1708527",
+ "name": "ELUTIA INC.",
+ "ticker": "ELUT",
+ "date": "2023-03-20",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-03-20",
+  "accession": "0001104659-23-034551",
+  "doc": "tm2310042d1_ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1708527/000110465923034551/tm2310042d1_ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "regulatory rejection",
+  "summary": "FDA issued Not Substantially Equivalent determination; resubmission needed \u00b7 Filed (510(k)) \u00b7 CanGaroo RM Antibacterial Envelope in cardiac device implantation \u00b7 filed for approval",
+  "phase": "Filed",
+  "drug": "CanGaroo RM Antibacterial Envelope",
+  "indication": "securing cardiac implantable electronic devices or neurostimulators",
+  "market_stage": "filed for approval",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "On March 16, 2023, the Company received a Not Substantially Equivalent determination from FDA.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": "the Company does not expect to appeal the decision, as it believes the most expeditious path forward is to work with FDA to provide the additional data requested."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": true
+  }
+ }
+}

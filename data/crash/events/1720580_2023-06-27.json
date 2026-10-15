@@ -1,0 +1,44 @@
+{
+ "cik": "1720580",
+ "name": "Adicet Bio, Inc.",
+ "ticker": "ACET",
+ "date": "2023-06-27",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-06-26",
+  "accession": "0000950170-23-029851",
+  "doc": "acet-ex99_1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1720580/000095017023029851/acet-ex99_1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 1 data showed 71% ORR but low 6-month durability and CRS/ICANS cases \u00b7 Phase 1 \u00b7 ADI-001 in B-cell NHL \u00b7 not yet approved",
+  "phase": "Phase 1",
+  "drug": "ADI-001",
+  "indication": "relapsed or refractory aggressive B-cell non-Hodgkin's lymphoma",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": 24,
+   "serious_drug_related_patients": 7,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "ADI-001 demonstrated 71% overall response rate (ORR) and 63% complete response (CR) rate across all dose levels in patients with median 4 prior lines of therapy",
+   "primary_endpoint_met": null,
+   "safety": "ADI-001 was generally well-tolerated in the study and there were no occurrences of dose-limiting toxicities or graft vs host disease (GvHD).",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

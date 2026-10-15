@@ -1,0 +1,44 @@
+{
+ "cik": "1597553",
+ "name": "Sage Therapeutics, Inc.",
+ "ticker": "SAGE",
+ "date": "2023-08-07",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-08-07",
+  "accession": "0001193125-23-204408",
+  "doc": "d538591dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1597553/000119312523204408/d538591dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "regulatory rejection",
+  "summary": "FDA rejected zuranolone for MDD (complete response letter) \u00b7 Filed \u00b7 zuranolone in major depressive disorder \u00b7 filed for approval",
+  "phase": "Filed",
+  "drug": "zuranolone",
+  "indication": "major depressive disorder",
+  "market_stage": "filed for approval",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": 277,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "the FDA stated that the application did not provide substantial evidence of effectiveness to support the approval of zuranolone for the treatment of MDD and that an additional study or studies will be needed.",
+   "primary_endpoint_met": null,
+   "safety": "the adverse event profile and the data generated on repeat treatments were similar to previously reported data from other cohorts of the SHORELINE Study, with no new safety signals identified.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

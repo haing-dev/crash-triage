@@ -1,0 +1,44 @@
+{
+ "cik": "1553643",
+ "name": "RELMADA THERAPEUTICS, INC.",
+ "ticker": "RLMD",
+ "date": "2022-12-08",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-12-07",
+  "accession": "0001213900-22-078255",
+  "doc": "ea169812ex99-1_relmada.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1553643/000121390022078255/ea169812ex99-1_relmada.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 3 RELIANCE I missed primary endpoint on placebo response \u00b7 Phase 3 \u00b7 REL-1017 in adjunctive major depressive disorder \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "REL-1017",
+  "indication": "Major Depressive Disorder (adjunctive)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "the study did not achieve its primary endpoint, which was a statistically significant improvement in depression symptoms compared to placebo as measured by the Montgomery-Asberg Depression Rating Scale (MADRS) on Day 28",
+   "primary_endpoint_met": "the study did not achieve its primary endpoint, which was a statistically significant improvement in depression symptoms compared to placebo as measured by the Montgomery-Asberg Depression Rating Scale (MADRS) on Day 28",
+   "safety": "REL-1017, as it did in RELIANCE III, demonstrated very favorable tolerability and safety in RELIANCE I",
+   "program_discontinued": "Relmada continues to enroll patients in RELIANCE II, the second ongoing Phase 3, two-arm, placebo-controlled, pivotal study evaluating REL-1017 as a potential adjunctive treatment for MDD."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

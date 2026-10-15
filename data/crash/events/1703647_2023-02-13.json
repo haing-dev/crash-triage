@@ -1,0 +1,44 @@
+{
+ "cik": "1703647",
+ "name": "Korro Bio, Inc.",
+ "ticker": "KRRO",
+ "date": "2023-02-13",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-02-13",
+  "accession": "0001193125-23-034390",
+  "doc": "d463460dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1703647/000119312523034390/d463460dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "FX-322 equal to placebo in Phase 2b; hearing programs discontinued, pivot to remyelination \u00b7 Phase 2 \u00b7 FX-322 in hearing loss \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "FX-322",
+  "indication": "hearing loss (cochlear regeneration)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "FX-322, FX-345 programs for cochlear regeneration discontinued following FX-322-208 readout In 208 study FX-322 was equivalent to placebo",
+   "primary_endpoint_met": "In 208 study FX-322 was equivalent to placebo",
+   "safety": null,
+   "program_discontinued": "FX-322, FX-345 programs for cochlear regeneration discontinued following FX-322-208 readout"
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": false,
+   "program_discontinued": true
+  }
+ }
+}

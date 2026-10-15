@@ -1,0 +1,44 @@
+{
+ "cik": "1534120",
+ "name": "Avalo Therapeutics, Inc.",
+ "ticker": "AVTX",
+ "date": "2023-06-26",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-06-26",
+  "accession": "0001628280-23-023374",
+  "doc": "ex-991peaktoplinedata.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1534120/000162828023023374/ex-991peaktoplinedata.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 2 asthma trial missed primary endpoint; trend in high-LIGHT subgroup \u00b7 Phase 2 \u00b7 AVTX-002 in non-eosinophilic asthma \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "AVTX-002 (quisovalimab)",
+  "indication": "non-eosinophilic asthma",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "AVTX-002 did not meet the primary endpoint measured by reduction in asthma related events compared to placebo, although positive trends were observed among a sub-population of patients with elevated baseline serum LIGHT levels",
+   "primary_endpoint_met": "The trial did not meet its primary endpoint, measured by the reduction in asthma-related events.",
+   "safety": "AVTX-002 demonstrated a favorable safety and tolerability profile.",
+   "program_discontinued": "Additional analyses are ongoing to inform path forward in asthma and potentially other inflammatory conditions"
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

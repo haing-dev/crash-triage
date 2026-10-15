@@ -1,0 +1,44 @@
+{
+ "cik": "1896212",
+ "name": "CDT Equity Inc.",
+ "ticker": "CDT",
+ "date": "2023-09-25",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-09-29",
+  "accession": "0001493152-23-034700",
+  "doc": "ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1896212/000149315223034700/ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "De-SPAC closing with going-concern doubt and small post-redemption cash \u00b7 Phase 2-ready \u00b7 glucokinase activator in autoimmune diseases \u00b7 not yet approved",
+  "phase": "n/a",
+  "drug": "glucokinase activator",
+  "indication": "autoimmune diseases including uveitis, Hashimoto's Thyroiditis, preterm labor and renal transplant rejection",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "These matters raise substantial doubt about the Company\u2019s ability to continue as a going concern for a period of twelve months from the issue date of this report.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "cik": "1810560",
+ "name": "REVELATION BIOSCIENCES, INC.",
+ "ticker": "REVB",
+ "date": "2023-02-09",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-02-13",
+  "accession": "0000950170-23-002652",
+  "doc": "revb-ex99_1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1810560/000095017023002652/revb-ex99_1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Priced $15.6M public offering with warrants at $4.83 per share \u00b7 preclinical/early clinical \u00b7 REVTx-100 and REVTx-300 in infection and AKI \u00b7 not yet approved",
+  "phase": "Phase 1",
+  "drug": "REVTx-100, REVTx-300",
+  "indication": "surgical site infection prevention and acute kidney injury",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "announced the pricing of a public offering of 3,225,000 shares of its common stock (or common stock equivalents), together with warrants to purchase up to 6,450,000 shares of its common stock",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

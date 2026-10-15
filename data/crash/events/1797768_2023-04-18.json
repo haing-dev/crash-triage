@@ -1,0 +1,44 @@
+{
+ "cik": "1797768",
+ "name": "Kinnate Biopharma Inc.",
+ "ticker": "KNTE",
+ "date": "2023-04-18",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-04-17",
+  "accession": "0001140361-23-018635",
+  "doc": "brhc20051493_ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1797768/000114036123018635/brhc20051493_ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Modest early response rates from dose escalation data disappointed investors \u00b7 Phase 1 \u00b7 exarafenib in BRAF/NRAS-altered solid tumors \u00b7 not yet approved",
+  "phase": "Phase 1",
+  "drug": "exarafenib",
+  "indication": "BRAF-altered solid tumors and NRAS mutant melanoma",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": 60,
+   "serious_drug_related_patients": 11,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "In total, 6 patients achieved a partial response (PR) with exarafenib monotherapy treatment during dose escalation, including five confirmed PRs as evaluated by Response Evaluation Criteria in Solid Tumors (RECIST).",
+   "primary_endpoint_met": null,
+   "safety": "Exarafenib was well-tolerated at substantial monotherapy exposures; only 3% (n=2/60) of patients discontinued therapy due to treatment-related adverse events",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

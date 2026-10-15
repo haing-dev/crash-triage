@@ -1,0 +1,44 @@
+{
+ "cik": "1824293",
+ "name": "GRI Bio, Inc.",
+ "ticker": "GRI",
+ "date": "2023-08-23",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-08-23",
+  "accession": "0001824293-23-000159",
+  "doc": "ex-991_gribioxprxaardvarkx.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1824293/000182429323000159/ex-991_gribioxprxaardvarkx.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "other",
+  "summary": "Sold legacy abuse-deterrent ADHD asset after trial missed threshold, for modest upfront payment \u00b7 Clinical-stage \u00b7 ADAIR in ADHD \u00b7 not yet approved",
+  "phase": "n/a",
+  "drug": "ADAIR",
+  "indication": "attention deficit hyperactivity disorder (ADHD)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "GRI Bio Enters into Asset Purchase Agreement with Aardvark Therapeutics, Inc. for the Sale of Legacy Asset, ADAIR",
+   "primary_endpoint_met": "ADAIR has demonstrated abuse deterrent properties, but did not surmount the established threshold in its most recent clinical trial to support pursuing an FDA approval.",
+   "safety": null,
+   "program_discontinued": "Aardvark will assume responsibility for and endeavor to develop and commercialize the purchased assets."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": false,
+   "program_discontinued": true
+  }
+ }
+}

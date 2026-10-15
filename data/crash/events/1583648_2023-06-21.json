@@ -1,0 +1,44 @@
+{
+ "cik": "1583648",
+ "name": "PALVELLA THERAPEUTICS, INC.",
+ "ticker": "PVLA",
+ "date": "2023-06-21",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-06-21",
+  "accession": "0001437749-23-017908",
+  "doc": "pirs20230618_8k.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1583648/000143774923017908/pirs20230618_8k.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "partner exit",
+  "summary": "AstraZeneca discontinued dosing after animal lung toxicity findings \u00b7 Phase 2a \u00b7 elarekibep in asthma \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "elarekibep",
+  "indication": "asthma",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "partner AstraZeneca yesterday communicated to the Company its decision to discontinue and cease dosing in the ongoing clinical studies of elarekibep, an inhaled IL-4 receptor alpha inhibitor under development for the treatment of asthma.",
+   "primary_endpoint_met": null,
+   "safety": "lung findings from a non-clinical 13-week GLP toxicology study with dry powder inhaler-formulated elarekibep, which are not a concern for the active clinical studies",
+   "program_discontinued": "its decision to discontinue and cease dosing in the ongoing clinical studies of elarekibep"
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

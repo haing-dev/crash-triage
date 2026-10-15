@@ -1,0 +1,44 @@
+{
+ "cik": "1442836",
+ "name": "Mersana Therapeutics, Inc.",
+ "ticker": "MRSN",
+ "date": "2023-07-27",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-07-27",
+  "accession": "0001104659-23-084538",
+  "doc": "tm2322196d1_ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1442836/000110465923084538/tm2322196d1_ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "UPLIFT missed primary endpoint, program wound down, 50% layoffs \u00b7 Phase 1b/pivotal single-arm \u00b7 UpRi in platinum-resistant ovarian cancer \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "upifitamab rilsodotin (UpRi)",
+  "indication": "platinum-resistant ovarian cancer",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": false,
+  "safety": {
+   "treated_patients": 268,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "the UPLIFT clinical trial of upifitamab rilsodotin (UpRi) did not meet its primary endpoint.",
+   "primary_endpoint_met": "UPLIFT clinical trial did not meet its primary endpoint",
+   "safety": "Safety and tolerability data in UPLIFT were generally consistent with prior disclosures.",
+   "program_discontinued": "Mersana\u2019s restructuring plan includes a wind-down of UpRi-related development activities, including its UP-NEXT and UPGRADE-A clinical trials"
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "cik": "1434868",
+ "name": "Esperion Therapeutics, Inc.",
+ "ticker": "ESPR",
+ "date": "2023-03-16",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-03-15",
+  "accession": "0001104659-23-032800",
+  "doc": "tm239671d1_8k.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1434868/000110465923032800/tm239671d1_8k.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "partner exit",
+  "summary": "Partner Daiichi Sankyo Europe disputes $300M milestone eligibility after CLEAR Outcomes \u00b7 Phase 3 completed \u00b7 bempedoic acid in cardiovascular risk reduction \u00b7 filings planned",
+  "phase": "Phase 3",
+  "drug": "NEXLETOL (bempedoic acid)",
+  "indication": "cardiovascular risk reduction in statin-intolerant patients",
+  "market_stage": "on market",
+  "primary_endpoint_met": true,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "DSE has conveyed that it disagrees with the Company\u2019s assessment that the CLEAR Outcomes data would support the Company\u2019s right to receive any milestone payments",
+   "primary_endpoint_met": "The study showed that NEXLETOL significantly reduced the risk of hard MACE-4 and MACE-3 by 13% and 15%, respectively",
+   "safety": "The proportions of patients experiencing adverse events and serious adverse events were similar between the active and placebo treatment groups.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

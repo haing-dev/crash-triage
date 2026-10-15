@@ -1,0 +1,44 @@
+{
+ "cik": "1492422",
+ "name": "Apellis Pharmaceuticals, Inc.",
+ "ticker": "APLS",
+ "date": "2023-07-17",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-07-17",
+  "accession": "0001193125-23-188117",
+  "doc": "d510143d8k.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1492422/000119312523188117/d510143d8k.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "safety",
+  "summary": "Six retinal vasculitis events reported after launch \u00b7 post-approval \u00b7 SYFOVRE (pegcetacoplan) in geographic atrophy \u00b7 on market",
+  "phase": "Approved",
+  "drug": "SYFOVRE (pegcetacoplan injection)",
+  "indication": "n/a",
+  "market_stage": "on market",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": false,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "has received reports of six events of retinal vasculitis following SYFOVRE\u00ae (pegcetacoplan injection) treatment.",
+   "primary_endpoint_met": null,
+   "safety": "The reported vasculitis events have occurred at an estimated rate of approximately 1 in 10,000 injections, or 0.01% per injection.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

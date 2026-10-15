@@ -1,0 +1,44 @@
+{
+ "cik": "1649989",
+ "name": "Outlook Therapeutics, Inc.",
+ "ticker": "OTLK",
+ "date": "2023-08-30",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-08-30",
+  "accession": "0001104659-23-096669",
+  "doc": "tm2325118d1_ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1649989/000110465923096669/tm2325118d1_ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "regulatory rejection",
+  "summary": "FDA issued complete response letter over CMC issues and need for more evidence \u00b7 Filed \u00b7 ONS-5010 in wet AMD \u00b7 filed for approval",
+  "phase": "Filed",
+  "drug": "ONS-5010 / LYTENAVA (bevacizumab-vikg)",
+  "indication": "wet age-related macular degeneration (wet AMD)",
+  "market_stage": "filed for approval",
+  "primary_endpoint_met": true,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "the U.S. Food and Drug Administration (FDA) has issued a CRL to the Company\u2019s BLA for ONS-5010, an investigational ophthalmic formulation of bevacizumab under development to treat wet AMD.",
+   "primary_endpoint_met": "While the FDA acknowledged the NORSE TWO pivotal trial met its safety and efficacy endpoints, the Agency concluded it could not approve the BLA during this review cycle",
+   "safety": null,
+   "program_discontinued": "the Company is working with the FDA to address the issues that have been raised so that the BLA may be re-submitted."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": false,
+   "program_discontinued": true
+  }
+ }
+}

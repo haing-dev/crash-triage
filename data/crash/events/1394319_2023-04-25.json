@@ -1,0 +1,44 @@
+{
+ "cik": "1394319",
+ "name": "Tracon Pharmaceuticals, Inc.",
+ "ticker": "TCON",
+ "date": "2023-04-25",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-04-25",
+  "accession": "0000950170-23-014244",
+  "doc": "tcon-ex99_1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1394319/000095017023014244/tcon-ex99_1.htm"
+ },
+ "facts": {
+  "related": false,
+  "trigger": "other",
+  "summary": "Won ~$23.0M arbitration award against I-Mab; agreements terminated \u00b7 Phase 2 pivotal \u00b7 envafolimab in soft tissue sarcoma \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "envafolimab",
+  "indication": "soft tissue sarcoma (UPS and MFS)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "the tribunal in the arbitration against I-Mab conducted under the Rules of Arbitration of the International Chamber of Commerce (ICC) rendered an award to TRACON in the aggregate amount of approximately $23.0 million.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

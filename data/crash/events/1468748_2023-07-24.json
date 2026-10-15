@@ -1,0 +1,44 @@
+{
+ "cik": "1468748",
+ "name": "Kodiak Sciences Inc.",
+ "ticker": "KOD",
+ "date": "2023-07-24",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-07-24",
+  "accession": "0000950170-23-033933",
+  "doc": "kod-20230724.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1468748/000095017023033933/kod-20230724.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Two Phase 3 DME studies missed primary endpoint, cataract signal, program discontinued \u00b7 Phase 3 \u00b7 tarcocimab tedromer in DME and wet AMD \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "tarcocimab tedromer",
+  "indication": "diabetic macular edema (DME) and wet AMD",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": false,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "the GLEAM and GLIMMER studies did not meet their primary efficacy endpoints of showing non-inferior visual acuity gains for tarcocimab dosed every 8 to 24 weeks after 3 monthly loading doses compared to aflibercept",
+   "primary_endpoint_met": "the GLEAM and GLIMMER studies did not meet their primary efficacy endpoints of showing non-inferior visual acuity gains for tarcocimab dosed every 8 to 24 weeks after 3 monthly loading doses compared to aflibercept",
+   "safety": "An unexpected increase in cataract adverse events was reported over time in the tarcocimab arms of both GLEAM and GLIMMER with 19% on tarcocimab versus 9% on aflibercept",
+   "program_discontinued": "Kodiak has determined to discontinue further development of tarcocimab."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

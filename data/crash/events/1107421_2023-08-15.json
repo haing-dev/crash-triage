@@ -1,0 +1,44 @@
+{
+ "cik": "1107421",
+ "name": "Alaunos Therapeutics, Inc.",
+ "ticker": "TCRT",
+ "date": "2023-08-15",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-08-14",
+  "accession": "0001193125-23-212358",
+  "doc": "d467190dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1107421/000119312523212358/d467190dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "other",
+  "summary": "Wind down of trial, 60% layoffs, strategic alternatives explored \u00b7 Phase 1/2 \u00b7 TCR-T Library in metastatic solid tumors \u00b7 not yet approved",
+  "phase": "Phase 1/2",
+  "drug": "TCR-T Library",
+  "indication": "metastatic, refractory solid tumors",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": 8,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "Company to wind down TCR-T Library Phase 1/2 trial and concurrently explore potential partnering opportunities for the hunTR\u00ae platform as well as broad strategic alternatives",
+   "primary_endpoint_met": null,
+   "safety": "The trial showed that the Company\u2019s T-cells were generally well-tolerated in all evaluable participants",
+   "program_discontinued": "Alaunos has decided to wind down its TCR-T Library Phase 1/2 trial and prioritize the hunTR\u00ae platform to explore potential partnering opportunities."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

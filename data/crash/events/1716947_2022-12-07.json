@@ -1,0 +1,44 @@
+{
+ "cik": "1716947",
+ "name": "Ensysce Biosciences, Inc.",
+ "ticker": "ENSC",
+ "date": "2022-12-07",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-12-08",
+  "accession": "0001493152-22-034836",
+  "doc": "ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1716947/000149315222034836/ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Priced $4.1M dilutive public offering with warrants at $1.40 \u00b7 clinical-stage \u00b7 PF614 TAAP/MPAR in pain \u00b7 not yet approved",
+  "phase": "n/a",
+  "drug": "PF614",
+  "indication": "severe pain",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "announced the pricing of an underwritten public offering of 2,900,000 shares of its common stock (or common stock equivalents in lieu thereof) and warrants to purchase up to an aggregate of 5,800,000 shares of common stock",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

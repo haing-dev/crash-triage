@@ -1,0 +1,44 @@
+{
+ "cik": "1094038",
+ "name": "Marker Therapeutics, Inc.",
+ "ticker": "MRKR",
+ "date": "2023-03-22",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-03-22",
+  "accession": "0001104659-23-035380",
+  "doc": "tm239491d2_ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1094038/000110465923035380/tm239491d2_ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "No responses in frank relapse patients, enrollment suspended; cash runway into Q3 2023 \u00b7 Phase 2 \u00b7 MT-401 in post-transplant AML \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "MT-401",
+  "indication": "post-transplant acute myeloid leukemia (AML)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": 28,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "None of the frank relapse patients showed an objective response to therapy.",
+   "primary_endpoint_met": "None of the frank relapse patients showed an objective response to therapy.",
+   "safety": "the Data Monitoring Committee has reviewed the existing safety data and has not identified any concerns.",
+   "program_discontinued": "Marker has suspended further enrollment of frank relapse patients while re-evaluating additional modifications for this patient cohort, including potentially higher cell doses."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

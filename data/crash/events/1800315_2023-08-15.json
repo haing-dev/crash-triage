@@ -1,0 +1,44 @@
+{
+ "cik": "1800315",
+ "name": "Damora Therapeutics, Inc.",
+ "ticker": "DMRA",
+ "date": "2023-08-15",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-08-15",
+  "accession": "0000950170-23-042631",
+  "doc": "glto-ex99_1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1800315/000095017023042631/glto-ex99_1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Missed primary endpoint, development discontinued \u00b7 Phase 2b \u00b7 GB0139 in idiopathic pulmonary fibrosis \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "GB0139",
+  "indication": "idiopathic pulmonary fibrosis",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "The GALACTIC-1 trial did not meet its primary endpoint of change from baseline in rate of decline in forced vital capacity (FVC). Based on the results of the GALACTIC-1 trial, Galecto plans to discontinue development of GB0139.",
+   "primary_endpoint_met": "The GALACTIC-1 trial did not meet its primary endpoint of change from baseline in rate of decline in forced vital capacity (FVC).",
+   "safety": "Treatment-emergent serious adverse events, which included worsening of IPF, were observed in 7.8% of patients in the GB0139 group and 1.4% of patients in the placebo group.",
+   "program_discontinued": "Based on the results of the GALACTIC-1 trial, Galecto plans to discontinue development of GB0139."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

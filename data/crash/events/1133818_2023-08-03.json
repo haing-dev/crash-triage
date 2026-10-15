@@ -1,0 +1,44 @@
+{
+ "cik": "1133818",
+ "name": "BIO-PATH HOLDINGS, INC.",
+ "ticker": "BPTH",
+ "date": "2023-08-03",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-08-01",
+  "accession": "0001558370-23-012756",
+  "doc": "bpth-20230801xex99d1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1133818/000155837023012756/bpth-20230801xex99d1.htm"
+ },
+ "facts": {
+  "related": false,
+  "trigger": "other",
+  "summary": "Positive interim Phase 2 efficacy data announced, no drop explanation \u00b7 Phase 2 \u00b7 prexigebersen in acute myeloid leukemia \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "prexigebersen (BP1001)",
+  "indication": "acute myeloid leukemia",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "Bio-Path Holdings Announces Positive Results from Interim Analysis of Phase 2 Clinical Trial of Prexigebersen in Acute Myeloid Leukemia",
+   "primary_endpoint_met": null,
+   "safety": "Prexigebersen continues to be well-tolerated and has now shown compelling efficacy results in two reporting cohorts",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

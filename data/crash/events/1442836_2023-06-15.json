@@ -1,0 +1,44 @@
+{
+ "cik": "1442836",
+ "name": "Mersana Therapeutics, Inc.",
+ "ticker": "MRSN",
+ "date": "2023-06-15",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-06-15",
+  "accession": "0001104659-23-071407",
+  "doc": "tm2318776d1_ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1442836/000110465923071407/tm2318776d1_ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "safety",
+  "summary": "FDA partial clinical hold after fatal bleeding events \u00b7 Phase 3 and Phase 1 \u00b7 UpRi in platinum-sensitive ovarian cancer \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "UpRi (upifitamab rilsodotin)",
+  "indication": "platinum-sensitive ovarian cancer",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": 560,
+   "serious_drug_related_patients": null,
+   "deaths": 5,
+   "clinical_hold_or_trial_paused": true,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "the U.S. Food and Drug Administration (FDA) has issued a partial clinical hold pausing new patient enrollment in UP-NEXT and UPGRADE-A, the company\u2019s ongoing clinical trials of UpRi in platinum-sensitive ovarian cancer.",
+   "primary_endpoint_met": null,
+   "safety": "five (<1%) Grade 5 (fatal) bleeding events were observed among the approximately 560 patients dosed to date.",
+   "program_discontinued": "The company plans to seek alignment with the FDA to lift the partial clinical hold and resume enrollment in UP-NEXT and UPGRADE-A."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

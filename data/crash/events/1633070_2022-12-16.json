@@ -1,0 +1,44 @@
+{
+ "cik": "1633070",
+ "name": "Axcella Health Inc.",
+ "ticker": "AXLA",
+ "date": "2022-12-16",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-12-15",
+  "accession": "0001104659-22-127154",
+  "doc": "tm2232767d1_ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1633070/000110465922127154/tm2232767d1_ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Strategic alternatives, 85% layoffs, NASH Phase 2b trial discontinued due to capital constraints \u00b7 Phase 2 \u00b7 AXA1125 in NASH/Long COVID \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "AXA1125",
+  "indication": "Long COVID fatigue and NASH",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "The company has initiated a process to explore a range of strategic alternatives to maximize shareholder value and is working with an investment bank to act as a strategic advisor for this process.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": "Axcella will be discontinuing its ongoing Phase 2b clinical trial of AXA1125 in NASH, while keeping the option to revisit this program should resource availability change."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": true
+  }
+ }
+}

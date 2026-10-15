@@ -1,0 +1,44 @@
+{
+ "cik": "1729427",
+ "name": "CNS Pharmaceuticals, Inc.",
+ "ticker": "CNSP",
+ "date": "2022-11-30",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-12-01",
+  "accession": "0001683168-22-008141",
+  "doc": "cns_ex9901.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1729427/000168316822008141/cns_ex9901.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Priced $6.0M public offering with warrants and repriced existing warrants \u00b7 Clinical-stage \u00b7 Berubicin in glioblastoma \u00b7 not yet approved",
+  "phase": "n/a",
+  "drug": "Berubicin",
+  "indication": "glioblastoma multiforme (GBM)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "CNS Pharmaceuticals Announces Pricing of $6.0 Million Public Offering At a Premium to the Market Closing Price",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

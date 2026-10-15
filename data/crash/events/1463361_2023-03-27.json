@@ -1,0 +1,44 @@
+{
+ "cik": "1463361",
+ "name": "Unity Biotechnology, Inc.",
+ "ticker": "UBX",
+ "date": "2023-03-27",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-03-27",
+  "accession": "0000950170-23-009847",
+  "doc": "ubx-ex99_1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1463361/000095017023009847/ubx-ex99_1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 2 trial missed non-inferiority vs aflibercept at 24 weeks \u00b7 Phase 2 \u00b7 UBX1325 in wet AMD \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "UBX1325",
+  "indication": "wet age-related macular degeneration",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "UBX1325 monotherapy did not achieve non-inferiority through 24 weeks due, in part, to an unexpected 3.5 letter gain in the anti-VEGF control arm",
+   "primary_endpoint_met": "The ENVISION study did not meet the non-inferiority margin of -4.5 letters compared to aflibercept with an 85% confidence interval.",
+   "safety": "UBX1325 demonstrated a favorable safety and tolerability profile with no cases of intraocular inflammation, retinal artery occlusion, endophthalmitis, or vasculitis",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

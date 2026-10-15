@@ -1,0 +1,44 @@
+{
+ "cik": "1836056",
+ "name": "Ambrx Biopharma Cayman, Inc.",
+ "ticker": "AMAM",
+ "date": "2022-12-12",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-12-13",
+  "accession": "0001193125-22-303254",
+  "doc": "d430346dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1836056/000119312522303254/d430346dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "other",
+  "summary": "Ambrx paused internal ARX788 development and seeks an ex-China partner \u00b7 Phase 2 \u00b7 ARX788 in HER2+ metastatic breast cancer \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "ARX788",
+  "indication": "HER2 positive metastatic breast cancer",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": 7,
+   "serious_drug_related_patients": 0,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "Ambrx has recently paused the internal development of ARX788 and is seeking to partner ARX788 outside of China.",
+   "primary_endpoint_met": null,
+   "safety": "None of the patients experienced drug-related serious adverse events (SAEs) and all adverse events (AEs) were well tolerated with no treatment discontinuations from AEs.",
+   "program_discontinued": "Ambrx has recently paused the internal development of ARX788 and is seeking to partner ARX788 outside of China."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}
