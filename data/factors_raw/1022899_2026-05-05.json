@@ -1,0 +1,44 @@
+{
+ "id": "1022899_2026-05-05",
+ "cik": "1022899",
+ "name": "Protagenic Therapeutics, Inc.\\new",
+ "date": "2026-05-05",
+ "asof": "2026-06-04",
+ "final": true,
+ "price": {
+  "date": "2026-06-04",
+  "adj_close": 0.5
+ },
+ "balance": {
+  "end": "2025-12-31",
+  "cash": 2212646,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0001493152-26-009301"
+ },
+ "burn": {
+  "end": "2025-12-31",
+  "months": 9.0,
+  "per_month": -341320.4982481752
+ },
+ "shares": {
+  "end": "2026-03-05",
+  "shares": 1810208,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "protagenic therapeutics new",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}
