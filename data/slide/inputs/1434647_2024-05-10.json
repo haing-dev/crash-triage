@@ -1,0 +1,51 @@
+{
+ "id": "1434647_2024-05-10",
+ "kind": "slide",
+ "cik": "1434647",
+ "name": "ZEVRA THERAPEUTICS, INC.",
+ "date": "2024-05-10",
+ "asof": "2024-05-10",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-05-10",
+  "adj_close": 4.82
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 52717000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001437749-24-015705"
+ },
+ "burn6": {
+  "end": "2024-03-31",
+  "start": "2023-10-01",
+  "cash_used_ops": 32323000.0,
+  "capex": 72000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-05-03",
+  "shares": 41853494
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These factors raise substantial doubt as to the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 7,
+  "from": "2024-02-10",
+  "to": "2024-06-09",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "zevra therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

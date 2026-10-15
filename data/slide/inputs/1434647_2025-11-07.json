@@ -1,0 +1,80 @@
+{
+ "id": "1434647_2025-11-07",
+ "kind": "slide",
+ "cik": "1434647",
+ "name": "ZEVRA THERAPEUTICS, INC.",
+ "date": "2025-11-07",
+ "asof": "2025-11-07",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-11-07",
+  "adj_close": 8.81
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 230374000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0001434647-25-000011"
+ },
+ "burn6": {
+  "end": "2025-09-30",
+  "start": "2025-04-01",
+  "cash_used_ops": -1108000.0,
+  "capex": 767000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-11-03",
+  "shares": 56297535
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2025-08-09",
+  "to": "2025-12-07",
+  "trades": [
+   {
+    "date": "2025-10-10",
+    "filed": "2025-10-10",
+    "code": "S",
+    "value": 210908,
+    "who": "McFarlane Neil F."
+   },
+   {
+    "date": "2025-09-12",
+    "filed": "2025-09-16",
+    "code": "P",
+    "value": 24718,
+    "who": "FAVORITO TAMARA A"
+   },
+   {
+    "date": "2025-09-12",
+    "filed": "2025-09-15",
+    "code": "P",
+    "value": 157800,
+    "who": "Shih Alvin"
+   },
+   {
+    "date": "2025-08-19",
+    "filed": "2025-08-20",
+    "code": "P",
+    "value": 45825,
+    "who": "Bode John B"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "zevra therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

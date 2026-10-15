@@ -1,0 +1,49 @@
+{
+ "id": "1796129_2021-04-16",
+ "kind": "slide",
+ "cik": "1796129",
+ "name": "Vincerx Pharma, Inc.",
+ "date": "2021-04-16",
+ "asof": "2021-04-16",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-04-16",
+  "adj_close": 352.0
+ },
+ "balance": {
+  "end": "2020-12-31",
+  "cash": 61792000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001193125-21-089563"
+ },
+ "burn6": {
+  "end": "2020-09-30",
+  "start": "2020-04-01",
+  "cash_used_ops": 186428.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2020-11-06",
+  "shares": 8204709
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 10,
+  "from": "2021-01-16",
+  "to": "2021-05-16",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "vincerx pharma",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

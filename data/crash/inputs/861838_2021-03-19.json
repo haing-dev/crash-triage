@@ -1,0 +1,149 @@
+{
+ "id": "861838_2021-03-19",
+ "kind": "crash",
+ "cik": "861838",
+ "name": "Aceragen, Inc.",
+ "date": "2021-03-19",
+ "asof": "2021-03-25",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-03-25",
+  "adj_close": 23.8
+ },
+ "balance": {
+  "end": "2020-12-31",
+  "cash": 37728000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001558370-21-002152"
+ },
+ "burn6": {
+  "end": "2020-12-31",
+  "start": "2020-07-01",
+  "cash_used_ops": 14672000.0,
+  "capex": 1000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-02-28",
+  "shares": 42257456
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 22,
+  "from": "2020-12-19",
+  "to": "2021-04-18",
+  "trades": [
+   {
+    "date": "2021-03-18",
+    "filed": "2021-03-31",
+    "code": "S",
+    "value": 2474806,
+    "who": "Pillar Invest Corp"
+   },
+   {
+    "date": "2021-03-18",
+    "filed": "2021-03-31",
+    "code": "S",
+    "value": 582221,
+    "who": "Pillar Invest Corp"
+   },
+   {
+    "date": "2021-03-25",
+    "filed": "2021-03-29",
+    "code": "S",
+    "value": 6778,
+    "who": "Tarka Elizabeth Ann"
+   },
+   {
+    "date": "2021-03-25",
+    "filed": "2021-03-29",
+    "code": "S",
+    "value": 10378,
+    "who": "Lim Bryant David"
+   },
+   {
+    "date": "2021-03-25",
+    "filed": "2021-03-29",
+    "code": "S",
+    "value": 8876,
+    "who": "Kirby John J."
+   },
+   {
+    "date": "2021-03-05",
+    "filed": "2021-03-05",
+    "code": "P",
+    "value": 38950,
+    "who": "SOLAND DANIEL B"
+   },
+   {
+    "date": "2021-01-12",
+    "filed": "2021-01-12",
+    "code": "S",
+    "value": 7152,
+    "who": "Kirby John J."
+   },
+   {
+    "date": "2021-01-12",
+    "filed": "2021-01-12",
+    "code": "S",
+    "value": 7310,
+    "who": "Tarka Elizabeth Ann"
+   },
+   {
+    "date": "2021-01-12",
+    "filed": "2021-01-12",
+    "code": "S",
+    "value": 7202,
+    "who": "Lim Bryant David"
+   },
+   {
+    "date": "2021-01-12",
+    "filed": "2021-01-12",
+    "code": "S",
+    "value": 13474,
+    "who": "MILANO VINCENT"
+   },
+   {
+    "date": "2021-01-05",
+    "filed": "2021-01-11",
+    "code": "S",
+    "value": 5722,
+    "who": "Lim Bryant David"
+   },
+   {
+    "date": "2021-01-05",
+    "filed": "2021-01-11",
+    "code": "S",
+    "value": 10700,
+    "who": "MILANO VINCENT"
+   },
+   {
+    "date": "2021-01-05",
+    "filed": "2021-01-06",
+    "code": "S",
+    "value": 3362,
+    "who": "Kirby John J."
+   },
+   {
+    "date": "2020-12-22",
+    "filed": "2020-12-22",
+    "code": "S",
+    "value": 160525,
+    "who": "MILANO VINCENT"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "aceragen",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

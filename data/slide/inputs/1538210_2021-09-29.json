@@ -1,0 +1,63 @@
+{
+ "id": "1538210_2021-09-29",
+ "kind": "slide",
+ "cik": "1538210",
+ "name": "NexImmune, Inc.",
+ "date": "2021-09-29",
+ "asof": "2021-09-29",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-09-29",
+  "adj_close": 415.25
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 102795776,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001193125-21-240516"
+ },
+ "burn6": {
+  "end": "2021-06-30",
+  "start": "2021-01-01",
+  "cash_used_ops": 24769582.0,
+  "capex": 1634586.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-06-30",
+  "shares": 22628007
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2021-07-01",
+  "to": "2021-10-29",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "neximmune",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04505813",
+    "drugs": [
+     "NEXI-002 T Cells"
+    ]
+   },
+   {
+    "nct": "NCT04284228",
+    "drugs": [
+     "Infusion of NEXI-001 T Cells"
+    ]
+   }
+  ]
+ }
+}

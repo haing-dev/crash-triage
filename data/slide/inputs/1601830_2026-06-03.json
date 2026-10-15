@@ -1,0 +1,168 @@
+{
+ "id": "1601830_2026-06-03",
+ "kind": "slide",
+ "cik": "1601830",
+ "name": "RECURSION PHARMACEUTICALS, INC.",
+ "date": "2026-06-03",
+ "asof": "2026-06-03",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-06-03",
+  "adj_close": 3.47
+ },
+ "balance": {
+  "end": "2026-03-31",
+  "cash": 654473000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001601830-26-000078"
+ },
+ "burn6": {
+  "end": "2026-03-31",
+  "start": "2025-10-01",
+  "cash_used_ops": 127174000.0,
+  "capex": 1502000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-04-30",
+  "shares": 168320745
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 31,
+  "from": "2026-03-05",
+  "to": "2026-07-03",
+  "trades": [
+   {
+    "date": "2026-06-18",
+    "filed": "2026-06-22",
+    "code": "S",
+    "value": 12602,
+    "who": "Bumpus Namandje"
+   },
+   {
+    "date": "2026-06-05",
+    "filed": "2026-06-05",
+    "code": "S",
+    "value": 144800,
+    "who": "Gibson Christopher"
+   },
+   {
+    "date": "2026-06-05",
+    "filed": "2026-06-05",
+    "code": "S",
+    "value": 84459,
+    "who": "Khan Najat"
+   },
+   {
+    "date": "2026-06-03",
+    "filed": "2026-06-04",
+    "code": "S",
+    "value": 15526,
+    "who": "Bumpus Namandje"
+   },
+   {
+    "date": "2026-06-02",
+    "filed": "2026-06-04",
+    "code": "S",
+    "value": 110400,
+    "who": "Borgeson Blake"
+   },
+   {
+    "date": "2026-05-22",
+    "filed": "2026-05-27",
+    "code": "S",
+    "value": 123200,
+    "who": "Gibson Christopher"
+   },
+   {
+    "date": "2026-05-07",
+    "filed": "2026-05-08",
+    "code": "S",
+    "value": 134800,
+    "who": "Gibson Christopher"
+   },
+   {
+    "date": "2026-05-05",
+    "filed": "2026-05-07",
+    "code": "S",
+    "value": 105600,
+    "who": "Borgeson Blake"
+   },
+   {
+    "date": "2026-04-22",
+    "filed": "2026-04-24",
+    "code": "S",
+    "value": 144400,
+    "who": "Gibson Christopher"
+   },
+   {
+    "date": "2026-04-07",
+    "filed": "2026-04-08",
+    "code": "S",
+    "value": 124000,
+    "who": "Gibson Christopher"
+   },
+   {
+    "date": "2026-04-07",
+    "filed": "2026-04-08",
+    "code": "S",
+    "value": 93000,
+    "who": "Borgeson Blake"
+   },
+   {
+    "date": "2026-03-23",
+    "filed": "2026-03-25",
+    "code": "S",
+    "value": 130000,
+    "who": "Gibson Christopher"
+   },
+   {
+    "date": "2026-03-17",
+    "filed": "2026-03-18",
+    "code": "S",
+    "value": 26971,
+    "who": "Taylor Ben R"
+   },
+   {
+    "date": "2026-03-09",
+    "filed": "2026-03-11",
+    "code": "S",
+    "value": 94660,
+    "who": "Khan Najat"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "recursion pharmaceuticals",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05985655",
+    "drugs": [
+     "GTAEXS617",
+     "SoC"
+    ]
+   },
+   {
+    "nct": "NCT06678659",
+    "drugs": [
+     "REC-1245"
+    ]
+   },
+   {
+    "nct": "NCT05552755",
+    "drugs": [
+     "REC-4881"
+    ]
+   }
+  ]
+ }
+}

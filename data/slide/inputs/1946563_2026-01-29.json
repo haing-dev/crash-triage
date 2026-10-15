@@ -1,0 +1,85 @@
+{
+ "id": "1946563_2026-01-29",
+ "kind": "slide",
+ "cik": "1946563",
+ "name": "60 DEGREES PHARMACEUTICALS, INC.",
+ "date": "2026-01-29",
+ "asof": "2026-01-29",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-01-29",
+  "adj_close": 4.84
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 4115779,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001554855-25-002032"
+ },
+ "burn6": {
+  "end": "2025-09-30",
+  "start": "2025-04-01",
+  "cash_used_ops": 3559200.0,
+  "capex": 57322.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-11-13",
+  "shares": 4230448
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These conditions, among others, raise substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 2,
+  "from": "2025-10-31",
+  "to": "2026-02-28",
+  "trades": [
+   {
+    "date": "2025-12-15",
+    "filed": "2025-12-16",
+    "code": "P",
+    "value": 7759,
+    "who": "DOW GEOFFREY S"
+   },
+   {
+    "date": "2025-12-10",
+    "filed": "2025-12-12",
+    "code": "P",
+    "value": 8886,
+    "who": "DOW GEOFFREY S"
+   },
+   {
+    "date": "2025-12-11",
+    "filed": "2025-12-12",
+    "code": "P",
+    "value": 3318,
+    "who": "DOW GEOFFREY S"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "60 degrees pharmaceuticals",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06207370",
+    "drugs": [
+     "Tafenoquine"
+    ]
+   },
+   {
+    "nct": "NCT06656351",
+    "drugs": [
+     "Tafenoquine 100mg"
+    ]
+   }
+  ]
+ }
+}

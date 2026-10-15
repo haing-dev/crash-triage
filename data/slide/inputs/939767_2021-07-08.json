@@ -1,0 +1,167 @@
+{
+ "id": "939767_2021-07-08",
+ "kind": "slide",
+ "cik": "939767",
+ "name": "EXELIXIS, INC.",
+ "date": "2021-07-08",
+ "asof": "2021-07-08",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-07-08",
+  "adj_close": 17.83
+ },
+ "balance": {
+  "end": "2021-04-02",
+  "cash": 1185494000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000939767-21-000045"
+ },
+ "burn6": {
+  "end": "2021-04-02",
+  "start": "2020-10-03",
+  "cash_used_ops": -72837000.0,
+  "capex": 27847000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-04-26",
+  "shares": 313387205
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 25,
+  "from": "2021-04-09",
+  "to": "2021-08-07",
+  "trades": [
+   {
+    "date": "2021-07-15",
+    "filed": "2021-07-16",
+    "code": "S",
+    "value": 1048200,
+    "who": "Lamb Peter"
+   },
+   {
+    "date": "2021-06-17",
+    "filed": "2021-06-22",
+    "code": "S",
+    "value": 1330800,
+    "who": "Lamb Peter"
+   },
+   {
+    "date": "2021-05-18",
+    "filed": "2021-05-18",
+    "code": "S",
+    "value": 360885,
+    "who": "Haley Patrick J."
+   },
+   {
+    "date": "2021-05-11",
+    "filed": "2021-05-17",
+    "code": "S",
+    "value": 206958,
+    "who": "Freire Maria C"
+   },
+   {
+    "date": "2021-05-14",
+    "filed": "2021-05-17",
+    "code": "S",
+    "value": 1001600,
+    "who": "MARCHESI VINCENT T"
+   },
+   {
+    "date": "2021-05-14",
+    "filed": "2021-05-17",
+    "code": "S",
+    "value": 1018826,
+    "who": "POSTE GEORGE"
+   },
+   {
+    "date": "2021-05-13",
+    "filed": "2021-05-14",
+    "code": "S",
+    "value": 2538000,
+    "who": "Schwab Gisela"
+   },
+   {
+    "date": "2021-05-11",
+    "filed": "2021-05-13",
+    "code": "S",
+    "value": 255039,
+    "who": "PAPADOPOULOS STELIOS"
+   },
+   {
+    "date": "2021-05-11",
+    "filed": "2021-05-13",
+    "code": "S",
+    "value": 126875,
+    "who": "PAPADOPOULOS STELIOS"
+   },
+   {
+    "date": "2021-05-11",
+    "filed": "2021-05-13",
+    "code": "S",
+    "value": 136880,
+    "who": "PAPADOPOULOS STELIOS"
+   },
+   {
+    "date": "2021-04-26",
+    "filed": "2021-04-28",
+    "code": "S",
+    "value": 1250000,
+    "who": "Schwab Gisela"
+   },
+   {
+    "date": "2021-04-26",
+    "filed": "2021-04-28",
+    "code": "S",
+    "value": 191855,
+    "who": "Haley Patrick J."
+   },
+   {
+    "date": "2021-04-26",
+    "filed": "2021-04-28",
+    "code": "S",
+    "value": 450540,
+    "who": "Hessekiel Jeffrey"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "exelixis",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04446117",
+    "drugs": [
+     "Cabozantinib",
+     "Atezolizumab",
+     "Abiraterone Acetate"
+    ]
+   },
+   {
+    "nct": "NCT03755791",
+    "drugs": [
+     "Cabozantinib",
+     "Cabozantinib",
+     "Sorafenib"
+    ]
+   },
+   {
+    "nct": "NCT03937219",
+    "drugs": [
+     "Cabozantinib",
+     "Nivolumab",
+     "Ipilimumab"
+    ]
+   }
+  ]
+ }
+}

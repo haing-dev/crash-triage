@@ -1,0 +1,92 @@
+{
+ "id": "1680367_2026-06-02",
+ "kind": "slide",
+ "cik": "1680367",
+ "name": "Shattuck Labs, Inc.",
+ "date": "2026-06-02",
+ "asof": "2026-06-02",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-06-02",
+  "adj_close": 4.87
+ },
+ "balance": {
+  "end": "2026-03-31",
+  "cash": 90419000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001628280-26-031661"
+ },
+ "burn6": {
+  "end": "2026-03-31",
+  "start": "2025-10-01",
+  "cash_used_ops": 21914000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-04-30",
+  "shares": 76680517
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 21,
+  "from": "2026-03-04",
+  "to": "2026-07-02",
+  "trades": [
+   {
+    "date": "2026-06-30",
+    "filed": "2026-07-02",
+    "code": "S",
+    "value": 165424,
+    "who": "Shukla Abhinav A."
+   },
+   {
+    "date": "2026-07-01",
+    "filed": "2026-07-02",
+    "code": "S",
+    "value": 707,
+    "who": "Shukla Abhinav A."
+   },
+   {
+    "date": "2026-06-30",
+    "filed": "2026-07-02",
+    "code": "S",
+    "value": 210300,
+    "who": "Pandite Arundathy N."
+   },
+   {
+    "date": "2026-06-09",
+    "filed": "2026-06-11",
+    "code": "P",
+    "value": 250000,
+    "who": "SIEGALL CLAY B"
+   },
+   {
+    "date": "2026-05-12",
+    "filed": "2026-05-14",
+    "code": "S",
+    "value": 14244,
+    "who": "Shukla Abhinav A."
+   },
+   {
+    "date": "2026-05-12",
+    "filed": "2026-05-14",
+    "code": "S",
+    "value": 198300,
+    "who": "Pandite Arundathy N."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "shattuck labs",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

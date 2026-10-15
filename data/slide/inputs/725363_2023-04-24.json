@@ -1,0 +1,50 @@
+{
+ "id": "725363_2023-04-24",
+ "kind": "slide",
+ "cik": "725363",
+ "name": "CEL SCI CORP",
+ "date": "2023-04-24",
+ "asof": "2023-04-24",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-04-24",
+  "adj_close": 68.4
+ },
+ "balance": {
+  "end": "2022-12-31",
+  "cash": 18017319,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001654954-23-001725"
+ },
+ "burn6": {
+  "end": "2022-12-31",
+  "start": "2022-07-01",
+  "cash_used_ops": 9580370.0,
+  "capex": 69646.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-02-10",
+  "shares": 43738865
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Due to recurring losses from operations and future liquidity needs, there is substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2023-01-24",
+  "to": "2023-05-24",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "cel sci",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

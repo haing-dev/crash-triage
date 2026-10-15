@@ -1,0 +1,59 @@
+{
+ "id": "1609809_2023-07-14",
+ "kind": "slide",
+ "cik": "1609809",
+ "name": "Seres Therapeutics, Inc.",
+ "date": "2023-07-14",
+ "asof": "2023-07-14",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-07-14",
+  "adj_close": 90.4
+ },
+ "balance": {
+  "end": "2023-03-31",
+  "cash": 106544000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-23-019222"
+ },
+ "burn6": {
+  "end": "2023-03-31",
+  "start": "2022-10-01",
+  "cash_used_ops": 129476000.0,
+  "capex": 7529000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-05-05",
+  "shares": 127901391
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "In the Company\u2019s Annual Report on Form 10-K for the year ended December 31, 2022, the Company disclosed that there was substantial doubt about its ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2023-04-15",
+  "to": "2023-08-13",
+  "trades": [
+   {
+    "date": "2023-04-28",
+    "filed": "2023-05-01",
+    "code": "S",
+    "value": 36527,
+    "who": "Ege David S."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "seres therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

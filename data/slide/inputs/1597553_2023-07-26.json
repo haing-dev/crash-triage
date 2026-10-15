@@ -1,0 +1,78 @@
+{
+ "id": "1597553_2023-07-26",
+ "kind": "slide",
+ "cik": "1597553",
+ "name": "Sage Therapeutics, Inc.",
+ "date": "2023-07-26",
+ "asof": "2023-07-26",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-07-26",
+  "adj_close": 36.205
+ },
+ "balance": {
+  "end": "2023-03-31",
+  "cash": 1129585000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-23-016436"
+ },
+ "burn6": {
+  "end": "2023-03-31",
+  "start": "2022-10-01",
+  "cash_used_ops": 280614000.0,
+  "capex": 507000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-04-25",
+  "shares": 59762106
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 12,
+  "from": "2023-04-27",
+  "to": "2023-08-25",
+  "trades": [
+   {
+    "date": "2023-08-09",
+    "filed": "2023-08-11",
+    "code": "P",
+    "value": 37279,
+    "who": "Barrett Elizabeth"
+   },
+   {
+    "date": "2023-05-09",
+    "filed": "2023-05-11",
+    "code": "P",
+    "value": 50500,
+    "who": "Barrett Elizabeth"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "sage therapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05366751",
+    "drugs": [
+     "SAGE-324"
+    ]
+   },
+   {
+    "nct": "NCT05173012",
+    "drugs": [
+     "SAGE-324"
+    ]
+   }
+  ]
+ }
+}

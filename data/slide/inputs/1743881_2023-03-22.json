@@ -1,0 +1,128 @@
+{
+ "id": "1743881_2023-03-22",
+ "kind": "slide",
+ "cik": "1743881",
+ "name": "BridgeBio Pharma, Inc.",
+ "date": "2023-03-22",
+ "asof": "2023-03-22",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-03-22",
+  "adj_close": 12.84
+ },
+ "balance": {
+  "end": "2022-12-31",
+  "cash": 428269000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-23-004145"
+ },
+ "burn6": {
+  "end": "2022-12-31",
+  "start": "2022-07-01",
+  "cash_used_ops": 228406000.0,
+  "capex": 1560000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-02-16",
+  "shares": 151373044
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 16,
+  "from": "2022-12-22",
+  "to": "2023-04-21",
+  "trades": [
+   {
+    "date": "2023-04-05",
+    "filed": "2023-04-07",
+    "code": "S",
+    "value": 857697,
+    "who": "STEPHENSON BRIAN C"
+   },
+   {
+    "date": "2023-04-05",
+    "filed": "2023-04-07",
+    "code": "S",
+    "value": 1855656,
+    "who": "Kumar Neil"
+   },
+   {
+    "date": "2023-03-03",
+    "filed": "2023-03-03",
+    "code": "S",
+    "value": 687148,
+    "who": "STEPHENSON BRIAN C"
+   },
+   {
+    "date": "2023-03-03",
+    "filed": "2023-03-03",
+    "code": "S",
+    "value": 1315224,
+    "who": "Kumar Neil"
+   },
+   {
+    "date": "2023-02-17",
+    "filed": "2023-02-21",
+    "code": "S",
+    "value": 196977,
+    "who": "STEPHENSON BRIAN C"
+   },
+   {
+    "date": "2023-02-17",
+    "filed": "2023-02-21",
+    "code": "S",
+    "value": 28089,
+    "who": "STEPHENSON BRIAN C"
+   },
+   {
+    "date": "2023-02-17",
+    "filed": "2023-02-21",
+    "code": "S",
+    "value": 569073,
+    "who": "Kumar Neil"
+   },
+   {
+    "date": "2023-02-03",
+    "filed": "2023-02-06",
+    "code": "S",
+    "value": 671922,
+    "who": "STEPHENSON BRIAN C"
+   },
+   {
+    "date": "2023-02-03",
+    "filed": "2023-02-06",
+    "code": "S",
+    "value": 1320696,
+    "who": "Kumar Neil"
+   },
+   {
+    "date": "2023-01-05",
+    "filed": "2023-01-06",
+    "code": "S",
+    "value": 468470,
+    "who": "STEPHENSON BRIAN C"
+   },
+   {
+    "date": "2023-01-05",
+    "filed": "2023-01-06",
+    "code": "S",
+    "value": 920856,
+    "who": "Kumar Neil"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "bridgebio pharma",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

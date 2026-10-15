@@ -1,0 +1,196 @@
+{
+ "id": "730272_2024-06-07",
+ "kind": "slide",
+ "cik": "730272",
+ "name": "REPLIGEN CORP",
+ "date": "2024-06-07",
+ "asof": "2024-06-07",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-06-07",
+  "adj_close": 145.78
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 780617000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-24-051310"
+ },
+ "burn6": {
+  "end": "2024-03-31",
+  "start": "2023-10-01",
+  "cash_used_ops": -73773000.0,
+  "capex": 19433000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-04-29",
+  "shares": 55875894
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 20,
+  "from": "2024-03-09",
+  "to": "2024-07-07",
+  "trades": [
+   {
+    "date": "2024-06-14",
+    "filed": "2024-06-14",
+    "code": "P",
+    "value": 113954,
+    "who": "Madaus Martin D"
+   },
+   {
+    "date": "2024-06-14",
+    "filed": "2024-06-14",
+    "code": "P",
+    "value": 87822,
+    "who": "Madaus Martin D"
+   },
+   {
+    "date": "2024-06-14",
+    "filed": "2024-06-14",
+    "code": "P",
+    "value": 150540,
+    "who": "BARTHELEMY NICOLAS"
+   },
+   {
+    "date": "2024-06-14",
+    "filed": "2024-06-14",
+    "code": "P",
+    "value": 248160,
+    "who": "Hunt Anthony"
+   },
+   {
+    "date": "2024-05-21",
+    "filed": "2024-05-22",
+    "code": "S",
+    "value": 711023,
+    "who": "Hunt Anthony"
+   },
+   {
+    "date": "2024-05-21",
+    "filed": "2024-05-22",
+    "code": "S",
+    "value": 669536,
+    "who": "Hunt Anthony"
+   },
+   {
+    "date": "2024-05-21",
+    "filed": "2024-05-22",
+    "code": "S",
+    "value": 662042,
+    "who": "Hunt Anthony"
+   },
+   {
+    "date": "2024-05-21",
+    "filed": "2024-05-22",
+    "code": "S",
+    "value": 501547,
+    "who": "Hunt Anthony"
+   },
+   {
+    "date": "2024-05-21",
+    "filed": "2024-05-22",
+    "code": "S",
+    "value": 667407,
+    "who": "Hunt Anthony"
+   },
+   {
+    "date": "2024-05-21",
+    "filed": "2024-05-22",
+    "code": "S",
+    "value": 165728,
+    "who": "Hunt Anthony"
+   },
+   {
+    "date": "2024-03-11",
+    "filed": "2024-03-12",
+    "code": "S",
+    "value": 681348,
+    "who": "KURIYEL RALF"
+   },
+   {
+    "date": "2024-03-08",
+    "filed": "2024-03-11",
+    "code": "S",
+    "value": 660170,
+    "who": "Hunt Anthony"
+   },
+   {
+    "date": "2024-03-08",
+    "filed": "2024-03-11",
+    "code": "S",
+    "value": 1222681,
+    "who": "Hunt Anthony"
+   },
+   {
+    "date": "2024-03-08",
+    "filed": "2024-03-11",
+    "code": "S",
+    "value": 328852,
+    "who": "Hunt Anthony"
+   },
+   {
+    "date": "2024-03-08",
+    "filed": "2024-03-11",
+    "code": "S",
+    "value": 267447,
+    "who": "Hunt Anthony"
+   },
+   {
+    "date": "2024-03-08",
+    "filed": "2024-03-11",
+    "code": "S",
+    "value": 363544,
+    "who": "Hunt Anthony"
+   },
+   {
+    "date": "2024-03-08",
+    "filed": "2024-03-11",
+    "code": "S",
+    "value": 261731,
+    "who": "Hunt Anthony"
+   },
+   {
+    "date": "2024-03-08",
+    "filed": "2024-03-11",
+    "code": "S",
+    "value": 162610,
+    "who": "Hunt Anthony"
+   },
+   {
+    "date": "2024-03-08",
+    "filed": "2024-03-11",
+    "code": "S",
+    "value": 31598,
+    "who": "Hunt Anthony"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "repligen",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT00322764",
+    "drugs": [
+     "Uridine"
+    ]
+   },
+   {
+    "nct": "NCT00036231",
+    "drugs": [
+     "RG1068 (Synthetic Human Secretin)"
+    ]
+   }
+  ]
+ }
+}

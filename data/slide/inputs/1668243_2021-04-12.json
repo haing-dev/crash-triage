@@ -1,0 +1,88 @@
+{
+ "id": "1668243_2021-04-12",
+ "kind": "slide",
+ "cik": "1668243",
+ "name": "UroGen Pharma Ltd.",
+ "date": "2021-04-12",
+ "asof": "2021-04-12",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-04-12",
+  "adj_close": 17.57
+ },
+ "balance": {
+  "end": "2020-12-31",
+  "cash": 103911000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0001564590-21-014016"
+ },
+ "burn6": {
+  "end": "2020-12-31",
+  "start": "2020-07-01",
+  "cash_used_ops": 46322000.0,
+  "capex": 832000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-02-26",
+  "shares": 22272848
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 9,
+  "from": "2021-01-12",
+  "to": "2021-05-12",
+  "trades": [
+   {
+    "date": "2021-04-30",
+    "filed": "2021-05-04",
+    "code": "S",
+    "value": 4860,
+    "who": "Schoenberg Mark"
+   },
+   {
+    "date": "2021-04-26",
+    "filed": "2021-04-27",
+    "code": "S",
+    "value": 1747,
+    "who": "Schoenberg Mark"
+   },
+   {
+    "date": "2021-01-31",
+    "filed": "2021-02-02",
+    "code": "S",
+    "value": 23747,
+    "who": "Schoenberg Mark"
+   },
+   {
+    "date": "2021-01-26",
+    "filed": "2021-01-26",
+    "code": "S",
+    "value": 2212,
+    "who": "Schoenberg Mark"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "urogen pharma",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04688931",
+    "drugs": [
+     "UGN-102",
+     "TURBT"
+    ]
+   }
+  ]
+ }
+}

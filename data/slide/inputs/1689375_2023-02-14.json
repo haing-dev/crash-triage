@@ -1,0 +1,170 @@
+{
+ "id": "1689375_2023-02-14",
+ "kind": "slide",
+ "cik": "1689375",
+ "name": "Entrada Therapeutics, Inc.",
+ "date": "2023-02-14",
+ "asof": "2023-02-14",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-02-14",
+  "adj_close": 13.03
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 215572000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001689375-22-000045"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 45491000.0,
+  "capex": 1585000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-10-31",
+  "shares": 31406165
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 14,
+  "from": "2022-11-16",
+  "to": "2023-03-16",
+  "trades": [
+   {
+    "date": "2023-03-02",
+    "filed": "2023-03-03",
+    "code": "S",
+    "value": 16761,
+    "who": "WENTWORTH KORY JAMES"
+   },
+   {
+    "date": "2023-03-02",
+    "filed": "2023-03-03",
+    "code": "S",
+    "value": 1628,
+    "who": "WENTWORTH KORY JAMES"
+   },
+   {
+    "date": "2023-03-02",
+    "filed": "2023-03-03",
+    "code": "S",
+    "value": 15496,
+    "who": "KREHER NERISSA"
+   },
+   {
+    "date": "2023-03-02",
+    "filed": "2023-03-03",
+    "code": "S",
+    "value": 1841,
+    "who": "KREHER NERISSA"
+   },
+   {
+    "date": "2023-02-28",
+    "filed": "2023-03-02",
+    "code": "S",
+    "value": 24000,
+    "who": "Doshi Dipal"
+   },
+   {
+    "date": "2023-01-27",
+    "filed": "2023-01-30",
+    "code": "S",
+    "value": 24001,
+    "who": "Doshi Dipal"
+   },
+   {
+    "date": "2023-01-09",
+    "filed": "2023-01-10",
+    "code": "S",
+    "value": 36196,
+    "who": "Doshi Dipal"
+   },
+   {
+    "date": "2022-12-30",
+    "filed": "2023-01-03",
+    "code": "S",
+    "value": 69932,
+    "who": "KREHER NERISSA"
+   },
+   {
+    "date": "2022-12-27",
+    "filed": "2022-12-29",
+    "code": "S",
+    "value": 8879,
+    "who": "Doshi Dipal"
+   },
+   {
+    "date": "2022-12-27",
+    "filed": "2022-12-29",
+    "code": "S",
+    "value": 136383,
+    "who": "Doshi Dipal"
+   },
+   {
+    "date": "2022-12-28",
+    "filed": "2022-12-29",
+    "code": "S",
+    "value": 67852,
+    "who": "Doshi Dipal"
+   },
+   {
+    "date": "2022-12-29",
+    "filed": "2022-12-29",
+    "code": "S",
+    "value": 6005,
+    "who": "Doshi Dipal"
+   },
+   {
+    "date": "2022-12-08",
+    "filed": "2022-12-12",
+    "code": "S",
+    "value": 86238,
+    "who": "WENTWORTH KORY JAMES"
+   },
+   {
+    "date": "2022-12-02",
+    "filed": "2022-12-06",
+    "code": "S",
+    "value": 52949,
+    "who": "WENTWORTH KORY JAMES"
+   },
+   {
+    "date": "2022-12-05",
+    "filed": "2022-12-06",
+    "code": "S",
+    "value": 3610,
+    "who": "WENTWORTH KORY JAMES"
+   },
+   {
+    "date": "2022-11-28",
+    "filed": "2022-11-30",
+    "code": "S",
+    "value": 27826,
+    "who": "Doshi Dipal"
+   },
+   {
+    "date": "2022-11-16",
+    "filed": "2022-11-18",
+    "code": "S",
+    "value": 3620,
+    "who": "WENTWORTH KORY JAMES"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "entrada therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

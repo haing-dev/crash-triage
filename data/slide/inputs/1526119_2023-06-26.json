@@ -1,0 +1,155 @@
+{
+ "id": "1526119_2023-06-26",
+ "kind": "slide",
+ "cik": "1526119",
+ "name": "Verastem, Inc.",
+ "date": "2023-06-26",
+ "asof": "2023-06-26",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-06-26",
+  "adj_close": 8.55
+ },
+ "balance": {
+  "end": "2023-03-31",
+  "cash": 111204000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001558370-23-008839"
+ },
+ "burn6": {
+  "end": "2023-03-31",
+  "start": "2022-10-01",
+  "cash_used_ops": 36902000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-05-08",
+  "shares": 200861380
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 15,
+  "from": "2023-03-28",
+  "to": "2023-07-26",
+  "trades": [
+   {
+    "date": "2023-07-06",
+    "filed": "2023-07-10",
+    "code": "S",
+    "value": 40,
+    "who": "Calkins Daniel"
+   },
+   {
+    "date": "2023-06-26",
+    "filed": "2023-06-28",
+    "code": "S",
+    "value": 212,
+    "who": "Calkins Daniel"
+   },
+   {
+    "date": "2023-06-16",
+    "filed": "2023-06-21",
+    "code": "S",
+    "value": 2420,
+    "who": "Paterson Dan"
+   },
+   {
+    "date": "2023-06-20",
+    "filed": "2023-06-21",
+    "code": "S",
+    "value": 1885,
+    "who": "Paterson Dan"
+   },
+   {
+    "date": "2023-06-16",
+    "filed": "2023-06-21",
+    "code": "S",
+    "value": 2807,
+    "who": "Gagnon Robert E."
+   },
+   {
+    "date": "2023-06-20",
+    "filed": "2023-06-21",
+    "code": "S",
+    "value": 1339,
+    "who": "Gagnon Robert E."
+   },
+   {
+    "date": "2023-06-16",
+    "filed": "2023-06-21",
+    "code": "S",
+    "value": 4831,
+    "who": "Stuglik Brian M"
+   },
+   {
+    "date": "2023-06-20",
+    "filed": "2023-06-21",
+    "code": "S",
+    "value": 2832,
+    "who": "Stuglik Brian M"
+   },
+   {
+    "date": "2023-04-05",
+    "filed": "2023-04-06",
+    "code": "S",
+    "value": 28,
+    "who": "Calkins Daniel"
+   },
+   {
+    "date": "2023-03-24",
+    "filed": "2023-03-28",
+    "code": "S",
+    "value": 159,
+    "who": "Calkins Daniel"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "verastem",
+  "other_trials": 5,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05074810",
+    "drugs": [
+     "avutometinib and sotorasib",
+     "avutometinib and sotorasib and defactinib"
+    ]
+   },
+   {
+    "nct": "NCT05375994",
+    "drugs": [
+     "avutometinib (VS-6766) and adagrasib"
+    ]
+   },
+   {
+    "nct": "NCT05669482",
+    "drugs": [
+     "avutometinib (VS-6766) and defactinib in combination with gemcitabine and nab-paclitaxel"
+    ]
+   },
+   {
+    "nct": "NCT04625270",
+    "drugs": [
+     "avutometinib (VS-6766)",
+     "avutometinib (VS-6766) and defactinib"
+    ]
+   },
+   {
+    "nct": "NCT04620330",
+    "drugs": [
+     "avutometinib (VS-6766)",
+     "avutometinib (VS-6766) and Defactinib"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,132 @@
+{
+ "id": "1745999_2026-07-20",
+ "kind": "slide",
+ "cik": "1745999",
+ "name": "Beam Therapeutics Inc.",
+ "date": "2026-07-20",
+ "asof": "2026-07-20",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-07-20",
+  "adj_close": 26.33
+ },
+ "balance": {
+  "end": "2026-03-31",
+  "cash": 1211652000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001193125-26-210338"
+ },
+ "burn6": {
+  "end": "2026-03-31",
+  "start": "2025-10-01",
+  "cash_used_ops": 211802000.0,
+  "capex": 5966000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-04-30",
+  "shares": 102879214
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2026-04-21",
+  "to": "2026-08-19",
+  "trades": [
+   {
+    "date": "2026-07-27",
+    "filed": "2026-07-29",
+    "code": "S",
+    "value": 429037,
+    "who": "Simon Amy"
+   },
+   {
+    "date": "2026-06-30",
+    "filed": "2026-07-02",
+    "code": "S",
+    "value": 12954,
+    "who": "Simon Amy"
+   },
+   {
+    "date": "2026-06-29",
+    "filed": "2026-07-01",
+    "code": "S",
+    "value": 471528,
+    "who": "Evans John M."
+   },
+   {
+    "date": "2026-06-29",
+    "filed": "2026-07-01",
+    "code": "S",
+    "value": 415824,
+    "who": "Evans John M."
+   },
+   {
+    "date": "2026-06-30",
+    "filed": "2026-07-01",
+    "code": "S",
+    "value": 791482,
+    "who": "Evans John M."
+   },
+   {
+    "date": "2026-06-30",
+    "filed": "2026-07-01",
+    "code": "S",
+    "value": 66203,
+    "who": "Evans John M."
+   },
+   {
+    "date": "2026-06-25",
+    "filed": "2026-06-29",
+    "code": "S",
+    "value": 1172025,
+    "who": "FMR LLC"
+   },
+   {
+    "date": "2026-06-26",
+    "filed": "2026-06-29",
+    "code": "S",
+    "value": 8867467,
+    "who": "FMR LLC"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "beam therapeutics",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06735755",
+    "drugs": [
+     "BEAM-301: Single dose of BEAM-301 administered by IV"
+    ]
+   },
+   {
+    "nct": "NCT05885464",
+    "drugs": [
+     "BEAM-201"
+    ]
+   },
+   {
+    "nct": "NCT06389877",
+    "drugs": [
+     "BEAM-302"
+    ]
+   },
+   {
+    "nct": "NCT05456880",
+    "drugs": [
+     "BEAM-101"
+    ]
+   }
+  ]
+ }
+}

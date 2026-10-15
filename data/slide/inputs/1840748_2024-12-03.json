@@ -1,0 +1,43 @@
+{
+ "id": "1840748_2024-12-03",
+ "kind": "slide",
+ "cik": "1840748",
+ "name": "LAVA Therapeutics NV",
+ "date": "2024-12-03",
+ "asof": "2024-12-03",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-12-03",
+  "adj_close": 1.68
+ },
+ "balance": {
+  "end": "2023-12-31",
+  "cash": 44231000,
+  "parts": [
+   "ifrs CashAndCashEquivalents"
+  ],
+  "accn": "0001558370-24-003626"
+ },
+ "burn6": null,
+ "shares": {
+  "end": "2023-12-31",
+  "shares": 26289087
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2024-09-04",
+  "to": "2025-01-02",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "lava therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,86 @@
+{
+ "id": "1400118_2025-08-19",
+ "kind": "slide",
+ "cik": "1400118",
+ "name": "Sagimet Biosciences Inc.",
+ "date": "2025-08-19",
+ "asof": "2025-08-19",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-08-19",
+  "adj_close": 6.91
+ },
+ "balance": {
+  "end": "2025-06-30",
+  "cash": 135466000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent",
+   "MarketableSecuritiesNoncurrent"
+  ],
+  "accn": "0001558370-25-011301"
+ },
+ "burn6": {
+  "end": "2025-06-30",
+  "start": "2025-01-01",
+  "cash_used_ops": 23637000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-11-08",
+  "shares": 30674855
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 10,
+  "from": "2025-05-21",
+  "to": "2025-09-18",
+  "trades": [
+   {
+    "date": "2025-07-21",
+    "filed": "2025-07-23",
+    "code": "S",
+    "value": 598115,
+    "who": "Happel David"
+   },
+   {
+    "date": "2025-07-21",
+    "filed": "2025-07-23",
+    "code": "S",
+    "value": 75607,
+    "who": "Martins Eduardo Bruno"
+   },
+   {
+    "date": "2025-07-21",
+    "filed": "2025-07-23",
+    "code": "S",
+    "value": 98471,
+    "who": "Rozek Elizabeth"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "sagimet biosciences",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06594523",
+    "drugs": [
+     "Denifanstat"
+    ]
+   },
+   {
+    "nct": "NCT06692283",
+    "drugs": [
+     "denifanstat"
+    ]
+   }
+  ]
+ }
+}

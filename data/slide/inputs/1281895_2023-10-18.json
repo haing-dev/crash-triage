@@ -1,0 +1,126 @@
+{
+ "id": "1281895_2023-10-18",
+ "kind": "slide",
+ "cik": "1281895",
+ "name": "ROCKET PHARMACEUTICALS, INC.",
+ "date": "2023-10-18",
+ "asof": "2023-10-18",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-10-18",
+  "adj_close": 16.78
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 307040000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001140361-23-038855"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 108429000.0,
+  "capex": 7134000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-08-04",
+  "shares": 80525531
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 17,
+  "from": "2023-07-20",
+  "to": "2023-11-17",
+  "trades": [
+   {
+    "date": "2023-11-15",
+    "filed": "2023-11-16",
+    "code": "S",
+    "value": 450646,
+    "who": "Makker Gotham"
+   },
+   {
+    "date": "2023-10-20",
+    "filed": "2023-10-25",
+    "code": "S",
+    "value": 9623,
+    "who": "Militello John"
+   },
+   {
+    "date": "2023-09-28",
+    "filed": "2023-10-02",
+    "code": "S",
+    "value": 216880,
+    "who": "Makker Gotham"
+   },
+   {
+    "date": "2023-09-29",
+    "filed": "2023-10-02",
+    "code": "S",
+    "value": 98864,
+    "who": "Makker Gotham"
+   },
+   {
+    "date": "2023-08-17",
+    "filed": "2023-08-21",
+    "code": "S",
+    "value": 23733,
+    "who": "Patel Kinnari"
+   },
+   {
+    "date": "2023-08-17",
+    "filed": "2023-08-21",
+    "code": "S",
+    "value": 73750,
+    "who": "Shah Gaurav"
+   },
+   {
+    "date": "2023-08-17",
+    "filed": "2023-08-21",
+    "code": "S",
+    "value": 4394,
+    "who": "Militello John"
+   },
+   {
+    "date": "2023-07-20",
+    "filed": "2023-07-24",
+    "code": "S",
+    "value": 10906,
+    "who": "Militello John"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "rocket pharmaceuticals",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06092034",
+    "drugs": [
+     "RP-A501"
+    ]
+   },
+   {
+    "nct": "NCT04069533",
+    "drugs": [
+     "RP-L102"
+    ]
+   },
+   {
+    "nct": "NCT04248439",
+    "drugs": [
+     "RP-L102"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "id": "907654_2022-03-10",
+ "kind": "slide",
+ "cik": "907654",
+ "name": "Oruka Therapeutics, Inc.",
+ "date": "2022-03-10",
+ "asof": "2022-03-10",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-03-10",
+  "adj_close": 25.56
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 58313000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001564590-21-053546"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 8590000.0,
+  "capex": 30000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-11-01",
+  "shares": 14410143
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2021-12-10",
+  "to": "2022-04-09",
+  "trades": [
+   {
+    "date": "2022-04-05",
+    "filed": "2022-04-07",
+    "code": "P",
+    "value": 114469,
+    "who": "Funicular Fund, LP"
+   },
+   {
+    "date": "2022-04-06",
+    "filed": "2022-04-07",
+    "code": "P",
+    "value": 61603,
+    "who": "Funicular Fund, LP"
+   },
+   {
+    "date": "2022-04-07",
+    "filed": "2022-04-07",
+    "code": "P",
+    "value": 63706,
+    "who": "Funicular Fund, LP"
+   },
+   {
+    "date": "2022-04-04",
+    "filed": "2022-04-04",
+    "code": "P",
+    "value": 276309,
+    "who": "Funicular Fund, LP"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "oruka therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

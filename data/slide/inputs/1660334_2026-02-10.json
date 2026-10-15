@@ -1,0 +1,101 @@
+{
+ "id": "1660334_2026-02-10",
+ "kind": "slide",
+ "cik": "1660334",
+ "name": "Verrica Pharmaceuticals Inc.",
+ "date": "2026-02-10",
+ "asof": "2026-02-10",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-02-10",
+  "adj_close": 6.03
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 21097000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001660334-25-000006"
+ },
+ "burn6": {
+  "end": "2025-09-30",
+  "start": "2025-04-01",
+  "cash_used_ops": 359000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-11-07",
+  "shares": 9490035
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "The Company plans to address the conditions that raise substantial doubt regarding its ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2025-11-12",
+  "to": "2026-03-12",
+  "trades": [
+   {
+    "date": "2025-11-25",
+    "filed": "2025-11-25",
+    "code": "P",
+    "value": 10000,
+    "who": "Rosenberg Noah L."
+   },
+   {
+    "date": "2025-11-25",
+    "filed": "2025-11-25",
+    "code": "P",
+    "value": 15001,
+    "who": "Kirby John J."
+   },
+   {
+    "date": "2025-11-25",
+    "filed": "2025-11-25",
+    "code": "P",
+    "value": 42425,
+    "who": "Zawitz David"
+   },
+   {
+    "date": "2025-11-25",
+    "filed": "2025-11-25",
+    "code": "P",
+    "value": 400114,
+    "who": "Rieger Jayson"
+   },
+   {
+    "date": "2025-11-25",
+    "filed": "2025-11-25",
+    "code": "P",
+    "value": 5835050,
+    "who": "Manning Paul B"
+   },
+   {
+    "date": "2025-11-25",
+    "filed": "2025-11-25",
+    "code": "P",
+    "value": 11670108,
+    "who": "Manning Paul B"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "verrica pharmaceuticals",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT07246590",
+    "drugs": [
+     "VP-102",
+     "Vehicle"
+    ]
+   }
+  ]
+ }
+}

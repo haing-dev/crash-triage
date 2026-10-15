@@ -1,0 +1,102 @@
+{
+ "id": "1610618_2021-04-12",
+ "kind": "slide",
+ "cik": "1610618",
+ "name": "Cidara Therapeutics, Inc.",
+ "date": "2021-04-12",
+ "asof": "2021-04-12",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-04-12",
+  "adj_close": 43.4
+ },
+ "balance": {
+  "end": "2020-12-31",
+  "cash": 35912000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001610618-21-000008"
+ },
+ "burn6": {
+  "end": "2020-12-31",
+  "start": "2020-07-01",
+  "cash_used_ops": 25211000.0,
+  "capex": 54000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-02-18",
+  "shares": 48043143
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "However, the Company\u2019s current working capital, anticipated operating expenses and net losses and the uncertainties surrounding its ability to raise additional capital as needed, as discussed below, raise substantial doubt about its ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 13,
+  "from": "2021-01-12",
+  "to": "2021-05-12",
+  "trades": [
+   {
+    "date": "2021-01-05",
+    "filed": "2021-04-05",
+    "code": "S",
+    "value": 5908,
+    "who": "Abdollahian Neil"
+   },
+   {
+    "date": "2021-04-01",
+    "filed": "2021-04-05",
+    "code": "S",
+    "value": 3908,
+    "who": "Abdollahian Neil"
+   },
+   {
+    "date": "2021-01-05",
+    "filed": "2021-04-05",
+    "code": "S",
+    "value": 5908,
+    "who": "Daruwala Paul"
+   },
+   {
+    "date": "2021-04-01",
+    "filed": "2021-04-05",
+    "code": "S",
+    "value": 1577,
+    "who": "Daruwala Paul"
+   },
+   {
+    "date": "2021-01-05",
+    "filed": "2021-04-05",
+    "code": "S",
+    "value": 1697,
+    "who": "Oien Jessica"
+   },
+   {
+    "date": "2021-04-01",
+    "filed": "2021-04-05",
+    "code": "S",
+    "value": 3131,
+    "who": "Oien Jessica"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "cidara therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03667690",
+    "drugs": [
+     "Rezafungin for Injection",
+     "Caspofungin",
+     "Fluconazole"
+    ]
+   }
+  ]
+ }
+}

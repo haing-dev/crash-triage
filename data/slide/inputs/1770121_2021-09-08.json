@@ -1,0 +1,136 @@
+{
+ "id": "1770121_2021-09-08",
+ "kind": "slide",
+ "cik": "1770121",
+ "name": "Sana Biotechnology, Inc.",
+ "date": "2021-09-08",
+ "asof": "2021-09-08",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-09-08",
+  "adj_close": 23.41
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 930770000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent",
+   "MarketableSecuritiesNoncurrent"
+  ],
+  "accn": "0001564590-21-040861"
+ },
+ "burn6": {
+  "end": "2021-06-30",
+  "start": "2021-01-01",
+  "cash_used_ops": 90469000.0,
+  "capex": 16596000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-08-03",
+  "shares": 187890775
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2021-06-10",
+  "to": "2021-10-08",
+  "trades": [
+   {
+    "date": "2021-09-15",
+    "filed": "2021-09-17",
+    "code": "S",
+    "value": 1521755,
+    "who": "AGARWAL SUNIL"
+   },
+   {
+    "date": "2021-09-16",
+    "filed": "2021-09-17",
+    "code": "S",
+    "value": 42302,
+    "who": "AGARWAL SUNIL"
+   },
+   {
+    "date": "2021-09-10",
+    "filed": "2021-09-14",
+    "code": "S",
+    "value": 36925,
+    "who": "Hordo Christian"
+   },
+   {
+    "date": "2021-09-09",
+    "filed": "2021-09-10",
+    "code": "S",
+    "value": 980635,
+    "who": "Hordo Christian"
+   },
+   {
+    "date": "2021-09-09",
+    "filed": "2021-09-10",
+    "code": "S",
+    "value": 636856,
+    "who": "Hordo Christian"
+   },
+   {
+    "date": "2021-09-02",
+    "filed": "2021-09-07",
+    "code": "S",
+    "value": 163962,
+    "who": "Hordo Christian"
+   },
+   {
+    "date": "2021-09-02",
+    "filed": "2021-09-07",
+    "code": "S",
+    "value": 35005,
+    "who": "Hordo Christian"
+   },
+   {
+    "date": "2021-09-03",
+    "filed": "2021-09-07",
+    "code": "S",
+    "value": 17500,
+    "who": "Hordo Christian"
+   },
+   {
+    "date": "2021-09-01",
+    "filed": "2021-09-03",
+    "code": "S",
+    "value": 28354,
+    "who": "Hordo Christian"
+   },
+   {
+    "date": "2021-09-01",
+    "filed": "2021-09-03",
+    "code": "S",
+    "value": 75067,
+    "who": "Hordo Christian"
+   },
+   {
+    "date": "2021-08-30",
+    "filed": "2021-09-01",
+    "code": "S",
+    "value": 27511,
+    "who": "Hordo Christian"
+   },
+   {
+    "date": "2021-08-30",
+    "filed": "2021-09-01",
+    "code": "S",
+    "value": 30022,
+    "who": "Hordo Christian"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "sana biotechnology",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

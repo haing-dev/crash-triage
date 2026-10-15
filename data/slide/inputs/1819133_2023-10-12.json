@@ -1,0 +1,114 @@
+{
+ "id": "1819133_2023-10-12",
+ "kind": "slide",
+ "cik": "1819133",
+ "name": "Tango Therapeutics, Inc.",
+ "date": "2023-10-12",
+ "asof": "2023-10-12",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-10-12",
+  "adj_close": 7.8
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 310652000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-23-038750"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 59380000.0,
+  "capex": 1284000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-08-01",
+  "shares": 88467269
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2023-07-14",
+  "to": "2023-11-11",
+  "trades": [
+   {
+    "date": "2023-11-01",
+    "filed": "2023-11-02",
+    "code": "S",
+    "value": 62994,
+    "who": "Crystal Adam"
+   },
+   {
+    "date": "2023-10-13",
+    "filed": "2023-10-17",
+    "code": "P",
+    "value": 5302500,
+    "who": "Boxer Capital, LLC"
+   },
+   {
+    "date": "2023-10-16",
+    "filed": "2023-10-17",
+    "code": "P",
+    "value": 3420000,
+    "who": "Boxer Capital, LLC"
+   },
+   {
+    "date": "2023-10-09",
+    "filed": "2023-10-11",
+    "code": "S",
+    "value": 495500,
+    "who": "Boxer Capital, LLC"
+   },
+   {
+    "date": "2023-10-09",
+    "filed": "2023-10-11",
+    "code": "S",
+    "value": 1744750,
+    "who": "Boxer Capital, LLC"
+   },
+   {
+    "date": "2023-08-11",
+    "filed": "2023-08-15",
+    "code": "P",
+    "value": 2446250,
+    "who": "Boxer Capital, LLC"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "tango therapeutics",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05275478",
+    "drugs": [
+     "TNG908"
+    ]
+   },
+   {
+    "nct": "NCT05887492",
+    "drugs": [
+     "TNG260",
+     "Pembrolizumab"
+    ]
+   },
+   {
+    "nct": "NCT05732831",
+    "drugs": [
+     "TNG462",
+     "Pembrolizumab"
+    ]
+   }
+  ]
+ }
+}

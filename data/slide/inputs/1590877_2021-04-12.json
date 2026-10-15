@@ -1,0 +1,197 @@
+{
+ "id": "1590877_2021-04-12",
+ "kind": "slide",
+ "cik": "1590877",
+ "name": "REGENXBIO Inc.",
+ "date": "2021-04-12",
+ "asof": "2021-04-12",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-04-12",
+  "adj_close": 33.75
+ },
+ "balance": {
+  "end": "2020-12-31",
+  "cash": 522549000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent",
+   "MarketableSecuritiesNoncurrent"
+  ],
+  "accn": "0001564590-21-009855"
+ },
+ "burn6": {
+  "end": "2020-12-31",
+  "start": "2020-07-01",
+  "cash_used_ops": -3008000.0,
+  "capex": 18961000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-02-25",
+  "shares": 42498483
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 9,
+  "from": "2021-01-12",
+  "to": "2021-05-12",
+  "trades": [
+   {
+    "date": "2021-02-25",
+    "filed": "2021-03-01",
+    "code": "S",
+    "value": 61155,
+    "who": "Mills Kenneth T."
+   },
+   {
+    "date": "2021-02-12",
+    "filed": "2021-02-17",
+    "code": "S",
+    "value": 230725,
+    "who": "Christmas Patrick J."
+   },
+   {
+    "date": "2021-02-08",
+    "filed": "2021-02-10",
+    "code": "S",
+    "value": 63843,
+    "who": "Christmas Patrick J."
+   },
+   {
+    "date": "2021-02-02",
+    "filed": "2021-02-04",
+    "code": "S",
+    "value": 425315,
+    "who": "Christmas Patrick J."
+   },
+   {
+    "date": "2021-02-02",
+    "filed": "2021-02-04",
+    "code": "S",
+    "value": 22565,
+    "who": "Christmas Patrick J."
+   },
+   {
+    "date": "2021-01-25",
+    "filed": "2021-01-27",
+    "code": "S",
+    "value": 13432,
+    "who": "Mills Kenneth T."
+   },
+   {
+    "date": "2021-01-25",
+    "filed": "2021-01-27",
+    "code": "S",
+    "value": 42905,
+    "who": "Mills Kenneth T."
+   },
+   {
+    "date": "2021-01-25",
+    "filed": "2021-01-27",
+    "code": "S",
+    "value": 234443,
+    "who": "Mills Kenneth T."
+   },
+   {
+    "date": "2021-01-15",
+    "filed": "2021-01-20",
+    "code": "S",
+    "value": 12610,
+    "who": "Vasista Vittal"
+   },
+   {
+    "date": "2021-01-12",
+    "filed": "2021-01-14",
+    "code": "S",
+    "value": 85051,
+    "who": "Simpson Curran"
+   },
+   {
+    "date": "2021-01-14",
+    "filed": "2021-01-14",
+    "code": "S",
+    "value": 580716,
+    "who": "Simpson Curran"
+   },
+   {
+    "date": "2021-01-12",
+    "filed": "2021-01-14",
+    "code": "S",
+    "value": 210042,
+    "who": "Vasista Vittal"
+   },
+   {
+    "date": "2021-01-14",
+    "filed": "2021-01-14",
+    "code": "S",
+    "value": 554983,
+    "who": "Vasista Vittal"
+   },
+   {
+    "date": "2021-01-08",
+    "filed": "2021-01-12",
+    "code": "S",
+    "value": 214414,
+    "who": "Christmas Patrick J."
+   },
+   {
+    "date": "2021-01-08",
+    "filed": "2021-01-12",
+    "code": "S",
+    "value": 192620,
+    "who": "Christmas Patrick J."
+   },
+   {
+    "date": "2021-01-08",
+    "filed": "2021-01-12",
+    "code": "S",
+    "value": 63532,
+    "who": "Christmas Patrick J."
+   },
+   {
+    "date": "2021-01-11",
+    "filed": "2021-01-12",
+    "code": "S",
+    "value": 496788,
+    "who": "Christmas Patrick J."
+   },
+   {
+    "date": "2021-01-12",
+    "filed": "2021-01-12",
+    "code": "S",
+    "value": 67729,
+    "who": "Christmas Patrick J."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "regenxbio",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04571970",
+    "drugs": [
+     "RGX-121"
+    ]
+   },
+   {
+    "nct": "NCT03566043",
+    "drugs": [
+     "RGX-121"
+    ]
+   },
+   {
+    "nct": "NCT03580083",
+    "drugs": [
+     "RGX-111"
+    ]
+   }
+  ]
+ }
+}

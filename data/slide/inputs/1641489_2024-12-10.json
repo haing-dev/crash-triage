@@ -1,0 +1,76 @@
+{
+ "id": "1641489_2024-12-10",
+ "kind": "slide",
+ "cik": "1641489",
+ "name": "vTv Therapeutics Inc.",
+ "date": "2024-12-10",
+ "asof": "2024-12-10",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-12-10",
+  "adj_close": 16.7
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 41571000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001641489-24-000075"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": 13147000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": null,
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2024-09-11",
+  "to": "2025-01-09",
+  "trades": [
+   {
+    "date": "2024-11-15",
+    "filed": "2024-11-19",
+    "code": "P",
+    "value": 22534,
+    "who": "SEKHRI PAUL J"
+   },
+   {
+    "date": "2024-11-15",
+    "filed": "2024-11-19",
+    "code": "P",
+    "value": 30009,
+    "who": "SEKHRI PAUL J"
+   },
+   {
+    "date": "2024-11-18",
+    "filed": "2024-11-19",
+    "code": "P",
+    "value": 31269,
+    "who": "SEKHRI PAUL J"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "vtv therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06334133",
+    "drugs": [
+     "Cadisegliatin 800 mg QD",
+     "Cadisegliatin 800 mg BID"
+    ]
+   }
+  ]
+ }
+}

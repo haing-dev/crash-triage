@@ -1,0 +1,50 @@
+{
+ "id": "1659323_2022-07-12",
+ "kind": "slide",
+ "cik": "1659323",
+ "name": "Iterum Therapeutics plc",
+ "date": "2022-07-12",
+ "asof": "2022-07-12",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-07-12",
+  "adj_close": 4.32
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 75270000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-22-009792"
+ },
+ "burn6": {
+  "end": "2022-03-31",
+  "start": "2021-10-01",
+  "cash_used_ops": 5864000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-04-30",
+  "shares": 183353418
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 13,
+  "from": "2022-04-13",
+  "to": "2022-08-11",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "iterum therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

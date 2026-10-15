@@ -1,0 +1,164 @@
+{
+ "id": "1526119_2024-04-19",
+ "kind": "slide",
+ "cik": "1526119",
+ "name": "Verastem, Inc.",
+ "date": "2024-04-19",
+ "asof": "2024-04-19",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-04-19",
+  "adj_close": 9.84
+ },
+ "balance": {
+  "end": "2023-12-31",
+  "cash": 137129000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001558370-24-003250"
+ },
+ "burn6": {
+  "end": "2023-12-31",
+  "start": "2023-07-01",
+  "cash_used_ops": 46270000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-03-13",
+  "shares": 25295495
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Accordingly, these uncertainties and risk factors meet the ASC 205-40 standard for raising substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 16,
+  "from": "2024-01-20",
+  "to": "2024-05-19",
+  "trades": [
+   {
+    "date": "2024-04-05",
+    "filed": "2024-04-08",
+    "code": "S",
+    "value": 65,
+    "who": "Calkins Daniel"
+   },
+   {
+    "date": "2024-03-25",
+    "filed": "2024-03-27",
+    "code": "S",
+    "value": 300,
+    "who": "Calkins Daniel"
+   },
+   {
+    "date": "2024-03-20",
+    "filed": "2024-03-21",
+    "code": "S",
+    "value": 609,
+    "who": "Calkins Daniel"
+   },
+   {
+    "date": "2024-03-18",
+    "filed": "2024-03-20",
+    "code": "S",
+    "value": 3031,
+    "who": "Gagnon Robert E."
+   },
+   {
+    "date": "2024-03-19",
+    "filed": "2024-03-20",
+    "code": "S",
+    "value": 1349,
+    "who": "Gagnon Robert E."
+   },
+   {
+    "date": "2024-03-18",
+    "filed": "2024-03-20",
+    "code": "S",
+    "value": 2613,
+    "who": "Paterson Dan"
+   },
+   {
+    "date": "2024-03-19",
+    "filed": "2024-03-20",
+    "code": "S",
+    "value": 1889,
+    "who": "Paterson Dan"
+   },
+   {
+    "date": "2024-03-18",
+    "filed": "2024-03-20",
+    "code": "S",
+    "value": 5751,
+    "who": "Stuglik Brian M"
+   },
+   {
+    "date": "2024-03-19",
+    "filed": "2024-03-20",
+    "code": "S",
+    "value": 2834,
+    "who": "Stuglik Brian M"
+   },
+   {
+    "date": "2024-02-06",
+    "filed": "2024-02-07",
+    "code": "S",
+    "value": 126095,
+    "who": "Gagnon Robert E."
+   },
+   {
+    "date": "2017-09-05",
+    "filed": "2024-01-24",
+    "code": "P",
+    "value": 7680,
+    "who": "Rowinsky Eric K"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "verastem",
+  "other_trials": 5,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05074810",
+    "drugs": [
+     "avutometinib and sotorasib",
+     "avutometinib and sotorasib and defactinib"
+    ]
+   },
+   {
+    "nct": "NCT06072781",
+    "drugs": [
+     "avutometinib",
+     "Defactinib",
+     "Pegylated liposomal doxorubicin"
+    ]
+   },
+   {
+    "nct": "NCT05375994",
+    "drugs": [
+     "avutometinib (VS-6766) and adagrasib"
+    ]
+   },
+   {
+    "nct": "NCT05669482",
+    "drugs": [
+     "avutometinib (VS-6766) and defactinib in combination with gemcitabine and nab-paclitaxel"
+    ]
+   },
+   {
+    "nct": "NCT04625270",
+    "drugs": [
+     "avutometinib (VS-6766)",
+     "avutometinib (VS-6766) and defactinib"
+    ]
+   }
+  ]
+ }
+}

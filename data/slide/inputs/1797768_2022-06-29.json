@@ -1,0 +1,50 @@
+{
+ "id": "1797768_2022-06-29",
+ "kind": "slide",
+ "cik": "1797768",
+ "name": "Kinnate Biopharma Inc.",
+ "date": "2022-06-29",
+ "asof": "2022-06-29",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-06-29",
+  "adj_close": 12.62
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 239263000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001140361-22-018839"
+ },
+ "burn6": {
+  "end": "2022-03-31",
+  "start": "2021-10-01",
+  "cash_used_ops": 43610000.0,
+  "capex": 2717000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-05-09",
+  "shares": 43977623
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2022-03-31",
+  "to": "2022-07-29",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "kinnate biopharma",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

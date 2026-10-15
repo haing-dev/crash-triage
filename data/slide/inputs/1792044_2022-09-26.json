@@ -1,0 +1,70 @@
+{
+ "id": "1792044_2022-09-26",
+ "kind": "slide",
+ "cik": "1792044",
+ "name": "Viatris Inc",
+ "date": "2022-09-26",
+ "asof": "2022-09-26",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-09-26",
+  "adj_close": 8.53
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 664700000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001792044-22-000028"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": -1941000000.0,
+  "capex": 148400000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-08-03",
+  "shares": 1212580940
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2022-06-28",
+  "to": "2022-10-26",
+  "trades": [
+   {
+    "date": "2022-08-17",
+    "filed": "2022-08-19",
+    "code": "S",
+    "value": 99912,
+    "who": "van der Meer Mohr Pauline"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "viatris",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT00136942",
+    "drugs": [
+     "Atorvastatin"
+    ]
+   },
+   {
+    "nct": "NCT04957719",
+    "drugs": [
+     "Selatogrel"
+    ]
+   }
+  ]
+ }
+}

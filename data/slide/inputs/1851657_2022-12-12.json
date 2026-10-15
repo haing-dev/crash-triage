@@ -1,0 +1,83 @@
+{
+ "id": "1851657_2022-12-12",
+ "kind": "slide",
+ "cik": "1851657",
+ "name": "Vaxxinity, Inc.",
+ "date": "2022-12-12",
+ "asof": "2022-12-12",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-12-12",
+  "adj_close": 1.78
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 99108000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001562762-22-000453"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 21937000.0,
+  "capex": 861000.0,
+  "periods": 2
+ },
+ "shares": null,
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2022-09-13",
+  "to": "2023-01-11",
+  "trades": [
+   {
+    "date": "2022-12-01",
+    "filed": "2022-12-05",
+    "code": "S",
+    "value": 189722,
+    "who": "Prime Movers Lab Fund I LP"
+   },
+   {
+    "date": "2022-12-01",
+    "filed": "2022-12-05",
+    "code": "S",
+    "value": 805224,
+    "who": "Prime Movers Lab Fund I LP"
+   },
+   {
+    "date": "2022-12-02",
+    "filed": "2022-12-05",
+    "code": "S",
+    "value": 6729,
+    "who": "Prime Movers Lab Fund I LP"
+   },
+   {
+    "date": "2022-12-02",
+    "filed": "2022-12-05",
+    "code": "S",
+    "value": 28561,
+    "who": "Prime Movers Lab Fund I LP"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "vaxxinity",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04683224",
+    "drugs": [
+     "UB-612"
+    ]
+   }
+  ]
+ }
+}

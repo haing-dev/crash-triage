@@ -1,0 +1,57 @@
+{
+ "id": "1783183_2026-02-05",
+ "kind": "slide",
+ "cik": "1783183",
+ "name": "Phathom Pharmaceuticals, Inc.",
+ "date": "2026-02-05",
+ "asof": "2026-02-05",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-02-05",
+  "adj_close": 12.41
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 135156000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001193125-25-257390"
+ },
+ "burn6": {
+  "end": "2025-09-30",
+  "start": "2025-04-01",
+  "cash_used_ops": 76844000.0,
+  "capex": 124000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-10-27",
+  "shares": 71138440
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "31 Including our existing cash and cash equivalents, we believe that we have sufficient working capital on hand to fund operations such that there is no substantial doubt as to our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 14,
+  "from": "2025-11-07",
+  "to": "2026-03-07",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "phathom pharmaceuticals",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06851559",
+    "drugs": [
+     "Vonoprazan"
+    ]
+   }
+  ]
+ }
+}

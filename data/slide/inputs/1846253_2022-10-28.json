@@ -1,0 +1,83 @@
+{
+ "id": "1846253_2022-10-28",
+ "kind": "slide",
+ "cik": "1846253",
+ "name": "OmniAb, Inc.",
+ "date": "2022-10-28",
+ "asof": "2022-10-28",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-10-28",
+  "adj_close": 6.61
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 159194,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001104659-22-089508"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 780777.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": null,
+ "going_concern": {
+  "flag": true,
+  "quote": "These conditions raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 12,
+  "from": "2022-07-30",
+  "to": "2022-11-27",
+  "trades": [
+   {
+    "date": "2022-11-09",
+    "filed": "2022-11-14",
+    "code": "P",
+    "value": 57597,
+    "who": "Boyce Sarah"
+   },
+   {
+    "date": "2022-11-10",
+    "filed": "2022-11-14",
+    "code": "P",
+    "value": 43800,
+    "who": "Boyce Sarah"
+   },
+   {
+    "date": "2022-11-11",
+    "filed": "2022-11-14",
+    "code": "P",
+    "value": 92928,
+    "who": "Cochran Jennifer R."
+   },
+   {
+    "date": "2022-11-09",
+    "filed": "2022-11-10",
+    "code": "P",
+    "value": 119110,
+    "who": "Patel Sunil"
+   },
+   {
+    "date": "2022-11-09",
+    "filed": "2022-11-09",
+    "code": "P",
+    "value": 276160,
+    "who": "FOEHR MATTHEW W"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "omniab",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

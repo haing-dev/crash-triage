@@ -1,0 +1,65 @@
+{
+ "id": "715446_2024-12-17",
+ "kind": "slide",
+ "cik": "715446",
+ "name": "Anixa Biosciences Inc",
+ "date": "2024-12-17",
+ "asof": "2024-12-17",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-12-17",
+  "adj_close": 2.74
+ },
+ "balance": {
+  "end": "2024-07-31",
+  "cash": 20745000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001493152-24-035335"
+ },
+ "burn6": {
+  "end": "2024-07-31",
+  "start": "2024-02-01",
+  "cash_used_ops": 4099000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-09-06",
+  "shares": 32179492
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2024-09-18",
+  "to": "2025-01-16",
+  "trades": [
+   {
+    "date": "2025-01-15",
+    "filed": "2025-01-15",
+    "code": "P",
+    "value": 95890,
+    "who": "KUMAR AMIT"
+   },
+   {
+    "date": "2025-01-15",
+    "filed": "2025-01-15",
+    "code": "P",
+    "value": 19971,
+    "who": "Catelani Michael"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "anixa biosciences",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,80 @@
+{
+ "id": "886163_2022-01-19",
+ "kind": "slide",
+ "cik": "886163",
+ "name": "LIGAND PHARMACEUTICALS INC",
+ "date": "2022-01-19",
+ "asof": "2022-01-19",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-01-19",
+  "adj_close": 72.3456
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 323211000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000886163-21-000130"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": -40402000.0,
+  "capex": 4408875.882352941,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-11-05",
+  "shares": 16711641
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2021-10-21",
+  "to": "2022-02-18",
+  "trades": [
+   {
+    "date": "2021-11-16",
+    "filed": "2021-11-17",
+    "code": "S",
+    "value": 782579,
+    "who": "LAMATTINA JOHN L"
+   },
+   {
+    "date": "2021-11-12",
+    "filed": "2021-11-12",
+    "code": "S",
+    "value": 481500,
+    "who": "HIGGINS JOHN L"
+   },
+   {
+    "date": "2021-11-11",
+    "filed": "2021-11-12",
+    "code": "S",
+    "value": 1819255,
+    "who": "FOEHR MATTHEW W"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "ligand pharmaceuticals",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04627831",
+    "drugs": [
+     "CE-Iohexol",
+     "Iohexol"
+    ]
+   }
+  ]
+ }
+}

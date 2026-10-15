@@ -1,0 +1,149 @@
+{
+ "id": "1178879_2022-01-27",
+ "kind": "slide",
+ "cik": "1178879",
+ "name": "AMICUS THERAPEUTICS, INC.",
+ "date": "2022-01-27",
+ "asof": "2022-01-27",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-01-27",
+  "adj_close": 8.7
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 556960000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001178879-21-000013"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 59623000.0,
+  "capex": 1256000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-10-27",
+  "shares": 278638872
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 17,
+  "from": "2021-10-29",
+  "to": "2022-02-26",
+  "trades": [
+   {
+    "date": "2022-01-18",
+    "filed": "2022-01-19",
+    "code": "S",
+    "value": 87610,
+    "who": "Crowley John F"
+   },
+   {
+    "date": "2022-01-05",
+    "filed": "2022-01-07",
+    "code": "S",
+    "value": 774119,
+    "who": "Crowley John F"
+   },
+   {
+    "date": "2022-01-03",
+    "filed": "2022-01-04",
+    "code": "S",
+    "value": 64880,
+    "who": "Campbell Bradley L"
+   },
+   {
+    "date": "2021-12-22",
+    "filed": "2021-12-23",
+    "code": "S",
+    "value": 35096,
+    "who": "Campbell Bradley L"
+   },
+   {
+    "date": "2021-12-01",
+    "filed": "2021-12-02",
+    "code": "S",
+    "value": 115706,
+    "who": "Campbell Bradley L"
+   },
+   {
+    "date": "2021-11-15",
+    "filed": "2021-11-17",
+    "code": "S",
+    "value": 292951,
+    "who": "Crowley John F"
+   },
+   {
+    "date": "2021-11-01",
+    "filed": "2021-11-03",
+    "code": "P",
+    "value": 15735,
+    "who": "WHITMAN BURKE W"
+   },
+   {
+    "date": "2021-11-01",
+    "filed": "2021-11-03",
+    "code": "S",
+    "value": 84451,
+    "who": "Crowley John F"
+   },
+   {
+    "date": "2021-11-03",
+    "filed": "2021-11-03",
+    "code": "S",
+    "value": 332868,
+    "who": "Crowley John F"
+   },
+   {
+    "date": "2021-11-01",
+    "filed": "2021-11-03",
+    "code": "S",
+    "value": 119054,
+    "who": "Campbell Bradley L"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "amicus therapeutics",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04049760",
+    "drugs": [
+     "migalastat HCl 150 mg"
+    ]
+   },
+   {
+    "nct": "NCT03911505",
+    "drugs": [
+     "Cipaglucosidase Alfa",
+     "Miglustat"
+    ]
+   },
+   {
+    "nct": "NCT04138277",
+    "drugs": [
+     "AT2221",
+     "ATB200"
+    ]
+   },
+   {
+    "nct": "NCT02675465",
+    "drugs": [
+     "ATB200",
+     "AT2221"
+    ]
+   }
+  ]
+ }
+}

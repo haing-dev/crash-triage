@@ -1,0 +1,58 @@
+{
+ "id": "1595248_2022-01-05",
+ "kind": "slide",
+ "cik": "1595248",
+ "name": "Genprex, Inc.",
+ "date": "2022-01-05",
+ "asof": "2022-01-05",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-01-05",
+  "adj_close": 4540.0
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 42020527,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001437749-21-026629"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 5601568.0,
+  "capex": -71221.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-11-08",
+  "shares": 47808570
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2021-10-07",
+  "to": "2022-02-04",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "genprex",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04486833",
+    "drugs": [
+     "quaratusugene ozeplasmid",
+     "osimertinib",
+     "Platinum-Based Chemotherapy"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,217 @@
+{
+ "id": "1697532_2021-05-27",
+ "kind": "slide",
+ "cik": "1697532",
+ "name": "Applied Therapeutics, Inc.",
+ "date": "2021-05-27",
+ "asof": "2021-05-27",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-05-27",
+  "adj_close": 19.56
+ },
+ "balance": {
+  "end": "2021-03-31",
+  "cash": 148059000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001558370-21-006758"
+ },
+ "burn6": {
+  "end": "2021-03-31",
+  "start": "2020-10-01",
+  "cash_used_ops": 44963000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-05-10",
+  "shares": 26081444
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 16,
+  "from": "2021-02-26",
+  "to": "2021-06-26",
+  "trades": [
+   {
+    "date": "2021-06-08",
+    "filed": "2021-06-10",
+    "code": "S",
+    "value": 108107,
+    "who": "Silberstein Charles"
+   },
+   {
+    "date": "2021-06-03",
+    "filed": "2021-06-07",
+    "code": "S",
+    "value": 9044,
+    "who": "Perfetti Riccardo"
+   },
+   {
+    "date": "2021-06-04",
+    "filed": "2021-06-07",
+    "code": "S",
+    "value": 9039,
+    "who": "Perfetti Riccardo"
+   },
+   {
+    "date": "2021-06-07",
+    "filed": "2021-06-07",
+    "code": "S",
+    "value": 4086,
+    "who": "Perfetti Riccardo"
+   },
+   {
+    "date": "2021-06-07",
+    "filed": "2021-06-07",
+    "code": "S",
+    "value": 5559,
+    "who": "Perfetti Riccardo"
+   },
+   {
+    "date": "2021-05-26",
+    "filed": "2021-05-28",
+    "code": "S",
+    "value": 53105,
+    "who": "Hansard Adam"
+   },
+   {
+    "date": "2021-05-24",
+    "filed": "2021-05-26",
+    "code": "S",
+    "value": 28290,
+    "who": "Perfetti Riccardo"
+   },
+   {
+    "date": "2021-05-25",
+    "filed": "2021-05-26",
+    "code": "S",
+    "value": 8266,
+    "who": "Perfetti Riccardo"
+   },
+   {
+    "date": "2021-05-26",
+    "filed": "2021-05-26",
+    "code": "S",
+    "value": 8938,
+    "who": "Perfetti Riccardo"
+   },
+   {
+    "date": "2021-05-11",
+    "filed": "2021-05-13",
+    "code": "S",
+    "value": 3454,
+    "who": "Perfetti Riccardo"
+   },
+   {
+    "date": "2021-04-28",
+    "filed": "2021-04-30",
+    "code": "S",
+    "value": 24562,
+    "who": "Perfetti Riccardo"
+   },
+   {
+    "date": "2021-04-28",
+    "filed": "2021-04-30",
+    "code": "S",
+    "value": 5676,
+    "who": "Perfetti Riccardo"
+   },
+   {
+    "date": "2021-04-29",
+    "filed": "2021-04-30",
+    "code": "S",
+    "value": 8409,
+    "who": "Perfetti Riccardo"
+   },
+   {
+    "date": "2021-04-30",
+    "filed": "2021-04-30",
+    "code": "S",
+    "value": 8427,
+    "who": "Perfetti Riccardo"
+   },
+   {
+    "date": "2021-04-14",
+    "filed": "2021-04-16",
+    "code": "S",
+    "value": 3422,
+    "who": "Perfetti Riccardo"
+   },
+   {
+    "date": "2021-03-26",
+    "filed": "2021-03-30",
+    "code": "S",
+    "value": 9151,
+    "who": "Perfetti Riccardo"
+   },
+   {
+    "date": "2021-03-29",
+    "filed": "2021-03-30",
+    "code": "S",
+    "value": 8616,
+    "who": "Perfetti Riccardo"
+   },
+   {
+    "date": "2021-03-30",
+    "filed": "2021-03-30",
+    "code": "S",
+    "value": 8478,
+    "who": "Perfetti Riccardo"
+   },
+   {
+    "date": "2021-03-11",
+    "filed": "2021-03-15",
+    "code": "S",
+    "value": 8593,
+    "who": "Perfetti Riccardo"
+   },
+   {
+    "date": "2021-03-12",
+    "filed": "2021-03-15",
+    "code": "S",
+    "value": 9012,
+    "who": "Perfetti Riccardo"
+   },
+   {
+    "date": "2021-03-15",
+    "filed": "2021-03-15",
+    "code": "S",
+    "value": 9119,
+    "who": "Perfetti Riccardo"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "applied therapeutics",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04083339",
+    "drugs": [
+     "AT-001"
+    ]
+   },
+   {
+    "nct": "NCT04902781",
+    "drugs": [
+     "AT-007"
+    ]
+   },
+   {
+    "nct": "NCT04117711",
+    "drugs": [
+     "AT-007"
+    ]
+   }
+  ]
+ }
+}

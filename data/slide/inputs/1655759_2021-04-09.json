@@ -1,0 +1,199 @@
+{
+ "id": "1655759_2021-04-09",
+ "kind": "slide",
+ "cik": "1655759",
+ "name": "ARVINAS, INC.",
+ "date": "2021-04-09",
+ "asof": "2021-04-09",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-04-09",
+  "adj_close": 63.49
+ },
+ "balance": {
+  "end": "2020-12-31",
+  "cash": 688530850,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001564590-21-009857"
+ },
+ "burn6": {
+  "end": "2020-12-31",
+  "start": "2020-07-01",
+  "cash_used_ops": 51404987.0,
+  "capex": 3261440.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-02-24",
+  "shares": 48874027
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2021-01-09",
+  "to": "2021-05-09",
+  "trades": [
+   {
+    "date": "2021-04-05",
+    "filed": "2021-04-07",
+    "code": "S",
+    "value": 270641,
+    "who": "Taylor Ian"
+   },
+   {
+    "date": "2021-04-05",
+    "filed": "2021-04-07",
+    "code": "S",
+    "value": 1098860,
+    "who": "Taylor Ian"
+   },
+   {
+    "date": "2021-04-05",
+    "filed": "2021-04-07",
+    "code": "S",
+    "value": 300642,
+    "who": "Taylor Ian"
+   },
+   {
+    "date": "2021-03-02",
+    "filed": "2021-03-02",
+    "code": "S",
+    "value": 69240,
+    "who": "Taylor Ian"
+   },
+   {
+    "date": "2021-03-02",
+    "filed": "2021-03-02",
+    "code": "S",
+    "value": 172015,
+    "who": "Cassidy Sean A"
+   },
+   {
+    "date": "2021-03-02",
+    "filed": "2021-03-02",
+    "code": "S",
+    "value": 628503,
+    "who": "Houston John G"
+   },
+   {
+    "date": "2021-02-16",
+    "filed": "2021-02-18",
+    "code": "S",
+    "value": 692982,
+    "who": "Houston John G"
+   },
+   {
+    "date": "2021-02-16",
+    "filed": "2021-02-18",
+    "code": "S",
+    "value": 1671378,
+    "who": "Houston John G"
+   },
+   {
+    "date": "2021-02-16",
+    "filed": "2021-02-18",
+    "code": "S",
+    "value": 1054091,
+    "who": "Houston John G"
+   },
+   {
+    "date": "2021-02-16",
+    "filed": "2021-02-18",
+    "code": "S",
+    "value": 48150,
+    "who": "Houston John G"
+   },
+   {
+    "date": "2021-02-16",
+    "filed": "2021-02-18",
+    "code": "S",
+    "value": 633044,
+    "who": "Cassidy Sean A"
+   },
+   {
+    "date": "2021-02-16",
+    "filed": "2021-02-18",
+    "code": "S",
+    "value": 1517457,
+    "who": "Cassidy Sean A"
+   },
+   {
+    "date": "2021-02-16",
+    "filed": "2021-02-18",
+    "code": "S",
+    "value": 313934,
+    "who": "Cassidy Sean A"
+   },
+   {
+    "date": "2021-02-16",
+    "filed": "2021-02-18",
+    "code": "S",
+    "value": 31791,
+    "who": "Cassidy Sean A"
+   },
+   {
+    "date": "2021-02-16",
+    "filed": "2021-02-18",
+    "code": "S",
+    "value": 216795,
+    "who": "Cassidy Sean A"
+   },
+   {
+    "date": "2021-02-16",
+    "filed": "2021-02-18",
+    "code": "S",
+    "value": 484462,
+    "who": "Cassidy Sean A"
+   },
+   {
+    "date": "2021-02-16",
+    "filed": "2021-02-18",
+    "code": "S",
+    "value": 92211,
+    "who": "Cassidy Sean A"
+   },
+   {
+    "date": "2021-02-16",
+    "filed": "2021-02-18",
+    "code": "S",
+    "value": 2413,
+    "who": "Cassidy Sean A"
+   },
+   {
+    "date": "2021-02-16",
+    "filed": "2021-02-18",
+    "code": "S",
+    "value": 1546992,
+    "who": "Peck Ronald"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "arvinas",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04072952",
+    "drugs": [
+     "Vepdegestrant",
+     "Vepdegestrant",
+     "Palbociclib"
+    ]
+   },
+   {
+    "nct": "NCT03888612",
+    "drugs": [
+     "ARV-110"
+    ]
+   }
+  ]
+ }
+}

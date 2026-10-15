@@ -1,0 +1,86 @@
+{
+ "id": "1372514_2024-10-30",
+ "kind": "slide",
+ "cik": "1372514",
+ "name": "KIORA PHARMACEUTICALS INC",
+ "date": "2024-10-30",
+ "asof": "2024-10-30",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-10-30",
+  "adj_close": 3.7
+ },
+ "balance": {
+  "end": "2024-06-30",
+  "cash": 27818065,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001372514-24-000104"
+ },
+ "burn6": {
+  "end": "2024-06-30",
+  "start": "2024-01-01",
+  "cash_used_ops": -9891416.0,
+  "capex": 51287.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-08-07",
+  "shares": 2970545
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2024-08-01",
+  "to": "2024-11-29",
+  "trades": [
+   {
+    "date": "2024-09-11",
+    "filed": "2024-09-12",
+    "code": "P",
+    "value": 4600,
+    "who": "Stengone Carmine N."
+   },
+   {
+    "date": "2024-09-10",
+    "filed": "2024-09-11",
+    "code": "P",
+    "value": 10800,
+    "who": "Shapiro Aron"
+   },
+   {
+    "date": "2024-08-19",
+    "filed": "2024-08-20",
+    "code": "P",
+    "value": 4825,
+    "who": "Walters-Hoffert Lisa"
+   },
+   {
+    "date": "2024-08-19",
+    "filed": "2024-08-19",
+    "code": "P",
+    "value": 19800,
+    "who": "TYLE PRAVEEN"
+   },
+   {
+    "date": "2024-08-14",
+    "filed": "2024-08-15",
+    "code": "P",
+    "value": 6420,
+    "who": "Tosca Melissa"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "kiora pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

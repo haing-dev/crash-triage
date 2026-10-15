@@ -1,0 +1,110 @@
+{
+ "id": "1810182_2023-06-07",
+ "kind": "slide",
+ "cik": "1810182",
+ "name": "ALX ONCOLOGY HOLDINGS INC",
+ "date": "2023-06-07",
+ "asof": "2023-06-07",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-06-07",
+  "adj_close": 8.22
+ },
+ "balance": {
+  "end": "2023-03-31",
+  "cash": 227944000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-23-021247"
+ },
+ "burn6": {
+  "end": "2023-03-31",
+  "start": "2022-10-01",
+  "cash_used_ops": 48484000.0,
+  "capex": 1079000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-05-04",
+  "shares": 40869135
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 12,
+  "from": "2023-03-09",
+  "to": "2023-07-07",
+  "trades": [
+   {
+    "date": "2023-07-06",
+    "filed": "2023-07-07",
+    "code": "S",
+    "value": 47889,
+    "who": "Pinto Shelly"
+   },
+   {
+    "date": "2023-06-30",
+    "filed": "2023-07-05",
+    "code": "S",
+    "value": 11781,
+    "who": "Randolph Sophia"
+   },
+   {
+    "date": "2023-06-30",
+    "filed": "2023-07-05",
+    "code": "S",
+    "value": 23547,
+    "who": "Pons Jaume"
+   },
+   {
+    "date": "2023-06-30",
+    "filed": "2023-07-05",
+    "code": "S",
+    "value": 3420,
+    "who": "Pinto Shelly"
+   },
+   {
+    "date": "2023-06-30",
+    "filed": "2023-07-05",
+    "code": "S",
+    "value": 6511,
+    "who": "GARCIA PETER S"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "alx oncology",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04675333",
+    "drugs": [
+     "evorpacept",
+     "pembrolizumab",
+     "Cisplatin/Carboplatin; 5FU"
+    ]
+   },
+   {
+    "nct": "NCT04675294",
+    "drugs": [
+     "evorpacept",
+     "pembrolizumab"
+    ]
+   },
+   {
+    "nct": "NCT05002127",
+    "drugs": [
+     "Evorpacept (ALX148)",
+     "Trastuzumab",
+     "Ramucirumab"
+    ]
+   }
+  ]
+ }
+}

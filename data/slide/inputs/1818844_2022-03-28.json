@@ -1,0 +1,106 @@
+{
+ "id": "1818844_2022-03-28",
+ "kind": "slide",
+ "cik": "1818844",
+ "name": "Dogwood Therapeutics, Inc.",
+ "date": "2022-03-28",
+ "asof": "2022-03-28",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-03-28",
+  "adj_close": 118.875
+ },
+ "balance": {
+  "end": "2021-12-31",
+  "cash": 14008184,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-22-003885"
+ },
+ "burn6": {
+  "end": "2021-12-31",
+  "start": "2021-07-01",
+  "cash_used_ops": 7826908.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-03-15",
+  "shares": 8330390
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2021-12-28",
+  "to": "2022-04-27",
+  "trades": [
+   {
+    "date": "2022-03-29",
+    "filed": "2022-03-30",
+    "code": "P",
+    "value": 2964,
+    "who": "Pridgen William"
+   },
+   {
+    "date": "2022-03-23",
+    "filed": "2022-03-24",
+    "code": "P",
+    "value": 12002,
+    "who": "Pridgen William"
+   },
+   {
+    "date": "2022-01-27",
+    "filed": "2022-01-28",
+    "code": "P",
+    "value": 24998,
+    "who": "Pridgen William"
+   },
+   {
+    "date": "2022-01-07",
+    "filed": "2022-01-07",
+    "code": "P",
+    "value": 23584,
+    "who": "De La Rosa Abel"
+   },
+   {
+    "date": "2022-01-06",
+    "filed": "2022-01-07",
+    "code": "P",
+    "value": 10296,
+    "who": "Whitley Richard James"
+   },
+   {
+    "date": "2022-01-04",
+    "filed": "2022-01-05",
+    "code": "P",
+    "value": 28975,
+    "who": "Keefer David R"
+   },
+   {
+    "date": "2022-01-03",
+    "filed": "2022-01-04",
+    "code": "P",
+    "value": 12034,
+    "who": "Pridgen William"
+   },
+   {
+    "date": "2022-01-04",
+    "filed": "2022-01-04",
+    "code": "P",
+    "value": 5650,
+    "who": "Thomas John C"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "dogwood therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

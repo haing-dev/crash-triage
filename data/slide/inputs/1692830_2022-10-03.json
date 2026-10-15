@@ -1,0 +1,63 @@
+{
+ "id": "1692830_2022-10-03",
+ "kind": "slide",
+ "cik": "1692830",
+ "name": "Satsuma Pharmaceuticals, Inc.",
+ "date": "2022-10-03",
+ "asof": "2022-10-03",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-10-03",
+  "adj_close": 5.3
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 68063000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001564590-22-028770"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 26003000.0,
+  "capex": 335000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-08-04",
+  "shares": 31587493
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2022-07-05",
+  "to": "2022-11-02",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "satsuma pharmaceuticals",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04406649",
+    "drugs": [
+     "Dihydroergotamine"
+    ]
+   },
+   {
+    "nct": "NCT04940390",
+    "drugs": [
+     "Dihydroergotamine"
+    ]
+   }
+  ]
+ }
+}

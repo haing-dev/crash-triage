@@ -1,0 +1,65 @@
+{
+ "id": "1781174_2024-11-15",
+ "kind": "slide",
+ "cik": "1781174",
+ "name": "Acrivon Therapeutics, Inc.",
+ "date": "2024-11-15",
+ "asof": "2024-11-15",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-11-15",
+  "adj_close": 6.96
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 187453000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-24-125929"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": 31226000.0,
+  "capex": 1126000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-11-07",
+  "shares": 31136296
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 15,
+  "from": "2024-08-17",
+  "to": "2024-12-15",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "acrivon therapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05548296",
+    "drugs": [
+     "ACR-368",
+     "Gemcitabine",
+     "OncoSignature"
+    ]
+   },
+   {
+    "nct": "NCT06667141",
+    "drugs": [
+     "ACR-2316"
+    ]
+   }
+  ]
+ }
+}

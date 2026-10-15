@@ -1,0 +1,49 @@
+{
+ "id": "1962011_2025-09-18",
+ "kind": "slide",
+ "cik": "1962011",
+ "name": "Kairos Pharma, LTD.",
+ "date": "2025-09-18",
+ "asof": "2025-09-18",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-09-18",
+  "adj_close": 9.38
+ },
+ "balance": {
+  "end": "2025-06-30",
+  "cash": 3034000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001641172-25-023167"
+ },
+ "burn6": {
+  "end": "2025-06-30",
+  "start": "2025-01-01",
+  "cash_used_ops": 1519000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-08-11",
+  "shares": 20743765
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2025-06-20",
+  "to": "2025-10-18",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "kairos pharma",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "id": "1347242_2023-07-27",
+ "kind": "slide",
+ "cik": "1347242",
+ "name": "LIPELLA PHARMACEUTICALS INC.",
+ "date": "2023-07-27",
+ "asof": "2023-07-27",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-07-27",
+  "adj_close": 16.48
+ },
+ "balance": {
+  "end": "2023-03-31",
+  "cash": 4018753,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001753926-23-000649"
+ },
+ "burn6": null,
+ "shares": {
+  "end": "2023-05-11",
+  "shares": 5743945
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These factors individually and collectively raise substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2023-04-28",
+  "to": "2023-08-26",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "lipella pharmaceuticals",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03129126",
+    "drugs": [
+     "LP-10"
+    ]
+   }
+  ]
+ }
+}

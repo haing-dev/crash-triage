@@ -1,0 +1,124 @@
+{
+ "id": "1070494_2026-09-25",
+ "kind": "slide",
+ "cik": "1070494",
+ "name": "ACADIA PHARMACEUTICALS INC",
+ "date": "2026-09-25",
+ "asof": "2026-09-25",
+ "final": false,
+ "version": 5,
+ "price": {
+  "date": "2026-09-25",
+  "adj_close": 20.68
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 956474000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001193125-26-333243"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": -134762000.0,
+  "capex": 10301000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-07-28",
+  "shares": 172305518
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2026-06-27",
+  "to": "2026-10-15",
+  "trades": [
+   {
+    "date": "2026-08-05",
+    "filed": "2026-08-07",
+    "code": "S",
+    "value": 169638,
+    "who": "Schneyer Mark C."
+   },
+   {
+    "date": "2026-08-06",
+    "filed": "2026-08-07",
+    "code": "S",
+    "value": 145000,
+    "who": "Schneyer Mark C."
+   },
+   {
+    "date": "2026-08-06",
+    "filed": "2026-08-07",
+    "code": "S",
+    "value": 272604,
+    "who": "Schneyer Mark C."
+   },
+   {
+    "date": "2026-07-30",
+    "filed": "2026-07-31",
+    "code": "S",
+    "value": 431354,
+    "who": "Thompson Elizabeth H.Z."
+   },
+   {
+    "date": "2026-07-30",
+    "filed": "2026-07-31",
+    "code": "S",
+    "value": 1308,
+    "who": "Thompson Elizabeth H.Z."
+   },
+   {
+    "date": "2026-06-26",
+    "filed": "2026-06-29",
+    "code": "S",
+    "value": 297912,
+    "who": "Kihara James"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "acadia pharmaceuticals",
+  "other_trials": 5,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06194799",
+    "drugs": [
+     "ACP-204"
+    ]
+   },
+   {
+    "nct": "NCT07095465",
+    "drugs": [
+     "ACP-204"
+    ]
+   },
+   {
+    "nct": "NCT06159673",
+    "drugs": [
+     "ACP-204"
+    ]
+   },
+   {
+    "nct": "NCT07284667",
+    "drugs": [
+     "ACP-211"
+    ]
+   },
+   {
+    "nct": "NCT07029581",
+    "drugs": [
+     "ACP-204"
+    ]
+   }
+  ]
+ }
+}

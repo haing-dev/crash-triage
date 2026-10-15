@@ -1,0 +1,56 @@
+{
+ "id": "1574235_2023-09-20",
+ "kind": "slide",
+ "cik": "1574235",
+ "name": "Pulmatrix, Inc.",
+ "date": "2023-09-20",
+ "asof": "2023-09-20",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-09-20",
+  "adj_close": 2.17
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 25791000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001493152-23-027468"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 9832000.0,
+  "capex": 58000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-08-07",
+  "shares": 3652285
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2023-06-22",
+  "to": "2023-10-20",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "pulmatrix",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05667662",
+    "drugs": [
+     "Itraconazole Powder"
+    ]
+   }
+  ]
+ }
+}

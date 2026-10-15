@@ -1,0 +1,50 @@
+{
+ "id": "1704292_2022-07-29",
+ "kind": "slide",
+ "cik": "1704292",
+ "name": "Zai Lab Ltd",
+ "date": "2022-07-29",
+ "asof": "2022-07-29",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-07-29",
+  "adj_close": 40.53
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 1312231000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001193125-22-146354"
+ },
+ "burn6": {
+  "end": "2022-03-31",
+  "start": "2021-10-01",
+  "cash_used_ops": 240121000.0,
+  "capex": 16118000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-02-26",
+  "shares": 88592343
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2022-04-30",
+  "to": "2022-08-28",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "zai lab",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

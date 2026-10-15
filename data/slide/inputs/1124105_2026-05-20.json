@@ -1,0 +1,156 @@
+{
+ "id": "1124105_2026-05-20",
+ "kind": "slide",
+ "cik": "1124105",
+ "name": "GYRE THERAPEUTICS, INC.",
+ "date": "2026-05-20",
+ "asof": "2026-05-20",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-05-20",
+  "adj_close": 6.04
+ },
+ "balance": {
+  "end": "2026-03-31",
+  "cash": 49808000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001193125-26-214676"
+ },
+ "burn6": {
+  "end": "2026-03-31",
+  "start": "2025-10-01",
+  "cash_used_ops": 2445000.0,
+  "capex": 322000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-05-01",
+  "shares": 97028322
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 13,
+  "from": "2026-02-19",
+  "to": "2026-06-19",
+  "trades": [
+   {
+    "date": "2026-06-11",
+    "filed": "2026-06-15",
+    "code": "S",
+    "value": 17276,
+    "who": "Ye Weiguo"
+   },
+   {
+    "date": "2026-06-09",
+    "filed": "2026-06-11",
+    "code": "S",
+    "value": 89030,
+    "who": "Ye Weiguo"
+   },
+   {
+    "date": "2026-06-10",
+    "filed": "2026-06-11",
+    "code": "S",
+    "value": 39856,
+    "who": "Ye Weiguo"
+   },
+   {
+    "date": "2026-06-04",
+    "filed": "2026-06-08",
+    "code": "S",
+    "value": 119995,
+    "who": "Ye Weiguo"
+   },
+   {
+    "date": "2026-06-05",
+    "filed": "2026-06-08",
+    "code": "S",
+    "value": 98566,
+    "who": "Ye Weiguo"
+   },
+   {
+    "date": "2026-05-22",
+    "filed": "2026-05-27",
+    "code": "S",
+    "value": 21280,
+    "who": "Ye Weiguo"
+   },
+   {
+    "date": "2026-05-26",
+    "filed": "2026-05-27",
+    "code": "S",
+    "value": 24400,
+    "who": "Ye Weiguo"
+   },
+   {
+    "date": "2026-05-20",
+    "filed": "2026-05-22",
+    "code": "S",
+    "value": 57810,
+    "who": "Ye Weiguo"
+   },
+   {
+    "date": "2026-05-21",
+    "filed": "2026-05-22",
+    "code": "S",
+    "value": 78843,
+    "who": "Ye Weiguo"
+   },
+   {
+    "date": "2026-05-18",
+    "filed": "2026-05-20",
+    "code": "S",
+    "value": 1324,
+    "who": "Ye Weiguo"
+   },
+   {
+    "date": "2026-05-19",
+    "filed": "2026-05-20",
+    "code": "S",
+    "value": 58094,
+    "who": "Ye Weiguo"
+   },
+   {
+    "date": "2026-05-14",
+    "filed": "2026-05-18",
+    "code": "S",
+    "value": 107658,
+    "who": "Ye Weiguo"
+   },
+   {
+    "date": "2026-05-15",
+    "filed": "2026-05-18",
+    "code": "S",
+    "value": 87115,
+    "who": "Ye Weiguo"
+   },
+   {
+    "date": "2026-05-05",
+    "filed": "2026-05-07",
+    "code": "S",
+    "value": 1434,
+    "who": "Luo Ying"
+   },
+   {
+    "date": "2026-05-06",
+    "filed": "2026-05-07",
+    "code": "S",
+    "value": 81493,
+    "who": "Luo Ying"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "gyre therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

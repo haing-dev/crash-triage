@@ -1,0 +1,98 @@
+{
+ "id": "1817229_2024-12-20",
+ "kind": "slide",
+ "cik": "1817229",
+ "name": "Vor Biopharma Inc.",
+ "date": "2024-12-20",
+ "asof": "2024-12-20",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-12-20",
+  "adj_close": 17.34
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 62809000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-24-123245"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": 45132000.0,
+  "capex": 43000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-11-01",
+  "shares": 68673612
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Based on our current business plan and current capital resources, management has concluded that there is substantial doubt regarding our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 13,
+  "from": "2024-09-21",
+  "to": "2025-01-19",
+  "trades": [
+   {
+    "date": "2024-12-30",
+    "filed": "2025-01-02",
+    "code": "P",
+    "value": 0,
+    "who": "Reprogrammed Interchange LLC"
+   },
+   {
+    "date": "2024-12-27",
+    "filed": "2024-12-31",
+    "code": "S",
+    "value": 12918,
+    "who": "Attar Eyal C."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "vor biopharma",
+  "other_trials": 5,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06456567",
+    "drugs": [
+     "Telitacicept"
+    ]
+   },
+   {
+    "nct": "NCT05984199",
+    "drugs": [
+     "VCAR33"
+    ]
+   },
+   {
+    "nct": "NCT04849910",
+    "drugs": [
+     "VOR33",
+     "Mylotarg"
+    ]
+   },
+   {
+    "nct": "NCT05306574",
+    "drugs": [
+     "Telitacicept"
+    ]
+   },
+   {
+    "nct": "NCT06456580",
+    "drugs": [
+     "Telitacicept"
+    ]
+   }
+  ]
+ }
+}

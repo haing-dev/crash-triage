@@ -1,0 +1,141 @@
+{
+ "id": "1501697_2021-06-23",
+ "kind": "slide",
+ "cik": "1501697",
+ "name": "X4 Pharmaceuticals, Inc",
+ "date": "2021-06-23",
+ "asof": "2021-06-23",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-06-23",
+  "adj_close": 214.2
+ },
+ "balance": {
+  "end": "2021-03-31",
+  "cash": 114945000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001628280-21-009166"
+ },
+ "burn6": {
+  "end": "2021-03-31",
+  "start": "2020-10-01",
+  "cash_used_ops": 35948000.0,
+  "capex": 798000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-05-03",
+  "shares": 23655660
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "As a result, the Company believes that, in the aggregate, these conditions raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 24,
+  "from": "2021-03-25",
+  "to": "2021-07-23",
+  "trades": [
+   {
+    "date": "2021-07-15",
+    "filed": "2021-07-16",
+    "code": "S",
+    "value": 77729,
+    "who": "Ragan Paula"
+   },
+   {
+    "date": "2021-06-30",
+    "filed": "2021-07-01",
+    "code": "S",
+    "value": 17536,
+    "who": "Mostafa Adam S."
+   },
+   {
+    "date": "2021-06-24",
+    "filed": "2021-06-25",
+    "code": "S",
+    "value": 37973,
+    "who": "Mostafa Adam S."
+   },
+   {
+    "date": "2021-06-24",
+    "filed": "2021-06-25",
+    "code": "S",
+    "value": 29162,
+    "who": "Meisner Derek M"
+   },
+   {
+    "date": "2021-06-15",
+    "filed": "2021-06-17",
+    "code": "S",
+    "value": 32661,
+    "who": "Meisner Derek M"
+   },
+   {
+    "date": "2021-06-15",
+    "filed": "2021-06-17",
+    "code": "S",
+    "value": 42469,
+    "who": "Mostafa Adam S."
+   },
+   {
+    "date": "2021-06-02",
+    "filed": "2021-06-02",
+    "code": "S",
+    "value": 22800,
+    "who": "Ragan Paula"
+   },
+   {
+    "date": "2021-06-01",
+    "filed": "2021-06-02",
+    "code": "S",
+    "value": 38619,
+    "who": "Ragan Paula"
+   },
+   {
+    "date": "2021-05-03",
+    "filed": "2021-05-04",
+    "code": "S",
+    "value": 19992,
+    "who": "Ragan Paula"
+   },
+   {
+    "date": "2021-04-05",
+    "filed": "2021-04-07",
+    "code": "S",
+    "value": 22008,
+    "who": "Ragan Paula"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "x4 pharmaceuticals",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03005327",
+    "drugs": [
+     "X4P-001"
+    ]
+   },
+   {
+    "nct": "NCT03995108",
+    "drugs": [
+     "Mavorixafor"
+    ]
+   },
+   {
+    "nct": "NCT02667886",
+    "drugs": [
+     "X4P-001",
+     "axitinib"
+    ]
+   }
+  ]
+ }
+}

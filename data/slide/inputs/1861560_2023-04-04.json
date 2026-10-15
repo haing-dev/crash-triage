@@ -1,0 +1,217 @@
+{
+ "id": "1861560_2023-04-04",
+ "kind": "slide",
+ "cik": "1861560",
+ "name": "Nuvalent, Inc.",
+ "date": "2023-04-04",
+ "asof": "2023-04-04",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-04-04",
+  "adj_close": 24.07
+ },
+ "balance": {
+  "end": "2022-12-31",
+  "cash": 472163000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-23-008284"
+ },
+ "burn6": {
+  "end": "2022-12-31",
+  "start": "2022-07-01",
+  "cash_used_ops": 35954000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": null,
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 15,
+  "from": "2023-01-04",
+  "to": "2023-05-04",
+  "trades": [
+   {
+    "date": "2023-05-01",
+    "filed": "2023-05-03",
+    "code": "S",
+    "value": 1000,
+    "who": "Noci Darlene"
+   },
+   {
+    "date": "2023-05-01",
+    "filed": "2023-05-03",
+    "code": "S",
+    "value": 3365,
+    "who": "Noci Darlene"
+   },
+   {
+    "date": "2023-05-01",
+    "filed": "2023-05-03",
+    "code": "S",
+    "value": 20878,
+    "who": "Noci Darlene"
+   },
+   {
+    "date": "2023-05-01",
+    "filed": "2023-05-03",
+    "code": "S",
+    "value": 88564,
+    "who": "Noci Darlene"
+   },
+   {
+    "date": "2023-05-01",
+    "filed": "2023-05-03",
+    "code": "S",
+    "value": 1979,
+    "who": "Noci Darlene"
+   },
+   {
+    "date": "2023-05-01",
+    "filed": "2023-05-03",
+    "code": "S",
+    "value": 35649,
+    "who": "Miller Deborah Ann"
+   },
+   {
+    "date": "2023-04-17",
+    "filed": "2023-04-19",
+    "code": "S",
+    "value": 3666,
+    "who": "Miller Deborah Ann"
+   },
+   {
+    "date": "2023-04-17",
+    "filed": "2023-04-19",
+    "code": "S",
+    "value": 56531,
+    "who": "Miller Deborah Ann"
+   },
+   {
+    "date": "2023-04-03",
+    "filed": "2023-04-05",
+    "code": "S",
+    "value": 76734,
+    "who": "Noci Darlene"
+   },
+   {
+    "date": "2023-04-03",
+    "filed": "2023-04-05",
+    "code": "S",
+    "value": 3031,
+    "who": "Noci Darlene"
+   },
+   {
+    "date": "2023-03-15",
+    "filed": "2023-03-17",
+    "code": "S",
+    "value": 51805,
+    "who": "Miller Deborah Ann"
+   },
+   {
+    "date": "2023-03-15",
+    "filed": "2023-03-17",
+    "code": "S",
+    "value": 4704,
+    "who": "Miller Deborah Ann"
+   },
+   {
+    "date": "2023-03-01",
+    "filed": "2023-03-03",
+    "code": "S",
+    "value": 77506,
+    "who": "Noci Darlene"
+   },
+   {
+    "date": "2023-03-01",
+    "filed": "2023-03-03",
+    "code": "S",
+    "value": 12140,
+    "who": "Noci Darlene"
+   },
+   {
+    "date": "2023-02-15",
+    "filed": "2023-02-17",
+    "code": "S",
+    "value": 54357,
+    "who": "Miller Deborah Ann"
+   },
+   {
+    "date": "2023-02-15",
+    "filed": "2023-02-17",
+    "code": "S",
+    "value": 4770,
+    "who": "Miller Deborah Ann"
+   },
+   {
+    "date": "2023-02-02",
+    "filed": "2023-02-03",
+    "code": "S",
+    "value": 58388,
+    "who": "Noci Darlene"
+   },
+   {
+    "date": "2023-02-02",
+    "filed": "2023-02-03",
+    "code": "S",
+    "value": 30279,
+    "who": "Noci Darlene"
+   },
+   {
+    "date": "2023-01-17",
+    "filed": "2023-01-19",
+    "code": "S",
+    "value": 22794,
+    "who": "Miller Deborah Ann"
+   },
+   {
+    "date": "2023-01-17",
+    "filed": "2023-01-19",
+    "code": "S",
+    "value": 42448,
+    "who": "Miller Deborah Ann"
+   },
+   {
+    "date": "2023-01-04",
+    "filed": "2023-01-06",
+    "code": "S",
+    "value": 447167,
+    "who": "Shair Matthew"
+   },
+   {
+    "date": "2023-01-04",
+    "filed": "2023-01-06",
+    "code": "S",
+    "value": 65939,
+    "who": "Shair Matthew"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "nuvalent",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05118789",
+    "drugs": [
+     "Zidesamtinib (NVL-520)"
+    ]
+   },
+   {
+    "nct": "NCT05384626",
+    "drugs": [
+     "Neladalkib (NVL-655)",
+     "Midazolam",
+     "Repaglinide"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,100 @@
+{
+ "id": "882796_2025-12-05",
+ "kind": "slide",
+ "cik": "882796",
+ "name": "BIOCRYST PHARMACEUTICALS INC",
+ "date": "2025-12-05",
+ "asof": "2025-12-05",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-12-05",
+  "adj_close": 7.59
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 212873000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001628280-25-048785"
+ },
+ "burn6": {
+  "end": "2025-09-30",
+  "start": "2025-04-01",
+  "cash_used_ops": -82926000.0,
+  "capex": 1118670.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-10-31",
+  "shares": 210543224
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 15,
+  "from": "2025-09-06",
+  "to": "2026-01-04",
+  "trades": [
+   {
+    "date": "2025-12-22",
+    "filed": "2025-12-23",
+    "code": "S",
+    "value": 166563,
+    "who": "Barnes Alane P"
+   },
+   {
+    "date": "2025-12-15",
+    "filed": "2025-12-16",
+    "code": "S",
+    "value": 162256,
+    "who": "Barnes Alane P"
+   },
+   {
+    "date": "2025-12-01",
+    "filed": "2025-12-03",
+    "code": "S",
+    "value": 646511,
+    "who": "Barnes Alane P"
+   },
+   {
+    "date": "2025-12-02",
+    "filed": "2025-12-03",
+    "code": "S",
+    "value": 367216,
+    "who": "Barnes Alane P"
+   },
+   {
+    "date": "2025-12-03",
+    "filed": "2025-12-03",
+    "code": "S",
+    "value": 151240,
+    "who": "Barnes Alane P"
+   },
+   {
+    "date": "2025-11-13",
+    "filed": "2025-11-17",
+    "code": "S",
+    "value": 68544,
+    "who": "SANDERS MACHELLE"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "biocryst pharmaceuticals",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04933721",
+    "drugs": [
+     "berotralstat"
+    ]
+   }
+  ]
+ }
+}

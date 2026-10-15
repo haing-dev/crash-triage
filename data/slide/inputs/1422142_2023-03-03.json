@@ -1,0 +1,50 @@
+{
+ "id": "1422142_2023-03-03",
+ "kind": "slide",
+ "cik": "1422142",
+ "name": "Whitehawk Therapeutics, Inc.",
+ "date": "2023-03-03",
+ "asof": "2023-03-03",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-03-03",
+  "adj_close": 9.31
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 183007000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001628280-22-029228"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 18915000.0,
+  "capex": 343000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-11-04",
+  "shares": 24395117
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2022-12-03",
+  "to": "2023-04-02",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "whitehawk therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

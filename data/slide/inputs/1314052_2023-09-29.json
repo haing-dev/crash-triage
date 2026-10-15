@@ -1,0 +1,56 @@
+{
+ "id": "1314052_2023-09-29",
+ "kind": "slide",
+ "cik": "1314052",
+ "name": "ANAVEX LIFE SCIENCES CORP.",
+ "date": "2023-09-29",
+ "asof": "2023-09-29",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-09-29",
+  "adj_close": 6.55
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 154817164,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001731122-23-001412"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 16141114.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-08-08",
+  "shares": 81951115
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2023-07-01",
+  "to": "2023-10-29",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "anavex life sciences",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04314934",
+    "drugs": [
+     "ANAVEX2-73"
+    ]
+   }
+  ]
+ }
+}

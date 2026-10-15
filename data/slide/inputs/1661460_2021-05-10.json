@@ -1,0 +1,220 @@
+{
+ "id": "1661460_2021-05-10",
+ "kind": "slide",
+ "cik": "1661460",
+ "name": "Poseida Therapeutics, Inc.",
+ "date": "2021-05-10",
+ "asof": "2021-05-10",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-05-10",
+  "adj_close": 7.96
+ },
+ "balance": {
+  "end": "2020-12-31",
+  "cash": 309152000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001564590-21-012509"
+ },
+ "burn6": {
+  "end": "2020-12-31",
+  "start": "2020-07-01",
+  "cash_used_ops": 59642000.0,
+  "capex": 4953000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-03-05",
+  "shares": 62108168
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2021-02-09",
+  "to": "2021-06-09",
+  "trades": [
+   {
+    "date": "2021-06-01",
+    "filed": "2021-06-03",
+    "code": "S",
+    "value": 185055,
+    "who": "Ostertag Eric"
+   },
+   {
+    "date": "2021-06-02",
+    "filed": "2021-06-03",
+    "code": "S",
+    "value": 177192,
+    "who": "Ostertag Eric"
+   },
+   {
+    "date": "2021-06-01",
+    "filed": "2021-06-03",
+    "code": "S",
+    "value": 169626,
+    "who": "Ostertag Eric"
+   },
+   {
+    "date": "2021-06-02",
+    "filed": "2021-06-03",
+    "code": "S",
+    "value": 162430,
+    "who": "Ostertag Eric"
+   },
+   {
+    "date": "2021-05-03",
+    "filed": "2021-05-05",
+    "code": "S",
+    "value": 86145,
+    "who": "Ostertag Eric"
+   },
+   {
+    "date": "2021-05-04",
+    "filed": "2021-05-05",
+    "code": "S",
+    "value": 158461,
+    "who": "Ostertag Eric"
+   },
+   {
+    "date": "2021-05-03",
+    "filed": "2021-05-05",
+    "code": "S",
+    "value": 78973,
+    "who": "Ostertag Eric"
+   },
+   {
+    "date": "2021-05-04",
+    "filed": "2021-05-05",
+    "code": "S",
+    "value": 145261,
+    "who": "Ostertag Eric"
+   },
+   {
+    "date": "2021-04-21",
+    "filed": "2021-04-23",
+    "code": "S",
+    "value": 33752,
+    "who": "Spear Matthew A."
+   },
+   {
+    "date": "2021-04-01",
+    "filed": "2021-04-05",
+    "code": "S",
+    "value": 285046,
+    "who": "Ostertag Eric"
+   },
+   {
+    "date": "2021-04-05",
+    "filed": "2021-04-05",
+    "code": "S",
+    "value": 274784,
+    "who": "Ostertag Eric"
+   },
+   {
+    "date": "2021-04-05",
+    "filed": "2021-04-05",
+    "code": "S",
+    "value": 16691,
+    "who": "Ostertag Eric"
+   },
+   {
+    "date": "2021-04-01",
+    "filed": "2021-04-05",
+    "code": "S",
+    "value": 261284,
+    "who": "Ostertag Eric"
+   },
+   {
+    "date": "2021-04-05",
+    "filed": "2021-04-05",
+    "code": "S",
+    "value": 251886,
+    "who": "Ostertag Eric"
+   },
+   {
+    "date": "2021-04-05",
+    "filed": "2021-04-05",
+    "code": "S",
+    "value": 15307,
+    "who": "Ostertag Eric"
+   },
+   {
+    "date": "2021-03-01",
+    "filed": "2021-03-03",
+    "code": "S",
+    "value": 346325,
+    "who": "Ostertag Eric"
+   },
+   {
+    "date": "2021-03-01",
+    "filed": "2021-03-03",
+    "code": "S",
+    "value": 6399,
+    "who": "Ostertag Eric"
+   },
+   {
+    "date": "2021-03-02",
+    "filed": "2021-03-03",
+    "code": "S",
+    "value": 343516,
+    "who": "Ostertag Eric"
+   },
+   {
+    "date": "2021-03-01",
+    "filed": "2021-03-03",
+    "code": "S",
+    "value": 317455,
+    "who": "Ostertag Eric"
+   },
+   {
+    "date": "2021-03-01",
+    "filed": "2021-03-03",
+    "code": "S",
+    "value": 5866,
+    "who": "Ostertag Eric"
+   },
+   {
+    "date": "2021-03-02",
+    "filed": "2021-03-03",
+    "code": "S",
+    "value": 314899,
+    "who": "Ostertag Eric"
+   },
+   {
+    "date": "2021-02-16",
+    "filed": "2021-02-17",
+    "code": "S",
+    "value": 1332036,
+    "who": "Ostertag Eric"
+   },
+   {
+    "date": "2021-02-10",
+    "filed": "2021-02-12",
+    "code": "S",
+    "value": 123890,
+    "who": "Ostertag Eric"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "poseida therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03288493",
+    "drugs": [
+     "P-BCMA-101 CAR-T cells",
+     "Rimiducid"
+    ]
+   }
+  ]
+ }
+}

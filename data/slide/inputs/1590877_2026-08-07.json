@@ -1,0 +1,112 @@
+{
+ "id": "1590877_2026-08-07",
+ "kind": "slide",
+ "cik": "1590877",
+ "name": "REGENXBIO Inc.",
+ "date": "2026-08-07",
+ "asof": "2026-08-07",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-08-07",
+  "adj_close": 10.72
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 105517000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001193125-26-336725"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": 138424000.0,
+  "capex": 1995000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-07-31",
+  "shares": 66013192
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 18,
+  "from": "2026-05-09",
+  "to": "2026-09-06",
+  "trades": [
+   {
+    "date": "2026-08-26",
+    "filed": "2026-08-27",
+    "code": "P",
+    "value": 449706,
+    "who": "Ciongoli Gregory Austin"
+   },
+   {
+    "date": "2026-08-27",
+    "filed": "2026-08-27",
+    "code": "P",
+    "value": 499676,
+    "who": "Ciongoli Gregory Austin"
+   },
+   {
+    "date": "2026-07-02",
+    "filed": "2026-07-06",
+    "code": "S",
+    "value": 29476,
+    "who": "PAKOLA STEVE"
+   },
+   {
+    "date": "2026-06-29",
+    "filed": "2026-07-01",
+    "code": "S",
+    "value": 216472,
+    "who": "PAKOLA STEVE"
+   },
+   {
+    "date": "2026-07-01",
+    "filed": "2026-07-01",
+    "code": "S",
+    "value": 472284,
+    "who": "PAKOLA STEVE"
+   },
+   {
+    "date": "2026-05-11",
+    "filed": "2026-05-13",
+    "code": "S",
+    "value": 168705,
+    "who": "PAKOLA STEVE"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "regenxbio",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05693142",
+    "drugs": [
+     "RGX-202"
+    ]
+   },
+   {
+    "nct": "NCT07236606",
+    "drugs": [
+     "RGX-121-3102"
+    ]
+   },
+   {
+    "nct": "NCT03580083",
+    "drugs": [
+     "RGX-111"
+    ]
+   }
+  ]
+ }
+}

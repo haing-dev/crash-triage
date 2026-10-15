@@ -1,0 +1,115 @@
+{
+ "id": "1326110_2025-12-29",
+ "kind": "slide",
+ "cik": "1326110",
+ "name": "ImmunityBio, Inc.",
+ "date": "2025-12-29",
+ "asof": "2025-12-29",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-12-29",
+  "adj_close": 2.04
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 257813000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001326110-25-000139"
+ },
+ "burn6": {
+  "end": "2025-09-30",
+  "start": "2025-04-01",
+  "cash_used_ops": 148653000.0,
+  "capex": 1822000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-10-30",
+  "shares": 984965179
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2025-09-30",
+  "to": "2026-01-28",
+  "trades": [
+   {
+    "date": "2026-01-20",
+    "filed": "2026-01-21",
+    "code": "S",
+    "value": 503364,
+    "who": "Simon Barry J."
+   },
+   {
+    "date": "2026-01-20",
+    "filed": "2026-01-21",
+    "code": "S",
+    "value": 590932,
+    "who": "Simon Barry J."
+   },
+   {
+    "date": "2026-01-16",
+    "filed": "2026-01-21",
+    "code": "S",
+    "value": 250000,
+    "who": "Selecky Christobel"
+   },
+   {
+    "date": "2026-01-20",
+    "filed": "2026-01-21",
+    "code": "S",
+    "value": 187650,
+    "who": "Selecky Christobel"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "immunitybio",
+  "other_trials": 12,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT07123727",
+    "drugs": [
+     "Anktiva"
+    ]
+   },
+   {
+    "nct": "NCT06061809",
+    "drugs": [
+     "Bevacizumab",
+     "PD-L1 t-haNK",
+     "N-803"
+    ]
+   },
+   {
+    "nct": "NCT06765902",
+    "drugs": [
+     "N-803",
+     "ETBX-071",
+     "M-CENK"
+    ]
+   },
+   {
+    "nct": "NCT02138734",
+    "drugs": [
+     "BCG (50mg/instillation) + N-803 (400 \u03bcg/instillation)",
+     "BCG (50mg/instillation)"
+    ]
+   },
+   {
+    "nct": "NCT07108036",
+    "drugs": [
+     "N-803 (IL-15 Superagonist)"
+    ]
+   }
+  ]
+ }
+}

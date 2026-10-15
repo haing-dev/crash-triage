@@ -1,0 +1,87 @@
+{
+ "id": "1710072_2024-08-05",
+ "kind": "slide",
+ "cik": "1710072",
+ "name": "Edgewise Therapeutics, Inc.",
+ "date": "2024-08-05",
+ "asof": "2024-08-05",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-08-05",
+  "adj_close": 15.89
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 30264000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001544784-24-000056"
+ },
+ "burn6": {
+  "end": "2024-03-31",
+  "start": "2023-10-01",
+  "cash_used_ops": 55428000.0,
+  "capex": 458000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-04-30",
+  "shares": 93398767
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 14,
+  "from": "2024-05-07",
+  "to": "2024-09-04",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "edgewise therapeutics",
+  "other_trials": 5,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05540860",
+    "drugs": [
+     "Sevasemten Dose 1",
+     "Sevasemten Dose 2",
+     "Sevasemten Dose 3"
+    ]
+   },
+   {
+    "nct": "NCT06100887",
+    "drugs": [
+     "Sevasemten Dose 1",
+     "Sevasemten Dose 2",
+     "Sevasemten Dose 3"
+    ]
+   },
+   {
+    "nct": "NCT06347159",
+    "drugs": [
+     "EDG-7500",
+     "EDG-7500"
+    ]
+   },
+   {
+    "nct": "NCT05291091",
+    "drugs": [
+     "Sevasemten 10 mg",
+     "Sevasemten 5 mg",
+     "Sevasemten 12.5 mg"
+    ]
+   },
+   {
+    "nct": "NCT06066580",
+    "drugs": [
+     "Sevasemten"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,92 @@
+{
+ "id": "1400118_2026-04-21",
+ "kind": "slide",
+ "cik": "1400118",
+ "name": "Sagimet Biosciences Inc.",
+ "date": "2026-04-21",
+ "asof": "2026-04-21",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-04-21",
+  "adj_close": 5.91
+ },
+ "balance": {
+  "end": "2025-12-31",
+  "cash": 113124000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001104659-26-026140"
+ },
+ "burn6": {
+  "end": "2025-12-31",
+  "start": "2025-07-01",
+  "cash_used_ops": 22013000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-11-08",
+  "shares": 30674855
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 9,
+  "from": "2026-01-21",
+  "to": "2026-05-21",
+  "trades": [
+   {
+    "date": "2026-02-10",
+    "filed": "2026-02-12",
+    "code": "S",
+    "value": 64865,
+    "who": "Happel David"
+   },
+   {
+    "date": "2026-02-10",
+    "filed": "2026-02-12",
+    "code": "S",
+    "value": 7033,
+    "who": "Chauche Thierry"
+   },
+   {
+    "date": "2026-02-10",
+    "filed": "2026-02-12",
+    "code": "S",
+    "value": 19511,
+    "who": "Martins Eduardo Bruno"
+   },
+   {
+    "date": "2026-02-10",
+    "filed": "2026-02-12",
+    "code": "S",
+    "value": 14054,
+    "who": "Rozek Elizabeth"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "sagimet biosciences",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06594523",
+    "drugs": [
+     "Denifanstat"
+    ]
+   },
+   {
+    "nct": "NCT06692283",
+    "drugs": [
+     "denifanstat"
+    ]
+   }
+  ]
+ }
+}

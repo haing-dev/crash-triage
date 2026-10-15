@@ -1,0 +1,58 @@
+{
+ "id": "1557746_2026-02-18",
+ "kind": "slide",
+ "cik": "1557746",
+ "name": "Aclaris Therapeutics, Inc.",
+ "date": "2026-02-18",
+ "asof": "2026-02-18",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-02-18",
+  "adj_close": 3.17
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 167209000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0001104659-25-107788"
+ },
+ "burn6": {
+  "end": "2025-09-30",
+  "start": "2025-04-01",
+  "cash_used_ops": 20925000.0,
+  "capex": 44000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-10-31",
+  "shares": 108345239
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 17,
+  "from": "2025-11-20",
+  "to": "2026-03-20",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "aclaris therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT07011706",
+    "drugs": [
+     "ATI-045"
+    ]
+   }
+  ]
+ }
+}

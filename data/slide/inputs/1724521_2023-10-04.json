@@ -1,0 +1,107 @@
+{
+ "id": "1724521_2023-10-04",
+ "kind": "slide",
+ "cik": "1724521",
+ "name": "Arcus Biosciences, Inc.",
+ "date": "2023-10-04",
+ "asof": "2023-10-04",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-10-04",
+  "adj_close": 15.82
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 1010000000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0000950170-23-038760"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 155000000.0,
+  "capex": 8000000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-08-02",
+  "shares": 74503664
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2023-07-06",
+  "to": "2023-11-03",
+  "trades": [
+   {
+    "date": "2023-09-22",
+    "filed": "2023-09-26",
+    "code": "S",
+    "value": 427166,
+    "who": "Jarrett Jennifer"
+   },
+   {
+    "date": "2023-07-28",
+    "filed": "2023-07-31",
+    "code": "S",
+    "value": 911250,
+    "who": "Jarrett Jennifer"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "arcus biosciences",
+  "other_trials": 6,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05568095",
+    "drugs": [
+     "Domvanalimab",
+     "Zimberelimab",
+     "Capecitabine"
+    ]
+   },
+   {
+    "nct": "NCT04262856",
+    "drugs": [
+     "Domvanalimab",
+     "Etrumadenant",
+     "Zimberelimab"
+    ]
+   },
+   {
+    "nct": "NCT05329766",
+    "drugs": [
+     "Domvanalimab",
+     "Quemliclustat",
+     "Zimberelimab"
+    ]
+   },
+   {
+    "nct": "NCT04381832",
+    "drugs": [
+     "Etrumadenant",
+     "Zimberelimab",
+     "Quemliclustat"
+    ]
+   },
+   {
+    "nct": "NCT04660812",
+    "drugs": [
+     "AB680",
+     "Etrumadenant",
+     "Zimberelimab"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "id": "1582313_2021-12-03",
+ "kind": "slide",
+ "cik": "1582313",
+ "name": "Xenon Pharmaceuticals Inc.",
+ "date": "2021-12-03",
+ "asof": "2021-12-03",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-12-03",
+  "adj_close": 24.76
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 249625000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001564590-21-056248"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 28084000.0,
+  "capex": 1132000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-11-08",
+  "shares": 51589279
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2021-09-04",
+  "to": "2022-01-02",
+  "trades": [
+   {
+    "date": "2021-12-06",
+    "filed": "2021-12-07",
+    "code": "P",
+    "value": 97600,
+    "who": "Von Seggern Christopher"
+   },
+   {
+    "date": "2021-11-15",
+    "filed": "2021-11-16",
+    "code": "S",
+    "value": 550061,
+    "who": "PIMSTONE SIMON N."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "xenon pharmaceuticals",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04639310",
+    "drugs": [
+     "XEN496"
+    ]
+   },
+   {
+    "nct": "NCT04912856",
+    "drugs": [
+     "XEN496"
+    ]
+   }
+  ]
+ }
+}

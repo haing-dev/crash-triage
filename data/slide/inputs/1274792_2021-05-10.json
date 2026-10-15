@@ -1,0 +1,175 @@
+{
+ "id": "1274792_2021-05-10",
+ "kind": "slide",
+ "cik": "1274792",
+ "name": "MERRIMACK PHARMACEUTICALS INC",
+ "date": "2021-05-10",
+ "asof": "2021-05-10",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-05-10",
+  "adj_close": 3.023
+ },
+ "balance": {
+  "end": "2021-03-31",
+  "cash": 13890000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001564590-21-025078"
+ },
+ "burn6": {
+  "end": "2021-03-31",
+  "start": "2020-10-01",
+  "cash_used_ops": 2213000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-05-03",
+  "shares": 13410243
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 13,
+  "from": "2021-02-09",
+  "to": "2021-06-09",
+  "trades": [
+   {
+    "date": "2021-04-14",
+    "filed": "2021-04-16",
+    "code": "P",
+    "value": 270655,
+    "who": "Andersen Eric"
+   },
+   {
+    "date": "2021-04-14",
+    "filed": "2021-04-16",
+    "code": "P",
+    "value": 43081,
+    "who": "Andersen Eric"
+   },
+   {
+    "date": "2021-04-13",
+    "filed": "2021-04-15",
+    "code": "P",
+    "value": 61780,
+    "who": "Andersen Eric"
+   },
+   {
+    "date": "2021-04-12",
+    "filed": "2021-04-14",
+    "code": "P",
+    "value": 143194,
+    "who": "Andersen Eric"
+   },
+   {
+    "date": "2021-04-12",
+    "filed": "2021-04-14",
+    "code": "P",
+    "value": 5905,
+    "who": "CROCKER GARY L"
+   },
+   {
+    "date": "2021-04-09",
+    "filed": "2021-04-12",
+    "code": "P",
+    "value": 7320,
+    "who": "CROCKER GARY L"
+   },
+   {
+    "date": "2021-04-07",
+    "filed": "2021-04-09",
+    "code": "P",
+    "value": 13166,
+    "who": "CROCKER GARY L"
+   },
+   {
+    "date": "2021-03-31",
+    "filed": "2021-04-01",
+    "code": "P",
+    "value": 3094,
+    "who": "CROCKER GARY L"
+   },
+   {
+    "date": "2021-03-25",
+    "filed": "2021-03-26",
+    "code": "P",
+    "value": 1226,
+    "who": "CROCKER GARY L"
+   },
+   {
+    "date": "2021-03-23",
+    "filed": "2021-03-25",
+    "code": "P",
+    "value": 23455,
+    "who": "CROCKER GARY L"
+   },
+   {
+    "date": "2021-03-24",
+    "filed": "2021-03-25",
+    "code": "P",
+    "value": 31690,
+    "who": "CROCKER GARY L"
+   },
+   {
+    "date": "2021-03-16",
+    "filed": "2021-03-17",
+    "code": "P",
+    "value": 33956,
+    "who": "CROCKER GARY L"
+   },
+   {
+    "date": "2021-02-23",
+    "filed": "2021-03-05",
+    "code": "P",
+    "value": 36004,
+    "who": "CROCKER GARY L"
+   },
+   {
+    "date": "2021-02-12",
+    "filed": "2021-02-17",
+    "code": "P",
+    "value": 37342,
+    "who": "CROCKER GARY L"
+   },
+   {
+    "date": "2021-02-10",
+    "filed": "2021-02-12",
+    "code": "P",
+    "value": 26757,
+    "who": "CROCKER GARY L"
+   },
+   {
+    "date": "2021-02-11",
+    "filed": "2021-02-12",
+    "code": "P",
+    "value": 12798,
+    "who": "CROCKER GARY L"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "merrimack pharmaceuticals",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT00458146",
+    "drugs": [
+     "MM-093"
+    ]
+   },
+   {
+    "nct": "NCT00105976",
+    "drugs": [
+     "MM-093"
+    ]
+   }
+  ]
+ }
+}

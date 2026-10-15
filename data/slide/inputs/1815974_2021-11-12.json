@@ -1,0 +1,64 @@
+{
+ "id": "1815974_2021-11-12",
+ "kind": "slide",
+ "cik": "1815974",
+ "name": "Anebulo Pharmaceuticals, Inc.",
+ "date": "2021-11-12",
+ "asof": "2021-11-12",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-11-12",
+  "adj_close": 6.25
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 19207743,
+  "parts": [
+   "Cash"
+  ],
+  "accn": "0001493152-21-028031"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 3882480.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-11-12",
+  "shares": 23344567
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 2,
+  "from": "2021-08-14",
+  "to": "2021-12-12",
+  "trades": [
+   {
+    "date": "2021-12-03",
+    "filed": "2021-12-03",
+    "code": "P",
+    "value": 26685,
+    "who": "English Aron R."
+   },
+   {
+    "date": "2021-12-02",
+    "filed": "2021-12-03",
+    "code": "P",
+    "value": 73331,
+    "who": "English Aron R."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "anebulo pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

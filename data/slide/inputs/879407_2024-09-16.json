@@ -1,0 +1,89 @@
+{
+ "id": "879407_2024-09-16",
+ "kind": "slide",
+ "cik": "879407",
+ "name": "ARROWHEAD PHARMACEUTICALS, INC.",
+ "date": "2024-09-16",
+ "asof": "2024-09-16",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-09-16",
+  "adj_close": 20.45
+ },
+ "balance": {
+  "end": "2024-06-30",
+  "cash": 436672000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001628280-24-036104"
+ },
+ "burn6": {
+  "end": "2024-06-30",
+  "start": "2024-01-01",
+  "cash_used_ops": 207795000.0,
+  "capex": 48524000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-08-01",
+  "shares": 124315274
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2024-06-18",
+  "to": "2024-10-16",
+  "trades": [
+   {
+    "date": "2024-07-02",
+    "filed": "2024-07-03",
+    "code": "S",
+    "value": 237480,
+    "who": "Oliver Tracie"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "arrowhead pharmaceuticals",
+  "other_trials": 8,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05083364",
+    "drugs": [
+     "ARO-C3"
+    ]
+   },
+   {
+    "nct": "NCT05413135",
+    "drugs": [
+     "ARO-APOC3"
+    ]
+   },
+   {
+    "nct": "NCT06347016",
+    "drugs": [
+     "Plozasiran Injection"
+    ]
+   },
+   {
+    "nct": "NCT05276570",
+    "drugs": [
+     "ARO-RAGE"
+    ]
+   },
+   {
+    "nct": "NCT06347133",
+    "drugs": [
+     "Plozasiran Injection"
+    ]
+   }
+  ]
+ }
+}

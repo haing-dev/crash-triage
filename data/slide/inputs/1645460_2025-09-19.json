@@ -1,0 +1,50 @@
+{
+ "id": "1645460_2025-09-19",
+ "kind": "slide",
+ "cik": "1645460",
+ "name": "Cue Biopharma, Inc.",
+ "date": "2025-09-19",
+ "asof": "2025-09-19",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-09-19",
+  "adj_close": 20.16
+ },
+ "balance": {
+  "end": "2025-06-30",
+  "cash": 27492000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-25-107270"
+ },
+ "burn6": {
+  "end": "2025-06-30",
+  "start": "2025-01-01",
+  "cash_used_ops": 11587000.0,
+  "capex": 177000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-08-08",
+  "shares": 76845904
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "\u2022 Our recurring losses from operations raise substantial doubt regarding our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2025-06-21",
+  "to": "2025-10-19",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "cue biopharma",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,157 @@
+{
+ "id": "1826457_2026-03-09",
+ "kind": "slide",
+ "cik": "1826457",
+ "name": "Monte Rosa Therapeutics, Inc.",
+ "date": "2026-03-09",
+ "asof": "2026-03-09",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-03-09",
+  "adj_close": 17.66
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 208343000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001193125-25-268045"
+ },
+ "burn6": {
+  "end": "2025-09-30",
+  "start": "2025-04-01",
+  "cash_used_ops": -65708000.0,
+  "capex": 2346000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-10-31",
+  "shares": 65117761
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 12,
+  "from": "2025-12-09",
+  "to": "2026-04-08",
+  "trades": [
+   {
+    "date": "2026-03-04",
+    "filed": "2026-03-05",
+    "code": "S",
+    "value": 2496,
+    "who": "Dunn Edmund"
+   },
+   {
+    "date": "2026-03-02",
+    "filed": "2026-03-04",
+    "code": "S",
+    "value": 97974,
+    "who": "Warmuth Markus"
+   },
+   {
+    "date": "2026-02-27",
+    "filed": "2026-03-02",
+    "code": "S",
+    "value": 455506,
+    "who": "Dunn Edmund"
+   },
+   {
+    "date": "2026-03-02",
+    "filed": "2026-03-02",
+    "code": "S",
+    "value": 9380,
+    "who": "Dunn Edmund"
+   },
+   {
+    "date": "2026-02-23",
+    "filed": "2026-02-24",
+    "code": "S",
+    "value": 179161,
+    "who": "Janku Filip"
+   },
+   {
+    "date": "2026-01-07",
+    "filed": "2026-01-09",
+    "code": "S",
+    "value": 86159,
+    "who": "Warmuth Markus"
+   },
+   {
+    "date": "2026-01-07",
+    "filed": "2026-01-09",
+    "code": "S",
+    "value": 34620,
+    "who": "Warmuth Markus"
+   },
+   {
+    "date": "2026-01-07",
+    "filed": "2026-01-09",
+    "code": "S",
+    "value": 7593,
+    "who": "Warmuth Markus"
+   },
+   {
+    "date": "2026-01-05",
+    "filed": "2026-01-05",
+    "code": "S",
+    "value": 47861,
+    "who": "Nickson Philip"
+   },
+   {
+    "date": "2026-01-05",
+    "filed": "2026-01-05",
+    "code": "S",
+    "value": 39882,
+    "who": "Champoux Jennifer"
+   },
+   {
+    "date": "2026-01-05",
+    "filed": "2026-01-05",
+    "code": "S",
+    "value": 15762,
+    "who": "Dunn Edmund"
+   },
+   {
+    "date": "2026-01-05",
+    "filed": "2026-01-05",
+    "code": "S",
+    "value": 153748,
+    "who": "Warmuth Markus"
+   },
+   {
+    "date": "2026-01-05",
+    "filed": "2026-01-05",
+    "code": "S",
+    "value": 47861,
+    "who": "Janku Filip"
+   },
+   {
+    "date": "2026-01-05",
+    "filed": "2026-01-05",
+    "code": "S",
+    "value": 47861,
+    "who": "Townson Sharon"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "monte rosa therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05546268",
+    "drugs": [
+     "Oral MRT-2359",
+     "Oral MRT-2359",
+     "Oral MRT-2359"
+    ]
+   }
+  ]
+ }
+}

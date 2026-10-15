@@ -1,0 +1,71 @@
+{
+ "id": "1393434_2021-04-13",
+ "kind": "slide",
+ "cik": "1393434",
+ "name": "OCULAR THERAPEUTIX, INC",
+ "date": "2021-04-13",
+ "asof": "2021-04-13",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-04-13",
+  "adj_close": 15.89
+ },
+ "balance": {
+  "end": "2020-12-31",
+  "cash": 228057000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-21-002813"
+ },
+ "burn6": {
+  "end": "2020-12-31",
+  "start": "2020-07-01",
+  "cash_used_ops": 19904000.0,
+  "capex": 467000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-03-01",
+  "shares": 76069673
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2021-01-13",
+  "to": "2021-05-13",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "ocular therapeutix",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04747977",
+    "drugs": [
+     "OTX-DED",
+     "OTX-DED",
+     "OTX-DED"
+    ]
+   },
+   {
+    "nct": "NCT04539548",
+    "drugs": [
+     "Dextenza Ophthalmic Insert",
+     "Prednisolone acetate ophthalmic suspension USP 1%"
+    ]
+   },
+   {
+    "nct": "NCT04362670",
+    "drugs": [
+     "OTX-CSI"
+    ]
+   }
+  ]
+ }
+}

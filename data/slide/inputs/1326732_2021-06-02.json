@@ -1,0 +1,57 @@
+{
+ "id": "1326732_2021-06-02",
+ "kind": "slide",
+ "cik": "1326732",
+ "name": "Xencor Inc",
+ "date": "2021-06-02",
+ "asof": "2021-06-02",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-06-02",
+  "adj_close": 36.95
+ },
+ "balance": {
+  "end": "2021-03-31",
+  "cash": 176965000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-21-005967"
+ },
+ "burn6": {
+  "end": "2021-03-31",
+  "start": "2020-10-01",
+  "cash_used_ops": 12882000.0,
+  "capex": 5100000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-04-26",
+  "shares": 58224616
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 14,
+  "from": "2021-03-04",
+  "to": "2021-07-02",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "xencor",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04590781",
+    "drugs": [
+     "XmAb18087",
+     "XmAb18087 \u00b1 Pembrolizumab"
+    ]
+   }
+  ]
+ }
+}

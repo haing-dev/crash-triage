@@ -1,0 +1,65 @@
+{
+ "id": "1867096_2024-06-12",
+ "kind": "slide",
+ "cik": "1867096",
+ "name": "Xeris Biopharma Holdings, Inc.",
+ "date": "2024-06-12",
+ "asof": "2024-06-12",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-06-12",
+  "adj_close": 2.24
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 87352000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001867096-24-000065"
+ },
+ "burn6": {
+  "end": "2024-03-31",
+  "start": "2023-10-01",
+  "cash_used_ops": 12832000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-04-30",
+  "shares": 148255663
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 14,
+  "from": "2024-03-14",
+  "to": "2024-07-12",
+  "trades": [
+   {
+    "date": "2024-05-10",
+    "filed": "2024-05-10",
+    "code": "P",
+    "value": 10314,
+    "who": "Schmid John P."
+   },
+   {
+    "date": "2024-03-14",
+    "filed": "2024-03-14",
+    "code": "P",
+    "value": 9720,
+    "who": "Schmid John P."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "xeris biopharma",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,136 @@
+{
+ "id": "1799850_2021-10-18",
+ "kind": "slide",
+ "cik": "1799850",
+ "name": "Renovacor, Inc.",
+ "date": "2021-10-18",
+ "asof": "2021-10-18",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-10-18",
+  "adj_close": 6.99
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 86559372,
+  "parts": [
+   "Cash",
+   "MarketableSecuritiesNoncurrent"
+  ],
+  "accn": "0001213900-21-043183"
+ },
+ "burn6": {
+  "end": "2021-06-30",
+  "start": "2021-01-01",
+  "cash_used_ops": 382738.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-08-16",
+  "shares": 10778305
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These conditions raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 14,
+  "from": "2021-07-20",
+  "to": "2021-11-17",
+  "trades": [
+   {
+    "date": "2021-11-15",
+    "filed": "2021-11-17",
+    "code": "P",
+    "value": 5432,
+    "who": "RTW INVESTMENTS, LP"
+   },
+   {
+    "date": "2021-11-15",
+    "filed": "2021-11-17",
+    "code": "P",
+    "value": 33470,
+    "who": "RTW INVESTMENTS, LP"
+   },
+   {
+    "date": "2021-11-16",
+    "filed": "2021-11-17",
+    "code": "P",
+    "value": 381690,
+    "who": "RTW INVESTMENTS, LP"
+   },
+   {
+    "date": "2021-11-17",
+    "filed": "2021-11-17",
+    "code": "P",
+    "value": 190447,
+    "who": "RTW INVESTMENTS, LP"
+   },
+   {
+    "date": "2021-11-09",
+    "filed": "2021-11-12",
+    "code": "P",
+    "value": 73829,
+    "who": "RTW INVESTMENTS, LP"
+   },
+   {
+    "date": "2021-11-11",
+    "filed": "2021-11-12",
+    "code": "P",
+    "value": 2691,
+    "who": "RTW INVESTMENTS, LP"
+   },
+   {
+    "date": "2021-11-12",
+    "filed": "2021-11-12",
+    "code": "P",
+    "value": 5364,
+    "who": "RTW INVESTMENTS, LP"
+   },
+   {
+    "date": "2021-11-04",
+    "filed": "2021-11-08",
+    "code": "P",
+    "value": 464992,
+    "who": "RTW INVESTMENTS, LP"
+   },
+   {
+    "date": "2021-11-05",
+    "filed": "2021-11-08",
+    "code": "P",
+    "value": 110191,
+    "who": "RTW INVESTMENTS, LP"
+   },
+   {
+    "date": "2021-11-05",
+    "filed": "2021-11-08",
+    "code": "P",
+    "value": 9420,
+    "who": "RTW INVESTMENTS, LP"
+   },
+   {
+    "date": "2021-11-08",
+    "filed": "2021-11-08",
+    "code": "P",
+    "value": 825074,
+    "who": "RTW INVESTMENTS, LP"
+   },
+   {
+    "date": "2021-09-02",
+    "filed": "2021-09-07",
+    "code": "P",
+    "value": 8000000,
+    "who": "RTW INVESTMENTS, LP"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "renovacor",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,86 @@
+{
+ "id": "1133869_2023-09-21",
+ "kind": "slide",
+ "cik": "1133869",
+ "name": "CAPRICOR THERAPEUTICS, INC.",
+ "date": "2023-09-21",
+ "asof": "2023-09-21",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-09-21",
+  "adj_close": 5.45
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 37793458,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001558370-23-013763"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 5207664.0,
+  "capex": 483563.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-08-07",
+  "shares": 25776867
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 9,
+  "from": "2023-06-23",
+  "to": "2023-10-21",
+  "trades": [
+   {
+    "date": "2023-10-12",
+    "filed": "2023-10-13",
+    "code": "P",
+    "value": 1128,
+    "who": "Musket David B"
+   },
+   {
+    "date": "2023-10-10",
+    "filed": "2023-10-12",
+    "code": "P",
+    "value": 28300,
+    "who": "COLLIER EARL M JR"
+   },
+   {
+    "date": "2023-10-09",
+    "filed": "2023-10-11",
+    "code": "P",
+    "value": 14334,
+    "who": "Musket David B"
+   },
+   {
+    "date": "2023-10-06",
+    "filed": "2023-10-10",
+    "code": "P",
+    "value": 14200,
+    "who": "Auwaerter Paul Gisbert"
+   },
+   {
+    "date": "2023-10-04",
+    "filed": "2023-10-06",
+    "code": "P",
+    "value": 7250,
+    "who": "Musket David B"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "capricor therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,80 @@
+{
+ "id": "1668243_2024-09-06",
+ "kind": "slide",
+ "cik": "1668243",
+ "name": "UroGen Pharma Ltd.",
+ "date": "2024-09-06",
+ "asof": "2024-09-06",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-09-06",
+  "adj_close": 13.23
+ },
+ "balance": {
+  "end": "2024-06-30",
+  "cash": 272457000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0001437749-24-026161"
+ },
+ "burn6": {
+  "end": "2024-06-30",
+  "start": "2024-01-01",
+  "cash_used_ops": 55483000.0,
+  "capex": 84000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-08-05",
+  "shares": 42114070
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2024-06-08",
+  "to": "2024-10-06",
+  "trades": [
+   {
+    "date": "2024-09-09",
+    "filed": "2024-09-12",
+    "code": "S",
+    "value": 11236,
+    "who": "Schoenberg Mark"
+   },
+   {
+    "date": "2024-09-09",
+    "filed": "2024-09-12",
+    "code": "S",
+    "value": 19895,
+    "who": "Smith Jason Drew"
+   },
+   {
+    "date": "2024-06-10",
+    "filed": "2024-06-11",
+    "code": "S",
+    "value": 67401,
+    "who": "Schoenberg Mark"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "urogen pharma",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06331299",
+    "drugs": [
+     "UGN-103"
+    ]
+   }
+  ]
+ }
+}

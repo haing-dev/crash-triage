@@ -1,0 +1,71 @@
+{
+ "id": "1761612_2022-03-07",
+ "kind": "slide",
+ "cik": "1761612",
+ "name": "BICYCLE THERAPEUTICS PLC",
+ "date": "2022-03-07",
+ "asof": "2022-03-07",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-03-07",
+  "adj_close": 42.07
+ },
+ "balance": {
+  "end": "2021-12-31",
+  "cash": 438700000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-22-002457"
+ },
+ "burn6": {
+  "end": "2021-12-31",
+  "start": "2021-07-01",
+  "cash_used_ops": -11283000.0,
+  "capex": 1236000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-02-24",
+  "shares": 29598616
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 16,
+  "from": "2021-12-07",
+  "to": "2022-04-06",
+  "trades": [
+   {
+    "date": "2021-12-20",
+    "filed": "2021-12-22",
+    "code": "S",
+    "value": 433523,
+    "who": "Legault Pierre"
+   },
+   {
+    "date": "2021-12-21",
+    "filed": "2021-12-22",
+    "code": "S",
+    "value": 2543508,
+    "who": "Legault Pierre"
+   },
+   {
+    "date": "2021-12-22",
+    "filed": "2021-12-22",
+    "code": "S",
+    "value": 5676859,
+    "who": "Legault Pierre"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "bicycle therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

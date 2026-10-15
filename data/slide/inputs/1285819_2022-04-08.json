@@ -1,0 +1,58 @@
+{
+ "id": "1285819_2022-04-08",
+ "kind": "slide",
+ "cik": "1285819",
+ "name": "OMEROS CORP",
+ "date": "2022-04-08",
+ "asof": "2022-04-08",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-04-08",
+  "adj_close": 5.74
+ },
+ "balance": {
+  "end": "2021-12-31",
+  "cash": 157266000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001558370-22-002582"
+ },
+ "burn6": {
+  "end": "2021-12-31",
+  "start": "2021-07-01",
+  "cash_used_ops": 41876000.0,
+  "capex": 177000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-02-24",
+  "shares": 62726515
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2022-01-08",
+  "to": "2022-05-08",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "omeros",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03608033",
+    "drugs": [
+     "OMS721",
+     "Vehicle (D5W or saline)"
+    ]
+   }
+  ]
+ }
+}

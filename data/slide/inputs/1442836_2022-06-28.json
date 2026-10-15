@@ -1,0 +1,161 @@
+{
+ "id": "1442836_2022-06-28",
+ "kind": "slide",
+ "cik": "1442836",
+ "name": "Mersana Therapeutics, Inc.",
+ "date": "2022-06-28",
+ "asof": "2022-06-28",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-06-28",
+  "adj_close": 115.75
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 230057000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001628280-22-013191"
+ },
+ "burn6": {
+  "end": "2022-03-31",
+  "start": "2021-10-01",
+  "cash_used_ops": 50355000.0,
+  "capex": 484000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-05-05",
+  "shares": 96991298
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 14,
+  "from": "2022-03-30",
+  "to": "2022-07-28",
+  "trades": [
+   {
+    "date": "2022-05-31",
+    "filed": "2022-06-02",
+    "code": "P",
+    "value": 264776,
+    "who": "Hack Andrew A. F."
+   },
+   {
+    "date": "2022-06-02",
+    "filed": "2022-06-02",
+    "code": "P",
+    "value": 47182,
+    "who": "Hack Andrew A. F."
+   },
+   {
+    "date": "2022-05-24",
+    "filed": "2022-05-26",
+    "code": "P",
+    "value": 328990,
+    "who": "Hack Andrew A. F."
+   },
+   {
+    "date": "2022-05-25",
+    "filed": "2022-05-26",
+    "code": "P",
+    "value": 286242,
+    "who": "Hack Andrew A. F."
+   },
+   {
+    "date": "2022-05-26",
+    "filed": "2022-05-26",
+    "code": "P",
+    "value": 238942,
+    "who": "Hack Andrew A. F."
+   },
+   {
+    "date": "2022-05-19",
+    "filed": "2022-05-23",
+    "code": "P",
+    "value": 348620,
+    "who": "Hack Andrew A. F."
+   },
+   {
+    "date": "2022-05-20",
+    "filed": "2022-05-23",
+    "code": "P",
+    "value": 345570,
+    "who": "Hack Andrew A. F."
+   },
+   {
+    "date": "2022-05-23",
+    "filed": "2022-05-23",
+    "code": "P",
+    "value": 52247,
+    "who": "Hack Andrew A. F."
+   },
+   {
+    "date": "2022-05-16",
+    "filed": "2022-05-18",
+    "code": "P",
+    "value": 419446,
+    "who": "Hack Andrew A. F."
+   },
+   {
+    "date": "2022-05-17",
+    "filed": "2022-05-18",
+    "code": "P",
+    "value": 10952,
+    "who": "Hack Andrew A. F."
+   },
+   {
+    "date": "2022-05-18",
+    "filed": "2022-05-18",
+    "code": "P",
+    "value": 707262,
+    "who": "Hack Andrew A. F."
+   },
+   {
+    "date": "2022-04-26",
+    "filed": "2022-04-28",
+    "code": "S",
+    "value": 14568,
+    "who": "Carvajal Alejandra"
+   },
+   {
+    "date": "2022-04-13",
+    "filed": "2022-04-14",
+    "code": "P",
+    "value": 2500000,
+    "who": "Hack Andrew A. F."
+   },
+   {
+    "date": "2022-04-12",
+    "filed": "2022-04-13",
+    "code": "P",
+    "value": 2499880,
+    "who": "Hack Andrew A. F."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "mersana therapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03319628",
+    "drugs": [
+     "upifitamab rilsodotin"
+    ]
+   },
+   {
+    "nct": "NCT05329545",
+    "drugs": [
+     "Upifitimab rilsodotin"
+    ]
+   }
+  ]
+ }
+}

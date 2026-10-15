@@ -1,0 +1,189 @@
+{
+ "id": "1845337_2023-03-24",
+ "kind": "slide",
+ "cik": "1845337",
+ "name": "Day One Biopharmaceuticals, Inc.",
+ "date": "2023-03-24",
+ "asof": "2023-03-24",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-03-24",
+  "adj_close": 15.32
+ },
+ "balance": {
+  "end": "2022-12-31",
+  "cash": 342269000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-23-006269"
+ },
+ "burn6": {
+  "end": "2022-12-31",
+  "start": "2022-07-01",
+  "cash_used_ops": 58524000.0,
+  "capex": 4000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-03-01",
+  "shares": 73587094
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 16,
+  "from": "2022-12-24",
+  "to": "2023-04-23",
+  "trades": [
+   {
+    "date": "2023-03-10",
+    "filed": "2023-03-14",
+    "code": "S",
+    "value": 180484,
+    "who": "Blackman Samuel C."
+   },
+   {
+    "date": "2023-03-07",
+    "filed": "2023-03-08",
+    "code": "S",
+    "value": 250114,
+    "who": "Bender Jeremy"
+   },
+   {
+    "date": "2023-03-01",
+    "filed": "2023-03-03",
+    "code": "S",
+    "value": 465303,
+    "who": "Grant Julie Papanek"
+   },
+   {
+    "date": "2023-02-17",
+    "filed": "2023-02-21",
+    "code": "S",
+    "value": 187790,
+    "who": "York Charles N II"
+   },
+   {
+    "date": "2023-02-16",
+    "filed": "2023-02-17",
+    "code": "S",
+    "value": 18203,
+    "who": "York Charles N II"
+   },
+   {
+    "date": "2023-02-16",
+    "filed": "2023-02-17",
+    "code": "S",
+    "value": 13192,
+    "who": "Blackman Samuel C."
+   },
+   {
+    "date": "2023-02-16",
+    "filed": "2023-02-17",
+    "code": "S",
+    "value": 59150,
+    "who": "Bender Jeremy"
+   },
+   {
+    "date": "2023-02-10",
+    "filed": "2023-02-13",
+    "code": "S",
+    "value": 200659,
+    "who": "Blackman Samuel C."
+   },
+   {
+    "date": "2023-02-01",
+    "filed": "2023-02-03",
+    "code": "S",
+    "value": 506806,
+    "who": "Grant Julie Papanek"
+   },
+   {
+    "date": "2023-02-01",
+    "filed": "2023-02-03",
+    "code": "S",
+    "value": 23988,
+    "who": "Grant Julie Papanek"
+   },
+   {
+    "date": "2023-01-23",
+    "filed": "2023-01-24",
+    "code": "S",
+    "value": 274988,
+    "who": "Bender Jeremy"
+   },
+   {
+    "date": "2023-01-20",
+    "filed": "2023-01-23",
+    "code": "S",
+    "value": 227523,
+    "who": "York Charles N II"
+   },
+   {
+    "date": "2023-01-10",
+    "filed": "2023-01-11",
+    "code": "S",
+    "value": 170632,
+    "who": "Blackman Samuel C."
+   },
+   {
+    "date": "2023-01-10",
+    "filed": "2023-01-11",
+    "code": "S",
+    "value": 58011,
+    "who": "Blackman Samuel C."
+   },
+   {
+    "date": "2023-01-03",
+    "filed": "2023-01-04",
+    "code": "S",
+    "value": 353973,
+    "who": "Grant Julie Papanek"
+   },
+   {
+    "date": "2023-01-03",
+    "filed": "2023-01-04",
+    "code": "S",
+    "value": 162174,
+    "who": "Grant Julie Papanek"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "day one biopharmaceuticals",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05377996",
+    "drugs": [
+     "Emi-Le"
+    ]
+   },
+   {
+    "nct": "NCT05566795",
+    "drugs": [
+     "Tovorafenib",
+     "Chemotherapeutic Agent"
+    ]
+   },
+   {
+    "nct": "NCT04775485",
+    "drugs": [
+     "Tovorafenib"
+    ]
+   },
+   {
+    "nct": "NCT04985604",
+    "drugs": [
+     "Tovorafenib"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "id": "1401914_2022-02-23",
+ "kind": "slide",
+ "cik": "1401914",
+ "name": "Dare Bioscience, Inc.",
+ "date": "2022-02-23",
+ "asof": "2022-02-23",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-02-23",
+  "adj_close": 17.28
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 45570781,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001401914-21-000137"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 10471123.0,
+  "capex": 9752.438823529412,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-11-08",
+  "shares": 76601624
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These circumstances raise substantial doubt about the Company's ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2021-11-25",
+  "to": "2022-03-25",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "dare bioscience",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

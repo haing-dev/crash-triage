@@ -1,0 +1,57 @@
+{
+ "id": "1750149_2022-11-03",
+ "kind": "slide",
+ "cik": "1750149",
+ "name": "Inhibikase Therapeutics, Inc.",
+ "date": "2022-11-03",
+ "asof": "2022-11-03",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-11-03",
+  "adj_close": 4.506
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 32212276,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0000950170-22-017140"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 8289999.0,
+  "capex": 43089.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-08-01",
+  "shares": 25227051
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 2,
+  "from": "2022-08-05",
+  "to": "2022-12-03",
+  "trades": [
+   {
+    "date": "2022-08-16",
+    "filed": "2022-08-16",
+    "code": "P",
+    "value": 4000,
+    "who": "Werner Milton H."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "inhibikase therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

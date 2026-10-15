@@ -1,0 +1,135 @@
+{
+ "id": "1607678_2024-03-11",
+ "kind": "slide",
+ "cik": "1607678",
+ "name": "Viking Therapeutics, Inc.",
+ "date": "2024-03-11",
+ "asof": "2024-03-11",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-03-11",
+  "adj_close": 63.44
+ },
+ "balance": {
+  "end": "2023-12-31",
+  "cash": 362079000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0000950170-24-012322"
+ },
+ "burn6": {
+  "end": "2023-12-31",
+  "start": "2023-07-01",
+  "cash_used_ops": 37298000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-01-31",
+  "shares": 100488339
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 20,
+  "from": "2023-12-12",
+  "to": "2024-04-10",
+  "trades": [
+   {
+    "date": "2024-02-09",
+    "filed": "2024-02-09",
+    "code": "S",
+    "value": 1345500,
+    "who": "Lian Brian"
+   },
+   {
+    "date": "2024-02-08",
+    "filed": "2024-02-08",
+    "code": "S",
+    "value": 1263784,
+    "who": "Lian Brian"
+   },
+   {
+    "date": "2024-02-08",
+    "filed": "2024-02-08",
+    "code": "S",
+    "value": 1557000,
+    "who": "Lian Brian"
+   },
+   {
+    "date": "2024-02-08",
+    "filed": "2024-02-08",
+    "code": "S",
+    "value": 2156000,
+    "who": "Lian Brian"
+   },
+   {
+    "date": "2024-02-08",
+    "filed": "2024-02-08",
+    "code": "S",
+    "value": 1098000,
+    "who": "Lian Brian"
+   },
+   {
+    "date": "2024-02-08",
+    "filed": "2024-02-08",
+    "code": "S",
+    "value": 1156000,
+    "who": "Lian Brian"
+   },
+   {
+    "date": "2024-02-08",
+    "filed": "2024-02-08",
+    "code": "S",
+    "value": 701250,
+    "who": "Rouan Sarah Kathryn"
+   },
+   {
+    "date": "2024-01-31",
+    "filed": "2024-01-31",
+    "code": "S",
+    "value": 978000,
+    "who": "Lian Brian"
+   },
+   {
+    "date": "2024-01-31",
+    "filed": "2024-01-31",
+    "code": "S",
+    "value": 1122750,
+    "who": "Lian Brian"
+   },
+   {
+    "date": "2024-01-30",
+    "filed": "2024-01-30",
+    "code": "S",
+    "value": 838250,
+    "who": "Lian Brian"
+   },
+   {
+    "date": "2024-01-19",
+    "filed": "2024-01-19",
+    "code": "S",
+    "value": 691500,
+    "who": "Rouan Sarah Kathryn"
+   },
+   {
+    "date": "2024-01-04",
+    "filed": "2024-01-04",
+    "code": "S",
+    "value": 268500,
+    "who": "ZANTE GREG"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "viking therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

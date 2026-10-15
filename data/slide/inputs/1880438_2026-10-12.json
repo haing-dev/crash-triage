@@ -1,0 +1,122 @@
+{
+ "id": "1880438_2026-10-12",
+ "kind": "slide",
+ "cik": "1880438",
+ "name": "AN2 Therapeutics, Inc.",
+ "date": "2026-10-12",
+ "asof": "2026-10-12",
+ "final": false,
+ "version": 5,
+ "price": {
+  "date": "2026-10-12",
+  "adj_close": 4.3
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 79856000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0001193125-26-344569"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": 19071000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-08-06",
+  "shares": 37736237
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 10,
+  "from": "2026-07-14",
+  "to": "2026-10-15",
+  "trades": [
+   {
+    "date": "2026-09-09",
+    "filed": "2026-09-11",
+    "code": "S",
+    "value": 3151,
+    "who": "Readnour Robin Shane"
+   },
+   {
+    "date": "2026-09-09",
+    "filed": "2026-09-11",
+    "code": "S",
+    "value": 3524,
+    "who": "Readnour Robin Shane"
+   },
+   {
+    "date": "2026-09-03",
+    "filed": "2026-09-08",
+    "code": "S",
+    "value": 17463,
+    "who": "Readnour Robin Shane"
+   },
+   {
+    "date": "2026-09-03",
+    "filed": "2026-09-08",
+    "code": "S",
+    "value": 19563,
+    "who": "Readnour Robin Shane"
+   },
+   {
+    "date": "2026-09-08",
+    "filed": "2026-09-08",
+    "code": "S",
+    "value": 28436,
+    "who": "Readnour Robin Shane"
+   },
+   {
+    "date": "2026-09-08",
+    "filed": "2026-09-08",
+    "code": "S",
+    "value": 31861,
+    "who": "Readnour Robin Shane"
+   },
+   {
+    "date": "2026-09-01",
+    "filed": "2026-09-04",
+    "code": "S",
+    "value": 1504,
+    "who": "Williams Sarah Joanne"
+   },
+   {
+    "date": "2026-09-01",
+    "filed": "2026-09-02",
+    "code": "P",
+    "value": 11602,
+    "who": "FitzPatrick Margaret M"
+   },
+   {
+    "date": "2026-08-17",
+    "filed": "2026-08-19",
+    "code": "S",
+    "value": 100313,
+    "who": "Readnour Robin Shane"
+   },
+   {
+    "date": "2026-08-17",
+    "filed": "2026-08-19",
+    "code": "S",
+    "value": 112389,
+    "who": "Readnour Robin Shane"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "an2 therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "id": "1833214_2026-10-12",
+ "kind": "slide",
+ "cik": "1833214",
+ "name": "SAB Biotherapeutics, Inc.",
+ "date": "2026-10-12",
+ "asof": "2026-10-12",
+ "final": false,
+ "version": 5,
+ "price": {
+  "date": "2026-10-12",
+  "adj_close": 2.83
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 102632000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001193125-26-336783"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": 24112000.0,
+  "capex": 2569000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-08-03",
+  "shares": 90986368
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2026-07-14",
+  "to": "2026-10-15",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "sab biotherapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT07187531",
+    "drugs": [
+     "High Dose SAB-142",
+     "Low Dose SAB-142"
+    ]
+   }
+  ]
+ }
+}

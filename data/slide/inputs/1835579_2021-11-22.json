@@ -1,0 +1,113 @@
+{
+ "id": "1835579_2021-11-22",
+ "kind": "slide",
+ "cik": "1835579",
+ "name": "ImageneBio, Inc.",
+ "date": "2021-11-22",
+ "asof": "2021-11-22",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-11-22",
+  "adj_close": 165.0
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 245899000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-21-003871"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 33714000.0,
+  "capex": 371000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-10-31",
+  "shares": 35906794
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2021-08-24",
+  "to": "2021-12-22",
+  "trades": [
+   {
+    "date": "2021-12-10",
+    "filed": "2021-12-14",
+    "code": "S",
+    "value": 14760,
+    "who": "Zhang Xiaoyan Michelle"
+   },
+   {
+    "date": "2021-03-30",
+    "filed": "2021-12-14",
+    "code": "P",
+    "value": 2000000,
+    "who": "FORMELA JEAN FRANCOIS"
+   },
+   {
+    "date": "2021-12-10",
+    "filed": "2021-12-14",
+    "code": "S",
+    "value": 180195,
+    "who": "FORMELA JEAN FRANCOIS"
+   },
+   {
+    "date": "2021-12-13",
+    "filed": "2021-12-14",
+    "code": "S",
+    "value": 121951,
+    "who": "FORMELA JEAN FRANCOIS"
+   },
+   {
+    "date": "2021-12-14",
+    "filed": "2021-12-14",
+    "code": "S",
+    "value": 83426,
+    "who": "FORMELA JEAN FRANCOIS"
+   },
+   {
+    "date": "2021-03-30",
+    "filed": "2021-12-14",
+    "code": "P",
+    "value": 2000000,
+    "who": "Atlas Venture Fund XI, L.P."
+   },
+   {
+    "date": "2021-12-10",
+    "filed": "2021-12-14",
+    "code": "S",
+    "value": 180195,
+    "who": "Atlas Venture Fund XI, L.P."
+   },
+   {
+    "date": "2021-12-13",
+    "filed": "2021-12-14",
+    "code": "S",
+    "value": 121951,
+    "who": "Atlas Venture Fund XI, L.P."
+   },
+   {
+    "date": "2021-12-14",
+    "filed": "2021-12-14",
+    "code": "S",
+    "value": 83426,
+    "who": "Atlas Venture Fund XI, L.P."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "imagenebio",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

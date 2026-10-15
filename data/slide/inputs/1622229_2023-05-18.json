@@ -1,0 +1,80 @@
+{
+ "id": "1622229_2023-05-18",
+ "kind": "slide",
+ "cik": "1622229",
+ "name": "Cogent Biosciences, Inc.",
+ "date": "2023-05-18",
+ "asof": "2023-05-18",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-05-18",
+  "adj_close": 10.78
+ },
+ "balance": {
+  "end": "2023-03-31",
+  "cash": 220264000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0000950170-23-019166"
+ },
+ "burn6": {
+  "end": "2023-03-31",
+  "start": "2022-10-01",
+  "cash_used_ops": 68925000.0,
+  "capex": 3070000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-05-05",
+  "shares": 70946790
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 9,
+  "from": "2023-02-17",
+  "to": "2023-06-17",
+  "trades": [
+   {
+    "date": "2023-06-09",
+    "filed": "2023-06-13",
+    "code": "P",
+    "value": 9600000,
+    "who": "Fairmount Funds Management LLC"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "cogent biosciences",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05208047",
+    "drugs": [
+     "CGT9486",
+     "CGT9486",
+     "Sunitinib"
+    ]
+   },
+   {
+    "nct": "NCT04996875",
+    "drugs": [
+     "bezuclastinib"
+    ]
+   },
+   {
+    "nct": "NCT05186753",
+    "drugs": [
+     "Bezuclastinib Tablets (Formulation A)",
+     "Bezuclastinib Tablets (Formulation B)"
+    ]
+   }
+  ]
+ }
+}

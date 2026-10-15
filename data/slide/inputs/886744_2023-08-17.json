@@ -1,0 +1,80 @@
+{
+ "id": "886744_2023-08-17",
+ "kind": "slide",
+ "cik": "886744",
+ "name": "GERON CORP",
+ "date": "2023-08-17",
+ "asof": "2023-08-17",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-08-17",
+  "adj_close": 2.55
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 399659000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0000950170-23-037931"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 75966000.0,
+  "capex": 574000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-07-27",
+  "shares": 523370675
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2023-05-19",
+  "to": "2023-09-16",
+  "trades": [
+   {
+    "date": "2023-08-24",
+    "filed": "2023-08-24",
+    "code": "P",
+    "value": 15064,
+    "who": "O'Farrell Elizabeth G."
+   },
+   {
+    "date": "2023-08-24",
+    "filed": "2023-08-24",
+    "code": "P",
+    "value": 15000,
+    "who": "O'Farrell Elizabeth G."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "geron",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT02598661",
+    "drugs": [
+     "Imetelstat Sodium"
+    ]
+   },
+   {
+    "nct": "NCT04576156",
+    "drugs": [
+     "Imetelstat",
+     "Best Available Therapy (BAT)"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,218 @@
+{
+ "id": "1597264_2022-01-13",
+ "kind": "slide",
+ "cik": "1597264",
+ "name": "Blueprint Medicines Corp",
+ "date": "2022-01-13",
+ "asof": "2022-01-13",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-01-13",
+  "adj_close": 75.89
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 1293798000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0001558370-21-013719"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 158761000.0,
+  "capex": 1658000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-10-25",
+  "shares": 58838034
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2021-10-15",
+  "to": "2022-02-12",
+  "trades": [
+   {
+    "date": "2021-12-15",
+    "filed": "2021-12-17",
+    "code": "S",
+    "value": 72900,
+    "who": "Hewes L. Becker"
+   },
+   {
+    "date": "2021-12-13",
+    "filed": "2021-12-15",
+    "code": "S",
+    "value": 28400,
+    "who": "Haviland Kate"
+   },
+   {
+    "date": "2021-12-13",
+    "filed": "2021-12-15",
+    "code": "S",
+    "value": 20685,
+    "who": "Haviland Kate"
+   },
+   {
+    "date": "2021-12-13",
+    "filed": "2021-12-15",
+    "code": "S",
+    "value": 40114,
+    "who": "Haviland Kate"
+   },
+   {
+    "date": "2021-12-13",
+    "filed": "2021-12-15",
+    "code": "S",
+    "value": 9097,
+    "who": "Haviland Kate"
+   },
+   {
+    "date": "2021-12-07",
+    "filed": "2021-12-09",
+    "code": "S",
+    "value": 421807,
+    "who": "McCain Tracey L"
+   },
+   {
+    "date": "2021-12-07",
+    "filed": "2021-12-09",
+    "code": "S",
+    "value": 55129,
+    "who": "McCain Tracey L"
+   },
+   {
+    "date": "2021-12-07",
+    "filed": "2021-12-09",
+    "code": "S",
+    "value": 9554,
+    "who": "McCain Tracey L"
+   },
+   {
+    "date": "2021-11-16",
+    "filed": "2021-11-18",
+    "code": "S",
+    "value": 222846,
+    "who": "Hurley Ariel"
+   },
+   {
+    "date": "2021-11-15",
+    "filed": "2021-11-17",
+    "code": "S",
+    "value": 2513275,
+    "who": "Albers Jeffrey W."
+   },
+   {
+    "date": "2021-11-15",
+    "filed": "2021-11-17",
+    "code": "S",
+    "value": 899284,
+    "who": "Albers Jeffrey W."
+   },
+   {
+    "date": "2021-11-15",
+    "filed": "2021-11-17",
+    "code": "S",
+    "value": 11325,
+    "who": "Albers Jeffrey W."
+   },
+   {
+    "date": "2021-11-15",
+    "filed": "2021-11-17",
+    "code": "S",
+    "value": 11214,
+    "who": "Albers Jeffrey W."
+   },
+   {
+    "date": "2021-11-15",
+    "filed": "2021-11-17",
+    "code": "S",
+    "value": 84192,
+    "who": "Hewes L. Becker"
+   },
+   {
+    "date": "2021-11-03",
+    "filed": "2021-11-05",
+    "code": "S",
+    "value": 465108,
+    "who": "McCain Tracey L"
+   },
+   {
+    "date": "2021-11-03",
+    "filed": "2021-11-05",
+    "code": "S",
+    "value": 87704,
+    "who": "McCain Tracey L"
+   },
+   {
+    "date": "2021-11-01",
+    "filed": "2021-11-03",
+    "code": "S",
+    "value": 221433,
+    "who": "Durso-Bumpus Debra"
+   },
+   {
+    "date": "2021-11-01",
+    "filed": "2021-11-03",
+    "code": "S",
+    "value": 185387,
+    "who": "Durso-Bumpus Debra"
+   },
+   {
+    "date": "2021-11-01",
+    "filed": "2021-11-03",
+    "code": "S",
+    "value": 178352,
+    "who": "Durso-Bumpus Debra"
+   },
+   {
+    "date": "2021-11-01",
+    "filed": "2021-11-03",
+    "code": "S",
+    "value": 575800,
+    "who": "Albers Jeffrey W."
+   },
+   {
+    "date": "2021-10-15",
+    "filed": "2021-10-19",
+    "code": "S",
+    "value": 74839,
+    "who": "Hewes L. Becker"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "blueprint medicines",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03731260",
+    "drugs": [
+     "Avapritinib"
+    ]
+   },
+   {
+    "nct": "NCT03580655",
+    "drugs": [
+     "Avapritinib"
+    ]
+   },
+   {
+    "nct": "NCT04910685",
+    "drugs": [
+     "Elenestinib"
+    ]
+   }
+  ]
+ }
+}

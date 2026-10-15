@@ -1,0 +1,57 @@
+{
+ "id": "1787297_2024-06-07",
+ "kind": "slide",
+ "cik": "1787297",
+ "name": "Passage BIO, Inc.",
+ "date": "2024-06-07",
+ "asof": "2024-06-07",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-06-07",
+  "adj_close": 23.7
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 104525000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001558370-24-008058"
+ },
+ "burn6": {
+  "end": "2024-03-31",
+  "start": "2023-10-01",
+  "cash_used_ops": 38445000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-05-09",
+  "shares": 61640596
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 10,
+  "from": "2024-03-09",
+  "to": "2024-07-07",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "passage bio",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04747431",
+    "drugs": [
+     "PBFT02"
+    ]
+   }
+  ]
+ }
+}

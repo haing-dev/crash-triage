@@ -1,0 +1,57 @@
+{
+ "id": "882796_2025-04-08",
+ "kind": "slide",
+ "cik": "882796",
+ "name": "BIOCRYST PHARMACEUTICALS INC",
+ "date": "2025-04-08",
+ "asof": "2025-04-08",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-04-08",
+  "adj_close": 6.47
+ },
+ "balance": {
+  "end": "2024-12-31",
+  "cash": 320850000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001628280-25-007715"
+ },
+ "burn6": {
+  "end": "2024-12-31",
+  "start": "2024-07-01",
+  "cash_used_ops": -3032000.0,
+  "capex": 562431.1232876712,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-02-20",
+  "shares": 208960020
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2025-01-08",
+  "to": "2025-05-08",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "biocryst pharmaceuticals",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04933721",
+    "drugs": [
+     "berotralstat"
+    ]
+   }
+  ]
+ }
+}

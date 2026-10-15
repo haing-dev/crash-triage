@@ -1,0 +1,71 @@
+{
+ "id": "812796_2022-06-17",
+ "kind": "slide",
+ "cik": "812796",
+ "name": "SOLIGENIX, INC.",
+ "date": "2022-06-17",
+ "asof": "2022-06-17",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-06-17",
+  "adj_close": 136.8
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 22875679,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-22-008747"
+ },
+ "burn6": {
+  "end": "2022-03-31",
+  "start": "2021-10-01",
+  "cash_used_ops": 6294197.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-05-06",
+  "shares": 43050245
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 2,
+  "from": "2022-03-19",
+  "to": "2022-07-17",
+  "trades": [
+   {
+    "date": "2022-05-18",
+    "filed": "2022-05-18",
+    "code": "P",
+    "value": 4000,
+    "who": "Straube Richard"
+   },
+   {
+    "date": "2022-05-18",
+    "filed": "2022-05-18",
+    "code": "P",
+    "value": 8866,
+    "who": "SCHABER CHRISTOPHER J"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "soligenix",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05380635",
+    "drugs": [
+     "Hypericin"
+    ]
+   }
+  ]
+ }
+}

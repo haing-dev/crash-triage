@@ -1,0 +1,82 @@
+{
+ "id": "1439222_2022-07-13",
+ "kind": "slide",
+ "cik": "1439222",
+ "name": "AGIOS PHARMACEUTICALS, INC.",
+ "date": "2022-07-13",
+ "asof": "2022-07-13",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-07-13",
+  "adj_close": 22.66
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 1179365000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0001439222-22-000040"
+ },
+ "burn6": {
+  "end": "2022-03-31",
+  "start": "2021-10-01",
+  "cash_used_ops": 181828000.0,
+  "capex": 7306000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-04-29",
+  "shares": 54788927
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 14,
+  "from": "2022-04-14",
+  "to": "2022-08-12",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "agios pharmaceuticals",
+  "other_trials": 6,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05144256",
+    "drugs": [
+     "Mitapivat"
+    ]
+   },
+   {
+    "nct": "NCT04770753",
+    "drugs": [
+     "Mitapivat"
+    ]
+   },
+   {
+    "nct": "NCT05175105",
+    "drugs": [
+     "Mitapivat"
+    ]
+   },
+   {
+    "nct": "NCT05031780",
+    "drugs": [
+     "Mitapivat"
+    ]
+   },
+   {
+    "nct": "NCT03853798",
+    "drugs": [
+     "Mitapivat"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "id": "911216_2025-04-11",
+ "kind": "crash",
+ "cik": "911216",
+ "name": "PALATIN TECHNOLOGIES INC",
+ "date": "2025-04-11",
+ "asof": "2025-04-11",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-04-11",
+  "adj_close": 8.5
+ },
+ "balance": {
+  "end": "2024-12-31",
+  "cash": 3416604,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0001654954-25-001431"
+ },
+ "burn6": {
+  "end": "2024-12-31",
+  "start": "2024-07-01",
+  "cash_used_ops": 11863319.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-02-12",
+  "shares": 26005846
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Investors are cautioned that statements that are not strictly historical facts contained in this Quarterly Report, including, without limitation, the following are forward looking statements: \u00b7our significant operating losses since our inception and our need to obtain additional financing has caused"
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2025-01-11",
+  "to": "2025-05-11",
+  "trades": []
+ },
+ "drug": "n/a",
+ "trials": {
+  "query": "palatin technologies",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "id": "1069530_2024-03-22",
+ "kind": "slide",
+ "cik": "1069530",
+ "name": "FILANA THERAPEUTICS, INC.",
+ "date": "2024-03-22",
+ "asof": "2024-03-22",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-03-22",
+  "adj_close": 19.81
+ },
+ "balance": {
+  "end": "2023-12-31",
+  "cash": 121136000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001437749-24-005894"
+ },
+ "burn6": {
+  "end": "2023-12-31",
+  "start": "2023-07-01",
+  "cash_used_ops": 48846000.0,
+  "capex": 63000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-02-26",
+  "shares": 43225211
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2023-12-23",
+  "to": "2024-04-21",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "filana therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

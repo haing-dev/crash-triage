@@ -1,0 +1,58 @@
+{
+ "id": "1806310_2021-05-05",
+ "kind": "slide",
+ "cik": "1806310",
+ "name": "Taysha Gene Therapies, Inc.",
+ "date": "2021-05-05",
+ "asof": "2021-05-05",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-05-05",
+  "adj_close": 20.68
+ },
+ "balance": {
+  "end": "2020-12-31",
+  "cash": 251253000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001564590-21-010433"
+ },
+ "burn6": null,
+ "shares": {
+  "end": "2021-03-03",
+  "shares": 37761435
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 2,
+  "from": "2021-02-04",
+  "to": "2021-06-04",
+  "trades": [
+   {
+    "date": "2021-05-20",
+    "filed": "2021-05-24",
+    "code": "P",
+    "value": 26150,
+    "who": "Nolan Sean P."
+   },
+   {
+    "date": "2021-05-14",
+    "filed": "2021-05-17",
+    "code": "P",
+    "value": 251760,
+    "who": "Manning Paul B"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "taysha gene therapies",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

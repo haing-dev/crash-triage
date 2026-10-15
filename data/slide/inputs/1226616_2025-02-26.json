@@ -1,0 +1,62 @@
+{
+ "id": "1226616_2025-02-26",
+ "kind": "slide",
+ "cik": "1226616",
+ "name": "MEDICINOVA INC",
+ "date": "2025-02-26",
+ "asof": "2025-02-26",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-02-26",
+  "adj_close": 1.66
+ },
+ "balance": {
+  "end": "2024-12-31",
+  "cash": 40359738,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-25-023301"
+ },
+ "burn6": {
+  "end": "2024-12-31",
+  "start": "2024-07-01",
+  "cash_used_ops": 3963786.0,
+  "capex": 4.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-02-17",
+  "shares": 49046246
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 7,
+  "from": "2024-11-28",
+  "to": "2025-03-28",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "medicinova",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04057898",
+    "drugs": [
+     "MN-166"
+    ]
+   },
+   {
+    "nct": "NCT05464784",
+    "drugs": [
+     "MN-001"
+    ]
+   }
+  ]
+ }
+}

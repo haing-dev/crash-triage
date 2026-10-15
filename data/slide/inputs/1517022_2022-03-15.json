@@ -1,0 +1,213 @@
+{
+ "id": "1517022_2022-03-15",
+ "kind": "slide",
+ "cik": "1517022",
+ "name": "Akebia Therapeutics, Inc.",
+ "date": "2022-03-15",
+ "asof": "2022-03-15",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-03-15",
+  "adj_close": 2.3
+ },
+ "balance": {
+  "end": "2021-12-31",
+  "cash": 149800000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001628280-22-004522"
+ },
+ "burn6": {
+  "end": "2021-12-31",
+  "start": "2021-07-01",
+  "cash_used_ops": 119078000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-02-23",
+  "shares": 181231071
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "However, there are conditions or events, considered in the aggregate, that raise substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2021-12-15",
+  "to": "2022-04-14",
+  "trades": [
+   {
+    "date": "2022-02-28",
+    "filed": "2022-03-02",
+    "code": "S",
+    "value": 53984,
+    "who": "Butler John P."
+   },
+   {
+    "date": "2022-03-01",
+    "filed": "2022-03-02",
+    "code": "S",
+    "value": 53857,
+    "who": "Butler John P."
+   },
+   {
+    "date": "2022-03-01",
+    "filed": "2022-03-02",
+    "code": "S",
+    "value": 54335,
+    "who": "Butler John P."
+   },
+   {
+    "date": "2022-03-01",
+    "filed": "2022-03-02",
+    "code": "S",
+    "value": 8967,
+    "who": "Butler John P."
+   },
+   {
+    "date": "2022-02-28",
+    "filed": "2022-03-02",
+    "code": "S",
+    "value": 15946,
+    "who": "Burke Steven Keith"
+   },
+   {
+    "date": "2022-03-01",
+    "filed": "2022-03-02",
+    "code": "S",
+    "value": 14231,
+    "who": "Burke Steven Keith"
+   },
+   {
+    "date": "2022-03-01",
+    "filed": "2022-03-02",
+    "code": "S",
+    "value": 2388,
+    "who": "Burke Steven Keith"
+   },
+   {
+    "date": "2022-02-28",
+    "filed": "2022-03-02",
+    "code": "S",
+    "value": 8503,
+    "who": "Cotreau Violetta"
+   },
+   {
+    "date": "2022-02-28",
+    "filed": "2022-03-02",
+    "code": "S",
+    "value": 14125,
+    "who": "Dahan Michel"
+   },
+   {
+    "date": "2022-03-01",
+    "filed": "2022-03-02",
+    "code": "S",
+    "value": 14919,
+    "who": "Dahan Michel"
+   },
+   {
+    "date": "2022-03-01",
+    "filed": "2022-03-02",
+    "code": "S",
+    "value": 14919,
+    "who": "Dahan Michel"
+   },
+   {
+    "date": "2022-03-01",
+    "filed": "2022-03-02",
+    "code": "S",
+    "value": 2674,
+    "who": "Dahan Michel"
+   },
+   {
+    "date": "2022-02-28",
+    "filed": "2022-03-02",
+    "code": "S",
+    "value": 13961,
+    "who": "Faulkingham Dell"
+   },
+   {
+    "date": "2022-03-01",
+    "filed": "2022-03-02",
+    "code": "S",
+    "value": 12477,
+    "who": "Faulkingham Dell"
+   },
+   {
+    "date": "2022-03-01",
+    "filed": "2022-03-02",
+    "code": "S",
+    "value": 2077,
+    "who": "Faulkingham Dell"
+   },
+   {
+    "date": "2022-02-28",
+    "filed": "2022-03-02",
+    "code": "S",
+    "value": 14125,
+    "who": "Hadas Nicole R."
+   },
+   {
+    "date": "2022-03-01",
+    "filed": "2022-03-02",
+    "code": "S",
+    "value": 14919,
+    "who": "Hadas Nicole R."
+   },
+   {
+    "date": "2022-03-01",
+    "filed": "2022-03-02",
+    "code": "S",
+    "value": 14231,
+    "who": "Hadas Nicole R."
+   },
+   {
+    "date": "2022-03-01",
+    "filed": "2022-03-02",
+    "code": "S",
+    "value": 2340,
+    "who": "Hadas Nicole R."
+   },
+   {
+    "date": "2022-02-28",
+    "filed": "2022-03-02",
+    "code": "S",
+    "value": 15946,
+    "who": "Spellman David A"
+   },
+   {
+    "date": "2022-03-01",
+    "filed": "2022-03-02",
+    "code": "S",
+    "value": 1743,
+    "who": "Spellman David A"
+   },
+   {
+    "date": "2022-01-03",
+    "filed": "2022-01-05",
+    "code": "S",
+    "value": 13335,
+    "who": "Cotreau Violetta"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "akebia therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04707768",
+    "drugs": [
+     "Vadadustat",
+     "Mircera\u00ae"
+    ]
+   }
+  ]
+ }
+}

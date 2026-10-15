@@ -1,0 +1,58 @@
+{
+ "id": "1478242_2025-04-04",
+ "kind": "slide",
+ "cik": "1478242",
+ "name": "IQVIA HOLDINGS INC.",
+ "date": "2025-04-04",
+ "asof": "2025-04-04",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-04-04",
+  "adj_close": 154.73
+ },
+ "balance": {
+  "end": "2024-12-31",
+  "cash": 1843000000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001478242-25-000045"
+ },
+ "burn6": {
+  "end": "2024-12-31",
+  "start": "2024-07-01",
+  "cash_used_ops": -1606000000.0,
+  "capex": 314000000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-02-05",
+  "shares": 176100000
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 24,
+  "from": "2025-01-04",
+  "to": "2025-05-04",
+  "trades": [
+   {
+    "date": "2024-12-03",
+    "filed": "2025-02-07",
+    "code": "P",
+    "value": 255740,
+    "who": "DANHAKL JOHN G"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "iqvia",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

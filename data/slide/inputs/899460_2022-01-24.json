@@ -1,0 +1,89 @@
+{
+ "id": "899460_2022-01-24",
+ "kind": "slide",
+ "cik": "899460",
+ "name": "MANNKIND CORP",
+ "date": "2022-01-24",
+ "asof": "2022-01-24",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-01-24",
+  "adj_close": 3.71
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 139052000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001564590-21-055727"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 36631000.0,
+  "capex": 5300000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-10-29",
+  "shares": 251256353
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "The cash received from this debt issuance has resolved the Company\u2019s significant risks and uncertainties regarding sources of liquidity, which previously raised substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2021-10-26",
+  "to": "2022-02-23",
+  "trades": [
+   {
+    "date": "2022-01-31",
+    "filed": "2022-02-02",
+    "code": "P",
+    "value": 2254,
+    "who": "Binder Steven B."
+   },
+   {
+    "date": "2022-01-31",
+    "filed": "2022-02-02",
+    "code": "P",
+    "value": 7399,
+    "who": "Galindo Alejandro"
+   },
+   {
+    "date": "2022-01-31",
+    "filed": "2022-02-02",
+    "code": "P",
+    "value": 13485,
+    "who": "Tross Stuart A"
+   },
+   {
+    "date": "2022-01-31",
+    "filed": "2022-02-02",
+    "code": "P",
+    "value": 7399,
+    "who": "Castagna Michael"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "mannkind",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04974528",
+    "drugs": [
+     "Afrezza",
+     "Rapid-acting Insulin Analog",
+     "Basal Insulin"
+    ]
+   }
+  ]
+ }
+}

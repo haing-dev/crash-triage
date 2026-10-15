@@ -1,0 +1,50 @@
+{
+ "id": "1795091_2026-07-08",
+ "kind": "slide",
+ "cik": "1795091",
+ "name": "OS Therapies Inc",
+ "date": "2026-07-08",
+ "asof": "2026-07-08",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-07-08",
+  "adj_close": 1.46
+ },
+ "balance": {
+  "end": "2026-03-31",
+  "cash": 917552,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0001213900-26-058070"
+ },
+ "burn6": {
+  "end": "2026-03-31",
+  "start": "2025-10-01",
+  "cash_used_ops": 8293784.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-05-14",
+  "shares": 44538106
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These factors raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2026-04-09",
+  "to": "2026-08-07",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "os therapies",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

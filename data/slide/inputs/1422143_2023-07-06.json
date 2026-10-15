@@ -1,0 +1,74 @@
+{
+ "id": "1422143_2023-07-06",
+ "kind": "slide",
+ "cik": "1422143",
+ "name": "Kura Oncology, Inc.",
+ "date": "2023-07-06",
+ "asof": "2023-07-06",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-07-06",
+  "adj_close": 10.12
+ },
+ "balance": {
+  "end": "2023-03-31",
+  "cash": 405900000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0000950170-23-020526"
+ },
+ "burn6": {
+  "end": "2023-03-31",
+  "start": "2022-10-01",
+  "cash_used_ops": 62402000.0,
+  "capex": 48000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-05-04",
+  "shares": 68438576
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2023-04-07",
+  "to": "2023-08-05",
+  "trades": [
+   {
+    "date": "2023-06-16",
+    "filed": "2023-06-21",
+    "code": "P",
+    "value": 575000,
+    "who": "Malley Thomas"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "kura oncology",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04997902",
+    "drugs": [
+     "Tipifarnib",
+     "Alpelisib"
+    ]
+   },
+   {
+    "nct": "NCT04067336",
+    "drugs": [
+     "Ziftomenib",
+     "Midazolam",
+     "Itraconazole"
+    ]
+   }
+  ]
+ }
+}

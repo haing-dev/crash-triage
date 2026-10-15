@@ -1,0 +1,114 @@
+{
+ "id": "1850119_2026-02-02",
+ "kind": "slide",
+ "cik": "1850119",
+ "name": "Century Therapeutics, Inc.",
+ "date": "2026-02-02",
+ "asof": "2026-02-02",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-02-02",
+  "adj_close": 1.84
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 132749000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001104659-25-110851"
+ },
+ "burn6": {
+  "end": "2025-09-30",
+  "start": "2025-04-01",
+  "cash_used_ops": 53176000.0,
+  "capex": 512000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-11-01",
+  "shares": 87307091
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 17,
+  "from": "2025-11-04",
+  "to": "2026-03-04",
+  "trades": [
+   {
+    "date": "2026-02-03",
+    "filed": "2026-02-05",
+    "code": "S",
+    "value": 589,
+    "who": "Carr Douglas"
+   },
+   {
+    "date": "2025-12-22",
+    "filed": "2025-12-29",
+    "code": "P",
+    "value": 49252,
+    "who": "Cowan Chad"
+   },
+   {
+    "date": "2025-12-12",
+    "filed": "2025-12-16",
+    "code": "P",
+    "value": 30352,
+    "who": "Pfeiffenberger Brent"
+   },
+   {
+    "date": "2025-12-08",
+    "filed": "2025-12-10",
+    "code": "S",
+    "value": 137,
+    "who": "Carr Douglas"
+   },
+   {
+    "date": "2025-12-08",
+    "filed": "2025-12-10",
+    "code": "S",
+    "value": 280,
+    "who": "Russotti Gregory"
+   },
+   {
+    "date": "2025-11-20",
+    "filed": "2025-11-24",
+    "code": "S",
+    "value": 2736,
+    "who": "Cowan Chad"
+   },
+   {
+    "date": "2025-11-19",
+    "filed": "2025-11-20",
+    "code": "P",
+    "value": 17328,
+    "who": "Pfeiffenberger Brent"
+   },
+   {
+    "date": "2025-11-17",
+    "filed": "2025-11-19",
+    "code": "S",
+    "value": 14735,
+    "who": "Pfeiffenberger Brent"
+   },
+   {
+    "date": "2025-11-03",
+    "filed": "2025-11-05",
+    "code": "S",
+    "value": 171,
+    "who": "Carr Douglas"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "century therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

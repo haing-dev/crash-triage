@@ -1,0 +1,79 @@
+{
+ "id": "897448_2021-04-07",
+ "kind": "slide",
+ "cik": "897448",
+ "name": "AMARIN CORP PLC\\UK",
+ "date": "2021-04-07",
+ "asof": "2021-04-07",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-04-07",
+  "adj_close": 121.0
+ },
+ "balance": {
+  "end": "2020-12-31",
+  "cash": 500933000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001564590-21-008382"
+ },
+ "burn6": {
+  "end": "2020-12-31",
+  "start": "2020-07-01",
+  "cash_used_ops": 27470000.0,
+  "capex": 1000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2013-02-20",
+  "shares": 380694
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 21,
+  "from": "2021-01-07",
+  "to": "2021-05-07",
+  "trades": [
+   {
+    "date": "2021-02-01",
+    "filed": "2021-02-03",
+    "code": "S",
+    "value": 1550463,
+    "who": "Ketchum Steven B"
+   },
+   {
+    "date": "2021-02-01",
+    "filed": "2021-02-03",
+    "code": "S",
+    "value": 203670,
+    "who": "Ketchum Steven B"
+   },
+   {
+    "date": "2021-01-27",
+    "filed": "2021-01-29",
+    "code": "S",
+    "value": 2228873,
+    "who": "Ketchum Steven B"
+   },
+   {
+    "date": "2021-01-27",
+    "filed": "2021-01-29",
+    "code": "S",
+    "value": 1149258,
+    "who": "Ketchum Steven B"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "amarin uk",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

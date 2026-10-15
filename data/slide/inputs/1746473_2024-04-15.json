@@ -1,0 +1,93 @@
+{
+ "id": "1746473_2024-04-15",
+ "kind": "slide",
+ "cik": "1746473",
+ "name": "PLIANT THERAPEUTICS, INC.",
+ "date": "2024-04-15",
+ "asof": "2024-04-15",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-04-15",
+  "adj_close": 13.55
+ },
+ "balance": {
+  "end": "2023-12-31",
+  "cash": 494245000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001746473-24-000043"
+ },
+ "burn6": {
+  "end": "2023-12-31",
+  "start": "2023-07-01",
+  "cash_used_ops": 61326000.0,
+  "capex": 155000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-02-23",
+  "shares": 60239176
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 12,
+  "from": "2024-01-16",
+  "to": "2024-05-15",
+  "trades": [
+   {
+    "date": "2024-01-17",
+    "filed": "2024-01-19",
+    "code": "S",
+    "value": 168527,
+    "who": "Cummings Keith Lamont"
+   },
+   {
+    "date": "2024-01-17",
+    "filed": "2024-01-19",
+    "code": "S",
+    "value": 168613,
+    "who": "Hull Hans"
+   },
+   {
+    "date": "2024-01-17",
+    "filed": "2024-01-19",
+    "code": "S",
+    "value": 443173,
+    "who": "Coulie Bernard"
+   },
+   {
+    "date": "2024-01-17",
+    "filed": "2024-01-19",
+    "code": "S",
+    "value": 177383,
+    "who": "Lefebvre Eric"
+   },
+   {
+    "date": "2024-01-17",
+    "filed": "2024-01-19",
+    "code": "S",
+    "value": 89544,
+    "who": "Ouimette Mike"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "pliant therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06097260",
+    "drugs": [
+     "PLN-74809"
+    ]
+   }
+  ]
+ }
+}

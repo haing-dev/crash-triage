@@ -1,0 +1,79 @@
+{
+ "id": "1267565_2026-03-13",
+ "kind": "slide",
+ "cik": "1267565",
+ "name": "COLLEGIUM PHARMACEUTICAL, INC",
+ "date": "2026-03-13",
+ "asof": "2026-03-13",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-03-13",
+  "adj_close": 34.5
+ },
+ "balance": {
+  "end": "2025-12-31",
+  "cash": 386679000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001628280-26-011992"
+ },
+ "burn6": {
+  "end": "2025-12-31",
+  "start": "2025-07-01",
+  "cash_used_ops": -201486000.0,
+  "capex": 877000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-01-31",
+  "shares": 31753211
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 9,
+  "from": "2025-12-13",
+  "to": "2026-04-12",
+  "trades": [
+   {
+    "date": "2026-03-18",
+    "filed": "2026-03-20",
+    "code": "S",
+    "value": 488099,
+    "who": "Dieter David"
+   },
+   {
+    "date": "2026-03-09",
+    "filed": "2026-03-11",
+    "code": "S",
+    "value": 228110,
+    "who": "Dieter David"
+   },
+   {
+    "date": "2026-03-03",
+    "filed": "2026-03-05",
+    "code": "S",
+    "value": 1873557,
+    "who": "Dreyer Scott"
+   },
+   {
+    "date": "2026-03-03",
+    "filed": "2026-03-05",
+    "code": "S",
+    "value": 145879,
+    "who": "Dreyer Scott"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "collegium pharmaceutical",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

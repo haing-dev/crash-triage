@@ -1,0 +1,85 @@
+{
+ "id": "1650648_2025-07-29",
+ "kind": "slide",
+ "cik": "1650648",
+ "name": "4D Molecular Therapeutics, Inc.",
+ "date": "2025-07-29",
+ "asof": "2025-07-29",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-07-29",
+  "adj_close": 4.36
+ },
+ "balance": {
+  "end": "2025-03-31",
+  "cash": 458441000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent",
+   "MarketableSecuritiesNoncurrent"
+  ],
+  "accn": "0000950170-25-067040"
+ },
+ "burn6": {
+  "end": "2025-03-31",
+  "start": "2024-10-01",
+  "cash_used_ops": 93621000.0,
+  "capex": 1580000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-02-23",
+  "shares": 49778127
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2025-04-30",
+  "to": "2025-08-28",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "4d molecular therapeutics",
+  "other_trials": 8,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT07064759",
+    "drugs": [
+     "4D-150 IVT (3E10 vg/eye)",
+     "EYLEA\u00ae (aflibercept) Injection 2 mg (0.05mL)"
+    ]
+   },
+   {
+    "nct": "NCT05248230",
+    "drugs": [
+     "4D-710"
+    ]
+   },
+   {
+    "nct": "NCT05930561",
+    "drugs": [
+     "4D-150 IVT",
+     "Aflibercept IVT"
+    ]
+   },
+   {
+    "nct": "NCT05629559",
+    "drugs": [
+     "4D-310"
+    ]
+   },
+   {
+    "nct": "NCT05197270",
+    "drugs": [
+     "4D-150 IVT",
+     "Aflibercept IVT"
+    ]
+   }
+  ]
+ }
+}

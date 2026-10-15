@@ -1,0 +1,94 @@
+{
+ "id": "1576885_2024-04-18",
+ "kind": "slide",
+ "cik": "1576885",
+ "name": "Acumen Pharmaceuticals, Inc.",
+ "date": "2024-04-18",
+ "asof": "2024-04-18",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-04-18",
+  "adj_close": 3.16
+ },
+ "balance": {
+  "end": "2023-12-31",
+  "cash": 306075000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent",
+   "MarketableSecuritiesNoncurrent"
+  ],
+  "accn": "0001576885-24-000047"
+ },
+ "burn6": {
+  "end": "2023-12-31",
+  "start": "2023-07-01",
+  "cash_used_ops": 21219000.0,
+  "capex": 21000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-03-20",
+  "shares": 60079778
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2024-01-19",
+  "to": "2024-05-18",
+  "trades": [
+   {
+    "date": "2024-01-19",
+    "filed": "2024-01-19",
+    "code": "S",
+    "value": 52753,
+    "who": "OConnell Daniel Joseph"
+   },
+   {
+    "date": "2024-01-19",
+    "filed": "2024-01-19",
+    "code": "S",
+    "value": 31048,
+    "who": "Meisner Derek M"
+   },
+   {
+    "date": "2024-01-18",
+    "filed": "2024-01-19",
+    "code": "S",
+    "value": 15717,
+    "who": "Zuga Matt"
+   },
+   {
+    "date": "2024-01-18",
+    "filed": "2024-01-19",
+    "code": "S",
+    "value": 11604,
+    "who": "Siemers Eric"
+   },
+   {
+    "date": "2024-01-18",
+    "filed": "2024-01-19",
+    "code": "S",
+    "value": 10555,
+    "who": "Barton Russell"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "acumen pharmaceuticals",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06335173",
+    "drugs": [
+     "sabirnetug"
+    ]
+   }
+  ]
+ }
+}

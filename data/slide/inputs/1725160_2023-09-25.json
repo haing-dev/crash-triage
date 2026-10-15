@@ -1,0 +1,133 @@
+{
+ "id": "1725160_2023-09-25",
+ "kind": "slide",
+ "cik": "1725160",
+ "name": "Zentalis Pharmaceuticals, Inc.",
+ "date": "2023-09-25",
+ "asof": "2023-09-25",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-09-25",
+  "adj_close": 20.75
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 266558000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001725160-23-000155"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 128558000.0,
+  "capex": 319000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-08-07",
+  "shares": 70609407
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "The Company determined that there are no conditions or events that raise substantial doubt about its ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2023-06-27",
+  "to": "2023-10-25",
+  "trades": [
+   {
+    "date": "2023-10-04",
+    "filed": "2023-10-06",
+    "code": "S",
+    "value": 173012,
+    "who": "Brownstein Carrie"
+   },
+   {
+    "date": "2023-10-04",
+    "filed": "2023-10-06",
+    "code": "S",
+    "value": 34285,
+    "who": "Brownstein Carrie"
+   },
+   {
+    "date": "2023-10-04",
+    "filed": "2023-10-06",
+    "code": "S",
+    "value": 98784,
+    "who": "Bunker Kevin D."
+   },
+   {
+    "date": "2023-10-04",
+    "filed": "2023-10-06",
+    "code": "S",
+    "value": 19572,
+    "who": "Bunker Kevin D."
+   },
+   {
+    "date": "2023-10-04",
+    "filed": "2023-10-06",
+    "code": "S",
+    "value": 89245,
+    "who": "Epperly Melissa B,"
+   },
+   {
+    "date": "2023-10-04",
+    "filed": "2023-10-06",
+    "code": "S",
+    "value": 17680,
+    "who": "Epperly Melissa B,"
+   },
+   {
+    "date": "2023-09-11",
+    "filed": "2023-09-13",
+    "code": "S",
+    "value": 125238,
+    "who": "Skvarka Jan"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "zentalis pharmaceuticals",
+  "other_trials": 5,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04814108",
+    "drugs": [
+     "Azenosertib"
+    ]
+   },
+   {
+    "nct": "NCT05128825",
+    "drugs": [
+     "azenosertib"
+    ]
+   },
+   {
+    "nct": "NCT05199337",
+    "drugs": [
+     "ZN-d5"
+    ]
+   },
+   {
+    "nct": "NCT05682170",
+    "drugs": [
+     "ZN-d5 ZN-c3",
+     "ZN-c3"
+    ]
+   },
+   {
+    "nct": "NCT05198804",
+    "drugs": [
+     "Azenosertib",
+     "Niraparib"
+    ]
+   }
+  ]
+ }
+}

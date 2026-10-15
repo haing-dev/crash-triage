@@ -1,0 +1,149 @@
+{
+ "id": "1677940_2025-12-31",
+ "kind": "slide",
+ "cik": "1677940",
+ "name": "BeyondSpring Inc.",
+ "date": "2025-12-31",
+ "asof": "2025-12-31",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-12-31",
+  "adj_close": 1.63
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 12624000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001171843-25-007236"
+ },
+ "burn6": {
+  "end": "2025-09-30",
+  "start": "2025-04-01",
+  "cash_used_ops": 10067000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-09-30",
+  "shares": 40332320
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2025-10-02",
+  "to": "2026-01-30",
+  "trades": [
+   {
+    "date": "2025-10-16",
+    "filed": "2025-10-20",
+    "code": "S",
+    "value": 147573,
+    "who": "Decheng Capital China Life Sciences USD Fund III, L.P."
+   },
+   {
+    "date": "2025-10-17",
+    "filed": "2025-10-20",
+    "code": "S",
+    "value": 80103,
+    "who": "Decheng Capital China Life Sciences USD Fund III, L.P."
+   },
+   {
+    "date": "2025-10-13",
+    "filed": "2025-10-15",
+    "code": "S",
+    "value": 182514,
+    "who": "Decheng Capital China Life Sciences USD Fund III, L.P."
+   },
+   {
+    "date": "2025-10-14",
+    "filed": "2025-10-15",
+    "code": "S",
+    "value": 47017,
+    "who": "Decheng Capital China Life Sciences USD Fund III, L.P."
+   },
+   {
+    "date": "2025-10-15",
+    "filed": "2025-10-15",
+    "code": "S",
+    "value": 29634,
+    "who": "Decheng Capital China Life Sciences USD Fund III, L.P."
+   },
+   {
+    "date": "2025-10-08",
+    "filed": "2025-10-10",
+    "code": "S",
+    "value": 13287,
+    "who": "Decheng Capital China Life Sciences USD Fund III, L.P."
+   },
+   {
+    "date": "2025-10-09",
+    "filed": "2025-10-10",
+    "code": "S",
+    "value": 7202,
+    "who": "Decheng Capital China Life Sciences USD Fund III, L.P."
+   },
+   {
+    "date": "2025-10-10",
+    "filed": "2025-10-10",
+    "code": "S",
+    "value": 4230,
+    "who": "Decheng Capital China Life Sciences USD Fund III, L.P."
+   },
+   {
+    "date": "2025-10-03",
+    "filed": "2025-10-07",
+    "code": "S",
+    "value": 1056,
+    "who": "Decheng Capital China Life Sciences USD Fund III, L.P."
+   },
+   {
+    "date": "2025-10-06",
+    "filed": "2025-10-07",
+    "code": "S",
+    "value": 31150,
+    "who": "Decheng Capital China Life Sciences USD Fund III, L.P."
+   },
+   {
+    "date": "2025-10-07",
+    "filed": "2025-10-07",
+    "code": "S",
+    "value": 3759,
+    "who": "Decheng Capital China Life Sciences USD Fund III, L.P."
+   },
+   {
+    "date": "2025-09-30",
+    "filed": "2025-10-02",
+    "code": "S",
+    "value": 8080,
+    "who": "Decheng Capital China Life Sciences USD Fund III, L.P."
+   },
+   {
+    "date": "2025-10-01",
+    "filed": "2025-10-02",
+    "code": "S",
+    "value": 4682,
+    "who": "Decheng Capital China Life Sciences USD Fund III, L.P."
+   },
+   {
+    "date": "2025-10-02",
+    "filed": "2025-10-02",
+    "code": "S",
+    "value": 1038,
+    "who": "Decheng Capital China Life Sciences USD Fund III, L.P."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "beyondspring",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

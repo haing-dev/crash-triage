@@ -1,0 +1,50 @@
+{
+ "id": "1358403_2022-05-02",
+ "kind": "slide",
+ "cik": "1358403",
+ "name": "BELLICUM PHARMACEUTICALS, INC",
+ "date": "2022-05-02",
+ "asof": "2022-05-02",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-05-02",
+  "adj_close": 1.48
+ },
+ "balance": {
+  "end": "2021-12-31",
+  "cash": 46156000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001628280-22-007196"
+ },
+ "burn6": {
+  "end": "2021-12-31",
+  "start": "2021-07-01",
+  "cash_used_ops": 7024000.0,
+  "capex": 7000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-03-21",
+  "shares": 8552207
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "The accompanying consolidated financial statements have been prepared on the basis that there is no substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2022-02-01",
+  "to": "2022-06-01",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "bellicum pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

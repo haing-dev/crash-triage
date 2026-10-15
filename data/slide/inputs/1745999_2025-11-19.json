@@ -1,0 +1,111 @@
+{
+ "id": "1745999_2025-11-19",
+ "kind": "slide",
+ "cik": "1745999",
+ "name": "Beam Therapeutics Inc.",
+ "date": "2025-11-19",
+ "asof": "2025-11-19",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-11-19",
+  "adj_close": 20.98
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 1074970000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001193125-25-263542"
+ },
+ "burn6": {
+  "end": "2025-09-30",
+  "start": "2025-04-01",
+  "cash_used_ops": 157929000.0,
+  "capex": 8147000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-10-28",
+  "shares": 101474944
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2025-08-21",
+  "to": "2025-12-19",
+  "trades": [
+   {
+    "date": "2025-10-27",
+    "filed": "2025-10-29",
+    "code": "S",
+    "value": 12246,
+    "who": "FMR LLC"
+   },
+   {
+    "date": "2025-10-01",
+    "filed": "2025-10-03",
+    "code": "S",
+    "value": 11456,
+    "who": "Cavanagh Bethany J"
+   },
+   {
+    "date": "2025-10-01",
+    "filed": "2025-10-03",
+    "code": "S",
+    "value": 9150,
+    "who": "Bellon Christine"
+   },
+   {
+    "date": "2025-10-01",
+    "filed": "2025-10-03",
+    "code": "S",
+    "value": 612655,
+    "who": "Evans John M."
+   },
+   {
+    "date": "2025-10-02",
+    "filed": "2025-10-03",
+    "code": "S",
+    "value": 615668,
+    "who": "Evans John M."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "beam therapeutics",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06735755",
+    "drugs": [
+     "BEAM-301: Single dose of BEAM-301 administered by IV"
+    ]
+   },
+   {
+    "nct": "NCT05885464",
+    "drugs": [
+     "BEAM-201"
+    ]
+   },
+   {
+    "nct": "NCT06389877",
+    "drugs": [
+     "BEAM-302"
+    ]
+   },
+   {
+    "nct": "NCT05456880",
+    "drugs": [
+     "BEAM-101"
+    ]
+   }
+  ]
+ }
+}

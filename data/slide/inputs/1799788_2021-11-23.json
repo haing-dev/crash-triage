@@ -1,0 +1,71 @@
+{
+ "id": "1799788_2021-11-23",
+ "kind": "slide",
+ "cik": "1799788",
+ "name": "Greenwich LifeSciences, Inc.",
+ "date": "2021-11-23",
+ "asof": "2021-11-23",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-11-23",
+  "adj_close": 32.34
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 28905993,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001493152-21-028660"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 1498958.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-11-01",
+  "shares": 13123377
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2021-08-25",
+  "to": "2021-12-23",
+  "trades": [
+   {
+    "date": "2021-12-14",
+    "filed": "2021-12-16",
+    "code": "P",
+    "value": 49992,
+    "who": "Patel Snehal"
+   },
+   {
+    "date": "2021-12-14",
+    "filed": "2021-12-16",
+    "code": "P",
+    "value": 29983,
+    "who": "Daugherty Frank Joseph"
+   },
+   {
+    "date": "2021-12-14",
+    "filed": "2021-12-16",
+    "code": "P",
+    "value": 5512,
+    "who": "McWilliams David"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "greenwich lifesciences",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

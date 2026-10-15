@@ -1,0 +1,59 @@
+{
+ "id": "1629137_2021-11-29",
+ "kind": "slide",
+ "cik": "1629137",
+ "name": "Global Blood Therapeutics, Inc.",
+ "date": "2021-11-29",
+ "asof": "2021-11-29",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-11-29",
+  "adj_close": 27.98
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 416766000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesCurrent",
+   "AvailableForSaleSecuritiesNoncurrent"
+  ],
+  "accn": "0000950170-21-003097"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 109631000.0,
+  "capex": 1050000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-10-29",
+  "shares": 64445267
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2021-08-31",
+  "to": "2021-12-29",
+  "trades": [
+   {
+    "date": "2021-09-09",
+    "filed": "2021-09-10",
+    "code": "S",
+    "value": 145003,
+    "who": "Morrison Scott W"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "global blood therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

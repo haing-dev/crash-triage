@@ -1,0 +1,50 @@
+{
+ "id": "1841330_2024-05-28",
+ "kind": "slide",
+ "cik": "1841330",
+ "name": "Pasithea Therapeutics Corp.",
+ "date": "2024-05-28",
+ "asof": "2024-05-28",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-05-28",
+  "adj_close": 6.3
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 12009347,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001213900-24-042981"
+ },
+ "burn6": {
+  "end": "2022-12-31",
+  "start": "2022-07-01",
+  "cash_used_ops": 9657413.0,
+  "capex": 98211.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-05-14",
+  "shares": 1043248
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Without additional funding, there is substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2024-02-28",
+  "to": "2024-06-27",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "pasithea therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

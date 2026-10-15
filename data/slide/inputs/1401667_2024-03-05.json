@@ -1,0 +1,100 @@
+{
+ "id": "1401667_2024-03-05",
+ "kind": "slide",
+ "cik": "1401667",
+ "name": "PUMA BIOTECHNOLOGY, INC.",
+ "date": "2024-03-05",
+ "asof": "2024-03-05",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-03-05",
+  "adj_close": 5.18
+ },
+ "balance": {
+  "end": "2023-12-31",
+  "cash": 95939000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001437749-24-006121"
+ },
+ "burn6": {
+  "end": "2023-12-31",
+  "start": "2023-07-01",
+  "cash_used_ops": -21070000.0,
+  "capex": 72000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-02-26",
+  "shares": 48207162
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 12,
+  "from": "2023-12-06",
+  "to": "2024-04-04",
+  "trades": [
+   {
+    "date": "2023-12-04",
+    "filed": "2024-01-10",
+    "code": "S",
+    "value": 1053,
+    "who": "Wong Alvin F"
+   },
+   {
+    "date": "2024-01-03",
+    "filed": "2024-01-05",
+    "code": "S",
+    "value": 34689,
+    "who": "Wong Alvin F"
+   },
+   {
+    "date": "2024-01-03",
+    "filed": "2024-01-05",
+    "code": "S",
+    "value": 58119,
+    "who": "Ludwig Jeffrey Jerome"
+   },
+   {
+    "date": "2024-01-03",
+    "filed": "2024-01-05",
+    "code": "S",
+    "value": 185698,
+    "who": "AUERBACH ALAN H"
+   },
+   {
+    "date": "2024-01-03",
+    "filed": "2024-01-05",
+    "code": "S",
+    "value": 70348,
+    "who": "NOUGUES MAXIMO F"
+   },
+   {
+    "date": "2024-01-03",
+    "filed": "2024-01-05",
+    "code": "S",
+    "value": 37493,
+    "who": "HUNT DOUGLAS M"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "puma biotechnology",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06095505",
+    "drugs": [
+     "Alisertib"
+    ]
+   }
+  ]
+ }
+}

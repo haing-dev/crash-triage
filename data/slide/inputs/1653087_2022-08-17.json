@@ -1,0 +1,98 @@
+{
+ "id": "1653087_2022-08-17",
+ "kind": "slide",
+ "cik": "1653087",
+ "name": "Alector, Inc.",
+ "date": "2022-08-17",
+ "asof": "2022-08-17",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-08-17",
+  "adj_close": 11.83
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 808855000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-22-014810"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": -77649000.0,
+  "capex": 1436000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-07-29",
+  "shares": 82563921
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 12,
+  "from": "2022-05-19",
+  "to": "2022-09-16",
+  "trades": [
+   {
+    "date": "2022-09-02",
+    "filed": "2022-09-07",
+    "code": "S",
+    "value": 23120,
+    "who": "Romano Gary"
+   },
+   {
+    "date": "2022-09-02",
+    "filed": "2022-09-07",
+    "code": "S",
+    "value": 1869,
+    "who": "King Robert"
+   },
+   {
+    "date": "2022-06-02",
+    "filed": "2022-06-06",
+    "code": "S",
+    "value": 1542,
+    "who": "King Robert"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "alector",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04592874",
+    "drugs": [
+     "AL002"
+    ]
+   },
+   {
+    "nct": "NCT05053035",
+    "drugs": [
+     "AL001"
+    ]
+   },
+   {
+    "nct": "NCT04374136",
+    "drugs": [
+     "Part 1 Blinded - AL001",
+     "Part 2 (OLE Treatment) - AL001"
+    ]
+   },
+   {
+    "nct": "NCT03987295",
+    "drugs": [
+     "AL001"
+    ]
+   }
+  ]
+ }
+}

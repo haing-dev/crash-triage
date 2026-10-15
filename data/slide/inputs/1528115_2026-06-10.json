@@ -1,0 +1,93 @@
+{
+ "id": "1528115_2026-06-10",
+ "kind": "slide",
+ "cik": "1528115",
+ "name": "Annexon, Inc.",
+ "date": "2026-06-10",
+ "asof": "2026-06-10",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-06-10",
+  "adj_close": 4.72
+ },
+ "balance": {
+  "end": "2026-03-31",
+  "cash": 225025000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001193125-26-211931"
+ },
+ "burn6": {
+  "end": "2026-03-31",
+  "start": "2025-10-01",
+  "cash_used_ops": 92722000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-05-02",
+  "shares": 38563565
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2026-03-12",
+  "to": "2026-07-10",
+  "trades": [
+   {
+    "date": "2026-05-28",
+    "filed": "2026-05-29",
+    "code": "P",
+    "value": 3319019,
+    "who": "Satter Muneer A"
+   },
+   {
+    "date": "2026-05-11",
+    "filed": "2026-05-13",
+    "code": "P",
+    "value": 46240,
+    "who": "Carson William H."
+   },
+   {
+    "date": "2026-04-10",
+    "filed": "2026-04-14",
+    "code": "P",
+    "value": 49600,
+    "who": "Carson William H."
+   },
+   {
+    "date": "2026-03-10",
+    "filed": "2026-03-12",
+    "code": "P",
+    "value": 45360,
+    "who": "Carson William H."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "annexon",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT07020819",
+    "drugs": [
+     "Tanruprubart"
+    ]
+   },
+   {
+    "nct": "NCT06510816",
+    "drugs": [
+     "Vonaprument",
+     "Sham Administration"
+    ]
+   }
+  ]
+ }
+}

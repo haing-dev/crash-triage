@@ -1,0 +1,50 @@
+{
+ "id": "1827506_2021-11-22",
+ "kind": "slide",
+ "cik": "1827506",
+ "name": "Tourmaline Bio, Inc.",
+ "date": "2021-11-22",
+ "asof": "2021-11-22",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-11-22",
+  "adj_close": 106.964
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 254734000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001564590-21-056466"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 21111000.0,
+  "capex": 1061000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-11-01",
+  "shares": 41354643
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2021-08-24",
+  "to": "2021-12-22",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "tourmaline bio",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,169 @@
+{
+ "id": "1559053_2022-07-11",
+ "kind": "slide",
+ "cik": "1559053",
+ "name": "PROTHENA CORP PUBLIC LTD CO",
+ "date": "2022-07-11",
+ "asof": "2022-07-11",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-07-11",
+  "adj_close": 29.96
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 542994000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001559053-22-000023"
+ },
+ "burn6": {
+  "end": "2022-03-31",
+  "start": "2021-10-01",
+  "cash_used_ops": 59873000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-04-28",
+  "shares": 46806224
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 15,
+  "from": "2022-04-12",
+  "to": "2022-08-10",
+  "trades": [
+   {
+    "date": "2022-08-04",
+    "filed": "2022-08-05",
+    "code": "S",
+    "value": 674316,
+    "who": "Kinney Gene G."
+   },
+   {
+    "date": "2022-08-05",
+    "filed": "2022-08-05",
+    "code": "S",
+    "value": 551558,
+    "who": "Kinney Gene G."
+   },
+   {
+    "date": "2022-08-05",
+    "filed": "2022-08-05",
+    "code": "S",
+    "value": 154505,
+    "who": "Kinney Gene G."
+   },
+   {
+    "date": "2022-08-01",
+    "filed": "2022-08-03",
+    "code": "S",
+    "value": 122080,
+    "who": "Garren Hideki"
+   },
+   {
+    "date": "2022-07-27",
+    "filed": "2022-07-29",
+    "code": "S",
+    "value": 12032,
+    "who": "Kinney Gene G."
+   },
+   {
+    "date": "2022-07-20",
+    "filed": "2022-07-22",
+    "code": "S",
+    "value": 812519,
+    "who": "Nguyen Tran"
+   },
+   {
+    "date": "2022-07-20",
+    "filed": "2022-07-22",
+    "code": "S",
+    "value": 555922,
+    "who": "Nguyen Tran"
+   },
+   {
+    "date": "2022-07-21",
+    "filed": "2022-07-22",
+    "code": "S",
+    "value": 670925,
+    "who": "Nguyen Tran"
+   },
+   {
+    "date": "2022-07-21",
+    "filed": "2022-07-22",
+    "code": "S",
+    "value": 168,
+    "who": "Nguyen Tran"
+   },
+   {
+    "date": "2022-07-22",
+    "filed": "2022-07-22",
+    "code": "S",
+    "value": 238254,
+    "who": "Nguyen Tran"
+   },
+   {
+    "date": "2022-07-20",
+    "filed": "2022-07-22",
+    "code": "S",
+    "value": 493500,
+    "who": "Cooke Shane"
+   },
+   {
+    "date": "2022-07-06",
+    "filed": "2022-07-08",
+    "code": "S",
+    "value": 240000,
+    "who": "Garren Hideki"
+   },
+   {
+    "date": "2022-05-05",
+    "filed": "2022-05-09",
+    "code": "P",
+    "value": 30840599,
+    "who": "EcoR1 Capital, LLC"
+   },
+   {
+    "date": "2022-05-05",
+    "filed": "2022-05-09",
+    "code": "S",
+    "value": 30840599,
+    "who": "EcoR1 Capital, LLC"
+   },
+   {
+    "date": "2022-04-11",
+    "filed": "2022-04-13",
+    "code": "S",
+    "value": 103506,
+    "who": "Cooke Shane"
+   },
+   {
+    "date": "2022-04-11",
+    "filed": "2022-04-13",
+    "code": "S",
+    "value": 53063,
+    "who": "Cooke Shane"
+   },
+   {
+    "date": "2022-04-11",
+    "filed": "2022-04-13",
+    "code": "S",
+    "value": 18812,
+    "who": "Cooke Shane"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "prothena public",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

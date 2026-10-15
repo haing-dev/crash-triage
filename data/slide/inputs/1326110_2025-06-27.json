@@ -1,0 +1,90 @@
+{
+ "id": "1326110_2025-06-27",
+ "kind": "slide",
+ "cik": "1326110",
+ "name": "ImmunityBio, Inc.",
+ "date": "2025-06-27",
+ "asof": "2025-06-27",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-06-27",
+  "adj_close": 2.7
+ },
+ "balance": {
+  "end": "2025-03-31",
+  "cash": 61591000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001326110-25-000071"
+ },
+ "burn6": {
+  "end": "2025-03-31",
+  "start": "2024-10-01",
+  "cash_used_ops": 171049000.0,
+  "capex": 3232000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-05-08",
+  "shares": 882620409
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2025-03-29",
+  "to": "2025-07-27",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "immunitybio",
+  "other_trials": 6,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06061809",
+    "drugs": [
+     "Bevacizumab",
+     "PD-L1 t-haNK",
+     "N-803"
+    ]
+   },
+   {
+    "nct": "NCT04390399",
+    "drugs": [
+     "N-803",
+     "Aldoxorubicin HCl",
+     "PD-L1 t-haNK"
+    ]
+   },
+   {
+    "nct": "NCT02138734",
+    "drugs": [
+     "BCG (50mg/instillation) + N-803 (400 \u03bcg/instillation)",
+     "BCG (50mg/instillation)"
+    ]
+   },
+   {
+    "nct": "NCT03228667",
+    "drugs": [
+     "N-803 + Pembrolizumab",
+     "N-803 + Nivolumab",
+     "N-803 + Atezolizumab"
+    ]
+   },
+   {
+    "nct": "NCT06710288",
+    "drugs": [
+     "Gemcitabine",
+     "N-803",
+     "M-CENK"
+    ]
+   }
+  ]
+ }
+}

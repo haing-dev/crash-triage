@@ -1,0 +1,99 @@
+{
+ "id": "1533040_2026-10-12",
+ "kind": "slide",
+ "cik": "1533040",
+ "name": "Phio Pharmaceuticals Corp.",
+ "date": "2026-10-12",
+ "asof": "2026-10-12",
+ "final": false,
+ "version": 5,
+ "price": {
+  "date": "2026-10-12",
+  "adj_close": 0.92199999
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 12996000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001437749-26-026271"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": 8038000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-08-04",
+  "shares": 11617250
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2026-07-14",
+  "to": "2026-10-15",
+  "trades": [
+   {
+    "date": "2026-09-28",
+    "filed": "2026-09-30",
+    "code": "P",
+    "value": 5150,
+    "who": "Plott Ronald Todd"
+   },
+   {
+    "date": "2026-09-29",
+    "filed": "2026-09-30",
+    "code": "P",
+    "value": 5200,
+    "who": "Plott Ronald Todd"
+   },
+   {
+    "date": "2026-09-24",
+    "filed": "2026-09-25",
+    "code": "P",
+    "value": 6583,
+    "who": "BRADFORD PATRICIA A"
+   },
+   {
+    "date": "2026-09-22",
+    "filed": "2026-09-23",
+    "code": "P",
+    "value": 2058,
+    "who": "Bitterman Robert J"
+   },
+   {
+    "date": "2026-09-15",
+    "filed": "2026-09-16",
+    "code": "P",
+    "value": 12360,
+    "who": "BRADFORD PATRICIA A"
+   },
+   {
+    "date": "2026-08-19",
+    "filed": "2026-08-20",
+    "code": "P",
+    "value": 17100,
+    "who": "Plott Ronald Todd"
+   },
+   {
+    "date": "2026-08-18",
+    "filed": "2026-08-19",
+    "code": "P",
+    "value": 10600,
+    "who": "Bitterman Robert J"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "phio pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

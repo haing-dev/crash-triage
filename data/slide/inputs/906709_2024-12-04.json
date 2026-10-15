@@ -1,0 +1,121 @@
+{
+ "id": "906709_2024-12-04",
+ "kind": "slide",
+ "cik": "906709",
+ "name": "NEKTAR THERAPEUTICS",
+ "date": "2024-12-04",
+ "asof": "2024-12-04",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-12-04",
+  "adj_close": 15.3
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 249032000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0000950170-24-123570"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": 81634000.0,
+  "capex": 852000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-11-01",
+  "shares": 184458284
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 9,
+  "from": "2024-09-05",
+  "to": "2025-01-03",
+  "trades": [
+   {
+    "date": "2024-12-23",
+    "filed": "2024-12-26",
+    "code": "S",
+    "value": 30062,
+    "who": "Wilson Mark Andrew"
+   },
+   {
+    "date": "2024-12-24",
+    "filed": "2024-12-26",
+    "code": "S",
+    "value": 14738,
+    "who": "Wilson Mark Andrew"
+   },
+   {
+    "date": "2024-12-19",
+    "filed": "2024-12-20",
+    "code": "S",
+    "value": 48048,
+    "who": "Zalevsky Jonathan"
+   },
+   {
+    "date": "2024-12-17",
+    "filed": "2024-12-19",
+    "code": "S",
+    "value": 47465,
+    "who": "ROBIN HOWARD W"
+   },
+   {
+    "date": "2024-12-18",
+    "filed": "2024-12-19",
+    "code": "S",
+    "value": 84185,
+    "who": "ROBIN HOWARD W"
+   },
+   {
+    "date": "2024-11-19",
+    "filed": "2024-11-20",
+    "code": "S",
+    "value": 7863,
+    "who": "Zalevsky Jonathan"
+   },
+   {
+    "date": "2024-11-19",
+    "filed": "2024-11-20",
+    "code": "S",
+    "value": 6471,
+    "who": "Wilson Mark Andrew"
+   },
+   {
+    "date": "2024-11-19",
+    "filed": "2024-11-20",
+    "code": "S",
+    "value": 16441,
+    "who": "ROBIN HOWARD W"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "nektar therapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06340360",
+    "drugs": [
+     "Rezpegaldesleukin"
+    ]
+   },
+   {
+    "nct": "NCT06136741",
+    "drugs": [
+     "Rezpegaldesleukin"
+    ]
+   }
+  ]
+ }
+}

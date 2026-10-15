@@ -1,0 +1,79 @@
+{
+ "id": "1501989_2026-03-18",
+ "kind": "slide",
+ "cik": "1501989",
+ "name": "CytomX Therapeutics, Inc.",
+ "date": "2026-03-18",
+ "asof": "2026-03-18",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-03-18",
+  "adj_close": 4.4
+ },
+ "balance": {
+  "end": "2025-12-31",
+  "cash": 137052000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001193125-26-107146"
+ },
+ "burn6": {
+  "end": "2025-12-31",
+  "start": "2025-07-01",
+  "cash_used_ops": 38791000.0,
+  "capex": 74000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-12-31",
+  "shares": 170186742
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 9,
+  "from": "2025-12-18",
+  "to": "2026-04-17",
+  "trades": [
+   {
+    "date": "2026-03-17",
+    "filed": "2026-03-19",
+    "code": "S",
+    "value": 136675,
+    "who": "Chu Yu-Waye"
+   },
+   {
+    "date": "2026-03-17",
+    "filed": "2026-03-19",
+    "code": "S",
+    "value": 764138,
+    "who": "McCarthy Sean A."
+   },
+   {
+    "date": "2026-03-17",
+    "filed": "2026-03-19",
+    "code": "S",
+    "value": 202273,
+    "who": "BELVIN MARCIA"
+   },
+   {
+    "date": "2026-03-17",
+    "filed": "2026-03-19",
+    "code": "S",
+    "value": 124112,
+    "who": "Ogden Christopher"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "cytomx therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

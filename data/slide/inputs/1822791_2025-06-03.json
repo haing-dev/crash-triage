@@ -1,0 +1,114 @@
+{
+ "id": "1822791_2025-06-03",
+ "kind": "slide",
+ "cik": "1822791",
+ "name": "Clene Inc.",
+ "date": "2025-06-03",
+ "asof": "2025-06-03",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-06-03",
+  "adj_close": 3.92
+ },
+ "balance": {
+  "end": "2025-03-31",
+  "cash": 9832000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001437749-25-014918"
+ },
+ "burn6": {
+  "end": "2025-03-31",
+  "start": "2024-10-01",
+  "cash_used_ops": 9876000.0,
+  "capex": 1000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-05-05",
+  "shares": 8982747
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These conditions raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 15,
+  "from": "2025-03-05",
+  "to": "2025-07-03",
+  "trades": [
+   {
+    "date": "2025-06-04",
+    "filed": "2025-06-04",
+    "code": "S",
+    "value": 2424,
+    "who": "General Resonance LLC"
+   },
+   {
+    "date": "2025-06-02",
+    "filed": "2025-06-02",
+    "code": "S",
+    "value": 2473,
+    "who": "General Resonance LLC"
+   },
+   {
+    "date": "2025-05-30",
+    "filed": "2025-05-30",
+    "code": "S",
+    "value": 1148,
+    "who": "General Resonance LLC"
+   },
+   {
+    "date": "2025-05-29",
+    "filed": "2025-05-29",
+    "code": "S",
+    "value": 1119,
+    "who": "General Resonance LLC"
+   },
+   {
+    "date": "2025-05-28",
+    "filed": "2025-05-28",
+    "code": "S",
+    "value": 1090,
+    "who": "General Resonance LLC"
+   },
+   {
+    "date": "2025-05-27",
+    "filed": "2025-05-27",
+    "code": "S",
+    "value": 1029,
+    "who": "General Resonance LLC"
+   },
+   {
+    "date": "2025-03-18",
+    "filed": "2025-03-19",
+    "code": "S",
+    "value": 5932,
+    "who": "General Resonance LLC"
+   },
+   {
+    "date": "2025-03-19",
+    "filed": "2025-03-19",
+    "code": "S",
+    "value": 6160,
+    "who": "General Resonance LLC"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "clene",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05299658",
+    "drugs": [
+     "CNMAu8"
+    ]
+   }
+  ]
+ }
+}

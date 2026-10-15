@@ -1,0 +1,134 @@
+{
+ "id": "874015_2021-04-07",
+ "kind": "slide",
+ "cik": "874015",
+ "name": "IONIS PHARMACEUTICALS INC",
+ "date": "2021-04-07",
+ "asof": "2021-04-07",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-04-07",
+  "adj_close": 43.65
+ },
+ "balance": {
+  "end": "2020-12-31",
+  "cash": 1892375000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0000874015-21-000056"
+ },
+ "burn6": {
+  "end": "2020-12-31",
+  "start": "2020-07-01",
+  "cash_used_ops": -87620000.0,
+  "capex": 16942000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-02-18",
+  "shares": 140862211
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 23,
+  "from": "2021-01-07",
+  "to": "2021-05-07",
+  "trades": [
+   {
+    "date": "2021-03-01",
+    "filed": "2021-03-02",
+    "code": "S",
+    "value": 12809,
+    "who": "Monia Brett P"
+   },
+   {
+    "date": "2021-01-26",
+    "filed": "2021-01-28",
+    "code": "S",
+    "value": 1805812,
+    "who": "CROOKE STANLEY T"
+   },
+   {
+    "date": "2021-01-25",
+    "filed": "2021-01-27",
+    "code": "S",
+    "value": 338074,
+    "who": "O'NEIL PATRICK R."
+   },
+   {
+    "date": "2021-01-21",
+    "filed": "2021-01-25",
+    "code": "S",
+    "value": 844878,
+    "who": "CROOKE STANLEY T"
+   },
+   {
+    "date": "2021-01-21",
+    "filed": "2021-01-25",
+    "code": "S",
+    "value": 1297239,
+    "who": "CROOKE STANLEY T"
+   },
+   {
+    "date": "2021-01-22",
+    "filed": "2021-01-25",
+    "code": "S",
+    "value": 2467000,
+    "who": "CROOKE STANLEY T"
+   },
+   {
+    "date": "2021-01-13",
+    "filed": "2021-01-15",
+    "code": "S",
+    "value": 8390,
+    "who": "Geary Richard S"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "ionis pharmaceuticals",
+  "other_trials": 11,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT00048295",
+    "drugs": [
+     "Alicaforsen"
+    ]
+   },
+   {
+    "nct": "NCT03967249",
+    "drugs": [
+     "IONIS GHR-LRx",
+     "Somatostatin Receptor Ligand (SRL)"
+    ]
+   },
+   {
+    "nct": "NCT04441788",
+    "drugs": [
+     "ION-827359",
+     "ION-827359"
+    ]
+   },
+   {
+    "nct": "NCT04136184",
+    "drugs": [
+     "Inotersen",
+     "Eplontersen"
+    ]
+   },
+   {
+    "nct": "NCT04136171",
+    "drugs": [
+     "Eplontersen"
+    ]
+   }
+  ]
+ }
+}

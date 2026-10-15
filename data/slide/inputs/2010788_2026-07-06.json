@@ -1,0 +1,65 @@
+{
+ "id": "2010788_2026-07-06",
+ "kind": "slide",
+ "cik": "2010788",
+ "name": "EXOZYMES INC.",
+ "date": "2026-07-06",
+ "asof": "2026-07-06",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-07-06",
+  "adj_close": 8.14
+ },
+ "balance": {
+  "end": "2026-03-31",
+  "cash": 1444562,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001493152-26-023035"
+ },
+ "burn6": {
+  "end": "2026-03-31",
+  "start": "2025-10-01",
+  "cash_used_ops": 3498241.0,
+  "capex": 132592.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-05-14",
+  "shares": 8478992
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Although the Company believes it has sufficient working capital for the near term, management believes that there remains substantial doubt about its ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2026-04-07",
+  "to": "2026-08-05",
+  "trades": [
+   {
+    "date": "2026-04-08",
+    "filed": "2026-04-10",
+    "code": "S",
+    "value": 7530,
+    "who": "Korman Tyler Paz"
+   },
+   {
+    "date": "2026-04-09",
+    "filed": "2026-04-10",
+    "code": "S",
+    "value": 7894,
+    "who": "Korman Tyler Paz"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "exozymes",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,163 @@
+{
+ "id": "882796_2023-01-11",
+ "kind": "slide",
+ "cik": "882796",
+ "name": "BIOCRYST PHARMACEUTICALS INC",
+ "date": "2023-01-11",
+ "asof": "2023-01-11",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-01-11",
+  "adj_close": 10.02
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 426858000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001628280-22-028463"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 60201000.0,
+  "capex": 553963.2352941176,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-10-31",
+  "shares": 186423835
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 21,
+  "from": "2022-10-13",
+  "to": "2023-02-10",
+  "trades": [
+   {
+    "date": "2023-02-01",
+    "filed": "2023-02-02",
+    "code": "S",
+    "value": 1038000,
+    "who": "Stonehouse Jon P"
+   },
+   {
+    "date": "2022-12-15",
+    "filed": "2022-12-19",
+    "code": "S",
+    "value": 153690,
+    "who": "Stonehouse Jon P"
+   },
+   {
+    "date": "2022-12-15",
+    "filed": "2022-12-19",
+    "code": "S",
+    "value": 34031,
+    "who": "Thackray Helen M."
+   },
+   {
+    "date": "2022-12-15",
+    "filed": "2022-12-19",
+    "code": "S",
+    "value": 62130,
+    "who": "Doyle Anthony"
+   },
+   {
+    "date": "2022-12-15",
+    "filed": "2022-12-19",
+    "code": "S",
+    "value": 66490,
+    "who": "Gayer Charles K"
+   },
+   {
+    "date": "2022-12-15",
+    "filed": "2022-12-19",
+    "code": "S",
+    "value": 4850,
+    "who": "Jones Michael L"
+   },
+   {
+    "date": "2022-12-15",
+    "filed": "2022-12-19",
+    "code": "S",
+    "value": 45424,
+    "who": "Barnes Alane P"
+   },
+   {
+    "date": "2022-12-01",
+    "filed": "2022-12-02",
+    "code": "S",
+    "value": 111886,
+    "who": "Jones Michael L"
+   },
+   {
+    "date": "2022-12-01",
+    "filed": "2022-12-02",
+    "code": "S",
+    "value": 2793921,
+    "who": "Stonehouse Jon P"
+   },
+   {
+    "date": "2022-12-02",
+    "filed": "2022-12-02",
+    "code": "S",
+    "value": 1057997,
+    "who": "Stonehouse Jon P"
+   },
+   {
+    "date": "2022-11-14",
+    "filed": "2022-11-16",
+    "code": "S",
+    "value": 437428,
+    "who": "Babu Yarlagadda S"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "biocryst pharmaceuticals",
+  "other_trials": 5,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05116787",
+    "drugs": [
+     "BCX9930 monotherapy"
+    ]
+   },
+   {
+    "nct": "NCT05453968",
+    "drugs": [
+     "Berotralstat"
+    ]
+   },
+   {
+    "nct": "NCT04933721",
+    "drugs": [
+     "berotralstat"
+    ]
+   },
+   {
+    "nct": "NCT04702568",
+    "drugs": [
+     "BCX9930",
+     "Eculizumab",
+     "Ravulizumab"
+    ]
+   },
+   {
+    "nct": "NCT05116774",
+    "drugs": [
+     "Eculizumab",
+     "Ravulizumab",
+     "BCX9930"
+    ]
+   }
+  ]
+ }
+}

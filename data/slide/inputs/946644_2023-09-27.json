@@ -1,0 +1,86 @@
+{
+ "id": "946644_2023-09-27",
+ "kind": "slide",
+ "cik": "946644",
+ "name": "AIM ImmunoTech Inc.",
+ "date": "2023-09-27",
+ "asof": "2023-09-27",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-09-27",
+  "adj_close": 44.61688
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 28398000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001493152-23-028610"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 5838000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-08-11",
+  "shares": 48670427
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2023-06-29",
+  "to": "2023-10-27",
+  "trades": [
+   {
+    "date": "2023-09-29",
+    "filed": "2023-09-29",
+    "code": "P",
+    "value": 10000,
+    "who": "Equels Thomas K"
+   },
+   {
+    "date": "2023-08-25",
+    "filed": "2023-08-25",
+    "code": "P",
+    "value": 5501,
+    "who": "Equels Thomas K"
+   },
+   {
+    "date": "2023-08-24",
+    "filed": "2023-08-24",
+    "code": "P",
+    "value": 10000,
+    "who": "Equels Thomas K"
+   },
+   {
+    "date": "2023-07-17",
+    "filed": "2023-07-17",
+    "code": "P",
+    "value": 10000,
+    "who": "Equels Thomas K"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "aim immunotech",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05592418",
+    "drugs": [
+     "Rintatolimod"
+    ]
+   }
+  ]
+ }
+}

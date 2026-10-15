@@ -1,0 +1,49 @@
+{
+ "id": "1712762_2023-08-03",
+ "kind": "slide",
+ "cik": "1712762",
+ "name": "bioAffinity Technologies, Inc.",
+ "date": "2023-08-03",
+ "asof": "2023-08-03",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-08-03",
+  "adj_close": 796.5
+ },
+ "balance": {
+  "end": "2023-03-31",
+  "cash": 9769088,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001493152-23-017083"
+ },
+ "burn6": {
+  "end": "2023-03-31",
+  "start": "2022-10-01",
+  "cash_used_ops": 2829677.0,
+  "capex": 66312.68494382023,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-05-12",
+  "shares": 8518981
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 9,
+  "from": "2023-05-05",
+  "to": "2023-09-02",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "bioaffinity technologies",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

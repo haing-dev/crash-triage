@@ -1,0 +1,65 @@
+{
+ "id": "1672619_2023-08-14",
+ "kind": "slide",
+ "cik": "1672619",
+ "name": "Enliven Therapeutics, Inc.",
+ "date": "2023-08-14",
+ "asof": "2023-08-14",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-08-14",
+  "adj_close": 16.45
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 277865000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-23-041349"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 32893000.0,
+  "capex": 119000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-08-01",
+  "shares": 41151111
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2023-05-16",
+  "to": "2023-09-13",
+  "trades": [
+   {
+    "date": "2023-08-24",
+    "filed": "2023-08-28",
+    "code": "S",
+    "value": 5873984,
+    "who": "5AM Partners VI, LLC"
+   },
+   {
+    "date": "2023-08-24",
+    "filed": "2023-08-28",
+    "code": "S",
+    "value": 1166016,
+    "who": "5AM Partners VI, LLC"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "enliven therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

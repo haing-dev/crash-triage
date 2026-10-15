@@ -1,0 +1,121 @@
+{
+ "id": "1551986_2021-09-13",
+ "kind": "slide",
+ "cik": "1551986",
+ "name": "9 METERS BIOPHARMA, INC.",
+ "date": "2021-09-13",
+ "asof": "2021-09-13",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-09-13",
+  "adj_close": 25.6
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 64023462,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001551986-21-000091"
+ },
+ "burn6": {
+  "end": "2021-06-30",
+  "start": "2021-01-01",
+  "cash_used_ops": 13333821.0,
+  "capex": 6892.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-08-10",
+  "shares": 254753151
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 10,
+  "from": "2021-06-15",
+  "to": "2021-10-13",
+  "trades": [
+   {
+    "date": "2021-09-14",
+    "filed": "2021-09-15",
+    "code": "P",
+    "value": 18300,
+    "who": "Sitar Edward J"
+   },
+   {
+    "date": "2021-09-07",
+    "filed": "2021-09-08",
+    "code": "P",
+    "value": 99999,
+    "who": "Sirgo Mark A"
+   },
+   {
+    "date": "2021-08-24",
+    "filed": "2021-08-26",
+    "code": "P",
+    "value": 20520,
+    "who": "Constantino Michael T."
+   },
+   {
+    "date": "2021-08-20",
+    "filed": "2021-08-23",
+    "code": "P",
+    "value": 27500,
+    "who": "Sirgo Mark A"
+   },
+   {
+    "date": "2021-08-18",
+    "filed": "2021-08-19",
+    "code": "P",
+    "value": 26250,
+    "who": "Temperato John"
+   },
+   {
+    "date": "2021-06-23",
+    "filed": "2021-06-25",
+    "code": "S",
+    "value": 1144644,
+    "who": "OrbiMed Israel GP Ltd."
+   },
+   {
+    "date": "2021-06-24",
+    "filed": "2021-06-25",
+    "code": "S",
+    "value": 440572,
+    "who": "OrbiMed Israel GP Ltd."
+   },
+   {
+    "date": "2021-06-25",
+    "filed": "2021-06-25",
+    "code": "S",
+    "value": 19347750,
+    "who": "OrbiMed Israel GP Ltd."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "9 meters biopharma",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03569007",
+    "drugs": [
+     "Larazotide"
+    ]
+   },
+   {
+    "nct": "NCT04988997",
+    "drugs": [
+     "Vurolenatide 50mg/PBO",
+     "Vurolenatide 100mg/PBO",
+     "Vurolenatide 50/50 mg"
+    ]
+   }
+  ]
+ }
+}

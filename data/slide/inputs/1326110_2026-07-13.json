@@ -1,0 +1,131 @@
+{
+ "id": "1326110_2026-07-13",
+ "kind": "slide",
+ "cik": "1326110",
+ "name": "ImmunityBio, Inc.",
+ "date": "2026-07-13",
+ "asof": "2026-07-13",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-07-13",
+  "adj_close": 7.79
+ },
+ "balance": {
+  "end": "2026-03-31",
+  "cash": 380879000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001326110-26-000059"
+ },
+ "burn6": {
+  "end": "2026-03-31",
+  "start": "2025-10-01",
+  "cash_used_ops": 145737000.0,
+  "capex": 2679000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-05-05",
+  "shares": 1047353977
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2026-04-14",
+  "to": "2026-08-12",
+  "trades": [
+   {
+    "date": "2026-07-02",
+    "filed": "2026-07-06",
+    "code": "S",
+    "value": 1246941,
+    "who": "Cohen Cheryl"
+   },
+   {
+    "date": "2026-07-01",
+    "filed": "2026-07-06",
+    "code": "S",
+    "value": 1439066,
+    "who": "Selecky Christobel"
+   },
+   {
+    "date": "2026-06-29",
+    "filed": "2026-07-01",
+    "code": "S",
+    "value": 862216,
+    "who": "Selecky Christobel"
+   },
+   {
+    "date": "2026-06-30",
+    "filed": "2026-07-01",
+    "code": "S",
+    "value": 9000,
+    "who": "Selecky Christobel"
+   },
+   {
+    "date": "2026-06-24",
+    "filed": "2026-06-26",
+    "code": "S",
+    "value": 196908,
+    "who": "Simon Barry J."
+   },
+   {
+    "date": "2026-06-04",
+    "filed": "2026-06-05",
+    "code": "S",
+    "value": 165306,
+    "who": "Simon Barry J."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "immunitybio",
+  "other_trials": 18,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT07123727",
+    "drugs": [
+     "Anktiva"
+    ]
+   },
+   {
+    "nct": "NCT06061809",
+    "drugs": [
+     "Bevacizumab",
+     "PD-L1 t-haNK",
+     "N-803"
+    ]
+   },
+   {
+    "nct": "NCT07551544",
+    "drugs": [
+     "BCG (50 mg) plus ANKTIVA (400 \u00b5g)",
+     "BCG (50 mg)"
+    ]
+   },
+   {
+    "nct": "NCT07524257",
+    "drugs": [
+     "Drug: Nogapendekin alfa inbakicept (NAI)",
+     "Pembrolizumab",
+     "Cisplatin or Carboplatin"
+    ]
+   },
+   {
+    "nct": "NCT06765902",
+    "drugs": [
+     "N-803",
+     "ETBX-071",
+     "M-CENK"
+    ]
+   }
+  ]
+ }
+}

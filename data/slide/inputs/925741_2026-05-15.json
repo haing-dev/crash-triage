@@ -1,0 +1,129 @@
+{
+ "id": "925741_2026-05-15",
+ "kind": "slide",
+ "cik": "925741",
+ "name": "BioCardia, Inc.",
+ "date": "2026-05-15",
+ "asof": "2026-05-15",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-05-15",
+  "adj_close": 1.01
+ },
+ "balance": {
+  "end": "2026-03-31",
+  "cash": 951000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001437749-26-017221"
+ },
+ "burn6": {
+  "end": "2026-03-31",
+  "start": "2025-10-01",
+  "cash_used_ops": 4156000.0,
+  "capex": 9000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-05-13",
+  "shares": 11374724
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These factors raise substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 7,
+  "from": "2026-02-14",
+  "to": "2026-06-14",
+  "trades": [
+   {
+    "date": "2026-06-09",
+    "filed": "2026-06-09",
+    "code": "P",
+    "value": 4250,
+    "who": "Altman Peter"
+   },
+   {
+    "date": "2026-05-19",
+    "filed": "2026-05-21",
+    "code": "P",
+    "value": 190,
+    "who": "Altman Peter"
+   },
+   {
+    "date": "2026-05-20",
+    "filed": "2026-05-21",
+    "code": "P",
+    "value": 1380,
+    "who": "Altman Peter"
+   },
+   {
+    "date": "2026-05-18",
+    "filed": "2026-05-18",
+    "code": "P",
+    "value": 5244,
+    "who": "Altman Peter"
+   },
+   {
+    "date": "2026-05-15",
+    "filed": "2026-05-15",
+    "code": "P",
+    "value": 5202,
+    "who": "Altman Peter"
+   },
+   {
+    "date": "2026-04-29",
+    "filed": "2026-04-29",
+    "code": "P",
+    "value": 5550,
+    "who": "Altman Peter"
+   },
+   {
+    "date": "2026-04-20",
+    "filed": "2026-04-22",
+    "code": "P",
+    "value": 738,
+    "who": "Altman Peter"
+   },
+   {
+    "date": "2026-04-21",
+    "filed": "2026-04-22",
+    "code": "P",
+    "value": 492,
+    "who": "Altman Peter"
+   },
+   {
+    "date": "2026-03-24",
+    "filed": "2026-03-26",
+    "code": "P",
+    "value": 744,
+    "who": "Altman Peter"
+   },
+   {
+    "date": "2026-03-25",
+    "filed": "2026-03-26",
+    "code": "P",
+    "value": 366,
+    "who": "Altman Peter"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "biocardia",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05925608",
+    "drugs": [
+     "CardiALLO\u2122 Human Allogenic Culture-expanded Bone marrow-derived Mesenchymal Stem Cells (hMSCs)",
+     "Diagnostic Catheterization"
+    ]
+   }
+  ]
+ }
+}

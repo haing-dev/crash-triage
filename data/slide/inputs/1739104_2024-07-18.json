@@ -1,0 +1,64 @@
+{
+ "id": "1739104_2024-07-18",
+ "kind": "slide",
+ "cik": "1739104",
+ "name": "Elanco Animal Health Inc",
+ "date": "2024-07-18",
+ "asof": "2024-07-18",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-07-18",
+  "adj_close": 12.87
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 345000000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001739104-24-000018"
+ },
+ "burn6": {
+  "end": "2024-03-31",
+  "start": "2023-10-01",
+  "cash_used_ops": -159000000.0,
+  "capex": 48704000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-05-03",
+  "shares": 494181620
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 23,
+  "from": "2024-04-19",
+  "to": "2024-08-17",
+  "trades": [
+   {
+    "date": "2024-08-12",
+    "filed": "2024-08-13",
+    "code": "P",
+    "value": 1300610,
+    "who": "Simmons Jeffrey N"
+   },
+   {
+    "date": "2024-05-21",
+    "filed": "2024-05-23",
+    "code": "P",
+    "value": 254700,
+    "who": "DOYLE WILLIAM F"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "elanco animal health",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

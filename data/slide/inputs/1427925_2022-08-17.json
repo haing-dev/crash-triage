@@ -1,0 +1,59 @@
+{
+ "id": "1427925_2022-08-17",
+ "kind": "slide",
+ "cik": "1427925",
+ "name": "TALPHERA, INC.",
+ "date": "2022-08-17",
+ "asof": "2022-08-17",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-08-17",
+  "adj_close": 6.2
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 22923000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001437749-22-020168"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 17680000.0,
+  "capex": 158000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-08-05",
+  "shares": 147331963
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These conditions raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2022-05-19",
+  "to": "2022-09-16",
+  "trades": [
+   {
+    "date": "2022-06-07",
+    "filed": "2022-06-08",
+    "code": "P",
+    "value": 10333,
+    "who": "Angotti Vincent J."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "talphera",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

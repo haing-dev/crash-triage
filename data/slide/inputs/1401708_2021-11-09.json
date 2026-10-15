@@ -1,0 +1,170 @@
+{
+ "id": "1401708_2021-11-09",
+ "kind": "slide",
+ "cik": "1401708",
+ "name": "NS Wind Down Co., Inc.",
+ "date": "2021-11-09",
+ "asof": "2021-11-09",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-11-09",
+  "adj_close": 46.67
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 369854000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001401708-21-000223"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 44174000.0,
+  "capex": 2032000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-11-01",
+  "shares": 45651417
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 9,
+  "from": "2021-08-11",
+  "to": "2021-12-09",
+  "trades": [
+   {
+    "date": "2021-11-17",
+    "filed": "2021-11-19",
+    "code": "S",
+    "value": 343798,
+    "who": "Bailey K Thomas"
+   },
+   {
+    "date": "2021-11-17",
+    "filed": "2021-11-19",
+    "code": "S",
+    "value": 22781,
+    "who": "Bailey K Thomas"
+   },
+   {
+    "date": "2021-11-10",
+    "filed": "2021-11-12",
+    "code": "S",
+    "value": 8585,
+    "who": "GRAY R BRADLEY"
+   },
+   {
+    "date": "2021-11-10",
+    "filed": "2021-11-12",
+    "code": "S",
+    "value": 216244,
+    "who": "GRAY R BRADLEY"
+   },
+   {
+    "date": "2021-11-10",
+    "filed": "2021-11-12",
+    "code": "S",
+    "value": 427273,
+    "who": "GRAY R BRADLEY"
+   },
+   {
+    "date": "2021-11-10",
+    "filed": "2021-11-12",
+    "code": "S",
+    "value": 385275,
+    "who": "GRAY R BRADLEY"
+   },
+   {
+    "date": "2021-11-10",
+    "filed": "2021-11-12",
+    "code": "S",
+    "value": 115058,
+    "who": "GRAY R BRADLEY"
+   },
+   {
+    "date": "2021-11-10",
+    "filed": "2021-11-12",
+    "code": "S",
+    "value": 4864,
+    "who": "GRAY R BRADLEY"
+   },
+   {
+    "date": "2021-09-13",
+    "filed": "2021-09-15",
+    "code": "S",
+    "value": 178110,
+    "who": "Malloy Kirk"
+   },
+   {
+    "date": "2021-09-08",
+    "filed": "2021-09-10",
+    "code": "S",
+    "value": 851478,
+    "who": "GRAY R BRADLEY"
+   },
+   {
+    "date": "2021-09-08",
+    "filed": "2021-09-10",
+    "code": "S",
+    "value": 1055810,
+    "who": "GRAY R BRADLEY"
+   },
+   {
+    "date": "2021-09-08",
+    "filed": "2021-09-10",
+    "code": "S",
+    "value": 23516,
+    "who": "GRAY R BRADLEY"
+   },
+   {
+    "date": "2021-09-02",
+    "filed": "2021-09-03",
+    "code": "S",
+    "value": 790790,
+    "who": "BEECHEM JOSEPH M"
+   },
+   {
+    "date": "2021-09-02",
+    "filed": "2021-09-03",
+    "code": "S",
+    "value": 622416,
+    "who": "BEECHEM JOSEPH M"
+   },
+   {
+    "date": "2021-08-17",
+    "filed": "2021-08-19",
+    "code": "S",
+    "value": 354065,
+    "who": "Bailey K Thomas"
+   },
+   {
+    "date": "2021-08-17",
+    "filed": "2021-08-19",
+    "code": "S",
+    "value": 53711,
+    "who": "Bailey K Thomas"
+   },
+   {
+    "date": "2021-08-16",
+    "filed": "2021-08-18",
+    "code": "S",
+    "value": 83730,
+    "who": "Malloy Kirk"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "ns wind down",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

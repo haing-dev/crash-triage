@@ -1,0 +1,50 @@
+{
+ "id": "1966494_2025-01-30",
+ "kind": "crash",
+ "cik": "1966494",
+ "name": "CARGO Therapeutics, Inc.",
+ "date": "2025-01-30",
+ "asof": "2025-01-30",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-01-30",
+  "adj_close": 3.39
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 404848000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-24-125369"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": 74709000.0,
+  "capex": 2553614.945054945,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-11-07",
+  "shares": 46027727
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2024-11-01",
+  "to": "2025-03-01",
+  "trades": []
+ },
+ "drug": "firicabtagene autoleucel (firi-cel)",
+ "trials": {
+  "query": "cargo therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 1,
+  "examples": []
+ }
+}

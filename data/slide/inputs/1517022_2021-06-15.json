@@ -1,0 +1,107 @@
+{
+ "id": "1517022_2021-06-15",
+ "kind": "slide",
+ "cik": "1517022",
+ "name": "Akebia Therapeutics, Inc.",
+ "date": "2021-06-15",
+ "asof": "2021-06-15",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-06-15",
+  "adj_close": 3.52
+ },
+ "balance": {
+  "end": "2021-03-31",
+  "cash": 252765000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001628280-21-009696"
+ },
+ "burn6": {
+  "end": "2021-03-31",
+  "start": "2020-10-01",
+  "cash_used_ops": 101528000.0,
+  "capex": 376000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-04-30",
+  "shares": 160115163
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 19,
+  "from": "2021-03-17",
+  "to": "2021-07-15",
+  "trades": [
+   {
+    "date": "2021-06-07",
+    "filed": "2021-06-09",
+    "code": "S",
+    "value": 15163,
+    "who": "GILMAN STEVEN C"
+   },
+   {
+    "date": "2021-04-01",
+    "filed": "2021-04-01",
+    "code": "S",
+    "value": 3237,
+    "who": "Faulkingham Dell"
+   },
+   {
+    "date": "2021-04-01",
+    "filed": "2021-04-01",
+    "code": "S",
+    "value": 2686,
+    "who": "Spellman David A"
+   },
+   {
+    "date": "2021-04-01",
+    "filed": "2021-04-01",
+    "code": "S",
+    "value": 3604,
+    "who": "Hadas Nicole R."
+   },
+   {
+    "date": "2021-04-01",
+    "filed": "2021-04-01",
+    "code": "S",
+    "value": 4117,
+    "who": "Dahan Michel"
+   },
+   {
+    "date": "2021-04-01",
+    "filed": "2021-04-01",
+    "code": "S",
+    "value": 13971,
+    "who": "Butler John P."
+   },
+   {
+    "date": "2021-04-01",
+    "filed": "2021-04-01",
+    "code": "S",
+    "value": 3675,
+    "who": "Burke Steven Keith"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "akebia therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04313153",
+    "drugs": [
+     "Vadadustat",
+     "Darbepoetin alfa"
+    ]
+   }
+  ]
+ }
+}

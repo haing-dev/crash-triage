@@ -1,0 +1,136 @@
+{
+ "id": "1787306_2024-04-23",
+ "kind": "slide",
+ "cik": "1787306",
+ "name": "Arcutis Biotherapeutics, Inc.",
+ "date": "2024-04-23",
+ "asof": "2024-04-23",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-04-23",
+  "adj_close": 8.74
+ },
+ "balance": {
+  "end": "2023-12-31",
+  "cash": 271858000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001787306-24-000031"
+ },
+ "burn6": {
+  "end": "2023-12-31",
+  "start": "2023-07-01",
+  "cash_used_ops": 100228000.0,
+  "capex": 70000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-02-21",
+  "shares": 96813363
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "The inclusion of disclosures expressing substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 17,
+  "from": "2024-01-24",
+  "to": "2024-05-23",
+  "trades": [
+   {
+    "date": "2024-05-17",
+    "filed": "2024-05-20",
+    "code": "S",
+    "value": 68582,
+    "who": "Edwards Larry Todd"
+   },
+   {
+    "date": "2024-05-02",
+    "filed": "2024-05-03",
+    "code": "S",
+    "value": 40902,
+    "who": "Moore Matthew Richard"
+   },
+   {
+    "date": "2024-05-02",
+    "filed": "2024-05-03",
+    "code": "S",
+    "value": 120433,
+    "who": "Watanabe Todd Franklin"
+   },
+   {
+    "date": "2024-05-02",
+    "filed": "2024-05-03",
+    "code": "S",
+    "value": 43829,
+    "who": "Matsuda Masaru"
+   },
+   {
+    "date": "2024-05-02",
+    "filed": "2024-05-03",
+    "code": "S",
+    "value": 83490,
+    "who": "Burnett Patrick"
+   },
+   {
+    "date": "2024-03-04",
+    "filed": "2024-03-06",
+    "code": "S",
+    "value": 41816,
+    "who": "Matsuda Masaru"
+   },
+   {
+    "date": "2024-03-04",
+    "filed": "2024-03-06",
+    "code": "S",
+    "value": 53182,
+    "who": "Burnett Patrick"
+   },
+   {
+    "date": "2024-03-04",
+    "filed": "2024-03-06",
+    "code": "S",
+    "value": 165739,
+    "who": "Watanabe Todd Franklin"
+   },
+   {
+    "date": "2024-03-04",
+    "filed": "2024-03-06",
+    "code": "S",
+    "value": 38568,
+    "who": "Moore Matthew Richard"
+   },
+   {
+    "date": "2024-03-04",
+    "filed": "2024-03-06",
+    "code": "P",
+    "value": 199994,
+    "who": "Heron Patrick J"
+   },
+   {
+    "date": "2024-02-28",
+    "filed": "2024-03-01",
+    "code": "S",
+    "value": 26129,
+    "who": "Watanabe Todd Franklin"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "arcutis biotherapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04804605",
+    "drugs": [
+     "ARQ-151 Cream 0.15% or ARQ-151 Cream 0.05%"
+    ]
+   }
+  ]
+ }
+}

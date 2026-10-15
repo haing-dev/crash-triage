@@ -1,0 +1,71 @@
+{
+ "id": "1497253_2021-09-28",
+ "kind": "slide",
+ "cik": "1497253",
+ "name": "VivoSim Labs, INC.",
+ "date": "2021-09-28",
+ "asof": "2021-09-28",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-09-28",
+  "adj_close": 80.76
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 36008000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001564590-21-042137"
+ },
+ "burn6": {
+  "end": "2021-06-30",
+  "start": "2021-01-01",
+  "cash_used_ops": 3527000.0,
+  "capex": 305000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-08-01",
+  "shares": 8705358
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2021-06-30",
+  "to": "2021-10-28",
+  "trades": [
+   {
+    "date": "2021-08-17",
+    "filed": "2021-08-19",
+    "code": "P",
+    "value": 58838,
+    "who": "Cohen Douglas Jay"
+   },
+   {
+    "date": "2021-08-17",
+    "filed": "2021-08-19",
+    "code": "P",
+    "value": 6738,
+    "who": "Cohen Douglas Jay"
+   },
+   {
+    "date": "2021-08-17",
+    "filed": "2021-08-19",
+    "code": "P",
+    "value": 6720,
+    "who": "Cohen Douglas Jay"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "vivosim labs",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

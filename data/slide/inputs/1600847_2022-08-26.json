@@ -1,0 +1,64 @@
+{
+ "id": "1600847_2022-08-26",
+ "kind": "slide",
+ "cik": "1600847",
+ "name": "Gamida Cell Ltd.",
+ "date": "2022-08-26",
+ "asof": "2022-08-26",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-08-26",
+  "adj_close": 2.95
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 55062000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001213900-22-047684"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 39589000.0,
+  "capex": 1540000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-08-11",
+  "shares": 59977188
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "e.These conditions raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2022-05-28",
+  "to": "2022-09-25",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "gamida cell",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05296525",
+    "drugs": [
+     "GDA-201"
+    ]
+   },
+   {
+    "nct": "NCT04260698",
+    "drugs": [
+     "omidubicel"
+    ]
+   }
+  ]
+ }
+}

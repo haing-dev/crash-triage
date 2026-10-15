@@ -1,0 +1,59 @@
+{
+ "id": "725363_2021-05-17",
+ "kind": "slide",
+ "cik": "725363",
+ "name": "CEL SCI CORP",
+ "date": "2021-05-17",
+ "asof": "2021-05-17",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-05-17",
+  "adj_close": 566.70001
+ },
+ "balance": {
+  "end": "2021-03-31",
+  "cash": 17582729,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001654954-21-005882"
+ },
+ "burn6": {
+  "end": "2021-03-31",
+  "start": "2020-10-01",
+  "cash_used_ops": 8784495.0,
+  "capex": 6629050.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-05-11",
+  "shares": 40906593
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "The financial statements have been prepared assuming that the Company will continue as a going concern, but due to recurring losses from operations and future liquidity needs, there is substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 13,
+  "from": "2021-02-16",
+  "to": "2021-06-16",
+  "trades": [
+   {
+    "date": "2021-04-22",
+    "filed": "2021-04-23",
+    "code": "S",
+    "value": 243793,
+    "who": "CIPRIANO JOHN"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "cel sci",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

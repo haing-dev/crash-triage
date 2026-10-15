@@ -1,0 +1,161 @@
+{
+ "id": "1649904_2024-05-28",
+ "kind": "slide",
+ "cik": "1649904",
+ "name": "RHYTHM PHARMACEUTICALS, INC.",
+ "date": "2024-05-28",
+ "asof": "2024-05-28",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-05-28",
+  "adj_close": 36.21
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 201199000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001558370-24-007076"
+ },
+ "burn6": {
+  "end": "2024-03-31",
+  "start": "2023-10-01",
+  "cash_used_ops": 70126000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-05-01",
+  "shares": 60972909
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 25,
+  "from": "2024-02-28",
+  "to": "2024-06-27",
+  "trades": [
+   {
+    "date": "2024-05-09",
+    "filed": "2024-05-13",
+    "code": "S",
+    "value": 133708,
+    "who": "Shulman Joseph"
+   },
+   {
+    "date": "2024-05-09",
+    "filed": "2024-05-13",
+    "code": "S",
+    "value": 19551,
+    "who": "Shulman Joseph"
+   },
+   {
+    "date": "2024-04-02",
+    "filed": "2024-04-03",
+    "code": "S",
+    "value": 15368,
+    "who": "German Christopher Paul"
+   },
+   {
+    "date": "2024-03-21",
+    "filed": "2024-03-22",
+    "code": "S",
+    "value": 735600,
+    "who": "Shulman Joseph"
+   },
+   {
+    "date": "2024-03-20",
+    "filed": "2024-03-22",
+    "code": "S",
+    "value": 350439,
+    "who": "Lee Jennifer Kayden"
+   },
+   {
+    "date": "2024-03-20",
+    "filed": "2024-03-22",
+    "code": "S",
+    "value": 356566,
+    "who": "Lee Jennifer Kayden"
+   },
+   {
+    "date": "2024-03-19",
+    "filed": "2024-03-19",
+    "code": "S",
+    "value": 608498,
+    "who": "Smith Hunter C"
+   },
+   {
+    "date": "2024-03-19",
+    "filed": "2024-03-19",
+    "code": "S",
+    "value": 608498,
+    "who": "Shulman Joseph"
+   },
+   {
+    "date": "2024-03-19",
+    "filed": "2024-03-19",
+    "code": "S",
+    "value": 1784275,
+    "who": "Meeker David P"
+   },
+   {
+    "date": "2024-03-19",
+    "filed": "2024-03-19",
+    "code": "S",
+    "value": 627520,
+    "who": "Mazabraud Yann"
+   },
+   {
+    "date": "2024-03-19",
+    "filed": "2024-03-19",
+    "code": "S",
+    "value": 608498,
+    "who": "Lee Jennifer Kayden"
+   },
+   {
+    "date": "2024-03-19",
+    "filed": "2024-03-19",
+    "code": "S",
+    "value": 608498,
+    "who": "Cramer Pamela J."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "rhythm pharmaceuticals",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05093634",
+    "drugs": [
+     "Setmelanotide"
+    ]
+   },
+   {
+    "nct": "NCT06239116",
+    "drugs": [
+     "Part C: RM-718",
+     "Part D: RM-718"
+    ]
+   },
+   {
+    "nct": "NCT03651765",
+    "drugs": [
+     "Setmelanotide"
+    ]
+   },
+   {
+    "nct": "NCT05774756",
+    "drugs": [
+     "Setmelanotide"
+    ]
+   }
+  ]
+ }
+}

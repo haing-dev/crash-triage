@@ -1,0 +1,114 @@
+{
+ "id": "1991792_2025-02-11",
+ "kind": "slide",
+ "cik": "1991792",
+ "name": "CG Oncology, Inc.",
+ "date": "2025-02-11",
+ "asof": "2025-02-11",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-02-11",
+  "adj_close": 27.52
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 540710000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-24-124642"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": 32039000.0,
+  "capex": 13000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-11-07",
+  "shares": 67629675
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2024-11-13",
+  "to": "2025-03-13",
+  "trades": [
+   {
+    "date": "2025-02-18",
+    "filed": "2025-02-19",
+    "code": "S",
+    "value": 28610,
+    "who": "POST LEONARD E"
+   },
+   {
+    "date": "2025-01-13",
+    "filed": "2025-01-14",
+    "code": "S",
+    "value": 29660,
+    "who": "POST LEONARD E"
+   },
+   {
+    "date": "2024-12-16",
+    "filed": "2024-12-17",
+    "code": "S",
+    "value": 19600000,
+    "who": "Song Hong Fang"
+   },
+   {
+    "date": "2024-12-16",
+    "filed": "2024-12-17",
+    "code": "S",
+    "value": 28840,
+    "who": "POST LEONARD E"
+   },
+   {
+    "date": "2024-12-06",
+    "filed": "2024-12-06",
+    "code": "S",
+    "value": 25798,
+    "who": "POST LEONARD E"
+   },
+   {
+    "date": "2024-12-06",
+    "filed": "2024-12-06",
+    "code": "S",
+    "value": 8744,
+    "who": "POST LEONARD E"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "cg oncology",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06111235",
+    "drugs": [
+     "Cretostimogene Grenadenorepvec",
+     "n-dodecyl-B-D-maltoside"
+    ]
+   },
+   {
+    "nct": "NCT06567743",
+    "drugs": [
+     "Cretostimogene Grenadenorepvec"
+    ]
+   },
+   {
+    "nct": "NCT04452591",
+    "drugs": [
+     "Cretostimogene Grenadenorepvec",
+     "n-dodecyl-B-D-maltoside"
+    ]
+   }
+  ]
+ }
+}

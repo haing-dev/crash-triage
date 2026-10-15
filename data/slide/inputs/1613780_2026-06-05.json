@@ -1,0 +1,49 @@
+{
+ "id": "1613780_2026-06-05",
+ "kind": "slide",
+ "cik": "1613780",
+ "name": "DBV Technologies S.A.",
+ "date": "2026-06-05",
+ "asof": "2026-06-05",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-06-05",
+  "adj_close": 16.59
+ },
+ "balance": {
+  "end": "2026-03-31",
+  "cash": 229200000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001628280-26-028929"
+ },
+ "burn6": {
+  "end": "2026-03-31",
+  "start": "2025-10-01",
+  "cash_used_ops": 84273000.0,
+  "capex": 773000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-04-30",
+  "shares": 296042447
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2026-03-07",
+  "to": "2026-07-05",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "dbv technologies s a",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

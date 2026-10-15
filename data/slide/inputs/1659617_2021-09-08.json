@@ -1,0 +1,62 @@
+{
+ "id": "1659617_2021-09-08",
+ "kind": "slide",
+ "cik": "1659617",
+ "name": "Moleculin Biotech, Inc.",
+ "date": "2021-09-08",
+ "asof": "2021-09-08",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-09-08",
+  "adj_close": 1162.5
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 79506000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001437749-21-019445"
+ },
+ "burn6": {
+  "end": "2021-06-30",
+  "start": "2021-01-01",
+  "cash_used_ops": 10405000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-08-03",
+  "shares": 28552213
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2021-06-10",
+  "to": "2021-10-08",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "moleculin biotech",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04887298",
+    "drugs": [
+     "Liposomal Annamycin (L-Annamycin)"
+    ]
+   },
+   {
+    "nct": "NCT03388749",
+    "drugs": [
+     "Liposomal Annamycin"
+    ]
+   }
+  ]
+ }
+}

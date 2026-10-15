@@ -1,0 +1,147 @@
+{
+ "id": "1453687_2021-04-29",
+ "kind": "slide",
+ "cik": "1453687",
+ "name": "Cartesian Therapeutics, Inc.",
+ "date": "2021-04-29",
+ "asof": "2021-04-29",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-04-29",
+  "adj_close": 94.5
+ },
+ "balance": {
+  "end": "2020-12-31",
+  "cash": 138685000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001453687-21-000031"
+ },
+ "burn6": {
+  "end": "2020-12-31",
+  "start": "2020-07-01",
+  "cash_used_ops": -58387000.0,
+  "capex": 481000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-03-05",
+  "shares": 112373199
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 17,
+  "from": "2021-01-29",
+  "to": "2021-05-29",
+  "trades": [
+   {
+    "date": "2021-05-26",
+    "filed": "2021-05-27",
+    "code": "P",
+    "value": 79850,
+    "who": "TRABER PETER G"
+   },
+   {
+    "date": "2021-05-24",
+    "filed": "2021-05-26",
+    "code": "P",
+    "value": 1992076,
+    "who": "SPRINGER TIMOTHY A"
+   },
+   {
+    "date": "2021-05-25",
+    "filed": "2021-05-26",
+    "code": "P",
+    "value": 1362098,
+    "who": "SPRINGER TIMOTHY A"
+   },
+   {
+    "date": "2021-05-26",
+    "filed": "2021-05-26",
+    "code": "P",
+    "value": 3705699,
+    "who": "SPRINGER TIMOTHY A"
+   },
+   {
+    "date": "2021-05-24",
+    "filed": "2021-05-26",
+    "code": "P",
+    "value": 41498,
+    "who": "TRABER PETER G"
+   },
+   {
+    "date": "2021-05-25",
+    "filed": "2021-05-26",
+    "code": "P",
+    "value": 17400,
+    "who": "TRABER PETER G"
+   },
+   {
+    "date": "2021-05-21",
+    "filed": "2021-05-25",
+    "code": "P",
+    "value": 8847398,
+    "who": "SPRINGER TIMOTHY A"
+   },
+   {
+    "date": "2021-03-26",
+    "filed": "2021-03-30",
+    "code": "P",
+    "value": 41000,
+    "who": "BARABE TIMOTHY C"
+   },
+   {
+    "date": "2021-03-17",
+    "filed": "2021-03-19",
+    "code": "P",
+    "value": 45295,
+    "who": "TRABER PETER G"
+   },
+   {
+    "date": "2021-03-18",
+    "filed": "2021-03-19",
+    "code": "P",
+    "value": 45000,
+    "who": "TRABER PETER G"
+   },
+   {
+    "date": "2021-03-17",
+    "filed": "2021-03-19",
+    "code": "S",
+    "value": 67312,
+    "who": "Johnston Lloyd P."
+   },
+   {
+    "date": "2021-03-02",
+    "filed": "2021-03-03",
+    "code": "S",
+    "value": 23257,
+    "who": "Brunn Carsten"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "cartesian therapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04436029",
+    "drugs": [
+     "Descartes 11"
+    ]
+   },
+   {
+    "nct": "NCT04146051",
+    "drugs": [
+     "Descartes-08"
+    ]
+   }
+  ]
+ }
+}

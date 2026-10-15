@@ -1,0 +1,59 @@
+{
+ "id": "1512762_2026-08-24",
+ "kind": "slide",
+ "cik": "1512762",
+ "name": "Coherus Oncology, Inc.",
+ "date": "2026-08-24",
+ "asof": "2026-08-24",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-08-24",
+  "adj_close": 1.36
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 105306000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001104659-26-091262"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": 119976000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-07-31",
+  "shares": 154500966
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 9,
+  "from": "2026-05-26",
+  "to": "2026-09-23",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "coherus oncology",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06679985",
+    "drugs": [
+     "Casdozokitug",
+     "Toripalimab",
+     "Bevacizumab"
+    ]
+   }
+  ]
+ }
+}

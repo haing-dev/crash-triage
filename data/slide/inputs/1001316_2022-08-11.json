@@ -1,0 +1,79 @@
+{
+ "id": "1001316_2022-08-11",
+ "kind": "slide",
+ "cik": "1001316",
+ "name": "TG THERAPEUTICS, INC.",
+ "date": "2022-08-11",
+ "asof": "2022-08-11",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-08-11",
+  "adj_close": 7.52
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 195709000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001558370-22-012854"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 117805000.0,
+  "capex": 7000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-08-02",
+  "shares": 145274048
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 7,
+  "from": "2022-05-13",
+  "to": "2022-09-10",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "tg therapeutics",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT02612311",
+    "drugs": [
+     "Obinutuzumab",
+     "Ublituximab",
+     "TGR-1202"
+    ]
+   },
+   {
+    "nct": "NCT03381170",
+    "drugs": [
+     "Ublituximab"
+    ]
+   },
+   {
+    "nct": "NCT03801525",
+    "drugs": [
+     "Ublituximab",
+     "Umbralisib",
+     "Venetoclax"
+    ]
+   },
+   {
+    "nct": "NCT04130997",
+    "drugs": [
+     "Ublituximab"
+    ]
+   }
+  ]
+ }
+}

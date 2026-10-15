@@ -1,0 +1,49 @@
+{
+ "id": "1429260_2026-08-11",
+ "kind": "slide",
+ "cik": "1429260",
+ "name": "Fortress Biotech, Inc.",
+ "date": "2026-08-11",
+ "asof": "2026-08-11",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-08-11",
+  "adj_close": 2.61
+ },
+ "balance": {
+  "end": "2026-03-31",
+  "cash": 255841000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001104659-26-061233"
+ },
+ "burn6": {
+  "end": "2026-03-31",
+  "start": "2025-10-01",
+  "cash_used_ops": -191307000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2020-05-07",
+  "shares": 82474127
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2026-05-13",
+  "to": "2026-09-10",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "fortress biotech",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

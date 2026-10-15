@@ -1,0 +1,59 @@
+{
+ "id": "1763950_2023-03-10",
+ "kind": "slide",
+ "cik": "1763950",
+ "name": "Lantern Pharma Inc.",
+ "date": "2023-03-10",
+ "asof": "2023-03-10",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-03-10",
+  "adj_close": 4.3
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 57826612,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001493152-22-030819"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 6770899.0,
+  "capex": 14026.349117647058,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-11-01",
+  "shares": 10857040
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2022-12-10",
+  "to": "2023-04-09",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "lantern pharma",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05456256",
+    "drugs": [
+     "LP-300",
+     "Pemetrexed",
+     "Carboplatin"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,123 @@
+{
+ "id": "887359_2021-08-10",
+ "kind": "slide",
+ "cik": "887359",
+ "name": "Vericel Corp",
+ "date": "2021-08-10",
+ "asof": "2021-08-10",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-08-10",
+  "adj_close": 46.71
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 115801000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0001628280-21-015540"
+ },
+ "burn6": {
+  "end": "2021-06-30",
+  "start": "2021-01-01",
+  "cash_used_ops": -14855000.0,
+  "capex": 4461000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-07-30",
+  "shares": 46631158
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2021-05-12",
+  "to": "2021-09-09",
+  "trades": [
+   {
+    "date": "2021-08-27",
+    "filed": "2021-08-31",
+    "code": "S",
+    "value": 396760,
+    "who": "Flynn Sean C."
+   },
+   {
+    "date": "2021-08-16",
+    "filed": "2021-08-18",
+    "code": "S",
+    "value": 720480,
+    "who": "Halpin Michael"
+   },
+   {
+    "date": "2021-07-21",
+    "filed": "2021-07-23",
+    "code": "S",
+    "value": 154028,
+    "who": "Flynn Sean C."
+   },
+   {
+    "date": "2021-07-15",
+    "filed": "2021-07-16",
+    "code": "S",
+    "value": 511786,
+    "who": "Flynn Sean C."
+   },
+   {
+    "date": "2021-07-12",
+    "filed": "2021-07-14",
+    "code": "S",
+    "value": 1070876,
+    "who": "Halpin Michael"
+   },
+   {
+    "date": "2021-06-30",
+    "filed": "2021-07-02",
+    "code": "S",
+    "value": 7657,
+    "who": "Hopper Jonathan Mark"
+   },
+   {
+    "date": "2021-05-14",
+    "filed": "2021-05-17",
+    "code": "S",
+    "value": 252611,
+    "who": "Wotton Paul K"
+   },
+   {
+    "date": "2021-05-11",
+    "filed": "2021-05-13",
+    "code": "S",
+    "value": 673922,
+    "who": "Wotton Paul K"
+   },
+   {
+    "date": "2021-05-12",
+    "filed": "2021-05-13",
+    "code": "S",
+    "value": 107534,
+    "who": "Wotton Paul K"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "vericel",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03588975",
+    "drugs": [
+     "MACI",
+     "microfracture"
+    ]
+   }
+  ]
+ }
+}

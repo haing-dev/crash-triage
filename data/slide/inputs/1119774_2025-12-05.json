@@ -1,0 +1,58 @@
+{
+ "id": "1119774_2025-12-05",
+ "kind": "slide",
+ "cik": "1119774",
+ "name": "COMPUGEN LTD",
+ "date": "2025-12-05",
+ "asof": "2025-12-05",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-12-05",
+  "adj_close": 1.51
+ },
+ "balance": {
+  "end": "2025-06-30",
+  "cash": 35342000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001178913-25-002650"
+ },
+ "burn6": {
+  "end": "2025-06-30",
+  "start": "2025-01-01",
+  "cash_used_ops": 18564000.0,
+  "capex": 230000.0,
+  "periods": 1
+ },
+ "shares": {
+  "end": "2024-12-31",
+  "shares": 89541246
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2025-09-06",
+  "to": "2026-01-04",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "compugen",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06888921",
+    "drugs": [
+     "COM701",
+     "Normal Saline"
+    ]
+   }
+  ]
+ }
+}

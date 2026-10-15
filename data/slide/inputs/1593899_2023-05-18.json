@@ -1,0 +1,57 @@
+{
+ "id": "1593899_2023-05-18",
+ "kind": "slide",
+ "cik": "1593899",
+ "name": "Atea Pharmaceuticals, Inc.",
+ "date": "2023-05-18",
+ "asof": "2023-05-18",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-05-18",
+  "adj_close": 3.59
+ },
+ "balance": {
+  "end": "2023-03-31",
+  "cash": 620488000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0000950170-23-018869"
+ },
+ "burn6": {
+  "end": "2023-03-31",
+  "start": "2022-10-01",
+  "cash_used_ops": 51395000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-05-05",
+  "shares": 83399377
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2023-02-17",
+  "to": "2023-06-17",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "atea pharmaceuticals",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05629962",
+    "drugs": [
+     "Bemnifosbuvir (BEM)"
+    ]
+   }
+  ]
+ }
+}

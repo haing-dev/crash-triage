@@ -1,0 +1,142 @@
+{
+ "id": "1479290_2023-06-26",
+ "kind": "slide",
+ "cik": "1479290",
+ "name": "Revance Therapeutics, Inc.",
+ "date": "2023-06-26",
+ "asof": "2023-06-26",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-06-26",
+  "adj_close": 25.35
+ },
+ "balance": {
+  "end": "2023-03-31",
+  "cash": 273949000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001479290-23-000072"
+ },
+ "burn6": {
+  "end": "2023-03-31",
+  "start": "2022-10-01",
+  "cash_used_ops": 99682000.0,
+  "capex": 2158000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-04-28",
+  "shares": 84040352
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 20,
+  "from": "2023-03-28",
+  "to": "2023-07-26",
+  "trades": [
+   {
+    "date": "2023-07-03",
+    "filed": "2023-07-05",
+    "code": "S",
+    "value": 42593,
+    "who": "Schilke Tobin"
+   },
+   {
+    "date": "2023-07-03",
+    "filed": "2023-07-05",
+    "code": "S",
+    "value": 655333,
+    "who": "Foley Mark J"
+   },
+   {
+    "date": "2023-06-15",
+    "filed": "2023-06-20",
+    "code": "S",
+    "value": 70600,
+    "who": "Kolaja Carey OConnor"
+   },
+   {
+    "date": "2023-06-09",
+    "filed": "2023-06-13",
+    "code": "S",
+    "value": 154096,
+    "who": "Sjuts Dustin S"
+   },
+   {
+    "date": "2023-06-09",
+    "filed": "2023-06-13",
+    "code": "S",
+    "value": 960928,
+    "who": "Foley Mark J"
+   },
+   {
+    "date": "2023-06-01",
+    "filed": "2023-06-05",
+    "code": "S",
+    "value": 82570,
+    "who": "Schilke Tobin"
+   },
+   {
+    "date": "2023-06-02",
+    "filed": "2023-06-05",
+    "code": "S",
+    "value": 15500,
+    "who": "Schilke Tobin"
+   },
+   {
+    "date": "2023-05-15",
+    "filed": "2023-05-16",
+    "code": "S",
+    "value": 739338,
+    "who": "Moxie Dwight"
+   },
+   {
+    "date": "2023-05-15",
+    "filed": "2023-05-16",
+    "code": "S",
+    "value": 739338,
+    "who": "Schilke Tobin"
+   },
+   {
+    "date": "2023-05-15",
+    "filed": "2023-05-16",
+    "code": "S",
+    "value": 2433725,
+    "who": "Foley Mark J"
+   },
+   {
+    "date": "2023-05-15",
+    "filed": "2023-05-16",
+    "code": "S",
+    "value": 726003,
+    "who": "Sjuts Dustin S"
+   },
+   {
+    "date": "2023-05-01",
+    "filed": "2023-05-02",
+    "code": "S",
+    "value": 101472,
+    "who": "Schilke Tobin"
+   },
+   {
+    "date": "2023-04-03",
+    "filed": "2023-04-04",
+    "code": "S",
+    "value": 102912,
+    "who": "Schilke Tobin"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "revance therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

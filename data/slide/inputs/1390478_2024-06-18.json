@@ -1,0 +1,66 @@
+{
+ "id": "1390478_2024-06-18",
+ "kind": "slide",
+ "cik": "1390478",
+ "name": "SELLAS Life Sciences Group, Inc.",
+ "date": "2024-06-18",
+ "asof": "2024-06-18",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-06-18",
+  "adj_close": 1.06
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 18415000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001390478-24-000010"
+ },
+ "burn6": {
+  "end": "2024-03-31",
+  "start": "2023-10-01",
+  "cash_used_ops": 15586000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-05-13",
+  "shares": 57754928
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2024-03-20",
+  "to": "2024-07-18",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "sellas life sciences",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04229979",
+    "drugs": [
+     "Galinpepimut-S",
+     "Azacitidine",
+     "Venetoclax"
+    ]
+   },
+   {
+    "nct": "NCT04588922",
+    "drugs": [
+     "SLS009",
+     "venetoclax",
+     "azacitidine"
+    ]
+   }
+  ]
+ }
+}

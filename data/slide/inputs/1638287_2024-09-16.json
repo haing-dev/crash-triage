@@ -1,0 +1,65 @@
+{
+ "id": "1638287_2024-09-16",
+ "kind": "slide",
+ "cik": "1638287",
+ "name": "MetaVia Inc.",
+ "date": "2024-09-16",
+ "asof": "2024-09-16",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-09-16",
+  "adj_close": 37.84
+ },
+ "balance": {
+  "end": "2024-06-30",
+  "cash": 27934000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-24-012272"
+ },
+ "burn6": {
+  "end": "2024-06-30",
+  "start": "2024-01-01",
+  "cash_used_ops": 13693000.0,
+  "capex": 8000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-08-09",
+  "shares": 8459196
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These conditions raise substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2024-06-18",
+  "to": "2024-10-16",
+  "trades": [
+   {
+    "date": "2024-09-12",
+    "filed": "2024-09-20",
+    "code": "S",
+    "value": 1526,
+    "who": "DONG-A ST CO., LTD"
+   },
+   {
+    "date": "2024-06-23",
+    "filed": "2024-06-25",
+    "code": "P",
+    "value": 7964379,
+    "who": "DONG-A ST CO., LTD"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "metavia",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

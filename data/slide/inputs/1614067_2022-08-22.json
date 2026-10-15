@@ -1,0 +1,63 @@
+{
+ "id": "1614067_2022-08-22",
+ "kind": "slide",
+ "cik": "1614067",
+ "name": "Aridis Pharmaceuticals, Inc.",
+ "date": "2022-08-22",
+ "asof": "2022-08-22",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-08-22",
+  "adj_close": 1.5
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 6317000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001493152-22-023089"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 16305000.0,
+  "capex": 33000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-07-29",
+  "shares": 17701592
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "There is substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2022-05-24",
+  "to": "2022-09-21",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "aridis pharmaceuticals",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03816956",
+    "drugs": [
+     "AR-301"
+    ]
+   },
+   {
+    "nct": "NCT03669614",
+    "drugs": [
+     "Inhaled AR-501"
+    ]
+   }
+  ]
+ }
+}

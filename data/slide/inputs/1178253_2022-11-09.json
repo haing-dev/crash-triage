@@ -1,0 +1,84 @@
+{
+ "id": "1178253_2022-11-09",
+ "kind": "slide",
+ "cik": "1178253",
+ "name": "SCYNEXIS INC",
+ "date": "2022-11-09",
+ "asof": "2022-11-09",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-11-09",
+  "adj_close": 14.4
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 96090000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-22-023822"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 41089000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-11-01",
+  "shares": 32656992
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2022-08-11",
+  "to": "2022-12-09",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "scynexis",
+  "other_trials": 5,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05178862",
+    "drugs": [
+     "SCY-078",
+     "Fluconazole",
+     "Echinocandin"
+    ]
+   },
+   {
+    "nct": "NCT03059992",
+    "drugs": [
+     "Ibrexafungerp"
+    ]
+   },
+   {
+    "nct": "NCT05399641",
+    "drugs": [
+     "Ibrexafungerp"
+    ]
+   },
+   {
+    "nct": "NCT03672292",
+    "drugs": [
+     "SCY-078",
+     "Voriconazole"
+    ]
+   },
+   {
+    "nct": "NCT03363841",
+    "drugs": [
+     "SCY-078"
+    ]
+   }
+  ]
+ }
+}

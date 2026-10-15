@@ -1,0 +1,175 @@
+{
+ "id": "1725160_2022-10-20",
+ "kind": "slide",
+ "cik": "1725160",
+ "name": "Zentalis Pharmaceuticals, Inc.",
+ "date": "2022-10-20",
+ "asof": "2022-10-20",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-10-20",
+  "adj_close": 21.53
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 55143000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001725160-22-000155"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 93223000.0,
+  "capex": 728000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-08-08",
+  "shares": 56983641
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "The Company determined that there are no conditions or events that raise substantial doubt about its ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2022-07-22",
+  "to": "2022-11-19",
+  "trades": [
+   {
+    "date": "2022-11-15",
+    "filed": "2022-11-15",
+    "code": "S",
+    "value": 263552,
+    "who": "Gallagher Cam"
+   },
+   {
+    "date": "2022-11-15",
+    "filed": "2022-11-15",
+    "code": "S",
+    "value": 21131,
+    "who": "Gallagher Cam"
+   },
+   {
+    "date": "2022-11-07",
+    "filed": "2022-11-08",
+    "code": "S",
+    "value": 292055,
+    "who": "Gallagher Cam"
+   },
+   {
+    "date": "2022-11-07",
+    "filed": "2022-11-08",
+    "code": "S",
+    "value": 3805,
+    "who": "Gallagher Cam"
+   },
+   {
+    "date": "2022-11-08",
+    "filed": "2022-11-08",
+    "code": "S",
+    "value": 291543,
+    "who": "Gallagher Cam"
+   },
+   {
+    "date": "2022-10-17",
+    "filed": "2022-10-17",
+    "code": "S",
+    "value": 293879,
+    "who": "Gallagher Cam"
+   },
+   {
+    "date": "2022-10-05",
+    "filed": "2022-10-07",
+    "code": "S",
+    "value": 153528,
+    "who": "Gallagher Cam"
+   },
+   {
+    "date": "2022-10-05",
+    "filed": "2022-10-07",
+    "code": "S",
+    "value": 125478,
+    "who": "Gallagher Cam"
+   },
+   {
+    "date": "2022-10-06",
+    "filed": "2022-10-07",
+    "code": "S",
+    "value": 226180,
+    "who": "Gallagher Cam"
+   },
+   {
+    "date": "2022-09-15",
+    "filed": "2022-09-16",
+    "code": "S",
+    "value": 211517,
+    "who": "Gallagher Cam"
+   },
+   {
+    "date": "2022-09-15",
+    "filed": "2022-09-16",
+    "code": "S",
+    "value": 104240,
+    "who": "Gallagher Cam"
+   },
+   {
+    "date": "2022-09-16",
+    "filed": "2022-09-16",
+    "code": "S",
+    "value": 216158,
+    "who": "Gallagher Cam"
+   },
+   {
+    "date": "2022-09-16",
+    "filed": "2022-09-16",
+    "code": "S",
+    "value": 28338,
+    "who": "Gallagher Cam"
+   },
+   {
+    "date": "2022-08-10",
+    "filed": "2022-08-12",
+    "code": "S",
+    "value": 150000,
+    "who": "Bunker Kevin D."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "zentalis pharmaceuticals",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04814108",
+    "drugs": [
+     "Azenosertib"
+    ]
+   },
+   {
+    "nct": "NCT05128825",
+    "drugs": [
+     "azenosertib"
+    ]
+   },
+   {
+    "nct": "NCT05199337",
+    "drugs": [
+     "ZN-d5"
+    ]
+   },
+   {
+    "nct": "NCT05198804",
+    "drugs": [
+     "Azenosertib",
+     "Niraparib"
+    ]
+   }
+  ]
+ }
+}

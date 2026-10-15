@@ -1,0 +1,56 @@
+{
+ "id": "1671584_2023-07-12",
+ "kind": "slide",
+ "cik": "1671584",
+ "name": "Aptevo Therapeutics Inc.",
+ "date": "2023-07-12",
+ "asof": "2023-07-12",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-07-12",
+  "adj_close": 937728.0
+ },
+ "balance": {
+  "end": "2023-03-31",
+  "cash": 25328000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-23-020870"
+ },
+ "burn6": {
+  "end": "2023-03-31",
+  "start": "2022-10-01",
+  "cash_used_ops": 1373000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-05-11",
+  "shares": 7290121
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 14,
+  "from": "2023-04-13",
+  "to": "2023-08-11",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "aptevo therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05934539",
+    "drugs": [
+     "ALG.APV-527"
+    ]
+   }
+  ]
+ }
+}

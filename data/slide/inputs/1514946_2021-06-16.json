@@ -1,0 +1,49 @@
+{
+ "id": "1514946_2021-06-16",
+ "kind": "slide",
+ "cik": "1514946",
+ "name": "AXIM BIOTECHNOLOGIES, INC.",
+ "date": "2021-06-16",
+ "asof": "2021-06-16",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-06-16",
+  "adj_close": 0.82
+ },
+ "balance": {
+  "end": "2021-03-31",
+  "cash": 449214,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001078782-21-000516"
+ },
+ "burn6": {
+  "end": "2021-03-31",
+  "start": "2020-10-01",
+  "cash_used_ops": 1188994.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-05-24",
+  "shares": 128860100
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2021-03-18",
+  "to": "2021-07-16",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "axim biotechnologies",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

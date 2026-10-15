@@ -1,0 +1,59 @@
+{
+ "id": "818033_2024-08-05",
+ "kind": "slide",
+ "cik": "818033",
+ "name": "HERON THERAPEUTICS, INC. /DE/",
+ "date": "2024-08-05",
+ "asof": "2024-08-05",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-08-05",
+  "adj_close": 2.63
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 71524000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0000950170-24-053964"
+ },
+ "burn6": {
+  "end": "2024-03-31",
+  "start": "2023-10-01",
+  "cash_used_ops": 7061000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-05-02",
+  "shares": 150653158
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2024-05-07",
+  "to": "2024-09-04",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "heron therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03922048",
+    "drugs": [
+     "HTX-011",
+     "Bupivacaine HCl",
+     "HTX-011"
+    ]
+   }
+  ]
+ }
+}

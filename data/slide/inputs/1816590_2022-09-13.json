@@ -1,0 +1,56 @@
+{
+ "id": "1816590_2022-09-13",
+ "kind": "slide",
+ "cik": "1816590",
+ "name": "COMPASS Pathways plc",
+ "date": "2022-09-13",
+ "asof": "2022-09-13",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-09-13",
+  "adj_close": 13.93
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 207177000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001628280-22-020847"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 41128000.0,
+  "capex": 494000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-08-03",
+  "shares": 42522397
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 7,
+  "from": "2022-06-15",
+  "to": "2022-10-13",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "compass pathways",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05312151",
+    "drugs": [
+     "Psilocybin"
+    ]
+   }
+  ]
+ }
+}

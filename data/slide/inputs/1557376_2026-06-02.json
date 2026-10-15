@@ -1,0 +1,49 @@
+{
+ "id": "1557376_2026-06-02",
+ "kind": "slide",
+ "cik": "1557376",
+ "name": "Zeo ScientifiX, Inc.",
+ "date": "2026-06-02",
+ "asof": "2026-06-02",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-06-02",
+  "adj_close": 1.9
+ },
+ "balance": {
+  "end": "2026-01-31",
+  "cash": 1030000,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0001829126-26-002396"
+ },
+ "burn6": {
+  "end": "2026-01-31",
+  "start": "2025-08-01",
+  "cash_used_ops": 854000.0,
+  "capex": 14000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-03-16",
+  "shares": 7777441
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2026-03-04",
+  "to": "2026-07-02",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "zeo scientifix",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

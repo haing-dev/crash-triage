@@ -1,0 +1,71 @@
+{
+ "id": "1267565_2021-08-12",
+ "kind": "slide",
+ "cik": "1267565",
+ "name": "COLLEGIUM PHARMACEUTICAL, INC",
+ "date": "2021-08-12",
+ "asof": "2021-08-12",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-08-12",
+  "adj_close": 18.22
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 202771000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-21-010562"
+ },
+ "burn6": {
+  "end": "2021-06-30",
+  "start": "2021-01-01",
+  "cash_used_ops": -50105000.0,
+  "capex": 1153000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-07-31",
+  "shares": 35564465
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 13,
+  "from": "2021-05-14",
+  "to": "2021-09-11",
+  "trades": [
+   {
+    "date": "2021-06-01",
+    "filed": "2021-06-03",
+    "code": "S",
+    "value": 123272,
+    "who": "Ciaffoni Joseph"
+   },
+   {
+    "date": "2021-06-01",
+    "filed": "2021-06-03",
+    "code": "S",
+    "value": 252641,
+    "who": "Ciaffoni Joseph"
+   },
+   {
+    "date": "2021-06-02",
+    "filed": "2021-06-03",
+    "code": "S",
+    "value": 133689,
+    "who": "Ciaffoni Joseph"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "collegium pharmaceutical",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

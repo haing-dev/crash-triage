@@ -1,0 +1,50 @@
+{
+ "id": "1596062_2021-05-03",
+ "kind": "slide",
+ "cik": "1596062",
+ "name": "Q BioMed Inc.",
+ "date": "2021-05-03",
+ "asof": "2021-05-03",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-05-03",
+  "adj_close": 0.965
+ },
+ "balance": {
+  "end": "2021-02-28",
+  "cash": 435124,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001104659-21-050307"
+ },
+ "burn6": {
+  "end": "2021-02-28",
+  "start": "2020-09-01",
+  "cash_used_ops": 2289185.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-04-05",
+  "shares": 26122347
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Management has determined that there is substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2021-02-02",
+  "to": "2021-06-02",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "q biomed",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

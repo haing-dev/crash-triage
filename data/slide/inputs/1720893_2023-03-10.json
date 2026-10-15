@@ -1,0 +1,216 @@
+{
+ "id": "1720893_2023-03-10",
+ "kind": "slide",
+ "cik": "1720893",
+ "name": "BioXcel Therapeutics, Inc.",
+ "date": "2023-03-10",
+ "asof": "2023-03-10",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-03-10",
+  "adj_close": 330.56
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 232314000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-22-017592"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 64289000.0,
+  "capex": 19000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-11-07",
+  "shares": 28023225
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2022-12-10",
+  "to": "2023-04-09",
+  "trades": [
+   {
+    "date": "2023-03-20",
+    "filed": "2023-03-22",
+    "code": "S",
+    "value": 448939,
+    "who": "Mehta Vimal"
+   },
+   {
+    "date": "2023-03-20",
+    "filed": "2023-03-22",
+    "code": "S",
+    "value": 100580,
+    "who": "Mehta Vimal"
+   },
+   {
+    "date": "2023-03-20",
+    "filed": "2023-03-22",
+    "code": "S",
+    "value": 70985,
+    "who": "Mehta Vimal"
+   },
+   {
+    "date": "2023-03-20",
+    "filed": "2023-03-22",
+    "code": "S",
+    "value": 11404,
+    "who": "Mehta Vimal"
+   },
+   {
+    "date": "2023-03-21",
+    "filed": "2023-03-22",
+    "code": "S",
+    "value": 573270,
+    "who": "Mehta Vimal"
+   },
+   {
+    "date": "2023-03-21",
+    "filed": "2023-03-22",
+    "code": "S",
+    "value": 18135,
+    "who": "Mehta Vimal"
+   },
+   {
+    "date": "2023-03-15",
+    "filed": "2023-03-16",
+    "code": "S",
+    "value": 40638,
+    "who": "Steinhart Richard I"
+   },
+   {
+    "date": "2023-03-15",
+    "filed": "2023-03-16",
+    "code": "S",
+    "value": 19396,
+    "who": "Yocca Frank"
+   },
+   {
+    "date": "2023-03-15",
+    "filed": "2023-03-16",
+    "code": "S",
+    "value": 16642,
+    "who": "O'Neill Vincent"
+   },
+   {
+    "date": "2023-03-15",
+    "filed": "2023-03-16",
+    "code": "S",
+    "value": 18644,
+    "who": "Rodriguez Javier"
+   },
+   {
+    "date": "2023-01-20",
+    "filed": "2023-01-24",
+    "code": "S",
+    "value": 1500000,
+    "who": "Yocca Frank"
+   },
+   {
+    "date": "2023-01-20",
+    "filed": "2023-01-24",
+    "code": "S",
+    "value": 891390,
+    "who": "O'Neill Vincent"
+   },
+   {
+    "date": "2023-01-04",
+    "filed": "2023-01-06",
+    "code": "S",
+    "value": 524421,
+    "who": "Nandabalan Krishnan"
+   },
+   {
+    "date": "2023-01-04",
+    "filed": "2023-01-06",
+    "code": "S",
+    "value": 218124,
+    "who": "Nandabalan Krishnan"
+   },
+   {
+    "date": "2023-01-05",
+    "filed": "2023-01-06",
+    "code": "S",
+    "value": 559986,
+    "who": "Nandabalan Krishnan"
+   },
+   {
+    "date": "2023-01-05",
+    "filed": "2023-01-06",
+    "code": "S",
+    "value": 18344,
+    "who": "Nandabalan Krishnan"
+   },
+   {
+    "date": "2022-12-15",
+    "filed": "2022-12-19",
+    "code": "S",
+    "value": 452689,
+    "who": "Mehta Vimal"
+   },
+   {
+    "date": "2022-12-15",
+    "filed": "2022-12-19",
+    "code": "S",
+    "value": 145489,
+    "who": "Mehta Vimal"
+   },
+   {
+    "date": "2022-12-16",
+    "filed": "2022-12-19",
+    "code": "S",
+    "value": 386371,
+    "who": "Mehta Vimal"
+   },
+   {
+    "date": "2022-12-16",
+    "filed": "2022-12-19",
+    "code": "S",
+    "value": 196949,
+    "who": "Mehta Vimal"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "bioxcel therapeutics",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05665088",
+    "drugs": [
+     "BXCL501"
+    ]
+   },
+   {
+    "nct": "NCT05271552",
+    "drugs": [
+     "BXCL501"
+    ]
+   },
+   {
+    "nct": "NCT03910660",
+    "drugs": [
+     "BXCL701 plus Pembrolizumab",
+     "BXCL701 monotherapy"
+    ]
+   },
+   {
+    "nct": "NCT05658510",
+    "drugs": [
+     "BXCL501"
+    ]
+   }
+  ]
+ }
+}

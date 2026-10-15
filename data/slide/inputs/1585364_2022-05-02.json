@@ -1,0 +1,71 @@
+{
+ "id": "1585364_2022-05-02",
+ "kind": "slide",
+ "cik": "1585364",
+ "name": "PERRIGO Co plc",
+ "date": "2022-05-02",
+ "asof": "2022-05-02",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-05-02",
+  "adj_close": 33.44
+ },
+ "balance": {
+  "end": "2021-12-31",
+  "cash": 1864900000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001585364-22-000011"
+ },
+ "burn6": {
+  "end": "2021-12-31",
+  "start": "2021-07-04",
+  "cash_used_ops": -238400000.0,
+  "capex": 83700000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-02-25",
+  "shares": 133784716
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 22,
+  "from": "2022-02-01",
+  "to": "2022-06-01",
+  "trades": [
+   {
+    "date": "2022-03-14",
+    "filed": "2022-03-16",
+    "code": "S",
+    "value": 909079,
+    "who": "Farrington Thomas"
+   },
+   {
+    "date": "2022-03-14",
+    "filed": "2022-03-16",
+    "code": "S",
+    "value": 84103,
+    "who": "Farrington Thomas"
+   },
+   {
+    "date": "2022-03-07",
+    "filed": "2022-03-08",
+    "code": "S",
+    "value": 145232,
+    "who": "Janish Ronald Craig"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "perrigo",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

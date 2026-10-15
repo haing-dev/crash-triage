@@ -1,0 +1,101 @@
+{
+ "id": "1599298_2024-06-04",
+ "kind": "slide",
+ "cik": "1599298",
+ "name": "Summit Therapeutics Inc.",
+ "date": "2024-06-04",
+ "asof": "2024-06-04",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-06-04",
+  "adj_close": 7.305
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 156680000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001599298-24-000085"
+ },
+ "burn6": {
+  "end": "2024-03-31",
+  "start": "2023-10-01",
+  "cash_used_ops": 49593000.0,
+  "capex": 6000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-04-22",
+  "shares": 701979596
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These conditions raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2024-03-06",
+  "to": "2024-07-04",
+  "trades": [
+   {
+    "date": "2024-03-27",
+    "filed": "2024-03-27",
+    "code": "P",
+    "value": 96720,
+    "who": "Zanganeh Mahkam"
+   },
+   {
+    "date": "2024-03-27",
+    "filed": "2024-03-27",
+    "code": "P",
+    "value": 127674,
+    "who": "Zanganeh Mahkam"
+   },
+   {
+    "date": "2024-03-26",
+    "filed": "2024-03-27",
+    "code": "P",
+    "value": 112500,
+    "who": "Zanganeh Mahkam"
+   },
+   {
+    "date": "2024-03-27",
+    "filed": "2024-03-27",
+    "code": "P",
+    "value": 74200,
+    "who": "Zanganeh Mahkam"
+   },
+   {
+    "date": "2024-03-26",
+    "filed": "2024-03-27",
+    "code": "P",
+    "value": 375000,
+    "who": "Dhingra Ankur"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "summit therapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05899608",
+    "drugs": [
+     "Ivonescimab Injection",
+     "Pembrolizumab Injection"
+    ]
+   },
+   {
+    "nct": "NCT06396065",
+    "drugs": [
+     "AK112 Injection"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,93 @@
+{
+ "id": "1787400_2021-09-29",
+ "kind": "slide",
+ "cik": "1787400",
+ "name": "Nkarta, Inc.",
+ "date": "2021-09-29",
+ "asof": "2021-09-29",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-09-29",
+  "adj_close": 26.67
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 279803000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001564590-21-044018"
+ },
+ "burn6": {
+  "end": "2021-06-30",
+  "start": "2021-01-01",
+  "cash_used_ops": 32099000.0,
+  "capex": 2411000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-08-09",
+  "shares": 32906550
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2021-07-01",
+  "to": "2021-10-29",
+  "trades": [
+   {
+    "date": "2021-09-29",
+    "filed": "2021-10-01",
+    "code": "S",
+    "value": 225134,
+    "who": "HASTINGS PAUL J"
+   },
+   {
+    "date": "2021-09-29",
+    "filed": "2021-10-01",
+    "code": "S",
+    "value": 5916,
+    "who": "HASTINGS PAUL J"
+   },
+   {
+    "date": "2021-09-01",
+    "filed": "2021-09-02",
+    "code": "S",
+    "value": 132811,
+    "who": "Brandenberger Ralph"
+   },
+   {
+    "date": "2021-08-05",
+    "filed": "2021-08-09",
+    "code": "S",
+    "value": 372800,
+    "who": "Rajangam Kanya"
+   },
+   {
+    "date": "2021-08-02",
+    "filed": "2021-08-04",
+    "code": "S",
+    "value": 113508,
+    "who": "Trager James"
+   },
+   {
+    "date": "2021-07-01",
+    "filed": "2021-07-06",
+    "code": "S",
+    "value": 206115,
+    "who": "Mahmood Nadir"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "nkarta",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "id": "1821825_2024-11-06",
+ "kind": "slide",
+ "cik": "1821825",
+ "name": "Organon & Co.",
+ "date": "2024-11-06",
+ "asof": "2024-11-06",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-11-06",
+  "adj_close": 15.8
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 763000000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001821825-24-000108"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": -473000000.0,
+  "capex": 74000000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-10-25",
+  "shares": 257538875
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 10,
+  "from": "2024-08-08",
+  "to": "2024-12-06",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "organon",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT00095017",
+    "drugs": [
+     "MK0663, etoricoxib / Duration of Treatment: 4 weeks"
+    ]
+   },
+   {
+    "nct": "NCT04626596",
+    "drugs": [
+     "Radiopaque Etonogestrel (ENG) Implant"
+    ]
+   }
+  ]
+ }
+}

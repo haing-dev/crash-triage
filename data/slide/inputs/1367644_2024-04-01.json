@@ -1,0 +1,50 @@
+{
+ "id": "1367644_2024-04-01",
+ "kind": "slide",
+ "cik": "1367644",
+ "name": "Emergent BioSolutions Inc.",
+ "date": "2024-04-01",
+ "asof": "2024-04-01",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-04-01",
+  "adj_close": 2.3
+ },
+ "balance": {
+  "end": "2023-12-31",
+  "cash": 111700000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001367644-24-000033"
+ },
+ "burn6": {
+  "end": "2023-12-31",
+  "start": "2023-07-01",
+  "cash_used_ops": -92100000.0,
+  "capex": 24000000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-02-28",
+  "shares": 52203433
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "As a result, the Company determined that there is substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 16,
+  "from": "2024-01-02",
+  "to": "2024-05-01",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "emergent biosolutions",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

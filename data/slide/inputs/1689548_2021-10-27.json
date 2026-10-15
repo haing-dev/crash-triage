@@ -1,0 +1,173 @@
+{
+ "id": "1689548_2021-10-27",
+ "kind": "slide",
+ "cik": "1689548",
+ "name": "Praxis Precision Medicines, Inc.",
+ "date": "2021-10-27",
+ "asof": "2021-10-27",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-10-27",
+  "adj_close": 325.049988
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 339184000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0001689548-21-000075"
+ },
+ "burn6": {
+  "end": "2021-06-30",
+  "start": "2021-01-01",
+  "cash_used_ops": 55735000.0,
+  "capex": 69000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-08-06",
+  "shares": 44712538
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 9,
+  "from": "2021-07-29",
+  "to": "2021-11-26",
+  "trades": [
+   {
+    "date": "2021-10-06",
+    "filed": "2021-10-08",
+    "code": "S",
+    "value": 7000000,
+    "who": "BSOF Parallel Master Fund L.P."
+   },
+   {
+    "date": "2021-10-01",
+    "filed": "2021-10-05",
+    "code": "S",
+    "value": 432338,
+    "who": "BSOF Parallel Master Fund L.P."
+   },
+   {
+    "date": "2021-10-05",
+    "filed": "2021-10-05",
+    "code": "S",
+    "value": 458566,
+    "who": "BSOF Parallel Master Fund L.P."
+   },
+   {
+    "date": "2021-08-31",
+    "filed": "2021-09-02",
+    "code": "P",
+    "value": 76069,
+    "who": "Kelly Timothy Edwin"
+   },
+   {
+    "date": "2021-08-23",
+    "filed": "2021-08-25",
+    "code": "S",
+    "value": 6680875,
+    "who": "BSOF Parallel Master Fund L.P."
+   },
+   {
+    "date": "2021-08-23",
+    "filed": "2021-08-25",
+    "code": "S",
+    "value": 15451,
+    "who": "BSOF Parallel Master Fund L.P."
+   },
+   {
+    "date": "2021-08-18",
+    "filed": "2021-08-20",
+    "code": "S",
+    "value": 47640,
+    "who": "BSOF Parallel Master Fund L.P."
+   },
+   {
+    "date": "2021-08-18",
+    "filed": "2021-08-19",
+    "code": "P",
+    "value": 150668,
+    "who": "Souza Marcio"
+   },
+   {
+    "date": "2021-08-11",
+    "filed": "2021-08-13",
+    "code": "S",
+    "value": 258847,
+    "who": "BSOF Parallel Master Fund L.P."
+   },
+   {
+    "date": "2021-08-12",
+    "filed": "2021-08-13",
+    "code": "S",
+    "value": 140035,
+    "who": "BSOF Parallel Master Fund L.P."
+   },
+   {
+    "date": "2021-08-03",
+    "filed": "2021-08-05",
+    "code": "S",
+    "value": 334277,
+    "who": "BSOF Parallel Master Fund L.P."
+   },
+   {
+    "date": "2021-07-30",
+    "filed": "2021-08-03",
+    "code": "S",
+    "value": 248591,
+    "who": "BSOF Parallel Master Fund L.P."
+   },
+   {
+    "date": "2021-08-02",
+    "filed": "2021-08-03",
+    "code": "S",
+    "value": 631200,
+    "who": "BSOF Parallel Master Fund L.P."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "praxis precision medicines",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04969510",
+    "drugs": [
+     "10 mg PRAX-114",
+     "20 mg PRAX-114",
+     "40 mg PRAX-114"
+    ]
+   },
+   {
+    "nct": "NCT05021991",
+    "drugs": [
+     "100 mg PRAX-944",
+     "60 mg PRAX-944",
+     "Flexibly dosed 20 mg to 100 mg PRAX-944"
+    ]
+   },
+   {
+    "nct": "NCT05021978",
+    "drugs": [
+     "Part A: 20 and 40 mg PRAX-944",
+     "Part B: 120 mg PRAX-944"
+    ]
+   },
+   {
+    "nct": "NCT04832425",
+    "drugs": [
+     "PRAX-114"
+    ]
+   }
+  ]
+ }
+}

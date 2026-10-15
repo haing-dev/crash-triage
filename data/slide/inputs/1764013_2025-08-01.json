@@ -1,0 +1,112 @@
+{
+ "id": "1764013_2025-08-01",
+ "kind": "slide",
+ "cik": "1764013",
+ "name": "Immunovant, Inc.",
+ "date": "2025-08-01",
+ "asof": "2025-08-01",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-08-01",
+  "adj_close": 15.71
+ },
+ "balance": {
+  "end": "2025-03-31",
+  "cash": 713971000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001764013-25-000092"
+ },
+ "burn6": {
+  "end": "2025-03-31",
+  "start": "2024-10-01",
+  "cash_used_ops": 211028000.0,
+  "capex": 381000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-05-23",
+  "shares": 170923191
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2025-05-03",
+  "to": "2025-08-31",
+  "trades": [
+   {
+    "date": "2025-07-23",
+    "filed": "2025-07-25",
+    "code": "S",
+    "value": 50911,
+    "who": "Stout Jay S"
+   },
+   {
+    "date": "2025-07-23",
+    "filed": "2025-07-25",
+    "code": "S",
+    "value": 43288,
+    "who": "Geffner Michael"
+   },
+   {
+    "date": "2025-07-09",
+    "filed": "2025-07-11",
+    "code": "S",
+    "value": 19998,
+    "who": "Geffner Michael"
+   },
+   {
+    "date": "2025-07-09",
+    "filed": "2025-07-11",
+    "code": "S",
+    "value": 26188,
+    "who": "Stout Jay S"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "immunovant",
+  "other_trials": 11,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT07032662",
+    "drugs": [
+     "Imeroprubart"
+    ]
+   },
+   {
+    "nct": "NCT06727604",
+    "drugs": [
+     "IMVT-1402",
+     "IMVT-1402"
+    ]
+   },
+   {
+    "nct": "NCT05517421",
+    "drugs": [
+     "Batoclimab"
+    ]
+   },
+   {
+    "nct": "NCT07039916",
+    "drugs": [
+     "IMVT-1402",
+     "IMVT-1402",
+     "IMVT-1402"
+    ]
+   },
+   {
+    "nct": "NCT06979531",
+    "drugs": [
+     "IMVT-1402"
+    ]
+   }
+  ]
+ }
+}

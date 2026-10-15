@@ -1,0 +1,58 @@
+{
+ "id": "1698530_2024-02-08",
+ "kind": "slide",
+ "cik": "1698530",
+ "name": "EXICURE, INC.",
+ "date": "2024-02-08",
+ "asof": "2024-02-08",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-02-08",
+  "adj_close": 2.95
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 2335000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001698530-23-000091"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 8129000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-08-09",
+  "shares": 8648307
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Management believes that, given the Company\u2019s current cash position, operating plans and forecasted negative cash flows from operating activities over the next twelve months, there is substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2023-11-10",
+  "to": "2024-03-09",
+  "trades": [
+   {
+    "date": "2024-02-29",
+    "filed": "2024-03-04",
+    "code": "S",
+    "value": 4488000,
+    "who": "DGP Co., Ltd."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "exicure",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

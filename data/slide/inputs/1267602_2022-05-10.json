@@ -1,0 +1,58 @@
+{
+ "id": "1267602_2022-05-10",
+ "kind": "slide",
+ "cik": "1267602",
+ "name": "ALIMERA SCIENCES INC",
+ "date": "2022-05-10",
+ "asof": "2022-05-10",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-05-10",
+  "adj_close": 4.41
+ },
+ "balance": {
+  "end": "2021-12-31",
+  "cash": 16510000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001267602-22-000013"
+ },
+ "burn6": {
+  "end": "2021-12-31",
+  "start": "2021-07-01",
+  "cash_used_ops": 7415000.0,
+  "capex": 431000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-04-25",
+  "shares": 6992654
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Our recurring losses from operations raise substantial doubt regarding our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2022-02-09",
+  "to": "2022-06-09",
+  "trades": [
+   {
+    "date": "2022-02-08",
+    "filed": "2022-02-10",
+    "code": "S",
+    "value": 1137500,
+    "who": "MORGAN STANLEY"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "alimera sciences",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

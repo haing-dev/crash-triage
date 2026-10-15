@@ -1,0 +1,57 @@
+{
+ "id": "1860657_2026-07-06",
+ "kind": "slide",
+ "cik": "1860657",
+ "name": "Allarity Therapeutics, Inc.",
+ "date": "2026-07-06",
+ "asof": "2026-07-06",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-07-06",
+  "adj_close": 1.2
+ },
+ "balance": {
+  "end": "2026-03-31",
+  "cash": 19812000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001437749-26-017371"
+ },
+ "burn6": {
+  "end": "2026-03-31",
+  "start": "2025-10-01",
+  "cash_used_ops": 7736000.0,
+  "capex": 131336.62921348316,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-05-15",
+  "shares": 15910724
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2026-04-07",
+  "to": "2026-08-05",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "allarity therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03878849",
+    "drugs": [
+     "2X-121",
+     "2X-121"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,98 @@
+{
+ "id": "1658247_2025-01-10",
+ "kind": "slide",
+ "cik": "1658247",
+ "name": "Crinetics Pharmaceuticals, Inc.",
+ "date": "2025-01-10",
+ "asof": "2025-01-10",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-01-10",
+  "adj_close": 40.59
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 862668000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-24-125420"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": 108440000.0,
+  "capex": 1483000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-11-08",
+  "shares": 92737627
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2024-10-12",
+  "to": "2025-02-09",
+  "trades": [
+   {
+    "date": "2025-02-03",
+    "filed": "2025-02-05",
+    "code": "S",
+    "value": 195350,
+    "who": "Pizzuti Dana"
+   },
+   {
+    "date": "2025-01-03",
+    "filed": "2025-01-07",
+    "code": "S",
+    "value": 781350,
+    "who": "Pizzuti Dana"
+   },
+   {
+    "date": "2024-12-02",
+    "filed": "2024-12-04",
+    "code": "S",
+    "value": 575700,
+    "who": "Struthers Richard Scott"
+   },
+   {
+    "date": "2024-11-22",
+    "filed": "2024-11-26",
+    "code": "S",
+    "value": 28317,
+    "who": "Knight Jeff E."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "crinetics pharmaceuticals",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04261712",
+    "drugs": [
+     "Paltusotine"
+    ]
+   },
+   {
+    "nct": "NCT05907291",
+    "drugs": [
+     "atumelnant (CRN04894)"
+    ]
+   },
+   {
+    "nct": "NCT05804669",
+    "drugs": [
+     "atumelnant"
+    ]
+   }
+  ]
+ }
+}

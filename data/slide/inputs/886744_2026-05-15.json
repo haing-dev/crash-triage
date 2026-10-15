@@ -1,0 +1,65 @@
+{
+ "id": "886744_2026-05-15",
+ "kind": "slide",
+ "cik": "886744",
+ "name": "GERON CORP",
+ "date": "2026-05-15",
+ "asof": "2026-05-15",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-05-15",
+  "adj_close": 1.29
+ },
+ "balance": {
+  "end": "2026-03-31",
+  "cash": 68895000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000886744-26-000032"
+ },
+ "burn6": {
+  "end": "2026-03-31",
+  "start": "2025-10-01",
+  "cash_used_ops": 84973000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-05-01",
+  "shares": 641520974
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2026-02-14",
+  "to": "2026-06-14",
+  "trades": [
+   {
+    "date": "2026-02-18",
+    "filed": "2026-02-19",
+    "code": "S",
+    "value": 19119,
+    "who": "ROBERTSON MICHELLE"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "geron",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04576156",
+    "drugs": [
+     "Imetelstat",
+     "Best Available Therapy (BAT)"
+    ]
+   }
+  ]
+ }
+}

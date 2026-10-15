@@ -1,0 +1,57 @@
+{
+ "id": "1894562_2026-05-01",
+ "kind": "slide",
+ "cik": "1894562",
+ "name": "Prime Medicine, Inc.",
+ "date": "2026-05-01",
+ "asof": "2026-05-01",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-05-01",
+  "adj_close": 3.41
+ },
+ "balance": {
+  "end": "2025-12-31",
+  "cash": 63032000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001628280-26-013569"
+ },
+ "burn6": {
+  "end": "2025-12-31",
+  "start": "2025-07-01",
+  "cash_used_ops": 72295000.0,
+  "capex": 537000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-02-20",
+  "shares": 180552179
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "\u2022Because our existing cash, cash equivalents, and investments will not be sufficient to fund our operations, as currently planned, for more than one year beyond the filing date of this Annual Report on Form 10-K, we have determined that there is substantial doubt regarding our ability to continue as"
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2026-01-31",
+  "to": "2026-05-31",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "prime medicine",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06559176",
+    "drugs": [
+     "PM359"
+    ]
+   }
+  ]
+ }
+}

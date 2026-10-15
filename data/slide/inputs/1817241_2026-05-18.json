@@ -1,0 +1,164 @@
+{
+ "id": "1817241_2026-05-18",
+ "kind": "slide",
+ "cik": "1817241",
+ "name": "Artiva Biotherapeutics, Inc.",
+ "date": "2026-05-18",
+ "asof": "2026-05-18",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-05-18",
+  "adj_close": 9.22
+ },
+ "balance": {
+  "end": "2026-03-31",
+  "cash": 86782000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001193125-26-213242"
+ },
+ "burn6": {
+  "end": "2026-03-31",
+  "start": "2025-10-01",
+  "cash_used_ops": 35676000.0,
+  "capex": 663000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-04-30",
+  "shares": 24716672
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 17,
+  "from": "2026-02-17",
+  "to": "2026-06-17",
+  "trades": [
+   {
+    "date": "2026-06-12",
+    "filed": "2026-06-16",
+    "code": "P",
+    "value": 3351033,
+    "who": "RA CAPITAL MANAGEMENT, L.P."
+   },
+   {
+    "date": "2026-06-15",
+    "filed": "2026-06-16",
+    "code": "P",
+    "value": 138572,
+    "who": "RA CAPITAL MANAGEMENT, L.P."
+   },
+   {
+    "date": "2026-06-16",
+    "filed": "2026-06-16",
+    "code": "P",
+    "value": 1110299,
+    "who": "RA CAPITAL MANAGEMENT, L.P."
+   },
+   {
+    "date": "2026-06-09",
+    "filed": "2026-06-11",
+    "code": "P",
+    "value": 3310159,
+    "who": "RA CAPITAL MANAGEMENT, L.P."
+   },
+   {
+    "date": "2026-06-10",
+    "filed": "2026-06-11",
+    "code": "P",
+    "value": 721,
+    "who": "RA CAPITAL MANAGEMENT, L.P."
+   },
+   {
+    "date": "2026-06-11",
+    "filed": "2026-06-11",
+    "code": "P",
+    "value": 4339268,
+    "who": "RA CAPITAL MANAGEMENT, L.P."
+   },
+   {
+    "date": "2026-05-11",
+    "filed": "2026-05-28",
+    "code": "P",
+    "value": 12499995,
+    "who": "GC Corp."
+   },
+   {
+    "date": "2026-05-11",
+    "filed": "2026-05-28",
+    "code": "P",
+    "value": 3999997,
+    "who": "GC Corp."
+   },
+   {
+    "date": "2026-05-19",
+    "filed": "2026-05-19",
+    "code": "S",
+    "value": 27879,
+    "who": "Raymon Heather"
+   },
+   {
+    "date": "2026-05-19",
+    "filed": "2026-05-19",
+    "code": "S",
+    "value": 63073,
+    "who": "Horan Christopher"
+   },
+   {
+    "date": "2026-05-19",
+    "filed": "2026-05-19",
+    "code": "S",
+    "value": 79179,
+    "who": "Bush Jennifer"
+   },
+   {
+    "date": "2026-05-19",
+    "filed": "2026-05-19",
+    "code": "S",
+    "value": 63386,
+    "who": "Banerjee Subhashis"
+   },
+   {
+    "date": "2026-05-19",
+    "filed": "2026-05-19",
+    "code": "S",
+    "value": 244253,
+    "who": "Aslan Fred"
+   },
+   {
+    "date": "2026-05-11",
+    "filed": "2026-05-13",
+    "code": "P",
+    "value": 74999992,
+    "who": "RA CAPITAL MANAGEMENT, L.P."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "artiva biotherapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05678205",
+    "drugs": [
+     "AB-201",
+     "Cyclophosphamide",
+     "Fludarabine"
+    ]
+   },
+   {
+    "nct": "NCT06991114",
+    "drugs": [
+     "Allogeneic NK Cells"
+    ]
+   }
+  ]
+ }
+}

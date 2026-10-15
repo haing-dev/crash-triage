@@ -1,0 +1,203 @@
+{
+ "id": "1651308_2022-07-06",
+ "kind": "slide",
+ "cik": "1651308",
+ "name": "BeOne Medicines Ltd.",
+ "date": "2022-07-06",
+ "asof": "2022-07-06",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-07-06",
+  "adj_close": 181.050003
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 6244945000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001651308-22-000071"
+ },
+ "burn6": {
+  "end": "2022-03-31",
+  "start": "2021-10-01",
+  "cash_used_ops": 744402000.0,
+  "capex": 160110000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-04-30",
+  "shares": 1341305269
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 22,
+  "from": "2022-04-07",
+  "to": "2022-08-05",
+  "trades": [
+   {
+    "date": "2022-07-01",
+    "filed": "2022-07-05",
+    "code": "S",
+    "value": 46758,
+    "who": "Wang Julia Aijun"
+   },
+   {
+    "date": "2022-06-27",
+    "filed": "2022-06-28",
+    "code": "S",
+    "value": 81215,
+    "who": "Wang Lai"
+   },
+   {
+    "date": "2022-06-17",
+    "filed": "2022-06-22",
+    "code": "S",
+    "value": 62034,
+    "who": "Wang Lai"
+   },
+   {
+    "date": "2022-06-21",
+    "filed": "2022-06-22",
+    "code": "S",
+    "value": 107734,
+    "who": "Wang Lai"
+   },
+   {
+    "date": "2022-06-17",
+    "filed": "2022-06-22",
+    "code": "S",
+    "value": 80691,
+    "who": "Wu Xiaobin"
+   },
+   {
+    "date": "2022-06-21",
+    "filed": "2022-06-22",
+    "code": "S",
+    "value": 145804,
+    "who": "Wu Xiaobin"
+   },
+   {
+    "date": "2022-06-17",
+    "filed": "2022-06-21",
+    "code": "S",
+    "value": 21999,
+    "who": "Wang Julia Aijun"
+   },
+   {
+    "date": "2022-06-06",
+    "filed": "2022-06-08",
+    "code": "S",
+    "value": 93718,
+    "who": "Wang Lai"
+   },
+   {
+    "date": "2022-06-06",
+    "filed": "2022-06-08",
+    "code": "S",
+    "value": 484202,
+    "who": "Wu Xiaobin"
+   },
+   {
+    "date": "2022-05-05",
+    "filed": "2022-05-06",
+    "code": "S",
+    "value": 129376,
+    "who": "Wu Xiaobin"
+   },
+   {
+    "date": "2022-05-05",
+    "filed": "2022-05-06",
+    "code": "S",
+    "value": 546814,
+    "who": "Wu Xiaobin"
+   },
+   {
+    "date": "2022-05-05",
+    "filed": "2022-05-06",
+    "code": "S",
+    "value": 28879,
+    "who": "Wu Xiaobin"
+   },
+   {
+    "date": "2022-05-05",
+    "filed": "2022-05-06",
+    "code": "S",
+    "value": 181578,
+    "who": "Wu Xiaobin"
+   },
+   {
+    "date": "2022-05-05",
+    "filed": "2022-05-06",
+    "code": "S",
+    "value": 117122,
+    "who": "Wu Xiaobin"
+   },
+   {
+    "date": "2022-05-05",
+    "filed": "2022-05-06",
+    "code": "S",
+    "value": 16814,
+    "who": "Wu Xiaobin"
+   },
+   {
+    "date": "2022-05-05",
+    "filed": "2022-05-06",
+    "code": "S",
+    "value": 84694,
+    "who": "Wu Xiaobin"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "beone medicines",
+  "other_trials": 7,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04771130",
+    "drugs": [
+     "BGB-11417",
+     "Azacitidine",
+     "Posaconazole"
+    ]
+   },
+   {
+    "nct": "NCT04002297",
+    "drugs": [
+     "zanubrutinib",
+     "bendamustine",
+     "rituximab"
+    ]
+   },
+   {
+    "nct": "NCT05100862",
+    "drugs": [
+     "Zanubrutinib",
+     "Rituximab",
+     "Lenalidomide"
+    ]
+   },
+   {
+    "nct": "NCT04170283",
+    "drugs": [
+     "Zanubrutinib",
+     "Tislelizumab"
+    ]
+   },
+   {
+    "nct": "NCT04973605",
+    "drugs": [
+     "Sonrotoclax",
+     "Dexamethasone",
+     "Carfilzomib"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "id": "1600132_2023-05-08",
+ "kind": "slide",
+ "cik": "1600132",
+ "name": "Bellerophon Therapeutics, Inc.",
+ "date": "2023-05-08",
+ "asof": "2023-05-08",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-05-08",
+  "adj_close": 8.49
+ },
+ "balance": {
+  "end": "2022-12-31",
+  "cash": 6924000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-23-005200"
+ },
+ "burn6": {
+  "end": "2022-12-31",
+  "start": "2022-07-01",
+  "cash_used_ops": 9362000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-03-30",
+  "shares": 10448185
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "In addition, our recurring losses from operations, accumulated deficit and our need to raise additional financing in order to continue to fund our operations, has raised substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 12,
+  "from": "2023-02-07",
+  "to": "2023-06-07",
+  "trades": [
+   {
+    "date": "2023-06-07",
+    "filed": "2023-06-07",
+    "code": "S",
+    "value": 111569,
+    "who": "Puissance Life Science Opportunities Fund VI"
+   },
+   {
+    "date": "2023-05-18",
+    "filed": "2023-05-22",
+    "code": "S",
+    "value": 94550,
+    "who": "Kim Bobae"
+   },
+   {
+    "date": "2023-05-18",
+    "filed": "2023-05-19",
+    "code": "S",
+    "value": 5297600,
+    "who": "Puissance Life Science Opportunities Fund VI"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "bellerophon therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

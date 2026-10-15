@@ -1,0 +1,57 @@
+{
+ "id": "1106838_2025-07-18",
+ "kind": "slide",
+ "cik": "1106838",
+ "name": "Sonnet BioTherapeutics Holdings, Inc.",
+ "date": "2025-07-18",
+ "asof": "2025-07-18",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-07-18",
+  "adj_close": 6.18
+ },
+ "balance": {
+  "end": "2025-03-31",
+  "cash": 2059284,
+  "parts": [
+   "Cash"
+  ],
+  "accn": "0001641172-25-009857"
+ },
+ "burn6": {
+  "end": "2025-03-31",
+  "start": "2024-10-01",
+  "cash_used_ops": 5381507.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-05-12",
+  "shares": 3165810
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These factors raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 9,
+  "from": "2025-04-19",
+  "to": "2025-08-17",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "sonnet biotherapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05756907",
+    "drugs": [
+     "SON-1010"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "1626878_2023-09-18",
+ "kind": "slide",
+ "cik": "1626878",
+ "name": "XBiotech Inc.",
+ "date": "2023-09-18",
+ "asof": "2023-09-18",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-09-18",
+  "adj_close": 4.45
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 204771000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001171843-23-005261"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 13805000.0,
+  "capex": 214000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-08-11",
+  "shares": 30435714
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2023-06-20",
+  "to": "2023-10-18",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "xbiotech",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04825288",
+    "drugs": [
+     "Phase I: XB2001 250 mg",
+     "Phase I: XB2001 500 mg",
+     "Phase I: XB2001 1000 mg"
+    ]
+   },
+   {
+    "nct": "NCT05363891",
+    "drugs": [
+     "Natrunix"
+    ]
+   }
+  ]
+ }
+}

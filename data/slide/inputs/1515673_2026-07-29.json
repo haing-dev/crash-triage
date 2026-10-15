@@ -1,0 +1,152 @@
+{
+ "id": "1515673_2026-07-29",
+ "kind": "slide",
+ "cik": "1515673",
+ "name": "Ultragenyx Pharmaceutical Inc.",
+ "date": "2026-07-29",
+ "asof": "2026-07-29",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-07-29",
+  "adj_close": 25.0
+ },
+ "balance": {
+  "end": "2026-03-31",
+  "cash": 534000000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0001193125-26-206960"
+ },
+ "burn6": {
+  "end": "2026-03-31",
+  "start": "2025-10-01",
+  "cash_used_ops": 296829000.0,
+  "capex": 1938000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-05-01",
+  "shares": 98489224
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 15,
+  "from": "2026-04-30",
+  "to": "2026-08-28",
+  "trades": [
+   {
+    "date": "2026-08-03",
+    "filed": "2026-08-04",
+    "code": "S",
+    "value": 47348,
+    "who": "Parschauer Karah Herdman"
+   },
+   {
+    "date": "2026-08-03",
+    "filed": "2026-08-04",
+    "code": "S",
+    "value": 117024,
+    "who": "Horn Howard"
+   },
+   {
+    "date": "2026-07-01",
+    "filed": "2026-07-06",
+    "code": "S",
+    "value": 155645,
+    "who": "Horn Howard"
+   },
+   {
+    "date": "2026-06-15",
+    "filed": "2026-06-15",
+    "code": "S",
+    "value": 50100,
+    "who": "Sanders Corazon (Corsee) D."
+   },
+   {
+    "date": "2026-06-15",
+    "filed": "2026-06-15",
+    "code": "S",
+    "value": 46753,
+    "who": "Parschauer Karah Herdman"
+   },
+   {
+    "date": "2026-06-01",
+    "filed": "2026-06-01",
+    "code": "S",
+    "value": 110602,
+    "who": "Horn Howard"
+   },
+   {
+    "date": "2026-05-18",
+    "filed": "2026-05-18",
+    "code": "S",
+    "value": 144189,
+    "who": "SULIMAN SHEHNAAZ"
+   },
+   {
+    "date": "2026-05-05",
+    "filed": "2026-05-06",
+    "code": "S",
+    "value": 8586,
+    "who": "Crombez Eric"
+   },
+   {
+    "date": "2026-05-01",
+    "filed": "2026-05-04",
+    "code": "S",
+    "value": 116607,
+    "who": "Horn Howard"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "ultragenyx pharmaceutical",
+  "other_trials": 8,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05345171",
+    "drugs": [
+     "DTX301",
+     "Oral Corticosteroids",
+     "Sodium Acetate"
+    ]
+   },
+   {
+    "nct": "NCT05933200",
+    "drugs": [
+     "Triheptanoin",
+     "MCT Oil"
+    ]
+   },
+   {
+    "nct": "NCT02716246",
+    "drugs": [
+     "UX111",
+     "Prophylactic Immunomodulatory (IM) Therapy",
+     "Optimized Prophylactic IM Therapy"
+    ]
+   },
+   {
+    "nct": "NCT04360265",
+    "drugs": [
+     "No Investigational Product",
+     "Adjuvant Immunomodulatory (IM) Therapy"
+    ]
+   },
+   {
+    "nct": "NCT06415344",
+    "drugs": [
+     "GTX-102"
+    ]
+   }
+  ]
+ }
+}

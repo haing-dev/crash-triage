@@ -1,0 +1,49 @@
+{
+ "id": "1369568_2023-09-15",
+ "kind": "slide",
+ "cik": "1369568",
+ "name": "CATALYST PHARMACEUTICALS, INC.",
+ "date": "2023-09-15",
+ "asof": "2023-09-15",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-09-15",
+  "adj_close": 12.46
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 178787000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001193125-23-207344"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": -42824000.0,
+  "capex": 74000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-08-07",
+  "shares": 106582857
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 2,
+  "from": "2023-06-17",
+  "to": "2023-10-15",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "catalyst pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

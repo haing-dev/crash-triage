@@ -1,0 +1,171 @@
+{
+ "id": "1094038_2021-05-10",
+ "kind": "slide",
+ "cik": "1094038",
+ "name": "Marker Therapeutics, Inc.",
+ "date": "2021-05-10",
+ "asof": "2021-05-10",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-05-10",
+  "adj_close": 22.4
+ },
+ "balance": {
+  "end": "2020-12-31",
+  "cash": 21352382,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001104659-21-033855"
+ },
+ "burn6": {
+  "end": "2020-12-31",
+  "start": "2020-07-01",
+  "cash_used_ops": 10458203.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-03-01",
+  "shares": 50731072
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These factors raise substantial doubt regarding our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 25,
+  "from": "2021-02-09",
+  "to": "2021-06-09",
+  "trades": [
+   {
+    "date": "2021-05-18",
+    "filed": "2021-05-20",
+    "code": "P",
+    "value": 24098,
+    "who": "Wasserman Frederick Gerald"
+   },
+   {
+    "date": "2021-03-16",
+    "filed": "2021-03-18",
+    "code": "P",
+    "value": 9999999,
+    "who": "Walker Paul Edward"
+   },
+   {
+    "date": "2021-03-16",
+    "filed": "2021-03-18",
+    "code": "P",
+    "value": 9999999,
+    "who": "Sonsini Peter W."
+   },
+   {
+    "date": "2021-03-16",
+    "filed": "2021-03-18",
+    "code": "P",
+    "value": 9999999,
+    "who": "SANDELL SCOTT D"
+   },
+   {
+    "date": "2021-03-16",
+    "filed": "2021-03-18",
+    "code": "P",
+    "value": 9999999,
+    "who": "MAKOWER JOSHUA"
+   },
+   {
+    "date": "2021-03-16",
+    "filed": "2021-03-18",
+    "code": "P",
+    "value": 9999999,
+    "who": "Makhzoumi Mohamad"
+   },
+   {
+    "date": "2021-03-16",
+    "filed": "2021-03-18",
+    "code": "P",
+    "value": 9999999,
+    "who": "Florence Anthony A. Jr."
+   },
+   {
+    "date": "2021-03-16",
+    "filed": "2021-03-18",
+    "code": "P",
+    "value": 9999999,
+    "who": "Chang Carmen"
+   },
+   {
+    "date": "2021-03-16",
+    "filed": "2021-03-18",
+    "code": "P",
+    "value": 9999999,
+    "who": "Behbahani Ali"
+   },
+   {
+    "date": "2021-03-16",
+    "filed": "2021-03-18",
+    "code": "P",
+    "value": 9999999,
+    "who": "BASKETT FOREST"
+   },
+   {
+    "date": "2021-03-16",
+    "filed": "2021-03-18",
+    "code": "P",
+    "value": 9999999,
+    "who": "New Enterprise Associates 16, L.P."
+   },
+   {
+    "date": "2021-03-16",
+    "filed": "2021-03-18",
+    "code": "P",
+    "value": 2999999,
+    "who": "Wilson John Robert"
+   },
+   {
+    "date": "2021-03-16",
+    "filed": "2021-03-18",
+    "code": "P",
+    "value": 999999,
+    "who": "Vera Juan"
+   },
+   {
+    "date": "2021-03-16",
+    "filed": "2021-03-18",
+    "code": "P",
+    "value": 250000,
+    "who": "Hoang Peter L."
+   },
+   {
+    "date": "2021-03-16",
+    "filed": "2021-03-18",
+    "code": "P",
+    "value": 2000000,
+    "who": "ELMS STEVE"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "marker therapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT02593227",
+    "drugs": [
+     "Low dose FR\u03b1 vaccine",
+     "Cyclophosphamide",
+     "High dose FR\u03b1 vaccine"
+    ]
+   },
+   {
+    "nct": "NCT04511130",
+    "drugs": [
+     "MT-401"
+    ]
+   }
+  ]
+ }
+}

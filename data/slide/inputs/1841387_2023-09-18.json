@@ -1,0 +1,78 @@
+{
+ "id": "1841387_2023-09-18",
+ "kind": "slide",
+ "cik": "1841387",
+ "name": "Candel Therapeutics, Inc.",
+ "date": "2023-09-18",
+ "asof": "2023-09-18",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-09-18",
+  "adj_close": 1.19
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 51894000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-23-040984"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 18014000.0,
+  "capex": 307000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-08-02",
+  "shares": 28919810
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "There is substantial doubt regarding our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2023-06-20",
+  "to": "2023-10-18",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "candel therapeutics",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04495153",
+    "drugs": [
+     "Aglatimagene besadenovec"
+    ]
+   },
+   {
+    "nct": "NCT02768363",
+    "drugs": [
+     "aglatimagene besadenovec",
+     "valacyclovir"
+    ]
+   },
+   {
+    "nct": "NCT02446093",
+    "drugs": [
+     "Aglatimagene besadenovec",
+     "Chemoradiation",
+     "Stereotactic body radiation therapy"
+    ]
+   },
+   {
+    "nct": "NCT01436968",
+    "drugs": [
+     "Aglatimagene besadenovec + valacyclovir"
+    ]
+   }
+  ]
+ }
+}

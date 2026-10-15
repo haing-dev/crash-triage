@@ -1,0 +1,56 @@
+{
+ "id": "855654_2021-11-26",
+ "kind": "slide",
+ "cik": "855654",
+ "name": "ImmunoGen, Inc.",
+ "date": "2021-11-26",
+ "asof": "2021-11-26",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-11-26",
+  "adj_close": 4.81
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 245761000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-21-013847"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 78921000.0,
+  "capex": 172000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-10-26",
+  "shares": 202619488
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2021-08-28",
+  "to": "2021-12-26",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "immunogen",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04622774",
+    "drugs": [
+     "IMGC936"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "id": "1293971_2023-09-12",
+ "kind": "slide",
+ "cik": "1293971",
+ "name": "bluebird bio, Inc.",
+ "date": "2023-09-12",
+ "asof": "2023-09-12",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-09-12",
+  "adj_close": 69.6
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 245303000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001293971-23-000041"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 159363000.0,
+  "capex": 937000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-08-04",
+  "shares": 106952739
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "\u2022There is substantial doubt regarding our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2023-06-14",
+  "to": "2023-10-12",
+  "trades": [
+   {
+    "date": "2023-09-05",
+    "filed": "2023-09-06",
+    "code": "S",
+    "value": 3493,
+    "who": "Klima Thomas J"
+   },
+   {
+    "date": "2023-08-10",
+    "filed": "2023-08-10",
+    "code": "S",
+    "value": 59956,
+    "who": "Obenshain Andrew"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "bluebird bio",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

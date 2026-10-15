@@ -1,0 +1,50 @@
+{
+ "id": "1819411_2024-11-13",
+ "kind": "slide",
+ "cik": "1819411",
+ "name": "Gain Therapeutics, Inc.",
+ "date": "2024-11-13",
+ "asof": "2024-11-13",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-11-13",
+  "adj_close": 2.03
+ },
+ "balance": {
+  "end": "2024-06-30",
+  "cash": 16936315,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-24-011589"
+ },
+ "burn6": {
+  "end": "2024-06-30",
+  "start": "2024-01-01",
+  "cash_used_ops": 9342986.0,
+  "capex": 21742.232486187844,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-07-31",
+  "shares": 25535460
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Our projected cash outflows for the upcoming periods raise substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2024-08-15",
+  "to": "2024-12-13",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "gain therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

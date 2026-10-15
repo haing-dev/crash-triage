@@ -1,0 +1,114 @@
+{
+ "id": "1806310_2023-10-04",
+ "kind": "slide",
+ "cik": "1806310",
+ "name": "Taysha Gene Therapies, Inc.",
+ "date": "2023-10-04",
+ "asof": "2023-10-04",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-10-04",
+  "adj_close": 2.44
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 45083000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-23-042089"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 38952000.0,
+  "capex": 3852000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-08-14",
+  "shares": 64465037
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "However given the inherent uncertainties in the forecast, the Company has considered both quantitative and qualitative factors that are known or reasonably knowable as of the date that these condensed consolidated financial statements are issued and concluded that there are conditions present in the"
+ },
+ "insiders": {
+  "form4s": 7,
+  "from": "2023-07-06",
+  "to": "2023-11-03",
+  "trades": [
+   {
+    "date": "2023-08-24",
+    "filed": "2023-08-25",
+    "code": "S",
+    "value": 76890,
+    "who": "Alam Kamran"
+   },
+   {
+    "date": "2023-08-16",
+    "filed": "2023-08-16",
+    "code": "P",
+    "value": 14820000,
+    "who": "Manning Paul B"
+   },
+   {
+    "date": "2023-08-16",
+    "filed": "2023-08-16",
+    "code": "P",
+    "value": 350000,
+    "who": "Stalfort John A III"
+   },
+   {
+    "date": "2023-08-16",
+    "filed": "2023-08-16",
+    "code": "P",
+    "value": 350000,
+    "who": "Stalfort John A III"
+   },
+   {
+    "date": "2023-08-16",
+    "filed": "2023-08-16",
+    "code": "P",
+    "value": 400000,
+    "who": "Nolan Sean P."
+   },
+   {
+    "date": "2023-08-16",
+    "filed": "2023-08-16",
+    "code": "P",
+    "value": 100000,
+    "who": "Donenberg Phillip B."
+   },
+   {
+    "date": "2023-07-12",
+    "filed": "2023-07-14",
+    "code": "S",
+    "value": 57030,
+    "who": "Session R.A. II"
+   },
+   {
+    "date": "2023-07-13",
+    "filed": "2023-07-14",
+    "code": "S",
+    "value": 3741,
+    "who": "Session R.A. II"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "taysha gene therapies",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05606614",
+    "drugs": [
+     "TSHA-102"
+    ]
+   }
+  ]
+ }
+}

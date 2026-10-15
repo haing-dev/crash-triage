@@ -1,0 +1,149 @@
+{
+ "id": "1649094_2022-01-18",
+ "kind": "slide",
+ "cik": "1649094",
+ "name": "Vaxcyte, Inc.",
+ "date": "2022-01-18",
+ "asof": "2022-01-18",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-01-18",
+  "adj_close": 18.14
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 278576000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001564590-21-056178"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 57095000.0,
+  "capex": 3927000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-11-08",
+  "shares": 52785136
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 15,
+  "from": "2021-10-20",
+  "to": "2022-02-17",
+  "trades": [
+   {
+    "date": "2021-12-29",
+    "filed": "2021-12-30",
+    "code": "S",
+    "value": 150000,
+    "who": "Sauer Paul"
+   },
+   {
+    "date": "2021-12-27",
+    "filed": "2021-12-28",
+    "code": "S",
+    "value": 107878,
+    "who": "Fairman Jeff"
+   },
+   {
+    "date": "2021-12-27",
+    "filed": "2021-12-28",
+    "code": "S",
+    "value": 4214,
+    "who": "Fairman Jeff"
+   },
+   {
+    "date": "2021-12-23",
+    "filed": "2021-12-28",
+    "code": "S",
+    "value": 74400,
+    "who": "GUGGENHIME ANDREW"
+   },
+   {
+    "date": "2021-12-16",
+    "filed": "2021-12-20",
+    "code": "S",
+    "value": 103928,
+    "who": "Fairman Jeff"
+   },
+   {
+    "date": "2021-12-09",
+    "filed": "2021-12-13",
+    "code": "S",
+    "value": 2948,
+    "who": "Fairman Jeff"
+   },
+   {
+    "date": "2021-11-19",
+    "filed": "2021-11-23",
+    "code": "S",
+    "value": 210350,
+    "who": "PICKERING GRANT"
+   },
+   {
+    "date": "2021-11-19",
+    "filed": "2021-11-23",
+    "code": "S",
+    "value": 141360,
+    "who": "PICKERING GRANT"
+   },
+   {
+    "date": "2021-11-18",
+    "filed": "2021-11-22",
+    "code": "S",
+    "value": 73132,
+    "who": "GUGGENHIME ANDREW"
+   },
+   {
+    "date": "2021-11-18",
+    "filed": "2021-11-22",
+    "code": "S",
+    "value": 2898,
+    "who": "GUGGENHIME ANDREW"
+   },
+   {
+    "date": "2021-11-01",
+    "filed": "2021-11-03",
+    "code": "S",
+    "value": 75000,
+    "who": "Sauer Paul"
+   },
+   {
+    "date": "2021-10-26",
+    "filed": "2021-10-28",
+    "code": "S",
+    "value": 107778,
+    "who": "Fairman Jeff"
+   },
+   {
+    "date": "2021-10-20",
+    "filed": "2021-10-22",
+    "code": "S",
+    "value": 315357,
+    "who": "PICKERING GRANT"
+   },
+   {
+    "date": "2021-10-20",
+    "filed": "2021-10-22",
+    "code": "S",
+    "value": 23399,
+    "who": "PICKERING GRANT"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "vaxcyte",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

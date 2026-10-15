@@ -1,0 +1,66 @@
+{
+ "id": "1108205_2023-03-07",
+ "kind": "slide",
+ "cik": "1108205",
+ "name": "CURIS INC",
+ "date": "2023-03-07",
+ "asof": "2023-03-07",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-03-07",
+  "adj_close": 276.0
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 98689000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001108205-22-000023"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 25254000.0,
+  "capex": 405000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-11-02",
+  "shares": 96398360
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2022-12-07",
+  "to": "2023-04-06",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "curis",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04278768",
+    "drugs": [
+     "Emavusertib",
+     "Venetoclax",
+     "Emavusertib"
+    ]
+   },
+   {
+    "nct": "NCT03328078",
+    "drugs": [
+     "Emavusertib",
+     "Ibrutinib"
+    ]
+   }
+  ]
+ }
+}

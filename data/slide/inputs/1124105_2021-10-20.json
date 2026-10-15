@@ -1,0 +1,72 @@
+{
+ "id": "1124105_2021-10-20",
+ "kind": "slide",
+ "cik": "1124105",
+ "name": "GYRE THERAPEUTICS, INC.",
+ "date": "2021-10-20",
+ "asof": "2021-10-20",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-10-20",
+  "adj_close": 52.65
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 86523000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001564590-21-041373"
+ },
+ "burn6": {
+  "end": "2021-06-30",
+  "start": "2021-01-01",
+  "cash_used_ops": 44479000.0,
+  "capex": 347000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-07-30",
+  "shares": 31365701
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 9,
+  "from": "2021-07-22",
+  "to": "2021-11-19",
+  "trades": [
+   {
+    "date": "2021-08-09",
+    "filed": "2021-08-11",
+    "code": "P",
+    "value": 3139,
+    "who": "USMAN NASSIM"
+   },
+   {
+    "date": "2021-08-09",
+    "filed": "2021-08-11",
+    "code": "P",
+    "value": 2313,
+    "who": "Levy Howard"
+   },
+   {
+    "date": "2021-08-09",
+    "filed": "2021-08-11",
+    "code": "P",
+    "value": 4210,
+    "who": "Blouse Grant E."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "gyre therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

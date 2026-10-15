@@ -1,0 +1,100 @@
+{
+ "id": "1395937_2026-06-05",
+ "kind": "slide",
+ "cik": "1395937",
+ "name": "Syndax Pharmaceuticals Inc",
+ "date": "2026-06-05",
+ "asof": "2026-06-05",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-06-05",
+  "adj_close": 17.34
+ },
+ "balance": {
+  "end": "2026-03-31",
+  "cash": 352064000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001193125-26-197154"
+ },
+ "burn6": {
+  "end": "2026-03-31",
+  "start": "2025-10-01",
+  "cash_used_ops": 119833000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-04-27",
+  "shares": 88610027
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2026-03-07",
+  "to": "2026-07-05",
+  "trades": [
+   {
+    "date": "2026-06-11",
+    "filed": "2026-06-12",
+    "code": "S",
+    "value": 617040,
+    "who": "Botwood Nicholas A.J."
+   },
+   {
+    "date": "2026-06-12",
+    "filed": "2026-06-12",
+    "code": "S",
+    "value": 566603,
+    "who": "Botwood Nicholas A.J."
+   },
+   {
+    "date": "2026-06-01",
+    "filed": "2026-06-02",
+    "code": "S",
+    "value": 22351,
+    "who": "Goldan Keith A."
+   },
+   {
+    "date": "2026-06-01",
+    "filed": "2026-06-02",
+    "code": "S",
+    "value": 130025,
+    "who": "Metzger Michael A"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "syndax pharmaceuticals",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04065399",
+    "drugs": [
+     "revumenib",
+     "cobicistat"
+    ]
+   },
+   {
+    "nct": "NCT07211958",
+    "drugs": [
+     "Revumenib",
+     "Intensive Chemotherapy Regimen"
+    ]
+   },
+   {
+    "nct": "NCT06132256",
+    "drugs": [
+     "Axatilimab"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,250 @@
+{
+ "id": "1628171_2025-01-10",
+ "kind": "slide",
+ "cik": "1628171",
+ "name": "Revolution Medicines, Inc.",
+ "date": "2025-01-10",
+ "asof": "2025-01-10",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-01-10",
+  "adj_close": 41.78
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 1549481000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-24-122303"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": 258586000.0,
+  "capex": 5919000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-11-04",
+  "shares": 168219391
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 18,
+  "from": "2024-10-12",
+  "to": "2025-02-09",
+  "trades": [
+   {
+    "date": "2025-01-21",
+    "filed": "2025-01-22",
+    "code": "S",
+    "value": 97443,
+    "who": "Cislini Jeff"
+   },
+   {
+    "date": "2024-12-16",
+    "filed": "2024-12-18",
+    "code": "S",
+    "value": 196553,
+    "who": "Horn Margaret A"
+   },
+   {
+    "date": "2024-12-16",
+    "filed": "2024-12-18",
+    "code": "S",
+    "value": 531860,
+    "who": "GOLDSMITH MARK A"
+   },
+   {
+    "date": "2024-12-16",
+    "filed": "2024-12-18",
+    "code": "S",
+    "value": 211718,
+    "who": "Kelsey Stephen Michael"
+   },
+   {
+    "date": "2024-12-16",
+    "filed": "2024-12-18",
+    "code": "S",
+    "value": 72601,
+    "who": "Cislini Jeff"
+   },
+   {
+    "date": "2024-12-16",
+    "filed": "2024-12-18",
+    "code": "S",
+    "value": 119639,
+    "who": "Anders Jack"
+   },
+   {
+    "date": "2024-12-05",
+    "filed": "2024-12-09",
+    "code": "P",
+    "value": 24999988,
+    "who": "Schroeder Thilo"
+   },
+   {
+    "date": "2024-12-05",
+    "filed": "2024-12-09",
+    "code": "P",
+    "value": 34999974,
+    "who": "Schroeder Thilo"
+   },
+   {
+    "date": "2024-11-15",
+    "filed": "2024-11-19",
+    "code": "S",
+    "value": 140811,
+    "who": "Cislini Jeff"
+   },
+   {
+    "date": "2024-11-13",
+    "filed": "2024-11-15",
+    "code": "S",
+    "value": 805815,
+    "who": "Kelsey Stephen Michael"
+   },
+   {
+    "date": "2024-11-13",
+    "filed": "2024-11-15",
+    "code": "S",
+    "value": 171694,
+    "who": "Kelsey Stephen Michael"
+   },
+   {
+    "date": "2024-11-06",
+    "filed": "2024-11-08",
+    "code": "S",
+    "value": 360000,
+    "who": "Cislini Jeff"
+   },
+   {
+    "date": "2024-11-01",
+    "filed": "2024-11-05",
+    "code": "S",
+    "value": 500714,
+    "who": "GOLDSMITH MARK A"
+   },
+   {
+    "date": "2024-11-01",
+    "filed": "2024-11-05",
+    "code": "S",
+    "value": 275134,
+    "who": "GOLDSMITH MARK A"
+   },
+   {
+    "date": "2024-11-01",
+    "filed": "2024-11-05",
+    "code": "S",
+    "value": 275104,
+    "who": "GOLDSMITH MARK A"
+   },
+   {
+    "date": "2024-11-04",
+    "filed": "2024-11-05",
+    "code": "S",
+    "value": 2827821,
+    "who": "GOLDSMITH MARK A"
+   },
+   {
+    "date": "2024-10-31",
+    "filed": "2024-11-04",
+    "code": "S",
+    "value": 270714,
+    "who": "Patel Sushil"
+   },
+   {
+    "date": "2024-10-14",
+    "filed": "2024-10-16",
+    "code": "S",
+    "value": 694102,
+    "who": "Kelsey Stephen Michael"
+   },
+   {
+    "date": "2024-10-14",
+    "filed": "2024-10-16",
+    "code": "S",
+    "value": 130702,
+    "who": "Kelsey Stephen Michael"
+   },
+   {
+    "date": "2024-10-11",
+    "filed": "2024-10-15",
+    "code": "S",
+    "value": 2517055,
+    "who": "Horn Margaret A"
+   },
+   {
+    "date": "2024-10-11",
+    "filed": "2024-10-15",
+    "code": "S",
+    "value": 1510773,
+    "who": "GOLDSMITH MARK A"
+   },
+   {
+    "date": "2024-10-11",
+    "filed": "2024-10-15",
+    "code": "S",
+    "value": 502979,
+    "who": "Anders Jack"
+   },
+   {
+    "date": "2024-10-11",
+    "filed": "2024-10-15",
+    "code": "S",
+    "value": 301027,
+    "who": "Cislini Jeff"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "revolution medicines",
+  "other_trials": 5,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06162221",
+    "drugs": [
+     "RMC-6291",
+     "RMC-6236",
+     "Pembrolizumab"
+    ]
+   },
+   {
+    "nct": "NCT06445062",
+    "drugs": [
+     "RMC-6236",
+     "mFOLFOX6 regimen",
+     "bevacizumab"
+    ]
+   },
+   {
+    "nct": "NCT05379985",
+    "drugs": [
+     "RMC-6236"
+    ]
+   },
+   {
+    "nct": "NCT06128551",
+    "drugs": [
+     "Elironrasib",
+     "Daraxonrasib"
+    ]
+   },
+   {
+    "nct": "NCT06625320",
+    "drugs": [
+     "RMC-6236",
+     "Gemcitabine",
+     "nab-paclitaxel"
+    ]
+   }
+  ]
+ }
+}

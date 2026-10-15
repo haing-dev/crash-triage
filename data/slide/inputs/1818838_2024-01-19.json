@@ -1,0 +1,60 @@
+{
+ "id": "1818838_2024-01-19",
+ "kind": "slide",
+ "cik": "1818838",
+ "name": "Adagene Inc.",
+ "date": "2024-01-19",
+ "asof": "2024-01-19",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-01-19",
+  "adj_close": 2.64
+ },
+ "balance": {
+  "end": "2022-12-31",
+  "cash": 143758678,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001104659-23-052043"
+ },
+ "burn6": null,
+ "shares": {
+  "end": "2022-12-31",
+  "shares": 54065709
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2023-10-21",
+  "to": "2024-02-18",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "adagene",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04645069",
+    "drugs": [
+     "ADG126 Mono",
+     "ADG126-anti PD1",
+     "ADG126-ADG106"
+    ]
+   },
+   {
+    "nct": "NCT05405595",
+    "drugs": [
+     "ADG126",
+     "Pembrolizumab (KEYTRUDA\u00ae)",
+     "Standard of Care (Trifluridine/Tipiracil-Bevacizumab)"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "id": "1739104_2022-01-27",
+ "kind": "slide",
+ "cik": "1739104",
+ "name": "Elanco Animal Health Inc",
+ "date": "2022-01-27",
+ "asof": "2022-01-27",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-01-27",
+  "adj_close": 24.94
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 453000000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001739104-21-000017"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": -238000000.0,
+  "capex": 42000000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-11-01",
+  "shares": 473098643
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 32,
+  "from": "2021-10-29",
+  "to": "2022-02-26",
+  "trades": [
+   {
+    "date": "2021-11-30",
+    "filed": "2021-12-02",
+    "code": "P",
+    "value": 293794,
+    "who": "HOOVER R DAVID"
+   },
+   {
+    "date": "2021-11-30",
+    "filed": "2021-12-02",
+    "code": "P",
+    "value": 73122,
+    "who": "Harrington Michael J"
+   },
+   {
+    "date": "2021-11-15",
+    "filed": "2021-11-17",
+    "code": "P",
+    "value": 158934,
+    "who": "HOOVER R DAVID"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "elanco animal health",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "id": "1534120_2024-11-21",
+ "kind": "slide",
+ "cik": "1534120",
+ "name": "Avalo Therapeutics, Inc.",
+ "date": "2024-11-21",
+ "asof": "2024-11-21",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-11-21",
+  "adj_close": 9.65
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 81858000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001628280-24-045965"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": 27810000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-11-06",
+  "shares": 10393954
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2024-08-23",
+  "to": "2024-12-21",
+  "trades": [
+   {
+    "date": "2024-11-12",
+    "filed": "2024-11-14",
+    "code": "P",
+    "value": 6250,
+    "who": "Almenoff June Sherie"
+   },
+   {
+    "date": "2024-11-13",
+    "filed": "2024-11-14",
+    "code": "P",
+    "value": 6500,
+    "who": "Almenoff June Sherie"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "avalo therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06603077",
+    "drugs": [
+     "AVTX-009 Regimen 1",
+     "AVTX-009 Regimen 2"
+    ]
+   }
+  ]
+ }
+}

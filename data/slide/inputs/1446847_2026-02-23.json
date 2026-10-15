@@ -1,0 +1,155 @@
+{
+ "id": "1446847_2026-02-23",
+ "kind": "slide",
+ "cik": "1446847",
+ "name": "IRONWOOD PHARMACEUTICALS INC",
+ "date": "2026-02-23",
+ "asof": "2026-02-23",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-02-23",
+  "adj_close": 3.75
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 140407000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001104659-25-108795"
+ },
+ "burn6": {
+  "end": "2025-09-30",
+  "start": "2025-04-01",
+  "cash_used_ops": -32515000.0,
+  "capex": 4000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-10-31",
+  "shares": 162678647
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 15,
+  "from": "2025-11-25",
+  "to": "2026-03-25",
+  "trades": [
+   {
+    "date": "2026-03-17",
+    "filed": "2026-03-17",
+    "code": "S",
+    "value": 20511250,
+    "who": "DENNER ALEXANDER J"
+   },
+   {
+    "date": "2026-03-17",
+    "filed": "2026-03-17",
+    "code": "S",
+    "value": 19198,
+    "who": "DENNER ALEXANDER J"
+   },
+   {
+    "date": "2026-02-23",
+    "filed": "2026-02-25",
+    "code": "S",
+    "value": 66443,
+    "who": "John Minardo"
+   },
+   {
+    "date": "2026-02-24",
+    "filed": "2026-02-25",
+    "code": "S",
+    "value": 69734,
+    "who": "John Minardo"
+   },
+   {
+    "date": "2026-02-23",
+    "filed": "2026-02-25",
+    "code": "S",
+    "value": 59322,
+    "who": "Shetzline Michael"
+   },
+   {
+    "date": "2026-02-24",
+    "filed": "2026-02-25",
+    "code": "S",
+    "value": 62264,
+    "who": "Shetzline Michael"
+   },
+   {
+    "date": "2026-02-23",
+    "filed": "2026-02-25",
+    "code": "S",
+    "value": 39193,
+    "who": "Gaskins Tammi L"
+   },
+   {
+    "date": "2026-02-24",
+    "filed": "2026-02-25",
+    "code": "S",
+    "value": 41135,
+    "who": "Gaskins Tammi L"
+   },
+   {
+    "date": "2026-02-23",
+    "filed": "2026-02-25",
+    "code": "S",
+    "value": 361024,
+    "who": "MCCOURT Thomas A"
+   },
+   {
+    "date": "2026-02-24",
+    "filed": "2026-02-25",
+    "code": "S",
+    "value": 378905,
+    "who": "MCCOURT Thomas A"
+   },
+   {
+    "date": "2026-02-23",
+    "filed": "2026-02-25",
+    "code": "S",
+    "value": 39955,
+    "who": "Martini Gregory S."
+   },
+   {
+    "date": "2026-02-24",
+    "filed": "2026-02-25",
+    "code": "S",
+    "value": 41933,
+    "who": "Martini Gregory S."
+   },
+   {
+    "date": "2026-02-23",
+    "filed": "2026-02-25",
+    "code": "S",
+    "value": 44013,
+    "who": "Silver Ronald"
+   },
+   {
+    "date": "2026-02-24",
+    "filed": "2026-02-25",
+    "code": "S",
+    "value": 46193,
+    "who": "Silver Ronald"
+   },
+   {
+    "date": "2026-01-05",
+    "filed": "2026-01-07",
+    "code": "S",
+    "value": 162914,
+    "who": "Silver Ronald"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "ironwood pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

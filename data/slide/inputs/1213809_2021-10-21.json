@@ -1,0 +1,65 @@
+{
+ "id": "1213809_2021-10-21",
+ "kind": "slide",
+ "cik": "1213809",
+ "name": "DYADIC INTERNATIONAL INC",
+ "date": "2021-10-21",
+ "asof": "2021-10-21",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-10-21",
+  "adj_close": 4.53
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 25600737,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "HeldToMaturitySecuritiesCurrent"
+  ],
+  "accn": "0001437749-21-019688"
+ },
+ "burn6": {
+  "end": "2021-06-30",
+  "start": "2021-01-01",
+  "cash_used_ops": 4307783.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-08-11",
+  "shares": 28079157
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2021-07-23",
+  "to": "2021-11-20",
+  "trades": [
+   {
+    "date": "2021-07-27",
+    "filed": "2021-08-16",
+    "code": "S",
+    "value": 2599125000,
+    "who": "Francisco Trust under agreement dated February 28, 1996"
+   },
+   {
+    "date": "2021-08-11",
+    "filed": "2021-08-16",
+    "code": "S",
+    "value": 115647534000,
+    "who": "Francisco Trust under agreement dated February 28, 1996"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "dyadic international",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

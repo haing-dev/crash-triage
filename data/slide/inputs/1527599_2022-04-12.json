@@ -1,0 +1,74 @@
+{
+ "id": "1527599_2022-04-12",
+ "kind": "slide",
+ "cik": "1527599",
+ "name": "SYNLOGIC, INC.",
+ "date": "2022-04-12",
+ "asof": "2022-04-12",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-04-12",
+  "adj_close": 28.8
+ },
+ "balance": {
+  "end": "2021-12-31",
+  "cash": 136629000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0001564590-22-010714"
+ },
+ "burn6": {
+  "end": "2021-12-31",
+  "start": "2021-07-01",
+  "cash_used_ops": 26877000.0,
+  "capex": 556000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-03-10",
+  "shares": 70228487
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2022-01-12",
+  "to": "2022-05-12",
+  "trades": [
+   {
+    "date": "2022-04-04",
+    "filed": "2022-04-06",
+    "code": "S",
+    "value": 21754,
+    "who": "Brennan Aoife"
+   },
+   {
+    "date": "2022-04-04",
+    "filed": "2022-04-06",
+    "code": "S",
+    "value": 6482,
+    "who": "Awad Antoine"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "synlogic",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04534842",
+    "drugs": [
+     "SYNB1618",
+     "SYNB1934"
+    ]
+   }
+  ]
+ }
+}

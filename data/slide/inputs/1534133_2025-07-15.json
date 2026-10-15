@@ -1,0 +1,177 @@
+{
+ "id": "1534133_2025-07-15",
+ "kind": "slide",
+ "cik": "1534133",
+ "name": "CalciMedica, Inc.",
+ "date": "2025-07-15",
+ "asof": "2025-07-15",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-07-15",
+  "adj_close": 2.05
+ },
+ "balance": {
+  "end": "2025-03-31",
+  "cash": 24625000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-25-071421"
+ },
+ "burn6": {
+  "end": "2025-03-31",
+  "start": "2024-10-01",
+  "cash_used_ops": 9850000.0,
+  "capex": 11000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-05-06",
+  "shares": 13971990
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 31,
+  "from": "2025-04-16",
+  "to": "2025-08-14",
+  "trades": [
+   {
+    "date": "2025-07-25",
+    "filed": "2025-07-29",
+    "code": "S",
+    "value": 3650,
+    "who": "Stauderman Kenneth A."
+   },
+   {
+    "date": "2025-07-28",
+    "filed": "2025-07-29",
+    "code": "P",
+    "value": 3960,
+    "who": "Stauderman Kenneth A."
+   },
+   {
+    "date": "2025-07-22",
+    "filed": "2025-07-23",
+    "code": "P",
+    "value": 5662,
+    "who": "Roberts Eric W"
+   },
+   {
+    "date": "2025-07-21",
+    "filed": "2025-07-22",
+    "code": "P",
+    "value": 5055,
+    "who": "Roberts Eric W"
+   },
+   {
+    "date": "2025-07-21",
+    "filed": "2025-07-21",
+    "code": "P",
+    "value": 3400,
+    "who": "Leheny A. Rachel"
+   },
+   {
+    "date": "2025-07-18",
+    "filed": "2025-07-18",
+    "code": "P",
+    "value": 12915,
+    "who": "WILSON ROBERT N"
+   },
+   {
+    "date": "2025-07-18",
+    "filed": "2025-07-18",
+    "code": "P",
+    "value": 5760,
+    "who": "Roberts Eric W"
+   },
+   {
+    "date": "2025-07-14",
+    "filed": "2025-07-16",
+    "code": "P",
+    "value": 15810,
+    "who": "Roberts Eric W"
+   },
+   {
+    "date": "2025-07-14",
+    "filed": "2025-07-15",
+    "code": "P",
+    "value": 6175,
+    "who": "Leheny A. Rachel"
+   },
+   {
+    "date": "2025-07-09",
+    "filed": "2025-07-10",
+    "code": "P",
+    "value": 8024,
+    "who": "Roberts Eric W"
+   },
+   {
+    "date": "2025-07-01",
+    "filed": "2025-07-02",
+    "code": "P",
+    "value": 1850,
+    "who": "Stauderman Kenneth A."
+   },
+   {
+    "date": "2025-06-26",
+    "filed": "2025-06-27",
+    "code": "P",
+    "value": 6483,
+    "who": "Roberts Eric W"
+   },
+   {
+    "date": "2025-06-26",
+    "filed": "2025-06-26",
+    "code": "P",
+    "value": 3005,
+    "who": "Bardin Stephen"
+   },
+   {
+    "date": "2025-06-11",
+    "filed": "2025-06-13",
+    "code": "P",
+    "value": 9250,
+    "who": "Roberts Eric W"
+   },
+   {
+    "date": "2025-06-05",
+    "filed": "2025-06-09",
+    "code": "P",
+    "value": 8670,
+    "who": "Roberts Eric W"
+   },
+   {
+    "date": "2025-06-06",
+    "filed": "2025-06-09",
+    "code": "P",
+    "value": 8875,
+    "who": "Roberts Eric W"
+   },
+   {
+    "date": "2025-05-30",
+    "filed": "2025-06-03",
+    "code": "P",
+    "value": 1690,
+    "who": "Bardin Stephen"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "calcimedica",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06374797",
+    "drugs": [
+     "Auxora"
+    ]
+   }
+  ]
+ }
+}

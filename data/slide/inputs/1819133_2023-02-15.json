@@ -1,0 +1,57 @@
+{
+ "id": "1819133_2023-02-15",
+ "kind": "slide",
+ "cik": "1819133",
+ "name": "Tango Therapeutics, Inc.",
+ "date": "2023-02-15",
+ "asof": "2023-02-15",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-02-15",
+  "adj_close": 5.68
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 393293000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-22-024219"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 51149000.0,
+  "capex": 5090000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-11-02",
+  "shares": 88177354
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2022-11-17",
+  "to": "2023-03-17",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "tango therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05275478",
+    "drugs": [
+     "TNG908"
+    ]
+   }
+  ]
+ }
+}

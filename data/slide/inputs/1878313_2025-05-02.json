@@ -1,0 +1,101 @@
+{
+ "id": "1878313_2025-05-02",
+ "kind": "slide",
+ "cik": "1878313",
+ "name": "MAIA Biotechnology, Inc.",
+ "date": "2025-05-02",
+ "asof": "2025-05-02",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-05-02",
+  "adj_close": 2.05
+ },
+ "balance": {
+  "end": "2024-12-31",
+  "cash": 0,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-25-043190"
+ },
+ "burn6": {
+  "end": "2024-12-31",
+  "start": "2024-07-01",
+  "cash_used_ops": 7432890.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-03-21",
+  "shares": 29587314
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Forward-looking statements contained in this Annual Report on Form 10-K include, but are not limited to, statements about: \u2022 our financial performance; \u2022 there is substantial doubt regarding our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 18,
+  "from": "2025-02-01",
+  "to": "2025-06-01",
+  "trades": [
+   {
+    "date": "2025-05-08",
+    "filed": "2025-05-12",
+    "code": "P",
+    "value": 30000,
+    "who": "Guerrero Ramiro"
+   },
+   {
+    "date": "2025-05-08",
+    "filed": "2025-05-12",
+    "code": "P",
+    "value": 99999,
+    "who": "Smith Stan"
+   },
+   {
+    "date": "2025-03-03",
+    "filed": "2025-03-05",
+    "code": "P",
+    "value": 50000,
+    "who": "Guerrero Ramiro"
+   },
+   {
+    "date": "2025-03-03",
+    "filed": "2025-03-05",
+    "code": "P",
+    "value": 37500,
+    "who": "Smith Stan"
+   },
+   {
+    "date": "2025-02-24",
+    "filed": "2025-02-25",
+    "code": "P",
+    "value": 110000,
+    "who": "Guerrero Ramiro"
+   },
+   {
+    "date": "2025-02-24",
+    "filed": "2025-02-25",
+    "code": "P",
+    "value": 75000,
+    "who": "Smith Stan"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "maia biotechnology",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05208944",
+    "drugs": [
+     "6-Thio-2'-Deoxyguanosine",
+     "Cemiplimab"
+    ]
+   }
+  ]
+ }
+}

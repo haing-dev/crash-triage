@@ -1,0 +1,62 @@
+{
+ "id": "1536196_2024-03-05",
+ "kind": "slide",
+ "cik": "1536196",
+ "name": "Can-Fite BioPharma Ltd.",
+ "date": "2024-03-05",
+ "asof": "2024-03-05",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-03-05",
+  "adj_close": 42.0
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 3458000,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0001213900-23-072599"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 5045000.0,
+  "capex": 2000.0,
+  "periods": 1
+ },
+ "shares": {
+  "end": "2022-12-31",
+  "shares": 815746293
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2023-12-06",
+  "to": "2024-04-04",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "can fite biopharma",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04697810",
+    "drugs": [
+     "Namodenoson"
+    ]
+   },
+   {
+    "nct": "NCT05201404",
+    "drugs": [
+     "Namodenoson"
+    ]
+   }
+  ]
+ }
+}

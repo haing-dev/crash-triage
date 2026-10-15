@@ -1,0 +1,177 @@
+{
+ "id": "1787297_2024-12-11",
+ "kind": "slide",
+ "cik": "1787297",
+ "name": "Passage BIO, Inc.",
+ "date": "2024-12-11",
+ "asof": "2024-12-11",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-12-11",
+  "adj_close": 15.16
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 84826000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001558370-24-015431"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": 20583000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-11-08",
+  "shares": 61767286
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 10,
+  "from": "2024-09-12",
+  "to": "2025-01-10",
+  "trades": [
+   {
+    "date": "2025-01-06",
+    "filed": "2025-01-08",
+    "code": "S",
+    "value": 15000,
+    "who": "ORBIMED ADVISORS LLC"
+   },
+   {
+    "date": "2025-01-07",
+    "filed": "2025-01-08",
+    "code": "S",
+    "value": 37301,
+    "who": "ORBIMED ADVISORS LLC"
+   },
+   {
+    "date": "2025-01-08",
+    "filed": "2025-01-08",
+    "code": "S",
+    "value": 51005,
+    "who": "ORBIMED ADVISORS LLC"
+   },
+   {
+    "date": "2024-12-27",
+    "filed": "2024-12-31",
+    "code": "P",
+    "value": 241038,
+    "who": "Lynx1 Capital Management LP"
+   },
+   {
+    "date": "2024-12-20",
+    "filed": "2024-12-26",
+    "code": "S",
+    "value": 138193,
+    "who": "ORBIMED ADVISORS LLC"
+   },
+   {
+    "date": "2024-12-09",
+    "filed": "2024-12-11",
+    "code": "S",
+    "value": 45512,
+    "who": "ORBIMED ADVISORS LLC"
+   },
+   {
+    "date": "2024-12-10",
+    "filed": "2024-12-11",
+    "code": "S",
+    "value": 6412,
+    "who": "ORBIMED ADVISORS LLC"
+   },
+   {
+    "date": "2024-12-11",
+    "filed": "2024-12-11",
+    "code": "S",
+    "value": 64,
+    "who": "ORBIMED ADVISORS LLC"
+   },
+   {
+    "date": "2024-12-04",
+    "filed": "2024-12-06",
+    "code": "S",
+    "value": 60198,
+    "who": "ORBIMED ADVISORS LLC"
+   },
+   {
+    "date": "2024-12-06",
+    "filed": "2024-12-06",
+    "code": "S",
+    "value": 17140,
+    "who": "ORBIMED ADVISORS LLC"
+   },
+   {
+    "date": "2024-11-25",
+    "filed": "2024-11-27",
+    "code": "P",
+    "value": 146665,
+    "who": "Lynx1 Capital Management LP"
+   },
+   {
+    "date": "2024-11-26",
+    "filed": "2024-11-27",
+    "code": "P",
+    "value": 118191,
+    "who": "Lynx1 Capital Management LP"
+   },
+   {
+    "date": "2024-11-27",
+    "filed": "2024-11-27",
+    "code": "P",
+    "value": 19663,
+    "who": "Lynx1 Capital Management LP"
+   },
+   {
+    "date": "2024-09-19",
+    "filed": "2024-09-23",
+    "code": "S",
+    "value": 27903,
+    "who": "ORBIMED ADVISORS LLC"
+   },
+   {
+    "date": "2024-09-16",
+    "filed": "2024-09-18",
+    "code": "S",
+    "value": 46694,
+    "who": "ORBIMED ADVISORS LLC"
+   },
+   {
+    "date": "2024-09-17",
+    "filed": "2024-09-18",
+    "code": "S",
+    "value": 81322,
+    "who": "ORBIMED ADVISORS LLC"
+   },
+   {
+    "date": "2024-09-18",
+    "filed": "2024-09-18",
+    "code": "S",
+    "value": 18711,
+    "who": "ORBIMED ADVISORS LLC"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "passage bio",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04747431",
+    "drugs": [
+     "PBFT02"
+    ]
+   }
+  ]
+ }
+}

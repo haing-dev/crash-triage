@@ -1,0 +1,125 @@
+{
+ "id": "1070494_2023-09-21",
+ "kind": "slide",
+ "cik": "1070494",
+ "name": "ACADIA PHARMACEUTICALS INC",
+ "date": "2023-09-21",
+ "asof": "2023-09-21",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-09-21",
+  "adj_close": 23.4
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 375378000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0000950170-23-037458"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 9732000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-07-26",
+  "shares": 163728859
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 7,
+  "from": "2023-06-23",
+  "to": "2023-10-21",
+  "trades": [
+   {
+    "date": "2023-10-06",
+    "filed": "2023-10-06",
+    "code": "S",
+    "value": 359463,
+    "who": "KIM AUSTIN D."
+   },
+   {
+    "date": "2023-10-06",
+    "filed": "2023-10-06",
+    "code": "S",
+    "value": 1132323,
+    "who": "DAVIS STEPHEN"
+   },
+   {
+    "date": "2023-09-15",
+    "filed": "2023-09-19",
+    "code": "S",
+    "value": 51760,
+    "who": "Kihara James"
+   },
+   {
+    "date": "2023-08-21",
+    "filed": "2023-08-23",
+    "code": "S",
+    "value": 289970,
+    "who": "Schneyer Mark C."
+   },
+   {
+    "date": "2023-07-14",
+    "filed": "2023-07-18",
+    "code": "S",
+    "value": 3004350,
+    "who": "DAVIS STEPHEN"
+   },
+   {
+    "date": "2023-07-11",
+    "filed": "2023-07-13",
+    "code": "S",
+    "value": 412450,
+    "who": "DAVIS STEPHEN"
+   },
+   {
+    "date": "2023-07-12",
+    "filed": "2023-07-13",
+    "code": "S",
+    "value": 1380449,
+    "who": "DAVIS STEPHEN"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "acadia pharmaceuticals",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05523895",
+    "drugs": [
+     "Pimavanserin"
+    ]
+   },
+   {
+    "nct": "NCT05555615",
+    "drugs": [
+     "Pimavanserin"
+    ]
+   },
+   {
+    "nct": "NCT03121586",
+    "drugs": [
+     "Pimavanserin"
+    ]
+   },
+   {
+    "nct": "NCT04531982",
+    "drugs": [
+     "Pimavanserin"
+    ]
+   }
+  ]
+ }
+}

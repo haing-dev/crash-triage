@@ -1,0 +1,224 @@
+{
+ "id": "1061983_2022-11-04",
+ "kind": "slide",
+ "cik": "1061983",
+ "name": "CYTOKINETICS INC",
+ "date": "2022-11-04",
+ "asof": "2022-11-04",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-11-04",
+  "adj_close": 37.75
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 896208000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0000950170-22-022207"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 174515000.0,
+  "capex": 7188000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-11-02",
+  "shares": 94631001
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 23,
+  "from": "2022-08-06",
+  "to": "2022-12-04",
+  "trades": [
+   {
+    "date": "2022-11-21",
+    "filed": "2022-11-23",
+    "code": "S",
+    "value": 408900,
+    "who": "Blum Robert I"
+   },
+   {
+    "date": "2022-11-14",
+    "filed": "2022-11-15",
+    "code": "S",
+    "value": 85428,
+    "who": "Wong Robert"
+   },
+   {
+    "date": "2022-11-10",
+    "filed": "2022-11-10",
+    "code": "S",
+    "value": 152160,
+    "who": "Malik Fady Ibraham"
+   },
+   {
+    "date": "2022-11-02",
+    "filed": "2022-11-04",
+    "code": "S",
+    "value": 388301,
+    "who": "Blum Robert I"
+   },
+   {
+    "date": "2022-11-02",
+    "filed": "2022-11-04",
+    "code": "S",
+    "value": 33399,
+    "who": "Blum Robert I"
+   },
+   {
+    "date": "2022-10-19",
+    "filed": "2022-10-21",
+    "code": "S",
+    "value": 478600,
+    "who": "Blum Robert I"
+   },
+   {
+    "date": "2022-10-13",
+    "filed": "2022-10-13",
+    "code": "S",
+    "value": 1017135,
+    "who": "Malik Fady Ibraham"
+   },
+   {
+    "date": "2022-10-03",
+    "filed": "2022-10-05",
+    "code": "S",
+    "value": 504000,
+    "who": "Blum Robert I"
+   },
+   {
+    "date": "2022-09-19",
+    "filed": "2022-09-21",
+    "code": "S",
+    "value": 514200,
+    "who": "Blum Robert I"
+   },
+   {
+    "date": "2022-09-12",
+    "filed": "2022-09-12",
+    "code": "S",
+    "value": 398330,
+    "who": "HENDERSON JOHN T"
+   },
+   {
+    "date": "2022-09-12",
+    "filed": "2022-09-12",
+    "code": "S",
+    "value": 398402,
+    "who": "HENDERSON JOHN T"
+   },
+   {
+    "date": "2022-09-12",
+    "filed": "2022-09-12",
+    "code": "S",
+    "value": 398817,
+    "who": "HENDERSON JOHN T"
+   },
+   {
+    "date": "2022-09-08",
+    "filed": "2022-09-09",
+    "code": "S",
+    "value": 1115420,
+    "who": "Malik Fady Ibraham"
+   },
+   {
+    "date": "2022-09-07",
+    "filed": "2022-09-09",
+    "code": "S",
+    "value": 491100,
+    "who": "Blum Robert I"
+   },
+   {
+    "date": "2022-09-02",
+    "filed": "2022-09-02",
+    "code": "S",
+    "value": 613585,
+    "who": "SMITH SANDFORD D"
+   },
+   {
+    "date": "2022-09-01",
+    "filed": "2022-09-01",
+    "code": "S",
+    "value": 1599326,
+    "who": "PARSHALL B LYNNE"
+   },
+   {
+    "date": "2022-09-01",
+    "filed": "2022-09-01",
+    "code": "S",
+    "value": 791850,
+    "who": "COSTA SANTO J"
+   },
+   {
+    "date": "2022-09-01",
+    "filed": "2022-09-01",
+    "code": "S",
+    "value": 219923,
+    "who": "WIERENGA WENDALL"
+   },
+   {
+    "date": "2022-08-17",
+    "filed": "2022-08-19",
+    "code": "S",
+    "value": 501100,
+    "who": "Blum Robert I"
+   },
+   {
+    "date": "2022-08-05",
+    "filed": "2022-08-08",
+    "code": "S",
+    "value": 571400,
+    "who": "Kaye Edward M. MD"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "cytokinetics",
+  "other_trials": 6,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04848506",
+    "drugs": [
+     "Aficamten (5 - 20 mg)"
+    ]
+   },
+   {
+    "nct": "NCT05186818",
+    "drugs": [
+     "Aficamten (5 mg, 10 mg, 15 mg, and 20 mg)"
+    ]
+   },
+   {
+    "nct": "NCT04219826",
+    "drugs": [
+     "CK-3773274 (5 - 15 mg)",
+     "CK-3773274 (10 - 30 mg)"
+    ]
+   },
+   {
+    "nct": "NCT05442775",
+    "drugs": [
+     "Reldesemtiv"
+    ]
+   },
+   {
+    "nct": "NCT04464525",
+    "drugs": [
+     "Omecamtiv mecarbil"
+    ]
+   }
+  ]
+ }
+}

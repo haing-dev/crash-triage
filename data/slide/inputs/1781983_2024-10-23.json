@@ -1,0 +1,127 @@
+{
+ "id": "1781983_2024-10-23",
+ "kind": "slide",
+ "cik": "1781983",
+ "name": "Aprea Therapeutics, Inc.",
+ "date": "2024-10-23",
+ "asof": "2024-10-23",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-10-23",
+  "adj_close": 3.9
+ },
+ "balance": {
+  "end": "2024-06-30",
+  "cash": 28694694,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-24-011806"
+ },
+ "burn6": {
+  "end": "2024-06-30",
+  "start": "2024-01-01",
+  "cash_used_ops": 7577512.0,
+  "capex": 15478.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-08-09",
+  "shares": 5431903
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 9,
+  "from": "2024-07-25",
+  "to": "2024-11-22",
+  "trades": [
+   {
+    "date": "2024-10-18",
+    "filed": "2024-10-25",
+    "code": "S",
+    "value": 29583,
+    "who": "Duey Marc"
+   },
+   {
+    "date": "2024-10-23",
+    "filed": "2024-10-24",
+    "code": "P",
+    "value": 1958,
+    "who": "Gilad Oren"
+   },
+   {
+    "date": "2024-10-16",
+    "filed": "2024-10-17",
+    "code": "P",
+    "value": 131700,
+    "who": "Duey Marc"
+   },
+   {
+    "date": "2024-10-15",
+    "filed": "2024-10-16",
+    "code": "P",
+    "value": 725,
+    "who": "Gilad Oren"
+   },
+   {
+    "date": "2024-10-14",
+    "filed": "2024-10-16",
+    "code": "P",
+    "value": 490,
+    "who": "Duey Marc"
+   },
+   {
+    "date": "2024-10-11",
+    "filed": "2024-10-16",
+    "code": "P",
+    "value": 123,
+    "who": "Hamill John P."
+   },
+   {
+    "date": "2024-10-11",
+    "filed": "2024-10-15",
+    "code": "P",
+    "value": 26800,
+    "who": "Seizinger Bernd R."
+   },
+   {
+    "date": "2024-10-10",
+    "filed": "2024-10-15",
+    "code": "P",
+    "value": 381,
+    "who": "Gilad Oren"
+   },
+   {
+    "date": "2024-10-14",
+    "filed": "2024-10-15",
+    "code": "P",
+    "value": 2590,
+    "who": "Gilad Oren"
+   },
+   {
+    "date": "2024-10-10",
+    "filed": "2024-10-15",
+    "code": "P",
+    "value": 1174,
+    "who": "Hamill John P."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "aprea therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04905914",
+    "drugs": [
+     "ATRN-119"
+    ]
+   }
+  ]
+ }
+}

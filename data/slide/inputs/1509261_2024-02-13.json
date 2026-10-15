@@ -1,0 +1,144 @@
+{
+ "id": "1509261_2024-02-13",
+ "kind": "slide",
+ "cik": "1509261",
+ "name": "Rezolute, Inc.",
+ "date": "2024-02-13",
+ "asof": "2024-02-13",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-02-13",
+  "adj_close": 1.09
+ },
+ "balance": {
+  "end": "2023-12-31",
+  "cash": 95950000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent",
+   "MarketableSecuritiesNoncurrent"
+  ],
+  "accn": "0001558370-24-001069"
+ },
+ "burn6": {
+  "end": "2023-12-31",
+  "start": "2023-07-01",
+  "cash_used_ops": 23605000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-02-09",
+  "shares": 39625271
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 14,
+  "from": "2023-11-15",
+  "to": "2024-03-14",
+  "trades": [
+   {
+    "date": "2022-07-22",
+    "filed": "2024-03-14",
+    "code": "P",
+    "value": 299999,
+    "who": "Kim Young-Jin"
+   },
+   {
+    "date": "2024-03-07",
+    "filed": "2024-03-14",
+    "code": "P",
+    "value": 69859,
+    "who": "Kim Young-Jin"
+   },
+   {
+    "date": "2024-03-07",
+    "filed": "2024-03-11",
+    "code": "P",
+    "value": 925,
+    "who": "ROBERTS BRIAN KENNETH"
+   },
+   {
+    "date": "2024-03-08",
+    "filed": "2024-03-08",
+    "code": "P",
+    "value": 96345,
+    "who": "Evans Daron"
+   },
+   {
+    "date": "2024-02-26",
+    "filed": "2024-02-28",
+    "code": "P",
+    "value": 8400,
+    "who": "Elam Nevan C"
+   },
+   {
+    "date": "2024-02-23",
+    "filed": "2024-02-27",
+    "code": "P",
+    "value": 10140,
+    "who": "ROBERTS BRIAN KENNETH"
+   },
+   {
+    "date": "2024-02-26",
+    "filed": "2024-02-27",
+    "code": "P",
+    "value": 3400,
+    "who": "ROBERTS BRIAN KENNETH"
+   },
+   {
+    "date": "2024-02-16",
+    "filed": "2024-02-21",
+    "code": "P",
+    "value": 9142,
+    "who": "ROBERTS BRIAN KENNETH"
+   },
+   {
+    "date": "2024-02-16",
+    "filed": "2024-02-20",
+    "code": "P",
+    "value": 54411,
+    "who": "Evans Daron"
+   },
+   {
+    "date": "2024-02-16",
+    "filed": "2024-02-20",
+    "code": "P",
+    "value": 6165,
+    "who": "Evans Daron"
+   },
+   {
+    "date": "2024-02-16",
+    "filed": "2024-02-20",
+    "code": "P",
+    "value": 6165,
+    "who": "Evans Daron"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "rezolute",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05712720",
+    "drugs": [
+     "Experimental: Group 1 - 50mg RZ402",
+     "Experimental: Group 2 - 200mg RZ402",
+     "Experimental: Group 3 - 400mg RZ402"
+    ]
+   },
+   {
+    "nct": "NCT06208215",
+    "drugs": [
+     "RZ358 (5-10 mg/kg) + SOC"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,136 @@
+{
+ "id": "1177648_2022-01-13",
+ "kind": "slide",
+ "cik": "1177648",
+ "name": "ENANTA PHARMACEUTICALS INC",
+ "date": "2022-01-13",
+ "asof": "2022-01-13",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-01-13",
+  "adj_close": 61.98
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 352418000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0000950170-21-004895"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 50527000.0,
+  "capex": 432000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-11-01",
+  "shares": 20324795
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 15,
+  "from": "2021-10-15",
+  "to": "2022-02-12",
+  "trades": [
+   {
+    "date": "2022-01-11",
+    "filed": "2022-01-13",
+    "code": "S",
+    "value": 879150,
+    "who": "Adda Nathalie"
+   },
+   {
+    "date": "2021-12-01",
+    "filed": "2021-12-03",
+    "code": "S",
+    "value": 134593,
+    "who": "Adda Nathalie"
+   },
+   {
+    "date": "2021-12-01",
+    "filed": "2021-12-03",
+    "code": "S",
+    "value": 490371,
+    "who": "Adda Nathalie"
+   },
+   {
+    "date": "2021-12-01",
+    "filed": "2021-12-03",
+    "code": "S",
+    "value": 233415,
+    "who": "Adda Nathalie"
+   },
+   {
+    "date": "2021-12-01",
+    "filed": "2021-12-03",
+    "code": "S",
+    "value": 131400,
+    "who": "Adda Nathalie"
+   },
+   {
+    "date": "2021-12-01",
+    "filed": "2021-12-03",
+    "code": "S",
+    "value": 79479,
+    "who": "Adda Nathalie"
+   },
+   {
+    "date": "2021-12-01",
+    "filed": "2021-12-03",
+    "code": "S",
+    "value": 80308,
+    "who": "Adda Nathalie"
+   },
+   {
+    "date": "2021-12-01",
+    "filed": "2021-12-03",
+    "code": "S",
+    "value": 18124,
+    "who": "Adda Nathalie"
+   },
+   {
+    "date": "2021-11-01",
+    "filed": "2021-11-02",
+    "code": "S",
+    "value": 164573,
+    "who": "Adda Nathalie"
+   },
+   {
+    "date": "2021-11-01",
+    "filed": "2021-11-02",
+    "code": "S",
+    "value": 637225,
+    "who": "Adda Nathalie"
+   },
+   {
+    "date": "2021-11-01",
+    "filed": "2021-11-02",
+    "code": "S",
+    "value": 8621,
+    "who": "Adda Nathalie"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "enanta pharmaceuticals",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04633187",
+    "drugs": [
+     "EDP-938"
+    ]
+   }
+  ]
+ }
+}

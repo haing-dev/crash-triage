@@ -1,0 +1,121 @@
+{
+ "id": "1799788_2024-12-18",
+ "kind": "slide",
+ "cik": "1799788",
+ "name": "Greenwich LifeSciences, Inc.",
+ "date": "2024-12-18",
+ "asof": "2024-12-18",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-12-18",
+  "adj_close": 12.28
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 5822367,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001493152-24-045938"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": 3631772.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-10-28",
+  "shares": 13144653
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These circumstances raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 14,
+  "from": "2024-09-19",
+  "to": "2025-01-17",
+  "trades": [
+   {
+    "date": "2025-01-10",
+    "filed": "2025-01-13",
+    "code": "P",
+    "value": 31275,
+    "who": "Patel Snehal"
+   },
+   {
+    "date": "2025-01-06",
+    "filed": "2025-01-08",
+    "code": "P",
+    "value": 14641,
+    "who": "Patel Snehal"
+   },
+   {
+    "date": "2025-01-07",
+    "filed": "2025-01-08",
+    "code": "P",
+    "value": 24750,
+    "who": "Patel Snehal"
+   },
+   {
+    "date": "2025-01-03",
+    "filed": "2025-01-07",
+    "code": "P",
+    "value": 44030,
+    "who": "Patel Snehal"
+   },
+   {
+    "date": "2025-01-02",
+    "filed": "2025-01-06",
+    "code": "P",
+    "value": 23940,
+    "who": "Patel Snehal"
+   },
+   {
+    "date": "2024-12-31",
+    "filed": "2025-01-03",
+    "code": "P",
+    "value": 27264,
+    "who": "Patel Snehal"
+   },
+   {
+    "date": "2024-12-30",
+    "filed": "2025-01-02",
+    "code": "P",
+    "value": 35584,
+    "who": "Patel Snehal"
+   },
+   {
+    "date": "2024-11-21",
+    "filed": "2024-11-25",
+    "code": "P",
+    "value": 12910,
+    "who": "Thompson Jaye"
+   },
+   {
+    "date": "2024-09-26",
+    "filed": "2024-09-30",
+    "code": "P",
+    "value": 21945,
+    "who": "Patel Snehal"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "greenwich lifesciences",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05232916",
+    "drugs": [
+     "GLSI-100"
+    ]
+   }
+  ]
+ }
+}

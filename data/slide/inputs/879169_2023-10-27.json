@@ -1,0 +1,101 @@
+{
+ "id": "879169_2023-10-27",
+ "kind": "slide",
+ "cik": "879169",
+ "name": "INCYTE CORP",
+ "date": "2023-10-27",
+ "asof": "2023-10-27",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-10-27",
+  "adj_close": 52.54
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 3423366000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0000879169-23-000025"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": -200923000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-07-25",
+  "shares": 224087695
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2023-07-29",
+  "to": "2023-11-26",
+  "trades": [
+   {
+    "date": "2023-09-01",
+    "filed": "2023-09-06",
+    "code": "S",
+    "value": 550283,
+    "who": "SWAIN PAULA J"
+   },
+   {
+    "date": "2023-08-01",
+    "filed": "2023-08-03",
+    "code": "S",
+    "value": 1361216,
+    "who": "Stein Steven H"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "incyte",
+  "other_trials": 29,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05620823",
+    "drugs": [
+     "Povorcitinib"
+    ]
+   },
+   {
+    "nct": "NCT05233410",
+    "drugs": [
+     "Ruxolitinib cream",
+     "Vehicle"
+    ]
+   },
+   {
+    "nct": "NCT04680052",
+    "drugs": [
+     "tafasitamab",
+     "rituximab",
+     "lenalidomide"
+    ]
+   },
+   {
+    "nct": "NCT04203511",
+    "drugs": [
+     "Retifanlimab",
+     "Pemetrexed",
+     "Cisplatin"
+    ]
+   },
+   {
+    "nct": "NCT05888844",
+    "drugs": [
+     "INCB099280"
+    ]
+   }
+  ]
+ }
+}

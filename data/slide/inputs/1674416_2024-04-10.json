@@ -1,0 +1,190 @@
+{
+ "id": "1674416_2024-04-10",
+ "kind": "slide",
+ "cik": "1674416",
+ "name": "CRISPR Therapeutics AG",
+ "date": "2024-04-10",
+ "asof": "2024-04-10",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-04-10",
+  "adj_close": 61.74
+ },
+ "balance": {
+  "end": "2023-12-31",
+  "cash": 1695665000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent",
+   "MarketableSecuritiesNoncurrent"
+  ],
+  "accn": "0000950170-24-017571"
+ },
+ "burn6": {
+  "end": "2023-12-31",
+  "start": "2023-07-01",
+  "cash_used_ops": 135929000.0,
+  "capex": 2856000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-02-16",
+  "shares": 80275950
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 14,
+  "from": "2024-01-11",
+  "to": "2024-05-10",
+  "trades": [
+   {
+    "date": "2024-04-15",
+    "filed": "2024-04-17",
+    "code": "S",
+    "value": 1100510,
+    "who": "Kulkarni Samarth"
+   },
+   {
+    "date": "2024-04-15",
+    "filed": "2024-04-17",
+    "code": "S",
+    "value": 72722,
+    "who": "Kulkarni Samarth"
+   },
+   {
+    "date": "2024-03-15",
+    "filed": "2024-03-18",
+    "code": "S",
+    "value": 256160,
+    "who": "Prasad Raju"
+   },
+   {
+    "date": "2024-03-15",
+    "filed": "2024-03-18",
+    "code": "S",
+    "value": 763810,
+    "who": "Kulkarni Samarth"
+   },
+   {
+    "date": "2024-03-15",
+    "filed": "2024-03-18",
+    "code": "S",
+    "value": 685818,
+    "who": "Kulkarni Samarth"
+   },
+   {
+    "date": "2024-03-11",
+    "filed": "2024-03-12",
+    "code": "S",
+    "value": 219206,
+    "who": "KASINGER JAMES R."
+   },
+   {
+    "date": "2024-03-12",
+    "filed": "2024-03-12",
+    "code": "S",
+    "value": 85308,
+    "who": "KASINGER JAMES R."
+   },
+   {
+    "date": "2024-03-11",
+    "filed": "2024-03-12",
+    "code": "S",
+    "value": 767105,
+    "who": "Kulkarni Samarth"
+   },
+   {
+    "date": "2024-03-12",
+    "filed": "2024-03-12",
+    "code": "S",
+    "value": 341159,
+    "who": "Kulkarni Samarth"
+   },
+   {
+    "date": "2024-02-20",
+    "filed": "2024-02-21",
+    "code": "S",
+    "value": 152409,
+    "who": "KASINGER JAMES R."
+   },
+   {
+    "date": "2024-02-20",
+    "filed": "2024-02-21",
+    "code": "S",
+    "value": 507498,
+    "who": "Kulkarni Samarth"
+   },
+   {
+    "date": "2024-02-15",
+    "filed": "2024-02-16",
+    "code": "S",
+    "value": 1035090,
+    "who": "Kulkarni Samarth"
+   },
+   {
+    "date": "2024-02-15",
+    "filed": "2024-02-16",
+    "code": "S",
+    "value": 482257,
+    "who": "Kulkarni Samarth"
+   },
+   {
+    "date": "2024-02-15",
+    "filed": "2024-02-16",
+    "code": "S",
+    "value": 89831,
+    "who": "Kulkarni Samarth"
+   },
+   {
+    "date": "2024-01-29",
+    "filed": "2024-01-31",
+    "code": "S",
+    "value": 2982803,
+    "who": "Kulkarni Samarth"
+   },
+   {
+    "date": "2024-01-29",
+    "filed": "2024-01-31",
+    "code": "S",
+    "value": 42770,
+    "who": "Kulkarni Samarth"
+   },
+   {
+    "date": "2024-01-16",
+    "filed": "2024-01-18",
+    "code": "S",
+    "value": 1250058,
+    "who": "Kulkarni Samarth"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "crispr therapeutics",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04035434",
+    "drugs": [
+     "CTX110"
+    ]
+   },
+   {
+    "nct": "NCT05795595",
+    "drugs": [
+     "CTX131"
+    ]
+   },
+   {
+    "nct": "NCT05643742",
+    "drugs": [
+     "CTX112"
+    ]
+   }
+  ]
+ }
+}

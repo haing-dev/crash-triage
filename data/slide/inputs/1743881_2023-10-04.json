@@ -1,0 +1,79 @@
+{
+ "id": "1743881_2023-10-04",
+ "kind": "slide",
+ "cik": "1743881",
+ "name": "BridgeBio Pharma, Inc.",
+ "date": "2023-10-04",
+ "asof": "2023-10-04",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-10-04",
+  "adj_close": 24.02
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 333307000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-23-037977"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 257675000.0,
+  "capex": 440000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-07-31",
+  "shares": 162472399
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2023-07-06",
+  "to": "2023-11-03",
+  "trades": [
+   {
+    "date": "2023-09-05",
+    "filed": "2023-09-07",
+    "code": "S",
+    "value": 75000,
+    "who": "Scott Randal W."
+   },
+   {
+    "date": "2023-08-17",
+    "filed": "2023-08-18",
+    "code": "S",
+    "value": 648455,
+    "who": "STEPHENSON BRIAN C"
+   },
+   {
+    "date": "2023-08-17",
+    "filed": "2023-08-18",
+    "code": "S",
+    "value": 1473784,
+    "who": "Kumar Neil"
+   },
+   {
+    "date": "2023-07-18",
+    "filed": "2023-07-19",
+    "code": "S",
+    "value": 52500000,
+    "who": "VIKING GLOBAL INVESTORS LP"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "bridgebio pharma",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

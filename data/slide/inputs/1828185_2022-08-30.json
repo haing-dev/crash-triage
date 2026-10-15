@@ -1,0 +1,164 @@
+{
+ "id": "1828185_2022-08-30",
+ "kind": "slide",
+ "cik": "1828185",
+ "name": "Barinthus Biotherapeutics plc.",
+ "date": "2022-08-30",
+ "asof": "2022-08-30",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-08-30",
+  "adj_close": 4.5
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 192327000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001104659-22-087945"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 14972000.0,
+  "capex": 3146000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-08-08",
+  "shares": 37216162
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 10,
+  "from": "2022-06-01",
+  "to": "2022-09-29",
+  "trades": [
+   {
+    "date": "2022-08-25",
+    "filed": "2022-08-26",
+    "code": "S",
+    "value": 73870,
+    "who": "Griffiths Graham"
+   },
+   {
+    "date": "2022-08-24",
+    "filed": "2022-08-26",
+    "code": "S",
+    "value": 2152,
+    "who": "Ellis Christopher"
+   },
+   {
+    "date": "2022-08-25",
+    "filed": "2022-08-26",
+    "code": "S",
+    "value": 80688,
+    "who": "Ellis Christopher"
+   },
+   {
+    "date": "2022-08-25",
+    "filed": "2022-08-26",
+    "code": "S",
+    "value": 176708,
+    "who": "Ellis Christopher"
+   },
+   {
+    "date": "2022-08-17",
+    "filed": "2022-08-19",
+    "code": "S",
+    "value": 3093,
+    "who": "Ellis Christopher"
+   },
+   {
+    "date": "2022-08-18",
+    "filed": "2022-08-19",
+    "code": "S",
+    "value": 10531,
+    "who": "Ellis Christopher"
+   },
+   {
+    "date": "2022-08-17",
+    "filed": "2022-08-19",
+    "code": "S",
+    "value": 2381,
+    "who": "Griffiths Graham"
+   },
+   {
+    "date": "2022-08-15",
+    "filed": "2022-08-17",
+    "code": "S",
+    "value": 25463,
+    "who": "Ellis Christopher"
+   },
+   {
+    "date": "2022-08-16",
+    "filed": "2022-08-17",
+    "code": "S",
+    "value": 10513,
+    "who": "Ellis Christopher"
+   },
+   {
+    "date": "2022-08-15",
+    "filed": "2022-08-17",
+    "code": "S",
+    "value": 11407,
+    "who": "Griffiths Graham"
+   },
+   {
+    "date": "2022-08-16",
+    "filed": "2022-08-17",
+    "code": "S",
+    "value": 5876,
+    "who": "Griffiths Graham"
+   },
+   {
+    "date": "2022-08-12",
+    "filed": "2022-08-15",
+    "code": "S",
+    "value": 22500,
+    "who": "Griffiths Graham"
+   },
+   {
+    "date": "2022-06-28",
+    "filed": "2022-07-15",
+    "code": "S",
+    "value": 30,
+    "who": "Ellis Christopher"
+   },
+   {
+    "date": "2022-06-23",
+    "filed": "2022-07-15",
+    "code": "S",
+    "value": 42,
+    "who": "Griffiths Graham"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "barinthus biotherapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04607850",
+    "drugs": [
+     "ChAdOx1-HPV",
+     "MVA-HPV"
+    ]
+   },
+   {
+    "nct": "NCT04778904",
+    "drugs": [
+     "ChAdOx1-HBV",
+     "MVA-HBV",
+     "Nivolumab"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,91 @@
+{
+ "id": "873303_2026-05-19",
+ "kind": "slide",
+ "cik": "873303",
+ "name": "Sarepta Therapeutics, Inc.",
+ "date": "2026-05-19",
+ "asof": "2026-05-19",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-05-19",
+  "adj_close": 16.64
+ },
+ "balance": {
+  "end": "2026-03-31",
+  "cash": 653189000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001193125-26-208893"
+ },
+ "burn6": {
+  "end": "2026-03-31",
+  "start": "2025-10-01",
+  "cash_used_ops": 71477000.0,
+  "capex": 5672000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-05-01",
+  "shares": 105576222
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 24,
+  "from": "2026-02-18",
+  "to": "2026-06-18",
+  "trades": [
+   {
+    "date": "2026-03-12",
+    "filed": "2026-03-13",
+    "code": "S",
+    "value": 123208,
+    "who": "Mayo Stephen"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "sarepta therapeutics",
+  "other_trials": 7,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT00248066",
+    "drugs": [
+     "RESTEN-MP"
+    ]
+   },
+   {
+    "nct": "NCT05881408",
+    "drugs": [
+     "delandistrogene moxeparvovec"
+    ]
+   },
+   {
+    "nct": "NCT06952686",
+    "drugs": [
+     "SRP-9005",
+     "Corticosteroid"
+    ]
+   },
+   {
+    "nct": "NCT05967351",
+    "drugs": [
+     "delandistrogene moxeparvovec"
+    ]
+   },
+   {
+    "nct": "NCT06138743",
+    "drugs": [
+     "SRP-1003 IV Infusion",
+     "SRP-1003 SC Injection"
+    ]
+   }
+  ]
+ }
+}

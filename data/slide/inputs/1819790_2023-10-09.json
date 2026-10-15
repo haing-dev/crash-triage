@@ -1,0 +1,135 @@
+{
+ "id": "1819790_2023-10-09",
+ "kind": "slide",
+ "cik": "1819790",
+ "name": "Tarsus Pharmaceuticals, Inc.",
+ "date": "2023-10-09",
+ "asof": "2023-10-09",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-10-09",
+  "adj_close": 16.31
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 178228000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001819790-23-000071"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 45796000.0,
+  "capex": 1127000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-08-04",
+  "shares": 32616517
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 9,
+  "from": "2023-07-11",
+  "to": "2023-11-08",
+  "trades": [
+   {
+    "date": "2023-10-18",
+    "filed": "2023-10-20",
+    "code": "S",
+    "value": 105920,
+    "who": "Azamian Bobak R."
+   },
+   {
+    "date": "2023-10-05",
+    "filed": "2023-10-06",
+    "code": "S",
+    "value": 28872,
+    "who": "Trevejo Jose M."
+   },
+   {
+    "date": "2023-09-20",
+    "filed": "2023-09-22",
+    "code": "S",
+    "value": 137680,
+    "who": "Azamian Bobak R."
+   },
+   {
+    "date": "2023-08-23",
+    "filed": "2023-08-25",
+    "code": "S",
+    "value": 137840,
+    "who": "Azamian Bobak R."
+   },
+   {
+    "date": "2023-08-15",
+    "filed": "2023-08-17",
+    "code": "P",
+    "value": 159701,
+    "who": "Lin Elizabeth Yeu"
+   },
+   {
+    "date": "2023-07-19",
+    "filed": "2023-07-21",
+    "code": "S",
+    "value": 48120,
+    "who": "Mottiwala Aziz"
+   },
+   {
+    "date": "2023-07-19",
+    "filed": "2023-07-21",
+    "code": "S",
+    "value": 80475,
+    "who": "Azamian Bobak R."
+   },
+   {
+    "date": "2023-07-19",
+    "filed": "2023-07-21",
+    "code": "S",
+    "value": 1998509,
+    "who": "Azamian Bobak R."
+   },
+   {
+    "date": "2023-07-12",
+    "filed": "2023-07-14",
+    "code": "S",
+    "value": 156150,
+    "who": "Azamian Bobak R."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "tarsus pharmaceuticals",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05838170",
+    "drugs": [
+     "Lotilaner Gel, 2.0%",
+     "Vehicle control gel"
+    ]
+   },
+   {
+    "nct": "NCT05387083",
+    "drugs": [
+     "Low Dose TP-05",
+     "High Dose TP-05"
+    ]
+   },
+   {
+    "nct": "NCT06054217",
+    "drugs": [
+     "Vehicle of TP-03"
+    ]
+   }
+  ]
+ }
+}

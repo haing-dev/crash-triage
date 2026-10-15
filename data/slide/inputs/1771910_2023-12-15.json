@@ -1,0 +1,65 @@
+{
+ "id": "1771910_2023-12-15",
+ "kind": "slide",
+ "cik": "1771910",
+ "name": "ADC Therapeutics SA",
+ "date": "2023-12-15",
+ "asof": "2023-12-15",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-12-15",
+  "adj_close": 1.59
+ },
+ "balance": {
+  "end": "2023-09-30",
+  "cash": 310407000,
+  "parts": [
+   "ifrs CashAndCashEquivalents"
+  ],
+  "accn": "0001628280-23-037172"
+ },
+ "burn6": {
+  "end": "2023-09-30",
+  "start": "2023-04-01",
+  "cash_used_ops": 70842000.0,
+  "capex": 1874000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-12-31",
+  "shares": 80642527
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2023-09-16",
+  "to": "2024-01-14",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "adc therapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04384484",
+    "drugs": [
+     "Loncastuximab Tesirine",
+     "Rituximab",
+     "Gemcitabine"
+    ]
+   },
+   {
+    "nct": "NCT05144009",
+    "drugs": [
+     "Loncastuximab Tesirine",
+     "Rituximab"
+    ]
+   }
+  ]
+ }
+}

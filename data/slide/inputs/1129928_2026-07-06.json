@@ -1,0 +1,61 @@
+{
+ "id": "1129928_2026-07-06",
+ "kind": "slide",
+ "cik": "1129928",
+ "name": "ONCOLYTICS BIOTECH INC",
+ "date": "2026-07-06",
+ "asof": "2026-07-06",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-07-06",
+  "adj_close": 0.88
+ },
+ "balance": {
+  "end": "2026-03-31",
+  "cash": 5493000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001129928-26-000033"
+ },
+ "burn6": null,
+ "shares": {
+  "end": "2026-05-12",
+  "shares": 119354067
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These conditions raise substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 14,
+  "from": "2026-04-07",
+  "to": "2026-08-05",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "oncolytics biotech",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT07280377",
+    "drugs": [
+     "Pelareorep",
+     "Atezolizumab",
+     "Gemcitabine and nab-paclitaxel"
+    ]
+   },
+   {
+    "nct": "NCT07446322",
+    "drugs": [
+     "Bevacizumab",
+     "FOLFIRI",
+     "Pelareorep"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "id": "886163_2022-09-21",
+ "kind": "slide",
+ "cik": "886163",
+ "name": "LIGAND PHARMACEUTICALS INC",
+ "date": "2022-09-21",
+ "asof": "2022-09-21",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-09-21",
+  "adj_close": 51.89644
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 147935000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000886163-22-000117"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": -63889000.0,
+  "capex": 11463000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-08-05",
+  "shares": 16882751
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2022-06-23",
+  "to": "2022-10-21",
+  "trades": [
+   {
+    "date": "2022-09-15",
+    "filed": "2022-09-16",
+    "code": "S",
+    "value": 180000,
+    "who": "HIGGINS JOHN L"
+   },
+   {
+    "date": "2022-09-16",
+    "filed": "2022-09-16",
+    "code": "S",
+    "value": 268050,
+    "who": "HIGGINS JOHN L"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "ligand pharmaceuticals",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04627831",
+    "drugs": [
+     "CE-Iohexol",
+     "Iohexol"
+    ]
+   }
+  ]
+ }
+}

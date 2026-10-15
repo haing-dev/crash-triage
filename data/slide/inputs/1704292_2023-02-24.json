@@ -1,0 +1,85 @@
+{
+ "id": "1704292_2023-02-24",
+ "kind": "slide",
+ "cik": "1704292",
+ "name": "Zai Lab Ltd",
+ "date": "2023-02-24",
+ "asof": "2023-02-24",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-02-24",
+  "adj_close": 35.56
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 1119476000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001628280-22-029246"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 171223000.0,
+  "capex": 10429000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-02-26",
+  "shares": 88592343
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 9,
+  "from": "2022-11-26",
+  "to": "2023-03-26",
+  "trades": [
+   {
+    "date": "2023-03-06",
+    "filed": "2023-03-07",
+    "code": "S",
+    "value": 322981,
+    "who": "Edmondson Frazor Titus III"
+   },
+   {
+    "date": "2023-03-03",
+    "filed": "2023-03-07",
+    "code": "S",
+    "value": 208177,
+    "who": "Lis William"
+   },
+   {
+    "date": "2023-03-03",
+    "filed": "2023-03-07",
+    "code": "S",
+    "value": 459200,
+    "who": "Reinhart Harald"
+   },
+   {
+    "date": "2022-12-08",
+    "filed": "2022-12-09",
+    "code": "S",
+    "value": 136245,
+    "who": "WIRTH PETER"
+   },
+   {
+    "date": "2022-12-08",
+    "filed": "2022-12-09",
+    "code": "S",
+    "value": 141320,
+    "who": "WIRTH PETER"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "zai lab",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

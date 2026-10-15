@@ -1,0 +1,109 @@
+{
+ "id": "899460_2022-09-21",
+ "kind": "slide",
+ "cik": "899460",
+ "name": "MANNKIND CORP",
+ "date": "2022-09-21",
+ "asof": "2022-09-21",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-09-21",
+  "adj_close": 3.21
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 154156000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001564590-22-028753"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 50230000.0,
+  "capex": 2222000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-07-29",
+  "shares": 257338259
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 10,
+  "from": "2022-06-23",
+  "to": "2022-10-21",
+  "trades": [
+   {
+    "date": "2022-08-29",
+    "filed": "2022-08-29",
+    "code": "S",
+    "value": 25690,
+    "who": "Thomson David"
+   },
+   {
+    "date": "2022-08-22",
+    "filed": "2022-08-23",
+    "code": "S",
+    "value": 17713,
+    "who": "Galindo Alejandro"
+   },
+   {
+    "date": "2022-08-22",
+    "filed": "2022-08-23",
+    "code": "S",
+    "value": 58,
+    "who": "Galindo Alejandro"
+   },
+   {
+    "date": "2022-07-31",
+    "filed": "2022-08-01",
+    "code": "P",
+    "value": 2318,
+    "who": "Binder Steven B."
+   },
+   {
+    "date": "2022-07-31",
+    "filed": "2022-08-01",
+    "code": "P",
+    "value": 9221,
+    "who": "Castagna Michael"
+   },
+   {
+    "date": "2022-07-31",
+    "filed": "2022-08-01",
+    "code": "P",
+    "value": 13422,
+    "who": "Tross Stuart A"
+   },
+   {
+    "date": "2022-07-31",
+    "filed": "2022-08-01",
+    "code": "P",
+    "value": 14650,
+    "who": "Galindo Alejandro"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "mannkind",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04974528",
+    "drugs": [
+     "Afrezza",
+     "Rapid-acting Insulin Analog",
+     "Basal Insulin"
+    ]
+   }
+  ]
+ }
+}

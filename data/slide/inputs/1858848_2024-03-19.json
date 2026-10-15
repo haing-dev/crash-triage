@@ -1,0 +1,121 @@
+{
+ "id": "1858848_2024-03-19",
+ "kind": "slide",
+ "cik": "1858848",
+ "name": "Tenaya Therapeutics, Inc.",
+ "date": "2024-03-19",
+ "asof": "2024-03-19",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-03-19",
+  "adj_close": 4.53
+ },
+ "balance": {
+  "end": "2023-12-31",
+  "cash": 104642000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-24-032828"
+ },
+ "burn6": {
+  "end": "2023-12-31",
+  "start": "2023-07-01",
+  "cash_used_ops": 45562000.0,
+  "capex": 402000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-03-01",
+  "shares": 78516142
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 12,
+  "from": "2023-12-20",
+  "to": "2024-04-18",
+  "trades": [
+   {
+    "date": "2024-03-05",
+    "filed": "2024-03-06",
+    "code": "S",
+    "value": 23101,
+    "who": "Hoey Timothy"
+   },
+   {
+    "date": "2024-02-20",
+    "filed": "2024-02-21",
+    "code": "S",
+    "value": 33813,
+    "who": "Hoey Timothy"
+   },
+   {
+    "date": "2024-02-20",
+    "filed": "2024-02-21",
+    "code": "S",
+    "value": 1233,
+    "who": "Hoey Timothy"
+   },
+   {
+    "date": "2024-02-16",
+    "filed": "2024-02-16",
+    "code": "S",
+    "value": 27431,
+    "who": "Hoey Timothy"
+   },
+   {
+    "date": "2024-02-16",
+    "filed": "2024-02-16",
+    "code": "S",
+    "value": 38090,
+    "who": "Tingley Whittemore"
+   },
+   {
+    "date": "2024-02-16",
+    "filed": "2024-02-16",
+    "code": "S",
+    "value": 30478,
+    "who": "PATTERSON LEONE D"
+   },
+   {
+    "date": "2024-02-16",
+    "filed": "2024-02-16",
+    "code": "S",
+    "value": 37258,
+    "who": "Ali Faraz"
+   },
+   {
+    "date": "2024-02-12",
+    "filed": "2024-02-14",
+    "code": "P",
+    "value": 9999999,
+    "who": "COLUMN GROUP III GP, LP"
+   },
+   {
+    "date": "2024-02-12",
+    "filed": "2024-02-14",
+    "code": "P",
+    "value": 9999999,
+    "who": "GOEDDEL DAVID V"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "tenaya therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05836259",
+    "drugs": [
+     "TN-201"
+    ]
+   }
+  ]
+ }
+}

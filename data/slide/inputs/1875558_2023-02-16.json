@@ -1,0 +1,134 @@
+{
+ "id": "1875558_2023-02-16",
+ "kind": "slide",
+ "cik": "1875558",
+ "name": "Nuvectis Pharma, Inc.",
+ "date": "2023-02-16",
+ "asof": "2023-02-16",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-02-16",
+  "adj_close": 9.99
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 23640000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-22-016755"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 6967000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-11-07",
+  "shares": 14642483
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 10,
+  "from": "2022-11-18",
+  "to": "2023-03-18",
+  "trades": [
+   {
+    "date": "2023-03-15",
+    "filed": "2023-03-17",
+    "code": "P",
+    "value": 7176,
+    "who": "Shemesh Shay"
+   },
+   {
+    "date": "2023-03-14",
+    "filed": "2023-03-16",
+    "code": "P",
+    "value": 18228,
+    "who": "BENTSUR RON"
+   },
+   {
+    "date": "2023-03-15",
+    "filed": "2023-03-16",
+    "code": "P",
+    "value": 5237,
+    "who": "BENTSUR RON"
+   },
+   {
+    "date": "2022-12-21",
+    "filed": "2022-12-22",
+    "code": "P",
+    "value": 3825,
+    "who": "Shemesh Shay"
+   },
+   {
+    "date": "2022-11-30",
+    "filed": "2022-11-30",
+    "code": "P",
+    "value": 1118,
+    "who": "BENTSUR RON"
+   },
+   {
+    "date": "2022-11-25",
+    "filed": "2022-11-29",
+    "code": "P",
+    "value": 1107,
+    "who": "BENTSUR RON"
+   },
+   {
+    "date": "2022-11-28",
+    "filed": "2022-11-29",
+    "code": "P",
+    "value": 1110,
+    "who": "BENTSUR RON"
+   },
+   {
+    "date": "2022-11-29",
+    "filed": "2022-11-29",
+    "code": "P",
+    "value": 1118,
+    "who": "BENTSUR RON"
+   },
+   {
+    "date": "2022-11-17",
+    "filed": "2022-11-21",
+    "code": "P",
+    "value": 1810,
+    "who": "BENTSUR RON"
+   },
+   {
+    "date": "2022-11-18",
+    "filed": "2022-11-21",
+    "code": "P",
+    "value": 3615,
+    "who": "BENTSUR RON"
+   },
+   {
+    "date": "2022-11-16",
+    "filed": "2022-11-18",
+    "code": "P",
+    "value": 1065,
+    "who": "Shemesh Shay"
+   },
+   {
+    "date": "2022-11-17",
+    "filed": "2022-11-18",
+    "code": "P",
+    "value": 1080,
+    "who": "Shemesh Shay"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "nuvectis pharma",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

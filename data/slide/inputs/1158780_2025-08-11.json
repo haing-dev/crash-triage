@@ -1,0 +1,64 @@
+{
+ "id": "1158780_2025-08-11",
+ "kind": "slide",
+ "cik": "1158780",
+ "name": "Pluri Inc.",
+ "date": "2025-08-11",
+ "asof": "2025-08-11",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-08-11",
+  "adj_close": 4.55
+ },
+ "balance": {
+  "end": "2025-03-31",
+  "cash": 8499000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001213900-25-042637"
+ },
+ "burn6": {
+  "end": "2025-03-31",
+  "start": "2024-10-01",
+  "cash_used_ops": 8931000.0,
+  "capex": 689000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-05-12",
+  "shares": 7832601
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2025-05-13",
+  "to": "2025-09-10",
+  "trades": [
+   {
+    "date": "2025-04-28",
+    "filed": "2025-07-01",
+    "code": "P",
+    "value": 2413045,
+    "who": "Manieu Alexandre Weinstein"
+   },
+   {
+    "date": "2025-04-28",
+    "filed": "2025-07-01",
+    "code": "P",
+    "value": 2086956,
+    "who": "Manieu Alexandre Weinstein"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "pluri",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

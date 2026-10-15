@@ -1,0 +1,50 @@
+{
+ "id": "1569340_2021-09-21",
+ "kind": "slide",
+ "cik": "1569340",
+ "name": "Cell Source, Inc.",
+ "date": "2021-09-21",
+ "asof": "2021-09-21",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-09-21",
+  "adj_close": 1.25
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 81705,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001493152-21-019491"
+ },
+ "burn6": {
+  "end": "2021-06-30",
+  "start": "2021-01-01",
+  "cash_used_ops": 2257576.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-08-10",
+  "shares": 33538578
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These conditions raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2021-06-23",
+  "to": "2021-10-21",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "cell source",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

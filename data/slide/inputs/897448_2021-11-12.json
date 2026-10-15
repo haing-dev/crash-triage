@@ -1,0 +1,50 @@
+{
+ "id": "897448_2021-11-12",
+ "kind": "slide",
+ "cik": "897448",
+ "name": "AMARIN CORP PLC\\UK",
+ "date": "2021-11-12",
+ "asof": "2021-11-12",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-11-12",
+  "adj_close": 81.2
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 479142000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-21-002721"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 19593000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2013-02-20",
+  "shares": 380694
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2021-08-14",
+  "to": "2021-12-12",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "amarin uk",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

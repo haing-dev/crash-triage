@@ -1,0 +1,179 @@
+{
+ "id": "887359_2025-04-01",
+ "kind": "slide",
+ "cik": "887359",
+ "name": "Vericel Corp",
+ "date": "2025-04-01",
+ "asof": "2025-04-01",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-04-01",
+  "adj_close": 43.09
+ },
+ "balance": {
+  "end": "2024-12-31",
+  "cash": 156093000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0001628280-25-008447"
+ },
+ "burn6": {
+  "end": "2024-12-31",
+  "start": "2024-07-01",
+  "cash_used_ops": -32426000.0,
+  "capex": 33196000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-02-21",
+  "shares": 49969568
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 30,
+  "from": "2025-01-01",
+  "to": "2025-05-01",
+  "trades": [
+   {
+    "date": "2025-04-09",
+    "filed": "2025-04-11",
+    "code": "S",
+    "value": 1021584,
+    "who": "Colangelo Dominick"
+   },
+   {
+    "date": "2025-04-10",
+    "filed": "2025-04-11",
+    "code": "S",
+    "value": 1040966,
+    "who": "Colangelo Dominick"
+   },
+   {
+    "date": "2025-03-12",
+    "filed": "2025-03-14",
+    "code": "S",
+    "value": 1231429,
+    "who": "Colangelo Dominick"
+   },
+   {
+    "date": "2025-03-13",
+    "filed": "2025-03-14",
+    "code": "S",
+    "value": 1217382,
+    "who": "Colangelo Dominick"
+   },
+   {
+    "date": "2025-03-03",
+    "filed": "2025-03-05",
+    "code": "S",
+    "value": 495200,
+    "who": "Halpin Michael"
+   },
+   {
+    "date": "2025-03-03",
+    "filed": "2025-03-05",
+    "code": "S",
+    "value": 445770,
+    "who": "Hagen Heidi"
+   },
+   {
+    "date": "2025-03-03",
+    "filed": "2025-03-05",
+    "code": "S",
+    "value": 445770,
+    "who": "Mara Joseph Anthony Jr"
+   },
+   {
+    "date": "2025-03-03",
+    "filed": "2025-03-05",
+    "code": "S",
+    "value": 495300,
+    "who": "Hopper Jonathan Mark"
+   },
+   {
+    "date": "2025-02-25",
+    "filed": "2025-02-26",
+    "code": "S",
+    "value": 86905,
+    "who": "Flynn Sean C."
+   },
+   {
+    "date": "2025-02-25",
+    "filed": "2025-02-26",
+    "code": "S",
+    "value": 59204,
+    "who": "SIEGAL JONATHAN"
+   },
+   {
+    "date": "2025-02-20",
+    "filed": "2025-02-24",
+    "code": "S",
+    "value": 219822,
+    "who": "Flynn Sean C."
+   },
+   {
+    "date": "2025-02-19",
+    "filed": "2025-02-20",
+    "code": "S",
+    "value": 96991,
+    "who": "SIEGAL JONATHAN"
+   },
+   {
+    "date": "2025-02-12",
+    "filed": "2025-02-14",
+    "code": "S",
+    "value": 332820,
+    "who": "MCLAUGHLIN KEVIN F"
+   },
+   {
+    "date": "2025-02-12",
+    "filed": "2025-02-14",
+    "code": "S",
+    "value": 55430,
+    "who": "MCLAUGHLIN KEVIN F"
+   },
+   {
+    "date": "2025-02-05",
+    "filed": "2025-02-07",
+    "code": "S",
+    "value": 156250,
+    "who": "ZERBE ROBERT L MD"
+   },
+   {
+    "date": "2025-02-05",
+    "filed": "2025-02-07",
+    "code": "S",
+    "value": 67693,
+    "who": "SIEGAL JONATHAN"
+   },
+   {
+    "date": "2025-01-28",
+    "filed": "2025-01-30",
+    "code": "S",
+    "value": 242257,
+    "who": "SIEGAL JONATHAN"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "vericel",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03588975",
+    "drugs": [
+     "MACI",
+     "microfracture"
+    ]
+   }
+  ]
+ }
+}

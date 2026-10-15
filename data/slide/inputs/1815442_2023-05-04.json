@@ -1,0 +1,94 @@
+{
+ "id": "1815442_2023-05-04",
+ "kind": "slide",
+ "cik": "1815442",
+ "name": "Kymera Therapeutics, Inc.",
+ "date": "2023-05-04",
+ "asof": "2023-05-04",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-05-04",
+  "adj_close": 26.24
+ },
+ "balance": {
+  "end": "2023-03-31",
+  "cash": 515894000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0000950170-23-017462"
+ },
+ "burn6": {
+  "end": "2023-03-31",
+  "start": "2022-10-01",
+  "cash_used_ops": 83504000.0,
+  "capex": 4382000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-04-28",
+  "shares": 55307775
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2023-02-03",
+  "to": "2023-06-03",
+  "trades": [
+   {
+    "date": "2023-03-02",
+    "filed": "2023-03-03",
+    "code": "S",
+    "value": 16983,
+    "who": "Caughey Elaine"
+   },
+   {
+    "date": "2023-03-02",
+    "filed": "2023-03-03",
+    "code": "S",
+    "value": 5149,
+    "who": "Caughey Elaine"
+   },
+   {
+    "date": "2023-03-02",
+    "filed": "2023-03-03",
+    "code": "S",
+    "value": 30908,
+    "who": "Gollob Jared"
+   },
+   {
+    "date": "2023-03-02",
+    "filed": "2023-03-03",
+    "code": "S",
+    "value": 9325,
+    "who": "Gollob Jared"
+   },
+   {
+    "date": "2023-03-02",
+    "filed": "2023-03-03",
+    "code": "S",
+    "value": 32607,
+    "who": "Jacobs Bruce N."
+   },
+   {
+    "date": "2023-03-02",
+    "filed": "2023-03-03",
+    "code": "S",
+    "value": 9859,
+    "who": "Jacobs Bruce N."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "kymera therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

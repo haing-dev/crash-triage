@@ -1,0 +1,51 @@
+{
+ "id": "1505512_2023-01-19",
+ "kind": "slide",
+ "cik": "1505512",
+ "name": "Regulus Therapeutics Inc.",
+ "date": "2023-01-19",
+ "asof": "2023-01-19",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-01-19",
+  "adj_close": 1.47
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 45324000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001628280-22-029546"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 12892000.0,
+  "capex": 196000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-11-04",
+  "shares": 16840261
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "\u2022Our need for additional capital raises substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2022-10-21",
+  "to": "2023-02-18",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "regulus therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

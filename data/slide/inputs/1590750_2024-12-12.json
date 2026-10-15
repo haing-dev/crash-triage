@@ -1,0 +1,97 @@
+{
+ "id": "1590750_2024-12-12",
+ "kind": "slide",
+ "cik": "1590750",
+ "name": "Viridian Therapeutics, Inc.\\DE",
+ "date": "2024-12-12",
+ "asof": "2024-12-12",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-12-12",
+  "adj_close": 17.99
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 753240000,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001590750-24-000023"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": 113764000.0,
+  "capex": 397000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-11-07",
+  "shares": 79212747
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2024-09-13",
+  "to": "2025-01-11",
+  "trades": [
+   {
+    "date": "2024-09-27",
+    "filed": "2024-09-30",
+    "code": "P",
+    "value": 117050,
+    "who": "Beetham Thomas W."
+   },
+   {
+    "date": "2024-09-27",
+    "filed": "2024-09-30",
+    "code": "P",
+    "value": 499262,
+    "who": "Mahoney Stephen F."
+   },
+   {
+    "date": "2024-09-13",
+    "filed": "2024-09-17",
+    "code": "P",
+    "value": 30000000,
+    "who": "Fairmount Funds Management LLC"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "viridian therapeutics",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06179875",
+    "drugs": [
+     "Veligrotug"
+    ]
+   },
+   {
+    "nct": "NCT06384547",
+    "drugs": [
+     "Veligrotug"
+    ]
+   },
+   {
+    "nct": "NCT06625411",
+    "drugs": [
+     "VRDN-003"
+    ]
+   },
+   {
+    "nct": "NCT06625398",
+    "drugs": [
+     "VRDN-003"
+    ]
+   }
+  ]
+ }
+}

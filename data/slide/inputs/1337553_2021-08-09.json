@@ -1,0 +1,58 @@
+{
+ "id": "1337553_2021-08-09",
+ "kind": "slide",
+ "cik": "1337553",
+ "name": "AERIE PHARMACEUTICALS INC",
+ "date": "2021-08-09",
+ "asof": "2021-08-09",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-08-09",
+  "adj_close": 14.51
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 188287000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001628280-21-015620"
+ },
+ "burn6": {
+  "end": "2021-06-30",
+  "start": "2021-01-01",
+  "cash_used_ops": 50194000.0,
+  "capex": 1377000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-07-30",
+  "shares": 47233646
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 9,
+  "from": "2021-05-11",
+  "to": "2021-09-08",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "aerie pharmaceuticals",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04498169",
+    "drugs": [
+     "Netarsudil Ophthalmic",
+     "Netarsudil Ophthalmic"
+    ]
+   }
+  ]
+ }
+}

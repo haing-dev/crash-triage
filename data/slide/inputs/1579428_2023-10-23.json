@@ -1,0 +1,96 @@
+{
+ "id": "1579428_2023-10-23",
+ "kind": "slide",
+ "cik": "1579428",
+ "name": "Axsome Therapeutics, Inc.",
+ "date": "2023-10-23",
+ "asof": "2023-10-23",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-10-23",
+  "adj_close": 62.0099983
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 437113000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-23-039178"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 61170000.0,
+  "capex": 204000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-07-31",
+  "shares": 47190970
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 2,
+  "from": "2023-07-25",
+  "to": "2023-11-22",
+  "trades": [
+   {
+    "date": "2023-09-15",
+    "filed": "2023-09-15",
+    "code": "S",
+    "value": 828241,
+    "who": "Coleman Mark"
+   },
+   {
+    "date": "2023-09-15",
+    "filed": "2023-09-15",
+    "code": "S",
+    "value": 1396189,
+    "who": "Coleman Mark"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "axsome therapeutics",
+  "other_trials": 6,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05550207",
+    "drugs": [
+     "AXS-07 (meloxicam-rizatriptan)"
+    ]
+   },
+   {
+    "nct": "NCT04947553",
+    "drugs": [
+     "AXS-05 (dextromethorphan-bupropion)"
+    ]
+   },
+   {
+    "nct": "NCT05557409",
+    "drugs": [
+     "AXS-05"
+    ]
+   },
+   {
+    "nct": "NCT05113745",
+    "drugs": [
+     "AXS-12 (reboxetine)"
+    ]
+   },
+   {
+    "nct": "NCT05972044",
+    "drugs": [
+     "Solriamfetol 150 mg",
+     "Solriamfetol 300 mg"
+    ]
+   }
+  ]
+ }
+}

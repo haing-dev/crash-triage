@@ -1,0 +1,134 @@
+{
+ "id": "1812364_2024-03-14",
+ "kind": "slide",
+ "cik": "1812364",
+ "name": "Relay Therapeutics, Inc.",
+ "date": "2024-03-14",
+ "asof": "2024-03-14",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-03-14",
+  "adj_close": 8.17
+ },
+ "balance": {
+  "end": "2023-12-31",
+  "cash": 143736000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-24-018797"
+ },
+ "burn6": {
+  "end": "2023-12-31",
+  "start": "2023-07-01",
+  "cash_used_ops": 164585000.0,
+  "capex": 708000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-02-16",
+  "shares": 131179034
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 17,
+  "from": "2023-12-15",
+  "to": "2024-04-13",
+  "trades": [
+   {
+    "date": "2024-03-27",
+    "filed": "2024-03-29",
+    "code": "S",
+    "value": 2680,
+    "who": "Catinazzo Thomas"
+   },
+   {
+    "date": "2024-03-27",
+    "filed": "2024-03-29",
+    "code": "S",
+    "value": 5890,
+    "who": "Bergstrom Donald A"
+   },
+   {
+    "date": "2024-03-27",
+    "filed": "2024-03-29",
+    "code": "S",
+    "value": 2295,
+    "who": "Rahmer Peter"
+   },
+   {
+    "date": "2024-03-27",
+    "filed": "2024-03-29",
+    "code": "S",
+    "value": 2680,
+    "who": "Adams Brian"
+   },
+   {
+    "date": "2024-01-29",
+    "filed": "2024-01-31",
+    "code": "S",
+    "value": 15916,
+    "who": "Rahmer Peter"
+   },
+   {
+    "date": "2024-01-29",
+    "filed": "2024-01-31",
+    "code": "S",
+    "value": 19328,
+    "who": "Catinazzo Thomas"
+   },
+   {
+    "date": "2024-01-29",
+    "filed": "2024-01-31",
+    "code": "S",
+    "value": 30636,
+    "who": "Bergstrom Donald A"
+   },
+   {
+    "date": "2024-01-29",
+    "filed": "2024-01-31",
+    "code": "S",
+    "value": 18596,
+    "who": "Adams Brian"
+   },
+   {
+    "date": "2023-12-27",
+    "filed": "2023-12-29",
+    "code": "S",
+    "value": 2808,
+    "who": "Rahmer Peter"
+   },
+   {
+    "date": "2023-12-27",
+    "filed": "2023-12-29",
+    "code": "S",
+    "value": 3384,
+    "who": "Catinazzo Thomas"
+   },
+   {
+    "date": "2023-12-27",
+    "filed": "2023-12-29",
+    "code": "S",
+    "value": 11245,
+    "who": "Bergstrom Donald A"
+   },
+   {
+    "date": "2023-12-27",
+    "filed": "2023-12-29",
+    "code": "S",
+    "value": 3384,
+    "who": "Adams Brian"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "relay therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

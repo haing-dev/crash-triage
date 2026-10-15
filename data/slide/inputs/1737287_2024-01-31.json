@@ -1,0 +1,76 @@
+{
+ "id": "1737287_2024-01-31",
+ "kind": "slide",
+ "cik": "1737287",
+ "name": "Allogene Therapeutics, Inc.",
+ "date": "2024-01-31",
+ "asof": "2024-01-31",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-01-31",
+  "adj_close": 3.52
+ },
+ "balance": {
+  "end": "2023-09-30",
+  "cash": 497675000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0001737287-23-000091"
+ },
+ "burn6": {
+  "end": "2023-09-30",
+  "start": "2023-04-01",
+  "cash_used_ops": 117387000.0,
+  "capex": 300000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-10-31",
+  "shares": 168276662
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2023-11-02",
+  "to": "2024-03-01",
+  "trades": [
+   {
+    "date": "2023-12-18",
+    "filed": "2023-12-20",
+    "code": "S",
+    "value": 50317,
+    "who": "MESSEMER DEBORAH M."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "allogene therapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04416984",
+    "drugs": [
+     "ALLO-501A",
+     "ALLO-647",
+     "Fludarabine"
+    ]
+   },
+   {
+    "nct": "NCT05714345",
+    "drugs": [
+     "ALLO-647",
+     "Fludarabine",
+     "Cyclophosphamide"
+    ]
+   }
+  ]
+ }
+}

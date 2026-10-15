@@ -1,0 +1,137 @@
+{
+ "id": "1710072_2025-09-25",
+ "kind": "slide",
+ "cik": "1710072",
+ "name": "Edgewise Therapeutics, Inc.",
+ "date": "2025-09-25",
+ "asof": "2025-09-25",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-09-25",
+  "adj_close": 14.885
+ },
+ "balance": {
+  "end": "2025-06-30",
+  "cash": 43404000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-25-010655"
+ },
+ "burn6": {
+  "end": "2025-06-30",
+  "start": "2025-01-01",
+  "cash_used_ops": 70448000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-07-31",
+  "shares": 105345708
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 10,
+  "from": "2025-06-27",
+  "to": "2025-10-25",
+  "trades": [
+   {
+    "date": "2025-08-26",
+    "filed": "2025-08-28",
+    "code": "S",
+    "value": 1459760,
+    "who": "Russell Alan J"
+   },
+   {
+    "date": "2025-08-12",
+    "filed": "2025-08-14",
+    "code": "S",
+    "value": 28097,
+    "who": "MOORE JOHN R"
+   },
+   {
+    "date": "2025-08-12",
+    "filed": "2025-08-14",
+    "code": "S",
+    "value": 33360,
+    "who": "Derakhshan Behrad"
+   },
+   {
+    "date": "2025-08-12",
+    "filed": "2025-08-14",
+    "code": "S",
+    "value": 19124,
+    "who": "Carruthers R Michael"
+   },
+   {
+    "date": "2025-08-12",
+    "filed": "2025-08-14",
+    "code": "S",
+    "value": 25539,
+    "who": "Russell Alan J"
+   },
+   {
+    "date": "2025-08-12",
+    "filed": "2025-08-14",
+    "code": "S",
+    "value": 106764,
+    "who": "KOCH KEVIN"
+   },
+   {
+    "date": "2025-08-12",
+    "filed": "2025-08-14",
+    "code": "S",
+    "value": 38329,
+    "who": "Donovan Joanne M."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "edgewise therapeutics",
+  "other_trials": 5,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05540860",
+    "drugs": [
+     "Sevasemten Dose 1",
+     "Sevasemten Dose 2",
+     "Sevasemten Dose 3"
+    ]
+   },
+   {
+    "nct": "NCT06100887",
+    "drugs": [
+     "Sevasemten Dose 1",
+     "Sevasemten Dose 2",
+     "Sevasemten Dose 3"
+    ]
+   },
+   {
+    "nct": "NCT06347159",
+    "drugs": [
+     "EDG-7500",
+     "EDG-7500"
+    ]
+   },
+   {
+    "nct": "NCT05291091",
+    "drugs": [
+     "Sevasemten 10 mg",
+     "Sevasemten 5 mg",
+     "Sevasemten 12.5 mg"
+    ]
+   },
+   {
+    "nct": "NCT06066580",
+    "drugs": [
+     "Sevasemten"
+    ]
+   }
+  ]
+ }
+}

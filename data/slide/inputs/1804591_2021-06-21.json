@@ -1,0 +1,46 @@
+{
+ "id": "1804591_2021-06-21",
+ "kind": "slide",
+ "cik": "1804591",
+ "name": "Chrome Holding Co.",
+ "date": "2021-06-21",
+ "asof": "2021-06-21",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-06-21",
+  "adj_close": 234.4
+ },
+ "balance": {
+  "end": "2021-03-31",
+  "cash": 80876,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001193125-21-181058"
+ },
+ "burn6": {
+  "end": "2021-03-31",
+  "start": "2020-10-01",
+  "cash_used_ops": 1562741.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": null,
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2021-03-23",
+  "to": "2021-07-21",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "chrome",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

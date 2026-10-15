@@ -1,0 +1,206 @@
+{
+ "id": "1160308_2022-02-18",
+ "kind": "slide",
+ "cik": "1160308",
+ "name": "Savara Inc",
+ "date": "2022-02-18",
+ "asof": "2022-02-18",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-02-18",
+  "adj_close": 1.11
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 170806000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-21-004253"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 21121000.0,
+  "capex": 11415.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-11-12",
+  "shares": 113868809
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 23,
+  "from": "2021-11-20",
+  "to": "2022-03-20",
+  "trades": [
+   {
+    "date": "2021-12-29",
+    "filed": "2021-12-30",
+    "code": "P",
+    "value": 18675,
+    "who": "RAMSAY DAVID A"
+   },
+   {
+    "date": "2021-12-30",
+    "filed": "2021-12-30",
+    "code": "P",
+    "value": 45360,
+    "who": "RAMSAY DAVID A"
+   },
+   {
+    "date": "2021-12-17",
+    "filed": "2021-12-17",
+    "code": "P",
+    "value": 4569,
+    "who": "Lowrance David L"
+   },
+   {
+    "date": "2021-12-15",
+    "filed": "2021-12-17",
+    "code": "P",
+    "value": 16260,
+    "who": "RAMSAY DAVID A"
+   },
+   {
+    "date": "2021-12-17",
+    "filed": "2021-12-17",
+    "code": "P",
+    "value": 28225,
+    "who": "RAMSAY DAVID A"
+   },
+   {
+    "date": "2021-12-10",
+    "filed": "2021-12-13",
+    "code": "P",
+    "value": 36365,
+    "who": "RAMSAY DAVID A"
+   },
+   {
+    "date": "2021-12-07",
+    "filed": "2021-12-09",
+    "code": "P",
+    "value": 12400,
+    "who": "RAMSAY DAVID A"
+   },
+   {
+    "date": "2021-12-08",
+    "filed": "2021-12-09",
+    "code": "P",
+    "value": 13815,
+    "who": "RAMSAY DAVID A"
+   },
+   {
+    "date": "2021-12-09",
+    "filed": "2021-12-09",
+    "code": "P",
+    "value": 26250,
+    "who": "Chowdhury Badrul A."
+   },
+   {
+    "date": "2021-12-08",
+    "filed": "2021-12-08",
+    "code": "P",
+    "value": 6889,
+    "who": "Pauls Matthew"
+   },
+   {
+    "date": "2021-12-01",
+    "filed": "2021-12-02",
+    "code": "P",
+    "value": 3894,
+    "who": "RAMSAY DAVID A"
+   },
+   {
+    "date": "2021-12-02",
+    "filed": "2021-12-02",
+    "code": "P",
+    "value": 23234,
+    "who": "RAMSAY DAVID A"
+   },
+   {
+    "date": "2021-12-02",
+    "filed": "2021-12-02",
+    "code": "P",
+    "value": 10954,
+    "who": "Pauls Matthew"
+   },
+   {
+    "date": "2021-11-30",
+    "filed": "2021-12-01",
+    "code": "P",
+    "value": 17392,
+    "who": "RAMSAY DAVID A"
+   },
+   {
+    "date": "2021-12-01",
+    "filed": "2021-12-01",
+    "code": "P",
+    "value": 9765,
+    "who": "RAMSAY DAVID A"
+   },
+   {
+    "date": "2021-11-18",
+    "filed": "2021-11-22",
+    "code": "P",
+    "value": 65136,
+    "who": "RAMSAY DAVID A"
+   },
+   {
+    "date": "2021-11-19",
+    "filed": "2021-11-22",
+    "code": "P",
+    "value": 53236,
+    "who": "RAMSAY DAVID A"
+   },
+   {
+    "date": "2021-11-22",
+    "filed": "2021-11-22",
+    "code": "P",
+    "value": 97020,
+    "who": "RAMSAY DAVID A"
+   },
+   {
+    "date": "2021-11-18",
+    "filed": "2021-11-22",
+    "code": "P",
+    "value": 11000,
+    "who": "Pauls Matthew"
+   },
+   {
+    "date": "2021-11-19",
+    "filed": "2021-11-22",
+    "code": "P",
+    "value": 11100,
+    "who": "Pauls Matthew"
+   },
+   {
+    "date": "2021-11-19",
+    "filed": "2021-11-22",
+    "code": "P",
+    "value": 2290,
+    "who": "Pauls Matthew"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "savara",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04544293",
+    "drugs": [
+     "Molgramostim",
+     "Molgramostim Open-label"
+    ]
+   }
+  ]
+ }
+}

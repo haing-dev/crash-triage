@@ -1,0 +1,142 @@
+{
+ "id": "1124524_2024-05-17",
+ "kind": "slide",
+ "cik": "1124524",
+ "name": "Cryoport, Inc.",
+ "date": "2024-05-17",
+ "asof": "2024-05-17",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-05-17",
+  "adj_close": 12.65
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 448544000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001558370-24-007133"
+ },
+ "burn6": {
+  "end": "2024-03-31",
+  "start": "2023-10-01",
+  "cash_used_ops": 783000.0,
+  "capex": 15579000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-05-01",
+  "shares": 49257444
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 16,
+  "from": "2024-02-17",
+  "to": "2024-06-16",
+  "trades": [
+   {
+    "date": "2024-05-15",
+    "filed": "2024-05-16",
+    "code": "S",
+    "value": 108693,
+    "who": "BERMAN RICHARD J"
+   },
+   {
+    "date": "2024-05-14",
+    "filed": "2024-05-15",
+    "code": "S",
+    "value": 46042,
+    "who": "ZECCHINI EDWARD J"
+   },
+   {
+    "date": "2024-03-25",
+    "filed": "2024-03-26",
+    "code": "S",
+    "value": 18928,
+    "who": "STEFANOVICH ROBERT"
+   },
+   {
+    "date": "2024-03-25",
+    "filed": "2024-03-26",
+    "code": "S",
+    "value": 46154,
+    "who": "SHELTON JERRELL"
+   },
+   {
+    "date": "2024-03-25",
+    "filed": "2024-03-26",
+    "code": "S",
+    "value": 23980,
+    "who": "Sawicki Mark W"
+   },
+   {
+    "date": "2024-03-11",
+    "filed": "2024-03-19",
+    "code": "S",
+    "value": 18298,
+    "who": "STEFANOVICH ROBERT"
+   },
+   {
+    "date": "2024-03-15",
+    "filed": "2024-03-19",
+    "code": "S",
+    "value": 15972,
+    "who": "STEFANOVICH ROBERT"
+   },
+   {
+    "date": "2024-03-11",
+    "filed": "2024-03-19",
+    "code": "S",
+    "value": 23188,
+    "who": "Sawicki Mark W"
+   },
+   {
+    "date": "2024-03-15",
+    "filed": "2024-03-19",
+    "code": "S",
+    "value": 20247,
+    "who": "Sawicki Mark W"
+   },
+   {
+    "date": "2024-03-15",
+    "filed": "2024-03-19",
+    "code": "S",
+    "value": 47226,
+    "who": "Mandalam Ramkumar"
+   },
+   {
+    "date": "2024-03-11",
+    "filed": "2024-03-19",
+    "code": "S",
+    "value": 60880,
+    "who": "SHELTON JERRELL"
+   },
+   {
+    "date": "2024-03-15",
+    "filed": "2024-03-19",
+    "code": "S",
+    "value": 54031,
+    "who": "SHELTON JERRELL"
+   },
+   {
+    "date": "2024-03-15",
+    "filed": "2024-03-19",
+    "code": "S",
+    "value": 818854,
+    "who": "SHELTON JERRELL"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "cryoport",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

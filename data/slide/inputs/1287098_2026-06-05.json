@@ -1,0 +1,58 @@
+{
+ "id": "1287098_2026-06-05",
+ "kind": "slide",
+ "cik": "1287098",
+ "name": "MAXCYTE, INC.",
+ "date": "2026-06-05",
+ "asof": "2026-06-05",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-06-05",
+  "adj_close": 1.14
+ },
+ "balance": {
+  "end": "2026-03-31",
+  "cash": 106854000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001104659-26-060290"
+ },
+ "burn6": {
+  "end": "2026-03-31",
+  "start": "2025-10-01",
+  "cash_used_ops": 10858000.0,
+  "capex": 303000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-05-07",
+  "shares": 107121672
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 12,
+  "from": "2026-03-07",
+  "to": "2026-07-05",
+  "trades": [
+   {
+    "date": "2026-03-17",
+    "filed": "2026-03-19",
+    "code": "S",
+    "value": 8266,
+    "who": "Swirsky Douglas J"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "maxcyte",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

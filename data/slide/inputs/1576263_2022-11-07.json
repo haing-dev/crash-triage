@@ -1,0 +1,119 @@
+{
+ "id": "1576263_2022-11-07",
+ "kind": "slide",
+ "cik": "1576263",
+ "name": "Mirati Therapeutics, Inc.",
+ "date": "2022-11-07",
+ "asof": "2022-11-07",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-11-07",
+  "adj_close": 59.92
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 1181328000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001628280-22-020594"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 303961000.0,
+  "capex": 2801000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-07-29",
+  "shares": 55609812
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2022-08-09",
+  "to": "2022-12-07",
+  "trades": [
+   {
+    "date": "2022-12-02",
+    "filed": "2022-12-05",
+    "code": "S",
+    "value": 155667,
+    "who": "Christensen Jamie"
+   },
+   {
+    "date": "2022-11-28",
+    "filed": "2022-11-28",
+    "code": "S",
+    "value": 6925600,
+    "who": "BAUM CHARLES M"
+   },
+   {
+    "date": "2022-08-12",
+    "filed": "2022-08-16",
+    "code": "S",
+    "value": 434287,
+    "who": "CARTER BRUCE L A"
+   },
+   {
+    "date": "2022-08-12",
+    "filed": "2022-08-16",
+    "code": "S",
+    "value": 420612,
+    "who": "CARTER BRUCE L A"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "mirati therapeutics",
+  "other_trials": 6,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04613596",
+    "drugs": [
+     "Adagrasib",
+     "Adagrasib",
+     "Adagrasib"
+    ]
+   },
+   {
+    "nct": "NCT04887870",
+    "drugs": [
+     "Sitravatinib",
+     "Nivolumab",
+     "Pembrolizumab"
+    ]
+   },
+   {
+    "nct": "NCT04793958",
+    "drugs": [
+     "MRTX849",
+     "Cetuximab",
+     "mFOLFOX6 Regimen"
+    ]
+   },
+   {
+    "nct": "NCT04685135",
+    "drugs": [
+     "MRTX849",
+     "Docetaxel"
+    ]
+   },
+   {
+    "nct": "NCT03785249",
+    "drugs": [
+     "MRTX849",
+     "Pembrolizumab",
+     "Cetuximab"
+    ]
+   }
+  ]
+ }
+}

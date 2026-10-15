@@ -1,0 +1,85 @@
+{
+ "id": "1936258_2024-07-30",
+ "kind": "slide",
+ "cik": "1936258",
+ "name": "NewAmsterdam Pharma Co N.V.",
+ "date": "2024-07-30",
+ "asof": "2024-07-30",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-07-30",
+  "adj_close": 16.18
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 481147000,
+  "parts": [
+   "Cash"
+  ],
+  "accn": "0000950170-24-055767"
+ },
+ "burn6": null,
+ "shares": {
+  "end": "2024-05-03",
+  "shares": 89976538
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2024-05-01",
+  "to": "2024-08-29",
+  "trades": [
+   {
+    "date": "2024-08-20",
+    "filed": "2024-08-22",
+    "code": "P",
+    "value": 81350,
+    "who": "Davidson Michael H."
+   },
+   {
+    "date": "2024-06-20",
+    "filed": "2024-06-24",
+    "code": "P",
+    "value": 86308,
+    "who": "Davidson Michael H."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "newamsterdam pharma",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05142722",
+    "drugs": [
+     "Obicetrapib"
+    ]
+   },
+   {
+    "nct": "NCT06005597",
+    "drugs": [
+     "Combination Therapy",
+     "Monotherapy obicetrapib",
+     "Monotherapy ezetimibe"
+    ]
+   },
+   {
+    "nct": "NCT06305559",
+    "drugs": [
+     "obicetrapib 10 mg + ezetimibe 10 mg FDC daily"
+    ]
+   },
+   {
+    "nct": "NCT05202509",
+    "drugs": [
+     "Obicetrapib"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "id": "318306_2024-01-31",
+ "kind": "slide",
+ "cik": "318306",
+ "name": "ABEONA THERAPEUTICS INC.",
+ "date": "2024-01-31",
+ "asof": "2024-01-31",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-01-31",
+  "adj_close": 4.07
+ },
+ "balance": {
+  "end": "2023-09-30",
+  "cash": 53754000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001493152-23-040323"
+ },
+ "burn6": {
+  "end": "2023-09-30",
+  "start": "2023-04-01",
+  "cash_used_ops": 16030000.0,
+  "capex": 76000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-11-01",
+  "shares": 24773317
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 2,
+  "from": "2023-11-02",
+  "to": "2024-03-01",
+  "trades": [
+   {
+    "date": "2024-02-06",
+    "filed": "2024-02-07",
+    "code": "P",
+    "value": 87800,
+    "who": "Seshadri Vishwas"
+   },
+   {
+    "date": "2024-01-17",
+    "filed": "2024-01-22",
+    "code": "S",
+    "value": 36199,
+    "who": "Alvino Mark"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "abeona therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05725018",
+    "drugs": [
+     "EB-101 Surgical application of RDEB wounds"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "id": "1583107_2022-04-19",
+ "kind": "slide",
+ "cik": "1583107",
+ "name": "Theravance Biopharma, Inc.",
+ "date": "2022-04-19",
+ "asof": "2022-04-19",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-04-19",
+  "adj_close": 9.065
+ },
+ "balance": {
+  "end": "2021-12-31",
+  "cash": 173465000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001558370-22-002373"
+ },
+ "burn6": {
+  "end": "2021-12-31",
+  "start": "2021-07-01",
+  "cash_used_ops": 87880000.0,
+  "capex": 1708988.5714285714,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-02-21",
+  "shares": 74696687
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 16,
+  "from": "2022-01-19",
+  "to": "2022-05-19",
+  "trades": [
+   {
+    "date": "2022-02-28",
+    "filed": "2022-03-02",
+    "code": "S",
+    "value": 23947,
+    "who": "Farnum Rhonda"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "theravance biopharma",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,101 @@
+{
+ "id": "1746466_2021-12-09",
+ "kind": "slide",
+ "cik": "1746466",
+ "name": "Equillium, Inc.",
+ "date": "2021-12-09",
+ "asof": "2021-12-09",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-12-09",
+  "adj_close": 4.76
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 90694000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0000950170-21-004079"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 14004000.0,
+  "capex": 38273.82352941176,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-11-08",
+  "shares": 29390898
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2021-09-10",
+  "to": "2022-01-08",
+  "trades": [
+   {
+    "date": "2021-12-01",
+    "filed": "2021-12-03",
+    "code": "S",
+    "value": 25402,
+    "who": "Keyes Jason A"
+   },
+   {
+    "date": "2021-11-16",
+    "filed": "2021-11-17",
+    "code": "S",
+    "value": 22401,
+    "who": "Zedelmayer Christine"
+   },
+   {
+    "date": "2021-11-16",
+    "filed": "2021-11-17",
+    "code": "S",
+    "value": 40315,
+    "who": "Zedelmayer Christine"
+   },
+   {
+    "date": "2021-10-06",
+    "filed": "2021-10-07",
+    "code": "S",
+    "value": 39418,
+    "who": "Connelly Stephen"
+   },
+   {
+    "date": "2021-10-06",
+    "filed": "2021-10-07",
+    "code": "S",
+    "value": 17288,
+    "who": "Connelly Stephen"
+   },
+   {
+    "date": "2021-09-27",
+    "filed": "2021-09-29",
+    "code": "S",
+    "value": 53924,
+    "who": "Keyes Jason A"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "equillium",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03532958",
+    "drugs": [
+     "BNZ-1",
+     "Normal saline"
+    ]
+   }
+  ]
+ }
+}

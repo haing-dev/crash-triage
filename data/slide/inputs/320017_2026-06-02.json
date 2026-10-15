@@ -1,0 +1,50 @@
+{
+ "id": "320017_2026-06-02",
+ "kind": "slide",
+ "cik": "320017",
+ "name": "LISATA THERAPEUTICS, INC.",
+ "date": "2026-06-02",
+ "asof": "2026-06-02",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-06-02",
+  "adj_close": 3.48
+ },
+ "balance": {
+  "end": "2026-03-31",
+  "cash": 13060000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000320017-26-000032"
+ },
+ "burn6": {
+  "end": "2026-03-31",
+  "start": "2025-10-01",
+  "cash_used_ops": 6332000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-05-08",
+  "shares": 9106391
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Based on our current business plan and existing capital resources, management has concluded that there is substantial doubt regarding our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2026-03-04",
+  "to": "2026-07-02",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "lisata therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

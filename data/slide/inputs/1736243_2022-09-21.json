@@ -1,0 +1,79 @@
+{
+ "id": "1736243_2022-09-21",
+ "kind": "slide",
+ "cik": "1736243",
+ "name": "Acurx Pharmaceuticals, Inc.",
+ "date": "2022-09-21",
+ "asof": "2022-09-21",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-09-21",
+  "adj_close": 66.0
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 9092197,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0001410578-22-002396"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 3866649.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-08-12",
+  "shares": 11422413
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2022-06-23",
+  "to": "2022-10-21",
+  "trades": [
+   {
+    "date": "2022-07-27",
+    "filed": "2022-07-29",
+    "code": "P",
+    "value": 75001,
+    "who": "Sailer Carl"
+   },
+   {
+    "date": "2022-07-27",
+    "filed": "2022-07-29",
+    "code": "P",
+    "value": 75001,
+    "who": "DELUCCIA ROBERT J"
+   },
+   {
+    "date": "2022-07-27",
+    "filed": "2022-07-29",
+    "code": "P",
+    "value": 75001,
+    "who": "LUCI DAVID P"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "acurx pharmaceuticals",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04247542",
+    "drugs": [
+     "Ibezapolstat",
+     "Vancomycin"
+    ]
+   }
+  ]
+ }
+}

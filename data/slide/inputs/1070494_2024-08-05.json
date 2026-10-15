@@ -1,0 +1,110 @@
+{
+ "id": "1070494_2024-08-05",
+ "kind": "slide",
+ "cik": "1070494",
+ "name": "ACADIA PHARMACEUTICALS INC",
+ "date": "2024-08-05",
+ "asof": "2024-08-05",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-08-05",
+  "adj_close": 18.41
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 470520000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0000950170-24-056077"
+ },
+ "burn6": {
+  "end": "2024-03-31",
+  "start": "2023-10-01",
+  "cash_used_ops": -114468000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-04-30",
+  "shares": 165220884
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 12,
+  "from": "2024-05-07",
+  "to": "2024-09-04",
+  "trades": [
+   {
+    "date": "2024-08-19",
+    "filed": "2024-08-20",
+    "code": "S",
+    "value": 148720,
+    "who": "Schneyer Mark C."
+   },
+   {
+    "date": "2024-08-19",
+    "filed": "2024-08-20",
+    "code": "S",
+    "value": 145680,
+    "who": "Teehan Brendan"
+   },
+   {
+    "date": "2024-08-19",
+    "filed": "2024-08-20",
+    "code": "S",
+    "value": 485094,
+    "who": "DAVIS STEPHEN"
+   },
+   {
+    "date": "2024-06-10",
+    "filed": "2024-06-11",
+    "code": "S",
+    "value": 14420,
+    "who": "Schneyer Mark C."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "acadia pharmaceuticals",
+  "other_trials": 6,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06420297",
+    "drugs": [
+     "Carbetocin"
+    ]
+   },
+   {
+    "nct": "NCT06173531",
+    "drugs": [
+     "Carbetocin"
+    ]
+   },
+   {
+    "nct": "NCT05523895",
+    "drugs": [
+     "Pimavanserin"
+    ]
+   },
+   {
+    "nct": "NCT05555615",
+    "drugs": [
+     "Pimavanserin"
+    ]
+   },
+   {
+    "nct": "NCT06194799",
+    "drugs": [
+     "ACP-204"
+    ]
+   }
+  ]
+ }
+}

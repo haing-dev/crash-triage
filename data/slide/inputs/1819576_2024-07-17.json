@@ -1,0 +1,154 @@
+{
+ "id": "1819576_2024-07-17",
+ "kind": "slide",
+ "cik": "1819576",
+ "name": "Liquidia Corp",
+ "date": "2024-07-17",
+ "asof": "2024-07-17",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-07-17",
+  "adj_close": 11.34
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 157858000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-24-007991"
+ },
+ "burn6": {
+  "end": "2024-03-31",
+  "start": "2023-10-01",
+  "cash_used_ops": 40848000.0,
+  "capex": 830000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-05-02",
+  "shares": 76382718
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 21,
+  "from": "2024-04-18",
+  "to": "2024-08-16",
+  "trades": [
+   {
+    "date": "2024-07-26",
+    "filed": "2024-07-29",
+    "code": "S",
+    "value": 20970,
+    "who": "Adair Jason"
+   },
+   {
+    "date": "2024-07-19",
+    "filed": "2024-07-22",
+    "code": "S",
+    "value": 20846,
+    "who": "Saggar Rajeev"
+   },
+   {
+    "date": "2024-07-12",
+    "filed": "2024-07-15",
+    "code": "S",
+    "value": 100904,
+    "who": "JEFFS ROGER"
+   },
+   {
+    "date": "2024-07-12",
+    "filed": "2024-07-15",
+    "code": "S",
+    "value": 19146,
+    "who": "Moomaw Scott"
+   },
+   {
+    "date": "2024-07-12",
+    "filed": "2024-07-15",
+    "code": "S",
+    "value": 14359,
+    "who": "Adair Jason"
+   },
+   {
+    "date": "2024-07-12",
+    "filed": "2024-07-15",
+    "code": "S",
+    "value": 24872,
+    "who": "Schundler Russell"
+   },
+   {
+    "date": "2024-07-12",
+    "filed": "2024-07-15",
+    "code": "S",
+    "value": 18419,
+    "who": "Saggar Rajeev"
+   },
+   {
+    "date": "2024-07-12",
+    "filed": "2024-07-15",
+    "code": "S",
+    "value": 48942,
+    "who": "Kaseta Michael"
+   },
+   {
+    "date": "2024-06-03",
+    "filed": "2024-06-04",
+    "code": "S",
+    "value": 15918,
+    "who": "Kaseta Michael"
+   },
+   {
+    "date": "2024-06-03",
+    "filed": "2024-06-04",
+    "code": "S",
+    "value": 6620,
+    "who": "Adair Jason"
+   },
+   {
+    "date": "2024-06-03",
+    "filed": "2024-06-04",
+    "code": "S",
+    "value": 10330,
+    "who": "Schundler Russell"
+   },
+   {
+    "date": "2024-06-03",
+    "filed": "2024-06-04",
+    "code": "S",
+    "value": 7944,
+    "who": "Moomaw Scott"
+   },
+   {
+    "date": "2024-04-19",
+    "filed": "2024-04-23",
+    "code": "S",
+    "value": 22558,
+    "who": "Saggar Rajeev"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "liquidia",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03992755",
+    "drugs": [
+     "LIQ861 Inhaled Treprostinil"
+    ]
+   },
+   {
+    "nct": "NCT04691154",
+    "drugs": [
+     "L606 inhalation suspension"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,114 @@
+{
+ "id": "1818794_2021-09-14",
+ "kind": "slide",
+ "cik": "1818794",
+ "name": "Dyne Therapeutics, Inc.",
+ "date": "2021-09-14",
+ "asof": "2021-09-14",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-09-14",
+  "adj_close": 15.6
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 435589000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001564590-21-041177"
+ },
+ "burn6": {
+  "end": "2021-06-30",
+  "start": "2021-01-01",
+  "cash_used_ops": 64543000.0,
+  "capex": 747000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-07-31",
+  "shares": 51278464
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2021-06-16",
+  "to": "2021-10-14",
+  "trades": [
+   {
+    "date": "2021-09-23",
+    "filed": "2021-09-24",
+    "code": "S",
+    "value": 42206,
+    "who": "HIGH SUSANNA GATTI"
+   },
+   {
+    "date": "2021-09-20",
+    "filed": "2021-09-22",
+    "code": "S",
+    "value": 5729,
+    "who": "Scalzo Richard William"
+   },
+   {
+    "date": "2021-09-21",
+    "filed": "2021-09-22",
+    "code": "S",
+    "value": 7926,
+    "who": "Scalzo Richard William"
+   },
+   {
+    "date": "2021-09-20",
+    "filed": "2021-09-22",
+    "code": "S",
+    "value": 8507,
+    "who": "McNeill Jonathan"
+   },
+   {
+    "date": "2021-09-21",
+    "filed": "2021-09-22",
+    "code": "S",
+    "value": 11744,
+    "who": "McNeill Jonathan"
+   },
+   {
+    "date": "2021-09-20",
+    "filed": "2021-09-22",
+    "code": "S",
+    "value": 53464,
+    "who": "Brumm Joshua T"
+   },
+   {
+    "date": "2021-09-21",
+    "filed": "2021-09-22",
+    "code": "S",
+    "value": 73848,
+    "who": "Brumm Joshua T"
+   },
+   {
+    "date": "2021-09-20",
+    "filed": "2021-09-22",
+    "code": "S",
+    "value": 9631,
+    "who": "Beskrovnaya Oxana"
+   },
+   {
+    "date": "2021-09-21",
+    "filed": "2021-09-22",
+    "code": "S",
+    "value": 13323,
+    "who": "Beskrovnaya Oxana"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "dyne therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

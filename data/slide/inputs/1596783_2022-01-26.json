@@ -1,0 +1,106 @@
+{
+ "id": "1596783_2022-01-26",
+ "kind": "slide",
+ "cik": "1596783",
+ "name": "Catalent, Inc.",
+ "date": "2022-01-26",
+ "asof": "2022-01-26",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-01-26",
+  "adj_close": 98.12
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 1969000000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001596783-21-000183"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": -297300000.0,
+  "capex": 342900000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-10-26",
+  "shares": 171188042
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 25,
+  "from": "2021-10-28",
+  "to": "2022-02-25",
+  "trades": [
+   {
+    "date": "2022-02-06",
+    "filed": "2022-02-08",
+    "code": "S",
+    "value": 49999994,
+    "who": "Zippelius Peter"
+   },
+   {
+    "date": "2022-01-31",
+    "filed": "2022-02-01",
+    "code": "S",
+    "value": 240382,
+    "who": "Hopson Ricky"
+   },
+   {
+    "date": "2022-01-21",
+    "filed": "2022-01-24",
+    "code": "S",
+    "value": 18836,
+    "who": "Whitlow Ricci S"
+   },
+   {
+    "date": "2022-01-10",
+    "filed": "2022-01-11",
+    "code": "S",
+    "value": 288334,
+    "who": "Flynn Karen"
+   },
+   {
+    "date": "2021-11-30",
+    "filed": "2021-12-01",
+    "code": "S",
+    "value": 387900000,
+    "who": "Zippelius Peter"
+   },
+   {
+    "date": "2021-11-23",
+    "filed": "2021-11-24",
+    "code": "S",
+    "value": 338783,
+    "who": "LUCIER GREGORY T"
+   },
+   {
+    "date": "2021-11-23",
+    "filed": "2021-11-24",
+    "code": "S",
+    "value": 306624,
+    "who": "LUCIER GREGORY T"
+   },
+   {
+    "date": "2021-11-01",
+    "filed": "2021-11-03",
+    "code": "S",
+    "value": 1494293,
+    "who": "Arnold Jonathan"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "catalent",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

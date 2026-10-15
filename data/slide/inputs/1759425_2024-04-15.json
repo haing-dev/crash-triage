@@ -1,0 +1,172 @@
+{
+ "id": "1759425_2024-04-15",
+ "kind": "slide",
+ "cik": "1759425",
+ "name": "Mirum Pharmaceuticals, Inc.",
+ "date": "2024-04-15",
+ "asof": "2024-04-15",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-04-15",
+  "adj_close": 23.91
+ },
+ "balance": {
+  "end": "2023-12-31",
+  "cash": 286326000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-24-032289"
+ },
+ "burn6": {
+  "end": "2023-12-31",
+  "start": "2023-07-01",
+  "cash_used_ops": 34839000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-03-08",
+  "shares": 47003329
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 19,
+  "from": "2024-01-16",
+  "to": "2024-05-15",
+  "trades": [
+   {
+    "date": "2024-03-27",
+    "filed": "2024-03-27",
+    "code": "P",
+    "value": 49600,
+    "who": "BJERKHOLT ERIC"
+   },
+   {
+    "date": "2024-03-25",
+    "filed": "2024-03-25",
+    "code": "S",
+    "value": 111017,
+    "who": "Radovich Peter"
+   },
+   {
+    "date": "2023-01-09",
+    "filed": "2024-03-18",
+    "code": "S",
+    "value": 28438,
+    "who": "Radovich Peter"
+   },
+   {
+    "date": "2023-01-09",
+    "filed": "2024-03-18",
+    "code": "S",
+    "value": 28438,
+    "who": "Vig Pamela"
+   },
+   {
+    "date": "2019-09-10",
+    "filed": "2024-03-18",
+    "code": "P",
+    "value": 10268,
+    "who": "Longpre Lara"
+   },
+   {
+    "date": "2023-01-09",
+    "filed": "2024-03-18",
+    "code": "S",
+    "value": 20684,
+    "who": "Longpre Lara"
+   },
+   {
+    "date": "2023-01-09",
+    "filed": "2024-03-18",
+    "code": "S",
+    "value": 106390,
+    "who": "Peetz Christopher"
+   },
+   {
+    "date": "2024-03-18",
+    "filed": "2024-03-18",
+    "code": "P",
+    "value": 51600,
+    "who": "BJERKHOLT ERIC"
+   },
+   {
+    "date": "2024-02-02",
+    "filed": "2024-02-05",
+    "code": "S",
+    "value": 31797,
+    "who": "Vig Pamela"
+   },
+   {
+    "date": "2024-02-02",
+    "filed": "2024-02-05",
+    "code": "S",
+    "value": 22184,
+    "who": "Longpre Lara"
+   },
+   {
+    "date": "2024-02-02",
+    "filed": "2024-02-05",
+    "code": "S",
+    "value": 46883,
+    "who": "Radovich Peter"
+   },
+   {
+    "date": "2024-02-02",
+    "filed": "2024-02-05",
+    "code": "S",
+    "value": 157491,
+    "who": "Peetz Christopher"
+   },
+   {
+    "date": "2024-02-02",
+    "filed": "2024-02-02",
+    "code": "S",
+    "value": 19251,
+    "who": "Howe Jolanda"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "mirum pharmaceuticals",
+  "other_trials": 5,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04729751",
+    "drugs": [
+     "Maralixibat"
+    ]
+   },
+   {
+    "nct": "NCT04168385",
+    "drugs": [
+     "Maralixibat"
+    ]
+   },
+   {
+    "nct": "NCT05050136",
+    "drugs": [
+     "Volixibat"
+    ]
+   },
+   {
+    "nct": "NCT04663308",
+    "drugs": [
+     "Volixibat"
+    ]
+   },
+   {
+    "nct": "NCT04185363",
+    "drugs": [
+     "Maralixibat"
+    ]
+   }
+  ]
+ }
+}

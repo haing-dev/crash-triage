@@ -1,0 +1,157 @@
+{
+ "id": "1808898_2025-12-17",
+ "kind": "slide",
+ "cik": "1808898",
+ "name": "Benitec Biopharma Inc.",
+ "date": "2025-12-17",
+ "asof": "2025-12-17",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-12-17",
+  "adj_close": 10.79
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 94479000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001193125-25-283274"
+ },
+ "burn6": {
+  "end": "2025-09-30",
+  "start": "2025-04-01",
+  "cash_used_ops": 11564000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-11-14",
+  "shares": 33862226
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 12,
+  "from": "2025-09-18",
+  "to": "2026-01-16",
+  "trades": [
+   {
+    "date": "2025-12-23",
+    "filed": "2025-12-29",
+    "code": "P",
+    "value": 547410,
+    "who": "SUVRETTA CAPITAL MANAGEMENT, LLC"
+   },
+   {
+    "date": "2025-12-23",
+    "filed": "2025-12-29",
+    "code": "P",
+    "value": 95090,
+    "who": "SUVRETTA CAPITAL MANAGEMENT, LLC"
+   },
+   {
+    "date": "2025-12-26",
+    "filed": "2025-12-29",
+    "code": "P",
+    "value": 187592,
+    "who": "SUVRETTA CAPITAL MANAGEMENT, LLC"
+   },
+   {
+    "date": "2025-12-26",
+    "filed": "2025-12-29",
+    "code": "P",
+    "value": 32960,
+    "who": "SUVRETTA CAPITAL MANAGEMENT, LLC"
+   },
+   {
+    "date": "2025-12-29",
+    "filed": "2025-12-29",
+    "code": "P",
+    "value": 884352,
+    "who": "SUVRETTA CAPITAL MANAGEMENT, LLC"
+   },
+   {
+    "date": "2025-12-29",
+    "filed": "2025-12-29",
+    "code": "P",
+    "value": 155729,
+    "who": "SUVRETTA CAPITAL MANAGEMENT, LLC"
+   },
+   {
+    "date": "2025-12-18",
+    "filed": "2025-12-22",
+    "code": "P",
+    "value": 97788,
+    "who": "SUVRETTA CAPITAL MANAGEMENT, LLC"
+   },
+   {
+    "date": "2025-12-18",
+    "filed": "2025-12-22",
+    "code": "P",
+    "value": 17029,
+    "who": "SUVRETTA CAPITAL MANAGEMENT, LLC"
+   },
+   {
+    "date": "2025-12-19",
+    "filed": "2025-12-22",
+    "code": "P",
+    "value": 160146,
+    "who": "SUVRETTA CAPITAL MANAGEMENT, LLC"
+   },
+   {
+    "date": "2025-12-19",
+    "filed": "2025-12-22",
+    "code": "P",
+    "value": 27942,
+    "who": "SUVRETTA CAPITAL MANAGEMENT, LLC"
+   },
+   {
+    "date": "2025-12-22",
+    "filed": "2025-12-22",
+    "code": "P",
+    "value": 201132,
+    "who": "SUVRETTA CAPITAL MANAGEMENT, LLC"
+   },
+   {
+    "date": "2025-12-22",
+    "filed": "2025-12-22",
+    "code": "P",
+    "value": 34935,
+    "who": "SUVRETTA CAPITAL MANAGEMENT, LLC"
+   },
+   {
+    "date": "2025-11-07",
+    "filed": "2025-11-10",
+    "code": "P",
+    "value": 9859995,
+    "who": "SUVRETTA CAPITAL MANAGEMENT, LLC"
+   },
+   {
+    "date": "2025-11-07",
+    "filed": "2025-11-10",
+    "code": "P",
+    "value": 10139998,
+    "who": "SUVRETTA CAPITAL MANAGEMENT, LLC"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "benitec biopharma",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06185673",
+    "drugs": [
+     "BB-301: Dose escalation phase 1b cohort 1",
+     "BB-301: Dose escalation phase 1b cohort 2",
+     "BB-301: Dose escalation phase 1b cohort 3"
+    ]
+   }
+  ]
+ }
+}

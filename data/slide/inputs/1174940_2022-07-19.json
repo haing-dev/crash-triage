@@ -1,0 +1,92 @@
+{
+ "id": "1174940_2022-07-19",
+ "kind": "slide",
+ "cik": "1174940",
+ "name": "ORAGENICS INC",
+ "date": "2022-07-19",
+ "asof": "2022-07-19",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-07-19",
+  "adj_close": 594.0
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 21372463,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001493152-22-013349"
+ },
+ "burn6": {
+  "end": "2022-03-31",
+  "start": "2021-10-01",
+  "cash_used_ops": 7521377.0,
+  "capex": 106800.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-04-30",
+  "shares": 116394806
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 12,
+  "from": "2022-04-20",
+  "to": "2022-08-18",
+  "trades": [
+   {
+    "date": "2022-06-17",
+    "filed": "2022-06-21",
+    "code": "P",
+    "value": 2884,
+    "who": "Telling Fred"
+   },
+   {
+    "date": "2022-05-23",
+    "filed": "2022-05-25",
+    "code": "P",
+    "value": 1004,
+    "who": "Telling Fred"
+   },
+   {
+    "date": "2022-05-24",
+    "filed": "2022-05-25",
+    "code": "P",
+    "value": 22776,
+    "who": "Telling Fred"
+   },
+   {
+    "date": "2022-05-20",
+    "filed": "2022-05-23",
+    "code": "P",
+    "value": 18638,
+    "who": "Telling Fred"
+   },
+   {
+    "date": "2022-05-18",
+    "filed": "2022-05-20",
+    "code": "P",
+    "value": 3994,
+    "who": "Telling Fred"
+   },
+   {
+    "date": "2022-05-19",
+    "filed": "2022-05-20",
+    "code": "P",
+    "value": 15945,
+    "who": "Telling Fred"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "oragenics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

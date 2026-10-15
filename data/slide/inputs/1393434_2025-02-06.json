@@ -1,0 +1,136 @@
+{
+ "id": "1393434_2025-02-06",
+ "kind": "slide",
+ "cik": "1393434",
+ "name": "OCULAR THERAPEUTIX, INC",
+ "date": "2025-02-06",
+ "asof": "2025-02-06",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-02-06",
+  "adj_close": 7.64
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 427220000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-24-015613"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": 61361000.0,
+  "capex": 831000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-11-11",
+  "shares": 157217427
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 13,
+  "from": "2024-11-08",
+  "to": "2025-03-08",
+  "trades": [
+   {
+    "date": "2025-02-24",
+    "filed": "2025-02-26",
+    "code": "S",
+    "value": 147533,
+    "who": "Dugel Pravin"
+   },
+   {
+    "date": "2025-02-24",
+    "filed": "2025-02-26",
+    "code": "S",
+    "value": 21029,
+    "who": "Heier Jeffrey S."
+   },
+   {
+    "date": "2025-02-24",
+    "filed": "2025-02-26",
+    "code": "S",
+    "value": 20672,
+    "who": "Kaiser Peter"
+   },
+   {
+    "date": "2025-02-24",
+    "filed": "2025-02-26",
+    "code": "S",
+    "value": 12962,
+    "who": "Nayak Sanjay"
+   },
+   {
+    "date": "2025-01-31",
+    "filed": "2025-02-04",
+    "code": "S",
+    "value": 49400,
+    "who": "Notman Donald"
+   },
+   {
+    "date": "2025-02-04",
+    "filed": "2025-02-04",
+    "code": "S",
+    "value": 86839,
+    "who": "Notman Donald"
+   },
+   {
+    "date": "2024-11-25",
+    "filed": "2024-11-27",
+    "code": "S",
+    "value": 26561,
+    "who": "Heier Jeffrey S."
+   },
+   {
+    "date": "2024-11-25",
+    "filed": "2024-11-27",
+    "code": "S",
+    "value": 26102,
+    "who": "Kaiser Peter"
+   },
+   {
+    "date": "2024-11-25",
+    "filed": "2024-11-27",
+    "code": "S",
+    "value": 16326,
+    "who": "Nayak Sanjay"
+   },
+   {
+    "date": "2024-11-25",
+    "filed": "2024-11-27",
+    "code": "S",
+    "value": 186327,
+    "who": "Dugel Pravin"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "ocular therapeutix",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06495918",
+    "drugs": [
+     "OTX-TKI",
+     "Aflibercept",
+     "Aflibercept"
+    ]
+   },
+   {
+    "nct": "NCT06223958",
+    "drugs": [
+     "OTX-TKI (axitinib implant)",
+     "Aflibercept"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "id": "1768224_2025-01-13",
+ "kind": "slide",
+ "cik": "1768224",
+ "name": "Arcturus Therapeutics Holdings Inc.",
+ "date": "2025-01-13",
+ "asof": "2025-01-13",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-01-13",
+  "adj_close": 17.31
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 237178000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-24-123469"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": 53906000.0,
+  "capex": 408000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-11-05",
+  "shares": 27087359
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2024-10-15",
+  "to": "2025-02-12",
+  "trades": [
+   {
+    "date": "2024-10-15",
+    "filed": "2024-10-16",
+    "code": "S",
+    "value": 249121,
+    "who": "Chivukula Pad"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "arcturus therapeutics",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06747858",
+    "drugs": [
+     "ARCT-032"
+    ]
+   },
+   {
+    "nct": "NCT06602531",
+    "drugs": [
+     "ARCT-2304",
+     "Control vaccine younger adults",
+     "Control vaccine older adults"
+    ]
+   },
+   {
+    "nct": "NCT06488313",
+    "drugs": [
+     "ARCT-810"
+    ]
+   }
+  ]
+ }
+}

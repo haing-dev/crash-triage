@@ -1,0 +1,57 @@
+{
+ "id": "1010086_2025-11-07",
+ "kind": "slide",
+ "cik": "1010086",
+ "name": "SIGA TECHNOLOGIES INC",
+ "date": "2025-11-07",
+ "asof": "2025-11-07",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-11-07",
+  "adj_close": 6.54
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 171955584,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001437749-25-033636"
+ },
+ "burn6": {
+  "end": "2025-09-30",
+  "start": "2025-04-01",
+  "cash_used_ops": -53270385.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-10-24",
+  "shares": 71611302
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2025-08-09",
+  "to": "2025-12-07",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "siga technologies",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04957485",
+    "drugs": [
+     "Tecovirimat",
+     "Smallpox and Mpox Vaccine"
+    ]
+   }
+  ]
+ }
+}

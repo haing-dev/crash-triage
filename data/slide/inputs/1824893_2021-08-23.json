@@ -1,0 +1,46 @@
+{
+ "id": "1824893_2021-08-23",
+ "kind": "slide",
+ "cik": "1824893",
+ "name": "Surrozen, Inc./DE",
+ "date": "2021-08-23",
+ "asof": "2021-08-23",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-08-23",
+  "adj_close": 109.050003
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 390673,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001193125-21-239469"
+ },
+ "burn6": {
+  "end": "2021-06-30",
+  "start": "2021-01-01",
+  "cash_used_ops": 596514.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": null,
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 12,
+  "from": "2021-05-25",
+  "to": "2021-09-22",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "surrozen",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

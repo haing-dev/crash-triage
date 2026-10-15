@@ -1,0 +1,169 @@
+{
+ "id": "1395937_2022-01-27",
+ "kind": "slide",
+ "cik": "1395937",
+ "name": "Syndax Pharmaceuticals Inc",
+ "date": "2022-01-27",
+ "asof": "2022-01-27",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-01-27",
+  "adj_close": 14.89
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 229714000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001564590-21-057004"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 48989000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-11-11",
+  "shares": 49392123
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 18,
+  "from": "2021-10-29",
+  "to": "2022-02-26",
+  "trades": [
+   {
+    "date": "2022-02-01",
+    "filed": "2022-02-03",
+    "code": "S",
+    "value": 23510,
+    "who": "Ordentlich Peter"
+   },
+   {
+    "date": "2022-02-01",
+    "filed": "2022-02-03",
+    "code": "S",
+    "value": 16117,
+    "who": "Nolte Alexander"
+   },
+   {
+    "date": "2021-12-20",
+    "filed": "2021-12-22",
+    "code": "S",
+    "value": 420250,
+    "who": "Legault Pierre"
+   },
+   {
+    "date": "2021-12-22",
+    "filed": "2021-12-22",
+    "code": "S",
+    "value": 528206,
+    "who": "Legault Pierre"
+   },
+   {
+    "date": "2021-12-17",
+    "filed": "2021-12-20",
+    "code": "S",
+    "value": 703120,
+    "who": "Morrison Briggs"
+   },
+   {
+    "date": "2021-12-16",
+    "filed": "2021-12-20",
+    "code": "S",
+    "value": 433400,
+    "who": "Metzger Michael A"
+   },
+   {
+    "date": "2021-12-17",
+    "filed": "2021-12-20",
+    "code": "S",
+    "value": 31877,
+    "who": "Metzger Michael A"
+   },
+   {
+    "date": "2021-12-20",
+    "filed": "2021-12-20",
+    "code": "S",
+    "value": 324608,
+    "who": "Metzger Michael A"
+   },
+   {
+    "date": "2021-12-20",
+    "filed": "2021-12-20",
+    "code": "S",
+    "value": 912960,
+    "who": "Metzger Michael A"
+   },
+   {
+    "date": "2021-12-13",
+    "filed": "2021-12-15",
+    "code": "S",
+    "value": 38964,
+    "who": "Metzger Michael A"
+   },
+   {
+    "date": "2021-12-13",
+    "filed": "2021-12-15",
+    "code": "S",
+    "value": 658555,
+    "who": "Metzger Michael A"
+   },
+   {
+    "date": "2021-11-18",
+    "filed": "2021-11-19",
+    "code": "S",
+    "value": 252452,
+    "who": "Egros Fabrice"
+   },
+   {
+    "date": "2021-11-18",
+    "filed": "2021-11-19",
+    "code": "S",
+    "value": 541,
+    "who": "Egros Fabrice"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "syndax pharmaceuticals",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03604692",
+    "drugs": [
+     "axatilimab"
+    ]
+   },
+   {
+    "nct": "NCT04710576",
+    "drugs": [
+     "Axatilimab"
+    ]
+   },
+   {
+    "nct": "NCT04065399",
+    "drugs": [
+     "revumenib",
+     "cobicistat"
+    ]
+   },
+   {
+    "nct": "NCT02437136",
+    "drugs": [
+     "entinostat",
+     "pembrolizumab"
+    ]
+   }
+  ]
+ }
+}

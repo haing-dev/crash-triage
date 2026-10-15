@@ -1,0 +1,44 @@
+{
+ "id": "1971387_2025-06-11",
+ "kind": "crash",
+ "cik": "1971387",
+ "name": "Liminatus Pharma, Inc.",
+ "date": "2025-06-11",
+ "asof": "2025-06-16",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-06-16",
+  "adj_close": 605.5
+ },
+ "balance": {
+  "end": "2025-03-31",
+  "cash": 0,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0001410578-25-001388"
+ },
+ "burn6": null,
+ "shares": {
+  "end": "2025-05-30",
+  "shares": 26014633
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "As such, this raises substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2025-03-13",
+  "to": "2025-07-11",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "liminatus pharma",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

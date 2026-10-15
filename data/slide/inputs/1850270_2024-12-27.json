@@ -1,0 +1,60 @@
+{
+ "id": "1850270_2024-12-27",
+ "kind": "slide",
+ "cik": "1850270",
+ "name": "PROKIDNEY CORP.",
+ "date": "2024-12-27",
+ "asof": "2024-12-27",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-12-27",
+  "adj_close": 1.7
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 108088000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-24-125312"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": 67534000.0,
+  "capex": 3040000.0,
+  "periods": 2
+ },
+ "shares": null,
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2024-09-28",
+  "to": "2025-01-26",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "prokidney",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05018416",
+    "drugs": [
+     "Renal Autologous Cell Therapy (REACT)"
+    ]
+   },
+   {
+    "nct": "NCT05099770",
+    "drugs": [
+     "Renal Autologous Cell Therapy (REACT/ rilparencel)",
+     "Sham Comparator"
+    ]
+   }
+  ]
+ }
+}

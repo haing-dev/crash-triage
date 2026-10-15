@@ -1,0 +1,58 @@
+{
+ "id": "1133869_2024-12-04",
+ "kind": "slide",
+ "cik": "1133869",
+ "name": "CAPRICOR THERAPEUTICS, INC.",
+ "date": "2024-12-04",
+ "asof": "2024-12-04",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-12-04",
+  "adj_close": 12.72
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 85028624,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001558370-24-015730"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": 23930973.0,
+  "capex": 69485.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-11-13",
+  "shares": 45469908
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2024-09-05",
+  "to": "2025-01-03",
+  "trades": [
+   {
+    "date": "2024-09-20",
+    "filed": "2024-09-24",
+    "code": "P",
+    "value": 14999998,
+    "who": "Nippon Shinyaku Co Ltd"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "capricor therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

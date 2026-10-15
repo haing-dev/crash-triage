@@ -1,0 +1,178 @@
+{
+ "id": "1297184_2022-08-31",
+ "kind": "slide",
+ "cik": "1297184",
+ "name": "Amphastar Pharmaceuticals, Inc.",
+ "date": "2022-08-31",
+ "asof": "2022-08-31",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-08-31",
+  "adj_close": 29.6
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 183391000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001297184-22-000044"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": -53580000.0,
+  "capex": 12101000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-08-02",
+  "shares": 49015172
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 22,
+  "from": "2022-06-02",
+  "to": "2022-09-30",
+  "trades": [
+   {
+    "date": "2022-09-01",
+    "filed": "2022-09-02",
+    "code": "S",
+    "value": 14722,
+    "who": "Petersen Floyd F."
+   },
+   {
+    "date": "2022-08-09",
+    "filed": "2022-08-10",
+    "code": "S",
+    "value": 383500,
+    "who": "PETERS WILLIAM J"
+   },
+   {
+    "date": "2022-08-08",
+    "filed": "2022-08-10",
+    "code": "S",
+    "value": 190000,
+    "who": "Liawatidewi Yakob"
+   },
+   {
+    "date": "2022-08-09",
+    "filed": "2022-08-10",
+    "code": "S",
+    "value": 119145,
+    "who": "Liawatidewi Yakob"
+   },
+   {
+    "date": "2022-08-01",
+    "filed": "2022-08-02",
+    "code": "S",
+    "value": 18738,
+    "who": "Petersen Floyd F."
+   },
+   {
+    "date": "2022-07-18",
+    "filed": "2022-07-19",
+    "code": "S",
+    "value": 56597,
+    "who": "Gerst Diane G."
+   },
+   {
+    "date": "2022-07-15",
+    "filed": "2022-07-18",
+    "code": "S",
+    "value": 124997,
+    "who": "Liawatidewi Yakob"
+   },
+   {
+    "date": "2022-07-15",
+    "filed": "2022-07-18",
+    "code": "S",
+    "value": 272086,
+    "who": "Liawatidewi Yakob"
+   },
+   {
+    "date": "2022-07-11",
+    "filed": "2022-07-12",
+    "code": "S",
+    "value": 55145,
+    "who": "Gerst Diane G."
+   },
+   {
+    "date": "2022-07-05",
+    "filed": "2022-07-06",
+    "code": "S",
+    "value": 63460,
+    "who": "Gerst Diane G."
+   },
+   {
+    "date": "2022-07-01",
+    "filed": "2022-07-05",
+    "code": "S",
+    "value": 17391,
+    "who": "Petersen Floyd F."
+   },
+   {
+    "date": "2022-06-30",
+    "filed": "2022-07-05",
+    "code": "S",
+    "value": 180110,
+    "who": "Gerst Diane G."
+   },
+   {
+    "date": "2022-06-30",
+    "filed": "2022-07-01",
+    "code": "S",
+    "value": 642591,
+    "who": "PETERS WILLIAM J"
+   },
+   {
+    "date": "2022-06-17",
+    "filed": "2022-06-22",
+    "code": "S",
+    "value": 176682,
+    "who": "PETERS WILLIAM J"
+   },
+   {
+    "date": "2022-06-06",
+    "filed": "2022-06-07",
+    "code": "S",
+    "value": 388859,
+    "who": "Lee Howard"
+   },
+   {
+    "date": "2022-06-01",
+    "filed": "2022-06-02",
+    "code": "S",
+    "value": 13979,
+    "who": "Petersen Floyd F."
+   },
+   {
+    "date": "2022-06-01",
+    "filed": "2022-06-02",
+    "code": "S",
+    "value": 4521,
+    "who": "Petersen Floyd F."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "amphastar pharmaceuticals",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05539872",
+    "drugs": [
+     "I004",
+     "NovoLog"
+    ]
+   }
+  ]
+ }
+}

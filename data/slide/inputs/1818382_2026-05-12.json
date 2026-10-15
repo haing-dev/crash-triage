@@ -1,0 +1,87 @@
+{
+ "id": "1818382_2026-05-12",
+ "kind": "slide",
+ "cik": "1818382",
+ "name": "Humacyte, Inc.",
+ "date": "2026-05-12",
+ "asof": "2026-05-12",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-05-12",
+  "adj_close": 0.91000003
+ },
+ "balance": {
+  "end": "2025-12-31",
+  "cash": 50497000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001818382-26-000004"
+ },
+ "burn6": {
+  "end": "2025-12-31",
+  "start": "2025-07-01",
+  "cash_used_ops": 50028000.0,
+  "capex": 88000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-03-24",
+  "shares": 222019108
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These factors raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2026-02-11",
+  "to": "2026-06-11",
+  "trades": [
+   {
+    "date": "2026-05-19",
+    "filed": "2026-05-20",
+    "code": "P",
+    "value": 50000,
+    "who": "Sebelius Kathleen"
+   },
+   {
+    "date": "2026-05-18",
+    "filed": "2026-05-20",
+    "code": "P",
+    "value": 9840,
+    "who": "Constantino Michael T."
+   },
+   {
+    "date": "2026-05-18",
+    "filed": "2026-05-20",
+    "code": "S",
+    "value": 41147,
+    "who": "Sander Dale A."
+   },
+   {
+    "date": "2026-05-18",
+    "filed": "2026-05-20",
+    "code": "S",
+    "value": 41147,
+    "who": "Parikh Shamik J"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "humacyte",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05908084",
+    "drugs": [
+     "Acellular Tissue Engineered Vessel (ATEV)",
+     "AVF"
+    ]
+   }
+  ]
+ }
+}

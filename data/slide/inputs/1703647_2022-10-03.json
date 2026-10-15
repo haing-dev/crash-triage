@@ -1,0 +1,86 @@
+{
+ "id": "1703647_2022-10-03",
+ "kind": "slide",
+ "cik": "1703647",
+ "name": "Korro Bio, Inc.",
+ "date": "2022-10-03",
+ "asof": "2022-10-03",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-10-03",
+  "adj_close": 86.0
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 111016000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0000950170-22-016072"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 30821000.0,
+  "capex": 16000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-08-02",
+  "shares": 35262033
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 16,
+  "from": "2022-07-05",
+  "to": "2022-11-02",
+  "trades": [
+   {
+    "date": "2022-07-06",
+    "filed": "2022-07-07",
+    "code": "S",
+    "value": 3363,
+    "who": "Mitrano Richard J."
+   },
+   {
+    "date": "2022-07-06",
+    "filed": "2022-07-07",
+    "code": "S",
+    "value": 6755,
+    "who": "Loose Christopher R."
+   },
+   {
+    "date": "2022-07-06",
+    "filed": "2022-07-07",
+    "code": "S",
+    "value": 9985,
+    "who": "McCubbin Quentin"
+   },
+   {
+    "date": "2022-07-06",
+    "filed": "2022-07-07",
+    "code": "S",
+    "value": 8570,
+    "who": "Arnold Wendy S"
+   },
+   {
+    "date": "2022-07-06",
+    "filed": "2022-07-07",
+    "code": "S",
+    "value": 6720,
+    "who": "LeBel Carl"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "korro bio",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

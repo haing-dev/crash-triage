@@ -1,0 +1,92 @@
+{
+ "id": "1724521_2024-07-05",
+ "kind": "slide",
+ "cik": "1724521",
+ "name": "Arcus Biosciences, Inc.",
+ "date": "2024-07-05",
+ "asof": "2024-07-05",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-07-05",
+  "adj_close": 14.12
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 1095000000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0001724521-24-000092"
+ },
+ "burn6": {
+  "end": "2024-03-31",
+  "start": "2023-10-01",
+  "cash_used_ops": 90000000.0,
+  "capex": 10000000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-05-01",
+  "shares": 90953011
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2024-04-06",
+  "to": "2024-08-04",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "arcus biosciences",
+  "other_trials": 6,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05568095",
+    "drugs": [
+     "Domvanalimab",
+     "Zimberelimab",
+     "Capecitabine"
+    ]
+   },
+   {
+    "nct": "NCT04262856",
+    "drugs": [
+     "Domvanalimab",
+     "Etrumadenant",
+     "Zimberelimab"
+    ]
+   },
+   {
+    "nct": "NCT05329766",
+    "drugs": [
+     "Domvanalimab",
+     "Quemliclustat",
+     "Zimberelimab"
+    ]
+   },
+   {
+    "nct": "NCT04381832",
+    "drugs": [
+     "Etrumadenant",
+     "Zimberelimab",
+     "Quemliclustat"
+    ]
+   },
+   {
+    "nct": "NCT04660812",
+    "drugs": [
+     "AB680",
+     "Etrumadenant",
+     "Zimberelimab"
+    ]
+   }
+  ]
+ }
+}

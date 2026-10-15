@@ -1,0 +1,50 @@
+{
+ "id": "1516551_2021-05-07",
+ "kind": "slide",
+ "cik": "1516551",
+ "name": "Skye Bioscience, Inc.",
+ "date": "2021-05-07",
+ "asof": "2021-05-07",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-05-07",
+  "adj_close": 180.0
+ },
+ "balance": {
+  "end": "2021-03-31",
+  "cash": 5152425,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001628280-21-009446"
+ },
+ "burn6": {
+  "end": "2021-03-31",
+  "start": "2020-10-01",
+  "cash_used_ops": 3134021.0,
+  "capex": 21949.63415730337,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-05-05",
+  "shares": 371974416
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These conditions indicate it is probable that there is substantial doubt as to our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2021-02-06",
+  "to": "2021-06-06",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "skye bioscience",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

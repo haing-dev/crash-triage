@@ -1,0 +1,170 @@
+{
+ "id": "1581280_2022-07-22",
+ "kind": "slide",
+ "cik": "1581280",
+ "name": "Twist Bioscience Corp",
+ "date": "2022-07-22",
+ "asof": "2022-07-22",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-07-22",
+  "adj_close": 43.52
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 573858000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001628280-22-013045"
+ },
+ "burn6": {
+  "end": "2022-03-31",
+  "start": "2021-10-01",
+  "cash_used_ops": 88993000.0,
+  "capex": 44753000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-05-04",
+  "shares": 56264039
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 27,
+  "from": "2022-04-23",
+  "to": "2022-08-21",
+  "trades": [
+   {
+    "date": "2022-08-16",
+    "filed": "2022-08-18",
+    "code": "S",
+    "value": 44971,
+    "who": "THORBURN JAMES M"
+   },
+   {
+    "date": "2022-08-16",
+    "filed": "2022-08-18",
+    "code": "S",
+    "value": 124018,
+    "who": "THORBURN JAMES M"
+   },
+   {
+    "date": "2022-08-16",
+    "filed": "2022-08-18",
+    "code": "S",
+    "value": 81983,
+    "who": "THORBURN JAMES M"
+   },
+   {
+    "date": "2022-08-17",
+    "filed": "2022-08-18",
+    "code": "S",
+    "value": 294436,
+    "who": "THORBURN JAMES M"
+   },
+   {
+    "date": "2022-08-17",
+    "filed": "2022-08-18",
+    "code": "S",
+    "value": 142198,
+    "who": "THORBURN JAMES M"
+   },
+   {
+    "date": "2022-07-25",
+    "filed": "2022-07-26",
+    "code": "S",
+    "value": 16326,
+    "who": "Banyai William"
+   },
+   {
+    "date": "2022-07-05",
+    "filed": "2022-07-06",
+    "code": "S",
+    "value": 11699,
+    "who": "Banyai William"
+   },
+   {
+    "date": "2022-06-15",
+    "filed": "2022-06-17",
+    "code": "S",
+    "value": 306723,
+    "who": "Green Paula"
+   },
+   {
+    "date": "2022-05-23",
+    "filed": "2022-05-24",
+    "code": "S",
+    "value": 47226,
+    "who": "Banyai William"
+   },
+   {
+    "date": "2022-05-20",
+    "filed": "2022-05-24",
+    "code": "S",
+    "value": 64828,
+    "who": "THORBURN JAMES M"
+   },
+   {
+    "date": "2022-05-20",
+    "filed": "2022-05-24",
+    "code": "S",
+    "value": 90627,
+    "who": "THORBURN JAMES M"
+   },
+   {
+    "date": "2022-05-20",
+    "filed": "2022-05-24",
+    "code": "S",
+    "value": 77579,
+    "who": "THORBURN JAMES M"
+   },
+   {
+    "date": "2022-05-20",
+    "filed": "2022-05-24",
+    "code": "S",
+    "value": 5394,
+    "who": "THORBURN JAMES M"
+   },
+   {
+    "date": "2022-05-23",
+    "filed": "2022-05-24",
+    "code": "S",
+    "value": 14840,
+    "who": "THORBURN JAMES M"
+   },
+   {
+    "date": "2022-05-23",
+    "filed": "2022-05-24",
+    "code": "S",
+    "value": 19220,
+    "who": "THORBURN JAMES M"
+   },
+   {
+    "date": "2022-05-11",
+    "filed": "2022-05-13",
+    "code": "P",
+    "value": 250096,
+    "who": "BARTHELEMY NICOLAS"
+   },
+   {
+    "date": "2022-04-25",
+    "filed": "2022-04-26",
+    "code": "S",
+    "value": 12844,
+    "who": "Banyai William"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "twist bioscience",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

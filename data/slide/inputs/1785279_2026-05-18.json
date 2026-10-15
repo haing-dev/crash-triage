@@ -1,0 +1,93 @@
+{
+ "id": "1785279_2026-05-18",
+ "kind": "slide",
+ "cik": "1785279",
+ "name": "Metagenomi Therapeutics, Inc.",
+ "date": "2026-05-18",
+ "asof": "2026-05-18",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-05-18",
+  "adj_close": 1.27
+ },
+ "balance": {
+  "end": "2026-03-31",
+  "cash": 140162000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001193125-26-216774"
+ },
+ "burn6": {
+  "end": "2026-03-31",
+  "start": "2025-10-01",
+  "cash_used_ops": 44721000.0,
+  "capex": 110000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-05-05",
+  "shares": 37646858
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 13,
+  "from": "2026-02-17",
+  "to": "2026-06-17",
+  "trades": [
+   {
+    "date": "2026-06-05",
+    "filed": "2026-06-10",
+    "code": "S",
+    "value": 3746,
+    "who": "Wapnick Pamela"
+   },
+   {
+    "date": "2026-06-05",
+    "filed": "2026-06-10",
+    "code": "S",
+    "value": 4854,
+    "who": "Irish Jian"
+   },
+   {
+    "date": "2026-06-05",
+    "filed": "2026-06-10",
+    "code": "S",
+    "value": 725,
+    "who": "Wein Matthew"
+   },
+   {
+    "date": "2026-03-05",
+    "filed": "2026-03-09",
+    "code": "S",
+    "value": 2530,
+    "who": "Wapnick Pamela"
+   },
+   {
+    "date": "2026-03-05",
+    "filed": "2026-03-09",
+    "code": "S",
+    "value": 771,
+    "who": "Wein Matthew"
+   },
+   {
+    "date": "2026-03-05",
+    "filed": "2026-03-09",
+    "code": "S",
+    "value": 2571,
+    "who": "Irish Jian"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "metagenomi therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

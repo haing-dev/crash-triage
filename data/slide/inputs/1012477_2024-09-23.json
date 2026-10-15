@@ -1,0 +1,50 @@
+{
+ "id": "1012477_2024-09-23",
+ "kind": "slide",
+ "cik": "1012477",
+ "name": "AVADEL PHARMACEUTICALS PLC",
+ "date": "2024-09-23",
+ "asof": "2024-09-23",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-09-23",
+  "adj_close": 12.87
+ },
+ "balance": {
+  "end": "2024-06-30",
+  "cash": 71382000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001012477-24-000017"
+ },
+ "burn6": {
+  "end": "2024-06-30",
+  "start": "2024-01-01",
+  "cash_used_ops": 47890000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-08-05",
+  "shares": 96270528
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2024-06-25",
+  "to": "2024-10-23",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "avadel pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

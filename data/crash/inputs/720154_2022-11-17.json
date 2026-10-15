@@ -1,0 +1,92 @@
+{
+ "id": "720154_2022-11-17",
+ "kind": "crash",
+ "cik": "720154",
+ "name": "Inotiv, Inc.",
+ "date": "2022-11-17",
+ "asof": "2022-11-17",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-11-17",
+  "adj_close": 6.82
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 21243000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-22-013530"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 4245000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-08-03",
+  "shares": 25593313
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2022-08-19",
+  "to": "2022-12-17",
+  "trades": [
+   {
+    "date": "2022-12-01",
+    "filed": "2022-12-02",
+    "code": "S",
+    "value": 6120,
+    "who": "Neff R Matthew"
+   },
+   {
+    "date": "2022-11-01",
+    "filed": "2022-11-03",
+    "code": "S",
+    "value": 10560,
+    "who": "Neff R Matthew"
+   },
+   {
+    "date": "2022-11-01",
+    "filed": "2022-11-03",
+    "code": "S",
+    "value": 10563,
+    "who": "Neff R Matthew"
+   },
+   {
+    "date": "2022-10-17",
+    "filed": "2022-10-18",
+    "code": "S",
+    "value": 19100,
+    "who": "Neff R Matthew"
+   },
+   {
+    "date": "2022-09-15",
+    "filed": "2022-09-19",
+    "code": "P",
+    "value": 23058,
+    "who": "Garrett Michael"
+   },
+   {
+    "date": "2022-09-09",
+    "filed": "2022-09-13",
+    "code": "P",
+    "value": 198826,
+    "who": "Beattie John Gregory"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "inotiv",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

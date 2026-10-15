@@ -1,0 +1,72 @@
+{
+ "id": "1604950_2021-12-30",
+ "kind": "slide",
+ "cik": "1604950",
+ "name": "scPharmaceuticals Inc.",
+ "date": "2021-12-30",
+ "asof": "2021-12-30",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-12-30",
+  "adj_close": 4.92
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 84838000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-21-003723"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 11438000.0,
+  "capex": 6714.705882352941,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-11-08",
+  "shares": 27355454
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 2,
+  "from": "2021-10-01",
+  "to": "2022-01-29",
+  "trades": [
+   {
+    "date": "2021-12-03",
+    "filed": "2021-12-06",
+    "code": "P",
+    "value": 19569,
+    "who": "Khattar Jack A."
+   },
+   {
+    "date": "2021-12-03",
+    "filed": "2021-12-06",
+    "code": "P",
+    "value": 39553,
+    "who": "Tucker John H"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "scpharmaceuticals",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04593823",
+    "drugs": [
+     "Furoscix Infusor"
+    ]
+   }
+  ]
+ }
+}

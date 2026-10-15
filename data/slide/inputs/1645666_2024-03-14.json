@@ -1,0 +1,64 @@
+{
+ "id": "1645666_2024-03-14",
+ "kind": "slide",
+ "cik": "1645666",
+ "name": "Kezar Life Sciences, Inc.",
+ "date": "2024-03-14",
+ "asof": "2024-03-14",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-03-14",
+  "adj_close": 8.5
+ },
+ "balance": {
+  "end": "2023-12-31",
+  "cash": 201372000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-24-031494"
+ },
+ "burn6": {
+  "end": "2023-12-31",
+  "start": "2023-07-01",
+  "cash_used_ops": 39185000.0,
+  "capex": 137000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-03-10",
+  "shares": 72801359
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 2,
+  "from": "2023-12-15",
+  "to": "2024-04-13",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "kezar life sciences",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05781750",
+    "drugs": [
+     "zetomipzomib"
+    ]
+   },
+   {
+    "nct": "NCT05569759",
+    "drugs": [
+     "zetomipzomib",
+     "zetomipzomib in open-label extension"
+    ]
+   }
+  ]
+ }
+}

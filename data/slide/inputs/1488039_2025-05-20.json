@@ -1,0 +1,72 @@
+{
+ "id": "1488039_2025-05-20",
+ "kind": "slide",
+ "cik": "1488039",
+ "name": "ATOSSA THERAPEUTICS, INC.",
+ "date": "2025-05-20",
+ "asof": "2025-05-20",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-05-20",
+  "adj_close": 14.1
+ },
+ "balance": {
+  "end": "2025-03-31",
+  "cash": 65116000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-25-069827"
+ },
+ "burn6": {
+  "end": "2025-03-31",
+  "start": "2024-10-01",
+  "cash_used_ops": 13010000.0,
+  "capex": 9000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-05-01",
+  "shares": 129170004
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 10,
+  "from": "2025-02-19",
+  "to": "2025-06-19",
+  "trades": [
+   {
+    "date": "2025-05-21",
+    "filed": "2025-05-22",
+    "code": "P",
+    "value": 9887,
+    "who": "QUAY STEVEN C"
+   },
+   {
+    "date": "2025-03-26",
+    "filed": "2025-03-28",
+    "code": "P",
+    "value": 7000,
+    "who": "Remmel H. Lawrence"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "atossa therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05607004",
+    "drugs": [
+     "(Z)-endoxifen",
+     "goserelin"
+    ]
+   }
+  ]
+ }
+}

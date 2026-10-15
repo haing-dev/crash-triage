@@ -1,0 +1,51 @@
+{
+ "id": "1770121_2022-08-01",
+ "kind": "slide",
+ "cik": "1770121",
+ "name": "Sana Biotechnology, Inc.",
+ "date": "2022-08-01",
+ "asof": "2022-08-01",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-08-01",
+  "adj_close": 6.1
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 657392000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent",
+   "MarketableSecuritiesNoncurrent"
+  ],
+  "accn": "0001564590-22-019299"
+ },
+ "burn6": {
+  "end": "2022-03-31",
+  "start": "2021-10-01",
+  "cash_used_ops": 187808000.0,
+  "capex": 12735000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-05-06",
+  "shares": 189667928
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2022-05-03",
+  "to": "2022-08-31",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "sana biotechnology",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

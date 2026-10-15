@@ -1,0 +1,119 @@
+{
+ "id": "1714899_2026-10-08",
+ "kind": "slide",
+ "cik": "1714899",
+ "name": "Denali Therapeutics Inc.",
+ "date": "2026-10-08",
+ "asof": "2026-10-08",
+ "final": false,
+ "version": 5,
+ "price": {
+  "date": "2026-10-08",
+  "adj_close": 18.67
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 940005000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent",
+   "MarketableSecuritiesNoncurrent"
+  ],
+  "accn": "0001714899-26-000097"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": 228206000.0,
+  "capex": 3271000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-07-31",
+  "shares": 159847403
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2026-07-10",
+  "to": "2026-10-15",
+  "trades": [
+   {
+    "date": "2026-09-04",
+    "filed": "2026-09-09",
+    "code": "S",
+    "value": 36868,
+    "who": "Chin Peter Scott"
+   },
+   {
+    "date": "2026-09-02",
+    "filed": "2026-09-04",
+    "code": "S",
+    "value": 247328,
+    "who": "Thornberry Nancy"
+   },
+   {
+    "date": "2026-09-02",
+    "filed": "2026-09-04",
+    "code": "S",
+    "value": 14600,
+    "who": "Thornberry Nancy"
+   },
+   {
+    "date": "2026-09-01",
+    "filed": "2026-09-03",
+    "code": "S",
+    "value": 64882,
+    "who": "Schuth Alexander O."
+   },
+   {
+    "date": "2026-08-11",
+    "filed": "2026-08-13",
+    "code": "S",
+    "value": 71625,
+    "who": "Schuth Alexander O."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "denali therapeutics",
+  "other_trials": 6,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06602193",
+    "drugs": [
+     "BIIB122 225 mg"
+    ]
+   },
+   {
+    "nct": "NCT06075537",
+    "drugs": [
+     "tividenofusp alfa"
+    ]
+   },
+   {
+    "nct": "NCT05371613",
+    "drugs": [
+     "tividenofusp alfa",
+     "idursulfase"
+    ]
+   },
+   {
+    "nct": "NCT06181136",
+    "drugs": [
+     "DNL126"
+    ]
+   },
+   {
+    "nct": "NCT04251026",
+    "drugs": [
+     "tividenofusp alfa"
+    ]
+   }
+  ]
+ }
+}

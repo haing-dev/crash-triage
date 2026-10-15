@@ -1,0 +1,50 @@
+{
+ "id": "1213809_2021-04-06",
+ "kind": "slide",
+ "cik": "1213809",
+ "name": "DYADIC INTERNATIONAL INC",
+ "date": "2021-04-06",
+ "asof": "2021-04-06",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-04-06",
+  "adj_close": 5.3
+ },
+ "balance": {
+  "end": "2020-12-31",
+  "cash": 29094497,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "HeldToMaturitySecuritiesCurrent"
+  ],
+  "accn": "0001437749-21-007644"
+ },
+ "burn6": {
+  "end": "2020-12-31",
+  "start": "2020-07-01",
+  "cash_used_ops": 2670463.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-03-29",
+  "shares": 27554157
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2021-01-06",
+  "to": "2021-05-06",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "dyadic international",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

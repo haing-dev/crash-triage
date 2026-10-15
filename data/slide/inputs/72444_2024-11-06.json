@@ -1,0 +1,60 @@
+{
+ "id": "72444_2024-11-06",
+ "kind": "slide",
+ "cik": "72444",
+ "name": "Vaxart, Inc.",
+ "date": "2024-11-06",
+ "asof": "2024-11-06",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-11-06",
+  "adj_close": 0.7062
+ },
+ "balance": {
+  "end": "2024-06-30",
+  "cash": 62593000,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+   "minus RestrictedCash",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001437749-24-025556"
+ },
+ "burn6": {
+  "end": "2024-06-30",
+  "start": "2024-01-01",
+  "cash_used_ops": 33218000.0,
+  "capex": 501000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-08-01",
+  "shares": 227439293
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2024-08-08",
+  "to": "2024-12-06",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "vaxart",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06672055",
+    "drugs": [
+     "VXA-CoV2-3.1",
+     "COMIRNATY\u00ae",
+     "VXA-CoV2-3.3"
+    ]
+   }
+  ]
+ }
+}

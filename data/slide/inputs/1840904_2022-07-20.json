@@ -1,0 +1,106 @@
+{
+ "id": "1840904_2022-07-20",
+ "kind": "slide",
+ "cik": "1840904",
+ "name": "Atai Beckley N.V.",
+ "date": "2022-07-20",
+ "asof": "2022-07-20",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-07-20",
+  "adj_close": 4.35
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 123975000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-22-009966"
+ },
+ "burn6": {
+  "end": "2022-03-31",
+  "start": "2021-10-01",
+  "cash_used_ops": 44495000.0,
+  "capex": 108000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-05-01",
+  "shares": 160732785
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 10,
+  "from": "2022-04-21",
+  "to": "2022-08-19",
+  "trades": [
+   {
+    "date": "2022-04-20",
+    "filed": "2022-05-03",
+    "code": "P",
+    "value": 344513,
+    "who": "Apeiron Investment Group Ltd."
+   },
+   {
+    "date": "2022-04-21",
+    "filed": "2022-05-03",
+    "code": "P",
+    "value": 340040,
+    "who": "Apeiron Investment Group Ltd."
+   },
+   {
+    "date": "2022-04-28",
+    "filed": "2022-05-02",
+    "code": "P",
+    "value": 154689,
+    "who": "Apeiron Investment Group Ltd."
+   },
+   {
+    "date": "2022-04-29",
+    "filed": "2022-05-02",
+    "code": "P",
+    "value": 97801,
+    "who": "Apeiron Investment Group Ltd."
+   },
+   {
+    "date": "2022-04-26",
+    "filed": "2022-04-28",
+    "code": "P",
+    "value": 216628,
+    "who": "Apeiron Investment Group Ltd."
+   },
+   {
+    "date": "2022-04-27",
+    "filed": "2022-04-28",
+    "code": "P",
+    "value": 91939,
+    "who": "Apeiron Investment Group Ltd."
+   },
+   {
+    "date": "2022-04-22",
+    "filed": "2022-04-26",
+    "code": "P",
+    "value": 254962,
+    "who": "Apeiron Investment Group Ltd."
+   },
+   {
+    "date": "2022-04-25",
+    "filed": "2022-04-26",
+    "code": "P",
+    "value": 42843,
+    "who": "Apeiron Investment Group Ltd."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "atai beckley",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

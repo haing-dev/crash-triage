@@ -1,0 +1,57 @@
+{
+ "id": "1607678_2022-09-23",
+ "kind": "slide",
+ "cik": "1607678",
+ "name": "Viking Therapeutics, Inc.",
+ "date": "2022-09-23",
+ "asof": "2022-09-23",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-09-23",
+  "adj_close": 2.66
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 168917000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001564590-22-026717"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 23972000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-07-15",
+  "shares": 76688478
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2022-06-25",
+  "to": "2022-10-23",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "viking therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04173065",
+    "drugs": [
+     "VK2809"
+    ]
+   }
+  ]
+ }
+}

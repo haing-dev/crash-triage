@@ -1,0 +1,66 @@
+{
+ "id": "1178253_2023-05-30",
+ "kind": "slide",
+ "cik": "1178253",
+ "name": "SCYNEXIS INC",
+ "date": "2023-05-30",
+ "asof": "2023-05-30",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-05-30",
+  "adj_close": 20.16
+ },
+ "balance": {
+  "end": "2023-03-31",
+  "cash": 54821000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-23-020486"
+ },
+ "burn6": {
+  "end": "2023-03-31",
+  "start": "2022-10-01",
+  "cash_used_ops": 41729000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-05-01",
+  "shares": 36517442
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These uncertainties raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 13,
+  "from": "2023-03-01",
+  "to": "2023-06-29",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "scynexis",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05178862",
+    "drugs": [
+     "SCY-078",
+     "Fluconazole",
+     "Echinocandin"
+    ]
+   },
+   {
+    "nct": "NCT03059992",
+    "drugs": [
+     "Ibrexafungerp"
+    ]
+   }
+  ]
+ }
+}

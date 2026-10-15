@@ -1,0 +1,115 @@
+{
+ "id": "1285819_2021-05-20",
+ "kind": "slide",
+ "cik": "1285819",
+ "name": "OMEROS CORP",
+ "date": "2021-05-20",
+ "asof": "2021-05-20",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-05-20",
+  "adj_close": 15.14
+ },
+ "balance": {
+  "end": "2021-03-31",
+  "cash": 100483000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001558370-21-006671"
+ },
+ "burn6": {
+  "end": "2021-03-31",
+  "start": "2020-10-01",
+  "cash_used_ops": 58661000.0,
+  "capex": 12000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-05-06",
+  "shares": 62328370
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2021-02-19",
+  "to": "2021-06-19",
+  "trades": [
+   {
+    "date": "2021-06-15",
+    "filed": "2021-06-17",
+    "code": "S",
+    "value": 553577,
+    "who": "Demopulos Gregory A MD"
+   },
+   {
+    "date": "2021-06-17",
+    "filed": "2021-06-17",
+    "code": "S",
+    "value": 549169,
+    "who": "Demopulos Gregory A MD"
+   },
+   {
+    "date": "2021-05-19",
+    "filed": "2021-05-21",
+    "code": "S",
+    "value": 629149,
+    "who": "Demopulos Gregory A MD"
+   },
+   {
+    "date": "2021-05-20",
+    "filed": "2021-05-21",
+    "code": "S",
+    "value": 551366,
+    "who": "Demopulos Gregory A MD"
+   },
+   {
+    "date": "2021-04-07",
+    "filed": "2021-04-08",
+    "code": "S",
+    "value": 669959,
+    "who": "Demopulos Gregory A MD"
+   },
+   {
+    "date": "2021-04-08",
+    "filed": "2021-04-08",
+    "code": "S",
+    "value": 625259,
+    "who": "Demopulos Gregory A MD"
+   },
+   {
+    "date": "2021-02-19",
+    "filed": "2021-02-23",
+    "code": "S",
+    "value": 226400,
+    "who": "JACOBSEN MICHAEL A"
+   },
+   {
+    "date": "2021-02-22",
+    "filed": "2021-02-23",
+    "code": "S",
+    "value": 188568,
+    "who": "JACOBSEN MICHAEL A"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "omeros",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03608033",
+    "drugs": [
+     "OMS721",
+     "Vehicle (D5W or saline)"
+    ]
+   }
+  ]
+ }
+}

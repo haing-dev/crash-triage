@@ -1,0 +1,58 @@
+{
+ "id": "1279704_2022-03-31",
+ "kind": "slide",
+ "cik": "1279704",
+ "name": "Cellectar Biosciences, Inc.",
+ "date": "2022-03-31",
+ "asof": "2022-03-31",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-03-31",
+  "adj_close": 207.0
+ },
+ "balance": {
+  "end": "2021-12-31",
+  "cash": 35703975,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001410578-22-000436"
+ },
+ "burn6": {
+  "end": "2021-12-31",
+  "start": "2021-07-01",
+  "cash_used_ops": 10940077.0,
+  "capex": 133802.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-03-18",
+  "shares": 61101263
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2021-12-31",
+  "to": "2022-04-30",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "cellectar biosciences",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT02952508",
+    "drugs": [
+     "Iopofosine I 131 single dose",
+     "Iopofosine I 131 multiple dose",
+     "Iopofosine I 131 fractionated dose"
+    ]
+   }
+  ]
+ }
+}

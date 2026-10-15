@@ -1,0 +1,62 @@
+{
+ "id": "1563880_2021-04-07",
+ "kind": "slide",
+ "cik": "1563880",
+ "name": "Trevi Therapeutics, Inc.",
+ "date": "2021-04-07",
+ "asof": "2021-04-07",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-04-07",
+  "adj_close": 2.64
+ },
+ "balance": {
+  "end": "2020-12-31",
+  "cash": 45001000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001564590-21-015506"
+ },
+ "burn6": {
+  "end": "2020-12-31",
+  "start": "2020-07-01",
+  "cash_used_ops": 15891000.0,
+  "capex": 20000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-03-24",
+  "shares": 19914407
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2021-01-07",
+  "to": "2021-05-07",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "trevi therapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03497975",
+    "drugs": [
+     "Nalbuphine ER Tablets"
+    ]
+   },
+   {
+    "nct": "NCT04030026",
+    "drugs": [
+     "NAL ER"
+    ]
+   }
+  ]
+ }
+}

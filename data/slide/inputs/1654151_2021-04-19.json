@@ -1,0 +1,219 @@
+{
+ "id": "1654151_2021-04-19",
+ "kind": "slide",
+ "cik": "1654151",
+ "name": "Deciphera Pharmaceuticals, Inc.",
+ "date": "2021-04-19",
+ "asof": "2021-04-19",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-04-19",
+  "adj_close": 45.2
+ },
+ "balance": {
+  "end": "2020-12-31",
+  "cash": 145272000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesNoncurrent"
+  ],
+  "accn": "0001654151-21-000003"
+ },
+ "burn6": {
+  "end": "2020-12-31",
+  "start": "2020-07-01",
+  "cash_used_ops": 98469000.0,
+  "capex": 1663000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-01-31",
+  "shares": 57625943
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 16,
+  "from": "2021-01-19",
+  "to": "2021-05-19",
+  "trades": [
+   {
+    "date": "2021-05-03",
+    "filed": "2021-05-05",
+    "code": "S",
+    "value": 354718,
+    "who": "Taylor Michael Douglas"
+   },
+   {
+    "date": "2021-05-03",
+    "filed": "2021-05-05",
+    "code": "S",
+    "value": 14025,
+    "who": "Taylor Michael Douglas"
+   },
+   {
+    "date": "2021-04-19",
+    "filed": "2021-04-21",
+    "code": "S",
+    "value": 184518,
+    "who": "Bristol James Arthur"
+   },
+   {
+    "date": "2021-04-19",
+    "filed": "2021-04-21",
+    "code": "S",
+    "value": 60662,
+    "who": "Bristol James Arthur"
+   },
+   {
+    "date": "2021-04-20",
+    "filed": "2021-04-21",
+    "code": "S",
+    "value": 77514,
+    "who": "Bristol James Arthur"
+   },
+   {
+    "date": "2021-04-12",
+    "filed": "2021-04-14",
+    "code": "S",
+    "value": 414370,
+    "who": "Bristol James Arthur"
+   },
+   {
+    "date": "2021-04-12",
+    "filed": "2021-04-14",
+    "code": "S",
+    "value": 230040,
+    "who": "Bristol James Arthur"
+   },
+   {
+    "date": "2021-04-01",
+    "filed": "2021-04-06",
+    "code": "S",
+    "value": 94074,
+    "who": "Taylor Michael Douglas"
+   },
+   {
+    "date": "2021-04-01",
+    "filed": "2021-04-06",
+    "code": "S",
+    "value": 228169,
+    "who": "Taylor Michael Douglas"
+   },
+   {
+    "date": "2021-04-01",
+    "filed": "2021-04-06",
+    "code": "S",
+    "value": 42328,
+    "who": "Taylor Michael Douglas"
+   },
+   {
+    "date": "2021-03-01",
+    "filed": "2021-03-03",
+    "code": "S",
+    "value": 302983,
+    "who": "Taylor Michael Douglas"
+   },
+   {
+    "date": "2021-03-01",
+    "filed": "2021-03-03",
+    "code": "S",
+    "value": 49324,
+    "who": "Taylor Michael Douglas"
+   },
+   {
+    "date": "2021-02-16",
+    "filed": "2021-02-18",
+    "code": "S",
+    "value": 25608,
+    "who": "Kelly Thomas Patrick"
+   },
+   {
+    "date": "2021-02-16",
+    "filed": "2021-02-18",
+    "code": "S",
+    "value": 24826,
+    "who": "Flynn Daniel Lee"
+   },
+   {
+    "date": "2021-02-16",
+    "filed": "2021-02-18",
+    "code": "S",
+    "value": 6451,
+    "who": "Sherman Matthew L"
+   },
+   {
+    "date": "2021-02-01",
+    "filed": "2021-02-03",
+    "code": "S",
+    "value": 118915,
+    "who": "Taylor Michael Douglas"
+   },
+   {
+    "date": "2021-02-01",
+    "filed": "2021-02-03",
+    "code": "S",
+    "value": 206188,
+    "who": "Taylor Michael Douglas"
+   },
+   {
+    "date": "2021-02-01",
+    "filed": "2021-02-03",
+    "code": "S",
+    "value": 36770,
+    "who": "Taylor Michael Douglas"
+   },
+   {
+    "date": "2021-01-15",
+    "filed": "2021-01-20",
+    "code": "S",
+    "value": 321373,
+    "who": "Bristol James Arthur"
+   },
+   {
+    "date": "2021-01-15",
+    "filed": "2021-01-20",
+    "code": "S",
+    "value": 30666,
+    "who": "Bristol James Arthur"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "deciphera pharmaceuticals",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03601897",
+    "drugs": [
+     "Rebastinib",
+     "Paclitaxel"
+    ]
+   },
+   {
+    "nct": "NCT03717415",
+    "drugs": [
+     "Rebastinib",
+     "Carboplatin"
+    ]
+   },
+   {
+    "nct": "NCT03673501",
+    "drugs": [
+     "Ripretinib",
+     "Sunitinib"
+    ]
+   },
+   {
+    "nct": "NCT03069469",
+    "drugs": [
+     "Vimseltinib"
+    ]
+   }
+  ]
+ }
+}

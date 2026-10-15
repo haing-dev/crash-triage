@@ -1,0 +1,185 @@
+{
+ "id": "1626878_2021-10-05",
+ "kind": "slide",
+ "cik": "1626878",
+ "name": "XBiotech Inc.",
+ "date": "2021-10-05",
+ "asof": "2021-10-05",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-10-05",
+  "adj_close": 12.39
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 315258000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001171843-21-005700"
+ },
+ "burn6": {
+  "end": "2021-06-30",
+  "start": "2021-01-01",
+  "cash_used_ops": -74606000.0,
+  "capex": 2349000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-08-09",
+  "shares": 30378209
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2021-07-07",
+  "to": "2021-11-04",
+  "trades": [
+   {
+    "date": "2021-10-07",
+    "filed": "2021-10-15",
+    "code": "S",
+    "value": 489111,
+    "who": "SIMARD JOHN"
+   },
+   {
+    "date": "2021-10-12",
+    "filed": "2021-10-15",
+    "code": "S",
+    "value": 229939,
+    "who": "SIMARD JOHN"
+   },
+   {
+    "date": "2021-10-13",
+    "filed": "2021-10-15",
+    "code": "S",
+    "value": 139526,
+    "who": "SIMARD JOHN"
+   },
+   {
+    "date": "2021-10-14",
+    "filed": "2021-10-15",
+    "code": "S",
+    "value": 272523,
+    "who": "SIMARD JOHN"
+   },
+   {
+    "date": "2021-10-04",
+    "filed": "2021-10-06",
+    "code": "S",
+    "value": 309864,
+    "who": "SIMARD JOHN"
+   },
+   {
+    "date": "2021-10-05",
+    "filed": "2021-10-06",
+    "code": "S",
+    "value": 180058,
+    "who": "SIMARD JOHN"
+   },
+   {
+    "date": "2021-10-06",
+    "filed": "2021-10-06",
+    "code": "S",
+    "value": 134259,
+    "who": "SIMARD JOHN"
+   },
+   {
+    "date": "2021-09-28",
+    "filed": "2021-10-01",
+    "code": "S",
+    "value": 89364,
+    "who": "SIMARD JOHN"
+   },
+   {
+    "date": "2021-09-29",
+    "filed": "2021-10-01",
+    "code": "S",
+    "value": 219801,
+    "who": "SIMARD JOHN"
+   },
+   {
+    "date": "2021-09-30",
+    "filed": "2021-10-01",
+    "code": "S",
+    "value": 242464,
+    "who": "SIMARD JOHN"
+   },
+   {
+    "date": "2021-10-01",
+    "filed": "2021-10-01",
+    "code": "S",
+    "value": 260488,
+    "who": "SIMARD JOHN"
+   },
+   {
+    "date": "2021-09-23",
+    "filed": "2021-09-28",
+    "code": "S",
+    "value": 145220,
+    "who": "SIMARD JOHN"
+   },
+   {
+    "date": "2021-09-24",
+    "filed": "2021-09-28",
+    "code": "S",
+    "value": 165409,
+    "who": "SIMARD JOHN"
+   },
+   {
+    "date": "2021-09-27",
+    "filed": "2021-09-28",
+    "code": "S",
+    "value": 442790,
+    "who": "SIMARD JOHN"
+   },
+   {
+    "date": "2021-09-20",
+    "filed": "2021-09-22",
+    "code": "S",
+    "value": 202914,
+    "who": "SIMARD JOHN"
+   },
+   {
+    "date": "2021-09-21",
+    "filed": "2021-09-22",
+    "code": "S",
+    "value": 256913,
+    "who": "SIMARD JOHN"
+   },
+   {
+    "date": "2021-09-22",
+    "filed": "2021-09-22",
+    "code": "S",
+    "value": 297757,
+    "who": "SIMARD JOHN"
+   },
+   {
+    "date": "2021-07-14",
+    "filed": "2021-07-19",
+    "code": "S",
+    "value": 907350,
+    "who": "SIMARD JOHN"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "xbiotech",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04825288",
+    "drugs": [
+     "Phase I: XB2001 250 mg",
+     "Phase I: XB2001 500 mg",
+     "Phase I: XB2001 1000 mg"
+    ]
+   }
+  ]
+ }
+}

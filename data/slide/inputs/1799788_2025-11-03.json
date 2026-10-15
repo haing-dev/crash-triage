@@ -1,0 +1,79 @@
+{
+ "id": "1799788_2025-11-03",
+ "kind": "slide",
+ "cik": "1799788",
+ "name": "Greenwich LifeSciences, Inc.",
+ "date": "2025-11-03",
+ "asof": "2025-11-03",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-11-03",
+  "adj_close": 8.43
+ },
+ "balance": {
+  "end": "2025-06-30",
+  "cash": 3125101,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001641172-25-024066"
+ },
+ "burn6": {
+  "end": "2025-06-30",
+  "start": "2025-01-01",
+  "cash_used_ops": 4067557.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-07-28",
+  "shares": 13630257
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These circumstances raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2025-08-05",
+  "to": "2025-12-03",
+  "trades": [
+   {
+    "date": "2025-11-25",
+    "filed": "2025-11-28",
+    "code": "P",
+    "value": 38502,
+    "who": "Patel Snehal"
+   },
+   {
+    "date": "2025-11-07",
+    "filed": "2025-11-12",
+    "code": "P",
+    "value": 89358,
+    "who": "Patel Snehal"
+   },
+   {
+    "date": "2025-10-31",
+    "filed": "2025-11-04",
+    "code": "P",
+    "value": 21298,
+    "who": "Patel Snehal"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "greenwich lifesciences",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05232916",
+    "drugs": [
+     "GLSI-100"
+    ]
+   }
+  ]
+ }
+}

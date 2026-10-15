@@ -1,0 +1,120 @@
+{
+ "id": "1710340_2021-06-01",
+ "kind": "slide",
+ "cik": "1710340",
+ "name": "Eton Pharmaceuticals, Inc.",
+ "date": "2021-06-01",
+ "asof": "2021-06-01",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-06-01",
+  "adj_close": 6.21
+ },
+ "balance": {
+  "end": "2021-03-31",
+  "cash": 25113000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001493152-21-011326"
+ },
+ "burn6": {
+  "end": "2021-03-31",
+  "start": "2020-10-01",
+  "cash_used_ops": 3467000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-04-30",
+  "shares": 24507616
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 10,
+  "from": "2021-03-03",
+  "to": "2021-07-01",
+  "trades": [
+   {
+    "date": "2021-06-15",
+    "filed": "2021-06-17",
+    "code": "S",
+    "value": 815070,
+    "who": "Opaleye Management Inc."
+   },
+   {
+    "date": "2021-06-15",
+    "filed": "2021-06-17",
+    "code": "S",
+    "value": 32280,
+    "who": "Opaleye Management Inc."
+   },
+   {
+    "date": "2021-06-03",
+    "filed": "2021-06-03",
+    "code": "P",
+    "value": 29800,
+    "who": "BRYNJELSEN SEAN"
+   },
+   {
+    "date": "2021-05-25",
+    "filed": "2021-05-27",
+    "code": "S",
+    "value": 392380,
+    "who": "Opaleye Management Inc."
+   },
+   {
+    "date": "2021-05-25",
+    "filed": "2021-05-27",
+    "code": "S",
+    "value": 17060,
+    "who": "Opaleye Management Inc."
+   },
+   {
+    "date": "2021-05-26",
+    "filed": "2021-05-27",
+    "code": "S",
+    "value": 561335,
+    "who": "Opaleye Management Inc."
+   },
+   {
+    "date": "2021-05-26",
+    "filed": "2021-05-27",
+    "code": "S",
+    "value": 23996,
+    "who": "Opaleye Management Inc."
+   },
+   {
+    "date": "2021-05-27",
+    "filed": "2021-05-27",
+    "code": "S",
+    "value": 1030686,
+    "who": "Opaleye Management Inc."
+   },
+   {
+    "date": "2021-05-27",
+    "filed": "2021-05-27",
+    "code": "S",
+    "value": 39054,
+    "who": "Opaleye Management Inc."
+   },
+   {
+    "date": "2021-04-12",
+    "filed": "2021-04-12",
+    "code": "S",
+    "value": 10626000,
+    "who": "HARROW HEALTH, INC."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "eton pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

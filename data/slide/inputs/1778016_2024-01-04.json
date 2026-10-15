@@ -1,0 +1,50 @@
+{
+ "id": "1778016_2024-01-04",
+ "kind": "slide",
+ "cik": "1778016",
+ "name": "NovaBridge Biosciences",
+ "date": "2024-01-04",
+ "asof": "2024-01-04",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-01-04",
+  "adj_close": 2.12
+ },
+ "balance": {
+  "end": "2022-12-31",
+  "cash": 500121000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001104659-23-053462"
+ },
+ "burn6": {
+  "end": "2022-12-31",
+  "start": "2022-07-01",
+  "cash_used_ops": 74620000.0,
+  "capex": 3827000.0,
+  "periods": 1
+ },
+ "shares": {
+  "end": "2022-12-31",
+  "shares": 190879919
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2023-10-06",
+  "to": "2024-02-03",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "novabridge biosciences",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

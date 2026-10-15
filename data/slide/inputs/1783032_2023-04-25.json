@@ -1,0 +1,57 @@
+{
+ "id": "1783032_2023-04-25",
+ "kind": "slide",
+ "cik": "1783032",
+ "name": "Elevation Oncology, Inc.",
+ "date": "2023-04-25",
+ "asof": "2023-04-25",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-04-25",
+  "adj_close": 1.71
+ },
+ "balance": {
+  "end": "2022-12-31",
+  "cash": 90280000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001558370-23-003247"
+ },
+ "burn6": {
+  "end": "2022-12-31",
+  "start": "2022-07-01",
+  "cash_used_ops": 62032000.0,
+  "capex": 43151.208791208795,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-03-03",
+  "shares": 23666326
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2023-01-25",
+  "to": "2023-05-25",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "elevation oncology",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04383210",
+    "drugs": [
+     "Seribantumab"
+    ]
+   }
+  ]
+ }
+}

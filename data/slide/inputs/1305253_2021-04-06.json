@@ -1,0 +1,88 @@
+{
+ "id": "1305253_2021-04-06",
+ "kind": "slide",
+ "cik": "1305253",
+ "name": "Eiger BioPharmaceuticals, Inc.",
+ "date": "2021-04-06",
+ "asof": "2021-04-06",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-04-06",
+  "adj_close": 256.5
+ },
+ "balance": {
+  "end": "2020-12-31",
+  "cash": 128840000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001564590-21-011758"
+ },
+ "burn6": {
+  "end": "2020-12-31",
+  "start": "2020-07-01",
+  "cash_used_ops": 29623000.0,
+  "capex": 160000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-03-05",
+  "shares": 33901386
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 14,
+  "from": "2021-01-06",
+  "to": "2021-05-06",
+  "trades": [
+   {
+    "date": "2021-04-09",
+    "filed": "2021-04-12",
+    "code": "P",
+    "value": 12720,
+    "who": "Dietz Thomas John"
+   },
+   {
+    "date": "2021-04-09",
+    "filed": "2021-04-12",
+    "code": "P",
+    "value": 8500,
+    "who": "Dietz Thomas John"
+   },
+   {
+    "date": "2021-03-15",
+    "filed": "2021-03-15",
+    "code": "S",
+    "value": 20280,
+    "who": "Loh Evan"
+   },
+   {
+    "date": "2021-01-08",
+    "filed": "2021-01-11",
+    "code": "S",
+    "value": 19739,
+    "who": "Mayer Eldon C. III"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "eiger biopharmaceuticals",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03719313",
+    "drugs": [
+     "Lonafarnib",
+     "Ritonavir",
+     "PEG IFN-alfa-2a"
+    ]
+   }
+  ]
+ }
+}

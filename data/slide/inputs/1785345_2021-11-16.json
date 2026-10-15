@@ -1,0 +1,142 @@
+{
+ "id": "1785345_2021-11-16",
+ "kind": "slide",
+ "cik": "1785345",
+ "name": "Landos Biopharma, Inc.",
+ "date": "2021-11-16",
+ "asof": "2021-11-16",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-11-16",
+  "adj_close": 106.6
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 102670000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-21-004599"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 2444000.0,
+  "capex": 413000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-11-14",
+  "shares": 40235652
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 9,
+  "from": "2021-08-18",
+  "to": "2021-12-16",
+  "trades": [
+   {
+    "date": "2021-12-13",
+    "filed": "2021-12-15",
+    "code": "S",
+    "value": 214840,
+    "who": "Bassaganya-Riera Josep"
+   },
+   {
+    "date": "2021-12-14",
+    "filed": "2021-12-15",
+    "code": "S",
+    "value": 214284,
+    "who": "Bassaganya-Riera Josep"
+   },
+   {
+    "date": "2021-12-15",
+    "filed": "2021-12-15",
+    "code": "S",
+    "value": 216032,
+    "who": "Bassaganya-Riera Josep"
+   },
+   {
+    "date": "2021-12-09",
+    "filed": "2021-12-10",
+    "code": "S",
+    "value": 69829,
+    "who": "Bassaganya-Riera Josep"
+   },
+   {
+    "date": "2021-12-10",
+    "filed": "2021-12-10",
+    "code": "S",
+    "value": 230800,
+    "who": "Bassaganya-Riera Josep"
+   },
+   {
+    "date": "2021-12-06",
+    "filed": "2021-12-08",
+    "code": "S",
+    "value": 221976,
+    "who": "Bassaganya-Riera Josep"
+   },
+   {
+    "date": "2021-12-07",
+    "filed": "2021-12-08",
+    "code": "S",
+    "value": 276528,
+    "who": "Bassaganya-Riera Josep"
+   },
+   {
+    "date": "2021-12-08",
+    "filed": "2021-12-08",
+    "code": "S",
+    "value": 169723,
+    "who": "Bassaganya-Riera Josep"
+   },
+   {
+    "date": "2021-12-01",
+    "filed": "2021-12-03",
+    "code": "S",
+    "value": 226110,
+    "who": "Bassaganya-Riera Josep"
+   },
+   {
+    "date": "2021-12-02",
+    "filed": "2021-12-03",
+    "code": "S",
+    "value": 192633,
+    "who": "Bassaganya-Riera Josep"
+   },
+   {
+    "date": "2021-12-03",
+    "filed": "2021-12-03",
+    "code": "S",
+    "value": 221364,
+    "who": "Bassaganya-Riera Josep"
+   },
+   {
+    "date": "2021-11-29",
+    "filed": "2021-12-01",
+    "code": "S",
+    "value": 116882,
+    "who": "Bassaganya-Riera Josep"
+   },
+   {
+    "date": "2021-11-30",
+    "filed": "2021-12-01",
+    "code": "S",
+    "value": 247170,
+    "who": "Bassaganya-Riera Josep"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "landos biopharma",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

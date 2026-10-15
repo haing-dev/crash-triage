@@ -1,0 +1,86 @@
+{
+ "id": "1494650_2023-05-22",
+ "kind": "slide",
+ "cik": "1494650",
+ "name": "OptiNose, Inc.",
+ "date": "2023-05-22",
+ "asof": "2023-05-22",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-05-22",
+  "adj_close": 19.8
+ },
+ "balance": {
+  "end": "2023-03-31",
+  "cash": 83928000,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0001494650-23-000050"
+ },
+ "burn6": {
+  "end": "2023-03-31",
+  "start": "2022-10-01",
+  "cash_used_ops": 28158000.0,
+  "capex": 3000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-05-01",
+  "shares": 111955893
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These factors raise substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 14,
+  "from": "2023-02-21",
+  "to": "2023-06-21",
+  "trades": [
+   {
+    "date": "2023-06-16",
+    "filed": "2023-06-20",
+    "code": "S",
+    "value": 1743,
+    "who": "Marino Michael F III"
+   },
+   {
+    "date": "2023-06-16",
+    "filed": "2023-06-20",
+    "code": "S",
+    "value": 4074,
+    "who": "Mahmoud Ramy A"
+   },
+   {
+    "date": "2023-03-16",
+    "filed": "2023-03-20",
+    "code": "S",
+    "value": 8900,
+    "who": "Marino Michael F III"
+   },
+   {
+    "date": "2023-03-16",
+    "filed": "2023-03-20",
+    "code": "S",
+    "value": 19762,
+    "who": "Mahmoud Ramy A"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "optinose",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03747458",
+    "drugs": [
+     "OPN-375"
+    ]
+   }
+  ]
+ }
+}

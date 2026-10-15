@@ -1,0 +1,80 @@
+{
+ "id": "1828185_2023-03-10",
+ "kind": "slide",
+ "cik": "1828185",
+ "name": "Barinthus Biotherapeutics plc.",
+ "date": "2023-03-10",
+ "asof": "2023-03-10",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-03-10",
+  "adj_close": 2.61
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 200104000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001104659-22-117255"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": -3491000.0,
+  "capex": 4460000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-11-09",
+  "shares": 37296515
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2022-12-10",
+  "to": "2023-04-09",
+  "trades": [
+   {
+    "date": "2023-03-27",
+    "filed": "2023-03-29",
+    "code": "S",
+    "value": 36298,
+    "who": "Enright William"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "barinthus biotherapeutics",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04607850",
+    "drugs": [
+     "ChAdOx1-HPV",
+     "MVA-HPV"
+    ]
+   },
+   {
+    "nct": "NCT05617040",
+    "drugs": [
+     "ChAdOx1-PCAQ",
+     "MVA-PCAQ"
+    ]
+   },
+   {
+    "nct": "NCT05343481",
+    "drugs": [
+     "ChAdOx1-HBV",
+     "MVA-HBV",
+     "Nivolumab"
+    ]
+   }
+  ]
+ }
+}

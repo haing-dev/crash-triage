@@ -1,0 +1,58 @@
+{
+ "id": "1178253_2026-05-13",
+ "kind": "slide",
+ "cik": "1178253",
+ "name": "SCYNEXIS INC",
+ "date": "2026-05-13",
+ "asof": "2026-05-13",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-05-13",
+  "adj_close": 6.088
+ },
+ "balance": {
+  "end": "2026-03-31",
+  "cash": 59263000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001178253-26-000011"
+ },
+ "burn6": {
+  "end": "2026-03-31",
+  "start": "2025-10-01",
+  "cash_used_ops": -10300000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-05-01",
+  "shares": 79442633
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2026-02-12",
+  "to": "2026-06-12",
+  "trades": [
+   {
+    "date": "2026-04-01",
+    "filed": "2026-04-02",
+    "code": "P",
+    "value": 0,
+    "who": "Angulo Gonzalez David"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "scynexis",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

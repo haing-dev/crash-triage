@@ -1,0 +1,50 @@
+{
+ "id": "812796_2026-04-28",
+ "kind": "crash",
+ "cik": "812796",
+ "name": "SOLIGENIX, INC.",
+ "date": "2026-04-28",
+ "asof": "2026-04-29",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-04-29",
+  "adj_close": 0.34
+ },
+ "balance": {
+  "end": "2025-12-31",
+  "cash": 7936153,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0001104659-26-037701"
+ },
+ "burn6": {
+  "end": "2025-12-31",
+  "start": "2025-07-01",
+  "cash_used_ops": 5677718.0,
+  "capex": 2570.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-03-24",
+  "shares": 10306079
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "\u25cfOur losses from operations, negative cash flows, and shareholders\u2019 deficit as of December 31, 2025 raise substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2026-01-28",
+  "to": "2026-05-28",
+  "trades": []
+ },
+ "drug": "HyBryte (SGX301, synthetic hypericin)",
+ "trials": {
+  "query": "soligenix",
+  "other_trials": 0,
+  "crashed_drug_trials": 1,
+  "examples": []
+ }
+}

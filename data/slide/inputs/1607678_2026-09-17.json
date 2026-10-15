@@ -1,0 +1,85 @@
+{
+ "id": "1607678_2026-09-17",
+ "kind": "slide",
+ "cik": "1607678",
+ "name": "Viking Therapeutics, Inc.",
+ "date": "2026-09-17",
+ "asof": "2026-09-17",
+ "final": false,
+ "version": 5,
+ "price": {
+  "date": "2026-09-17",
+  "adj_close": 29.36
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 501663000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001193125-26-324219"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": 239148000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-07-15",
+  "shares": 116652937
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2026-06-19",
+  "to": "2026-10-15",
+  "trades": [
+   {
+    "date": "2026-07-29",
+    "filed": "2026-07-29",
+    "code": "S",
+    "value": 4947888,
+    "who": "Lian Brian"
+   },
+   {
+    "date": "2026-07-29",
+    "filed": "2026-07-29",
+    "code": "S",
+    "value": 710141,
+    "who": "ZANTE GREG"
+   },
+   {
+    "date": "2026-07-29",
+    "filed": "2026-07-29",
+    "code": "S",
+    "value": 609636,
+    "who": "Mancini Marianna"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "viking therapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT07104500",
+    "drugs": [
+     "VK2735"
+    ]
+   },
+   {
+    "nct": "NCT07104383",
+    "drugs": [
+     "VK2735"
+    ]
+   }
+  ]
+ }
+}

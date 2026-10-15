@@ -1,0 +1,92 @@
+{
+ "id": "1570562_2026-03-09",
+ "kind": "slide",
+ "cik": "1570562",
+ "name": "Evolus, Inc.",
+ "date": "2026-03-09",
+ "asof": "2026-03-09",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-03-09",
+  "adj_close": 5.35
+ },
+ "balance": {
+  "end": "2025-12-31",
+  "cash": 53826000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001628280-26-014001"
+ },
+ "burn6": {
+  "end": "2025-12-31",
+  "start": "2025-07-01",
+  "cash_used_ops": 1842000.0,
+  "capex": 2434000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-02-27",
+  "shares": 65059990
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 14,
+  "from": "2025-12-09",
+  "to": "2026-04-08",
+  "trades": [
+   {
+    "date": "2026-03-20",
+    "filed": "2026-03-20",
+    "code": "S",
+    "value": 14815,
+    "who": "Avelar Rui"
+   },
+   {
+    "date": "2026-03-20",
+    "filed": "2026-03-20",
+    "code": "S",
+    "value": 64929,
+    "who": "MOATAZEDI DAVID"
+   },
+   {
+    "date": "2026-03-17",
+    "filed": "2026-03-18",
+    "code": "S",
+    "value": 570562,
+    "who": "MOATAZEDI DAVID"
+   },
+   {
+    "date": "2026-03-17",
+    "filed": "2026-03-18",
+    "code": "S",
+    "value": 146629,
+    "who": "Avelar Rui"
+   },
+   {
+    "date": "2025-12-22",
+    "filed": "2025-12-29",
+    "code": "S",
+    "value": 75361,
+    "who": "MOATAZEDI DAVID"
+   },
+   {
+    "date": "2025-12-22",
+    "filed": "2025-12-29",
+    "code": "S",
+    "value": 16168,
+    "who": "Avelar Rui"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "evolus",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

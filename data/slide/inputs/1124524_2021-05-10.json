@@ -1,0 +1,114 @@
+{
+ "id": "1124524_2021-05-10",
+ "kind": "slide",
+ "cik": "1124524",
+ "name": "Cryoport, Inc.",
+ "date": "2021-05-10",
+ "asof": "2021-05-10",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-05-10",
+  "adj_close": 54.44
+ },
+ "balance": {
+  "end": "2021-03-31",
+  "cash": 353215000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001104659-21-062496"
+ },
+ "burn6": {
+  "end": "2021-03-31",
+  "start": "2020-10-01",
+  "cash_used_ops": 15704157.0,
+  "capex": 6610197.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-04-23",
+  "shares": 45681456
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 22,
+  "from": "2021-02-09",
+  "to": "2021-06-09",
+  "trades": [
+   {
+    "date": "2021-06-07",
+    "filed": "2021-06-09",
+    "code": "S",
+    "value": 600198,
+    "who": "HANCOCK DANIEL M"
+   },
+   {
+    "date": "2021-06-08",
+    "filed": "2021-06-09",
+    "code": "S",
+    "value": 612320,
+    "who": "HANCOCK DANIEL M"
+   },
+   {
+    "date": "2021-05-13",
+    "filed": "2021-05-17",
+    "code": "S",
+    "value": 190747,
+    "who": "ZECCHINI EDWARD J"
+   },
+   {
+    "date": "2021-05-13",
+    "filed": "2021-05-17",
+    "code": "S",
+    "value": 88237,
+    "who": "ZECCHINI EDWARD J"
+   },
+   {
+    "date": "2021-04-08",
+    "filed": "2021-04-09",
+    "code": "S",
+    "value": 119153,
+    "who": "ZECCHINI EDWARD J"
+   },
+   {
+    "date": "2021-04-08",
+    "filed": "2021-04-09",
+    "code": "S",
+    "value": 163027,
+    "who": "ZECCHINI EDWARD J"
+   },
+   {
+    "date": "2021-03-11",
+    "filed": "2021-03-12",
+    "code": "S",
+    "value": 231887,
+    "who": "ZECCHINI EDWARD J"
+   },
+   {
+    "date": "2021-03-10",
+    "filed": "2021-03-11",
+    "code": "S",
+    "value": 217166,
+    "who": "Sawicki Mark W"
+   },
+   {
+    "date": "2021-03-10",
+    "filed": "2021-03-11",
+    "code": "S",
+    "value": 517768,
+    "who": "Sawicki Mark W"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "cryoport",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

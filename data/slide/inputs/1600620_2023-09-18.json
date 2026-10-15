@@ -1,0 +1,49 @@
+{
+ "id": "1600620_2023-09-18",
+ "kind": "slide",
+ "cik": "1600620",
+ "name": "Aurinia Pharmaceuticals Inc.",
+ "date": "2023-09-18",
+ "asof": "2023-09-18",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-09-18",
+  "adj_close": 8.4
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 81389000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001600620-23-000029"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 34496000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-08-02",
+  "shares": 143422464
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2023-06-20",
+  "to": "2023-10-18",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "aurinia pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,107 @@
+{
+ "id": "1645842_2022-10-14",
+ "kind": "slide",
+ "cik": "1645842",
+ "name": "Zymergen Inc.",
+ "date": "2022-10-14",
+ "asof": "2022-10-14",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-10-14",
+  "adj_close": 2.35
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 213558000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001645842-22-000114"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 99575000.0,
+  "capex": 13068000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-07-29",
+  "shares": 104098538
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These conditions raise substantial doubt as to the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 19,
+  "from": "2022-07-16",
+  "to": "2022-11-13",
+  "trades": [
+   {
+    "date": "2022-10-03",
+    "filed": "2022-10-05",
+    "code": "S",
+    "value": 10598,
+    "who": "Singh Enakshi"
+   },
+   {
+    "date": "2022-09-02",
+    "filed": "2022-09-07",
+    "code": "S",
+    "value": 8681,
+    "who": "Singh Enakshi"
+   },
+   {
+    "date": "2022-09-02",
+    "filed": "2022-09-07",
+    "code": "S",
+    "value": 7536,
+    "who": "Kim Mina"
+   },
+   {
+    "date": "2022-09-02",
+    "filed": "2022-09-07",
+    "code": "S",
+    "value": 7222,
+    "who": "Serber Zachariah"
+   },
+   {
+    "date": "2022-08-30",
+    "filed": "2022-09-01",
+    "code": "S",
+    "value": 34946,
+    "who": "Singh Enakshi"
+   },
+   {
+    "date": "2022-08-11",
+    "filed": "2022-08-15",
+    "code": "S",
+    "value": 21251,
+    "who": "Serber Zachariah"
+   },
+   {
+    "date": "2022-08-02",
+    "filed": "2022-08-04",
+    "code": "S",
+    "value": 7749,
+    "who": "Serber Zachariah"
+   },
+   {
+    "date": "2022-08-02",
+    "filed": "2022-08-04",
+    "code": "S",
+    "value": 8083,
+    "who": "Kim Mina"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "zymergen",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

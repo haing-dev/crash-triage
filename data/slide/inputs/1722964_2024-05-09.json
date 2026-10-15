@@ -1,0 +1,120 @@
+{
+ "id": "1722964_2024-05-09",
+ "kind": "slide",
+ "cik": "1722964",
+ "name": "Y-mAbs Therapeutics, Inc.",
+ "date": "2024-05-09",
+ "asof": "2024-05-09",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-05-09",
+  "adj_close": 12.87
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 75749000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-24-007056"
+ },
+ "burn6": {
+  "end": "2024-03-31",
+  "start": "2023-10-01",
+  "cash_used_ops": 11513000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-04-30",
+  "shares": 43882638
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 7,
+  "from": "2024-02-09",
+  "to": "2024-06-08",
+  "trades": [
+   {
+    "date": "2024-05-30",
+    "filed": "2024-05-31",
+    "code": "S",
+    "value": 344407,
+    "who": "Kruse Bo"
+   },
+   {
+    "date": "2024-05-31",
+    "filed": "2024-05-31",
+    "code": "S",
+    "value": 378648,
+    "who": "Kruse Bo"
+   },
+   {
+    "date": "2024-05-21",
+    "filed": "2024-05-23",
+    "code": "S",
+    "value": 300000,
+    "who": "Gad Thomas"
+   },
+   {
+    "date": "2024-05-23",
+    "filed": "2024-05-23",
+    "code": "S",
+    "value": 95563,
+    "who": "Gad Thomas"
+   },
+   {
+    "date": "2024-03-05",
+    "filed": "2024-03-07",
+    "code": "S",
+    "value": 28283,
+    "who": "Rajah Vignesh"
+   },
+   {
+    "date": "2024-03-05",
+    "filed": "2024-03-07",
+    "code": "S",
+    "value": 64116,
+    "who": "Gad Thomas"
+   },
+   {
+    "date": "2024-03-05",
+    "filed": "2024-03-07",
+    "code": "S",
+    "value": 27837,
+    "who": "Smith Susan Laura"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "y mabs therapeutics",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04315246",
+    "drugs": [
+     "radiolabeled DPTA-omburtamab"
+    ]
+   },
+   {
+    "nct": "NCT03363373",
+    "drugs": [
+     "GM-CSF + Naxitamab"
+    ]
+   },
+   {
+    "nct": "NCT04909515",
+    "drugs": [
+     "Naxitamab",
+     "GM-CSF",
+     "Isotretinoin"
+    ]
+   }
+  ]
+ }
+}

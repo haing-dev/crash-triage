@@ -1,0 +1,58 @@
+{
+ "id": "1808865_2022-12-20",
+ "kind": "slide",
+ "cik": "1808865",
+ "name": "iTeos Therapeutics, Inc.",
+ "date": "2022-12-20",
+ "asof": "2022-12-20",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-12-20",
+  "adj_close": 17.77
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 752243000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-22-024473"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 60018000.0,
+  "capex": 594000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-11-04",
+  "shares": 35575323
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2022-09-21",
+  "to": "2023-01-19",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "iteos therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05403385",
+    "drugs": [
+     "inupadenant",
+     "Carboplatin",
+     "Pemetrexed"
+    ]
+   }
+  ]
+ }
+}

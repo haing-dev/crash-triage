@@ -1,0 +1,88 @@
+{
+ "id": "1125345_2023-09-08",
+ "kind": "slide",
+ "cik": "1125345",
+ "name": "MACROGENICS INC",
+ "date": "2023-09-08",
+ "asof": "2023-09-08",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-09-08",
+  "adj_close": 5.12
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 108758000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001125345-23-000108"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 14922000.0,
+  "capex": 645000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-08-04",
+  "shares": 61949474
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2023-06-10",
+  "to": "2023-10-08",
+  "trades": [
+   {
+    "date": "2023-10-02",
+    "filed": "2023-10-04",
+    "code": "P",
+    "value": 669585,
+    "who": "BIOTECH TARGET N V"
+   },
+   {
+    "date": "2023-09-07",
+    "filed": "2023-09-11",
+    "code": "P",
+    "value": 1052840,
+    "who": "BIOTECH TARGET N V"
+   },
+   {
+    "date": "2023-08-30",
+    "filed": "2023-09-01",
+    "code": "P",
+    "value": 73650,
+    "who": "HURWITZ EDWARD"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "macrogenics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04082364",
+    "drugs": [
+     "margetuximab",
+     "Retifanlimab",
+     "Tebotelimab"
+    ]
+   },
+   {
+    "nct": "NCT05551117",
+    "drugs": [
+     "vobramitamab duocarmazine 2.0 mg (Arm A)",
+     "vobramitamab duocarmazine 2.7 mg (Arm B)",
+     "vobramitamab duocarmazine"
+    ]
+   }
+  ]
+ }
+}

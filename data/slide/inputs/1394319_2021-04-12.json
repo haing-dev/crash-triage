@@ -1,0 +1,73 @@
+{
+ "id": "1394319_2021-04-12",
+ "kind": "slide",
+ "cik": "1394319",
+ "name": "Tracon Pharmaceuticals, Inc.",
+ "date": "2021-04-12",
+ "asof": "2021-04-12",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-04-12",
+  "adj_close": 157.4
+ },
+ "balance": {
+  "end": "2020-12-31",
+  "cash": 36130000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001564590-21-008957"
+ },
+ "burn6": {
+  "end": "2020-12-31",
+  "start": "2020-07-01",
+  "cash_used_ops": 7895000.0,
+  "capex": 2501.9178082191784,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-02-19",
+  "shares": 15478787
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2021-01-12",
+  "to": "2021-05-12",
+  "trades": [
+   {
+    "date": "2021-03-08",
+    "filed": "2021-03-09",
+    "code": "P",
+    "value": 8296,
+    "who": "Brown Scott B."
+   },
+   {
+    "date": "2021-01-27",
+    "filed": "2021-01-28",
+    "code": "P",
+    "value": 98771,
+    "who": "THEUER CHARLES"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "tracon pharmaceuticals",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04480502",
+    "drugs": [
+     "Envafolimab",
+     "Ipilimumab"
+    ]
+   }
+  ]
+ }
+}

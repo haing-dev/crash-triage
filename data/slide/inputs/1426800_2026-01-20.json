@@ -1,0 +1,51 @@
+{
+ "id": "1426800_2026-01-20",
+ "kind": "slide",
+ "cik": "1426800",
+ "name": "ASSEMBLY BIOSCIENCES, INC.",
+ "date": "2026-01-20",
+ "asof": "2026-01-20",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-01-20",
+  "adj_close": 26.8
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 232557000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001193125-25-274277"
+ },
+ "burn6": {
+  "end": "2025-09-30",
+  "start": "2025-04-01",
+  "cash_used_ops": 31891000.0,
+  "capex": 42000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-11-07",
+  "shares": 15817140
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "As a result, the Company concluded the conditions which previously raised substantial doubt about its ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2025-10-22",
+  "to": "2026-02-19",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "assembly biosciences",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "id": "1807120_2021-11-23",
+ "kind": "slide",
+ "cik": "1807120",
+ "name": "Design Therapeutics, Inc.",
+ "date": "2021-11-23",
+ "asof": "2021-11-23",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-11-23",
+  "adj_close": 17.0
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 393718000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-21-003753"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 16453000.0,
+  "capex": 1151000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-11-05",
+  "shares": 55662501
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 2,
+  "from": "2021-08-25",
+  "to": "2021-12-23",
+  "trades": [
+   {
+    "date": "2021-08-31",
+    "filed": "2021-09-02",
+    "code": "P",
+    "value": 618000,
+    "who": "William Arsani"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "design therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

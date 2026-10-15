@@ -1,0 +1,58 @@
+{
+ "id": "748592_2026-02-06",
+ "kind": "crash",
+ "cik": "748592",
+ "name": "Ernexa Therapeutics Inc.",
+ "date": "2026-02-06",
+ "asof": "2026-02-09",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-02-09",
+  "adj_close": 7.75
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 3047000,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0001493152-25-021287"
+ },
+ "burn6": {
+  "end": "2025-09-30",
+  "start": "2025-04-01",
+  "cash_used_ops": 3804000.0,
+  "capex": 14772.35294117647,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-11-07",
+  "shares": 7848889
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "In connection with preparing the accompanying condensed consolidated financial statements as of and for the three and nine months ended September 30, 2025, the Company\u2019s management concluded that there is substantial doubt regarding the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2025-11-08",
+  "to": "2026-03-08",
+  "trades": [
+   {
+    "date": "2026-02-10",
+    "filed": "2026-02-17",
+    "code": "P",
+    "value": 2000000,
+    "who": "Cherington Charles"
+   }
+  ]
+ },
+ "drug": "ERNA-101",
+ "trials": {
+  "query": "ernexa therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "id": "1752828_2024-10-18",
+ "kind": "slide",
+ "cik": "1752828",
+ "name": "Celularity Inc",
+ "date": "2024-10-18",
+ "asof": "2024-10-18",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-10-18",
+  "adj_close": 2.51
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 1902000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-24-115082"
+ },
+ "burn6": {
+  "end": "2024-03-31",
+  "start": "2023-10-01",
+  "cash_used_ops": 8744000.0,
+  "capex": 619000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-10-15",
+  "shares": 21984614
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "There is substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2024-07-20",
+  "to": "2024-11-17",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "celularity",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

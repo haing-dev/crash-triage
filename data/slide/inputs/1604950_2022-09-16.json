@@ -1,0 +1,135 @@
+{
+ "id": "1604950_2022-09-16",
+ "kind": "slide",
+ "cik": "1604950",
+ "name": "scPharmaceuticals Inc.",
+ "date": "2022-09-16",
+ "asof": "2022-09-16",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-09-16",
+  "adj_close": 4.48
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 55851000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-22-016017"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 14544000.0,
+  "capex": 6000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-08-08",
+  "shares": 27402121
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2022-06-18",
+  "to": "2022-10-16",
+  "trades": [
+   {
+    "date": "2022-10-06",
+    "filed": "2022-10-11",
+    "code": "S",
+    "value": 152894,
+    "who": "5AM Partners IV, LLC"
+   },
+   {
+    "date": "2022-10-06",
+    "filed": "2022-10-11",
+    "code": "S",
+    "value": 6370,
+    "who": "5AM Partners IV, LLC"
+   },
+   {
+    "date": "2022-10-06",
+    "filed": "2022-10-11",
+    "code": "S",
+    "value": 29156,
+    "who": "5AM Partners IV, LLC"
+   },
+   {
+    "date": "2022-10-10",
+    "filed": "2022-10-11",
+    "code": "S",
+    "value": 1866729,
+    "who": "5AM Partners IV, LLC"
+   },
+   {
+    "date": "2022-10-10",
+    "filed": "2022-10-11",
+    "code": "S",
+    "value": 77780,
+    "who": "5AM Partners IV, LLC"
+   },
+   {
+    "date": "2022-10-10",
+    "filed": "2022-10-11",
+    "code": "S",
+    "value": 355977,
+    "who": "5AM Partners IV, LLC"
+   },
+   {
+    "date": "2022-09-06",
+    "filed": "2022-09-08",
+    "code": "S",
+    "value": 119795,
+    "who": "5AM Partners IV, LLC"
+   },
+   {
+    "date": "2022-09-06",
+    "filed": "2022-09-08",
+    "code": "S",
+    "value": 4990,
+    "who": "5AM Partners IV, LLC"
+   },
+   {
+    "date": "2022-09-06",
+    "filed": "2022-09-08",
+    "code": "S",
+    "value": 22168,
+    "who": "5AM Partners IV, LLC"
+   },
+   {
+    "date": "2022-09-07",
+    "filed": "2022-09-08",
+    "code": "S",
+    "value": 774412,
+    "who": "5AM Partners IV, LLC"
+   },
+   {
+    "date": "2022-09-07",
+    "filed": "2022-09-08",
+    "code": "S",
+    "value": 32267,
+    "who": "5AM Partners IV, LLC"
+   },
+   {
+    "date": "2022-09-07",
+    "filed": "2022-09-08",
+    "code": "S",
+    "value": 143322,
+    "who": "5AM Partners IV, LLC"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "scpharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

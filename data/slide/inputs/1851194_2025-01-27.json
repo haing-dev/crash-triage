@@ -1,0 +1,86 @@
+{
+ "id": "1851194_2025-01-27",
+ "kind": "slide",
+ "cik": "1851194",
+ "name": "Ventyx Biosciences, Inc.",
+ "date": "2025-01-27",
+ "asof": "2025-01-27",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-01-27",
+  "adj_close": 2.05
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 274825000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-24-123485"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": 59999000.0,
+  "capex": 60000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-11-04",
+  "shares": 70710667
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2024-10-29",
+  "to": "2025-02-26",
+  "trades": [
+   {
+    "date": "2024-12-27",
+    "filed": "2024-12-30",
+    "code": "S",
+    "value": 49841,
+    "who": "Nuss John"
+   },
+   {
+    "date": "2024-12-23",
+    "filed": "2024-12-26",
+    "code": "P",
+    "value": 300573,
+    "who": "Gujrathi Sheila"
+   },
+   {
+    "date": "2024-12-19",
+    "filed": "2024-12-19",
+    "code": "S",
+    "value": 29682,
+    "who": "Nuss John"
+   },
+   {
+    "date": "2024-11-22",
+    "filed": "2024-11-25",
+    "code": "P",
+    "value": 434946,
+    "who": "Mohan Raju"
+   },
+   {
+    "date": "2024-11-25",
+    "filed": "2024-11-25",
+    "code": "P",
+    "value": 524944,
+    "who": "Mohan Raju"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "ventyx biosciences",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

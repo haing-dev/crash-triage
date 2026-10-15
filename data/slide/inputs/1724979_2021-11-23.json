@@ -1,0 +1,163 @@
+{
+ "id": "1724979_2021-11-23",
+ "kind": "slide",
+ "cik": "1724979",
+ "name": "Rain Oncology Inc.",
+ "date": "2021-11-23",
+ "asof": "2021-11-23",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-11-23",
+  "adj_close": 14.57
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 150081000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001564590-21-056190"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 22838000.0,
+  "capex": 99000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-11-03",
+  "shares": 26466746
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2021-08-25",
+  "to": "2021-12-23",
+  "trades": [
+   {
+    "date": "2021-10-07",
+    "filed": "2021-10-13",
+    "code": "S",
+    "value": 193614,
+    "who": "PERCEPTIVE ADVISORS LLC"
+   },
+   {
+    "date": "2021-10-07",
+    "filed": "2021-10-13",
+    "code": "S",
+    "value": 4304,
+    "who": "PERCEPTIVE ADVISORS LLC"
+   },
+   {
+    "date": "2021-10-08",
+    "filed": "2021-10-13",
+    "code": "S",
+    "value": 64990,
+    "who": "PERCEPTIVE ADVISORS LLC"
+   },
+   {
+    "date": "2021-10-08",
+    "filed": "2021-10-13",
+    "code": "S",
+    "value": 33631,
+    "who": "PERCEPTIVE ADVISORS LLC"
+   },
+   {
+    "date": "2021-10-11",
+    "filed": "2021-10-13",
+    "code": "S",
+    "value": 150074,
+    "who": "PERCEPTIVE ADVISORS LLC"
+   },
+   {
+    "date": "2021-10-11",
+    "filed": "2021-10-13",
+    "code": "S",
+    "value": 122966,
+    "who": "PERCEPTIVE ADVISORS LLC"
+   },
+   {
+    "date": "2021-10-12",
+    "filed": "2021-10-13",
+    "code": "S",
+    "value": 97900,
+    "who": "PERCEPTIVE ADVISORS LLC"
+   },
+   {
+    "date": "2021-09-21",
+    "filed": "2021-09-23",
+    "code": "P",
+    "value": 88410,
+    "who": "BVF PARTNERS L P/IL"
+   },
+   {
+    "date": "2021-09-21",
+    "filed": "2021-09-23",
+    "code": "P",
+    "value": 57193,
+    "who": "BVF PARTNERS L P/IL"
+   },
+   {
+    "date": "2021-09-21",
+    "filed": "2021-09-23",
+    "code": "P",
+    "value": 8226,
+    "who": "BVF PARTNERS L P/IL"
+   },
+   {
+    "date": "2021-09-21",
+    "filed": "2021-09-23",
+    "code": "P",
+    "value": 54140,
+    "who": "BERGER FRANKLIN M"
+   },
+   {
+    "date": "2021-09-13",
+    "filed": "2021-09-15",
+    "code": "P",
+    "value": 3516427,
+    "who": "BVF PARTNERS L P/IL"
+   },
+   {
+    "date": "2021-09-13",
+    "filed": "2021-09-15",
+    "code": "P",
+    "value": 2613846,
+    "who": "BVF PARTNERS L P/IL"
+   },
+   {
+    "date": "2021-09-13",
+    "filed": "2021-09-15",
+    "code": "P",
+    "value": 338243,
+    "who": "BVF PARTNERS L P/IL"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "rain oncology",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05012397",
+    "drugs": [
+     "RAIN-32"
+    ]
+   },
+   {
+    "nct": "NCT04979442",
+    "drugs": [
+     "RAIN-32",
+     "Trabectedin"
+    ]
+   }
+  ]
+ }
+}

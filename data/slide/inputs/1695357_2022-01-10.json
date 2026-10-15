@@ -1,0 +1,91 @@
+{
+ "id": "1695357_2022-01-10",
+ "kind": "slide",
+ "cik": "1695357",
+ "name": "Provention Bio, Inc.",
+ "date": "2022-01-10",
+ "asof": "2022-01-10",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-01-10",
+  "adj_close": 5.12
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 150773000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001493152-21-027190"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 55441000.0,
+  "capex": 669000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-11-01",
+  "shares": 63374738
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 13,
+  "from": "2021-10-12",
+  "to": "2022-02-09",
+  "trades": [
+   {
+    "date": "2021-12-03",
+    "filed": "2021-12-06",
+    "code": "P",
+    "value": 33765,
+    "who": "Ramos Eleanor"
+   },
+   {
+    "date": "2021-11-30",
+    "filed": "2021-12-01",
+    "code": "P",
+    "value": 24990,
+    "who": "Palmer Ashleigh"
+   },
+   {
+    "date": "2021-11-24",
+    "filed": "2021-11-29",
+    "code": "P",
+    "value": 40188,
+    "who": "Leon Francisco"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "provention bio",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03875729",
+    "drugs": [
+     "teplizumab"
+    ]
+   },
+   {
+    "nct": "NCT04424927",
+    "drugs": [
+     "PRV-015"
+    ]
+   },
+   {
+    "nct": "NCT04270942",
+    "drugs": [
+     "teplizumab 1 mg/mL"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,135 @@
+{
+ "id": "1738021_2023-01-19",
+ "kind": "slide",
+ "cik": "1738021",
+ "name": "Compass Therapeutics, Inc.",
+ "date": "2023-01-19",
+ "asof": "2023-01-19",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-01-19",
+  "adj_close": 3.75
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 120602000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001171843-22-007269"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 15542000.0,
+  "capex": -36000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-11-07",
+  "shares": 126191473
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 14,
+  "from": "2022-10-21",
+  "to": "2023-02-18",
+  "trades": [
+   {
+    "date": "2023-02-15",
+    "filed": "2023-02-15",
+    "code": "P",
+    "value": 77200,
+    "who": "Schuetz Thomas J."
+   },
+   {
+    "date": "2023-01-31",
+    "filed": "2023-01-31",
+    "code": "P",
+    "value": 81000,
+    "who": "Schuetz Thomas J."
+   },
+   {
+    "date": "2023-01-24",
+    "filed": "2023-01-24",
+    "code": "P",
+    "value": 83800,
+    "who": "Schuetz Thomas J."
+   },
+   {
+    "date": "2022-11-22",
+    "filed": "2022-11-25",
+    "code": "S",
+    "value": 62553,
+    "who": "Bisker-Leib Vered"
+   },
+   {
+    "date": "2022-11-23",
+    "filed": "2022-11-25",
+    "code": "S",
+    "value": 41147,
+    "who": "Bisker-Leib Vered"
+   },
+   {
+    "date": "2022-11-25",
+    "filed": "2022-11-25",
+    "code": "S",
+    "value": 9,
+    "who": "Bisker-Leib Vered"
+   },
+   {
+    "date": "2022-11-18",
+    "filed": "2022-11-22",
+    "code": "S",
+    "value": 27394,
+    "who": "Bisker-Leib Vered"
+   },
+   {
+    "date": "2022-11-21",
+    "filed": "2022-11-22",
+    "code": "S",
+    "value": 69592,
+    "who": "Bisker-Leib Vered"
+   },
+   {
+    "date": "2022-11-08",
+    "filed": "2022-11-10",
+    "code": "P",
+    "value": 1290420,
+    "who": "ORBIMED ADVISORS LLC"
+   },
+   {
+    "date": "2022-11-08",
+    "filed": "2022-11-10",
+    "code": "P",
+    "value": 1290420,
+    "who": "GORDON CARL L"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "compass therapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05513742",
+    "drugs": [
+     "CTX-009"
+    ]
+   },
+   {
+    "nct": "NCT05506943",
+    "drugs": [
+     "CTX-009",
+     "Paclitaxel"
+    ]
+   }
+  ]
+ }
+}

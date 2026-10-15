@@ -1,0 +1,84 @@
+{
+ "id": "1590877_2023-01-17",
+ "kind": "slide",
+ "cik": "1590877",
+ "name": "REGENXBIO Inc.",
+ "date": "2023-01-17",
+ "asof": "2023-01-17",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-01-17",
+  "adj_close": 23.47
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 617012000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent",
+   "MarketableSecuritiesNoncurrent"
+  ],
+  "accn": "0000950170-22-021567"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 112205000.0,
+  "capex": 14287000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-10-27",
+  "shares": 43293631
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2022-10-19",
+  "to": "2023-02-16",
+  "trades": [
+   {
+    "date": "2023-01-03",
+    "filed": "2023-01-05",
+    "code": "S",
+    "value": 69559,
+    "who": "PAKOLA STEVE"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "regenxbio",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04571970",
+    "drugs": [
+     "RGX-121"
+    ]
+   },
+   {
+    "nct": "NCT05693142",
+    "drugs": [
+     "RGX-202"
+    ]
+   },
+   {
+    "nct": "NCT03566043",
+    "drugs": [
+     "RGX-121"
+    ]
+   },
+   {
+    "nct": "NCT03580083",
+    "drugs": [
+     "RGX-111"
+    ]
+   }
+  ]
+ }
+}

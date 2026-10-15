@@ -1,0 +1,135 @@
+{
+ "id": "1401667_2023-06-06",
+ "kind": "slide",
+ "cik": "1401667",
+ "name": "PUMA BIOTECHNOLOGY, INC.",
+ "date": "2023-06-06",
+ "asof": "2023-06-06",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-06-06",
+  "adj_close": 3.54
+ },
+ "balance": {
+  "end": "2023-03-31",
+  "cash": 71217000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001437749-23-012589"
+ },
+ "burn6": {
+  "end": "2023-03-31",
+  "start": "2022-10-01",
+  "cash_used_ops": -10326000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-05-01",
+  "shares": 46707012
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 13,
+  "from": "2023-03-08",
+  "to": "2023-07-06",
+  "trades": [
+   {
+    "date": "2023-07-03",
+    "filed": "2023-07-06",
+    "code": "S",
+    "value": 22973,
+    "who": "Wong Alvin F"
+   },
+   {
+    "date": "2023-07-03",
+    "filed": "2023-07-06",
+    "code": "S",
+    "value": 48608,
+    "who": "NOUGUES MAXIMO F"
+   },
+   {
+    "date": "2023-07-03",
+    "filed": "2023-07-06",
+    "code": "S",
+    "value": 40075,
+    "who": "Ludwig Jeffrey Jerome"
+   },
+   {
+    "date": "2023-07-03",
+    "filed": "2023-07-06",
+    "code": "S",
+    "value": 25857,
+    "who": "HUNT DOUGLAS M"
+   },
+   {
+    "date": "2023-07-03",
+    "filed": "2023-07-06",
+    "code": "S",
+    "value": 200983,
+    "who": "AUERBACH ALAN H"
+   },
+   {
+    "date": "2023-06-13",
+    "filed": "2023-06-15",
+    "code": "S",
+    "value": 93269,
+    "who": "WILSON TROY EDWARD"
+   },
+   {
+    "date": "2023-06-13",
+    "filed": "2023-06-15",
+    "code": "S",
+    "value": 75970,
+    "who": "MOYES JAY M"
+   },
+   {
+    "date": "2023-06-13",
+    "filed": "2023-06-15",
+    "code": "S",
+    "value": 34252,
+    "who": "Stuglik Brian M"
+   },
+   {
+    "date": "2023-06-13",
+    "filed": "2023-06-15",
+    "code": "S",
+    "value": 93280,
+    "who": "Senderowicz Adrian"
+   },
+   {
+    "date": "2023-06-13",
+    "filed": "2023-06-15",
+    "code": "S",
+    "value": 34500,
+    "who": "Dorval Allison"
+   },
+   {
+    "date": "2023-06-13",
+    "filed": "2023-06-15",
+    "code": "S",
+    "value": 46630,
+    "who": "MILLER MICHAEL PATRICK"
+   },
+   {
+    "date": "2023-06-02",
+    "filed": "2023-06-06",
+    "code": "S",
+    "value": 928,
+    "who": "Wong Alvin F"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "puma biotechnology",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

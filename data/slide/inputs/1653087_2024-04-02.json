@@ -1,0 +1,111 @@
+{
+ "id": "1653087_2024-04-02",
+ "kind": "slide",
+ "cik": "1653087",
+ "name": "Alector, Inc.",
+ "date": "2024-04-02",
+ "asof": "2024-04-02",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-04-02",
+  "adj_close": 5.82
+ },
+ "balance": {
+  "end": "2023-12-31",
+  "cash": 548861000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-24-021183"
+ },
+ "burn6": {
+  "end": "2023-12-31",
+  "start": "2023-07-01",
+  "cash_used_ops": 92610000.0,
+  "capex": 139000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-02-22",
+  "shares": 95749259
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2024-01-03",
+  "to": "2024-05-02",
+  "trades": [
+   {
+    "date": "2024-03-04",
+    "filed": "2024-03-05",
+    "code": "S",
+    "value": 39562,
+    "who": "GRASSO MARC"
+   },
+   {
+    "date": "2024-03-04",
+    "filed": "2024-03-05",
+    "code": "S",
+    "value": 130386,
+    "who": "Rosenthal Arnon"
+   },
+   {
+    "date": "2024-03-04",
+    "filed": "2024-03-05",
+    "code": "S",
+    "value": 41554,
+    "who": "Romano Gary"
+   },
+   {
+    "date": "2024-03-04",
+    "filed": "2024-03-05",
+    "code": "S",
+    "value": 70387,
+    "who": "Kenkare-Mitra Sara"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "alector",
+  "other_trials": 5,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06111014",
+    "drugs": [
+     "Latozinemab"
+    ]
+   },
+   {
+    "nct": "NCT04592874",
+    "drugs": [
+     "AL002"
+    ]
+   },
+   {
+    "nct": "NCT04374136",
+    "drugs": [
+     "Part 1 Blinded - AL001",
+     "Part 2 (OLE Treatment) - AL001"
+    ]
+   },
+   {
+    "nct": "NCT03987295",
+    "drugs": [
+     "AL001"
+    ]
+   },
+   {
+    "nct": "NCT05744401",
+    "drugs": [
+     "AL002"
+    ]
+   }
+  ]
+ }
+}

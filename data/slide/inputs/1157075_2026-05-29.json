@@ -1,0 +1,50 @@
+{
+ "id": "1157075_2026-05-29",
+ "kind": "slide",
+ "cik": "1157075",
+ "name": "PharmaCyte Biotech, Inc.",
+ "date": "2026-05-29",
+ "asof": "2026-05-29",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-05-29",
+  "adj_close": 0.8344
+ },
+ "balance": {
+  "end": "2026-01-31",
+  "cash": 20537786,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001683168-26-001917"
+ },
+ "burn6": {
+  "end": "2026-01-31",
+  "start": "2025-08-01",
+  "cash_used_ops": 1766371.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-03-12",
+  "shares": 10735649
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2026-02-28",
+  "to": "2026-06-28",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "pharmacyte biotech",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

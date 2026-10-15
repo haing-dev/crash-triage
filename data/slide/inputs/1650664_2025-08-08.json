@@ -1,0 +1,120 @@
+{
+ "id": "1650664_2025-08-08",
+ "kind": "slide",
+ "cik": "1650664",
+ "name": "Editas Medicine, Inc.",
+ "date": "2025-08-08",
+ "asof": "2025-08-08",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-08-08",
+  "adj_close": 2.21
+ },
+ "balance": {
+  "end": "2025-03-31",
+  "cash": 220964000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001650664-25-000073"
+ },
+ "burn6": {
+  "end": "2025-03-31",
+  "start": "2024-10-01",
+  "cash_used_ops": 98561000.0,
+  "capex": 654000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-05-07",
+  "shares": 83712859
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 13,
+  "from": "2025-05-10",
+  "to": "2025-09-07",
+  "trades": [
+   {
+    "date": "2025-09-03",
+    "filed": "2025-09-04",
+    "code": "S",
+    "value": 1843,
+    "who": "Burkly Linda"
+   },
+   {
+    "date": "2025-09-03",
+    "filed": "2025-09-04",
+    "code": "S",
+    "value": 1189,
+    "who": "Parison Amy"
+   },
+   {
+    "date": "2025-09-03",
+    "filed": "2025-09-04",
+    "code": "S",
+    "value": 14517,
+    "who": "O'Neill Gilmore Neil"
+   },
+   {
+    "date": "2025-08-07",
+    "filed": "2025-08-08",
+    "code": "S",
+    "value": 1752,
+    "who": "Parison Amy"
+   },
+   {
+    "date": "2025-07-31",
+    "filed": "2025-08-04",
+    "code": "S",
+    "value": 12757,
+    "who": "Burkly Linda"
+   },
+   {
+    "date": "2025-06-03",
+    "filed": "2025-06-04",
+    "code": "S",
+    "value": 769,
+    "who": "Parison Amy"
+   },
+   {
+    "date": "2025-06-03",
+    "filed": "2025-06-04",
+    "code": "S",
+    "value": 1252,
+    "who": "Burkly Linda"
+   },
+   {
+    "date": "2025-06-03",
+    "filed": "2025-06-04",
+    "code": "S",
+    "value": 26196,
+    "who": "O'Neill Gilmore Neil"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "editas medicine",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05444894",
+    "drugs": [
+     "EDIT-301"
+    ]
+   },
+   {
+    "nct": "NCT04853576",
+    "drugs": [
+     "EDIT-301"
+    ]
+   }
+  ]
+ }
+}

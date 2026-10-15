@@ -1,0 +1,117 @@
+{
+ "id": "1847367_2026-03-30",
+ "kind": "slide",
+ "cik": "1847367",
+ "name": "ALUMIS INC.",
+ "date": "2026-03-30",
+ "asof": "2026-03-30",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-03-30",
+  "adj_close": 20.21
+ },
+ "balance": {
+  "end": "2025-12-31",
+  "cash": 308501000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001847367-26-000006"
+ },
+ "burn6": {
+  "end": "2025-12-31",
+  "start": "2025-07-01",
+  "cash_used_ops": 182816000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": null,
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 14,
+  "from": "2025-12-30",
+  "to": "2026-04-29",
+  "trades": [
+   {
+    "date": "2026-01-09",
+    "filed": "2026-01-13",
+    "code": "P",
+    "value": 9999995,
+    "who": "AKKARAJU SRINIVAS"
+   },
+   {
+    "date": "2026-01-08",
+    "filed": "2026-01-12",
+    "code": "P",
+    "value": 1999999,
+    "who": "Foresite Labs, LLC"
+   },
+   {
+    "date": "2026-01-08",
+    "filed": "2026-01-12",
+    "code": "P",
+    "value": 4999989,
+    "who": "Foresite Labs, LLC"
+   },
+   {
+    "date": "2026-01-08",
+    "filed": "2026-01-12",
+    "code": "P",
+    "value": 1999999,
+    "who": "Foresite Capital Management VI LLC"
+   },
+   {
+    "date": "2026-01-08",
+    "filed": "2026-01-12",
+    "code": "P",
+    "value": 4999989,
+    "who": "Foresite Capital Management VI LLC"
+   },
+   {
+    "date": "2026-01-08",
+    "filed": "2026-01-12",
+    "code": "P",
+    "value": 1999999,
+    "who": "Tananbaum James B."
+   },
+   {
+    "date": "2026-01-08",
+    "filed": "2026-01-12",
+    "code": "P",
+    "value": 4999989,
+    "who": "Tananbaum James B."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "alumis",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05739435",
+    "drugs": [
+     "envudeucitinib"
+    ]
+   },
+   {
+    "nct": "NCT06846541",
+    "drugs": [
+     "Open-Label Envudeucitinib",
+     "Blinded Envudeucitinib"
+    ]
+   },
+   {
+    "nct": "NCT05966480",
+    "drugs": [
+     "Envudeucitinib"
+    ]
+   }
+  ]
+ }
+}

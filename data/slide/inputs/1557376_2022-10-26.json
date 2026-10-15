@@ -1,0 +1,70 @@
+{
+ "id": "1557376_2022-10-26",
+ "kind": "slide",
+ "cik": "1557376",
+ "name": "Zeo ScientifiX, Inc.",
+ "date": "2022-10-26",
+ "asof": "2022-10-26",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-10-26",
+  "adj_close": 6.68
+ },
+ "balance": {
+  "end": "2022-07-31",
+  "cash": 74665,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0001829126-22-016867"
+ },
+ "burn6": {
+  "end": "2022-07-31",
+  "start": "2022-02-01",
+  "cash_used_ops": 848249.0,
+  "capex": 361385.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-09-13",
+  "shares": 1476126390
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2022-07-28",
+  "to": "2022-11-25",
+  "trades": [
+   {
+    "date": "2022-10-13",
+    "filed": "2022-10-17",
+    "code": "S",
+    "value": 800,
+    "who": "Sinnreich Matthew Phillip"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "zeo scientifix",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05228899",
+    "drugs": [
+     "Zofin"
+    ]
+   },
+   {
+    "nct": "NCT04384445",
+    "drugs": [
+     "Zofin"
+    ]
+   }
+  ]
+ }
+}

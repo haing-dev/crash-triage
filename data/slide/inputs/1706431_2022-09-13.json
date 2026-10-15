@@ -1,0 +1,151 @@
+{
+ "id": "1706431_2022-09-13",
+ "kind": "slide",
+ "cik": "1706431",
+ "name": "Vir Biotechnology, Inc.",
+ "date": "2022-09-13",
+ "asof": "2022-09-13",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-09-13",
+  "adj_close": 20.57
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 2159296000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-22-016060"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": -1510225000.0,
+  "capex": 36439000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-08-01",
+  "shares": 132637878
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 19,
+  "from": "2022-06-15",
+  "to": "2022-10-13",
+  "trades": [
+   {
+    "date": "2022-10-10",
+    "filed": "2022-10-11",
+    "code": "S",
+    "value": 370278,
+    "who": "SATO VICKI L"
+   },
+   {
+    "date": "2022-09-08",
+    "filed": "2022-09-09",
+    "code": "S",
+    "value": 392335,
+    "who": "SATO VICKI L"
+   },
+   {
+    "date": "2022-08-15",
+    "filed": "2022-08-17",
+    "code": "S",
+    "value": 1744091,
+    "who": "SVF Endurance (Cayman) Ltd"
+   },
+   {
+    "date": "2022-08-15",
+    "filed": "2022-08-17",
+    "code": "S",
+    "value": 1686054,
+    "who": "SVF Endurance (Cayman) Ltd"
+   },
+   {
+    "date": "2022-08-16",
+    "filed": "2022-08-17",
+    "code": "S",
+    "value": 215614,
+    "who": "SVF Endurance (Cayman) Ltd"
+   },
+   {
+    "date": "2022-08-08",
+    "filed": "2022-08-09",
+    "code": "S",
+    "value": 542685,
+    "who": "SATO VICKI L"
+   },
+   {
+    "date": "2022-07-20",
+    "filed": "2022-07-21",
+    "code": "S",
+    "value": 150000,
+    "who": "Pang Phillip"
+   },
+   {
+    "date": "2022-07-11",
+    "filed": "2022-07-13",
+    "code": "S",
+    "value": 150000,
+    "who": "Ramasastry Saira"
+   },
+   {
+    "date": "2022-07-08",
+    "filed": "2022-07-12",
+    "code": "S",
+    "value": 370734,
+    "who": "SATO VICKI L"
+   },
+   {
+    "date": "2022-07-08",
+    "filed": "2022-07-12",
+    "code": "S",
+    "value": 149960,
+    "who": "SATO VICKI L"
+   },
+   {
+    "date": "2022-06-21",
+    "filed": "2022-06-22",
+    "code": "S",
+    "value": 124209,
+    "who": "Pang Phillip"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "vir biotechnology",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04856085",
+    "drugs": [
+     "VIR-2218",
+     "VIR-3434",
+     "PEG-IFN\u03b1"
+    ]
+   },
+   {
+    "nct": "NCT05356741",
+    "drugs": [
+     "VIR-5818",
+     "pembrolizumab"
+    ]
+   },
+   {
+    "nct": "NCT04412863",
+    "drugs": [
+     "VIR-2218",
+     "pegylated interferon-alfa 2a"
+    ]
+   }
+  ]
+ }
+}

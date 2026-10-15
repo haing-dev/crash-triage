@@ -1,0 +1,65 @@
+{
+ "id": "1505512_2021-04-13",
+ "kind": "slide",
+ "cik": "1505512",
+ "name": "Regulus Therapeutics Inc.",
+ "date": "2021-04-13",
+ "asof": "2021-04-13",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-04-13",
+  "adj_close": 11.9
+ },
+ "balance": {
+  "end": "2020-12-31",
+  "cash": 31087000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001628280-21-004294"
+ },
+ "burn6": {
+  "end": "2020-12-31",
+  "start": "2020-07-01",
+  "cash_used_ops": 1308000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-03-05",
+  "shares": 72504772
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "This Form 10-K includes disclosures regarding management\u2019s assessment of our ability to continue as a going concern as our current liquidity position and recurring losses from operations since inception and negative cash flows from operating activities raise substantial doubt about our ability to co"
+ },
+ "insiders": {
+  "form4s": 18,
+  "from": "2021-01-13",
+  "to": "2021-05-13",
+  "trades": [
+   {
+    "date": "2021-02-16",
+    "filed": "2021-02-17",
+    "code": "S",
+    "value": 1424,
+    "who": "Aker Christopher Ray"
+   },
+   {
+    "date": "2021-02-16",
+    "filed": "2021-02-17",
+    "code": "S",
+    "value": 7128,
+    "who": "Hagan Joseph P"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "regulus therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

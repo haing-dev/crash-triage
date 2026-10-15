@@ -1,0 +1,57 @@
+{
+ "id": "1010086_2022-01-20",
+ "kind": "slide",
+ "cik": "1010086",
+ "name": "SIGA TECHNOLOGIES INC",
+ "date": "2022-01-20",
+ "asof": "2022-01-20",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-01-20",
+  "adj_close": 6.26
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 92819425,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001437749-21-025323"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": -198386.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-10-20",
+  "shares": 74116295
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2021-10-22",
+  "to": "2022-02-19",
+  "trades": [
+   {
+    "date": "2021-12-09",
+    "filed": "2021-12-10",
+    "code": "S",
+    "value": 234600,
+    "who": "Antal James"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "siga technologies",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

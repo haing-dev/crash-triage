@@ -1,0 +1,69 @@
+{
+ "id": "1641489_2021-05-06",
+ "kind": "slide",
+ "cik": "1641489",
+ "name": "vTv Therapeutics Inc.",
+ "date": "2021-05-06",
+ "asof": "2021-05-06",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-05-06",
+  "adj_close": 95.2
+ },
+ "balance": {
+  "end": "2021-03-31",
+  "cash": 8449000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001564590-21-024121"
+ },
+ "burn6": {
+  "end": "2021-03-31",
+  "start": "2020-10-01",
+  "cash_used_ops": 7511000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": null,
+ "going_concern": {
+  "flag": true,
+  "quote": "These conditions raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2021-02-05",
+  "to": "2021-06-05",
+  "trades": [
+   {
+    "date": "2021-02-26",
+    "filed": "2021-03-02",
+    "code": "P",
+    "value": 143000,
+    "who": "Nelson Rich S."
+   },
+   {
+    "date": "2021-02-26",
+    "filed": "2021-03-02",
+    "code": "P",
+    "value": 28600,
+    "who": "Nelson Rich S."
+   },
+   {
+    "date": "2021-02-26",
+    "filed": "2021-03-02",
+    "code": "P",
+    "value": 27400,
+    "who": "KOZLOV HERSH"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "vtv therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

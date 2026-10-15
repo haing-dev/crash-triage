@@ -1,0 +1,78 @@
+{
+ "id": "1538210_2024-01-19",
+ "kind": "slide",
+ "cik": "1538210",
+ "name": "NexImmune, Inc.",
+ "date": "2024-01-19",
+ "asof": "2024-01-19",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-01-19",
+  "adj_close": 7.0
+ },
+ "balance": {
+  "end": "2023-09-30",
+  "cash": 9000210,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001538210-23-000033"
+ },
+ "burn6": {
+  "end": "2023-09-30",
+  "start": "2023-04-01",
+  "cash_used_ops": 13313233.0,
+  "capex": 6000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-11-01",
+  "shares": 1058125
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "While we have no outstanding debt and $9.0 million in cash and cash equivalents as of September 30, 2023, the Company expects its negative cash flows from operating activities to continue and thus has determined that its losses and negative cash flows from operations and uncertainty in generating su"
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2023-10-21",
+  "to": "2024-02-18",
+  "trades": [
+   {
+    "date": "2023-11-21",
+    "filed": "2023-11-22",
+    "code": "S",
+    "value": 8287,
+    "who": "Roemer Alan S."
+   },
+   {
+    "date": "2023-11-22",
+    "filed": "2023-11-22",
+    "code": "S",
+    "value": 7758,
+    "who": "Roemer Alan S."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "neximmune",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04505813",
+    "drugs": [
+     "NEXI-002 T Cells"
+    ]
+   },
+   {
+    "nct": "NCT04284228",
+    "drugs": [
+     "Infusion of NEXI-001 T Cells"
+    ]
+   }
+  ]
+ }
+}

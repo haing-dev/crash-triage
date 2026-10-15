@@ -1,0 +1,73 @@
+{
+ "id": "1828185_2021-12-02",
+ "kind": "slide",
+ "cik": "1828185",
+ "name": "Barinthus Biotherapeutics plc.",
+ "date": "2021-12-02",
+ "asof": "2021-12-02",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-12-02",
+  "adj_close": 11.67
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 233871000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001104659-21-137646"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 16642000.0,
+  "capex": 330000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-11-12",
+  "shares": 34852426
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2021-09-03",
+  "to": "2022-01-01",
+  "trades": [
+   {
+    "date": "2021-12-22",
+    "filed": "2021-12-23",
+    "code": "P",
+    "value": 99700,
+    "who": "Wright Robin"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "barinthus biotherapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04607850",
+    "drugs": [
+     "ChAdOx1-HPV",
+     "MVA-HPV"
+    ]
+   },
+   {
+    "nct": "NCT04778904",
+    "drugs": [
+     "ChAdOx1-HBV",
+     "MVA-HBV",
+     "Nivolumab"
+    ]
+   }
+  ]
+ }
+}

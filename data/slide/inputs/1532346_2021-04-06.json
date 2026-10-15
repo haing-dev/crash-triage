@@ -1,0 +1,132 @@
+{
+ "id": "1532346_2021-04-06",
+ "kind": "slide",
+ "cik": "1532346",
+ "name": "Atreca, Inc.",
+ "date": "2021-04-06",
+ "asof": "2021-04-06",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-04-06",
+  "adj_close": 13.4
+ },
+ "balance": {
+  "end": "2020-12-31",
+  "cash": 240085000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001558370-21-001932"
+ },
+ "burn6": {
+  "end": "2020-12-31",
+  "start": "2020-07-01",
+  "cash_used_ops": 33076000.0,
+  "capex": 1995000.0,
+  "periods": 2
+ },
+ "shares": null,
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 15,
+  "from": "2021-01-06",
+  "to": "2021-05-06",
+  "trades": [
+   {
+    "date": "2021-03-17",
+    "filed": "2021-03-19",
+    "code": "S",
+    "value": 34865,
+    "who": "Greenberg Norman Michael"
+   },
+   {
+    "date": "2021-03-17",
+    "filed": "2021-03-19",
+    "code": "S",
+    "value": 48785,
+    "who": "Greenberg Norman Michael"
+   },
+   {
+    "date": "2021-03-15",
+    "filed": "2021-03-16",
+    "code": "S",
+    "value": 84450,
+    "who": "Robinson William Hewitt"
+   },
+   {
+    "date": "2021-03-11",
+    "filed": "2021-03-15",
+    "code": "S",
+    "value": 154870,
+    "who": "Serafini Tito"
+   },
+   {
+    "date": "2021-03-11",
+    "filed": "2021-03-15",
+    "code": "S",
+    "value": 28260,
+    "who": "Serafini Tito"
+   },
+   {
+    "date": "2021-02-17",
+    "filed": "2021-02-19",
+    "code": "S",
+    "value": 94752,
+    "who": "Greenberg Norman Michael"
+   },
+   {
+    "date": "2021-02-16",
+    "filed": "2021-02-18",
+    "code": "S",
+    "value": 95330,
+    "who": "Robinson William Hewitt"
+   },
+   {
+    "date": "2021-02-11",
+    "filed": "2021-02-16",
+    "code": "S",
+    "value": 189272,
+    "who": "Serafini Tito"
+   },
+   {
+    "date": "2021-01-19",
+    "filed": "2021-01-21",
+    "code": "S",
+    "value": 76044,
+    "who": "Greenberg Norman Michael"
+   },
+   {
+    "date": "2021-01-13",
+    "filed": "2021-01-15",
+    "code": "S",
+    "value": 41239,
+    "who": "Robinson William Hewitt"
+   },
+   {
+    "date": "2021-01-14",
+    "filed": "2021-01-15",
+    "code": "S",
+    "value": 34011,
+    "who": "Robinson William Hewitt"
+   },
+   {
+    "date": "2021-01-11",
+    "filed": "2021-01-13",
+    "code": "S",
+    "value": 150192,
+    "who": "Serafini Tito"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "atreca",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

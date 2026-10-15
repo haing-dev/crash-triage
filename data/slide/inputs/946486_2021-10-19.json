@@ -1,0 +1,91 @@
+{
+ "id": "946486_2021-10-19",
+ "kind": "slide",
+ "cik": "946486",
+ "name": "WINDTREE THERAPEUTICS INC /DE/",
+ "date": "2021-10-19",
+ "asof": "2021-10-19",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-10-19",
+  "adj_close": 85500.0
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 29965000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001437749-21-018781"
+ },
+ "burn6": {
+  "end": "2021-06-30",
+  "start": "2021-01-01",
+  "cash_used_ops": 13451000.0,
+  "capex": 3000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-08-05",
+  "shares": 26704456
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2021-07-21",
+  "to": "2021-11-18",
+  "trades": [
+   {
+    "date": "2021-11-18",
+    "filed": "2021-11-18",
+    "code": "P",
+    "value": 1497,
+    "who": "Fraser Craig"
+   },
+   {
+    "date": "2021-10-22",
+    "filed": "2021-10-25",
+    "code": "P",
+    "value": 5700,
+    "who": "Fraser Craig"
+   },
+   {
+    "date": "2021-10-19",
+    "filed": "2021-10-19",
+    "code": "P",
+    "value": 95135,
+    "who": "Huang James"
+   },
+   {
+    "date": "2021-10-19",
+    "filed": "2021-10-19",
+    "code": "P",
+    "value": 5730,
+    "who": "Fraser Craig"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "windtree therapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04389671",
+    "drugs": [
+     "Lucinactant"
+    ]
+   },
+   {
+    "nct": "NCT04325035",
+    "drugs": [
+     "Istaroxime"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,114 @@
+{
+ "id": "1540159_2021-04-07",
+ "kind": "slide",
+ "cik": "1540159",
+ "name": "Edesa Biotech, Inc.",
+ "date": "2021-04-07",
+ "asof": "2021-04-07",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-04-07",
+  "adj_close": 39.27
+ },
+ "balance": {
+  "end": "2020-12-31",
+  "cash": 6305293,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001654954-21-001660"
+ },
+ "burn6": {
+  "end": "2020-12-31",
+  "start": "2020-07-01",
+  "cash_used_ops": 4683466.0,
+  "capex": 5166.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-02-12",
+  "shares": 11048980
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 15,
+  "from": "2021-01-07",
+  "to": "2021-05-07",
+  "trades": [
+   {
+    "date": "2020-03-29",
+    "filed": "2021-03-29",
+    "code": "P",
+    "value": 10460,
+    "who": "Nijhawan Pardeep"
+   },
+   {
+    "date": "2021-03-25",
+    "filed": "2021-03-26",
+    "code": "P",
+    "value": 15750,
+    "who": "Nijhawan Pardeep"
+   },
+   {
+    "date": "2021-03-25",
+    "filed": "2021-03-26",
+    "code": "P",
+    "value": 18165,
+    "who": "Brooks Michael J"
+   },
+   {
+    "date": "2021-03-24",
+    "filed": "2021-03-25",
+    "code": "P",
+    "value": 22860,
+    "who": "Brooks Michael J"
+   },
+   {
+    "date": "2021-03-24",
+    "filed": "2021-03-25",
+    "code": "P",
+    "value": 25800,
+    "who": "Nijhawan Pardeep"
+   },
+   {
+    "date": "2021-02-18",
+    "filed": "2021-02-18",
+    "code": "S",
+    "value": 13246,
+    "who": "OAKES FRANK R."
+   },
+   {
+    "date": "2021-02-18",
+    "filed": "2021-02-18",
+    "code": "S",
+    "value": 44696,
+    "who": "OAKES FRANK R."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "edesa biotech",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03680131",
+    "drugs": [
+     "EB01 Cream 0.2%",
+     "EB01 Cream 1.0%",
+     "EB01 Cream 2.0%"
+    ]
+   },
+   {
+    "nct": "NCT04401475",
+    "drugs": [
+     "SOC plus 15mg/kg EB05 IV"
+    ]
+   }
+  ]
+ }
+}

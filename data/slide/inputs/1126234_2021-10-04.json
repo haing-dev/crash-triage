@@ -1,0 +1,225 @@
+{
+ "id": "1126234_2021-10-04",
+ "kind": "slide",
+ "cik": "1126234",
+ "name": "LUMOS PHARMA, INC.",
+ "date": "2021-10-04",
+ "asof": "2021-10-04",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-10-04",
+  "adj_close": 9.23
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 107696000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001126234-21-000109"
+ },
+ "burn6": {
+  "end": "2021-06-30",
+  "start": "2021-01-01",
+  "cash_used_ops": 16781000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-08-03",
+  "shares": 8357391
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 12,
+  "from": "2021-07-06",
+  "to": "2021-11-03",
+  "trades": [
+   {
+    "date": "2021-09-08",
+    "filed": "2021-09-10",
+    "code": "S",
+    "value": 25018,
+    "who": "McKew John C."
+   },
+   {
+    "date": "2021-09-08",
+    "filed": "2021-09-10",
+    "code": "P",
+    "value": 112116,
+    "who": "LALANDE KEVIN M."
+   },
+   {
+    "date": "2021-09-02",
+    "filed": "2021-09-07",
+    "code": "P",
+    "value": 70739,
+    "who": "LALANDE KEVIN M."
+   },
+   {
+    "date": "2021-09-03",
+    "filed": "2021-09-07",
+    "code": "P",
+    "value": 91905,
+    "who": "LALANDE KEVIN M."
+   },
+   {
+    "date": "2021-09-07",
+    "filed": "2021-09-07",
+    "code": "P",
+    "value": 111139,
+    "who": "LALANDE KEVIN M."
+   },
+   {
+    "date": "2021-08-30",
+    "filed": "2021-09-01",
+    "code": "P",
+    "value": 90738,
+    "who": "LALANDE KEVIN M."
+   },
+   {
+    "date": "2021-08-31",
+    "filed": "2021-09-01",
+    "code": "P",
+    "value": 64181,
+    "who": "LALANDE KEVIN M."
+   },
+   {
+    "date": "2021-09-01",
+    "filed": "2021-09-01",
+    "code": "P",
+    "value": 49892,
+    "who": "LALANDE KEVIN M."
+   },
+   {
+    "date": "2021-08-25",
+    "filed": "2021-08-27",
+    "code": "P",
+    "value": 147078,
+    "who": "LALANDE KEVIN M."
+   },
+   {
+    "date": "2021-08-26",
+    "filed": "2021-08-27",
+    "code": "P",
+    "value": 62430,
+    "who": "LALANDE KEVIN M."
+   },
+   {
+    "date": "2021-08-27",
+    "filed": "2021-08-27",
+    "code": "P",
+    "value": 52282,
+    "who": "LALANDE KEVIN M."
+   },
+   {
+    "date": "2021-08-20",
+    "filed": "2021-08-24",
+    "code": "P",
+    "value": 311638,
+    "who": "LALANDE KEVIN M."
+   },
+   {
+    "date": "2021-08-23",
+    "filed": "2021-08-24",
+    "code": "P",
+    "value": 362150,
+    "who": "LALANDE KEVIN M."
+   },
+   {
+    "date": "2021-08-24",
+    "filed": "2021-08-24",
+    "code": "P",
+    "value": 101871,
+    "who": "LALANDE KEVIN M."
+   },
+   {
+    "date": "2021-08-17",
+    "filed": "2021-08-19",
+    "code": "P",
+    "value": 135446,
+    "who": "LALANDE KEVIN M."
+   },
+   {
+    "date": "2021-08-18",
+    "filed": "2021-08-19",
+    "code": "P",
+    "value": 252009,
+    "who": "LALANDE KEVIN M."
+   },
+   {
+    "date": "2021-08-19",
+    "filed": "2021-08-19",
+    "code": "P",
+    "value": 168970,
+    "who": "LALANDE KEVIN M."
+   },
+   {
+    "date": "2021-08-12",
+    "filed": "2021-08-16",
+    "code": "P",
+    "value": 233932,
+    "who": "LALANDE KEVIN M."
+   },
+   {
+    "date": "2021-08-13",
+    "filed": "2021-08-16",
+    "code": "P",
+    "value": 243744,
+    "who": "LALANDE KEVIN M."
+   },
+   {
+    "date": "2021-08-16",
+    "filed": "2021-08-16",
+    "code": "P",
+    "value": 246717,
+    "who": "LALANDE KEVIN M."
+   },
+   {
+    "date": "2021-08-11",
+    "filed": "2021-08-13",
+    "code": "P",
+    "value": 2205,
+    "who": "Schuchart Aaron"
+   },
+   {
+    "date": "2021-08-12",
+    "filed": "2021-08-13",
+    "code": "P",
+    "value": 12614,
+    "who": "Schuchart Aaron"
+   },
+   {
+    "date": "2021-08-11",
+    "filed": "2021-08-13",
+    "code": "P",
+    "value": 56406,
+    "who": "McCracken Joseph S"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "lumos pharma",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04806854",
+    "drugs": [
+     "LUM-201"
+    ]
+   },
+   {
+    "nct": "NCT04614337",
+    "drugs": [
+     "LUM-201",
+     "rhGH Norditropin\u00ae pen (34 \u00b5g/kg)"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,104 @@
+{
+ "id": "1730430_2021-04-12",
+ "kind": "slide",
+ "cik": "1730430",
+ "name": "Kiniksa Pharmaceuticals International, plc",
+ "date": "2021-04-12",
+ "asof": "2021-04-12",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-04-12",
+  "adj_close": 16.15
+ },
+ "balance": {
+  "end": "2020-12-31",
+  "cash": 323482000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001558370-21-001821"
+ },
+ "burn6": {
+  "end": "2020-12-31",
+  "start": "2020-07-01",
+  "cash_used_ops": 75512000.0,
+  "capex": 60000.0,
+  "periods": 2
+ },
+ "shares": null,
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 13,
+  "from": "2021-01-12",
+  "to": "2021-05-12",
+  "trades": [
+   {
+    "date": "2021-02-08",
+    "filed": "2021-02-10",
+    "code": "S",
+    "value": 113252,
+    "who": "Patel Sanj K"
+   },
+   {
+    "date": "2021-02-09",
+    "filed": "2021-02-10",
+    "code": "S",
+    "value": 470039,
+    "who": "Patel Sanj K"
+   },
+   {
+    "date": "2021-02-08",
+    "filed": "2021-02-10",
+    "code": "S",
+    "value": 104144,
+    "who": "Patel Sanj K"
+   },
+   {
+    "date": "2021-02-09",
+    "filed": "2021-02-10",
+    "code": "S",
+    "value": 543973,
+    "who": "Patel Sanj K"
+   },
+   {
+    "date": "2021-02-10",
+    "filed": "2021-02-10",
+    "code": "S",
+    "value": 36896,
+    "who": "Patel Sanj K"
+   },
+   {
+    "date": "2021-02-10",
+    "filed": "2021-02-10",
+    "code": "S",
+    "value": 26231,
+    "who": "Patel Sanj K"
+   },
+   {
+    "date": "2021-02-03",
+    "filed": "2021-02-05",
+    "code": "S",
+    "value": 54717,
+    "who": "Beetham Thomas W."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "kiniksa pharmaceuticals international",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04447469",
+    "drugs": [
+     "mavrilimumab"
+    ]
+   }
+  ]
+ }
+}

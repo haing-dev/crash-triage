@@ -1,0 +1,70 @@
+{
+ "id": "1536196_2026-07-02",
+ "kind": "slide",
+ "cik": "1536196",
+ "name": "Can-Fite BioPharma Ltd.",
+ "date": "2026-07-02",
+ "asof": "2026-07-02",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-07-02",
+  "adj_close": 3.91
+ },
+ "balance": {
+  "end": "2025-12-31",
+  "cash": 5529000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001213900-26-034447"
+ },
+ "burn6": {
+  "end": "2025-12-31",
+  "start": "2025-07-01",
+  "cash_used_ops": 4197000.0,
+  "capex": 1000.0,
+  "periods": 1
+ },
+ "shares": {
+  "end": "2025-12-31",
+  "shares": 2618425
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Evaluation of Substantial Doubt Raised In performing the first step of the evaluation, the Company concluded that the following conditions raised substantial doubt about its ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 2,
+  "from": "2026-04-03",
+  "to": "2026-08-01",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "can fite biopharma",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT07410455",
+    "drugs": [
+     "Piclidenoson"
+    ]
+   },
+   {
+    "nct": "NCT06387342",
+    "drugs": [
+     "Namodenoson 25mg"
+    ]
+   },
+   {
+    "nct": "NCT06643260",
+    "drugs": [
+     "piclidenoson"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "id": "1126234_2023-12-06",
+ "kind": "slide",
+ "cik": "1126234",
+ "name": "LUMOS PHARMA, INC.",
+ "date": "2023-12-06",
+ "asof": "2023-12-06",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-12-06",
+  "adj_close": 3.06
+ },
+ "balance": {
+  "end": "2023-09-30",
+  "cash": 42694000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001126234-23-000106"
+ },
+ "burn6": {
+  "end": "2023-09-30",
+  "start": "2023-04-01",
+  "cash_used_ops": 14505000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-11-02",
+  "shares": 7914582
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2023-09-07",
+  "to": "2024-01-05",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "lumos pharma",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05796440",
+    "drugs": [
+     "LUM-201"
+    ]
+   },
+   {
+    "nct": "NCT04806854",
+    "drugs": [
+     "LUM-201"
+    ]
+   },
+   {
+    "nct": "NCT05250063",
+    "drugs": [
+     "LUM-201"
+    ]
+   },
+   {
+    "nct": "NCT04614337",
+    "drugs": [
+     "LUM-201",
+     "rhGH Norditropin\u00ae pen (34 \u00b5g/kg)"
+    ]
+   }
+  ]
+ }
+}

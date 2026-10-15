@@ -1,0 +1,59 @@
+{
+ "id": "1819411_2024-04-08",
+ "kind": "slide",
+ "cik": "1819411",
+ "name": "Gain Therapeutics, Inc.",
+ "date": "2024-04-08",
+ "asof": "2024-04-08",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-04-08",
+  "adj_close": 3.43
+ },
+ "balance": {
+  "end": "2023-12-31",
+  "cash": 16794653,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001558370-24-003943"
+ },
+ "burn6": {
+  "end": "2023-12-31",
+  "start": "2023-07-01",
+  "cash_used_ops": 9627094.0,
+  "capex": 7706.003076923077,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-02-29",
+  "shares": 16219709
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These risks and uncertainties include, but are not limited to, the following: \u25fethere is substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2024-01-09",
+  "to": "2024-05-08",
+  "trades": [
+   {
+    "date": "2024-03-28",
+    "filed": "2024-04-01",
+    "code": "P",
+    "value": 115770,
+    "who": "Riley Jeffrey Scott"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "gain therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

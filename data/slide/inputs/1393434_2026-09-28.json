@@ -1,0 +1,129 @@
+{
+ "id": "1393434_2026-09-28",
+ "kind": "slide",
+ "cik": "1393434",
+ "name": "OCULAR THERAPEUTIX, INC",
+ "date": "2026-09-28",
+ "asof": "2026-09-28",
+ "final": false,
+ "version": 5,
+ "price": {
+  "date": "2026-09-28",
+  "adj_close": 7.655
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 598641000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001104659-26-089450"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": 133265000.0,
+  "capex": 8029000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-07-31",
+  "shares": 219615868
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2026-06-30",
+  "to": "2026-10-15",
+  "trades": [
+   {
+    "date": "2026-10-08",
+    "filed": "2026-10-13",
+    "code": "S",
+    "value": 87363,
+    "who": "Anderman Todd"
+   },
+   {
+    "date": "2026-10-02",
+    "filed": "2026-10-06",
+    "code": "S",
+    "value": 70430,
+    "who": "Kaiser Peter"
+   },
+   {
+    "date": "2026-10-02",
+    "filed": "2026-10-06",
+    "code": "S",
+    "value": 76626,
+    "who": "Heier Jeffrey S."
+   },
+   {
+    "date": "2026-08-31",
+    "filed": "2026-09-02",
+    "code": "S",
+    "value": 11254,
+    "who": "Notman Donald"
+   },
+   {
+    "date": "2026-08-24",
+    "filed": "2026-08-26",
+    "code": "S",
+    "value": 32687,
+    "who": "Kaiser Peter"
+   },
+   {
+    "date": "2026-08-24",
+    "filed": "2026-08-26",
+    "code": "S",
+    "value": 20450,
+    "who": "Nayak Sanjay"
+   },
+   {
+    "date": "2026-08-24",
+    "filed": "2026-08-26",
+    "code": "S",
+    "value": 35531,
+    "who": "Heier Jeffrey S."
+   },
+   {
+    "date": "2026-08-24",
+    "filed": "2026-08-26",
+    "code": "S",
+    "value": 233160,
+    "who": "Dugel Pravin"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "ocular therapeutix",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT07516132",
+    "drugs": [
+     "OTX-TKI"
+    ]
+   },
+   {
+    "nct": "NCT07235085",
+    "drugs": [
+     "Single intravitreal injection of axitinib hydrogel implant followed by a mock (sham) injection procedure at Week 24",
+     "Intravitreal injection of axitinib hydrogel implant followed by a second intravitreal injection of the axitinib implant at Week 24",
+     "Sham/mock procedure of intravitreal injection followed by a second sham/mock procedure at Week 24"
+    ]
+   },
+   {
+    "nct": "NCT06495918",
+    "drugs": [
+     "OTX-TKI",
+     "Aflibercept",
+     "Aflibercept"
+    ]
+   }
+  ]
+ }
+}

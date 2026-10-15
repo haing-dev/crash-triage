@@ -1,0 +1,85 @@
+{
+ "id": "1651407_2022-08-26",
+ "kind": "slide",
+ "cik": "1651407",
+ "name": "Checkpoint Therapeutics, Inc.",
+ "date": "2022-08-26",
+ "asof": "2022-08-26",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-08-26",
+  "adj_close": 13.0
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 30887000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001410578-22-002432"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 30837000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": null,
+ "going_concern": {
+  "flag": true,
+  "quote": "\u25cfThere is substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 7,
+  "from": "2022-05-28",
+  "to": "2022-09-25",
+  "trades": [
+   {
+    "date": "2022-06-17",
+    "filed": "2022-07-01",
+    "code": "S",
+    "value": 248520,
+    "who": "Oliviero James F III"
+   },
+   {
+    "date": "2022-06-21",
+    "filed": "2022-07-01",
+    "code": "S",
+    "value": 22890,
+    "who": "Oliviero James F III"
+   },
+   {
+    "date": "2022-06-22",
+    "filed": "2022-07-01",
+    "code": "S",
+    "value": 13080,
+    "who": "Oliviero James F III"
+   },
+   {
+    "date": "2022-06-23",
+    "filed": "2022-07-01",
+    "code": "S",
+    "value": 16650,
+    "who": "Oliviero James F III"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "checkpoint therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04786964",
+    "drugs": [
+     "Cosibelimab",
+     "Cisplatin",
+     "Carboplatin"
+    ]
+   }
+  ]
+ }
+}

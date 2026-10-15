@@ -1,0 +1,50 @@
+{
+ "id": "1101026_2021-05-04",
+ "kind": "slide",
+ "cik": "1101026",
+ "name": "Zivo Bioscience, Inc.",
+ "date": "2021-05-04",
+ "asof": "2021-05-04",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-05-04",
+  "adj_close": 54.288
+ },
+ "balance": {
+  "end": "2020-12-31",
+  "cash": 137862,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001078782-21-000172"
+ },
+ "burn6": {
+  "end": "2020-12-31",
+  "start": "2020-07-01",
+  "cash_used_ops": 1465599.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-02-25",
+  "shares": 418346110
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Based on our cash balances, recurring losses since inception and our existing capital resources to fund our planned operations for a 12-month period, there is substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2021-02-03",
+  "to": "2021-06-03",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "zivo bioscience",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

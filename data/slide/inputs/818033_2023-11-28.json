@@ -1,0 +1,88 @@
+{
+ "id": "818033_2023-11-28",
+ "kind": "slide",
+ "cik": "818033",
+ "name": "HERON THERAPEUTICS, INC. /DE/",
+ "date": "2023-11-28",
+ "asof": "2023-11-28",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-11-28",
+  "adj_close": 1.22
+ },
+ "balance": {
+  "end": "2023-09-30",
+  "cash": 77412000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0000950170-23-063714"
+ },
+ "burn6": {
+  "end": "2023-09-30",
+  "start": "2023-04-01",
+  "cash_used_ops": 36344000.0,
+  "capex": 1071000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-11-08",
+  "shares": 150072640
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2023-08-30",
+  "to": "2023-12-28",
+  "trades": [
+   {
+    "date": "2023-11-17",
+    "filed": "2023-11-21",
+    "code": "P",
+    "value": 27250,
+    "who": "Forbes William P"
+   },
+   {
+    "date": "2023-11-16",
+    "filed": "2023-11-20",
+    "code": "P",
+    "value": 46995,
+    "who": "Forbes William P"
+   },
+   {
+    "date": "2023-11-16",
+    "filed": "2023-11-17",
+    "code": "P",
+    "value": 137970,
+    "who": "Collard Craig A"
+   },
+   {
+    "date": "2023-11-16",
+    "filed": "2023-11-17",
+    "code": "P",
+    "value": 75599,
+    "who": "Duarte Ira"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "heron therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03922048",
+    "drugs": [
+     "HTX-011",
+     "Bupivacaine HCl",
+     "HTX-011"
+    ]
+   }
+  ]
+ }
+}

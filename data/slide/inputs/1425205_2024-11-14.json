@@ -1,0 +1,93 @@
+{
+ "id": "1425205_2024-11-14",
+ "kind": "slide",
+ "cik": "1425205",
+ "name": "IOVANCE BIOTHERAPEUTICS, INC.",
+ "date": "2024-11-14",
+ "asof": "2024-11-14",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-11-14",
+  "adj_close": 8.59
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 397488000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001558370-24-014905"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": 157402000.0,
+  "capex": 2730000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-11-01",
+  "shares": 304780790
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2024-08-16",
+  "to": "2024-12-14",
+  "trades": [
+   {
+    "date": "2024-11-12",
+    "filed": "2024-11-14",
+    "code": "S",
+    "value": 503000,
+    "who": "Maynard Ryan D"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "iovance biotherapeutics",
+  "other_trials": 6,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04614103",
+    "drugs": [
+     "LN-145",
+     "LN-145"
+    ]
+   },
+   {
+    "nct": "NCT05361174",
+    "drugs": [
+     "IOV-4001"
+    ]
+   },
+   {
+    "nct": "NCT06481592",
+    "drugs": [
+     "Lifileucel"
+    ]
+   },
+   {
+    "nct": "NCT03645928",
+    "drugs": [
+     "Lifileucel",
+     "LN-145",
+     "Pembrolizumab"
+    ]
+   },
+   {
+    "nct": "NCT05727904",
+    "drugs": [
+     "Lifileucel plus Pembrolizumab",
+     "Pembrolizumab with Optional Crossover Period"
+    ]
+   }
+  ]
+ }
+}

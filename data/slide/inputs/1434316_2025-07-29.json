@@ -1,0 +1,65 @@
+{
+ "id": "1434316_2025-07-29",
+ "kind": "slide",
+ "cik": "1434316",
+ "name": "FATE THERAPEUTICS INC",
+ "date": "2025-07-29",
+ "asof": "2025-07-29",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-07-29",
+  "adj_close": 1.17
+ },
+ "balance": {
+  "end": "2025-03-31",
+  "cash": 240425000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-25-070285"
+ },
+ "burn6": {
+  "end": "2025-03-31",
+  "start": "2024-10-01",
+  "cash_used_ops": 61608000.0,
+  "capex": 1294000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-05-06",
+  "shares": 114633022
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 12,
+  "from": "2025-04-30",
+  "to": "2025-08-28",
+  "trades": [
+   {
+    "date": "2025-08-04",
+    "filed": "2025-08-05",
+    "code": "S",
+    "value": 9573,
+    "who": "TAHL CINDY"
+   },
+   {
+    "date": "2025-08-04",
+    "filed": "2025-08-05",
+    "code": "S",
+    "value": 15396,
+    "who": "Valamehr Bahram"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "fate therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

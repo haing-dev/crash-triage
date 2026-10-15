@@ -1,0 +1,65 @@
+{
+ "id": "1832168_2024-04-03",
+ "kind": "slide",
+ "cik": "1832168",
+ "name": "Longboard Pharmaceuticals, Inc.",
+ "date": "2024-04-03",
+ "asof": "2024-04-03",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-04-03",
+  "adj_close": 18.12
+ },
+ "balance": {
+  "end": "2023-12-31",
+  "cash": 48498000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-24-029952"
+ },
+ "burn6": {
+  "end": "2023-12-31",
+  "start": "2023-07-01",
+  "cash_used_ops": 24317000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-03-08",
+  "shares": 36017249
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2024-01-04",
+  "to": "2024-05-03",
+  "trades": [
+   {
+    "date": "2024-01-25",
+    "filed": "2024-01-29",
+    "code": "S",
+    "value": 96479595,
+    "who": "ARENA PHARMACEUTICALS INC"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "longboard pharmaceuticals",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05626634",
+    "drugs": [
+     "LP352, bexicaserin"
+    ]
+   }
+  ]
+ }
+}

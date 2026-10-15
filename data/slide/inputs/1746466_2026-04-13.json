@@ -1,0 +1,79 @@
+{
+ "id": "1746466_2026-04-13",
+ "kind": "slide",
+ "cik": "1746466",
+ "name": "Equillium, Inc.",
+ "date": "2026-04-13",
+ "asof": "2026-04-13",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-04-13",
+  "adj_close": 1.7
+ },
+ "balance": {
+  "end": "2025-12-31",
+  "cash": 30277000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001193125-26-124143"
+ },
+ "burn6": {
+  "end": "2025-12-31",
+  "start": "2025-07-01",
+  "cash_used_ops": 11564000.0,
+  "capex": 44000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-03-20",
+  "shares": 63226556
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "As discussed in Note 1 to the consolidated financial statements, the Company has suffered significant operating losses and negative cash flows from operations that raise substantial doubt about its ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2026-01-13",
+  "to": "2026-05-13",
+  "trades": [
+   {
+    "date": "2026-03-13",
+    "filed": "2026-03-16",
+    "code": "S",
+    "value": 300816,
+    "who": "Zedelmayer Christine"
+   },
+   {
+    "date": "2026-03-09",
+    "filed": "2026-03-11",
+    "code": "S",
+    "value": 362438,
+    "who": "Zedelmayer Christine"
+   },
+   {
+    "date": "2026-02-19",
+    "filed": "2026-02-23",
+    "code": "S",
+    "value": 194841,
+    "who": "Zedelmayer Christine"
+   },
+   {
+    "date": "2026-02-19",
+    "filed": "2026-02-23",
+    "code": "S",
+    "value": 133264,
+    "who": "Zedelmayer Christine"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "equillium",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

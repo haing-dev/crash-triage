@@ -1,0 +1,49 @@
+{
+ "id": "1583771_2021-09-09",
+ "kind": "slide",
+ "cik": "1583771",
+ "name": "Hepion Pharmaceuticals, Inc.",
+ "date": "2021-09-09",
+ "asof": "2021-09-09",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-09-09",
+  "adj_close": 1700.0
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 110091003,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0001583771-21-000008"
+ },
+ "burn6": {
+  "end": "2021-06-30",
+  "start": "2021-01-01",
+  "cash_used_ops": 12518930.0,
+  "capex": 93920.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-08-11",
+  "shares": 76225245
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2021-06-11",
+  "to": "2021-10-09",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "hepion pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

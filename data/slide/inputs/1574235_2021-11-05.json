@@ -1,0 +1,49 @@
+{
+ "id": "1574235_2021-11-05",
+ "kind": "slide",
+ "cik": "1574235",
+ "name": "Pulmatrix, Inc.",
+ "date": "2021-11-05",
+ "asof": "2021-11-05",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-11-05",
+  "adj_close": 15.68
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 56903000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001493152-21-019116"
+ },
+ "burn6": {
+  "end": "2021-06-30",
+  "start": "2021-01-01",
+  "cash_used_ops": 12019000.0,
+  "capex": 18000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-08-09",
+  "shares": 56249062
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2021-08-07",
+  "to": "2021-12-05",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "pulmatrix",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

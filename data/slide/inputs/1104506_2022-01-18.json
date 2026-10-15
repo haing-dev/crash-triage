@@ -1,0 +1,234 @@
+{
+ "id": "1104506_2022-01-18",
+ "kind": "slide",
+ "cik": "1104506",
+ "name": "INSMED Inc",
+ "date": "2022-01-18",
+ "asof": "2022-01-18",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-01-18",
+  "adj_close": 22.64
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 846556000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001104506-21-000015"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 150889000.0,
+  "capex": 4966000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-10-25",
+  "shares": 118372133
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 22,
+  "from": "2021-10-20",
+  "to": "2022-02-17",
+  "trades": [
+   {
+    "date": "2022-01-11",
+    "filed": "2022-01-13",
+    "code": "S",
+    "value": 72141,
+    "who": "Lewis William"
+   },
+   {
+    "date": "2022-01-11",
+    "filed": "2022-01-13",
+    "code": "S",
+    "value": 10220,
+    "who": "Smith Michael Alexander"
+   },
+   {
+    "date": "2022-01-11",
+    "filed": "2022-01-13",
+    "code": "S",
+    "value": 23227,
+    "who": "Schaeffer Orlov S Nicole"
+   },
+   {
+    "date": "2022-01-12",
+    "filed": "2022-01-13",
+    "code": "S",
+    "value": 29914,
+    "who": "Adsett Roger"
+   },
+   {
+    "date": "2022-01-11",
+    "filed": "2022-01-13",
+    "code": "S",
+    "value": 37539,
+    "who": "Flammer Martina M.D."
+   },
+   {
+    "date": "2022-01-11",
+    "filed": "2022-01-13",
+    "code": "S",
+    "value": 28977,
+    "who": "Bonstein Sara"
+   },
+   {
+    "date": "2022-01-05",
+    "filed": "2022-01-07",
+    "code": "S",
+    "value": 84707,
+    "who": "Adsett Roger"
+   },
+   {
+    "date": "2022-01-06",
+    "filed": "2022-01-07",
+    "code": "S",
+    "value": 45734,
+    "who": "Adsett Roger"
+   },
+   {
+    "date": "2022-01-05",
+    "filed": "2022-01-07",
+    "code": "S",
+    "value": 196749,
+    "who": "Lewis William"
+   },
+   {
+    "date": "2022-01-06",
+    "filed": "2022-01-07",
+    "code": "S",
+    "value": 138762,
+    "who": "Lewis William"
+   },
+   {
+    "date": "2022-01-05",
+    "filed": "2022-01-07",
+    "code": "S",
+    "value": 39289,
+    "who": "Flammer Martina M.D."
+   },
+   {
+    "date": "2022-01-05",
+    "filed": "2022-01-07",
+    "code": "S",
+    "value": 41498,
+    "who": "Schaeffer Orlov S Nicole"
+   },
+   {
+    "date": "2022-01-06",
+    "filed": "2022-01-07",
+    "code": "S",
+    "value": 41912,
+    "who": "Schaeffer Orlov S Nicole"
+   },
+   {
+    "date": "2022-01-05",
+    "filed": "2022-01-07",
+    "code": "S",
+    "value": 20680,
+    "who": "Smith Michael Alexander"
+   },
+   {
+    "date": "2022-01-06",
+    "filed": "2022-01-07",
+    "code": "S",
+    "value": 10062,
+    "who": "Smith Michael Alexander"
+   },
+   {
+    "date": "2021-12-23",
+    "filed": "2021-12-28",
+    "code": "S",
+    "value": 95485,
+    "who": "Lewis William"
+   },
+   {
+    "date": "2021-12-23",
+    "filed": "2021-12-28",
+    "code": "S",
+    "value": 1314981,
+    "who": "Lewis William"
+   },
+   {
+    "date": "2021-12-27",
+    "filed": "2021-12-28",
+    "code": "S",
+    "value": 1292140,
+    "who": "Lewis William"
+   },
+   {
+    "date": "2021-11-01",
+    "filed": "2021-11-03",
+    "code": "S",
+    "value": 1836785,
+    "who": "Schaeffer Orlov S Nicole"
+   },
+   {
+    "date": "2021-11-01",
+    "filed": "2021-11-03",
+    "code": "S",
+    "value": 10567,
+    "who": "Schaeffer Orlov S Nicole"
+   },
+   {
+    "date": "2021-11-01",
+    "filed": "2021-11-03",
+    "code": "P",
+    "value": 301500,
+    "who": "Brennan David R"
+   },
+   {
+    "date": "2021-11-01",
+    "filed": "2021-11-03",
+    "code": "P",
+    "value": 429043,
+    "who": "ENGELSEN STEINAR J"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "insmed",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05090904",
+    "drugs": [
+     "Brensocatib"
+    ]
+   },
+   {
+    "nct": "NCT04677543",
+    "drugs": [
+     "ALIS",
+     "Azithromycin",
+     "Ethambutol"
+    ]
+   },
+   {
+    "nct": "NCT04677569",
+    "drugs": [
+     "ALIS",
+     "Azithromycin",
+     "Ethambutol"
+    ]
+   },
+   {
+    "nct": "NCT04594369",
+    "drugs": [
+     "Brensocatib 10 mg",
+     "Brensocatib 25 mg"
+    ]
+   }
+  ]
+ }
+}

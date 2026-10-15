@@ -1,0 +1,72 @@
+{
+ "id": "1689548_2024-05-22",
+ "kind": "slide",
+ "cik": "1689548",
+ "name": "Praxis Precision Medicines, Inc.",
+ "date": "2024-05-22",
+ "asof": "2024-05-22",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-05-22",
+  "adj_close": 42.55
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 243289000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0001689548-24-000060"
+ },
+ "burn6": {
+  "end": "2024-03-31",
+  "start": "2023-10-01",
+  "cash_used_ops": 44718000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-05-09",
+  "shares": 17107887
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2024-02-22",
+  "to": "2024-06-21",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "praxis precision medicines",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06087276",
+    "drugs": [
+     "60 mg ulixacaltamide"
+    ]
+   },
+   {
+    "nct": "NCT05737784",
+    "drugs": [
+     "PRAX-222 - Initial Dose",
+     "PRAX-222 - Initial Ascending Doses",
+     "PRAX-222 - Optional Ascending Doses"
+    ]
+   },
+   {
+    "nct": "NCT05818553",
+    "drugs": [
+     "PRAX-562"
+    ]
+   }
+  ]
+ }
+}

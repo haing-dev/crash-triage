@@ -1,0 +1,65 @@
+{
+ "id": "1701541_2022-09-13",
+ "kind": "slide",
+ "cik": "1701541",
+ "name": "Black Diamond Therapeutics, Inc.",
+ "date": "2022-09-13",
+ "asof": "2022-09-13",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-09-13",
+  "adj_close": 2.8
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 160890000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001701541-22-000029"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 46667000.0,
+  "capex": 200000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-07-28",
+  "shares": 36339466
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 9,
+  "from": "2022-06-15",
+  "to": "2022-10-13",
+  "trades": [
+   {
+    "date": "2022-06-29",
+    "filed": "2022-06-30",
+    "code": "P",
+    "value": 61018,
+    "who": "Ni Fang"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "black diamond therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05256290",
+    "drugs": [
+     "silevertinib (BDTX-1535) monotherapy"
+    ]
+   }
+  ]
+ }
+}

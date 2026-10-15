@@ -1,0 +1,57 @@
+{
+ "id": "1701108_2026-06-25",
+ "kind": "slide",
+ "cik": "1701108",
+ "name": "Spero Therapeutics, Inc.",
+ "date": "2026-06-25",
+ "asof": "2026-06-25",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-06-25",
+  "adj_close": 2.02
+ },
+ "balance": {
+  "end": "2026-03-31",
+  "cash": 56129000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001193125-26-221591"
+ },
+ "burn6": {
+  "end": "2026-03-31",
+  "start": "2025-10-01",
+  "cash_used_ops": -7513000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-05-01",
+  "shares": 57901493
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2026-03-27",
+  "to": "2026-07-25",
+  "trades": [
+   {
+    "date": "2026-05-04",
+    "filed": "2026-05-06",
+    "code": "S",
+    "value": 63352,
+    "who": "Rajavelu Esther"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "spero therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

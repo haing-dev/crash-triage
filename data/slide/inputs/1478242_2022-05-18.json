@@ -1,0 +1,65 @@
+{
+ "id": "1478242_2022-05-18",
+ "kind": "slide",
+ "cik": "1478242",
+ "name": "IQVIA HOLDINGS INC.",
+ "date": "2022-05-18",
+ "asof": "2022-05-18",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-05-18",
+  "adj_close": 197.25999
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 1493000000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001478242-22-000064"
+ },
+ "burn6": {
+  "end": "2022-03-31",
+  "start": "2021-10-01",
+  "cash_used_ops": -1200000000.0,
+  "capex": 361000000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-04-15",
+  "shares": 189279035
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2022-02-17",
+  "to": "2022-06-17",
+  "trades": [
+   {
+    "date": "2021-09-23",
+    "filed": "2022-02-17",
+    "code": "P",
+    "value": 1051,
+    "who": "Bruehlman Ronald E"
+   },
+   {
+    "date": "2021-10-25",
+    "filed": "2022-02-17",
+    "code": "S",
+    "value": 1028,
+    "who": "Bruehlman Ronald E"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "iqvia",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

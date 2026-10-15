@@ -1,0 +1,58 @@
+{
+ "id": "1857044_2023-05-09",
+ "kind": "slide",
+ "cik": "1857044",
+ "name": "Indaptus Therapeutics, Inc.",
+ "date": "2023-05-09",
+ "asof": "2023-05-09",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-05-09",
+  "adj_close": 56.56
+ },
+ "balance": {
+  "end": "2022-12-31",
+  "cash": 26432809,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001493152-23-008010"
+ },
+ "burn6": {
+  "end": "2022-12-31",
+  "start": "2022-07-01",
+  "cash_used_ops": 6812457.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-03-17",
+  "shares": 8401047
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2023-02-08",
+  "to": "2023-06-08",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "indaptus therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05651022",
+    "drugs": [
+     "Decoy20",
+     "Tislelizumab"
+    ]
+   }
+  ]
+ }
+}

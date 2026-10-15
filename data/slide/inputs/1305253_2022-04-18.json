@@ -1,0 +1,81 @@
+{
+ "id": "1305253_2022-04-18",
+ "kind": "slide",
+ "cik": "1305253",
+ "name": "Eiger BioPharmaceuticals, Inc.",
+ "date": "2022-04-18",
+ "asof": "2022-04-18",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-04-18",
+  "adj_close": 196.2
+ },
+ "balance": {
+  "end": "2021-12-31",
+  "cash": 106121000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0001564590-22-009697"
+ },
+ "burn6": {
+  "end": "2021-12-31",
+  "start": "2021-07-01",
+  "cash_used_ops": 36025000.0,
+  "capex": 133000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-03-07",
+  "shares": 34639884
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 13,
+  "from": "2022-01-18",
+  "to": "2022-05-18",
+  "trades": [
+   {
+    "date": "2022-03-14",
+    "filed": "2022-03-14",
+    "code": "S",
+    "value": 12683,
+    "who": "Ryali Sriram"
+   },
+   {
+    "date": "2022-03-14",
+    "filed": "2022-03-14",
+    "code": "S",
+    "value": 9275,
+    "who": "Mayer Eldon C. III"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "eiger biopharmaceuticals",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03719313",
+    "drugs": [
+     "Lonafarnib",
+     "Ritonavir",
+     "PEG IFN-alfa-2a"
+    ]
+   },
+   {
+    "nct": "NCT05070364",
+    "drugs": [
+     "Peginterferon Lambda-1a"
+    ]
+   }
+  ]
+ }
+}

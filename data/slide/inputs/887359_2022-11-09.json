@@ -1,0 +1,67 @@
+{
+ "id": "887359_2022-11-09",
+ "kind": "slide",
+ "cik": "887359",
+ "name": "Vericel Corp",
+ "date": "2022-11-09",
+ "asof": "2022-11-09",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-11-09",
+  "adj_close": 17.65
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 132679000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0001628280-22-029082"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": -7244000.0,
+  "capex": 3390000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-11-04",
+  "shares": 47222987
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 2,
+  "from": "2022-08-11",
+  "to": "2022-12-09",
+  "trades": [
+   {
+    "date": "2022-10-14",
+    "filed": "2022-10-18",
+    "code": "S",
+    "value": 8431,
+    "who": "SIEGAL JONATHAN"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "vericel",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03588975",
+    "drugs": [
+     "MACI",
+     "microfracture"
+    ]
+   }
+  ]
+ }
+}

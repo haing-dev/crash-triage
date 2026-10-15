@@ -1,0 +1,121 @@
+{
+ "id": "1422142_2023-09-14",
+ "kind": "slide",
+ "cik": "1422142",
+ "name": "Whitehawk Therapeutics, Inc.",
+ "date": "2023-09-14",
+ "asof": "2023-09-14",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-09-14",
+  "adj_close": 5.93
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 134889000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001628280-23-028562"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 38068000.0,
+  "capex": 2058000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-08-04",
+  "shares": 24519860
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2023-06-16",
+  "to": "2023-10-14",
+  "trades": [
+   {
+    "date": "2023-10-02",
+    "filed": "2023-10-03",
+    "code": "S",
+    "value": 111698,
+    "who": "Desai Neil"
+   },
+   {
+    "date": "2023-10-03",
+    "filed": "2023-10-03",
+    "code": "S",
+    "value": 67303,
+    "who": "Desai Neil"
+   },
+   {
+    "date": "2023-09-01",
+    "filed": "2023-09-06",
+    "code": "S",
+    "value": 82873,
+    "who": "Desai Neil"
+   },
+   {
+    "date": "2023-09-05",
+    "filed": "2023-09-06",
+    "code": "S",
+    "value": 118316,
+    "who": "Desai Neil"
+   },
+   {
+    "date": "2023-09-06",
+    "filed": "2023-09-06",
+    "code": "S",
+    "value": 37637,
+    "who": "Desai Neil"
+   },
+   {
+    "date": "2023-08-01",
+    "filed": "2023-08-03",
+    "code": "S",
+    "value": 118523,
+    "who": "Desai Neil"
+   },
+   {
+    "date": "2023-08-02",
+    "filed": "2023-08-03",
+    "code": "S",
+    "value": 100250,
+    "who": "Desai Neil"
+   },
+   {
+    "date": "2023-07-03",
+    "filed": "2023-07-06",
+    "code": "S",
+    "value": 66446,
+    "who": "Desai Neil"
+   },
+   {
+    "date": "2023-07-05",
+    "filed": "2023-07-06",
+    "code": "S",
+    "value": 105873,
+    "who": "Desai Neil"
+   },
+   {
+    "date": "2023-07-06",
+    "filed": "2023-07-06",
+    "code": "S",
+    "value": 99273,
+    "who": "Desai Neil"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "whitehawk therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

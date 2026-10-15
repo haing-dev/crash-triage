@@ -1,0 +1,78 @@
+{
+ "id": "1001316_2023-06-20",
+ "kind": "slide",
+ "cik": "1001316",
+ "name": "TG THERAPEUTICS, INC.",
+ "date": "2023-06-20",
+ "asof": "2023-06-20",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-06-20",
+  "adj_close": 24.22
+ },
+ "balance": {
+  "end": "2023-03-31",
+  "cash": 139710000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001558370-23-008385"
+ },
+ "burn6": {
+  "end": "2023-03-31",
+  "start": "2022-10-01",
+  "cash_used_ops": 83772000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-05-02",
+  "shares": 149396038
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 2,
+  "from": "2023-03-22",
+  "to": "2023-07-20",
+  "trades": [
+   {
+    "date": "2023-06-23",
+    "filed": "2023-06-26",
+    "code": "S",
+    "value": 814538,
+    "who": "Lonial Sagar"
+   },
+   {
+    "date": "2023-06-02",
+    "filed": "2023-06-05",
+    "code": "S",
+    "value": 1966375,
+    "who": "Power Sean A"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "tg therapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05877963",
+    "drugs": [
+     "Ublituximab"
+    ]
+   },
+   {
+    "nct": "NCT04130997",
+    "drugs": [
+     "Ublituximab"
+    ]
+   }
+  ]
+ }
+}

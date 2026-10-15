@@ -1,0 +1,77 @@
+{
+ "id": "1564824_2021-12-02",
+ "kind": "slide",
+ "cik": "1564824",
+ "name": "Allakos Inc.",
+ "date": "2021-12-02",
+ "asof": "2021-12-02",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-12-02",
+  "adj_close": 76.39
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 505607000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-21-003465"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 96217000.0,
+  "capex": 16885000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-11-03",
+  "shares": 54313379
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 14,
+  "from": "2021-09-03",
+  "to": "2022-01-01",
+  "trades": [
+   {
+    "date": "2021-09-28",
+    "filed": "2021-09-29",
+    "code": "S",
+    "value": 432480,
+    "who": "James Steven P"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "allakos",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04620811",
+    "drugs": [
+     "lirentelimab"
+    ]
+   },
+   {
+    "nct": "NCT05152563",
+    "drugs": [
+     "AK002"
+    ]
+   },
+   {
+    "nct": "NCT04856891",
+    "drugs": [
+     "AK002"
+    ]
+   }
+  ]
+ }
+}

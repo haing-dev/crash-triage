@@ -1,0 +1,50 @@
+{
+ "id": "1690585_2022-11-21",
+ "kind": "slide",
+ "cik": "1690585",
+ "name": "Dianthus Therapeutics, Inc. /DE/",
+ "date": "2022-11-21",
+ "asof": "2022-11-21",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-11-21",
+  "adj_close": 20.96
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 128284000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-22-021603"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 30661000.0,
+  "capex": 287000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-10-31",
+  "shares": 60555520
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2022-08-23",
+  "to": "2022-12-21",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "dianthus therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

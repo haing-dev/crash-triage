@@ -1,0 +1,93 @@
+{
+ "id": "1178711_2022-08-11",
+ "kind": "slide",
+ "cik": "1178711",
+ "name": "Paratek Pharmaceuticals, Inc.",
+ "date": "2022-08-11",
+ "asof": "2022-08-11",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-08-11",
+  "adj_close": 2.56
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 69391000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001178711-22-000011"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 33609000.0,
+  "capex": 36528.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-07-31",
+  "shares": 54862502
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2022-05-13",
+  "to": "2022-09-10",
+  "trades": [
+   {
+    "date": "2022-08-09",
+    "filed": "2022-08-10",
+    "code": "S",
+    "value": 118421,
+    "who": "Loh Evan"
+   },
+   {
+    "date": "2022-08-09",
+    "filed": "2022-08-10",
+    "code": "S",
+    "value": 59725,
+    "who": "Haskel William M."
+   },
+   {
+    "date": "2022-08-09",
+    "filed": "2022-08-10",
+    "code": "S",
+    "value": 52157,
+    "who": "Brenner Randall B."
+   },
+   {
+    "date": "2022-08-09",
+    "filed": "2022-08-10",
+    "code": "S",
+    "value": 76174,
+    "who": "BIGHAM MICHAEL"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "paratek pharmaceuticals",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04922554",
+    "drugs": [
+     "Omadacycline Oral Tablet"
+    ]
+   },
+   {
+    "nct": "NCT04779242",
+    "drugs": [
+     "Omadacycline",
+     "Moxifloxacin"
+    ]
+   }
+  ]
+ }
+}

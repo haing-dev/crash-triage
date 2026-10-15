@@ -1,0 +1,58 @@
+{
+ "id": "1113148_2021-10-15",
+ "kind": "slide",
+ "cik": "1113148",
+ "name": "INFINITY PHARMACEUTICALS, INC.",
+ "date": "2021-10-15",
+ "asof": "2021-10-15",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-10-15",
+  "adj_close": 2.64
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 97258000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001113148-21-000019"
+ },
+ "burn6": {
+  "end": "2021-06-30",
+  "start": "2021-01-01",
+  "cash_used_ops": 23038000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-07-20",
+  "shares": 88719539
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2021-07-17",
+  "to": "2021-11-14",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "infinity pharmaceuticals",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03961698",
+    "drugs": [
+     "IPI-549 (eganelisib)",
+     "Atezolizumab",
+     "nab-paclitaxel"
+    ]
+   }
+  ]
+ }
+}

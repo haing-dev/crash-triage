@@ -1,0 +1,102 @@
+{
+ "id": "1628171_2022-01-07",
+ "kind": "slide",
+ "cik": "1628171",
+ "name": "Revolution Medicines, Inc.",
+ "date": "2022-01-07",
+ "asof": "2022-01-07",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-01-07",
+  "adj_close": 22.94
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 608655000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001564590-21-056191"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 70669000.0,
+  "capex": 1766000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-11-04",
+  "shares": 73687114
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2021-10-09",
+  "to": "2022-02-06",
+  "trades": [
+   {
+    "date": "2021-12-17",
+    "filed": "2021-12-21",
+    "code": "S",
+    "value": 4150,
+    "who": "Anders Jack"
+   },
+   {
+    "date": "2021-12-17",
+    "filed": "2021-12-21",
+    "code": "S",
+    "value": 6273,
+    "who": "Wang Xiaolin"
+   },
+   {
+    "date": "2021-12-17",
+    "filed": "2021-12-21",
+    "code": "S",
+    "value": 8373,
+    "who": "Kelsey Stephen Michael"
+   },
+   {
+    "date": "2021-12-17",
+    "filed": "2021-12-21",
+    "code": "S",
+    "value": 11985,
+    "who": "Horn Margaret A"
+   },
+   {
+    "date": "2021-12-17",
+    "filed": "2021-12-21",
+    "code": "S",
+    "value": 38348,
+    "who": "GOLDSMITH MARK A"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "revolution medicines",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05054725",
+    "drugs": [
+     "RMC-4630",
+     "Sotorasib"
+    ]
+   },
+   {
+    "nct": "NCT03989115",
+    "drugs": [
+     "RMC-4630",
+     "Cobimetinib",
+     "Drug: Osimertinib"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,104 @@
+{
+ "id": "1847367_2025-04-03",
+ "kind": "slide",
+ "cik": "1847367",
+ "name": "ALUMIS INC.",
+ "date": "2025-04-03",
+ "asof": "2025-04-03",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-04-03",
+  "adj_close": 8.54
+ },
+ "balance": {
+  "end": "2024-12-31",
+  "cash": 288263000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001847367-25-000012"
+ },
+ "burn6": {
+  "end": "2024-12-31",
+  "start": "2024-07-01",
+  "cash_used_ops": 158530000.0,
+  "capex": 1145000.0,
+  "periods": 2
+ },
+ "shares": null,
+ "going_concern": {
+  "flag": true,
+  "quote": "\u25cfAs a result of our history of losses and negative cash flows from operations, our consolidated financial statements contain a statement regarding a substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 10,
+  "from": "2025-01-03",
+  "to": "2025-05-03",
+  "trades": [
+   {
+    "date": "2025-04-01",
+    "filed": "2025-04-03",
+    "code": "P",
+    "value": 112309,
+    "who": "Colowick Alan"
+   },
+   {
+    "date": "2025-04-02",
+    "filed": "2025-04-03",
+    "code": "P",
+    "value": 17235,
+    "who": "Colowick Alan"
+   },
+   {
+    "date": "2025-04-01",
+    "filed": "2025-04-03",
+    "code": "P",
+    "value": 100733,
+    "who": "Babler Martin"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "alumis",
+  "other_trials": 5,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06588738",
+    "drugs": [
+     "Envudeucitinib",
+     "Apremilast"
+    ]
+   },
+   {
+    "nct": "NCT05739435",
+    "drugs": [
+     "envudeucitinib"
+    ]
+   },
+   {
+    "nct": "NCT06846541",
+    "drugs": [
+     "Open-Label Envudeucitinib",
+     "Blinded Envudeucitinib"
+    ]
+   },
+   {
+    "nct": "NCT06586112",
+    "drugs": [
+     "Envudeucitinib",
+     "Apremilast"
+    ]
+   },
+   {
+    "nct": "NCT05966480",
+    "drugs": [
+     "Envudeucitinib"
+    ]
+   }
+  ]
+ }
+}

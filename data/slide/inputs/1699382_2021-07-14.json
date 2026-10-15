@@ -1,0 +1,732 @@
+{
+ "id": "1699382_2021-07-14",
+ "kind": "slide",
+ "cik": "1699382",
+ "name": "PMV Pharmaceuticals, Inc.",
+ "date": "2021-07-14",
+ "asof": "2021-07-14",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-07-14",
+  "adj_close": 31.45
+ },
+ "balance": {
+  "end": "2021-03-31",
+  "cash": 348380000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent",
+   "MarketableSecuritiesNoncurrent"
+  ],
+  "accn": "0001564590-21-027813"
+ },
+ "burn6": {
+  "end": "2021-03-31",
+  "start": "2020-10-01",
+  "cash_used_ops": 23216000.0,
+  "capex": 177000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-05-12",
+  "shares": 45033422
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 41,
+  "from": "2021-04-15",
+  "to": "2021-08-13",
+  "trades": [
+   {
+    "date": "2021-08-10",
+    "filed": "2021-08-12",
+    "code": "S",
+    "value": 622378,
+    "who": "Schroeder Thilo"
+   },
+   {
+    "date": "2021-08-10",
+    "filed": "2021-08-12",
+    "code": "S",
+    "value": 92404,
+    "who": "Schroeder Thilo"
+   },
+   {
+    "date": "2021-08-11",
+    "filed": "2021-08-12",
+    "code": "S",
+    "value": 1172304,
+    "who": "Schroeder Thilo"
+   },
+   {
+    "date": "2021-08-12",
+    "filed": "2021-08-12",
+    "code": "S",
+    "value": 397258,
+    "who": "Schroeder Thilo"
+   },
+   {
+    "date": "2021-08-12",
+    "filed": "2021-08-12",
+    "code": "S",
+    "value": 68650,
+    "who": "Schroeder Thilo"
+   },
+   {
+    "date": "2021-08-09",
+    "filed": "2021-08-10",
+    "code": "S",
+    "value": 77070,
+    "who": "Alland Leila"
+   },
+   {
+    "date": "2021-08-09",
+    "filed": "2021-08-10",
+    "code": "S",
+    "value": 66914,
+    "who": "Alland Leila"
+   },
+   {
+    "date": "2021-08-09",
+    "filed": "2021-08-10",
+    "code": "S",
+    "value": 8219,
+    "who": "Alland Leila"
+   },
+   {
+    "date": "2021-08-05",
+    "filed": "2021-08-09",
+    "code": "S",
+    "value": 977567,
+    "who": "Schroeder Thilo"
+   },
+   {
+    "date": "2021-08-05",
+    "filed": "2021-08-09",
+    "code": "S",
+    "value": 320758,
+    "who": "Schroeder Thilo"
+   },
+   {
+    "date": "2021-08-06",
+    "filed": "2021-08-09",
+    "code": "S",
+    "value": 721217,
+    "who": "Schroeder Thilo"
+   },
+   {
+    "date": "2021-08-06",
+    "filed": "2021-08-09",
+    "code": "S",
+    "value": 7388,
+    "who": "Schroeder Thilo"
+   },
+   {
+    "date": "2021-08-09",
+    "filed": "2021-08-09",
+    "code": "S",
+    "value": 465921,
+    "who": "Schroeder Thilo"
+   },
+   {
+    "date": "2021-08-09",
+    "filed": "2021-08-09",
+    "code": "S",
+    "value": 311118,
+    "who": "Schroeder Thilo"
+   },
+   {
+    "date": "2021-08-09",
+    "filed": "2021-08-09",
+    "code": "S",
+    "value": 10992,
+    "who": "Schroeder Thilo"
+   },
+   {
+    "date": "2021-08-02",
+    "filed": "2021-08-04",
+    "code": "S",
+    "value": 452697,
+    "who": "Schroeder Thilo"
+   },
+   {
+    "date": "2021-08-03",
+    "filed": "2021-08-04",
+    "code": "S",
+    "value": 1018901,
+    "who": "Schroeder Thilo"
+   },
+   {
+    "date": "2021-08-03",
+    "filed": "2021-08-04",
+    "code": "S",
+    "value": 3474,
+    "who": "Schroeder Thilo"
+   },
+   {
+    "date": "2021-08-04",
+    "filed": "2021-08-04",
+    "code": "S",
+    "value": 60210,
+    "who": "Schroeder Thilo"
+   },
+   {
+    "date": "2021-08-04",
+    "filed": "2021-08-04",
+    "code": "S",
+    "value": 602842,
+    "who": "Schroeder Thilo"
+   },
+   {
+    "date": "2021-08-04",
+    "filed": "2021-08-04",
+    "code": "S",
+    "value": 1038645,
+    "who": "Schroeder Thilo"
+   },
+   {
+    "date": "2021-08-04",
+    "filed": "2021-08-04",
+    "code": "S",
+    "value": 193163,
+    "who": "Schroeder Thilo"
+   },
+   {
+    "date": "2021-08-03",
+    "filed": "2021-08-04",
+    "code": "S",
+    "value": 152178,
+    "who": "Kung Winston"
+   },
+   {
+    "date": "2021-07-28",
+    "filed": "2021-07-30",
+    "code": "S",
+    "value": 311970,
+    "who": "Schroeder Thilo"
+   },
+   {
+    "date": "2021-07-29",
+    "filed": "2021-07-30",
+    "code": "S",
+    "value": 82179,
+    "who": "Schroeder Thilo"
+   },
+   {
+    "date": "2021-07-23",
+    "filed": "2021-07-27",
+    "code": "S",
+    "value": 431568,
+    "who": "Schroeder Thilo"
+   },
+   {
+    "date": "2021-07-26",
+    "filed": "2021-07-27",
+    "code": "S",
+    "value": 172897,
+    "who": "Schroeder Thilo"
+   },
+   {
+    "date": "2021-07-27",
+    "filed": "2021-07-27",
+    "code": "S",
+    "value": 19051,
+    "who": "Schroeder Thilo"
+   },
+   {
+    "date": "2021-07-21",
+    "filed": "2021-07-23",
+    "code": "S",
+    "value": 668831,
+    "who": "Schroeder Thilo"
+   },
+   {
+    "date": "2021-07-22",
+    "filed": "2021-07-23",
+    "code": "S",
+    "value": 7122,
+    "who": "Schroeder Thilo"
+   },
+   {
+    "date": "2021-07-20",
+    "filed": "2021-07-22",
+    "code": "S",
+    "value": 122929,
+    "who": "LEVINE ARNOLD J"
+   },
+   {
+    "date": "2021-07-20",
+    "filed": "2021-07-22",
+    "code": "S",
+    "value": 36560,
+    "who": "Mack David Henry"
+   },
+   {
+    "date": "2021-07-21",
+    "filed": "2021-07-22",
+    "code": "S",
+    "value": 957092,
+    "who": "Mack David Henry"
+   },
+   {
+    "date": "2021-07-08",
+    "filed": "2021-07-08",
+    "code": "S",
+    "value": 151875,
+    "who": "Kung Winston"
+   },
+   {
+    "date": "2021-07-07",
+    "filed": "2021-07-08",
+    "code": "S",
+    "value": 62300,
+    "who": "Alland Leila"
+   },
+   {
+    "date": "2021-07-07",
+    "filed": "2021-07-08",
+    "code": "S",
+    "value": 66914,
+    "who": "Alland Leila"
+   },
+   {
+    "date": "2021-06-28",
+    "filed": "2021-06-29",
+    "code": "S",
+    "value": 7248,
+    "who": "Mack David Henry"
+   },
+   {
+    "date": "2021-06-21",
+    "filed": "2021-06-22",
+    "code": "S",
+    "value": 112579,
+    "who": "LEVINE ARNOLD J"
+   },
+   {
+    "date": "2021-06-21",
+    "filed": "2021-06-22",
+    "code": "S",
+    "value": 3783,
+    "who": "LEVINE ARNOLD J"
+   },
+   {
+    "date": "2021-06-11",
+    "filed": "2021-06-15",
+    "code": "S",
+    "value": 78551,
+    "who": "Euclidean Capital LLC"
+   },
+   {
+    "date": "2021-06-11",
+    "filed": "2021-06-15",
+    "code": "S",
+    "value": 110256,
+    "who": "Euclidean Capital LLC"
+   },
+   {
+    "date": "2021-06-11",
+    "filed": "2021-06-15",
+    "code": "S",
+    "value": 119415,
+    "who": "Euclidean Capital LLC"
+   },
+   {
+    "date": "2021-06-11",
+    "filed": "2021-06-15",
+    "code": "S",
+    "value": 413611,
+    "who": "Euclidean Capital LLC"
+   },
+   {
+    "date": "2021-06-11",
+    "filed": "2021-06-15",
+    "code": "S",
+    "value": 20990,
+    "who": "Euclidean Capital LLC"
+   },
+   {
+    "date": "2021-06-14",
+    "filed": "2021-06-15",
+    "code": "S",
+    "value": 160283,
+    "who": "Euclidean Capital LLC"
+   },
+   {
+    "date": "2021-06-14",
+    "filed": "2021-06-15",
+    "code": "S",
+    "value": 224887,
+    "who": "Euclidean Capital LLC"
+   },
+   {
+    "date": "2021-06-14",
+    "filed": "2021-06-15",
+    "code": "S",
+    "value": 243580,
+    "who": "Euclidean Capital LLC"
+   },
+   {
+    "date": "2021-06-14",
+    "filed": "2021-06-15",
+    "code": "S",
+    "value": 843404,
+    "who": "Euclidean Capital LLC"
+   },
+   {
+    "date": "2021-06-14",
+    "filed": "2021-06-15",
+    "code": "S",
+    "value": 42979,
+    "who": "Euclidean Capital LLC"
+   },
+   {
+    "date": "2021-06-09",
+    "filed": "2021-06-11",
+    "code": "S",
+    "value": 141019,
+    "who": "Euclidean Capital LLC"
+   },
+   {
+    "date": "2021-06-09",
+    "filed": "2021-06-11",
+    "code": "S",
+    "value": 197904,
+    "who": "Euclidean Capital LLC"
+   },
+   {
+    "date": "2021-06-09",
+    "filed": "2021-06-11",
+    "code": "S",
+    "value": 214354,
+    "who": "Euclidean Capital LLC"
+   },
+   {
+    "date": "2021-06-09",
+    "filed": "2021-06-11",
+    "code": "S",
+    "value": 742435,
+    "who": "Euclidean Capital LLC"
+   },
+   {
+    "date": "2021-06-09",
+    "filed": "2021-06-11",
+    "code": "S",
+    "value": 37710,
+    "who": "Euclidean Capital LLC"
+   },
+   {
+    "date": "2021-06-10",
+    "filed": "2021-06-11",
+    "code": "S",
+    "value": 71340,
+    "who": "Euclidean Capital LLC"
+   },
+   {
+    "date": "2021-06-10",
+    "filed": "2021-06-11",
+    "code": "S",
+    "value": 100099,
+    "who": "Euclidean Capital LLC"
+   },
+   {
+    "date": "2021-06-10",
+    "filed": "2021-06-11",
+    "code": "S",
+    "value": 108400,
+    "who": "Euclidean Capital LLC"
+   },
+   {
+    "date": "2021-06-10",
+    "filed": "2021-06-11",
+    "code": "S",
+    "value": 375330,
+    "who": "Euclidean Capital LLC"
+   },
+   {
+    "date": "2021-06-10",
+    "filed": "2021-06-11",
+    "code": "S",
+    "value": 19118,
+    "who": "Euclidean Capital LLC"
+   },
+   {
+    "date": "2021-06-07",
+    "filed": "2021-06-09",
+    "code": "S",
+    "value": 110643,
+    "who": "Euclidean Capital LLC"
+   },
+   {
+    "date": "2021-06-07",
+    "filed": "2021-06-09",
+    "code": "S",
+    "value": 153442,
+    "who": "Euclidean Capital LLC"
+   },
+   {
+    "date": "2021-06-07",
+    "filed": "2021-06-09",
+    "code": "S",
+    "value": 166285,
+    "who": "Euclidean Capital LLC"
+   },
+   {
+    "date": "2021-06-07",
+    "filed": "2021-06-09",
+    "code": "S",
+    "value": 568212,
+    "who": "Euclidean Capital LLC"
+   },
+   {
+    "date": "2021-06-07",
+    "filed": "2021-06-09",
+    "code": "S",
+    "value": 34259,
+    "who": "Euclidean Capital LLC"
+   },
+   {
+    "date": "2021-06-08",
+    "filed": "2021-06-09",
+    "code": "S",
+    "value": 111990,
+    "who": "Euclidean Capital LLC"
+   },
+   {
+    "date": "2021-06-08",
+    "filed": "2021-06-09",
+    "code": "S",
+    "value": 157153,
+    "who": "Euclidean Capital LLC"
+   },
+   {
+    "date": "2021-06-08",
+    "filed": "2021-06-09",
+    "code": "S",
+    "value": 170271,
+    "who": "Euclidean Capital LLC"
+   },
+   {
+    "date": "2021-06-08",
+    "filed": "2021-06-09",
+    "code": "S",
+    "value": 589624,
+    "who": "Euclidean Capital LLC"
+   },
+   {
+    "date": "2021-06-08",
+    "filed": "2021-06-09",
+    "code": "S",
+    "value": 29908,
+    "who": "Euclidean Capital LLC"
+   },
+   {
+    "date": "2021-06-07",
+    "filed": "2021-06-08",
+    "code": "S",
+    "value": 87903,
+    "who": "Alland Leila"
+   },
+   {
+    "date": "2021-06-07",
+    "filed": "2021-06-08",
+    "code": "S",
+    "value": 46484,
+    "who": "Alland Leila"
+   },
+   {
+    "date": "2021-06-04",
+    "filed": "2021-06-07",
+    "code": "S",
+    "value": 151875,
+    "who": "Kung Winston"
+   },
+   {
+    "date": "2021-05-28",
+    "filed": "2021-06-02",
+    "code": "S",
+    "value": 182580,
+    "who": "Schroeder Thilo"
+   },
+   {
+    "date": "2021-06-01",
+    "filed": "2021-06-02",
+    "code": "S",
+    "value": 44754,
+    "who": "Heyman Richard A."
+   },
+   {
+    "date": "2021-06-01",
+    "filed": "2021-06-02",
+    "code": "S",
+    "value": 18587,
+    "who": "Heyman Richard A."
+   },
+   {
+    "date": "2021-06-01",
+    "filed": "2021-06-02",
+    "code": "S",
+    "value": 173,
+    "who": "Heyman Richard A."
+   },
+   {
+    "date": "2021-06-01",
+    "filed": "2021-06-02",
+    "code": "S",
+    "value": 23896,
+    "who": "Heyman Richard A."
+   },
+   {
+    "date": "2021-06-01",
+    "filed": "2021-06-02",
+    "code": "S",
+    "value": 7762,
+    "who": "Heyman Richard A."
+   },
+   {
+    "date": "2021-06-01",
+    "filed": "2021-06-02",
+    "code": "S",
+    "value": 69,
+    "who": "Heyman Richard A."
+   },
+   {
+    "date": "2021-06-01",
+    "filed": "2021-06-02",
+    "code": "S",
+    "value": 24563,
+    "who": "Heyman Richard A."
+   },
+   {
+    "date": "2021-06-01",
+    "filed": "2021-06-02",
+    "code": "S",
+    "value": 7062,
+    "who": "Heyman Richard A."
+   },
+   {
+    "date": "2021-06-01",
+    "filed": "2021-06-02",
+    "code": "S",
+    "value": 69,
+    "who": "Heyman Richard A."
+   },
+   {
+    "date": "2021-05-25",
+    "filed": "2021-05-27",
+    "code": "S",
+    "value": 305881,
+    "who": "Schroeder Thilo"
+   },
+   {
+    "date": "2021-05-26",
+    "filed": "2021-05-27",
+    "code": "S",
+    "value": 266986,
+    "who": "Schroeder Thilo"
+   },
+   {
+    "date": "2021-05-20",
+    "filed": "2021-05-24",
+    "code": "S",
+    "value": 103777,
+    "who": "Schroeder Thilo"
+   },
+   {
+    "date": "2021-05-21",
+    "filed": "2021-05-24",
+    "code": "S",
+    "value": 708700,
+    "who": "Schroeder Thilo"
+   },
+   {
+    "date": "2021-05-24",
+    "filed": "2021-05-24",
+    "code": "S",
+    "value": 796083,
+    "who": "Schroeder Thilo"
+   },
+   {
+    "date": "2021-05-20",
+    "filed": "2021-05-24",
+    "code": "S",
+    "value": 277455,
+    "who": "Mack David Henry"
+   },
+   {
+    "date": "2021-05-21",
+    "filed": "2021-05-24",
+    "code": "S",
+    "value": 221641,
+    "who": "Mack David Henry"
+   },
+   {
+    "date": "2021-05-20",
+    "filed": "2021-05-21",
+    "code": "S",
+    "value": 18092,
+    "who": "LEVINE ARNOLD J"
+   },
+   {
+    "date": "2021-05-20",
+    "filed": "2021-05-21",
+    "code": "S",
+    "value": 102676,
+    "who": "LEVINE ARNOLD J"
+   },
+   {
+    "date": "2021-05-10",
+    "filed": "2021-05-12",
+    "code": "S",
+    "value": 63742,
+    "who": "Schroeder Thilo"
+   },
+   {
+    "date": "2021-05-07",
+    "filed": "2021-05-10",
+    "code": "S",
+    "value": 133702,
+    "who": "Alland Leila"
+   },
+   {
+    "date": "2021-05-07",
+    "filed": "2021-05-10",
+    "code": "S",
+    "value": 5607,
+    "who": "Alland Leila"
+   },
+   {
+    "date": "2021-05-05",
+    "filed": "2021-05-07",
+    "code": "S",
+    "value": 21384,
+    "who": "Schroeder Thilo"
+   },
+   {
+    "date": "2021-05-03",
+    "filed": "2021-05-04",
+    "code": "S",
+    "value": 151875,
+    "who": "Kung Winston"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "pmv pharmaceuticals",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04585750",
+    "drugs": [
+     "rezatapopt",
+     "pembrolizumab"
+    ]
+   }
+  ]
+ }
+}

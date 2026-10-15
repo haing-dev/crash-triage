@@ -1,0 +1,177 @@
+{
+ "id": "1819790_2022-01-14",
+ "kind": "slide",
+ "cik": "1819790",
+ "name": "Tarsus Pharmaceuticals, Inc.",
+ "date": "2022-01-14",
+ "asof": "2022-01-14",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-01-14",
+  "adj_close": 20.75
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 183801000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001819790-21-000053"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": -27663000.0,
+  "capex": 137000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-11-04",
+  "shares": 20676992
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 10,
+  "from": "2021-10-16",
+  "to": "2022-02-13",
+  "trades": [
+   {
+    "date": "2021-12-01",
+    "filed": "2021-12-03",
+    "code": "S",
+    "value": 58242,
+    "who": "Ackermann Michael"
+   },
+   {
+    "date": "2021-12-01",
+    "filed": "2021-12-03",
+    "code": "S",
+    "value": 50693,
+    "who": "Ackermann Michael"
+   },
+   {
+    "date": "2021-12-01",
+    "filed": "2021-12-03",
+    "code": "S",
+    "value": 20929,
+    "who": "Ackermann Michael"
+   },
+   {
+    "date": "2021-12-01",
+    "filed": "2021-12-03",
+    "code": "S",
+    "value": 14071,
+    "who": "Ackermann Michael"
+   },
+   {
+    "date": "2021-12-01",
+    "filed": "2021-12-03",
+    "code": "S",
+    "value": 57121,
+    "who": "Azamian Bobak R."
+   },
+   {
+    "date": "2021-12-01",
+    "filed": "2021-12-03",
+    "code": "S",
+    "value": 51895,
+    "who": "Azamian Bobak R."
+   },
+   {
+    "date": "2021-12-01",
+    "filed": "2021-12-03",
+    "code": "S",
+    "value": 19684,
+    "who": "Azamian Bobak R."
+   },
+   {
+    "date": "2021-12-01",
+    "filed": "2021-12-03",
+    "code": "S",
+    "value": 15467,
+    "who": "Azamian Bobak R."
+   },
+   {
+    "date": "2021-11-08",
+    "filed": "2021-11-10",
+    "code": "S",
+    "value": 53100,
+    "who": "Mottiwala Aziz"
+   },
+   {
+    "date": "2021-11-04",
+    "filed": "2021-11-08",
+    "code": "S",
+    "value": 2803,
+    "who": "Mottiwala Aziz"
+   },
+   {
+    "date": "2021-11-05",
+    "filed": "2021-11-08",
+    "code": "S",
+    "value": 309,
+    "who": "Mottiwala Aziz"
+   },
+   {
+    "date": "2021-11-02",
+    "filed": "2021-11-04",
+    "code": "S",
+    "value": 146018,
+    "who": "Mottiwala Aziz"
+   },
+   {
+    "date": "2021-11-02",
+    "filed": "2021-11-04",
+    "code": "S",
+    "value": 14672,
+    "who": "Mottiwala Aziz"
+   },
+   {
+    "date": "2021-11-01",
+    "filed": "2021-11-03",
+    "code": "S",
+    "value": 137801,
+    "who": "Ackermann Michael"
+   },
+   {
+    "date": "2021-11-01",
+    "filed": "2021-11-03",
+    "code": "S",
+    "value": 24488,
+    "who": "Ackermann Michael"
+   },
+   {
+    "date": "2021-11-01",
+    "filed": "2021-11-03",
+    "code": "S",
+    "value": 139716,
+    "who": "Azamian Bobak R."
+   },
+   {
+    "date": "2021-11-01",
+    "filed": "2021-11-03",
+    "code": "S",
+    "value": 22568,
+    "who": "Azamian Bobak R."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "tarsus pharmaceuticals",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04784091",
+    "drugs": [
+     "TP-03",
+     "TP-03 Vehicle"
+    ]
+   }
+  ]
+ }
+}

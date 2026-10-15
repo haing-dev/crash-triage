@@ -1,0 +1,171 @@
+{
+ "id": "1907108_2026-01-13",
+ "kind": "slide",
+ "cik": "1907108",
+ "name": "Lexeo Therapeutics, Inc.",
+ "date": "2026-01-13",
+ "asof": "2026-01-13",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-01-13",
+  "adj_close": 7.43
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 122764000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001193125-25-265757"
+ },
+ "burn6": {
+  "end": "2025-09-30",
+  "start": "2025-04-01",
+  "cash_used_ops": 56766000.0,
+  "capex": 266573.82352941175,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-11-03",
+  "shares": 72987327
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 13,
+  "from": "2025-10-15",
+  "to": "2026-02-12",
+  "trades": [
+   {
+    "date": "2025-11-18",
+    "filed": "2025-11-20",
+    "code": "S",
+    "value": 10447,
+    "who": "Townsend Richard Nolan"
+   },
+   {
+    "date": "2025-11-18",
+    "filed": "2025-11-20",
+    "code": "S",
+    "value": 5701,
+    "who": "Adler Eric"
+   },
+   {
+    "date": "2025-11-18",
+    "filed": "2025-11-20",
+    "code": "S",
+    "value": 3578,
+    "who": "See Tai Sandi"
+   },
+   {
+    "date": "2025-11-18",
+    "filed": "2025-11-20",
+    "code": "S",
+    "value": 5089,
+    "who": "Robertson Jenny"
+   },
+   {
+    "date": "2025-08-18",
+    "filed": "2025-11-20",
+    "code": "S",
+    "value": 6684,
+    "who": "Otero Jose Manuel"
+   },
+   {
+    "date": "2025-10-17",
+    "filed": "2025-10-17",
+    "code": "S",
+    "value": 34346,
+    "who": "See Tai Sandi"
+   },
+   {
+    "date": "2025-10-17",
+    "filed": "2025-10-17",
+    "code": "S",
+    "value": 421,
+    "who": "See Tai Sandi"
+   },
+   {
+    "date": "2025-10-17",
+    "filed": "2025-10-17",
+    "code": "S",
+    "value": 31147,
+    "who": "Robertson Jenny"
+   },
+   {
+    "date": "2025-10-17",
+    "filed": "2025-10-17",
+    "code": "S",
+    "value": 382,
+    "who": "Robertson Jenny"
+   },
+   {
+    "date": "2025-10-17",
+    "filed": "2025-10-17",
+    "code": "S",
+    "value": 18683,
+    "who": "Otero Jose Manuel"
+   },
+   {
+    "date": "2025-10-17",
+    "filed": "2025-10-17",
+    "code": "S",
+    "value": 229,
+    "who": "Otero Jose Manuel"
+   },
+   {
+    "date": "2025-10-17",
+    "filed": "2025-10-17",
+    "code": "S",
+    "value": 29879,
+    "who": "Adler Eric"
+   },
+   {
+    "date": "2025-10-17",
+    "filed": "2025-10-17",
+    "code": "S",
+    "value": 363,
+    "who": "Adler Eric"
+   },
+   {
+    "date": "2025-10-17",
+    "filed": "2025-10-17",
+    "code": "S",
+    "value": 116021,
+    "who": "Townsend Richard Nolan"
+   },
+   {
+    "date": "2025-10-17",
+    "filed": "2025-10-17",
+    "code": "S",
+    "value": 1415,
+    "who": "Townsend Richard Nolan"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "lexeo therapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06109181",
+    "drugs": [
+     "LX2020"
+    ]
+   },
+   {
+    "nct": "NCT05445323",
+    "drugs": [
+     "Low dose LX2006",
+     "Mid Dose LX2006",
+     "High Dose LX2006"
+    ]
+   }
+  ]
+ }
+}

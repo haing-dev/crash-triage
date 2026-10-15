@@ -1,0 +1,200 @@
+{
+ "id": "1401667_2022-08-31",
+ "kind": "slide",
+ "cik": "1401667",
+ "name": "PUMA BIOTECHNOLOGY, INC.",
+ "date": "2022-08-31",
+ "asof": "2022-08-31",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-08-31",
+  "adj_close": 2.68
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 60754000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001437749-22-018920"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 40769000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-08-01",
+  "shares": 45555963
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 27,
+  "from": "2022-06-02",
+  "to": "2022-09-30",
+  "trades": [
+   {
+    "date": "2022-09-02",
+    "filed": "2022-09-07",
+    "code": "S",
+    "value": 425,
+    "who": "NOUGUES MAXIMO F"
+   },
+   {
+    "date": "2022-09-02",
+    "filed": "2022-09-07",
+    "code": "S",
+    "value": 1121,
+    "who": "HUNT DOUGLAS M"
+   },
+   {
+    "date": "2022-09-02",
+    "filed": "2022-09-07",
+    "code": "S",
+    "value": 3247,
+    "who": "AUERBACH ALAN H"
+   },
+   {
+    "date": "2022-08-09",
+    "filed": "2022-08-10",
+    "code": "S",
+    "value": 88792,
+    "who": "MILLER MICHAEL PATRICK"
+   },
+   {
+    "date": "2022-08-02",
+    "filed": "2022-08-04",
+    "code": "S",
+    "value": 465,
+    "who": "NOUGUES MAXIMO F"
+   },
+   {
+    "date": "2022-08-02",
+    "filed": "2022-08-04",
+    "code": "S",
+    "value": 1240,
+    "who": "HUNT DOUGLAS M"
+   },
+   {
+    "date": "2022-08-02",
+    "filed": "2022-08-04",
+    "code": "S",
+    "value": 3604,
+    "who": "AUERBACH ALAN H"
+   },
+   {
+    "date": "2022-07-05",
+    "filed": "2022-07-07",
+    "code": "S",
+    "value": 9876,
+    "who": "HUNT DOUGLAS M"
+   },
+   {
+    "date": "2022-07-05",
+    "filed": "2022-07-07",
+    "code": "S",
+    "value": 68787,
+    "who": "AUERBACH ALAN H"
+   },
+   {
+    "date": "2022-07-05",
+    "filed": "2022-07-07",
+    "code": "S",
+    "value": 15355,
+    "who": "NOUGUES MAXIMO F"
+   },
+   {
+    "date": "2022-07-05",
+    "filed": "2022-07-07",
+    "code": "S",
+    "value": 15355,
+    "who": "Ludwig Jeffrey Jerome"
+   },
+   {
+    "date": "2022-07-05",
+    "filed": "2022-07-07",
+    "code": "S",
+    "value": 7684,
+    "who": "Wong Alvin F"
+   },
+   {
+    "date": "2022-06-16",
+    "filed": "2022-06-21",
+    "code": "S",
+    "value": 73303,
+    "who": "Senderowicz Adrian"
+   },
+   {
+    "date": "2022-06-16",
+    "filed": "2022-06-21",
+    "code": "S",
+    "value": 71971,
+    "who": "WILSON TROY EDWARD"
+   },
+   {
+    "date": "2022-06-16",
+    "filed": "2022-06-21",
+    "code": "S",
+    "value": 34918,
+    "who": "Stuglik Brian M"
+   },
+   {
+    "date": "2022-06-16",
+    "filed": "2022-06-21",
+    "code": "S",
+    "value": 60370,
+    "who": "MOYES JAY M"
+   },
+   {
+    "date": "2022-06-02",
+    "filed": "2022-06-06",
+    "code": "S",
+    "value": 1129,
+    "who": "Wong Alvin F"
+   },
+   {
+    "date": "2022-06-02",
+    "filed": "2022-06-06",
+    "code": "S",
+    "value": 311,
+    "who": "NOUGUES MAXIMO F"
+   },
+   {
+    "date": "2022-06-02",
+    "filed": "2022-06-06",
+    "code": "S",
+    "value": 811,
+    "who": "HUNT DOUGLAS M"
+   },
+   {
+    "date": "2022-06-02",
+    "filed": "2022-06-06",
+    "code": "S",
+    "value": 2333,
+    "who": "AUERBACH ALAN H"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "puma biotechnology",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT01953926",
+    "drugs": [
+     "Neratinib",
+     "Fulvestrant",
+     "Trastuzumab"
+    ]
+   }
+  ]
+ }
+}

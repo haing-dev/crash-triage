@@ -1,0 +1,68 @@
+{
+ "id": "1821825_2022-09-21",
+ "kind": "slide",
+ "cik": "1821825",
+ "name": "Organon & Co.",
+ "date": "2022-09-21",
+ "asof": "2022-09-21",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-09-21",
+  "adj_close": 26.8
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 545000000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001821825-22-000009"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": -274000000.0,
+  "capex": 78000000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-08-01",
+  "shares": 254329853
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 2,
+  "from": "2022-06-23",
+  "to": "2022-10-21",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "organon",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT00095017",
+    "drugs": [
+     "MK0663, etoricoxib / Duration of Treatment: 4 weeks"
+    ]
+   },
+   {
+    "nct": "NCT05142774",
+    "drugs": [
+     "Tapinarof cream, 1%"
+    ]
+   },
+   {
+    "nct": "NCT04626596",
+    "drugs": [
+     "Radiopaque Etonogestrel (ENG) Implant"
+    ]
+   }
+  ]
+ }
+}

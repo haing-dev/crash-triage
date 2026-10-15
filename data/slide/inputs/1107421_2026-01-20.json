@@ -1,0 +1,50 @@
+{
+ "id": "1107421_2026-01-20",
+ "kind": "slide",
+ "cik": "1107421",
+ "name": "Alaunos Therapeutics, Inc.",
+ "date": "2026-01-20",
+ "asof": "2026-01-20",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-01-20",
+  "adj_close": 2.91
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 1938000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001193125-25-282988"
+ },
+ "burn6": {
+  "end": "2025-09-30",
+  "start": "2025-04-01",
+  "cash_used_ops": 1545000.0,
+  "capex": 65132.64705882353,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-11-14",
+  "shares": 2231829
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Based on the current cash forecast and the Company's dependence on its ability to obtain additional financing to fund its operations after the current resources are exhausted, about which there can be no certainty, management has determined that the Company's present capital resources will not be su"
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2025-10-22",
+  "to": "2026-02-19",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "alaunos therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

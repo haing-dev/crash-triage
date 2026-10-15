@@ -1,0 +1,65 @@
+{
+ "id": "1655759_2024-11-14",
+ "kind": "slide",
+ "cik": "1655759",
+ "name": "ARVINAS, INC.",
+ "date": "2024-11-14",
+ "asof": "2024-11-14",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-11-14",
+  "adj_close": 24.92
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 1121600000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001655759-24-000131"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": 77700000.0,
+  "capex": 1400000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-10-25",
+  "shares": 68713098
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2024-08-16",
+  "to": "2024-12-14",
+  "trades": [
+   {
+    "date": "2023-11-08",
+    "filed": "2024-11-12",
+    "code": "S",
+    "value": 3904,
+    "who": "Loomis David K"
+   },
+   {
+    "date": "2024-11-07",
+    "filed": "2024-11-12",
+    "code": "S",
+    "value": 6396,
+    "who": "Loomis David K"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "arvinas",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

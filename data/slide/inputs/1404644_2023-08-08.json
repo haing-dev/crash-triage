@@ -1,0 +1,155 @@
+{
+ "id": "1404644_2023-08-08",
+ "kind": "slide",
+ "cik": "1404644",
+ "name": "Neurogene Inc.",
+ "date": "2023-08-08",
+ "asof": "2023-08-08",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-08-08",
+  "adj_close": 12.82
+ },
+ "balance": {
+  "end": "2023-03-31",
+  "cash": 83436000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001628280-23-016425"
+ },
+ "burn6": {
+  "end": "2023-03-31",
+  "start": "2022-10-01",
+  "cash_used_ops": 23966000.0,
+  "capex": 523000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-05-04",
+  "shares": 42828346
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2023-05-10",
+  "to": "2023-09-07",
+  "trades": [
+   {
+    "date": "2023-08-15",
+    "filed": "2023-08-17",
+    "code": "P",
+    "value": 90532,
+    "who": "BAKER BROS. ADVISORS LP"
+   },
+   {
+    "date": "2023-08-15",
+    "filed": "2023-08-17",
+    "code": "P",
+    "value": 1097958,
+    "who": "BAKER BROS. ADVISORS LP"
+   },
+   {
+    "date": "2023-08-15",
+    "filed": "2023-08-17",
+    "code": "P",
+    "value": 238,
+    "who": "BAKER BROS. ADVISORS LP"
+   },
+   {
+    "date": "2023-08-15",
+    "filed": "2023-08-17",
+    "code": "P",
+    "value": 2887,
+    "who": "BAKER BROS. ADVISORS LP"
+   },
+   {
+    "date": "2023-08-16",
+    "filed": "2023-08-17",
+    "code": "P",
+    "value": 11653,
+    "who": "BAKER BROS. ADVISORS LP"
+   },
+   {
+    "date": "2023-08-16",
+    "filed": "2023-08-17",
+    "code": "P",
+    "value": 141324,
+    "who": "BAKER BROS. ADVISORS LP"
+   },
+   {
+    "date": "2023-08-16",
+    "filed": "2023-08-17",
+    "code": "P",
+    "value": 250,
+    "who": "BAKER BROS. ADVISORS LP"
+   },
+   {
+    "date": "2023-08-16",
+    "filed": "2023-08-17",
+    "code": "P",
+    "value": 3028,
+    "who": "BAKER BROS. ADVISORS LP"
+   },
+   {
+    "date": "2023-08-17",
+    "filed": "2023-08-17",
+    "code": "P",
+    "value": 5315,
+    "who": "BAKER BROS. ADVISORS LP"
+   },
+   {
+    "date": "2023-08-17",
+    "filed": "2023-08-17",
+    "code": "P",
+    "value": 64456,
+    "who": "BAKER BROS. ADVISORS LP"
+   },
+   {
+    "date": "2023-08-17",
+    "filed": "2023-08-17",
+    "code": "P",
+    "value": 3492,
+    "who": "BAKER BROS. ADVISORS LP"
+   },
+   {
+    "date": "2023-08-17",
+    "filed": "2023-08-17",
+    "code": "P",
+    "value": 42354,
+    "who": "BAKER BROS. ADVISORS LP"
+   },
+   {
+    "date": "2023-08-11",
+    "filed": "2023-08-14",
+    "code": "S",
+    "value": 818,
+    "who": "Smith Sean Michael"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "neurogene",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05228145",
+    "drugs": [
+     "NGN-101"
+    ]
+   },
+   {
+    "nct": "NCT05898620",
+    "drugs": [
+     "NGN-401"
+    ]
+   }
+  ]
+ }
+}

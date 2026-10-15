@@ -1,0 +1,58 @@
+{
+ "id": "1661998_2021-09-03",
+ "kind": "slide",
+ "cik": "1661998",
+ "name": "Q32 Bio Inc.",
+ "date": "2021-09-03",
+ "asof": "2021-09-03",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-09-03",
+  "adj_close": 134.28
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 213293000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001564590-21-043946"
+ },
+ "burn6": {
+  "end": "2021-06-30",
+  "start": "2021-01-01",
+  "cash_used_ops": 53934000.0,
+  "capex": 1581000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-08-02",
+  "shares": 57088143
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2021-06-05",
+  "to": "2021-10-03",
+  "trades": [
+   {
+    "date": "2021-09-03",
+    "filed": "2021-09-08",
+    "code": "S",
+    "value": 416,
+    "who": "Kelly Timothy P"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "q32 bio",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

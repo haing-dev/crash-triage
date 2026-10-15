@@ -1,0 +1,97 @@
+{
+ "id": "1055726_2021-10-01",
+ "kind": "slide",
+ "cik": "1055726",
+ "name": "INOVIO PHARMACEUTICALS, INC.",
+ "date": "2021-10-01",
+ "asof": "2021-10-01",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-10-01",
+  "adj_close": 80.4
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 443677684,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001055726-21-000055"
+ },
+ "burn6": {
+  "end": "2021-06-30",
+  "start": "2021-01-01",
+  "cash_used_ops": 131326659.0,
+  "capex": 418734.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-08-06",
+  "shares": 210356896
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2021-07-03",
+  "to": "2021-10-31",
+  "trades": [
+   {
+    "date": "2021-08-09",
+    "filed": "2021-08-11",
+    "code": "S",
+    "value": 94401,
+    "who": "Humeau Laurent"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "inovio pharmaceuticals",
+  "other_trials": 6,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03491683",
+    "drugs": [
+     "INO-5401",
+     "INO-9012",
+     "Cemiplimab"
+    ]
+   },
+   {
+    "nct": "NCT04398433",
+    "drugs": [
+     "INO-3107",
+     "CELLECTRA\u00ae 2000"
+    ]
+   },
+   {
+    "nct": "NCT04588428",
+    "drugs": [
+     "INO-4700",
+     "CELLECTRA\u2122 2000",
+     "INO-4700"
+    ]
+   },
+   {
+    "nct": "NCT03721978",
+    "drugs": [
+     "VGX-3100",
+     "CELLECTRA\u2122-5PSP"
+    ]
+   },
+   {
+    "nct": "NCT03502785",
+    "drugs": [
+     "INO-5401",
+     "INO-9012",
+     "Atezolizumab"
+    ]
+   }
+  ]
+ }
+}

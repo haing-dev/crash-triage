@@ -1,0 +1,182 @@
+{
+ "id": "1974640_2025-01-10",
+ "kind": "slide",
+ "cik": "1974640",
+ "name": "Apogee Therapeutics, Inc.",
+ "date": "2025-01-10",
+ "asof": "2025-01-10",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-01-10",
+  "adj_close": 41.05
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 753795000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent",
+   "MarketableSecuritiesNoncurrent"
+  ],
+  "accn": "0000950170-24-124559"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": 71824000.0,
+  "capex": 802000.0,
+  "periods": 2
+ },
+ "shares": null,
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 14,
+  "from": "2024-10-12",
+  "to": "2025-02-09",
+  "trades": [
+   {
+    "date": "2025-02-05",
+    "filed": "2025-02-07",
+    "code": "S",
+    "value": 143229,
+    "who": "Dambkowski Carl"
+   },
+   {
+    "date": "2025-02-05",
+    "filed": "2025-02-07",
+    "code": "S",
+    "value": 608700,
+    "who": "HENDERSON MICHAEL THOMAS"
+   },
+   {
+    "date": "2025-01-08",
+    "filed": "2025-01-10",
+    "code": "S",
+    "value": 591071,
+    "who": "HENDERSON MICHAEL THOMAS"
+   },
+   {
+    "date": "2025-01-08",
+    "filed": "2025-01-10",
+    "code": "S",
+    "value": 141622,
+    "who": "HENDERSON MICHAEL THOMAS"
+   },
+   {
+    "date": "2025-01-02",
+    "filed": "2025-01-03",
+    "code": "S",
+    "value": 69584,
+    "who": "Dambkowski Carl"
+   },
+   {
+    "date": "2025-01-02",
+    "filed": "2025-01-03",
+    "code": "S",
+    "value": 117364,
+    "who": "Dambkowski Carl"
+   },
+   {
+    "date": "2025-01-02",
+    "filed": "2025-01-03",
+    "code": "S",
+    "value": 4792,
+    "who": "Dambkowski Carl"
+   },
+   {
+    "date": "2024-12-12",
+    "filed": "2024-12-16",
+    "code": "P",
+    "value": 367650,
+    "who": "McKenna Mark C."
+   },
+   {
+    "date": "2024-12-12",
+    "filed": "2024-12-16",
+    "code": "P",
+    "value": 623125,
+    "who": "McKenna Mark C."
+   },
+   {
+    "date": "2024-12-11",
+    "filed": "2024-12-13",
+    "code": "S",
+    "value": 198613,
+    "who": "Dambkowski Carl"
+   },
+   {
+    "date": "2024-12-11",
+    "filed": "2024-12-13",
+    "code": "S",
+    "value": 22750,
+    "who": "Dambkowski Carl"
+   },
+   {
+    "date": "2024-12-04",
+    "filed": "2024-12-06",
+    "code": "S",
+    "value": 307057,
+    "who": "Dambkowski Carl"
+   },
+   {
+    "date": "2024-12-04",
+    "filed": "2024-12-06",
+    "code": "S",
+    "value": 619752,
+    "who": "HENDERSON MICHAEL THOMAS"
+   },
+   {
+    "date": "2024-12-04",
+    "filed": "2024-12-06",
+    "code": "S",
+    "value": 78902,
+    "who": "HENDERSON MICHAEL THOMAS"
+   },
+   {
+    "date": "2024-11-06",
+    "filed": "2024-11-08",
+    "code": "S",
+    "value": 313755,
+    "who": "Dambkowski Carl"
+   },
+   {
+    "date": "2024-11-06",
+    "filed": "2024-11-08",
+    "code": "S",
+    "value": 80286,
+    "who": "Dambkowski Carl"
+   },
+   {
+    "date": "2024-11-06",
+    "filed": "2024-11-08",
+    "code": "S",
+    "value": 828380,
+    "who": "HENDERSON MICHAEL THOMAS"
+   },
+   {
+    "date": "2024-11-06",
+    "filed": "2024-11-08",
+    "code": "S",
+    "value": 59940,
+    "who": "HENDERSON MICHAEL THOMAS"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "apogee therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06395948",
+    "drugs": [
+     "APG777"
+    ]
+   }
+  ]
+ }
+}

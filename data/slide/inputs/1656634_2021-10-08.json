@@ -1,0 +1,97 @@
+{
+ "id": "1656634_2021-10-08",
+ "kind": "slide",
+ "cik": "1656634",
+ "name": "Gritstone bio, Inc.",
+ "date": "2021-10-08",
+ "asof": "2021-10-08",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-10-08",
+  "adj_close": 9.06
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 175183000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent",
+   "MarketableSecuritiesNoncurrent"
+  ],
+  "accn": "0001564590-21-041578"
+ },
+ "burn6": {
+  "end": "2021-06-30",
+  "start": "2021-01-01",
+  "cash_used_ops": 12028000.0,
+  "capex": 2660000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-07-30",
+  "shares": 49447693
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2021-07-10",
+  "to": "2021-11-07",
+  "trades": [
+   {
+    "date": "2021-11-01",
+    "filed": "2021-11-03",
+    "code": "S",
+    "value": 11140,
+    "who": "Jones Erin"
+   },
+   {
+    "date": "2021-10-01",
+    "filed": "2021-10-05",
+    "code": "S",
+    "value": 10680,
+    "who": "Jones Erin"
+   },
+   {
+    "date": "2021-10-04",
+    "filed": "2021-10-05",
+    "code": "S",
+    "value": 10710,
+    "who": "Jones Erin"
+   },
+   {
+    "date": "2021-09-08",
+    "filed": "2021-09-10",
+    "code": "S",
+    "value": 22748,
+    "who": "Jones Erin"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "gritstone bio",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03953235",
+    "drugs": [
+     "GRT-C903",
+     "GRT-R904",
+     "nivolumab"
+    ]
+   },
+   {
+    "nct": "NCT03639714",
+    "drugs": [
+     "GRT-C901",
+     "GRT-R902",
+     "nivolumab"
+    ]
+   }
+  ]
+ }
+}

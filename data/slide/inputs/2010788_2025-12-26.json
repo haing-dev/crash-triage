@@ -1,0 +1,50 @@
+{
+ "id": "2010788_2025-12-26",
+ "kind": "slide",
+ "cik": "2010788",
+ "name": "EXOZYMES INC.",
+ "date": "2025-12-26",
+ "asof": "2025-12-26",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-12-26",
+  "adj_close": 11.49
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 5098687,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001493152-25-022289"
+ },
+ "burn6": {
+  "end": "2025-09-30",
+  "start": "2025-04-01",
+  "cash_used_ops": 3394707.0,
+  "capex": 63883.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-11-13",
+  "shares": 8387250
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Although the Company believes it has sufficient working capital for the near term, management believes that there remains substantial doubt about its ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2025-09-27",
+  "to": "2026-01-25",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "exozymes",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

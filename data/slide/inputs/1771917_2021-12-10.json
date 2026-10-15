@@ -1,0 +1,242 @@
+{
+ "id": "1771917_2021-12-10",
+ "kind": "slide",
+ "cik": "1771917",
+ "name": "Karuna Therapeutics, Inc.",
+ "date": "2021-12-10",
+ "asof": "2021-12-10",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-12-10",
+  "adj_close": 110.64
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 252221000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-21-002922"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 72701000.0,
+  "capex": 2256000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-10-31",
+  "shares": 29623555
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 13,
+  "from": "2021-09-11",
+  "to": "2022-01-09",
+  "trades": [
+   {
+    "date": "2022-01-03",
+    "filed": "2022-01-03",
+    "code": "S",
+    "value": 1010745,
+    "who": "Brannan Stephen K."
+   },
+   {
+    "date": "2022-01-03",
+    "filed": "2022-01-03",
+    "code": "S",
+    "value": 326100,
+    "who": "Pande Atul"
+   },
+   {
+    "date": "2021-12-01",
+    "filed": "2021-12-02",
+    "code": "S",
+    "value": 319325,
+    "who": "Pande Atul"
+   },
+   {
+    "date": "2021-12-01",
+    "filed": "2021-12-02",
+    "code": "S",
+    "value": 985861,
+    "who": "Brannan Stephen K."
+   },
+   {
+    "date": "2021-11-15",
+    "filed": "2021-11-15",
+    "code": "S",
+    "value": 138240,
+    "who": "OLSON LAURIE J"
+   },
+   {
+    "date": "2021-11-08",
+    "filed": "2021-11-10",
+    "code": "S",
+    "value": 2056320,
+    "who": "Ignelzi Troy A."
+   },
+   {
+    "date": "2021-11-01",
+    "filed": "2021-11-03",
+    "code": "S",
+    "value": 13667,
+    "who": "Miller Andrew Craig"
+   },
+   {
+    "date": "2021-11-01",
+    "filed": "2021-11-03",
+    "code": "S",
+    "value": 69935,
+    "who": "Miller Andrew Craig"
+   },
+   {
+    "date": "2021-11-01",
+    "filed": "2021-11-03",
+    "code": "S",
+    "value": 56296,
+    "who": "Miller Andrew Craig"
+   },
+   {
+    "date": "2021-11-01",
+    "filed": "2021-11-03",
+    "code": "S",
+    "value": 111864,
+    "who": "Miller Andrew Craig"
+   },
+   {
+    "date": "2021-11-01",
+    "filed": "2021-11-03",
+    "code": "S",
+    "value": 106397,
+    "who": "Miller Andrew Craig"
+   },
+   {
+    "date": "2021-11-01",
+    "filed": "2021-11-03",
+    "code": "S",
+    "value": 43362,
+    "who": "Miller Andrew Craig"
+   },
+   {
+    "date": "2021-11-01",
+    "filed": "2021-11-03",
+    "code": "S",
+    "value": 14077,
+    "who": "Brannan Stephen K."
+   },
+   {
+    "date": "2021-11-01",
+    "filed": "2021-11-03",
+    "code": "S",
+    "value": 1042109,
+    "who": "Brannan Stephen K."
+   },
+   {
+    "date": "2021-11-01",
+    "filed": "2021-11-03",
+    "code": "S",
+    "value": 341675,
+    "who": "Pande Atul"
+   },
+   {
+    "date": "2021-10-01",
+    "filed": "2021-10-05",
+    "code": "S",
+    "value": 82985,
+    "who": "Miller Andrew Craig"
+   },
+   {
+    "date": "2021-10-01",
+    "filed": "2021-10-05",
+    "code": "S",
+    "value": 72078,
+    "who": "Miller Andrew Craig"
+   },
+   {
+    "date": "2021-10-01",
+    "filed": "2021-10-05",
+    "code": "S",
+    "value": 48536,
+    "who": "Miller Andrew Craig"
+   },
+   {
+    "date": "2021-10-01",
+    "filed": "2021-10-05",
+    "code": "S",
+    "value": 148939,
+    "who": "Miller Andrew Craig"
+   },
+   {
+    "date": "2021-10-01",
+    "filed": "2021-10-05",
+    "code": "S",
+    "value": 221892,
+    "who": "Miller Andrew Craig"
+   },
+   {
+    "date": "2021-10-01",
+    "filed": "2021-10-05",
+    "code": "S",
+    "value": 1098329,
+    "who": "Miller Andrew Craig"
+   },
+   {
+    "date": "2021-10-04",
+    "filed": "2021-10-05",
+    "code": "S",
+    "value": 379140,
+    "who": "Miller Andrew Craig"
+   },
+   {
+    "date": "2021-10-01",
+    "filed": "2021-10-01",
+    "code": "S",
+    "value": 301800,
+    "who": "Pande Atul"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "karuna therapeutics",
+  "other_trials": 5,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04820309",
+    "drugs": [
+     "Xanomeline and Trospium Chloride Capsules"
+    ]
+   },
+   {
+    "nct": "NCT04659161",
+    "drugs": [
+     "Xanomeline and Trospium Chloride Capsules"
+    ]
+   },
+   {
+    "nct": "NCT05145413",
+    "drugs": [
+     "Xanomeline and Trospium Chloride Capsules"
+    ]
+   },
+   {
+    "nct": "NCT04659174",
+    "drugs": [
+     "Xanomeline and Trospium Chloride Capsules"
+    ]
+   },
+   {
+    "nct": "NCT04738123",
+    "drugs": [
+     "Xanomeline and Trospium Chloride Capsules"
+    ]
+   }
+  ]
+ }
+}

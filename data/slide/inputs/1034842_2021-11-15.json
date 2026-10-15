@@ -1,0 +1,69 @@
+{
+ "id": "1034842_2021-11-15",
+ "kind": "slide",
+ "cik": "1034842",
+ "name": "RIGEL PHARMACEUTICALS INC",
+ "date": "2021-11-15",
+ "asof": "2021-11-15",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-11-15",
+  "adj_close": 30.5
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 143146000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001558370-21-014076"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": -44919000.0,
+  "capex": 577000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-10-29",
+  "shares": 171006061
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2021-08-17",
+  "to": "2021-12-15",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "rigel pharmaceuticals",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03764618",
+    "drugs": [
+     "Fostamatinib disodium"
+    ]
+   },
+   {
+    "nct": "NCT04138927",
+    "drugs": [
+     "Fostamatinib disodium"
+    ]
+   },
+   {
+    "nct": "NCT04629703",
+    "drugs": [
+     "Fostamatinib"
+    ]
+   }
+  ]
+ }
+}

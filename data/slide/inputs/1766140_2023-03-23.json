@@ -1,0 +1,50 @@
+{
+ "id": "1766140_2023-03-23",
+ "kind": "slide",
+ "cik": "1766140",
+ "name": "Unicycive Therapeutics, Inc.",
+ "date": "2023-03-23",
+ "asof": "2023-03-23",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-03-23",
+  "adj_close": 18.3
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 7010000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001213900-22-071557"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 6610000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-11-14",
+  "shares": 15088670
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "There is substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2022-12-23",
+  "to": "2023-04-22",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "unicycive therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

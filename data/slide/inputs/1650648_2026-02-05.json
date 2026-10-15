@@ -1,0 +1,114 @@
+{
+ "id": "1650648_2026-02-05",
+ "kind": "slide",
+ "cik": "1650648",
+ "name": "4D Molecular Therapeutics, Inc.",
+ "date": "2026-02-05",
+ "asof": "2026-02-05",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-02-05",
+  "adj_close": 8.39
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 372228000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent",
+   "MarketableSecuritiesNoncurrent"
+  ],
+  "accn": "0001193125-25-273343"
+ },
+ "burn6": {
+  "end": "2025-09-30",
+  "start": "2025-04-01",
+  "cash_used_ops": 89875000.0,
+  "capex": -25000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-02-23",
+  "shares": 49778127
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2025-11-07",
+  "to": "2026-03-07",
+  "trades": [
+   {
+    "date": "2025-12-20",
+    "filed": "2025-12-23",
+    "code": "S",
+    "value": 2691,
+    "who": "Gupta Ashoo"
+   },
+   {
+    "date": "2025-12-20",
+    "filed": "2025-12-23",
+    "code": "S",
+    "value": 686,
+    "who": "Gupta Ashoo"
+   },
+   {
+    "date": "2025-12-16",
+    "filed": "2025-12-19",
+    "code": "S",
+    "value": 17822,
+    "who": "Bizily Scott"
+   },
+   {
+    "date": "2025-11-17",
+    "filed": "2025-11-19",
+    "code": "S",
+    "value": 17315,
+    "who": "Bizily Scott"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "4d molecular therapeutics",
+  "other_trials": 7,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT07064759",
+    "drugs": [
+     "4D-150 IVT (3E10 vg/eye)",
+     "EYLEA\u00ae (aflibercept) Injection 2 mg (0.05mL)"
+    ]
+   },
+   {
+    "nct": "NCT05248230",
+    "drugs": [
+     "4D-710"
+    ]
+   },
+   {
+    "nct": "NCT05930561",
+    "drugs": [
+     "4D-150 IVT",
+     "Aflibercept IVT"
+    ]
+   },
+   {
+    "nct": "NCT05629559",
+    "drugs": [
+     "4D-310"
+    ]
+   },
+   {
+    "nct": "NCT05197270",
+    "drugs": [
+     "4D-150 IVT",
+     "Aflibercept IVT"
+    ]
+   }
+  ]
+ }
+}

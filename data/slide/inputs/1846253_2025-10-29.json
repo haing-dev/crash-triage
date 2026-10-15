@@ -1,0 +1,65 @@
+{
+ "id": "1846253_2025-10-29",
+ "kind": "slide",
+ "cik": "1846253",
+ "name": "OmniAb, Inc.",
+ "date": "2025-10-29",
+ "asof": "2025-10-29",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-10-29",
+  "adj_close": 1.47
+ },
+ "balance": {
+  "end": "2025-06-30",
+  "cash": 41615000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001846253-25-000066"
+ },
+ "burn6": {
+  "end": "2025-06-30",
+  "start": "2025-01-01",
+  "cash_used_ops": 21018000.0,
+  "capex": 374000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-07-30",
+  "shares": 122701294
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2025-07-31",
+  "to": "2025-11-28",
+  "trades": [
+   {
+    "date": "2025-11-06",
+    "filed": "2025-11-10",
+    "code": "P",
+    "value": 51074,
+    "who": "HIGGINS JOHN L"
+   },
+   {
+    "date": "2025-11-07",
+    "filed": "2025-11-10",
+    "code": "P",
+    "value": 56632,
+    "who": "HIGGINS JOHN L"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "omniab",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

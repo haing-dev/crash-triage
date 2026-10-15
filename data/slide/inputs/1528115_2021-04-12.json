@@ -1,0 +1,182 @@
+{
+ "id": "1528115_2021-04-12",
+ "kind": "slide",
+ "cik": "1528115",
+ "name": "Annexon, Inc.",
+ "date": "2021-04-12",
+ "asof": "2021-04-12",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-04-12",
+  "adj_close": 23.25
+ },
+ "balance": {
+  "end": "2020-12-31",
+  "cash": 351206000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001564590-21-015262"
+ },
+ "burn6": {
+  "end": "2020-12-31",
+  "start": "2020-07-01",
+  "cash_used_ops": 32840000.0,
+  "capex": 448000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-03-15",
+  "shares": 38157618
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2021-01-12",
+  "to": "2021-05-12",
+  "trades": [
+   {
+    "date": "2021-03-31",
+    "filed": "2021-04-02",
+    "code": "S",
+    "value": 199621,
+    "who": "Love Douglas"
+   },
+   {
+    "date": "2021-04-01",
+    "filed": "2021-04-02",
+    "code": "S",
+    "value": 5638,
+    "who": "Love Douglas"
+   },
+   {
+    "date": "2021-04-01",
+    "filed": "2021-04-02",
+    "code": "S",
+    "value": 8403,
+    "who": "Love Douglas"
+   },
+   {
+    "date": "2021-03-29",
+    "filed": "2021-03-31",
+    "code": "S",
+    "value": 71312,
+    "who": "Love Douglas"
+   },
+   {
+    "date": "2021-03-29",
+    "filed": "2021-03-31",
+    "code": "S",
+    "value": 15851,
+    "who": "Love Douglas"
+   },
+   {
+    "date": "2021-03-29",
+    "filed": "2021-03-31",
+    "code": "S",
+    "value": 8171,
+    "who": "Love Douglas"
+   },
+   {
+    "date": "2021-03-30",
+    "filed": "2021-03-31",
+    "code": "S",
+    "value": 46115,
+    "who": "Love Douglas"
+   },
+   {
+    "date": "2021-03-30",
+    "filed": "2021-03-31",
+    "code": "S",
+    "value": 45851,
+    "who": "Love Douglas"
+   },
+   {
+    "date": "2021-03-25",
+    "filed": "2021-03-29",
+    "code": "S",
+    "value": 292755,
+    "who": "Yednock Ted"
+   },
+   {
+    "date": "2021-03-25",
+    "filed": "2021-03-29",
+    "code": "S",
+    "value": 165914,
+    "who": "Yednock Ted"
+   },
+   {
+    "date": "2021-03-25",
+    "filed": "2021-03-29",
+    "code": "S",
+    "value": 7101,
+    "who": "Yednock Ted"
+   },
+   {
+    "date": "2021-03-24",
+    "filed": "2021-03-26",
+    "code": "S",
+    "value": 120512,
+    "who": "Keswani Sanjay"
+   },
+   {
+    "date": "2021-03-23",
+    "filed": "2021-03-25",
+    "code": "S",
+    "value": 38509,
+    "who": "Lew Jennifer"
+   },
+   {
+    "date": "2021-03-23",
+    "filed": "2021-03-25",
+    "code": "S",
+    "value": 51175,
+    "who": "Lew Jennifer"
+   },
+   {
+    "date": "2021-03-23",
+    "filed": "2021-03-25",
+    "code": "S",
+    "value": 52493,
+    "who": "Lew Jennifer"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "annexon",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04701164",
+    "drugs": [
+     "ANX005"
+    ]
+   },
+   {
+    "nct": "NCT04656561",
+    "drugs": [
+     "ANX007",
+     "Sham comparator"
+    ]
+   },
+   {
+    "nct": "NCT04514367",
+    "drugs": [
+     "ANX005"
+    ]
+   },
+   {
+    "nct": "NCT04569435",
+    "drugs": [
+     "ANX005"
+    ]
+   }
+  ]
+ }
+}

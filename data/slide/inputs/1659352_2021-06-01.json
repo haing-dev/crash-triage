@@ -1,0 +1,64 @@
+{
+ "id": "1659352_2021-06-01",
+ "kind": "slide",
+ "cik": "1659352",
+ "name": "Codiak BioSciences, Inc.",
+ "date": "2021-06-01",
+ "asof": "2021-06-01",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-06-01",
+  "adj_close": 22.57
+ },
+ "balance": {
+  "end": "2021-03-31",
+  "cash": 130272000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001564590-21-025010"
+ },
+ "burn6": {
+  "end": "2021-03-31",
+  "start": "2020-10-01",
+  "cash_used_ops": 53507000.0,
+  "capex": 2687000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-05-03",
+  "shares": 22043883
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 9,
+  "from": "2021-03-03",
+  "to": "2021-07-01",
+  "trades": [
+   {
+    "date": "2020-10-13",
+    "filed": "2021-04-30",
+    "code": "P",
+    "value": 99000,
+    "who": "MELAS KYRIAZI THEO"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "codiak biosciences",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04592484",
+    "drugs": [
+     "CDK-002"
+    ]
+   }
+  ]
+ }
+}

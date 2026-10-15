@@ -1,0 +1,58 @@
+{
+ "id": "1035354_2022-08-17",
+ "kind": "slide",
+ "cik": "1035354",
+ "name": "Eloxx Pharmaceuticals, Inc.",
+ "date": "2022-08-17",
+ "asof": "2022-08-17",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-08-17",
+  "adj_close": 175.9252
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 30048000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001564590-22-029339"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 19238000.0,
+  "capex": 18000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-08-10",
+  "shares": 86656221
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "\u2022 Our recurring losses from operations raise substantial doubt regarding our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 9,
+  "from": "2022-05-19",
+  "to": "2022-09-16",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "eloxx pharmaceuticals",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04135495",
+    "drugs": [
+     "ELX-02",
+     "Ivacaftor"
+    ]
+   }
+  ]
+ }
+}

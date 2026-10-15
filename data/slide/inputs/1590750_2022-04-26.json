@@ -1,0 +1,107 @@
+{
+ "id": "1590750_2022-04-26",
+ "kind": "slide",
+ "cik": "1590750",
+ "name": "Viridian Therapeutics, Inc.\\DE",
+ "date": "2022-04-26",
+ "asof": "2022-04-26",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-04-26",
+  "adj_close": 14.91
+ },
+ "balance": {
+  "end": "2021-12-31",
+  "cash": 196965000,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001590750-22-000004"
+ },
+ "burn6": {
+  "end": "2021-12-31",
+  "start": "2021-07-01",
+  "cash_used_ops": 28411000.0,
+  "capex": 269000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-03-07",
+  "shares": 25913229
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 7,
+  "from": "2022-01-26",
+  "to": "2022-05-26",
+  "trades": [
+   {
+    "date": "2022-05-02",
+    "filed": "2022-05-04",
+    "code": "S",
+    "value": 391200,
+    "who": "Violin Jonathan"
+   },
+   {
+    "date": "2022-04-01",
+    "filed": "2022-04-05",
+    "code": "S",
+    "value": 499488,
+    "who": "Violin Jonathan"
+   },
+   {
+    "date": "2022-04-04",
+    "filed": "2022-04-05",
+    "code": "S",
+    "value": 68148,
+    "who": "Violin Jonathan"
+   },
+   {
+    "date": "2022-03-01",
+    "filed": "2022-03-03",
+    "code": "S",
+    "value": 336691,
+    "who": "Violin Jonathan"
+   },
+   {
+    "date": "2022-03-02",
+    "filed": "2022-03-03",
+    "code": "S",
+    "value": 192800,
+    "who": "Violin Jonathan"
+   },
+   {
+    "date": "2022-02-01",
+    "filed": "2022-02-03",
+    "code": "S",
+    "value": 327482,
+    "who": "Violin Jonathan"
+   },
+   {
+    "date": "2022-02-02",
+    "filed": "2022-02-03",
+    "code": "S",
+    "value": 227920,
+    "who": "Violin Jonathan"
+   },
+   {
+    "date": "2022-02-03",
+    "filed": "2022-02-03",
+    "code": "S",
+    "value": 17416,
+    "who": "Violin Jonathan"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "viridian therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

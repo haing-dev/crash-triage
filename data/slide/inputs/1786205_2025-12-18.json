@@ -1,0 +1,150 @@
+{
+ "id": "1786205_2025-12-18",
+ "kind": "slide",
+ "cik": "1786205",
+ "name": "Arcellx, Inc.",
+ "date": "2025-12-18",
+ "asof": "2025-12-18",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-12-18",
+  "adj_close": 64.13
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 575974000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent",
+   "MarketableSecuritiesNoncurrent"
+  ],
+  "accn": "0001193125-25-266932"
+ },
+ "burn6": {
+  "end": "2025-09-30",
+  "start": "2025-04-01",
+  "cash_used_ops": 88938000.0,
+  "capex": 783000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-10-31",
+  "shares": 57822871
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 13,
+  "from": "2025-09-19",
+  "to": "2026-01-17",
+  "trades": [
+   {
+    "date": "2026-01-14",
+    "filed": "2026-01-14",
+    "code": "S",
+    "value": 402997,
+    "who": "Heery Christopher"
+   },
+   {
+    "date": "2026-01-13",
+    "filed": "2026-01-13",
+    "code": "S",
+    "value": 487213,
+    "who": "Heery Christopher"
+   },
+   {
+    "date": "2026-01-12",
+    "filed": "2026-01-12",
+    "code": "S",
+    "value": 393286,
+    "who": "Heery Christopher"
+   },
+   {
+    "date": "2025-11-17",
+    "filed": "2025-11-17",
+    "code": "S",
+    "value": 30600,
+    "who": "Heery Christopher"
+   },
+   {
+    "date": "2025-10-15",
+    "filed": "2025-10-15",
+    "code": "S",
+    "value": 488315,
+    "who": "Gilson Michelle"
+   },
+   {
+    "date": "2025-10-03",
+    "filed": "2025-10-06",
+    "code": "S",
+    "value": 419870,
+    "who": "Gilson Michelle"
+   },
+   {
+    "date": "2025-10-06",
+    "filed": "2025-10-06",
+    "code": "S",
+    "value": 91733,
+    "who": "Gilson Michelle"
+   },
+   {
+    "date": "2025-09-30",
+    "filed": "2025-09-30",
+    "code": "S",
+    "value": 426925,
+    "who": "Heery Christopher"
+   },
+   {
+    "date": "2025-09-30",
+    "filed": "2025-09-30",
+    "code": "S",
+    "value": 1157035,
+    "who": "Heery Christopher"
+   },
+   {
+    "date": "2025-09-30",
+    "filed": "2025-09-30",
+    "code": "S",
+    "value": 125763,
+    "who": "Heery Christopher"
+   },
+   {
+    "date": "2025-09-29",
+    "filed": "2025-09-29",
+    "code": "S",
+    "value": 5852,
+    "who": "Heery Christopher"
+   },
+   {
+    "date": "2025-09-26",
+    "filed": "2025-09-26",
+    "code": "S",
+    "value": 993155,
+    "who": "Heery Christopher"
+   },
+   {
+    "date": "2025-09-18",
+    "filed": "2025-09-19",
+    "code": "S",
+    "value": 267468,
+    "who": "Heery Christopher"
+   },
+   {
+    "date": "2025-09-19",
+    "filed": "2025-09-19",
+    "code": "S",
+    "value": 24000,
+    "who": "Heery Christopher"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "arcellx",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

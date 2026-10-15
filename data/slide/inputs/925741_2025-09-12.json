@@ -1,0 +1,136 @@
+{
+ "id": "925741_2025-09-12",
+ "kind": "slide",
+ "cik": "925741",
+ "name": "BioCardia, Inc.",
+ "date": "2025-09-12",
+ "asof": "2025-09-12",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-09-12",
+  "adj_close": 2.14
+ },
+ "balance": {
+  "end": "2025-06-30",
+  "cash": 980000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001437749-25-025826"
+ },
+ "burn6": {
+  "end": "2025-06-30",
+  "start": "2025-01-01",
+  "cash_used_ops": 3267000.0,
+  "capex": 1000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-08-08",
+  "shares": 5801224
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These factors raise substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2025-06-14",
+  "to": "2025-10-12",
+  "trades": [
+   {
+    "date": "2025-09-19",
+    "filed": "2025-09-23",
+    "code": "P",
+    "value": 498000,
+    "who": "STERTZER SIMON H"
+   },
+   {
+    "date": "2025-09-19",
+    "filed": "2025-09-23",
+    "code": "P",
+    "value": 360000,
+    "who": "Blank Andrew Scott"
+   },
+   {
+    "date": "2025-09-19",
+    "filed": "2025-09-23",
+    "code": "P",
+    "value": 60000,
+    "who": "Altman Peter"
+   },
+   {
+    "date": "2025-08-22",
+    "filed": "2025-08-25",
+    "code": "P",
+    "value": 1281,
+    "who": "Altman Peter"
+   },
+   {
+    "date": "2025-08-13",
+    "filed": "2025-08-13",
+    "code": "P",
+    "value": 183,
+    "who": "Altman Peter"
+   },
+   {
+    "date": "2025-08-12",
+    "filed": "2025-08-12",
+    "code": "P",
+    "value": 700,
+    "who": "Altman Peter"
+   },
+   {
+    "date": "2025-08-11",
+    "filed": "2025-08-11",
+    "code": "P",
+    "value": 2989,
+    "who": "Altman Peter"
+   },
+   {
+    "date": "2025-06-30",
+    "filed": "2025-07-02",
+    "code": "P",
+    "value": 9999,
+    "who": "McClung David"
+   },
+   {
+    "date": "2025-06-30",
+    "filed": "2025-07-02",
+    "code": "P",
+    "value": 49999,
+    "who": "Altman Peter"
+   },
+   {
+    "date": "2025-06-30",
+    "filed": "2025-07-02",
+    "code": "P",
+    "value": 150000,
+    "who": "STERTZER SIMON H"
+   },
+   {
+    "date": "2025-06-30",
+    "filed": "2025-07-02",
+    "code": "P",
+    "value": 150000,
+    "who": "Blank Andrew Scott"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "biocardia",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05925608",
+    "drugs": [
+     "CardiALLO\u2122 Human Allogenic Culture-expanded Bone marrow-derived Mesenchymal Stem Cells (hMSCs)",
+     "Diagnostic Catheterization"
+    ]
+   }
+  ]
+ }
+}

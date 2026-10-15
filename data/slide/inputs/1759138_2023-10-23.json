@@ -1,0 +1,115 @@
+{
+ "id": "1759138_2023-10-23",
+ "kind": "slide",
+ "cik": "1759138",
+ "name": "Cabaletta Bio, Inc.",
+ "date": "2023-10-23",
+ "asof": "2023-10-23",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-10-23",
+  "adj_close": 12.215
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 176328000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-23-040966"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 24497000.0,
+  "capex": 437000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-08-04",
+  "shares": 39805032
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2023-07-25",
+  "to": "2023-11-22",
+  "trades": [
+   {
+    "date": "2023-11-20",
+    "filed": "2023-11-21",
+    "code": "S",
+    "value": 61608,
+    "who": "Binder Gwendolyn"
+   },
+   {
+    "date": "2023-11-20",
+    "filed": "2023-11-21",
+    "code": "S",
+    "value": 134405,
+    "who": "Binder Gwendolyn"
+   },
+   {
+    "date": "2023-10-19",
+    "filed": "2023-10-19",
+    "code": "S",
+    "value": 141096,
+    "who": "Binder Gwendolyn"
+   },
+   {
+    "date": "2023-10-19",
+    "filed": "2023-10-19",
+    "code": "S",
+    "value": 5825,
+    "who": "Binder Gwendolyn"
+   },
+   {
+    "date": "2023-09-19",
+    "filed": "2023-09-20",
+    "code": "S",
+    "value": 180270,
+    "who": "Binder Gwendolyn"
+   },
+   {
+    "date": "2023-09-19",
+    "filed": "2023-09-20",
+    "code": "S",
+    "value": 12950,
+    "who": "Binder Gwendolyn"
+   },
+   {
+    "date": "2023-08-21",
+    "filed": "2023-08-22",
+    "code": "S",
+    "value": 143436,
+    "who": "Binder Gwendolyn"
+   },
+   {
+    "date": "2023-08-21",
+    "filed": "2023-08-22",
+    "code": "S",
+    "value": 4147,
+    "who": "Binder Gwendolyn"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "cabaletta bio",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04422912",
+    "drugs": [
+     "DSG3-CAART",
+     "CABA-201"
+    ]
+   }
+  ]
+ }
+}

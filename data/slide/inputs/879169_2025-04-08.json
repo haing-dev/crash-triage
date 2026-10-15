@@ -1,0 +1,135 @@
+{
+ "id": "879169_2025-04-08",
+ "kind": "slide",
+ "cik": "879169",
+ "name": "INCYTE CORP",
+ "date": "2025-04-08",
+ "asof": "2025-04-08",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-04-08",
+  "adj_close": 56.97
+ },
+ "balance": {
+  "end": "2024-12-31",
+  "cash": 1687829000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001628280-25-004633"
+ },
+ "burn6": {
+  "end": "2024-12-31",
+  "start": "2024-07-01",
+  "cash_used_ops": -692089000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-02-03",
+  "shares": 193524350
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 32,
+  "from": "2025-01-08",
+  "to": "2025-05-08",
+  "trades": [
+   {
+    "date": "2025-03-14",
+    "filed": "2025-03-18",
+    "code": "S",
+    "value": 31279,
+    "who": "Flannelly Barry P"
+   },
+   {
+    "date": "2025-03-14",
+    "filed": "2025-03-18",
+    "code": "S",
+    "value": 13508,
+    "who": "Flannelly Barry P"
+   },
+   {
+    "date": "2025-03-14",
+    "filed": "2025-03-18",
+    "code": "S",
+    "value": 1295869,
+    "who": "Flannelly Barry P"
+   },
+   {
+    "date": "2025-03-04",
+    "filed": "2025-03-06",
+    "code": "S",
+    "value": 41924,
+    "who": "Denton Sheila A."
+   },
+   {
+    "date": "2025-02-26",
+    "filed": "2025-02-28",
+    "code": "S",
+    "value": 709146,
+    "who": "Denton Sheila A."
+   },
+   {
+    "date": "2025-02-26",
+    "filed": "2025-02-28",
+    "code": "S",
+    "value": 332990,
+    "who": "Denton Sheila A."
+   },
+   {
+    "date": "2025-01-21",
+    "filed": "2025-01-22",
+    "code": "S",
+    "value": 897867,
+    "who": "Stein Steven H"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "incyte",
+  "other_trials": 21,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06548360",
+    "drugs": [
+     "Ruxolitinib Cream",
+     "Vehicle Cream"
+    ]
+   },
+   {
+    "nct": "NCT06615050",
+    "drugs": [
+     "Tacrolimus (Tac)",
+     "Methotrexate (MTX)",
+     "Ruxolitinib (Rux)"
+    ]
+   },
+   {
+    "nct": "NCT05888844",
+    "drugs": [
+     "INCB099280"
+    ]
+   },
+   {
+    "nct": "NCT04849715",
+    "drugs": [
+     "parsaclisib",
+     "rituximab",
+     "bendamustine"
+    ]
+   },
+   {
+    "nct": "NCT04640025",
+    "drugs": [
+     "itacitinib"
+    ]
+   }
+  ]
+ }
+}

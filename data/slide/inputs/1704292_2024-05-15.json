@@ -1,0 +1,177 @@
+{
+ "id": "1704292_2024-05-15",
+ "kind": "slide",
+ "cik": "1704292",
+ "name": "Zai Lab Ltd",
+ "date": "2024-05-15",
+ "asof": "2024-05-15",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-05-15",
+  "adj_close": 20.85
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 650780000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001628280-24-021689"
+ },
+ "burn6": {
+  "end": "2024-03-31",
+  "start": "2023-10-01",
+  "cash_used_ops": 105023000.0,
+  "capex": 1196000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-02-26",
+  "shares": 88592343
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 18,
+  "from": "2024-02-15",
+  "to": "2024-06-14",
+  "trades": [
+   {
+    "date": "2024-05-14",
+    "filed": "2024-05-16",
+    "code": "S",
+    "value": 213346,
+    "who": "Edmondson Frazor Titus III"
+   },
+   {
+    "date": "2024-05-13",
+    "filed": "2024-05-15",
+    "code": "P",
+    "value": 64200,
+    "who": "Smiley Joshua L"
+   },
+   {
+    "date": "2024-04-04",
+    "filed": "2024-04-05",
+    "code": "S",
+    "value": 31158,
+    "who": "Smiley Joshua L"
+   },
+   {
+    "date": "2024-04-04",
+    "filed": "2024-04-05",
+    "code": "S",
+    "value": 32992,
+    "who": "Reinhart Harald"
+   },
+   {
+    "date": "2024-04-04",
+    "filed": "2024-04-05",
+    "code": "S",
+    "value": 19497,
+    "who": "Edmondson Frazor Titus III"
+   },
+   {
+    "date": "2024-04-04",
+    "filed": "2024-04-05",
+    "code": "S",
+    "value": 13244,
+    "who": "Chen Yajing"
+   },
+   {
+    "date": "2024-04-04",
+    "filed": "2024-04-05",
+    "code": "S",
+    "value": 30594,
+    "who": "Amado Rafael"
+   },
+   {
+    "date": "2024-04-02",
+    "filed": "2024-04-03",
+    "code": "S",
+    "value": 10902,
+    "who": "Edmondson Frazor Titus III"
+   },
+   {
+    "date": "2024-04-02",
+    "filed": "2024-04-03",
+    "code": "S",
+    "value": 3392,
+    "who": "Edmondson Frazor Titus III"
+   },
+   {
+    "date": "2024-04-02",
+    "filed": "2024-04-03",
+    "code": "S",
+    "value": 21965,
+    "who": "Reinhart Harald"
+   },
+   {
+    "date": "2024-04-02",
+    "filed": "2024-04-03",
+    "code": "S",
+    "value": 6670,
+    "who": "Reinhart Harald"
+   },
+   {
+    "date": "2024-04-02",
+    "filed": "2024-04-03",
+    "code": "S",
+    "value": 71064,
+    "who": "Du Ying"
+   },
+   {
+    "date": "2024-04-02",
+    "filed": "2024-04-03",
+    "code": "S",
+    "value": 22401,
+    "who": "Du Ying"
+   },
+   {
+    "date": "2024-04-02",
+    "filed": "2024-04-03",
+    "code": "S",
+    "value": 8382,
+    "who": "Chen Yajing"
+   },
+   {
+    "date": "2024-03-15",
+    "filed": "2024-03-19",
+    "code": "S",
+    "value": 47980,
+    "who": "Amado Rafael"
+   },
+   {
+    "date": "2024-03-15",
+    "filed": "2024-03-19",
+    "code": "S",
+    "value": 187127,
+    "who": "Edmondson Frazor Titus III"
+   },
+   {
+    "date": "2024-03-01",
+    "filed": "2024-03-04",
+    "code": "P",
+    "value": 62490,
+    "who": "Smiley Joshua L"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "zai lab",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06162286",
+    "drugs": [
+     "Omadacycline",
+     "Moxifloxacin"
+    ]
+   }
+  ]
+ }
+}

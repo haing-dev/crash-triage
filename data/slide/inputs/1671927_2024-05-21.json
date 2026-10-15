@@ -1,0 +1,146 @@
+{
+ "id": "1671927_2024-05-21",
+ "kind": "slide",
+ "cik": "1671927",
+ "name": "Immunocore Holdings plc",
+ "date": "2024-05-21",
+ "asof": "2024-05-21",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-05-21",
+  "adj_close": 51.0
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 832821000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001140361-24-024784"
+ },
+ "burn6": null,
+ "shares": {
+  "end": "2024-01-31",
+  "shares": 49820613
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 14,
+  "from": "2024-02-21",
+  "to": "2024-06-20",
+  "trades": [
+   {
+    "date": "2024-04-01",
+    "filed": "2024-04-03",
+    "code": "S",
+    "value": 280262,
+    "who": "St Leger Tina Amber"
+   },
+   {
+    "date": "2024-02-28",
+    "filed": "2024-03-01",
+    "code": "S",
+    "value": 1142609,
+    "who": "Berman David M"
+   },
+   {
+    "date": "2024-02-28",
+    "filed": "2024-03-01",
+    "code": "S",
+    "value": 514372,
+    "who": "Berman David M"
+   },
+   {
+    "date": "2024-02-28",
+    "filed": "2024-03-01",
+    "code": "S",
+    "value": 762637,
+    "who": "Berman David M"
+   },
+   {
+    "date": "2024-02-28",
+    "filed": "2024-03-01",
+    "code": "S",
+    "value": 84540,
+    "who": "Berman David M"
+   },
+   {
+    "date": "2024-02-26",
+    "filed": "2024-02-28",
+    "code": "S",
+    "value": 1872030,
+    "who": "Berman David M"
+   },
+   {
+    "date": "2024-02-26",
+    "filed": "2024-02-28",
+    "code": "S",
+    "value": 145258,
+    "who": "Berman David M"
+   },
+   {
+    "date": "2024-02-27",
+    "filed": "2024-02-28",
+    "code": "S",
+    "value": 308914,
+    "who": "Berman David M"
+   },
+   {
+    "date": "2024-02-27",
+    "filed": "2024-02-28",
+    "code": "S",
+    "value": 1489524,
+    "who": "Berman David M"
+   },
+   {
+    "date": "2024-02-27",
+    "filed": "2024-02-28",
+    "code": "S",
+    "value": 1850326,
+    "who": "Berman David M"
+   },
+   {
+    "date": "2024-02-27",
+    "filed": "2024-02-28",
+    "code": "S",
+    "value": 244266,
+    "who": "Berman David M"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "immunocore",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06840119",
+    "drugs": [
+     "IMC-R117C",
+     "Chemotherapy drug",
+     "Chemotherapy drug"
+    ]
+   },
+   {
+    "nct": "NCT05549297",
+    "drugs": [
+     "Tebentafusp",
+     "Tebentafusp with Pembrolizumab",
+     "Investigators Choice"
+    ]
+   },
+   {
+    "nct": "NCT04262466",
+    "drugs": [
+     "Brenetafusp",
+     "Brenetafusp and pembrolizumab",
+     "Brenetafusp and chemotherapy"
+    ]
+   }
+  ]
+ }
+}

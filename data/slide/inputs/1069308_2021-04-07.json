@@ -1,0 +1,50 @@
+{
+ "id": "1069308_2021-04-07",
+ "kind": "slide",
+ "cik": "1069308",
+ "name": "Acer Therapeutics Inc.",
+ "date": "2021-04-07",
+ "asof": "2021-04-07",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-04-07",
+  "adj_close": 2.98
+ },
+ "balance": {
+  "end": "2020-12-31",
+  "cash": 5761568,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001564590-21-009909"
+ },
+ "burn6": {
+  "end": "2020-12-31",
+  "start": "2020-07-01",
+  "cash_used_ops": 8327062.0,
+  "capex": 5455.181589041096,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-02-15",
+  "shares": 14310244
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These factors individually and collectively raise substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 10,
+  "from": "2021-01-07",
+  "to": "2021-05-07",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "acer therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

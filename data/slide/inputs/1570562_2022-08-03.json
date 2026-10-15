@@ -1,0 +1,101 @@
+{
+ "id": "1570562_2022-08-03",
+ "kind": "slide",
+ "cik": "1570562",
+ "name": "Evolus, Inc.",
+ "date": "2022-08-03",
+ "asof": "2022-08-03",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-08-03",
+  "adj_close": 9.58
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 84484000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001570562-22-000119"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 59087000.0,
+  "capex": 243000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-07-29",
+  "shares": 56094780
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2022-05-05",
+  "to": "2022-09-02",
+  "trades": [
+   {
+    "date": "2022-08-01",
+    "filed": "2022-08-03",
+    "code": "S",
+    "value": 345361,
+    "who": "Medytox Inc."
+   },
+   {
+    "date": "2022-05-16",
+    "filed": "2022-05-18",
+    "code": "S",
+    "value": 754307,
+    "who": "MOATAZEDI DAVID"
+   },
+   {
+    "date": "2022-05-17",
+    "filed": "2022-05-18",
+    "code": "S",
+    "value": 225354,
+    "who": "SILVERNAIL LAUREN P"
+   },
+   {
+    "date": "2022-05-18",
+    "filed": "2022-05-18",
+    "code": "S",
+    "value": 646026,
+    "who": "SILVERNAIL LAUREN P"
+   },
+   {
+    "date": "2022-05-13",
+    "filed": "2022-05-17",
+    "code": "S",
+    "value": 69584,
+    "who": "GILL DAVID N"
+   },
+   {
+    "date": "2022-05-16",
+    "filed": "2022-05-17",
+    "code": "S",
+    "value": 68080,
+    "who": "GILL DAVID N"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "evolus",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05320393",
+    "drugs": [
+     "PrabotulinumtoxinA-Xvfs",
+     "OnabotulinumtoxinA",
+     "PrabotulinumtoxinA-Xvfs"
+    ]
+   }
+  ]
+ }
+}

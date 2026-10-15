@@ -1,0 +1,106 @@
+{
+ "id": "1933414_2023-09-14",
+ "kind": "slide",
+ "cik": "1933414",
+ "name": "Mineralys Therapeutics, Inc.",
+ "date": "2023-09-14",
+ "asof": "2023-09-14",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-09-14",
+  "adj_close": 11.95
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 101140000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001933414-23-000056"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 33161000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-08-01",
+  "shares": 40856653
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2023-06-16",
+  "to": "2023-10-14",
+  "trades": [
+   {
+    "date": "2023-09-06",
+    "filed": "2023-09-08",
+    "code": "P",
+    "value": 27180,
+    "who": "Congleton Jon"
+   },
+   {
+    "date": "2023-08-17",
+    "filed": "2023-08-21",
+    "code": "P",
+    "value": 27225,
+    "who": "Congleton Jon"
+   },
+   {
+    "date": "2023-08-10",
+    "filed": "2023-08-11",
+    "code": "S",
+    "value": 982065,
+    "who": "Rodman David Malcom"
+   },
+   {
+    "date": "2023-08-11",
+    "filed": "2023-08-11",
+    "code": "S",
+    "value": 1036444,
+    "who": "Rodman David Malcom"
+   },
+   {
+    "date": "2023-08-11",
+    "filed": "2023-08-11",
+    "code": "S",
+    "value": 975891,
+    "who": "Rodman David Malcom"
+   },
+   {
+    "date": "2023-08-11",
+    "filed": "2023-08-11",
+    "code": "P",
+    "value": 25780,
+    "who": "Congleton Jon"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "mineralys therapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05968430",
+    "drugs": [
+     "lorundrostat"
+    ]
+   },
+   {
+    "nct": "NCT05769608",
+    "drugs": [
+     "lorundrostat Dose 1",
+     "lorundrostat Dose 2"
+    ]
+   }
+  ]
+ }
+}

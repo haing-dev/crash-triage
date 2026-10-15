@@ -1,0 +1,64 @@
+{
+ "id": "1850767_2025-09-12",
+ "kind": "slide",
+ "cik": "1850767",
+ "name": "Accustem Sciences Inc.",
+ "date": "2025-09-12",
+ "asof": "2025-09-12",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-09-12",
+  "adj_close": 1.47
+ },
+ "balance": {
+  "end": "2025-06-30",
+  "cash": 31341,
+  "parts": [
+   "Cash"
+  ],
+  "accn": "0001641172-25-023786"
+ },
+ "burn6": {
+  "end": "2025-06-30",
+  "start": "2025-01-01",
+  "cash_used_ops": 268615.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-08-14",
+  "shares": 16072267
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2025-06-14",
+  "to": "2025-10-12",
+  "trades": [
+   {
+    "date": "2025-06-13",
+    "filed": "2025-06-16",
+    "code": "P",
+    "value": 2000,
+    "who": "CERRONE GABRIELE M"
+   },
+   {
+    "date": "2025-06-13",
+    "filed": "2025-06-16",
+    "code": "P",
+    "value": 440,
+    "who": "CERRONE GABRIELE M"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "accustem sciences",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

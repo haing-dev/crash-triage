@@ -1,0 +1,58 @@
+{
+ "id": "1671858_2026-05-07",
+ "kind": "slide",
+ "cik": "1671858",
+ "name": "ARS Pharmaceuticals, Inc.",
+ "date": "2026-05-07",
+ "asof": "2026-05-07",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-05-07",
+  "adj_close": 9.0
+ },
+ "balance": {
+  "end": "2025-12-31",
+  "cash": 244986000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001193125-26-097478"
+ },
+ "burn6": {
+  "end": "2025-12-31",
+  "start": "2025-07-01",
+  "cash_used_ops": 90532000.0,
+  "capex": 197000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-03-04",
+  "shares": 99297307
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2026-02-06",
+  "to": "2026-06-06",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "ars pharmaceuticals",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06927999",
+    "drugs": [
+     "0.5 mg epinephrine",
+     "1 mg epinephrine"
+    ]
+   }
+  ]
+ }
+}

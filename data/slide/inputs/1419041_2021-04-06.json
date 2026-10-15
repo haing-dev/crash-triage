@@ -1,0 +1,56 @@
+{
+ "id": "1419041_2021-04-06",
+ "kind": "slide",
+ "cik": "1419041",
+ "name": "Forte Biosciences, Inc.",
+ "date": "2021-04-06",
+ "asof": "2021-04-06",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-04-06",
+  "adj_close": 807.25
+ },
+ "balance": {
+  "end": "2020-12-31",
+  "cash": 58765000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001564590-21-013249"
+ },
+ "burn6": {
+  "end": "2020-12-31",
+  "start": "2020-07-01",
+  "cash_used_ops": 11542000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-03-11",
+  "shares": 13508862
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2021-01-06",
+  "to": "2021-05-06",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "forte biosciences",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04504279",
+    "drugs": [
+     "FB-401"
+    ]
+   }
+  ]
+ }
+}

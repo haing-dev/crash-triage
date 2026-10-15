@@ -1,0 +1,66 @@
+{
+ "id": "1388320_2023-09-13",
+ "kind": "slide",
+ "cik": "1388320",
+ "name": "Actinium Pharmaceuticals, Inc.",
+ "date": "2023-09-13",
+ "asof": "2023-09-13",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-09-13",
+  "adj_close": 6.71
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 91276000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001213900-23-067199"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 28720000.0,
+  "capex": 123000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-08-14",
+  "shares": 26997587
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2023-06-15",
+  "to": "2023-10-13",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "actinium pharmaceuticals",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03932318",
+    "drugs": [
+     "Lintuzumab-Ac225",
+     "Venetoclax",
+     "Azacitidine"
+    ]
+   },
+   {
+    "nct": "NCT03867682",
+    "drugs": [
+     "Lintuzumab-Ac225",
+     "Venetoclax",
+     "Spironolactone"
+    ]
+   }
+  ]
+ }
+}

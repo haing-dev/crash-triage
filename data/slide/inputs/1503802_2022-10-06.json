@@ -1,0 +1,127 @@
+{
+ "id": "1503802_2022-10-06",
+ "kind": "slide",
+ "cik": "1503802",
+ "name": "Karyopharm Therapeutics Inc.",
+ "date": "2022-10-06",
+ "asof": "2022-10-06",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-10-06",
+  "adj_close": 86.25
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 170846000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0000950170-22-014788"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 94341000.0,
+  "capex": 79000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-07-29",
+  "shares": 79806616
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 9,
+  "from": "2022-07-08",
+  "to": "2022-11-05",
+  "trades": [
+   {
+    "date": "2022-10-04",
+    "filed": "2022-10-05",
+    "code": "S",
+    "value": 20475,
+    "who": "Paulson Richard A."
+   },
+   {
+    "date": "2022-09-08",
+    "filed": "2022-09-09",
+    "code": "S",
+    "value": 84,
+    "who": "Paulson Richard A."
+   },
+   {
+    "date": "2022-09-08",
+    "filed": "2022-09-09",
+    "code": "S",
+    "value": 18111,
+    "who": "Paulson Richard A."
+   },
+   {
+    "date": "2022-08-04",
+    "filed": "2022-08-05",
+    "code": "S",
+    "value": 10367,
+    "who": "Paulson Richard A."
+   },
+   {
+    "date": "2022-07-08",
+    "filed": "2022-07-11",
+    "code": "S",
+    "value": 10948,
+    "who": "Paulson Richard A."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "karyopharm therapeutics",
+  "other_trials": 11,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04414475",
+    "drugs": [
+     "Selinexor",
+     "Dexamethasone",
+     "Bortezomib"
+    ]
+   },
+   {
+    "nct": "NCT04421378",
+    "drugs": [
+     "Selinexor",
+     "Temozolomide (TMZ)",
+     "Lomustine (CCNU)"
+    ]
+   },
+   {
+    "nct": "NCT04442022",
+    "drugs": [
+     "Selinexor (combination therapy)",
+     "Selinexor (combination therapy)",
+     "Selinexor (combination therapy)"
+    ]
+   },
+   {
+    "nct": "NCT02227251",
+    "drugs": [
+     "Selinexor",
+     "Selinexor",
+     "Selinexor"
+    ]
+   },
+   {
+    "nct": "NCT02649790",
+    "drugs": [
+     "KPT-8602",
+     "ASTX727",
+     "Dexamethasone"
+    ]
+   }
+  ]
+ }
+}

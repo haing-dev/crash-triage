@@ -1,0 +1,76 @@
+{
+ "id": "1455365_2024-06-06",
+ "kind": "slide",
+ "cik": "1455365",
+ "name": "COGNITION THERAPEUTICS INC",
+ "date": "2024-06-06",
+ "asof": "2024-06-06",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-06-06",
+  "adj_close": 1.83
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 34671000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-24-006911"
+ },
+ "burn6": {
+  "end": "2024-03-31",
+  "start": "2023-10-01",
+  "cash_used_ops": 12700000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-05-02",
+  "shares": 40058498
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2024-03-08",
+  "to": "2024-07-06",
+  "trades": [
+   {
+    "date": "2024-03-14",
+    "filed": "2024-03-14",
+    "code": "P",
+    "value": 9975,
+    "who": "Ricciardi Lisa"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "cognition therapeutics",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05893537",
+    "drugs": [
+     "Active Comparator CT1812"
+    ]
+   },
+   {
+    "nct": "NCT05531656",
+    "drugs": [
+     "CT1812"
+    ]
+   },
+   {
+    "nct": "NCT05225415",
+    "drugs": [
+     "CT1812"
+    ]
+   }
+  ]
+ }
+}

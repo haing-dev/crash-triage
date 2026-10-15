@@ -1,0 +1,79 @@
+{
+ "id": "1101026_2025-10-17",
+ "kind": "slide",
+ "cik": "1101026",
+ "name": "Zivo Bioscience, Inc.",
+ "date": "2025-10-17",
+ "asof": "2025-10-17",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-10-17",
+  "adj_close": 12.51
+ },
+ "balance": {
+  "end": "2025-06-30",
+  "cash": 9823,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0001654954-25-009650"
+ },
+ "burn6": {
+  "end": "2025-06-30",
+  "start": "2025-01-01",
+  "cash_used_ops": 1906648.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-08-09",
+  "shares": 3817005
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These factors raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 7,
+  "from": "2025-07-19",
+  "to": "2025-11-16",
+  "trades": [
+   {
+    "date": "2025-10-13",
+    "filed": "2025-10-20",
+    "code": "P",
+    "value": 249996,
+    "who": "STROME MARK E"
+   },
+   {
+    "date": "2025-10-10",
+    "filed": "2025-10-14",
+    "code": "P",
+    "value": 19991,
+    "who": "YALDOO LAITH L"
+   },
+   {
+    "date": "2025-10-08",
+    "filed": "2025-10-09",
+    "code": "P",
+    "value": 284421,
+    "who": "Maggiore Christopher D."
+   },
+   {
+    "date": "2025-09-30",
+    "filed": "2025-10-02",
+    "code": "P",
+    "value": 244999,
+    "who": "YALDOO LAITH L"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "zivo bioscience",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

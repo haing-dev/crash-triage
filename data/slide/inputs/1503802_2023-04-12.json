@@ -1,0 +1,204 @@
+{
+ "id": "1503802_2023-04-12",
+ "kind": "slide",
+ "cik": "1503802",
+ "name": "Karyopharm Therapeutics Inc.",
+ "date": "2023-04-12",
+ "asof": "2023-04-12",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-04-12",
+  "adj_close": 57.3
+ },
+ "balance": {
+  "end": "2022-12-31",
+  "cash": 277967000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0000950170-23-003129"
+ },
+ "burn6": {
+  "end": "2022-12-31",
+  "start": "2022-07-01",
+  "cash_used_ops": 55213000.0,
+  "capex": 39000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-02-10",
+  "shares": 113342130
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 15,
+  "from": "2023-01-12",
+  "to": "2023-05-12",
+  "trades": [
+   {
+    "date": "2023-05-04",
+    "filed": "2023-05-05",
+    "code": "S",
+    "value": 12753,
+    "who": "Paulson Richard A."
+   },
+   {
+    "date": "2023-04-20",
+    "filed": "2023-04-24",
+    "code": "S",
+    "value": 463,
+    "who": "Rangwala Reshma"
+   },
+   {
+    "date": "2023-04-20",
+    "filed": "2023-04-24",
+    "code": "S",
+    "value": 26953,
+    "who": "Rangwala Reshma"
+   },
+   {
+    "date": "2023-04-04",
+    "filed": "2023-04-05",
+    "code": "S",
+    "value": 13883,
+    "who": "Paulson Richard A."
+   },
+   {
+    "date": "2023-03-06",
+    "filed": "2023-03-07",
+    "code": "S",
+    "value": 11079,
+    "who": "Paulson Richard A."
+   },
+   {
+    "date": "2023-03-01",
+    "filed": "2023-03-02",
+    "code": "S",
+    "value": 19257,
+    "who": "Mitchener Stephen"
+   },
+   {
+    "date": "2023-03-01",
+    "filed": "2023-03-02",
+    "code": "S",
+    "value": 20835,
+    "who": "Mano Michael"
+   },
+   {
+    "date": "2023-03-01",
+    "filed": "2023-03-02",
+    "code": "S",
+    "value": 34045,
+    "who": "Cheng Sohanya Roshan"
+   },
+   {
+    "date": "2023-03-01",
+    "filed": "2023-03-02",
+    "code": "S",
+    "value": 33942,
+    "who": "Mason Michael"
+   },
+   {
+    "date": "2023-03-01",
+    "filed": "2023-03-02",
+    "code": "S",
+    "value": 100064,
+    "who": "Paulson Richard A."
+   },
+   {
+    "date": "2023-02-27",
+    "filed": "2023-03-01",
+    "code": "S",
+    "value": 8509,
+    "who": "Mason Michael"
+   },
+   {
+    "date": "2023-02-15",
+    "filed": "2023-02-17",
+    "code": "S",
+    "value": 18071,
+    "who": "Poulton Stuart"
+   },
+   {
+    "date": "2023-02-15",
+    "filed": "2023-02-17",
+    "code": "S",
+    "value": 26,
+    "who": "Poulton Stuart"
+   },
+   {
+    "date": "2023-02-15",
+    "filed": "2023-02-17",
+    "code": "S",
+    "value": 619,
+    "who": "Poulton Stuart"
+   },
+   {
+    "date": "2023-02-06",
+    "filed": "2023-02-08",
+    "code": "S",
+    "value": 14079,
+    "who": "Mason Michael"
+   },
+   {
+    "date": "2023-02-06",
+    "filed": "2023-02-08",
+    "code": "S",
+    "value": 13430,
+    "who": "Paulson Richard A."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "karyopharm therapeutics",
+  "other_trials": 11,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04414475",
+    "drugs": [
+     "Selinexor",
+     "Dexamethasone",
+     "Bortezomib"
+    ]
+   },
+   {
+    "nct": "NCT04421378",
+    "drugs": [
+     "Selinexor",
+     "Temozolomide (TMZ)",
+     "Lomustine (CCNU)"
+    ]
+   },
+   {
+    "nct": "NCT04442022",
+    "drugs": [
+     "Selinexor (combination therapy)",
+     "Selinexor (combination therapy)",
+     "Selinexor (combination therapy)"
+    ]
+   },
+   {
+    "nct": "NCT02227251",
+    "drugs": [
+     "Selinexor",
+     "Selinexor",
+     "Selinexor"
+    ]
+   },
+   {
+    "nct": "NCT02649790",
+    "drugs": [
+     "KPT-8602",
+     "ASTX727",
+     "Dexamethasone"
+    ]
+   }
+  ]
+ }
+}

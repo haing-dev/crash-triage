@@ -1,0 +1,191 @@
+{
+ "id": "1701541_2021-04-06",
+ "kind": "slide",
+ "cik": "1701541",
+ "name": "Black Diamond Therapeutics, Inc.",
+ "date": "2021-04-06",
+ "asof": "2021-04-06",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-04-06",
+  "adj_close": 24.36
+ },
+ "balance": {
+  "end": "2020-12-31",
+  "cash": 315067000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001701541-21-000018"
+ },
+ "burn6": {
+  "end": "2020-12-31",
+  "start": "2020-07-01",
+  "cash_used_ops": 27260000.0,
+  "capex": 117000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-03-15",
+  "shares": 36137635
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 23,
+  "from": "2021-01-06",
+  "to": "2021-05-06",
+  "trades": [
+   {
+    "date": "2021-05-03",
+    "filed": "2021-05-05",
+    "code": "S",
+    "value": 66602,
+    "who": "Roberts Christopher D."
+   },
+   {
+    "date": "2021-04-12",
+    "filed": "2021-04-13",
+    "code": "S",
+    "value": 101950,
+    "who": "Hatzis-Schoch Brent"
+   },
+   {
+    "date": "2021-04-05",
+    "filed": "2021-04-07",
+    "code": "S",
+    "value": 63848,
+    "who": "Roberts Christopher D."
+   },
+   {
+    "date": "2021-03-12",
+    "filed": "2021-03-16",
+    "code": "S",
+    "value": 107493,
+    "who": "Hatzis-Schoch Brent"
+   },
+   {
+    "date": "2021-03-03",
+    "filed": "2021-03-04",
+    "code": "S",
+    "value": 41778,
+    "who": "Roberts Christopher D."
+   },
+   {
+    "date": "2021-03-03",
+    "filed": "2021-03-04",
+    "code": "S",
+    "value": 23484,
+    "who": "Roberts Christopher D."
+   },
+   {
+    "date": "2021-02-12",
+    "filed": "2021-02-12",
+    "code": "S",
+    "value": 102533,
+    "who": "Hatzis-Schoch Brent"
+   },
+   {
+    "date": "2021-02-12",
+    "filed": "2021-02-12",
+    "code": "S",
+    "value": 8492,
+    "who": "Hatzis-Schoch Brent"
+   },
+   {
+    "date": "2021-02-03",
+    "filed": "2021-02-04",
+    "code": "S",
+    "value": 63375,
+    "who": "Roberts Christopher D."
+   },
+   {
+    "date": "2021-01-12",
+    "filed": "2021-01-14",
+    "code": "S",
+    "value": 61284,
+    "who": "Hatzis-Schoch Brent"
+   },
+   {
+    "date": "2021-01-12",
+    "filed": "2021-01-14",
+    "code": "S",
+    "value": 50912,
+    "who": "Hatzis-Schoch Brent"
+   },
+   {
+    "date": "2021-01-12",
+    "filed": "2021-01-14",
+    "code": "S",
+    "value": 4690,
+    "who": "Hatzis-Schoch Brent"
+   },
+   {
+    "date": "2021-01-12",
+    "filed": "2021-01-14",
+    "code": "S",
+    "value": 3347,
+    "who": "Hatzis-Schoch Brent"
+   },
+   {
+    "date": "2021-01-12",
+    "filed": "2021-01-14",
+    "code": "S",
+    "value": 3412,
+    "who": "Hatzis-Schoch Brent"
+   },
+   {
+    "date": "2021-01-12",
+    "filed": "2021-01-14",
+    "code": "S",
+    "value": 270395,
+    "who": "Hatzis-Schoch Brent"
+   },
+   {
+    "date": "2021-01-08",
+    "filed": "2021-01-11",
+    "code": "S",
+    "value": 101820,
+    "who": "Leggett Thomas"
+   },
+   {
+    "date": "2021-01-04",
+    "filed": "2021-01-06",
+    "code": "S",
+    "value": 61460,
+    "who": "Roberts Christopher D."
+   },
+   {
+    "date": "2021-01-04",
+    "filed": "2021-01-06",
+    "code": "S",
+    "value": 17065,
+    "who": "Roberts Christopher D."
+   },
+   {
+    "date": "2021-01-04",
+    "filed": "2021-01-06",
+    "code": "S",
+    "value": 309430,
+    "who": "Epstein David M."
+   },
+   {
+    "date": "2021-01-04",
+    "filed": "2021-01-06",
+    "code": "S",
+    "value": 64075,
+    "who": "Epstein David M."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "black diamond therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

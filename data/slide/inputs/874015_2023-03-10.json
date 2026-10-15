@@ -1,0 +1,224 @@
+{
+ "id": "874015_2023-03-10",
+ "kind": "slide",
+ "cik": "874015",
+ "name": "IONIS PHARMACEUTICALS INC",
+ "date": "2023-03-10",
+ "asof": "2023-03-10",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-03-10",
+  "adj_close": 33.96
+ },
+ "balance": {
+  "end": "2022-12-31",
+  "cash": 2496692000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0000874015-23-000105"
+ },
+ "burn6": {
+  "end": "2022-12-31",
+  "start": "2022-07-01",
+  "cash_used_ops": 224624000.0,
+  "capex": 9681000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-02-16",
+  "shares": 142953993
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 42,
+  "from": "2022-12-10",
+  "to": "2023-04-09",
+  "trades": [
+   {
+    "date": "2023-02-06",
+    "filed": "2023-02-07",
+    "code": "S",
+    "value": 74031,
+    "who": "Swayze Eric"
+   },
+   {
+    "date": "2023-02-06",
+    "filed": "2023-02-07",
+    "code": "S",
+    "value": 57464,
+    "who": "Schneider Eugene"
+   },
+   {
+    "date": "2023-02-06",
+    "filed": "2023-02-07",
+    "code": "S",
+    "value": 78460,
+    "who": "O'NEIL PATRICK R."
+   },
+   {
+    "date": "2023-02-06",
+    "filed": "2023-02-07",
+    "code": "S",
+    "value": 1003153,
+    "who": "Monia Brett P"
+   },
+   {
+    "date": "2023-02-06",
+    "filed": "2023-02-07",
+    "code": "S",
+    "value": 84392,
+    "who": "HOUGEN ELIZABETH L"
+   },
+   {
+    "date": "2023-02-06",
+    "filed": "2023-02-07",
+    "code": "S",
+    "value": 78070,
+    "who": "Geary Richard S"
+   },
+   {
+    "date": "2023-02-06",
+    "filed": "2023-02-07",
+    "code": "S",
+    "value": 58997,
+    "who": "Cadoret-Manier Onaiza"
+   },
+   {
+    "date": "2023-02-06",
+    "filed": "2023-02-07",
+    "code": "S",
+    "value": 73560,
+    "who": "BENNETT C FRANK"
+   },
+   {
+    "date": "2023-01-30",
+    "filed": "2023-02-02",
+    "code": "S",
+    "value": 177372,
+    "who": "O'NEIL PATRICK R."
+   },
+   {
+    "date": "2023-01-31",
+    "filed": "2023-02-02",
+    "code": "S",
+    "value": 178700,
+    "who": "O'NEIL PATRICK R."
+   },
+   {
+    "date": "2023-01-18",
+    "filed": "2023-01-19",
+    "code": "S",
+    "value": 223800,
+    "who": "Swayze Eric"
+   },
+   {
+    "date": "2023-01-18",
+    "filed": "2023-01-19",
+    "code": "S",
+    "value": 188052,
+    "who": "Schneider Eugene"
+   },
+   {
+    "date": "2023-01-18",
+    "filed": "2023-01-19",
+    "code": "S",
+    "value": 309480,
+    "who": "O'NEIL PATRICK R."
+   },
+   {
+    "date": "2023-01-18",
+    "filed": "2023-01-19",
+    "code": "S",
+    "value": 989947,
+    "who": "Monia Brett P"
+   },
+   {
+    "date": "2023-01-18",
+    "filed": "2023-01-19",
+    "code": "S",
+    "value": 328721,
+    "who": "HOUGEN ELIZABETH L"
+   },
+   {
+    "date": "2023-01-18",
+    "filed": "2023-01-19",
+    "code": "S",
+    "value": 311525,
+    "who": "Geary Richard S"
+   },
+   {
+    "date": "2023-01-18",
+    "filed": "2023-01-19",
+    "code": "S",
+    "value": 148223,
+    "who": "Cadoret-Manier Onaiza"
+   },
+   {
+    "date": "2023-01-18",
+    "filed": "2023-01-19",
+    "code": "S",
+    "value": 271356,
+    "who": "BENNETT C FRANK"
+   },
+   {
+    "date": "2023-01-18",
+    "filed": "2023-01-19",
+    "code": "S",
+    "value": 14920,
+    "who": "Baroldi Joseph"
+   },
+   {
+    "date": "2023-01-17",
+    "filed": "2023-01-18",
+    "code": "S",
+    "value": 80000,
+    "who": "KLEIN JOSEPH III"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "ionis pharmaceuticals",
+  "other_trials": 24,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04849741",
+    "drugs": [
+     "zilganersen"
+    ]
+   },
+   {
+    "nct": "NCT04768972",
+    "drugs": [
+     "ION363"
+    ]
+   },
+   {
+    "nct": "NCT05185843",
+    "drugs": [
+     "Olezarsen"
+    ]
+   },
+   {
+    "nct": "NCT00048295",
+    "drugs": [
+     "Alicaforsen"
+    ]
+   },
+   {
+    "nct": "NCT04136184",
+    "drugs": [
+     "Inotersen",
+     "Eplontersen"
+    ]
+   }
+  ]
+ }
+}

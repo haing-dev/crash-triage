@@ -1,0 +1,50 @@
+{
+ "id": "1693415_2023-05-16",
+ "kind": "slide",
+ "cik": "1693415",
+ "name": "Translate Bio, Inc.",
+ "date": "2023-05-16",
+ "asof": "2023-05-16",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-05-16",
+  "adj_close": 36.18
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 667198000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001193125-21-237889"
+ },
+ "burn6": {
+  "end": "2021-06-30",
+  "start": "2021-01-01",
+  "cash_used_ops": -13694000.0,
+  "capex": 3419000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-08-02",
+  "shares": 75586714
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2023-02-15",
+  "to": "2023-06-15",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "translate bio",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

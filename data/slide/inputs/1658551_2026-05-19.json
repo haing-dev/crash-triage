@@ -1,0 +1,107 @@
+{
+ "id": "1658551_2026-05-19",
+ "kind": "slide",
+ "cik": "1658551",
+ "name": "Amylyx Pharmaceuticals, Inc.",
+ "date": "2026-05-19",
+ "asof": "2026-05-19",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-05-19",
+  "adj_close": 12.74
+ },
+ "balance": {
+  "end": "2026-03-31",
+  "cash": 279768000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001193125-26-210292"
+ },
+ "burn6": {
+  "end": "2026-03-31",
+  "start": "2025-10-01",
+  "cash_used_ops": 64785000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-04-27",
+  "shares": 111186317
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 17,
+  "from": "2026-02-18",
+  "to": "2026-06-18",
+  "trades": [
+   {
+    "date": "2026-05-21",
+    "filed": "2026-05-26",
+    "code": "P",
+    "value": 51338,
+    "who": "Firestone Karen"
+   },
+   {
+    "date": "2026-03-02",
+    "filed": "2026-03-04",
+    "code": "S",
+    "value": 423760,
+    "who": "Klee Justin B."
+   },
+   {
+    "date": "2026-03-02",
+    "filed": "2026-03-04",
+    "code": "S",
+    "value": 424120,
+    "who": "Cohen Joshua B"
+   },
+   {
+    "date": "2026-03-02",
+    "filed": "2026-03-04",
+    "code": "S",
+    "value": 94205,
+    "who": "Bedrosian Camille L"
+   },
+   {
+    "date": "2026-03-02",
+    "filed": "2026-03-04",
+    "code": "S",
+    "value": 114851,
+    "who": "FRATES JAMES M"
+   },
+   {
+    "date": "2026-03-02",
+    "filed": "2026-03-04",
+    "code": "S",
+    "value": 99378,
+    "who": "Mazzariello Gina"
+   },
+   {
+    "date": "2026-02-23",
+    "filed": "2026-02-25",
+    "code": "S",
+    "value": 48352,
+    "who": "Mazzariello Gina"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "amylyx pharmaceuticals",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06747468",
+    "drugs": [
+     "Avexitide"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "id": "1427925_2024-04-02",
+ "kind": "slide",
+ "cik": "1427925",
+ "name": "TALPHERA, INC.",
+ "date": "2024-04-02",
+ "asof": "2024-04-02",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-04-02",
+  "adj_close": 0.98000002
+ },
+ "balance": {
+  "end": "2023-12-31",
+  "cash": 9381000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001437749-24-006849"
+ },
+ "burn6": {
+  "end": "2023-12-31",
+  "start": "2023-07-01",
+  "cash_used_ops": 6909000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-02-29",
+  "shares": 16969103
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These conditions raise substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 17,
+  "from": "2024-01-03",
+  "to": "2024-05-02",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "talphera",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

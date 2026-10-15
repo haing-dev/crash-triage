@@ -1,0 +1,101 @@
+{
+ "id": "1808898_2025-04-08",
+ "kind": "slide",
+ "cik": "1808898",
+ "name": "Benitec Biopharma Inc.",
+ "date": "2025-04-08",
+ "asof": "2025-04-08",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-04-08",
+  "adj_close": 11.22
+ },
+ "balance": {
+  "end": "2024-12-31",
+  "cash": 78283000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001193125-25-026631"
+ },
+ "burn6": {
+  "end": "2024-12-31",
+  "start": "2024-07-01",
+  "cash_used_ops": 12289000.0,
+  "capex": 12000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-02-14",
+  "shares": 23451475
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2025-01-08",
+  "to": "2025-05-08",
+  "trades": [
+   {
+    "date": "2025-03-31",
+    "filed": "2025-04-02",
+    "code": "P",
+    "value": 120023,
+    "who": "SUVRETTA CAPITAL MANAGEMENT, LLC"
+   },
+   {
+    "date": "2025-03-31",
+    "filed": "2025-04-02",
+    "code": "P",
+    "value": 16002,
+    "who": "SUVRETTA CAPITAL MANAGEMENT, LLC"
+   },
+   {
+    "date": "2025-03-31",
+    "filed": "2025-04-02",
+    "code": "P",
+    "value": 66854,
+    "who": "SUVRETTA CAPITAL MANAGEMENT, LLC"
+   },
+   {
+    "date": "2025-03-31",
+    "filed": "2025-04-02",
+    "code": "P",
+    "value": 8857,
+    "who": "SUVRETTA CAPITAL MANAGEMENT, LLC"
+   },
+   {
+    "date": "2025-03-26",
+    "filed": "2025-03-28",
+    "code": "P",
+    "value": 10319400,
+    "who": "SUVRETTA CAPITAL MANAGEMENT, LLC"
+   },
+   {
+    "date": "2025-03-26",
+    "filed": "2025-03-28",
+    "code": "P",
+    "value": 1380600,
+    "who": "SUVRETTA CAPITAL MANAGEMENT, LLC"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "benitec biopharma",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06185673",
+    "drugs": [
+     "BB-301: Dose escalation phase 1b cohort 1",
+     "BB-301: Dose escalation phase 1b cohort 2",
+     "BB-301: Dose escalation phase 1b cohort 3"
+    ]
+   }
+  ]
+ }
+}

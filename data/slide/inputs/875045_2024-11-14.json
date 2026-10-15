@@ -1,0 +1,95 @@
+{
+ "id": "875045_2024-11-14",
+ "kind": "slide",
+ "cik": "875045",
+ "name": "BIOGEN INC.",
+ "date": "2024-11-14",
+ "asof": "2024-11-14",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-11-14",
+  "adj_close": 164.89
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 1699200000,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0000875045-24-000032"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": -1561400000.0,
+  "capex": 68500000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-10-29",
+  "shares": 145719340
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2024-08-16",
+  "to": "2024-12-14",
+  "trades": [
+   {
+    "date": "2024-12-09",
+    "filed": "2024-12-09",
+    "code": "S",
+    "value": 17293,
+    "who": "Singhal Priya"
+   },
+   {
+    "date": "2024-09-03",
+    "filed": "2024-09-05",
+    "code": "S",
+    "value": 88019,
+    "who": "Singhal Priya"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "biogen",
+  "other_trials": 5,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT01181089",
+    "drugs": [
+     "Baminercept"
+    ]
+   },
+   {
+    "nct": "NCT05067790",
+    "drugs": [
+     "Nusinersen"
+    ]
+   },
+   {
+    "nct": "NCT05352919",
+    "drugs": [
+     "Litifilimab"
+    ]
+   },
+   {
+    "nct": "NCT04729907",
+    "drugs": [
+     "Nusinersen"
+    ]
+   },
+   {
+    "nct": "NCT00168740",
+    "drugs": [
+     "rituximab"
+    ]
+   }
+  ]
+ }
+}

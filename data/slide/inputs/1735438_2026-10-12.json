@@ -1,0 +1,105 @@
+{
+ "id": "1735438_2026-10-12",
+ "kind": "slide",
+ "cik": "1735438",
+ "name": "MeiraGTx Holdings plc",
+ "date": "2026-10-12",
+ "asof": "2026-10-12",
+ "final": false,
+ "version": 5,
+ "price": {
+  "date": "2026-10-12",
+  "adj_close": 10.38
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 143166000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001104659-26-095504"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": 20727000.0,
+  "capex": 2340000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-08-11",
+  "shares": 96042996
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2026-07-14",
+  "to": "2026-10-15",
+  "trades": [
+   {
+    "date": "2026-10-06",
+    "filed": "2026-10-06",
+    "code": "S",
+    "value": 294292,
+    "who": "Naylor Stuart"
+   },
+   {
+    "date": "2026-08-18",
+    "filed": "2026-08-18",
+    "code": "S",
+    "value": 859320,
+    "who": "Forbes Alexandria"
+   },
+   {
+    "date": "2026-07-21",
+    "filed": "2026-07-21",
+    "code": "S",
+    "value": 700560,
+    "who": "Giroux Richard"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "meiragtx",
+  "other_trials": 6,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06646289",
+    "drugs": [
+     "AAV5-hRKp.RPGR",
+     "No intervention (Follow-Up assessment)"
+    ]
+   },
+   {
+    "nct": "NCT06544798",
+    "drugs": [
+     "AAV2-hAQP1"
+    ]
+   },
+   {
+    "nct": "NCT04794101",
+    "drugs": [
+     "Genetic: AAV5-hRKp.RPGR Intermediate Dose",
+     "Genetic: AAV5-hRKp.RPGR Low Dose"
+    ]
+   },
+   {
+    "nct": "NCT05894343",
+    "drugs": [
+     "AAV-GAD"
+    ]
+   },
+   {
+    "nct": "NCT05926583",
+    "drugs": [
+     "AAV5-hRKp.RPGR",
+     "AAV5-hRKp.RPGR"
+    ]
+   }
+  ]
+ }
+}

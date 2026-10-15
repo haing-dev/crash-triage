@@ -1,0 +1,64 @@
+{
+ "id": "1789192_2022-08-15",
+ "kind": "slide",
+ "cik": "1789192",
+ "name": "Nexentis Technologies Inc.",
+ "date": "2022-08-15",
+ "asof": "2022-08-15",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-08-15",
+  "adj_close": 8163.3999
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 4378434,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001493152-22-022618"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 2355007.0,
+  "capex": 26968.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-06-30",
+  "shares": 2876136
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2022-05-17",
+  "to": "2022-09-14",
+  "trades": [
+   {
+    "date": "2022-06-15",
+    "filed": "2022-07-26",
+    "code": "P",
+    "value": 29293,
+    "who": "Kalifi Udi Ovadia"
+   },
+   {
+    "date": "2022-06-16",
+    "filed": "2022-07-26",
+    "code": "P",
+    "value": 60793,
+    "who": "Kalifi Udi Ovadia"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "nexentis technologies",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

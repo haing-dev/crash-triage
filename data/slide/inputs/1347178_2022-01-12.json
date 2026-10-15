@@ -1,0 +1,97 @@
+{
+ "id": "1347178_2022-01-12",
+ "kind": "slide",
+ "cik": "1347178",
+ "name": "Vanda Pharmaceuticals Inc.",
+ "date": "2022-01-12",
+ "asof": "2022-01-12",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-01-12",
+  "adj_close": 14.49
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 405968000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001347178-21-000032"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": -28414000.0,
+  "capex": 288000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-10-28",
+  "shares": 55712230
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2021-10-14",
+  "to": "2022-02-11",
+  "trades": [
+   {
+    "date": "2021-11-30",
+    "filed": "2021-12-02",
+    "code": "S",
+    "value": 824275,
+    "who": "Polymeropoulos Mihael Hristos"
+   },
+   {
+    "date": "2021-12-01",
+    "filed": "2021-12-02",
+    "code": "S",
+    "value": 739348,
+    "who": "Polymeropoulos Mihael Hristos"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "vanda pharmaceuticals",
+  "other_trials": 9,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04819776",
+    "drugs": [
+     "Iloperidone"
+    ]
+   },
+   {
+    "nct": "NCT04028492",
+    "drugs": [
+     "Tradipitant",
+     "Open Label Tradipitant"
+    ]
+   },
+   {
+    "nct": "NCT04800237",
+    "drugs": [
+     "VQW-765"
+    ]
+   },
+   {
+    "nct": "NCT04856930",
+    "drugs": [
+     "Imsidolimab"
+    ]
+   },
+   {
+    "nct": "NCT01218789",
+    "drugs": [
+     "tasimelteon"
+    ]
+   }
+  ]
+ }
+}

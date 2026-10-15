@@ -1,0 +1,92 @@
+{
+ "id": "849146_2026-05-07",
+ "kind": "slide",
+ "cik": "849146",
+ "name": "Lifevantage Corp",
+ "date": "2026-05-07",
+ "asof": "2026-05-07",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-05-07",
+  "adj_close": 5.02
+ },
+ "balance": {
+  "end": "2026-03-31",
+  "cash": 12483000,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0001193125-26-208922"
+ },
+ "burn6": {
+  "end": "2026-03-31",
+  "start": "2025-10-01",
+  "cash_used_ops": -7779000.0,
+  "capex": 2095000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-05-04",
+  "shares": 12615822
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2026-02-06",
+  "to": "2026-06-06",
+  "trades": [
+   {
+    "date": "2026-06-03",
+    "filed": "2026-06-05",
+    "code": "S",
+    "value": 85459,
+    "who": "BEINDORFF MICHAEL A"
+   },
+   {
+    "date": "2026-03-16",
+    "filed": "2026-03-18",
+    "code": "P",
+    "value": 5518,
+    "who": "Lewis Darwin"
+   },
+   {
+    "date": "2026-02-26",
+    "filed": "2026-03-02",
+    "code": "P",
+    "value": 21068,
+    "who": "Dayton Judd"
+   },
+   {
+    "date": "2026-02-27",
+    "filed": "2026-03-02",
+    "code": "P",
+    "value": 83789,
+    "who": "Dayton Judd"
+   },
+   {
+    "date": "2026-03-02",
+    "filed": "2026-03-02",
+    "code": "P",
+    "value": 47565,
+    "who": "Dayton Judd"
+   },
+   {
+    "date": "2026-02-09",
+    "filed": "2026-02-11",
+    "code": "P",
+    "value": 20651,
+    "who": "Lewis Darwin"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "lifevantage",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

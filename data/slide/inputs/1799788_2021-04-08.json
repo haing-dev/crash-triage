@@ -1,0 +1,52 @@
+{
+ "id": "1799788_2021-04-08",
+ "kind": "slide",
+ "cik": "1799788",
+ "name": "Greenwich LifeSciences, Inc.",
+ "date": "2021-04-08",
+ "asof": "2021-04-08",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-04-08",
+  "adj_close": 50.5
+ },
+ "balance": {
+  "end": "2020-12-31",
+  "cash": 28660375,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001493152-21-007532"
+ },
+ "burn6": null,
+ "shares": {
+  "end": "2021-03-15",
+  "shares": 12846897
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "The Company met and exceeded those predications thus mitigating any substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2021-01-08",
+  "to": "2021-05-08",
+  "trades": [
+   {
+    "date": "2021-04-13",
+    "filed": "2021-04-14",
+    "code": "P",
+    "value": 99853,
+    "who": "Patel Snehal"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "greenwich lifesciences",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,144 @@
+{
+ "id": "728387_2024-11-21",
+ "kind": "crash",
+ "cik": "728387",
+ "name": "Perspective Therapeutics, Inc.",
+ "date": "2024-11-21",
+ "asof": "2024-11-21",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-11-21",
+  "adj_close": 3.0
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 267847000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-24-125399"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": 5536000.0,
+  "capex": 30728000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-11-07",
+  "shares": 67587540
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2024-08-23",
+  "to": "2024-12-21",
+  "trades": [
+   {
+    "date": "2024-12-04",
+    "filed": "2024-12-06",
+    "code": "P",
+    "value": 100004,
+    "who": "HENSON HEIDI"
+   },
+   {
+    "date": "2024-12-04",
+    "filed": "2024-12-04",
+    "code": "P",
+    "value": 30132,
+    "who": "Spoor Johan M."
+   },
+   {
+    "date": "2024-11-25",
+    "filed": "2024-11-27",
+    "code": "P",
+    "value": 13202,
+    "who": "Williamson Robert F III"
+   },
+   {
+    "date": "2024-11-25",
+    "filed": "2024-11-27",
+    "code": "P",
+    "value": 9612,
+    "who": "Williamson Robert F III"
+   },
+   {
+    "date": "2024-11-25",
+    "filed": "2024-11-27",
+    "code": "P",
+    "value": 1420,
+    "who": "Hunt Jonathan Robert"
+   },
+   {
+    "date": "2024-11-25",
+    "filed": "2024-11-27",
+    "code": "P",
+    "value": 114,
+    "who": "Hunt Jonathan Robert"
+   },
+   {
+    "date": "2024-11-25",
+    "filed": "2024-11-27",
+    "code": "P",
+    "value": 8640,
+    "who": "Hunt Jonathan Robert"
+   },
+   {
+    "date": "2024-11-25",
+    "filed": "2024-11-27",
+    "code": "P",
+    "value": 38800,
+    "who": "Hunt Jonathan Robert"
+   },
+   {
+    "date": "2024-11-25",
+    "filed": "2024-11-26",
+    "code": "P",
+    "value": 54868,
+    "who": "Spoor Johan M."
+   },
+   {
+    "date": "2024-11-25",
+    "filed": "2024-11-26",
+    "code": "P",
+    "value": 20520,
+    "who": "Spoor Johan M."
+   },
+   {
+    "date": "2024-11-25",
+    "filed": "2024-11-26",
+    "code": "P",
+    "value": 25080,
+    "who": "Spoor Johan M."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "perspective therapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05655312",
+    "drugs": [
+     "[203Pb]VMT01",
+     "[212Pb]VMT01",
+     "Nivolumab"
+    ]
+   },
+   {
+    "nct": "NCT05636618",
+    "drugs": [
+     "[203Pb]VMT-\u03b1-NET",
+     "[212Pb]VMT-\u03b1-NET"
+    ]
+   }
+  ]
+ }
+}

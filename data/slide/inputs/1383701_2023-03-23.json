@@ -1,0 +1,50 @@
+{
+ "id": "1383701_2023-03-23",
+ "kind": "slide",
+ "cik": "1383701",
+ "name": "Histogen Inc.",
+ "date": "2023-03-23",
+ "asof": "2023-03-23",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-03-23",
+  "adj_close": 1.01
+ },
+ "balance": {
+  "end": "2022-12-31",
+  "cash": 12109000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-23-007056"
+ },
+ "burn6": {
+  "end": "2022-12-31",
+  "start": "2022-07-01",
+  "cash_used_ops": 4889000.0,
+  "capex": 10000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-03-08",
+  "shares": 4271759
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "\u2022 Our independent registered public accounting firm has expressed substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2022-12-23",
+  "to": "2023-04-22",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "histogen",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

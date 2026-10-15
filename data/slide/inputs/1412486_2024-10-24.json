@@ -1,0 +1,49 @@
+{
+ "id": "1412486_2024-10-24",
+ "kind": "slide",
+ "cik": "1412486",
+ "name": "Cocrystal Pharma, Inc.",
+ "date": "2024-10-24",
+ "asof": "2024-10-24",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-10-24",
+  "adj_close": 1.95
+ },
+ "balance": {
+  "end": "2024-06-30",
+  "cash": 18143000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001493152-24-031877"
+ },
+ "burn6": {
+  "end": "2024-06-30",
+  "start": "2024-01-01",
+  "cash_used_ops": 8202000.0,
+  "capex": 8000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-08-14",
+  "shares": 10173790
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2024-07-26",
+  "to": "2024-11-23",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "cocrystal pharma",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

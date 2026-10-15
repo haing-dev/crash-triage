@@ -1,0 +1,50 @@
+{
+ "id": "1137883_2022-11-09",
+ "kind": "slide",
+ "cik": "1137883",
+ "name": "BRAINSTORM CELL THERAPEUTICS INC.",
+ "date": "2022-11-09",
+ "asof": "2022-11-09",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-11-09",
+  "adj_close": 43.35
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 12244000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001410578-22-002510"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 9822000.0,
+  "capex": 28000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-08-15",
+  "shares": 36486180
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2022-08-11",
+  "to": "2022-12-09",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "brainstorm cell therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

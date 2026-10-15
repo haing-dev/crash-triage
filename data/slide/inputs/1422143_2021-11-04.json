@@ -1,0 +1,66 @@
+{
+ "id": "1422143_2021-11-04",
+ "kind": "slide",
+ "cik": "1422143",
+ "name": "Kura Oncology, Inc.",
+ "date": "2021-11-04",
+ "asof": "2021-11-04",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-11-04",
+  "adj_close": 18.059999
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 543445000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001564590-21-054494"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 52668000.0,
+  "capex": 1014000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-11-01",
+  "shares": 66555775
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2021-08-06",
+  "to": "2021-12-04",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "kura oncology",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03719690",
+    "drugs": [
+     "Tipifarnib",
+     "HRAS Detection Assay"
+    ]
+   },
+   {
+    "nct": "NCT04067336",
+    "drugs": [
+     "Ziftomenib",
+     "Midazolam",
+     "Itraconazole"
+    ]
+   }
+  ]
+ }
+}

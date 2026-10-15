@@ -1,0 +1,71 @@
+{
+ "id": "1001233_2024-03-07",
+ "kind": "slide",
+ "cik": "1001233",
+ "name": "SANGAMO THERAPEUTICS, INC",
+ "date": "2024-03-07",
+ "asof": "2024-03-07",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-03-07",
+  "adj_close": 0.9193
+ },
+ "balance": {
+  "end": "2023-09-30",
+  "cash": 56514000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001628280-23-035989"
+ },
+ "burn6": {
+  "end": "2023-09-30",
+  "start": "2023-04-01",
+  "cash_used_ops": 108004000.0,
+  "capex": 8284000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-10-30",
+  "shares": 177346980
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Our history of significant losses, negative cash flows from operations, limited liquidity resources currently on hand and dependence on our ability to obtain additional financing to fund our operations after the current resources are exhausted, about which there can be no certainty, have resulted in"
+ },
+ "insiders": {
+  "form4s": 10,
+  "from": "2023-12-08",
+  "to": "2024-04-06",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "sangamo therapeutics",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03653247",
+    "drugs": [
+     "Plerixafor",
+     "Busulfan",
+     "BIVV003"
+    ]
+   },
+   {
+    "nct": "NCT04046224",
+    "drugs": [
+     "ST-920"
+    ]
+   },
+   {
+    "nct": "NCT04817774",
+    "drugs": [
+     "TX200-TR101"
+    ]
+   }
+  ]
+ }
+}

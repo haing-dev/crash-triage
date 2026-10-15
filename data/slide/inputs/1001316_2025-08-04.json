@@ -1,0 +1,78 @@
+{
+ "id": "1001316_2025-08-04",
+ "kind": "slide",
+ "cik": "1001316",
+ "name": "TG THERAPEUTICS, INC.",
+ "date": "2025-08-04",
+ "asof": "2025-08-04",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-08-04",
+  "adj_close": 28.72
+ },
+ "balance": {
+  "end": "2025-03-31",
+  "cash": 276240000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001437749-25-015804"
+ },
+ "burn6": {
+  "end": "2025-03-31",
+  "start": "2024-10-01",
+  "cash_used_ops": 54356000.0,
+  "capex": 46000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-05-05",
+  "shares": 158755036
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2025-05-06",
+  "to": "2025-09-03",
+  "trades": [
+   {
+    "date": "2025-06-13",
+    "filed": "2025-06-16",
+    "code": "S",
+    "value": 369400,
+    "who": "Echelard Yann"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "tg therapeutics",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT07211633",
+    "drugs": [
+     "Ublituximab",
+     "Ublituximab"
+    ]
+   },
+   {
+    "nct": "NCT05877963",
+    "drugs": [
+     "Ublituximab"
+    ]
+   },
+   {
+    "nct": "NCT04130997",
+    "drugs": [
+     "Ublituximab"
+    ]
+   }
+  ]
+ }
+}

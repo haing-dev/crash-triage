@@ -1,0 +1,82 @@
+{
+ "id": "1055726_2022-11-28",
+ "kind": "slide",
+ "cik": "1055726",
+ "name": "INOVIO PHARMACEUTICALS, INC.",
+ "date": "2022-11-28",
+ "asof": "2022-11-28",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-11-28",
+  "adj_close": 22.8
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 281883137,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001055726-22-000055"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 117993287.0,
+  "capex": 804044.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-11-07",
+  "shares": 249489264
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2022-08-30",
+  "to": "2022-12-28",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "inovio pharmaceuticals",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03491683",
+    "drugs": [
+     "INO-5401",
+     "INO-9012",
+     "Cemiplimab"
+    ]
+   },
+   {
+    "nct": "NCT04398433",
+    "drugs": [
+     "INO-3107",
+     "CELLECTRA\u00ae 2000"
+    ]
+   },
+   {
+    "nct": "NCT04588428",
+    "drugs": [
+     "INO-4700",
+     "CELLECTRA\u2122 2000",
+     "INO-4700"
+    ]
+   },
+   {
+    "nct": "NCT03502785",
+    "drugs": [
+     "INO-5401",
+     "INO-9012",
+     "Atezolizumab"
+    ]
+   }
+  ]
+ }
+}

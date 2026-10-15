@@ -1,0 +1,49 @@
+{
+ "id": "1598646_2024-02-16",
+ "kind": "slide",
+ "cik": "1598646",
+ "name": "Minerva Neurosciences, Inc.",
+ "date": "2024-02-16",
+ "asof": "2024-02-16",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-02-16",
+  "adj_close": 8.39
+ },
+ "balance": {
+  "end": "2023-09-30",
+  "cash": 46903960,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-23-059747"
+ },
+ "burn6": {
+  "end": "2023-09-30",
+  "start": "2023-04-01",
+  "cash_used_ops": 8677940.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-11-02",
+  "shares": 6993406
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2023-11-18",
+  "to": "2024-03-17",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "minerva neurosciences",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

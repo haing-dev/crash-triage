@@ -1,0 +1,93 @@
+{
+ "id": "1001233_2022-07-18",
+ "kind": "slide",
+ "cik": "1001233",
+ "name": "SANGAMO THERAPEUTICS, INC",
+ "date": "2022-07-18",
+ "asof": "2022-07-18",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-07-18",
+  "adj_close": 4.46
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 400311000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0001628280-22-012629"
+ },
+ "burn6": {
+  "end": "2022-03-31",
+  "start": "2021-10-01",
+  "cash_used_ops": 111689000.0,
+  "capex": 5697000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-05-02",
+  "shares": 146687251
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 9,
+  "from": "2022-04-19",
+  "to": "2022-08-17",
+  "trades": [
+   {
+    "date": "2022-06-03",
+    "filed": "2022-06-06",
+    "code": "P",
+    "value": 25029,
+    "who": "Markels John"
+   },
+   {
+    "date": "2022-06-01",
+    "filed": "2022-06-03",
+    "code": "P",
+    "value": 17996,
+    "who": "PARKER H STEWART"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "sangamo therapeutics",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03653247",
+    "drugs": [
+     "Plerixafor",
+     "Busulfan",
+     "BIVV003"
+    ]
+   },
+   {
+    "nct": "NCT04046224",
+    "drugs": [
+     "ST-920"
+    ]
+   },
+   {
+    "nct": "NCT03432364",
+    "drugs": [
+     "ST-400 Investigational product"
+    ]
+   },
+   {
+    "nct": "NCT04817774",
+    "drugs": [
+     "TX200-TR101"
+    ]
+   }
+  ]
+ }
+}

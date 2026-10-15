@@ -1,0 +1,107 @@
+{
+ "id": "1628171_2022-09-21",
+ "kind": "slide",
+ "cik": "1628171",
+ "name": "Revolution Medicines, Inc.",
+ "date": "2022-09-21",
+ "asof": "2022-09-21",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-09-21",
+  "adj_close": 17.46
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 461433000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-22-016059"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 110876000.0,
+  "capex": 4415000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-08-04",
+  "shares": 87697561
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 10,
+  "from": "2022-06-23",
+  "to": "2022-10-21",
+  "trades": [
+   {
+    "date": "2022-09-19",
+    "filed": "2022-09-21",
+    "code": "S",
+    "value": 13996,
+    "who": "Wang Xiaolin"
+   },
+   {
+    "date": "2022-09-19",
+    "filed": "2022-09-21",
+    "code": "S",
+    "value": 24127,
+    "who": "Kelsey Stephen Michael"
+   },
+   {
+    "date": "2022-09-19",
+    "filed": "2022-09-21",
+    "code": "S",
+    "value": 24127,
+    "who": "Horn Margaret A"
+   },
+   {
+    "date": "2022-09-19",
+    "filed": "2022-09-21",
+    "code": "S",
+    "value": 8550,
+    "who": "Anders Jack"
+   },
+   {
+    "date": "2022-07-22",
+    "filed": "2022-07-26",
+    "code": "P",
+    "value": 5000000,
+    "who": "Schroeder Thilo"
+   },
+   {
+    "date": "2022-07-22",
+    "filed": "2022-07-25",
+    "code": "P",
+    "value": 1000000,
+    "who": "Kim Lorence H."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "revolution medicines",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05054725",
+    "drugs": [
+     "RMC-4630",
+     "Sotorasib"
+    ]
+   },
+   {
+    "nct": "NCT05379985",
+    "drugs": [
+     "RMC-6236"
+    ]
+   }
+  ]
+ }
+}

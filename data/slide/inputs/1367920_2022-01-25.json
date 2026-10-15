@@ -1,0 +1,149 @@
+{
+ "id": "1367920_2022-01-25",
+ "kind": "slide",
+ "cik": "1367920",
+ "name": "CONCERT PHARMACEUTICALS, INC.",
+ "date": "2022-01-25",
+ "asof": "2022-01-25",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-01-25",
+  "adj_close": 2.93
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 106223000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001367920-21-000068"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 7962000.0,
+  "capex": 147000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-11-05",
+  "shares": 34659815
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "\u2022Based on our current operating plan, there is substantial doubt regarding our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 16,
+  "from": "2021-10-27",
+  "to": "2022-02-24",
+  "trades": [
+   {
+    "date": "2022-02-15",
+    "filed": "2022-02-16",
+    "code": "S",
+    "value": 41653,
+    "who": "Tung Roger D"
+   },
+   {
+    "date": "2022-02-14",
+    "filed": "2022-02-16",
+    "code": "S",
+    "value": 18631,
+    "who": "Stuart Nancy"
+   },
+   {
+    "date": "2022-02-14",
+    "filed": "2022-02-16",
+    "code": "S",
+    "value": 11625,
+    "who": "Munsie Jeffrey A"
+   },
+   {
+    "date": "2022-02-14",
+    "filed": "2022-02-16",
+    "code": "S",
+    "value": 11625,
+    "who": "Cassella James V"
+   },
+   {
+    "date": "2022-02-14",
+    "filed": "2022-02-16",
+    "code": "S",
+    "value": 11587,
+    "who": "Becker Marc A."
+   },
+   {
+    "date": "2022-01-06",
+    "filed": "2022-01-07",
+    "code": "S",
+    "value": 28552,
+    "who": "Tung Roger D"
+   },
+   {
+    "date": "2022-01-05",
+    "filed": "2022-01-07",
+    "code": "S",
+    "value": 9232,
+    "who": "Stuart Nancy"
+   },
+   {
+    "date": "2022-01-05",
+    "filed": "2022-01-07",
+    "code": "S",
+    "value": 9261,
+    "who": "Munsie Jeffrey A"
+   },
+   {
+    "date": "2022-01-05",
+    "filed": "2022-01-07",
+    "code": "S",
+    "value": 9232,
+    "who": "Cassella James V"
+   },
+   {
+    "date": "2022-01-05",
+    "filed": "2022-01-07",
+    "code": "S",
+    "value": 9261,
+    "who": "Becker Marc A."
+   },
+   {
+    "date": "2021-12-13",
+    "filed": "2021-12-15",
+    "code": "S",
+    "value": 24254,
+    "who": "Tung Roger D"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "concert pharmaceuticals",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04784533",
+    "drugs": [
+     "CTP-543"
+    ]
+   },
+   {
+    "nct": "NCT04797650",
+    "drugs": [
+     "CTP-543"
+    ]
+   },
+   {
+    "nct": "NCT04518995",
+    "drugs": [
+     "CTP-543",
+     "CTP-543"
+    ]
+   }
+  ]
+ }
+}

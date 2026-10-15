@@ -1,0 +1,94 @@
+{
+ "id": "1728117_2024-04-05",
+ "kind": "slide",
+ "cik": "1728117",
+ "name": "Gossamer Bio, Inc.",
+ "date": "2024-04-05",
+ "asof": "2024-04-05",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-04-05",
+  "adj_close": 82.4
+ },
+ "balance": {
+  "end": "2023-12-31",
+  "cash": 296425000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001728117-24-000019"
+ },
+ "burn6": {
+  "end": "2023-12-31",
+  "start": "2023-07-01",
+  "cash_used_ops": 67918000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-02-27",
+  "shares": 225582250
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 7,
+  "from": "2024-01-06",
+  "to": "2024-05-05",
+  "trades": [
+   {
+    "date": "2024-03-27",
+    "filed": "2024-03-28",
+    "code": "S",
+    "value": 7430,
+    "who": "Christian Waage"
+   },
+   {
+    "date": "2024-03-27",
+    "filed": "2024-03-28",
+    "code": "S",
+    "value": 7431,
+    "who": "Giraudo Bryan"
+   },
+   {
+    "date": "2024-03-27",
+    "filed": "2024-03-28",
+    "code": "S",
+    "value": 26773,
+    "who": "Hasnain Faheem"
+   },
+   {
+    "date": "2024-03-18",
+    "filed": "2024-03-19",
+    "code": "S",
+    "value": 5342,
+    "who": "Aranda Richard"
+   },
+   {
+    "date": "2024-03-18",
+    "filed": "2024-03-19",
+    "code": "S",
+    "value": 5343,
+    "who": "Peterson Caryn"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "gossamer bio",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04816604",
+    "drugs": [
+     "GB002 (seralutinib)",
+     "Generic Dry Powder Inhaler"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,182 @@
+{
+ "id": "1822791_2022-07-29",
+ "kind": "slide",
+ "cik": "1822791",
+ "name": "Clene Inc.",
+ "date": "2022-07-29",
+ "asof": "2022-07-29",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-07-29",
+  "adj_close": 67.0
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 36516000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-22-008241"
+ },
+ "burn6": {
+  "end": "2022-03-31",
+  "start": "2021-10-01",
+  "cash_used_ops": 22690000.0,
+  "capex": 1607000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-05-04",
+  "shares": 63256545
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 27,
+  "from": "2022-04-30",
+  "to": "2022-08-28",
+  "trades": [
+   {
+    "date": "2022-08-17",
+    "filed": "2022-08-18",
+    "code": "P",
+    "value": 183499,
+    "who": "Stevens John Henry"
+   },
+   {
+    "date": "2022-07-18",
+    "filed": "2022-07-19",
+    "code": "S",
+    "value": 110840,
+    "who": "Etherington Robert Dee"
+   },
+   {
+    "date": "2022-06-16",
+    "filed": "2022-06-21",
+    "code": "P",
+    "value": 187500,
+    "who": "MATLIN DAVID J"
+   },
+   {
+    "date": "2022-06-17",
+    "filed": "2022-06-21",
+    "code": "P",
+    "value": 187271,
+    "who": "MATLIN DAVID J"
+   },
+   {
+    "date": "2022-06-16",
+    "filed": "2022-06-17",
+    "code": "S",
+    "value": 50010,
+    "who": "Mortenson Mark"
+   },
+   {
+    "date": "2022-06-15",
+    "filed": "2022-06-16",
+    "code": "P",
+    "value": 13100,
+    "who": "Mosca Alison"
+   },
+   {
+    "date": "2022-06-14",
+    "filed": "2022-06-16",
+    "code": "P",
+    "value": 135689,
+    "who": "MATLIN DAVID J"
+   },
+   {
+    "date": "2022-06-15",
+    "filed": "2022-06-16",
+    "code": "P",
+    "value": 119700,
+    "who": "MATLIN DAVID J"
+   },
+   {
+    "date": "2022-06-13",
+    "filed": "2022-06-14",
+    "code": "P",
+    "value": 168300,
+    "who": "MATLIN DAVID J"
+   },
+   {
+    "date": "2022-06-03",
+    "filed": "2022-06-07",
+    "code": "P",
+    "value": 24600,
+    "who": "MATLIN DAVID J"
+   },
+   {
+    "date": "2022-06-06",
+    "filed": "2022-06-07",
+    "code": "P",
+    "value": 130222,
+    "who": "MATLIN DAVID J"
+   },
+   {
+    "date": "2022-05-27",
+    "filed": "2022-05-27",
+    "code": "P",
+    "value": 79450,
+    "who": "MATLIN DAVID J"
+   },
+   {
+    "date": "2022-05-16",
+    "filed": "2022-05-18",
+    "code": "S",
+    "value": 400000,
+    "who": "General Resonance LLC"
+   },
+   {
+    "date": "2022-05-16",
+    "filed": "2022-05-18",
+    "code": "P",
+    "value": 400000,
+    "who": "MATLIN DAVID J"
+   },
+   {
+    "date": "2022-05-16",
+    "filed": "2022-05-18",
+    "code": "S",
+    "value": 9576,
+    "who": "Glanzman Robert"
+   },
+   {
+    "date": "2022-05-16",
+    "filed": "2022-05-17",
+    "code": "P",
+    "value": 20800,
+    "who": "Gay Jonathon"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "clene",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04626921",
+    "drugs": [
+     "CNM-Au8"
+    ]
+   },
+   {
+    "nct": "NCT05299658",
+    "drugs": [
+     "CNMAu8"
+    ]
+   },
+   {
+    "nct": "NCT03993171",
+    "drugs": [
+     "gold nanocrystals"
+    ]
+   }
+  ]
+ }
+}

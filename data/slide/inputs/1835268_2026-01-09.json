@@ -1,0 +1,50 @@
+{
+ "id": "1835268_2026-01-09",
+ "kind": "slide",
+ "cik": "1835268",
+ "name": "Connect Biopharma Holdings Ltd",
+ "date": "2026-01-09",
+ "asof": "2026-01-09",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-01-09",
+  "adj_close": 2.15
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 54781000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001835268-25-000058"
+ },
+ "burn6": {
+  "end": "2025-09-30",
+  "start": "2025-04-01",
+  "cash_used_ops": 29997000.0,
+  "capex": 337000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-10-31",
+  "shares": 55903513
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2025-10-11",
+  "to": "2026-02-08",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "connect biopharma",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

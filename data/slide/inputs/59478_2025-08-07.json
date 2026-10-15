@@ -1,0 +1,217 @@
+{
+ "id": "59478_2025-08-07",
+ "kind": "slide",
+ "cik": "59478",
+ "name": "ELI LILLY & Co",
+ "date": "2025-08-07",
+ "asof": "2025-08-07",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-08-07",
+  "adj_close": 640.85999
+ },
+ "balance": {
+  "end": "2025-06-30",
+  "cash": 3546000000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000059478-25-000204"
+ },
+ "burn6": {
+  "end": "2025-06-30",
+  "start": "2025-01-01",
+  "cash_used_ops": -4752500000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-08-04",
+  "shares": 946456759
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 35,
+  "from": "2025-05-09",
+  "to": "2025-09-06",
+  "trades": [
+   {
+    "date": "2025-08-28",
+    "filed": "2025-08-28",
+    "code": "S",
+    "value": 734930,
+    "who": "Zakrowski Donald A"
+   },
+   {
+    "date": "2025-08-15",
+    "filed": "2025-08-15",
+    "code": "P",
+    "value": 494627,
+    "who": "Montarce Lucas"
+   },
+   {
+    "date": "2025-08-13",
+    "filed": "2025-08-14",
+    "code": "P",
+    "value": 500473,
+    "who": "Alvarez Ralph"
+   },
+   {
+    "date": "2025-08-13",
+    "filed": "2025-08-13",
+    "code": "P",
+    "value": 647360,
+    "who": "Van Naarden Jacob"
+   },
+   {
+    "date": "2025-08-12",
+    "filed": "2025-08-12",
+    "code": "P",
+    "value": 1052263,
+    "who": "Ricks David A"
+   },
+   {
+    "date": "2025-08-12",
+    "filed": "2025-08-12",
+    "code": "P",
+    "value": 634405,
+    "who": "Skovronsky Daniel"
+   },
+   {
+    "date": "2025-08-12",
+    "filed": "2025-08-12",
+    "code": "P",
+    "value": 75018,
+    "who": "Sulzberger Gabrielle"
+   },
+   {
+    "date": "2025-08-12",
+    "filed": "2025-08-12",
+    "code": "P",
+    "value": 440409,
+    "who": "Fyrwald J Erik"
+   },
+   {
+    "date": "2025-08-12",
+    "filed": "2025-08-12",
+    "code": "P",
+    "value": 564833,
+    "who": "Fyrwald J Erik"
+   },
+   {
+    "date": "2025-08-11",
+    "filed": "2025-08-12",
+    "code": "S",
+    "value": 783762,
+    "who": "Yuffa Ilya"
+   },
+   {
+    "date": "2025-08-08",
+    "filed": "2025-08-08",
+    "code": "P",
+    "value": 127913,
+    "who": "JACKSON JAMERE"
+   },
+   {
+    "date": "2025-07-24",
+    "filed": "2025-07-25",
+    "code": "S",
+    "value": 51074264,
+    "who": "LILLY ENDOWMENT INC"
+   },
+   {
+    "date": "2025-07-24",
+    "filed": "2025-07-25",
+    "code": "S",
+    "value": 82841534,
+    "who": "LILLY ENDOWMENT INC"
+   },
+   {
+    "date": "2025-07-24",
+    "filed": "2025-07-25",
+    "code": "S",
+    "value": 37666043,
+    "who": "LILLY ENDOWMENT INC"
+   },
+   {
+    "date": "2025-07-24",
+    "filed": "2025-07-25",
+    "code": "S",
+    "value": 17856599,
+    "who": "LILLY ENDOWMENT INC"
+   },
+   {
+    "date": "2025-07-24",
+    "filed": "2025-07-25",
+    "code": "S",
+    "value": 29217447,
+    "who": "LILLY ENDOWMENT INC"
+   },
+   {
+    "date": "2025-07-24",
+    "filed": "2025-07-25",
+    "code": "S",
+    "value": 6763372,
+    "who": "LILLY ENDOWMENT INC"
+   },
+   {
+    "date": "2025-05-27",
+    "filed": "2025-05-27",
+    "code": "S",
+    "value": 716410,
+    "who": "Zakrowski Donald A"
+   },
+   {
+    "date": "2025-05-14",
+    "filed": "2025-05-15",
+    "code": "S",
+    "value": 936550,
+    "who": "Yuffa Ilya"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "eli lilly",
+  "other_trials": 6,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05508789",
+    "drugs": [
+     "Donanemab"
+    ]
+   },
+   {
+    "nct": "NCT05784246",
+    "drugs": [
+     "Mirikizumab IV",
+     "Mirikizumab SC"
+    ]
+   },
+   {
+    "nct": "NCT06914895",
+    "drugs": [
+     "Tirzepatide"
+    ]
+   },
+   {
+    "nct": "NCT04616326",
+    "drugs": [
+     "Galcanezumab"
+    ]
+   },
+   {
+    "nct": "NCT06045221",
+    "drugs": [
+     "Orforglipron",
+     "Semaglutide"
+    ]
+   }
+  ]
+ }
+}

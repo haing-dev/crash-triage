@@ -1,0 +1,49 @@
+{
+ "id": "1832038_2023-06-01",
+ "kind": "slide",
+ "cik": "1832038",
+ "name": "Invivyd, Inc.",
+ "date": "2023-06-01",
+ "asof": "2023-06-01",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-06-01",
+  "adj_close": 1.5
+ },
+ "balance": {
+  "end": "2023-03-31",
+  "cash": 126473000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-23-021235"
+ },
+ "burn6": {
+  "end": "2023-03-31",
+  "start": "2022-10-01",
+  "cash_used_ops": 88585000.0,
+  "capex": 1835000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-05-04",
+  "shares": 109481666
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 9,
+  "from": "2023-03-03",
+  "to": "2023-07-01",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "invivyd",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

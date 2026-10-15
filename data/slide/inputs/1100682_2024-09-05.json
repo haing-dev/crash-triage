@@ -1,0 +1,64 @@
+{
+ "id": "1100682_2024-09-05",
+ "kind": "slide",
+ "cik": "1100682",
+ "name": "CHARLES RIVER LABORATORIES INTERNATIONAL, INC.",
+ "date": "2024-09-05",
+ "asof": "2024-09-05",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-09-05",
+  "adj_close": 191.19
+ },
+ "balance": {
+  "end": "2024-06-29",
+  "cash": 179213000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001100682-24-000027"
+ },
+ "burn6": {
+  "end": "2024-06-29",
+  "start": "2023-12-31",
+  "cash_used_ops": -323423000.0,
+  "capex": 118630000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-07-27",
+  "shares": 51630726
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2024-06-07",
+  "to": "2024-10-05",
+  "trades": [
+   {
+    "date": "2024-08-08",
+    "filed": "2024-08-12",
+    "code": "S",
+    "value": 354861,
+    "who": "LaPlume Joseph W"
+   },
+   {
+    "date": "2024-08-01",
+    "filed": "2024-08-05",
+    "code": "S",
+    "value": 6250000,
+    "who": "FOSTER JAMES C"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "charles river laboratories international",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

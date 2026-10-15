@@ -1,0 +1,69 @@
+{
+ "id": "1645666_2021-07-30",
+ "kind": "slide",
+ "cik": "1645666",
+ "name": "Kezar Life Sciences, Inc.",
+ "date": "2021-07-30",
+ "asof": "2021-07-30",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-07-30",
+  "adj_close": 48.7
+ },
+ "balance": {
+  "end": "2021-03-31",
+  "cash": 142308000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001564590-21-026995"
+ },
+ "burn6": {
+  "end": "2021-03-31",
+  "start": "2020-10-01",
+  "cash_used_ops": 17664000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-05-05",
+  "shares": 48089686
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2021-05-01",
+  "to": "2021-08-29",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "kezar life sciences",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04628936",
+    "drugs": [
+     "KZR-616"
+    ]
+   },
+   {
+    "nct": "NCT04033926",
+    "drugs": [
+     "KZR-616"
+    ]
+   },
+   {
+    "nct": "NCT03393013",
+    "drugs": [
+     "KZR-616"
+    ]
+   }
+  ]
+ }
+}

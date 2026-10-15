@@ -1,0 +1,59 @@
+{
+ "id": "1279704_2023-04-24",
+ "kind": "slide",
+ "cik": "1279704",
+ "name": "Cellectar Biosciences, Inc.",
+ "date": "2023-04-24",
+ "asof": "2023-04-24",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-04-24",
+  "adj_close": 43.2
+ },
+ "balance": {
+  "end": "2022-12-31",
+  "cash": 19866358,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001410578-23-000224"
+ },
+ "burn6": {
+  "end": "2022-12-31",
+  "start": "2022-07-01",
+  "cash_used_ops": 14424940.0,
+  "capex": 124922.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-03-03",
+  "shares": 9740507
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These are the reasons that raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2023-01-24",
+  "to": "2023-05-24",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "cellectar biosciences",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT02952508",
+    "drugs": [
+     "Iopofosine I 131 single dose",
+     "Iopofosine I 131 multiple dose",
+     "Iopofosine I 131 fractionated dose"
+    ]
+   }
+  ]
+ }
+}

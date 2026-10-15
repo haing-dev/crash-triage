@@ -1,0 +1,86 @@
+{
+ "id": "1862150_2022-08-11",
+ "kind": "slide",
+ "cik": "1862150",
+ "name": "Cingulate Inc.",
+ "date": "2022-08-11",
+ "asof": "2022-08-11",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-08-11",
+  "adj_close": 357.60001
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 8195760,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001493152-22-021964"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 8276676.0,
+  "capex": 10400.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-08-04",
+  "shares": 11309412
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These uncertainties raise substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 7,
+  "from": "2022-05-13",
+  "to": "2022-09-10",
+  "trades": [
+   {
+    "date": "2022-09-08",
+    "filed": "2022-09-08",
+    "code": "P",
+    "value": 5250,
+    "who": "Callahan Jennifer L."
+   },
+   {
+    "date": "2022-09-06",
+    "filed": "2022-09-08",
+    "code": "P",
+    "value": 113225,
+    "who": "Werth Peter J."
+   },
+   {
+    "date": "2022-09-01",
+    "filed": "2022-09-06",
+    "code": "P",
+    "value": 999,
+    "who": "Myers Laurie"
+   },
+   {
+    "date": "2022-06-01",
+    "filed": "2022-06-03",
+    "code": "P",
+    "value": 236,
+    "who": "Myers Laurie"
+   },
+   {
+    "date": "2022-05-17",
+    "filed": "2022-05-19",
+    "code": "P",
+    "value": 242,
+    "who": "Myers Laurie"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "cingulate",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

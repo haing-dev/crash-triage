@@ -1,0 +1,86 @@
+{
+ "id": "1743881_2024-05-17",
+ "kind": "slide",
+ "cik": "1743881",
+ "name": "BridgeBio Pharma, Inc.",
+ "date": "2024-05-17",
+ "asof": "2024-05-17",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-05-17",
+  "adj_close": 30.09
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 519691000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-24-052165"
+ },
+ "burn6": {
+  "end": "2024-03-31",
+  "start": "2023-10-01",
+  "cash_used_ops": 344356000.0,
+  "capex": 1130000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-04-25",
+  "shares": 187129260
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 10,
+  "from": "2024-02-17",
+  "to": "2024-06-16",
+  "trades": [
+   {
+    "date": "2024-06-03",
+    "filed": "2024-06-05",
+    "code": "S",
+    "value": 22948,
+    "who": "Scott Randal W."
+   },
+   {
+    "date": "2024-06-03",
+    "filed": "2024-06-05",
+    "code": "S",
+    "value": 5895,
+    "who": "Scott Randal W."
+   },
+   {
+    "date": "2024-06-04",
+    "filed": "2024-06-05",
+    "code": "S",
+    "value": 46950,
+    "who": "Scott Randal W."
+   },
+   {
+    "date": "2024-03-01",
+    "filed": "2024-03-05",
+    "code": "S",
+    "value": 85000,
+    "who": "Scott Randal W."
+   },
+   {
+    "date": "2024-02-15",
+    "filed": "2024-02-20",
+    "code": "S",
+    "value": 110041,
+    "who": "Valantine Hannah"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "bridgebio pharma",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

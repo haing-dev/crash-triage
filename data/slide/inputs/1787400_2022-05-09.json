@@ -1,0 +1,79 @@
+{
+ "id": "1787400_2022-05-09",
+ "kind": "slide",
+ "cik": "1787400",
+ "name": "Nkarta, Inc.",
+ "date": "2022-05-09",
+ "asof": "2022-05-09",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-05-09",
+  "adj_close": 13.31
+ },
+ "balance": {
+  "end": "2021-12-31",
+  "cash": 238088000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-22-004095"
+ },
+ "burn6": {
+  "end": "2021-12-31",
+  "start": "2021-07-01",
+  "cash_used_ops": 35828000.0,
+  "capex": 2614000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-03-14",
+  "shares": 33000863
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2022-02-08",
+  "to": "2022-06-08",
+  "trades": [
+   {
+    "date": "2022-06-03",
+    "filed": "2022-06-07",
+    "code": "S",
+    "value": 62100,
+    "who": "Brandenberger Ralph"
+   },
+   {
+    "date": "2022-04-28",
+    "filed": "2022-04-29",
+    "code": "P",
+    "value": 10000005,
+    "who": "George Simeon"
+   },
+   {
+    "date": "2022-04-28",
+    "filed": "2022-04-29",
+    "code": "P",
+    "value": 9999990,
+    "who": "George Simeon"
+   },
+   {
+    "date": "2022-04-26",
+    "filed": "2022-04-28",
+    "code": "P",
+    "value": 33000000,
+    "who": "RA CAPITAL MANAGEMENT, L.P."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "nkarta",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

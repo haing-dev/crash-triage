@@ -1,0 +1,96 @@
+{
+ "id": "78003_2023-12-13",
+ "kind": "slide",
+ "cik": "78003",
+ "name": "PFIZER INC",
+ "date": "2023-12-13",
+ "asof": "2023-12-13",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-12-13",
+  "adj_close": 26.66
+ },
+ "balance": {
+  "end": "2023-10-01",
+  "cash": 29606000000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0000078003-23-000115"
+ },
+ "burn6": {
+  "end": "2023-10-01",
+  "start": "2023-04-03",
+  "cash_used_ops": -2248000000.0,
+  "capex": 1724000000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-11-03",
+  "shares": 5646413292
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 42,
+  "from": "2023-09-14",
+  "to": "2024-01-12",
+  "trades": [
+   {
+    "date": "2023-12-15",
+    "filed": "2023-12-19",
+    "code": "P",
+    "value": 79401,
+    "who": "Gottlieb Scott"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "pfizer",
+  "other_trials": 6,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05217446",
+    "drugs": [
+     "Encorafenib",
+     "Cetuximab",
+     "Pembrolizumab"
+    ]
+   },
+   {
+    "nct": "NCT04165317",
+    "drugs": [
+     "PF-06801591",
+     "Bacillus Calmette-Guerin"
+    ]
+   },
+   {
+    "nct": "NCT05926960",
+    "drugs": [
+     "encorafenib",
+     "binimetinib",
+     "pembrolizumab"
+    ]
+   },
+   {
+    "nct": "NCT03573882",
+    "drugs": [
+     "Voxelotor"
+    ]
+   },
+   {
+    "nct": "NCT06116591",
+    "drugs": [
+     "mPnC candidate",
+     "mPnC control"
+    ]
+   }
+  ]
+ }
+}

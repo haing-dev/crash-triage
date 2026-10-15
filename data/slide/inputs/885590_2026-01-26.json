@@ -1,0 +1,57 @@
+{
+ "id": "885590_2026-01-26",
+ "kind": "slide",
+ "cik": "885590",
+ "name": "Bausch Health Companies Inc.",
+ "date": "2026-01-26",
+ "asof": "2026-01-26",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-01-26",
+  "adj_close": 5.8
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 1308000000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000885590-25-000051"
+ },
+ "burn6": {
+  "end": "2025-09-30",
+  "start": "2025-04-01",
+  "cash_used_ops": -694000000.0,
+  "capex": 190000000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-10-24",
+  "shares": 370516926
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2025-10-28",
+  "to": "2026-02-25",
+  "trades": [
+   {
+    "date": "2025-11-25",
+    "filed": "2025-11-28",
+    "code": "P",
+    "value": 15625000,
+    "who": "PAULSON & CO. INC."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "bausch health companies",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

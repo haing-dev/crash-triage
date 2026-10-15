@@ -1,0 +1,105 @@
+{
+ "id": "1802665_2023-03-10",
+ "kind": "slide",
+ "cik": "1802665",
+ "name": "Harmony Biosciences Holdings, Inc.",
+ "date": "2023-03-10",
+ "asof": "2023-03-10",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-03-10",
+  "adj_close": 41.26
+ },
+ "balance": {
+  "end": "2022-12-31",
+  "cash": 323115000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001558370-23-001574"
+ },
+ "burn6": {
+  "end": "2022-12-31",
+  "start": "2022-07-01",
+  "cash_used_ops": -81883000.0,
+  "capex": 86000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-02-17",
+  "shares": 59620731
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2022-12-10",
+  "to": "2023-04-09",
+  "trades": [
+   {
+    "date": "2022-12-14",
+    "filed": "2022-12-16",
+    "code": "S",
+    "value": 169927,
+    "who": "Nielsen Jack"
+   },
+   {
+    "date": "2022-12-12",
+    "filed": "2022-12-14",
+    "code": "S",
+    "value": 1351521,
+    "who": "Wicki Andreas"
+   },
+   {
+    "date": "2022-12-13",
+    "filed": "2022-12-14",
+    "code": "S",
+    "value": 380022,
+    "who": "Wicki Andreas"
+   },
+   {
+    "date": "2022-12-14",
+    "filed": "2022-12-14",
+    "code": "S",
+    "value": 7800,
+    "who": "Wicki Andreas"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "harmony biosciences",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05156047",
+    "drugs": [
+     "Open-label Pitolisant",
+     "Double-blind Pitolisant"
+    ]
+   },
+   {
+    "nct": "NCT04977986",
+    "drugs": [
+     "ZYN002"
+    ]
+   },
+   {
+    "nct": "NCT04886518",
+    "drugs": [
+     "Pitolisant Oral Tablet"
+    ]
+   },
+   {
+    "nct": "NCT05458128",
+    "drugs": [
+     "Pitolisant"
+    ]
+   }
+  ]
+ }
+}

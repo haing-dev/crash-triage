@@ -1,0 +1,64 @@
+{
+ "id": "1783328_2023-03-24",
+ "kind": "slide",
+ "cik": "1783328",
+ "name": "TScan Therapeutics, Inc.",
+ "date": "2023-03-24",
+ "asof": "2023-03-24",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-03-24",
+  "adj_close": 2.32
+ },
+ "balance": {
+  "end": "2022-12-31",
+  "cash": 120027000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-23-006589"
+ },
+ "burn6": {
+  "end": "2022-12-31",
+  "start": "2022-07-01",
+  "cash_used_ops": 33012000.0,
+  "capex": 1801000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-03-04",
+  "shares": 23976942
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2022-12-24",
+  "to": "2023-04-23",
+  "trades": [
+   {
+    "date": "2022-12-27",
+    "filed": "2022-12-29",
+    "code": "P",
+    "value": 4276,
+    "who": "Silver Brian M."
+   },
+   {
+    "date": "2022-12-28",
+    "filed": "2022-12-29",
+    "code": "P",
+    "value": 4941,
+    "who": "Silver Brian M."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "tscan therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

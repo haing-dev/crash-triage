@@ -1,0 +1,50 @@
+{
+ "id": "1119774_2025-06-04",
+ "kind": "slide",
+ "cik": "1119774",
+ "name": "COMPUGEN LTD",
+ "date": "2025-06-04",
+ "asof": "2025-06-04",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-06-04",
+  "adj_close": 1.71
+ },
+ "balance": {
+  "end": "2024-12-31",
+  "cash": 41858000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001178913-25-000679"
+ },
+ "burn6": {
+  "end": "2024-12-31",
+  "start": "2024-07-01",
+  "cash_used_ops": -9901000.0,
+  "capex": 81000.0,
+  "periods": 1
+ },
+ "shares": {
+  "end": "2024-12-31",
+  "shares": 89541246
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2025-03-06",
+  "to": "2025-07-04",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "compugen",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

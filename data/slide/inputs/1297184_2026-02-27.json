@@ -1,0 +1,72 @@
+{
+ "id": "1297184_2026-02-27",
+ "kind": "slide",
+ "cik": "1297184",
+ "name": "Amphastar Pharmaceuticals, Inc.",
+ "date": "2026-02-27",
+ "asof": "2026-02-27",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-02-27",
+  "adj_close": 20.23
+ },
+ "balance": {
+  "end": "2025-12-31",
+  "cash": 282812000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001297184-26-000009"
+ },
+ "burn6": {
+  "end": "2025-12-31",
+  "start": "2025-07-01",
+  "cash_used_ops": -85446000.0,
+  "capex": 13620000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-02-20",
+  "shares": 45370171
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 18,
+  "from": "2025-11-29",
+  "to": "2026-03-29",
+  "trades": [
+   {
+    "date": "2025-12-17",
+    "filed": "2025-12-18",
+    "code": "S",
+    "value": 256379,
+    "who": "Zhou Rong"
+   },
+   {
+    "date": "2025-12-11",
+    "filed": "2025-12-15",
+    "code": "S",
+    "value": 44620,
+    "who": "Petersen Floyd F."
+   },
+   {
+    "date": "2025-12-12",
+    "filed": "2025-12-15",
+    "code": "S",
+    "value": 62888,
+    "who": "Petersen Floyd F."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "amphastar pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

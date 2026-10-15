@@ -1,0 +1,57 @@
+{
+ "id": "1253689_2025-12-01",
+ "kind": "slide",
+ "cik": "1253689",
+ "name": "CRESCENT BIOPHARMA, INC.",
+ "date": "2025-12-01",
+ "asof": "2025-12-01",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-12-01",
+  "adj_close": 14.27
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 133265000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001628280-25-049868"
+ },
+ "burn6": {
+  "end": "2025-09-30",
+  "start": "2025-04-01",
+  "cash_used_ops": 39686008.0,
+  "capex": 487487.6470588235,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-11-03",
+  "shares": 13892516
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2025-09-02",
+  "to": "2025-12-31",
+  "trades": [
+   {
+    "date": "2025-12-04",
+    "filed": "2025-12-08",
+    "code": "P",
+    "value": 18237600,
+    "who": "Fairmount Funds Management LLC"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "crescent biopharma",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

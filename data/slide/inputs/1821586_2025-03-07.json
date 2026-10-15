@@ -1,0 +1,79 @@
+{
+ "id": "1821586_2025-03-07",
+ "kind": "slide",
+ "cik": "1821586",
+ "name": "MoonLake Immunotherapeutics",
+ "date": "2025-03-07",
+ "asof": "2025-03-07",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-03-07",
+  "adj_close": 38.035
+ },
+ "balance": {
+  "end": "2024-12-31",
+  "cash": 448027349,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001821586-25-000006"
+ },
+ "burn6": {
+  "end": "2024-12-31",
+  "start": "2024-07-01",
+  "cash_used_ops": 73748485.0,
+  "capex": 307755.0,
+  "periods": 2
+ },
+ "shares": null,
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2024-12-07",
+  "to": "2025-04-06",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "moonlake immunotherapeutics",
+  "other_trials": 5,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06641076",
+    "drugs": [
+     "Sonelokimab"
+    ]
+   },
+   {
+    "nct": "NCT06641089",
+    "drugs": [
+     "Sonelokimab",
+     "Risankizumab"
+    ]
+   },
+   {
+    "nct": "NCT06768671",
+    "drugs": [
+     "Sonelokimab"
+    ]
+   },
+   {
+    "nct": "NCT06411379",
+    "drugs": [
+     "Sonelokimab"
+    ]
+   },
+   {
+    "nct": "NCT06411899",
+    "drugs": [
+     "Sonelokimab"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "id": "1788028_2021-09-29",
+ "kind": "slide",
+ "cik": "1788028",
+ "name": "Jasper Therapeutics, Inc.",
+ "date": "2021-09-29",
+ "asof": "2021-09-29",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-09-29",
+  "adj_close": 92.2
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 100435838,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesNoncurrent"
+  ],
+  "accn": "0001213900-21-043115"
+ },
+ "burn6": {
+  "end": "2021-06-30",
+  "start": "2021-01-01",
+  "cash_used_ops": 678626.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": null,
+ "going_concern": {
+  "flag": true,
+  "quote": "Management has determined that the mandatory liquidation, should a Business Combination not occur, and potential subsequent dissolution raises substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2021-07-01",
+  "to": "2021-10-29",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "jasper therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT02963064",
+    "drugs": [
+     "Humanized anti-CD117 Monoclonal Antibody (JSP191)"
+    ]
+   }
+  ]
+ }
+}

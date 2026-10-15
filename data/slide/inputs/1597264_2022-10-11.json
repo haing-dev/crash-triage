@@ -1,0 +1,168 @@
+{
+ "id": "1597264_2022-10-11",
+ "kind": "slide",
+ "cik": "1597264",
+ "name": "Blueprint Medicines Corp",
+ "date": "2022-10-11",
+ "asof": "2022-10-11",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-10-11",
+  "adj_close": 52.35
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 947159000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0001558370-22-011648"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 250982000.0,
+  "capex": 3709000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-07-29",
+  "shares": 59719570
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2022-07-13",
+  "to": "2022-11-10",
+  "trades": [
+   {
+    "date": "2022-11-03",
+    "filed": "2022-11-07",
+    "code": "S",
+    "value": 24113,
+    "who": "Rossi Christina"
+   },
+   {
+    "date": "2022-11-03",
+    "filed": "2022-11-07",
+    "code": "P",
+    "value": 48378,
+    "who": "Haviland Kate"
+   },
+   {
+    "date": "2022-10-04",
+    "filed": "2022-10-05",
+    "code": "S",
+    "value": 234002,
+    "who": "Namouni Fouad"
+   },
+   {
+    "date": "2022-08-24",
+    "filed": "2022-08-26",
+    "code": "S",
+    "value": 375550,
+    "who": "Durso-Bumpus Debra"
+   },
+   {
+    "date": "2022-08-19",
+    "filed": "2022-08-23",
+    "code": "S",
+    "value": 111332,
+    "who": "Albers Jeffrey W."
+   },
+   {
+    "date": "2022-08-22",
+    "filed": "2022-08-23",
+    "code": "S",
+    "value": 546002,
+    "who": "Albers Jeffrey W."
+   },
+   {
+    "date": "2022-08-22",
+    "filed": "2022-08-23",
+    "code": "S",
+    "value": 47201,
+    "who": "Albers Jeffrey W."
+   },
+   {
+    "date": "2022-08-16",
+    "filed": "2022-08-18",
+    "code": "S",
+    "value": 491712,
+    "who": "Albers Jeffrey W."
+   },
+   {
+    "date": "2022-08-16",
+    "filed": "2022-08-18",
+    "code": "S",
+    "value": 856172,
+    "who": "Albers Jeffrey W."
+   },
+   {
+    "date": "2022-08-16",
+    "filed": "2022-08-18",
+    "code": "S",
+    "value": 20369,
+    "who": "Albers Jeffrey W."
+   },
+   {
+    "date": "2022-08-08",
+    "filed": "2022-08-10",
+    "code": "S",
+    "value": 700700,
+    "who": "Albers Jeffrey W."
+   },
+   {
+    "date": "2022-08-04",
+    "filed": "2022-08-08",
+    "code": "S",
+    "value": 151100,
+    "who": "Murray Christopher K."
+   },
+   {
+    "date": "2022-08-05",
+    "filed": "2022-08-08",
+    "code": "S",
+    "value": 162500,
+    "who": "Murray Christopher K."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "blueprint medicines",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03731260",
+    "drugs": [
+     "Avapritinib"
+    ]
+   },
+   {
+    "nct": "NCT04773782",
+    "drugs": [
+     "avapritinib"
+    ]
+   },
+   {
+    "nct": "NCT03580655",
+    "drugs": [
+     "Avapritinib"
+    ]
+   },
+   {
+    "nct": "NCT04910685",
+    "drugs": [
+     "Elenestinib"
+    ]
+   }
+  ]
+ }
+}

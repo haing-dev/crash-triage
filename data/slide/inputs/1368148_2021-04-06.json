@@ -1,0 +1,78 @@
+{
+ "id": "1368148_2021-04-06",
+ "kind": "slide",
+ "cik": "1368148",
+ "name": "ATHERSYS, INC / NEW",
+ "date": "2021-04-06",
+ "asof": "2021-04-06",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-04-06",
+  "adj_close": 46.25
+ },
+ "balance": {
+  "end": "2020-12-31",
+  "cash": 51546000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001368148-21-000037"
+ },
+ "burn6": {
+  "end": "2020-12-31",
+  "start": "2020-07-01",
+  "cash_used_ops": 36963000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-03-19",
+  "shares": 215244507
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 9,
+  "from": "2021-01-06",
+  "to": "2021-05-06",
+  "trades": [
+   {
+    "date": "2021-03-18",
+    "filed": "2021-03-18",
+    "code": "S",
+    "value": 47742,
+    "who": "Lehmann William JR"
+   },
+   {
+    "date": "2021-03-15",
+    "filed": "2021-03-17",
+    "code": "S",
+    "value": 9841,
+    "who": "Harrington John J"
+   },
+   {
+    "date": "2021-03-16",
+    "filed": "2021-03-17",
+    "code": "S",
+    "value": 10074,
+    "who": "Harrington John J"
+   },
+   {
+    "date": "2021-03-16",
+    "filed": "2021-03-17",
+    "code": "S",
+    "value": 19655,
+    "who": "Campbell Laura K"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "athersys new",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

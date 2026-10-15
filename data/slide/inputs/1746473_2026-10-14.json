@@ -1,0 +1,50 @@
+{
+ "id": "1746473_2026-10-14",
+ "kind": "slide",
+ "cik": "1746473",
+ "name": "PLIANT THERAPEUTICS, INC.",
+ "date": "2026-10-14",
+ "asof": "2026-10-14",
+ "final": false,
+ "version": 5,
+ "price": {
+  "date": "2026-10-14",
+  "adj_close": 0.92
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 158101000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001746473-26-000113"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": 32026000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-08-07",
+  "shares": 61921897
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2026-07-16",
+  "to": "2026-10-15",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "pliant therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

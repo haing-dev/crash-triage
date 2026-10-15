@@ -1,0 +1,75 @@
+{
+ "id": "1285819_2024-09-25",
+ "kind": "slide",
+ "cik": "1285819",
+ "name": "OMEROS CORP",
+ "date": "2024-09-25",
+ "asof": "2024-09-25",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-09-25",
+  "adj_close": 3.81
+ },
+ "balance": {
+  "end": "2024-06-30",
+  "cash": 158912000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001437749-24-025181"
+ },
+ "burn6": {
+  "end": "2024-06-30",
+  "start": "2024-01-01",
+  "cash_used_ops": 87765000.0,
+  "capex": 138000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-08-01",
+  "shares": 57946859
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2024-06-27",
+  "to": "2024-10-25",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "omeros",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05972967",
+    "drugs": [
+     "OMS906"
+    ]
+   },
+   {
+    "nct": "NCT06209736",
+    "drugs": [
+     "OMS906 study drug"
+    ]
+   },
+   {
+    "nct": "NCT05855083",
+    "drugs": [
+     "Biological: narsoplimab"
+    ]
+   },
+   {
+    "nct": "NCT06298955",
+    "drugs": [
+     "OMS906 study drug"
+    ]
+   }
+  ]
+ }
+}

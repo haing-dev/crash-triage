@@ -1,0 +1,63 @@
+{
+ "id": "1750149_2026-10-13",
+ "kind": "slide",
+ "cik": "1750149",
+ "name": "Inhibikase Therapeutics, Inc.",
+ "date": "2026-10-13",
+ "asof": "2026-10-13",
+ "final": false,
+ "version": 5,
+ "price": {
+  "date": "2026-10-13",
+  "adj_close": 1.76
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 159018847,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001193125-26-344707"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": 24503334.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-08-04",
+  "shares": 139535900
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 2,
+  "from": "2026-07-15",
+  "to": "2026-10-15",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "inhibikase therapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06643143",
+    "drugs": [
+     "IkT-001Pro"
+    ]
+   },
+   {
+    "nct": "NCT07365332",
+    "drugs": [
+     "IKT-001"
+    ]
+   }
+  ]
+ }
+}

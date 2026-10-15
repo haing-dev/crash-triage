@@ -1,0 +1,63 @@
+{
+ "id": "1720893_2022-07-11",
+ "kind": "slide",
+ "cik": "1720893",
+ "name": "BioXcel Therapeutics, Inc.",
+ "date": "2022-07-11",
+ "asof": "2022-07-11",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-07-11",
+  "adj_close": 241.6
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 200435000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-22-007805"
+ },
+ "burn6": {
+  "end": "2022-03-31",
+  "start": "2021-10-01",
+  "cash_used_ops": 52345000.0,
+  "capex": 132000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-05-05",
+  "shares": 27985145
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2022-04-12",
+  "to": "2022-08-10",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "bioxcel therapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05271552",
+    "drugs": [
+     "BXCL501"
+    ]
+   },
+   {
+    "nct": "NCT03910660",
+    "drugs": [
+     "BXCL701 plus Pembrolizumab",
+     "BXCL701 monotherapy"
+    ]
+   }
+  ]
+ }
+}

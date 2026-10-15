@@ -1,0 +1,99 @@
+{
+ "id": "1549595_2025-10-02",
+ "kind": "slide",
+ "cik": "1549595",
+ "name": "Nurix Therapeutics, Inc.",
+ "date": "2025-10-02",
+ "asof": "2025-10-02",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-10-02",
+  "adj_close": 9.08
+ },
+ "balance": {
+  "end": "2025-05-31",
+  "cash": 84260000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001549595-25-000095"
+ },
+ "burn6": {
+  "end": "2025-05-31",
+  "start": "2024-12-01",
+  "cash_used_ops": 124248000.0,
+  "capex": 6160000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-06-30",
+  "shares": 76449355
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 9,
+  "from": "2025-07-04",
+  "to": "2025-11-01",
+  "trades": [
+   {
+    "date": "2025-10-30",
+    "filed": "2025-10-30",
+    "code": "S",
+    "value": 40054,
+    "who": "van Houte Hans"
+   },
+   {
+    "date": "2025-10-30",
+    "filed": "2025-10-30",
+    "code": "S",
+    "value": 46631,
+    "who": "Ring Christine"
+   },
+   {
+    "date": "2025-10-30",
+    "filed": "2025-10-30",
+    "code": "S",
+    "value": 52300,
+    "who": "Hansen Gwenn"
+   },
+   {
+    "date": "2025-08-01",
+    "filed": "2025-08-01",
+    "code": "S",
+    "value": 59598,
+    "who": "van Houte Hans"
+   },
+   {
+    "date": "2025-07-30",
+    "filed": "2025-07-30",
+    "code": "S",
+    "value": 51695,
+    "who": "van Houte Hans"
+   },
+   {
+    "date": "2025-07-30",
+    "filed": "2025-07-30",
+    "code": "S",
+    "value": 46134,
+    "who": "Ring Christine"
+   },
+   {
+    "date": "2025-07-30",
+    "filed": "2025-07-30",
+    "code": "S",
+    "value": 51743,
+    "who": "Hansen Gwenn"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "nurix therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

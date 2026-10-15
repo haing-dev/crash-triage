@@ -1,0 +1,114 @@
+{
+ "id": "1623526_2023-07-24",
+ "kind": "slide",
+ "cik": "1623526",
+ "name": "Stoke Therapeutics, Inc.",
+ "date": "2023-07-24",
+ "asof": "2023-07-24",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-07-24",
+  "adj_close": 9.53
+ },
+ "balance": {
+  "end": "2023-03-31",
+  "cash": 253673000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0000950170-23-017839"
+ },
+ "burn6": {
+  "end": "2023-03-31",
+  "start": "2022-10-01",
+  "cash_used_ops": 43729000.0,
+  "capex": 574000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-04-26",
+  "shares": 44188534
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 12,
+  "from": "2023-04-25",
+  "to": "2023-08-23",
+  "trades": [
+   {
+    "date": "2023-07-03",
+    "filed": "2023-07-06",
+    "code": "S",
+    "value": 158973,
+    "who": "Ticho Barry"
+   },
+   {
+    "date": "2023-06-21",
+    "filed": "2023-06-23",
+    "code": "S",
+    "value": 26252,
+    "who": "Allan Jonathan"
+   },
+   {
+    "date": "2023-06-01",
+    "filed": "2023-06-05",
+    "code": "S",
+    "value": 166964,
+    "who": "Ticho Barry"
+   },
+   {
+    "date": "2023-05-04",
+    "filed": "2023-05-08",
+    "code": "S",
+    "value": 6530,
+    "who": "Ticho Barry"
+   },
+   {
+    "date": "2023-05-01",
+    "filed": "2023-05-03",
+    "code": "S",
+    "value": 249767,
+    "who": "Ticho Barry"
+   },
+   {
+    "date": "2023-05-02",
+    "filed": "2023-05-03",
+    "code": "S",
+    "value": 55134,
+    "who": "Ticho Barry"
+   },
+   {
+    "date": "2023-05-03",
+    "filed": "2023-05-03",
+    "code": "S",
+    "value": 250366,
+    "who": "Ticho Barry"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "stoke therapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04740476",
+    "drugs": [
+     "zorevunersen (STK-001)"
+    ]
+   },
+   {
+    "nct": "NCT04442295",
+    "drugs": [
+     "STK-001 - Single Ascending Doses",
+     "STK-001 - Multiple Ascending Doses"
+    ]
+   }
+  ]
+ }
+}

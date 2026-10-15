@@ -1,0 +1,49 @@
+{
+ "id": "1997296_2026-10-08",
+ "kind": "crash",
+ "cik": "1997296",
+ "name": "Medicus Pharma Ltd.",
+ "date": "2026-10-08",
+ "asof": "2026-10-12",
+ "final": false,
+ "version": 5,
+ "price": {
+  "date": "2026-10-12",
+  "adj_close": 3.58
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 15174128,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001062993-26-004230"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": 15953129.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-08-10",
+  "shares": 63180610
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2026-07-10",
+  "to": "2026-10-15",
+  "trades": []
+ },
+ "drug": "n/a",
+ "trials": {
+  "query": "medicus pharma",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

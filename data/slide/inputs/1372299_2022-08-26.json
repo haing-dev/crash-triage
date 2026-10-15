@@ -1,0 +1,87 @@
+{
+ "id": "1372299_2022-08-26",
+ "kind": "slide",
+ "cik": "1372299",
+ "name": "Ocugen, Inc.",
+ "date": "2022-08-26",
+ "asof": "2022-08-26",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-08-26",
+  "adj_close": 2.64
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 115005000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001628280-22-021255"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 28863000.0,
+  "capex": 1589000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-07-29",
+  "shares": 216565916
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "As a result of these factors, together with the anticipated increase in spending that will be necessary to continue to research, develop, and commercialize the Company's product candidates, there is substantial doubt about the Company's ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 9,
+  "from": "2022-05-28",
+  "to": "2022-09-25",
+  "trades": [
+   {
+    "date": "2022-08-11",
+    "filed": "2022-08-12",
+    "code": "S",
+    "value": 122220,
+    "who": "Castillo Kirsten"
+   },
+   {
+    "date": "2022-07-18",
+    "filed": "2022-07-20",
+    "code": "S",
+    "value": 19275,
+    "who": "Kumar Ramesh"
+   },
+   {
+    "date": "2022-07-14",
+    "filed": "2022-07-15",
+    "code": "S",
+    "value": 408000,
+    "who": "Musunuri Shankar"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "ocugen",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05258669",
+    "drugs": [
+     "BBV152"
+    ]
+   },
+   {
+    "nct": "NCT05203939",
+    "drugs": [
+     "OCU400 Low Dose",
+     "OCU400 Med Dose",
+     "OCU400 High Dose"
+    ]
+   }
+  ]
+ }
+}

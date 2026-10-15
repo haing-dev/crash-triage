@@ -1,0 +1,85 @@
+{
+ "id": "1590560_2024-02-29",
+ "kind": "slide",
+ "cik": "1590560",
+ "name": "uniQure N.V.",
+ "date": "2024-02-29",
+ "asof": "2024-02-29",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-02-29",
+  "adj_close": 5.75
+ },
+ "balance": {
+  "end": "2023-12-31",
+  "cash": 241360000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-24-001915"
+ },
+ "burn6": {
+  "end": "2023-12-31",
+  "start": "2023-07-01",
+  "cash_used_ops": 10630000.0,
+  "capex": 3738000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-02-23",
+  "shares": 47838275
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2023-12-01",
+  "to": "2024-03-30",
+  "trades": [
+   {
+    "date": "2024-02-26",
+    "filed": "2024-02-28",
+    "code": "S",
+    "value": 61174,
+    "who": "CALOZ PIERRE"
+   },
+   {
+    "date": "2024-02-26",
+    "filed": "2024-02-28",
+    "code": "S",
+    "value": 101480,
+    "who": "KLEMT CHRISTIAN"
+   },
+   {
+    "date": "2024-02-26",
+    "filed": "2024-02-28",
+    "code": "S",
+    "value": 177190,
+    "who": "Kapusta Matthew C"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "uniqure",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05243017",
+    "drugs": [
+     "intra-striatal rAAV5-miHTT"
+    ]
+   },
+   {
+    "nct": "NCT04120493",
+    "drugs": [
+     "intra-striatal rAAV5-miHTT",
+     "Imitation (sham) surgery"
+    ]
+   }
+  ]
+ }
+}

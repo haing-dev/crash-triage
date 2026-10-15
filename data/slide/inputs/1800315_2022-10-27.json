@@ -1,0 +1,51 @@
+{
+ "id": "1800315_2022-10-27",
+ "kind": "slide",
+ "cik": "1800315",
+ "name": "Damora Therapeutics, Inc.",
+ "date": "2022-10-27",
+ "asof": "2022-10-27",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-10-27",
+  "adj_close": 45.25
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 85914000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent",
+   "MarketableSecuritiesNoncurrent"
+  ],
+  "accn": "0000950170-22-013434"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 21637000.0,
+  "capex": 17000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-07-27",
+  "shares": 25395697
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2022-07-29",
+  "to": "2022-11-26",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "damora therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

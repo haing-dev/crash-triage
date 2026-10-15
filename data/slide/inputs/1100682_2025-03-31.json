@@ -1,0 +1,71 @@
+{
+ "id": "1100682_2025-03-31",
+ "kind": "slide",
+ "cik": "1100682",
+ "name": "CHARLES RIVER LABORATORIES INTERNATIONAL, INC.",
+ "date": "2025-03-31",
+ "asof": "2025-03-31",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-03-31",
+  "adj_close": 150.52
+ },
+ "balance": {
+  "end": "2024-12-28",
+  "cash": 194606000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001100682-25-000011"
+ },
+ "burn6": {
+  "end": "2024-12-28",
+  "start": "2024-06-30",
+  "cash_used_ops": -411154000.0,
+  "capex": 114337000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-01-25",
+  "shares": 51141607
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2024-12-31",
+  "to": "2025-04-30",
+  "trades": [
+   {
+    "date": "2025-02-20",
+    "filed": "2025-02-21",
+    "code": "P",
+    "value": 1002436,
+    "who": "FOSTER JAMES C"
+   },
+   {
+    "date": "2025-02-20",
+    "filed": "2025-02-21",
+    "code": "P",
+    "value": 249250,
+    "who": "Girshick Birgit"
+   },
+   {
+    "date": "2025-02-20",
+    "filed": "2025-02-21",
+    "code": "S",
+    "value": 715000,
+    "who": "LaPlume Joseph W"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "charles river laboratories international",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

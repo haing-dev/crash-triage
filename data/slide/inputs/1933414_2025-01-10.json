@@ -1,0 +1,117 @@
+{
+ "id": "1933414_2025-01-10",
+ "kind": "slide",
+ "cik": "1933414",
+ "name": "Mineralys Therapeutics, Inc.",
+ "date": "2025-01-10",
+ "asof": "2025-01-10",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-01-10",
+  "adj_close": 9.87
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 97274000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001933414-24-000057"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": 80332000.0,
+  "capex": 37000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-11-04",
+  "shares": 49768669
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 10,
+  "from": "2024-10-12",
+  "to": "2025-02-09",
+  "trades": [
+   {
+    "date": "2025-01-13",
+    "filed": "2025-01-15",
+    "code": "S",
+    "value": 96901,
+    "who": "Levy Adam Scott"
+   },
+   {
+    "date": "2025-01-13",
+    "filed": "2025-01-15",
+    "code": "S",
+    "value": 963,
+    "who": "Levy Adam Scott"
+   },
+   {
+    "date": "2025-01-13",
+    "filed": "2025-01-15",
+    "code": "S",
+    "value": 166082,
+    "who": "Congleton Jon"
+   },
+   {
+    "date": "2024-11-11",
+    "filed": "2024-11-12",
+    "code": "S",
+    "value": 75398,
+    "who": "Rodman David Malcom"
+   },
+   {
+    "date": "2024-11-06",
+    "filed": "2024-11-08",
+    "code": "S",
+    "value": 383066,
+    "who": "Rodman David Malcom"
+   },
+   {
+    "date": "2024-10-11",
+    "filed": "2024-10-15",
+    "code": "S",
+    "value": 146004,
+    "who": "Levy Adam Scott"
+   },
+   {
+    "date": "2024-10-11",
+    "filed": "2024-10-15",
+    "code": "S",
+    "value": 206433,
+    "who": "Congleton Jon"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "mineralys therapeutics",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05968430",
+    "drugs": [
+     "lorundrostat"
+    ]
+   },
+   {
+    "nct": "NCT05769608",
+    "drugs": [
+     "lorundrostat Dose 1",
+     "lorundrostat Dose 2"
+    ]
+   },
+   {
+    "nct": "NCT06150924",
+    "drugs": []
+   }
+  ]
+ }
+}

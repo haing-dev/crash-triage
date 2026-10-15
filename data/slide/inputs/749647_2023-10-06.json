@@ -1,0 +1,83 @@
+{
+ "id": "749647_2023-10-06",
+ "kind": "slide",
+ "cik": "749647",
+ "name": "Imunon, Inc.",
+ "date": "2023-10-06",
+ "asof": "2023-10-06",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-10-06",
+  "adj_close": 13.30435
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 24011382,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001493152-23-027457"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 10777458.0,
+  "capex": 211412.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-08-07",
+  "shares": 9367855
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2023-07-08",
+  "to": "2023-11-05",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "imunon",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05739981",
+    "drugs": [
+     "Paclitaxel",
+     "Carboplatin",
+     "Bevacizumab"
+    ]
+   },
+   {
+    "nct": "NCT00036998",
+    "drugs": [
+     "conventional surgery",
+     "neoadjuvant therapy",
+     "thermal ablation therapy"
+    ]
+   },
+   {
+    "nct": "NCT03393884",
+    "drugs": [
+     "IMNN-001",
+     "Carboplatin",
+     "Paclitaxel"
+    ]
+   },
+   {
+    "nct": "NCT00036985",
+    "drugs": [
+     "cyclophosphamide",
+     "doxorubicin hydrochloride",
+     "conventional surgery"
+    ]
+   }
+  ]
+ }
+}

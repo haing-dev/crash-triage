@@ -1,0 +1,152 @@
+{
+ "id": "891293_2023-03-09",
+ "kind": "slide",
+ "cik": "891293",
+ "name": "CTI BIOPHARMA CORP",
+ "date": "2023-03-09",
+ "asof": "2023-03-09",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-03-09",
+  "adj_close": 4.54
+ },
+ "balance": {
+  "end": "2022-12-31",
+  "cash": 79939000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000891293-23-000011"
+ },
+ "burn6": {
+  "end": "2022-12-31",
+  "start": "2022-07-01",
+  "cash_used_ops": 30973000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-02-21",
+  "shares": 131835892
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "This raises substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 14,
+  "from": "2022-12-09",
+  "to": "2023-04-08",
+  "trades": [
+   {
+    "date": "2023-01-24",
+    "filed": "2023-01-26",
+    "code": "S",
+    "value": 499200,
+    "who": "Craig Adam R"
+   },
+   {
+    "date": "2023-01-24",
+    "filed": "2023-01-26",
+    "code": "S",
+    "value": 12723,
+    "who": "Craig Adam R"
+   },
+   {
+    "date": "2023-01-24",
+    "filed": "2023-01-26",
+    "code": "S",
+    "value": 600000,
+    "who": "Fong James K"
+   },
+   {
+    "date": "2022-12-29",
+    "filed": "2023-01-03",
+    "code": "S",
+    "value": 82800,
+    "who": "Craig Adam R"
+   },
+   {
+    "date": "2022-12-30",
+    "filed": "2023-01-03",
+    "code": "S",
+    "value": 72000,
+    "who": "Craig Adam R"
+   },
+   {
+    "date": "2022-12-30",
+    "filed": "2023-01-03",
+    "code": "S",
+    "value": 4204,
+    "who": "Craig Adam R"
+   },
+   {
+    "date": "2022-12-30",
+    "filed": "2023-01-03",
+    "code": "S",
+    "value": 26444,
+    "who": "Craig Adam R"
+   },
+   {
+    "date": "2023-01-03",
+    "filed": "2023-01-03",
+    "code": "S",
+    "value": 509224,
+    "who": "Craig Adam R"
+   },
+   {
+    "date": "2022-12-29",
+    "filed": "2023-01-03",
+    "code": "S",
+    "value": 79044,
+    "who": "KIRSKE DAVID"
+   },
+   {
+    "date": "2022-12-30",
+    "filed": "2023-01-03",
+    "code": "S",
+    "value": 72000,
+    "who": "KIRSKE DAVID"
+   },
+   {
+    "date": "2022-12-30",
+    "filed": "2023-01-03",
+    "code": "S",
+    "value": 4804,
+    "who": "KIRSKE DAVID"
+   },
+   {
+    "date": "2022-12-30",
+    "filed": "2023-01-03",
+    "code": "S",
+    "value": 6292,
+    "who": "KIRSKE DAVID"
+   },
+   {
+    "date": "2023-01-03",
+    "filed": "2023-01-03",
+    "code": "S",
+    "value": 162423,
+    "who": "KIRSKE DAVID"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "cti biopharma",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT00551239",
+    "drugs": [
+     "rituximab",
+     "fludarabine phosphate",
+     "pixantrone dimaleate"
+    ]
+   }
+  ]
+ }
+}

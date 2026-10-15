@@ -1,0 +1,145 @@
+{
+ "id": "1706431_2025-02-27",
+ "kind": "slide",
+ "cik": "1706431",
+ "name": "Vir Biotechnology, Inc.",
+ "date": "2025-02-27",
+ "asof": "2025-02-27",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-02-27",
+  "adj_close": 8.11
+ },
+ "balance": {
+  "end": "2024-12-31",
+  "cash": 900998000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001628280-25-008245"
+ },
+ "burn6": {
+  "end": "2024-12-31",
+  "start": "2024-07-01",
+  "cash_used_ops": 259115000.0,
+  "capex": 4763000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-02-20",
+  "shares": 137143286
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 12,
+  "from": "2024-11-29",
+  "to": "2025-03-29",
+  "trades": [
+   {
+    "date": "2025-02-26",
+    "filed": "2025-02-27",
+    "code": "S",
+    "value": 67402,
+    "who": "de Verneuil Vanina"
+   },
+   {
+    "date": "2025-02-24",
+    "filed": "2025-02-25",
+    "code": "S",
+    "value": 95063,
+    "who": "SCANGOS GEORGE A"
+   },
+   {
+    "date": "2025-02-24",
+    "filed": "2025-02-25",
+    "code": "S",
+    "value": 133936,
+    "who": "HANLY ANN M."
+   },
+   {
+    "date": "2025-02-24",
+    "filed": "2025-02-25",
+    "code": "S",
+    "value": 14766,
+    "who": "Sabatini Brent"
+   },
+   {
+    "date": "2025-02-24",
+    "filed": "2025-02-25",
+    "code": "S",
+    "value": 152408,
+    "who": "De Backer Marianne"
+   },
+   {
+    "date": "2025-02-24",
+    "filed": "2025-02-25",
+    "code": "S",
+    "value": 48590,
+    "who": "de Verneuil Vanina"
+   },
+   {
+    "date": "2025-02-18",
+    "filed": "2025-02-19",
+    "code": "S",
+    "value": 107575,
+    "who": "SCANGOS GEORGE A"
+   },
+   {
+    "date": "2025-02-13",
+    "filed": "2025-02-14",
+    "code": "S",
+    "value": 14291,
+    "who": "Sabatini Brent"
+   },
+   {
+    "date": "2025-01-08",
+    "filed": "2025-01-08",
+    "code": "S",
+    "value": 137219,
+    "who": "SATO VICKI L"
+   },
+   {
+    "date": "2024-12-02",
+    "filed": "2024-12-04",
+    "code": "S",
+    "value": 625,
+    "who": "de Verneuil Vanina"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "vir biotechnology",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04856085",
+    "drugs": [
+     "VIR-2218",
+     "VIR-3434",
+     "PEG-IFN\u03b1"
+    ]
+   },
+   {
+    "nct": "NCT05461170",
+    "drugs": [
+     "VIR-2218",
+     "VIR-3434",
+     "NRTI"
+    ]
+   },
+   {
+    "nct": "NCT05356741",
+    "drugs": [
+     "VIR-5818",
+     "pembrolizumab"
+    ]
+   }
+  ]
+ }
+}

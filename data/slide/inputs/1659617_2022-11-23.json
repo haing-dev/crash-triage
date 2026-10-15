@@ -1,0 +1,86 @@
+{
+ "id": "1659617_2022-11-23",
+ "kind": "slide",
+ "cik": "1659617",
+ "name": "Moleculin Biotech, Inc.",
+ "date": "2022-11-23",
+ "asof": "2022-11-23",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-11-23",
+  "adj_close": 476.25
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 50392000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001437749-22-026888"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 15578000.0,
+  "capex": 61000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-11-03",
+  "shares": 28627827
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2022-08-25",
+  "to": "2022-12-23",
+  "trades": [
+   {
+    "date": "2022-11-25",
+    "filed": "2022-11-28",
+    "code": "P",
+    "value": 57632,
+    "who": "KLEMP WALTER V"
+   },
+   {
+    "date": "2022-11-21",
+    "filed": "2022-11-23",
+    "code": "P",
+    "value": 25866,
+    "who": "KLEMP WALTER V"
+   },
+   {
+    "date": "2022-11-16",
+    "filed": "2022-11-18",
+    "code": "P",
+    "value": 82614,
+    "who": "KLEMP WALTER V"
+   },
+   {
+    "date": "2022-11-17",
+    "filed": "2022-11-18",
+    "code": "P",
+    "value": 25257,
+    "who": "KLEMP WALTER V"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "moleculin biotech",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05319587",
+    "drugs": [
+     "Liposomal Annamycin",
+     "Cytarabine"
+    ]
+   }
+  ]
+ }
+}

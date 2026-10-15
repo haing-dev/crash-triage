@@ -1,0 +1,113 @@
+{
+ "id": "1720580_2022-01-20",
+ "kind": "slide",
+ "cik": "1720580",
+ "name": "Adicet Bio, Inc.",
+ "date": "2022-01-20",
+ "asof": "2022-01-20",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-01-20",
+  "adj_close": 203.039993
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 192226000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-21-004111"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 22462000.0,
+  "capex": 9310000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-11-09",
+  "shares": 31955450
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 21,
+  "from": "2021-10-22",
+  "to": "2022-02-19",
+  "trades": [
+   {
+    "date": "2022-02-16",
+    "filed": "2022-02-17",
+    "code": "S",
+    "value": 29664,
+    "who": "Jakobovits Aya"
+   },
+   {
+    "date": "2022-02-16",
+    "filed": "2022-02-17",
+    "code": "S",
+    "value": 29664,
+    "who": "Jakobovits Aya"
+   },
+   {
+    "date": "2022-01-03",
+    "filed": "2022-02-14",
+    "code": "S",
+    "value": 108125,
+    "who": "Jakobovits Aya"
+   },
+   {
+    "date": "2022-01-03",
+    "filed": "2022-02-14",
+    "code": "S",
+    "value": 108131,
+    "who": "Jakobovits Aya"
+   },
+   {
+    "date": "2022-01-05",
+    "filed": "2022-02-14",
+    "code": "S",
+    "value": 33864,
+    "who": "Jakobovits Aya"
+   },
+   {
+    "date": "2022-01-05",
+    "filed": "2022-02-14",
+    "code": "S",
+    "value": 33799,
+    "who": "Jakobovits Aya"
+   },
+   {
+    "date": "2022-02-09",
+    "filed": "2022-02-14",
+    "code": "S",
+    "value": 56118,
+    "who": "Jakobovits Aya"
+   },
+   {
+    "date": "2022-02-09",
+    "filed": "2022-02-14",
+    "code": "S",
+    "value": 56121,
+    "who": "Jakobovits Aya"
+   },
+   {
+    "date": "2021-12-08",
+    "filed": "2021-12-10",
+    "code": "P",
+    "value": 7000000,
+    "who": "Sinclair Andrew"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "adicet bio",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

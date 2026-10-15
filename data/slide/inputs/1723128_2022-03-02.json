@@ -1,0 +1,99 @@
+{
+ "id": "1723128_2022-03-02",
+ "kind": "slide",
+ "cik": "1723128",
+ "name": "Amneal Pharmaceuticals, Inc.",
+ "date": "2022-03-02",
+ "asof": "2022-03-02",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-03-02",
+  "adj_close": 4.02
+ },
+ "balance": {
+  "end": "2021-12-31",
+  "cash": 247790000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001723128-22-000006"
+ },
+ "burn6": {
+  "end": "2021-12-31",
+  "start": "2021-07-01",
+  "cash_used_ops": -145625000.0,
+  "capex": 28143000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2018-05-07",
+  "shares": 1000
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 16,
+  "from": "2021-12-02",
+  "to": "2022-04-01",
+  "trades": [
+   {
+    "date": "2021-12-17",
+    "filed": "2021-12-20",
+    "code": "P",
+    "value": 210500,
+    "who": "Patel Gautam"
+   },
+   {
+    "date": "2021-12-15",
+    "filed": "2021-12-17",
+    "code": "P",
+    "value": 413000,
+    "who": "Patel Chirag K."
+   },
+   {
+    "date": "2021-12-16",
+    "filed": "2021-12-17",
+    "code": "P",
+    "value": 212500,
+    "who": "Patel Chirag K."
+   },
+   {
+    "date": "2021-12-15",
+    "filed": "2021-12-17",
+    "code": "P",
+    "value": 413000,
+    "who": "Patel Chintu"
+   },
+   {
+    "date": "2021-12-16",
+    "filed": "2021-12-17",
+    "code": "P",
+    "value": 212500,
+    "who": "Patel Chintu"
+   },
+   {
+    "date": "2021-12-15",
+    "filed": "2021-12-17",
+    "code": "S",
+    "value": 7900,
+    "who": "Shah Nikita"
+   },
+   {
+    "date": "2021-12-02",
+    "filed": "2021-12-03",
+    "code": "S",
+    "value": 6150,
+    "who": "Todisco Joseph"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "amneal pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

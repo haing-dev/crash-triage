@@ -1,0 +1,95 @@
+{
+ "id": "1850838_2023-04-14",
+ "kind": "slide",
+ "cik": "1850838",
+ "name": "Omega Therapeutics, Inc.",
+ "date": "2023-04-14",
+ "asof": "2023-04-14",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-04-14",
+  "adj_close": 7.56
+ },
+ "balance": {
+  "end": "2022-12-31",
+  "cash": 124678000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-23-005328"
+ },
+ "burn6": {
+  "end": "2022-12-31",
+  "start": "2022-07-01",
+  "cash_used_ops": 49072000.0,
+  "capex": 620000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-02-24",
+  "shares": 48095462
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 10,
+  "from": "2023-01-14",
+  "to": "2023-05-14",
+  "trades": [
+   {
+    "date": "2023-05-01",
+    "filed": "2023-05-03",
+    "code": "S",
+    "value": 40000,
+    "who": "Young Richard A"
+   },
+   {
+    "date": "2023-04-06",
+    "filed": "2023-04-10",
+    "code": "S",
+    "value": 40000,
+    "who": "Young Richard A"
+   },
+   {
+    "date": "2023-03-17",
+    "filed": "2023-03-20",
+    "code": "S",
+    "value": 80000,
+    "who": "Young Richard A"
+   },
+   {
+    "date": "2023-02-27",
+    "filed": "2023-02-27",
+    "code": "P",
+    "value": 11525239,
+    "who": "Flagship Pioneering Inc."
+   },
+   {
+    "date": "2023-02-27",
+    "filed": "2023-02-27",
+    "code": "P",
+    "value": 7683493,
+    "who": "Flagship Pioneering Inc."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "omega therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05497453",
+    "drugs": [
+     "OTX-2002",
+     "Tyrosine kinase inhibitor One",
+     "Tyrosine kinase inhibitor Two"
+    ]
+   }
+  ]
+ }
+}

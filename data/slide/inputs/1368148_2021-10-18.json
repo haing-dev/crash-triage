@@ -1,0 +1,78 @@
+{
+ "id": "1368148_2021-10-18",
+ "kind": "slide",
+ "cik": "1368148",
+ "name": "ATHERSYS, INC / NEW",
+ "date": "2021-10-18",
+ "asof": "2021-10-18",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-10-18",
+  "adj_close": 31.25
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 56654000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001368148-21-000098"
+ },
+ "burn6": {
+  "end": "2021-06-30",
+  "start": "2021-01-01",
+  "cash_used_ops": 37194000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-08-05",
+  "shares": 226255093
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2021-07-20",
+  "to": "2021-11-17",
+  "trades": [
+   {
+    "date": "2021-11-17",
+    "filed": "2021-11-17",
+    "code": "P",
+    "value": 17706,
+    "who": "Macleod ivor"
+   },
+   {
+    "date": "2021-09-20",
+    "filed": "2021-09-21",
+    "code": "S",
+    "value": 42300,
+    "who": "Lehmann William JR"
+   },
+   {
+    "date": "2021-09-15",
+    "filed": "2021-09-17",
+    "code": "S",
+    "value": 30733,
+    "who": "Harrington John J"
+   },
+   {
+    "date": "2021-09-16",
+    "filed": "2021-09-17",
+    "code": "S",
+    "value": 7250,
+    "who": "Harrington John J"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "athersys new",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

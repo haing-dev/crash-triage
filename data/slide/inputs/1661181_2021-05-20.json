@@ -1,0 +1,205 @@
+{
+ "id": "1661181_2021-05-20",
+ "kind": "slide",
+ "cik": "1661181",
+ "name": "Organogenesis Holdings Inc.",
+ "date": "2021-05-20",
+ "asof": "2021-05-20",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-05-20",
+  "adj_close": 15.94
+ },
+ "balance": {
+  "end": "2021-03-31",
+  "cash": 77458000,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+   "minus RestrictedCashCurrent"
+  ],
+  "accn": "0001193125-21-156534"
+ },
+ "burn6": {
+  "end": "2021-03-31",
+  "start": "2020-10-01",
+  "cash_used_ops": -24797000.0,
+  "capex": 13842000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-05-01",
+  "shares": 128218266
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 16,
+  "from": "2021-02-19",
+  "to": "2021-06-19",
+  "trades": [
+   {
+    "date": "2021-06-09",
+    "filed": "2021-06-10",
+    "code": "S",
+    "value": 2296500,
+    "who": "ERANI ALBERT"
+   },
+   {
+    "date": "2021-06-09",
+    "filed": "2021-06-10",
+    "code": "S",
+    "value": 2296500,
+    "who": "Albert Erani Family Trust dated 12/29/2012"
+   },
+   {
+    "date": "2021-06-04",
+    "filed": "2021-06-08",
+    "code": "S",
+    "value": 973200,
+    "who": "ERANI ALBERT"
+   },
+   {
+    "date": "2021-06-07",
+    "filed": "2021-06-08",
+    "code": "S",
+    "value": 1527038,
+    "who": "ERANI ALBERT"
+   },
+   {
+    "date": "2021-06-08",
+    "filed": "2021-06-08",
+    "code": "S",
+    "value": 1541000,
+    "who": "ERANI ALBERT"
+   },
+   {
+    "date": "2021-06-04",
+    "filed": "2021-06-08",
+    "code": "S",
+    "value": 973200,
+    "who": "Albert Erani Family Trust dated 12/29/2012"
+   },
+   {
+    "date": "2021-06-07",
+    "filed": "2021-06-08",
+    "code": "S",
+    "value": 1527038,
+    "who": "Albert Erani Family Trust dated 12/29/2012"
+   },
+   {
+    "date": "2021-06-08",
+    "filed": "2021-06-08",
+    "code": "S",
+    "value": 1541000,
+    "who": "Albert Erani Family Trust dated 12/29/2012"
+   },
+   {
+    "date": "2021-05-27",
+    "filed": "2021-05-28",
+    "code": "S",
+    "value": 63755000,
+    "who": "NUSSDORF GLENN H"
+   },
+   {
+    "date": "2021-05-27",
+    "filed": "2021-05-28",
+    "code": "S",
+    "value": 63755000,
+    "who": "Ades Alan A."
+   },
+   {
+    "date": "2020-10-15",
+    "filed": "2021-05-18",
+    "code": "S",
+    "value": 900000,
+    "who": "Wisdom Starr"
+   },
+   {
+    "date": "2021-02-11",
+    "filed": "2021-05-18",
+    "code": "S",
+    "value": 334237,
+    "who": "Wisdom Starr"
+   },
+   {
+    "date": "2021-02-12",
+    "filed": "2021-05-18",
+    "code": "S",
+    "value": 1091210,
+    "who": "Wisdom Starr"
+   },
+   {
+    "date": "2021-02-12",
+    "filed": "2021-05-18",
+    "code": "S",
+    "value": 193620,
+    "who": "Wisdom Starr"
+   },
+   {
+    "date": "2021-02-12",
+    "filed": "2021-05-18",
+    "code": "S",
+    "value": 5600,
+    "who": "Wisdom Starr"
+   },
+   {
+    "date": "2021-02-16",
+    "filed": "2021-05-18",
+    "code": "S",
+    "value": 2201500,
+    "who": "Wisdom Starr"
+   },
+   {
+    "date": "2021-02-24",
+    "filed": "2021-05-18",
+    "code": "S",
+    "value": 222764,
+    "who": "Wisdom Starr"
+   },
+   {
+    "date": "2021-02-25",
+    "filed": "2021-05-18",
+    "code": "S",
+    "value": 402833,
+    "who": "Wisdom Starr"
+   },
+   {
+    "date": "2021-02-25",
+    "filed": "2021-05-18",
+    "code": "S",
+    "value": 32175,
+    "who": "Wisdom Starr"
+   },
+   {
+    "date": "2021-03-01",
+    "filed": "2021-05-18",
+    "code": "S",
+    "value": 132825,
+    "who": "Wisdom Starr"
+   },
+   {
+    "date": "2021-04-09",
+    "filed": "2021-05-18",
+    "code": "S",
+    "value": 442200,
+    "who": "Wisdom Starr"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "organogenesis",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04636229",
+    "drugs": [
+     "Amniotic Suspension Allograft"
+    ]
+   }
+  ]
+ }
+}

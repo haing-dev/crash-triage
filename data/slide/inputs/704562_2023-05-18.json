@@ -1,0 +1,155 @@
+{
+ "id": "704562_2023-05-18",
+ "kind": "slide",
+ "cik": "704562",
+ "name": "Avid Bioservices, Inc.",
+ "date": "2023-05-18",
+ "asof": "2023-05-18",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-05-18",
+  "adj_close": 14.59
+ },
+ "balance": {
+  "end": "2023-01-31",
+  "cash": 59916000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001683168-23-001459"
+ },
+ "burn6": {
+  "end": "2023-01-31",
+  "start": "2022-08-01",
+  "cash_used_ops": 10652000.0,
+  "capex": 45837000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-03-06",
+  "shares": 62547056
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 13,
+  "from": "2023-02-17",
+  "to": "2023-06-17",
+  "trades": [
+   {
+    "date": "2023-06-06",
+    "filed": "2023-06-08",
+    "code": "S",
+    "value": 81646,
+    "who": "Hancock Richard B"
+   },
+   {
+    "date": "2023-06-06",
+    "filed": "2023-06-08",
+    "code": "S",
+    "value": 192,
+    "who": "Hancock Richard B"
+   },
+   {
+    "date": "2023-05-01",
+    "filed": "2023-05-02",
+    "code": "S",
+    "value": 447853,
+    "who": "Ziebell Mark R"
+   },
+   {
+    "date": "2023-05-01",
+    "filed": "2023-05-02",
+    "code": "S",
+    "value": 89601,
+    "who": "Hancock Richard B"
+   },
+   {
+    "date": "2023-04-13",
+    "filed": "2023-04-14",
+    "code": "S",
+    "value": 146416,
+    "who": "Green Nicholas Stewart"
+   },
+   {
+    "date": "2023-04-11",
+    "filed": "2023-04-12",
+    "code": "S",
+    "value": 141919,
+    "who": "SARGEN GREGORY"
+   },
+   {
+    "date": "2023-04-10",
+    "filed": "2023-04-11",
+    "code": "S",
+    "value": 14570,
+    "who": "Ziebell Mark R"
+   },
+   {
+    "date": "2023-04-10",
+    "filed": "2023-04-11",
+    "code": "S",
+    "value": 25340,
+    "who": "Hart Daniel R"
+   },
+   {
+    "date": "2023-04-10",
+    "filed": "2023-04-11",
+    "code": "S",
+    "value": 150414,
+    "who": "Green Nicholas Stewart"
+   },
+   {
+    "date": "2023-04-05",
+    "filed": "2023-04-07",
+    "code": "S",
+    "value": 14250,
+    "who": "Hart Daniel R"
+   },
+   {
+    "date": "2023-04-05",
+    "filed": "2023-04-07",
+    "code": "S",
+    "value": 9500,
+    "who": "Hart Daniel R"
+   },
+   {
+    "date": "2023-04-03",
+    "filed": "2023-04-05",
+    "code": "S",
+    "value": 92280,
+    "who": "Hancock Richard B"
+   },
+   {
+    "date": "2023-03-14",
+    "filed": "2023-03-16",
+    "code": "S",
+    "value": 57000,
+    "who": "Hart Daniel R"
+   },
+   {
+    "date": "2023-03-14",
+    "filed": "2023-03-16",
+    "code": "S",
+    "value": 38000,
+    "who": "Hart Daniel R"
+   },
+   {
+    "date": "2023-03-01",
+    "filed": "2023-03-03",
+    "code": "S",
+    "value": 82971,
+    "who": "Hancock Richard B"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "avid bioservices",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

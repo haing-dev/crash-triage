@@ -1,0 +1,49 @@
+{
+ "id": "1379006_2023-03-24",
+ "kind": "slide",
+ "cik": "1379006",
+ "name": "NANOVIRICIDES, INC.",
+ "date": "2023-03-24",
+ "asof": "2023-03-24",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-03-24",
+  "adj_close": 1.24
+ },
+ "balance": {
+  "end": "2022-12-31",
+  "cash": 11448346,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001410578-23-000129"
+ },
+ "burn6": {
+  "end": "2022-12-31",
+  "start": "2022-07-01",
+  "cash_used_ops": 2433380.0,
+  "capex": 89845.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-02-14",
+  "shares": 11635000
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2022-12-24",
+  "to": "2023-04-23",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "nanoviricides",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

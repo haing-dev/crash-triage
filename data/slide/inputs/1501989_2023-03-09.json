@@ -1,0 +1,114 @@
+{
+ "id": "1501989_2023-03-09",
+ "kind": "slide",
+ "cik": "1501989",
+ "name": "CytomX Therapeutics, Inc.",
+ "date": "2023-03-09",
+ "asof": "2023-03-09",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-03-09",
+  "adj_close": 1.96
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 194290000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0000950170-22-023190"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 68081000.0,
+  "capex": 822000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-10-31",
+  "shares": 66084367
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 12,
+  "from": "2022-12-09",
+  "to": "2023-04-08",
+  "trades": [
+   {
+    "date": "2023-03-29",
+    "filed": "2023-03-31",
+    "code": "P",
+    "value": 7750,
+    "who": "Jones Elaine V"
+   },
+   {
+    "date": "2023-03-16",
+    "filed": "2023-03-20",
+    "code": "S",
+    "value": 1021,
+    "who": "Ogden Christopher"
+   },
+   {
+    "date": "2023-03-16",
+    "filed": "2023-03-20",
+    "code": "S",
+    "value": 13391,
+    "who": "McCarthy Sean A."
+   },
+   {
+    "date": "2023-03-16",
+    "filed": "2023-03-20",
+    "code": "S",
+    "value": 3459,
+    "who": "Campoy Carlos"
+   },
+   {
+    "date": "2023-03-16",
+    "filed": "2023-03-20",
+    "code": "S",
+    "value": 4031,
+    "who": "ROWLAND LLOYD A"
+   },
+   {
+    "date": "2023-03-16",
+    "filed": "2023-03-20",
+    "code": "S",
+    "value": 2923,
+    "who": "Landau Jeffrey B"
+   },
+   {
+    "date": "2023-03-16",
+    "filed": "2023-03-20",
+    "code": "S",
+    "value": 8425,
+    "who": "Peterson Amy C."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "cytomx therapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04596150",
+    "drugs": [
+     "CX-2009",
+     "CX-072"
+    ]
+   },
+   {
+    "nct": "NCT03543813",
+    "drugs": [
+     "CX-2029"
+    ]
+   }
+  ]
+ }
+}

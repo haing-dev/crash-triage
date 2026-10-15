@@ -1,0 +1,49 @@
+{
+ "id": "720154_2024-05-14",
+ "kind": "crash",
+ "cik": "720154",
+ "name": "Inotiv, Inc.",
+ "date": "2024-05-14",
+ "asof": "2024-05-14",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-05-14",
+  "adj_close": 2.12
+ },
+ "balance": {
+  "end": "2023-12-31",
+  "cash": 22001000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001628280-24-003732"
+ },
+ "burn6": {
+  "end": "2023-12-31",
+  "start": "2023-07-01",
+  "cash_used_ops": -12218000.0,
+  "capex": 11751000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-01-31",
+  "shares": 25790680
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2024-02-14",
+  "to": "2024-06-13",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "inotiv",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

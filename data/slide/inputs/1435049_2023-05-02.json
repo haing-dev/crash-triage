@@ -1,0 +1,178 @@
+{
+ "id": "1435049_2023-05-02",
+ "kind": "slide",
+ "cik": "1435049",
+ "name": "CHINOOK THERAPEUTICS, INC.",
+ "date": "2023-05-02",
+ "asof": "2023-05-02",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-05-02",
+  "adj_close": 18.66
+ },
+ "balance": {
+  "end": "2022-12-31",
+  "cash": 385314000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent",
+   "MarketableSecuritiesNoncurrent"
+  ],
+  "accn": "0001564590-23-002589"
+ },
+ "burn6": {
+  "end": "2022-12-31",
+  "start": "2022-07-01",
+  "cash_used_ops": 62141000.0,
+  "capex": 1052000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-02-17",
+  "shares": 65846156
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 21,
+  "from": "2023-02-01",
+  "to": "2023-06-01",
+  "trades": [
+   {
+    "date": "2023-05-30",
+    "filed": "2023-05-31",
+    "code": "S",
+    "value": 26912,
+    "who": "Greenman William Mariner"
+   },
+   {
+    "date": "2023-04-24",
+    "filed": "2023-04-26",
+    "code": "S",
+    "value": 513528,
+    "who": "DOBMEIER ERIC"
+   },
+   {
+    "date": "2023-04-24",
+    "filed": "2023-04-26",
+    "code": "S",
+    "value": 26711,
+    "who": "DOBMEIER ERIC"
+   },
+   {
+    "date": "2023-04-17",
+    "filed": "2023-04-19",
+    "code": "S",
+    "value": 6138223,
+    "who": "Jerel Davis"
+   },
+   {
+    "date": "2023-04-03",
+    "filed": "2023-04-05",
+    "code": "S",
+    "value": 116718,
+    "who": "King Andrew James"
+   },
+   {
+    "date": "2023-04-04",
+    "filed": "2023-04-04",
+    "code": "S",
+    "value": 21261,
+    "who": "Krishnan Mahesh"
+   },
+   {
+    "date": "2023-03-01",
+    "filed": "2023-03-03",
+    "code": "S",
+    "value": 5460000,
+    "who": "Jerel Davis"
+   },
+   {
+    "date": "2023-03-01",
+    "filed": "2023-03-03",
+    "code": "S",
+    "value": 2803915,
+    "who": "Jerel Davis"
+   },
+   {
+    "date": "2023-03-01",
+    "filed": "2023-03-03",
+    "code": "S",
+    "value": 836085,
+    "who": "Jerel Davis"
+   },
+   {
+    "date": "2023-02-10",
+    "filed": "2023-02-15",
+    "code": "S",
+    "value": 20352,
+    "who": "BJERKHOLT ERIC"
+   },
+   {
+    "date": "2023-02-10",
+    "filed": "2023-02-15",
+    "code": "S",
+    "value": 192292,
+    "who": "DOBMEIER ERIC"
+   },
+   {
+    "date": "2023-02-10",
+    "filed": "2023-02-15",
+    "code": "S",
+    "value": 87869,
+    "who": "Frohlich Tom"
+   },
+   {
+    "date": "2023-02-10",
+    "filed": "2023-02-15",
+    "code": "S",
+    "value": 56806,
+    "who": "King Andrew James"
+   },
+   {
+    "date": "2023-01-31",
+    "filed": "2023-02-02",
+    "code": "S",
+    "value": 112700,
+    "who": "Frohlich Tom"
+   },
+   {
+    "date": "2023-01-31",
+    "filed": "2023-02-02",
+    "code": "S",
+    "value": 71357,
+    "who": "BJERKHOLT ERIC"
+   },
+   {
+    "date": "2023-01-31",
+    "filed": "2023-02-02",
+    "code": "S",
+    "value": 80069,
+    "who": "King Andrew James"
+   },
+   {
+    "date": "2023-01-30",
+    "filed": "2023-02-01",
+    "code": "S",
+    "value": 613612,
+    "who": "DOBMEIER ERIC"
+   },
+   {
+    "date": "2023-01-31",
+    "filed": "2023-02-01",
+    "code": "S",
+    "value": 189757,
+    "who": "DOBMEIER ERIC"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "chinook therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

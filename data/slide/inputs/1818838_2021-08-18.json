@@ -1,0 +1,59 @@
+{
+ "id": "1818838_2021-08-18",
+ "kind": "slide",
+ "cik": "1818838",
+ "name": "Adagene Inc.",
+ "date": "2021-08-18",
+ "asof": "2021-08-18",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-08-18",
+  "adj_close": 17.8
+ },
+ "balance": {
+  "end": "2020-12-31",
+  "cash": 75150998,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001104659-21-055911"
+ },
+ "burn6": null,
+ "shares": {
+  "end": "2020-12-31",
+  "shares": 43852894
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2021-05-20",
+  "to": "2021-09-17",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "adagene",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04775680",
+    "drugs": [
+     "ADG106 injection",
+     "PD-1 antibody injection"
+    ]
+   },
+   {
+    "nct": "NCT04645069",
+    "drugs": [
+     "ADG126 Mono",
+     "ADG126-anti PD1",
+     "ADG126-ADG106"
+    ]
+   }
+  ]
+ }
+}

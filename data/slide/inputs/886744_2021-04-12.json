@@ -1,0 +1,65 @@
+{
+ "id": "886744_2021-04-12",
+ "kind": "slide",
+ "cik": "886744",
+ "name": "GERON CORP",
+ "date": "2021-04-12",
+ "asof": "2021-04-12",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-04-12",
+  "adj_close": 1.42
+ },
+ "balance": {
+  "end": "2020-12-31",
+  "cash": 259662000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0001564590-21-012493"
+ },
+ "burn6": {
+  "end": "2020-12-31",
+  "start": "2020-07-01",
+  "cash_used_ops": 28063000.0,
+  "capex": 15000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-03-01",
+  "shares": 318527540
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2021-01-12",
+  "to": "2021-05-12",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "geron",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT02598661",
+    "drugs": [
+     "Imetelstat Sodium"
+    ]
+   },
+   {
+    "nct": "NCT04576156",
+    "drugs": [
+     "Imetelstat",
+     "Best Available Therapy (BAT)"
+    ]
+   }
+  ]
+ }
+}

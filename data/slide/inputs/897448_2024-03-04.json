@@ -1,0 +1,65 @@
+{
+ "id": "897448_2024-03-04",
+ "kind": "slide",
+ "cik": "897448",
+ "name": "AMARIN CORP PLC\\UK",
+ "date": "2024-03-04",
+ "asof": "2024-03-04",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-03-04",
+  "adj_close": 18.4
+ },
+ "balance": {
+  "end": "2023-12-31",
+  "cash": 320659000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-24-022636"
+ },
+ "burn6": {
+  "end": "2023-12-31",
+  "start": "2023-07-01",
+  "cash_used_ops": -6684000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2013-02-20",
+  "shares": 380694
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 16,
+  "from": "2023-12-05",
+  "to": "2024-04-03",
+  "trades": [
+   {
+    "date": "2024-01-22",
+    "filed": "2024-01-24",
+    "code": "P",
+    "value": 15724,
+    "who": "Holt Patrick"
+   },
+   {
+    "date": "2023-12-12",
+    "filed": "2023-12-14",
+    "code": "S",
+    "value": 26963,
+    "who": "Ketchum Steven B"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "amarin uk",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,134 @@
+{
+ "id": "1744659_2022-01-26",
+ "kind": "slide",
+ "cik": "1744659",
+ "name": "Akero Therapeutics, Inc.",
+ "date": "2022-01-26",
+ "asof": "2022-01-26",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-01-26",
+  "adj_close": 18.26
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 354120000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001558370-21-015641"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 34640000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-11-09",
+  "shares": 34888302
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 16,
+  "from": "2021-10-28",
+  "to": "2022-02-25",
+  "trades": [
+   {
+    "date": "2022-02-01",
+    "filed": "2022-02-03",
+    "code": "S",
+    "value": 175600,
+    "who": "Cheng Andrew"
+   },
+   {
+    "date": "2022-01-14",
+    "filed": "2022-01-18",
+    "code": "S",
+    "value": 213691,
+    "who": "White William Richard"
+   },
+   {
+    "date": "2021-01-10",
+    "filed": "2022-01-11",
+    "code": "S",
+    "value": 195500,
+    "who": "Cheng Andrew"
+   },
+   {
+    "date": "2021-12-21",
+    "filed": "2021-12-23",
+    "code": "S",
+    "value": 2200,
+    "who": "White William Richard"
+   },
+   {
+    "date": "2021-12-17",
+    "filed": "2021-12-20",
+    "code": "S",
+    "value": 70528,
+    "who": "White William Richard"
+   },
+   {
+    "date": "2021-12-02",
+    "filed": "2021-12-03",
+    "code": "S",
+    "value": 353150,
+    "who": "Cheng Andrew"
+   },
+   {
+    "date": "2021-11-03",
+    "filed": "2021-11-05",
+    "code": "S",
+    "value": 455791,
+    "who": "Young Jonathan"
+   },
+   {
+    "date": "2021-11-04",
+    "filed": "2021-11-05",
+    "code": "S",
+    "value": 151333,
+    "who": "Young Jonathan"
+   },
+   {
+    "date": "2021-11-02",
+    "filed": "2021-11-03",
+    "code": "S",
+    "value": 394975,
+    "who": "Cheng Andrew"
+   },
+   {
+    "date": "2021-11-01",
+    "filed": "2021-11-03",
+    "code": "S",
+    "value": 144560,
+    "who": "White William Richard"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "akero therapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05039450",
+    "drugs": [
+     "EFX"
+    ]
+   },
+   {
+    "nct": "NCT04767529",
+    "drugs": [
+     "Efruxifermin"
+    ]
+   }
+  ]
+ }
+}

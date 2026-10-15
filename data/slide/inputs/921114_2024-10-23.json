@@ -1,0 +1,57 @@
+{
+ "id": "921114_2024-10-23",
+ "kind": "slide",
+ "cik": "921114",
+ "name": "Armata Pharmaceuticals, Inc.",
+ "date": "2024-10-23",
+ "asof": "2024-10-23",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-10-23",
+  "adj_close": 2.3
+ },
+ "balance": {
+  "end": "2024-06-30",
+  "cash": 26405000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-24-012061"
+ },
+ "burn6": {
+  "end": "2024-06-30",
+  "start": "2024-01-01",
+  "cash_used_ops": 20761000.0,
+  "capex": 1616000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-08-09",
+  "shares": 36183067
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These circumstances raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2024-07-25",
+  "to": "2024-11-22",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "armata pharmaceuticals",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05184764",
+    "drugs": [
+     "AP-SA02"
+    ]
+   }
+  ]
+ }
+}

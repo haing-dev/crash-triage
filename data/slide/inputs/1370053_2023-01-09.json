@@ -1,0 +1,58 @@
+{
+ "id": "1370053_2023-01-09",
+ "kind": "slide",
+ "cik": "1370053",
+ "name": "ANAPTYSBIO, INC",
+ "date": "2023-01-09",
+ "asof": "2023-01-09",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-01-09",
+  "adj_close": 14.67333
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 590477000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0001370053-22-000066"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 41894000.0,
+  "capex": 128000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-11-04",
+  "shares": 28431632
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2022-10-11",
+  "to": "2023-02-08",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "anaptysbio",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05205070",
+    "drugs": [
+     "Rosnilimab"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,141 @@
+{
+ "id": "1719714_2024-11-18",
+ "kind": "slide",
+ "cik": "1719714",
+ "name": "Mereo BioPharma Group plc",
+ "date": "2024-11-18",
+ "asof": "2024-11-18",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-11-18",
+  "adj_close": 3.33
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 80522000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-24-124637"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": 15423000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-11-11",
+  "shares": 775728034
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2024-08-20",
+  "to": "2024-12-18",
+  "trades": [
+   {
+    "date": "2024-09-12",
+    "filed": "2024-09-16",
+    "code": "S",
+    "value": 127968,
+    "who": "Scots-Knight Denise"
+   },
+   {
+    "date": "2024-09-13",
+    "filed": "2024-09-16",
+    "code": "S",
+    "value": 253454,
+    "who": "Scots-Knight Denise"
+   },
+   {
+    "date": "2024-09-12",
+    "filed": "2024-09-16",
+    "code": "S",
+    "value": 23312,
+    "who": "Lewicki John A."
+   },
+   {
+    "date": "2024-09-13",
+    "filed": "2024-09-16",
+    "code": "S",
+    "value": 46165,
+    "who": "Lewicki John A."
+   },
+   {
+    "date": "2024-09-12",
+    "filed": "2024-09-16",
+    "code": "S",
+    "value": 44638,
+    "who": "Sermon Charles"
+   },
+   {
+    "date": "2024-09-13",
+    "filed": "2024-09-16",
+    "code": "S",
+    "value": 88413,
+    "who": "Sermon Charles"
+   },
+   {
+    "date": "2024-09-12",
+    "filed": "2024-09-16",
+    "code": "S",
+    "value": 40827,
+    "who": "Fox Christine Ann"
+   },
+   {
+    "date": "2024-09-13",
+    "filed": "2024-09-16",
+    "code": "S",
+    "value": 80866,
+    "who": "Fox Christine Ann"
+   },
+   {
+    "date": "2024-09-12",
+    "filed": "2024-09-16",
+    "code": "S",
+    "value": 34748,
+    "who": "Hughes-Wilson Alexandra"
+   },
+   {
+    "date": "2024-09-12",
+    "filed": "2024-09-16",
+    "code": "S",
+    "value": 179038,
+    "who": "Hughes-Wilson Alexandra"
+   },
+   {
+    "date": "2024-09-13",
+    "filed": "2024-09-16",
+    "code": "S",
+    "value": 68819,
+    "who": "Hughes-Wilson Alexandra"
+   },
+   {
+    "date": "2024-09-13",
+    "filed": "2024-09-16",
+    "code": "S",
+    "value": 354598,
+    "who": "Hughes-Wilson Alexandra"
+   },
+   {
+    "date": "2024-08-22",
+    "filed": "2024-08-23",
+    "code": "S",
+    "value": 466210,
+    "who": "PAKIANATHAN DEEPIKA"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "mereo biopharma",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

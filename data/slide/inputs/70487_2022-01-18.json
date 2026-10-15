@@ -1,0 +1,120 @@
+{
+ "id": "70487_2022-01-18",
+ "kind": "slide",
+ "cik": "70487",
+ "name": "NRC HEALTH",
+ "date": "2022-01-18",
+ "asof": "2022-01-18",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-01-18",
+  "adj_close": 37.54
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 52482000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001437749-21-025432"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": -19862000.0,
+  "capex": 2559000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-10-27",
+  "shares": 25449013
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 13,
+  "from": "2021-10-20",
+  "to": "2022-02-17",
+  "trades": [
+   {
+    "date": "2021-12-27",
+    "filed": "2021-12-29",
+    "code": "S",
+    "value": 6970,
+    "who": "Amandla MK Trust"
+   },
+   {
+    "date": "2021-12-28",
+    "filed": "2021-12-29",
+    "code": "S",
+    "value": 208907,
+    "who": "Amandla MK Trust"
+   },
+   {
+    "date": "2021-12-17",
+    "filed": "2021-12-21",
+    "code": "S",
+    "value": 248827,
+    "who": "Amandla MK Trust"
+   },
+   {
+    "date": "2021-12-10",
+    "filed": "2021-12-14",
+    "code": "S",
+    "value": 1924660,
+    "who": "Amandla MK Trust"
+   },
+   {
+    "date": "2021-12-13",
+    "filed": "2021-12-14",
+    "code": "S",
+    "value": 784354,
+    "who": "Amandla MK Trust"
+   },
+   {
+    "date": "2021-12-07",
+    "filed": "2021-12-09",
+    "code": "S",
+    "value": 374407,
+    "who": "Amandla MK Trust"
+   },
+   {
+    "date": "2021-12-03",
+    "filed": "2021-12-07",
+    "code": "S",
+    "value": 5035115,
+    "who": "Amandla MK Trust"
+   },
+   {
+    "date": "2021-12-06",
+    "filed": "2021-12-07",
+    "code": "S",
+    "value": 487807,
+    "who": "Amandla MK Trust"
+   },
+   {
+    "date": "2021-11-05",
+    "filed": "2021-11-09",
+    "code": "S",
+    "value": 4900,
+    "who": "Amandla MK Trust"
+   },
+   {
+    "date": "2021-11-03",
+    "filed": "2021-11-05",
+    "code": "S",
+    "value": 2502770,
+    "who": "Amandla MK Trust"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "nrc health",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

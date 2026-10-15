@@ -1,0 +1,197 @@
+{
+ "id": "1714899_2023-08-17",
+ "kind": "slide",
+ "cik": "1714899",
+ "name": "Denali Therapeutics Inc.",
+ "date": "2023-08-17",
+ "asof": "2023-08-17",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-08-17",
+  "adj_close": 22.89
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 1190987000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001714899-23-000120"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 171971000.0,
+  "capex": 8636000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-07-31",
+  "shares": 137422131
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 26,
+  "from": "2023-05-19",
+  "to": "2023-09-16",
+  "trades": [
+   {
+    "date": "2023-08-23",
+    "filed": "2023-08-25",
+    "code": "S",
+    "value": 58435,
+    "who": "Schuth Alexander O."
+   },
+   {
+    "date": "2023-08-23",
+    "filed": "2023-08-25",
+    "code": "S",
+    "value": 58561,
+    "who": "Ho Carole"
+   },
+   {
+    "date": "2023-08-21",
+    "filed": "2023-08-23",
+    "code": "S",
+    "value": 56003,
+    "who": "Ho Carole"
+   },
+   {
+    "date": "2023-08-21",
+    "filed": "2023-08-23",
+    "code": "S",
+    "value": 55978,
+    "who": "Schuth Alexander O."
+   },
+   {
+    "date": "2023-08-21",
+    "filed": "2023-08-23",
+    "code": "S",
+    "value": 52160,
+    "who": "Watts Ryan J."
+   },
+   {
+    "date": "2023-08-21",
+    "filed": "2023-08-23",
+    "code": "S",
+    "value": 32069,
+    "who": "Krognes Steve E."
+   },
+   {
+    "date": "2023-08-15",
+    "filed": "2023-08-17",
+    "code": "S",
+    "value": 40484,
+    "who": "SATO VICKI L"
+   },
+   {
+    "date": "2023-08-14",
+    "filed": "2023-08-16",
+    "code": "S",
+    "value": 65851,
+    "who": "Ho Carole"
+   },
+   {
+    "date": "2023-08-14",
+    "filed": "2023-08-16",
+    "code": "S",
+    "value": 65613,
+    "who": "Schuth Alexander O."
+   },
+   {
+    "date": "2023-08-10",
+    "filed": "2023-08-14",
+    "code": "S",
+    "value": 63226,
+    "who": "Watts Ryan J."
+   },
+   {
+    "date": "2023-08-10",
+    "filed": "2023-08-14",
+    "code": "S",
+    "value": 68997,
+    "who": "Ho Carole"
+   },
+   {
+    "date": "2023-08-10",
+    "filed": "2023-08-14",
+    "code": "S",
+    "value": 68986,
+    "who": "Schuth Alexander O."
+   },
+   {
+    "date": "2023-07-17",
+    "filed": "2023-07-19",
+    "code": "S",
+    "value": 296000,
+    "who": "Schuth Alexander O."
+   },
+   {
+    "date": "2023-07-18",
+    "filed": "2023-07-19",
+    "code": "S",
+    "value": 291157,
+    "who": "Schuth Alexander O."
+   },
+   {
+    "date": "2023-07-17",
+    "filed": "2023-07-19",
+    "code": "S",
+    "value": 49314,
+    "who": "SATO VICKI L"
+   },
+   {
+    "date": "2023-06-28",
+    "filed": "2023-06-30",
+    "code": "S",
+    "value": 16312,
+    "who": "SATO VICKI L"
+   },
+   {
+    "date": "2023-06-28",
+    "filed": "2023-06-30",
+    "code": "S",
+    "value": 33398,
+    "who": "SATO VICKI L"
+   },
+   {
+    "date": "2023-06-16",
+    "filed": "2023-06-20",
+    "code": "S",
+    "value": 1570000,
+    "who": "Watts Ryan J."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "denali therapeutics",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05371613",
+    "drugs": [
+     "tividenofusp alfa",
+     "idursulfase"
+    ]
+   },
+   {
+    "nct": "NCT04251026",
+    "drugs": [
+     "tividenofusp alfa"
+    ]
+   },
+   {
+    "nct": "NCT05262023",
+    "drugs": [
+     "DNL593"
+    ]
+   }
+  ]
+ }
+}

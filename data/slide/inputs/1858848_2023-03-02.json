@@ -1,0 +1,128 @@
+{
+ "id": "1858848_2023-03-02",
+ "kind": "slide",
+ "cik": "1858848",
+ "name": "Tenaya Therapeutics, Inc.",
+ "date": "2023-03-02",
+ "asof": "2023-03-02",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-03-02",
+  "adj_close": 3.19
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 149450000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-22-024521"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 52986000.0,
+  "capex": 11240000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-11-02",
+  "shares": 41374508
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 14,
+  "from": "2022-12-02",
+  "to": "2023-04-01",
+  "trades": [
+   {
+    "date": "2023-03-10",
+    "filed": "2023-03-14",
+    "code": "P",
+    "value": 17596,
+    "who": "COLUMN GROUP III GP, LP"
+   },
+   {
+    "date": "2023-03-10",
+    "filed": "2023-03-14",
+    "code": "P",
+    "value": 17596,
+    "who": "GOEDDEL DAVID V"
+   },
+   {
+    "date": "2023-02-08",
+    "filed": "2023-02-10",
+    "code": "P",
+    "value": 3900000,
+    "who": "COLUMN GROUP III GP, LP"
+   },
+   {
+    "date": "2023-02-08",
+    "filed": "2023-02-10",
+    "code": "P",
+    "value": 3900000,
+    "who": "GOEDDEL DAVID V"
+   },
+   {
+    "date": "2023-01-19",
+    "filed": "2023-01-23",
+    "code": "P",
+    "value": 174201,
+    "who": "COLUMN GROUP III GP, LP"
+   },
+   {
+    "date": "2023-01-19",
+    "filed": "2023-01-23",
+    "code": "P",
+    "value": 174201,
+    "who": "GOEDDEL DAVID V"
+   },
+   {
+    "date": "2023-01-17",
+    "filed": "2023-01-19",
+    "code": "P",
+    "value": 123395,
+    "who": "COLUMN GROUP III GP, LP"
+   },
+   {
+    "date": "2023-01-18",
+    "filed": "2023-01-19",
+    "code": "P",
+    "value": 341432,
+    "who": "COLUMN GROUP III GP, LP"
+   },
+   {
+    "date": "2023-01-17",
+    "filed": "2023-01-19",
+    "code": "P",
+    "value": 123395,
+    "who": "GOEDDEL DAVID V"
+   },
+   {
+    "date": "2023-01-18",
+    "filed": "2023-01-19",
+    "code": "P",
+    "value": 341432,
+    "who": "GOEDDEL DAVID V"
+   },
+   {
+    "date": "2022-11-21",
+    "filed": "2022-12-09",
+    "code": "P",
+    "value": 599999,
+    "who": "Srivastava Deepak"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "tenaya therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

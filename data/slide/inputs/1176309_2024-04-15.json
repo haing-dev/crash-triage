@@ -1,0 +1,52 @@
+{
+ "id": "1176309_2024-04-15",
+ "kind": "slide",
+ "cik": "1176309",
+ "name": "ORAMED PHARMACEUTICALS INC.",
+ "date": "2024-04-15",
+ "asof": "2024-04-15",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-04-15",
+  "adj_close": 2.42
+ },
+ "balance": {
+  "end": "2023-12-31",
+  "cash": 68575000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments",
+   "MarketableSecuritiesNoncurrent"
+  ],
+  "accn": "0001213900-24-020485"
+ },
+ "burn6": {
+  "end": "2023-12-31",
+  "start": "2023-07-01",
+  "cash_used_ops": 2112000.0,
+  "capex": 35000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-03-06",
+  "shares": 40519160
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Additionally, Scilex has disclosed in its periodic reports filed with the SEC that there is substantial doubt about its ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 2,
+  "from": "2024-01-16",
+  "to": "2024-05-15",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "oramed pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

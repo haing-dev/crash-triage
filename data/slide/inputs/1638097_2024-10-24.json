@@ -1,0 +1,50 @@
+{
+ "id": "1638097_2024-10-24",
+ "kind": "slide",
+ "cik": "1638097",
+ "name": "Entera Bio Ltd.",
+ "date": "2024-10-24",
+ "asof": "2024-10-24",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-10-24",
+  "adj_close": 1.82
+ },
+ "balance": {
+  "end": "2024-06-30",
+  "cash": 9056000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001178913-24-002522"
+ },
+ "burn6": {
+  "end": "2024-06-30",
+  "start": "2024-01-01",
+  "cash_used_ops": 3197000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-08-05",
+  "shares": 36324579
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These factors raise substantial doubt as to the Company's ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2024-07-26",
+  "to": "2024-11-23",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "entera bio",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

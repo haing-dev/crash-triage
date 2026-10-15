@@ -1,0 +1,68 @@
+{
+ "id": "1453687_2025-10-10",
+ "kind": "slide",
+ "cik": "1453687",
+ "name": "Cartesian Therapeutics, Inc.",
+ "date": "2025-10-10",
+ "asof": "2025-10-10",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-10-10",
+  "adj_close": 9.32
+ },
+ "balance": {
+  "end": "2025-06-30",
+  "cash": 160324000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001453687-25-000099"
+ },
+ "burn6": {
+  "end": "2025-06-30",
+  "start": "2025-01-01",
+  "cash_used_ops": 40629000.0,
+  "capex": 3670000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-08-01",
+  "shares": 26002042
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2025-07-12",
+  "to": "2025-11-09",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "cartesian therapeutics",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06038474",
+    "drugs": [
+     "Descartes-08"
+    ]
+   },
+   {
+    "nct": "NCT06799247",
+    "drugs": [
+     "Decartes-08"
+    ]
+   },
+   {
+    "nct": "NCT04146051",
+    "drugs": [
+     "Descartes-08"
+    ]
+   }
+  ]
+ }
+}

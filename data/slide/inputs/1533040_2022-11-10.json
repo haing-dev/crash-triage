@@ -1,0 +1,100 @@
+{
+ "id": "1533040_2022-11-10",
+ "kind": "slide",
+ "cik": "1533040",
+ "name": "Phio Pharmaceuticals Corp.",
+ "date": "2022-11-10",
+ "asof": "2022-11-10",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-11-10",
+  "adj_close": 58.32
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 14484000,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+   "minus RestrictedCash"
+  ],
+  "accn": "0001683168-22-007528"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 5955000.0,
+  "capex": 17000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-11-04",
+  "shares": 13667973
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2022-08-12",
+  "to": "2022-12-10",
+  "trades": [
+   {
+    "date": "2022-12-07",
+    "filed": "2022-12-08",
+    "code": "P",
+    "value": 780,
+    "who": "Bitterman Robert J"
+   },
+   {
+    "date": "2022-12-05",
+    "filed": "2022-12-06",
+    "code": "P",
+    "value": 860,
+    "who": "Bitterman Robert J"
+   },
+   {
+    "date": "2022-12-02",
+    "filed": "2022-12-05",
+    "code": "P",
+    "value": 2041,
+    "who": "Ferrara Robert L"
+   },
+   {
+    "date": "2022-11-25",
+    "filed": "2022-11-29",
+    "code": "P",
+    "value": 1050,
+    "who": "Bitterman Robert J"
+   },
+   {
+    "date": "2022-11-29",
+    "filed": "2022-11-29",
+    "code": "P",
+    "value": 86,
+    "who": "Bitterman Robert J"
+   },
+   {
+    "date": "2022-11-23",
+    "filed": "2022-11-28",
+    "code": "P",
+    "value": 820,
+    "who": "Ferrara Robert L"
+   },
+   {
+    "date": "2022-11-16",
+    "filed": "2022-11-16",
+    "code": "P",
+    "value": 1750,
+    "who": "Bitterman Robert J"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "phio pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

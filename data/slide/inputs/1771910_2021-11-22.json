@@ -1,0 +1,78 @@
+{
+ "id": "1771910_2021-11-22",
+ "kind": "slide",
+ "cik": "1771910",
+ "name": "ADC Therapeutics SA",
+ "date": "2021-11-22",
+ "asof": "2021-11-22",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-11-22",
+  "adj_close": 21.96
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 530194000,
+  "parts": [
+   "ifrs CashAndCashEquivalents"
+  ],
+  "accn": "0001771910-21-000037"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 116598000.0,
+  "capex": 2353000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2020-12-31",
+  "shares": 76721543
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2021-08-24",
+  "to": "2021-12-22",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "adc therapeutics",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04052997",
+    "drugs": [
+     "Camidanlumab Tesirine"
+    ]
+   },
+   {
+    "nct": "NCT04699461",
+    "drugs": [
+     "Loncastuximab Tesirine",
+     "Idelalisib"
+    ]
+   },
+   {
+    "nct": "NCT04384484",
+    "drugs": [
+     "Loncastuximab Tesirine",
+     "Rituximab",
+     "Gemcitabine"
+    ]
+   },
+   {
+    "nct": "NCT03684694",
+    "drugs": [
+     "Loncastuximab Tesirine",
+     "Ibrutinib"
+    ]
+   }
+  ]
+ }
+}

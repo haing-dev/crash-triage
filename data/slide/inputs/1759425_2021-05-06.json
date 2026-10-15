@@ -1,0 +1,83 @@
+{
+ "id": "1759425_2021-05-06",
+ "kind": "slide",
+ "cik": "1759425",
+ "name": "Mirum Pharmaceuticals, Inc.",
+ "date": "2021-05-06",
+ "asof": "2021-05-06",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-05-06",
+  "adj_close": 17.7
+ },
+ "balance": {
+  "end": "2021-03-31",
+  "cash": 213113000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001564590-21-024994"
+ },
+ "burn6": {
+  "end": "2021-03-31",
+  "start": "2020-10-01",
+  "cash_used_ops": 61489000.0,
+  "capex": 31000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-04-30",
+  "shares": 30453374
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 7,
+  "from": "2021-02-05",
+  "to": "2021-06-05",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "mirum pharmaceuticals",
+  "other_trials": 6,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03905330",
+    "drugs": [
+     "Maralixibat"
+    ]
+   },
+   {
+    "nct": "NCT04718961",
+    "drugs": [
+     "Volixibat"
+    ]
+   },
+   {
+    "nct": "NCT04270682",
+    "drugs": [
+     "Blinded CDCA 250 mg TID",
+     "Open-Label CDCA 250 mg TID",
+     "Rescue Medication CDCA 250 mg TID"
+    ]
+   },
+   {
+    "nct": "NCT04168385",
+    "drugs": [
+     "Maralixibat"
+    ]
+   },
+   {
+    "nct": "NCT04663308",
+    "drugs": [
+     "Volixibat"
+    ]
+   }
+  ]
+ }
+}

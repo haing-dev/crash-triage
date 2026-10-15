@@ -1,0 +1,386 @@
+{
+ "id": "1601830_2022-07-21",
+ "kind": "slide",
+ "cik": "1601830",
+ "name": "RECURSION PHARMACEUTICALS, INC.",
+ "date": "2022-07-21",
+ "asof": "2022-07-21",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-07-21",
+  "adj_close": 8.49
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 591105000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001601830-22-000024"
+ },
+ "burn6": {
+  "end": "2022-03-31",
+  "start": "2021-10-01",
+  "cash_used_ops": -16230000.0,
+  "capex": 8806000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-04-30",
+  "shares": 168320745
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 27,
+  "from": "2022-04-22",
+  "to": "2022-08-20",
+  "trades": [
+   {
+    "date": "2022-08-16",
+    "filed": "2022-08-17",
+    "code": "S",
+    "value": 378444,
+    "who": "Virani Shafique"
+   },
+   {
+    "date": "2022-08-16",
+    "filed": "2022-08-17",
+    "code": "S",
+    "value": 201637,
+    "who": "Larson Tina Marriott"
+   },
+   {
+    "date": "2022-08-04",
+    "filed": "2022-08-05",
+    "code": "S",
+    "value": 174562,
+    "who": "Gibson Christopher"
+   },
+   {
+    "date": "2022-08-04",
+    "filed": "2022-08-05",
+    "code": "S",
+    "value": 174879,
+    "who": "Gibson Christopher"
+   },
+   {
+    "date": "2022-08-04",
+    "filed": "2022-08-05",
+    "code": "S",
+    "value": 4722,
+    "who": "Gibson Christopher"
+   },
+   {
+    "date": "2022-08-04",
+    "filed": "2022-08-05",
+    "code": "S",
+    "value": 9448,
+    "who": "Gibson Christopher"
+   },
+   {
+    "date": "2022-08-04",
+    "filed": "2022-08-05",
+    "code": "S",
+    "value": 9447,
+    "who": "Gibson Christopher"
+   },
+   {
+    "date": "2022-07-07",
+    "filed": "2022-07-08",
+    "code": "S",
+    "value": 168233,
+    "who": "Gibson Christopher"
+   },
+   {
+    "date": "2022-07-07",
+    "filed": "2022-07-08",
+    "code": "S",
+    "value": 167745,
+    "who": "Gibson Christopher"
+   },
+   {
+    "date": "2022-07-07",
+    "filed": "2022-07-08",
+    "code": "S",
+    "value": 4531,
+    "who": "Gibson Christopher"
+   },
+   {
+    "date": "2022-07-07",
+    "filed": "2022-07-08",
+    "code": "S",
+    "value": 9070,
+    "who": "Gibson Christopher"
+   },
+   {
+    "date": "2022-07-07",
+    "filed": "2022-07-08",
+    "code": "S",
+    "value": 9068,
+    "who": "Gibson Christopher"
+   },
+   {
+    "date": "2022-06-02",
+    "filed": "2022-06-06",
+    "code": "S",
+    "value": 124385,
+    "who": "Gibson Christopher"
+   },
+   {
+    "date": "2022-06-02",
+    "filed": "2022-06-06",
+    "code": "S",
+    "value": 117381,
+    "who": "Gibson Christopher"
+   },
+   {
+    "date": "2022-06-02",
+    "filed": "2022-06-06",
+    "code": "S",
+    "value": 3172,
+    "who": "Gibson Christopher"
+   },
+   {
+    "date": "2022-06-02",
+    "filed": "2022-06-06",
+    "code": "S",
+    "value": 6346,
+    "who": "Gibson Christopher"
+   },
+   {
+    "date": "2022-06-02",
+    "filed": "2022-06-06",
+    "code": "S",
+    "value": 6341,
+    "who": "Gibson Christopher"
+   },
+   {
+    "date": "2022-05-04",
+    "filed": "2022-05-06",
+    "code": "S",
+    "value": 86645,
+    "who": "Gibson Christopher"
+   },
+   {
+    "date": "2022-05-04",
+    "filed": "2022-05-06",
+    "code": "S",
+    "value": 119852,
+    "who": "Gibson Christopher"
+   },
+   {
+    "date": "2022-05-04",
+    "filed": "2022-05-06",
+    "code": "S",
+    "value": 3235,
+    "who": "Gibson Christopher"
+   },
+   {
+    "date": "2022-05-04",
+    "filed": "2022-05-06",
+    "code": "S",
+    "value": 6481,
+    "who": "Gibson Christopher"
+   },
+   {
+    "date": "2022-05-04",
+    "filed": "2022-05-06",
+    "code": "S",
+    "value": 6474,
+    "who": "Gibson Christopher"
+   },
+   {
+    "date": "2022-05-05",
+    "filed": "2022-05-06",
+    "code": "S",
+    "value": 119118,
+    "who": "Gibson Christopher"
+   },
+   {
+    "date": "2022-05-05",
+    "filed": "2022-05-06",
+    "code": "S",
+    "value": 3221,
+    "who": "Gibson Christopher"
+   },
+   {
+    "date": "2022-05-05",
+    "filed": "2022-05-06",
+    "code": "S",
+    "value": 6435,
+    "who": "Gibson Christopher"
+   },
+   {
+    "date": "2022-05-05",
+    "filed": "2022-05-06",
+    "code": "S",
+    "value": 6439,
+    "who": "Gibson Christopher"
+   },
+   {
+    "date": "2022-04-28",
+    "filed": "2022-05-02",
+    "code": "S",
+    "value": 116571,
+    "who": "Gibson Christopher"
+   },
+   {
+    "date": "2022-04-28",
+    "filed": "2022-05-02",
+    "code": "S",
+    "value": 112545,
+    "who": "Gibson Christopher"
+   },
+   {
+    "date": "2022-04-28",
+    "filed": "2022-05-02",
+    "code": "S",
+    "value": 3026,
+    "who": "Gibson Christopher"
+   },
+   {
+    "date": "2022-04-28",
+    "filed": "2022-05-02",
+    "code": "S",
+    "value": 6069,
+    "who": "Gibson Christopher"
+   },
+   {
+    "date": "2022-04-28",
+    "filed": "2022-05-02",
+    "code": "S",
+    "value": 6070,
+    "who": "Gibson Christopher"
+   },
+   {
+    "date": "2022-04-29",
+    "filed": "2022-05-02",
+    "code": "S",
+    "value": 118757,
+    "who": "Gibson Christopher"
+   },
+   {
+    "date": "2022-04-29",
+    "filed": "2022-05-02",
+    "code": "S",
+    "value": 116576,
+    "who": "Gibson Christopher"
+   },
+   {
+    "date": "2022-04-29",
+    "filed": "2022-05-02",
+    "code": "S",
+    "value": 3156,
+    "who": "Gibson Christopher"
+   },
+   {
+    "date": "2022-04-29",
+    "filed": "2022-05-02",
+    "code": "S",
+    "value": 6304,
+    "who": "Gibson Christopher"
+   },
+   {
+    "date": "2022-04-29",
+    "filed": "2022-05-02",
+    "code": "S",
+    "value": 6308,
+    "who": "Gibson Christopher"
+   },
+   {
+    "date": "2022-04-21",
+    "filed": "2022-04-25",
+    "code": "S",
+    "value": 120168,
+    "who": "Gibson Christopher"
+   },
+   {
+    "date": "2022-04-21",
+    "filed": "2022-04-25",
+    "code": "S",
+    "value": 114461,
+    "who": "Gibson Christopher"
+   },
+   {
+    "date": "2022-04-21",
+    "filed": "2022-04-25",
+    "code": "S",
+    "value": 3097,
+    "who": "Gibson Christopher"
+   },
+   {
+    "date": "2022-04-21",
+    "filed": "2022-04-25",
+    "code": "S",
+    "value": 6184,
+    "who": "Gibson Christopher"
+   },
+   {
+    "date": "2022-04-21",
+    "filed": "2022-04-25",
+    "code": "S",
+    "value": 6185,
+    "who": "Gibson Christopher"
+   },
+   {
+    "date": "2022-04-22",
+    "filed": "2022-04-25",
+    "code": "S",
+    "value": 118095,
+    "who": "Gibson Christopher"
+   },
+   {
+    "date": "2022-04-22",
+    "filed": "2022-04-25",
+    "code": "S",
+    "value": 111080,
+    "who": "Gibson Christopher"
+   },
+   {
+    "date": "2022-04-22",
+    "filed": "2022-04-25",
+    "code": "S",
+    "value": 2995,
+    "who": "Gibson Christopher"
+   },
+   {
+    "date": "2022-04-22",
+    "filed": "2022-04-25",
+    "code": "S",
+    "value": 6006,
+    "who": "Gibson Christopher"
+   },
+   {
+    "date": "2022-04-22",
+    "filed": "2022-04-25",
+    "code": "S",
+    "value": 6005,
+    "who": "Gibson Christopher"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "recursion pharmaceuticals",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05085561",
+    "drugs": [
+     "REC-994"
+    ]
+   },
+   {
+    "nct": "NCT05130866",
+    "drugs": [
+     "REC-2282"
+    ]
+   }
+  ]
+ }
+}

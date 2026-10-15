@@ -1,0 +1,159 @@
+{
+ "id": "1658247_2026-03-05",
+ "kind": "slide",
+ "cik": "1658247",
+ "name": "Crinetics Pharmaceuticals, Inc.",
+ "date": "2026-03-05",
+ "asof": "2026-03-05",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-03-05",
+  "adj_close": 38.9
+ },
+ "balance": {
+  "end": "2025-12-31",
+  "cash": 1027889000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001658247-26-000012"
+ },
+ "burn6": {
+  "end": "2025-12-31",
+  "start": "2025-07-01",
+  "cash_used_ops": 203619000.0,
+  "capex": 1321000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-02-13",
+  "shares": 104705330
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 14,
+  "from": "2025-12-05",
+  "to": "2026-04-04",
+  "trades": [
+   {
+    "date": "2026-03-16",
+    "filed": "2026-03-18",
+    "code": "S",
+    "value": 220804,
+    "who": "Knight Jeff E."
+   },
+   {
+    "date": "2026-03-16",
+    "filed": "2026-03-18",
+    "code": "S",
+    "value": 149607,
+    "who": "Knight Jeff E."
+   },
+   {
+    "date": "2026-03-16",
+    "filed": "2026-03-18",
+    "code": "S",
+    "value": 236428,
+    "who": "Betz Stephen F."
+   },
+   {
+    "date": "2026-03-16",
+    "filed": "2026-03-18",
+    "code": "S",
+    "value": 160183,
+    "who": "Betz Stephen F."
+   },
+   {
+    "date": "2026-03-16",
+    "filed": "2026-03-18",
+    "code": "S",
+    "value": 489704,
+    "who": "Struthers Richard Scott"
+   },
+   {
+    "date": "2026-03-16",
+    "filed": "2026-03-18",
+    "code": "S",
+    "value": 331809,
+    "who": "Struthers Richard Scott"
+   },
+   {
+    "date": "2026-03-12",
+    "filed": "2026-03-13",
+    "code": "S",
+    "value": 161530,
+    "who": "Vivaldi Coelho Rogerio"
+   },
+   {
+    "date": "2026-03-12",
+    "filed": "2026-03-13",
+    "code": "S",
+    "value": 19231,
+    "who": "Vivaldi Coelho Rogerio"
+   },
+   {
+    "date": "2026-03-03",
+    "filed": "2026-03-04",
+    "code": "S",
+    "value": 119010,
+    "who": "Okey Stephanie"
+   },
+   {
+    "date": "2026-03-03",
+    "filed": "2026-03-04",
+    "code": "S",
+    "value": 266305,
+    "who": "Schilke Tobin"
+   },
+   {
+    "date": "2026-01-05",
+    "filed": "2026-01-07",
+    "code": "S",
+    "value": 137500,
+    "who": "Kalofonos Isabel"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "crinetics pharmaceuticals",
+  "other_trials": 7,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06712823",
+    "drugs": [
+     "atumelnant (CRN04894)"
+    ]
+   },
+   {
+    "nct": "NCT07159841",
+    "drugs": [
+     "Atumelnant"
+    ]
+   },
+   {
+    "nct": "NCT07087054",
+    "drugs": [
+     "Paltusotine"
+    ]
+   },
+   {
+    "nct": "NCT07129252",
+    "drugs": [
+     "CRN09682"
+    ]
+   },
+   {
+    "nct": "NCT04261712",
+    "drugs": [
+     "Paltusotine"
+    ]
+   }
+  ]
+ }
+}

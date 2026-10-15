@@ -1,0 +1,101 @@
+{
+ "id": "1434647_2025-04-08",
+ "kind": "slide",
+ "cik": "1434647",
+ "name": "ZEVRA THERAPEUTICS, INC.",
+ "date": "2025-04-08",
+ "asof": "2025-04-08",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-04-08",
+  "adj_close": 6.59
+ },
+ "balance": {
+  "end": "2024-12-31",
+  "cash": 75506000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0001437749-25-007320"
+ },
+ "burn6": {
+  "end": "2024-12-31",
+  "start": "2024-07-01",
+  "cash_used_ops": 34391000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-03-07",
+  "shares": 54115869
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 13,
+  "from": "2025-01-08",
+  "to": "2025-05-08",
+  "trades": [
+   {
+    "date": "2025-03-28",
+    "filed": "2025-03-31",
+    "code": "P",
+    "value": 2352,
+    "who": "Watton Corey Michael"
+   },
+   {
+    "date": "2025-03-19",
+    "filed": "2025-03-21",
+    "code": "P",
+    "value": 79624,
+    "who": "Bode John B"
+   },
+   {
+    "date": "2025-02-13",
+    "filed": "2025-02-14",
+    "code": "S",
+    "value": 23588,
+    "who": "Sangiovanni Timothy J."
+   },
+   {
+    "date": "2025-02-13",
+    "filed": "2025-02-14",
+    "code": "S",
+    "value": 82527,
+    "who": "Schafer Joshua"
+   },
+   {
+    "date": "2025-02-13",
+    "filed": "2025-02-14",
+    "code": "S",
+    "value": 86471,
+    "who": "Clifton R. LaDuane"
+   },
+   {
+    "date": "2025-02-13",
+    "filed": "2025-02-14",
+    "code": "S",
+    "value": 481428,
+    "who": "McFarlane Neil F."
+   },
+   {
+    "date": "2025-02-14",
+    "filed": "2025-02-14",
+    "code": "S",
+    "value": 245962,
+    "who": "McFarlane Neil F."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "zevra therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

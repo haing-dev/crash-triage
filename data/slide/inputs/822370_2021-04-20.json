@@ -1,0 +1,136 @@
+{
+ "id": "822370_2021-04-20",
+ "kind": "slide",
+ "cik": "822370",
+ "name": "Emmaus Life Sciences, Inc.",
+ "date": "2021-04-20",
+ "asof": "2021-04-20",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-04-20",
+  "adj_close": 1.28
+ },
+ "balance": {
+  "end": "2019-12-31",
+  "cash": 29698000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001564590-21-001977"
+ },
+ "burn6": {
+  "end": "2019-12-31",
+  "start": "2019-07-01",
+  "cash_used_ops": 2340000.0,
+  "capex": 39000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-01-05",
+  "shares": 48987189
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "We are dependent on financing to sustain our operations, and there is substantial doubt regarding our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2021-01-20",
+  "to": "2021-05-20",
+  "trades": [
+   {
+    "date": "2021-05-18",
+    "filed": "2021-05-20",
+    "code": "P",
+    "value": 791,
+    "who": "Niihara Yutaka"
+   },
+   {
+    "date": "2021-05-19",
+    "filed": "2021-05-20",
+    "code": "P",
+    "value": 5800,
+    "who": "Niihara Yutaka"
+   },
+   {
+    "date": "2021-05-12",
+    "filed": "2021-05-14",
+    "code": "P",
+    "value": 8800,
+    "who": "Niihara Yutaka"
+   },
+   {
+    "date": "2021-05-13",
+    "filed": "2021-05-14",
+    "code": "P",
+    "value": 4935,
+    "who": "Niihara Yutaka"
+   },
+   {
+    "date": "2021-05-14",
+    "filed": "2021-05-14",
+    "code": "P",
+    "value": 1924,
+    "who": "Niihara Yutaka"
+   },
+   {
+    "date": "2021-05-10",
+    "filed": "2021-05-12",
+    "code": "P",
+    "value": 1710,
+    "who": "LEE WILLIS C"
+   },
+   {
+    "date": "2021-05-12",
+    "filed": "2021-05-12",
+    "code": "P",
+    "value": 14685,
+    "who": "LEE WILLIS C"
+   },
+   {
+    "date": "2021-05-06",
+    "filed": "2021-05-10",
+    "code": "P",
+    "value": 1270,
+    "who": "Niihara Yutaka"
+   },
+   {
+    "date": "2021-05-07",
+    "filed": "2021-05-10",
+    "code": "P",
+    "value": 2460,
+    "who": "Niihara Yutaka"
+   },
+   {
+    "date": "2021-05-10",
+    "filed": "2021-05-10",
+    "code": "P",
+    "value": 3450,
+    "who": "Niihara Yutaka"
+   },
+   {
+    "date": "2021-05-05",
+    "filed": "2021-05-07",
+    "code": "P",
+    "value": 3150,
+    "who": "LEE WILLIS C"
+   },
+   {
+    "date": "2021-05-07",
+    "filed": "2021-05-07",
+    "code": "P",
+    "value": 1845,
+    "who": "LEE WILLIS C"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "emmaus life sciences",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

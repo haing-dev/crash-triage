@@ -1,0 +1,102 @@
+{
+ "id": "78003_2023-05-11",
+ "kind": "slide",
+ "cik": "78003",
+ "name": "PFIZER INC",
+ "date": "2023-05-11",
+ "asof": "2023-05-11",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-05-11",
+  "adj_close": 37.58
+ },
+ "balance": {
+  "end": "2023-04-02",
+  "cash": 18617000000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0001628280-23-017196"
+ },
+ "burn6": {
+  "end": "2023-04-02",
+  "start": "2022-10-03",
+  "cash_used_ops": -9794000000.0,
+  "capex": 2140000000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-05-05",
+  "shares": 5645307020
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 67,
+  "from": "2023-02-10",
+  "to": "2023-06-10",
+  "trades": [
+   {
+    "date": "2023-05-05",
+    "filed": "2023-05-09",
+    "code": "P",
+    "value": 38425,
+    "who": "Gottlieb Scott"
+   },
+   {
+    "date": "2023-05-08",
+    "filed": "2023-05-09",
+    "code": "P",
+    "value": 38580,
+    "who": "Gottlieb Scott"
+   },
+   {
+    "date": "2023-03-15",
+    "filed": "2023-03-17",
+    "code": "S",
+    "value": 396678,
+    "who": "DAMICO JENNIFER B."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "pfizer",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05217446",
+    "drugs": [
+     "Encorafenib",
+     "Cetuximab",
+     "Pembrolizumab"
+    ]
+   },
+   {
+    "nct": "NCT04165317",
+    "drugs": [
+     "PF-06801591",
+     "Bacillus Calmette-Guerin"
+    ]
+   },
+   {
+    "nct": "NCT03573882",
+    "drugs": [
+     "Voxelotor"
+    ]
+   },
+   {
+    "nct": "NCT05573555",
+    "drugs": [
+     "ARV-471",
+     "Ribociclib"
+    ]
+   }
+  ]
+ }
+}

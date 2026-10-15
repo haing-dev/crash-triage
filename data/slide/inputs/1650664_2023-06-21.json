@@ -1,0 +1,113 @@
+{
+ "id": "1650664_2023-06-21",
+ "kind": "slide",
+ "cik": "1650664",
+ "name": "Editas Medicine, Inc.",
+ "date": "2023-06-21",
+ "asof": "2023-06-21",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-06-21",
+  "adj_close": 8.02
+ },
+ "balance": {
+  "end": "2023-03-31",
+  "cash": 401778000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent",
+   "MarketableSecuritiesNoncurrent"
+  ],
+  "accn": "0001558370-23-008308"
+ },
+ "burn6": {
+  "end": "2023-03-31",
+  "start": "2022-10-01",
+  "cash_used_ops": 78041000.0,
+  "capex": 2464000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-04-28",
+  "shares": 68995606
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 15,
+  "from": "2023-03-23",
+  "to": "2023-07-21",
+  "trades": [
+   {
+    "date": "2023-07-19",
+    "filed": "2023-07-21",
+    "code": "S",
+    "value": 37990,
+    "who": "Mei Baisong"
+   },
+   {
+    "date": "2023-06-05",
+    "filed": "2023-06-07",
+    "code": "S",
+    "value": 61638,
+    "who": "O'Neill Gilmore Neil"
+   },
+   {
+    "date": "2023-06-05",
+    "filed": "2023-06-07",
+    "code": "S",
+    "value": 998,
+    "who": "Eaton Bruce"
+   },
+   {
+    "date": "2023-05-11",
+    "filed": "2023-05-15",
+    "code": "S",
+    "value": 9369,
+    "who": "ROBERTSON MICHELLE"
+   },
+   {
+    "date": "2023-05-11",
+    "filed": "2023-05-15",
+    "code": "S",
+    "value": 6594,
+    "who": "Eaton Bruce"
+   },
+   {
+    "date": "2023-05-09",
+    "filed": "2023-05-11",
+    "code": "S",
+    "value": 1284,
+    "who": "Eaton Bruce"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "editas medicine",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05444894",
+    "drugs": [
+     "EDIT-301"
+    ]
+   },
+   {
+    "nct": "NCT04853576",
+    "drugs": [
+     "EDIT-301"
+    ]
+   },
+   {
+    "nct": "NCT03872479",
+    "drugs": [
+     "EDIT-101"
+    ]
+   }
+  ]
+ }
+}

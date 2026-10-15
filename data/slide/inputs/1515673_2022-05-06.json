@@ -1,0 +1,170 @@
+{
+ "id": "1515673_2022-05-06",
+ "kind": "slide",
+ "cik": "1515673",
+ "name": "Ultragenyx Pharmaceutical Inc.",
+ "date": "2022-05-06",
+ "asof": "2022-05-06",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-05-06",
+  "adj_close": 57.54
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 813847000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0000950170-22-007940"
+ },
+ "burn6": {
+  "end": "2022-03-31",
+  "start": "2021-10-01",
+  "cash_used_ops": 171865000.0,
+  "capex": 48232000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-05-02",
+  "shares": 69930191
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 14,
+  "from": "2022-02-05",
+  "to": "2022-06-05",
+  "trades": [
+   {
+    "date": "2022-04-16",
+    "filed": "2022-04-19",
+    "code": "S",
+    "value": 11161,
+    "who": "Huizenga Theodore Alan"
+   },
+   {
+    "date": "2022-03-11",
+    "filed": "2022-03-15",
+    "code": "S",
+    "value": 688930,
+    "who": "Kassberg Thomas Richard"
+   },
+   {
+    "date": "2022-03-07",
+    "filed": "2022-03-08",
+    "code": "S",
+    "value": 323563,
+    "who": "Parschauer Karah Herdman"
+   },
+   {
+    "date": "2022-03-01",
+    "filed": "2022-03-03",
+    "code": "S",
+    "value": 35575,
+    "who": "Dier Mardi"
+   },
+   {
+    "date": "2022-03-03",
+    "filed": "2022-03-03",
+    "code": "S",
+    "value": 27111,
+    "who": "Dier Mardi"
+   },
+   {
+    "date": "2022-03-01",
+    "filed": "2022-03-03",
+    "code": "S",
+    "value": 180740,
+    "who": "Harris Erik"
+   },
+   {
+    "date": "2022-03-01",
+    "filed": "2022-03-03",
+    "code": "S",
+    "value": 299657,
+    "who": "Pinion John Richard"
+   },
+   {
+    "date": "2022-03-01",
+    "filed": "2022-03-03",
+    "code": "S",
+    "value": 56161,
+    "who": "Huizenga Theodore Alan"
+   },
+   {
+    "date": "2022-03-01",
+    "filed": "2022-03-03",
+    "code": "S",
+    "value": 215449,
+    "who": "Huang Dennis Karl"
+   },
+   {
+    "date": "2022-03-01",
+    "filed": "2022-03-03",
+    "code": "S",
+    "value": 192265,
+    "who": "Parschauer Karah Herdman"
+   },
+   {
+    "date": "2022-03-01",
+    "filed": "2022-03-03",
+    "code": "S",
+    "value": 158156,
+    "who": "Kassberg Thomas Richard"
+   },
+   {
+    "date": "2022-03-01",
+    "filed": "2022-03-03",
+    "code": "S",
+    "value": 187935,
+    "who": "Bedrosian Camille L"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "ultragenyx pharmaceutical",
+  "other_trials": 8,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05139316",
+    "drugs": [
+     "DTX401",
+     "Oral prednisolone"
+    ]
+   },
+   {
+    "nct": "NCT05125809",
+    "drugs": [
+     "Setrusumab"
+    ]
+   },
+   {
+    "nct": "NCT04259281",
+    "drugs": [
+     "GTX-102"
+    ]
+   },
+   {
+    "nct": "NCT04990388",
+    "drugs": [
+     "UX053",
+     "Antipyretic",
+     "H2 Blocker"
+    ]
+   },
+   {
+    "nct": "NCT05312697",
+    "drugs": [
+     "Setrusumab"
+    ]
+   }
+  ]
+ }
+}

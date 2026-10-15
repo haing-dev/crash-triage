@@ -1,0 +1,92 @@
+{
+ "id": "1860782_2022-09-26",
+ "kind": "slide",
+ "cik": "1860782",
+ "name": "2seventy bio, Inc.",
+ "date": "2022-09-26",
+ "asof": "2022-09-26",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-09-26",
+  "adj_close": 12.87
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 269868000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001860782-22-000042"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 120725000.0,
+  "capex": 6258000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-08-04",
+  "shares": 37873603
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2022-06-28",
+  "to": "2022-10-26",
+  "trades": [
+   {
+    "date": "2022-08-05",
+    "filed": "2022-08-08",
+    "code": "S",
+    "value": 67397,
+    "who": "Baird William D III"
+   },
+   {
+    "date": "2022-08-05",
+    "filed": "2022-08-08",
+    "code": "S",
+    "value": 39072,
+    "who": "Gregory Philip D"
+   },
+   {
+    "date": "2022-08-05",
+    "filed": "2022-08-08",
+    "code": "S",
+    "value": 89263,
+    "who": "Leschly Nick"
+   },
+   {
+    "date": "2022-07-15",
+    "filed": "2022-07-19",
+    "code": "S",
+    "value": 56344,
+    "who": "Baird William D III"
+   },
+   {
+    "date": "2022-07-15",
+    "filed": "2022-07-19",
+    "code": "S",
+    "value": 32660,
+    "who": "Gregory Philip D"
+   },
+   {
+    "date": "2022-07-15",
+    "filed": "2022-07-19",
+    "code": "S",
+    "value": 74629,
+    "who": "Leschly Nick"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "2seventy bio",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,68 @@
+{
+ "id": "1455365_2022-08-05",
+ "kind": "slide",
+ "cik": "1455365",
+ "name": "COGNITION THERAPEUTICS INC",
+ "date": "2022-08-05",
+ "asof": "2022-08-05",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-08-05",
+  "adj_close": 3.13
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 51509000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-22-008230"
+ },
+ "burn6": {
+  "end": "2022-03-31",
+  "start": "2021-10-01",
+  "cash_used_ops": 2887000.0,
+  "capex": 274986.06741573033,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-05-05",
+  "shares": 22597907
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2022-05-07",
+  "to": "2022-09-04",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "cognition therapeutics",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04735536",
+    "drugs": [
+     "CT1812"
+    ]
+   },
+   {
+    "nct": "NCT03507790",
+    "drugs": [
+     "CT1812"
+    ]
+   },
+   {
+    "nct": "NCT05225415",
+    "drugs": [
+     "CT1812"
+    ]
+   }
+  ]
+ }
+}

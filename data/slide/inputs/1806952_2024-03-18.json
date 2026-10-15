@@ -1,0 +1,74 @@
+{
+ "id": "1806952_2024-03-18",
+ "kind": "slide",
+ "cik": "1806952",
+ "name": "Lyell Immunopharma, Inc.",
+ "date": "2024-03-18",
+ "asof": "2024-03-18",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-03-18",
+  "adj_close": 41.6
+ },
+ "balance": {
+  "end": "2023-12-31",
+  "cash": 562729000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent",
+   "MarketableSecuritiesNoncurrent"
+  ],
+  "accn": "0001628280-24-007592"
+ },
+ "burn6": {
+  "end": "2023-12-31",
+  "start": "2023-07-01",
+  "cash_used_ops": 78321000.0,
+  "capex": 220000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-02-22",
+  "shares": 254096311
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2023-12-19",
+  "to": "2024-04-17",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "lyell immunopharma",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05826535",
+    "drugs": [
+     "Rondecabtagene autoleucel (ronde-cel)",
+     "Fludarabine",
+     "Cyclophosphamide"
+    ]
+   },
+   {
+    "nct": "NCT06153095",
+    "drugs": [
+     "IMPT-514",
+     "IMPT-514",
+     "IMPT-514"
+    ]
+   },
+   {
+    "nct": "NCT05319314",
+    "drugs": [
+     "LYL273"
+    ]
+   }
+  ]
+ }
+}

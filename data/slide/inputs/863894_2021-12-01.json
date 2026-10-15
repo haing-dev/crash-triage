@@ -1,0 +1,82 @@
+{
+ "id": "863894_2021-12-01",
+ "kind": "slide",
+ "cik": "863894",
+ "name": "VERU INC.",
+ "date": "2021-12-01",
+ "asof": "2021-12-01",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-12-01",
+  "adj_close": 69.099998
+ },
+ "balance": {
+  "end": "2019-06-30",
+  "cash": 8039116,
+  "parts": [
+   "Cash"
+  ],
+  "accn": "0000863894-19-000010"
+ },
+ "burn6": {
+  "end": "2021-06-30",
+  "start": "2021-01-01",
+  "cash_used_ops": 15423797.0,
+  "capex": 147230.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-08-09",
+  "shares": 79853748
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2021-09-02",
+  "to": "2021-12-31",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "veru",
+  "other_trials": 5,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04869943",
+    "drugs": [
+     "Enobosarm",
+     "Exemestane"
+    ]
+   },
+   {
+    "nct": "NCT04843319",
+    "drugs": [
+     "VERU-100"
+    ]
+   },
+   {
+    "nct": "NCT04842747",
+    "drugs": [
+     "VERU-111"
+    ]
+   },
+   {
+    "nct": "NCT03752099",
+    "drugs": [
+     "VERU-111"
+    ]
+   },
+   {
+    "nct": "NCT04844749",
+    "drugs": [
+     "VERU-111",
+     "Enzalutamide, Abiraterone"
+    ]
+   }
+  ]
+ }
+}

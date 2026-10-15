@@ -1,0 +1,49 @@
+{
+ "id": "1239819_2022-04-07",
+ "kind": "slide",
+ "cik": "1239819",
+ "name": "LUNA INNOVATIONS INC",
+ "date": "2022-04-07",
+ "asof": "2022-04-07",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-04-07",
+  "adj_close": 6.94
+ },
+ "balance": {
+  "end": "2021-12-31",
+  "cash": 17128000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001239819-22-000034"
+ },
+ "burn6": {
+  "end": "2021-12-31",
+  "start": "2021-07-01",
+  "cash_used_ops": -7364000.0,
+  "capex": 861000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-03-11",
+  "shares": 32298014
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 14,
+  "from": "2022-01-07",
+  "to": "2022-05-07",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "luna innovations",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

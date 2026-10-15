@@ -1,0 +1,106 @@
+{
+ "id": "1812364_2021-08-19",
+ "kind": "slide",
+ "cik": "1812364",
+ "name": "Relay Therapeutics, Inc.",
+ "date": "2021-08-19",
+ "asof": "2021-08-19",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-08-19",
+  "adj_close": 30.55
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 260069000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001564590-21-043999"
+ },
+ "burn6": {
+  "end": "2021-06-30",
+  "start": "2021-01-01",
+  "cash_used_ops": -18500000.0,
+  "capex": 855000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-08-10",
+  "shares": 92695097
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 14,
+  "from": "2021-05-21",
+  "to": "2021-09-18",
+  "trades": [
+   {
+    "date": "2021-09-13",
+    "filed": "2021-09-13",
+    "code": "S",
+    "value": 227630,
+    "who": "Adams Brian"
+   },
+   {
+    "date": "2021-09-13",
+    "filed": "2021-09-13",
+    "code": "S",
+    "value": 787500,
+    "who": "Catinazzo Thomas"
+   },
+   {
+    "date": "2021-06-28",
+    "filed": "2021-06-30",
+    "code": "S",
+    "value": 10492,
+    "who": "Adams Brian"
+   },
+   {
+    "date": "2021-06-28",
+    "filed": "2021-06-30",
+    "code": "S",
+    "value": 10492,
+    "who": "Catinazzo Thomas"
+   },
+   {
+    "date": "2021-06-28",
+    "filed": "2021-06-30",
+    "code": "S",
+    "value": 34951,
+    "who": "Bergstrom Donald A"
+   },
+   {
+    "date": "2021-06-16",
+    "filed": "2021-06-17",
+    "code": "S",
+    "value": 1425668,
+    "who": "Bergstrom Donald A"
+   },
+   {
+    "date": "2021-06-07",
+    "filed": "2021-06-09",
+    "code": "S",
+    "value": 227500,
+    "who": "Adams Brian"
+   },
+   {
+    "date": "2021-06-07",
+    "filed": "2021-06-09",
+    "code": "S",
+    "value": 787500,
+    "who": "Catinazzo Thomas"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "relay therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

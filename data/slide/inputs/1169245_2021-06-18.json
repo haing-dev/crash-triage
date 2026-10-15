@@ -1,0 +1,71 @@
+{
+ "id": "1169245_2021-06-18",
+ "kind": "slide",
+ "cik": "1169245",
+ "name": "PhaseBio Pharmaceuticals Inc",
+ "date": "2021-06-18",
+ "asof": "2021-06-18",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-06-18",
+  "adj_close": 3.75
+ },
+ "balance": {
+  "end": "2021-03-31",
+  "cash": 76963000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001169245-21-000035"
+ },
+ "burn6": {
+  "end": "2021-03-31",
+  "start": "2020-10-01",
+  "cash_used_ops": 21545000.0,
+  "capex": 188000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-05-10",
+  "shares": 47952033
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "The auditor's opinion on the audited financial statements included in our Annual Report on Form 10-K for the year ended December 31, 2020 contained an explanatory paragraph related to our substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 14,
+  "from": "2021-03-20",
+  "to": "2021-07-18",
+  "trades": [
+   {
+    "date": "2021-05-20",
+    "filed": "2021-05-24",
+    "code": "S",
+    "value": 12538,
+    "who": "Burkhardt Glen"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "phasebio pharmaceuticals",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03556020",
+    "drugs": [
+     "Pemziviptadil (PB1046)"
+    ]
+   },
+   {
+    "nct": "NCT03795428",
+    "drugs": [
+     "Pemziviptadil (PB1046) Injection"
+    ]
+   }
+  ]
+ }
+}

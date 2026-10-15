@@ -1,0 +1,80 @@
+{
+ "id": "1818838_2026-07-24",
+ "kind": "slide",
+ "cik": "1818838",
+ "name": "Adagene Inc.",
+ "date": "2026-07-24",
+ "asof": "2026-07-24",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-07-24",
+  "adj_close": 3.2
+ },
+ "balance": {
+  "end": "2025-12-31",
+  "cash": 74523782,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001104659-26-038612"
+ },
+ "burn6": {
+  "end": "2025-12-31",
+  "start": "2025-07-01",
+  "cash_used_ops": 4528177.0,
+  "capex": 14558.0,
+  "periods": 1
+ },
+ "shares": {
+  "end": "2025-12-31",
+  "shares": 59231993
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2026-04-25",
+  "to": "2026-08-23",
+  "trades": [
+   {
+    "date": "2026-08-14",
+    "filed": "2026-08-18",
+    "code": "P",
+    "value": 7500,
+    "who": "DO CUONG V"
+   },
+   {
+    "date": "2026-08-04",
+    "filed": "2026-08-06",
+    "code": "P",
+    "value": 83746,
+    "who": "Luo Peter"
+   },
+   {
+    "date": "2026-08-05",
+    "filed": "2026-08-06",
+    "code": "P",
+    "value": 1018,
+    "who": "Luo Peter"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "adagene",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05405595",
+    "drugs": [
+     "ADG126",
+     "Pembrolizumab (KEYTRUDA\u00ae)",
+     "Standard of Care (Trifluridine/Tipiracil-Bevacizumab)"
+    ]
+   }
+  ]
+ }
+}

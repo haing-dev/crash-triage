@@ -1,0 +1,87 @@
+{
+ "id": "1759138_2021-04-07",
+ "kind": "slide",
+ "cik": "1759138",
+ "name": "Cabaletta Bio, Inc.",
+ "date": "2021-04-07",
+ "asof": "2021-04-07",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-04-07",
+  "adj_close": 10.55
+ },
+ "balance": {
+  "end": "2020-12-31",
+  "cash": 108662000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001564590-21-013329"
+ },
+ "burn6": {
+  "end": "2020-12-31",
+  "start": "2020-07-01",
+  "cash_used_ops": 14197000.0,
+  "capex": 389000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-03-10",
+  "shares": 24062775
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2021-01-07",
+  "to": "2021-05-07",
+  "trades": [
+   {
+    "date": "2021-01-08",
+    "filed": "2021-01-12",
+    "code": "S",
+    "value": 3439657,
+    "who": "5AM Ventures V, L.P."
+   },
+   {
+    "date": "2021-01-08",
+    "filed": "2021-01-12",
+    "code": "S",
+    "value": 486343,
+    "who": "5AM Ventures V, L.P."
+   },
+   {
+    "date": "2021-01-12",
+    "filed": "2021-01-12",
+    "code": "S",
+    "value": 968110,
+    "who": "5AM Ventures V, L.P."
+   },
+   {
+    "date": "2021-01-12",
+    "filed": "2021-01-12",
+    "code": "S",
+    "value": 136890,
+    "who": "5AM Ventures V, L.P."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "cabaletta bio",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04422912",
+    "drugs": [
+     "DSG3-CAART",
+     "CABA-201"
+    ]
+   }
+  ]
+ }
+}

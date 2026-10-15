@@ -1,0 +1,78 @@
+{
+ "id": "1764013_2022-02-03",
+ "kind": "slide",
+ "cik": "1764013",
+ "name": "Immunovant, Inc.",
+ "date": "2022-02-03",
+ "asof": "2022-02-03",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-02-03",
+  "adj_close": 6.02
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 558952000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001764013-21-000119"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 41261000.0,
+  "capex": 62000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-11-01",
+  "shares": 115000246
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2021-11-05",
+  "to": "2022-03-05",
+  "trades": [
+   {
+    "date": "2022-01-07",
+    "filed": "2022-01-11",
+    "code": "S",
+    "value": 401056,
+    "who": "Butchko Julia G."
+   },
+   {
+    "date": "2022-01-07",
+    "filed": "2022-01-11",
+    "code": "S",
+    "value": 217203,
+    "who": "Barnett Eva Renee"
+   },
+   {
+    "date": "2022-01-07",
+    "filed": "2022-01-11",
+    "code": "S",
+    "value": 907396,
+    "who": "Salzmann Peter"
+   },
+   {
+    "date": "2022-01-05",
+    "filed": "2022-01-07",
+    "code": "S",
+    "value": 222012,
+    "who": "Macias William L."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "immunovant",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

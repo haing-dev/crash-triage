@@ -1,0 +1,56 @@
+{
+ "id": "1679363_2022-08-08",
+ "kind": "slide",
+ "cik": "1679363",
+ "name": "Morphic Holding, Inc.",
+ "date": "2022-08-08",
+ "asof": "2022-08-08",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-08-08",
+  "adj_close": 31.69
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 141183000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001679363-22-000047"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 50965000.0,
+  "capex": 52000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-08-01",
+  "shares": 38477059
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 10,
+  "from": "2022-05-10",
+  "to": "2022-09-07",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "morphic",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05291689",
+    "drugs": [
+     "MORF-057"
+    ]
+   }
+  ]
+ }
+}

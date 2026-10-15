@@ -1,0 +1,49 @@
+{
+ "id": "1504167_2022-06-13",
+ "kind": "slide",
+ "cik": "1504167",
+ "name": "TREX WIND-DOWN, INC.",
+ "date": "2022-06-13",
+ "asof": "2022-06-13",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-06-13",
+  "adj_close": 14.27
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 13860273,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-22-008526"
+ },
+ "burn6": {
+  "end": "2022-03-31",
+  "start": "2021-10-01",
+  "cash_used_ops": 5285153.0,
+  "capex": 3520.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-05-06",
+  "shares": 63678836
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2022-03-15",
+  "to": "2022-07-13",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "trex wind down",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

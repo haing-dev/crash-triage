@@ -1,0 +1,78 @@
+{
+ "id": "1588972_2021-11-10",
+ "kind": "slide",
+ "cik": "1588972",
+ "name": "Societal CDMO, Inc.",
+ "date": "2021-11-10",
+ "asof": "2021-11-10",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-11-10",
+  "adj_close": 1.7
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 23490000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-21-003751"
+ },
+ "burn6": {
+  "end": "2019-09-30",
+  "start": "2019-04-01",
+  "cash_used_ops": 10545000.0,
+  "capex": 5348000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-11-02",
+  "shares": 46614535
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2021-08-12",
+  "to": "2021-12-10",
+  "trades": [
+   {
+    "date": "2021-11-17",
+    "filed": "2021-11-19",
+    "code": "P",
+    "value": 1689,
+    "who": "Miller James Charles"
+   },
+   {
+    "date": "2021-11-12",
+    "filed": "2021-11-16",
+    "code": "P",
+    "value": 1916,
+    "who": "Lake Ryan David"
+   },
+   {
+    "date": "2021-11-12",
+    "filed": "2021-11-16",
+    "code": "P",
+    "value": 81,
+    "who": "Lake Ryan David"
+   },
+   {
+    "date": "2021-11-12",
+    "filed": "2021-11-16",
+    "code": "P",
+    "value": 2895,
+    "who": "ENLOE J DAVID JR"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "societal cdmo",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

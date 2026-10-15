@@ -1,0 +1,98 @@
+{
+ "id": "1680581_2021-05-04",
+ "kind": "slide",
+ "cik": "1680581",
+ "name": "Fulcrum Therapeutics, Inc.",
+ "date": "2021-05-04",
+ "asof": "2021-05-04",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-05-04",
+  "adj_close": 10.28
+ },
+ "balance": {
+  "end": "2020-12-31",
+  "cash": 57052000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001564590-21-010715"
+ },
+ "burn6": {
+  "end": "2020-12-31",
+  "start": "2020-07-01",
+  "cash_used_ops": 24330000.0,
+  "capex": 565000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-02-25",
+  "shares": 32672223
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2021-02-03",
+  "to": "2021-06-03",
+  "trades": [
+   {
+    "date": "2021-03-15",
+    "filed": "2021-03-17",
+    "code": "S",
+    "value": 111773,
+    "who": "Gould Robert J"
+   },
+   {
+    "date": "2021-03-16",
+    "filed": "2021-03-17",
+    "code": "S",
+    "value": 9806,
+    "who": "Gould Robert J"
+   },
+   {
+    "date": "2021-02-22",
+    "filed": "2021-02-24",
+    "code": "S",
+    "value": 73582,
+    "who": "Thomson Peter G."
+   },
+   {
+    "date": "2021-02-16",
+    "filed": "2021-02-18",
+    "code": "S",
+    "value": 92830,
+    "who": "Gould Robert J"
+   },
+   {
+    "date": "2021-02-16",
+    "filed": "2021-02-18",
+    "code": "S",
+    "value": 24367,
+    "who": "Gould Robert J"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "fulcrum therapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04004000",
+    "drugs": [
+     "Losmapimod"
+    ]
+   },
+   {
+    "nct": "NCT04264442",
+    "drugs": [
+     "Losmapimod"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,80 @@
+{
+ "id": "1994702_2026-06-03",
+ "kind": "slide",
+ "cik": "1994702",
+ "name": "Kyverna Therapeutics, Inc.",
+ "date": "2026-06-03",
+ "asof": "2026-06-03",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-06-03",
+  "adj_close": 7.82
+ },
+ "balance": {
+  "end": "2026-03-31",
+  "cash": 236446000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001193125-26-219397"
+ },
+ "burn6": {
+  "end": "2026-03-31",
+  "start": "2025-10-01",
+  "cash_used_ops": 75124000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-05-01",
+  "shares": 60795212
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 10,
+  "from": "2026-03-05",
+  "to": "2026-07-03",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "kyverna therapeutics",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06588491",
+    "drugs": [
+     "Standard lymphodepletion regimen"
+    ]
+   },
+   {
+    "nct": "NCT06400303",
+    "drugs": [
+     "KYV-101",
+     "Standard lymphodepletion regimen"
+    ]
+   },
+   {
+    "nct": "NCT06193889",
+    "drugs": [
+     "Standard of Care Treatment",
+     "Standard lymphodepletion regimen",
+     "KYV-101"
+    ]
+   },
+   {
+    "nct": "NCT06384976",
+    "drugs": [
+     "KYV-101",
+     "Standard lymphodepletion regimen",
+     "Anti-CD20 mAB"
+    ]
+   }
+  ]
+ }
+}

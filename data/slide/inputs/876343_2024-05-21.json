@@ -1,0 +1,58 @@
+{
+ "id": "876343_2024-05-21",
+ "kind": "slide",
+ "cik": "876343",
+ "name": "Lineage Cell Therapeutics, Inc.",
+ "date": "2024-05-21",
+ "asof": "2024-05-21",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-05-21",
+  "adj_close": 1.01
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 43621000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-24-056998"
+ },
+ "burn6": {
+  "end": "2024-03-31",
+  "start": "2023-10-01",
+  "cash_used_ops": 11802000.0,
+  "capex": 129000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-05-03",
+  "shares": 188798145
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2024-02-21",
+  "to": "2024-06-20",
+  "trades": [
+   {
+    "date": "2024-05-24",
+    "filed": "2024-05-28",
+    "code": "P",
+    "value": 10500,
+    "who": "Culley Brian M"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "lineage cell therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

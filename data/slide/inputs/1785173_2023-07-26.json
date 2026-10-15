@@ -1,0 +1,85 @@
+{
+ "id": "1785173_2023-07-26",
+ "kind": "slide",
+ "cik": "1785173",
+ "name": "89bio, Inc.",
+ "date": "2023-07-26",
+ "asof": "2023-07-26",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-07-26",
+  "adj_close": 15.41
+ },
+ "balance": {
+  "end": "2023-03-31",
+  "cash": 350930000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-23-018435"
+ },
+ "burn6": {
+  "end": "2023-03-31",
+  "start": "2022-10-01",
+  "cash_used_ops": 57181000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-05-02",
+  "shares": 72868455
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 12,
+  "from": "2023-04-27",
+  "to": "2023-08-25",
+  "trades": [
+   {
+    "date": "2023-07-17",
+    "filed": "2023-07-18",
+    "code": "S",
+    "value": 235000,
+    "who": "LAPORTE KATHLEEN"
+   },
+   {
+    "date": "2023-06-05",
+    "filed": "2023-06-07",
+    "code": "S",
+    "value": 300000,
+    "who": "PALEKAR ROHAN"
+   },
+   {
+    "date": "2023-06-01",
+    "filed": "2023-06-05",
+    "code": "S",
+    "value": 111938,
+    "who": "Atkinson Edward Morrow III"
+   },
+   {
+    "date": "2023-05-09",
+    "filed": "2023-05-11",
+    "code": "S",
+    "value": 247799,
+    "who": "Le-Nguyen Quoc"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "89bio",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05852431",
+    "drugs": [
+     "Pegozafermin"
+    ]
+   }
+  ]
+ }
+}

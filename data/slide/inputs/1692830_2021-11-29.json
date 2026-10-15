@@ -1,0 +1,191 @@
+{
+ "id": "1692830_2021-11-29",
+ "kind": "slide",
+ "cik": "1692830",
+ "name": "Satsuma Pharmaceuticals, Inc.",
+ "date": "2021-11-29",
+ "asof": "2021-11-29",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-11-29",
+  "adj_close": 4.89
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 110146000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0001564590-21-055814"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 20910000.0,
+  "capex": 725000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-11-05",
+  "shares": 31529417
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 12,
+  "from": "2021-08-31",
+  "to": "2021-12-29",
+  "trades": [
+   {
+    "date": "2021-11-24",
+    "filed": "2021-11-29",
+    "code": "P",
+    "value": 15837,
+    "who": "COMMODORE CAPITAL LP"
+   },
+   {
+    "date": "2021-11-19",
+    "filed": "2021-11-23",
+    "code": "P",
+    "value": 17544,
+    "who": "COMMODORE CAPITAL LP"
+   },
+   {
+    "date": "2021-11-22",
+    "filed": "2021-11-23",
+    "code": "P",
+    "value": 54785,
+    "who": "COMMODORE CAPITAL LP"
+   },
+   {
+    "date": "2021-11-10",
+    "filed": "2021-11-12",
+    "code": "P",
+    "value": 56289,
+    "who": "COMMODORE CAPITAL LP"
+   },
+   {
+    "date": "2021-11-11",
+    "filed": "2021-11-12",
+    "code": "P",
+    "value": 48043,
+    "who": "COMMODORE CAPITAL LP"
+   },
+   {
+    "date": "2021-11-08",
+    "filed": "2021-11-10",
+    "code": "P",
+    "value": 3354,
+    "who": "COMMODORE CAPITAL LP"
+   },
+   {
+    "date": "2021-11-04",
+    "filed": "2021-11-08",
+    "code": "P",
+    "value": 8232,
+    "who": "COMMODORE CAPITAL LP"
+   },
+   {
+    "date": "2021-11-05",
+    "filed": "2021-11-08",
+    "code": "P",
+    "value": 46410,
+    "who": "COMMODORE CAPITAL LP"
+   },
+   {
+    "date": "2021-11-02",
+    "filed": "2021-11-04",
+    "code": "P",
+    "value": 50083,
+    "who": "COMMODORE CAPITAL LP"
+   },
+   {
+    "date": "2021-10-29",
+    "filed": "2021-11-02",
+    "code": "P",
+    "value": 254957,
+    "who": "COMMODORE CAPITAL LP"
+   },
+   {
+    "date": "2021-10-27",
+    "filed": "2021-10-29",
+    "code": "P",
+    "value": 215716,
+    "who": "COMMODORE CAPITAL LP"
+   },
+   {
+    "date": "2021-10-28",
+    "filed": "2021-10-29",
+    "code": "P",
+    "value": 83705,
+    "who": "COMMODORE CAPITAL LP"
+   },
+   {
+    "date": "2021-10-21",
+    "filed": "2021-10-25",
+    "code": "P",
+    "value": 177206,
+    "who": "COMMODORE CAPITAL LP"
+   },
+   {
+    "date": "2021-10-22",
+    "filed": "2021-10-25",
+    "code": "P",
+    "value": 152236,
+    "who": "COMMODORE CAPITAL LP"
+   },
+   {
+    "date": "2021-10-19",
+    "filed": "2021-10-21",
+    "code": "P",
+    "value": 444031,
+    "who": "COMMODORE CAPITAL LP"
+   },
+   {
+    "date": "2021-10-20",
+    "filed": "2021-10-21",
+    "code": "P",
+    "value": 221207,
+    "who": "COMMODORE CAPITAL LP"
+   },
+   {
+    "date": "2021-10-15",
+    "filed": "2021-10-19",
+    "code": "P",
+    "value": 608580,
+    "who": "COMMODORE CAPITAL LP"
+   },
+   {
+    "date": "2021-10-18",
+    "filed": "2021-10-19",
+    "code": "P",
+    "value": 176265,
+    "who": "COMMODORE CAPITAL LP"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "satsuma pharmaceuticals",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04406649",
+    "drugs": [
+     "Dihydroergotamine"
+    ]
+   },
+   {
+    "nct": "NCT04940390",
+    "drugs": [
+     "Dihydroergotamine"
+    ]
+   }
+  ]
+ }
+}

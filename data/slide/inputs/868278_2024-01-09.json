@@ -1,0 +1,50 @@
+{
+ "id": "868278_2024-01-09",
+ "kind": "slide",
+ "cik": "868278",
+ "name": "ProPhase Labs, Inc.",
+ "date": "2024-01-09",
+ "asof": "2024-01-09",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-01-09",
+  "adj_close": 51.0
+ },
+ "balance": {
+  "end": "2023-09-30",
+  "cash": 3267000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000868278-23-000017"
+ },
+ "burn6": {
+  "end": "2023-09-30",
+  "start": "2023-04-01",
+  "cash_used_ops": 11611000.0,
+  "capex": 1238863.2352941176,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-11-06",
+  "shares": 18045029
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2023-10-11",
+  "to": "2024-02-08",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "prophase labs",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

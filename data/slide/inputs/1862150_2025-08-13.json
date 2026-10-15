@@ -1,0 +1,59 @@
+{
+ "id": "1862150_2025-08-13",
+ "kind": "slide",
+ "cik": "1862150",
+ "name": "Cingulate Inc.",
+ "date": "2025-08-13",
+ "asof": "2025-08-13",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-08-13",
+  "adj_close": 3.68
+ },
+ "balance": {
+  "end": "2025-03-31",
+  "cash": 9518966,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001641172-25-009289"
+ },
+ "burn6": {
+  "end": "2025-03-31",
+  "start": "2024-10-01",
+  "cash_used_ops": 8687812.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-05-07",
+  "shares": 4245713
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These uncertainties raise substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2025-05-15",
+  "to": "2025-09-12",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "cingulate",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05924594",
+    "drugs": [
+     "CTx-1301 - Dexmethylphenidate 6.25mg",
+     "CTx-1301 - Dexmethylphenidate 12.5mg",
+     "CTx-1301 - Dexmethylphenidate 18.75mg"
+    ]
+   }
+  ]
+ }
+}

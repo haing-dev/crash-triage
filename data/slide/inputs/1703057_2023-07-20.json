@@ -1,0 +1,71 @@
+{
+ "id": "1703057_2023-07-20",
+ "kind": "slide",
+ "cik": "1703057",
+ "name": "AbCellera Biologics Inc.",
+ "date": "2023-07-20",
+ "asof": "2023-07-20",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-07-20",
+  "adj_close": 7.72
+ },
+ "balance": {
+  "end": "2023-03-31",
+  "cash": 193017000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001703057-23-000008"
+ },
+ "burn6": {
+  "end": "2023-03-31",
+  "start": "2022-10-01",
+  "cash_used_ops": 13151000.0,
+  "capex": 27314000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-05-01",
+  "shares": 288728094
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2023-04-21",
+  "to": "2023-08-19",
+  "trades": [
+   {
+    "date": "2023-08-08",
+    "filed": "2023-08-09",
+    "code": "P",
+    "value": 177000,
+    "who": "Hayden Michael R"
+   },
+   {
+    "date": "2023-05-26",
+    "filed": "2023-05-26",
+    "code": "P",
+    "value": 99325,
+    "who": "Booth Andrew"
+   },
+   {
+    "date": "2023-05-26",
+    "filed": "2023-05-26",
+    "code": "P",
+    "value": 997728,
+    "who": "Thermopylae Holdings Ltd."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "abcellera biologics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

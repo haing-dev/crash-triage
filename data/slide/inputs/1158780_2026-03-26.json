@@ -1,0 +1,50 @@
+{
+ "id": "1158780_2026-03-26",
+ "kind": "slide",
+ "cik": "1158780",
+ "name": "Pluri Inc.",
+ "date": "2026-03-26",
+ "asof": "2026-03-26",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-03-26",
+  "adj_close": 3.22
+ },
+ "balance": {
+  "end": "2025-12-31",
+  "cash": 4690000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001213900-26-015550"
+ },
+ "burn6": {
+  "end": "2025-12-31",
+  "start": "2025-07-01",
+  "cash_used_ops": 10633000.0,
+  "capex": 563000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-02-11",
+  "shares": 10050743
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These conditions raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2025-12-26",
+  "to": "2026-04-25",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "pluri",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

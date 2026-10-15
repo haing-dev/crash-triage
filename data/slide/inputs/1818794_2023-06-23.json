@@ -1,0 +1,148 @@
+{
+ "id": "1818794_2023-06-23",
+ "kind": "slide",
+ "cik": "1818794",
+ "name": "Dyne Therapeutics, Inc.",
+ "date": "2023-06-23",
+ "asof": "2023-06-23",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-06-23",
+  "adj_close": 10.5
+ },
+ "balance": {
+  "end": "2023-03-31",
+  "cash": 238211000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0000950170-23-020839"
+ },
+ "burn6": {
+  "end": "2023-03-31",
+  "start": "2022-10-01",
+  "cash_used_ops": 76100000.0,
+  "capex": 749000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-04-30",
+  "shares": 58310703
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 12,
+  "from": "2023-03-25",
+  "to": "2023-07-23",
+  "trades": [
+   {
+    "date": "2023-06-13",
+    "filed": "2023-06-15",
+    "code": "S",
+    "value": 17278,
+    "who": "Scalzo Richard William"
+   },
+   {
+    "date": "2023-06-13",
+    "filed": "2023-06-15",
+    "code": "S",
+    "value": 515600,
+    "who": "Scalzo Richard William"
+   },
+   {
+    "date": "2023-06-15",
+    "filed": "2023-06-15",
+    "code": "S",
+    "value": 120300,
+    "who": "Scalzo Richard William"
+   },
+   {
+    "date": "2023-06-12",
+    "filed": "2023-06-14",
+    "code": "S",
+    "value": 13000,
+    "who": "McNeill Jonathan"
+   },
+   {
+    "date": "2023-06-13",
+    "filed": "2023-06-14",
+    "code": "S",
+    "value": 15649,
+    "who": "McNeill Jonathan"
+   },
+   {
+    "date": "2023-06-13",
+    "filed": "2023-06-14",
+    "code": "S",
+    "value": 20199,
+    "who": "HIGH SUSANNA GATTI"
+   },
+   {
+    "date": "2023-06-13",
+    "filed": "2023-06-14",
+    "code": "S",
+    "value": 21106,
+    "who": "Farwell Wildon"
+   },
+   {
+    "date": "2023-06-13",
+    "filed": "2023-06-14",
+    "code": "S",
+    "value": 18334,
+    "who": "Beskrovnaya Oxana"
+   },
+   {
+    "date": "2023-06-08",
+    "filed": "2023-06-12",
+    "code": "S",
+    "value": 615565,
+    "who": "Brumm Joshua T"
+   },
+   {
+    "date": "2023-06-08",
+    "filed": "2023-06-12",
+    "code": "S",
+    "value": 191126,
+    "who": "Brumm Joshua T"
+   },
+   {
+    "date": "2023-06-09",
+    "filed": "2023-06-12",
+    "code": "S",
+    "value": 1021604,
+    "who": "Brumm Joshua T"
+   },
+   {
+    "date": "2023-06-12",
+    "filed": "2023-06-12",
+    "code": "S",
+    "value": 2367502,
+    "who": "Brumm Joshua T"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "dyne therapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05481879",
+    "drugs": [
+     "DYNE-101"
+    ]
+   },
+   {
+    "nct": "NCT05524883",
+    "drugs": [
+     "DYNE-251"
+    ]
+   }
+  ]
+ }
+}

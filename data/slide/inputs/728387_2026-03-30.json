@@ -1,0 +1,73 @@
+{
+ "id": "728387_2026-03-30",
+ "kind": "slide",
+ "cik": "728387",
+ "name": "Perspective Therapeutics, Inc.",
+ "date": "2026-03-30",
+ "asof": "2026-03-30",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-03-30",
+  "adj_close": 3.83
+ },
+ "balance": {
+  "end": "2025-12-31",
+  "cash": 144737000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000728387-26-000004"
+ },
+ "burn6": {
+  "end": "2025-12-31",
+  "start": "2025-07-01",
+  "cash_used_ops": 40949000.0,
+  "capex": 7067000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-03-12",
+  "shares": 113933436
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2025-12-30",
+  "to": "2026-04-29",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "perspective therapeutics",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05655312",
+    "drugs": [
+     "[203Pb]VMT01",
+     "[212Pb]VMT01",
+     "Nivolumab"
+    ]
+   },
+   {
+    "nct": "NCT05636618",
+    "drugs": [
+     "[203Pb]VMT-\u03b1-NET",
+     "[212Pb]VMT-\u03b1-NET"
+    ]
+   },
+   {
+    "nct": "NCT06710756",
+    "drugs": [
+     "[203Pb]Pb-PSV359",
+     "[212Pb]Pb-PSV359"
+    ]
+   }
+  ]
+ }
+}

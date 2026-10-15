@@ -1,0 +1,108 @@
+{
+ "id": "1515673_2025-01-02",
+ "kind": "slide",
+ "cik": "1515673",
+ "name": "Ultragenyx Pharmaceutical Inc.",
+ "date": "2025-01-02",
+ "asof": "2025-01-02",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-01-02",
+  "adj_close": 41.15
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 824694000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0000950170-24-121679"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": 143958000.0,
+  "capex": 3626000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-10-31",
+  "shares": 92344268
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2024-10-04",
+  "to": "2025-02-01",
+  "trades": [
+   {
+    "date": "2024-12-30",
+    "filed": "2024-12-31",
+    "code": "S",
+    "value": 495231,
+    "who": "KAKKIS EMIL D"
+   },
+   {
+    "date": "2024-12-10",
+    "filed": "2024-12-11",
+    "code": "S",
+    "value": 413650,
+    "who": "KAKKIS EMIL D"
+   },
+   {
+    "date": "2024-10-10",
+    "filed": "2024-10-11",
+    "code": "S",
+    "value": 393853,
+    "who": "Horn Howard"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "ultragenyx pharmaceutical",
+  "other_trials": 11,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05125809",
+    "drugs": [
+     "Setrusumab"
+    ]
+   },
+   {
+    "nct": "NCT05345171",
+    "drugs": [
+     "DTX301",
+     "Oral Corticosteroids",
+     "Sodium Acetate"
+    ]
+   },
+   {
+    "nct": "NCT05933200",
+    "drugs": [
+     "Triheptanoin",
+     "MCT Oil"
+    ]
+   },
+   {
+    "nct": "NCT04259281",
+    "drugs": [
+     "GTX-102"
+    ]
+   },
+   {
+    "nct": "NCT05768854",
+    "drugs": [
+     "Bisphosphonate",
+     "Setrusumab"
+    ]
+   }
+  ]
+ }
+}

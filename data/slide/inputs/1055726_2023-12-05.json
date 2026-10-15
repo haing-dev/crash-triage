@@ -1,0 +1,67 @@
+{
+ "id": "1055726_2023-12-05",
+ "kind": "slide",
+ "cik": "1055726",
+ "name": "INOVIO PHARMACEUTICALS, INC.",
+ "date": "2023-12-05",
+ "asof": "2023-12-05",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-12-05",
+  "adj_close": 4.8
+ },
+ "balance": {
+  "end": "2023-09-30",
+  "cash": 167473468,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001055726-23-000055"
+ },
+ "burn6": {
+  "end": "2023-09-30",
+  "start": "2023-04-01",
+  "cash_used_ops": 61425288.0,
+  "capex": 23915.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-11-08",
+  "shares": 272986424
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2023-09-06",
+  "to": "2024-01-04",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "inovio pharmaceuticals",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03491683",
+    "drugs": [
+     "INO-5401",
+     "INO-9012",
+     "Cemiplimab"
+    ]
+   },
+   {
+    "nct": "NCT03502785",
+    "drugs": [
+     "INO-5401",
+     "INO-9012",
+     "Atezolizumab"
+    ]
+   }
+  ]
+ }
+}

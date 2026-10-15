@@ -1,0 +1,65 @@
+{
+ "id": "1655759_2026-09-23",
+ "kind": "slide",
+ "cik": "1655759",
+ "name": "ARVINAS, INC.",
+ "date": "2026-09-23",
+ "asof": "2026-09-23",
+ "final": false,
+ "version": 5,
+ "price": {
+  "date": "2026-09-23",
+  "adj_close": 7.83
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 567900000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001628280-26-052554"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": 117500000.0,
+  "capex": 1500000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-07-31",
+  "shares": 65386191
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2026-06-25",
+  "to": "2026-10-15",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "arvinas",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT07023731",
+    "drugs": [
+     "ARV-806"
+    ]
+   },
+   {
+    "nct": "NCT07749586",
+    "drugs": [
+     "ARV-6723",
+     "Pembrolizumab",
+     "SOC"
+    ]
+   }
+  ]
+ }
+}

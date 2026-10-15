@@ -1,0 +1,58 @@
+{
+ "id": "1867096_2023-09-12",
+ "kind": "slide",
+ "cik": "1867096",
+ "name": "Xeris Biopharma Holdings, Inc.",
+ "date": "2023-09-12",
+ "asof": "2023-09-12",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-09-12",
+  "adj_close": 2.04
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 80668000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001867096-23-000114"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 39884000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-07-31",
+  "shares": 138065993
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2023-06-14",
+  "to": "2023-10-12",
+  "trades": [
+   {
+    "date": "2023-08-09",
+    "filed": "2023-08-09",
+    "code": "P",
+    "value": 23794,
+    "who": "Edick Paul R"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "xeris biopharma",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

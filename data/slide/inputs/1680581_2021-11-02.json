@@ -1,0 +1,91 @@
+{
+ "id": "1680581_2021-11-02",
+ "kind": "slide",
+ "cik": "1680581",
+ "name": "Fulcrum Therapeutics, Inc.",
+ "date": "2021-11-02",
+ "asof": "2021-11-02",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-11-02",
+  "adj_close": 20.88
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 56779000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001564590-21-042876"
+ },
+ "burn6": {
+  "end": "2021-06-30",
+  "start": "2021-01-01",
+  "cash_used_ops": 34047000.0,
+  "capex": 827000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-08-03",
+  "shares": 32708425
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2021-08-04",
+  "to": "2021-12-02",
+  "trades": [
+   {
+    "date": "2021-08-10",
+    "filed": "2021-08-12",
+    "code": "S",
+    "value": 352138,
+    "who": "Moxham Christopher"
+   },
+   {
+    "date": "2021-08-10",
+    "filed": "2021-08-12",
+    "code": "S",
+    "value": 559278,
+    "who": "Moxham Christopher"
+   },
+   {
+    "date": "2021-08-10",
+    "filed": "2021-08-12",
+    "code": "S",
+    "value": 560000,
+    "who": "Stuart Bryan"
+   },
+   {
+    "date": "2021-08-11",
+    "filed": "2021-08-12",
+    "code": "S",
+    "value": 665000,
+    "who": "Stuart Bryan"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "fulcrum therapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04004000",
+    "drugs": [
+     "Losmapimod"
+    ]
+   },
+   {
+    "nct": "NCT04264442",
+    "drugs": [
+     "Losmapimod"
+    ]
+   }
+  ]
+ }
+}

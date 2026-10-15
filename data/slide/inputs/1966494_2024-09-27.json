@@ -1,0 +1,81 @@
+{
+ "id": "1966494_2024-09-27",
+ "kind": "slide",
+ "cik": "1966494",
+ "name": "CARGO Therapeutics, Inc.",
+ "date": "2024-09-27",
+ "asof": "2024-09-27",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-09-27",
+  "adj_close": 17.42
+ },
+ "balance": {
+  "end": "2024-06-30",
+  "cash": 443478000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-24-095427"
+ },
+ "burn6": {
+  "end": "2024-06-30",
+  "start": "2024-01-01",
+  "cash_used_ops": 65230000.0,
+  "capex": 2752000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-08-08",
+  "shares": 45904634
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 2,
+  "from": "2024-06-29",
+  "to": "2024-10-27",
+  "trades": [
+   {
+    "date": "2024-09-18",
+    "filed": "2024-09-20",
+    "code": "S",
+    "value": 179775,
+    "who": "Chapman Gina"
+   },
+   {
+    "date": "2024-09-19",
+    "filed": "2024-09-20",
+    "code": "S",
+    "value": 74457,
+    "who": "Chapman Gina"
+   },
+   {
+    "date": "2024-09-18",
+    "filed": "2024-09-20",
+    "code": "S",
+    "value": 40452,
+    "who": "Radhakrishnan Anup"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "cargo therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05972720",
+    "drugs": [
+     "Fludarabine (Conditional therapy)",
+     "Cyclophosphamide Monohydrate (Conditional therapy)",
+     "firi-cel (Experimental drug)"
+    ]
+   }
+  ]
+ }
+}

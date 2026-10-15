@@ -1,0 +1,49 @@
+{
+ "id": "1822462_2023-04-24",
+ "kind": "slide",
+ "cik": "1822462",
+ "name": "Foghorn Therapeutics Inc.",
+ "date": "2023-04-24",
+ "asof": "2023-04-24",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-04-24",
+  "adj_close": 6.19
+ },
+ "balance": {
+  "end": "2022-12-31",
+  "cash": 52214000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001628280-23-007297"
+ },
+ "burn6": {
+  "end": "2022-12-31",
+  "start": "2022-07-01",
+  "cash_used_ops": 48910000.0,
+  "capex": 599000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-02-28",
+  "shares": 41804112
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2023-01-24",
+  "to": "2023-05-24",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "foghorn therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

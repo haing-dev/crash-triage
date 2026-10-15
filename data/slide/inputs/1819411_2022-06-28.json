@@ -1,0 +1,78 @@
+{
+ "id": "1819411_2022-06-28",
+ "kind": "slide",
+ "cik": "1819411",
+ "name": "Gain Therapeutics, Inc.",
+ "date": "2022-06-28",
+ "asof": "2022-06-28",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-06-28",
+  "adj_close": 3.83
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 34338585,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-22-008968"
+ },
+ "burn6": {
+  "end": "2022-03-31",
+  "start": "2021-10-01",
+  "cash_used_ops": 6593756.0,
+  "capex": 18923.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-04-30",
+  "shares": 11883368
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2022-03-30",
+  "to": "2022-07-28",
+  "trades": [
+   {
+    "date": "2022-05-25",
+    "filed": "2022-05-27",
+    "code": "P",
+    "value": 6404,
+    "who": "RICHMAN ERIC I"
+   },
+   {
+    "date": "2022-05-19",
+    "filed": "2022-05-23",
+    "code": "P",
+    "value": 10840,
+    "who": "RICHMAN ERIC I"
+   },
+   {
+    "date": "2022-05-20",
+    "filed": "2022-05-23",
+    "code": "P",
+    "value": 26194,
+    "who": "RICHMAN ERIC I"
+   },
+   {
+    "date": "2022-05-19",
+    "filed": "2022-05-19",
+    "code": "P",
+    "value": 24300000,
+    "who": "Calabrese Salvatore"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "gain therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

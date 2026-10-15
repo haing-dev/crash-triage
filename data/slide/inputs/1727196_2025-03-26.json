@@ -1,0 +1,205 @@
+{
+ "id": "1727196_2025-03-26",
+ "kind": "slide",
+ "cik": "1727196",
+ "name": "Scholar Rock Holding Corp",
+ "date": "2025-03-26",
+ "asof": "2025-03-26",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-03-26",
+  "adj_close": 32.16
+ },
+ "balance": {
+  "end": "2024-12-31",
+  "cash": 437278000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001558370-25-001682"
+ },
+ "burn6": {
+  "end": "2024-12-31",
+  "start": "2024-07-01",
+  "cash_used_ops": 101968000.0,
+  "capex": 53000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-02-24",
+  "shares": 94676763
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 22,
+  "from": "2024-12-26",
+  "to": "2025-04-25",
+  "trades": [
+   {
+    "date": "2025-03-24",
+    "filed": "2025-03-25",
+    "code": "S",
+    "value": 50556,
+    "who": "Sacco Tracey"
+   },
+   {
+    "date": "2025-03-24",
+    "filed": "2025-03-25",
+    "code": "S",
+    "value": 164458,
+    "who": "Sacco Tracey"
+   },
+   {
+    "date": "2025-03-24",
+    "filed": "2025-03-25",
+    "code": "S",
+    "value": 449237,
+    "who": "Moore Erin"
+   },
+   {
+    "date": "2025-03-17",
+    "filed": "2025-03-19",
+    "code": "S",
+    "value": 34627,
+    "who": "Peng Katie"
+   },
+   {
+    "date": "2025-03-10",
+    "filed": "2025-03-12",
+    "code": "S",
+    "value": 4043971,
+    "who": "Myles Edward H"
+   },
+   {
+    "date": "2025-03-10",
+    "filed": "2025-03-12",
+    "code": "S",
+    "value": 1025004,
+    "who": "Myles Edward H"
+   },
+   {
+    "date": "2025-02-18",
+    "filed": "2025-02-20",
+    "code": "S",
+    "value": 152288,
+    "who": "Qatanani Mo"
+   },
+   {
+    "date": "2025-02-19",
+    "filed": "2025-02-20",
+    "code": "S",
+    "value": 1486692,
+    "who": "Qatanani Mo"
+   },
+   {
+    "date": "2025-02-19",
+    "filed": "2025-02-20",
+    "code": "S",
+    "value": 313289,
+    "who": "Qatanani Mo"
+   },
+   {
+    "date": "2025-02-19",
+    "filed": "2025-02-20",
+    "code": "S",
+    "value": 762498,
+    "who": "Qatanani Mo"
+   },
+   {
+    "date": "2025-02-18",
+    "filed": "2025-02-20",
+    "code": "S",
+    "value": 195046,
+    "who": "Parlavecchio Caryn"
+   },
+   {
+    "date": "2025-02-18",
+    "filed": "2025-02-20",
+    "code": "S",
+    "value": 287598,
+    "who": "Myles Edward H"
+   },
+   {
+    "date": "2025-02-18",
+    "filed": "2025-02-20",
+    "code": "S",
+    "value": 211472,
+    "who": "Ho Junlin"
+   },
+   {
+    "date": "2025-02-18",
+    "filed": "2025-02-20",
+    "code": "S",
+    "value": 676622,
+    "who": "Backstrom Jay T."
+   },
+   {
+    "date": "2025-01-16",
+    "filed": "2025-01-21",
+    "code": "S",
+    "value": 985951,
+    "who": "Backstrom Jay T."
+   },
+   {
+    "date": "2025-01-16",
+    "filed": "2025-01-21",
+    "code": "S",
+    "value": 249935,
+    "who": "Marantz Jing L."
+   },
+   {
+    "date": "2025-01-16",
+    "filed": "2025-01-21",
+    "code": "S",
+    "value": 171927,
+    "who": "Sacco Tracey"
+   },
+   {
+    "date": "2025-01-16",
+    "filed": "2025-01-21",
+    "code": "S",
+    "value": 324717,
+    "who": "Qatanani Mo"
+   },
+   {
+    "date": "2025-01-16",
+    "filed": "2025-01-21",
+    "code": "S",
+    "value": 284365,
+    "who": "Parlavecchio Caryn"
+   },
+   {
+    "date": "2025-01-16",
+    "filed": "2025-01-21",
+    "code": "S",
+    "value": 554189,
+    "who": "Myles Edward H"
+   },
+   {
+    "date": "2025-01-16",
+    "filed": "2025-01-21",
+    "code": "S",
+    "value": 399498,
+    "who": "Ho Junlin"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "scholar rock",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05626855",
+    "drugs": [
+     "Apitegromab"
+    ]
+   }
+  ]
+ }
+}

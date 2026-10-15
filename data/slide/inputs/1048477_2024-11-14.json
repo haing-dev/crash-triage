@@ -1,0 +1,92 @@
+{
+ "id": "1048477_2024-11-14",
+ "kind": "slide",
+ "cik": "1048477",
+ "name": "BIOMARIN PHARMACEUTICAL INC",
+ "date": "2024-11-14",
+ "asof": "2024-11-14",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-11-14",
+  "adj_close": 65.6
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 1492429000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0001048477-24-000152"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": -340243000.0,
+  "capex": 39790000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-10-28",
+  "shares": 190583016
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2024-08-16",
+  "to": "2024-12-14",
+  "trades": [
+   {
+    "date": "2024-11-12",
+    "filed": "2024-11-14",
+    "code": "S",
+    "value": 350324,
+    "who": "Guyer Charles Greg"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "biomarin pharmaceutical",
+  "other_trials": 12,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT02724228",
+    "drugs": [
+     "BMN 111"
+    ]
+   },
+   {
+    "nct": "NCT05270837",
+    "drugs": [
+     "Pegvaliase",
+     "Diet Only"
+    ]
+   },
+   {
+    "nct": "NCT03424018",
+    "drugs": [
+     "BMN 111"
+    ]
+   },
+   {
+    "nct": "NCT06382155",
+    "drugs": [
+     "Vosoritide Injection",
+     "Human Growth Hormone"
+    ]
+   },
+   {
+    "nct": "NCT04684940",
+    "drugs": [
+     "Valoctocogene roxaparvovec"
+    ]
+   }
+  ]
+ }
+}

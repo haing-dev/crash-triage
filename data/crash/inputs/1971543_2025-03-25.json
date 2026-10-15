@@ -1,0 +1,86 @@
+{
+ "id": "1971543_2025-03-25",
+ "kind": "crash",
+ "cik": "1971543",
+ "name": "Mural Oncology plc",
+ "date": "2025-03-25",
+ "asof": "2025-03-25",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-03-25",
+  "adj_close": 1.47
+ },
+ "balance": {
+  "end": "2024-12-31",
+  "cash": 115462000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-25-037138"
+ },
+ "burn6": {
+  "end": "2024-12-31",
+  "start": "2024-07-01",
+  "cash_used_ops": 61848000.0,
+  "capex": 37000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-02-28",
+  "shares": 17228291
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "\u2022 Our financial condition raises substantial doubt as to our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2024-12-25",
+  "to": "2025-04-24",
+  "trades": [
+   {
+    "date": "2025-03-04",
+    "filed": "2025-03-05",
+    "code": "S",
+    "value": 4240,
+    "who": "Keson-Brookes Maiken"
+   },
+   {
+    "date": "2025-03-05",
+    "filed": "2025-03-05",
+    "code": "S",
+    "value": 5068,
+    "who": "Keson-Brookes Maiken"
+   },
+   {
+    "date": "2025-03-04",
+    "filed": "2025-03-05",
+    "code": "S",
+    "value": 14492,
+    "who": "Loew Caroline"
+   },
+   {
+    "date": "2025-02-24",
+    "filed": "2025-02-25",
+    "code": "S",
+    "value": 51294,
+    "who": "Goodman Vicki L"
+   },
+   {
+    "date": "2024-12-23",
+    "filed": "2024-12-26",
+    "code": "S",
+    "value": 8355,
+    "who": "Keson-Brookes Maiken"
+   }
+  ]
+ },
+ "drug": "nemvaleukin alfa",
+ "trials": {
+  "query": "mural oncology",
+  "other_trials": 0,
+  "crashed_drug_trials": 1,
+  "examples": []
+ }
+}

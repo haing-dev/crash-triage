@@ -1,0 +1,70 @@
+{
+ "id": "1691082_2026-10-05",
+ "kind": "slide",
+ "cik": "1691082",
+ "name": "LB PHARMACEUTICALS INC",
+ "date": "2026-10-05",
+ "asof": "2026-10-05",
+ "final": false,
+ "version": 5,
+ "price": {
+  "date": "2026-10-05",
+  "adj_close": 34.62
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 327790000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001193125-26-343490"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": 60919000.0,
+  "capex": 395000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-08-05",
+  "shares": 32259175
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2026-07-07",
+  "to": "2026-10-15",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "lb pharmaceuticals",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT07369154",
+    "drugs": [
+     "LB-102"
+    ]
+   },
+   {
+    "nct": "NCT07363577",
+    "drugs": [
+     "LB-102 (50 mg tablet)",
+     "LB-102 (100 mg tablet)"
+    ]
+   },
+   {
+    "nct": "NCT07494305",
+    "drugs": [
+     "LB-102"
+    ]
+   }
+  ]
+ }
+}

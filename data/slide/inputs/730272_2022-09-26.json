@@ -1,0 +1,182 @@
+{
+ "id": "730272_2022-09-26",
+ "kind": "slide",
+ "cik": "730272",
+ "name": "REPLIGEN CORP",
+ "date": "2022-09-26",
+ "asof": "2022-09-26",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-09-26",
+  "adj_close": 179.33
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 596512000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-22-013883"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": -68834000.0,
+  "capex": 52576000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-07-29",
+  "shares": 55491199
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 9,
+  "from": "2022-06-28",
+  "to": "2022-10-26",
+  "trades": [
+   {
+    "date": "2022-09-09",
+    "filed": "2022-09-09",
+    "code": "S",
+    "value": 176057,
+    "who": "DAWES KAREN A"
+   },
+   {
+    "date": "2022-09-08",
+    "filed": "2022-09-09",
+    "code": "S",
+    "value": 181346,
+    "who": "Hunt Anthony"
+   },
+   {
+    "date": "2022-09-08",
+    "filed": "2022-09-09",
+    "code": "S",
+    "value": 273503,
+    "who": "Hunt Anthony"
+   },
+   {
+    "date": "2022-09-08",
+    "filed": "2022-09-09",
+    "code": "S",
+    "value": 160013,
+    "who": "Hunt Anthony"
+   },
+   {
+    "date": "2022-09-08",
+    "filed": "2022-09-09",
+    "code": "S",
+    "value": 310108,
+    "who": "Hunt Anthony"
+   },
+   {
+    "date": "2022-09-08",
+    "filed": "2022-09-09",
+    "code": "S",
+    "value": 1487338,
+    "who": "Hunt Anthony"
+   },
+   {
+    "date": "2022-09-08",
+    "filed": "2022-09-09",
+    "code": "S",
+    "value": 2362558,
+    "who": "Hunt Anthony"
+   },
+   {
+    "date": "2022-09-08",
+    "filed": "2022-09-09",
+    "code": "S",
+    "value": 1102955,
+    "who": "Hunt Anthony"
+   },
+   {
+    "date": "2022-09-08",
+    "filed": "2022-09-09",
+    "code": "S",
+    "value": 55617,
+    "who": "Hunt Anthony"
+   },
+   {
+    "date": "2022-08-16",
+    "filed": "2022-08-17",
+    "code": "S",
+    "value": 1086105,
+    "who": "Snodgres Jon"
+   },
+   {
+    "date": "2022-08-16",
+    "filed": "2022-08-17",
+    "code": "S",
+    "value": 607584,
+    "who": "Snodgres Jon"
+   },
+   {
+    "date": "2022-08-11",
+    "filed": "2022-08-12",
+    "code": "S",
+    "value": 204160,
+    "who": "KURIYEL RALF"
+   },
+   {
+    "date": "2022-08-11",
+    "filed": "2022-08-12",
+    "code": "S",
+    "value": 1026726,
+    "who": "KURIYEL RALF"
+   },
+   {
+    "date": "2022-08-04",
+    "filed": "2022-08-05",
+    "code": "S",
+    "value": 815785,
+    "who": "Gebski Christine"
+   },
+   {
+    "date": "2022-08-03",
+    "filed": "2022-08-04",
+    "code": "S",
+    "value": 480800,
+    "who": "Bylund James"
+   },
+   {
+    "date": "2022-08-01",
+    "filed": "2022-08-02",
+    "code": "S",
+    "value": 440000,
+    "who": "Snodgres Jon"
+   },
+   {
+    "date": "2022-07-21",
+    "filed": "2022-07-22",
+    "code": "S",
+    "value": 4960400,
+    "who": "Hunt Anthony"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "repligen",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT00322764",
+    "drugs": [
+     "Uridine"
+    ]
+   },
+   {
+    "nct": "NCT00036231",
+    "drugs": [
+     "RG1068 (Synthetic Human Secretin)"
+    ]
+   }
+  ]
+ }
+}

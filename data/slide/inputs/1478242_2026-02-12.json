@@ -1,0 +1,58 @@
+{
+ "id": "1478242_2026-02-12",
+ "kind": "slide",
+ "cik": "1478242",
+ "name": "IQVIA HOLDINGS INC.",
+ "date": "2026-02-12",
+ "asof": "2026-02-12",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-02-12",
+  "adj_close": 168.85001
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 1972000000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001628280-25-046794"
+ },
+ "burn6": {
+  "end": "2025-09-30",
+  "start": "2025-04-01",
+  "cash_used_ops": -1351000000.0,
+  "capex": 287000000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-10-20",
+  "shares": 170300000
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 27,
+  "from": "2025-11-14",
+  "to": "2026-03-14",
+  "trades": [
+   {
+    "date": "2025-12-18",
+    "filed": "2025-12-19",
+    "code": "S",
+    "value": 8132931,
+    "who": "BOUSBIB ARI"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "iqvia",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

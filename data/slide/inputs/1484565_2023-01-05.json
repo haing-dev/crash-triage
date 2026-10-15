@@ -1,0 +1,191 @@
+{
+ "id": "1484565_2023-01-05",
+ "kind": "slide",
+ "cik": "1484565",
+ "name": "SOLENO THERAPEUTICS INC",
+ "date": "2023-01-05",
+ "asof": "2023-01-05",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-01-05",
+  "adj_close": 2.09
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 19751000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-22-023838"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 9276000.0,
+  "capex": 4700.294117647059,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-11-04",
+  "shares": 8159382
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These matters raise substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 20,
+  "from": "2022-10-07",
+  "to": "2023-02-04",
+  "trades": [
+   {
+    "date": "2022-08-02",
+    "filed": "2022-10-14",
+    "code": "S",
+    "value": 901,
+    "who": "SCHULER JACK W"
+   },
+   {
+    "date": "2022-08-03",
+    "filed": "2022-10-14",
+    "code": "S",
+    "value": 6389,
+    "who": "SCHULER JACK W"
+   },
+   {
+    "date": "2022-08-04",
+    "filed": "2022-10-14",
+    "code": "S",
+    "value": 12551,
+    "who": "SCHULER JACK W"
+   },
+   {
+    "date": "2022-08-05",
+    "filed": "2022-10-14",
+    "code": "S",
+    "value": 16894,
+    "who": "SCHULER JACK W"
+   },
+   {
+    "date": "2022-08-08",
+    "filed": "2022-10-14",
+    "code": "S",
+    "value": 18014,
+    "who": "SCHULER JACK W"
+   },
+   {
+    "date": "2022-08-10",
+    "filed": "2022-10-14",
+    "code": "S",
+    "value": 21184,
+    "who": "SCHULER JACK W"
+   },
+   {
+    "date": "2022-08-11",
+    "filed": "2022-10-14",
+    "code": "S",
+    "value": 7264,
+    "who": "SCHULER JACK W"
+   },
+   {
+    "date": "2022-08-12",
+    "filed": "2022-10-14",
+    "code": "S",
+    "value": 44238,
+    "who": "SCHULER JACK W"
+   },
+   {
+    "date": "2022-08-15",
+    "filed": "2022-10-14",
+    "code": "S",
+    "value": 156378,
+    "who": "SCHULER JACK W"
+   },
+   {
+    "date": "2022-08-16",
+    "filed": "2022-10-14",
+    "code": "S",
+    "value": 22245,
+    "who": "SCHULER JACK W"
+   },
+   {
+    "date": "2022-08-17",
+    "filed": "2022-10-14",
+    "code": "S",
+    "value": 15105,
+    "who": "SCHULER JACK W"
+   },
+   {
+    "date": "2022-08-18",
+    "filed": "2022-10-14",
+    "code": "S",
+    "value": 30372,
+    "who": "SCHULER JACK W"
+   },
+   {
+    "date": "2022-08-19",
+    "filed": "2022-10-14",
+    "code": "S",
+    "value": 21493,
+    "who": "SCHULER JACK W"
+   },
+   {
+    "date": "2022-08-22",
+    "filed": "2022-10-14",
+    "code": "S",
+    "value": 12231,
+    "who": "SCHULER JACK W"
+   },
+   {
+    "date": "2022-08-23",
+    "filed": "2022-10-14",
+    "code": "S",
+    "value": 454,
+    "who": "SCHULER JACK W"
+   },
+   {
+    "date": "2022-08-24",
+    "filed": "2022-10-14",
+    "code": "S",
+    "value": 27231,
+    "who": "SCHULER JACK W"
+   },
+   {
+    "date": "2022-08-25",
+    "filed": "2022-10-14",
+    "code": "S",
+    "value": 20345,
+    "who": "SCHULER JACK W"
+   },
+   {
+    "date": "2022-08-26",
+    "filed": "2022-10-14",
+    "code": "S",
+    "value": 54675,
+    "who": "SCHULER JACK W"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "soleno therapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03714373",
+    "drugs": [
+     "DCCR",
+     "DCCR"
+    ]
+   },
+   {
+    "nct": "NCT05532020",
+    "drugs": [
+     "DCCR (diazoxide choline) extended-release tablets"
+    ]
+   }
+  ]
+ }
+}

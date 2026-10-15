@@ -1,0 +1,50 @@
+{
+ "id": "1736243_2024-08-23",
+ "kind": "slide",
+ "cik": "1736243",
+ "name": "Acurx Pharmaceuticals, Inc.",
+ "date": "2024-08-23",
+ "asof": "2024-08-23",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-08-23",
+  "adj_close": 45.4
+ },
+ "balance": {
+  "end": "2024-06-30",
+  "cash": 6360858,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0001558370-24-011587"
+ },
+ "burn6": {
+  "end": "2024-06-30",
+  "start": "2024-01-01",
+  "cash_used_ops": 5943214.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-08-08",
+  "shares": 16245099
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These matters raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2024-05-25",
+  "to": "2024-09-22",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "acurx pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

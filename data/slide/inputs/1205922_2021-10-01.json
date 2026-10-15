@@ -1,0 +1,63 @@
+{
+ "id": "1205922_2021-10-01",
+ "kind": "slide",
+ "cik": "1205922",
+ "name": "VACCINEX, INC.",
+ "date": "2021-10-01",
+ "asof": "2021-10-01",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-10-01",
+  "adj_close": 436.8
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 22385000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001564590-21-044453"
+ },
+ "burn6": {
+  "end": "2021-06-30",
+  "start": "2021-01-01",
+  "cash_used_ops": 14096000.0,
+  "capex": 22000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-08-12",
+  "shares": 30801110
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These conditions and events raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2021-07-03",
+  "to": "2021-10-31",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "vaccinex",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04381468",
+    "drugs": [
+     "Pepinemab"
+    ]
+   },
+   {
+    "nct": "NCT04815720",
+    "drugs": [
+     "pepinemab + pembrolizumab"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,101 @@
+{
+ "id": "1393434_2022-09-27",
+ "kind": "slide",
+ "cik": "1393434",
+ "name": "OCULAR THERAPEUTIX, INC",
+ "date": "2022-09-27",
+ "asof": "2022-09-27",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-09-27",
+  "adj_close": 4.31
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 134539000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-22-012623"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 29476000.0,
+  "capex": 771000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-08-05",
+  "shares": 76966889
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2022-06-29",
+  "to": "2022-10-27",
+  "trades": [
+   {
+    "date": "2022-10-10",
+    "filed": "2022-10-12",
+    "code": "P",
+    "value": 39982,
+    "who": "SUMMER ROAD LLC"
+   },
+   {
+    "date": "2022-10-11",
+    "filed": "2022-10-12",
+    "code": "P",
+    "value": 38993,
+    "who": "SUMMER ROAD LLC"
+   },
+   {
+    "date": "2022-09-27",
+    "filed": "2022-09-29",
+    "code": "P",
+    "value": 608322,
+    "who": "SUMMER ROAD LLC"
+   },
+   {
+    "date": "2022-09-28",
+    "filed": "2022-09-29",
+    "code": "P",
+    "value": 4920,
+    "who": "SUMMER ROAD LLC"
+   },
+   {
+    "date": "2022-09-29",
+    "filed": "2022-09-29",
+    "code": "P",
+    "value": 75988,
+    "who": "SUMMER ROAD LLC"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "ocular therapeutix",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05335122",
+    "drugs": [
+     "OTX-TIC low dose Travoprost Intracameral Implant",
+     "OTX-TIC high dose Travoprost Intracameral Implant",
+     "Durysta, Bimatoprost Intracameral Implant 10 \u00b5g"
+    ]
+   },
+   {
+    "nct": "NCT04539548",
+    "drugs": [
+     "Dextenza Ophthalmic Insert",
+     "Prednisolone acetate ophthalmic suspension USP 1%"
+    ]
+   }
+  ]
+ }
+}

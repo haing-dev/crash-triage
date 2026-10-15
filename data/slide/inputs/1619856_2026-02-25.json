@@ -1,0 +1,87 @@
+{
+ "id": "1619856_2026-02-25",
+ "kind": "slide",
+ "cik": "1619856",
+ "name": "Caribou Biosciences, Inc.",
+ "date": "2026-02-25",
+ "asof": "2026-02-25",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-02-25",
+  "adj_close": 1.95
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 159212000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0001619856-25-000071"
+ },
+ "burn6": {
+  "end": "2025-09-30",
+  "start": "2025-04-01",
+  "cash_used_ops": 53443000.0,
+  "capex": 533000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-11-03",
+  "shares": 93468038
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 14,
+  "from": "2025-11-27",
+  "to": "2026-03-27",
+  "trades": [
+   {
+    "date": "2026-02-25",
+    "filed": "2026-02-27",
+    "code": "S",
+    "value": 12020,
+    "who": "Kelly Timothy P"
+   },
+   {
+    "date": "2026-02-24",
+    "filed": "2026-02-24",
+    "code": "S",
+    "value": 6168,
+    "who": "Kelly Timothy P"
+   },
+   {
+    "date": "2026-02-24",
+    "filed": "2026-02-24",
+    "code": "S",
+    "value": 13598,
+    "who": "MCCLUNG BARBARA G"
+   },
+   {
+    "date": "2026-02-24",
+    "filed": "2026-02-24",
+    "code": "S",
+    "value": 13598,
+    "who": "Khan Ruhi Ahmad"
+   },
+   {
+    "date": "2026-02-24",
+    "filed": "2026-02-24",
+    "code": "S",
+    "value": 2089,
+    "who": "Albertson Tina M."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "caribou biosciences",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

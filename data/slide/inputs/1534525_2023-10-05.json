@@ -1,0 +1,50 @@
+{
+ "id": "1534525_2023-10-05",
+ "kind": "slide",
+ "cik": "1534525",
+ "name": "Xenetic Biosciences, Inc.",
+ "date": "2023-10-05",
+ "asof": "2023-10-05",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-10-05",
+  "adj_close": 4.1
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 10725707,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0001683168-23-005513"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 2371558.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-08-04",
+  "shares": 1532600
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These factors raise substantial doubt about its ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2023-07-07",
+  "to": "2023-11-04",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "xenetic biosciences",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

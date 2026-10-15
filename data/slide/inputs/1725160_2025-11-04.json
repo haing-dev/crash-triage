@@ -1,0 +1,58 @@
+{
+ "id": "1725160_2025-11-04",
+ "kind": "slide",
+ "cik": "1725160",
+ "name": "Zentalis Pharmaceuticals, Inc.",
+ "date": "2025-11-04",
+ "asof": "2025-11-04",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-11-04",
+  "adj_close": 1.32
+ },
+ "balance": {
+  "end": "2025-06-30",
+  "cash": 286640000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001725160-25-000149"
+ },
+ "burn6": {
+  "end": "2025-06-30",
+  "start": "2025-01-01",
+  "cash_used_ops": 67344000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-08-01",
+  "shares": 72135453
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "The Company determined that there are no conditions or events that raise substantial doubt about its ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2025-08-06",
+  "to": "2025-12-04",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "zentalis pharmaceuticals",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05128825",
+    "drugs": [
+     "azenosertib"
+    ]
+   }
+  ]
+ }
+}

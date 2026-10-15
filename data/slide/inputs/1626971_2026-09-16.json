@@ -1,0 +1,65 @@
+{
+ "id": "1626971_2026-09-16",
+ "kind": "slide",
+ "cik": "1626971",
+ "name": "Corvus Pharmaceuticals, Inc.",
+ "date": "2026-09-16",
+ "asof": "2026-09-16",
+ "final": false,
+ "version": 5,
+ "price": {
+  "date": "2026-09-16",
+  "adj_close": 12.23
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 215228000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001104659-26-091975"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": 25772000.0,
+  "capex": 673000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-08-06",
+  "shares": 84120944
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2026-06-18",
+  "to": "2026-10-15",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "corvus pharmaceuticals",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT07441395",
+    "drugs": [
+     "Soquelitinib"
+    ]
+   },
+   {
+    "nct": "NCT06561048",
+    "drugs": [
+     "Soquelitinib",
+     "Belinostat",
+     "Pralatrexate"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,84 @@
+{
+ "id": "1126234_2022-06-14",
+ "kind": "slide",
+ "cik": "1126234",
+ "name": "LUMOS PHARMA, INC.",
+ "date": "2022-06-14",
+ "asof": "2022-06-14",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-06-14",
+  "adj_close": 6.7
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 86758000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001126234-22-000066"
+ },
+ "burn6": {
+  "end": "2022-03-31",
+  "start": "2021-10-01",
+  "cash_used_ops": 13861000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-05-06",
+  "shares": 8369228
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2022-03-16",
+  "to": "2022-07-14",
+  "trades": [
+   {
+    "date": "2022-06-06",
+    "filed": "2022-06-07",
+    "code": "S",
+    "value": 1288,
+    "who": "McKew John C."
+   },
+   {
+    "date": "2022-04-05",
+    "filed": "2022-04-05",
+    "code": "S",
+    "value": 18420,
+    "who": "McKew John C."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "lumos pharma",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04806854",
+    "drugs": [
+     "LUM-201"
+    ]
+   },
+   {
+    "nct": "NCT05250063",
+    "drugs": [
+     "LUM-201"
+    ]
+   },
+   {
+    "nct": "NCT04614337",
+    "drugs": [
+     "LUM-201",
+     "rhGH Norditropin\u00ae pen (34 \u00b5g/kg)"
+    ]
+   }
+  ]
+ }
+}

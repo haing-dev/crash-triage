@@ -1,0 +1,85 @@
+{
+ "id": "1001316_2021-11-15",
+ "kind": "slide",
+ "cik": "1001316",
+ "name": "TG THERAPEUTICS, INC.",
+ "date": "2021-11-15",
+ "asof": "2021-11-15",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-11-15",
+  "adj_close": 27.049999
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 356850000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001558370-21-015039"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 127370000.0,
+  "capex": 254000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-11-03",
+  "shares": 142943139
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2021-08-17",
+  "to": "2021-12-15",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "tg therapeutics",
+  "other_trials": 11,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT02612311",
+    "drugs": [
+     "Obinutuzumab",
+     "Ublituximab",
+     "TGR-1202"
+    ]
+   },
+   {
+    "nct": "NCT02656303",
+    "drugs": [
+     "Ublituximab",
+     "Umbralisib"
+    ]
+   },
+   {
+    "nct": "NCT03381170",
+    "drugs": [
+     "Ublituximab"
+    ]
+   },
+   {
+    "nct": "NCT03364231",
+    "drugs": [
+     "Umbralisib"
+    ]
+   },
+   {
+    "nct": "NCT03828448",
+    "drugs": [
+     "Ublituximab",
+     "Umbralisib"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,189 @@
+{
+ "id": "1845337_2024-06-17",
+ "kind": "slide",
+ "cik": "1845337",
+ "name": "Day One Biopharmaceuticals, Inc.",
+ "date": "2024-06-17",
+ "asof": "2024-06-17",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-06-17",
+  "adj_close": 12.03
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 317944000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-24-053612"
+ },
+ "burn6": {
+  "end": "2024-03-31",
+  "start": "2023-10-01",
+  "cash_used_ops": 91101000.0,
+  "capex": 8000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-05-01",
+  "shares": 87389859
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 21,
+  "from": "2024-03-19",
+  "to": "2024-07-17",
+  "trades": [
+   {
+    "date": "2024-07-16",
+    "filed": "2024-07-17",
+    "code": "S",
+    "value": 320226,
+    "who": "Blackman Samuel C."
+   },
+   {
+    "date": "2024-06-21",
+    "filed": "2024-06-21",
+    "code": "S",
+    "value": 131877,
+    "who": "Ramasastry Saira"
+   },
+   {
+    "date": "2024-06-10",
+    "filed": "2024-06-12",
+    "code": "S",
+    "value": 378588,
+    "who": "Blackman Samuel C."
+   },
+   {
+    "date": "2024-05-16",
+    "filed": "2024-05-17",
+    "code": "S",
+    "value": 126588,
+    "who": "Bender Jeremy"
+   },
+   {
+    "date": "2024-05-16",
+    "filed": "2024-05-17",
+    "code": "S",
+    "value": 36450,
+    "who": "Blackman Samuel C."
+   },
+   {
+    "date": "2024-05-16",
+    "filed": "2024-05-17",
+    "code": "S",
+    "value": 43011,
+    "who": "York Charles N II"
+   },
+   {
+    "date": "2024-05-16",
+    "filed": "2024-05-17",
+    "code": "S",
+    "value": 52304,
+    "who": "Dubow Adam"
+   },
+   {
+    "date": "2024-05-10",
+    "filed": "2024-05-14",
+    "code": "S",
+    "value": 163743,
+    "who": "Blackman Samuel C."
+   },
+   {
+    "date": "2024-05-01",
+    "filed": "2024-05-03",
+    "code": "S",
+    "value": 1252183,
+    "who": "Bender Jeremy"
+   },
+   {
+    "date": "2024-05-02",
+    "filed": "2024-05-03",
+    "code": "S",
+    "value": 108,
+    "who": "Bender Jeremy"
+   },
+   {
+    "date": "2024-05-03",
+    "filed": "2024-05-03",
+    "code": "S",
+    "value": 163417,
+    "who": "Bender Jeremy"
+   },
+   {
+    "date": "2024-05-01",
+    "filed": "2024-05-03",
+    "code": "S",
+    "value": 933397,
+    "who": "York Charles N II"
+   },
+   {
+    "date": "2024-05-02",
+    "filed": "2024-05-03",
+    "code": "S",
+    "value": 3579,
+    "who": "York Charles N II"
+   },
+   {
+    "date": "2024-05-03",
+    "filed": "2024-05-03",
+    "code": "S",
+    "value": 144214,
+    "who": "York Charles N II"
+   },
+   {
+    "date": "2024-04-18",
+    "filed": "2024-04-22",
+    "code": "S",
+    "value": 160163,
+    "who": "Blackman Samuel C."
+   },
+   {
+    "date": "2024-03-25",
+    "filed": "2024-03-26",
+    "code": "S",
+    "value": 160055,
+    "who": "Blackman Samuel C."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "day one biopharmaceuticals",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05377996",
+    "drugs": [
+     "Emi-Le"
+    ]
+   },
+   {
+    "nct": "NCT05566795",
+    "drugs": [
+     "Tovorafenib",
+     "Chemotherapeutic Agent"
+    ]
+   },
+   {
+    "nct": "NCT04775485",
+    "drugs": [
+     "Tovorafenib"
+    ]
+   },
+   {
+    "nct": "NCT04985604",
+    "drugs": [
+     "Tovorafenib"
+    ]
+   }
+  ]
+ }
+}

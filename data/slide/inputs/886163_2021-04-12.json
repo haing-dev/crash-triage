@@ -1,0 +1,107 @@
+{
+ "id": "886163_2021-04-12",
+ "kind": "slide",
+ "cik": "886163",
+ "name": "LIGAND PHARMACEUTICALS INC",
+ "date": "2021-04-12",
+ "asof": "2021-04-12",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-04-12",
+  "adj_close": 90.39301
+ },
+ "balance": {
+  "end": "2020-12-31",
+  "cash": 411186000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000886163-21-000050"
+ },
+ "burn6": {
+  "end": "2020-12-31",
+  "start": "2020-07-01",
+  "cash_used_ops": -13282000.0,
+  "capex": 2230709.9178082193,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-02-18",
+  "shares": 16612422
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 17,
+  "from": "2021-01-12",
+  "to": "2021-05-12",
+  "trades": [
+   {
+    "date": "2021-02-10",
+    "filed": "2021-02-12",
+    "code": "S",
+    "value": 1083410,
+    "who": "Davis Todd C"
+   },
+   {
+    "date": "2021-02-09",
+    "filed": "2021-02-11",
+    "code": "S",
+    "value": 115648,
+    "who": "Sabba Stephen L"
+   },
+   {
+    "date": "2021-02-09",
+    "filed": "2021-02-11",
+    "code": "S",
+    "value": 2943475,
+    "who": "Sabba Stephen L"
+   },
+   {
+    "date": "2021-02-05",
+    "filed": "2021-02-09",
+    "code": "S",
+    "value": 11119239,
+    "who": "HIGGINS JOHN L"
+   },
+   {
+    "date": "2021-02-04",
+    "filed": "2021-02-05",
+    "code": "S",
+    "value": 3230376,
+    "who": "Berkman Charles S"
+   },
+   {
+    "date": "2021-02-04",
+    "filed": "2021-02-05",
+    "code": "S",
+    "value": 7878582,
+    "who": "FOEHR MATTHEW W"
+   },
+   {
+    "date": "2021-01-25",
+    "filed": "2021-01-27",
+    "code": "S",
+    "value": 7950000,
+    "who": "HIGGINS JOHN L"
+   },
+   {
+    "date": "2021-01-27",
+    "filed": "2021-01-27",
+    "code": "S",
+    "value": 7280000,
+    "who": "HIGGINS JOHN L"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "ligand pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

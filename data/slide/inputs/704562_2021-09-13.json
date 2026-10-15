@@ -1,0 +1,106 @@
+{
+ "id": "704562_2021-09-13",
+ "kind": "slide",
+ "cik": "704562",
+ "name": "Avid Bioservices, Inc.",
+ "date": "2021-09-13",
+ "asof": "2021-09-13",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-09-13",
+  "adj_close": 19.78
+ },
+ "balance": {
+  "end": "2021-07-31",
+  "cash": 159692000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001683168-21-004164"
+ },
+ "burn6": {
+  "end": "2021-07-31",
+  "start": "2021-02-01",
+  "cash_used_ops": -10918000.0,
+  "capex": 8346000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-08-24",
+  "shares": 61341484
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2021-06-15",
+  "to": "2021-10-13",
+  "trades": [
+   {
+    "date": "2021-10-11",
+    "filed": "2021-10-12",
+    "code": "S",
+    "value": 7808,
+    "who": "Ziebell Mark R"
+   },
+   {
+    "date": "2021-10-11",
+    "filed": "2021-10-12",
+    "code": "S",
+    "value": 17002,
+    "who": "Hart Daniel R"
+   },
+   {
+    "date": "2021-10-11",
+    "filed": "2021-10-12",
+    "code": "S",
+    "value": 62325,
+    "who": "Green Nicholas Stewart"
+   },
+   {
+    "date": "2021-08-02",
+    "filed": "2021-08-03",
+    "code": "S",
+    "value": 477998,
+    "who": "Green Nicholas Stewart"
+   },
+   {
+    "date": "2021-07-12",
+    "filed": "2021-07-13",
+    "code": "S",
+    "value": 135785,
+    "who": "Ziebell Mark R"
+   },
+   {
+    "date": "2021-07-12",
+    "filed": "2021-07-13",
+    "code": "S",
+    "value": 48789,
+    "who": "Ziebell Mark R"
+   },
+   {
+    "date": "2021-07-12",
+    "filed": "2021-07-13",
+    "code": "S",
+    "value": 75783,
+    "who": "Hart Daniel R"
+   },
+   {
+    "date": "2021-07-12",
+    "filed": "2021-07-13",
+    "code": "S",
+    "value": 62745,
+    "who": "Hart Daniel R"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "avid bioservices",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

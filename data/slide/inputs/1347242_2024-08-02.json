@@ -1,0 +1,65 @@
+{
+ "id": "1347242_2024-08-02",
+ "kind": "slide",
+ "cik": "1347242",
+ "name": "LIPELLA PHARMACEUTICALS INC.",
+ "date": "2024-08-02",
+ "asof": "2024-08-02",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-08-02",
+  "adj_close": 5.8416
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 2105299,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001753926-24-000943"
+ },
+ "burn6": {
+  "end": "2024-03-31",
+  "start": "2023-10-01",
+  "cash_used_ops": 2116149.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-05-08",
+  "shares": 7605636
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These factors individually and collectively raise substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2024-05-04",
+  "to": "2024-09-01",
+  "trades": [
+   {
+    "date": "2024-05-14",
+    "filed": "2024-05-15",
+    "code": "P",
+    "value": 7590,
+    "who": "Kaufman Jonathan H"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "lipella pharmaceuticals",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06233591",
+    "drugs": [
+     "LP-10 (Liposomal Tacrolimus)"
+    ]
+   }
+  ]
+ }
+}

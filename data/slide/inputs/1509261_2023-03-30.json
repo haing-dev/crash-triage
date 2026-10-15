@@ -1,0 +1,58 @@
+{
+ "id": "1509261_2023-03-30",
+ "kind": "slide",
+ "cik": "1509261",
+ "name": "Rezolute, Inc.",
+ "date": "2023-03-30",
+ "asof": "2023-03-30",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-03-30",
+  "adj_close": 1.901
+ },
+ "balance": {
+  "end": "2022-12-31",
+  "cash": 146746000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-23-001120"
+ },
+ "burn6": {
+  "end": "2022-12-31",
+  "start": "2022-07-01",
+  "cash_used_ops": 15082000.0,
+  "capex": 153000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-02-06",
+  "shares": 36827567
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2022-12-30",
+  "to": "2023-04-29",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "rezolute",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05712720",
+    "drugs": [
+     "Experimental: Group 1 - 50mg RZ402",
+     "Experimental: Group 2 - 200mg RZ402",
+     "Experimental: Group 3 - 400mg RZ402"
+    ]
+   }
+  ]
+ }
+}

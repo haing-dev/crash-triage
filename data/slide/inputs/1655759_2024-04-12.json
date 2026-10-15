@@ -1,0 +1,102 @@
+{
+ "id": "1655759_2024-04-12",
+ "kind": "slide",
+ "cik": "1655759",
+ "name": "ARVINAS, INC.",
+ "date": "2024-04-12",
+ "asof": "2024-04-12",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-04-12",
+  "adj_close": 36.29
+ },
+ "balance": {
+  "end": "2023-12-31",
+  "cash": 1261000000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001655759-24-000018"
+ },
+ "burn6": {
+  "end": "2023-12-31",
+  "start": "2023-07-01",
+  "cash_used_ops": 167900000.0,
+  "capex": 1200000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-02-20",
+  "shares": 68083928
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2024-01-13",
+  "to": "2024-05-12",
+  "trades": [
+   {
+    "date": "2024-02-23",
+    "filed": "2024-02-27",
+    "code": "S",
+    "value": 244472,
+    "who": "Houston John G"
+   },
+   {
+    "date": "2024-02-23",
+    "filed": "2024-02-27",
+    "code": "S",
+    "value": 80079,
+    "who": "Cassidy Sean A"
+   },
+   {
+    "date": "2024-02-23",
+    "filed": "2024-02-27",
+    "code": "S",
+    "value": 79938,
+    "who": "Peck Ronald"
+   },
+   {
+    "date": "2024-02-23",
+    "filed": "2024-02-27",
+    "code": "S",
+    "value": 80032,
+    "who": "Taylor Ian"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "arvinas",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04072952",
+    "drugs": [
+     "Vepdegestrant",
+     "Vepdegestrant",
+     "Palbociclib"
+    ]
+   },
+   {
+    "nct": "NCT05549505",
+    "drugs": [
+     "ARV-471",
+     "Anastrozole",
+     "Surgical resection of breast tumor"
+    ]
+   },
+   {
+    "nct": "NCT03888612",
+    "drugs": [
+     "ARV-110"
+    ]
+   }
+  ]
+ }
+}

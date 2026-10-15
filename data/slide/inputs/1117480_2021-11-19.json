@@ -1,0 +1,66 @@
+{
+ "id": "1117480_2021-11-19",
+ "kind": "slide",
+ "cik": "1117480",
+ "name": "CHIMERIX INC",
+ "date": "2021-11-19",
+ "asof": "2021-11-19",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-11-19",
+  "adj_close": 5.98
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 124593000,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0001117480-21-000025"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 28011000.0,
+  "capex": 118000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-10-31",
+  "shares": 86862426
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 2,
+  "from": "2021-08-21",
+  "to": "2021-12-19",
+  "trades": [
+   {
+    "date": "2021-09-30",
+    "filed": "2021-09-30",
+    "code": "S",
+    "value": 28412,
+    "who": "Jakeman David"
+   },
+   {
+    "date": "2021-09-14",
+    "filed": "2021-09-16",
+    "code": "S",
+    "value": 37375000,
+    "who": "CANTEX PHARMACEUTICALS, INC."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "chimerix",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

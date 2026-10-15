@@ -1,0 +1,51 @@
+{
+ "id": "764195_2021-04-06",
+ "kind": "slide",
+ "cik": "764195",
+ "name": "VBI Vaccines Inc/BC",
+ "date": "2021-04-06",
+ "asof": "2021-04-06",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-04-06",
+  "adj_close": 88.5
+ },
+ "balance": {
+  "end": "2020-12-31",
+  "cash": 119101000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001493152-21-005171"
+ },
+ "burn6": {
+  "end": "2020-12-31",
+  "start": "2020-07-01",
+  "cash_used_ops": 31595000.0,
+  "capex": 732000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-02-26",
+  "shares": 254004515
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "In its report dated March 2, 2021, EisnerAmper LLP, our independent registered public accounting firm, expressed substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2021-01-06",
+  "to": "2021-05-06",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "vbi vaccines bc",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

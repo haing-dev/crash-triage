@@ -1,0 +1,82 @@
+{
+ "id": "879407_2022-09-14",
+ "kind": "slide",
+ "cik": "879407",
+ "name": "ARROWHEAD PHARMACEUTICALS, INC.",
+ "date": "2022-09-14",
+ "asof": "2022-09-14",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-09-14",
+  "adj_close": 35.27
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 582416000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "HeldToMaturitySecuritiesCurrent",
+   "HeldToMaturitySecuritiesNoncurrent"
+  ],
+  "accn": "0001628280-22-021068"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 6117000.0,
+  "capex": 14288000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-07-28",
+  "shares": 105848963
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2022-06-16",
+  "to": "2022-10-14",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "arrowhead pharmaceuticals",
+  "other_trials": 8,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05083364",
+    "drugs": [
+     "ARO-C3"
+    ]
+   },
+   {
+    "nct": "NCT04998201",
+    "drugs": [
+     "ARO-APOC3"
+    ]
+   },
+   {
+    "nct": "NCT05413135",
+    "drugs": [
+     "ARO-APOC3"
+    ]
+   },
+   {
+    "nct": "NCT05276570",
+    "drugs": [
+     "ARO-RAGE"
+    ]
+   },
+   {
+    "nct": "NCT05217667",
+    "drugs": [
+     "ARO-ANG 3 Injection"
+    ]
+   }
+  ]
+ }
+}

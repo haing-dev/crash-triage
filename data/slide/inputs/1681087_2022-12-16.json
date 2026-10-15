@@ -1,0 +1,49 @@
+{
+ "id": "1681087_2022-12-16",
+ "kind": "slide",
+ "cik": "1681087",
+ "name": "Tectonic Therapeutic, Inc.",
+ "date": "2022-12-16",
+ "asof": "2022-12-16",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-12-16",
+  "adj_close": 9.12
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 115968000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-22-023269"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 45521000.0,
+  "capex": 235000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-11-01",
+  "shares": 43774088
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 7,
+  "from": "2022-09-17",
+  "to": "2023-01-15",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "tectonic therapeutic",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

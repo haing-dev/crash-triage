@@ -1,0 +1,83 @@
+{
+ "id": "1867066_2024-01-02",
+ "kind": "slide",
+ "cik": "1867066",
+ "name": "Journey Medical Corp",
+ "date": "2024-01-02",
+ "asof": "2024-01-02",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-01-02",
+  "adj_close": 5.43
+ },
+ "balance": {
+  "end": "2023-09-30",
+  "cash": 24749000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001410578-23-002335"
+ },
+ "burn6": {
+  "end": "2023-09-30",
+  "start": "2023-04-01",
+  "cash_used_ops": -22716000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": null,
+ "going_concern": {
+  "flag": true,
+  "quote": "There is substantial doubt regarding our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2023-10-04",
+  "to": "2024-02-01",
+  "trades": [
+   {
+    "date": "2023-11-07",
+    "filed": "2023-12-08",
+    "code": "S",
+    "value": 7813,
+    "who": "Paley Jeffrey"
+   },
+   {
+    "date": "2023-11-08",
+    "filed": "2023-12-08",
+    "code": "S",
+    "value": 959,
+    "who": "Paley Jeffrey"
+   },
+   {
+    "date": "2023-11-28",
+    "filed": "2023-11-29",
+    "code": "S",
+    "value": 9109,
+    "who": "Paley Jeffrey"
+   },
+   {
+    "date": "2023-10-13",
+    "filed": "2023-10-17",
+    "code": "P",
+    "value": 98340,
+    "who": "Smith Justin Adam"
+   },
+   {
+    "date": "2023-10-06",
+    "filed": "2023-10-10",
+    "code": "P",
+    "value": 44700,
+    "who": "Paley Jeffrey"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "journey medical",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

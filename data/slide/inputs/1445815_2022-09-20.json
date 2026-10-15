@@ -1,0 +1,50 @@
+{
+ "id": "1445815_2022-09-20",
+ "kind": "slide",
+ "cik": "1445815",
+ "name": "BIOXYTRAN, INC",
+ "date": "2022-09-20",
+ "asof": "2022-09-20",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-09-20",
+  "adj_close": 0.8
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 500677,
+  "parts": [
+   "Cash"
+  ],
+  "accn": "0001493152-22-022572"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 930203.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-08-15",
+  "shares": 111496166
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These conditions raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2022-06-22",
+  "to": "2022-10-20",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "bioxytran",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

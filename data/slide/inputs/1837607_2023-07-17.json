@@ -1,0 +1,74 @@
+{
+ "id": "1837607_2023-07-17",
+ "kind": "slide",
+ "cik": "1837607",
+ "name": "AEON Biopharma, Inc.",
+ "date": "2023-07-17",
+ "asof": "2023-07-17",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-07-17",
+  "adj_close": 546.47998
+ },
+ "balance": {
+  "end": "2023-03-31",
+  "cash": 457085,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0001104659-23-061821"
+ },
+ "burn6": {
+  "end": "2023-03-31",
+  "start": "2022-10-01",
+  "cash_used_ops": 794206.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": null,
+ "going_concern": {
+  "flag": true,
+  "quote": "In connection with the Company\u2019s assessment of going concern considerations in accordance with FASB ASC Topic 205-40, \u201cPresentation of Financial Statements\u2013 Going Concern,\u201d Management has determined that the liquidity condition and mandatory liquidation, should a Business Combination not occur, and "
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2023-04-18",
+  "to": "2023-08-16",
+  "trades": [
+   {
+    "date": "2023-08-11",
+    "filed": "2023-08-14",
+    "code": "S",
+    "value": 73803940,
+    "who": "Strathspey Crown Holdings Group, LLC"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "aeon biopharma",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04845178",
+    "drugs": [
+     "ABP-450"
+    ]
+   },
+   {
+    "nct": "NCT04871451",
+    "drugs": [
+     "ABP-450"
+    ]
+   },
+   {
+    "nct": "NCT05016661",
+    "drugs": [
+     "ABP-450"
+    ]
+   }
+  ]
+ }
+}

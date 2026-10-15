@@ -1,0 +1,143 @@
+{
+ "id": "1805387_2023-11-08",
+ "kind": "slide",
+ "cik": "1805387",
+ "name": "Cerevel Therapeutics Holdings, Inc.",
+ "date": "2023-11-08",
+ "asof": "2023-11-08",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-11-08",
+  "adj_close": 24.47
+ },
+ "balance": {
+  "end": "2023-09-30",
+  "cash": 758222000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0000950170-23-057422"
+ },
+ "burn6": {
+  "end": "2023-09-30",
+  "start": "2023-04-01",
+  "cash_used_ops": 149958000.0,
+  "capex": 2570000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-10-27",
+  "shares": 180278078
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 10,
+  "from": "2023-08-10",
+  "to": "2023-12-08",
+  "trades": [
+   {
+    "date": "2023-12-05",
+    "filed": "2023-12-07",
+    "code": "S",
+    "value": 262500,
+    "who": "Akamine Scott"
+   },
+   {
+    "date": "2023-12-07",
+    "filed": "2023-12-07",
+    "code": "S",
+    "value": 413700,
+    "who": "Akamine Scott"
+   },
+   {
+    "date": "2023-11-14",
+    "filed": "2023-11-16",
+    "code": "S",
+    "value": 573455,
+    "who": "COLES N ANTHONY"
+   },
+   {
+    "date": "2023-11-07",
+    "filed": "2023-11-09",
+    "code": "S",
+    "value": 677555,
+    "who": "COLES N ANTHONY"
+   },
+   {
+    "date": "2023-11-08",
+    "filed": "2023-11-09",
+    "code": "S",
+    "value": 2516,
+    "who": "COLES N ANTHONY"
+   },
+   {
+    "date": "2023-11-02",
+    "filed": "2023-11-06",
+    "code": "S",
+    "value": 972239,
+    "who": "COLES N ANTHONY"
+   },
+   {
+    "date": "2023-11-03",
+    "filed": "2023-11-06",
+    "code": "S",
+    "value": 1561458,
+    "who": "COLES N ANTHONY"
+   },
+   {
+    "date": "2023-11-01",
+    "filed": "2023-11-03",
+    "code": "S",
+    "value": 753250,
+    "who": "PATRICK DEVAL L"
+   },
+   {
+    "date": "2023-10-16",
+    "filed": "2023-10-18",
+    "code": "P",
+    "value": 124999986,
+    "who": "Gordon Christopher R"
+   },
+   {
+    "date": "2023-10-16",
+    "filed": "2023-10-18",
+    "code": "P",
+    "value": 124999986,
+    "who": "Koppel Adam"
+   },
+   {
+    "date": "2023-10-16",
+    "filed": "2023-10-18",
+    "code": "P",
+    "value": 124999986,
+    "who": "BAIN CAPITAL INVESTORS LLC"
+   },
+   {
+    "date": "2023-10-16",
+    "filed": "2023-10-17",
+    "code": "P",
+    "value": 19999990,
+    "who": "PERCEPTIVE ADVISORS LLC"
+   },
+   {
+    "date": "2023-09-07",
+    "filed": "2023-09-08",
+    "code": "S",
+    "value": 1203415,
+    "who": "COLES N ANTHONY"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "cerevel therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

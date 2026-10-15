@@ -1,0 +1,156 @@
+{
+ "id": "1326732_2024-04-19",
+ "kind": "slide",
+ "cik": "1326732",
+ "name": "Xencor Inc",
+ "date": "2024-04-19",
+ "asof": "2024-04-19",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-04-19",
+  "adj_close": 18.38
+ },
+ "balance": {
+  "end": "2023-12-31",
+  "cash": 53790000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001326732-24-000006"
+ },
+ "burn6": {
+  "end": "2023-12-31",
+  "start": "2023-07-01",
+  "cash_used_ops": -153925000.0,
+  "capex": 3812000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-02-15",
+  "shares": 61120272
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 15,
+  "from": "2024-01-20",
+  "to": "2024-05-19",
+  "trades": [
+   {
+    "date": "2024-05-02",
+    "filed": "2024-05-03",
+    "code": "S",
+    "value": 111872,
+    "who": "Valente Nancy"
+   },
+   {
+    "date": "2024-03-11",
+    "filed": "2024-03-12",
+    "code": "S",
+    "value": 19953,
+    "who": "Kuch John J"
+   },
+   {
+    "date": "2024-03-11",
+    "filed": "2024-03-12",
+    "code": "S",
+    "value": 19977,
+    "who": "Eckert Celia"
+   },
+   {
+    "date": "2024-03-11",
+    "filed": "2024-03-12",
+    "code": "S",
+    "value": 30082,
+    "who": "Desjarlais John R"
+   },
+   {
+    "date": "2024-03-11",
+    "filed": "2024-03-12",
+    "code": "S",
+    "value": 64418,
+    "who": "Dahiyat Bassil I"
+   },
+   {
+    "date": "2024-03-06",
+    "filed": "2024-03-07",
+    "code": "S",
+    "value": 324453,
+    "who": "GUSTAFSON KURT A"
+   },
+   {
+    "date": "2024-03-05",
+    "filed": "2024-03-07",
+    "code": "S",
+    "value": 104821,
+    "who": "Kuch John J"
+   },
+   {
+    "date": "2024-03-05",
+    "filed": "2024-03-07",
+    "code": "S",
+    "value": 155311,
+    "who": "Desjarlais John R"
+   },
+   {
+    "date": "2024-03-05",
+    "filed": "2024-03-07",
+    "code": "S",
+    "value": 91186,
+    "who": "Eckert Celia"
+   },
+   {
+    "date": "2024-03-05",
+    "filed": "2024-03-07",
+    "code": "S",
+    "value": 293519,
+    "who": "Dahiyat Bassil I"
+   },
+   {
+    "date": "2024-02-13",
+    "filed": "2024-02-15",
+    "code": "P",
+    "value": 1013,
+    "who": "GORMAN KEVIN CHARLES"
+   },
+   {
+    "date": "2024-02-13",
+    "filed": "2024-02-14",
+    "code": "S",
+    "value": 1048743,
+    "who": "Desjarlais John R"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "xencor",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06173505",
+    "drugs": [
+     "Vudalimab + Carboplatin + Pemetrexed",
+     "Pembrolizumab + Carboplatin + Pemetrexed"
+    ]
+   },
+   {
+    "nct": "NCT05005728",
+    "drugs": [
+     "vudalimab + carboplatin + cabazitaxel",
+     "vudalimab + olaparib",
+     "vudalimab monotherapy"
+    ]
+   },
+   {
+    "nct": "NCT05032040",
+    "drugs": [
+     "vudalimab"
+    ]
+   }
+  ]
+ }
+}

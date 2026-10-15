@@ -1,0 +1,105 @@
+{
+ "id": "1785173_2024-12-19",
+ "kind": "slide",
+ "cik": "1785173",
+ "name": "89bio, Inc.",
+ "date": "2024-12-19",
+ "asof": "2024-12-19",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-12-19",
+  "adj_close": 7.03
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 423774000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-24-123429"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": 206523000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-10-31",
+  "shares": 106126338
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 9,
+  "from": "2024-09-20",
+  "to": "2025-01-18",
+  "trades": [
+   {
+    "date": "2025-01-15",
+    "filed": "2025-01-17",
+    "code": "S",
+    "value": 71150,
+    "who": "Le-Nguyen Quoc"
+   },
+   {
+    "date": "2024-12-06",
+    "filed": "2024-12-10",
+    "code": "P",
+    "value": 39450,
+    "who": "PALEKAR ROHAN"
+   },
+   {
+    "date": "2024-12-05",
+    "filed": "2024-12-09",
+    "code": "P",
+    "value": 80000,
+    "who": "McWherter Charles"
+   },
+   {
+    "date": "2024-11-22",
+    "filed": "2024-11-25",
+    "code": "P",
+    "value": 83500,
+    "who": "PALEKAR ROHAN"
+   },
+   {
+    "date": "2024-10-30",
+    "filed": "2024-11-01",
+    "code": "S",
+    "value": 226995,
+    "who": "Le-Nguyen Quoc"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "89bio",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06419374",
+    "drugs": [
+     "Pegozafermin"
+    ]
+   },
+   {
+    "nct": "NCT06318169",
+    "drugs": [
+     "Pegozafermin"
+    ]
+   },
+   {
+    "nct": "NCT05852431",
+    "drugs": [
+     "Pegozafermin"
+    ]
+   }
+  ]
+ }
+}

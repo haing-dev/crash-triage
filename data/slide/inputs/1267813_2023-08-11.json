@@ -1,0 +1,146 @@
+{
+ "id": "1267813_2023-08-11",
+ "kind": "slide",
+ "cik": "1267813",
+ "name": "MARINUS PHARMACEUTICALS, INC.",
+ "date": "2023-08-11",
+ "asof": "2023-08-11",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-08-11",
+  "adj_close": 6.82
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 175336000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001558370-23-014408"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 65836000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-08-07",
+  "shares": 50610329
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2023-05-13",
+  "to": "2023-09-10",
+  "trades": [
+   {
+    "date": "2023-08-07",
+    "filed": "2023-08-08",
+    "code": "S",
+    "value": 22705,
+    "who": "Shafer Christina"
+   },
+   {
+    "date": "2023-08-08",
+    "filed": "2023-08-08",
+    "code": "S",
+    "value": 98,
+    "who": "Shafer Christina"
+   },
+   {
+    "date": "2023-08-07",
+    "filed": "2023-08-08",
+    "code": "S",
+    "value": 61244,
+    "who": "Braunstein Scott"
+   },
+   {
+    "date": "2023-08-08",
+    "filed": "2023-08-08",
+    "code": "S",
+    "value": 268,
+    "who": "Braunstein Scott"
+   },
+   {
+    "date": "2023-08-07",
+    "filed": "2023-08-08",
+    "code": "S",
+    "value": 26617,
+    "who": "Pfanstiel Steven"
+   },
+   {
+    "date": "2023-08-08",
+    "filed": "2023-08-08",
+    "code": "S",
+    "value": 125,
+    "who": "Pfanstiel Steven"
+   },
+   {
+    "date": "2023-08-07",
+    "filed": "2023-08-08",
+    "code": "S",
+    "value": 20692,
+    "who": "MANNING MARTHA E"
+   },
+   {
+    "date": "2023-08-08",
+    "filed": "2023-08-08",
+    "code": "S",
+    "value": 98,
+    "who": "MANNING MARTHA E"
+   },
+   {
+    "date": "2023-08-07",
+    "filed": "2023-08-08",
+    "code": "S",
+    "value": 27590,
+    "who": "Hulihan Joseph"
+   },
+   {
+    "date": "2023-08-08",
+    "filed": "2023-08-08",
+    "code": "S",
+    "value": 116,
+    "who": "Hulihan Joseph"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "marinus pharmaceuticals",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04391569",
+    "drugs": [
+     "Ganaxolone"
+    ]
+   },
+   {
+    "nct": "NCT05323734",
+    "drugs": [
+     "Ganaxolone"
+    ]
+   },
+   {
+    "nct": "NCT05604170",
+    "drugs": [
+     "Ganaxolone"
+    ]
+   },
+   {
+    "nct": "NCT05757544",
+    "drugs": [
+     "IV Ganaxolone"
+    ]
+   }
+  ]
+ }
+}

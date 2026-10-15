@@ -1,0 +1,50 @@
+{
+ "id": "2022626_2026-02-11",
+ "kind": "crash",
+ "cik": "2022626",
+ "name": "Upstream Bio, Inc.",
+ "date": "2026-02-11",
+ "asof": "2026-02-11",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-02-11",
+  "adj_close": 14.69
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 372427000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001193125-25-265713"
+ },
+ "burn6": {
+  "end": "2025-09-30",
+  "start": "2025-04-01",
+  "cash_used_ops": 61479000.0,
+  "capex": 74533.23529411765,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-11-03",
+  "shares": 54038591
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2025-11-13",
+  "to": "2026-03-13",
+  "trades": []
+ },
+ "drug": "verekitug",
+ "trials": {
+  "query": "upstream bio",
+  "other_trials": 0,
+  "crashed_drug_trials": 2,
+  "examples": []
+ }
+}

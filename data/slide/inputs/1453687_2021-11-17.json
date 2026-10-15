@@ -1,0 +1,190 @@
+{
+ "id": "1453687_2021-11-17",
+ "kind": "slide",
+ "cik": "1453687",
+ "name": "Cartesian Therapeutics, Inc.",
+ "date": "2021-11-17",
+ "asof": "2021-11-17",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-11-17",
+  "adj_close": 103.2
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 138663000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001453687-21-000156"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 16789000.0,
+  "capex": 782000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-11-05",
+  "shares": 116648919
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 27,
+  "from": "2021-08-19",
+  "to": "2021-12-17",
+  "trades": [
+   {
+    "date": "2021-12-15",
+    "filed": "2021-12-17",
+    "code": "P",
+    "value": 631099,
+    "who": "SPRINGER TIMOTHY A"
+   },
+   {
+    "date": "2021-12-10",
+    "filed": "2021-12-14",
+    "code": "S",
+    "value": 12196,
+    "who": "TRABER PETER G"
+   },
+   {
+    "date": "2021-12-10",
+    "filed": "2021-12-14",
+    "code": "S",
+    "value": 13053,
+    "who": "Kishimoto Takashi Kei"
+   },
+   {
+    "date": "2021-12-10",
+    "filed": "2021-12-14",
+    "code": "S",
+    "value": 13053,
+    "who": "Johnston Lloyd P."
+   },
+   {
+    "date": "2021-12-10",
+    "filed": "2021-12-14",
+    "code": "S",
+    "value": 51363,
+    "who": "Brunn Carsten"
+   },
+   {
+    "date": "2021-12-09",
+    "filed": "2021-12-13",
+    "code": "P",
+    "value": 11468880,
+    "who": "SPRINGER TIMOTHY A"
+   },
+   {
+    "date": "2021-12-10",
+    "filed": "2021-12-13",
+    "code": "P",
+    "value": 175439,
+    "who": "SPRINGER TIMOTHY A"
+   },
+   {
+    "date": "2021-12-13",
+    "filed": "2021-12-13",
+    "code": "P",
+    "value": 43491,
+    "who": "SPRINGER TIMOTHY A"
+   },
+   {
+    "date": "2021-12-02",
+    "filed": "2021-12-06",
+    "code": "P",
+    "value": 15126,
+    "who": "Tan Kevin"
+   },
+   {
+    "date": "2021-12-02",
+    "filed": "2021-12-06",
+    "code": "P",
+    "value": 20723,
+    "who": "DeSilva Nishan M"
+   },
+   {
+    "date": "2021-12-03",
+    "filed": "2021-12-06",
+    "code": "P",
+    "value": 50664,
+    "who": "COX CARRIE SMITH"
+   },
+   {
+    "date": "2021-12-02",
+    "filed": "2021-12-03",
+    "code": "S",
+    "value": 14065,
+    "who": "Brunn Carsten"
+   },
+   {
+    "date": "2021-10-13",
+    "filed": "2021-10-15",
+    "code": "S",
+    "value": 15962,
+    "who": "TRABER PETER G"
+   },
+   {
+    "date": "2021-10-13",
+    "filed": "2021-10-15",
+    "code": "S",
+    "value": 17086,
+    "who": "Kishimoto Takashi Kei"
+   },
+   {
+    "date": "2021-10-13",
+    "filed": "2021-10-15",
+    "code": "S",
+    "value": 17086,
+    "who": "Johnston Lloyd P."
+   },
+   {
+    "date": "2021-10-13",
+    "filed": "2021-10-15",
+    "code": "S",
+    "value": 67224,
+    "who": "Brunn Carsten"
+   },
+   {
+    "date": "2021-09-02",
+    "filed": "2021-09-03",
+    "code": "S",
+    "value": 20399,
+    "who": "Brunn Carsten"
+   },
+   {
+    "date": "2021-08-18",
+    "filed": "2021-08-20",
+    "code": "P",
+    "value": 36000,
+    "who": "BARABE TIMOTHY C"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "cartesian therapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04436029",
+    "drugs": [
+     "Descartes 11"
+    ]
+   },
+   {
+    "nct": "NCT04146051",
+    "drugs": [
+     "Descartes-08"
+    ]
+   }
+  ]
+ }
+}

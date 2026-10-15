@@ -1,0 +1,70 @@
+{
+ "id": "1157601_2023-06-27",
+ "kind": "slide",
+ "cik": "1157601",
+ "name": "MADRIGAL PHARMACEUTICALS, INC.",
+ "date": "2023-06-27",
+ "asof": "2023-06-27",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-06-27",
+  "adj_close": 203.88
+ },
+ "balance": {
+  "end": "2023-03-31",
+  "cash": 329477000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001193125-23-138863"
+ },
+ "burn6": {
+  "end": "2023-03-31",
+  "start": "2022-10-01",
+  "cash_used_ops": 142582000.0,
+  "capex": 64000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-05-05",
+  "shares": 18289173
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2023-03-29",
+  "to": "2023-07-27",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "madrigal pharmaceuticals",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05500222",
+    "drugs": [
+     "Resmetirom"
+    ]
+   },
+   {
+    "nct": "NCT03900429",
+    "drugs": [
+     "MGL-3196",
+     "Liver Biopsy"
+    ]
+   },
+   {
+    "nct": "NCT04951219",
+    "drugs": [
+     "Resmetirom"
+    ]
+   }
+  ]
+ }
+}

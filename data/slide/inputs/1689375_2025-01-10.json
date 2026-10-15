@@ -1,0 +1,169 @@
+{
+ "id": "1689375_2025-01-10",
+ "kind": "slide",
+ "cik": "1689375",
+ "name": "Entrada Therapeutics, Inc.",
+ "date": "2025-01-10",
+ "asof": "2025-01-10",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-01-10",
+  "adj_close": 14.65
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 78049000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001689375-24-000063"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": -15567000.0,
+  "capex": 1685000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-10-31",
+  "shares": 37419975
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2024-10-12",
+  "to": "2025-02-09",
+  "trades": [
+   {
+    "date": "2024-12-10",
+    "filed": "2024-12-12",
+    "code": "S",
+    "value": 476360,
+    "who": "MPM BIOVENTURES 2018, L.P."
+   },
+   {
+    "date": "2024-12-11",
+    "filed": "2024-12-12",
+    "code": "S",
+    "value": 440751,
+    "who": "MPM BIOVENTURES 2018, L.P."
+   },
+   {
+    "date": "2024-12-10",
+    "filed": "2024-12-12",
+    "code": "S",
+    "value": 476360,
+    "who": "MPM BioVentures 2014, L.P."
+   },
+   {
+    "date": "2024-12-11",
+    "filed": "2024-12-12",
+    "code": "S",
+    "value": 440751,
+    "who": "MPM BioVentures 2014, L.P."
+   },
+   {
+    "date": "2024-11-29",
+    "filed": "2024-12-03",
+    "code": "S",
+    "value": 19970,
+    "who": "WENTWORTH KORY JAMES"
+   },
+   {
+    "date": "2024-12-02",
+    "filed": "2024-12-03",
+    "code": "S",
+    "value": 99978,
+    "who": "WENTWORTH KORY JAMES"
+   },
+   {
+    "date": "2024-11-29",
+    "filed": "2024-12-03",
+    "code": "S",
+    "value": 2000,
+    "who": "Sethuraman Natarajan"
+   },
+   {
+    "date": "2024-12-02",
+    "filed": "2024-12-03",
+    "code": "S",
+    "value": 82834,
+    "who": "Sethuraman Natarajan"
+   },
+   {
+    "date": "2024-12-03",
+    "filed": "2024-12-03",
+    "code": "S",
+    "value": 235786,
+    "who": "Sethuraman Natarajan"
+   },
+   {
+    "date": "2024-11-11",
+    "filed": "2024-11-13",
+    "code": "S",
+    "value": 28191,
+    "who": "Sethuraman Natarajan"
+   },
+   {
+    "date": "2024-11-13",
+    "filed": "2024-11-13",
+    "code": "S",
+    "value": 54109,
+    "who": "Sethuraman Natarajan"
+   },
+   {
+    "date": "2024-11-11",
+    "filed": "2024-11-13",
+    "code": "S",
+    "value": 172562,
+    "who": "WENTWORTH KORY JAMES"
+   },
+   {
+    "date": "2024-11-04",
+    "filed": "2024-11-06",
+    "code": "S",
+    "value": 13498,
+    "who": "Sethuraman Natarajan"
+   },
+   {
+    "date": "2024-11-05",
+    "filed": "2024-11-06",
+    "code": "S",
+    "value": 94006,
+    "who": "Sethuraman Natarajan"
+   },
+   {
+    "date": "2024-11-06",
+    "filed": "2024-11-06",
+    "code": "S",
+    "value": 178752,
+    "who": "Sethuraman Natarajan"
+   },
+   {
+    "date": "2024-11-06",
+    "filed": "2024-11-06",
+    "code": "S",
+    "value": 53024,
+    "who": "Sethuraman Natarajan"
+   },
+   {
+    "date": "2024-10-16",
+    "filed": "2024-10-18",
+    "code": "S",
+    "value": 10800,
+    "who": "Sethuraman Natarajan"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "entrada therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

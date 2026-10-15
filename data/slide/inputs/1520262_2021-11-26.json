@@ -1,0 +1,70 @@
+{
+ "id": "1520262_2021-11-26",
+ "kind": "slide",
+ "cik": "1520262",
+ "name": "Alkermes plc.",
+ "date": "2021-11-26",
+ "asof": "2021-11-26",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-11-26",
+  "adj_close": 22.47
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 560300000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001564590-21-052176"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": -115840000.0,
+  "capex": 11373000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-10-22",
+  "shares": 161705367
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 15,
+  "from": "2021-08-28",
+  "to": "2021-12-26",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "alkermes",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04987229",
+    "drugs": [
+     "OLZ/SAM"
+    ]
+   },
+   {
+    "nct": "NCT03187769",
+    "drugs": [
+     "ALKS 3831",
+     "Olanzapine"
+    ]
+   },
+   {
+    "nct": "NCT03201757",
+    "drugs": [
+     "ALKS 3831"
+    ]
+   }
+  ]
+ }
+}

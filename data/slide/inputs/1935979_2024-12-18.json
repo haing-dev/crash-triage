@@ -1,0 +1,115 @@
+{
+ "id": "1935979_2024-12-18",
+ "kind": "slide",
+ "cik": "1935979",
+ "name": "Biohaven Ltd.",
+ "date": "2024-12-18",
+ "asof": "2024-12-18",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-12-18",
+  "adj_close": 36.0
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 378816000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001935979-24-000085"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": 309074000.0,
+  "capex": 3560000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-11-08",
+  "shares": 101122246
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 9,
+  "from": "2024-09-19",
+  "to": "2025-01-17",
+  "trades": [
+   {
+    "date": "2024-12-30",
+    "filed": "2024-12-31",
+    "code": "P",
+    "value": 1042393,
+    "who": "CHILDS JOHN W"
+   },
+   {
+    "date": "2024-10-02",
+    "filed": "2024-10-03",
+    "code": "P",
+    "value": 999970,
+    "who": "CHILDS JOHN W"
+   },
+   {
+    "date": "2024-10-02",
+    "filed": "2024-10-03",
+    "code": "P",
+    "value": 999970,
+    "who": "Coric Vlad"
+   },
+   {
+    "date": "2024-09-24",
+    "filed": "2024-09-25",
+    "code": "P",
+    "value": 220966,
+    "who": "Bailey Gregory"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "biohaven",
+  "other_trials": 13,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06309966",
+    "drugs": [
+     "BHV-7000",
+     "BHV-7000"
+    ]
+   },
+   {
+    "nct": "NCT06603623",
+    "drugs": [
+     "BHV-2100",
+     "BHV-2100"
+    ]
+   },
+   {
+    "nct": "NCT06425159",
+    "drugs": [
+     "BHV-7000"
+    ]
+   },
+   {
+    "nct": "NCT06132893",
+    "drugs": [
+     "BHV-7000",
+     "BHV-7000",
+     "BHV-7000"
+    ]
+   },
+   {
+    "nct": "NCT06443463",
+    "drugs": [
+     "BHV-7000",
+     "BHV-7000"
+    ]
+   }
+  ]
+ }
+}

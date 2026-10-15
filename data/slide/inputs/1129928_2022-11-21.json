@@ -1,0 +1,43 @@
+{
+ "id": "1129928_2022-11-21",
+ "kind": "slide",
+ "cik": "1129928",
+ "name": "ONCOLYTICS BIOTECH INC",
+ "date": "2022-11-21",
+ "asof": "2022-11-21",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-11-21",
+  "adj_close": 1.35
+ },
+ "balance": null,
+ "burn6": null,
+ "shares": {
+  "end": "2021-12-31",
+  "shares": 55043789
+ },
+ "going_concern": null,
+ "insiders": {
+  "form4s": 0,
+  "from": "2022-08-23",
+  "to": "2022-12-21",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "oncolytics biotech",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT07280377",
+    "drugs": [
+     "Pelareorep",
+     "Atezolizumab",
+     "Gemcitabine and nab-paclitaxel"
+    ]
+   }
+  ]
+ }
+}

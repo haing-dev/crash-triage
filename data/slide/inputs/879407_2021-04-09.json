@@ -1,0 +1,148 @@
+{
+ "id": "879407_2021-04-09",
+ "kind": "slide",
+ "cik": "879407",
+ "name": "ARROWHEAD PHARMACEUTICALS, INC.",
+ "date": "2021-04-09",
+ "asof": "2021-04-09",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-04-09",
+  "adj_close": 62.15
+ },
+ "balance": {
+  "end": "2020-12-31",
+  "cash": 336788000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent",
+   "HeldToMaturitySecuritiesNoncurrent"
+  ],
+  "accn": "0001564590-21-004319"
+ },
+ "burn6": {
+  "end": "2020-12-31",
+  "start": "2020-07-01",
+  "cash_used_ops": 49772025.0,
+  "capex": 6155352.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-02-01",
+  "shares": 103792410
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2021-01-09",
+  "to": "2021-05-09",
+  "trades": [
+   {
+    "date": "2021-02-22",
+    "filed": "2021-02-24",
+    "code": "S",
+    "value": 99821,
+    "who": "GIVEN DOUGLAS B"
+   },
+   {
+    "date": "2021-02-08",
+    "filed": "2021-02-10",
+    "code": "S",
+    "value": 690378,
+    "who": "O'Brien Patrick"
+   },
+   {
+    "date": "2021-02-08",
+    "filed": "2021-02-10",
+    "code": "S",
+    "value": 2752940,
+    "who": "O'Brien Patrick"
+   },
+   {
+    "date": "2021-02-08",
+    "filed": "2021-02-10",
+    "code": "S",
+    "value": 4030530,
+    "who": "O'Brien Patrick"
+   },
+   {
+    "date": "2021-02-08",
+    "filed": "2021-02-10",
+    "code": "S",
+    "value": 487392,
+    "who": "O'Brien Patrick"
+   },
+   {
+    "date": "2021-01-15",
+    "filed": "2021-01-19",
+    "code": "S",
+    "value": 249840,
+    "who": "GIVEN DOUGLAS B"
+   },
+   {
+    "date": "2021-01-14",
+    "filed": "2021-01-15",
+    "code": "S",
+    "value": 500880,
+    "who": "Hamilton James C"
+   },
+   {
+    "date": "2021-01-14",
+    "filed": "2021-01-15",
+    "code": "S",
+    "value": 312061,
+    "who": "Hamilton James C"
+   },
+   {
+    "date": "2021-01-11",
+    "filed": "2021-01-12",
+    "code": "S",
+    "value": 939589,
+    "who": "Myszkowski Kenneth Allen"
+   },
+   {
+    "date": "2021-01-12",
+    "filed": "2021-01-12",
+    "code": "S",
+    "value": 116721,
+    "who": "Myszkowski Kenneth Allen"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "arrowhead pharmaceuticals",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04202354",
+    "drugs": [
+     "ARO-HSD Injection",
+     "sterile normal saline (0.9% NaCl)"
+    ]
+   },
+   {
+    "nct": "NCT03945292",
+    "drugs": [
+     "Fazisiran Injection"
+    ]
+   },
+   {
+    "nct": "NCT03946449",
+    "drugs": [
+     "ARO-AAT"
+    ]
+   },
+   {
+    "nct": "NCT04375514",
+    "drugs": [
+     "ARO-ENaC"
+    ]
+   }
+  ]
+ }
+}

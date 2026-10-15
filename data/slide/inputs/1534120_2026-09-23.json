@@ -1,0 +1,135 @@
+{
+ "id": "1534120_2026-09-23",
+ "kind": "slide",
+ "cik": "1534120",
+ "name": "Avalo Therapeutics, Inc.",
+ "date": "2026-09-23",
+ "asof": "2026-09-23",
+ "final": false,
+ "version": 5,
+ "price": {
+  "date": "2026-09-23",
+  "adj_close": 15.3
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 400276000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001534120-26-000049"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": 37679000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-08-03",
+  "shares": 53629989
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 17,
+  "from": "2026-06-25",
+  "to": "2026-10-15",
+  "trades": [
+   {
+    "date": "2026-09-16",
+    "filed": "2026-09-18",
+    "code": "S",
+    "value": 202437,
+    "who": "Sullivan Christopher Ryan"
+   },
+   {
+    "date": "2026-09-10",
+    "filed": "2026-09-11",
+    "code": "S",
+    "value": 179457,
+    "who": "Sullivan Christopher Ryan"
+   },
+   {
+    "date": "2026-08-28",
+    "filed": "2026-09-01",
+    "code": "S",
+    "value": 13580,
+    "who": "Doyle Mittie"
+   },
+   {
+    "date": "2026-08-17",
+    "filed": "2026-08-19",
+    "code": "S",
+    "value": 753333,
+    "who": "Sullivan Christopher Ryan"
+   },
+   {
+    "date": "2026-08-17",
+    "filed": "2026-08-19",
+    "code": "S",
+    "value": 74762,
+    "who": "Sullivan Christopher Ryan"
+   },
+   {
+    "date": "2026-08-18",
+    "filed": "2026-08-19",
+    "code": "S",
+    "value": 622324,
+    "who": "Sullivan Christopher Ryan"
+   },
+   {
+    "date": "2026-08-17",
+    "filed": "2026-08-19",
+    "code": "S",
+    "value": 20000,
+    "who": "Doyle Mittie"
+   },
+   {
+    "date": "2026-08-11",
+    "filed": "2026-08-12",
+    "code": "S",
+    "value": 52012,
+    "who": "Riley Jennifer"
+   },
+   {
+    "date": "2026-08-10",
+    "filed": "2026-08-12",
+    "code": "S",
+    "value": 13580,
+    "who": "Doyle Mittie"
+   },
+   {
+    "date": "2026-07-27",
+    "filed": "2026-07-29",
+    "code": "S",
+    "value": 20000,
+    "who": "Doyle Mittie"
+   },
+   {
+    "date": "2026-06-30",
+    "filed": "2026-07-02",
+    "code": "S",
+    "value": 93080,
+    "who": "Doyle Mittie"
+   },
+   {
+    "date": "2026-06-23",
+    "filed": "2026-06-25",
+    "code": "S",
+    "value": 26100,
+    "who": "Doyle Mittie"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "avalo therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

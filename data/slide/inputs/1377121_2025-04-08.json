@@ -1,0 +1,122 @@
+{
+ "id": "1377121_2025-04-08",
+ "kind": "slide",
+ "cik": "1377121",
+ "name": "Protagonist Therapeutics, Inc",
+ "date": "2025-04-08",
+ "asof": "2025-04-08",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-04-08",
+  "adj_close": 41.67
+ },
+ "balance": {
+  "end": "2024-12-31",
+  "cash": 559165000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent",
+   "MarketableSecuritiesNoncurrent"
+  ],
+  "accn": "0001558370-25-001317"
+ },
+ "burn6": {
+  "end": "2024-12-31",
+  "start": "2024-07-01",
+  "cash_used_ops": 57041000.0,
+  "capex": 1085000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-02-19",
+  "shares": 61384289
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 10,
+  "from": "2025-01-08",
+  "to": "2025-05-08",
+  "trades": [
+   {
+    "date": "2025-04-22",
+    "filed": "2025-04-23",
+    "code": "S",
+    "value": 80776,
+    "who": "Ali Asif"
+   },
+   {
+    "date": "2025-03-17",
+    "filed": "2025-03-19",
+    "code": "S",
+    "value": 217000,
+    "who": "Waddill William D."
+   },
+   {
+    "date": "2025-03-13",
+    "filed": "2025-03-14",
+    "code": "S",
+    "value": 1700850,
+    "who": "MOLINA ARTURO MD"
+   },
+   {
+    "date": "2025-03-12",
+    "filed": "2025-03-14",
+    "code": "S",
+    "value": 1462553,
+    "who": "Ali Asif"
+   },
+   {
+    "date": "2025-02-19",
+    "filed": "2025-02-20",
+    "code": "S",
+    "value": 204607,
+    "who": "PATEL DINESH V PH D"
+   },
+   {
+    "date": "2025-01-16",
+    "filed": "2025-01-17",
+    "code": "S",
+    "value": 0,
+    "who": "MOLINA ARTURO MD"
+   },
+   {
+    "date": "2025-01-16",
+    "filed": "2025-01-17",
+    "code": "S",
+    "value": 0,
+    "who": "MOLINA ARTURO MD"
+   },
+   {
+    "date": "2025-01-16",
+    "filed": "2025-01-17",
+    "code": "S",
+    "value": 0,
+    "who": "Ali Asif"
+   },
+   {
+    "date": "2025-01-16",
+    "filed": "2025-01-17",
+    "code": "S",
+    "value": 0,
+    "who": "Ali Asif"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "protagonist therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06033586",
+    "drugs": [
+     "Open-label rusfertide"
+    ]
+   }
+  ]
+ }
+}

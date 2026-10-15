@@ -1,0 +1,104 @@
+{
+ "id": "879407_2023-08-08",
+ "kind": "slide",
+ "cik": "879407",
+ "name": "ARROWHEAD PHARMACEUTICALS, INC.",
+ "date": "2023-08-08",
+ "asof": "2023-08-08",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-08-08",
+  "adj_close": 27.49
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 494427000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "HeldToMaturitySecuritiesCurrent",
+   "HeldToMaturitySecuritiesNoncurrent"
+  ],
+  "accn": "0001628280-23-027771"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 53117000.0,
+  "capex": 73919000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-07-31",
+  "shares": 107192901
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2023-05-10",
+  "to": "2023-09-07",
+  "trades": [
+   {
+    "date": "2023-07-03",
+    "filed": "2023-07-06",
+    "code": "S",
+    "value": 315142,
+    "who": "Oliver Tracie"
+   },
+   {
+    "date": "2023-06-30",
+    "filed": "2023-07-05",
+    "code": "S",
+    "value": 106590,
+    "who": "Hamilton James C"
+   },
+   {
+    "date": "2023-06-27",
+    "filed": "2023-06-29",
+    "code": "S",
+    "value": 543000,
+    "who": "Myszkowski Kenneth Allen"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "arrowhead pharmaceuticals",
+  "other_trials": 6,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05083364",
+    "drugs": [
+     "ARO-C3"
+    ]
+   },
+   {
+    "nct": "NCT05413135",
+    "drugs": [
+     "ARO-APOC3"
+    ]
+   },
+   {
+    "nct": "NCT05276570",
+    "drugs": [
+     "ARO-RAGE"
+    ]
+   },
+   {
+    "nct": "NCT05089084",
+    "drugs": [
+     "Plozasiran"
+    ]
+   },
+   {
+    "nct": "NCT05537025",
+    "drugs": [
+     "ARO-MMP7 Inhalation Solution"
+    ]
+   }
+  ]
+ }
+}

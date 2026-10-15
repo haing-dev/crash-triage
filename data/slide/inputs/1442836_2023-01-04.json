@@ -1,0 +1,119 @@
+{
+ "id": "1442836_2023-01-04",
+ "kind": "slide",
+ "cik": "1442836",
+ "name": "Mersana Therapeutics, Inc.",
+ "date": "2023-01-04",
+ "asof": "2023-01-04",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-01-04",
+  "adj_close": 135.25
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 184082000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001628280-22-028551"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": -9821000.0,
+  "capex": 1083000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-11-03",
+  "shares": 99773857
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 9,
+  "from": "2022-10-06",
+  "to": "2023-02-03",
+  "trades": [
+   {
+    "date": "2023-01-17",
+    "filed": "2023-01-18",
+    "code": "S",
+    "value": 12680,
+    "who": "Yang Arvin"
+   },
+   {
+    "date": "2023-01-17",
+    "filed": "2023-01-18",
+    "code": "S",
+    "value": 99566,
+    "who": "Protopapas Anna"
+   },
+   {
+    "date": "2023-01-17",
+    "filed": "2023-01-18",
+    "code": "S",
+    "value": 20520,
+    "who": "Mandelia Ashish"
+   },
+   {
+    "date": "2023-01-17",
+    "filed": "2023-01-18",
+    "code": "S",
+    "value": 2629,
+    "who": "MISRA TUSHAR"
+   },
+   {
+    "date": "2023-01-17",
+    "filed": "2023-01-18",
+    "code": "S",
+    "value": 35777,
+    "who": "Lowinger Timothy B"
+   },
+   {
+    "date": "2023-01-17",
+    "filed": "2023-01-18",
+    "code": "S",
+    "value": 29452,
+    "who": "DeSchuytner Brian"
+   },
+   {
+    "date": "2023-01-17",
+    "filed": "2023-01-18",
+    "code": "S",
+    "value": 4489,
+    "who": "Carvajal Alejandra"
+   },
+   {
+    "date": "2022-12-01",
+    "filed": "2022-12-02",
+    "code": "S",
+    "value": 36423,
+    "who": "Yang Arvin"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "mersana therapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03319628",
+    "drugs": [
+     "upifitamab rilsodotin"
+    ]
+   },
+   {
+    "nct": "NCT05329545",
+    "drugs": [
+     "Upifitimab rilsodotin"
+    ]
+   }
+  ]
+ }
+}

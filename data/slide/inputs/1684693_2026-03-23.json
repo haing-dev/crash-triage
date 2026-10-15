@@ -1,0 +1,165 @@
+{
+ "id": "1684693_2026-03-23",
+ "kind": "slide",
+ "cik": "1684693",
+ "name": "Sol-Gel Technologies Ltd.",
+ "date": "2026-03-23",
+ "asof": "2026-03-23",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-03-23",
+  "adj_close": 66.2
+ },
+ "balance": {
+  "end": "2025-12-31",
+  "cash": 23999000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001178913-26-001552"
+ },
+ "burn6": {
+  "end": "2025-12-31",
+  "start": "2025-07-01",
+  "cash_used_ops": 277000.0,
+  "capex": 21000.0,
+  "periods": 1
+ },
+ "shares": {
+  "end": "2025-12-31",
+  "shares": 2786158
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "\u2022 We will need substantial additional funding to pursue our business objectives, and our current liquidity raises substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2025-12-23",
+  "to": "2026-04-22",
+  "trades": [
+   {
+    "date": "2026-03-24",
+    "filed": "2026-03-24",
+    "code": "P",
+    "value": 2495880,
+    "who": "Opaleye Management Inc."
+   },
+   {
+    "date": "2026-03-24",
+    "filed": "2026-03-24",
+    "code": "P",
+    "value": 360000,
+    "who": "Opaleye Management Inc."
+   },
+   {
+    "date": "2026-02-13",
+    "filed": "2026-02-18",
+    "code": "P",
+    "value": 18333,
+    "who": "Opaleye Management Inc."
+   },
+   {
+    "date": "2026-02-02",
+    "filed": "2026-02-04",
+    "code": "P",
+    "value": 5800,
+    "who": "Opaleye Management Inc."
+   },
+   {
+    "date": "2026-01-27",
+    "filed": "2026-01-29",
+    "code": "P",
+    "value": 5705,
+    "who": "Opaleye Management Inc."
+   },
+   {
+    "date": "2026-01-22",
+    "filed": "2026-01-23",
+    "code": "P",
+    "value": 122922,
+    "who": "Opaleye Management Inc."
+   },
+   {
+    "date": "2026-01-23",
+    "filed": "2026-01-23",
+    "code": "P",
+    "value": 64434,
+    "who": "Opaleye Management Inc."
+   },
+   {
+    "date": "2026-01-02",
+    "filed": "2026-01-06",
+    "code": "P",
+    "value": 100348,
+    "who": "Opaleye Management Inc."
+   },
+   {
+    "date": "2026-01-05",
+    "filed": "2026-01-06",
+    "code": "P",
+    "value": 8510,
+    "who": "Opaleye Management Inc."
+   },
+   {
+    "date": "2025-12-29",
+    "filed": "2025-12-31",
+    "code": "P",
+    "value": 361534,
+    "who": "Opaleye Management Inc."
+   },
+   {
+    "date": "2025-12-30",
+    "filed": "2025-12-31",
+    "code": "P",
+    "value": 1476627,
+    "who": "Opaleye Management Inc."
+   },
+   {
+    "date": "2025-12-31",
+    "filed": "2025-12-31",
+    "code": "P",
+    "value": 944744,
+    "who": "Opaleye Management Inc."
+   },
+   {
+    "date": "2025-12-22",
+    "filed": "2025-12-29",
+    "code": "P",
+    "value": 41936,
+    "who": "Opaleye Management Inc."
+   },
+   {
+    "date": "2025-12-23",
+    "filed": "2025-12-29",
+    "code": "P",
+    "value": 10832,
+    "who": "Opaleye Management Inc."
+   },
+   {
+    "date": "2025-12-26",
+    "filed": "2025-12-29",
+    "code": "P",
+    "value": 67765,
+    "who": "Opaleye Management Inc."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "sol gel technologies",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06050122",
+    "drugs": [
+     "Patidegib Topical Gel",
+     "Patidegib Topical Gel with no active patidegib"
+    ]
+   }
+  ]
+ }
+}

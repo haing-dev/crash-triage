@@ -1,0 +1,79 @@
+{
+ "id": "1609809_2025-09-12",
+ "kind": "slide",
+ "cik": "1609809",
+ "name": "Seres Therapeutics, Inc.",
+ "date": "2025-09-12",
+ "asof": "2025-09-12",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-09-12",
+  "adj_close": 15.91
+ },
+ "balance": {
+  "end": "2025-06-30",
+  "cash": 45379000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-25-103611"
+ },
+ "burn6": {
+  "end": "2025-06-30",
+  "start": "2025-01-01",
+  "cash_used_ops": -13621000.0,
+  "capex": 215000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-08-01",
+  "shares": 8754570
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "\u2022 We have identified conditions and events that raise substantial doubt regarding our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 10,
+  "from": "2025-06-14",
+  "to": "2025-10-12",
+  "trades": [
+   {
+    "date": "2025-08-18",
+    "filed": "2025-08-19",
+    "code": "S",
+    "value": 3613,
+    "who": "Shaff Eric D."
+   },
+   {
+    "date": "2025-08-18",
+    "filed": "2025-08-19",
+    "code": "S",
+    "value": 1265,
+    "who": "DesRosier Thomas"
+   },
+   {
+    "date": "2025-08-18",
+    "filed": "2025-08-19",
+    "code": "S",
+    "value": 1215,
+    "who": "Henn Matthew R"
+   },
+   {
+    "date": "2025-08-18",
+    "filed": "2025-08-19",
+    "code": "S",
+    "value": 982,
+    "who": "Young Teresa L."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "seres therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

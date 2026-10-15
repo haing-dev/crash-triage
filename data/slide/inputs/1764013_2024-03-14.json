@@ -1,0 +1,203 @@
+{
+ "id": "1764013_2024-03-14",
+ "kind": "slide",
+ "cik": "1764013",
+ "name": "Immunovant, Inc.",
+ "date": "2024-03-14",
+ "asof": "2024-03-14",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-03-14",
+  "adj_close": 30.7
+ },
+ "balance": {
+  "end": "2023-12-31",
+  "cash": 690937000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001764013-24-000026"
+ },
+ "burn6": {
+  "end": "2023-12-31",
+  "start": "2023-07-01",
+  "cash_used_ops": 107158000.0,
+  "capex": 165000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-02-05",
+  "shares": 145292970
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 26,
+  "from": "2023-12-15",
+  "to": "2024-04-13",
+  "trades": [
+   {
+    "date": "2024-04-09",
+    "filed": "2024-04-10",
+    "code": "S",
+    "value": 115023,
+    "who": "Barnett Eva Renee"
+   },
+   {
+    "date": "2024-04-09",
+    "filed": "2024-04-10",
+    "code": "S",
+    "value": 32833,
+    "who": "Butchko Julia G."
+   },
+   {
+    "date": "2024-04-09",
+    "filed": "2024-04-10",
+    "code": "S",
+    "value": 149882,
+    "who": "Salzmann Peter"
+   },
+   {
+    "date": "2024-02-22",
+    "filed": "2024-02-23",
+    "code": "S",
+    "value": 105920,
+    "who": "Barnett Eva Renee"
+   },
+   {
+    "date": "2024-02-22",
+    "filed": "2024-02-23",
+    "code": "S",
+    "value": 77144,
+    "who": "Levine Mark S."
+   },
+   {
+    "date": "2024-02-22",
+    "filed": "2024-02-23",
+    "code": "S",
+    "value": 80289,
+    "who": "Macias William L."
+   },
+   {
+    "date": "2024-02-22",
+    "filed": "2024-02-23",
+    "code": "S",
+    "value": 77578,
+    "who": "Butchko Julia G."
+   },
+   {
+    "date": "2024-02-22",
+    "filed": "2024-02-23",
+    "code": "S",
+    "value": 486362,
+    "who": "Salzmann Peter"
+   },
+   {
+    "date": "2024-01-26",
+    "filed": "2024-01-29",
+    "code": "S",
+    "value": 113010,
+    "who": "Levine Mark S."
+   },
+   {
+    "date": "2024-01-26",
+    "filed": "2024-01-29",
+    "code": "S",
+    "value": 1769,
+    "who": "Levine Mark S."
+   },
+   {
+    "date": "2024-01-26",
+    "filed": "2024-01-29",
+    "code": "S",
+    "value": 377129,
+    "who": "Geffner Michael"
+   },
+   {
+    "date": "2024-01-26",
+    "filed": "2024-01-29",
+    "code": "S",
+    "value": 5883,
+    "who": "Geffner Michael"
+   },
+   {
+    "date": "2024-01-18",
+    "filed": "2024-01-19",
+    "code": "S",
+    "value": 17397,
+    "who": "Macias William L."
+   },
+   {
+    "date": "2024-01-11",
+    "filed": "2024-01-12",
+    "code": "S",
+    "value": 111637,
+    "who": "Barnett Eva Renee"
+   },
+   {
+    "date": "2024-01-11",
+    "filed": "2024-01-12",
+    "code": "S",
+    "value": 35387,
+    "who": "Barnett Eva Renee"
+   },
+   {
+    "date": "2024-01-05",
+    "filed": "2024-01-09",
+    "code": "S",
+    "value": 50051,
+    "who": "Butchko Julia G."
+   },
+   {
+    "date": "2024-01-05",
+    "filed": "2024-01-09",
+    "code": "S",
+    "value": 147568,
+    "who": "Salzmann Peter"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "immunovant",
+  "other_trials": 6,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05403541",
+    "drugs": [
+     "Batoclimab 680 mg SC weekly",
+     "Batoclimab 340 mg SC weekly",
+     "Batoclimab 340 mg SC bi-weekly"
+    ]
+   },
+   {
+    "nct": "NCT05517421",
+    "drugs": [
+     "Batoclimab"
+    ]
+   },
+   {
+    "nct": "NCT05524571",
+    "drugs": [
+     "Batoclimab"
+    ]
+   },
+   {
+    "nct": "NCT05907668",
+    "drugs": [
+     "IMVT-1401 (batoclimab)"
+    ]
+   },
+   {
+    "nct": "NCT05581199",
+    "drugs": [
+     "Batoclimab 680 milligrams (mg) subcutaneous (SC) weekly",
+     "Batoclimab 340 mg SC weekly"
+    ]
+   }
+  ]
+ }
+}

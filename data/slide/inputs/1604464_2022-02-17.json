@@ -1,0 +1,128 @@
+{
+ "id": "1604464_2022-02-17",
+ "kind": "slide",
+ "cik": "1604464",
+ "name": "Atara Biotherapeutics, Inc.",
+ "date": "2022-02-17",
+ "asof": "2022-02-17",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-02-17",
+  "adj_close": 342.0
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 357245000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001564590-21-054261"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 120555000.0,
+  "capex": 5917000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-10-29",
+  "shares": 88417386
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 9,
+  "from": "2021-11-19",
+  "to": "2022-03-19",
+  "trades": [
+   {
+    "date": "2022-03-01",
+    "filed": "2022-03-03",
+    "code": "S",
+    "value": 22393,
+    "who": "Koppikar Utpal"
+   },
+   {
+    "date": "2022-03-01",
+    "filed": "2022-03-03",
+    "code": "S",
+    "value": 14697,
+    "who": "Koppikar Utpal"
+   },
+   {
+    "date": "2022-03-01",
+    "filed": "2022-03-03",
+    "code": "S",
+    "value": 21890,
+    "who": "Dupont Jakob"
+   },
+   {
+    "date": "2022-03-01",
+    "filed": "2022-03-03",
+    "code": "S",
+    "value": 87009,
+    "who": "Touchon Pascal"
+   },
+   {
+    "date": "2022-03-01",
+    "filed": "2022-03-03",
+    "code": "S",
+    "value": 14441,
+    "who": "Murugan Amar"
+   },
+   {
+    "date": "2022-03-01",
+    "filed": "2022-03-03",
+    "code": "S",
+    "value": 10960,
+    "who": "Murugan Amar"
+   },
+   {
+    "date": "2022-02-10",
+    "filed": "2022-02-14",
+    "code": "S",
+    "value": 80000,
+    "who": "Dupont Jakob"
+   },
+   {
+    "date": "2022-02-07",
+    "filed": "2022-02-09",
+    "code": "S",
+    "value": 36096,
+    "who": "Koppikar Utpal"
+   },
+   {
+    "date": "2022-01-03",
+    "filed": "2022-01-05",
+    "code": "S",
+    "value": 80050,
+    "who": "Dupont Jakob"
+   },
+   {
+    "date": "2021-12-01",
+    "filed": "2021-12-03",
+    "code": "S",
+    "value": 89688,
+    "who": "Dupont Jakob"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "atara biotherapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03283826",
+    "drugs": [
+     "ATA188"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,86 @@
+{
+ "id": "1393434_2024-08-05",
+ "kind": "slide",
+ "cik": "1393434",
+ "name": "OCULAR THERAPEUTIX, INC",
+ "date": "2024-08-05",
+ "asof": "2024-08-05",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-08-05",
+  "adj_close": 7.45
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 482888000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-24-007065"
+ },
+ "burn6": {
+  "end": "2024-03-31",
+  "start": "2023-10-01",
+  "cash_used_ops": 56341000.0,
+  "capex": 714000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-05-03",
+  "shares": 154888915
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 12,
+  "from": "2024-05-07",
+  "to": "2024-09-04",
+  "trades": [
+   {
+    "date": "2024-08-23",
+    "filed": "2024-08-27",
+    "code": "S",
+    "value": 16525,
+    "who": "Nayak Sanjay"
+   },
+   {
+    "date": "2024-08-23",
+    "filed": "2024-08-27",
+    "code": "S",
+    "value": 188338,
+    "who": "Dugel Pravin"
+   },
+   {
+    "date": "2024-05-23",
+    "filed": "2024-05-28",
+    "code": "S",
+    "value": 13280,
+    "who": "Nayak Sanjay"
+   },
+   {
+    "date": "2024-05-23",
+    "filed": "2024-05-28",
+    "code": "S",
+    "value": 125215,
+    "who": "Dugel Pravin"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "ocular therapeutix",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06223958",
+    "drugs": [
+     "OTX-TKI (axitinib implant)",
+     "Aflibercept"
+    ]
+   }
+  ]
+ }
+}

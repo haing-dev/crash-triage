@@ -1,0 +1,91 @@
+{
+ "id": "1657312_2021-11-03",
+ "kind": "slide",
+ "cik": "1657312",
+ "name": "Verona Pharma plc",
+ "date": "2021-11-03",
+ "asof": "2021-11-03",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-11-03",
+  "adj_close": 5.11
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 146035000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001657312-21-000018"
+ },
+ "burn6": {
+  "end": "2021-06-30",
+  "start": "2021-01-01",
+  "cash_used_ops": 38756000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-08-04",
+  "shares": 480291822
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 15,
+  "from": "2021-08-05",
+  "to": "2021-12-03",
+  "trades": [
+   {
+    "date": "2021-11-02",
+    "filed": "2021-11-03",
+    "code": "S",
+    "value": 7690,
+    "who": "Deschamps Lisa"
+   },
+   {
+    "date": "2021-11-02",
+    "filed": "2021-11-03",
+    "code": "S",
+    "value": 33373,
+    "who": "ZACCARDELLI DAVID"
+   },
+   {
+    "date": "2021-11-02",
+    "filed": "2021-11-03",
+    "code": "S",
+    "value": 6721,
+    "who": "Hahn Mark W"
+   },
+   {
+    "date": "2021-08-03",
+    "filed": "2021-08-09",
+    "code": "S",
+    "value": 13284,
+    "who": "ZACCARDELLI DAVID"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "verona pharma",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04542057",
+    "drugs": [
+     "Ensifentrine"
+    ]
+   },
+   {
+    "nct": "NCT04535986",
+    "drugs": [
+     "Ensifentrine"
+    ]
+   }
+  ]
+ }
+}

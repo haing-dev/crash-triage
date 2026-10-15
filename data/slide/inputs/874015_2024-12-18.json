@@ -1,0 +1,209 @@
+{
+ "id": "874015_2024-12-18",
+ "kind": "slide",
+ "cik": "874015",
+ "name": "IONIS PHARMACEUTICALS INC",
+ "date": "2024-12-18",
+ "asof": "2024-12-18",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-12-18",
+  "adj_close": 36.25
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 3173222000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0000874015-24-000232"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": 234870000.0,
+  "capex": 15290000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-10-31",
+  "shares": 157897287
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 30,
+  "from": "2024-09-19",
+  "to": "2025-01-17",
+  "trades": [
+   {
+    "date": "2025-01-16",
+    "filed": "2025-01-17",
+    "code": "S",
+    "value": 234959,
+    "who": "Swayze Eric"
+   },
+   {
+    "date": "2025-01-16",
+    "filed": "2025-01-17",
+    "code": "S",
+    "value": 719,
+    "who": "Swayze Eric"
+   },
+   {
+    "date": "2025-01-16",
+    "filed": "2025-01-17",
+    "code": "S",
+    "value": 213889,
+    "who": "Schneider Eugene"
+   },
+   {
+    "date": "2025-01-16",
+    "filed": "2025-01-17",
+    "code": "S",
+    "value": 241629,
+    "who": "O'NEIL PATRICK R."
+   },
+   {
+    "date": "2025-01-16",
+    "filed": "2025-01-17",
+    "code": "S",
+    "value": 1091444,
+    "who": "Monia Brett P"
+   },
+   {
+    "date": "2025-01-16",
+    "filed": "2025-01-17",
+    "code": "S",
+    "value": 290989,
+    "who": "HOUGEN ELIZABETH L"
+   },
+   {
+    "date": "2025-01-16",
+    "filed": "2025-01-17",
+    "code": "S",
+    "value": 232407,
+    "who": "Geary Richard S"
+   },
+   {
+    "date": "2025-01-16",
+    "filed": "2025-01-17",
+    "code": "S",
+    "value": 139855,
+    "who": "Devers Shannon L."
+   },
+   {
+    "date": "2025-01-16",
+    "filed": "2025-01-17",
+    "code": "S",
+    "value": 176580,
+    "who": "Birchler Brian"
+   },
+   {
+    "date": "2025-01-16",
+    "filed": "2025-01-17",
+    "code": "S",
+    "value": 222114,
+    "who": "BENNETT C FRANK"
+   },
+   {
+    "date": "2025-01-16",
+    "filed": "2025-01-17",
+    "code": "S",
+    "value": 111213,
+    "who": "Baroldi Joseph"
+   },
+   {
+    "date": "2025-01-16",
+    "filed": "2025-01-17",
+    "code": "S",
+    "value": 33648,
+    "who": "Baroldi Joseph"
+   },
+   {
+    "date": "2024-12-23",
+    "filed": "2024-12-26",
+    "code": "P",
+    "value": 90496,
+    "who": "Hayden Michael R"
+   },
+   {
+    "date": "2024-12-23",
+    "filed": "2024-12-26",
+    "code": "P",
+    "value": 90583,
+    "who": "Hayden Michael R"
+   },
+   {
+    "date": "2024-11-12",
+    "filed": "2024-11-14",
+    "code": "S",
+    "value": 45278,
+    "who": "Swayze Eric"
+   },
+   {
+    "date": "2024-11-12",
+    "filed": "2024-11-14",
+    "code": "S",
+    "value": 252294,
+    "who": "Monia Brett P"
+   },
+   {
+    "date": "2024-11-12",
+    "filed": "2024-11-14",
+    "code": "S",
+    "value": 511426,
+    "who": "LOSCALZO JOSEPH"
+   },
+   {
+    "date": "2024-10-16",
+    "filed": "2024-10-17",
+    "code": "S",
+    "value": 2031,
+    "who": "Swayze Eric"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "ionis pharmaceuticals",
+  "other_trials": 15,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04849741",
+    "drugs": [
+     "zilganersen"
+    ]
+   },
+   {
+    "nct": "NCT04768972",
+    "drugs": [
+     "ION363"
+    ]
+   },
+   {
+    "nct": "NCT05185843",
+    "drugs": [
+     "Olezarsen"
+    ]
+   },
+   {
+    "nct": "NCT00048295",
+    "drugs": [
+     "Alicaforsen"
+    ]
+   },
+   {
+    "nct": "NCT05392114",
+    "drugs": [
+     "Donidalorsen"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "id": "1865494_2025-04-07",
+ "kind": "slide",
+ "cik": "1865494",
+ "name": "IO Biotech, Inc.",
+ "date": "2025-04-07",
+ "asof": "2025-04-07",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-04-07",
+  "adj_close": 0.91
+ },
+ "balance": {
+  "end": "2024-12-31",
+  "cash": 60031000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-25-047744"
+ },
+ "burn6": {
+  "end": "2024-12-31",
+  "start": "2024-07-01",
+  "cash_used_ops": 40433000.0,
+  "capex": 21000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-03-25",
+  "shares": 65880914
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Based on this assessment, management has concluded that there is no substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2025-01-07",
+  "to": "2025-05-07",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "io biotech",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05077709",
+    "drugs": [
+     "IO102-IO103 in combination with pembrolizumab"
+    ]
+   },
+   {
+    "nct": "NCT05155254",
+    "drugs": [
+     "IO102-IO103",
+     "Pembrolizumab"
+    ]
+   },
+   {
+    "nct": "NCT05280314",
+    "drugs": [
+     "IO102-IO103",
+     "Pembrolizumab KEYTRUDA\u00ae"
+    ]
+   }
+  ]
+ }
+}

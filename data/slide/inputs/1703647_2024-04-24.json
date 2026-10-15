@@ -1,0 +1,120 @@
+{
+ "id": "1703647_2024-04-24",
+ "kind": "slide",
+ "cik": "1703647",
+ "name": "Korro Bio, Inc.",
+ "date": "2024-04-24",
+ "asof": "2024-04-24",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-04-24",
+  "adj_close": 62.99
+ },
+ "balance": {
+  "end": "2023-12-31",
+  "cash": 166150000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-24-036396"
+ },
+ "burn6": {
+  "end": "2023-12-31",
+  "start": "2023-07-01",
+  "cash_used_ops": 44727000.0,
+  "capex": 7736000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-03-21",
+  "shares": 8021946
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 12,
+  "from": "2024-01-25",
+  "to": "2024-05-24",
+  "trades": [
+   {
+    "date": "2024-04-22",
+    "filed": "2024-04-24",
+    "code": "P",
+    "value": 999992,
+    "who": "New Enterprise Associates 17, L.P."
+   },
+   {
+    "date": "2024-04-22",
+    "filed": "2024-04-24",
+    "code": "P",
+    "value": 999992,
+    "who": "BASKETT FOREST"
+   },
+   {
+    "date": "2024-04-22",
+    "filed": "2024-04-24",
+    "code": "P",
+    "value": 999992,
+    "who": "Florence Anthony A. Jr."
+   },
+   {
+    "date": "2024-04-22",
+    "filed": "2024-04-24",
+    "code": "P",
+    "value": 999992,
+    "who": "Walker Paul Edward"
+   },
+   {
+    "date": "2024-04-22",
+    "filed": "2024-04-24",
+    "code": "P",
+    "value": 999992,
+    "who": "Chang Carmen"
+   },
+   {
+    "date": "2024-04-22",
+    "filed": "2024-04-24",
+    "code": "P",
+    "value": 999992,
+    "who": "Mathers Edward T"
+   },
+   {
+    "date": "2024-04-22",
+    "filed": "2024-04-24",
+    "code": "P",
+    "value": 999992,
+    "who": "Yang Rick"
+   },
+   {
+    "date": "2024-04-22",
+    "filed": "2024-04-24",
+    "code": "P",
+    "value": 999992,
+    "who": "Makhzoumi Mohamad"
+   },
+   {
+    "date": "2024-04-22",
+    "filed": "2024-04-24",
+    "code": "P",
+    "value": 999992,
+    "who": "SANDELL SCOTT D"
+   },
+   {
+    "date": "2024-04-22",
+    "filed": "2024-04-23",
+    "code": "P",
+    "value": 999992,
+    "who": "Atlas Venture Opportunity Fund II, L.P."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "korro bio",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

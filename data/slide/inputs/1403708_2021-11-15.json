@@ -1,0 +1,50 @@
+{
+ "id": "1403708_2021-11-15",
+ "kind": "slide",
+ "cik": "1403708",
+ "name": "Evoke Pharma Inc",
+ "date": "2021-11-15",
+ "asof": "2021-11-15",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-11-15",
+  "adj_close": 144.0
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 11141908,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001564590-21-056208"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 7402627.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-11-01",
+  "shares": 32656480
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "As a result, the Company believes that there is substantial doubt about its ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2021-08-17",
+  "to": "2021-12-15",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "evoke pharma",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

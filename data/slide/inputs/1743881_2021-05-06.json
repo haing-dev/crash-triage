@@ -1,0 +1,73 @@
+{
+ "id": "1743881_2021-05-06",
+ "kind": "slide",
+ "cik": "1743881",
+ "name": "BridgeBio Pharma, Inc.",
+ "date": "2021-05-06",
+ "asof": "2021-05-06",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-05-06",
+  "adj_close": 49.59
+ },
+ "balance": {
+  "end": "2021-03-31",
+  "cash": 1001320000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent",
+   "MarketableSecuritiesNoncurrent"
+  ],
+  "accn": "0001564590-21-025064"
+ },
+ "burn6": {
+  "end": "2021-03-31",
+  "start": "2020-10-01",
+  "cash_used_ops": 247026000.0,
+  "capex": 4107000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-04-30",
+  "shares": 149284184
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 9,
+  "from": "2021-02-05",
+  "to": "2021-06-05",
+  "trades": [
+   {
+    "date": "2021-02-17",
+    "filed": "2021-02-18",
+    "code": "P",
+    "value": 500000,
+    "who": "STEPHENSON BRIAN C"
+   },
+   {
+    "date": "2021-02-17",
+    "filed": "2021-02-18",
+    "code": "P",
+    "value": 1000000,
+    "who": "Scott Randal W."
+   },
+   {
+    "date": "2021-02-17",
+    "filed": "2021-02-17",
+    "code": "S",
+    "value": 208617360,
+    "who": "KKR Genetic Disorder L.P."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "bridgebio pharma",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

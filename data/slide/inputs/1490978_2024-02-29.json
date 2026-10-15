@@ -1,0 +1,83 @@
+{
+ "id": "1490978_2024-02-29",
+ "kind": "slide",
+ "cik": "1490978",
+ "name": "Schrodinger, Inc.",
+ "date": "2024-02-29",
+ "asof": "2024-02-29",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-02-29",
+  "adj_close": 25.46
+ },
+ "balance": {
+  "end": "2023-12-31",
+  "cash": 463003000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001490978-24-000018"
+ },
+ "burn6": {
+  "end": "2023-12-31",
+  "start": "2023-07-01",
+  "cash_used_ops": 87196000.0,
+  "capex": 7396000.0,
+  "periods": 2
+ },
+ "shares": null,
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 15,
+  "from": "2023-12-01",
+  "to": "2024-03-30",
+  "trades": [
+   {
+    "date": "2024-03-04",
+    "filed": "2024-03-05",
+    "code": "S",
+    "value": 87360,
+    "who": "Porges Geoffrey Craig"
+   },
+   {
+    "date": "2024-02-12",
+    "filed": "2024-02-13",
+    "code": "S",
+    "value": 21444,
+    "who": "Tran Yvonne"
+   },
+   {
+    "date": "2024-02-12",
+    "filed": "2024-02-13",
+    "code": "S",
+    "value": 33198,
+    "who": "Abel Robert Lorne"
+   },
+   {
+    "date": "2024-02-12",
+    "filed": "2024-02-13",
+    "code": "S",
+    "value": 22264,
+    "who": "Herman Jenny"
+   },
+   {
+    "date": "2024-02-12",
+    "filed": "2024-02-13",
+    "code": "S",
+    "value": 25489,
+    "who": "Lorton Kenneth Patrick"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "schrodinger",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

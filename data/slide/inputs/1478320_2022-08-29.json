@@ -1,0 +1,73 @@
+{
+ "id": "1478320_2022-08-29",
+ "kind": "slide",
+ "cik": "1478320",
+ "name": "Adaptive Biotechnologies Corp",
+ "date": "2022-08-29",
+ "asof": "2022-08-29",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-08-29",
+  "adj_close": 9.69
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 450666000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0001564590-22-027784"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 111518000.0,
+  "capex": 8375000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-07-29",
+  "shares": 142872988
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2022-05-31",
+  "to": "2022-09-28",
+  "trades": [
+   {
+    "date": "2022-08-05",
+    "filed": "2022-08-05",
+    "code": "S",
+    "value": 192589,
+    "who": "SOOD NITIN"
+   },
+   {
+    "date": "2022-07-07",
+    "filed": "2022-07-08",
+    "code": "S",
+    "value": 7862,
+    "who": "ADAMS R MARK"
+   },
+   {
+    "date": "2022-07-08",
+    "filed": "2022-07-08",
+    "code": "S",
+    "value": 24081,
+    "who": "ADAMS R MARK"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "adaptive biotechnologies",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

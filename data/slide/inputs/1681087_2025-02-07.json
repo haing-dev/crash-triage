@@ -1,0 +1,79 @@
+{
+ "id": "1681087_2025-02-07",
+ "kind": "slide",
+ "cik": "1681087",
+ "name": "Tectonic Therapeutic, Inc.",
+ "date": "2025-02-07",
+ "asof": "2025-02-07",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-02-07",
+  "adj_close": 36.45
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 159095000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-24-125304"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": 34690000.0,
+  "capex": 153000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-11-01",
+  "shares": 14752689
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2024-11-09",
+  "to": "2025-03-09",
+  "trades": [
+   {
+    "date": "2025-02-05",
+    "filed": "2025-02-07",
+    "code": "P",
+    "value": 6999977,
+    "who": "SPRINGER TIMOTHY A"
+   },
+   {
+    "date": "2025-02-05",
+    "filed": "2025-02-07",
+    "code": "P",
+    "value": 33000000,
+    "who": "SPRINGER TIMOTHY A"
+   },
+   {
+    "date": "2025-02-05",
+    "filed": "2025-02-07",
+    "code": "P",
+    "value": 249964,
+    "who": "Lochner Daniel"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "tectonic therapeutic",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06616974",
+    "drugs": [
+     "TX000045- Dose A",
+     "TX000045- Dose B"
+    ]
+   }
+  ]
+ }
+}

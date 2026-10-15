@@ -1,0 +1,67 @@
+{
+ "id": "1556263_2023-05-26",
+ "kind": "slide",
+ "cik": "1556263",
+ "name": "Syros Pharmaceuticals, Inc.",
+ "date": "2023-05-26",
+ "asof": "2023-05-26",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-05-26",
+  "adj_close": 3.7
+ },
+ "balance": {
+  "end": "2023-03-31",
+  "cash": 165803000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-23-020052"
+ },
+ "burn6": {
+  "end": "2023-03-31",
+  "start": "2022-10-01",
+  "cash_used_ops": 67984000.0,
+  "capex": 909000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-05-08",
+  "shares": 20595503
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "On an ongoing basis, the Company\u2019s management evaluates its estimates, which include, but are not limited to, estimates related to revenue recognition, warrant liability, stock-based compensation expense, accrued expenses, income taxes and the evaluation of the existence of conditions and events tha"
+ },
+ "insiders": {
+  "form4s": 15,
+  "from": "2023-02-25",
+  "to": "2023-06-25",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "syros pharmaceuticals",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04905407",
+    "drugs": [
+     "Tamibarotene",
+     "Venetoclax",
+     "Azacitidine"
+    ]
+   },
+   {
+    "nct": "NCT04797780",
+    "drugs": [
+     "Tamibarotene",
+     "Azacitidine"
+    ]
+   }
+  ]
+ }
+}

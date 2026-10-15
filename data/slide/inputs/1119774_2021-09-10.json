@@ -1,0 +1,56 @@
+{
+ "id": "1119774_2021-09-10",
+ "kind": "slide",
+ "cik": "1119774",
+ "name": "COMPUGEN LTD",
+ "date": "2021-09-10",
+ "asof": "2021-09-10",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-09-10",
+  "adj_close": 6.3
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 7847000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001178913-21-002429"
+ },
+ "burn6": {
+  "end": "2021-06-30",
+  "start": "2021-01-01",
+  "cash_used_ops": 13629000.0,
+  "capex": 218000.0,
+  "periods": 1
+ },
+ "shares": {
+  "end": "2020-12-31",
+  "shares": 83675856
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2021-06-12",
+  "to": "2021-10-10",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "compugen",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04570839",
+    "drugs": [
+     "COM701 in combination with BMS-986207 and nivolumab."
+    ]
+   }
+  ]
+ }
+}

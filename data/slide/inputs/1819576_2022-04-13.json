@@ -1,0 +1,78 @@
+{
+ "id": "1819576_2022-04-13",
+ "kind": "slide",
+ "cik": "1819576",
+ "name": "Liquidia Corp",
+ "date": "2022-04-13",
+ "asof": "2022-04-13",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-04-13",
+  "adj_close": 5.25
+ },
+ "balance": {
+  "end": "2021-12-31",
+  "cash": 57493933,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-22-003850"
+ },
+ "burn6": {
+  "end": "2021-12-31",
+  "start": "2021-07-01",
+  "cash_used_ops": 13389744.0,
+  "capex": 19980.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-03-04",
+  "shares": 52435802
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Our net losses and significant cash used in operating activities have raised substantial doubt regarding our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2022-01-13",
+  "to": "2022-05-13",
+  "trades": [
+   {
+    "date": "2022-04-18",
+    "filed": "2022-04-19",
+    "code": "P",
+    "value": 1999996,
+    "who": "Manning Paul B"
+   },
+   {
+    "date": "2022-04-18",
+    "filed": "2022-04-18",
+    "code": "P",
+    "value": 8999996,
+    "who": "Caligan Partners LP"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "liquidia",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03992755",
+    "drugs": [
+     "LIQ861 Inhaled Treprostinil"
+    ]
+   },
+   {
+    "nct": "NCT04691154",
+    "drugs": [
+     "L606 inhalation suspension"
+    ]
+   }
+  ]
+ }
+}

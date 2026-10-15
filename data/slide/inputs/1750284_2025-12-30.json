@@ -1,0 +1,209 @@
+{
+ "id": "1750284_2025-12-30",
+ "kind": "slide",
+ "cik": "1750284",
+ "name": "Olema Pharmaceuticals, Inc.",
+ "date": "2025-12-30",
+ "asof": "2025-12-30",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-12-30",
+  "adj_close": 25.07
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 328960000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001193125-25-273236"
+ },
+ "burn6": {
+  "end": "2025-09-30",
+  "start": "2025-04-01",
+  "cash_used_ops": 64410000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-11-06",
+  "shares": 68659923
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "As a result, these conditions raise substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 12,
+  "from": "2025-10-01",
+  "to": "2026-01-29",
+  "trades": [
+   {
+    "date": "2026-01-20",
+    "filed": "2026-01-21",
+    "code": "S",
+    "value": 268800,
+    "who": "Harmon Cyrus"
+   },
+   {
+    "date": "2026-01-14",
+    "filed": "2026-01-16",
+    "code": "S",
+    "value": 101600,
+    "who": "Harmon Cyrus"
+   },
+   {
+    "date": "2026-01-13",
+    "filed": "2026-01-15",
+    "code": "S",
+    "value": 107054,
+    "who": "Kovacs Shane William Charles"
+   },
+   {
+    "date": "2026-01-15",
+    "filed": "2026-01-15",
+    "code": "S",
+    "value": 2873000,
+    "who": "Kovacs Shane William Charles"
+   },
+   {
+    "date": "2026-01-12",
+    "filed": "2026-01-14",
+    "code": "S",
+    "value": 283400,
+    "who": "Myles David C."
+   },
+   {
+    "date": "2026-01-13",
+    "filed": "2026-01-14",
+    "code": "S",
+    "value": 1374480,
+    "who": "Myles David C."
+   },
+   {
+    "date": "2026-01-13",
+    "filed": "2026-01-14",
+    "code": "S",
+    "value": 5698,
+    "who": "Myles David C."
+   },
+   {
+    "date": "2026-01-14",
+    "filed": "2026-01-14",
+    "code": "S",
+    "value": 428914,
+    "who": "Myles David C."
+   },
+   {
+    "date": "2026-01-14",
+    "filed": "2026-01-14",
+    "code": "S",
+    "value": 1014737,
+    "who": "Myles David C."
+   },
+   {
+    "date": "2025-12-22",
+    "filed": "2025-12-29",
+    "code": "S",
+    "value": 82195,
+    "who": "Harmon Cyrus"
+   },
+   {
+    "date": "2025-12-19",
+    "filed": "2025-12-23",
+    "code": "S",
+    "value": 862132,
+    "who": "CLARK IAN T"
+   },
+   {
+    "date": "2025-12-19",
+    "filed": "2025-12-23",
+    "code": "S",
+    "value": 5735694,
+    "who": "CLARK IAN T"
+   },
+   {
+    "date": "2025-12-19",
+    "filed": "2025-12-23",
+    "code": "S",
+    "value": 1275283,
+    "who": "CLARK IAN T"
+   },
+   {
+    "date": "2025-12-19",
+    "filed": "2025-12-23",
+    "code": "S",
+    "value": 34398,
+    "who": "Myles David C."
+   },
+   {
+    "date": "2025-12-19",
+    "filed": "2025-12-23",
+    "code": "S",
+    "value": 1329362,
+    "who": "Myles David C."
+   },
+   {
+    "date": "2025-12-19",
+    "filed": "2025-12-23",
+    "code": "S",
+    "value": 189784,
+    "who": "Myles David C."
+   },
+   {
+    "date": "2025-12-19",
+    "filed": "2025-12-23",
+    "code": "S",
+    "value": 1599924,
+    "who": "Zojwalla Naseem"
+   },
+   {
+    "date": "2025-12-19",
+    "filed": "2025-12-23",
+    "code": "S",
+    "value": 373805,
+    "who": "Zojwalla Naseem"
+   },
+   {
+    "date": "2025-12-22",
+    "filed": "2025-12-23",
+    "code": "S",
+    "value": 2804000,
+    "who": "Zojwalla Naseem"
+   },
+   {
+    "date": "2025-12-23",
+    "filed": "2025-12-23",
+    "code": "S",
+    "value": 2752419,
+    "who": "Zojwalla Naseem"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "olema pharmaceuticals",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06016738",
+    "drugs": [
+     "Palazestrant",
+     "Fulvestrant",
+     "Anastrozole"
+    ]
+   },
+   {
+    "nct": "NCT07085767",
+    "drugs": [
+     "Palazestrant",
+     "Ribociclib",
+     "Letrozole"
+    ]
+   }
+  ]
+ }
+}

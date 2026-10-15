@@ -1,0 +1,148 @@
+{
+ "id": "34956_2026-01-30",
+ "kind": "slide",
+ "cik": "34956",
+ "name": "TENAX THERAPEUTICS, INC.",
+ "date": "2026-01-30",
+ "asof": "2026-01-30",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-01-30",
+  "adj_close": 12.51
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 99400000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001193125-25-277793"
+ },
+ "burn6": {
+  "end": "2025-09-30",
+  "start": "2025-04-01",
+  "cash_used_ops": 15418000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-11-11",
+  "shares": 6243575
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 13,
+  "from": "2025-11-01",
+  "to": "2026-03-01",
+  "trades": [
+   {
+    "date": "2025-12-08",
+    "filed": "2025-12-10",
+    "code": "P",
+    "value": 25250,
+    "who": "Rich Stuart"
+   },
+   {
+    "date": "2025-12-09",
+    "filed": "2025-12-10",
+    "code": "P",
+    "value": 25542,
+    "who": "Rich Stuart"
+   },
+   {
+    "date": "2025-12-02",
+    "filed": "2025-12-05",
+    "code": "P",
+    "value": 9006,
+    "who": "Rich Stuart"
+   },
+   {
+    "date": "2025-12-03",
+    "filed": "2025-12-05",
+    "code": "P",
+    "value": 13618,
+    "who": "Rich Stuart"
+   },
+   {
+    "date": "2025-12-04",
+    "filed": "2025-12-05",
+    "code": "P",
+    "value": 22998,
+    "who": "Rich Stuart"
+   },
+   {
+    "date": "2025-11-18",
+    "filed": "2025-11-20",
+    "code": "P",
+    "value": 12500,
+    "who": "Giordano Christopher Thomas"
+   },
+   {
+    "date": "2025-11-19",
+    "filed": "2025-11-20",
+    "code": "P",
+    "value": 3417,
+    "who": "Giordano Christopher Thomas"
+   },
+   {
+    "date": "2025-11-20",
+    "filed": "2025-11-20",
+    "code": "P",
+    "value": 4083,
+    "who": "Giordano Christopher Thomas"
+   },
+   {
+    "date": "2025-11-17",
+    "filed": "2025-11-19",
+    "code": "P",
+    "value": 14674,
+    "who": "MCGAULEY THOMAS"
+   },
+   {
+    "date": "2025-11-17",
+    "filed": "2025-11-19",
+    "code": "P",
+    "value": 7350,
+    "who": "MCGAULEY THOMAS"
+   },
+   {
+    "date": "2025-11-17",
+    "filed": "2025-11-19",
+    "code": "P",
+    "value": 36140,
+    "who": "MCGAULEY THOMAS"
+   },
+   {
+    "date": "2025-11-17",
+    "filed": "2025-11-19",
+    "code": "P",
+    "value": 665,
+    "who": "Almenoff June Sherie"
+   },
+   {
+    "date": "2025-11-18",
+    "filed": "2025-11-19",
+    "code": "P",
+    "value": 14280,
+    "who": "Almenoff June Sherie"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "tenax therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05983250",
+    "drugs": [
+     "TNX-103"
+    ]
+   }
+  ]
+ }
+}

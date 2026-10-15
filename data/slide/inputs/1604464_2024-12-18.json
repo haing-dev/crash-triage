@@ -1,0 +1,73 @@
+{
+ "id": "1604464_2024-12-18",
+ "kind": "slide",
+ "cik": "1604464",
+ "name": "Atara Biotherapeutics, Inc.",
+ "date": "2024-12-18",
+ "asof": "2024-12-18",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-12-18",
+  "adj_close": 9.81
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 67189000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-24-125389"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": 14634000.0,
+  "capex": 29000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-11-06",
+  "shares": 5759750
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These conditions raise substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2024-09-19",
+  "to": "2025-01-17",
+  "trades": [
+   {
+    "date": "2024-11-18",
+    "filed": "2024-11-20",
+    "code": "S",
+    "value": 11198,
+    "who": "Henrich Jill"
+   },
+   {
+    "date": "2024-11-18",
+    "filed": "2024-11-20",
+    "code": "S",
+    "value": 15274,
+    "who": "Hyllengren Eric J"
+   },
+   {
+    "date": "2024-11-18",
+    "filed": "2024-11-20",
+    "code": "S",
+    "value": 18633,
+    "who": "Nguyen AnhCo"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "atara biotherapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

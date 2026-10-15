@@ -1,0 +1,151 @@
+{
+ "id": "1984086_2025-02-18",
+ "kind": "crash",
+ "cik": "1984086",
+ "name": "Septerna, Inc.",
+ "date": "2025-02-18",
+ "asof": "2025-02-19",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-02-19",
+  "adj_close": 5.55
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 137512000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent",
+   "MarketableSecuritiesNoncurrent"
+  ],
+  "accn": "0000950170-24-129274"
+ },
+ "burn6": null,
+ "shares": {
+  "end": "2024-11-11",
+  "shares": 44402742
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2024-11-20",
+  "to": "2025-03-20",
+  "trades": [
+   {
+    "date": "2025-03-07",
+    "filed": "2025-03-10",
+    "code": "P",
+    "value": 92270,
+    "who": "Ezekowitz Alan"
+   },
+   {
+    "date": "2025-03-04",
+    "filed": "2025-03-06",
+    "code": "P",
+    "value": 47544,
+    "who": "Ezekowitz Alan"
+   },
+   {
+    "date": "2025-03-05",
+    "filed": "2025-03-06",
+    "code": "P",
+    "value": 220260,
+    "who": "Ezekowitz Alan"
+   },
+   {
+    "date": "2025-03-06",
+    "filed": "2025-03-06",
+    "code": "P",
+    "value": 248130,
+    "who": "Ezekowitz Alan"
+   },
+   {
+    "date": "2025-02-25",
+    "filed": "2025-02-27",
+    "code": "P",
+    "value": 56765,
+    "who": "Finer Jeffrey"
+   },
+   {
+    "date": "2025-02-26",
+    "filed": "2025-02-27",
+    "code": "P",
+    "value": 22796,
+    "who": "Finer Jeffrey"
+   },
+   {
+    "date": "2025-02-27",
+    "filed": "2025-02-27",
+    "code": "P",
+    "value": 17400,
+    "who": "Finer Jeffrey"
+   },
+   {
+    "date": "2025-02-25",
+    "filed": "2025-02-27",
+    "code": "P",
+    "value": 35116,
+    "who": "Labrucherie Gil M"
+   },
+   {
+    "date": "2025-02-27",
+    "filed": "2025-02-27",
+    "code": "P",
+    "value": 21750,
+    "who": "Labrucherie Gil M"
+   },
+   {
+    "date": "2025-02-24",
+    "filed": "2025-02-26",
+    "code": "P",
+    "value": 113147,
+    "who": "Third Rock Ventures VI, L.P."
+   },
+   {
+    "date": "2025-02-20",
+    "filed": "2025-02-24",
+    "code": "P",
+    "value": 3627030,
+    "who": "Third Rock Ventures VI, L.P."
+   },
+   {
+    "date": "2025-02-21",
+    "filed": "2025-02-24",
+    "code": "P",
+    "value": 2540348,
+    "who": "Third Rock Ventures VI, L.P."
+   },
+   {
+    "date": "2025-02-19",
+    "filed": "2025-02-21",
+    "code": "P",
+    "value": 57813,
+    "who": "Labrucherie Gil M"
+   },
+   {
+    "date": "2025-02-20",
+    "filed": "2025-02-21",
+    "code": "P",
+    "value": 85234,
+    "who": "Labrucherie Gil M"
+   },
+   {
+    "date": "2025-02-21",
+    "filed": "2025-02-21",
+    "code": "P",
+    "value": 29250,
+    "who": "Labrucherie Gil M"
+   }
+  ]
+ },
+ "drug": "SEP-786",
+ "trials": {
+  "query": "septerna",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

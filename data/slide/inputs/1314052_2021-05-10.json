@@ -1,0 +1,117 @@
+{
+ "id": "1314052_2021-05-10",
+ "kind": "slide",
+ "cik": "1314052",
+ "name": "ANAVEX LIFE SCIENCES CORP.",
+ "date": "2021-05-10",
+ "asof": "2021-05-10",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-05-10",
+  "adj_close": 10.87
+ },
+ "balance": {
+  "end": "2020-12-31",
+  "cash": 47357599,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001731122-21-000261"
+ },
+ "burn6": {
+  "end": "2020-12-31",
+  "start": "2020-07-01",
+  "cash_used_ops": 14126150.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-02-12",
+  "shares": 69487852
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2021-02-09",
+  "to": "2021-06-09",
+  "trades": [
+   {
+    "date": "2021-05-21",
+    "filed": "2021-05-25",
+    "code": "S",
+    "value": 1696282,
+    "who": "FAVUS ELLIOT"
+   },
+   {
+    "date": "2021-05-17",
+    "filed": "2021-05-19",
+    "code": "P",
+    "value": 10930,
+    "who": "Donhauser Peter D.O."
+   },
+   {
+    "date": "2021-02-24",
+    "filed": "2021-02-26",
+    "code": "S",
+    "value": 1841855,
+    "who": "FAVUS ELLIOT"
+   },
+   {
+    "date": "2021-02-19",
+    "filed": "2021-02-23",
+    "code": "P",
+    "value": 12620,
+    "who": "Donhauser Peter D.O."
+   },
+   {
+    "date": "2021-02-19",
+    "filed": "2021-02-23",
+    "code": "P",
+    "value": 2140,
+    "who": "Donhauser Peter D.O."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "anavex life sciences",
+  "other_trials": 5,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04304482",
+    "drugs": [
+     "ANAVEX2-73 oral liquid"
+    ]
+   },
+   {
+    "nct": "NCT04314934",
+    "drugs": [
+     "ANAVEX2-73"
+    ]
+   },
+   {
+    "nct": "NCT04575259",
+    "drugs": [
+     "ANAVEX2-73"
+    ]
+   },
+   {
+    "nct": "NCT03941444",
+    "drugs": [
+     "ANAVEX2-73"
+    ]
+   },
+   {
+    "nct": "NCT03790709",
+    "drugs": [
+     "High dose ANAVEX2-73",
+     "Mid dose ANAVEX2-73"
+    ]
+   }
+  ]
+ }
+}

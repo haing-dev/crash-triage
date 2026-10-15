@@ -1,0 +1,170 @@
+{
+ "id": "1645469_2026-09-25",
+ "kind": "slide",
+ "cik": "1645469",
+ "name": "Monopar Therapeutics",
+ "date": "2026-09-25",
+ "asof": "2026-09-25",
+ "final": false,
+ "version": 5,
+ "price": {
+  "date": "2026-09-25",
+  "adj_close": 85.235
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 105370465,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001437749-26-027164"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": 6721343.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-07-31",
+  "shares": 6712172
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 12,
+  "from": "2026-06-27",
+  "to": "2026-10-15",
+  "trades": [
+   {
+    "date": "2026-10-01",
+    "filed": "2026-10-05",
+    "code": "S",
+    "value": 361635,
+    "who": "STARR CHRISTOPHER M"
+   },
+   {
+    "date": "2026-10-01",
+    "filed": "2026-10-05",
+    "code": "S",
+    "value": 234095,
+    "who": "STARR CHRISTOPHER M"
+   },
+   {
+    "date": "2026-10-01",
+    "filed": "2026-10-05",
+    "code": "S",
+    "value": 63656,
+    "who": "STARR CHRISTOPHER M"
+   },
+   {
+    "date": "2026-09-24",
+    "filed": "2026-09-28",
+    "code": "S",
+    "value": 910718,
+    "who": "Robinson Chandler"
+   },
+   {
+    "date": "2026-09-24",
+    "filed": "2026-09-28",
+    "code": "S",
+    "value": 847758,
+    "who": "Robinson Chandler"
+   },
+   {
+    "date": "2026-09-24",
+    "filed": "2026-09-28",
+    "code": "S",
+    "value": 744501,
+    "who": "Robinson Chandler"
+   },
+   {
+    "date": "2026-09-24",
+    "filed": "2026-09-28",
+    "code": "S",
+    "value": 53874,
+    "who": "Robinson Chandler"
+   },
+   {
+    "date": "2026-08-26",
+    "filed": "2026-08-27",
+    "code": "S",
+    "value": 111,
+    "who": "RIOUX PATRICE"
+   },
+   {
+    "date": "2026-08-26",
+    "filed": "2026-08-27",
+    "code": "S",
+    "value": 52783,
+    "who": "Tsuchimoto Kim R"
+   },
+   {
+    "date": "2026-08-26",
+    "filed": "2026-08-27",
+    "code": "S",
+    "value": 67379,
+    "who": "Tsuchimoto Kim R"
+   },
+   {
+    "date": "2026-08-26",
+    "filed": "2026-08-27",
+    "code": "S",
+    "value": 77455,
+    "who": "Tsuchimoto Kim R"
+   },
+   {
+    "date": "2026-08-26",
+    "filed": "2026-08-27",
+    "code": "S",
+    "value": 122800,
+    "who": "Tsuchimoto Kim R"
+   },
+   {
+    "date": "2026-08-26",
+    "filed": "2026-08-27",
+    "code": "S",
+    "value": 67984,
+    "who": "Tsuchimoto Kim R"
+   },
+   {
+    "date": "2026-08-26",
+    "filed": "2026-08-27",
+    "code": "S",
+    "value": 67166,
+    "who": "Tsuchimoto Kim R"
+   },
+   {
+    "date": "2026-08-25",
+    "filed": "2026-08-27",
+    "code": "S",
+    "value": 76368,
+    "who": "Anderson Raymond"
+   },
+   {
+    "date": "2026-08-25",
+    "filed": "2026-08-27",
+    "code": "S",
+    "value": 71105,
+    "who": "Anderson Raymond"
+   },
+   {
+    "date": "2026-08-25",
+    "filed": "2026-08-27",
+    "code": "S",
+    "value": 203716,
+    "who": "Anderson Raymond"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "monopar therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

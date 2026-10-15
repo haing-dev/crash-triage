@@ -1,0 +1,114 @@
+{
+ "id": "1919246_2026-05-13",
+ "kind": "slide",
+ "cik": "1919246",
+ "name": "Pelthos Therapeutics Inc.",
+ "date": "2026-05-13",
+ "asof": "2026-05-13",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-05-13",
+  "adj_close": 26.01
+ },
+ "balance": {
+  "end": "2025-12-31",
+  "cash": 17973000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001919246-26-000013"
+ },
+ "burn6": {
+  "end": "2025-12-31",
+  "start": "2025-07-01",
+  "cash_used_ops": 21510729.0,
+  "capex": 49674.06593406593,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-03-11",
+  "shares": 3355543
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "The report of the independent registered public accounting firm covering our consolidated financial statements for the year ended December 31, 2024 stated that certain factors, including that we had suffered recurring losses from operations and had an accumulated deficit at December 31, 2024, raised"
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2026-02-12",
+  "to": "2026-06-12",
+  "trades": [
+   {
+    "date": "2026-05-22",
+    "filed": "2026-05-26",
+    "code": "S",
+    "value": 40265,
+    "who": "Francis Knuettel II"
+   },
+   {
+    "date": "2026-04-02",
+    "filed": "2026-04-06",
+    "code": "S",
+    "value": 6359,
+    "who": "Malamut Richard"
+   },
+   {
+    "date": "2026-04-02",
+    "filed": "2026-04-06",
+    "code": "S",
+    "value": 5981,
+    "who": "Malamut Richard"
+   },
+   {
+    "date": "2026-04-02",
+    "filed": "2026-04-06",
+    "code": "S",
+    "value": 6010,
+    "who": "Friedberg Ezra M"
+   },
+   {
+    "date": "2026-04-02",
+    "filed": "2026-04-06",
+    "code": "S",
+    "value": 5661,
+    "who": "Friedberg Ezra M"
+   },
+   {
+    "date": "2026-04-02",
+    "filed": "2026-04-06",
+    "code": "S",
+    "value": 8514,
+    "who": "Pauls Matthew"
+   },
+   {
+    "date": "2026-04-02",
+    "filed": "2026-04-06",
+    "code": "S",
+    "value": 7926,
+    "who": "Pauls Matthew"
+   },
+   {
+    "date": "2026-04-02",
+    "filed": "2026-04-06",
+    "code": "S",
+    "value": 8616,
+    "who": "Greenleaf Peter"
+   },
+   {
+    "date": "2026-04-02",
+    "filed": "2026-04-06",
+    "code": "S",
+    "value": 8053,
+    "who": "Greenleaf Peter"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "pelthos therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

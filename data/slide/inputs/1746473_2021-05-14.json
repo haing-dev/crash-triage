@@ -1,0 +1,154 @@
+{
+ "id": "1746473_2021-05-14",
+ "kind": "slide",
+ "cik": "1746473",
+ "name": "PLIANT THERAPEUTICS, INC.",
+ "date": "2021-05-14",
+ "asof": "2021-05-14",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-05-14",
+  "adj_close": 28.049999
+ },
+ "balance": {
+  "end": "2021-03-31",
+  "cash": 264100000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001746473-21-000008"
+ },
+ "burn6": {
+  "end": "2021-03-31",
+  "start": "2020-10-01",
+  "cash_used_ops": 30150000.0,
+  "capex": 829000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-05-06",
+  "shares": 35894459
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 7,
+  "from": "2021-02-13",
+  "to": "2021-06-13",
+  "trades": [
+   {
+    "date": "2021-05-14",
+    "filed": "2021-05-17",
+    "code": "S",
+    "value": 85499,
+    "who": "Coulie Bernard"
+   },
+   {
+    "date": "2021-05-14",
+    "filed": "2021-05-17",
+    "code": "S",
+    "value": 14726,
+    "who": "Coulie Bernard"
+   },
+   {
+    "date": "2021-04-14",
+    "filed": "2021-04-15",
+    "code": "S",
+    "value": 106161,
+    "who": "Coulie Bernard"
+   },
+   {
+    "date": "2021-03-18",
+    "filed": "2021-03-19",
+    "code": "S",
+    "value": 447528,
+    "who": "Lefebvre Eric"
+   },
+   {
+    "date": "2021-03-18",
+    "filed": "2021-03-19",
+    "code": "S",
+    "value": 45150,
+    "who": "Lefebvre Eric"
+   },
+   {
+    "date": "2021-03-15",
+    "filed": "2021-03-17",
+    "code": "S",
+    "value": 50270,
+    "who": "Coulie Bernard"
+   },
+   {
+    "date": "2021-03-15",
+    "filed": "2021-03-17",
+    "code": "S",
+    "value": 77501,
+    "who": "Coulie Bernard"
+   },
+   {
+    "date": "2021-03-15",
+    "filed": "2021-03-17",
+    "code": "S",
+    "value": 7064,
+    "who": "Coulie Bernard"
+   },
+   {
+    "date": "2021-02-16",
+    "filed": "2021-02-17",
+    "code": "S",
+    "value": 38520,
+    "who": "Coulie Bernard"
+   },
+   {
+    "date": "2021-02-16",
+    "filed": "2021-02-17",
+    "code": "S",
+    "value": 69018,
+    "who": "Coulie Bernard"
+   },
+   {
+    "date": "2021-02-16",
+    "filed": "2021-02-17",
+    "code": "S",
+    "value": 6814,
+    "who": "Coulie Bernard"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "pliant therapeutics",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04396756",
+    "drugs": [
+     "PLN-74809"
+    ]
+   },
+   {
+    "nct": "NCT04072315",
+    "drugs": [
+     "PLN-74809",
+     "Knottin tracer"
+    ]
+   },
+   {
+    "nct": "NCT04480840",
+    "drugs": [
+     "PLN-74809"
+    ]
+   },
+   {
+    "nct": "NCT04565249",
+    "drugs": [
+     "PLN-74809"
+    ]
+   }
+  ]
+ }
+}

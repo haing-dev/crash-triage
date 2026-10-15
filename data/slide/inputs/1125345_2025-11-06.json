@@ -1,0 +1,79 @@
+{
+ "id": "1125345_2025-11-06",
+ "kind": "slide",
+ "cik": "1125345",
+ "name": "MACROGENICS INC",
+ "date": "2025-11-06",
+ "asof": "2025-11-06",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-11-06",
+  "adj_close": 1.36
+ },
+ "balance": {
+  "end": "2025-06-30",
+  "cash": 130686000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001125345-25-000101"
+ },
+ "burn6": {
+  "end": "2025-06-30",
+  "start": "2025-01-01",
+  "cash_used_ops": 93875000.0,
+  "capex": 1244000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-08-08",
+  "shares": 63205703
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2025-08-08",
+  "to": "2025-12-06",
+  "trades": [
+   {
+    "date": "2025-08-19",
+    "filed": "2025-08-21",
+    "code": "P",
+    "value": 76760,
+    "who": "HEIDEN WILLIAM K"
+   },
+   {
+    "date": "2025-08-20",
+    "filed": "2025-08-21",
+    "code": "P",
+    "value": 73755,
+    "who": "HEIDEN WILLIAM K"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "macrogenics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06730347",
+    "drugs": [
+     "Lorigerlimab"
+    ]
+   },
+   {
+    "nct": "NCT05848011",
+    "drugs": [
+     "lorigerlimab",
+     "docetaxel",
+     "Prednisone"
+    ]
+   }
+  ]
+ }
+}

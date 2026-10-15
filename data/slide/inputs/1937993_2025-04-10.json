@@ -1,0 +1,49 @@
+{
+ "id": "1937993_2025-04-10",
+ "kind": "slide",
+ "cik": "1937993",
+ "name": "Cadrenal Therapeutics, Inc.",
+ "date": "2025-04-10",
+ "asof": "2025-04-10",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-04-10",
+  "adj_close": 14.27
+ },
+ "balance": {
+  "end": "2024-12-31",
+  "cash": 10000000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001213900-25-023759"
+ },
+ "burn6": {
+  "end": "2024-12-31",
+  "start": "2024-07-01",
+  "cash_used_ops": 3991926.0,
+  "capex": 3271.007342465754,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-03-13",
+  "shares": 1879710
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2025-01-10",
+  "to": "2025-05-10",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "cadrenal therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

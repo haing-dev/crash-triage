@@ -1,0 +1,104 @@
+{
+ "id": "1651308_2024-01-22",
+ "kind": "slide",
+ "cik": "1651308",
+ "name": "BeOne Medicines Ltd.",
+ "date": "2024-01-22",
+ "asof": "2024-01-22",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-01-22",
+  "adj_close": 156.62
+ },
+ "balance": {
+  "end": "2023-09-30",
+  "cash": 3067336000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001651308-23-000165"
+ },
+ "burn6": {
+  "end": "2023-09-30",
+  "start": "2023-04-01",
+  "cash_used_ops": 372038000.0,
+  "capex": 279352000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-11-01",
+  "shares": 1359497624
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 2,
+  "from": "2023-10-24",
+  "to": "2024-02-21",
+  "trades": [
+   {
+    "date": "2023-11-14",
+    "filed": "2023-11-14",
+    "code": "S",
+    "value": 16486870,
+    "who": "BAKER BROS. ADVISORS LP"
+   },
+   {
+    "date": "2023-11-14",
+    "filed": "2023-11-14",
+    "code": "S",
+    "value": 182063130,
+    "who": "BAKER BROS. ADVISORS LP"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "beone medicines",
+  "other_trials": 11,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04771130",
+    "drugs": [
+     "BGB-11417",
+     "Azacitidine",
+     "Posaconazole"
+    ]
+   },
+   {
+    "nct": "NCT04002297",
+    "drugs": [
+     "zanubrutinib",
+     "bendamustine",
+     "rituximab"
+    ]
+   },
+   {
+    "nct": "NCT05707377",
+    "drugs": [
+     "Zanubrutinib",
+     "Tacrolimus"
+    ]
+   },
+   {
+    "nct": "NCT05100862",
+    "drugs": [
+     "Zanubrutinib",
+     "Rituximab",
+     "Lenalidomide"
+    ]
+   },
+   {
+    "nct": "NCT06073821",
+    "drugs": [
+     "Sonrotoclax",
+     "Zanubrutinib",
+     "Venetoclax"
+    ]
+   }
+  ]
+ }
+}

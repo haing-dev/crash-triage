@@ -1,0 +1,126 @@
+{
+ "id": "1347178_2023-09-05",
+ "kind": "slide",
+ "cik": "1347178",
+ "name": "Vanda Pharmaceuticals Inc.",
+ "date": "2023-09-05",
+ "asof": "2023-09-05",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-09-05",
+  "adj_close": 4.48
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 150031000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001628280-23-026000"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": -18583000.0,
+  "capex": 106000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-07-20",
+  "shares": 57508663
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 10,
+  "from": "2023-06-07",
+  "to": "2023-10-05",
+  "trades": [
+   {
+    "date": "2023-08-21",
+    "filed": "2023-08-23",
+    "code": "S",
+    "value": 21748,
+    "who": "Wijkstrom Joakim"
+   },
+   {
+    "date": "2023-08-10",
+    "filed": "2023-08-11",
+    "code": "S",
+    "value": 39349,
+    "who": "Mitchell Stephen Ray"
+   },
+   {
+    "date": "2023-07-28",
+    "filed": "2023-08-01",
+    "code": "S",
+    "value": 2596,
+    "who": "Moran Kevin Patrick"
+   },
+   {
+    "date": "2023-07-28",
+    "filed": "2023-08-01",
+    "code": "S",
+    "value": 11349,
+    "who": "Moran Kevin Patrick"
+   },
+   {
+    "date": "2023-06-15",
+    "filed": "2023-06-20",
+    "code": "S",
+    "value": 100710,
+    "who": "Moran Kevin Patrick"
+   },
+   {
+    "date": "2023-06-13",
+    "filed": "2023-06-15",
+    "code": "S",
+    "value": 95754,
+    "who": "Williams Timothy"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "vanda pharmaceuticals",
+  "other_trials": 7,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06138613",
+    "drugs": [
+     "Tradipitant"
+    ]
+   },
+   {
+    "nct": "NCT04028492",
+    "drugs": [
+     "Tradipitant",
+     "Open Label Tradipitant"
+    ]
+   },
+   {
+    "nct": "NCT05366855",
+    "drugs": [
+     "Double-blind 200 mg imsidolimab",
+     "Open-label 200 mg imsidolimab",
+     "Standard of Care (SOC)"
+    ]
+   },
+   {
+    "nct": "NCT05344365",
+    "drugs": [
+     "Iloperidone"
+    ]
+   },
+   {
+    "nct": "NCT01218789",
+    "drugs": [
+     "tasimelteon"
+    ]
+   }
+  ]
+ }
+}

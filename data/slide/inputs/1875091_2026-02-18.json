@@ -1,0 +1,49 @@
+{
+ "id": "1875091_2026-02-18",
+ "kind": "slide",
+ "cik": "1875091",
+ "name": "NeuroSense Therapeutics Ltd.",
+ "date": "2026-02-18",
+ "asof": "2026-02-18",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-02-18",
+  "adj_close": 17.06
+ },
+ "balance": {
+  "end": "2025-06-30",
+  "cash": 666000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001213900-25-070315"
+ },
+ "burn6": {
+  "end": "2025-06-30",
+  "start": "2025-01-01",
+  "cash_used_ops": 4000000.0,
+  "capex": 5000.0,
+  "periods": 1
+ },
+ "shares": {
+  "end": "2024-12-31",
+  "shares": 23228941
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2025-11-20",
+  "to": "2026-03-20",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "neurosense therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

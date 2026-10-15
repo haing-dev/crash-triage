@@ -1,0 +1,58 @@
+{
+ "id": "1733413_2024-10-24",
+ "kind": "slide",
+ "cik": "1733413",
+ "name": "TFF Pharmaceuticals, Inc.",
+ "date": "2024-10-24",
+ "asof": "2024-10-24",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-10-24",
+  "adj_close": 2.06
+ },
+ "balance": {
+  "end": "2024-06-30",
+  "cash": 4387198,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001213900-24-068964"
+ },
+ "burn6": {
+  "end": "2024-06-30",
+  "start": "2024-01-01",
+  "cash_used_ops": 6397747.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-08-12",
+  "shares": 3466041
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "\u25cfThe report of our independent registered public accounting firm for the year ended December 31, 2023 states that due to our lack of revenue from commercial operations, significant losses and need for additional capital there is substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2024-07-26",
+  "to": "2024-11-23",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "tff pharmaceuticals",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05501574",
+    "drugs": [
+     "Tacrolimus Inhalation Powder",
+     "Plastiape RS00 Dry Powder inhaler device"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,186 @@
+{
+ "id": "1771917_2022-06-16",
+ "kind": "slide",
+ "cik": "1771917",
+ "name": "Karuna Therapeutics, Inc.",
+ "date": "2022-06-16",
+ "asof": "2022-06-16",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-06-16",
+  "adj_close": 100.28
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 176203000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-22-007547"
+ },
+ "burn6": {
+  "end": "2022-03-31",
+  "start": "2021-10-01",
+  "cash_used_ops": 56801000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-04-30",
+  "shares": 29882727
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 15,
+  "from": "2022-03-18",
+  "to": "2022-07-16",
+  "trades": [
+   {
+    "date": "2022-07-11",
+    "filed": "2022-07-11",
+    "code": "S",
+    "value": 1999350,
+    "who": "Brannan Stephen K."
+   },
+   {
+    "date": "2022-06-29",
+    "filed": "2022-07-01",
+    "code": "P",
+    "value": 3388516,
+    "who": "HEALY JAMES"
+   },
+   {
+    "date": "2022-06-29",
+    "filed": "2022-07-01",
+    "code": "P",
+    "value": 496595,
+    "who": "HEALY JAMES"
+   },
+   {
+    "date": "2022-06-29",
+    "filed": "2022-07-01",
+    "code": "P",
+    "value": 852155,
+    "who": "HEALY JAMES"
+   },
+   {
+    "date": "2022-06-29",
+    "filed": "2022-07-01",
+    "code": "P",
+    "value": 1141125,
+    "who": "HEALY JAMES"
+   },
+   {
+    "date": "2022-06-30",
+    "filed": "2022-07-01",
+    "code": "P",
+    "value": 5876541,
+    "who": "HEALY JAMES"
+   },
+   {
+    "date": "2022-06-30",
+    "filed": "2022-07-01",
+    "code": "P",
+    "value": 2981226,
+    "who": "HEALY JAMES"
+   },
+   {
+    "date": "2022-06-09",
+    "filed": "2022-06-09",
+    "code": "S",
+    "value": 554500,
+    "who": "Brannan Stephen K."
+   },
+   {
+    "date": "2022-05-27",
+    "filed": "2022-05-31",
+    "code": "S",
+    "value": 110000,
+    "who": "OLSON LAURIE J"
+   },
+   {
+    "date": "2022-05-09",
+    "filed": "2022-05-09",
+    "code": "S",
+    "value": 520500,
+    "who": "Brannan Stephen K."
+   },
+   {
+    "date": "2022-04-19",
+    "filed": "2022-04-21",
+    "code": "S",
+    "value": 457835,
+    "who": "Ignelzi Troy A."
+   },
+   {
+    "date": "2022-04-20",
+    "filed": "2022-04-21",
+    "code": "S",
+    "value": 93773,
+    "who": "Ignelzi Troy A."
+   },
+   {
+    "date": "2022-04-21",
+    "filed": "2022-04-21",
+    "code": "S",
+    "value": 5378,
+    "who": "Ignelzi Troy A."
+   },
+   {
+    "date": "2022-04-01",
+    "filed": "2022-04-14",
+    "code": "P",
+    "value": 6081,
+    "who": "HEALY JAMES"
+   },
+   {
+    "date": "2022-04-01",
+    "filed": "2022-04-04",
+    "code": "S",
+    "value": 992662,
+    "who": "Brannan Stephen K."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "karuna therapeutics",
+  "other_trials": 5,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04820309",
+    "drugs": [
+     "Xanomeline and Trospium Chloride Capsules"
+    ]
+   },
+   {
+    "nct": "NCT05304767",
+    "drugs": [
+     "Xanomeline and Trospium Chloride Capsules"
+    ]
+   },
+   {
+    "nct": "NCT05145413",
+    "drugs": [
+     "Xanomeline and Trospium Chloride Capsules"
+    ]
+   },
+   {
+    "nct": "NCT04659174",
+    "drugs": [
+     "Xanomeline and Trospium Chloride Capsules"
+    ]
+   },
+   {
+    "nct": "NCT04738123",
+    "drugs": [
+     "Xanomeline and Trospium Chloride Capsules"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "id": "1600132_2022-10-28",
+ "kind": "slide",
+ "cik": "1600132",
+ "name": "Bellerophon Therapeutics, Inc.",
+ "date": "2022-10-28",
+ "asof": "2022-10-28",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-10-28",
+  "adj_close": 1.07
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 16328000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-22-013565"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 8408000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-08-12",
+  "shares": 9545451
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "\u25cfThe risk that the Company will be unable to obtain additional funds on a timely basis and hence there will be substantial doubt about its ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2022-07-30",
+  "to": "2022-11-27",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "bellerophon therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

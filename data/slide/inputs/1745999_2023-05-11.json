@@ -1,0 +1,135 @@
+{
+ "id": "1745999_2023-05-11",
+ "kind": "slide",
+ "cik": "1745999",
+ "name": "Beam Therapeutics Inc.",
+ "date": "2023-05-11",
+ "asof": "2023-05-11",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-05-11",
+  "adj_close": 35.18
+ },
+ "balance": {
+  "end": "2023-03-31",
+  "cash": 1059471000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-23-020090"
+ },
+ "burn6": {
+  "end": "2023-03-31",
+  "start": "2022-10-01",
+  "cash_used_ops": 179006000.0,
+  "capex": 14278000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-05-03",
+  "shares": 76217463
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 16,
+  "from": "2023-02-10",
+  "to": "2023-06-10",
+  "trades": [
+   {
+    "date": "2023-04-03",
+    "filed": "2023-04-05",
+    "code": "S",
+    "value": 156430,
+    "who": "Evans John M."
+   },
+   {
+    "date": "2023-04-04",
+    "filed": "2023-04-05",
+    "code": "S",
+    "value": 188904,
+    "who": "Evans John M."
+   },
+   {
+    "date": "2023-04-03",
+    "filed": "2023-04-05",
+    "code": "S",
+    "value": 58135,
+    "who": "Ciaramella Giuseppe"
+   },
+   {
+    "date": "2023-04-04",
+    "filed": "2023-04-05",
+    "code": "S",
+    "value": 51029,
+    "who": "Ciaramella Giuseppe"
+   },
+   {
+    "date": "2023-04-03",
+    "filed": "2023-04-05",
+    "code": "S",
+    "value": 28219,
+    "who": "Bellon Christine"
+   },
+   {
+    "date": "2023-04-04",
+    "filed": "2023-04-05",
+    "code": "S",
+    "value": 33777,
+    "who": "Bellon Christine"
+   },
+   {
+    "date": "2023-04-03",
+    "filed": "2023-04-05",
+    "code": "S",
+    "value": 134728,
+    "who": "Simon Amy"
+   },
+   {
+    "date": "2023-04-04",
+    "filed": "2023-04-05",
+    "code": "S",
+    "value": 312339,
+    "who": "Simon Amy"
+   },
+   {
+    "date": "2023-04-04",
+    "filed": "2023-04-05",
+    "code": "S",
+    "value": 33777,
+    "who": "Simon Amy"
+   },
+   {
+    "date": "2023-04-03",
+    "filed": "2023-04-05",
+    "code": "S",
+    "value": 74381,
+    "who": "Burrell Terry-Ann"
+   },
+   {
+    "date": "2023-04-04",
+    "filed": "2023-04-05",
+    "code": "S",
+    "value": 63598,
+    "who": "Burrell Terry-Ann"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "beam therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05456880",
+    "drugs": [
+     "BEAM-101"
+    ]
+   }
+  ]
+ }
+}

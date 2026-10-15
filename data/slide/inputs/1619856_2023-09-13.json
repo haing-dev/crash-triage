@@ -1,0 +1,51 @@
+{
+ "id": "1619856_2023-09-13",
+ "kind": "slide",
+ "cik": "1619856",
+ "name": "Caribou Biosciences, Inc.",
+ "date": "2023-09-13",
+ "asof": "2023-09-13",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-09-13",
+  "adj_close": 5.6
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 292521000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0001619856-23-000107"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 43124000.0,
+  "capex": 4584000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-08-03",
+  "shares": 88284776
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2023-06-15",
+  "to": "2023-10-13",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "caribou biosciences",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

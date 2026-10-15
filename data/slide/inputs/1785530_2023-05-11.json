@@ -1,0 +1,49 @@
+{
+ "id": "1785530_2023-05-11",
+ "kind": "slide",
+ "cik": "1785530",
+ "name": "Werewolf Therapeutics, Inc.",
+ "date": "2023-05-11",
+ "asof": "2023-05-11",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-05-11",
+  "adj_close": 2.77
+ },
+ "balance": {
+  "end": "2023-03-31",
+  "cash": 147868000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001785530-23-000017"
+ },
+ "burn6": {
+  "end": "2023-03-31",
+  "start": "2022-10-01",
+  "cash_used_ops": 21768000.0,
+  "capex": 686000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-05-05",
+  "shares": 35611355
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2023-02-10",
+  "to": "2023-06-10",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "werewolf therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

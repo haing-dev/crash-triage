@@ -1,0 +1,49 @@
+{
+ "id": "1566373_2022-12-19",
+ "kind": "slide",
+ "cik": "1566373",
+ "name": "F-star Therapeutics, Inc.",
+ "date": "2022-12-19",
+ "asof": "2022-12-19",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-12-19",
+  "adj_close": 4.09
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 35568000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-22-024526"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 33080000.0,
+  "capex": 189354.70588235295,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-09-30",
+  "shares": 21981919
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2022-09-20",
+  "to": "2023-01-18",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "f star therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

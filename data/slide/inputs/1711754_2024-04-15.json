@@ -1,0 +1,69 @@
+{
+ "id": "1711754_2024-04-15",
+ "kind": "slide",
+ "cik": "1711754",
+ "name": "Inmune Bio, Inc.",
+ "date": "2024-04-15",
+ "asof": "2024-04-15",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-04-15",
+  "adj_close": 9.58
+ },
+ "balance": {
+  "end": "2023-12-31",
+  "cash": 35848000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001213900-24-027206"
+ },
+ "burn6": {
+  "end": "2023-12-31",
+  "start": "2023-07-01",
+  "cash_used_ops": 7665000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-03-27",
+  "shares": 18026473
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These factors raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2024-01-16",
+  "to": "2024-05-15",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "inmune bio",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06056791",
+    "drugs": [
+     "INKmune"
+    ]
+   },
+   {
+    "nct": "NCT05522387",
+    "drugs": [
+     "XPro1595"
+    ]
+   },
+   {
+    "nct": "NCT05318976",
+    "drugs": [
+     "XPro1595"
+    ]
+   }
+  ]
+ }
+}

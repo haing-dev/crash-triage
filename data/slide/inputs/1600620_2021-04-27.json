@@ -1,0 +1,149 @@
+{
+ "id": "1600620_2021-04-27",
+ "kind": "slide",
+ "cik": "1600620",
+ "name": "Aurinia Pharmaceuticals Inc.",
+ "date": "2021-04-27",
+ "asof": "2021-04-27",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-04-27",
+  "adj_close": 12.39
+ },
+ "balance": {
+  "end": "2020-12-31",
+  "cash": 272350000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001628280-21-003060"
+ },
+ "burn6": null,
+ "shares": {
+  "end": "2021-02-24",
+  "shares": 127450815
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 12,
+  "from": "2021-01-27",
+  "to": "2021-05-27",
+  "trades": [
+   {
+    "date": "2021-05-11",
+    "filed": "2021-05-13",
+    "code": "P",
+    "value": 5585,
+    "who": "MacKay-Dunn R. Hector"
+   },
+   {
+    "date": "2021-05-11",
+    "filed": "2021-05-13",
+    "code": "P",
+    "value": 11140,
+    "who": "MacKay-Dunn R. Hector"
+   },
+   {
+    "date": "2021-05-12",
+    "filed": "2021-05-13",
+    "code": "P",
+    "value": 15764,
+    "who": "MacKay-Dunn R. Hector"
+   },
+   {
+    "date": "2021-05-12",
+    "filed": "2021-05-13",
+    "code": "P",
+    "value": 18040,
+    "who": "MacKay-Dunn R. Hector"
+   },
+   {
+    "date": "2021-05-11",
+    "filed": "2021-05-12",
+    "code": "P",
+    "value": 99739,
+    "who": "Donley Matthew Maxwell"
+   },
+   {
+    "date": "2021-05-11",
+    "filed": "2021-05-12",
+    "code": "P",
+    "value": 21650,
+    "who": "Greenleaf Peter"
+   },
+   {
+    "date": "2021-05-11",
+    "filed": "2021-05-12",
+    "code": "P",
+    "value": 33241,
+    "who": "Greenleaf Peter"
+   },
+   {
+    "date": "2021-05-11",
+    "filed": "2021-05-12",
+    "code": "P",
+    "value": 27389,
+    "who": "Leversage Jill"
+   },
+   {
+    "date": "2021-05-11",
+    "filed": "2021-05-11",
+    "code": "P",
+    "value": 9740,
+    "who": "Miller Joseph M"
+   },
+   {
+    "date": "2021-03-12",
+    "filed": "2021-03-15",
+    "code": "S",
+    "value": 539600,
+    "who": "Solomons Neil"
+   },
+   {
+    "date": "2021-03-05",
+    "filed": "2021-03-09",
+    "code": "P",
+    "value": 65000,
+    "who": "MILNE GEORGE M JR"
+   },
+   {
+    "date": "2021-01-29",
+    "filed": "2021-02-02",
+    "code": "P",
+    "value": 6412,
+    "who": "Leversage Jill"
+   },
+   {
+    "date": "2021-01-29",
+    "filed": "2021-02-02",
+    "code": "P",
+    "value": 19236,
+    "who": "Leversage Jill"
+   },
+   {
+    "date": "2021-01-28",
+    "filed": "2021-01-29",
+    "code": "P",
+    "value": 14526,
+    "who": "Robertson Stephen P."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "aurinia pharmaceuticals",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03597464",
+    "drugs": [
+     "Voclosporin"
+    ]
+   }
+  ]
+ }
+}

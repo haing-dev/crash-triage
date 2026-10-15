@@ -1,0 +1,58 @@
+{
+ "id": "1287098_2022-07-22",
+ "kind": "slide",
+ "cik": "1287098",
+ "name": "MAXCYTE, INC.",
+ "date": "2022-07-22",
+ "asof": "2022-07-22",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-07-22",
+  "adj_close": 5.24
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 246275900,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001558370-22-007869"
+ },
+ "burn6": {
+  "end": "2022-03-31",
+  "start": "2021-10-01",
+  "cash_used_ops": 4654450.0,
+  "capex": 7121650.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-04-30",
+  "shares": 101540052
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2022-04-23",
+  "to": "2022-08-21",
+  "trades": [
+   {
+    "date": "2022-07-01",
+    "filed": "2022-07-06",
+    "code": "S",
+    "value": 13912856,
+    "who": "Casdin Partners Master Fund, L.P."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "maxcyte",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,112 @@
+{
+ "id": "1861560_2022-06-30",
+ "kind": "slide",
+ "cik": "1861560",
+ "name": "Nuvalent, Inc.",
+ "date": "2022-06-30",
+ "asof": "2022-06-30",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-06-30",
+  "adj_close": 13.56
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 272734000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001193125-22-148022"
+ },
+ "burn6": {
+  "end": "2022-03-31",
+  "start": "2021-10-01",
+  "cash_used_ops": 26497000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": null,
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 13,
+  "from": "2022-04-01",
+  "to": "2022-07-30",
+  "trades": [
+   {
+    "date": "2022-07-15",
+    "filed": "2022-07-19",
+    "code": "S",
+    "value": 59925,
+    "who": "Noci Darlene"
+   },
+   {
+    "date": "2022-07-15",
+    "filed": "2022-07-19",
+    "code": "S",
+    "value": 5454,
+    "who": "Noci Darlene"
+   },
+   {
+    "date": "2022-07-18",
+    "filed": "2022-07-19",
+    "code": "S",
+    "value": 1707,
+    "who": "Noci Darlene"
+   },
+   {
+    "date": "2022-07-19",
+    "filed": "2022-07-19",
+    "code": "S",
+    "value": 5412,
+    "who": "Noci Darlene"
+   },
+   {
+    "date": "2022-07-13",
+    "filed": "2022-07-15",
+    "code": "S",
+    "value": 1825,
+    "who": "Shair Matthew"
+   },
+   {
+    "date": "2022-07-15",
+    "filed": "2022-07-15",
+    "code": "S",
+    "value": 36580,
+    "who": "Shair Matthew"
+   },
+   {
+    "date": "2022-07-07",
+    "filed": "2022-07-08",
+    "code": "S",
+    "value": 295848,
+    "who": "Noci Darlene"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "nuvalent",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05118789",
+    "drugs": [
+     "Zidesamtinib (NVL-520)"
+    ]
+   },
+   {
+    "nct": "NCT05384626",
+    "drugs": [
+     "Neladalkib (NVL-655)",
+     "Midazolam",
+     "Repaglinide"
+    ]
+   }
+  ]
+ }
+}

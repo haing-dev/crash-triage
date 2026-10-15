@@ -1,0 +1,106 @@
+{
+ "id": "1034842_2024-04-18",
+ "kind": "slide",
+ "cik": "1034842",
+ "name": "RIGEL PHARMACEUTICALS INC",
+ "date": "2024-04-18",
+ "asof": "2024-04-18",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-04-18",
+  "adj_close": 10.5
+ },
+ "balance": {
+  "end": "2023-12-31",
+  "cash": 56933000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001558370-24-002475"
+ },
+ "burn6": {
+  "end": "2023-12-31",
+  "start": "2023-07-01",
+  "cash_used_ops": 7599000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-02-28",
+  "shares": 175377812
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 12,
+  "from": "2024-01-19",
+  "to": "2024-05-18",
+  "trades": [
+   {
+    "date": "2024-02-02",
+    "filed": "2024-02-06",
+    "code": "S",
+    "value": 6329,
+    "who": "Santos David A"
+   },
+   {
+    "date": "2024-02-05",
+    "filed": "2024-02-06",
+    "code": "S",
+    "value": 10167,
+    "who": "Santos David A"
+   },
+   {
+    "date": "2024-02-02",
+    "filed": "2024-02-06",
+    "code": "S",
+    "value": 6327,
+    "who": "Schorno Dean L"
+   },
+   {
+    "date": "2024-02-05",
+    "filed": "2024-02-06",
+    "code": "S",
+    "value": 8011,
+    "who": "Schorno Dean L"
+   },
+   {
+    "date": "2024-02-02",
+    "filed": "2024-02-06",
+    "code": "S",
+    "value": 25261,
+    "who": "RODRIGUEZ RAUL R"
+   },
+   {
+    "date": "2024-02-05",
+    "filed": "2024-02-06",
+    "code": "S",
+    "value": 34821,
+    "who": "RODRIGUEZ RAUL R"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "rigel pharmaceuticals",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04138927",
+    "drugs": [
+     "Fostamatinib disodium"
+    ]
+   },
+   {
+    "nct": "NCT05308264",
+    "drugs": [
+     "R906289 Monosodium (R289 Na)"
+    ]
+   }
+  ]
+ }
+}

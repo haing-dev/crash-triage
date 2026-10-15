@@ -1,0 +1,57 @@
+{
+ "id": "1597553_2022-02-23",
+ "kind": "slide",
+ "cik": "1597553",
+ "name": "Sage Therapeutics, Inc.",
+ "date": "2022-02-23",
+ "asof": "2022-02-23",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-02-23",
+  "adj_close": 32.61
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 1843169000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001564590-21-053304"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 171595000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-10-26",
+  "shares": 58908485
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2021-11-25",
+  "to": "2022-03-25",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "sage therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05173012",
+    "drugs": [
+     "SAGE-324"
+    ]
+   }
+  ]
+ }
+}

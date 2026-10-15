@@ -1,0 +1,115 @@
+{
+ "id": "1709401_2021-04-12",
+ "kind": "slide",
+ "cik": "1709401",
+ "name": "Rubius Therapeutics, Inc.",
+ "date": "2021-04-12",
+ "asof": "2021-04-12",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-04-12",
+  "adj_close": 22.26
+ },
+ "balance": {
+  "end": "2020-12-31",
+  "cash": 176287000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001558370-21-001412"
+ },
+ "burn6": {
+  "end": "2020-12-31",
+  "start": "2020-07-01",
+  "cash_used_ops": 59081000.0,
+  "capex": 1551000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-01-29",
+  "shares": 81181972
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2021-01-12",
+  "to": "2021-05-12",
+  "trades": [
+   {
+    "date": "2021-03-19",
+    "filed": "2021-03-23",
+    "code": "P",
+    "value": 2030000,
+    "who": "Flagship Ventures Fund IV General Partner LLC"
+   },
+   {
+    "date": "2021-03-19",
+    "filed": "2021-03-23",
+    "code": "P",
+    "value": 2030000,
+    "who": "Flagship Ventures Fund IV General Partner LLC"
+   },
+   {
+    "date": "2021-03-19",
+    "filed": "2021-03-23",
+    "code": "P",
+    "value": 2030000,
+    "who": "Flagship Ventures Fund IV General Partner LLC"
+   },
+   {
+    "date": "2021-03-15",
+    "filed": "2021-03-15",
+    "code": "S",
+    "value": 505965,
+    "who": "Keson-Brookes Maiken"
+   },
+   {
+    "date": "2021-02-11",
+    "filed": "2021-02-16",
+    "code": "S",
+    "value": 398560,
+    "who": "Epstein David R"
+   },
+   {
+    "date": "2021-02-08",
+    "filed": "2021-02-10",
+    "code": "S",
+    "value": 1328117,
+    "who": "Epstein David R"
+   },
+   {
+    "date": "2021-02-09",
+    "filed": "2021-02-10",
+    "code": "S",
+    "value": 31146,
+    "who": "Epstein David R"
+   },
+   {
+    "date": "2021-02-10",
+    "filed": "2021-02-10",
+    "code": "S",
+    "value": 109525,
+    "who": "Epstein David R"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "rubius therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04372706",
+    "drugs": [
+     "RTX-240",
+     "Pembrolizumab"
+    ]
+   }
+  ]
+ }
+}

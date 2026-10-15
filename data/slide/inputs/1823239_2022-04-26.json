@@ -1,0 +1,46 @@
+{
+ "id": "1823239_2022-04-26",
+ "kind": "slide",
+ "cik": "1823239",
+ "name": "MARAVAI LIFESCIENCES HOLDINGS, INC.",
+ "date": "2022-04-26",
+ "asof": "2022-04-26",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-04-26",
+  "adj_close": 31.81
+ },
+ "balance": {
+  "end": "2021-12-31",
+  "cash": 551272000,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0001823239-22-000012"
+ },
+ "burn6": {
+  "end": "2021-12-31",
+  "start": "2021-07-01",
+  "cash_used_ops": -164023000.0,
+  "capex": 7068000.0,
+  "periods": 2
+ },
+ "shares": null,
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2022-01-26",
+  "to": "2022-05-26",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "maravai lifesciences",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

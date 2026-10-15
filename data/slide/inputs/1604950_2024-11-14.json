@@ -1,0 +1,49 @@
+{
+ "id": "1604950_2024-11-14",
+ "kind": "slide",
+ "cik": "1604950",
+ "name": "scPharmaceuticals Inc.",
+ "date": "2024-11-14",
+ "asof": "2024-11-14",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-11-14",
+  "adj_close": 3.36
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 91484000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-24-126490"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": 37651000.0,
+  "capex": 6021.0989010989015,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-11-12",
+  "shares": 50040134
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2024-08-16",
+  "to": "2024-12-14",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "scpharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

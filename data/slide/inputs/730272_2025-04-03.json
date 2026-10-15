@@ -1,0 +1,112 @@
+{
+ "id": "730272_2025-04-03",
+ "kind": "slide",
+ "cik": "730272",
+ "name": "REPLIGEN CORP",
+ "date": "2025-04-03",
+ "asof": "2025-04-03",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-04-03",
+  "adj_close": 121.7
+ },
+ "balance": {
+  "end": "2024-12-31",
+  "cash": 757355000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-25-038999"
+ },
+ "burn6": {
+  "end": "2024-12-31",
+  "start": "2024-07-01",
+  "cash_used_ops": -88496000.0,
+  "capex": 12523000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-03-11",
+  "shares": 56148556
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 17,
+  "from": "2025-01-03",
+  "to": "2025-05-03",
+  "trades": [
+   {
+    "date": "2025-03-17",
+    "filed": "2025-03-19",
+    "code": "S",
+    "value": 8883,
+    "who": "Hunt Anthony"
+   },
+   {
+    "date": "2025-03-17",
+    "filed": "2025-03-19",
+    "code": "S",
+    "value": 15038,
+    "who": "Hunt Anthony"
+   },
+   {
+    "date": "2025-03-17",
+    "filed": "2025-03-19",
+    "code": "S",
+    "value": 380445,
+    "who": "Hunt Anthony"
+   },
+   {
+    "date": "2025-03-17",
+    "filed": "2025-03-19",
+    "code": "S",
+    "value": 938505,
+    "who": "Hunt Anthony"
+   },
+   {
+    "date": "2025-03-17",
+    "filed": "2025-03-19",
+    "code": "S",
+    "value": 2386896,
+    "who": "Hunt Anthony"
+   },
+   {
+    "date": "2025-03-17",
+    "filed": "2025-03-19",
+    "code": "S",
+    "value": 350897,
+    "who": "Hunt Anthony"
+   },
+   {
+    "date": "2025-03-17",
+    "filed": "2025-03-18",
+    "code": "P",
+    "value": 37672,
+    "who": "Pax Margaret"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "repligen",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT00322764",
+    "drugs": [
+     "Uridine"
+    ]
+   },
+   {
+    "nct": "NCT00036231",
+    "drugs": [
+     "RG1068 (Synthetic Human Secretin)"
+    ]
+   }
+  ]
+ }
+}

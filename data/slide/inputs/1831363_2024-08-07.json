@@ -1,0 +1,177 @@
+{
+ "id": "1831363_2024-08-07",
+ "kind": "slide",
+ "cik": "1831363",
+ "name": "Terns Pharmaceuticals, Inc.",
+ "date": "2024-08-07",
+ "asof": "2024-08-07",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-08-07",
+  "adj_close": 6.66
+ },
+ "balance": {
+  "end": "2024-06-30",
+  "cash": 225297000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-24-090925"
+ },
+ "burn6": {
+  "end": "2024-06-30",
+  "start": "2024-01-01",
+  "cash_used_ops": 38977000.0,
+  "capex": 42000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-07-26",
+  "shares": 70371911
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 19,
+  "from": "2024-05-09",
+  "to": "2024-09-06",
+  "trades": [
+   {
+    "date": "2024-08-01",
+    "filed": "2024-08-05",
+    "code": "S",
+    "value": 47148,
+    "who": "Quigley Jill M."
+   },
+   {
+    "date": "2024-08-02",
+    "filed": "2024-08-05",
+    "code": "S",
+    "value": 66432,
+    "who": "Quigley Jill M."
+   },
+   {
+    "date": "2024-07-15",
+    "filed": "2024-07-17",
+    "code": "S",
+    "value": 394330,
+    "who": "GORDON CARL L"
+   },
+   {
+    "date": "2024-07-15",
+    "filed": "2024-07-17",
+    "code": "S",
+    "value": 54010,
+    "who": "GORDON CARL L"
+   },
+   {
+    "date": "2024-07-15",
+    "filed": "2024-07-17",
+    "code": "S",
+    "value": 61420,
+    "who": "GORDON CARL L"
+   },
+   {
+    "date": "2024-07-16",
+    "filed": "2024-07-17",
+    "code": "S",
+    "value": 40090,
+    "who": "GORDON CARL L"
+   },
+   {
+    "date": "2024-07-16",
+    "filed": "2024-07-17",
+    "code": "S",
+    "value": 5560,
+    "who": "GORDON CARL L"
+   },
+   {
+    "date": "2024-07-16",
+    "filed": "2024-07-17",
+    "code": "S",
+    "value": 6230,
+    "who": "GORDON CARL L"
+   },
+   {
+    "date": "2024-07-15",
+    "filed": "2024-07-17",
+    "code": "S",
+    "value": 394330,
+    "who": "ORBIMED ADVISORS LLC"
+   },
+   {
+    "date": "2024-07-15",
+    "filed": "2024-07-17",
+    "code": "S",
+    "value": 54010,
+    "who": "ORBIMED ADVISORS LLC"
+   },
+   {
+    "date": "2024-07-15",
+    "filed": "2024-07-17",
+    "code": "S",
+    "value": 61420,
+    "who": "ORBIMED ADVISORS LLC"
+   },
+   {
+    "date": "2024-07-16",
+    "filed": "2024-07-17",
+    "code": "S",
+    "value": 40090,
+    "who": "ORBIMED ADVISORS LLC"
+   },
+   {
+    "date": "2024-07-16",
+    "filed": "2024-07-17",
+    "code": "S",
+    "value": 5560,
+    "who": "ORBIMED ADVISORS LLC"
+   },
+   {
+    "date": "2024-07-16",
+    "filed": "2024-07-17",
+    "code": "S",
+    "value": 6230,
+    "who": "ORBIMED ADVISORS LLC"
+   },
+   {
+    "date": "2024-07-15",
+    "filed": "2024-07-17",
+    "code": "S",
+    "value": 143660,
+    "who": "Quigley Jill M."
+   },
+   {
+    "date": "2024-07-16",
+    "filed": "2024-07-17",
+    "code": "S",
+    "value": 4000,
+    "who": "Quigley Jill M."
+   },
+   {
+    "date": "2024-05-31",
+    "filed": "2024-06-04",
+    "code": "P",
+    "value": 21272,
+    "who": "Yoon Seokho Bryan"
+   },
+   {
+    "date": "2024-05-31",
+    "filed": "2024-06-04",
+    "code": "P",
+    "value": 21272,
+    "who": "Vignola Mark J."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "terns pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

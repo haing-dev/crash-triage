@@ -1,0 +1,83 @@
+{
+ "id": "1674365_2021-11-04",
+ "kind": "slide",
+ "cik": "1674365",
+ "name": "Aptinyx Inc.",
+ "date": "2021-11-04",
+ "asof": "2021-11-04",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-11-04",
+  "adj_close": 2.39
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 129226000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-21-011149"
+ },
+ "burn6": {
+  "end": "2021-06-30",
+  "start": "2021-01-01",
+  "cash_used_ops": 25755000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-08-05",
+  "shares": 67715718
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 2,
+  "from": "2021-08-06",
+  "to": "2021-12-04",
+  "trades": [
+   {
+    "date": "2021-11-11",
+    "filed": "2021-11-15",
+    "code": "P",
+    "value": 12960,
+    "who": "HOMBACH ROBERT J."
+   },
+   {
+    "date": "2021-11-12",
+    "filed": "2021-11-15",
+    "code": "P",
+    "value": 179040,
+    "who": "HOMBACH ROBERT J."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "aptinyx",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04146896",
+    "drugs": [
+     "NYX-2925 50 mg"
+    ]
+   },
+   {
+    "nct": "NCT04148391",
+    "drugs": [
+     "NYX-458"
+    ]
+   },
+   {
+    "nct": "NCT04147858",
+    "drugs": [
+     "NYX-2925"
+    ]
+   }
+  ]
+ }
+}

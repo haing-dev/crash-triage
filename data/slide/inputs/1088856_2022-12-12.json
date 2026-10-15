@@ -1,0 +1,136 @@
+{
+ "id": "1088856_2022-12-12",
+ "kind": "slide",
+ "cik": "1088856",
+ "name": "CORCEPT THERAPEUTICS INC",
+ "date": "2022-12-12",
+ "asof": "2022-12-12",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-12-12",
+  "adj_close": 20.84
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 401157000,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+   "MarketableSecuritiesCurrent",
+   "MarketableSecuritiesNoncurrent"
+  ],
+  "accn": "0001628280-22-028203"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": -51688000.0,
+  "capex": 370000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-10-26",
+  "shares": 107649854
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2022-09-13",
+  "to": "2023-01-11",
+  "trades": [
+   {
+    "date": "2022-12-01",
+    "filed": "2022-12-05",
+    "code": "S",
+    "value": 15800,
+    "who": "Maduck Sean"
+   },
+   {
+    "date": "2022-11-22",
+    "filed": "2022-11-23",
+    "code": "S",
+    "value": 125308,
+    "who": "Robb Gary Charles"
+   },
+   {
+    "date": "2022-11-23",
+    "filed": "2022-11-23",
+    "code": "S",
+    "value": 4842,
+    "who": "Robb Gary Charles"
+   },
+   {
+    "date": "2022-11-17",
+    "filed": "2022-11-21",
+    "code": "S",
+    "value": 260600,
+    "who": "Robb Gary Charles"
+   },
+   {
+    "date": "2022-11-18",
+    "filed": "2022-11-21",
+    "code": "S",
+    "value": 354188,
+    "who": "Robb Gary Charles"
+   },
+   {
+    "date": "2022-11-10",
+    "filed": "2022-11-15",
+    "code": "S",
+    "value": 639250,
+    "who": "Maduck Sean"
+   },
+   {
+    "date": "2022-10-03",
+    "filed": "2022-10-04",
+    "code": "S",
+    "value": 641000,
+    "who": "Maduck Sean"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "corcept therapeutics",
+  "other_trials": 5,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05257408",
+    "drugs": [
+     "Relacorilant 150 mg",
+     "Nab-paclitaxel 80 mg/m^2",
+     "Nab-paclitaxel 100 mg/m^2"
+    ]
+   },
+   {
+    "nct": "NCT04308590",
+    "drugs": [
+     "Relacorilant"
+    ]
+   },
+   {
+    "nct": "NCT05407324",
+    "drugs": [
+     "Dazucorilant 300 mg",
+     "Dazucorilant 150 mg",
+     "Dazucorilant"
+    ]
+   },
+   {
+    "nct": "NCT03604198",
+    "drugs": [
+     "relacorilant"
+    ]
+   },
+   {
+    "nct": "NCT03697109",
+    "drugs": [
+     "Relacorilant"
+    ]
+   }
+  ]
+ }
+}

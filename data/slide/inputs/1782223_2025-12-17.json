@@ -1,0 +1,59 @@
+{
+ "id": "1782223_2025-12-17",
+ "kind": "slide",
+ "cik": "1782223",
+ "name": "Pyxis Oncology, Inc.",
+ "date": "2025-12-17",
+ "asof": "2025-12-17",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-12-17",
+  "adj_close": 3.37
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 76256000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001193125-25-261696"
+ },
+ "burn6": {
+  "end": "2025-09-30",
+  "start": "2025-04-01",
+  "cash_used_ops": 30540000.0,
+  "capex": 6043.235294117647,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-10-31",
+  "shares": 62264215
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "This condition raises substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2025-09-18",
+  "to": "2026-01-16",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "pyxis oncology",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06795412",
+    "drugs": [
+     "PYX-201",
+     "pembrolizumab"
+    ]
+   }
+  ]
+ }
+}

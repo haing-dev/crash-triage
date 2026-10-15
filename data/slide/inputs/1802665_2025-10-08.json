@@ -1,0 +1,71 @@
+{
+ "id": "1802665_2025-10-08",
+ "kind": "slide",
+ "cik": "1802665",
+ "name": "Harmony Biosciences Holdings, Inc.",
+ "date": "2025-10-08",
+ "asof": "2025-10-08",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-10-08",
+  "adj_close": 26.56
+ },
+ "balance": {
+  "end": "2025-06-30",
+  "cash": 565274000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001558370-25-010185"
+ },
+ "burn6": {
+  "end": "2025-06-30",
+  "start": "2025-01-01",
+  "cash_used_ops": -113314000.0,
+  "capex": 132000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-08-01",
+  "shares": 57532601
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2025-07-10",
+  "to": "2025-11-07",
+  "trades": [
+   {
+    "date": "2025-08-15",
+    "filed": "2025-08-19",
+    "code": "S",
+    "value": 787378,
+    "who": "Kapadia Sandip"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "harmony biosciences",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT07219485",
+    "drugs": [
+     "Pitolisant"
+    ]
+   },
+   {
+    "nct": "NCT06366464",
+    "drugs": [
+     "Pitolisant tablet"
+    ]
+   }
+  ]
+ }
+}

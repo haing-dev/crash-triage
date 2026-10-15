@@ -1,0 +1,50 @@
+{
+ "id": "1535955_2024-04-24",
+ "kind": "slide",
+ "cik": "1535955",
+ "name": "Lipocine Inc.",
+ "date": "2024-04-24",
+ "asof": "2024-04-24",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-04-24",
+  "adj_close": 4.44
+ },
+ "balance": {
+  "end": "2023-12-31",
+  "cash": 22035546,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001493152-24-009127"
+ },
+ "burn6": {
+  "end": "2023-12-31",
+  "start": "2023-07-01",
+  "cash_used_ops": 4628337.0,
+  "capex": 9167.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-03-05",
+  "shares": 5315830
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 2,
+  "from": "2024-01-25",
+  "to": "2024-05-24",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "lipocine",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

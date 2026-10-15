@@ -1,0 +1,50 @@
+{
+ "id": "1645460_2022-12-16",
+ "kind": "slide",
+ "cik": "1645460",
+ "name": "Cue Biopharma, Inc.",
+ "date": "2022-12-16",
+ "asof": "2022-12-16",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-12-16",
+  "adj_close": 81.0
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 59183000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0000950170-22-024991"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 19719000.0,
+  "capex": 143000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-11-01",
+  "shares": 35385582
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2022-09-17",
+  "to": "2023-01-15",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "cue biopharma",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

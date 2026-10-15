@@ -1,0 +1,78 @@
+{
+ "id": "1680367_2025-10-15",
+ "kind": "slide",
+ "cik": "1680367",
+ "name": "Shattuck Labs, Inc.",
+ "date": "2025-10-15",
+ "asof": "2025-10-15",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-10-15",
+  "adj_close": 1.77
+ },
+ "balance": {
+  "end": "2025-06-30",
+  "cash": 50467000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001680367-25-000046"
+ },
+ "burn6": {
+  "end": "2025-06-30",
+  "start": "2025-01-01",
+  "cash_used_ops": 22463000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-08-07",
+  "shares": 47903215
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 10,
+  "from": "2025-07-17",
+  "to": "2025-11-14",
+  "trades": [
+   {
+    "date": "2025-08-25",
+    "filed": "2025-09-02",
+    "code": "P",
+    "value": 4559855,
+    "who": "ORBIMED ADVISORS LLC"
+   },
+   {
+    "date": "2025-08-25",
+    "filed": "2025-09-02",
+    "code": "P",
+    "value": 911971,
+    "who": "ORBIMED ADVISORS LLC"
+   },
+   {
+    "date": "2025-08-25",
+    "filed": "2025-09-02",
+    "code": "P",
+    "value": 4559855,
+    "who": "Ashiya Mona"
+   },
+   {
+    "date": "2025-08-25",
+    "filed": "2025-09-02",
+    "code": "P",
+    "value": 911971,
+    "who": "Ashiya Mona"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "shattuck labs",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

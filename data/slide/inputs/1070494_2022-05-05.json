@@ -1,0 +1,160 @@
+{
+ "id": "1070494_2022-05-05",
+ "kind": "slide",
+ "cik": "1070494",
+ "name": "ACADIA PHARMACEUTICALS INC",
+ "date": "2022-05-05",
+ "asof": "2022-05-05",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-05-05",
+  "adj_close": 18.83
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 445977000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0000950170-22-007468"
+ },
+ "burn6": {
+  "end": "2022-03-31",
+  "start": "2021-10-01",
+  "cash_used_ops": 99449000.0,
+  "capex": 1000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-04-28",
+  "shares": 161429360
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 17,
+  "from": "2022-02-04",
+  "to": "2022-06-04",
+  "trades": [
+   {
+    "date": "2022-05-02",
+    "filed": "2022-05-03",
+    "code": "S",
+    "value": 99691,
+    "who": "DAVIS STEPHEN"
+   },
+   {
+    "date": "2022-05-02",
+    "filed": "2022-05-03",
+    "code": "S",
+    "value": 52091,
+    "who": "Stankovic Srdjan R."
+   },
+   {
+    "date": "2022-05-02",
+    "filed": "2022-05-03",
+    "code": "S",
+    "value": 16255,
+    "who": "KIM AUSTIN D."
+   },
+   {
+    "date": "2022-05-02",
+    "filed": "2022-05-03",
+    "code": "S",
+    "value": 10036,
+    "who": "Teehan Brendan"
+   },
+   {
+    "date": "2022-04-08",
+    "filed": "2022-04-11",
+    "code": "S",
+    "value": 27726,
+    "who": "Kihara James"
+   },
+   {
+    "date": "2022-02-23",
+    "filed": "2022-02-25",
+    "code": "S",
+    "value": 8544,
+    "who": "Kihara James"
+   },
+   {
+    "date": "2022-02-23",
+    "filed": "2022-02-25",
+    "code": "S",
+    "value": 11234,
+    "who": "Teehan Brendan"
+   },
+   {
+    "date": "2022-02-23",
+    "filed": "2022-02-25",
+    "code": "S",
+    "value": 13161,
+    "who": "Schneyer Mark C."
+   },
+   {
+    "date": "2022-02-23",
+    "filed": "2022-02-25",
+    "code": "S",
+    "value": 18612,
+    "who": "KIM AUSTIN D."
+   },
+   {
+    "date": "2022-02-23",
+    "filed": "2022-02-25",
+    "code": "S",
+    "value": 35724,
+    "who": "Stankovic Srdjan R."
+   },
+   {
+    "date": "2022-02-23",
+    "filed": "2022-02-25",
+    "code": "S",
+    "value": 93486,
+    "who": "DAVIS STEPHEN"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "acadia pharmaceuticals",
+  "other_trials": 8,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05008835",
+    "drugs": [
+     "ACP-044 Dose A",
+     "ACP-044 Dose B"
+    ]
+   },
+   {
+    "nct": "NCT04988867",
+    "drugs": [
+     "Trofinetide"
+    ]
+   },
+   {
+    "nct": "NCT03623321",
+    "drugs": [
+     "Pimavanserin"
+    ]
+   },
+   {
+    "nct": "NCT03121586",
+    "drugs": [
+     "Pimavanserin"
+    ]
+   },
+   {
+    "nct": "NCT03575052",
+    "drugs": [
+     "Pimavanserin"
+    ]
+   }
+  ]
+ }
+}

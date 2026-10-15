@@ -1,0 +1,49 @@
+{
+ "id": "275053_2021-09-16",
+ "kind": "slide",
+ "cik": "275053",
+ "name": "NATURES SUNSHINE PRODUCTS INC",
+ "date": "2021-09-16",
+ "asof": "2021-09-16",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-09-16",
+  "adj_close": 14.39
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 74902000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000275053-21-000023"
+ },
+ "burn6": {
+  "end": "2021-06-30",
+  "start": "2021-01-01",
+  "cash_used_ops": -10712000.0,
+  "capex": 2898000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-07-23",
+  "shares": 19936372
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2021-06-18",
+  "to": "2021-10-16",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "natures sunshine products",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

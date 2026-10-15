@@ -1,0 +1,72 @@
+{
+ "id": "715446_2022-07-15",
+ "kind": "slide",
+ "cik": "715446",
+ "name": "Anixa Biosciences Inc",
+ "date": "2022-07-15",
+ "asof": "2022-07-15",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-07-15",
+  "adj_close": 2.86
+ },
+ "balance": {
+  "end": "2022-04-30",
+  "cash": 32231000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001493152-22-016452"
+ },
+ "burn6": {
+  "end": "2022-04-30",
+  "start": "2021-11-01",
+  "cash_used_ops": 3503000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-06-10",
+  "shares": 30471001
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2022-04-16",
+  "to": "2022-08-14",
+  "trades": [
+   {
+    "date": "2022-04-26",
+    "filed": "2022-04-27",
+    "code": "P",
+    "value": 27900,
+    "who": "Titterton Lewis H jr"
+   },
+   {
+    "date": "2022-04-21",
+    "filed": "2022-04-22",
+    "code": "P",
+    "value": 14630,
+    "who": "Catelani Michael"
+   },
+   {
+    "date": "2022-04-20",
+    "filed": "2022-04-21",
+    "code": "P",
+    "value": 6348,
+    "who": "Catelani Michael"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "anixa biosciences",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

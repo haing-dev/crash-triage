@@ -1,0 +1,206 @@
+{
+ "id": "1534133_2024-02-05",
+ "kind": "slide",
+ "cik": "1534133",
+ "name": "CalciMedica, Inc.",
+ "date": "2024-02-05",
+ "asof": "2024-02-05",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-02-05",
+  "adj_close": 5.1
+ },
+ "balance": {
+  "end": "2023-09-30",
+  "cash": 14591000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-23-062176"
+ },
+ "burn6": {
+  "end": "2023-09-30",
+  "start": "2023-04-01",
+  "cash_used_ops": 16763000.0,
+  "capex": 52374.70588235294,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-11-06",
+  "shares": 5684873
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "As a result, there is substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2023-11-07",
+  "to": "2024-03-06",
+  "trades": [
+   {
+    "date": "2024-01-23",
+    "filed": "2024-01-25",
+    "code": "P",
+    "value": 900904,
+    "who": "MIDDLETON FRED A"
+   },
+   {
+    "date": "2024-01-23",
+    "filed": "2024-01-25",
+    "code": "P",
+    "value": 535591,
+    "who": "MIDDLETON FRED A"
+   },
+   {
+    "date": "2024-01-23",
+    "filed": "2024-01-25",
+    "code": "P",
+    "value": 719935,
+    "who": "MIDDLETON FRED A"
+   },
+   {
+    "date": "2024-01-23",
+    "filed": "2024-01-25",
+    "code": "P",
+    "value": 188920,
+    "who": "MIDDLETON FRED A"
+   },
+   {
+    "date": "2024-01-23",
+    "filed": "2024-01-25",
+    "code": "P",
+    "value": 48807,
+    "who": "MIDDLETON FRED A"
+   },
+   {
+    "date": "2024-01-23",
+    "filed": "2024-01-25",
+    "code": "P",
+    "value": 14512,
+    "who": "MIDDLETON FRED A"
+   },
+   {
+    "date": "2024-01-23",
+    "filed": "2024-01-25",
+    "code": "P",
+    "value": 106410,
+    "who": "MIDDLETON FRED A"
+   },
+   {
+    "date": "2024-01-23",
+    "filed": "2024-01-25",
+    "code": "P",
+    "value": 900904,
+    "who": "Sanderling Venture Partners VI LP"
+   },
+   {
+    "date": "2024-01-23",
+    "filed": "2024-01-25",
+    "code": "P",
+    "value": 535591,
+    "who": "Sanderling Venture Partners VI LP"
+   },
+   {
+    "date": "2024-01-23",
+    "filed": "2024-01-25",
+    "code": "P",
+    "value": 719935,
+    "who": "Sanderling Venture Partners VI LP"
+   },
+   {
+    "date": "2024-01-23",
+    "filed": "2024-01-25",
+    "code": "P",
+    "value": 188920,
+    "who": "Sanderling Venture Partners VI LP"
+   },
+   {
+    "date": "2024-01-23",
+    "filed": "2024-01-25",
+    "code": "P",
+    "value": 48807,
+    "who": "Sanderling Venture Partners VI LP"
+   },
+   {
+    "date": "2024-01-23",
+    "filed": "2024-01-25",
+    "code": "P",
+    "value": 14512,
+    "who": "Sanderling Venture Partners VI LP"
+   },
+   {
+    "date": "2024-01-23",
+    "filed": "2024-01-25",
+    "code": "P",
+    "value": 106410,
+    "who": "Sanderling Venture Partners VI LP"
+   },
+   {
+    "date": "2023-12-11",
+    "filed": "2023-12-13",
+    "code": "P",
+    "value": 1670,
+    "who": "WILSON ROBERT N"
+   },
+   {
+    "date": "2023-11-07",
+    "filed": "2023-11-08",
+    "code": "P",
+    "value": 6680,
+    "who": "Leheny A. Rachel"
+   },
+   {
+    "date": "2023-11-06",
+    "filed": "2023-11-08",
+    "code": "P",
+    "value": 7488,
+    "who": "Roberts Eric W"
+   },
+   {
+    "date": "2023-11-03",
+    "filed": "2023-11-07",
+    "code": "P",
+    "value": 10249,
+    "who": "Roberts Eric W"
+   },
+   {
+    "date": "2023-11-03",
+    "filed": "2023-11-07",
+    "code": "P",
+    "value": 31846,
+    "who": "Roberts Eric W"
+   },
+   {
+    "date": "2023-11-06",
+    "filed": "2023-11-07",
+    "code": "P",
+    "value": 7615,
+    "who": "Leheny A. Rachel"
+   },
+   {
+    "date": "2023-11-03",
+    "filed": "2023-11-07",
+    "code": "P",
+    "value": 98600,
+    "who": "Hebbar Sudarshan"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "calcimedica",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04681066",
+    "drugs": [
+     "CM-4620 Injectable Emulsion or CM-4620-IE"
+    ]
+   }
+  ]
+ }
+}

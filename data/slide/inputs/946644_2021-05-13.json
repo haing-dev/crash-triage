@@ -1,0 +1,66 @@
+{
+ "id": "946644_2021-05-13",
+ "kind": "slide",
+ "cik": "946644",
+ "name": "AIM ImmunoTech Inc.",
+ "date": "2021-05-13",
+ "asof": "2021-05-13",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-05-13",
+  "adj_close": 187.1969
+ },
+ "balance": {
+  "end": "2020-12-31",
+  "cash": 69801000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0001493152-21-007259"
+ },
+ "burn6": {
+  "end": "2020-12-31",
+  "start": "2020-07-01",
+  "cash_used_ops": 5843000.0,
+  "capex": 13000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-03-26",
+  "shares": 47821935
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 2,
+  "from": "2021-02-12",
+  "to": "2021-06-12",
+  "trades": [
+   {
+    "date": "2021-02-25",
+    "filed": "2021-02-25",
+    "code": "P",
+    "value": 24999,
+    "who": "APPELROUTH STEWART"
+   },
+   {
+    "date": "2021-02-24",
+    "filed": "2021-02-24",
+    "code": "P",
+    "value": 25000,
+    "who": "EQUELS THOMAS K."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "aim immunotech",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

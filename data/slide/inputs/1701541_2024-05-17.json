@@ -1,0 +1,57 @@
+{
+ "id": "1701541_2024-05-17",
+ "kind": "slide",
+ "cik": "1701541",
+ "name": "Black Diamond Therapeutics, Inc.",
+ "date": "2024-05-17",
+ "asof": "2024-05-17",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-05-17",
+  "adj_close": 4.87
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 115199000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001701541-24-000022"
+ },
+ "burn6": {
+  "end": "2024-03-31",
+  "start": "2023-10-01",
+  "cash_used_ops": 35155000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-05-06",
+  "shares": 56252794
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 10,
+  "from": "2024-02-17",
+  "to": "2024-06-16",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "black diamond therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05256290",
+    "drugs": [
+     "silevertinib (BDTX-1535) monotherapy"
+    ]
+   }
+  ]
+ }
+}

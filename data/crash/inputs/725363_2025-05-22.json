@@ -1,0 +1,50 @@
+{
+ "id": "725363_2025-05-22",
+ "kind": "crash",
+ "cik": "725363",
+ "name": "CEL SCI CORP",
+ "date": "2025-05-22",
+ "asof": "2025-05-22",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-05-22",
+  "adj_close": 2.46
+ },
+ "balance": {
+  "end": "2025-03-31",
+  "cash": 1924305,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0001654954-25-005606"
+ },
+ "burn6": {
+  "end": "2025-03-31",
+  "start": "2024-10-01",
+  "cash_used_ops": 8509552.0,
+  "capex": 32954.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-05-09",
+  "shares": 91037256
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Due to recurring losses from operations and future liquidity needs, there is substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2025-02-21",
+  "to": "2025-06-21",
+  "trades": []
+ },
+ "drug": "Multikine",
+ "trials": {
+  "query": "cel sci",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

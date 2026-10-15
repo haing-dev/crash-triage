@@ -1,0 +1,181 @@
+{
+ "id": "1401667_2021-04-07",
+ "kind": "slide",
+ "cik": "1401667",
+ "name": "PUMA BIOTECHNOLOGY, INC.",
+ "date": "2021-04-07",
+ "asof": "2021-04-07",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-04-07",
+  "adj_close": 9.36
+ },
+ "balance": {
+  "end": "2020-12-31",
+  "cash": 93389000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001564590-21-009840"
+ },
+ "burn6": {
+  "end": "2020-12-31",
+  "start": "2020-07-01",
+  "cash_used_ops": 3915000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-02-18",
+  "shares": 40258460
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 20,
+  "from": "2021-01-07",
+  "to": "2021-05-07",
+  "trades": [
+   {
+    "date": "2021-05-03",
+    "filed": "2021-05-05",
+    "code": "S",
+    "value": 1506,
+    "who": "NOUGUES MAXIMO F"
+   },
+   {
+    "date": "2021-05-03",
+    "filed": "2021-05-05",
+    "code": "S",
+    "value": 4133,
+    "who": "HUNT DOUGLAS M"
+   },
+   {
+    "date": "2021-05-03",
+    "filed": "2021-05-05",
+    "code": "S",
+    "value": 15847,
+    "who": "AUERBACH ALAN H"
+   },
+   {
+    "date": "2021-04-05",
+    "filed": "2021-04-06",
+    "code": "S",
+    "value": 1519,
+    "who": "NOUGUES MAXIMO F"
+   },
+   {
+    "date": "2021-04-05",
+    "filed": "2021-04-06",
+    "code": "S",
+    "value": 4176,
+    "who": "HUNT DOUGLAS M"
+   },
+   {
+    "date": "2021-04-05",
+    "filed": "2021-04-06",
+    "code": "S",
+    "value": 4176,
+    "who": "BRYCE RICHARD PAUL"
+   },
+   {
+    "date": "2021-04-05",
+    "filed": "2021-04-06",
+    "code": "S",
+    "value": 15528,
+    "who": "AUERBACH ALAN H"
+   },
+   {
+    "date": "2021-03-02",
+    "filed": "2021-03-04",
+    "code": "S",
+    "value": 1561,
+    "who": "NOUGUES MAXIMO F"
+   },
+   {
+    "date": "2021-03-02",
+    "filed": "2021-03-04",
+    "code": "S",
+    "value": 4288,
+    "who": "HUNT DOUGLAS M"
+   },
+   {
+    "date": "2021-03-02",
+    "filed": "2021-03-04",
+    "code": "S",
+    "value": 4283,
+    "who": "BRYCE RICHARD PAUL"
+   },
+   {
+    "date": "2021-03-02",
+    "filed": "2021-03-04",
+    "code": "S",
+    "value": 12556,
+    "who": "AUERBACH ALAN H"
+   },
+   {
+    "date": "2021-02-02",
+    "filed": "2021-02-04",
+    "code": "S",
+    "value": 2195,
+    "who": "NOUGUES MAXIMO F"
+   },
+   {
+    "date": "2021-02-02",
+    "filed": "2021-02-04",
+    "code": "S",
+    "value": 14931,
+    "who": "AUERBACH ALAN H"
+   },
+   {
+    "date": "2021-02-02",
+    "filed": "2021-02-03",
+    "code": "S",
+    "value": 5076,
+    "who": "BRYCE RICHARD PAUL"
+   },
+   {
+    "date": "2021-02-02",
+    "filed": "2021-02-03",
+    "code": "S",
+    "value": 5054,
+    "who": "HUNT DOUGLAS M"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "puma biotechnology",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04366713",
+    "drugs": [
+     "Neratinib",
+     "Capecitabine",
+     "Loperamide"
+    ]
+   },
+   {
+    "nct": "NCT02400476",
+    "drugs": [
+     "Neratinib",
+     "Loperamide",
+     "Colestipol"
+    ]
+   },
+   {
+    "nct": "NCT01953926",
+    "drugs": [
+     "Neratinib",
+     "Fulvestrant",
+     "Trastuzumab"
+    ]
+   }
+  ]
+ }
+}

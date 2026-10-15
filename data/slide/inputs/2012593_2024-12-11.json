@@ -1,0 +1,51 @@
+{
+ "id": "2012593_2024-12-11",
+ "kind": "slide",
+ "cik": "2012593",
+ "name": "Rapport Therapeutics, Inc.",
+ "date": "2024-12-11",
+ "asof": "2024-12-11",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-12-11",
+  "adj_close": 20.25
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 320661000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-24-122801"
+ },
+ "burn6": null,
+ "shares": {
+  "end": "2024-11-06",
+  "shares": 36576457
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2024-09-12",
+  "to": "2025-01-10",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "rapport therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06377930",
+    "drugs": [
+     "RAP-219"
+    ]
+   }
+  ]
+ }
+}

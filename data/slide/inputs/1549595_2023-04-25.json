@@ -1,0 +1,108 @@
+{
+ "id": "1549595_2023-04-25",
+ "kind": "slide",
+ "cik": "1549595",
+ "name": "Nurix Therapeutics, Inc.",
+ "date": "2023-04-25",
+ "asof": "2023-04-25",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-04-25",
+  "adj_close": 10.11
+ },
+ "balance": {
+  "end": "2023-02-28",
+  "cash": 325595000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent",
+   "MarketableSecuritiesNoncurrent"
+  ],
+  "accn": "0001549595-23-000032"
+ },
+ "burn6": {
+  "end": "2023-02-28",
+  "start": "2022-09-01",
+  "cash_used_ops": 86407000.0,
+  "capex": 4842000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-03-31",
+  "shares": 47445354
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 19,
+  "from": "2023-01-25",
+  "to": "2023-05-25",
+  "trades": [
+   {
+    "date": "2023-05-01",
+    "filed": "2023-05-02",
+    "code": "S",
+    "value": 3378,
+    "who": "Wolff Stefani"
+   },
+   {
+    "date": "2023-05-01",
+    "filed": "2023-05-02",
+    "code": "S",
+    "value": 7121,
+    "who": "van Houte Hans"
+   },
+   {
+    "date": "2023-05-01",
+    "filed": "2023-05-02",
+    "code": "S",
+    "value": 6736,
+    "who": "Ring Christine"
+   },
+   {
+    "date": "2023-05-01",
+    "filed": "2023-05-02",
+    "code": "S",
+    "value": 11219,
+    "who": "Hansen Gwenn"
+   },
+   {
+    "date": "2023-01-30",
+    "filed": "2023-02-01",
+    "code": "S",
+    "value": 4995,
+    "who": "Wolff Stefani"
+   },
+   {
+    "date": "2023-01-30",
+    "filed": "2023-02-01",
+    "code": "S",
+    "value": 10884,
+    "who": "van Houte Hans"
+   },
+   {
+    "date": "2023-01-30",
+    "filed": "2023-02-01",
+    "code": "S",
+    "value": 9989,
+    "who": "Ring Christine"
+   },
+   {
+    "date": "2023-01-30",
+    "filed": "2023-02-01",
+    "code": "S",
+    "value": 16633,
+    "who": "Hansen Gwenn"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "nurix therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

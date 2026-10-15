@@ -1,0 +1,177 @@
+{
+ "id": "1819133_2024-06-26",
+ "kind": "slide",
+ "cik": "1819133",
+ "name": "Tango Therapeutics, Inc.",
+ "date": "2024-06-26",
+ "asof": "2024-06-26",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-06-26",
+  "adj_close": 8.87
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 343599000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-24-055065"
+ },
+ "burn6": {
+  "end": "2024-03-31",
+  "start": "2023-10-01",
+  "cash_used_ops": 65324000.0,
+  "capex": 421000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-03-12",
+  "shares": 106718315
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 12,
+  "from": "2024-03-28",
+  "to": "2024-07-26",
+  "trades": [
+   {
+    "date": "2024-07-24",
+    "filed": "2024-07-26",
+    "code": "S",
+    "value": 1963160,
+    "who": "Third Rock Ventures IV, L.P."
+   },
+   {
+    "date": "2024-07-25",
+    "filed": "2024-07-26",
+    "code": "S",
+    "value": 992771,
+    "who": "Third Rock Ventures IV, L.P."
+   },
+   {
+    "date": "2024-07-22",
+    "filed": "2024-07-24",
+    "code": "S",
+    "value": 2570096,
+    "who": "Third Rock Ventures IV, L.P."
+   },
+   {
+    "date": "2024-07-23",
+    "filed": "2024-07-24",
+    "code": "S",
+    "value": 1223350,
+    "who": "Third Rock Ventures IV, L.P."
+   },
+   {
+    "date": "2024-07-18",
+    "filed": "2024-07-22",
+    "code": "S",
+    "value": 1878479,
+    "who": "Third Rock Ventures IV, L.P."
+   },
+   {
+    "date": "2024-07-17",
+    "filed": "2024-07-18",
+    "code": "S",
+    "value": 5386339,
+    "who": "Third Rock Ventures IV, L.P."
+   },
+   {
+    "date": "2024-06-28",
+    "filed": "2024-07-02",
+    "code": "S",
+    "value": 248530,
+    "who": "MVA Investors, LLC"
+   },
+   {
+    "date": "2024-07-01",
+    "filed": "2024-07-02",
+    "code": "S",
+    "value": 982184,
+    "who": "MVA Investors, LLC"
+   },
+   {
+    "date": "2024-07-02",
+    "filed": "2024-07-02",
+    "code": "S",
+    "value": 824600,
+    "who": "MVA Investors, LLC"
+   },
+   {
+    "date": "2024-06-06",
+    "filed": "2024-06-07",
+    "code": "S",
+    "value": 456120,
+    "who": "MVA Investors, LLC"
+   },
+   {
+    "date": "2024-06-07",
+    "filed": "2024-06-07",
+    "code": "S",
+    "value": 529760,
+    "who": "MVA Investors, LLC"
+   },
+   {
+    "date": "2024-06-05",
+    "filed": "2024-06-07",
+    "code": "S",
+    "value": 36039,
+    "who": "Calhoun Lesley Ann"
+   },
+   {
+    "date": "2024-05-01",
+    "filed": "2024-05-03",
+    "code": "S",
+    "value": 557250,
+    "who": "MVA Investors, LLC"
+   },
+   {
+    "date": "2024-05-02",
+    "filed": "2024-05-03",
+    "code": "S",
+    "value": 567000,
+    "who": "MVA Investors, LLC"
+   },
+   {
+    "date": "2024-05-03",
+    "filed": "2024-05-03",
+    "code": "S",
+    "value": 456600,
+    "who": "MVA Investors, LLC"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "tango therapeutics",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05275478",
+    "drugs": [
+     "TNG908"
+    ]
+   },
+   {
+    "nct": "NCT05887492",
+    "drugs": [
+     "TNG260",
+     "Pembrolizumab"
+    ]
+   },
+   {
+    "nct": "NCT05732831",
+    "drugs": [
+     "TNG462",
+     "Pembrolizumab"
+    ]
+   }
+  ]
+ }
+}

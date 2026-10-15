@@ -1,0 +1,58 @@
+{
+ "id": "1878313_2023-10-23",
+ "kind": "slide",
+ "cik": "1878313",
+ "name": "MAIA Biotechnology, Inc.",
+ "date": "2023-10-23",
+ "asof": "2023-10-23",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-10-23",
+  "adj_close": 1.95
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 0,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-23-039399"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 5921281.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-08-08",
+  "shares": 13625925
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Accordingly, there is substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2023-07-25",
+  "to": "2023-11-22",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "maia biotechnology",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05208944",
+    "drugs": [
+     "6-Thio-2'-Deoxyguanosine",
+     "Cemiplimab"
+    ]
+   }
+  ]
+ }
+}

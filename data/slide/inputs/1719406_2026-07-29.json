@@ -1,0 +1,50 @@
+{
+ "id": "1719406_2026-07-29",
+ "kind": "slide",
+ "cik": "1719406",
+ "name": "NRX Pharmaceuticals, Inc.",
+ "date": "2026-07-29",
+ "asof": "2026-07-29",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-07-29",
+  "adj_close": 3.23
+ },
+ "balance": {
+  "end": "2026-03-31",
+  "cash": 6713000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001437749-26-017397"
+ },
+ "burn6": {
+  "end": "2026-03-31",
+  "start": "2025-10-01",
+  "cash_used_ops": 8008000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-05-15",
+  "shares": 36228992
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "In addition, the Company's independent registered public accounting firm, in its report on the Company's consolidated financial statements for the year ended December 31, 2025, expressed substantial doubt about the Company's ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2026-04-30",
+  "to": "2026-08-28",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "nrx pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

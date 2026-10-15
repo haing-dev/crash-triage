@@ -1,0 +1,121 @@
+{
+ "id": "1741830_2024-02-29",
+ "kind": "slide",
+ "cik": "1741830",
+ "name": "Kronos Bio, Inc.",
+ "date": "2024-02-29",
+ "asof": "2024-02-29",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-02-29",
+  "adj_close": 1.04
+ },
+ "balance": {
+  "end": "2023-09-30",
+  "cash": 186713000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001741830-23-000069"
+ },
+ "burn6": {
+  "end": "2023-09-30",
+  "start": "2023-04-01",
+  "cash_used_ops": 47611000.0,
+  "capex": 522000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-11-08",
+  "shares": 58316520
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 9,
+  "from": "2023-12-01",
+  "to": "2024-03-30",
+  "trades": [
+   {
+    "date": "2024-02-21",
+    "filed": "2024-02-23",
+    "code": "S",
+    "value": 7765,
+    "who": "Olek Elizabeth A"
+   },
+   {
+    "date": "2024-02-21",
+    "filed": "2024-02-23",
+    "code": "S",
+    "value": 12685,
+    "who": "Lin Charles Y"
+   },
+   {
+    "date": "2024-02-21",
+    "filed": "2024-02-23",
+    "code": "S",
+    "value": 12757,
+    "who": "Frisbee Allison"
+   },
+   {
+    "date": "2024-01-04",
+    "filed": "2024-01-05",
+    "code": "S",
+    "value": 8718,
+    "who": "Dinsmore Christopher"
+   },
+   {
+    "date": "2024-01-04",
+    "filed": "2024-01-05",
+    "code": "S",
+    "value": 14214,
+    "who": "DiMartino Jorge"
+   },
+   {
+    "date": "2024-01-04",
+    "filed": "2024-01-05",
+    "code": "S",
+    "value": 12636,
+    "who": "Kosacz Barbara"
+   },
+   {
+    "date": "2023-12-12",
+    "filed": "2023-12-13",
+    "code": "S",
+    "value": 13092,
+    "who": "Dinsmore Christopher"
+   },
+   {
+    "date": "2023-12-12",
+    "filed": "2023-12-13",
+    "code": "S",
+    "value": 22664,
+    "who": "DiMartino Jorge"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "kronos bio",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05028751",
+    "drugs": [
+     "Lanraplenib",
+     "Gilteritinib"
+    ]
+   },
+   {
+    "nct": "NCT04718675",
+    "drugs": [
+     "KB-0742"
+    ]
+   }
+  ]
+ }
+}

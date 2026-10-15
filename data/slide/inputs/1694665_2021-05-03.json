@@ -1,0 +1,91 @@
+{
+ "id": "1694665_2021-05-03",
+ "kind": "slide",
+ "cik": "1694665",
+ "name": "Evelo Biosciences, Inc.",
+ "date": "2021-05-03",
+ "asof": "2021-05-03",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-05-03",
+  "adj_close": 211.4
+ },
+ "balance": {
+  "end": "2021-03-31",
+  "cash": 124591000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001694665-21-000066"
+ },
+ "burn6": {
+  "end": "2021-03-31",
+  "start": "2020-10-01",
+  "cash_used_ops": 45233000.0,
+  "capex": 723000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-04-27",
+  "shares": 53373882
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 2,
+  "from": "2021-02-02",
+  "to": "2021-06-02",
+  "trades": [
+   {
+    "date": "2021-02-02",
+    "filed": "2021-02-04",
+    "code": "P",
+    "value": 557145,
+    "who": "Flagship Ventures Fund IV General Partner LLC"
+   },
+   {
+    "date": "2021-02-02",
+    "filed": "2021-02-04",
+    "code": "P",
+    "value": 139275,
+    "who": "Flagship Ventures Fund IV General Partner LLC"
+   },
+   {
+    "date": "2021-02-02",
+    "filed": "2021-02-04",
+    "code": "P",
+    "value": 557145,
+    "who": "Flagship Ventures Fund IV General Partner LLC"
+   },
+   {
+    "date": "2021-02-02",
+    "filed": "2021-02-04",
+    "code": "P",
+    "value": 696435,
+    "who": "Flagship Ventures Fund IV General Partner LLC"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "evelo biosciences",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04488575",
+    "drugs": [
+     "EDP1815"
+    ]
+   },
+   {
+    "nct": "NCT04603027",
+    "drugs": [
+     "EDP1815"
+    ]
+   }
+  ]
+ }
+}

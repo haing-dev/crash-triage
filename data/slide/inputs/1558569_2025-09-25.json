@@ -1,0 +1,50 @@
+{
+ "id": "1558569_2025-09-25",
+ "kind": "slide",
+ "cik": "1558569",
+ "name": "iSpecimen Inc.",
+ "date": "2025-09-25",
+ "asof": "2025-09-25",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-09-25",
+  "adj_close": 53.2
+ },
+ "balance": {
+  "end": "2025-06-30",
+  "cash": 588775,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0001213900-25-076629"
+ },
+ "burn6": {
+  "end": "2025-06-30",
+  "start": "2025-01-01",
+  "cash_used_ops": 1288079.0,
+  "capex": 454.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-08-14",
+  "shares": 5539345
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These conditions raise substantial doubt regarding the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2025-06-27",
+  "to": "2025-10-25",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "ispecimen",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

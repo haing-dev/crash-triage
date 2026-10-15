@@ -1,0 +1,113 @@
+{
+ "id": "1595893_2021-09-03",
+ "kind": "slide",
+ "cik": "1595893",
+ "name": "Turning Point Therapeutics, Inc.",
+ "date": "2021-09-03",
+ "asof": "2021-09-03",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-09-03",
+  "adj_close": 79.72
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 1077806000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001564590-21-042658"
+ },
+ "burn6": {
+  "end": "2021-06-30",
+  "start": "2021-01-01",
+  "cash_used_ops": 58069000.0,
+  "capex": 874000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-08-02",
+  "shares": 49407966
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "The Company determined that there are no conditions or events that raise substantial doubt about its ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2021-06-05",
+  "to": "2021-10-03",
+  "trades": [
+   {
+    "date": "2021-08-30",
+    "filed": "2021-08-31",
+    "code": "S",
+    "value": 800000,
+    "who": "North Annette"
+   },
+   {
+    "date": "2021-07-14",
+    "filed": "2021-07-15",
+    "code": "S",
+    "value": 139988,
+    "who": "Partridge Andrew John"
+   },
+   {
+    "date": "2021-06-21",
+    "filed": "2021-06-21",
+    "code": "P",
+    "value": 162680,
+    "who": "Alles Mark J"
+   },
+   {
+    "date": "2021-06-15",
+    "filed": "2021-06-16",
+    "code": "S",
+    "value": 430276,
+    "who": "North Annette"
+   },
+   {
+    "date": "2021-06-15",
+    "filed": "2021-06-16",
+    "code": "S",
+    "value": 208899,
+    "who": "North Annette"
+   },
+   {
+    "date": "2021-06-15",
+    "filed": "2021-06-16",
+    "code": "S",
+    "value": 516258,
+    "who": "North Annette"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "turning point therapeutics",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03093116",
+    "drugs": [
+     "Oral repotrectinib (TPX-0005)"
+    ]
+   },
+   {
+    "nct": "NCT04094610",
+    "drugs": [
+     "Oral repotrectinib (TPX-0005)"
+    ]
+   },
+   {
+    "nct": "NCT04161391",
+    "drugs": [
+     "TPX-0046"
+    ]
+   }
+  ]
+ }
+}

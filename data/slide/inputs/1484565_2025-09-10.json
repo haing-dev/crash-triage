@@ -1,0 +1,73 @@
+{
+ "id": "1484565_2025-09-10",
+ "kind": "slide",
+ "cik": "1484565",
+ "name": "SOLENO THERAPEUTICS INC",
+ "date": "2025-09-10",
+ "asof": "2025-09-10",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-09-10",
+  "adj_close": 60.015
+ },
+ "balance": {
+  "end": "2025-06-30",
+  "cash": 293843000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent",
+   "MarketableSecuritiesNoncurrent"
+  ],
+  "accn": "0000950170-25-104220"
+ },
+ "burn6": {
+  "end": "2025-06-30",
+  "start": "2025-01-01",
+  "cash_used_ops": 45360000.0,
+  "capex": 14000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-08-01",
+  "shares": 53145009
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 2,
+  "from": "2025-06-12",
+  "to": "2025-10-10",
+  "trades": [
+   {
+    "date": "2025-07-01",
+    "filed": "2025-07-03",
+    "code": "S",
+    "value": 316971,
+    "who": "Hirano Patricia C"
+   },
+   {
+    "date": "2025-06-24",
+    "filed": "2025-06-26",
+    "code": "S",
+    "value": 22410,
+    "who": "Hirano Patricia C"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "soleno therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05701774",
+    "drugs": [
+     "DCCR"
+    ]
+   }
+  ]
+ }
+}

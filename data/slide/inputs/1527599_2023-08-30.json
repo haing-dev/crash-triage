@@ -1,0 +1,56 @@
+{
+ "id": "1527599_2023-08-30",
+ "kind": "slide",
+ "cik": "1527599",
+ "name": "SYNLOGIC, INC.",
+ "date": "2023-08-30",
+ "asof": "2023-08-30",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-08-30",
+  "adj_close": 7.287
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 46261000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-23-040922"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 33131000.0,
+  "capex": 186000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-08-03",
+  "shares": 68604305
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2023-06-01",
+  "to": "2023-09-29",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "synlogic",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05764239",
+    "drugs": [
+     "SYNB1934v1"
+    ]
+   }
+  ]
+ }
+}

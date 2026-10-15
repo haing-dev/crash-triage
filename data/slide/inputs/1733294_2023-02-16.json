@@ -1,0 +1,72 @@
+{
+ "id": "1733294_2023-02-16",
+ "kind": "slide",
+ "cik": "1733294",
+ "name": "Generation Bio Co.",
+ "date": "2023-02-16",
+ "asof": "2023-02-16",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-02-16",
+  "adj_close": 48.0
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 301169000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001558370-22-016267"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 44010000.0,
+  "capex": 5335000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-10-31",
+  "shares": 59422697
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 18,
+  "from": "2022-11-18",
+  "to": "2023-03-18",
+  "trades": [
+   {
+    "date": "2023-01-26",
+    "filed": "2023-01-27",
+    "code": "S",
+    "value": 14984,
+    "who": "Paone Antoinette"
+   },
+   {
+    "date": "2023-01-10",
+    "filed": "2023-01-11",
+    "code": "S",
+    "value": 8523,
+    "who": "Paone Antoinette"
+   },
+   {
+    "date": "2023-01-09",
+    "filed": "2023-01-10",
+    "code": "S",
+    "value": 9530,
+    "who": "Samayoa Phillip"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "generation bio",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

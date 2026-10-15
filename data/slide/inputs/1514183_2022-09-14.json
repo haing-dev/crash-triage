@@ -1,0 +1,58 @@
+{
+ "id": "1514183_2022-09-14",
+ "kind": "slide",
+ "cik": "1514183",
+ "name": "Silo Pharma, Inc.",
+ "date": "2022-09-14",
+ "asof": "2022-09-14",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-09-14",
+  "adj_close": 127.5
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 8734434,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001213900-22-043390"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 1189274.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-07-29",
+  "shares": 99395304
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "The positive worthy capital serves to mitigate the conditions that historically raised substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2022-06-16",
+  "to": "2022-10-14",
+  "trades": [
+   {
+    "date": "2022-06-17",
+    "filed": "2022-06-21",
+    "code": "P",
+    "value": 1500,
+    "who": "Weisblum Eric"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "silo pharma",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

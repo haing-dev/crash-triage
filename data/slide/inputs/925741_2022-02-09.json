@@ -1,0 +1,65 @@
+{
+ "id": "925741_2022-02-09",
+ "kind": "slide",
+ "cik": "925741",
+ "name": "BioCardia, Inc.",
+ "date": "2022-02-09",
+ "asof": "2022-02-09",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-02-09",
+  "adj_close": 34.95
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 15888000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001437749-21-026143"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 5508000.0,
+  "capex": 48000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-11-01",
+  "shares": 16871265
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2021-11-11",
+  "to": "2022-03-11",
+  "trades": [
+   {
+    "date": "2021-11-18",
+    "filed": "2021-11-18",
+    "code": "P",
+    "value": 11000,
+    "who": "Altman Peter"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "biocardia",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT02438306",
+    "drugs": [
+     "Autologous cell therapy",
+     "Sham"
+    ]
+   }
+  ]
+ }
+}

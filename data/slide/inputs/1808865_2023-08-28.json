@@ -1,0 +1,81 @@
+{
+ "id": "1808865_2023-08-28",
+ "kind": "slide",
+ "cik": "1808865",
+ "name": "iTeos Therapeutics, Inc.",
+ "date": "2023-08-28",
+ "asof": "2023-08-28",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-08-28",
+  "adj_close": 12.29
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 599224000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-23-039341"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 56101000.0,
+  "capex": 819000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-08-03",
+  "shares": 35781919
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2023-05-30",
+  "to": "2023-09-27",
+  "trades": [
+   {
+    "date": "2023-08-23",
+    "filed": "2023-08-25",
+    "code": "S",
+    "value": 494465,
+    "who": "Boxer Capital, LLC"
+   },
+   {
+    "date": "2023-08-23",
+    "filed": "2023-08-25",
+    "code": "S",
+    "value": 1492915,
+    "who": "Boxer Capital, LLC"
+   },
+   {
+    "date": "2023-08-23",
+    "filed": "2023-08-25",
+    "code": "S",
+    "value": 3705293,
+    "who": "Boxer Capital, LLC"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "iteos therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05403385",
+    "drugs": [
+     "inupadenant",
+     "Carboplatin",
+     "Pemetrexed"
+    ]
+   }
+  ]
+ }
+}

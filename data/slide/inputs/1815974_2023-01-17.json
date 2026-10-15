@@ -1,0 +1,56 @@
+{
+ "id": "1815974_2023-01-17",
+ "kind": "slide",
+ "cik": "1815974",
+ "name": "Anebulo Pharmaceuticals, Inc.",
+ "date": "2023-01-17",
+ "asof": "2023-01-17",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-01-17",
+  "adj_close": 2.9504
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 19213697,
+  "parts": [
+   "Cash"
+  ],
+  "accn": "0001493152-22-031239"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 4033178.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-11-07",
+  "shares": 25633217
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2022-10-19",
+  "to": "2023-02-16",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "anebulo pharmaceuticals",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05282797",
+    "drugs": [
+     "ANEB-001"
+    ]
+   }
+  ]
+ }
+}

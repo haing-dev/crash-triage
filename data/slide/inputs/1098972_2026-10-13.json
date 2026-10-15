@@ -1,0 +1,65 @@
+{
+ "id": "1098972_2026-10-13",
+ "kind": "slide",
+ "cik": "1098972",
+ "name": "AGENUS INC",
+ "date": "2026-10-13",
+ "asof": "2026-10-13",
+ "final": false,
+ "version": 5,
+ "price": {
+  "date": "2026-10-13",
+  "adj_close": 6.95
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 18738000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001193125-26-340363"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": 67149000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-08-04",
+  "shares": 45020407
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 10,
+  "from": "2026-07-15",
+  "to": "2026-10-15",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "agenus",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05529316",
+    "drugs": [
+     "Botensilimab",
+     "Balstilimab"
+    ]
+   },
+   {
+    "nct": "NCT05608044",
+    "drugs": [
+     "Botensilimab",
+     "Balstilimab",
+     "Standard of Care"
+    ]
+   }
+  ]
+ }
+}

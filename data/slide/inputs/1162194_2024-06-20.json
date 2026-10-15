@@ -1,0 +1,100 @@
+{
+ "id": "1162194_2024-06-20",
+ "kind": "slide",
+ "cik": "1162194",
+ "name": "STANDARD BIOTOOLS INC.",
+ "date": "2024-06-20",
+ "asof": "2024-06-20",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-06-20",
+  "adj_close": 1.92
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 462282000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0000950170-24-057213"
+ },
+ "burn6": {
+  "end": "2024-03-31",
+  "start": "2023-10-01",
+  "cash_used_ops": 76537000.0,
+  "capex": 859000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-05-03",
+  "shares": 372141530
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 17,
+  "from": "2024-03-22",
+  "to": "2024-07-20",
+  "trades": [
+   {
+    "date": "2024-05-23",
+    "filed": "2024-05-28",
+    "code": "P",
+    "value": 260000,
+    "who": "Casdin Partners Master Fund, L.P."
+   },
+   {
+    "date": "2024-05-20",
+    "filed": "2024-05-22",
+    "code": "P",
+    "value": 258130,
+    "who": "Casdin Partners Master Fund, L.P."
+   },
+   {
+    "date": "2024-05-21",
+    "filed": "2024-05-22",
+    "code": "P",
+    "value": 895930,
+    "who": "Casdin Partners Master Fund, L.P."
+   },
+   {
+    "date": "2024-05-22",
+    "filed": "2024-05-22",
+    "code": "P",
+    "value": 387735,
+    "who": "Casdin Partners Master Fund, L.P."
+   },
+   {
+    "date": "2024-05-15",
+    "filed": "2024-05-17",
+    "code": "P",
+    "value": 1282550,
+    "who": "Casdin Partners Master Fund, L.P."
+   },
+   {
+    "date": "2024-05-16",
+    "filed": "2024-05-17",
+    "code": "P",
+    "value": 1270950,
+    "who": "Casdin Partners Master Fund, L.P."
+   },
+   {
+    "date": "2024-05-17",
+    "filed": "2024-05-17",
+    "code": "P",
+    "value": 902044,
+    "who": "Casdin Partners Master Fund, L.P."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "standard biotools",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

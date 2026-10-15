@@ -1,0 +1,81 @@
+{
+ "id": "1463361_2024-11-06",
+ "kind": "slide",
+ "cik": "1463361",
+ "name": "Unity Biotechnology, Inc.",
+ "date": "2024-11-06",
+ "asof": "2024-11-06",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-11-06",
+  "adj_close": 1.15
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 29037000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-24-120751"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": 9777000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-10-31",
+  "shares": 16850350
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "\u2022 Our financial condition raises substantial doubt as to our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2024-08-08",
+  "to": "2024-12-06",
+  "trades": [
+   {
+    "date": "2024-11-04",
+    "filed": "2024-11-06",
+    "code": "S",
+    "value": 175,
+    "who": "Sullivan Lynne Marie"
+   },
+   {
+    "date": "2024-11-04",
+    "filed": "2024-11-06",
+    "code": "S",
+    "value": 557,
+    "who": "Ghosh Anirvan"
+   },
+   {
+    "date": "2024-11-04",
+    "filed": "2024-11-06",
+    "code": "S",
+    "value": 192,
+    "who": "Nguyen Alexander Hieu"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "unity biotechnology",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06011798",
+    "drugs": [
+     "Aflibercept",
+     "foselutoclax"
+    ]
+   }
+  ]
+ }
+}

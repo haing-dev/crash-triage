@@ -1,0 +1,50 @@
+{
+ "id": "715446_2023-02-08",
+ "kind": "slide",
+ "cik": "715446",
+ "name": "Anixa Biosciences Inc",
+ "date": "2023-02-08",
+ "asof": "2023-02-08",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-02-08",
+  "adj_close": 4.26
+ },
+ "balance": {
+  "end": "2022-10-31",
+  "cash": 29687000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001493152-23-000346"
+ },
+ "burn6": {
+  "end": "2022-10-31",
+  "start": "2022-05-01",
+  "cash_used_ops": 2989000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-01-05",
+  "shares": 30920792
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2022-11-10",
+  "to": "2023-03-10",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "anixa biosciences",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

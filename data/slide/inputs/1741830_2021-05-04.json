@@ -1,0 +1,178 @@
+{
+ "id": "1741830_2021-05-04",
+ "kind": "slide",
+ "cik": "1741830",
+ "name": "Kronos Bio, Inc.",
+ "date": "2021-05-04",
+ "asof": "2021-05-04",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-05-04",
+  "adj_close": 26.5
+ },
+ "balance": {
+  "end": "2020-12-31",
+  "cash": 413061000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001741830-21-000018"
+ },
+ "burn6": null,
+ "shares": {
+  "end": "2021-03-22",
+  "shares": 56047683
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2021-02-03",
+  "to": "2021-06-03",
+  "trades": [
+   {
+    "date": "2021-05-28",
+    "filed": "2021-06-01",
+    "code": "P",
+    "value": 15006,
+    "who": "De Backer Marianne"
+   },
+   {
+    "date": "2021-04-16",
+    "filed": "2021-04-20",
+    "code": "S",
+    "value": 527085,
+    "who": "Loven Jakob"
+   },
+   {
+    "date": "2021-04-16",
+    "filed": "2021-04-20",
+    "code": "S",
+    "value": 169677,
+    "who": "Loven Jakob"
+   },
+   {
+    "date": "2021-04-19",
+    "filed": "2021-04-20",
+    "code": "S",
+    "value": 199402,
+    "who": "Loven Jakob"
+   },
+   {
+    "date": "2021-04-19",
+    "filed": "2021-04-20",
+    "code": "S",
+    "value": 88877,
+    "who": "Loven Jakob"
+   },
+   {
+    "date": "2021-04-20",
+    "filed": "2021-04-20",
+    "code": "S",
+    "value": 432793,
+    "who": "Loven Jakob"
+   },
+   {
+    "date": "2021-04-20",
+    "filed": "2021-04-20",
+    "code": "S",
+    "value": 392,
+    "who": "Loven Jakob"
+   },
+   {
+    "date": "2021-04-13",
+    "filed": "2021-04-15",
+    "code": "S",
+    "value": 233430,
+    "who": "Loven Jakob"
+   },
+   {
+    "date": "2021-04-13",
+    "filed": "2021-04-15",
+    "code": "S",
+    "value": 140007,
+    "who": "Loven Jakob"
+   },
+   {
+    "date": "2021-04-13",
+    "filed": "2021-04-15",
+    "code": "S",
+    "value": 32356,
+    "who": "Loven Jakob"
+   },
+   {
+    "date": "2021-04-14",
+    "filed": "2021-04-15",
+    "code": "S",
+    "value": 306561,
+    "who": "Loven Jakob"
+   },
+   {
+    "date": "2021-04-14",
+    "filed": "2021-04-15",
+    "code": "S",
+    "value": 437468,
+    "who": "Loven Jakob"
+   },
+   {
+    "date": "2021-04-15",
+    "filed": "2021-04-15",
+    "code": "S",
+    "value": 540536,
+    "who": "Loven Jakob"
+   },
+   {
+    "date": "2021-04-08",
+    "filed": "2021-04-12",
+    "code": "S",
+    "value": 1037872,
+    "who": "Loven Jakob"
+   },
+   {
+    "date": "2021-04-08",
+    "filed": "2021-04-12",
+    "code": "S",
+    "value": 692615,
+    "who": "Loven Jakob"
+   },
+   {
+    "date": "2021-04-09",
+    "filed": "2021-04-12",
+    "code": "S",
+    "value": 589152,
+    "who": "Loven Jakob"
+   },
+   {
+    "date": "2021-04-12",
+    "filed": "2021-04-12",
+    "code": "S",
+    "value": 413175,
+    "who": "Loven Jakob"
+   },
+   {
+    "date": "2021-04-12",
+    "filed": "2021-04-12",
+    "code": "S",
+    "value": 2721,
+    "who": "Loven Jakob"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "kronos bio",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04718675",
+    "drugs": [
+     "KB-0742"
+    ]
+   }
+  ]
+ }
+}

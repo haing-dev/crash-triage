@@ -1,0 +1,121 @@
+{
+ "id": "1628171_2023-03-24",
+ "kind": "slide",
+ "cik": "1628171",
+ "name": "Revolution Medicines, Inc.",
+ "date": "2023-03-24",
+ "asof": "2023-03-24",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-03-24",
+  "adj_close": 20.92
+ },
+ "balance": {
+  "end": "2022-12-31",
+  "cash": 644943000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-23-004645"
+ },
+ "burn6": {
+  "end": "2022-12-31",
+  "start": "2022-07-01",
+  "cash_used_ops": 113525000.0,
+  "capex": 6401000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-02-23",
+  "shares": 90491696
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2022-12-24",
+  "to": "2023-04-23",
+  "trades": [
+   {
+    "date": "2023-03-17",
+    "filed": "2023-03-21",
+    "code": "S",
+    "value": 26789,
+    "who": "Horn Margaret A"
+   },
+   {
+    "date": "2023-03-17",
+    "filed": "2023-03-21",
+    "code": "S",
+    "value": 14484,
+    "who": "Anders Jack"
+   },
+   {
+    "date": "2023-03-17",
+    "filed": "2023-03-21",
+    "code": "S",
+    "value": 26789,
+    "who": "Kelsey Stephen Michael"
+   },
+   {
+    "date": "2023-03-17",
+    "filed": "2023-03-21",
+    "code": "S",
+    "value": 15551,
+    "who": "Wang Xiaolin"
+   },
+   {
+    "date": "2023-03-07",
+    "filed": "2023-03-10",
+    "code": "P",
+    "value": 5100018,
+    "who": "Schroeder Thilo"
+   },
+   {
+    "date": "2023-03-07",
+    "filed": "2023-03-10",
+    "code": "P",
+    "value": 6999982,
+    "who": "Schroeder Thilo"
+   },
+   {
+    "date": "2023-03-10",
+    "filed": "2023-03-10",
+    "code": "P",
+    "value": 1916334,
+    "who": "Schroeder Thilo"
+   },
+   {
+    "date": "2023-03-10",
+    "filed": "2023-03-10",
+    "code": "P",
+    "value": 129270,
+    "who": "Schroeder Thilo"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "revolution medicines",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05054725",
+    "drugs": [
+     "RMC-4630",
+     "Sotorasib"
+    ]
+   },
+   {
+    "nct": "NCT05379985",
+    "drugs": [
+     "RMC-6236"
+    ]
+   }
+  ]
+ }
+}

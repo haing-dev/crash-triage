@@ -1,0 +1,76 @@
+{
+ "id": "1661059_2022-06-16",
+ "kind": "slide",
+ "cik": "1661059",
+ "name": "NextCure, Inc.",
+ "date": "2022-06-16",
+ "asof": "2022-06-16",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-06-16",
+  "adj_close": 51.72
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 10652000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-22-007439"
+ },
+ "burn6": {
+  "end": "2022-03-31",
+  "start": "2021-10-01",
+  "cash_used_ops": 28896000.0,
+  "capex": 1130000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-05-04",
+  "shares": 27747165
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2022-03-18",
+  "to": "2022-07-16",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "nextcure",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04875806",
+    "drugs": [
+     "NC762"
+    ]
+   },
+   {
+    "nct": "NCT04430933",
+    "drugs": [
+     "NC318",
+     "Pemetrexed/Carboplatin",
+     "Nab paclitaxel/Carboplatin"
+    ]
+   },
+   {
+    "nct": "NCT03665285",
+    "drugs": [
+     "NC318"
+    ]
+   },
+   {
+    "nct": "NCT04408599",
+    "drugs": [
+     "NC410"
+    ]
+   }
+  ]
+ }
+}

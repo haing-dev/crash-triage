@@ -1,0 +1,86 @@
+{
+ "id": "1759138_2025-11-06",
+ "kind": "slide",
+ "cik": "1759138",
+ "name": "Cabaletta Bio, Inc.",
+ "date": "2025-11-06",
+ "asof": "2025-11-06",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-11-06",
+  "adj_close": 2.48
+ },
+ "balance": {
+  "end": "2025-06-30",
+  "cash": 194682000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-25-104573"
+ },
+ "burn6": {
+  "end": "2025-06-30",
+  "start": "2025-01-01",
+  "cash_used_ops": 61228000.0,
+  "capex": 946000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-08-01",
+  "shares": 91465233
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "\u2022 We have identified conditions that raise substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2025-08-08",
+  "to": "2025-12-06",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "cabaletta bio",
+  "other_trials": 5,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06154252",
+    "drugs": [
+     "CABA-201 following preconditioning with fludarabine and cyclophosphamide"
+    ]
+   },
+   {
+    "nct": "NCT06359041",
+    "drugs": [
+     "CABA-201",
+     "CABA-201"
+    ]
+   },
+   {
+    "nct": "NCT04422912",
+    "drugs": [
+     "DSG3-CAART",
+     "CABA-201"
+    ]
+   },
+   {
+    "nct": "NCT06121297",
+    "drugs": [
+     "CABA-201",
+     "CABA-201"
+    ]
+   },
+   {
+    "nct": "NCT06328777",
+    "drugs": [
+     "CABA-201",
+     "CABA-201"
+    ]
+   }
+  ]
+ }
+}

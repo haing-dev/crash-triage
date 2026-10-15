@@ -1,0 +1,71 @@
+{
+ "id": "1615219_2021-09-20",
+ "kind": "slide",
+ "cik": "1615219",
+ "name": "Decoy Therapeutics Inc.",
+ "date": "2021-09-20",
+ "asof": "2021-09-20",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-09-20",
+  "adj_close": 37800.0
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 33079389,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001615219-21-000080"
+ },
+ "burn6": {
+  "end": "2021-06-30",
+  "start": "2021-01-01",
+  "cash_used_ops": 5897570.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-08-02",
+  "shares": 44778794
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 2,
+  "from": "2021-06-22",
+  "to": "2021-10-20",
+  "trades": [
+   {
+    "date": "2021-08-17",
+    "filed": "2021-08-17",
+    "code": "P",
+    "value": 1798,
+    "who": "Arthur David J."
+   },
+   {
+    "date": "2021-08-17",
+    "filed": "2021-08-17",
+    "code": "P",
+    "value": 1784,
+    "who": "Arthur David J."
+   },
+   {
+    "date": "2021-08-10",
+    "filed": "2021-08-11",
+    "code": "P",
+    "value": 6167,
+    "who": "HANISH ARNOLD C"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "decoy therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

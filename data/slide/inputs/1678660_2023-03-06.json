@@ -1,0 +1,65 @@
+{
+ "id": "1678660_2023-03-06",
+ "kind": "slide",
+ "cik": "1678660",
+ "name": "Prelude Therapeutics Inc",
+ "date": "2023-03-06",
+ "asof": "2023-03-06",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-03-06",
+  "adj_close": 5.91
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 224043000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-22-024732"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 38907000.0,
+  "capex": 1674000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-11-08",
+  "shares": 47859813
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 9,
+  "from": "2022-12-06",
+  "to": "2023-04-05",
+  "trades": [
+   {
+    "date": "2022-12-20",
+    "filed": "2022-12-21",
+    "code": "P",
+    "value": 98446,
+    "who": "Vaddi Krishna"
+   },
+   {
+    "date": "2022-12-08",
+    "filed": "2022-12-12",
+    "code": "P",
+    "value": 47600,
+    "who": "Chardonnet Laurent"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "prelude therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "id": "1656634_2023-10-23",
+ "kind": "slide",
+ "cik": "1656634",
+ "name": "Gritstone bio, Inc.",
+ "date": "2023-10-23",
+ "asof": "2023-10-23",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-10-23",
+  "adj_close": 1.86
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 114533000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-23-040597"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 71053000.0,
+  "capex": 3288000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-08-07",
+  "shares": 93075427
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These conditions raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2023-07-25",
+  "to": "2023-11-22",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "gritstone bio",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

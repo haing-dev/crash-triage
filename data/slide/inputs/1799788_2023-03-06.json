@@ -1,0 +1,176 @@
+{
+ "id": "1799788_2023-03-06",
+ "kind": "slide",
+ "cik": "1799788",
+ "name": "Greenwich LifeSciences, Inc.",
+ "date": "2023-03-06",
+ "asof": "2023-03-06",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-03-06",
+  "adj_close": 14.51
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 15638087,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001493152-22-032057"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 2082504.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-11-01",
+  "shares": 12848165
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 17,
+  "from": "2022-12-06",
+  "to": "2023-04-05",
+  "trades": [
+   {
+    "date": "2023-03-15",
+    "filed": "2023-03-16",
+    "code": "P",
+    "value": 3178,
+    "who": "Thompson Jaye"
+   },
+   {
+    "date": "2023-03-10",
+    "filed": "2023-03-13",
+    "code": "P",
+    "value": 12120,
+    "who": "Patel Snehal"
+   },
+   {
+    "date": "2023-02-24",
+    "filed": "2023-02-28",
+    "code": "P",
+    "value": 3849,
+    "who": "Thompson Jaye"
+   },
+   {
+    "date": "2023-02-17",
+    "filed": "2023-02-22",
+    "code": "P",
+    "value": 9918,
+    "who": "Patel Snehal"
+   },
+   {
+    "date": "2023-02-10",
+    "filed": "2023-02-14",
+    "code": "P",
+    "value": 18680,
+    "who": "Patel Snehal"
+   },
+   {
+    "date": "2023-02-03",
+    "filed": "2023-02-07",
+    "code": "P",
+    "value": 5210,
+    "who": "Thompson Jaye"
+   },
+   {
+    "date": "2023-01-27",
+    "filed": "2023-01-31",
+    "code": "P",
+    "value": 38700,
+    "who": "Patel Snehal"
+   },
+   {
+    "date": "2023-01-27",
+    "filed": "2023-01-30",
+    "code": "P",
+    "value": 4800,
+    "who": "Thompson Jaye"
+   },
+   {
+    "date": "2023-01-20",
+    "filed": "2023-01-24",
+    "code": "P",
+    "value": 26055,
+    "who": "Patel Snehal"
+   },
+   {
+    "date": "2023-01-13",
+    "filed": "2023-01-17",
+    "code": "P",
+    "value": 4125,
+    "who": "Thompson Jaye"
+   },
+   {
+    "date": "2023-01-06",
+    "filed": "2023-01-10",
+    "code": "P",
+    "value": 22770,
+    "who": "Patel Snehal"
+   },
+   {
+    "date": "2022-12-29",
+    "filed": "2023-01-03",
+    "code": "P",
+    "value": 60760,
+    "who": "Patel Snehal"
+   },
+   {
+    "date": "2022-12-16",
+    "filed": "2022-12-20",
+    "code": "P",
+    "value": 13010,
+    "who": "Patel Snehal"
+   },
+   {
+    "date": "2022-12-16",
+    "filed": "2022-12-20",
+    "code": "P",
+    "value": 3235,
+    "who": "Thompson Jaye"
+   },
+   {
+    "date": "2022-12-09",
+    "filed": "2022-12-13",
+    "code": "P",
+    "value": 26220,
+    "who": "Patel Snehal"
+   },
+   {
+    "date": "2022-12-02",
+    "filed": "2022-12-06",
+    "code": "P",
+    "value": 13840,
+    "who": "Patel Snehal"
+   },
+   {
+    "date": "2022-12-02",
+    "filed": "2022-12-06",
+    "code": "P",
+    "value": 3495,
+    "who": "Thompson Jaye"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "greenwich lifesciences",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05232916",
+    "drugs": [
+     "GLSI-100"
+    ]
+   }
+  ]
+ }
+}

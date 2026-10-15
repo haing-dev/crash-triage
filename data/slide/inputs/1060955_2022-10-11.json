@@ -1,0 +1,50 @@
+{
+ "id": "1060955_2022-10-11",
+ "kind": "slide",
+ "cik": "1060955",
+ "name": "ICON PLC",
+ "date": "2022-10-11",
+ "asof": "2022-10-11",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-10-11",
+  "adj_close": 176.25
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 616630000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001060955-22-000021"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": -408966000.0,
+  "capex": 47840000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-12-31",
+  "shares": 81554683
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2022-07-13",
+  "to": "2022-11-10",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "icon",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

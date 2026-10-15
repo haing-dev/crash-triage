@@ -1,0 +1,97 @@
+{
+ "id": "1850270_2025-07-15",
+ "kind": "slide",
+ "cik": "1850270",
+ "name": "PROKIDNEY CORP.",
+ "date": "2025-07-15",
+ "asof": "2025-07-15",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-07-15",
+  "adj_close": 3.37
+ },
+ "balance": {
+  "end": "2025-03-31",
+  "cash": 97805000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-25-069251"
+ },
+ "burn6": {
+  "end": "2025-03-31",
+  "start": "2024-10-01",
+  "cash_used_ops": 53763000.0,
+  "capex": 26644000.0,
+  "periods": 2
+ },
+ "shares": null,
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 14,
+  "from": "2025-04-16",
+  "to": "2025-08-14",
+  "trades": [
+   {
+    "date": "2025-07-08",
+    "filed": "2025-07-09",
+    "code": "S",
+    "value": 312510,
+    "who": "Weber Darin J."
+   },
+   {
+    "date": "2025-04-22",
+    "filed": "2025-04-24",
+    "code": "P",
+    "value": 276366,
+    "who": "Control Empresarial de Capitales S.A. de C.V."
+   },
+   {
+    "date": "2025-04-17",
+    "filed": "2025-04-21",
+    "code": "P",
+    "value": 18690,
+    "who": "Control Empresarial de Capitales S.A. de C.V."
+   },
+   {
+    "date": "2025-04-16",
+    "filed": "2025-04-18",
+    "code": "P",
+    "value": 74820,
+    "who": "Control Empresarial de Capitales S.A. de C.V."
+   },
+   {
+    "date": "2025-04-14",
+    "filed": "2025-04-16",
+    "code": "P",
+    "value": 194591,
+    "who": "Control Empresarial de Capitales S.A. de C.V."
+   },
+   {
+    "date": "2025-04-15",
+    "filed": "2025-04-16",
+    "code": "P",
+    "value": 326009,
+    "who": "Control Empresarial de Capitales S.A. de C.V."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "prokidney",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05099770",
+    "drugs": [
+     "Renal Autologous Cell Therapy (REACT/ rilparencel)",
+     "Sham Comparator"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "id": "1648257_2024-12-16",
+ "kind": "slide",
+ "cik": "1648257",
+ "name": "HUTCHMED (China) Ltd",
+ "date": "2024-12-16",
+ "asof": "2024-12-16",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-12-16",
+  "adj_close": 14.9
+ },
+ "balance": {
+  "end": "2024-06-30",
+  "cash": 802453000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001410578-24-001128"
+ },
+ "burn6": {
+  "end": "2024-06-30",
+  "start": "2024-01-01",
+  "cash_used_ops": 39832000.0,
+  "capex": 10108000.0,
+  "periods": 1
+ },
+ "shares": {
+  "end": "2023-12-31",
+  "shares": 871256270
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2024-09-17",
+  "to": "2025-01-15",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "hutchmed china",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

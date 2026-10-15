@@ -1,0 +1,58 @@
+{
+ "id": "1435049_2021-04-08",
+ "kind": "slide",
+ "cik": "1435049",
+ "name": "CHINOOK THERAPEUTICS, INC.",
+ "date": "2021-04-08",
+ "asof": "2021-04-08",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-04-08",
+  "adj_close": 14.38
+ },
+ "balance": {
+  "end": "2020-12-31",
+  "cash": 250372000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent",
+   "MarketableSecuritiesNoncurrent"
+  ],
+  "accn": "0001564590-21-018017"
+ },
+ "burn6": {
+  "end": "2020-12-31",
+  "start": "2020-07-01",
+  "cash_used_ops": 27024000.0,
+  "capex": 788000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-04-05",
+  "shares": 42377432
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2021-01-08",
+  "to": "2021-05-08",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "chinook therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03937141",
+    "drugs": [
+     "ADU-S100"
+    ]
+   }
+  ]
+ }
+}

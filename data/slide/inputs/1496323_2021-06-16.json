@@ -1,0 +1,125 @@
+{
+ "id": "1496323_2021-06-16",
+ "kind": "slide",
+ "cik": "1496323",
+ "name": "IGM Biosciences, Inc.",
+ "date": "2021-06-16",
+ "asof": "2021-06-16",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-06-16",
+  "adj_close": 84.45
+ },
+ "balance": {
+  "end": "2021-03-31",
+  "cash": 331674000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001564590-21-024931"
+ },
+ "burn6": {
+  "end": "2021-03-31",
+  "start": "2020-10-01",
+  "cash_used_ops": 51026000.0,
+  "capex": 12781000.0,
+  "periods": 2
+ },
+ "shares": null,
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 27,
+  "from": "2021-03-18",
+  "to": "2021-07-16",
+  "trades": [
+   {
+    "date": "2021-07-06",
+    "filed": "2021-07-06",
+    "code": "S",
+    "value": 102878,
+    "who": "Keyt Bruce"
+   },
+   {
+    "date": "2021-07-06",
+    "filed": "2021-07-06",
+    "code": "S",
+    "value": 78033,
+    "who": "Chen Daniel ShinYu"
+   },
+   {
+    "date": "2021-06-02",
+    "filed": "2021-06-03",
+    "code": "S",
+    "value": 98542,
+    "who": "Keyt Bruce"
+   },
+   {
+    "date": "2021-06-01",
+    "filed": "2021-06-03",
+    "code": "S",
+    "value": 160000,
+    "who": "Hambleton Julie"
+   },
+   {
+    "date": "2021-06-02",
+    "filed": "2021-06-03",
+    "code": "S",
+    "value": 74480,
+    "who": "Chen Daniel ShinYu"
+   },
+   {
+    "date": "2021-05-26",
+    "filed": "2021-05-28",
+    "code": "S",
+    "value": 31080,
+    "who": "Chen Daniel ShinYu"
+   },
+   {
+    "date": "2021-05-05",
+    "filed": "2021-05-06",
+    "code": "S",
+    "value": 29226,
+    "who": "Chen Daniel ShinYu"
+   },
+   {
+    "date": "2021-05-05",
+    "filed": "2021-05-05",
+    "code": "S",
+    "value": 77688,
+    "who": "Keyt Bruce"
+   },
+   {
+    "date": "2021-04-06",
+    "filed": "2021-04-07",
+    "code": "S",
+    "value": 102828,
+    "who": "Keyt Bruce"
+   },
+   {
+    "date": "2021-04-06",
+    "filed": "2021-04-07",
+    "code": "S",
+    "value": 100204,
+    "who": "Chen Daniel ShinYu"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "igm biosciences",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04082936",
+    "drugs": [
+     "imvotamab"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,106 @@
+{
+ "id": "1439222_2021-08-18",
+ "kind": "slide",
+ "cik": "1439222",
+ "name": "AGIOS PHARMACEUTICALS, INC.",
+ "date": "2021-08-18",
+ "asof": "2021-08-18",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-08-18",
+  "adj_close": 42.25
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 969124000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001439222-21-000064"
+ },
+ "burn6": {
+  "end": "2021-06-30",
+  "start": "2021-01-01",
+  "cash_used_ops": 238043000.0,
+  "capex": 1261000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-07-23",
+  "shares": 58951469
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 19,
+  "from": "2021-05-20",
+  "to": "2021-09-17",
+  "trades": [
+   {
+    "date": "2021-06-21",
+    "filed": "2021-06-23",
+    "code": "S",
+    "value": 109481,
+    "who": "Alenson Carman"
+   },
+   {
+    "date": "2021-06-18",
+    "filed": "2021-06-22",
+    "code": "S",
+    "value": 2914851,
+    "who": "Bowden Christopher"
+   },
+   {
+    "date": "2021-06-17",
+    "filed": "2021-06-21",
+    "code": "S",
+    "value": 150170,
+    "who": "Bowden Christopher"
+   },
+   {
+    "date": "2021-06-09",
+    "filed": "2021-06-11",
+    "code": "S",
+    "value": 430117,
+    "who": "Bowden Christopher"
+   },
+   {
+    "date": "2021-06-10",
+    "filed": "2021-06-11",
+    "code": "S",
+    "value": 1252437,
+    "who": "Bowden Christopher"
+   },
+   {
+    "date": "2021-06-07",
+    "filed": "2021-06-09",
+    "code": "S",
+    "value": 256232,
+    "who": "Bowden Christopher"
+   },
+   {
+    "date": "2021-06-08",
+    "filed": "2021-06-09",
+    "code": "S",
+    "value": 400939,
+    "who": "Bowden Christopher"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "agios pharmaceuticals",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03853798",
+    "drugs": [
+     "Mitapivat"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,113 @@
+{
+ "id": "791908_2025-02-21",
+ "kind": "slide",
+ "cik": "791908",
+ "name": "XOMA Royalty Corp",
+ "date": "2025-02-21",
+ "asof": "2025-02-21",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-02-21",
+  "adj_close": 23.52
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 142050000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-24-014755"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": 5898000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-11-04",
+  "shares": 11782723
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2024-11-23",
+  "to": "2025-03-23",
+  "trades": [
+   {
+    "date": "2025-01-24",
+    "filed": "2025-01-28",
+    "code": "S",
+    "value": 8865622,
+    "who": "BVF PARTNERS L P/IL"
+   },
+   {
+    "date": "2025-01-24",
+    "filed": "2025-01-28",
+    "code": "S",
+    "value": 2238754,
+    "who": "BVF PARTNERS L P/IL"
+   },
+   {
+    "date": "2025-01-24",
+    "filed": "2025-01-28",
+    "code": "S",
+    "value": 1964991,
+    "who": "BVF PARTNERS L P/IL"
+   },
+   {
+    "date": "2025-01-24",
+    "filed": "2025-01-28",
+    "code": "S",
+    "value": 3914348,
+    "who": "BVF PARTNERS L P/IL"
+   },
+   {
+    "date": "2025-01-08",
+    "filed": "2025-01-10",
+    "code": "P",
+    "value": 8013,
+    "who": "Sitko Bradley"
+   },
+   {
+    "date": "2025-01-08",
+    "filed": "2025-01-10",
+    "code": "P",
+    "value": 2099,
+    "who": "Sitko Bradley"
+   },
+   {
+    "date": "2025-01-08",
+    "filed": "2025-01-10",
+    "code": "P",
+    "value": 1942,
+    "who": "Sitko Bradley"
+   },
+   {
+    "date": "2025-01-08",
+    "filed": "2025-01-10",
+    "code": "P",
+    "value": 1920,
+    "who": "Sitko Bradley"
+   },
+   {
+    "date": "2024-12-31",
+    "filed": "2025-01-03",
+    "code": "P",
+    "value": 7770,
+    "who": "Sitko Bradley"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "xoma royalty",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

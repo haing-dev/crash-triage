@@ -1,0 +1,50 @@
+{
+ "id": "1444192_2022-04-06",
+ "kind": "slide",
+ "cik": "1444192",
+ "name": "Grace Therapeutics, Inc.",
+ "date": "2022-04-06",
+ "asof": "2022-04-06",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-04-06",
+  "adj_close": 7.02
+ },
+ "balance": {
+  "end": "2021-12-31",
+  "cash": 46325000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-22-001147"
+ },
+ "burn6": {
+  "end": "2021-12-31",
+  "start": "2021-07-01",
+  "cash_used_ops": 10688000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-02-14",
+  "shares": 44288183
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2022-01-06",
+  "to": "2022-05-06",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "grace therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

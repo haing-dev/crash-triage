@@ -1,0 +1,66 @@
+{
+ "id": "72444_2022-07-29",
+ "kind": "slide",
+ "cik": "72444",
+ "name": "Vaxart, Inc.",
+ "date": "2022-07-29",
+ "asof": "2022-07-29",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-07-29",
+  "adj_close": 3.68
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 147658000,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001437749-22-011554"
+ },
+ "burn6": {
+  "end": "2022-03-31",
+  "start": "2021-10-01",
+  "cash_used_ops": 40927000.0,
+  "capex": 2361000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-05-06",
+  "shares": 126445811
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 10,
+  "from": "2022-04-30",
+  "to": "2022-08-28",
+  "trades": [
+   {
+    "date": "2022-06-22",
+    "filed": "2022-06-23",
+    "code": "P",
+    "value": 16100,
+    "who": "Ahmad Fuad"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "vaxart",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05212168",
+    "drugs": [
+     "VXA-G1.1-NN",
+     "Norovirus GI.1 Norwalk Virus Inoculum"
+    ]
+   }
+  ]
+ }
+}

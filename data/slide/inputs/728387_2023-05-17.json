@@ -1,0 +1,49 @@
+{
+ "id": "728387_2023-05-17",
+ "kind": "slide",
+ "cik": "728387",
+ "name": "Perspective Therapeutics, Inc.",
+ "date": "2023-05-17",
+ "asof": "2023-05-17",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-05-17",
+  "adj_close": 4.5
+ },
+ "balance": {
+  "end": "2023-03-31",
+  "cash": 36452000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001437749-23-014658"
+ },
+ "burn6": {
+  "end": "2023-03-31",
+  "start": "2022-10-01",
+  "cash_used_ops": 14046000.0,
+  "capex": 262000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-05-12",
+  "shares": 280131359
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2023-02-16",
+  "to": "2023-06-16",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "perspective therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

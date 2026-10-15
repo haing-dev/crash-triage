@@ -1,0 +1,58 @@
+{
+ "id": "109657_2021-07-15",
+ "kind": "slide",
+ "cik": "109657",
+ "name": "GT Biopharma, Inc.",
+ "date": "2021-07-15",
+ "asof": "2021-07-15",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-07-15",
+  "adj_close": 9690.0
+ },
+ "balance": {
+  "end": "2021-03-31",
+  "cash": 27555000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001654954-21-005897"
+ },
+ "burn6": {
+  "end": "2021-03-31",
+  "start": "2020-10-01",
+  "cash_used_ops": 5611000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-05-12",
+  "shares": 21127718
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These factors raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2021-04-16",
+  "to": "2021-08-14",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "gt biopharma",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03214666",
+    "drugs": [
+     "GTB-3550 TriKE\u00ae Phase I",
+     "GTB-3550 TriKE\u00ae Phase II"
+    ]
+   }
+  ]
+ }
+}

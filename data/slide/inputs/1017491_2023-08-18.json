@@ -1,0 +1,57 @@
+{
+ "id": "1017491_2023-08-18",
+ "kind": "slide",
+ "cik": "1017491",
+ "name": "SEELOS THERAPEUTICS, INC.",
+ "date": "2023-08-18",
+ "asof": "2023-08-18",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-08-18",
+  "adj_close": 4300.8
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 5843000,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0001410578-23-001773"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 16252000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-08-04",
+  "shares": 127365359
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Based on such evaluation and the Company\u2019s current plans (including the ongoing clinical programs for SLS-002, SLS-005, and other product candidates), which are subject to change, management believes that the Company\u2019s existing cash and cash equivalents as of June 30, 2023 are not sufficient to sati"
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2023-05-20",
+  "to": "2023-09-17",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "seelos therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05490563",
+    "drugs": [
+     "SLS-005"
+    ]
+   }
+  ]
+ }
+}

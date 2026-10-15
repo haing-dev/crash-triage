@@ -1,0 +1,50 @@
+{
+ "id": "1782303_2025-10-07",
+ "kind": "slide",
+ "cik": "1782303",
+ "name": "Boundless Bio, Inc.",
+ "date": "2025-10-07",
+ "asof": "2025-10-07",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-10-07",
+  "adj_close": 1.23
+ },
+ "balance": {
+  "end": "2025-06-30",
+  "cash": 127148000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-25-102391"
+ },
+ "burn6": {
+  "end": "2025-06-30",
+  "start": "2025-01-01",
+  "cash_used_ops": 26359000.0,
+  "capex": 107000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-07-31",
+  "shares": 22385611
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2025-07-09",
+  "to": "2025-11-06",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "boundless bio",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

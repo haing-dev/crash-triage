@@ -1,0 +1,66 @@
+{
+ "id": "1130598_2026-05-12",
+ "kind": "slide",
+ "cik": "1130598",
+ "name": "Traws Pharma, Inc.",
+ "date": "2026-05-12",
+ "asof": "2026-05-12",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-05-12",
+  "adj_close": 1.68
+ },
+ "balance": {
+  "end": "2025-12-31",
+  "cash": 3820000,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0001104659-26-043832"
+ },
+ "burn6": {
+  "end": "2025-12-31",
+  "start": "2025-07-01",
+  "cash_used_ops": 6769000.0,
+  "capex": 1297045.054945055,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-04-24",
+  "shares": 15150669
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Summary of Principal Risk Factors \u25cfOur recurring operating losses, negative cash flows from operations, and accumulated deficit raise substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2026-02-11",
+  "to": "2026-06-11",
+  "trades": [
+   {
+    "date": "2026-04-16",
+    "filed": "2026-04-28",
+    "code": "P",
+    "value": 998207,
+    "who": "ORBIMED ADVISORS LLC"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "traws pharma",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT07371650",
+    "drugs": [
+     "TRX-100",
+     "Standard of Care (SOC)"
+    ]
+   }
+  ]
+ }
+}

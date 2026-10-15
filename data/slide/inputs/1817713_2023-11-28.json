@@ -1,0 +1,72 @@
+{
+ "id": "1817713_2023-11-28",
+ "kind": "slide",
+ "cik": "1817713",
+ "name": "Janux Therapeutics, Inc.",
+ "date": "2023-11-28",
+ "asof": "2023-11-28",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-11-28",
+  "adj_close": 9.94
+ },
+ "balance": {
+  "end": "2023-09-30",
+  "cash": 349712000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-23-060288"
+ },
+ "burn6": {
+  "end": "2023-09-30",
+  "start": "2023-04-01",
+  "cash_used_ops": 26763000.0,
+  "capex": 1050000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-11-03",
+  "shares": 46168430
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2023-08-30",
+  "to": "2023-12-28",
+  "trades": [
+   {
+    "date": "2023-11-13",
+    "filed": "2023-11-15",
+    "code": "P",
+    "value": 4988643,
+    "who": "Reardon Tighe"
+   },
+   {
+    "date": "2023-11-13",
+    "filed": "2023-11-15",
+    "code": "P",
+    "value": 4988643,
+    "who": "Lichter Jay"
+   },
+   {
+    "date": "2023-11-13",
+    "filed": "2023-11-13",
+    "code": "P",
+    "value": 4988643,
+    "who": "Avalon Ventures XI, L.P."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "janux therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

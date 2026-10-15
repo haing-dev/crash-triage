@@ -1,0 +1,65 @@
+{
+ "id": "910267_2023-04-10",
+ "kind": "slide",
+ "cik": "910267",
+ "name": "TITAN PHARMACEUTICALS INC",
+ "date": "2023-04-10",
+ "asof": "2023-04-10",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-04-10",
+  "adj_close": 15.6
+ },
+ "balance": {
+  "end": "2022-12-31",
+  "cash": 2937000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001829126-23-002504"
+ },
+ "burn6": {
+  "end": "2022-12-31",
+  "start": "2022-07-01",
+  "cash_used_ops": 3452000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-03-24",
+  "shares": 15016295
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Risk Factors Risks Related to Our Financial Condition and Need for Additional Capital We have incurred net losses in almost every year since our inception, which losses will continue for the foreseeable future and raise substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2023-01-10",
+  "to": "2023-05-10",
+  "trades": [
+   {
+    "date": "2023-01-24",
+    "filed": "2023-01-26",
+    "code": "P",
+    "value": 36221,
+    "who": "Lazar David E."
+   },
+   {
+    "date": "2023-01-25",
+    "filed": "2023-01-26",
+    "code": "P",
+    "value": 20066,
+    "who": "Lazar David E."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "titan pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "id": "1806310_2026-09-24",
+ "kind": "slide",
+ "cik": "1806310",
+ "name": "Taysha Gene Therapies, Inc.",
+ "date": "2026-09-24",
+ "asof": "2026-09-24",
+ "final": false,
+ "version": 5,
+ "price": {
+  "date": "2026-09-24",
+  "adj_close": 4.79
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 455407000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001193125-26-344610"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": 81303000.0,
+  "capex": 23000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-08-11",
+  "shares": 325833545
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2026-06-26",
+  "to": "2026-10-15",
+  "trades": [
+   {
+    "date": "2026-07-10",
+    "filed": "2026-07-10",
+    "code": "S",
+    "value": 1248000,
+    "who": "Nagendran Sukumar"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "taysha gene therapies",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT07480564",
+    "drugs": [
+     "TSHA-102"
+    ]
+   },
+   {
+    "nct": "NCT05606614",
+    "drugs": [
+     "TSHA-102"
+    ]
+   },
+   {
+    "nct": "NCT06152237",
+    "drugs": [
+     "TSHA-102"
+    ]
+   }
+  ]
+ }
+}

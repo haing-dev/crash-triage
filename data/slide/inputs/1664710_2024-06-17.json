@@ -1,0 +1,64 @@
+{
+ "id": "1664710_2024-06-17",
+ "kind": "slide",
+ "cik": "1664710",
+ "name": "Keros Therapeutics, Inc.",
+ "date": "2024-06-17",
+ "asof": "2024-06-17",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-06-17",
+  "adj_close": 44.58
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 442443000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001664710-24-000039"
+ },
+ "burn6": {
+  "end": "2024-03-31",
+  "start": "2023-10-01",
+  "cash_used_ops": 70019000.0,
+  "capex": 1487000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-05-01",
+  "shares": 36083886
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2024-03-19",
+  "to": "2024-07-17",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "keros therapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05975905",
+    "drugs": [
+     "Dose A KER-012",
+     "Dose B KER-012",
+     "Dose C KER-012"
+    ]
+   },
+   {
+    "nct": "NCT05927012",
+    "drugs": [
+     "KER-047"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,82 @@
+{
+ "id": "874015_2021-10-18",
+ "kind": "slide",
+ "cik": "874015",
+ "name": "IONIS PHARMACEUTICALS INC",
+ "date": "2021-10-18",
+ "asof": "2021-10-18",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-10-18",
+  "adj_close": 30.25
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 2059270000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0000874015-21-000144"
+ },
+ "burn6": {
+  "end": "2021-06-30",
+  "start": "2021-01-01",
+  "cash_used_ops": 117314000.0,
+  "capex": 6130000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-07-28",
+  "shares": 141147698
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 9,
+  "from": "2021-07-20",
+  "to": "2021-11-17",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "ionis pharmaceuticals",
+  "other_trials": 15,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04849741",
+    "drugs": [
+     "zilganersen"
+    ]
+   },
+   {
+    "nct": "NCT04768972",
+    "drugs": [
+     "ION363"
+    ]
+   },
+   {
+    "nct": "NCT04836182",
+    "drugs": [
+     "IONIS-AGT-LRx"
+    ]
+   },
+   {
+    "nct": "NCT00048295",
+    "drugs": [
+     "Alicaforsen"
+    ]
+   },
+   {
+    "nct": "NCT03967249",
+    "drugs": [
+     "IONIS GHR-LRx",
+     "Somatostatin Receptor Ligand (SRL)"
+    ]
+   }
+  ]
+ }
+}

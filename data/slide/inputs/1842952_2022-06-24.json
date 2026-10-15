@@ -1,0 +1,49 @@
+{
+ "id": "1842952_2022-06-24",
+ "kind": "slide",
+ "cik": "1842952",
+ "name": "Context Therapeutics Inc.",
+ "date": "2022-06-24",
+ "asof": "2022-06-24",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-06-24",
+  "adj_close": 2.1
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 45728235,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001842952-22-000041"
+ },
+ "burn6": {
+  "end": "2022-03-31",
+  "start": "2021-10-01",
+  "cash_used_ops": 8781965.0,
+  "capex": 71822.66696629213,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-05-06",
+  "shares": 15966053
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2022-03-26",
+  "to": "2022-07-24",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "context therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

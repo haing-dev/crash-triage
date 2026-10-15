@@ -1,0 +1,49 @@
+{
+ "id": "1710340_2024-03-15",
+ "kind": "slide",
+ "cik": "1710340",
+ "name": "Eton Pharmaceuticals, Inc.",
+ "date": "2024-03-15",
+ "asof": "2024-03-15",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-03-15",
+  "adj_close": 3.85
+ },
+ "balance": {
+  "end": "2023-12-31",
+  "cash": 21388000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001437749-24-007853"
+ },
+ "burn6": {
+  "end": "2023-12-31",
+  "start": "2023-07-01",
+  "cash_used_ops": -1260000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-03-05",
+  "shares": 25688062
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 7,
+  "from": "2023-12-16",
+  "to": "2024-04-14",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "eton pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

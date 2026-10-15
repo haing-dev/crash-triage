@@ -1,0 +1,77 @@
+{
+ "id": "1517022_2025-09-17",
+ "kind": "slide",
+ "cik": "1517022",
+ "name": "Akebia Therapeutics, Inc.",
+ "date": "2025-09-17",
+ "asof": "2025-09-17",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-09-17",
+  "adj_close": 2.8
+ },
+ "balance": {
+  "end": "2025-06-30",
+  "cash": 137308000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001628280-25-038600"
+ },
+ "burn6": {
+  "end": "2025-06-30",
+  "start": "2025-01-01",
+  "cash_used_ops": -8758000.0,
+  "capex": 144000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-08-04",
+  "shares": 265145038
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2025-06-19",
+  "to": "2025-10-17",
+  "trades": [
+   {
+    "date": "2025-06-30",
+    "filed": "2025-07-01",
+    "code": "S",
+    "value": 151622,
+    "who": "Ostrowski Erik"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "akebia therapeutics",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05082584",
+    "drugs": [
+     "Vadadustat"
+    ]
+   },
+   {
+    "nct": "NCT05082571",
+    "drugs": [
+     "vadadustat"
+    ]
+   },
+   {
+    "nct": "NCT06901505",
+    "drugs": [
+     "Erythropoiesis-Stimulating Agent (ESA)",
+     "Vadadustat"
+    ]
+   }
+  ]
+ }
+}

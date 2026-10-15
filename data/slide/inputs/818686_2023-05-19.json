@@ -1,0 +1,162 @@
+{
+ "id": "818686_2023-05-19",
+ "kind": "slide",
+ "cik": "818686",
+ "name": "TEVA PHARMACEUTICAL INDUSTRIES LTD",
+ "date": "2023-05-19",
+ "asof": "2023-05-19",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-05-19",
+  "adj_close": 7.91
+ },
+ "balance": {
+  "end": "2023-03-31",
+  "cash": 2143000000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001193125-23-140697"
+ },
+ "burn6": {
+  "end": "2023-03-31",
+  "start": "2022-10-01",
+  "cash_used_ops": -828000000.0,
+  "capex": 281000000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-03-31",
+  "shares": 1120405816
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 24,
+  "from": "2023-02-18",
+  "to": "2023-06-18",
+  "trades": [
+   {
+    "date": "2023-03-06",
+    "filed": "2023-03-08",
+    "code": "S",
+    "value": 163770,
+    "who": "Stark David Matthew"
+   },
+   {
+    "date": "2023-03-07",
+    "filed": "2023-03-08",
+    "code": "S",
+    "value": 466445,
+    "who": "Stark David Matthew"
+   },
+   {
+    "date": "2023-03-06",
+    "filed": "2023-03-08",
+    "code": "S",
+    "value": 15552,
+    "who": "Drape Eric"
+   },
+   {
+    "date": "2023-03-07",
+    "filed": "2023-03-08",
+    "code": "S",
+    "value": 44302,
+    "who": "Drape Eric"
+   },
+   {
+    "date": "2023-03-06",
+    "filed": "2023-03-08",
+    "code": "S",
+    "value": 192213,
+    "who": "Dethlefs Sven"
+   },
+   {
+    "date": "2023-03-07",
+    "filed": "2023-03-08",
+    "code": "S",
+    "value": 547440,
+    "who": "Dethlefs Sven"
+   },
+   {
+    "date": "2023-03-06",
+    "filed": "2023-03-08",
+    "code": "S",
+    "value": 178776,
+    "who": "Daniell Richard"
+   },
+   {
+    "date": "2023-03-07",
+    "filed": "2023-03-08",
+    "code": "S",
+    "value": 509173,
+    "who": "Daniell Richard"
+   },
+   {
+    "date": "2023-02-28",
+    "filed": "2023-03-02",
+    "code": "S",
+    "value": 182210,
+    "who": "Stark David Matthew"
+   },
+   {
+    "date": "2023-02-28",
+    "filed": "2023-03-02",
+    "code": "S",
+    "value": 444432,
+    "who": "Stark David Matthew"
+   },
+   {
+    "date": "2023-02-28",
+    "filed": "2023-03-02",
+    "code": "S",
+    "value": 96859,
+    "who": "Drape Eric"
+   },
+   {
+    "date": "2023-02-28",
+    "filed": "2023-03-02",
+    "code": "S",
+    "value": 236171,
+    "who": "Drape Eric"
+   },
+   {
+    "date": "2023-02-28",
+    "filed": "2023-03-02",
+    "code": "S",
+    "value": 171493,
+    "who": "Dethlefs Sven"
+   },
+   {
+    "date": "2023-02-28",
+    "filed": "2023-03-02",
+    "code": "S",
+    "value": 418292,
+    "who": "Dethlefs Sven"
+   },
+   {
+    "date": "2023-02-28",
+    "filed": "2023-03-02",
+    "code": "S",
+    "value": 203644,
+    "who": "Daniell Richard"
+   },
+   {
+    "date": "2023-02-28",
+    "filed": "2023-03-02",
+    "code": "S",
+    "value": 233858,
+    "who": "Daniell Richard"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "teva pharmaceutical industries",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

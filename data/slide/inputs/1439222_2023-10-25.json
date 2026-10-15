@@ -1,0 +1,125 @@
+{
+ "id": "1439222_2023-10-25",
+ "kind": "slide",
+ "cik": "1439222",
+ "name": "AGIOS PHARMACEUTICALS, INC.",
+ "date": "2023-10-25",
+ "asof": "2023-10-25",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-10-25",
+  "adj_close": 20.18
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 946923000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0001439222-23-000119"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 161931000.0,
+  "capex": 396000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-07-28",
+  "shares": 55739306
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2023-07-27",
+  "to": "2023-11-24",
+  "trades": [
+   {
+    "date": "2023-09-28",
+    "filed": "2023-09-28",
+    "code": "S",
+    "value": 54017,
+    "who": "Jones Cecilia"
+   },
+   {
+    "date": "2023-08-17",
+    "filed": "2023-08-21",
+    "code": "S",
+    "value": 168061,
+    "who": "Burns James William"
+   },
+   {
+    "date": "2023-08-09",
+    "filed": "2023-08-11",
+    "code": "S",
+    "value": 648888,
+    "who": "Foster-Cheek Kaye I"
+   },
+   {
+    "date": "2023-08-08",
+    "filed": "2023-08-10",
+    "code": "S",
+    "value": 259335,
+    "who": "Goff Brian"
+   },
+   {
+    "date": "2023-08-07",
+    "filed": "2023-08-09",
+    "code": "S",
+    "value": 74096,
+    "who": "Washburn Theodore James Jr."
+   },
+   {
+    "date": "2023-08-01",
+    "filed": "2023-08-02",
+    "code": "S",
+    "value": 32352,
+    "who": "Washburn Theodore James Jr."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "agios pharmaceuticals",
+  "other_trials": 7,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05144256",
+    "drugs": [
+     "Mitapivat"
+    ]
+   },
+   {
+    "nct": "NCT05490446",
+    "drugs": [
+     "Tebapivat"
+    ]
+   },
+   {
+    "nct": "NCT04770753",
+    "drugs": [
+     "Mitapivat"
+    ]
+   },
+   {
+    "nct": "NCT05175105",
+    "drugs": [
+     "Mitapivat"
+    ]
+   },
+   {
+    "nct": "NCT05031780",
+    "drugs": [
+     "Mitapivat"
+    ]
+   }
+  ]
+ }
+}

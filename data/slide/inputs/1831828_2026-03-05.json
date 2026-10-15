@@ -1,0 +1,146 @@
+{
+ "id": "1831828_2026-03-05",
+ "kind": "slide",
+ "cik": "1831828",
+ "name": "Vera Therapeutics, Inc.",
+ "date": "2026-03-05",
+ "asof": "2026-03-05",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-03-05",
+  "adj_close": 38.85
+ },
+ "balance": {
+  "end": "2025-12-31",
+  "cash": 714589000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001193125-26-077442"
+ },
+ "burn6": {
+  "end": "2025-12-31",
+  "start": "2025-07-01",
+  "cash_used_ops": 131900000.0,
+  "capex": 235000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-10-30",
+  "shares": 63928066
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 20,
+  "from": "2025-12-05",
+  "to": "2026-04-04",
+  "trades": [
+   {
+    "date": "2026-02-23",
+    "filed": "2026-02-25",
+    "code": "S",
+    "value": 90307,
+    "who": "Brenner Robert"
+   },
+   {
+    "date": "2026-02-23",
+    "filed": "2026-02-25",
+    "code": "S",
+    "value": 130864,
+    "who": "Young Joseph R"
+   },
+   {
+    "date": "2026-02-23",
+    "filed": "2026-02-25",
+    "code": "S",
+    "value": 207778,
+    "who": "Grant Sean"
+   },
+   {
+    "date": "2026-02-23",
+    "filed": "2026-02-25",
+    "code": "S",
+    "value": 710578,
+    "who": "Fordyce Marshall"
+   },
+   {
+    "date": "2026-02-23",
+    "filed": "2026-02-25",
+    "code": "S",
+    "value": 108276,
+    "who": "JOHNSON DAVID LEE"
+   },
+   {
+    "date": "2026-02-23",
+    "filed": "2026-02-25",
+    "code": "S",
+    "value": 91819,
+    "who": "Turner William D."
+   },
+   {
+    "date": "2026-02-23",
+    "filed": "2026-02-25",
+    "code": "S",
+    "value": 66419,
+    "who": "Skelton Laurence Matthew"
+   },
+   {
+    "date": "2025-12-15",
+    "filed": "2025-12-17",
+    "code": "S",
+    "value": 500767,
+    "who": "Turner William D."
+   },
+   {
+    "date": "2025-12-11",
+    "filed": "2025-12-15",
+    "code": "P",
+    "value": 249985,
+    "who": "ENRIGHT PATRICK G"
+   },
+   {
+    "date": "2025-12-08",
+    "filed": "2025-12-10",
+    "code": "S",
+    "value": 453053,
+    "who": "Turner William D."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "vera therapeutics",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06983028",
+    "drugs": [
+     "Atacicept"
+    ]
+   },
+   {
+    "nct": "NCT05609812",
+    "drugs": [
+     "Atacicept"
+    ]
+   },
+   {
+    "nct": "NCT07020923",
+    "drugs": [
+     "Atacicept"
+    ]
+   },
+   {
+    "nct": "NCT06674577",
+    "drugs": [
+     "Atacicept 150 mg"
+    ]
+   }
+  ]
+ }
+}

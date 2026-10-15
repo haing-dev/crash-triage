@@ -1,0 +1,56 @@
+{
+ "id": "1541157_2022-02-22",
+ "kind": "slide",
+ "cik": "1541157",
+ "name": "Akari Therapeutics Plc",
+ "date": "2022-02-22",
+ "asof": "2022-02-22",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-02-22",
+  "adj_close": 1024.0
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 3791586,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001104659-21-118339"
+ },
+ "burn6": {
+  "end": "2021-06-30",
+  "start": "2021-01-01",
+  "cash_used_ops": 12283877.0,
+  "capex": 0.0,
+  "periods": 1
+ },
+ "shares": {
+  "end": "2020-12-31",
+  "shares": 3847331923
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2021-11-24",
+  "to": "2022-03-24",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "akari therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04784455",
+    "drugs": [
+     "nomacopan (rVA576)"
+    ]
+   }
+  ]
+ }
+}

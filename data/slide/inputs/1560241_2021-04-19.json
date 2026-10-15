@@ -1,0 +1,204 @@
+{
+ "id": "1560241_2021-04-19",
+ "kind": "slide",
+ "cik": "1560241",
+ "name": "G1 Therapeutics, Inc.",
+ "date": "2021-04-19",
+ "asof": "2021-04-19",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-04-19",
+  "adj_close": 22.75
+ },
+ "balance": {
+  "end": "2020-12-31",
+  "cash": 207306000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001564590-21-008171"
+ },
+ "burn6": {
+  "end": "2020-12-31",
+  "start": "2020-07-01",
+  "cash_used_ops": 27869000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-02-22",
+  "shares": 41959379
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2021-01-19",
+  "to": "2021-05-19",
+  "trades": [
+   {
+    "date": "2021-05-11",
+    "filed": "2021-05-13",
+    "code": "S",
+    "value": 190997,
+    "who": "Velleca Mark A."
+   },
+   {
+    "date": "2021-05-12",
+    "filed": "2021-05-13",
+    "code": "S",
+    "value": 200691,
+    "who": "Velleca Mark A."
+   },
+   {
+    "date": "2021-05-13",
+    "filed": "2021-05-13",
+    "code": "S",
+    "value": 205413,
+    "who": "Velleca Mark A."
+   },
+   {
+    "date": "2021-04-22",
+    "filed": "2021-04-23",
+    "code": "S",
+    "value": 331100,
+    "who": "Malik Rajesh"
+   },
+   {
+    "date": "2021-04-13",
+    "filed": "2021-04-15",
+    "code": "S",
+    "value": 238865,
+    "who": "Velleca Mark A."
+   },
+   {
+    "date": "2021-04-14",
+    "filed": "2021-04-15",
+    "code": "S",
+    "value": 245272,
+    "who": "Velleca Mark A."
+   },
+   {
+    "date": "2021-04-15",
+    "filed": "2021-04-15",
+    "code": "S",
+    "value": 249631,
+    "who": "Velleca Mark A."
+   },
+   {
+    "date": "2021-03-23",
+    "filed": "2021-03-24",
+    "code": "S",
+    "value": 329060,
+    "who": "Malik Rajesh"
+   },
+   {
+    "date": "2021-03-02",
+    "filed": "2021-03-04",
+    "code": "S",
+    "value": 344192,
+    "who": "Malik Rajesh"
+   },
+   {
+    "date": "2021-02-16",
+    "filed": "2021-02-18",
+    "code": "S",
+    "value": 290021,
+    "who": "Velleca Mark A."
+   },
+   {
+    "date": "2021-02-16",
+    "filed": "2021-02-18",
+    "code": "S",
+    "value": 97781,
+    "who": "Velleca Mark A."
+   },
+   {
+    "date": "2021-02-16",
+    "filed": "2021-02-18",
+    "code": "S",
+    "value": 851,
+    "who": "Velleca Mark A."
+   },
+   {
+    "date": "2021-02-17",
+    "filed": "2021-02-18",
+    "code": "S",
+    "value": 259387,
+    "who": "Velleca Mark A."
+   },
+   {
+    "date": "2021-02-17",
+    "filed": "2021-02-18",
+    "code": "S",
+    "value": 17046,
+    "who": "Velleca Mark A."
+   },
+   {
+    "date": "2021-02-18",
+    "filed": "2021-02-18",
+    "code": "S",
+    "value": 260152,
+    "who": "Velleca Mark A."
+   },
+   {
+    "date": "2021-01-22",
+    "filed": "2021-01-22",
+    "code": "S",
+    "value": 309591,
+    "who": "Malik Rajesh"
+   },
+   {
+    "date": "2021-01-19",
+    "filed": "2021-01-21",
+    "code": "S",
+    "value": 208781,
+    "who": "Velleca Mark A."
+   },
+   {
+    "date": "2021-01-20",
+    "filed": "2021-01-21",
+    "code": "S",
+    "value": 215107,
+    "who": "Velleca Mark A."
+   },
+   {
+    "date": "2021-01-21",
+    "filed": "2021-01-21",
+    "code": "S",
+    "value": 206400,
+    "who": "Velleca Mark A."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "g1 therapeutics",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT02983071",
+    "drugs": [
+     "G1T38",
+     "Fulvestrant"
+    ]
+   },
+   {
+    "nct": "NCT04607668",
+    "drugs": [
+     "Trilaciclib"
+    ]
+   },
+   {
+    "nct": "NCT03455829",
+    "drugs": [
+     "G1T38",
+     "Osimertinib"
+    ]
+   }
+  ]
+ }
+}

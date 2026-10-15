@@ -1,0 +1,65 @@
+{
+ "id": "946486_2024-10-02",
+ "kind": "crash",
+ "cik": "946486",
+ "name": "WINDTREE THERAPEUTICS INC /DE/",
+ "date": "2024-10-02",
+ "asof": "2024-10-02",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-10-02",
+  "adj_close": 72.0
+ },
+ "balance": {
+  "end": "2024-06-30",
+  "cash": 1803000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001437749-24-027232"
+ },
+ "burn6": {
+  "end": "2024-06-30",
+  "start": "2024-01-01",
+  "cash_used_ops": 5273000.0,
+  "capex": 12000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-08-19",
+  "shares": 591909
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These conditions raise substantial doubt regarding our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2024-07-04",
+  "to": "2024-11-01",
+  "trades": [
+   {
+    "date": "2024-10-08",
+    "filed": "2024-10-09",
+    "code": "P",
+    "value": 4942,
+    "who": "Fraser Craig"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "windtree therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05975021",
+    "drugs": [
+     "Istaroxime"
+    ]
+   }
+  ]
+ }
+}

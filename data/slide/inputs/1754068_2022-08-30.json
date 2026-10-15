@@ -1,0 +1,121 @@
+{
+ "id": "1754068_2022-08-30",
+ "kind": "slide",
+ "cik": "1754068",
+ "name": "Kalaris Therapeutics, Inc.",
+ "date": "2022-08-30",
+ "asof": "2022-08-30",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-08-30",
+  "adj_close": 143.98
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 172673000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-22-014726"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 75354000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-07-29",
+  "shares": 93063451
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 25,
+  "from": "2022-06-01",
+  "to": "2022-09-29",
+  "trades": [
+   {
+    "date": "2022-09-02",
+    "filed": "2022-09-06",
+    "code": "S",
+    "value": 3889,
+    "who": "VAN BEEK JEROEN B"
+   },
+   {
+    "date": "2022-08-18",
+    "filed": "2022-08-19",
+    "code": "S",
+    "value": 35429,
+    "who": "Brainard Diana"
+   },
+   {
+    "date": "2022-08-16",
+    "filed": "2022-08-17",
+    "code": "S",
+    "value": 129473,
+    "who": "VAN BEEK JEROEN B"
+   },
+   {
+    "date": "2022-07-21",
+    "filed": "2022-07-22",
+    "code": "S",
+    "value": 8245,
+    "who": "Atillasoy Ercem"
+   },
+   {
+    "date": "2022-07-21",
+    "filed": "2022-07-21",
+    "code": "S",
+    "value": 22528,
+    "who": "Hallal David"
+   },
+   {
+    "date": "2022-07-20",
+    "filed": "2022-07-21",
+    "code": "S",
+    "value": 7467,
+    "who": "Sinha Vikas"
+   },
+   {
+    "date": "2022-07-20",
+    "filed": "2022-07-21",
+    "code": "S",
+    "value": 2936,
+    "who": "Atillasoy Ercem"
+   },
+   {
+    "date": "2022-07-20",
+    "filed": "2022-07-21",
+    "code": "S",
+    "value": 5517,
+    "who": "VAN BEEK JEROEN B"
+   },
+   {
+    "date": "2022-06-03",
+    "filed": "2022-07-06",
+    "code": "S",
+    "value": 1871,
+    "who": "VAN BEEK JEROEN B"
+   },
+   {
+    "date": "2022-06-03",
+    "filed": "2022-06-06",
+    "code": "S",
+    "value": 241106,
+    "who": "Hallal David"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "kalaris therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

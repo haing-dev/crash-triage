@@ -1,0 +1,142 @@
+{
+ "id": "1851194_2022-11-07",
+ "kind": "slide",
+ "cik": "1851194",
+ "name": "Ventyx Biosciences, Inc.",
+ "date": "2022-11-07",
+ "asof": "2022-11-07",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-11-07",
+  "adj_close": 26.04
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 412423000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-22-022233"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 38781000.0,
+  "capex": 125000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-10-31",
+  "shares": 56637458
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 9,
+  "from": "2022-08-09",
+  "to": "2022-12-07",
+  "trades": [
+   {
+    "date": "2022-12-02",
+    "filed": "2022-12-06",
+    "code": "S",
+    "value": 8036957,
+    "who": "Mohan Raju"
+   },
+   {
+    "date": "2022-12-05",
+    "filed": "2022-12-06",
+    "code": "S",
+    "value": 563560,
+    "who": "Mohan Raju"
+   },
+   {
+    "date": "2022-12-05",
+    "filed": "2022-12-06",
+    "code": "S",
+    "value": 90569,
+    "who": "Mohan Raju"
+   },
+   {
+    "date": "2022-12-02",
+    "filed": "2022-12-06",
+    "code": "S",
+    "value": 2832603,
+    "who": "Auster Martin"
+   },
+   {
+    "date": "2022-12-02",
+    "filed": "2022-12-06",
+    "code": "S",
+    "value": 1450730,
+    "who": "Krueger Christopher W"
+   },
+   {
+    "date": "2022-12-05",
+    "filed": "2022-12-06",
+    "code": "S",
+    "value": 1315316,
+    "who": "Nuss John"
+   },
+   {
+    "date": "2022-12-05",
+    "filed": "2022-12-06",
+    "code": "S",
+    "value": 95996,
+    "who": "Nuss John"
+   },
+   {
+    "date": "2022-11-30",
+    "filed": "2022-12-02",
+    "code": "S",
+    "value": 4155732,
+    "who": "NSV Partners III LP"
+   },
+   {
+    "date": "2022-12-01",
+    "filed": "2022-12-02",
+    "code": "S",
+    "value": 3751150,
+    "who": "NSV Partners III LP"
+   },
+   {
+    "date": "2022-11-30",
+    "filed": "2022-12-02",
+    "code": "S",
+    "value": 4155732,
+    "who": "Subramaniam Somu"
+   },
+   {
+    "date": "2022-12-01",
+    "filed": "2022-12-02",
+    "code": "S",
+    "value": 3751150,
+    "who": "Subramaniam Somu"
+   },
+   {
+    "date": "2022-11-07",
+    "filed": "2022-11-09",
+    "code": "S",
+    "value": 114427,
+    "who": "NSV Partners III LP"
+   },
+   {
+    "date": "2022-11-07",
+    "filed": "2022-11-09",
+    "code": "S",
+    "value": 114427,
+    "who": "Subramaniam Somu"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "ventyx biosciences",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

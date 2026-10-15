@@ -1,0 +1,159 @@
+{
+ "id": "1737287_2021-04-12",
+ "kind": "slide",
+ "cik": "1737287",
+ "name": "Allogene Therapeutics, Inc.",
+ "date": "2021-04-12",
+ "asof": "2021-04-12",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-04-12",
+  "adj_close": 29.58
+ },
+ "balance": {
+  "end": "2020-12-31",
+  "cash": 1032118000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0001737287-21-000009"
+ },
+ "burn6": {
+  "end": "2020-12-31",
+  "start": "2020-07-01",
+  "cash_used_ops": 47563000.0,
+  "capex": 37651000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-02-22",
+  "shares": 140647818
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 13,
+  "from": "2021-01-12",
+  "to": "2021-05-12",
+  "trades": [
+   {
+    "date": "2021-04-15",
+    "filed": "2021-04-16",
+    "code": "S",
+    "value": 300738,
+    "who": "Bhavnagri Veer"
+   },
+   {
+    "date": "2021-04-15",
+    "filed": "2021-04-16",
+    "code": "S",
+    "value": 19780,
+    "who": "Bhavnagri Veer"
+   },
+   {
+    "date": "2021-03-15",
+    "filed": "2021-03-17",
+    "code": "S",
+    "value": 106471,
+    "who": "Amado Rafael"
+   },
+   {
+    "date": "2021-03-15",
+    "filed": "2021-03-17",
+    "code": "S",
+    "value": 791271,
+    "who": "Chang David D"
+   },
+   {
+    "date": "2021-03-15",
+    "filed": "2021-03-17",
+    "code": "S",
+    "value": 235089,
+    "who": "MOORE ALISON"
+   },
+   {
+    "date": "2021-03-15",
+    "filed": "2021-03-17",
+    "code": "S",
+    "value": 252730,
+    "who": "Bhavnagri Veer"
+   },
+   {
+    "date": "2021-03-15",
+    "filed": "2021-03-17",
+    "code": "S",
+    "value": 362808,
+    "who": "Bhavnagri Veer"
+   },
+   {
+    "date": "2021-03-15",
+    "filed": "2021-03-17",
+    "code": "S",
+    "value": 15260,
+    "who": "Bhavnagri Veer"
+   },
+   {
+    "date": "2021-03-15",
+    "filed": "2021-03-17",
+    "code": "S",
+    "value": 307889,
+    "who": "SCHMIDT ERIC THOMAS"
+   },
+   {
+    "date": "2021-01-14",
+    "filed": "2021-01-19",
+    "code": "S",
+    "value": 301481,
+    "who": "SCHMIDT ERIC THOMAS"
+   },
+   {
+    "date": "2021-01-14",
+    "filed": "2021-01-19",
+    "code": "S",
+    "value": 160129,
+    "who": "SCHMIDT ERIC THOMAS"
+   },
+   {
+    "date": "2021-01-15",
+    "filed": "2021-01-19",
+    "code": "S",
+    "value": 112393,
+    "who": "SCHMIDT ERIC THOMAS"
+   },
+   {
+    "date": "2021-01-15",
+    "filed": "2021-01-19",
+    "code": "S",
+    "value": 358151,
+    "who": "SCHMIDT ERIC THOMAS"
+   },
+   {
+    "date": "2021-01-15",
+    "filed": "2021-01-19",
+    "code": "S",
+    "value": 13314,
+    "who": "SCHMIDT ERIC THOMAS"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "allogene therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04416984",
+    "drugs": [
+     "ALLO-501A",
+     "ALLO-647",
+     "Fludarabine"
+    ]
+   }
+  ]
+ }
+}

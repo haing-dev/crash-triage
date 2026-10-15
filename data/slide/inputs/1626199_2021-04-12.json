@@ -1,0 +1,100 @@
+{
+ "id": "1626199_2021-04-12",
+ "kind": "slide",
+ "cik": "1626199",
+ "name": "ALPINE IMMUNE SCIENCES, INC.",
+ "date": "2021-04-12",
+ "asof": "2021-04-12",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-04-12",
+  "adj_close": 10.37
+ },
+ "balance": {
+  "end": "2020-12-31",
+  "cash": 105581000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001626199-21-000038"
+ },
+ "burn6": {
+  "end": "2020-12-31",
+  "start": "2020-07-01",
+  "cash_used_ops": 14741000.0,
+  "capex": 548000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-03-10",
+  "shares": 23882138
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2021-01-12",
+  "to": "2021-05-12",
+  "trades": [
+   {
+    "date": "2021-04-13",
+    "filed": "2021-04-15",
+    "code": "S",
+    "value": 100714,
+    "who": "GOLD MITCHELL"
+   },
+   {
+    "date": "2021-04-14",
+    "filed": "2021-04-15",
+    "code": "S",
+    "value": 105200,
+    "who": "GOLD MITCHELL"
+   },
+   {
+    "date": "2021-03-04",
+    "filed": "2021-03-08",
+    "code": "S",
+    "value": 130108,
+    "who": "GOLD MITCHELL"
+   },
+   {
+    "date": "2021-03-05",
+    "filed": "2021-03-08",
+    "code": "S",
+    "value": 129875,
+    "who": "GOLD MITCHELL"
+   },
+   {
+    "date": "2021-02-01",
+    "filed": "2021-02-03",
+    "code": "S",
+    "value": 35968,
+    "who": "GOLD MITCHELL"
+   },
+   {
+    "date": "2021-02-01",
+    "filed": "2021-02-03",
+    "code": "S",
+    "value": 92698,
+    "who": "GOLD MITCHELL"
+   },
+   {
+    "date": "2021-02-02",
+    "filed": "2021-02-03",
+    "code": "S",
+    "value": 117381,
+    "who": "GOLD MITCHELL"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "alpine immune sciences",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

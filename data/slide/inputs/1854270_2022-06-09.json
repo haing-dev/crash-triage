@@ -1,0 +1,47 @@
+{
+ "id": "1854270_2022-06-09",
+ "kind": "slide",
+ "cik": "1854270",
+ "name": "Senti Biosciences Holdings, Inc.",
+ "date": "2022-06-09",
+ "asof": "2022-06-09",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-06-09",
+  "adj_close": 63.2
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 396693,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001193125-22-151676"
+ },
+ "burn6": {
+  "end": "2022-03-31",
+  "start": "2021-10-01",
+  "cash_used_ops": 587851.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": null,
+ "going_concern": {
+  "flag": true,
+  "quote": "These conditions raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2022-03-11",
+  "to": "2022-07-09",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "senti biosciences",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

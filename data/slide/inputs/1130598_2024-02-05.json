@@ -1,0 +1,58 @@
+{
+ "id": "1130598_2024-02-05",
+ "kind": "slide",
+ "cik": "1130598",
+ "name": "Traws Pharma, Inc.",
+ "date": "2024-02-05",
+ "asof": "2024-02-05",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-02-05",
+  "adj_close": 17.25
+ },
+ "balance": {
+  "end": "2023-09-30",
+  "cash": 25244000,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0001558370-23-019049"
+ },
+ "burn6": {
+  "end": "2023-09-30",
+  "start": "2023-04-01",
+  "cash_used_ops": 8959000.0,
+  "capex": 9400.588235294117,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-11-01",
+  "shares": 21003409
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These conditions raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 2,
+  "from": "2023-11-07",
+  "to": "2024-03-06",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "traws pharma",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05705505",
+    "drugs": [
+     "Narazaciclib",
+     "Letrozole 2.5mg"
+    ]
+   }
+  ]
+ }
+}

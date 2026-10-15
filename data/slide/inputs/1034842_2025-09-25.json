@@ -1,0 +1,63 @@
+{
+ "id": "1034842_2025-09-25",
+ "kind": "slide",
+ "cik": "1034842",
+ "name": "RIGEL PHARMACEUTICALS INC",
+ "date": "2025-09-25",
+ "asof": "2025-09-25",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-09-25",
+  "adj_close": 28.7
+ },
+ "balance": {
+  "end": "2025-06-30",
+  "cash": 108379000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001558370-25-010281"
+ },
+ "burn6": {
+  "end": "2025-06-30",
+  "start": "2025-01-01",
+  "cash_used_ops": -29644000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-07-31",
+  "shares": 17937340
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2025-06-27",
+  "to": "2025-10-25",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "rigel pharmaceuticals",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06161974",
+    "drugs": [
+     "Olutasidenib + TMZ"
+    ]
+   },
+   {
+    "nct": "NCT05308264",
+    "drugs": [
+     "R906289 Monosodium (R289 Na)"
+    ]
+   }
+  ]
+ }
+}

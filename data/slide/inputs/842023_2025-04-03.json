@@ -1,0 +1,71 @@
+{
+ "id": "842023_2025-04-03",
+ "kind": "slide",
+ "cik": "842023",
+ "name": "BIO-TECHNE Corp",
+ "date": "2025-04-03",
+ "asof": "2025-04-03",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-04-03",
+  "adj_close": 54.86
+ },
+ "balance": {
+  "end": "2024-12-31",
+  "cash": 177549000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-25-000689"
+ },
+ "burn6": {
+  "end": "2024-12-31",
+  "start": "2024-07-01",
+  "cash_used_ops": -148235000.0,
+  "capex": 15993000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-02-03",
+  "shares": 158087683
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2025-01-03",
+  "to": "2025-05-03",
+  "trades": [
+   {
+    "date": "2025-02-14",
+    "filed": "2025-02-18",
+    "code": "S",
+    "value": 122691,
+    "who": "Herr Amy E."
+   },
+   {
+    "date": "2025-01-27",
+    "filed": "2025-01-29",
+    "code": "S",
+    "value": 905533,
+    "who": "Kelderman Kim"
+   },
+   {
+    "date": "2025-01-27",
+    "filed": "2025-01-29",
+    "code": "S",
+    "value": 129480,
+    "who": "Kelderman Kim"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "bio techne",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

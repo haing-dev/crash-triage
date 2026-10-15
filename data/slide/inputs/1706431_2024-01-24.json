@@ -1,0 +1,111 @@
+{
+ "id": "1706431_2024-01-24",
+ "kind": "slide",
+ "cik": "1706431",
+ "name": "Vir Biotechnology, Inc.",
+ "date": "2024-01-24",
+ "asof": "2024-01-24",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-01-24",
+  "adj_close": 9.63
+ },
+ "balance": {
+  "end": "2023-09-30",
+  "cash": 1685728000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001628280-23-036702"
+ },
+ "burn6": {
+  "end": "2023-09-30",
+  "start": "2023-04-01",
+  "cash_used_ops": 545076000.0,
+  "capex": 13171000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-10-27",
+  "shares": 134521285
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2023-10-26",
+  "to": "2024-02-23",
+  "trades": [
+   {
+    "date": "2024-02-16",
+    "filed": "2024-02-20",
+    "code": "S",
+    "value": 111386,
+    "who": "SCANGOS GEORGE A"
+   },
+   {
+    "date": "2024-02-20",
+    "filed": "2024-02-20",
+    "code": "S",
+    "value": 172385,
+    "who": "SCANGOS GEORGE A"
+   },
+   {
+    "date": "2024-02-16",
+    "filed": "2024-02-16",
+    "code": "S",
+    "value": 34006,
+    "who": "Pang Phillip"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "vir biotechnology",
+  "other_trials": 5,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04856085",
+    "drugs": [
+     "VIR-2218",
+     "VIR-3434",
+     "PEG-IFN\u03b1"
+    ]
+   },
+   {
+    "nct": "NCT05461170",
+    "drugs": [
+     "VIR-2218",
+     "VIR-3434",
+     "NRTI"
+    ]
+   },
+   {
+    "nct": "NCT05356741",
+    "drugs": [
+     "VIR-5818",
+     "pembrolizumab"
+    ]
+   },
+   {
+    "nct": "NCT05612581",
+    "drugs": [
+     "VIR-3434",
+     "VIR-2218",
+     "TDF"
+    ]
+   },
+   {
+    "nct": "NCT04412863",
+    "drugs": [
+     "VIR-2218",
+     "pegylated interferon-alfa 2a"
+    ]
+   }
+  ]
+ }
+}

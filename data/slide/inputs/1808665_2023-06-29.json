@@ -1,0 +1,64 @@
+{
+ "id": "1808665_2023-06-29",
+ "kind": "slide",
+ "cik": "1808665",
+ "name": "Assertio Holdings, Inc.",
+ "date": "2023-06-29",
+ "asof": "2023-06-29",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-06-29",
+  "adj_close": 80.4
+ },
+ "balance": {
+  "end": "2023-03-31",
+  "cash": 68603000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001808665-23-000033"
+ },
+ "burn6": {
+  "end": "2023-03-31",
+  "start": "2022-10-01",
+  "cash_used_ops": -49414000.0,
+  "capex": 215474.1573033708,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-05-05",
+  "shares": 55664293
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 10,
+  "from": "2023-03-31",
+  "to": "2023-07-29",
+  "trades": [
+   {
+    "date": "2023-05-19",
+    "filed": "2023-05-22",
+    "code": "S",
+    "value": 652011,
+    "who": "Mason Heather L"
+   },
+   {
+    "date": "2023-05-05",
+    "filed": "2023-05-05",
+    "code": "S",
+    "value": 258767,
+    "who": "Tyree James L"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "assertio",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

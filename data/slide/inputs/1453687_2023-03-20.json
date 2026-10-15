@@ -1,0 +1,170 @@
+{
+ "id": "1453687_2023-03-20",
+ "kind": "slide",
+ "cik": "1453687",
+ "name": "Cartesian Therapeutics, Inc.",
+ "date": "2023-03-20",
+ "asof": "2023-03-20",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-03-20",
+  "adj_close": 38.4
+ },
+ "balance": {
+  "end": "2022-12-31",
+  "cash": 134602000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001453687-23-000040"
+ },
+ "burn6": {
+  "end": "2022-12-31",
+  "start": "2022-07-01",
+  "cash_used_ops": 7496000.0,
+  "capex": 647000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-02-24",
+  "shares": 153318915
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 16,
+  "from": "2022-12-20",
+  "to": "2023-04-19",
+  "trades": [
+   {
+    "date": "2023-01-04",
+    "filed": "2023-01-06",
+    "code": "S",
+    "value": 31232,
+    "who": "Brunn Carsten"
+   },
+   {
+    "date": "2023-01-04",
+    "filed": "2023-01-06",
+    "code": "S",
+    "value": 55,
+    "who": "Brunn Carsten"
+   },
+   {
+    "date": "2023-01-05",
+    "filed": "2023-01-06",
+    "code": "S",
+    "value": 15128,
+    "who": "Brunn Carsten"
+   },
+   {
+    "date": "2023-01-05",
+    "filed": "2023-01-06",
+    "code": "S",
+    "value": 86,
+    "who": "Brunn Carsten"
+   },
+   {
+    "date": "2023-01-04",
+    "filed": "2023-01-06",
+    "code": "S",
+    "value": 7234,
+    "who": "Johnston Lloyd P."
+   },
+   {
+    "date": "2023-01-04",
+    "filed": "2023-01-06",
+    "code": "S",
+    "value": 13,
+    "who": "Johnston Lloyd P."
+   },
+   {
+    "date": "2023-01-05",
+    "filed": "2023-01-06",
+    "code": "S",
+    "value": 3808,
+    "who": "Johnston Lloyd P."
+   },
+   {
+    "date": "2023-01-05",
+    "filed": "2023-01-06",
+    "code": "S",
+    "value": 22,
+    "who": "Johnston Lloyd P."
+   },
+   {
+    "date": "2023-01-04",
+    "filed": "2023-01-06",
+    "code": "S",
+    "value": 7234,
+    "who": "Kishimoto Takashi Kei"
+   },
+   {
+    "date": "2023-01-04",
+    "filed": "2023-01-06",
+    "code": "S",
+    "value": 13,
+    "who": "Kishimoto Takashi Kei"
+   },
+   {
+    "date": "2023-01-05",
+    "filed": "2023-01-06",
+    "code": "S",
+    "value": 3808,
+    "who": "Kishimoto Takashi Kei"
+   },
+   {
+    "date": "2023-01-05",
+    "filed": "2023-01-06",
+    "code": "S",
+    "value": 22,
+    "who": "Kishimoto Takashi Kei"
+   },
+   {
+    "date": "2023-01-04",
+    "filed": "2023-01-06",
+    "code": "S",
+    "value": 9256,
+    "who": "TRABER PETER G"
+   },
+   {
+    "date": "2023-01-04",
+    "filed": "2023-01-06",
+    "code": "S",
+    "value": 17,
+    "who": "TRABER PETER G"
+   },
+   {
+    "date": "2023-01-05",
+    "filed": "2023-01-06",
+    "code": "S",
+    "value": 3890,
+    "who": "TRABER PETER G"
+   },
+   {
+    "date": "2023-01-05",
+    "filed": "2023-01-06",
+    "code": "S",
+    "value": 22,
+    "who": "TRABER PETER G"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "cartesian therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04146051",
+    "drugs": [
+     "Descartes-08"
+    ]
+   }
+  ]
+ }
+}

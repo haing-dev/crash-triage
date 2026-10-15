@@ -1,0 +1,92 @@
+{
+ "id": "1533743_2021-11-17",
+ "kind": "slide",
+ "cik": "1533743",
+ "name": "Processa Pharmaceuticals, Inc.",
+ "date": "2021-11-17",
+ "asof": "2021-11-17",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-11-17",
+  "adj_close": 3035.0
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 19093188,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001493152-21-027929"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 3746792.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-11-02",
+  "shares": 15715996
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2021-08-19",
+  "to": "2021-12-17",
+  "trades": [
+   {
+    "date": "2021-12-14",
+    "filed": "2021-12-16",
+    "code": "P",
+    "value": 12000,
+    "who": "Lin Patrick"
+   },
+   {
+    "date": "2021-12-03",
+    "filed": "2021-12-07",
+    "code": "S",
+    "value": 26599,
+    "who": "Yorke Justin W"
+   },
+   {
+    "date": "2021-12-06",
+    "filed": "2021-12-07",
+    "code": "S",
+    "value": 19784,
+    "who": "Yorke Justin W"
+   },
+   {
+    "date": "2021-12-03",
+    "filed": "2021-12-07",
+    "code": "P",
+    "value": 16795,
+    "who": "Lin Patrick"
+   },
+   {
+    "date": "2021-08-26",
+    "filed": "2021-08-30",
+    "code": "P",
+    "value": 24088,
+    "who": "Lin Patrick"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "processa pharmaceuticals",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04800562",
+    "drugs": [
+     "PCS499"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,172 @@
+{
+ "id": "1515673_2021-10-11",
+ "kind": "slide",
+ "cik": "1515673",
+ "name": "Ultragenyx Pharmaceutical Inc.",
+ "date": "2021-10-11",
+ "asof": "2021-10-11",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-10-11",
+  "adj_close": 80.99
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 973787000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0001564590-21-039879"
+ },
+ "burn6": {
+  "end": "2021-06-30",
+  "start": "2021-01-01",
+  "cash_used_ops": 224702000.0,
+  "capex": 36485000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-07-28",
+  "shares": 67836060
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 13,
+  "from": "2021-07-13",
+  "to": "2021-11-10",
+  "trades": [
+   {
+    "date": "2021-10-14",
+    "filed": "2021-10-18",
+    "code": "S",
+    "value": 29129,
+    "who": "Bedrosian Camille L"
+   },
+   {
+    "date": "2021-10-14",
+    "filed": "2021-10-18",
+    "code": "S",
+    "value": 24585,
+    "who": "Harris Erik"
+   },
+   {
+    "date": "2021-10-14",
+    "filed": "2021-10-18",
+    "code": "S",
+    "value": 29048,
+    "who": "Huang Dennis Karl"
+   },
+   {
+    "date": "2021-10-14",
+    "filed": "2021-10-18",
+    "code": "S",
+    "value": 11360,
+    "who": "Huizenga Theodore Alan"
+   },
+   {
+    "date": "2021-10-14",
+    "filed": "2021-10-18",
+    "code": "S",
+    "value": 23206,
+    "who": "Kassberg Thomas Richard"
+   },
+   {
+    "date": "2021-10-14",
+    "filed": "2021-10-18",
+    "code": "S",
+    "value": 25153,
+    "who": "Parschauer Karah Herdman"
+   },
+   {
+    "date": "2021-10-14",
+    "filed": "2021-10-18",
+    "code": "S",
+    "value": 29048,
+    "who": "Pinion John Richard"
+   },
+   {
+    "date": "2021-10-12",
+    "filed": "2021-10-14",
+    "code": "S",
+    "value": 287861,
+    "who": "Dier Mardi"
+   },
+   {
+    "date": "2021-10-14",
+    "filed": "2021-10-14",
+    "code": "S",
+    "value": 264663,
+    "who": "Dier Mardi"
+   },
+   {
+    "date": "2021-09-08",
+    "filed": "2021-09-09",
+    "code": "S",
+    "value": 738368,
+    "who": "Parschauer Karah Herdman"
+   },
+   {
+    "date": "2021-09-01",
+    "filed": "2021-09-02",
+    "code": "S",
+    "value": 250075,
+    "who": "Bedrosian Camille L"
+   },
+   {
+    "date": "2021-09-02",
+    "filed": "2021-09-02",
+    "code": "S",
+    "value": 250450,
+    "who": "Bedrosian Camille L"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "ultragenyx pharmaceutical",
+  "other_trials": 7,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04259281",
+    "drugs": [
+     "GTX-102"
+    ]
+   },
+   {
+    "nct": "NCT02716246",
+    "drugs": [
+     "UX111",
+     "Prophylactic Immunomodulatory (IM) Therapy",
+     "Optimized Prophylactic IM Therapy"
+    ]
+   },
+   {
+    "nct": "NCT03517085",
+    "drugs": [
+     "DTX401",
+     "steroid regimen"
+    ]
+   },
+   {
+    "nct": "NCT04360265",
+    "drugs": [
+     "No Investigational Product",
+     "Adjuvant Immunomodulatory (IM) Therapy"
+    ]
+   },
+   {
+    "nct": "NCT04884815",
+    "drugs": [
+     "UX701",
+     "Standard of Care (SOC)"
+    ]
+   }
+  ]
+ }
+}

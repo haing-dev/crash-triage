@@ -1,0 +1,99 @@
+{
+ "id": "1434868_2026-03-05",
+ "kind": "slide",
+ "cik": "1434868",
+ "name": "Esperion Therapeutics, Inc.",
+ "date": "2026-03-05",
+ "asof": "2026-03-05",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-03-05",
+  "adj_close": 2.77
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 92447000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001628280-25-050165"
+ },
+ "burn6": {
+  "end": "2025-09-30",
+  "start": "2025-04-01",
+  "cash_used_ops": 35708000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-10-31",
+  "shares": 239063437
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2025-12-05",
+  "to": "2026-04-04",
+  "trades": [
+   {
+    "date": "2026-03-17",
+    "filed": "2026-03-18",
+    "code": "S",
+    "value": 15429,
+    "who": "Looker Benjamin"
+   },
+   {
+    "date": "2026-03-17",
+    "filed": "2026-03-18",
+    "code": "S",
+    "value": 69547,
+    "who": "Koenig Sheldon L."
+   },
+   {
+    "date": "2026-03-17",
+    "filed": "2026-03-18",
+    "code": "S",
+    "value": 17377,
+    "who": "Halladay Benjamin"
+   },
+   {
+    "date": "2026-01-20",
+    "filed": "2026-01-21",
+    "code": "S",
+    "value": 4868,
+    "who": "Looker Benjamin"
+   },
+   {
+    "date": "2025-12-17",
+    "filed": "2025-12-18",
+    "code": "S",
+    "value": 177200,
+    "who": "Koenig Sheldon L."
+   },
+   {
+    "date": "2025-12-17",
+    "filed": "2025-12-18",
+    "code": "S",
+    "value": 26905,
+    "who": "Halladay Benjamin"
+   },
+   {
+    "date": "2025-12-17",
+    "filed": "2025-12-18",
+    "code": "S",
+    "value": 23898,
+    "who": "Looker Benjamin"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "esperion therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

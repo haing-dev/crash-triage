@@ -1,0 +1,64 @@
+{
+ "id": "1005286_2022-10-10",
+ "kind": "slide",
+ "cik": "1005286",
+ "name": "LIFECORE BIOMEDICAL, INC. \\DE\\",
+ "date": "2022-10-10",
+ "asof": "2022-10-10",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-10-10",
+  "adj_close": 8.05
+ },
+ "balance": {
+  "end": "2022-08-28",
+  "cash": 4222000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001005286-22-000062"
+ },
+ "burn6": {
+  "end": "2022-08-28",
+  "start": "2022-02-28",
+  "cash_used_ops": 3887000.0,
+  "capex": 10616000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-10-03",
+  "shares": 29595554
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2022-07-12",
+  "to": "2022-11-09",
+  "trades": [
+   {
+    "date": "2022-10-24",
+    "filed": "2022-10-26",
+    "code": "P",
+    "value": 833270,
+    "who": "WYNNEFIELD PARTNERS SMALL CAP VALUE LP I"
+   },
+   {
+    "date": "2022-10-24",
+    "filed": "2022-10-26",
+    "code": "P",
+    "value": 1189230,
+    "who": "WYNNEFIELD PARTNERS SMALL CAP VALUE LP I"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "lifecore biomedical",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

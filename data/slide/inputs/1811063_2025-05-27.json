@@ -1,0 +1,168 @@
+{
+ "id": "1811063_2025-05-27",
+ "kind": "slide",
+ "cik": "1811063",
+ "name": "Nuvation Bio Inc.",
+ "date": "2025-05-27",
+ "asof": "2025-05-27",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-05-27",
+  "adj_close": 2.24
+ },
+ "balance": {
+  "end": "2025-03-31",
+  "cash": 461676000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-25-065712"
+ },
+ "burn6": {
+  "end": "2025-03-31",
+  "start": "2024-10-01",
+  "cash_used_ops": 88929000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-04-25",
+  "shares": 340262976
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 22,
+  "from": "2025-02-26",
+  "to": "2025-06-26",
+  "trades": [
+   {
+    "date": "2025-06-18",
+    "filed": "2025-06-18",
+    "code": "P",
+    "value": 17100,
+    "who": "Markel Stacy"
+   },
+   {
+    "date": "2025-06-16",
+    "filed": "2025-06-18",
+    "code": "P",
+    "value": 6056,
+    "who": "Sauvage Philippe"
+   },
+   {
+    "date": "2025-06-17",
+    "filed": "2025-06-18",
+    "code": "P",
+    "value": 7160,
+    "who": "Sauvage Philippe"
+   },
+   {
+    "date": "2025-06-16",
+    "filed": "2025-06-18",
+    "code": "P",
+    "value": 90350,
+    "who": "Sjogren Colleen"
+   },
+   {
+    "date": "2025-06-16",
+    "filed": "2025-06-18",
+    "code": "P",
+    "value": 46540,
+    "who": "Wentworth Kerry"
+   },
+   {
+    "date": "2025-06-16",
+    "filed": "2025-06-18",
+    "code": "P",
+    "value": 43200,
+    "who": "Wentworth Kerry"
+   },
+   {
+    "date": "2025-06-16",
+    "filed": "2025-06-18",
+    "code": "P",
+    "value": 893500,
+    "who": "Hung David"
+   },
+   {
+    "date": "2025-05-02",
+    "filed": "2025-05-06",
+    "code": "S",
+    "value": 50024,
+    "who": "Liu Dongfang"
+   },
+   {
+    "date": "2025-04-04",
+    "filed": "2025-04-08",
+    "code": "P",
+    "value": 332720,
+    "who": "Hung David"
+   },
+   {
+    "date": "2025-04-07",
+    "filed": "2025-04-08",
+    "code": "P",
+    "value": 487500,
+    "who": "Hung David"
+   },
+   {
+    "date": "2025-04-01",
+    "filed": "2025-04-03",
+    "code": "P",
+    "value": 1832,
+    "who": "Mashal Robert"
+   },
+   {
+    "date": "2025-04-01",
+    "filed": "2025-04-03",
+    "code": "P",
+    "value": 165153,
+    "who": "Mashal Robert"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "nuvation bio",
+  "other_trials": 5,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05191004",
+    "drugs": [
+     "NUV-422",
+     "Fulvestrant"
+    ]
+   },
+   {
+    "nct": "NCT06334432",
+    "drugs": [
+     "NUV-1511"
+    ]
+   },
+   {
+    "nct": "NCT05303519",
+    "drugs": [
+     "safusidenib"
+    ]
+   },
+   {
+    "nct": "NCT04919811",
+    "drugs": [
+     "Taletrectinib"
+    ]
+   },
+   {
+    "nct": "NCT06564324",
+    "drugs": [
+     "Taletrectinib",
+     "Crizotinib"
+    ]
+   }
+  ]
+ }
+}

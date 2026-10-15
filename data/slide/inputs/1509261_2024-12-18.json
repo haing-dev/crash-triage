@@ -1,0 +1,87 @@
+{
+ "id": "1509261_2024-12-18",
+ "kind": "slide",
+ "cik": "1509261",
+ "name": "Rezolute, Inc.",
+ "date": "2024-12-18",
+ "asof": "2024-12-18",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-12-18",
+  "adj_close": 4.08
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 117825000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent",
+   "MarketableSecuritiesNoncurrent"
+  ],
+  "accn": "0001558370-24-014893"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": 34568000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-11-05",
+  "shares": 57943066
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2024-09-19",
+  "to": "2025-01-17",
+  "trades": [
+   {
+    "date": "2024-12-18",
+    "filed": "2024-12-18",
+    "code": "P",
+    "value": 42900,
+    "who": "Evans Daron"
+   },
+   {
+    "date": "2024-12-12",
+    "filed": "2024-12-12",
+    "code": "P",
+    "value": 41400,
+    "who": "Evans Daron"
+   },
+   {
+    "date": "2025-12-09",
+    "filed": "2024-12-10",
+    "code": "P",
+    "value": 53167,
+    "who": "Evans Daron"
+   },
+   {
+    "date": "2024-09-24",
+    "filed": "2024-09-24",
+    "code": "P",
+    "value": 20017,
+    "who": "Hogenhuis Wladimir"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "rezolute",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06208215",
+    "drugs": [
+     "RZ358 (5-10 mg/kg) + SOC"
+    ]
+   }
+  ]
+ }
+}

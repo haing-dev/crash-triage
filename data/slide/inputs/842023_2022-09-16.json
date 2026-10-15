@@ -1,0 +1,86 @@
+{
+ "id": "842023_2022-09-16",
+ "kind": "slide",
+ "cik": "842023",
+ "name": "BIO-TECHNE Corp",
+ "date": "2022-09-16",
+ "asof": "2022-09-16",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-09-16",
+  "adj_close": 76.8975
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 247029000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001558370-22-013935"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": -175845000.0,
+  "capex": 28670000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-08-19",
+  "shares": 39212033
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 14,
+  "from": "2022-06-18",
+  "to": "2022-10-16",
+  "trades": [
+   {
+    "date": "2022-08-10",
+    "filed": "2022-08-12",
+    "code": "S",
+    "value": 336593,
+    "who": "HIGGINS JOHN L"
+   },
+   {
+    "date": "2022-08-10",
+    "filed": "2022-08-12",
+    "code": "S",
+    "value": 37490,
+    "who": "HIGGINS JOHN L"
+   },
+   {
+    "date": "2022-08-10",
+    "filed": "2022-08-12",
+    "code": "S",
+    "value": 377112,
+    "who": "HIGGINS JOHN L"
+   },
+   {
+    "date": "2022-08-11",
+    "filed": "2022-08-12",
+    "code": "S",
+    "value": 194277,
+    "who": "HIGGINS JOHN L"
+   },
+   {
+    "date": "2022-08-11",
+    "filed": "2022-08-12",
+    "code": "S",
+    "value": 3046,
+    "who": "HIGGINS JOHN L"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "bio techne",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "id": "1388320_2022-12-23",
+ "kind": "slide",
+ "cik": "1388320",
+ "name": "Actinium Pharmaceuticals, Inc.",
+ "date": "2022-12-23",
+ "asof": "2022-12-23",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-12-23",
+  "adj_close": 10.04
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 111815000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001213900-22-072371"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": -22203000.0,
+  "capex": 343000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-11-11",
+  "shares": 25483306
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2022-09-24",
+  "to": "2023-01-22",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "actinium pharmaceuticals",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03867682",
+    "drugs": [
+     "Lintuzumab-Ac225",
+     "Venetoclax",
+     "Spironolactone"
+    ]
+   }
+  ]
+ }
+}

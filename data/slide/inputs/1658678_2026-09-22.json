@@ -1,0 +1,50 @@
+{
+ "id": "1658678_2026-09-22",
+ "kind": "slide",
+ "cik": "1658678",
+ "name": "BioStem Technologies, Inc.",
+ "date": "2026-09-22",
+ "asof": "2026-09-22",
+ "final": false,
+ "version": 5,
+ "price": {
+  "date": "2026-09-22",
+  "adj_close": 3.98
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 6962492,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001213900-26-101505"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": 6363977.0,
+  "capex": 57925.0,
+  "periods": 1
+ },
+ "shares": {
+  "end": "2026-08-12",
+  "shares": 17849471
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "We have identified conditions that raise substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 15,
+  "from": "2026-06-24",
+  "to": "2026-10-15",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "biostem technologies",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

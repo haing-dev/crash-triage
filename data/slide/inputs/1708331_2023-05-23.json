@@ -1,0 +1,50 @@
+{
+ "id": "1708331_2023-05-23",
+ "kind": "slide",
+ "cik": "1708331",
+ "name": "Virpax Pharmaceuticals, Inc.",
+ "date": "2023-05-23",
+ "asof": "2023-05-23",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-05-23",
+  "adj_close": 200.262
+ },
+ "balance": {
+  "end": "2023-03-31",
+  "cash": 16986917,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0001213900-23-039029"
+ },
+ "burn6": {
+  "end": "2023-03-31",
+  "start": "2022-10-01",
+  "cash_used_ops": 3575694.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-05-12",
+  "shares": 11714284
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Due to the Company\u2019s continuing losses and the uncertainty regarding the outcome of this ongoing litigation and any potential claims, there exists substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2023-02-22",
+  "to": "2023-06-22",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "virpax pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,60 @@
+{
+ "id": "1305253_2021-10-07",
+ "kind": "slide",
+ "cik": "1305253",
+ "name": "Eiger BioPharmaceuticals, Inc.",
+ "date": "2021-10-07",
+ "asof": "2021-10-07",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-10-07",
+  "adj_close": 190.5
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 139756000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0001564590-21-041599"
+ },
+ "burn6": {
+  "end": "2021-06-30",
+  "start": "2021-01-01",
+  "cash_used_ops": 35317000.0,
+  "capex": 92000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-08-02",
+  "shares": 33951314
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2021-07-09",
+  "to": "2021-11-06",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "eiger biopharmaceuticals",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03719313",
+    "drugs": [
+     "Lonafarnib",
+     "Ritonavir",
+     "PEG IFN-alfa-2a"
+    ]
+   }
+  ]
+ }
+}

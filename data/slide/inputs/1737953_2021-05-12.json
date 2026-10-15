@@ -1,0 +1,128 @@
+{
+ "id": "1737953_2021-05-12",
+ "kind": "slide",
+ "cik": "1737953",
+ "name": "Replimune Group, Inc.",
+ "date": "2021-05-12",
+ "asof": "2021-05-12",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-05-12",
+  "adj_close": 36.049999
+ },
+ "balance": {
+  "end": "2020-12-31",
+  "cash": 493272000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001104659-21-011950"
+ },
+ "burn6": {
+  "end": "2020-12-31",
+  "start": "2020-07-01",
+  "cash_used_ops": 30171000.0,
+  "capex": 690000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-02-01",
+  "shares": 46493467
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 21,
+  "from": "2021-02-11",
+  "to": "2021-06-11",
+  "trades": [
+   {
+    "date": "2021-04-15",
+    "filed": "2021-04-19",
+    "code": "S",
+    "value": 837837,
+    "who": "Love Colin"
+   },
+   {
+    "date": "2021-04-15",
+    "filed": "2021-04-19",
+    "code": "S",
+    "value": 80946,
+    "who": "Love Colin"
+   },
+   {
+    "date": "2021-03-15",
+    "filed": "2021-03-17",
+    "code": "S",
+    "value": 387671,
+    "who": "Love Colin"
+   },
+   {
+    "date": "2021-03-15",
+    "filed": "2021-03-17",
+    "code": "S",
+    "value": 615168,
+    "who": "Love Colin"
+   },
+   {
+    "date": "2021-03-15",
+    "filed": "2021-03-17",
+    "code": "S",
+    "value": 3267,
+    "who": "Love Colin"
+   },
+   {
+    "date": "2021-02-16",
+    "filed": "2021-02-18",
+    "code": "S",
+    "value": 681678,
+    "who": "Love Colin"
+   },
+   {
+    "date": "2021-02-16",
+    "filed": "2021-02-18",
+    "code": "S",
+    "value": 407859,
+    "who": "Love Colin"
+   },
+   {
+    "date": "2021-02-08",
+    "filed": "2021-02-11",
+    "code": "S",
+    "value": 236205,
+    "who": "Omega Fund IV, L.P."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "replimune",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04349436",
+    "drugs": [
+     "RP1, intra-tumoral injection, oncolytic virus"
+    ]
+   },
+   {
+    "nct": "NCT03767348",
+    "drugs": [
+     "RP1",
+     "nivolumab"
+    ]
+   },
+   {
+    "nct": "NCT04050436",
+    "drugs": [
+     "Cemiplimab",
+     "RP1"
+    ]
+   }
+  ]
+ }
+}

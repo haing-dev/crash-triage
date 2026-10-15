@@ -1,0 +1,168 @@
+{
+ "id": "1597264_2024-09-12",
+ "kind": "slide",
+ "cik": "1597264",
+ "name": "Blueprint Medicines Corp",
+ "date": "2024-09-12",
+ "asof": "2024-09-12",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-09-12",
+  "adj_close": 84.1
+ },
+ "balance": {
+  "end": "2024-06-30",
+  "cash": 868471000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0001558370-24-010615"
+ },
+ "burn6": {
+  "end": "2024-06-30",
+  "start": "2024-01-01",
+  "cash_used_ops": 149585000.0,
+  "capex": 3673000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-07-30",
+  "shares": 63345465
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 18,
+  "from": "2024-06-14",
+  "to": "2024-10-12",
+  "trades": [
+   {
+    "date": "2024-10-03",
+    "filed": "2024-10-04",
+    "code": "S",
+    "value": 324500,
+    "who": "Namouni Fouad"
+   },
+   {
+    "date": "2024-09-09",
+    "filed": "2024-09-11",
+    "code": "S",
+    "value": 1027572,
+    "who": "Albers Jeffrey W."
+   },
+   {
+    "date": "2024-09-09",
+    "filed": "2024-09-11",
+    "code": "S",
+    "value": 658318,
+    "who": "Albers Jeffrey W."
+   },
+   {
+    "date": "2024-08-15",
+    "filed": "2024-08-19",
+    "code": "S",
+    "value": 419869,
+    "who": "Landsittel Michael"
+   },
+   {
+    "date": "2024-08-05",
+    "filed": "2024-08-07",
+    "code": "S",
+    "value": 3905872,
+    "who": "Lee Philina"
+   },
+   {
+    "date": "2024-07-03",
+    "filed": "2024-07-08",
+    "code": "S",
+    "value": 981244,
+    "who": "Durso-Bumpus Debra"
+   },
+   {
+    "date": "2024-07-05",
+    "filed": "2024-07-08",
+    "code": "S",
+    "value": 428120,
+    "who": "Durso-Bumpus Debra"
+   },
+   {
+    "date": "2024-06-28",
+    "filed": "2024-07-02",
+    "code": "S",
+    "value": 37013,
+    "who": "Durso-Bumpus Debra"
+   },
+   {
+    "date": "2024-06-21",
+    "filed": "2024-06-25",
+    "code": "S",
+    "value": 165820,
+    "who": "Durso-Bumpus Debra"
+   },
+   {
+    "date": "2024-06-21",
+    "filed": "2024-06-25",
+    "code": "S",
+    "value": 1968585,
+    "who": "Durso-Bumpus Debra"
+   },
+   {
+    "date": "2024-06-21",
+    "filed": "2024-06-25",
+    "code": "S",
+    "value": 4202361,
+    "who": "Durso-Bumpus Debra"
+   },
+   {
+    "date": "2024-06-21",
+    "filed": "2024-06-25",
+    "code": "S",
+    "value": 1346039,
+    "who": "Durso-Bumpus Debra"
+   },
+   {
+    "date": "2024-06-21",
+    "filed": "2024-06-25",
+    "code": "S",
+    "value": 30732,
+    "who": "Durso-Bumpus Debra"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "blueprint medicines",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03731260",
+    "drugs": [
+     "Avapritinib"
+    ]
+   },
+   {
+    "nct": "NCT04773782",
+    "drugs": [
+     "avapritinib"
+    ]
+   },
+   {
+    "nct": "NCT03580655",
+    "drugs": [
+     "Avapritinib"
+    ]
+   },
+   {
+    "nct": "NCT04910685",
+    "drugs": [
+     "Elenestinib"
+    ]
+   }
+  ]
+ }
+}

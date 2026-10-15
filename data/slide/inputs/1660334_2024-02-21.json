@@ -1,0 +1,122 @@
+{
+ "id": "1660334_2024-02-21",
+ "kind": "slide",
+ "cik": "1660334",
+ "name": "Verrica Pharmaceuticals Inc.",
+ "date": "2024-02-21",
+ "asof": "2024-02-21",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-02-21",
+  "adj_close": 49.9
+ },
+ "balance": {
+  "end": "2023-09-30",
+  "cash": 84308000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-23-061543"
+ },
+ "burn6": {
+  "end": "2023-09-30",
+  "start": "2023-04-01",
+  "cash_used_ops": 19480000.0,
+  "capex": 124000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-11-03",
+  "shares": 42064553
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2023-11-23",
+  "to": "2024-03-22",
+  "trades": [
+   {
+    "date": "2023-12-27",
+    "filed": "2023-12-29",
+    "code": "P",
+    "value": 574027,
+    "who": "PERCEPTIVE ADVISORS LLC"
+   },
+   {
+    "date": "2023-12-28",
+    "filed": "2023-12-29",
+    "code": "P",
+    "value": 892901,
+    "who": "PERCEPTIVE ADVISORS LLC"
+   },
+   {
+    "date": "2023-12-29",
+    "filed": "2023-12-29",
+    "code": "P",
+    "value": 838204,
+    "who": "PERCEPTIVE ADVISORS LLC"
+   },
+   {
+    "date": "2023-12-21",
+    "filed": "2023-12-26",
+    "code": "P",
+    "value": 1234000,
+    "who": "PERCEPTIVE ADVISORS LLC"
+   },
+   {
+    "date": "2023-12-22",
+    "filed": "2023-12-26",
+    "code": "P",
+    "value": 1667500,
+    "who": "PERCEPTIVE ADVISORS LLC"
+   },
+   {
+    "date": "2023-12-26",
+    "filed": "2023-12-26",
+    "code": "P",
+    "value": 354691,
+    "who": "PERCEPTIVE ADVISORS LLC"
+   },
+   {
+    "date": "2023-12-15",
+    "filed": "2023-12-19",
+    "code": "P",
+    "value": 2985000,
+    "who": "PERCEPTIVE ADVISORS LLC"
+   },
+   {
+    "date": "2023-12-18",
+    "filed": "2023-12-19",
+    "code": "P",
+    "value": 2471953,
+    "who": "PERCEPTIVE ADVISORS LLC"
+   },
+   {
+    "date": "2023-12-19",
+    "filed": "2023-12-19",
+    "code": "P",
+    "value": 1484763,
+    "who": "PERCEPTIVE ADVISORS LLC"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "verrica pharmaceuticals",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05188729",
+    "drugs": [
+     "Part 1: VP-315 3 Day Dosing/Week",
+     "Part 2: VP-315 3 Day Dosing/Week - Loading Dose",
+     "Part 2: VP-315 3 Day Dosing/Week - No Loading Dose"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "id": "1274792_2021-11-10",
+ "kind": "slide",
+ "cik": "1274792",
+ "name": "MERRIMACK PHARMACEUTICALS INC",
+ "date": "2021-11-10",
+ "asof": "2021-11-10",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-11-10",
+  "adj_close": 2.17716
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 14558000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001564590-21-054518"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": -574000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-11-02",
+  "shares": 13410243
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2021-08-12",
+  "to": "2021-12-10",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "merrimack pharmaceuticals",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT00458146",
+    "drugs": [
+     "MM-093"
+    ]
+   },
+   {
+    "nct": "NCT00105976",
+    "drugs": [
+     "MM-093"
+    ]
+   }
+  ]
+ }
+}

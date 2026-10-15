@@ -1,0 +1,170 @@
+{
+ "id": "1649094_2021-06-10",
+ "kind": "slide",
+ "cik": "1649094",
+ "name": "Vaxcyte, Inc.",
+ "date": "2021-06-10",
+ "asof": "2021-06-10",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-06-10",
+  "adj_close": 23.12
+ },
+ "balance": {
+  "end": "2021-03-31",
+  "cash": 321119000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001564590-21-026529"
+ },
+ "burn6": {
+  "end": "2021-03-31",
+  "start": "2020-10-01",
+  "cash_used_ops": 23973000.0,
+  "capex": 1968000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-05-07",
+  "shares": 51378730
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 24,
+  "from": "2021-03-12",
+  "to": "2021-07-10",
+  "trades": [
+   {
+    "date": "2021-06-28",
+    "filed": "2021-06-30",
+    "code": "S",
+    "value": 112397,
+    "who": "Fairman Jeff"
+   },
+   {
+    "date": "2021-06-28",
+    "filed": "2021-06-30",
+    "code": "S",
+    "value": 3373,
+    "who": "Fairman Jeff"
+   },
+   {
+    "date": "2021-06-24",
+    "filed": "2021-06-28",
+    "code": "S",
+    "value": 166508,
+    "who": "PICKERING GRANT"
+   },
+   {
+    "date": "2021-06-24",
+    "filed": "2021-06-28",
+    "code": "S",
+    "value": 153615,
+    "who": "PICKERING GRANT"
+   },
+   {
+    "date": "2021-06-21",
+    "filed": "2021-06-23",
+    "code": "S",
+    "value": 23439,
+    "who": "PICKERING GRANT"
+   },
+   {
+    "date": "2021-06-22",
+    "filed": "2021-06-23",
+    "code": "S",
+    "value": 1628,
+    "who": "PICKERING GRANT"
+   },
+   {
+    "date": "2021-06-07",
+    "filed": "2021-06-09",
+    "code": "S",
+    "value": 213750,
+    "who": "Fairman Jeff"
+   },
+   {
+    "date": "2021-06-03",
+    "filed": "2021-06-07",
+    "code": "S",
+    "value": 154881,
+    "who": "PICKERING GRANT"
+   },
+   {
+    "date": "2021-06-04",
+    "filed": "2021-06-07",
+    "code": "S",
+    "value": 179179,
+    "who": "PICKERING GRANT"
+   },
+   {
+    "date": "2021-05-27",
+    "filed": "2021-05-28",
+    "code": "S",
+    "value": 270637,
+    "who": "PICKERING GRANT"
+   },
+   {
+    "date": "2021-05-28",
+    "filed": "2021-05-28",
+    "code": "S",
+    "value": 58857,
+    "who": "PICKERING GRANT"
+   },
+   {
+    "date": "2021-03-26",
+    "filed": "2021-03-29",
+    "code": "S",
+    "value": 80116,
+    "who": "Fairman Jeff"
+   },
+   {
+    "date": "2021-03-26",
+    "filed": "2021-03-29",
+    "code": "S",
+    "value": 33317,
+    "who": "Fairman Jeff"
+   },
+   {
+    "date": "2021-03-19",
+    "filed": "2021-03-23",
+    "code": "S",
+    "value": 386550,
+    "who": "PICKERING GRANT"
+   },
+   {
+    "date": "2021-03-15",
+    "filed": "2021-03-17",
+    "code": "S",
+    "value": 27361,
+    "who": "Wright-Mitchell Jane"
+   },
+   {
+    "date": "2021-03-15",
+    "filed": "2021-03-17",
+    "code": "S",
+    "value": 40878,
+    "who": "Wright-Mitchell Jane"
+   },
+   {
+    "date": "2021-03-11",
+    "filed": "2021-03-15",
+    "code": "S",
+    "value": 62500,
+    "who": "Sauer Paul"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "vaxcyte",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

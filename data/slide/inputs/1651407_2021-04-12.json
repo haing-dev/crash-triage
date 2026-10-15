@@ -1,0 +1,68 @@
+{
+ "id": "1651407_2021-04-12",
+ "kind": "slide",
+ "cik": "1651407",
+ "name": "Checkpoint Therapeutics, Inc.",
+ "date": "2021-04-12",
+ "asof": "2021-04-12",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-04-12",
+  "adj_close": 28.6
+ },
+ "balance": {
+  "end": "2020-12-31",
+  "cash": 40772000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001104659-21-035291"
+ },
+ "burn6": {
+  "end": "2020-12-31",
+  "start": "2020-07-01",
+  "cash_used_ops": 9850000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": null,
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 2,
+  "from": "2021-01-12",
+  "to": "2021-05-12",
+  "trades": [
+   {
+    "date": "2021-02-04",
+    "filed": "2021-02-05",
+    "code": "S",
+    "value": 245525,
+    "who": "Oliviero James F III"
+   },
+   {
+    "date": "2021-02-05",
+    "filed": "2021-02-05",
+    "code": "S",
+    "value": 166745,
+    "who": "Oliviero James F III"
+   },
+   {
+    "date": "2021-02-04",
+    "filed": "2021-02-05",
+    "code": "S",
+    "value": 96318,
+    "who": "GRAY WILLIAM GARRETT"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "checkpoint therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

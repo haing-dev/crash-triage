@@ -1,0 +1,50 @@
+{
+ "id": "1730463_2026-03-20",
+ "kind": "slide",
+ "cik": "1730463",
+ "name": "Autolus Therapeutics plc",
+ "date": "2026-03-20",
+ "asof": "2026-03-20",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-03-20",
+  "adj_close": 1.37
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 367413000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001730463-25-000088"
+ },
+ "burn6": {
+  "end": "2025-09-30",
+  "start": "2025-04-01",
+  "cash_used_ops": 140680000.0,
+  "capex": 11685000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-11-11",
+  "shares": 266143286
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2025-12-20",
+  "to": "2026-04-19",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "autolus therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,115 @@
+{
+ "id": "1528115_2024-11-20",
+ "kind": "slide",
+ "cik": "1528115",
+ "name": "Annexon, Inc.",
+ "date": "2024-11-20",
+ "asof": "2024-11-20",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-11-20",
+  "adj_close": 5.16
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 340116000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0000950170-24-127057"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": 53724000.0,
+  "capex": 6021.0989010989015,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-05-02",
+  "shares": 38563565
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 9,
+  "from": "2024-08-22",
+  "to": "2024-12-20",
+  "trades": [
+   {
+    "date": "2024-12-02",
+    "filed": "2024-12-04",
+    "code": "P",
+    "value": 17056,
+    "who": "Carson William H."
+   },
+   {
+    "date": "2024-10-15",
+    "filed": "2024-10-17",
+    "code": "S",
+    "value": 40073,
+    "who": "Yednock Ted"
+   },
+   {
+    "date": "2024-10-01",
+    "filed": "2024-10-02",
+    "code": "P",
+    "value": 19104,
+    "who": "Carson William H."
+   },
+   {
+    "date": "2024-09-19",
+    "filed": "2024-09-20",
+    "code": "S",
+    "value": 31950,
+    "who": "Yednock Ted"
+   },
+   {
+    "date": "2024-09-12",
+    "filed": "2024-09-16",
+    "code": "S",
+    "value": 33880,
+    "who": "Yednock Ted"
+   },
+   {
+    "date": "2024-09-05",
+    "filed": "2024-09-06",
+    "code": "S",
+    "value": 31020,
+    "who": "Yednock Ted"
+   },
+   {
+    "date": "2024-09-03",
+    "filed": "2024-09-04",
+    "code": "P",
+    "value": 17536,
+    "who": "Carson William H."
+   },
+   {
+    "date": "2024-08-29",
+    "filed": "2024-08-30",
+    "code": "S",
+    "value": 32725,
+    "who": "Yednock Ted"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "annexon",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06510816",
+    "drugs": [
+     "Vonaprument",
+     "Sham Administration"
+    ]
+   }
+  ]
+ }
+}

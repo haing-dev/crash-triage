@@ -1,0 +1,80 @@
+{
+ "id": "1501756_2023-03-10",
+ "kind": "slide",
+ "cik": "1501756",
+ "name": "Adverum Biotechnologies, Inc.",
+ "date": "2023-03-10",
+ "asof": "2023-03-10",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-03-10",
+  "adj_close": 7.9
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 203264000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001628280-22-029499"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 60687000.0,
+  "capex": 7257000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-11-04",
+  "shares": 99729025
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2022-12-10",
+  "to": "2023-04-09",
+  "trades": [
+   {
+    "date": "2023-03-15",
+    "filed": "2023-03-17",
+    "code": "S",
+    "value": 5705,
+    "who": "Riley Brigit"
+   },
+   {
+    "date": "2023-03-15",
+    "filed": "2023-03-17",
+    "code": "S",
+    "value": 10442,
+    "who": "Soparkar Peter"
+   },
+   {
+    "date": "2023-03-15",
+    "filed": "2023-03-17",
+    "code": "S",
+    "value": 32232,
+    "who": "Fischer Laurent"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "adverum biotechnologies",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05536973",
+    "drugs": [
+     "ADVM-022",
+     "ADVM-022"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,182 @@
+{
+ "id": "1787306_2022-09-15",
+ "kind": "slide",
+ "cik": "1787306",
+ "name": "Arcutis Biotherapeutics, Inc.",
+ "date": "2022-09-15",
+ "asof": "2022-09-15",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-09-15",
+  "adj_close": 18.69
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 282169000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001787306-22-000051"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 118955000.0,
+  "capex": 204000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-07-29",
+  "shares": 51562525
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 13,
+  "from": "2022-06-17",
+  "to": "2022-10-15",
+  "trades": [
+   {
+    "date": "2022-10-07",
+    "filed": "2022-10-11",
+    "code": "S",
+    "value": 19510,
+    "who": "Watanabe Todd Franklin"
+   },
+   {
+    "date": "2022-10-04",
+    "filed": "2022-10-06",
+    "code": "S",
+    "value": 121766,
+    "who": "Welgus Howard G."
+   },
+   {
+    "date": "2022-09-07",
+    "filed": "2022-09-09",
+    "code": "S",
+    "value": 21510,
+    "who": "Watanabe Todd Franklin"
+   },
+   {
+    "date": "2022-08-15",
+    "filed": "2022-08-17",
+    "code": "S",
+    "value": 148789,
+    "who": "Welgus Howard G."
+   },
+   {
+    "date": "2022-08-05",
+    "filed": "2022-08-09",
+    "code": "S",
+    "value": 61858,
+    "who": "Watanabe Todd Franklin"
+   },
+   {
+    "date": "2022-08-05",
+    "filed": "2022-08-09",
+    "code": "P",
+    "value": 5000000,
+    "who": "Frazier Life Sciences VIII, L.P."
+   },
+   {
+    "date": "2022-07-18",
+    "filed": "2022-07-18",
+    "code": "S",
+    "value": 146374,
+    "who": "Welgus Howard G."
+   },
+   {
+    "date": "2022-07-08",
+    "filed": "2022-07-12",
+    "code": "S",
+    "value": 55835,
+    "who": "OSBORNE DAVID W"
+   },
+   {
+    "date": "2022-07-08",
+    "filed": "2022-07-12",
+    "code": "S",
+    "value": 37500,
+    "who": "Watanabe Todd Franklin"
+   },
+   {
+    "date": "2022-07-08",
+    "filed": "2022-07-12",
+    "code": "S",
+    "value": 124861,
+    "who": "Watanabe Todd Franklin"
+   },
+   {
+    "date": "2022-07-08",
+    "filed": "2022-07-12",
+    "code": "S",
+    "value": 180112,
+    "who": "Watanabe Todd Franklin"
+   },
+   {
+    "date": "2022-07-06",
+    "filed": "2022-07-07",
+    "code": "S",
+    "value": 22070,
+    "who": "Watanabe Todd Franklin"
+   },
+   {
+    "date": "2022-06-24",
+    "filed": "2022-06-28",
+    "code": "S",
+    "value": 6521435,
+    "who": "ORBIMED ADVISORS LLC"
+   },
+   {
+    "date": "2022-06-24",
+    "filed": "2022-06-28",
+    "code": "S",
+    "value": 765967,
+    "who": "ORBIMED ADVISORS LLC"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "arcutis biotherapeutics",
+  "other_trials": 5,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04845620",
+    "drugs": [
+     "Roflumilast Cream 0.05%",
+     "Vehicle Cream"
+    ]
+   },
+   {
+    "nct": "NCT04445987",
+    "drugs": [
+     "ARQ-154"
+    ]
+   },
+   {
+    "nct": "NCT04286607",
+    "drugs": [
+     "Topical roflumilast"
+    ]
+   },
+   {
+    "nct": "NCT04773600",
+    "drugs": [
+     "Roflumilast Cream",
+     "Vehicle cream"
+    ]
+   },
+   {
+    "nct": "NCT04804605",
+    "drugs": [
+     "ARQ-151 Cream 0.15% or ARQ-151 Cream 0.05%"
+    ]
+   }
+  ]
+ }
+}

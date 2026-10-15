@@ -1,0 +1,49 @@
+{
+ "id": "1262104_2025-03-31",
+ "kind": "slide",
+ "cik": "1262104",
+ "name": "Lite Strategy, Inc.",
+ "date": "2025-03-31",
+ "asof": "2025-03-31",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-03-31",
+  "adj_close": 2.19
+ },
+ "balance": {
+  "end": "2024-12-31",
+  "cash": 23739000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-25-018809"
+ },
+ "burn6": {
+  "end": "2024-12-31",
+  "start": "2024-07-01",
+  "cash_used_ops": 15116000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-02-07",
+  "shares": 6662857
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2024-12-31",
+  "to": "2025-04-30",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "lite strategy",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

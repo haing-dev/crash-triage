@@ -1,0 +1,204 @@
+{
+ "id": "1657312_2023-09-29",
+ "kind": "slide",
+ "cik": "1657312",
+ "name": "Verona Pharma plc",
+ "date": "2023-09-29",
+ "asof": "2023-09-29",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-09-29",
+  "adj_close": 16.3
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 270727000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001657312-23-000017"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 27093000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-07-27",
+  "shares": 635875302
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 13,
+  "from": "2023-07-01",
+  "to": "2023-10-29",
+  "trades": [
+   {
+    "date": "2023-08-03",
+    "filed": "2023-08-07",
+    "code": "S",
+    "value": 73318,
+    "who": "Rickard Kathleen A."
+   },
+   {
+    "date": "2023-08-03",
+    "filed": "2023-08-07",
+    "code": "S",
+    "value": 55472,
+    "who": "Rickard Kathleen A."
+   },
+   {
+    "date": "2023-08-04",
+    "filed": "2023-08-07",
+    "code": "S",
+    "value": 69838,
+    "who": "Rickard Kathleen A."
+   },
+   {
+    "date": "2023-08-07",
+    "filed": "2023-08-07",
+    "code": "S",
+    "value": 3949,
+    "who": "Rickard Kathleen A."
+   },
+   {
+    "date": "2023-08-03",
+    "filed": "2023-08-07",
+    "code": "S",
+    "value": 297754,
+    "who": "ZACCARDELLI DAVID"
+   },
+   {
+    "date": "2023-08-04",
+    "filed": "2023-08-07",
+    "code": "S",
+    "value": 374880,
+    "who": "ZACCARDELLI DAVID"
+   },
+   {
+    "date": "2023-08-07",
+    "filed": "2023-08-07",
+    "code": "S",
+    "value": 21263,
+    "who": "ZACCARDELLI DAVID"
+   },
+   {
+    "date": "2023-08-03",
+    "filed": "2023-08-07",
+    "code": "S",
+    "value": 297754,
+    "who": "Hahn Mark W"
+   },
+   {
+    "date": "2023-08-04",
+    "filed": "2023-08-07",
+    "code": "S",
+    "value": 374880,
+    "who": "Hahn Mark W"
+   },
+   {
+    "date": "2023-08-07",
+    "filed": "2023-08-07",
+    "code": "S",
+    "value": 21263,
+    "who": "Hahn Mark W"
+   },
+   {
+    "date": "2023-08-03",
+    "filed": "2023-08-07",
+    "code": "S",
+    "value": 52324,
+    "who": "Poll Claire"
+   },
+   {
+    "date": "2023-08-04",
+    "filed": "2023-08-07",
+    "code": "S",
+    "value": 65859,
+    "who": "Poll Claire"
+   },
+   {
+    "date": "2023-08-07",
+    "filed": "2023-08-07",
+    "code": "S",
+    "value": 3731,
+    "who": "Poll Claire"
+   },
+   {
+    "date": "2023-08-01",
+    "filed": "2023-08-03",
+    "code": "S",
+    "value": 283824,
+    "who": "Hahn Mark W"
+   },
+   {
+    "date": "2023-08-02",
+    "filed": "2023-08-03",
+    "code": "S",
+    "value": 191114,
+    "who": "Hahn Mark W"
+   },
+   {
+    "date": "2023-08-01",
+    "filed": "2023-08-03",
+    "code": "S",
+    "value": 49851,
+    "who": "Poll Claire"
+   },
+   {
+    "date": "2023-08-02",
+    "filed": "2023-08-03",
+    "code": "S",
+    "value": 33564,
+    "who": "Poll Claire"
+   },
+   {
+    "date": "2023-08-01",
+    "filed": "2023-08-03",
+    "code": "S",
+    "value": 283824,
+    "who": "ZACCARDELLI DAVID"
+   },
+   {
+    "date": "2023-08-02",
+    "filed": "2023-08-03",
+    "code": "S",
+    "value": 191114,
+    "who": "ZACCARDELLI DAVID"
+   },
+   {
+    "date": "2023-08-01",
+    "filed": "2023-08-03",
+    "code": "S",
+    "value": 52873,
+    "who": "Rickard Kathleen A."
+   },
+   {
+    "date": "2023-08-02",
+    "filed": "2023-08-03",
+    "code": "S",
+    "value": 35597,
+    "who": "Rickard Kathleen A."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "verona pharma",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05270525",
+    "drugs": [
+     "Ensifentrine"
+    ]
+   }
+  ]
+ }
+}

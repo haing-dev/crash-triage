@@ -1,0 +1,158 @@
+{
+ "id": "1808865_2025-05-07",
+ "kind": "slide",
+ "cik": "1808865",
+ "name": "iTeos Therapeutics, Inc.",
+ "date": "2025-05-07",
+ "asof": "2025-05-07",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-05-07",
+  "adj_close": 6.44
+ },
+ "balance": {
+  "end": "2025-03-31",
+  "cash": 520369000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-25-059357"
+ },
+ "burn6": {
+  "end": "2025-03-31",
+  "start": "2024-10-01",
+  "cash_used_ops": 28267000.0,
+  "capex": 253000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-04-22",
+  "shares": 38273795
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2025-02-06",
+  "to": "2025-06-06",
+  "trades": [
+   {
+    "date": "2025-06-04",
+    "filed": "2025-06-06",
+    "code": "S",
+    "value": 84840,
+    "who": "Detheux Michel"
+   },
+   {
+    "date": "2025-06-04",
+    "filed": "2025-06-06",
+    "code": "S",
+    "value": 443218,
+    "who": "Detheux Michel"
+   },
+   {
+    "date": "2025-06-05",
+    "filed": "2025-06-06",
+    "code": "S",
+    "value": 85260,
+    "who": "Detheux Michel"
+   },
+   {
+    "date": "2025-06-05",
+    "filed": "2025-06-06",
+    "code": "S",
+    "value": 445402,
+    "who": "Detheux Michel"
+   },
+   {
+    "date": "2025-06-06",
+    "filed": "2025-06-06",
+    "code": "S",
+    "value": 85764,
+    "who": "Detheux Michel"
+   },
+   {
+    "date": "2025-06-06",
+    "filed": "2025-06-06",
+    "code": "S",
+    "value": 448035,
+    "who": "Detheux Michel"
+   },
+   {
+    "date": "2025-06-04",
+    "filed": "2025-06-06",
+    "code": "S",
+    "value": 384946,
+    "who": "Hallal David"
+   },
+   {
+    "date": "2025-06-05",
+    "filed": "2025-06-06",
+    "code": "S",
+    "value": 388004,
+    "who": "Hallal David"
+   },
+   {
+    "date": "2025-06-06",
+    "filed": "2025-06-06",
+    "code": "S",
+    "value": 391455,
+    "who": "Hallal David"
+   },
+   {
+    "date": "2025-05-14",
+    "filed": "2025-05-16",
+    "code": "P",
+    "value": 12285562,
+    "who": "EcoR1 Capital, LLC"
+   },
+   {
+    "date": "2025-05-15",
+    "filed": "2025-05-16",
+    "code": "P",
+    "value": 26400000,
+    "who": "EcoR1 Capital, LLC"
+   },
+   {
+    "date": "2025-05-13",
+    "filed": "2025-05-15",
+    "code": "S",
+    "value": 8317364,
+    "who": "GADICKE ANSBERT"
+   },
+   {
+    "date": "2025-05-13",
+    "filed": "2025-05-15",
+    "code": "S",
+    "value": 5079339,
+    "who": "MPM BIOVENTURES 2018, L.P."
+   },
+   {
+    "date": "2025-05-13",
+    "filed": "2025-05-15",
+    "code": "S",
+    "value": 5079339,
+    "who": "MPM BioVentures 2014, L.P."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "iteos therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05403385",
+    "drugs": [
+     "inupadenant",
+     "Carboplatin",
+     "Pemetrexed"
+    ]
+   }
+  ]
+ }
+}

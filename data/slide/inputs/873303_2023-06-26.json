@@ -1,0 +1,83 @@
+{
+ "id": "873303_2023-06-26",
+ "kind": "slide",
+ "cik": "873303",
+ "name": "Sarepta Therapeutics, Inc.",
+ "date": "2023-06-26",
+ "asof": "2023-06-26",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-06-26",
+  "adj_close": 108.28
+ },
+ "balance": {
+  "end": "2023-03-31",
+  "cash": 1882097000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-23-016654"
+ },
+ "burn6": {
+  "end": "2023-03-31",
+  "start": "2022-10-01",
+  "cash_used_ops": 301788000.0,
+  "capex": 17449000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-04-27",
+  "shares": 93148652
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 2,
+  "from": "2023-03-28",
+  "to": "2023-07-26",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "sarepta therapeutics",
+  "other_trials": 8,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT00248066",
+    "drugs": [
+     "RESTEN-MP"
+    ]
+   },
+   {
+    "nct": "NCT05881408",
+    "drugs": [
+     "delandistrogene moxeparvovec"
+    ]
+   },
+   {
+    "nct": "NCT03652259",
+    "drugs": [
+     "SRP-9003"
+    ]
+   },
+   {
+    "nct": "NCT02500381",
+    "drugs": [
+     "SRP-4045",
+     "SRP-4053"
+    ]
+   },
+   {
+    "nct": "NCT03532542",
+    "drugs": [
+     "Casimersen",
+     "Golodirsen"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,174 @@
+{
+ "id": "1439222_2023-03-07",
+ "kind": "slide",
+ "cik": "1439222",
+ "name": "AGIOS PHARMACEUTICALS, INC.",
+ "date": "2023-03-07",
+ "asof": "2023-03-07",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-03-07",
+  "adj_close": 23.56
+ },
+ "balance": {
+  "end": "2022-12-31",
+  "cash": 1096993000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0001439222-23-000039"
+ },
+ "burn6": {
+  "end": "2022-12-31",
+  "start": "2022-07-01",
+  "cash_used_ops": 137514000.0,
+  "capex": 151000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-02-17",
+  "shares": 55285223
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 24,
+  "from": "2022-12-07",
+  "to": "2023-04-06",
+  "trades": [
+   {
+    "date": "2023-04-03",
+    "filed": "2023-04-05",
+    "code": "S",
+    "value": 373895,
+    "who": "Schenkein David P"
+   },
+   {
+    "date": "2023-03-27",
+    "filed": "2023-03-29",
+    "code": "S",
+    "value": 443000,
+    "who": "Schenkein David P"
+   },
+   {
+    "date": "2023-03-13",
+    "filed": "2023-03-15",
+    "code": "S",
+    "value": 411943,
+    "who": "Schenkein David P"
+   },
+   {
+    "date": "2023-03-13",
+    "filed": "2023-03-15",
+    "code": "S",
+    "value": 37874,
+    "who": "Schenkein David P"
+   },
+   {
+    "date": "2023-03-03",
+    "filed": "2023-03-07",
+    "code": "S",
+    "value": 12242,
+    "who": "Washburn Theodore James Jr."
+   },
+   {
+    "date": "2023-02-27",
+    "filed": "2023-03-01",
+    "code": "S",
+    "value": 507400,
+    "who": "Schenkein David P"
+   },
+   {
+    "date": "2023-02-16",
+    "filed": "2023-02-21",
+    "code": "S",
+    "value": 6340,
+    "who": "Washburn Theodore James Jr."
+   },
+   {
+    "date": "2023-02-14",
+    "filed": "2023-02-16",
+    "code": "S",
+    "value": 14409,
+    "who": "Washburn Theodore James Jr."
+   },
+   {
+    "date": "2023-02-13",
+    "filed": "2023-02-15",
+    "code": "S",
+    "value": 572400,
+    "who": "Schenkein David P"
+   },
+   {
+    "date": "2023-01-30",
+    "filed": "2023-02-01",
+    "code": "S",
+    "value": 487974,
+    "who": "Schenkein David P"
+   },
+   {
+    "date": "2023-01-30",
+    "filed": "2023-02-01",
+    "code": "S",
+    "value": 98604,
+    "who": "Schenkein David P"
+   },
+   {
+    "date": "2023-01-17",
+    "filed": "2023-01-19",
+    "code": "S",
+    "value": 546600,
+    "who": "Schenkein David P"
+   },
+   {
+    "date": "2023-01-17",
+    "filed": "2023-01-19",
+    "code": "S",
+    "value": 30493,
+    "who": "Schenkein David P"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "agios pharmaceuticals",
+  "other_trials": 7,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05144256",
+    "drugs": [
+     "Mitapivat"
+    ]
+   },
+   {
+    "nct": "NCT05490446",
+    "drugs": [
+     "Tebapivat"
+    ]
+   },
+   {
+    "nct": "NCT04770753",
+    "drugs": [
+     "Mitapivat"
+    ]
+   },
+   {
+    "nct": "NCT05175105",
+    "drugs": [
+     "Mitapivat"
+    ]
+   },
+   {
+    "nct": "NCT05031780",
+    "drugs": [
+     "Mitapivat"
+    ]
+   }
+  ]
+ }
+}

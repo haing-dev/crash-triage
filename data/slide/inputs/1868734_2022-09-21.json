@@ -1,0 +1,106 @@
+{
+ "id": "1868734_2022-09-21",
+ "kind": "slide",
+ "cik": "1868734",
+ "name": "CinCor Pharma, Inc.",
+ "date": "2022-09-21",
+ "asof": "2022-09-21",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-09-21",
+  "adj_close": 27.25
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 127619608,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-22-015254"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 37266294.0,
+  "capex": 42136.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-08-08",
+  "shares": 37739323
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 9,
+  "from": "2022-06-23",
+  "to": "2022-10-21",
+  "trades": [
+   {
+    "date": "2022-08-15",
+    "filed": "2022-08-17",
+    "code": "P",
+    "value": 3380010,
+    "who": "5AM Partners VI, LLC"
+   },
+   {
+    "date": "2022-08-15",
+    "filed": "2022-08-17",
+    "code": "P",
+    "value": 14619990,
+    "who": "5AM Partners VI, LLC"
+   },
+   {
+    "date": "2022-08-15",
+    "filed": "2022-08-17",
+    "code": "P",
+    "value": 3999990,
+    "who": "Sofinnova Partners SAS"
+   },
+   {
+    "date": "2022-08-11",
+    "filed": "2022-08-15",
+    "code": "P",
+    "value": 15000000,
+    "who": "Sofinnova Venture Partners X, L.P."
+   },
+   {
+    "date": "2022-08-11",
+    "filed": "2022-08-15",
+    "code": "P",
+    "value": 15000000,
+    "who": "HEALY JAMES"
+   },
+   {
+    "date": "2022-08-11",
+    "filed": "2022-08-15",
+    "code": "P",
+    "value": 180000,
+    "who": "HEALY JAMES"
+   },
+   {
+    "date": "2022-08-11",
+    "filed": "2022-08-15",
+    "code": "P",
+    "value": 2490000,
+    "who": "GENERAL ATLANTIC GENPAR (BERMUDA), L.P."
+   },
+   {
+    "date": "2022-08-11",
+    "filed": "2022-08-15",
+    "code": "P",
+    "value": 2490000,
+    "who": "GENERAL ATLANTIC, L.P."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "cincor pharma",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

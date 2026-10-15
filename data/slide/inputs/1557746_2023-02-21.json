@@ -1,0 +1,207 @@
+{
+ "id": "1557746_2023-02-21",
+ "kind": "slide",
+ "cik": "1557746",
+ "name": "Aclaris Therapeutics, Inc.",
+ "date": "2023-02-21",
+ "asof": "2023-02-21",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-02-21",
+  "adj_close": 12.83
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 248062000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001558370-22-016738"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 27483000.0,
+  "capex": 336000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-10-31",
+  "shares": 66683191
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 16,
+  "from": "2022-11-23",
+  "to": "2023-03-23",
+  "trades": [
+   {
+    "date": "2023-03-17",
+    "filed": "2023-03-17",
+    "code": "P",
+    "value": 49532,
+    "who": "Manion Douglas J."
+   },
+   {
+    "date": "2023-03-09",
+    "filed": "2023-03-09",
+    "code": "P",
+    "value": 50278,
+    "who": "Manion Douglas J."
+   },
+   {
+    "date": "2023-03-02",
+    "filed": "2023-03-03",
+    "code": "S",
+    "value": 358588,
+    "who": "Walker Neal"
+   },
+   {
+    "date": "2023-03-03",
+    "filed": "2023-03-03",
+    "code": "S",
+    "value": 382070,
+    "who": "Walker Neal"
+   },
+   {
+    "date": "2023-03-02",
+    "filed": "2023-03-03",
+    "code": "S",
+    "value": 183024,
+    "who": "Monahan Joseph"
+   },
+   {
+    "date": "2023-03-03",
+    "filed": "2023-03-03",
+    "code": "S",
+    "value": 202615,
+    "who": "Monahan Joseph"
+   },
+   {
+    "date": "2023-03-02",
+    "filed": "2023-03-03",
+    "code": "S",
+    "value": 12289,
+    "who": "Balthaser Kevin"
+   },
+   {
+    "date": "2023-03-03",
+    "filed": "2023-03-03",
+    "code": "S",
+    "value": 11290,
+    "who": "Balthaser Kevin"
+   },
+   {
+    "date": "2023-02-15",
+    "filed": "2023-02-17",
+    "code": "S",
+    "value": 65310,
+    "who": "Monahan Joseph"
+   },
+   {
+    "date": "2023-02-08",
+    "filed": "2023-02-10",
+    "code": "S",
+    "value": 59272,
+    "who": "Loerop James"
+   },
+   {
+    "date": "2023-02-01",
+    "filed": "2023-02-03",
+    "code": "S",
+    "value": 418675,
+    "who": "Walker Neal"
+   },
+   {
+    "date": "2023-02-02",
+    "filed": "2023-02-03",
+    "code": "S",
+    "value": 15718,
+    "who": "Walker Neal"
+   },
+   {
+    "date": "2023-02-02",
+    "filed": "2023-02-03",
+    "code": "S",
+    "value": 9332,
+    "who": "Walker Neal"
+   },
+   {
+    "date": "2023-02-02",
+    "filed": "2023-02-03",
+    "code": "S",
+    "value": 52691,
+    "who": "Walker Neal"
+   },
+   {
+    "date": "2023-02-02",
+    "filed": "2023-02-03",
+    "code": "S",
+    "value": 3507,
+    "who": "Walker Neal"
+   },
+   {
+    "date": "2023-01-03",
+    "filed": "2023-01-04",
+    "code": "S",
+    "value": 355067,
+    "who": "Walker Neal"
+   },
+   {
+    "date": "2023-01-03",
+    "filed": "2023-01-04",
+    "code": "S",
+    "value": 26146,
+    "who": "Walker Neal"
+   },
+   {
+    "date": "2023-01-04",
+    "filed": "2023-01-04",
+    "code": "S",
+    "value": 223342,
+    "who": "Walker Neal"
+   },
+   {
+    "date": "2022-12-15",
+    "filed": "2022-12-16",
+    "code": "S",
+    "value": 79412,
+    "who": "Monahan Joseph"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "aclaris therapeutics",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05511519",
+    "drugs": [
+     "ATI-450"
+    ]
+   },
+   {
+    "nct": "NCT05279417",
+    "drugs": [
+     "ATI-450 50 mg oral tablet BID",
+     "Methotrexate",
+     "ATI-450 20 mg oral tablet BID"
+    ]
+   },
+   {
+    "nct": "NCT05432596",
+    "drugs": [
+     "ATI-1777 2.0% w/w",
+     "ATI-1777 1.0% w/w",
+     "ATI-1777 0.5% w/w"
+    ]
+   }
+  ]
+ }
+}

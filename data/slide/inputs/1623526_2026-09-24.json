@@ -1,0 +1,164 @@
+{
+ "id": "1623526_2026-09-24",
+ "kind": "slide",
+ "cik": "1623526",
+ "name": "Stoke Therapeutics, Inc.",
+ "date": "2026-09-24",
+ "asof": "2026-09-24",
+ "final": false,
+ "version": 5,
+ "price": {
+  "date": "2026-09-24",
+  "adj_close": 25.29
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 354320000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0001193125-26-330557"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": 117167000.0,
+  "capex": 2329000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-07-30",
+  "shares": 64526242
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2026-06-26",
+  "to": "2026-10-15",
+  "trades": [
+   {
+    "date": "2026-10-02",
+    "filed": "2026-10-02",
+    "code": "S",
+    "value": 16509,
+    "who": "Allan Jonathan"
+   },
+   {
+    "date": "2026-10-01",
+    "filed": "2026-10-02",
+    "code": "S",
+    "value": 27494,
+    "who": "Ticho Barry"
+   },
+   {
+    "date": "2026-09-01",
+    "filed": "2026-09-03",
+    "code": "S",
+    "value": 120370,
+    "who": "Ticho Barry"
+   },
+   {
+    "date": "2026-09-01",
+    "filed": "2026-09-03",
+    "code": "S",
+    "value": 49691,
+    "who": "Ticho Barry"
+   },
+   {
+    "date": "2026-08-18",
+    "filed": "2026-08-18",
+    "code": "S",
+    "value": 144833,
+    "who": "Ticho Barry"
+   },
+   {
+    "date": "2026-08-18",
+    "filed": "2026-08-18",
+    "code": "S",
+    "value": 7857,
+    "who": "Ticho Barry"
+   },
+   {
+    "date": "2026-08-18",
+    "filed": "2026-08-18",
+    "code": "S",
+    "value": 381846,
+    "who": "Kaye Edward M. MD"
+   },
+   {
+    "date": "2026-08-18",
+    "filed": "2026-08-18",
+    "code": "S",
+    "value": 20682,
+    "who": "Kaye Edward M. MD"
+   },
+   {
+    "date": "2026-08-18",
+    "filed": "2026-08-18",
+    "code": "S",
+    "value": 86932,
+    "who": "Allan Jonathan"
+   },
+   {
+    "date": "2026-08-18",
+    "filed": "2026-08-18",
+    "code": "S",
+    "value": 4708,
+    "who": "Allan Jonathan"
+   },
+   {
+    "date": "2026-08-03",
+    "filed": "2026-08-05",
+    "code": "S",
+    "value": 171008,
+    "who": "Ticho Barry"
+   },
+   {
+    "date": "2026-08-03",
+    "filed": "2026-08-05",
+    "code": "S",
+    "value": 37377,
+    "who": "Ticho Barry"
+   },
+   {
+    "date": "2026-07-01",
+    "filed": "2026-07-06",
+    "code": "S",
+    "value": 219434,
+    "who": "Ticho Barry"
+   },
+   {
+    "date": "2026-07-01",
+    "filed": "2026-07-06",
+    "code": "S",
+    "value": 16634,
+    "who": "Ticho Barry"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "stoke therapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04740476",
+    "drugs": [
+     "zorevunersen (STK-001)"
+    ]
+   },
+   {
+    "nct": "NCT06872125",
+    "drugs": [
+     "zorevunersen",
+     "Sham Comparator"
+    ]
+   }
+  ]
+ }
+}

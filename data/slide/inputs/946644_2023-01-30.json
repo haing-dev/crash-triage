@@ -1,0 +1,72 @@
+{
+ "id": "946644_2023-01-30",
+ "kind": "slide",
+ "cik": "946644",
+ "name": "AIM ImmunoTech Inc.",
+ "date": "2023-01-30",
+ "asof": "2023-01-30",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-01-30",
+  "adj_close": 49.46654
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 36745000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001493152-22-032118"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 7281000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-11-09",
+  "shares": 48082275
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2022-11-01",
+  "to": "2023-03-01",
+  "trades": [
+   {
+    "date": "2023-01-03",
+    "filed": "2023-01-04",
+    "code": "P",
+    "value": 25000,
+    "who": "APPELROUTH STEWART"
+   },
+   {
+    "date": "2023-01-03",
+    "filed": "2023-01-04",
+    "code": "P",
+    "value": 25000,
+    "who": "Rodino Peter W III"
+   },
+   {
+    "date": "2023-01-03",
+    "filed": "2023-01-04",
+    "code": "P",
+    "value": 50000,
+    "who": "Equels Thomas K"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "aim immunotech",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

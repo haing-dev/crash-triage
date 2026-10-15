@@ -1,0 +1,127 @@
+{
+ "id": "1549595_2024-12-24",
+ "kind": "slide",
+ "cik": "1549595",
+ "name": "Nurix Therapeutics, Inc.",
+ "date": "2024-12-24",
+ "asof": "2024-12-24",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-12-24",
+  "adj_close": 19.57
+ },
+ "balance": {
+  "end": "2024-08-31",
+  "cash": 99044000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001549595-24-000131"
+ },
+ "burn6": {
+  "end": "2024-08-31",
+  "start": "2024-03-01",
+  "cash_used_ops": 81882000.0,
+  "capex": 4284000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-10-10",
+  "shares": 70836282
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2024-09-25",
+  "to": "2025-01-23",
+  "trades": [
+   {
+    "date": "2025-01-02",
+    "filed": "2025-01-02",
+    "code": "S",
+    "value": 112295,
+    "who": "Ring Christine"
+   },
+   {
+    "date": "2024-12-02",
+    "filed": "2024-12-02",
+    "code": "S",
+    "value": 125155,
+    "who": "Ring Christine"
+   },
+   {
+    "date": "2024-11-04",
+    "filed": "2024-11-04",
+    "code": "S",
+    "value": 82250,
+    "who": "Ring Christine"
+   },
+   {
+    "date": "2024-11-01",
+    "filed": "2024-11-01",
+    "code": "S",
+    "value": 139867,
+    "who": "Ring Christine"
+   },
+   {
+    "date": "2024-11-01",
+    "filed": "2024-11-01",
+    "code": "S",
+    "value": 86083,
+    "who": "van Houte Hans"
+   },
+   {
+    "date": "2024-10-30",
+    "filed": "2024-10-30",
+    "code": "S",
+    "value": 57554,
+    "who": "van Houte Hans"
+   },
+   {
+    "date": "2024-10-30",
+    "filed": "2024-10-30",
+    "code": "S",
+    "value": 83536,
+    "who": "Hansen Gwenn"
+   },
+   {
+    "date": "2024-10-30",
+    "filed": "2024-10-30",
+    "code": "S",
+    "value": 101644,
+    "who": "Ring Christine"
+   },
+   {
+    "date": "2024-10-14",
+    "filed": "2024-10-15",
+    "code": "S",
+    "value": 82250,
+    "who": "Ring Christine"
+   },
+   {
+    "date": "2024-10-01",
+    "filed": "2024-10-01",
+    "code": "S",
+    "value": 121174,
+    "who": "Ring Christine"
+   },
+   {
+    "date": "2024-10-01",
+    "filed": "2024-10-01",
+    "code": "S",
+    "value": 6843,
+    "who": "Ring Christine"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "nurix therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

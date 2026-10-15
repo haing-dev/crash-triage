@@ -1,0 +1,47 @@
+{
+ "id": "1532346_2023-02-21",
+ "kind": "slide",
+ "cik": "1532346",
+ "name": "Atreca, Inc.",
+ "date": "2023-02-21",
+ "asof": "2023-02-21",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-02-21",
+  "adj_close": 1.54
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 85725000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001558370-22-017440"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 39737000.0,
+  "capex": 671000.0,
+  "periods": 2
+ },
+ "shares": null,
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2022-11-23",
+  "to": "2023-03-23",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "atreca",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

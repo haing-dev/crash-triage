@@ -1,0 +1,62 @@
+{
+ "id": "1689375_2025-10-10",
+ "kind": "slide",
+ "cik": "1689375",
+ "name": "Entrada Therapeutics, Inc.",
+ "date": "2025-10-10",
+ "asof": "2025-10-10",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-10-10",
+  "adj_close": 6.09
+ },
+ "balance": {
+  "end": "2025-06-30",
+  "cash": 72482000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001689375-25-000043"
+ },
+ "burn6": {
+  "end": "2025-06-30",
+  "start": "2025-01-01",
+  "cash_used_ops": 67996000.0,
+  "capex": 1419000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-07-31",
+  "shares": 38037079
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2025-07-12",
+  "to": "2025-11-09",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "entrada therapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT07038824",
+    "drugs": [
+     "ENTR-601-45"
+    ]
+   },
+   {
+    "nct": "NCT07037862",
+    "drugs": [
+     "ENTR-601-44"
+    ]
+   }
+  ]
+ }
+}

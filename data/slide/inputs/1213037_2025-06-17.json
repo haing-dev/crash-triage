@@ -1,0 +1,60 @@
+{
+ "id": "1213037_2025-06-17",
+ "kind": "slide",
+ "cik": "1213037",
+ "name": "Cardiff Oncology, Inc.",
+ "date": "2025-06-17",
+ "asof": "2025-06-17",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-06-17",
+  "adj_close": 3.7
+ },
+ "balance": {
+  "end": "2025-03-31",
+  "cash": 92601000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0000950170-25-066886"
+ },
+ "burn6": {
+  "end": "2025-03-31",
+  "start": "2024-10-01",
+  "cash_used_ops": 23061000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-05-01",
+  "shares": 66525854
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2025-03-19",
+  "to": "2025-07-17",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "cardiff oncology",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06106308",
+    "drugs": [
+     "Onvansertib",
+     "FOLFIRI",
+     "Bevacizumab"
+    ]
+   }
+  ]
+ }
+}

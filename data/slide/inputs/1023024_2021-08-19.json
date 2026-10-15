@@ -1,0 +1,49 @@
+{
+ "id": "1023024_2021-08-19",
+ "kind": "slide",
+ "cik": "1023024",
+ "name": "ANI PHARMACEUTICALS INC",
+ "date": "2021-08-19",
+ "asof": "2021-08-19",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-08-19",
+  "adj_close": 26.48
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 24261000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001023024-21-000017"
+ },
+ "burn6": {
+  "end": "2021-06-30",
+  "start": "2021-01-01",
+  "cash_used_ops": -20909000.0,
+  "capex": 1630000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2013-02-28",
+  "shares": 24422240
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2021-05-21",
+  "to": "2021-09-18",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "ani pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

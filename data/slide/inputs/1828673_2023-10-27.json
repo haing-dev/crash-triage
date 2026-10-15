@@ -1,0 +1,163 @@
+{
+ "id": "1828673_2023-10-27",
+ "kind": "slide",
+ "cik": "1828673",
+ "name": "HCW Biologics Inc.",
+ "date": "2023-10-27",
+ "asof": "2023-10-27",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-10-27",
+  "adj_close": 64.0
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 17408380,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-23-041607"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 13030059.0,
+  "capex": 1856900.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-08-10",
+  "shares": 35926721
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 10,
+  "from": "2023-07-29",
+  "to": "2023-11-26",
+  "trades": [
+   {
+    "date": "2023-09-14",
+    "filed": "2023-09-18",
+    "code": "P",
+    "value": 3741,
+    "who": "Wong Hing C"
+   },
+   {
+    "date": "2023-09-13",
+    "filed": "2023-09-15",
+    "code": "P",
+    "value": 1025,
+    "who": "Winer Gary M"
+   },
+   {
+    "date": "2023-09-13",
+    "filed": "2023-09-15",
+    "code": "P",
+    "value": 92,
+    "who": "Winer Gary M"
+   },
+   {
+    "date": "2023-09-14",
+    "filed": "2023-09-15",
+    "code": "P",
+    "value": 337,
+    "who": "Winer Gary M"
+   },
+   {
+    "date": "2023-09-14",
+    "filed": "2023-09-15",
+    "code": "P",
+    "value": 1802,
+    "who": "Winer Gary M"
+   },
+   {
+    "date": "2023-09-13",
+    "filed": "2023-09-15",
+    "code": "P",
+    "value": 10490,
+    "who": "Byam Rebecca"
+   },
+   {
+    "date": "2023-09-11",
+    "filed": "2023-09-13",
+    "code": "P",
+    "value": 10273,
+    "who": "Byam Rebecca"
+   },
+   {
+    "date": "2023-09-12",
+    "filed": "2023-09-13",
+    "code": "P",
+    "value": 10442,
+    "who": "Byam Rebecca"
+   },
+   {
+    "date": "2023-09-08",
+    "filed": "2023-09-12",
+    "code": "P",
+    "value": 2,
+    "who": "Winer Gary M"
+   },
+   {
+    "date": "2023-09-11",
+    "filed": "2023-09-12",
+    "code": "P",
+    "value": 203,
+    "who": "Winer Gary M"
+   },
+   {
+    "date": "2023-09-12",
+    "filed": "2023-09-12",
+    "code": "P",
+    "value": 1025,
+    "who": "Winer Gary M"
+   },
+   {
+    "date": "2023-09-07",
+    "filed": "2023-09-08",
+    "code": "P",
+    "value": 9742,
+    "who": "Byam Rebecca"
+   },
+   {
+    "date": "2023-09-08",
+    "filed": "2023-09-08",
+    "code": "P",
+    "value": 10111,
+    "who": "Byam Rebecca"
+   },
+   {
+    "date": "2023-09-05",
+    "filed": "2023-09-07",
+    "code": "P",
+    "value": 700,
+    "who": "Winer Gary M"
+   },
+   {
+    "date": "2023-09-07",
+    "filed": "2023-09-07",
+    "code": "P",
+    "value": 123,
+    "who": "Winer Gary M"
+   },
+   {
+    "date": "2023-09-06",
+    "filed": "2023-09-07",
+    "code": "P",
+    "value": 9749,
+    "who": "Byam Rebecca"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "hcw biologics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

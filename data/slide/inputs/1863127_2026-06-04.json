@@ -1,0 +1,88 @@
+{
+ "id": "1863127_2026-06-04",
+ "kind": "slide",
+ "cik": "1863127",
+ "name": "Tyra Biosciences, Inc.",
+ "date": "2026-06-04",
+ "asof": "2026-06-04",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-06-04",
+  "adj_close": 27.18
+ },
+ "balance": {
+  "end": "2026-03-31",
+  "cash": 84955000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001193125-26-220645"
+ },
+ "burn6": {
+  "end": "2026-03-31",
+  "start": "2025-10-01",
+  "cash_used_ops": 56195000.0,
+  "capex": 145000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-05-08",
+  "shares": 59470381
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 16,
+  "from": "2026-03-06",
+  "to": "2026-07-04",
+  "trades": [
+   {
+    "date": "2026-03-25",
+    "filed": "2026-03-27",
+    "code": "S",
+    "value": 528506,
+    "who": "KAPLAN GILLA"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "tyra biosciences",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT07265947",
+    "drugs": [
+     "Dabogratinib (TYRA-300) 60mg",
+     "Dabogratinib (TYRA-300) 80mg",
+     "Dabogratinib (TYRA-300) TBD"
+    ]
+   },
+   {
+    "nct": "NCT06995677",
+    "drugs": [
+     "TYRA-300 60mg",
+     "TYRA-300 50mg",
+     "TYRA-300 Dose 70 mg"
+    ]
+   },
+   {
+    "nct": "NCT05544552",
+    "drugs": [
+     "TYRA-300"
+    ]
+   },
+   {
+    "nct": "NCT06842355",
+    "drugs": [
+     "TYRA-300 0.125 mg/kg",
+     "TYRA-300 0.25 mg/kg",
+     "TYRA-300 0.375 mg/kg"
+    ]
+   }
+  ]
+ }
+}

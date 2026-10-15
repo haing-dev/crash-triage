@@ -1,0 +1,116 @@
+{
+ "id": "1444307_2021-04-09",
+ "kind": "slide",
+ "cik": "1444307",
+ "name": "ONCOSEC MEDICAL Inc",
+ "date": "2021-04-09",
+ "asof": "2021-04-09",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-04-09",
+  "adj_close": 113.74
+ },
+ "balance": {
+  "end": "2021-01-31",
+  "cash": 60330571,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001493152-21-005935"
+ },
+ "burn6": {
+  "end": "2021-01-31",
+  "start": "2020-08-01",
+  "cash_used_ops": 20589882.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-03-12",
+  "shares": 37159684
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2021-01-09",
+  "to": "2021-05-09",
+  "trades": [
+   {
+    "date": "2021-05-03",
+    "filed": "2021-05-04",
+    "code": "S",
+    "value": 2202,
+    "who": "DelAversano Robert J"
+   },
+   {
+    "date": "2021-04-30",
+    "filed": "2021-05-04",
+    "code": "S",
+    "value": 15416,
+    "who": "O'Connor Daniel J."
+   },
+   {
+    "date": "2021-04-16",
+    "filed": "2021-04-26",
+    "code": "P",
+    "value": 4863941,
+    "who": "China Grand Pharmaceutical & Healthcare Holdings Ltd"
+   },
+   {
+    "date": "2021-04-16",
+    "filed": "2021-04-26",
+    "code": "P",
+    "value": 972790,
+    "who": "China Grand Pharmaceutical & Healthcare Holdings Ltd"
+   },
+   {
+    "date": "2021-02-01",
+    "filed": "2021-02-02",
+    "code": "S",
+    "value": 26314,
+    "who": "O'Connor Daniel J."
+   },
+   {
+    "date": "2021-01-25",
+    "filed": "2021-01-27",
+    "code": "P",
+    "value": 18471129,
+    "who": "China Grand Pharmaceutical & Healthcare Holdings Ltd"
+   },
+   {
+    "date": "2021-01-25",
+    "filed": "2021-01-27",
+    "code": "P",
+    "value": 3694223,
+    "who": "China Grand Pharmaceutical & Healthcare Holdings Ltd"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "oncosec medical",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03567720",
+    "drugs": [
+     "tavokinogene telseplasmid",
+     "Pembrolizumab",
+     "Immunopulse"
+    ]
+   },
+   {
+    "nct": "NCT03132675",
+    "drugs": [
+     "tavokinogene telseplasmid",
+     "Pembrolizumab",
+     "ImmunoPulse"
+    ]
+   }
+  ]
+ }
+}

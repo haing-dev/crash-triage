@@ -1,0 +1,99 @@
+{
+ "id": "1557376_2024-10-29",
+ "kind": "slide",
+ "cik": "1557376",
+ "name": "Zeo ScientifiX, Inc.",
+ "date": "2024-10-29",
+ "asof": "2024-10-29",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-10-29",
+  "adj_close": 1.8
+ },
+ "balance": {
+  "end": "2024-07-31",
+  "cash": 1105000,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0001829126-24-006296"
+ },
+ "burn6": {
+  "end": "2024-07-31",
+  "start": "2024-02-01",
+  "cash_used_ops": 509000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-09-13",
+  "shares": 6582419
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2024-07-31",
+  "to": "2024-11-28",
+  "trades": [
+   {
+    "date": "2024-11-20",
+    "filed": "2024-11-22",
+    "code": "P",
+    "value": 1475,
+    "who": "Skycrest Holdings, LLC"
+   },
+   {
+    "date": "2024-11-22",
+    "filed": "2024-11-22",
+    "code": "P",
+    "value": 42032,
+    "who": "Skycrest Holdings, LLC"
+   },
+   {
+    "date": "2024-11-18",
+    "filed": "2024-11-20",
+    "code": "P",
+    "value": 25900,
+    "who": "Skycrest Holdings, LLC"
+   },
+   {
+    "date": "2024-11-19",
+    "filed": "2024-11-20",
+    "code": "P",
+    "value": 13250,
+    "who": "Skycrest Holdings, LLC"
+   },
+   {
+    "date": "2024-11-20",
+    "filed": "2024-11-20",
+    "code": "P",
+    "value": 20045,
+    "who": "Skycrest Holdings, LLC"
+   },
+   {
+    "date": "2024-08-30",
+    "filed": "2024-09-03",
+    "code": "P",
+    "value": 2200,
+    "who": "Skycrest Holdings, LLC"
+   },
+   {
+    "date": "2024-09-03",
+    "filed": "2024-09-03",
+    "code": "P",
+    "value": 19800,
+    "who": "Skycrest Holdings, LLC"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "zeo scientifix",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

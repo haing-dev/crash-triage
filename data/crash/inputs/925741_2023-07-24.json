@@ -1,0 +1,66 @@
+{
+ "id": "925741_2023-07-24",
+ "kind": "crash",
+ "cik": "925741",
+ "name": "BioCardia, Inc.",
+ "date": "2023-07-24",
+ "asof": "2023-07-24",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-07-24",
+  "adj_close": 16.5
+ },
+ "balance": {
+  "end": "2023-12-31",
+  "cash": 4900000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001437749-23-013580"
+ },
+ "burn6": {
+  "end": "2023-03-31",
+  "start": "2022-10-01",
+  "cash_used_ops": 5557000.0,
+  "capex": 12000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-04-30",
+  "shares": 20219087
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These factors raise substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 15,
+  "from": "2023-04-25",
+  "to": "2023-08-23",
+  "trades": [
+   {
+    "date": "2023-05-26",
+    "filed": "2023-05-30",
+    "code": "P",
+    "value": 9920,
+    "who": "Altman Peter"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "biocardia",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT02438306",
+    "drugs": [
+     "Autologous cell therapy",
+     "Sham"
+    ]
+   }
+  ]
+ }
+}

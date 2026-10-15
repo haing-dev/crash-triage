@@ -1,0 +1,119 @@
+{
+ "id": "1088856_2022-05-11",
+ "kind": "slide",
+ "cik": "1088856",
+ "name": "CORCEPT THERAPEUTICS INC",
+ "date": "2022-05-11",
+ "asof": "2022-05-11",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-05-11",
+  "adj_close": 17.33
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 368093000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent",
+   "MarketableSecuritiesNoncurrent"
+  ],
+  "accn": "0001628280-22-012662"
+ },
+ "burn6": {
+  "end": "2022-03-31",
+  "start": "2021-10-01",
+  "cash_used_ops": -84674000.0,
+  "capex": 77000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-04-28",
+  "shares": 106250716
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 19,
+  "from": "2022-02-10",
+  "to": "2022-06-10",
+  "trades": [
+   {
+    "date": "2022-05-17",
+    "filed": "2022-05-19",
+    "code": "S",
+    "value": 561965,
+    "who": "Robb Gary Charles"
+   },
+   {
+    "date": "2022-05-18",
+    "filed": "2022-05-19",
+    "code": "S",
+    "value": 2502,
+    "who": "Robb Gary Charles"
+   },
+   {
+    "date": "2022-05-19",
+    "filed": "2022-05-19",
+    "code": "S",
+    "value": 119928,
+    "who": "Robb Gary Charles"
+   },
+   {
+    "date": "2022-03-17",
+    "filed": "2022-03-18",
+    "code": "S",
+    "value": 185374,
+    "who": "Robb Gary Charles"
+   },
+   {
+    "date": "2022-03-18",
+    "filed": "2022-03-18",
+    "code": "S",
+    "value": 123054,
+    "who": "Robb Gary Charles"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "corcept therapeutics",
+  "other_trials": 5,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04524403",
+    "drugs": [
+     "Miricorlilant",
+     "Miricorlilant"
+    ]
+   },
+   {
+    "nct": "NCT04308590",
+    "drugs": [
+     "Relacorilant"
+    ]
+   },
+   {
+    "nct": "NCT03604198",
+    "drugs": [
+     "relacorilant"
+    ]
+   },
+   {
+    "nct": "NCT03697109",
+    "drugs": [
+     "Relacorilant"
+    ]
+   },
+   {
+    "nct": "NCT03818256",
+    "drugs": [
+     "Miricorilant"
+    ]
+   }
+  ]
+ }
+}

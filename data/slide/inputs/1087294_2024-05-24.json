@@ -1,0 +1,62 @@
+{
+ "id": "1087294_2024-05-24",
+ "kind": "slide",
+ "cik": "1087294",
+ "name": "CUMBERLAND PHARMACEUTICALS INC",
+ "date": "2024-05-24",
+ "asof": "2024-05-24",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-05-24",
+  "adj_close": 1.55
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 18548485,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001628280-24-022658"
+ },
+ "burn6": {
+  "end": "2024-03-31",
+  "start": "2023-10-01",
+  "cash_used_ops": 1096526.0,
+  "capex": 90294.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-05-06",
+  "shares": 14191229
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 10,
+  "from": "2024-02-24",
+  "to": "2024-06-23",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "cumberland pharmaceuticals",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT02682511",
+    "drugs": [
+     "Oral Ifetroban"
+    ]
+   },
+   {
+    "nct": "NCT05571059",
+    "drugs": [
+     "Ifetroban Sodium"
+    ]
+   }
+  ]
+ }
+}

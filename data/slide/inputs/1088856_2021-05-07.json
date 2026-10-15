@@ -1,0 +1,148 @@
+{
+ "id": "1088856_2021-05-07",
+ "kind": "slide",
+ "cik": "1088856",
+ "name": "CORCEPT THERAPEUTICS INC",
+ "date": "2021-05-07",
+ "asof": "2021-05-07",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-05-07",
+  "adj_close": 21.1
+ },
+ "balance": {
+  "end": "2021-03-31",
+  "cash": 454793000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent",
+   "MarketableSecuritiesNoncurrent"
+  ],
+  "accn": "0001628280-21-009318"
+ },
+ "burn6": {
+  "end": "2021-03-31",
+  "start": "2020-10-01",
+  "cash_used_ops": -60493000.0,
+  "capex": 557000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-04-28",
+  "shares": 116630692
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 25,
+  "from": "2021-02-06",
+  "to": "2021-06-06",
+  "trades": [
+   {
+    "date": "2021-06-02",
+    "filed": "2021-06-04",
+    "code": "S",
+    "value": 161085,
+    "who": "Swisher Daniel N JR"
+   },
+   {
+    "date": "2021-04-23",
+    "filed": "2021-04-27",
+    "code": "S",
+    "value": 240219,
+    "who": "Robb Gary Charles"
+   },
+   {
+    "date": "2021-04-05",
+    "filed": "2021-04-07",
+    "code": "S",
+    "value": 181036,
+    "who": "Swisher Daniel N JR"
+   },
+   {
+    "date": "2021-04-01",
+    "filed": "2021-04-05",
+    "code": "S",
+    "value": 597030,
+    "who": "Lyon Joseph Douglas"
+   },
+   {
+    "date": "2021-03-01",
+    "filed": "2021-03-03",
+    "code": "S",
+    "value": 630320,
+    "who": "Lyon Joseph Douglas"
+   },
+   {
+    "date": "2021-02-11",
+    "filed": "2021-02-16",
+    "code": "S",
+    "value": 101249,
+    "who": "Maduck Sean"
+   },
+   {
+    "date": "2021-02-16",
+    "filed": "2021-02-16",
+    "code": "S",
+    "value": 253903,
+    "who": "Maduck Sean"
+   },
+   {
+    "date": "2021-02-11",
+    "filed": "2021-02-16",
+    "code": "S",
+    "value": 101249,
+    "who": "Robb Gary Charles"
+   },
+   {
+    "date": "2021-02-12",
+    "filed": "2021-02-16",
+    "code": "S",
+    "value": 3163899,
+    "who": "Robb Gary Charles"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "corcept therapeutics",
+  "other_trials": 7,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04524403",
+    "drugs": [
+     "Miricorlilant",
+     "Miricorlilant"
+    ]
+   },
+   {
+    "nct": "NCT04308590",
+    "drugs": [
+     "Relacorilant"
+    ]
+   },
+   {
+    "nct": "NCT03604198",
+    "drugs": [
+     "relacorilant"
+    ]
+   },
+   {
+    "nct": "NCT03697109",
+    "drugs": [
+     "Relacorilant"
+    ]
+   },
+   {
+    "nct": "NCT03437941",
+    "drugs": [
+     "Exicorilant",
+     "Enzalutamide"
+    ]
+   }
+  ]
+ }
+}

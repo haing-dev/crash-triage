@@ -1,0 +1,87 @@
+{
+ "id": "1339970_2025-03-04",
+ "kind": "slide",
+ "cik": "1339970",
+ "name": "aTYR PHARMA INC",
+ "date": "2025-03-04",
+ "asof": "2025-03-04",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-03-04",
+  "adj_close": 3.03
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 65987000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0000950170-24-123305"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": 33607000.0,
+  "capex": 23000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-11-05",
+  "shares": 83942407
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2024-12-04",
+  "to": "2025-04-03",
+  "trades": [
+   {
+    "date": "2025-03-17",
+    "filed": "2025-03-17",
+    "code": "P",
+    "value": 15000,
+    "who": "Gross Jane A"
+   },
+   {
+    "date": "2025-02-04",
+    "filed": "2025-02-04",
+    "code": "S",
+    "value": 4740,
+    "who": "Broadfoot Jill Marie"
+   },
+   {
+    "date": "2025-02-04",
+    "filed": "2025-02-04",
+    "code": "S",
+    "value": 3398,
+    "who": "DENYES NANCY"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "atyr pharma",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05892614",
+    "drugs": [
+     "efzofitimod 450 mg",
+     "efzofitimod 270 mg"
+    ]
+   },
+   {
+    "nct": "NCT05415137",
+    "drugs": [
+     "Efzofitimod 3 mg/kg",
+     "Efzofitimod 5 mg/kg"
+    ]
+   }
+  ]
+ }
+}

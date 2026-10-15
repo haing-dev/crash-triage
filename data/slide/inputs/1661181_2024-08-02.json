@@ -1,0 +1,56 @@
+{
+ "id": "1661181_2024-08-02",
+ "kind": "slide",
+ "cik": "1661181",
+ "name": "Organogenesis Holdings Inc.",
+ "date": "2024-08-02",
+ "asof": "2024-08-02",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-08-02",
+  "adj_close": 2.66
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 88626000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-24-057050"
+ },
+ "burn6": {
+  "end": "2024-03-31",
+  "start": "2023-10-01",
+  "cash_used_ops": -451000.0,
+  "capex": 5546000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-04-30",
+  "shares": 132572465
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2024-05-04",
+  "to": "2024-09-01",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "organogenesis",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06000410",
+    "drugs": [
+     "Amniotic Suspension Allograft"
+    ]
+   }
+  ]
+ }
+}

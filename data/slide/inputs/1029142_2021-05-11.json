@@ -1,0 +1,79 @@
+{
+ "id": "1029142_2021-05-11",
+ "kind": "slide",
+ "cik": "1029142",
+ "name": "DYNAVAX TECHNOLOGIES CORP",
+ "date": "2021-05-11",
+ "asof": "2021-05-11",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-05-11",
+  "adj_close": 7.52
+ },
+ "balance": {
+  "end": "2021-03-31",
+  "cash": 232674000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001564590-21-024973"
+ },
+ "burn6": {
+  "end": "2021-03-31",
+  "start": "2020-10-01",
+  "cash_used_ops": -22289000.0,
+  "capex": 2516000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-05-03",
+  "shares": 114588212
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 13,
+  "from": "2021-02-10",
+  "to": "2021-06-10",
+  "trades": [
+   {
+    "date": "2021-04-01",
+    "filed": "2021-04-02",
+    "code": "S",
+    "value": 198400,
+    "who": "Novack David F"
+   },
+   {
+    "date": "2021-03-01",
+    "filed": "2021-03-02",
+    "code": "S",
+    "value": 11766,
+    "who": "Burgess Justin"
+   },
+   {
+    "date": "2021-03-01",
+    "filed": "2021-03-02",
+    "code": "S",
+    "value": 14501,
+    "who": "Burgess Justin"
+   },
+   {
+    "date": "2021-03-02",
+    "filed": "2021-03-02",
+    "code": "S",
+    "value": 10275,
+    "who": "Burgess Justin"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "dynavax technologies",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

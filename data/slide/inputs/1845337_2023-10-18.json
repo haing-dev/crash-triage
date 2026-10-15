@@ -1,0 +1,147 @@
+{
+ "id": "1845337_2023-10-18",
+ "kind": "slide",
+ "cik": "1845337",
+ "name": "Day One Biopharmaceuticals, Inc.",
+ "date": "2023-10-18",
+ "asof": "2023-10-18",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-10-18",
+  "adj_close": 10.31
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 442882000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-23-039118"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 68417000.0,
+  "capex": 175000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-08-01",
+  "shares": 86973819
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2023-07-20",
+  "to": "2023-11-17",
+  "trades": [
+   {
+    "date": "2023-11-16",
+    "filed": "2023-11-17",
+    "code": "S",
+    "value": 11176,
+    "who": "York Charles N II"
+   },
+   {
+    "date": "2023-11-16",
+    "filed": "2023-11-17",
+    "code": "S",
+    "value": 62109,
+    "who": "Dubow Adam"
+   },
+   {
+    "date": "2023-11-16",
+    "filed": "2023-11-17",
+    "code": "S",
+    "value": 8288,
+    "who": "Blackman Samuel C."
+   },
+   {
+    "date": "2023-11-16",
+    "filed": "2023-11-17",
+    "code": "S",
+    "value": 36321,
+    "who": "Bender Jeremy"
+   },
+   {
+    "date": "2023-10-18",
+    "filed": "2023-10-20",
+    "code": "P",
+    "value": 10000049,
+    "who": "AI Day1 LLC"
+   },
+   {
+    "date": "2023-10-19",
+    "filed": "2023-10-20",
+    "code": "P",
+    "value": 3867372,
+    "who": "AI Day1 LLC"
+   },
+   {
+    "date": "2023-10-20",
+    "filed": "2023-10-20",
+    "code": "P",
+    "value": 1110907,
+    "who": "AI Day1 LLC"
+   },
+   {
+    "date": "2023-08-17",
+    "filed": "2023-08-17",
+    "code": "S",
+    "value": 12779,
+    "who": "York Charles N II"
+   },
+   {
+    "date": "2023-08-17",
+    "filed": "2023-08-17",
+    "code": "S",
+    "value": 9258,
+    "who": "Blackman Samuel C."
+   },
+   {
+    "date": "2023-08-17",
+    "filed": "2023-08-17",
+    "code": "S",
+    "value": 41525,
+    "who": "Bender Jeremy"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "day one biopharmaceuticals",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05377996",
+    "drugs": [
+     "Emi-Le"
+    ]
+   },
+   {
+    "nct": "NCT05566795",
+    "drugs": [
+     "Tovorafenib",
+     "Chemotherapeutic Agent"
+    ]
+   },
+   {
+    "nct": "NCT04775485",
+    "drugs": [
+     "Tovorafenib"
+    ]
+   },
+   {
+    "nct": "NCT04985604",
+    "drugs": [
+     "Tovorafenib"
+    ]
+   }
+  ]
+ }
+}

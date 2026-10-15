@@ -1,0 +1,120 @@
+{
+ "id": "1860782_2024-03-13",
+ "kind": "slide",
+ "cik": "1860782",
+ "name": "2seventy bio, Inc.",
+ "date": "2024-03-13",
+ "asof": "2024-03-13",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-03-13",
+  "adj_close": 4.01
+ },
+ "balance": {
+  "end": "2023-12-31",
+  "cash": 74958000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001860782-24-000027"
+ },
+ "burn6": {
+  "end": "2023-12-31",
+  "start": "2023-07-01",
+  "cash_used_ops": 85107000.0,
+  "capex": 3815000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-02-29",
+  "shares": 51311132
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 12,
+  "from": "2023-12-14",
+  "to": "2024-04-12",
+  "trades": [
+   {
+    "date": "2024-03-26",
+    "filed": "2024-03-28",
+    "code": "P",
+    "value": 203992,
+    "who": "Casdin Capital, LLC"
+   },
+   {
+    "date": "2024-03-21",
+    "filed": "2024-03-25",
+    "code": "P",
+    "value": 1470990,
+    "who": "Casdin Capital, LLC"
+   },
+   {
+    "date": "2024-03-22",
+    "filed": "2024-03-25",
+    "code": "P",
+    "value": 754069,
+    "who": "Casdin Capital, LLC"
+   },
+   {
+    "date": "2024-03-25",
+    "filed": "2024-03-25",
+    "code": "P",
+    "value": 1673991,
+    "who": "Casdin Capital, LLC"
+   },
+   {
+    "date": "2024-01-05",
+    "filed": "2024-01-09",
+    "code": "S",
+    "value": 5180,
+    "who": "Baird William D III"
+   },
+   {
+    "date": "2024-01-05",
+    "filed": "2024-01-09",
+    "code": "S",
+    "value": 2984,
+    "who": "Gregory Philip D"
+   },
+   {
+    "date": "2024-01-05",
+    "filed": "2024-01-09",
+    "code": "S",
+    "value": 5833,
+    "who": "Leschly Nick"
+   },
+   {
+    "date": "2024-01-03",
+    "filed": "2024-01-05",
+    "code": "S",
+    "value": 279739,
+    "who": "Leschly Nick"
+   },
+   {
+    "date": "2024-01-03",
+    "filed": "2024-01-05",
+    "code": "S",
+    "value": 99084,
+    "who": "Gregory Philip D"
+   },
+   {
+    "date": "2024-01-03",
+    "filed": "2024-01-05",
+    "code": "S",
+    "value": 130179,
+    "who": "Baird William D III"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "2seventy bio",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

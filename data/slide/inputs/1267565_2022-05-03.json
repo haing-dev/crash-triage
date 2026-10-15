@@ -1,0 +1,71 @@
+{
+ "id": "1267565_2022-05-03",
+ "kind": "slide",
+ "cik": "1267565",
+ "name": "COLLEGIUM PHARMACEUTICAL, INC",
+ "date": "2022-05-03",
+ "asof": "2022-05-03",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-05-03",
+  "adj_close": 15.72
+ },
+ "balance": {
+  "end": "2021-12-31",
+  "cash": 186426000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-22-001927"
+ },
+ "burn6": {
+  "end": "2021-12-31",
+  "start": "2021-07-01",
+  "cash_used_ops": -53452000.0,
+  "capex": 791000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-01-31",
+  "shares": 33377788
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 17,
+  "from": "2022-02-02",
+  "to": "2022-06-02",
+  "trades": [
+   {
+    "date": "2022-03-01",
+    "filed": "2022-03-03",
+    "code": "S",
+    "value": 1195575,
+    "who": "Ciaffoni Joseph"
+   },
+   {
+    "date": "2022-03-01",
+    "filed": "2022-03-03",
+    "code": "S",
+    "value": 209649,
+    "who": "Ciaffoni Joseph"
+   },
+   {
+    "date": "2022-02-18",
+    "filed": "2022-02-28",
+    "code": "S",
+    "value": 228180,
+    "who": "Dreyer Scott"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "collegium pharmaceutical",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

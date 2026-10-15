@@ -1,0 +1,69 @@
+{
+ "id": "1707502_2026-09-24",
+ "kind": "slide",
+ "cik": "1707502",
+ "name": "Solid Biosciences Inc.",
+ "date": "2026-09-24",
+ "asof": "2026-09-24",
+ "final": false,
+ "version": 5,
+ "price": {
+  "date": "2026-09-24",
+  "adj_close": 7.48
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 377678000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001193125-26-337935"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": 99817000.0,
+  "capex": 315000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-08-04",
+  "shares": 107225238
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 2,
+  "from": "2026-06-26",
+  "to": "2026-10-15",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "solid biosciences",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06138639",
+    "drugs": [
+     "SGT-003"
+    ]
+   },
+   {
+    "nct": "NCT07160634",
+    "drugs": [
+     "SGT-003"
+    ]
+   },
+   {
+    "nct": "NCT03368742",
+    "drugs": [
+     "SGT-001"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,148 @@
+{
+ "id": "1787306_2021-11-15",
+ "kind": "slide",
+ "cik": "1787306",
+ "name": "Arcutis Biotherapeutics, Inc.",
+ "date": "2021-11-15",
+ "asof": "2021-11-15",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-11-15",
+  "adj_close": 20.25
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 367270000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001787306-21-000030"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 76715000.0,
+  "capex": 180000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-10-29",
+  "shares": 50295278
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 9,
+  "from": "2021-08-17",
+  "to": "2021-12-15",
+  "trades": [
+   {
+    "date": "2021-12-08",
+    "filed": "2021-12-10",
+    "code": "S",
+    "value": 17000,
+    "who": "Watanabe Todd Franklin"
+   },
+   {
+    "date": "2021-11-05",
+    "filed": "2021-11-09",
+    "code": "S",
+    "value": 21502,
+    "who": "Watanabe Todd Franklin"
+   },
+   {
+    "date": "2021-11-01",
+    "filed": "2021-11-03",
+    "code": "S",
+    "value": 54524,
+    "who": "Welgus Howard G."
+   },
+   {
+    "date": "2021-10-05",
+    "filed": "2021-10-07",
+    "code": "S",
+    "value": 62294,
+    "who": "Watanabe Todd Franklin"
+   },
+   {
+    "date": "2021-10-01",
+    "filed": "2021-10-05",
+    "code": "S",
+    "value": 59680,
+    "who": "Welgus Howard G."
+   },
+   {
+    "date": "2021-10-01",
+    "filed": "2021-10-05",
+    "code": "S",
+    "value": 37510,
+    "who": "Watanabe Todd Franklin"
+   },
+   {
+    "date": "2021-09-07",
+    "filed": "2021-09-09",
+    "code": "S",
+    "value": 21137,
+    "who": "Watanabe Todd Franklin"
+   },
+   {
+    "date": "2021-09-01",
+    "filed": "2021-09-03",
+    "code": "S",
+    "value": 86966,
+    "who": "Welgus Howard G."
+   },
+   {
+    "date": "2021-09-01",
+    "filed": "2021-09-03",
+    "code": "S",
+    "value": 17020,
+    "who": "Welgus Howard G."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "arcutis biotherapeutics",
+  "other_trials": 10,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04773587",
+    "drugs": [
+     "Roflumilast Cream 0.15%",
+     "Vehicle Cream"
+    ]
+   },
+   {
+    "nct": "NCT04845620",
+    "drugs": [
+     "Roflumilast Cream 0.05%",
+     "Vehicle Cream"
+    ]
+   },
+   {
+    "nct": "NCT04746911",
+    "drugs": [
+     "ARQ-151 cream 0.3%"
+    ]
+   },
+   {
+    "nct": "NCT04445987",
+    "drugs": [
+     "ARQ-154"
+    ]
+   },
+   {
+    "nct": "NCT05028582",
+    "drugs": [
+     "Roflumilast Foam 0.3%",
+     "Vehicle Foam"
+    ]
+   }
+  ]
+ }
+}

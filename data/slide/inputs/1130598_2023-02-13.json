@@ -1,0 +1,49 @@
+{
+ "id": "1130598_2023-02-13",
+ "kind": "slide",
+ "cik": "1130598",
+ "name": "Traws Pharma, Inc.",
+ "date": "2023-02-13",
+ "asof": "2023-02-13",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-02-13",
+  "adj_close": 21.25
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 42613000,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0001558370-22-017811"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 8114000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-11-01",
+  "shares": 20925992
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2022-11-15",
+  "to": "2023-03-15",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "traws pharma",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

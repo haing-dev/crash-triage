@@ -1,0 +1,85 @@
+{
+ "id": "1855644_2024-06-06",
+ "kind": "slide",
+ "cik": "1855644",
+ "name": "Zura Bio Ltd",
+ "date": "2024-06-06",
+ "asof": "2024-06-06",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-06-06",
+  "adj_close": 4.19
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 89817000,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0001410578-24-000655"
+ },
+ "burn6": {
+  "end": "2024-03-31",
+  "start": "2023-10-01",
+  "cash_used_ops": 9035000.0,
+  "capex": 14205.333333333334,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-05-09",
+  "shares": 63683806
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2024-03-08",
+  "to": "2024-07-06",
+  "trades": [
+   {
+    "date": "2024-05-17",
+    "filed": "2024-05-23",
+    "code": "P",
+    "value": 496000,
+    "who": "Ploos van Amstel Arnout"
+   },
+   {
+    "date": "2024-04-22",
+    "filed": "2024-04-24",
+    "code": "P",
+    "value": 24999,
+    "who": "Howell Michael"
+   },
+   {
+    "date": "2024-04-22",
+    "filed": "2024-04-24",
+    "code": "P",
+    "value": 10000,
+    "who": "Nistala Kiran"
+   },
+   {
+    "date": "2024-04-22",
+    "filed": "2024-04-24",
+    "code": "P",
+    "value": 499999,
+    "who": "Munshi Amit"
+   },
+   {
+    "date": "2024-04-22",
+    "filed": "2024-04-24",
+    "code": "P",
+    "value": 3715000,
+    "who": "Sidhu Someit"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "zura bio",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

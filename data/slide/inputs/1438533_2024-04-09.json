@@ -1,0 +1,198 @@
+{
+ "id": "1438533_2024-04-09",
+ "kind": "slide",
+ "cik": "1438533",
+ "name": "Travere Therapeutics, Inc.",
+ "date": "2024-04-09",
+ "asof": "2024-04-09",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-04-09",
+  "adj_close": 6.86
+ },
+ "balance": {
+  "end": "2023-12-31",
+  "cash": 566851000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0001438533-24-000005"
+ },
+ "burn6": {
+  "end": "2023-12-31",
+  "start": "2023-07-01",
+  "cash_used_ops": 129607000.0,
+  "capex": 335174.5054945055,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-02-15",
+  "shares": 76098485
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 14,
+  "from": "2024-01-10",
+  "to": "2024-05-09",
+  "trades": [
+   {
+    "date": "2024-04-11",
+    "filed": "2024-04-12",
+    "code": "S",
+    "value": 364,
+    "who": "Cline Christopher R."
+   },
+   {
+    "date": "2024-02-01",
+    "filed": "2024-02-02",
+    "code": "S",
+    "value": 77693,
+    "who": "Dube Eric M"
+   },
+   {
+    "date": "2024-02-01",
+    "filed": "2024-02-02",
+    "code": "S",
+    "value": 88742,
+    "who": "Dube Eric M"
+   },
+   {
+    "date": "2024-02-01",
+    "filed": "2024-02-02",
+    "code": "S",
+    "value": 18548,
+    "who": "ROTE WILLIAM E."
+   },
+   {
+    "date": "2024-02-01",
+    "filed": "2024-02-02",
+    "code": "S",
+    "value": 22947,
+    "who": "ROTE WILLIAM E."
+   },
+   {
+    "date": "2024-02-01",
+    "filed": "2024-02-02",
+    "code": "S",
+    "value": 24058,
+    "who": "Calvin Sandra"
+   },
+   {
+    "date": "2024-02-01",
+    "filed": "2024-02-02",
+    "code": "S",
+    "value": 18548,
+    "who": "REED ELIZABETH E"
+   },
+   {
+    "date": "2024-02-01",
+    "filed": "2024-02-02",
+    "code": "S",
+    "value": 22947,
+    "who": "REED ELIZABETH E"
+   },
+   {
+    "date": "2024-02-01",
+    "filed": "2024-02-02",
+    "code": "S",
+    "value": 35789,
+    "who": "Heerma Peter"
+   },
+   {
+    "date": "2024-02-01",
+    "filed": "2024-02-02",
+    "code": "S",
+    "value": 18547,
+    "who": "Inrig Jula"
+   },
+   {
+    "date": "2024-02-01",
+    "filed": "2024-02-02",
+    "code": "S",
+    "value": 32573,
+    "who": "Cline Christopher R."
+   },
+   {
+    "date": "2024-01-23",
+    "filed": "2024-01-25",
+    "code": "S",
+    "value": 18476,
+    "who": "REED ELIZABETH E"
+   },
+   {
+    "date": "2024-01-23",
+    "filed": "2024-01-25",
+    "code": "S",
+    "value": 70542,
+    "who": "Dube Eric M"
+   },
+   {
+    "date": "2024-01-23",
+    "filed": "2024-01-25",
+    "code": "S",
+    "value": 7735,
+    "who": "Cline Christopher R."
+   },
+   {
+    "date": "2024-01-23",
+    "filed": "2024-01-25",
+    "code": "S",
+    "value": 18476,
+    "who": "ROTE WILLIAM E."
+   },
+   {
+    "date": "2024-01-23",
+    "filed": "2024-01-25",
+    "code": "S",
+    "value": 8252,
+    "who": "Calvin Sandra"
+   },
+   {
+    "date": "2024-01-23",
+    "filed": "2024-01-25",
+    "code": "S",
+    "value": 14138,
+    "who": "Heerma Peter"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "travere therapeutics",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05856760",
+    "drugs": [
+     "Sparsentan"
+    ]
+   },
+   {
+    "nct": "NCT03406611",
+    "drugs": [
+     "Pegtibatinase"
+    ]
+   },
+   {
+    "nct": "NCT06247085",
+    "drugs": [
+     "Pegtibatinase"
+    ]
+   },
+   {
+    "nct": "NCT05003986",
+    "drugs": [
+     "Sparsentan",
+     "Sparsentan",
+     "Sparsentan"
+    ]
+   }
+  ]
+ }
+}

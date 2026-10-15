@@ -1,0 +1,50 @@
+{
+ "id": "1858685_2026-09-29",
+ "kind": "slide",
+ "cik": "1858685",
+ "name": "Biofrontera Inc.",
+ "date": "2026-09-29",
+ "asof": "2026-09-29",
+ "final": false,
+ "version": 5,
+ "price": {
+  "date": "2026-09-29",
+  "adj_close": 1.09
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 4659000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001493152-26-037834"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": 1728000.0,
+  "capex": 5000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-08-11",
+  "shares": 14852359
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Management believes that these conditions raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 2,
+  "from": "2026-07-01",
+  "to": "2026-10-15",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "biofrontera",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

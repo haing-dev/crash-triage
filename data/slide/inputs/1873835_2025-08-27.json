@@ -1,0 +1,79 @@
+{
+ "id": "1873835_2025-08-27",
+ "kind": "slide",
+ "cik": "1873835",
+ "name": "Immix Biopharma, Inc.",
+ "date": "2025-08-27",
+ "asof": "2025-08-27",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-08-27",
+  "adj_close": 1.96
+ },
+ "balance": {
+  "end": "2025-06-30",
+  "cash": 11637945,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001641172-25-022829"
+ },
+ "burn6": {
+  "end": "2025-06-30",
+  "start": "2025-01-01",
+  "cash_used_ops": 6994921.0,
+  "capex": 195343.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-08-01",
+  "shares": 28834111
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Accordingly, based on recurring losses from operations incurred since inception, the expectation of continued operating losses, and the need to raise additional capital to finance our future operations, we determined that there is substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 12,
+  "from": "2025-05-29",
+  "to": "2025-09-26",
+  "trades": [
+   {
+    "date": "2025-09-17",
+    "filed": "2025-09-17",
+    "code": "P",
+    "value": 5050,
+    "who": "Rachman Ilya M"
+   },
+   {
+    "date": "2025-09-16",
+    "filed": "2025-09-17",
+    "code": "P",
+    "value": 5122,
+    "who": "Morris Gabriel S"
+   },
+   {
+    "date": "2025-06-18",
+    "filed": "2025-06-20",
+    "code": "P",
+    "value": 4999,
+    "who": "Rachman Ilya M"
+   },
+   {
+    "date": "2025-06-18",
+    "filed": "2025-06-20",
+    "code": "P",
+    "value": 5071,
+    "who": "Morris Gabriel S"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "immix biopharma",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

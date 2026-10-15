@@ -1,0 +1,139 @@
+{
+ "id": "1567514_2023-10-30",
+ "kind": "slide",
+ "cik": "1567514",
+ "name": "Intra-Cellular Therapies, Inc.",
+ "date": "2023-10-30",
+ "asof": "2023-10-30",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-10-30",
+  "adj_close": 46.37
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 538354000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0001628280-23-027013"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 96868000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-08-01",
+  "shares": 96091564
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2023-08-01",
+  "to": "2023-11-29",
+  "trades": [
+   {
+    "date": "2023-11-13",
+    "filed": "2023-11-14",
+    "code": "S",
+    "value": 476754,
+    "who": "Halstead Michael"
+   },
+   {
+    "date": "2023-11-13",
+    "filed": "2023-11-14",
+    "code": "S",
+    "value": 2218029,
+    "who": "Halstead Michael"
+   },
+   {
+    "date": "2023-11-06",
+    "filed": "2023-11-08",
+    "code": "S",
+    "value": 1497734,
+    "who": "Neumann Mark"
+   },
+   {
+    "date": "2023-11-06",
+    "filed": "2023-11-08",
+    "code": "S",
+    "value": 860417,
+    "who": "Neumann Mark"
+   },
+   {
+    "date": "2023-09-18",
+    "filed": "2023-09-19",
+    "code": "S",
+    "value": 1470911,
+    "who": "Mates Sharon"
+   },
+   {
+    "date": "2023-09-18",
+    "filed": "2023-09-19",
+    "code": "S",
+    "value": 1517301,
+    "who": "Mates Sharon"
+   },
+   {
+    "date": "2023-09-19",
+    "filed": "2023-09-19",
+    "code": "S",
+    "value": 2405852,
+    "who": "Mates Sharon"
+   },
+   {
+    "date": "2023-08-07",
+    "filed": "2023-08-09",
+    "code": "S",
+    "value": 3251087,
+    "who": "Neumann Mark"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "intra cellular therapies",
+  "other_trials": 6,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05850689",
+    "drugs": [
+     "Lumateperone"
+    ]
+   },
+   {
+    "nct": "NCT05766813",
+    "drugs": [
+     "Lenrispodun"
+    ]
+   },
+   {
+    "nct": "NCT05061706",
+    "drugs": [
+     "Lumateperone"
+    ]
+   },
+   {
+    "nct": "NCT05061719",
+    "drugs": [
+     "Lumateperone"
+    ]
+   },
+   {
+    "nct": "NCT04959032",
+    "drugs": [
+     "Lumateperone 42 mg"
+    ]
+   }
+  ]
+ }
+}

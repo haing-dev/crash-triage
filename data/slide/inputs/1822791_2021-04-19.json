@@ -1,0 +1,74 @@
+{
+ "id": "1822791_2021-04-19",
+ "kind": "slide",
+ "cik": "1822791",
+ "name": "Clene Inc.",
+ "date": "2021-04-19",
+ "asof": "2021-04-19",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-04-19",
+  "adj_close": 216.8
+ },
+ "balance": {
+  "end": "2020-12-31",
+  "cash": 59275000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001213900-21-018061"
+ },
+ "burn6": null,
+ "shares": {
+  "end": "2021-03-25",
+  "shares": 59526171
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 19,
+  "from": "2021-01-19",
+  "to": "2021-05-19",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "clene",
+  "other_trials": 6,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04626921",
+    "drugs": [
+     "CNM-Au8"
+    ]
+   },
+   {
+    "nct": "NCT03815916",
+    "drugs": [
+     "Gold Nanocrystals"
+    ]
+   },
+   {
+    "nct": "NCT03536559",
+    "drugs": [
+     "CNM-Au8"
+    ]
+   },
+   {
+    "nct": "NCT04098406",
+    "drugs": [
+     "CNM-Au8"
+    ]
+   },
+   {
+    "nct": "NCT03993171",
+    "drugs": [
+     "gold nanocrystals"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,80 @@
+{
+ "id": "1374339_2024-07-26",
+ "kind": "slide",
+ "cik": "1374339",
+ "name": "ProMIS Neurosciences Inc.",
+ "date": "2024-07-26",
+ "asof": "2024-07-26",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-07-26",
+  "adj_close": 40.0
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 2529331,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001558370-24-008145"
+ },
+ "burn6": {
+  "end": "2024-03-31",
+  "start": "2023-10-01",
+  "cash_used_ops": 14049685.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-05-14",
+  "shares": 18961116
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Management believes these conditions raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2024-04-27",
+  "to": "2024-08-25",
+  "trades": [
+   {
+    "date": "2024-08-14",
+    "filed": "2024-08-16",
+    "code": "P",
+    "value": 12492,
+    "who": "Kirwin Patrick D."
+   },
+   {
+    "date": "2024-07-31",
+    "filed": "2024-08-02",
+    "code": "P",
+    "value": 0,
+    "who": "Title 19 Promis"
+   },
+   {
+    "date": "2024-07-31",
+    "filed": "2024-08-02",
+    "code": "P",
+    "value": 0,
+    "who": "GORDON MICHAEL S"
+   },
+   {
+    "date": "2024-07-31",
+    "filed": "2024-08-02",
+    "code": "P",
+    "value": 0,
+    "who": "Sclar Jeremy M."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "promis neurosciences",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

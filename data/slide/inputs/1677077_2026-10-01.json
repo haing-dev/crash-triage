@@ -1,0 +1,72 @@
+{
+ "id": "1677077_2026-10-01",
+ "kind": "slide",
+ "cik": "1677077",
+ "name": "Alzamend Neuro, Inc.",
+ "date": "2026-10-01",
+ "asof": "2026-10-01",
+ "final": false,
+ "version": 5,
+ "price": {
+  "date": "2026-10-01",
+  "adj_close": 1.315
+ },
+ "balance": {
+  "end": "2026-07-31",
+  "cash": 7591444,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001214659-26-011572"
+ },
+ "burn6": {
+  "end": "2026-07-31",
+  "start": "2026-02-01",
+  "cash_used_ops": 3935811.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-09-10",
+  "shares": 4825723
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These factors create substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2026-07-03",
+  "to": "2026-10-15",
+  "trades": [
+   {
+    "date": "2026-08-26",
+    "filed": "2026-08-31",
+    "code": "S",
+    "value": 3116,
+    "who": "AULT MILTON C III"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "alzamend neuro",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT07540338",
+    "drugs": [
+     "AL001",
+     "Lithium carbonate"
+    ]
+   },
+   {
+    "nct": "NCT05834296",
+    "drugs": [
+     "ALZN002 (autologous DCs pulsed with E22W mutant peptide)."
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,99 @@
+{
+ "id": "1722964_2024-11-18",
+ "kind": "slide",
+ "cik": "1722964",
+ "name": "Y-mAbs Therapeutics, Inc.",
+ "date": "2024-11-18",
+ "asof": "2024-11-18",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-11-18",
+  "adj_close": 10.72
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 68122000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-24-014950"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": 10367000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-11-01",
+  "shares": 44789076
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2024-08-20",
+  "to": "2024-12-18",
+  "trades": [
+   {
+    "date": "2024-09-13",
+    "filed": "2024-09-17",
+    "code": "S",
+    "value": 875550,
+    "who": "Gad Thomas"
+   },
+   {
+    "date": "2024-09-16",
+    "filed": "2024-09-17",
+    "code": "S",
+    "value": 389100,
+    "who": "Gad Thomas"
+   },
+   {
+    "date": "2024-08-28",
+    "filed": "2024-08-30",
+    "code": "S",
+    "value": 768500,
+    "who": "Lund-Hansen Torben"
+   },
+   {
+    "date": "2024-08-26",
+    "filed": "2024-08-27",
+    "code": "S",
+    "value": 73450,
+    "who": "Wilms Joris"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "y mabs therapeutics",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04315246",
+    "drugs": [
+     "radiolabeled DPTA-omburtamab"
+    ]
+   },
+   {
+    "nct": "NCT03363373",
+    "drugs": [
+     "GM-CSF + Naxitamab"
+    ]
+   },
+   {
+    "nct": "NCT04909515",
+    "drugs": [
+     "Naxitamab",
+     "GM-CSF",
+     "Isotretinoin"
+    ]
+   }
+  ]
+ }
+}

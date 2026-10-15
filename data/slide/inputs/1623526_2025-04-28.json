@@ -1,0 +1,115 @@
+{
+ "id": "1623526_2025-04-28",
+ "kind": "slide",
+ "cik": "1623526",
+ "name": "Stoke Therapeutics, Inc.",
+ "date": "2025-04-28",
+ "asof": "2025-04-28",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-04-28",
+  "adj_close": 9.47
+ },
+ "balance": {
+  "end": "2024-12-31",
+  "cash": 246723000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0000950170-25-041170"
+ },
+ "burn6": {
+  "end": "2024-12-31",
+  "start": "2024-07-01",
+  "cash_used_ops": 44808000.0,
+  "capex": 145000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-02-28",
+  "shares": 54077739
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 12,
+  "from": "2025-01-28",
+  "to": "2025-05-28",
+  "trades": [
+   {
+    "date": "2025-05-01",
+    "filed": "2025-05-05",
+    "code": "S",
+    "value": 38410,
+    "who": "Ticho Barry"
+   },
+   {
+    "date": "2025-05-02",
+    "filed": "2025-05-05",
+    "code": "S",
+    "value": 228543,
+    "who": "Ticho Barry"
+   },
+   {
+    "date": "2025-03-18",
+    "filed": "2025-03-20",
+    "code": "S",
+    "value": 90012,
+    "who": "Kaye Edward M. MD"
+   },
+   {
+    "date": "2025-03-19",
+    "filed": "2025-03-20",
+    "code": "S",
+    "value": 73661,
+    "who": "Kaye Edward M. MD"
+   },
+   {
+    "date": "2025-03-18",
+    "filed": "2025-03-20",
+    "code": "S",
+    "value": 33674,
+    "who": "Ticho Barry"
+   },
+   {
+    "date": "2025-03-19",
+    "filed": "2025-03-20",
+    "code": "S",
+    "value": 27564,
+    "who": "Ticho Barry"
+   },
+   {
+    "date": "2025-03-18",
+    "filed": "2025-03-20",
+    "code": "S",
+    "value": 19646,
+    "who": "Allan Jonathan"
+   },
+   {
+    "date": "2025-03-19",
+    "filed": "2025-03-20",
+    "code": "S",
+    "value": 16085,
+    "who": "Allan Jonathan"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "stoke therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04740476",
+    "drugs": [
+     "zorevunersen (STK-001)"
+    ]
+   }
+  ]
+ }
+}

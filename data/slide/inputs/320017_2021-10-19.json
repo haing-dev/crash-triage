@@ -1,0 +1,63 @@
+{
+ "id": "320017_2021-10-19",
+ "kind": "slide",
+ "cik": "320017",
+ "name": "LISATA THERAPEUTICS, INC.",
+ "date": "2021-10-19",
+ "asof": "2021-10-19",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-10-19",
+  "adj_close": 17.55
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 12935000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000320017-21-000100"
+ },
+ "burn6": {
+  "end": "2021-06-30",
+  "start": "2021-01-01",
+  "cash_used_ops": 12602000.0,
+  "capex": 60000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-08-05",
+  "shares": 59517458
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2021-07-21",
+  "to": "2021-11-18",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "lisata therapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04614467",
+    "drugs": [
+     "CLBS16"
+    ]
+   },
+   {
+    "nct": "NCT02501018",
+    "drugs": [
+     "CLBS12",
+     "SOC"
+    ]
+   }
+  ]
+ }
+}

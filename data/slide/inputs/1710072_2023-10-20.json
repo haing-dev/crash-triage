@@ -1,0 +1,66 @@
+{
+ "id": "1710072_2023-10-20",
+ "kind": "slide",
+ "cik": "1710072",
+ "name": "Edgewise Therapeutics, Inc.",
+ "date": "2023-10-20",
+ "asof": "2023-10-20",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-10-20",
+  "adj_close": 6.83
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 31807000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-23-014410"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 43060000.0,
+  "capex": 5127000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-07-31",
+  "shares": 63459310
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 7,
+  "from": "2023-07-22",
+  "to": "2023-11-19",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "edgewise therapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05540860",
+    "drugs": [
+     "Sevasemten Dose 1",
+     "Sevasemten Dose 2",
+     "Sevasemten Dose 3"
+    ]
+   },
+   {
+    "nct": "NCT05291091",
+    "drugs": [
+     "Sevasemten 10 mg",
+     "Sevasemten 5 mg",
+     "Sevasemten 12.5 mg"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "id": "1583648_2024-12-16",
+ "kind": "slide",
+ "cik": "1583648",
+ "name": "PALVELLA THERAPEUTICS, INC.",
+ "date": "2024-12-16",
+ "asof": "2024-12-16",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-12-16",
+  "adj_close": 12.83
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 19363000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001437749-24-034891"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": 1334000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-11-13",
+  "shares": 1320240
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 15,
+  "from": "2024-09-17",
+  "to": "2025-01-15",
+  "trades": [
+   {
+    "date": "2024-12-18",
+    "filed": "2024-12-19",
+    "code": "P",
+    "value": 51720,
+    "who": "JENKINS GEORGE M"
+   },
+   {
+    "date": "2024-08-07",
+    "filed": "2024-10-28",
+    "code": "P",
+    "value": 1,
+    "who": "GERAGHTY JAMES A"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "palvella therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06239480",
+    "drugs": [
+     "QTORIN 3.9% Rapamycin Anhydrous Gel"
+    ]
+   }
+  ]
+ }
+}

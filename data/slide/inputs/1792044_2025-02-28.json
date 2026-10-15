@@ -1,0 +1,69 @@
+{
+ "id": "1792044_2025-02-28",
+ "kind": "slide",
+ "cik": "1792044",
+ "name": "Viatris Inc",
+ "date": "2025-02-28",
+ "asof": "2025-02-28",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-02-28",
+  "adj_close": 9.23
+ },
+ "balance": {
+  "end": "2024-12-31",
+  "cash": 772800000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001792044-25-000008"
+ },
+ "burn6": {
+  "end": "2024-12-31",
+  "start": "2024-07-01",
+  "cash_used_ops": -1309200000.0,
+  "capex": 217400000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-02-21",
+  "shares": 1193688749
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 33,
+  "from": "2024-11-30",
+  "to": "2025-03-30",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "viatris",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05672576",
+    "drugs": [
+     "Cenerimod"
+    ]
+   },
+   {
+    "nct": "NCT00136942",
+    "drugs": [
+     "Atorvastatin"
+    ]
+   },
+   {
+    "nct": "NCT04957719",
+    "drugs": [
+     "Selatogrel"
+    ]
+   }
+  ]
+ }
+}

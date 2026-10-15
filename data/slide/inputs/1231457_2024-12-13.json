@@ -1,0 +1,104 @@
+{
+ "id": "1231457_2024-12-13",
+ "kind": "slide",
+ "cik": "1231457",
+ "name": "GENELUX Corp",
+ "date": "2024-12-13",
+ "asof": "2024-12-13",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-12-13",
+  "adj_close": 2.33
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 34057000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001493152-24-045790"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": 12572000.0,
+  "capex": 255000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-11-12",
+  "shares": 34538185
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "The report of our independent registered public accounting firm on our financial statements as of and for the years ended December 31, 2023 and 2022 included an explanatory paragraph indicating that there was substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 12,
+  "from": "2024-09-14",
+  "to": "2025-01-12",
+  "trades": [
+   {
+    "date": "2024-12-30",
+    "filed": "2024-12-30",
+    "code": "S",
+    "value": 8512,
+    "who": "Tyree James L"
+   },
+   {
+    "date": "2024-12-16",
+    "filed": "2024-12-18",
+    "code": "S",
+    "value": 33497,
+    "who": "Zindrick Thomas"
+   },
+   {
+    "date": "2024-12-16",
+    "filed": "2024-12-18",
+    "code": "S",
+    "value": 4921,
+    "who": "Zak Lourie S."
+   },
+   {
+    "date": "2024-12-16",
+    "filed": "2024-12-18",
+    "code": "S",
+    "value": 5873,
+    "who": "Smalling Ralph"
+   },
+   {
+    "date": "2024-12-16",
+    "filed": "2024-12-18",
+    "code": "S",
+    "value": 14742,
+    "who": "Cappello Joseph"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "genelux",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05281471",
+    "drugs": [
+     "olvimulogene nanivacirepvec",
+     "Platinum chemotherapy: carboplatin (preferred) or cisplatin",
+     "Non-platinum chemotherapy: Physician's Choice of gemcitabine, taxane (paclitaxel, docetaxel or nab-paclitaxel) or pegylated liposomal doxorubicin"
+    ]
+   },
+   {
+    "nct": "NCT06463665",
+    "drugs": [
+     "Olvimulogene nanivacirepvec",
+     "Platinum chemotherapy: carboplatin or cisplatin",
+     "Non-platinum chemotherapy: paclitaxel or nab-paclitaxel for squamous cell NSCLC or pemetrexed for nonsquamous cell NSCLC"
+    ]
+   }
+  ]
+ }
+}

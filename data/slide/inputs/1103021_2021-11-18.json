@@ -1,0 +1,92 @@
+{
+ "id": "1103021_2021-11-18",
+ "kind": "slide",
+ "cik": "1103021",
+ "name": "BIODELIVERY SCIENCES INTERNATIONAL INC",
+ "date": "2021-11-18",
+ "asof": "2021-11-18",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-11-18",
+  "adj_close": 3.02
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 100710000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001103021-21-000106"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": -16192000.0,
+  "capex": 119000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-11-03",
+  "shares": 98795939
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 10,
+  "from": "2021-08-20",
+  "to": "2021-12-18",
+  "trades": [
+   {
+    "date": "2021-12-02",
+    "filed": "2021-12-06",
+    "code": "P",
+    "value": 49999,
+    "who": "Sirgo Mark A"
+   },
+   {
+    "date": "2021-11-19",
+    "filed": "2021-11-22",
+    "code": "P",
+    "value": 306000,
+    "who": "KOTLER KEVIN"
+   },
+   {
+    "date": "2021-11-18",
+    "filed": "2021-11-19",
+    "code": "S",
+    "value": 30400,
+    "who": "Sirgo Mark A"
+   },
+   {
+    "date": "2021-11-12",
+    "filed": "2021-11-15",
+    "code": "P",
+    "value": 320000,
+    "who": "KOTLER KEVIN"
+   },
+   {
+    "date": "2021-11-11",
+    "filed": "2021-11-12",
+    "code": "P",
+    "value": 51200,
+    "who": "Sirgo Mark A"
+   },
+   {
+    "date": "2021-11-05",
+    "filed": "2021-11-09",
+    "code": "P",
+    "value": 894566,
+    "who": "KOTLER KEVIN"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "biodelivery sciences international",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

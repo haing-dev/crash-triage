@@ -1,0 +1,50 @@
+{
+ "id": "1379006_2025-11-13",
+ "kind": "slide",
+ "cik": "1379006",
+ "name": "NANOVIRICIDES, INC.",
+ "date": "2025-11-13",
+ "asof": "2025-11-13",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-11-13",
+  "adj_close": 1.35
+ },
+ "balance": {
+  "end": "2025-06-30",
+  "cash": 1558564,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001104659-25-094527"
+ },
+ "burn6": {
+  "end": "2025-06-30",
+  "start": "2025-01-01",
+  "cash_used_ops": 3692871.0,
+  "capex": 10200.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-09-27",
+  "shares": 17431000
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "As discussed in Note 2 to the financial statements, the Company has recurring net losses and net cash flow used in operations that raise substantial doubt about its ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2025-08-15",
+  "to": "2025-12-13",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "nanoviricides",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

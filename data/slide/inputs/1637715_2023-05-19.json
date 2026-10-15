@@ -1,0 +1,59 @@
+{
+ "id": "1637715_2023-05-19",
+ "kind": "slide",
+ "cik": "1637715",
+ "name": "OnKure Therapeutics, Inc.",
+ "date": "2023-05-19",
+ "asof": "2023-05-19",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-05-19",
+  "adj_close": 73.2
+ },
+ "balance": {
+  "end": "2023-03-31",
+  "cash": 93787000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-23-021234"
+ },
+ "burn6": {
+  "end": "2023-03-31",
+  "start": "2022-10-01",
+  "cash_used_ops": 24661000.0,
+  "capex": 422000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-05-09",
+  "shares": 33655123
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "We have identified conditions and events that raise substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 9,
+  "from": "2023-02-18",
+  "to": "2023-06-18",
+  "trades": [
+   {
+    "date": "2023-05-08",
+    "filed": "2023-05-10",
+    "code": "P",
+    "value": 1000000,
+    "who": "O'Donnell Niall"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "onkure therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

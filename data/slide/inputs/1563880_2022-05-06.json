@@ -1,0 +1,197 @@
+{
+ "id": "1563880_2022-05-06",
+ "kind": "slide",
+ "cik": "1563880",
+ "name": "Trevi Therapeutics, Inc.",
+ "date": "2022-05-06",
+ "asof": "2022-05-06",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-05-06",
+  "adj_close": 2.32
+ },
+ "balance": {
+  "end": "2021-12-31",
+  "cash": 36830000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001564590-22-010875"
+ },
+ "burn6": {
+  "end": "2021-12-31",
+  "start": "2021-07-01",
+  "cash_used_ops": 13470000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-03-17",
+  "shares": 30805804
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "\u2022 We have identified conditions and events that raise substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 17,
+  "from": "2022-02-05",
+  "to": "2022-06-05",
+  "trades": [
+   {
+    "date": "2022-05-02",
+    "filed": "2022-05-04",
+    "code": "S",
+    "value": 1620,
+    "who": "TPG GP A, LLC"
+   },
+   {
+    "date": "2022-04-28",
+    "filed": "2022-05-02",
+    "code": "S",
+    "value": 20140,
+    "who": "TPG GP A, LLC"
+   },
+   {
+    "date": "2022-04-29",
+    "filed": "2022-05-02",
+    "code": "S",
+    "value": 44385,
+    "who": "TPG GP A, LLC"
+   },
+   {
+    "date": "2022-04-11",
+    "filed": "2022-04-13",
+    "code": "P",
+    "value": 4999998,
+    "who": "Walker Paul Edward"
+   },
+   {
+    "date": "2022-04-11",
+    "filed": "2022-04-13",
+    "code": "P",
+    "value": 1803001,
+    "who": "Walker Paul Edward"
+   },
+   {
+    "date": "2022-04-11",
+    "filed": "2022-04-13",
+    "code": "P",
+    "value": 4999998,
+    "who": "Sonsini Peter W."
+   },
+   {
+    "date": "2022-04-11",
+    "filed": "2022-04-13",
+    "code": "P",
+    "value": 1803001,
+    "who": "Sonsini Peter W."
+   },
+   {
+    "date": "2022-04-11",
+    "filed": "2022-04-13",
+    "code": "P",
+    "value": 4999998,
+    "who": "SANDELL SCOTT D"
+   },
+   {
+    "date": "2022-04-11",
+    "filed": "2022-04-13",
+    "code": "P",
+    "value": 1803001,
+    "who": "SANDELL SCOTT D"
+   },
+   {
+    "date": "2022-04-11",
+    "filed": "2022-04-13",
+    "code": "P",
+    "value": 4999998,
+    "who": "Makhzoumi Mohamad"
+   },
+   {
+    "date": "2022-04-11",
+    "filed": "2022-04-13",
+    "code": "P",
+    "value": 1803001,
+    "who": "Makhzoumi Mohamad"
+   },
+   {
+    "date": "2022-04-11",
+    "filed": "2022-04-13",
+    "code": "P",
+    "value": 4999998,
+    "who": "Florence Anthony A. Jr."
+   },
+   {
+    "date": "2022-04-11",
+    "filed": "2022-04-13",
+    "code": "P",
+    "value": 1803001,
+    "who": "Florence Anthony A. Jr."
+   },
+   {
+    "date": "2022-04-11",
+    "filed": "2022-04-13",
+    "code": "P",
+    "value": 4999998,
+    "who": "Chang Carmen"
+   },
+   {
+    "date": "2022-04-11",
+    "filed": "2022-04-13",
+    "code": "P",
+    "value": 1803001,
+    "who": "Chang Carmen"
+   },
+   {
+    "date": "2022-04-11",
+    "filed": "2022-04-13",
+    "code": "P",
+    "value": 4999998,
+    "who": "Behbahani Ali"
+   },
+   {
+    "date": "2022-04-11",
+    "filed": "2022-04-13",
+    "code": "P",
+    "value": 1803001,
+    "who": "Behbahani Ali"
+   },
+   {
+    "date": "2022-04-11",
+    "filed": "2022-04-13",
+    "code": "P",
+    "value": 4999998,
+    "who": "BASKETT FOREST"
+   },
+   {
+    "date": "2022-04-11",
+    "filed": "2022-04-13",
+    "code": "P",
+    "value": 4999998,
+    "who": "New Enterprise Associates 16, L.P."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "trevi therapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03497975",
+    "drugs": [
+     "Nalbuphine ER Tablets"
+    ]
+   },
+   {
+    "nct": "NCT04030026",
+    "drugs": [
+     "NAL ER"
+    ]
+   }
+  ]
+ }
+}

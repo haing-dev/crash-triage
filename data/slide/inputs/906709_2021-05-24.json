@@ -1,0 +1,146 @@
+{
+ "id": "906709_2021-05-24",
+ "kind": "slide",
+ "cik": "906709",
+ "name": "NEKTAR THERAPEUTICS",
+ "date": "2021-05-24",
+ "asof": "2021-05-24",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-05-24",
+  "adj_close": 267.29999
+ },
+ "balance": {
+  "end": "2021-03-31",
+  "cash": 1133409000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0000906709-21-000008"
+ },
+ "burn6": {
+  "end": "2021-03-31",
+  "start": "2020-10-01",
+  "cash_used_ops": 175719000.0,
+  "capex": 4630000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-04-30",
+  "shares": 182308999
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2021-02-23",
+  "to": "2021-06-23",
+  "trades": [
+   {
+    "date": "2021-05-17",
+    "filed": "2021-05-19",
+    "code": "S",
+    "value": 569331,
+    "who": "Zalevsky Jonathan"
+   },
+   {
+    "date": "2021-05-17",
+    "filed": "2021-05-19",
+    "code": "S",
+    "value": 35081,
+    "who": "Wilson Mark Andrew"
+   },
+   {
+    "date": "2021-05-17",
+    "filed": "2021-05-19",
+    "code": "S",
+    "value": 245055,
+    "who": "Thomsen Jillian B."
+   },
+   {
+    "date": "2021-05-17",
+    "filed": "2021-05-19",
+    "code": "S",
+    "value": 211548,
+    "who": "ROBIN HOWARD W"
+   },
+   {
+    "date": "2021-05-17",
+    "filed": "2021-05-19",
+    "code": "S",
+    "value": 111356,
+    "who": "NORTHCOTT JOHN"
+   },
+   {
+    "date": "2021-05-17",
+    "filed": "2021-05-19",
+    "code": "S",
+    "value": 144533,
+    "who": "Labrucherie Gil M"
+   },
+   {
+    "date": "2021-05-12",
+    "filed": "2021-05-14",
+    "code": "S",
+    "value": 154720,
+    "who": "CHESS ROBERT"
+   },
+   {
+    "date": "2021-04-14",
+    "filed": "2021-04-16",
+    "code": "S",
+    "value": 151840,
+    "who": "CHESS ROBERT"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "nektar therapeutics",
+  "other_trials": 9,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04677179",
+    "drugs": [
+     "LY3471851"
+    ]
+   },
+   {
+    "nct": "NCT04616196",
+    "drugs": [
+     "NKTR-255",
+     "Cetuximab"
+    ]
+   },
+   {
+    "nct": "NCT03729245",
+    "drugs": [
+     "bempegaldesleukin",
+     "sunitinib",
+     "nivolumab"
+    ]
+   },
+   {
+    "nct": "NCT03138889",
+    "drugs": [
+     "NKTR-214",
+     "Pembrolizumab",
+     "NKTR-214"
+    ]
+   },
+   {
+    "nct": "NCT03435640",
+    "drugs": [
+     "NKTR-262",
+     "bempegaldesleukin",
+     "nivolumab"
+    ]
+   }
+  ]
+ }
+}

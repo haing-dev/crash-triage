@@ -1,0 +1,105 @@
+{
+ "id": "1649904_2022-09-23",
+ "kind": "slide",
+ "cik": "1649904",
+ "name": "RHYTHM PHARMACEUTICALS, INC.",
+ "date": "2022-09-23",
+ "asof": "2022-09-23",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-09-23",
+  "adj_close": 21.56
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 235596000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001558370-22-011888"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 92441000.0,
+  "capex": 187000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-07-28",
+  "shares": 50720570
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2022-06-25",
+  "to": "2022-10-23",
+  "trades": [
+   {
+    "date": "2022-08-19",
+    "filed": "2022-08-23",
+    "code": "S",
+    "value": 335031,
+    "who": "Cramer Pamela J."
+   },
+   {
+    "date": "2022-07-27",
+    "filed": "2022-07-28",
+    "code": "S",
+    "value": 10524,
+    "who": "Cramer Pamela J."
+   },
+   {
+    "date": "2022-07-01",
+    "filed": "2022-07-06",
+    "code": "S",
+    "value": 30792,
+    "who": "Smith Hunter C"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "rhythm pharmaceuticals",
+  "other_trials": 5,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05194124",
+    "drugs": [
+     "Setmelanotide 2 mg",
+     "Setmelanotide 2.5 mg",
+     "Setmelanotide 3 mg"
+    ]
+   },
+   {
+    "nct": "NCT05093634",
+    "drugs": [
+     "Setmelanotide"
+    ]
+   },
+   {
+    "nct": "NCT04966741",
+    "drugs": [
+     "Setmelanotide"
+    ]
+   },
+   {
+    "nct": "NCT04963231",
+    "drugs": [
+     "Setmelanotide"
+    ]
+   },
+   {
+    "nct": "NCT03651765",
+    "drugs": [
+     "Setmelanotide"
+    ]
+   }
+  ]
+ }
+}

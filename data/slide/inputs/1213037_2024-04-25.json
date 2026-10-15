@@ -1,0 +1,76 @@
+{
+ "id": "1213037_2024-04-25",
+ "kind": "slide",
+ "cik": "1213037",
+ "name": "Cardiff Oncology, Inc.",
+ "date": "2024-04-25",
+ "asof": "2024-04-25",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-04-25",
+  "adj_close": 3.99
+ },
+ "balance": {
+  "end": "2023-12-31",
+  "cash": 101682000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0001628280-24-007948"
+ },
+ "burn6": {
+  "end": "2023-12-31",
+  "start": "2023-07-01",
+  "cash_used_ops": 15096000.0,
+  "capex": 323000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-02-22",
+  "shares": 44677169
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2024-01-26",
+  "to": "2024-05-25",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "cardiff oncology",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04752696",
+    "drugs": [
+     "Onvansertib",
+     "Nanoliposomal irinotecan",
+     "Leucovorin"
+    ]
+   },
+   {
+    "nct": "NCT06106308",
+    "drugs": [
+     "Onvansertib",
+     "FOLFIRI",
+     "Bevacizumab"
+    ]
+   },
+   {
+    "nct": "NCT05593328",
+    "drugs": [
+     "Onvansertib",
+     "FOLFIRI",
+     "Bevacizumab"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "id": "1841330_2026-01-07",
+ "kind": "slide",
+ "cik": "1841330",
+ "name": "Pasithea Therapeutics Corp.",
+ "date": "2026-01-07",
+ "asof": "2026-01-07",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-01-07",
+  "adj_close": 0.97000003
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 4122953,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001213900-25-110093"
+ },
+ "burn6": {
+  "end": "2025-09-30",
+  "start": "2025-04-01",
+  "cash_used_ops": 6758911.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-11-12",
+  "shares": 7443577
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Without additional funding, there is substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2025-10-09",
+  "to": "2026-02-06",
+  "trades": [
+   {
+    "date": "2025-11-28",
+    "filed": "2025-12-01",
+    "code": "P",
+    "value": 100000,
+    "who": "STEINMAN LAWRENCE"
+   },
+   {
+    "date": "2025-11-28",
+    "filed": "2025-12-01",
+    "code": "P",
+    "value": 25000,
+    "who": "Marques Tiago"
+   },
+   {
+    "date": "2025-11-28",
+    "filed": "2025-12-01",
+    "code": "P",
+    "value": 25000,
+    "who": "Dumesnil Simon"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "pasithea therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

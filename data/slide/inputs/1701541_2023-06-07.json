@@ -1,0 +1,93 @@
+{
+ "id": "1701541_2023-06-07",
+ "kind": "slide",
+ "cik": "1701541",
+ "name": "Black Diamond Therapeutics, Inc.",
+ "date": "2023-06-07",
+ "asof": "2023-06-07",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-06-07",
+  "adj_close": 2.12
+ },
+ "balance": {
+  "end": "2023-03-31",
+  "cash": 103366000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001701541-23-000032"
+ },
+ "burn6": {
+  "end": "2023-03-31",
+  "start": "2022-10-01",
+  "cash_used_ops": 41970000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-05-01",
+  "shares": 36512572
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 19,
+  "from": "2023-03-09",
+  "to": "2023-07-07",
+  "trades": [
+   {
+    "date": "2023-07-05",
+    "filed": "2023-07-07",
+    "code": "P",
+    "value": 4679250,
+    "who": "RA CAPITAL MANAGEMENT, L.P."
+   },
+   {
+    "date": "2023-07-05",
+    "filed": "2023-07-06",
+    "code": "P",
+    "value": 5000000,
+    "who": "Behbahani Ali"
+   },
+   {
+    "date": "2023-06-30",
+    "filed": "2023-07-03",
+    "code": "P",
+    "value": 5000000,
+    "who": "BIOTECH GROWTH N V"
+   },
+   {
+    "date": "2023-06-27",
+    "filed": "2023-06-29",
+    "code": "P",
+    "value": 9555036,
+    "who": "BIOTECH GROWTH N V"
+   },
+   {
+    "date": "2023-06-27",
+    "filed": "2023-06-28",
+    "code": "S",
+    "value": 167500,
+    "who": "Epstein David M."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "black diamond therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05256290",
+    "drugs": [
+     "silevertinib (BDTX-1535) monotherapy"
+    ]
+   }
+  ]
+ }
+}

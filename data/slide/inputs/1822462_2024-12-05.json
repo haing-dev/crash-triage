@@ -1,0 +1,92 @@
+{
+ "id": "1822462_2024-12-05",
+ "kind": "slide",
+ "cik": "1822462",
+ "name": "Foghorn Therapeutics Inc.",
+ "date": "2024-12-05",
+ "asof": "2024-12-05",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-12-05",
+  "adj_close": 6.53
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 57678000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001628280-24-045006"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": 46542000.0,
+  "capex": 326000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-10-28",
+  "shares": 55593131
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2024-09-06",
+  "to": "2025-01-04",
+  "trades": [
+   {
+    "date": "2024-09-20",
+    "filed": "2024-09-24",
+    "code": "S",
+    "value": 358990,
+    "who": "Costa Carlos"
+   },
+   {
+    "date": "2024-09-23",
+    "filed": "2024-09-24",
+    "code": "S",
+    "value": 8716,
+    "who": "Costa Carlos"
+   },
+   {
+    "date": "2024-09-18",
+    "filed": "2024-09-20",
+    "code": "S",
+    "value": 116319,
+    "who": "Costa Carlos"
+   },
+   {
+    "date": "2024-09-16",
+    "filed": "2024-09-18",
+    "code": "S",
+    "value": 4000,
+    "who": "Costa Carlos"
+   },
+   {
+    "date": "2024-09-17",
+    "filed": "2024-09-18",
+    "code": "S",
+    "value": 103131,
+    "who": "Costa Carlos"
+   },
+   {
+    "date": "2024-09-09",
+    "filed": "2024-09-11",
+    "code": "S",
+    "value": 190000,
+    "who": "Bellon Steven F."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "foghorn therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

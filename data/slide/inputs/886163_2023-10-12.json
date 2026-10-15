@@ -1,0 +1,58 @@
+{
+ "id": "886163_2023-10-12",
+ "kind": "slide",
+ "cik": "886163",
+ "name": "LIGAND PHARMACEUTICALS INC",
+ "date": "2023-10-12",
+ "asof": "2023-10-12",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-10-12",
+  "adj_close": 55.25
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 219041000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000886163-23-000050"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": -33866000.0,
+  "capex": 2617000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-08-04",
+  "shares": 17355257
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2023-07-14",
+  "to": "2023-11-11",
+  "trades": [
+   {
+    "date": "2023-09-22",
+    "filed": "2023-09-25",
+    "code": "P",
+    "value": 237529,
+    "who": "Davis Todd C"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "ligand pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,126 @@
+{
+ "id": "1806310_2026-03-24",
+ "kind": "slide",
+ "cik": "1806310",
+ "name": "Taysha Gene Therapies, Inc.",
+ "date": "2026-03-24",
+ "asof": "2026-03-24",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-03-24",
+  "adj_close": 4.13
+ },
+ "balance": {
+  "end": "2025-12-31",
+  "cash": 319767000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001193125-26-115202"
+ },
+ "burn6": {
+  "end": "2025-12-31",
+  "start": "2025-07-01",
+  "cash_used_ops": 50888000.0,
+  "capex": 358000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-03-19",
+  "shares": 287269885
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2025-12-24",
+  "to": "2026-04-23",
+  "trades": [
+   {
+    "date": "2026-04-10",
+    "filed": "2026-04-13",
+    "code": "S",
+    "value": 892000,
+    "who": "Nagendran Sukumar"
+   },
+   {
+    "date": "2026-02-04",
+    "filed": "2026-02-06",
+    "code": "S",
+    "value": 7481,
+    "who": "Alam Kamran"
+   },
+   {
+    "date": "2026-01-23",
+    "filed": "2026-01-27",
+    "code": "S",
+    "value": 423377,
+    "who": "Nagendran Sukumar"
+   },
+   {
+    "date": "2026-01-26",
+    "filed": "2026-01-27",
+    "code": "S",
+    "value": 124092,
+    "who": "Nagendran Sukumar"
+   },
+   {
+    "date": "2026-01-23",
+    "filed": "2026-01-27",
+    "code": "S",
+    "value": 649748,
+    "who": "Nolan Sean P."
+   },
+   {
+    "date": "2026-01-26",
+    "filed": "2026-01-27",
+    "code": "S",
+    "value": 190448,
+    "who": "Nolan Sean P."
+   },
+   {
+    "date": "2026-01-23",
+    "filed": "2026-01-27",
+    "code": "S",
+    "value": 375098,
+    "who": "Alam Kamran"
+   },
+   {
+    "date": "2026-01-26",
+    "filed": "2026-01-27",
+    "code": "S",
+    "value": 109944,
+    "who": "Alam Kamran"
+   },
+   {
+    "date": "2026-01-12",
+    "filed": "2026-01-14",
+    "code": "S",
+    "value": 942000,
+    "who": "Nagendran Sukumar"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "taysha gene therapies",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05606614",
+    "drugs": [
+     "TSHA-102"
+    ]
+   },
+   {
+    "nct": "NCT06152237",
+    "drugs": [
+     "TSHA-102"
+    ]
+   }
+  ]
+ }
+}

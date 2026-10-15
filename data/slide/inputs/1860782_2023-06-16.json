@@ -1,0 +1,49 @@
+{
+ "id": "1860782_2023-06-16",
+ "kind": "slide",
+ "cik": "1860782",
+ "name": "2seventy bio, Inc.",
+ "date": "2023-06-16",
+ "asof": "2023-06-16",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-06-16",
+  "adj_close": 10.21
+ },
+ "balance": {
+  "end": "2023-03-31",
+  "cash": 193629000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001860782-23-000076"
+ },
+ "burn6": {
+  "end": "2023-03-31",
+  "start": "2022-10-01",
+  "cash_used_ops": 104568000.0,
+  "capex": 9245000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-05-04",
+  "shares": 50199268
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2023-03-18",
+  "to": "2023-07-16",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "2seventy bio",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

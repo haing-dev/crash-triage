@@ -1,0 +1,141 @@
+{
+ "id": "1935979_2024-04-19",
+ "kind": "slide",
+ "cik": "1935979",
+ "name": "Biohaven Ltd.",
+ "date": "2024-04-19",
+ "asof": "2024-04-19",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-04-19",
+  "adj_close": 38.99
+ },
+ "balance": {
+  "end": "2023-12-31",
+  "cash": 381819000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001935979-24-000010"
+ },
+ "burn6": {
+  "end": "2023-12-31",
+  "start": "2023-07-01",
+  "cash_used_ops": 209694000.0,
+  "capex": 1718000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-02-26",
+  "shares": 81579914
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 17,
+  "from": "2024-01-20",
+  "to": "2024-05-19",
+  "trades": [
+   {
+    "date": "2024-05-13",
+    "filed": "2024-05-15",
+    "code": "P",
+    "value": 512877,
+    "who": "Bailey Gregory"
+   },
+   {
+    "date": "2024-05-13",
+    "filed": "2024-05-14",
+    "code": "P",
+    "value": 1002470,
+    "who": "CHILDS JOHN W"
+   },
+   {
+    "date": "2024-04-24",
+    "filed": "2024-04-25",
+    "code": "P",
+    "value": 999169,
+    "who": "Bailey Gregory"
+   },
+   {
+    "date": "2024-04-22",
+    "filed": "2024-04-23",
+    "code": "P",
+    "value": 1999980,
+    "who": "Bailey Gregory"
+   },
+   {
+    "date": "2024-04-22",
+    "filed": "2024-04-23",
+    "code": "P",
+    "value": 1000031,
+    "who": "CHILDS JOHN W"
+   },
+   {
+    "date": "2024-04-22",
+    "filed": "2024-04-23",
+    "code": "P",
+    "value": 3999960,
+    "who": "CHILDS JOHN W"
+   },
+   {
+    "date": "2024-04-22",
+    "filed": "2024-04-23",
+    "code": "P",
+    "value": 2999970,
+    "who": "CHILDS JOHN W"
+   },
+   {
+    "date": "2024-04-22",
+    "filed": "2024-04-23",
+    "code": "P",
+    "value": 4999991,
+    "who": "Coric Vlad"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "biohaven",
+  "other_trials": 5,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06132893",
+    "drugs": [
+     "BHV-7000",
+     "BHV-7000",
+     "BHV-7000"
+    ]
+   },
+   {
+    "nct": "NCT05337553",
+    "drugs": [
+     "taldefgrobep alfa",
+     "taldefgrobep alfa"
+    ]
+   },
+   {
+    "nct": "NCT04693351",
+    "drugs": [
+     "Troriluzole"
+    ]
+   },
+   {
+    "nct": "NCT04708834",
+    "drugs": [
+     "Troriluzole (BHV-4157)"
+    ]
+   },
+   {
+    "nct": "NCT04641143",
+    "drugs": [
+     "Troriluzole"
+    ]
+   }
+  ]
+ }
+}

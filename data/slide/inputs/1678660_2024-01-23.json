@@ -1,0 +1,50 @@
+{
+ "id": "1678660_2024-01-23",
+ "kind": "slide",
+ "cik": "1678660",
+ "name": "Prelude Therapeutics Inc",
+ "date": "2024-01-23",
+ "asof": "2024-01-23",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-01-23",
+  "adj_close": 3.19
+ },
+ "balance": {
+  "end": "2023-09-30",
+  "cash": 245449000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0000950170-23-057523"
+ },
+ "burn6": {
+  "end": "2023-09-30",
+  "start": "2023-04-01",
+  "cash_used_ops": 53351000.0,
+  "capex": 1574000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-10-27",
+  "shares": 54825982
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 2,
+  "from": "2023-10-25",
+  "to": "2024-02-22",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "prelude therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

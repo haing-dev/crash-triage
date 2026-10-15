@@ -1,0 +1,151 @@
+{
+ "id": "1819133_2026-08-31",
+ "kind": "slide",
+ "cik": "1819133",
+ "name": "Tango Therapeutics, Inc.",
+ "date": "2026-08-31",
+ "asof": "2026-08-31",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-08-31",
+  "adj_close": 22.84
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 1013990000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001193125-26-343424"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": 83226000.0,
+  "capex": -22000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-08-04",
+  "shares": 168610367
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 10,
+  "from": "2026-06-02",
+  "to": "2026-09-30",
+  "trades": [
+   {
+    "date": "2026-09-22",
+    "filed": "2026-09-24",
+    "code": "S",
+    "value": 15962,
+    "who": "Newcomb Jessica"
+   },
+   {
+    "date": "2026-09-22",
+    "filed": "2026-09-24",
+    "code": "S",
+    "value": 122238,
+    "who": "Newcomb Jessica"
+   },
+   {
+    "date": "2026-09-22",
+    "filed": "2026-09-24",
+    "code": "S",
+    "value": 60412,
+    "who": "Newcomb Jessica"
+   },
+   {
+    "date": "2026-09-01",
+    "filed": "2026-09-03",
+    "code": "S",
+    "value": 603909,
+    "who": "Crystal Adam"
+   },
+   {
+    "date": "2026-08-03",
+    "filed": "2026-08-05",
+    "code": "S",
+    "value": 141100,
+    "who": "Crystal Adam"
+   },
+   {
+    "date": "2026-08-03",
+    "filed": "2026-08-05",
+    "code": "S",
+    "value": 594417,
+    "who": "Crystal Adam"
+   },
+   {
+    "date": "2026-07-01",
+    "filed": "2026-07-02",
+    "code": "S",
+    "value": 575962,
+    "who": "Crystal Adam"
+   },
+   {
+    "date": "2026-07-01",
+    "filed": "2026-07-02",
+    "code": "S",
+    "value": 222946,
+    "who": "Crystal Adam"
+   },
+   {
+    "date": "2026-06-01",
+    "filed": "2026-06-03",
+    "code": "S",
+    "value": 136627,
+    "who": "Crystal Adam"
+   },
+   {
+    "date": "2026-06-01",
+    "filed": "2026-06-03",
+    "code": "S",
+    "value": 480944,
+    "who": "Crystal Adam"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "tango therapeutics",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06810544",
+    "drugs": [
+     "TNG456",
+     "abemaciclib"
+    ]
+   },
+   {
+    "nct": "NCT06922591",
+    "drugs": [
+     "TNG462",
+     "RMC-9805",
+     "RMC-6236"
+    ]
+   },
+   {
+    "nct": "NCT05887492",
+    "drugs": [
+     "TNG260",
+     "Pembrolizumab"
+    ]
+   },
+   {
+    "nct": "NCT05732831",
+    "drugs": [
+     "TNG462",
+     "Pembrolizumab"
+    ]
+   }
+  ]
+ }
+}

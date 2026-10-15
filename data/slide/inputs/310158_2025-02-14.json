@@ -1,0 +1,121 @@
+{
+ "id": "310158_2025-02-14",
+ "kind": "slide",
+ "cik": "310158",
+ "name": "Merck & Co., Inc.",
+ "date": "2025-02-14",
+ "asof": "2025-02-14",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-02-14",
+  "adj_close": 83.010002
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 15168000000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesNoncurrent"
+  ],
+  "accn": "0001628280-24-045689"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": -14928000000.0,
+  "capex": 1574000000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-10-31",
+  "shares": 2529635645
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 21,
+  "from": "2024-11-16",
+  "to": "2025-03-16",
+  "trades": [
+   {
+    "date": "2025-02-19",
+    "filed": "2025-02-20",
+    "code": "S",
+    "value": 714745,
+    "who": "Oosthuizen Johannes Jacobus"
+   },
+   {
+    "date": "2025-02-13",
+    "filed": "2025-02-13",
+    "code": "S",
+    "value": 512057,
+    "who": "Williams David Michael"
+   },
+   {
+    "date": "2025-02-06",
+    "filed": "2025-02-07",
+    "code": "P",
+    "value": 250000,
+    "who": "THULIN INGE G"
+   },
+   {
+    "date": "2025-02-06",
+    "filed": "2025-02-07",
+    "code": "S",
+    "value": 209551,
+    "who": "Downing Cristal N"
+   },
+   {
+    "date": "2025-02-05",
+    "filed": "2025-02-07",
+    "code": "P",
+    "value": 1327500,
+    "who": "BAKER DOUGLAS M JR"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "merck",
+  "other_trials": 9,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06463587",
+    "drugs": [
+     "Cladribine Low Dose",
+     "Cladribine High Dose"
+    ]
+   },
+   {
+    "nct": "NCT03711032",
+    "drugs": [
+     "Pembrolizumab",
+     "BCG"
+    ]
+   },
+   {
+    "nct": "NCT00243568",
+    "drugs": [
+     "Vicriviroc"
+    ]
+   },
+   {
+    "nct": "NCT05558696",
+    "drugs": [
+     "Bomedemstat"
+    ]
+   },
+   {
+    "nct": "NCT04895358",
+    "drugs": [
+     "pembrolizumab",
+     "paclitaxel",
+     "nab-paclitaxel"
+    ]
+   }
+  ]
+ }
+}

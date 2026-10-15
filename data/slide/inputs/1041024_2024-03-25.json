@@ -1,0 +1,50 @@
+{
+ "id": "1041024_2024-03-25",
+ "kind": "slide",
+ "cik": "1041024",
+ "name": "ROCKWELL MEDICAL, INC.",
+ "date": "2024-03-25",
+ "asof": "2024-03-25",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-03-25",
+  "adj_close": 1.62
+ },
+ "balance": {
+  "end": "2023-12-31",
+  "cash": 10935000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001628280-24-012572"
+ },
+ "burn6": {
+  "end": "2023-12-31",
+  "start": "2023-07-01",
+  "cash_used_ops": 3796000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-03-21",
+  "shares": 29334617
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2023-12-26",
+  "to": "2024-04-24",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "rockwell medical",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

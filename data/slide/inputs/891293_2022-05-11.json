@@ -1,0 +1,81 @@
+{
+ "id": "891293_2022-05-11",
+ "kind": "slide",
+ "cik": "891293",
+ "name": "CTI BIOPHARMA CORP",
+ "date": "2022-05-11",
+ "asof": "2022-05-11",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-05-11",
+  "adj_close": 3.55
+ },
+ "balance": {
+  "end": "2021-12-31",
+  "cash": 65446000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000891293-22-000010"
+ },
+ "burn6": {
+  "end": "2021-12-31",
+  "start": "2021-07-01",
+  "cash_used_ops": 50519000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-03-17",
+  "shares": 99917628
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "This raises substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2022-02-10",
+  "to": "2022-06-10",
+  "trades": [
+   {
+    "date": "2022-06-01",
+    "filed": "2022-06-03",
+    "code": "S",
+    "value": 162000,
+    "who": "Craig Adam R"
+   },
+   {
+    "date": "2022-06-02",
+    "filed": "2022-06-03",
+    "code": "S",
+    "value": 162000,
+    "who": "Craig Adam R"
+   },
+   {
+    "date": "2022-06-03",
+    "filed": "2022-06-03",
+    "code": "S",
+    "value": 109520,
+    "who": "Craig Adam R"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "cti biopharma",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT00551239",
+    "drugs": [
+     "rituximab",
+     "fludarabine phosphate",
+     "pixantrone dimaleate"
+    ]
+   }
+  ]
+ }
+}

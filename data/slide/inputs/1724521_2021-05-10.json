@@ -1,0 +1,127 @@
+{
+ "id": "1724521_2021-05-10",
+ "kind": "slide",
+ "cik": "1724521",
+ "name": "Arcus Biosciences, Inc.",
+ "date": "2021-05-10",
+ "asof": "2021-05-10",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-05-10",
+  "adj_close": 28.86
+ },
+ "balance": {
+  "end": "2021-03-31",
+  "cash": 884912000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0001564590-21-024084"
+ },
+ "burn6": {
+  "end": "2021-03-31",
+  "start": "2020-10-01",
+  "cash_used_ops": 116196000.0,
+  "capex": 5160000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-04-30",
+  "shares": 70995860
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 12,
+  "from": "2021-02-09",
+  "to": "2021-06-09",
+  "trades": [
+   {
+    "date": "2021-06-04",
+    "filed": "2021-06-07",
+    "code": "S",
+    "value": 26006,
+    "who": "Jarrett Jennifer"
+   },
+   {
+    "date": "2021-04-23",
+    "filed": "2021-04-26",
+    "code": "P",
+    "value": 129652,
+    "who": "KANEKO YASUNORI"
+   },
+   {
+    "date": "2021-04-23",
+    "filed": "2021-04-26",
+    "code": "S",
+    "value": 129652,
+    "who": "Grossman William"
+   },
+   {
+    "date": "2021-03-31",
+    "filed": "2021-04-02",
+    "code": "P",
+    "value": 566996,
+    "who": "FALBERG KATHRYN E"
+   },
+   {
+    "date": "2021-03-16",
+    "filed": "2021-03-18",
+    "code": "S",
+    "value": 74509,
+    "who": "Grossman William"
+   },
+   {
+    "date": "2021-03-16",
+    "filed": "2021-03-18",
+    "code": "S",
+    "value": 303394,
+    "who": "Jarrett Jennifer"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "arcus biosciences",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04262856",
+    "drugs": [
+     "Domvanalimab",
+     "Etrumadenant",
+     "Zimberelimab"
+    ]
+   },
+   {
+    "nct": "NCT04381832",
+    "drugs": [
+     "Etrumadenant",
+     "Zimberelimab",
+     "Quemliclustat"
+    ]
+   },
+   {
+    "nct": "NCT04660812",
+    "drugs": [
+     "AB680",
+     "Etrumadenant",
+     "Zimberelimab"
+    ]
+   },
+   {
+    "nct": "NCT04736173",
+    "drugs": [
+     "Domvanalimab",
+     "Zimberelimab",
+     "Carboplatin"
+    ]
+   }
+  ]
+ }
+}

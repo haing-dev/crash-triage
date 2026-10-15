@@ -1,0 +1,70 @@
+{
+ "id": "1582554_2021-10-06",
+ "kind": "slide",
+ "cik": "1582554",
+ "name": "Matinas BioPharma Holdings, Inc.",
+ "date": "2021-10-06",
+ "asof": "2021-10-06",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-10-06",
+  "adj_close": 787.5
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 59842789,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001493152-21-019096"
+ },
+ "burn6": {
+  "end": "2021-06-30",
+  "start": "2021-01-01",
+  "cash_used_ops": 5515768.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-08-05",
+  "shares": 214741422
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 9,
+  "from": "2021-07-08",
+  "to": "2021-11-05",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "matinas biopharma",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT02629419",
+    "drugs": [
+     "Amphotericin B"
+    ]
+   },
+   {
+    "nct": "NCT04662528",
+    "drugs": [
+     "MAT9001 (omega-3 pentaenoic acid)"
+    ]
+   },
+   {
+    "nct": "NCT04031833",
+    "drugs": [
+     "MAT2203",
+     "Amphotericin B"
+    ]
+   }
+  ]
+ }
+}

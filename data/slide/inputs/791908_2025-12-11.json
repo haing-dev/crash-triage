@@ -1,0 +1,78 @@
+{
+ "id": "791908_2025-12-11",
+ "kind": "slide",
+ "cik": "791908",
+ "name": "XOMA Royalty Corp",
+ "date": "2025-12-11",
+ "asof": "2025-12-11",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-12-11",
+  "adj_close": 26.54
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 45189000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001104659-25-109782"
+ },
+ "burn6": {
+  "end": "2025-09-30",
+  "start": "2025-04-01",
+  "cash_used_ops": -6174000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-11-07",
+  "shares": 12383103
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2025-09-12",
+  "to": "2026-01-10",
+  "trades": [
+   {
+    "date": "2025-12-04",
+    "filed": "2025-12-08",
+    "code": "P",
+    "value": 2505000,
+    "who": "Hughes Owen"
+   },
+   {
+    "date": "2025-09-22",
+    "filed": "2025-09-23",
+    "code": "S",
+    "value": 154714,
+    "who": "BURNS THOMAS M."
+   },
+   {
+    "date": "2025-09-22",
+    "filed": "2025-09-23",
+    "code": "S",
+    "value": 554,
+    "who": "BURNS THOMAS M."
+   },
+   {
+    "date": "2025-09-22",
+    "filed": "2025-09-23",
+    "code": "S",
+    "value": 552,
+    "who": "BURNS THOMAS M."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "xoma royalty",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

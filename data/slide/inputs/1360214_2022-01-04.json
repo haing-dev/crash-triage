@@ -1,0 +1,66 @@
+{
+ "id": "1360214_2022-01-04",
+ "kind": "slide",
+ "cik": "1360214",
+ "name": "HARROW, INC.",
+ "date": "2022-01-04",
+ "asof": "2022-01-04",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-01-04",
+  "adj_close": 8.15
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 67645000,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+   "minus RestrictedCash",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001493152-21-027697"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": -3364000.0,
+  "capex": 1438000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-11-08",
+  "shares": 26902763
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 2,
+  "from": "2021-10-06",
+  "to": "2022-02-03",
+  "trades": [
+   {
+    "date": "2022-01-28",
+    "filed": "2022-01-31",
+    "code": "P",
+    "value": 34436,
+    "who": "Opaleye Management Inc."
+   },
+   {
+    "date": "2022-01-28",
+    "filed": "2022-01-31",
+    "code": "P",
+    "value": 9250,
+    "who": "Opaleye Management Inc."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "harrow",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

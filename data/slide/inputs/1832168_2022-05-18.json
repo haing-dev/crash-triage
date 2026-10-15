@@ -1,0 +1,57 @@
+{
+ "id": "1832168_2022-05-18",
+ "kind": "slide",
+ "cik": "1832168",
+ "name": "Longboard Pharmaceuticals, Inc.",
+ "date": "2022-05-18",
+ "asof": "2022-05-18",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-05-18",
+  "adj_close": 4.16
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 96124000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-22-007877"
+ },
+ "burn6": {
+  "end": "2022-03-31",
+  "start": "2021-10-01",
+  "cash_used_ops": 15700000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-05-02",
+  "shares": 17215350
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 7,
+  "from": "2022-02-17",
+  "to": "2022-06-17",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "longboard pharmaceuticals",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05364021",
+    "drugs": [
+     "LP352"
+    ]
+   }
+  ]
+ }
+}

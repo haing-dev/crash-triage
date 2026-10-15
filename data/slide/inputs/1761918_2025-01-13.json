@@ -1,0 +1,83 @@
+{
+ "id": "1761918_2025-01-13",
+ "kind": "slide",
+ "cik": "1761918",
+ "name": "Erasca, Inc.",
+ "date": "2025-01-13",
+ "asof": "2025-01-13",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-01-13",
+  "adj_close": 2.15
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 463303000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent",
+   "MarketableSecuritiesNoncurrent"
+  ],
+  "accn": "0000950170-24-125481"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": 51602000.0,
+  "capex": 18000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-11-05",
+  "shares": 282727282
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2024-10-15",
+  "to": "2025-02-12",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "erasca",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05279859",
+    "drugs": [
+     "ERAS-007",
+     "ERAS-601",
+     "Gilteritinib"
+    ]
+   },
+   {
+    "nct": "NCT04866134",
+    "drugs": [
+     "ERAS-007",
+     "ERAS-601"
+    ]
+   },
+   {
+    "nct": "NCT06346067",
+    "drugs": [
+     "Naporafenib",
+     "Dacarbazine",
+     "Temozolomide"
+    ]
+   },
+   {
+    "nct": "NCT05039177",
+    "drugs": [
+     "ERAS-007",
+     "Encorafenib",
+     "Cetuximab"
+    ]
+   }
+  ]
+ }
+}

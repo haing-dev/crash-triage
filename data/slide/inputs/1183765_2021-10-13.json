@@ -1,0 +1,94 @@
+{
+ "id": "1183765_2021-10-13",
+ "kind": "slide",
+ "cik": "1183765",
+ "name": "Molecular Templates, Inc.",
+ "date": "2021-10-13",
+ "asof": "2021-10-13",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-10-13",
+  "adj_close": 100.2
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 200674000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent",
+   "MarketableSecuritiesNoncurrent"
+  ],
+  "accn": "0001564590-21-044123"
+ },
+ "burn6": {
+  "end": "2021-06-30",
+  "start": "2021-01-01",
+  "cash_used_ops": -16884000.0,
+  "capex": 1790000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-08-09",
+  "shares": 56142400
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2021-07-15",
+  "to": "2021-11-12",
+  "trades": [
+   {
+    "date": "2021-09-21",
+    "filed": "2021-09-23",
+    "code": "P",
+    "value": 4500000,
+    "who": "BIOTECH TARGET N V"
+   },
+   {
+    "date": "2021-09-16",
+    "filed": "2021-09-20",
+    "code": "P",
+    "value": 613000,
+    "who": "BIOTECH TARGET N V"
+   },
+   {
+    "date": "2021-07-26",
+    "filed": "2021-07-28",
+    "code": "P",
+    "value": 559816,
+    "who": "BIOTECH TARGET N V"
+   },
+   {
+    "date": "2021-07-27",
+    "filed": "2021-07-28",
+    "code": "P",
+    "value": 531840,
+    "who": "BIOTECH TARGET N V"
+   },
+   {
+    "date": "2021-07-19",
+    "filed": "2021-07-21",
+    "code": "P",
+    "value": 830827,
+    "who": "BIOTECH TARGET N V"
+   },
+   {
+    "date": "2021-07-20",
+    "filed": "2021-07-21",
+    "code": "P",
+    "value": 891675,
+    "who": "BIOTECH TARGET N V"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "molecular templates",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

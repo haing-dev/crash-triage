@@ -1,0 +1,65 @@
+{
+ "id": "1325879_2021-12-14",
+ "kind": "slide",
+ "cik": "1325879",
+ "name": "AVEO PHARMACEUTICALS, INC.",
+ "date": "2021-12-14",
+ "asof": "2021-12-14",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-12-14",
+  "adj_close": 5.18
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 94016000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001628280-21-022223"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 26739000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-11-01",
+  "shares": 34373995
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2021-09-15",
+  "to": "2022-01-13",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "aveo pharmaceuticals",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03970616",
+    "drugs": [
+     "Tivozanib",
+     "Durvalumab"
+    ]
+   },
+   {
+    "nct": "NCT04987203",
+    "drugs": [
+     "Tivozanib",
+     "Nivolumab"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,109 @@
+{
+ "id": "1501796_2026-01-13",
+ "kind": "slide",
+ "cik": "1501796",
+ "name": "Aura Biosciences, Inc.",
+ "date": "2026-01-13",
+ "asof": "2026-01-13",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-01-13",
+  "adj_close": 5.06
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 47553000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001193125-25-278817"
+ },
+ "burn6": {
+  "end": "2025-09-30",
+  "start": "2025-04-01",
+  "cash_used_ops": 40918000.0,
+  "capex": 84000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-11-10",
+  "shares": 63503269
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2025-10-15",
+  "to": "2026-02-12",
+  "trades": [
+   {
+    "date": "2026-01-20",
+    "filed": "2026-01-20",
+    "code": "S",
+    "value": 7684,
+    "who": "Elazzouzi Amy"
+   },
+   {
+    "date": "2026-01-20",
+    "filed": "2026-01-20",
+    "code": "S",
+    "value": 82270,
+    "who": "de los Pinos Elisabet"
+   },
+   {
+    "date": "2025-11-17",
+    "filed": "2025-11-17",
+    "code": "S",
+    "value": 92731,
+    "who": "Hopkins Janet Jill"
+   },
+   {
+    "date": "2025-10-29",
+    "filed": "2025-10-29",
+    "code": "S",
+    "value": 5690,
+    "who": "Elazzouzi Amy"
+   },
+   {
+    "date": "2025-10-29",
+    "filed": "2025-10-29",
+    "code": "S",
+    "value": 57461,
+    "who": "de los Pinos Elisabet"
+   },
+   {
+    "date": "2025-10-16",
+    "filed": "2025-10-16",
+    "code": "S",
+    "value": 77273,
+    "who": "Plavsic Mark"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "aura biosciences",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06643884",
+    "drugs": [
+     "AU-011",
+     "SCS Microinjector",
+     "Laser"
+    ]
+   },
+   {
+    "nct": "NCT06007690",
+    "drugs": [
+     "Bel-sar",
+     "Suprachoroidal Microinjector",
+     "Infrared Laser"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,190 @@
+{
+ "id": "1650648_2024-04-18",
+ "kind": "slide",
+ "cik": "1650648",
+ "name": "4D Molecular Therapeutics, Inc.",
+ "date": "2024-04-18",
+ "asof": "2024-04-18",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-04-18",
+  "adj_close": 24.78
+ },
+ "balance": {
+  "end": "2023-12-31",
+  "cash": 299186000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent",
+   "MarketableSecuritiesNoncurrent"
+  ],
+  "accn": "0000950170-24-023183"
+ },
+ "burn6": {
+  "end": "2023-12-31",
+  "start": "2023-07-01",
+  "cash_used_ops": 25821000.0,
+  "capex": 954000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-02-23",
+  "shares": 49778127
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 10,
+  "from": "2024-01-19",
+  "to": "2024-05-18",
+  "trades": [
+   {
+    "date": "2024-04-16",
+    "filed": "2024-04-18",
+    "code": "S",
+    "value": 45045,
+    "who": "Bizily Scott"
+   },
+   {
+    "date": "2024-04-01",
+    "filed": "2024-04-03",
+    "code": "S",
+    "value": 259102,
+    "who": "Bizily Scott"
+   },
+   {
+    "date": "2024-03-27",
+    "filed": "2024-03-29",
+    "code": "S",
+    "value": 204410,
+    "who": "Bizily Scott"
+   },
+   {
+    "date": "2024-03-18",
+    "filed": "2024-03-20",
+    "code": "S",
+    "value": 54722,
+    "who": "Bizily Scott"
+   },
+   {
+    "date": "2024-02-27",
+    "filed": "2024-02-29",
+    "code": "S",
+    "value": 57270,
+    "who": "Bizily Scott"
+   },
+   {
+    "date": "2024-02-16",
+    "filed": "2024-02-21",
+    "code": "S",
+    "value": 48422,
+    "who": "Bizily Scott"
+   },
+   {
+    "date": "2024-02-08",
+    "filed": "2024-02-12",
+    "code": "S",
+    "value": 36630,
+    "who": "Bizily Scott"
+   },
+   {
+    "date": "2024-02-08",
+    "filed": "2024-02-12",
+    "code": "S",
+    "value": 80190,
+    "who": "Bizily Scott"
+   },
+   {
+    "date": "2024-02-08",
+    "filed": "2024-02-12",
+    "code": "S",
+    "value": 54890,
+    "who": "Bizily Scott"
+   },
+   {
+    "date": "2024-02-08",
+    "filed": "2024-02-12",
+    "code": "S",
+    "value": 2495822,
+    "who": "Kirn David"
+   },
+   {
+    "date": "2024-02-05",
+    "filed": "2024-02-07",
+    "code": "S",
+    "value": 360600,
+    "who": "Kim Robert Young"
+   },
+   {
+    "date": "2024-02-05",
+    "filed": "2024-02-07",
+    "code": "S",
+    "value": 180300,
+    "who": "Kim Robert Young"
+   },
+   {
+    "date": "2024-02-05",
+    "filed": "2024-02-07",
+    "code": "S",
+    "value": 180300,
+    "who": "Kim Robert Young"
+   },
+   {
+    "date": "2024-02-05",
+    "filed": "2024-02-07",
+    "code": "S",
+    "value": 16588,
+    "who": "Kim Robert Young"
+   },
+   {
+    "date": "2024-01-23",
+    "filed": "2024-01-25",
+    "code": "S",
+    "value": 104851,
+    "who": "Kirn David"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "4d molecular therapeutics",
+  "other_trials": 6,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05248230",
+    "drugs": [
+     "4D-710"
+    ]
+   },
+   {
+    "nct": "NCT05930561",
+    "drugs": [
+     "4D-150 IVT",
+     "Aflibercept IVT"
+    ]
+   },
+   {
+    "nct": "NCT05629559",
+    "drugs": [
+     "4D-310"
+    ]
+   },
+   {
+    "nct": "NCT05197270",
+    "drugs": [
+     "4D-150 IVT",
+     "Aflibercept IVT"
+    ]
+   },
+   {
+    "nct": "NCT04519749",
+    "drugs": [
+     "4D-310"
+    ]
+   }
+  ]
+ }
+}

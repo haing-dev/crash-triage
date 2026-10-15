@@ -1,0 +1,73 @@
+{
+ "id": "1641281_2025-10-02",
+ "kind": "slide",
+ "cik": "1641281",
+ "name": "Bolt Biotherapeutics, Inc.",
+ "date": "2025-10-02",
+ "asof": "2025-10-02",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-10-02",
+  "adj_close": 4.96
+ },
+ "balance": {
+  "end": "2025-06-30",
+  "cash": 34769000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001641281-25-000007"
+ },
+ "burn6": {
+  "end": "2025-06-30",
+  "start": "2025-01-01",
+  "cash_used_ops": 22962000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-08-07",
+  "shares": 1919441
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "However, due to the significant uncertainty in its plans, including the achievement of its collaboration income, the Company has concluded that there is substantial doubt about its ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2025-07-04",
+  "to": "2025-11-01",
+  "trades": [
+   {
+    "date": "2025-06-06",
+    "filed": "2025-10-24",
+    "code": "P",
+    "value": 686,
+    "who": "Nemec Sarah"
+   },
+   {
+    "date": "2025-06-06",
+    "filed": "2025-10-24",
+    "code": "P",
+    "value": 686,
+    "who": "Quinn William P."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "bolt biotherapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06921837",
+    "drugs": [
+     "BDC-4182"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "id": "1410939_2022-08-11",
+ "kind": "slide",
+ "cik": "1410939",
+ "name": "IVERIC bio, Inc.",
+ "date": "2022-08-11",
+ "asof": "2022-08-11",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-08-11",
+  "adj_close": 13.03
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 141113000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001410939-22-000090"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 73421000.0,
+  "capex": 211000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-07-22",
+  "shares": 118077814
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 10,
+  "from": "2022-05-13",
+  "to": "2022-09-10",
+  "trades": [
+   {
+    "date": "2022-08-03",
+    "filed": "2022-08-04",
+    "code": "S",
+    "value": 61358,
+    "who": "Simms Christopher Paul"
+   },
+   {
+    "date": "2022-08-03",
+    "filed": "2022-08-04",
+    "code": "S",
+    "value": 76702,
+    "who": "Simms Christopher Paul"
+   },
+   {
+    "date": "2022-07-05",
+    "filed": "2022-07-05",
+    "code": "S",
+    "value": 73313,
+    "who": "Gibney Anthony S"
+   },
+   {
+    "date": "2022-06-13",
+    "filed": "2022-06-14",
+    "code": "P",
+    "value": 240500,
+    "who": "Roberts Calvin W."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "iveric bio",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

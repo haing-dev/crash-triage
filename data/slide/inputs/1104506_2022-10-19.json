@@ -1,0 +1,144 @@
+{
+ "id": "1104506_2022-10-19",
+ "kind": "slide",
+ "cik": "1104506",
+ "name": "INSMED Inc",
+ "date": "2022-10-19",
+ "asof": "2022-10-19",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-10-19",
+  "adj_close": 18.78
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 564678000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0001104506-22-000019"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 207462000.0,
+  "capex": 4605000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-08-01",
+  "shares": 119975265
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2022-07-21",
+  "to": "2022-11-18",
+  "trades": [
+   {
+    "date": "2022-10-31",
+    "filed": "2022-11-02",
+    "code": "P",
+    "value": 350600,
+    "who": "SHAROKY MELVIN MD"
+   },
+   {
+    "date": "2022-11-01",
+    "filed": "2022-11-02",
+    "code": "P",
+    "value": 177000,
+    "who": "SHAROKY MELVIN MD"
+   },
+   {
+    "date": "2022-10-31",
+    "filed": "2022-11-02",
+    "code": "P",
+    "value": 796050,
+    "who": "LEE LEO"
+   },
+   {
+    "date": "2022-08-10",
+    "filed": "2022-08-12",
+    "code": "S",
+    "value": 7170,
+    "who": "Wise John Drayton"
+   },
+   {
+    "date": "2022-08-08",
+    "filed": "2022-08-10",
+    "code": "S",
+    "value": 675978,
+    "who": "Lewis William"
+   },
+   {
+    "date": "2022-08-08",
+    "filed": "2022-08-10",
+    "code": "S",
+    "value": 176390,
+    "who": "Lewis William"
+   },
+   {
+    "date": "2022-08-08",
+    "filed": "2022-08-10",
+    "code": "S",
+    "value": 4473106,
+    "who": "Lewis William"
+   },
+   {
+    "date": "2022-08-08",
+    "filed": "2022-08-10",
+    "code": "S",
+    "value": 710096,
+    "who": "Lewis William"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "insmed",
+  "other_trials": 5,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05090904",
+    "drugs": [
+     "Brensocatib"
+    ]
+   },
+   {
+    "nct": "NCT04677543",
+    "drugs": [
+     "ALIS",
+     "Azithromycin",
+     "Ethambutol"
+    ]
+   },
+   {
+    "nct": "NCT04677569",
+    "drugs": [
+     "ALIS",
+     "Azithromycin",
+     "Ethambutol"
+    ]
+   },
+   {
+    "nct": "NCT04594369",
+    "drugs": [
+     "Brensocatib 10 mg",
+     "Brensocatib 25 mg"
+    ]
+   },
+   {
+    "nct": "NCT05147805",
+    "drugs": [
+     "Treprostinil Palmitil"
+    ]
+   }
+  ]
+ }
+}

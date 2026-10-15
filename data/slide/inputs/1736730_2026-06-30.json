@@ -1,0 +1,49 @@
+{
+ "id": "1736730_2026-06-30",
+ "kind": "slide",
+ "cik": "1736730",
+ "name": "Camp4 Therapeutics Corp",
+ "date": "2026-06-30",
+ "asof": "2026-06-30",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-06-30",
+  "adj_close": 4.37
+ },
+ "balance": {
+  "end": "2026-03-31",
+  "cash": 99209000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001628280-26-032146"
+ },
+ "burn6": {
+  "end": "2026-03-31",
+  "start": "2025-10-01",
+  "cash_used_ops": 4688000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-05-06",
+  "shares": 51925800
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2026-04-01",
+  "to": "2026-07-30",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "camp4 therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

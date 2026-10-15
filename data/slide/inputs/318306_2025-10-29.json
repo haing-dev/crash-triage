@@ -1,0 +1,114 @@
+{
+ "id": "318306_2025-10-29",
+ "kind": "slide",
+ "cik": "318306",
+ "name": "ABEONA THERAPEUTICS INC.",
+ "date": "2025-10-29",
+ "asof": "2025-10-29",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-10-29",
+  "adj_close": 4.99
+ },
+ "balance": {
+  "end": "2025-06-30",
+  "cash": 225518000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001641172-25-023716"
+ },
+ "burn6": {
+  "end": "2025-06-30",
+  "start": "2025-01-01",
+  "cash_used_ops": 37186000.0,
+  "capex": 4302000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-08-08",
+  "shares": 51278539
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2025-07-31",
+  "to": "2025-11-28",
+  "trades": [
+   {
+    "date": "2025-11-13",
+    "filed": "2025-11-14",
+    "code": "S",
+    "value": 71168,
+    "who": "Alvino Mark"
+   },
+   {
+    "date": "2025-10-16",
+    "filed": "2025-10-16",
+    "code": "S",
+    "value": 1366,
+    "who": "Seshadri Vishwas"
+   },
+   {
+    "date": "2025-09-29",
+    "filed": "2025-10-01",
+    "code": "S",
+    "value": 50516,
+    "who": "O'Malley Brendan M."
+   },
+   {
+    "date": "2025-09-29",
+    "filed": "2025-10-01",
+    "code": "S",
+    "value": 103954,
+    "who": "Seshadri Vishwas"
+   },
+   {
+    "date": "2025-09-30",
+    "filed": "2025-10-01",
+    "code": "S",
+    "value": 130930,
+    "who": "Seshadri Vishwas"
+   },
+   {
+    "date": "2025-09-29",
+    "filed": "2025-10-01",
+    "code": "S",
+    "value": 48730,
+    "who": "Vazzano Joseph Walter"
+   },
+   {
+    "date": "2025-09-22",
+    "filed": "2025-09-22",
+    "code": "S",
+    "value": 3736,
+    "who": "O'Malley Brendan M."
+   },
+   {
+    "date": "2025-08-14",
+    "filed": "2025-08-15",
+    "code": "S",
+    "value": 32683,
+    "who": "Crombez Eric"
+   },
+   {
+    "date": "2025-08-15",
+    "filed": "2025-08-15",
+    "code": "S",
+    "value": 110358,
+    "who": "Vazzano Joseph Walter"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "abeona therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

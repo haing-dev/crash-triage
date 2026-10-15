@@ -1,0 +1,57 @@
+{
+ "id": "1382574_2021-08-26",
+ "kind": "slide",
+ "cik": "1382574",
+ "name": "Scienture Holdings, Inc.",
+ "date": "2021-08-26",
+ "asof": "2021-08-26",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-08-26",
+  "adj_close": 1833.75
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 4519983,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001493152-21-017754"
+ },
+ "burn6": {
+  "end": "2021-06-30",
+  "start": "2021-01-01",
+  "cash_used_ops": 1401416.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-07-22",
+  "shares": 8161457
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2021-05-28",
+  "to": "2021-09-25",
+  "trades": [
+   {
+    "date": "2021-06-21",
+    "filed": "2021-06-22",
+    "code": "S",
+    "value": 4005,
+    "who": "PETERSON MICHAEL L"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "scienture",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,215 @@
+{
+ "id": "1640455_2021-04-12",
+ "kind": "slide",
+ "cik": "1640455",
+ "name": "Jounce Therapeutics, Inc.",
+ "date": "2021-04-12",
+ "asof": "2021-04-12",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-04-12",
+  "adj_close": 9.13
+ },
+ "balance": {
+  "end": "2020-12-31",
+  "cash": 213188000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0001640455-21-000055"
+ },
+ "burn6": {
+  "end": "2020-12-31",
+  "start": "2020-07-01",
+  "cash_used_ops": -17188000.0,
+  "capex": 44000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-02-19",
+  "shares": 45393561
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 19,
+  "from": "2021-01-12",
+  "to": "2021-05-12",
+  "trades": [
+   {
+    "date": "2021-04-15",
+    "filed": "2021-04-16",
+    "code": "S",
+    "value": 2000,
+    "who": "Higgons John Duncan"
+   },
+   {
+    "date": "2021-03-29",
+    "filed": "2021-03-31",
+    "code": "S",
+    "value": 51459,
+    "who": "Trehu Elizabeth"
+   },
+   {
+    "date": "2021-03-30",
+    "filed": "2021-03-31",
+    "code": "S",
+    "value": 1000,
+    "who": "Trehu Elizabeth"
+   },
+   {
+    "date": "2021-03-31",
+    "filed": "2021-03-31",
+    "code": "S",
+    "value": 83747,
+    "who": "Trehu Elizabeth"
+   },
+   {
+    "date": "2021-03-15",
+    "filed": "2021-03-17",
+    "code": "S",
+    "value": 2560,
+    "who": "Higgons John Duncan"
+   },
+   {
+    "date": "2021-03-01",
+    "filed": "2021-03-03",
+    "code": "S",
+    "value": 0,
+    "who": "Pfeffer Cary"
+   },
+   {
+    "date": "2021-03-01",
+    "filed": "2021-03-03",
+    "code": "S",
+    "value": 17037500,
+    "who": "Third Rock Ventures II, L.P."
+   },
+   {
+    "date": "2021-02-16",
+    "filed": "2021-02-18",
+    "code": "S",
+    "value": 2356,
+    "who": "Higgons John Duncan"
+   },
+   {
+    "date": "2021-01-21",
+    "filed": "2021-01-25",
+    "code": "S",
+    "value": 404227,
+    "who": "MURRAY RICHARD /CA/"
+   },
+   {
+    "date": "2021-01-22",
+    "filed": "2021-01-25",
+    "code": "S",
+    "value": 215100,
+    "who": "Cole Hugh M"
+   },
+   {
+    "date": "2021-01-20",
+    "filed": "2021-01-22",
+    "code": "S",
+    "value": 78065,
+    "who": "Trehu Elizabeth"
+   },
+   {
+    "date": "2021-01-20",
+    "filed": "2021-01-22",
+    "code": "S",
+    "value": 18000,
+    "who": "Higgons John Duncan"
+   },
+   {
+    "date": "2021-01-21",
+    "filed": "2021-01-22",
+    "code": "S",
+    "value": 2222,
+    "who": "Higgons John Duncan"
+   },
+   {
+    "date": "2021-01-20",
+    "filed": "2021-01-22",
+    "code": "S",
+    "value": 194898,
+    "who": "Drapkin Kimberlee C"
+   },
+   {
+    "date": "2021-01-20",
+    "filed": "2021-01-22",
+    "code": "S",
+    "value": 100300,
+    "who": "Drapkin Kimberlee C"
+   },
+   {
+    "date": "2021-01-21",
+    "filed": "2021-01-22",
+    "code": "S",
+    "value": 45588,
+    "who": "Drapkin Kimberlee C"
+   },
+   {
+    "date": "2021-01-15",
+    "filed": "2021-01-20",
+    "code": "S",
+    "value": 256200,
+    "who": "MURRAY RICHARD /CA/"
+   },
+   {
+    "date": "2021-01-19",
+    "filed": "2021-01-20",
+    "code": "S",
+    "value": 383600,
+    "who": "MURRAY RICHARD /CA/"
+   },
+   {
+    "date": "2021-01-20",
+    "filed": "2021-01-20",
+    "code": "S",
+    "value": 198443,
+    "who": "MURRAY RICHARD /CA/"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "jounce therapeutics",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04319224",
+    "drugs": [
+     "Vopratelimab",
+     "Ipilimumab",
+     "Nivolumab"
+    ]
+   },
+   {
+    "nct": "NCT04669899",
+    "drugs": [
+     "JTX-8064",
+     "pimivalimab"
+    ]
+   },
+   {
+    "nct": "NCT04549025",
+    "drugs": [
+     "Pimivalimab",
+     "Vopratelimab"
+    ]
+   },
+   {
+    "nct": "NCT03989362",
+    "drugs": [
+     "Vopratelimab",
+     "Ipilimumab"
+    ]
+   }
+  ]
+ }
+}

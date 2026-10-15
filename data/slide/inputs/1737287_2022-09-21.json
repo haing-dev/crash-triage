@@ -1,0 +1,118 @@
+{
+ "id": "1737287_2022-09-21",
+ "kind": "slide",
+ "cik": "1737287",
+ "name": "Allogene Therapeutics, Inc.",
+ "date": "2022-09-21",
+ "asof": "2022-09-21",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-09-21",
+  "adj_close": 11.53
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 686129000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0001737287-22-000067"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 110768000.0,
+  "capex": 3276000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-08-05",
+  "shares": 143806825
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2022-06-23",
+  "to": "2022-10-21",
+  "trades": [
+   {
+    "date": "2022-08-11",
+    "filed": "2022-08-15",
+    "code": "S",
+    "value": 165000,
+    "who": "WITTE OWEN N."
+   },
+   {
+    "date": "2022-08-12",
+    "filed": "2022-08-15",
+    "code": "S",
+    "value": 86250,
+    "who": "WITTE OWEN N."
+   },
+   {
+    "date": "2022-08-11",
+    "filed": "2022-08-15",
+    "code": "S",
+    "value": 165000,
+    "who": "WITTE OWEN N."
+   },
+   {
+    "date": "2022-08-12",
+    "filed": "2022-08-15",
+    "code": "S",
+    "value": 86250,
+    "who": "WITTE OWEN N."
+   },
+   {
+    "date": "2022-08-02",
+    "filed": "2022-08-02",
+    "code": "S",
+    "value": 23940,
+    "who": "Amado Rafael"
+   },
+   {
+    "date": "2022-07-05",
+    "filed": "2022-07-06",
+    "code": "S",
+    "value": 22880,
+    "who": "Amado Rafael"
+   },
+   {
+    "date": "2022-06-22",
+    "filed": "2022-06-23",
+    "code": "S",
+    "value": 117600,
+    "who": "WITTE OWEN N."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "allogene therapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04416984",
+    "drugs": [
+     "ALLO-501A",
+     "ALLO-647",
+     "Fludarabine"
+    ]
+   },
+   {
+    "nct": "NCT05000450",
+    "drugs": [
+     "ALLO-605",
+     "ALLO-647",
+     "Fludarabine"
+    ]
+   }
+  ]
+ }
+}

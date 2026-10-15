@@ -1,0 +1,135 @@
+{
+ "id": "1590750_2023-03-22",
+ "kind": "slide",
+ "cik": "1590750",
+ "name": "Viridian Therapeutics, Inc.\\DE",
+ "date": "2023-03-22",
+ "asof": "2023-03-22",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-03-22",
+  "adj_close": 25.85
+ },
+ "balance": {
+  "end": "2022-12-31",
+  "cash": 424550000,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001590750-23-000002"
+ },
+ "burn6": {
+  "end": "2022-12-31",
+  "start": "2022-07-01",
+  "cash_used_ops": 54710000.0,
+  "capex": 326000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-03-03",
+  "shares": 42897951
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 13,
+  "from": "2022-12-22",
+  "to": "2023-04-21",
+  "trades": [
+   {
+    "date": "2023-04-12",
+    "filed": "2023-04-12",
+    "code": "P",
+    "value": 101479,
+    "who": "Myers Scott Dunseth"
+   },
+   {
+    "date": "2023-03-13",
+    "filed": "2023-03-13",
+    "code": "P",
+    "value": 160324,
+    "who": "Myers Scott Dunseth"
+   },
+   {
+    "date": "2023-03-09",
+    "filed": "2023-03-10",
+    "code": "S",
+    "value": 871257,
+    "who": "Meisner Lara"
+   },
+   {
+    "date": "2023-02-02",
+    "filed": "2023-02-03",
+    "code": "S",
+    "value": 1840000,
+    "who": "Violin Jonathan"
+   },
+   {
+    "date": "2023-01-23",
+    "filed": "2023-01-25",
+    "code": "S",
+    "value": 244021,
+    "who": "Meisner Lara"
+   },
+   {
+    "date": "2023-01-13",
+    "filed": "2023-01-18",
+    "code": "S",
+    "value": 153480,
+    "who": "Katz Barrett"
+   },
+   {
+    "date": "2023-01-17",
+    "filed": "2023-01-18",
+    "code": "S",
+    "value": 924780,
+    "who": "Katz Barrett"
+   },
+   {
+    "date": "2023-01-09",
+    "filed": "2023-01-11",
+    "code": "S",
+    "value": 417064,
+    "who": "Katz Barrett"
+   },
+   {
+    "date": "2023-01-10",
+    "filed": "2023-01-11",
+    "code": "S",
+    "value": 1672408,
+    "who": "Katz Barrett"
+   },
+   {
+    "date": "2022-12-20",
+    "filed": "2022-12-22",
+    "code": "S",
+    "value": 16842,
+    "who": "Meisner Lara"
+   },
+   {
+    "date": "2022-12-21",
+    "filed": "2022-12-22",
+    "code": "S",
+    "value": 476556,
+    "who": "Meisner Lara"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "viridian therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05176639",
+    "drugs": [
+     "Veligrotug"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,113 @@
+{
+ "id": "1736730_2025-11-21",
+ "kind": "slide",
+ "cik": "1736730",
+ "name": "Camp4 Therapeutics Corp",
+ "date": "2025-11-21",
+ "asof": "2025-11-21",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-11-21",
+  "adj_close": 2.9
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 75255000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001736730-25-000094"
+ },
+ "burn6": {
+  "end": "2025-09-30",
+  "start": "2025-04-01",
+  "cash_used_ops": 21560000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-11-03",
+  "shares": 46881134
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2025-08-23",
+  "to": "2025-12-21",
+  "trades": [
+   {
+    "date": "2025-09-11",
+    "filed": "2025-09-15",
+    "code": "P",
+    "value": 4499999,
+    "who": "5AM Partners VI, LLC"
+   },
+   {
+    "date": "2025-09-11",
+    "filed": "2025-09-11",
+    "code": "P",
+    "value": 1869233,
+    "who": "Polaris Management Co. VII, L.L.C."
+   },
+   {
+    "date": "2025-09-11",
+    "filed": "2025-09-11",
+    "code": "P",
+    "value": 130766,
+    "who": "Polaris Management Co. VII, L.L.C."
+   },
+   {
+    "date": "2025-09-11",
+    "filed": "2025-09-11",
+    "code": "P",
+    "value": 1869233,
+    "who": "Nashat Amir"
+   },
+   {
+    "date": "2025-09-11",
+    "filed": "2025-09-11",
+    "code": "P",
+    "value": 130766,
+    "who": "Nashat Amir"
+   },
+   {
+    "date": "2025-09-11",
+    "filed": "2025-09-11",
+    "code": "P",
+    "value": 9999,
+    "who": "Maricich Yuri"
+   },
+   {
+    "date": "2025-09-11",
+    "filed": "2025-09-11",
+    "code": "P",
+    "value": 9999,
+    "who": "Gold Kelly"
+   },
+   {
+    "date": "2025-09-11",
+    "filed": "2025-09-11",
+    "code": "P",
+    "value": 9999,
+    "who": "Mandel-Brehm Josh"
+   },
+   {
+    "date": "2025-09-11",
+    "filed": "2025-09-11",
+    "code": "P",
+    "value": 24999,
+    "who": "Young Richard A"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "camp4 therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "id": "1539029_2022-11-09",
+ "kind": "slide",
+ "cik": "1539029",
+ "name": "Clearside Biomedical, Inc.",
+ "date": "2022-11-09",
+ "asof": "2022-11-09",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-11-09",
+  "adj_close": 19.2
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 53381000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-22-023525"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 11629000.0,
+  "capex": 104077.94117647059,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-11-07",
+  "shares": 60190731
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2022-08-11",
+  "to": "2022-12-09",
+  "trades": [
+   {
+    "date": "2022-11-17",
+    "filed": "2022-11-21",
+    "code": "P",
+    "value": 39900,
+    "who": "Hutson Nancy J"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "clearside biomedical",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "id": "771856_2024-06-20",
+ "kind": "slide",
+ "cik": "771856",
+ "name": "CHAMPIONS ONCOLOGY, INC.",
+ "date": "2024-06-20",
+ "asof": "2024-06-20",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-06-20",
+  "adj_close": 4.83
+ },
+ "balance": {
+  "end": "2024-01-31",
+  "cash": 4468000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001628280-24-011279"
+ },
+ "burn6": {
+  "end": "2024-01-31",
+  "start": "2023-08-01",
+  "cash_used_ops": 330000.0,
+  "capex": 279000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-03-08",
+  "shares": 13593767
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2024-03-22",
+  "to": "2024-07-20",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "champions oncology",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,98 @@
+{
+ "id": "1658247_2022-07-29",
+ "kind": "slide",
+ "cik": "1658247",
+ "name": "Crinetics Pharmaceuticals, Inc.",
+ "date": "2022-07-29",
+ "asof": "2022-07-29",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-07-29",
+  "adj_close": 19.21
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 319725000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-22-009740"
+ },
+ "burn6": {
+  "end": "2022-03-31",
+  "start": "2021-10-01",
+  "cash_used_ops": 36442000.0,
+  "capex": 105000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-05-09",
+  "shares": 53505809
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 10,
+  "from": "2022-04-30",
+  "to": "2022-08-28",
+  "trades": [
+   {
+    "date": "2022-07-26",
+    "filed": "2022-07-29",
+    "code": "S",
+    "value": 23847,
+    "who": "Knight Jeff E."
+   },
+   {
+    "date": "2022-07-13",
+    "filed": "2022-07-15",
+    "code": "S",
+    "value": 119455,
+    "who": "Fust Matthew K"
+   },
+   {
+    "date": "2022-05-02",
+    "filed": "2022-05-04",
+    "code": "S",
+    "value": 65252,
+    "who": "Betz Stephen F."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "crinetics pharmaceuticals",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05192382",
+    "drugs": [
+     "Paltusotine"
+    ]
+   },
+   {
+    "nct": "NCT05361668",
+    "drugs": [
+     "Randomized: 40 mg Paltusotine",
+     "Randomized: 80 mg Paltusotine"
+    ]
+   },
+   {
+    "nct": "NCT04261712",
+    "drugs": [
+     "Paltusotine"
+    ]
+   },
+   {
+    "nct": "NCT04837040",
+    "drugs": [
+     "Paltusotine"
+    ]
+   }
+  ]
+ }
+}

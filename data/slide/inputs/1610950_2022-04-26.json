@@ -1,0 +1,58 @@
+{
+ "id": "1610950_2022-04-26",
+ "kind": "slide",
+ "cik": "1610950",
+ "name": "Syneos Health, Inc.",
+ "date": "2022-04-26",
+ "asof": "2022-04-26",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-04-26",
+  "adj_close": 67.33
+ },
+ "balance": {
+  "end": "2021-12-31",
+  "cash": 106375000,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+   "minus RestrictedCashCurrent"
+  ],
+  "accn": "0001564590-22-005428"
+ },
+ "burn6": {
+  "end": "2021-12-31",
+  "start": "2021-07-01",
+  "cash_used_ops": -234483000.0,
+  "capex": 34504000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-02-10",
+  "shares": 104221138
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 12,
+  "from": "2022-01-26",
+  "to": "2022-05-26",
+  "trades": [
+   {
+    "date": "2022-01-31",
+    "filed": "2022-02-02",
+    "code": "S",
+    "value": 94950,
+    "who": "Kralowetz Donna Hildebrand"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "syneos health",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

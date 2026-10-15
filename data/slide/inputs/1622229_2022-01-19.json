@@ -1,0 +1,56 @@
+{
+ "id": "1622229_2022-01-19",
+ "kind": "slide",
+ "cik": "1622229",
+ "name": "Cogent Biosciences, Inc.",
+ "date": "2022-01-19",
+ "asof": "2022-01-19",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-01-19",
+  "adj_close": 7.4
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 202888000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001564590-21-055947"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 26620000.0,
+  "capex": 863511.1764705882,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-11-08",
+  "shares": 39851022
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2021-10-21",
+  "to": "2022-02-18",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "cogent biosciences",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04996875",
+    "drugs": [
+     "bezuclastinib"
+    ]
+   }
+  ]
+ }
+}

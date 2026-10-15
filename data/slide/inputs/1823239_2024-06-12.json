@@ -1,0 +1,54 @@
+{
+ "id": "1823239_2024-06-12",
+ "kind": "slide",
+ "cik": "1823239",
+ "name": "MARAVAI LIFESCIENCES HOLDINGS, INC.",
+ "date": "2024-06-12",
+ "asof": "2024-06-12",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-06-12",
+  "adj_close": 7.88
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 561691000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001823239-24-000060"
+ },
+ "burn6": {
+  "end": "2024-03-31",
+  "start": "2023-10-01",
+  "cash_used_ops": 677000.0,
+  "capex": 22464000.0,
+  "periods": 2
+ },
+ "shares": null,
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 23,
+  "from": "2024-03-14",
+  "to": "2024-07-12",
+  "trades": [
+   {
+    "date": "2024-05-28",
+    "filed": "2024-05-30",
+    "code": "S",
+    "value": 97570660,
+    "who": "GTCR INVESTMENT XI LLC"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "maravai lifesciences",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

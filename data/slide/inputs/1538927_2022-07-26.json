@@ -1,0 +1,74 @@
+{
+ "id": "1538927_2022-07-26",
+ "kind": "slide",
+ "cik": "1538927",
+ "name": "Forma Therapeutics Holdings, Inc.",
+ "date": "2022-07-26",
+ "asof": "2022-07-26",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-07-26",
+  "adj_close": 8.01
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 441343000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent",
+   "MarketableSecuritiesNoncurrent"
+  ],
+  "accn": "0000950170-22-008130"
+ },
+ "burn6": {
+  "end": "2022-03-31",
+  "start": "2021-10-01",
+  "cash_used_ops": 90497000.0,
+  "capex": 719000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-04-28",
+  "shares": 47804697
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 9,
+  "from": "2022-04-27",
+  "to": "2022-08-25",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "forma therapeutics",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04987489",
+    "drugs": [
+     "Etavopivat tablets"
+    ]
+   },
+   {
+    "nct": "NCT02719574",
+    "drugs": [
+     "FT-2102 (olutasidenib)",
+     "Azacitidine",
+     "Cytarabine"
+    ]
+   },
+   {
+    "nct": "NCT04624659",
+    "drugs": [
+     "Etavopivat Tablets Low dose",
+     "Etavopivat Tablets High dose",
+     "Etavopivat Tablets"
+    ]
+   }
+  ]
+ }
+}

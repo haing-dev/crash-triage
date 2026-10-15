@@ -1,0 +1,49 @@
+{
+ "id": "1360214_2024-11-15",
+ "kind": "slide",
+ "cik": "1360214",
+ "name": "HARROW, INC.",
+ "date": "2024-11-15",
+ "asof": "2024-11-15",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-11-15",
+  "adj_close": 39.0099983
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 72601000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001493152-24-045295"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": -205000.0,
+  "capex": 948000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-11-12",
+  "shares": 35614718
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2024-08-17",
+  "to": "2024-12-15",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "harrow",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

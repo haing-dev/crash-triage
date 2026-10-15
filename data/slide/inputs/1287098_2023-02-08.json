@@ -1,0 +1,135 @@
+{
+ "id": "1287098_2023-02-08",
+ "kind": "slide",
+ "cik": "1287098",
+ "name": "MAXCYTE, INC.",
+ "date": "2023-02-08",
+ "asof": "2023-02-08",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-02-08",
+  "adj_close": 5.15
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 232885600,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001558370-22-017204"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 5002400.0,
+  "capex": 10283100.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-11-04",
+  "shares": 102046769
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2022-11-10",
+  "to": "2023-03-10",
+  "trades": [
+   {
+    "date": "2023-02-01",
+    "filed": "2023-02-03",
+    "code": "S",
+    "value": 99729,
+    "who": "Ross Thomas M."
+   },
+   {
+    "date": "2023-02-02",
+    "filed": "2023-02-03",
+    "code": "S",
+    "value": 66788,
+    "who": "Ross Thomas M."
+   },
+   {
+    "date": "2023-02-01",
+    "filed": "2023-02-03",
+    "code": "S",
+    "value": 110016,
+    "who": "Doerfler Douglas"
+   },
+   {
+    "date": "2023-02-02",
+    "filed": "2023-02-03",
+    "code": "S",
+    "value": 61537,
+    "who": "Doerfler Douglas"
+   },
+   {
+    "date": "2023-01-03",
+    "filed": "2023-01-05",
+    "code": "S",
+    "value": 54445,
+    "who": "Doerfler Douglas"
+   },
+   {
+    "date": "2023-01-04",
+    "filed": "2023-01-05",
+    "code": "S",
+    "value": 46406,
+    "who": "Doerfler Douglas"
+   },
+   {
+    "date": "2023-01-05",
+    "filed": "2023-01-05",
+    "code": "S",
+    "value": 51579,
+    "who": "Doerfler Douglas"
+   },
+   {
+    "date": "2023-01-03",
+    "filed": "2023-01-05",
+    "code": "S",
+    "value": 53932,
+    "who": "Ross Thomas M."
+   },
+   {
+    "date": "2023-01-04",
+    "filed": "2023-01-05",
+    "code": "S",
+    "value": 46406,
+    "who": "Ross Thomas M."
+   },
+   {
+    "date": "2023-01-05",
+    "filed": "2023-01-05",
+    "code": "S",
+    "value": 47714,
+    "who": "Ross Thomas M."
+   },
+   {
+    "date": "2022-12-02",
+    "filed": "2022-12-06",
+    "code": "S",
+    "value": 90300,
+    "who": "Ross Thomas M."
+   },
+   {
+    "date": "2022-12-05",
+    "filed": "2022-12-06",
+    "code": "S",
+    "value": 79003,
+    "who": "Ross Thomas M."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "maxcyte",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

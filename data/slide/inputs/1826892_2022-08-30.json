@@ -1,0 +1,137 @@
+{
+ "id": "1826892_2022-08-30",
+ "kind": "slide",
+ "cik": "1826892",
+ "name": "BioAtla, Inc.",
+ "date": "2022-08-30",
+ "asof": "2022-08-30",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-08-30",
+  "adj_close": 411.0
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 202290000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-22-016149"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 42057000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-08-13",
+  "shares": 32315301
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Management\u2019s assessment included the preparation of cash flow forecasts resulting in management\u2019s conclusion that there is not substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 30,
+  "from": "2022-06-01",
+  "to": "2022-09-29",
+  "trades": [
+   {
+    "date": "2022-09-12",
+    "filed": "2022-09-15",
+    "code": "P",
+    "value": 17700,
+    "who": "MCBRINN SYLVIA"
+   },
+   {
+    "date": "2022-09-13",
+    "filed": "2022-09-15",
+    "code": "P",
+    "value": 8200,
+    "who": "MCBRINN SYLVIA"
+   },
+   {
+    "date": "2022-08-12",
+    "filed": "2022-08-15",
+    "code": "P",
+    "value": 206600,
+    "who": "SHORT JAY M PHD"
+   },
+   {
+    "date": "2022-06-21",
+    "filed": "2022-06-23",
+    "code": "P",
+    "value": 81040,
+    "who": "SHORT JAY M PHD"
+   },
+   {
+    "date": "2022-06-22",
+    "filed": "2022-06-23",
+    "code": "P",
+    "value": 117296,
+    "who": "SHORT JAY M PHD"
+   },
+   {
+    "date": "2022-06-07",
+    "filed": "2022-06-09",
+    "code": "P",
+    "value": 43007,
+    "who": "Vasquez Christian"
+   },
+   {
+    "date": "2022-06-08",
+    "filed": "2022-06-09",
+    "code": "P",
+    "value": 78188,
+    "who": "Vasquez Christian"
+   },
+   {
+    "date": "2022-06-09",
+    "filed": "2022-06-09",
+    "code": "P",
+    "value": 29720,
+    "who": "Vasquez Christian"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "bioatla",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04681131",
+    "drugs": [
+     "CAB-AXL-ADC",
+     "PD-1 inhibitor"
+    ]
+   },
+   {
+    "nct": "NCT03504488",
+    "drugs": [
+     "CAB-ROR2-ADC",
+     "PD-1 inhibitor"
+    ]
+   },
+   {
+    "nct": "NCT05180799",
+    "drugs": [
+     "BA3071",
+     "Nivolumab",
+     "Pembrolizumab"
+    ]
+   },
+   {
+    "nct": "NCT03425279",
+    "drugs": [
+     "CAB-AXL-ADC",
+     "PD-1 inhibitor"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,59 @@
+{
+ "id": "1662579_2021-04-12",
+ "kind": "slide",
+ "cik": "1662579",
+ "name": "C4 Therapeutics, Inc.",
+ "date": "2021-04-12",
+ "asof": "2021-04-12",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-04-12",
+  "adj_close": 30.71
+ },
+ "balance": {
+  "end": "2020-12-31",
+  "cash": 371689000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001564590-21-012531"
+ },
+ "burn6": null,
+ "shares": {
+  "end": "2021-03-01",
+  "shares": 43119385
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 14,
+  "from": "2021-01-12",
+  "to": "2021-05-12",
+  "trades": [
+   {
+    "date": "2021-04-05",
+    "filed": "2021-04-06",
+    "code": "S",
+    "value": 153129,
+    "who": "Crystal Adam"
+   },
+   {
+    "date": "2021-04-05",
+    "filed": "2021-04-06",
+    "code": "S",
+    "value": 413407,
+    "who": "Crystal Adam"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "c4 therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

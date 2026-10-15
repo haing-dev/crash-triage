@@ -1,0 +1,121 @@
+{
+ "id": "1770121_2023-08-07",
+ "kind": "slide",
+ "cik": "1770121",
+ "name": "Sana Biotechnology, Inc.",
+ "date": "2023-08-07",
+ "asof": "2023-08-07",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-08-07",
+  "adj_close": 5.12
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 325915000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-23-038050"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 138073000.0,
+  "capex": 3753000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-07-27",
+  "shares": 196942065
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 12,
+  "from": "2023-05-09",
+  "to": "2023-09-06",
+  "trades": [
+   {
+    "date": "2023-06-06",
+    "filed": "2023-06-08",
+    "code": "S",
+    "value": 1144311,
+    "who": "Flagship Ventures Fund V General Partner LLC"
+   },
+   {
+    "date": "2023-06-06",
+    "filed": "2023-06-08",
+    "code": "S",
+    "value": 140607,
+    "who": "Flagship Ventures Fund V General Partner LLC"
+   },
+   {
+    "date": "2023-06-07",
+    "filed": "2023-06-08",
+    "code": "S",
+    "value": 1105924,
+    "who": "Flagship Ventures Fund V General Partner LLC"
+   },
+   {
+    "date": "2023-06-07",
+    "filed": "2023-06-08",
+    "code": "S",
+    "value": 142016,
+    "who": "Flagship Ventures Fund V General Partner LLC"
+   },
+   {
+    "date": "2023-05-24",
+    "filed": "2023-05-26",
+    "code": "S",
+    "value": 2023986,
+    "who": "Flagship Ventures Fund V General Partner LLC"
+   },
+   {
+    "date": "2023-05-24",
+    "filed": "2023-05-26",
+    "code": "S",
+    "value": 259851,
+    "who": "Flagship Ventures Fund V General Partner LLC"
+   },
+   {
+    "date": "2023-05-25",
+    "filed": "2023-05-26",
+    "code": "S",
+    "value": 649481,
+    "who": "Flagship Ventures Fund V General Partner LLC"
+   },
+   {
+    "date": "2023-05-25",
+    "filed": "2023-05-26",
+    "code": "S",
+    "value": 83385,
+    "who": "Flagship Ventures Fund V General Partner LLC"
+   },
+   {
+    "date": "2023-05-26",
+    "filed": "2023-05-26",
+    "code": "S",
+    "value": 452480,
+    "who": "Flagship Ventures Fund V General Partner LLC"
+   },
+   {
+    "date": "2023-05-26",
+    "filed": "2023-05-26",
+    "code": "S",
+    "value": 58093,
+    "who": "Flagship Ventures Fund V General Partner LLC"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "sana biotechnology",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

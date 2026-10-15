@@ -1,0 +1,139 @@
+{
+ "id": "906709_2022-01-05",
+ "kind": "slide",
+ "cik": "906709",
+ "name": "NEKTAR THERAPEUTICS",
+ "date": "2022-01-05",
+ "asof": "2022-01-05",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-01-05",
+  "adj_close": 191.55
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 955299000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0000906709-21-000018"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 184037000.0,
+  "capex": 6217000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-10-29",
+  "shares": 184557124
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 20,
+  "from": "2021-10-07",
+  "to": "2022-02-04",
+  "trades": [
+   {
+    "date": "2021-11-16",
+    "filed": "2021-11-18",
+    "code": "S",
+    "value": 278321,
+    "who": "Labrucherie Gil M"
+   },
+   {
+    "date": "2021-11-18",
+    "filed": "2021-11-18",
+    "code": "S",
+    "value": 38070,
+    "who": "Labrucherie Gil M"
+   },
+   {
+    "date": "2021-11-16",
+    "filed": "2021-11-17",
+    "code": "S",
+    "value": 274636,
+    "who": "Zalevsky Jonathan"
+   },
+   {
+    "date": "2021-11-16",
+    "filed": "2021-11-17",
+    "code": "S",
+    "value": 86382,
+    "who": "Wilson Mark Andrew"
+   },
+   {
+    "date": "2021-11-16",
+    "filed": "2021-11-17",
+    "code": "S",
+    "value": 88712,
+    "who": "Thomsen Jillian B."
+   },
+   {
+    "date": "2021-11-16",
+    "filed": "2021-11-17",
+    "code": "S",
+    "value": 562893,
+    "who": "ROBIN HOWARD W"
+   },
+   {
+    "date": "2021-11-16",
+    "filed": "2021-11-17",
+    "code": "S",
+    "value": 79763,
+    "who": "NORTHCOTT JOHN"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "nektar therapeutics",
+  "other_trials": 9,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04677179",
+    "drugs": [
+     "LY3471851"
+    ]
+   },
+   {
+    "nct": "NCT04616196",
+    "drugs": [
+     "NKTR-255",
+     "Cetuximab"
+    ]
+   },
+   {
+    "nct": "NCT03729245",
+    "drugs": [
+     "bempegaldesleukin",
+     "sunitinib",
+     "nivolumab"
+    ]
+   },
+   {
+    "nct": "NCT03138889",
+    "drugs": [
+     "NKTR-214",
+     "Pembrolizumab",
+     "NKTR-214"
+    ]
+   },
+   {
+    "nct": "NCT03435640",
+    "drugs": [
+     "NKTR-262",
+     "bempegaldesleukin",
+     "nivolumab"
+    ]
+   }
+  ]
+ }
+}

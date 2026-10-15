@@ -1,0 +1,57 @@
+{
+ "id": "925741_2021-07-07",
+ "kind": "slide",
+ "cik": "925741",
+ "name": "BioCardia, Inc.",
+ "date": "2021-07-07",
+ "asof": "2021-07-07",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-07-07",
+  "adj_close": 52.8
+ },
+ "balance": {
+  "end": "2021-03-31",
+  "cash": 21502000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001437749-21-011911"
+ },
+ "burn6": {
+  "end": "2021-03-31",
+  "start": "2020-10-01",
+  "cash_used_ops": 5300000.0,
+  "capex": 27000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-05-01",
+  "shares": 16792893
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 12,
+  "from": "2021-04-08",
+  "to": "2021-08-06",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "biocardia",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT02438306",
+    "drugs": [
+     "Autologous cell therapy",
+     "Sham"
+    ]
+   }
+  ]
+ }
+}

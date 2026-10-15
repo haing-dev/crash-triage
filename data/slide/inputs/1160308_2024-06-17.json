@@ -1,0 +1,50 @@
+{
+ "id": "1160308_2024-06-17",
+ "kind": "slide",
+ "cik": "1160308",
+ "name": "Savara Inc",
+ "date": "2024-06-17",
+ "asof": "2024-06-17",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-06-17",
+  "adj_close": 3.87
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 143043000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-24-056954"
+ },
+ "burn6": {
+  "end": "2024-03-31",
+  "start": "2023-10-01",
+  "cash_used_ops": 36247000.0,
+  "capex": 34000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-05-09",
+  "shares": 138188891
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2024-03-19",
+  "to": "2024-07-17",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "savara",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

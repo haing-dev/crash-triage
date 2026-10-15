@@ -1,0 +1,65 @@
+{
+ "id": "1566044_2023-05-10",
+ "kind": "slide",
+ "cik": "1566044",
+ "name": "Yarrow Bioscience, Inc.",
+ "date": "2023-05-10",
+ "asof": "2023-05-10",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-05-10",
+  "adj_close": 299.0
+ },
+ "balance": {
+  "end": "2022-12-31",
+  "cash": 30908000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001628280-23-007900"
+ },
+ "burn6": {
+  "end": "2022-12-31",
+  "start": "2022-07-01",
+  "cash_used_ops": 11000000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-03-01",
+  "shares": 3264272
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These risks include, but are not limited to, the following: \u2022We will need substantial additional funding to fund our operations, and there is substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2023-02-09",
+  "to": "2023-06-09",
+  "trades": [
+   {
+    "date": "2023-03-20",
+    "filed": "2023-03-22",
+    "code": "P",
+    "value": 49680,
+    "who": "LEPORE PATRICK G"
+   },
+   {
+    "date": "2023-03-20",
+    "filed": "2023-03-22",
+    "code": "P",
+    "value": 25000,
+    "who": "Harsch Mutya"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "yarrow bioscience",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

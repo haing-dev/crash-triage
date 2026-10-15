@@ -1,0 +1,115 @@
+{
+ "id": "946644_2025-04-08",
+ "kind": "crash",
+ "cik": "946644",
+ "name": "AIM ImmunoTech Inc.",
+ "date": "2025-04-08",
+ "asof": "2025-04-09",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-04-09",
+  "adj_close": 2.9098
+ },
+ "balance": {
+  "end": "2024-12-31",
+  "cash": 3977000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001641172-25-000847"
+ },
+ "burn6": {
+  "end": "2024-12-31",
+  "start": "2024-07-01",
+  "cash_used_ops": 7065000.0,
+  "capex": 9006.904109589042,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-03-24",
+  "shares": 72290030
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These conditions raise substantial doubt regarding the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 21,
+  "from": "2025-01-08",
+  "to": "2025-05-08",
+  "trades": [
+   {
+    "date": "2025-04-11",
+    "filed": "2025-04-23",
+    "code": "P",
+    "value": 5000,
+    "who": "MITCHELL WILLIAM M"
+   },
+   {
+    "date": "2025-04-11",
+    "filed": "2025-04-23",
+    "code": "P",
+    "value": 50000,
+    "who": "Equels Thomas K"
+   },
+   {
+    "date": "2025-04-11",
+    "filed": "2025-04-23",
+    "code": "P",
+    "value": 50000,
+    "who": "KELLNER TED D"
+   },
+   {
+    "date": "2025-04-04",
+    "filed": "2025-04-07",
+    "code": "P",
+    "value": 2583,
+    "who": "Equels Thomas K"
+   },
+   {
+    "date": "2025-04-04",
+    "filed": "2025-04-04",
+    "code": "P",
+    "value": 44,
+    "who": "Rodino Peter W III"
+   },
+   {
+    "date": "2025-03-05",
+    "filed": "2025-03-06",
+    "code": "P",
+    "value": 6730,
+    "who": "Equels Thomas K"
+   },
+   {
+    "date": "2025-03-04",
+    "filed": "2025-03-05",
+    "code": "P",
+    "value": 5060,
+    "who": "Equels Thomas K"
+   },
+   {
+    "date": "2025-03-04",
+    "filed": "2025-03-04",
+    "code": "P",
+    "value": 10000,
+    "who": "Equels Thomas K"
+   },
+   {
+    "date": "2024-11-21",
+    "filed": "2025-01-21",
+    "code": "P",
+    "value": 4240,
+    "who": "Equels Thomas K"
+   }
+  ]
+ },
+ "drug": "Ampligen (rintatolimod)",
+ "trials": {
+  "query": "aim immunotech",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

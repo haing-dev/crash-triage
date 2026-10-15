@@ -1,0 +1,65 @@
+{
+ "id": "1645460_2023-08-10",
+ "kind": "slide",
+ "cik": "1645460",
+ "name": "Cue Biopharma, Inc.",
+ "date": "2023-08-10",
+ "asof": "2023-08-10",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-08-10",
+  "adj_close": 94.2
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 57889000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0000950170-23-039770"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 21204000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-08-01",
+  "shares": 44959548
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 7,
+  "from": "2023-05-12",
+  "to": "2023-09-09",
+  "trades": [
+   {
+    "date": "2023-08-25",
+    "filed": "2023-08-29",
+    "code": "P",
+    "value": 11040,
+    "who": "Suri Anish"
+   },
+   {
+    "date": "2023-08-14",
+    "filed": "2023-08-16",
+    "code": "P",
+    "value": 8580,
+    "who": "PASSERI DANIEL R"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "cue biopharma",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

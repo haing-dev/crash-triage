@@ -1,0 +1,106 @@
+{
+ "id": "1774857_2025-09-19",
+ "kind": "slide",
+ "cik": "1774857",
+ "name": "Aardvark Therapeutics, Inc.",
+ "date": "2025-09-19",
+ "asof": "2025-09-19",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-09-19",
+  "adj_close": 10.89
+ },
+ "balance": {
+  "end": "2025-06-30",
+  "cash": 141820000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-25-108116"
+ },
+ "burn6": {
+  "end": "2025-06-30",
+  "start": "2025-01-01",
+  "cash_used_ops": 21232000.0,
+  "capex": 91000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-08-01",
+  "shares": 21696893
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2025-06-21",
+  "to": "2025-10-19",
+  "trades": [
+   {
+    "date": "2025-09-15",
+    "filed": "2025-09-16",
+    "code": "P",
+    "value": 61819,
+    "who": "Lee Tien-Li"
+   },
+   {
+    "date": "2025-09-15",
+    "filed": "2025-09-16",
+    "code": "P",
+    "value": 34805,
+    "who": "Lee Tien-Li"
+   },
+   {
+    "date": "2025-09-10",
+    "filed": "2025-09-12",
+    "code": "P",
+    "value": 71212,
+    "who": "Lee Tien-Li"
+   },
+   {
+    "date": "2025-09-11",
+    "filed": "2025-09-12",
+    "code": "P",
+    "value": 46926,
+    "who": "Lee Tien-Li"
+   },
+   {
+    "date": "2025-09-12",
+    "filed": "2025-09-12",
+    "code": "P",
+    "value": 42516,
+    "who": "Lee Tien-Li"
+   },
+   {
+    "date": "2025-09-09",
+    "filed": "2025-09-10",
+    "code": "P",
+    "value": 48440,
+    "who": "Sun Nelson"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "aardvark therapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06828861",
+    "drugs": [
+     "ARD-101"
+    ]
+   },
+   {
+    "nct": "NCT07197034",
+    "drugs": [
+     "ARD-101"
+    ]
+   }
+  ]
+ }
+}

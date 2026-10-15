@@ -1,0 +1,73 @@
+{
+ "id": "1514183_2023-07-12",
+ "kind": "slide",
+ "cik": "1514183",
+ "name": "Silo Pharma, Inc.",
+ "date": "2023-07-12",
+ "asof": "2023-07-12",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-07-12",
+  "adj_close": 31.2
+ },
+ "balance": {
+  "end": "2023-03-31",
+  "cash": 10679585,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001213900-23-039078"
+ },
+ "burn6": {
+  "end": "2023-03-31",
+  "start": "2022-10-01",
+  "cash_used_ops": 1578677.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-05-10",
+  "shares": 3158797
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "The positive working capital serves to mitigate the conditions that historically raised substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 2,
+  "from": "2023-04-13",
+  "to": "2023-08-11",
+  "trades": [
+   {
+    "date": "2023-05-26",
+    "filed": "2023-05-26",
+    "code": "P",
+    "value": 2126,
+    "who": "Ryweck Daniel E."
+   },
+   {
+    "date": "2023-05-17",
+    "filed": "2023-05-18",
+    "code": "P",
+    "value": 5150,
+    "who": "Weisblum Eric"
+   },
+   {
+    "date": "2023-05-18",
+    "filed": "2023-05-18",
+    "code": "P",
+    "value": 1054,
+    "who": "Weisblum Eric"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "silo pharma",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

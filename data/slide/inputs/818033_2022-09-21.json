@@ -1,0 +1,51 @@
+{
+ "id": "818033_2022-09-21",
+ "kind": "slide",
+ "cik": "818033",
+ "name": "HERON THERAPEUTICS, INC. /DE/",
+ "date": "2022-09-21",
+ "asof": "2022-09-21",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-09-21",
+  "adj_close": 4.33
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 83538000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001564590-22-028599"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 72312000.0,
+  "capex": 1366000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-08-01",
+  "shares": 102632160
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Based on our cash balance of $83.5 million at June 30, 2022, without taking into account the net proceeds from the private placement noted above, there is substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 14,
+  "from": "2022-06-23",
+  "to": "2022-10-21",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "heron therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "id": "1703057_2022-09-23",
+ "kind": "slide",
+ "cik": "1703057",
+ "name": "AbCellera Biologics Inc.",
+ "date": "2022-09-23",
+ "asof": "2022-09-23",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-09-23",
+  "adj_close": 9.2
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 790615000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001564590-22-028784"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": -373234000.0,
+  "capex": 45817000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-08-04",
+  "shares": 285138643
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 2,
+  "from": "2022-06-25",
+  "to": "2022-10-23",
+  "trades": [
+   {
+    "date": "2022-08-19",
+    "filed": "2022-08-22",
+    "code": "P",
+    "value": 2292460,
+    "who": "Thermopylae Holdings Ltd."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "abcellera biologics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

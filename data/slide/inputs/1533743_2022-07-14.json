@@ -1,0 +1,70 @@
+{
+ "id": "1533743_2022-07-14",
+ "kind": "slide",
+ "cik": "1533743",
+ "name": "Processa Pharmaceuticals, Inc.",
+ "date": "2022-07-14",
+ "asof": "2022-07-14",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-07-14",
+  "adj_close": 1640.0
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 14394655,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001493152-22-013040"
+ },
+ "burn6": {
+  "end": "2022-03-31",
+  "start": "2021-10-01",
+  "cash_used_ops": 4529896.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-04-30",
+  "shares": 15837525
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 21,
+  "from": "2022-04-15",
+  "to": "2022-08-13",
+  "trades": [
+   {
+    "date": "2022-05-17",
+    "filed": "2022-05-19",
+    "code": "P",
+    "value": 3189,
+    "who": "Lin Patrick"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "processa pharmaceuticals",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04800562",
+    "drugs": [
+     "PCS499"
+    ]
+   },
+   {
+    "nct": "NCT05270460",
+    "drugs": [
+     "PCS12852"
+    ]
+   }
+  ]
+ }
+}

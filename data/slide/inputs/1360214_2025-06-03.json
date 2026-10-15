@@ -1,0 +1,106 @@
+{
+ "id": "1360214_2025-06-03",
+ "kind": "slide",
+ "cik": "1360214",
+ "name": "HARROW, INC.",
+ "date": "2025-06-03",
+ "asof": "2025-06-03",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-06-03",
+  "adj_close": 29.34
+ },
+ "balance": {
+  "end": "2025-03-31",
+  "cash": 66726000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001641172-25-009263"
+ },
+ "burn6": {
+  "end": "2025-03-31",
+  "start": "2024-10-01",
+  "cash_used_ops": -1889000.0,
+  "capex": 725000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-05-07",
+  "shares": 36699553
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 13,
+  "from": "2025-03-05",
+  "to": "2025-07-03",
+  "trades": [
+   {
+    "date": "2025-06-09",
+    "filed": "2025-06-11",
+    "code": "S",
+    "value": 461794,
+    "who": "Opaleye Management Inc."
+   },
+   {
+    "date": "2025-06-10",
+    "filed": "2025-06-11",
+    "code": "S",
+    "value": 462033,
+    "who": "Opaleye Management Inc."
+   },
+   {
+    "date": "2025-06-03",
+    "filed": "2025-06-05",
+    "code": "S",
+    "value": 90116,
+    "who": "Opaleye Management Inc."
+   },
+   {
+    "date": "2025-06-04",
+    "filed": "2025-06-05",
+    "code": "S",
+    "value": 53907,
+    "who": "Opaleye Management Inc."
+   },
+   {
+    "date": "2025-05-12",
+    "filed": "2025-05-14",
+    "code": "S",
+    "value": 258959,
+    "who": "Opaleye Management Inc."
+   },
+   {
+    "date": "2025-05-13",
+    "filed": "2025-05-14",
+    "code": "S",
+    "value": 132945,
+    "who": "Opaleye Management Inc."
+   },
+   {
+    "date": "2025-03-18",
+    "filed": "2025-03-26",
+    "code": "S",
+    "value": 150055,
+    "who": "Opaleye Management Inc."
+   },
+   {
+    "date": "2025-03-18",
+    "filed": "2025-03-20",
+    "code": "S",
+    "value": 148200,
+    "who": "Opaleye Management Inc."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "harrow",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

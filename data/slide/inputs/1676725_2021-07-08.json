@@ -1,0 +1,145 @@
+{
+ "id": "1676725_2021-07-08",
+ "kind": "slide",
+ "cik": "1676725",
+ "name": "IDEAYA Biosciences, Inc.",
+ "date": "2021-07-08",
+ "asof": "2021-07-08",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-07-08",
+  "adj_close": 17.26
+ },
+ "balance": {
+  "end": "2021-03-31",
+  "cash": 310401000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent",
+   "MarketableSecuritiesNoncurrent"
+  ],
+  "accn": "0001564590-21-026023"
+ },
+ "burn6": {
+  "end": "2021-03-31",
+  "start": "2020-10-01",
+  "cash_used_ops": 25320000.0,
+  "capex": 1182000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-05-03",
+  "shares": 32906040
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 13,
+  "from": "2021-04-09",
+  "to": "2021-08-07",
+  "trades": [
+   {
+    "date": "2021-07-27",
+    "filed": "2021-07-29",
+    "code": "S",
+    "value": 251460,
+    "who": "Dillon Michael P."
+   },
+   {
+    "date": "2021-07-27",
+    "filed": "2021-07-29",
+    "code": "S",
+    "value": 251683,
+    "who": "Throne Jason"
+   },
+   {
+    "date": "2021-07-06",
+    "filed": "2021-07-08",
+    "code": "S",
+    "value": 31082,
+    "who": "Dillon Michael P."
+   },
+   {
+    "date": "2021-07-06",
+    "filed": "2021-07-08",
+    "code": "S",
+    "value": 2276,
+    "who": "Dillon Michael P."
+   },
+   {
+    "date": "2021-07-06",
+    "filed": "2021-07-08",
+    "code": "S",
+    "value": 143357,
+    "who": "Throne Jason"
+   },
+   {
+    "date": "2021-07-06",
+    "filed": "2021-07-08",
+    "code": "S",
+    "value": 25895,
+    "who": "Throne Jason"
+   },
+   {
+    "date": "2021-07-06",
+    "filed": "2021-07-08",
+    "code": "S",
+    "value": 45015,
+    "who": "Throne Jason"
+   },
+   {
+    "date": "2021-07-06",
+    "filed": "2021-07-08",
+    "code": "S",
+    "value": 8140,
+    "who": "Throne Jason"
+   },
+   {
+    "date": "2021-06-16",
+    "filed": "2021-06-17",
+    "code": "S",
+    "value": 24873,
+    "who": "Dillon Michael P."
+   },
+   {
+    "date": "2021-06-17",
+    "filed": "2021-06-17",
+    "code": "S",
+    "value": 87540,
+    "who": "Dillon Michael P."
+   },
+   {
+    "date": "2021-06-07",
+    "filed": "2021-06-09",
+    "code": "S",
+    "value": 30333,
+    "who": "Dillon Michael P."
+   },
+   {
+    "date": "2021-05-11",
+    "filed": "2021-05-13",
+    "code": "S",
+    "value": 101092,
+    "who": "Dillon Michael P."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "ideaya biosciences",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03947385",
+    "drugs": [
+     "IDE196",
+     "Binimetinib",
+     "Crizotinib"
+    ]
+   }
+  ]
+ }
+}

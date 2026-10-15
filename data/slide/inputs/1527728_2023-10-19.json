@@ -1,0 +1,50 @@
+{
+ "id": "1527728_2023-10-19",
+ "kind": "slide",
+ "cik": "1527728",
+ "name": "Lunai Bioworks Inc.",
+ "date": "2023-10-19",
+ "asof": "2023-10-19",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-10-19",
+  "adj_close": 276.0
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 1874480,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001731122-23-001770"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 5569404.0,
+  "capex": 6141.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-09-29",
+  "shares": 65698144
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "\u00b7There is substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2023-07-21",
+  "to": "2023-11-18",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "lunai bioworks",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

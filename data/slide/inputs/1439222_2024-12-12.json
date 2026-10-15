@@ -1,0 +1,148 @@
+{
+ "id": "1439222_2024-12-12",
+ "kind": "slide",
+ "cik": "1439222",
+ "name": "AGIOS PHARMACEUTICALS, INC.",
+ "date": "2024-12-12",
+ "asof": "2024-12-12",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-12-12",
+  "adj_close": 38.17
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 1660646000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0001439222-24-000138"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": 156807000.0,
+  "capex": 577000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-10-25",
+  "shares": 57030195
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2024-09-13",
+  "to": "2025-01-11",
+  "trades": [
+   {
+    "date": "2025-01-06",
+    "filed": "2025-01-07",
+    "code": "S",
+    "value": 90233,
+    "who": "Milanova Tsveta"
+   },
+   {
+    "date": "2024-12-11",
+    "filed": "2024-12-13",
+    "code": "S",
+    "value": 9256,
+    "who": "Scadden David"
+   },
+   {
+    "date": "2024-11-08",
+    "filed": "2024-11-13",
+    "code": "S",
+    "value": 43301,
+    "who": "Washburn Theodore James Jr."
+   },
+   {
+    "date": "2024-11-07",
+    "filed": "2024-11-12",
+    "code": "S",
+    "value": 433598,
+    "who": "Ballal Rahul D."
+   },
+   {
+    "date": "2024-11-07",
+    "filed": "2024-11-12",
+    "code": "S",
+    "value": 101638,
+    "who": "Ballal Rahul D."
+   },
+   {
+    "date": "2024-11-08",
+    "filed": "2024-11-12",
+    "code": "S",
+    "value": 204404,
+    "who": "Ballal Rahul D."
+   },
+   {
+    "date": "2024-11-08",
+    "filed": "2024-11-12",
+    "code": "S",
+    "value": 288692,
+    "who": "Ballal Rahul D."
+   },
+   {
+    "date": "2024-11-08",
+    "filed": "2024-11-12",
+    "code": "S",
+    "value": 88815,
+    "who": "Ballal Rahul D."
+   },
+   {
+    "date": "2024-11-07",
+    "filed": "2024-11-12",
+    "code": "S",
+    "value": 697372,
+    "who": "Burns James William"
+   },
+   {
+    "date": "2024-11-07",
+    "filed": "2024-11-12",
+    "code": "S",
+    "value": 438403,
+    "who": "Burns James William"
+   },
+   {
+    "date": "2024-09-26",
+    "filed": "2024-09-30",
+    "code": "S",
+    "value": 124634,
+    "who": "Jones Cecilia"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "agios pharmaceuticals",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05490446",
+    "drugs": [
+     "Tebapivat"
+    ]
+   },
+   {
+    "nct": "NCT05175105",
+    "drugs": [
+     "Mitapivat"
+    ]
+   },
+   {
+    "nct": "NCT05031780",
+    "drugs": [
+     "Mitapivat"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "id": "1006281_2026-06-22",
+ "kind": "slide",
+ "cik": "1006281",
+ "name": "Protalix BioTherapeutics, Inc.",
+ "date": "2026-06-22",
+ "asof": "2026-06-22",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-06-22",
+  "adj_close": 2.16
+ },
+ "balance": {
+  "end": "2026-03-31",
+  "cash": 41001000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001104659-26-059756"
+ },
+ "burn6": {
+  "end": "2026-03-31",
+  "start": "2025-10-01",
+  "cash_used_ops": -24055000.0,
+  "capex": 1164000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-05-01",
+  "shares": 80571642
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2026-03-24",
+  "to": "2026-07-22",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "protalix biotherapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "id": "886744_2025-09-12",
+ "kind": "slide",
+ "cik": "886744",
+ "name": "GERON CORP",
+ "date": "2025-09-12",
+ "asof": "2025-09-12",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-09-12",
+  "adj_close": 1.27
+ },
+ "balance": {
+  "end": "2025-06-30",
+  "cash": 77734000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000886744-25-000052"
+ },
+ "burn6": {
+  "end": "2025-06-30",
+  "start": "2025-01-01",
+  "cash_used_ops": 75394000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-08-01",
+  "shares": 638017073
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2025-06-14",
+  "to": "2025-10-12",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "geron",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04576156",
+    "drugs": [
+     "Imetelstat",
+     "Best Available Therapy (BAT)"
+    ]
+   }
+  ]
+ }
+}

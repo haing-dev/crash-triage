@@ -1,0 +1,57 @@
+{
+ "id": "1840904_2025-11-05",
+ "kind": "slide",
+ "cik": "1840904",
+ "name": "Atai Beckley N.V.",
+ "date": "2025-11-05",
+ "asof": "2025-11-05",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-11-05",
+  "adj_close": 4.48
+ },
+ "balance": {
+  "end": "2025-06-30",
+  "cash": 61940000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-25-108883"
+ },
+ "burn6": {
+  "end": "2025-06-30",
+  "start": "2025-01-01",
+  "cash_used_ops": 31935000.0,
+  "capex": 395000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-08-11",
+  "shares": 214338329
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2025-08-07",
+  "to": "2025-12-05",
+  "trades": [
+   {
+    "date": "2025-08-14",
+    "filed": "2025-08-18",
+    "code": "P",
+    "value": 19000000,
+    "who": "Apeiron Investment Group Ltd."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "atai beckley",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

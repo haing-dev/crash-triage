@@ -1,0 +1,72 @@
+{
+ "id": "1535955_2023-01-18",
+ "kind": "slide",
+ "cik": "1535955",
+ "name": "Lipocine Inc.",
+ "date": "2023-01-18",
+ "asof": "2023-01-18",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-01-18",
+  "adj_close": 9.18
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 34255802,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001493152-22-031032"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 6244503.0,
+  "capex": 10302.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-11-07",
+  "shares": 88510791
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2022-10-20",
+  "to": "2023-02-17",
+  "trades": [
+   {
+    "date": "2022-11-22",
+    "filed": "2022-11-28",
+    "code": "P",
+    "value": 10217,
+    "who": "Papapetropoulos Spyros"
+   },
+   {
+    "date": "2022-11-14",
+    "filed": "2022-11-14",
+    "code": "P",
+    "value": 29250,
+    "who": "Patel Mahesh V."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "lipocine",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04874350",
+    "drugs": [
+     "LPCN 1148"
+    ]
+   }
+  ]
+ }
+}

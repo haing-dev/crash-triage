@@ -1,0 +1,129 @@
+{
+ "id": "1781174_2026-07-29",
+ "kind": "slide",
+ "cik": "1781174",
+ "name": "Acrivon Therapeutics, Inc.",
+ "date": "2026-07-29",
+ "asof": "2026-07-29",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-07-29",
+  "adj_close": 1.43
+ },
+ "balance": {
+  "end": "2026-03-31",
+  "cash": 97737000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001193125-26-221634"
+ },
+ "burn6": {
+  "end": "2026-03-31",
+  "start": "2025-10-01",
+  "cash_used_ops": 35775000.0,
+  "capex": 233000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-05-08",
+  "shares": 42801729
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 35,
+  "from": "2026-04-30",
+  "to": "2026-08-28",
+  "trades": [
+   {
+    "date": "2026-08-25",
+    "filed": "2026-08-27",
+    "code": "S",
+    "value": 30969,
+    "who": "Blume-Jensen Peter"
+   },
+   {
+    "date": "2026-08-18",
+    "filed": "2026-08-20",
+    "code": "S",
+    "value": 203,
+    "who": "Peterson Katharine"
+   },
+   {
+    "date": "2026-08-18",
+    "filed": "2026-08-20",
+    "code": "S",
+    "value": 372,
+    "who": "Miller Mary"
+   },
+   {
+    "date": "2026-08-18",
+    "filed": "2026-08-20",
+    "code": "S",
+    "value": 804,
+    "who": "Gamelin Erick"
+   },
+   {
+    "date": "2026-08-18",
+    "filed": "2026-08-20",
+    "code": "S",
+    "value": 1214,
+    "who": "Devroe Eric"
+   },
+   {
+    "date": "2026-08-18",
+    "filed": "2026-08-20",
+    "code": "S",
+    "value": 2470,
+    "who": "Blume-Jensen Peter"
+   },
+   {
+    "date": "2026-08-18",
+    "filed": "2026-08-20",
+    "code": "S",
+    "value": 973,
+    "who": "Blume-Jensen Peter"
+   },
+   {
+    "date": "2026-08-04",
+    "filed": "2026-08-06",
+    "code": "S",
+    "value": 1793,
+    "who": "Levy Adam D."
+   },
+   {
+    "date": "2026-07-21",
+    "filed": "2026-07-23",
+    "code": "S",
+    "value": 1008,
+    "who": "Miller Mary"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "acrivon therapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05548296",
+    "drugs": [
+     "ACR-368",
+     "Gemcitabine",
+     "OncoSignature"
+    ]
+   },
+   {
+    "nct": "NCT06667141",
+    "drugs": [
+     "ACR-2316"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,192 @@
+{
+ "id": "1750284_2021-11-22",
+ "kind": "slide",
+ "cik": "1750284",
+ "name": "Olema Pharmaceuticals, Inc.",
+ "date": "2021-11-22",
+ "asof": "2021-11-22",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-11-22",
+  "adj_close": 21.25
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 305954000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001558370-21-015506"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 21003000.0,
+  "capex": 456000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-11-05",
+  "shares": 40287641
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "As a result, these conditions raise substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 13,
+  "from": "2021-08-24",
+  "to": "2021-12-22",
+  "trades": [
+   {
+    "date": "2021-12-10",
+    "filed": "2021-12-14",
+    "code": "S",
+    "value": 54558,
+    "who": "Horn Kinney"
+   },
+   {
+    "date": "2021-12-10",
+    "filed": "2021-12-14",
+    "code": "S",
+    "value": 103000,
+    "who": "Myles David C."
+   },
+   {
+    "date": "2021-11-30",
+    "filed": "2021-12-02",
+    "code": "P",
+    "value": 3403326,
+    "who": "BVF PARTNERS L P/IL"
+   },
+   {
+    "date": "2021-11-30",
+    "filed": "2021-12-02",
+    "code": "P",
+    "value": 3211267,
+    "who": "BVF PARTNERS L P/IL"
+   },
+   {
+    "date": "2021-11-30",
+    "filed": "2021-12-02",
+    "code": "P",
+    "value": 331177,
+    "who": "BVF PARTNERS L P/IL"
+   },
+   {
+    "date": "2021-11-29",
+    "filed": "2021-12-01",
+    "code": "S",
+    "value": 9904,
+    "who": "Harmon Cyrus"
+   },
+   {
+    "date": "2021-11-10",
+    "filed": "2021-11-12",
+    "code": "S",
+    "value": 743716,
+    "who": "Horn Kinney"
+   },
+   {
+    "date": "2021-10-19",
+    "filed": "2021-10-21",
+    "code": "S",
+    "value": 207343,
+    "who": "Harmon Cyrus"
+   },
+   {
+    "date": "2021-10-19",
+    "filed": "2021-10-21",
+    "code": "S",
+    "value": 128451,
+    "who": "Harmon Cyrus"
+   },
+   {
+    "date": "2021-10-14",
+    "filed": "2021-10-15",
+    "code": "S",
+    "value": 141423,
+    "who": "Bohen Sean"
+   },
+   {
+    "date": "2021-10-14",
+    "filed": "2021-10-15",
+    "code": "S",
+    "value": 10941,
+    "who": "Bohen Sean"
+   },
+   {
+    "date": "2021-10-11",
+    "filed": "2021-10-12",
+    "code": "S",
+    "value": 57824,
+    "who": "Horn Kinney"
+   },
+   {
+    "date": "2021-10-11",
+    "filed": "2021-10-12",
+    "code": "S",
+    "value": 88686,
+    "who": "Horn Kinney"
+   },
+   {
+    "date": "2021-09-27",
+    "filed": "2021-09-29",
+    "code": "S",
+    "value": 32626,
+    "who": "Bohen Sean"
+   },
+   {
+    "date": "2021-09-20",
+    "filed": "2021-09-21",
+    "code": "S",
+    "value": 315600,
+    "who": "Harmon Cyrus"
+   },
+   {
+    "date": "2021-09-10",
+    "filed": "2021-09-13",
+    "code": "S",
+    "value": 154274,
+    "who": "Horn Kinney"
+   },
+   {
+    "date": "2021-09-07",
+    "filed": "2021-09-09",
+    "code": "S",
+    "value": 12423,
+    "who": "Bohen Sean"
+   },
+   {
+    "date": "2021-09-08",
+    "filed": "2021-09-09",
+    "code": "S",
+    "value": 78930,
+    "who": "Bohen Sean"
+   },
+   {
+    "date": "2021-09-01",
+    "filed": "2021-09-03",
+    "code": "S",
+    "value": 26174,
+    "who": "Bohen Sean"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "olema pharmaceuticals",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04505826",
+    "drugs": [
+     "OP-1250"
+    ]
+   }
+  ]
+ }
+}

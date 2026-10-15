@@ -1,0 +1,81 @@
+{
+ "id": "1393434_2023-06-14",
+ "kind": "slide",
+ "cik": "1393434",
+ "name": "OCULAR THERAPEUTIX, INC",
+ "date": "2023-06-14",
+ "asof": "2023-06-14",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-06-14",
+  "adj_close": 5.31
+ },
+ "balance": {
+  "end": "2023-03-31",
+  "cash": 79026000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-23-008510"
+ },
+ "burn6": {
+  "end": "2023-03-31",
+  "start": "2022-10-01",
+  "cash_used_ops": 36931000.0,
+  "capex": 5529000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-05-04",
+  "shares": 77524666
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2023-03-16",
+  "to": "2023-07-14",
+  "trades": [
+   {
+    "date": "2023-07-07",
+    "filed": "2023-07-11",
+    "code": "S",
+    "value": 4102,
+    "who": "Ozden Rabia Gurses"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "ocular therapeutix",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05814757",
+    "drugs": [
+     "OTX-DED",
+     "Controlled Insertion",
+     "Collagen Punctal Plug"
+    ]
+   },
+   {
+    "nct": "NCT05335122",
+    "drugs": [
+     "OTX-TIC low dose Travoprost Intracameral Implant",
+     "OTX-TIC high dose Travoprost Intracameral Implant",
+     "Durysta, Bimatoprost Intracameral Implant 10 \u00b5g"
+    ]
+   },
+   {
+    "nct": "NCT04539548",
+    "drugs": [
+     "Dextenza Ophthalmic Insert",
+     "Prednisolone acetate ophthalmic suspension USP 1%"
+    ]
+   }
+  ]
+ }
+}

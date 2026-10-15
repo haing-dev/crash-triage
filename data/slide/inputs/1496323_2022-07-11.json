@@ -1,0 +1,132 @@
+{
+ "id": "1496323_2022-07-11",
+ "kind": "slide",
+ "cik": "1496323",
+ "name": "IGM Biosciences, Inc.",
+ "date": "2022-07-11",
+ "asof": "2022-07-11",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-07-11",
+  "adj_close": 19.35
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 187462000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-22-008476"
+ },
+ "burn6": {
+  "end": "2022-03-31",
+  "start": "2021-10-01",
+  "cash_used_ops": 73777000.0,
+  "capex": 4740000.0,
+  "periods": 2
+ },
+ "shares": null,
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 21,
+  "from": "2022-04-12",
+  "to": "2022-08-10",
+  "trades": [
+   {
+    "date": "2022-05-24",
+    "filed": "2022-05-26",
+    "code": "S",
+    "value": 16043,
+    "who": "Takimoto Chris H"
+   },
+   {
+    "date": "2022-05-26",
+    "filed": "2022-05-26",
+    "code": "S",
+    "value": 16247,
+    "who": "Tahir Misbah"
+   },
+   {
+    "date": "2022-05-24",
+    "filed": "2022-05-26",
+    "code": "S",
+    "value": 23294,
+    "who": "Schwarzer Fred"
+   },
+   {
+    "date": "2022-05-24",
+    "filed": "2022-05-26",
+    "code": "S",
+    "value": 16058,
+    "who": "Keyt Bruce"
+   },
+   {
+    "date": "2022-05-24",
+    "filed": "2022-05-26",
+    "code": "S",
+    "value": 22917,
+    "who": "Gauthier George"
+   },
+   {
+    "date": "2022-05-24",
+    "filed": "2022-05-26",
+    "code": "S",
+    "value": 23293,
+    "who": "Decker Lisa Lynn"
+   },
+   {
+    "date": "2022-05-20",
+    "filed": "2022-05-24",
+    "code": "P",
+    "value": 23696,
+    "who": "Topsoe Jakob Haldor"
+   },
+   {
+    "date": "2022-05-12",
+    "filed": "2022-05-16",
+    "code": "P",
+    "value": 116991,
+    "who": "Topsoe Jakob Haldor"
+   },
+   {
+    "date": "2022-05-13",
+    "filed": "2022-05-16",
+    "code": "P",
+    "value": 116683,
+    "who": "Topsoe Jakob Haldor"
+   },
+   {
+    "date": "2022-05-12",
+    "filed": "2022-05-16",
+    "code": "P",
+    "value": 32248,
+    "who": "Topsoe Christina Teng"
+   },
+   {
+    "date": "2022-05-13",
+    "filed": "2022-05-16",
+    "code": "P",
+    "value": 67593,
+    "who": "Topsoe Christina Teng"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "igm biosciences",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04082936",
+    "drugs": [
+     "imvotamab"
+    ]
+   }
+  ]
+ }
+}

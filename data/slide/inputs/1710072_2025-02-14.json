@@ -1,0 +1,165 @@
+{
+ "id": "1710072_2025-02-14",
+ "kind": "slide",
+ "cik": "1710072",
+ "name": "Edgewise Therapeutics, Inc.",
+ "date": "2025-02-14",
+ "asof": "2025-02-14",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-02-14",
+  "adj_close": 25.39
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 44806000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-24-014762"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": 53473000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-10-31",
+  "shares": 94688517
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 9,
+  "from": "2024-11-16",
+  "to": "2025-03-16",
+  "trades": [
+   {
+    "date": "2025-03-07",
+    "filed": "2025-03-11",
+    "code": "S",
+    "value": 6004,
+    "who": "Russell Alan J"
+   },
+   {
+    "date": "2025-03-07",
+    "filed": "2025-03-11",
+    "code": "S",
+    "value": 3000,
+    "who": "KOCH KEVIN"
+   },
+   {
+    "date": "2025-02-05",
+    "filed": "2025-02-07",
+    "code": "S",
+    "value": 240623,
+    "who": "Russell Alan J"
+   },
+   {
+    "date": "2025-02-06",
+    "filed": "2025-02-07",
+    "code": "S",
+    "value": 36153,
+    "who": "Russell Alan J"
+   },
+   {
+    "date": "2025-02-05",
+    "filed": "2025-02-07",
+    "code": "S",
+    "value": 259298,
+    "who": "KOCH KEVIN"
+   },
+   {
+    "date": "2025-02-06",
+    "filed": "2025-02-07",
+    "code": "S",
+    "value": 28018,
+    "who": "KOCH KEVIN"
+   },
+   {
+    "date": "2025-02-05",
+    "filed": "2025-02-07",
+    "code": "S",
+    "value": 300300,
+    "who": "Derakhshan Behrad"
+   },
+   {
+    "date": "2025-01-28",
+    "filed": "2025-01-30",
+    "code": "S",
+    "value": 690658,
+    "who": "Donovan Joanne M."
+   },
+   {
+    "date": "2024-12-30",
+    "filed": "2024-12-31",
+    "code": "S",
+    "value": 2737470,
+    "who": "Russell Alan J"
+   },
+   {
+    "date": "2024-12-24",
+    "filed": "2024-12-27",
+    "code": "S",
+    "value": 829906,
+    "who": "Semigran Marc"
+   },
+   {
+    "date": "2024-12-24",
+    "filed": "2024-12-27",
+    "code": "S",
+    "value": 52009,
+    "who": "Semigran Marc"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "edgewise therapeutics",
+  "other_trials": 5,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05540860",
+    "drugs": [
+     "Sevasemten Dose 1",
+     "Sevasemten Dose 2",
+     "Sevasemten Dose 3"
+    ]
+   },
+   {
+    "nct": "NCT06100887",
+    "drugs": [
+     "Sevasemten Dose 1",
+     "Sevasemten Dose 2",
+     "Sevasemten Dose 3"
+    ]
+   },
+   {
+    "nct": "NCT06347159",
+    "drugs": [
+     "EDG-7500",
+     "EDG-7500"
+    ]
+   },
+   {
+    "nct": "NCT05291091",
+    "drugs": [
+     "Sevasemten 10 mg",
+     "Sevasemten 5 mg",
+     "Sevasemten 12.5 mg"
+    ]
+   },
+   {
+    "nct": "NCT06066580",
+    "drugs": [
+     "Sevasemten"
+    ]
+   }
+  ]
+ }
+}

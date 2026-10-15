@@ -1,0 +1,92 @@
+{
+ "id": "791908_2022-06-08",
+ "kind": "slide",
+ "cik": "791908",
+ "name": "XOMA Royalty Corp",
+ "date": "2022-06-08",
+ "asof": "2022-06-08",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-06-08",
+  "adj_close": 20.68
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 87796000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-22-007241"
+ },
+ "burn6": {
+  "end": "2022-03-31",
+  "start": "2021-10-01",
+  "cash_used_ops": -29633000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-05-02",
+  "shares": 11420935
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 10,
+  "from": "2022-03-10",
+  "to": "2022-07-08",
+  "trades": [
+   {
+    "date": "2022-03-21",
+    "filed": "2022-03-23",
+    "code": "S",
+    "value": 1450250,
+    "who": "Neal James R"
+   },
+   {
+    "date": "2022-03-22",
+    "filed": "2022-03-23",
+    "code": "S",
+    "value": 70209,
+    "who": "Neal James R"
+   },
+   {
+    "date": "2022-03-23",
+    "filed": "2022-03-23",
+    "code": "S",
+    "value": 33348,
+    "who": "Neal James R"
+   },
+   {
+    "date": "2022-03-21",
+    "filed": "2022-03-23",
+    "code": "S",
+    "value": 348060,
+    "who": "BURNS THOMAS M."
+   },
+   {
+    "date": "2022-03-22",
+    "filed": "2022-03-23",
+    "code": "S",
+    "value": 70209,
+    "who": "BURNS THOMAS M."
+   },
+   {
+    "date": "2022-03-23",
+    "filed": "2022-03-23",
+    "code": "S",
+    "value": 4830,
+    "who": "BURNS THOMAS M."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "xoma royalty",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

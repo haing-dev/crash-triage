@@ -1,0 +1,69 @@
+{
+ "id": "1708527_2022-01-05",
+ "kind": "slide",
+ "cik": "1708527",
+ "name": "ELUTIA INC.",
+ "date": "2022-01-05",
+ "asof": "2022-01-05",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-01-05",
+  "adj_close": 6.46
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 22543000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-21-015500"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 3885000.0,
+  "capex": 213000.0,
+  "periods": 2
+ },
+ "shares": null,
+ "going_concern": {
+  "flag": true,
+  "quote": "We have identified conditions and events that raise substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 2,
+  "from": "2021-10-07",
+  "to": "2022-02-04",
+  "trades": [
+   {
+    "date": "2021-12-14",
+    "filed": "2021-12-15",
+    "code": "P",
+    "value": 27938,
+    "who": "Englese Thomas"
+   },
+   {
+    "date": "2021-12-08",
+    "filed": "2021-12-10",
+    "code": "P",
+    "value": 1499998,
+    "who": "HighCape Capital, L.P."
+   },
+   {
+    "date": "2021-12-08",
+    "filed": "2021-12-10",
+    "code": "P",
+    "value": 249999,
+    "who": "HighCape Capital, L.P."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "elutia",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

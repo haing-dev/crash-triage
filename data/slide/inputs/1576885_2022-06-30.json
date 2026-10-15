@@ -1,0 +1,51 @@
+{
+ "id": "1576885_2022-06-30",
+ "kind": "slide",
+ "cik": "1576885",
+ "name": "Acumen Pharmaceuticals, Inc.",
+ "date": "2022-06-30",
+ "asof": "2022-06-30",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-06-30",
+  "adj_close": 4.7
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 216748000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent",
+   "MarketableSecuritiesNoncurrent"
+  ],
+  "accn": "0001193125-22-151851"
+ },
+ "burn6": {
+  "end": "2022-03-31",
+  "start": "2021-10-01",
+  "cash_used_ops": 11938000.0,
+  "capex": 35000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-05-13",
+  "shares": 40501258
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2022-04-01",
+  "to": "2022-07-30",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "acumen pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

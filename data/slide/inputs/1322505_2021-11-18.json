@@ -1,0 +1,85 @@
+{
+ "id": "1322505_2021-11-18",
+ "kind": "slide",
+ "cik": "1322505",
+ "name": "ALBIREO PHARMA, INC.",
+ "date": "2021-11-18",
+ "asof": "2021-11-18",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-11-18",
+  "adj_close": 24.98
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 262612000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-21-014469"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 58952000.0,
+  "capex": 312233.82352941175,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-10-28",
+  "shares": 19278634
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2021-08-20",
+  "to": "2021-12-18",
+  "trades": [
+   {
+    "date": "2021-10-22",
+    "filed": "2021-10-25",
+    "code": "S",
+    "value": 2739,
+    "who": "Horn Patrick Taylor"
+   },
+   {
+    "date": "2021-10-22",
+    "filed": "2021-10-25",
+    "code": "S",
+    "value": 2741,
+    "who": "Duncan Jason"
+   },
+   {
+    "date": "2021-10-25",
+    "filed": "2021-10-25",
+    "code": "S",
+    "value": 6339,
+    "who": "Duncan Jason"
+   },
+   {
+    "date": "2021-10-11",
+    "filed": "2021-10-12",
+    "code": "S",
+    "value": 2812,
+    "who": "Harford Simon N.R."
+   },
+   {
+    "date": "2021-09-27",
+    "filed": "2021-09-28",
+    "code": "S",
+    "value": 14456,
+    "who": "Stephenson Pamela"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "albireo pharma",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

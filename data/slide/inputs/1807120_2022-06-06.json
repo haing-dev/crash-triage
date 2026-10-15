@@ -1,0 +1,86 @@
+{
+ "id": "1807120_2022-06-06",
+ "kind": "slide",
+ "cik": "1807120",
+ "name": "Design Therapeutics, Inc.",
+ "date": "2022-06-06",
+ "asof": "2022-06-06",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-06-06",
+  "adj_close": 13.83
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 371220000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-22-008500"
+ },
+ "burn6": {
+  "end": "2022-03-31",
+  "start": "2021-10-01",
+  "cash_used_ops": 21054000.0,
+  "capex": 430000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-05-02",
+  "shares": 55782448
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 10,
+  "from": "2022-03-08",
+  "to": "2022-07-06",
+  "trades": [
+   {
+    "date": "2022-03-21",
+    "filed": "2022-03-22",
+    "code": "P",
+    "value": 474680,
+    "who": "William Arsani"
+   },
+   {
+    "date": "2022-03-18",
+    "filed": "2022-03-22",
+    "code": "S",
+    "value": 10514364,
+    "who": "Xu Stella"
+   },
+   {
+    "date": "2022-03-18",
+    "filed": "2022-03-22",
+    "code": "S",
+    "value": 268488,
+    "who": "Xu Stella"
+   },
+   {
+    "date": "2022-03-21",
+    "filed": "2022-03-22",
+    "code": "S",
+    "value": 456240,
+    "who": "Xu Stella"
+   },
+   {
+    "date": "2022-03-22",
+    "filed": "2022-03-22",
+    "code": "S",
+    "value": 27105,
+    "who": "Xu Stella"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "design therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

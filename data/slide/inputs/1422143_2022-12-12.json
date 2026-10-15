@@ -1,0 +1,81 @@
+{
+ "id": "1422143_2022-12-12",
+ "kind": "slide",
+ "cik": "1422143",
+ "name": "Kura Oncology, Inc.",
+ "date": "2022-12-12",
+ "asof": "2022-12-12",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-12-12",
+  "adj_close": 13.17
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 427775000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0000950170-22-021605"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 51351000.0,
+  "capex": 565000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-10-27",
+  "shares": 66896972
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2022-09-13",
+  "to": "2023-01-11",
+  "trades": [
+   {
+    "date": "2022-11-17",
+    "filed": "2022-11-18",
+    "code": "S",
+    "value": 31965,
+    "who": "Bair Teresa Brophy"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "kura oncology",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04997902",
+    "drugs": [
+     "Tipifarnib",
+     "Alpelisib"
+    ]
+   },
+   {
+    "nct": "NCT03719690",
+    "drugs": [
+     "Tipifarnib",
+     "HRAS Detection Assay"
+    ]
+   },
+   {
+    "nct": "NCT04067336",
+    "drugs": [
+     "Ziftomenib",
+     "Midazolam",
+     "Itraconazole"
+    ]
+   }
+  ]
+ }
+}

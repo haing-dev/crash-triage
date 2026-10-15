@@ -1,0 +1,129 @@
+{
+ "id": "1855175_2026-09-29",
+ "kind": "slide",
+ "cik": "1855175",
+ "name": "Contineum Therapeutics, Inc.",
+ "date": "2026-09-29",
+ "asof": "2026-09-29",
+ "final": false,
+ "version": 5,
+ "price": {
+  "date": "2026-09-29",
+  "adj_close": 11.5
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 236551000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001628280-26-051054"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": 27767000.0,
+  "capex": 318000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-10-27",
+  "shares": 23099173
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 7,
+  "from": "2026-07-01",
+  "to": "2026-10-15",
+  "trades": [
+   {
+    "date": "2026-09-08",
+    "filed": "2026-09-08",
+    "code": "S",
+    "value": 41142,
+    "who": "Stengone Carmine N."
+   },
+   {
+    "date": "2026-08-03",
+    "filed": "2026-08-03",
+    "code": "S",
+    "value": 40029,
+    "who": "Stengone Carmine N."
+   },
+   {
+    "date": "2026-07-08",
+    "filed": "2026-07-10",
+    "code": "S",
+    "value": 16240,
+    "who": "Lorrain Daniel S."
+   },
+   {
+    "date": "2026-07-09",
+    "filed": "2026-07-10",
+    "code": "S",
+    "value": 400,
+    "who": "Lorrain Daniel S."
+   },
+   {
+    "date": "2026-07-08",
+    "filed": "2026-07-08",
+    "code": "S",
+    "value": 40000,
+    "who": "Stengone Carmine N."
+   },
+   {
+    "date": "2026-06-30",
+    "filed": "2026-07-02",
+    "code": "S",
+    "value": 462288,
+    "who": "Lorrain Daniel S."
+   },
+   {
+    "date": "2026-07-01",
+    "filed": "2026-07-02",
+    "code": "S",
+    "value": 91682,
+    "who": "Lorrain Daniel S."
+   },
+   {
+    "date": "2026-07-01",
+    "filed": "2026-07-02",
+    "code": "S",
+    "value": 40608,
+    "who": "Lorrain Daniel S."
+   },
+   {
+    "date": "2026-06-30",
+    "filed": "2026-07-01",
+    "code": "S",
+    "value": 173590,
+    "who": "Watkins Tim"
+   },
+   {
+    "date": "2026-06-30",
+    "filed": "2026-07-01",
+    "code": "S",
+    "value": 160080,
+    "who": "Stengone Carmine N."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "contineum therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT07284459",
+    "drugs": [
+     "PIPE-791 Dose A",
+     "PIPE-791 Dose B"
+    ]
+   }
+  ]
+ }
+}

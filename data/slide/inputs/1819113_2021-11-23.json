@@ -1,0 +1,49 @@
+{
+ "id": "1819113_2021-11-23",
+ "kind": "slide",
+ "cik": "1819113",
+ "name": "Science 37 Holdings, Inc.",
+ "date": "2021-11-23",
+ "asof": "2021-11-23",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-11-23",
+  "adj_close": 188.6
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 200897,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001104659-21-138682"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 527029.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-11-15",
+  "shares": 10011301
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 21,
+  "from": "2021-08-25",
+  "to": "2021-12-23",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "science 37",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

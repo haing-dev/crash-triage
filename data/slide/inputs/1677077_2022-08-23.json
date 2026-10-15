@@ -1,0 +1,211 @@
+{
+ "id": "1677077_2022-08-23",
+ "kind": "slide",
+ "cik": "1677077",
+ "name": "Alzamend Neuro, Inc.",
+ "date": "2022-08-23",
+ "asof": "2022-08-23",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-08-23",
+  "adj_close": 1275.75
+ },
+ "balance": {
+  "end": "2022-04-30",
+  "cash": 14063811,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001214659-22-008985"
+ },
+ "burn6": {
+  "end": "2022-04-30",
+  "start": "2021-11-01",
+  "cash_used_ops": 3345156.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-07-19",
+  "shares": 95481790
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 21,
+  "from": "2022-05-25",
+  "to": "2022-09-22",
+  "trades": [
+   {
+    "date": "2022-09-19",
+    "filed": "2022-09-20",
+    "code": "P",
+    "value": 10414,
+    "who": "Jackman Stephan"
+   },
+   {
+    "date": "2022-09-14",
+    "filed": "2022-09-14",
+    "code": "P",
+    "value": 11092,
+    "who": "Katzoff David J"
+   },
+   {
+    "date": "2022-08-26",
+    "filed": "2022-08-29",
+    "code": "P",
+    "value": 8561,
+    "who": "AULT MILTON C III"
+   },
+   {
+    "date": "2022-08-25",
+    "filed": "2022-08-26",
+    "code": "P",
+    "value": 4704,
+    "who": "AULT MILTON C III"
+   },
+   {
+    "date": "2022-08-22",
+    "filed": "2022-08-23",
+    "code": "P",
+    "value": 34895,
+    "who": "AULT MILTON C III"
+   },
+   {
+    "date": "2022-08-16",
+    "filed": "2022-08-18",
+    "code": "P",
+    "value": 16214,
+    "who": "AULT MILTON C III"
+   },
+   {
+    "date": "2022-08-15",
+    "filed": "2022-08-16",
+    "code": "P",
+    "value": 14833,
+    "who": "AULT MILTON C III"
+   },
+   {
+    "date": "2022-08-12",
+    "filed": "2022-08-15",
+    "code": "P",
+    "value": 1040,
+    "who": "AULT MILTON C III"
+   },
+   {
+    "date": "2022-08-03",
+    "filed": "2022-08-04",
+    "code": "P",
+    "value": 1896,
+    "who": "AULT MILTON C III"
+   },
+   {
+    "date": "2022-07-27",
+    "filed": "2022-07-28",
+    "code": "P",
+    "value": 4959,
+    "who": "AULT MILTON C III"
+   },
+   {
+    "date": "2022-07-22",
+    "filed": "2022-07-25",
+    "code": "P",
+    "value": 2082,
+    "who": "AULT MILTON C III"
+   },
+   {
+    "date": "2022-07-18",
+    "filed": "2022-07-19",
+    "code": "P",
+    "value": 9773,
+    "who": "AULT MILTON C III"
+   },
+   {
+    "date": "2022-06-29",
+    "filed": "2022-06-30",
+    "code": "P",
+    "value": 8830,
+    "who": "AULT MILTON C III"
+   },
+   {
+    "date": "2022-06-17",
+    "filed": "2022-06-21",
+    "code": "P",
+    "value": 8841,
+    "who": "AULT MILTON C III"
+   },
+   {
+    "date": "2022-06-15",
+    "filed": "2022-06-16",
+    "code": "P",
+    "value": 8740,
+    "who": "AULT MILTON C III"
+   },
+   {
+    "date": "2022-06-14",
+    "filed": "2022-06-15",
+    "code": "P",
+    "value": 8474,
+    "who": "AULT MILTON C III"
+   },
+   {
+    "date": "2022-06-08",
+    "filed": "2022-06-09",
+    "code": "P",
+    "value": 7576,
+    "who": "AULT MILTON C III"
+   },
+   {
+    "date": "2022-06-07",
+    "filed": "2022-06-08",
+    "code": "P",
+    "value": 1881,
+    "who": "AULT MILTON C III"
+   },
+   {
+    "date": "2022-06-02",
+    "filed": "2022-06-03",
+    "code": "P",
+    "value": 7679,
+    "who": "AULT MILTON C III"
+   },
+   {
+    "date": "2022-05-26",
+    "filed": "2022-05-31",
+    "code": "P",
+    "value": 9120,
+    "who": "AULT MILTON C III"
+   },
+   {
+    "date": "2022-05-27",
+    "filed": "2022-05-31",
+    "code": "P",
+    "value": 11507,
+    "who": "AULT MILTON C III"
+   },
+   {
+    "date": "2022-05-24",
+    "filed": "2022-05-26",
+    "code": "P",
+    "value": 14306,
+    "who": "AULT MILTON C III"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "alzamend neuro",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05363293",
+    "drugs": [
+     "AL001"
+    ]
+   }
+  ]
+ }
+}

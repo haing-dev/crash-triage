@@ -1,0 +1,127 @@
+{
+ "id": "1805387_2021-11-30",
+ "kind": "slide",
+ "cik": "1805387",
+ "name": "Cerevel Therapeutics Holdings, Inc.",
+ "date": "2021-11-30",
+ "asof": "2021-11-30",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-11-30",
+  "adj_close": 31.19
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 669676000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-21-003885"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 89384000.0,
+  "capex": 4771000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-11-05",
+  "shares": 147235789
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2021-09-01",
+  "to": "2021-12-30",
+  "trades": [
+   {
+    "date": "2021-12-23",
+    "filed": "2021-12-28",
+    "code": "S",
+    "value": 205582,
+    "who": "Renger John"
+   },
+   {
+    "date": "2021-12-27",
+    "filed": "2021-12-28",
+    "code": "S",
+    "value": 144445,
+    "who": "Renger John"
+   },
+   {
+    "date": "2021-12-21",
+    "filed": "2021-12-23",
+    "code": "S",
+    "value": 237250,
+    "who": "Renger John"
+   },
+   {
+    "date": "2021-12-15",
+    "filed": "2021-12-17",
+    "code": "S",
+    "value": 750448,
+    "who": "Renger John"
+   },
+   {
+    "date": "2021-12-16",
+    "filed": "2021-12-17",
+    "code": "S",
+    "value": 181285,
+    "who": "Renger John"
+   },
+   {
+    "date": "2021-12-17",
+    "filed": "2021-12-17",
+    "code": "S",
+    "value": 231465,
+    "who": "Renger John"
+   },
+   {
+    "date": "2021-11-10",
+    "filed": "2021-11-15",
+    "code": "S",
+    "value": 911945,
+    "who": "Renger John"
+   },
+   {
+    "date": "2021-11-10",
+    "filed": "2021-11-15",
+    "code": "S",
+    "value": 243004,
+    "who": "Renger John"
+   },
+   {
+    "date": "2021-11-10",
+    "filed": "2021-11-15",
+    "code": "S",
+    "value": 405335,
+    "who": "Renger John"
+   },
+   {
+    "date": "2021-11-10",
+    "filed": "2021-11-15",
+    "code": "S",
+    "value": 544485,
+    "who": "Renger John"
+   },
+   {
+    "date": "2021-11-10",
+    "filed": "2021-11-15",
+    "code": "S",
+    "value": 87419,
+    "who": "Renger John"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "cerevel therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

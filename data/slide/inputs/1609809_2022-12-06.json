@@ -1,0 +1,58 @@
+{
+ "id": "1609809_2022-12-06",
+ "kind": "slide",
+ "cik": "1609809",
+ "name": "Seres Therapeutics, Inc.",
+ "date": "2022-12-06",
+ "asof": "2022-12-06",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-12-06",
+  "adj_close": 124.6
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 233003000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-22-021018"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 109479000.0,
+  "capex": 3410000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-10-28",
+  "shares": 124591741
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2022-09-07",
+  "to": "2023-01-05",
+  "trades": [
+   {
+    "date": "2022-10-31",
+    "filed": "2022-10-31",
+    "code": "S",
+    "value": 39745,
+    "who": "Ege David S."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "seres therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

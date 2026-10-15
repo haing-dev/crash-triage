@@ -1,0 +1,163 @@
+{
+ "id": "1503802_2025-09-19",
+ "kind": "slide",
+ "cik": "1503802",
+ "name": "Karyopharm Therapeutics Inc.",
+ "date": "2025-09-19",
+ "asof": "2025-09-19",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-09-19",
+  "adj_close": 5.41
+ },
+ "balance": {
+  "end": "2025-06-30",
+  "cash": 51697000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0000950170-25-106238"
+ },
+ "burn6": {
+  "end": "2025-06-30",
+  "start": "2025-01-01",
+  "cash_used_ops": 57681000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-08-06",
+  "shares": 8671278
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Based on our current business plan and current capital resources, given the uncertainty regarding the availability of additional funding or other strategic alternatives and considering our debt service obligations, including our 3.00% convertible senior notes maturing on October 15, 2025 (the \u201c2025 "
+ },
+ "insiders": {
+  "form4s": 16,
+  "from": "2025-06-21",
+  "to": "2025-10-19",
+  "trades": [
+   {
+    "date": "2025-10-01",
+    "filed": "2025-10-03",
+    "code": "S",
+    "value": 2279,
+    "who": "Abate Kristin"
+   },
+   {
+    "date": "2025-09-15",
+    "filed": "2025-09-16",
+    "code": "S",
+    "value": 8083,
+    "who": "Paulson Richard A."
+   },
+   {
+    "date": "2025-09-15",
+    "filed": "2025-09-16",
+    "code": "S",
+    "value": 1505,
+    "who": "Mano Michael"
+   },
+   {
+    "date": "2025-09-15",
+    "filed": "2025-09-16",
+    "code": "S",
+    "value": 2578,
+    "who": "Poulton Stuart"
+   },
+   {
+    "date": "2025-09-15",
+    "filed": "2025-09-16",
+    "code": "S",
+    "value": 2623,
+    "who": "Rangwala Reshma"
+   },
+   {
+    "date": "2025-09-15",
+    "filed": "2025-09-16",
+    "code": "S",
+    "value": 2090,
+    "who": "Cheng Sohanya Roshan"
+   },
+   {
+    "date": "2025-09-15",
+    "filed": "2025-09-16",
+    "code": "S",
+    "value": 148,
+    "who": "Abate Kristin"
+   },
+   {
+    "date": "2025-09-03",
+    "filed": "2025-09-04",
+    "code": "S",
+    "value": 81,
+    "who": "Abate Kristin"
+   },
+   {
+    "date": "2025-07-29",
+    "filed": "2025-07-30",
+    "code": "S",
+    "value": 835,
+    "who": "Poulton Stuart"
+   },
+   {
+    "date": "2025-07-22",
+    "filed": "2025-07-23",
+    "code": "S",
+    "value": 952,
+    "who": "Abate Kristin"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "karyopharm therapeutics",
+  "other_trials": 9,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04414475",
+    "drugs": [
+     "Selinexor",
+     "Dexamethasone",
+     "Bortezomib"
+    ]
+   },
+   {
+    "nct": "NCT04442022",
+    "drugs": [
+     "Selinexor (combination therapy)",
+     "Selinexor (combination therapy)",
+     "Selinexor (combination therapy)"
+    ]
+   },
+   {
+    "nct": "NCT05980806",
+    "drugs": [
+     "Selinexor 60 mg",
+     "Selinexor 40 mg",
+     "Ruxolitinib"
+    ]
+   },
+   {
+    "nct": "NCT02227251",
+    "drugs": [
+     "Selinexor",
+     "Selinexor",
+     "Selinexor"
+    ]
+   },
+   {
+    "nct": "NCT02343042",
+    "drugs": [
+     "Selinexor",
+     "Dexamethasone",
+     "Lenalidomide"
+    ]
+   }
+  ]
+ }
+}

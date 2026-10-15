@@ -1,0 +1,98 @@
+{
+ "id": "1281895_2023-03-28",
+ "kind": "slide",
+ "cik": "1281895",
+ "name": "ROCKET PHARMACEUTICALS, INC.",
+ "date": "2023-03-28",
+ "asof": "2023-03-28",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-03-28",
+  "adj_close": 15.79
+ },
+ "balance": {
+  "end": "2022-12-31",
+  "cash": 356394000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001140361-23-009252"
+ },
+ "burn6": {
+  "end": "2022-12-31",
+  "start": "2022-07-01",
+  "cash_used_ops": 99880000.0,
+  "capex": 3506000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-02-22",
+  "shares": 79347760
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 12,
+  "from": "2022-12-28",
+  "to": "2023-04-27",
+  "trades": [
+   {
+    "date": "2023-04-21",
+    "filed": "2023-04-25",
+    "code": "S",
+    "value": 43678,
+    "who": "Militello John"
+   },
+   {
+    "date": "2023-02-17",
+    "filed": "2023-02-22",
+    "code": "S",
+    "value": 67796,
+    "who": "Schwartz Jonathan David"
+   },
+   {
+    "date": "2023-02-17",
+    "filed": "2023-02-22",
+    "code": "S",
+    "value": 23711,
+    "who": "Militello John"
+   },
+   {
+    "date": "2023-02-17",
+    "filed": "2023-02-22",
+    "code": "S",
+    "value": 232418,
+    "who": "Shah Gaurav"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "rocket pharmaceuticals",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03812263",
+    "drugs": [
+     "RP-L201"
+    ]
+   },
+   {
+    "nct": "NCT04069533",
+    "drugs": [
+     "RP-L102"
+    ]
+   },
+   {
+    "nct": "NCT04248439",
+    "drugs": [
+     "RP-L102"
+    ]
+   }
+  ]
+ }
+}

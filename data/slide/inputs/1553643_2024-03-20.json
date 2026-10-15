@@ -1,0 +1,114 @@
+{
+ "id": "1553643_2024-03-20",
+ "kind": "slide",
+ "cik": "1553643",
+ "name": "RELMADA THERAPEUTICS, INC.",
+ "date": "2024-03-20",
+ "asof": "2024-03-20",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-03-20",
+  "adj_close": 4.435
+ },
+ "balance": {
+  "end": "2023-12-31",
+  "cash": 96323860,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001213900-24-024013"
+ },
+ "burn6": {
+  "end": "2023-12-31",
+  "start": "2023-07-01",
+  "cash_used_ops": 21880843.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-03-15",
+  "shares": 30174202
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2023-12-21",
+  "to": "2024-04-19",
+  "trades": [
+   {
+    "date": "2024-01-29",
+    "filed": "2024-01-31",
+    "code": "P",
+    "value": 117036,
+    "who": "TRAVERSA SERGIO"
+   },
+   {
+    "date": "2024-01-30",
+    "filed": "2024-01-31",
+    "code": "P",
+    "value": 159949,
+    "who": "TRAVERSA SERGIO"
+   },
+   {
+    "date": "2024-01-31",
+    "filed": "2024-01-31",
+    "code": "P",
+    "value": 109752,
+    "who": "TRAVERSA SERGIO"
+   },
+   {
+    "date": "2024-01-29",
+    "filed": "2024-01-31",
+    "code": "P",
+    "value": 39450,
+    "who": "Shenouda Maged"
+   },
+   {
+    "date": "2024-01-30",
+    "filed": "2024-01-31",
+    "code": "P",
+    "value": 58323,
+    "who": "Shenouda Maged"
+   },
+   {
+    "date": "2024-01-31",
+    "filed": "2024-01-31",
+    "code": "P",
+    "value": 27943,
+    "who": "Shenouda Maged"
+   },
+   {
+    "date": "2024-01-29",
+    "filed": "2024-01-31",
+    "code": "P",
+    "value": 39438,
+    "who": "Ence Chuck"
+   },
+   {
+    "date": "2024-01-30",
+    "filed": "2024-01-31",
+    "code": "P",
+    "value": 56053,
+    "who": "Ence Chuck"
+   },
+   {
+    "date": "2024-01-31",
+    "filed": "2024-01-31",
+    "code": "P",
+    "value": 55429,
+    "who": "Ence Chuck"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "relmada therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "id": "863894_2024-11-29",
+ "kind": "slide",
+ "cik": "863894",
+ "name": "VERU INC.",
+ "date": "2024-11-29",
+ "asof": "2024-11-29",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-11-29",
+  "adj_close": 7.1
+ },
+ "balance": {
+  "end": "2024-06-30",
+  "cash": 29150879,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001437749-24-025338"
+ },
+ "burn6": {
+  "end": "2024-06-30",
+  "start": "2024-01-01",
+  "cash_used_ops": 11295850.0,
+  "capex": 63747.3810989011,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-08-05",
+  "shares": 146383920
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2024-08-31",
+  "to": "2024-12-29",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "veru",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06282458",
+    "drugs": [
+     "Enobosarm",
+     "Semaglutide"
+    ]
+   }
+  ]
+ }
+}

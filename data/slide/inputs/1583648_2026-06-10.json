@@ -1,0 +1,163 @@
+{
+ "id": "1583648_2026-06-10",
+ "kind": "slide",
+ "cik": "1583648",
+ "name": "PALVELLA THERAPEUTICS, INC.",
+ "date": "2026-06-10",
+ "asof": "2026-06-10",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-06-10",
+  "adj_close": 102.19
+ },
+ "balance": {
+  "end": "2026-03-31",
+  "cash": 261853000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001193125-26-210463"
+ },
+ "burn6": {
+  "end": "2026-03-31",
+  "start": "2025-10-01",
+  "cash_used_ops": 15790000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-05-01",
+  "shares": 14342844
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 14,
+  "from": "2026-03-12",
+  "to": "2026-07-10",
+  "trades": [
+   {
+    "date": "2026-06-17",
+    "filed": "2026-06-22",
+    "code": "S",
+    "value": 263520,
+    "who": "Goin Kathleen"
+   },
+   {
+    "date": "2026-06-17",
+    "filed": "2026-06-22",
+    "code": "S",
+    "value": 210047,
+    "who": "Goin Kathleen"
+   },
+   {
+    "date": "2026-06-17",
+    "filed": "2026-06-22",
+    "code": "S",
+    "value": 2806,
+    "who": "Goin Kathleen"
+   },
+   {
+    "date": "2026-05-20",
+    "filed": "2026-05-22",
+    "code": "S",
+    "value": 371095,
+    "who": "Goin Kathleen"
+   },
+   {
+    "date": "2026-05-20",
+    "filed": "2026-05-22",
+    "code": "S",
+    "value": 99165,
+    "who": "Goin Kathleen"
+   },
+   {
+    "date": "2026-05-20",
+    "filed": "2026-05-22",
+    "code": "S",
+    "value": 5371,
+    "who": "Goin Kathleen"
+   },
+   {
+    "date": "2026-04-15",
+    "filed": "2026-04-17",
+    "code": "S",
+    "value": 189199,
+    "who": "Goin Kathleen"
+   },
+   {
+    "date": "2026-04-15",
+    "filed": "2026-04-17",
+    "code": "S",
+    "value": 190688,
+    "who": "Goin Kathleen"
+   },
+   {
+    "date": "2026-04-15",
+    "filed": "2026-04-17",
+    "code": "S",
+    "value": 71940,
+    "who": "Goin Kathleen"
+   },
+   {
+    "date": "2026-04-15",
+    "filed": "2026-04-17",
+    "code": "S",
+    "value": 82539,
+    "who": "Goin Kathleen"
+   },
+   {
+    "date": "2026-04-15",
+    "filed": "2026-04-17",
+    "code": "S",
+    "value": 13033,
+    "who": "Goin Kathleen"
+   },
+   {
+    "date": "2026-03-30",
+    "filed": "2026-04-01",
+    "code": "P",
+    "value": 49974,
+    "who": "JENKINS GEORGE M"
+   },
+   {
+    "date": "2026-03-18",
+    "filed": "2026-03-20",
+    "code": "S",
+    "value": 266633,
+    "who": "Goin Kathleen"
+   },
+   {
+    "date": "2026-03-18",
+    "filed": "2026-03-20",
+    "code": "S",
+    "value": 204777,
+    "who": "Goin Kathleen"
+   },
+   {
+    "date": "2026-03-18",
+    "filed": "2026-03-20",
+    "code": "S",
+    "value": 36201,
+    "who": "Goin Kathleen"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "palvella therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT07552077",
+    "drugs": [
+     "PTX-022"
+    ]
+   }
+  ]
+ }
+}

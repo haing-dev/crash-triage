@@ -1,0 +1,117 @@
+{
+ "id": "1526119_2026-07-13",
+ "kind": "slide",
+ "cik": "1526119",
+ "name": "Verastem, Inc.",
+ "date": "2026-07-13",
+ "asof": "2026-07-13",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-07-13",
+  "adj_close": 5.37
+ },
+ "balance": {
+  "end": "2026-03-31",
+  "cash": 181678000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001104659-26-057114"
+ },
+ "burn6": {
+  "end": "2026-03-31",
+  "start": "2025-10-01",
+  "cash_used_ops": 82070000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-05-04",
+  "shares": 87873639
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "As a result of the assessment in accordance with the applicable accounting standards, these conditions raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 12,
+  "from": "2026-04-14",
+  "to": "2026-08-12",
+  "trades": [
+   {
+    "date": "2026-08-03",
+    "filed": "2026-08-05",
+    "code": "S",
+    "value": 7565,
+    "who": "Paterson Dan"
+   },
+   {
+    "date": "2026-06-22",
+    "filed": "2026-06-24",
+    "code": "S",
+    "value": 87241,
+    "who": "Paterson Dan"
+   },
+   {
+    "date": "2026-06-22",
+    "filed": "2026-06-24",
+    "code": "S",
+    "value": 16854,
+    "who": "Calkins Daniel"
+   },
+   {
+    "date": "2026-06-22",
+    "filed": "2026-06-24",
+    "code": "S",
+    "value": 235,
+    "who": "Calkins Daniel"
+   },
+   {
+    "date": "2026-05-04",
+    "filed": "2026-05-06",
+    "code": "S",
+    "value": 4691,
+    "who": "Paterson Dan"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "verastem",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT07644559",
+    "drugs": [
+     "VS-7375",
+     "cetuximab (or panitumumab if \u03b1-gal IgE+ or cetuximab reaction)"
+    ]
+   },
+   {
+    "nct": "NCT06072781",
+    "drugs": [
+     "avutometinib",
+     "Defactinib",
+     "Pegylated liposomal doxorubicin"
+    ]
+   },
+   {
+    "nct": "NCT07020221",
+    "drugs": [
+     "VS-7375",
+     "Cetuximab",
+     "Carboplatin + Pemetrexed + Pembrolizumab"
+    ]
+   },
+   {
+    "nct": "NCT05669482",
+    "drugs": [
+     "avutometinib (VS-6766) and defactinib in combination with gemcitabine and nab-paclitaxel"
+    ]
+   }
+  ]
+ }
+}

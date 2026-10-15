@@ -1,0 +1,78 @@
+{
+ "id": "791908_2023-01-09",
+ "kind": "slide",
+ "cik": "791908",
+ "name": "XOMA Royalty Corp",
+ "date": "2023-01-09",
+ "asof": "2023-01-09",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-01-09",
+  "adj_close": 18.01
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 78285000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-22-016142"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 7980000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-10-31",
+  "shares": 11450823
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2022-10-11",
+  "to": "2023-02-08",
+  "trades": [
+   {
+    "date": "2023-01-05",
+    "filed": "2023-01-09",
+    "code": "P",
+    "value": 61223,
+    "who": "BVF PARTNERS L P/IL"
+   },
+   {
+    "date": "2023-01-06",
+    "filed": "2023-01-09",
+    "code": "P",
+    "value": 36841,
+    "who": "BVF PARTNERS L P/IL"
+   },
+   {
+    "date": "2023-01-05",
+    "filed": "2023-01-09",
+    "code": "P",
+    "value": 288096,
+    "who": "BVF PARTNERS L P/IL"
+   },
+   {
+    "date": "2023-01-06",
+    "filed": "2023-01-09",
+    "code": "P",
+    "value": 34577,
+    "who": "BVF PARTNERS L P/IL"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "xoma royalty",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

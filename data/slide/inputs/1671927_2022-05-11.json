@@ -1,0 +1,57 @@
+{
+ "id": "1671927_2022-05-11",
+ "kind": "slide",
+ "cik": "1671927",
+ "name": "Immunocore Holdings plc",
+ "date": "2022-05-11",
+ "asof": "2022-05-11",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-05-11",
+  "adj_close": 25.46
+ },
+ "balance": null,
+ "burn6": null,
+ "shares": {
+  "end": "2021-12-31",
+  "shares": 43862850
+ },
+ "going_concern": null,
+ "insiders": {
+  "form4s": 0,
+  "from": "2022-02-10",
+  "to": "2022-06-10",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "immunocore",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT02535078",
+    "drugs": [
+     "Tebentafusp (IMCgp100)"
+    ]
+   },
+   {
+    "nct": "NCT03973333",
+    "drugs": [
+     "IMC-C103C",
+     "Atezolizumab",
+     "IMC-C103C"
+    ]
+   },
+   {
+    "nct": "NCT04262466",
+    "drugs": [
+     "Brenetafusp",
+     "Brenetafusp and pembrolizumab",
+     "Brenetafusp and chemotherapy"
+    ]
+   }
+  ]
+ }
+}

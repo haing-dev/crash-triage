@@ -1,0 +1,189 @@
+{
+ "id": "1061983_2023-06-26",
+ "kind": "slide",
+ "cik": "1061983",
+ "name": "CYTOKINETICS INC",
+ "date": "2023-06-26",
+ "asof": "2023-06-26",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-06-26",
+  "adj_close": 32.94
+ },
+ "balance": {
+  "end": "2023-03-31",
+  "cash": 704368000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0000950170-23-018305"
+ },
+ "burn6": {
+  "end": "2023-03-31",
+  "start": "2022-10-01",
+  "cash_used_ops": 220476000.0,
+  "capex": 3607000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-05-02",
+  "shares": 95640600
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 36,
+  "from": "2023-03-28",
+  "to": "2023-07-26",
+  "trades": [
+   {
+    "date": "2023-07-13",
+    "filed": "2023-07-13",
+    "code": "S",
+    "value": 440940,
+    "who": "Blum Robert I"
+   },
+   {
+    "date": "2023-07-13",
+    "filed": "2023-07-13",
+    "code": "S",
+    "value": 88425,
+    "who": "Malik Fady Ibraham"
+   },
+   {
+    "date": "2023-07-07",
+    "filed": "2023-07-07",
+    "code": "S",
+    "value": 68235,
+    "who": "Bhanji Muna"
+   },
+   {
+    "date": "2023-07-03",
+    "filed": "2023-07-05",
+    "code": "S",
+    "value": 407500,
+    "who": "Blum Robert I"
+   },
+   {
+    "date": "2023-06-12",
+    "filed": "2023-06-12",
+    "code": "S",
+    "value": 463250,
+    "who": "Blum Robert I"
+   },
+   {
+    "date": "2023-06-08",
+    "filed": "2023-06-08",
+    "code": "S",
+    "value": 95175,
+    "who": "Malik Fady Ibraham"
+   },
+   {
+    "date": "2023-05-31",
+    "filed": "2023-06-01",
+    "code": "S",
+    "value": 470875,
+    "who": "Blum Robert I"
+   },
+   {
+    "date": "2023-05-16",
+    "filed": "2023-05-16",
+    "code": "S",
+    "value": 467625,
+    "who": "Blum Robert I"
+   },
+   {
+    "date": "2023-05-15",
+    "filed": "2023-05-15",
+    "code": "S",
+    "value": 157350,
+    "who": "HENDERSON JOHN T"
+   },
+   {
+    "date": "2023-05-11",
+    "filed": "2023-05-11",
+    "code": "S",
+    "value": 70586,
+    "who": "Malik Fady Ibraham"
+   },
+   {
+    "date": "2023-05-03",
+    "filed": "2023-05-03",
+    "code": "S",
+    "value": 280000,
+    "who": "Malik Fady Ibraham"
+   },
+   {
+    "date": "2023-04-28",
+    "filed": "2023-04-28",
+    "code": "S",
+    "value": 471000,
+    "who": "Blum Robert I"
+   },
+   {
+    "date": "2023-04-14",
+    "filed": "2023-04-14",
+    "code": "S",
+    "value": 445125,
+    "who": "Blum Robert I"
+   },
+   {
+    "date": "2023-04-13",
+    "filed": "2023-04-13",
+    "code": "S",
+    "value": 136840,
+    "who": "Malik Fady Ibraham"
+   },
+   {
+    "date": "2023-03-28",
+    "filed": "2023-03-28",
+    "code": "S",
+    "value": 438125,
+    "who": "Blum Robert I"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "cytokinetics",
+  "other_trials": 5,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05767346",
+    "drugs": [
+     "Aficamten (CK-3773274) (5 mg, 10 mg, 15 mg and 20 mg)",
+     "Metoprolol succinate (50 mg, 100 mg, 150 mg and 200 mg)"
+    ]
+   },
+   {
+    "nct": "NCT04848506",
+    "drugs": [
+     "Aficamten (5 - 20 mg)"
+    ]
+   },
+   {
+    "nct": "NCT05186818",
+    "drugs": [
+     "Aficamten (5 mg, 10 mg, 15 mg, and 20 mg)"
+    ]
+   },
+   {
+    "nct": "NCT04464525",
+    "drugs": [
+     "Omecamtiv mecarbil"
+    ]
+   },
+   {
+    "nct": "NCT04944784",
+    "drugs": [
+     "Reldesemtiv"
+    ]
+   }
+  ]
+ }
+}

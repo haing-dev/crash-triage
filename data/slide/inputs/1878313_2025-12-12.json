@@ -1,0 +1,193 @@
+{
+ "id": "1878313_2025-12-12",
+ "kind": "slide",
+ "cik": "1878313",
+ "name": "MAIA Biotechnology, Inc.",
+ "date": "2025-12-12",
+ "asof": "2025-12-12",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-12-12",
+  "adj_close": 1.36
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 0,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001493152-25-021272"
+ },
+ "burn6": {
+  "end": "2025-09-30",
+  "start": "2025-04-01",
+  "cash_used_ops": 7621853.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-11-07",
+  "shares": 37032307
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Accordingly, there is substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 24,
+  "from": "2025-09-13",
+  "to": "2026-01-11",
+  "trades": [
+   {
+    "date": "2025-12-22",
+    "filed": "2025-12-23",
+    "code": "P",
+    "value": 69999,
+    "who": "Smith Stan"
+   },
+   {
+    "date": "2025-12-22",
+    "filed": "2025-12-23",
+    "code": "P",
+    "value": 49999,
+    "who": "CHAOUKI STEVEN M"
+   },
+   {
+    "date": "2025-12-22",
+    "filed": "2025-12-23",
+    "code": "P",
+    "value": 100000,
+    "who": "Louie Ngar Yee"
+   },
+   {
+    "date": "2025-12-05",
+    "filed": "2025-12-09",
+    "code": "P",
+    "value": 5495,
+    "who": "Smith Stan"
+   },
+   {
+    "date": "2025-12-05",
+    "filed": "2025-12-09",
+    "code": "P",
+    "value": 5450,
+    "who": "Smith Stan"
+   },
+   {
+    "date": "2025-12-05",
+    "filed": "2025-12-09",
+    "code": "P",
+    "value": 5496,
+    "who": "Smith Stan"
+   },
+   {
+    "date": "2025-11-28",
+    "filed": "2025-12-01",
+    "code": "P",
+    "value": 56830,
+    "who": "Vitoc Vlad"
+   },
+   {
+    "date": "2025-11-26",
+    "filed": "2025-12-01",
+    "code": "P",
+    "value": 23019,
+    "who": "Vitoc Vlad"
+   },
+   {
+    "date": "2025-11-26",
+    "filed": "2025-12-01",
+    "code": "P",
+    "value": 21616,
+    "who": "Luput Cristian"
+   },
+   {
+    "date": "2025-11-28",
+    "filed": "2025-12-01",
+    "code": "P",
+    "value": 20230,
+    "who": "Luput Cristian"
+   },
+   {
+    "date": "2025-11-26",
+    "filed": "2025-12-01",
+    "code": "P",
+    "value": 15582,
+    "who": "Smith Stan"
+   },
+   {
+    "date": "2025-11-25",
+    "filed": "2025-11-28",
+    "code": "P",
+    "value": 9785,
+    "who": "Luput Cristian"
+   },
+   {
+    "date": "2025-11-25",
+    "filed": "2025-11-28",
+    "code": "P",
+    "value": 10144,
+    "who": "Vitoc Vlad"
+   },
+   {
+    "date": "2025-11-24",
+    "filed": "2025-11-26",
+    "code": "P",
+    "value": 9900,
+    "who": "Smith Stan"
+   },
+   {
+    "date": "2025-11-25",
+    "filed": "2025-11-26",
+    "code": "P",
+    "value": 14700,
+    "who": "Smith Stan"
+   },
+   {
+    "date": "2025-11-21",
+    "filed": "2025-11-25",
+    "code": "P",
+    "value": 1656,
+    "who": "Vitoc Vlad"
+   },
+   {
+    "date": "2025-11-24",
+    "filed": "2025-11-25",
+    "code": "P",
+    "value": 9891,
+    "who": "Vitoc Vlad"
+   },
+   {
+    "date": "2025-10-01",
+    "filed": "2025-10-02",
+    "code": "P",
+    "value": 24999,
+    "who": "Smith Stan"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "maia biotechnology",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06908304",
+    "drugs": [
+     "6-Thio-2'-Deoxyguanosine",
+     "Cemiplimab",
+     "Docetaxel"
+    ]
+   },
+   {
+    "nct": "NCT05208944",
+    "drugs": [
+     "6-Thio-2'-Deoxyguanosine",
+     "Cemiplimab"
+    ]
+   }
+  ]
+ }
+}

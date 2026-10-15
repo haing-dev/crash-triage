@@ -1,0 +1,64 @@
+{
+ "id": "1260990_2021-11-12",
+ "kind": "slide",
+ "cik": "1260990",
+ "name": "Oncternal Therapeutics, Inc.",
+ "date": "2021-11-12",
+ "asof": "2021-11-12",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-11-12",
+  "adj_close": 80.8
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 97380000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001564590-21-054536"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 13988000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-10-28",
+  "shares": 49427220
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2021-08-14",
+  "to": "2021-12-12",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "oncternal therapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03088878",
+    "drugs": [
+     "Cirmtuzumab (2-16 kg/mg) plus Ibrutinib",
+     "Cirmtuzumab (300mg) plus Ibrutinib",
+     "Cirmtuzumab (600 mg) plus ibrutinib"
+    ]
+   },
+   {
+    "nct": "NCT02657005",
+    "drugs": [
+     "TK216"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,92 @@
+{
+ "id": "1792044_2022-03-01",
+ "kind": "slide",
+ "cik": "1792044",
+ "name": "Viatris Inc",
+ "date": "2022-03-01",
+ "asof": "2022-03-01",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-03-01",
+  "adj_close": 10.15
+ },
+ "balance": {
+  "end": "2021-12-31",
+  "cash": 739400000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001792044-22-000010"
+ },
+ "burn6": {
+  "end": "2021-12-31",
+  "start": "2021-07-01",
+  "cash_used_ops": -1608700000.0,
+  "capex": 318400000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-02-22",
+  "shares": 1209576280
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 66,
+  "from": "2021-12-01",
+  "to": "2022-03-31",
+  "trades": [
+   {
+    "date": "2022-03-15",
+    "filed": "2022-03-15",
+    "code": "P",
+    "value": 26721,
+    "who": "CORNWELL W DON"
+   },
+   {
+    "date": "2022-03-15",
+    "filed": "2022-03-15",
+    "code": "P",
+    "value": 496773,
+    "who": "GOETTLER MICHAEL"
+   },
+   {
+    "date": "2022-03-09",
+    "filed": "2022-03-11",
+    "code": "S",
+    "value": 2569050,
+    "who": "COURY ROBERT J"
+   },
+   {
+    "date": "2022-03-11",
+    "filed": "2022-03-11",
+    "code": "S",
+    "value": 2518275,
+    "who": "COURY ROBERT J"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "viatris",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT00136942",
+    "drugs": [
+     "Atorvastatin"
+    ]
+   },
+   {
+    "nct": "NCT04957719",
+    "drugs": [
+     "Selatogrel"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "id": "1034842_2026-06-16",
+ "kind": "slide",
+ "cik": "1034842",
+ "name": "RIGEL PHARMACEUTICALS INC",
+ "date": "2026-06-16",
+ "asof": "2026-06-16",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-06-16",
+  "adj_close": 32.46
+ },
+ "balance": {
+  "end": "2026-03-31",
+  "cash": 146684000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001034842-26-000032"
+ },
+ "burn6": {
+  "end": "2026-03-31",
+  "start": "2025-10-01",
+  "cash_used_ops": -24705000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-04-30",
+  "shares": 18502080
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 20,
+  "from": "2026-03-18",
+  "to": "2026-07-16",
+  "trades": [
+   {
+    "date": "2026-06-22",
+    "filed": "2026-06-24",
+    "code": "S",
+    "value": 87500,
+    "who": "Ali-Jackson Kamil"
+   },
+   {
+    "date": "2026-05-26",
+    "filed": "2026-05-28",
+    "code": "S",
+    "value": 72925,
+    "who": "Ali-Jackson Kamil"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "rigel pharmaceuticals",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06161974",
+    "drugs": [
+     "Olutasidenib + TMZ"
+    ]
+   },
+   {
+    "nct": "NCT05308264",
+    "drugs": [
+     "R906289 Monosodium (R289 Na)"
+    ]
+   }
+  ]
+ }
+}

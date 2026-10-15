@@ -1,0 +1,113 @@
+{
+ "id": "1744659_2022-08-26",
+ "kind": "slide",
+ "cik": "1744659",
+ "name": "Akero Therapeutics, Inc.",
+ "date": "2022-08-26",
+ "asof": "2022-08-26",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-08-26",
+  "adj_close": 11.89
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 332516000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0000950170-22-014904"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 42385000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-07-29",
+  "shares": 37571426
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 16,
+  "from": "2022-05-28",
+  "to": "2022-09-25",
+  "trades": [
+   {
+    "date": "2022-09-13",
+    "filed": "2022-09-15",
+    "code": "S",
+    "value": 449125,
+    "who": "Cheng Andrew"
+   },
+   {
+    "date": "2022-09-13",
+    "filed": "2022-09-15",
+    "code": "S",
+    "value": 1196319,
+    "who": "Cheng Andrew"
+   },
+   {
+    "date": "2022-09-13",
+    "filed": "2022-09-15",
+    "code": "S",
+    "value": 707061,
+    "who": "Yale Catriona"
+   },
+   {
+    "date": "2022-09-13",
+    "filed": "2022-09-15",
+    "code": "S",
+    "value": 392167,
+    "who": "Yale Catriona"
+   },
+   {
+    "date": "2022-09-13",
+    "filed": "2022-09-15",
+    "code": "S",
+    "value": 499866,
+    "who": "White William Richard"
+   },
+   {
+    "date": "2022-09-13",
+    "filed": "2022-09-15",
+    "code": "S",
+    "value": 378475,
+    "who": "White William Richard"
+   },
+   {
+    "date": "2022-09-13",
+    "filed": "2022-09-15",
+    "code": "S",
+    "value": 656550,
+    "who": "Rolph Timothy"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "akero therapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05039450",
+    "drugs": [
+     "EFX"
+    ]
+   },
+   {
+    "nct": "NCT04767529",
+    "drugs": [
+     "Efruxifermin"
+    ]
+   }
+  ]
+ }
+}

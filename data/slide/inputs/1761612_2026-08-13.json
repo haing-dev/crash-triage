@@ -1,0 +1,127 @@
+{
+ "id": "1761612_2026-08-13",
+ "kind": "slide",
+ "cik": "1761612",
+ "name": "BICYCLE THERAPEUTICS PLC",
+ "date": "2026-08-13",
+ "asof": "2026-08-13",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-08-13",
+  "adj_close": 3.98
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 510052000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001104659-26-088457"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": 115531000.0,
+  "capex": 978000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-05-01",
+  "shares": 30043486
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 9,
+  "from": "2026-05-15",
+  "to": "2026-09-12",
+  "trades": [
+   {
+    "date": "2026-07-02",
+    "filed": "2026-07-07",
+    "code": "S",
+    "value": 4424,
+    "who": "Perry Jennifer Scott"
+   },
+   {
+    "date": "2026-07-06",
+    "filed": "2026-07-07",
+    "code": "S",
+    "value": 185,
+    "who": "Perry Jennifer Scott"
+   },
+   {
+    "date": "2026-07-06",
+    "filed": "2026-07-07",
+    "code": "S",
+    "value": 1445,
+    "who": "Perry Jennifer Scott"
+   },
+   {
+    "date": "2026-07-02",
+    "filed": "2026-07-07",
+    "code": "S",
+    "value": 7938,
+    "who": "Skynner Michael"
+   },
+   {
+    "date": "2026-07-06",
+    "filed": "2026-07-07",
+    "code": "S",
+    "value": 2293,
+    "who": "Skynner Michael"
+   },
+   {
+    "date": "2026-07-02",
+    "filed": "2026-07-07",
+    "code": "S",
+    "value": 25214,
+    "who": "Lee Kevin"
+   },
+   {
+    "date": "2026-07-06",
+    "filed": "2026-07-07",
+    "code": "S",
+    "value": 7486,
+    "who": "Lee Kevin"
+   },
+   {
+    "date": "2026-07-02",
+    "filed": "2026-07-07",
+    "code": "S",
+    "value": 6431,
+    "who": "Hannay Michael Charles Ferguson"
+   },
+   {
+    "date": "2026-07-06",
+    "filed": "2026-07-07",
+    "code": "S",
+    "value": 1099,
+    "who": "Hannay Michael Charles Ferguson"
+   },
+   {
+    "date": "2026-07-02",
+    "filed": "2026-07-07",
+    "code": "S",
+    "value": 3497,
+    "who": "Thompson Travis Alvin"
+   },
+   {
+    "date": "2026-07-06",
+    "filed": "2026-07-07",
+    "code": "S",
+    "value": 448,
+    "who": "Thompson Travis Alvin"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "bicycle therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

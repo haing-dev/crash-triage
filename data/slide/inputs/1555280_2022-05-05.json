@@ -1,0 +1,106 @@
+{
+ "id": "1555280_2022-05-05",
+ "kind": "slide",
+ "cik": "1555280",
+ "name": "Zoetis Inc.",
+ "date": "2022-05-05",
+ "asof": "2022-05-05",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-05-05",
+  "adj_close": 171.45
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 3135000000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001555280-22-000174"
+ },
+ "burn6": {
+  "end": "2022-03-31",
+  "start": "2021-10-01",
+  "cash_used_ops": -988000000.0,
+  "capex": 283000000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-04-29",
+  "shares": 470628655
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 61,
+  "from": "2022-02-04",
+  "to": "2022-06-04",
+  "trades": [
+   {
+    "date": "2022-04-26",
+    "filed": "2022-04-28",
+    "code": "S",
+    "value": 387806,
+    "who": "Lagano Roxanne"
+   },
+   {
+    "date": "2022-03-16",
+    "filed": "2022-03-18",
+    "code": "S",
+    "value": 1128900,
+    "who": "Trawicki Roman"
+   },
+   {
+    "date": "2022-02-25",
+    "filed": "2022-02-28",
+    "code": "S",
+    "value": 844404,
+    "who": "PECK KRISTIN C"
+   },
+   {
+    "date": "2022-02-25",
+    "filed": "2022-02-28",
+    "code": "S",
+    "value": 1078504,
+    "who": "PECK KRISTIN C"
+   },
+   {
+    "date": "2022-02-23",
+    "filed": "2022-02-24",
+    "code": "S",
+    "value": 1331342,
+    "who": "David Glenn"
+   },
+   {
+    "date": "2022-02-23",
+    "filed": "2022-02-24",
+    "code": "S",
+    "value": 3687879,
+    "who": "David Glenn"
+   },
+   {
+    "date": "2022-02-23",
+    "filed": "2022-02-24",
+    "code": "S",
+    "value": 1130660,
+    "who": "David Glenn"
+   },
+   {
+    "date": "2022-02-15",
+    "filed": "2022-02-16",
+    "code": "S",
+    "value": 405855,
+    "who": "Lagano Roxanne"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "zoetis",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,190 @@
+{
+ "id": "1472012_2026-06-05",
+ "kind": "slide",
+ "cik": "1472012",
+ "name": "Immunome Inc.",
+ "date": "2026-06-05",
+ "asof": "2026-06-05",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-06-05",
+  "adj_close": 18.58
+ },
+ "balance": {
+  "end": "2026-03-31",
+  "cash": 582693000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001193125-26-219425"
+ },
+ "burn6": {
+  "end": "2026-03-31",
+  "start": "2025-10-01",
+  "cash_used_ops": 106591000.0,
+  "capex": 7001000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-05-07",
+  "shares": 113250394
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 17,
+  "from": "2026-03-07",
+  "to": "2026-07-05",
+  "trades": [
+   {
+    "date": "2026-06-30",
+    "filed": "2026-07-02",
+    "code": "S",
+    "value": 2134176,
+    "who": "Barchas Isaac"
+   },
+   {
+    "date": "2026-07-02",
+    "filed": "2026-07-02",
+    "code": "S",
+    "value": 1691113,
+    "who": "Barchas Isaac"
+   },
+   {
+    "date": "2026-07-02",
+    "filed": "2026-07-02",
+    "code": "S",
+    "value": 567736,
+    "who": "Barchas Isaac"
+   },
+   {
+    "date": "2026-06-25",
+    "filed": "2026-06-29",
+    "code": "S",
+    "value": 793745,
+    "who": "Lechleider Robert"
+   },
+   {
+    "date": "2026-06-25",
+    "filed": "2026-06-29",
+    "code": "S",
+    "value": 297917,
+    "who": "Lechleider Robert"
+   },
+   {
+    "date": "2026-06-15",
+    "filed": "2026-06-17",
+    "code": "S",
+    "value": 1093800,
+    "who": "Rosett Max"
+   },
+   {
+    "date": "2026-06-05",
+    "filed": "2026-06-09",
+    "code": "S",
+    "value": 9720,
+    "who": "BIENAIME JEAN JACQUES"
+   },
+   {
+    "date": "2026-06-05",
+    "filed": "2026-06-09",
+    "code": "S",
+    "value": 194100,
+    "who": "BIENAIME JEAN JACQUES"
+   },
+   {
+    "date": "2026-06-05",
+    "filed": "2026-06-09",
+    "code": "P",
+    "value": 116880,
+    "who": "BIENAIME JEAN JACQUES"
+   },
+   {
+    "date": "2026-06-05",
+    "filed": "2026-06-09",
+    "code": "P",
+    "value": 68110,
+    "who": "BIENAIME JEAN JACQUES"
+   },
+   {
+    "date": "2026-06-05",
+    "filed": "2026-06-09",
+    "code": "P",
+    "value": 19270,
+    "who": "BIENAIME JEAN JACQUES"
+   },
+   {
+    "date": "2026-05-15",
+    "filed": "2026-05-19",
+    "code": "P",
+    "value": 103500,
+    "who": "BIENAIME JEAN JACQUES"
+   },
+   {
+    "date": "2026-04-02",
+    "filed": "2026-04-03",
+    "code": "S",
+    "value": 204238,
+    "who": "Higgins Jack"
+   },
+   {
+    "date": "2026-04-02",
+    "filed": "2026-04-03",
+    "code": "S",
+    "value": 1394703,
+    "who": "Rosett Max"
+   },
+   {
+    "date": "2026-04-02",
+    "filed": "2026-04-03",
+    "code": "S",
+    "value": 30213,
+    "who": "Rosett Max"
+   },
+   {
+    "date": "2026-03-27",
+    "filed": "2026-03-31",
+    "code": "P",
+    "value": 500602,
+    "who": "SIEGALL CLAY B"
+   },
+   {
+    "date": "2026-03-20",
+    "filed": "2026-03-23",
+    "code": "S",
+    "value": 753296,
+    "who": "WAGENHEIM PHILIP"
+   },
+   {
+    "date": "2026-03-23",
+    "filed": "2026-03-23",
+    "code": "S",
+    "value": 582330,
+    "who": "WAGENHEIM PHILIP"
+   },
+   {
+    "date": "2026-03-10",
+    "filed": "2026-03-12",
+    "code": "P",
+    "value": 22120,
+    "who": "BIENAIME JEAN JACQUES"
+   },
+   {
+    "date": "2026-03-11",
+    "filed": "2026-03-12",
+    "code": "P",
+    "value": 21550,
+    "who": "BIENAIME JEAN JACQUES"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "immunome",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

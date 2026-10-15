@@ -1,0 +1,95 @@
+{
+ "id": "1571498_2021-06-29",
+ "kind": "slide",
+ "cik": "1571498",
+ "name": "Epizyme, Inc.",
+ "date": "2021-06-29",
+ "asof": "2021-06-29",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-06-29",
+  "adj_close": 8.56
+ },
+ "balance": {
+  "end": "2021-03-31",
+  "cash": 298943000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001564590-21-024499"
+ },
+ "burn6": {
+  "end": "2021-03-31",
+  "start": "2020-10-01",
+  "cash_used_ops": 128690000.0,
+  "capex": 405000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-04-30",
+  "shares": 101975604
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "As a result, the Company concluded that it did not identify conditions or events that raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 14,
+  "from": "2021-03-31",
+  "to": "2021-07-29",
+  "trades": [
+   {
+    "date": "2021-04-05",
+    "filed": "2021-04-07",
+    "code": "S",
+    "value": 17855,
+    "who": "Kutok Jeffery"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "epizyme",
+  "other_trials": 6,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT02601950",
+    "drugs": [
+     "Tazemetostat"
+    ]
+   },
+   {
+    "nct": "NCT04224493",
+    "drugs": [
+     "Tazemetostat",
+     "Tazemetostat",
+     "Lenalidomide"
+    ]
+   },
+   {
+    "nct": "NCT04762160",
+    "drugs": [
+     "Tazemetostat",
+     "Rituximab"
+    ]
+   },
+   {
+    "nct": "NCT01897571",
+    "drugs": [
+     "Tazemetostat",
+     "Prednisolone",
+     "Tazemetostat"
+    ]
+   },
+   {
+    "nct": "NCT02875548",
+    "drugs": [
+     "Tazemetostat"
+    ]
+   }
+  ]
+ }
+}

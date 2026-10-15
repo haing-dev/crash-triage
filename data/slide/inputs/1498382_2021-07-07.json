@@ -1,0 +1,49 @@
+{
+ "id": "1498382_2021-07-07",
+ "kind": "slide",
+ "cik": "1498382",
+ "name": "TuHURA Biosciences, Inc./NV",
+ "date": "2021-07-07",
+ "asof": "2021-07-07",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-07-07",
+  "adj_close": 3255.0
+ },
+ "balance": {
+  "end": "2021-03-31",
+  "cash": 15718000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001564590-21-027558"
+ },
+ "burn6": {
+  "end": "2021-03-31",
+  "start": "2020-10-01",
+  "cash_used_ops": 10061000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-05-11",
+  "shares": 32617939
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2021-04-08",
+  "to": "2021-08-06",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "tuhura biosciences",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

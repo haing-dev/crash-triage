@@ -1,0 +1,66 @@
+{
+ "id": "1557746_2024-12-16",
+ "kind": "slide",
+ "cik": "1557746",
+ "name": "Aclaris Therapeutics, Inc.",
+ "date": "2024-12-16",
+ "asof": "2024-12-16",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-12-16",
+  "adj_close": 3.02
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 173436000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0001558370-24-014646"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": -9678000.0,
+  "capex": -14000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-10-31",
+  "shares": 71430942
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2024-09-17",
+  "to": "2025-01-15",
+  "trades": [
+   {
+    "date": "2024-11-19",
+    "filed": "2024-11-20",
+    "code": "P",
+    "value": 1499998,
+    "who": "Mehra Anand"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "aclaris therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06585202",
+    "drugs": [
+     "ATI-2138"
+    ]
+   }
+  ]
+ }
+}

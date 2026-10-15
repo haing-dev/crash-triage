@@ -1,0 +1,58 @@
+{
+ "id": "320017_2025-11-07",
+ "kind": "slide",
+ "cik": "320017",
+ "name": "LISATA THERAPEUTICS, INC.",
+ "date": "2025-11-07",
+ "asof": "2025-11-07",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-11-07",
+  "adj_close": 2.06
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 18998000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000320017-25-000070"
+ },
+ "burn6": {
+  "end": "2025-09-30",
+  "start": "2025-04-01",
+  "cash_used_ops": 7298000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-11-06",
+  "shares": 8820733
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2025-08-09",
+  "to": "2025-12-07",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "lisata therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05712356",
+    "drugs": [
+     "certepetide",
+     "Durvalumab",
+     "Cisplatin"
+    ]
+   }
+  ]
+ }
+}

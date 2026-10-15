@@ -1,0 +1,64 @@
+{
+ "id": "1117480_2023-09-13",
+ "kind": "slide",
+ "cik": "1117480",
+ "name": "CHIMERIX INC",
+ "date": "2023-09-13",
+ "asof": "2023-09-13",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-09-13",
+  "adj_close": 1.06
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 20099000,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0001117480-23-000024"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 36567000.0,
+  "capex": 74000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-07-28",
+  "shares": 88583567
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2023-06-15",
+  "to": "2023-10-13",
+  "trades": [
+   {
+    "date": "2023-09-28",
+    "filed": "2023-09-28",
+    "code": "S",
+    "value": 3584,
+    "who": "Jakeman David"
+   },
+   {
+    "date": "2023-09-25",
+    "filed": "2023-09-26",
+    "code": "P",
+    "value": 19636,
+    "who": "MIDDLETON FRED A"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "chimerix",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,120 @@
+{
+ "id": "1359931_2024-11-14",
+ "kind": "slide",
+ "cik": "1359931",
+ "name": "Protara Therapeutics, Inc.",
+ "date": "2024-11-14",
+ "asof": "2024-11-14",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-11-14",
+  "adj_close": 2.58
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 81499000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001213900-24-096252"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": 16121000.0,
+  "capex": 42147.69230769231,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-11-07",
+  "shares": 20629772
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2024-08-16",
+  "to": "2024-12-14",
+  "trades": [
+   {
+    "date": "2024-09-11",
+    "filed": "2024-09-12",
+    "code": "S",
+    "value": 53137,
+    "who": "Opaleye Management Inc."
+   },
+   {
+    "date": "2024-09-11",
+    "filed": "2024-09-12",
+    "code": "S",
+    "value": 2743,
+    "who": "Opaleye Management Inc."
+   },
+   {
+    "date": "2024-09-12",
+    "filed": "2024-09-12",
+    "code": "S",
+    "value": 204728,
+    "who": "Opaleye Management Inc."
+   },
+   {
+    "date": "2024-09-12",
+    "filed": "2024-09-12",
+    "code": "S",
+    "value": 11108,
+    "who": "Opaleye Management Inc."
+   },
+   {
+    "date": "2024-09-09",
+    "filed": "2024-09-10",
+    "code": "S",
+    "value": 65541,
+    "who": "Opaleye Management Inc."
+   },
+   {
+    "date": "2024-09-09",
+    "filed": "2024-09-10",
+    "code": "S",
+    "value": 3600,
+    "who": "Opaleye Management Inc."
+   },
+   {
+    "date": "2024-09-10",
+    "filed": "2024-09-10",
+    "code": "S",
+    "value": 42456,
+    "who": "Opaleye Management Inc."
+   },
+   {
+    "date": "2024-09-10",
+    "filed": "2024-09-10",
+    "code": "S",
+    "value": 2654,
+    "who": "Opaleye Management Inc."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "protara therapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05951179",
+    "drugs": [
+     "TARA-002"
+    ]
+   },
+   {
+    "nct": "NCT05871970",
+    "drugs": [
+     "TARA-002"
+    ]
+   }
+  ]
+ }
+}

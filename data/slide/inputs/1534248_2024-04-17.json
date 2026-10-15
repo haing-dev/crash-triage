@@ -1,0 +1,49 @@
+{
+ "id": "1534248_2024-04-17",
+ "kind": "slide",
+ "cik": "1534248",
+ "name": "Chemomab Therapeutics Ltd.",
+ "date": "2024-04-17",
+ "asof": "2024-04-17",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-04-17",
+  "adj_close": 2.36
+ },
+ "balance": {
+  "end": "2023-12-31",
+  "cash": 9292000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001178913-24-001124"
+ },
+ "burn6": {
+  "end": "2023-12-31",
+  "start": "2023-07-01",
+  "cash_used_ops": 8939000.0,
+  "capex": 0.0,
+  "periods": 1
+ },
+ "shares": {
+  "end": "2023-12-31",
+  "shares": 284094700
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2024-01-18",
+  "to": "2024-05-17",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "chemomab therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

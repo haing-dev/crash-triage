@@ -1,0 +1,57 @@
+{
+ "id": "1711786_2024-10-31",
+ "kind": "slide",
+ "cik": "1711786",
+ "name": "Rocket One Inc.",
+ "date": "2024-10-31",
+ "asof": "2024-10-31",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-10-31",
+  "adj_close": 0.85000002
+ },
+ "balance": {
+  "end": "2024-06-30",
+  "cash": 9654837,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001213900-24-067131"
+ },
+ "burn6": {
+  "end": "2024-06-30",
+  "start": "2024-01-01",
+  "cash_used_ops": 3315681.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-08-08",
+  "shares": 6903804
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2024-08-02",
+  "to": "2024-11-30",
+  "trades": [
+   {
+    "date": "2024-08-16",
+    "filed": "2024-08-19",
+    "code": "P",
+    "value": 16750,
+    "who": "Knie Robb"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "rocket one",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

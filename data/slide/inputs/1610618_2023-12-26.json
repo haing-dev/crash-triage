@@ -1,0 +1,50 @@
+{
+ "id": "1610618_2023-12-26",
+ "kind": "slide",
+ "cik": "1610618",
+ "name": "Cidara Therapeutics, Inc.",
+ "date": "2023-12-26",
+ "asof": "2023-12-26",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-12-26",
+  "adj_close": 15.5
+ },
+ "balance": {
+  "end": "2023-09-30",
+  "cash": 48670000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001610618-23-000098"
+ },
+ "burn6": {
+  "end": "2023-09-30",
+  "start": "2023-04-01",
+  "cash_used_ops": -1188000.0,
+  "capex": 233000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-10-31",
+  "shares": 90433777
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "However, the Company\u2019s current working capital, anticipated operating expenses and net losses and the uncertainties surrounding its ability to raise additional capital as needed, as discussed below, raise substantial doubt about its ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2023-09-27",
+  "to": "2024-01-25",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "cidara therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

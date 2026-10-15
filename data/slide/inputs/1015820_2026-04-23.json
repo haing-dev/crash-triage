@@ -1,0 +1,44 @@
+{
+ "id": "1015820_2026-04-23",
+ "kind": "slide",
+ "cik": "1015820",
+ "name": "QIAGEN N.V.",
+ "date": "2026-04-23",
+ "asof": "2026-04-23",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-04-23",
+  "adj_close": 37.97
+ },
+ "balance": {
+  "end": "2025-12-31",
+  "cash": 1098918000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001015820-26-000018"
+ },
+ "burn6": null,
+ "shares": {
+  "end": "2025-12-31",
+  "shares": 216920735
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2026-01-23",
+  "to": "2026-05-23",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "qiagen",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

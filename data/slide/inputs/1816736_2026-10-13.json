@@ -1,0 +1,238 @@
+{
+ "id": "1816736_2026-10-13",
+ "kind": "slide",
+ "cik": "1816736",
+ "name": "Disc Medicine, Inc.",
+ "date": "2026-10-13",
+ "asof": "2026-10-13",
+ "final": false,
+ "version": 5,
+ "price": {
+  "date": "2026-10-13",
+  "adj_close": 56.6
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 717746000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001193125-26-325034"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": 106437000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-07-23",
+  "shares": 38392844
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2026-07-15",
+  "to": "2026-10-15",
+  "trades": [
+   {
+    "date": "2026-09-11",
+    "filed": "2026-09-15",
+    "code": "S",
+    "value": 1902505,
+    "who": "Bitterman Kevin"
+   },
+   {
+    "date": "2026-09-04",
+    "filed": "2026-09-09",
+    "code": "S",
+    "value": 72924,
+    "who": "Bitterman Kevin"
+   },
+   {
+    "date": "2026-09-04",
+    "filed": "2026-09-09",
+    "code": "S",
+    "value": 60690,
+    "who": "Bitterman Kevin"
+   },
+   {
+    "date": "2026-09-04",
+    "filed": "2026-09-09",
+    "code": "S",
+    "value": 1439,
+    "who": "Bitterman Kevin"
+   },
+   {
+    "date": "2026-09-01",
+    "filed": "2026-09-03",
+    "code": "S",
+    "value": 5596,
+    "who": "Bitterman Kevin"
+   },
+   {
+    "date": "2026-09-01",
+    "filed": "2026-09-03",
+    "code": "S",
+    "value": 4637,
+    "who": "Bitterman Kevin"
+   },
+   {
+    "date": "2026-09-01",
+    "filed": "2026-09-03",
+    "code": "S",
+    "value": 80,
+    "who": "Bitterman Kevin"
+   },
+   {
+    "date": "2026-09-02",
+    "filed": "2026-09-03",
+    "code": "S",
+    "value": 2127872,
+    "who": "Bitterman Kevin"
+   },
+   {
+    "date": "2026-09-02",
+    "filed": "2026-09-03",
+    "code": "S",
+    "value": 1770955,
+    "who": "Bitterman Kevin"
+   },
+   {
+    "date": "2026-09-02",
+    "filed": "2026-09-03",
+    "code": "S",
+    "value": 40967,
+    "who": "Bitterman Kevin"
+   },
+   {
+    "date": "2026-09-02",
+    "filed": "2026-09-03",
+    "code": "S",
+    "value": 810,
+    "who": "Bitterman Kevin"
+   },
+   {
+    "date": "2026-09-02",
+    "filed": "2026-09-03",
+    "code": "S",
+    "value": 729,
+    "who": "Bitterman Kevin"
+   },
+   {
+    "date": "2026-09-02",
+    "filed": "2026-09-03",
+    "code": "S",
+    "value": 162,
+    "who": "Bitterman Kevin"
+   },
+   {
+    "date": "2026-09-03",
+    "filed": "2026-09-03",
+    "code": "S",
+    "value": 224744,
+    "who": "Bitterman Kevin"
+   },
+   {
+    "date": "2026-09-03",
+    "filed": "2026-09-03",
+    "code": "S",
+    "value": 187073,
+    "who": "Bitterman Kevin"
+   },
+   {
+    "date": "2026-09-03",
+    "filed": "2026-09-03",
+    "code": "S",
+    "value": 4319,
+    "who": "Bitterman Kevin"
+   },
+   {
+    "date": "2026-08-24",
+    "filed": "2026-08-26",
+    "code": "S",
+    "value": 24760,
+    "who": "Yu Jonathan Yen-Wen"
+   },
+   {
+    "date": "2026-08-25",
+    "filed": "2026-08-26",
+    "code": "S",
+    "value": 731092,
+    "who": "Yu Jonathan Yen-Wen"
+   },
+   {
+    "date": "2026-08-17",
+    "filed": "2026-08-18",
+    "code": "S",
+    "value": 656091,
+    "who": "Quisel John D"
+   },
+   {
+    "date": "2026-08-17",
+    "filed": "2026-08-18",
+    "code": "S",
+    "value": 1006729,
+    "who": "Quisel John D"
+   },
+   {
+    "date": "2026-08-17",
+    "filed": "2026-08-18",
+    "code": "S",
+    "value": 949162,
+    "who": "Quisel John D"
+   },
+   {
+    "date": "2026-08-12",
+    "filed": "2026-08-14",
+    "code": "S",
+    "value": 66445,
+    "who": "Yu Jonathan Yen-Wen"
+   },
+   {
+    "date": "2026-08-06",
+    "filed": "2026-08-07",
+    "code": "S",
+    "value": 400000,
+    "who": "Khara Rahul"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "disc medicine",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05320198",
+    "drugs": [
+     "DISC-0974"
+    ]
+   },
+   {
+    "nct": "NCT07368972",
+    "drugs": [
+     "DISC-0974"
+    ]
+   },
+   {
+    "nct": "NCT06985147",
+    "drugs": [
+     "DISC-3405"
+    ]
+   },
+   {
+    "nct": "NCT05883748",
+    "drugs": [
+     "DISC-1459",
+     "DISC-1459"
+    ]
+   }
+  ]
+ }
+}

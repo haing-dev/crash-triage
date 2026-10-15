@@ -1,0 +1,108 @@
+{
+ "id": "1701108_2021-12-10",
+ "kind": "slide",
+ "cik": "1701108",
+ "name": "Spero Therapeutics, Inc.",
+ "date": "2021-12-10",
+ "asof": "2021-12-10",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-12-10",
+  "adj_close": 13.63
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 123417000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-21-004064"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 21519000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-11-05",
+  "shares": 32323617
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "The report of our auditor on our consolidated financial statements expresses substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 9,
+  "from": "2021-09-11",
+  "to": "2022-01-09",
+  "trades": [
+   {
+    "date": "2021-12-29",
+    "filed": "2022-01-03",
+    "code": "P",
+    "value": 1105263,
+    "who": "Aquilo Capital Management, LLC"
+   },
+   {
+    "date": "2021-12-30",
+    "filed": "2022-01-03",
+    "code": "P",
+    "value": 788610,
+    "who": "Aquilo Capital Management, LLC"
+   },
+   {
+    "date": "2021-12-31",
+    "filed": "2022-01-03",
+    "code": "P",
+    "value": 1969025,
+    "who": "Aquilo Capital Management, LLC"
+   },
+   {
+    "date": "2021-12-27",
+    "filed": "2021-12-29",
+    "code": "S",
+    "value": 116666,
+    "who": "Mahadevia Ankit"
+   },
+   {
+    "date": "2021-10-29",
+    "filed": "2021-11-02",
+    "code": "P",
+    "value": 2630175,
+    "who": "Aquilo Capital Management, LLC"
+   },
+   {
+    "date": "2021-09-30",
+    "filed": "2021-10-04",
+    "code": "P",
+    "value": 2509173,
+    "who": "Aquilo Capital Management, LLC"
+   },
+   {
+    "date": "2021-09-13",
+    "filed": "2021-09-15",
+    "code": "P",
+    "value": 820675,
+    "who": "Aquilo Capital Management, LLC"
+   },
+   {
+    "date": "2021-09-14",
+    "filed": "2021-09-15",
+    "code": "P",
+    "value": 39872,
+    "who": "Aquilo Capital Management, LLC"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "spero therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

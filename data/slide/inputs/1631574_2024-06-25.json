@@ -1,0 +1,64 @@
+{
+ "id": "1631574_2024-06-25",
+ "kind": "slide",
+ "cik": "1631574",
+ "name": "Wave Life Sciences, Inc.",
+ "date": "2024-06-25",
+ "asof": "2024-06-25",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-06-25",
+  "adj_close": 4.77
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 180922000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-24-057457"
+ },
+ "burn6": {
+  "end": "2024-03-31",
+  "start": "2023-10-01",
+  "cash_used_ops": 66671000.0,
+  "capex": 773000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-05-07",
+  "shares": 122460160
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 2,
+  "from": "2024-03-27",
+  "to": "2024-07-25",
+  "trades": [
+   {
+    "date": "2024-04-03",
+    "filed": "2024-04-05",
+    "code": "S",
+    "value": 96421,
+    "who": "Moran Kyle"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "wave life sciences",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04906460",
+    "drugs": [
+     "WVE-N531"
+    ]
+   }
+  ]
+ }
+}

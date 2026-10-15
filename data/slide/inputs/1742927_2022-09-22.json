@@ -1,0 +1,72 @@
+{
+ "id": "1742927_2022-09-22",
+ "kind": "slide",
+ "cik": "1742927",
+ "name": "REVIVA PHARMACEUTICALS HOLDINGS, INC.",
+ "date": "2022-09-22",
+ "asof": "2022-09-22",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-09-22",
+  "adj_close": 36.6
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 19420062,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001437749-22-020538"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 10267952.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-08-12",
+  "shares": 18133286
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Our recurring losses from operations have raised substantial doubt regarding our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2022-06-24",
+  "to": "2022-10-22",
+  "trades": [
+   {
+    "date": "2022-09-30",
+    "filed": "2022-10-03",
+    "code": "P",
+    "value": 83000,
+    "who": "Narayan Prabhu"
+   },
+   {
+    "date": "2022-06-30",
+    "filed": "2022-06-30",
+    "code": "P",
+    "value": 60670,
+    "who": "Narayan Prabhu"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "reviva pharmaceuticals",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05184335",
+    "drugs": [
+     "Brilaroxazine"
+    ]
+   }
+  ]
+ }
+}

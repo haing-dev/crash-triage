@@ -1,0 +1,50 @@
+{
+ "id": "1837412_2022-01-07",
+ "kind": "slide",
+ "cik": "1837412",
+ "name": "SomaLogic, Inc.",
+ "date": "2022-01-07",
+ "asof": "2022-01-07",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-01-07",
+  "adj_close": 9.93
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 675703000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001628280-21-023379"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 22206302.0,
+  "capex": 2028512.6470588234,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-10-29",
+  "shares": 181172759
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 12,
+  "from": "2021-10-09",
+  "to": "2022-02-06",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "somalogic",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

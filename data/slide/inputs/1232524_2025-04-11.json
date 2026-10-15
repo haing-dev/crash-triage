@@ -1,0 +1,175 @@
+{
+ "id": "1232524_2025-04-11",
+ "kind": "slide",
+ "cik": "1232524",
+ "name": "Jazz Pharmaceuticals plc",
+ "date": "2025-04-11",
+ "asof": "2025-04-11",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-04-11",
+  "adj_close": 100.5
+ },
+ "balance": {
+  "end": "2024-12-31",
+  "cash": 2412864000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001232524-25-000011"
+ },
+ "burn6": {
+  "end": "2024-12-31",
+  "start": "2024-07-01",
+  "cash_used_ops": -797327000.0,
+  "capex": 24075000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-02-19",
+  "shares": 60732479
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 26,
+  "from": "2025-01-11",
+  "to": "2025-05-11",
+  "trades": [
+   {
+    "date": "2025-05-01",
+    "filed": "2025-05-05",
+    "code": "S",
+    "value": 116350,
+    "who": "COZADD BRUCE C"
+   },
+   {
+    "date": "2025-05-02",
+    "filed": "2025-05-05",
+    "code": "S",
+    "value": 60000,
+    "who": "COZADD BRUCE C"
+   },
+   {
+    "date": "2025-04-01",
+    "filed": "2025-04-03",
+    "code": "S",
+    "value": 185625,
+    "who": "COZADD BRUCE C"
+   },
+   {
+    "date": "2025-03-10",
+    "filed": "2025-03-12",
+    "code": "S",
+    "value": 332605,
+    "who": "Iannone Robert"
+   },
+   {
+    "date": "2025-03-10",
+    "filed": "2025-03-11",
+    "code": "S",
+    "value": 157103,
+    "who": "Carr Patricia"
+   },
+   {
+    "date": "2025-03-07",
+    "filed": "2025-03-07",
+    "code": "S",
+    "value": 764578,
+    "who": "Iannone Robert"
+   },
+   {
+    "date": "2025-03-07",
+    "filed": "2025-03-07",
+    "code": "S",
+    "value": 216720,
+    "who": "Iannone Robert"
+   },
+   {
+    "date": "2025-02-27",
+    "filed": "2025-03-03",
+    "code": "S",
+    "value": 649873,
+    "who": "Carr Patricia"
+   },
+   {
+    "date": "2025-02-27",
+    "filed": "2025-03-03",
+    "code": "S",
+    "value": 45202,
+    "who": "Carr Patricia"
+   },
+   {
+    "date": "2025-02-28",
+    "filed": "2025-03-03",
+    "code": "S",
+    "value": 110767,
+    "who": "Carr Patricia"
+   },
+   {
+    "date": "2025-02-27",
+    "filed": "2025-03-03",
+    "code": "S",
+    "value": 550506,
+    "who": "Patil Neena M"
+   },
+   {
+    "date": "2025-03-03",
+    "filed": "2025-03-03",
+    "code": "S",
+    "value": 937625,
+    "who": "COZADD BRUCE C"
+   },
+   {
+    "date": "2025-02-03",
+    "filed": "2025-02-05",
+    "code": "S",
+    "value": 183465,
+    "who": "COZADD BRUCE C"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "jazz pharmaceuticals",
+  "other_trials": 7,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05152147",
+    "drugs": [
+     "Zanidatamab",
+     "Tislelizumab",
+     "Trastuzumab"
+    ]
+   },
+   {
+    "nct": "NCT05027139",
+    "drugs": [
+     "Zanidatamab",
+     "Evorpacept"
+    ]
+   },
+   {
+    "nct": "NCT05734066",
+    "drugs": [
+     "Lurbinectedin"
+    ]
+   },
+   {
+    "nct": "NCT05580562",
+    "drugs": [
+     "Dordaviprone (ONC201)"
+    ]
+   },
+   {
+    "nct": "NCT06695845",
+    "drugs": [
+     "Zanidatamab"
+    ]
+   }
+  ]
+ }
+}

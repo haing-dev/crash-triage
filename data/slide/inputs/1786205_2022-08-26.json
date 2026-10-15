@@ -1,0 +1,58 @@
+{
+ "id": "1786205_2022-08-26",
+ "kind": "slide",
+ "cik": "1786205",
+ "name": "Arcellx, Inc.",
+ "date": "2022-08-26",
+ "asof": "2022-08-26",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-08-26",
+  "adj_close": 16.74
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 306986000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-22-017455"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 55134000.0,
+  "capex": 616000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-08-11",
+  "shares": 43819246
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2022-05-28",
+  "to": "2022-09-25",
+  "trades": [
+   {
+    "date": "2022-06-21",
+    "filed": "2022-06-23",
+    "code": "P",
+    "value": 5000000,
+    "who": "New Enterprise Associates 15, L.P."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "arcellx",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

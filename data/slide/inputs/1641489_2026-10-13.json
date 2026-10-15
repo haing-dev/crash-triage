@@ -1,0 +1,60 @@
+{
+ "id": "1641489_2026-10-13",
+ "kind": "slide",
+ "cik": "1641489",
+ "name": "vTv Therapeutics Inc.",
+ "date": "2026-10-13",
+ "asof": "2026-10-13",
+ "final": false,
+ "version": 5,
+ "price": {
+  "date": "2026-10-13",
+  "adj_close": 28.23
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 86643000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001641489-26-000030"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": 2289000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": null,
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2026-07-15",
+  "to": "2026-10-15",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "vtv therapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT07616206",
+    "drugs": [
+     "Cadisegliatin 800 mg QD"
+    ]
+   },
+   {
+    "nct": "NCT06334133",
+    "drugs": [
+     "Cadisegliatin 800 mg QD",
+     "Cadisegliatin 800 mg BID"
+    ]
+   }
+  ]
+ }
+}

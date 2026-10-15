@@ -1,0 +1,86 @@
+{
+ "id": "1420565_2025-12-03",
+ "kind": "slide",
+ "cik": "1420565",
+ "name": "Rein Therapeutics, Inc.",
+ "date": "2025-12-03",
+ "asof": "2025-12-03",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-12-03",
+  "adj_close": 1.38
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 4048000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001193125-25-281622"
+ },
+ "burn6": {
+  "end": "2025-09-30",
+  "start": "2025-04-01",
+  "cash_used_ops": 9966000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-11-10",
+  "shares": 26286382
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "In addition, the Company\u2019s cash and cash equivalents will not be sufficient to enable the Company to fund its operating expenses and capital expenditure requirements for at least twelve months from the date of issuance of these condensed consolidated financial statements, which raises substantial do"
+ },
+ "insiders": {
+  "form4s": 2,
+  "from": "2025-09-04",
+  "to": "2026-01-02",
+  "trades": [
+   {
+    "date": "2025-11-14",
+    "filed": "2025-11-18",
+    "code": "P",
+    "value": 127593,
+    "who": "Voss Capital, LP"
+   },
+   {
+    "date": "2025-10-24",
+    "filed": "2025-10-28",
+    "code": "P",
+    "value": 41957,
+    "who": "Voss Capital, LP"
+   },
+   {
+    "date": "2025-10-27",
+    "filed": "2025-10-28",
+    "code": "P",
+    "value": 126920,
+    "who": "Voss Capital, LP"
+   },
+   {
+    "date": "2025-10-27",
+    "filed": "2025-10-28",
+    "code": "P",
+    "value": 6625,
+    "who": "Voss Capital, LP"
+   },
+   {
+    "date": "2025-10-28",
+    "filed": "2025-10-28",
+    "code": "P",
+    "value": 247965,
+    "who": "Voss Capital, LP"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "rein therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

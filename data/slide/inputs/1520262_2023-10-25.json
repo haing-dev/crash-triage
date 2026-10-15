@@ -1,0 +1,65 @@
+{
+ "id": "1520262_2023-10-25",
+ "kind": "slide",
+ "cik": "1520262",
+ "name": "Alkermes plc.",
+ "date": "2023-10-25",
+ "asof": "2023-10-25",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-10-25",
+  "adj_close": 23.45
+ },
+ "balance": {
+  "end": "2023-09-30",
+  "cash": 993761000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0000950170-23-055178"
+ },
+ "burn6": {
+  "end": "2023-09-30",
+  "start": "2023-04-01",
+  "cash_used_ops": -315418000.0,
+  "capex": 24158000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-10-20",
+  "shares": 166881286
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2023-07-27",
+  "to": "2023-11-24",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "alkermes",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04987229",
+    "drugs": [
+     "OLZ/SAM"
+    ]
+   },
+   {
+    "nct": "NCT05303064",
+    "drugs": [
+     "OLZ/SAM",
+     "Olanzapine"
+    ]
+   }
+  ]
+ }
+}

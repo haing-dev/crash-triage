@@ -1,0 +1,106 @@
+{
+ "id": "1368514_2023-10-12",
+ "kind": "slide",
+ "cik": "1368514",
+ "name": "ADMA BIOLOGICS, INC.",
+ "date": "2023-10-12",
+ "asof": "2023-10-12",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-10-12",
+  "adj_close": 3.19
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 62512889,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001140361-23-038843"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 20781030.0,
+  "capex": 2817229.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-08-04",
+  "shares": 224906426
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2023-07-14",
+  "to": "2023-11-11",
+  "trades": [
+   {
+    "date": "2023-08-30",
+    "filed": "2023-08-30",
+    "code": "P",
+    "value": 482144,
+    "who": "Grossman Jerrold B"
+   },
+   {
+    "date": "2023-08-24",
+    "filed": "2023-08-24",
+    "code": "P",
+    "value": 97500,
+    "who": "KWON YOUNG"
+   },
+   {
+    "date": "2023-08-22",
+    "filed": "2023-08-23",
+    "code": "S",
+    "value": 5544737,
+    "who": "Fong Bryant"
+   },
+   {
+    "date": "2023-08-18",
+    "filed": "2023-08-18",
+    "code": "S",
+    "value": 1038350,
+    "who": "Grossman Adam S"
+   },
+   {
+    "date": "2023-08-15",
+    "filed": "2023-08-17",
+    "code": "S",
+    "value": 2318959,
+    "who": "Grossman Adam S"
+   },
+   {
+    "date": "2023-08-16",
+    "filed": "2023-08-17",
+    "code": "S",
+    "value": 13,
+    "who": "Grossman Adam S"
+   },
+   {
+    "date": "2023-08-15",
+    "filed": "2023-08-17",
+    "code": "S",
+    "value": 972730,
+    "who": "LENZ BRIAN"
+   },
+   {
+    "date": "2023-08-16",
+    "filed": "2023-08-17",
+    "code": "S",
+    "value": 793400,
+    "who": "LENZ BRIAN"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "adma biologics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

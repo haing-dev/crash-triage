@@ -1,0 +1,146 @@
+{
+ "id": "1228627_2026-06-02",
+ "kind": "slide",
+ "cik": "1228627",
+ "name": "Opus Genetics, Inc.",
+ "date": "2026-06-02",
+ "asof": "2026-06-02",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-06-02",
+  "adj_close": 3.99
+ },
+ "balance": {
+  "end": "2026-03-31",
+  "cash": 59959000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001628280-26-034084"
+ },
+ "burn6": {
+  "end": "2026-03-31",
+  "start": "2025-10-01",
+  "cash_used_ops": 22560000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-05-07",
+  "shares": 81395539
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 18,
+  "from": "2026-03-04",
+  "to": "2026-07-02",
+  "trades": [
+   {
+    "date": "2026-05-18",
+    "filed": "2026-05-20",
+    "code": "S",
+    "value": 7395000,
+    "who": "Foundation Fighting Blindness Retinal Degeneration Fund"
+   },
+   {
+    "date": "2026-04-23",
+    "filed": "2026-04-27",
+    "code": "S",
+    "value": 39121,
+    "who": "YERXA BENJAMIN R"
+   },
+   {
+    "date": "2026-04-23",
+    "filed": "2026-04-27",
+    "code": "S",
+    "value": 24519,
+    "who": "SCHACHLE JOSEPH K"
+   },
+   {
+    "date": "2026-04-23",
+    "filed": "2026-04-27",
+    "code": "S",
+    "value": 8540,
+    "who": "Zaremba Rabourn Amy"
+   },
+   {
+    "date": "2026-04-23",
+    "filed": "2026-04-27",
+    "code": "S",
+    "value": 49647,
+    "who": "Magrath George"
+   },
+   {
+    "date": "2026-04-23",
+    "filed": "2026-04-27",
+    "code": "S",
+    "value": 39156,
+    "who": "Jayagopal Ashwath"
+   },
+   {
+    "date": "2026-04-23",
+    "filed": "2026-04-27",
+    "code": "S",
+    "value": 40658,
+    "who": "Gagnon Robert E."
+   },
+   {
+    "date": "2026-03-16",
+    "filed": "2026-03-18",
+    "code": "S",
+    "value": 19525,
+    "who": "SCHACHLE JOSEPH K"
+   },
+   {
+    "date": "2026-03-16",
+    "filed": "2026-03-18",
+    "code": "S",
+    "value": 14770,
+    "who": "Zaremba Rabourn Amy"
+   },
+   {
+    "date": "2026-03-16",
+    "filed": "2026-03-18",
+    "code": "S",
+    "value": 127327,
+    "who": "Magrath George"
+   },
+   {
+    "date": "2026-03-16",
+    "filed": "2026-03-18",
+    "code": "S",
+    "value": 19046,
+    "who": "Jayagopal Ashwath"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "opus genetics",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05616793",
+    "drugs": [
+     "AAV8.hLCA5"
+    ]
+   },
+   {
+    "nct": "NCT07185256",
+    "drugs": [
+     "OPGx-BEST1"
+    ]
+   },
+   {
+    "nct": "NCT07140783",
+    "drugs": [
+     "0.75% Phentolamine Ophthalmic Solution"
+    ]
+   }
+  ]
+ }
+}

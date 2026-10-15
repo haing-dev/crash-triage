@@ -1,0 +1,68 @@
+{
+ "id": "1106644_2021-11-01",
+ "kind": "slide",
+ "cik": "1106644",
+ "name": "CHINA PHARMA HOLDINGS, INC.",
+ "date": "2021-11-01",
+ "asof": "2021-11-01",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-11-01",
+  "adj_close": 315.0
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 1754868,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001213900-21-042474"
+ },
+ "burn6": {
+  "end": "2021-06-30",
+  "start": "2021-01-01",
+  "cash_used_ops": -399120.0,
+  "capex": 15022.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-08-05",
+  "shares": 43579557
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2021-08-03",
+  "to": "2021-12-01",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "china pharma",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04995419",
+    "drugs": [
+     "Enfortumab vedotin"
+    ]
+   },
+   {
+    "nct": "NCT04451226",
+    "drugs": [
+     "Fezolinetant"
+    ]
+   },
+   {
+    "nct": "NCT04234204",
+    "drugs": [
+     "Fezolinetant"
+    ]
+   }
+  ]
+ }
+}

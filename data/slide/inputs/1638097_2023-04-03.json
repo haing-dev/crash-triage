@@ -1,0 +1,58 @@
+{
+ "id": "1638097_2023-04-03",
+ "kind": "slide",
+ "cik": "1638097",
+ "name": "Entera Bio Ltd.",
+ "date": "2023-04-03",
+ "asof": "2023-04-03",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-04-03",
+  "adj_close": 1.005
+ },
+ "balance": {
+  "end": "2022-12-31",
+  "cash": 12309000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001178913-23-001272"
+ },
+ "burn6": {
+  "end": "2022-12-31",
+  "start": "2022-07-01",
+  "cash_used_ops": 4880000.0,
+  "capex": 5000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-03-27",
+  "shares": 28809922
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These risks are discussed more fully later in this Item 1A, and include, but are not limited to, the following: \u2022 We have incurred significant losses since our inception and anticipate that we will continue to incur substantial losses for the next several years; \u2022 Management has performed an analysi"
+ },
+ "insiders": {
+  "form4s": 10,
+  "from": "2023-01-03",
+  "to": "2023-05-03",
+  "trades": [
+   {
+    "date": "2023-04-04",
+    "filed": "2023-04-06",
+    "code": "P",
+    "value": 30300,
+    "who": "Toledano Miranda Jayne"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "entera bio",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

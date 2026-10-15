@@ -1,0 +1,72 @@
+{
+ "id": "1430306_2026-09-18",
+ "kind": "slide",
+ "cik": "1430306",
+ "name": "Tonix Pharmaceuticals Holding Corp.",
+ "date": "2026-09-18",
+ "asof": "2026-09-18",
+ "final": false,
+ "version": 5,
+ "price": {
+  "date": "2026-09-18",
+  "adj_close": 10.87
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 176232000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001999371-26-017452"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": 84561000.0,
+  "capex": 2279000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-08-07",
+  "shares": 17151024
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These factors raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2026-06-20",
+  "to": "2026-10-15",
+  "trades": [
+   {
+    "date": "2026-08-27",
+    "filed": "2026-08-31",
+    "code": "P",
+    "value": 27580,
+    "who": "LEDERMAN SETH"
+   },
+   {
+    "date": "2026-08-20",
+    "filed": "2026-08-24",
+    "code": "P",
+    "value": 12600,
+    "who": "BAGGER RICHARD H"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "tonix pharmaceuticals",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT07621237",
+    "drugs": [
+     "TNX-102 SL"
+    ]
+   }
+  ]
+ }
+}

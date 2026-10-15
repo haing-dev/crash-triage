@@ -1,0 +1,137 @@
+{
+ "id": "1394319_2023-03-08",
+ "kind": "slide",
+ "cik": "1394319",
+ "name": "Tracon Pharmaceuticals, Inc.",
+ "date": "2023-03-08",
+ "asof": "2023-03-08",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-03-08",
+  "adj_close": 27.6
+ },
+ "balance": {
+  "end": "2022-12-31",
+  "cash": 17433000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001564590-23-003313"
+ },
+ "burn6": {
+  "end": "2022-12-31",
+  "start": "2022-07-01",
+  "cash_used_ops": 11480000.0,
+  "capex": 11000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-03-03",
+  "shares": 23822542
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "There is substantial doubt as to our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2022-12-08",
+  "to": "2023-04-07",
+  "trades": [
+   {
+    "date": "2023-03-09",
+    "filed": "2023-03-13",
+    "code": "P",
+    "value": 240821,
+    "who": "Opaleye Management Inc."
+   },
+   {
+    "date": "2023-02-28",
+    "filed": "2023-03-02",
+    "code": "P",
+    "value": 304,
+    "who": "THEUER CHARLES"
+   },
+   {
+    "date": "2023-03-01",
+    "filed": "2023-03-02",
+    "code": "P",
+    "value": 7296,
+    "who": "THEUER CHARLES"
+   },
+   {
+    "date": "2023-01-18",
+    "filed": "2023-01-19",
+    "code": "P",
+    "value": 11016,
+    "who": "THEUER CHARLES"
+   },
+   {
+    "date": "2022-12-21",
+    "filed": "2023-01-19",
+    "code": "S",
+    "value": 151,
+    "who": "LARUE WILLIAM R"
+   },
+   {
+    "date": "2022-12-29",
+    "filed": "2023-01-03",
+    "code": "P",
+    "value": 5215,
+    "who": "Brown Scott B."
+   },
+   {
+    "date": "2022-12-14",
+    "filed": "2022-12-16",
+    "code": "P",
+    "value": 175826,
+    "who": "Opaleye Management Inc."
+   },
+   {
+    "date": "2022-12-14",
+    "filed": "2022-12-16",
+    "code": "P",
+    "value": 34050,
+    "who": "Opaleye Management Inc."
+   },
+   {
+    "date": "2022-12-14",
+    "filed": "2022-12-15",
+    "code": "P",
+    "value": 29755,
+    "who": "THEUER CHARLES"
+   },
+   {
+    "date": "2022-12-06",
+    "filed": "2022-12-08",
+    "code": "S",
+    "value": 2216,
+    "who": "Opaleye Management Inc."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "tracon pharmaceuticals",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05448820",
+    "drugs": [
+     "YH001",
+     "Envafolimab",
+     "Doxorubicin"
+    ]
+   },
+   {
+    "nct": "NCT04480502",
+    "drugs": [
+     "Envafolimab",
+     "Ipilimumab"
+    ]
+   }
+  ]
+ }
+}

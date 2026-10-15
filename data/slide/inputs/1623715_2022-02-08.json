@@ -1,0 +1,169 @@
+{
+ "id": "1623715_2022-02-08",
+ "kind": "slide",
+ "cik": "1623715",
+ "name": "Imago BioSciences, Inc.",
+ "date": "2022-02-08",
+ "asof": "2022-02-08",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-02-08",
+  "adj_close": 20.64
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 230353000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-21-004137"
+ },
+ "burn6": null,
+ "shares": {
+  "end": "2021-11-05",
+  "shares": 33528718
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 18,
+  "from": "2021-11-10",
+  "to": "2022-03-10",
+  "trades": [
+   {
+    "date": "2022-02-22",
+    "filed": "2022-02-24",
+    "code": "S",
+    "value": 163949,
+    "who": "Eichorn Laura G."
+   },
+   {
+    "date": "2022-02-22",
+    "filed": "2022-02-24",
+    "code": "S",
+    "value": 8864,
+    "who": "Eichorn Laura G."
+   },
+   {
+    "date": "2022-02-11",
+    "filed": "2022-02-15",
+    "code": "S",
+    "value": 166295,
+    "who": "Peppe Jennifer"
+   },
+   {
+    "date": "2022-02-11",
+    "filed": "2022-02-15",
+    "code": "S",
+    "value": 94455,
+    "who": "Eichorn Laura G."
+   },
+   {
+    "date": "2022-02-11",
+    "filed": "2022-02-15",
+    "code": "S",
+    "value": 71347,
+    "who": "Tapper Amy E."
+   },
+   {
+    "date": "2022-02-09",
+    "filed": "2022-02-11",
+    "code": "S",
+    "value": 222581,
+    "who": "Peppe Jennifer"
+   },
+   {
+    "date": "2022-02-09",
+    "filed": "2022-02-11",
+    "code": "S",
+    "value": 86254,
+    "who": "Eichorn Laura G."
+   },
+   {
+    "date": "2022-02-09",
+    "filed": "2022-02-11",
+    "code": "S",
+    "value": 64614,
+    "who": "Tapper Amy E."
+   },
+   {
+    "date": "2022-02-07",
+    "filed": "2022-02-09",
+    "code": "S",
+    "value": 143261,
+    "who": "Peppe Jennifer"
+   },
+   {
+    "date": "2022-02-07",
+    "filed": "2022-02-09",
+    "code": "S",
+    "value": 122941,
+    "who": "Peppe Jennifer"
+   },
+   {
+    "date": "2022-02-01",
+    "filed": "2022-02-03",
+    "code": "S",
+    "value": 113218,
+    "who": "Tapper Amy E."
+   },
+   {
+    "date": "2022-02-01",
+    "filed": "2022-02-03",
+    "code": "S",
+    "value": 15194,
+    "who": "Tapper Amy E."
+   },
+   {
+    "date": "2022-01-12",
+    "filed": "2022-01-14",
+    "code": "S",
+    "value": 279353,
+    "who": "Peppe Jennifer"
+   },
+   {
+    "date": "2022-01-12",
+    "filed": "2022-01-14",
+    "code": "S",
+    "value": 119750,
+    "who": "Tapper Amy E."
+   },
+   {
+    "date": "2022-01-12",
+    "filed": "2022-01-14",
+    "code": "S",
+    "value": 159651,
+    "who": "Eichorn Laura G."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "imago biosciences",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03136185",
+    "drugs": [
+     "Bomedemstat"
+    ]
+   },
+   {
+    "nct": "NCT05223920",
+    "drugs": [
+     "Bomedemstat"
+    ]
+   },
+   {
+    "nct": "NCT04254978",
+    "drugs": [
+     "Bomedemstat"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,149 @@
+{
+ "id": "1604464_2021-07-09",
+ "kind": "slide",
+ "cik": "1604464",
+ "name": "Atara Biotherapeutics, Inc.",
+ "date": "2021-07-09",
+ "asof": "2021-07-09",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-07-09",
+  "adj_close": 353.75
+ },
+ "balance": {
+  "end": "2021-03-31",
+  "cash": 435161000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001564590-21-023337"
+ },
+ "burn6": {
+  "end": "2021-03-31",
+  "start": "2020-10-01",
+  "cash_used_ops": 69818000.0,
+  "capex": 2798000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-04-26",
+  "shares": 84076737
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 18,
+  "from": "2021-04-10",
+  "to": "2021-08-08",
+  "trades": [
+   {
+    "date": "2021-06-25",
+    "filed": "2021-06-29",
+    "code": "S",
+    "value": 231660,
+    "who": "Touchon Pascal"
+   },
+   {
+    "date": "2021-06-11",
+    "filed": "2021-06-15",
+    "code": "P",
+    "value": 29304,
+    "who": "Yarema Kristin"
+   },
+   {
+    "date": "2021-06-14",
+    "filed": "2021-06-15",
+    "code": "P",
+    "value": 50680,
+    "who": "Yarema Kristin"
+   },
+   {
+    "date": "2021-06-14",
+    "filed": "2021-06-15",
+    "code": "P",
+    "value": 420385,
+    "who": "Yarema Kristin"
+   },
+   {
+    "date": "2021-06-08",
+    "filed": "2021-06-09",
+    "code": "S",
+    "value": 81829,
+    "who": "Koppikar Utpal"
+   },
+   {
+    "date": "2021-05-18",
+    "filed": "2021-05-20",
+    "code": "S",
+    "value": 35691,
+    "who": "Newell Joe"
+   },
+   {
+    "date": "2021-05-18",
+    "filed": "2021-05-20",
+    "code": "S",
+    "value": 75427,
+    "who": "Dupont Jakob"
+   },
+   {
+    "date": "2021-05-18",
+    "filed": "2021-05-20",
+    "code": "S",
+    "value": 82659,
+    "who": "Murugan Amar"
+   },
+   {
+    "date": "2021-05-18",
+    "filed": "2021-05-20",
+    "code": "S",
+    "value": 120954,
+    "who": "Touchon Pascal"
+   },
+   {
+    "date": "2021-05-18",
+    "filed": "2021-05-20",
+    "code": "S",
+    "value": 52613,
+    "who": "Koppikar Utpal"
+   },
+   {
+    "date": "2021-05-18",
+    "filed": "2021-05-20",
+    "code": "S",
+    "value": 11073,
+    "who": "Yarema Kristin"
+   },
+   {
+    "date": "2021-05-17",
+    "filed": "2021-05-17",
+    "code": "S",
+    "value": 52500,
+    "who": "Newell Joe"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "atara biotherapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03769467",
+    "drugs": [
+     "Tabelecleucel",
+     "Pembrolizumab"
+    ]
+   },
+   {
+    "nct": "NCT03283826",
+    "drugs": [
+     "ATA188"
+    ]
+   }
+  ]
+ }
+}

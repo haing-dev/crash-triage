@@ -1,0 +1,85 @@
+{
+ "id": "818686_2021-07-14",
+ "kind": "slide",
+ "cik": "818686",
+ "name": "TEVA PHARMACEUTICAL INDUSTRIES LTD",
+ "date": "2021-07-14",
+ "asof": "2021-07-14",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-07-14",
+  "adj_close": 8.94
+ },
+ "balance": {
+  "end": "2021-03-31",
+  "cash": 1743000000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001193125-21-136842"
+ },
+ "burn6": {
+  "end": "2021-03-31",
+  "start": "2020-10-01",
+  "cash_used_ops": 74000000.0,
+  "capex": 326000000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-03-31",
+  "shares": 1102349072
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 36,
+  "from": "2021-04-15",
+  "to": "2021-08-13",
+  "trades": [
+   {
+    "date": "2021-08-10",
+    "filed": "2021-08-12",
+    "code": "S",
+    "value": 506021,
+    "who": "Fridriksdottir Hafrun"
+   },
+   {
+    "date": "2021-05-21",
+    "filed": "2021-05-25",
+    "code": "S",
+    "value": 440320,
+    "who": "Drape Eric"
+   },
+   {
+    "date": "2021-05-11",
+    "filed": "2021-05-13",
+    "code": "S",
+    "value": 387125,
+    "who": "Stark David Matthew"
+   },
+   {
+    "date": "2021-05-11",
+    "filed": "2021-05-13",
+    "code": "S",
+    "value": 194830,
+    "who": "Fridriksdottir Hafrun"
+   },
+   {
+    "date": "2021-05-11",
+    "filed": "2021-05-13",
+    "code": "S",
+    "value": 202413,
+    "who": "Drape Eric"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "teva pharmaceutical industries",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,141 @@
+{
+ "id": "1697532_2023-11-13",
+ "kind": "slide",
+ "cik": "1697532",
+ "name": "Applied Therapeutics, Inc.",
+ "date": "2023-11-13",
+ "asof": "2023-11-13",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-11-13",
+  "adj_close": 1.95
+ },
+ "balance": {
+  "end": "2023-09-30",
+  "cash": 37457000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-23-018422"
+ },
+ "burn6": {
+  "end": "2023-09-30",
+  "start": "2023-04-01",
+  "cash_used_ops": 31178000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-11-08",
+  "shares": 77229207
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Given our planned expenditures for the next twelve months, we have concluded there is substantial doubt regarding our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 13,
+  "from": "2023-08-15",
+  "to": "2023-12-13",
+  "trades": [
+   {
+    "date": "2023-12-01",
+    "filed": "2023-12-05",
+    "code": "P",
+    "value": 65367,
+    "who": "Kanter Stacy J."
+   },
+   {
+    "date": "2023-11-30",
+    "filed": "2023-12-01",
+    "code": "S",
+    "value": 7817,
+    "who": "Shendelman Shoshana"
+   },
+   {
+    "date": "2023-11-30",
+    "filed": "2023-12-01",
+    "code": "S",
+    "value": 3119,
+    "who": "Perfetti Riccardo"
+   },
+   {
+    "date": "2023-11-30",
+    "filed": "2023-12-01",
+    "code": "S",
+    "value": 1901,
+    "who": "Hansard Adam"
+   },
+   {
+    "date": "2023-11-02",
+    "filed": "2023-11-06",
+    "code": "S",
+    "value": 240835,
+    "who": "ALEXANDRIA REAL ESTATE EQUITIES, INC."
+   },
+   {
+    "date": "2023-11-03",
+    "filed": "2023-11-06",
+    "code": "S",
+    "value": 331370,
+    "who": "ALEXANDRIA REAL ESTATE EQUITIES, INC."
+   },
+   {
+    "date": "2023-10-31",
+    "filed": "2023-11-02",
+    "code": "S",
+    "value": 373550,
+    "who": "ALEXANDRIA REAL ESTATE EQUITIES, INC."
+   },
+   {
+    "date": "2023-11-01",
+    "filed": "2023-11-02",
+    "code": "S",
+    "value": 407671,
+    "who": "ALEXANDRIA REAL ESTATE EQUITIES, INC."
+   },
+   {
+    "date": "2023-09-27",
+    "filed": "2023-09-29",
+    "code": "S",
+    "value": 312206,
+    "who": "Shendelman Shoshana"
+   },
+   {
+    "date": "2023-09-27",
+    "filed": "2023-09-29",
+    "code": "S",
+    "value": 29516,
+    "who": "Perfetti Riccardo"
+   },
+   {
+    "date": "2023-09-27",
+    "filed": "2023-09-29",
+    "code": "S",
+    "value": 26244,
+    "who": "Hansard Adam"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "applied therapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04083339",
+    "drugs": [
+     "AT-001"
+    ]
+   },
+   {
+    "nct": "NCT05397665",
+    "drugs": [
+     "AT-007"
+    ]
+   }
+  ]
+ }
+}

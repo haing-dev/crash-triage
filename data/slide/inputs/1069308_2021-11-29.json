@@ -1,0 +1,65 @@
+{
+ "id": "1069308_2021-11-29",
+ "kind": "slide",
+ "cik": "1069308",
+ "name": "Acer Therapeutics Inc.",
+ "date": "2021-11-29",
+ "asof": "2021-11-29",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-11-29",
+  "adj_close": 2.12
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 14151496,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001564590-21-057798"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 1719665.0,
+  "capex": 29136.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-11-01",
+  "shares": 14310244
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These factors individually and collectively raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2021-08-31",
+  "to": "2021-12-29",
+  "trades": [
+   {
+    "date": "2021-12-09",
+    "filed": "2021-12-13",
+    "code": "P",
+    "value": 4334,
+    "who": "ASELAGE STEVE"
+   },
+   {
+    "date": "2021-12-10",
+    "filed": "2021-12-13",
+    "code": "P",
+    "value": 16287,
+    "who": "ASELAGE STEVE"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "acer therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

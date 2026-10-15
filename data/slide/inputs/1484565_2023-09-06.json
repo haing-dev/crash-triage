@@ -1,0 +1,169 @@
+{
+ "id": "1484565_2023-09-06",
+ "kind": "slide",
+ "cik": "1484565",
+ "name": "SOLENO THERAPEUTICS INC",
+ "date": "2023-09-06",
+ "asof": "2023-09-06",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-09-06",
+  "adj_close": 3.87
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 19368000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-23-039934"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 12294000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-08-03",
+  "shares": 9992178
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These matters raise substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2023-06-08",
+  "to": "2023-10-06",
+  "trades": [
+   {
+    "date": "2023-09-26",
+    "filed": "2023-09-28",
+    "code": "P",
+    "value": 43628,
+    "who": "PERCEPTIVE ADVISORS LLC"
+   },
+   {
+    "date": "2023-09-26",
+    "filed": "2023-09-28",
+    "code": "P",
+    "value": 113602,
+    "who": "PERCEPTIVE ADVISORS LLC"
+   },
+   {
+    "date": "2023-09-26",
+    "filed": "2023-09-28",
+    "code": "P",
+    "value": 51589,
+    "who": "PERCEPTIVE ADVISORS LLC"
+   },
+   {
+    "date": "2023-09-26",
+    "filed": "2023-09-28",
+    "code": "P",
+    "value": 418917,
+    "who": "PERCEPTIVE ADVISORS LLC"
+   },
+   {
+    "date": "2023-09-26",
+    "filed": "2023-09-28",
+    "code": "P",
+    "value": 919255,
+    "who": "PERCEPTIVE ADVISORS LLC"
+   },
+   {
+    "date": "2023-09-26",
+    "filed": "2023-09-28",
+    "code": "P",
+    "value": 550040,
+    "who": "PERCEPTIVE ADVISORS LLC"
+   },
+   {
+    "date": "2023-09-26",
+    "filed": "2023-09-28",
+    "code": "P",
+    "value": 424713,
+    "who": "PERCEPTIVE ADVISORS LLC"
+   },
+   {
+    "date": "2023-09-26",
+    "filed": "2023-09-28",
+    "code": "P",
+    "value": 48593,
+    "who": "PERCEPTIVE ADVISORS LLC"
+   },
+   {
+    "date": "2023-09-26",
+    "filed": "2023-09-28",
+    "code": "P",
+    "value": 444304,
+    "who": "PERCEPTIVE ADVISORS LLC"
+   },
+   {
+    "date": "2023-09-26",
+    "filed": "2023-09-28",
+    "code": "P",
+    "value": 1304243,
+    "who": "PERCEPTIVE ADVISORS LLC"
+   },
+   {
+    "date": "2023-09-26",
+    "filed": "2023-09-28",
+    "code": "P",
+    "value": 961084,
+    "who": "PERCEPTIVE ADVISORS LLC"
+   },
+   {
+    "date": "2023-09-26",
+    "filed": "2023-09-28",
+    "code": "P",
+    "value": 1694770,
+    "who": "PERCEPTIVE ADVISORS LLC"
+   },
+   {
+    "date": "2023-09-26",
+    "filed": "2023-09-28",
+    "code": "P",
+    "value": 2363460,
+    "who": "PERCEPTIVE ADVISORS LLC"
+   },
+   {
+    "date": "2023-09-26",
+    "filed": "2023-09-28",
+    "code": "P",
+    "value": 775719,
+    "who": "PERCEPTIVE ADVISORS LLC"
+   },
+   {
+    "date": "2023-09-28",
+    "filed": "2023-09-28",
+    "code": "P",
+    "value": 5000000,
+    "who": "PERCEPTIVE ADVISORS LLC"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "soleno therapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05701774",
+    "drugs": [
+     "DCCR"
+    ]
+   },
+   {
+    "nct": "NCT05532020",
+    "drugs": [
+     "DCCR (diazoxide choline) extended-release tablets"
+    ]
+   }
+  ]
+ }
+}

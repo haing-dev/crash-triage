@@ -1,0 +1,78 @@
+{
+ "id": "1693011_2024-04-10",
+ "kind": "slide",
+ "cik": "1693011",
+ "name": "Inozyme Pharma, Inc.",
+ "date": "2024-04-10",
+ "asof": "2024-04-10",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-04-10",
+  "adj_close": 5.24
+ },
+ "balance": {
+  "end": "2023-12-31",
+  "cash": 188589000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-24-029673"
+ },
+ "burn6": {
+  "end": "2023-12-31",
+  "start": "2023-07-01",
+  "cash_used_ops": 37355000.0,
+  "capex": 112000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-11-01",
+  "shares": 61760748
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2024-01-11",
+  "to": "2024-05-10",
+  "trades": [
+   {
+    "date": "2024-04-02",
+    "filed": "2024-04-03",
+    "code": "S",
+    "value": 52210,
+    "who": "Treco Douglas A"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "inozyme pharma",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04686175",
+    "drugs": [
+     "INZ-701"
+    ]
+   },
+   {
+    "nct": "NCT05030831",
+    "drugs": [
+     "INZ-701"
+    ]
+   },
+   {
+    "nct": "NCT06046820",
+    "drugs": [
+     "INZ-701",
+     "Control Arm (Conventional Therapy)"
+    ]
+   }
+  ]
+ }
+}

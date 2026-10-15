@@ -1,0 +1,64 @@
+{
+ "id": "1724979_2023-03-09",
+ "kind": "slide",
+ "cik": "1724979",
+ "name": "Rain Oncology Inc.",
+ "date": "2023-03-09",
+ "asof": "2023-03-09",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-03-09",
+  "adj_close": 8.44
+ },
+ "balance": {
+  "end": "2022-12-31",
+  "cash": 130454000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001558370-23-003331"
+ },
+ "burn6": {
+  "end": "2022-12-31",
+  "start": "2022-07-01",
+  "cash_used_ops": 28657000.0,
+  "capex": 4014.065934065934,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-02-28",
+  "shares": 36356233
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2022-12-09",
+  "to": "2023-04-08",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "rain oncology",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05012397",
+    "drugs": [
+     "RAIN-32"
+    ]
+   },
+   {
+    "nct": "NCT04979442",
+    "drugs": [
+     "RAIN-32",
+     "Trabectedin"
+    ]
+   }
+  ]
+ }
+}

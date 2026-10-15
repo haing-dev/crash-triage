@@ -1,0 +1,58 @@
+{
+ "id": "1370053_2026-10-01",
+ "kind": "slide",
+ "cik": "1370053",
+ "name": "ANAPTYSBIO, INC",
+ "date": "2026-10-01",
+ "asof": "2026-10-01",
+ "final": false,
+ "version": 5,
+ "price": {
+  "date": "2026-10-01",
+  "adj_close": 48.63
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 164143000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001193125-26-396696"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": 52559000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-09-16",
+  "shares": 29895244
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2026-07-03",
+  "to": "2026-10-15",
+  "trades": [
+   {
+    "date": "2026-10-01",
+    "filed": "2026-10-02",
+    "code": "S",
+    "value": 249372,
+    "who": "RENTON HOLLINGS"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "anaptysbio",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

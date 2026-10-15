@@ -1,0 +1,59 @@
+{
+ "id": "1457612_2021-11-01",
+ "kind": "slide",
+ "cik": "1457612",
+ "name": "GENOCEA BIOSCIENCES, INC.",
+ "date": "2021-11-01",
+ "asof": "2021-11-01",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-11-01",
+  "adj_close": 1.83
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 48908000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001457612-21-000102"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 21872000.0,
+  "capex": 1244000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-10-25",
+  "shares": 57445391
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These factors, combined with the Company's forecast of cash required to fund operations for a period of at least one year from the date of issuance of these condensed consolidated financial statements, raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2021-08-03",
+  "to": "2021-12-01",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "genocea biosciences",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03633110",
+    "drugs": [
+     "GEN-009 Adjuvanted Vaccine",
+     "Nivolumab",
+     "Pembrolizumab"
+    ]
+   }
+  ]
+ }
+}

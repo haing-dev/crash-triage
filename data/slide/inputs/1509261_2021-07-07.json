@@ -1,0 +1,66 @@
+{
+ "id": "1509261_2021-07-07",
+ "kind": "slide",
+ "cik": "1509261",
+ "name": "Rezolute, Inc.",
+ "date": "2021-07-07",
+ "asof": "2021-07-07",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-07-07",
+  "adj_close": 11.43
+ },
+ "balance": {
+  "end": "2021-03-31",
+  "cash": 31989000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001104659-21-068153"
+ },
+ "burn6": {
+  "end": "2021-03-31",
+  "start": "2020-10-01",
+  "cash_used_ops": 11660000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-05-12",
+  "shares": 8352277
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 7,
+  "from": "2021-04-08",
+  "to": "2021-08-06",
+  "trades": [
+   {
+    "date": "2019-07-23",
+    "filed": "2021-07-28",
+    "code": "P",
+    "value": 10000000,
+    "who": "Genexine Inc."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "rezolute",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04538989",
+    "drugs": [
+     "RZ358 Sequential Group Cohort 1",
+     "RZ358 Sequential Group Cohort 2",
+     "RZ358 Sequential Group Cohort 3"
+    ]
+   }
+  ]
+ }
+}

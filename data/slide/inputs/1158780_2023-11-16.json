@@ -1,0 +1,49 @@
+{
+ "id": "1158780_2023-11-16",
+ "kind": "slide",
+ "cik": "1158780",
+ "name": "Pluri Inc.",
+ "date": "2023-11-16",
+ "asof": "2023-11-16",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-11-16",
+  "adj_close": 5.04
+ },
+ "balance": {
+  "end": "2023-09-30",
+  "cash": 5253000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001213900-23-086065"
+ },
+ "burn6": {
+  "end": "2023-09-30",
+  "start": "2023-04-01",
+  "cash_used_ops": 8754000.0,
+  "capex": 200000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-11-13",
+  "shares": 41480172
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2023-08-18",
+  "to": "2023-12-16",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "pluri",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

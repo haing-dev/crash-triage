@@ -1,0 +1,67 @@
+{
+ "id": "1636050_2021-05-13",
+ "kind": "slide",
+ "cik": "1636050",
+ "name": "Sio Gene Therapies Inc.",
+ "date": "2021-05-13",
+ "asof": "2021-05-13",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-05-13",
+  "adj_close": 2.07
+ },
+ "balance": {
+  "end": "2020-12-31",
+  "cash": 89074000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001636050-21-000018"
+ },
+ "burn6": {
+  "end": "2020-12-31",
+  "start": "2020-07-01",
+  "cash_used_ops": 22845000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-02-05",
+  "shares": 58750611
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Our independent registered public accounting firm has expressed substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 12,
+  "from": "2021-02-12",
+  "to": "2021-06-12",
+  "trades": [
+   {
+    "date": "2021-03-23",
+    "filed": "2021-03-24",
+    "code": "P",
+    "value": 248180,
+    "who": "Cheruvu Pavan"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "sio gene therapies",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03720418",
+    "drugs": [
+     "OXB-102",
+     "Imitation Surgical Procedure (ISP)"
+    ]
+   }
+  ]
+ }
+}

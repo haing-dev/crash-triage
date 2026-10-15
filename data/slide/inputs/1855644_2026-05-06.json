@@ -1,0 +1,71 @@
+{
+ "id": "1855644_2026-05-06",
+ "kind": "slide",
+ "cik": "1855644",
+ "name": "Zura Bio Ltd",
+ "date": "2026-05-06",
+ "asof": "2026-05-06",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-05-06",
+  "adj_close": 4.89
+ },
+ "balance": {
+  "end": "2025-12-31",
+  "cash": 109407000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001104659-26-032080"
+ },
+ "burn6": {
+  "end": "2025-12-31",
+  "start": "2025-07-01",
+  "cash_used_ops": 37722000.0,
+  "capex": 49000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-03-16",
+  "shares": 94880710
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2026-02-05",
+  "to": "2026-06-05",
+  "trades": [
+   {
+    "date": "2026-02-26",
+    "filed": "2026-03-02",
+    "code": "P",
+    "value": 12500000,
+    "who": "AI Biotechnology LLC"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "zura bio",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06993610",
+    "drugs": [
+     "Tibulizumab Dose A",
+     "Tibulizumab Dose B"
+    ]
+   },
+   {
+    "nct": "NCT06843239",
+    "drugs": [
+     "Tibulizumab"
+    ]
+   }
+  ]
+ }
+}

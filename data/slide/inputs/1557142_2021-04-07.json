@@ -1,0 +1,82 @@
+{
+ "id": "1557142_2021-04-07",
+ "kind": "slide",
+ "cik": "1557142",
+ "name": "Kadmon Holdings, Inc.",
+ "date": "2021-04-07",
+ "asof": "2021-04-07",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-04-07",
+  "adj_close": 3.76
+ },
+ "balance": {
+  "end": "2020-12-31",
+  "cash": 123858000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001557142-21-000022"
+ },
+ "burn6": {
+  "end": "2020-12-31",
+  "start": "2020-07-01",
+  "cash_used_ops": 50015000.0,
+  "capex": 283000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-03-01",
+  "shares": 171816945
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "The report of our independent registered public accounting firm BDO USA, LLP also included an explanatory paragraph expressing substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2021-01-07",
+  "to": "2021-05-07",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "kadmon",
+  "other_trials": 6,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT02841995",
+    "drugs": [
+     "Belumosudil (KD025)"
+    ]
+   },
+   {
+    "nct": "NCT03640481",
+    "drugs": [
+     "Belumosudil (KD025)"
+    ]
+   },
+   {
+    "nct": "NCT03919799",
+    "drugs": [
+     "Belumosudil (KD025)"
+    ]
+   },
+   {
+    "nct": "NCT04680975",
+    "drugs": [
+     "Belumosudil"
+    ]
+   },
+   {
+    "nct": "NCT03203642",
+    "drugs": [
+     "Tesevatinib"
+    ]
+   }
+  ]
+ }
+}

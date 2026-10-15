@@ -1,0 +1,50 @@
+{
+ "id": "1621221_2024-09-18",
+ "kind": "slide",
+ "cik": "1621221",
+ "name": "ARTELO BIOSCIENCES, INC.",
+ "date": "2024-09-18",
+ "asof": "2024-09-18",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-09-18",
+  "adj_close": 19.8
+ },
+ "balance": {
+  "end": "2024-06-30",
+  "cash": 5602000,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001640334-24-001221"
+ },
+ "burn6": {
+  "end": "2024-06-30",
+  "start": "2024-01-01",
+  "cash_used_ops": 5005000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-08-12",
+  "shares": 3227700
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2024-06-20",
+  "to": "2024-10-18",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "artelo biosciences",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

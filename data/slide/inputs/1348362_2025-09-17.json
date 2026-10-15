@@ -1,0 +1,94 @@
+{
+ "id": "1348362_2025-09-17",
+ "kind": "slide",
+ "cik": "1348362",
+ "name": "Lexaria Bioscience Corp.",
+ "date": "2025-09-17",
+ "asof": "2025-09-17",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-09-17",
+  "adj_close": 18.15
+ },
+ "balance": {
+  "end": "2025-05-31",
+  "cash": 4633540,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001640334-25-001195"
+ },
+ "burn6": {
+  "end": "2025-05-31",
+  "start": "2024-12-01",
+  "cash_used_ops": 5081844.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-07-11",
+  "shares": 19559179
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "The recurring losses and negative net cash flows raise substantial doubt as to the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2025-06-19",
+  "to": "2025-10-17",
+  "trades": [
+   {
+    "date": "2025-07-29",
+    "filed": "2025-07-30",
+    "code": "P",
+    "value": 14375,
+    "who": "BUNKA CHRISTOPHER"
+   },
+   {
+    "date": "2025-07-30",
+    "filed": "2025-07-30",
+    "code": "P",
+    "value": 10866,
+    "who": "BUNKA CHRISTOPHER"
+   },
+   {
+    "date": "2025-07-29",
+    "filed": "2025-07-30",
+    "code": "P",
+    "value": 4532,
+    "who": "McKechnie William Edward"
+   },
+   {
+    "date": "2025-07-29",
+    "filed": "2025-07-30",
+    "code": "P",
+    "value": 4989,
+    "who": "DOCHERTY JOHN MARTIN"
+   },
+   {
+    "date": "2025-07-29",
+    "filed": "2025-07-30",
+    "code": "P",
+    "value": 682,
+    "who": "Carle Vanessa"
+   },
+   {
+    "date": "2025-07-29",
+    "filed": "2025-07-30",
+    "code": "P",
+    "value": 13641,
+    "who": "CHRISTOPHER RICHARD"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "lexaria bioscience",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

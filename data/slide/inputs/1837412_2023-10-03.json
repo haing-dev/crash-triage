@@ -1,0 +1,86 @@
+{
+ "id": "1837412_2023-10-03",
+ "kind": "slide",
+ "cik": "1837412",
+ "name": "SomaLogic, Inc.",
+ "date": "2023-10-03",
+ "asof": "2023-10-03",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-10-03",
+  "adj_close": 2.3
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 474190000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001628280-23-029431"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 69282000.0,
+  "capex": 2148000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-08-10",
+  "shares": 188071546
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2023-07-05",
+  "to": "2023-11-02",
+  "trades": [
+   {
+    "date": "2023-03-02",
+    "filed": "2023-10-02",
+    "code": "S",
+    "value": 3611,
+    "who": "Taich Adam"
+   },
+   {
+    "date": "2023-09-15",
+    "filed": "2023-10-02",
+    "code": "S",
+    "value": 50286,
+    "who": "Taich Adam"
+   },
+   {
+    "date": "2023-09-15",
+    "filed": "2023-10-02",
+    "code": "S",
+    "value": 8001,
+    "who": "Roelke Alison Marie"
+   },
+   {
+    "date": "2023-03-02",
+    "filed": "2023-10-02",
+    "code": "S",
+    "value": 1957,
+    "who": "Gutierrez Ruben"
+   },
+   {
+    "date": "2023-09-15",
+    "filed": "2023-10-02",
+    "code": "S",
+    "value": 21460,
+    "who": "Gutierrez Ruben"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "somalogic",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

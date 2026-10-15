@@ -1,0 +1,49 @@
+{
+ "id": "1295947_2025-09-29",
+ "kind": "slide",
+ "cik": "1295947",
+ "name": "Prestige Consumer Healthcare Inc.",
+ "date": "2025-09-29",
+ "asof": "2025-09-29",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-09-29",
+  "adj_close": 61.95
+ },
+ "balance": {
+  "end": "2025-06-30",
+  "cash": 139502000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001295947-25-000029"
+ },
+ "burn6": {
+  "end": "2025-06-30",
+  "start": "2025-01-01",
+  "cash_used_ops": -140861000.0,
+  "capex": 4317000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-08-01",
+  "shares": 49214171
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2025-07-01",
+  "to": "2025-10-29",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "prestige consumer healthcare",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

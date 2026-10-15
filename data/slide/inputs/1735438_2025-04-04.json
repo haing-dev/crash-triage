@@ -1,0 +1,119 @@
+{
+ "id": "1735438_2025-04-04",
+ "kind": "slide",
+ "cik": "1735438",
+ "name": "MeiraGTx Holdings plc",
+ "date": "2025-04-04",
+ "asof": "2025-04-04",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-04-04",
+  "adj_close": 5.68
+ },
+ "balance": {
+  "end": "2024-12-31",
+  "cash": 103659000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-25-002867"
+ },
+ "burn6": {
+  "end": "2024-12-31",
+  "start": "2024-07-01",
+  "cash_used_ops": 48298000.0,
+  "capex": 1948000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-03-09",
+  "shares": 78854936
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 23,
+  "from": "2025-01-04",
+  "to": "2025-05-04",
+  "trades": [
+   {
+    "date": "2025-04-22",
+    "filed": "2025-04-22",
+    "code": "S",
+    "value": 144000,
+    "who": "Giroux Richard"
+   },
+   {
+    "date": "2025-04-08",
+    "filed": "2025-04-08",
+    "code": "S",
+    "value": 253650,
+    "who": "Forbes Alexandria"
+   },
+   {
+    "date": "2025-01-21",
+    "filed": "2025-01-21",
+    "code": "S",
+    "value": 150960,
+    "who": "Giroux Richard"
+   },
+   {
+    "date": "2025-01-07",
+    "filed": "2025-01-10",
+    "code": "S",
+    "value": 231878,
+    "who": "Forbes Alexandria"
+   },
+   {
+    "date": "2025-01-08",
+    "filed": "2025-01-10",
+    "code": "S",
+    "value": 73464,
+    "who": "Forbes Alexandria"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "meiragtx",
+  "other_trials": 6,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06646289",
+    "drugs": [
+     "AAV5-hRKp.RPGR",
+     "No intervention (Follow-Up assessment)"
+    ]
+   },
+   {
+    "nct": "NCT06544798",
+    "drugs": [
+     "AAV2-hAQP1"
+    ]
+   },
+   {
+    "nct": "NCT04794101",
+    "drugs": [
+     "Genetic: AAV5-hRKp.RPGR Intermediate Dose",
+     "Genetic: AAV5-hRKp.RPGR Low Dose"
+    ]
+   },
+   {
+    "nct": "NCT05894343",
+    "drugs": [
+     "AAV-GAD"
+    ]
+   },
+   {
+    "nct": "NCT05926583",
+    "drugs": [
+     "AAV5-hRKp.RPGR",
+     "AAV5-hRKp.RPGR"
+    ]
+   }
+  ]
+ }
+}

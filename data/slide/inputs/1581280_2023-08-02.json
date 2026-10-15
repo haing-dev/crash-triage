@@ -1,0 +1,58 @@
+{
+ "id": "1581280_2023-08-02",
+ "kind": "slide",
+ "cik": "1581280",
+ "name": "Twist Bioscience Corp",
+ "date": "2023-08-02",
+ "asof": "2023-08-02",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-08-02",
+  "adj_close": 21.39
+ },
+ "balance": {
+  "end": "2023-03-31",
+  "cash": 387658000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001628280-23-016426"
+ },
+ "burn6": {
+  "end": "2023-03-31",
+  "start": "2022-10-01",
+  "cash_used_ops": 98358000.0,
+  "capex": 20877000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-05-04",
+  "shares": 57147071
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 33,
+  "from": "2023-05-04",
+  "to": "2023-09-01",
+  "trades": [
+   {
+    "date": "2023-05-10",
+    "filed": "2023-05-12",
+    "code": "P",
+    "value": 132000,
+    "who": "Cho Dennis"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "twist bioscience",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

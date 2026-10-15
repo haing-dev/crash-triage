@@ -1,0 +1,101 @@
+{
+ "id": "1701108_2024-08-07",
+ "kind": "slide",
+ "cik": "1701108",
+ "name": "Spero Therapeutics, Inc.",
+ "date": "2024-08-07",
+ "asof": "2024-08-07",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-08-07",
+  "adj_close": 1.23
+ },
+ "balance": {
+  "end": "2024-06-30",
+  "cash": 63527000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-24-090782"
+ },
+ "burn6": {
+  "end": "2024-06-30",
+  "start": "2024-01-01",
+  "cash_used_ops": 12806000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-08-01",
+  "shares": 54049139
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 12,
+  "from": "2024-05-09",
+  "to": "2024-09-06",
+  "trades": [
+   {
+    "date": "2024-08-27",
+    "filed": "2024-08-29",
+    "code": "S",
+    "value": 7981,
+    "who": "Mahadevia Ankit"
+   },
+   {
+    "date": "2024-08-27",
+    "filed": "2024-08-29",
+    "code": "S",
+    "value": 2988,
+    "who": "Keutzer Timothy"
+   },
+   {
+    "date": "2024-08-27",
+    "filed": "2024-08-29",
+    "code": "S",
+    "value": 3722,
+    "who": "Shukla Sath"
+   },
+   {
+    "date": "2024-08-02",
+    "filed": "2024-08-06",
+    "code": "S",
+    "value": 19536,
+    "who": "Shukla Sath"
+   },
+   {
+    "date": "2024-08-05",
+    "filed": "2024-08-06",
+    "code": "S",
+    "value": 23110,
+    "who": "Shukla Sath"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "spero therapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06059846",
+    "drugs": [
+     "TBP-PI-HBr",
+     "Imipenem-cilastatin",
+     "Dummy Infusion"
+    ]
+   },
+   {
+    "nct": "NCT05496374",
+    "drugs": [
+     "SPR720 500 mg",
+     "SPR720 1000 mg"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "id": "1865494_2023-02-22",
+ "kind": "slide",
+ "cik": "1865494",
+ "name": "IO Biotech, Inc.",
+ "date": "2023-02-22",
+ "asof": "2023-02-22",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-02-22",
+  "adj_close": 2.61
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 151168000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-22-023876"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 26359000.0,
+  "capex": 225000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-11-08",
+  "shares": 28815267
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 7,
+  "from": "2022-11-24",
+  "to": "2023-03-24",
+  "trades": [
+   {
+    "date": "2023-03-17",
+    "filed": "2023-03-20",
+    "code": "P",
+    "value": 58018,
+    "who": "Sullivan Amy"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "io biotech",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05077709",
+    "drugs": [
+     "IO102-IO103 in combination with pembrolizumab"
+    ]
+   },
+   {
+    "nct": "NCT05155254",
+    "drugs": [
+     "IO102-IO103",
+     "Pembrolizumab"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "id": "1782223_2023-03-10",
+ "kind": "slide",
+ "cik": "1782223",
+ "name": "Pyxis Oncology, Inc.",
+ "date": "2023-03-10",
+ "asof": "2023-03-10",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-03-10",
+  "adj_close": 1.77
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 198538000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-22-020701"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 44269000.0,
+  "capex": 4395000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-11-01",
+  "shares": 35097256
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 13,
+  "from": "2022-12-10",
+  "to": "2023-04-09",
+  "trades": [
+   {
+    "date": "2023-03-17",
+    "filed": "2023-03-21",
+    "code": "P",
+    "value": 4999999,
+    "who": "PFIZER INC"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "pyxis oncology",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

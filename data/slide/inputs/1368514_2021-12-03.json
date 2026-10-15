@@ -1,0 +1,128 @@
+{
+ "id": "1368514_2021-12-03",
+ "kind": "slide",
+ "cik": "1368514",
+ "name": "ADMA BIOLOGICS, INC.",
+ "date": "2021-12-03",
+ "asof": "2021-12-03",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-12-03",
+  "adj_close": 1.29
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 34410570,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001140361-21-037463"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 45674624.0,
+  "capex": 7264243.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-11-05",
+  "shares": 195813817
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "As such, these factors raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 10,
+  "from": "2021-09-04",
+  "to": "2022-01-02",
+  "trades": [
+   {
+    "date": "2021-10-25",
+    "filed": "2021-10-26",
+    "code": "P",
+    "value": 100000,
+    "who": "KWON YOUNG"
+   },
+   {
+    "date": "2021-10-25",
+    "filed": "2021-10-26",
+    "code": "P",
+    "value": 100000,
+    "who": "Grossman Jerrold B"
+   },
+   {
+    "date": "2021-10-25",
+    "filed": "2021-10-26",
+    "code": "P",
+    "value": 30000,
+    "who": "LENZ BRIAN"
+   },
+   {
+    "date": "2021-10-25",
+    "filed": "2021-10-26",
+    "code": "P",
+    "value": 100000,
+    "who": "Grossman Adam S"
+   },
+   {
+    "date": "2021-10-25",
+    "filed": "2021-10-26",
+    "code": "P",
+    "value": 250000,
+    "who": "Grossman Adam S"
+   },
+   {
+    "date": "2021-09-28",
+    "filed": "2021-09-30",
+    "code": "S",
+    "value": 49536,
+    "who": "PERCEPTIVE ADVISORS LLC"
+   },
+   {
+    "date": "2021-09-29",
+    "filed": "2021-09-30",
+    "code": "S",
+    "value": 95706,
+    "who": "PERCEPTIVE ADVISORS LLC"
+   },
+   {
+    "date": "2021-09-30",
+    "filed": "2021-09-30",
+    "code": "S",
+    "value": 153994,
+    "who": "PERCEPTIVE ADVISORS LLC"
+   },
+   {
+    "date": "2021-09-24",
+    "filed": "2021-09-29",
+    "code": "S",
+    "value": 315000,
+    "who": "PERCEPTIVE ADVISORS LLC"
+   },
+   {
+    "date": "2021-09-27",
+    "filed": "2021-09-29",
+    "code": "S",
+    "value": 307500,
+    "who": "PERCEPTIVE ADVISORS LLC"
+   },
+   {
+    "date": "2021-09-23",
+    "filed": "2021-09-28",
+    "code": "S",
+    "value": 990600,
+    "who": "PERCEPTIVE ADVISORS LLC"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "adma biologics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

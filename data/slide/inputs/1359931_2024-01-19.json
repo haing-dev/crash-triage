@@ -1,0 +1,63 @@
+{
+ "id": "1359931_2024-01-19",
+ "kind": "slide",
+ "cik": "1359931",
+ "name": "Protara Therapeutics, Inc.",
+ "date": "2024-01-19",
+ "asof": "2024-01-19",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-01-19",
+  "adj_close": 1.91
+ },
+ "balance": {
+  "end": "2023-09-30",
+  "cash": 74034000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001213900-23-083013"
+ },
+ "burn6": {
+  "end": "2023-09-30",
+  "start": "2023-04-01",
+  "cash_used_ops": 15969000.0,
+  "capex": 39000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-11-01",
+  "shares": 11364903
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2023-10-21",
+  "to": "2024-02-18",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "protara therapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05951179",
+    "drugs": [
+     "TARA-002"
+    ]
+   },
+   {
+    "nct": "NCT05871970",
+    "drugs": [
+     "TARA-002"
+    ]
+   }
+  ]
+ }
+}

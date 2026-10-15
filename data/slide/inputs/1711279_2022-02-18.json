@@ -1,0 +1,85 @@
+{
+ "id": "1711279_2022-02-18",
+ "kind": "slide",
+ "cik": "1711279",
+ "name": "Krystal Biotech, Inc.",
+ "date": "2022-02-18",
+ "asof": "2022-02-18",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-02-18",
+  "adj_close": 60.86
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 343093000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001711279-21-000031"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 17384000.0,
+  "capex": 24980000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-10-29",
+  "shares": 22237984
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 9,
+  "from": "2021-11-20",
+  "to": "2022-03-20",
+  "trades": [
+   {
+    "date": "2021-12-10",
+    "filed": "2021-12-14",
+    "code": "S",
+    "value": 7050000,
+    "who": "Krishnan Suma"
+   },
+   {
+    "date": "2021-12-10",
+    "filed": "2021-12-14",
+    "code": "S",
+    "value": 7050000,
+    "who": "JANNEY DANIEL"
+   },
+   {
+    "date": "2021-12-10",
+    "filed": "2021-12-14",
+    "code": "S",
+    "value": 7050000,
+    "who": "Krishnan Krish S"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "krystal biotech",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04047732",
+    "drugs": [
+     "KB105"
+    ]
+   },
+   {
+    "nct": "NCT04917874",
+    "drugs": [
+     "Open Label Topical Beremagene Geperpavec (B-VEC)"
+    ]
+   }
+  ]
+ }
+}

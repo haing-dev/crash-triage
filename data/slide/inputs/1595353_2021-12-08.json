@@ -1,0 +1,50 @@
+{
+ "id": "1595353_2021-12-08",
+ "kind": "slide",
+ "cik": "1595353",
+ "name": "Galmed Pharmaceuticals Ltd.",
+ "date": "2021-12-08",
+ "asof": "2021-12-08",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-12-08",
+  "adj_close": 3369.6001
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 49256000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001493152-21-018663"
+ },
+ "burn6": {
+  "end": "2021-06-30",
+  "start": "2021-01-01",
+  "cash_used_ops": 16917000.0,
+  "capex": 8000.0,
+  "periods": 1
+ },
+ "shares": {
+  "end": "2020-12-31",
+  "shares": 21325975
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2021-09-09",
+  "to": "2022-01-07",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "galmed pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

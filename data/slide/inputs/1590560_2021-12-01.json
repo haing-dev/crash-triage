@@ -1,0 +1,120 @@
+{
+ "id": "1590560_2021-12-01",
+ "kind": "slide",
+ "cik": "1590560",
+ "name": "uniQure N.V.",
+ "date": "2021-12-01",
+ "asof": "2021-12-01",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-12-01",
+  "adj_close": 26.42
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 578464000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-21-013423"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": -376322000.0,
+  "capex": 10009000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-10-21",
+  "shares": 46214244
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 9,
+  "from": "2021-09-02",
+  "to": "2021-12-31",
+  "trades": [
+   {
+    "date": "2021-12-15",
+    "filed": "2021-12-15",
+    "code": "S",
+    "value": 167400,
+    "who": "Kuta Alexander Edward III"
+   },
+   {
+    "date": "2021-11-15",
+    "filed": "2021-11-16",
+    "code": "S",
+    "value": 190860,
+    "who": "Kuta Alexander Edward III"
+   },
+   {
+    "date": "2021-10-15",
+    "filed": "2021-10-18",
+    "code": "S",
+    "value": 183900,
+    "who": "Kuta Alexander Edward III"
+   },
+   {
+    "date": "2021-09-21",
+    "filed": "2021-09-22",
+    "code": "S",
+    "value": 164745,
+    "who": "Gut Robert"
+   },
+   {
+    "date": "2021-09-21",
+    "filed": "2021-09-22",
+    "code": "S",
+    "value": 91200,
+    "who": "KLEMT CHRISTIAN"
+   },
+   {
+    "date": "2021-09-21",
+    "filed": "2021-09-21",
+    "code": "S",
+    "value": 81827,
+    "who": "Kuta Alexander Edward III"
+   },
+   {
+    "date": "2021-09-16",
+    "filed": "2021-09-17",
+    "code": "S",
+    "value": 319171,
+    "who": "Dolmetsch Ricardo"
+   },
+   {
+    "date": "2021-09-15",
+    "filed": "2021-09-16",
+    "code": "S",
+    "value": 217920,
+    "who": "Kuta Alexander Edward III"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "uniqure",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05243017",
+    "drugs": [
+     "intra-striatal rAAV5-miHTT"
+    ]
+   },
+   {
+    "nct": "NCT04120493",
+    "drugs": [
+     "intra-striatal rAAV5-miHTT",
+     "Imitation (sham) surgery"
+    ]
+   }
+  ]
+ }
+}

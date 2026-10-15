@@ -1,0 +1,50 @@
+{
+ "id": "1659617_2023-10-23",
+ "kind": "slide",
+ "cik": "1659617",
+ "name": "Moleculin Biotech, Inc.",
+ "date": "2023-10-23",
+ "asof": "2023-10-23",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-10-23",
+  "adj_close": 195.375
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 32172000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001437749-23-023021"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 11143000.0,
+  "capex": 15000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-08-01",
+  "shares": 29810443
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These factors raise substantial doubt regarding the Company's ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2023-07-25",
+  "to": "2023-11-22",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "moleculin biotech",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

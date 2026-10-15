@@ -1,0 +1,49 @@
+{
+ "id": "1174940_2021-09-29",
+ "kind": "slide",
+ "cik": "1174940",
+ "name": "ORAGENICS INC",
+ "date": "2021-09-29",
+ "asof": "2021-09-29",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-09-29",
+  "adj_close": 1116.0
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 34574769,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001493152-21-020152"
+ },
+ "burn6": {
+  "end": "2021-06-30",
+  "start": "2021-01-01",
+  "cash_used_ops": 6405775.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-08-15",
+  "shares": 116194806
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2021-07-01",
+  "to": "2021-10-29",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "oragenics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

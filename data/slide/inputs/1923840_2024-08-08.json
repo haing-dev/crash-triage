@@ -1,0 +1,85 @@
+{
+ "id": "1923840_2024-08-08",
+ "kind": "slide",
+ "cik": "1923840",
+ "name": "Third Harmonic Bio, Inc.",
+ "date": "2024-08-08",
+ "asof": "2024-08-08",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-08-08",
+  "adj_close": 10.86
+ },
+ "balance": {
+  "end": "2024-06-30",
+  "cash": 255331000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-24-093344"
+ },
+ "burn6": {
+  "end": "2024-06-30",
+  "start": "2024-01-01",
+  "cash_used_ops": 15100000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-08-02",
+  "shares": 41097512
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 12,
+  "from": "2024-05-10",
+  "to": "2024-09-07",
+  "trades": [
+   {
+    "date": "2024-06-26",
+    "filed": "2024-06-28",
+    "code": "S",
+    "value": 124569,
+    "who": "Person Julie"
+   },
+   {
+    "date": "2024-06-07",
+    "filed": "2024-06-10",
+    "code": "S",
+    "value": 7000,
+    "who": "Dittman Jennifer"
+   },
+   {
+    "date": "2024-05-20",
+    "filed": "2024-05-22",
+    "code": "S",
+    "value": 14588,
+    "who": "Dittman Jennifer"
+   },
+   {
+    "date": "2024-05-16",
+    "filed": "2024-05-20",
+    "code": "S",
+    "value": 331066,
+    "who": "Dittman Jennifer"
+   },
+   {
+    "date": "2024-05-09",
+    "filed": "2024-05-10",
+    "code": "S",
+    "value": 246300,
+    "who": "Holles Natalie C."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "third harmonic bio",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "id": "812796_2023-05-05",
+ "kind": "crash",
+ "cik": "812796",
+ "name": "SOLIGENIX, INC.",
+ "date": "2023-05-05",
+ "asof": "2023-05-11",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-05-11",
+  "adj_close": 12.32
+ },
+ "balance": {
+  "end": "2022-12-31",
+  "cash": 13359615,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0001558370-23-005304"
+ },
+ "burn6": {
+  "end": "2022-12-31",
+  "start": "2022-07-01",
+  "cash_used_ops": 6882118.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-03-24",
+  "shares": 2924491
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "\u25cfOur losses from operations, negative cash flows, and shareholders' deficit as of December 31, 2022 as well as a projected potential breach of our cash debt covenant with our debt holder during the 12 month look-forward period from the issuance of the financial statements without taking additional m"
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2023-02-04",
+  "to": "2023-06-04",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "soligenix",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05442190",
+    "drugs": [
+     "Hypericin"
+    ]
+   }
+  ]
+ }
+}

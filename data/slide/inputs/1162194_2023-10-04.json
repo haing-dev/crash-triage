@@ -1,0 +1,49 @@
+{
+ "id": "1162194_2023-10-04",
+ "kind": "slide",
+ "cik": "1162194",
+ "name": "STANDARD BIOTOOLS INC.",
+ "date": "2023-10-04",
+ "asof": "2023-10-04",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-10-04",
+  "adj_close": 2.1
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 142304000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001628280-23-028287"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 17814000.0,
+  "capex": 1848000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-08-03",
+  "shares": 78964770
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2023-07-06",
+  "to": "2023-11-03",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "standard biotools",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

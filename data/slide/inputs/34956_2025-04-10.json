@@ -1,0 +1,56 @@
+{
+ "id": "34956_2025-04-10",
+ "kind": "slide",
+ "cik": "34956",
+ "name": "TENAX THERAPEUTICS, INC.",
+ "date": "2025-04-10",
+ "asof": "2025-04-10",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-04-10",
+  "adj_close": 5.35
+ },
+ "balance": {
+  "end": "2024-12-31",
+  "cash": 94900000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-25-044398"
+ },
+ "burn6": {
+  "end": "2024-12-31",
+  "start": "2024-07-01",
+  "cash_used_ops": 6614331.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-03-21",
+  "shares": 3970385
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2025-01-10",
+  "to": "2025-05-10",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "tenax therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05983250",
+    "drugs": [
+     "TNX-103"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "id": "1843762_2023-07-25",
+ "kind": "slide",
+ "cik": "1843762",
+ "name": "EQRx, Inc.",
+ "date": "2023-07-25",
+ "asof": "2023-07-25",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-07-25",
+  "adj_close": 1.79
+ },
+ "balance": {
+  "end": "2023-03-31",
+  "cash": 1325942000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001558370-23-008564"
+ },
+ "burn6": {
+  "end": "2023-03-31",
+  "start": "2022-10-01",
+  "cash_used_ops": 191342000.0,
+  "capex": 1401000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-05-05",
+  "shares": 487359403
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2023-04-26",
+  "to": "2023-08-24",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "eqrx",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05085002",
+    "drugs": [
+     "Lerociclib + Letrozole or Fulvestrant"
+    ]
+   },
+   {
+    "nct": "NCT05493501",
+    "drugs": [
+     "Aumolertinib monotherapy",
+     "Osimertinib monotherapy",
+     "Pemetrexed"
+    ]
+   },
+   {
+    "nct": "NCT05712941",
+    "drugs": [
+     "Lerociclib",
+     "Letrozole 2.5mg"
+    ]
+   }
+  ]
+ }
+}

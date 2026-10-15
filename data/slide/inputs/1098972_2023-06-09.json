@@ -1,0 +1,88 @@
+{
+ "id": "1098972_2023-06-09",
+ "kind": "slide",
+ "cik": "1098972",
+ "name": "AGENUS INC",
+ "date": "2023-06-09",
+ "asof": "2023-06-09",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-06-09",
+  "adj_close": 39.8
+ },
+ "balance": {
+  "end": "2023-03-31",
+  "cash": 189233000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-23-019649"
+ },
+ "burn6": {
+  "end": "2023-03-31",
+  "start": "2022-10-01",
+  "cash_used_ops": 105864000.0,
+  "capex": 16188000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-05-05",
+  "shares": 348875959
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 9,
+  "from": "2023-03-11",
+  "to": "2023-07-09",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "agenus",
+  "other_trials": 5,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05529316",
+    "drugs": [
+     "Botensilimab",
+     "Balstilimab"
+    ]
+   },
+   {
+    "nct": "NCT03894215",
+    "drugs": [
+     "AGEN2034",
+     "AGEN1884"
+    ]
+   },
+   {
+    "nct": "NCT05033132",
+    "drugs": [
+     "Balstilimab",
+     "Balstilimab + Zalifrelimab"
+    ]
+   },
+   {
+    "nct": "NCT05608044",
+    "drugs": [
+     "Botensilimab",
+     "Balstilimab",
+     "Standard of Care"
+    ]
+   },
+   {
+    "nct": "NCT05630183",
+    "drugs": [
+     "Botensilimab",
+     "Gemcitabine",
+     "Nab-paclitaxel"
+    ]
+   }
+  ]
+ }
+}

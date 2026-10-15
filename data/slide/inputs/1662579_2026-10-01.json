@@ -1,0 +1,57 @@
+{
+ "id": "1662579_2026-10-01",
+ "kind": "slide",
+ "cik": "1662579",
+ "name": "C4 Therapeutics, Inc.",
+ "date": "2026-10-01",
+ "asof": "2026-10-01",
+ "final": false,
+ "version": 5,
+ "price": {
+  "date": "2026-10-01",
+  "adj_close": 3.14
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 78610000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001628280-26-055494"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": 31518000.0,
+  "capex": 101000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-07-31",
+  "shares": 123025136
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2026-07-03",
+  "to": "2026-10-15",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "c4 therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT07284758",
+    "drugs": [
+     "Cemsidomide",
+     "Dexamethasone"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,128 @@
+{
+ "id": "1162194_2026-02-12",
+ "kind": "slide",
+ "cik": "1162194",
+ "name": "STANDARD BIOTOOLS INC.",
+ "date": "2026-02-12",
+ "asof": "2026-02-12",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-02-12",
+  "adj_close": 1.11
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 194903000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001193125-25-264695"
+ },
+ "burn6": {
+  "end": "2025-09-30",
+  "start": "2025-04-01",
+  "cash_used_ops": 42870000.0,
+  "capex": 2773000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-11-02",
+  "shares": 384565414
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 13,
+  "from": "2025-11-14",
+  "to": "2026-03-14",
+  "trades": [
+   {
+    "date": "2025-12-02",
+    "filed": "2025-12-04",
+    "code": "P",
+    "value": 177512,
+    "who": "Casdin Partners Master Fund, L.P."
+   },
+   {
+    "date": "2025-12-03",
+    "filed": "2025-12-04",
+    "code": "P",
+    "value": 108037,
+    "who": "Casdin Partners Master Fund, L.P."
+   },
+   {
+    "date": "2025-12-04",
+    "filed": "2025-12-04",
+    "code": "P",
+    "value": 217020,
+    "who": "Casdin Partners Master Fund, L.P."
+   },
+   {
+    "date": "2025-11-24",
+    "filed": "2025-11-26",
+    "code": "P",
+    "value": 214875,
+    "who": "Casdin Partners Master Fund, L.P."
+   },
+   {
+    "date": "2025-11-25",
+    "filed": "2025-11-26",
+    "code": "P",
+    "value": 9838405,
+    "who": "Casdin Partners Master Fund, L.P."
+   },
+   {
+    "date": "2025-11-18",
+    "filed": "2025-11-20",
+    "code": "P",
+    "value": 339405,
+    "who": "Casdin Partners Master Fund, L.P."
+   },
+   {
+    "date": "2025-11-19",
+    "filed": "2025-11-20",
+    "code": "P",
+    "value": 448910,
+    "who": "Casdin Partners Master Fund, L.P."
+   },
+   {
+    "date": "2025-11-20",
+    "filed": "2025-11-20",
+    "code": "P",
+    "value": 586260,
+    "who": "Casdin Partners Master Fund, L.P."
+   },
+   {
+    "date": "2025-11-13",
+    "filed": "2025-11-17",
+    "code": "P",
+    "value": 541395,
+    "who": "Casdin Partners Master Fund, L.P."
+   },
+   {
+    "date": "2025-11-14",
+    "filed": "2025-11-17",
+    "code": "P",
+    "value": 309800,
+    "who": "Casdin Partners Master Fund, L.P."
+   },
+   {
+    "date": "2025-11-17",
+    "filed": "2025-11-17",
+    "code": "P",
+    "value": 275580,
+    "who": "Casdin Partners Master Fund, L.P."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "standard biotools",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

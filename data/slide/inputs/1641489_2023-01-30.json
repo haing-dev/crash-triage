@@ -1,0 +1,62 @@
+{
+ "id": "1641489_2023-01-30",
+ "kind": "slide",
+ "cik": "1641489",
+ "name": "vTv Therapeutics Inc.",
+ "date": "2023-01-30",
+ "asof": "2023-01-30",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-01-30",
+  "adj_close": 36.4
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 15339000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001641489-22-000015"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 8121000.0,
+  "capex": 14100.882352941177,
+  "periods": 2
+ },
+ "shares": null,
+ "going_concern": {
+  "flag": true,
+  "quote": "These conditions raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 2,
+  "from": "2022-11-01",
+  "to": "2023-03-01",
+  "trades": [
+   {
+    "date": "2022-11-28",
+    "filed": "2022-11-30",
+    "code": "P",
+    "value": 16969,
+    "who": "FRY JOHN A"
+   },
+   {
+    "date": "2022-11-29",
+    "filed": "2022-11-30",
+    "code": "P",
+    "value": 33773,
+    "who": "FRY JOHN A"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "vtv therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

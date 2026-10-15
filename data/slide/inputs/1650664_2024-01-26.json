@@ -1,0 +1,92 @@
+{
+ "id": "1650664_2024-01-26",
+ "kind": "slide",
+ "cik": "1650664",
+ "name": "Editas Medicine, Inc.",
+ "date": "2024-01-26",
+ "asof": "2024-01-26",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-01-26",
+  "adj_close": 7.29
+ },
+ "balance": {
+  "end": "2023-09-30",
+  "cash": 446414000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent",
+   "MarketableSecuritiesNoncurrent"
+  ],
+  "accn": "0001650664-23-000017"
+ },
+ "burn6": {
+  "end": "2023-09-30",
+  "start": "2023-04-01",
+  "cash_used_ops": 74170000.0,
+  "capex": 1572000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-10-27",
+  "shares": 81673688
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2023-10-28",
+  "to": "2024-02-25",
+  "trades": [
+   {
+    "date": "2023-12-05",
+    "filed": "2023-12-07",
+    "code": "S",
+    "value": 1122,
+    "who": "Eaton Bruce"
+   },
+   {
+    "date": "2023-11-14",
+    "filed": "2023-11-16",
+    "code": "S",
+    "value": 5706,
+    "who": "Eaton Bruce"
+   },
+   {
+    "date": "2023-11-07",
+    "filed": "2023-11-09",
+    "code": "S",
+    "value": 1168,
+    "who": "Eaton Bruce"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "editas medicine",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05444894",
+    "drugs": [
+     "EDIT-301"
+    ]
+   },
+   {
+    "nct": "NCT04853576",
+    "drugs": [
+     "EDIT-301"
+    ]
+   },
+   {
+    "nct": "NCT03872479",
+    "drugs": [
+     "EDIT-101"
+    ]
+   }
+  ]
+ }
+}
