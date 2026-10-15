@@ -1,0 +1,47 @@
+{
+ "cik": "1619856",
+ "name": "Caribou Biosciences, Inc.",
+ "ticker": "CRBU",
+ "date": "2026-10-07",
+ "fall_pct": "-51.4",
+ "days": "1",
+ "news_day_pct": "-45.6",
+ "status": "read",
+ "source": {
+  "filing_date": "2026-10-06",
+  "accession": "0001193125-26-415559",
+  "doc": "d235175dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1619856/000119312526415559/d235175dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Strategic alternatives review and discontinuation of both allogeneic CAR-T programs due to financing environment \u00b7 Phase 1/pivotal-ready \u00b7 vispa-cel, CB-011 in B-NHL, multiple myeloma \u00b7 not yet approved",
+  "phase": "Phase 1/2",
+  "drug": "vispa-cel (CB-010); CB-011",
+  "indication": "relapsed/refractory B cell non-Hodgkin lymphoma; relapsed/refractory multiple myeloma",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "Caribou Biosciences, Inc. (Nasdaq: CRBU), a leading clinical-stage CRISPR genome-editing biopharmaceutical company, today announced that it is exploring strategic alternatives to maximize stockholder value",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": "plans to discontinue further development activities for its two allogeneic CAR-T cell therapy programs, vispa-cel for the treatment of relapsed or refractory (r/r) B cell non-Hodgkin lymphoma and"
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": true
+  }
+ }
+}
