@@ -138,7 +138,7 @@ TWELVE = re.compile(r"(?:sufficient|enough|adequate) to (?:fund|support|finance|
 GOING = re.compile(r"substantial doubt (?:about|regarding|as to|concerning) (?:our|the company.s|the company’s|its) ability to continue as a going concern", re.I)
 HYPO = re.compile(r"\b(?:could|may|might|would|if|unless|whether|cannot assure|no assurance|in the event)\b", re.I)
 NEG = re.compile(r"\b(?:need|needs|require|requires|additional (?:capital|funding|financing)|not be sufficient|insufficient|not sufficient)\b", re.I)
-ATM = re.compile(r"at[- ]the[- ]market|\bATM (?:program|facility|offering|agreement)|sales agreement", re.I)
+ATM = re.compile(r"at[- ]the[- ]market|\bATM\b|sales agreement", re.I)
 ATM_LEFT = re.compile(r"\$\s?([\d,.]+)\s*(million|billion)?[^.]{0,120}?remain(?:ed|s|ing)?\s+available"
                       r"|remaining (?:available |aggregate )?(?:capacity|amount|offering price)[^.$]{0,60}\$\s?([\d,.]+)\s*(million|billion)?", re.I)
 
