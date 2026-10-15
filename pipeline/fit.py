@@ -17,7 +17,7 @@ Outcome to explain: stock move from day 30 to day 365 minus the biotech index (X
 
 Walk-forward: each crash is scored with a model fitted only on crashes whose full year had ended by that crash's
 day 30 — the verdict it would have got at the time. Crashes before enough history existed (MIN_TRAIN) are scored
-with the first available model and flagged as in-sample.
+with the model fitted on all history and flagged as in-sample (left out of the outcomes and track-record pages).
 
 Output: data/factors/<id>.json, reports/fit.md
 """
@@ -29,7 +29,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 RAW, EV, OUT = ROOT / "data" / "factors_raw", ROOT / "data" / "events", ROOT / "data" / "factors"
 TODAY = date.today().isoformat()
-MIN_TRAIN, SHRINK = 120, 30
+MIN_TRAIN, SHRINK = 250, 30
 KEYS = ["safety", "runway", "value", "insider", "programs"]
 CONT = {"runway": "runway_m", "value": "value_x", "programs": "trials"}
 
@@ -50,7 +50,8 @@ def move(ds, cs, d0, d1):
 
 def money(v):
     a = abs(v)
-    return f"${a / 1e9:.1f}B" if a >= 1e9 else f"${a / 1e6:.0f}M" if a >= 1e7 else f"${a / 1e6:.1f}M" if a >= 1e6 else f"${a / 1e3:.0f}K"
+    return (f"${a / 1e9:.1f}B" if a >= 1e9 else f"${a / 1e6:.0f}M" if a >= 1e7 else f"${a / 1e6:.1f}M" if a >= 1e6
+            else f"${a / 1e3:.0f}K" if a >= 1e3 else f"${a:.0f}")
 
 
 _raw = {}
@@ -87,9 +88,9 @@ def features(r):
     ins = r.get("insiders")
     if ins is None:
         x["insider"] = None
-    elif ins["bought"] > 0 and ins["bought"] >= ins["sold"]:
+    elif ins["bought"] >= 10_000 and ins["bought"] >= ins["sold"]:          # under $10K counts as none
         x["insider"] = "g"
-    elif ins["sold"] > ins["bought"]:
+    elif ins["sold"] - ins["bought"] >= 10_000:
         x["insider"] = "r"
     else:
         x["insider"] = "n"
@@ -173,23 +174,24 @@ def text(k, x):
 
 def note(k, x, model):
     r = x["raw"]
+    pts = model["points"][k].get(cat(model, x, k), 0.0) * 100
+    eff = f"Past crashes like this: {pts:+.0f} pts vs typical (median, vs index)"
     m = model["cuts"].get(k) if k in CONT else None
-    side = ""
     if m:
-        unit = {"runway": " months", "value": "× cash", "programs": " trials"}[k]
+        unit = {"runway": " months", "value": "× cash", "programs": " other trials"}[k]
         c = f"{m['cut']:.1f}" if k == "value" else f"{m['cut']:.0f}"
-        side = f"History: {'≥' if m['higher_is_better'] else '<'} {c}{unit} did better"
+        eff += f" · split at {c}{unit}"
     if k == "runway" and r.get("balance") and r.get("burn"):
-        return f"Cash {money(r['balance']['cash'])} at {r['balance']['end']}, burn {money(-r['burn']['per_month'])}/mo · {side}"
+        return f"Cash {money(r['balance']['cash'])} at {r['balance']['end']}, burn {money(-r['burn']['per_month'])}/mo · {eff}"
     if k == "value" and x.get("mcap"):
-        return f"Market value {money(x['mcap'])} on day 30 · {side}"
+        return f"Market value {money(x['mcap'])} on day 30 · {eff}"
     if k == "insider" and r.get("insiders"):
         i = r["insiders"]
-        return f"{i['form4s']} Form 4 filings, news day to day 30" + (f" · buyers: {', '.join(i['buyers'][:2])}" if i["buyers"] else "")
+        return f"{i['form4s']} Form 4 filings, news day to day 30" + (f" (buyers: {', '.join(i['buyers'][:2])})" if i["buyers"] else "") + f" · {eff}"
     if k == "programs" and r.get("trials"):
-        ex = [", ".join(e["drugs"][:1]) for e in r["trials"]["examples"][:2] if e["drugs"]]
-        return (f"e.g. {'; '.join(ex)} · " if ex else "") + side
-    return side
+        ex = [e["drugs"][0] for e in r["trials"]["examples"][:2] if e["drugs"]]
+        return (f"e.g. {'; '.join(dict.fromkeys(ex))} · " if ex else "") + eff
+    return eff
 
 
 def main():
@@ -212,7 +214,7 @@ def main():
         rows.append(x)
     known = sorted((x for x in rows if x["y"] is not None), key=lambda x: x["d365"])
     OUT.mkdir(parents=True, exist_ok=True)
-    first = fit(known[:MIN_TRAIN]) if len(known) >= MIN_TRAIN else None
+    first = fit(known) if len(known) >= MIN_TRAIN else None
     models, heldout = {}, []
     for x in rows:
         d30 = (date.fromisoformat(x["date"]) + timedelta(days=30)).isoformat()

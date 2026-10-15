@@ -81,7 +81,7 @@ for c in (csv.DictReader(cpath.open()) if cpath.exists() else []):
     fx = ROOT / "data" / "factors" / f"{cid}.json"
     if fx.exists():
         fj = json.loads(fx.read_text())
-        rec.update({k: fj[k] for k in ("factors", "score", "verdict") if k in fj})
+        rec.update({k: fj[k] for k in ("factors", "score", "verdict", "in_sample") if k in fj})
         rec.setdefault("sources", []).extend(fj.get("sources", []))
     rec.setdefault("sources", []).append({"label": "All SEC filings",
         "url": f"https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK={int(c['cik'])}&type=&dateb=&owner=include&count=40"})
@@ -96,15 +96,18 @@ for c in (csv.DictReader(cpath.open()) if cpath.exists() else []):
             rec["xbi365"], rec["xbi_path"] = xp[-1], xp
     crashes.append(rec)
 
-# track record: average path per verdict group + the index over the same windows
+# track record: median path per verdict group + the index over the same windows. Only verdicts given at the time
+# (walk-forward), not in-sample ones.
+import statistics
 track = {}
+oos = [r for r in crashes if r.get("verdict") in ("overdone", "close", "justified") and not r.get("in_sample") and r.get("path")]
 for g in ("overdone", "close", "justified"):
-    grp = [r for r in crashes if r.get("verdict") == g and r.get("path")]
+    grp = [r for r in oos if r["verdict"] == g]
     if grp:
-        track[g] = {"n": len(grp), "path": [round(sum(r["path"][i] for r in grp) / len(grp), 1) for i in range(len(STEPS))]}
-scored = [r for r in crashes if r.get("verdict") in ("overdone", "close", "justified") and r.get("xbi_path")]
+        track[g] = {"n": len(grp), "path": [round(statistics.median(r["path"][i] for r in grp), 1) for i in range(len(STEPS))]}
+scored = [r for r in oos if r.get("xbi_path")]
 if scored:
-    track["xbi"] = {"n": len(scored), "path": [round(sum(r["xbi_path"][i] for r in scored) / len(scored), 1) for i in range(len(STEPS))]}
+    track["xbi"] = {"n": len(scored), "path": [round(statistics.median(r["xbi_path"][i] for r in scored), 1) for i in range(len(STEPS))]}
 for r in crashes:
     r.pop("path", None)
     r.pop("xbi_path", None)

@@ -77,9 +77,9 @@ function viewCrash(id){
 
 /* ------------------------------------------------------------------ outcomes: all crashes, 365 days later, by verdict */
 function viewOutcomes(){
-  const pts = D.crashes.filter(c => c.ret365 != null);
+  const pts = D.crashes.filter(c => c.ret365 != null && !c.in_sample);
   const groups = ["overdone","close","justified","pending"].filter(g => pts.some(c => (c.verdict||"pending") === g));
-  $("#app").innerHTML = `<div class="toprow"><div><h1>Outcomes</h1><div class="muted">Every past crash with a full year of data: the stock move from day 30 to day 365, grouped by the verdict given at the time. Hover a dot to see the company; click to open it.</div></div></div>
+  $("#app").innerHTML = `<div class="toprow"><div><h1>Outcomes</h1><div class="muted">Past crashes with a full year of data: the stock move from day 30 to day 365, grouped by the verdict the tool would have given at the time, using only crashes whose outcome was already known. Hover a dot to see the company; click to open it.</div></div></div>
    <div class="card" id="oc">${pts.length ? "" : `<p class="empty">Outcomes appear once crashes have a full year of prices.</p>`}</div>`;
   if (!pts.length) return;
   const W = Math.max(720, $("#oc").clientWidth - 32), rowH = 92, top = 10, left = 170, right = 24, H = top + rowH * groups.length + 48;
@@ -107,7 +107,7 @@ function viewTrack(){
   const series = [["overdone","Possibly overdone"],["close","Too close to call"],["justified","Justified"]].filter(([k]) => T[k]?.path?.length)
     .map(([k,l]) => ({k, l: `${l} · ${T[k].n}`, col: VERDICT[k][3], path: T[k].path}));
   if (T.xbi?.path?.length) series.push({k:"xbi", l:"Biotech index (XBI)", col:"var(--idx)", path:T.xbi.path, dash:true});
-  $("#app").innerHTML = `<div class="toprow"><div><h1>Track record</h1><div class="muted">Average stock move after the crash, by verdict, vs. the biotech index. Measured from day 30, once insider filings are in.</div></div></div>
+  $("#app").innerHTML = `<div class="toprow"><div><h1>Track record</h1><div class="muted">Median stock move after the crash, by the verdict given at the time, vs. the biotech index over the same dates. Measured from day 30.</div></div></div>
    <div class="card" id="tr">${series.length > 1 ? "" : `<p class="empty">The track record appears once crashes are scored and have a full year of prices.</p>`}</div>`;
   if (series.length < 2) return;
   const W = Math.max(720, $("#tr").clientWidth - 32), H = 420, left = 50, right = 230, top = 14, bot = 44;
