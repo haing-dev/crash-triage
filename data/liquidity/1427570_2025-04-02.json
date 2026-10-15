@@ -1,0 +1,34 @@
+{
+ "id": "1427570_2025-04-02",
+ "asof": "2025-04-08",
+ "chars": 36536,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-02-18",
+   "net_proceeds_usd": 4500000,
+   "what": "Public offering of common shares and warrants (closed Feb 18, 2025), net of costs",
+   "quote": "In February 2025, the Company raised $4.5 million after costs in a public offering of common shares and stock warrants."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 2575107,
+   "exercise_price_usd": 5.83,
+   "expiry": null,
+   "quote": "warrants to purchase up to 2,575,107 shares of Common Stock at an initial exercise price of $ 5.83 per share"
+  },
+  {
+   "count": 128755,
+   "exercise_price_usd": 5.83,
+   "expiry": null,
+   "quote": "warrants to purchase up to 128,755 shares of Common Stock, which is equal to 5.0% of the aggregate amount of shares of Common Stock issued in the offering, at an exercise price of $5.83 per share"
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": null
+}

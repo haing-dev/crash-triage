@@ -1,0 +1,45 @@
+{
+ "id": "1711754_2025-06-30",
+ "asof": "2025-07-01",
+ "chars": 34317,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-06-30",
+   "net_proceeds_usd": 5000000,
+   "what": "ATM sales April 1 to June 2025 (gross proceeds, cumulative; includes the $2.1M net sold April 1 to May 8)",
+   "quote": "Since April 1, 2025, the Company issued and sold 233,309 shares in April, 197,190 shares in May and 224,348 shares in June for aggregate gross proceeds of $5.0 million"
+  },
+  {
+   "date": "2025-06-30",
+   "net_proceeds_usd": 17577000,
+   "what": "Registered direct offering of 3,000,000 shares at $6.30, closed June 30, 2025 (proceeds after placement agent fee, before other expenses)",
+   "quote": "The Offering closed on June 30, 2025."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 45386,
+   "exercise_price_usd": 14.05,
+   "expiry": null,
+   "quote": "The warrants have a 10 -year term and an exercise price of $ 14.05 ."
+  },
+  {
+   "count": 1557592,
+   "exercise_price_usd": 9.59,
+   "expiry": null,
+   "quote": "At March 31, 2025, 1,557,592 of these warrants are outstanding and are exercisable for cash at a weighted average price of $ 9.59 per share."
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": {
+  "what": "BLA submission for CORDStrom for treatment of RDEB",
+  "timing_text": "this year (2025)",
+  "latest_date": "2025-12-31",
+  "quote": "with intent to submit a BLA this year seeking approval of CORDStrom for treatment of RDEB."
+ }
+}

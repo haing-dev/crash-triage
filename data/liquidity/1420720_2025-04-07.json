@@ -1,0 +1,45 @@
+{
+ "id": "1420720_2025-04-07",
+ "asof": "2025-04-08",
+ "chars": 39232,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-01-31",
+   "net_proceeds_usd": 102000,
+   "what": "ATM sales of 32,167 shares in January 2025 (exact date not given; month-end used)",
+   "quote": "In January 2025, our Sales Agents sold 32,167 shares and we received net proceeds of approximately $102,000."
+  },
+  {
+   "date": "2025-01-10",
+   "net_proceeds_usd": 655000,
+   "what": "Private placement to officers and directors (gross proceeds; net not given)",
+   "quote": "We received aggregate gross proceeds from the 2025 Private Placement of approximately $655,000, before deducting estimated offering expenses payable by us."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 2579,
+   "exercise_price_usd": 665,
+   "expiry": "2026-10-10",
+   "quote": "the Company issued to Bryan Capital a Warrant to purchase 2,579 shares of the Common Stock at an exercise price of $ 665 per share."
+  },
+  {
+   "count": 1560570,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "The Pre-Funded Warrant expires upon full exercise thereof and is exercisable at a nominal exercise price equal to $ 0.0001 per share."
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": {
+  "what": "Regulatory submission for IBIO-600 (long-acting anti-myostatin antibody)",
+  "timing_text": "Q1 2026",
+  "latest_date": "2026-03-31",
+  "quote": "iBio remains on track to submit a regulatory submission for IBIO-600 in Q1 2026."
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "id": "1708331_2025-04-03",
+ "asof": "2025-04-03",
+ "chars": 34562,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-01-29",
+   "net_proceeds_usd": 5849742,
+   "what": "January 2025 reasonable best efforts public offering of shares and pre-funded warrants (Spartan Capital); proceeds before expenses",
+   "quote": "We expect to deliver the Securities to investors on or about January 29, 2025."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 1152817,
+   "exercise_price_usd": 1.35,
+   "expiry": "2029-05-17",
+   "quote": "resulting in 1,152,817 Series A-1 Common Warrants and 130,834 Series A-2 Common Warrants remaining outstanding"
+  },
+  {
+   "count": 130834,
+   "exercise_price_usd": 1.35,
+   "expiry": "2025-11-17",
+   "quote": "resulting in 1,152,817 Series A-1 Common Warrants and 130,834 Series A-2 Common Warrants remaining outstanding"
+  },
+  {
+   "count": 26550000,
+   "exercise_price_usd": 1e-05,
+   "expiry": null,
+   "quote": "pre-funded warrants to purchase up to 26,550,000 shares of Common Stock"
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": null
+}

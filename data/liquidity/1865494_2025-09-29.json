@@ -1,0 +1,45 @@
+{
+ "id": "1865494_2025-09-29",
+ "asof": "2025-09-30",
+ "chars": 34777,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-07-04",
+   "net_proceeds_usd": 14700000,
+   "what": "EIB Tranche B term loan drawdown of EUR 12.5 million (USD figure is my estimate; the filing gives no USD amount and the EUR figure is before fees)",
+   "quote": "On July 4, 2025, the Company (through the Borrower) drew upon the Tranche B loan facility to obtain"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 37065647,
+   "exercise_price_usd": 2.47,
+   "expiry": "2027-02-09",
+   "quote": "The Warrants are exercisable at an exercise price of $2.47 per share, subject to adjustment as set forth therein."
+  },
+  {
+   "count": 5623664,
+   "exercise_price_usd": 0.89,
+   "expiry": null,
+   "quote": "On April 24, 2025, the Company issued 5,623,664 Tranche A Warrants to purchase shares of the Company's common stock at an exercise price of $ 0.89 per share."
+  },
+  {
+   "count": 4221868,
+   "exercise_price_usd": 1.32,
+   "expiry": null,
+   "quote": "On June 24, 2025, the Company issued 4,221,868 Tranche B Warrants to purchase shares of the Company's common stock at an exercise price of $ 1.32 per share"
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": {
+  "what": "Data from Phase 2 IOB-022/KN-D38 basket trial of Cylembio plus pembrolizumab in advanced solid tumors",
+  "timing_text": "second half of 2025",
+  "latest_date": "2025-12-31",
+  "quote": "We expect data to be available in the second half of 2025 and presented at a medical meeting in 2026."
+ }
+}

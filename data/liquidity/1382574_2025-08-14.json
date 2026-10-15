@@ -1,0 +1,39 @@
+{
+ "id": "1382574_2025-08-14",
+ "asof": "2025-08-20",
+ "chars": 33336,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-08-06",
+   "net_proceeds_usd": 1300000,
+   "what": "Private common stock sales at $1.59/share (754,716 shares), proceeds received as of Aug 6, 2025",
+   "quote": "As of August 6, 2025, we have received approximately $ 1.3 million in aggregate proceeds"
+  },
+  {
+   "date": "2025-08-15",
+   "net_proceeds_usd": 3870000,
+   "what": "Registered direct offering of 3,225,000 shares at $1.20, closed Aug 15, 2025 (gross; net not given)",
+   "quote": "The gross proceeds to the Company from the Offering was approximately $3.87 million"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 238594,
+   "exercise_price_usd": 19.02,
+   "expiry": null,
+   "quote": "Warrants outstanding as of June 30, 2025 238,594 $ 19.02 2.70 -"
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": {
+  "what": "FDA regulatory approval of SCN-104 (multi-dose DHE injection pen)",
+  "timing_text": "late 2027 or early 2028",
+  "latest_date": "2028-03-31",
+  "quote": "Management expects SCN-104 to achieve regulatory approval in late 2027 or early 2028, with product commercialization projected to begin in 2028."
+ }
+}

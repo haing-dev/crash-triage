@@ -1,0 +1,57 @@
+{
+ "id": "1106838_2025-12-02",
+ "asof": "2025-12-02",
+ "chars": 36201,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-07-02",
+   "net_proceeds_usd": 2000000,
+   "what": "Zero-interest convertible notes private placement (gross proceeds; later converted to Series 5 preferred)",
+   "quote": "In July 2025, the Company completed a private placement of zero-interest convertible notes, raising $ 2.0 million in gross proceeds."
+  },
+  {
+   "date": "2025-07-15",
+   "net_proceeds_usd": 5500000,
+   "what": "Initial PIPE of Series 5 preferred stock and warrants (gross proceeds)",
+   "quote": "on July 15, 2025, the Company closed the private placement offering, as reported on July 14, 2025, for gross proceeds of approximately $5.5 million"
+  },
+  {
+   "date": "2025-07-18",
+   "net_proceeds_usd": 10500000,
+   "what": "Proceeds from exercise of outstanding warrants as of July 18, 2025",
+   "quote": "as of July 18, 2025, the Company has received proceeds of approximately $10.5 million in connection with the exercise of outstanding warrants"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 2222222,
+   "exercise_price_usd": 4.5,
+   "expiry": "2029-11-07",
+   "quote": "The common warrants were immediately exercisable at a price of $4.50 per share of common stock, expire five years from the date of issuance"
+  },
+  {
+   "count": 1085325,
+   "exercise_price_usd": 2.1,
+   "expiry": "2029-12-10",
+   "quote": "The registered direct warrants were immediately exercisable at a price of $2.10 per share, expire five years from the date of issuance"
+  },
+  {
+   "count": 865052,
+   "exercise_price_usd": 1.156,
+   "expiry": null,
+   "quote": "investors also received five-year warrants to purchase 865,052 shares of common stock at the same $ 1.156 exercise price"
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": {
+  "what": "Top line data from SON-1010 cohort (interferon-gamma-related cohort)",
+  "timing_text": "by the end of calendar 2025",
+  "latest_date": "2025-12-31",
+  "quote": "top line data is expected by the end of calendar 2025"
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "id": "1683553_2025-04-15",
+ "asof": "2025-04-17",
+ "chars": 34864,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [
+  {
+   "amount_usd": 10600000,
+   "what": "Cash paid for the Allievex asset purchase (TA-ERT acquisition). The filing gives the amount for fiscal 2024 but not the payment date, so it may not fall inside the burn window.",
+   "quote": "Net cash used in fiscal 2024 includes cash paid of $10.6 million for the Allievex asset purchase"
+  }
+ ],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [],
+ "warrants_dropped": 1,
+ "next_catalyst": {
+  "what": "BLA submission to the FDA for TA-ERT (tralesinidase alfa) for MPS IIIB, seeking accelerated approval",
+  "timing_text": "first half of 2026",
+  "latest_date": "2026-06-30",
+  "quote": "we anticipate submitting a BLA for TA-ERT to the FDA in the first half of 2026"
+ }
+}

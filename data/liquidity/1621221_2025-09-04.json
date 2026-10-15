@@ -1,0 +1,40 @@
+{
+ "id": "1621221_2025-09-04",
+ "asof": "2025-09-04",
+ "chars": 43166,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-09-03",
+   "net_proceeds_usd": 451526.95,
+   "what": "ATM sales of 50,858 shares via R.F. Lafferty, cumulative through Sept 3, 2025",
+   "quote": "As of September 3, 2025, 50,858 shares of common stock have been sold under the ATM for net proceeds of $451,526.95."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 460046,
+   "exercise_price_usd": 5.82,
+   "expiry": null,
+   "quote": "warrants to purchase 460,046 shares of Common Stock at an exercise price of $5.82 per share"
+  },
+  {
+   "count": 230023,
+   "exercise_price_usd": 10.0,
+   "expiry": null,
+   "quote": "warrants to purchase 230,023 shares of Common Stock at an exercise price of $10.00 per share"
+  },
+  {
+   "count": 93180,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "pre-funded warrants to purchase 93,180 shares of Common Stock at an exercise price of $0.001 per Share"
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": null
+}

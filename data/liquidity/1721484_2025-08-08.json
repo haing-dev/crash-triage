@@ -1,0 +1,38 @@
+{
+ "id": "1721484_2025-08-08",
+ "asof": "2025-08-08",
+ "chars": 32319,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 10640,
+   "exercise_price_usd": 120.0,
+   "expiry": "2026-02-12",
+   "quote": "the underwriter received warrants to purchase 10,640 shares of Class A common stock"
+  },
+  {
+   "count": 116935,
+   "exercise_price_usd": 52.5,
+   "expiry": null,
+   "quote": "these warrants were adjusted downward to an exercise price of $ 52.50 for the period remaining through expiration"
+  },
+  {
+   "count": 242425,
+   "exercise_price_usd": 16.5,
+   "expiry": null,
+   "quote": "Series A warrants and Series B warrants to purchase up to 242,425 and 242,425 , respectively, shares of Class A common stock"
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": {
+  "what": "Potential BLA filing with the FDA for laromestrocel in HLHS, contingent on ELPIS II trial success",
+  "timing_text": "2026",
+  "latest_date": "2026-12-31",
+  "quote": "We currently anticipate a potential BLA filing with the FDA in 2026 if the current ELPIS II trial in HLHS is successful."
+ }
+}

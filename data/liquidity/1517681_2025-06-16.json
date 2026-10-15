@@ -1,0 +1,46 @@
+{
+ "id": "1517681_2025-06-16",
+ "asof": "2025-06-18",
+ "chars": 36958,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-04-15",
+   "net_proceeds_usd": 50000,
+   "what": "Convertible note (GS Capital), $55,000 principal",
+   "quote": "for a purchase price of $50,000"
+  },
+  {
+   "date": "2025-05-07",
+   "net_proceeds_usd": 75000,
+   "what": "Promissory note, $90,000 principal",
+   "quote": "for a purchase price of $75,000"
+  },
+  {
+   "date": "2025-06-02",
+   "net_proceeds_usd": 50000,
+   "what": "Promissory note, $60,000 principal",
+   "quote": "for a purchase price of $50,000"
+  },
+  {
+   "date": "2025-06-12",
+   "net_proceeds_usd": 22500,
+   "what": "Convertible note, $25,000 principal",
+   "quote": "for a purchase price of $22,500"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 250,
+   "exercise_price_usd": 600,
+   "expiry": "2026-07-05",
+   "quote": "the Company issued 250 warrants to purchase common stock to such investor immediately exercisable at an initial exercise price of $ 600 per share"
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": null
+}

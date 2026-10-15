@@ -1,0 +1,34 @@
+{
+ "id": "1712762_2025-09-17",
+ "asof": "2025-09-19",
+ "chars": 36884,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-07-31",
+   "net_proceeds_usd": 2900,
+   "what": "ATM sales in July 2025 (gross ~$3,000 less ~$100 commissions)",
+   "quote": "In July 2025, the Company has sold an aggregate of 8,371 shares for gross proceeds of approximately $ 3,000 , and paid cash commissions of approximately $ 100 to WallachBeth."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 28193118,
+   "exercise_price_usd": 1.44,
+   "expiry": "2030-05-31",
+   "quote": "the Company had 28,193,118 and 12,298,124 warrants outstanding to purchase one share of the Company's Common Stock for each warrant at a weighted average exercise price of $ 1.44 and expire at various dates through May 2030"
+  },
+  {
+   "count": 6714780,
+   "exercise_price_usd": 0.352,
+   "expiry": null,
+   "quote": "warrants (the \u201cWarrants\u201d) to purchase up to 6,714,780 shares of the Company\u2019s Common Stock at an exercise price of $0.352 per share of Common Stock."
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": null
+}

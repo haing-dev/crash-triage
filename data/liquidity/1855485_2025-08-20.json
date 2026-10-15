@@ -1,0 +1,34 @@
+{
+ "id": "1855485_2025-08-20",
+ "asof": "2025-08-20",
+ "chars": 37672,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-07-10",
+   "net_proceeds_usd": 4600000,
+   "what": "Warrant inducement exercise of existing warrants at reduced price (gross proceeds; net not given)",
+   "quote": "The gross proceeds from the exercise of the induced warrants was $4.6 million, prior to deducting placement agent fees and offering expenses."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 549583,
+   "exercise_price_usd": 8.4,
+   "expiry": null,
+   "quote": "The New Series H Warrants will have an exercise price of $0.70 per share, will be initially exercisable on the 6 month anniversary of the issuance date and will have a term of 66 months from the issuance date."
+  },
+  {
+   "count": 3000764,
+   "exercise_price_usd": 2.0,
+   "expiry": null,
+   "quote": "The Common Warrants will have an initial exercise price of $2.00 per share or $1.999 per pre-funded warrant"
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": null
+}

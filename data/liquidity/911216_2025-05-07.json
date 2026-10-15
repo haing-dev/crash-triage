@@ -1,0 +1,40 @@
+{
+ "id": "911216_2025-05-07",
+ "asof": "2025-05-12",
+ "chars": 39358,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-02-10",
+   "net_proceeds_usd": 4309641,
+   "what": "February 2025 registered direct offering and concurrent private placement",
+   "quote": "$4,309,641 received in February 2025"
+  },
+  {
+   "date": "2025-05-08",
+   "net_proceeds_usd": 1100000,
+   "what": "Reduced May 2025 offering after investors did not proceed to full closing",
+   "quote": "on May 8, 2025, the Company raised approximately $1.1 million in net proceeds from the reduced Offering."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 4688000,
+   "exercise_price_usd": 1.0,
+   "expiry": null,
+   "quote": "The warrants being issued in the concurrent Private Placement will have an exercise price of $ 1.00 per share, will be exercisable beginning on the six-month anniversary of the date of issuance and will expire five and a half years from the date of issuance."
+  },
+  {
+   "count": 91575,
+   "exercise_price_usd": 6.825,
+   "expiry": null,
+   "quote": "to purchase up to 91,575 shares of the Company's common stock"
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": null
+}

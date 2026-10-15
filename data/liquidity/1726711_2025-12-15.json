@@ -1,0 +1,34 @@
+{
+ "id": "1726711_2025-12-15",
+ "asof": "2025-12-15",
+ "chars": 28582,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-11-17",
+   "net_proceeds_usd": 1509102,
+   "what": "ATM sales Oct 1 - Nov 17, 2025 (37,489 shares); the filing says the $1,509,102 is after fees and expenses, so it is treated as net",
+   "quote": "The sale of shares generated gross proceeds of approximately $ 1,509,102 after paying fees and expenses."
+  },
+  {
+   "date": "2025-11-17",
+   "net_proceeds_usd": 7797606,
+   "what": "ELOC sales Oct 1 - Nov 17, 2025 (412,995 shares)",
+   "quote": "The sale of shares generated net proceeds of approximately $ 7,797,606 after paying fees and expenses."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 5379,
+   "exercise_price_usd": null,
+   "expiry": null,
+   "quote": "5,379 shares of common stock issuable upon exercise of outstanding warrants at various exercise prices"
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": null
+}

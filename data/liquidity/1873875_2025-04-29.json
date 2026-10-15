@@ -1,0 +1,34 @@
+{
+ "id": "1873875_2025-04-29",
+ "asof": "2025-05-01",
+ "chars": 37650,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-03-10",
+   "net_proceeds_usd": 12500000,
+   "what": "March 2025 private placement of common stock and pre-funded warrants (gross proceeds; net not given)",
+   "quote": "approximately $12.5 million in gross proceeds of 9,687,045 shares"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 585000,
+   "exercise_price_usd": 1.66,
+   "expiry": "2029-10-31",
+   "quote": "exercisable for 585,000 shares of Common Stock with an exercise price equal to $ 1.66 per share"
+  },
+  {
+   "count": 1887045,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "nominal proceeds of $0.0001 per share upon the cash exercise of the Pre-Funded Warrants"
+  }
+ ],
+ "warrants_dropped": 1,
+ "next_catalyst": null
+}

@@ -1,0 +1,58 @@
+{
+ "id": "832489_2025-07-01",
+ "asof": "2025-07-02",
+ "chars": 44230,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-07-02",
+   "net_proceeds_usd": 5582557.5,
+   "what": "Public offering of 9,235,000 common units (shares plus common warrants) at $0.65 per unit, closed July 2, 2025",
+   "quote": "The Offering closed on July 2, 2025."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 18470000,
+   "exercise_price_usd": 0.65,
+   "expiry": "2030-07-02",
+   "quote": "The Common Warrants have an exercise price of $0.65 per share, are immediately exercisable and will expire five years from the date of issuance."
+  },
+  {
+   "count": 3435115,
+   "exercise_price_usd": 1.31,
+   "expiry": null,
+   "quote": "common warrants to purchase up to 3,435,115 shares of common stock at an exercise price of $1.31 per share"
+  },
+  {
+   "count": 1605688,
+   "exercise_price_usd": 1.31,
+   "expiry": "2029-05-31",
+   "quote": "May 2024 1,605,688 1.31 May 2029"
+  },
+  {
+   "count": 2170000,
+   "exercise_price_usd": 1.31,
+   "expiry": "2030-01-31",
+   "quote": "July 2024 2,170,000 1.31 January 2030"
+  },
+  {
+   "count": 159781,
+   "exercise_price_usd": 75.0,
+   "expiry": "2025-09-30",
+   "quote": "September 2020 159,781 $ 75.00 September 2025"
+  },
+  {
+   "count": 6668,
+   "exercise_price_usd": 195.0,
+   "expiry": "2026-09-30",
+   "quote": "September 2021 6,668 195.00 September 2026"
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": null
+}

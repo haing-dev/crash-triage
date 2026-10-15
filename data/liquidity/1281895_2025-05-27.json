@@ -1,0 +1,50 @@
+{
+ "id": "1281895_2025-05-27",
+ "asof": "2025-05-27",
+ "chars": 29436,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 603386,
+   "exercise_price_usd": 57.11,
+   "expiry": "2030-12-21",
+   "quote": "$ 57.11 603,386 December 21, 2020 December 21, 2030"
+  },
+  {
+   "count": 301291,
+   "exercise_price_usd": 33.63,
+   "expiry": "2031-08-09",
+   "quote": "$ 33.63 301,291 August 9, 2021 August 9, 2031"
+  },
+  {
+   "count": 306310,
+   "exercise_price_usd": 22.51,
+   "expiry": "2031-12-17",
+   "quote": "$ 22.51 153,155 December 17, 2021 December 17, 2031 $ 22.51 153,155 December 17, 2021 December 17, 2031"
+  },
+  {
+   "count": 760086,
+   "exercise_price_usd": 65.23,
+   "expiry": "2026-12-01",
+   "quote": "$ 65.23 760,086 December 1, 2022 December 1, 2026"
+  },
+  {
+   "count": 3526955,
+   "exercise_price_usd": 0.01,
+   "expiry": null,
+   "quote": "$ 0.01 3,126,955 September 15, 2023 N/A $ 0.01 400,000 December 12, 2024 N/A"
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": {
+  "what": "Final module submission of the BLA for RP-L102 (Fanconi Anemia)",
+  "timing_text": "late 2025/early 2026",
+  "latest_date": "2026-03-31",
+  "quote": "Anticipated final module submission of the BLA in late 2025/early 2026."
+ }
+}

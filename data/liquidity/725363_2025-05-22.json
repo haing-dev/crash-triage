@@ -1,0 +1,76 @@
+{
+ "id": "725363_2025-05-22",
+ "asof": "2025-05-22",
+ "chars": 35530,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-05-08",
+   "net_proceeds_usd": 350000,
+   "what": "10% loan from an unaffiliated party",
+   "quote": "On May 8, 2025, the Company received a loan in the amount of $ 350,000 with interest at the rate of 10 % per annum from an unaffiliated party."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 85339,
+   "exercise_price_usd": 3.0,
+   "expiry": "2026-08-18",
+   "quote": "Series N 8/18/2008 85,339 $ 3.00 8/18/2026"
+  },
+  {
+   "count": 93603,
+   "exercise_price_usd": 2.8,
+   "expiry": "2026-06-30",
+   "quote": "Series UU 6/11/2018 93,603 $ 2.80 6/30/2026"
+  },
+  {
+   "count": 120000,
+   "exercise_price_usd": 9.25,
+   "expiry": "2026-07-13",
+   "quote": "Series X 1/13/2016 120,000 $ 9.25 7/13/2026"
+  },
+  {
+   "count": 26000,
+   "exercise_price_usd": 12.0,
+   "expiry": "2026-08-15",
+   "quote": "Series Y 2/15/2016 26,000 $ 12.00 8/15/2026"
+  },
+  {
+   "count": 333432,
+   "exercise_price_usd": 1.86,
+   "expiry": "2026-06-22",
+   "quote": "Series MM 6/22/2017 333,432 $ 1.86 6/22/2026"
+  },
+  {
+   "count": 200087,
+   "exercise_price_usd": 2.52,
+   "expiry": "2026-07-24",
+   "quote": "Series NN 7/24/2017 200,087 $ 2.52 7/24/2026"
+  },
+  {
+   "count": 234009,
+   "exercise_price_usd": 1.65,
+   "expiry": "2026-10-30",
+   "quote": "Series RR 10/30/2017 234,009 $ 1.65 10/30/2026"
+  },
+  {
+   "count": 2600000,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "Pre-Funded 12/31/2024 2,600,000 $ 0.0001 N/A"
+  },
+  {
+   "count": 11987500,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "Pre-Funded 03/18/2025 11,987,500 $ 0.0001 N/A"
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": null
+}

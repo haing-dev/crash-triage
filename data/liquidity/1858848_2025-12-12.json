@@ -1,0 +1,52 @@
+{
+ "id": "1858848_2025-12-12",
+ "asof": "2025-12-17",
+ "chars": 35786,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-10-31",
+   "net_proceeds_usd": 1900000,
+   "what": "Warrant exercise proceeds received in October 2025 (exact day not stated; 2025-10-31 is a placeholder)",
+   "quote": "the $1.9 million of proceeds from warrant exercises in October 2025"
+  },
+  {
+   "date": "2025-12-15",
+   "net_proceeds_usd": 56400000,
+   "what": "December 2025 underwritten public offering of 50,000,000 units; 50,000,000 x $1.128 underwriter price, before other offering expenses. Closing on 2025-12-15 is the expected date, not confirmed in the documents.",
+   "quote": "The Offering is expected to close on December 15, 2025, subject to the satisfaction of customary closing conditions."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 75000000,
+   "exercise_price_usd": 0.8,
+   "expiry": "2030-03-05",
+   "quote": "a warrant to purchase one share of our common stock at an exercise price of $0.80 per share, which will be immediately exercisable and will expire five years from the date of issuance (a Series A Warrant)"
+  },
+  {
+   "count": 36992500,
+   "exercise_price_usd": 0.7,
+   "expiry": "2026-06-30",
+   "quote": "a warrant to purchase one-half of a share of our common stock at an exercise price of $0.70 per share, which will be immediately exercisable and expire on June 30, 2026 (a Series B Warrant)"
+  },
+  {
+   "count": 50000000,
+   "exercise_price_usd": 1.5,
+   "expiry": "2030-12-15",
+   "quote": "a warrant to purchase one share of common stock (which equates to 100% warrant coverage) at an exercise price of $1.50 per share, which will be immediately exercisable and will expire five years from the date of issuance"
+  },
+  {
+   "count": 171848,
+   "exercise_price_usd": 2.55,
+   "expiry": null,
+   "quote": "the Company issued to SVB a warrant to purchase up to 171,848 shares of our common stock (the Lender Warrant)"
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": null
+}

@@ -1,0 +1,40 @@
+{
+ "id": "1815903_2025-04-29",
+ "asof": "2025-05-05",
+ "chars": 36508,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-02-19",
+   "net_proceeds_usd": 8500000,
+   "what": "February 2025 best efforts public offering of units and pre-funded units with Series A/B warrants (closed Feb 19, 2025)",
+   "quote": "We estimate that the net proceeds to us from this offering will be approximately $8.5 million, after deducting the Placement Agent fees and estimated offering expenses payable by us"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 67500027,
+   "exercise_price_usd": 0.24,
+   "expiry": null,
+   "quote": "the exercise price of the Warrants was adjusted to $0.24 per share and the number of shares of Common Stock issuable upon exercise of the Warrants was adjusted proportionally to 67,500,027 shares"
+  },
+  {
+   "count": 40000000,
+   "exercise_price_usd": 0.48,
+   "expiry": null,
+   "quote": "The exercise price of each of the Series A Warrants and the Series B Warrants is $0.48 per share of Common Stock."
+  },
+  {
+   "count": 26049988,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "the Pre-Funded Warrants are immediately exercisable and may be exercised at a nominal consideration of $0.0001 per share any time until all of the Pre-Funded Warrants are exercised in full."
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": null
+}

@@ -1,0 +1,34 @@
+{
+ "id": "1870404_2025-06-18",
+ "asof": "2025-06-23",
+ "chars": 36658,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-05-14",
+   "net_proceeds_usd": 124353,
+   "what": "ELOC common stock sales to Keystone, April 1 to May 14, 2025",
+   "quote": "the Company sold 198,068 shares of Common Stock of the Company pursuant to the New Keystone Purchase Agreement for net proceeds of $ 124,353"
+  },
+  {
+   "date": "2025-06-05",
+   "net_proceeds_usd": 750400,
+   "what": "Series D Preferred additional closing (gross proceeds; net not given)",
+   "quote": "with respect to 938 additional shares of Series D Preferred Stock for gross proceeds of approximately $750,400"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 2551020,
+   "exercise_price_usd": 1.96,
+   "expiry": null,
+   "quote": "February 2025 Common Warrants to purchase up to 2,551,020 shares of common stock, at a combined public offering price of $1.96 per share and warrant"
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": null
+}
