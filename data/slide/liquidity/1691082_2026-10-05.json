@@ -1,0 +1,33 @@
+{
+ "id": "1691082_2026-10-05",
+ "asof": "2026-10-05",
+ "chars": 27470,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2026-07-30",
+   "net_proceeds_usd": 150000000,
+   "what": "July 2026 private placement of common stock and pre-funded warrants (gross proceeds; net not disclosed; closing date was expected 'on or about July 30')",
+   "quote": "The Company received gross proceeds of $150.0 million, before deducting any transaction-related expenses."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 1417107,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "pre-funded warrants to purchase 1,417,107 shares of our common stock at a purchase price of $21.1699 per pre-funded warrant"
+  },
+  {
+   "count": 715513,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "pre-funded warrants to purchase up to 715,513 shares of the Company\u2019s common stock"
+  }
+ ],
+ "warrants_dropped": 0
+}

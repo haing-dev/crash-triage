@@ -1,0 +1,51 @@
+{
+ "id": "907654_2026-10-08",
+ "asof": "2026-10-08",
+ "chars": 20813,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2026-07-01",
+   "net_proceeds_usd": 122500000,
+   "what": "July 2026 ATM sales of 1,499,500 common shares (exact day not given; date is a placeholder within July)",
+   "quote": "in July 2026, we sold 1,499,500 shares of our common stock pursuant to the ATM offering program for net proceeds of $122.5 million, after deducting sales agents\u2019 commissions."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 5297664,
+   "exercise_price_usd": 0.01,
+   "expiry": null,
+   "quote": "As of June 30, 2026 and December 31, 2025, 5,297,664 and 5,497,183 pre-funded warrants, respectively, remain issued and outstanding from the August 2024 issuance."
+  },
+  {
+   "count": 408524,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "As of June 30, 2026 and December 31, 2025, 408,524 and 1,066,666 pre-funded warrants, respectively, remain issued and outstanding from the September 2025 issuance."
+  },
+  {
+   "count": 2619353,
+   "exercise_price_usd": 7.8,
+   "expiry": null,
+   "quote": "As of June 30, 2026 and December 31, 2025, 2,619,353 and 3,029,510 warrants, respectively, were outstanding."
+  },
+  {
+   "count": 596930,
+   "exercise_price_usd": 19.39,
+   "expiry": "2034-12-31",
+   "quote": "a warrant to purchase 596,930 shares of the Company\u2019s common stock at an exercise price of $19.39 per share."
+  },
+  {
+   "count": 375000,
+   "exercise_price_usd": 30.18,
+   "expiry": "2035-12-12",
+   "quote": "a warrant to purchase 375,000 shares of the Company\u2019s common stock at an exercise price of $30.18 per share."
+  }
+ ],
+ "warrants_dropped": 0
+}

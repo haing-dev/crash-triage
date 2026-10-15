@@ -1,0 +1,32 @@
+{
+ "id": "1662579_2026-10-01",
+ "asof": "2026-10-01",
+ "chars": 21277,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 13018000,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "the Company issued 28,713,500 Pre-Funded Warrants, which have an initial exercise price per share of $0.0001, subject to certain adjustments."
+  },
+  {
+   "count": 50608500,
+   "exercise_price_usd": 2.22,
+   "expiry": null,
+   "quote": "the Company issued 50,608,500 Class A Warrants that can be exercised either for one share of common stock at an initial exercise price per share of $2.22"
+  },
+  {
+   "count": 50608500,
+   "exercise_price_usd": 2.22,
+   "expiry": null,
+   "quote": "the Company issued 50,608,500 Class B Warrants that can be exercised either for one share of common stock at an initial exercise price per share of $2.22"
+  }
+ ],
+ "warrants_dropped": 0
+}

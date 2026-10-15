@@ -1,0 +1,39 @@
+{
+ "id": "1833214_2026-10-12",
+ "asof": "2026-10-12",
+ "chars": 22337,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2026-07-31",
+   "net_proceeds_usd": 13100000,
+   "what": "Exercise of 74,933 Enrollment Date Warrants (gross proceeds; net not given; exact July day not given)",
+   "quote": "In July 2026, 74,933 Enrollment Date Warrants were exercised for 74,933 shares of Series B Preferred Stock for aggregate gross proceeds of $13.1 million"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 50000000,
+   "exercise_price_usd": 2.1875,
+   "expiry": null,
+   "quote": "Release Date Warrants to purchase up to 500,000 shares of Series B Preferred Stock with an exercise price of $218.75 per share"
+  },
+  {
+   "count": 90496700,
+   "exercise_price_usd": 1.75,
+   "expiry": null,
+   "quote": "Enrollment Date Warrants exercisable for 90,496,700 shares of common stock remained outstanding as of the date of issuance of these financial statements."
+  },
+  {
+   "count": 2753246,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "pre-funded warrants to purchase up to 2,753,246 shares of common stock"
+  }
+ ],
+ "warrants_dropped": 0
+}

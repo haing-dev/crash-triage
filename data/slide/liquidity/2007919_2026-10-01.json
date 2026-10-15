@@ -1,0 +1,45 @@
+{
+ "id": "2007919_2026-10-01",
+ "asof": "2026-10-01",
+ "chars": 8307,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2026-07-15",
+   "net_proceeds_usd": 100000000,
+   "what": "Oxford Term C Loan funded at signing of Second Amendment (gross; net not stated)",
+   "quote": "$100.0 million of which was funded upon execution of the amendment, or the Term C Loan"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 140741,
+   "exercise_price_usd": 14.21,
+   "expiry": "2035-01-13",
+   "quote": "The Company issued warrants to purchase 140,741 shares of the Company\u2019s common stock at an exercise price of $14.21 per share."
+  },
+  {
+   "count": 21518,
+   "exercise_price_usd": 69.71,
+   "expiry": null,
+   "quote": "Concurrently with the March 2026 Amendment, the Company issued to Oxford warrants to purchase 21,518 shares of common stock at an exercise price of $69.71 per share."
+  },
+  {
+   "count": 21457,
+   "exercise_price_usd": 93.21,
+   "expiry": null,
+   "quote": "the Company issued to Lenders warrants to purchase 21,457 shares of the Company\u2019s common stock, par value $0.0001 per share, at an exercise price of $93.21 per share."
+  },
+  {
+   "count": 991849,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "Pre-funded warrants to purchase 991,849 shares of the Company\u2019s common stock are outstanding at an exercise price of $0.0001 per share."
+  }
+ ],
+ "warrants_dropped": 0
+}

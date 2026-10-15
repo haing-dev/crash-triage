@@ -1,0 +1,51 @@
+{
+ "id": "1098972_2026-10-13",
+ "asof": "2026-10-13",
+ "chars": 25414,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2026-07-15",
+   "net_proceeds_usd": 85000000,
+   "what": "Private placement of common stock with Series A and Series B warrants (gross proceeds; net not given)",
+   "quote": "The Private Placement closed on July 15, 2026 and provided approximately $85.0 million in upfront gross proceeds, before deducting Private Placement expenses."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 21144277,
+   "exercise_price_usd": 4.02,
+   "expiry": "2031-07-15",
+   "quote": "accompanying Series A purchase warrants to purchase 21,144,277 shares of common stock at an exercise price of $4.02 per share"
+  },
+  {
+   "count": 33797214,
+   "exercise_price_usd": 5.03,
+   "expiry": "2031-07-15",
+   "quote": "accompanying Series B purchase warrants to purchase 33,797,214 shares of common stock at an exercise price of $5.03 per share"
+  },
+  {
+   "count": 97500,
+   "exercise_price_usd": 3.25,
+   "expiry": "2031-06-25",
+   "quote": "to purchase a total of 97,500 shares of the our common stock, each at an exercise price of $3.25, to June 25, 2031"
+  },
+  {
+   "count": 56525,
+   "exercise_price_usd": 3.25,
+   "expiry": "2031-06-25",
+   "quote": "new warrants to purchase 56,525 shares of our common stock to expire June 25, 2031, and have an exercise price of $3.25 per share"
+  },
+  {
+   "count": 867052,
+   "exercise_price_usd": 17.3,
+   "expiry": null,
+   "quote": "to purchase 867,052 shares of our common stock, at an exercise price equal to $17.30 per share"
+  }
+ ],
+ "warrants_dropped": 0
+}
