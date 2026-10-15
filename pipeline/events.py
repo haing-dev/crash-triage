@@ -17,7 +17,7 @@ ROOT = Path(__file__).resolve().parent.parent
 EDIR = ROOT / "data" / "events"
 SCHEMA = """Return ONLY a JSON object, no prose, with exactly these keys:
 {
- "related": true/false,            // does this document explain a large one-day stock drop on the crash date?
+ "related": true/false,            // does this document explain a large stock drop on the news day?
  "trigger": one of "efficacy miss", "safety", "regulatory rejection", "regulatory delay", "commercial miss",
             "financing / dilution", "partner exit", "other",
  "summary": "≤ 18 words, plain English, format: <what happened> · <phase or stage> · <drug> in <indication> · <market stage>",
@@ -89,9 +89,9 @@ def find_release(cik, d):
     return None
 
 
-def ask_claude(text, name, d):
+def ask_claude(text, name, d, move):
     exe = shutil.which("claude")
-    prompt = (f"Company: {name}. Crash date: {d}. The stock fell over 50% that day.\n"
+    prompt = (f"Company: {name}. News day: {d}. {move}\n"
               f"Read the SEC filing text on standard input.\n\n{SCHEMA}")
     with tempfile.TemporaryDirectory() as td:
         r = subprocess.run([exe, "-p", prompt, "--model", "sonnet", "--effort", "medium", "--tools", "",
@@ -129,19 +129,22 @@ def main():
     done = n = 0
     for c in crashes:
         out = EDIR / f"{c['cik']}_{c['date']}.json"
-        if out.exists():
+        if out.exists() and not json.loads(out.read_text()).get("status", "").startswith("error"):
             done += 1
             continue
         if n >= a.limit:
             break
         n += 1
-        rec = {"cik": c["cik"], "name": c["name"], "ticker": c["ticker"], "date": c["date"], "move_pct": c["move_pct"]}
+        rec = {"cik": c["cik"], "name": c["name"], "ticker": c["ticker"], "date": c["date"], "fall_pct": c["fall_pct"],
+               "days": c["days"], "news_day_pct": c["news_day_pct"]}
+        move = (f"The stock fell {c['news_day_pct']}% that day and {c['fall_pct']}% in total over {c['days']} "
+                f"trading day(s).")
         try:
             rel = find_release(c["cik"], c["date"])
             if not rel:
                 rec["status"] = "no filing found"
             else:
-                facts = verify(ask_claude(rel["text"], c["name"], c["date"]), rel["text"])
+                facts = verify(ask_claude(rel["text"], c["name"], c["date"], move), rel["text"])
                 rec.update(status="read", source={k: rel[k] for k in ("filing_date", "accession", "doc", "url")}, facts=facts)
         except Exception as e:
             rec["status"] = f"error: {str(e)[:200]}"
