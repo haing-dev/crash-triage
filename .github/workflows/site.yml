@@ -3,7 +3,7 @@ on:
   schedule:
     - cron: "23 */3 * * *"      # every 3 hours; Cloudflare only deploys the 'site' branch
   push:
-    paths: ["web/**", "pipeline/build_site.py", "pipeline/fit.py", ".github/workflows/site.yml"]
+    paths: ["web/**", "pipeline/build_site.py", "pipeline/fit.py", "pipeline/common.py", ".github/workflows/site.yml"]
   workflow_dispatch:
 permissions:
   contents: write

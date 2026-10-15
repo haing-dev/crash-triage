@@ -4,7 +4,7 @@ on:
     - cron: "7 * * * *"         # hourly; reads one-off cash items, financings, warrants and next catalyst per crash (once)
   workflow_dispatch:
     inputs:
-      limit: { description: "Crashes to read this run", default: "60" }
+      limit: { description: "Crashes to read this run", default: "40" }
 permissions:
   contents: write
 concurrency:
@@ -13,7 +13,7 @@ concurrency:
 jobs:
   liquidity:
     strategy:
-      matrix: { shard: [0, 1] }    # two runners in parallel
+      matrix: { kind: [crash, slide], shard: [0, 1] }    # four runners in parallel
     runs-on: ubuntu-latest
     timeout-minutes: 58
     steps:
@@ -28,11 +28,11 @@ jobs:
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
-        run: cd pipeline && timeout 55m python liquidity.py --limit ${{ inputs.limit || '60' }} --shard ${{ matrix.shard }}/2 || true
+        run: cd pipeline && timeout 55m python liquidity.py --kind ${{ matrix.kind }} --limit ${{ inputs.limit || '40' }} --shard ${{ matrix.shard }}/2 || true
       - name: Save
         run: |
           git config user.name "crash-triage-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/liquidity
+          git add data/crash/liquidity data/slide/liquidity 2>/dev/null; git add data/*/liquidity
           git commit -m "liquidity facts read [skip ci]" || echo "no change"
           for i in 1 2 3 4 5; do git pull --rebase -q && git push -q && break; sleep $((i*7)); done

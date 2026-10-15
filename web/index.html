@@ -3,14 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Crash Triage</title>
-<meta name="description" content="When a biotech stock falls 50% or more in a day, did it deserve to?">
+<title>Biotech Triage</title>
+<meta name="description" content="When a biotech stock crashes or slides, did it deserve to? Verdicts backtested on five years of history.">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header class="top">
-  <a class="logo" href="#/">Crash Triage</a>
-  <nav><a href="#/" data-nav="crashes">Screener</a><a href="#/backtest" data-nav="backtest">Backtest</a><a href="#/outcomes" data-nav="outcomes">Outcomes</a><a href="#/track" data-nav="track">Track record</a></nav>
+  <div class="kind" role="tablist" aria-label="Triage"><button data-kind="crash" role="tab">Crash Triage</button><button data-kind="slide" role="tab">Slide Triage</button></div>
+  <nav><a data-nav="screener">Screener</a><a data-nav="backtest">Backtest</a><a data-nav="outcomes">Outcomes</a><a data-nav="track">Track record</a></nav>
 </header>
 <main id="app"><p class="muted">Loading…</p></main>
 <div id="tip" role="tooltip"></div>

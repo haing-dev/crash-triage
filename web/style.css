@@ -68,3 +68,7 @@ td.f.f-na{background:transparent;color:var(--ink3);font-weight:400}
 .fc.f-na{background:transparent;border:1px solid var(--line);color:var(--ink3)}
 .fc.f-na .fv{font-weight:500}
 th.sortable{cursor:pointer;user-select:none}th.sortable:hover{color:var(--ink)}
+.kind{display:inline-flex;background:var(--neu-bg);border-radius:10px;padding:3px;gap:2px}
+.kind button{border:0;background:transparent;padding:7px 16px;border-radius:8px;font-weight:600;color:var(--ink2);font-size:14px}
+.kind button.on{background:var(--card);color:var(--ink);box-shadow:0 1px 3px rgba(0,0,0,.12)}
+nav a{cursor:pointer}

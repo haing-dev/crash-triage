@@ -1,20 +1,16 @@
 """
-For each crash, find the company's own announcement (SEC 8-K filed around the crash date, exhibit 99.x press
-release), and have Claude read it into structured facts. Every fact must carry a verbatim quote that is checked
-against the filing text; facts whose quote doesn't match are dropped.
+Crash triage only: find the company's own announcement for each crash (8-K/6-K filed from 3 days before to 6 days
+after the news day, exhibit 99 press release first; or an offering prospectus) and have Claude read it into
+structured facts. Every fact carries a verbatim quote checked against the filing; unverified facts are dropped.
 
-Output: data/events/<cik>_<date>.json   (resumable; already-read crashes are skipped)
+Output: data/crash/events/<cik>_<date>.json (once per crash; errors are retried)
 
-    python events.py --limit 40
+    python events.py --limit 60
 """
-import argparse, csv, html, json, re, shutil, subprocess, tempfile, time
+import argparse, json, re
 from datetime import date, timedelta
-from html.parser import HTMLParser
-from pathlib import Path
-from common import get
+from common import ask_claude, episodes, filings, get, kdir, norm, quoted, to_text
 
-ROOT = Path(__file__).resolve().parent.parent
-EDIR = ROOT / "data" / "events"
 SCHEMA = """Return ONLY a JSON object, no prose, with exactly these keys:
 {
  "related": true/false,            // does this document explain a large stock drop on the news day?
@@ -36,47 +32,11 @@ Rules: copy every evidence quote EXACTLY from the document (≤ 40 words, no par
 does not say. Do not use outside knowledge."""
 
 
-class Text(HTMLParser):
-    def __init__(self):
-        super().__init__()
-        self.out, self.skip = [], 0
-
-    def handle_starttag(self, t, a):
-        if t in ("script", "style"):
-            self.skip += 1
-        if t in ("p", "div", "br", "tr", "li", "h1", "h2", "h3"):
-            self.out.append("\n")
-
-    def handle_endtag(self, t):
-        if t in ("script", "style"):
-            self.skip -= 1
-
-    def handle_data(self, d):
-        if not self.skip:
-            self.out.append(d)
-
-
-def to_text(b):
-    p = Text()
-    p.feed(b.decode("utf-8", "replace"))
-    t = html.unescape("".join(p.out))
-    return re.sub(r"[ \t\xa0]+", " ", re.sub(r"\n\s*\n+", "\n\n", t)).strip()
-
-
-def norm(s):
-    return re.sub(r"\s+", " ", re.sub(r"[^a-z0-9%$.]+", " ", s.lower().replace("’", "'"))).strip()
-
-
 def find_release(cik, d):
-    s = get(f"https://data.sec.gov/submissions/CIK{int(cik):010d}.json")
-    pages = [s["filings"]["recent"]] + [get(f"https://data.sec.gov/submissions/{fl['name']}") or {}
-                                        for fl in s["filings"].get("files", []) if fl.get("filingTo", "9") >= d and fl.get("filingFrom", "") <= d]
     # 8-Ks may be filed up to 4 business days after the news; offerings are announced in 424B prospectuses
     lo, hi = (date.fromisoformat(d) - timedelta(days=3)).isoformat(), (date.fromisoformat(d) + timedelta(days=6)).isoformat()
-    cands = []
-    for r in pages:
-        cands += [(r["filingDate"][i], r["accessionNumber"][i], r["primaryDocument"][i], r["form"][i]) for i in range(len(r.get("form", [])))
-                  if r["form"][i] in ("8-K", "6-K", "424B5", "424B4", "424B3") and lo <= r["filingDate"][i] <= hi]
+    cands = [(fd, acc, doc, form) for form, fd, acc, doc in filings(cik)
+             if form in ("8-K", "6-K", "424B5", "424B4", "424B3") and lo <= fd <= hi]
     # nearest date first; on the same distance, an 8-K/6-K before a prospectus
     cands.sort(key=lambda c: (abs((date.fromisoformat(c[0]) - date.fromisoformat(d)).days), c[3].startswith("424")))
     cands = [c[:3] for c in cands]
@@ -95,29 +55,13 @@ def find_release(cik, d):
     return None
 
 
-def ask_claude(text, name, d, move):
-    exe = shutil.which("claude")
-    prompt = (f"Company: {name}. News day: {d}. {move}\n"
-              f"Read the SEC filing text on standard input.\n\n{SCHEMA}")
-    with tempfile.TemporaryDirectory() as td:
-        r = subprocess.run([exe, "-p", prompt, "--model", "sonnet", "--effort", "medium", "--tools", "",
-                            "--strict-mcp-config", "--no-session-persistence", "--output-format", "text"],
-                           input=text, capture_output=True, text=True, timeout=600, cwd=td)
-    m = re.search(r"\{.*\}", r.stdout, re.S)
-    if r.returncode != 0 or not m:
-        raise RuntimeError((r.stderr or r.stdout)[:300])
-    return json.loads(m.group(0))
-
-
 def verify(facts, text):
-    """Drop any fact whose evidence quote is not found word-for-word (after normalising) in the filing."""
+    """Drop any fact whose evidence quote is not found word for word (after normalising) in the filing."""
     nt = norm(text)
-    ev = facts.get("evidence") or {}
     checked = {}
-    for k, q in ev.items():
-        ok = bool(q) and all(norm(f) in nt for f in re.split(r"…|\.\.\.", q) if len(norm(f).split()) >= 3)
-        checked[k] = ok
-        if q and not ok:
+    for k, q in (facts.get("evidence") or {}).items():
+        checked[k] = quoted(q, nt)
+        if q and not checked[k]:
             if k == "safety":
                 facts["safety"] = {kk: None for kk in (facts.get("safety") or {})}
             elif k in facts:
@@ -128,29 +72,28 @@ def verify(facts, text):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--limit", type=int, default=40)
+    ap.add_argument("--limit", type=int, default=60)
     a = ap.parse_args()
-    EDIR.mkdir(parents=True, exist_ok=True)
-    crashes = list(csv.DictReader((ROOT / "data" / "crashes.csv").open()))
+    out_dir = kdir("crash", "events")
+    crashes = episodes("crash")
     done = n = 0
     for c in crashes:
-        out = EDIR / f"{c['cik']}_{c['date']}.json"
+        out = out_dir / f"{c['cik']}_{c['date']}.json"
         if out.exists() and not json.loads(out.read_text()).get("status", "").startswith("error"):
             done += 1
             continue
         if n >= a.limit:
             break
         n += 1
-        rec = {"cik": c["cik"], "name": c["name"], "ticker": c["ticker"], "date": c["date"], "fall_pct": c["fall_pct"],
-               "days": c["days"], "news_day_pct": c["news_day_pct"]}
-        move = (f"The stock fell {c['news_day_pct']}% that day and {c['fall_pct']}% in total over {c['days']} "
-                f"trading day(s).")
+        rec = {"cik": c["cik"], "name": c["name"], "ticker": c["ticker"], "date": c["date"]}
+        move = f"The stock fell {c['news_day_pct']}% that day and {c['fall_pct']}% in total over {c['days']} trading day(s)."
         try:
             rel = find_release(c["cik"], c["date"])
             if not rel:
                 rec["status"] = "no filing found"
             else:
-                facts = verify(ask_claude(rel["text"], c["name"], c["date"], move), rel["text"])
+                prompt = f"Company: {c['name']}. News day: {c['date']}. {move}\nRead the SEC filing text on standard input.\n\n{SCHEMA}"
+                facts = verify(ask_claude(prompt, rel["text"]), rel["text"])
                 rec.update(status="read", source={k: rel[k] for k in ("filing_date", "accession", "doc", "url")}, facts=facts)
         except Exception as e:
             rec["status"] = f"error: {str(e)[:200]}"

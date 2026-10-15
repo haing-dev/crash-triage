@@ -1,0 +1,35 @@
+name: collect-inputs
+on:
+  schedule:
+    - cron: "37 */6 * * *"      # every 6 hours; new episodes are re-collected until their 30-day insider window has passed
+  workflow_dispatch:
+    inputs:
+      limit: { description: "Episodes per triage this run", default: "4000" }
+permissions:
+  contents: write
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  inputs:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Cash, burn, shares, going concern, insider trades, other trials
+        env:
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+        run: |
+          cd pipeline
+          python inputs.py --kind crash --limit ${{ inputs.limit || '4000' }}
+          python inputs.py --kind slide --limit ${{ inputs.limit || '4000' }}
+      - name: Save
+        if: always()
+        run: |
+          git config user.name "crash-triage-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/*/inputs
+          git commit -m "episode inputs [skip ci]" || echo "no change"
+          for i in 1 2 3 4 5; do git pull --rebase -q && git push -q && break; sleep $((i*7)); done

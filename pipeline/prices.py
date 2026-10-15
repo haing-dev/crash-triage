@@ -132,8 +132,8 @@ def main():
     raw = st.setdefault("raw_done", {})
     month = today[:7]
     last_crash = {}
-    cp = ROOT / "data" / "crashes.csv"
-    for c in (csv.DictReader(cp.open()) if cp.exists() else []):
+    for c in [r for k in ("crash", "slide") if (ROOT / "data" / k / "episodes.csv").exists()
+              for r in csv.DictReader((ROOT / "data" / k / "episodes.csv").open())]:
         last_crash[c["cik"]] = max(last_crash.get(c["cik"], ""), c["date"])
     order = sorted((u for u in uni if u["cik"] in st["done"] and u["price_source"] in ("tiingo", "twelvedata")),
                    key=lambda u: (u["cik"] not in last_crash, "" if u["cik"] not in last_crash else
