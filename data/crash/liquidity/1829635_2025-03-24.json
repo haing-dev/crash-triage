@@ -1,0 +1,45 @@
+{
+ "id": "1829635_2025-03-24",
+ "asof": "2025-03-28",
+ "chars": 27492,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-03-25",
+   "net_proceeds_usd": 9341850,
+   "what": "Registered direct offering of 10,250,000 shares with accompanying common warrants at $0.98; proceeds to the company before expenses (expected close 2025-03-25; closing not confirmed in the excerpts)",
+   "quote": "The Offering is expected to close on March 25, 2025."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 249,
+   "exercise_price_usd": 527.0,
+   "expiry": null,
+   "quote": "The February Placement Agent Warrants became exercisable commencing six months following the date of issuance, expire five years following the date of sale and have an exercise price per share of $527.00."
+  },
+  {
+   "count": 100000,
+   "exercise_price_usd": 130.0,
+   "expiry": null,
+   "quote": "The Series A-1 Warrants and Series A-2 Warrants became exercisable commencing June 9, 2023, and are exercisable for three years at an exercise price of $130.00 per share"
+  },
+  {
+   "count": 3500,
+   "exercise_price_usd": 175.0,
+   "expiry": null,
+   "quote": "expire three years following the date of sale and have an exercise price per share of $175.00"
+  },
+  {
+   "count": 10250000,
+   "exercise_price_usd": 0.86,
+   "expiry": null,
+   "quote": "Each Common Warrant will have an exercise price equal to $0.86, will be immediately exercisable upon issuance, and will expire on the fifth anniversary of the issuance date."
+  }
+ ],
+ "warrants_dropped": 0
+}

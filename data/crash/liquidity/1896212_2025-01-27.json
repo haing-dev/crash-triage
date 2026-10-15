@@ -1,0 +1,33 @@
+{
+ "id": "1896212_2025-01-27",
+ "asof": "2025-01-27",
+ "chars": 14478,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-10-29",
+   "net_proceeds_usd": 600000,
+   "what": "A.G.P. bridge loan advance (A.G.P. Bridge Note)",
+   "quote": "the Company issued a promissory note (the \u201cA.G.P. Bridge Note\u201d) to A.G.P. in the original principal amount of $600,000."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 54000,
+   "exercise_price_usd": 11.0,
+   "expiry": null,
+   "quote": "warrants to purchase 54,000 shares of Common Stock at an exercise price of $11.00 per share"
+  },
+  {
+   "count": 2862596,
+   "exercise_price_usd": 0.1048,
+   "expiry": null,
+   "quote": "the Company issued A.G.P. warrants to purchase up to 2,862,596 shares of the Company\u2019s Common Stock"
+  }
+ ],
+ "warrants_dropped": 0
+}

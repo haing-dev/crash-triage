@@ -1,0 +1,39 @@
+{
+ "id": "1583771_2025-03-12",
+ "asof": "2025-03-13",
+ "chars": 9314,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-01-23",
+   "net_proceeds_usd": 8280000,
+   "what": "Public offering of common stock/pre-funded warrants with common warrants, proceeds before expenses (net of 8% placement agent fee); date is the 424B4 filing date, closing date not stated",
+   "quote": "$ 0.299 $ 0.299 $ 8,280,000"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 980393,
+   "exercise_price_usd": 1.91,
+   "expiry": null,
+   "quote": "reduce the exercise price thereof to $1.91 per share and to extend the expiration date to February 2029"
+  },
+  {
+   "count": 735295,
+   "exercise_price_usd": 1.91,
+   "expiry": null,
+   "quote": "Series B-1 Warrants to purchase up to an aggregate of 735,295 shares of common stock"
+  },
+  {
+   "count": 735295,
+   "exercise_price_usd": 1.91,
+   "expiry": null,
+   "quote": "Series B-2 Warrants to purchase up to an aggregate of 735,295 shares of common stock"
+  }
+ ],
+ "warrants_dropped": 0
+}

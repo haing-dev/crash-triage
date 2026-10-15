@@ -1,0 +1,26 @@
+{
+ "id": "1468639_2024-12-10",
+ "asof": "2024-12-10",
+ "chars": 5237,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-07-01",
+   "net_proceeds_usd": 95000,
+   "what": "Promissory note, July 2024 (day not given, so the 1st is used as a placeholder). Principal used as proceeds, and receipt of cash is assumed rather than stated.",
+   "quote": "July 2024, entered into a promissory note agreement for the principal amount of $95,000."
+  },
+  {
+   "date": "2024-08-01",
+   "net_proceeds_usd": 55000,
+   "what": "Promissory note, August 2024, 10% interest, matures 2025-05-10 (day not given, so the 1st is used as a placeholder). Principal used as proceeds, and receipt of cash is assumed rather than stated.",
+   "quote": "August 2024, the Company entered into a promissory note agreement for the principal sum of $55,000."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [],
+ "warrants_dropped": 0
+}

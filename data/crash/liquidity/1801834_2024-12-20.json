@@ -1,0 +1,33 @@
+{
+ "id": "1801834_2024-12-20",
+ "asof": "2024-12-27",
+ "chars": 7291,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-09-11",
+   "net_proceeds_usd": 1580000,
+   "what": "Cash exercise of existing warrants at reduced price (gross proceeds; net not given)",
+   "quote": "The Company expects to receive aggregate gross proceeds of approximately $1.58 million from the exercise of the Existing Warrants by the Holders, before deducting placement agent fees and other offering expenses payable by the Company."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 494650,
+   "exercise_price_usd": 6.4,
+   "expiry": null,
+   "quote": "494,650 ordinary shares issuable upon the exercise of common warrants to purchase ordinary shares that were issued as part of a private placement, at an exercise price of $6.40 per ordinary share"
+  },
+  {
+   "count": 17313,
+   "exercise_price_usd": 8.0,
+   "expiry": null,
+   "quote": "17,313 ordinary shares issuable upon the exercise of placement agent warrants to purchase ordinary shares that were issued as part of a private placement, at an exercise price of $8.00"
+  }
+ ],
+ "warrants_dropped": 0
+}
