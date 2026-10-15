@@ -30,13 +30,17 @@ ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "data" / "factors_raw"
 TODAY = date.today().isoformat()
 CASH = ["CashAndCashEquivalentsAtCarryingValue", "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents", "Cash"]
-INVEST = ["ShortTermInvestments", "MarketableSecuritiesCurrent", "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
-          "HeldToMaturitySecuritiesCurrent", "MarketableSecuritiesNoncurrent",
-          "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent", "LongTermInvestments"]
+# readily liquid marketable securities: alternative tags for the same holdings, so take the largest of each group
+# (adding them would double count); long-term "investments" (often equity stakes) are left out
+INVEST_GROUPS = [["ShortTermInvestments", "MarketableSecuritiesCurrent", "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+                  "HeldToMaturitySecuritiesCurrent", "AvailableForSaleSecuritiesCurrent"],
+                 ["MarketableSecuritiesNoncurrent", "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent",
+                  "HeldToMaturitySecuritiesNoncurrent", "AvailableForSaleSecuritiesNoncurrent"]]
+CAPEX = ["PaymentsToAcquirePropertyPlantAndEquipment", "PaymentsToAcquireProductiveAssets"]
 BURN = ["NetCashProvidedByUsedInOperatingActivities", "NetCashProvidedByUsedInOperatingActivitiesContinuingOperations"]
 RESTRICTED = ["RestrictedCash", "RestrictedCashCurrent", "RestrictedCashNoncurrent", "RestrictedCashAndCashEquivalentsAtCarryingValue",
               "RestrictedCashAndCashEquivalentsCurrent", "RestrictedCashAndCashEquivalentsNoncurrent"]
-VERSION = 3
+VERSION = 4
 _facts, _subs, _docs = {}, {}, {}
 
 
@@ -78,11 +82,15 @@ def balance(f, asof):
             if v:
                 total -= max(v, key=lambda x: x["filed"])["val"]
                 parts.append("minus " + c)
-    for c in INVEST:
-        v = [x for x in series(f, c) if x["end"] == end and x.get("filed", "9") <= asof and "start" not in x]
-        if v:
-            total += max(v, key=lambda x: x["filed"])["val"]
-            parts.append(c)
+    for group in INVEST_GROUPS:
+        best_v, best_c = 0, None
+        for c in group:
+            v = [x for x in series(f, c) if x["end"] == end and x.get("filed", "9") <= asof and "start" not in x]
+            if v and max(v, key=lambda x: x["filed"])["val"] > best_v:
+                best_v, best_c = max(v, key=lambda x: x["filed"])["val"], c
+        if best_c:
+            total += best_v
+            parts.append(best_c)
     return {"end": end, "cash": total, "parts": parts, "accn": x0.get("accn")}
 
 
@@ -125,6 +133,67 @@ def burn(f, asof):
     return {"end": E, "ytd_months": round(mo, 1), "ytd": vals[ytd]["val"], "accn": vals[ytd].get("accn"),
             "ttm_per_month": None if ttm is None else ttm / 12, "quarter_per_month": None if q is None else q / 3,
             "per_month": ttm / 12 if ttm is not None else vals[ytd]["val"] / mo}
+
+
+def segments(f, concepts, asof, ns="us-gaap"):
+    """Cash-flow facts are year-to-date; turn them into consecutive non-overlapping periods (quarters or halves):
+    {(start, end): value}, using only filings made by `asof`."""
+    vals = {}
+    for c in concepts:
+        for x in series(f, c, ns=ns):
+            if x.get("filed", "9") <= asof and x.get("start"):
+                k = (x["start"], x["end"])
+                if k not in vals or x["filed"] > vals[k]["filed"]:
+                    vals[k] = x
+        if vals:
+            break
+    by_start = {}
+    for (st, en), x in vals.items():
+        by_start.setdefault(st, []).append((en, x["val"]))
+    seg = {}
+    for st, rows in by_start.items():
+        rows.sort()
+        prev_end, prev_val = None, 0.0
+        for en, v in rows:
+            a = st if prev_end is None else (date.fromisoformat(prev_end) + timedelta(days=1)).isoformat()
+            if 1.5 <= months(a, en) <= 6.6:
+                seg.setdefault((a, en), v - prev_val)
+            prev_end, prev_val = en, v
+    return seg
+
+
+def last_six_months(seg, end):
+    """Sum of the contiguous periods covering the six months to `end`."""
+    total, cur, covered, used = 0.0, end, 0.0, []
+    while covered < 5.5:
+        k = next((k for k in seg if k[1] == cur), None)
+        if not k:
+            return None
+        total += seg[k]
+        covered += months(k[0], k[1])
+        used.append(k)
+        cur = (date.fromisoformat(k[0]) - timedelta(days=1)).isoformat()
+    return total if covered <= 7 else None, used
+
+
+def burn6(f, asof):
+    """Latest six months of net cash used in operations + capital expenditure (both as positive cash out)."""
+    ocf = segments(f, BURN, asof) or segments(f, ["CashFlowsFromUsedInOperatingActivities"], asof, ns="ifrs-full")
+    if not ocf:
+        return None
+    end = max(k[1] for k in ocf)
+    r = last_six_months(ocf, end)
+    if not r or r[0] is None:
+        return None
+    op6, used = r
+    cap = segments(f, CAPEX, asof) or segments(f, ["PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities"], asof, ns="ifrs-full")
+    capr = last_six_months(cap, end) if cap else None
+    capex6 = capr[0] if capr and capr[0] is not None else None
+    if capex6 is None:                                    # capex only in a longer period: pro-rate it to six months
+        longest = max((x for x in series(f, CAPEX[0]) + series(f, CAPEX[1]) if x.get("start") and x["end"] == end
+                       and x.get("filed", "9") <= asof), key=lambda x: months(x["start"], x["end"]), default=None)
+        capex6 = longest["val"] * 6 / months(longest["start"], longest["end"]) if longest else 0.0
+    return {"end": end, "start": used[-1][0], "cash_used_ops": -op6, "capex": capex6, "periods": len(used)}
 
 
 MONTH = {"first": 1, "second": 4, "third": 7, "fourth": 10, "q1": 1, "q2": 4, "q3": 7, "q4": 10, "1q": 1, "2q": 4, "3q": 7, "4q": 10}
@@ -394,6 +463,7 @@ def main():
             i = bisect_left(ds, trough)
             rec["price"] = {"date": ds[i], "adj_close": cs[i]} if ds and i < len(ds) else None
             rec["balance"], rec["burn"], rec["shares"] = balance(f, trough), burn(f, trough), shares(f, trough)
+            rec["burn6"] = burn6(f, trough)
             src = (rec["balance"] or {}).get("accn") or (rec["burn"] or {}).get("accn")
             rec["filing"] = filing_notes(c["cik"], src, trough) if src else None
             rec["insiders"] = insiders(c["cik"], win0, min(win1, TODAY))

@@ -1,0 +1,34 @@
+name: read-liquidity
+on:
+  schedule:
+    - cron: "7 * * * *"         # hourly; reads one-off cash items, financings, warrants and next catalyst per crash (once)
+  workflow_dispatch:
+    inputs:
+      limit: { description: "Crashes to read this run", default: "60" }
+permissions:
+  contents: write
+concurrency: { group: ${{ github.workflow }}, cancel-in-progress: false }
+jobs:
+  liquidity:
+    runs-on: ubuntu-latest
+    timeout-minutes: 58
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - name: Install Claude Code
+        run: npm install -g @anthropic-ai/claude-code
+      - name: Read filings
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+        run: cd pipeline && timeout 55m python liquidity.py --limit ${{ inputs.limit || '60' }} || true
+      - name: Save
+        run: |
+          git config user.name "crash-triage-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/liquidity
+          git commit -m "liquidity facts read [skip ci]" || echo "no change"
+          for i in 1 2 3 4 5; do git pull --rebase -q && git push -q && break; sleep $((i*7)); done
