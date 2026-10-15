@@ -1,0 +1,46 @@
+{
+ "id": "1997296_2026-10-08",
+ "asof": "2026-10-12",
+ "chars": 34719,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2026-08-13",
+   "net_proceeds_usd": 815257,
+   "what": "ATM sales after June 30, 2026 (2,812,566 shares). The filing gives no sale date, so the date is the 424B3 filing date.",
+   "quote": "completed sales under its ATM pursuant to which it issued 2,812,566 common shares for gross proceeds of approximately $ 840,471 or approximately $ 815,257 after incurring commissions payable to the Agents."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 985595,
+   "exercise_price_usd": 4.64,
+   "expiry": "2029-11-15",
+   "quote": "Warrants issued as part of the IPO November 15, 2029 $ 4.64 985,595 985,595"
+  },
+  {
+   "count": 16200,
+   "exercise_price_usd": 2.8,
+   "expiry": "2030-03-10",
+   "quote": "Regulation A Warrants March 10, 2030 $ 2.80 16,200 16,200"
+  },
+  {
+   "count": 2260000,
+   "exercise_price_usd": 3.1,
+   "expiry": "2030-06-02",
+   "quote": "June 30, 2030 Warrants June 2, 2030 $ 3.10 2,260,000 2,260,000"
+  },
+  {
+   "count": 4020000,
+   "exercise_price_usd": 2.0,
+   "expiry": "2031-06-05",
+   "quote": "Series C and D Warrants June 5, 2031 $ 2.00 4,020,000 4,020,000"
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": null
+}

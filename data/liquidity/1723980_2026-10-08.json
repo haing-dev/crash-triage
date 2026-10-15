@@ -1,0 +1,40 @@
+{
+ "id": "1723980_2026-10-08",
+ "asof": "2026-10-08",
+ "chars": 37729,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2026-04-07",
+   "net_proceeds_usd": 760000,
+   "what": "April 2026 sale of 2,000,000 Class A ordinary shares (gross, net not given)",
+   "quote": "Aggregate gross proceeds to the Company in respect of the offering were approximately $ 760,000"
+  },
+  {
+   "date": "2026-05-01",
+   "net_proceeds_usd": 3500000,
+   "what": "May 2026 Regulation S private placement of 3,500,000 shares plus 3,500,000 warrants (gross, net not given)",
+   "quote": "The gross proceeds from this Offering were $ 3.5 million."
+  },
+  {
+   "date": "2026-07-24",
+   "net_proceeds_usd": 9000000,
+   "what": "July 2026 registered direct offering of 4,500,000 units, closed July 24 (gross, net not given)",
+   "quote": "The aggregate gross proceeds to the Company from the Offering were $9,000,000, before deducting placement agent fees and other offering expenses"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 3500000,
+   "exercise_price_usd": 1.0,
+   "expiry": null,
+   "quote": "with each to purchase one (1) Class A Ordinary Share at an exercise price of $1.00 per share"
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": null
+}
