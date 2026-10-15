@@ -1,0 +1,33 @@
+{
+ "id": "1517681_2025-02-24",
+ "asof": "2025-02-24",
+ "chars": 9309,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-02-06",
+   "net_proceeds_usd": 56000,
+   "what": "Convertible promissory note, $65,000 principal, closed Feb 6, 2025",
+   "quote": "the Investor agreed to purchase a convertible promissory note from the Company in the aggregate principal amount of $65,000 (the \u201cNote\u201d), for a purchase price of $56,000."
+  },
+  {
+   "date": "2025-02-10",
+   "net_proceeds_usd": 40000,
+   "what": "Convertible promissory note, $43,000 principal, closed Feb 10, 2025",
+   "quote": "the Investor agreed to purchase a convertible promissory note from the Company in the aggregate principal amount of $43,000 (the \u201cNote\u201d), for a purchase price of $40,000."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 250,
+   "exercise_price_usd": 600,
+   "expiry": "2026-07-05",
+   "quote": "the Company issued 250 warrants to purchase common stock to such investor immediately exercisable at an initial exercise price of $600 per share"
+  }
+ ],
+ "warrants_dropped": 0
+}

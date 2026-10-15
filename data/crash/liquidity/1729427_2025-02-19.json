@@ -1,0 +1,45 @@
+{
+ "id": "1729427_2025-02-19",
+ "asof": "2025-02-25",
+ "chars": 25418,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-10-24",
+   "net_proceeds_usd": 2640000,
+   "what": "Registered direct offering of common stock and pre-funded warrants (closed Oct 24, 2024)",
+   "quote": "We expect to receive net proceeds of approximately $2.64 million from this offering, after deducting the placement agent fees and estimated offering expenses payable by us."
+  },
+  {
+   "date": "2024-10-24",
+   "net_proceeds_usd": 1600000,
+   "what": "ATM sales under AGP agreement after Sept 30, 2024 (exact sale dates not given; date is approximate)",
+   "quote": "Subsequent to September 30, 2024, the Company has sold 6,393,243 Shares pursuant to the Agreement for net proceeds of approximately $1.6 million."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 366000,
+   "exercise_price_usd": 3.62,
+   "expiry": null,
+   "quote": "has an exercise price of $3.62 per share, and expire five years from the date of"
+  },
+  {
+   "count": 568000,
+   "exercise_price_usd": 2.32,
+   "expiry": null,
+   "quote": "has an exercise price of $2.32 per share, and expire five years from the date of issuance."
+  },
+  {
+   "count": 1425000,
+   "exercise_price_usd": 1.26,
+   "expiry": null,
+   "quote": "has an exercise price of $1.26 per share, and expire five years from the date of issuance."
+  }
+ ],
+ "warrants_dropped": 0
+}

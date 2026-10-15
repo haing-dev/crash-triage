@@ -1,0 +1,45 @@
+{
+ "id": "1729427_2025-03-25",
+ "asof": "2025-03-26",
+ "chars": 27498,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-10-24",
+   "net_proceeds_usd": 2640000,
+   "what": "Registered direct offering of shares and pre-funded warrants via AGP (closed Oct 24, 2024)",
+   "quote": "We expect to receive net proceeds of approximately $2.64 million from this offering, after deducting the placement agent fees and estimated offering expenses payable by us."
+  },
+  {
+   "date": null,
+   "net_proceeds_usd": 1600000,
+   "what": "ATM sales under AGP agreement after Sept 30, 2024 (through the 10-Q filing)",
+   "quote": "Subsequent to September 30, 2024, the Company has sold 6,393,243 Shares pursuant to the Agreement for net proceeds of approximately $1.6 million."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 366000,
+   "exercise_price_usd": 3.62,
+   "expiry": "2029-06-17",
+   "quote": "each of the June 14 Common Warrants is immediately exercisable, has an exercise price of $3.62 per share, and expire five years from the date of"
+  },
+  {
+   "count": 568000,
+   "exercise_price_usd": 2.32,
+   "expiry": "2029-06-27",
+   "quote": "each of the June 26 Common Warrants is immediately exercisable, has an exercise price of $2.32 per share, and expire five years from the date of issuance."
+  },
+  {
+   "count": 1425000,
+   "exercise_price_usd": 1.26,
+   "expiry": "2029-07-05",
+   "quote": "each of the July 3 Common Warrants is immediately exercisable, has an exercise price of $1.26 per share, and expire five years from the date of issuance."
+  }
+ ],
+ "warrants_dropped": 0
+}

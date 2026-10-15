@@ -1,0 +1,45 @@
+{
+ "id": "1680048_2025-01-14",
+ "asof": "2025-01-17",
+ "chars": 25407,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-10-25",
+   "net_proceeds_usd": 3600000,
+   "what": "Cash exercise of Series A-3 warrants under inducement letter (about $4.0M gross)",
+   "quote": "$3.6 million net proceeds from the exercise of warrants in October"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 16877638,
+   "exercise_price_usd": 0.237,
+   "expiry": null,
+   "quote": "Each share of common stock or May 2024 Pre-Funded Warrant was sold together with one Series A-1 Warrant to purchase one share of common stock, one Series A-2 Warrant to purchase one share of common stock"
+  },
+  {
+   "count": 2588236,
+   "exercise_price_usd": 0.237,
+   "expiry": null,
+   "quote": "warrants to purchase up to 2,588,236 shares of common stock that were previously issued in October 2023 to the Investor, with an exercise price of $1.58 per share"
+  },
+  {
+   "count": 16877638,
+   "exercise_price_usd": 0.27,
+   "expiry": null,
+   "quote": "new Series B-1 Common Stock purchase warrants (the \u201cNew Series B-1 Warrants\u201d) to purchase up to 16,877,638 shares of Common Stock"
+  },
+  {
+   "count": 16877638,
+   "exercise_price_usd": 0.27,
+   "expiry": null,
+   "quote": "new Series B-2 Common Stock Purchase Warrants (the \u201cNew Series B-2 Warrants\u201d and, together with the New Series B-1 Warrants, the \u201cNew Warrants\u201d) to purchase up to 16,877,638 shares of Common Stock"
+  }
+ ],
+ "warrants_dropped": 0
+}

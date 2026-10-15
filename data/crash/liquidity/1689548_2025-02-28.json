@@ -1,0 +1,27 @@
+{
+ "id": "1689548_2025-02-28",
+ "asof": "2025-03-03",
+ "chars": 23823,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-03-03",
+   "net_proceeds_usd": 54900000,
+   "what": "ATM sales of 694,212 shares under amended March 2024 Sales Agreement after Dec 31, 2024 (exact sale dates not given; entry date used as upper bound)",
+   "quote": "Subsequent to December 31, 2024, the Company issued and sold a total of 694,212 shares under the amended March 2024 Sales Agreement for aggregate net proceeds of $54.9 million"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 1125818,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "As of December 31, 2024, we have outstanding pre-funded warrants to purchase 1,125,818 shares of common stock at an exercise price of $0.0001 per share"
+  }
+ ],
+ "warrants_dropped": 0
+}
