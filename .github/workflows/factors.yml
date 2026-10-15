@@ -1,0 +1,30 @@
+name: collect-factors
+on:
+  schedule:
+    - cron: "37 */6 * * *"      # every 6 hours; new crashes are re-collected until day 30 has passed
+  workflow_dispatch:
+    inputs:
+      limit: { description: "Crashes to collect this run", default: "300" }
+      only: { description: "Only this CIK (optional)", default: "" }
+permissions:
+  contents: write
+concurrency: { group: data-writes, cancel-in-progress: false }
+jobs:
+  factors:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Collect cash, burn, shares, insider trades, other trials
+        env:
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+        run: cd pipeline && python factors_raw.py --limit ${{ inputs.limit || '300' }} ${{ inputs.only && format('--only {0}', inputs.only) || '' }}
+      - name: Save
+        run: |
+          git config user.name "crash-triage-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/factors_raw
+          git commit -m "factor inputs [skip ci]" || echo "no change"
+          git pull --rebase && git push
