@@ -1,0 +1,51 @@
+{
+ "id": "1035354_2026-03-31",
+ "asof": "2026-03-31",
+ "chars": 14561,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2026-02-20",
+   "net_proceeds_usd": 5000000,
+   "what": "Coastlands Third Tranche Closing (date within February 2026 not stated; 2026-02-20 is an approximation)",
+   "quote": "the $ 5.0 million received by the Company in February 2026 via the Coastlands Third Tranche Closing"
+  },
+  {
+   "date": "2026-03-31",
+   "net_proceeds_usd": 2000000,
+   "what": "Proceeds received from Domicilium (date within March 2026 not stated; 2026-03-31 is an approximation)",
+   "quote": "the $ 2.0 million received by the Company in March 2026 from Domicilium"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 30615243,
+   "exercise_price_usd": 0.01,
+   "expiry": null,
+   "quote": "Coastlands owned prefunded warrants to purchase 30,615,243 shares of our common stock"
+  },
+  {
+   "count": 21423618,
+   "exercise_price_usd": 0.01,
+   "expiry": null,
+   "quote": "Domicilium owned prefunded warrants to purchase 21,423,618 shares of our common stock, at an exercise price of $0.01 per share"
+  },
+  {
+   "count": 150000,
+   "exercise_price_usd": 1.18,
+   "expiry": null,
+   "quote": "an additional warrant to purchase up to 150,000 shares of common stock at a price per share of $1.18"
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": {
+  "what": "Topline data from the initial 16-week placebo-controlled part of the Phase 2b trial of exaluren in NMAS patients",
+  "timing_text": "mid-2027",
+  "latest_date": "2027-06-30",
+  "quote": "anticipate topline data from the initial 16-week placebo-controlled part of the study by mid-2027 with the final readout by the end of 2027"
+ }
+}

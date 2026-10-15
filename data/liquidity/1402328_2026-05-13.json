@@ -1,0 +1,33 @@
+{
+ "id": "1402328_2026-05-13",
+ "asof": "2026-05-14",
+ "chars": 17215,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 482,
+   "exercise_price_usd": 220.0,
+   "expiry": "2027-02-28",
+   "quote": "Tradeable Warrants 482 $ 220.00 February 2027"
+  },
+  {
+   "count": 400,
+   "exercise_price_usd": 4000.0,
+   "expiry": "2027-03-31",
+   "quote": "Investor Warrants 400 $ 4,000.00 March 2027"
+  },
+  {
+   "count": 15227962,
+   "exercise_price_usd": 2.07,
+   "expiry": "2029-02-28",
+   "quote": "Series B Warrants 15,227,962 * $ 2.07 * February 2029"
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": null
+}

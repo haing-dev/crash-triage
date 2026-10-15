@@ -1,0 +1,46 @@
+{
+ "id": "868278_2025-12-23",
+ "asof": "2025-12-26",
+ "chars": 39579,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-10-14",
+   "net_proceeds_usd": 394000,
+   "what": "Oceanview share-collateralized loan, first tranche (net cash; receipt date not stated, agreement date used)",
+   "quote": "The Company has received net cash of $ 394,000 from the first tranche funding"
+  },
+  {
+   "date": "2025-10-14",
+   "net_proceeds_usd": 269000,
+   "what": "Oceanview share-collateralized loan, second tranche (net cash; receipt date not stated, agreement date used)",
+   "quote": "$ 269,000 from the second tranche funding"
+  },
+  {
+   "date": "2025-11-06",
+   "net_proceeds_usd": 135000,
+   "what": "11% promissory note with individual investor, net cash proceeds",
+   "quote": "The Company received cash proceeds of $ 135,000 , which is net of original issue discount and issuance cost of $ 28,300 ."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 5250000,
+   "exercise_price_usd": 0.5,
+   "expiry": "2030-07-22",
+   "quote": "The Company also issued common stock purchase warrants to acquire up to 5,250,000 shares of common stock"
+  },
+  {
+   "count": 500000,
+   "exercise_price_usd": 0.5,
+   "expiry": null,
+   "quote": "In connection with the issuance of the August Future Receipts Financing Agreements, the Company also issued 500,000 warrants"
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": null
+}

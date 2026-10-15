@@ -1,0 +1,39 @@
+{
+ "id": "1847345_2026-04-15",
+ "asof": "2026-04-16",
+ "chars": 37877,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2026-01-26",
+   "net_proceeds_usd": 2000000,
+   "what": "Debentures sold under January 2026 Securities Purchase Agreement (subscription price, gross; net not stated)",
+   "quote": "the Company sold to the Purchasers certain debentures in an aggregate principal amount of $2,173,913.04 for a subscription price of $2,000,000"
+  },
+  {
+   "date": "2026-02-06",
+   "net_proceeds_usd": 6777206,
+   "what": "Series A Convertible Preferred Stock private placement, net payout after repaying remaining convertible notes and deal costs",
+   "quote": "pursuant to which it received net payout of approximately $6,777,206 after repayment of the remaining convertible notes and deal costs under the first tranche"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": null,
+   "exercise_price_usd": 460,
+   "expiry": null,
+   "quote": "a whole public warrant representing the right to acquire one share of New Aspire Common Stock at an exercise price of $460 per share, after giving effect to the 1 for 40 reverse stock split"
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": {
+  "what": "FDA 505(b)(2) NDA submission for high-dose sublingual aspirin product",
+  "timing_text": "late 2026",
+  "latest_date": "2026-12-31",
+  "quote": "These results will be the backbone of a 505(b)(2) submission to the FDA planned for late 2026."
+ }
+}

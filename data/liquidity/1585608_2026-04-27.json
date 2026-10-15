@@ -1,0 +1,34 @@
+{
+ "id": "1585608_2026-04-27",
+ "asof": "2026-05-01",
+ "chars": 33964,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2026-01-06",
+   "net_proceeds_usd": 350000,
+   "what": "Unsecured promissory notes issued to two accredited investors (gross principal; net proceeds not given)",
+   "quote": "On January 6, 2026, the Company entered into securities purchase agreements with two accredited investors for the issuance of unsecured promissory notes in the aggregate principal amount of $ 350,000 ."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 3708349,
+   "exercise_price_usd": 3.03,
+   "expiry": null,
+   "quote": "3,708,349 shares of our common stock issuable upon exercise of warrants outstanding, with weighted-average exercise price of $3.03"
+  },
+  {
+   "count": 350000,
+   "exercise_price_usd": 1.0,
+   "expiry": "2031-01-06",
+   "quote": "warrants to purchase an aggregate of 350,000 shares of the Company's common stock at an initial exercise price of $ 1.00 per share"
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": null
+}

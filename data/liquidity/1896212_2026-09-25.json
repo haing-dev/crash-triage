@@ -1,0 +1,52 @@
+{
+ "id": "1896212_2026-09-25",
+ "asof": "2026-10-01",
+ "chars": 44058,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2026-08-03",
+   "net_proceeds_usd": 200000,
+   "what": "Additional J.J. Astor senior secured installment convertible note borrowing (gross amount; net not stated)",
+   "quote": "on August 3, 2026, the Company borrowed an additional $200,000 from the Lender and issued an additional $270,000 senior secured installment convertible note"
+  },
+  {
+   "date": "2026-08-31",
+   "net_proceeds_usd": 375002,
+   "what": "J.J. Astor August Note (repaid Sept 4, 2026)",
+   "quote": "The Company received $401,200 before deducting closing fees, with net proceeds of $375,002 funded to the Company."
+  },
+  {
+   "date": "2026-09-18",
+   "net_proceeds_usd": 1501850,
+   "what": "J.J. Astor $2,126,250 senior secured convertible note (issue date not stated; the 8-K filing date is used)",
+   "quote": "The Company received $1,575,000 before deducting closing fees, with net proceeds of $1,501,850 funded to the Company."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 128750,
+   "exercise_price_usd": 7.2,
+   "expiry": "2031-08-28",
+   "quote": "stockholders approved the issuance of the 128,750 Warrant Shares upon exercise of 128,750 outstanding Warrants"
+  },
+  {
+   "count": 237000,
+   "exercise_price_usd": 1.69,
+   "expiry": "2031-08-31",
+   "quote": "Warrants to purchase 237,000 Warrant Shares at an exercise price of $1.69 per share. The Warrants are exercisable immediately upon issuance and will expire five years after the issue date."
+  },
+  {
+   "count": 3468500,
+   "exercise_price_usd": 0.25,
+   "expiry": null,
+   "quote": "Warrants\u201d) to purchase 3,468,500 shares of the Company\u2019s Common Stock (the \u201cWarrant\nShares\u201d) at an exercise price of $0.25 per share."
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": null
+}

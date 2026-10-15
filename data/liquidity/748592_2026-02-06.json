@@ -1,0 +1,33 @@
+{
+ "id": "748592_2026-02-06",
+ "asof": "2026-02-09",
+ "chars": 26912,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 23000,
+   "exercise_price_usd": 572.98,
+   "expiry": "2027-09-09",
+   "quote": "Q1-22 Warrants 23 $ 572.98 03/09/22 09/09/27 Liability"
+  },
+  {
+   "count": 9000,
+   "exercise_price_usd": 21.45,
+   "expiry": "2028-06-02",
+   "quote": "December 2022 Warrants 9 $ 21.45 12/02/22 06/02/28 Equity"
+  },
+  {
+   "count": 383000,
+   "exercise_price_usd": 0.075,
+   "expiry": null,
+   "quote": "Prefunded warrants 75 $ 0.075 10/29/24 None Equity Prefunded warrants 34 $ 0.075 04/02/25 None Equity Prefunded warrants 274 $ 0.075 06/09/25 None Equity"
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": null
+}

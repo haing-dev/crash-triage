@@ -1,0 +1,52 @@
+{
+ "id": "1509745_2026-06-05",
+ "asof": "2026-06-05",
+ "chars": 22654,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2026-05-13",
+   "net_proceeds_usd": 11998000,
+   "what": "ATM sales under Cantor Sales Agreement, April 1 to May 13, 2026",
+   "quote": "During the period from April 1, 2026 until May 13, 2026, the Company has issued 12,536,954 shares of its common stock under the Sales Agreement with Cantor, for net proceeds of $ 11,998"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 5450,
+   "exercise_price_usd": 0.1,
+   "expiry": null,
+   "quote": "January 23 2017 Warrants &#8203; 5,450 &#8203; $ 0.10 &#8203; Upon M&amp;A Event"
+  },
+  {
+   "count": 1921854,
+   "exercise_price_usd": 21.1,
+   "expiry": "2027-03-31",
+   "quote": "March 2020 Coverage Warrants &#8203; 1,921,854 &#8203; $ 21.10 &#8203; Jan - March 2027"
+  },
+  {
+   "count": 80768504,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "October 2025 Pre-funded Warrants &#8203; 80,768,504 &#8203; $ 0.001 &#8203; No Expiry"
+  },
+  {
+   "count": 71985605,
+   "exercise_price_usd": 0.5335,
+   "expiry": "2032-10-31",
+   "quote": "October 2025 Common Warrants-Investors &#8203; 71,985,605 &#8203; $ 0.5335 &#8203; October 2032"
+  },
+  {
+   "count": 4000000,
+   "exercise_price_usd": 0.5335,
+   "expiry": "2032-10-31",
+   "quote": "October 2025 Common Warrants-Placement Agent Warrants &#8203; 4,000,000 &#8203; $ 0.5335 &#8203; October 203"
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": null
+}

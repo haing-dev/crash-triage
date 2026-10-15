@@ -1,0 +1,34 @@
+{
+ "id": "1517681_2026-01-29",
+ "asof": "2026-02-04",
+ "chars": 36086,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-11-04",
+   "net_proceeds_usd": 1000099,
+   "what": "Series C Preferred Stock private placement with Hexstone Capital (gross cash; net not given)",
+   "quote": "in exchange for cash payment of $1,000,099.00 to the Company"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 250,
+   "exercise_price_usd": 600,
+   "expiry": "2026-07-05",
+   "quote": "the Company issued 250 warrants to purchase common stock to such investor immediately exercisable at an initial exercise price of $ 600 per share"
+  },
+  {
+   "count": 30000,
+   "exercise_price_usd": 4.0,
+   "expiry": "2030-08-15",
+   "quote": "the Company agreed to issue to the representative, warrants to purchase 30,000 of shares of common stock at a price equal $ 4.00 per share"
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": null
+}

@@ -1,0 +1,45 @@
+{
+ "id": "1659617_2026-07-29",
+ "asof": "2026-07-31",
+ "chars": 37697,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2026-05-14",
+   "net_proceeds_usd": 800000,
+   "what": "ATM common stock sales after quarter end (exact date not given; 10-Q filing date used)",
+   "quote": "the $0.8 million raised subsequent to the quarter via issuance of common stock under its ATM"
+  },
+  {
+   "date": "2026-06-30",
+   "net_proceeds_usd": 2700000,
+   "what": "Cash warrant exercises after the 10-Q filing, gross proceeds (8-K filing date used)",
+   "quote": "warrants to purchase 1,361,500 shares of Company common stock have been exercised for gross proceeds of approximately $2.7 million"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 6367956,
+   "exercise_price_usd": 2.3976,
+   "expiry": null,
+   "quote": "we issued new Series H warrants to purchase up to 6,367,956 shares of common stock. The Series H warrants have a five-year term and an exercise price of $2.3976 per share."
+  },
+  {
+   "count": 100000,
+   "exercise_price_usd": 2.48,
+   "expiry": null,
+   "quote": "warrants to purchase 100,000 shares of common stock with an exercise price of $2.48 per share"
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": {
+  "what": "Unblinded comprehensive Part A results from the pivotal Phase 2/3 MIRACLE trial of Annamycin plus cytarabine in relapsed/refractory AML",
+  "timing_text": "December 2026 to February 2027",
+  "latest_date": "2027-02-28",
+  "quote": "with unblinding of the comprehensive Part A data anticipated in the December 2026 to February 2027 timeframe."
+ }
+}

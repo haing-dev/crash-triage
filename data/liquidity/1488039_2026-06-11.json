@@ -1,0 +1,45 @@
+{
+ "id": "1488039_2026-06-11",
+ "asof": "2026-06-17",
+ "chars": 39601,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2026-06-12",
+   "net_proceeds_usd": 4100000,
+   "what": "Registered direct offering of common stock with Series A and B warrants, expected to close June 12, 2026",
+   "quote": "The Company expects to receive net proceeds of approximately $4.1 million from the Offering, after deducting placement agent fees and estimated offering expenses payable by the Company."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 1363638,
+   "exercise_price_usd": 4.4,
+   "expiry": "2031-12-12",
+   "quote": "Series A warrants to purchase up to 1,363,638 shares of Common Stock and short-term Series B warrants to purchase up to 1,363,638 shares of Common Stock"
+  },
+  {
+   "count": 1363638,
+   "exercise_price_usd": 4.4,
+   "expiry": "2028-06-12",
+   "quote": "The short-term Series B warrants will expire on the two (2) year anniversary of the date of issuance."
+  },
+  {
+   "count": 122727,
+   "exercise_price_usd": 4.125,
+   "expiry": "2031-06-12",
+   "quote": "Placement Agent Warrants to Purchase up to 122,727 Shares of Common Stock"
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": {
+  "what": "Top-line data from the Karisma-(Z)-endoxifen study",
+  "timing_text": "first half of 2026",
+  "latest_date": "2026-06-30",
+  "quote": "We expect to report top-line data from the Karisma-(Z)-endoxifen study in the first half of 2026."
+ }
+}

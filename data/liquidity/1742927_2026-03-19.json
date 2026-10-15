@@ -1,0 +1,64 @@
+{
+ "id": "1742927_2026-03-19",
+ "asof": "2026-03-19",
+ "chars": 42308,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-12-16",
+   "net_proceeds_usd": 6700000,
+   "what": "Warrant exercises, Oct 1 - Dec 16, 2025 (cumulative; includes the Oct-Nov exercises)",
+   "quote": "From October 1, 2025 through December 16, 2025, the Company issued a total of 19,794,000 shares of common stock upon the exercise of 19,794,000 common stock warrants"
+  },
+  {
+   "date": "2026-02-26",
+   "net_proceeds_usd": 2500000,
+   "what": "ATM sales, Jan 1 - Feb 26, 2026",
+   "quote": "From January 1, 2026 through February 26, 2026, we sold 570,845 shares of common stock pursuant to the ATM Agreement for net proceeds of approximately $2.5 million"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 4445066,
+   "exercise_price_usd": 4.125,
+   "expiry": null,
+   "quote": "June 2021 Common Stock Warrants June 2021 $ 4.125 4,445,066"
+  },
+  {
+   "count": 2199975,
+   "exercise_price_usd": 0.7964,
+   "expiry": null,
+   "quote": "In August 2024, 2,199,975 of these warrants were modified to reduce the exercise price from $ 4.125 per warrant share, to $ 0.7964 per warrant share and to extend the expiration of these warrants from May 2026 to August 2029."
+  },
+  {
+   "count": 20000000,
+   "exercise_price_usd": 0.5,
+   "expiry": null,
+   "quote": "The Series C Common Warrants are exercisable immediately upon issuance, have a term of five years from the date of issuance and have an exercise price of $0.50 per share."
+  },
+  {
+   "count": 20000000,
+   "exercise_price_usd": 0.5,
+   "expiry": null,
+   "quote": "The Series D Common Warrants are exercisable immediately upon issuance, have a term of twelve months from the date of issuance and have an exercise price of $0.50 per share."
+  },
+  {
+   "count": 27000000,
+   "exercise_price_usd": 0.335,
+   "expiry": null,
+   "quote": "The Series E Common Warrants are exercisable immediately, have a term of five years from the date of issuance and have an exercise price of $0.335 per share."
+  },
+  {
+   "count": 27000000,
+   "exercise_price_usd": 0.335,
+   "expiry": null,
+   "quote": "The Series F Common Warrants are exercisable immediately, have a term of twelve months and have an exercise price of $0.335 per share."
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": null
+}

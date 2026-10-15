@@ -1,0 +1,39 @@
+{
+ "id": "1610820_2026-01-14",
+ "asof": "2026-01-21",
+ "chars": 36050,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2026-01-15",
+   "net_proceeds_usd": 27710000,
+   "what": "Public offering of common units and pre-funded units with warrants, closed Jan 15, 2026 (net proceeds are the prospectus estimate)",
+   "quote": "We expect to receive net proceeds of this Offering, after deducting placement agent fees and estimated offering expenses, approximately $27.71 million, assuming no exercise of the Warrants."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 5366726,
+   "exercise_price_usd": 6.93,
+   "expiry": "2031-01-15",
+   "quote": "Each Warrant will entitle the holder to purchase one common share at an exercise price of $6.93."
+  },
+  {
+   "count": 1039196,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "Each Pre-funded Warrant will be immediately exercisable for one common share and will not expire prior to exercise."
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": {
+  "what": "Interim overall survival analysis in the pivotal Phase 3 trial of Bria-IMT plus a checkpoint inhibitor in metastatic breast cancer",
+  "timing_text": "first half of 2026",
+  "latest_date": "2026-06-30",
+  "quote": "reiterated that an interim overall survival analysis in the pivotal Phase 3 trial is expected in the first half of 2026."
+ }
+}

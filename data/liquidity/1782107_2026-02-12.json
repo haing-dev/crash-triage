@@ -1,0 +1,34 @@
+{
+ "id": "1782107_2026-02-12",
+ "asof": "2026-02-19",
+ "chars": 37070,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-10-01",
+   "net_proceeds_usd": 6250000,
+   "what": "Series E convertible preferred stock and warrants PIPE",
+   "quote": "for an aggregate purchase price of approximately $ 6.25 million, which was also equal to the net cash proceeds"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 6544241,
+   "exercise_price_usd": 3.6896,
+   "expiry": null,
+   "quote": "warrants to purchase 6,544,241 shares of the Company\u2019s Common Stock (the \u201cSeries D Warrants\u201d)"
+  },
+  {
+   "count": 3037835,
+   "exercise_price_usd": 3.8576,
+   "expiry": "2028-10-01",
+   "quote": "warrants to purchase 3,037,835 shares of the Company\u2019s Common Stock (the \u201cSeries E Warrants\u201d"
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": null
+}
