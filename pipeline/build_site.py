@@ -86,6 +86,20 @@ for c in (csv.DictReader(cpath.open()) if cpath.exists() else []):
     rec.setdefault("sources", []).append({"label": "All SEC filings",
         "url": f"https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK={int(c['cik'])}&type=&dateb=&owner=include&count=40"})
     ds, cs = prices(c["cik"])
+    # return if bought at the trough (lowest close of the crash window): one year later, or to date
+    trough_d, trough = c["end_date"], float(c["low_close"])
+    one_year = (date.fromisoformat(trough_d) + timedelta(days=365)).isoformat()
+    rec["trough_date"] = trough_d
+    rec["played"] = one_year <= TODAY.isoformat()
+    if ds and trough > 0:
+        when, px = at_or_before(ds, cs, one_year if rec["played"] else TODAY.isoformat())
+        if px:
+            rec["ret_trough"] = round((px / trough - 1) * 100, 1)
+            rec["ret_trough_to"] = when
+            if rec["played"]:
+                rec["outcome"] = "Winner" if rec["ret_trough"] >= 30 else "Recovery" if rec["ret_trough"] >= 0 else "Failure"
+            if ds[-1] < (one_year if rec["played"] else (TODAY - timedelta(days=7)).isoformat()):
+                rec["stopped"] = ds[-1]
     path, ended, b0 = path_from(ds, cs, c["date"])
     if path:
         rec["ret365"], rec["path"] = path[-1], path
@@ -100,7 +114,8 @@ for c in (csv.DictReader(cpath.open()) if cpath.exists() else []):
 # (walk-forward), not in-sample ones.
 import statistics
 track = {}
-oos = [r for r in crashes if r.get("verdict") in ("overdone", "close", "justified") and not r.get("in_sample") and r.get("path")]
+oos = [r for r in crashes if r.get("verdict") in ("overdone", "close", "justified") and not r.get("in_sample")
+       and r.get("played") and r.get("path")]
 for g in ("overdone", "close", "justified"):
     grp = [r for r in oos if r["verdict"] == g]
     if grp:
@@ -111,6 +126,9 @@ if scored:
 for r in crashes:
     r.pop("path", None)
     r.pop("xbi_path", None)
+    if not r.get("played"):                      # outcomes and track record use the played-out table only
+        r.pop("ret365", None)
+        r.pop("xbi365", None)
 
 dates = sorted(r["date"] for r in crashes)
 fmt = lambda d: time.strftime("%b %Y", time.strptime(d, "%Y-%m-%d"))

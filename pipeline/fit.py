@@ -55,13 +55,28 @@ def money(v):
 
 
 _raw = {}
+UNI = {u["cik"]: u for u in csv.DictReader((ROOT / "data" / "universe.csv").open())}
 
 
-def raw_close(cik, d):
+def raw_close(cik, d, adj):
+    """Actual (not split-adjusted) close on day d. Still-listed companies: the adjusted close with every later split
+    undone (stored Yahoo split list). Companies that stopped trading: Tiingo's raw close."""
     if cik not in _raw:
         p = ROOT / "data" / "prices_raw" / f"{cik}.csv"
-        _raw[cik] = dict((r["date"], float(r["close"])) for r in csv.DictReader(p.open()) if r["close"]) if p.exists() else {}
-    return _raw[cik].get(d)
+        sp = ROOT / "data" / "splits" / f"{cik}.json"
+        tiingo = UNI.get(cik, {}).get("price_source") == "tiingo"
+        _raw[cik] = (dict((r["date"], float(r["close"])) for r in csv.DictReader(p.open()) if r["close"]) if tiingo and p.exists() else {},
+                     json.loads(sp.read_text())["splits"] if sp.exists() else None)
+    closes, splits = _raw[cik]
+    if d in closes:
+        return closes[d]
+    if splits is None:
+        return None
+    px = adj
+    for day, num, den in splits:
+        if day > d:
+            px *= num / den              # e.g. 1-for-50 reverse split later: actual price was 1/50 of the adjusted one
+    return px
 
 
 def features(r):
@@ -71,14 +86,15 @@ def features(r):
     x["cash"] = b["cash"] if b and b["cash"] > 0 else None
     x["runway_m"] = None
     if x["cash"] and bu:
-        if bu["per_month"] >= 0:
-            x["runway_m"] = 120.0
-        else:
-            x["runway_m"] = max(0.0, x["cash"] / -bu["per_month"] - (date.fromisoformat(r["asof"]) - date.fromisoformat(b["end"])).days / 30.44)
+        # one formula for every company: cash / monthly operating cash burn, minus months since the balance sheet;
+        # capped at 120 (a company with no burn has 120+ months)
+        burn_m = -bu["per_month"]
+        elapsed = (date.fromisoformat(r["asof"]) - date.fromisoformat(b["end"])).days / 30.44
+        x["runway_m"] = 120.0 if burn_m <= 0 else min(120.0, max(0.0, x["cash"] / burn_m - elapsed))
     x["value_x"] = None
-    px = raw_close(r["cik"], p["date"]) if p else None       # actual price that day (not split-adjusted)
-    # No fallback to adjusted prices: they embed later reverse splits, and "a split came later" is future
-    # information that would leak into the verdict. Value stays unknown until the raw closes are downloaded.
+    px = raw_close(r["cik"], p["date"], p["adj_close"]) if p else None   # actual price that day
+    # Never the adjusted price as is: it embeds later reverse splits, and "a split came later" is future
+    # information that would leak into the verdict.
     if x["cash"] and sh and px:
         mcap = px * sh["shares"]
         if 0.01 < mcap / x["cash"] < 500:
@@ -155,21 +171,41 @@ def score(model, x):
 
 def text(k, x):
     if k == "safety":
-        return x.get("safety_txt") or "n/a"
+        t = x.get("safety_txt")
+        return "N/A" if not t or t == "None reported" else t
     if k == "runway":
         v = x["runway_m"]
-        return "n/a" if v is None else "Cash positive" if v >= 120 else f"{v:.0f} mo"
+        return "N/A" if v is None else "120+ mo" if v >= 120 else f"{v:.0f} mo"
     if k == "value":
         v = x["value_x"]
-        return "n/a" if v is None else f"{v:.1f}× cash"
+        return "N/A" if v is None else f"{'Below' if v < 1 else 'Above'} Cash ({v:.2f}x)" if v < 0.1 else f"{'Below' if v < 1 else 'Above'} Cash ({v:.1f}x)"
     if k == "insider":
         r = x["raw"].get("insiders")
-        if not r:
-            return "n/a"
-        return f"{money(r['bought'])} bought" if x["insider"] == "g" else f"{money(r['sold'] - r['bought'])} sold" if x["insider"] == "r" else "None"
+        if x["insider"] == "g":
+            return f"Insider Buy ({money(r['bought'])})"
+        if x["insider"] == "r":
+            return f"Insider Sell ({money(r['sold'] - r['bought'])})"
+        return "N/A"
     if k == "programs":
         v = x["trials"]
-        return "n/a" if v is None else "None" if v == 0 else f"{v} other trial{'s' if v > 1 else ''}"
+        return "N/A" if not v else f"{v} other trial{'s' if v > 1 else ''}"
+
+
+def bucket(k, x):
+    """Group used by the column filter."""
+    if k == "safety":
+        return text(k, x)
+    if k == "runway":
+        v = x["runway_m"]
+        return "N/A" if v is None else "Under 6 mo" if v < 6 else "6–12 mo" if v < 12 else "12–24 mo" if v < 24 else "24+ mo"
+    if k == "value":
+        v = x["value_x"]
+        return "N/A" if v is None else "Below Cash" if v < 1 else "Above Cash"
+    if k == "insider":
+        return {"g": "Insider Buy", "r": "Insider Sell"}.get(x["insider"], "N/A")
+    if k == "programs":
+        v = x["trials"]
+        return "N/A" if not v else "1 trial" if v == 1 else "2–4 trials" if v < 5 else "5+ trials"
 
 
 def note(k, x, model):
@@ -182,7 +218,9 @@ def note(k, x, model):
         c = f"{m['cut']:.1f}" if k == "value" else f"{m['cut']:.0f}"
         eff += f" · split at {c}{unit}"
     if k == "runway" and r.get("balance") and r.get("burn"):
-        return f"Cash {money(r['balance']['cash'])} at {r['balance']['end']}, burn {money(-r['burn']['per_month'])}/mo · {eff}"
+        b = r["burn"]["per_month"]
+        flow = f"burn {money(-b)}/mo" if b < 0 else f"operating cash inflow {money(b)}/mo"
+        return f"Cash {money(r['balance']['cash'])} at {r['balance']['end']}, {flow} · {eff}"
     if k == "value" and x.get("mcap"):
         return f"Market value {money(x['mcap'])} on day 30 · {eff}"
     if k == "insider" and r.get("insiders"):
@@ -231,10 +269,12 @@ def main():
         verdict = "overdone" if s >= model["cut_hi"] else "justified" if s <= model["cut_lo"] else "close"
         pct = round(100 * bisect_right(model["scores"], s) / len(model["scores"]))
         def colour(k):
+            if text(k, x) == "N/A":
+                return "n"                                             # unknown is always shown neutral
             p = model["points"][k].get(cat(model, x, k), 0.0)
             return "g" if p >= 0.05 else "r" if p <= -0.05 else "n"   # better / worse than typical by 5+ points
         out = {"id": x["id"], "score": pct, "verdict": verdict, "in_sample": ins, "trained_on": model["n"],
-               "factors": {k: [colour(k), text(k, x), note(k, x, model)] for k in KEYS}}
+               "factors": {k: [colour(k), text(k, x), note(k, x, model), bucket(k, x)] for k in KEYS}}
         (OUT / f"{x['id']}.json").write_text(json.dumps(out, indent=1))
         if x["y"] is not None and not ins:
             heldout.append((verdict, x["y"], x["abs"]))

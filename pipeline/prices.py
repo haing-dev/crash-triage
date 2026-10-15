@@ -126,11 +126,12 @@ def main():
         use[src] += 1
         STATE.parent.mkdir(parents=True, exist_ok=True)
         STATE.write_text(json.dumps(st, indent=0))
-    # spare calls: raw (not split-adjusted) closes, once per company
+    # spare calls: raw (not split-adjusted) closes, once per company that stopped trading (Tiingo). Still-listed
+    # companies use the stored split list instead (splits.py): Twelve Data's unadjusted series proved unreliable.
     raw = st.setdefault("raw_done", {})
     for u in uni:
         src, cik = u["price_source"], u["cik"]
-        if src not in budget or got[src] >= budget[src] or cik in raw or cik not in st["done"]:
+        if src != "tiingo" or got[src] >= budget[src] or cik in raw or cik not in st["done"]:
             continue
         try:
             if src == "twelvedata":
