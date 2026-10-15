@@ -1,0 +1,47 @@
+{
+ "id": "1804591_2025-03-24",
+ "kind": "crash",
+ "cik": "1804591",
+ "name": "Chrome Holding Co.",
+ "date": "2025-03-24",
+ "asof": "2025-03-24",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-03-24",
+  "adj_close": 0.73
+ },
+ "balance": {
+  "end": "2024-12-31",
+  "cash": 79350000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001804591-25-000012"
+ },
+ "burn6": {
+  "end": "2024-12-31",
+  "start": "2024-07-01",
+  "cash_used_ops": 85584000.0,
+  "capex": 348000.0,
+  "periods": 2
+ },
+ "shares": null,
+ "going_concern": {
+  "flag": true,
+  "quote": "The Company has determined that, as of the filing date of this report, there is substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2024-12-24",
+  "to": "2025-04-23",
+  "trades": []
+ },
+ "drug": "n/a",
+ "trials": {
+  "query": "chrome",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

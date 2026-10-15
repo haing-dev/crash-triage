@@ -1,0 +1,50 @@
+{
+ "id": "1810560_2024-12-03",
+ "kind": "crash",
+ "cik": "1810560",
+ "name": "REVELATION BIOSCIENCES, INC.",
+ "date": "2024-12-03",
+ "asof": "2024-12-06",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-12-06",
+  "adj_close": 84.48
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 6541052,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-24-124036"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": 11735666.0,
+  "capex": 17688.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-11-04",
+  "shares": 4292455
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "The Company does not anticipate that its current cash and cash equivalents balance will be sufficient to sustain operations within one-year after the date that the Company\u2019s unaudited financial statements for September 30, 2024 were issued, which raises substantial doubt about its ability to continu"
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2024-09-04",
+  "to": "2025-01-02",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "revelation biosciences",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

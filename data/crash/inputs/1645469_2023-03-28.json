@@ -1,0 +1,56 @@
+{
+ "id": "1645469_2023-03-28",
+ "kind": "crash",
+ "cik": "1645469",
+ "name": "Monopar Therapeutics",
+ "date": "2023-03-28",
+ "asof": "2023-03-30",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-03-30",
+  "adj_close": 6.95
+ },
+ "balance": {
+  "end": "2022-12-31",
+  "cash": 8186194,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001654954-23-003384"
+ },
+ "burn6": {
+  "end": "2022-12-31",
+  "start": "2022-07-01",
+  "cash_used_ops": 3450284.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-03-10",
+  "shares": 13193172
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 22,
+  "from": "2022-12-28",
+  "to": "2023-04-27",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "monopar therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04648020",
+    "drugs": [
+     "Clonidine HCl Mucoadhesive Buccal Tablet"
+    ]
+   }
+  ]
+ }
+}

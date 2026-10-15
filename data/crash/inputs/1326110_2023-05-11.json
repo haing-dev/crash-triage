@@ -1,0 +1,140 @@
+{
+ "id": "1326110_2023-05-11",
+ "kind": "crash",
+ "cik": "1326110",
+ "name": "ImmunityBio, Inc.",
+ "date": "2023-05-11",
+ "asof": "2023-05-12",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-05-12",
+  "adj_close": 2.28
+ },
+ "balance": {
+  "end": "2023-03-31",
+  "cash": 92088000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent",
+   "MarketableSecuritiesNoncurrent"
+  ],
+  "accn": "0001326110-23-000064"
+ },
+ "burn6": {
+  "end": "2023-03-31",
+  "start": "2022-10-01",
+  "cash_used_ops": 175037000.0,
+  "capex": 27359000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-05-05",
+  "shares": 435984529
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2023-02-10",
+  "to": "2023-06-10",
+  "trades": [
+   {
+    "date": "2023-06-05",
+    "filed": "2023-06-05",
+    "code": "P",
+    "value": 63730,
+    "who": "BLASZYK MICHAEL D"
+   },
+   {
+    "date": "2023-06-05",
+    "filed": "2023-06-05",
+    "code": "P",
+    "value": 132960,
+    "who": "BLASZYK MICHAEL D"
+   },
+   {
+    "date": "2023-06-05",
+    "filed": "2023-06-05",
+    "code": "P",
+    "value": 1334,
+    "who": "BLASZYK MICHAEL D"
+   },
+   {
+    "date": "2023-06-02",
+    "filed": "2023-06-05",
+    "code": "P",
+    "value": 13700,
+    "who": "Brennan John Owen"
+   },
+   {
+    "date": "2023-06-02",
+    "filed": "2023-06-05",
+    "code": "P",
+    "value": 28000,
+    "who": "Brennan John Owen"
+   },
+   {
+    "date": "2023-06-02",
+    "filed": "2023-06-05",
+    "code": "P",
+    "value": 29000,
+    "who": "Brennan John Owen"
+   },
+   {
+    "date": "2023-06-01",
+    "filed": "2023-06-05",
+    "code": "P",
+    "value": 20370,
+    "who": "Clark Wesley"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "immunitybio",
+  "other_trials": 7,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03022825",
+    "drugs": [
+     "N-803 and BCG",
+     "N-803"
+    ]
+   },
+   {
+    "nct": "NCT04390399",
+    "drugs": [
+     "N-803",
+     "Aldoxorubicin HCl",
+     "PD-L1 t-haNK"
+    ]
+   },
+   {
+    "nct": "NCT02138734",
+    "drugs": [
+     "BCG (50mg/instillation) + N-803 (400 \u03bcg/instillation)",
+     "BCG (50mg/instillation)"
+    ]
+   },
+   {
+    "nct": "NCT03228667",
+    "drugs": [
+     "N-803 + Pembrolizumab",
+     "N-803 + Nivolumab",
+     "N-803 + Atezolizumab"
+    ]
+   },
+   {
+    "nct": "NCT05370040",
+    "drugs": [
+     "AAHI-SC2 Vaccine",
+     "AAHI-SC3 Vaccine",
+     "EUA or approved vaccine"
+    ]
+   }
+  ]
+ }
+}

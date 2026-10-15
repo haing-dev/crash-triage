@@ -1,0 +1,57 @@
+{
+ "id": "1411685_2023-02-08",
+ "kind": "crash",
+ "cik": "1411685",
+ "name": "Vistagen Therapeutics, Inc.",
+ "date": "2023-02-08",
+ "asof": "2023-02-09",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-02-09",
+  "adj_close": 4.2
+ },
+ "balance": {
+  "end": "2022-12-31",
+  "cash": 25037300,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001851734-23-000035"
+ },
+ "burn6": {
+  "end": "2022-12-31",
+  "start": "2022-07-01",
+  "cash_used_ops": 26274100.0,
+  "capex": 36900.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-02-07",
+  "shares": 219326526
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "We had cash and cash equivalents of approximately $25.0 million at December 31, 2022, which we believe will not be sufficient to fund our planned operations for the twelve months following the issuance of these Condensed Consolidated Financial Statements, which raises substantial doubt regarding our"
+ },
+ "insiders": {
+  "form4s": 2,
+  "from": "2022-11-10",
+  "to": "2023-03-10",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "vistagen therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04147949",
+    "drugs": [
+     "AV-101"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,101 @@
+{
+ "id": "1496671_2021-11-05",
+ "kind": "crash",
+ "cik": "1496671",
+ "name": "Calithera Biosciences, Inc.",
+ "date": "2021-11-05",
+ "asof": "2021-11-05",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-11-05",
+  "adj_close": 17.256
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 92205000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-21-000955"
+ },
+ "burn6": {
+  "end": "2021-06-30",
+  "start": "2021-01-01",
+  "cash_used_ops": 33123000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-08-03",
+  "shares": 74114399
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 17,
+  "from": "2021-08-07",
+  "to": "2021-12-05",
+  "trades": [
+   {
+    "date": "2021-11-10",
+    "filed": "2021-11-12",
+    "code": "S",
+    "value": 25695,
+    "who": "Orford Keith"
+   },
+   {
+    "date": "2021-11-11",
+    "filed": "2021-11-12",
+    "code": "S",
+    "value": 42407,
+    "who": "Orford Keith"
+   },
+   {
+    "date": "2021-11-10",
+    "filed": "2021-11-10",
+    "code": "P",
+    "value": 84670,
+    "who": "Molineaux Susan"
+   },
+   {
+    "date": "2021-11-10",
+    "filed": "2021-11-10",
+    "code": "P",
+    "value": 171900,
+    "who": "DRACHMAN JONATHAN G"
+   },
+   {
+    "date": "2021-11-10",
+    "filed": "2021-11-10",
+    "code": "P",
+    "value": 84670,
+    "who": "Molineaux Christopher"
+   },
+   {
+    "date": "2021-11-09",
+    "filed": "2021-11-09",
+    "code": "S",
+    "value": 43520,
+    "who": "Orford Keith"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "calithera biosciences",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04265534",
+    "drugs": [
+     "Telaglenastat",
+     "Carboplatin Chemotherapy",
+     "Pemetrexed Chemotherapy"
+    ]
+   }
+  ]
+ }
+}

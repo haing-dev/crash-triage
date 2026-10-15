@@ -1,0 +1,50 @@
+{
+ "id": "1497253_2025-02-26",
+ "kind": "crash",
+ "cik": "1497253",
+ "name": "VivoSim Labs, INC.",
+ "date": "2025-02-26",
+ "asof": "2025-03-04",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-03-04",
+  "adj_close": 7.32
+ },
+ "balance": {
+  "end": "2024-12-31",
+  "cash": 1161000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-25-022778"
+ },
+ "burn6": {
+  "end": "2024-12-31",
+  "start": "2024-07-01",
+  "cash_used_ops": 4443000.0,
+  "capex": 13000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-02-01",
+  "shares": 17454473
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "The Company has concluded that the prevailing conditions and ongoing liquidity risks faced by it raise substantial doubt about its ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2024-11-28",
+  "to": "2025-03-28",
+  "trades": []
+ },
+ "drug": "n/a",
+ "trials": {
+  "query": "vivosim labs",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

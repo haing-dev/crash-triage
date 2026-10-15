@@ -1,0 +1,50 @@
+{
+ "id": "1595353_2022-05-02",
+ "kind": "crash",
+ "cik": "1595353",
+ "name": "Galmed Pharmaceuticals Ltd.",
+ "date": "2022-05-02",
+ "asof": "2022-05-06",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-05-06",
+  "adj_close": 1094.40002
+ },
+ "balance": {
+  "end": "2021-12-31",
+  "cash": 34815000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001493152-22-011729"
+ },
+ "burn6": {
+  "end": "2021-12-31",
+  "start": "2021-07-01",
+  "cash_used_ops": 15975000.0,
+  "capex": 3000.0,
+  "periods": 1
+ },
+ "shares": {
+  "end": "2021-12-31",
+  "shares": 25088414
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2022-02-01",
+  "to": "2022-06-01",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "galmed pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

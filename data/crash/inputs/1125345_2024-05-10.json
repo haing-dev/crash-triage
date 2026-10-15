@@ -1,0 +1,144 @@
+{
+ "id": "1125345_2024-05-10",
+ "kind": "crash",
+ "cik": "1125345",
+ "name": "MACROGENICS INC",
+ "date": "2024-05-10",
+ "asof": "2024-05-10",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-05-10",
+  "adj_close": 3.31
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 80355000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001125345-24-000088"
+ },
+ "burn6": {
+  "end": "2024-03-31",
+  "start": "2023-10-01",
+  "cash_used_ops": 73680000.0,
+  "capex": 2079000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-05-03",
+  "shares": 62633460
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 42,
+  "from": "2024-02-10",
+  "to": "2024-06-09",
+  "trades": [
+   {
+    "date": "2024-04-04",
+    "filed": "2024-04-08",
+    "code": "S",
+    "value": 640475,
+    "who": "Peters Jeffrey Stuart"
+   },
+   {
+    "date": "2024-04-04",
+    "filed": "2024-04-08",
+    "code": "S",
+    "value": 2280,
+    "who": "Peters Jeffrey Stuart"
+   },
+   {
+    "date": "2024-04-04",
+    "filed": "2024-04-08",
+    "code": "S",
+    "value": 3800,
+    "who": "Peters Jeffrey Stuart"
+   },
+   {
+    "date": "2024-04-04",
+    "filed": "2024-04-08",
+    "code": "S",
+    "value": 94927,
+    "who": "Peters Jeffrey Stuart"
+   },
+   {
+    "date": "2024-04-04",
+    "filed": "2024-04-08",
+    "code": "S",
+    "value": 57666,
+    "who": "Peters Jeffrey Stuart"
+   },
+   {
+    "date": "2024-03-06",
+    "filed": "2024-03-08",
+    "code": "S",
+    "value": 421938,
+    "who": "Peters Jeffrey Stuart"
+   },
+   {
+    "date": "2024-03-04",
+    "filed": "2024-03-06",
+    "code": "S",
+    "value": 300000,
+    "who": "Risser Eric Blasius"
+   },
+   {
+    "date": "2024-03-04",
+    "filed": "2024-03-06",
+    "code": "S",
+    "value": 513501,
+    "who": "Risser Eric Blasius"
+   },
+   {
+    "date": "2024-03-04",
+    "filed": "2024-03-06",
+    "code": "S",
+    "value": 200000,
+    "who": "Spitznagel Thomas"
+   },
+   {
+    "date": "2024-03-04",
+    "filed": "2024-03-06",
+    "code": "S",
+    "value": 615000,
+    "who": "Karrels James"
+   },
+   {
+    "date": "2024-02-26",
+    "filed": "2024-02-28",
+    "code": "S",
+    "value": 277655,
+    "who": "Peters Jeffrey Stuart"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "macrogenics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05848011",
+    "drugs": [
+     "lorigerlimab",
+     "docetaxel",
+     "Prednisone"
+    ]
+   },
+   {
+    "nct": "NCT05551117",
+    "drugs": [
+     "vobramitamab duocarmazine 2.0 mg (Arm A)",
+     "vobramitamab duocarmazine 2.7 mg (Arm B)",
+     "vobramitamab duocarmazine"
+    ]
+   }
+  ]
+ }
+}

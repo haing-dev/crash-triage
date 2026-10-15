@@ -1,0 +1,86 @@
+{
+ "id": "1580149_2026-08-06",
+ "kind": "crash",
+ "cik": "1580149",
+ "name": "BIOVIE INC.",
+ "date": "2026-08-06",
+ "asof": "2026-08-07",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-08-07",
+  "adj_close": 0.99900001
+ },
+ "balance": {
+  "end": "2026-03-31",
+  "cash": 13098976,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001520138-26-000313"
+ },
+ "burn6": {
+  "end": "2026-03-31",
+  "start": "2025-10-01",
+  "cash_used_ops": 11879326.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-05-11",
+  "shares": 7541839
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These factors raise substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2026-05-08",
+  "to": "2026-09-05",
+  "trades": [
+   {
+    "date": "2026-08-28",
+    "filed": "2026-08-28",
+    "code": "P",
+    "value": 10461,
+    "who": "Palumbo Joseph M"
+   },
+   {
+    "date": "2026-08-28",
+    "filed": "2026-08-28",
+    "code": "P",
+    "value": 1570,
+    "who": "Chappell Amy Suzon"
+   },
+   {
+    "date": "2026-08-28",
+    "filed": "2026-08-28",
+    "code": "P",
+    "value": 5450,
+    "who": "KIM JOANNE WENDY"
+   },
+   {
+    "date": "2026-08-27",
+    "filed": "2026-08-28",
+    "code": "P",
+    "value": 31637,
+    "who": "DO CUONG V"
+   }
+  ]
+ },
+ "drug": "bezisterim",
+ "trials": {
+  "query": "biovie",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06847191",
+    "drugs": [
+     "NE3107"
+    ]
+   }
+  ]
+ }
+}

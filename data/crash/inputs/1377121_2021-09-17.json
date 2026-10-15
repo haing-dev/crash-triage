@@ -1,0 +1,84 @@
+{
+ "id": "1377121_2021-09-17",
+ "kind": "crash",
+ "cik": "1377121",
+ "name": "Protagonist Therapeutics, Inc",
+ "date": "2021-09-17",
+ "asof": "2021-09-20",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-09-20",
+  "adj_close": 12.95
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 380402000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent",
+   "MarketableSecuritiesNoncurrent"
+  ],
+  "accn": "0001558370-21-010244"
+ },
+ "burn6": {
+  "end": "2021-06-30",
+  "start": "2021-01-01",
+  "cash_used_ops": 52456000.0,
+  "capex": 640000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-07-30",
+  "shares": 47550573
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 2,
+  "from": "2021-06-19",
+  "to": "2021-10-17",
+  "trades": [
+   {
+    "date": "2021-08-17",
+    "filed": "2021-08-19",
+    "code": "S",
+    "value": 702889,
+    "who": "Liu David Y"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "protagonist therapeutics",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04767802",
+    "drugs": [
+     "PTG-300"
+    ]
+   },
+   {
+    "nct": "NCT04202965",
+    "drugs": [
+     "PTG-300"
+    ]
+   },
+   {
+    "nct": "NCT04504383",
+    "drugs": [
+     "PN-943"
+    ]
+   },
+   {
+    "nct": "NCT04057040",
+    "drugs": [
+     "PTG-300"
+    ]
+   }
+  ]
+ }
+}

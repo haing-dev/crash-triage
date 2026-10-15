@@ -1,0 +1,50 @@
+{
+ "id": "1836056_2022-12-12",
+ "kind": "crash",
+ "cik": "1836056",
+ "name": "Ambrx Biopharma Cayman, Inc.",
+ "date": "2022-12-12",
+ "asof": "2022-12-13",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-12-13",
+  "adj_close": 2.04
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 110893000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001193125-22-232800"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 40195000.0,
+  "capex": 903000.0,
+  "periods": 1
+ },
+ "shares": {
+  "end": "2021-12-31",
+  "shares": 300015224
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2022-09-13",
+  "to": "2023-01-11",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "ambrx biopharma cayman",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

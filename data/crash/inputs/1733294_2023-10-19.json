@@ -1,0 +1,58 @@
+{
+ "id": "1733294_2023-10-19",
+ "kind": "crash",
+ "cik": "1733294",
+ "name": "Generation Bio Co.",
+ "date": "2023-10-19",
+ "asof": "2023-10-19",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-10-19",
+  "adj_close": 12.0
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 314143000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001558370-23-012931"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 2871000.0,
+  "capex": 2207000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-07-28",
+  "shares": 65928503
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2023-07-21",
+  "to": "2023-11-18",
+  "trades": [
+   {
+    "date": "2023-08-23",
+    "filed": "2023-08-25",
+    "code": "S",
+    "value": 15362,
+    "who": "Paone Antoinette"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "generation bio",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

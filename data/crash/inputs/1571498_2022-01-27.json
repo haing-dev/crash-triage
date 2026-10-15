@@ -1,0 +1,143 @@
+{
+ "id": "1571498_2022-01-27",
+ "kind": "crash",
+ "cik": "1571498",
+ "name": "Epizyme, Inc.",
+ "date": "2022-01-27",
+ "asof": "2022-01-27",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-01-27",
+  "adj_close": 1.06
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 221293000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-21-003566"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 99312000.0,
+  "capex": 268000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-11-04",
+  "shares": 103895022
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 13,
+  "from": "2021-10-29",
+  "to": "2022-02-26",
+  "trades": [
+   {
+    "date": "2022-02-07",
+    "filed": "2022-02-09",
+    "code": "S",
+    "value": 333,
+    "who": "Beaulieu Joseph"
+   },
+   {
+    "date": "2022-02-07",
+    "filed": "2022-02-09",
+    "code": "S",
+    "value": 1587,
+    "who": "Agarwal Shefali"
+   },
+   {
+    "date": "2022-02-02",
+    "filed": "2022-02-04",
+    "code": "S",
+    "value": 3615,
+    "who": "Agarwal Shefali"
+   },
+   {
+    "date": "2022-02-02",
+    "filed": "2022-02-04",
+    "code": "S",
+    "value": 3502,
+    "who": "Kutok Jeffery"
+   },
+   {
+    "date": "2022-02-02",
+    "filed": "2022-02-04",
+    "code": "S",
+    "value": 941,
+    "who": "Beaulieu Joseph"
+   },
+   {
+    "date": "2022-01-31",
+    "filed": "2022-02-01",
+    "code": "P",
+    "value": 34000000,
+    "who": "Legorreta Pablo G."
+   },
+   {
+    "date": "2022-01-26",
+    "filed": "2022-01-28",
+    "code": "S",
+    "value": 5902,
+    "who": "Agarwal Shefali"
+   },
+   {
+    "date": "2021-12-06",
+    "filed": "2021-12-07",
+    "code": "S",
+    "value": 5215,
+    "who": "Agarwal Shefali"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "epizyme",
+  "other_trials": 6,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT02601950",
+    "drugs": [
+     "Tazemetostat"
+    ]
+   },
+   {
+    "nct": "NCT04224493",
+    "drugs": [
+     "Tazemetostat",
+     "Tazemetostat",
+     "Lenalidomide"
+    ]
+   },
+   {
+    "nct": "NCT04762160",
+    "drugs": [
+     "Tazemetostat",
+     "Rituximab"
+    ]
+   },
+   {
+    "nct": "NCT02875548",
+    "drugs": [
+     "Tazemetostat"
+    ]
+   },
+   {
+    "nct": "NCT04179864",
+    "drugs": [
+     "Tazemetostat",
+     "Abiraterone/prednisone",
+     "Enzalutamide"
+    ]
+   }
+  ]
+ }
+}

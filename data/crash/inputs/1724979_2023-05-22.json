@@ -1,0 +1,142 @@
+{
+ "id": "1724979_2023-05-22",
+ "kind": "crash",
+ "cik": "1724979",
+ "name": "Rain Oncology Inc.",
+ "date": "2023-05-22",
+ "asof": "2023-05-26",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-05-26",
+  "adj_close": 1.1
+ },
+ "balance": {
+  "end": "2023-03-31",
+  "cash": 109770000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001558370-23-009375"
+ },
+ "burn6": {
+  "end": "2023-03-31",
+  "start": "2022-10-01",
+  "cash_used_ops": 35133000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-05-04",
+  "shares": 36363178
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2023-02-21",
+  "to": "2023-06-21",
+  "trades": [
+   {
+    "date": "2023-05-30",
+    "filed": "2023-06-01",
+    "code": "P",
+    "value": 365329,
+    "who": "TANG KEVIN C"
+   },
+   {
+    "date": "2023-05-30",
+    "filed": "2023-06-01",
+    "code": "P",
+    "value": 200000,
+    "who": "TANG KEVIN C"
+   },
+   {
+    "date": "2023-05-30",
+    "filed": "2023-06-01",
+    "code": "P",
+    "value": 34863,
+    "who": "TANG KEVIN C"
+   },
+   {
+    "date": "2023-05-30",
+    "filed": "2023-06-01",
+    "code": "P",
+    "value": 2177,
+    "who": "TANG KEVIN C"
+   },
+   {
+    "date": "2023-05-30",
+    "filed": "2023-06-01",
+    "code": "P",
+    "value": 6286,
+    "who": "TANG KEVIN C"
+   },
+   {
+    "date": "2023-05-31",
+    "filed": "2023-06-01",
+    "code": "P",
+    "value": 174074,
+    "who": "TANG KEVIN C"
+   },
+   {
+    "date": "2023-05-31",
+    "filed": "2023-06-01",
+    "code": "P",
+    "value": 5500,
+    "who": "TANG KEVIN C"
+   },
+   {
+    "date": "2023-06-01",
+    "filed": "2023-06-01",
+    "code": "P",
+    "value": 101353,
+    "who": "TANG KEVIN C"
+   },
+   {
+    "date": "2023-06-01",
+    "filed": "2023-06-01",
+    "code": "P",
+    "value": 269182,
+    "who": "TANG KEVIN C"
+   },
+   {
+    "date": "2023-05-22",
+    "filed": "2023-05-24",
+    "code": "S",
+    "value": 1243750,
+    "who": "Boxer Capital, LLC"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "rain oncology",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06090318",
+    "drugs": [
+     "Milademetan",
+     "Atezolizumab"
+    ]
+   },
+   {
+    "nct": "NCT05012397",
+    "drugs": [
+     "RAIN-32"
+    ]
+   },
+   {
+    "nct": "NCT04979442",
+    "drugs": [
+     "RAIN-32",
+     "Trabectedin"
+    ]
+   }
+  ]
+ }
+}

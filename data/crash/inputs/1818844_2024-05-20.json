@@ -1,0 +1,50 @@
+{
+ "id": "1818844_2024-05-20",
+ "kind": "crash",
+ "cik": "1818844",
+ "name": "Dogwood Therapeutics, Inc.",
+ "date": "2024-05-20",
+ "asof": "2024-05-21",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-05-21",
+  "adj_close": 4.6
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 2379532,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-24-007713"
+ },
+ "burn6": {
+  "end": "2024-03-31",
+  "start": "2023-10-01",
+  "cash_used_ops": 2406585.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-05-08",
+  "shares": 19257937
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Accordingly, there is substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 10,
+  "from": "2024-02-20",
+  "to": "2024-06-19",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "dogwood therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

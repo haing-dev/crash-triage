@@ -1,0 +1,140 @@
+{
+ "id": "1658551_2024-03-08",
+ "kind": "crash",
+ "cik": "1658551",
+ "name": "Amylyx Pharmaceuticals, Inc.",
+ "date": "2024-03-08",
+ "asof": "2024-03-08",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-03-08",
+  "adj_close": 3.36
+ },
+ "balance": {
+  "end": "2023-12-31",
+  "cash": 371362000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-24-018447"
+ },
+ "burn6": {
+  "end": "2023-12-31",
+  "start": "2023-07-01",
+  "cash_used_ops": -8382000.0,
+  "capex": 713000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-02-12",
+  "shares": 67782139
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 18,
+  "from": "2023-12-09",
+  "to": "2024-04-07",
+  "trades": [
+   {
+    "date": "2024-03-05",
+    "filed": "2024-03-07",
+    "code": "S",
+    "value": 77440,
+    "who": "Cohen Joshua B"
+   },
+   {
+    "date": "2024-03-05",
+    "filed": "2024-03-07",
+    "code": "S",
+    "value": 77440,
+    "who": "Klee Justin B."
+   },
+   {
+    "date": "2024-03-05",
+    "filed": "2024-03-07",
+    "code": "S",
+    "value": 33560,
+    "who": "FRATES JAMES M"
+   },
+   {
+    "date": "2024-03-05",
+    "filed": "2024-03-07",
+    "code": "S",
+    "value": 28841,
+    "who": "Mazzariello Gina"
+   },
+   {
+    "date": "2024-02-23",
+    "filed": "2024-02-27",
+    "code": "S",
+    "value": 53231,
+    "who": "Mazzariello Gina"
+   },
+   {
+    "date": "2024-01-09",
+    "filed": "2024-01-11",
+    "code": "S",
+    "value": 95372,
+    "who": "Klee Justin B."
+   },
+   {
+    "date": "2024-01-09",
+    "filed": "2024-01-11",
+    "code": "S",
+    "value": 44347,
+    "who": "FRATES JAMES M"
+   },
+   {
+    "date": "2024-01-09",
+    "filed": "2024-01-11",
+    "code": "S",
+    "value": 95372,
+    "who": "Cohen Joshua B"
+   },
+   {
+    "date": "2024-01-09",
+    "filed": "2024-01-11",
+    "code": "S",
+    "value": 45915,
+    "who": "Yeramian Patrick D"
+   },
+   {
+    "date": "2023-12-15",
+    "filed": "2023-12-19",
+    "code": "P",
+    "value": 59880,
+    "who": "Firestone Karen"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "amylyx pharmaceuticals",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05676034",
+    "drugs": [
+     "AMX0035"
+    ]
+   },
+   {
+    "nct": "NCT06122662",
+    "drugs": [
+     "AMX0035"
+    ]
+   },
+   {
+    "nct": "NCT05619783",
+    "drugs": [
+     "AMX0035"
+    ]
+   }
+  ]
+ }
+}

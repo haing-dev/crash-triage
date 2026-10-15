@@ -1,0 +1,50 @@
+{
+ "id": "1817944_2022-04-25",
+ "kind": "crash",
+ "cik": "1817944",
+ "name": "Clarus Therapeutics Holdings, Inc.",
+ "date": "2022-04-25",
+ "asof": "2022-04-28",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-04-28",
+  "adj_close": 0.74
+ },
+ "balance": {
+  "end": "2021-12-31",
+  "cash": 26415000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001193125-22-092120"
+ },
+ "burn6": {
+  "end": "2021-12-31",
+  "start": "2021-07-01",
+  "cash_used_ops": 43375764.0,
+  "capex": 12543.956043956045,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-04-25",
+  "shares": 24750011
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Risks Related to Business Operations and Commercialization We have incurred significant operating losses and there is substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2022-01-25",
+  "to": "2022-05-25",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "clarus therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

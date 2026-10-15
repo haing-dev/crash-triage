@@ -1,0 +1,131 @@
+{
+ "id": "1260990_2023-04-04",
+ "kind": "crash",
+ "cik": "1260990",
+ "name": "Oncternal Therapeutics, Inc.",
+ "date": "2023-04-04",
+ "asof": "2023-04-06",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-04-06",
+  "adj_close": 5.504
+ },
+ "balance": {
+  "end": "2022-12-31",
+  "cash": 63724000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-23-007062"
+ },
+ "burn6": {
+  "end": "2022-12-31",
+  "start": "2022-07-01",
+  "cash_used_ops": 20968000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-03-03",
+  "shares": 58711451
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "\u2022 Our management, as of December 31, 2022, and our independent registered public accounting firm, in their report on our financial statements as of and for the fiscal year ended December 31, 2022, have concluded that there is substantial doubt as to our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 17,
+  "from": "2023-01-04",
+  "to": "2023-05-04",
+  "trades": [
+   {
+    "date": "2023-04-13",
+    "filed": "2023-04-17",
+    "code": "P",
+    "value": 29000,
+    "who": "BREITMEYER JAMES B"
+   },
+   {
+    "date": "2023-04-14",
+    "filed": "2023-04-17",
+    "code": "P",
+    "value": 14277,
+    "who": "BREITMEYER JAMES B"
+   },
+   {
+    "date": "2023-04-14",
+    "filed": "2023-04-17",
+    "code": "P",
+    "value": 652,
+    "who": "BREITMEYER JAMES B"
+   },
+   {
+    "date": "2023-04-12",
+    "filed": "2023-04-14",
+    "code": "P",
+    "value": 2850,
+    "who": "Yazji Salim"
+   },
+   {
+    "date": "2023-04-13",
+    "filed": "2023-04-14",
+    "code": "P",
+    "value": 2850,
+    "who": "Yazji Salim"
+   },
+   {
+    "date": "2023-04-14",
+    "filed": "2023-04-14",
+    "code": "P",
+    "value": 1500,
+    "who": "Yazji Salim"
+   },
+   {
+    "date": "2023-04-12",
+    "filed": "2023-04-14",
+    "code": "P",
+    "value": 4350,
+    "who": "Leavitt Chase C."
+   },
+   {
+    "date": "2023-04-13",
+    "filed": "2023-04-14",
+    "code": "P",
+    "value": 2900,
+    "who": "Leavitt Chase C."
+   },
+   {
+    "date": "2023-04-13",
+    "filed": "2023-04-14",
+    "code": "P",
+    "value": 8961,
+    "who": "VINCENT RICHARD G"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "oncternal therapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03088878",
+    "drugs": [
+     "Cirmtuzumab (2-16 kg/mg) plus Ibrutinib",
+     "Cirmtuzumab (300mg) plus Ibrutinib",
+     "Cirmtuzumab (600 mg) plus ibrutinib"
+    ]
+   },
+   {
+    "nct": "NCT05431179",
+    "drugs": [
+     "Zilovertamab",
+     "Ibrutinib"
+    ]
+   }
+  ]
+ }
+}

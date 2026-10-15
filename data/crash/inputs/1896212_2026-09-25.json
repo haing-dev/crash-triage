@@ -1,0 +1,58 @@
+{
+ "id": "1896212_2026-09-25",
+ "kind": "crash",
+ "cik": "1896212",
+ "name": "CDT Equity Inc.",
+ "date": "2026-09-25",
+ "asof": "2026-10-01",
+ "final": false,
+ "version": 5,
+ "price": {
+  "date": "2026-10-01",
+  "adj_close": 1.25
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 747000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001493152-26-041808"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": 2438000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-08-12",
+  "shares": 786670
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Risks Related to Finances and Capital Requirements \u25cf There is substantial doubt regarding our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2026-06-27",
+  "to": "2026-10-15",
+  "trades": [
+   {
+    "date": "2026-08-28",
+    "filed": "2026-09-02",
+    "code": "S",
+    "value": 0,
+    "who": "Regan Andrew"
+   }
+  ]
+ },
+ "drug": "n/a",
+ "trials": {
+  "query": "cdt equity",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

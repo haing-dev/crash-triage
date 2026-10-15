@@ -1,0 +1,94 @@
+{
+ "id": "1636282_2022-06-02",
+ "kind": "crash",
+ "cik": "1636282",
+ "name": "Spyre Therapeutics, Inc.",
+ "date": "2022-06-02",
+ "asof": "2022-06-06",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-06-06",
+  "adj_close": 14.625
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 66725000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001564590-22-018006"
+ },
+ "burn6": {
+  "end": "2022-03-31",
+  "start": "2021-10-01",
+  "cash_used_ops": 45531000.0,
+  "capex": 37000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-04-28",
+  "shares": 50419822
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Accordingly, based on its recurring losses from operations incurred since inception, the expectation of continued operating losses, and the need to raise additional capital to finance its future operations, the Company determined that there is substantial doubt about the Company\u2019s ability to continu"
+ },
+ "insiders": {
+  "form4s": 12,
+  "from": "2022-03-04",
+  "to": "2022-07-02",
+  "trades": [
+   {
+    "date": "2022-06-08",
+    "filed": "2022-06-10",
+    "code": "P",
+    "value": 20022,
+    "who": "Hanley Jr. Michael Conick"
+   },
+   {
+    "date": "2022-03-16",
+    "filed": "2022-03-18",
+    "code": "P",
+    "value": 187705,
+    "who": "Quinn Anthony G."
+   },
+   {
+    "date": "2022-03-11",
+    "filed": "2022-03-15",
+    "code": "P",
+    "value": 71780,
+    "who": "Quinn Anthony G."
+   },
+   {
+    "date": "2022-03-14",
+    "filed": "2022-03-15",
+    "code": "P",
+    "value": 130221,
+    "who": "Quinn Anthony G."
+   },
+   {
+    "date": "2022-03-15",
+    "filed": "2022-03-15",
+    "code": "P",
+    "value": 78942,
+    "who": "Quinn Anthony G."
+   },
+   {
+    "date": "2022-03-11",
+    "filed": "2022-03-15",
+    "code": "P",
+    "value": 156000,
+    "who": "Alspaugh Jonathan"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "spyre therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

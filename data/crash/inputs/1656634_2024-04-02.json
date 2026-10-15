@@ -1,0 +1,51 @@
+{
+ "id": "1656634_2024-04-02",
+ "kind": "crash",
+ "cik": "1656634",
+ "name": "Gritstone bio, Inc.",
+ "date": "2024-04-02",
+ "asof": "2024-04-04",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-04-04",
+  "adj_close": 1.035
+ },
+ "balance": {
+  "end": "2023-12-31",
+  "cash": 79274000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-24-025855"
+ },
+ "burn6": {
+  "end": "2023-12-31",
+  "start": "2023-07-01",
+  "cash_used_ops": 50595000.0,
+  "capex": 1284000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-03-01",
+  "shares": 98065594
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "We have identified conditions that raise substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 7,
+  "from": "2024-01-03",
+  "to": "2024-05-02",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "gritstone bio",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

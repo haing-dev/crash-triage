@@ -1,0 +1,85 @@
+{
+ "id": "1300699_2021-03-01",
+ "kind": "crash",
+ "cik": "1300699",
+ "name": "Athenex, Inc.",
+ "date": "2021-03-01",
+ "asof": "2021-03-03",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-03-03",
+  "adj_close": 96.3
+ },
+ "balance": {
+  "end": "2020-12-31",
+  "cash": 208223000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001564590-21-009879"
+ },
+ "burn6": {
+  "end": "2020-12-31",
+  "start": "2020-07-01",
+  "cash_used_ops": 61175000.0,
+  "capex": 8690000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-02-19",
+  "shares": 93454700
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 7,
+  "from": "2020-12-01",
+  "to": "2021-03-31",
+  "trades": [
+   {
+    "date": "2021-03-04",
+    "filed": "2021-03-08",
+    "code": "S",
+    "value": 1898088,
+    "who": "Zuo William Wei"
+   },
+   {
+    "date": "2021-03-03",
+    "filed": "2021-03-04",
+    "code": "S",
+    "value": 465500,
+    "who": "WU JINN"
+   },
+   {
+    "date": "2020-12-01",
+    "filed": "2020-12-01",
+    "code": "P",
+    "value": 13310,
+    "who": "LAU JOHNSON YIU NAM"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "athenex",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04180384",
+    "drugs": [
+     "Oraxol"
+    ]
+   },
+   {
+    "nct": "NCT03544567",
+    "drugs": [
+     "Oraxol"
+    ]
+   }
+  ]
+ }
+}

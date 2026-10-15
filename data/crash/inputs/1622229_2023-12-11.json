@@ -1,0 +1,73 @@
+{
+ "id": "1622229_2023-12-11",
+ "kind": "crash",
+ "cik": "1622229",
+ "name": "Cogent Biosciences, Inc.",
+ "date": "2023-12-11",
+ "asof": "2023-12-11",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-12-11",
+  "adj_close": 4.06
+ },
+ "balance": {
+  "end": "2023-09-30",
+  "cash": 312835000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0000950170-23-059769"
+ },
+ "burn6": {
+  "end": "2023-09-30",
+  "start": "2023-04-01",
+  "cash_used_ops": 70037000.0,
+  "capex": 1378000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-11-03",
+  "shares": 86124249
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2023-09-12",
+  "to": "2024-01-10",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "cogent biosciences",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05208047",
+    "drugs": [
+     "CGT9486",
+     "CGT9486",
+     "Sunitinib"
+    ]
+   },
+   {
+    "nct": "NCT04996875",
+    "drugs": [
+     "bezuclastinib"
+    ]
+   },
+   {
+    "nct": "NCT05186753",
+    "drugs": [
+     "Bezuclastinib Tablets (Formulation A)",
+     "Bezuclastinib Tablets (Formulation B)"
+    ]
+   }
+  ]
+ }
+}

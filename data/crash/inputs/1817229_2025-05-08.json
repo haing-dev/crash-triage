@@ -1,0 +1,86 @@
+{
+ "id": "1817229_2025-05-08",
+ "kind": "crash",
+ "cik": "1817229",
+ "name": "Vor Biopharma Inc.",
+ "date": "2025-05-08",
+ "asof": "2025-05-08",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-05-08",
+  "adj_close": 3.2
+ },
+ "balance": {
+  "end": "2024-12-31",
+  "cash": 91926000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-25-042623"
+ },
+ "burn6": {
+  "end": "2024-12-31",
+  "start": "2024-07-01",
+  "cash_used_ops": 47348000.0,
+  "capex": 106000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-03-13",
+  "shares": 124851547
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "\u2022 There is substantial doubt regarding our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 18,
+  "from": "2025-02-07",
+  "to": "2025-06-07",
+  "trades": [
+   {
+    "date": "2025-02-13",
+    "filed": "2025-02-18",
+    "code": "S",
+    "value": 3162,
+    "who": "Attar Eyal C."
+   },
+   {
+    "date": "2025-02-10",
+    "filed": "2025-02-12",
+    "code": "S",
+    "value": 3499,
+    "who": "Attar Eyal C."
+   }
+  ]
+ },
+ "drug": "n/a",
+ "trials": {
+  "query": "vor biopharma",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05984199",
+    "drugs": [
+     "VCAR33"
+    ]
+   },
+   {
+    "nct": "NCT04849910",
+    "drugs": [
+     "VOR33",
+     "Mylotarg"
+    ]
+   },
+   {
+    "nct": "NCT06456580",
+    "drugs": [
+     "Telitacicept"
+    ]
+   }
+  ]
+ }
+}

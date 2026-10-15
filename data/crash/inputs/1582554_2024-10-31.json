@@ -1,0 +1,58 @@
+{
+ "id": "1582554_2024-10-31",
+ "kind": "crash",
+ "cik": "1582554",
+ "name": "Matinas BioPharma Holdings, Inc.",
+ "date": "2024-10-31",
+ "asof": "2024-11-01",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-11-01",
+  "adj_close": 8.73
+ },
+ "balance": {
+  "end": "2024-06-30",
+  "cash": 14313000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001493152-24-032144"
+ },
+ "burn6": {
+  "end": "2024-06-30",
+  "start": "2024-01-01",
+  "cash_used_ops": 8875000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-08-09",
+  "shares": 250816164
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2024-08-02",
+  "to": "2024-11-30",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "matinas biopharma",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05541107",
+    "drugs": [
+     "MAT2203",
+     "Amphotericin B"
+    ]
+   }
+  ]
+ }
+}

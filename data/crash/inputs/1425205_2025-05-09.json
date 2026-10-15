@@ -1,0 +1,99 @@
+{
+ "id": "1425205_2025-05-09",
+ "kind": "crash",
+ "cik": "1425205",
+ "name": "IOVANCE BIOTHERAPEUTICS, INC.",
+ "date": "2025-05-09",
+ "asof": "2025-05-09",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-05-09",
+  "adj_close": 1.75
+ },
+ "balance": {
+  "end": "2025-03-31",
+  "cash": 359713000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001558370-25-007009"
+ },
+ "burn6": {
+  "end": "2025-03-31",
+  "start": "2024-10-01",
+  "cash_used_ops": 176990000.0,
+  "capex": 10379000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-04-30",
+  "shares": 333934387
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 20,
+  "from": "2025-02-08",
+  "to": "2025-06-08",
+  "trades": [
+   {
+    "date": "2025-06-05",
+    "filed": "2025-06-06",
+    "code": "P",
+    "value": 55200,
+    "who": "Kirby Daniel Gordon"
+   },
+   {
+    "date": "2025-05-23",
+    "filed": "2025-05-27",
+    "code": "P",
+    "value": 9743,
+    "who": "Puri Raj K."
+   },
+   {
+    "date": "2025-05-14",
+    "filed": "2025-05-16",
+    "code": "P",
+    "value": 42250,
+    "who": "Vogt Frederick G"
+   }
+  ]
+ },
+ "drug": "Amtagvi (lifileucel)",
+ "trials": {
+  "query": "iovance biotherapeutics",
+  "other_trials": 4,
+  "crashed_drug_trials": 3,
+  "examples": [
+   {
+    "nct": "NCT06940739",
+    "drugs": [
+     "IOV-3001"
+    ]
+   },
+   {
+    "nct": "NCT04614103",
+    "drugs": [
+     "LN-145",
+     "LN-145"
+    ]
+   },
+   {
+    "nct": "NCT05361174",
+    "drugs": [
+     "IOV-4001"
+    ]
+   },
+   {
+    "nct": "NCT03108495",
+    "drugs": [
+     "LN-145",
+     "LN-145 + pembrolizumab"
+    ]
+   }
+  ]
+ }
+}

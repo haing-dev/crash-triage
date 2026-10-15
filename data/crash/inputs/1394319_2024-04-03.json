@@ -1,0 +1,58 @@
+{
+ "id": "1394319_2024-04-03",
+ "kind": "crash",
+ "cik": "1394319",
+ "name": "Tracon Pharmaceuticals, Inc.",
+ "date": "2024-04-03",
+ "asof": "2024-04-09",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-04-09",
+  "adj_close": 3.362
+ },
+ "balance": {
+  "end": "2023-12-31",
+  "cash": 8564000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-24-026205"
+ },
+ "burn6": {
+  "end": "2023-12-31",
+  "start": "2023-07-01",
+  "cash_used_ops": -14530000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-03-01",
+  "shares": 45504501
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "There is substantial doubt as to our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 2,
+  "from": "2024-01-04",
+  "to": "2024-05-03",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "tracon pharmaceuticals",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04480502",
+    "drugs": [
+     "Envafolimab",
+     "Ipilimumab"
+    ]
+   }
+  ]
+ }
+}

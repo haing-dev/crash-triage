@@ -1,0 +1,73 @@
+{
+ "id": "1300699_2022-08-11",
+ "kind": "crash",
+ "cik": "1300699",
+ "name": "Athenex, Inc.",
+ "date": "2022-08-11",
+ "asof": "2022-08-17",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-08-17",
+  "adj_close": 10.0
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 23328000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-22-013461"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 74090000.0,
+  "capex": 15464000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-07-22",
+  "shares": 121608388
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "This condition raises substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 52,
+  "from": "2022-05-13",
+  "to": "2022-09-10",
+  "trades": [
+   {
+    "date": "2022-08-22",
+    "filed": "2022-08-30",
+    "code": "P",
+    "value": 4221,
+    "who": "WU JINN"
+   },
+   {
+    "date": "2022-08-19",
+    "filed": "2022-08-19",
+    "code": "P",
+    "value": 9098,
+    "who": "LAU JOHNSON YIU NAM"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "athenex",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03544567",
+    "drugs": [
+     "Oraxol"
+    ]
+   }
+  ]
+ }
+}

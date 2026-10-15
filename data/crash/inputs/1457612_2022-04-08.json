@@ -1,0 +1,121 @@
+{
+ "id": "1457612_2022-04-08",
+ "kind": "crash",
+ "cik": "1457612",
+ "name": "GENOCEA BIOSCIENCES, INC.",
+ "date": "2022-04-08",
+ "asof": "2022-04-08",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-04-08",
+  "adj_close": 0.4
+ },
+ "balance": {
+  "end": "2021-12-31",
+  "cash": 37148000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001457612-22-000039"
+ },
+ "burn6": {
+  "end": "2021-12-31",
+  "start": "2021-07-01",
+  "cash_used_ops": 22465000.0,
+  "capex": 1465000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-03-15",
+  "shares": 58733759
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These factors, combined with our forecast of cash required to fund operations for a period of at least one year from the date of issuance of these consolidated financial statements, raise substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 13,
+  "from": "2022-01-08",
+  "to": "2022-05-08",
+  "trades": [
+   {
+    "date": "2022-04-04",
+    "filed": "2022-04-05",
+    "code": "S",
+    "value": 1515,
+    "who": "Flechtner Jessica Baker"
+   },
+   {
+    "date": "2022-04-04",
+    "filed": "2022-04-05",
+    "code": "S",
+    "value": 1204,
+    "who": "Duvall Diantha"
+   },
+   {
+    "date": "2022-04-04",
+    "filed": "2022-04-05",
+    "code": "S",
+    "value": 1364,
+    "who": "Davis Thomas Andrew"
+   },
+   {
+    "date": "2022-04-04",
+    "filed": "2022-04-05",
+    "code": "S",
+    "value": 4905,
+    "who": "Clark William D"
+   },
+   {
+    "date": "2022-04-04",
+    "filed": "2022-04-05",
+    "code": "S",
+    "value": 1204,
+    "who": "Aakalu Girish N"
+   },
+   {
+    "date": "2022-03-16",
+    "filed": "2022-03-17",
+    "code": "S",
+    "value": 3684,
+    "who": "Flechtner Jessica Baker"
+   },
+   {
+    "date": "2022-03-16",
+    "filed": "2022-03-17",
+    "code": "S",
+    "value": 3160,
+    "who": "Duvall Diantha"
+   },
+   {
+    "date": "2022-03-16",
+    "filed": "2022-03-17",
+    "code": "S",
+    "value": 2989,
+    "who": "Davis Thomas Andrew"
+   },
+   {
+    "date": "2022-03-16",
+    "filed": "2022-03-17",
+    "code": "S",
+    "value": 12579,
+    "who": "Clark William D"
+   },
+   {
+    "date": "2022-03-16",
+    "filed": "2022-03-17",
+    "code": "S",
+    "value": 2637,
+    "who": "Aakalu Girish N"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "genocea biosciences",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

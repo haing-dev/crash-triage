@@ -1,0 +1,56 @@
+{
+ "id": "1580149_2022-12-20",
+ "kind": "crash",
+ "cik": "1580149",
+ "name": "BIOVIE INC.",
+ "date": "2022-12-20",
+ "asof": "2022-12-21",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-12-21",
+  "adj_close": 594.0
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 21230918,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0001520138-22-000502"
+ },
+ "burn6": null,
+ "shares": {
+  "end": "2022-11-03",
+  "shares": 30532830
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 13,
+  "from": "2022-09-21",
+  "to": "2023-01-19",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "biovie",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04669028",
+    "drugs": [
+     "NE3107"
+    ]
+   },
+   {
+    "nct": "NCT04112199",
+    "drugs": [
+     "BIV201 continuous infusion"
+    ]
+   }
+  ]
+ }
+}

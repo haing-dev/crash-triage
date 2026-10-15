@@ -1,0 +1,73 @@
+{
+ "id": "1701478_2024-02-14",
+ "kind": "crash",
+ "cik": "1701478",
+ "name": "Azitra, Inc.",
+ "date": "2024-02-14",
+ "asof": "2024-02-14",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-02-14",
+  "adj_close": 45.4
+ },
+ "balance": {
+  "end": "2023-09-30",
+  "cash": 4400327,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001493152-23-041056"
+ },
+ "burn6": null,
+ "shares": {
+  "end": "2023-11-14",
+  "shares": 12097643
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These factors among others raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2023-11-16",
+  "to": "2024-03-15",
+  "trades": [
+   {
+    "date": "2024-02-13",
+    "filed": "2024-02-15",
+    "code": "P",
+    "value": 4500,
+    "who": "Whitfill Travis"
+   },
+   {
+    "date": "2024-02-13",
+    "filed": "2024-02-15",
+    "code": "P",
+    "value": 990,
+    "who": "Staskey Norm"
+   },
+   {
+    "date": "2024-02-13",
+    "filed": "2024-02-15",
+    "code": "P",
+    "value": 99990,
+    "who": "Salva Francisco D."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "azitra",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04731259",
+    "drugs": [
+     "ATR-04"
+    ]
+   }
+  ]
+ }
+}

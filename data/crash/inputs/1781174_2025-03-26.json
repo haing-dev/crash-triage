@@ -1,0 +1,50 @@
+{
+ "id": "1781174_2025-03-26",
+ "kind": "crash",
+ "cik": "1781174",
+ "name": "Acrivon Therapeutics, Inc.",
+ "date": "2025-03-26",
+ "asof": "2025-03-31",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-03-31",
+  "adj_close": 2.03
+ },
+ "balance": {
+  "end": "2024-12-31",
+  "cash": 179480000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-25-046056"
+ },
+ "burn6": {
+  "end": "2024-12-31",
+  "start": "2024-07-01",
+  "cash_used_ops": 34683000.0,
+  "capex": 1816000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-03-24",
+  "shares": 31351480
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 18,
+  "from": "2024-12-26",
+  "to": "2025-04-25",
+  "trades": []
+ },
+ "drug": "ACR-368",
+ "trials": {
+  "query": "acrivon therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 2,
+  "examples": []
+ }
+}

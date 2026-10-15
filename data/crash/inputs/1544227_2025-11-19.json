@@ -1,0 +1,50 @@
+{
+ "id": "1544227_2025-11-19",
+ "kind": "crash",
+ "cik": "1544227",
+ "name": "Tempest Therapeutics, Inc.",
+ "date": "2025-11-19",
+ "asof": "2025-11-21",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-11-21",
+  "adj_close": 3.5
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 7514000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001193125-25-265946"
+ },
+ "burn6": {
+  "end": "2025-09-30",
+  "start": "2025-04-01",
+  "cash_used_ops": 15210000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-10-30",
+  "shares": 4440161
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Accordingly, there is substantial doubt regarding our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2025-08-21",
+  "to": "2025-12-19",
+  "trades": []
+ },
+ "drug": "ERI-2003",
+ "trials": {
+  "query": "tempest therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

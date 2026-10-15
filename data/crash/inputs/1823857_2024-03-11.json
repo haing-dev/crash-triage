@@ -1,0 +1,50 @@
+{
+ "id": "1823857_2024-03-11",
+ "kind": "crash",
+ "cik": "1823857",
+ "name": "Viveon Health Acquisition Corp.",
+ "date": "2024-03-11",
+ "asof": "2024-03-11",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-03-11",
+  "adj_close": 0.0018
+ },
+ "balance": {
+  "end": "2022-12-31",
+  "cash": 19847,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001493152-24-007415"
+ },
+ "burn6": {
+  "end": "2022-12-31",
+  "start": "2022-07-01",
+  "cash_used_ops": 729419.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-02-21",
+  "shares": 6648665
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "The liquidity condition and date for mandatory liquidation and subsequent dissolution raise substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2023-12-12",
+  "to": "2024-04-10",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "viveon health acquisition",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "id": "1133818_2022-11-07",
+ "kind": "crash",
+ "cik": "1133818",
+ "name": "BIO-PATH HOLDINGS, INC.",
+ "date": "2022-11-07",
+ "asof": "2022-11-08",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-11-08",
+  "adj_close": 28.4
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 17024000,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0001558370-22-013644"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 6729000.0,
+  "capex": 21000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-08-09",
+  "shares": 7160164
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2022-08-09",
+  "to": "2022-12-07",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "bio path",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT02781883",
+    "drugs": [
+     "BP1001 in combination with Ventoclax plus decitabine",
+     "BP1001 plus decitabine"
+    ]
+   }
+  ]
+ }
+}

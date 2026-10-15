@@ -1,0 +1,141 @@
+{
+ "id": "1816736_2024-04-01",
+ "kind": "crash",
+ "cik": "1816736",
+ "name": "Disc Medicine, Inc.",
+ "date": "2024-04-01",
+ "asof": "2024-04-04",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-04-04",
+  "adj_close": 29.5
+ },
+ "balance": {
+  "end": "2023-12-31",
+  "cash": 360382000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-24-034432"
+ },
+ "burn6": {
+  "end": "2023-12-31",
+  "start": "2023-07-01",
+  "cash_used_ops": 25272000.0,
+  "capex": 48000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-02-29",
+  "shares": 24681028
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 15,
+  "from": "2024-01-02",
+  "to": "2024-05-01",
+  "trades": [
+   {
+    "date": "2024-04-11",
+    "filed": "2024-04-15",
+    "code": "S",
+    "value": 78897,
+    "who": "White William Richard"
+   },
+   {
+    "date": "2024-04-11",
+    "filed": "2024-04-15",
+    "code": "S",
+    "value": 2510,
+    "who": "White William Richard"
+   },
+   {
+    "date": "2024-03-05",
+    "filed": "2024-03-07",
+    "code": "S",
+    "value": 1922540,
+    "who": "Bitterman Kevin"
+   },
+   {
+    "date": "2024-01-23",
+    "filed": "2024-01-25",
+    "code": "S",
+    "value": 5581125,
+    "who": "Bitterman Kevin"
+   },
+   {
+    "date": "2024-01-23",
+    "filed": "2024-01-25",
+    "code": "S",
+    "value": 1353000,
+    "who": "Bitterman Kevin"
+   },
+   {
+    "date": "2024-01-23",
+    "filed": "2024-01-25",
+    "code": "S",
+    "value": 3213375,
+    "who": "Atlas Venture Fund X, L.P."
+   },
+   {
+    "date": "2024-01-23",
+    "filed": "2024-01-25",
+    "code": "S",
+    "value": 5581125,
+    "who": "Atlas Venture Fund X, L.P."
+   },
+   {
+    "date": "2024-01-23",
+    "filed": "2024-01-25",
+    "code": "S",
+    "value": 1353000,
+    "who": "Atlas Venture Fund X, L.P."
+   },
+   {
+    "date": "2024-01-10",
+    "filed": "2024-01-12",
+    "code": "S",
+    "value": 1280000,
+    "who": "Bitterman Kevin"
+   },
+   {
+    "date": "2024-01-10",
+    "filed": "2024-01-12",
+    "code": "S",
+    "value": 1920000,
+    "who": "Atlas Venture Fund X, L.P."
+   },
+   {
+    "date": "2024-01-10",
+    "filed": "2024-01-12",
+    "code": "S",
+    "value": 1280000,
+    "who": "Atlas Venture Fund X, L.P."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "disc medicine",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05320198",
+    "drugs": [
+     "DISC-0974"
+    ]
+   },
+   {
+    "nct": "NCT05883748",
+    "drugs": [
+     "DISC-1459",
+     "DISC-1459"
+    ]
+   }
+  ]
+ }
+}

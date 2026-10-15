@@ -1,0 +1,92 @@
+{
+ "id": "1357459_2022-08-12",
+ "kind": "crash",
+ "cik": "1357459",
+ "name": "PALISADE BIO, INC.",
+ "date": "2022-08-12",
+ "asof": "2022-08-12",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-08-12",
+  "adj_close": 180.0
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 6644000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-22-009812"
+ },
+ "burn6": {
+  "end": "2022-03-31",
+  "start": "2021-10-01",
+  "cash_used_ops": 6819000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-05-10",
+  "shares": 21880169
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "However, the Company\u2019s current working capital, anticipated operating expenses and net operating losses raise substantial doubt about its ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2022-05-14",
+  "to": "2022-09-11",
+  "trades": [
+   {
+    "date": "2022-09-01",
+    "filed": "2022-09-02",
+    "code": "P",
+    "value": 2799,
+    "who": "Finley John David"
+   },
+   {
+    "date": "2022-08-23",
+    "filed": "2022-08-25",
+    "code": "P",
+    "value": 1176,
+    "who": "Finley John David"
+   },
+   {
+    "date": "2022-08-16",
+    "filed": "2022-08-18",
+    "code": "P",
+    "value": 10000,
+    "who": "Hallam Thomas"
+   },
+   {
+    "date": "2022-08-16",
+    "filed": "2022-08-18",
+    "code": "P",
+    "value": 25000,
+    "who": "Finley John David"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "palisade bio",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05470387",
+    "drugs": [
+     "LB1148"
+    ]
+   },
+   {
+    "nct": "NCT02836470",
+    "drugs": [
+     "LB1148"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,85 @@
+{
+ "id": "1645666_2022-05-04",
+ "kind": "crash",
+ "cik": "1645666",
+ "name": "Kezar Life Sciences, Inc.",
+ "date": "2022-05-04",
+ "asof": "2022-05-09",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-05-09",
+  "adj_close": 57.1
+ },
+ "balance": {
+  "end": "2021-12-31",
+  "cash": 208355000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-22-004085"
+ },
+ "burn6": {
+  "end": "2021-12-31",
+  "start": "2021-07-01",
+  "cash_used_ops": 21035000.0,
+  "capex": 292000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-03-15",
+  "shares": 56712716
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 2,
+  "from": "2022-02-03",
+  "to": "2022-06-03",
+  "trades": [
+   {
+    "date": "2022-03-18",
+    "filed": "2022-03-22",
+    "code": "P",
+    "value": 239400,
+    "who": "BERGER FRANKLIN M"
+   },
+   {
+    "date": "2022-03-18",
+    "filed": "2022-03-22",
+    "code": "P",
+    "value": 765000,
+    "who": "BERGER FRANKLIN M"
+   },
+   {
+    "date": "2022-03-21",
+    "filed": "2022-03-22",
+    "code": "P",
+    "value": 295400,
+    "who": "BERGER FRANKLIN M"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "kezar life sciences",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04628936",
+    "drugs": [
+     "KZR-616"
+    ]
+   },
+   {
+    "nct": "NCT03393013",
+    "drugs": [
+     "KZR-616"
+    ]
+   }
+  ]
+ }
+}

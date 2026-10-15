@@ -1,0 +1,49 @@
+{
+ "id": "1833214_2022-03-02",
+ "kind": "crash",
+ "cik": "1833214",
+ "name": "SAB Biotherapeutics, Inc.",
+ "date": "2022-03-02",
+ "asof": "2022-03-07",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-03-07",
+  "adj_close": 23.1
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 667873,
+  "parts": [
+   "Cash"
+  ],
+  "accn": "0001493152-21-029551"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 190182.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-11-15",
+  "shares": 43474779
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 9,
+  "from": "2021-12-02",
+  "to": "2022-04-01",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "sab biotherapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

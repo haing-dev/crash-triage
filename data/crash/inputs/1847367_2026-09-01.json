@@ -1,0 +1,138 @@
+{
+ "id": "1847367_2026-09-01",
+ "kind": "crash",
+ "cik": "1847367",
+ "name": "ALUMIS INC.",
+ "date": "2026-09-01",
+ "asof": "2026-09-01",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-09-01",
+  "adj_close": 9.47
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 63706000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001847367-26-000018"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": 168582000.0,
+  "capex": 401000.0,
+  "periods": 2
+ },
+ "shares": null,
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 13,
+  "from": "2026-06-03",
+  "to": "2026-10-01",
+  "trades": [
+   {
+    "date": "2026-09-04",
+    "filed": "2026-09-09",
+    "code": "P",
+    "value": 2458842,
+    "who": "AKKARAJU SRINIVAS"
+   },
+   {
+    "date": "2026-09-04",
+    "filed": "2026-09-09",
+    "code": "P",
+    "value": 2458842,
+    "who": "AKKARAJU SRINIVAS"
+   },
+   {
+    "date": "2026-09-08",
+    "filed": "2026-09-09",
+    "code": "S",
+    "value": 507019,
+    "who": "AKKARAJU SRINIVAS"
+   },
+   {
+    "date": "2026-09-08",
+    "filed": "2026-09-09",
+    "code": "S",
+    "value": 507009,
+    "who": "AKKARAJU SRINIVAS"
+   },
+   {
+    "date": "2026-09-08",
+    "filed": "2026-09-09",
+    "code": "P",
+    "value": 2904291,
+    "who": "AKKARAJU SRINIVAS"
+   },
+   {
+    "date": "2026-09-08",
+    "filed": "2026-09-09",
+    "code": "P",
+    "value": 2904280,
+    "who": "AKKARAJU SRINIVAS"
+   },
+   {
+    "date": "2026-08-03",
+    "filed": "2026-08-05",
+    "code": "S",
+    "value": 86546,
+    "who": "Schroer John R."
+   },
+   {
+    "date": "2026-08-03",
+    "filed": "2026-08-05",
+    "code": "S",
+    "value": 35969,
+    "who": "Pangali Sanam"
+   },
+   {
+    "date": "2026-08-03",
+    "filed": "2026-08-05",
+    "code": "S",
+    "value": 70988,
+    "who": "Hardiman Roy C."
+   },
+   {
+    "date": "2026-08-03",
+    "filed": "2026-08-05",
+    "code": "S",
+    "value": 68457,
+    "who": "Goldstein David M"
+   },
+   {
+    "date": "2026-08-03",
+    "filed": "2026-08-05",
+    "code": "S",
+    "value": 64527,
+    "who": "Drappa Jorn"
+   },
+   {
+    "date": "2026-08-03",
+    "filed": "2026-08-05",
+    "code": "S",
+    "value": 67824,
+    "who": "Bradley Mark Christopher"
+   },
+   {
+    "date": "2026-07-06",
+    "filed": "2026-07-08",
+    "code": "S",
+    "value": 140000,
+    "who": "Pangali Sanam"
+   }
+  ]
+ },
+ "drug": "envudeucitinib",
+ "trials": {
+  "query": "alumis",
+  "other_trials": 0,
+  "crashed_drug_trials": 2,
+  "examples": []
+ }
+}

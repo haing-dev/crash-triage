@@ -1,0 +1,50 @@
+{
+ "id": "1896212_2023-09-25",
+ "kind": "crash",
+ "cik": "1896212",
+ "name": "CDT Equity Inc.",
+ "date": "2023-09-25",
+ "asof": "2023-09-27",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-09-27",
+  "adj_close": 472500000.0
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 277761,
+  "parts": [
+   "Cash"
+  ],
+  "accn": "0001493152-23-028647"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 1220554.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-03-28",
+  "shares": 13979000
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "As a result, these factors raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 2,
+  "from": "2023-06-27",
+  "to": "2023-10-25",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "cdt equity",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "id": "1785173_2023-10-10",
+ "kind": "crash",
+ "cik": "1785173",
+ "name": "89bio, Inc.",
+ "date": "2023-10-10",
+ "asof": "2023-10-13",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-10-13",
+  "adj_close": 7.62
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 245441000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-23-040702"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 64532000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-07-31",
+  "shares": 75480884
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2023-07-12",
+  "to": "2023-11-09",
+  "trades": [
+   {
+    "date": "2023-07-17",
+    "filed": "2023-07-18",
+    "code": "S",
+    "value": 235000,
+    "who": "LAPORTE KATHLEEN"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "89bio",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05852431",
+    "drugs": [
+     "Pegozafermin"
+    ]
+   }
+  ]
+ }
+}

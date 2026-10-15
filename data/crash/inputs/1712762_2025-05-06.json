@@ -1,0 +1,50 @@
+{
+ "id": "1712762_2025-05-06",
+ "kind": "crash",
+ "cik": "1712762",
+ "name": "bioAffinity Technologies, Inc.",
+ "date": "2025-05-06",
+ "asof": "2025-05-08",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-05-08",
+  "adj_close": 90.9
+ },
+ "balance": {
+  "end": "2024-12-31",
+  "cash": 1105291,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001641172-25-001840"
+ },
+ "burn6": {
+  "end": "2024-12-31",
+  "start": "2024-07-01",
+  "cash_used_ops": 3386395.0,
+  "capex": 9411.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-03-31",
+  "shares": 18255824
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "WithumSmith+Brown, PC, our independent registered public accounting firm for the fiscal year ended December 31, 2024, has included an explanatory paragraph in its opinion that accompanies our audited consolidated financial statements as of and for the year ended December 31, 2024, indicating that ou"
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2025-02-05",
+  "to": "2025-06-05",
+  "trades": []
+ },
+ "drug": "CyPath Lung",
+ "trials": {
+  "query": "bioaffinity technologies",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "id": "1829635_2025-02-25",
+ "kind": "crash",
+ "cik": "1829635",
+ "name": "Transcode Therapeutics, Inc.",
+ "date": "2025-02-25",
+ "asof": "2025-02-25",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-02-25",
+  "adj_close": 120.12
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 1875862,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-24-015731"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": 6252383.0,
+  "capex": 17425.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-11-04",
+  "shares": 17265658
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Due to the Company\u2019s recurring and expected continuing losses from operations, the Company has concluded there is substantial doubt concerning its ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2024-11-27",
+  "to": "2025-03-27",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "transcode therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06260774",
+    "drugs": [
+     "TTX-MC138"
+    ]
+   }
+  ]
+ }
+}

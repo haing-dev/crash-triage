@@ -1,0 +1,57 @@
+{
+ "id": "1069308_2023-03-17",
+ "kind": "crash",
+ "cik": "1069308",
+ "name": "Acer Therapeutics Inc.",
+ "date": "2023-03-17",
+ "asof": "2023-03-17",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-03-17",
+  "adj_close": 0.67
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 6377923,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001564590-22-037680"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 18940403.0,
+  "capex": 6910.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-11-01",
+  "shares": 16373611
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These factors individually and collectively raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2022-12-17",
+  "to": "2023-04-16",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "acer therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05432466",
+    "drugs": [
+     "ACER-002 (celiprolol) 200 mg BID"
+    ]
+   }
+  ]
+ }
+}

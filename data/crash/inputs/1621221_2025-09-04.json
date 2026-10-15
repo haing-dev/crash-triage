@@ -1,0 +1,50 @@
+{
+ "id": "1621221_2025-09-04",
+ "kind": "crash",
+ "cik": "1621221",
+ "name": "ARTELO BIOSCIENCES, INC.",
+ "date": "2025-09-04",
+ "asof": "2025-09-04",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-09-04",
+  "adj_close": 13.05
+ },
+ "balance": {
+  "end": "2025-06-30",
+  "cash": 2066000,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0001640334-25-001429"
+ },
+ "burn6": {
+  "end": "2025-06-30",
+  "start": "2025-01-01",
+  "cash_used_ops": 2111000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-08-12",
+  "shares": 1321552
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These conditions raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2025-06-06",
+  "to": "2025-10-04",
+  "trades": []
+ },
+ "drug": "ART27.13",
+ "trials": {
+  "query": "artelo biosciences",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

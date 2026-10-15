@@ -1,0 +1,47 @@
+{
+ "id": "1860871_2024-01-26",
+ "kind": "crash",
+ "cik": "1860871",
+ "name": "Tevogen Inc.",
+ "date": "2024-01-26",
+ "asof": "2024-01-29",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-01-29",
+  "adj_close": 277.5
+ },
+ "balance": {
+  "end": "2023-09-30",
+  "cash": 25000000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001493152-23-040622"
+ },
+ "burn6": {
+  "end": "2023-09-30",
+  "start": "2023-04-01",
+  "cash_used_ops": 605737.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": null,
+ "going_concern": {
+  "flag": true,
+  "quote": "Management has also determined that the mandatory liquidation and subsequent dissolution described in the financial statements, should the Company be unable to complete a business combination, raises substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 9,
+  "from": "2023-10-28",
+  "to": "2024-02-25",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "tevogen",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

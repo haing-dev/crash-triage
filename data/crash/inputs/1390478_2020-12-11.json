@@ -1,0 +1,59 @@
+{
+ "id": "1390478_2020-12-11",
+ "kind": "crash",
+ "cik": "1390478",
+ "name": "SELLAS Life Sciences Group, Inc.",
+ "date": "2020-12-11",
+ "asof": "2020-12-14",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2020-12-14",
+  "adj_close": 6.69
+ },
+ "balance": {
+  "end": "2020-09-30",
+  "cash": 8203000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001390478-20-000037"
+ },
+ "burn6": {
+  "end": "2020-09-30",
+  "start": "2020-04-01",
+  "cash_used_ops": 7010000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2020-11-13",
+  "shares": 9461978
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "The Company has incurred net losses and negative cash flows from operations since inception and it expects to generate losses from operations for the foreseeable future primarily due to research and development costs for its product candidates, which raises substantial doubt about the Company\u2019s abil"
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2020-09-12",
+  "to": "2021-01-10",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "sellas life sciences",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03761914",
+    "drugs": [
+     "galinpepimut-S",
+     "pembrolizumab",
+     "Montanide"
+    ]
+   }
+  ]
+ }
+}

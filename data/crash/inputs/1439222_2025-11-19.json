@@ -1,0 +1,128 @@
+{
+ "id": "1439222_2025-11-19",
+ "kind": "crash",
+ "cik": "1439222",
+ "name": "AGIOS PHARMACEUTICALS, INC.",
+ "date": "2025-11-19",
+ "asof": "2025-11-19",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-11-19",
+  "adj_close": 22.34
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 1257201000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0001439222-25-000116"
+ },
+ "burn6": {
+  "end": "2025-09-30",
+  "start": "2025-04-01",
+  "cash_used_ops": 165275000.0,
+  "capex": 2430000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-10-24",
+  "shares": 58313812
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 9,
+  "from": "2025-08-21",
+  "to": "2025-12-19",
+  "trades": [
+   {
+    "date": "2025-11-12",
+    "filed": "2025-11-14",
+    "code": "S",
+    "value": 8768,
+    "who": "Scadden David"
+   },
+   {
+    "date": "2025-11-11",
+    "filed": "2025-11-13",
+    "code": "S",
+    "value": 107436,
+    "who": "Gheuens Sarah"
+   },
+   {
+    "date": "2025-10-30",
+    "filed": "2025-11-03",
+    "code": "S",
+    "value": 8762,
+    "who": "Gheuens Sarah"
+   },
+   {
+    "date": "2025-10-27",
+    "filed": "2025-10-29",
+    "code": "S",
+    "value": 145024,
+    "who": "Gheuens Sarah"
+   },
+   {
+    "date": "2025-10-08",
+    "filed": "2025-10-10",
+    "code": "S",
+    "value": 8200,
+    "who": "Scadden David"
+   },
+   {
+    "date": "2025-09-30",
+    "filed": "2025-10-02",
+    "code": "S",
+    "value": 8000,
+    "who": "Scadden David"
+   },
+   {
+    "date": "2025-09-26",
+    "filed": "2025-09-30",
+    "code": "S",
+    "value": 134247,
+    "who": "Jones Cecilia"
+   },
+   {
+    "date": "2025-09-05",
+    "filed": "2025-09-09",
+    "code": "S",
+    "value": 315091,
+    "who": "Washburn Theodore James Jr."
+   },
+   {
+    "date": "2025-08-27",
+    "filed": "2025-08-29",
+    "code": "S",
+    "value": 8000,
+    "who": "Scadden David"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "agios pharmaceuticals",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05490446",
+    "drugs": [
+     "Tebapivat"
+    ]
+   },
+   {
+    "nct": "NCT06924970",
+    "drugs": [
+     "Tebapivat"
+    ]
+   }
+  ]
+ }
+}

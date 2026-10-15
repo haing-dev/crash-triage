@@ -1,0 +1,81 @@
+{
+ "id": "1786255_2022-03-25",
+ "kind": "crash",
+ "cik": "1786255",
+ "name": "Icosavax, Inc.",
+ "date": "2022-03-25",
+ "asof": "2022-03-25",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-03-25",
+  "adj_close": 4.41
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 288571000,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+   "minus RestrictedCash",
+   "minus RestrictedCashCurrent"
+  ],
+  "accn": "0000950170-21-004623"
+ },
+ "burn6": null,
+ "shares": {
+  "end": "2021-11-12",
+  "shares": 39041805
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 16,
+  "from": "2021-12-25",
+  "to": "2022-04-24",
+  "trades": [
+   {
+    "date": "2022-04-01",
+    "filed": "2022-04-05",
+    "code": "P",
+    "value": 299798,
+    "who": "MCDADE MARK"
+   },
+   {
+    "date": "2022-03-28",
+    "filed": "2022-03-30",
+    "code": "P",
+    "value": 794611,
+    "who": "RA CAPITAL MANAGEMENT, L.P."
+   },
+   {
+    "date": "2022-03-29",
+    "filed": "2022-03-30",
+    "code": "P",
+    "value": 42271,
+    "who": "RA CAPITAL MANAGEMENT, L.P."
+   },
+   {
+    "date": "2022-03-07",
+    "filed": "2022-03-09",
+    "code": "S",
+    "value": 163009,
+    "who": "Cearley Cassia"
+   },
+   {
+    "date": "2022-03-07",
+    "filed": "2022-03-09",
+    "code": "S",
+    "value": 8620,
+    "who": "Cearley Cassia"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "icosavax",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

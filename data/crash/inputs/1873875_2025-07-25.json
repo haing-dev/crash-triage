@@ -1,0 +1,50 @@
+{
+ "id": "1873875_2025-07-25",
+ "kind": "crash",
+ "cik": "1873875",
+ "name": "Incannex Healthcare Inc.",
+ "date": "2025-07-25",
+ "asof": "2025-07-31",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-07-31",
+  "adj_close": 17.55
+ },
+ "balance": {
+  "end": "2025-03-31",
+  "cash": 6711000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001213900-25-043682"
+ },
+ "burn6": {
+  "end": "2025-03-31",
+  "start": "2024-10-01",
+  "cash_used_ops": 8838000.0,
+  "capex": 5352.087912087913,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-05-13",
+  "shares": 29433798
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Pursuant to the requirements of ASC 205-40, Presentation of Financial Statements - Going Concern, and as a result of the financial condition and other factors described herein, there is substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2025-04-26",
+  "to": "2025-08-24",
+  "trades": []
+ },
+ "drug": "IHL-42X",
+ "trials": {
+  "query": "incannex healthcare",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

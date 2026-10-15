@@ -1,0 +1,50 @@
+{
+ "id": "1697532_2024-11-29",
+ "kind": "crash",
+ "cik": "1697532",
+ "name": "Applied Therapeutics, Inc.",
+ "date": "2024-11-29",
+ "asof": "2024-12-04",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-12-04",
+  "adj_close": 1.38
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 98867000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-24-122804"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": 45925000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-11-06",
+  "shares": 116356474
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "In preparing the financial statements, management used significant estimates in the following areas, among others: prepaid and accrued expenses; warrant liabilities valuation; license revenue; research and development services revenue; stock-based compensation expense; the likelihood of realization "
+ },
+ "insiders": {
+  "form4s": 2,
+  "from": "2024-08-31",
+  "to": "2024-12-29",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "applied therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

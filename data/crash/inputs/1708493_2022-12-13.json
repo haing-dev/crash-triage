@@ -1,0 +1,67 @@
+{
+ "id": "1708493_2022-12-13",
+ "kind": "crash",
+ "cik": "1708493",
+ "name": "Harpoon Therapeutics, Inc.",
+ "date": "2022-12-13",
+ "asof": "2022-12-19",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-12-19",
+  "adj_close": 6.507
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 66098000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-22-025077"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 45554000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-10-31",
+  "shares": 33228781
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2022-09-14",
+  "to": "2023-01-12",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "harpoon therapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04471727",
+    "drugs": [
+     "Gocatamig",
+     "Atezolizumab",
+     "Ifinatamab Deruxtecan (I-DXd)"
+    ]
+   },
+   {
+    "nct": "NCT03577028",
+    "drugs": [
+     "HPN424 Fixed IV 1.3 to 150 ng/kg",
+     "HPN424 Prime Step IV 36 ng/kg Target",
+     "HPN424 1 Prime Step IV 225-300 ng/kg Target"
+    ]
+   }
+  ]
+ }
+}

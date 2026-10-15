@@ -1,0 +1,57 @@
+{
+ "id": "1609809_2021-07-22",
+ "kind": "crash",
+ "cik": "1609809",
+ "name": "Seres Therapeutics, Inc.",
+ "date": "2021-07-22",
+ "asof": "2021-07-27",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-07-27",
+  "adj_close": 142.39999
+ },
+ "balance": {
+  "end": "2021-03-31",
+  "cash": 242800000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001564590-21-023017"
+ },
+ "burn6": {
+  "end": "2021-03-31",
+  "start": "2020-10-01",
+  "cash_used_ops": 47423000.0,
+  "capex": 1568000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-04-28",
+  "shares": 91622669
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 10,
+  "from": "2021-04-23",
+  "to": "2021-08-21",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "seres therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03183141",
+    "drugs": [
+     "SER-109"
+    ]
+   }
+  ]
+ }
+}

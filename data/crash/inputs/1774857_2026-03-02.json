@@ -1,0 +1,65 @@
+{
+ "id": "1774857_2026-03-02",
+ "kind": "crash",
+ "cik": "1774857",
+ "name": "Aardvark Therapeutics, Inc.",
+ "date": "2026-03-02",
+ "asof": "2026-03-03",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-03-03",
+  "adj_close": 4.9
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 126350000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001193125-25-280260"
+ },
+ "burn6": {
+  "end": "2025-09-30",
+  "start": "2025-04-01",
+  "cash_used_ops": 25974000.0,
+  "capex": 95000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-11-03",
+  "shares": 21773272
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2025-12-02",
+  "to": "2026-04-01",
+  "trades": [
+   {
+    "date": "2025-12-11",
+    "filed": "2025-12-12",
+    "code": "P",
+    "value": 43200,
+    "who": "Sun Nelson"
+   },
+   {
+    "date": "2025-12-11",
+    "filed": "2025-12-12",
+    "code": "P",
+    "value": 101395,
+    "who": "Lee Tien-Li"
+   }
+  ]
+ },
+ "drug": "ARD-101",
+ "trials": {
+  "query": "aardvark therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 2,
+  "examples": []
+ }
+}

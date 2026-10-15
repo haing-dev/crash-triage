@@ -1,0 +1,94 @@
+{
+ "id": "1790340_2026-01-08",
+ "kind": "crash",
+ "cik": "1790340",
+ "name": "Immuneering Corp",
+ "date": "2026-01-08",
+ "asof": "2026-01-13",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-01-13",
+  "adj_close": 4.135
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 227563077,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001790340-25-000135"
+ },
+ "burn6": {
+  "end": "2025-09-30",
+  "start": "2025-04-01",
+  "cash_used_ops": 21423359.0,
+  "capex": 9371.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-09-03",
+  "shares": 25938064
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 14,
+  "from": "2025-10-10",
+  "to": "2026-02-07",
+  "trades": [
+   {
+    "date": "2026-01-16",
+    "filed": "2026-01-21",
+    "code": "P",
+    "value": 24990,
+    "who": "Brakewood Harold Eugene"
+   },
+   {
+    "date": "2026-01-15",
+    "filed": "2026-01-20",
+    "code": "P",
+    "value": 101041,
+    "who": "Schall Thomas J."
+   },
+   {
+    "date": "2026-01-15",
+    "filed": "2026-01-16",
+    "code": "P",
+    "value": 10502,
+    "who": "Hall Brett Matthew"
+   },
+   {
+    "date": "2026-01-13",
+    "filed": "2026-01-15",
+    "code": "P",
+    "value": 10906,
+    "who": "Neufeld Leah R"
+   },
+   {
+    "date": "2026-01-12",
+    "filed": "2026-01-14",
+    "code": "P",
+    "value": 86904,
+    "who": "Feinberg Peter"
+   }
+  ]
+ },
+ "drug": "atebimetinib",
+ "trials": {
+  "query": "immuneering",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05585320",
+    "drugs": [
+     "IMM-1-104 Monotherapy (Treatment Group A)",
+     "IMM-1-104 + modified Gemcitabine/nab-Paclitaxel (Treatment Group B)",
+     "IMM-1-104 + modified FOLFIRINOX (Treatment Group C)"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,100 @@
+{
+ "id": "1420720_2025-04-07",
+ "kind": "crash",
+ "cik": "1420720",
+ "name": "iBio, Inc.",
+ "date": "2025-04-07",
+ "asof": "2025-04-08",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-04-08",
+  "adj_close": 1.2
+ },
+ "balance": {
+  "end": "2024-12-31",
+  "cash": 7015000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001420720-25-000012"
+ },
+ "burn6": {
+  "end": "2024-12-31",
+  "start": "2024-07-01",
+  "cash_used_ops": 7584000.0,
+  "capex": 1000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-02-07",
+  "shares": 9874676
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "\u200b The history of significant losses, the negative cash flow from operations, the limited cash resources on hand and the dependence by the Company on its ability to obtain additional financing to fund its operations after the current cash resources are exhausted raise substantial doubt about the Comp"
+ },
+ "insiders": {
+  "form4s": 10,
+  "from": "2025-01-07",
+  "to": "2025-05-07",
+  "trades": [
+   {
+    "date": "2025-01-10",
+    "filed": "2025-01-13",
+    "code": "P",
+    "value": 25000,
+    "who": "Duran Felipe"
+   },
+   {
+    "date": "2025-01-10",
+    "filed": "2025-01-13",
+    "code": "P",
+    "value": 25000,
+    "who": "Brenner Martin"
+   },
+   {
+    "date": "2025-01-10",
+    "filed": "2025-01-13",
+    "code": "P",
+    "value": 25000,
+    "who": "Banjak Marc"
+   },
+   {
+    "date": "2025-01-10",
+    "filed": "2025-01-13",
+    "code": "P",
+    "value": 49999,
+    "who": "Arkowitz David"
+   },
+   {
+    "date": "2025-01-10",
+    "filed": "2025-01-13",
+    "code": "P",
+    "value": 4999,
+    "who": "Clark William D"
+   },
+   {
+    "date": "2025-01-10",
+    "filed": "2025-01-13",
+    "code": "P",
+    "value": 499999,
+    "who": "Parada Antonio Bernardino Guimaraes"
+   },
+   {
+    "date": "2025-01-10",
+    "filed": "2025-01-13",
+    "code": "P",
+    "value": 25000,
+    "who": "Sender Gary"
+   }
+  ]
+ },
+ "drug": "IBIO-600",
+ "trials": {
+  "query": "ibio",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

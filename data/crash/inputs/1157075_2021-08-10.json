@@ -1,0 +1,49 @@
+{
+ "id": "1157075_2021-08-10",
+ "kind": "crash",
+ "cik": "1157075",
+ "name": "PharmaCyte Biotech, Inc.",
+ "date": "2021-08-10",
+ "asof": "2021-08-11",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-08-11",
+  "adj_close": 2.86
+ },
+ "balance": {
+  "end": "2021-04-30",
+  "cash": 2202106,
+  "parts": [
+   "Cash"
+  ],
+  "accn": "0001683168-21-003377"
+ },
+ "burn6": {
+  "end": "2021-04-30",
+  "start": "2020-11-01",
+  "cash_used_ops": 1529436.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-08-09",
+  "shares": 1611671
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2021-05-12",
+  "to": "2021-09-09",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "pharmacyte biotech",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

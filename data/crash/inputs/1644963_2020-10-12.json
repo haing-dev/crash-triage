@@ -1,0 +1,57 @@
+{
+ "id": "1644963_2020-10-12",
+ "kind": "crash",
+ "cik": "1644963",
+ "name": "AVENUE THERAPEUTICS, INC.",
+ "date": "2020-10-12",
+ "asof": "2020-10-16",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2020-10-16",
+  "adj_close": 4320.0
+ },
+ "balance": {
+  "end": "2020-06-30",
+  "cash": 5257000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001104659-20-095653"
+ },
+ "burn6": {
+  "end": "2020-06-30",
+  "start": "2020-01-01",
+  "cash_used_ops": 2488000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2020-08-01",
+  "shares": 16702803
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2020-07-14",
+  "to": "2020-11-11",
+  "trades": [
+   {
+    "date": "2020-08-20",
+    "filed": "2020-08-21",
+    "code": "S",
+    "value": 46579,
+    "who": "Vazzano Joseph Walter"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "avenue therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

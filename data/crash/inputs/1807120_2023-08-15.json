@@ -1,0 +1,72 @@
+{
+ "id": "1807120_2023-08-15",
+ "kind": "crash",
+ "cik": "1807120",
+ "name": "Design Therapeutics, Inc.",
+ "date": "2023-08-15",
+ "asof": "2023-08-18",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-08-18",
+  "adj_close": 2.09
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 303088000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-23-042411"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 31228000.0,
+  "capex": 176000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-08-09",
+  "shares": 55986657
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 10,
+  "from": "2023-05-17",
+  "to": "2023-09-14",
+  "trades": [
+   {
+    "date": "2023-08-29",
+    "filed": "2023-08-30",
+    "code": "P",
+    "value": 27670,
+    "who": "Prasad Deepa"
+   },
+   {
+    "date": "2023-08-28",
+    "filed": "2023-08-30",
+    "code": "P",
+    "value": 591250,
+    "who": "William Arsani"
+   },
+   {
+    "date": "2023-08-29",
+    "filed": "2023-08-30",
+    "code": "P",
+    "value": 4782400,
+    "who": "William Arsani"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "design therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

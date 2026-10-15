@@ -1,0 +1,71 @@
+{
+ "id": "1875558_2024-11-14",
+ "kind": "crash",
+ "cik": "1875558",
+ "name": "Nuvectis Pharma, Inc.",
+ "date": "2024-11-14",
+ "asof": "2024-11-15",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-11-15",
+  "adj_close": 4.95
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 17169000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-24-014340"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": 5424000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-11-01",
+  "shares": 19320973
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2024-08-16",
+  "to": "2024-12-14",
+  "trades": [
+   {
+    "date": "2024-11-19",
+    "filed": "2024-11-20",
+    "code": "P",
+    "value": 9980,
+    "who": "Poradosu Enrique"
+   },
+   {
+    "date": "2024-11-15",
+    "filed": "2024-11-18",
+    "code": "P",
+    "value": 98400,
+    "who": "BENTSUR RON"
+   },
+   {
+    "date": "2024-11-07",
+    "filed": "2024-11-08",
+    "code": "S",
+    "value": 22478,
+    "who": "Carson Michael J."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "nuvectis pharma",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

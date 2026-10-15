@@ -1,0 +1,50 @@
+{
+ "id": "1824293_2025-03-31",
+ "kind": "crash",
+ "cik": "1824293",
+ "name": "GRI Bio, Inc.",
+ "date": "2025-03-31",
+ "asof": "2025-03-31",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-03-31",
+  "adj_close": 89.6
+ },
+ "balance": {
+  "end": "2024-12-31",
+  "cash": 5028000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001824293-25-000050"
+ },
+ "burn6": {
+  "end": "2024-12-31",
+  "start": "2024-07-01",
+  "cash_used_ops": 4267000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-03-11",
+  "shares": 525358
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "\u2022Our auditors have expressed substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 7,
+  "from": "2024-12-31",
+  "to": "2025-04-30",
+  "trades": []
+ },
+ "drug": "GRI-0621",
+ "trials": {
+  "query": "gri bio",
+  "other_trials": 0,
+  "crashed_drug_trials": 1,
+  "examples": []
+ }
+}

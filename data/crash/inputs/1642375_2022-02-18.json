@@ -1,0 +1,50 @@
+{
+ "id": "1642375_2022-02-18",
+ "kind": "crash",
+ "cik": "1642375",
+ "name": "Guardion Health Sciences, Inc.",
+ "date": "2022-02-18",
+ "asof": "2022-02-23",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-02-23",
+  "adj_close": 5.07554
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 10558662,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001493152-21-027760"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 6658102.0,
+  "capex": 51574.98441176471,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-11-01",
+  "shares": 24426993
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 2,
+  "from": "2021-11-20",
+  "to": "2022-03-20",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "guardion health sciences",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

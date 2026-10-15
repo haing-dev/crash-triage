@@ -1,0 +1,177 @@
+{
+ "id": "1281895_2025-05-27",
+ "kind": "crash",
+ "cik": "1281895",
+ "name": "ROCKET PHARMACEUTICALS, INC.",
+ "date": "2025-05-27",
+ "asof": "2025-05-27",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-05-27",
+  "adj_close": 2.33
+ },
+ "balance": {
+  "end": "2025-03-31",
+  "cash": 318164000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-25-066898"
+ },
+ "burn6": {
+  "end": "2025-03-31",
+  "start": "2024-10-01",
+  "cash_used_ops": 102732000.0,
+  "capex": 673000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-05-02",
+  "shares": 107737919
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 16,
+  "from": "2025-02-26",
+  "to": "2025-06-26",
+  "trades": [
+   {
+    "date": "2025-05-20",
+    "filed": "2025-05-22",
+    "code": "S",
+    "value": 2301,
+    "who": "Militello John"
+   },
+   {
+    "date": "2025-05-20",
+    "filed": "2025-05-22",
+    "code": "S",
+    "value": 5163,
+    "who": "Schwartz Jonathan David"
+   },
+   {
+    "date": "2025-05-20",
+    "filed": "2025-05-22",
+    "code": "S",
+    "value": 4944,
+    "who": "Patel Kinnari"
+   },
+   {
+    "date": "2025-05-20",
+    "filed": "2025-05-22",
+    "code": "S",
+    "value": 14523,
+    "who": "Shah Gaurav"
+   },
+   {
+    "date": "2025-05-20",
+    "filed": "2025-05-22",
+    "code": "S",
+    "value": 3784,
+    "who": "Wilson Martin"
+   },
+   {
+    "date": "2025-05-16",
+    "filed": "2025-05-20",
+    "code": "S",
+    "value": 4276,
+    "who": "Militello John"
+   },
+   {
+    "date": "2025-05-16",
+    "filed": "2025-05-20",
+    "code": "S",
+    "value": 9198,
+    "who": "Patel Kinnari"
+   },
+   {
+    "date": "2025-05-16",
+    "filed": "2025-05-20",
+    "code": "S",
+    "value": 10327,
+    "who": "Schwartz Jonathan David"
+   },
+   {
+    "date": "2025-05-16",
+    "filed": "2025-05-20",
+    "code": "S",
+    "value": 23638,
+    "who": "Shah Gaurav"
+   },
+   {
+    "date": "2025-05-16",
+    "filed": "2025-05-20",
+    "code": "S",
+    "value": 6175,
+    "who": "Wilson Martin"
+   },
+   {
+    "date": "2025-04-22",
+    "filed": "2025-04-24",
+    "code": "S",
+    "value": 5139,
+    "who": "Militello John"
+   },
+   {
+    "date": "2025-04-10",
+    "filed": "2025-04-14",
+    "code": "P",
+    "value": 101600,
+    "who": "Shah Gaurav"
+   },
+   {
+    "date": "2025-04-09",
+    "filed": "2025-04-10",
+    "code": "P",
+    "value": 99165,
+    "who": "Patel Kinnari"
+   },
+   {
+    "date": "2025-04-04",
+    "filed": "2025-04-08",
+    "code": "S",
+    "value": 39647,
+    "who": "Ondrey Aaron"
+   },
+   {
+    "date": "2024-05-17",
+    "filed": "2025-02-27",
+    "code": "S",
+    "value": 64306,
+    "who": "Schwartz Jonathan David"
+   },
+   {
+    "date": "2024-08-16",
+    "filed": "2025-02-27",
+    "code": "S",
+    "value": 50135,
+    "who": "Schwartz Jonathan David"
+   },
+   {
+    "date": "2024-11-21",
+    "filed": "2025-02-27",
+    "code": "S",
+    "value": 40416,
+    "who": "Schwartz Jonathan David"
+   },
+   {
+    "date": "2025-02-25",
+    "filed": "2025-02-27",
+    "code": "S",
+    "value": 69109,
+    "who": "Schwartz Jonathan David"
+   }
+  ]
+ },
+ "drug": "RP-A501",
+ "trials": {
+  "query": "rocket pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 2,
+  "examples": []
+ }
+}

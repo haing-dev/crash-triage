@@ -1,0 +1,107 @@
+{
+ "id": "1633070_2022-12-16",
+ "kind": "crash",
+ "cik": "1633070",
+ "name": "Axcella Health Inc.",
+ "date": "2022-12-16",
+ "asof": "2022-12-20",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-12-20",
+  "adj_close": 8.225
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 25425000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001633070-22-000028"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 37188000.0,
+  "capex": 243000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-10-28",
+  "shares": 73554837
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Accordingly, the foregoing conditions, taken together, raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2022-09-17",
+  "to": "2023-01-15",
+  "trades": [
+   {
+    "date": "2022-10-19",
+    "filed": "2022-10-19",
+    "code": "S",
+    "value": 25027,
+    "who": "Hinshaw William"
+   },
+   {
+    "date": "2022-10-13",
+    "filed": "2022-10-17",
+    "code": "P",
+    "value": 4499999,
+    "who": "Flagship Ventures Fund IV General Partner LLC"
+   },
+   {
+    "date": "2022-10-13",
+    "filed": "2022-10-17",
+    "code": "P",
+    "value": 4522026,
+    "who": "Flagship Ventures Fund IV General Partner LLC"
+   },
+   {
+    "date": "2022-10-13",
+    "filed": "2022-10-17",
+    "code": "P",
+    "value": 1500000,
+    "who": "Flagship Ventures Fund IV General Partner LLC"
+   },
+   {
+    "date": "2022-10-13",
+    "filed": "2022-10-17",
+    "code": "P",
+    "value": 1507342,
+    "who": "Flagship Ventures Fund IV General Partner LLC"
+   },
+   {
+    "date": "2022-10-13",
+    "filed": "2022-10-17",
+    "code": "P",
+    "value": 4999999,
+    "who": "Flagship Ventures Fund IV General Partner LLC"
+   },
+   {
+    "date": "2022-10-13",
+    "filed": "2022-10-17",
+    "code": "P",
+    "value": 5999999,
+    "who": "Societe des Produits Nestle S.A."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "axcella health",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04880187",
+    "drugs": [
+     "AXA1125"
+    ]
+   }
+  ]
+ }
+}

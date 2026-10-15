@@ -1,0 +1,57 @@
+{
+ "id": "1701478_2025-01-15",
+ "kind": "crash",
+ "cik": "1701478",
+ "name": "Azitra, Inc.",
+ "date": "2025-01-15",
+ "asof": "2025-01-17",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-01-17",
+  "adj_close": 1.64667
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 7260234,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001701478-24-000012"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": 4576617.0,
+  "capex": 8569.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-11-12",
+  "shares": 7626056
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These factors among others raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2024-10-17",
+  "to": "2025-02-14",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "azitra",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04731259",
+    "drugs": [
+     "ATR-04"
+    ]
+   }
+  ]
+ }
+}

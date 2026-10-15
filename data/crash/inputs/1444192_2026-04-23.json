@@ -1,0 +1,49 @@
+{
+ "id": "1444192_2026-04-23",
+ "kind": "crash",
+ "cik": "1444192",
+ "name": "Grace Therapeutics, Inc.",
+ "date": "2026-04-23",
+ "asof": "2026-04-28",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-04-28",
+  "adj_close": 2.1
+ },
+ "balance": {
+  "end": "2025-12-31",
+  "cash": 18672000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001140361-26-004924"
+ },
+ "burn6": {
+  "end": "2025-12-31",
+  "start": "2025-07-01",
+  "cash_used_ops": 5373000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-02-12",
+  "shares": 15474026
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2026-01-23",
+  "to": "2026-05-23",
+  "trades": []
+ },
+ "drug": "GTx-104",
+ "trials": {
+  "query": "grace therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

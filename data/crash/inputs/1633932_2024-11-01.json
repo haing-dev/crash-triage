@@ -1,0 +1,100 @@
+{
+ "id": "1633932_2024-11-01",
+ "kind": "crash",
+ "cik": "1633932",
+ "name": "ESSA Pharma Inc.",
+ "date": "2024-11-01",
+ "asof": "2024-11-01",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-11-01",
+  "adj_close": 0.443397
+ },
+ "balance": {
+  "end": "2024-06-30",
+  "cash": 130694452,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001558370-24-010767"
+ },
+ "burn6": {
+  "end": "2024-06-30",
+  "start": "2024-01-01",
+  "cash_used_ops": 12563062.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-08-05",
+  "shares": 44368959
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2024-08-03",
+  "to": "2024-12-01",
+  "trades": [
+   {
+    "date": "2024-11-01",
+    "filed": "2024-11-05",
+    "code": "S",
+    "value": 3064000,
+    "who": "BIOTECH GROWTH N V"
+   },
+   {
+    "date": "2024-11-01",
+    "filed": "2024-11-05",
+    "code": "S",
+    "value": 3051800,
+    "who": "BIOTECH GROWTH N V"
+   },
+   {
+    "date": "2024-11-01",
+    "filed": "2024-11-05",
+    "code": "S",
+    "value": 3058800,
+    "who": "BIOTECH GROWTH N V"
+   },
+   {
+    "date": "2024-11-01",
+    "filed": "2024-11-05",
+    "code": "S",
+    "value": 2843809,
+    "who": "BIOTECH GROWTH N V"
+   },
+   {
+    "date": "2024-10-07",
+    "filed": "2024-10-07",
+    "code": "S",
+    "value": 4185,
+    "who": "Virsik Peter"
+   },
+   {
+    "date": "2024-09-09",
+    "filed": "2024-09-09",
+    "code": "S",
+    "value": 4164,
+    "who": "Virsik Peter"
+   },
+   {
+    "date": "2024-09-03",
+    "filed": "2024-09-03",
+    "code": "S",
+    "value": 12554,
+    "who": "Virsik Peter"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "essa pharma",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

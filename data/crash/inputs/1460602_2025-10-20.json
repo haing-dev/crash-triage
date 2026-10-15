@@ -1,0 +1,50 @@
+{
+ "id": "1460602_2025-10-20",
+ "kind": "crash",
+ "cik": "1460602",
+ "name": "Orgenesis Inc.",
+ "date": "2025-10-20",
+ "asof": "2025-10-23",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-10-23",
+  "adj_close": 0.1801
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 204000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001493152-24-044972"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": 10537000.0,
+  "capex": 59000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-11-13",
+  "shares": 5169248
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "For the nine months ended September 30, 2024 and as of the date of this report, the Company has assessed its financial condition and concluded that based on current and projected cash resources and commitments, as well as other factors mentioned above, there is substantial doubt about its ability to"
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2025-07-22",
+  "to": "2025-11-19",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "orgenesis",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "id": "1789192_2021-02-25",
+ "kind": "crash",
+ "cik": "1789192",
+ "name": "Nexentis Technologies Inc.",
+ "date": "2021-02-25",
+ "asof": "2021-02-25",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-02-25",
+  "adj_close": 6860.0
+ },
+ "balance": {
+  "end": "2020-09-30",
+  "cash": 310571,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001493152-20-021059"
+ },
+ "burn6": {
+  "end": "2020-09-30",
+  "start": "2020-04-01",
+  "cash_used_ops": 385761.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2020-11-10",
+  "shares": 11202146
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "As a result, our independent registered public accounting firm has expressed substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2020-11-27",
+  "to": "2021-03-27",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "nexentis technologies",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

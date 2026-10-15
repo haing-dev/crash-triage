@@ -1,0 +1,76 @@
+{
+ "id": "1579428_2021-08-09",
+ "kind": "crash",
+ "cik": "1579428",
+ "name": "Axsome Therapeutics, Inc.",
+ "date": "2021-08-09",
+ "asof": "2021-08-13",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-08-13",
+  "adj_close": 22.86
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 141219090,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001564590-21-042710"
+ },
+ "burn6": {
+  "end": "2021-06-30",
+  "start": "2021-01-01",
+  "cash_used_ops": 52609042.0,
+  "capex": 48872.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-08-02",
+  "shares": 37681948
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2021-05-11",
+  "to": "2021-09-08",
+  "trades": [
+   {
+    "date": "2021-05-12",
+    "filed": "2021-05-13",
+    "code": "P",
+    "value": 29075,
+    "who": "Coleman Mark"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "axsome therapeutics",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04947553",
+    "drugs": [
+     "AXS-05 (dextromethorphan-bupropion)"
+    ]
+   },
+   {
+    "nct": "NCT04797715",
+    "drugs": [
+     "AXS-05"
+    ]
+   },
+   {
+    "nct": "NCT04634669",
+    "drugs": [
+     "AXS-05 (dextromethorphan-bupropion)"
+    ]
+   }
+  ]
+ }
+}

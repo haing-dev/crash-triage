@@ -1,0 +1,107 @@
+{
+ "id": "1870404_2025-01-08",
+ "kind": "crash",
+ "cik": "1870404",
+ "name": "CERO THERAPEUTICS HOLDINGS, INC.",
+ "date": "2025-01-08",
+ "asof": "2025-01-15",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-01-15",
+  "adj_close": 51.6
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 3380204,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0001213900-24-100303"
+ },
+ "burn6": {
+  "end": "2023-12-31",
+  "start": "2023-07-01",
+  "cash_used_ops": 442732.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-11-19",
+  "shares": 150312572
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These conditions raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2024-10-10",
+  "to": "2025-02-07",
+  "trades": [
+   {
+    "date": "2024-12-11",
+    "filed": "2024-12-13",
+    "code": "S",
+    "value": 107504,
+    "who": "YK Bioventures Opportunities GP I, LLC"
+   },
+   {
+    "date": "2024-12-12",
+    "filed": "2024-12-13",
+    "code": "S",
+    "value": 113018,
+    "who": "YK Bioventures Opportunities GP I, LLC"
+   },
+   {
+    "date": "2024-12-13",
+    "filed": "2024-12-13",
+    "code": "S",
+    "value": 179934,
+    "who": "YK Bioventures Opportunities GP I, LLC"
+   },
+   {
+    "date": "2024-12-06",
+    "filed": "2024-12-10",
+    "code": "S",
+    "value": 148425,
+    "who": "YK Bioventures Opportunities GP I, LLC"
+   },
+   {
+    "date": "2024-12-09",
+    "filed": "2024-12-10",
+    "code": "S",
+    "value": 93560,
+    "who": "YK Bioventures Opportunities GP I, LLC"
+   },
+   {
+    "date": "2024-12-10",
+    "filed": "2024-12-10",
+    "code": "S",
+    "value": 141385,
+    "who": "YK Bioventures Opportunities GP I, LLC"
+   },
+   {
+    "date": "2024-09-25",
+    "filed": "2024-11-20",
+    "code": "S",
+    "value": 55538,
+    "who": "SLOAN STUART M"
+   },
+   {
+    "date": "2024-10-10",
+    "filed": "2024-11-14",
+    "code": "S",
+    "value": 325000,
+    "who": "YK Bioventures Opportunities GP I, LLC"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "cero therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

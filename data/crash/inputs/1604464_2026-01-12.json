@@ -1,0 +1,94 @@
+{
+ "id": "1604464_2026-01-12",
+ "kind": "crash",
+ "cik": "1604464",
+ "name": "Atara Biotherapeutics, Inc.",
+ "date": "2026-01-12",
+ "asof": "2026-01-13",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-01-13",
+  "adj_close": 4.37
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 13712000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001193125-25-276219"
+ },
+ "burn6": {
+  "end": "2025-09-30",
+  "start": "2025-04-01",
+  "cash_used_ops": 17105000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-11-06",
+  "shares": 7210235
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These conditions raise substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2025-10-14",
+  "to": "2026-02-11",
+  "trades": [
+   {
+    "date": "2026-01-12",
+    "filed": "2026-01-14",
+    "code": "S",
+    "value": 489019,
+    "who": "Panacea Innovation Ltd"
+   },
+   {
+    "date": "2025-11-17",
+    "filed": "2025-11-19",
+    "code": "S",
+    "value": 37699,
+    "who": "Nguyen AnhCo"
+   },
+   {
+    "date": "2025-11-17",
+    "filed": "2025-11-19",
+    "code": "S",
+    "value": 739,
+    "who": "Nguyen AnhCo"
+   },
+   {
+    "date": "2025-11-17",
+    "filed": "2025-11-19",
+    "code": "S",
+    "value": 21691,
+    "who": "Grant-Huerta Yanina"
+   },
+   {
+    "date": "2025-11-17",
+    "filed": "2025-11-19",
+    "code": "S",
+    "value": 1121,
+    "who": "Grant-Huerta Yanina"
+   },
+   {
+    "date": "2025-11-17",
+    "filed": "2025-11-19",
+    "code": "S",
+    "value": 976,
+    "who": "Grant-Huerta Yanina"
+   }
+  ]
+ },
+ "drug": "tabelecleucel (EBVALLO)",
+ "trials": {
+  "query": "atara biotherapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "id": "1575142_2021-03-03",
+ "kind": "crash",
+ "cik": "1575142",
+ "name": "BIOADAPTIVES, INC.",
+ "date": "2021-03-03",
+ "asof": "2021-03-03",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-03-03",
+  "adj_close": 6.1005
+ },
+ "balance": {
+  "end": "2020-09-30",
+  "cash": 14840,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001640334-20-002835"
+ },
+ "burn6": {
+  "end": "2020-09-30",
+  "start": "2020-04-01",
+  "cash_used_ops": 54713.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2020-10-27",
+  "shares": 20083283
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "The ability to successfully resolve these factors raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2020-12-03",
+  "to": "2021-04-02",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "bioadaptives",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

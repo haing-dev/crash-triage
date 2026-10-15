@@ -1,0 +1,142 @@
+{
+ "id": "1953926_2026-01-05",
+ "kind": "crash",
+ "cik": "1953926",
+ "name": "Zenas BioPharma, Inc.",
+ "date": "2026-01-05",
+ "asof": "2026-01-05",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-01-05",
+  "adj_close": 16.61
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 301601000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001104659-25-109753"
+ },
+ "burn6": {
+  "end": "2025-09-30",
+  "start": "2025-04-01",
+  "cash_used_ops": 82868000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-10-31",
+  "shares": 53679166
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2025-10-07",
+  "to": "2026-02-04",
+  "trades": [
+   {
+    "date": "2026-02-02",
+    "filed": "2026-02-03",
+    "code": "P",
+    "value": 1023720,
+    "who": "MOULDER LEON O JR"
+   },
+   {
+    "date": "2026-01-07",
+    "filed": "2026-01-09",
+    "code": "P",
+    "value": 819000,
+    "who": "MOULDER LEON O JR"
+   },
+   {
+    "date": "2026-01-08",
+    "filed": "2026-01-09",
+    "code": "P",
+    "value": 489000,
+    "who": "MOULDER LEON O JR"
+   },
+   {
+    "date": "2026-01-09",
+    "filed": "2026-01-09",
+    "code": "P",
+    "value": 331000,
+    "who": "MOULDER LEON O JR"
+   },
+   {
+    "date": "2025-10-09",
+    "filed": "2025-10-14",
+    "code": "P",
+    "value": 1200002,
+    "who": "Nunn Jason Raleigh"
+   },
+   {
+    "date": "2025-10-09",
+    "filed": "2025-10-14",
+    "code": "P",
+    "value": 1200002,
+    "who": "SR ONE CAPITAL MANAGEMENT, LLC"
+   },
+   {
+    "date": "2025-10-09",
+    "filed": "2025-10-14",
+    "code": "P",
+    "value": 1199983,
+    "who": "SR ONE CAPITAL MANAGEMENT, LLC"
+   },
+   {
+    "date": "2025-10-09",
+    "filed": "2025-10-14",
+    "code": "P",
+    "value": 2000035,
+    "who": "ENRIGHT PATRICK G"
+   },
+   {
+    "date": "2025-10-09",
+    "filed": "2025-10-14",
+    "code": "P",
+    "value": 249992,
+    "who": "ENRIGHT PATRICK G"
+   },
+   {
+    "date": "2025-10-07",
+    "filed": "2025-10-09",
+    "code": "P",
+    "value": 769949,
+    "who": "MOULDER LEON O JR"
+   },
+   {
+    "date": "2025-10-07",
+    "filed": "2025-10-09",
+    "code": "P",
+    "value": 6008161,
+    "who": "Fairmount Funds Management LLC"
+   },
+   {
+    "date": "2024-09-13",
+    "filed": "2025-10-09",
+    "code": "P",
+    "value": 999991,
+    "who": "Lu Hongbo"
+   },
+   {
+    "date": "2025-10-07",
+    "filed": "2025-10-09",
+    "code": "P",
+    "value": 5000040,
+    "who": "Lu Hongbo"
+   }
+  ]
+ },
+ "drug": "obexelimab",
+ "trials": {
+  "query": "zenas biopharma",
+  "other_trials": 0,
+  "crashed_drug_trials": 2,
+  "examples": []
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "id": "1029125_2022-06-24",
+ "kind": "crash",
+ "cik": "1029125",
+ "name": "Panbela Therapeutics, Inc.",
+ "date": "2022-06-24",
+ "asof": "2022-06-24",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-06-24",
+  "adj_close": 14688.0
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 7386000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001437749-22-012129"
+ },
+ "burn6": {
+  "end": "2022-03-31",
+  "start": "2021-10-01",
+  "cash_used_ops": 6170000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-05-10",
+  "shares": 13449117
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2022-03-26",
+  "to": "2022-07-24",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "panbela therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

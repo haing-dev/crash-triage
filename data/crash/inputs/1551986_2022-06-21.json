@@ -1,0 +1,101 @@
+{
+ "id": "1551986_2022-06-21",
+ "kind": "crash",
+ "cik": "1551986",
+ "name": "9 METERS BIOPHARMA, INC.",
+ "date": "2022-06-21",
+ "asof": "2022-06-21",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-06-21",
+  "adj_close": 5.8
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 37242112,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001551986-22-000044"
+ },
+ "burn6": {
+  "end": "2022-03-31",
+  "start": "2021-10-01",
+  "cash_used_ops": 17718998.0,
+  "capex": 5470.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-05-12",
+  "shares": 259107380
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "The Company has concluded that the prevailing conditions and ongoing liquidity risks faced by the Company raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 10,
+  "from": "2022-03-23",
+  "to": "2022-07-21",
+  "trades": [
+   {
+    "date": "2022-07-06",
+    "filed": "2022-07-08",
+    "code": "P",
+    "value": 28462,
+    "who": "Temperato John"
+   },
+   {
+    "date": "2022-07-01",
+    "filed": "2022-07-06",
+    "code": "P",
+    "value": 42962,
+    "who": "Sirgo Mark A"
+   },
+   {
+    "date": "2022-05-23",
+    "filed": "2022-05-24",
+    "code": "P",
+    "value": 7608,
+    "who": "Constantino Michael T."
+   },
+   {
+    "date": "2022-05-18",
+    "filed": "2022-05-19",
+    "code": "P",
+    "value": 22285,
+    "who": "Temperato John"
+   },
+   {
+    "date": "2022-05-18",
+    "filed": "2022-05-19",
+    "code": "P",
+    "value": 50000,
+    "who": "Sirgo Mark A"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "9 meters biopharma",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03569007",
+    "drugs": [
+     "Larazotide"
+    ]
+   },
+   {
+    "nct": "NCT04988997",
+    "drugs": [
+     "Vurolenatide 50mg/PBO",
+     "Vurolenatide 100mg/PBO",
+     "Vurolenatide 50/50 mg"
+    ]
+   }
+  ]
+ }
+}

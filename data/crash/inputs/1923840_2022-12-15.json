@@ -1,0 +1,86 @@
+{
+ "id": "1923840_2022-12-15",
+ "kind": "crash",
+ "cik": "1923840",
+ "name": "Third Harmonic Bio, Inc.",
+ "date": "2022-12-15",
+ "asof": "2022-12-20",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-12-20",
+  "adj_close": 4.0
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 299516000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-22-023874"
+ },
+ "burn6": null,
+ "shares": {
+  "end": "2022-11-01",
+  "shares": 40544756
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 17,
+  "from": "2022-09-16",
+  "to": "2023-01-14",
+  "trades": [
+   {
+    "date": "2022-12-20",
+    "filed": "2022-12-22",
+    "code": "P",
+    "value": 479207,
+    "who": "BVF PARTNERS L P/IL"
+   },
+   {
+    "date": "2022-12-20",
+    "filed": "2022-12-22",
+    "code": "P",
+    "value": 360862,
+    "who": "BVF PARTNERS L P/IL"
+   },
+   {
+    "date": "2022-12-20",
+    "filed": "2022-12-22",
+    "code": "P",
+    "value": 39430,
+    "who": "BVF PARTNERS L P/IL"
+   },
+   {
+    "date": "2022-09-19",
+    "filed": "2022-09-21",
+    "code": "P",
+    "value": 5100000,
+    "who": "ORBIMED ADVISORS LLC"
+   },
+   {
+    "date": "2022-09-19",
+    "filed": "2022-09-21",
+    "code": "P",
+    "value": 5100000,
+    "who": "Bonita David P"
+   },
+   {
+    "date": "2022-09-19",
+    "filed": "2022-09-19",
+    "code": "P",
+    "value": 5100000,
+    "who": "Atlas Venture Fund XI, L.P."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "third harmonic bio",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

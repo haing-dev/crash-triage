@@ -1,0 +1,58 @@
+{
+ "id": "1191070_2025-10-21",
+ "kind": "crash",
+ "cik": "1191070",
+ "name": "Neuphoria Therapeutics Inc.",
+ "date": "2025-10-21",
+ "asof": "2025-10-22",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-10-22",
+  "adj_close": 4.3
+ },
+ "balance": {
+  "end": "2025-06-30",
+  "cash": 14210745,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001193125-25-223338"
+ },
+ "burn6": {
+  "end": "2025-06-30",
+  "start": "2025-01-01",
+  "cash_used_ops": -7868379.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-09-29",
+  "shares": 2357613
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Consequently, management has determined there is no substantial doubt regarding the Company's ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 2,
+  "from": "2025-07-23",
+  "to": "2025-11-20",
+  "trades": [
+   {
+    "date": "2025-10-21",
+    "filed": "2025-10-23",
+    "code": "P",
+    "value": 3283108,
+    "who": "Lynx1 Capital Management LP"
+   }
+  ]
+ },
+ "drug": "BNC210",
+ "trials": {
+  "query": "neuphoria therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

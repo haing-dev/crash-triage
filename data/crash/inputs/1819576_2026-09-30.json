@@ -1,0 +1,421 @@
+{
+ "id": "1819576_2026-09-30",
+ "kind": "crash",
+ "cik": "1819576",
+ "name": "Liquidia Corp",
+ "date": "2026-09-30",
+ "asof": "2026-10-05",
+ "final": false,
+ "version": 5,
+ "price": {
+  "date": "2026-10-05",
+  "adj_close": 27.64
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 284181000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001104659-26-094410"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": -133234000.0,
+  "capex": 14065000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-07-29",
+  "shares": 89508891
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 30,
+  "from": "2026-07-02",
+  "to": "2026-10-15",
+  "trades": [
+   {
+    "date": "2026-10-12",
+    "filed": "2026-10-13",
+    "code": "S",
+    "value": 389948,
+    "who": "Schundler Russell"
+   },
+   {
+    "date": "2026-10-12",
+    "filed": "2026-10-13",
+    "code": "S",
+    "value": 262529,
+    "who": "Saggar Rajeev"
+   },
+   {
+    "date": "2026-10-12",
+    "filed": "2026-10-13",
+    "code": "S",
+    "value": 252418,
+    "who": "Moomaw Scott"
+   },
+   {
+    "date": "2026-10-12",
+    "filed": "2026-10-13",
+    "code": "S",
+    "value": 149378,
+    "who": "Krepp Sarah"
+   },
+   {
+    "date": "2026-10-12",
+    "filed": "2026-10-13",
+    "code": "S",
+    "value": 31356,
+    "who": "Khindri Sanjeev"
+   },
+   {
+    "date": "2026-10-12",
+    "filed": "2026-10-13",
+    "code": "S",
+    "value": 539354,
+    "who": "Kaseta Michael"
+   },
+   {
+    "date": "2026-10-12",
+    "filed": "2026-10-13",
+    "code": "S",
+    "value": 932549,
+    "who": "JEFFS ROGER"
+   },
+   {
+    "date": "2026-10-12",
+    "filed": "2026-10-13",
+    "code": "S",
+    "value": 167804,
+    "who": "Boyle Dana"
+   },
+   {
+    "date": "2026-10-12",
+    "filed": "2026-10-13",
+    "code": "S",
+    "value": 207932,
+    "who": "Adair Jason"
+   },
+   {
+    "date": "2026-10-05",
+    "filed": "2026-10-07",
+    "code": "S",
+    "value": 6387596,
+    "who": "Bloch Stephen M"
+   },
+   {
+    "date": "2026-09-11",
+    "filed": "2026-09-15",
+    "code": "S",
+    "value": 619210,
+    "who": "SINGH RAMAN"
+   },
+   {
+    "date": "2026-09-14",
+    "filed": "2026-09-15",
+    "code": "S",
+    "value": 560243,
+    "who": "SINGH RAMAN"
+   },
+   {
+    "date": "2026-09-01",
+    "filed": "2026-09-03",
+    "code": "S",
+    "value": 18566,
+    "who": "Krepp Sarah"
+   },
+   {
+    "date": "2026-08-21",
+    "filed": "2026-08-25",
+    "code": "S",
+    "value": 2197018,
+    "who": "Adair Jason"
+   },
+   {
+    "date": "2026-08-21",
+    "filed": "2026-08-25",
+    "code": "S",
+    "value": 2890206,
+    "who": "Adair Jason"
+   },
+   {
+    "date": "2026-08-19",
+    "filed": "2026-08-21",
+    "code": "S",
+    "value": 2758958,
+    "who": "Rielly-Gauvin Katherine"
+   },
+   {
+    "date": "2026-08-20",
+    "filed": "2026-08-21",
+    "code": "S",
+    "value": 1328477,
+    "who": "Rielly-Gauvin Katherine"
+   },
+   {
+    "date": "2026-08-17",
+    "filed": "2026-08-19",
+    "code": "S",
+    "value": 2269381,
+    "who": "Saggar Rajeev"
+   },
+   {
+    "date": "2026-08-19",
+    "filed": "2026-08-19",
+    "code": "S",
+    "value": 3702825,
+    "who": "Saggar Rajeev"
+   },
+   {
+    "date": "2026-07-27",
+    "filed": "2026-07-29",
+    "code": "S",
+    "value": 140048,
+    "who": "Boyle Dana"
+   },
+   {
+    "date": "2026-07-27",
+    "filed": "2026-07-29",
+    "code": "S",
+    "value": 60221,
+    "who": "Adair Jason"
+   },
+   {
+    "date": "2026-07-22",
+    "filed": "2026-07-24",
+    "code": "S",
+    "value": 3280566,
+    "who": "Bloch Stephen M"
+   },
+   {
+    "date": "2026-07-22",
+    "filed": "2026-07-24",
+    "code": "S",
+    "value": 4257849,
+    "who": "Bloch Stephen M"
+   },
+   {
+    "date": "2026-07-22",
+    "filed": "2026-07-24",
+    "code": "S",
+    "value": 1299549,
+    "who": "Bloch Stephen M"
+   },
+   {
+    "date": "2026-07-23",
+    "filed": "2026-07-24",
+    "code": "S",
+    "value": 8621900,
+    "who": "Bloch Stephen M"
+   },
+   {
+    "date": "2026-07-23",
+    "filed": "2026-07-24",
+    "code": "S",
+    "value": 326543,
+    "who": "Bloch Stephen M"
+   },
+   {
+    "date": "2026-07-20",
+    "filed": "2026-07-22",
+    "code": "S",
+    "value": 286068,
+    "who": "Bloch Stephen M"
+   },
+   {
+    "date": "2026-07-21",
+    "filed": "2026-07-22",
+    "code": "S",
+    "value": 5954336,
+    "who": "Bloch Stephen M"
+   },
+   {
+    "date": "2026-07-21",
+    "filed": "2026-07-22",
+    "code": "S",
+    "value": 44846,
+    "who": "Bloch Stephen M"
+   },
+   {
+    "date": "2026-07-13",
+    "filed": "2026-07-14",
+    "code": "S",
+    "value": 39836,
+    "who": "Krepp Sarah"
+   },
+   {
+    "date": "2026-07-13",
+    "filed": "2026-07-14",
+    "code": "S",
+    "value": 522525,
+    "who": "Krepp Sarah"
+   },
+   {
+    "date": "2026-07-13",
+    "filed": "2026-07-14",
+    "code": "S",
+    "value": 5997,
+    "who": "Khindri Sanjeev"
+   },
+   {
+    "date": "2026-07-13",
+    "filed": "2026-07-14",
+    "code": "S",
+    "value": 78744,
+    "who": "Khindri Sanjeev"
+   },
+   {
+    "date": "2026-07-13",
+    "filed": "2026-07-14",
+    "code": "S",
+    "value": 103730,
+    "who": "Kaseta Michael"
+   },
+   {
+    "date": "2026-07-13",
+    "filed": "2026-07-14",
+    "code": "S",
+    "value": 1357235,
+    "who": "Kaseta Michael"
+   },
+   {
+    "date": "2026-07-13",
+    "filed": "2026-07-14",
+    "code": "S",
+    "value": 178832,
+    "who": "JEFFS ROGER"
+   },
+   {
+    "date": "2026-07-13",
+    "filed": "2026-07-14",
+    "code": "S",
+    "value": 2341851,
+    "who": "JEFFS ROGER"
+   },
+   {
+    "date": "2026-07-13",
+    "filed": "2026-07-14",
+    "code": "S",
+    "value": 40121,
+    "who": "Adair Jason"
+   },
+   {
+    "date": "2026-07-13",
+    "filed": "2026-07-14",
+    "code": "S",
+    "value": 522168,
+    "who": "Adair Jason"
+   },
+   {
+    "date": "2026-07-13",
+    "filed": "2026-07-14",
+    "code": "S",
+    "value": 74674,
+    "who": "Schundler Russell"
+   },
+   {
+    "date": "2026-07-13",
+    "filed": "2026-07-14",
+    "code": "S",
+    "value": 979252,
+    "who": "Schundler Russell"
+   },
+   {
+    "date": "2026-07-13",
+    "filed": "2026-07-14",
+    "code": "S",
+    "value": 50187,
+    "who": "Saggar Rajeev"
+   },
+   {
+    "date": "2026-07-13",
+    "filed": "2026-07-14",
+    "code": "S",
+    "value": 659629,
+    "who": "Saggar Rajeev"
+   },
+   {
+    "date": "2026-07-13",
+    "filed": "2026-07-14",
+    "code": "S",
+    "value": 48188,
+    "who": "Moomaw Scott"
+   },
+   {
+    "date": "2026-07-13",
+    "filed": "2026-07-14",
+    "code": "S",
+    "value": 633953,
+    "who": "Moomaw Scott"
+   },
+   {
+    "date": "2026-07-13",
+    "filed": "2026-07-14",
+    "code": "S",
+    "value": 45761,
+    "who": "Boyle Dana"
+   },
+   {
+    "date": "2026-07-13",
+    "filed": "2026-07-14",
+    "code": "S",
+    "value": 597979,
+    "who": "Boyle Dana"
+   },
+   {
+    "date": "2026-07-06",
+    "filed": "2026-07-08",
+    "code": "S",
+    "value": 2004375,
+    "who": "Bloch Stephen M"
+   },
+   {
+    "date": "2026-07-07",
+    "filed": "2026-07-08",
+    "code": "S",
+    "value": 1828420,
+    "who": "Bloch Stephen M"
+   },
+   {
+    "date": "2026-07-07",
+    "filed": "2026-07-08",
+    "code": "S",
+    "value": 2218376,
+    "who": "Bloch Stephen M"
+   },
+   {
+    "date": "2026-07-01",
+    "filed": "2026-07-06",
+    "code": "S",
+    "value": 1918416,
+    "who": "Bloch Stephen M"
+   },
+   {
+    "date": "2026-07-01",
+    "filed": "2026-07-06",
+    "code": "S",
+    "value": 68278,
+    "who": "Bloch Stephen M"
+   }
+  ]
+ },
+ "drug": "YUTREPIA (treprostinil) inhalation powder",
+ "trials": {
+  "query": "liquidia",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT07285655",
+    "drugs": [
+     "L606"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "id": "1821586_2022-04-11",
+ "kind": "crash",
+ "cik": "1821586",
+ "name": "MoonLake Immunotherapeutics",
+ "date": "2022-04-11",
+ "asof": "2022-04-12",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-04-12",
+  "adj_close": 4.85
+ },
+ "balance": {
+  "end": "2021-12-31",
+  "cash": 666790,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001213900-22-008253"
+ },
+ "burn6": {
+  "end": "2021-12-31",
+  "start": "2021-07-01",
+  "cash_used_ops": 430906.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": null,
+ "going_concern": {
+  "flag": true,
+  "quote": "Management has determined that the mandatory liquidation, should a Business Combination not occur, and potential subsequent dissolution raises substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2022-01-11",
+  "to": "2022-05-11",
+  "trades": [
+   {
+    "date": "2022-04-05",
+    "filed": "2022-04-07",
+    "code": "P",
+    "value": 28500000,
+    "who": "Chen Bihua"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "moonlake immunotherapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

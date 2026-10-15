@@ -1,0 +1,58 @@
+{
+ "id": "1726711_2025-10-28",
+ "kind": "crash",
+ "cik": "1726711",
+ "name": "Aditxt, Inc.",
+ "date": "2025-10-28",
+ "asof": "2025-10-29",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-10-29",
+  "adj_close": 2794.72
+ },
+ "balance": {
+  "end": "2025-06-30",
+  "cash": 323679,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001213900-25-076710"
+ },
+ "burn6": {
+  "end": "2025-06-30",
+  "start": "2025-01-01",
+  "cash_used_ops": 14098132.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-08-13",
+  "shares": 4976555
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "We believe our remaining funds on hand will not be sufficient to fund our operations for the next 12 months and such creates substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2025-07-30",
+  "to": "2025-11-27",
+  "trades": [
+   {
+    "date": "2025-11-25",
+    "filed": "2025-11-26",
+    "code": "S",
+    "value": 3,
+    "who": "Pankovcin Corinne"
+   }
+  ]
+ },
+ "drug": "n/a",
+ "trials": {
+  "query": "aditxt",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

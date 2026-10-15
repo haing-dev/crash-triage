@@ -1,0 +1,49 @@
+{
+ "id": "1379006_2024-06-14",
+ "kind": "crash",
+ "cik": "1379006",
+ "name": "NANOVIRICIDES, INC.",
+ "date": "2024-06-14",
+ "asof": "2024-06-18",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-06-18",
+  "adj_close": 1.64
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 3257240,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001410578-24-000843"
+ },
+ "burn6": {
+  "end": "2024-03-31",
+  "start": "2023-10-01",
+  "cash_used_ops": 3662477.0,
+  "capex": 50106.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-05-14",
+  "shares": 11814000
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2024-03-16",
+  "to": "2024-07-14",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "nanoviricides",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

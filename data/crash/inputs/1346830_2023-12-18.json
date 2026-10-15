@@ -1,0 +1,72 @@
+{
+ "id": "1346830_2023-12-18",
+ "kind": "crash",
+ "cik": "1346830",
+ "name": "Tvardi Therapeutics, Inc.",
+ "date": "2023-12-18",
+ "asof": "2023-12-21",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-12-21",
+  "adj_close": 21.456
+ },
+ "balance": {
+  "end": "2023-09-30",
+  "cash": 62875000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-23-018837"
+ },
+ "burn6": {
+  "end": "2023-09-30",
+  "start": "2023-04-01",
+  "cash_used_ops": 40090000.0,
+  "capex": 216885.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-11-09",
+  "shares": 54480704
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2023-09-19",
+  "to": "2024-01-17",
+  "trades": [
+   {
+    "date": "2023-11-02",
+    "filed": "2023-11-03",
+    "code": "S",
+    "value": 4631,
+    "who": "Posner Christopher"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "tvardi therapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05440708",
+    "drugs": [
+     "TTI-101",
+     "Pembrolizumab",
+     "Atezolizumab"
+    ]
+   },
+   {
+    "nct": "NCT05671835",
+    "drugs": [
+     "TTI-101"
+    ]
+   }
+  ]
+ }
+}

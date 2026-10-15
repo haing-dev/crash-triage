@@ -1,0 +1,50 @@
+{
+ "id": "1615219_2022-10-18",
+ "kind": "crash",
+ "cik": "1615219",
+ "name": "Decoy Therapeutics Inc.",
+ "date": "2022-10-18",
+ "asof": "2022-10-19",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-10-19",
+  "adj_close": 3326.3999
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 22647005,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001615219-22-000124"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 7140445.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-08-01",
+  "shares": 56116243
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "The lack of revenue from product sales to date and recurring losses from operations since its inception raise substantial doubt as to the Company's ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 2,
+  "from": "2022-07-20",
+  "to": "2022-11-17",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "decoy therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

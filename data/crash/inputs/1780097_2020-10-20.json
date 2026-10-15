@@ -1,0 +1,49 @@
+{
+ "id": "1780097_2020-10-20",
+ "kind": "crash",
+ "cik": "1780097",
+ "name": "Baudax Bio, Inc.",
+ "date": "2020-10-20",
+ "asof": "2020-10-26",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2020-10-26",
+  "adj_close": 1734.05
+ },
+ "balance": {
+  "end": "2020-06-30",
+  "cash": 39410000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001564590-20-038607"
+ },
+ "burn6": {
+  "end": "2020-06-30",
+  "start": "2020-01-01",
+  "cash_used_ops": 17621000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2020-08-06",
+  "shares": 18374604
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 2,
+  "from": "2020-07-22",
+  "to": "2020-11-19",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "baudax bio",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

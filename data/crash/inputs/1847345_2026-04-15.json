@@ -1,0 +1,50 @@
+{
+ "id": "1847345_2026-04-15",
+ "kind": "crash",
+ "cik": "1847345",
+ "name": "Aspire-Lakewood Holdings, Inc.",
+ "date": "2026-04-15",
+ "asof": "2026-04-16",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-04-16",
+  "adj_close": 9.0
+ },
+ "balance": {
+  "end": "2025-12-31",
+  "cash": 1003904,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0001493152-26-016123"
+ },
+ "burn6": {
+  "end": "2025-12-31",
+  "start": "2025-07-01",
+  "cash_used_ops": 2031650.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-03-27",
+  "shares": 5024124
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "As a result of the above, in connection with the Company\u2019s assessment of going concern considerations in accordance with Financial Accounting Standard Board (\u201cFASB\u201d) Accounting Standards Codification (\u201cASC\u201d) Subtopic 205-40, \u201cGoing Concern,\u201d management has determined that the Company\u2019s liquidity con"
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2026-01-15",
+  "to": "2026-05-15",
+  "trades": []
+ },
+ "drug": "n/a",
+ "trials": {
+  "query": "aspire lakewood",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

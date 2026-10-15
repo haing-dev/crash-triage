@@ -1,0 +1,79 @@
+{
+ "id": "1824893_2022-11-15",
+ "kind": "crash",
+ "cik": "1824893",
+ "name": "Surrozen, Inc./DE",
+ "date": "2022-11-15",
+ "asof": "2022-11-18",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-11-18",
+  "adj_close": 13.35
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 78395000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-22-025096"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 25566000.0,
+  "capex": 168000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-11-10",
+  "shares": 35122863
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2022-08-17",
+  "to": "2022-12-15",
+  "trades": [
+   {
+    "date": "2022-12-14",
+    "filed": "2022-12-15",
+    "code": "S",
+    "value": 0,
+    "who": "BLUTT MITCHELL J MD"
+   },
+   {
+    "date": "2022-12-14",
+    "filed": "2022-12-15",
+    "code": "S",
+    "value": 0,
+    "who": "BLUTT MITCHELL J MD"
+   },
+   {
+    "date": "2022-12-14",
+    "filed": "2022-12-15",
+    "code": "S",
+    "value": 0,
+    "who": "BLUTT MITCHELL J MD"
+   },
+   {
+    "date": "2022-12-14",
+    "filed": "2022-12-15",
+    "code": "S",
+    "value": 0,
+    "who": "BLUTT MITCHELL J MD"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "surrozen",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

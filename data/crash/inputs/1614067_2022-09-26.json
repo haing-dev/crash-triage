@@ -1,0 +1,69 @@
+{
+ "id": "1614067_2022-09-26",
+ "kind": "crash",
+ "cik": "1614067",
+ "name": "Aridis Pharmaceuticals, Inc.",
+ "date": "2022-09-26",
+ "asof": "2022-09-27",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-09-27",
+  "adj_close": 0.7289
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 6317000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001493152-22-023089"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 16305000.0,
+  "capex": 33000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-07-29",
+  "shares": 17701592
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "There is substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2022-06-28",
+  "to": "2022-10-26",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "aridis pharmaceuticals",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03816956",
+    "drugs": [
+     "AR-301"
+    ]
+   },
+   {
+    "nct": "NCT05331885",
+    "drugs": [
+     "Suvratoxumab"
+    ]
+   },
+   {
+    "nct": "NCT03669614",
+    "drugs": [
+     "Inhaled AR-501"
+    ]
+   }
+  ]
+ }
+}

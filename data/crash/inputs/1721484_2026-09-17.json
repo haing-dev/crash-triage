@@ -1,0 +1,47 @@
+{
+ "id": "1721484_2026-09-17",
+ "kind": "crash",
+ "cik": "1721484",
+ "name": "Longeveron Inc.",
+ "date": "2026-09-17",
+ "asof": "2026-09-18",
+ "final": false,
+ "version": 5,
+ "price": {
+  "date": "2026-09-18",
+  "adj_close": 2.49
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 10077000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001193125-26-346794"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": 10023000.0,
+  "capex": 103000.0,
+  "periods": 2
+ },
+ "shares": null,
+ "going_concern": {
+  "flag": true,
+  "quote": "As a result, there is substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 23,
+  "from": "2026-06-19",
+  "to": "2026-10-15",
+  "trades": []
+ },
+ "drug": "n/a",
+ "trials": {
+  "query": "longeveron",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

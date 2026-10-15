@@ -1,0 +1,107 @@
+{
+ "id": "1516551_2025-10-06",
+ "kind": "crash",
+ "cik": "1516551",
+ "name": "Skye Bioscience, Inc.",
+ "date": "2025-10-06",
+ "asof": "2025-10-07",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-10-07",
+  "adj_close": 13.28
+ },
+ "balance": {
+  "end": "2025-06-30",
+  "cash": 48585283,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001516551-25-000049"
+ },
+ "burn6": {
+  "end": "2025-06-30",
+  "start": "2025-01-01",
+  "cash_used_ops": 19931667.0,
+  "capex": 6312.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-08-05",
+  "shares": 30988420
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 2,
+  "from": "2025-07-08",
+  "to": "2025-11-05",
+  "trades": [
+   {
+    "date": "2025-08-21",
+    "filed": "2025-08-22",
+    "code": "S",
+    "value": 209352,
+    "who": "Schwab Andrew J."
+   },
+   {
+    "date": "2025-08-21",
+    "filed": "2025-08-22",
+    "code": "S",
+    "value": 8261,
+    "who": "Schwab Andrew J."
+   },
+   {
+    "date": "2025-08-22",
+    "filed": "2025-08-22",
+    "code": "S",
+    "value": 560808,
+    "who": "Schwab Andrew J."
+   },
+   {
+    "date": "2025-08-22",
+    "filed": "2025-08-22",
+    "code": "S",
+    "value": 22127,
+    "who": "Schwab Andrew J."
+   },
+   {
+    "date": "2025-08-21",
+    "filed": "2025-08-22",
+    "code": "S",
+    "value": 209352,
+    "who": "5AM Partners VII, LLC"
+   },
+   {
+    "date": "2025-08-21",
+    "filed": "2025-08-22",
+    "code": "S",
+    "value": 8261,
+    "who": "5AM Partners VII, LLC"
+   },
+   {
+    "date": "2025-08-22",
+    "filed": "2025-08-22",
+    "code": "S",
+    "value": 560808,
+    "who": "5AM Partners VII, LLC"
+   },
+   {
+    "date": "2025-08-22",
+    "filed": "2025-08-22",
+    "code": "S",
+    "value": 22127,
+    "who": "5AM Partners VII, LLC"
+   }
+  ]
+ },
+ "drug": "nimacimab",
+ "trials": {
+  "query": "skye bioscience",
+  "other_trials": 0,
+  "crashed_drug_trials": 1,
+  "examples": []
+ }
+}

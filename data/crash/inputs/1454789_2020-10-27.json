@@ -1,0 +1,50 @@
+{
+ "id": "1454789_2020-10-27",
+ "kind": "crash",
+ "cik": "1454789",
+ "name": "Astria Therapeutics, Inc.",
+ "date": "2020-10-27",
+ "asof": "2020-10-29",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2020-10-29",
+  "adj_close": 8.34
+ },
+ "balance": {
+  "end": "2020-06-30",
+  "cash": 53886000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001104659-20-092697"
+ },
+ "burn6": {
+  "end": "2020-06-30",
+  "start": "2020-01-01",
+  "cash_used_ops": 14455000.0,
+  "capex": 23000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2020-07-31",
+  "shares": 19080769
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2020-07-29",
+  "to": "2020-11-26",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "astria therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

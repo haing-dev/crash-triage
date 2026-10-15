@@ -1,0 +1,51 @@
+{
+ "id": "1637715_2023-12-14",
+ "kind": "crash",
+ "cik": "1637715",
+ "name": "OnKure Therapeutics, Inc.",
+ "date": "2023-12-14",
+ "asof": "2023-12-14",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-12-14",
+  "adj_close": 13.4
+ },
+ "balance": {
+  "end": "2023-09-30",
+  "cash": 125614000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-23-062910"
+ },
+ "burn6": {
+  "end": "2023-09-30",
+  "start": "2023-04-01",
+  "cash_used_ops": 34881000.0,
+  "capex": 24000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-11-09",
+  "shares": 33311787
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "We have identified conditions and events that raise substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2023-09-15",
+  "to": "2024-01-13",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "onkure therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

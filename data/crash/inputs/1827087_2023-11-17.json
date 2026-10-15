@@ -1,0 +1,65 @@
+{
+ "id": "1827087_2023-11-17",
+ "kind": "crash",
+ "cik": "1827087",
+ "name": "Vigil Neuroscience, Inc.",
+ "date": "2023-11-17",
+ "asof": "2023-11-21",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-11-21",
+  "adj_close": 3.27
+ },
+ "balance": {
+  "end": "2023-09-30",
+  "cash": 133643000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-23-059770"
+ },
+ "burn6": {
+  "end": "2023-09-30",
+  "start": "2023-04-01",
+  "cash_used_ops": 32667000.0,
+  "capex": 169000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-10-31",
+  "shares": 35877421
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2023-08-19",
+  "to": "2023-12-17",
+  "trades": [
+   {
+    "date": "2023-11-20",
+    "filed": "2023-11-20",
+    "code": "P",
+    "value": 15000,
+    "who": "Magovcevic-Liebisch Ivana"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "vigil neuroscience",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05677659",
+    "drugs": [
+     "VGL101"
+    ]
+   }
+  ]
+ }
+}

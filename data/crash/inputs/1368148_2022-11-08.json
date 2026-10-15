@@ -1,0 +1,58 @@
+{
+ "id": "1368148_2022-11-08",
+ "kind": "crash",
+ "cik": "1368148",
+ "name": "ATHERSYS, INC / NEW",
+ "date": "2022-11-08",
+ "asof": "2022-11-08",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-11-08",
+  "adj_close": 1.28
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 13378000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001368148-22-000108"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 36606000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-07-29",
+  "shares": 275109746
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These factors, among others, raise substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2022-08-10",
+  "to": "2022-12-08",
+  "trades": [
+   {
+    "date": "2022-11-22",
+    "filed": "2022-11-22",
+    "code": "P",
+    "value": 54960,
+    "who": "Camardo Daniel A."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "athersys new",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

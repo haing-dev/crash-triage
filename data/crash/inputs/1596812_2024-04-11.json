@@ -1,0 +1,65 @@
+{
+ "id": "1596812_2024-04-11",
+ "kind": "crash",
+ "cik": "1596812",
+ "name": "Enlivex Ltd.",
+ "date": "2024-04-11",
+ "asof": "2024-04-15",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-04-15",
+  "adj_close": 19.5
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 28901000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001213900-23-073254"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 12807000.0,
+  "capex": 200000.0,
+  "periods": 1
+ },
+ "shares": {
+  "end": "2022-12-31",
+  "shares": 18421852
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2024-01-12",
+  "to": "2024-05-11",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "enlivex",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06233474",
+    "drugs": [
+     "Allocetra"
+    ]
+   },
+   {
+    "nct": "NCT05581719",
+    "drugs": [
+     "Allocetra-OTS",
+     "Nivolumab",
+     "Tislelizumab"
+    ]
+   }
+  ]
+ }
+}

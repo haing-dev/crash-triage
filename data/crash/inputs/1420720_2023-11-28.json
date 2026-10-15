@@ -1,0 +1,79 @@
+{
+ "id": "1420720_2023-11-28",
+ "kind": "crash",
+ "cik": "1420720",
+ "name": "iBio, Inc.",
+ "date": "2023-11-28",
+ "asof": "2023-12-04",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-12-04",
+  "adj_close": 2.7
+ },
+ "balance": {
+  "end": "2023-09-30",
+  "cash": 1461000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-23-019043"
+ },
+ "burn6": {
+  "end": "2023-09-30",
+  "start": "2023-04-01",
+  "cash_used_ops": 10310000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-11-09",
+  "shares": 28100733
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Going Concern The history of significant losses, the negative cash flow from operations, the limited cash resources on hand and the dependence by the Company on obtaining additional financing to fund its operations after the current cash resources are exhausted raise substantial doubt about the Comp"
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2023-08-30",
+  "to": "2023-12-28",
+  "trades": [
+   {
+    "date": "2023-11-01",
+    "filed": "2023-11-03",
+    "code": "S",
+    "value": 1296,
+    "who": "Brenner Martin"
+   },
+   {
+    "date": "2023-10-03",
+    "filed": "2023-10-05",
+    "code": "S",
+    "value": 1592,
+    "who": "Brenner Martin"
+   },
+   {
+    "date": "2023-10-02",
+    "filed": "2023-10-03",
+    "code": "S",
+    "value": 1311,
+    "who": "Brenner Martin"
+   },
+   {
+    "date": "2023-08-28",
+    "filed": "2023-08-30",
+    "code": "S",
+    "value": 1529,
+    "who": "Brenner Martin"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "ibio",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

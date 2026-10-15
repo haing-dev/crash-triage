@@ -1,0 +1,59 @@
+{
+ "id": "1789192_2026-06-23",
+ "kind": "crash",
+ "cik": "1789192",
+ "name": "Nexentis Technologies Inc.",
+ "date": "2026-06-23",
+ "asof": "2026-06-29",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-06-29",
+  "adj_close": 4.67
+ },
+ "balance": {
+  "end": "2026-03-31",
+  "cash": 6201000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001493152-26-023107"
+ },
+ "burn6": {
+  "end": "2026-03-31",
+  "start": "2025-10-01",
+  "cash_used_ops": 2916000.0,
+  "capex": 145701.57303370786,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-05-14",
+  "shares": 730459
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "As a result, there is substantial doubt regarding the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2026-03-25",
+  "to": "2026-07-23",
+  "trades": [
+   {
+    "date": "2026-01-29",
+    "filed": "2026-03-26",
+    "code": "S",
+    "value": 172,
+    "who": "Lee Eun Young"
+   }
+  ]
+ },
+ "drug": "n/a",
+ "trials": {
+  "query": "nexentis technologies",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

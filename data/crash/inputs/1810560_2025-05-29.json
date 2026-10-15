@@ -1,0 +1,50 @@
+{
+ "id": "1810560_2025-05-29",
+ "kind": "crash",
+ "cik": "1810560",
+ "name": "REVELATION BIOSCIENCES, INC.",
+ "date": "2025-05-29",
+ "asof": "2025-05-30",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-05-30",
+  "adj_close": 10.2
+ },
+ "balance": {
+  "end": "2025-03-31",
+  "cash": 3704611,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-25-066897"
+ },
+ "burn6": {
+  "end": "2025-03-31",
+  "start": "2024-10-01",
+  "cash_used_ops": 6542048.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-05-05",
+  "shares": 963796
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "The Company does not anticipate that its current cash and cash equivalents balance will be sufficient to sustain operations within one-year after the date that the Company\u2019s unaudited financial statements for March 31, 2025 were issued, which raises substantial doubt about its ability to continue as"
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2025-02-28",
+  "to": "2025-06-28",
+  "trades": []
+ },
+ "drug": "Gemini (PHAD)",
+ "trials": {
+  "query": "revelation biosciences",
+  "other_trials": 0,
+  "crashed_drug_trials": 1,
+  "examples": []
+ }
+}

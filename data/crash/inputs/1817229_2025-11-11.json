@@ -1,0 +1,541 @@
+{
+ "id": "1817229_2025-11-11",
+ "kind": "crash",
+ "cik": "1817229",
+ "name": "Vor Biopharma Inc.",
+ "date": "2025-11-11",
+ "asof": "2025-11-11",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-11-11",
+  "adj_close": 9.84
+ },
+ "balance": {
+  "end": "2025-06-30",
+  "cash": 200565000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-25-107276"
+ },
+ "burn6": {
+  "end": "2025-06-30",
+  "start": "2025-01-01",
+  "cash_used_ops": 66250000.0,
+  "capex": 383000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-08-06",
+  "shares": 126683111
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 22,
+  "from": "2025-08-13",
+  "to": "2025-12-11",
+  "trades": [
+   {
+    "date": "2025-10-28",
+    "filed": "2025-10-30",
+    "code": "S",
+    "value": 2380139,
+    "who": "RA CAPITAL MANAGEMENT, L.P."
+   },
+   {
+    "date": "2025-10-28",
+    "filed": "2025-10-30",
+    "code": "S",
+    "value": 1028091,
+    "who": "RA CAPITAL MANAGEMENT, L.P."
+   },
+   {
+    "date": "2025-10-29",
+    "filed": "2025-10-30",
+    "code": "S",
+    "value": 6343284,
+    "who": "RA CAPITAL MANAGEMENT, L.P."
+   },
+   {
+    "date": "2025-10-30",
+    "filed": "2025-10-30",
+    "code": "S",
+    "value": 617424,
+    "who": "RA CAPITAL MANAGEMENT, L.P."
+   },
+   {
+    "date": "2025-10-23",
+    "filed": "2025-10-27",
+    "code": "S",
+    "value": 2153409,
+    "who": "RA CAPITAL MANAGEMENT, L.P."
+   },
+   {
+    "date": "2025-10-24",
+    "filed": "2025-10-27",
+    "code": "S",
+    "value": 1494193,
+    "who": "RA CAPITAL MANAGEMENT, L.P."
+   },
+   {
+    "date": "2025-10-27",
+    "filed": "2025-10-27",
+    "code": "S",
+    "value": 2557261,
+    "who": "RA CAPITAL MANAGEMENT, L.P."
+   },
+   {
+    "date": "2025-10-20",
+    "filed": "2025-10-22",
+    "code": "S",
+    "value": 2084945,
+    "who": "RA CAPITAL MANAGEMENT, L.P."
+   },
+   {
+    "date": "2025-10-20",
+    "filed": "2025-10-22",
+    "code": "S",
+    "value": 409398,
+    "who": "RA CAPITAL MANAGEMENT, L.P."
+   },
+   {
+    "date": "2025-10-20",
+    "filed": "2025-10-22",
+    "code": "S",
+    "value": 197376,
+    "who": "RA CAPITAL MANAGEMENT, L.P."
+   },
+   {
+    "date": "2025-10-20",
+    "filed": "2025-10-22",
+    "code": "S",
+    "value": 38764,
+    "who": "RA CAPITAL MANAGEMENT, L.P."
+   },
+   {
+    "date": "2025-10-21",
+    "filed": "2025-10-22",
+    "code": "S",
+    "value": 703509,
+    "who": "RA CAPITAL MANAGEMENT, L.P."
+   },
+   {
+    "date": "2025-10-17",
+    "filed": "2025-10-21",
+    "code": "S",
+    "value": 746119,
+    "who": "Reprogrammed Interchange LLC"
+   },
+   {
+    "date": "2025-10-17",
+    "filed": "2025-10-21",
+    "code": "S",
+    "value": 31868,
+    "who": "Reprogrammed Interchange LLC"
+   },
+   {
+    "date": "2025-10-20",
+    "filed": "2025-10-21",
+    "code": "S",
+    "value": 349101,
+    "who": "Reprogrammed Interchange LLC"
+   },
+   {
+    "date": "2025-10-21",
+    "filed": "2025-10-21",
+    "code": "S",
+    "value": 6015,
+    "who": "Reprogrammed Interchange LLC"
+   },
+   {
+    "date": "2025-10-15",
+    "filed": "2025-10-17",
+    "code": "S",
+    "value": 461118,
+    "who": "Reprogrammed Interchange LLC"
+   },
+   {
+    "date": "2025-10-15",
+    "filed": "2025-10-17",
+    "code": "S",
+    "value": 1567365,
+    "who": "Reprogrammed Interchange LLC"
+   },
+   {
+    "date": "2025-10-15",
+    "filed": "2025-10-17",
+    "code": "S",
+    "value": 258712,
+    "who": "Reprogrammed Interchange LLC"
+   },
+   {
+    "date": "2025-10-16",
+    "filed": "2025-10-17",
+    "code": "S",
+    "value": 61549,
+    "who": "Reprogrammed Interchange LLC"
+   },
+   {
+    "date": "2025-10-15",
+    "filed": "2025-10-17",
+    "code": "S",
+    "value": 1304454,
+    "who": "RA CAPITAL MANAGEMENT, L.P."
+   },
+   {
+    "date": "2025-10-15",
+    "filed": "2025-10-17",
+    "code": "S",
+    "value": 256131,
+    "who": "RA CAPITAL MANAGEMENT, L.P."
+   },
+   {
+    "date": "2025-10-15",
+    "filed": "2025-10-17",
+    "code": "S",
+    "value": 7294,
+    "who": "RA CAPITAL MANAGEMENT, L.P."
+   },
+   {
+    "date": "2025-10-15",
+    "filed": "2025-10-17",
+    "code": "S",
+    "value": 1434,
+    "who": "RA CAPITAL MANAGEMENT, L.P."
+   },
+   {
+    "date": "2025-10-16",
+    "filed": "2025-10-17",
+    "code": "S",
+    "value": 3255722,
+    "who": "RA CAPITAL MANAGEMENT, L.P."
+   },
+   {
+    "date": "2025-10-16",
+    "filed": "2025-10-17",
+    "code": "S",
+    "value": 639293,
+    "who": "RA CAPITAL MANAGEMENT, L.P."
+   },
+   {
+    "date": "2025-10-16",
+    "filed": "2025-10-17",
+    "code": "S",
+    "value": 480477,
+    "who": "RA CAPITAL MANAGEMENT, L.P."
+   },
+   {
+    "date": "2025-10-16",
+    "filed": "2025-10-17",
+    "code": "S",
+    "value": 94359,
+    "who": "RA CAPITAL MANAGEMENT, L.P."
+   },
+   {
+    "date": "2025-10-16",
+    "filed": "2025-10-17",
+    "code": "S",
+    "value": 627,
+    "who": "RA CAPITAL MANAGEMENT, L.P."
+   },
+   {
+    "date": "2025-10-16",
+    "filed": "2025-10-17",
+    "code": "S",
+    "value": 125,
+    "who": "RA CAPITAL MANAGEMENT, L.P."
+   },
+   {
+    "date": "2025-10-17",
+    "filed": "2025-10-17",
+    "code": "S",
+    "value": 5084177,
+    "who": "RA CAPITAL MANAGEMENT, L.P."
+   },
+   {
+    "date": "2025-10-17",
+    "filed": "2025-10-17",
+    "code": "S",
+    "value": 998350,
+    "who": "RA CAPITAL MANAGEMENT, L.P."
+   },
+   {
+    "date": "2025-10-17",
+    "filed": "2025-10-17",
+    "code": "S",
+    "value": 931352,
+    "who": "RA CAPITAL MANAGEMENT, L.P."
+   },
+   {
+    "date": "2025-10-17",
+    "filed": "2025-10-17",
+    "code": "S",
+    "value": 182891,
+    "who": "RA CAPITAL MANAGEMENT, L.P."
+   },
+   {
+    "date": "2025-10-17",
+    "filed": "2025-10-17",
+    "code": "S",
+    "value": 393421,
+    "who": "RA CAPITAL MANAGEMENT, L.P."
+   },
+   {
+    "date": "2025-10-17",
+    "filed": "2025-10-17",
+    "code": "S",
+    "value": 77252,
+    "who": "RA CAPITAL MANAGEMENT, L.P."
+   },
+   {
+    "date": "2025-10-10",
+    "filed": "2025-10-15",
+    "code": "S",
+    "value": 1269133,
+    "who": "Reprogrammed Interchange LLC"
+   },
+   {
+    "date": "2025-10-13",
+    "filed": "2025-10-15",
+    "code": "S",
+    "value": 636560,
+    "who": "Reprogrammed Interchange LLC"
+   },
+   {
+    "date": "2025-10-13",
+    "filed": "2025-10-15",
+    "code": "S",
+    "value": 77226,
+    "who": "Reprogrammed Interchange LLC"
+   },
+   {
+    "date": "2025-10-14",
+    "filed": "2025-10-15",
+    "code": "S",
+    "value": 1020787,
+    "who": "Reprogrammed Interchange LLC"
+   },
+   {
+    "date": "2025-10-08",
+    "filed": "2025-10-10",
+    "code": "S",
+    "value": 2056472,
+    "who": "Reprogrammed Interchange LLC"
+   },
+   {
+    "date": "2025-10-08",
+    "filed": "2025-10-10",
+    "code": "S",
+    "value": 492285,
+    "who": "Reprogrammed Interchange LLC"
+   },
+   {
+    "date": "2025-10-09",
+    "filed": "2025-10-10",
+    "code": "S",
+    "value": 1080172,
+    "who": "Reprogrammed Interchange LLC"
+   },
+   {
+    "date": "2025-10-09",
+    "filed": "2025-10-10",
+    "code": "S",
+    "value": 487439,
+    "who": "Reprogrammed Interchange LLC"
+   },
+   {
+    "date": "2025-10-06",
+    "filed": "2025-10-08",
+    "code": "S",
+    "value": 639392,
+    "who": "Reprogrammed Interchange LLC"
+   },
+   {
+    "date": "2025-10-06",
+    "filed": "2025-10-08",
+    "code": "S",
+    "value": 1293566,
+    "who": "Reprogrammed Interchange LLC"
+   },
+   {
+    "date": "2025-10-06",
+    "filed": "2025-10-08",
+    "code": "S",
+    "value": 685830,
+    "who": "Reprogrammed Interchange LLC"
+   },
+   {
+    "date": "2025-10-07",
+    "filed": "2025-10-08",
+    "code": "S",
+    "value": 934711,
+    "who": "Reprogrammed Interchange LLC"
+   },
+   {
+    "date": "2025-10-01",
+    "filed": "2025-10-03",
+    "code": "S",
+    "value": 54870,
+    "who": "Reprogrammed Interchange LLC"
+   },
+   {
+    "date": "2025-10-02",
+    "filed": "2025-10-03",
+    "code": "S",
+    "value": 183685,
+    "who": "Reprogrammed Interchange LLC"
+   },
+   {
+    "date": "2025-10-02",
+    "filed": "2025-10-03",
+    "code": "S",
+    "value": 58065,
+    "who": "Reprogrammed Interchange LLC"
+   },
+   {
+    "date": "2025-10-02",
+    "filed": "2025-10-03",
+    "code": "S",
+    "value": 304711,
+    "who": "Reprogrammed Interchange LLC"
+   },
+   {
+    "date": "2025-10-02",
+    "filed": "2025-10-03",
+    "code": "S",
+    "value": 521707,
+    "who": "Reprogrammed Interchange LLC"
+   },
+   {
+    "date": "2025-10-02",
+    "filed": "2025-10-03",
+    "code": "S",
+    "value": 224291,
+    "who": "Reprogrammed Interchange LLC"
+   },
+   {
+    "date": "2025-10-03",
+    "filed": "2025-10-03",
+    "code": "S",
+    "value": 119594,
+    "who": "Reprogrammed Interchange LLC"
+   },
+   {
+    "date": "2025-10-03",
+    "filed": "2025-10-03",
+    "code": "S",
+    "value": 179317,
+    "who": "Reprogrammed Interchange LLC"
+   },
+   {
+    "date": "2025-09-16",
+    "filed": "2025-09-18",
+    "code": "S",
+    "value": 688853,
+    "who": "Reprogrammed Interchange LLC"
+   },
+   {
+    "date": "2025-09-11",
+    "filed": "2025-09-15",
+    "code": "S",
+    "value": 521421,
+    "who": "Reprogrammed Interchange LLC"
+   },
+   {
+    "date": "2025-09-12",
+    "filed": "2025-09-15",
+    "code": "S",
+    "value": 526230,
+    "who": "Reprogrammed Interchange LLC"
+   },
+   {
+    "date": "2025-09-15",
+    "filed": "2025-09-15",
+    "code": "S",
+    "value": 656320,
+    "who": "Reprogrammed Interchange LLC"
+   },
+   {
+    "date": "2025-09-08",
+    "filed": "2025-09-10",
+    "code": "S",
+    "value": 924058,
+    "who": "Reprogrammed Interchange LLC"
+   },
+   {
+    "date": "2025-09-09",
+    "filed": "2025-09-10",
+    "code": "S",
+    "value": 898632,
+    "who": "Reprogrammed Interchange LLC"
+   },
+   {
+    "date": "2025-09-10",
+    "filed": "2025-09-10",
+    "code": "S",
+    "value": 635285,
+    "who": "Reprogrammed Interchange LLC"
+   },
+   {
+    "date": "2025-09-03",
+    "filed": "2025-09-05",
+    "code": "S",
+    "value": 1107061,
+    "who": "Reprogrammed Interchange LLC"
+   },
+   {
+    "date": "2025-09-04",
+    "filed": "2025-09-05",
+    "code": "S",
+    "value": 873641,
+    "who": "Reprogrammed Interchange LLC"
+   },
+   {
+    "date": "2025-09-05",
+    "filed": "2025-09-05",
+    "code": "S",
+    "value": 787280,
+    "who": "Reprogrammed Interchange LLC"
+   },
+   {
+    "date": "2025-08-27",
+    "filed": "2025-08-29",
+    "code": "S",
+    "value": 1226536,
+    "who": "Reprogrammed Interchange LLC"
+   },
+   {
+    "date": "2025-08-28",
+    "filed": "2025-08-29",
+    "code": "S",
+    "value": 1621975,
+    "who": "Reprogrammed Interchange LLC"
+   },
+   {
+    "date": "2025-08-25",
+    "filed": "2025-08-27",
+    "code": "S",
+    "value": 819740,
+    "who": "Reprogrammed Interchange LLC"
+   },
+   {
+    "date": "2025-08-26",
+    "filed": "2025-08-27",
+    "code": "S",
+    "value": 591343,
+    "who": "Reprogrammed Interchange LLC"
+   }
+  ]
+ },
+ "drug": "telitacicept",
+ "trials": {
+  "query": "vor biopharma",
+  "other_trials": 0,
+  "crashed_drug_trials": 1,
+  "examples": []
+ }
+}

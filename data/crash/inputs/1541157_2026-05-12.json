@@ -1,0 +1,50 @@
+{
+ "id": "1541157_2026-05-12",
+ "kind": "crash",
+ "cik": "1541157",
+ "name": "Akari Therapeutics Plc",
+ "date": "2026-05-12",
+ "asof": "2026-05-12",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-05-12",
+  "adj_close": 3.06
+ },
+ "balance": {
+  "end": "2025-12-31",
+  "cash": 0,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001493152-26-013664"
+ },
+ "burn6": {
+  "end": "2025-12-31",
+  "start": "2025-07-01",
+  "cash_used_ops": 5162000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-03-01",
+  "shares": 91567009533
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Based on our recurring losses from operations incurred since inception, our expectation of continuing operating losses for the foreseeable future, negative operating cash flows for the foreseeable future, and the need to raise additional capital to finance its future operations, we have concluded th"
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2026-02-11",
+  "to": "2026-06-11",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "akari therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

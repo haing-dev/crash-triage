@@ -1,0 +1,50 @@
+{
+ "id": "1408443_2025-03-28",
+ "kind": "crash",
+ "cik": "1408443",
+ "name": "Milestone Pharmaceuticals Inc.",
+ "date": "2025-03-28",
+ "asof": "2025-04-03",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-04-03",
+  "adj_close": 0.75
+ },
+ "balance": {
+  "end": "2024-12-31",
+  "cash": 69695000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001558370-25-002849"
+ },
+ "burn6": {
+  "end": "2024-12-31",
+  "start": "2024-07-01",
+  "cash_used_ops": 13861000.0,
+  "capex": 26000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-03-13",
+  "shares": 53353984
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2024-12-28",
+  "to": "2025-04-27",
+  "trades": []
+ },
+ "drug": "etripamil (CARDAMYST)",
+ "trials": {
+  "query": "milestone pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 2,
+  "examples": []
+ }
+}

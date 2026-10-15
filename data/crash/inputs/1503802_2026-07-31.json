@@ -1,0 +1,100 @@
+{
+ "id": "1503802_2026-07-31",
+ "kind": "crash",
+ "cik": "1503802",
+ "name": "Karyopharm Therapeutics Inc.",
+ "date": "2026-07-31",
+ "asof": "2026-07-31",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-07-31",
+  "adj_close": 1.92
+ },
+ "balance": {
+  "end": "2026-03-31",
+  "cash": 90850000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001193125-26-222827"
+ },
+ "burn6": {
+  "end": "2026-03-31",
+  "start": "2025-10-01",
+  "cash_used_ops": 34556000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-05-07",
+  "shares": 22662943
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Based on our current business plan and current capital resources, combined with the uncertainty regarding the availability of additional funding or other strategic alternatives and considering our debt service obligations and financial covenant to maintain minimum liquidity, we have concluded that t"
+ },
+ "insiders": {
+  "form4s": 13,
+  "from": "2026-05-02",
+  "to": "2026-08-30",
+  "trades": [
+   {
+    "date": "2026-07-28",
+    "filed": "2026-07-30",
+    "code": "S",
+    "value": 1342,
+    "who": "Poulton Stuart"
+   },
+   {
+    "date": "2026-05-14",
+    "filed": "2026-05-15",
+    "code": "S",
+    "value": 3828,
+    "who": "Poulton Stuart"
+   },
+   {
+    "date": "2026-05-14",
+    "filed": "2026-05-15",
+    "code": "S",
+    "value": 3876,
+    "who": "Rangwala Reshma"
+   },
+   {
+    "date": "2026-05-14",
+    "filed": "2026-05-15",
+    "code": "S",
+    "value": 3078,
+    "who": "Cheng Sohanya Roshan"
+   },
+   {
+    "date": "2026-05-14",
+    "filed": "2026-05-15",
+    "code": "S",
+    "value": 504,
+    "who": "Abate Kristin"
+   },
+   {
+    "date": "2026-05-14",
+    "filed": "2026-05-15",
+    "code": "S",
+    "value": 20928,
+    "who": "Paulson Richard A."
+   },
+   {
+    "date": "2026-05-14",
+    "filed": "2026-05-15",
+    "code": "S",
+    "value": 2527,
+    "who": "Mano Michael"
+   }
+  ]
+ },
+ "drug": "selinexor",
+ "trials": {
+  "query": "karyopharm therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 6,
+  "examples": []
+ }
+}

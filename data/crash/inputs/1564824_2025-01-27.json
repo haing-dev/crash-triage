@@ -1,0 +1,50 @@
+{
+ "id": "1564824_2025-01-27",
+ "kind": "crash",
+ "cik": "1564824",
+ "name": "Allakos Inc.",
+ "date": "2025-01-27",
+ "asof": "2025-01-27",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-01-27",
+  "adj_close": 0.2363
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 92715000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-24-122299"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": 48589000.0,
+  "capex": 105000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-11-01",
+  "shares": 89343634
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2024-10-29",
+  "to": "2025-02-26",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "allakos",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

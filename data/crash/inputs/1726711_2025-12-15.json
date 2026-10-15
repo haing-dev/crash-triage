@@ -1,0 +1,65 @@
+{
+ "id": "1726711_2025-12-15",
+ "kind": "crash",
+ "cik": "1726711",
+ "name": "Aditxt, Inc.",
+ "date": "2025-12-15",
+ "asof": "2025-12-15",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-12-15",
+  "adj_close": 311.04
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 163041,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001213900-25-111638"
+ },
+ "burn6": {
+  "end": "2025-09-30",
+  "start": "2025-04-01",
+  "cash_used_ops": 4729291.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-11-17",
+  "shares": 559444
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "We believe our remaining funds on hand will not be sufficient to fund our operations for the next 12 months and such creates substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 2,
+  "from": "2025-09-16",
+  "to": "2026-01-14",
+  "trades": [
+   {
+    "date": "2025-12-17",
+    "filed": "2025-12-19",
+    "code": "S",
+    "value": 2,
+    "who": "Brady Brian Michael"
+   },
+   {
+    "date": "2025-11-25",
+    "filed": "2025-11-26",
+    "code": "S",
+    "value": 3,
+    "who": "Pankovcin Corinne"
+   }
+  ]
+ },
+ "drug": "n/a",
+ "trials": {
+  "query": "aditxt",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

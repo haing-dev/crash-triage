@@ -1,0 +1,170 @@
+{
+ "id": "1754068_2023-12-22",
+ "kind": "crash",
+ "cik": "1754068",
+ "name": "Kalaris Therapeutics, Inc.",
+ "date": "2023-12-22",
+ "asof": "2023-12-27",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-12-27",
+  "adj_close": 16.077
+ },
+ "balance": {
+  "end": "2023-09-30",
+  "cash": 213318000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-23-058145"
+ },
+ "burn6": {
+  "end": "2023-09-30",
+  "start": "2023-04-01",
+  "cash_used_ops": 61598000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-10-27",
+  "shares": 114063336
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 14,
+  "from": "2023-09-23",
+  "to": "2024-01-21",
+  "trades": [
+   {
+    "date": "2024-01-04",
+    "filed": "2024-01-08",
+    "code": "S",
+    "value": 198,
+    "who": "Hagen Brett R"
+   },
+   {
+    "date": "2024-01-04",
+    "filed": "2024-01-08",
+    "code": "S",
+    "value": 271,
+    "who": "Miller Edward"
+   },
+   {
+    "date": "2024-01-04",
+    "filed": "2024-01-08",
+    "code": "S",
+    "value": 614,
+    "who": "Sinha Vikas"
+   },
+   {
+    "date": "2024-01-04",
+    "filed": "2024-01-08",
+    "code": "S",
+    "value": 1063,
+    "who": "Brainard Diana"
+   },
+   {
+    "date": "2023-12-27",
+    "filed": "2024-01-02",
+    "code": "S",
+    "value": 20838,
+    "who": "Hagen Brett R"
+   },
+   {
+    "date": "2023-11-17",
+    "filed": "2023-11-21",
+    "code": "S",
+    "value": 4061,
+    "who": "Sinha Vikas"
+   },
+   {
+    "date": "2023-11-17",
+    "filed": "2023-11-21",
+    "code": "S",
+    "value": 4386,
+    "who": "Brainard Diana"
+   },
+   {
+    "date": "2023-11-20",
+    "filed": "2023-11-21",
+    "code": "S",
+    "value": 7408,
+    "who": "Brainard Diana"
+   },
+   {
+    "date": "2023-11-17",
+    "filed": "2023-11-21",
+    "code": "S",
+    "value": 657,
+    "who": "Hagen Brett R"
+   },
+   {
+    "date": "2023-10-19",
+    "filed": "2023-10-23",
+    "code": "S",
+    "value": 566,
+    "who": "Hagen Brett R"
+   },
+   {
+    "date": "2023-10-20",
+    "filed": "2023-10-23",
+    "code": "S",
+    "value": 550,
+    "who": "Hagen Brett R"
+   },
+   {
+    "date": "2023-10-19",
+    "filed": "2023-10-23",
+    "code": "S",
+    "value": 13558,
+    "who": "Brainard Diana"
+   },
+   {
+    "date": "2023-10-19",
+    "filed": "2023-10-23",
+    "code": "S",
+    "value": 1947,
+    "who": "Sinha Vikas"
+   },
+   {
+    "date": "2023-10-20",
+    "filed": "2023-10-23",
+    "code": "S",
+    "value": 2273,
+    "who": "Sinha Vikas"
+   },
+   {
+    "date": "2023-10-03",
+    "filed": "2023-10-05",
+    "code": "S",
+    "value": 2619,
+    "who": "Brainard Diana"
+   },
+   {
+    "date": "2023-10-03",
+    "filed": "2023-10-05",
+    "code": "S",
+    "value": 1492,
+    "who": "Sinha Vikas"
+   },
+   {
+    "date": "2023-10-03",
+    "filed": "2023-10-05",
+    "code": "S",
+    "value": 439,
+    "who": "Hagen Brett R"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "kalaris therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

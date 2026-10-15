@@ -1,0 +1,171 @@
+{
+ "id": "1880438_2024-02-12",
+ "kind": "crash",
+ "cik": "1880438",
+ "name": "AN2 Therapeutics, Inc.",
+ "date": "2024-02-12",
+ "asof": "2024-02-12",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-02-12",
+  "adj_close": 5.1
+ },
+ "balance": {
+  "end": "2023-09-30",
+  "cash": 150174000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0000950170-23-062081"
+ },
+ "burn6": {
+  "end": "2023-09-30",
+  "start": "2023-04-01",
+  "cash_used_ops": 24624000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-11-02",
+  "shares": 29741445
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 10,
+  "from": "2023-11-14",
+  "to": "2024-03-13",
+  "trades": [
+   {
+    "date": "2024-01-18",
+    "filed": "2024-01-19",
+    "code": "S",
+    "value": 1911410,
+    "who": "Zakrzewski Joseph S"
+   },
+   {
+    "date": "2024-01-16",
+    "filed": "2024-01-18",
+    "code": "S",
+    "value": 1652427,
+    "who": "Aziz Kabeer"
+   },
+   {
+    "date": "2024-01-16",
+    "filed": "2024-01-18",
+    "code": "S",
+    "value": 312573,
+    "who": "Aziz Kabeer"
+   },
+   {
+    "date": "2024-01-16",
+    "filed": "2024-01-18",
+    "code": "S",
+    "value": 1652427,
+    "who": "Adjuvant Global Health Technology Fund, L.P."
+   },
+   {
+    "date": "2024-01-16",
+    "filed": "2024-01-18",
+    "code": "S",
+    "value": 312573,
+    "who": "Adjuvant Global Health Technology Fund, L.P."
+   },
+   {
+    "date": "2024-01-12",
+    "filed": "2024-01-17",
+    "code": "S",
+    "value": 15476,
+    "who": "Readnour Robin Shane"
+   },
+   {
+    "date": "2024-01-12",
+    "filed": "2024-01-17",
+    "code": "S",
+    "value": 15753,
+    "who": "Readnour Robin Shane"
+   },
+   {
+    "date": "2024-01-10",
+    "filed": "2024-01-12",
+    "code": "S",
+    "value": 40987,
+    "who": "Readnour Robin Shane"
+   },
+   {
+    "date": "2024-01-10",
+    "filed": "2024-01-12",
+    "code": "S",
+    "value": 39456,
+    "who": "Readnour Robin Shane"
+   },
+   {
+    "date": "2024-01-09",
+    "filed": "2024-01-11",
+    "code": "S",
+    "value": 149367,
+    "who": "Krause Kevin Michael"
+   },
+   {
+    "date": "2024-01-02",
+    "filed": "2024-01-04",
+    "code": "S",
+    "value": 51967,
+    "who": "Krause Kevin Michael"
+   },
+   {
+    "date": "2024-01-02",
+    "filed": "2024-01-04",
+    "code": "S",
+    "value": 55802,
+    "who": "Easom Eric"
+   },
+   {
+    "date": "2023-11-14",
+    "filed": "2023-11-16",
+    "code": "S",
+    "value": 24574,
+    "who": "Adjuvant Global Health Technology Fund, L.P."
+   },
+   {
+    "date": "2023-11-14",
+    "filed": "2023-11-16",
+    "code": "S",
+    "value": 4650,
+    "who": "Adjuvant Global Health Technology Fund, L.P."
+   },
+   {
+    "date": "2023-11-14",
+    "filed": "2023-11-16",
+    "code": "S",
+    "value": 24574,
+    "who": "Aziz Kabeer"
+   },
+   {
+    "date": "2023-11-14",
+    "filed": "2023-11-16",
+    "code": "S",
+    "value": 4650,
+    "who": "Aziz Kabeer"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "an2 therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05327803",
+    "drugs": [
+     "Epetraborole"
+    ]
+   }
+  ]
+ }
+}

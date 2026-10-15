@@ -1,0 +1,58 @@
+{
+ "id": "1798749_2025-04-29",
+ "kind": "crash",
+ "cik": "1798749",
+ "name": "Jade Biosciences, Inc.",
+ "date": "2025-04-29",
+ "asof": "2025-04-29",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-04-29",
+  "adj_close": 10.14
+ },
+ "balance": {
+  "end": "2025-03-31",
+  "cash": 76210000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001558370-25-005564"
+ },
+ "burn6": {
+  "end": "2025-03-31",
+  "start": "2024-10-01",
+  "cash_used_ops": 13428000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-04-24",
+  "shares": 28985019
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 7,
+  "from": "2025-01-29",
+  "to": "2025-05-29",
+  "trades": [
+   {
+    "date": "2025-05-16",
+    "filed": "2025-05-19",
+    "code": "P",
+    "value": 44400,
+    "who": "Frohlich Tom"
+   }
+  ]
+ },
+ "drug": "JADE-001",
+ "trials": {
+  "query": "jade biosciences",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

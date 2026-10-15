@@ -1,0 +1,75 @@
+{
+ "id": "1697532_2022-01-03",
+ "kind": "crash",
+ "cik": "1697532",
+ "name": "Applied Therapeutics, Inc.",
+ "date": "2022-01-03",
+ "asof": "2022-01-06",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-01-06",
+  "adj_close": 4.33
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 108802000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001558370-21-015654"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 41573000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-11-10",
+  "shares": 26215514
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 9,
+  "from": "2021-10-05",
+  "to": "2022-02-02",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "applied therapeutics",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04083339",
+    "drugs": [
+     "AT-001"
+    ]
+   },
+   {
+    "nct": "NCT04902781",
+    "drugs": [
+     "AT-007"
+    ]
+   },
+   {
+    "nct": "NCT05418829",
+    "drugs": [
+     "AT-007"
+    ]
+   },
+   {
+    "nct": "NCT05397665",
+    "drugs": [
+     "AT-007"
+    ]
+   }
+  ]
+ }
+}

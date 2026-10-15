@@ -1,0 +1,56 @@
+{
+ "id": "1875091_2023-12-06",
+ "kind": "crash",
+ "cik": "1875091",
+ "name": "NeuroSense Therapeutics Ltd.",
+ "date": "2023-12-06",
+ "asof": "2023-12-11",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-12-11",
+  "adj_close": 14.0
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 7089000,
+  "parts": [
+   "ifrs CashAndCashEquivalents"
+  ],
+  "accn": "0001213900-23-068186"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 4078000.0,
+  "capex": 25000.0,
+  "periods": 1
+ },
+ "shares": {
+  "end": "2022-04-13",
+  "shares": 11781963
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2023-09-07",
+  "to": "2024-01-05",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "neurosense therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06185543",
+    "drugs": [
+     "PrimeC"
+    ]
+   }
+  ]
+ }
+}

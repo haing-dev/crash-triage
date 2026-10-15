@@ -1,0 +1,57 @@
+{
+ "id": "1788028_2025-07-07",
+ "kind": "crash",
+ "cik": "1788028",
+ "name": "Jasper Therapeutics, Inc.",
+ "date": "2025-07-07",
+ "asof": "2025-07-08",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-07-08",
+  "adj_close": 3.02
+ },
+ "balance": {
+  "end": "2025-03-31",
+  "cash": 48799000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001213900-25-042011"
+ },
+ "burn6": {
+  "end": "2025-03-31",
+  "start": "2024-10-01",
+  "cash_used_ops": 43976000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-05-08",
+  "shares": 15022122
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Given our recurring losses from operations and negative cash flows, and based on our current operating plan, we have concluded that there is substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2025-04-08",
+  "to": "2025-08-06",
+  "trades": []
+ },
+ "drug": "briquilimab",
+ "trials": {
+  "query": "jasper therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 3,
+  "examples": [
+   {
+    "nct": "NCT02963064",
+    "drugs": [
+     "Humanized anti-CD117 Monoclonal Antibody (JSP191)"
+    ]
+   }
+  ]
+ }
+}

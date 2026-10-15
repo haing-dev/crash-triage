@@ -1,0 +1,52 @@
+{
+ "id": "1348362_2025-12-15",
+ "kind": "crash",
+ "cik": "1348362",
+ "name": "Lexaria Bioscience Corp.",
+ "date": "2025-12-15",
+ "asof": "2025-12-19",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-12-19",
+  "adj_close": 8.745
+ },
+ "balance": {
+  "end": "2025-08-31",
+  "cash": 2173337,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+   "MarketableSecuritiesCurrent",
+   "MarketableSecuritiesNoncurrent"
+  ],
+  "accn": "0001640334-25-002225"
+ },
+ "burn6": {
+  "end": "2025-08-31",
+  "start": "2025-03-01",
+  "cash_used_ops": 6226451.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-11-25",
+  "shares": 22225846
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Risks Associated with our Financial Condition There is substantial doubt as to our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2025-09-16",
+  "to": "2026-01-14",
+  "trades": []
+ },
+ "drug": "n/a",
+ "trials": {
+  "query": "lexaria bioscience",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

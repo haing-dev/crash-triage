@@ -1,0 +1,169 @@
+{
+ "id": "1671584_2021-11-24",
+ "kind": "crash",
+ "cik": "1671584",
+ "name": "Aptevo Therapeutics Inc.",
+ "date": "2021-11-24",
+ "asof": "2021-12-01",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-12-01",
+  "adj_close": 4647614.5
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 52118000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001564590-21-056494"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 10295000.0,
+  "capex": 404000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-11-11",
+  "shares": 4898034
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2021-08-26",
+  "to": "2021-12-24",
+  "trades": [
+   {
+    "date": "2021-11-23",
+    "filed": "2021-11-26",
+    "code": "S",
+    "value": 2181521,
+    "who": "TANG KEVIN C"
+   },
+   {
+    "date": "2021-11-23",
+    "filed": "2021-11-26",
+    "code": "S",
+    "value": 1550187,
+    "who": "TANG KEVIN C"
+   },
+   {
+    "date": "2021-11-23",
+    "filed": "2021-11-26",
+    "code": "S",
+    "value": 886430,
+    "who": "TANG KEVIN C"
+   },
+   {
+    "date": "2021-11-23",
+    "filed": "2021-11-26",
+    "code": "S",
+    "value": 1668433,
+    "who": "TANG KEVIN C"
+   },
+   {
+    "date": "2021-11-23",
+    "filed": "2021-11-26",
+    "code": "S",
+    "value": 530665,
+    "who": "TANG KEVIN C"
+   },
+   {
+    "date": "2021-11-23",
+    "filed": "2021-11-26",
+    "code": "S",
+    "value": 2014440,
+    "who": "TANG KEVIN C"
+   },
+   {
+    "date": "2021-11-23",
+    "filed": "2021-11-26",
+    "code": "S",
+    "value": 1536560,
+    "who": "TANG KEVIN C"
+   },
+   {
+    "date": "2021-11-18",
+    "filed": "2021-11-22",
+    "code": "S",
+    "value": 405532,
+    "who": "TANG KEVIN C"
+   },
+   {
+    "date": "2021-11-18",
+    "filed": "2021-11-22",
+    "code": "S",
+    "value": 1271516,
+    "who": "TANG KEVIN C"
+   },
+   {
+    "date": "2021-11-18",
+    "filed": "2021-11-22",
+    "code": "S",
+    "value": 32190,
+    "who": "TANG KEVIN C"
+   },
+   {
+    "date": "2021-11-18",
+    "filed": "2021-11-22",
+    "code": "S",
+    "value": 1372319,
+    "who": "TANG KEVIN C"
+   },
+   {
+    "date": "2021-11-19",
+    "filed": "2021-11-22",
+    "code": "S",
+    "value": 244111,
+    "who": "TANG KEVIN C"
+   },
+   {
+    "date": "2021-11-19",
+    "filed": "2021-11-22",
+    "code": "S",
+    "value": 1378756,
+    "who": "TANG KEVIN C"
+   },
+   {
+    "date": "2021-11-22",
+    "filed": "2021-11-22",
+    "code": "S",
+    "value": 122651,
+    "who": "TANG KEVIN C"
+   },
+   {
+    "date": "2021-11-22",
+    "filed": "2021-11-22",
+    "code": "S",
+    "value": 1395185,
+    "who": "TANG KEVIN C"
+   },
+   {
+    "date": "2021-11-22",
+    "filed": "2021-11-22",
+    "code": "S",
+    "value": 24779,
+    "who": "TANG KEVIN C"
+   },
+   {
+    "date": "2021-11-22",
+    "filed": "2021-11-22",
+    "code": "S",
+    "value": 253373,
+    "who": "TANG KEVIN C"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "aptevo therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

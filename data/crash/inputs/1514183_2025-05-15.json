@@ -1,0 +1,59 @@
+{
+ "id": "1514183_2025-05-15",
+ "kind": "crash",
+ "cik": "1514183",
+ "name": "Silo Pharma, Inc.",
+ "date": "2025-05-15",
+ "asof": "2025-05-16",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-05-16",
+  "adj_close": 7.245
+ },
+ "balance": {
+  "end": "2025-03-31",
+  "cash": 5451430,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001213900-25-041519"
+ },
+ "burn6": {
+  "end": "2025-03-31",
+  "start": "2024-10-01",
+  "cash_used_ops": 2557732.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-05-08",
+  "shares": 4484456
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "The positive working capital serves to mitigate the conditions that historically raised substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2025-02-14",
+  "to": "2025-06-14",
+  "trades": [
+   {
+    "date": "2025-05-27",
+    "filed": "2025-05-28",
+    "code": "P",
+    "value": 4329,
+    "who": "Weisblum Eric"
+   }
+  ]
+ },
+ "drug": "n/a",
+ "trials": {
+  "query": "silo pharma",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "id": "1452804_2025-05-23",
+ "kind": "crash",
+ "cik": "1452804",
+ "name": "Retrieve Medical Holdings, Inc.",
+ "date": "2025-05-23",
+ "asof": "2025-05-30",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-05-30",
+  "adj_close": 1.02
+ },
+ "balance": {
+  "end": "2022-12-31",
+  "cash": 96720,
+  "parts": [
+   "Cash"
+  ],
+  "accn": "0001199835-23-000089"
+ },
+ "burn6": {
+  "end": "2022-12-31",
+  "start": "2022-07-01",
+  "cash_used_ops": 34620.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-02-08",
+  "shares": 78363567
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These conditions raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2025-02-22",
+  "to": "2025-06-22",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "retrieve medical",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

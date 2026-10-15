@@ -1,0 +1,58 @@
+{
+ "id": "1516551_2023-09-08",
+ "kind": "crash",
+ "cik": "1516551",
+ "name": "Skye Bioscience, Inc.",
+ "date": "2023-09-08",
+ "asof": "2023-09-14",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-09-14",
+  "adj_close": 15.864
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 553443,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001516551-23-000044"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 6052759.0,
+  "capex": 1860.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-08-04",
+  "shares": 971549608
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These conditions, including the uncertainty of our ability to successfully resolve our litigation with Cunning (as described below), give rise to substantial doubt as to the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 9,
+  "from": "2023-06-10",
+  "to": "2023-10-08",
+  "trades": [
+   {
+    "date": "2023-08-29",
+    "filed": "2023-08-29",
+    "code": "P",
+    "value": 16475,
+    "who": "DHILLON PUNIT"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "skye bioscience",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

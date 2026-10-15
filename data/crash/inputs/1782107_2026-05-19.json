@@ -1,0 +1,93 @@
+{
+ "id": "1782107_2026-05-19",
+ "kind": "crash",
+ "cik": "1782107",
+ "name": "Onconetix, Inc.",
+ "date": "2026-05-19",
+ "asof": "2026-05-19",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-05-19",
+  "adj_close": 1.18
+ },
+ "balance": {
+  "end": "2026-03-31",
+  "cash": 3716072,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0001213900-26-055483"
+ },
+ "burn6": {
+  "end": "2026-03-31",
+  "start": "2025-10-01",
+  "cash_used_ops": 5212066.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-05-12",
+  "shares": 11464572
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These factors raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2026-02-18",
+  "to": "2026-06-18",
+  "trades": [
+   {
+    "date": "2026-04-21",
+    "filed": "2026-04-22",
+    "code": "S",
+    "value": 34300,
+    "who": "HRT FINANCIAL LP"
+   },
+   {
+    "date": "2026-04-16",
+    "filed": "2026-04-21",
+    "code": "S",
+    "value": 39323,
+    "who": "HRT FINANCIAL LP"
+   },
+   {
+    "date": "2026-04-17",
+    "filed": "2026-04-21",
+    "code": "P",
+    "value": 25284,
+    "who": "HRT FINANCIAL LP"
+   },
+   {
+    "date": "2026-04-20",
+    "filed": "2026-04-21",
+    "code": "S",
+    "value": 70846,
+    "who": "HRT FINANCIAL LP"
+   },
+   {
+    "date": "2026-04-14",
+    "filed": "2026-04-16",
+    "code": "P",
+    "value": 57250,
+    "who": "HRT FINANCIAL LP"
+   },
+   {
+    "date": "2026-04-15",
+    "filed": "2026-04-16",
+    "code": "P",
+    "value": 70341,
+    "who": "HRT FINANCIAL LP"
+   }
+  ]
+ },
+ "drug": "Proclarix",
+ "trials": {
+  "query": "onconetix",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

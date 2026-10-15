@@ -1,0 +1,50 @@
+{
+ "id": "1527728_2026-03-06",
+ "kind": "crash",
+ "cik": "1527728",
+ "name": "Lunai Bioworks Inc.",
+ "date": "2026-03-06",
+ "asof": "2026-03-11",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-03-11",
+  "adj_close": 1.52
+ },
+ "balance": {
+  "end": "2025-12-31",
+  "cash": 491645,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001731122-26-000253"
+ },
+ "burn6": {
+  "end": "2025-12-31",
+  "start": "2025-07-01",
+  "cash_used_ops": 2420323.0,
+  "capex": 1238.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-02-11",
+  "shares": 24187356
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These conditions raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2025-12-06",
+  "to": "2026-04-05",
+  "trades": []
+ },
+ "drug": "n/a",
+ "trials": {
+  "query": "lunai bioworks",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

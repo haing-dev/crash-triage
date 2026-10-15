@@ -1,0 +1,92 @@
+{
+ "id": "1771910_2026-06-04",
+ "kind": "crash",
+ "cik": "1771910",
+ "name": "ADC Therapeutics SA",
+ "date": "2026-06-04",
+ "asof": "2026-06-04",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-06-04",
+  "adj_close": 1.32
+ },
+ "balance": {
+  "end": "2026-03-31",
+  "cash": 231008000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001628280-26-029819"
+ },
+ "burn6": {
+  "end": "2026-03-31",
+  "start": "2025-10-01",
+  "cash_used_ops": 60833000.0,
+  "capex": 32000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-04-27",
+  "shares": 127191158
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 12,
+  "from": "2026-03-06",
+  "to": "2026-07-04",
+  "trades": [
+   {
+    "date": "2026-03-31",
+    "filed": "2026-04-02",
+    "code": "S",
+    "value": 736251,
+    "who": "Redmile Group, LLC"
+   },
+   {
+    "date": "2026-03-31",
+    "filed": "2026-04-02",
+    "code": "S",
+    "value": 706903,
+    "who": "Redmile Group, LLC"
+   },
+   {
+    "date": "2026-04-01",
+    "filed": "2026-04-02",
+    "code": "S",
+    "value": 643038,
+    "who": "Redmile Group, LLC"
+   },
+   {
+    "date": "2026-04-01",
+    "filed": "2026-04-02",
+    "code": "S",
+    "value": 617402,
+    "who": "Redmile Group, LLC"
+   },
+   {
+    "date": "2026-04-02",
+    "filed": "2026-04-02",
+    "code": "S",
+    "value": 8638545,
+    "who": "Redmile Group, LLC"
+   },
+   {
+    "date": "2026-04-02",
+    "filed": "2026-04-02",
+    "code": "S",
+    "value": 8294201,
+    "who": "Redmile Group, LLC"
+   }
+  ]
+ },
+ "drug": "ZYNLONTA (loncastuximab tesirine-lpyl) plus rituximab",
+ "trials": {
+  "query": "adc therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

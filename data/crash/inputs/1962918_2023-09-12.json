@@ -1,0 +1,74 @@
+{
+ "id": "1962918_2023-09-12",
+ "kind": "crash",
+ "cik": "1962918",
+ "name": "ACELYRIN, Inc.",
+ "date": "2023-09-12",
+ "asof": "2023-09-13",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-09-13",
+  "adj_close": 10.71
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 556169000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001962918-23-000013"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 56949000.0,
+  "capex": 1999000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-08-10",
+  "shares": 97240419
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 10,
+  "from": "2023-06-14",
+  "to": "2023-10-12",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "acelyrin",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05384249",
+    "drugs": [
+     "Izokibep"
+    ]
+   },
+   {
+    "nct": "NCT05623345",
+    "drugs": [
+     "Izokibep"
+    ]
+   },
+   {
+    "nct": "NCT05905783",
+    "drugs": [
+     "Izokibep"
+    ]
+   },
+   {
+    "nct": "NCT05683496",
+    "drugs": [
+     "lonigutamab"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "id": "1580149_2024-03-04",
+ "kind": "crash",
+ "cik": "1580149",
+ "name": "BIOVIE INC.",
+ "date": "2024-03-04",
+ "asof": "2024-03-08",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-03-08",
+  "adj_close": 71.8
+ },
+ "balance": {
+  "end": "2023-12-31",
+  "cash": 20226698,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001520138-24-000069"
+ },
+ "burn6": {
+  "end": "2023-12-31",
+  "start": "2023-07-01",
+  "cash_used_ops": 18086899.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-02-07",
+  "shares": 39871098
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2023-12-05",
+  "to": "2024-04-03",
+  "trades": [
+   {
+    "date": "2024-03-04",
+    "filed": "2024-03-06",
+    "code": "P",
+    "value": 0,
+    "who": "DO CUONG V"
+   },
+   {
+    "date": "2023-12-01",
+    "filed": "2023-12-06",
+    "code": "S",
+    "value": 127899,
+    "who": "GORLIN STEVE"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "biovie",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

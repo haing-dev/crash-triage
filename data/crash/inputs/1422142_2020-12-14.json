@@ -1,0 +1,57 @@
+{
+ "id": "1422142_2020-12-14",
+ "kind": "crash",
+ "cik": "1422142",
+ "name": "Whitehawk Therapeutics, Inc.",
+ "date": "2020-12-14",
+ "asof": "2020-12-18",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2020-12-18",
+  "adj_close": 15.0
+ },
+ "balance": {
+  "end": "2020-09-30",
+  "cash": 47281986,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001564590-20-052756"
+ },
+ "burn6": {
+  "end": "2020-09-30",
+  "start": "2020-04-01",
+  "cash_used_ops": -3375459.0,
+  "capex": 12727.934065934067,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2020-11-06",
+  "shares": 47111659
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2020-09-15",
+  "to": "2021-01-13",
+  "trades": [
+   {
+    "date": "2020-12-08",
+    "filed": "2020-12-10",
+    "code": "S",
+    "value": 41944,
+    "who": "ORBIMED ADVISORS LLC"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "whitehawk therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

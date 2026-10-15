@@ -1,0 +1,63 @@
+{
+ "id": "1860657_2024-06-25",
+ "kind": "crash",
+ "cik": "1860657",
+ "name": "Allarity Therapeutics, Inc.",
+ "date": "2024-06-25",
+ "asof": "2024-06-26",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-06-26",
+  "adj_close": 6.03
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 312000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001213900-24-042997"
+ },
+ "burn6": {
+  "end": "2024-03-31",
+  "start": "2023-10-01",
+  "cash_used_ops": 3159000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-05-13",
+  "shares": 17606739
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2024-03-27",
+  "to": "2024-07-25",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "allarity therapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04796324",
+    "drugs": [
+     "Ixabepilone Injection"
+    ]
+   },
+   {
+    "nct": "NCT03878849",
+    "drugs": [
+     "2X-121",
+     "2X-121"
+    ]
+   }
+  ]
+ }
+}

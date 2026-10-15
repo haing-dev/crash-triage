@@ -1,0 +1,101 @@
+{
+ "id": "1745020_2023-07-14",
+ "kind": "crash",
+ "cik": "1745020",
+ "name": "Theseus Pharmaceuticals, Inc.",
+ "date": "2023-07-14",
+ "asof": "2023-07-14",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-07-14",
+  "adj_close": 2.66
+ },
+ "balance": {
+  "end": "2023-03-31",
+  "cash": 243613000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0001745020-23-000009"
+ },
+ "burn6": {
+  "end": "2023-03-31",
+  "start": "2022-10-01",
+  "cash_used_ops": 28567000.0,
+  "capex": 11000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-05-05",
+  "shares": 43576534
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2023-04-15",
+  "to": "2023-08-13",
+  "trades": [
+   {
+    "date": "2023-07-17",
+    "filed": "2023-07-19",
+    "code": "P",
+    "value": 1001870,
+    "who": "GORDON CARL L"
+   },
+   {
+    "date": "2023-07-17",
+    "filed": "2023-07-19",
+    "code": "P",
+    "value": 461922,
+    "who": "GORDON CARL L"
+   },
+   {
+    "date": "2023-07-17",
+    "filed": "2023-07-19",
+    "code": "P",
+    "value": 1001870,
+    "who": "ORBIMED ADVISORS LLC"
+   },
+   {
+    "date": "2023-07-17",
+    "filed": "2023-07-19",
+    "code": "P",
+    "value": 461922,
+    "who": "ORBIMED ADVISORS LLC"
+   },
+   {
+    "date": "2023-07-17",
+    "filed": "2023-07-19",
+    "code": "P",
+    "value": 1554646,
+    "who": "Foresite Capital Management V, LLC"
+   },
+   {
+    "date": "2023-07-17",
+    "filed": "2023-07-19",
+    "code": "P",
+    "value": 524354,
+    "who": "Foresite Capital Management V, LLC"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "theseus pharmaceuticals",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05160168",
+    "drugs": [
+     "THE-630"
+    ]
+   }
+  ]
+ }
+}

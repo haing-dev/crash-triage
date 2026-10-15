@@ -1,0 +1,106 @@
+{
+ "id": "1904286_2024-07-23",
+ "kind": "crash",
+ "cik": "1904286",
+ "name": "MIRA PHARMACEUTICALS, INC.",
+ "date": "2024-07-23",
+ "asof": "2024-07-29",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-07-29",
+  "adj_close": 2.29
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 3528695,
+  "parts": [
+   "Cash"
+  ],
+  "accn": "0001493152-24-018908"
+ },
+ "burn6": {
+  "end": "2024-03-31",
+  "start": "2023-10-01",
+  "cash_used_ops": 2084551.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-11-13",
+  "shares": 14780885
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2024-04-24",
+  "to": "2024-08-22",
+  "trades": [
+   {
+    "date": "2024-05-21",
+    "filed": "2024-05-22",
+    "code": "P",
+    "value": 2000,
+    "who": "Aminov Erez"
+   },
+   {
+    "date": "2024-05-21",
+    "filed": "2024-05-22",
+    "code": "P",
+    "value": 1030,
+    "who": "Aminov Erez"
+   },
+   {
+    "date": "2024-05-21",
+    "filed": "2024-05-22",
+    "code": "P",
+    "value": 510,
+    "who": "Aminov Erez"
+   },
+   {
+    "date": "2024-05-21",
+    "filed": "2024-05-22",
+    "code": "P",
+    "value": 1680,
+    "who": "Aminov Erez"
+   },
+   {
+    "date": "2024-05-21",
+    "filed": "2024-05-22",
+    "code": "P",
+    "value": 850,
+    "who": "Aminov Erez"
+   },
+   {
+    "date": "2024-05-21",
+    "filed": "2024-05-22",
+    "code": "P",
+    "value": 522,
+    "who": "Aminov Erez"
+   },
+   {
+    "date": "2024-05-21",
+    "filed": "2024-05-22",
+    "code": "P",
+    "value": 808,
+    "who": "Aminov Erez"
+   },
+   {
+    "date": "2024-05-21",
+    "filed": "2024-05-22",
+    "code": "P",
+    "value": 776,
+    "who": "Aminov Erez"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "mira pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

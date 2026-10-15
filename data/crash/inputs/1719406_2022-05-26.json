@@ -1,0 +1,78 @@
+{
+ "id": "1719406_2022-05-26",
+ "kind": "crash",
+ "cik": "1719406",
+ "name": "NRX Pharmaceuticals, Inc.",
+ "date": "2022-05-26",
+ "asof": "2022-05-26",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-05-26",
+  "adj_close": 5.77
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 40202000,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0001558370-22-008948"
+ },
+ "burn6": {
+  "end": "2022-03-31",
+  "start": "2021-10-01",
+  "cash_used_ops": 21659903.0,
+  "capex": 3388.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-05-11",
+  "shares": 66641314
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2022-02-25",
+  "to": "2022-06-25",
+  "trades": [
+   {
+    "date": "2022-06-03",
+    "filed": "2022-06-07",
+    "code": "S",
+    "value": 171102,
+    "who": "Javitt Daniel C."
+   },
+   {
+    "date": "2022-06-06",
+    "filed": "2022-06-07",
+    "code": "S",
+    "value": 76947,
+    "who": "Javitt Daniel C."
+   },
+   {
+    "date": "2022-06-07",
+    "filed": "2022-06-07",
+    "code": "S",
+    "value": 55861,
+    "who": "Javitt Daniel C."
+   },
+   {
+    "date": "2022-06-01",
+    "filed": "2022-06-02",
+    "code": "P",
+    "value": 5800000,
+    "who": "Javitt Jonathan C"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "nrx pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

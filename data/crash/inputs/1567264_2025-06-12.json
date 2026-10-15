@@ -1,0 +1,50 @@
+{
+ "id": "1567264_2025-06-12",
+ "kind": "crash",
+ "cik": "1567264",
+ "name": "INTENSITY THERAPEUTICS, INC.",
+ "date": "2025-06-12",
+ "asof": "2025-06-17",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-06-17",
+  "adj_close": 7.15
+ },
+ "balance": {
+  "end": "2025-03-31",
+  "cash": 929000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001567264-25-000039"
+ },
+ "burn6": {
+  "end": "2025-03-31",
+  "start": "2024-10-01",
+  "cash_used_ops": 4657000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-05-12",
+  "shares": 18398202
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "As a result, the Company believes there is substantial doubt about its ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 10,
+  "from": "2025-03-14",
+  "to": "2025-07-12",
+  "trades": []
+ },
+ "drug": "INT230-6",
+ "trials": {
+  "query": "intensity therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 1,
+  "examples": []
+ }
+}

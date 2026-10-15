@@ -1,0 +1,49 @@
+{
+ "id": "1585608_2025-03-18",
+ "kind": "crash",
+ "cik": "1585608",
+ "name": "Jaguar Health, Inc.",
+ "date": "2025-03-18",
+ "asof": "2025-03-21",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-03-21",
+  "adj_close": 3031.875
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 13269000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-24-125916"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": 14511000.0,
+  "capex": 10704.175824175825,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2018-05-15",
+  "shares": 171350166
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2024-12-18",
+  "to": "2025-04-17",
+  "trades": []
+ },
+ "drug": "n/a",
+ "trials": {
+  "query": "jaguar health",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,151 @@
+{
+ "id": "1445283_2023-03-17",
+ "kind": "crash",
+ "cik": "1445283",
+ "name": "KINETA, INC./DE",
+ "date": "2023-03-17",
+ "asof": "2023-03-20",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-03-20",
+  "adj_close": 3.01
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 8416000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-22-024749"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 8969000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-11-03",
+  "shares": 10856487
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These factors raise substantial doubt about the Company's ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 21,
+  "from": "2022-12-17",
+  "to": "2023-04-16",
+  "trades": [
+   {
+    "date": "2023-03-17",
+    "filed": "2023-03-21",
+    "code": "S",
+    "value": 5902,
+    "who": "PHILIPS CRAIG W."
+   },
+   {
+    "date": "2023-03-17",
+    "filed": "2023-03-21",
+    "code": "S",
+    "value": 178,
+    "who": "PHILIPS CRAIG W."
+   },
+   {
+    "date": "2023-03-17",
+    "filed": "2023-03-21",
+    "code": "S",
+    "value": 5,
+    "who": "PHILIPS CRAIG W."
+   },
+   {
+    "date": "2023-03-20",
+    "filed": "2023-03-21",
+    "code": "S",
+    "value": 2866,
+    "who": "PHILIPS CRAIG W."
+   },
+   {
+    "date": "2023-03-17",
+    "filed": "2023-03-21",
+    "code": "S",
+    "value": 3677,
+    "who": "Kenny Pauline"
+   },
+   {
+    "date": "2023-03-17",
+    "filed": "2023-03-21",
+    "code": "S",
+    "value": 115,
+    "who": "Kenny Pauline"
+   },
+   {
+    "date": "2023-03-20",
+    "filed": "2023-03-21",
+    "code": "S",
+    "value": 1788,
+    "who": "Kenny Pauline"
+   },
+   {
+    "date": "2023-03-17",
+    "filed": "2023-03-21",
+    "code": "S",
+    "value": 7578,
+    "who": "Iadonato Shawn"
+   },
+   {
+    "date": "2023-03-17",
+    "filed": "2023-03-21",
+    "code": "S",
+    "value": 230,
+    "who": "Iadonato Shawn"
+   },
+   {
+    "date": "2023-03-20",
+    "filed": "2023-03-21",
+    "code": "S",
+    "value": 3678,
+    "who": "Iadonato Shawn"
+   },
+   {
+    "date": "2022-12-30",
+    "filed": "2023-01-04",
+    "code": "P",
+    "value": 31125,
+    "who": "Bartoszek Raymond J."
+   },
+   {
+    "date": "2022-12-30",
+    "filed": "2023-01-04",
+    "code": "P",
+    "value": 6231,
+    "who": "Bartoszek Raymond J."
+   },
+   {
+    "date": "2022-12-30",
+    "filed": "2023-01-04",
+    "code": "P",
+    "value": 6225,
+    "who": "Bartoszek Raymond J."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "kineta",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05708950",
+    "drugs": [
+     "KVA12123 - Dose Escalation",
+     "KVA12123 Plus Pembrolizumab - Dose Escalation",
+     "KVA12123 - Dose Expansion"
+    ]
+   }
+  ]
+ }
+}

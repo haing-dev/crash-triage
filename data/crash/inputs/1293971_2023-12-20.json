@@ -1,0 +1,87 @@
+{
+ "id": "1293971_2023-12-20",
+ "kind": "crash",
+ "cik": "1293971",
+ "name": "bluebird bio, Inc.",
+ "date": "2023-12-20",
+ "asof": "2023-12-20",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-12-20",
+  "adj_close": 26.4
+ },
+ "balance": {
+  "end": "2023-09-30",
+  "cash": 174293000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001293971-23-000055"
+ },
+ "burn6": {
+  "end": "2023-09-30",
+  "start": "2023-04-01",
+  "cash_used_ops": 134571000.0,
+  "capex": 2743000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-11-03",
+  "shares": 109336211
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "\u2022There is substantial doubt regarding our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2023-09-21",
+  "to": "2024-01-19",
+  "trades": [
+   {
+    "date": "2024-01-05",
+    "filed": "2024-01-09",
+    "code": "S",
+    "value": 4520,
+    "who": "Obenshain Andrew"
+   },
+   {
+    "date": "2024-01-05",
+    "filed": "2024-01-09",
+    "code": "S",
+    "value": 845,
+    "who": "Colvin Richard A"
+   },
+   {
+    "date": "2023-12-06",
+    "filed": "2023-12-08",
+    "code": "S",
+    "value": 20437,
+    "who": "Krawtschuk Christopher"
+   },
+   {
+    "date": "2023-11-03",
+    "filed": "2023-11-03",
+    "code": "S",
+    "value": 2555,
+    "who": "Obenshain Andrew"
+   },
+   {
+    "date": "2023-11-02",
+    "filed": "2023-11-03",
+    "code": "S",
+    "value": 6975,
+    "who": "Colvin Richard A"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "bluebird bio",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

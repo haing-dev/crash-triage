@@ -1,0 +1,72 @@
+{
+ "id": "1430306_2022-05-16",
+ "kind": "crash",
+ "cik": "1430306",
+ "name": "Tonix Pharmaceuticals Holding Corp.",
+ "date": "2022-05-16",
+ "asof": "2022-05-18",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-05-18",
+  "adj_close": 38400.0
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 140435000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001387131-22-005860"
+ },
+ "burn6": {
+  "end": "2022-03-31",
+  "start": "2021-10-01",
+  "cash_used_ops": 53491000.0,
+  "capex": 45839000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-05-09",
+  "shares": 599679596
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These factors raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2022-02-15",
+  "to": "2022-06-15",
+  "trades": [
+   {
+    "date": "2022-03-25",
+    "filed": "2022-03-28",
+    "code": "P",
+    "value": 24500,
+    "who": "LEDERMAN SETH"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "tonix pharmaceuticals",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05273749",
+    "drugs": [
+     "TNX-102 SL Tablet, 5.6 mg"
+    ]
+   },
+   {
+    "nct": "NCT04996056",
+    "drugs": [
+     "TNX-1300",
+     "Usual Care"
+    ]
+   }
+  ]
+ }
+}

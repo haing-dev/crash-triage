@@ -1,0 +1,93 @@
+{
+ "id": "1533743_2024-01-26",
+ "kind": "crash",
+ "cik": "1533743",
+ "name": "Processa Pharmaceuticals, Inc.",
+ "date": "2024-01-26",
+ "asof": "2024-02-01",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-02-01",
+  "adj_close": 58.5
+ },
+ "balance": {
+  "end": "2023-09-30",
+  "cash": 6860672,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001493152-23-040472"
+ },
+ "burn6": {
+  "end": "2023-09-30",
+  "start": "2023-04-01",
+  "cash_used_ops": 3825408.0,
+  "capex": 1864.0023529411765,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-11-01",
+  "shares": 24631474
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These risks and other factors raise substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2023-10-28",
+  "to": "2024-02-25",
+  "trades": [
+   {
+    "date": "2024-02-07",
+    "filed": "2024-02-08",
+    "code": "P",
+    "value": 51526,
+    "who": "Young David"
+   },
+   {
+    "date": "2024-02-06",
+    "filed": "2024-02-07",
+    "code": "P",
+    "value": 50504,
+    "who": "Young David"
+   },
+   {
+    "date": "2024-01-31",
+    "filed": "2024-02-01",
+    "code": "P",
+    "value": 5925,
+    "who": "Lin Patrick"
+   },
+   {
+    "date": "2024-02-01",
+    "filed": "2024-02-01",
+    "code": "P",
+    "value": 3600,
+    "who": "Lin Patrick"
+   },
+   {
+    "date": "2024-01-30",
+    "filed": "2024-01-31",
+    "code": "P",
+    "value": 27000,
+    "who": "Ng George K"
+   },
+   {
+    "date": "2024-01-30",
+    "filed": "2024-01-31",
+    "code": "P",
+    "value": 21544,
+    "who": "Yorke Justin W"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "processa pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

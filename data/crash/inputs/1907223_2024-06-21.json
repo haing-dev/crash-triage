@@ -1,0 +1,72 @@
+{
+ "id": "1907223_2024-06-21",
+ "kind": "crash",
+ "cik": "1907223",
+ "name": "Greenland Mines Ltd",
+ "date": "2024-06-21",
+ "asof": "2024-06-21",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-06-21",
+  "adj_close": 117.0
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 8051,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001213900-24-046038"
+ },
+ "burn6": {
+  "end": "2024-03-31",
+  "start": "2023-10-01",
+  "cash_used_ops": 625335.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-05-22",
+  "shares": 5165194
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Management has determined that the date for liquidation and subsequent dissolution as well as liquidity concerns raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2024-03-23",
+  "to": "2024-07-21",
+  "trades": [
+   {
+    "date": "2024-06-28",
+    "filed": "2024-07-02",
+    "code": "S",
+    "value": 119103,
+    "who": "CHARDAN CAPITAL MARKETS LLC"
+   },
+   {
+    "date": "2024-07-01",
+    "filed": "2024-07-02",
+    "code": "S",
+    "value": 237618,
+    "who": "CHARDAN CAPITAL MARKETS LLC"
+   },
+   {
+    "date": "2024-07-02",
+    "filed": "2024-07-02",
+    "code": "S",
+    "value": 368442,
+    "who": "CHARDAN CAPITAL MARKETS LLC"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "greenland mines",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

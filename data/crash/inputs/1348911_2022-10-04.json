@@ -1,0 +1,107 @@
+{
+ "id": "1348911_2022-10-04",
+ "kind": "crash",
+ "cik": "1348911",
+ "name": "KalVista Pharmaceuticals, Inc.",
+ "date": "2022-10-04",
+ "asof": "2022-10-05",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-10-05",
+  "adj_close": 5.15
+ },
+ "balance": {
+  "end": "2022-07-31",
+  "cash": 142075000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0000950170-22-018239"
+ },
+ "burn6": {
+  "end": "2022-07-31",
+  "start": "2022-02-01",
+  "cash_used_ops": 49531000.0,
+  "capex": 1006000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-09-01",
+  "shares": 24602023
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 10,
+  "from": "2022-07-06",
+  "to": "2022-11-03",
+  "trades": [
+   {
+    "date": "2022-09-02",
+    "filed": "2022-09-07",
+    "code": "S",
+    "value": 22458,
+    "who": "Crockett Thomas Andrew"
+   },
+   {
+    "date": "2022-08-17",
+    "filed": "2022-08-19",
+    "code": "S",
+    "value": 10847,
+    "who": "Audhya Paul K."
+   },
+   {
+    "date": "2022-08-17",
+    "filed": "2022-08-19",
+    "code": "S",
+    "value": 7960,
+    "who": "Feener Edward P."
+   },
+   {
+    "date": "2022-08-17",
+    "filed": "2022-08-19",
+    "code": "S",
+    "value": 17130,
+    "who": "Yea Christopher"
+   },
+   {
+    "date": "2022-08-17",
+    "filed": "2022-08-19",
+    "code": "S",
+    "value": 10847,
+    "who": "Palleiko Benjamin L"
+   },
+   {
+    "date": "2022-08-17",
+    "filed": "2022-08-19",
+    "code": "S",
+    "value": 26890,
+    "who": "Crockett Thomas Andrew"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "kalvista pharmaceuticals",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05259917",
+    "drugs": [
+     "KVD900 600 mg",
+     "KVD900 300 mg"
+    ]
+   },
+   {
+    "nct": "NCT05055258",
+    "drugs": [
+     "KVD824"
+    ]
+   }
+  ]
+ }
+}

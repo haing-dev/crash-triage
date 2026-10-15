@@ -1,0 +1,57 @@
+{
+ "id": "1768224_2025-10-22",
+ "kind": "crash",
+ "cik": "1768224",
+ "name": "Arcturus Therapeutics Holdings Inc.",
+ "date": "2025-10-22",
+ "asof": "2025-10-28",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-10-28",
+  "adj_close": 9.88
+ },
+ "balance": {
+  "end": "2025-06-30",
+  "cash": 196467000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-25-106560"
+ },
+ "burn6": {
+  "end": "2025-06-30",
+  "start": "2025-01-01",
+  "cash_used_ops": 40893000.0,
+  "capex": 137000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-08-08",
+  "shares": 27154529
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2025-07-24",
+  "to": "2025-11-21",
+  "trades": [
+   {
+    "date": "2025-08-15",
+    "filed": "2025-08-19",
+    "code": "P",
+    "value": 20499,
+    "who": "SASSINE ANDY"
+   }
+  ]
+ },
+ "drug": "ARCT-032",
+ "trials": {
+  "query": "arcturus therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 2,
+  "examples": []
+ }
+}

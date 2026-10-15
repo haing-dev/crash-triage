@@ -1,0 +1,50 @@
+{
+ "id": "1420720_2022-12-07",
+ "kind": "crash",
+ "cik": "1420720",
+ "name": "iBio, Inc.",
+ "date": "2022-12-07",
+ "asof": "2022-12-08",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-12-08",
+  "adj_close": 12.4
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 9887000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-22-017874"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 25462000.0,
+  "capex": 5909000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-11-07",
+  "shares": 8988782
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "9 Table of Contents Going Concern The history of significant losses, the negative cash flow from operations, the limited cash resources on hand and the dependence by the Company on its ability to obtain additional financing to fund its operations after the current cash resources are exhausted raises"
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2022-09-08",
+  "to": "2023-01-06",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "ibio",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

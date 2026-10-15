@@ -1,0 +1,65 @@
+{
+ "id": "1176309_2023-01-12",
+ "kind": "crash",
+ "cik": "1176309",
+ "name": "ORAMED PHARMACEUTICALS INC.",
+ "date": "2023-01-12",
+ "asof": "2023-01-12",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-01-12",
+  "adj_close": 2.54
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 38430000,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001213900-22-071222"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 10731000.0,
+  "capex": 141000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-11-10",
+  "shares": 39114736
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 2,
+  "from": "2022-10-14",
+  "to": "2023-02-11",
+  "trades": [
+   {
+    "date": "2023-01-03",
+    "filed": "2023-01-04",
+    "code": "S",
+    "value": 18544,
+    "who": "Rabinowitz Michael"
+   },
+   {
+    "date": "2023-01-03",
+    "filed": "2023-01-04",
+    "code": "S",
+    "value": 148651,
+    "who": "Rabinowitz Michael"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "oramed pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

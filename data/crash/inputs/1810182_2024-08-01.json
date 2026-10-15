@@ -1,0 +1,158 @@
+{
+ "id": "1810182_2024-08-01",
+ "kind": "crash",
+ "cik": "1810182",
+ "name": "ALX ONCOLOGY HOLDINGS INC",
+ "date": "2024-08-01",
+ "asof": "2024-08-01",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-08-01",
+  "adj_close": 2.8
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 157437000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-24-056953"
+ },
+ "burn6": {
+  "end": "2024-03-31",
+  "start": "2023-10-01",
+  "cash_used_ops": 77602000.0,
+  "capex": 296000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-05-02",
+  "shares": 52100107
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 19,
+  "from": "2024-05-03",
+  "to": "2024-08-31",
+  "trades": [
+   {
+    "date": "2024-08-14",
+    "filed": "2024-08-16",
+    "code": "S",
+    "value": 1455,
+    "who": "Pinto Shelly"
+   },
+   {
+    "date": "2024-08-14",
+    "filed": "2024-08-16",
+    "code": "S",
+    "value": 3522,
+    "who": "Randolph Sophia"
+   },
+   {
+    "date": "2024-08-14",
+    "filed": "2024-08-16",
+    "code": "S",
+    "value": 4997,
+    "who": "Pons Jaume"
+   },
+   {
+    "date": "2024-07-11",
+    "filed": "2024-07-15",
+    "code": "S",
+    "value": 158076,
+    "who": "Pons Jaume"
+   },
+   {
+    "date": "2024-07-05",
+    "filed": "2024-07-09",
+    "code": "S",
+    "value": 10025,
+    "who": "Pinto Shelly"
+   },
+   {
+    "date": "2024-07-01",
+    "filed": "2024-07-03",
+    "code": "S",
+    "value": 7989,
+    "who": "Pinto Shelly"
+   },
+   {
+    "date": "2024-07-01",
+    "filed": "2024-07-03",
+    "code": "S",
+    "value": 19045,
+    "who": "Randolph Sophia"
+   },
+   {
+    "date": "2024-07-01",
+    "filed": "2024-07-03",
+    "code": "S",
+    "value": 62599,
+    "who": "Pons Jaume"
+   },
+   {
+    "date": "2024-06-13",
+    "filed": "2024-06-17",
+    "code": "P",
+    "value": 102338,
+    "who": "GARCIA PETER S"
+   },
+   {
+    "date": "2024-06-04",
+    "filed": "2024-06-06",
+    "code": "S",
+    "value": 168652,
+    "who": "Pons Jaume"
+   },
+   {
+    "date": "2024-05-13",
+    "filed": "2024-05-15",
+    "code": "S",
+    "value": 161380,
+    "who": "Randolph Sophia"
+   },
+   {
+    "date": "2024-05-13",
+    "filed": "2024-05-15",
+    "code": "S",
+    "value": 29959,
+    "who": "Randolph Sophia"
+   },
+   {
+    "date": "2024-05-06",
+    "filed": "2024-05-08",
+    "code": "S",
+    "value": 318334,
+    "who": "Pons Jaume"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "alx oncology",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04675333",
+    "drugs": [
+     "evorpacept",
+     "pembrolizumab",
+     "Cisplatin/Carboplatin; 5FU"
+    ]
+   },
+   {
+    "nct": "NCT04675294",
+    "drugs": [
+     "evorpacept",
+     "pembrolizumab"
+    ]
+   }
+  ]
+ }
+}

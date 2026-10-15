@@ -1,0 +1,50 @@
+{
+ "id": "1326190_2025-06-26",
+ "kind": "crash",
+ "cik": "1326190",
+ "name": "Altimmune, Inc.",
+ "date": "2025-06-26",
+ "asof": "2025-06-27",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-06-27",
+  "adj_close": 3.5
+ },
+ "balance": {
+  "end": "2025-03-31",
+  "cash": 149826000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001326190-25-000034"
+ },
+ "burn6": {
+  "end": "2025-03-31",
+  "start": "2024-10-01",
+  "cash_used_ops": 35105000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-05-09",
+  "shares": 81106973
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2025-03-28",
+  "to": "2025-07-26",
+  "trades": []
+ },
+ "drug": "pemvidutide",
+ "trials": {
+  "query": "altimmune",
+  "other_trials": 0,
+  "crashed_drug_trials": 3,
+  "examples": []
+ }
+}

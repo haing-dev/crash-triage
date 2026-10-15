@@ -1,0 +1,71 @@
+{
+ "id": "1822791_2023-12-21",
+ "kind": "crash",
+ "cik": "1822791",
+ "name": "Clene Inc.",
+ "date": "2023-12-21",
+ "asof": "2023-12-27",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-12-27",
+  "adj_close": 5.2
+ },
+ "balance": {
+  "end": "2023-09-30",
+  "cash": 42113000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001437749-23-030487"
+ },
+ "burn6": {
+  "end": "2023-09-30",
+  "start": "2023-04-01",
+  "cash_used_ops": 13781000.0,
+  "capex": 9000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-11-03",
+  "shares": 128415605
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These conditions raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2023-09-22",
+  "to": "2024-01-20",
+  "trades": [
+   {
+    "date": "2023-11-10",
+    "filed": "2023-11-13",
+    "code": "P",
+    "value": 102501,
+    "who": "MATLIN DAVID J"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "clene",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05299658",
+    "drugs": [
+     "CNMAu8"
+    ]
+   },
+   {
+    "nct": "NCT03993171",
+    "drugs": [
+     "gold nanocrystals"
+    ]
+   }
+  ]
+ }
+}

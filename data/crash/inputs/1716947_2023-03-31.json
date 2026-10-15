@@ -1,0 +1,79 @@
+{
+ "id": "1716947_2023-03-31",
+ "kind": "crash",
+ "cik": "1716947",
+ "name": "Ensysce Biosciences, Inc.",
+ "date": "2023-03-31",
+ "asof": "2023-04-05",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-04-05",
+  "adj_close": 51.0
+ },
+ "balance": {
+  "end": "2022-12-31",
+  "cash": 3147702,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001493152-23-009844"
+ },
+ "burn6": {
+  "end": "2022-12-31",
+  "start": "2022-07-01",
+  "cash_used_ops": 10009931.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-03-27",
+  "shares": 15425584
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These conditions raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2022-12-31",
+  "to": "2023-04-30",
+  "trades": [
+   {
+    "date": "2023-03-02",
+    "filed": "2023-03-06",
+    "code": "P",
+    "value": 44087,
+    "who": "GOWER BOB G"
+   },
+   {
+    "date": "2023-02-28",
+    "filed": "2023-03-02",
+    "code": "P",
+    "value": 53371,
+    "who": "GOWER BOB G"
+   },
+   {
+    "date": "2023-03-01",
+    "filed": "2023-03-02",
+    "code": "P",
+    "value": 128979,
+    "who": "GOWER BOB G"
+   },
+   {
+    "date": "2022-12-09",
+    "filed": "2023-02-01",
+    "code": "P",
+    "value": 500000,
+    "who": "GOWER BOB G"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "ensysce biosciences",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

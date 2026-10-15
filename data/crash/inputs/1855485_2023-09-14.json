@@ -1,0 +1,47 @@
+{
+ "id": "1855485_2023-09-14",
+ "kind": "crash",
+ "cik": "1855485",
+ "name": "Calidi Biotherapeutics, Inc.",
+ "date": "2023-09-14",
+ "asof": "2023-09-14",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-09-14",
+  "adj_close": 476.39999
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 669867,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0001193125-23-217072"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": -573783.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": null,
+ "going_concern": {
+  "flag": true,
+  "quote": "7 Table of Contents These factors, among others, raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2023-06-16",
+  "to": "2023-10-14",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "calidi biotherapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

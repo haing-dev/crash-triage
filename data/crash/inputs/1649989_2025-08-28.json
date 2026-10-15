@@ -1,0 +1,50 @@
+{
+ "id": "1649989_2025-08-28",
+ "kind": "crash",
+ "cik": "1649989",
+ "name": "Outlook Therapeutics, Inc.",
+ "date": "2025-08-28",
+ "asof": "2025-08-29",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-08-29",
+  "adj_close": 0.85100001
+ },
+ "balance": {
+  "end": "2025-06-30",
+  "cash": 8900814,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-25-011588"
+ },
+ "burn6": {
+  "end": "2025-06-30",
+  "start": "2025-01-01",
+  "cash_used_ops": 28484905.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-08-11",
+  "shares": 44419529
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "As a result, there is substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2025-05-30",
+  "to": "2025-09-27",
+  "trades": []
+ },
+ "drug": "ONS-5010/LYTENAVA (bevacizumab-vikg)",
+ "trials": {
+  "query": "outlook therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 1,
+  "examples": []
+ }
+}

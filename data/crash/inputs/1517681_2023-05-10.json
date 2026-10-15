@@ -1,0 +1,50 @@
+{
+ "id": "1517681_2023-05-10",
+ "kind": "crash",
+ "cik": "1517681",
+ "name": "Propanc Biopharma, Inc.",
+ "date": "2023-05-10",
+ "asof": "2023-05-10",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-05-10",
+  "adj_close": 10.0
+ },
+ "balance": {
+  "end": "2022-12-31",
+  "cash": 24476,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001493152-23-004150"
+ },
+ "burn6": {
+  "end": "2022-12-31",
+  "start": "2022-07-01",
+  "cash_used_ops": 734542.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-02-09",
+  "shares": 1763908545
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "It is management\u2019s opinion that these conditions raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2023-02-09",
+  "to": "2023-06-09",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "propanc biopharma",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

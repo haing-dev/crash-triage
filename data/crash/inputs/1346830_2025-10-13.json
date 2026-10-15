@@ -1,0 +1,51 @@
+{
+ "id": "1346830_2025-10-13",
+ "kind": "crash",
+ "cik": "1346830",
+ "name": "Tvardi Therapeutics, Inc.",
+ "date": "2025-10-13",
+ "asof": "2025-10-16",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-10-16",
+  "adj_close": 6.48
+ },
+ "balance": {
+  "end": "2025-06-30",
+  "cash": 40994000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001558370-25-011562"
+ },
+ "burn6": {
+  "end": "2025-06-30",
+  "start": "2025-01-01",
+  "cash_used_ops": 13557000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-08-08",
+  "shares": 9377433
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Given the inherent uncertainties in the forecast, the Company considered both quantitative and qualitative factors that are known or reasonably knowable as of the date that these condensed consolidated financial statements are issued and concluded that there are conditions present in the aggregate t"
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2025-07-15",
+  "to": "2025-11-12",
+  "trades": []
+ },
+ "drug": "TTI-101",
+ "trials": {
+  "query": "tvardi therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 1,
+  "examples": []
+ }
+}

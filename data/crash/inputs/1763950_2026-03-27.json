@@ -1,0 +1,60 @@
+{
+ "id": "1763950_2026-03-27",
+ "kind": "crash",
+ "cik": "1763950",
+ "name": "Lantern Pharma Inc.",
+ "date": "2026-03-27",
+ "asof": "2026-03-27",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-03-27",
+  "adj_close": 1.12
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 12362576,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001493152-25-021927"
+ },
+ "burn6": {
+  "end": "2025-09-30",
+  "start": "2025-04-01",
+  "cash_used_ops": 8509257.0,
+  "capex": 555.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-11-05",
+  "shares": 11184423
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These factors raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2025-12-27",
+  "to": "2026-04-26",
+  "trades": []
+ },
+ "drug": "LP-300",
+ "trials": {
+  "query": "lantern pharma",
+  "other_trials": 1,
+  "crashed_drug_trials": 1,
+  "examples": [
+   {
+    "nct": "NCT05933265",
+    "drugs": [
+     "LP-184",
+     "Olaparib",
+     "Nivolumab & Ipilimumab"
+    ]
+   }
+  ]
+ }
+}

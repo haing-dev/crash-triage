@@ -1,0 +1,86 @@
+{
+ "id": "1907223_2026-08-26",
+ "kind": "crash",
+ "cik": "1907223",
+ "name": "Greenland Mines Ltd",
+ "date": "2026-08-26",
+ "asof": "2026-08-26",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-08-26",
+  "adj_close": 5.04
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 9300000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001213900-26-090821"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": 11825021.0,
+  "capex": 317530.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-08-17",
+  "shares": 158850637
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Without additional funding, there is substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2026-05-28",
+  "to": "2026-09-25",
+  "trades": [
+   {
+    "date": "2026-08-25",
+    "filed": "2026-08-25",
+    "code": "P",
+    "value": 136080,
+    "who": "LeBlanc Jeff"
+   },
+   {
+    "date": "2026-07-22",
+    "filed": "2026-07-23",
+    "code": "P",
+    "value": 55944,
+    "who": "Sawyer Jason David"
+   },
+   {
+    "date": "2026-07-20",
+    "filed": "2026-07-20",
+    "code": "P",
+    "value": 24822,
+    "who": "McGarity Jon"
+   },
+   {
+    "date": "2026-07-16",
+    "filed": "2026-07-17",
+    "code": "P",
+    "value": 245280,
+    "who": "LeBlanc Jeff"
+   },
+   {
+    "date": "2026-06-25",
+    "filed": "2026-06-26",
+    "code": "S",
+    "value": 40548,
+    "who": "El-Dada Riad Hussein"
+   }
+  ]
+ },
+ "drug": "n/a",
+ "trials": {
+  "query": "greenland mines",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

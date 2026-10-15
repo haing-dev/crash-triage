@@ -1,0 +1,50 @@
+{
+ "id": "1636651_2020-12-02",
+ "kind": "crash",
+ "cik": "1636651",
+ "name": "Ovid Therapeutics Inc.",
+ "date": "2020-12-02",
+ "asof": "2020-12-07",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2020-12-07",
+  "adj_close": 2.58
+ },
+ "balance": {
+  "end": "2020-09-30",
+  "cash": 86866275,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001564590-20-053666"
+ },
+ "burn6": {
+  "end": "2020-09-30",
+  "start": "2020-04-01",
+  "cash_used_ops": 18662803.0,
+  "capex": 71218.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2020-11-05",
+  "shares": 63435222
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These factors raise substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2020-09-03",
+  "to": "2021-01-01",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "ovid therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

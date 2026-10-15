@@ -1,0 +1,86 @@
+{
+ "id": "1174940_2025-07-01",
+ "kind": "crash",
+ "cik": "1174940",
+ "name": "ORAGENICS INC",
+ "date": "2025-07-01",
+ "asof": "2025-07-02",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-07-02",
+  "adj_close": 1.44
+ },
+ "balance": {
+  "end": "2025-03-31",
+  "cash": 3421078,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001641172-25-009464"
+ },
+ "burn6": {
+  "end": "2025-03-31",
+  "start": "2024-10-01",
+  "cash_used_ops": 4130443.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-05-09",
+  "shares": 21475289
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Going Concern In light of our recurring losses, accumulated deficit and negative cash flow, the report of our independent registered public accounting firm on our consolidated financial statements for the year ended December 31, 2024 contained an explanatory paragraph raising substantial doubt about"
+ },
+ "insiders": {
+  "form4s": 2,
+  "from": "2025-04-02",
+  "to": "2025-07-31",
+  "trades": [
+   {
+    "date": "2025-06-17",
+    "filed": "2025-06-18",
+    "code": "S",
+    "value": 8920,
+    "who": "Odyssey Health, Inc."
+   },
+   {
+    "date": "2025-06-18",
+    "filed": "2025-06-18",
+    "code": "S",
+    "value": 21487,
+    "who": "Odyssey Health, Inc."
+   },
+   {
+    "date": "2025-06-13",
+    "filed": "2025-06-16",
+    "code": "S",
+    "value": 21350,
+    "who": "Odyssey Health, Inc."
+   },
+   {
+    "date": "2025-06-16",
+    "filed": "2025-06-16",
+    "code": "S",
+    "value": 22250,
+    "who": "Odyssey Health, Inc."
+   }
+  ]
+ },
+ "drug": "ONP-2",
+ "trials": {
+  "query": "oragenics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06870240",
+    "drugs": [
+     "Neurosteroid enantiomer"
+    ]
+   }
+  ]
+ }
+}

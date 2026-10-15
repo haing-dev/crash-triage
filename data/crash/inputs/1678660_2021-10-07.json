@@ -1,0 +1,211 @@
+{
+ "id": "1678660_2021-10-07",
+ "kind": "crash",
+ "cik": "1678660",
+ "name": "Prelude Therapeutics Inc",
+ "date": "2021-10-07",
+ "asof": "2021-10-08",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-10-08",
+  "adj_close": 15.87
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 343119000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001564590-21-043718"
+ },
+ "burn6": {
+  "end": "2021-06-30",
+  "start": "2021-01-01",
+  "cash_used_ops": 36055000.0,
+  "capex": 1367000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-08-09",
+  "shares": 47093531
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 17,
+  "from": "2021-07-09",
+  "to": "2021-11-06",
+  "trades": [
+   {
+    "date": "2021-10-05",
+    "filed": "2021-10-06",
+    "code": "S",
+    "value": 178762,
+    "who": "Mauro David J"
+   },
+   {
+    "date": "2021-10-05",
+    "filed": "2021-10-06",
+    "code": "S",
+    "value": 244257,
+    "who": "Mauro David J"
+   },
+   {
+    "date": "2021-10-05",
+    "filed": "2021-10-06",
+    "code": "S",
+    "value": 41330,
+    "who": "Mauro David J"
+   },
+   {
+    "date": "2021-09-07",
+    "filed": "2021-09-09",
+    "code": "S",
+    "value": 268867,
+    "who": "Mauro David J"
+   },
+   {
+    "date": "2021-09-07",
+    "filed": "2021-09-09",
+    "code": "S",
+    "value": 106081,
+    "who": "Mauro David J"
+   },
+   {
+    "date": "2021-09-07",
+    "filed": "2021-09-09",
+    "code": "S",
+    "value": 175334,
+    "who": "Mauro David J"
+   },
+   {
+    "date": "2021-09-02",
+    "filed": "2021-09-07",
+    "code": "S",
+    "value": 134697,
+    "who": "Pierce Christopher"
+   },
+   {
+    "date": "2021-09-02",
+    "filed": "2021-09-07",
+    "code": "S",
+    "value": 279289,
+    "who": "Pierce Christopher"
+   },
+   {
+    "date": "2021-09-02",
+    "filed": "2021-09-07",
+    "code": "S",
+    "value": 294507,
+    "who": "Pierce Christopher"
+   },
+   {
+    "date": "2021-08-26",
+    "filed": "2021-08-30",
+    "code": "S",
+    "value": 59819,
+    "who": "Scherle Peggy"
+   },
+   {
+    "date": "2021-08-27",
+    "filed": "2021-08-30",
+    "code": "S",
+    "value": 95377,
+    "who": "Scherle Peggy"
+   },
+   {
+    "date": "2021-08-27",
+    "filed": "2021-08-30",
+    "code": "S",
+    "value": 98085,
+    "who": "Scherle Peggy"
+   },
+   {
+    "date": "2021-08-27",
+    "filed": "2021-08-30",
+    "code": "S",
+    "value": 22505,
+    "who": "Scherle Peggy"
+   },
+   {
+    "date": "2021-08-25",
+    "filed": "2021-08-27",
+    "code": "S",
+    "value": 68124,
+    "who": "Piper Brian"
+   },
+   {
+    "date": "2021-08-25",
+    "filed": "2021-08-27",
+    "code": "S",
+    "value": 129235,
+    "who": "Piper Brian"
+   },
+   {
+    "date": "2021-08-25",
+    "filed": "2021-08-27",
+    "code": "S",
+    "value": 80469,
+    "who": "Piper Brian"
+   },
+   {
+    "date": "2021-08-13",
+    "filed": "2021-08-17",
+    "code": "S",
+    "value": 80161,
+    "who": "Scherle Peggy"
+   },
+   {
+    "date": "2021-08-05",
+    "filed": "2021-08-09",
+    "code": "S",
+    "value": 183070,
+    "who": "Mauro David J"
+   },
+   {
+    "date": "2021-08-05",
+    "filed": "2021-08-09",
+    "code": "S",
+    "value": 64010,
+    "who": "Mauro David J"
+   },
+   {
+    "date": "2021-08-05",
+    "filed": "2021-08-09",
+    "code": "S",
+    "value": 216051,
+    "who": "Mauro David J"
+   },
+   {
+    "date": "2021-08-05",
+    "filed": "2021-08-09",
+    "code": "S",
+    "value": 3263,
+    "who": "Mauro David J"
+   },
+   {
+    "date": "2021-07-27",
+    "filed": "2021-07-29",
+    "code": "S",
+    "value": 684840,
+    "who": "Scherle Peggy"
+   },
+   {
+    "date": "2021-07-27",
+    "filed": "2021-07-29",
+    "code": "S",
+    "value": 24540,
+    "who": "Scherle Peggy"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "prelude therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

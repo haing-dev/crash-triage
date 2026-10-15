@@ -1,0 +1,50 @@
+{
+ "id": "1173313_2022-06-10",
+ "kind": "crash",
+ "cik": "1173313",
+ "name": "ABVC BIOPHARMA, INC.",
+ "date": "2022-06-10",
+ "asof": "2022-06-10",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-06-10",
+  "adj_close": 9.0
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 2813489,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001213900-22-027157"
+ },
+ "burn6": {
+  "end": "2022-03-31",
+  "start": "2021-10-01",
+  "cash_used_ops": 5050438.0,
+  "capex": 93220.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-05-16",
+  "shares": 32307329
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2022-03-12",
+  "to": "2022-07-10",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "abvc biopharma",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

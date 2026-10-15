@@ -1,0 +1,50 @@
+{
+ "id": "1742927_2026-03-19",
+ "kind": "crash",
+ "cik": "1742927",
+ "name": "REVIVA PHARMACEUTICALS HOLDINGS, INC.",
+ "date": "2026-03-19",
+ "asof": "2026-03-19",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-03-19",
+  "adj_close": 0.8334
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 13183259,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001437749-25-034827"
+ },
+ "burn6": {
+  "end": "2025-09-30",
+  "start": "2025-04-01",
+  "cash_used_ops": 10602234.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-11-11",
+  "shares": 115058619
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These conditions raise substantial doubt regarding the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2025-12-19",
+  "to": "2026-04-18",
+  "trades": []
+ },
+ "drug": "brilaroxazine",
+ "trials": {
+  "query": "reviva pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

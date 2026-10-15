@@ -1,0 +1,65 @@
+{
+ "id": "1339970_2025-09-15",
+ "kind": "crash",
+ "cik": "1339970",
+ "name": "aTYR PHARMA INC",
+ "date": "2025-09-15",
+ "asof": "2025-09-19",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-09-19",
+  "adj_close": 0.99199998
+ },
+ "balance": {
+  "end": "2025-06-30",
+  "cash": 80346000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001339970-25-000009"
+ },
+ "burn6": {
+  "end": "2025-06-30",
+  "start": "2025-01-01",
+  "cash_used_ops": 29314000.0,
+  "capex": 9000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-08-01",
+  "shares": 97986634
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2025-06-17",
+  "to": "2025-10-15",
+  "trades": [
+   {
+    "date": "2025-10-08",
+    "filed": "2025-10-09",
+    "code": "P",
+    "value": 612437,
+    "who": "SCHIMMEL PAUL"
+   },
+   {
+    "date": "2025-10-09",
+    "filed": "2025-10-09",
+    "code": "P",
+    "value": 299364,
+    "who": "SCHIMMEL PAUL"
+   }
+  ]
+ },
+ "drug": "efzofitimod",
+ "trials": {
+  "query": "atyr pharma",
+  "other_trials": 0,
+  "crashed_drug_trials": 1,
+  "examples": []
+ }
+}

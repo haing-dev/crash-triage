@@ -1,0 +1,142 @@
+{
+ "id": "1527728_2024-07-30",
+ "kind": "crash",
+ "cik": "1527728",
+ "name": "Lunai Bioworks Inc.",
+ "date": "2024-07-30",
+ "asof": "2024-08-02",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-08-02",
+  "adj_close": 41.36
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 312697,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001731122-24-000807"
+ },
+ "burn6": {
+  "end": "2024-03-31",
+  "start": "2023-10-01",
+  "cash_used_ops": 5780442.0,
+  "capex": 31247.437664233577,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-05-10",
+  "shares": 147504944
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These conditions raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 18,
+  "from": "2024-05-01",
+  "to": "2024-08-29",
+  "trades": [
+   {
+    "date": "2024-07-17",
+    "filed": "2024-07-19",
+    "code": "S",
+    "value": 23889,
+    "who": "William Anderson Wittekind"
+   },
+   {
+    "date": "2024-07-15",
+    "filed": "2024-07-17",
+    "code": "S",
+    "value": 30955,
+    "who": "William Anderson Wittekind"
+   },
+   {
+    "date": "2024-07-09",
+    "filed": "2024-07-15",
+    "code": "S",
+    "value": 7084,
+    "who": "William Anderson Wittekind"
+   },
+   {
+    "date": "2024-07-10",
+    "filed": "2024-07-15",
+    "code": "S",
+    "value": 113250,
+    "who": "William Anderson Wittekind"
+   },
+   {
+    "date": "2024-07-11",
+    "filed": "2024-07-15",
+    "code": "S",
+    "value": 22493,
+    "who": "William Anderson Wittekind"
+   },
+   {
+    "date": "2024-07-03",
+    "filed": "2024-07-08",
+    "code": "S",
+    "value": 75500,
+    "who": "William Anderson Wittekind"
+   },
+   {
+    "date": "2024-07-05",
+    "filed": "2024-07-08",
+    "code": "S",
+    "value": 93000,
+    "who": "William Anderson Wittekind"
+   },
+   {
+    "date": "2024-07-01",
+    "filed": "2024-07-03",
+    "code": "S",
+    "value": 93600,
+    "who": "William Anderson Wittekind"
+   },
+   {
+    "date": "2024-07-02",
+    "filed": "2024-07-03",
+    "code": "S",
+    "value": 53212,
+    "who": "William Anderson Wittekind"
+   },
+   {
+    "date": "2024-06-25",
+    "filed": "2024-06-27",
+    "code": "S",
+    "value": 31600,
+    "who": "William Anderson Wittekind"
+   },
+   {
+    "date": "2024-06-26",
+    "filed": "2024-06-27",
+    "code": "S",
+    "value": 78500,
+    "who": "William Anderson Wittekind"
+   },
+   {
+    "date": "2024-06-27",
+    "filed": "2024-06-27",
+    "code": "S",
+    "value": 22006,
+    "who": "William Anderson Wittekind"
+   },
+   {
+    "date": "2024-06-14",
+    "filed": "2024-06-18",
+    "code": "S",
+    "value": 79000,
+    "who": "William Anderson Wittekind"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "lunai bioworks",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

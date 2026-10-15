@@ -1,0 +1,51 @@
+{
+ "id": "1740279_2023-04-25",
+ "kind": "crash",
+ "cik": "1740279",
+ "name": "IN8BIO, INC.",
+ "date": "2023-04-25",
+ "asof": "2023-04-28",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-04-28",
+  "adj_close": 43.8
+ },
+ "balance": {
+  "end": "2022-12-31",
+  "cash": 18182000,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+   "minus RestrictedCash"
+  ],
+  "accn": "0000950170-23-010997"
+ },
+ "burn6": {
+  "end": "2022-12-31",
+  "start": "2022-07-01",
+  "cash_used_ops": 13690000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-03-28",
+  "shares": 24938058
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Going Concern The report from our independent registered public accounting firm for the year ended December 31, 2022, includes an explanatory paragraph stating that our recurring losses since inception raises substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2023-01-25",
+  "to": "2023-05-25",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "in8bio",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

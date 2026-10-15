@@ -1,0 +1,50 @@
+{
+ "id": "1343009_2023-01-09",
+ "kind": "crash",
+ "cik": "1343009",
+ "name": "CNBX Pharmaceuticals Inc.",
+ "date": "2023-01-09",
+ "asof": "2023-01-12",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-01-12",
+  "adj_close": 1.0
+ },
+ "balance": {
+  "end": "2022-08-31",
+  "cash": 117515,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001683168-22-008095"
+ },
+ "burn6": {
+  "end": "2022-08-31",
+  "start": "2022-03-01",
+  "cash_used_ops": 524870.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-11-29",
+  "shares": 1257927
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Our independent registered public accountants have expressed substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2022-10-11",
+  "to": "2023-02-08",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "cnbx pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

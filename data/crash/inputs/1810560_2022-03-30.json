@@ -1,0 +1,86 @@
+{
+ "id": "1810560_2022-03-30",
+ "kind": "crash",
+ "cik": "1810560",
+ "name": "REVELATION BIOSCIENCES, INC.",
+ "date": "2022-03-30",
+ "asof": "2022-03-31",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-03-31",
+  "adj_close": 229824.0
+ },
+ "balance": {
+  "end": "2020-12-31",
+  "cash": 537021,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001213900-21-055498"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 353544.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-10-29",
+  "shares": 9097689
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2021-12-30",
+  "to": "2022-04-29",
+  "trades": [
+   {
+    "date": "2022-02-25",
+    "filed": "2022-02-28",
+    "code": "P",
+    "value": 32000,
+    "who": "TIDMARSH GEORGE F"
+   },
+   {
+    "date": "2022-02-08",
+    "filed": "2022-02-10",
+    "code": "P",
+    "value": 2540,
+    "who": "TIDMARSH GEORGE F"
+   },
+   {
+    "date": "2022-02-09",
+    "filed": "2022-02-10",
+    "code": "P",
+    "value": 76599,
+    "who": "TIDMARSH GEORGE F"
+   },
+   {
+    "date": "2022-02-04",
+    "filed": "2022-02-08",
+    "code": "P",
+    "value": 18256,
+    "who": "TIDMARSH GEORGE F"
+   },
+   {
+    "date": "2022-02-07",
+    "filed": "2022-02-08",
+    "code": "P",
+    "value": 109780,
+    "who": "TIDMARSH GEORGE F"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "revelation biosciences",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,68 @@
+{
+ "id": "1698530_2021-11-19",
+ "kind": "crash",
+ "cik": "1698530",
+ "name": "EXICURE, INC.",
+ "date": "2021-11-19",
+ "asof": "2021-11-19",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2021-11-19",
+  "adj_close": 69.0
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 60838000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001698530-21-000105"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 6213000.0,
+  "capex": 398000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-11-12",
+  "shares": 88120951
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "As a result, there is substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2021-08-21",
+  "to": "2021-12-19",
+  "trades": [
+   {
+    "date": "2021-08-27",
+    "filed": "2021-09-08",
+    "code": "P",
+    "value": 13800,
+    "who": "Papadimas Elias D."
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "exicure",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03684785",
+    "drugs": [
+     "Cavrotolimod",
+     "Pembrolizumab",
+     "Cemiplimab"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "id": "1755237_2020-10-14",
+ "kind": "crash",
+ "cik": "1755237",
+ "name": "Korsana Biosciences, Inc.",
+ "date": "2020-10-14",
+ "asof": "2020-10-20",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2020-10-20",
+  "adj_close": 371.0
+ },
+ "balance": {
+  "end": "2020-06-30",
+  "cash": 56462000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001104659-20-089193"
+ },
+ "burn6": {
+  "end": "2020-06-30",
+  "start": "2020-01-01",
+  "cash_used_ops": 43401000.0,
+  "capex": 1480000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2020-07-29",
+  "shares": 33920210
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2020-07-16",
+  "to": "2020-11-13",
+  "trades": [
+   {
+    "date": "2020-11-09",
+    "filed": "2020-11-12",
+    "code": "P",
+    "value": 316250,
+    "who": "Busch Andreas"
+   },
+   {
+    "date": "2020-11-06",
+    "filed": "2020-11-10",
+    "code": "S",
+    "value": 9644,
+    "who": "Huyett William"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "korsana biosciences",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

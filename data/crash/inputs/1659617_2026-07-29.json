@@ -1,0 +1,72 @@
+{
+ "id": "1659617_2026-07-29",
+ "kind": "crash",
+ "cik": "1659617",
+ "name": "Moleculin Biotech, Inc.",
+ "date": "2026-07-29",
+ "asof": "2026-07-31",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-07-31",
+  "adj_close": 0.40000001
+ },
+ "balance": {
+  "end": "2026-03-31",
+  "cash": 10317000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001437749-26-017034"
+ },
+ "burn6": {
+  "end": "2026-03-31",
+  "start": "2025-10-01",
+  "cash_used_ops": 11477000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-05-07",
+  "shares": 5336350
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These factors raise substantial doubt regarding the Company's ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2026-04-30",
+  "to": "2026-08-28",
+  "trades": [
+   {
+    "date": "2026-08-03",
+    "filed": "2026-08-05",
+    "code": "P",
+    "value": 0,
+    "who": "Foster Jonathan P."
+   },
+   {
+    "date": "2026-08-03",
+    "filed": "2026-08-05",
+    "code": "P",
+    "value": 0,
+    "who": "KLEMP WALTER V"
+   },
+   {
+    "date": "2026-08-03",
+    "filed": "2026-08-05",
+    "code": "P",
+    "value": 0,
+    "who": "PICKER DONALD H"
+   }
+  ]
+ },
+ "drug": "Annamycin",
+ "trials": {
+  "query": "moleculin biotech",
+  "other_trials": 0,
+  "crashed_drug_trials": 1,
+  "examples": []
+ }
+}

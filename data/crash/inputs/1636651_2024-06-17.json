@@ -1,0 +1,58 @@
+{
+ "id": "1636651_2024-06-17",
+ "kind": "crash",
+ "cik": "1636651",
+ "name": "Ovid Therapeutics Inc.",
+ "date": "2024-06-17",
+ "asof": "2024-06-20",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-06-20",
+  "adj_close": 0.70099998
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 90259000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001628280-24-023067"
+ },
+ "burn6": {
+  "end": "2024-03-31",
+  "start": "2023-10-01",
+  "cash_used_ops": 28598311.0,
+  "capex": 32706.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-05-10",
+  "shares": 70944627
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2024-03-19",
+  "to": "2024-07-17",
+  "trades": [
+   {
+    "date": "2024-03-18",
+    "filed": "2024-03-20",
+    "code": "P",
+    "value": 50364,
+    "who": "LEVIN JEREMY M"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "ovid therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

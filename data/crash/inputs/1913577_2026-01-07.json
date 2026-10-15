@@ -1,0 +1,50 @@
+{
+ "id": "1913577_2026-01-07",
+ "kind": "crash",
+ "cik": "1913577",
+ "name": "Semnur Pharmaceuticals, Inc.",
+ "date": "2026-01-07",
+ "asof": "2026-01-07",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-01-07",
+  "adj_close": 8.5
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 85000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001193125-25-277536"
+ },
+ "burn6": {
+  "end": "2025-09-30",
+  "start": "2025-04-01",
+  "cash_used_ops": 2147869.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-11-10",
+  "shares": 229740978
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "As a result, management has concluded that the aforementioned conditions, among other things, raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2025-10-09",
+  "to": "2026-02-06",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "semnur pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

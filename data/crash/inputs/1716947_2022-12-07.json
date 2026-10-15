@@ -1,0 +1,50 @@
+{
+ "id": "1716947_2022-12-07",
+ "kind": "crash",
+ "cik": "1716947",
+ "name": "Ensysce Biosciences, Inc.",
+ "date": "2022-12-07",
+ "asof": "2022-12-07",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2022-12-07",
+  "adj_close": 187.2
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 4503081,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001493152-22-032094"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 11154805.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-11-07",
+  "shares": 2841091
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These matters, among others, raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2022-09-08",
+  "to": "2023-01-06",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "ensysce biosciences",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

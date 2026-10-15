@@ -1,0 +1,59 @@
+{
+ "id": "1401395_2023-09-22",
+ "kind": "crash",
+ "cik": "1401395",
+ "name": "Neptune Wellness Solutions Inc.",
+ "date": "2023-09-22",
+ "asof": "2023-09-22",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2023-09-22",
+  "adj_close": 1.61
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 1397517,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-23-046512"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 13228026.0,
+  "capex": 333109.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-09-01",
+  "shares": 24117599
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Risks Relating to Our Accounting and Financial Policies \u2022 Although our consolidated financial statements have been prepared on a going concern basis, our management believes that our recurring losses and negative cash flows from operations and other factors have raised substantial doubt about our ab"
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2023-06-24",
+  "to": "2023-10-22",
+  "trades": [
+   {
+    "date": "2023-10-17",
+    "filed": "2023-10-19",
+    "code": "S",
+    "value": 68840,
+    "who": "Neptune Securities Settlement Fund"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "neptune wellness solutions",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

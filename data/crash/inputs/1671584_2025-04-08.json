@@ -1,0 +1,50 @@
+{
+ "id": "1671584_2025-04-08",
+ "kind": "crash",
+ "cik": "1671584",
+ "name": "Aptevo Therapeutics Inc.",
+ "date": "2025-04-08",
+ "asof": "2025-04-10",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-04-10",
+  "adj_close": 353.16
+ },
+ "balance": {
+  "end": "2024-12-31",
+  "cash": 8714000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-25-020467"
+ },
+ "burn6": {
+  "end": "2024-12-31",
+  "start": "2024-07-01",
+  "cash_used_ops": 10981000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-02-14",
+  "shares": 1458445
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "When considered in aggregate, these factors raise substantial doubt about our ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2025-01-08",
+  "to": "2025-05-08",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "aptevo therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

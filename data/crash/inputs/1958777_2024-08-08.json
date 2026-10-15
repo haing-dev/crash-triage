@@ -1,0 +1,65 @@
+{
+ "id": "1958777_2024-08-08",
+ "kind": "crash",
+ "cik": "1958777",
+ "name": "FibroBiologics, Inc.",
+ "date": "2024-08-08",
+ "asof": "2024-08-08",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-08-08",
+  "adj_close": 45.2
+ },
+ "balance": {
+  "end": "2024-06-30",
+  "cash": 5973000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001493152-24-030603"
+ },
+ "burn6": {
+  "end": "2024-06-30",
+  "start": "2024-01-01",
+  "cash_used_ops": 6222000.0,
+  "capex": 74000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-08-06",
+  "shares": 35159125
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These factors raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 7,
+  "from": "2024-05-10",
+  "to": "2024-09-07",
+  "trades": [
+   {
+    "date": "2024-08-12",
+    "filed": "2024-08-12",
+    "code": "P",
+    "value": 16269,
+    "who": "O'HEERON PETE"
+   },
+   {
+    "date": "2024-08-12",
+    "filed": "2024-08-12",
+    "code": "P",
+    "value": 19000,
+    "who": "Khoja Hamid"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "fibrobiologics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

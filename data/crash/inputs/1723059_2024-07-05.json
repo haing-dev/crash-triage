@@ -1,0 +1,79 @@
+{
+ "id": "1723059_2024-07-05",
+ "kind": "crash",
+ "cik": "1723059",
+ "name": "Bio Essence Corp",
+ "date": "2024-07-05",
+ "asof": "2024-07-11",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2024-07-11",
+  "adj_close": 0.52005
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 23,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001213900-24-044667"
+ },
+ "burn6": {
+  "end": "2024-03-31",
+  "start": "2023-10-01",
+  "cash_used_ops": 375705.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-05-17",
+  "shares": 38009000
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These conditions raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 2,
+  "from": "2024-04-06",
+  "to": "2024-08-04",
+  "trades": [
+   {
+    "date": "2024-07-02",
+    "filed": "2024-07-17",
+    "code": "S",
+    "value": 391550,
+    "who": "Yan Yin"
+   },
+   {
+    "date": "2024-07-03",
+    "filed": "2024-07-17",
+    "code": "S",
+    "value": 36414,
+    "who": "Yan Yin"
+   },
+   {
+    "date": "2024-07-05",
+    "filed": "2024-07-17",
+    "code": "S",
+    "value": 56322,
+    "who": "Yan Yin"
+   },
+   {
+    "date": "2023-06-06",
+    "filed": "2024-06-03",
+    "code": "P",
+    "value": 2500000,
+    "who": "Yan Yin"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "bio essence",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

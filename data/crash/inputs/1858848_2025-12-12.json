@@ -1,0 +1,71 @@
+{
+ "id": "1858848_2025-12-12",
+ "kind": "crash",
+ "cik": "1858848",
+ "name": "Tenaya Therapeutics, Inc.",
+ "date": "2025-12-12",
+ "asof": "2025-12-17",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2025-12-17",
+  "adj_close": 0.667
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 56312000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001193125-25-273239"
+ },
+ "burn6": {
+  "end": "2025-09-30",
+  "start": "2025-04-01",
+  "cash_used_ops": 31212000.0,
+  "capex": 168000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-11-04",
+  "shares": 166505885
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2025-09-13",
+  "to": "2026-01-11",
+  "trades": [
+   {
+    "date": "2025-11-17",
+    "filed": "2025-11-17",
+    "code": "S",
+    "value": 1818,
+    "who": "Higa Tomohiro"
+   },
+   {
+    "date": "2025-11-17",
+    "filed": "2025-11-17",
+    "code": "S",
+    "value": 3826,
+    "who": "Tingley Whittemore"
+   },
+   {
+    "date": "2025-11-17",
+    "filed": "2025-11-17",
+    "code": "S",
+    "value": 4158,
+    "who": "Ali Faraz"
+   }
+  ]
+ },
+ "drug": "TN-201, TN-401",
+ "trials": {
+  "query": "tenaya therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 1,
+  "examples": []
+ }
+}

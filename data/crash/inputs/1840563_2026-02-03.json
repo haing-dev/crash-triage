@@ -1,0 +1,51 @@
+{
+ "id": "1840563_2026-02-03",
+ "kind": "crash",
+ "cik": "1840563",
+ "name": "PMGC Holdings Inc.",
+ "date": "2026-02-03",
+ "asof": "2026-02-05",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-02-05",
+  "adj_close": 96.0
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 8504632,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001213900-25-110390"
+ },
+ "burn6": {
+  "end": "2025-09-30",
+  "start": "2025-04-01",
+  "cash_used_ops": 2836465.0,
+  "capex": 64188.559411764705,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-11-10",
+  "shares": 744121
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These factors raise substantial doubt regarding the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2025-11-05",
+  "to": "2026-03-05",
+  "trades": []
+ },
+ "drug": "n/a",
+ "trials": {
+  "query": "pmgc",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}
