@@ -1,0 +1,44 @@
+{
+ "id": "1815903_2025-04-29",
+ "cik": "1815903",
+ "name": "Petros Pharmaceuticals, Inc.",
+ "date": "2025-04-29",
+ "asof": "2025-05-29",
+ "final": true,
+ "price": {
+  "date": "2025-05-29",
+  "adj_close": 0.0346
+ },
+ "balance": {
+  "end": "2025-03-31",
+  "cash": 8931054,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001410578-25-001349"
+ },
+ "burn": {
+  "end": "2025-03-31",
+  "months": 2.9,
+  "per_month": -567787.4013483146
+ },
+ "shares": {
+  "end": "2025-05-14",
+  "shares": 31160086,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "petros pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

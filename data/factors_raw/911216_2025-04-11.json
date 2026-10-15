@@ -1,0 +1,49 @@
+{
+ "id": "911216_2025-04-11",
+ "cik": "911216",
+ "name": "PALATIN TECHNOLOGIES INC",
+ "date": "2025-04-11",
+ "asof": "2025-05-11",
+ "final": true,
+ "price": {
+  "date": "2025-05-12",
+  "adj_close": 4.5
+ },
+ "balance": {
+  "end": "2024-12-31",
+  "cash": 3416604,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0001654954-25-001431"
+ },
+ "burn": {
+  "end": "2024-12-31",
+  "months": 6.0,
+  "per_month": -1973330.2205464481
+ },
+ "shares": {
+  "end": "2025-02-12",
+  "shares": 26005846,
+  "split_factor": 49.999,
+  "splits_after": [
+   [
+    "2025-11-14",
+    50.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "palatin technologies",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

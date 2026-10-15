@@ -1,0 +1,57 @@
+{
+ "id": "1478069_2022-07-14",
+ "cik": "1478069",
+ "name": "CONTRAFECT Corp",
+ "date": "2022-07-14",
+ "asof": "2022-08-13",
+ "final": true,
+ "price": {
+  "date": "2022-08-15",
+  "adj_close": 24.512
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 42281000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001193125-22-151878"
+ },
+ "burn": {
+  "end": "2022-03-31",
+  "months": 2.9,
+  "per_month": -4024578.4269662923
+ },
+ "shares": {
+  "end": "2022-05-10",
+  "shares": 39332721,
+  "split_factor": 80.005,
+  "splits_after": [
+   [
+    "2023-08-14",
+    80.01
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "contrafect",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04160468",
+    "drugs": [
+     "Exebacase"
+    ]
+   }
+  ]
+ }
+}

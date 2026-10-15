@@ -1,0 +1,87 @@
+{
+ "id": "1689548_2022-06-06",
+ "cik": "1689548",
+ "name": "Praxis Precision Medicines, Inc.",
+ "date": "2022-06-06",
+ "asof": "2022-07-06",
+ "final": true,
+ "price": {
+  "date": "2022-07-06",
+  "adj_close": 39.45
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 222516000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0001689548-22-000038"
+ },
+ "burn": {
+  "end": "2022-03-31",
+  "months": 2.9,
+  "per_month": -18506493.93258427
+ },
+ "shares": {
+  "end": "2022-05-06",
+  "shares": 45511773,
+  "split_factor": 15.0,
+  "splits_after": [
+   [
+    "2024-03-05",
+    15.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 11,
+  "bought": 130725,
+  "sold": 0,
+  "buyers": [
+   "Kelly Timothy Edwin",
+   "MITCHELL DEAN J",
+   "Mastrocola Lauren",
+   "Nemiroff Alex",
+   "Souza Marcio"
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "praxis precision medicines",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05387642",
+    "drugs": [
+     "10 mg PRAX-114 or 20 mg PRAX-114"
+    ]
+   },
+   {
+    "nct": "NCT05021991",
+    "drugs": [
+     "100 mg PRAX-944",
+     "60 mg PRAX-944",
+     "Flexibly dosed 20 mg to 100 mg PRAX-944"
+    ]
+   },
+   {
+    "nct": "NCT04969510",
+    "drugs": [
+     "10 mg PRAX-114",
+     "20 mg PRAX-114",
+     "40 mg PRAX-114"
+    ]
+   },
+   {
+    "nct": "NCT05260541",
+    "drugs": [
+     "60 mg PRAX-114 or 40 mg PRAX-114",
+     "40 mg PRAX-114"
+    ]
+   }
+  ]
+ }
+}

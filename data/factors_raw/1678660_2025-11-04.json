@@ -1,0 +1,53 @@
+{
+ "id": "1678660_2025-11-04",
+ "cik": "1678660",
+ "name": "Prelude Therapeutics Inc",
+ "date": "2025-11-04",
+ "asof": "2025-12-04",
+ "final": true,
+ "price": {
+  "date": "2025-12-04",
+  "adj_close": 1.54
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 54957000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001193125-25-275887"
+ },
+ "burn": {
+  "end": "2025-09-30",
+  "months": 8.9,
+  "per_month": -8888144.264705881
+ },
+ "shares": {
+  "end": "2025-11-10",
+  "shares": 62865270,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 1,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "prelude therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06682806",
+    "drugs": [
+     "PRT3789",
+     "pembrolizumab"
+    ]
+   }
+  ]
+ }
+}

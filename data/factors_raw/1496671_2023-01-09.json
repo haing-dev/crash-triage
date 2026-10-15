@@ -1,0 +1,51 @@
+{
+ "id": "1496671_2023-01-09",
+ "cik": "1496671",
+ "name": "Calithera Biosciences, Inc.",
+ "date": "2023-01-09",
+ "asof": "2023-02-08",
+ "final": true,
+ "price": {
+  "date": "2023-02-08",
+  "adj_close": 0.11
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 34068000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-22-025060"
+ },
+ "burn": {
+  "end": "2022-09-30",
+  "months": 8.9,
+  "per_month": -3918030.882352941
+ },
+ "shares": {
+  "end": "2022-11-09",
+  "shares": 4865257,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 6,
+  "bought": 0,
+  "sold": 46810,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "calithera biosciences",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05319028",
+    "drugs": [
+     "Mivavotinib"
+    ]
+   }
+  ]
+ }
+}

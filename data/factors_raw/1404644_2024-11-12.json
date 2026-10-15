@@ -1,0 +1,62 @@
+{
+ "id": "1404644_2024-11-12",
+ "cik": "1404644",
+ "name": "Neurogene Inc.",
+ "date": "2024-11-12",
+ "asof": "2024-12-12",
+ "final": true,
+ "price": {
+  "date": "2024-12-12",
+  "adj_close": 22.335
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 138993000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001404644-24-000104"
+ },
+ "burn": {
+  "end": "2024-09-30",
+  "months": 9.0,
+  "per_month": -5921527.765567766
+ },
+ "shares": {
+  "end": "2024-11-13",
+  "shares": 14854725,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 3,
+  "bought": 2720023,
+  "sold": 0,
+  "buyers": [
+   "Cvijic Christine Mikail",
+   "McMinn Rachel",
+   "Samsara BioCapital GP, LLC"
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "neurogene",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05228145",
+    "drugs": [
+     "NGN-101"
+    ]
+   },
+   {
+    "nct": "NCT05898620",
+    "drugs": [
+     "NGN-401"
+    ]
+   }
+  ]
+ }
+}

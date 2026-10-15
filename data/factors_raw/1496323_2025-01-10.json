@@ -1,0 +1,39 @@
+{
+ "id": "1496323_2025-01-10",
+ "cik": "1496323",
+ "name": "IGM Biosciences, Inc.",
+ "date": "2025-01-10",
+ "asof": "2025-02-09",
+ "final": true,
+ "price": {
+  "date": "2025-02-10",
+  "adj_close": 1.38
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 42875000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-24-123675"
+ },
+ "burn": {
+  "end": "2024-09-30",
+  "months": 9.0,
+  "per_month": -13176840.439560441
+ },
+ "shares": null,
+ "insiders": {
+  "form4s": 1,
+  "bought": 0,
+  "sold": 1907,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "igm biosciences",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

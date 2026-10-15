@@ -1,0 +1,49 @@
+{
+ "id": "1442836_2025-01-10",
+ "cik": "1442836",
+ "name": "Mersana Therapeutics, Inc.",
+ "date": "2025-01-10",
+ "asof": "2025-02-09",
+ "final": true,
+ "price": {
+  "date": "2025-02-10",
+  "adj_close": 17.5
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 78868000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001628280-24-047441"
+ },
+ "burn": {
+  "end": "2024-09-30",
+  "months": 9.0,
+  "per_month": -7034539.0476190485
+ },
+ "shares": {
+  "end": "2024-11-08",
+  "shares": 123532909,
+  "split_factor": 25.0,
+  "splits_after": [
+   [
+    "2025-08-13",
+    25.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 18,
+  "bought": 0,
+  "sold": 51268,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "mersana therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

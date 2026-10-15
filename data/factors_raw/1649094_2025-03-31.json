@@ -1,0 +1,63 @@
+{
+ "id": "1649094_2025-03-31",
+ "cik": "1649094",
+ "name": "Vaxcyte, Inc.",
+ "date": "2025-03-31",
+ "asof": "2025-04-30",
+ "final": true,
+ "price": {
+  "date": "2025-04-30",
+  "adj_close": 35.84
+ },
+ "balance": {
+  "end": "2024-12-31",
+  "cash": 3134718000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments",
+   "LongTermInvestments"
+  ],
+  "accn": "0001649094-25-000028"
+ },
+ "burn": {
+  "end": "2024-12-31",
+  "months": 12.0,
+  "per_month": -37747851.7260274
+ },
+ "shares": {
+  "end": "2025-02-21",
+  "shares": 128761622,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 3,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "vaxcyte",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06720038",
+    "drugs": [
+     "0.5 mL of the low dose VAX-31",
+     "0.5 mL of the mid dose VAX-31",
+     "0.5 mL of the high dose VAX-31"
+    ]
+   },
+   {
+    "nct": "NCT05844423",
+    "drugs": [
+     "0.5 ml dose of 1.1 mcg VAX-24",
+     "0.5 ml dose of PCV20",
+     "0.5 ml dose of 2.2 mcg VAX-24"
+    ]
+   }
+  ]
+ }
+}

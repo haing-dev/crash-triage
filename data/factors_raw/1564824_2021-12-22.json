@@ -1,0 +1,64 @@
+{
+ "id": "1564824_2021-12-22",
+ "cik": "1564824",
+ "name": "Allakos Inc.",
+ "date": "2021-12-22",
+ "asof": "2022-01-21",
+ "final": true,
+ "price": {
+  "date": "2022-01-21",
+  "adj_close": 6.85
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 505607000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-21-003465"
+ },
+ "burn": {
+  "end": "2021-09-30",
+  "months": 8.9,
+  "per_month": -15944740.588235294
+ },
+ "shares": {
+  "end": "2021-11-03",
+  "shares": 54313379,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "allakos",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05152563",
+    "drugs": [
+     "AK002"
+    ]
+   },
+   {
+    "nct": "NCT04620811",
+    "drugs": [
+     "lirentelimab"
+    ]
+   },
+   {
+    "nct": "NCT04856891",
+    "drugs": [
+     "AK002"
+    ]
+   }
+  ]
+ }
+}

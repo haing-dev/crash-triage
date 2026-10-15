@@ -1,0 +1,60 @@
+{
+ "id": "1528115_2023-05-25",
+ "cik": "1528115",
+ "name": "Annexon, Inc.",
+ "date": "2023-05-25",
+ "asof": "2023-06-24",
+ "final": true,
+ "price": {
+  "date": "2023-06-26",
+  "adj_close": 3.345
+ },
+ "balance": {
+  "end": "2023-03-31",
+  "cash": 228165000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0000950170-23-018797"
+ },
+ "burn": {
+  "end": "2023-03-31",
+  "months": 2.9,
+  "per_month": -11284347.415730337
+ },
+ "shares": {
+  "end": "2022-05-02",
+  "shares": 38563565,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 7,
+  "bought": 639720,
+  "sold": 0,
+  "buyers": [
+   "Bain Capital Life Sciences Investors, LLC"
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "annexon",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04569435",
+    "drugs": [
+     "ANX005"
+    ]
+   },
+   {
+    "nct": "NCT04701164",
+    "drugs": [
+     "ANX005"
+    ]
+   }
+  ]
+ }
+}

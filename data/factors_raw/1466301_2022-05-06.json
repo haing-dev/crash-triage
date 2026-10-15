@@ -1,0 +1,53 @@
+{
+ "id": "1466301_2022-05-06",
+ "cik": "1466301",
+ "name": "Clovis Oncology, Inc.",
+ "date": "2022-05-06",
+ "asof": "2022-06-05",
+ "final": true,
+ "price": {
+  "date": "2022-06-06",
+  "adj_close": 0.6716
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 122241000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-22-007416"
+ },
+ "burn": {
+  "end": "2022-03-31",
+  "months": 2.9,
+  "per_month": -20006604.494382024
+ },
+ "shares": {
+  "end": "2022-04-29",
+  "shares": 143879140,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 5,
+  "bought": 0,
+  "sold": 7342,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "clovis oncology",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04042116",
+    "drugs": [
+     "Lucitanib",
+     "Lucitanib",
+     "Lucitanib"
+    ]
+   }
+  ]
+ }
+}

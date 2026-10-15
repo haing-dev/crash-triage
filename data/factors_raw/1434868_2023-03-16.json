@@ -1,0 +1,52 @@
+{
+ "id": "1434868_2023-03-16",
+ "cik": "1434868",
+ "name": "Esperion Therapeutics, Inc.",
+ "date": "2023-03-16",
+ "asof": "2023-04-15",
+ "final": true,
+ "price": {
+  "date": "2023-04-17",
+  "adj_close": 1.37
+ },
+ "balance": {
+  "end": "2022-12-31",
+  "cash": 166861000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001628280-23-004167"
+ },
+ "burn": {
+  "end": "2022-12-31",
+  "months": 12.0,
+  "per_month": -14620148.021978023
+ },
+ "shares": {
+  "end": "2023-02-01",
+  "shares": 76572830,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 3,
+  "bought": 0,
+  "sold": 20202,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "esperion therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05694260",
+    "drugs": [
+     "Bempedoic acid"
+    ]
+   }
+  ]
+ }
+}

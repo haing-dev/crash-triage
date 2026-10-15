@@ -1,0 +1,68 @@
+{
+ "id": "1583648_2023-06-21",
+ "cik": "1583648",
+ "name": "PALVELLA THERAPEUTICS, INC.",
+ "date": "2023-06-21",
+ "asof": "2023-07-21",
+ "final": true,
+ "price": {
+  "date": "2023-07-21",
+  "adj_close": 18.32
+ },
+ "balance": {
+  "end": "2023-03-31",
+  "cash": 48379000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001437749-23-013687"
+ },
+ "burn": {
+  "end": "2023-03-31",
+  "months": 2.9,
+  "per_month": -3760879.1011235956
+ },
+ "shares": {
+  "end": "2023-05-08",
+  "shares": 82019103,
+  "split_factor": 4072.437,
+  "splits_after": [
+   [
+    "2024-05-15",
+    80.04
+   ],
+   [
+    "2025-03-31",
+    50.88
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 7,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "palvella therapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05643872",
+    "drugs": [
+     "PTX-022"
+    ]
+   },
+   {
+    "nct": "NCT05180708",
+    "drugs": [
+     "QTORIN 3.9% rapamycin anhydrous gel",
+     "Vehicle"
+    ]
+   }
+  ]
+ }
+}

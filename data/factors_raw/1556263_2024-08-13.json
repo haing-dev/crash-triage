@@ -1,0 +1,55 @@
+{
+ "id": "1556263_2024-08-13",
+ "cik": "1556263",
+ "name": "Syros Pharmaceuticals, Inc.",
+ "date": "2024-08-13",
+ "asof": "2024-09-12",
+ "final": true,
+ "price": {
+  "date": "2024-09-12",
+  "adj_close": 1.57
+ },
+ "balance": {
+  "end": "2024-06-30",
+  "cash": 78964000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-24-088224"
+ },
+ "burn": {
+  "end": "2024-06-30",
+  "months": 5.9,
+  "per_month": -10219262.983425414
+ },
+ "shares": {
+  "end": "2024-05-07",
+  "shares": 26728337,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 2,
+  "bought": 321920,
+  "sold": 0,
+  "buyers": [
+   "Chee Conley",
+   "Haas Jason"
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "syros pharmaceuticals",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04797780",
+    "drugs": [
+     "Tamibarotene",
+     "Azacitidine"
+    ]
+   }
+  ]
+ }
+}

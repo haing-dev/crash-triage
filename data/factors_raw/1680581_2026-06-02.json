@@ -1,0 +1,56 @@
+{
+ "id": "1680581_2026-06-02",
+ "cik": "1680581",
+ "name": "Fulcrum Therapeutics, Inc.",
+ "date": "2026-06-02",
+ "asof": "2026-07-02",
+ "final": true,
+ "price": {
+  "date": "2026-07-02",
+  "adj_close": 3.84
+ },
+ "balance": {
+  "end": "2026-03-31",
+  "cash": 50261000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001193125-26-178814"
+ },
+ "burn": {
+  "end": "2026-03-31",
+  "months": 2.9,
+  "per_month": -6412921.348314607
+ },
+ "shares": {
+  "end": "2026-04-20",
+  "shares": 66633321,
+  "split_factor": 0.001,
+  "splits_after": [
+   [
+    "2026-09-02",
+    0.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 9,
+  "bought": 0,
+  "sold": 65614,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "fulcrum therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT07401823",
+    "drugs": [
+     "Pociredir"
+    ]
+   }
+  ]
+ }
+}

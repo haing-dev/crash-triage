@@ -1,0 +1,49 @@
+{
+ "id": "819050_2022-06-30",
+ "cik": "819050",
+ "name": "Fresh Tracks Therapeutics, Inc.",
+ "date": "2022-06-30",
+ "asof": "2022-07-30",
+ "final": true,
+ "price": {
+  "date": "2022-08-01",
+  "adj_close": 3.05
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 17289000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000819050-22-000059"
+ },
+ "burn": {
+  "end": "2022-03-31",
+  "months": 2.9,
+  "per_month": -3262894.382022472
+ },
+ "shares": {
+  "end": "2022-05-10",
+  "shares": 119377286,
+  "split_factor": 45.0,
+  "splits_after": [
+   [
+    "2022-09-01",
+    45.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "fresh tracks therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

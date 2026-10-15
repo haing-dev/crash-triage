@@ -1,0 +1,61 @@
+{
+ "id": "1827506_2022-07-01",
+ "cik": "1827506",
+ "name": "Tourmaline Bio, Inc.",
+ "date": "2022-07-01",
+ "asof": "2022-07-31",
+ "final": true,
+ "price": {
+  "date": "2022-08-01",
+  "adj_close": 38.1137
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 225529000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-22-009714"
+ },
+ "burn": {
+  "end": "2022-03-31",
+  "months": 2.9,
+  "per_month": -5568125.842696629
+ },
+ "shares": {
+  "end": "2022-05-02",
+  "shares": 41463782,
+  "split_factor": 1997.366,
+  "splits_after": [
+   [
+    "2023-11-14",
+    10.0
+   ],
+   [
+    "2024-03-19",
+    47.03
+   ],
+   [
+    "2024-11-07",
+    4.25
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 3,
+  "bought": 572003,
+  "sold": 0,
+  "buyers": [
+   "Nader Francois",
+   "Requadt Scott"
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "tourmaline bio",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "id": "1728117_2022-12-06",
+ "cik": "1728117",
+ "name": "Gossamer Bio, Inc.",
+ "date": "2022-12-06",
+ "asof": "2023-01-05",
+ "final": true,
+ "price": {
+  "date": "2023-01-05",
+  "adj_close": 172.0
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 304383000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001728117-22-000100"
+ },
+ "burn": {
+  "end": "2022-09-30",
+  "months": 8.9,
+  "per_month": -15589532.647058824
+ },
+ "shares": {
+  "end": "2022-10-31",
+  "shares": 94476801,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 6,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "gossamer bio",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04816604",
+    "drugs": [
+     "GB002 (seralutinib)",
+     "Generic Dry Powder Inhaler"
+    ]
+   }
+  ]
+ }
+}

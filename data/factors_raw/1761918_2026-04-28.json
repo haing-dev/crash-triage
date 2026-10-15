@@ -1,0 +1,62 @@
+{
+ "id": "1761918_2026-04-28",
+ "cik": "1761918",
+ "name": "Erasca, Inc.",
+ "date": "2026-04-28",
+ "asof": "2026-05-28",
+ "final": true,
+ "price": {
+  "date": "2026-05-28",
+  "adj_close": 12.2
+ },
+ "balance": {
+  "end": "2026-03-31",
+  "cash": 408507000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent",
+   "MarketableSecuritiesNoncurrent"
+  ],
+  "accn": "0001193125-26-216788"
+ },
+ "burn": {
+  "end": "2026-03-31",
+  "months": 2.9,
+  "per_month": -9365601.348314608
+ },
+ "shares": {
+  "end": "2026-05-05",
+  "shares": 310984542,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "erasca",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06346067",
+    "drugs": [
+     "Naporafenib",
+     "Dacarbazine",
+     "Temozolomide"
+    ]
+   },
+   {
+    "nct": "NCT04866134",
+    "drugs": [
+     "ERAS-007",
+     "ERAS-601"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "id": "1514183_2025-05-15",
+ "cik": "1514183",
+ "name": "Silo Pharma, Inc.",
+ "date": "2025-05-15",
+ "asof": "2025-06-14",
+ "final": true,
+ "price": {
+  "date": "2025-06-16",
+  "adj_close": 8.7
+ },
+ "balance": {
+  "end": "2025-03-31",
+  "cash": 5451430,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001213900-25-041519"
+ },
+ "burn": {
+  "end": "2025-03-31",
+  "months": 2.9,
+  "per_month": -561019.4606741574
+ },
+ "shares": {
+  "end": "2025-05-08",
+  "shares": 4484456,
+  "split_factor": 15.0,
+  "splits_after": [
+   [
+    "2026-08-13",
+    15.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 6,
+  "bought": 4329,
+  "sold": 0,
+  "buyers": [
+   "Weisblum Eric"
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "silo pharma",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

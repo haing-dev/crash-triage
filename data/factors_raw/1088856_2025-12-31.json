@@ -1,0 +1,76 @@
+{
+ "id": "1088856_2025-12-31",
+ "cik": "1088856",
+ "name": "CORCEPT THERAPEUTICS INC",
+ "date": "2025-12-31",
+ "asof": "2026-01-30",
+ "final": true,
+ "price": {
+  "date": "2026-01-30",
+  "adj_close": 39.87
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 524240000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent",
+   "MarketableSecuritiesNoncurrent"
+  ],
+  "accn": "0001628280-25-048841"
+ },
+ "burn": {
+  "end": "2025-09-30",
+  "months": 8.9,
+  "per_month": 11588239.411764706
+ },
+ "shares": {
+  "end": "2025-10-23",
+  "shares": 105188217,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 3,
+  "bought": 0,
+  "sold": 703656,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "corcept therapeutics",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03604198",
+    "drugs": [
+     "relacorilant"
+    ]
+   },
+   {
+    "nct": "NCT06108219",
+    "drugs": [
+     "Miricorilant (Cohort A)",
+     "Miricorilant (Cohort B)"
+    ]
+   },
+   {
+    "nct": "NCT06906341",
+    "drugs": [
+     "Relacorilant 150 mg once daily (QD)",
+     "Nab-paclitaxel 80 mg/m^2",
+     "Bevacizumab 10 mg/kg"
+    ]
+   },
+   {
+    "nct": "NCT05407324",
+    "drugs": [
+     "Dazucorilant 300 mg",
+     "Dazucorilant 150 mg",
+     "Dazucorilant"
+    ]
+   }
+  ]
+ }
+}

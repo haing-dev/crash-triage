@@ -1,0 +1,58 @@
+{
+ "id": "1187953_2026-06-26",
+ "cik": "1187953",
+ "name": "CREATIVE MEDICAL TECHNOLOGY HOLDINGS, INC.",
+ "date": "2026-06-26",
+ "asof": "2026-07-26",
+ "final": true,
+ "price": {
+  "date": "2026-07-27",
+  "adj_close": 0.79329997
+ },
+ "balance": {
+  "end": "2026-03-31",
+  "cash": 5723176,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0001477932-26-002893"
+ },
+ "burn": {
+  "end": "2026-03-31",
+  "months": 2.9,
+  "per_month": -452601.7573033708
+ },
+ "shares": {
+  "end": "2026-05-01",
+  "shares": 3696668,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "creative medical technology",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05626712",
+    "drugs": [
+     "CELZ-201 Administration",
+     "Control Group"
+    ]
+   },
+   {
+    "nct": "NCT06053242",
+    "drugs": [
+     "CELZ-201-DDT"
+    ]
+   }
+  ]
+ }
+}

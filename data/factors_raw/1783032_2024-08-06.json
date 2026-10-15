@@ -1,0 +1,45 @@
+{
+ "id": "1783032_2024-08-06",
+ "cik": "1783032",
+ "name": "Elevation Oncology, Inc.",
+ "date": "2024-08-06",
+ "asof": "2024-09-05",
+ "final": true,
+ "price": {
+  "date": "2024-09-05",
+  "adj_close": 0.65
+ },
+ "balance": {
+  "end": "2024-06-30",
+  "cash": 110849000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001558370-24-010952"
+ },
+ "burn": {
+  "end": "2024-06-30",
+  "months": 5.9,
+  "per_month": -2990183.425414365
+ },
+ "shares": {
+  "end": "2024-08-02",
+  "shares": 59106809,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 1,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "elevation oncology",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

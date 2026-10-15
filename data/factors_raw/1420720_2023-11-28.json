@@ -1,0 +1,49 @@
+{
+ "id": "1420720_2023-11-28",
+ "cik": "1420720",
+ "name": "iBio, Inc.",
+ "date": "2023-11-28",
+ "asof": "2023-12-28",
+ "final": true,
+ "price": {
+  "date": "2023-12-28",
+  "adj_close": 1.42
+ },
+ "balance": {
+  "end": "2023-09-30",
+  "cash": 1461000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-23-019043"
+ },
+ "burn": {
+  "end": "2023-09-30",
+  "months": 3.0,
+  "per_month": -1786259.3406593406
+ },
+ "shares": {
+  "end": "2023-11-09",
+  "shares": 28100733,
+  "split_factor": 20.014,
+  "splits_after": [
+   [
+    "2024-02-09",
+    20.01
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "ibio",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

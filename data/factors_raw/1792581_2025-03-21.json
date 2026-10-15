@@ -1,0 +1,44 @@
+{
+ "id": "1792581_2025-03-21",
+ "cik": "1792581",
+ "name": "Kiromic Biopharma, Inc.",
+ "date": "2025-03-21",
+ "asof": "2025-04-20",
+ "final": true,
+ "price": {
+  "date": "2025-04-21",
+  "adj_close": 0.082925
+ },
+ "balance": {
+  "end": "2024-12-31",
+  "cash": 1137000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001437749-25-004000"
+ },
+ "burn": {
+  "end": "2024-12-31",
+  "months": 12.0,
+  "per_month": -1622743.890410959
+ },
+ "shares": {
+  "end": "2025-02-10",
+  "shares": 1533272,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "kiromic biopharma",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

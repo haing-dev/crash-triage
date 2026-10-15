@@ -1,0 +1,57 @@
+{
+ "id": "25743_2022-05-09",
+ "cik": "25743",
+ "name": "TherapeuticsMD, Inc.",
+ "date": "2022-05-09",
+ "asof": "2022-06-08",
+ "final": true,
+ "price": {
+  "date": "2022-06-08",
+  "adj_close": 9.92
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 30384000,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0001564590-22-020440"
+ },
+ "burn": {
+  "end": "2022-03-31",
+  "months": 2.9,
+  "per_month": -10098555.505617978
+ },
+ "shares": {
+  "end": "2022-05-10",
+  "shares": 8668558,
+  "split_factor": 1000.0,
+  "splits_after": [
+   [
+    "2025-03-27",
+    1000.0
+   ],
+   [
+    "2026-03-30",
+    0.0
+   ],
+   [
+    "2026-05-12",
+    1000.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "therapeuticsmd",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

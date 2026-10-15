@@ -1,0 +1,49 @@
+{
+ "id": "1826892_2026-08-28",
+ "cik": "1826892",
+ "name": "BioAtla, Inc.",
+ "date": "2026-08-28",
+ "asof": "2026-09-27",
+ "final": true,
+ "price": {
+  "date": "2026-09-28",
+  "adj_close": 1.52
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 1544000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001193125-26-349542"
+ },
+ "burn": {
+  "end": "2026-06-30",
+  "months": 5.9,
+  "per_month": -961565.7777777778
+ },
+ "shares": {
+  "end": "2021-08-13",
+  "shares": 32315301,
+  "split_factor": 50.0,
+  "splits_after": [
+   [
+    "2026-05-15",
+    50.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 3,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "bioatla",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

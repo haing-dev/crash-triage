@@ -1,0 +1,63 @@
+{
+ "id": "1579428_2021-08-09",
+ "cik": "1579428",
+ "name": "Axsome Therapeutics, Inc.",
+ "date": "2021-08-09",
+ "asof": "2021-09-08",
+ "final": true,
+ "price": {
+  "date": "2021-09-08",
+  "adj_close": 26.14
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 141219090,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001564590-21-042710"
+ },
+ "burn": {
+  "end": "2021-06-30",
+  "months": 5.9,
+  "per_month": -8896773.54711111
+ },
+ "shares": {
+  "end": "2021-08-02",
+  "shares": 37681948,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "axsome therapeutics",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04797715",
+    "drugs": [
+     "AXS-05"
+    ]
+   },
+   {
+    "nct": "NCT04634669",
+    "drugs": [
+     "AXS-05 (dextromethorphan-bupropion)"
+    ]
+   },
+   {
+    "nct": "NCT04947553",
+    "drugs": [
+     "AXS-05 (dextromethorphan-bupropion)"
+    ]
+   }
+  ]
+ }
+}

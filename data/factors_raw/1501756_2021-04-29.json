@@ -1,0 +1,59 @@
+{
+ "id": "1501756_2021-04-29",
+ "cik": "1501756",
+ "name": "Adverum Biotechnologies, Inc.",
+ "date": "2021-04-29",
+ "asof": "2021-05-29",
+ "final": true,
+ "price": {
+  "date": "2021-06-01",
+  "adj_close": 35.1
+ },
+ "balance": {
+  "end": "2021-03-31",
+  "cash": 404018000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001628280-21-009293"
+ },
+ "burn": {
+  "end": "2021-03-31",
+  "months": 2.9,
+  "per_month": -7628811.235955057
+ },
+ "shares": {
+  "end": "2021-04-29",
+  "shares": 97934777,
+  "split_factor": 10.0,
+  "splits_after": [
+   [
+    "2024-05-09",
+    10.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 7,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "adverum biotechnologies",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04418427",
+    "drugs": [
+     "6E11 vg/eye of ADVM-022",
+     "2E11 vg/eye of ADVM-022",
+     "Aflibercept"
+    ]
+   }
+  ]
+ }
+}

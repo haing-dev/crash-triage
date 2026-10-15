@@ -1,0 +1,59 @@
+{
+ "id": "1780097_2022-12-12",
+ "cik": "1780097",
+ "name": "Baudax Bio, Inc.",
+ "date": "2022-12-12",
+ "asof": "2023-01-11",
+ "final": true,
+ "price": {
+  "date": "2023-01-11",
+  "adj_close": 3.45
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 5647000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-22-023184"
+ },
+ "burn": {
+  "end": "2022-09-30",
+  "months": 8.9,
+  "per_month": -2687001.470588235
+ },
+ "shares": {
+  "end": "2022-11-02",
+  "shares": 20003745,
+  "split_factor": 40.0,
+  "splits_after": [
+   [
+    "2023-08-16",
+    40.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 1,
+  "bought": 3057,
+  "sold": 0,
+  "buyers": [
+   "HENWOOD GERALDINE"
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "baudax bio",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05687253",
+    "drugs": [
+     "BX1000",
+     "Rocuronium Bromide"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "id": "1783036_2025-10-29",
+ "cik": "1783036",
+ "name": "NewcelX Ltd.",
+ "date": "2025-10-29",
+ "asof": "2025-11-28",
+ "final": true,
+ "price": {
+  "date": "2025-11-28",
+  "adj_close": 4.01
+ },
+ "balance": {
+  "end": "2025-06-30",
+  "cash": 3072376,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001213900-25-096255"
+ },
+ "burn": {
+  "end": "2025-06-30",
+  "months": 5.9,
+  "per_month": -350702.79133333336
+ },
+ "shares": {
+  "end": "2024-12-31",
+  "shares": 3159535,
+  "split_factor": 0.522,
+  "splits_after": [
+   [
+    "2026-04-29",
+    0.52
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "newcelx",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

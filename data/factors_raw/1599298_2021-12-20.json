@@ -1,0 +1,44 @@
+{
+ "id": "1599298_2021-12-20",
+ "cik": "1599298",
+ "name": "Summit Therapeutics Inc.",
+ "date": "2021-12-20",
+ "asof": "2022-01-19",
+ "final": true,
+ "price": {
+  "date": "2022-01-19",
+  "adj_close": 2.24
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 80248000,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0001599298-21-000036"
+ },
+ "burn": {
+  "end": "2021-09-30",
+  "months": 8.9,
+  "per_month": -7096101.176470588
+ },
+ "shares": {
+  "end": "2021-11-08",
+  "shares": 97714447,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 4,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "summit therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

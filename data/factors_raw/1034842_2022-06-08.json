@@ -1,0 +1,65 @@
+{
+ "id": "1034842_2022-06-08",
+ "cik": "1034842",
+ "name": "RIGEL PHARMACEUTICALS INC",
+ "date": "2022-06-08",
+ "asof": "2022-07-08",
+ "final": true,
+ "price": {
+  "date": "2022-07-08",
+  "adj_close": 13.8
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 107519000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001558370-22-006809"
+ },
+ "burn": {
+  "end": "2022-03-31",
+  "months": 2.9,
+  "per_month": -8768430.112359552
+ },
+ "shares": {
+  "end": "2022-04-29",
+  "shares": 172052224,
+  "split_factor": 10.011,
+  "splits_after": [
+   [
+    "2024-08-06",
+    10.01
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 1,
+  "bought": 688400,
+  "sold": 0,
+  "buyers": [
+   "RODRIGUEZ RAUL R"
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "rigel pharmaceuticals",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04629703",
+    "drugs": [
+     "Fostamatinib"
+    ]
+   },
+   {
+    "nct": "NCT04138927",
+    "drugs": [
+     "Fostamatinib disodium"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "id": "832489_2025-12-19",
+ "cik": "832489",
+ "name": "GeoVax Labs, Inc.",
+ "date": "2025-12-19",
+ "asof": "2026-01-18",
+ "final": true,
+ "price": {
+  "date": "2026-01-20",
+  "adj_close": 2.79
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 5008997,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001437749-25-034811"
+ },
+ "burn": {
+  "end": "2025-09-30",
+  "months": 8.9,
+  "per_month": -1847908.6577941177
+ },
+ "shares": {
+  "end": "2025-11-13",
+  "shares": 29705360,
+  "split_factor": 25.0,
+  "splits_after": [
+   [
+    "2026-04-15",
+    25.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "geovax labs",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

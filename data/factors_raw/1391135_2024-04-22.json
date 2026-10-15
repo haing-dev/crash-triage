@@ -1,0 +1,44 @@
+{
+ "id": "1391135_2024-04-22",
+ "cik": "1391135",
+ "name": "LFTD PARTNERS INC.",
+ "date": "2024-04-22",
+ "asof": "2024-05-22",
+ "final": true,
+ "price": {
+  "date": "2024-05-22",
+  "adj_close": 0.95
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 4376185,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001096906-24-001119"
+ },
+ "burn": {
+  "end": "2024-03-31",
+  "months": 3.0,
+  "per_month": 60417.650222222226
+ },
+ "shares": {
+  "end": "2024-05-13",
+  "shares": 14822678,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "lftd partners",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

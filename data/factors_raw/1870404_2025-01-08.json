@@ -1,0 +1,65 @@
+{
+ "id": "1870404_2025-01-08",
+ "cik": "1870404",
+ "name": "CERO THERAPEUTICS HOLDINGS, INC.",
+ "date": "2025-01-08",
+ "asof": "2025-02-07",
+ "final": true,
+ "price": {
+  "date": "2025-02-07",
+  "adj_close": 38.8
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 3380204,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0001213900-24-100303"
+ },
+ "burn": {
+  "end": "2023-12-31",
+  "months": 12.0,
+  "per_month": -127413.47736263736
+ },
+ "shares": {
+  "end": "2024-11-19",
+  "shares": 150312572,
+  "split_factor": 124232796602.979,
+  "splits_after": [
+   [
+    "2025-04-15",
+    1551.57
+   ],
+   [
+    "2025-05-15",
+    100.0
+   ],
+   [
+    "2025-08-22",
+    20.02
+   ],
+   [
+    "2025-11-19",
+    2000.02
+   ],
+   [
+    "2026-05-15",
+    20.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 1,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "cero therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

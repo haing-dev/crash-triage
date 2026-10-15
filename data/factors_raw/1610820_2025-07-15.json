@@ -1,0 +1,70 @@
+{
+ "id": "1610820_2025-07-15",
+ "cik": "1610820",
+ "name": "BriaCell Therapeutics Corp.",
+ "date": "2025-07-15",
+ "asof": "2025-08-14",
+ "final": true,
+ "price": {
+  "date": "2025-08-14",
+  "adj_close": 7.4
+ },
+ "balance": {
+  "end": "2025-04-30",
+  "cash": 12460253,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001641172-25-015265"
+ },
+ "burn": {
+  "end": "2025-04-30",
+  "months": 8.9,
+  "per_month": -2242496.3345588236
+ },
+ "shares": {
+  "end": "2025-06-16",
+  "shares": 6776092,
+  "split_factor": 1500.007,
+  "splits_after": [
+   [
+    "2025-10-16",
+    150.0
+   ],
+   [
+    "2026-03-10",
+    10.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "briacell therapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06072612",
+    "drugs": [
+     "SV-BR-1-GM",
+     "Cyclophosphamide",
+     "Interferon infiltration of the inoculation site"
+    ]
+   },
+   {
+    "nct": "NCT03328026",
+    "drugs": [
+     "SV-BR-1-GM",
+     "Low dose cyclophosphamide",
+     "Interferon Inoculation"
+    ]
+   }
+  ]
+ }
+}

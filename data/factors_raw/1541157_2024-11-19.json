@@ -1,0 +1,53 @@
+{
+ "id": "1541157_2024-11-19",
+ "cik": "1541157",
+ "name": "Akari Therapeutics Plc",
+ "date": "2024-11-19",
+ "asof": "2024-12-19",
+ "final": true,
+ "price": {
+  "date": "2024-12-19",
+  "adj_close": 40.0
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 2246000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-24-128727"
+ },
+ "burn": {
+  "end": "2024-09-30",
+  "months": 9.0,
+  "per_month": -1162741.098901099
+ },
+ "shares": {
+  "end": "2024-11-15",
+  "shares": 49517115523,
+  "split_factor": 0.0,
+  "splits_after": [
+   [
+    "2025-04-15",
+    0.0
+   ],
+   [
+    "2025-08-13",
+    0.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 2,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "akari therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

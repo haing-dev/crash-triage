@@ -1,0 +1,55 @@
+{
+ "id": "1847367_2026-09-01",
+ "cik": "1847367",
+ "name": "ALUMIS INC.",
+ "date": "2026-09-01",
+ "asof": "2026-10-01",
+ "final": true,
+ "price": {
+  "date": "2026-10-01",
+  "adj_close": 7.21
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 63706000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001847367-26-000018"
+ },
+ "burn": {
+  "end": "2026-06-30",
+  "months": 5.9,
+  "per_month": -28509089.333333336
+ },
+ "shares": null,
+ "insiders": {
+  "form4s": 1,
+  "bought": 10726255,
+  "sold": 1014028,
+  "buyers": [
+   "AKKARAJU SRINIVAS"
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "alumis",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06846541",
+    "drugs": [
+     "Open-Label Envudeucitinib",
+     "Blinded Envudeucitinib"
+    ]
+   },
+   {
+    "nct": "NCT05739435",
+    "drugs": [
+     "envudeucitinib"
+    ]
+   }
+  ]
+ }
+}

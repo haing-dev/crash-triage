@@ -1,0 +1,52 @@
+{
+ "id": "1293971_2023-12-20",
+ "cik": "1293971",
+ "name": "bluebird bio, Inc.",
+ "date": "2023-12-20",
+ "asof": "2024-01-19",
+ "final": true,
+ "price": {
+  "date": "2024-01-19",
+  "adj_close": 25.3
+ },
+ "balance": {
+  "end": "2023-09-30",
+  "cash": 174293000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent",
+   "MarketableSecuritiesNoncurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0001293971-23-000055"
+ },
+ "burn": {
+  "end": "2023-09-30",
+  "months": 8.9,
+  "per_month": -24755889.55882353
+ },
+ "shares": {
+  "end": "2023-11-03",
+  "shares": 109336211,
+  "split_factor": 20.001,
+  "splits_after": [
+   [
+    "2025-03-27",
+    20.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 2,
+  "bought": 0,
+  "sold": 5365,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "bluebird bio",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

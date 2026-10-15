@@ -1,0 +1,45 @@
+{
+ "id": "1764974_2024-08-15",
+ "cik": "1764974",
+ "name": "Turnstone Biologics Corp.",
+ "date": "2024-08-15",
+ "asof": "2024-09-14",
+ "final": true,
+ "price": {
+  "date": "2024-09-16",
+  "adj_close": 0.6451
+ },
+ "balance": {
+  "end": "2024-06-30",
+  "cash": 62398000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-24-097065"
+ },
+ "burn": {
+  "end": "2024-06-30",
+  "months": 5.9,
+  "per_month": -5614582.320441989
+ },
+ "shares": {
+  "end": "2024-08-12",
+  "shares": 23128454,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "turnstone biologics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

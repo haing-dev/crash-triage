@@ -1,0 +1,53 @@
+{
+ "id": "1444307_2023-04-03",
+ "cik": "1444307",
+ "name": "ONCOSEC MEDICAL Inc",
+ "date": "2023-04-03",
+ "asof": "2023-05-03",
+ "final": true,
+ "price": {
+  "date": "2023-05-03",
+  "adj_close": 0.755
+ },
+ "balance": {
+  "end": "2023-01-31",
+  "cash": 3683330,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001493152-23-007478"
+ },
+ "burn": {
+  "end": "2023-01-31",
+  "months": 6.0,
+  "per_month": -2118766.053333333
+ },
+ "shares": {
+  "end": "2023-03-13",
+  "shares": 2971246,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "oncosec medical",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03567720",
+    "drugs": [
+     "tavokinogene telseplasmid",
+     "Pembrolizumab",
+     "Immunopulse"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "id": "1620463_2024-09-04",
+ "cik": "1620463",
+ "name": "LeonaBio, Inc.",
+ "date": "2024-09-04",
+ "asof": "2024-10-04",
+ "final": true,
+ "price": {
+  "date": "2024-10-04",
+  "adj_close": 4.25
+ },
+ "balance": {
+  "end": "2024-06-30",
+  "cash": 91769000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-24-089304"
+ },
+ "burn": {
+  "end": "2024-06-30",
+  "months": 5.9,
+  "per_month": -8095021.878453039
+ },
+ "shares": {
+  "end": "2024-07-29",
+  "shares": 38439375,
+  "split_factor": 10.0,
+  "splits_after": [
+   [
+    "2025-11-06",
+    10.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 10,
+  "bought": 0,
+  "sold": 7856,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "leonabio",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04886063",
+    "drugs": [
+     "ATH-1017"
+    ]
+   },
+   {
+    "nct": "NCT05696626",
+    "drugs": [
+     "Lasofoxifene in combination with abemaciclib",
+     "Fulvestrant in combination with abemaciclib"
+    ]
+   }
+  ]
+ }
+}

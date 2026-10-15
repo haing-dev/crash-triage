@@ -1,0 +1,76 @@
+{
+ "id": "1280776_2022-10-21",
+ "cik": "1280776",
+ "name": "IMMUNIC, INC.",
+ "date": "2022-10-21",
+ "asof": "2022-11-20",
+ "final": true,
+ "price": {
+  "date": "2022-11-21",
+  "adj_close": 13.1
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 72771000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001280776-22-000021"
+ },
+ "burn": {
+  "end": "2022-09-30",
+  "months": 8.9,
+  "per_month": -5600064.705882353
+ },
+ "shares": {
+  "end": "2022-10-28",
+  "shares": 39261547,
+  "split_factor": 10.0,
+  "splits_after": [
+   [
+    "2026-05-13",
+    10.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 1,
+  "bought": 7475,
+  "sold": 0,
+  "buyers": [
+   "Whaley Glenn"
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "immunic",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03341962",
+    "drugs": [
+     "IMU-838"
+    ]
+   },
+   {
+    "nct": "NCT05054140",
+    "drugs": [
+     "IMU-838"
+    ]
+   },
+   {
+    "nct": "NCT05201638",
+    "drugs": [
+     "IMU-838 tablets"
+    ]
+   },
+   {
+    "nct": "NCT05134441",
+    "drugs": [
+     "IMU-838 tablets"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "id": "1844417_2023-09-05",
+ "cik": "1844417",
+ "name": "Estrella Immunopharma, Inc.",
+ "date": "2023-09-05",
+ "asof": "2023-10-05",
+ "final": true,
+ "price": {
+  "date": "2023-10-05",
+  "adj_close": 2.76
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 34688,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001213900-23-061563"
+ },
+ "burn": {
+  "end": "2023-06-30",
+  "months": 5.9,
+  "per_month": -82591.16088888889
+ },
+ "shares": {
+  "end": "2023-07-31",
+  "shares": 2168354,
+  "split_factor": 16.893,
+  "splits_after": [
+   [
+    "2023-11-20",
+    16.89
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 8,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "estrella immunopharma",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "id": "1145604_2021-07-27",
+ "cik": "1145604",
+ "name": "NIKA PHARMACEUTICALS, INC",
+ "date": "2021-07-27",
+ "asof": "2021-08-26",
+ "final": true,
+ "price": {
+  "date": "2021-08-26",
+  "adj_close": 1.0
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 398,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001826466-21-000118"
+ },
+ "burn": {
+  "end": "2021-06-30",
+  "months": 5.9,
+  "per_month": -1473.4651111111111
+ },
+ "shares": {
+  "end": "2021-08-09",
+  "shares": 13203000,
+  "split_factor": 0.033,
+  "splits_after": [
+   [
+    "2023-05-15",
+    0.03
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "nika pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

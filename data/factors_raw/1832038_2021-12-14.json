@@ -1,0 +1,58 @@
+{
+ "id": "1832038_2021-12-14",
+ "cik": "1832038",
+ "name": "Invivyd, Inc.",
+ "date": "2021-12-14",
+ "asof": "2022-01-13",
+ "final": true,
+ "price": {
+  "date": "2022-01-13",
+  "adj_close": 5.26
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 478269000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-21-004586"
+ },
+ "burn": {
+  "end": "2021-09-30",
+  "months": 8.9,
+  "per_month": -12480847.647058824
+ },
+ "shares": {
+  "end": "2021-11-08",
+  "shares": 111251660,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "invivyd",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04805671",
+    "drugs": [
+     "ADG20",
+     "Normal saline"
+    ]
+   },
+   {
+    "nct": "NCT04859517",
+    "drugs": [
+     "ADG20"
+    ]
+   }
+  ]
+ }
+}

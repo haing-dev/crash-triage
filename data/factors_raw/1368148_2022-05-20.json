@@ -1,0 +1,53 @@
+{
+ "id": "1368148_2022-05-20",
+ "cik": "1368148",
+ "name": "ATHERSYS, INC / NEW",
+ "date": "2022-05-20",
+ "asof": "2022-06-19",
+ "final": true,
+ "price": {
+  "date": "2022-06-21",
+  "adj_close": 6.535
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 21797000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001368148-22-000053"
+ },
+ "burn": {
+  "end": "2022-03-31",
+  "months": 2.9,
+  "per_month": -6897909.213483146
+ },
+ "shares": {
+  "end": "2022-04-29",
+  "shares": 251967791,
+  "split_factor": 25000.0,
+  "splits_after": [
+   [
+    "2022-11-14",
+    25.0
+   ],
+   [
+    "2023-11-16",
+    1000.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "athersys new",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

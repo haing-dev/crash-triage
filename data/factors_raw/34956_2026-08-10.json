@@ -1,0 +1,59 @@
+{
+ "id": "34956_2026-08-10",
+ "cik": "34956",
+ "name": "TENAX THERAPEUTICS, INC.",
+ "date": "2026-08-10",
+ "asof": "2026-09-09",
+ "final": true,
+ "price": {
+  "date": "2026-09-09",
+  "adj_close": 2.13
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 118000000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001193125-26-327455"
+ },
+ "burn": {
+  "end": "2026-06-30",
+  "months": 5.9,
+  "per_month": -3967177.5555555555
+ },
+ "shares": {
+  "end": "2026-07-28",
+  "shares": 37423917,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 3,
+  "bought": 4800057,
+  "sold": 0,
+  "buyers": [
+   "ADAR1 Capital Management, LLC"
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "tenax therapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT07436689",
+    "drugs": [
+     "TNX-103"
+    ]
+   },
+   {
+    "nct": "NCT07288398",
+    "drugs": [
+     "TNX-103"
+    ]
+   }
+  ]
+ }
+}

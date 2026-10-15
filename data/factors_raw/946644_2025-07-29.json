@@ -1,0 +1,45 @@
+{
+ "id": "946644_2025-07-29",
+ "cik": "946644",
+ "name": "AIM ImmunoTech Inc.",
+ "date": "2025-07-29",
+ "asof": "2025-08-28",
+ "final": true,
+ "price": {
+  "date": "2025-08-28",
+  "adj_close": 2.46363
+ },
+ "balance": {
+  "end": "2025-06-30",
+  "cash": 835000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001493152-25-011986"
+ },
+ "burn": {
+  "end": "2025-06-30",
+  "months": 5.9,
+  "per_month": -658180.4444444445
+ },
+ "shares": {
+  "end": "2025-08-12",
+  "shares": 2708688,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "aim immunotech",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

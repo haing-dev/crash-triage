@@ -1,0 +1,54 @@
+{
+ "id": "1827087_2023-11-17",
+ "cik": "1827087",
+ "name": "Vigil Neuroscience, Inc.",
+ "date": "2023-11-17",
+ "asof": "2023-12-17",
+ "final": true,
+ "price": {
+  "date": "2023-12-18",
+  "adj_close": 3.59
+ },
+ "balance": {
+  "end": "2023-09-30",
+  "cash": 133643000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-23-059770"
+ },
+ "burn": {
+  "end": "2023-09-30",
+  "months": 8.9,
+  "per_month": -6138696.029411765
+ },
+ "shares": {
+  "end": "2023-10-31",
+  "shares": 35877421,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 1,
+  "bought": 15000,
+  "sold": 0,
+  "buyers": [
+   "Magovcevic-Liebisch Ivana"
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "vigil neuroscience",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05677659",
+    "drugs": [
+     "VGL101"
+    ]
+   }
+  ]
+ }
+}

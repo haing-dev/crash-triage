@@ -1,0 +1,52 @@
+{
+ "id": "1341235_2023-10-16",
+ "cik": "1341235",
+ "name": "Aldeyra Therapeutics, Inc.",
+ "date": "2023-10-16",
+ "asof": "2023-11-15",
+ "final": true,
+ "price": {
+  "date": "2023-11-15",
+  "adj_close": 2.52
+ },
+ "balance": {
+  "end": "2023-09-30",
+  "cash": 143334888,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0000950170-23-058829"
+ },
+ "burn": {
+  "end": "2023-09-30",
+  "months": 8.9,
+  "per_month": -3449855.6247058823
+ },
+ "shares": {
+  "end": "2023-10-31",
+  "shares": 58822083,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 1,
+  "bought": 0,
+  "sold": 4453308,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "aldeyra therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05717920",
+    "drugs": [
+     "ADX-629 (Open-label)"
+    ]
+   }
+  ]
+ }
+}

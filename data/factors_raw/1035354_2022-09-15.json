@@ -1,0 +1,61 @@
+{
+ "id": "1035354_2022-09-15",
+ "cik": "1035354",
+ "name": "Eloxx Pharmaceuticals, Inc.",
+ "date": "2022-09-15",
+ "asof": "2022-10-15",
+ "final": true,
+ "price": {
+  "date": "2022-10-17",
+  "adj_close": 70.4
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 30048000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001564590-22-029339"
+ },
+ "burn": {
+  "end": "2022-06-30",
+  "months": 5.9,
+  "per_month": -3253359.5555555555
+ },
+ "shares": {
+  "end": "2022-08-10",
+  "shares": 86656221,
+  "split_factor": 440.002,
+  "splits_after": [
+   [
+    "2023-08-11",
+    40.0
+   ],
+   [
+    "2026-06-01",
+    11.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "eloxx pharmaceuticals",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04135495",
+    "drugs": [
+     "ELX-02",
+     "Ivacaftor"
+    ]
+   }
+  ]
+ }
+}

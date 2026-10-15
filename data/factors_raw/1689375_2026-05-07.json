@@ -1,0 +1,59 @@
+{
+ "id": "1689375_2026-05-07",
+ "cik": "1689375",
+ "name": "Entrada Therapeutics, Inc.",
+ "date": "2026-05-07",
+ "asof": "2026-06-06",
+ "final": true,
+ "price": {
+  "date": "2026-06-08",
+  "adj_close": 6.26
+ },
+ "balance": {
+  "end": "2026-03-31",
+  "cash": 76444000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001689375-26-000028"
+ },
+ "burn": {
+  "end": "2026-03-31",
+  "months": 2.9,
+  "per_month": -14260626.966292135
+ },
+ "shares": {
+  "end": "2026-04-30",
+  "shares": 38820616,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 1,
+  "bought": 29316,
+  "sold": 0,
+  "buyers": [
+   "Zeiher Bernhardt G"
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "entrada therapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT07038824",
+    "drugs": [
+     "ENTR-601-45"
+    ]
+   },
+   {
+    "nct": "NCT07037862",
+    "drugs": [
+     "ENTR-601-44"
+    ]
+   }
+  ]
+ }
+}

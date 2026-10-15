@@ -1,0 +1,57 @@
+{
+ "id": "1580063_2021-08-20",
+ "cik": "1580063",
+ "name": "BIORA THERAPEUTICS, INC.",
+ "date": "2021-08-20",
+ "asof": "2021-09-19",
+ "final": true,
+ "price": {
+  "date": "2021-09-20",
+  "adj_close": 236.15
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 65991000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-21-001377"
+ },
+ "burn": {
+  "end": "2021-06-30",
+  "months": 5.9,
+  "per_month": -14247611.111111112
+ },
+ "shares": {
+  "end": "2021-08-05",
+  "shares": 79406317,
+  "split_factor": 0.25,
+  "splits_after": [
+   [
+    "2022-08-15",
+    0.0
+   ],
+   [
+    "2023-11-13",
+    25.0
+   ],
+   [
+    "2024-11-14",
+    10.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "biora therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

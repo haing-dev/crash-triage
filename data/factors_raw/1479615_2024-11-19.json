@@ -1,0 +1,47 @@
+{
+ "id": "1479615_2024-11-19",
+ "cik": "1479615",
+ "name": "Silence Therapeutics plc",
+ "date": "2024-11-19",
+ "asof": "2024-12-19",
+ "final": true,
+ "price": {
+  "date": "2024-12-19",
+  "adj_close": 6.34
+ },
+ "balance": {
+  "end": "2023-12-31",
+  "cash": 68800000,
+  "parts": [
+   "ifrs CashAndCashEquivalents"
+  ],
+  "accn": "0000950170-24-030519"
+ },
+ "burn": null,
+ "shares": {
+  "end": "2023-12-31",
+  "shares": 118846966,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "silence therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05499013",
+    "drugs": [
+     "SLN124"
+    ]
+   }
+  ]
+ }
+}

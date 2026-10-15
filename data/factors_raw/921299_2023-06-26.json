@@ -1,0 +1,63 @@
+{
+ "id": "921299_2023-06-26",
+ "cik": "921299",
+ "name": "KYNTRA BIO, INC.",
+ "date": "2023-06-26",
+ "asof": "2023-07-26",
+ "final": true,
+ "price": {
+  "date": "2023-07-26",
+  "adj_close": 46.75
+ },
+ "balance": {
+  "end": "2023-03-31",
+  "cash": 355949000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-23-018814"
+ },
+ "burn": {
+  "end": "2023-03-31",
+  "months": 2.9,
+  "per_month": -34746404.94382022
+ },
+ "shares": {
+  "end": "2023-04-30",
+  "shares": 97582416,
+  "split_factor": 25.003,
+  "splits_after": [
+   [
+    "2025-08-11",
+    25.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 3,
+  "bought": 0,
+  "sold": 23719,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "kyntra bio",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03941093",
+    "drugs": [
+     "Pamrevlumab + Gemcitabine + Nab-paclitaxel or Pamrevlumab + FOLFIRINOX"
+    ]
+   },
+   {
+    "nct": "NCT04419558",
+    "drugs": [
+     "Pamrevlumab"
+    ]
+   }
+  ]
+ }
+}

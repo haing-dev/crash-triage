@@ -1,0 +1,62 @@
+{
+ "id": "894158_2024-09-25",
+ "cik": "894158",
+ "name": "Theriva Biologics, Inc.",
+ "date": "2024-09-25",
+ "asof": "2024-10-25",
+ "final": true,
+ "price": {
+  "date": "2024-10-25",
+  "adj_close": 1.53
+ },
+ "balance": {
+  "end": "2024-06-30",
+  "cash": 16593000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001410578-24-001342"
+ },
+ "burn": {
+  "end": "2024-06-30",
+  "months": 5.9,
+  "per_month": -1401417.2375690609
+ },
+ "shares": {
+  "end": "2024-08-09",
+  "shares": 25131230,
+  "split_factor": 25.0,
+  "splits_after": [
+   [
+    "2024-11-12",
+    25.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "theriva biologics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05673811",
+    "drugs": [
+     "Nab-paclitaxel",
+     "Gemcitabine",
+     "VCN-01"
+    ]
+   },
+   {
+    "nct": "NCT04692181",
+    "drugs": []
+   }
+  ]
+ }
+}

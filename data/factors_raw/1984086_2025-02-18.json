@@ -1,0 +1,51 @@
+{
+ "id": "1984086_2025-02-18",
+ "cik": "1984086",
+ "name": "Septerna, Inc.",
+ "date": "2025-02-18",
+ "asof": "2025-03-20",
+ "final": true,
+ "price": {
+  "date": "2025-03-20",
+  "adj_close": 6.15
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 137512000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent",
+   "MarketableSecuritiesNoncurrent"
+  ],
+  "accn": "0000950170-24-129274"
+ },
+ "burn": {
+  "end": "2024-09-30",
+  "months": 9.0,
+  "per_month": -5186173.186813187
+ },
+ "shares": {
+  "end": "2024-11-11",
+  "shares": 44402742,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 7,
+  "bought": 7214853,
+  "sold": 0,
+  "buyers": [
+   "Ezekowitz Alan",
+   "Finer Jeffrey",
+   "Labrucherie Gil M",
+   "Third Rock Ventures VI, L.P."
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "septerna",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

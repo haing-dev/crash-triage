@@ -1,0 +1,44 @@
+{
+ "id": "1815974_2026-02-06",
+ "cik": "1815974",
+ "name": "Anebulo Pharmaceuticals, Inc.",
+ "date": "2026-02-06",
+ "asof": "2026-03-08",
+ "final": true,
+ "price": {
+  "date": "2026-03-09",
+  "adj_close": 0.47234
+ },
+ "balance": {
+  "end": "2025-12-31",
+  "cash": 9041570,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001493152-26-006446"
+ },
+ "burn": {
+  "end": "2025-12-31",
+  "months": 6.0,
+  "per_month": -430198.5396721312
+ },
+ "shares": {
+  "end": "2026-02-06",
+  "shares": 40784731,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "anebulo pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

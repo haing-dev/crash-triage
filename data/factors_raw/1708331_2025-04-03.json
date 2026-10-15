@@ -1,0 +1,44 @@
+{
+ "id": "1708331_2025-04-03",
+ "cik": "1708331",
+ "name": "Virpax Pharmaceuticals, Inc.",
+ "date": "2025-04-03",
+ "asof": "2025-05-03",
+ "final": true,
+ "price": {
+  "date": "2025-05-05",
+  "adj_close": 0.29
+ },
+ "balance": {
+  "end": "2024-12-31",
+  "cash": 1513057,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0001731122-25-000316"
+ },
+ "burn": {
+  "end": "2024-12-31",
+  "months": 12.0,
+  "per_month": -1393810.0712328767
+ },
+ "shares": {
+  "end": "2025-02-26",
+  "shares": 26562581,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "virpax pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

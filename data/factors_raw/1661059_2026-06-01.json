@@ -1,0 +1,44 @@
+{
+ "id": "1661059_2026-06-01",
+ "cik": "1661059",
+ "name": "NextCure, Inc.",
+ "date": "2026-06-01",
+ "asof": "2026-07-01",
+ "final": true,
+ "price": {
+  "date": "2026-07-01",
+  "adj_close": 1.95
+ },
+ "balance": {
+  "end": "2026-03-31",
+  "cash": 15167000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001104659-26-057187"
+ },
+ "burn": {
+  "end": "2026-03-31",
+  "months": 2.9,
+  "per_month": -4570446.292134832
+ },
+ "shares": {
+  "end": "2026-05-01",
+  "shares": 3612096,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 6,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "nextcure",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "id": "1488039_2026-06-11",
+ "cik": "1488039",
+ "name": "ATOSSA THERAPEUTICS, INC.",
+ "date": "2026-06-11",
+ "asof": "2026-07-11",
+ "final": true,
+ "price": {
+  "date": "2026-07-13",
+  "adj_close": 2.4
+ },
+ "balance": {
+  "end": "2026-03-31",
+  "cash": 31718000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001193125-26-213423"
+ },
+ "burn": {
+  "end": "2026-03-31",
+  "months": 2.9,
+  "per_month": -3276917.303370787
+ },
+ "shares": {
+  "end": "2026-05-01",
+  "shares": 8611361,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "atossa therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05607004",
+    "drugs": [
+     "(Z)-endoxifen",
+     "goserelin"
+    ]
+   }
+  ]
+ }
+}

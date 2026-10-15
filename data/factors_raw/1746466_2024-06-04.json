@@ -1,0 +1,52 @@
+{
+ "id": "1746466_2024-06-04",
+ "cik": "1746466",
+ "name": "Equillium, Inc.",
+ "date": "2024-06-04",
+ "asof": "2024-07-04",
+ "final": true,
+ "price": {
+  "date": "2024-07-05",
+  "adj_close": 0.68000001
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 32285000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0000950170-24-056960"
+ },
+ "burn": {
+  "end": "2024-03-31",
+  "months": 3.0,
+  "per_month": -2976355.5555555555
+ },
+ "shares": {
+  "end": "2024-05-08",
+  "shares": 35254752,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "equillium",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05263999",
+    "drugs": [
+     "Itolizumab"
+    ]
+   }
+  ]
+ }
+}

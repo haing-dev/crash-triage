@@ -1,0 +1,46 @@
+{
+ "id": "1101026_2026-04-02",
+ "cik": "1101026",
+ "name": "Zivo Bioscience, Inc.",
+ "date": "2026-04-02",
+ "asof": "2026-05-02",
+ "final": true,
+ "price": {
+  "date": "2026-05-04",
+  "adj_close": 3.55
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 57222,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0001654954-25-013095"
+ },
+ "burn": {
+  "end": "2025-09-30",
+  "months": 8.9,
+  "per_month": -243207.09470588234
+ },
+ "shares": {
+  "end": "2025-11-09",
+  "shares": 3888595,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 1,
+  "bought": 200000,
+  "sold": 0,
+  "buyers": [
+   "STROME MARK E"
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "zivo bioscience",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

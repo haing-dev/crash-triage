@@ -1,0 +1,49 @@
+{
+ "id": "1191070_2024-12-26",
+ "cik": "1191070",
+ "name": "Neuphoria Therapeutics Inc.",
+ "date": "2024-12-26",
+ "asof": "2025-01-25",
+ "final": true,
+ "price": {
+  "date": "2025-01-27",
+  "adj_close": 4.67
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 8082410,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-24-127032"
+ },
+ "burn": {
+  "end": "2024-09-30",
+  "months": 3.0,
+  "per_month": -1482883.930989011
+ },
+ "shares": {
+  "end": "2024-10-31",
+  "shares": 3514922864,
+  "split_factor": 2160.001,
+  "splits_after": [
+   [
+    "2025-09-29",
+    2160.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "neuphoria therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

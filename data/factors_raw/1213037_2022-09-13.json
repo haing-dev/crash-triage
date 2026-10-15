@@ -1,0 +1,78 @@
+{
+ "id": "1213037_2022-09-13",
+ "cik": "1213037",
+ "name": "Cardiff Oncology, Inc.",
+ "date": "2022-09-13",
+ "asof": "2022-10-13",
+ "final": true,
+ "price": {
+  "date": "2022-10-13",
+  "adj_close": 1.62
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 223047000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0001628280-22-021044"
+ },
+ "burn": {
+  "end": "2022-06-30",
+  "months": 5.9,
+  "per_month": -2865418.666666667
+ },
+ "shares": {
+  "end": "2022-07-28",
+  "shares": 43334919,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 5,
+  "bought": 365136,
+  "sold": 0,
+  "buyers": [
+   "Armitage James O",
+   "Levine James E.",
+   "PACE GARY W",
+   "TANNENBAUM RENEE P",
+   "White Lale"
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "cardiff oncology",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03829410",
+    "drugs": [
+     "Onvansertib",
+     "Bevacizumab",
+     "FOLFIRI"
+    ]
+   },
+   {
+    "nct": "NCT03414034",
+    "drugs": [
+     "Onvansertib",
+     "Abiraterone",
+     "Prednisone"
+    ]
+   },
+   {
+    "nct": "NCT04752696",
+    "drugs": [
+     "Onvansertib",
+     "Nanoliposomal irinotecan",
+     "Leucovorin"
+    ]
+   }
+  ]
+ }
+}

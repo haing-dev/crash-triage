@@ -1,0 +1,49 @@
+{
+ "id": "1539029_2025-07-18",
+ "cik": "1539029",
+ "name": "Clearside Biomedical, Inc.",
+ "date": "2025-07-18",
+ "asof": "2025-08-17",
+ "final": true,
+ "price": {
+  "date": "2025-08-18",
+  "adj_close": 6.3885
+ },
+ "balance": {
+  "end": "2025-06-30",
+  "cash": 9376000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-25-105812"
+ },
+ "burn": {
+  "end": "2025-06-30",
+  "months": 5.9,
+  "per_month": -1785644.2222222222
+ },
+ "shares": {
+  "end": "2025-08-08",
+  "shares": 78510318,
+  "split_factor": 15.0,
+  "splits_after": [
+   [
+    "2025-11-14",
+    15.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "clearside biomedical",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

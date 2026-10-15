@@ -1,0 +1,87 @@
+{
+ "id": "1826892_2023-01-10",
+ "cik": "1826892",
+ "name": "BioAtla, Inc.",
+ "date": "2023-01-10",
+ "asof": "2023-02-09",
+ "final": true,
+ "price": {
+  "date": "2023-02-09",
+  "adj_close": 197.5
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 178120000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-22-022036"
+ },
+ "burn": {
+  "end": "2022-09-30",
+  "months": 8.9,
+  "per_month": -7394346.029411765
+ },
+ "shares": {
+  "end": "2021-08-13",
+  "shares": 32315301,
+  "split_factor": 50.0,
+  "splits_after": [
+   [
+    "2026-05-15",
+    50.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 5,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "bioatla",
+  "other_trials": 5,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03425279",
+    "drugs": [
+     "CAB-AXL-ADC",
+     "PD-1 inhibitor"
+    ]
+   },
+   {
+    "nct": "NCT05180799",
+    "drugs": [
+     "BA3071",
+     "Nivolumab",
+     "Pembrolizumab"
+    ]
+   },
+   {
+    "nct": "NCT05271604",
+    "drugs": [
+     "Ozuriftamab Vedotin",
+     "Pembrolizumab",
+     "Evalstotug (BA3071)"
+    ]
+   },
+   {
+    "nct": "NCT04681131",
+    "drugs": [
+     "CAB-AXL-ADC",
+     "PD-1 inhibitor"
+    ]
+   },
+   {
+    "nct": "NCT03504488",
+    "drugs": [
+     "CAB-ROR2-ADC",
+     "PD-1 inhibitor"
+    ]
+   }
+  ]
+ }
+}

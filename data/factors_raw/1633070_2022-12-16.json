@@ -1,0 +1,52 @@
+{
+ "id": "1633070_2022-12-16",
+ "cik": "1633070",
+ "name": "Axcella Health Inc.",
+ "date": "2022-12-16",
+ "asof": "2023-01-15",
+ "final": true,
+ "price": {
+  "date": "2023-01-17",
+  "adj_close": 11.15
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 25425000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001633070-22-000028"
+ },
+ "burn": {
+  "end": "2022-09-30",
+  "months": 8.9,
+  "per_month": -6048830.882352941
+ },
+ "shares": {
+  "end": "2022-10-28",
+  "shares": 73554837,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "axcella health",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04880187",
+    "drugs": [
+     "AXA1125"
+    ]
+   }
+  ]
+ }
+}

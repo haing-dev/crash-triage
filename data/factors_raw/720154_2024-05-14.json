@@ -1,0 +1,44 @@
+{
+ "id": "720154_2024-05-14",
+ "cik": "720154",
+ "name": "Inotiv, Inc.",
+ "date": "2024-05-14",
+ "asof": "2024-06-13",
+ "final": true,
+ "price": {
+  "date": "2024-06-13",
+  "adj_close": 1.72
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 32695000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001628280-24-023684"
+ },
+ "burn": {
+  "end": "2024-03-31",
+  "months": 6.0,
+  "per_month": 1734912.7472527474
+ },
+ "shares": {
+  "end": "2024-04-30",
+  "shares": 25971450,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "inotiv",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

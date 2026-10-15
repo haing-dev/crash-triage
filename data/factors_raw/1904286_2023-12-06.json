@@ -1,0 +1,44 @@
+{
+ "id": "1904286_2023-12-06",
+ "cik": "1904286",
+ "name": "MIRA PHARMACEUTICALS, INC.",
+ "date": "2023-12-06",
+ "asof": "2024-01-05",
+ "final": true,
+ "price": {
+  "date": "2024-01-05",
+  "adj_close": 1.13
+ },
+ "balance": {
+  "end": "2023-09-30",
+  "cash": 5868330,
+  "parts": [
+   "Cash"
+  ],
+  "accn": "0001493152-23-040517"
+ },
+ "burn": {
+  "end": "2023-09-30",
+  "months": 8.9,
+  "per_month": -391398.86294117646
+ },
+ "shares": {
+  "end": "2023-11-13",
+  "shares": 14780885,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 1,
+  "bought": 0,
+  "sold": 726088,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "mira pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

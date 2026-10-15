@@ -1,0 +1,53 @@
+{
+ "id": "1733861_2023-11-16",
+ "cik": "1733861",
+ "name": "REST EZ Inc.",
+ "date": "2023-11-16",
+ "asof": "2023-12-16",
+ "final": true,
+ "price": {
+  "date": "2023-12-18",
+  "adj_close": 70.0
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 78,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001185185-23-001008"
+ },
+ "burn": {
+  "end": "2023-06-30",
+  "months": 3.0,
+  "per_month": -1287.273777777778
+ },
+ "shares": {
+  "end": "2023-09-15",
+  "shares": 20000000,
+  "split_factor": 1.0,
+  "splits_after": [
+   [
+    "2024-01-16",
+    1000.0
+   ],
+   [
+    "2025-12-23",
+    0.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "rest ez",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

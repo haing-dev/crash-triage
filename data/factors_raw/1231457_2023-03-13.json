@@ -1,0 +1,37 @@
+{
+ "id": "1231457_2023-03-13",
+ "cik": "1231457",
+ "name": "GENELUX Corp",
+ "date": "2023-03-13",
+ "asof": "2023-04-12",
+ "final": true,
+ "price": {
+  "date": "2023-04-12",
+  "adj_close": 29.68
+ },
+ "balance": null,
+ "burn": null,
+ "shares": null,
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "genelux",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05281471",
+    "drugs": [
+     "olvimulogene nanivacirepvec",
+     "Platinum chemotherapy: carboplatin (preferred) or cisplatin",
+     "Non-platinum chemotherapy: Physician's Choice of gemcitabine, taxane (paclitaxel, docetaxel or nab-paclitaxel) or pegylated liposomal doxorubicin"
+    ]
+   }
+  ]
+ }
+}

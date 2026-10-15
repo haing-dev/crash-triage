@@ -1,0 +1,62 @@
+{
+ "id": "1557376_2022-12-09",
+ "cik": "1557376",
+ "name": "Zeo ScientifiX, Inc.",
+ "date": "2022-12-09",
+ "asof": "2023-01-08",
+ "final": true,
+ "price": {
+  "date": "2023-01-09",
+  "adj_close": 3.82
+ },
+ "balance": {
+  "end": "2022-07-31",
+  "cash": 74665,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0001829126-22-016867"
+ },
+ "burn": {
+  "end": "2022-07-31",
+  "months": 8.9,
+  "per_month": -157598.9592647059
+ },
+ "shares": {
+  "end": "2022-09-13",
+  "shares": 1476126390,
+  "split_factor": 200.0,
+  "splits_after": [
+   [
+    "2024-09-16",
+    200.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "zeo scientifix",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04384445",
+    "drugs": [
+     "Zofin"
+    ]
+   },
+   {
+    "nct": "NCT05228899",
+    "drugs": [
+     "Zofin"
+    ]
+   }
+  ]
+ }
+}

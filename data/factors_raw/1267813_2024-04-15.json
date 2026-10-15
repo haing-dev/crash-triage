@@ -1,0 +1,71 @@
+{
+ "id": "1267813_2024-04-15",
+ "cik": "1267813",
+ "name": "MARINUS PHARMACEUTICALS, INC.",
+ "date": "2024-04-15",
+ "asof": "2024-05-15",
+ "final": true,
+ "price": {
+  "date": "2024-05-15",
+  "adj_close": 1.33
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 113253000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001558370-24-007187"
+ },
+ "burn": {
+  "end": "2024-03-31",
+  "months": 3.0,
+  "per_month": -12670142.666666668
+ },
+ "shares": {
+  "end": "2024-05-03",
+  "shares": 54933774,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "marinus pharmaceuticals",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05604170",
+    "drugs": [
+     "Ganaxolone"
+    ]
+   },
+   {
+    "nct": "NCT05757544",
+    "drugs": [
+     "IV Ganaxolone"
+    ]
+   },
+   {
+    "nct": "NCT05814523",
+    "drugs": [
+     "Ganaxolone",
+     "Standard of care"
+    ]
+   },
+   {
+    "nct": "NCT05323734",
+    "drugs": [
+     "Ganaxolone"
+    ]
+   }
+  ]
+ }
+}

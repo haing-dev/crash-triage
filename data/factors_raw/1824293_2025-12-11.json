@@ -1,0 +1,49 @@
+{
+ "id": "1824293_2025-12-11",
+ "cik": "1824293",
+ "name": "GRI Bio, Inc.",
+ "date": "2025-12-11",
+ "asof": "2026-01-10",
+ "final": true,
+ "price": {
+  "date": "2026-01-12",
+  "adj_close": 6.776
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 4055000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001824293-25-000151"
+ },
+ "burn": {
+  "end": "2025-09-30",
+  "months": 8.9,
+  "per_month": -807443.3823529412
+ },
+ "shares": {
+  "end": "2025-11-13",
+  "shares": 3268727,
+  "split_factor": 27.994,
+  "splits_after": [
+   [
+    "2026-01-30",
+    27.99
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "gri bio",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

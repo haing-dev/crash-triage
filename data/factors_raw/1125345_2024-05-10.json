@@ -1,0 +1,61 @@
+{
+ "id": "1125345_2024-05-10",
+ "cik": "1125345",
+ "name": "MACROGENICS INC",
+ "date": "2024-05-10",
+ "asof": "2024-06-09",
+ "final": true,
+ "price": {
+  "date": "2024-06-10",
+  "adj_close": 4.58
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 80355000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001125345-24-000088"
+ },
+ "burn": {
+  "end": "2024-03-31",
+  "months": 3.0,
+  "per_month": -15437476.88888889
+ },
+ "shares": {
+  "end": "2024-05-03",
+  "shares": 62633460,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 18,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "macrogenics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05551117",
+    "drugs": [
+     "vobramitamab duocarmazine 2.0 mg (Arm A)",
+     "vobramitamab duocarmazine 2.7 mg (Arm B)",
+     "vobramitamab duocarmazine"
+    ]
+   },
+   {
+    "nct": "NCT05848011",
+    "drugs": [
+     "lorigerlimab",
+     "docetaxel",
+     "Prednisone"
+    ]
+   }
+  ]
+ }
+}

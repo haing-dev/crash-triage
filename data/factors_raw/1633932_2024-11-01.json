@@ -1,0 +1,45 @@
+{
+ "id": "1633932_2024-11-01",
+ "cik": "1633932",
+ "name": "ESSA Pharma Inc.",
+ "date": "2024-11-01",
+ "asof": "2024-12-01",
+ "final": true,
+ "price": {
+  "date": "2024-12-02",
+  "adj_close": 0.554247
+ },
+ "balance": {
+  "end": "2024-06-30",
+  "cash": 130694452,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001558370-24-010767"
+ },
+ "burn": {
+  "end": "2024-06-30",
+  "months": 9.0,
+  "per_month": -2157567.687179487
+ },
+ "shares": {
+  "end": "2024-08-05",
+  "shares": 44368959,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 1,
+  "bought": 0,
+  "sold": 12018409,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "essa pharma",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

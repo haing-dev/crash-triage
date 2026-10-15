@@ -1,0 +1,58 @@
+{
+ "id": "1752828_2022-06-06",
+ "cik": "1752828",
+ "name": "Celularity Inc",
+ "date": "2022-06-06",
+ "asof": "2022-07-06",
+ "final": true,
+ "price": {
+  "date": "2022-07-06",
+  "adj_close": 39.8
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 48039000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001564590-22-020422"
+ },
+ "burn": {
+  "end": "2022-03-31",
+  "months": 2.9,
+  "per_month": -11715295.73033708
+ },
+ "shares": {
+  "end": "2022-05-12",
+  "shares": 138311074,
+  "split_factor": 10.0,
+  "splits_after": [
+   [
+    "2024-07-30",
+    10.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "celularity",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05207722",
+    "drugs": [
+     "CYNK-101",
+     "Pembrolizumab",
+     "Trastuzumab"
+    ]
+   }
+  ]
+ }
+}

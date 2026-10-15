@@ -1,0 +1,60 @@
+{
+ "id": "1615219_2025-11-11",
+ "cik": "1615219",
+ "name": "Decoy Therapeutics Inc.",
+ "date": "2025-11-11",
+ "asof": "2025-12-11",
+ "final": true,
+ "price": {
+  "date": "2025-12-11",
+  "adj_close": 9.72
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 4809680,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001615219-25-000164"
+ },
+ "burn": {
+  "end": "2025-09-30",
+  "months": 8.9,
+  "per_month": -413032.75
+ },
+ "shares": {
+  "end": "2025-11-12",
+  "shares": 5862178,
+  "split_factor": 504731.224,
+  "splits_after": [
+   [
+    "2026-03-31",
+    12.0
+   ],
+   [
+    "2026-05-08",
+    233.66
+   ],
+   [
+    "2026-08-12",
+    180.01
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 2,
+  "bought": 19740,
+  "sold": 0,
+  "buyers": [
+   "HANISH ARNOLD C",
+   "Rosenblum Mark J"
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "decoy therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "id": "1719406_2022-05-26",
+ "cik": "1719406",
+ "name": "NRX Pharmaceuticals, Inc.",
+ "date": "2022-05-26",
+ "asof": "2022-06-25",
+ "final": true,
+ "price": {
+  "date": "2022-06-27",
+  "adj_close": 6.12
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 40202000,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0001558370-22-008948"
+ },
+ "burn": {
+  "end": "2022-03-31",
+  "months": 2.9,
+  "per_month": -3550193.2584269666
+ },
+ "shares": {
+  "end": "2022-05-11",
+  "shares": 66641314,
+  "split_factor": 4.111,
+  "splits_after": [
+   [
+    "2024-05-14",
+    10.15
+   ],
+   [
+    "2025-05-15",
+    0.41
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 2,
+  "bought": 5800000,
+  "sold": 303910,
+  "buyers": [
+   "Javitt Jonathan C"
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "nrx pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

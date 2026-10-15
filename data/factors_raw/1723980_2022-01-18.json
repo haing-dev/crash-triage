@@ -1,0 +1,57 @@
+{
+ "id": "1723980_2022-01-18",
+ "cik": "1723980",
+ "name": "China SXT Pharmaceuticals, Inc.",
+ "date": "2022-01-18",
+ "asof": "2022-02-17",
+ "final": true,
+ "price": {
+  "date": "2022-02-17",
+  "adj_close": 716.25
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 31321,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001213900-22-002091"
+ },
+ "burn": {
+  "end": "2021-09-30",
+  "months": 6.0,
+  "per_month": -52241.22835164835
+ },
+ "shares": {
+  "end": "2021-03-31",
+  "shares": 15525094,
+  "split_factor": 29998.922,
+  "splits_after": [
+   [
+    "2024-04-05",
+    25.0
+   ],
+   [
+    "2025-07-31",
+    8.0
+   ],
+   [
+    "2026-07-01",
+    149.99
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "china sxt pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

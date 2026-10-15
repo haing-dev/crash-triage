@@ -1,0 +1,58 @@
+{
+ "id": "1853816_2021-11-19",
+ "cik": "1853816",
+ "name": "Dermata Therapeutics, Inc.",
+ "date": "2021-11-19",
+ "asof": "2021-12-19",
+ "final": true,
+ "price": {
+  "date": "2021-12-20",
+  "adj_close": 5544.0
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 12603341,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001654954-21-012206"
+ },
+ "burn": {
+  "end": "2021-09-30",
+  "months": 8.9,
+  "per_month": 435278.90632352943
+ },
+ "shares": {
+  "end": "2021-11-10",
+  "shares": 8328629,
+  "split_factor": 10.0,
+  "splits_after": [
+   [
+    "2026-05-13",
+    10.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 1,
+  "bought": 48000,
+  "sold": 0,
+  "buyers": [
+   "PROEHL GERALD T"
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "dermata therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05108025",
+    "drugs": [
+     "Topical Powder"
+    ]
+   }
+  ]
+ }
+}

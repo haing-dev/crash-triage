@@ -1,0 +1,63 @@
+{
+ "id": "1614067_2022-09-26",
+ "cik": "1614067",
+ "name": "Aridis Pharmaceuticals, Inc.",
+ "date": "2022-09-26",
+ "asof": "2022-10-26",
+ "final": true,
+ "price": {
+  "date": "2022-10-26",
+  "adj_close": 0.96
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 6317000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001493152-22-023089"
+ },
+ "burn": {
+  "end": "2022-06-30",
+  "months": 5.9,
+  "per_month": -2757356.6666666665
+ },
+ "shares": {
+  "end": "2022-07-29",
+  "shares": 17701592,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "aridis pharmaceuticals",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03669614",
+    "drugs": [
+     "Inhaled AR-501"
+    ]
+   },
+   {
+    "nct": "NCT05331885",
+    "drugs": [
+     "Suvratoxumab"
+    ]
+   },
+   {
+    "nct": "NCT03816956",
+    "drugs": [
+     "AR-301"
+    ]
+   }
+  ]
+ }
+}

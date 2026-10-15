@@ -1,0 +1,50 @@
+{
+ "id": "725363_2021-06-28",
+ "cik": "725363",
+ "name": "CEL SCI CORP",
+ "date": "2021-06-28",
+ "asof": "2021-07-28",
+ "final": true,
+ "price": {
+  "date": "2021-07-28",
+  "adj_close": 249.0
+ },
+ "balance": {
+  "end": "2021-03-31",
+  "cash": 17582729,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001654954-21-005882"
+ },
+ "burn": {
+  "end": "2021-03-31",
+  "months": 5.9,
+  "per_month": -1477348.2198895027
+ },
+ "shares": {
+  "end": "2021-05-11",
+  "shares": 40906593,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 8,
+  "bought": 257971,
+  "sold": 0,
+  "buyers": [
+   "BAILLAVOINE BRUNO JEAN-MARIE",
+   "KERSTEN GEERT R",
+   "Watson Robert Eugene",
+   "YOUNG PETER R"
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "cel sci",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

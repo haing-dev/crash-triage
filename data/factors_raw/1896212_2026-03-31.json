@@ -1,0 +1,53 @@
+{
+ "id": "1896212_2026-03-31",
+ "cik": "1896212",
+ "name": "CDT Equity Inc.",
+ "date": "2026-03-31",
+ "asof": "2026-04-30",
+ "final": true,
+ "price": {
+  "date": "2026-04-30",
+  "adj_close": 581.25
+ },
+ "balance": {
+  "end": "2025-12-31",
+  "cash": 1509000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001493152-26-016858"
+ },
+ "burn": {
+  "end": "2025-12-31",
+  "months": 12.0,
+  "per_month": -1300808.2417582418
+ },
+ "shares": {
+  "end": "2026-04-15",
+  "shares": 4858417,
+  "split_factor": 20046.628,
+  "splits_after": [
+   [
+    "2026-08-12",
+    2004.66
+   ],
+   [
+    "2026-09-08",
+    10.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "cdt equity",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

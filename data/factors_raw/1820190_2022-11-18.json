@@ -1,0 +1,88 @@
+{
+ "id": "1820190_2022-11-18",
+ "cik": "1820190",
+ "name": "Scilex Holding Co",
+ "date": "2022-11-18",
+ "asof": "2022-12-18",
+ "final": true,
+ "price": {
+  "date": "2022-12-19",
+  "adj_close": 67.55915
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 34961,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0001213900-22-069366"
+ },
+ "burn": {
+  "end": "2022-09-30",
+  "months": 8.9,
+  "per_month": -216880.63544117648
+ },
+ "shares": {
+  "end": "2022-11-04",
+  "shares": 13176395,
+  "split_factor": 4764574.233,
+  "splits_after": [
+   [
+    "2023-03-07",
+    126.61
+   ],
+   [
+    "2023-05-12",
+    0.13
+   ],
+   [
+    "2024-03-12",
+    0.0
+   ],
+   [
+    "2024-05-13",
+    1000.0
+   ],
+   [
+    "2025-05-14",
+    35.0
+   ],
+   [
+    "2025-08-13",
+    27.87
+   ],
+   [
+    "2025-11-14",
+    22.83
+   ],
+   [
+    "2026-04-10",
+    13034.09
+   ],
+   [
+    "2026-05-20",
+    0.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 4,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "scilex",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05096494",
+    "drugs": [
+     "SP-103"
+    ]
+   }
+  ]
+ }
+}

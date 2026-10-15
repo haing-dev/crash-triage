@@ -1,0 +1,50 @@
+{
+ "id": "1733294_2021-12-14",
+ "cik": "1733294",
+ "name": "Generation Bio Co.",
+ "date": "2021-12-14",
+ "asof": "2022-01-13",
+ "final": true,
+ "price": {
+  "date": "2022-01-13",
+  "adj_close": 66.0
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 398363000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001558370-21-015517"
+ },
+ "burn": {
+  "end": "2021-09-30",
+  "months": 8.9,
+  "per_month": -7947861.617647058
+ },
+ "shares": {
+  "end": "2021-10-29",
+  "shares": 56909764,
+  "split_factor": 10.0,
+  "splits_after": [
+   [
+    "2025-08-12",
+    10.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "generation bio",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

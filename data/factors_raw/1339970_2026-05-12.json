@@ -1,0 +1,47 @@
+{
+ "id": "1339970_2026-05-12",
+ "cik": "1339970",
+ "name": "aTYR PHARMA INC",
+ "date": "2026-05-12",
+ "asof": "2026-06-11",
+ "final": true,
+ "price": {
+  "date": "2026-06-11",
+  "adj_close": 0.47499999
+ },
+ "balance": {
+  "end": "2026-03-31",
+  "cash": 66513000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001339970-26-000033"
+ },
+ "burn": {
+  "end": "2026-03-31",
+  "months": 2.9,
+  "per_month": -4281095.2808988765
+ },
+ "shares": {
+  "end": "2026-05-11",
+  "shares": 98051212,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 7,
+  "bought": 49630,
+  "sold": 0,
+  "buyers": [
+   "SCHIMMEL PAUL"
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "atyr pharma",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

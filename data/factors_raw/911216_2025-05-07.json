@@ -1,0 +1,51 @@
+{
+ "id": "911216_2025-05-07",
+ "cik": "911216",
+ "name": "PALATIN TECHNOLOGIES INC",
+ "date": "2025-05-07",
+ "asof": "2025-06-06",
+ "final": true,
+ "price": {
+  "date": "2025-06-06",
+  "adj_close": 5.0
+ },
+ "balance": {
+  "end": "2025-03-31",
+  "cash": 2520602,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001654954-25-005610"
+ },
+ "burn": {
+  "end": "2025-03-31",
+  "months": 9.0,
+  "per_month": -1919793.3765567767
+ },
+ "shares": {
+  "end": "2025-05-14",
+  "shares": 46479861,
+  "split_factor": 49.999,
+  "splits_after": [
+   [
+    "2025-11-14",
+    50.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 1,
+  "bought": 10180,
+  "sold": 0,
+  "buyers": [
+   "DEVEER ROBERT K JR"
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "palatin technologies",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "id": "1430306_2025-02-03",
+ "cik": "1430306",
+ "name": "Tonix Pharmaceuticals Holding Corp.",
+ "date": "2025-02-03",
+ "asof": "2025-03-05",
+ "final": true,
+ "price": {
+  "date": "2025-03-05",
+  "adj_close": 10.96
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 28233000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001999371-24-014569"
+ },
+ "burn": {
+  "end": "2024-09-30",
+  "months": 9.0,
+  "per_month": -5161977.28937729
+ },
+ "shares": {
+  "end": "2024-11-12",
+  "shares": 186894225,
+  "split_factor": 621167282.135,
+  "splits_after": [
+   [
+    "2025-03-18",
+    2150.07
+   ],
+   [
+    "2025-05-12",
+    2900.35
+   ],
+   [
+    "2025-08-11",
+    99.61
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 9,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "tonix pharmaceuticals",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06045793",
+    "drugs": [
+     "TNX-1300 (Injection)"
+    ]
+   }
+  ]
+ }
+}

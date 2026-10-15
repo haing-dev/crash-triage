@@ -1,0 +1,56 @@
+{
+ "id": "1742927_2024-12-17",
+ "cik": "1742927",
+ "name": "REVIVA PHARMACEUTICALS HOLDINGS, INC.",
+ "date": "2024-12-17",
+ "asof": "2025-01-16",
+ "final": true,
+ "price": {
+  "date": "2025-01-16",
+  "adj_close": 35.6
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 5558817,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001437749-24-035375"
+ },
+ "burn": {
+  "end": "2024-09-30",
+  "months": 9.0,
+  "per_month": -2725485.986666667
+ },
+ "shares": {
+  "end": "2024-11-12",
+  "shares": 33441199,
+  "split_factor": 19.64,
+  "splits_after": [
+   [
+    "2026-03-30",
+    19.64
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "reviva pharmaceuticals",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05184335",
+    "drugs": [
+     "Brilaroxazine"
+    ]
+   }
+  ]
+ }
+}

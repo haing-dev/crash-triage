@@ -1,0 +1,44 @@
+{
+ "id": "1694665_2023-10-17",
+ "cik": "1694665",
+ "name": "Evelo Biosciences, Inc.",
+ "date": "2023-10-17",
+ "asof": "2023-11-16",
+ "final": true,
+ "price": {
+  "date": "2023-11-16",
+  "adj_close": 0.7348
+ },
+ "balance": {
+  "end": "2023-09-30",
+  "cash": 17262000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001694665-23-000182"
+ },
+ "burn": {
+  "end": "2023-09-30",
+  "months": 8.9,
+  "per_month": -5652775.147058823
+ },
+ "shares": {
+  "end": "2023-11-06",
+  "shares": 18930960,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 7,
+  "bought": 0,
+  "sold": 8565,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "evelo biosciences",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

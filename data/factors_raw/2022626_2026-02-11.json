@@ -1,0 +1,58 @@
+{
+ "id": "2022626_2026-02-11",
+ "cik": "2022626",
+ "name": "Upstream Bio, Inc.",
+ "date": "2026-02-11",
+ "asof": "2026-03-13",
+ "final": true,
+ "price": {
+  "date": "2026-03-13",
+  "adj_close": 9.23
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 372427000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001193125-25-265713"
+ },
+ "burn": {
+  "end": "2025-09-30",
+  "months": 8.9,
+  "per_month": -11487071.176470589
+ },
+ "shares": {
+  "end": "2025-11-03",
+  "shares": 54038591,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "upstream bio",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06981078",
+    "drugs": [
+     "Verekitug"
+    ]
+   },
+   {
+    "nct": "NCT06966479",
+    "drugs": [
+     "Verekitug"
+    ]
+   }
+  ]
+ }
+}

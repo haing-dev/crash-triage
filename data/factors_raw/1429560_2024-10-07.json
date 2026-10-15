@@ -1,0 +1,49 @@
+{
+ "id": "1429560_2024-10-07",
+ "cik": "1429560",
+ "name": "TREVENA INC",
+ "date": "2024-10-07",
+ "asof": "2024-11-06",
+ "final": true,
+ "price": {
+  "date": "2024-11-06",
+  "adj_close": 1.72
+ },
+ "balance": {
+  "end": "2024-06-30",
+  "cash": 16367000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-24-011462"
+ },
+ "burn": {
+  "end": "2024-06-30",
+  "months": 5.9,
+  "per_month": -2792239.3370165746
+ },
+ "shares": {
+  "end": "2024-08-06",
+  "shares": 21323333,
+  "split_factor": 25.0,
+  "splits_after": [
+   [
+    "2024-11-07",
+    25.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 3,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "trevena",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

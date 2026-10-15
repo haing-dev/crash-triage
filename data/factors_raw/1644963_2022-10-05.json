@@ -1,0 +1,53 @@
+{
+ "id": "1644963_2022-10-05",
+ "cik": "1644963",
+ "name": "AVENUE THERAPEUTICS, INC.",
+ "date": "2022-10-05",
+ "asof": "2022-11-04",
+ "final": true,
+ "price": {
+  "date": "2022-11-04",
+  "adj_close": 133.5
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 890000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001410578-22-002605"
+ },
+ "burn": {
+  "end": "2022-06-30",
+  "months": 5.9,
+  "per_month": -485856.22222222225
+ },
+ "shares": {
+  "end": "2022-08-08",
+  "shares": 22134784,
+  "split_factor": 1124.996,
+  "splits_after": [
+   [
+    "2022-11-10",
+    15.0
+   ],
+   [
+    "2024-05-15",
+    75.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 1,
+  "bought": 0,
+  "sold": 2999882,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "avenue therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

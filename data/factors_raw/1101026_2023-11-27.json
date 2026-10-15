@@ -1,0 +1,46 @@
+{
+ "id": "1101026_2023-11-27",
+ "cik": "1101026",
+ "name": "Zivo Bioscience, Inc.",
+ "date": "2023-11-27",
+ "asof": "2023-12-27",
+ "final": true,
+ "price": {
+  "date": "2023-12-27",
+  "adj_close": 1.39
+ },
+ "balance": {
+  "end": "2023-09-30",
+  "cash": 1484644,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0001654954-23-014165"
+ },
+ "burn": {
+  "end": "2023-09-30",
+  "months": 8.9,
+  "per_month": -568977.3176470589
+ },
+ "shares": {
+  "end": "2023-11-09",
+  "shares": 1819523,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 1,
+  "bought": 45000,
+  "sold": 0,
+  "buyers": [
+   "Maggiore Christopher D."
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "zivo bioscience",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

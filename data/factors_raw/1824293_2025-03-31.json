@@ -1,0 +1,64 @@
+{
+ "id": "1824293_2025-03-31",
+ "cik": "1824293",
+ "name": "GRI Bio, Inc.",
+ "date": "2025-03-31",
+ "asof": "2025-04-30",
+ "final": true,
+ "price": {
+  "date": "2025-04-30",
+  "adj_close": 50.96
+ },
+ "balance": {
+  "end": "2024-12-31",
+  "cash": 5028000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001824293-25-000050"
+ },
+ "burn": {
+  "end": "2024-12-31",
+  "months": 12.0,
+  "per_month": -718133.8082191781
+ },
+ "shares": {
+  "end": "2025-03-11",
+  "shares": 525358,
+  "split_factor": 105513.263,
+  "splits_after": [
+   [
+    "2025-05-15",
+    221.13
+   ],
+   [
+    "2025-08-14",
+    17.04
+   ],
+   [
+    "2026-01-30",
+    27.99
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "gri bio",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06331624",
+    "drugs": [
+     "Tazarotene (GRI-0621)"
+    ]
+   }
+  ]
+ }
+}

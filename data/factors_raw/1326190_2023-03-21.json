@@ -1,0 +1,62 @@
+{
+ "id": "1326190_2023-03-21",
+ "cik": "1326190",
+ "name": "Altimmune, Inc.",
+ "date": "2023-03-21",
+ "asof": "2023-04-20",
+ "final": true,
+ "price": {
+  "date": "2023-04-20",
+  "adj_close": 5.73
+ },
+ "balance": {
+  "end": "2022-12-31",
+  "cash": 184880000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001326190-23-000008"
+ },
+ "burn": {
+  "end": "2022-12-31",
+  "months": 12.0,
+  "per_month": -5233840.21978022
+ },
+ "shares": {
+  "end": "2023-02-24",
+  "shares": 49278861,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 4,
+  "bought": 123770,
+  "sold": 0,
+  "buyers": [
+   "Drutz David",
+   "Eisenstadt Richard I",
+   "Harris Matthew Scott"
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "altimmune",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04684914",
+    "drugs": [
+     "HepTcell"
+    ]
+   },
+   {
+    "nct": "NCT05295875",
+    "drugs": [
+     "ALT-801"
+    ]
+   }
+  ]
+ }
+}

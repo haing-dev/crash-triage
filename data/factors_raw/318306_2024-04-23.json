@@ -1,0 +1,58 @@
+{
+ "id": "318306_2024-04-23",
+ "cik": "318306",
+ "name": "ABEONA THERAPEUTICS INC.",
+ "date": "2024-04-23",
+ "asof": "2024-05-23",
+ "final": true,
+ "price": {
+  "date": "2024-05-23",
+  "adj_close": 4.17
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 62344000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001493152-24-019459"
+ },
+ "burn": {
+  "end": "2024-03-31",
+  "months": 3.0,
+  "per_month": -4917074.666666667
+ },
+ "shares": {
+  "end": "2024-05-10",
+  "shares": 41186004,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 6,
+  "bought": 154036,
+  "sold": 0,
+  "buyers": [
+   "Alland Leila",
+   "Charles Faith L.",
+   "O'Malley Brendan M.",
+   "Seshadri Vishwas",
+   "Vazzano Joseph Walter"
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "abeona therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05725018",
+    "drugs": [
+     "EB-101 Surgical application of RDEB wounds"
+    ]
+   }
+  ]
+ }
+}

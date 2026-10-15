@@ -1,0 +1,65 @@
+{
+ "id": "1782107_2022-08-18",
+ "cik": "1782107",
+ "name": "Onconetix, Inc.",
+ "date": "2022-08-18",
+ "asof": "2022-09-17",
+ "final": true,
+ "price": {
+  "date": "2022-09-19",
+  "adj_close": 430100.0
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 22242183,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001213900-22-048105"
+ },
+ "burn": {
+  "end": "2022-06-30",
+  "months": 5.9,
+  "per_month": -688029.9084444444
+ },
+ "shares": {
+  "end": "2022-08-15",
+  "shares": 13579399,
+  "split_factor": 245740749618.665,
+  "splits_after": [
+   [
+    "2024-12-10",
+    40.0
+   ],
+   [
+    "2025-08-14",
+    3400.16
+   ],
+   [
+    "2025-11-13",
+    85.0
+   ],
+   [
+    "2026-05-13",
+    425.13
+   ],
+   [
+    "2026-08-13",
+    50.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 5,
+  "bought": 0,
+  "sold": 2776650,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "onconetix",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

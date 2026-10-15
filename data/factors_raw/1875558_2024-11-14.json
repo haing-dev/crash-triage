@@ -1,0 +1,47 @@
+{
+ "id": "1875558_2024-11-14",
+ "cik": "1875558",
+ "name": "Nuvectis Pharma, Inc.",
+ "date": "2024-11-14",
+ "asof": "2024-12-14",
+ "final": true,
+ "price": {
+  "date": "2024-12-16",
+  "adj_close": 4.87
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 17169000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-24-014340"
+ },
+ "burn": {
+  "end": "2024-09-30",
+  "months": 9.0,
+  "per_month": -1090710.9157509159
+ },
+ "shares": {
+  "end": "2024-11-01",
+  "shares": 19320973,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 2,
+  "bought": 108380,
+  "sold": 0,
+  "buyers": [
+   "BENTSUR RON",
+   "Poradosu Enrique"
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "nuvectis pharma",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

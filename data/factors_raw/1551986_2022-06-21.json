@@ -1,0 +1,67 @@
+{
+ "id": "1551986_2022-06-21",
+ "cik": "1551986",
+ "name": "9 METERS BIOPHARMA, INC.",
+ "date": "2022-06-21",
+ "asof": "2022-07-21",
+ "final": true,
+ "price": {
+  "date": "2022-07-21",
+  "adj_close": 4.832
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 37242112,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001551986-22-000044"
+ },
+ "burn": {
+  "end": "2022-03-31",
+  "months": 2.9,
+  "per_month": -3334148.265617978
+ },
+ "shares": {
+  "end": "2022-05-12",
+  "shares": 259107380,
+  "split_factor": 20.0,
+  "splits_after": [
+   [
+    "2022-11-08",
+    20.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 7,
+  "bought": 71425,
+  "sold": 0,
+  "buyers": [
+   "Sirgo Mark A",
+   "Temperato John"
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "9 meters biopharma",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04988997",
+    "drugs": [
+     "Vurolenatide 50mg/PBO",
+     "Vurolenatide 100mg/PBO",
+     "Vurolenatide 50/50 mg"
+    ]
+   },
+   {
+    "nct": "NCT03569007",
+    "drugs": [
+     "Larazotide"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "id": "1347242_2025-06-23",
+ "cik": "1347242",
+ "name": "LIPELLA PHARMACEUTICALS INC.",
+ "date": "2025-06-23",
+ "asof": "2025-07-23",
+ "final": true,
+ "price": {
+  "date": "2025-07-23",
+  "adj_close": 0.701
+ },
+ "balance": {
+  "end": "2025-03-31",
+  "cash": 4225012,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001753926-25-000818"
+ },
+ "burn": {
+  "end": "2025-03-31",
+  "months": 2.9,
+  "per_month": -487767.1397752809
+ },
+ "shares": {
+  "end": "2025-05-13",
+  "shares": 4467395,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "lipella pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

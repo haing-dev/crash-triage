@@ -1,0 +1,58 @@
+{
+ "id": "1445283_2023-03-17",
+ "cik": "1445283",
+ "name": "KINETA, INC./DE",
+ "date": "2023-03-17",
+ "asof": "2023-04-16",
+ "final": true,
+ "price": {
+  "date": "2023-04-17",
+  "adj_close": 4.3
+ },
+ "balance": {
+  "end": "2022-12-31",
+  "cash": 13268000,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0000950170-23-011364"
+ },
+ "burn": {
+  "end": "2022-12-31",
+  "months": 12.0,
+  "per_month": -1591326.2637362638
+ },
+ "shares": {
+  "end": "2023-03-28",
+  "shares": 8501366,
+  "split_factor": 2.266,
+  "splits_after": [
+   [
+    "2023-08-11",
+    2.27
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 12,
+  "bought": 0,
+  "sold": 26018,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "kineta",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05708950",
+    "drugs": [
+     "KVA12123 - Dose Escalation",
+     "KVA12123 Plus Pembrolizumab - Dose Escalation",
+     "KVA12123 - Dose Expansion"
+    ]
+   }
+  ]
+ }
+}

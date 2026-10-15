@@ -1,0 +1,61 @@
+{
+ "id": "1829635_2024-05-13",
+ "cik": "1829635",
+ "name": "Transcode Therapeutics, Inc.",
+ "date": "2024-05-13",
+ "asof": "2024-06-12",
+ "final": true,
+ "price": {
+  "date": "2024-06-12",
+  "adj_close": 1136.52002
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 4913676,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-24-008298"
+ },
+ "burn": {
+  "end": "2024-03-31",
+  "months": 3.0,
+  "per_month": -1331657.6653333334
+ },
+ "shares": {
+  "end": "2024-05-10",
+  "shares": 6622053,
+  "split_factor": 36674276.376,
+  "splits_after": [
+   [
+    "2024-08-14",
+    43.27
+   ],
+   [
+    "2024-11-14",
+    32.34
+   ],
+   [
+    "2025-08-14",
+    924.03
+   ],
+   [
+    "2026-04-15",
+    28.36
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "transcode therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

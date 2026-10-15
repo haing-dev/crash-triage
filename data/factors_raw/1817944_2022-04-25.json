@@ -1,0 +1,44 @@
+{
+ "id": "1817944_2022-04-25",
+ "cik": "1817944",
+ "name": "Clarus Therapeutics Holdings, Inc.",
+ "date": "2022-04-25",
+ "asof": "2022-05-25",
+ "final": true,
+ "price": {
+  "date": "2022-05-25",
+  "adj_close": 0.373
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 9137000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001193125-22-152016"
+ },
+ "burn": {
+  "end": "2022-03-31",
+  "months": 2.9,
+  "per_month": -5906044.044943821
+ },
+ "shares": {
+  "end": "2022-05-11",
+  "shares": 52020731,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 1,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "clarus therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

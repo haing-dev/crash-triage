@@ -1,0 +1,46 @@
+{
+ "id": "1595585_2022-10-24",
+ "cik": "1595585",
+ "name": "Tricida, Inc.",
+ "date": "2022-10-24",
+ "asof": "2022-11-23",
+ "final": true,
+ "price": {
+  "date": "2022-11-23",
+  "adj_close": 0.193
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 80219000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0001595585-22-000087"
+ },
+ "burn": {
+  "end": "2022-09-30",
+  "months": 8.9,
+  "per_month": -7915631.029411765
+ },
+ "shares": {
+  "end": "2022-11-09",
+  "shares": 58028254,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 2,
+  "bought": 0,
+  "sold": 3507891,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "tricida",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

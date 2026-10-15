@@ -1,0 +1,44 @@
+{
+ "id": "1723059_2024-10-25",
+ "cik": "1723059",
+ "name": "Bio Essence Corp",
+ "date": "2024-10-25",
+ "asof": "2024-11-24",
+ "final": true,
+ "price": {
+  "date": "2024-11-25",
+  "adj_close": 0.26
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 29818,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001213900-24-098180"
+ },
+ "burn": {
+  "end": "2024-09-30",
+  "months": 9.0,
+  "per_month": 22389.456263736265
+ },
+ "shares": {
+  "end": "2024-11-14",
+  "shares": 38009000,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 1,
+  "bought": 0,
+  "sold": 455192,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "bio essence",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

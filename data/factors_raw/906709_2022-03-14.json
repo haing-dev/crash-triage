@@ -1,0 +1,88 @@
+{
+ "id": "906709_2022-03-14",
+ "cik": "906709",
+ "name": "NEKTAR THERAPEUTICS",
+ "date": "2022-03-14",
+ "asof": "2022-04-13",
+ "final": true,
+ "price": {
+  "date": "2022-04-13",
+  "adj_close": 92.55
+ },
+ "balance": {
+  "end": "2021-12-31",
+  "cash": 798783000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0000906709-22-000005"
+ },
+ "burn": {
+  "end": "2021-12-31",
+  "months": 12.0,
+  "per_month": -34509259.34065934
+ },
+ "shares": {
+  "end": "2022-02-23",
+  "shares": 186274156,
+  "split_factor": 15.001,
+  "splits_after": [
+   [
+    "2025-08-08",
+    15.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "nektar therapeutics",
+  "other_trials": 8,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04433585",
+    "drugs": [
+     "LY3471851"
+    ]
+   },
+   {
+    "nct": "NCT04616196",
+    "drugs": [
+     "NKTR-255",
+     "Cetuximab"
+    ]
+   },
+   {
+    "nct": "NCT03138889",
+    "drugs": [
+     "NKTR-214",
+     "Pembrolizumab",
+     "NKTR-214"
+    ]
+   },
+   {
+    "nct": "NCT03435640",
+    "drugs": [
+     "NKTR-262",
+     "bempegaldesleukin",
+     "nivolumab"
+    ]
+   },
+   {
+    "nct": "NCT04969861",
+    "drugs": [
+     "Bempegaldesleukin",
+     "Pembrolizumab"
+    ]
+   }
+  ]
+ }
+}

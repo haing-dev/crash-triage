@@ -1,0 +1,60 @@
+{
+ "id": "1662774_2026-01-30",
+ "cik": "1662774",
+ "name": "Quince Therapeutics, Inc.",
+ "date": "2026-01-30",
+ "asof": "2026-03-01",
+ "final": true,
+ "price": {
+  "date": "2026-03-02",
+  "adj_close": 0.99000001
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 6452000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001193125-25-277529"
+ },
+ "burn": {
+  "end": "2025-09-30",
+  "months": 8.9,
+  "per_month": -3462997.6470588236
+ },
+ "shares": {
+  "end": "2025-11-06",
+  "shares": 55681490,
+  "split_factor": 2000.001,
+  "splits_after": [
+   [
+    "2026-05-11",
+    10.0
+   ],
+   [
+    "2026-08-14",
+    200.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "quince therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06664853",
+    "drugs": [
+     "Dexamethasone sodium phosphate"
+    ]
+   }
+  ]
+ }
+}

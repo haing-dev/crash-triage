@@ -1,0 +1,49 @@
+{
+ "id": "868278_2025-12-23",
+ "cik": "868278",
+ "name": "ProPhase Labs, Inc.",
+ "date": "2025-12-23",
+ "asof": "2026-01-22",
+ "final": true,
+ "price": {
+  "date": "2026-01-22",
+  "adj_close": 0.21
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 405000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000868278-25-000017"
+ },
+ "burn": {
+  "end": "2025-09-30",
+  "months": 8.9,
+  "per_month": -796140.294117647
+ },
+ "shares": {
+  "end": "2025-11-17",
+  "shares": 46179017,
+  "split_factor": 10.232,
+  "splits_after": [
+   [
+    "2026-06-01",
+    10.23
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "prophase labs",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

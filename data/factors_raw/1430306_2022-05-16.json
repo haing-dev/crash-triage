@@ -1,0 +1,87 @@
+{
+ "id": "1430306_2022-05-16",
+ "cik": "1430306",
+ "name": "Tonix Pharmaceuticals Holding Corp.",
+ "date": "2022-05-16",
+ "asof": "2022-06-15",
+ "final": true,
+ "price": {
+  "date": "2022-06-15",
+  "adj_close": 35600.0
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 140435000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001387131-22-005860"
+ },
+ "burn": {
+  "end": "2022-03-31",
+  "months": 2.9,
+  "per_month": -10618429.662921349
+ },
+ "shares": {
+  "end": "2022-05-09",
+  "shares": 599679596,
+  "split_factor": 47941877204225.945,
+  "splits_after": [
+   [
+    "2023-05-08",
+    31.75
+   ],
+   [
+    "2023-08-10",
+    6.25
+   ],
+   [
+    "2024-08-16",
+    18.38
+   ],
+   [
+    "2024-11-12",
+    21.17
+   ],
+   [
+    "2025-03-18",
+    2150.07
+   ],
+   [
+    "2025-05-12",
+    2900.35
+   ],
+   [
+    "2025-08-11",
+    99.61
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "tonix pharmaceuticals",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05273749",
+    "drugs": [
+     "TNX-102 SL Tablet, 5.6 mg"
+    ]
+   },
+   {
+    "nct": "NCT04996056",
+    "drugs": [
+     "TNX-1300",
+     "Usual Care"
+    ]
+   }
+  ]
+ }
+}

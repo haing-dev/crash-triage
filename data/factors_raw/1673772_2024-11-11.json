@@ -1,0 +1,58 @@
+{
+ "id": "1673772_2024-11-11",
+ "cik": "1673772",
+ "name": "RAPT Therapeutics, Inc.",
+ "date": "2024-11-11",
+ "asof": "2024-12-11",
+ "final": true,
+ "price": {
+  "date": "2024-12-11",
+  "adj_close": 8.72
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 97905000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-24-124624"
+ },
+ "burn": {
+  "end": "2024-09-30",
+  "months": 9.0,
+  "per_month": -8124023.443223444
+ },
+ "shares": {
+  "end": "2024-11-07",
+  "shares": 34958253,
+  "split_factor": 8.0,
+  "splits_after": [
+   [
+    "2025-08-07",
+    8.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 4,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "rapt therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03674567",
+    "drugs": [
+     "FLX475 (tivumecirnon)",
+     "pembrolizumab (KEYTRUDA\u00ae)"
+    ]
+   }
+  ]
+ }
+}

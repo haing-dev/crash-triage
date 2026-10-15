@@ -1,0 +1,59 @@
+{
+ "id": "1744659_2023-10-10",
+ "cik": "1744659",
+ "name": "Akero Therapeutics, Inc.",
+ "date": "2023-10-10",
+ "asof": "2023-11-09",
+ "final": true,
+ "price": {
+  "date": "2023-11-09",
+  "adj_close": 14.08
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 658895000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent",
+   "MarketableSecuritiesNoncurrent"
+  ],
+  "accn": "0000950170-23-041554"
+ },
+ "burn": {
+  "end": "2023-06-30",
+  "months": 5.9,
+  "per_month": -7951773.555555556
+ },
+ "shares": {
+  "end": "2023-08-04",
+  "shares": 55602175,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "akero therapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05039450",
+    "drugs": [
+     "EFX"
+    ]
+   },
+   {
+    "nct": "NCT04767529",
+    "drugs": [
+     "Efruxifermin"
+    ]
+   }
+  ]
+ }
+}

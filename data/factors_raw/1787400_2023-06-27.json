@@ -1,0 +1,46 @@
+{
+ "id": "1787400_2023-06-27",
+ "cik": "1787400",
+ "name": "Nkarta, Inc.",
+ "date": "2023-06-27",
+ "asof": "2023-07-27",
+ "final": true,
+ "price": {
+  "date": "2023-07-27",
+  "adj_close": 2.03
+ },
+ "balance": {
+  "end": "2023-03-31",
+  "cash": 329357000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments",
+   "LongTermInvestments"
+  ],
+  "accn": "0000950170-23-021277"
+ },
+ "burn": {
+  "end": "2023-03-31",
+  "months": 2.9,
+  "per_month": -7099702.471910113
+ },
+ "shares": {
+  "end": "2023-05-08",
+  "shares": 48934928,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 2,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "nkarta",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

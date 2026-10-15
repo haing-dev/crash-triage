@@ -1,0 +1,50 @@
+{
+ "id": "1476963_2024-07-17",
+ "cik": "1476963",
+ "name": "Scorpius Holdings, Inc.",
+ "date": "2024-07-17",
+ "asof": "2024-08-16",
+ "final": true,
+ "price": {
+  "date": "2024-08-16",
+  "adj_close": 1.09
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 1684082,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001558370-24-008693"
+ },
+ "burn": {
+  "end": "2024-03-31",
+  "months": 3.0,
+  "per_month": -1584191.6257777778
+ },
+ "shares": {
+  "end": "2024-05-26",
+  "shares": 96664869,
+  "split_factor": 200.001,
+  "splits_after": [
+   [
+    "2024-08-19",
+    200.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "scorpius",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "id": "1174940_2025-07-01",
+ "cik": "1174940",
+ "name": "ORAGENICS INC",
+ "date": "2025-07-01",
+ "asof": "2025-07-31",
+ "final": true,
+ "price": {
+  "date": "2025-07-31",
+  "adj_close": 1.26
+ },
+ "balance": {
+  "end": "2025-03-31",
+  "cash": 3421078,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001641172-25-009464"
+ },
+ "burn": {
+  "end": "2025-03-31",
+  "months": 2.9,
+  "per_month": -722382.2426966293
+ },
+ "shares": {
+  "end": "2025-05-09",
+  "shares": 21475289,
+  "split_factor": 61387.584,
+  "splits_after": [
+   [
+    "2025-08-08",
+    30.0
+   ],
+   [
+    "2025-11-07",
+    68.21
+   ],
+   [
+    "2026-03-16",
+    30.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "oragenics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06870240",
+    "drugs": [
+     "Neurosteroid enantiomer"
+    ]
+   }
+  ]
+ }
+}

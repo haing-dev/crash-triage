@@ -1,0 +1,49 @@
+{
+ "id": "1742927_2025-12-23",
+ "cik": "1742927",
+ "name": "REVIVA PHARMACEUTICALS HOLDINGS, INC.",
+ "date": "2025-12-23",
+ "asof": "2026-01-22",
+ "final": true,
+ "price": {
+  "date": "2026-01-22",
+  "adj_close": 6.8
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 13183259,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001437749-25-034827"
+ },
+ "burn": {
+  "end": "2025-09-30",
+  "months": 8.9,
+  "per_month": -2103541.8752941177
+ },
+ "shares": {
+  "end": "2025-11-11",
+  "shares": 115058619,
+  "split_factor": 19.64,
+  "splits_after": [
+   [
+    "2026-03-30",
+    19.64
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "reviva pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

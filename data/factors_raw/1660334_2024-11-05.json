@@ -1,0 +1,53 @@
+{
+ "id": "1660334_2024-11-05",
+ "cik": "1660334",
+ "name": "Verrica Pharmaceuticals Inc.",
+ "date": "2024-11-05",
+ "asof": "2024-12-05",
+ "final": true,
+ "price": {
+  "date": "2024-12-05",
+  "adj_close": 10.6
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 22959000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-24-120982"
+ },
+ "burn": {
+  "end": "2024-09-30",
+  "months": 9.0,
+  "per_month": -5002306.666666667
+ },
+ "shares": {
+  "end": "2024-10-28",
+  "shares": 45600795,
+  "split_factor": 10.0,
+  "splits_after": [
+   [
+    "2025-08-12",
+    10.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 5,
+  "bought": 0,
+  "sold": 0,
+  "buyers": [
+   "Manning Paul B",
+   "Rieger Jayson",
+   "Stalfort John A III"
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "verrica pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

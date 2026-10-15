@@ -1,0 +1,46 @@
+{
+ "id": "1656634_2024-04-02",
+ "cik": "1656634",
+ "name": "Gritstone bio, Inc.",
+ "date": "2024-04-02",
+ "asof": "2024-05-02",
+ "final": true,
+ "price": {
+  "date": "2024-05-02",
+  "adj_close": 0.87
+ },
+ "balance": {
+  "end": "2023-12-31",
+  "cash": 79274000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent",
+   "MarketableSecuritiesNoncurrent"
+  ],
+  "accn": "0000950170-24-025855"
+ },
+ "burn": {
+  "end": "2023-12-31",
+  "months": 12.0,
+  "per_month": -10172981.098901099
+ },
+ "shares": {
+  "end": "2024-03-01",
+  "shares": 98065594,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 1,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "gritstone bio",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

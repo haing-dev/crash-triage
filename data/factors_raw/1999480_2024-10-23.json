@@ -1,0 +1,71 @@
+{
+ "id": "1999480_2024-10-23",
+ "cik": "1999480",
+ "name": "Alto Neuroscience, Inc.",
+ "date": "2024-10-23",
+ "asof": "2024-11-22",
+ "final": true,
+ "price": {
+  "date": "2024-11-22",
+  "adj_close": 4.31
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 181701000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001999480-24-000042"
+ },
+ "burn": {
+  "end": "2024-09-30",
+  "months": 9.0,
+  "per_month": -3835997.5091575095
+ },
+ "shares": {
+  "end": "2024-11-08",
+  "shares": 26970168,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "alto neuroscience",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06656416",
+    "drugs": [
+     "ALTO-100"
+    ]
+   },
+   {
+    "nct": "NCT06502964",
+    "drugs": [
+     "ALTO-101",
+     "ALTO-101 Transdermal Delivery System"
+    ]
+   },
+   {
+    "nct": "NCT06391593",
+    "drugs": [
+     "ALTO-203 25 \u03bcg",
+     "ALTO-203 75 \u03bcg"
+    ]
+   },
+   {
+    "nct": "NCT05922878",
+    "drugs": [
+     "ALTO-300"
+    ]
+   }
+  ]
+ }
+}

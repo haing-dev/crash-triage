@@ -1,0 +1,44 @@
+{
+ "id": "1868734_2022-11-28",
+ "cik": "1868734",
+ "name": "CinCor Pharma, Inc.",
+ "date": "2022-11-28",
+ "asof": "2022-12-28",
+ "final": true,
+ "price": {
+  "date": "2022-12-28",
+  "adj_close": 11.55
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 292556851,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-22-021582"
+ },
+ "burn": {
+  "end": "2022-09-30",
+  "months": 8.9,
+  "per_month": -5862024.966911765
+ },
+ "shares": {
+  "end": "2022-11-03",
+  "shares": 43764323,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "cincor pharma",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

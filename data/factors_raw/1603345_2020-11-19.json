@@ -1,0 +1,44 @@
+{
+ "id": "1603345_2020-11-19",
+ "cik": "1603345",
+ "name": "Agentix Corp.",
+ "date": "2020-11-19",
+ "asof": "2020-12-19",
+ "final": true,
+ "price": {
+  "date": "2020-12-21",
+  "adj_close": 0.4
+ },
+ "balance": {
+  "end": "2020-08-31",
+  "cash": 242750,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001477932-20-007176"
+ },
+ "burn": {
+  "end": "2020-08-31",
+  "months": 4.5,
+  "per_month": -81344.0620289855
+ },
+ "shares": {
+  "end": "2020-12-02",
+  "shares": 34489605,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "agentix",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

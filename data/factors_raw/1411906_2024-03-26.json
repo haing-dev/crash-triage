@@ -1,0 +1,44 @@
+{
+ "id": "1411906_2024-03-26",
+ "cik": "1411906",
+ "name": "Ampio Pharmaceuticals, Inc.",
+ "date": "2024-03-26",
+ "asof": "2024-04-25",
+ "final": true,
+ "price": {
+  "date": "2024-04-25",
+  "adj_close": 0.35
+ },
+ "balance": {
+  "end": "2023-12-31",
+  "cash": 4089000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-24-004090"
+ },
+ "burn": {
+  "end": "2023-12-31",
+  "months": 12.0,
+  "per_month": -716176.2637362637
+ },
+ "shares": {
+  "end": "2024-03-15",
+  "shares": 1135358,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "ampio pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

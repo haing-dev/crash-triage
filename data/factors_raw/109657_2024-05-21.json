@@ -1,0 +1,50 @@
+{
+ "id": "109657_2024-05-21",
+ "cik": "109657",
+ "name": "GT Biopharma, Inc.",
+ "date": "2024-05-21",
+ "asof": "2024-06-20",
+ "final": true,
+ "price": {
+  "date": "2024-06-20",
+  "adj_close": 2.85
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 9807000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001493152-24-019970"
+ },
+ "burn": {
+  "end": "2024-03-31",
+  "months": 3.0,
+  "per_month": -1408019.1111111112
+ },
+ "shares": {
+  "end": "2024-05-15",
+  "shares": 1416651,
+  "split_factor": 30.0,
+  "splits_after": [
+   [
+    "2024-08-14",
+    30.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "gt biopharma",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

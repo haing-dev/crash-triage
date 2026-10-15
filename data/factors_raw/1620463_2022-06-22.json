@@ -1,0 +1,73 @@
+{
+ "id": "1620463_2022-06-22",
+ "cik": "1620463",
+ "name": "LeonaBio, Inc.",
+ "date": "2022-06-22",
+ "asof": "2022-07-22",
+ "final": true,
+ "price": {
+  "date": "2022-07-22",
+  "adj_close": 32.099998
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 301170000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments",
+   "LongTermInvestments"
+  ],
+  "accn": "0000950170-22-009683"
+ },
+ "burn": {
+  "end": "2022-03-31",
+  "months": 2.9,
+  "per_month": -5667996.404494382
+ },
+ "shares": {
+  "end": "2022-05-09",
+  "shares": 37635983,
+  "split_factor": 10.0,
+  "splits_after": [
+   [
+    "2025-11-06",
+    10.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 8,
+  "bought": 4129172,
+  "sold": 53787,
+  "buyers": [
+   "MOEBIUS HANS",
+   "PERCEPTIVE ADVISORS LLC"
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "leonabio",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04886063",
+    "drugs": [
+     "ATH-1017"
+    ]
+   },
+   {
+    "nct": "NCT04488419",
+    "drugs": [
+     "ATH-1017"
+    ]
+   },
+   {
+    "nct": "NCT04831281",
+    "drugs": [
+     "ATH-1017"
+    ]
+   }
+  ]
+ }
+}

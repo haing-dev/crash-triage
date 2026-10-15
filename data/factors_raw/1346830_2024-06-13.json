@@ -1,0 +1,72 @@
+{
+ "id": "1346830_2024-06-13",
+ "cik": "1346830",
+ "name": "Tvardi Therapeutics, Inc.",
+ "date": "2024-06-13",
+ "asof": "2024-07-13",
+ "final": true,
+ "price": {
+  "date": "2024-07-15",
+  "adj_close": 12.06
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 46996000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-24-007964"
+ },
+ "burn": {
+  "end": "2024-03-31",
+  "months": 3.0,
+  "per_month": -10299881.333333334
+ },
+ "shares": {
+  "end": "2024-05-09",
+  "shares": 54675954,
+  "split_factor": 9181.827,
+  "splits_after": [
+   [
+    "2025-03-11",
+    12.0
+   ],
+   [
+    "2025-05-13",
+    36.0
+   ],
+   [
+    "2025-08-14",
+    21.25
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "tvardi therapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05671835",
+    "drugs": [
+     "TTI-101"
+    ]
+   },
+   {
+    "nct": "NCT05440708",
+    "drugs": [
+     "TTI-101",
+     "Pembrolizumab",
+     "Atezolizumab"
+    ]
+   }
+  ]
+ }
+}

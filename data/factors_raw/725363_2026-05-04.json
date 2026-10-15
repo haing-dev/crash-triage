@@ -1,0 +1,46 @@
+{
+ "id": "725363_2026-05-04",
+ "cik": "725363",
+ "name": "CEL SCI CORP",
+ "date": "2026-05-04",
+ "asof": "2026-06-03",
+ "final": true,
+ "price": {
+  "date": "2026-06-03",
+  "adj_close": 1.48
+ },
+ "balance": {
+  "end": "2026-03-31",
+  "cash": 1890732,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0001654954-26-005005"
+ },
+ "burn": {
+  "end": "2026-03-31",
+  "months": 5.9,
+  "per_month": -1352897.2229834255
+ },
+ "shares": {
+  "end": "2026-05-11",
+  "shares": 8493111,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 2,
+  "bought": 479000,
+  "sold": 0,
+  "buyers": [
+   "KERSTEN GEERT R"
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "cel sci",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

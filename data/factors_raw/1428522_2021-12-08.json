@@ -1,0 +1,48 @@
+{
+ "id": "1428522_2021-12-08",
+ "cik": "1428522",
+ "name": "Radius Health, Inc.",
+ "date": "2021-12-08",
+ "asof": "2022-01-07",
+ "final": true,
+ "price": {
+  "date": "2022-01-07",
+  "adj_close": 6.64
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 109559000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001628280-21-022113"
+ },
+ "burn": {
+  "end": "2021-09-30",
+  "months": 8.9,
+  "per_month": -2707705.1470588236
+ },
+ "shares": {
+  "end": "2021-11-01",
+  "shares": 47342210,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 4,
+  "bought": 19713980,
+  "sold": 0,
+  "buyers": [
+   "BIOTECH TARGET N V",
+   "Rubric Capital Management LP"
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "radius health",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

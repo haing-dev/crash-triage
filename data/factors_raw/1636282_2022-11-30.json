@@ -1,0 +1,50 @@
+{
+ "id": "1636282_2022-11-30",
+ "cik": "1636282",
+ "name": "Spyre Therapeutics, Inc.",
+ "date": "2022-11-30",
+ "asof": "2022-12-30",
+ "final": true,
+ "price": {
+  "date": "2022-12-30",
+  "adj_close": 11.25
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 73676000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0000950170-22-021529"
+ },
+ "burn": {
+  "end": "2022-09-30",
+  "months": 8.9,
+  "per_month": -6938977.05882353
+ },
+ "shares": {
+  "end": "2022-10-28",
+  "shares": 61511078,
+  "split_factor": 25.0,
+  "splits_after": [
+   [
+    "2023-11-09",
+    25.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 1,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "spyre therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

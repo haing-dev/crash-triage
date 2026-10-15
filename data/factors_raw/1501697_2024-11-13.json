@@ -1,0 +1,62 @@
+{
+ "id": "1501697_2024-11-13",
+ "cik": "1501697",
+ "name": "X4 Pharmaceuticals, Inc",
+ "date": "2024-11-13",
+ "asof": "2024-12-13",
+ "final": true,
+ "price": {
+  "date": "2024-12-13",
+  "adj_close": 20.1
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 97412000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001628280-24-047445"
+ },
+ "burn": {
+  "end": "2024-09-30",
+  "months": 9.0,
+  "per_month": -10916698.315018317
+ },
+ "shares": {
+  "end": "2024-11-11",
+  "shares": 170546469,
+  "split_factor": 30.0,
+  "splits_after": [
+   [
+    "2025-05-01",
+    30.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 1,
+  "bought": 0,
+  "sold": 12583,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "x4 pharmaceuticals",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03995108",
+    "drugs": [
+     "Mavorixafor"
+    ]
+   },
+   {
+    "nct": "NCT06056297",
+    "drugs": [
+     "Mavorixafor"
+    ]
+   }
+  ]
+ }
+}

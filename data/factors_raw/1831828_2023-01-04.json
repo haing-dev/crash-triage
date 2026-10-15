@@ -1,0 +1,53 @@
+{
+ "id": "1831828_2023-01-04",
+ "cik": "1831828",
+ "name": "Vera Therapeutics, Inc.",
+ "date": "2023-01-04",
+ "asof": "2023-02-03",
+ "final": true,
+ "price": {
+  "date": "2023-02-03",
+  "adj_close": 7.23
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 114542000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent",
+   "MarketableSecuritiesNoncurrent"
+  ],
+  "accn": "0000950170-22-023932"
+ },
+ "burn": {
+  "end": "2022-09-30",
+  "months": 8.9,
+  "per_month": -5196510.882352941
+ },
+ "shares": {
+  "end": "2022-11-08",
+  "shares": 27657640,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "vera therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05609812",
+    "drugs": [
+     "Atacicept"
+    ]
+   }
+  ]
+ }
+}

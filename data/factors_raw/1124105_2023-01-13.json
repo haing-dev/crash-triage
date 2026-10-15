@@ -1,0 +1,50 @@
+{
+ "id": "1124105_2023-01-13",
+ "cik": "1124105",
+ "name": "GYRE THERAPEUTICS, INC.",
+ "date": "2023-01-13",
+ "asof": "2023-02-12",
+ "final": true,
+ "price": {
+  "date": "2023-02-13",
+  "adj_close": 3.9
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 23090000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001564590-22-037555"
+ },
+ "burn": {
+  "end": "2022-09-30",
+  "months": 8.9,
+  "per_month": -3538761.911764706
+ },
+ "shares": {
+  "end": "2022-11-07",
+  "shares": 31490053,
+  "split_factor": 0.496,
+  "splits_after": [
+   [
+    "2024-03-27",
+    0.5
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "gyre therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

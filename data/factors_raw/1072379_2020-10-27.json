@@ -1,0 +1,60 @@
+{
+ "id": "1072379_2020-10-27",
+ "cik": "1072379",
+ "name": "NORTHWEST BIOTHERAPEUTICS INC",
+ "date": "2020-10-27",
+ "asof": "2020-11-26",
+ "final": true,
+ "price": {
+  "date": "2020-11-27",
+  "adj_close": 1.22
+ },
+ "balance": {
+  "end": "2020-06-30",
+  "cash": 5955000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001104659-20-092797"
+ },
+ "burn": {
+  "end": "2020-06-30",
+  "months": 5.9,
+  "per_month": -2332275.8011049726
+ },
+ "shares": {
+  "end": "2020-08-06",
+  "shares": 731499352,
+  "split_factor": 1.0,
+  "splits_after": [
+   [
+    "2021-03-31",
+    1000.0
+   ],
+   [
+    "2026-04-15",
+    0.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "northwest biotherapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT00045968",
+    "drugs": [
+     "Dendritic cell immunotherapy"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "id": "1818844_2024-05-20",
+ "cik": "1818844",
+ "name": "Dogwood Therapeutics, Inc.",
+ "date": "2024-05-20",
+ "asof": "2024-06-19",
+ "final": true,
+ "price": {
+  "date": "2024-06-20",
+  "adj_close": 6.5
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 2379532,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-24-007713"
+ },
+ "burn": {
+  "end": "2024-03-31",
+  "months": 3.0,
+  "per_month": -317054.2462222222
+ },
+ "shares": {
+  "end": "2024-05-08",
+  "shares": 19257937,
+  "split_factor": 25.0,
+  "splits_after": [
+   [
+    "2024-11-08",
+    25.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "dogwood therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

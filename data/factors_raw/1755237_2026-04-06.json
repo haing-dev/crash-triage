@@ -1,0 +1,44 @@
+{
+ "id": "1755237_2026-04-06",
+ "cik": "1755237",
+ "name": "Korsana Biosciences, Inc.",
+ "date": "2026-04-06",
+ "asof": "2026-05-06",
+ "final": true,
+ "price": {
+  "date": "2026-05-06",
+  "adj_close": 22.68
+ },
+ "balance": {
+  "end": "2025-12-31",
+  "cash": 3240000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001193125-26-162177"
+ },
+ "burn": {
+  "end": "2025-12-31",
+  "months": 12.0,
+  "per_month": -277137.80219780223
+ },
+ "shares": {
+  "end": "2026-03-26",
+  "shares": 4330314,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "korsana biosciences",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

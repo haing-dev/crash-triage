@@ -1,0 +1,62 @@
+{
+ "id": "1656634_2022-01-04",
+ "cik": "1656634",
+ "name": "Gritstone bio, Inc.",
+ "date": "2022-01-04",
+ "asof": "2022-02-03",
+ "final": true,
+ "price": {
+  "date": "2022-02-03",
+  "adj_close": 5.18
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 199678000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-21-002819"
+ },
+ "burn": {
+  "end": "2021-09-30",
+  "months": 8.9,
+  "per_month": -3010314.558823529
+ },
+ "shares": {
+  "end": "2021-10-29",
+  "shares": 67987825,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 1,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "gritstone bio",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03953235",
+    "drugs": [
+     "GRT-C903",
+     "GRT-R904",
+     "nivolumab"
+    ]
+   },
+   {
+    "nct": "NCT03639714",
+    "drugs": [
+     "GRT-C901",
+     "GRT-R902",
+     "nivolumab"
+    ]
+   }
+  ]
+ }
+}

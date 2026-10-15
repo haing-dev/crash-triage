@@ -1,0 +1,54 @@
+{
+ "id": "1560241_2024-02-13",
+ "cik": "1560241",
+ "name": "G1 Therapeutics, Inc.",
+ "date": "2024-02-13",
+ "asof": "2024-03-14",
+ "final": true,
+ "price": {
+  "date": "2024-03-14",
+  "adj_close": 3.12
+ },
+ "balance": {
+  "end": "2023-12-31",
+  "cash": 82156000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001628280-24-007601"
+ },
+ "burn": {
+  "end": "2023-12-31",
+  "months": 12.0,
+  "per_month": -3205984.285714286
+ },
+ "shares": {
+  "end": "2024-02-23",
+  "shares": 52199394,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 1,
+  "bought": 0,
+  "sold": 132143,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "g1 therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04799249",
+    "drugs": [
+     "Trilaciclib",
+     "Gemcitabine",
+     "Carboplatin"
+    ]
+   }
+  ]
+ }
+}

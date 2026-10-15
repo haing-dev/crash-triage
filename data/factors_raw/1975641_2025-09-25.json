@@ -1,0 +1,46 @@
+{
+ "id": "1975641_2025-09-25",
+ "cik": "1975641",
+ "name": "Zhengye Biotechnology Holding Ltd",
+ "date": "2025-09-25",
+ "asof": "2025-10-25",
+ "final": true,
+ "price": {
+  "date": "2025-10-27",
+  "adj_close": 2.32
+ },
+ "balance": {
+  "end": "2024-12-31",
+  "cash": 2929000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001213900-25-061202"
+ },
+ "burn": {
+  "end": "2024-12-31",
+  "months": 12.0,
+  "per_month": 469026.19178082194
+ },
+ "shares": {
+  "end": "2024-12-31",
+  "shares": 45666376,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "zhengye biotechnology",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

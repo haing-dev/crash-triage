@@ -1,0 +1,59 @@
+{
+ "id": "1348911_2022-10-04",
+ "cik": "1348911",
+ "name": "KalVista Pharmaceuticals, Inc.",
+ "date": "2022-10-04",
+ "asof": "2022-11-03",
+ "final": true,
+ "price": {
+  "date": "2022-11-03",
+  "adj_close": 5.31
+ },
+ "balance": {
+  "end": "2022-07-31",
+  "cash": 142075000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0000950170-22-018239"
+ },
+ "burn": {
+  "end": "2022-07-31",
+  "months": 3.0,
+  "per_month": -7607323.956043956
+ },
+ "shares": {
+  "end": "2022-09-01",
+  "shares": 24602023,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 4,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "kalvista pharmaceuticals",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05259917",
+    "drugs": [
+     "KVD900 600 mg",
+     "KVD900 300 mg"
+    ]
+   },
+   {
+    "nct": "NCT05055258",
+    "drugs": [
+     "KVD824"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "id": "1726711_2026-05-22",
+ "cik": "1726711",
+ "name": "Aditxt, Inc.",
+ "date": "2026-05-22",
+ "asof": "2026-06-21",
+ "final": true,
+ "price": {
+  "date": "2026-06-22",
+  "adj_close": 0.0192
+ },
+ "balance": {
+  "end": "2026-03-31",
+  "cash": 268852,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0001213900-26-059562"
+ },
+ "burn": {
+  "end": "2026-03-31",
+  "months": 2.9,
+  "per_month": -1566022.3964044945
+ },
+ "shares": {
+  "end": "2026-05-20",
+  "shares": 815921,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 9,
+  "bought": 245293,
+  "sold": 162867,
+  "buyers": [
+   "BANK OF AMERICA CORP /DE/",
+   "HRT FINANCIAL LP"
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "aditxt",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

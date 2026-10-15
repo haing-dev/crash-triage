@@ -1,0 +1,62 @@
+{
+ "id": "1837607_2024-05-03",
+ "cik": "1837607",
+ "name": "AEON Biopharma, Inc.",
+ "date": "2024-05-03",
+ "asof": "2024-06-02",
+ "final": true,
+ "price": {
+  "date": "2024-06-03",
+  "adj_close": 118.080002
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 1558000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001837607-24-000063"
+ },
+ "burn": {
+  "end": "2024-03-31",
+  "months": 3.0,
+  "per_month": -2908711.111111111
+ },
+ "shares": {
+  "end": "2024-05-09",
+  "shares": 39122238,
+  "split_factor": 71.958,
+  "splits_after": [
+   [
+    "2025-03-24",
+    71.96
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "aeon biopharma",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05016661",
+    "drugs": [
+     "ABP-450"
+    ]
+   },
+   {
+    "nct": "NCT04845178",
+    "drugs": [
+     "ABP-450"
+    ]
+   }
+  ]
+ }
+}

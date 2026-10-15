@@ -1,0 +1,50 @@
+{
+ "id": "1401395_2023-09-22",
+ "cik": "1401395",
+ "name": "Neptune Wellness Solutions Inc.",
+ "date": "2023-09-22",
+ "asof": "2023-10-22",
+ "final": true,
+ "price": {
+  "date": "2023-10-23",
+  "adj_close": 0.76
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 1397517,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-23-046512"
+ },
+ "burn": {
+  "end": "2023-06-30",
+  "months": 3.0,
+  "per_month": -1791873.5991111111
+ },
+ "shares": {
+  "end": "2023-09-01",
+  "shares": 24117599,
+  "split_factor": 38.372,
+  "splits_after": [
+   [
+    "2023-11-14",
+    38.37
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 1,
+  "bought": 0,
+  "sold": 68840,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "neptune wellness solutions",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

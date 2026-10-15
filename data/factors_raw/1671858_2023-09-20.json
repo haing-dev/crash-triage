@@ -1,0 +1,63 @@
+{
+ "id": "1671858_2023-09-20",
+ "cik": "1671858",
+ "name": "ARS Pharmaceuticals, Inc.",
+ "date": "2023-09-20",
+ "asof": "2023-10-20",
+ "final": true,
+ "price": {
+  "date": "2023-10-20",
+  "adj_close": 3.51
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 252208000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-23-041310"
+ },
+ "burn": {
+  "end": "2023-06-30",
+  "months": 5.9,
+  "per_month": -4920795.111111111
+ },
+ "shares": {
+  "end": "2023-08-07",
+  "shares": 95568307,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 2,
+  "bought": 8503480,
+  "sold": 0,
+  "buyers": [
+   "Fitzpatrick Alexander A",
+   "RA CAPITAL MANAGEMENT, L.P."
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "ars pharmaceuticals",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05496465",
+    "drugs": [
+     "ARS-1"
+    ]
+   },
+   {
+    "nct": "NCT05363670",
+    "drugs": [
+     "ARS-1 1 mg",
+     "Albuterol MDI",
+     "ARS-1 2mg"
+    ]
+   }
+  ]
+ }
+}

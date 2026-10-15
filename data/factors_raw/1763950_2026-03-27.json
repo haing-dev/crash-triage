@@ -1,0 +1,62 @@
+{
+ "id": "1763950_2026-03-27",
+ "cik": "1763950",
+ "name": "Lantern Pharma Inc.",
+ "date": "2026-03-27",
+ "asof": "2026-04-26",
+ "final": true,
+ "price": {
+  "date": "2026-04-27",
+  "adj_close": 2.46
+ },
+ "balance": {
+  "end": "2025-12-31",
+  "cash": 10119224,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001493152-26-013612"
+ },
+ "burn": {
+  "end": "2025-12-31",
+  "months": 12.0,
+  "per_month": -1311008.986813187
+ },
+ "shares": {
+  "end": "2026-03-13",
+  "shares": 11254697,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "lantern pharma",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05933265",
+    "drugs": [
+     "LP-184",
+     "Olaparib",
+     "Nivolumab & Ipilimumab"
+    ]
+   },
+   {
+    "nct": "NCT05456256",
+    "drugs": [
+     "LP-300",
+     "Pemetrexed",
+     "Carboplatin"
+    ]
+   }
+  ]
+ }
+}

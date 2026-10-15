@@ -1,0 +1,83 @@
+{
+ "id": "863894_2022-11-10",
+ "cik": "863894",
+ "name": "VERU INC.",
+ "date": "2022-11-10",
+ "asof": "2022-12-10",
+ "final": true,
+ "price": {
+  "date": "2022-12-12",
+  "adj_close": 53.7
+ },
+ "balance": {
+  "end": "2019-06-30",
+  "cash": 8039116,
+  "parts": [
+   "Cash"
+  ],
+  "accn": "0000863894-19-000010"
+ },
+ "burn": {
+  "end": "2022-09-30",
+  "months": 12.0,
+  "per_month": -3972671.2136263736
+ },
+ "shares": {
+  "end": "2022-11-30",
+  "shares": 80623128,
+  "split_factor": 10.0,
+  "splits_after": [
+   [
+    "2025-08-12",
+    10.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "veru",
+  "other_trials": 5,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05065411",
+    "drugs": [
+     "Enobosarm & Abemaciclib Combo",
+     "non-steroidal AI, or steroidal AI (exemestane with or without everolimus) or Fulvestrant"
+    ]
+   },
+   {
+    "nct": "NCT04844749",
+    "drugs": [
+     "VERU-111",
+     "Enzalutamide, Abiraterone"
+    ]
+   },
+   {
+    "nct": "NCT04843319",
+    "drugs": [
+     "VERU-100"
+    ]
+   },
+   {
+    "nct": "NCT04869943",
+    "drugs": [
+     "Enobosarm",
+     "Exemestane"
+    ]
+   },
+   {
+    "nct": "NCT03752099",
+    "drugs": [
+     "VERU-111"
+    ]
+   }
+  ]
+ }
+}

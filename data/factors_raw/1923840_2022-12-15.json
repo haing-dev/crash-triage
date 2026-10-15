@@ -1,0 +1,51 @@
+{
+ "id": "1923840_2022-12-15",
+ "cik": "1923840",
+ "name": "Third Harmonic Bio, Inc.",
+ "date": "2022-12-15",
+ "asof": "2023-01-14",
+ "final": true,
+ "price": {
+  "date": "2023-01-17",
+  "adj_close": 4.36
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 299516000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-22-023874"
+ },
+ "burn": {
+  "end": "2022-09-30",
+  "months": 8.9,
+  "per_month": -2868298.529411765
+ },
+ "shares": {
+  "end": "2022-11-01",
+  "shares": 40544756,
+  "split_factor": 2.258,
+  "splits_after": [
+   [
+    "2023-08-10",
+    2.26
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 1,
+  "bought": 879499,
+  "sold": 0,
+  "buyers": [
+   "BVF PARTNERS L P/IL"
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "third harmonic bio",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

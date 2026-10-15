@@ -1,0 +1,53 @@
+{
+ "id": "1738021_2026-04-27",
+ "cik": "1738021",
+ "name": "Compass Therapeutics, Inc.",
+ "date": "2026-04-27",
+ "asof": "2026-05-27",
+ "final": true,
+ "price": {
+  "date": "2026-05-27",
+  "adj_close": 2.27
+ },
+ "balance": {
+  "end": "2026-03-31",
+  "cash": 194687000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001171843-26-003006"
+ },
+ "burn": {
+  "end": "2026-03-31",
+  "months": 2.9,
+  "per_month": -5906386.06741573
+ },
+ "shares": {
+  "end": "2026-04-30",
+  "shares": 180087915,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 2,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "compass therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05506943",
+    "drugs": [
+     "CTX-009",
+     "Paclitaxel"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "id": "1737953_2026-04-13",
+ "cik": "1737953",
+ "name": "Replimune Group, Inc.",
+ "date": "2026-04-13",
+ "asof": "2026-05-13",
+ "final": true,
+ "price": {
+  "date": "2026-05-13",
+  "adj_close": 5.3
+ },
+ "balance": {
+  "end": "2025-12-31",
+  "cash": 269137000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001628280-26-004805"
+ },
+ "burn": {
+  "end": "2025-12-31",
+  "months": 9.0,
+  "per_month": -24905585.839416057
+ },
+ "shares": {
+  "end": "2026-01-30",
+  "shares": 82572619,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "replimune",
+  "other_trials": 5,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03767348",
+    "drugs": [
+     "RP1",
+     "nivolumab"
+    ]
+   },
+   {
+    "nct": "NCT06264180",
+    "drugs": [
+     "Vusolimogene Oderparepvec",
+     "Nivolumab",
+     "Nivolumab + Relatlimab"
+    ]
+   },
+   {
+    "nct": "NCT05733598",
+    "drugs": [
+     "RP2",
+     "Bevacizumab",
+     "Atezolizumab"
+    ]
+   },
+   {
+    "nct": "NCT04349436",
+    "drugs": [
+     "RP1, intra-tumoral injection, oncolytic virus"
+    ]
+   },
+   {
+    "nct": "NCT06581406",
+    "drugs": [
+     "RP2",
+     "Ipilimumab",
+     "Nivolumab"
+    ]
+   }
+  ]
+ }
+}

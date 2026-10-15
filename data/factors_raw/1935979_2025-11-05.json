@@ -1,0 +1,85 @@
+{
+ "id": "1935979_2025-11-05",
+ "cik": "1935979",
+ "name": "Biohaven Ltd.",
+ "date": "2025-11-05",
+ "asof": "2025-12-05",
+ "final": true,
+ "price": {
+  "date": "2025-12-05",
+  "adj_close": 9.55
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 260217000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001935979-25-000092"
+ },
+ "burn": {
+  "end": "2025-09-30",
+  "months": 8.9,
+  "per_month": -53580667.058823526
+ },
+ "shares": {
+  "end": "2025-11-06",
+  "shares": 105855155,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 4,
+  "bought": 33144763,
+  "sold": 0,
+  "buyers": [
+   "Bailey Gregory",
+   "CHILDS JOHN W",
+   "Clark George C.",
+   "Coric Vlad"
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "biohaven",
+  "other_trials": 9,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06425159",
+    "drugs": [
+     "BHV-7000"
+    ]
+   },
+   {
+    "nct": "NCT06423781",
+    "drugs": [
+     "BHV-7000"
+    ]
+   },
+   {
+    "nct": "NCT06443463",
+    "drugs": [
+     "BHV-7000",
+     "BHV-7000"
+    ]
+   },
+   {
+    "nct": "NCT06132893",
+    "drugs": [
+     "BHV-7000",
+     "BHV-7000",
+     "BHV-7000"
+    ]
+   },
+   {
+    "nct": "NCT06309966",
+    "drugs": [
+     "BHV-7000",
+     "BHV-7000"
+    ]
+   }
+  ]
+ }
+}

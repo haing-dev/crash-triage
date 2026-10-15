@@ -1,0 +1,51 @@
+{
+ "id": "1534120_2023-06-26",
+ "cik": "1534120",
+ "name": "Avalo Therapeutics, Inc.",
+ "date": "2023-06-26",
+ "asof": "2023-07-26",
+ "final": true,
+ "price": {
+  "date": "2023-07-26",
+  "adj_close": 55.44
+ },
+ "balance": {
+  "end": "2023-03-31",
+  "cash": 16687000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001628280-23-015703"
+ },
+ "burn": {
+  "end": "2023-03-31",
+  "months": 2.9,
+  "per_month": -3438009.8876404497
+ },
+ "shares": {
+  "end": "2023-05-01",
+  "shares": 13200535,
+  "split_factor": 240.0,
+  "splits_after": [
+   [
+    "2024-03-29",
+    240.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 4,
+  "bought": 1030179,
+  "sold": 2168897,
+  "buyers": [
+   "Caissa Capital Management ltd."
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "avalo therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

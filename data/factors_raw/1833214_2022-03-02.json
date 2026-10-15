@@ -1,0 +1,57 @@
+{
+ "id": "1833214_2022-03-02",
+ "cik": "1833214",
+ "name": "SAB Biotherapeutics, Inc.",
+ "date": "2022-03-02",
+ "asof": "2022-04-01",
+ "final": true,
+ "price": {
+  "date": "2022-04-01",
+  "adj_close": 34.6
+ },
+ "balance": {
+  "end": "2021-12-31",
+  "cash": 33206712,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-22-004935"
+ },
+ "burn": {
+  "end": "2021-12-31",
+  "months": 12.0,
+  "per_month": 314316.7498901099
+ },
+ "shares": {
+  "end": "2022-03-28",
+  "shares": 42955121,
+  "split_factor": 567.046,
+  "splits_after": [
+   [
+    "2024-03-29",
+    10.0
+   ],
+   [
+    "2024-05-20",
+    5.67
+   ],
+   [
+    "2024-08-08",
+    10.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 9,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "sab biotherapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

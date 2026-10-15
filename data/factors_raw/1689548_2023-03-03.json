@@ -1,0 +1,54 @@
+{
+ "id": "1689548_2023-03-03",
+ "cik": "1689548",
+ "name": "Praxis Precision Medicines, Inc.",
+ "date": "2023-03-03",
+ "asof": "2023-04-02",
+ "final": true,
+ "price": {
+  "date": "2023-04-03",
+  "adj_close": 12.765
+ },
+ "balance": {
+  "end": "2022-12-31",
+  "cash": 100489000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001689548-23-000044"
+ },
+ "burn": {
+  "end": "2022-12-31",
+  "months": 12.0,
+  "per_month": -15474475.054945055
+ },
+ "shares": {
+  "end": "2023-02-03",
+  "shares": 52393118,
+  "split_factor": 15.0,
+  "splits_after": [
+   [
+    "2024-03-05",
+    15.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 3,
+  "bought": 109179,
+  "sold": 0,
+  "buyers": [
+   "Kelly Timothy Edwin",
+   "MITCHELL DEAN J",
+   "Souza Marcio"
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "praxis precision medicines",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

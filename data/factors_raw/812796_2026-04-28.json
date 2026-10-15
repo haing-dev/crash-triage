@@ -1,0 +1,51 @@
+{
+ "id": "812796_2026-04-28",
+ "cik": "812796",
+ "name": "SOLIGENIX, INC.",
+ "date": "2026-04-28",
+ "asof": "2026-05-28",
+ "final": true,
+ "price": {
+  "date": "2026-05-28",
+  "adj_close": 0.97000003
+ },
+ "balance": {
+  "end": "2026-03-31",
+  "cash": 6029430,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0001104659-26-057904"
+ },
+ "burn": {
+  "end": "2026-03-31",
+  "months": 2.9,
+  "per_month": -806394.2485393259
+ },
+ "shares": {
+  "end": "2026-05-01",
+  "shares": 14824174,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "soligenix",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06470451",
+    "drugs": [
+     "Hypericin"
+    ]
+   }
+  ]
+ }
+}

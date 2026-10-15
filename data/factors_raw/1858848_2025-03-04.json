@@ -1,0 +1,55 @@
+{
+ "id": "1858848_2025-03-04",
+ "cik": "1858848",
+ "name": "Tenaya Therapeutics, Inc.",
+ "date": "2025-03-04",
+ "asof": "2025-04-03",
+ "final": true,
+ "price": {
+  "date": "2025-04-03",
+  "adj_close": 0.51999998
+ },
+ "balance": {
+  "end": "2024-12-31",
+  "cash": 61446000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-25-036329"
+ },
+ "burn": {
+  "end": "2024-12-31",
+  "months": 12.0,
+  "per_month": -7547535.452054795
+ },
+ "shares": {
+  "end": "2025-03-04",
+  "shares": 87582646,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 5,
+  "bought": 49999998,
+  "sold": 10564,
+  "buyers": [
+   "COLUMN GROUP III GP, LP",
+   "GOEDDEL DAVID V"
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "tenaya therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05836259",
+    "drugs": [
+     "TN-201"
+    ]
+   }
+  ]
+ }
+}

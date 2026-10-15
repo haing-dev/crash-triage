@@ -1,0 +1,88 @@
+{
+ "id": "1571498_2022-01-27",
+ "cik": "1571498",
+ "name": "Epizyme, Inc.",
+ "date": "2022-01-27",
+ "asof": "2022-02-26",
+ "final": true,
+ "price": {
+  "date": "2022-02-28",
+  "adj_close": 1.49
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 221293000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-21-003566"
+ },
+ "burn": {
+  "end": "2021-09-30",
+  "months": 8.9,
+  "per_month": -19571912.79411765
+ },
+ "shares": {
+  "end": "2021-11-04",
+  "shares": 103895022,
+  "split_factor": 1000.0,
+  "splits_after": [
+   [
+    "2022-05-10",
+    1000.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 8,
+  "bought": 34000000,
+  "sold": 15881,
+  "buyers": [
+   "Legorreta Pablo G."
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "epizyme",
+  "other_trials": 6,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04762160",
+    "drugs": [
+     "Tazemetostat",
+     "Rituximab"
+    ]
+   },
+   {
+    "nct": "NCT02875548",
+    "drugs": [
+     "Tazemetostat"
+    ]
+   },
+   {
+    "nct": "NCT04179864",
+    "drugs": [
+     "Tazemetostat",
+     "Abiraterone/prednisone",
+     "Enzalutamide"
+    ]
+   },
+   {
+    "nct": "NCT02601950",
+    "drugs": [
+     "Tazemetostat"
+    ]
+   },
+   {
+    "nct": "NCT04224493",
+    "drugs": [
+     "Tazemetostat",
+     "Tazemetostat",
+     "Lenalidomide"
+    ]
+   }
+  ]
+ }
+}

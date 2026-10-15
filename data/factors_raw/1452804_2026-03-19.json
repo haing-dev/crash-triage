@@ -1,0 +1,44 @@
+{
+ "id": "1452804_2026-03-19",
+ "cik": "1452804",
+ "name": "Retrieve Medical Holdings, Inc.",
+ "date": "2026-03-19",
+ "asof": "2026-04-18",
+ "final": true,
+ "price": {
+  "date": "2026-04-20",
+  "adj_close": 1.31621
+ },
+ "balance": {
+  "end": "2022-12-31",
+  "cash": 96720,
+  "parts": [
+   "Cash"
+  ],
+  "accn": "0001199835-23-000089"
+ },
+ "burn": {
+  "end": "2022-12-31",
+  "months": 3.0,
+  "per_month": -10329.195164835166
+ },
+ "shares": {
+  "end": "2023-02-08",
+  "shares": 78363567,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "retrieve medical",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

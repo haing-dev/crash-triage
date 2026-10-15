@@ -1,0 +1,54 @@
+{
+ "id": "1750284_2021-11-30",
+ "cik": "1750284",
+ "name": "Olema Pharmaceuticals, Inc.",
+ "date": "2021-11-30",
+ "asof": "2021-12-30",
+ "final": true,
+ "price": {
+  "date": "2021-12-30",
+  "adj_close": 9.4
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 305954000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001558370-21-015506"
+ },
+ "burn": {
+  "end": "2021-09-30",
+  "months": 8.9,
+  "per_month": -3590912.7941176468
+ },
+ "shares": {
+  "end": "2021-11-05",
+  "shares": 40287641,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 4,
+  "bought": 6945770,
+  "sold": 167462,
+  "buyers": [
+   "BVF PARTNERS L P/IL"
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "olema pharmaceuticals",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04505826",
+    "drugs": [
+     "OP-1250"
+    ]
+   }
+  ]
+ }
+}

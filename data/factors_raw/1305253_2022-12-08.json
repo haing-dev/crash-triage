@@ -1,0 +1,59 @@
+{
+ "id": "1305253_2022-12-08",
+ "cik": "1305253",
+ "name": "Eiger BioPharmaceuticals, Inc.",
+ "date": "2022-12-08",
+ "asof": "2023-01-07",
+ "final": true,
+ "price": {
+  "date": "2023-01-09",
+  "adj_close": 35.4
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 121008000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001305253-22-000008"
+ },
+ "burn": {
+  "end": "2022-09-30",
+  "months": 8.9,
+  "per_month": -6800094.55882353
+ },
+ "shares": {
+  "end": "2022-11-01",
+  "shares": 44074284,
+  "split_factor": 29.999,
+  "splits_after": [
+   [
+    "2024-04-08",
+    30.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 3,
+  "bought": 127950,
+  "sold": 32406,
+  "buyers": [
+   "Glenn Jeffrey S"
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "eiger biopharmaceuticals",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05070364",
+    "drugs": [
+     "Peginterferon Lambda-1a"
+    ]
+   }
+  ]
+ }
+}

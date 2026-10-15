@@ -1,0 +1,49 @@
+{
+ "id": "1035354_2023-10-16",
+ "cik": "1035354",
+ "name": "Eloxx Pharmaceuticals, Inc.",
+ "date": "2023-10-16",
+ "asof": "2023-11-15",
+ "final": true,
+ "price": {
+  "date": "2023-11-15",
+  "adj_close": 12.1
+ },
+ "balance": {
+  "end": "2023-09-30",
+  "cash": 4775000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-23-062940"
+ },
+ "burn": {
+  "end": "2023-09-30",
+  "months": 8.9,
+  "per_month": -1379872.0588235294
+ },
+ "shares": {
+  "end": "2023-11-08",
+  "shares": 3143390,
+  "split_factor": 11.0,
+  "splits_after": [
+   [
+    "2026-06-01",
+    11.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "eloxx pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

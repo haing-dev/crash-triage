@@ -1,0 +1,85 @@
+{
+ "id": "1503802_2026-07-31",
+ "cik": "1503802",
+ "name": "Karyopharm Therapeutics Inc.",
+ "date": "2026-07-31",
+ "asof": "2026-08-30",
+ "final": true,
+ "price": {
+  "date": "2026-08-31",
+  "adj_close": 2.06
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 65105000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001193125-26-347906"
+ },
+ "burn": {
+  "end": "2026-06-30",
+  "months": 5.9,
+  "per_month": -8059666.444444445
+ },
+ "shares": {
+  "end": "2026-08-06",
+  "shares": 22681460,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "karyopharm therapeutics",
+  "other_trials": 6,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04414475",
+    "drugs": [
+     "Selinexor",
+     "Dexamethasone",
+     "Bortezomib"
+    ]
+   },
+   {
+    "nct": "NCT04562870",
+    "drugs": [
+     "Selinexor",
+     "Physician's Choice Treatment"
+    ]
+   },
+   {
+    "nct": "NCT04442022",
+    "drugs": [
+     "Selinexor (combination therapy)",
+     "Selinexor (combination therapy)",
+     "Selinexor (combination therapy)"
+    ]
+   },
+   {
+    "nct": "NCT05980806",
+    "drugs": [
+     "Selinexor 60 mg",
+     "Selinexor 40 mg",
+     "Ruxolitinib"
+    ]
+   },
+   {
+    "nct": "NCT02227251",
+    "drugs": [
+     "Selinexor",
+     "Selinexor",
+     "Selinexor"
+    ]
+   }
+  ]
+ }
+}

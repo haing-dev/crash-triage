@@ -1,0 +1,53 @@
+{
+ "id": "1759138_2022-08-29",
+ "cik": "1759138",
+ "name": "Cabaletta Bio, Inc.",
+ "date": "2022-08-29",
+ "asof": "2022-09-28",
+ "final": true,
+ "price": {
+  "date": "2022-09-28",
+  "adj_close": 0.65200001
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 96806000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-22-016650"
+ },
+ "burn": {
+  "end": "2022-06-30",
+  "months": 5.9,
+  "per_month": -4115318.888888889
+ },
+ "shares": {
+  "end": "2022-08-05",
+  "shares": 29013995,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "cabaletta bio",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04422912",
+    "drugs": [
+     "DSG3-CAART",
+     "CABA-201"
+    ]
+   }
+  ]
+ }
+}

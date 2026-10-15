@@ -1,0 +1,45 @@
+{
+ "id": "1621221_2025-09-04",
+ "cik": "1621221",
+ "name": "ARTELO BIOSCIENCES, INC.",
+ "date": "2025-09-04",
+ "asof": "2025-10-04",
+ "final": true,
+ "price": {
+  "date": "2025-10-06",
+  "adj_close": 13.47
+ },
+ "balance": {
+  "end": "2025-06-30",
+  "cash": 2066000,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001640334-25-001429"
+ },
+ "burn": {
+  "end": "2025-06-30",
+  "months": 5.9,
+  "per_month": -356993.55555555556
+ },
+ "shares": {
+  "end": "2025-08-12",
+  "shares": 1321552,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "artelo biosciences",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

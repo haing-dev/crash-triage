@@ -1,0 +1,58 @@
+{
+ "id": "1553643_2022-10-13",
+ "cik": "1553643",
+ "name": "RELMADA THERAPEUTICS, INC.",
+ "date": "2022-10-13",
+ "asof": "2022-11-12",
+ "final": true,
+ "price": {
+  "date": "2022-11-14",
+  "adj_close": 6.18
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 184152174,
+  "parts": [
+   "Cash",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001213900-22-071154"
+ },
+ "burn": {
+  "end": "2022-09-30",
+  "months": 8.9,
+  "per_month": -7600903.476029412
+ },
+ "shares": {
+  "end": "2022-11-07",
+  "shares": 30099203,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "relmada therapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04688164",
+    "drugs": [
+     "REL-1017"
+    ]
+   },
+   {
+    "nct": "NCT04855760",
+    "drugs": [
+     "REL-1017"
+    ]
+   }
+  ]
+ }
+}

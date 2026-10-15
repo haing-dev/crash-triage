@@ -1,0 +1,49 @@
+{
+ "id": "764195_2023-04-04",
+ "cik": "764195",
+ "name": "VBI Vaccines Inc/BC",
+ "date": "2023-04-04",
+ "asof": "2023-05-04",
+ "final": true,
+ "price": {
+  "date": "2023-05-04",
+  "adj_close": 2.68
+ },
+ "balance": {
+  "end": "2022-12-31",
+  "cash": 62629000,
+  "parts": [
+   "Cash"
+  ],
+  "accn": "0001493152-23-007351"
+ },
+ "burn": {
+  "end": "2022-12-31",
+  "months": 12.0,
+  "per_month": -6162845.604395605
+ },
+ "shares": {
+  "end": "2023-03-09",
+  "shares": 258257494,
+  "split_factor": 30.0,
+  "splits_after": [
+   [
+    "2023-05-15",
+    30.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 2,
+  "bought": 0,
+  "sold": 1475605,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "vbi vaccines bc",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

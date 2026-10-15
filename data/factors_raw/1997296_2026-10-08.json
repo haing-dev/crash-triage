@@ -1,0 +1,44 @@
+{
+ "id": "1997296_2026-10-08",
+ "cik": "1997296",
+ "name": "Medicus Pharma Ltd.",
+ "date": "2026-10-08",
+ "asof": "2026-10-15",
+ "final": false,
+ "price": {
+  "date": "2026-10-14",
+  "adj_close": 3.0572
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 15174128,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001062993-26-004230"
+ },
+ "burn": {
+  "end": "2026-06-30",
+  "months": 5.9,
+  "per_month": -2697851.370888889
+ },
+ "shares": {
+  "end": "2026-08-10",
+  "shares": 63180610,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": "n/a",
+ "trials": {
+  "query": "medicus pharma",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

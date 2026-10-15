@@ -1,0 +1,55 @@
+{
+ "id": "1835579_2023-11-09",
+ "cik": "1835579",
+ "name": "ImageneBio, Inc.",
+ "date": "2023-11-09",
+ "asof": "2023-12-09",
+ "final": true,
+ "price": {
+  "date": "2023-12-11",
+  "adj_close": 22.92
+ },
+ "balance": {
+  "end": "2023-09-30",
+  "cash": 291533000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0000950170-23-061535"
+ },
+ "burn": {
+  "end": "2023-09-30",
+  "months": 8.9,
+  "per_month": -6482377.05882353
+ },
+ "shares": {
+  "end": "2023-11-01",
+  "shares": 48258111,
+  "split_factor": 1472.448,
+  "splits_after": [
+   [
+    "2025-11-12",
+    43.02
+   ],
+   [
+    "2026-05-07",
+    34.23
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "imagenebio",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

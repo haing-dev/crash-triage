@@ -1,0 +1,85 @@
+{
+ "id": "1425205_2025-05-09",
+ "cik": "1425205",
+ "name": "IOVANCE BIOTHERAPEUTICS, INC.",
+ "date": "2025-05-09",
+ "asof": "2025-06-08",
+ "final": true,
+ "price": {
+  "date": "2025-06-09",
+  "adj_close": 2.21
+ },
+ "balance": {
+  "end": "2025-03-31",
+  "cash": 547758000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001558370-25-007009"
+ },
+ "burn": {
+  "end": "2025-03-31",
+  "months": 2.9,
+  "per_month": -35465678.202247195
+ },
+ "shares": {
+  "end": "2025-04-30",
+  "shares": 333934387,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 8,
+  "bought": 107193,
+  "sold": 0,
+  "buyers": [
+   "Kirby Daniel Gordon",
+   "Puri Raj K.",
+   "Vogt Frederick G"
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "iovance biotherapeutics",
+  "other_trials": 7,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05727904",
+    "drugs": [
+     "Lifileucel plus Pembrolizumab",
+     "Pembrolizumab with Optional Crossover Period"
+    ]
+   },
+   {
+    "nct": "NCT06940739",
+    "drugs": [
+     "IOV-3001"
+    ]
+   },
+   {
+    "nct": "NCT05361174",
+    "drugs": [
+     "IOV-4001"
+    ]
+   },
+   {
+    "nct": "NCT03645928",
+    "drugs": [
+     "Lifileucel",
+     "LN-145",
+     "Pembrolizumab"
+    ]
+   },
+   {
+    "nct": "NCT04614103",
+    "drugs": [
+     "LN-145",
+     "LN-145"
+    ]
+   }
+  ]
+ }
+}

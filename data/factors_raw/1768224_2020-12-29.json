@@ -1,0 +1,62 @@
+{
+ "id": "1768224_2020-12-29",
+ "cik": "1768224",
+ "name": "Arcturus Therapeutics Holdings Inc.",
+ "date": "2020-12-29",
+ "asof": "2021-01-28",
+ "final": true,
+ "price": {
+  "date": "2021-01-28",
+  "adj_close": 65.48
+ },
+ "balance": {
+  "end": "2020-09-30",
+  "cash": 307023000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001564590-20-052527"
+ },
+ "burn": {
+  "end": "2020-09-30",
+  "months": 9.0,
+  "per_month": -4039599.853479854
+ },
+ "shares": {
+  "end": "2020-11-02",
+  "shares": 24493084,
+  "split_factor": 1.0,
+  "splits_after": [
+   [
+    "2023-08-07",
+    1000.0
+   ],
+   [
+    "2024-05-08",
+    0.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 1,
+  "bought": 0,
+  "sold": 464000,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "arcturus therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04480957",
+    "drugs": [
+     "ARCT-021 Dose 1",
+     "ARCT-021 Dose 2",
+     "ARCT-021 Dose 3"
+    ]
+   }
+  ]
+ }
+}

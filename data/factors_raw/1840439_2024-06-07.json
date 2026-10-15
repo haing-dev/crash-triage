@@ -1,0 +1,59 @@
+{
+ "id": "1840439_2024-06-07",
+ "cik": "1840439",
+ "name": "Biomea Fusion, Inc.",
+ "date": "2024-06-07",
+ "asof": "2024-07-07",
+ "final": true,
+ "price": {
+  "date": "2024-07-08",
+  "adj_close": 4.8
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 144918000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-24-052082"
+ },
+ "burn": {
+  "end": "2024-03-31",
+  "months": 3.0,
+  "per_month": -10833257.777777778
+ },
+ "shares": {
+  "end": "2024-04-26",
+  "shares": 35944584,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 7,
+  "bought": 55361,
+  "sold": 0,
+  "buyers": [
+   "Valle Franco"
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "biomea fusion",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06152042",
+    "drugs": [
+     "BMF-219"
+    ]
+   },
+   {
+    "nct": "NCT05731544",
+    "drugs": [
+     "BMF-219"
+    ]
+   }
+  ]
+ }
+}

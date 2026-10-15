@@ -1,0 +1,65 @@
+{
+ "id": "1726711_2025-03-13",
+ "cik": "1726711",
+ "name": "Aditxt, Inc.",
+ "date": "2025-03-13",
+ "asof": "2025-04-12",
+ "final": true,
+ "price": {
+  "date": "2025-04-14",
+  "adj_close": 61020.0
+ },
+ "balance": {
+  "end": "2024-12-31",
+  "cash": 833031,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001213900-25-026256"
+ },
+ "burn": {
+  "end": "2024-12-31",
+  "months": 12.0,
+  "per_month": -1397914.967780822
+ },
+ "shares": {
+  "end": "2025-03-28",
+  "shares": 1159200,
+  "split_factor": 1.3431640235898925e+19,
+  "splits_after": [
+   [
+    "2025-05-15",
+    10005.42
+   ],
+   [
+    "2025-08-14",
+    249.99
+   ],
+   [
+    "2025-11-18",
+    33591.0
+   ],
+   [
+    "2026-03-31",
+    6588.5
+   ],
+   [
+    "2026-05-20",
+    24264.34
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "aditxt",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "id": "1907223_2024-06-21",
+ "cik": "1907223",
+ "name": "Greenland Mines Ltd",
+ "date": "2024-06-21",
+ "asof": "2024-07-21",
+ "final": true,
+ "price": {
+  "date": "2024-07-22",
+  "adj_close": 1.43
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 8051,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001213900-24-046038"
+ },
+ "burn": {
+  "end": "2024-03-31",
+  "months": 3.0,
+  "per_month": -127352.84266666666
+ },
+ "shares": {
+  "end": "2024-05-22",
+  "shares": 5165194,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 1,
+  "bought": 0,
+  "sold": 725162,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "greenland mines",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

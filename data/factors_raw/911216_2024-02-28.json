@@ -1,0 +1,63 @@
+{
+ "id": "911216_2024-02-28",
+ "cik": "911216",
+ "name": "PALATIN TECHNOLOGIES INC",
+ "date": "2024-02-28",
+ "asof": "2024-03-29",
+ "final": true,
+ "price": {
+  "date": "2024-04-01",
+  "adj_close": 88.0
+ },
+ "balance": {
+  "end": "2024-01-31",
+  "cash": 9224056,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001654954-24-001789"
+ },
+ "burn": {
+  "end": "2023-12-31",
+  "months": 6.0,
+  "per_month": -2724975.3265573774
+ },
+ "shares": {
+  "end": "2024-02-13",
+  "shares": 16136640,
+  "split_factor": 49.999,
+  "splits_after": [
+   [
+    "2025-11-14",
+    50.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 1,
+  "bought": 0,
+  "sold": 23434,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "palatin technologies",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05466890",
+    "drugs": [
+     "PL8177"
+    ]
+   },
+   {
+    "nct": "NCT05709444",
+    "drugs": [
+     "Bremelanotide",
+     "RAAS inhibition therapy"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "id": "1205922_2026-03-05",
+ "cik": "1205922",
+ "name": "VACCINEX, INC.",
+ "date": "2026-03-05",
+ "asof": "2026-04-04",
+ "final": true,
+ "price": {
+  "date": "2026-04-06",
+  "adj_close": 0.93
+ },
+ "balance": {
+  "end": "2024-12-31",
+  "cash": 1107000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-25-054318"
+ },
+ "burn": {
+  "end": "2024-12-31",
+  "months": 12.0,
+  "per_month": -1349868.0547945206
+ },
+ "shares": {
+  "end": "2025-04-11",
+  "shares": 2676637,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "vaccinex",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05102721",
+    "drugs": [
+     "Avelumab and Pepinemab"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "id": "1377121_2021-09-17",
+ "cik": "1377121",
+ "name": "Protagonist Therapeutics, Inc",
+ "date": "2021-09-17",
+ "asof": "2021-10-17",
+ "final": true,
+ "price": {
+  "date": "2021-10-18",
+  "adj_close": 30.12
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 380402000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent",
+   "MarketableSecuritiesNoncurrent"
+  ],
+  "accn": "0001558370-21-010244"
+ },
+ "burn": {
+  "end": "2021-06-30",
+  "months": 5.9,
+  "per_month": -8870892.444444444
+ },
+ "shares": {
+  "end": "2021-07-30",
+  "shares": 47550573,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 1,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "protagonist therapeutics",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04767802",
+    "drugs": [
+     "PTG-300"
+    ]
+   },
+   {
+    "nct": "NCT04202965",
+    "drugs": [
+     "PTG-300"
+    ]
+   },
+   {
+    "nct": "NCT04504383",
+    "drugs": [
+     "PN-943"
+    ]
+   },
+   {
+    "nct": "NCT04057040",
+    "drugs": [
+     "PTG-300"
+    ]
+   }
+  ]
+ }
+}

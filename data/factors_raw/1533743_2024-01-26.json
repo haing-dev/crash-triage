@@ -1,0 +1,58 @@
+{
+ "id": "1533743_2024-01-26",
+ "cik": "1533743",
+ "name": "Processa Pharmaceuticals, Inc.",
+ "date": "2024-01-26",
+ "asof": "2024-02-25",
+ "final": true,
+ "price": {
+  "date": "2024-02-26",
+  "adj_close": 53.0
+ },
+ "balance": {
+  "end": "2023-09-30",
+  "cash": 6860672,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001493152-23-040472"
+ },
+ "burn": {
+  "end": "2023-09-30",
+  "months": 8.9,
+  "per_month": -664697.4644117646
+ },
+ "shares": {
+  "end": "2023-11-01",
+  "shares": 24631474,
+  "split_factor": 499.822,
+  "splits_after": [
+   [
+    "2024-03-29",
+    20.0
+   ],
+   [
+    "2026-03-18",
+    24.99
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 5,
+  "bought": 160099,
+  "sold": 0,
+  "buyers": [
+   "Lin Patrick",
+   "Ng George K",
+   "Yorke Justin W",
+   "Young David"
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "processa pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

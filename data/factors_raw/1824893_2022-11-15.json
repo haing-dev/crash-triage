@@ -1,0 +1,64 @@
+{
+ "id": "1824893_2022-11-15",
+ "cik": "1824893",
+ "name": "Surrozen, Inc./DE",
+ "date": "2022-11-15",
+ "asof": "2022-12-15",
+ "final": true,
+ "price": {
+  "date": "2022-12-15",
+  "adj_close": 7.2
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 131259000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "MarketableSecuritiesNoncurrent"
+  ],
+  "accn": "0000950170-22-025096"
+ },
+ "burn": {
+  "end": "2022-09-30",
+  "months": 8.9,
+  "per_month": -4917402.94117647
+ },
+ "shares": {
+  "end": "2022-11-10",
+  "shares": 35122863,
+  "split_factor": 0.015,
+  "splits_after": [
+   [
+    "2023-08-09",
+    0.0
+   ],
+   [
+    "2024-04-10",
+    15.01
+   ],
+   [
+    "2025-08-08",
+    1000.0
+   ],
+   [
+    "2026-08-06",
+    0.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 1,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "surrozen",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

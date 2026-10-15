@@ -1,0 +1,48 @@
+{
+ "id": "1662579_2022-04-08",
+ "cik": "1662579",
+ "name": "C4 Therapeutics, Inc.",
+ "date": "2022-04-08",
+ "asof": "2022-05-08",
+ "final": true,
+ "price": {
+  "date": "2022-05-09",
+  "adj_close": 7.75
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 421652000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent",
+   "MarketableSecuritiesNoncurrent"
+  ],
+  "accn": "0001564590-22-018046"
+ },
+ "burn": {
+  "end": "2022-03-31",
+  "months": 2.9,
+  "per_month": -9096429.662921349
+ },
+ "shares": {
+  "end": "2022-04-25",
+  "shares": 48797226,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 2,
+  "bought": 84000,
+  "sold": 0,
+  "buyers": [
+   "Hirsch Andrew"
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "c4 therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

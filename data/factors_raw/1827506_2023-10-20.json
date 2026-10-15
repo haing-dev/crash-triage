@@ -1,0 +1,59 @@
+{
+ "id": "1827506_2023-10-20",
+ "cik": "1827506",
+ "name": "Tourmaline Bio, Inc.",
+ "date": "2023-10-20",
+ "asof": "2023-11-19",
+ "final": true,
+ "price": {
+  "date": "2023-11-20",
+  "adj_close": 17.65
+ },
+ "balance": {
+  "end": "2023-09-30",
+  "cash": 147024000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001193125-23-277196"
+ },
+ "burn": {
+  "end": "2023-09-30",
+  "months": 8.9,
+  "per_month": -4375973.823529412
+ },
+ "shares": {
+  "end": "2023-11-10",
+  "shares": 20336741,
+  "split_factor": 199.737,
+  "splits_after": [
+   [
+    "2024-03-19",
+    47.03
+   ],
+   [
+    "2024-11-07",
+    4.25
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 15,
+  "bought": 557986,
+  "sold": 0,
+  "buyers": [
+   "Castelein Caley",
+   "KANTOFF AARON",
+   "Kulkarni Sandeep Chidambar",
+   "Thiara Parvinder"
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "tourmaline bio",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

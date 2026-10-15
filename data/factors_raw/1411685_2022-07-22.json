@@ -1,0 +1,71 @@
+{
+ "id": "1411685_2022-07-22",
+ "cik": "1411685",
+ "name": "Vistagen Therapeutics, Inc.",
+ "date": "2022-07-22",
+ "asof": "2022-08-21",
+ "final": true,
+ "price": {
+  "date": "2022-08-22",
+  "adj_close": 5.7
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 51986400,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001851734-22-000432"
+ },
+ "burn": {
+  "end": "2022-06-30",
+  "months": 3.0,
+  "per_month": -5400833.911111111
+ },
+ "shares": {
+  "end": "2022-08-10",
+  "shares": 206836345,
+  "split_factor": 30.0,
+  "splits_after": [
+   [
+    "2023-06-28",
+    30.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 2,
+  "bought": 154110,
+  "sold": 0,
+  "buyers": [
+   "Adler Reid G.",
+   "Singh Shawn"
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "vistagen therapeutics",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05030350",
+    "drugs": [
+     "PH94B"
+    ]
+   },
+   {
+    "nct": "NCT05011396",
+    "drugs": [
+     "PH94B Nasal Spray"
+    ]
+   },
+   {
+    "nct": "NCT04404192",
+    "drugs": [
+     "PH94B"
+    ]
+   }
+  ]
+ }
+}

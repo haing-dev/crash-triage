@@ -1,0 +1,44 @@
+{
+ "id": "1513525_2022-07-20",
+ "cik": "1513525",
+ "name": "ADIAL PHARMACEUTICALS, INC.",
+ "date": "2022-07-20",
+ "asof": "2022-08-19",
+ "final": true,
+ "price": {
+  "date": "2022-08-19",
+  "adj_close": 368.75
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 9156635,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001213900-22-047638"
+ },
+ "burn": {
+  "end": "2022-06-30",
+  "months": 5.9,
+  "per_month": -1019933.4631111112
+ },
+ "shares": {
+  "end": "2022-08-12",
+  "shares": 25853962,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "adial pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

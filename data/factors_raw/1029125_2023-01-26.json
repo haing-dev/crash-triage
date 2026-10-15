@@ -1,0 +1,73 @@
+{
+ "id": "1029125_2023-01-26",
+ "cik": "1029125",
+ "name": "Panbela Therapeutics, Inc.",
+ "date": "2023-01-26",
+ "asof": "2023-02-25",
+ "final": true,
+ "price": {
+  "date": "2023-02-27",
+  "adj_close": 714.0
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 941000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001437749-22-026909"
+ },
+ "burn": {
+  "end": "2022-09-30",
+  "months": 8.9,
+  "per_month": -1149669.5588235294
+ },
+ "shares": {
+  "end": "2022-11-08",
+  "shares": 31711962,
+  "split_factor": 595444471.623,
+  "splits_after": [
+   [
+    "2023-05-04",
+    40.02
+   ],
+   [
+    "2023-08-10",
+    1221.73
+   ],
+   [
+    "2024-03-26",
+    608.72
+   ],
+   [
+    "2024-08-13",
+    20.01
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 2,
+  "bought": 0,
+  "sold": 0,
+  "buyers": [
+   "Horvath Susan",
+   "Simpson Jennifer K."
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "panbela therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05254171",
+    "drugs": [
+     "SBP-101",
+     "Nab-paclitaxel",
+     "Gemcitabine"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "id": "1253689_2023-02-15",
+ "cik": "1253689",
+ "name": "CRESCENT BIOPHARMA, INC.",
+ "date": "2023-02-15",
+ "asof": "2023-03-17",
+ "final": true,
+ "price": {
+  "date": "2023-03-17",
+  "adj_close": 140.0
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 51624781,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-22-017036"
+ },
+ "burn": {
+  "end": "2022-09-30",
+  "months": 8.9,
+  "per_month": -4313741.8175
+ },
+ "shares": {
+  "end": "2022-11-07",
+  "shares": 52423944,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 3,
+  "bought": 3910184,
+  "sold": 0,
+  "buyers": [
+   "Invus Public Equities, L.P."
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "crescent biopharma",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

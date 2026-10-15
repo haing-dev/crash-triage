@@ -1,0 +1,53 @@
+{
+ "id": "1557746_2023-11-13",
+ "cik": "1557746",
+ "name": "Aclaris Therapeutics, Inc.",
+ "date": "2023-11-13",
+ "asof": "2023-12-13",
+ "final": true,
+ "price": {
+  "date": "2023-12-13",
+  "adj_close": 1.09
+ },
+ "balance": {
+  "end": "2023-09-30",
+  "cash": 186996000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0001558370-23-017660"
+ },
+ "burn": {
+  "end": "2023-09-30",
+  "months": 8.9,
+  "per_month": -8008853.529411765
+ },
+ "shares": {
+  "end": "2023-10-31",
+  "shares": 70836194,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "aclaris therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05511519",
+    "drugs": [
+     "ATI-450"
+    ]
+   }
+  ]
+ }
+}

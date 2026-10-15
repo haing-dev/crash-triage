@@ -1,0 +1,50 @@
+{
+ "id": "1809616_2025-02-04",
+ "cik": "1809616",
+ "name": "Universe Pharmaceuticals INC",
+ "date": "2025-02-04",
+ "asof": "2025-03-06",
+ "final": true,
+ "price": {
+  "date": "2025-03-06",
+  "adj_close": 4.92
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 11389193,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001213900-24-080675"
+ },
+ "burn": {
+  "end": "2024-03-31",
+  "months": 6.0,
+  "per_month": -406360.787032967
+ },
+ "shares": {
+  "end": "2023-09-30",
+  "shares": 3645974,
+  "split_factor": 599.967,
+  "splits_after": [
+   [
+    "2025-04-29",
+    599.97
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "universe pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

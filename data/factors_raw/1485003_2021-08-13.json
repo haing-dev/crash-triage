@@ -1,0 +1,53 @@
+{
+ "id": "1485003_2021-08-13",
+ "cik": "1485003",
+ "name": "Carisma Therapeutics Inc.",
+ "date": "2021-08-13",
+ "asof": "2021-09-12",
+ "final": true,
+ "price": {
+  "date": "2021-09-13",
+  "adj_close": 10.5807
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 151036000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001485003-21-000176"
+ },
+ "burn": {
+  "end": "2021-06-30",
+  "months": 5.9,
+  "per_month": -7037728.0
+ },
+ "shares": {
+  "end": "2021-08-02",
+  "shares": 196002620,
+  "split_factor": 96827.843,
+  "splits_after": [
+   [
+    "2023-05-11",
+    96.83
+   ],
+   [
+    "2025-11-12",
+    1000.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "carisma therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

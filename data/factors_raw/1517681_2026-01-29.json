@@ -1,0 +1,49 @@
+{
+ "id": "1517681_2026-01-29",
+ "cik": "1517681",
+ "name": "Propanc Biopharma, Inc.",
+ "date": "2026-01-29",
+ "asof": "2026-02-28",
+ "final": true,
+ "price": {
+  "date": "2026-03-02",
+  "adj_close": 4.5525
+ },
+ "balance": {
+  "end": "2025-12-31",
+  "cash": 561237,
+  "parts": [
+   "Cash"
+  ],
+  "accn": "0001493152-26-007052"
+ },
+ "burn": {
+  "end": "2025-12-31",
+  "months": 6.0,
+  "per_month": -488737.8201092896
+ },
+ "shares": {
+  "end": "2026-02-16",
+  "shares": 15859280,
+  "split_factor": 25.0,
+  "splits_after": [
+   [
+    "2026-07-17",
+    25.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "propanc biopharma",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

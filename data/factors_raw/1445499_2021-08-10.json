@@ -1,0 +1,46 @@
+{
+ "id": "1445499_2021-08-10",
+ "cik": "1445499",
+ "name": "IPI Legacy Liquidation Co",
+ "date": "2021-08-10",
+ "asof": "2021-09-09",
+ "final": true,
+ "price": {
+  "date": "2021-09-09",
+  "adj_close": 21.13
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 60948000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-21-001473"
+ },
+ "burn": {
+  "end": "2021-06-30",
+  "months": 5.9,
+  "per_month": -4387418.666666667
+ },
+ "shares": {
+  "end": "2021-08-11",
+  "shares": 19509619,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 1,
+  "bought": 279790,
+  "sold": 0,
+  "buyers": [
+   "ADAMS ADRIAN"
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "ipi legacy liquidation",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

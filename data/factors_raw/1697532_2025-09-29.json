@@ -1,0 +1,44 @@
+{
+ "id": "1697532_2025-09-29",
+ "cik": "1697532",
+ "name": "Applied Therapeutics, Inc.",
+ "date": "2025-09-29",
+ "asof": "2025-10-29",
+ "final": true,
+ "price": {
+  "date": "2025-10-29",
+  "adj_close": 1.22
+ },
+ "balance": {
+  "end": "2025-06-30",
+  "cash": 30421000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-25-108172"
+ },
+ "burn": {
+  "end": "2025-06-30",
+  "months": 5.9,
+  "per_month": -8282554.888888889
+ },
+ "shares": {
+  "end": "2025-08-12",
+  "shares": 144012125,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 1,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "applied therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

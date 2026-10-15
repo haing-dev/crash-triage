@@ -1,0 +1,49 @@
+{
+ "id": "1859007_2024-11-06",
+ "cik": "1859007",
+ "name": "ZyVersa Therapeutics, Inc.",
+ "date": "2024-11-06",
+ "asof": "2024-12-06",
+ "final": true,
+ "price": {
+  "date": "2024-12-06",
+  "adj_close": 1.02
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 122921,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0001493152-24-045351"
+ },
+ "burn": {
+  "end": "2024-09-30",
+  "months": 9.0,
+  "per_month": -706374.0262271063
+ },
+ "shares": {
+  "end": "2024-11-11",
+  "shares": 2344191,
+  "split_factor": 10.0,
+  "splits_after": [
+   [
+    "2025-03-27",
+    10.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "zyversa therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

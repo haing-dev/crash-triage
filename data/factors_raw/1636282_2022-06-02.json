@@ -1,0 +1,52 @@
+{
+ "id": "1636282_2022-06-02",
+ "cik": "1636282",
+ "name": "Spyre Therapeutics, Inc.",
+ "date": "2022-06-02",
+ "asof": "2022-07-02",
+ "final": true,
+ "price": {
+  "date": "2022-07-05",
+  "adj_close": 12.575
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 66725000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001564590-22-018006"
+ },
+ "burn": {
+  "end": "2022-03-31",
+  "months": 2.9,
+  "per_month": -8982536.17977528
+ },
+ "shares": {
+  "end": "2022-04-28",
+  "shares": 50419822,
+  "split_factor": 25.0,
+  "splits_after": [
+   [
+    "2023-11-09",
+    25.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 9,
+  "bought": 20022,
+  "sold": 0,
+  "buyers": [
+   "Hanley Jr. Michael Conick"
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "spyre therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

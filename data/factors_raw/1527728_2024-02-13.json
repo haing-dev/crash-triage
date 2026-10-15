@@ -1,0 +1,61 @@
+{
+ "id": "1527728_2024-02-13",
+ "cik": "1527728",
+ "name": "Lunai Bioworks Inc.",
+ "date": "2024-02-13",
+ "asof": "2024-03-14",
+ "final": true,
+ "price": {
+  "date": "2024-03-14",
+  "adj_close": 250.39999
+ },
+ "balance": {
+  "end": "2023-12-31",
+  "cash": 243980,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001731122-24-000248"
+ },
+ "burn": {
+  "end": "2023-12-31",
+  "months": 6.0,
+  "per_month": -985362.7606557377
+ },
+ "shares": {
+  "end": "2024-02-14",
+  "shares": 143668372,
+  "split_factor": 7828.721,
+  "splits_after": [
+   [
+    "2025-02-19",
+    156567973.0
+   ],
+   [
+    "2025-11-14",
+    0.0
+   ],
+   [
+    "2026-02-17",
+    10.0
+   ],
+   [
+    "2026-10-13",
+    80.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 8,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "lunai bioworks",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

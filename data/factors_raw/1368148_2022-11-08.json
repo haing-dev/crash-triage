@@ -1,0 +1,51 @@
+{
+ "id": "1368148_2022-11-08",
+ "cik": "1368148",
+ "name": "ATHERSYS, INC / NEW",
+ "date": "2022-11-08",
+ "asof": "2022-12-08",
+ "final": true,
+ "price": {
+  "date": "2022-12-08",
+  "adj_close": 0.6601
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 13782000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001368148-22-000152"
+ },
+ "burn": {
+  "end": "2022-09-30",
+  "months": 8.9,
+  "per_month": -5258733.823529412
+ },
+ "shares": {
+  "end": "2022-11-07",
+  "shares": 12933736,
+  "split_factor": 1000.0,
+  "splits_after": [
+   [
+    "2023-11-16",
+    1000.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 1,
+  "bought": 54960,
+  "sold": 0,
+  "buyers": [
+   "Camardo Daniel A."
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "athersys new",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

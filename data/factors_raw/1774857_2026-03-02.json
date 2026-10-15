@@ -1,0 +1,58 @@
+{
+ "id": "1774857_2026-03-02",
+ "cik": "1774857",
+ "name": "Aardvark Therapeutics, Inc.",
+ "date": "2026-03-02",
+ "asof": "2026-04-01",
+ "final": true,
+ "price": {
+  "date": "2026-04-01",
+  "adj_close": 4.09
+ },
+ "balance": {
+  "end": "2025-12-31",
+  "cash": 110027000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001193125-26-119770"
+ },
+ "burn": {
+  "end": "2025-12-31",
+  "months": 12.0,
+  "per_month": -4530207.912087913
+ },
+ "shares": {
+  "end": "2026-02-28",
+  "shares": 21816041,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "aardvark therapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06828861",
+    "drugs": [
+     "ARD-101"
+    ]
+   },
+   {
+    "nct": "NCT07197034",
+    "drugs": [
+     "ARD-101"
+    ]
+   }
+  ]
+ }
+}

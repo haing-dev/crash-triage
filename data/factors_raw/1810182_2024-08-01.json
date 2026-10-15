@@ -1,0 +1,62 @@
+{
+ "id": "1810182_2024-08-01",
+ "cik": "1810182",
+ "name": "ALX ONCOLOGY HOLDINGS INC",
+ "date": "2024-08-01",
+ "asof": "2024-08-31",
+ "final": true,
+ "price": {
+  "date": "2024-09-03",
+  "adj_close": 2.14
+ },
+ "balance": {
+  "end": "2024-06-30",
+  "cash": 186198000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments",
+   "LongTermInvestments"
+  ],
+  "accn": "0000950170-24-095391"
+ },
+ "burn": {
+  "end": "2024-06-30",
+  "months": 5.9,
+  "per_month": -10845721.546961326
+ },
+ "shares": {
+  "end": "2024-08-01",
+  "shares": 52671790,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 6,
+  "bought": 0,
+  "sold": 9974,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "alx oncology",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04675294",
+    "drugs": [
+     "evorpacept",
+     "pembrolizumab"
+    ]
+   },
+   {
+    "nct": "NCT04675333",
+    "drugs": [
+     "evorpacept",
+     "pembrolizumab",
+     "Cisplatin/Carboplatin; 5FU"
+    ]
+   }
+  ]
+ }
+}

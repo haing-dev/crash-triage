@@ -1,0 +1,75 @@
+{
+ "id": "1501697_2021-12-13",
+ "cik": "1501697",
+ "name": "X4 Pharmaceuticals, Inc",
+ "date": "2021-12-13",
+ "asof": "2022-01-12",
+ "final": true,
+ "price": {
+  "date": "2022-01-12",
+  "adj_close": 65.099998
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 76393000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001628280-21-021795"
+ },
+ "burn": {
+  "end": "2021-09-30",
+  "months": 8.9,
+  "per_month": -5802848.823529412
+ },
+ "shares": {
+  "end": "2021-10-29",
+  "shares": 24708073,
+  "split_factor": 30.0,
+  "splits_after": [
+   [
+    "2025-05-01",
+    30.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "x4 pharmaceuticals",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03005327",
+    "drugs": [
+     "X4P-001"
+    ]
+   },
+   {
+    "nct": "NCT03995108",
+    "drugs": [
+     "Mavorixafor"
+    ]
+   },
+   {
+    "nct": "NCT04154488",
+    "drugs": [
+     "Mavorixafor"
+    ]
+   },
+   {
+    "nct": "NCT02667886",
+    "drugs": [
+     "X4P-001",
+     "axitinib"
+    ]
+   }
+  ]
+ }
+}

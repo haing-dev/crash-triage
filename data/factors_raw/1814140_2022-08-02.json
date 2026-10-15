@@ -1,0 +1,53 @@
+{
+ "id": "1814140_2022-08-02",
+ "cik": "1814140",
+ "name": "Apexigen, Inc.",
+ "date": "2022-08-02",
+ "asof": "2022-09-01",
+ "final": true,
+ "price": {
+  "date": "2022-09-01",
+  "adj_close": 4.85
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 76970,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0001193125-22-224171"
+ },
+ "burn": {
+  "end": "2022-06-30",
+  "months": 5.9,
+  "per_month": -70255.35088888889
+ },
+ "shares": {
+  "end": "2022-08-17",
+  "shares": 21448663,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "apexigen",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03165994",
+    "drugs": [
+     "APX005M",
+     "Radiation Therapy",
+     "Paclitaxel"
+    ]
+   }
+  ]
+ }
+}

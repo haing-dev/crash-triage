@@ -1,0 +1,74 @@
+{
+ "id": "1862150_2024-02-02",
+ "cik": "1862150",
+ "name": "Cingulate Inc.",
+ "date": "2024-02-02",
+ "asof": "2024-03-03",
+ "final": true,
+ "price": {
+  "date": "2024-03-04",
+  "adj_close": 14.16
+ },
+ "balance": {
+  "end": "2023-09-30",
+  "cash": 1986313,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001493152-23-040540"
+ },
+ "burn": {
+  "end": "2023-09-30",
+  "months": 8.9,
+  "per_month": -1395782.7782352942
+ },
+ "shares": {
+  "end": "2023-11-10",
+  "shares": 18740006,
+  "split_factor": 54074.67,
+  "splits_after": [
+   [
+    "2024-04-01",
+    18.78
+   ],
+   [
+    "2024-11-07",
+    240.0
+   ],
+   [
+    "2025-03-27",
+    12.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "cingulate",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05924594",
+    "drugs": [
+     "CTx-1301 - Dexmethylphenidate 6.25mg",
+     "CTx-1301 - Dexmethylphenidate 12.5mg",
+     "CTx-1301 - Dexmethylphenidate 18.75mg"
+    ]
+   },
+   {
+    "nct": "NCT05286762",
+    "drugs": [
+     "CTx-1301-Dexmethylphenidate 12.5 mg (titration only)",
+     "CTx-1301-Dexmethylphenidate 18.75mg (randomized fixed dose)",
+     "CTx-1301-Dexmethylphenidate 25mg (randomized fixed dose)"
+    ]
+   }
+  ]
+ }
+}

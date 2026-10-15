@@ -1,0 +1,44 @@
+{
+ "id": "1601485_2026-06-15",
+ "cik": "1601485",
+ "name": "Elicio Therapeutics, Inc.",
+ "date": "2026-06-15",
+ "asof": "2026-07-15",
+ "final": true,
+ "price": {
+  "date": "2026-07-15",
+  "adj_close": 3.04
+ },
+ "balance": {
+  "end": "2026-03-31",
+  "cash": 14948000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001601485-26-000042"
+ },
+ "burn": {
+  "end": "2026-03-31",
+  "months": 2.9,
+  "per_month": -3982851.6853932585
+ },
+ "shares": {
+  "end": "2026-05-08",
+  "shares": 19086081,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "elicio therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "id": "1535955_2026-04-02",
+ "cik": "1535955",
+ "name": "Lipocine Inc.",
+ "date": "2026-04-02",
+ "asof": "2026-05-02",
+ "final": true,
+ "price": {
+  "date": "2026-05-04",
+  "adj_close": 2.29
+ },
+ "balance": {
+  "end": "2025-12-31",
+  "cash": 14930387,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001493152-26-009411"
+ },
+ "burn": {
+  "end": "2025-12-31",
+  "months": 12.0,
+  "per_month": -816253.7012087912
+ },
+ "shares": {
+  "end": "2026-03-09",
+  "shares": 7299687,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 4,
+  "bought": 434600,
+  "sold": 0,
+  "buyers": [
+   "Higuchi John W.",
+   "Patel Mahesh V."
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "lipocine",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

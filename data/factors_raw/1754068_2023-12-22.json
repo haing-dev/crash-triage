@@ -1,0 +1,59 @@
+{
+ "id": "1754068_2023-12-22",
+ "cik": "1754068",
+ "name": "Kalaris Therapeutics, Inc.",
+ "date": "2023-12-22",
+ "asof": "2024-01-21",
+ "final": true,
+ "price": {
+  "date": "2024-01-22",
+  "adj_close": 15.64
+ },
+ "balance": {
+  "end": "2023-09-30",
+  "cash": 331009000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0000950170-23-058145"
+ },
+ "burn": {
+  "end": "2023-09-30",
+  "months": 8.9,
+  "per_month": -10487922.94117647
+ },
+ "shares": {
+  "end": "2023-10-27",
+  "shares": 114063336,
+  "split_factor": 7534.612,
+  "splits_after": [
+   [
+    "2025-03-07",
+    23.0
+   ],
+   [
+    "2025-05-14",
+    87.38
+   ],
+   [
+    "2026-03-17",
+    3.75
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 5,
+  "bought": 0,
+  "sold": 22984,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "kalaris therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

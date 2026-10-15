@@ -1,0 +1,46 @@
+{
+ "id": "1176309_2023-01-12",
+ "cik": "1176309",
+ "name": "ORAMED PHARMACEUTICALS INC.",
+ "date": "2023-01-12",
+ "asof": "2023-02-11",
+ "final": true,
+ "price": {
+  "date": "2023-02-13",
+  "adj_close": 2.16
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 41130000,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+   "MarketableSecuritiesCurrent",
+   "LongTermInvestments"
+  ],
+  "accn": "0001213900-22-071222"
+ },
+ "burn": {
+  "end": "2022-09-30",
+  "months": 8.9,
+  "per_month": -2222120.0
+ },
+ "shares": {
+  "end": "2022-11-10",
+  "shares": 39114736,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "oramed pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

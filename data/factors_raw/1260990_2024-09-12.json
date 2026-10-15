@@ -1,0 +1,74 @@
+{
+ "id": "1260990_2024-09-12",
+ "cik": "1260990",
+ "name": "Oncternal Therapeutics, Inc.",
+ "date": "2024-09-12",
+ "asof": "2024-10-12",
+ "final": true,
+ "price": {
+  "date": "2024-10-14",
+  "adj_close": 1.05
+ },
+ "balance": {
+  "end": "2024-06-30",
+  "cash": 21429000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-24-094082"
+ },
+ "burn": {
+  "end": "2024-06-30",
+  "months": 5.9,
+  "per_month": -2230024.309392265
+ },
+ "shares": {
+  "end": "2024-08-01",
+  "shares": 2959645,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "oncternal therapeutics",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05588440",
+    "drugs": [
+     "ONCT-808",
+     "Bridging Therapy"
+    ]
+   },
+   {
+    "nct": "NCT05917470",
+    "drugs": [
+     "ONCT-534"
+    ]
+   },
+   {
+    "nct": "NCT05431179",
+    "drugs": [
+     "Zilovertamab",
+     "Ibrutinib"
+    ]
+   },
+   {
+    "nct": "NCT03088878",
+    "drugs": [
+     "Cirmtuzumab (2-16 kg/mg) plus Ibrutinib",
+     "Cirmtuzumab (300mg) plus Ibrutinib",
+     "Cirmtuzumab (600 mg) plus ibrutinib"
+    ]
+   }
+  ]
+ }
+}

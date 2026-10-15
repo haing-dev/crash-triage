@@ -1,0 +1,53 @@
+{
+ "id": "1659617_2026-02-19",
+ "cik": "1659617",
+ "name": "Moleculin Biotech, Inc.",
+ "date": "2026-02-19",
+ "asof": "2026-03-21",
+ "final": true,
+ "price": {
+  "date": "2026-03-23",
+  "adj_close": 2.1
+ },
+ "balance": {
+  "end": "2025-12-31",
+  "cash": 8878000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001437749-26-008841"
+ },
+ "burn": {
+  "end": "2025-12-31",
+  "months": 12.0,
+  "per_month": -1901245.6043956045
+ },
+ "shares": {
+  "end": "2026-03-11",
+  "shares": 5336350,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "moleculin biotech",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06788756",
+    "drugs": [
+     "Liposomal Annamycin Injection in combination with Cytarabine Injection",
+     "Liposomal Annamycin Injection in combination with Cytarabine Injection",
+     "Liposomal Annamycin for Injection in combination with Cytarabine Injection."
+    ]
+   }
+  ]
+ }
+}

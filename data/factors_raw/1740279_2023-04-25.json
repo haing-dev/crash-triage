@@ -1,0 +1,49 @@
+{
+ "id": "1740279_2023-04-25",
+ "cik": "1740279",
+ "name": "IN8BIO, INC.",
+ "date": "2023-04-25",
+ "asof": "2023-05-25",
+ "final": true,
+ "price": {
+  "date": "2023-05-25",
+  "adj_close": 77.7
+ },
+ "balance": {
+  "end": "2023-03-31",
+  "cash": 11113000,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0000950170-23-021507"
+ },
+ "burn": {
+  "end": "2023-03-31",
+  "months": 2.9,
+  "per_month": -2544305.1685393257
+ },
+ "shares": {
+  "end": "2023-05-07",
+  "shares": 29750348,
+  "split_factor": 29.998,
+  "splits_after": [
+   [
+    "2025-08-07",
+    30.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 1,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "in8bio",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

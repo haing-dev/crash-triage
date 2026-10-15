@@ -1,0 +1,55 @@
+{
+ "id": "1300699_2022-08-11",
+ "cik": "1300699",
+ "name": "Athenex, Inc.",
+ "date": "2022-08-11",
+ "asof": "2022-09-10",
+ "final": true,
+ "price": {
+  "date": "2022-09-12",
+  "adj_close": 9.05
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 23328000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-22-013461"
+ },
+ "burn": {
+  "end": "2021-09-30",
+  "months": 8.9,
+  "per_month": -11635018.529411765
+ },
+ "shares": {
+  "end": "2022-07-22",
+  "shares": 121608388,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 15,
+  "bought": 13319,
+  "sold": 0,
+  "buyers": [
+   "LAU JOHNSON YIU NAM",
+   "WU JINN"
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "athenex",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03544567",
+    "drugs": [
+     "Oraxol"
+    ]
+   }
+  ]
+ }
+}

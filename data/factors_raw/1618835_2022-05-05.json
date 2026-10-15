@@ -1,0 +1,55 @@
+{
+ "id": "1618835_2022-05-05",
+ "cik": "1618835",
+ "name": "Evofem Biosciences, Inc.",
+ "date": "2022-05-05",
+ "asof": "2022-06-04",
+ "final": true,
+ "price": {
+  "date": "2022-06-06",
+  "adj_close": 0.3596
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 2761000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001618835-22-000110"
+ },
+ "burn": {
+  "end": "2022-03-31",
+  "months": 2.9,
+  "per_month": -7154768.08988764
+ },
+ "shares": {
+  "end": "2022-05-09",
+  "shares": 12713254,
+  "split_factor": 1875.04,
+  "splits_after": [
+   [
+    "2022-08-12",
+    15.0
+   ],
+   [
+    "2023-06-16",
+    125.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 6,
+  "bought": 49702,
+  "sold": 0,
+  "buyers": [
+   "PELLETIER SAUNDRA L"
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "evofem biosciences",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

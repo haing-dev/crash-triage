@@ -1,0 +1,45 @@
+{
+ "id": "1522602_2023-11-01",
+ "cik": "1522602",
+ "name": "CohBar, Inc.",
+ "date": "2023-11-01",
+ "asof": "2023-12-01",
+ "final": true,
+ "price": {
+  "date": "2023-12-01",
+  "adj_close": 0.785
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 12311355,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001213900-23-067030"
+ },
+ "burn": {
+  "end": "2023-06-30",
+  "months": 5.9,
+  "per_month": -580281.6095555556
+ },
+ "shares": {
+  "end": "2023-08-07",
+  "shares": 2906926,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "cohbar",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

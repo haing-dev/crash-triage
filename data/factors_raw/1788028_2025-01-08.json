@@ -1,0 +1,74 @@
+{
+ "id": "1788028_2025-01-08",
+ "cik": "1788028",
+ "name": "Jasper Therapeutics, Inc.",
+ "date": "2025-01-08",
+ "asof": "2025-02-07",
+ "final": true,
+ "price": {
+  "date": "2025-02-07",
+  "adj_close": 6.14
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 92502000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001213900-24-095173"
+ },
+ "burn": {
+  "end": "2024-09-30",
+  "months": 9.0,
+  "per_month": -4623757.948717949
+ },
+ "shares": {
+  "end": "2023-10-31",
+  "shares": 111575261,
+  "split_factor": 10.0,
+  "splits_after": [
+   [
+    "2024-03-05",
+    10.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "jasper therapeutics",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06353971",
+    "drugs": [
+     "Briquilimab"
+    ]
+   },
+   {
+    "nct": "NCT06162728",
+    "drugs": [
+     "Briquilimab"
+    ]
+   },
+   {
+    "nct": "NCT02963064",
+    "drugs": [
+     "Humanized anti-CD117 Monoclonal Antibody (JSP191)"
+    ]
+   },
+   {
+    "nct": "NCT06736262",
+    "drugs": [
+     "Briquilimab"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "id": "1719714_2025-12-29",
+ "cik": "1719714",
+ "name": "Mereo BioPharma Group plc",
+ "date": "2025-12-29",
+ "asof": "2026-01-28",
+ "final": true,
+ "price": {
+  "date": "2026-01-28",
+  "adj_close": 0.449
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 48698000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001193125-25-274272"
+ },
+ "burn": {
+  "end": "2025-09-30",
+  "months": 8.9,
+  "per_month": -2606313.088235294
+ },
+ "shares": {
+  "end": "2025-11-10",
+  "shares": 795658504,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "mereo biopharma",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

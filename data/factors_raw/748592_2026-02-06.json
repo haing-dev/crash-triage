@@ -1,0 +1,55 @@
+{
+ "id": "748592_2026-02-06",
+ "cik": "748592",
+ "name": "Ernexa Therapeutics Inc.",
+ "date": "2026-02-06",
+ "asof": "2026-03-08",
+ "final": true,
+ "price": {
+  "date": "2026-03-09",
+  "adj_close": 7.0
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 3047000,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0001493152-25-021287"
+ },
+ "burn": {
+  "end": "2025-09-30",
+  "months": 8.9,
+  "per_month": -656810.1470588235
+ },
+ "shares": {
+  "end": "2025-11-07",
+  "shares": 7848889,
+  "split_factor": 9401.804,
+  "splits_after": [
+   [
+    "2026-05-11",
+    375.78
+   ],
+   [
+    "2026-08-06",
+    25.02
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 1,
+  "bought": 2000000,
+  "sold": 0,
+  "buyers": [
+   "Cherington Charles"
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "ernexa therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

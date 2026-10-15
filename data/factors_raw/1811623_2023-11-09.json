@@ -1,0 +1,45 @@
+{
+ "id": "1811623_2023-11-09",
+ "cik": "1811623",
+ "name": "Kuvatris Therapeutics, Inc.",
+ "date": "2023-11-09",
+ "asof": "2023-12-09",
+ "final": true,
+ "price": {
+  "date": "2023-12-11",
+  "adj_close": 0.7154
+ },
+ "balance": {
+  "end": "2023-09-30",
+  "cash": 1152961,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001558370-23-019143"
+ },
+ "burn": {
+  "end": "2023-09-30",
+  "months": 8.9,
+  "per_month": -912218.5338235294
+ },
+ "shares": {
+  "end": "2023-11-15",
+  "shares": 2292715,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 6,
+  "bought": 0,
+  "sold": 774,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "kuvatris therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

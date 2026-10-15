@@ -1,0 +1,64 @@
+{
+ "id": "1658551_2024-03-08",
+ "cik": "1658551",
+ "name": "Amylyx Pharmaceuticals, Inc.",
+ "date": "2024-03-08",
+ "asof": "2024-04-07",
+ "final": true,
+ "price": {
+  "date": "2024-04-08",
+  "adj_close": 2.69
+ },
+ "balance": {
+  "end": "2023-12-31",
+  "cash": 371362000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-24-018447"
+ },
+ "burn": {
+  "end": "2023-12-31",
+  "months": 12.0,
+  "per_month": 996742.7472527473
+ },
+ "shares": {
+  "end": "2024-02-12",
+  "shares": 67782139,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 1,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "amylyx pharmaceuticals",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06122662",
+    "drugs": [
+     "AMX0035"
+    ]
+   },
+   {
+    "nct": "NCT05676034",
+    "drugs": [
+     "AMX0035"
+    ]
+   },
+   {
+    "nct": "NCT05619783",
+    "drugs": [
+     "AMX0035"
+    ]
+   }
+  ]
+ }
+}

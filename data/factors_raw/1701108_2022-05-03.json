@@ -1,0 +1,45 @@
+{
+ "id": "1701108_2022-05-03",
+ "cik": "1701108",
+ "name": "Spero Therapeutics, Inc.",
+ "date": "2022-05-03",
+ "asof": "2022-06-02",
+ "final": true,
+ "price": {
+  "date": "2022-06-02",
+  "adj_close": 1.04
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 121966000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-22-010064"
+ },
+ "burn": {
+  "end": "2022-03-31",
+  "months": 2.9,
+  "per_month": -9652900.224719102
+ },
+ "shares": {
+  "end": "2022-05-12",
+  "shares": 32821544,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "spero therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

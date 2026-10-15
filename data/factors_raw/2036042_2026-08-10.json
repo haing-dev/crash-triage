@@ -1,0 +1,44 @@
+{
+ "id": "2036042_2026-08-10",
+ "cik": "2036042",
+ "name": "Sionna Therapeutics, Inc.",
+ "date": "2026-08-10",
+ "asof": "2026-09-09",
+ "final": true,
+ "price": {
+  "date": "2026-09-09",
+  "adj_close": 7.48
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 63322000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001628280-26-053839"
+ },
+ "burn": {
+  "end": "2026-06-30",
+  "months": 5.9,
+  "per_month": -7451035.555555556
+ },
+ "shares": {
+  "end": "2026-07-31",
+  "shares": 45212399,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "sionna therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

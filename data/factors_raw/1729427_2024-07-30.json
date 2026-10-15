@@ -1,0 +1,65 @@
+{
+ "id": "1729427_2024-07-30",
+ "cik": "1729427",
+ "name": "CNS Pharmaceuticals, Inc.",
+ "date": "2024-07-30",
+ "asof": "2024-08-29",
+ "final": true,
+ "price": {
+  "date": "2024-08-29",
+  "adj_close": 88.2
+ },
+ "balance": {
+  "end": "2024-06-30",
+  "cash": 1491559,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001683168-24-005711"
+ },
+ "burn": {
+  "end": "2024-06-30",
+  "months": 5.9,
+  "per_month": -814387.7237569061
+ },
+ "shares": {
+  "end": "2024-08-14",
+  "shares": 32146403,
+  "split_factor": 18095529.104,
+  "splits_after": [
+   [
+    "2025-03-31",
+    2499.92
+   ],
+   [
+    "2025-08-14",
+    602.63
+   ],
+   [
+    "2026-03-31",
+    12.01
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 1,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "cns pharmaceuticals",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04762069",
+    "drugs": [
+     "Berubicin",
+     "Lomustine"
+    ]
+   }
+  ]
+ }
+}

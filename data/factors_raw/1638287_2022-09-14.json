@@ -1,0 +1,57 @@
+{
+ "id": "1638287_2022-09-14",
+ "cik": "1638287",
+ "name": "MetaVia Inc.",
+ "date": "2022-09-14",
+ "asof": "2022-10-14",
+ "final": true,
+ "price": {
+  "date": "2022-10-14",
+  "adj_close": 1122.0
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 8849000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-22-013500"
+ },
+ "burn": {
+  "end": "2022-06-30",
+  "months": 5.9,
+  "per_month": -1276112.4444444445
+ },
+ "shares": {
+  "end": "2022-08-11",
+  "shares": 26661771,
+  "split_factor": 2640.144,
+  "splits_after": [
+   [
+    "2022-11-14",
+    30.0
+   ],
+   [
+    "2024-03-28",
+    8.0
+   ],
+   [
+    "2026-03-26",
+    11.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "metavia",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

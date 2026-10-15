@@ -1,0 +1,74 @@
+{
+ "id": "1770069_2026-07-27",
+ "cik": "1770069",
+ "name": "MapLight Therapeutics, Inc.",
+ "date": "2026-07-27",
+ "asof": "2026-08-26",
+ "final": true,
+ "price": {
+  "date": "2026-08-26",
+  "adj_close": 12.86
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 351341000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments",
+   "LongTermInvestments"
+  ],
+  "accn": "0001193125-26-349554"
+ },
+ "burn": {
+  "end": "2026-06-30",
+  "months": 5.9,
+  "per_month": -16242784.0
+ },
+ "shares": {
+  "end": "2026-03-19",
+  "shares": 42436326,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 10,
+  "bought": 65535496,
+  "sold": 276908,
+  "buyers": [
+   "Catalyst4, Inc.",
+   "Cox Troy"
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "maplight therapeutics",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT07459647",
+    "drugs": [
+     "ML-007C-MA"
+    ]
+   },
+   {
+    "nct": "NCT07459660",
+    "drugs": [
+     "ML-007C-MA"
+    ]
+   },
+   {
+    "nct": "NCT06887192",
+    "drugs": [
+     "ML-007C-MA"
+    ]
+   },
+   {
+    "nct": "NCT05889273",
+    "drugs": [
+     "ML-004 (IR)/(ER) tablet"
+    ]
+   }
+  ]
+ }
+}

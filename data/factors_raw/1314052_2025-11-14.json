@@ -1,0 +1,49 @@
+{
+ "id": "1314052_2025-11-14",
+ "cik": "1314052",
+ "name": "ANAVEX LIFE SCIENCES CORP.",
+ "date": "2025-11-14",
+ "asof": "2025-12-14",
+ "final": true,
+ "price": {
+  "date": "2025-12-15",
+  "adj_close": 4.14
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 102577000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001731122-25-001596"
+ },
+ "burn": {
+  "end": "2025-09-30",
+  "months": 12.0,
+  "per_month": -3265108.131868132
+ },
+ "shares": {
+  "end": "2025-11-24",
+  "shares": 89348107,
+  "split_factor": 0.001,
+  "splits_after": [
+   [
+    "2026-08-28",
+    0.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "anavex life sciences",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

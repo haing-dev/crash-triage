@@ -1,0 +1,64 @@
+{
+ "id": "1701478_2024-02-14",
+ "cik": "1701478",
+ "name": "Azitra, Inc.",
+ "date": "2024-02-14",
+ "asof": "2024-03-15",
+ "final": true,
+ "price": {
+  "date": "2024-03-15",
+  "adj_close": 46.0
+ },
+ "balance": {
+  "end": "2023-12-31",
+  "cash": 1795989,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001493152-24-010091"
+ },
+ "burn": {
+  "end": "2023-12-31",
+  "months": 12.0,
+  "per_month": -615688.7225274725
+ },
+ "shares": {
+  "end": "2024-03-15",
+  "shares": 28804643,
+  "split_factor": 197.655,
+  "splits_after": [
+   [
+    "2024-08-12",
+    29.99
+   ],
+   [
+    "2025-11-12",
+    6.59
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 3,
+  "bought": 105480,
+  "sold": 0,
+  "buyers": [
+   "Salva Francisco D.",
+   "Staskey Norm",
+   "Whitfill Travis"
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "azitra",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04731259",
+    "drugs": [
+     "ATR-04"
+    ]
+   }
+  ]
+ }
+}

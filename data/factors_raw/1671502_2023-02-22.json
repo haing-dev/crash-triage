@@ -1,0 +1,53 @@
+{
+ "id": "1671502_2023-02-22",
+ "cik": "1671502",
+ "name": "Quoin Pharmaceuticals Ltd.",
+ "date": "2023-02-22",
+ "asof": "2023-03-24",
+ "final": true,
+ "price": {
+  "date": "2023-03-24",
+  "adj_close": 218.39999
+ },
+ "balance": {
+  "end": "2022-12-31",
+  "cash": 2860628,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001410578-23-000267"
+ },
+ "burn": {
+  "end": "2022-12-31",
+  "months": 12.0,
+  "per_month": -709212.8628571429
+ },
+ "shares": {
+  "end": "2021-12-31",
+  "shares": 3354650799,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "quoin pharmaceuticals",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05521438",
+    "drugs": [
+     "QRX003-2% Lotion",
+     "QRX003-4% Lotion QAM",
+     "Vehicle"
+    ]
+   }
+  ]
+ }
+}

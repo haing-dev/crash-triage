@@ -1,0 +1,46 @@
+{
+ "id": "1907685_2022-09-16",
+ "cik": "1907685",
+ "name": "Comera Life Sciences Holdings, Inc.",
+ "date": "2022-09-16",
+ "asof": "2022-10-16",
+ "final": true,
+ "price": {
+  "date": "2022-10-17",
+  "adj_close": 1.65
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 4938788,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-22-017400"
+ },
+ "burn": {
+  "end": "2022-06-30",
+  "months": 5.9,
+  "per_month": -935955.9293333334
+ },
+ "shares": {
+  "end": "2022-08-12",
+  "shares": 19087185,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 3,
+  "bought": 71085,
+  "sold": 0,
+  "buyers": [
+   "Cherington Charles"
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "comera life sciences",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

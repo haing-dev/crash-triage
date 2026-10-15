@@ -1,0 +1,57 @@
+{
+ "id": "1739410_2025-04-08",
+ "cik": "1739410",
+ "name": "Rallybio Corp",
+ "date": "2025-04-08",
+ "asof": "2025-05-08",
+ "final": true,
+ "price": {
+  "date": "2025-05-08",
+  "adj_close": 2.344
+ },
+ "balance": {
+  "end": "2025-03-31",
+  "cash": 54495000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001739410-25-000061"
+ },
+ "burn": {
+  "end": "2025-03-31",
+  "months": 2.9,
+  "per_month": -3490339.3258426967
+ },
+ "shares": {
+  "end": "2025-05-02",
+  "shares": 41613964,
+  "split_factor": 8.0,
+  "splits_after": [
+   [
+    "2026-03-16",
+    8.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "rallybio",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06435845",
+    "drugs": [
+     "Anti-(integrin beta-3) human monoclonal antibody"
+    ]
+   }
+  ]
+ }
+}

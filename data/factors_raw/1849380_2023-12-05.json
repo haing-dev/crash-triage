@@ -1,0 +1,53 @@
+{
+ "id": "1849380_2023-12-05",
+ "cik": "1849380",
+ "name": "OneMedNet Corp",
+ "date": "2023-12-05",
+ "asof": "2024-01-04",
+ "final": true,
+ "price": {
+  "date": "2024-01-04",
+  "adj_close": 7.54
+ },
+ "balance": {
+  "end": "2023-09-30",
+  "cash": 611822,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001493152-23-042153"
+ },
+ "burn": {
+  "end": "2023-09-30",
+  "months": 8.9,
+  "per_month": -527389.4510294117
+ },
+ "shares": {
+  "end": "2023-12-14",
+  "shares": 32263342,
+  "split_factor": 9.023,
+  "splits_after": [
+   [
+    "2024-11-05",
+    3.33
+   ],
+   [
+    "2024-11-22",
+    2.71
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "onemednet",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,59 @@
+{
+ "id": "1509261_2025-12-11",
+ "cik": "1509261",
+ "name": "Rezolute, Inc.",
+ "date": "2025-12-11",
+ "asof": "2026-01-10",
+ "final": true,
+ "price": {
+  "date": "2026-01-12",
+  "adj_close": 2.51
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 152194000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent",
+   "MarketableSecuritiesNoncurrent"
+  ],
+  "accn": "0001104659-25-107781"
+ },
+ "burn": {
+  "end": "2025-09-30",
+  "months": 3.0,
+  "per_month": -5830430.769230769
+ },
+ "shares": {
+  "end": "2025-11-04",
+  "shares": 92727532,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 5,
+  "bought": 207205,
+  "sold": 0,
+  "buyers": [
+   "Elam Nevan C",
+   "Evans Daron",
+   "Hogenhuis Wladimir",
+   "Karnawat Sunil Ratilal",
+   "ROBERTS BRIAN KENNETH"
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "rezolute",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06881992",
+    "drugs": [
+     "Ersodetug"
+    ]
+   }
+  ]
+ }
+}

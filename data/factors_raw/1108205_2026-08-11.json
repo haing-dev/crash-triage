@@ -1,0 +1,59 @@
+{
+ "id": "1108205_2026-08-11",
+ "cik": "1108205",
+ "name": "CURIS INC",
+ "date": "2026-08-11",
+ "asof": "2026-09-10",
+ "final": true,
+ "price": {
+  "date": "2026-09-10",
+  "adj_close": 1.16
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 5073000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001108205-26-000118"
+ },
+ "burn": {
+  "end": "2026-06-30",
+  "months": 5.9,
+  "per_month": -3153414.888888889
+ },
+ "shares": {
+  "end": "2026-08-11",
+  "shares": 2090077,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "curis",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03328078",
+    "drugs": [
+     "Emavusertib",
+     "Ibrutinib"
+    ]
+   },
+   {
+    "nct": "NCT07271667",
+    "drugs": [
+     "Emavusertib",
+     "Zanubrutinib"
+    ]
+   }
+  ]
+ }
+}

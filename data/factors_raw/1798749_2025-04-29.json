@@ -1,0 +1,52 @@
+{
+ "id": "1798749_2025-04-29",
+ "cik": "1798749",
+ "name": "Jade Biosciences, Inc.",
+ "date": "2025-04-29",
+ "asof": "2025-05-29",
+ "final": true,
+ "price": {
+  "date": "2025-05-29",
+  "adj_close": 7.09
+ },
+ "balance": {
+  "end": "2025-03-31",
+  "cash": 76210000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001558370-25-005564"
+ },
+ "burn": {
+  "end": "2025-03-31",
+  "months": 2.9,
+  "per_month": -814355.5056179776
+ },
+ "shares": {
+  "end": "2025-04-24",
+  "shares": 28985019,
+  "split_factor": 9.147,
+  "splits_after": [
+   [
+    "2025-11-14",
+    9.15
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 7,
+  "bought": 44400,
+  "sold": 0,
+  "buyers": [
+   "Frohlich Tom"
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "jade biosciences",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "id": "1402328_2024-02-13",
+ "cik": "1402328",
+ "name": "Sunshine Biopharma Inc.",
+ "date": "2024-02-13",
+ "asof": "2024-03-14",
+ "final": true,
+ "price": {
+  "date": "2024-03-14",
+  "adj_close": 1000.0
+ },
+ "balance": {
+  "end": "2023-09-30",
+  "cash": 18846140,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0001683168-23-007911"
+ },
+ "burn": {
+  "end": "2023-09-30",
+  "months": 8.9,
+  "per_month": -681031.7698529412
+ },
+ "shares": {
+  "end": "2023-11-13",
+  "shares": 25678290,
+  "split_factor": 20000.224,
+  "splits_after": [
+   [
+    "2024-08-16",
+    2000.02
+   ],
+   [
+    "2026-08-13",
+    10.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 1,
+  "bought": 10000,
+  "sold": 0,
+  "buyers": [
+   "Slilaty Steve N."
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "sunshine biopharma",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

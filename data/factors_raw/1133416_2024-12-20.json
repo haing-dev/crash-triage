@@ -1,0 +1,56 @@
+{
+ "id": "1133416_2024-12-20",
+ "cik": "1133416",
+ "name": "GALECTIN THERAPEUTICS INC",
+ "date": "2024-12-20",
+ "asof": "2025-01-19",
+ "final": true,
+ "price": {
+  "date": "2025-01-21",
+  "adj_close": 1.23
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 27060000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001140361-24-046726"
+ },
+ "burn": {
+  "end": "2024-09-30",
+  "months": 9.0,
+  "per_month": -3230877.0695970696
+ },
+ "shares": {
+  "end": "2024-11-08",
+  "shares": 62761825,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 7,
+  "bought": 34883,
+  "sold": 97147,
+  "buyers": [
+   "ELDRED KARY",
+   "FREEMAN KEVIN D",
+   "Shlevin Harold H.",
+   "Zordani Richard A. Jr."
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "galectin therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04365868",
+    "drugs": [
+     "belapectin"
+    ]
+   }
+  ]
+ }
+}

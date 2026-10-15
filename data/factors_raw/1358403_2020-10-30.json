@@ -1,0 +1,52 @@
+{
+ "id": "1358403_2020-10-30",
+ "cik": "1358403",
+ "name": "BELLICUM PHARMACEUTICALS, INC",
+ "date": "2020-10-30",
+ "asof": "2020-11-29",
+ "final": true,
+ "price": {
+  "date": "2020-11-30",
+  "adj_close": 3.69
+ },
+ "balance": {
+  "end": "2020-09-30",
+  "cash": 53125000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001358403-20-000027"
+ },
+ "burn": {
+  "end": "2020-09-30",
+  "months": 9.0,
+  "per_month": -4825241.758241759
+ },
+ "shares": {
+  "end": "2020-10-30",
+  "shares": 5059779,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "bellicum pharmaceuticals",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03301168",
+    "drugs": [
+     "BPX-501 T cells",
+     "Rimiducid"
+    ]
+   }
+  ]
+ }
+}

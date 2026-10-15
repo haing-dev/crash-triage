@@ -1,0 +1,65 @@
+{
+ "id": "890821_2020-12-31",
+ "cik": "890821",
+ "name": "Enveric Biosciences, Inc.",
+ "date": "2020-12-31",
+ "asof": "2021-01-30",
+ "final": true,
+ "price": {
+  "date": "2021-02-01",
+  "adj_close": 523800.0
+ },
+ "balance": {
+  "end": "2020-09-30",
+  "cash": 2840097,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001493152-20-021409"
+ },
+ "burn": {
+  "end": "2020-09-30",
+  "months": 9.0,
+  "per_month": -430240.40952380956
+ },
+ "shares": {
+  "end": "2020-11-13",
+  "shares": 7491544,
+  "split_factor": 652272.378,
+  "splits_after": [
+   [
+    "2021-04-01",
+    0.4
+   ],
+   [
+    "2023-05-15",
+    50.0
+   ],
+   [
+    "2025-03-28",
+    15.0
+   ],
+   [
+    "2025-11-14",
+    180.0
+   ],
+   [
+    "2026-03-27",
+    12.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "enveric biosciences",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

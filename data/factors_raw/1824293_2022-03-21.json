@@ -1,0 +1,90 @@
+{
+ "id": "1824293_2022-03-21",
+ "cik": "1824293",
+ "name": "GRI Bio, Inc.",
+ "date": "2022-03-21",
+ "asof": "2022-04-20",
+ "final": true,
+ "price": {
+  "date": "2022-04-20",
+  "adj_close": 1520391.625
+ },
+ "balance": {
+  "end": "2021-12-31",
+  "cash": 7510000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001824293-22-000004"
+ },
+ "burn": {
+  "end": "2021-12-31",
+  "months": 12.0,
+  "per_month": -695102.4175824176
+ },
+ "shares": {
+  "end": "2022-02-11",
+  "shares": 6812836,
+  "split_factor": 2.0857920777604653e+17,
+  "splits_after": [
+   [
+    "2023-05-15",
+    30.0
+   ],
+   [
+    "2023-08-14",
+    10.2
+   ],
+   [
+    "2023-11-14",
+    13.51
+   ],
+   [
+    "2024-03-28",
+    78.63
+   ],
+   [
+    "2024-05-10",
+    3.14
+   ],
+   [
+    "2024-08-14",
+    85.79
+   ],
+   [
+    "2024-11-14",
+    126.97
+   ],
+   [
+    "2025-03-14",
+    177.66
+   ],
+   [
+    "2025-05-15",
+    221.13
+   ],
+   [
+    "2025-08-14",
+    17.04
+   ],
+   [
+    "2026-01-30",
+    27.99
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "gri bio",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "id": "1437402_2021-07-20",
+ "cik": "1437402",
+ "name": "ARDELYX, INC.",
+ "date": "2021-07-20",
+ "asof": "2021-08-19",
+ "final": true,
+ "price": {
+  "date": "2021-08-19",
+  "adj_close": 1.32
+ },
+ "balance": {
+  "end": "2021-06-30",
+  "cash": 171809000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "LongTermInvestments"
+  ],
+  "accn": "0001628280-21-016912"
+ },
+ "burn": {
+  "end": "2021-06-30",
+  "months": 5.9,
+  "per_month": -13274038.444444444
+ },
+ "shares": {
+  "end": "2021-08-10",
+  "shares": 103119010,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 2,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "ardelyx",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04780841",
+    "drugs": [
+     "RDX013"
+    ]
+   }
+  ]
+ }
+}

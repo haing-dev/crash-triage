@@ -1,0 +1,46 @@
+{
+ "id": "1680367_2024-10-01",
+ "cik": "1680367",
+ "name": "Shattuck Labs, Inc.",
+ "date": "2024-10-01",
+ "asof": "2024-10-31",
+ "final": true,
+ "price": {
+  "date": "2024-10-31",
+  "adj_close": 1.26
+ },
+ "balance": {
+  "end": "2024-06-30",
+  "cash": 60693000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001680367-24-000040"
+ },
+ "burn": {
+  "end": "2024-06-30",
+  "months": 5.9,
+  "per_month": -4554059.447513812
+ },
+ "shares": {
+  "end": "2024-07-17",
+  "shares": 47727269,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 1,
+  "bought": 44220,
+  "sold": 0,
+  "buyers": [
+   "Schreiber Taylor"
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "shattuck labs",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

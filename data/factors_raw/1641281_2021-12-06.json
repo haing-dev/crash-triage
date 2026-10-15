@@ -1,0 +1,61 @@
+{
+ "id": "1641281_2021-12-06",
+ "cik": "1641281",
+ "name": "Bolt Biotherapeutics, Inc.",
+ "date": "2021-12-06",
+ "asof": "2022-01-05",
+ "final": true,
+ "price": {
+  "date": "2022-01-05",
+  "adj_close": 84.0
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 290532000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments",
+   "LongTermInvestments"
+  ],
+  "accn": "0001564590-21-055774"
+ },
+ "burn": {
+  "end": "2021-09-30",
+  "months": 8.9,
+  "per_month": -4394998.823529412
+ },
+ "shares": {
+  "end": "2021-11-02",
+  "shares": 37284650,
+  "split_factor": 19.999,
+  "splits_after": [
+   [
+    "2025-08-14",
+    20.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 2,
+  "bought": 44067,
+  "sold": 0,
+  "buyers": [
+   "Quinn William P."
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "bolt biotherapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04278144",
+    "drugs": [
+     "BDC-1001",
+     "Nivolumab"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,69 @@
+{
+ "id": "1720893_2023-06-29",
+ "cik": "1720893",
+ "name": "BioXcel Therapeutics, Inc.",
+ "date": "2023-06-29",
+ "asof": "2023-07-29",
+ "final": true,
+ "price": {
+  "date": "2023-07-31",
+  "adj_close": 146.24
+ },
+ "balance": {
+  "end": "2023-03-31",
+  "cash": 165521000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-23-008597"
+ },
+ "burn": {
+  "end": "2023-03-31",
+  "months": 2.9,
+  "per_month": -17905902.47191011
+ },
+ "shares": {
+  "end": "2023-05-03",
+  "shares": 29159638,
+  "split_factor": 15.996,
+  "splits_after": [
+   [
+    "2025-03-28",
+    16.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "bioxcel therapeutics",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03910660",
+    "drugs": [
+     "BXCL701 plus Pembrolizumab",
+     "BXCL701 monotherapy"
+    ]
+   },
+   {
+    "nct": "NCT05658510",
+    "drugs": [
+     "BXCL501"
+    ]
+   },
+   {
+    "nct": "NCT05665088",
+    "drugs": [
+     "BXCL501"
+    ]
+   }
+  ]
+ }
+}

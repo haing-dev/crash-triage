@@ -1,0 +1,44 @@
+{
+ "id": "320017_2026-07-21",
+ "cik": "320017",
+ "name": "LISATA THERAPEUTICS, INC.",
+ "date": "2026-07-21",
+ "asof": "2026-08-20",
+ "final": true,
+ "price": {
+  "date": "2026-08-20",
+  "adj_close": 1.12
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 10443000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000320017-26-000038"
+ },
+ "burn": {
+  "end": "2026-06-30",
+  "months": 5.9,
+  "per_month": -969344.8888888889
+ },
+ "shares": {
+  "end": "2026-08-06",
+  "shares": 9010937,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "lisata therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

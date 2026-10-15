@@ -1,0 +1,63 @@
+{
+ "id": "1645666_2022-05-04",
+ "cik": "1645666",
+ "name": "Kezar Life Sciences, Inc.",
+ "date": "2022-05-04",
+ "asof": "2022-06-03",
+ "final": true,
+ "price": {
+  "date": "2022-06-03",
+  "adj_close": 50.4
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 242609000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-22-009686"
+ },
+ "burn": {
+  "end": "2022-03-31",
+  "months": 2.9,
+  "per_month": -4553687.191011236
+ },
+ "shares": {
+  "end": "2022-05-06",
+  "shares": 60415586,
+  "split_factor": 10.0,
+  "splits_after": [
+   [
+    "2024-11-12",
+    10.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 1,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "kezar life sciences",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04628936",
+    "drugs": [
+     "KZR-616"
+    ]
+   },
+   {
+    "nct": "NCT03393013",
+    "drugs": [
+     "KZR-616"
+    ]
+   }
+  ]
+ }
+}

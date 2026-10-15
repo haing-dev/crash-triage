@@ -1,0 +1,52 @@
+{
+ "id": "1857044_2026-06-08",
+ "cik": "1857044",
+ "name": "Indaptus Therapeutics, Inc.",
+ "date": "2026-06-08",
+ "asof": "2026-07-08",
+ "final": true,
+ "price": {
+  "date": "2026-07-08",
+  "adj_close": 2.45
+ },
+ "balance": {
+  "end": "2026-03-31",
+  "cash": 1497635,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001493152-26-023362"
+ },
+ "burn": {
+  "end": "2026-03-31",
+  "months": 2.9,
+  "per_month": -2397575.1339325844
+ },
+ "shares": {
+  "end": "2026-05-15",
+  "shares": 113242324,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "indaptus therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05651022",
+    "drugs": [
+     "Decoy20",
+     "Tislelizumab"
+    ]
+   }
+  ]
+ }
+}

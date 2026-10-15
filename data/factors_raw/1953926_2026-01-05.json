@@ -1,0 +1,63 @@
+{
+ "id": "1953926_2026-01-05",
+ "cik": "1953926",
+ "name": "Zenas BioPharma, Inc.",
+ "date": "2026-01-05",
+ "asof": "2026-02-04",
+ "final": true,
+ "price": {
+  "date": "2026-02-04",
+  "adj_close": 20.66
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 487637000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "LongTermInvestments"
+  ],
+  "accn": "0001104659-25-109753"
+ },
+ "burn": {
+  "end": "2025-09-30",
+  "months": 8.9,
+  "per_month": -13420346.911764706
+ },
+ "shares": {
+  "end": "2025-10-31",
+  "shares": 53679166,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 2,
+  "bought": 2662720,
+  "sold": 0,
+  "buyers": [
+   "MOULDER LEON O JR"
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "zenas biopharma",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06559163",
+    "drugs": [
+     "Obexelimab"
+    ]
+   },
+   {
+    "nct": "NCT05786573",
+    "drugs": [
+     "Obexelimab",
+     "Obexelimab"
+    ]
+   }
+  ]
+ }
+}

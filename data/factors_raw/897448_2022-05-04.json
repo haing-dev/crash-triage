@@ -1,0 +1,55 @@
+{
+ "id": "897448_2022-05-04",
+ "cik": "897448",
+ "name": "AMARIN CORP PLC\\UK",
+ "date": "2022-05-04",
+ "asof": "2022-06-03",
+ "final": true,
+ "price": {
+  "date": "2022-06-03",
+  "adj_close": 33.6
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 389258000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments",
+   "LongTermInvestments"
+  ],
+  "accn": "0000950170-22-007188"
+ },
+ "burn": {
+  "end": "2022-03-31",
+  "months": 2.9,
+  "per_month": -33807895.28089888
+ },
+ "shares": {
+  "end": "2013-02-20",
+  "shares": 380694,
+  "split_factor": 1.0,
+  "splits_after": [
+   [
+    "2015-03-03",
+    0.0
+   ],
+   [
+    "2021-11-03",
+    1000.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 2,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "amarin uk",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

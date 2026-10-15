@@ -1,0 +1,62 @@
+{
+ "id": "1372514_2023-06-02",
+ "cik": "1372514",
+ "name": "KIORA PHARMACEUTICALS INC",
+ "date": "2023-06-02",
+ "asof": "2023-07-02",
+ "final": true,
+ "price": {
+  "date": "2023-07-03",
+  "adj_close": 5.931
+ },
+ "balance": {
+  "end": "2023-03-31",
+  "cash": 3426067,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001372514-23-000069"
+ },
+ "burn": {
+  "end": "2023-03-31",
+  "months": 2.9,
+  "per_month": -1049870.1276404494
+ },
+ "shares": {
+  "end": "2023-05-05",
+  "shares": 2024270,
+  "split_factor": 9.0,
+  "splits_after": [
+   [
+    "2024-08-09",
+    9.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "kiora pharmaceuticals",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05629364",
+    "drugs": [
+     "KIO-101"
+    ]
+   },
+   {
+    "nct": "NCT05282953",
+    "drugs": [
+     "KIO-301"
+    ]
+   }
+  ]
+ }
+}

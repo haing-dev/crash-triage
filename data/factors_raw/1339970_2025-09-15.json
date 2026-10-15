@@ -1,0 +1,55 @@
+{
+ "id": "1339970_2025-09-15",
+ "cik": "1339970",
+ "name": "aTYR PHARMA INC",
+ "date": "2025-09-15",
+ "asof": "2025-10-15",
+ "final": true,
+ "price": {
+  "date": "2025-10-15",
+  "adj_close": 1.02
+ },
+ "balance": {
+  "end": "2025-06-30",
+  "cash": 80346000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001339970-25-000009"
+ },
+ "burn": {
+  "end": "2025-06-30",
+  "months": 5.9,
+  "per_month": -4957323.111111111
+ },
+ "shares": {
+  "end": "2025-08-01",
+  "shares": 97986634,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 1,
+  "bought": 911801,
+  "sold": 0,
+  "buyers": [
+   "SCHIMMEL PAUL"
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "atyr pharma",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05892614",
+    "drugs": [
+     "efzofitimod 450 mg",
+     "efzofitimod 270 mg"
+    ]
+   }
+  ]
+ }
+}

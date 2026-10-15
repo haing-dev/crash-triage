@@ -1,0 +1,44 @@
+{
+ "id": "1293310_2022-07-13",
+ "cik": "1293310",
+ "name": "HUMANIGEN, INC",
+ "date": "2022-07-13",
+ "asof": "2022-08-12",
+ "final": true,
+ "price": {
+  "date": "2022-08-12",
+  "adj_close": 0.363
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 47046000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001214659-22-010013"
+ },
+ "burn": {
+  "end": "2022-06-30",
+  "months": 5.9,
+  "per_month": -7579390.888888889
+ },
+ "shares": {
+  "end": "2022-08-09",
+  "shares": 103660938,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 10,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "humanigen",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,59 @@
+{
+ "id": "1001233_2024-12-31",
+ "cik": "1001233",
+ "name": "SANGAMO THERAPEUTICS, INC",
+ "date": "2024-12-31",
+ "asof": "2025-01-30",
+ "final": true,
+ "price": {
+  "date": "2025-01-30",
+  "adj_close": 1.23
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 39201000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001628280-24-047102"
+ },
+ "burn": {
+  "end": "2024-09-30",
+  "months": 9.0,
+  "per_month": -7112478.827838829
+ },
+ "shares": {
+  "end": "2024-11-07",
+  "shares": 208646870,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 5,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "sangamo therapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03653247",
+    "drugs": [
+     "Plerixafor",
+     "Busulfan",
+     "BIVV003"
+    ]
+   },
+   {
+    "nct": "NCT04046224",
+    "drugs": [
+     "ST-920"
+    ]
+   }
+  ]
+ }
+}

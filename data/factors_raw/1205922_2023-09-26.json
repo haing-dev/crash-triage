@@ -1,0 +1,79 @@
+{
+ "id": "1205922_2023-09-26",
+ "cik": "1205922",
+ "name": "VACCINEX, INC.",
+ "date": "2023-09-26",
+ "asof": "2023-10-26",
+ "final": true,
+ "price": {
+  "date": "2023-10-26",
+  "adj_close": 14.14
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 1908000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-23-042073"
+ },
+ "burn": {
+  "end": "2023-06-30",
+  "months": 5.9,
+  "per_month": -1783614.888888889
+ },
+ "shares": {
+  "end": "2023-08-08",
+  "shares": 65941086,
+  "split_factor": 44087.663,
+  "splits_after": [
+   [
+    "2023-11-13",
+    15.0
+   ],
+   [
+    "2024-04-02",
+    210.0
+   ],
+   [
+    "2024-11-14",
+    14.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 4,
+  "bought": 3509515,
+  "sold": 0,
+  "buyers": [
+   "FRIEDBERG ALBERT",
+   "Zauderer Maurice"
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "vaccinex",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04815720",
+    "drugs": [
+     "pepinemab + pembrolizumab"
+    ]
+   },
+   {
+    "nct": "NCT05102721",
+    "drugs": [
+     "Avelumab and Pepinemab"
+    ]
+   },
+   {
+    "nct": "NCT04381468",
+    "drugs": [
+     "Pepinemab"
+    ]
+   }
+  ]
+ }
+}

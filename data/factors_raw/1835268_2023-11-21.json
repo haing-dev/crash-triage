@@ -1,0 +1,40 @@
+{
+ "id": "1835268_2023-11-21",
+ "cik": "1835268",
+ "name": "Connect Biopharma Holdings Ltd",
+ "date": "2023-11-21",
+ "asof": "2023-12-21",
+ "final": true,
+ "price": {
+  "date": "2023-12-21",
+  "adj_close": 0.83099997
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 81609000,
+  "parts": [
+   "ifrs CashAndCashEquivalents"
+  ],
+  "accn": "0000950170-23-047761"
+ },
+ "burn": null,
+ "shares": {
+  "end": "2022-12-31",
+  "shares": 55041247,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "connect biopharma",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

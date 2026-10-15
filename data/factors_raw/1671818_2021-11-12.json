@@ -1,0 +1,51 @@
+{
+ "id": "1671818_2021-11-12",
+ "cik": "1671818",
+ "name": "Oncorus, Inc.",
+ "date": "2021-11-12",
+ "asof": "2021-12-12",
+ "final": true,
+ "price": {
+  "date": "2021-12-13",
+  "adj_close": 5.46
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 145603000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-21-002820"
+ },
+ "burn": {
+  "end": "2021-09-30",
+  "months": 8.9,
+  "per_month": -3512462.6470588236
+ },
+ "shares": {
+  "end": "2021-10-27",
+  "shares": 25809006,
+  "split_factor": 0.001,
+  "splits_after": [
+   [
+    "2022-05-04",
+    0.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 2,
+  "bought": 173655,
+  "sold": 0,
+  "buyers": [
+   "Harbin Stephen"
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "oncorus",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

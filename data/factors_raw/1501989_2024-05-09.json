@@ -1,0 +1,45 @@
+{
+ "id": "1501989_2024-05-09",
+ "cik": "1501989",
+ "name": "CytomX Therapeutics, Inc.",
+ "date": "2024-05-09",
+ "asof": "2024-06-08",
+ "final": true,
+ "price": {
+  "date": "2024-06-10",
+  "adj_close": 1.63
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 150284000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0000950170-24-055588"
+ },
+ "burn": {
+  "end": "2024-03-31",
+  "months": 3.0,
+  "per_month": -8808997.777777778
+ },
+ "shares": {
+  "end": "2024-02-29",
+  "shares": 67721658,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 7,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "cytomx therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

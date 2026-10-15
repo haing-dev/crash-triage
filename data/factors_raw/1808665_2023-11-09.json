@@ -1,0 +1,49 @@
+{
+ "id": "1808665_2023-11-09",
+ "cik": "1808665",
+ "name": "Assertio Holdings, Inc.",
+ "date": "2023-11-09",
+ "asof": "2023-12-09",
+ "final": true,
+ "price": {
+  "date": "2023-12-11",
+  "adj_close": 16.5
+ },
+ "balance": {
+  "end": "2023-09-30",
+  "cash": 76888000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001808665-23-000065"
+ },
+ "burn": {
+  "end": "2023-09-30",
+  "months": 8.9,
+  "per_month": 4912590.735294118
+ },
+ "shares": {
+  "end": "2023-11-06",
+  "shares": 94668523,
+  "split_factor": 15.001,
+  "splits_after": [
+   [
+    "2026-03-16",
+    15.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 1,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "assertio",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

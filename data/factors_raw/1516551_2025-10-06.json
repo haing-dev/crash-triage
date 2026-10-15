@@ -1,0 +1,54 @@
+{
+ "id": "1516551_2025-10-06",
+ "cik": "1516551",
+ "name": "Skye Bioscience, Inc.",
+ "date": "2025-10-06",
+ "asof": "2025-11-05",
+ "final": true,
+ "price": {
+  "date": "2025-11-05",
+  "adj_close": 1.51
+ },
+ "balance": {
+  "end": "2025-06-30",
+  "cash": 48585283,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001516551-25-000049"
+ },
+ "burn": {
+  "end": "2025-06-30",
+  "months": 5.9,
+  "per_month": -3370666.3526666667
+ },
+ "shares": {
+  "end": "2025-08-05",
+  "shares": 30988420,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "skye bioscience",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06577090",
+    "drugs": [
+     "Nimacimab injection",
+     "semaglutide injection",
+     "Nimacimab 300 mg injection"
+    ]
+   }
+  ]
+ }
+}

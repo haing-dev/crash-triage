@@ -1,0 +1,99 @@
+{
+ "id": "1425205_2022-05-27",
+ "cik": "1425205",
+ "name": "IOVANCE BIOTHERAPEUTICS, INC.",
+ "date": "2022-05-27",
+ "asof": "2022-06-26",
+ "final": true,
+ "price": {
+  "date": "2022-06-27",
+  "adj_close": 11.13
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 927420000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent",
+   "LongTermInvestments"
+  ],
+  "accn": "0001558370-22-007449"
+ },
+ "burn": {
+  "end": "2022-03-31",
+  "months": 2.9,
+  "per_month": -25241942.47191011
+ },
+ "shares": {
+  "end": "2022-04-25",
+  "shares": 157168321,
+  "split_factor": 1.0,
+  "splits_after": [
+   [
+    "2022-11-03",
+    0.0
+   ],
+   [
+    "2024-08-08",
+    1000.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 14,
+  "bought": 6861456,
+  "sold": 0,
+  "buyers": [
+   "MCPEAK MERRILL A",
+   "Maynard Ryan D",
+   "Rothbaum Wayne P.",
+   "Vogt Frederick G",
+   "WEISER MICHAEL"
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "iovance biotherapeutics",
+  "other_trials": 5,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03645928",
+    "drugs": [
+     "Lifileucel",
+     "LN-145",
+     "Pembrolizumab"
+    ]
+   },
+   {
+    "nct": "NCT04614103",
+    "drugs": [
+     "LN-145",
+     "LN-145"
+    ]
+   },
+   {
+    "nct": "NCT02360579",
+    "drugs": [
+     "Lifileucel"
+    ]
+   },
+   {
+    "nct": "NCT03108495",
+    "drugs": [
+     "LN-145",
+     "LN-145 + pembrolizumab"
+    ]
+   },
+   {
+    "nct": "NCT03083873",
+    "drugs": [
+     "LN-145",
+     "LN-145-S1"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "id": "1725160_2024-06-18",
+ "cik": "1725160",
+ "name": "Zentalis Pharmaceuticals, Inc.",
+ "date": "2024-06-18",
+ "asof": "2024-07-18",
+ "final": true,
+ "price": {
+  "date": "2024-07-18",
+  "adj_close": 3.95
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 37616000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001725160-24-000107"
+ },
+ "burn": {
+  "end": "2024-03-31",
+  "months": 3.0,
+  "per_month": -17578761.77777778
+ },
+ "shares": {
+  "end": "2024-05-03",
+  "shares": 71013233,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 3,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "zentalis pharmaceuticals",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05682170",
+    "drugs": [
+     "ZN-d5 ZN-c3",
+     "ZN-c3"
+    ]
+   },
+   {
+    "nct": "NCT05128825",
+    "drugs": [
+     "azenosertib"
+    ]
+   },
+   {
+    "nct": "NCT05198804",
+    "drugs": [
+     "Azenosertib",
+     "Niraparib"
+    ]
+   },
+   {
+    "nct": "NCT04814108",
+    "drugs": [
+     "Azenosertib"
+    ]
+   }
+  ]
+ }
+}

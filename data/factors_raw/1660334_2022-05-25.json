@@ -1,0 +1,58 @@
+{
+ "id": "1660334_2022-05-25",
+ "cik": "1660334",
+ "name": "Verrica Pharmaceuticals Inc.",
+ "date": "2022-05-25",
+ "asof": "2022-06-24",
+ "final": true,
+ "price": {
+  "date": "2022-06-24",
+  "adj_close": 21.1
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 10407000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-22-008242"
+ },
+ "burn": {
+  "end": "2022-03-31",
+  "months": 2.9,
+  "per_month": -2852467.415730337
+ },
+ "shares": {
+  "end": "2022-05-02",
+  "shares": 27519053,
+  "split_factor": 10.0,
+  "splits_after": [
+   [
+    "2025-08-12",
+    10.0
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 4,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "verrica pharmaceuticals",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05188729",
+    "drugs": [
+     "Part 1: VP-315 3 Day Dosing/Week",
+     "Part 2: VP-315 3 Day Dosing/Week - Loading Dose",
+     "Part 2: VP-315 3 Day Dosing/Week - No Loading Dose"
+    ]
+   }
+  ]
+ }
+}

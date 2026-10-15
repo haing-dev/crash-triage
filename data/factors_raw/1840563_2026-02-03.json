@@ -1,0 +1,50 @@
+{
+ "id": "1840563_2026-02-03",
+ "cik": "1840563",
+ "name": "PMGC Holdings Inc.",
+ "date": "2026-02-03",
+ "asof": "2026-03-05",
+ "final": true,
+ "price": {
+  "date": "2026-03-05",
+  "adj_close": 42.36
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 8504632,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001213900-25-110390"
+ },
+ "burn": {
+  "end": "2025-09-30",
+  "months": 8.9,
+  "per_month": -468225.50602941174
+ },
+ "shares": {
+  "end": "2025-11-10",
+  "shares": 744121,
+  "split_factor": 84.036,
+  "splits_after": [
+   [
+    "2026-03-30",
+    84.04
+   ]
+  ]
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "pmgc",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

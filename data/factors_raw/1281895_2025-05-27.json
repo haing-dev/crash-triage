@@ -1,0 +1,58 @@
+{
+ "id": "1281895_2025-05-27",
+ "cik": "1281895",
+ "name": "ROCKET PHARMACEUTICALS, INC.",
+ "date": "2025-05-27",
+ "asof": "2025-06-26",
+ "final": true,
+ "price": {
+  "date": "2025-06-26",
+  "adj_close": 2.59
+ },
+ "balance": {
+  "end": "2025-03-31",
+  "cash": 318164000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-25-066898"
+ },
+ "burn": {
+  "end": "2025-03-31",
+  "months": 2.9,
+  "per_month": -19081433.707865167
+ },
+ "shares": {
+  "end": "2025-05-02",
+  "shares": 107737919,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 0,
+  "bought": 0,
+  "sold": 0,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "rocket pharmaceuticals",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06092034",
+    "drugs": [
+     "RP-A501"
+    ]
+   },
+   {
+    "nct": "NCT04248439",
+    "drugs": [
+     "RP-L102"
+    ]
+   }
+  ]
+ }
+}

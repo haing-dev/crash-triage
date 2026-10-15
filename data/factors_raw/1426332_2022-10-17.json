@@ -1,0 +1,71 @@
+{
+ "id": "1426332_2022-10-17",
+ "cik": "1426332",
+ "name": "NGM BIOPHARMACEUTICALS INC",
+ "date": "2022-10-17",
+ "asof": "2022-11-16",
+ "final": true,
+ "price": {
+  "date": "2022-11-16",
+  "adj_close": 5.29
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 300150000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001628280-22-028215"
+ },
+ "burn": {
+  "end": "2022-09-30",
+  "months": 8.9,
+  "per_month": -12761858.088235294
+ },
+ "shares": {
+  "end": "2022-10-31",
+  "shares": 81726113,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 14,
+  "bought": 7076366,
+  "sold": 0,
+  "buyers": [
+   "COLUMN GROUP L P",
+   "GOEDDEL DAVID V"
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "ngm biopharmaceuticals",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04068896",
+    "drugs": [
+     "NGM120 30mg",
+     "NGM120 100mg",
+     "NGM120 30mg with Gemcitabine and Abraxane"
+    ]
+   },
+   {
+    "nct": "NCT04210245",
+    "drugs": [
+     "aldafermin"
+    ]
+   },
+   {
+    "nct": "NCT04913337",
+    "drugs": [
+     "NGM707",
+     "NGM707 plus pembrolizumab (KEYTRUDA\u00ae)",
+     "NGM707 plus pembrolizumab (KEYTRUDA\u00ae)"
+    ]
+   }
+  ]
+ }
+}

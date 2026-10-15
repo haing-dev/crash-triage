@@ -1,0 +1,76 @@
+{
+ "id": "1590560_2026-03-02",
+ "cik": "1590560",
+ "name": "uniQure N.V.",
+ "date": "2026-03-02",
+ "asof": "2026-04-01",
+ "final": true,
+ "price": {
+  "date": "2026-04-01",
+  "adj_close": 16.89
+ },
+ "balance": {
+  "end": "2025-12-31",
+  "cash": 80240000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001104659-26-021898"
+ },
+ "burn": {
+  "end": "2025-12-31",
+  "months": 12.0,
+  "per_month": -14882400.32967033
+ },
+ "shares": {
+  "end": "2026-02-26",
+  "shares": 62529408,
+  "split_factor": 1.0,
+  "splits_after": []
+ },
+ "insiders": {
+  "form4s": 9,
+  "bought": 0,
+  "sold": 848267,
+  "buyers": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "uniqure",
+  "other_trials": 5,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05243017",
+    "drugs": [
+     "intra-striatal rAAV5-miHTT"
+    ]
+   },
+   {
+    "nct": "NCT04120493",
+    "drugs": [
+     "intra-striatal rAAV5-miHTT",
+     "Imitation (sham) surgery"
+    ]
+   },
+   {
+    "nct": "NCT06100276",
+    "drugs": [
+     "AMT-162"
+    ]
+   },
+   {
+    "nct": "NCT06063850",
+    "drugs": [
+     "AAV9-hSyn1-miGRIK2"
+    ]
+   },
+   {
+    "nct": "NCT06270316",
+    "drugs": [
+     "AMT-191"
+    ]
+   }
+  ]
+ }
+}
