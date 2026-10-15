@@ -88,7 +88,7 @@ function fill(){
   $("#rows").innerHTML = list.slice(0, SHOW).map(c => `<tr data-id="${c.id}"><td><b>${esc(c.name)}</b><div class="muted" style="font-size:11.5px">${esc(c.ticker)}</div></td>
     <td style="white-space:nowrap">${esc(c.month)}</td><td class="r" style="white-space:nowrap"><span class="num">${pct(c.move)}</span><div class="muted" style="font-size:11.5px">${dur(c)}</div></td>
     ${crash ? `<td class="what">${esc(c.summary || "Reading the company's announcement…")}</td>` : ""}
-    <td class="r ${c.mcap == null ? "muted" : ""}" style="white-space:nowrap">${money(c.mcap)}</td>
+    <td class="r ${c.mcap == null ? "muted" : ""}" style="white-space:nowrap">${money(c.mcap)}${c.price != null ? `<div class="muted" style="font-size:11.5px">$${c.price < 1 ? c.price.toFixed(3) : c.price.toFixed(2)}/share</div>` : ""}</td>
     ${kd.facts.map(f => cell(c.factors?.[f[0]])).join("")}<td>${pill(c.verdict)}${c.why?.length ? `<div class="why">${esc(c.why.join(" · "))}</div>` : ""}</td>${ret(c)}
     ${bt ? `<td>${c.outcome ? `<span class="pill ${OUTCOME[c.outcome]}">${c.outcome}</span>` : ""}</td>` : ""}</tr>`).join("") ||
     `<tr><td colspan="14" class="empty">Nothing matches these filters.</td></tr>`;
@@ -118,7 +118,7 @@ function viewOne(id){
   <div class="vhead"><div><div class="muted">${head} · <a href="${back}">‹ ${c.played ? "Backtest" : "Screener"}</a></div>
     <h2>${esc(c.name)} <span class="muted" style="font-size:18px">${esc(c.ticker)}</span><span class="mv">${pct(c.move)}</span><span class="muted" style="font-size:16px;margin-left:8px">in ${dur(c)}</span></h2>
     <div class="what1">${K === "crash" ? esc(c.summary || "Reading the company's announcement…") + " · " : ""}Market cap at entry ${money(c.mcap)}</div></div>
-   <div class="vbox">${pill(c.verdict)}<div class="conf">${c.why?.length ? esc(c.why.join(" · ")) : c.verdict === "overdone" ? "Cash for 12+ months, no going-concern warning, $50M+ market cap, valued at 3x cash or less" : ""}</div></div></div>
+   <div class="vbox">${pill(c.verdict)}<div class="conf">${c.why?.length ? esc(c.why.join(" · ")) : c.verdict === "overdone" ? "Cash for 12+ months, no going-concern warning, share price $1+, market cap $50M+, valued at 3x cash or less" : ""}</div></div></div>
   <div class="fcs" style="grid-template-columns:repeat(${kd.facts.length},minmax(0,1fr))">${cards}</div>
   ${quotes ? `<div class="card"><h4>From the company's announcement</h4>${quotes}</div>` : ""}
   ${after}

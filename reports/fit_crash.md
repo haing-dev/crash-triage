@@ -5,7 +5,7 @@ episodes with inputs: 962 · with a full year: 798
 
 | Factor | Cut-off | Points green / grey / red (pp vs median) |
 |---|---|---|
-| safety | categorical | +6.9 / -0.3 / -2.4 |
+| safety | categorical | +7.2 / -0.5 / -1.2 |
 | runway | ≥ 11.66 is green | +30.1 / -1.5 / -16.2 |
 | value | ≥ 0.41 is green | +11.6 / -6.2 / -10.9 |
 | insider | categorical | +10.6 / -8.9 / +17.8 |
@@ -15,6 +15,6 @@ episodes with inputs: 962 · with a full year: 798
 
 | Verdict | n | median | mean | XBI mean | beat XBI | up 30%+ | down 80%+ |
 |---|---|---|---|---|---|---|---|
-| overdone | 77 | -5% | +42% | +10% | 42% | 35% | 1% |
-| close | 111 | -20% | +10% | +0% | 41% | 31% | 14% |
-| justified | 610 | -70% | -29% | +14% | 18% | 15% | 42% |
+| overdone | 75 | -5% | +42% | +9% | 41% | 35% | 1% |
+| close | 93 | -18% | +0% | -1% | 42% | 30% | 12% |
+| justified | 630 | -69% | -26% | +14% | 19% | 16% | 42% |

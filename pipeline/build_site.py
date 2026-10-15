@@ -61,7 +61,7 @@ def build(kind):
                 rec["summary"] = "No company announcement filed with the SEC around this date"
         sc = DATA / kind / "scores" / f"{cid}.json"
         if sc.exists():
-            rec.update({k: v for k, v in json.loads(sc.read_text()).items() if k in ("factors", "score", "verdict", "why", "insider_net", "mcap")})
+            rec.update({k: v for k, v in json.loads(sc.read_text()).items() if k in ("factors", "score", "verdict", "why", "insider_net", "mcap", "price")})
         rec["sources"].append({"label": "All SEC filings",
                                "url": f"https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK={int(c['cik'])}&type=&dateb=&owner=include&count=40"})
         ds, cs = closes(c["cik"])

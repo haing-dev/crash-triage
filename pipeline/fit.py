@@ -39,7 +39,9 @@ def verdict_rule(x):
     """The verdict is a fixed rule, the same for every company in both triages (thresholds chosen on the whole
     history and checked to hold in both halves, before and after July 2023):
       Justified            going-concern warning, or cash runway under 12 months (or unknown): the company has to
-                           raise money at the bottom, and these rarely recover
+                           raise money at the bottom, and these rarely recover; or a share price under $1 (exchange
+                           delisting clock, reverse split, cheap heavy dilution): among companies whose cash was fine,
+                           those under $1 were wiped out (-80%+) 2-5x as often, in both triages and both time halves
       Potentially Oversold cash is fine AND market cap at least $50M AND valued at no more than 3x its cash
       Too Close To Call    cash is fine, but small or richly valued
     Returns (verdict, reasons)."""
@@ -50,6 +52,8 @@ def verdict_rule(x):
         hard.append("cash runway unknown")
     elif x["runway_m"] < GATE_RUNWAY:
         hard.append(f"runway under {GATE_RUNWAY} months")
+    if x["px"] is not None and x["px"] < 1:
+        hard.append("share price under $1")
     if hard:
         return "justified", hard
     if x["mcap"] is None:
@@ -116,6 +120,7 @@ def features(kind, r):
     b, b6, sh, p, L = r.get("balance"), r.get("burn6"), r.get("shares"), r.get("price"), r.get("liquidity") or {}
     x["cash"] = b["cash"] if b and b["cash"] > 0 else None
     px = actual_close(r["cik"], p["date"], p["adj_close"]) if p else None
+    x["px"] = px
     x["mcap"] = px * shares_at(r["cik"], sh, r["asof"]) if px and sh else None
     # runway
     x["runway_m"] = x["burn_m"] = None
@@ -341,7 +346,7 @@ def run(kind):
             return "g" if p >= 0.05 else "r" if p <= -0.05 else "n"
 
         out = {"id": x["id"], "score": round(100 * bisect_right(model["scores"], s) / len(model["scores"])),
-               "verdict": verdict, "why": why, "in_sample": ins, "trained_on": model["n"], "mcap": x["mcap"], "insider_net": x["insider_net"],
+               "verdict": verdict, "why": why, "in_sample": ins, "trained_on": model["n"], "mcap": x["mcap"], "price": x["px"], "insider_net": x["insider_net"],
                "factors": {k: [colour(k), text(kind, k, x), note(k, x, model), bucket(k, x)] for k in keys}}
         (out_dir / f"{x['id']}.json").write_text(json.dumps(out))
         if x["y"] is not None:
