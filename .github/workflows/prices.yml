@@ -8,7 +8,7 @@ on:
       tiingo: { description: "Tiingo calls this run", default: "45" }
 permissions:
   contents: write
-concurrency: { group: data-writes, cancel-in-progress: false }
+concurrency: { group: ${{ github.workflow }}, cancel-in-progress: false }   # own queue: long jobs don't cancel the hourly ones
 jobs:
   prices:
     runs-on: ubuntu-latest
@@ -31,4 +31,4 @@ jobs:
           git add data/prices data/state data/crashes.csv reports/crashes.md
           git add data/prices_raw 2>/dev/null || true
           git commit -m "prices + crashes update [skip ci]" || echo "no change"
-          git pull --rebase && git push
+          for i in 1 2 3 4 5; do git pull --rebase -q && git push -q && break; sleep $((i*7)); done

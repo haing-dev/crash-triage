@@ -7,7 +7,7 @@ on:
       limit: { description: "Crashes to read this run", default: "60" }
 permissions:
   contents: write
-concurrency: { group: data-writes, cancel-in-progress: false }
+concurrency: { group: ${{ github.workflow }}, cancel-in-progress: false }   # own queue: long jobs don't cancel the hourly ones
 jobs:
   events:
     runs-on: ubuntu-latest
@@ -31,4 +31,4 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add data/events
           git commit -m "press releases read [skip ci]" || echo "no change"
-          git pull --rebase && git push
+          for i in 1 2 3 4 5; do git pull --rebase -q && git push -q && break; sleep $((i*7)); done
