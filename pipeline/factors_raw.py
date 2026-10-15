@@ -48,27 +48,28 @@ def months(a, b):
 
 
 def balance(f, asof):
-    """cash + investments on the latest balance sheet filed by `asof`."""
+    """cash + investments on the latest balance sheet filed by `asof` (companies switch cash concepts over time)."""
     best = None
-    for c in CASH:
+    for rank, c in enumerate(CASH):
         for x in series(f, c):
-            if x.get("filed", "9") <= asof and "start" not in x and (best is None or (x["end"], x["filed"]) > (best[1]["end"], best[1]["filed"])):
-                best = (c, x)
-        if best:
-            break
+            if x.get("filed", "9") <= asof and "start" not in x:
+                k = (x["end"], -rank, x["filed"])
+                if best is None or k > best[0]:
+                    best = (k, c, x)
     if not best:
         for x in series(f, "CashAndCashEquivalents", ns="ifrs-full"):
-            if x.get("filed", "9") <= asof and (best is None or x["end"] > best[1]["end"]):
-                best = ("ifrs CashAndCashEquivalents", x)
+            if x.get("filed", "9") <= asof and (best is None or x["end"] > best[2]["end"]):
+                best = ((x["end"],), "ifrs CashAndCashEquivalents", x)
     if not best:
         return None
-    end, total, parts = best[1]["end"], best[1]["val"], [best[0]]
+    _, c0, x0 = best
+    end, total, parts = x0["end"], x0["val"], [c0]
     for c in INVEST:
         v = [x for x in series(f, c) if x["end"] == end and x.get("filed", "9") <= asof and "start" not in x]
         if v:
             total += max(v, key=lambda x: x["filed"])["val"]
             parts.append(c)
-    return {"end": end, "cash": total, "parts": parts, "accn": best[1].get("accn")}
+    return {"end": end, "cash": total, "parts": parts, "accn": x0.get("accn")}
 
 
 def burn(f, asof):
@@ -88,27 +89,46 @@ def burn(f, asof):
     return {"end": end, "months": round(m, 1), "per_month": x["val"] / m}
 
 
+def split_events(f):
+    """Reverse/forward splits, found where a later filing restates an earlier period's share count by a big ratio.
+    Returns [(filed_date_of_restating_filing, ratio)] with ratio = old shares / new shares (>1 for a reverse split)."""
+    by_period = {}
+    for c in ("WeightedAverageNumberOfSharesOutstandingBasic", "WeightedAverageNumberOfShareOutstandingBasicAndDiluted"):
+        for x in series(f, c, "shares"):
+            if x.get("val") and x.get("filed"):
+                by_period.setdefault((c, x.get("start"), x["end"]), []).append((x["filed"], x["val"]))
+    votes = {}
+    for vals in by_period.values():
+        vals.sort()
+        for (f0, v0), (f1, v1) in zip(vals, vals[1:]):
+            r = v0 / v1
+            if f1 > f0 and (r > 1.8 or r < 0.55):
+                votes.setdefault(f1, []).append(r)
+    ev = sorted((d, sorted(r)[len(r) // 2]) for d, r in votes.items())
+    out = []
+    for d, r in ev:                                       # one split restated in several filings: keep the first
+        if out and abs(r / out[-1][1] - 1) < 0.1 and (date.fromisoformat(d) - date.fromisoformat(out[-1][0])).days < 400:
+            continue
+        out.append((d, r))
+    return out
+
+
 def shares(f, asof):
-    """Shares on the latest cover page filed by `asof`, and the reverse-split factor applied to prices since then."""
+    """Shares on the latest cover page filed by `asof`, and the split factor applied to prices since then."""
     s = sorted((x for x in series(f, "EntityCommonStockSharesOutstanding", "shares", "dei") if x.get("val")),
                key=lambda x: (x["end"], x.get("filed", "")))
-    if not s:
-        return None
     known = [x for x in s if x.get("filed", "9") <= asof]
     if not known:
         return None
     cur = known[-1]
-    # Prices are split-adjusted to today's basis. A later reverse split shows up as a share count that drops 3x+
-    # between consecutive cover pages; multiply those drops to undo the adjustment.
-    later = [x for x in s if x["end"] > cur["end"]]
-    factor, prev = 1.0, cur["val"]
-    for x in later:
-        if x["val"] < prev / 3:
-            factor *= prev / x["val"]
-        prev = x["val"]
-    # several share classes reported on the same date: add them
+    # Prices are split-adjusted to today's basis: divide the adjusted price by the product of later splits.
+    ev = [(d, r) for d, r in split_events(f) if d > cur["filed"]]
+    factor = 1.0
+    for _, r in ev:
+        factor *= r
     same = [x["val"] for x in known if x["end"] == cur["end"] and x.get("accn") == cur.get("accn")]
-    return {"end": cur["end"], "shares": sum(same) if len(same) > 1 else cur["val"], "split_factor": round(factor, 3)}
+    return {"end": cur["end"], "shares": sum(same) if len(same) > 1 else cur["val"], "split_factor": round(factor, 3),
+            "splits_after": [[d, round(r, 2)] for d, r in ev]}
 
 
 def subs(cik):
