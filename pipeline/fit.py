@@ -30,7 +30,7 @@ ROOT = Path(__file__).resolve().parent.parent
 RAW, EV, OUT = ROOT / "data" / "factors_raw", ROOT / "data" / "events", ROOT / "data" / "factors"
 TODAY = date.today().isoformat()
 MIN_TRAIN, SHRINK = 250, 30
-KEYS = ["safety", "runway", "value", "insider", "programs"]
+KEYS = ["safety", "runway", "funded", "value", "insider", "programs"]
 CONT = {"runway": "runway_m", "value": "value_x", "programs": "trials"}
 
 
@@ -88,23 +88,65 @@ def months_between(a, b):
     return (date.fromisoformat(b) - date.fromisoformat(a)).days / 30.44
 
 
+ACT = 6          # months of cash left after the result: time to act on it (raise, partner, start the next trial)
+
+
+def num(v):
+    return isinstance(v, (int, float)) and v > 0
+
+
+_pxt = {}
+
+
+def px_trough(r):
+    if r["id"] not in _pxt:
+        p = r.get("price")
+        _pxt[r["id"]] = raw_close(r["cik"], p["date"], p["adj_close"]) if p else None
+    return _pxt[r["id"]]
+
+
 def features(r):
     """Numbers + categories from one raw record (None = unknown). Everything is as of the trough (r["asof"])."""
     x = {"id": r["id"], "date": r["date"], "asof": r["asof"], "final": r.get("final")}
     b, bu, sh, p, fl = r.get("balance"), r.get("burn"), r.get("shares"), r.get("price"), r.get("filing") or {}
     x["cash"] = b["cash"] if b and b["cash"] > 0 else None
-    # cash runway: the company's own guidance if its latest 10-Q/10-K gives one (it knows its planned spending,
-    # step-ups and cuts); otherwise cash / trailing-12-month operating burn, minus months since the balance sheet
-    x["runway_m"], x["runway_src"] = None, None
-    if fl.get("guided_until"):
-        x["runway_m"], x["runway_src"] = max(0.0, months_between(r["asof"], fl["guided_until"])), "guidance"
-    elif x["cash"] and bu:
-        per = bu.get("ttm_per_month") if bu.get("ttm_per_month") is not None else bu["per_month"]
-        if per >= 0:
+    # cash runway, one formula for every company (never the company's own guidance, for consistency):
+    #   liquid funds = unrestricted cash & equivalents + readily liquid marketable securities (latest balance sheet)
+    #                  + cash received from financings after the balance sheet, by the trough
+    #                  + proceeds of warrants in the money at the trough
+    #   monthly burn = (net cash used in operations + capex, latest six months
+    #                   + one-off receipts in that window - one-off payments in that window) / 6
+    #   runway       = liquid funds / monthly burn - months from the balance sheet to the trough
+    L = r.get("liquidity") or {}
+    b6 = r.get("burn6")
+    x["runway_m"], x["runway_src"], x["burn_m"], x["liquid"] = None, None, None, None
+    stale = b and months_between(b["end"], r["asof"]) > 9          # no balance sheet in 9 months: delinquent filer
+    if x["cash"] and b6 and not stale:
+        adds = sum(i["amount_usd"] for i in L.get("one_off_receipts", []) if num(i.get("amount_usd")))
+        subs = sum(i["amount_usd"] for i in L.get("one_off_payments", []) if num(i.get("amount_usd")))
+        x["burn_m"] = (b6["cash_used_ops"] + b6["capex"] + adds - subs) / 6
+        fin = sum(i["net_proceeds_usd"] for i in L.get("financings_after_balance_sheet", [])
+                  if num(i.get("net_proceeds_usd")) and b["end"] < (i.get("date") or "9") <= r["asof"])
+        war = 0.0
+        if px_trough(r) is not None:
+            for w in L.get("warrants", []):
+                if num(w.get("count")) and num(w.get("exercise_price_usd")) and w["exercise_price_usd"] < px_trough(r) \
+                        and (w.get("expiry") or "9") > r["asof"]:
+                    war += w["count"] * w["exercise_price_usd"]
+        x["liquid"], x["fin_after"], x["warrant_cash"], x["oneoff_add"], x["oneoff_sub"] = x["cash"] + fin + war, fin, war, adds, subs
+        if x["burn_m"] <= 0:
             x["runway_m"], x["runway_src"] = 999.0, "no burn"
         else:
-            x["runway_m"] = max(0.0, x["cash"] / -per - months_between(b["end"], r["asof"]))
-            x["runway_src"] = "calculated"
+            x["runway_m"] = max(0.0, x["liquid"] / x["burn_m"] - months_between(b["end"], r["asof"]))
+            x["runway_src"] = "calculated" if L else "calculated, filings not read yet"
+    # the key question: can the company reach its next important result with cash left to act on it?
+    c = L.get("next_catalyst")
+    x["funded"], x["catalyst"], x["cushion"] = None, c, None
+    if c and x["runway_m"] is not None:
+        to_cat = months_between(r["asof"], c["latest_date"])
+        if to_cat >= -1:
+            x["cushion"] = x["runway_m"] - max(0.0, to_cat)
+            x["funded"] = "g" if x["cushion"] >= ACT else "t" if x["cushion"] >= 0 else "r"
     x["value_x"] = None
     px = raw_close(r["cik"], p["date"], p["adj_close"]) if p else None   # actual price at the trough
     # Never the adjusted price as is: it embeds later reverse splits, and "a split came later" is future
@@ -176,7 +218,7 @@ def fit(train):
 
 
 def cat(model, x, k):
-    if k in ("safety", "insider"):
+    if k in ("safety", "insider", "funded"):
         return x[k] or "n"
     m, v = model["cuts"].get(k), x[CONT[k]]
     if not m or v is None:
@@ -199,6 +241,12 @@ def text(k, x):
     if k == "runway":
         v = x["runway_m"]
         return "N/A" if v is None else "No Cash Burn" if x["runway_src"] == "no burn" else f"{v:.0f} mo"
+    if k == "funded":
+        if x["funded"] is None:
+            return "N/A"
+        cu = x["cushion"]
+        return (f"Yes, {cu:.0f} mo to spare" if x["funded"] == "g" else f"Barely, {cu:.0f} mo to spare" if x["funded"] == "t"
+                else f"No, short {-cu:.0f} mo") if cu < 900 else "Yes, no cash burn"
     if k == "value":
         v = x["value_x"]
         return "N/A" if v is None else f"{'Below' if v < 1 else 'Above'} Cash ({v:.2f}x)" if v < 0.1 else f"{'Below' if v < 1 else 'Above'} Cash ({v:.1f}x)"
@@ -216,6 +264,8 @@ def bucket(k, x):
     """Group used by the column filter."""
     if k == "safety":
         return text(k, x)
+    if k == "funded":
+        return {"g": "Yes", "t": "Barely", "r": "No"}.get(x["funded"], "N/A")
     if k == "runway":
         v = x["runway_m"]
         return ("N/A" if v is None else "No cash burn" if x["runway_src"] == "no burn" else "Under 6 mo" if v < 6
@@ -243,20 +293,30 @@ def note(k, x, model):
     if k == "runway":
         bits = []
         if r.get("balance"):
-            bits.append(f"Cash {money(r['balance']['cash'])} at {r['balance']['end']}"
+            bits.append(f"Liquid funds {money(r['balance']['cash'])} at {r['balance']['end']}"
                         + (" (restricted cash removed)" if any(p.startswith("minus") for p in r["balance"]["parts"]) else ""))
-        bu = r.get("burn") or {}
-        if bu.get("ttm_per_month") is not None or bu.get("per_month") is not None:
-            per = bu.get("ttm_per_month") if bu.get("ttm_per_month") is not None else bu["per_month"]
-            bits.append(f"{'burn' if per < 0 else 'operating cash inflow'} {money(abs(per))}/mo (last 12 months)"
-                        + (f", {money(abs(bu['quarter_per_month']))}/mo last quarter" if bu.get("quarter_per_month") is not None else ""))
-        if x["runway_src"] == "guidance":
-            bits.append(f"Company guidance: \u201c…{fl['guidance'][-160:]}\u201d")
+        if x.get("fin_after"):
+            bits.append(f"+ {money(x['fin_after'])} raised after the balance sheet")
+        if x.get("warrant_cash"):
+            bits.append(f"+ {money(x['warrant_cash'])} from in-the-money warrants")
+        b6 = r.get("burn6")
+        if b6 and x.get("burn_m") is not None:
+            adj = (f", + {money(x['oneoff_add'])} one-off receipts added back" if x.get("oneoff_add") else "") + \
+                  (f", − {money(x['oneoff_sub'])} one-off payments" if x.get("oneoff_sub") else "")
+            bits.append(f"burn {money(abs(x['burn_m']))}/mo = (operations {money(b6['cash_used_ops'])} + capex {money(b6['capex'])}{adj}) / 6, "
+                        f"{b6['start']} to {b6['end']}")
+        if x.get("runway_src") == "calculated, filings not read yet":
+            bits.append("one-offs, financings and warrants not read yet")
         if fl.get("going_concern"):
             bits.append("Going-concern warning in the filing")
         if fl.get("atm"):
             bits.append("Has an at-the-market (ATM) share programme" + (f", {money(fl['atm_remaining'])} left" if fl.get("atm_remaining") else ""))
         return " · ".join(bits + [eff])
+    if k == "funded":
+        c = x.get("catalyst")
+        if not c:
+            return "No next result found in the filings yet"
+        return f"Next result: {c['what']} — expected {c['timing_text']} (by {c['latest_date']}) · needs {ACT}+ months of cash left after it to count as Yes · {eff}"
     if k == "value" and x.get("mcap"):
         return f"Market value {money(x['mcap'])} at the trough · {eff}"
     if k == "insider" and r.get("insiders"):
@@ -277,9 +337,14 @@ def main():
         r = json.loads(p.read_text())
         if r.get("error"):
             continue
+        lq = ROOT / "data" / "liquidity" / p.name
+        if lq.exists():
+            j = json.loads(lq.read_text())
+            if not j.get("error"):
+                r["liquidity"] = j
         x = features(r)
         x["raw"] = r
-        if r.get("version", 1) < 3:
+        if r.get("version", 1) < 4:
             continue                                             # old-format record: wait for re-collection
         t0 = r["asof"]                                           # the trough: where the backtest buys
         d365 = (date.fromisoformat(t0) + timedelta(days=365)).isoformat()
@@ -314,6 +379,8 @@ def main():
                 return "g" if x["insider_net"] > 0 else "r"
             if k == "safety":
                 return x["safety"] or "n"
+            if k == "funded":
+                return {"g": "g", "t": "n", "r": "r"}[x["funded"]]
             p = model["points"][k].get(cat(model, x, k), 0.0)
             return "g" if p >= 0.05 else "r" if p <= -0.05 else "n"   # better / worse than typical by 5+ points
         out = {"id": x["id"], "score": pct, "verdict": verdict, "in_sample": ins, "trained_on": model["n"],

@@ -135,10 +135,14 @@ def verify(j, text):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--limit", type=int, default=60)
+    ap.add_argument("--shard", default="0/1", help="i/n: this runner takes crashes whose position % n == i")
     a = ap.parse_args()
+    si, sn = map(int, a.shard.split("/"))
     OUT.mkdir(parents=True, exist_ok=True)
     n = done = 0
-    for p in sorted(RAW.glob("*.json"), key=lambda p: p.stem.split("_")[1], reverse=True):   # newest crashes first
+    for pos, p in enumerate(sorted(RAW.glob("*.json"), key=lambda p: p.stem.split("_")[1], reverse=True)):   # newest first
+        if pos % sn != si:
+            continue
         rec = json.loads(p.read_text())
         out = OUT / p.name
         if out.exists() and not json.loads(out.read_text()).get("error"):

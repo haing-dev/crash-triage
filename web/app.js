@@ -1,7 +1,7 @@
 /* Crash Triage — static front end. Reads data.json built by pipeline/build_site.py. */
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-const FACT = [["safety","Safety"],["runway","Cash runway"],["value","Value vs cash"],["insider","Insider buying"],["programs","Other programs"]];
+const FACT = [["safety","Safety"],["runway","Cash runway"],["funded","Funded to next result"],["value","Value vs cash"],["insider","Insider buying"],["programs","Other programs"]];
 const ICON = {g:"✓", r:"✕", n:"–", p:""};
 const VERDICT = {
   overdone:["p-good","▲","Potentially Oversold","var(--g-line)"],
@@ -13,7 +13,7 @@ const dur = c => `${c.days} day${c.days === 1 ? "" : "s"}`;
 const pct = v => v == null ? "–" : `${v > 0 ? "+" : v < 0 ? "−" : ""}${Math.abs(v).toFixed(0)}%`;
 const OUTCOME = {Winner:"p-good", Recovery:"p-warn", Failure:"p-crit"};
 const BUCKETS = {
-  runway:["Under 6 mo","6–12 mo","12–24 mo","24+ mo","No cash burn","N/A"], safety:["Reported Death","Negative Side Effects","Well Tolerated","N/A"], value:["Below Cash","Above Cash","N/A"],
+  runway:["Under 6 mo","6–12 mo","12–24 mo","24+ mo","No cash burn","N/A"], safety:["Reported Death","Negative Side Effects","Well Tolerated","N/A"], funded:["Yes","Barely","No","N/A"], value:["Below Cash","Above Cash","N/A"],
   insider:["Insider Buy","Insider Sell","N/A"], programs:["1 trial","2–4 trials","5+ trials","N/A"]};
 let D = null, SHOW = 60, MODE = "screen", SORT = false;
 

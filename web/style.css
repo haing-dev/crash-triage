@@ -46,7 +46,7 @@ td.f{text-align:center;font-weight:600;font-size:12px;border:2px solid var(--bg)
 .vhead{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;flex-wrap:wrap;margin-bottom:16px}
 .mv{color:var(--bad);margin-left:8px}.what1{margin-top:6px;font-size:15px}
 .vbox{text-align:right}.vbox .pill{font-size:16px;padding:6px 15px 6px 11px}.conf{margin-top:7px;color:var(--ink2);font-size:13px}
-.fcs{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px;margin-bottom:16px}
+.fcs{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:10px;margin-bottom:16px}
 @media (max-width:900px){.fcs{grid-template-columns:repeat(2,minmax(0,1fr))}}
 .fc{border-radius:10px;padding:11px 13px}.fl{font-size:12px;font-weight:600;opacity:.85}.fv{font-size:20px;font-weight:700;margin:3px 0 2px}
 .fn{font-size:11.5px;opacity:.9}
