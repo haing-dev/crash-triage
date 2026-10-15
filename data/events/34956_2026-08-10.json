@@ -1,0 +1,47 @@
+{
+ "cik": "34956",
+ "name": "TENAX THERAPEUTICS, INC.",
+ "ticker": "TENX",
+ "date": "2026-08-10",
+ "fall_pct": "-90.4",
+ "days": "1",
+ "news_day_pct": "-89.8",
+ "status": "read",
+ "source": {
+  "filing_date": "2026-08-10",
+  "accession": "0001193125-26-341236",
+  "doc": "d115761dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/34956/000119312526341236/d115761dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 3 missed primary 6-minute walk endpoint; subgroup and biomarker signals only \u00b7 Phase 3 \u00b7 TNX-103 (oral levosimendan) in PH-HFpEF \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "TNX-103 (oral levosimendan)",
+  "indication": "pulmonary hypertension due to heart failure with preserved ejection fraction (PH-HFpEF)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": 120,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "LEVEL did not meet its primary endpoint of improvement in the 6-minute walk distance versus placebo, or the key secondary endpoint of improvement in Kansas City Cardiomyopathy Questionnaire total symptom score.",
+   "primary_endpoint_met": "least-squares mean difference 3.5 meters (SE 7.3), p=0.63. The primary endpoint was not met.",
+   "safety": "TNX-103 was generally safe and well-tolerated in the LEVEL trial, and no new safety signals were observed.",
+   "program_discontinued": "Tenax intends to request a Type C meeting with the FDA to present the complete LEVEL dataset together with the Company\u2019s recommendations"
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

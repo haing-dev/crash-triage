@@ -1,0 +1,47 @@
+{
+ "cik": "2036042",
+ "name": "Sionna Therapeutics, Inc.",
+ "ticker": "SION",
+ "date": "2026-08-10",
+ "fall_pct": "-91.2",
+ "days": "1",
+ "news_day_pct": "-91.2",
+ "status": "read",
+ "source": {
+  "filing_date": "2026-08-10",
+  "accession": "0001193125-26-341230",
+  "doc": "d135438dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/2036042/000119312526341230/d135438dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 2a missed sweat chloride endpoint; add-on not advancing \u00b7 Phase 2 \u00b7 SION-719 added to Trikafta in cystic fibrosis \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "SION-719",
+  "indication": "cystic fibrosis",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": 15,
+   "serious_drug_related_patients": 0,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "SION-719 Phase 2a proof-of-concept trial did not achieve key activity endpoint of sweat chloride reduction when added to standard of care; Company is not advancing SION-719 as an add-on to standard of care",
+   "primary_endpoint_met": "The PreciSION CF trial did not meet its key activity endpoint, with a -1.0 mmol/L mean placebo-adjusted sweat chloride change (p=0.7).",
+   "safety": "SION-719 was generally well tolerated when added to Trikafta for 14 days with most treatment emergent adverse events mild to moderate, no serious adverse events",
+   "program_discontinued": "Based on these results, Sionna does not plan to advance SION-719 as an add-on to standard of care."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

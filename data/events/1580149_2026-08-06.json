@@ -1,0 +1,47 @@
+{
+ "cik": "1580149",
+ "name": "BIOVIE INC.",
+ "ticker": "BIVI",
+ "date": "2026-08-06",
+ "fall_pct": "-51.0",
+ "days": "2",
+ "news_day_pct": "-33.8",
+ "status": "read",
+ "source": {
+  "filing_date": "2026-08-06",
+  "accession": "0001520138-26-000312",
+  "doc": "bivi-20260806_8kex99z1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1580149/000152013826000312/bivi-20260806_8kex99z1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "other",
+  "summary": "Phase 2 topline touts exploratory biomarker and clinical gains, primary result unclear \u00b7 Phase 2 \u00b7 bezisterim in early Parkinson's disease \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "bezisterim",
+  "indication": "early Parkinson's disease",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": 57,
+   "serious_drug_related_patients": 0,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "The trial successfully met prespecified endpoints and achieved its objectives, with topline results showing that bezisterim improved blood based inflammatory markers of disease",
+   "primary_endpoint_met": "The trial successfully met prespecified endpoints and achieved its objectives",
+   "safety": "Bezisterim was well tolerated and demonstrated a safety profile comparable to placebo.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

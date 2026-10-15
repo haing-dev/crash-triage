@@ -1,0 +1,47 @@
+{
+ "cik": "1868279",
+ "name": "ArriVent BioPharma, Inc.",
+ "ticker": "AVBP",
+ "date": "2026-10-06",
+ "fall_pct": "-50.2",
+ "days": "1",
+ "news_day_pct": "-47.0",
+ "status": "read",
+ "source": {
+  "filing_date": "2026-10-06",
+  "accession": "0001104659-26-113898",
+  "doc": "tm2627092d1_ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1868279/000110465926113898/tm2627092d1_ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 3 missed primary PFS endpoint by BICR; secondary endpoints positive \u00b7 Phase 3 \u00b7 firmonertinib in first-line EGFR exon 20 NSCLC \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "firmonertinib",
+  "indication": "first-line EGFR exon 20 insertion mutant non-small cell lung cancer",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "the FURVENT (NCT05607550) Phase 3 trial evaluating firmonertinib monotherapy in patients with previously untreated, locally advanced or metastatic non-squamous non-small cell lung cancer (NSCLC) harboring EGFR exon 20 insertion mutations did not meet its primary endpoint",
+   "primary_endpoint_met": "did not meet its primary endpoint of progression free survival (PFS) by blinded independent central review (BICR)",
+   "safety": "The safety profile observed in FURVENT was consistent with previous clinical studies of firmonertinib, with no new safety signals identified.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

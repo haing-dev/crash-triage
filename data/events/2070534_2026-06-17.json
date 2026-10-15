@@ -1,0 +1,47 @@
+{
+ "cik": "2070534",
+ "name": "SL Science Holding Ltd",
+ "ticker": "SLBT",
+ "date": "2026-06-17",
+ "fall_pct": "-57.8",
+ "days": "4",
+ "news_day_pct": "-28.2",
+ "status": "read",
+ "source": {
+  "filing_date": "2026-06-15",
+  "accession": "0001104659-26-073797",
+  "doc": "tm2617928d1_ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/2070534/000110465926073797/tm2617928d1_ex99-1.htm"
+ },
+ "facts": {
+  "related": false,
+  "trigger": "other",
+  "summary": "SPAC business combination closed and Nasdaq listing as SLBT \u00b7 Preclinical \u00b7 Gamma delta T cells in solid tumors \u00b7 not yet approved",
+  "phase": "Preclinical",
+  "drug": "Gamma delta T (GDT) cell therapy",
+  "indication": "solid tumors including pancreatic and brain cancers",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "today announced the closing of its previously announced business combination with Horizon Space Acquisition II Corp. (Nasdaq: HSPT)",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "cik": "1847367",
+ "name": "ALUMIS INC.",
+ "ticker": "ALMS",
+ "date": "2026-09-01",
+ "fall_pct": "-60.5",
+ "days": "1",
+ "news_day_pct": "-56.6",
+ "status": "read",
+ "source": {
+  "filing_date": "2026-09-01",
+  "accession": "0001104659-26-104145",
+  "doc": "tm2624540d1_ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1847367/000110465926104145/tm2624540d1_ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 2b missed primary and secondary endpoints overall; subgroup positive \u00b7 Phase 2b \u00b7 envudeucitinib in SLE \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "envudeucitinib",
+  "indication": "systemic lupus erythematosus (SLE)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": 408,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "LUMUS trial did not meet its primary and secondary endpoints in the overall trial population",
+   "primary_endpoint_met": "its Phase 2b LUMUS trial of envudeucitinib for the treatment of moderate-to-severe systemic lupus erythematosus (SLE) did not meet its primary and secondary endpoints in the overall trial population",
+   "safety": "In LUMUS, envudeucitinib was well tolerated and demonstrated a favorable safety profile with no new safety signals.",
+   "program_discontinued": "We plan to engage regulators to discuss Phase 3 development for envudeucitinib."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

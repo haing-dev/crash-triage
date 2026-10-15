@@ -1,0 +1,47 @@
+{
+ "cik": "1770069",
+ "name": "MapLight Therapeutics, Inc.",
+ "ticker": "MPLT",
+ "date": "2026-07-27",
+ "fall_pct": "-73.5",
+ "days": "1",
+ "news_day_pct": "-72.9",
+ "status": "read",
+ "source": {
+  "filing_date": "2026-07-27",
+  "accession": "0001193125-26-316820",
+  "doc": "d139086dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1770069/000119312526316820/d139086dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Primary endpoint met at one dose with modest effect \u00b7 Phase 2 \u00b7 ML-007C-MA in schizophrenia \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "ML-007C-MA",
+  "indication": "Schizophrenia",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": true,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": 305,
+   "serious_drug_related_patients": 0,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "ZEPHYR met its primary endpoint and demonstrated a substantial treatment effect, supported by concordant improvements across key secondary efficacy measures",
+   "primary_endpoint_met": "PANSS Total Score (mITT, primary endpoint): Effect Size of 0.37 (-4.5 pts versus placebo, p=0.015)",
+   "safety": "No serious or drug-related severe AEs",
+   "program_discontinued": "Data support advancing to an additional pivotal trial to support registration; planning and site identification underway ahead of EOP2 FDA interactions"
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

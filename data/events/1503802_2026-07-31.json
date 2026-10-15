@@ -1,0 +1,47 @@
+{
+ "cik": "1503802",
+ "name": "Karyopharm Therapeutics Inc.",
+ "ticker": "KPTI",
+ "date": "2026-07-31",
+ "fall_pct": "-74.1",
+ "days": "1",
+ "news_day_pct": "-72.6",
+ "status": "read",
+ "source": {
+  "filing_date": "2026-07-31",
+  "accession": "0001193125-26-326995",
+  "doc": "d71318d8k.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1503802/000119312526326995/d71318d8k.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 3 missed primary PFS endpoint; financing and strategic alternatives explored \u00b7 Phase 3 \u00b7 selinexor in endometrial cancer \u00b7 on market",
+  "phase": "Phase 3",
+  "drug": "selinexor",
+  "indication": "TP53 wild-type advanced or recurrent endometrial cancer",
+  "market_stage": "on market",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": false,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "The trial did not meet its primary endpoint of progression free survival (\u201cPFS\u201d).",
+   "primary_endpoint_met": "The trial did not meet its primary endpoint of progression free survival (\u201cPFS\u201d).",
+   "safety": "The safety and tolerability profile of selinexor was consistent with its established safety profile, with no new safety signals observed.",
+   "program_discontinued": "The results of the XPORT-EC-042 trial do not affect ongoing trials of selinexor in other potential indications."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

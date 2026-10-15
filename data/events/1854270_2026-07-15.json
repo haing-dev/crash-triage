@@ -1,0 +1,47 @@
+{
+ "cik": "1854270",
+ "name": "Senti Biosciences Holdings, Inc.",
+ "ticker": "SNTI",
+ "date": "2026-07-15",
+ "fall_pct": "-57.6",
+ "days": "2",
+ "news_day_pct": "-39.8",
+ "status": "read",
+ "source": {
+  "filing_date": "2026-07-15",
+  "accession": "0001628280-26-048248",
+  "doc": "snti-20260714.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1854270/000162828026048248/snti-20260714.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "other",
+  "summary": "Sells pipeline to largest stockholder's affiliate; holders get contingent rights \u00b7 Phase 1 \u00b7 SENTI-202 in AML \u00b7 not yet approved",
+  "phase": "Phase 1",
+  "drug": "SENTI-202",
+  "indication": "n/a",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "that affiliate would acquire substantially all of the Company\u2019s existing business and pipeline through a merger transaction",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "cik": "2044725",
+ "name": "Evommune, Inc.",
+ "ticker": "EVMN",
+ "date": "2026-06-29",
+ "fall_pct": "-50.9",
+ "days": "5",
+ "news_day_pct": "-40.2",
+ "status": "read",
+ "source": {
+  "filing_date": "2026-06-29",
+  "accession": "0001193125-26-286918",
+  "doc": "evmn-ex99_1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/2044725/000119312526286918/evmn-ex99_1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 2b missed primary endpoint at all doses \u00b7 Phase 2b \u00b7 EVO756 in chronic spontaneous urticaria \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "EVO756",
+  "indication": "chronic spontaneous urticaria",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": 160,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "The study did not meet the primary endpoint of mean change in a patient\u2019s Urticaria Activity Score over seven days (UAS7) at 12 weeks at any dose.",
+   "primary_endpoint_met": "The study did not meet the primary endpoint of mean change in a patient\u2019s Urticaria Activity Score over seven days (UAS7) at 12 weeks at any dose.",
+   "safety": "this Phase 2b trial confirmed safe and well tolerated doses that warrant these further studies",
+   "program_discontinued": "the lack of efficacy demonstrated at Week 12 in this Phase 2b trial does not support further development of EVO756 for CSU"
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}
