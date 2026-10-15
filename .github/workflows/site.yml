@@ -1,7 +1,7 @@
 name: build-site
 on:
   schedule:
-    - cron: "23 6,22 * * *"      # twice a day; Cloudflare only deploys the 'site' branch
+    - cron: "23 */3 * * *"      # every 3 hours; Cloudflare only deploys the 'site' branch
   push:
     paths: ["web/**", "pipeline/build_site.py", "pipeline/fit.py", ".github/workflows/site.yml"]
   workflow_dispatch:
