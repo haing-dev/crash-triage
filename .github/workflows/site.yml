@@ -3,7 +3,7 @@ on:
   schedule:
     - cron: "23 6,22 * * *"      # twice a day; Cloudflare only deploys the 'site' branch
   push:
-    paths: ["web/**", "pipeline/build_site.py", ".github/workflows/site.yml"]
+    paths: ["web/**", "pipeline/build_site.py", "pipeline/fit.py", ".github/workflows/site.yml"]
   workflow_dispatch:
 permissions:
   contents: write
@@ -16,7 +16,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
-      - run: cd pipeline && python build_site.py
+      - run: cd pipeline && python fit.py && python build_site.py
       - name: Package for Cloudflare (Worker with static assets)
         run: |
           mkdir -p deploy && mv site deploy/public

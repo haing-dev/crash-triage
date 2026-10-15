@@ -4,6 +4,8 @@ Download daily closing prices (split-adjusted) for the universe, within free-pla
 - Stopped trading -> Tiingo   (free: 50 calls/hour, 1,000/day, 500 tickers/month)
 Each run spends at most the budget given on the command line, saves progress, and can be re-run any time.
 Prices: data/prices/<cik>.csv (date,close). Progress: data/state/prices.json
+Raw (not split-adjusted) closes, fetched once with spare calls, for market value on a past date:
+data/prices_raw/<cik>.csv. If a split happens, the daily update notices the old days changed and refetches all.
 
     python prices.py --twelvedata 380 --tiingo 45
 """
@@ -23,11 +25,12 @@ def load_state():
     return json.loads(STATE.read_text()) if STATE.exists() else {"done": {}, "failed": {}}
 
 
-def save(cik, rows, src):
-    PDIR.mkdir(parents=True, exist_ok=True)
-    p = PDIR / f"{cik}.csv"
+def save(cik, rows, src, replace=False, folder=None):
+    d0 = folder or PDIR
+    d0.mkdir(parents=True, exist_ok=True)
+    p = d0 / f"{cik}.csv"
     old = {}
-    if p.exists():
+    if p.exists() and not replace:
         for r in csv.reader(p.open()):
             if r and r[0] != "date":
                 old[r[0]] = r[1]
@@ -41,19 +44,31 @@ def save(cik, rows, src):
     return len(old)
 
 
-def twelvedata(sym, start):
+def twelvedata(sym, start, adjust="splits"):
     j = get(f"https://api.twelvedata.com/time_series?symbol={sym}&interval=1day&start_date={start}"
-            f"&outputsize=5000&adjust=splits&apikey={TD}")
+            f"&outputsize=5000&adjust={adjust}&apikey={TD}")
     if not j or j.get("status") != "ok":
         raise RuntimeError((j or {}).get("message", "no data"))
     return [(v["datetime"][:10], v["close"]) for v in j["values"]]
 
 
-def tiingo(sym, start, end):
+def tiingo(sym, start, end, field="adjClose"):
     j = get(f"https://api.tiingo.com/tiingo/daily/{sym}/prices?startDate={start}&endDate={end}&token={TI}")
     if not isinstance(j, list):
         raise RuntimeError((j or {}).get("detail", "no data") if isinstance(j, dict) else "no data")
-    return [(r["date"][:10], f"{r['adjClose']:.6g}") for r in j]
+    return [(r["date"][:10], f"{r[field]:.6g}") for r in j]
+
+
+def changed(cik, rows):
+    """True if the overlapping days no longer match what is stored: a split re-based the history."""
+    p = PDIR / f"{cik}.csv"
+    if not p.exists():
+        return False
+    old = {r["date"]: float(r["close"]) for r in csv.DictReader(p.open()) if r["close"]}
+    for d, c in rows:
+        if d in old and old[d] > 0 and abs(float(c) / old[d] - 1) > 0.02:
+            return True
+    return False
 
 
 def main():
@@ -90,11 +105,17 @@ def main():
             continue                                   # already current
         start = (date.fromisoformat(last) - timedelta(days=7)).isoformat() if last else START
         try:
+            replace = False
             if src == "twelvedata":
                 rows = twelvedata(u["ticker"], start)
+                if last and changed(cik, rows) and got[src] + 1 < budget[src]:
+                    rows, replace = twelvedata(u["ticker"], START), True     # split: refetch the whole history
+                    got[src] += 1
+                    use[src] += 1
+                    st.setdefault("raw_done", {}).pop(cik, None)            # and the raw closes
             else:
                 rows = tiingo(u["tiingo_ticker"], start, u["tiingo_end"] or today)
-            n = save(cik, rows, src)
+            n = save(cik, rows, src, replace)
             st["done"][cik] = today
             st["failed"].pop(cik, None)
             print(f"{src:10s} {u['ticker']:8s} {u['name'][:40]:40s} {n} days", flush=True)
@@ -105,6 +126,25 @@ def main():
         use[src] += 1
         STATE.parent.mkdir(parents=True, exist_ok=True)
         STATE.write_text(json.dumps(st, indent=0))
+    # spare calls: raw (not split-adjusted) closes, once per company
+    raw = st.setdefault("raw_done", {})
+    for u in uni:
+        src, cik = u["price_source"], u["cik"]
+        if src not in budget or got[src] >= budget[src] or cik in raw or cik not in st["done"]:
+            continue
+        try:
+            if src == "twelvedata":
+                rows = twelvedata(u["ticker"], START, adjust="none")
+            else:
+                rows = tiingo(u["tiingo_ticker"], START, u["tiingo_end"] or today, field="close")
+            save(cik, rows, src, True, ROOT / "data" / "prices_raw")
+            raw[cik] = today
+        except Exception as e:
+            raw[cik] = f"failed {today}: {str(e)[:80]}"
+        got[src] += 1
+        use[src] += 1
+        STATE.write_text(json.dumps(st, indent=0))
+    print(f"raw closes: {sum(1 for v in raw.values() if not str(v).startswith('failed'))} companies")
     need = {s: sum(1 for u in uni if u["price_source"] == s and u["cik"] not in st["done"]) for s in budget}
     print(f"this run: {got} · still to fetch for the first time: {need} · failures: {len(st['failed'])}")
 

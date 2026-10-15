@@ -53,6 +53,16 @@ def money(v):
     return f"${a / 1e9:.1f}B" if a >= 1e9 else f"${a / 1e6:.0f}M" if a >= 1e7 else f"${a / 1e6:.1f}M" if a >= 1e6 else f"${a / 1e3:.0f}K"
 
 
+_raw = {}
+
+
+def raw_close(cik, d):
+    if cik not in _raw:
+        p = ROOT / "data" / "prices_raw" / f"{cik}.csv"
+        _raw[cik] = dict((r["date"], float(r["close"])) for r in csv.DictReader(p.open()) if r["close"]) if p.exists() else {}
+    return _raw[cik].get(d)
+
+
 def features(r):
     """Numbers + safety/insider categories from one raw record (None = unknown)."""
     x = {"id": r["id"], "date": r["date"], "asof": r["asof"], "final": r.get("final")}
@@ -65,8 +75,11 @@ def features(r):
         else:
             x["runway_m"] = max(0.0, x["cash"] / -bu["per_month"] - (date.fromisoformat(r["asof"]) - date.fromisoformat(b["end"])).days / 30.44)
     x["value_x"] = None
-    if x["cash"] and sh and p:
-        mcap = p["adj_close"] / sh["split_factor"] * sh["shares"]
+    px = raw_close(r["cik"], p["date"]) if p else None       # actual price that day (not split-adjusted)
+    # No fallback to adjusted prices: they embed later reverse splits, and "a split came later" is future
+    # information that would leak into the verdict. Value stays unknown until the raw closes are downloaded.
+    if x["cash"] and sh and px:
+        mcap = px * sh["shares"]
         if 0.01 < mcap / x["cash"] < 500:
             x["value_x"], x["mcap"] = mcap / x["cash"], mcap
     t = r.get("trials")
@@ -119,8 +132,7 @@ def fit(train):
         cats = {}
         for t in train:
             cats.setdefault(cat(model, t, k), []).append(t["y"])
-        model["points"][k] = {c: round((st.median(v) - med) * len(v) / (len(v) + SHRINK), 4) for c, v in cats.items() if c != "n"}
-        model["points"][k]["n"] = 0.0
+        model["points"][k] = {c: round((st.median(v) - med) * len(v) / (len(v) + SHRINK), 4) for c, v in cats.items()}
     model["scores"] = sorted(score(model, t) for t in train)
     s = model["scores"]
     model["cut_lo"], model["cut_hi"] = s[len(s) // 3], s[2 * len(s) // 3]
@@ -196,7 +208,7 @@ def main():
             ds, cs = prices(r["cik"])
             a, b = move(ds, cs, d30, d365), move(xd, xc, d30, d365)
             if a is not None and b is not None:
-                x["y"], x["d365"] = a - b, d365
+                x["y"], x["abs"], x["d365"] = a - b, a, d365
         rows.append(x)
     known = sorted((x for x in rows if x["y"] is not None), key=lambda x: x["d365"])
     OUT.mkdir(parents=True, exist_ok=True)
@@ -216,29 +228,33 @@ def main():
         s = score(model, x)
         verdict = "overdone" if s >= model["cut_hi"] else "justified" if s <= model["cut_lo"] else "close"
         pct = round(100 * bisect_right(model["scores"], s) / len(model["scores"]))
+        def colour(k):
+            p = model["points"][k].get(cat(model, x, k), 0.0)
+            return "g" if p >= 0.05 else "r" if p <= -0.05 else "n"   # better / worse than typical by 5+ points
         out = {"id": x["id"], "score": pct, "verdict": verdict, "in_sample": ins, "trained_on": model["n"],
-               "factors": {k: [cat(model, x, k) if x.get(k if k in ("safety", "insider") else CONT[k]) is not None else "n",
-                               text(k, x), note(k, x, model)] for k in KEYS}}
+               "factors": {k: [colour(k), text(k, x), note(k, x, model)] for k in KEYS}}
         (OUT / f"{x['id']}.json").write_text(json.dumps(out, indent=1))
         if x["y"] is not None and not ins:
-            heldout.append((verdict, x["y"]))
+            heldout.append((verdict, x["y"], x["abs"]))
     # report
     final = fit(known) if len(known) >= MIN_TRAIN else None
     rep = ["# Fit report", f"crashes with factor inputs: {len(rows)} · with a full year: {len(known)}", ""]
     if final:
-        rep += ["## Model on all history (what new crashes get)", "", "| Factor | Cut-off | Points green / red (pp vs median) |", "|---|---|---|"]
+        rep += ["## Model on all history (what new crashes get)", "", "| Factor | Cut-off | Points green / grey / red (pp vs median) |", "|---|---|---|"]
         for k in KEYS:
             c = final["cuts"].get(k) if k in CONT else None
             cs = f"{'≥' if c['higher_is_better'] else '<'} {c['cut']:.2f} is green" if c else ("categorical" if k not in CONT else "not enough data")
             pt = final["points"][k]
-            rep.append(f"| {k} | {cs} | {pt.get('g', 0) * 100:+.1f} / {pt.get('r', 0) * 100:+.1f} |")
+            rep.append(f"| {k} | {cs} | {pt.get('g', 0) * 100:+.1f} / {pt.get('n', 0) * 100:+.1f} / {pt.get('r', 0) * 100:+.1f} |")
     if heldout:
         rep += ["", "## Out-of-sample check (walk-forward: verdict given at the time, outcome vs XBI)", "",
-                "| Verdict | n | median vs XBI | share beating XBI |", "|---|---|---|---|"]
+                "| Verdict | n | median stock move | median vs XBI | beat XBI | up 50%+ | down 80%+ |", "|---|---|---|---|---|---|---|"]
         for v in ("overdone", "close", "justified"):
-            ys = [y for g, y in heldout if g == v]
-            if ys:
-                rep.append(f"| {v} | {len(ys)} | {st.median(ys) * 100:+.0f}% | {sum(y > 0 for y in ys) / len(ys):.0%} |")
+            g = [(y, a) for gg, y, a in heldout if gg == v]
+            if g:
+                ys, aa = [y for y, _ in g], [a for _, a in g]
+                rep.append(f"| {v} | {len(g)} | {st.median(aa) * 100:+.0f}% | {st.median(ys) * 100:+.0f}% | {sum(y > 0 for y in ys) / len(ys):.0%} "
+                           f"| {sum(a >= .5 for a in aa) / len(aa):.0%} | {sum(a <= -.8 for a in aa) / len(aa):.0%} |")
     (ROOT / "reports" / "fit.md").write_text("\n".join(rep) + "\n")
     print("\n".join(rep))
 

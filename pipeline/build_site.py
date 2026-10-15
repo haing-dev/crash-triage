@@ -69,7 +69,9 @@ for c in (csv.DictReader(cpath.open()) if cpath.exists() else []):
         e = json.loads(ev.read_text())
         f = e.get("facts") or {}
         if f.get("related") is not False and f.get("summary"):
-            rec["summary"], rec["trigger"] = f["summary"], f.get("trigger")
+            parts = [x.strip() for x in f["summary"].split("·")]
+            parts = [x for x in parts if x and "n/a" not in x.lower()]   # drop empty slots like "n/a in n/a"
+            rec["summary"], rec["trigger"] = " · ".join(parts), f.get("trigger")
         okq = [q for k, q in (f.get("evidence") or {}).items() if q and (f.get("evidence_verified") or {}).get(k)]
         rec["quotes"] = list(dict.fromkeys(okq))[:3]
         if e.get("source"):
