@@ -4,7 +4,7 @@ on:
     - cron: "47 * * * *"        # hourly; reads the company announcement for crashes not yet read
   workflow_dispatch:
     inputs:
-      limit: { description: "Crashes to read this run", default: "60" }
+      limit: { description: "Crashes to read this run", default: "150" }
 permissions:
   contents: write
 concurrency:                   # own queue: long jobs don't cancel the hourly ones
@@ -26,7 +26,7 @@ jobs:
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
-        run: cd pipeline && python events.py --limit ${{ inputs.limit || '60' }}
+        run: cd pipeline && python events.py --limit ${{ inputs.limit || '150' }}
       - name: Save
         run: |
           git config user.name "crash-triage-bot"

@@ -4,7 +4,7 @@ on:
     - cron: "7 * * * *"         # hourly; reads one-off cash items, financings, warrants and next catalyst per crash (once)
   workflow_dispatch:
     inputs:
-      limit: { description: "Crashes to read this run", default: "40" }
+      limit: { description: "Crashes to read this run", default: "150" }
 permissions:
   contents: write
 concurrency:
@@ -29,7 +29,7 @@ jobs:
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
-        run: cd pipeline && timeout 55m python liquidity.py --kind ${{ matrix.kind }} --limit ${{ inputs.limit || '40' }} --shard ${{ matrix.shard }}/2 || true
+        run: cd pipeline && timeout 55m python liquidity.py --kind ${{ matrix.kind }} --limit ${{ inputs.limit || '150' }} --shard ${{ matrix.shard }}/2 || true
       - name: Save
         run: |
           git config user.name "crash-triage-bot"
