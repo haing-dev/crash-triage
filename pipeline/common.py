@@ -3,7 +3,7 @@ import json, os, time, urllib.error, urllib.request
 
 SEC_UA = os.environ.get("SEC_USER_AGENT", "crash-triage")
 _last = {}
-_MIN_GAP = {"sec": 0.13, "tiingo": 0.0, "twelvedata": 7.6, "ctgov": 0.2}   # seconds between calls per host
+_MIN_GAP = {"sec": 0.13, "tiingo": 0.0, "twelvedata": 7.6, "ctgov": 0.2, "yahoo": 0.5}   # seconds between calls per host
 
 
 def _host_key(url):
@@ -15,6 +15,8 @@ def _host_key(url):
         return "twelvedata"
     if "clinicaltrials" in url:
         return "ctgov"
+    if "yahoo" in url:
+        return "yahoo"
     return "other"
 
 

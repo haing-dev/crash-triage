@@ -69,11 +69,17 @@ def norm(s):
 
 def find_release(cik, d):
     s = get(f"https://data.sec.gov/submissions/CIK{int(cik):010d}.json")
-    r = s["filings"]["recent"]
-    lo, hi = (date.fromisoformat(d) - timedelta(days=3)).isoformat(), (date.fromisoformat(d) + timedelta(days=1)).isoformat()
-    cands = [(r["filingDate"][i], r["accessionNumber"][i], r["primaryDocument"][i]) for i in range(len(r["form"]))
-             if r["form"][i] in ("8-K", "6-K") and lo <= r["filingDate"][i] <= hi]
-    cands.sort(key=lambda c: abs((date.fromisoformat(c[0]) - date.fromisoformat(d)).days))
+    pages = [s["filings"]["recent"]] + [get(f"https://data.sec.gov/submissions/{fl['name']}") or {}
+                                        for fl in s["filings"].get("files", []) if fl.get("filingTo", "9") >= d and fl.get("filingFrom", "") <= d]
+    # 8-Ks may be filed up to 4 business days after the news; offerings are announced in 424B prospectuses
+    lo, hi = (date.fromisoformat(d) - timedelta(days=3)).isoformat(), (date.fromisoformat(d) + timedelta(days=6)).isoformat()
+    cands = []
+    for r in pages:
+        cands += [(r["filingDate"][i], r["accessionNumber"][i], r["primaryDocument"][i], r["form"][i]) for i in range(len(r.get("form", [])))
+                  if r["form"][i] in ("8-K", "6-K", "424B5", "424B4", "424B3") and lo <= r["filingDate"][i] <= hi]
+    # nearest date first; on the same distance, an 8-K/6-K before a prospectus
+    cands.sort(key=lambda c: (abs((date.fromisoformat(c[0]) - date.fromisoformat(d)).days), c[3].startswith("424")))
+    cands = [c[:3] for c in cands]
     for fd, acc, prim in cands:
         a = acc.replace("-", "")
         idx = get(f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{a}/index.json") or {}

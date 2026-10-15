@@ -1,7 +1,7 @@
 name: universe-fix
 on:
-  push:
-    paths: ["pipeline/universe_fix.py", "pipeline/universe_lib.py", ".github/workflows/universe-fix.yml"]
+  schedule:
+    - cron: "41 5 1 * *"        # monthly, after the universe refresh
   workflow_dispatch:
 permissions:
   contents: write

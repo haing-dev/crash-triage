@@ -1,7 +1,5 @@
 name: smoke-test
 on:
-  push:
-    paths: [".github/workflows/smoke.yml", "scripts/smoke.py"]
   workflow_dispatch:
 permissions:
   contents: write

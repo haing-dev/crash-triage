@@ -1,7 +1,7 @@
 name: build-universe
 on:
-  push:
-    paths: ["pipeline/universe.py", "pipeline/common.py", ".github/workflows/universe.yml"]
+  schedule:
+    - cron: "11 3 1 * *"        # monthly: picks up new listings; everything else is stored and reused
   workflow_dispatch:
 permissions:
   contents: write
