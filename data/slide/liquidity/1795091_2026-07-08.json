@@ -1,0 +1,33 @@
+{
+ "id": "1795091_2026-07-08",
+ "asof": "2026-07-08",
+ "chars": 13427,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2026-04-02",
+   "net_proceeds_usd": 4700000,
+   "what": "Registered direct offering of shares, pre-funded warrants and common warrants",
+   "quote": "The closing of the Offering occurred on April 2, 2026. The Company received net proceeds from the Offering of approximately $4.7 million."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 8821005,
+   "exercise_price_usd": 1.4,
+   "expiry": null,
+   "quote": "As of March 31, 2026, the Company had investor warrants to purchase 8,821,005 shares of common stock outstanding as of March 31, 2026."
+  },
+  {
+   "count": 100000,
+   "exercise_price_usd": 2.12,
+   "expiry": null,
+   "quote": "a warrant to purchase 100,000 shares of common stock at an exercise price of $2.12 per share, exercisable in September 2026 and expiring in September 2030."
+  }
+ ],
+ "warrants_dropped": 0
+}

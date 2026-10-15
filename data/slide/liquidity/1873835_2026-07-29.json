@@ -1,0 +1,33 @@
+{
+ "id": "1873835_2026-07-29",
+ "asof": "2026-07-29",
+ "chars": 11372,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2026-05-22",
+   "net_proceeds_usd": 140650000,
+   "what": "Underwritten public offering of 16,778,524 common shares at $8.94 (closing date taken from the 8-K's expected close; the excerpts do not confirm it closed)",
+   "quote": "The Offering is expected to close on May 22, 2026, subject to the satisfaction of customary conditions."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 2936709,
+   "exercise_price_usd": 2.0,
+   "expiry": null,
+   "quote": "non-transferable warrants to purchase 2,936,709 shares of common stock"
+  },
+  {
+   "count": 2403857,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "include 2,403,857 and 1,913,661 shares underlying Pre-Funded warrants to purchase common shares"
+  }
+ ],
+ "warrants_dropped": 0
+}

@@ -1,0 +1,33 @@
+{
+ "id": "1590877_2026-08-07",
+ "asof": "2026-08-07",
+ "chars": 23913,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2026-07-20",
+   "net_proceeds_usd": 107800000,
+   "what": "July 2026 public offering of common stock and pre-funded warrants, including full exercise of the underwriters' option",
+   "quote": "The aggregate net proceeds received from the offering were approximately $107.8 million, net of underwriting discounts and commissions and estimated offering expenses."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 268096,
+   "exercise_price_usd": 14.92,
+   "expiry": null,
+   "quote": "the Company also issued HCR warrants to purchase 268,096 shares of its common stock at an exercise price per share of $14.92"
+  },
+  {
+   "count": 1111111,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "1,111,111 pre-funded warrants (the July 2026 Pre-funded Warrants) to purchase shares of its common stock at a price of $8.9999 per pre-funded warrant"
+  }
+ ],
+ "warrants_dropped": 0
+}

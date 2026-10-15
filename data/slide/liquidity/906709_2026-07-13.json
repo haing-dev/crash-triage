@@ -1,0 +1,33 @@
+{
+ "id": "906709_2026-07-13",
+ "asof": "2026-07-13",
+ "chars": 26651,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2026-04-01",
+   "net_proceeds_usd": 13600000,
+   "what": "ATM sales of 207,555 shares under the November 2025 ATM Sales Agreement",
+   "quote": "On April 1, 2026, we sold an additional 207,555 shares of our common stock under the November 2025 ATM Sales Agreement for net proceeds of $13.6 million after deducting related commissions."
+  },
+  {
+   "date": "2026-04-23",
+   "net_proceeds_usd": 350900000,
+   "what": "April 2026 underwritten public offering of 4,062,500 shares at $92.00, including the full underwriter option",
+   "quote": "The estimated net proceeds from the April 2026 Offering total approximately $350.9 million, after deducting underwriting discounts and commissions and other offering costs."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 293103,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "Each pre-funded warrant has an exercise price of $0.0001 per share and is exercisable at any time after the original issuance date."
+  }
+ ],
+ "warrants_dropped": 0
+}

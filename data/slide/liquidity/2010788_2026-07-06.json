@@ -1,0 +1,39 @@
+{
+ "id": "2010788_2026-07-06",
+ "asof": "2026-07-06",
+ "chars": 17552,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2026-06-09",
+   "net_proceeds_usd": 4704300,
+   "what": "MDB firm commitment underwritten public offering of units (shares and warrants), base deal; net is the prospectus estimate",
+   "quote": "We estimate that the net proceeds to us from this offering will be approximately $4,704,300 (or $5,447,891 if the overallotment is fully exercised)"
+  },
+  {
+   "date": "2026-06-17",
+   "net_proceeds_usd": 619920,
+   "what": "Partial exercise of over-allotment option (34,440 units at $18.00); gross, since net is not stated",
+   "quote": "MDB exercised a portion of the over-allotment option purchasing 34,440 units, consisting of 68,880 shares of Common Stock and 34,440 Warrants"
+  },
+  {
+   "date": "2026-06-30",
+   "net_proceeds_usd": 565206,
+   "what": "Placement agent offering of units (shares and warrants), closed June 30, 2026; net is the prospectus estimate",
+   "quote": "We estimate that the net proceeds to us from this offering will be approximately $565,206"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 351528,
+   "exercise_price_usd": 4.75,
+   "expiry": null,
+   "quote": "Balance at 3/31/2026 351,528 $4.75 (weighted avg)"
+  }
+ ],
+ "warrants_dropped": 0
+}

@@ -1,0 +1,33 @@
+{
+ "id": "1828673_2026-07-01",
+ "asof": "2026-07-01",
+ "chars": 10810,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2026-05-21",
+   "net_proceeds_usd": 4000000,
+   "what": "May 2026 offering of shares, pre-funded warrants and common warrants (gross proceeds; net not given)",
+   "quote": "on May 21, 2026, the Company issued and sold an aggregate of 427,046 Shares, 2,419,929 Pre-Funded Warrants, and Common Warrants to purchase an aggregate of up to 2,846,975 shares of Common Stock for aggregate gross proceeds of approximately $4.0 million"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 3020410,
+   "exercise_price_usd": 2.41,
+   "expiry": null,
+   "quote": "new Common Stock Warrants to purchase up to 3,020,410 shares of Common Stock at an exercise price of $2.41 per share"
+  },
+  {
+   "count": 2846975,
+   "exercise_price_usd": 1.28,
+   "expiry": null,
+   "quote": "Common Warrants to purchase an aggregate of up to 2,846,975 shares of Common Stock"
+  }
+ ],
+ "warrants_dropped": 0
+}
