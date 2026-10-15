@@ -7,10 +7,11 @@ CRASH  the stock falls 50%+ within 5 trading days from the highest close of the 
 SLIDE  the stock is 30%+ below its highest close of the past 6 months (126 trading days) with no single day of
        -25% or worse on the way down: a slow decline, not a news crash. Entry is the first close 30% below the high.
        Left out when the company had a crash from a year before the high through the entry (that is a crash
-       aftermath, already covered by the crash triage).
+       aftermath, already covered by the crash triage). A new slide can only start after the stock was back within
+       30% of its 6-month high, so the tail of an earlier decline never counts as a fresh slide.
 
 Shared filters: the high is at least $1 (penny-stock noise); a +80% snap-back within 3 days means a bad print.
-One crash per company per 20 trading days; one slide per company per 252 trading days (a year).
+One crash per company per 20 trading days; at most one slide per company per 126 trading days (6 months).
 
 Output: data/crash/episodes.csv, data/slide/episodes.csv (same columns), reports/episodes.md
 """
@@ -20,7 +21,7 @@ from datetime import date, timedelta
 from common import DATA, ROOT, kdir, universe
 
 CRASH_FALL, CRASH_WINDOW, NEWS_DAY, CRASH_COOLDOWN = -0.50, 5, -0.25, 20
-SLIDE_FALL, SLIDE_WINDOW, SLIDE_COOLDOWN = -0.30, 126, 252
+SLIDE_FALL, SLIDE_WINDOW, SLIDE_COOLDOWN = -0.30, 126, 126
 COLS = ["cik", "name", "ticker", "date", "month", "start_date", "end_date", "prev_close", "low_close", "fall_pct",
         "days", "news_day_pct", "status"]
 
@@ -60,17 +61,24 @@ def crashes(cik, rows):
 
 
 def slides(cik, rows, crash_dates):
-    out, n, j = [], len(rows), SLIDE_WINDOW
+    """A slide starts the first day the close is 30% below the 6-month high, counted only when the stock was above
+    that line before (so the tail of an earlier decline or of a skipped crash never counts as a new slide)."""
+    out, n, j, armed = [], len(rows), SLIDE_WINDOW, False
     while j < n:
         start = max(range(j - SLIDE_WINDOW, j), key=lambda k: rows[k][1])
         base = rows[start][1]
-        if base < 1 or rows[j][1] / base - 1 > SLIDE_FALL:
+        if rows[j][1] / base - 1 > SLIDE_FALL:
+            armed = True                      # back within 30% of the high: a new slide can start
             j += 1
             continue
+        if not armed or base < 1 or (out and out[-1]["start_date"] == rows[start][0]):
+            j += 1                            # not re-armed, penny stock, or the same decline (same high) as last time
+            continue
+        armed = False
         worst = min(rows[k][1] / rows[k - 1][1] - 1 for k in range(start + 1, j + 1))
         lo = (date.fromisoformat(rows[start][0]) - timedelta(days=365)).isoformat()
         if worst <= NEWS_DAY or snap_back(rows, j) or any(lo <= d <= rows[j][0] for d in crash_dates):
-            j += 1
+            j += 1                            # a crash (or bad print), not a slide
             continue
         out.append(row(cik, rows, start, j, j, worst, j - start))
         j += SLIDE_COOLDOWN
