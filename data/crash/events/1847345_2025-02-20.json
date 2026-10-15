@@ -1,0 +1,44 @@
+{
+ "cik": "1847345",
+ "name": "Aspire-Lakewood Holdings, Inc.",
+ "ticker": "ASBP",
+ "date": "2025-02-20",
+ "status": "read",
+ "source": {
+  "filing_date": "2025-02-20",
+  "accession": "0001493152-25-007732",
+  "doc": "ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1847345/000149315225007732/ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "SPAC merger closed and Nasdaq listing began with only ~$3.8M proceeds \u00b7 Preclinical/early \u00b7 sublingual aspirin \u00b7 not yet approved",
+  "phase": "n/a",
+  "drug": "Fast-acting sublingual aspirin",
+  "indication": "cardiology emergencies and pain management",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "Proceeds from the transaction totaled approximately $3.8 million, which included funds held in PowerUp\u2019s trust account and a concurrent private placement investment in public equity",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

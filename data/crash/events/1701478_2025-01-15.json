@@ -1,0 +1,44 @@
+{
+ "cik": "1701478",
+ "name": "Azitra, Inc.",
+ "ticker": "AZTR",
+ "date": "2025-01-15",
+ "status": "read",
+ "source": {
+  "filing_date": "2025-01-16",
+  "accession": "0001493152-25-002537",
+  "doc": "ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1701478/000149315225002537/ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Announced proposed public offering of common stock or pre-funded warrants \u00b7 Phase 1b \u00b7 ATR-12 in Netherton syndrome \u00b7 not yet approved",
+  "phase": "Phase 1/2",
+  "drug": "ATR-12",
+  "indication": "Netherton syndrome",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "today announced that it has commenced a public offering of shares of its common stock (or pre-funded warrants in lieu thereof). All of the shares of common stock (or pre-funded warrants in lieu thereof) to be sold in the proposed offering will be sold by Azitra.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "cik": "1664710",
+ "name": "Keros Therapeutics, Inc.",
+ "ticker": "KROS",
+ "date": "2024-12-12",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-12-12",
+  "accession": "0001664710-24-000102",
+  "doc": "kros-20241212.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1664710/000166471024000102/kros-20241212.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "safety",
+  "summary": "Dosing halted in two higher-dose arms after pericardial effusion events \u00b7 Phase 2 \u00b7 cibotercept (KER-012) in pulmonary arterial hypertension \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "cibotercept (KER-012)",
+  "indication": "pulmonary arterial hypertension",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": true,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "voluntarily halted dosing in the 3.0 mg/kg and 4.5 mg/kg treatment arms in the ongoing TROPOS trial",
+   "primary_endpoint_met": null,
+   "safety": "based on a safety review due to the unanticipated observation of pericardial effusion adverse events in the trial",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

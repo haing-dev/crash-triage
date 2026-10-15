@@ -1,0 +1,44 @@
+{
+ "cik": "1053691",
+ "name": "CervoMed Inc.",
+ "ticker": "CRVO",
+ "date": "2024-12-10",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-12-10",
+  "accession": "0001437749-24-037053",
+  "doc": "crvo20241209_8k.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1053691/000143774924037053/crvo20241209_8k.htm"
+ },
+ "facts": {
+  "related": false,
+  "trigger": "other",
+  "summary": "Topline data announced, results not stated in filing \u00b7 Phase 2b \u00b7 drug not named in dementia with Lewy bodies \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "n/a",
+  "indication": "dementia with Lewy bodies",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "issued a press release announcing topline data from its RewinD-LB Phase 2b clinical trial in patients with dementia with Lewy bodies.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

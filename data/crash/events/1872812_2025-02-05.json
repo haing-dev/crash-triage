@@ -1,0 +1,44 @@
+{
+ "cik": "1872812",
+ "name": "TC BioPharm (Holdings) plc",
+ "ticker": "TCBP",
+ "date": "2025-02-05",
+ "status": "read",
+ "source": {
+  "filing_date": "2025-02-10",
+  "accession": "0001493152-25-005632",
+  "doc": "ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1872812/000149315225005632/ex99-1.htm"
+ },
+ "facts": {
+  "related": false,
+  "trigger": "other",
+  "summary": "ADS ratio change equivalent to 1-for-20 reverse split announced \u00b7 Phase 2b/3 \u00b7 gamma-delta T cell therapy in acute myeloid leukemia \u00b7 not yet approved",
+  "phase": "Phase 2/3",
+  "drug": "n/a",
+  "indication": "acute myeloid leukemia",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "The ADS Ratio Change will have the same effect as a 1-for-20 reverse ADS split for the ADS holders.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "cik": "2022416",
+ "name": "Silexion Therapeutics Corp",
+ "ticker": "SLXN",
+ "date": "2025-01-16",
+ "status": "read",
+ "source": {
+  "filing_date": "2025-01-17",
+  "accession": "0001178913-25-000143",
+  "doc": "zk2532563.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/2022416/000117891325000143/zk2532563.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Priced dilutive ~$5M best-efforts public offering with warrants at $1.35 \u00b7 preclinical \u00b7 n/a \u00b7 not yet approved",
+  "phase": "Preclinical",
+  "drug": "n/a",
+  "indication": "n/a",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "Aggregate gross proceeds from the Offering (without taking into account any proceeds from any future exercises of Warrants) are expected to be approximately $5 million.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

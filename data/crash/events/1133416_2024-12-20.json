@@ -1,0 +1,44 @@
+{
+ "cik": "1133416",
+ "name": "GALECTIN THERAPEUTICS INC",
+ "ticker": "GALT",
+ "date": "2024-12-20",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-12-20",
+  "accession": "0001140361-24-050005",
+  "doc": "ef20040433_ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1133416/000114036124050005/ef20040433_ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Missed primary endpoint in ITT; per-protocol significant \u00b7 Phase 2/3 \u00b7 belapectin in MASH cirrhosis portal hypertension \u00b7 not yet approved",
+  "phase": "Phase 2/3",
+  "drug": "belapectin",
+  "indication": "MASH cirrhosis with portal hypertension (prevention of esophageal varices)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": 237,
+   "serious_drug_related_patients": 0,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "While there was a favorable trend for incidence of varices in the primary end point intent-to-treat population, belapectin did not achieve statistical significance",
+   "primary_endpoint_met": "the composite endpoint did not reach statistical significance",
+   "safety": "Belapectin was overall well tolerated with no safety signals; incidence of adverse events and serious adverse events were comparable across the three cohorts",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

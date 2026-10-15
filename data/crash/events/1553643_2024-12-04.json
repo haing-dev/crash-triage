@@ -1,0 +1,44 @@
+{
+ "cik": "1553643",
+ "name": "RELMADA THERAPEUTICS, INC.",
+ "ticker": "RLMD",
+ "date": "2024-12-04",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-12-04",
+  "accession": "0001213900-24-105245",
+  "doc": "ea022356301ex99-1_relmada.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1553643/000121390024105245/ea022356301ex99-1_relmada.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Interim analysis found trial futile, unlikely to meet primary endpoint \u00b7 Phase 3 \u00b7 REL-1017 in major depressive disorder \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "REL-1017",
+  "indication": "major depressive disorder (adjunctive treatment)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "the Reliance II Phase 3 study is futile and is unlikely to meet the primary efficacy endpoint with statistical significance",
+   "primary_endpoint_met": "the Reliance II Phase 3 study is futile and is unlikely to meet the primary efficacy endpoint with statistical significance",
+   "safety": "No new safety signals were reported.",
+   "program_discontinued": "Relmada will evaluate the full dataset to determine next steps for the REL-1017 program."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

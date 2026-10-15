@@ -1,0 +1,44 @@
+{
+ "cik": "1583771",
+ "name": "Hepion Pharmaceuticals, Inc.",
+ "ticker": "HEPA",
+ "date": "2025-01-22",
+ "status": "read",
+ "source": {
+  "filing_date": "2025-01-23",
+  "accession": "0001493152-25-003271",
+  "doc": "form424b4.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1583771/000149315225003271/form424b4.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Priced $9M dilutive offering with pre-funded and two warrant series at $0.325 \u00b7 n/a \u00b7 rencofilstat in NASH \u00b7 not yet approved",
+  "phase": "n/a",
+  "drug": "rencofilstat",
+  "indication": "NASH (chronic liver disease)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "We are offering on a reasonable best efforts basis up to 3,661,087 shares of our common stock, $0.0001 par value per share",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

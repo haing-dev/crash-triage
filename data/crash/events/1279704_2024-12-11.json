@@ -1,0 +1,44 @@
+{
+ "cik": "1279704",
+ "name": "Cellectar Biosciences, Inc.",
+ "ticker": "CLRB",
+ "date": "2024-12-11",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-12-11",
+  "accession": "0001104659-24-127487",
+  "doc": "tm2430732d1_ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1279704/000110465924127487/tm2430732d1_ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "regulatory delay",
+  "summary": "FDA now requires randomized confirmatory PFS study; company seeks partner for drug, cuts 60% staff \u00b7 Phase 2 \u00b7 iopofosine I 131 in Waldenstrom's macroglobulinemia \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "iopofosine I 131",
+  "indication": "Waldenstrom's macroglobulinemia",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "Based upon a recent Type-C meeting with the FDA, the Company now believes that a submission seeking accelerated approval would need to be based on the MRR data from CLOVER-WaM and enrollment in a randomized, controlled confirmatory study",
+   "primary_endpoint_met": null,
+   "safety": "We believe iopofosine I 131 represents a compelling opportunity as it has shown strong efficacy and good tolerability based on our clinical studies.",
+   "program_discontinued": "the Company has decided to pursue strategic options for the further development and commercialization of this product candidate."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

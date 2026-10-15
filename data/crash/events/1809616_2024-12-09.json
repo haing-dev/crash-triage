@@ -1,0 +1,44 @@
+{
+ "cik": "1809616",
+ "name": "Universe Pharmaceuticals INC",
+ "ticker": "UPC",
+ "date": "2024-12-09",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-12-09",
+  "accession": "0001213900-24-106939",
+  "doc": "ea0224061-424b5_universe.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1809616/000121390024106939/ea0224061-424b5_universe.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Discounted registered direct offering of shares, pre-funded and common warrants at $0.80 \u00b7 n/a \u00b7 n/a in n/a \u00b7 n/a",
+  "phase": "n/a",
+  "drug": "n/a",
+  "indication": "n/a",
+  "market_stage": "n/a",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "Each ordinary share and one accompanying common warrant is offered at a combined offering price of US$0.80 per share",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

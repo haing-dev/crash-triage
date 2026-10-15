@@ -1,0 +1,44 @@
+{
+ "cik": "1001233",
+ "name": "SANGAMO THERAPEUTICS, INC",
+ "ticker": "SGMO",
+ "date": "2024-12-31",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-12-30",
+  "accession": "0001628280-24-052579",
+  "doc": "sgmo-20241222.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001233/000162828024052579/sgmo-20241222.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "partner exit",
+  "summary": "Pfizer terminates hemophilia A gene therapy collaboration, won't file for approval \u00b7 Phase 3 completed \u00b7 giroctocogene fitelparvovec in hemophilia A \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "giroctocogene fitelparvovec (SB-525)",
+  "indication": "hemophilia A",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": true,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "Pfizer has indicated to Sangamo that the termination relates to its decision not to submit a Biologics License Application or Marketing Authorisation Application for, or pursue commercialization of, giroctocogene fitelparvovec.",
+   "primary_endpoint_met": "the Phase 3 AFFINE clinical trial in which giroctocogene fitelparvovec met both the primary and key secondary endpoints",
+   "safety": null,
+   "program_discontinued": "Over the coming months, Sangamo expects to seek a new potential partner to seek regulatory approvals for and, if approved, commercialize giroctocogene fitelparvovec."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": false,
+   "program_discontinued": true
+  }
+ }
+}

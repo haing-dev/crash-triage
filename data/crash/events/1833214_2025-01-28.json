@@ -1,0 +1,44 @@
+{
+ "cik": "1833214",
+ "name": "SAB Biotherapeutics, Inc.",
+ "ticker": "SABS",
+ "date": "2025-01-28",
+ "status": "read",
+ "source": {
+  "filing_date": "2025-01-28",
+  "accession": "0000950170-25-009474",
+  "doc": "sabs-ex99_1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1833214/000095017025009474/sabs-ex99_1.htm"
+ },
+ "facts": {
+  "related": false,
+  "trigger": "other",
+  "summary": "Positive topline Phase 1 safety/PD results announced; no stated cause for drop \u00b7 Phase 1 \u00b7 SAB-142 in type 1 diabetes \u00b7 not yet approved",
+  "phase": "Phase 1",
+  "drug": "SAB-142",
+  "indication": "type 1 diabetes",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": true,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "SAB BIO Announces Positive Topline Phase 1 Clinical Results with Potentially Disease-Modifying T1D Therapy SAB-142",
+   "primary_endpoint_met": "The study met its primary objectives related to safety and pharmacodynamic activity enabling SAB-142 to advance to Phase 2b clinical development.",
+   "safety": "SAB-142 was generally well-tolerated and demonstrated a favorable safety profile that supports the chronic dosing of SAB-142 in an ambulatory setting.",
+   "program_discontinued": "SAB BIO plans to advance SAB-142 into a Phase 2b trial in 2025 to evaluate the therapeutic candidate in adult and pediatric patients with new-onset T1D."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

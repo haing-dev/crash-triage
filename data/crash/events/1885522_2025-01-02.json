@@ -1,0 +1,44 @@
+{
+ "cik": "1885522",
+ "name": "Neumora Therapeutics, Inc.",
+ "ticker": "NMRA",
+ "date": "2025-01-02",
+ "status": "read",
+ "source": {
+  "filing_date": "2025-01-02",
+  "accession": "0001193125-25-000084",
+  "doc": "d859264dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1885522/000119312525000084/d859264dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Missed primary endpoint vs placebo; female subgroup signal \u00b7 Phase 3 KOASTAL-1 \u00b7 navacaprant in major depressive disorder \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "navacaprant",
+  "indication": "major depressive disorder",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": 191,
+   "serious_drug_related_patients": 0,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "Study did not demonstrate statistically significant improvement on primary endpoint of reduction in depressive symptoms as measured by MADRS total score compared to placebo",
+   "primary_endpoint_met": "The study did not demonstrate a statistically significant improvement on the primary endpoint of change from baseline in the Montgomery-\u00c5sberg Depression Rating Scale (MADRS) total score at Week 6",
+   "safety": "Navacaprant was shown to be safe and generally well-tolerated with no serious adverse events reported.",
+   "program_discontinued": "The Phase 3 KOASTAL-2, KOASTAL-3 and KOASTAL-LT studies are ongoing."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

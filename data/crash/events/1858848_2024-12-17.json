@@ -1,0 +1,44 @@
+{
+ "cik": "1858848",
+ "name": "Tenaya Therapeutics, Inc.",
+ "ticker": "TNYA",
+ "date": "2024-12-17",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-12-17",
+  "accession": "0001193125-24-280112",
+  "doc": "d883027dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1858848/000119312524280112/d883027dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Early gene therapy data showed low mRNA and only 3% protein increase \u00b7 Phase 1b/2 \u00b7 TN-201 in MYBPC3-associated hypertrophic cardiomyopathy \u00b7 not yet approved",
+  "phase": "Phase 1/2",
+  "drug": "TN-201",
+  "indication": "MYBPC3-associated hypertrophic cardiomyopathy",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": 3,
+   "serious_drug_related_patients": 1,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "TN-201-derived mRNA at levels similar to those of other clinical-stage cardiac gene therapies, though lower than those observed in preclinical studies.",
+   "primary_endpoint_met": null,
+   "safety": "One patient experienced asymptomatic and mild (Grade 1) enzyme elevation that was designated as an SAE due to the administration of a corticosteroid bolus in the hospital setting.",
+   "program_discontinued": "Patients 1 and 2 have successfully tapered off immunosuppressives and all three patients remain on study."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

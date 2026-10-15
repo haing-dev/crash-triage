@@ -1,0 +1,44 @@
+{
+ "cik": "1430306",
+ "name": "Tonix Pharmaceuticals Holding Corp.",
+ "ticker": "TNXP",
+ "date": "2025-02-03",
+ "status": "read",
+ "source": {
+  "filing_date": "2025-02-03",
+  "accession": "0001999371-25-001105",
+  "doc": "ex99-01.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1430306/000199937125001105/ex99-01.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Announced 1-for-100 reverse stock split to meet Nasdaq minimum bid price \u00b7 Filed \u00b7 TNX-102 SL in fibromyalgia \u00b7 filed for approval",
+  "phase": "Filed",
+  "drug": "TNX-102 SL",
+  "indication": "fibromyalgia",
+  "market_stage": "filed for approval",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "The reverse stock split is intended to increase the per share trading price of Tonix\u2019s common stock to satisfy the $1.00 minimum bid price requirement for continued listing on The NASDAQ Capital Market",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

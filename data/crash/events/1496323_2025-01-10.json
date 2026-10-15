@@ -1,0 +1,44 @@
+{
+ "cik": "1496323",
+ "name": "IGM Biosciences, Inc.",
+ "ticker": "IGMS",
+ "date": "2025-01-10",
+ "status": "read",
+ "source": {
+  "filing_date": "2025-01-10",
+  "accession": "0001193125-25-004455",
+  "doc": "d778635dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1496323/000119312525004455/d778635dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Halted development after insufficient B cell depletion; 73% layoffs \u00b7 Phase 1b \u00b7 imvotamab in RA and SLE \u00b7 not yet approved",
+  "phase": "Phase 1",
+  "drug": "imvotamab",
+  "indication": "rheumatoid arthritis and systemic lupus erythematosus",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "Interim data from the Phase 1b studies of imvotamab in rheumatoid arthritis and systemic lupus erythematosus show that the depth and consistency of B cell depletion is insufficient to meet our high bar for success",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": "Due to these findings, we have decided to discontinue further development of imvotamab."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": true
+  }
+ }
+}

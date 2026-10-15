@@ -1,0 +1,44 @@
+{
+ "cik": "1984086",
+ "name": "Septerna, Inc.",
+ "ticker": "SEPN",
+ "date": "2025-02-18",
+ "status": "read",
+ "source": {
+  "filing_date": "2025-02-18",
+  "accession": "0001193125-25-028247",
+  "doc": "d934523dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1984086/000119312525028247/d934523dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "safety",
+  "summary": "Phase 1 trial discontinued after Grade 3 bilirubin elevations \u00b7 Phase 1 \u00b7 SEP-786 in hypoparathyroidism \u00b7 not yet approved",
+  "phase": "Phase 1",
+  "drug": "SEP-786",
+  "indication": "hypoparathyroidism",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": false
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "Septerna Announces Discontinuation of SEP-786 Phase 1 Clinical Trial and Plans to Advance Next-Generation Oral Small Molecule PTH1R Agonist",
+   "primary_endpoint_met": null,
+   "safety": "Septerna\u2019s decision follows the observation of two unanticipated severe (Grade 3) events of elevated unconjugated bilirubin in the MAD portion of the Phase 1 trial",
+   "program_discontinued": "today announced its decision to discontinue the Phase 1 single- and multiple-ascending dose (SAD/MAD) clinical trial of SEP-786"
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

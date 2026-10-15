@@ -1,0 +1,44 @@
+{
+ "cik": "1661998",
+ "name": "Q32 Bio Inc.",
+ "ticker": "QTTB",
+ "date": "2024-12-11",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-12-11",
+  "accession": "0001193125-24-274856",
+  "doc": "d903481dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1661998/000119312524274856/d903481dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 2a atopic dermatitis trial missed primary endpoint; alopecia areata signal post-hoc \u00b7 Phase 2 \u00b7 bempikibart in atopic dermatitis \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "bempikibart (ADX-914)",
+  "indication": "atopic dermatitis",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": 0,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "Although the Company is reporting promising findings in Part A, the trial did not meet its primary endpoint in Part B.",
+   "primary_endpoint_met": "At week 14, data from Part B demonstrated that patients treated with bempikibart showed a 74% improvement in average EASI from baseline, compared to 76% for the placebo group",
+   "safety": "Bempikibart was observed to be safe and well tolerated in the SIGNAL-AD trial. There were no serious adverse events (SAE) or Grade 3 or higher adverse events related to treatment.",
+   "program_discontinued": "Based on these results, Company plans to advance bempikibart in patients with AA"
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

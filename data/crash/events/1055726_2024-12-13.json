@@ -1,0 +1,44 @@
+{
+ "cik": "1055726",
+ "name": "INOVIO PHARMACEUTICALS, INC.",
+ "ticker": "INO",
+ "date": "2024-12-13",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-12-13",
+  "accession": "0001193125-24-278461",
+  "doc": "d876750d424b5.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1055726/000119312524278461/d876750d424b5.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Priced $30M equity offering with warrants, plus BLA delay from device manufacturing issue \u00b7 Phase 1/2 complete \u00b7 INO-3107 in recurrent respiratory papillomatosis \u00b7 not yet approved",
+  "phase": "Phase 1/2",
+  "drug": "INO-3107",
+  "indication": "recurrent respiratory papillomatosis (RRP)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": 32,
+   "serious_drug_related_patients": 0,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "We are offering 10,000,000 shares of our common stock, par value $0.001 per share, accompanied by warrants to purchase an aggregate of 10,000,000 shares of our common stock",
+   "primary_endpoint_met": null,
+   "safety": "INO-3107 was well tolerated in the trial. Of the 32 patients in the trial, 13 patients (41%) reported a treatment-related adverse event, with none greater than Grade 2 severity.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "cik": "1509745",
+ "name": "CYPHERPUNK TECHNOLOGIES INC.",
+ "ticker": "CYPH",
+ "date": "2025-01-28",
+ "status": "read",
+ "source": {
+  "filing_date": "2025-01-28",
+  "accession": "0001104659-25-006544",
+  "doc": "tm254560d1_ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1509745/000110465925006544/tm254560d1_ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Gastric cancer study to miss primary PFS endpoints, Phase 3 dropped \u00b7 Phase 2 \u00b7 sirexatamab (DKN-01) in gastric/GEJ cancer \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "sirexatamab (DKN-01)",
+  "indication": "first-line advanced gastric and gastroesophageal junction cancer",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "DisTinGuish Part C study in gastric cancer demonstrates activity in biomarker populations, but not the signal necessary to advance into Phase 3",
+   "primary_endpoint_met": "the study did not generate a clear positive signal and will be negative on the primary PFS endpoints when the study completes",
+   "safety": "Sirexatamab plus tislelizumab and chemotherapy was well tolerated, without additive toxicity to the standard of care.",
+   "program_discontinued": "resulting in the decision not to move forward with Phase 3 studies in gastric cancer"
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

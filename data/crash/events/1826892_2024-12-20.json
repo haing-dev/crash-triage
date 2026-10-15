@@ -1,0 +1,44 @@
+{
+ "cik": "1826892",
+ "name": "BioAtla, Inc.",
+ "ticker": "BCAB",
+ "date": "2024-12-20",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-12-20",
+  "accession": "0001193125-24-283212",
+  "doc": "d823541dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1826892/000119312524283212/d823541dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Dilutive $9.2M registered direct offering with warrants at $0.952 \u00b7 Phase 1/2 programs \u00b7 BA3182 and mecbotamab vedotin in solid tumors \u00b7 not yet approved",
+  "phase": "Phase 1/2",
+  "drug": "BA3182; mecbotamab vedotin",
+  "indication": "solid tumors (EpCAM-positive adenocarcinomas; mKRAS NSCLC)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "entered into definitive agreements with certain institutional investors for the issuance and sale of 9,679,158 shares of its common stock in a registered direct offering.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}
