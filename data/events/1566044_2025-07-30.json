@@ -1,0 +1,47 @@
+{
+ "cik": "1566044",
+ "name": "Yarrow Bioscience, Inc.",
+ "ticker": "YARW",
+ "date": "2025-07-30",
+ "fall_pct": "-75.8",
+ "days": "1",
+ "news_day_pct": "-72.4",
+ "status": "read",
+ "source": {
+  "filing_date": "2025-07-30",
+  "accession": "0001104659-25-071953",
+  "doc": "tm2522042d1_ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1566044/000110465925071953/tm2522042d1_ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 2b missed primary and key secondary endpoints; trial terminated, partner sought \u00b7 Phase 2 \u00b7 Repibresib gel in nonsegmental vitiligo \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "Repibresib",
+  "indication": "nonsegmental vitiligo",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": 177,
+   "serious_drug_related_patients": 0,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "the trial, which evaluated 177 subjects, did not meet its primary endpoint of the proportion of subjects achieving an improvement in Facial Vitiligo Area Scoring Index of at least 50% from baseline (F-VASI50) at week 24 compared to vehicle.",
+   "primary_endpoint_met": "did not meet its primary endpoint of the proportion of subjects achieving an improvement in Facial Vitiligo Area Scoring Index of at least 50% from baseline (F-VASI50) at week 24 compared to vehicle.",
+   "safety": "There was one treatment emergent serious adverse event, cholelithiasis without obstruction, not drug related in the Repibresib 1% cohort, and there was no increased risk of thrombocytopenia or GI-related serious adverse events.",
+   "program_discontinued": "Based on these data, the company will discontinue treatment in the ongoing extension phase of the trial and will terminate the trial."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "cik": "1534525",
+ "name": "Xenetic Biosciences, Inc.",
+ "ticker": "XBIO",
+ "date": "2025-10-10",
+ "fall_pct": "-53.6",
+ "days": "3",
+ "news_day_pct": "-33.1",
+ "status": "read",
+ "source": {
+  "filing_date": "2025-10-10",
+  "accession": "0001683168-25-007488",
+  "doc": "xenetic_424b5.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1534525/000168316825007488/xenetic_424b5.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Announced underwritten common stock offering plus strategic review incl. possible reverse merger \u00b7 preclinical \u00b7 DNase technology in solid tumors/pancreatic cancer \u00b7 not yet approved",
+  "phase": "Preclinical",
+  "drug": "DNase technology",
+  "indication": "solid tumors / pancreatic carcinoma",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "The Company is considering a wide range of alternatives to maximize shareholder value, including, but not limited to, the sale of all or part of the Company or its assets or a business combination, including a \u201creverse merger\u201d.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

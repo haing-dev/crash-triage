@@ -1,0 +1,47 @@
+{
+ "cik": "1346830",
+ "name": "Tvardi Therapeutics, Inc.",
+ "ticker": "TVRD",
+ "date": "2025-10-13",
+ "fall_pct": "-84.9",
+ "days": "1",
+ "news_day_pct": "-83.9",
+ "status": "read",
+ "source": {
+  "filing_date": "2025-10-14",
+  "accession": "0001104659-25-098908",
+  "doc": "tm2528638d1_ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1346830/000110465925098908/tm2528638d1_ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 2 trial showed no benefit over placebo, high GI-driven discontinuations \u00b7 Phase 2 \u00b7 TTI-101 in idiopathic pulmonary fibrosis \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "TTI-101",
+  "indication": "idiopathic pulmonary fibrosis",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": false,
+  "safety": {
+   "treated_patients": 59,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": false
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "After reviewing the preliminary safety data and exploratory efficacy results, including changes in Forced Vital Capacity (FVC), the Company concluded that the study did not meet its goals.",
+   "primary_endpoint_met": "Preliminary analysis of exploratory efficacy showed no statistically significant differences between placebo and treatment arms.",
+   "safety": "Discontinuation rates among the TTI-101 population were primarily driven by gastrointestinal adverse events, with higher rates of events and discontinuations among patients on concurrent nintedanib.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "cik": "1595248",
+ "name": "Genprex, Inc.",
+ "ticker": "GNPX",
+ "date": "2025-10-16",
+ "fall_pct": "-73.9",
+ "days": "2",
+ "news_day_pct": "-43.3",
+ "status": "read",
+ "source": {
+  "filing_date": "2025-10-17",
+  "accession": "0001437749-25-031210",
+  "doc": "gnpx20251001_8k.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1595248/000143774925031210/gnpx20251001_8k.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "1-for-50 reverse split announced amid Nasdaq delisting risk \u00b7 Phase 1/2 \u00b7 REQORSA in NSCLC and SCLC \u00b7 not yet approved",
+  "phase": "Phase 1/2",
+  "drug": "REQORSA",
+  "indication": "Non-small cell lung cancer and extensive stage small cell lung cancer",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "On October 16, 2025, Genprex filed a Certificate of Amendment to the Amended and Restated Certificate of Incorporation with the Secretary of State of the State of Delaware",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

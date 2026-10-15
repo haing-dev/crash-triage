@@ -1,0 +1,47 @@
+{
+ "cik": "1653087",
+ "name": "Alector, Inc.",
+ "ticker": "ALEC",
+ "date": "2025-10-22",
+ "fall_pct": "-55.6",
+ "days": "1",
+ "news_day_pct": "-49.8",
+ "status": "read",
+ "source": {
+  "filing_date": "2025-10-21",
+  "accession": "0001193125-25-245102",
+  "doc": "alec-ex99_1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1653087/000119312525245102/alec-ex99_1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 3 missed clinical co-primary endpoint, extension studies discontinued, 49% layoffs \u00b7 Phase 3 \u00b7 latozinemab in FTD-GRN \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "latozinemab (AL001)",
+  "indication": "frontotemporal dementia due to a GRN mutation",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": false,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "latozinemab, developed in collaboration with GSK, did not meet the clinical co-primary endpoint of slowing FTD-GRN progression",
+   "primary_endpoint_met": "did not meet the clinical co-primary endpoint of slowing FTD-GRN progression, as measured by the Clinical Dementia Rating\u00ae plus National Alzheimer\u2019s Coordinating Center Frontotemporal Lobar Degeneration Sum of Boxes",
+   "safety": "Preliminary safety data have not highlighted any major safety concerns at present.",
+   "program_discontinued": "the open-label extension portion of the INFRONT-3 trial and the continuation study for latozinemab will be discontinued."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

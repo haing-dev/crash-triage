@@ -1,0 +1,47 @@
+{
+ "cik": "1737953",
+ "name": "Replimune Group, Inc.",
+ "ticker": "REPL",
+ "date": "2025-07-22",
+ "fall_pct": "-77.8",
+ "days": "1",
+ "news_day_pct": "-77.2",
+ "status": "read",
+ "source": {
+  "filing_date": "2025-07-22",
+  "accession": "0001104659-25-069489",
+  "doc": "tm2521403d1_ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1737953/000110465925069489/tm2521403d1_ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "regulatory rejection",
+  "summary": "FDA issued complete response letter rejecting BLA, citing IGNYTE trial inadequacy \u00b7 Filed \u00b7 RP1 plus nivolumab in advanced melanoma \u00b7 not yet approved",
+  "phase": "Filed",
+  "drug": "RP1 (vusolimogene oderparepvec)",
+  "indication": "advanced melanoma",
+  "market_stage": "filed for approval",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "The CRL indicates that the FDA is unable to approve the application in its present form.",
+   "primary_endpoint_met": null,
+   "safety": "Importantly, no safety issues were raised.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "cik": "1857044",
+ "name": "Indaptus Therapeutics, Inc.",
+ "ticker": "INDP",
+ "date": "2025-09-05",
+ "fall_pct": "-55.2",
+ "days": "2",
+ "news_day_pct": "-28.4",
+ "status": "read",
+ "source": {
+  "filing_date": "2025-09-04",
+  "accession": "0001493152-25-012630",
+  "doc": "ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1857044/000149315225012630/ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Weak early efficacy: one partial response, other combo patients progressed or stable \u00b7 Phase 1 \u00b7 Decoy20 in solid tumors (urothelial) \u00b7 not yet approved",
+  "phase": "Phase 1",
+  "drug": "Decoy20",
+  "indication": "advanced solid tumors (incl. urothelial cancer with liver metastases)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "Of the first three evaluable patients, one patient had stable disease at the first assessment, and the other two patients had disease progression.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

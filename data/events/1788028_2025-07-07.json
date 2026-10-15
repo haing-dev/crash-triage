@@ -1,0 +1,47 @@
+{
+ "cik": "1788028",
+ "name": "Jasper Therapeutics, Inc.",
+ "ticker": "JSPR",
+ "date": "2025-07-07",
+ "fall_pct": "-55.7",
+ "days": "1",
+ "news_day_pct": "-55.1",
+ "status": "read",
+ "source": {
+  "filing_date": "2025-07-07",
+  "accession": "0001213900-25-061632",
+  "doc": "ea024825201ex99-1_jasper.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1788028/000121390025061632/ea024825201ex99-1_jasper.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Multi-dose cohorts confounded by bad drug lot, asthma study halted, restructuring \u00b7 Phase 1b/2a \u00b7 briquilimab in chronic spontaneous urticaria \u00b7 not yet approved",
+  "phase": "Phase 1/2",
+  "drug": "briquilimab",
+  "indication": "chronic spontaneous urticaria",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": 0,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": true,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "Results from the 240mg Q8W and the 240mg followed by 180mg Q8W cohorts appear to be confounded by issues with one drug product lot",
+   "primary_endpoint_met": null,
+   "safety": "Briquilimab continued to be well tolerated in the BEACON study, as well as the open label extension, with no dose limiting toxicities observed.",
+   "program_discontinued": "the Company is halting the study and pausing development in asthma. In addition, the Company is halting development in SCID"
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

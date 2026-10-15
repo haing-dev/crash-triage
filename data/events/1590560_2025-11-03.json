@@ -1,0 +1,47 @@
+{
+ "cik": "1590560",
+ "name": "uniQure N.V.",
+ "ticker": "QURE",
+ "date": "2025-11-03",
+ "fall_pct": "-63.1",
+ "days": "1",
+ "news_day_pct": "-49.3",
+ "status": "read",
+ "source": {
+  "filing_date": "2025-11-03",
+  "accession": "0001104659-25-105223",
+  "doc": "qure-20251103xex99d1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1590560/000110465925105223/qure-20251103xex99d1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "regulatory delay",
+  "summary": "FDA no longer agrees external-control data suffice for BLA; submission timing unclear \u00b7 Phase 1/2 \u00b7 AMT-130 in Huntington's disease \u00b7 not yet approved",
+  "phase": "Phase 1/2",
+  "drug": "AMT-130",
+  "indication": "Huntington's disease",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "uniQure believes that the FDA currently no longer agrees that data from the Phase I/II studies of AMT-130 in comparison to an external control",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": "uniQure plans to urgently interact with the FDA to find a path forward for the timely accelerated approval of AMT-130."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

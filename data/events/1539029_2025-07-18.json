@@ -1,0 +1,47 @@
+{
+ "cik": "1539029",
+ "name": "Clearside Biomedical, Inc.",
+ "ticker": "CLSD",
+ "date": "2025-07-18",
+ "fall_pct": "-53.8",
+ "days": "1",
+ "news_day_pct": "-32.0",
+ "status": "read",
+ "source": {
+  "filing_date": "2025-07-17",
+  "accession": "0000950170-25-096438",
+  "doc": "clsd-ex99_1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1539029/000095017025096438/clsd-ex99_1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Exploring strategic alternatives, staff moved to consultants, R&D paused amid funding constraints \u00b7 Phase 3-ready \u00b7 CLS-AX in wet AMD \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "CLS-AX",
+  "indication": "wet age-related macular degeneration",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "Given the current unpredictable economic environment and challenging fundraising conditions in the biopharmaceutical industry, we are taking the necessary next steps to evaluate strategic alternatives for the Company.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": "In addition, we will pause all internal research and development programs during this process"
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": true
+  }
+ }
+}

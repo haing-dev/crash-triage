@@ -1,0 +1,47 @@
+{
+ "cik": "1821586",
+ "name": "MoonLake Immunotherapeutics",
+ "ticker": "MLTX",
+ "date": "2025-09-29",
+ "fall_pct": "-89.9",
+ "days": "1",
+ "news_day_pct": "-89.9",
+ "status": "read",
+ "source": {
+  "filing_date": "2025-09-29",
+  "accession": "0001213900-25-092614",
+  "doc": "ea025912901ex99-1_moonlake.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1821586/000121390025092614/ea025912901ex99-1_moonlake.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "VELA-2 missed primary endpoint under composite analysis, VELA-1 met it \u00b7 Phase 3 \u00b7 sonelokimab in hidradenitis suppurativa \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "sonelokimab",
+  "indication": "hidradenitis suppurativa",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": 559,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "In VELA-2, intercurrent events in the higher-than-expected placebo arm precluded the study from achieving statistical significance in the week 16 primary endpoint using the composite strategy (HiSCR75, delta to placebo of 9%, p=0.053)",
+   "primary_endpoint_met": "In VELA-2, intercurrent events in the higher-than-expected placebo arm precluded the study from achieving statistical significance in the week 16 primary endpoint using the composite strategy (HiSCR75, delta to placebo of 9%, p=0.053)",
+   "safety": "Sonelokimab continued to show a favourable safety profile with no new safety signals detected, including an absence of key events of interest such as suicidal ideation and behavior",
+   "program_discontinued": "VELA progresses to its pre-specified week 52 readout and the Company will now seek to confirm the path to registration in HS with the appropriate regulatory authorities"
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

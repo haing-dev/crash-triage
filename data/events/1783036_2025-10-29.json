@@ -1,0 +1,47 @@
+{
+ "cik": "1783036",
+ "name": "NewcelX Ltd.",
+ "ticker": "NCEL",
+ "date": "2025-10-29",
+ "fall_pct": "-53.5",
+ "days": "1",
+ "news_day_pct": "-29.5",
+ "status": "read",
+ "source": {
+  "filing_date": "2025-10-29",
+  "accession": "0001213900-25-103252",
+  "doc": "ea026267901ex99-1_nlspharma.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1783036/000121390025103252/ea026267901ex99-1_nlspharma.htm"
+ },
+ "facts": {
+  "related": false,
+  "trigger": "other",
+  "summary": "BIRD Foundation continues supporting ITOL-102 after NLS-Kadimastem merger \u00b7 Preclinical \u00b7 ITOL-102 in Type 1 Diabetes \u00b7 not yet approved",
+  "phase": "Preclinical",
+  "drug": "ITOL-102",
+  "indication": "Type 1 Diabetes",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "The BIRD Foundation will continue to support the ITOL-102 program under the merged company NewCelX Ltd.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": "will continue under the combined company\u2019s development framework following the completion of the merger between NLS and Kadimastem"
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": true
+  }
+ }
+}

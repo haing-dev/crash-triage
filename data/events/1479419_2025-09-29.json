@@ -1,0 +1,47 @@
+{
+ "cik": "1479419",
+ "name": "KALA BIO, Inc.",
+ "ticker": "KALA",
+ "date": "2025-09-29",
+ "fall_pct": "-92.9",
+ "days": "1",
+ "news_day_pct": "-89.3",
+ "status": "read",
+ "source": {
+  "filing_date": "2025-09-29",
+  "accession": "0001104659-25-094125",
+  "doc": "tm2527340d1_ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1479419/000110465925094125/tm2527340d1_ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 2b missed primary endpoint; development ceased, strategic options explored \u00b7 Phase 2b \u00b7 KPI-012 in persistent corneal epithelial defect \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "KPI-012",
+  "indication": "Persistent corneal epithelial defect (PCED)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": false,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": 0,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "did not meet the primary endpoint of complete healing of PCED as measured by corneal fluorescein staining. The CHASE trial also failed to achieve statistical significance for key secondary efficacy endpoints",
+   "primary_endpoint_met": "Study did not meet primary endpoint of complete healing of PCED at Week 8; secondary endpoints also did not achieve statistical significance",
+   "safety": "KPI-012 was well-tolerated with no treatment-related serious adverse events observed",
+   "program_discontinued": "KALA plans to cease development of KPI-012 and its mesenchymal stem cell secretome (MSC-S) platform."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "cik": "1678660",
+ "name": "Prelude Therapeutics Inc",
+ "ticker": "PRLD",
+ "date": "2025-11-04",
+ "fall_pct": "-70.1",
+ "days": "1",
+ "news_day_pct": "-55.8",
+ "status": "read",
+ "source": {
+  "filing_date": "2025-11-04",
+  "accession": "0000929638-25-004115",
+  "doc": "a8k.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1678660/000092963825004115/a8k.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "other",
+  "summary": "Paused SMARCA2 degrader clinical development in strategic shift; Incyte option deal on JAK2V617F program \u00b7 Phase 1 \u00b7 SMARCA2 degrader in cancer \u00b7 not yet approved",
+  "phase": "Phase 1",
+  "drug": "SMARCA2 degrader",
+  "indication": "n/a",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": true,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "The Company also issued a press release announcing its decision to pause the clinical development of its first-in-class SMARCA2 degrader program relating to its strategic portfolio shift.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

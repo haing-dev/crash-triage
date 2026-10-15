@@ -1,0 +1,47 @@
+{
+ "cik": "1339970",
+ "name": "aTYR PHARMA INC",
+ "ticker": "ATYR",
+ "date": "2025-09-15",
+ "fall_pct": "-83.5",
+ "days": "1",
+ "news_day_pct": "-83.2",
+ "status": "read",
+ "source": {
+  "filing_date": "2025-09-15",
+  "accession": "0001193125-25-202865",
+  "doc": "atyr-ex99_1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1339970/000119312525202865/atyr-ex99_1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 3 missed primary steroid-reduction endpoint; some secondary signals \u00b7 Phase 3 \u00b7 efzofitimod in pulmonary sarcoidosis \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "efzofitimod",
+  "indication": "pulmonary sarcoidosis",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "Study did not meet primary endpoint in change from baseline in mean daily OCS dose at week 48",
+   "primary_endpoint_met": "Study did not meet primary endpoint in change from baseline in mean daily OCS dose at week 48",
+   "safety": "Efzofitimod was generally well-tolerated at both the 3.0 mg/kg and 5.0 mg/kg doses, consistent with a previously observed safety profile in all trials conducted to date",
+   "program_discontinued": "Company plans to engage with the U.S. FDA to determine the path forward for efzofitimod in pulmonary sarcoidosis"
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "cik": "1907223",
+ "name": "Greenland Mines Ltd",
+ "ticker": "GRML",
+ "date": "2025-06-27",
+ "fall_pct": "-53.2",
+ "days": "1",
+ "news_day_pct": "-36.3",
+ "status": "read",
+ "source": {
+  "filing_date": "2025-06-30",
+  "accession": "0001213900-25-059753",
+  "doc": "ea024755701ex99-1_klotho.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1907223/000121390025059753/ea024755701ex99-1_klotho.htm"
+ },
+ "facts": {
+  "related": false,
+  "trigger": "other",
+  "summary": "Company moves ahead with manufacturing, no drop explained \u00b7 Preclinical \u00b7 KLTO-202 gene therapy in ALS \u00b7 not yet approved",
+  "phase": "Preclinical",
+  "drug": "KLTO-202",
+  "indication": "amyotrophic lateral sclerosis (ALS)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "Klotho Neurosciences, Inc. (NASDAQ: KLTO) today announced that it is moving forward with manufacturing and process development work in preparation for clinical trials of KLTO-202",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

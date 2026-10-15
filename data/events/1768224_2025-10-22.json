@@ -1,0 +1,47 @@
+{
+ "cik": "1768224",
+ "name": "Arcturus Therapeutics Holdings Inc.",
+ "ticker": "ARCT",
+ "date": "2025-10-22",
+ "fall_pct": "-57.3",
+ "days": "1",
+ "news_day_pct": "-50.2",
+ "status": "read",
+ "source": {
+  "filing_date": "2025-10-22",
+  "accession": "0001193805-25-001499",
+  "doc": "e664913_ex99-2.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1768224/000119380525001499/e664913_ex99-2.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Interim data showed weak lung function and mixed mucus reduction \u00b7 Phase 2 \u00b7 ARCT-032 in cystic fibrosis \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "ARCT-032",
+  "indication": "cystic fibrosis",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": 6,
+   "serious_drug_related_patients": 0,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": false,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "Initial analysis comparing FEV\u2081 values from Day 1 to Day 28 did not demonstrate meaningful improvement.",
+   "primary_endpoint_met": null,
+   "safety": "The treatment was generally safe and well tolerated.",
+   "program_discontinued": "The Company intends to initiate a 12-week safety and preliminary efficacy study in up to 20 CF participants in the first half of 2026."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

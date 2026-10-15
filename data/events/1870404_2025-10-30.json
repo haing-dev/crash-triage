@@ -1,0 +1,47 @@
+{
+ "cik": "1870404",
+ "name": "CERO THERAPEUTICS HOLDINGS, INC.",
+ "ticker": "CERO",
+ "date": "2025-10-30",
+ "fall_pct": "-95.2",
+ "days": "1",
+ "news_day_pct": "-94.7",
+ "status": "read",
+ "source": {
+  "filing_date": "2025-10-30",
+  "accession": "0001213900-25-103661",
+  "doc": "ea026303602ex99-1_cerothera.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1870404/000121390025103661/ea026303602ex99-1_cerothera.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Nasdaq Panel denied continued listing; trading suspended Oct 31 \u00b7 Phase 1 \u00b7 CER-1236 in AML \u00b7 not yet approved",
+  "phase": "Phase 1",
+  "drug": "CER-1236",
+  "indication": "acute myeloid leukemia (AML)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": 3,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": false,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "today announced the receipt of the determination of the Nasdaq Hearings Panel (the \u201cPanel\u201d) to deny the Company\u2019s request to continue the listing of its shares of common stock on Nasdaq.",
+   "primary_endpoint_met": null,
+   "safety": "evidence gathered for CER-1236 in the first three AML cancer patients dosed at the initial low dose showed rapid cell expansion of CER-1236 in these patients, along with observation of no toxicity.",
+   "program_discontinued": "The Company currently plans to continue its clinical trials, including the dosing of patients in such trials."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

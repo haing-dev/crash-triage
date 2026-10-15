@@ -1,0 +1,47 @@
+{
+ "cik": "1865494",
+ "name": "IO Biotech, Inc.",
+ "ticker": "IOBT",
+ "date": "2025-09-29",
+ "fall_pct": "-77.3",
+ "days": "1",
+ "news_day_pct": "-76.9",
+ "status": "read",
+ "source": {
+  "filing_date": "2025-09-29",
+  "accession": "0001193125-25-221704",
+  "doc": "d940102dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1865494/000119312525221704/d940102dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "regulatory rejection",
+  "summary": "FDA advised against BLA submission; 50% layoffs \u00b7 Phase 3 \u00b7 Cylembio in advanced melanoma \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "Cylembio (imsapepimut and etimupepimut)",
+  "indication": "advanced melanoma",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "The FDA has recommended that IO Biotech not submit a BLA based on the data from the IOB-013 clinical trial.",
+   "primary_endpoint_met": "treatment with Cylembio plus pembrolizumab improved progression free survival (PFS), however the results narrowly missed statistical significance.",
+   "safety": null,
+   "program_discontinued": "The company plans to continue the dialogue with FDA to align on the design of a potential new registrational study for Cylembio."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": false,
+   "program_discontinued": true
+  }
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "cik": "1840229",
+ "name": "MiNK Therapeutics, Inc.",
+ "ticker": "INKT",
+ "date": "2025-07-14",
+ "fall_pct": "-68.3",
+ "days": "2",
+ "news_day_pct": "-36.7",
+ "status": "read",
+ "source": {
+  "filing_date": "2025-07-14",
+  "accession": "0000950170-25-095460",
+  "doc": "inkt-20250711.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1840229/000095017025095460/inkt-20250711.htm"
+ },
+ "facts": {
+  "related": false,
+  "trigger": "other",
+  "summary": "Publication of positive case report and conference data \u00b7 Phase 2 \u00b7 agenT-797 in gastric and testicular cancer \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "agenT-797",
+  "indication": "2L gastric cancer; germ cell tumor (testicular cancer)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "announced the publication of another landmark case in Nature's Oncogene describing a complete and durable remission in a patient with metastatic, treatment-refractory testicular cancer, following treatment with agenT-797",
+   "primary_endpoint_met": null,
+   "safety": "treatment was well-tolerated with no cytokine release syndrome (CRS) or graft-versus-host disease (GVHD).",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

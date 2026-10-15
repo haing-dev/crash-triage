@@ -1,0 +1,47 @@
+{
+ "cik": "1816590",
+ "name": "COMPASS Pathways plc",
+ "ticker": "CMPS",
+ "date": "2025-06-23",
+ "fall_pct": "-51.0",
+ "days": "1",
+ "news_day_pct": "-49.2",
+ "status": "read",
+ "source": {
+  "filing_date": "2025-06-23",
+  "accession": "0001816590-25-000085",
+  "doc": "cmps-20250623.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1816590/000181659025000085/cmps-20250623.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "other",
+  "summary": "Phase 3 met primary endpoint but modest -3.6 MADRS gap \u00b7 Phase 3 \u00b7 COMP360 psilocybin in treatment-resistant depression \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "COMP360",
+  "indication": "treatment-resistant depression",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": true,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": 258,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "announced today the successful achievement of the primary endpoint in the ongoing Phase 3 COMP005 trial, the first of two Phase 3 trials evaluating COMP360, a synthetic, proprietary formulation of psilocybin, for treatment-resistant depression (TRD).",
+   "primary_endpoint_met": "announced today the successful achievement of the primary endpoint in the ongoing Phase 3 COMP005 trial",
+   "safety": "safety findings are consistent with previous studies of COMP360 and there are no new or unexpected safety findings.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

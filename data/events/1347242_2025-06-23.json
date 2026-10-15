@@ -1,0 +1,47 @@
+{
+ "cik": "1347242",
+ "name": "LIPELLA PHARMACEUTICALS INC.",
+ "ticker": "LIPO",
+ "date": "2025-06-23",
+ "fall_pct": "-73.5",
+ "days": "1",
+ "news_day_pct": "-33.3",
+ "status": "read",
+ "source": {
+  "filing_date": "2025-06-25",
+  "accession": "0001753926-25-001003",
+  "doc": "g084855_ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1347242/000175392625001003/g084855_ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "other",
+  "summary": "Nasdaq delisted the stock over private placement compliance; now on OTC Pink \u00b7 Phase 2a \u00b7 LP-310 in oral lichen planus \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "LP-310",
+  "indication": "oral lichen planus",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "Nasdaq Hearings Panel elected to delist the Company\u2019s common stock.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": "We are continuing to execute on our core development programs, LP-10 for hemorrhagic cystitis and LP-310 for oral lichen planus"
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": true
+  }
+ }
+}
