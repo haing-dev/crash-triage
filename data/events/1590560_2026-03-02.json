@@ -1,0 +1,47 @@
+{
+ "cik": "1590560",
+ "name": "uniQure N.V.",
+ "ticker": "QURE",
+ "date": "2026-03-02",
+ "fall_pct": "-63.7",
+ "days": "1",
+ "news_day_pct": "-32.8",
+ "status": "read",
+ "source": {
+  "filing_date": "2026-03-02",
+  "accession": "0001104659-26-021890",
+  "doc": "qure-20260302xex99d1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1590560/000110465926021890/qure-20260302xex99d1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "regulatory rejection",
+  "summary": "FDA says Phase I/II data vs external control insufficient; sham-controlled trial urged \u00b7 Phase 1/2 \u00b7 AMT-130 in Huntington's disease \u00b7 not yet approved",
+  "phase": "Phase 1/2",
+  "drug": "AMT-130",
+  "indication": "Huntington's disease",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": true,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": true,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "the FDA stated it cannot agree that data from the Phase I/II studies, compared to an external control, are sufficient to provide the primary evidence of effectiveness required to support a marketing application for AMT-130.",
+   "primary_endpoint_met": "A statistically significant 75% slowing in disease progression measured by the composite Unified Huntington's Disease Rating Scale (cUHDRS) was observed which met the primary endpoint",
+   "safety": "AMT-130 was generally well-tolerated across both doses, with a manageable safety profile and no new drug-related serious adverse events observed since December 2022.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "cik": "748592",
+ "name": "Ernexa Therapeutics Inc.",
+ "ticker": "ERNA",
+ "date": "2026-02-06",
+ "fall_pct": "-75.0",
+ "days": "1",
+ "news_day_pct": "-44.1",
+ "status": "read",
+ "source": {
+  "filing_date": "2026-02-10",
+  "accession": "0001493152-26-005898",
+  "doc": "form424b5.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/748592/000149315226005898/form424b5.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Priced discounted $10.5M best-efforts offering with warrants, heavily diluting holders \u00b7 Preclinical \u00b7 ERNA-101 in platinum-resistant ovarian cancer \u00b7 not yet approved",
+  "phase": "Preclinical",
+  "drug": "ERNA-101",
+  "indication": "platinum-resistant ovarian cancer",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "The combined public offering price for each share of Common Stock and accompanying Common Warrant is $0.50. Each Common Warrant will have an initial exercise price per share equal to $0.68",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

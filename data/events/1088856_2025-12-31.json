@@ -1,0 +1,47 @@
+{
+ "cik": "1088856",
+ "name": "CORCEPT THERAPEUTICS INC",
+ "ticker": "CORT",
+ "date": "2025-12-31",
+ "fall_pct": "-58.4",
+ "days": "1",
+ "news_day_pct": "-50.4",
+ "status": "read",
+ "source": {
+  "filing_date": "2025-12-31",
+  "accession": "0001193125-25-338184",
+  "doc": "d50993dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1088856/000119312525338184/d50993dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "regulatory rejection",
+  "summary": "FDA issued complete response letter, wanting more efficacy evidence \u00b7 Filed \u00b7 relacorilant in hypercortisolism-related hypertension \u00b7 filed for approval",
+  "phase": "Filed",
+  "drug": "relacorilant",
+  "indication": "hypertension secondary to hypercortisolism",
+  "market_stage": "filed for approval",
+  "primary_endpoint_met": true,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "the Agency concluded it could not arrive at a favorable benefit-risk assessment for relacorilant without Corcept providing additional evidence of effectiveness.",
+   "primary_endpoint_met": "the FDA acknowledged that Corcept\u2019s pivotal GRACE trial met its primary endpoint and that data from the company\u2019s GRADIENT trial provided confirmatory evidence",
+   "safety": null,
+   "program_discontinued": "I am confident we will find a way to get relacorilant to the patients it could help. We will meet with the FDA as soon as possible to discuss the best path forward."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": false,
+   "program_discontinued": true
+  }
+ }
+}

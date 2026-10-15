@@ -1,0 +1,47 @@
+{
+ "cik": "1728117",
+ "name": "Gossamer Bio, Inc.",
+ "ticker": "GOSS",
+ "date": "2026-02-23",
+ "fall_pct": "-81.5",
+ "days": "1",
+ "news_day_pct": "-80.1",
+ "status": "read",
+ "source": {
+  "filing_date": "2026-02-23",
+  "accession": "0001728117-26-000004",
+  "doc": "goss-20260223.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1728117/000172811726000004/goss-20260223.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 3 missed primary 6MWD endpoint (p=0.0320 vs 0.025) \u00b7 Phase 3 PROSERA \u00b7 seralutinib in pulmonary arterial hypertension \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "seralutinib",
+  "indication": "pulmonary arterial hypertension",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": 197,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "The estimated Hodges\u2011Lehmann treatment effect was +13.3 meters, with a p\u2011value of 0.0320, which did not meet the prespecified threshold on the primary endpoint (\u03b1 = 0.025)",
+   "primary_endpoint_met": "The estimated Hodges\u2011Lehmann treatment effect was +13.3 meters, with a p\u2011value of 0.0320, which did not meet the prespecified threshold on the primary endpoint (\u03b1 = 0.025)",
+   "safety": "Overall, seralutinib was generally well tolerated in the PROSERA Study.",
+   "program_discontinued": "Gossamer expects to meet with the U.S. FDA to discuss the path forward for seralutinib in pulmonary arterial hypertension."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "cik": "1411685",
+ "name": "Vistagen Therapeutics, Inc.",
+ "ticker": "VTGN",
+ "date": "2025-12-17",
+ "fall_pct": "-81.0",
+ "days": "1",
+ "news_day_pct": "-80.3",
+ "status": "read",
+ "source": {
+  "filing_date": "2025-12-22",
+  "accession": "0001628280-25-058594",
+  "doc": "vtgn-20251217.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1411685/000162828025058594/vtgn-20251217.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 3 failed primary and secondary endpoints \u00b7 Phase 3 \u00b7 fasedienol in social anxiety disorder \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "fasedienol",
+  "indication": "social anxiety disorder",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": false,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "the PALISADE-3 Phase 3 study of intranasal fasedienol for the acute treatment of social anxiety disorder did not achieve its primary endpoint",
+   "primary_endpoint_met": "the PALISADE-3 Phase 3 study of intranasal fasedienol for the acute treatment of social anxiety disorder did not achieve its primary endpoint",
+   "safety": "The favorable safety data of fasedienol were consistent with previously completed clinical trials.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

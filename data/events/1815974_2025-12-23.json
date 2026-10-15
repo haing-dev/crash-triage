@@ -1,0 +1,47 @@
+{
+ "cik": "1815974",
+ "name": "Anebulo Pharmaceuticals, Inc.",
+ "ticker": "ANEB",
+ "date": "2025-12-23",
+ "fall_pct": "-54.2",
+ "days": "4",
+ "news_day_pct": "-30.8",
+ "status": "read",
+ "source": {
+  "filing_date": "2025-12-22",
+  "accession": "0001493152-25-028676",
+  "doc": "ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1815974/000149315225028676/ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "other",
+  "summary": "Abandoned reverse split, launched $3.50 self-tender for 300,000 shares to go private \u00b7 Phase 1 \u00b7 selonabant in cannabis-induced toxicity \u00b7 not yet approved",
+  "phase": "Phase 1",
+  "drug": "selonabant",
+  "indication": "acute cannabis-induced toxicity",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "the Board of Directors has decided to commence a cash tender offer as part of its plan to \u201cgo private\u201d in lieu of the previously announced reverse stock split",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

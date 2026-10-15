@@ -1,0 +1,47 @@
+{
+ "cik": "1742927",
+ "name": "REVIVA PHARMACEUTICALS HOLDINGS, INC.",
+ "ticker": "RVPH",
+ "date": "2025-12-23",
+ "fall_pct": "-54.9",
+ "days": "2",
+ "news_day_pct": "-45.5",
+ "status": "read",
+ "source": {
+  "filing_date": "2025-12-23",
+  "accession": "0001437749-25-038602",
+  "doc": "rvph20251216_8k.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1742927/000143774925038602/rvph20251216_8k.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "regulatory delay",
+  "summary": "FDA urged a second Phase 3 before NDA submission, delaying approval to 2028 \u00b7 Phase 3 \u00b7 brilaroxazine in schizophrenia \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "brilaroxazine",
+  "indication": "schizophrenia",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "The FDA informed the Company that it strongly encouraged the Company to conduct, prior to submission of an NDA, an additional Phase 3 trial that will be similar in design to the successfully completed RECOVER Phase 3 trial",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": "The Company indicated to the FDA that it will conduct a Phase 3 study incorporating this feedback before submitting an NDA."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": true
+  }
+ }
+}

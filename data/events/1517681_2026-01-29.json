@@ -1,0 +1,47 @@
+{
+ "cik": "1517681",
+ "name": "Propanc Biopharma, Inc.",
+ "ticker": "PPCB",
+ "date": "2026-01-29",
+ "fall_pct": "-51.0",
+ "days": "5",
+ "news_day_pct": "-28.7",
+ "status": "read",
+ "source": {
+  "filing_date": "2026-01-30",
+  "accession": "0001493152-26-004312",
+  "doc": "form424b3.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1517681/000149315226004312/form424b3.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Resale registration of 2M shares from Series C preferred conversion, variable-price dilution \u00b7 early development \u00b7 PRP in pancreatic, ovarian, colorectal cancer \u00b7 not yet approved",
+  "phase": "n/a",
+  "drug": "PRP",
+  "indication": "pancreatic, ovarian and colorectal cancer",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "This prospectus relates to the resale from time to time of up to 2,000,000 shares of our common stock, par value $0.001 per share",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

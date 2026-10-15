@@ -1,0 +1,47 @@
+{
+ "cik": "1703647",
+ "name": "Korro Bio, Inc.",
+ "ticker": "KRRO",
+ "date": "2025-11-13",
+ "fall_pct": "-82.1",
+ "days": "1",
+ "news_day_pct": "-79.3",
+ "status": "read",
+ "source": {
+  "filing_date": "2025-11-12",
+  "accession": "0001193125-25-277556",
+  "doc": "krro-ex99_1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1703647/000119312525277556/krro-ex99_1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "KRRO-110 missed projected protein levels, pivot to GalNAc, 34% layoffs \u00b7 Phase 1/2a \u00b7 KRRO-110 in AATD \u00b7 not yet approved",
+  "phase": "Phase 1/2",
+  "drug": "KRRO-110",
+  "indication": "Alpha-1 Antitrypsin Deficiency (AATD)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": 31,
+   "serious_drug_related_patients": 0,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": false,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "KRRO-110 did not reach projected levels of functional protein following a single administration",
+   "primary_endpoint_met": null,
+   "safety": "No dose-limiting toxicities or treatment emergent serious adverse events observed.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

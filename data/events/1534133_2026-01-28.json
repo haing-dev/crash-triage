@@ -1,0 +1,47 @@
+{
+ "cik": "1534133",
+ "name": "CalciMedica, Inc.",
+ "ticker": "CALC",
+ "date": "2026-01-28",
+ "fall_pct": "-77.6",
+ "days": "1",
+ "news_day_pct": "-75.6",
+ "status": "read",
+ "source": {
+  "filing_date": "2026-01-28",
+  "accession": "0001193125-26-027462",
+  "doc": "d40225d8k.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1534133/000119312526027462/d40225d8k.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "other",
+  "summary": "Trial discontinued on data monitoring committee recommendation; cash runway cut to Q4 2026 \u00b7 Phase 2 \u00b7 Auxora in acute pancreatitis (KOURAGE) \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "Auxora",
+  "indication": "n/a",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "announced the discontinuation of its Phase 2 KOURAGE clinical trial following a recommendation from the trial's Independent Data Monitoring Committee.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": "announced the discontinuation of its Phase 2 KOURAGE clinical trial following a recommendation from the trial's Independent Data Monitoring Committee."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": true
+  }
+ }
+}

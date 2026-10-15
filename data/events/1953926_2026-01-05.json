@@ -1,0 +1,47 @@
+{
+ "cik": "1953926",
+ "name": "Zenas BioPharma, Inc.",
+ "ticker": "ZBIO",
+ "date": "2026-01-05",
+ "fall_pct": "-60.9",
+ "days": "1",
+ "news_day_pct": "-51.9",
+ "status": "read",
+ "source": {
+  "filing_date": "2026-01-05",
+  "accession": "0001104659-26-000402",
+  "doc": "tm261774d1_ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1953926/000110465926000402/tm261774d1_ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "other",
+  "summary": "Phase 3 met primary and all key secondary endpoints, yet stock fell sharply \u00b7 Phase 3 \u00b7 obexelimab in IgG4-RD \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "obexelimab",
+  "indication": "IgG4-Related Disease (IgG4-RD)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": true,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "Obexelimab met the primary endpoint, demonstrating a highly statistically significant and clinically meaningful 56% reduction in the risk of IgG4-RD flare compared to placebo (Hazard Ratio 0.44, p=0.0005)",
+   "primary_endpoint_met": "Obexelimab met the primary endpoint, demonstrating a highly statistically significant and clinically meaningful 56% reduction in the risk of IgG4-RD flare compared to placebo (Hazard Ratio 0.44, p=0.0005)",
+   "safety": "Rates of infections, including Grade 3, were lower in the obexelimab arm compared to placebo, and the incidence of injection site reactions was similar across both study arms.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

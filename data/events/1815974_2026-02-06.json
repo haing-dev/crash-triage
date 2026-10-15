@@ -1,0 +1,47 @@
+{
+ "cik": "1815974",
+ "name": "Anebulo Pharmaceuticals, Inc.",
+ "ticker": "ANEB",
+ "date": "2026-02-06",
+ "fall_pct": "-52.3",
+ "days": "1",
+ "news_day_pct": "-39.1",
+ "status": "read",
+ "source": {
+  "filing_date": "2026-02-06",
+  "accession": "0001493152-26-005463",
+  "doc": "ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1815974/000149315226005463/ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "other",
+  "summary": "Announced voluntary Nasdaq delisting and SEC deregistration \u00b7 Phase 1 \u00b7 selonabant in acute cannabis-induced toxicity \u00b7 not yet approved",
+  "phase": "Phase 1",
+  "drug": "selonabant",
+  "indication": "acute cannabis-induced toxicity",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "the Company's board of directors (the \"Board\") has approved the voluntary delisting of the Company's common stock from The Nasdaq Capital Market (\"Nasdaq\") and the subsequent voluntary deregistration",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": "As the Company continues with its efforts to maximize value from its lead product candidate"
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": true
+  }
+ }
+}

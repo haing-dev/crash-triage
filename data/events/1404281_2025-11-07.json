@@ -1,0 +1,47 @@
+{
+ "cik": "1404281",
+ "name": "Eledon Pharmaceuticals, Inc.",
+ "ticker": "ELDN",
+ "date": "2025-11-07",
+ "fall_pct": "-52.8",
+ "days": "1",
+ "news_day_pct": "-49.8",
+ "status": "read",
+ "source": {
+  "filing_date": "2025-11-07",
+  "accession": "0001193125-25-270286",
+  "doc": "eldn-ex99_1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1404281/000119312525270286/eldn-ex99_1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 2 primary eGFR endpoint missed statistical significance; higher rejection vs tacrolimus \u00b7 Phase 2 \u00b7 tegoprubart in kidney transplant rejection prevention \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "tegoprubart",
+  "indication": "prevention of kidney transplant rejection",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": 63,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "Although the primary endpoint did not reach statistical significance, tegoprubart maintained strong renal function, delivering what the Company believes is the highest mean eGFR level reported to date",
+   "primary_endpoint_met": "Although the primary endpoint did not reach statistical significance, tegoprubart maintained strong renal function",
+   "safety": "Tegoprubart demonstrated a favorable safety and tolerability profile, substantially reducing the metabolic, neurologic, and cardiovascular toxicities commonly associated with tacrolimus",
+   "program_discontinued": "Based on these results, Eledon plans to advance tegoprubart into Phase 3 development following discussions with regulators on study design and data requirements."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

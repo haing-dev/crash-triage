@@ -1,0 +1,47 @@
+{
+ "cik": "1662774",
+ "name": "Quince Therapeutics, Inc.",
+ "ticker": "QNCX",
+ "date": "2026-01-30",
+ "fall_pct": "-95.6",
+ "days": "1",
+ "news_day_pct": "-94.7",
+ "status": "read",
+ "source": {
+  "filing_date": "2026-01-29",
+  "accession": "0001193125-26-029524",
+  "doc": "d61547dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1662774/000119312526029524/d61547dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Pivotal trial missed primary and key secondary endpoints; development ceased \u00b7 Phase 3 \u00b7 eDSP in Ataxia-Telangiectasia \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "eDSP",
+  "indication": "Ataxia-Telangiectasia",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": false,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "Primary and key secondary endpoint did not achieve statistical significance",
+   "primary_endpoint_met": "the primary endpoint, which measured the change from baseline to last efficacy visit at month six using the Rescored modified International Cooperative Ataxia Rating Scale (RmICARS) compared to placebo, did not reach statistical significance",
+   "safety": "eDSP was generally well tolerated and there were no clinically meaningful safety concerns identified.",
+   "program_discontinued": "Company to cease clinical development of eDSP; Intends to preserve cash and explore available options"
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

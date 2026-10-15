@@ -1,0 +1,47 @@
+{
+ "cik": "1539029",
+ "name": "Clearside Biomedical, Inc.",
+ "ticker": "CLSD",
+ "date": "2025-11-24",
+ "fall_pct": "-73.1",
+ "days": "1",
+ "news_day_pct": "-66.9",
+ "status": "read",
+ "source": {
+  "filing_date": "2025-11-25",
+  "accession": "0001193125-25-297177",
+  "doc": "d41251dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1539029/000119312525297177/d41251dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Company filed Chapter 11 to sell assets via auction \u00b7 Phase 3-ready \u00b7 CLS-AX in wet AMD \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "CLS-AX",
+  "indication": "wet age-related macular degeneration",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "announced today that it has filed a voluntary petition under Chapter 11 of the U.S. Bankruptcy Code in the U.S. Bankruptcy Court for the District of Delaware.",
+   "primary_endpoint_met": null,
+   "safety": "in which CLS-AX was well tolerated and demonstrated a positive safety profile.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

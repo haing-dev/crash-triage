@@ -1,0 +1,47 @@
+{
+ "cik": "1638287",
+ "name": "MetaVia Inc.",
+ "ticker": "MTVA",
+ "date": "2026-01-15",
+ "fall_pct": "-60.6",
+ "days": "1",
+ "news_day_pct": "-39.1",
+ "status": "read",
+ "source": {
+  "filing_date": "2026-01-16",
+  "accession": "0001104659-26-004532",
+  "doc": "tm263364d1_ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1638287/000110465926004532/tm263364d1_ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": null,
+  "phase": "Phase 1",
+  "drug": "DA-1726",
+  "indication": "obesity",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "MetaVia announced the pricing of its underwritten public offering of shares of common stock (or common stock equivalents) and Series C Warrants and Series D Warrants for gross proceeds of approximately $8.1 million",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": false,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

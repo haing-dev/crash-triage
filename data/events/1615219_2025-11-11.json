@@ -1,0 +1,47 @@
+{
+ "cik": "1615219",
+ "name": "Decoy Therapeutics Inc.",
+ "ticker": "DCOY",
+ "date": "2025-11-11",
+ "fall_pct": "-69.4",
+ "days": "1",
+ "news_day_pct": "-51.0",
+ "status": "read",
+ "source": {
+  "filing_date": "2025-11-12",
+  "accession": "0001628280-25-051365",
+  "doc": "slrxdecoyfinal424b4.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1615219/000162828025051365/slrxdecoyfinal424b4.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Priced dilutive $1.50 unit offering with warrants, closing Decoy merger \u00b7 Preclinical \u00b7 PPROTAC peptide conjugates in cancer \u00b7 not yet approved",
+  "phase": "Preclinical",
+  "drug": "SP-3164",
+  "indication": "cancer (hematological and solid tumors)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": false,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "Salarius is offering 2,514,335 shares of its common stock, par value $0.0001 per share (the \u201ccommon stock\u201d), Series A Warrants to purchase up to 4,666,666 shares of its common stock",
+   "primary_endpoint_met": null,
+   "safety": "In February 2025, Salarius announced that MDACC had addressed the FDA\u2019s questions and the partial clinical hold had been lifted, with patient enrollment resuming in the trial.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

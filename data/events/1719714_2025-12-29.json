@@ -1,0 +1,47 @@
+{
+ "cik": "1719714",
+ "name": "Mereo BioPharma Group plc",
+ "ticker": "MREO",
+ "date": "2025-12-29",
+ "fall_pct": "-87.7",
+ "days": "1",
+ "news_day_pct": "-87.7",
+ "status": "read",
+ "source": {
+  "filing_date": "2025-12-29",
+  "accession": "0001193125-25-332520",
+  "doc": "mreo-ex99_1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1719714/000119312525332520/mreo-ex99_1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Both Phase 3 trials missed primary fracture-rate endpoint, BMD secondary met \u00b7 Phase 3 \u00b7 setrusumab in osteogenesis imperfecta \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "setrusumab (UX143)",
+  "indication": "Osteogenesis Imperfecta",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "Neither study achieved statistical significance against the primary endpoints of reduction in annualized clinical fracture rate compared to placebo or bisphosphonates, respectively.",
+   "primary_endpoint_met": "Neither study achieved its primary endpoint of reduction in annualized clinical fracture rate compared to placebo (ORBIT) or bisphosphonates (COSMIC)",
+   "safety": "There was no change in the safety profile observed.",
+   "program_discontinued": "we will be conducting additional analyses on the data, to assess next steps and the best path forward for the program"
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

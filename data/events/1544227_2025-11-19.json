@@ -1,0 +1,47 @@
+{
+ "cik": "1544227",
+ "name": "Tempest Therapeutics, Inc.",
+ "ticker": "TPST",
+ "date": "2025-11-19",
+ "fall_pct": "-62.7",
+ "days": "2",
+ "news_day_pct": "-48.6",
+ "status": "read",
+ "source": {
+  "filing_date": "2025-11-19",
+  "accession": "0001193125-25-287163",
+  "doc": "d97617d8k.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1544227/000119312525287163/d97617d8k.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Reverse-style asset purchase issuing ~65% ownership to sellers, CEO change, warrant dividend \u00b7 Phase 1b/preclinical CAR-T assets \u00b7 ERI-2003 CAR-T in myeloma \u00b7 not yet approved",
+  "phase": "Phase 1",
+  "drug": "ERI-2003",
+  "indication": "BCMA/CD19-targeted CAR T-cell therapy for B-cell malignancies (multiple myeloma)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "the pre-Closing equityholders of the Company will own approximately 35.0% of the Company and the equityholders of Erigen, or Matt Angel, Ph.D. and Lotus Capital (BVI) Limited, are expected to own approximately 38.0% and 27.0%",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}
