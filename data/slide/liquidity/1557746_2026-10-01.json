@@ -1,0 +1,27 @@
+{
+ "id": "1557746_2026-10-01",
+ "asof": "2026-10-01",
+ "chars": 18520,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2026-07-31",
+   "net_proceeds_usd": 39000000,
+   "what": "ATM common stock sales in July 2026 (gross $40.2M less $1.2M commissions and fees); exact day not given, month-end used",
+   "quote": "In July 2026, the Company sold an aggregate of 7.3 million shares of its common stock for gross proceeds of $40.2 million"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 3000000,
+   "exercise_price_usd": 1e-05,
+   "expiry": null,
+   "quote": "As of June 30, 2026, 3,000,000 Warrants were unexercised."
+  }
+ ],
+ "warrants_dropped": 0
+}

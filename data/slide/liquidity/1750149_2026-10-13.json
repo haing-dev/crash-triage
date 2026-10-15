@@ -1,0 +1,51 @@
+{
+ "id": "1750149_2026-10-13",
+ "asof": "2026-10-13",
+ "chars": 21282,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2026-07-31",
+   "net_proceeds_usd": 50500000,
+   "what": "July 2026 ATM sales under Jefferies Sales Agreement (gross proceeds; net not given; exact day not given, month-end used)",
+   "quote": "In July 2026, we sold 25,261,500 shares of our common stock pursuant to the Sales Agreement for aggregate gross proceeds of $50.5 million."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 40139474,
+   "exercise_price_usd": 1.37,
+   "expiry": null,
+   "quote": "Series A-1 Warrants to purchase an aggregate of 40,139,474 shares of common stock with an exercise price of $1.37"
+  },
+  {
+   "count": 73813529,
+   "exercise_price_usd": 1.49,
+   "expiry": null,
+   "quote": "Series B-1 Warrants to purchase an aggregate of 73,813,529 shares of common stock with an exercise price of $1.49"
+  },
+  {
+   "count": 1672452,
+   "exercise_price_usd": 1.68,
+   "expiry": "2029-08-05",
+   "quote": "Series B Common Warrants to purchase 1,672,452 shares of common stock with an exercise price of $1.68 per share which expire on August 5, 2029."
+  },
+  {
+   "count": 42538910,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "the Company had outstanding Pre-Funded Warrants to purchase an aggregate of up to 42,538,910 shares of the Company's common stock."
+  },
+  {
+   "count": 18030000,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "18,030,000 of these shares of common stock were exchanged for pre-funded warrants to purchase 18,030,000 shares of the Company's common stock"
+  }
+ ],
+ "warrants_dropped": 0
+}
