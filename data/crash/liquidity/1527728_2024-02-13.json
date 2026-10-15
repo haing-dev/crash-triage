@@ -1,0 +1,33 @@
+{
+ "id": "1527728_2024-02-13",
+ "asof": "2024-02-13",
+ "chars": 23339,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2023-10-05",
+   "net_proceeds_usd": 1250000,
+   "what": "5% OID convertible promissory notes private placement (Oct 2-5, 2023)",
+   "quote": "The Company received a total of $1,250,000 in gross proceeds from the private placement, after taking into account the 5% original issue discount."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 2805050,
+   "exercise_price_usd": 0.65,
+   "expiry": null,
+   "quote": "the Company sold Warrants to purchase an aggregate of 2,805,050 shares of common stock. The Warrants are exercisable for five years from the date of issuance and have an exercise price of $0.65 per share, payable in cash."
+  },
+  {
+   "count": 283794,
+   "exercise_price_usd": 0.53,
+   "expiry": null,
+   "quote": "warrants to purchase 283,794 shares of Common Stock at a purchase price of $0.53 per share"
+  }
+ ],
+ "warrants_dropped": 0
+}

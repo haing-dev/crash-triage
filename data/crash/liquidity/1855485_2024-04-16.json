@@ -1,0 +1,33 @@
+{
+ "id": "1855485_2024-04-16",
+ "asof": "2024-04-18",
+ "chars": 29592,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-01-19",
+   "net_proceeds_usd": 200000,
+   "what": "2024 Term Loans (bridge loans) proceeds received",
+   "quote": "On January 19, 2024, the Company received approximately $0.2 million in aggregate proceeds from the issuance of certain term loans"
+  },
+  {
+   "date": "2024-01-26",
+   "net_proceeds_usd": 1000000,
+   "what": "2024 Convertible Note Loan, $1.0 million principal",
+   "quote": "the Company entered into a convertible promissory note purchase agreement (the \u201c2024 Purchase Agreement\u201d) with an Accredited Investor (the \u201cInvestor\u201d) for a loan in the principal amount of $1.0 million"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 400000,
+   "exercise_price_usd": 1.32,
+   "expiry": null,
+   "quote": "the issuance of an aggregate of 400,000 warrants to purchase Restricted Shares, which (i) has an per share exercise price equal to $1.32"
+  }
+ ],
+ "warrants_dropped": 0
+}

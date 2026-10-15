@@ -1,0 +1,57 @@
+{
+ "id": "1585608_2024-03-06",
+ "asof": "2024-03-11",
+ "chars": 23363,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2023-11-14",
+   "net_proceeds_usd": 7000000,
+   "what": "ATM sales of 18,945,450 shares, Oct 1 to Nov 14, 2023",
+   "quote": "From October 1, 2023 to November 14, 2023, the Company issued an aggregate of 18,945,450 shares of common stock under the December 2021 ATM Agreement for total net proceeds of $7.0 million."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 6850000,
+   "exercise_price_usd": 0.48,
+   "expiry": "2029-01-01",
+   "quote": "warrants (the \u201cPIPE SPA Warrants\u201d) to purchase up to 6,850,000 shares of Common Stock at an exercise price of $0.48 per share"
+  },
+  {
+   "count": 685000,
+   "exercise_price_usd": 0.48,
+   "expiry": null,
+   "quote": "additional warrants (the \u201cPIPE Amendment Warrant,\u201d and together with the PIPE SPA Warrant, the \u201cPIPE Warrants\u201d) to purchase up to 685,000 shares of Common Stock"
+  },
+  {
+   "count": 1711954,
+   "exercise_price_usd": 0.48,
+   "expiry": null,
+   "quote": "the Company issued (i) Iliad warrants to purchase up to 1,711,954 shares of the common stock"
+  },
+  {
+   "count": 2105348,
+   "exercise_price_usd": 0.48,
+   "expiry": null,
+   "quote": "(ii) Uptown warrants to purchase up to 2,105,348 shares of the common stock"
+  },
+  {
+   "count": 232500,
+   "exercise_price_usd": 0.37,
+   "expiry": "2028-09-29",
+   "quote": "warrants to purchase up to 232,500 shares of the Company\u2019s common stock at an exercise price of $0.37 per share"
+  },
+  {
+   "count": 262500,
+   "exercise_price_usd": 0.37,
+   "expiry": "2028-09-29",
+   "quote": "warrants to purchase up to 262,500 shares of the Company\u2019s common stock at an exercise price of $0.37 per share"
+  }
+ ],
+ "warrants_dropped": 0
+}

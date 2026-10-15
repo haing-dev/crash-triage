@@ -1,0 +1,33 @@
+{
+ "id": "1644963_2024-04-24",
+ "asof": "2024-04-29",
+ "chars": 25412,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-01-09",
+   "net_proceeds_usd": 5000000,
+   "what": "Gross proceeds from January 2024 warrant inducement exercises (net not given, so gross used)",
+   "quote": "The gross proceeds to Avenue from the exercise of the warrants was approximately $5.0 million, before deducting placement agent fees and offering costs."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 16540299,
+   "exercise_price_usd": 0.3006,
+   "expiry": null,
+   "quote": "(i) 16,540,299 shares of Common Stock (the \u201cSeries A Warrant Shares\u201d)"
+  },
+  {
+   "count": 16540299,
+   "exercise_price_usd": 0.3006,
+   "expiry": null,
+   "quote": "(ii) 16,540,299 shares of Common Stock (the \u201cSeries B Warrant Shares\u201d) issuable upon exercise of our outstanding Series B Warrants"
+  }
+ ],
+ "warrants_dropped": 0
+}

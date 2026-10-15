@@ -1,0 +1,63 @@
+{
+ "id": "1460602_2024-04-02",
+ "asof": "2024-04-02",
+ "chars": 16541,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2023-11-09",
+   "net_proceeds_usd": 943000,
+   "what": "Registered direct offering of shares and warrants, closed Nov 9, 2023 (figure assumed to be in thousands)",
+   "quote": "the Company received net proceeds of approximately $943 after deducting placement agent\u2019s fees"
+  },
+  {
+   "date": "2024-03-03",
+   "net_proceeds_usd": 2300000,
+   "what": "Private placement of shares and warrants; gross proceeds received (net not given)",
+   "quote": "The Company received gross proceeds of approximately $2.3 million"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 973684,
+   "exercise_price_usd": 1.9,
+   "expiry": "2028-02-27",
+   "quote": "warrants to purchase up to 973,684 shares of Common Stock"
+  },
+  {
+   "count": 1410256,
+   "exercise_price_usd": 0.78,
+   "expiry": "2028-11-09",
+   "quote": "warrants exercisable for 1,410,256 shares of Common Stock"
+  },
+  {
+   "count": 2272719,
+   "exercise_price_usd": 1.5,
+   "expiry": null,
+   "quote": "warrants to purchase up to 2,272,719 shares of Common Stock at an exercise price of $1.50 per share"
+  },
+  {
+   "count": 2272719,
+   "exercise_price_usd": 2.0,
+   "expiry": null,
+   "quote": "2,272,719 shares of Common Stock at an exercise price of $2.00 per share"
+  },
+  {
+   "count": 405844,
+   "exercise_price_usd": 2.5,
+   "expiry": null,
+   "quote": "the right to purchase 405,844 shares of Common Stock, at an exercise price of $2.50 per share"
+  },
+  {
+   "count": 101461,
+   "exercise_price_usd": 2.5,
+   "expiry": null,
+   "quote": "the right to purchase 101,461 shares of Common Stock, at an exercise price of $2.50 per share"
+  }
+ ],
+ "warrants_dropped": 0
+}

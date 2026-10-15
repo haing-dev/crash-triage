@@ -1,0 +1,45 @@
+{
+ "id": "1829635_2024-05-13",
+ "asof": "2024-05-13",
+ "chars": 26900,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-01-22",
+   "net_proceeds_usd": 6200000,
+   "what": "January 2024 registered direct offering (closed Jan 22, 2024), net proceeds",
+   "quote": "In January 2024, we received approximately $6.2 million in net proceeds from the January Offering."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 11885246,
+   "exercise_price_usd": 1.22,
+   "expiry": "2027-07-22",
+   "quote": "together with accompanying warrants to purchase 11,885,246 shares of common stock in a registered direct offering at a purchase price of $1.22 per share"
+  },
+  {
+   "count": 7500,
+   "exercise_price_usd": 12.1,
+   "expiry": null,
+   "quote": "warrants to purchase up to 7,500 shares of common stock exercisable at $12.10 per share"
+  },
+  {
+   "count": 250,
+   "exercise_price_usd": 527.2,
+   "expiry": null,
+   "quote": "warrants to purchase up to 250 shares of common stock exercisable at $527.20 per share"
+  },
+  {
+   "count": 157,
+   "exercise_price_usd": 400.0,
+   "expiry": null,
+   "quote": "we agreed to issue warrants to purchase up to 157 shares of common stock at $400.00 per share"
+  }
+ ],
+ "warrants_dropped": 0
+}

@@ -1,0 +1,45 @@
+{
+ "id": "1671584_2024-04-11",
+ "asof": "2024-04-15",
+ "chars": 25405,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-04-15",
+   "net_proceeds_usd": 4000000,
+   "what": "April 2024 public offering (common stock, pre-funded warrants and common warrants) closed via Roth Capital",
+   "quote": "The Company received net proceeds of approximately $4.0 million from the Offering, after deducting the estimated offering expenses payable by the Company, including the Placement Agent fees."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 1872516,
+   "exercise_price_usd": 0.62,
+   "expiry": "2028-08-04",
+   "quote": "we have 1,872,516 Series A and 58,000 Series B Common Warrants outstanding from our August 2023 public offering with an exercise price of $0.62 per"
+  },
+  {
+   "count": 58000,
+   "exercise_price_usd": 0.62,
+   "expiry": "2025-02-04",
+   "quote": "we have 1,872,516 Series A and 58,000 Series B Common Warrants outstanding from our August 2023 public offering with an exercise price of $0.62 per"
+  },
+  {
+   "count": 12384002,
+   "exercise_price_usd": 0.233,
+   "expiry": null,
+   "quote": "we have 12,384,002 New Series A and 16,013,034 New Series B Common Warrants outstanding from our November 2023 warrant inducement with an exercise price of $0.233 per share."
+  },
+  {
+   "count": 16013034,
+   "exercise_price_usd": 0.233,
+   "expiry": null,
+   "quote": "we have 12,384,002 New Series A and 16,013,034 New Series B Common Warrants outstanding from our November 2023 warrant inducement with an exercise price of $0.233 per share."
+  }
+ ],
+ "warrants_dropped": 0
+}

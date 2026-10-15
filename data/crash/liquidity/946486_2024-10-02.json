@@ -1,0 +1,56 @@
+{
+ "id": "946486_2024-10-02",
+ "asof": "2024-10-02",
+ "chars": 36178,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [
+  {
+   "amount_usd": 100000,
+   "what": "Cash paid to Deerfield on Jan 24, 2024 to terminate milestone payment rights (first part of $0.2M total)",
+   "quote": "cash in the aggregate amount of $0.2 million, $0.1 million of which was paid on January 24, 2024"
+  },
+  {
+   "amount_usd": 900000,
+   "what": "PMUSA and PMPSA upfront payments accrued at year-end 2023 and paid in Q1 2024",
+   "quote": "During the first quarter of 2024, the PMUSA Upfront Payment and the PMPSA Upfront Payment were both paid."
+  }
+ ],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-07-22",
+   "net_proceeds_usd": 3400000,
+   "what": "First tranche Series C preferred/warrant private placement; cash portion only (gross $12.9M less $9.5M paid by cancelling notes and Series B preferred)",
+   "quote": "for aggregate gross proceeds of approximately $12.9 million, of which $9.5 million was paid through the cancellation and extinguishment"
+  },
+  {
+   "date": "2024-07-29",
+   "net_proceeds_usd": 1000000,
+   "what": "Second tranche Series C preferred/warrant private placement (gross)",
+   "quote": "for aggregate cash proceeds to us of approximately $1.0 million"
+  },
+  {
+   "date": "2024-09-13",
+   "net_proceeds_usd": 3200000,
+   "what": "ELOC common stock sales through Sept 13, 2024 (gross)",
+   "quote": "sold an aggregate of 949,948 shares of Common Stock for aggregate gross proceeds of approximately $3.2 million pursuant to the ELOC Purchase Agreement"
+  },
+  {
+   "date": "2024-07-03",
+   "net_proceeds_usd": 200000,
+   "what": "Senior secured and unsecured notes with 15% OID (gross)",
+   "quote": "for aggregate gross proceeds of $200,000"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 3778925,
+   "exercise_price_usd": 4.11,
+   "expiry": null,
+   "quote": "Our Warrants have an exercise price of $4.11, or the Exercise Price, subject to adjustment to no lower than $3.741."
+  }
+ ],
+ "warrants_dropped": 0
+}

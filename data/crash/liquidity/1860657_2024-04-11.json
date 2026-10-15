@@ -1,0 +1,39 @@
+{
+ "id": "1860657_2024-04-11",
+ "asof": "2024-04-11",
+ "chars": 16527,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-01-18",
+   "net_proceeds_usd": 400000,
+   "what": "3i senior convertible promissory note (first closing), gross purchase price; net not stated",
+   "quote": "for an aggregate purchase price of $400,000, representing an approximately 10% original issue discount"
+  },
+  {
+   "date": "2024-02-13",
+   "net_proceeds_usd": 400000,
+   "what": "3i senior convertible promissory note (second closing), gross purchase price; net not stated",
+   "quote": "for an aggregate purchase price of $400,000, representing an approximately 10% original issue discount (the \u201cTransaction\u201d)"
+  },
+  {
+   "date": "2024-03-14",
+   "net_proceeds_usd": 600000,
+   "what": "3i senior convertible promissory note (subsequent closing), gross purchase price; net not stated",
+   "quote": "for an aggregate purchase price of $600,000,\nrepresenting an approximately 10% original issue discount"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 10882028,
+   "exercise_price_usd": 0.405,
+   "expiry": null,
+   "quote": "modified the conversion price of the\n3i Exchange Warrants from $0.4476 to $0.4050 and thereby increased the number of Exchange Warrants outstanding from 9,846,339 on January\n18, 2024, to 10,882,028 on February 13, 2024"
+  }
+ ],
+ "warrants_dropped": 0
+}

@@ -1,0 +1,45 @@
+{
+ "id": "1580149_2024-03-04",
+ "asof": "2024-03-08",
+ "chars": 14021,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-03-06",
+   "net_proceeds_usd": 18800000,
+   "what": "Best-efforts public offering of shares, pre-funded warrants and common warrants (gross $21M less ~$2.2M fees and expenses)",
+   "quote": "The gross proceeds to the Company from the Offering were approximately $21 million, before deducting placement agent fees and offering expenses of approximately $2.2 million."
+  },
+  {
+   "date": "2024-01-19",
+   "net_proceeds_usd": 21000000,
+   "what": "ATM sales under Cantor Sales Agreement after 2023-12-31: cumulative net $59.4M at 2024-01-19 less $38.4M reported in the 10-Q (derived)",
+   "quote": "As of January 19, 2024, the Company has issued 8,136,058 shares under the Sales Agreement for a total net proceeds of $59.4 million after commissions and expenses of approximately $1.8 million"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 7272728,
+   "exercise_price_usd": 1.82,
+   "expiry": null,
+   "quote": "a warrant to purchase 7,272,728 shares of Common Stock (\u201cPIPE Warrant Shares\u201d), at an exercise price of $1.82, with a term of exercise of five years."
+  },
+  {
+   "count": 361002,
+   "exercise_price_usd": 5.82,
+   "expiry": "2026-11-30",
+   "quote": "warrants to purchase 361,002 shares of Common Stock of the Company (the \u201cAvenue Warrants\u201d) at an exercise price per share equal to $5.82. The Avenue Warrants are exercisable until November 30, 2026."
+  },
+  {
+   "count": 1050000,
+   "exercise_price_usd": 1.25,
+   "expiry": null,
+   "quote": "exercisable to purchase 1,050,000 shares of Common Stock, representing 5% of the Shares and Pre-Funded Warrants purchased at the Closing, for an aggregate purchase price of $100.00, at an exercise price of $1.25 per share"
+  }
+ ],
+ "warrants_dropped": 0
+}

@@ -1,0 +1,39 @@
+{
+ "id": "1029125_2024-03-07",
+ "asof": "2024-03-08",
+ "chars": 28524,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2023-11-02",
+   "net_proceeds_usd": 1784341,
+   "what": "Warrant exercise inducement: gross ~$1.9M less $115,659 banker fees",
+   "quote": "The Company received aggregate gross proceeds of approximately $1.9 million from the exercise of the Existing Warrants by the Holders and the sale of the Inducement Warrants."
+  },
+  {
+   "date": "2023-12-20",
+   "net_proceeds_usd": 1100000,
+   "what": "Warrant exercises Dec 19-20, 2023 (gross proceeds)",
+   "quote": "the Company issued approximately 1.72 million shares of its common stock as a result of the exercise of outstanding warrants for gross proceeds totaling approximately $1.1 million."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 4036900,
+   "exercise_price_usd": 3.75,
+   "expiry": null,
+   "quote": "warrants to purchase up to an aggregate of 4,036,900 shares of common stock remained outstanding with an exercise price of $3.75 per shares"
+  },
+  {
+   "count": 2566,
+   "exercise_price_usd": 2.239,
+   "expiry": null,
+   "quote": "Warrants to purchase 2,566 shares of common stock remained outstanding with an exercise price as adjusted, of $2.239 per share."
+  }
+ ],
+ "warrants_dropped": 0
+}

@@ -1,0 +1,33 @@
+{
+ "id": "1501989_2024-05-09",
+ "asof": "2024-05-09",
+ "chars": 21294,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-04-30",
+   "net_proceeds_usd": 4800000,
+   "what": "ATM sales of 2,270,608 shares in April 2024 (exact day not given; month-end used)",
+   "quote": "In April 2024, we sold 2,270,608 shares at an average price of $2.20 per share under our at-the-market offering and received net proceeds of approximately $4.8 million"
+  },
+  {
+   "date": "2024-05-01",
+   "net_proceeds_usd": 75,
+   "what": "BVF exercise for 7.5 million shares at $0.00001 per share (7.5M x $0.00001)",
+   "quote": "On May 1, 2024, BVF exercised its right to purchase 7.5 million shares of common stock at an exercise price of $0.00001 per share."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 6923077,
+   "exercise_price_usd": 1e-05,
+   "expiry": null,
+   "quote": "6,923,077 shares of common stock issuable upon the exercise of pre-funded warrants outstanding as of May 6, 2024"
+  }
+ ],
+ "warrants_dropped": 0
+}

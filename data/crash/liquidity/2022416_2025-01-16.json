@@ -1,0 +1,33 @@
+{
+ "id": "2022416_2025-01-16",
+ "asof": "2025-01-16",
+ "chars": 23358,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-10-01",
+   "net_proceeds_usd": 1658000,
+   "what": "ELOC equity raise, 2,644,000 ordinary shares",
+   "quote": "On October 1, 2024, the Company completed an equity raise through the ELOC, issuing 2,644,000 ordinary shares for a total consideration of $1,658."
+  },
+  {
+   "date": "2024-10-22",
+   "net_proceeds_usd": 200000,
+   "what": "ELOC equity raise, 600,000 ordinary shares",
+   "quote": "On October 22, 2024, the Company completed an equity raise through the ELOC, issuing 600,000 ordinary shares for a total consideration of $200."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": null,
+   "exercise_price_usd": 11.5,
+   "expiry": null,
+   "quote": "Warrants exercisable for ordinary shares at an exercise price of $11.50 per share"
+  }
+ ],
+ "warrants_dropped": 0
+}

@@ -1,0 +1,33 @@
+{
+ "id": "1729427_2024-06-03",
+ "asof": "2024-06-06",
+ "chars": 21289,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": null,
+   "net_proceeds_usd": 1183,
+   "what": "Exercise of 1,183,000 warrants at $0.001 after March 31, 2024 (proceeds computed as count x price; exercise date not given)",
+   "quote": "Subsequent to March 31, 2024, a total of 1,183,000 Warrants (exercisable into one share of common stock at a price per share of $0.001) were exercised by investors."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 11117667,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "pre-funded warrants to purchase 11,117,667 shares of common stock"
+  },
+  {
+   "count": 3756000,
+   "exercise_price_usd": 1.28,
+   "expiry": "2028-10-16",
+   "quote": "amend certain existing warrants to purchase up to an aggregate of 3,756,000 shares of Common Stock at an exercise price of $1.28 per share and a termination date of October 16, 2028"
+  }
+ ],
+ "warrants_dropped": 0
+}
