@@ -36,7 +36,7 @@ INVEST = ["ShortTermInvestments", "MarketableSecuritiesCurrent", "AvailableForSa
 BURN = ["NetCashProvidedByUsedInOperatingActivities", "NetCashProvidedByUsedInOperatingActivitiesContinuingOperations"]
 RESTRICTED = ["RestrictedCash", "RestrictedCashCurrent", "RestrictedCashNoncurrent", "RestrictedCashAndCashEquivalentsAtCarryingValue",
               "RestrictedCashAndCashEquivalentsCurrent", "RestrictedCashAndCashEquivalentsNoncurrent"]
-VERSION = 2
+VERSION = 3
 _facts, _subs, _docs = {}, {}, {}
 
 
@@ -128,14 +128,19 @@ def burn(f, asof):
 
 
 MONTH = {"first": 1, "second": 4, "third": 7, "fourth": 10, "q1": 1, "q2": 4, "q3": 7, "q4": 10, "1q": 1, "2q": 4, "3q": 7, "4q": 10}
-GUIDE = re.compile(r"(?:sufficient|enough|adequate|able) to (?:fund|support|finance|meet)[^.]{0,220}?"
+GUIDE = re.compile(r"(?:(?:sufficient|enough|adequate|able|enable us|allow us|enables us|allows us)\s+to\s+(?:fund|support|finance|meet)"
+                   r"|(?:cash|capital|financial)\s+runway|to fund (?:our |its )?(?:operations|operating expenses|operating plan|planned operations|current operating plan))"
+                   r"[^.]{0,220}?"
                    r"\b(into|through|until|to|beyond|at least into|at least through|well into)\s+(?:the\s+)?"
                    r"(?:(first|second|third|fourth)\s+(?:calendar\s+)?quarter\s+of\s+|(q[1-4]|[1-4]q)\s+|"
                    r"(first|second)\s+half\s+of\s+|(mid|middle of|end of|beginning of|early|late)[-\s]+(?:calendar\s+)?)?(20\d\d)", re.I)
 TWELVE = re.compile(r"(?:sufficient|enough|adequate) to (?:fund|support|finance|meet)[^.]{0,200}?(?:at least\s+)?(?:the\s+)?next\s+(?:12|twelve)\s+months", re.I)
-GOING = re.compile(r"substantial doubt (?:about|regarding|as to) (?:our|the company.s|its) ability to continue as a going concern", re.I)
+GOING = re.compile(r"substantial doubt (?:about|regarding|as to|concerning) (?:our|the company.s|the company’s|its) ability to continue as a going concern", re.I)
+HYPO = re.compile(r"\b(?:could|may|might|would|if|unless|whether|cannot assure|no assurance|in the event)\b", re.I)
+NEG = re.compile(r"\b(?:need|needs|require|requires|additional (?:capital|funding|financing)|not be sufficient|insufficient|not sufficient)\b", re.I)
 ATM = re.compile(r"at[- ]the[- ]market|\bATM (?:program|facility|offering|agreement)|sales agreement", re.I)
-ATM_LEFT = re.compile(r"\$\s?([\d,.]+)\s*(million|billion)?[^.]{0,120}?remain(?:ed|s|ing)?\s+available", re.I)
+ATM_LEFT = re.compile(r"\$\s?([\d,.]+)\s*(million|billion)?[^.]{0,120}?remain(?:ed|s|ing)?\s+available"
+                      r"|remaining (?:available |aggregate )?(?:capacity|amount|offering price)[^.$]{0,60}\$\s?([\d,.]+)\s*(million|billion)?", re.I)
 
 
 def guide_date(mt):
@@ -180,7 +185,10 @@ def filing_notes(cik, accn, filed):
     out = {"accn": accn, "guided_until": None, "guidance": None, "twelve_months": False, "going_concern": False,
            "atm": False, "atm_remaining": None, "atm_quote": None}
     lim = (date.fromisoformat(filed) + timedelta(days=6 * 365)).isoformat()
-    g = [mt for mt in GUIDE.finditer(t) if guide_date(mt) <= lim]
+    def sentence(mt):
+        a0 = t.rfind(". ", 0, mt.start()) + 2
+        return t[a0:mt.end()]
+    g = [mt for mt in GUIDE.finditer(t) if guide_date(mt) <= lim and not NEG.search(sentence(mt))]
     if g:
         best = max(g, key=lambda mt: guide_date(mt))          # several statements: the company's longest horizon
         out["guided_until"] = guide_date(best)
@@ -189,10 +197,14 @@ def filing_notes(cik, accn, filed):
     elif TWELVE.search(t):
         out["twelve_months"] = True
         out["guidance"] = TWELVE.search(t).group(0)[:300]
-    gc = GOING.search(t)
-    if gc:
-        ctx = t[max(0, gc.start() - 200):gc.end() + 100].lower()
-        out["going_concern"] = not any(w in ctx for w in ("alleviat", "no longer", "do not believe", "does not exist"))
+    # a real going-concern conclusion, not the hypothetical risk-factor wording ("could raise substantial doubt")
+    for gc in GOING.finditer(t):
+        a0 = t.rfind(". ", 0, gc.start()) + 2
+        lead, after = t[a0:gc.start()], t[gc.end():gc.end() + 200].lower()
+        if HYPO.search(lead) or any(w in (lead.lower() + after) for w in ("alleviat", "no longer", "do not believe", "does not exist", "not have substantial")):
+            continue
+        out["going_concern"], out["going_concern_quote"] = True, t[a0:gc.end()][:300]
+        break
     a = ATM.search(t)
     if a:
         out["atm"] = True
@@ -200,7 +212,11 @@ def filing_notes(cik, accn, filed):
         for mt in ATM_LEFT.finditer(t):
             ctx = t[max(0, mt.start() - 300):mt.end()].lower()
             if "at-the-market" in ctx or "at the market" in ctx or "sales agreement" in ctx or "atm" in ctx:
-                v = float(mt.group(1).replace(",", "")) * (1e9 if (mt.group(2) or "").lower() == "billion" else 1e6 if mt.group(2) else 1)
+                num, unit = (mt.group(1), mt.group(2)) if mt.group(1) else (mt.group(3), mt.group(4))
+                try:
+                    v = float(num.replace(",", "").rstrip(".")) * (1e9 if (unit or "").lower() == "billion" else 1e6 if unit else 1)
+                except ValueError:
+                    continue
                 out["atm_remaining"] = v
                 break
     return out

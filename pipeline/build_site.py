@@ -1,6 +1,6 @@
 """
 Build the static site into ./site from the data files: web/ (page code) + site/data.json.
-Returns are measured from day 30 after the crash (first trading day on/after) to day 365, using daily closes;
+Returns are measured from the trough (lowest close of the crash window) to 365 days later, using daily closes;
 a company that stopped trading keeps its last price (and is labelled).
 """
 import csv, json, shutil, time
@@ -28,18 +28,17 @@ def at_or_before(ds, cs, d):
     return (ds[i], cs[i]) if i >= 0 else (None, None)
 
 
-def path_from(ds, cs, crash_date):
-    """% change from day 30 to each step up to day 365. None if the year isn't complete yet."""
+def path_from(ds, cs, base_day):
+    """% change from the trough to each step up to day 365 after it. None if the year isn't complete yet."""
     if not ds:
         return None, None, None
-    base_day = (date.fromisoformat(crash_date) + timedelta(days=30)).isoformat()
     i = bisect_right(ds, base_day) - 1
     if i + 1 < len(ds) and ds[i] != base_day:
-        i += 1                                              # first trading day on/after day 30
+        i += 1                                              # first trading day on/after the base day
     if i < 0 or i >= len(ds):
         return None, None, None
     b0, base = ds[i], cs[i]
-    end_day = (date.fromisoformat(b0) + timedelta(days=335)).isoformat()   # day 30 + 335 = day 365
+    end_day = (date.fromisoformat(b0) + timedelta(days=365)).isoformat()
     if end_day > TODAY.isoformat():
         return None, None, None
     ended = None
@@ -47,7 +46,7 @@ def path_from(ds, cs, crash_date):
         ended = f"stopped trading {ds[-1]}"
     path = []
     for k in STEPS:
-        d = (date.fromisoformat(b0) + timedelta(days=round(k * 335 / 365))).isoformat()
+        d = (date.fromisoformat(b0) + timedelta(days=k)).isoformat()
         _, c = at_or_before(ds, cs, d)
         path.append(round((c / base - 1) * 100, 1))
     return path, ended, b0
@@ -81,7 +80,7 @@ for c in (csv.DictReader(cpath.open()) if cpath.exists() else []):
     fx = ROOT / "data" / "factors" / f"{cid}.json"
     if fx.exists():
         fj = json.loads(fx.read_text())
-        rec.update({k: fj[k] for k in ("factors", "score", "verdict", "in_sample") if k in fj})
+        rec.update({k: fj[k] for k in ("factors", "score", "verdict", "in_sample", "insider_net") if k in fj})
         rec.setdefault("sources", []).extend(fj.get("sources", []))
     rec.setdefault("sources", []).append({"label": "All SEC filings",
         "url": f"https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK={int(c['cik'])}&type=&dateb=&owner=include&count=40"})
@@ -100,12 +99,10 @@ for c in (csv.DictReader(cpath.open()) if cpath.exists() else []):
                 rec["outcome"] = "Winner" if rec["ret_trough"] >= 30 else "Recovery" if rec["ret_trough"] >= 0 else "Failure"
             if ds[-1] < (one_year if rec["played"] else (TODAY - timedelta(days=7)).isoformat()):
                 rec["stopped"] = ds[-1]
-    path, ended, b0 = path_from(ds, cs, c["date"])
+    path, ended, b0 = path_from(ds, cs, trough_d)
     if path:
-        rec["ret365"], rec["path"] = path[-1], path
-        if ended:
-            rec["ended"] = ended
-        xp, _, _ = path_from(xd, xc, c["date"])
+        rec["path"] = path
+        xp, _, _ = path_from(xd, xc, trough_d)
         if xp:
             rec["xbi365"], rec["xbi_path"] = xp[-1], xp
     crashes.append(rec)
@@ -127,7 +124,6 @@ for r in crashes:
     r.pop("path", None)
     r.pop("xbi_path", None)
     if not r.get("played"):                      # outcomes and track record use the played-out table only
-        r.pop("ret365", None)
         r.pop("xbi365", None)
 
 dates = sorted(r["date"] for r in crashes)
@@ -139,5 +135,5 @@ if SITE.exists():
 shutil.copytree(ROOT / "web", SITE)
 (SITE / "data.json").write_text(json.dumps(data, separators=(",", ":")))
 (SITE / "_headers").write_text("/data.json\n  Cache-Control: no-cache\n")
-print(f"site built: {len(crashes)} crashes, {sum(1 for r in crashes if r.get('ret365') is not None)} with a full year, "
+print(f"site built: {len(crashes)} crashes, {sum(1 for r in crashes if r.get('played'))} with a full year, "
       f"{sum(1 for r in crashes if r['verdict'] != 'pending')} scored")

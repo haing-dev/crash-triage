@@ -84,20 +84,29 @@ def raw_close(cik, d, adj):
     return None
 
 
+def months_between(a, b):
+    return (date.fromisoformat(b) - date.fromisoformat(a)).days / 30.44
+
+
 def features(r):
-    """Numbers + safety/insider categories from one raw record (None = unknown)."""
+    """Numbers + categories from one raw record (None = unknown). Everything is as of the trough (r["asof"])."""
     x = {"id": r["id"], "date": r["date"], "asof": r["asof"], "final": r.get("final")}
-    b, bu, sh, p = r.get("balance"), r.get("burn"), r.get("shares"), r.get("price")
+    b, bu, sh, p, fl = r.get("balance"), r.get("burn"), r.get("shares"), r.get("price"), r.get("filing") or {}
     x["cash"] = b["cash"] if b and b["cash"] > 0 else None
-    x["runway_m"] = None
-    if x["cash"] and bu:
-        # one formula for every company: cash / monthly operating cash burn, minus months since the balance sheet;
-        # capped at 120 (a company with no burn has 120+ months)
-        burn_m = -bu["per_month"]
-        elapsed = (date.fromisoformat(r["asof"]) - date.fromisoformat(b["end"])).days / 30.44
-        x["runway_m"] = 120.0 if burn_m <= 0 else min(120.0, max(0.0, x["cash"] / burn_m - elapsed))
+    # cash runway: the company's own guidance if its latest 10-Q/10-K gives one (it knows its planned spending,
+    # step-ups and cuts); otherwise cash / trailing-12-month operating burn, minus months since the balance sheet
+    x["runway_m"], x["runway_src"] = None, None
+    if fl.get("guided_until"):
+        x["runway_m"], x["runway_src"] = max(0.0, months_between(r["asof"], fl["guided_until"])), "guidance"
+    elif x["cash"] and bu:
+        per = bu.get("ttm_per_month") if bu.get("ttm_per_month") is not None else bu["per_month"]
+        if per >= 0:
+            x["runway_m"], x["runway_src"] = 999.0, "no burn"
+        else:
+            x["runway_m"] = max(0.0, x["cash"] / -per - months_between(b["end"], r["asof"]))
+            x["runway_src"] = "calculated"
     x["value_x"] = None
-    px = raw_close(r["cik"], p["date"], p["adj_close"]) if p else None   # actual price that day
+    px = raw_close(r["cik"], p["date"], p["adj_close"]) if p else None   # actual price at the trough
     # Never the adjusted price as is: it embeds later reverse splits, and "a split came later" is future
     # information that would leak into the verdict.
     if x["cash"] and sh and px:
@@ -106,28 +115,33 @@ def features(r):
             x["value_x"], x["mcap"] = mcap / x["cash"], mcap
     t = r.get("trials")
     x["trials"] = t["other_trials"] if t else None
+    # insiders: the verdict only uses trades filed by the trough; the cell shows the whole window (90 days before
+    # the news day to 30 days after)
     ins = r.get("insiders")
-    if ins is None:
-        x["insider"] = None
-    elif ins["bought"] >= 10_000 and ins["bought"] >= ins["sold"]:          # under $10K counts as none
-        x["insider"] = "g"
-    elif ins["sold"] - ins["bought"] >= 10_000:
-        x["insider"] = "r"
-    else:
-        x["insider"] = "n"
-    x["safety"] = None
+    x["insider"], x["insider_net"], x["insider_trade"] = None, None, None
+    if ins is not None and "trades" in ins:
+        net = lambda ts: sum(t["value"] if t["code"] == "P" else -t["value"] for t in ts)
+        known = net([t for t in ins["trades"] if t["filed"] <= r["asof"]])
+        x["insider"] = "g" if known >= 10_000 else "r" if known <= -10_000 else "n"
+        full = net(ins["trades"])
+        if abs(full) >= 10_000:
+            side = "P" if full > 0 else "S"
+            big = max((t for t in ins["trades"] if t["code"] == side), key=lambda t: t["value"])
+            x["insider_net"], x["insider_trade"] = full, big
+    x["safety"], x["safety_txt"] = None, None
     e = EV / f"{r['id']}.json"
     if e.exists():
         f = json.loads(e.read_text()).get("facts") or {}
         s = f.get("safety") or {}
         if f:
-            bad = f.get("trigger") == "safety" or s.get("clinical_hold_or_trial_paused") or (s.get("deaths") or 0) > 0 \
-                  or (s.get("serious_drug_related_patients") or 0) > 0
-            x["safety"] = "r" if bad else "g" if s.get("described_as_well_tolerated") else "n"
-            x["safety_txt"] = ("Clinical hold" if s.get("clinical_hold_or_trial_paused") else "Deaths reported" if (s.get("deaths") or 0) > 0
-                               else "Serious side effects" if (s.get("serious_drug_related_patients") or 0) > 0
-                               else "Safety issue" if f.get("trigger") == "safety" else "Well tolerated" if x["safety"] == "g"
-                               else "None reported")
+            if (s.get("deaths") or 0) > 0:
+                x["safety"], x["safety_txt"] = "r", "Reported Death"
+            elif f.get("trigger") == "safety" or s.get("clinical_hold_or_trial_paused") or (s.get("serious_drug_related_patients") or 0) > 0:
+                x["safety"], x["safety_txt"] = "r", "Negative Side Effects"
+            elif s.get("described_as_well_tolerated"):
+                x["safety"], x["safety_txt"] = "g", "Well Tolerated"
+            else:
+                x["safety"] = "n"
     return x
 
 
@@ -174,23 +188,25 @@ def score(model, x):
     return sum(model["points"][k].get(cat(model, x, k), 0.0) for k in KEYS)
 
 
+def days_word(news, d):
+    n = (date.fromisoformat(d) - date.fromisoformat(news)).days
+    return "on crash day" if n == 0 else f"{abs(n)} day{'s' if abs(n) > 1 else ''} {'after' if n > 0 else 'before'} crash"
+
+
 def text(k, x):
     if k == "safety":
-        t = x.get("safety_txt")
-        return "N/A" if not t or t == "None reported" else t
+        return x.get("safety_txt") or "N/A"
     if k == "runway":
         v = x["runway_m"]
-        return "N/A" if v is None else "120+ mo" if v >= 120 else f"{v:.0f} mo"
+        return "N/A" if v is None else "No Cash Burn" if x["runway_src"] == "no burn" else f"{v:.0f} mo"
     if k == "value":
         v = x["value_x"]
         return "N/A" if v is None else f"{'Below' if v < 1 else 'Above'} Cash ({v:.2f}x)" if v < 0.1 else f"{'Below' if v < 1 else 'Above'} Cash ({v:.1f}x)"
     if k == "insider":
-        r = x["raw"].get("insiders")
-        if x["insider"] == "g":
-            return f"Insider Buy ({money(r['bought'])})"
-        if x["insider"] == "r":
-            return f"Insider Sell ({money(r['sold'] - r['bought'])})"
-        return "N/A"
+        if x["insider_net"] is None:
+            return "N/A"
+        side = "Insider Buy" if x["insider_net"] > 0 else "Insider Sell"
+        return f"{side} ({money(abs(x['insider_net']))}, {days_word(x['date'], x['insider_trade']['date'])})"
     if k == "programs":
         v = x["trials"]
         return "N/A" if not v else f"{v} other trial{'s' if v > 1 else ''}"
@@ -202,12 +218,13 @@ def bucket(k, x):
         return text(k, x)
     if k == "runway":
         v = x["runway_m"]
-        return "N/A" if v is None else "Under 6 mo" if v < 6 else "6–12 mo" if v < 12 else "12–24 mo" if v < 24 else "24+ mo"
+        return ("N/A" if v is None else "No cash burn" if x["runway_src"] == "no burn" else "Under 6 mo" if v < 6
+                else "6–12 mo" if v < 12 else "12–24 mo" if v < 24 else "24+ mo")
     if k == "value":
         v = x["value_x"]
         return "N/A" if v is None else "Below Cash" if v < 1 else "Above Cash"
     if k == "insider":
-        return {"g": "Insider Buy", "r": "Insider Sell"}.get(x["insider"], "N/A")
+        return "N/A" if x["insider_net"] is None else "Insider Buy" if x["insider_net"] > 0 else "Insider Sell"
     if k == "programs":
         v = x["trials"]
         return "N/A" if not v else "1 trial" if v == 1 else "2–4 trials" if v < 5 else "5+ trials"
@@ -216,21 +233,37 @@ def bucket(k, x):
 def note(k, x, model):
     r = x["raw"]
     pts = model["points"][k].get(cat(model, x, k), 0.0) * 100
-    eff = f"Past crashes like this: {pts:+.0f} pts vs typical (median, vs index)"
+    eff = f"Past crashes like this: {pts:+.0f} pts vs typical"
     m = model["cuts"].get(k) if k in CONT else None
     if m:
         unit = {"runway": " months", "value": "× cash", "programs": " other trials"}[k]
         c = f"{m['cut']:.1f}" if k == "value" else f"{m['cut']:.0f}"
-        eff += f" · split at {c}{unit}"
-    if k == "runway" and r.get("balance") and r.get("burn"):
-        b = r["burn"]["per_month"]
-        flow = f"burn {money(-b)}/mo" if b < 0 else f"operating cash inflow {money(b)}/mo"
-        return f"Cash {money(r['balance']['cash'])} at {r['balance']['end']}, {flow} · {eff}"
+        eff += f" (split at {c}{unit})"
+    fl = r.get("filing") or {}
+    if k == "runway":
+        bits = []
+        if r.get("balance"):
+            bits.append(f"Cash {money(r['balance']['cash'])} at {r['balance']['end']}"
+                        + (" (restricted cash removed)" if any(p.startswith("minus") for p in r["balance"]["parts"]) else ""))
+        bu = r.get("burn") or {}
+        if bu.get("ttm_per_month") is not None or bu.get("per_month") is not None:
+            per = bu.get("ttm_per_month") if bu.get("ttm_per_month") is not None else bu["per_month"]
+            bits.append(f"{'burn' if per < 0 else 'operating cash inflow'} {money(abs(per))}/mo (last 12 months)"
+                        + (f", {money(abs(bu['quarter_per_month']))}/mo last quarter" if bu.get("quarter_per_month") is not None else ""))
+        if x["runway_src"] == "guidance":
+            bits.append(f"Company guidance: \u201c…{fl['guidance'][-160:]}\u201d")
+        if fl.get("going_concern"):
+            bits.append("Going-concern warning in the filing")
+        if fl.get("atm"):
+            bits.append("Has an at-the-market (ATM) share programme" + (f", {money(fl['atm_remaining'])} left" if fl.get("atm_remaining") else ""))
+        return " · ".join(bits + [eff])
     if k == "value" and x.get("mcap"):
-        return f"Market value {money(x['mcap'])} on day 30 · {eff}"
+        return f"Market value {money(x['mcap'])} at the trough · {eff}"
     if k == "insider" and r.get("insiders"):
         i = r["insiders"]
-        return f"{i['form4s']} Form 4 filings, news day to day 30" + (f" (buyers: {', '.join(i['buyers'][:2])})" if i["buyers"] else "") + f" · {eff}"
+        t = x.get("insider_trade")
+        who = f" · largest: {t['who']} {money(t['value'])} on {t['date']}" if t else ""
+        return f"{len(i.get('trades', []))} open-market trades, 90 days before to 30 days after the news{who} · verdict uses trades filed by the trough · {eff}"
     if k == "programs" and r.get("trials"):
         ex = [e["drugs"][0] for e in r["trials"]["examples"][:2] if e["drugs"]]
         return (f"e.g. {'; '.join(dict.fromkeys(ex))} · " if ex else "") + eff
@@ -246,12 +279,14 @@ def main():
             continue
         x = features(r)
         x["raw"] = r
-        d30 = (date.fromisoformat(r["date"]) + timedelta(days=30)).isoformat()
-        d365 = (date.fromisoformat(r["date"]) + timedelta(days=365)).isoformat()
+        if r.get("version", 1) < 3:
+            continue                                             # old-format record: wait for re-collection
+        t0 = r["asof"]                                           # the trough: where the backtest buys
+        d365 = (date.fromisoformat(t0) + timedelta(days=365)).isoformat()
         x["y"] = None
         if d365 <= TODAY:
             ds, cs = prices(r["cik"])
-            a, b = move(ds, cs, d30, d365), move(xd, xc, d30, d365)
+            a, b = move(ds, cs, t0, d365), move(xd, xc, t0, d365)
             if a is not None and b is not None:
                 x["y"], x["abs"], x["d365"] = a - b, a, d365
         rows.append(x)
@@ -260,8 +295,7 @@ def main():
     first = fit(known) if len(known) >= MIN_TRAIN else None
     models, heldout = {}, []
     for x in rows:
-        d30 = (date.fromisoformat(x["date"]) + timedelta(days=30)).isoformat()
-        train = [t for t in known if t["d365"] <= d30]
+        train = [t for t in known if t["d365"] <= x["asof"]]          # only outcomes known at this crash's trough
         if len(train) >= MIN_TRAIN:
             key = len(train)
             models.setdefault(key, fit(train) if key not in models else models[key])
@@ -276,10 +310,15 @@ def main():
         def colour(k):
             if text(k, x) == "N/A":
                 return "n"                                             # unknown is always shown neutral
+            if k == "insider":
+                return "g" if x["insider_net"] > 0 else "r"
+            if k == "safety":
+                return x["safety"] or "n"
             p = model["points"][k].get(cat(model, x, k), 0.0)
             return "g" if p >= 0.05 else "r" if p <= -0.05 else "n"   # better / worse than typical by 5+ points
         out = {"id": x["id"], "score": pct, "verdict": verdict, "in_sample": ins, "trained_on": model["n"],
-               "factors": {k: [colour(k), text(k, x), note(k, x, model), bucket(k, x)] for k in KEYS}}
+               "factors": {k: [colour(k), text(k, x), note(k, x, model), bucket(k, x)] for k in KEYS},
+               "insider_net": x["insider_net"]}
         (OUT / f"{x['id']}.json").write_text(json.dumps(out, indent=1))
         if x["y"] is not None and not ins:
             heldout.append((verdict, x["y"], x["abs"]))
@@ -294,7 +333,7 @@ def main():
             pt = final["points"][k]
             rep.append(f"| {k} | {cs} | {pt.get('g', 0) * 100:+.1f} / {pt.get('n', 0) * 100:+.1f} / {pt.get('r', 0) * 100:+.1f} |")
     if heldout:
-        rep += ["", "## Out-of-sample check (walk-forward: verdict given at the time, outcome vs XBI)", "",
+        rep += ["", "## Out-of-sample check (walk-forward: verdict given at the trough; return trough to +365 days, vs XBI)", "",
                 "| Verdict | n | median stock move | median vs XBI | beat XBI | up 50%+ | down 80%+ |", "|---|---|---|---|---|---|---|"]
         for v in ("overdone", "close", "justified"):
             g = [(y, a) for gg, y, a in heldout if gg == v]
