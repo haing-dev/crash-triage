@@ -1,0 +1,39 @@
+{
+ "id": "1801834_2024-11-20",
+ "asof": "2024-11-26",
+ "chars": 5286,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-09-10",
+   "net_proceeds_usd": 1580000,
+   "what": "Exercise of existing warrants at reduced $1.60 price (gross; net not given)",
+   "quote": "The Company expects to receive aggregate gross proceeds of approximately $1.58 million from the exercise of the Existing Warrants by the Holders"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 155966,
+   "exercise_price_usd": 4.8,
+   "expiry": null,
+   "quote": "the exercise price of the December 2023 Warrants was reduced to $4.80 per share, and the expiration date was amended to April 2029."
+  },
+  {
+   "count": 1978600,
+   "exercise_price_usd": 1.6,
+   "expiry": null,
+   "quote": "to purchase up to an aggregate of 1,978,600 ordinary shares (the \u201cNew Warrant Shares\u201d), at an exercise price of $1.60 per ordinary share."
+  },
+  {
+   "count": 69251,
+   "exercise_price_usd": 2.0,
+   "expiry": null,
+   "quote": "Placement Agent Warrants will have an exercise price equal to $2.00 per share"
+  }
+ ],
+ "warrants_dropped": 0
+}

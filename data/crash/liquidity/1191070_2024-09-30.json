@@ -1,0 +1,39 @@
+{
+ "id": "1191070_2024-09-30",
+ "asof": "2024-10-03",
+ "chars": 7257,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-07-19",
+   "net_proceeds_usd": 144,
+   "what": "Exercise of pre-funded ADS warrants",
+   "quote": "On July 19, 2024, 1,439,905 pre-funded ADS warrants were exercised and the amount received was $144."
+  },
+  {
+   "date": "2024-08-02",
+   "net_proceeds_usd": 160,
+   "what": "Exercise of pre-funded ADS warrants",
+   "quote": "On August 2, 2024, 1,600,00 pre-funded ADS warrants were exercised and the amount received was $160."
+  },
+  {
+   "date": "2024-09-06",
+   "net_proceeds_usd": 103,
+   "what": "Exercise of pre-funded ADS warrants",
+   "quote": "On September 6, 2024, 1,033,000 pre-funded ADS warrants were exercised and the amount received was $103."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 12652572,
+   "exercise_price_usd": 0.99,
+   "expiry": null,
+   "quote": "as well as an Accompanying Warrant to purchase up to 12,652,572 ADSs at an exercise price of US$0.99 per ADS (or pre-funded warrants in lieu thereof)"
+  }
+ ],
+ "warrants_dropped": 0
+}

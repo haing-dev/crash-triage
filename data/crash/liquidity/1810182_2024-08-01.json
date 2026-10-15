@@ -1,0 +1,27 @@
+{
+ "id": "1810182_2024-08-01",
+ "asof": "2024-08-01",
+ "chars": 21295,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-08-01",
+   "net_proceeds_usd": 26200000,
+   "what": "ATM sales of 1,794,091 shares after March 31, 2024 (date is the latest cutoff; exact closing dates not given)",
+   "quote": "Subsequent to March 31, 2024, the Company has issued an additional 1,794,091 shares of common stock as part of its ATM offering program and received net proceeds of approximately $26.2 million, after deducting commissions."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 1250000,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "Each pre-funded warrant entitles the holder to purchase one share of common stock at an exercise price of $0.001 per share."
+  }
+ ],
+ "warrants_dropped": 0
+}

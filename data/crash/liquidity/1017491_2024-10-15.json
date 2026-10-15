@@ -1,0 +1,39 @@
+{
+ "id": "1017491_2024-10-15",
+ "asof": "2024-10-15",
+ "chars": 9317,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-07-11",
+   "net_proceeds_usd": 573240,
+   "what": "Warrant inducement: cash exercise of existing warrants at $0.61 (gross proceeds; net not given)",
+   "quote": "The Company received aggregate gross proceeds of approximately $573,240 from the exercise of the Existing Warrants by the holders"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 1879478,
+   "exercise_price_usd": 0.61,
+   "expiry": null,
+   "quote": "new common stock purchase warrants (the \u201cNew Warrants\u201d), to purchase up to an aggregate of 1,879,478 shares of common stock (the \u201cNew Warrant Shares\u201d) at an exercise price of"
+  },
+  {
+   "count": 924414,
+   "exercise_price_usd": 2.21,
+   "expiry": null,
+   "quote": "unregistered warrants to purchase up to 924,414 shares of common stock (the \u201cCommon Warrants\u201d and, together with the Pre-Funded Warrants, the \u201cWarrants\u201d)"
+  },
+  {
+   "count": 81239,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "pre-funded warrants to purchase up to 81,239 shares of common stock (the \u201cMay Pre-Funded Warrants\u201d)"
+  }
+ ],
+ "warrants_dropped": 0
+}

@@ -1,0 +1,33 @@
+{
+ "id": "1430306_2024-09-03",
+ "asof": "2024-09-03",
+ "chars": 17557,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-07-10",
+   "net_proceeds_usd": 3500000,
+   "what": "Registered offering of common stock and pre-funded warrants, closed July 10, 2024",
+   "quote": "The Company received net proceeds of approximately $3.5 million, after deducting the underwriting discount and other offering expenses."
+  },
+  {
+   "date": "2024-07-30",
+   "net_proceeds_usd": 400000,
+   "what": "ATM sales under the AGP Sales Agreement after June 30, 2024 (exact sale dates not given; 2024-07-30 is the agreement date)",
+   "quote": "Subsequent to June 30, 2024, the Company has sold 0.8 million shares of common stock under the Sales Agreement, for net proceeds of approximately $0.4 million."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 3703140,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "The Pre-Funded Warrants are immediately exercisable subject to certain ownership limitations, have an exercise price of $0.001 per share"
+  }
+ ],
+ "warrants_dropped": 0
+}

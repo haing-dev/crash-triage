@@ -1,0 +1,45 @@
+{
+ "id": "1840563_2024-09-23",
+ "asof": "2024-09-24",
+ "chars": 26435,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-08-02",
+   "net_proceeds_usd": 1000000,
+   "what": "Private placement of secured notes ($1.15M principal, OID), closed Aug 2, 2024; proceeds before expenses",
+   "quote": "received proceeds before expenses of $1,000,000"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 231828,
+   "exercise_price_usd": 2.01,
+   "expiry": "2027-04-27",
+   "quote": "On July 15, 2022, the Company issued 231,828 common stock purchase warrants with an exercise price of $2.01 as part of the conversion of promissory notes."
+  },
+  {
+   "count": 75000,
+   "exercise_price_usd": 4.0,
+   "expiry": "2028-11-21",
+   "quote": "The IPO warrants are exercisable into one common share of the Company at $4 per share and expire on November 21, 2028."
+  },
+  {
+   "count": 250000,
+   "exercise_price_usd": 3.0,
+   "expiry": "2026-08-28",
+   "quote": "250,000 August 28, 2026 3.00"
+  },
+  {
+   "count": 99998,
+   "exercise_price_usd": 3.0,
+   "expiry": "2027-03-12",
+   "quote": "99,998 March 12, 2027 3.00"
+  }
+ ],
+ "warrants_dropped": 0
+}

@@ -1,0 +1,33 @@
+{
+ "id": "1859007_2024-11-06",
+ "asof": "2024-11-12",
+ "chars": 30555,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-08-01",
+   "net_proceeds_usd": 827978,
+   "what": "Warrant inducement: December 2023 Offering warrants exercised at reduced $3.46 price (gross; net not stated, advisor fee $50,000 plus legal costs)",
+   "quote": "for gross proceeds of $827,978."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 392000,
+   "exercise_price_usd": 3.46,
+   "expiry": null,
+   "quote": "Series A-1 warrants to purchase up to 392,000 shares of Common Stock and (ii) Series B-1 warrants to purchase up to 86,600 shares of Common Stock"
+  },
+  {
+   "count": 86600,
+   "exercise_price_usd": 3.46,
+   "expiry": null,
+   "quote": "Series A-1 warrants to purchase up to 392,000 shares of Common Stock and (ii) Series B-1 warrants to purchase up to 86,600 shares of Common Stock"
+  }
+ ],
+ "warrants_dropped": 0
+}

@@ -1,0 +1,39 @@
+{
+ "id": "1595248_2024-08-13",
+ "asof": "2024-08-15",
+ "chars": 21277,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-08-15",
+   "net_proceeds_usd": 55449,
+   "what": "ATM sales under 2023 ATM Facility after June 30, 2024 (date not stated in the excerpts; entry date used as upper bound)",
+   "quote": "Subsequent to June 30, 2024, the Company has sold 27,811 shares of its common stock for aggregate net proceeds to the Company totaling $55,449 under the 2023 ATM Facility."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 95239,
+   "exercise_price_usd": 44.0,
+   "expiry": null,
+   "quote": "The warrants are exercisable immediately upon issuance, expire 5 years from the date of issuance and have an exercise price of $44.00 per share."
+  },
+  {
+   "count": 185644,
+   "exercise_price_usd": 35.4,
+   "expiry": null,
+   "quote": "The warrants are exercisable immediately upon issuance, expire 5 years from the date of issuance and have an exercise price of $35.40 per share."
+  },
+  {
+   "count": 11140,
+   "exercise_price_usd": 50.5,
+   "expiry": "2028-07-18",
+   "quote": "except that the Placement Agent warrants have an exercise price of $50.50 per share and expire on July 18, 2028."
+  }
+ ],
+ "warrants_dropped": 0
+}

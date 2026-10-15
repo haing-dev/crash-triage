@@ -1,0 +1,32 @@
+{
+ "id": "1394319_2024-07-01",
+ "asof": "2024-07-08",
+ "chars": 20834,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 146,
+   "exercise_price_usd": 1548.0,
+   "expiry": "2024-06-04",
+   "quote": "June 4, 2024\n\n146\n\n$\n\n1,548.00"
+  },
+  {
+   "count": 269,
+   "exercise_price_usd": 522.0,
+   "expiry": "2025-05-03",
+   "quote": "May 3, 2025\n\n269\n\n$\n\n522.00"
+  },
+  {
+   "count": 7538,
+   "exercise_price_usd": 39.8,
+   "expiry": "2032-09-02",
+   "quote": "September 2, 2032\n\n7,538\n\n$\n\n39.80"
+  }
+ ],
+ "warrants_dropped": 0
+}

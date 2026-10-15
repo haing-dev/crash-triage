@@ -1,0 +1,51 @@
+{
+ "id": "1701478_2024-07-24",
+ "asof": "2024-07-30",
+ "chars": 11370,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-07-26",
+   "net_proceeds_usd": 8950000,
+   "what": "Public offering of units (common shares plus Class A Warrants) via Maxim Group, net of fees and expenses",
+   "quote": "The Company received net proceeds of approximately $8.95 million from the Offering, after deducting Offering expenses payable by the Company,"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 47890,
+   "exercise_price_usd": 0.48,
+   "expiry": null,
+   "quote": "2018$0.48 47,890 4.0 years$0.48 47,890 4.0 years$0.48"
+  },
+  {
+   "count": 215846,
+   "exercise_price_usd": 5.28,
+   "expiry": null,
+   "quote": "2019$5.28 215,846 1.9 years$5.28 215,846 1.9 years$5.28"
+  },
+  {
+   "count": 60000,
+   "exercise_price_usd": 6.25,
+   "expiry": null,
+   "quote": "2023$6.25 60,000 4.2 years$6.25 60,000 4.2 years$6.25"
+  },
+  {
+   "count": 666680,
+   "exercise_price_usd": 0.38,
+   "expiry": null,
+   "quote": "2024$0.38 666,680 4.9 years"
+  },
+  {
+   "count": 266600,
+   "exercise_price_usd": 1.875,
+   "expiry": "2029-07-23",
+   "quote": "exercisable for an aggregate of 266,600 shares of Common Stock"
+  }
+ ],
+ "warrants_dropped": 0
+}

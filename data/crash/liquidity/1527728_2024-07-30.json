@@ -1,0 +1,39 @@
+{
+ "id": "1527728_2024-07-30",
+ "asof": "2024-08-02",
+ "chars": 23357,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-04-09",
+   "net_proceeds_usd": 150000,
+   "what": "Promissory note issued to Paseco ApS, 10% interest, matures 2024-06-01",
+   "quote": "On April 9, 2024, the Company issued a Promissory Note to Paseco ApS in the principal amount of $150,000."
+  },
+  {
+   "date": "2024-05-07",
+   "net_proceeds_usd": 855149,
+   "what": "Promissory notes issued to Paseco ApS between 2024-04-15 and 2024-05-07, 10% interest, mature 2024-07-01",
+   "quote": "The Company received $855,149 in proceeds."
+  },
+  {
+   "date": "2024-06-14",
+   "net_proceeds_usd": 5801012,
+   "what": "Regulation S private placement of units, cash portion paid by one investor",
+   "quote": "sold 3,939,299 Units at a price per Unit equal to $1.4726 to a certain investor who paid in cash an aggregate amount of $5,801,012 in consideration of the Units."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 642126,
+   "exercise_price_usd": 1.4726,
+   "expiry": "2029-06-14",
+   "quote": "The Warrants are exercisable for five years from the date of issuance and have an exercise price of $1.4726 per share, payable in cash."
+  }
+ ],
+ "warrants_dropped": 0
+}
