@@ -5,7 +5,7 @@
  "date": "2024-02-20",
  "asof": "2024-02-20",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2024-02-20",
   "adj_close": 54.96
@@ -38,6 +38,13 @@
     8.0
    ]
   ]
+ },
+ "burn6": {
+  "end": "2023-09-30",
+  "start": "2023-04-01",
+  "cash_used_ops": 50692000.0,
+  "capex": 299000.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0000950170-23-062471",
@@ -84,16 +91,16 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
+    "nct": "NCT05935332",
+    "drugs": [
+     "RPT193"
+    ]
+   },
+   {
     "nct": "NCT03674567",
     "drugs": [
      "FLX475 (tivumecirnon)",
      "pembrolizumab (KEYTRUDA\u00ae)"
-    ]
-   },
-   {
-    "nct": "NCT05935332",
-    "drugs": [
-     "RPT193"
     ]
    },
    {

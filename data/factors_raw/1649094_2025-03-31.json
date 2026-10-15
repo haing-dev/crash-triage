@@ -5,18 +5,17 @@
  "date": "2025-03-31",
  "asof": "2025-04-01",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2025-04-01",
   "adj_close": 32.23
  },
  "balance": {
   "end": "2024-12-31",
-  "cash": 3134718000,
+  "cash": 1747208000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue",
-   "ShortTermInvestments",
-   "LongTermInvestments"
+   "ShortTermInvestments"
   ],
   "accn": "0001649094-25-000028"
  },
@@ -34,6 +33,13 @@
   "shares": 128761622,
   "split_factor": 1.0,
   "splits_after": []
+ },
+ "burn6": {
+  "end": "2024-12-31",
+  "start": "2024-07-01",
+  "cash_used_ops": 172109000.0,
+  "capex": 8968000.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0001649094-25-000028",
@@ -283,19 +289,19 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT06720038",
-    "drugs": [
-     "0.5 mL of the low dose VAX-31",
-     "0.5 mL of the mid dose VAX-31",
-     "0.5 mL of the high dose VAX-31"
-    ]
-   },
-   {
     "nct": "NCT05844423",
     "drugs": [
      "0.5 ml dose of 1.1 mcg VAX-24",
      "0.5 ml dose of PCV20",
      "0.5 ml dose of 2.2 mcg VAX-24"
+    ]
+   },
+   {
+    "nct": "NCT06720038",
+    "drugs": [
+     "0.5 mL of the low dose VAX-31",
+     "0.5 mL of the mid dose VAX-31",
+     "0.5 mL of the high dose VAX-31"
     ]
    }
   ]

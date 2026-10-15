@@ -5,18 +5,17 @@
  "date": "2025-07-30",
  "asof": "2025-08-01",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2025-08-01",
   "adj_close": 17.65
  },
  "balance": {
   "end": "2025-03-31",
-  "cash": 72335000,
+  "cash": 50272000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue",
-   "ShortTermInvestments",
-   "MarketableSecuritiesCurrent"
+   "ShortTermInvestments"
   ],
   "accn": "0001628280-25-023740"
  },
@@ -43,6 +42,13 @@
     50.02
    ]
   ]
+ },
+ "burn6": {
+  "end": "2025-03-31",
+  "start": "2024-10-01",
+  "cash_used_ops": 20460000.0,
+  "capex": 0.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0001628280-25-023740",

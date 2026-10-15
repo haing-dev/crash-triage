@@ -5,7 +5,7 @@
  "date": "2023-10-16",
  "asof": "2023-10-16",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2023-10-16",
   "adj_close": 1.83
@@ -14,8 +14,7 @@
   "end": "2023-06-30",
   "cash": 151675561,
   "parts": [
-   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
-   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
   ],
   "accn": "0000950170-23-037934"
  },
@@ -33,6 +32,13 @@
   "shares": 58595850,
   "split_factor": 1.0,
   "splits_after": []
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 22801654.0,
+  "capex": 0.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0000950170-23-037934",

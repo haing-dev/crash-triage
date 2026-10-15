@@ -5,17 +5,16 @@
  "date": "2026-02-04",
  "asof": "2026-02-04",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2026-02-04",
   "adj_close": 44.4
  },
  "balance": {
   "end": "2025-03-31",
-  "cash": 12805312,
+  "cash": 9651606,
   "parts": [
-   "CashAndCashEquivalentsAtCarryingValue",
-   "LongTermInvestments"
+   "CashAndCashEquivalentsAtCarryingValue"
   ],
   "accn": "0001410578-25-001491"
  },
@@ -38,6 +37,13 @@
     4.95
    ]
   ]
+ },
+ "burn6": {
+  "end": "2025-03-31",
+  "start": "2024-10-01",
+  "cash_used_ops": 3056092.0,
+  "capex": 1018131.0,
+  "periods": 1
  },
  "filing": {
   "accn": "0001410578-25-001491",

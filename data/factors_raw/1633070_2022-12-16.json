@@ -5,7 +5,7 @@
  "date": "2022-12-16",
  "asof": "2022-12-20",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2022-12-20",
   "adj_close": 8.225
@@ -14,8 +14,7 @@
   "end": "2022-09-30",
   "cash": 25425000,
   "parts": [
-   "CashAndCashEquivalentsAtCarryingValue",
-   "MarketableSecuritiesCurrent"
+   "CashAndCashEquivalentsAtCarryingValue"
   ],
   "accn": "0001633070-22-000028"
  },
@@ -33,6 +32,13 @@
   "shares": 73554837,
   "split_factor": 1.0,
   "splits_after": []
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 37188000.0,
+  "capex": 243000.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0001633070-22-000028",

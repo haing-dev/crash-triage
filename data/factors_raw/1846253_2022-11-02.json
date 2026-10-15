@@ -5,7 +5,7 @@
  "date": "2022-11-02",
  "asof": "2022-11-02",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2022-11-02",
   "adj_close": 2.41
@@ -28,6 +28,13 @@
   "per_month": -132038.066
  },
  "shares": null,
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 780777.0,
+  "capex": 0.0,
+  "periods": 2
+ },
  "filing": {
   "accn": "0001104659-22-089508",
   "guided_until": null,

@@ -5,7 +5,7 @@
  "date": "2022-04-07",
  "asof": "2022-04-07",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2022-04-07",
   "adj_close": 1.19
@@ -32,6 +32,13 @@
   "shares": 67715718,
   "split_factor": 1.0,
   "splits_after": []
+ },
+ "burn6": {
+  "end": "2021-12-31",
+  "start": "2021-07-01",
+  "cash_used_ops": 37670000.0,
+  "capex": 0.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0001558370-22-004153",
@@ -64,12 +71,6 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT04147858",
-    "drugs": [
-     "NYX-2925"
-    ]
-   },
-   {
     "nct": "NCT04148391",
     "drugs": [
      "NYX-458"
@@ -79,6 +80,12 @@
     "nct": "NCT05181995",
     "drugs": [
      "NYX-783"
+    ]
+   },
+   {
+    "nct": "NCT04147858",
+    "drugs": [
+     "NYX-2925"
     ]
    }
   ]

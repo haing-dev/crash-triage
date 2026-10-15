@@ -5,7 +5,7 @@
  "date": "2024-12-12",
  "asof": "2024-12-12",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2024-12-12",
   "adj_close": 18.43
@@ -33,6 +33,13 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": 70301000.0,
+  "capex": 696000.0,
+  "periods": 2
+ },
  "filing": {
   "accn": "0001664710-24-000091",
   "guided_until": "2027-07-15",
@@ -56,17 +63,17 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT05927012",
-    "drugs": [
-     "KER-047"
-    ]
-   },
-   {
     "nct": "NCT05975905",
     "drugs": [
      "Dose A KER-012",
      "Dose B KER-012",
      "Dose C KER-012"
+    ]
+   },
+   {
+    "nct": "NCT05927012",
+    "drugs": [
+     "KER-047"
     ]
    }
   ]

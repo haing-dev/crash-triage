@@ -5,7 +5,7 @@
  "date": "2025-11-19",
  "asof": "2025-11-19",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2025-11-19",
   "adj_close": 22.34
@@ -34,6 +34,13 @@
   "shares": 58313812,
   "split_factor": 1.0,
   "splits_after": []
+ },
+ "burn6": {
+  "end": "2025-09-30",
+  "start": "2025-04-01",
+  "cash_used_ops": 165275000.0,
+  "capex": 2430000.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0001439222-25-000116",
@@ -122,13 +129,13 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT06924970",
+    "nct": "NCT05490446",
     "drugs": [
      "Tebapivat"
     ]
    },
    {
-    "nct": "NCT05490446",
+    "nct": "NCT06924970",
     "drugs": [
      "Tebapivat"
     ]

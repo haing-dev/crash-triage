@@ -5,18 +5,17 @@
  "date": "2022-09-13",
  "asof": "2022-09-16",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2022-09-16",
   "adj_close": 1.58
  },
  "balance": {
   "end": "2022-06-30",
-  "cash": 223047000,
+  "cash": 128324000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue",
    "ShortTermInvestments",
-   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
    "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
   ],
   "accn": "0001628280-22-021044"
@@ -35,6 +34,13 @@
   "shares": 43334919,
   "split_factor": 1.0,
   "splits_after": []
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 16944000.0,
+  "capex": 483000.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0001628280-22-021044",
@@ -102,14 +108,6 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT03829410",
-    "drugs": [
-     "Onvansertib",
-     "Bevacizumab",
-     "FOLFIRI"
-    ]
-   },
-   {
     "nct": "NCT03414034",
     "drugs": [
      "Onvansertib",
@@ -123,6 +121,14 @@
      "Onvansertib",
      "Nanoliposomal irinotecan",
      "Leucovorin"
+    ]
+   },
+   {
+    "nct": "NCT03829410",
+    "drugs": [
+     "Onvansertib",
+     "Bevacizumab",
+     "FOLFIRI"
     ]
    }
   ]

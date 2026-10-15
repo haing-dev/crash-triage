@@ -5,18 +5,17 @@
  "date": "2022-05-04",
  "asof": "2022-05-05",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2022-05-05",
   "adj_close": 27.0
  },
  "balance": {
   "end": "2022-03-31",
-  "cash": 389258000,
+  "cash": 362557000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue",
-   "ShortTermInvestments",
-   "LongTermInvestments"
+   "ShortTermInvestments"
   ],
   "accn": "0000950170-22-007188"
  },
@@ -43,6 +42,13 @@
     1000.0
    ]
   ]
+ },
+ "burn6": {
+  "end": "2022-03-31",
+  "start": "2021-10-01",
+  "cash_used_ops": 127087000.0,
+  "capex": 0.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0000950170-22-007188",

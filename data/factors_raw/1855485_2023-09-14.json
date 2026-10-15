@@ -5,7 +5,7 @@
  "date": "2023-09-14",
  "asof": "2023-09-14",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2023-09-14",
   "adj_close": 476.39999
@@ -28,6 +28,13 @@
   "per_month": 117137.0
  },
  "shares": null,
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": -573783.0,
+  "capex": 0.0,
+  "periods": 2
+ },
  "filing": {
   "accn": "0001193125-23-217072",
   "guided_until": null,

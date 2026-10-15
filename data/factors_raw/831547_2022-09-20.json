@@ -5,7 +5,7 @@
  "date": "2022-09-20",
  "asof": "2022-09-23",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2022-09-23",
   "adj_close": 0.4274
@@ -33,6 +33,13 @@
   "shares": 188164186,
   "split_factor": 1.0,
   "splits_after": []
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 53742000.0,
+  "capex": 45000.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0000831547-22-000056",
@@ -101,6 +108,14 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
+    "nct": "NCT04402008",
+    "drugs": [
+     "Poziotinib Once Daily Dosing",
+     "Poziotinib Twice Daily Dosing",
+     "Poziotinib Once Daily Dosing or Twice Daily Dosing as determined in Phase 1"
+    ]
+   },
+   {
     "nct": "NCT05378763",
     "drugs": [
      "Poziotinib",
@@ -108,11 +123,9 @@
     ]
    },
    {
-    "nct": "NCT04402008",
+    "nct": "NCT03318939",
     "drugs": [
-     "Poziotinib Once Daily Dosing",
-     "Poziotinib Twice Daily Dosing",
-     "Poziotinib Once Daily Dosing or Twice Daily Dosing as determined in Phase 1"
+     "Poziotinib"
     ]
    },
    {
@@ -127,12 +140,6 @@
      "carboplatin",
      "cisplatin",
      "efaproxiral"
-    ]
-   },
-   {
-    "nct": "NCT03318939",
-    "drugs": [
-     "Poziotinib"
     ]
    }
   ]

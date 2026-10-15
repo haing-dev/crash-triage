@@ -5,20 +5,18 @@
  "date": "2022-05-27",
  "asof": "2022-05-27",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2022-05-27",
   "adj_close": 7.02
  },
  "balance": {
   "end": "2022-03-31",
-  "cash": 927420000,
+  "cash": 509890000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue",
    "ShortTermInvestments",
-   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
-   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent",
-   "LongTermInvestments"
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
   ],
   "accn": "0001558370-22-007449"
  },
@@ -45,6 +43,13 @@
     1000.0
    ]
   ]
+ },
+ "burn6": {
+  "end": "2022-03-31",
+  "start": "2021-10-01",
+  "cash_used_ops": 127651000.0,
+  "capex": 19008000.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0001558370-22-007449",
@@ -126,18 +131,17 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT03645928",
-    "drugs": [
-     "Lifileucel",
-     "LN-145",
-     "Pembrolizumab"
-    ]
-   },
-   {
     "nct": "NCT04614103",
     "drugs": [
      "LN-145",
      "LN-145"
+    ]
+   },
+   {
+    "nct": "NCT03083873",
+    "drugs": [
+     "LN-145",
+     "LN-145-S1"
     ]
    },
    {
@@ -147,17 +151,18 @@
     ]
    },
    {
+    "nct": "NCT03645928",
+    "drugs": [
+     "Lifileucel",
+     "LN-145",
+     "Pembrolizumab"
+    ]
+   },
+   {
     "nct": "NCT03108495",
     "drugs": [
      "LN-145",
      "LN-145 + pembrolizumab"
-    ]
-   },
-   {
-    "nct": "NCT03083873",
-    "drugs": [
-     "LN-145",
-     "LN-145-S1"
     ]
    }
   ]

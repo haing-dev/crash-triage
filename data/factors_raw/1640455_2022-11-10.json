@@ -5,7 +5,7 @@
  "date": "2022-11-10",
  "asof": "2022-11-16",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2022-11-16",
   "adj_close": 0.9832
@@ -34,6 +34,13 @@
   "shares": 51694237,
   "split_factor": 1.0,
   "splits_after": []
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 54945000.0,
+  "capex": 589000.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0001640455-22-000103",
@@ -66,17 +73,17 @@
     ]
    },
    {
-    "nct": "NCT04549025",
-    "drugs": [
-     "Pimivalimab",
-     "Vopratelimab"
-    ]
-   },
-   {
     "nct": "NCT04669899",
     "drugs": [
      "JTX-8064",
      "pimivalimab"
+    ]
+   },
+   {
+    "nct": "NCT04549025",
+    "drugs": [
+     "Pimivalimab",
+     "Vopratelimab"
     ]
    }
   ]

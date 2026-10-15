@@ -5,7 +5,7 @@
  "date": "2023-11-07",
  "asof": "2023-11-10",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2023-11-10",
   "adj_close": 2.395
@@ -33,6 +33,13 @@
   "shares": 59048108,
   "split_factor": 1.0,
   "splits_after": []
+ },
+ "burn6": {
+  "end": "2023-09-30",
+  "start": "2023-04-01",
+  "cash_used_ops": 83946000.0,
+  "capex": 243000.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0000950170-23-062098",
@@ -205,17 +212,17 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT05688852",
-    "drugs": [
-     "VTX958",
-     "VTX958"
-    ]
-   },
-   {
     "nct": "NCT05715125",
     "drugs": [
      "Dose A VTX958",
      "Dose B VTX958"
+    ]
+   },
+   {
+    "nct": "NCT05688852",
+    "drugs": [
+     "VTX958",
+     "VTX958"
     ]
    }
   ]

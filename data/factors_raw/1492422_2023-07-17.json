@@ -5,7 +5,7 @@
  "date": "2023-07-17",
  "asof": "2023-07-18",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2023-07-18",
   "adj_close": 40.0
@@ -37,6 +37,13 @@
     0.0
    ]
   ]
+ },
+ "burn6": {
+  "end": "2023-03-31",
+  "start": "2022-10-01",
+  "cash_used_ops": 318364000.0,
+  "capex": 1110000.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0000950170-23-017819",
@@ -249,7 +256,7 @@
     ]
    },
    {
-    "nct": "NCT05067127",
+    "nct": "NCT04901936",
     "drugs": [
      "Pegcetacoplan"
     ]
@@ -261,7 +268,7 @@
     ]
    },
    {
-    "nct": "NCT04901936",
+    "nct": "NCT05067127",
     "drugs": [
      "Pegcetacoplan"
     ]

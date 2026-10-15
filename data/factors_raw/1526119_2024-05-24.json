@@ -5,7 +5,7 @@
  "date": "2024-05-24",
  "asof": "2024-05-31",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2024-05-31",
   "adj_close": 3.96
@@ -33,6 +33,13 @@
   "shares": 25325551,
   "split_factor": 1.0,
   "splits_after": []
+ },
+ "burn6": {
+  "end": "2024-03-31",
+  "start": "2023-10-01",
+  "cash_used_ops": 57988000.0,
+  "capex": 42616.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0001558370-24-007607",
@@ -178,19 +185,6 @@
     ]
    },
    {
-    "nct": "NCT04625270",
-    "drugs": [
-     "avutometinib (VS-6766)",
-     "avutometinib (VS-6766) and defactinib"
-    ]
-   },
-   {
-    "nct": "NCT05669482",
-    "drugs": [
-     "avutometinib (VS-6766) and defactinib in combination with gemcitabine and nab-paclitaxel"
-    ]
-   },
-   {
     "nct": "NCT06072781",
     "drugs": [
      "avutometinib",
@@ -202,6 +196,19 @@
     "nct": "NCT05375994",
     "drugs": [
      "avutometinib (VS-6766) and adagrasib"
+    ]
+   },
+   {
+    "nct": "NCT05669482",
+    "drugs": [
+     "avutometinib (VS-6766) and defactinib in combination with gemcitabine and nab-paclitaxel"
+    ]
+   },
+   {
+    "nct": "NCT04625270",
+    "drugs": [
+     "avutometinib (VS-6766)",
+     "avutometinib (VS-6766) and defactinib"
     ]
    }
   ]

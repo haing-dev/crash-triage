@@ -5,7 +5,7 @@
  "date": "2026-03-02",
  "asof": "2026-03-03",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2026-03-03",
   "adj_close": 9.03
@@ -32,6 +32,13 @@
   "shares": 62529408,
   "split_factor": 1.0,
   "splits_after": []
+ },
+ "burn6": {
+  "end": "2025-12-31",
+  "start": "2025-07-01",
+  "cash_used_ops": 93968000.0,
+  "capex": 53000.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0001104659-26-021898",
@@ -161,16 +168,16 @@
     ]
    },
    {
+    "nct": "NCT06063850",
+    "drugs": [
+     "AAV9-hSyn1-miGRIK2"
+    ]
+   },
+   {
     "nct": "NCT04120493",
     "drugs": [
      "intra-striatal rAAV5-miHTT",
      "Imitation (sham) surgery"
-    ]
-   },
-   {
-    "nct": "NCT06063850",
-    "drugs": [
-     "AAV9-hSyn1-miGRIK2"
     ]
    }
   ]

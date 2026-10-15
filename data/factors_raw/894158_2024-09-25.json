@@ -5,7 +5,7 @@
  "date": "2024-09-25",
  "asof": "2024-09-27",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2024-09-27",
   "adj_close": 1.49
@@ -38,6 +38,13 @@
    ]
   ]
  },
+ "burn6": {
+  "end": "2024-06-30",
+  "start": "2024-01-01",
+  "cash_used_ops": 8333000.0,
+  "capex": 1000.0,
+  "periods": 2
+ },
  "filing": {
   "accn": "0001410578-24-001342",
   "guided_until": "2025-04-15",
@@ -62,16 +69,16 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
+    "nct": "NCT04692181",
+    "drugs": []
+   },
+   {
     "nct": "NCT05673811",
     "drugs": [
      "Nab-paclitaxel",
      "Gemcitabine",
      "VCN-01"
     ]
-   },
-   {
-    "nct": "NCT04692181",
-    "drugs": []
    }
   ]
  }

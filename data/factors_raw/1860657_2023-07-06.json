@@ -5,7 +5,7 @@
  "date": "2023-07-06",
  "asof": "2023-07-11",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2023-07-11",
   "adj_close": 1980.0
@@ -54,6 +54,13 @@
    ]
   ]
  },
+ "burn6": {
+  "end": "2023-03-31",
+  "start": "2022-10-01",
+  "cash_used_ops": 5647000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
  "filing": {
   "accn": "0001213900-23-038609",
   "guided_until": null,
@@ -77,6 +84,12 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
+    "nct": "NCT03562832",
+    "drugs": [
+     "PARP inhibitor 2X-121"
+    ]
+   },
+   {
     "nct": "NCT04796324",
     "drugs": [
      "Ixabepilone Injection"
@@ -87,12 +100,6 @@
     "drugs": [
      "2X-121",
      "2X-121"
-    ]
-   },
-   {
-    "nct": "NCT03562832",
-    "drugs": [
-     "PARP inhibitor 2X-121"
     ]
    }
   ]

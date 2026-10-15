@@ -5,7 +5,7 @@
  "date": "2025-09-29",
  "asof": "2025-09-29",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2025-09-29",
   "adj_close": 6.245
@@ -29,6 +29,13 @@
   "per_month": -13868271.916666666
  },
  "shares": null,
+ "burn6": {
+  "end": "2025-06-30",
+  "start": "2025-01-01",
+  "cash_used_ops": 92670000.0,
+  "capex": 35000.0,
+  "periods": 2
+ },
  "filing": {
   "accn": "0001821586-25-000018",
   "guided_until": "2028-01-15",
@@ -102,14 +109,7 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT06641089",
-    "drugs": [
-     "Sonelokimab",
-     "Risankizumab"
-    ]
-   },
-   {
-    "nct": "NCT06768671",
+    "nct": "NCT07007637",
     "drugs": [
      "Sonelokimab"
     ]
@@ -121,7 +121,14 @@
     ]
    },
    {
-    "nct": "NCT07007637",
+    "nct": "NCT06641089",
+    "drugs": [
+     "Sonelokimab",
+     "Risankizumab"
+    ]
+   },
+   {
+    "nct": "NCT06768671",
     "drugs": [
      "Sonelokimab"
     ]

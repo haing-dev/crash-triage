@@ -5,7 +5,7 @@
  "date": "2026-09-08",
  "asof": "2026-09-10",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2026-09-10",
   "adj_close": 4.785
@@ -77,6 +77,13 @@
     35.0
    ]
   ]
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": -3492000.0,
+  "capex": 0.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0001193125-26-356570",

@@ -5,7 +5,7 @@
  "date": "2023-04-04",
  "asof": "2023-04-06",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2023-04-06",
   "adj_close": 5.504
@@ -38,6 +38,13 @@
     20.0
    ]
   ]
+ },
+ "burn6": {
+  "end": "2022-12-31",
+  "start": "2022-07-01",
+  "cash_used_ops": 20968000.0,
+  "capex": 0.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0000950170-23-007062",
@@ -127,18 +134,18 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT05431179",
-    "drugs": [
-     "Zilovertamab",
-     "Ibrutinib"
-    ]
-   },
-   {
     "nct": "NCT03088878",
     "drugs": [
      "Cirmtuzumab (2-16 kg/mg) plus Ibrutinib",
      "Cirmtuzumab (300mg) plus Ibrutinib",
      "Cirmtuzumab (600 mg) plus ibrutinib"
+    ]
+   },
+   {
+    "nct": "NCT05431179",
+    "drugs": [
+     "Zilovertamab",
+     "Ibrutinib"
     ]
    }
   ]

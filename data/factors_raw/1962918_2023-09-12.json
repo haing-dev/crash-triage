@@ -5,7 +5,7 @@
  "date": "2023-09-12",
  "asof": "2023-09-13",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2023-09-13",
   "adj_close": 10.71
@@ -33,6 +33,13 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 56949000.0,
+  "capex": 1999000.0,
+  "periods": 2
+ },
  "filing": {
   "accn": "0001962918-23-000013",
   "guided_until": null,
@@ -56,19 +63,13 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT05623345",
+    "nct": "NCT05384249",
     "drugs": [
      "Izokibep"
     ]
    },
    {
-    "nct": "NCT05683496",
-    "drugs": [
-     "lonigutamab"
-    ]
-   },
-   {
-    "nct": "NCT05384249",
+    "nct": "NCT05623345",
     "drugs": [
      "Izokibep"
     ]
@@ -77,6 +78,12 @@
     "nct": "NCT05905783",
     "drugs": [
      "Izokibep"
+    ]
+   },
+   {
+    "nct": "NCT05683496",
+    "drugs": [
+     "lonigutamab"
     ]
    }
   ]

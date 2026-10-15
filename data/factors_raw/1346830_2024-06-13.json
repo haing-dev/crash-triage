@@ -5,7 +5,7 @@
  "date": "2024-06-13",
  "asof": "2024-06-18",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2024-06-18",
   "adj_close": 8.748
@@ -45,6 +45,13 @@
     21.25
    ]
   ]
+ },
+ "burn6": {
+  "end": "2024-03-31",
+  "start": "2023-10-01",
+  "cash_used_ops": 47823000.0,
+  "capex": 2888000.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0001558370-24-007964",
@@ -91,17 +98,17 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT05671835",
-    "drugs": [
-     "TTI-101"
-    ]
-   },
-   {
     "nct": "NCT05440708",
     "drugs": [
      "TTI-101",
      "Pembrolizumab",
      "Atezolizumab"
+    ]
+   },
+   {
+    "nct": "NCT05671835",
+    "drugs": [
+     "TTI-101"
     ]
    }
   ]

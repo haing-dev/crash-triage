@@ -5,17 +5,16 @@
  "date": "2024-12-09",
  "asof": "2024-12-13",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2024-12-13",
   "adj_close": 4.28
  },
  "balance": {
   "end": "2024-09-30",
-  "cash": 334574000,
+  "cash": 334474000,
   "parts": [
-   "CashAndCashEquivalentsAtCarryingValue",
-   "LongTermInvestments"
+   "CashAndCashEquivalentsAtCarryingValue"
   ],
   "accn": "0000950170-24-123445"
  },
@@ -34,6 +33,7 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "burn6": null,
  "filing": {
   "accn": "0000950170-24-123445",
   "guided_until": "2029-01-15",

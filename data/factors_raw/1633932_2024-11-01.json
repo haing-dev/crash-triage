@@ -5,7 +5,7 @@
  "date": "2024-11-01",
  "asof": "2024-11-01",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2024-11-01",
   "adj_close": 0.443397
@@ -33,6 +33,13 @@
   "shares": 44368959,
   "split_factor": 1.0,
   "splits_after": []
+ },
+ "burn6": {
+  "end": "2024-06-30",
+  "start": "2024-01-01",
+  "cash_used_ops": 12563062.0,
+  "capex": 0.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0001558370-24-010767",

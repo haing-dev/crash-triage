@@ -5,7 +5,7 @@
  "date": "2025-11-05",
  "asof": "2025-11-05",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2025-11-05",
   "adj_close": 8.34
@@ -33,6 +33,13 @@
   "shares": 105788197,
   "split_factor": 1.0,
   "splits_after": []
+ },
+ "burn6": {
+  "end": "2025-06-30",
+  "start": "2025-01-01",
+  "cash_used_ops": 333060000.0,
+  "capex": 694000.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0001935979-25-000068",
@@ -93,21 +100,15 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT06425159",
-    "drugs": [
-     "BHV-7000"
-    ]
-   },
-   {
-    "nct": "NCT06423781",
-    "drugs": [
-     "BHV-7000"
-    ]
-   },
-   {
-    "nct": "NCT06443463",
+    "nct": "NCT06309966",
     "drugs": [
      "BHV-7000",
+     "BHV-7000"
+    ]
+   },
+   {
+    "nct": "NCT06425159",
+    "drugs": [
      "BHV-7000"
     ]
    },
@@ -120,10 +121,17 @@
     ]
    },
    {
-    "nct": "NCT06309966",
+    "nct": "NCT06443463",
     "drugs": [
      "BHV-7000",
      "BHV-7000"
+    ]
+   },
+   {
+    "nct": "NCT06976268",
+    "drugs": [
+     "BHV-8000 10mg",
+     "BHV-8000 20 mg"
     ]
    }
   ]

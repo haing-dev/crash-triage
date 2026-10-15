@@ -5,18 +5,17 @@
  "date": "2022-12-07",
  "asof": "2022-12-09",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2022-12-09",
   "adj_close": 41.75
  },
  "balance": {
   "end": "2022-09-30",
-  "cash": 1202874000,
+  "cash": 1200992000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue",
-   "MarketableSecuritiesCurrent",
-   "LongTermInvestments"
+   "MarketableSecuritiesCurrent"
   ],
   "accn": "0001628280-22-028942"
  },
@@ -34,6 +33,13 @@
   "shares": 57586881,
   "split_factor": 1.0,
   "splits_after": []
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 281301000.0,
+  "capex": 2901000.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0001628280-22-028942",
@@ -115,29 +121,6 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT04685135",
-    "drugs": [
-     "MRTX849",
-     "Docetaxel"
-    ]
-   },
-   {
-    "nct": "NCT04887870",
-    "drugs": [
-     "Sitravatinib",
-     "Nivolumab",
-     "Pembrolizumab"
-    ]
-   },
-   {
-    "nct": "NCT03785249",
-    "drugs": [
-     "MRTX849",
-     "Pembrolizumab",
-     "Cetuximab"
-    ]
-   },
-   {
     "nct": "NCT04613596",
     "drugs": [
      "Adagrasib",
@@ -151,6 +134,29 @@
      "Adagrasib oral dose of 400 mg twice daily tablets",
      "Pembrolizumab",
      "Chemotherapy: Pemetrexed"
+    ]
+   },
+   {
+    "nct": "NCT04887870",
+    "drugs": [
+     "Sitravatinib",
+     "Nivolumab",
+     "Pembrolizumab"
+    ]
+   },
+   {
+    "nct": "NCT04793958",
+    "drugs": [
+     "MRTX849",
+     "Cetuximab",
+     "mFOLFOX6 Regimen"
+    ]
+   },
+   {
+    "nct": "NCT04685135",
+    "drugs": [
+     "MRTX849",
+     "Docetaxel"
     ]
    }
   ]

@@ -5,18 +5,17 @@
  "date": "2023-12-22",
  "asof": "2023-12-27",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2023-12-27",
   "adj_close": 16.077
  },
  "balance": {
   "end": "2023-09-30",
-  "cash": 331009000,
+  "cash": 213318000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue",
-   "ShortTermInvestments",
-   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+   "ShortTermInvestments"
   ],
   "accn": "0000950170-23-058145"
  },
@@ -47,6 +46,13 @@
     3.75
    ]
   ]
+ },
+ "burn6": {
+  "end": "2023-09-30",
+  "start": "2023-04-01",
+  "cash_used_ops": 61598000.0,
+  "capex": 0.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0000950170-23-058145",

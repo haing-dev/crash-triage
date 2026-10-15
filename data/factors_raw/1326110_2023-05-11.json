@@ -5,7 +5,7 @@
  "date": "2023-05-11",
  "asof": "2023-05-12",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2023-05-12",
   "adj_close": 2.28
@@ -34,6 +34,13 @@
   "shares": 435984529,
   "split_factor": 1.0,
   "splits_after": []
+ },
+ "burn6": {
+  "end": "2023-03-31",
+  "start": "2022-10-01",
+  "cash_used_ops": 175037000.0,
+  "capex": 27359000.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0001326110-23-000064",
@@ -115,6 +122,21 @@
     ]
    },
    {
+    "nct": "NCT04390399",
+    "drugs": [
+     "N-803",
+     "Aldoxorubicin HCl",
+     "PD-L1 t-haNK"
+    ]
+   },
+   {
+    "nct": "NCT02138734",
+    "drugs": [
+     "BCG (50mg/instillation) + N-803 (400 \u03bcg/instillation)",
+     "BCG (50mg/instillation)"
+    ]
+   },
+   {
     "nct": "NCT03228667",
     "drugs": [
      "N-803 + Pembrolizumab",
@@ -128,21 +150,6 @@
      "AAHI-SC2 Vaccine",
      "AAHI-SC3 Vaccine",
      "EUA or approved vaccine"
-    ]
-   },
-   {
-    "nct": "NCT02138734",
-    "drugs": [
-     "BCG (50mg/instillation) + N-803 (400 \u03bcg/instillation)",
-     "BCG (50mg/instillation)"
-    ]
-   },
-   {
-    "nct": "NCT03520686",
-    "drugs": [
-     "NAI + Pembrolizumab",
-     "NAI + Nivolumab + Ipilimumab",
-     "NAI + Pembrolizumab + Carboplatin + Nab-paclitaxel or Paclitaxel"
     ]
    }
   ]

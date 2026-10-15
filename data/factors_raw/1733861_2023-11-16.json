@@ -5,7 +5,7 @@
  "date": "2023-11-16",
  "asof": "2023-11-16",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2023-11-16",
   "adj_close": 0.07
@@ -41,6 +41,13 @@
     0.0
    ]
   ]
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 6035.0,
+  "capex": 0.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0001185185-23-001008",

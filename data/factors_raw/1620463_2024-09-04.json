@@ -5,7 +5,7 @@
  "date": "2024-09-04",
  "asof": "2024-09-04",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2024-09-04",
   "adj_close": 6.11
@@ -38,6 +38,13 @@
     10.0
    ]
   ]
+ },
+ "burn6": {
+  "end": "2024-06-30",
+  "start": "2024-01-01",
+  "cash_used_ops": 48134000.0,
+  "capex": 33000.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0000950170-24-089304",
@@ -112,16 +119,16 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT04886063",
-    "drugs": [
-     "ATH-1017"
-    ]
-   },
-   {
     "nct": "NCT05696626",
     "drugs": [
      "Lasofoxifene in combination with abemaciclib",
      "Fulvestrant in combination with abemaciclib"
+    ]
+   },
+   {
+    "nct": "NCT04886063",
+    "drugs": [
+     "ATH-1017"
     ]
    }
   ]

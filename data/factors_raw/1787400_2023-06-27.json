@@ -5,18 +5,17 @@
  "date": "2023-06-27",
  "asof": "2023-06-30",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2023-06-30",
   "adj_close": 2.19
  },
  "balance": {
   "end": "2023-03-31",
-  "cash": 329357000,
+  "cash": 323341000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue",
-   "ShortTermInvestments",
-   "LongTermInvestments"
+   "ShortTermInvestments"
   ],
   "accn": "0000950170-23-021277"
  },
@@ -34,6 +33,13 @@
   "shares": 48934928,
   "split_factor": 1.0,
   "splits_after": []
+ },
+ "burn6": {
+  "end": "2023-03-31",
+  "start": "2022-10-01",
+  "cash_used_ops": 28089000.0,
+  "capex": 39861000.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0000950170-23-021277",

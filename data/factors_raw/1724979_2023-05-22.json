@@ -5,7 +5,7 @@
  "date": "2023-05-22",
  "asof": "2023-05-26",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2023-05-26",
   "adj_close": 1.1
@@ -33,6 +33,13 @@
   "shares": 36363178,
   "split_factor": 1.0,
   "splits_after": []
+ },
+ "burn6": {
+  "end": "2023-03-31",
+  "start": "2022-10-01",
+  "cash_used_ops": 35133000.0,
+  "capex": 0.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0001558370-23-009375",
@@ -128,13 +135,6 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT04979442",
-    "drugs": [
-     "RAIN-32",
-     "Trabectedin"
-    ]
-   },
-   {
     "nct": "NCT06090318",
     "drugs": [
      "Milademetan",
@@ -145,6 +145,13 @@
     "nct": "NCT05012397",
     "drugs": [
      "RAIN-32"
+    ]
+   },
+   {
+    "nct": "NCT04979442",
+    "drugs": [
+     "RAIN-32",
+     "Trabectedin"
     ]
    }
   ]

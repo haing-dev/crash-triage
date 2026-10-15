@@ -5,18 +5,17 @@
  "date": "2025-09-25",
  "asof": "2025-09-25",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2025-09-25",
   "adj_close": 3.0
  },
  "balance": {
   "end": "2024-12-31",
-  "cash": 2929000,
+  "cash": 2746000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue",
-   "ShortTermInvestments",
-   "MarketableSecuritiesCurrent"
+   "ShortTermInvestments"
   ],
   "accn": "0001213900-25-061202"
  },
@@ -35,6 +34,7 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "burn6": null,
  "filing": {
   "accn": "0001213900-25-061202",
   "guided_until": null,

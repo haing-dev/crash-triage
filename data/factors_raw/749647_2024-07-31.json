@@ -5,7 +5,7 @@
  "date": "2024-07-31",
  "asof": "2024-08-02",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2024-08-02",
   "adj_close": 14.73913
@@ -42,6 +42,13 @@
     11.2
    ]
   ]
+ },
+ "burn6": {
+  "end": "2024-03-31",
+  "start": "2023-10-01",
+  "cash_used_ops": 9646149.0,
+  "capex": 11755.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0001493152-24-018795",
@@ -82,11 +89,11 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT00036985",
+    "nct": "NCT05739981",
     "drugs": [
-     "cyclophosphamide",
-     "doxorubicin hydrochloride",
-     "conventional surgery"
+     "Paclitaxel",
+     "Carboplatin",
+     "Bevacizumab"
     ]
    },
    {
@@ -98,11 +105,11 @@
     ]
    },
    {
-    "nct": "NCT05739981",
+    "nct": "NCT00036985",
     "drugs": [
-     "Paclitaxel",
-     "Carboplatin",
-     "Bevacizumab"
+     "cyclophosphamide",
+     "doxorubicin hydrochloride",
+     "conventional surgery"
     ]
    },
    {

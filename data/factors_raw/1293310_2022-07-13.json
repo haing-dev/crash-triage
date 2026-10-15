@@ -5,7 +5,7 @@
  "date": "2022-07-13",
  "asof": "2022-07-18",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2022-07-18",
   "adj_close": 0.4712
@@ -32,6 +32,13 @@
   "shares": 70633705,
   "split_factor": 1.0,
   "splits_after": []
+ },
+ "burn6": {
+  "end": "2022-03-31",
+  "start": "2021-10-01",
+  "cash_used_ops": 51701000.0,
+  "capex": 0.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0001214659-22-006352",

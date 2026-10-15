@@ -5,7 +5,7 @@
  "date": "2024-03-08",
  "asof": "2024-03-08",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2024-03-08",
   "adj_close": 3.36
@@ -33,6 +33,13 @@
   "shares": 67782139,
   "split_factor": 1.0,
   "splits_after": []
+ },
+ "burn6": {
+  "end": "2023-12-31",
+  "start": "2023-07-01",
+  "cash_used_ops": -8382000.0,
+  "capex": 713000.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0000950170-24-018447",
@@ -128,13 +135,13 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT06122662",
+    "nct": "NCT05676034",
     "drugs": [
      "AMX0035"
     ]
    },
    {
-    "nct": "NCT05676034",
+    "nct": "NCT06122662",
     "drugs": [
      "AMX0035"
     ]

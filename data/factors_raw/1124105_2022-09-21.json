@@ -5,7 +5,7 @@
  "date": "2022-09-21",
  "asof": "2022-09-21",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2022-09-21",
   "adj_close": 7.5
@@ -14,8 +14,7 @@
   "end": "2022-06-30",
   "cash": 75394000,
   "parts": [
-   "CashAndCashEquivalentsAtCarryingValue",
-   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+   "CashAndCashEquivalentsAtCarryingValue"
   ],
   "accn": "0001564590-22-029487"
  },
@@ -38,6 +37,13 @@
     0.5
    ]
   ]
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 24344000.0,
+  "capex": 0.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0001564590-22-029487",

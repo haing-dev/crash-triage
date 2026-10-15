@@ -5,7 +5,7 @@
  "date": "2025-07-22",
  "asof": "2025-07-22",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2025-07-22",
   "adj_close": 2.805
@@ -33,6 +33,13 @@
   "shares": 77086750,
   "split_factor": 1.0,
   "splits_after": []
+ },
+ "burn6": {
+  "end": "2025-03-31",
+  "start": "2024-10-01",
+  "cash_used_ops": 104444000.0,
+  "capex": 3355257.362637363,
+  "periods": 2
  },
  "filing": {
   "accn": "0001737953-25-000009",
@@ -107,10 +114,17 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT03767348",
+    "nct": "NCT04349436",
     "drugs": [
-     "RP1",
-     "nivolumab"
+     "RP1, intra-tumoral injection, oncolytic virus"
+    ]
+   },
+   {
+    "nct": "NCT06581406",
+    "drugs": [
+     "RP2",
+     "Ipilimumab",
+     "Nivolumab"
     ]
    },
    {
@@ -122,24 +136,18 @@
     ]
    },
    {
-    "nct": "NCT04050436",
-    "drugs": [
-     "Cemiplimab",
-     "RP1"
-    ]
-   },
-   {
-    "nct": "NCT05733598",
+    "nct": "NCT05733611",
     "drugs": [
      "RP2",
-     "Bevacizumab",
-     "Atezolizumab"
+     "RP3",
+     "atezolizumab"
     ]
    },
    {
-    "nct": "NCT04349436",
+    "nct": "NCT03767348",
     "drugs": [
-     "RP1, intra-tumoral injection, oncolytic virus"
+     "RP1",
+     "nivolumab"
     ]
    }
   ]

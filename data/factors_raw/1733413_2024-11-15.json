@@ -5,17 +5,16 @@
  "date": "2024-11-15",
  "asof": "2024-11-18",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2024-11-18",
   "adj_close": 0.364
  },
  "balance": {
   "end": "2024-06-30",
-  "cash": 6163944,
+  "cash": 4387198,
   "parts": [
-   "CashAndCashEquivalentsAtCarryingValue",
-   "LongTermInvestments"
+   "CashAndCashEquivalentsAtCarryingValue"
   ],
   "accn": "0001213900-24-068964"
  },
@@ -33,6 +32,13 @@
   "shares": 3466041,
   "split_factor": 1.0,
   "splits_after": []
+ },
+ "burn6": {
+  "end": "2024-06-30",
+  "start": "2024-01-01",
+  "cash_used_ops": 6397747.0,
+  "capex": 0.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0001213900-24-068964",

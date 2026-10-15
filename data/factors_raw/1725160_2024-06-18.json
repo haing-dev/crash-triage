@@ -5,7 +5,7 @@
  "date": "2024-06-18",
  "asof": "2024-06-18",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2024-06-18",
   "adj_close": 4.14
@@ -32,6 +32,13 @@
   "shares": 71013233,
   "split_factor": 1.0,
   "splits_after": []
+ },
+ "burn6": {
+  "end": "2024-03-31",
+  "start": "2023-10-01",
+  "cash_used_ops": 92573000.0,
+  "capex": 213000.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0001725160-24-000107",
@@ -72,10 +79,9 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT05682170",
+    "nct": "NCT04814108",
     "drugs": [
-     "ZN-d5 ZN-c3",
-     "ZN-c3"
+     "Azenosertib"
     ]
    },
    {
@@ -85,16 +91,17 @@
     ]
    },
    {
+    "nct": "NCT05682170",
+    "drugs": [
+     "ZN-d5 ZN-c3",
+     "ZN-c3"
+    ]
+   },
+   {
     "nct": "NCT05198804",
     "drugs": [
      "Azenosertib",
      "Niraparib"
-    ]
-   },
-   {
-    "nct": "NCT04814108",
-    "drugs": [
-     "Azenosertib"
     ]
    }
   ]

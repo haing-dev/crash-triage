@@ -5,7 +5,7 @@
  "date": "2023-06-02",
  "asof": "2023-06-06",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2023-06-06",
   "adj_close": 7.02
@@ -38,6 +38,13 @@
    ]
   ]
  },
+ "burn6": {
+  "end": "2023-03-31",
+  "start": "2022-10-01",
+  "cash_used_ops": 5198594.0,
+  "capex": 0.0,
+  "periods": 2
+ },
  "filing": {
   "accn": "0001372514-23-000069",
   "guided_until": null,
@@ -62,15 +69,15 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT05629364",
-    "drugs": [
-     "KIO-101"
-    ]
-   },
-   {
     "nct": "NCT05282953",
     "drugs": [
      "KIO-301"
+    ]
+   },
+   {
+    "nct": "NCT05629364",
+    "drugs": [
+     "KIO-101"
     ]
    }
   ]

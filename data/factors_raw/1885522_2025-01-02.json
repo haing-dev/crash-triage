@@ -5,7 +5,7 @@
  "date": "2025-01-02",
  "asof": "2025-01-02",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2025-01-02",
   "adj_close": 1.97
@@ -33,6 +33,13 @@
   "shares": 161561064,
   "split_factor": 1.0,
   "splits_after": []
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": 89641000.0,
+  "capex": 0.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0000950170-24-125437",
@@ -86,25 +93,25 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT06429722",
-    "drugs": [
-     "NMRA-335140 80 mg"
-    ]
-   },
-   {
-    "nct": "NCT06058013",
-    "drugs": [
-     "NMRA-335140"
-    ]
-   },
-   {
     "nct": "NCT06029439",
     "drugs": [
      "NMRA-335140"
     ]
    },
    {
+    "nct": "NCT06429722",
+    "drugs": [
+     "NMRA-335140 80 mg"
+    ]
+   },
+   {
     "nct": "NCT06058039",
+    "drugs": [
+     "NMRA-335140"
+    ]
+   },
+   {
+    "nct": "NCT06058013",
     "drugs": [
      "NMRA-335140"
     ]

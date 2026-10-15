@@ -5,7 +5,7 @@
  "date": "2025-02-28",
  "asof": "2025-03-03",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2025-03-03",
   "adj_close": 33.55
@@ -34,6 +34,13 @@
   "shares": 20163250,
   "split_factor": 1.0,
   "splits_after": []
+ },
+ "burn6": {
+  "end": "2024-12-31",
+  "start": "2024-07-01",
+  "cash_used_ops": 83622000.0,
+  "capex": 0.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0001689548-25-000040",
@@ -64,6 +71,12 @@
     ]
    },
    {
+    "nct": "NCT06087276",
+    "drugs": [
+     "60 mg ulixacaltamide"
+    ]
+   },
+   {
     "nct": "NCT06908356",
     "drugs": [
      "30mg PRAX-628"
@@ -75,12 +88,6 @@
      "PRAX-222 - Initial Dose",
      "PRAX-222 - Initial Ascending Doses",
      "PRAX-222 - Optional Ascending Doses"
-    ]
-   },
-   {
-    "nct": "NCT06087276",
-    "drugs": [
-     "60 mg ulixacaltamide"
     ]
    },
    {

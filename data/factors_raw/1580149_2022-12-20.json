@@ -5,7 +5,7 @@
  "date": "2022-12-20",
  "asof": "2022-12-21",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2022-12-21",
   "adj_close": 594.0
@@ -42,6 +42,7 @@
    ]
   ]
  },
+ "burn6": null,
  "filing": {
   "accn": "0001520138-22-000502",
   "guided_until": null,
@@ -65,15 +66,15 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT04112199",
-    "drugs": [
-     "BIV201 continuous infusion"
-    ]
-   },
-   {
     "nct": "NCT04669028",
     "drugs": [
      "NE3107"
+    ]
+   },
+   {
+    "nct": "NCT04112199",
+    "drugs": [
+     "BIV201 continuous infusion"
     ]
    }
   ]

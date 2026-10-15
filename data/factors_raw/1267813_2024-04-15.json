@@ -5,7 +5,7 @@
  "date": "2024-04-15",
  "asof": "2024-04-16",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2024-04-16",
   "adj_close": 1.2
@@ -33,6 +33,13 @@
   "shares": 54642580,
   "split_factor": 1.0,
   "splits_after": []
+ },
+ "burn6": {
+  "end": "2023-12-31",
+  "start": "2023-07-01",
+  "cash_used_ops": 52165000.0,
+  "capex": 0.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0001558370-24-002479",
@@ -94,18 +101,6 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT05604170",
-    "drugs": [
-     "Ganaxolone"
-    ]
-   },
-   {
-    "nct": "NCT05757544",
-    "drugs": [
-     "IV Ganaxolone"
-    ]
-   },
-   {
     "nct": "NCT05814523",
     "drugs": [
      "Ganaxolone",
@@ -116,6 +111,18 @@
     "nct": "NCT05323734",
     "drugs": [
      "Ganaxolone"
+    ]
+   },
+   {
+    "nct": "NCT05604170",
+    "drugs": [
+     "Ganaxolone"
+    ]
+   },
+   {
+    "nct": "NCT05757544",
+    "drugs": [
+     "IV Ganaxolone"
     ]
    }
   ]

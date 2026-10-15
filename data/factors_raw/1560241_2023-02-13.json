@@ -5,7 +5,7 @@
  "date": "2023-02-13",
  "asof": "2023-02-13",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2023-02-13",
   "adj_close": 3.34
@@ -33,6 +33,13 @@
   "shares": 42912081,
   "split_factor": 1.0,
   "splits_after": []
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 59804000.0,
+  "capex": 339764.1176470588,
+  "periods": 2
  },
  "filing": {
   "accn": "0001628280-22-027826",
@@ -136,18 +143,17 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT04799249",
-    "drugs": [
-     "Trilaciclib",
-     "Gemcitabine",
-     "Carboplatin"
-    ]
-   },
-   {
     "nct": "NCT02983071",
     "drugs": [
      "G1T38",
      "Fulvestrant"
+    ]
+   },
+   {
+    "nct": "NCT05113966",
+    "drugs": [
+     "Trilaciclib",
+     "Sacituzumab Govitecan-hziy"
     ]
    },
    {
@@ -157,18 +163,19 @@
     ]
    },
    {
+    "nct": "NCT04799249",
+    "drugs": [
+     "Trilaciclib",
+     "Gemcitabine",
+     "Carboplatin"
+    ]
+   },
+   {
     "nct": "NCT04887831",
     "drugs": [
      "Trilaciclib",
      "Gemcitabine",
      "Cisplatin"
-    ]
-   },
-   {
-    "nct": "NCT05113966",
-    "drugs": [
-     "Trilaciclib",
-     "Sacituzumab Govitecan-hziy"
     ]
    }
   ]

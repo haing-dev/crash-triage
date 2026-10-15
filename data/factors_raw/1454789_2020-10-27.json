@@ -5,7 +5,7 @@
  "date": "2020-10-27",
  "asof": "2020-10-29",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2020-10-29",
   "adj_close": 8.34
@@ -33,6 +33,13 @@
   "shares": 19080769,
   "split_factor": 1.0,
   "splits_after": []
+ },
+ "burn6": {
+  "end": "2020-06-30",
+  "start": "2020-01-01",
+  "cash_used_ops": 14455000.0,
+  "capex": 23000.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0001104659-20-092697",

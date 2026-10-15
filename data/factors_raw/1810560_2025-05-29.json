@@ -5,7 +5,7 @@
  "date": "2025-05-29",
  "asof": "2025-05-30",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2025-05-30",
   "adj_close": 10.2
@@ -45,6 +45,13 @@
     4.0
    ]
   ]
+ },
+ "burn6": {
+  "end": "2025-03-31",
+  "start": "2024-10-01",
+  "cash_used_ops": 6542048.0,
+  "capex": 0.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0000950170-25-066897",

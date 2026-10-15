@@ -5,7 +5,7 @@
  "date": "2024-06-21",
  "asof": "2024-06-21",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2024-06-21",
   "adj_close": 117.0
@@ -32,6 +32,13 @@
   "shares": 5165194,
   "split_factor": 1.0,
   "splits_after": []
+ },
+ "burn6": {
+  "end": "2024-03-31",
+  "start": "2023-10-01",
+  "cash_used_ops": 625335.0,
+  "capex": 0.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0001213900-24-046038",

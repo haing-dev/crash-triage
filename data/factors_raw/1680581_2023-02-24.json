@@ -5,7 +5,7 @@
  "date": "2023-02-24",
  "asof": "2023-02-24",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2023-02-24",
   "adj_close": 5.66
@@ -41,6 +41,13 @@
     0.0
    ]
   ]
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 55248000.0,
+  "capex": 1601000.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0000950170-22-022913",
@@ -129,13 +136,13 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT04264442",
+    "nct": "NCT04004000",
     "drugs": [
      "Losmapimod"
     ]
    },
    {
-    "nct": "NCT04004000",
+    "nct": "NCT04264442",
     "drugs": [
      "Losmapimod"
     ]

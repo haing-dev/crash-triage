@@ -5,7 +5,7 @@
  "date": "2021-07-29",
  "asof": "2021-07-30",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2021-07-30",
   "adj_close": 34.43
@@ -32,6 +32,13 @@
   "shares": 8100570,
   "split_factor": 1.0,
   "splits_after": []
+ },
+ "burn6": {
+  "end": "2021-06-30",
+  "start": "2021-01-01",
+  "cash_used_ops": 5619431.0,
+  "capex": 0.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0001558370-21-009460",
@@ -64,13 +71,13 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT04524351",
+    "nct": "NCT02925650",
     "drugs": [
      "Posiphen"
     ]
    },
    {
-    "nct": "NCT02925650",
+    "nct": "NCT04524351",
     "drugs": [
      "Posiphen"
     ]

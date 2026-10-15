@@ -5,7 +5,7 @@
  "date": "2024-09-12",
  "asof": "2024-09-16",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2024-09-16",
   "adj_close": 1.455
@@ -34,6 +34,13 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "burn6": {
+  "end": "2024-06-30",
+  "start": "2024-01-01",
+  "cash_used_ops": 13260000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
  "filing": {
   "accn": "0000950170-24-094082",
   "guided_until": null,
@@ -58,23 +65,9 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT05588440",
-    "drugs": [
-     "ONCT-808",
-     "Bridging Therapy"
-    ]
-   },
-   {
     "nct": "NCT05917470",
     "drugs": [
      "ONCT-534"
-    ]
-   },
-   {
-    "nct": "NCT05431179",
-    "drugs": [
-     "Zilovertamab",
-     "Ibrutinib"
     ]
    },
    {
@@ -83,6 +76,20 @@
      "Cirmtuzumab (2-16 kg/mg) plus Ibrutinib",
      "Cirmtuzumab (300mg) plus Ibrutinib",
      "Cirmtuzumab (600 mg) plus ibrutinib"
+    ]
+   },
+   {
+    "nct": "NCT05588440",
+    "drugs": [
+     "ONCT-808",
+     "Bridging Therapy"
+    ]
+   },
+   {
+    "nct": "NCT05431179",
+    "drugs": [
+     "Zilovertamab",
+     "Ibrutinib"
     ]
    }
   ]

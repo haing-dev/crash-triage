@@ -5,7 +5,7 @@
  "date": "2021-03-04",
  "asof": "2021-03-04",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2021-03-04",
   "adj_close": 1435.0
@@ -41,6 +41,13 @@
     10.0
    ]
   ]
+ },
+ "burn6": {
+  "end": "2020-12-31",
+  "start": "2020-07-01",
+  "cash_used_ops": 2403168.0,
+  "capex": 0.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0001520138-21-000081",

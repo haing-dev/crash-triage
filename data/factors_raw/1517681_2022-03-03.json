@@ -5,7 +5,7 @@
  "date": "2022-03-03",
  "asof": "2022-03-09",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2022-03-09",
   "adj_close": 750.0
@@ -45,6 +45,13 @@
     25.0
    ]
   ]
+ },
+ "burn6": {
+  "end": "2021-12-31",
+  "start": "2021-07-01",
+  "cash_used_ops": 711093.0,
+  "capex": 0.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0001493152-22-004382",

@@ -5,7 +5,7 @@
  "date": "2022-06-08",
  "asof": "2022-06-10",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2022-06-10",
   "adj_close": 6.7
@@ -39,6 +39,13 @@
    ]
   ]
  },
+ "burn6": {
+  "end": "2022-03-31",
+  "start": "2021-10-01",
+  "cash_used_ops": 44723000.0,
+  "capex": 203000.0,
+  "periods": 2
+ },
  "filing": {
   "accn": "0001558370-22-006809",
   "guided_until": null,
@@ -70,15 +77,15 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT04629703",
-    "drugs": [
-     "Fostamatinib"
-    ]
-   },
-   {
     "nct": "NCT04138927",
     "drugs": [
      "Fostamatinib disodium"
+    ]
+   },
+   {
+    "nct": "NCT04629703",
+    "drugs": [
+     "Fostamatinib"
     ]
    }
   ]

@@ -5,18 +5,17 @@
  "date": "2021-01-08",
  "asof": "2021-01-08",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2021-01-08",
   "adj_close": 82.29
  },
  "balance": {
   "end": "2020-09-30",
-  "cash": 2157571000,
+  "cash": 1816104000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue",
-   "ShortTermInvestments",
-   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+   "ShortTermInvestments"
   ],
   "accn": "0001564590-20-051308"
  },
@@ -51,6 +50,13 @@
     0.0
    ]
   ]
+ },
+ "burn6": {
+  "end": "2020-09-30",
+  "start": "2020-04-01",
+  "cash_used_ops": 345789000.0,
+  "capex": 44472000.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0001564590-20-051308",
@@ -90,9 +96,15 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT03375164",
+    "nct": "NCT00248066",
     "drugs": [
-     "delandistrogene moxeparvovec"
+     "RESTEN-MP"
+    ]
+   },
+   {
+    "nct": "NCT03652259",
+    "drugs": [
+     "SRP-9003"
     ]
    },
    {
@@ -110,15 +122,9 @@
     ]
    },
    {
-    "nct": "NCT00248066",
+    "nct": "NCT04004065",
     "drugs": [
-     "RESTEN-MP"
-    ]
-   },
-   {
-    "nct": "NCT03218995",
-    "drugs": [
-     "Eteplirsen"
+     "Vesleteplirsen"
     ]
    }
   ]

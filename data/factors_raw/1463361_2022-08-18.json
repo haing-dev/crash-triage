@@ -5,7 +5,7 @@
  "date": "2022-08-18",
  "asof": "2022-08-23",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2022-08-23",
   "adj_close": 5.682
@@ -15,8 +15,7 @@
   "cash": 64507000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue",
-   "MarketableSecuritiesCurrent",
-   "MarketableSecuritiesNoncurrent"
+   "MarketableSecuritiesCurrent"
   ],
   "accn": "0001564590-22-029209"
  },
@@ -39,6 +38,13 @@
     10.0
    ]
   ]
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 29807000.0,
+  "capex": 11000.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0001564590-22-029209",
@@ -107,17 +113,17 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT04857996",
-    "drugs": [
-     "UBX1325",
-     "Sham"
-    ]
-   },
-   {
     "nct": "NCT05275205",
     "drugs": [
      "UBX1325 injection 50 \u03bcL",
      "EYLEA\u00ae (aflibercept) Injection 2 mg (0.05mL)"
+    ]
+   },
+   {
+    "nct": "NCT04857996",
+    "drugs": [
+     "UBX1325",
+     "Sham"
     ]
    }
   ]

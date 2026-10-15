@@ -5,17 +5,16 @@
  "date": "2021-10-28",
  "asof": "2021-10-28",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2021-10-28",
   "adj_close": 7.9783
  },
  "balance": {
   "end": "2021-07-31",
-  "cash": 91995000,
+  "cash": 12854000,
   "parts": [
-   "CashAndCashEquivalentsAtCarryingValue",
-   "LongTermInvestments"
+   "CashAndCashEquivalentsAtCarryingValue"
   ],
   "accn": "0001213900-21-053306"
  },
@@ -33,6 +32,13 @@
   "shares": 100,
   "split_factor": 1.0,
   "splits_after": []
+ },
+ "burn6": {
+  "end": "2021-07-31",
+  "start": "2021-02-01",
+  "cash_used_ops": 10074000.0,
+  "capex": 1000.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0001213900-21-053306",
@@ -71,15 +77,15 @@
     ]
    },
    {
-    "nct": "NCT04924491",
-    "drugs": [
-     "Autologous thyTreg"
-    ]
-   },
-   {
     "nct": "NCT02574585",
     "drugs": [
      "Autologous mesenchymal cells transplantation"
+    ]
+   },
+   {
+    "nct": "NCT04924491",
+    "drugs": [
+     "Autologous thyTreg"
     ]
    }
   ]

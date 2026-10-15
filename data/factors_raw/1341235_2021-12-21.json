@@ -5,7 +5,7 @@
  "date": "2021-12-21",
  "asof": "2021-12-21",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2021-12-21",
   "adj_close": 3.5
@@ -32,6 +32,13 @@
   "shares": 58092105,
   "split_factor": 1.0,
   "splits_after": []
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 17506467.0,
+  "capex": 0.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0000950170-21-002456",
@@ -63,10 +70,16 @@
     ]
    },
    {
-    "nct": "NCT04136366",
+    "nct": "NCT05062330",
     "drugs": [
-     "ADX-2191 (intravitreal methotrexate 0.8%)",
-     "Standard surgical care procedure"
+     "Reproxalap Ophthalmic Solution (0.25%)",
+     "Vehicle Ophthalmic Solution"
+    ]
+   },
+   {
+    "nct": "NCT05487404",
+    "drugs": [
+     "ADX-629"
     ]
    },
    {
@@ -77,12 +90,6 @@
    },
    {
     "nct": "NCT04908514",
-    "drugs": [
-     "ADX-629"
-    ]
-   },
-   {
-    "nct": "NCT05487404",
     "drugs": [
      "ADX-629"
     ]

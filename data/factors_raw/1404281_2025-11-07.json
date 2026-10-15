@@ -5,7 +5,7 @@
  "date": "2025-11-07",
  "asof": "2025-11-07",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2025-11-07",
   "adj_close": 2.06
@@ -34,6 +34,13 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "burn6": {
+  "end": "2025-06-30",
+  "start": "2025-01-01",
+  "cash_used_ops": 33773000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
  "filing": {
   "accn": "0001193125-25-180906",
   "guided_until": null,
@@ -57,16 +64,16 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
+    "nct": "NCT05027906",
+    "drugs": [
+     "AT-1501"
+    ]
+   },
+   {
     "nct": "NCT06126380",
     "drugs": [
      "AT-1501",
      "Tacrolimus"
-    ]
-   },
-   {
-    "nct": "NCT05027906",
-    "drugs": [
-     "AT-1501"
     ]
    }
   ]

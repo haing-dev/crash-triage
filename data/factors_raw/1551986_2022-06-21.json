@@ -5,7 +5,7 @@
  "date": "2022-06-21",
  "asof": "2022-06-21",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2022-06-21",
   "adj_close": 5.8
@@ -37,6 +37,13 @@
     20.0
    ]
   ]
+ },
+ "burn6": {
+  "end": "2022-03-31",
+  "start": "2021-10-01",
+  "cash_used_ops": 17718998.0,
+  "capex": 5470.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0001551986-22-000044",
@@ -98,17 +105,17 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
+    "nct": "NCT03569007",
+    "drugs": [
+     "Larazotide"
+    ]
+   },
+   {
     "nct": "NCT04988997",
     "drugs": [
      "Vurolenatide 50mg/PBO",
      "Vurolenatide 100mg/PBO",
      "Vurolenatide 50/50 mg"
-    ]
-   },
-   {
-    "nct": "NCT03569007",
-    "drugs": [
-     "Larazotide"
     ]
    }
   ]

@@ -5,7 +5,7 @@
  "date": "2020-12-28",
  "asof": "2020-12-29",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2020-12-29",
   "adj_close": 5.05
@@ -38,6 +38,13 @@
    ]
   ]
  },
+ "burn6": {
+  "end": "2020-09-30",
+  "start": "2020-04-01",
+  "cash_used_ops": 21061845.0,
+  "capex": -2746.0,
+  "periods": 2
+ },
  "filing": {
   "accn": "0001558370-20-013179",
   "guided_until": "2023-01-15",
@@ -69,15 +76,15 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT04383938",
-    "drugs": [
-     "APR-246 (eprenetapopt) + Pembrolizumab"
-    ]
-   },
-   {
     "nct": "NCT03931291",
     "drugs": [
      "APR-246"
+    ]
+   },
+   {
+    "nct": "NCT04383938",
+    "drugs": [
+     "APR-246 (eprenetapopt) + Pembrolizumab"
     ]
    }
   ]

@@ -5,7 +5,7 @@
  "date": "2026-04-28",
  "asof": "2026-04-29",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2026-04-29",
   "adj_close": 0.34
@@ -32,6 +32,13 @@
   "shares": 10306079,
   "split_factor": 1.0,
   "splits_after": []
+ },
+ "burn6": {
+  "end": "2025-12-31",
+  "start": "2025-07-01",
+  "cash_used_ops": 5677718.0,
+  "capex": 2570.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0001104659-26-037701",

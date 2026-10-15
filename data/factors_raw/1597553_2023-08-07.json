@@ -5,18 +5,17 @@
  "date": "2023-08-07",
  "asof": "2023-08-07",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2023-08-07",
   "adj_close": 16.75
  },
  "balance": {
   "end": "2023-06-30",
-  "cash": 1883816000,
+  "cash": 1002616000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue",
-   "MarketableSecuritiesCurrent",
-   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+   "MarketableSecuritiesCurrent"
   ],
   "accn": "0000950170-23-038739"
  },
@@ -34,6 +33,13 @@
   "shares": 59883943,
   "split_factor": 1.0,
   "splits_after": []
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 285200000.0,
+  "capex": 337000.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0000950170-23-038739",
@@ -73,13 +79,13 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT05173012",
+    "nct": "NCT05366751",
     "drugs": [
      "SAGE-324"
     ]
    },
    {
-    "nct": "NCT05366751",
+    "nct": "NCT05173012",
     "drugs": [
      "SAGE-324"
     ]

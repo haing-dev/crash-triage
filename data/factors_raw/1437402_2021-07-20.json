@@ -5,7 +5,7 @@
  "date": "2021-07-20",
  "asof": "2021-07-20",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2021-07-20",
   "adj_close": 2.01
@@ -15,8 +15,7 @@
   "cash": 178212000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue",
-   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
-   "LongTermInvestments"
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
   ],
   "accn": "0001628280-21-009180"
  },
@@ -34,6 +33,13 @@
   "shares": 98709188,
   "split_factor": 1.0,
   "splits_after": []
+ },
+ "burn6": {
+  "end": "2021-03-31",
+  "start": "2020-10-01",
+  "cash_used_ops": 61807000.0,
+  "capex": 1028000.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0001628280-21-009180",

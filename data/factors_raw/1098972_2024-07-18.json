@@ -5,7 +5,7 @@
  "date": "2024-07-18",
  "asof": "2024-07-19",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2024-07-19",
   "adj_close": 5.99
@@ -33,6 +33,13 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "burn6": {
+  "end": "2024-03-31",
+  "start": "2023-10-01",
+  "cash_used_ops": 78593000.0,
+  "capex": 258000.0,
+  "periods": 2
+ },
  "filing": {
   "accn": "0000950170-24-053951",
   "guided_until": null,
@@ -56,11 +63,24 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT05630183",
+    "nct": "NCT05529316",
     "drugs": [
      "Botensilimab",
-     "Gemcitabine",
-     "Nab-paclitaxel"
+     "Balstilimab"
+    ]
+   },
+   {
+    "nct": "NCT03894215",
+    "drugs": [
+     "AGEN2034",
+     "AGEN1884"
+    ]
+   },
+   {
+    "nct": "NCT05033132",
+    "drugs": [
+     "Balstilimab",
+     "Balstilimab + Zalifrelimab"
     ]
    },
    {
@@ -72,24 +92,11 @@
     ]
    },
    {
-    "nct": "NCT03894215",
-    "drugs": [
-     "AGEN2034",
-     "AGEN1884"
-    ]
-   },
-   {
-    "nct": "NCT05529316",
+    "nct": "NCT05630183",
     "drugs": [
      "Botensilimab",
-     "Balstilimab"
-    ]
-   },
-   {
-    "nct": "NCT05033132",
-    "drugs": [
-     "Balstilimab",
-     "Balstilimab + Zalifrelimab"
+     "Gemcitabine",
+     "Nab-paclitaxel"
     ]
    }
   ]

@@ -5,7 +5,7 @@
  "date": "2021-12-13",
  "asof": "2021-12-14",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2021-12-14",
   "adj_close": 57.0
@@ -38,6 +38,13 @@
    ]
   ]
  },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 33408000.0,
+  "capex": 106000.0,
+  "periods": 2
+ },
  "filing": {
   "accn": "0001628280-21-021795",
   "guided_until": "2022-10-15",
@@ -62,6 +69,12 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
+    "nct": "NCT04154488",
+    "drugs": [
+     "Mavorixafor"
+    ]
+   },
+   {
     "nct": "NCT03005327",
     "drugs": [
      "X4P-001"
@@ -69,12 +82,6 @@
    },
    {
     "nct": "NCT03995108",
-    "drugs": [
-     "Mavorixafor"
-    ]
-   },
-   {
-    "nct": "NCT04154488",
     "drugs": [
      "Mavorixafor"
     ]

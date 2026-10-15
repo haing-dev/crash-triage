@@ -5,7 +5,7 @@
  "date": "2024-09-03",
  "asof": "2024-09-03",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2024-09-03",
   "adj_close": 159.5
@@ -42,6 +42,13 @@
    ]
   ]
  },
+ "burn6": {
+  "end": "2024-06-30",
+  "start": "2024-01-01",
+  "cash_used_ops": 5273000.0,
+  "capex": 12000.0,
+  "periods": 2
+ },
  "filing": {
   "accn": "0001437749-24-027232",
   "guided_until": null,
@@ -66,13 +73,13 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT04325035",
+    "nct": "NCT05975021",
     "drugs": [
      "Istaroxime"
     ]
    },
    {
-    "nct": "NCT05975021",
+    "nct": "NCT04325035",
     "drugs": [
      "Istaroxime"
     ]

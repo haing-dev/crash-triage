@@ -5,7 +5,7 @@
  "date": "2022-09-26",
  "asof": "2022-09-27",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2022-09-27",
   "adj_close": 0.7289
@@ -33,6 +33,13 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 16305000.0,
+  "capex": 33000.0,
+  "periods": 2
+ },
  "filing": {
   "accn": "0001493152-22-023089",
   "guided_until": null,
@@ -57,9 +64,9 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT03669614",
+    "nct": "NCT03816956",
     "drugs": [
-     "Inhaled AR-501"
+     "AR-301"
     ]
    },
    {
@@ -69,9 +76,9 @@
     ]
    },
    {
-    "nct": "NCT03816956",
+    "nct": "NCT03669614",
     "drugs": [
-     "AR-301"
+     "Inhaled AR-501"
     ]
    }
   ]

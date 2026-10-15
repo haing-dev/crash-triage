@@ -5,7 +5,7 @@
  "date": "2024-05-10",
  "asof": "2024-05-10",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2024-05-10",
   "adj_close": 3.31
@@ -32,6 +32,13 @@
   "shares": 62633460,
   "split_factor": 1.0,
   "splits_after": []
+ },
+ "burn6": {
+  "end": "2024-03-31",
+  "start": "2023-10-01",
+  "cash_used_ops": 73680000.0,
+  "capex": 2079000.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0001125345-24-000088",
@@ -134,19 +141,19 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT05551117",
-    "drugs": [
-     "vobramitamab duocarmazine 2.0 mg (Arm A)",
-     "vobramitamab duocarmazine 2.7 mg (Arm B)",
-     "vobramitamab duocarmazine"
-    ]
-   },
-   {
     "nct": "NCT05848011",
     "drugs": [
      "lorigerlimab",
      "docetaxel",
      "Prednisone"
+    ]
+   },
+   {
+    "nct": "NCT05551117",
+    "drugs": [
+     "vobramitamab duocarmazine 2.0 mg (Arm A)",
+     "vobramitamab duocarmazine 2.7 mg (Arm B)",
+     "vobramitamab duocarmazine"
     ]
    }
   ]

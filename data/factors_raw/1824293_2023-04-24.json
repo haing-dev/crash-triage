@@ -5,7 +5,7 @@
  "date": "2023-04-24",
  "asof": "2023-04-26",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2023-04-26",
   "adj_close": 257730.20312
@@ -14,8 +14,7 @@
   "end": "2022-12-31",
   "cash": 3781000,
   "parts": [
-   "CashAndCashEquivalentsAtCarryingValue",
-   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+   "CashAndCashEquivalentsAtCarryingValue"
   ],
   "accn": "0001824293-23-000016"
  },
@@ -78,6 +77,13 @@
     27.99
    ]
   ]
+ },
+ "burn6": {
+  "end": "2022-12-31",
+  "start": "2022-07-01",
+  "cash_used_ops": 3223000.0,
+  "capex": 0.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0001824293-23-000016",

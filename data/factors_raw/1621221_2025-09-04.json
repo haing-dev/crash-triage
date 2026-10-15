@@ -5,7 +5,7 @@
  "date": "2025-09-04",
  "asof": "2025-09-04",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2025-09-04",
   "adj_close": 13.05
@@ -14,8 +14,7 @@
   "end": "2025-06-30",
   "cash": 2066000,
   "parts": [
-   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
-   "MarketableSecuritiesCurrent"
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
   ],
   "accn": "0001640334-25-001429"
  },
@@ -33,6 +32,13 @@
   "shares": 1321552,
   "split_factor": 1.0,
   "splits_after": []
+ },
+ "burn6": {
+  "end": "2025-06-30",
+  "start": "2025-01-01",
+  "cash_used_ops": 2111000.0,
+  "capex": 0.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0001640334-25-001429",

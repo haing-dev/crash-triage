@@ -5,7 +5,7 @@
  "date": "2024-07-29",
  "asof": "2024-08-02",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2024-08-02",
   "adj_close": 0.72899997
@@ -33,6 +33,13 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "burn6": {
+  "end": "2024-03-31",
+  "start": "2023-10-01",
+  "cash_used_ops": 12700000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
  "filing": {
   "accn": "0001558370-24-006911",
   "guided_until": "2025-06-15",
@@ -56,15 +63,15 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT05531656",
-    "drugs": [
-     "CT1812"
-    ]
-   },
-   {
     "nct": "NCT05893537",
     "drugs": [
      "Active Comparator CT1812"
+    ]
+   },
+   {
+    "nct": "NCT05531656",
+    "drugs": [
+     "CT1812"
     ]
    },
    {

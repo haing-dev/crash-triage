@@ -5,7 +5,7 @@
  "date": "2022-10-17",
  "asof": "2022-10-17",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2022-10-17",
   "adj_close": 3.41
@@ -33,6 +33,13 @@
   "shares": 80365889,
   "split_factor": 1.0,
   "splits_after": []
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 85889000.0,
+  "capex": 0.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0001628280-22-021104",
@@ -212,14 +219,6 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT04068896",
-    "drugs": [
-     "NGM120 30mg",
-     "NGM120 100mg",
-     "NGM120 30mg with Gemcitabine and Abraxane"
-    ]
-   },
-   {
     "nct": "NCT04210245",
     "drugs": [
      "aldafermin"
@@ -231,6 +230,14 @@
      "NGM707",
      "NGM707 plus pembrolizumab (KEYTRUDA\u00ae)",
      "NGM707 plus pembrolizumab (KEYTRUDA\u00ae)"
+    ]
+   },
+   {
+    "nct": "NCT04068896",
+    "drugs": [
+     "NGM120 30mg",
+     "NGM120 100mg",
+     "NGM120 30mg with Gemcitabine and Abraxane"
     ]
    }
   ]

@@ -5,7 +5,7 @@
  "date": "2022-03-14",
  "asof": "2022-03-14",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2022-03-14",
   "adj_close": 62.4
@@ -39,6 +39,13 @@
     15.0
    ]
   ]
+ },
+ "burn6": {
+  "end": "2021-12-31",
+  "start": "2021-07-01",
+  "cash_used_ops": 252674000.0,
+  "capex": 8832000.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0000906709-22-000005",
@@ -106,7 +113,7 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT04433585",
+    "nct": "NCT04677179",
     "drugs": [
      "LY3471851"
     ]
@@ -135,10 +142,11 @@
     ]
    },
    {
-    "nct": "NCT04969861",
+    "nct": "NCT02983045",
     "drugs": [
-     "Bempegaldesleukin",
-     "Pembrolizumab"
+     "Dose Escalation Doublet: Combination of NKTR-214 + nivolumab",
+     "Dose Expansion Doublet: Combination of NKTR-214 + nivolumab",
+     "Schedule Finding Triplet: Combination of NKTR-214+ nivolumab+ ipilimumab"
     ]
    }
   ]

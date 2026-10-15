@@ -5,18 +5,17 @@
  "date": "2022-06-22",
  "asof": "2022-06-24",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2022-06-24",
   "adj_close": 27.4
  },
  "balance": {
   "end": "2022-03-31",
-  "cash": 301170000,
+  "cash": 263526000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue",
-   "ShortTermInvestments",
-   "LongTermInvestments"
+   "ShortTermInvestments"
   ],
   "accn": "0000950170-22-009683"
  },
@@ -39,6 +38,13 @@
     10.0
    ]
   ]
+ },
+ "burn6": {
+  "end": "2022-03-31",
+  "start": "2021-10-01",
+  "cash_used_ops": 34749000.0,
+  "capex": 1772000.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0000950170-22-009683",
@@ -127,6 +133,12 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
+    "nct": "NCT04831281",
+    "drugs": [
+     "ATH-1017"
+    ]
+   },
+   {
     "nct": "NCT04886063",
     "drugs": [
      "ATH-1017"
@@ -134,12 +146,6 @@
    },
    {
     "nct": "NCT04488419",
-    "drugs": [
-     "ATH-1017"
-    ]
-   },
-   {
-    "nct": "NCT04831281",
     "drugs": [
      "ATH-1017"
     ]

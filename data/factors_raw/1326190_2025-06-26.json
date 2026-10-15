@@ -5,7 +5,7 @@
  "date": "2025-06-26",
  "asof": "2025-06-27",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2025-06-27",
   "adj_close": 3.5
@@ -34,6 +34,13 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "burn6": {
+  "end": "2025-03-31",
+  "start": "2024-10-01",
+  "cash_used_ops": 35105000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
  "filing": {
   "accn": "0001326190-25-000034",
   "guided_until": null,
@@ -57,13 +64,13 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT06987513",
+    "nct": "NCT07009860",
     "drugs": [
      "Pemvidutide"
     ]
    },
    {
-    "nct": "NCT07009860",
+    "nct": "NCT06987513",
     "drugs": [
      "Pemvidutide"
     ]

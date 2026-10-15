@@ -5,7 +5,7 @@
  "date": "2023-04-25",
  "asof": "2023-04-26",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2023-04-26",
   "adj_close": 15.8
@@ -14,8 +14,7 @@
   "end": "2022-12-31",
   "cash": 17433000,
   "parts": [
-   "CashAndCashEquivalentsAtCarryingValue",
-   "ShortTermInvestments"
+   "CashAndCashEquivalentsAtCarryingValue"
   ],
   "accn": "0001564590-23-003313"
  },
@@ -38,6 +37,13 @@
     18.84
    ]
   ]
+ },
+ "burn6": {
+  "end": "2022-12-31",
+  "start": "2022-07-01",
+  "cash_used_ops": 11480000.0,
+  "capex": 11000.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0001564590-23-003313",
@@ -99,18 +105,18 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT04480502",
-    "drugs": [
-     "Envafolimab",
-     "Ipilimumab"
-    ]
-   },
-   {
     "nct": "NCT05448820",
     "drugs": [
      "YH001",
      "Envafolimab",
      "Doxorubicin"
+    ]
+   },
+   {
+    "nct": "NCT04480502",
+    "drugs": [
+     "Envafolimab",
+     "Ipilimumab"
     ]
    }
   ]

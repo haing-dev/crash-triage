@@ -5,7 +5,7 @@
  "date": "2023-11-08",
  "asof": "2023-11-08",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2023-11-08",
   "adj_close": 0.527
@@ -33,6 +33,13 @@
   "shares": 27600079,
   "split_factor": 1.0,
   "splits_after": []
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 18606000.0,
+  "capex": 39000.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0000950170-23-041356",

@@ -5,7 +5,7 @@
  "date": "2023-06-29",
  "asof": "2023-06-29",
  "final": true,
- "version": 3,
+ "version": 4,
  "price": {
   "date": "2023-06-29",
   "adj_close": 102.24
@@ -37,6 +37,13 @@
     16.0
    ]
   ]
+ },
+ "burn6": {
+  "end": "2023-03-31",
+  "start": "2022-10-01",
+  "cash_used_ops": 90992000.0,
+  "capex": 0.0,
+  "periods": 2
  },
  "filing": {
   "accn": "0001558370-23-008597",
@@ -125,6 +132,12 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
+    "nct": "NCT05665088",
+    "drugs": [
+     "BXCL501"
+    ]
+   },
+   {
     "nct": "NCT03910660",
     "drugs": [
      "BXCL701 plus Pembrolizumab",
@@ -133,12 +146,6 @@
    },
    {
     "nct": "NCT05658510",
-    "drugs": [
-     "BXCL501"
-    ]
-   },
-   {
-    "nct": "NCT05665088",
     "drugs": [
      "BXCL501"
     ]
