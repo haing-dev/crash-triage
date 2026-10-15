@@ -1,0 +1,44 @@
+{
+ "cik": "1840439",
+ "name": "Biomea Fusion, Inc.",
+ "ticker": "BMEA",
+ "date": "2024-06-07",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-06-07",
+  "accession": "0001193125-24-157310",
+  "doc": "d94044dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1840439/000119312524157310/d94044dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "safety",
+  "summary": "FDA full clinical hold over possible liver toxicity \u00b7 Phase 1/2 \u00b7 BMF-219 in type 2 and type 1 diabetes \u00b7 not yet approved",
+  "phase": "Phase 1/2",
+  "drug": "BMF-219",
+  "indication": "type 2 and type 1 diabetes",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": 0,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": true,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "a full clinical hold has been placed on Biomea's ongoing Phase I/II clinical trials of the Company's investigational covalent menin inhibitor BMF-219 in type 2 and type 1 diabetes",
+   "primary_endpoint_met": null,
+   "safety": "The FDA cited deficiencies based on the level of possible drug-induced hepatotoxicity observed in the completed Dose Escalation Phase of COVALENT-111.",
+   "program_discontinued": "we remain committed to advancing BMF-219 with its potentially transformative profile"
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

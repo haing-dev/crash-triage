@@ -1,0 +1,44 @@
+{
+ "cik": "1837607",
+ "name": "AEON Biopharma, Inc.",
+ "ticker": "AEON",
+ "date": "2024-08-01",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-08-05",
+  "accession": "0001104659-24-085845",
+  "doc": "tm2415597-7_424b3.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1837607/000110465924085845/tm2415597-7_424b3.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Large resale registration and going-concern doubt after failed migraine trials \u00b7 Phase 2 \u00b7 ABP-450 in migraine \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "ABP-450 (prabotulinumtoxinA)",
+  "indication": "episodic and chronic migraine",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "The sale of securities being offered in this prospectus could result in adverse effects on the market for our Common Stock",
+   "primary_endpoint_met": "However, our Phase 2 clinical trials for episodic and chronic migraine did not meet their respective primary endpoints.",
+   "safety": null,
+   "program_discontinued": "In May 2024, we announced the discontinuation of our Phase 2 clinical trials for episodic and chronic migraine in order to implement certain cash preservation measures."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": false,
+   "program_discontinued": true
+  }
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "cik": "1907223",
+ "name": "Greenland Mines Ltd",
+ "ticker": "GRML",
+ "date": "2024-06-21",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-06-20",
+  "accession": "0001213900-24-054153",
+  "doc": "ea020815801ex99-1_redwoods.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1907223/000121390024054153/ea020815801ex99-1_redwoods.htm"
+ },
+ "facts": {
+  "related": false,
+  "trigger": "other",
+  "summary": "Audited financials of target company with going-concern doubt filed \u00b7 n/a \u00b7 n/a \u00b7 n/a",
+  "phase": "n/a",
+  "drug": "n/a",
+  "indication": "n/a",
+  "market_stage": "n/a",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "The Company has suffered recurring losses since inception and has not achieved profitable operations, which raises substantial doubt about its ability to continue as a going concern.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

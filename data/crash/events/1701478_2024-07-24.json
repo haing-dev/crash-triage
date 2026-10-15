@@ -1,0 +1,44 @@
+{
+ "cik": "1701478",
+ "name": "Azitra, Inc.",
+ "ticker": "AZTR",
+ "date": "2024-07-24",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-07-25",
+  "accession": "0001493152-24-029005",
+  "doc": "form424b5.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1701478/000149315224029005/form424b5.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Dilutive $10M best-efforts unit offering with two warrants per share at $1.50 \u00b7 Phase 1b \u00b7 ATR-12 in Netherton syndrome \u00b7 not yet approved",
+  "phase": "Phase 1",
+  "drug": "ATR-12",
+  "indication": "Netherton syndrome",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "We are offering on a best efforts basis 6,665,000 units (\u201cUnits\u201d), each Unit consisting of one share of our common stock, par value $0.0001 per share (the \u201ccommon stock\u201d) and two Class A Warrants",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

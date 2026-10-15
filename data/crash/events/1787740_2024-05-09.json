@@ -1,0 +1,44 @@
+{
+ "cik": "1787740",
+ "name": "Valion Bio, Inc.",
+ "ticker": "VBIO",
+ "date": "2024-05-09",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-05-08",
+  "accession": "0000950170-24-055115",
+  "doc": "tivc-ex99_1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1787740/000095017024055115/tivc-ex99_1.htm"
+ },
+ "facts": {
+  "related": false,
+  "trigger": "other",
+  "summary": "Positive pilot ncVNS study results announced by a different company, Tivic Health \u00b7 n/a \u00b7 ncVNS in healthy subjects \u00b7 n/a",
+  "phase": "n/a",
+  "drug": "n/a",
+  "indication": "n/a",
+  "market_stage": "n/a",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": 20,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "Tivic Health has confirmed the effectiveness of its patent-pending non-invasive cervical vagus nerve stimulation (ncVNS) approach",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

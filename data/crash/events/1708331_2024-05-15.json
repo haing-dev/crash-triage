@@ -1,0 +1,44 @@
+{
+ "cik": "1708331",
+ "name": "Virpax Pharmaceuticals, Inc.",
+ "ticker": "VRPX",
+ "date": "2024-05-15",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-05-16",
+  "accession": "0001213900-24-044286",
+  "doc": "ea0206194-424b4_virpax.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1708331/000121390024044286/ea0206194-424b4_virpax.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Dilutive discounted public offering of stock and warrants at $1.35 vs $2.29 prior close \u00b7 preclinical \u00b7 pain/CNS pipeline \u00b7 not yet approved",
+  "phase": "Preclinical",
+  "drug": "n/a",
+  "indication": "pain and CNS disorders",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "The last reported sale price of our Common Stock on Nasdaq on May 14, 2024 was $2.29 per share. The public offering price per share of Common Stock and accompanying Common Warrants is $1.35.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

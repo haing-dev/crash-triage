@@ -1,0 +1,44 @@
+{
+ "cik": "1764974",
+ "name": "Turnstone Biologics Corp.",
+ "ticker": "TSBX",
+ "date": "2024-08-15",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-08-14",
+  "accession": "0000950170-24-097051",
+  "doc": "tsbx-ex99_1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1764974/000095017024097051/tsbx-ex99_1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Small interim data (1 CR in 4 patients), two indications deprioritized \u00b7 Phase 1 \u00b7 TIDAL-01 in metastatic colorectal cancer \u00b7 not yet approved",
+  "phase": "Phase 1",
+  "drug": "TIDAL-01",
+  "indication": "microsatellite stable metastatic colorectal cancer",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": 4,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "The data demonstrated a 25% overall response rate (\u201cORR\u201d) with durable clinical benefit and 50% disease control rate (\u201cDCR\u201d)",
+   "primary_endpoint_met": null,
+   "safety": "There were also no new safety observations in the Phase I trial specific to TIDAL-01",
+   "program_discontinued": "Turnstone is continuing to enroll multiple Phase 1 trials of TIDAL-01"
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "cik": "1746466",
+ "name": "Equillium, Inc.",
+ "ticker": "EQ",
+ "date": "2024-06-04",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-06-04",
+  "accession": "0001193125-24-153667",
+  "doc": "d842173dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1746466/000119312524153667/d842173dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Modest hair regrowth in open-label study; only 20% of completers reached SALT \u226420 \u00b7 Phase 2 \u00b7 EQ101 in alopecia areata \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "EQ101",
+  "indication": "alopecia areata",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": 36,
+   "serious_drug_related_patients": 0,
+   "deaths": 0,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "SALT \u2264 20 in 5 (29%) subjects 18.4 % mean reduction in SALT",
+   "primary_endpoint_met": null,
+   "safety": "There were no Serious TEAEs or Grade 4 or 5 TEAEs",
+   "program_discontinued": "Initial safety and efficacy data supports advancing EQ101 into further alopecia areata development to include dose regimen optimization"
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

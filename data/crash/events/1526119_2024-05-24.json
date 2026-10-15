@@ -1,0 +1,44 @@
+{
+ "cik": "1526119",
+ "name": "Verastem, Inc.",
+ "ticker": "VSTM",
+ "date": "2024-05-24",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-05-24",
+  "accession": "0001104659-24-064919",
+  "doc": "tm2415352d2_ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1526119/000110465924064919/tm2415352d2_ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "regulatory delay",
+  "summary": "Rolling NDA started, full submission delayed to 2H 2024 awaiting 12-month data \u00b7 Phase 2 \u00b7 avutometinib+defactinib in KRAS mutant LGSOC \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "avutometinib and defactinib",
+  "indication": "recurrent KRAS mutant low-grade serous ovarian cancer",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": 115,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "Plan to complete NDA submission with the mature RAMP 201 dataset, anticipated to include 12 months of follow-up, in the second half of 2024",
+   "primary_endpoint_met": null,
+   "safety": "The enrollment in RAMP 201 is completed, with 115 patients being treated at the recommended Phase 2 dose (RP2D)",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

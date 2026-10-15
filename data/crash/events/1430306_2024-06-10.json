@@ -1,0 +1,44 @@
+{
+ "cik": "1430306",
+ "name": "Tonix Pharmaceuticals Holding Corp.",
+ "ticker": "TNXP",
+ "date": "2024-06-10",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-06-10",
+  "accession": "0001839882-24-018368",
+  "doc": "ex99-01.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1430306/000183988224018368/ex99-01.htm"
+ },
+ "facts": {
+  "related": false,
+  "trigger": "other",
+  "summary": "Corporate presentation recapping positive Phase 3 fibromyalgia data, NDA planned \u00b7 Phase 3 \u00b7 Tonmya in fibromyalgia \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "Tonmya (TNX-102 SL)",
+  "indication": "fibromyalgia",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": true,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": 231,
+   "serious_drug_related_patients": 1,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "Two Phase 3 trials completed with statistical significance on primary endpoint",
+   "primary_endpoint_met": "Tonmya (TNX - 102 SL) demonstrated statistically significant improvement in mean weekly pain scores over placebo at Week 14",
+   "safety": "Tonmya (TNX - 102 SL) was generally well tolerated with an adverse event (AE) profile comparable to prior fibromyalgia studies",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

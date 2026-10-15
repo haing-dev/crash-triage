@@ -1,0 +1,44 @@
+{
+ "cik": "1810182",
+ "name": "ALX ONCOLOGY HOLDINGS INC",
+ "ticker": "ALXO",
+ "date": "2024-08-01",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-08-06",
+  "accession": "0000950170-24-091938",
+  "doc": "alxo-ex99_1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1810182/000095017024091938/alxo-ex99_1.htm"
+ },
+ "facts": {
+  "related": false,
+  "trigger": "other",
+  "summary": "Board appointment of new director; two executives leave board \u00b7 Phase 2 \u00b7 evorpacept in cancer \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "evorpacept",
+  "indication": "cancer",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "ALX Oncology Appoints Alan Sandler, M.D., to Board of Directors",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

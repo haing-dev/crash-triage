@@ -1,0 +1,44 @@
+{
+ "cik": "1837607",
+ "name": "AEON Biopharma, Inc.",
+ "ticker": "AEON",
+ "date": "2024-05-03",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-05-03",
+  "accession": "0001837607-24-000047",
+  "doc": "aeon-20240501x8k.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1837607/000183760724000047/aeon-20240501x8k.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "other",
+  "summary": "Restatement of 2023 financials, non-reliance, going-concern doubt \u00b7 n/a \u00b7 n/a in n/a \u00b7 n/a",
+  "phase": "n/a",
+  "drug": "n/a",
+  "indication": "n/a",
+  "market_stage": "n/a",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "should no longer be relied upon due to an identified error.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

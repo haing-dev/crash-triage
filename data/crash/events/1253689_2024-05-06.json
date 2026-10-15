@@ -1,0 +1,44 @@
+{
+ "cik": "1253689",
+ "name": "CRESCENT BIOPHARMA, INC.",
+ "ticker": "CBIO",
+ "date": "2024-05-06",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-05-06",
+  "accession": "0001558370-24-006793",
+  "doc": "glyc-20240506xex99d1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1253689/000155837024006793/glyc-20240506xex99d1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 3 failed overall survival primary endpoint \u00b7 Phase 3 \u00b7 uproleselan in relapsed/refractory AML \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "uproleselan",
+  "indication": "relapsed/refractory acute myeloid leukemia",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "In the study, uproleselan combined with chemotherapy did not achieve a statistically significant improvement in overall survival in the intent to treat population versus chemotherapy alone.",
+   "primary_endpoint_met": "Study of uproleselan combined with chemotherapy did not meet its primary endpoint of overall survival in the intent to treat population",
+   "safety": "Adverse events were consistent with known side effect profiles of chemotherapy used in the study.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

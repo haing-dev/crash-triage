@@ -1,0 +1,44 @@
+{
+ "cik": "1880438",
+ "name": "AN2 Therapeutics, Inc.",
+ "ticker": "ANTX",
+ "date": "2024-08-09",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-08-08",
+  "accession": "0001193125-24-197047",
+  "doc": "d865374dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1880438/000119312524197047/d865374dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 2 secondary sputum conversion no better than placebo; EBO-301 discontinued \u00b7 Phase 2/3 \u00b7 epetraborole in MAC lung disease \u00b7 not yet approved",
+  "phase": "Phase 2/3",
+  "drug": "epetraborole",
+  "indication": "treatment-refractory Mycobacterium avium Complex (MAC) lung disease",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": false,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": true,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "sputum culture conversion at Month 6, a key secondary endpoint, was similar between treatment arms (13.2% in epetraborole + OBR vs. 10.0% placebo + OBR; treatment difference 3.4%, p=0.64).",
+   "primary_endpoint_met": null,
+   "safety": "Oral epetraborole 500 mg daily was generally well-tolerated and the study was not terminated due to safety concerns.",
+   "program_discontinued": "the Company will terminate the Phase 2 (80 patients) and Phase 3 parts of the EBO-301 trial (97 patients enrolled prior to pause)."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "cik": "1888012",
+ "name": "HilleVax, Inc.",
+ "ticker": "HLVX",
+ "date": "2024-07-08",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-07-08",
+  "accession": "0001193125-24-175915",
+  "doc": "d574834d8k.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1888012/000119312524175915/d574834d8k.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 2b norovirus vaccine failed primary endpoint, infant development to be discontinued \u00b7 Phase 2 \u00b7 HIL-214 in norovirus gastroenteritis \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "HIL-214",
+  "indication": "norovirus acute gastroenteritis in infants",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": false,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "The study did not meet its primary endpoint of efficacy against moderate or severe acute gastroenteritis (\u201cAGE\u201d) events due to GI.1 or GII.4 norovirus genotypes.",
+   "primary_endpoint_met": "The study did not meet its primary endpoint of efficacy against moderate or severe acute gastroenteritis (\u201cAGE\u201d) events due to GI.1 or GII.4 norovirus genotypes.",
+   "safety": "HIL-214 exhibited a safety and immunogenicity profile consistent with what was observed in the prespecified analysis of the first 200 subjects in NEST-IN1 and in previously reported studies.",
+   "program_discontinued": "The Company plans to discontinue further development of HIL-214 in infants"
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

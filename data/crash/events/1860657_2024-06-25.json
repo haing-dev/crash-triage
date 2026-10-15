@@ -1,0 +1,44 @@
+{
+ "cik": "1860657",
+ "name": "Allarity Therapeutics, Inc.",
+ "ticker": "ALLR",
+ "date": "2024-06-25",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-06-26",
+  "accession": "0001213900-24-055919",
+  "doc": "ea020849301ex99-1_allarity.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1860657/000121390024055919/ea020849301ex99-1_allarity.htm"
+ },
+ "facts": {
+  "related": false,
+  "trigger": "other",
+  "summary": "Positive durability update, 30+ weeks on treatment \u00b7 Phase 2 \u00b7 stenoparib in advanced recurrent ovarian cancer \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "stenoparib",
+  "indication": "advanced recurrent ovarian cancer",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "multiple patients in its Phase 2 clinical trial of stenoparib for advanced recurrent ovarian cancer have been on treatment for more than 30 weeks.",
+   "primary_endpoint_met": null,
+   "safety": "We continue to see patients maintain their quality of life with minimal side effects for extended periods",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

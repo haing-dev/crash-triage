@@ -1,0 +1,44 @@
+{
+ "cik": "1501989",
+ "name": "CytomX Therapeutics, Inc.",
+ "ticker": "CTMX",
+ "date": "2024-05-09",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-05-08",
+  "accession": "0001193125-24-134284",
+  "doc": "d835346dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1501989/000119312524134284/d835346dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Initial dose-escalation data showed limited efficacy (2 of 6 pancreatic responses) \u00b7 Phase 1a \u00b7 CX-904 in advanced solid tumors \u00b7 not yet approved",
+  "phase": "Phase 1",
+  "drug": "CX-904",
+  "indication": "advanced metastatic solid tumors (EGFR-expressing), incl. pancreatic cancer",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": 35,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "Encouraging initial signs of efficacy observed for CX-904 in advanced pancreatic cancer, including 2 of 6 patients (33%) with a confirmed partial response and all 6 patients (100%) with disease control",
+   "primary_endpoint_met": null,
+   "safety": "CX-904 demonstrated a favorable safety profile that supports administration and monitoring of enrolled patients in an outpatient setting.",
+   "program_discontinued": "CX-904 Phase 1a dose escalation and optimization continue"
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

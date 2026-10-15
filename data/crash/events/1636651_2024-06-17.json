@@ -1,0 +1,44 @@
+{
+ "cik": "1636651",
+ "name": "Ovid Therapeutics Inc.",
+ "ticker": "OVID",
+ "date": "2024-06-17",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-06-17",
+  "accession": "0000950170-24-073998",
+  "doc": "ovid-ex99_1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1636651/000095017024073998/ovid-ex99_1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Partner Takeda's Phase 3 soticlestat trials missed primary endpoints \u00b7 Phase 3 \u00b7 soticlestat in Dravet and Lennox-Gastaut syndromes \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "soticlestat",
+  "indication": "Dravet syndrome and Lennox-Gastaut syndrome",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "Takeda's Skyline study in Dravet syndrome narrowly missed its primary endpoint of reduction in convulsive seizure frequency and showed clinically meaningful and significant effects in multiple key secondary efficacy endpoints",
+   "primary_endpoint_met": "Takeda's Skyway study in Lennox-Gastaut syndrome missed its primary endpoint of reduction in major motor drop seizures",
+   "safety": "Soticlestat was generally well tolerated in both the SKYLINE and the SKYWAY studies and demonstrated a safety profile consistent with the findings of previous studies.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

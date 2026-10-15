@@ -1,0 +1,44 @@
+{
+ "cik": "1394319",
+ "name": "Tracon Pharmaceuticals, Inc.",
+ "ticker": "TCON",
+ "date": "2024-07-01",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-07-01",
+  "accession": "0000950170-24-079290",
+  "doc": "tcon-20240701.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1394319/000095017024079290/tcon-20240701.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Pivotal trial missed primary endpoint, development terminated, strategic alternatives explored \u00b7 Phase 2 pivotal \u00b7 envafolimab in UPS/MFS sarcoma \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "envafolimab",
+  "indication": "undifferentiated pleomorphic sarcoma and myxofibrosarcoma",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": 82,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "the ENVASARC Phase 2 pivotal trial only demonstrated 4 responses out of 82 evaluable patients by BICR, which is lower than the primary endpoint of the study of an 11% ORR",
+   "primary_endpoint_met": "ENVASARC pivotal trial evaluating 82 patients dosed with 600 mg of envafolimab every three weeks in the sarcoma subtypes of undifferentiated pleomorphic sarcoma (UPS) and myxofibrosarcoma (MFS) failed to meet its primary endpoint.",
+   "safety": null,
+   "program_discontinued": "Based on these data, TRACON determined to terminate further development of envafolimab."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": false,
+   "program_discontinued": true
+  }
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "cik": "109657",
+ "name": "GT Biopharma, Inc.",
+ "ticker": "GTBP",
+ "date": "2024-05-21",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-05-23",
+  "accession": "0001493152-24-021078",
+  "doc": "ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/109657/000149315224021078/ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Announced $3.2M registered direct offering at-the-market with warrants \u00b7 clinical stage \u00b7 TriKE NK cell engager platform in cancer \u00b7 not yet approved",
+  "phase": "n/a",
+  "drug": "TriKE",
+  "indication": "cancer",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "GT Biopharma, Inc. Announces $3.2 Million Registered Direct Offering Priced At-The-Market Under Nasdaq Rules",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

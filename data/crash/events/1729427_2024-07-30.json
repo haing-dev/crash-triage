@@ -1,0 +1,44 @@
+{
+ "cik": "1729427",
+ "name": "CNS Pharmaceuticals, Inc.",
+ "ticker": "CNSP",
+ "date": "2024-07-30",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-07-30",
+  "accession": "0001683168-24-005145",
+  "doc": "cns_8k.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1729427/000168316824005145/cns_8k.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Company raised ATM equity program from $5.2M to $25.0M additional, heavy share sales \u00b7 n/a \u00b7 n/a \u00b7 n/a",
+  "phase": "n/a",
+  "drug": "n/a",
+  "indication": "n/a",
+  "market_stage": "n/a",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "On July 30, 2024, the Company increased the aggregate sales price of Shares that may be sold under the Agreement to $25.0 million (not including the original $5.2 million).",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "cik": "1798749",
+ "name": "Jade Biosciences, Inc.",
+ "ticker": "JBIO",
+ "date": "2024-06-17",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-06-17",
+  "accession": "0001104659-24-072058",
+  "doc": "tm2417394d1_ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1798749/000110465924072058/tm2417394d1_ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Missed primary PVR endpoint at all doses, Phase 3 halted \u00b7 Phase 2b \u00b7 AV-101 in pulmonary arterial hypertension \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "AV-101",
+  "indication": "pulmonary arterial hypertension",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": false,
+  "safety": {
+   "treated_patients": 150,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "AV-101 did not meet the primary endpoint of change in pulmonary vascular resistance (PVR) for any of the studied doses",
+   "primary_endpoint_met": "the study did not meet its primary endpoint for improvement in PVR compared to placebo for any of the studied doses",
+   "safety": "while AV-101 was well tolerated across all dose groups",
+   "program_discontinued": "is halting enrollment and shutting down the Phase 3 portion of IMPAHCT as well as the long-term extension study"
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

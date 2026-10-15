@@ -1,0 +1,44 @@
+{
+ "cik": "1346830",
+ "name": "Tvardi Therapeutics, Inc.",
+ "ticker": "TVRD",
+ "date": "2024-06-13",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-06-12",
+  "accession": "0001104659-24-070914",
+  "doc": "tm2416682d3_ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1346830/000110465924070914/tm2416682d3_ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Oral difelikefalin showed no meaningful benefit over placebo; NP program discontinued \u00b7 Phase 2/3 \u00b7 oral difelikefalin in notalgia paresthetica \u00b7 not yet approved",
+  "phase": "Phase 2/3",
+  "drug": "oral difelikefalin",
+  "indication": "notalgia paresthetica (pruritus)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "Oral difelikefalin did not demonstrate a meaningful clinical benefit at any dose compared to placebo, resulting in the Company\u2019s decision to discontinue the clinical program in NP.",
+   "primary_endpoint_met": "Oral difelikefalin did not demonstrate a meaningful clinical benefit at any dose compared to placebo.",
+   "safety": "The drug was generally well tolerated with a safety profile similar to prior trials.",
+   "program_discontinued": "We will be winding down the Phase 2/3 clinical program in NP and exploring strategic alternatives focused on maximizing shareholder value."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

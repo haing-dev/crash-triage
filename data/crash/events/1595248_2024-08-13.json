@@ -1,0 +1,44 @@
+{
+ "cik": "1595248",
+ "name": "Genprex, Inc.",
+ "ticker": "GNPX",
+ "date": "2024-08-13",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-08-13",
+  "accession": "0001437749-24-026166",
+  "doc": "gnpx20240803_8k.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1595248/000143774924026166/gnpx20240803_8k.htm"
+ },
+ "facts": {
+  "related": false,
+  "trigger": "other",
+  "summary": "Singapore patent granted for REQORSA plus anti-PD-1 combination \u00b7 Phase 1/2 \u00b7 Reqorsa in extensive stage small cell lung cancer \u00b7 not yet approved",
+  "phase": "Phase 1/2",
+  "drug": "Reqorsa (quaratusugene ozeplasmid)",
+  "indication": "extensive stage small cell lung cancer",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "the Singapore Patent Office has granted a patent to Genprex that covers the use of the Company\u2019s lead drug candidate, Reqorsa\u00ae (quaratusugene ozeplasmid) Gene Therapy, in combination with anti-PD-1 antibodies through 2037.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

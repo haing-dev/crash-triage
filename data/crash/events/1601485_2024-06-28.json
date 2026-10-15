@@ -1,0 +1,44 @@
+{
+ "cik": "1601485",
+ "name": "Elicio Therapeutics, Inc.",
+ "ticker": "ELTX",
+ "date": "2024-06-28",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-06-27",
+  "accession": "0001140361-24-031563",
+  "doc": "ny20031755x2_ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1601485/000114036124031563/ny20031755x2_ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "other",
+  "summary": "Preliminary disease-free survival data, median not yet reached, seen as underwhelming \u00b7 Phase 1a \u00b7 ELI-002 7P in pancreatic ductal adenocarcinoma \u00b7 not yet approved",
+  "phase": "Phase 1",
+  "drug": "ELI-002 7P",
+  "indication": "pancreatic ductal adenocarcinoma (mKRAS-driven)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "The preliminary data showed patients receiving ELI-002 7P at the Phase 2 dose of 4.9mg AMP-peptide were yet to reach the median disease-free survival (\u201cDFS\u201d) endpoint as of the May 24, 2024 data cutoff date.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

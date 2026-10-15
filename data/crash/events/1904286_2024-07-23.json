@@ -1,0 +1,44 @@
+{
+ "cik": "1904286",
+ "name": "MIRA PHARMACEUTICALS, INC.",
+ "ticker": "MIRA",
+ "date": "2024-07-23",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-07-24",
+  "accession": "0001493152-24-028917",
+  "doc": "form8-k.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1904286/000149315224028917/form8-k.htm"
+ },
+ "facts": {
+  "related": false,
+  "trigger": "other",
+  "summary": "Positive preclinical mechanism and toxicology data disclosed \u00b7 Preclinical \u00b7 Ketamir-2 in depression, TRD and PTSD \u00b7 not yet approved",
+  "phase": "Preclinical",
+  "drug": "Ketamir-2",
+  "indication": "depression, treatment-resistant depression, post-traumatic stress disorder",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "recently conducted toxicology studies in rats and dogs have shown no toxicity at very high doses of Ketamir-2.",
+   "primary_endpoint_met": null,
+   "safety": "recently conducted toxicology studies in rats and dogs have shown no toxicity at very high doses of Ketamir-2.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

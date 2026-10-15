@@ -1,0 +1,44 @@
+{
+ "cik": "1783032",
+ "name": "Elevation Oncology, Inc.",
+ "ticker": "ELEV",
+ "date": "2024-08-06",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-08-06",
+  "accession": "0001558370-24-010946",
+  "doc": "elev-20240806xex99d1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1783032/000155837024010946/elev-20240806xex99d1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Initial Phase 1 data showed modest responses, none in low-expression patients \u00b7 Phase 1 \u00b7 EO-3021 in Claudin 18.2 gastric/GEJ cancer \u00b7 not yet approved",
+  "phase": "Phase 1",
+  "drug": "EO-3021",
+  "indication": "Claudin 18.2-expressing gastric, gastroesophageal junction, pancreatic or esophageal solid tumors",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": 32,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "In seven patients with Claudin 18.2 in \u226520% of tumor cells at IHC 2+/3+, the objective response rate (ORR) was 42.8% (three confirmed partial responses",
+   "primary_endpoint_met": null,
+   "safety": "EO-3021 was observed to be generally well-tolerated. No neutropenia or peripheral neuropathy/hypoesthesia, both known toxicities associated with monomethyl auristatin E (MMAE), were observed in the safety population of 32 patients treated with EO-3021.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

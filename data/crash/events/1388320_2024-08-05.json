@@ -1,0 +1,44 @@
+{
+ "cik": "1388320",
+ "name": "Actinium Pharmaceuticals, Inc.",
+ "ticker": "ATNM",
+ "date": "2024-08-05",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-08-05",
+  "accession": "0001213900-24-064993",
+  "doc": "ea021056001ex99-1_actinium.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1388320/000121390024064993/ea021056001ex99-1_actinium.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "regulatory rejection",
+  "summary": "FDA says Phase 3 trial insufficient for BLA, requires new randomized survival trial \u00b7 Phase 3 \u00b7 Iomab-B in relapsed/refractory AML \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "Iomab-B",
+  "indication": "relapsed or refractory acute myeloid leukemia (r/r AML)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": true,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "the FDA has now determined that the analyses from the SIERRA trial do not adequately support a BLA filing for Iomab-B and requires an additional clinical study.",
+   "primary_endpoint_met": "Despite the SIERRA trial meeting the primary endpoint of durable Complete Remission (\"dCR\") with statistical significance (p-value<0.0001)",
+   "safety": null,
+   "program_discontinued": "Upon conclusion of its interactions with the FDA, Actinium will seek a strategic partner for Iomab-B for the U.S."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": false,
+   "program_discontinued": true
+  }
+ }
+}

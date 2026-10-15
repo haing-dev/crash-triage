@@ -1,0 +1,44 @@
+{
+ "cik": "1556263",
+ "name": "Syros Pharmaceuticals, Inc.",
+ "ticker": "SYRS",
+ "date": "2024-08-13",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-08-12",
+  "accession": "0001193125-24-198969",
+  "doc": "d883084dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1556263/000119312524198969/d883084dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Enrollment stopped after futility analysis showed no benefit \u00b7 Phase 2 \u00b7 tamibarotene triplet in newly diagnosed unfit AML \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "tamibarotene",
+  "indication": "acute myeloid leukemia (AML) with RARA overexpression",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "will discontinue enrollment in the SELECT-AML-1 Phase 2 clinical trial evaluating the triplet regimen of tamibarotene in combination with venetoclax and azacitidine",
+   "primary_endpoint_met": "A similar complete response (CR)/complete response with incomplete hematologic recovery (CRi) rate was observed in the triplet arm (n=20; 65%, CI: 40.8-84.6) and the doublet arm (n=20; 70%, CI: 45.7-88.1).",
+   "safety": "There were no new safety signals associated with the use of tamibarotene in combination with venetoclax and azacitidine.",
+   "program_discontinued": "will discontinue enrollment in the SELECT-AML-1 Phase 2 clinical trial"
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}
