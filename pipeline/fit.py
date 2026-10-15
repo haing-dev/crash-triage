@@ -18,13 +18,10 @@ Factors (all as of the entry day; nothing later):
   programs  other Phase 2+ trials the company leads (ClinicalTrials.gov)
 Cut-offs for runway / value / programs and the direction (which side is green) are learned; points per category =
 median outcome of that category minus the overall median, shrunk toward 0 for small groups (x n/(n+30)).
-Score = sum of points, shown 0-100 as its percentile among past episodes. Verdict: top third of past scores
-"Potentially Oversold", bottom third "Justified", middle "Too Close To Call".
-
-Walk-forward: the model is refitted each month on episodes whose full year had ended by the start of that month;
-every episode gets the verdict it would have had at the time. Episodes before enough history existed (MIN_TRAIN) use
-the model fitted on all history and are flagged in-sample (left out of the outcomes and track-record pages).
-Market cap is shown, not scored.
+Score = sum of points, shown 0-100 as its percentile among past episodes. The factor colours and score are learned
+walk-forward (refitted monthly on episodes whose full year had ended). The verdict is a fixed rule (verdict_rule):
+going-concern warning or runway under 12 months -> Justified; otherwise market cap >= $50M and value <= 3x cash ->
+Potentially Oversold; otherwise Too Close To Call.
 
 Output: data/<kind>/scores/<id>.json, reports/fit_<kind>.md
 """
@@ -35,6 +32,35 @@ from common import DATA, ROOT, KINDS, closes, kdir, money
 
 TODAY = date.today().isoformat()
 MIN_TRAIN, SHRINK = 250, 30
+GATE_RUNWAY, GATE_MCAP, GATE_VALUE = 12, 5e7, 3.0
+
+
+def verdict_rule(x):
+    """The verdict is a fixed rule, the same for every company in both triages (thresholds chosen on the whole
+    history and checked to hold in both halves, before and after July 2023):
+      Justified            going-concern warning, or cash runway under 12 months (or unknown): the company has to
+                           raise money at the bottom, and these rarely recover
+      Potentially Oversold cash is fine AND market cap at least $50M AND valued at no more than 3x its cash
+      Too Close To Call    cash is fine, but small or richly valued
+    Returns (verdict, reasons)."""
+    hard, soft = [], []
+    if (x["raw"].get("going_concern") or {}).get("flag"):
+        hard.append("going-concern warning")
+    if x["runway_m"] is None:
+        hard.append("cash runway unknown")
+    elif x["runway_m"] < GATE_RUNWAY:
+        hard.append(f"runway under {GATE_RUNWAY} months")
+    if hard:
+        return "justified", hard
+    if x["mcap"] is None:
+        soft.append("market cap unknown")
+    elif x["mcap"] < GATE_MCAP:
+        soft.append("market cap under $50M")
+    if x["value_x"] is None:
+        soft.append("value vs cash unknown")
+    elif x["value_x"] > GATE_VALUE:
+        soft.append(f"valued above {GATE_VALUE:.0f}x cash")
+    return ("close", soft) if soft else ("overdone", [])
 KEYS = {"crash": ["safety", "runway", "value", "insider", "programs"], "slide": ["runway", "value", "insider", "programs"]}
 CONT = {"runway": "runway_m", "value": "value_x", "programs": "trials"}
 WORD = {"crash": "crash", "slide": "slide start"}
@@ -175,8 +201,6 @@ def fit(train, keys):
             cats.setdefault(cat(model, t, k), []).append(t["y"])
         model["points"][k] = {c: round((st.median(v) - med) * len(v) / (len(v) + SHRINK), 4) for c, v in cats.items()}
     model["scores"] = sorted(score(model, keys, t) for t in train)
-    s = model["scores"]
-    model["cut_lo"], model["cut_hi"] = s[len(s) // 3], s[2 * len(s) // 3]
     return model
 
 
@@ -304,7 +328,7 @@ def run(kind):
         if not model:
             continue
         s = score(model, keys, x)
-        verdict = "overdone" if s >= model["cut_hi"] else "justified" if s <= model["cut_lo"] else "close"
+        verdict, why = verdict_rule(x)
 
         def colour(k):
             if text(kind, k, x) == "N/A":
@@ -317,11 +341,11 @@ def run(kind):
             return "g" if p >= 0.05 else "r" if p <= -0.05 else "n"
 
         out = {"id": x["id"], "score": round(100 * bisect_right(model["scores"], s) / len(model["scores"])),
-               "verdict": verdict, "in_sample": ins, "trained_on": model["n"], "mcap": x["mcap"], "insider_net": x["insider_net"],
+               "verdict": verdict, "why": why, "in_sample": ins, "trained_on": model["n"], "mcap": x["mcap"], "insider_net": x["insider_net"],
                "factors": {k: [colour(k), text(kind, k, x), note(k, x, model), bucket(k, x)] for k in keys}}
         (out_dir / f"{x['id']}.json").write_text(json.dumps(out))
-        if x["y"] is not None and not ins:
-            heldout.append((verdict, x["y"], x["abs"]))
+        if x["y"] is not None:
+            heldout.append((verdict, x["y"], x["abs"], x["asof"]))
     rep = [f"# Fit report: {kind}", f"episodes with inputs: {len(rows)} · with a full year: {len(known)}", ""]
     if full:
         rep += ["## Model on all history", "", "| Factor | Cut-off | Points green / grey / red (pp vs median) |", "|---|---|---|"]
@@ -331,14 +355,16 @@ def run(kind):
             pt = full["points"][k]
             rep.append(f"| {k} | {cs} | {pt.get('g', 0) * 100:+.1f} / {pt.get('n', 0) * 100:+.1f} / {pt.get('r', 0) * 100:+.1f} |")
     if heldout:
-        rep += ["", "## Out-of-sample (walk-forward; entry to +365 days)", "",
-                "| Verdict | n | median move | median vs XBI | beat XBI | up 50%+ | down 80%+ |", "|---|---|---|---|---|---|---|"]
+        rep += ["", "## Backtest (every episode with a full year; entry to +365 days; mean caps any single return at +500%)", "",
+                "| Verdict | n | median | mean | XBI mean | beat XBI | up 30%+ | down 80%+ |", "|---|---|---|---|---|---|---|---|"]
         for v in ("overdone", "close", "justified"):
-            g = [(y, a) for gg, y, a in heldout if gg == v]
+            g = [(y, a) for gg, y, a, _ in heldout if gg == v]
             if g:
                 ys, aa = [y for y, _ in g], [a for _, a in g]
-                rep.append(f"| {v} | {len(g)} | {st.median(aa) * 100:+.0f}% | {st.median(ys) * 100:+.0f}% | {sum(y > 0 for y in ys) / len(ys):.0%} "
-                           f"| {sum(a >= .5 for a in aa) / len(aa):.0%} | {sum(a <= -.8 for a in aa) / len(aa):.0%} |")
+                mean = sum(min(a, 5) for a in aa) / len(aa)
+                xmean = sum(a - y for y, a in g) / len(g)
+                rep.append(f"| {v} | {len(g)} | {st.median(aa) * 100:+.0f}% | {mean * 100:+.0f}% | {xmean * 100:+.0f}% | {sum(y > 0 for y in ys) / len(ys):.0%} "
+                           f"| {sum(a >= .3 for a in aa) / len(aa):.0%} | {sum(a <= -.8 for a in aa) / len(aa):.0%} |")
     (ROOT / "reports" / f"fit_{kind}.md").write_text("\n".join(rep) + "\n")
     print("\n".join(rep))
 

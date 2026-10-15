@@ -61,7 +61,7 @@ def build(kind):
                 rec["summary"] = "No company announcement filed with the SEC around this date"
         sc = DATA / kind / "scores" / f"{cid}.json"
         if sc.exists():
-            rec.update({k: v for k, v in json.loads(sc.read_text()).items() if k in ("factors", "score", "verdict", "in_sample", "insider_net", "mcap")})
+            rec.update({k: v for k, v in json.loads(sc.read_text()).items() if k in ("factors", "score", "verdict", "why", "insider_net", "mcap")})
         rec["sources"].append({"label": "All SEC filings",
                                "url": f"https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK={int(c['cik'])}&type=&dateb=&owner=include&count=40"})
         ds, cs = closes(c["cik"])
@@ -82,7 +82,7 @@ def build(kind):
                 rec["xbi365"], rec["xbi_path"] = xp[-1], xp
         items.append(rec)
     track = {}
-    oos = [r for r in items if r["verdict"] != "pending" and not r.get("in_sample") and r.get("played") and r.get("path")]
+    oos = [r for r in items if r["verdict"] != "pending" and r.get("played") and r.get("path")]
     for g in ("overdone", "close", "justified"):
         grp = [r for r in oos if r["verdict"] == g]
         if grp:
@@ -90,6 +90,17 @@ def build(kind):
     with_x = [r for r in oos if r.get("xbi_path")]
     if with_x:
         track["xbi"] = {"n": len(with_x), "path": [round(statistics.median(r["xbi_path"][i] for r in with_x), 1) for i in range(len(STEPS))]}
+    # basket statistics per verdict: biotech recoveries are lottery-like, so the mean (one return capped at +500%)
+    # and the hit rates say more about a basket of picks than the median does
+    stats = {}
+    for g in ("overdone", "close", "justified"):
+        grp = [r for r in oos if r["verdict"] == g and r.get("xbi365") is not None]
+        if grp:
+            a = [r["path"][-1] for r in grp]
+            stats[g] = {"n": len(grp), "median": round(statistics.median(a), 1), "mean": round(sum(min(v, 500) for v in a) / len(a), 1),
+                        "xbi_mean": round(sum(r["xbi365"] for r in grp) / len(grp), 1),
+                        "beat": round(100 * sum(r["path"][-1] > r["xbi365"] for r in grp) / len(grp)),
+                        "win30": round(100 * sum(v >= 30 for v in a) / len(a)), "wipe80": round(100 * sum(v <= -80 for v in a) / len(a))}
     for r in items:
         r.pop("path", None)
         r.pop("xbi_path", None)
@@ -97,7 +108,7 @@ def build(kind):
     fmt = lambda d: time.strftime("%b %Y", time.strptime(d, "%Y-%m-%d"))
     print(f"{kind}: {len(items)} episodes, {sum(1 for r in items if r['played'])} with a full year, "
           f"{sum(1 for r in items if r['verdict'] != 'pending')} scored")
-    return {"range": f"{fmt(dates[0])} – {fmt(dates[-1])}" if dates else "", "items": items, "track": track}
+    return {"range": f"{fmt(dates[0])} – {fmt(dates[-1])}" if dates else "", "items": items, "track": track, "stats": stats}
 
 
 def main():

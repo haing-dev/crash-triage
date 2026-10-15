@@ -89,7 +89,7 @@ function fill(){
     <td style="white-space:nowrap">${esc(c.month)}</td><td class="r" style="white-space:nowrap"><span class="num">${pct(c.move)}</span><div class="muted" style="font-size:11.5px">${dur(c)}</div></td>
     ${crash ? `<td class="what">${esc(c.summary || "Reading the company's announcement…")}</td>` : ""}
     <td class="r ${c.mcap == null ? "muted" : ""}" style="white-space:nowrap">${money(c.mcap)}</td>
-    ${kd.facts.map(f => cell(c.factors?.[f[0]])).join("")}<td>${pill(c.verdict)}</td>${ret(c)}
+    ${kd.facts.map(f => cell(c.factors?.[f[0]])).join("")}<td>${pill(c.verdict)}${c.why?.length ? `<div class="why">${esc(c.why.join(" · "))}</div>` : ""}</td>${ret(c)}
     ${bt ? `<td>${c.outcome ? `<span class="pill ${OUTCOME[c.outcome]}">${c.outcome}</span>` : ""}</td>` : ""}</tr>`).join("") ||
     `<tr><td colspan="14" class="empty">Nothing matches these filters.</td></tr>`;
   $("#cnt").textContent = `Showing ${Math.min(SHOW, list.length)} of ${list.length}.`;
@@ -118,7 +118,7 @@ function viewOne(id){
   <div class="vhead"><div><div class="muted">${head} · <a href="${back}">‹ ${c.played ? "Backtest" : "Screener"}</a></div>
     <h2>${esc(c.name)} <span class="muted" style="font-size:18px">${esc(c.ticker)}</span><span class="mv">${pct(c.move)}</span><span class="muted" style="font-size:16px;margin-left:8px">in ${dur(c)}</span></h2>
     <div class="what1">${K === "crash" ? esc(c.summary || "Reading the company's announcement…") + " · " : ""}Market cap at entry ${money(c.mcap)}</div></div>
-   <div class="vbox">${pill(c.verdict)}${c.score!=null?`<div class="conf">Score ${c.score} / 100</div>`:""}</div></div>
+   <div class="vbox">${pill(c.verdict)}<div class="conf">${c.why?.length ? esc(c.why.join(" · ")) : c.verdict === "overdone" ? "Cash for 12+ months, no going-concern warning, $50M+ market cap, valued at 3x cash or less" : ""}</div></div></div>
   <div class="fcs" style="grid-template-columns:repeat(${kd.facts.length},minmax(0,1fr))">${cards}</div>
   ${quotes ? `<div class="card"><h4>From the company's announcement</h4>${quotes}</div>` : ""}
   ${after}
@@ -127,8 +127,8 @@ function viewOne(id){
 
 /* ------------------------------------------------------------------ outcomes: every backtest episode, one row */
 function viewOutcomes(){
-  const pts = items().filter(c => c.played && c.ret != null && !c.in_sample && c.verdict !== "pending");
-  $("#app").innerHTML = `<div class="toprow"><div><h1>Outcomes</h1><div class="muted">Every backtest ${KIND[K].word}: the return if bought at entry and held 365 days, coloured by the verdict the tool would have given at entry (using only episodes whose outcome was already known). Hover a dot to see the company; click to open it.</div></div></div>
+  const pts = items().filter(c => c.played && c.ret != null && c.verdict !== "pending");
+  $("#app").innerHTML = `<div class="toprow"><div><h1>Outcomes</h1><div class="muted">Every backtest ${KIND[K].word}: the return if bought at entry and held 365 days, coloured by its verdict (which uses only what was public at entry). Hover a dot to see the company; click to open it.</div></div></div>
    <div class="card" id="oc">${pts.length ? "" : `<p class="empty">Outcomes appear once episodes are scored and have a full year of prices.</p>`}</div>`;
   if (!pts.length) return;
   const groups = ["overdone","close","justified"].filter(g => pts.some(c => c.verdict === g));
@@ -155,8 +155,12 @@ function viewTrack(){
   const series = [["overdone","Potentially Oversold"],["close","Too Close To Call"],["justified","Justified"]].filter(([k]) => T[k]?.path?.length)
     .map(([k,l]) => ({k, l: `${l} · ${T[k].n}`, col: VERDICT[k][3], path: T[k].path}));
   if (T.xbi?.path?.length) series.push({k:"xbi", l:"Biotech index (XBI)", col:"var(--idx)", path:T.xbi.path, dash:true});
-  $("#app").innerHTML = `<div class="toprow"><div><h1>Track record</h1><div class="muted">Backtest ${KIND[K].plural}: median return if bought at entry, by the verdict given at entry, vs. the biotech index over the same dates.</div></div></div>
-   <div class="card" id="tr">${series.length > 1 ? "" : `<p class="empty">The track record appears once episodes are scored and have a full year of prices.</p>`}</div>`;
+  const S = D.kinds[K].stats || {}, f = v => v == null ? "–" : pct(v);
+  const table = Object.keys(S).length ? `<div class="card"><h4>One year after entry, by verdict</h4><div class="tablewrap"><table class="stats"><thead><tr><th>Verdict</th><th class="r">${KIND[K].plural}</th><th class="r">Median</th><th class="r">Average*</th><th class="r">Biotech index average</th><th class="r">Beat the index</th><th class="r">Up 30%+</th><th class="r">Down 80%+</th></tr></thead><tbody>
+    ${["overdone","close","justified"].filter(g => S[g]).map(g => `<tr><td>${pill(g)}</td><td class="r">${S[g].n}</td><td class="r">${f(S[g].median)}</td><td class="r"><b>${f(S[g].mean)}</b></td><td class="r">${f(S[g].xbi_mean)}</td><td class="r">${S[g].beat}%</td><td class="r">${S[g].win30}%</td><td class="r">${S[g].wipe80}%</td></tr>`).join("")}
+    </tbody></table></div><div class="muted" style="font-size:12px;margin-top:8px">*Average with any single return capped at +500%. Biotech recoveries are lopsided (a few big winners, many slow losers), so the average and the hit rates describe a basket of picks better than the median.</div></div>` : "";
+  $("#app").innerHTML = `<div class="toprow"><div><h1>Track record</h1><div class="muted">Backtest ${KIND[K].plural}: return if bought at entry, by verdict, vs. the biotech index over the same dates. The chart shows the median path.</div></div></div>
+   ${table}<div class="card" id="tr">${series.length > 1 ? "" : `<p class="empty">The track record appears once episodes are scored and have a full year of prices.</p>`}</div>`;
   if (series.length < 2) return;
   const W = Math.max(720, $("#tr").clientWidth - 32), H = 420, left = 50, right = 230, top = 14, bot = 44;
   const all = series.flatMap(s => s.path), lo = Math.floor(Math.min(-10, ...all) / 10) * 10, hi = Math.ceil(Math.max(10, ...all) / 10) * 10;
