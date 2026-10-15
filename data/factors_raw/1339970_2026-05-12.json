@@ -3,41 +3,62 @@
  "cik": "1339970",
  "name": "aTYR PHARMA INC",
  "date": "2026-05-12",
- "asof": "2026-06-11",
+ "asof": "2026-05-13",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-06-11",
-  "adj_close": 0.47499999
+  "date": "2026-05-13",
+  "adj_close": 0.396
  },
  "balance": {
-  "end": "2026-03-31",
-  "cash": 66513000,
+  "end": "2025-12-31",
+  "cash": 78687000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue",
    "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
   ],
-  "accn": "0001339970-26-000033"
+  "accn": "0001339970-26-000008"
  },
  "burn": {
-  "end": "2026-03-31",
-  "months": 2.9,
-  "per_month": -4281095.2808988765
+  "end": "2025-12-31",
+  "ytd_months": 12.0,
+  "ytd": -61986000,
+  "accn": "0001339970-26-000008",
+  "ttm_per_month": -5165500.0,
+  "quarter_per_month": -4065333.3333333335,
+  "per_month": -5165500.0
  },
  "shares": {
-  "end": "2026-05-11",
+  "end": "2026-03-02",
   "shares": 98051212,
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001339970-26-000008",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "ssions and offering expenses payable by us. In April 2022, we entered into an Open Market Sale Agreement SM with Jefferies implementing the Jefferies ATM Offering Program. In December 2024, we amended the Jefferies ATM Offering Program. Under the Jefferies ATM Offering Program we may offer and sell, from time to time and at our option, up to an aggregate of $215.0 million of shares of our common s"
+ },
  "insiders": {
   "form4s": 7,
-  "bought": 49630,
-  "sold": 0,
-  "buyers": [
-   "SCHIMMEL PAUL"
+  "from": "2026-02-11",
+  "to": "2026-06-11",
+  "trades": [
+   {
+    "date": "2026-05-27",
+    "filed": "2026-05-28",
+    "code": "P",
+    "value": 49630,
+    "who": "SCHIMMEL PAUL"
+   }
   ]
  },
- "drug": null,
+ "drug": "efzofitimod",
  "trials": {
   "query": "atyr pharma",
   "other_trials": 0,

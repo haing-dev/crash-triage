@@ -3,11 +3,12 @@
  "cik": "1541157",
  "name": "Akari Therapeutics Plc",
  "date": "2024-11-19",
- "asof": "2024-12-19",
+ "asof": "2024-11-25",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-12-19",
-  "adj_close": 40.0
+  "date": "2024-11-25",
+  "adj_close": 41.2
  },
  "balance": {
   "end": "2024-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2024-09-30",
-  "months": 9.0,
-  "per_month": -1162741.098901099
+  "ytd_months": 9.0,
+  "ytd": -10428000,
+  "accn": "0000950170-24-128727",
+  "ttm_per_month": -263585.0,
+  "quarter_per_month": -2701643.6666666665,
+  "per_month": -263585.0
  },
  "shares": {
   "end": "2024-11-15",
@@ -37,11 +42,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0000950170-24-128727",
+  "guided_until": "2025-01-15",
+  "guidance": "e November 2024 Private Placement to be sufficient to fund our operations into the first quarter of 2025. We",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 2,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 6,
+  "from": "2024-08-21",
+  "to": "2024-12-19",
+  "trades": []
  },
  "drug": null,
  "trials": {

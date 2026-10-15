@@ -3,39 +3,60 @@
  "cik": "1662579",
  "name": "C4 Therapeutics, Inc.",
  "date": "2022-04-08",
- "asof": "2022-05-08",
+ "asof": "2022-04-11",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-05-09",
-  "adj_close": 7.75
+  "date": "2022-04-11",
+  "adj_close": 8.01
  },
  "balance": {
-  "end": "2022-03-31",
-  "cash": 421652000,
+  "end": "2021-12-31",
+  "cash": 451479000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue",
    "MarketableSecuritiesCurrent",
    "MarketableSecuritiesNoncurrent"
   ],
-  "accn": "0001564590-22-018046"
+  "accn": "0001564590-22-006499"
  },
  "burn": {
-  "end": "2022-03-31",
-  "months": 2.9,
-  "per_month": -9096429.662921349
+  "end": "2021-12-31",
+  "ytd_months": 12.0,
+  "ytd": -86965000,
+  "accn": "0001564590-22-006499",
+  "ttm_per_month": -7247083.333333333,
+  "quarter_per_month": -8557000.0,
+  "per_month": -7247083.333333333
  },
  "shares": {
-  "end": "2022-04-25",
-  "shares": 48797226,
+  "end": "2022-02-15",
+  "shares": 48738862,
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001564590-22-006499",
+  "guided_until": "2024-12-15",
+  "guidance": "isting collaboration agreements will be sufficient to fund our existing operating plan through the end of 2024. We",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "he trading price of our common stock. We do not know whether an active, liquid and orderly trading market will be sustained for our common stock or what the market price of our common stock will be and, as a result, it may be difficult for you to sell your shares of our common stock. Prior to our initial public offering, there was no public trading market for shares of our common stock. Although o"
+ },
  "insiders": {
-  "form4s": 2,
-  "bought": 84000,
-  "sold": 0,
-  "buyers": [
-   "Hirsch Andrew"
+  "form4s": 17,
+  "from": "2022-01-08",
+  "to": "2022-05-08",
+  "trades": [
+   {
+    "date": "2022-04-12",
+    "filed": "2022-04-12",
+    "code": "P",
+    "value": 84000,
+    "who": "Hirsch Andrew"
+   }
   ]
  },
  "drug": null,

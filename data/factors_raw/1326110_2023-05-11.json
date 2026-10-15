@@ -3,11 +3,12 @@
  "cik": "1326110",
  "name": "ImmunityBio, Inc.",
  "date": "2023-05-11",
- "asof": "2023-06-10",
+ "asof": "2023-05-12",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-06-12",
-  "adj_close": 2.86
+  "date": "2023-05-12",
+  "adj_close": 2.28
  },
  "balance": {
   "end": "2023-03-31",
@@ -21,8 +22,12 @@
  },
  "burn": {
   "end": "2023-03-31",
-  "months": 2.9,
-  "per_month": -28835914.606741574
+  "ytd_months": 2.9,
+  "ytd": -84310000,
+  "accn": "0001326110-23-000064",
+  "ttm_per_month": -28907416.666666668,
+  "quarter_per_month": -28103333.333333332,
+  "per_month": -28907416.666666668
  },
  "shares": {
   "end": "2023-05-05",
@@ -30,14 +35,70 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001326110-23-000064",
+  "guided_until": null,
+  "guidance": "sufficient to fund our operations through at least the next 12 months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "equity offerings (including but not limited to the offering, issuance and sale by us of our common stock that may be issued and sold under an &#8220;at-the-market&#8221; sales agreement (the Sale Agreement) with our sales agent (the ATM), of which we had $ 225.4 million available for future issuance as of March 31, 2023, and a February 2023 shelf registration statement, of which we had $ 640.0 mil"
+ },
  "insiders": {
   "form4s": 4,
-  "bought": 289093,
-  "sold": 0,
-  "buyers": [
-   "BLASZYK MICHAEL D",
-   "Brennan John Owen",
-   "Clark Wesley"
+  "from": "2023-02-10",
+  "to": "2023-06-10",
+  "trades": [
+   {
+    "date": "2023-06-05",
+    "filed": "2023-06-05",
+    "code": "P",
+    "value": 63730,
+    "who": "BLASZYK MICHAEL D"
+   },
+   {
+    "date": "2023-06-05",
+    "filed": "2023-06-05",
+    "code": "P",
+    "value": 132960,
+    "who": "BLASZYK MICHAEL D"
+   },
+   {
+    "date": "2023-06-05",
+    "filed": "2023-06-05",
+    "code": "P",
+    "value": 1334,
+    "who": "BLASZYK MICHAEL D"
+   },
+   {
+    "date": "2023-06-02",
+    "filed": "2023-06-05",
+    "code": "P",
+    "value": 13700,
+    "who": "Brennan John Owen"
+   },
+   {
+    "date": "2023-06-02",
+    "filed": "2023-06-05",
+    "code": "P",
+    "value": 28000,
+    "who": "Brennan John Owen"
+   },
+   {
+    "date": "2023-06-02",
+    "filed": "2023-06-05",
+    "code": "P",
+    "value": 29000,
+    "who": "Brennan John Owen"
+   },
+   {
+    "date": "2023-06-01",
+    "filed": "2023-06-05",
+    "code": "P",
+    "value": 20370,
+    "who": "Clark Wesley"
+   }
   ]
  },
  "drug": null,

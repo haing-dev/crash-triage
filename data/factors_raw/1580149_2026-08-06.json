@@ -3,43 +3,82 @@
  "cik": "1580149",
  "name": "BIOVIE INC.",
  "date": "2026-08-06",
- "asof": "2026-09-05",
+ "asof": "2026-08-07",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-09-08",
-  "adj_close": 2.07
+  "date": "2026-08-07",
+  "adj_close": 0.99900001
  },
  "balance": {
-  "end": "2026-06-30",
-  "cash": 8977370,
+  "end": "2026-03-31",
+  "cash": 13098976,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001520138-26-000332"
+  "accn": "0001520138-26-000313"
  },
  "burn": {
-  "end": "2026-06-30",
-  "months": 12.0,
-  "per_month": -1590975.5347252747
+  "end": "2026-03-31",
+  "ytd_months": 9.0,
+  "ytd": -14903200,
+  "accn": "0001520138-26-000313",
+  "ttm_per_month": -1709222.25,
+  "quarter_per_month": -2480536.3333333335,
+  "per_month": -1709222.25
  },
  "shares": {
-  "end": "2026-08-10",
-  "shares": 7542638,
+  "end": "2026-05-11",
+  "shares": 7541839,
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001520138-26-000313",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "price and trading volume of our Common Stock may be volatile. The market price and trading volume of our Common Stock has been volatile. We expect that the market price of our Common Stock will continue to fluctuate significantly for many reasons, including in response to the risk factors described in this prospectus or for reasons unrelated to our specific performance. In recent years, the stock "
+ },
  "insiders": {
   "form4s": 4,
-  "bought": 49118,
-  "sold": 0,
-  "buyers": [
-   "Chappell Amy Suzon",
-   "DO CUONG V",
-   "KIM JOANNE WENDY",
-   "Palumbo Joseph M"
+  "from": "2026-05-08",
+  "to": "2026-09-05",
+  "trades": [
+   {
+    "date": "2026-08-28",
+    "filed": "2026-08-28",
+    "code": "P",
+    "value": 10461,
+    "who": "Palumbo Joseph M"
+   },
+   {
+    "date": "2026-08-28",
+    "filed": "2026-08-28",
+    "code": "P",
+    "value": 1570,
+    "who": "Chappell Amy Suzon"
+   },
+   {
+    "date": "2026-08-28",
+    "filed": "2026-08-28",
+    "code": "P",
+    "value": 5450,
+    "who": "KIM JOANNE WENDY"
+   },
+   {
+    "date": "2026-08-27",
+    "filed": "2026-08-28",
+    "code": "P",
+    "value": 31637,
+    "who": "DO CUONG V"
+   }
   ]
  },
- "drug": null,
+ "drug": "bezisterim",
  "trials": {
   "query": "biovie",
   "other_trials": 1,

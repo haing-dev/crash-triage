@@ -3,20 +3,22 @@
  "cik": "2058707",
  "name": "Attovia Therapeutics, Inc.",
  "date": "2023-07-03",
- "asof": "2023-08-02",
+ "asof": "2023-07-06",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-08-02",
-  "adj_close": 9.9999997e-05
+  "date": "2023-07-06",
+  "adj_close": 0.5
  },
  "balance": null,
  "burn": null,
  "shares": null,
+ "filing": null,
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2023-04-04",
+  "to": "2023-08-02",
+  "trades": []
  },
  "drug": null,
  "trials": {

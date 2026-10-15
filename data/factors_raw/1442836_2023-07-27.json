@@ -3,28 +3,33 @@
  "cik": "1442836",
  "name": "Mersana Therapeutics, Inc.",
  "date": "2023-07-27",
- "asof": "2023-08-26",
+ "asof": "2023-08-02",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-08-28",
-  "adj_close": 30.75
+  "date": "2023-08-02",
+  "adj_close": 26.5
  },
  "balance": {
-  "end": "2023-06-30",
-  "cash": 128732000,
+  "end": "2023-03-31",
+  "cash": 122825000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001628280-23-027989"
+  "accn": "0001628280-23-016643"
  },
  "burn": {
-  "end": "2023-06-30",
-  "months": 5.9,
-  "per_month": -15361884.222222222
+  "end": "2023-03-31",
+  "ytd_months": 2.9,
+  "ytd": -29005000,
+  "accn": "0001628280-23-016643",
+  "ttm_per_month": -5867750.0,
+  "quarter_per_month": -9668333.333333334,
+  "per_month": -5867750.0
  },
  "shares": {
-  "end": "2023-08-04",
-  "shares": 120507291,
+  "end": "2023-05-05",
+  "shares": 114385810,
   "split_factor": 25.0,
   "splits_after": [
    [
@@ -33,11 +38,36 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001628280-23-016643",
+  "guided_until": "2024-07-15",
+  "guidance": "ings on the New Credit Facility will be sufficient to fund our current operating plan commitments into the second half of 2024. Our",
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "ckholders' Equity Shares Amount Balance at December 31, 2021 73,709,056 $ 7 $ 572,213 $ &#8212; $ ( 450,479 ) $ 121,741 Issuance of common stock from at-the-market transactions, net of issuance costs of $ 1,322 13,169,903 2 60,460 &#8212; &#8212; 60,462 Exercise of stock options 26,951 &#8212; 96 &#8212; &#8212; 96 Vesting of restricted stock units 167,174 &#8212; &#8212; &#8212; &#8212; &#8212; S"
+ },
  "insiders": {
-  "form4s": 1,
-  "bought": 0,
-  "sold": 2251,
-  "buyers": []
+  "form4s": 14,
+  "from": "2023-04-28",
+  "to": "2023-08-26",
+  "trades": [
+   {
+    "date": "2023-08-17",
+    "filed": "2023-08-18",
+    "code": "S",
+    "value": 2251,
+    "who": "MISRA TUSHAR"
+   },
+   {
+    "date": "2023-04-27",
+    "filed": "2023-04-28",
+    "code": "S",
+    "value": 15342,
+    "who": "Carvajal Alejandra"
+   }
+  ]
  },
  "drug": null,
  "trials": {

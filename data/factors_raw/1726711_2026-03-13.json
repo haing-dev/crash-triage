@@ -3,43 +3,70 @@
  "cik": "1726711",
  "name": "Aditxt, Inc.",
  "date": "2026-03-13",
- "asof": "2026-04-12",
+ "asof": "2026-03-13",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-04-13",
-  "adj_close": 12.6846
+  "date": "2026-03-13",
+  "adj_close": 49.14
  },
  "balance": {
-  "end": "2025-12-31",
-  "cash": 3198599,
+  "end": "2025-09-30",
+  "cash": 163041,
   "parts": [
-   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+   "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001213900-26-037529"
+  "accn": "0001213900-25-111638"
  },
  "burn": {
-  "end": "2025-12-31",
-  "months": 12.0,
-  "per_month": -2148224.3075824175
+  "end": "2025-09-30",
+  "ytd_months": 8.9,
+  "ytd": -16442686,
+  "accn": "0001213900-25-111638",
+  "ttm_per_month": -1882473.0,
+  "quarter_per_month": -781518.0,
+  "per_month": -1882473.0
  },
  "shares": {
-  "end": "2026-03-30",
-  "shares": 904468,
-  "split_factor": 24264.345,
+  "end": "2025-11-17",
+  "shares": 559444,
+  "split_factor": 159865635.897,
   "splits_after": [
+   [
+    "2026-03-31",
+    6588.5
+   ],
    [
     "2026-05-20",
     24264.34
    ]
   ]
  },
- "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+ "filing": {
+  "accn": "0001213900-25-111638",
+  "guided_until": null,
+  "guidance": "sufficient to fund our operations for the next 12 months",
+  "twelve_months": true,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "ant to which we may issue and sell up to $150 million of our common stock, which could result in significant dilution &#9679; we have entered into an At The Market Offering Agreement with H.C. Wainwright &amp; Co., LLC pursuant to which we may issue and sell up to $35 million of our common stock, which could result in significant dilution &#9679; our ability to remain compliant with the requiremen"
  },
- "drug": null,
+ "insiders": {
+  "form4s": 1,
+  "from": "2025-12-13",
+  "to": "2026-04-12",
+  "trades": [
+   {
+    "date": "2025-12-17",
+    "filed": "2025-12-19",
+    "code": "S",
+    "value": 2,
+    "who": "Brady Brian Michael"
+   }
+  ]
+ },
+ "drug": "n/a",
  "trials": {
   "query": "aditxt",
   "other_trials": 0,

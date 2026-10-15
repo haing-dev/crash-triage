@@ -3,45 +3,46 @@
  "cik": "1860871",
  "name": "Tevogen Inc.",
  "date": "2024-04-25",
- "asof": "2024-05-25",
+ "asof": "2024-04-25",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-05-28",
-  "adj_close": 39.65
+  "date": "2024-04-25",
+  "adj_close": 42.5
  },
  "balance": {
-  "end": "2023-12-31",
-  "cash": 8835,
+  "end": "2023-09-30",
+  "cash": 25000000,
   "parts": [
-   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+   "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001493152-24-016796"
+  "accn": "0001493152-23-040622"
  },
  "burn": {
-  "end": "2023-12-31",
-  "months": 12.0,
-  "per_month": -115099.24296703297
+  "end": "2023-09-30",
+  "ytd_months": 8.9,
+  "ytd": -682640,
+  "accn": "0001493152-23-040622",
+  "ttm_per_month": -58041.75,
+  "quarter_per_month": -69488.0,
+  "per_month": -58041.75
  },
- "shares": {
-  "end": "2024-04-26",
-  "shares": 164614418,
-  "split_factor": 2799.043,
-  "splits_after": [
-   [
-    "2026-03-31",
-    50.0
-   ],
-   [
-    "2026-08-14",
-    55.98
-   ]
-  ]
+ "shares": null,
+ "filing": {
+  "accn": "0001493152-23-040622",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
  },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 9,
+  "from": "2024-01-26",
+  "to": "2024-05-25",
+  "trades": []
  },
  "drug": null,
  "trials": {

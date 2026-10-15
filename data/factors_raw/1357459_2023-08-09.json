@@ -3,28 +3,33 @@
  "cik": "1357459",
  "name": "PALISADE BIO, INC.",
  "date": "2023-08-09",
- "asof": "2023-09-08",
+ "asof": "2023-08-09",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-09-08",
-  "adj_close": 11.4
+  "date": "2023-08-09",
+  "adj_close": 10.8
  },
  "balance": {
-  "end": "2023-06-30",
-  "cash": 16403000,
+  "end": "2023-03-31",
+  "cash": 13297000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0000950170-23-041459"
+  "accn": "0000950170-23-021374"
  },
  "burn": {
-  "end": "2023-06-30",
-  "months": 5.9,
-  "per_month": -968161.1111111111
+  "end": "2023-03-31",
+  "ytd_months": 2.9,
+  "ytd": -3526000,
+  "accn": "0000950170-23-021374",
+  "ttm_per_month": -1093500.0,
+  "quarter_per_month": -1175333.3333333333,
+  "per_month": -1093500.0
  },
  "shares": {
-  "end": "2023-08-08",
-  "shares": 6855744,
+  "end": "2023-05-08",
+  "shares": 6696982,
   "split_factor": 15.0,
   "splits_after": [
    [
@@ -33,11 +38,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0000950170-23-021374",
+  "guided_until": null,
+  "guidance": "sufficient to fund its anticipated level of operations for the next 12 months",
+  "twelve_months": true,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 1,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 11,
+  "from": "2023-05-11",
+  "to": "2023-09-08",
+  "trades": []
  },
  "drug": null,
  "trials": {

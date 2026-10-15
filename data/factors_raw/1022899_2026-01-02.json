@@ -3,11 +3,12 @@
  "cik": "1022899",
  "name": "Protagenic Therapeutics, Inc.\\new",
  "date": "2026-01-02",
- "asof": "2026-02-01",
+ "asof": "2026-01-06",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-02-02",
-  "adj_close": 0.49
+  "date": "2026-01-06",
+  "adj_close": 0.543
  },
  "balance": {
   "end": "2025-09-30",
@@ -19,7 +20,11 @@
  },
  "burn": {
   "end": "2025-09-30",
-  "months": 6.0,
+  "ytd_months": 6.0,
+  "ytd": -2562666,
+  "accn": "0001493152-25-025201",
+  "ttm_per_month": null,
+  "quarter_per_month": -465134.3333333333,
   "per_month": -428612.9287912088
  },
  "shares": {
@@ -28,13 +33,23 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001493152-25-025201",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": 1000000.0,
+  "atm_quote": "rom time to time for an aggregate initial offering price of up to $100 million. In July 2021, we entered into an At Market Issuance Agreement, or the ATM Agreement, with B. Riley Securities, Inc. and EF Hutton, division of Benchmark Investments, LLC, or the Sales Agents, under which we may issue and sell from time to time up to $10.0 million of our common stock through or to the Sales Agents, as a"
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2025-10-04",
+  "to": "2026-02-01",
+  "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "protagenic therapeutics new",
   "other_trials": 0,

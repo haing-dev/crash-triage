@@ -3,30 +3,39 @@
  "cik": "1729427",
  "name": "CNS Pharmaceuticals, Inc.",
  "date": "2025-03-25",
- "asof": "2025-04-24",
+ "asof": "2025-03-26",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-04-24",
-  "adj_close": 12.48
+  "date": "2025-03-26",
+  "adj_close": 16.92
  },
  "balance": {
-  "end": "2024-12-31",
-  "cash": 6461378,
+  "end": "2024-09-30",
+  "cash": 6973124,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001683168-25-002139"
+  "accn": "0001683168-24-008125"
  },
  "burn": {
-  "end": "2024-12-31",
-  "months": 12.0,
-  "per_month": -1427202.2508493152
+  "end": "2024-09-30",
+  "ytd_months": 9.0,
+  "ytd": -11642440,
+  "accn": "0001683168-24-008125",
+  "ttm_per_month": -1181566.0833333333,
+  "quarter_per_month": -2266663.3333333335,
+  "per_month": -1181566.0833333333
  },
  "shares": {
-  "end": "2025-03-31",
-  "shares": 2944381,
-  "split_factor": 7238.458,
+  "end": "2024-11-14",
+  "shares": 57486706,
+  "split_factor": 18095529.104,
   "splits_after": [
+   [
+    "2025-03-31",
+    2499.92
+   ],
    [
     "2025-08-14",
     602.63
@@ -37,11 +46,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001683168-24-008125",
+  "guided_until": "2025-03-15",
+  "guidance": "n hand as of the date of this filing is sufficient to fund our operations through the first quarter of 2025. We",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "es payable by the Company, and excluding the proceeds, if any, from the exercise of the Common Warrants. On July 26, 2024, the Company entered into a Sales Agreement (the &#8220;AGP ATM Sales Agreement&#8221;) with A.G.P./Alliance Global Partners (&#8220;AGP&#8221;). Pursuant to the terms of the AGP ATM Sales Agreement, the Company originally was permitted to sell from time to time through AGP, as"
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2024-12-25",
+  "to": "2025-04-24",
+  "trades": []
  },
  "drug": null,
  "trials": {

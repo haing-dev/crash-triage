@@ -3,11 +3,12 @@
  "cik": "1946563",
  "name": "60 DEGREES PHARMACEUTICALS, INC.",
  "date": "2024-01-30",
- "asof": "2024-02-29",
+ "asof": "2024-01-30",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-02-29",
-  "adj_close": 64.8
+  "date": "2024-01-30",
+  "adj_close": 73.68
  },
  "balance": {
   "end": "2023-09-30",
@@ -19,7 +20,11 @@
  },
  "burn": {
   "end": "2023-09-30",
-  "months": 8.9,
+  "ytd_months": 8.9,
+  "ytd": -4479242,
+  "accn": "0001213900-23-088610",
+  "ttm_per_month": null,
+  "quarter_per_month": -1251024.6666666667,
   "per_month": -501279.87676470587
  },
  "shares": {
@@ -45,13 +50,35 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001213900-23-088610",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
   "form4s": 2,
-  "bought": 84740,
-  "sold": 0,
-  "buyers": [
-   "DOW GEOFFREY S",
-   "XU CHERYL"
+  "from": "2023-11-01",
+  "to": "2024-02-29",
+  "trades": [
+   {
+    "date": "2024-01-31",
+    "filed": "2024-02-02",
+    "code": "P",
+    "value": 9740,
+    "who": "DOW GEOFFREY S"
+   },
+   {
+    "date": "2024-01-31",
+    "filed": "2024-02-02",
+    "code": "P",
+    "value": 75000,
+    "who": "XU CHERYL"
+   }
   ]
  },
  "drug": null,

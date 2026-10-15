@@ -3,11 +3,12 @@
  "cik": "1305253",
  "name": "Eiger BioPharmaceuticals, Inc.",
  "date": "2022-12-08",
- "asof": "2023-01-07",
+ "asof": "2022-12-08",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-01-09",
-  "adj_close": 35.4
+  "date": "2022-12-08",
+  "adj_close": 35.1
  },
  "balance": {
   "end": "2022-09-30",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2022-09-30",
-  "months": 8.9,
-  "per_month": -6800094.55882353
+  "ytd_months": 8.9,
+  "ytd": -60763000,
+  "accn": "0001305253-22-000008",
+  "ttm_per_month": -6460666.666666667,
+  "quarter_per_month": -6853333.333333333,
+  "per_month": -6460666.666666667
  },
  "shares": {
   "end": "2022-11-01",
@@ -34,12 +39,42 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001305253-22-000008",
+  "guided_until": null,
+  "guidance": "sufficient to fund its planned operations for at least the next 12 months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "' Equity Shares Amount Balance at December 31, 2021 34,568,821 $ 35 $ 412,930 $ ( 149 ) $ ( 340,417 ) $ 72,399 Issuance of common stock upon offering at-the-market, net of $ 1,288 of commissions 5,841,786 6 45,604 &#8212; &#8212; 45,610 Issuance of common stock upon exercise of stock options 15,995 &#8212; 144 &#8212; &#8212; 144 Vesting of common stock issued under Product Development Agreement &"
+ },
  "insiders": {
   "form4s": 3,
-  "bought": 127950,
-  "sold": 32406,
-  "buyers": [
-   "Glenn Jeffrey S"
+  "from": "2022-09-09",
+  "to": "2023-01-07",
+  "trades": [
+   {
+    "date": "2022-12-29",
+    "filed": "2023-01-03",
+    "code": "S",
+    "value": 6104,
+    "who": "Murray Christine"
+   },
+   {
+    "date": "2022-12-22",
+    "filed": "2022-12-27",
+    "code": "S",
+    "value": 26302,
+    "who": "Dietz Thomas John"
+   },
+   {
+    "date": "2022-12-22",
+    "filed": "2022-12-27",
+    "code": "P",
+    "value": 127950,
+    "who": "Glenn Jeffrey S"
+   }
   ]
  },
  "drug": null,

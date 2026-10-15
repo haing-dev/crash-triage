@@ -3,11 +3,12 @@
  "cik": "764195",
  "name": "VBI Vaccines Inc/BC",
  "date": "2023-07-06",
- "asof": "2023-08-05",
+ "asof": "2023-07-06",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-08-07",
-  "adj_close": 1.26
+  "date": "2023-07-06",
+  "adj_close": 1.18
  },
  "balance": {
   "end": "2023-03-31",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2023-03-31",
-  "months": 2.9,
-  "per_month": -7406838.651685393
+  "ytd_months": 2.9,
+  "ytd": -21656000,
+  "accn": "0001493152-23-016928",
+  "ttm_per_month": -6285500.0,
+  "quarter_per_month": -7218666.666666667,
+  "per_month": -6285500.0
  },
  "shares": {
   "end": "2023-05-12",
@@ -28,12 +33,28 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001493152-23-016928",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": 27022.0,
+  "atm_quote": "and sell our common shares having an aggregate price of up to $125,000 from time to time through Jefferies, acting as agent or principal (the &#8220;ATM Program&#8221;). The ATM Program replaced the Open Market Sale Agreements previously entered into with Jefferies on July 31, 2020 and September 3, 2021, pursuant to each of which we could offer and sell our common shares having an aggregate price "
+ },
  "insiders": {
-  "form4s": 13,
-  "bought": 1004998,
-  "sold": 0,
-  "buyers": [
-   "GILLIS STEVEN"
+  "form4s": 14,
+  "from": "2023-04-07",
+  "to": "2023-08-05",
+  "trades": [
+   {
+    "date": "2023-07-10",
+    "filed": "2023-07-18",
+    "code": "P",
+    "value": 1004998,
+    "who": "GILLIS STEVEN"
+   }
   ]
  },
  "drug": null,

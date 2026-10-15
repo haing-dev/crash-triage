@@ -3,11 +3,12 @@
  "cik": "2079272",
  "name": "Lakewood-Amedex Biotherapeutics Inc.",
  "date": "2026-09-28",
- "asof": "2026-10-15",
+ "asof": "2026-09-29",
  "final": false,
+ "version": 2,
  "price": {
-  "date": "2026-10-14",
-  "adj_close": 0.6877
+  "date": "2026-09-29",
+  "adj_close": 0.99000001
  },
  "balance": {
   "end": "2026-06-30",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2026-06-30",
-  "months": 5.9,
-  "per_month": -414951.48466666666
+  "ytd_months": 5.9,
+  "ytd": -2453721,
+  "accn": "0001213900-26-101512",
+  "ttm_per_month": -290481.3333333333,
+  "quarter_per_month": -701343.3333333334,
+  "per_month": -290481.3333333333
  },
  "shares": {
   "end": "2026-08-03",
@@ -29,13 +34,23 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001213900-26-101512",
+  "guided_until": null,
+  "guidance": "adequate to fund its limited overhead and other cash requirements over the next 12 months",
+  "twelve_months": true,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "ements of other companies that have adopted the new or revised accounting standards. We are also a &#8220;smaller reporting company,&#8221; meaning that the market value of our stock held by non-affiliates is less than $700 million, and our annual revenue was less than $100 million during our most recently completed fiscal year. We may continue to be a smaller reporting company if either (i) the m"
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2026-06-30",
+  "to": "2026-10-15",
+  "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "lakewood amedex biotherapeutics",
   "other_trials": 0,

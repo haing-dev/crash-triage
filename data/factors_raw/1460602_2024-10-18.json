@@ -3,41 +3,60 @@
  "cik": "1460602",
  "name": "Orgenesis Inc.",
  "date": "2024-10-18",
- "asof": "2024-11-17",
+ "asof": "2024-10-23",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-11-18",
-  "adj_close": 1.18
+  "date": "2024-10-23",
+  "adj_close": 1.15
  },
  "balance": {
-  "end": "2024-09-30",
-  "cash": 204000,
+  "end": "2024-06-30",
+  "cash": 77000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001493152-24-044972"
+  "accn": "0001493152-24-030760"
  },
  "burn": {
-  "end": "2024-09-30",
-  "months": 9.0,
-  "per_month": -1670074.4322344323
+  "end": "2024-06-30",
+  "ytd_months": 5.9,
+  "ytd": -10348000,
+  "accn": "0001493152-24-030760",
+  "ttm_per_month": -1002583.3333333334,
+  "quarter_per_month": -1969000.0,
+  "per_month": -1002583.3333333334
  },
  "shares": {
-  "end": "2024-11-13",
-  "shares": 5169248,
-  "split_factor": 10.0,
+  "end": "2024-08-08",
+  "shares": 46925906,
+  "split_factor": 100.0,
   "splits_after": [
+   [
+    "2024-11-13",
+    10.0
+   ],
    [
     "2026-03-26",
     10.0
    ]
   ]
  },
+ "filing": {
+  "accn": "0001493152-24-030760",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 2,
+  "from": "2024-07-20",
+  "to": "2024-11-17",
+  "trades": []
  },
  "drug": null,
  "trials": {

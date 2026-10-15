@@ -3,28 +3,33 @@
  "cik": "1810560",
  "name": "REVELATION BIOSCIENCES, INC.",
  "date": "2022-07-26",
- "asof": "2022-08-25",
+ "asof": "2022-07-26",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-08-25",
-  "adj_close": 84672.0
+  "date": "2022-07-26",
+  "adj_close": 98985.60156
  },
  "balance": {
-  "end": "2022-06-30",
-  "cash": 3475816,
+  "end": "2022-03-31",
+  "cash": 7186261,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0000950170-22-017405"
+  "accn": "0000950170-22-009906"
  },
  "burn": {
-  "end": "2022-06-30",
-  "months": 5.9,
-  "per_month": -1444295.3046666668
+  "end": "2022-03-31",
+  "ytd_months": 2.9,
+  "ytd": -4830066,
+  "accn": "0000950170-22-009906",
+  "ttm_per_month": -264469.3333333333,
+  "quarter_per_month": -1610022.0,
+  "per_month": -264469.3333333333
  },
  "shares": {
-  "end": "2022-08-11",
-  "shares": 23416105,
+  "end": "2022-05-13",
+  "shares": 15082771,
   "split_factor": 23148647354.308,
   "splits_after": [
    [
@@ -65,11 +70,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0000950170-22-009906",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2022-04-27",
+  "to": "2022-08-25",
+  "trades": []
  },
  "drug": null,
  "trials": {

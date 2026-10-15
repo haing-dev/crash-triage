@@ -3,11 +3,12 @@
  "cik": "1868734",
  "name": "CinCor Pharma, Inc.",
  "date": "2022-11-28",
- "asof": "2022-12-28",
+ "asof": "2022-11-30",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-12-28",
-  "adj_close": 11.55
+  "date": "2022-11-30",
+  "adj_close": 11.8
  },
  "balance": {
   "end": "2022-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2022-09-30",
-  "months": 8.9,
-  "per_month": -5862024.966911765
+  "ytd_months": 8.9,
+  "ytd": -52380775,
+  "accn": "0000950170-22-021582",
+  "ttm_per_month": -5356058.5,
+  "quarter_per_month": -5038160.333333333,
+  "per_month": -5356058.5
  },
  "shares": {
   "end": "2022-11-03",
@@ -28,11 +33,21 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0000950170-22-021582",
+  "guided_until": "2026-01-15",
+  "guidance": "quivalents and marketable securities is sufficient to fund its operating expenses and capital expenditure requirements into 2026, inc",
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "filer under the Securities Exchange Act of 1934, as amended, or the Exchange Act. We are also a &#x201c;smaller reporting company,&#x201d; meaning that the market value of our stock held by non-affiliates is less than $700 million and our annual revenue was less than $100 million during the most recently completed fiscal year. We may continue to be a smaller reporting company if either (i) the mar"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 2,
+  "from": "2022-08-30",
+  "to": "2022-12-28",
+  "trades": []
  },
  "drug": null,
  "trials": {

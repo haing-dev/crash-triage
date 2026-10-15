@@ -3,30 +3,39 @@
  "cik": "1726711",
  "name": "Aditxt, Inc.",
  "date": "2025-10-28",
- "asof": "2025-11-27",
+ "asof": "2025-10-29",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-11-28",
-  "adj_close": 820.8
+  "date": "2025-10-29",
+  "adj_close": 2794.72
  },
  "balance": {
-  "end": "2025-09-30",
-  "cash": 163041,
+  "end": "2025-06-30",
+  "cash": 323679,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001213900-25-111638"
+  "accn": "0001213900-25-076710"
  },
  "burn": {
-  "end": "2025-09-30",
-  "months": 8.9,
-  "per_month": -1840130.0067647058
+  "end": "2025-06-30",
+  "ytd_months": 5.9,
+  "ytd": -14098132,
+  "accn": "0001213900-25-076710",
+  "ttm_per_month": -1884120.5,
+  "quarter_per_month": -794912.3333333334,
+  "per_month": -1884120.5
  },
  "shares": {
-  "end": "2025-11-17",
-  "shares": 559444,
-  "split_factor": 159865635.897,
+  "end": "2025-08-13",
+  "shares": 4976555,
+  "split_factor": 5370046575401.069,
   "splits_after": [
+   [
+    "2025-11-18",
+    33591.0
+   ],
    [
     "2026-03-31",
     6588.5
@@ -37,11 +46,29 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001213900-25-076710",
+  "guided_until": null,
+  "guidance": "sufficient to fund our operations for the next 12 months",
+  "twelve_months": true,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "nt to which we may issue and sell up to $150 million of our common stock, which could result in significant dilution; &#9679; we have entered into an At The Market Offering Agreement with H.C. Wainwright &amp; Co., LLC pursuant to which we may issue and sell up to $35 million of our common stock, which could result in significant dilution &#9679; On April 8, 2025, we received a letter from The Nas"
+ },
  "insiders": {
   "form4s": 1,
-  "bought": 0,
-  "sold": 3,
-  "buyers": []
+  "from": "2025-07-30",
+  "to": "2025-11-27",
+  "trades": [
+   {
+    "date": "2025-11-25",
+    "filed": "2025-11-26",
+    "code": "S",
+    "value": 3,
+    "who": "Pankovcin Corinne"
+   }
+  ]
  },
  "drug": null,
  "trials": {

@@ -3,11 +3,12 @@
  "cik": "1300699",
  "name": "Athenex, Inc.",
  "date": "2022-08-11",
- "asof": "2022-09-10",
+ "asof": "2022-08-17",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-09-12",
-  "adj_close": 9.05
+  "date": "2022-08-17",
+  "adj_close": 10.0
  },
  "balance": {
   "end": "2022-06-30",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2021-09-30",
-  "months": 8.9,
-  "per_month": -11635018.529411765
+  "ytd_months": 8.9,
+  "ytd": -103966000,
+  "accn": "0001564590-21-054283",
+  "ttm_per_month": -11510083.333333334,
+  "quarter_per_month": -11625333.333333334,
+  "per_month": -11510083.333333334
  },
  "shares": {
   "end": "2022-07-22",
@@ -29,13 +34,35 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0000950170-22-013461",
+  "guided_until": null,
+  "guidance": "sufficient to fund our operations through the next twelve months",
+  "twelve_months": true,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "ns, management&#x2019;s plans include seeking additional funding through planned product launches, raising capital, including leveraging the existing sales agreement with SVB Securities LLC (described below), asset monetization and/or seeking funding through alternative means. There can be no assurances, however, that additional funding will be available on favorable terms, or at all. Because mana"
+ },
  "insiders": {
-  "form4s": 15,
-  "bought": 13319,
-  "sold": 0,
-  "buyers": [
-   "LAU JOHNSON YIU NAM",
-   "WU JINN"
+  "form4s": 52,
+  "from": "2022-05-13",
+  "to": "2022-09-10",
+  "trades": [
+   {
+    "date": "2022-08-22",
+    "filed": "2022-08-30",
+    "code": "P",
+    "value": 4221,
+    "who": "WU JINN"
+   },
+   {
+    "date": "2022-08-19",
+    "filed": "2022-08-19",
+    "code": "P",
+    "value": 9098,
+    "who": "LAU JOHNSON YIU NAM"
+   }
   ]
  },
  "drug": null,

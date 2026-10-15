@@ -3,30 +3,39 @@
  "cik": "1615219",
  "name": "Decoy Therapeutics Inc.",
  "date": "2025-11-11",
- "asof": "2025-12-11",
+ "asof": "2025-11-11",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-12-11",
-  "adj_close": 9.72
+  "date": "2025-11-11",
+  "adj_close": 11.76
  },
  "balance": {
-  "end": "2025-09-30",
-  "cash": 4809680,
+  "end": "2025-06-30",
+  "cash": 794886,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001615219-25-000164"
+  "accn": "0001615219-25-000096"
  },
  "burn": {
-  "end": "2025-09-30",
-  "months": 8.9,
-  "per_month": -413032.75
+  "end": "2025-06-30",
+  "ytd_months": 5.9,
+  "ytd": -2044011,
+  "accn": "0001615219-25-000096",
+  "ttm_per_month": -345266.75,
+  "quarter_per_month": -287432.3333333333,
+  "per_month": -345266.75
  },
  "shares": {
-  "end": "2025-11-12",
-  "shares": 5862178,
-  "split_factor": 504731.224,
+  "end": "2025-08-11",
+  "shares": 7645594,
+  "split_factor": 7571015.6,
   "splits_after": [
+   [
+    "2025-11-14",
+    15.0
+   ],
    [
     "2026-03-31",
     12.0
@@ -41,16 +50,38 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001615219-25-000096",
+  "guided_until": "2026-06-15",
+  "guidance": "elieves its existing cash resources are sufficient to meet its anticipated needs beyond the second quarter of 2026. Our",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "e to the short-term nature of these instruments. NOTE 6. STOCKHOLDERS' EQUITY Common Stock Issuances On February 5, 2021, the Company entered into an At the Market Offering Agreement (\"ATM\") with Ladenburg Thalmann &amp; Co. Inc. Under this agreement the Company is able to issue and sell, from time to time, shares of its common stock. During the six months ended June 30, 2025 and 2024, the Company"
+ },
  "insiders": {
   "form4s": 2,
-  "bought": 19740,
-  "sold": 0,
-  "buyers": [
-   "HANISH ARNOLD C",
-   "Rosenblum Mark J"
+  "from": "2025-08-13",
+  "to": "2025-12-11",
+  "trades": [
+   {
+    "date": "2025-11-20",
+    "filed": "2025-11-24",
+    "code": "P",
+    "value": 3740,
+    "who": "HANISH ARNOLD C"
+   },
+   {
+    "date": "2025-11-20",
+    "filed": "2025-11-20",
+    "code": "P",
+    "value": 16000,
+    "who": "Rosenblum Mark J"
+   }
   ]
  },
- "drug": null,
+ "drug": "SP-3164",
  "trials": {
   "query": "decoy therapeutics",
   "other_trials": 0,

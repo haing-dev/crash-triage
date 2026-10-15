@@ -3,28 +3,33 @@
  "cik": "1837607",
  "name": "AEON Biopharma, Inc.",
  "date": "2024-05-03",
- "asof": "2024-06-02",
+ "asof": "2024-05-03",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-06-03",
-  "adj_close": 118.080002
+  "date": "2024-05-03",
+  "adj_close": 122.4
  },
  "balance": {
-  "end": "2024-03-31",
-  "cash": 1558000,
+  "end": "2023-12-31",
+  "cash": 5158000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001837607-24-000063"
+  "accn": "0001837607-24-000015"
  },
  "burn": {
-  "end": "2024-03-31",
-  "months": 3.0,
-  "per_month": -2908711.111111111
+  "end": "2023-12-31",
+  "ytd_months": 5.3,
+  "ytd": -26081000,
+  "accn": "0001837607-24-000015",
+  "ttm_per_month": null,
+  "quarter_per_month": -3673333.3333333335,
+  "per_month": -4900652.098765432
  },
  "shares": {
-  "end": "2024-05-09",
-  "shares": 39122238,
+  "end": "2024-03-26",
+  "shares": 37788858,
   "split_factor": 71.958,
   "splits_after": [
    [
@@ -33,11 +38,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001837607-24-000015",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": ", LLC, each of which have approximately 2% of the global market share for therapeutic botulinum toxin treatments. Our Market Opportunity We believe that the markets for our initial target indications of migraine, cervical dystonia and gastroparesis represent a significant opportunity above the current market estimates for therapeutic botulinum toxin. Taken together, we estimate that our target ind"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 9,
+  "from": "2024-02-03",
+  "to": "2024-06-02",
+  "trades": []
  },
  "drug": null,
  "trials": {

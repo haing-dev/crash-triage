@@ -3,11 +3,12 @@
  "cik": "1641281",
  "name": "Bolt Biotherapeutics, Inc.",
  "date": "2021-12-06",
- "asof": "2022-01-05",
+ "asof": "2021-12-09",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-01-05",
-  "adj_close": 84.0
+  "date": "2021-12-09",
+  "adj_close": 86.4
  },
  "balance": {
   "end": "2021-09-30",
@@ -21,7 +22,11 @@
  },
  "burn": {
   "end": "2021-09-30",
-  "months": 8.9,
+  "ytd_months": 8.9,
+  "ytd": -39272000,
+  "accn": "0001564590-21-055774",
+  "ttm_per_month": null,
+  "quarter_per_month": -6242333.333333333,
   "per_month": -4394998.823529412
  },
  "shares": {
@@ -35,12 +40,42 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001564590-21-055774",
+  "guided_until": null,
+  "guidance": "sufficient to fund our operations for at least the next 12 months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 2,
-  "bought": 44067,
-  "sold": 0,
-  "buyers": [
-   "Quinn William P."
+  "form4s": 4,
+  "from": "2021-09-07",
+  "to": "2022-01-05",
+  "trades": [
+   {
+    "date": "2021-06-04",
+    "filed": "2021-12-09",
+    "code": "P",
+    "value": 20330,
+    "who": "Quinn William P."
+   },
+   {
+    "date": "2021-12-06",
+    "filed": "2021-12-09",
+    "code": "P",
+    "value": 162,
+    "who": "Quinn William P."
+   },
+   {
+    "date": "2021-12-08",
+    "filed": "2021-12-09",
+    "code": "P",
+    "value": 23575,
+    "who": "Quinn William P."
+   }
   ]
  },
  "drug": null,

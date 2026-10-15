@@ -3,11 +3,12 @@
  "cik": "1649989",
  "name": "Outlook Therapeutics, Inc.",
  "date": "2025-08-28",
- "asof": "2025-09-27",
+ "asof": "2025-08-29",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-09-29",
-  "adj_close": 1.06
+  "date": "2025-08-29",
+  "adj_close": 0.85100001
  },
  "balance": {
   "end": "2025-06-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2025-06-30",
-  "months": 8.9,
-  "per_month": -4415169.8
+  "ytd_months": 8.9,
+  "ytd": -39452240,
+  "accn": "0001558370-25-011588",
+  "ttm_per_month": -4702844.583333333,
+  "quarter_per_month": -3967053.0,
+  "per_month": -4702844.583333333
  },
  "shares": {
   "end": "2025-08-11",
@@ -28,11 +33,21 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001558370-25-011588",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "lities that might result from the outcome of this uncertainty. Subsequent to June 30, 2025, the Company sold 940,478 shares of common stock under the ATM Agreement (refer to Note 9 for further details) and generated $ 1,875,835 in net proceeds after paying fees to BTIG and other issuance costs of $ 58,016 . 5 Table of Contents Outlook Therapeutics, Inc. Notes to Unaudited Interim Consolidated Fina"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 1,
+  "from": "2025-05-30",
+  "to": "2025-09-27",
+  "trades": []
  },
  "drug": null,
  "trials": {

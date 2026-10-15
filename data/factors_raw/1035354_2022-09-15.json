@@ -3,11 +3,12 @@
  "cik": "1035354",
  "name": "Eloxx Pharmaceuticals, Inc.",
  "date": "2022-09-15",
- "asof": "2022-10-15",
+ "asof": "2022-09-19",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-10-17",
-  "adj_close": 70.4
+  "date": "2022-09-19",
+  "adj_close": 83.6
  },
  "balance": {
   "end": "2022-06-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2022-06-30",
-  "months": 5.9,
-  "per_month": -3253359.5555555555
+  "ytd_months": 5.9,
+  "ytd": -19238000,
+  "accn": "0001564590-22-029339",
+  "ttm_per_month": -3063083.3333333335,
+  "quarter_per_month": -3249000.0,
+  "per_month": -3063083.3333333335
  },
  "shares": {
   "end": "2022-08-10",
@@ -37,11 +42,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001564590-22-029339",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "tanding, with a weighted average exercise price of $ 4.31 per share. The weighted average remaining contractual life at June 30, 2022 was 1.24 years. ATM Program On September 30, 2021, we entered into a Sales Agreement with SVB Leerink, LLC (&#8220;SVB Leerink&#8221;) pursuant to which the Company may offer and sell up to $ 50.0 million of shares of its common stock (the &#8220;ATM Shares&#8221;) "
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 9,
+  "from": "2022-06-17",
+  "to": "2022-10-15",
+  "trades": []
  },
  "drug": null,
  "trials": {

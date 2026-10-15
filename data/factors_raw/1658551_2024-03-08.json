@@ -3,11 +3,12 @@
  "cik": "1658551",
  "name": "Amylyx Pharmaceuticals, Inc.",
  "date": "2024-03-08",
- "asof": "2024-04-07",
+ "asof": "2024-03-08",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-04-08",
-  "adj_close": 2.69
+  "date": "2024-03-08",
+  "adj_close": 3.36
  },
  "balance": {
   "end": "2023-12-31",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2023-12-31",
-  "months": 12.0,
-  "per_month": 996742.7472527473
+  "ytd_months": 12.0,
+  "ytd": 11919000,
+  "accn": "0000950170-24-018447",
+  "ttm_per_month": 993250.0,
+  "quarter_per_month": 4517000.0,
+  "per_month": 993250.0
  },
  "shares": {
   "end": "2024-02-12",
@@ -29,11 +34,92 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0000950170-24-018447",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "d, if approved, would provide a significant improvement in safety and effectiveness compared to available therapies. The FDA determines at the time that the marketing application is submitted, on a case-by-case basis, whether the proposed drug represents a significant improvement in treatment, prevention or diagnosis of disease when compared with other available therapies. The FDA will attempt to "
+ },
  "insiders": {
-  "form4s": 1,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 18,
+  "from": "2023-12-09",
+  "to": "2024-04-07",
+  "trades": [
+   {
+    "date": "2024-03-05",
+    "filed": "2024-03-07",
+    "code": "S",
+    "value": 77440,
+    "who": "Cohen Joshua B"
+   },
+   {
+    "date": "2024-03-05",
+    "filed": "2024-03-07",
+    "code": "S",
+    "value": 77440,
+    "who": "Klee Justin B."
+   },
+   {
+    "date": "2024-03-05",
+    "filed": "2024-03-07",
+    "code": "S",
+    "value": 33560,
+    "who": "FRATES JAMES M"
+   },
+   {
+    "date": "2024-03-05",
+    "filed": "2024-03-07",
+    "code": "S",
+    "value": 28841,
+    "who": "Mazzariello Gina"
+   },
+   {
+    "date": "2024-02-23",
+    "filed": "2024-02-27",
+    "code": "S",
+    "value": 53231,
+    "who": "Mazzariello Gina"
+   },
+   {
+    "date": "2024-01-09",
+    "filed": "2024-01-11",
+    "code": "S",
+    "value": 95372,
+    "who": "Klee Justin B."
+   },
+   {
+    "date": "2024-01-09",
+    "filed": "2024-01-11",
+    "code": "S",
+    "value": 44347,
+    "who": "FRATES JAMES M"
+   },
+   {
+    "date": "2024-01-09",
+    "filed": "2024-01-11",
+    "code": "S",
+    "value": 95372,
+    "who": "Cohen Joshua B"
+   },
+   {
+    "date": "2024-01-09",
+    "filed": "2024-01-11",
+    "code": "S",
+    "value": 45915,
+    "who": "Yeramian Patrick D"
+   },
+   {
+    "date": "2023-12-15",
+    "filed": "2023-12-19",
+    "code": "P",
+    "value": 59880,
+    "who": "Firestone Karen"
+   }
+  ]
  },
  "drug": null,
  "trials": {

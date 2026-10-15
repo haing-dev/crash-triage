@@ -3,36 +3,52 @@
  "cik": "1600847",
  "name": "Gamida Cell Ltd.",
  "date": "2023-03-27",
- "asof": "2023-04-26",
+ "asof": "2023-03-27",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-04-26",
-  "adj_close": 1.54
+  "date": "2023-03-27",
+  "adj_close": 0.68
  },
  "balance": {
-  "end": "2022-12-31",
-  "cash": 64657000,
+  "end": "2022-09-30",
+  "cash": 61295000,
   "parts": [
-   "CashAndCashEquivalentsAtCarryingValue"
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
   ],
-  "accn": "0001213900-23-024935"
+  "accn": "0001213900-22-072162"
  },
  "burn": {
-  "end": "2022-12-31",
-  "months": 12.0,
-  "per_month": -5889220.10989011
+  "end": "2022-09-30",
+  "ytd_months": 8.9,
+  "ytd": -54245000,
+  "accn": "0001213900-22-072162",
+  "ttm_per_month": -6214833.333333333,
+  "quarter_per_month": -4885333.333333333,
+  "per_month": -6214833.333333333
  },
  "shares": {
-  "end": "2023-03-29",
-  "shares": 81494442,
+  "end": "2022-11-10",
+  "shares": 74380810,
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001213900-22-072162",
+  "guided_until": "2023-07-15",
+  "guidance": "ur current total existing funds will be sufficient to fund our operations into mid-2023, exc",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "our ordinary shares having an aggregate gross sales price of up to $50.0 million from time to time through Jefferies LLC. Pursuant to the Open Market Sales Agreement and upon delivery of notice by us, Jefferies may sell our ordinary shares under an &#8220;at the market offering.&#8221; From inception through to December 31, 2021 we did not sell any shares under this facility. During the nine month"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 13,
+  "from": "2022-12-27",
+  "to": "2023-04-26",
+  "trades": []
  },
  "drug": null,
  "trials": {

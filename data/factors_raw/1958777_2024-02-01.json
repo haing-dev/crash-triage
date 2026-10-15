@@ -3,41 +3,22 @@
  "cik": "1958777",
  "name": "FibroBiologics, Inc.",
  "date": "2024-02-01",
- "asof": "2024-03-02",
+ "asof": "2024-02-07",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-03-04",
-  "adj_close": 181.8
+  "date": "2024-02-07",
+  "adj_close": 173.60001
  },
- "balance": {
-  "end": "2023-12-31",
-  "cash": 9163000,
-  "parts": [
-   "CashAndCashEquivalentsAtCarryingValue"
-  ],
-  "accn": "0001493152-24-008361"
- },
- "burn": {
-  "end": "2023-12-31",
-  "months": 12.0,
-  "per_month": -535292.4175824176
- },
- "shares": {
-  "end": "2024-02-20",
-  "shares": 32634366,
-  "split_factor": 20.0,
-  "splits_after": [
-   [
-    "2026-04-30",
-    20.0
-   ]
-  ]
- },
+ "balance": null,
+ "burn": null,
+ "shares": null,
+ "filing": null,
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2023-11-03",
+  "to": "2024-03-02",
+  "trades": []
  },
  "drug": null,
  "trials": {

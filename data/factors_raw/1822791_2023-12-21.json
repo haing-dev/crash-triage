@@ -3,11 +3,12 @@
  "cik": "1822791",
  "name": "Clene Inc.",
  "date": "2023-12-21",
- "asof": "2024-01-20",
+ "asof": "2023-12-27",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-01-22",
-  "adj_close": 9.4
+  "date": "2023-12-27",
+  "adj_close": 5.2
  },
  "balance": {
   "end": "2023-09-30",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2023-09-30",
-  "months": 8.9,
-  "per_month": -2573858.676470588
+  "ytd_months": 8.9,
+  "ytd": -22999000,
+  "accn": "0001437749-23-030487",
+  "ttm_per_month": -2559583.3333333335,
+  "quarter_per_month": -2253333.3333333335,
+  "per_month": -2559583.3333333335
  },
  "shares": {
   "end": "2023-11-03",
@@ -34,11 +39,29 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001437749-23-030487",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "ed in) investing activities 4,713 ( 12,446 ) Cash flows from financing activities: Proceeds from exercise of stock options &#x2014; 284 Proceeds from at-the-market offering &#x2014; 132 Payments of at-the-market offering commissions &#x2014; ( 4 ) Proceeds from issuance of common stock and warrants, net of offering costs 42,094 &#x2014; Payments of finance lease obligations ( 63 ) ( 101 ) Proceeds"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 8,
+  "from": "2023-09-22",
+  "to": "2024-01-20",
+  "trades": [
+   {
+    "date": "2023-11-10",
+    "filed": "2023-11-13",
+    "code": "P",
+    "value": 102501,
+    "who": "MATLIN DAVID J"
+   }
+  ]
  },
  "drug": null,
  "trials": {

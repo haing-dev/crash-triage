@@ -3,36 +3,51 @@
  "cik": "1541157",
  "name": "Akari Therapeutics Plc",
  "date": "2026-05-12",
- "asof": "2026-06-11",
+ "asof": "2026-05-12",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-06-11",
-  "adj_close": 14.82
+  "date": "2026-05-12",
+  "adj_close": 3.06
  },
  "balance": {
-  "end": "2026-03-31",
-  "cash": 2768000,
+  "end": "2025-12-31",
+  "cash": 0,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001493152-26-024446"
+  "accn": "0001493152-26-013664"
  },
  "burn": {
-  "end": "2026-03-31",
-  "months": 2.9,
-  "per_month": -850951.9101123596
+  "end": "2025-12-31",
+  "ytd_months": 12.0,
+  "ytd": -10568000,
+  "accn": "0001493152-26-013664",
+  "ttm_per_month": -880666.6666666666,
+  "quarter_per_month": -1013666.6666666666,
+  "per_month": -880666.6666666666
  },
  "shares": {
-  "end": "2026-05-19",
+  "end": "2026-03-01",
   "shares": 91567009533,
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001493152-26-013664",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 1,
+  "from": "2026-02-11",
+  "to": "2026-06-11",
+  "trades": []
  },
  "drug": null,
  "trials": {

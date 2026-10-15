@@ -3,11 +3,12 @@
  "cik": "1341235",
  "name": "Aldeyra Therapeutics, Inc.",
  "date": "2021-12-21",
- "asof": "2022-01-20",
+ "asof": "2021-12-21",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-01-20",
-  "adj_close": 3.47
+  "date": "2021-12-21",
+  "adj_close": 3.5
  },
  "balance": {
   "end": "2021-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2021-09-30",
-  "months": 8.9,
-  "per_month": -3466825.924705882
+  "ytd_months": 8.9,
+  "ytd": -30978208,
+  "accn": "0000950170-21-002456",
+  "ttm_per_month": -3274617.0833333335,
+  "quarter_per_month": -2811366.6666666665,
+  "per_month": -3274617.0833333335
  },
  "shares": {
   "end": "2021-10-26",
@@ -28,11 +33,21 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0000950170-21-002456",
+  "guided_until": "2023-12-15",
+  "guidance": "ents, as of September 30, 2021, will be sufficient to fund currently projected operating expenses through the end of 2023, inc",
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "t unobservable, that may be used to measure fair value, which are the following: Level 1 &#x2013; Quoted prices in active markets that are accessible at the market date for identical unrestricted assets or liabilities. Level 2 &#x2013; Inputs other than Level 1 that are observable, either directly or indirectly, such as quoted prices for similar assets or liabilities; quoted prices in markets that"
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2021-09-22",
+  "to": "2022-01-20",
+  "trades": []
  },
  "drug": null,
  "trials": {

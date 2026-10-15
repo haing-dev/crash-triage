@@ -3,11 +3,12 @@
  "cik": "1621221",
  "name": "ARTELO BIOSCIENCES, INC.",
  "date": "2025-09-04",
- "asof": "2025-10-04",
+ "asof": "2025-09-04",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-10-06",
-  "adj_close": 13.47
+  "date": "2025-09-04",
+  "adj_close": 13.05
  },
  "balance": {
   "end": "2025-06-30",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2025-06-30",
-  "months": 5.9,
-  "per_month": -356993.55555555556
+  "ytd_months": 5.9,
+  "ytd": -2111000,
+  "accn": "0001640334-25-001429",
+  "ttm_per_month": -454666.6666666667,
+  "quarter_per_month": -171333.33333333334,
+  "per_month": -454666.6666666667
  },
  "shares": {
   "end": "2025-08-12",
@@ -29,11 +34,21 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001640334-25-001429",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "#8221; Total gross proceeds were $ 1,425 , net proceeds were $ 1,079 after transaction costs of $ 346 . On July 18, 2025, the Company entered into an At-The-Market Offering Agreement (the &#8220;Sales Agreement&#8221;) with R.F. Lafferty &amp; Co., Inc. (&#8220;R.F. Lafferty&#8221;) under which we may offer and sell up to $ 6.5 million of shares of our common stock from time to time through an &#8"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 1,
+  "from": "2025-06-06",
+  "to": "2025-10-04",
+  "trades": []
  },
  "drug": null,
  "trials": {

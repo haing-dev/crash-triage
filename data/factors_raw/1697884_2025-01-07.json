@@ -3,11 +3,12 @@
  "cik": "1697884",
  "name": "VITASPRING BIOMEDICAL CO. LTD.",
  "date": "2025-01-07",
- "asof": "2025-02-06",
+ "asof": "2025-01-07",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-02-06",
-  "adj_close": 0.15
+  "date": "2025-01-07",
+  "adj_close": 0.1
  },
  "balance": {
   "end": "2022-10-31",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2022-10-31",
-  "months": 8.9,
-  "per_month": 9306.806176470587
+  "ytd_months": 8.9,
+  "ytd": 83162,
+  "accn": "0001697884-22-000018",
+  "ttm_per_month": 34135.666666666664,
+  "quarter_per_month": -820.0,
+  "per_month": 34135.666666666664
  },
  "shares": {
   "end": "2022-10-31",
@@ -28,11 +33,21 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001697884-22-000018",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2024-10-09",
+  "to": "2025-02-06",
+  "trades": []
  },
  "drug": null,
  "trials": {

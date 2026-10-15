@@ -3,31 +3,39 @@
  "cik": "1840563",
  "name": "PMGC Holdings Inc.",
  "date": "2025-03-06",
- "asof": "2025-04-05",
+ "asof": "2025-03-12",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-04-07",
-  "adj_close": 3444.21045
+  "date": "2025-03-12",
+  "adj_close": 3461.052734
  },
  "balance": {
-  "end": "2024-12-31",
-  "cash": 4123537,
+  "end": "2024-09-30",
+  "cash": 6425670,
   "parts": [
-   "CashAndCashEquivalentsAtCarryingValue",
-   "MarketableSecuritiesNoncurrent"
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
   ],
-  "accn": "0001013762-25-003553"
+  "accn": "0001213900-24-097678"
  },
  "burn": {
-  "end": "2024-12-31",
-  "months": 12.0,
-  "per_month": -457599.09917808225
+  "end": "2024-09-30",
+  "ytd_months": 9.0,
+  "ytd": -3486435,
+  "accn": "0001213900-24-097678",
+  "ttm_per_month": -489548.75,
+  "quarter_per_month": -127226.0,
+  "per_month": -489548.75
  },
  "shares": {
-  "end": "2025-03-26",
-  "shares": 707106,
-  "split_factor": 411800.417,
+  "end": "2024-11-13",
+  "shares": 517661269,
+  "split_factor": 576495799.092,
   "splits_after": [
+   [
+    "2025-03-28",
+    1399.94
+   ],
    [
     "2025-11-14",
     4900.29
@@ -38,11 +46,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001213900-24-097678",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
   "form4s": 2,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2024-12-06",
+  "to": "2025-04-05",
+  "trades": []
  },
  "drug": null,
  "trials": {

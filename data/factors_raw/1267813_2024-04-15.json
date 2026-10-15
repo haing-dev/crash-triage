@@ -3,37 +3,88 @@
  "cik": "1267813",
  "name": "MARINUS PHARMACEUTICALS, INC.",
  "date": "2024-04-15",
- "asof": "2024-05-15",
+ "asof": "2024-04-16",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-05-15",
-  "adj_close": 1.33
+  "date": "2024-04-16",
+  "adj_close": 1.2
  },
  "balance": {
-  "end": "2024-03-31",
-  "cash": 113253000,
+  "end": "2023-12-31",
+  "cash": 150288000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue",
    "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
   ],
-  "accn": "0001558370-24-007187"
+  "accn": "0001558370-24-002479"
  },
  "burn": {
-  "end": "2024-03-31",
-  "months": 3.0,
-  "per_month": -12670142.666666668
+  "end": "2023-12-31",
+  "ytd_months": 12.0,
+  "ytd": -118001000,
+  "accn": "0001558370-24-002479",
+  "ttm_per_month": -9833416.666666666,
+  "quarter_per_month": -8997333.333333334,
+  "per_month": -9833416.666666666
  },
  "shares": {
-  "end": "2024-05-03",
-  "shares": 54933774,
+  "end": "2024-02-29",
+  "shares": 54642580,
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001558370-24-002479",
+  "guided_until": "2024-10-15",
+  "guidance": "ents and Short-term investments will be sufficient to fund our operating expenses and capital expenditure requirements, as well as maintain the minimum cash balance required under our debt facility, into the fourth quarter of 2024; &#9",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "y Distribution Agreement (EDA) with JMP Securities LLC (JMP), as amended by the March 31, 2023 Amendment No. 1 to the EDA (Amended EDA), to create an at the market equity program under which we from time to time may offer and sell shares of our common stock without a specified maximum aggregate offering price. The Amended EDA was entered into in connection with our filing of a Registration Stateme"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 19,
+  "from": "2024-01-16",
+  "to": "2024-05-15",
+  "trades": [
+   {
+    "date": "2024-02-20",
+    "filed": "2024-02-22",
+    "code": "S",
+    "value": 20583,
+    "who": "Shafer Christina"
+   },
+   {
+    "date": "2024-02-20",
+    "filed": "2024-02-22",
+    "code": "S",
+    "value": 18126,
+    "who": "MANNING MARTHA E"
+   },
+   {
+    "date": "2024-02-16",
+    "filed": "2024-02-21",
+    "code": "S",
+    "value": 28084,
+    "who": "Hulihan Joseph"
+   },
+   {
+    "date": "2024-02-16",
+    "filed": "2024-02-21",
+    "code": "S",
+    "value": 30827,
+    "who": "Pfanstiel Steven"
+   },
+   {
+    "date": "2024-02-16",
+    "filed": "2024-02-21",
+    "code": "S",
+    "value": 117789,
+    "who": "Braunstein Scott"
+   }
+  ]
  },
  "drug": null,
  "trials": {

@@ -3,36 +3,115 @@
  "cik": "1293310",
  "name": "HUMANIGEN, INC",
  "date": "2022-07-13",
- "asof": "2022-08-12",
+ "asof": "2022-07-18",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-08-12",
-  "adj_close": 0.363
+  "date": "2022-07-18",
+  "adj_close": 0.4712
  },
  "balance": {
-  "end": "2022-06-30",
-  "cash": 47046000,
+  "end": "2022-03-31",
+  "cash": 68948000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001214659-22-010013"
+  "accn": "0001214659-22-006352"
  },
  "burn": {
-  "end": "2022-06-30",
-  "months": 5.9,
-  "per_month": -7579390.888888889
+  "end": "2022-03-31",
+  "ytd_months": 2.9,
+  "ytd": -19442000,
+  "accn": "0001214659-22-006352",
+  "ttm_per_month": -13971916.666666666,
+  "quarter_per_month": -6480666.666666667,
+  "per_month": -13971916.666666666
  },
  "shares": {
-  "end": "2022-08-09",
-  "shares": 103660938,
+  "end": "2022-05-02",
+  "shares": 70633705,
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001214659-22-006352",
+  "guided_until": null,
+  "guidance": "sufficient to fund our operations for the next twelve months",
+  "twelve_months": true,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "s. Management may seek to raise such additional capital through public or private equity offerings, including under the Controlled Equity Offering SM Sales Agreement (the &#8220;Sales Agreement&#8221;) with Cantor Fitzgerald &amp; Co. (&#8220;Cantor&#8221;), grant financing and support from governmental agencies, convertible and other debt financings, collaborations, strategic alliances and market"
+ },
  "insiders": {
-  "form4s": 10,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 11,
+  "from": "2022-04-14",
+  "to": "2022-08-12",
+  "trades": [
+   {
+    "date": "2022-05-18",
+    "filed": "2022-05-20",
+    "code": "P",
+    "value": 34080,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2022-05-18",
+    "filed": "2022-05-20",
+    "code": "P",
+    "value": 68160,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2022-05-18",
+    "filed": "2022-05-20",
+    "code": "P",
+    "value": 238560,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2022-05-19",
+    "filed": "2022-05-20",
+    "code": "P",
+    "value": 70785,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2022-05-19",
+    "filed": "2022-05-20",
+    "code": "P",
+    "value": 141570,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2022-05-19",
+    "filed": "2022-05-20",
+    "code": "P",
+    "value": 495490,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2022-05-20",
+    "filed": "2022-05-20",
+    "code": "P",
+    "value": 121535,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2022-05-20",
+    "filed": "2022-05-20",
+    "code": "P",
+    "value": 243070,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2022-05-20",
+    "filed": "2022-05-20",
+    "code": "P",
+    "value": 850742,
+    "who": "Chappell Dale"
+   }
+  ]
  },
  "drug": null,
  "trials": {

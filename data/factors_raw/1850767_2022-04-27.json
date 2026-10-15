@@ -3,37 +3,36 @@
  "cik": "1850767",
  "name": "Accustem Sciences Inc.",
  "date": "2022-04-27",
- "asof": "2022-05-27",
+ "asof": "2022-05-02",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-05-27",
-  "adj_close": 0.4901
+  "date": "2022-05-02",
+  "adj_close": 0.6
  },
- "balance": {
-  "end": "2022-03-31",
-  "cash": 3244600,
-  "parts": [
-   "Cash"
-  ],
-  "accn": "0001493152-22-014587"
- },
- "burn": {
-  "end": "2022-03-31",
-  "months": 2.9,
-  "per_month": 127226.88719101124
- },
- "shares": {
-  "end": "2022-05-20",
-  "shares": 11337102,
-  "split_factor": 1.0,
-  "splits_after": []
- },
+ "balance": null,
+ "burn": null,
+ "shares": null,
+ "filing": null,
  "insiders": {
   "form4s": 1,
-  "bought": 13491,
-  "sold": 0,
-  "buyers": [
-   "CERRONE GABRIELE M"
+  "from": "2022-01-27",
+  "to": "2022-05-27",
+  "trades": [
+   {
+    "date": "2022-04-25",
+    "filed": "2022-04-27",
+    "code": "P",
+    "value": 5644,
+    "who": "CERRONE GABRIELE M"
+   },
+   {
+    "date": "2022-04-26",
+    "filed": "2022-04-27",
+    "code": "P",
+    "value": 7846,
+    "who": "CERRONE GABRIELE M"
+   }
   ]
  },
  "drug": null,

@@ -3,24 +3,31 @@
  "cik": "1855485",
  "name": "Calidi Biotherapeutics, Inc.",
  "date": "2025-08-20",
- "asof": "2025-09-19",
+ "asof": "2025-08-20",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-09-19",
-  "adj_close": 1.54
+  "date": "2025-08-20",
+  "adj_close": 1.72
  },
  "balance": {
   "end": "2025-06-30",
-  "cash": 5379000,
+  "cash": 5179000,
   "parts": [
-   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+   "minus RestrictedCash",
+   "minus RestrictedCashAndCashEquivalentsAtCarryingValue"
   ],
   "accn": "0001641172-25-022797"
  },
  "burn": {
   "end": "2025-06-30",
-  "months": 5.9,
-  "per_month": -2031193.5555555555
+  "ytd_months": 5.9,
+  "ytd": -12011000,
+  "accn": "0001641172-25-022797",
+  "ttm_per_month": -1865000.0,
+  "quarter_per_month": -1626666.6666666667,
+  "per_month": -1865000.0
  },
  "shares": {
   "end": "2025-08-04",
@@ -37,15 +44,49 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001641172-25-022797",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "erest Equity Balance at December 31, 2024 1,730,051 $ &#8212; $ 123,277 $ ( 28 ) $ ( 121,715 ) $ 1,534 $ 434 $ 1,968 Issuance of common stock through At the Market Offering 223,583 &#8212; 2,754 &#8212; &#8212; 2,754 &#8212; 2,754 Issuance of common stock and warrants through January Confidentially Marketed Public Offering, net of financing costs 416,667 &#8212; 3,607 &#8212; &#8212; 3,607 &#8212;"
+ },
  "insiders": {
-  "form4s": 7,
-  "bought": 455000,
-  "sold": 0,
-  "buyers": [
-   "Jackson Andrew C.",
-   "Leftwich Scott",
-   "Poma Eric E",
-   "Schoeneck James A"
+  "form4s": 11,
+  "from": "2025-05-22",
+  "to": "2025-09-19",
+  "trades": [
+   {
+    "date": "2025-08-21",
+    "filed": "2025-08-25",
+    "code": "P",
+    "value": 150000,
+    "who": "Schoeneck James A"
+   },
+   {
+    "date": "2025-08-21",
+    "filed": "2025-08-25",
+    "code": "P",
+    "value": 50000,
+    "who": "Poma Eric E"
+   },
+   {
+    "date": "2025-08-21",
+    "filed": "2025-08-25",
+    "code": "P",
+    "value": 250000,
+    "who": "Leftwich Scott"
+   },
+   {
+    "date": "2025-08-21",
+    "filed": "2025-08-25",
+    "code": "P",
+    "value": 5000,
+    "who": "Jackson Andrew C."
+   }
   ]
  },
  "drug": null,

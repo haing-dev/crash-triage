@@ -3,11 +3,12 @@
  "cik": "1509261",
  "name": "Rezolute, Inc.",
  "date": "2025-12-11",
- "asof": "2026-01-10",
+ "asof": "2025-12-11",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-01-12",
-  "adj_close": 2.51
+  "date": "2025-12-11",
+  "adj_close": 1.4
  },
  "balance": {
   "end": "2025-09-30",
@@ -21,8 +22,12 @@
  },
  "burn": {
   "end": "2025-09-30",
-  "months": 3.0,
-  "per_month": -5830430.769230769
+  "ytd_months": 3.0,
+  "ytd": -17430000,
+  "accn": "0001104659-25-107781",
+  "ttm_per_month": -5876333.333333333,
+  "quarter_per_month": -5810000.0,
+  "per_month": -5876333.333333333
  },
  "shares": {
   "end": "2025-11-04",
@@ -30,16 +35,77 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001104659-25-107781",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "e of $ 4.00 per share. Closing of the 2024 Private Placement occurred in July 2024, resulting in net proceeds of $ 6.0 million. Jefferies Open Market Sales Agreement On November 14, 2023, the Company and Jefferies LLC (the &#8220;Agent&#8221;) entered into an open market sales agreement (the &#8220;Sales Agreement&#8221;) that provides for an &#8220;at the market&#8221; offering for the sale of up"
+ },
  "insiders": {
-  "form4s": 5,
-  "bought": 207205,
-  "sold": 0,
-  "buyers": [
-   "Elam Nevan C",
-   "Evans Daron",
-   "Hogenhuis Wladimir",
-   "Karnawat Sunil Ratilal",
-   "ROBERTS BRIAN KENNETH"
+  "form4s": 15,
+  "from": "2025-09-12",
+  "to": "2026-01-10",
+  "trades": [
+   {
+    "date": "2025-12-16",
+    "filed": "2025-12-17",
+    "code": "P",
+    "value": 9548,
+    "who": "Hogenhuis Wladimir"
+   },
+   {
+    "date": "2025-12-16",
+    "filed": "2025-12-17",
+    "code": "P",
+    "value": 47600,
+    "who": "ROBERTS BRIAN KENNETH"
+   },
+   {
+    "date": "2025-12-15",
+    "filed": "2025-12-15",
+    "code": "P",
+    "value": 70640,
+    "who": "Evans Daron"
+   },
+   {
+    "date": "2025-12-15",
+    "filed": "2025-12-15",
+    "code": "P",
+    "value": 4462,
+    "who": "Evans Daron"
+   },
+   {
+    "date": "2025-12-15",
+    "filed": "2025-12-15",
+    "code": "P",
+    "value": 4475,
+    "who": "Evans Daron"
+   },
+   {
+    "date": "2025-12-15",
+    "filed": "2025-12-15",
+    "code": "P",
+    "value": 50880,
+    "who": "Elam Nevan C"
+   },
+   {
+    "date": "2025-12-15",
+    "filed": "2025-12-15",
+    "code": "P",
+    "value": 19439,
+    "who": "Karnawat Sunil Ratilal"
+   },
+   {
+    "date": "2025-12-15",
+    "filed": "2025-12-15",
+    "code": "P",
+    "value": 160,
+    "who": "Karnawat Sunil Ratilal"
+   }
   ]
  },
  "drug": null,

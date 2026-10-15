@@ -3,11 +3,12 @@
  "cik": "873303",
  "name": "Sarepta Therapeutics, Inc.",
  "date": "2021-01-08",
- "asof": "2021-02-07",
+ "asof": "2021-01-08",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2021-02-08",
-  "adj_close": 95.28
+  "date": "2021-01-08",
+  "adj_close": 82.29
  },
  "balance": {
   "end": "2020-09-30",
@@ -21,8 +22,12 @@
  },
  "burn": {
   "end": "2020-09-30",
-  "months": 9.0,
-  "per_month": 31443627.985347986
+  "ytd_months": 9.0,
+  "ytd": 282001000,
+  "accn": "0001564590-20-051308",
+  "ttm_per_month": 9850500.0,
+  "quarter_per_month": -79395333.33333333,
+  "per_month": 9850500.0
  },
  "shares": {
   "end": "2020-10-30",
@@ -47,11 +52,36 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001564590-20-051308",
+  "guided_until": null,
+  "guidance": "sufficient to fund its current operational plan for at least the next twelve months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 6,
+  "from": "2020-10-10",
+  "to": "2021-02-07",
+  "trades": [
+   {
+    "date": "2020-12-11",
+    "filed": "2020-12-14",
+    "code": "S",
+    "value": 183975,
+    "who": "Bratica Joseph"
+   },
+   {
+    "date": "2020-12-08",
+    "filed": "2020-12-10",
+    "code": "S",
+    "value": 180000,
+    "who": "Bratica Joseph"
+   }
+  ]
  },
  "drug": null,
  "trials": {

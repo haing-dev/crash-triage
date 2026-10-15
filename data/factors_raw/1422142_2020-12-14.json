@@ -3,11 +3,12 @@
  "cik": "1422142",
  "name": "Whitehawk Therapeutics, Inc.",
  "date": "2020-12-14",
- "asof": "2021-01-13",
+ "asof": "2020-12-18",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2021-01-13",
-  "adj_close": 17.7
+  "date": "2020-12-18",
+  "adj_close": 15.0
  },
  "balance": {
   "end": "2020-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2020-09-30",
-  "months": 9.0,
-  "per_month": -62927.954139194146
+  "ytd_months": 9.0,
+  "ytd": -564367,
+  "accn": "0001564590-20-052756",
+  "ttm_per_month": -452452.9166666667,
+  "quarter_per_month": -2305437.6666666665,
+  "per_month": -452452.9166666667
  },
  "shares": {
   "end": "2020-11-06",
@@ -37,11 +42,29 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001564590-20-052756",
+  "guided_until": "2022-12-15",
+  "guidance": "isting cash and cash equivalent will be sufficient to fund currently planned operations through the fourth quarter of 2022. COV",
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "pril 11, 2018 (the &#8220;Form S-3&#8221;). On February 21, 2018, and pursuant to the Form S-3, the Company entered into a Controlled Equity Offering Sales Agreement (the &#8220;Sales Agreement&#8221;) with Cantor Fitzgerald &amp; Co. (&#8220;Cantor&#8221;), pursuant to which it may issue and sell, from time to time, shares of its common stock having an aggregate offering price of up to $75.0 mill"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 1,
+  "from": "2020-09-15",
+  "to": "2021-01-13",
+  "trades": [
+   {
+    "date": "2020-12-08",
+    "filed": "2020-12-10",
+    "code": "S",
+    "value": 41944,
+    "who": "ORBIMED ADVISORS LLC"
+   }
+  ]
  },
  "drug": null,
  "trials": {

@@ -3,11 +3,12 @@
  "cik": "1662774",
  "name": "Quince Therapeutics, Inc.",
  "date": "2026-01-30",
- "asof": "2026-03-01",
+ "asof": "2026-02-03",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-03-02",
-  "adj_close": 0.99000001
+  "date": "2026-02-03",
+  "adj_close": 1.45
  },
  "balance": {
   "end": "2025-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2025-09-30",
-  "months": 8.9,
-  "per_month": -3462997.6470588236
+  "ytd_months": 8.9,
+  "ytd": -30944000,
+  "accn": "0001193125-25-277529",
+  "ttm_per_month": -3208000.0,
+  "quarter_per_month": -3309333.3333333335,
+  "per_month": -3208000.0
  },
  "shares": {
   "end": "2025-11-06",
@@ -37,13 +42,31 @@
    ]
   ]
  },
- "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+ "filing": {
+  "accn": "0001193125-25-277529",
+  "guided_until": "2026-04-15",
+  "guidance": "ash equivalents and investments will be sufficient to fund our planned operations through Phase 3 NEAT topline results and into the second quarter of 2026, tha",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": 17500000.0,
+  "atm_quote": ") Deficit Equity Balance as of June 30, 2025 53,624,180 $ 53 $ 413,078 $ 6,156 $ ( 407,551 ) $ 11,736 Issuance of common stock in connection with the ATM offerings, net 870,785 1 1,372 &#8212; &#8212; 1,373 Stock based compensation &#8212; &#8212; 1,255 &#8212; &#8212; 1,255 Foreign currency translation adjustment &#8212; &#8212; &#8212; 125 &#8212; 125 Unrealized gain (loss) on available for sale"
  },
- "drug": null,
+ "insiders": {
+  "form4s": 11,
+  "from": "2025-11-01",
+  "to": "2026-03-01",
+  "trades": [
+   {
+    "date": "2025-12-26",
+    "filed": "2025-12-29",
+    "code": "S",
+    "value": 173500,
+    "who": "Benatti Luca"
+   }
+  ]
+ },
+ "drug": "eDSP",
  "trials": {
   "query": "quince therapeutics",
   "other_trials": 1,

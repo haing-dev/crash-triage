@@ -3,11 +3,12 @@
  "cik": "1001316",
  "name": "TG THERAPEUTICS, INC.",
  "date": "2023-08-01",
- "asof": "2023-08-31",
+ "asof": "2023-08-07",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-08-31",
-  "adj_close": 10.47
+  "date": "2023-08-07",
+  "adj_close": 10.1
  },
  "balance": {
   "end": "2023-06-30",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2023-06-30",
-  "months": 5.9,
-  "per_month": -17233606.0
+  "ytd_months": 5.9,
+  "ytd": -101907000,
+  "accn": "0001558370-23-013429",
+  "ttm_per_month": -13356000.0,
+  "quarter_per_month": -14001666.666666666,
+  "per_month": -13356000.0
  },
  "shares": {
   "end": "2023-08-02",
@@ -29,12 +34,42 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001558370-23-013429",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "or future issuance and sale. The 2022 WKSI Shelf was declared effective in September 2022. In connection with the 2022 WKSI Shelf, we entered into an At-the-Market Issuance Sales Agreement (the 2022 ATM) with Cantor Fitzgerald &amp; Co. and B. Riley Securities, Inc. (each a 2022 Agent and collectively, the 2022 Agents), relating to the sale of shares of our common stock. Under the 2022 ATM, we wil"
+ },
  "insiders": {
-  "form4s": 1,
-  "bought": 1013000,
-  "sold": 0,
-  "buyers": [
-   "WEISS MICHAEL S"
+  "form4s": 3,
+  "from": "2023-05-03",
+  "to": "2023-08-31",
+  "trades": [
+   {
+    "date": "2023-08-11",
+    "filed": "2023-08-14",
+    "code": "P",
+    "value": 1013000,
+    "who": "WEISS MICHAEL S"
+   },
+   {
+    "date": "2023-06-23",
+    "filed": "2023-06-26",
+    "code": "S",
+    "value": 814538,
+    "who": "Lonial Sagar"
+   },
+   {
+    "date": "2023-06-02",
+    "filed": "2023-06-05",
+    "code": "S",
+    "value": 1966375,
+    "who": "Power Sean A"
+   }
   ]
  },
  "drug": null,

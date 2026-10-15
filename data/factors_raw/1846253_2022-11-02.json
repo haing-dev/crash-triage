@@ -3,36 +3,95 @@
  "cik": "1846253",
  "name": "OmniAb, Inc.",
  "date": "2022-11-02",
- "asof": "2022-12-02",
+ "asof": "2022-11-02",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-12-02",
-  "adj_close": 3.97
+  "date": "2022-11-02",
+  "adj_close": 2.41
  },
  "balance": {
-  "end": "2022-09-30",
-  "cash": 19847,
+  "end": "2022-06-30",
+  "cash": 159194,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001104659-22-117175"
+  "accn": "0001104659-22-089508"
  },
  "burn": {
-  "end": "2022-09-30",
-  "months": 8.9,
-  "per_month": -102972.7005882353
+  "end": "2022-06-30",
+  "ytd_months": 5.9,
+  "ytd": -780777,
+  "accn": "0001104659-22-089508",
+  "ttm_per_month": null,
+  "quarter_per_month": -175145.0,
+  "per_month": -132038.066
  },
  "shares": null,
+ "filing": {
+  "accn": "0001104659-22-089508",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
   "form4s": 14,
-  "bought": 1634035,
-  "sold": 0,
-  "buyers": [
-   "Boyce Sarah",
-   "Cochran Jennifer R.",
-   "FOEHR MATTHEW W",
-   "GUSTAFSON KURT A",
-   "Patel Sunil"
+  "from": "2022-08-04",
+  "to": "2022-12-02",
+  "trades": [
+   {
+    "date": "2022-11-30",
+    "filed": "2022-12-01",
+    "code": "P",
+    "value": 1016340,
+    "who": "FOEHR MATTHEW W"
+   },
+   {
+    "date": "2022-11-28",
+    "filed": "2022-11-29",
+    "code": "P",
+    "value": 28100,
+    "who": "GUSTAFSON KURT A"
+   },
+   {
+    "date": "2022-11-09",
+    "filed": "2022-11-14",
+    "code": "P",
+    "value": 57597,
+    "who": "Boyce Sarah"
+   },
+   {
+    "date": "2022-11-10",
+    "filed": "2022-11-14",
+    "code": "P",
+    "value": 43800,
+    "who": "Boyce Sarah"
+   },
+   {
+    "date": "2022-11-11",
+    "filed": "2022-11-14",
+    "code": "P",
+    "value": 92928,
+    "who": "Cochran Jennifer R."
+   },
+   {
+    "date": "2022-11-09",
+    "filed": "2022-11-10",
+    "code": "P",
+    "value": 119110,
+    "who": "Patel Sunil"
+   },
+   {
+    "date": "2022-11-09",
+    "filed": "2022-11-09",
+    "code": "P",
+    "value": 276160,
+    "who": "FOEHR MATTHEW W"
+   }
   ]
  },
  "drug": null,

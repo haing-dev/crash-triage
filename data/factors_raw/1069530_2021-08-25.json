@@ -3,11 +3,12 @@
  "cik": "1069530",
  "name": "FILANA THERAPEUTICS, INC.",
  "date": "2021-08-25",
- "asof": "2021-09-24",
+ "asof": "2021-08-30",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2021-09-24",
-  "adj_close": 61.94
+  "date": "2021-08-30",
+  "adj_close": 53.26
  },
  "balance": {
   "end": "2021-06-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2021-06-30",
-  "months": 5.9,
-  "per_month": -1259032.2222222222
+  "ytd_months": 5.9,
+  "ytd": -7445000,
+  "accn": "0001069530-21-000045",
+  "ttm_per_month": -899250.0,
+  "quarter_per_month": -1713000.0,
+  "per_month": -899250.0
  },
  "shares": {
   "end": "2021-08-02",
@@ -28,11 +33,21 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001069530-21-000045",
+  "guided_until": null,
+  "guidance": "sufficient to meet the Company's working capital needs for at least the next 12 months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "s of common stock at a price of $ 49.00 per share. Net proceeds of the offering were approximately $ 189.8 million after deducting offering expenses. At-the-Market Common Stock Offering In March 2020, the Company established an at-the-market offering program (&#8220;ATM&#8221;) to sell, from time to time, shares of Company common stock having an aggregate offering price of up to $ 100 million in t"
+ },
  "insiders": {
-  "form4s": 1,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 3,
+  "from": "2021-05-27",
+  "to": "2021-09-24",
+  "trades": []
  },
  "drug": null,
  "trials": {

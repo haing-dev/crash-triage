@@ -3,36 +3,73 @@
  "cik": "1390478",
  "name": "SELLAS Life Sciences Group, Inc.",
  "date": "2023-02-24",
- "asof": "2023-03-26",
+ "asof": "2023-03-01",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-03-27",
-  "adj_close": 1.2
+  "date": "2023-03-01",
+  "adj_close": 1.57
  },
  "balance": {
-  "end": "2022-12-31",
-  "cash": 17125000,
+  "end": "2022-09-30",
+  "cash": 21348000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001390478-23-000005"
+  "accn": "0001390478-22-000028"
  },
  "burn": {
-  "end": "2022-12-31",
-  "months": 12.0,
-  "per_month": -1991060.3296703298
+  "end": "2022-09-30",
+  "ytd_months": 8.9,
+  "ytd": -18657000,
+  "accn": "0001390478-22-000028",
+  "ttm_per_month": -1969416.6666666667,
+  "quarter_per_month": -1915333.3333333333,
+  "per_month": -1969416.6666666667
  },
  "shares": {
-  "end": "2023-03-15",
-  "shares": 28302504,
+  "end": "2022-11-10",
+  "shares": 20588247,
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001390478-22-000028",
+  "guided_until": null,
+  "guidance": "sufficient to fund its current planned operations for at least the next twelve months",
+  "twelve_months": true,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "tantial doubt about the Company's ability to continue as a going concern. On April 16, 2021, the Company entered into a Controlled Equity Offering SM Sales Agreement (the \"Sales Agreement\") with Cantor Fitzgerald &amp; Co. (the \"Agent\"). From time to time during the term of the Sales Agreement, the Company may offer and sell shares of common stock having an aggregate offering price up to a total o"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 12,
+  "from": "2022-11-26",
+  "to": "2023-03-26",
+  "trades": [
+   {
+    "date": "2022-12-05",
+    "filed": "2022-12-05",
+    "code": "S",
+    "value": 16938,
+    "who": "Stergiou Angelos M."
+   },
+   {
+    "date": "2022-12-05",
+    "filed": "2022-12-05",
+    "code": "S",
+    "value": 3002,
+    "who": "Burns John Thomas"
+   },
+   {
+    "date": "2022-12-05",
+    "filed": "2022-12-05",
+    "code": "S",
+    "value": 5576,
+    "who": "WOOD BARBARA A"
+   }
+  ]
  },
  "drug": null,
  "trials": {

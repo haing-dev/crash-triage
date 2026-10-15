@@ -3,11 +3,12 @@
  "cik": "1840574",
  "name": "Verve Therapeutics, Inc.",
  "date": "2023-11-13",
- "asof": "2023-12-13",
+ "asof": "2023-11-13",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-12-13",
-  "adj_close": 13.31
+  "date": "2023-11-13",
+  "adj_close": 9.29
  },
  "balance": {
   "end": "2023-09-30",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2023-09-30",
-  "months": 8.9,
-  "per_month": -12183721.911764706
+  "ytd_months": 8.9,
+  "ytd": -108869000,
+  "accn": "0000950170-23-059771",
+  "ttm_per_month": -11813416.666666666,
+  "quarter_per_month": -3937000.0,
+  "per_month": -11813416.666666666
  },
  "shares": {
   "end": "2023-10-31",
@@ -29,12 +34,35 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0000950170-23-059771",
+  "guided_until": null,
+  "guidance": "sufficient to fund its operations and capital expenditure requirements beyond the next 12 months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "f common stock from follow-on public offering, net of issuance costs of $ 15.9 million 9,583,334 10 242,838 - - 242,848 Issuance of common stock from At-the-Market offering, net of issuance costs of $ 0.6 million 216,930 - 6,920 - - 6,920 Unrealized gain on marketable securities &#x2014; - - 18 - 18 Stock-based compensation &#x2014; - 5,920 - - 5,920 Net loss &#x2014; - - - ( 45,190 ) ( 45,190 ) B"
+ },
  "insiders": {
-  "form4s": 2,
-  "bought": 18000000,
-  "sold": 6343,
-  "buyers": [
-   "Yeshwant Krishna"
+  "form4s": 3,
+  "from": "2023-08-15",
+  "to": "2023-12-13",
+  "trades": [
+   {
+    "date": "2023-12-01",
+    "filed": "2023-12-05",
+    "code": "P",
+    "value": 18000000,
+    "who": "Yeshwant Krishna"
+   },
+   {
+    "date": "2023-11-29",
+    "filed": "2023-12-01",
+    "code": "S",
+    "value": 6343,
+    "who": "Dorval Allison"
+   }
   ]
  },
  "drug": null,

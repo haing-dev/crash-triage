@@ -3,11 +3,12 @@
  "cik": "728387",
  "name": "Perspective Therapeutics, Inc.",
  "date": "2024-11-21",
- "asof": "2024-12-21",
+ "asof": "2024-11-21",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-12-23",
-  "adj_close": 3.14
+  "date": "2024-11-21",
+  "adj_close": 3.0
  },
  "balance": {
   "end": "2024-09-30",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2024-09-30",
-  "months": 9.0,
-  "per_month": 926803.2234432235
+  "ytd_months": 9.0,
+  "ytd": 8312000,
+  "accn": "0000950170-24-125399",
+  "ttm_per_month": -58000.0,
+  "quarter_per_month": 1122000.0,
+  "per_month": -58000.0
  },
  "shares": {
   "end": "2024-11-07",
@@ -29,15 +34,98 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0000950170-24-125399",
+  "guided_until": "2026-07-15",
+  "guidance": "ents and short-term investments will be sufficient to fund our current planned operations for at least the next 12 months from the date the consolidated financial statements in this report were issued and into mid-2026. Mon",
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "2,426,342 options to purchase shares of Common Stock with exercise prices ranging from $ 1.30 to $ 3.00 per share. 3. Investments and Agreements 2024 At-the-Market (ATM) Agreement On August 13, 2024, the Company entered into a Controlled Equity Offering SM Sales Agreement (2024 ATM Agreement) with Cantor Fitzgerald &amp; Co. and RBC Capital Markets, LLC (each, an ATM Agent, and together, the ATM A"
+ },
  "insiders": {
   "form4s": 5,
-  "bought": 302392,
-  "sold": 0,
-  "buyers": [
-   "HENSON HEIDI",
-   "Hunt Jonathan Robert",
-   "Spoor Johan M.",
-   "Williamson Robert F III"
+  "from": "2024-08-23",
+  "to": "2024-12-21",
+  "trades": [
+   {
+    "date": "2024-12-04",
+    "filed": "2024-12-06",
+    "code": "P",
+    "value": 100004,
+    "who": "HENSON HEIDI"
+   },
+   {
+    "date": "2024-12-04",
+    "filed": "2024-12-04",
+    "code": "P",
+    "value": 30132,
+    "who": "Spoor Johan M."
+   },
+   {
+    "date": "2024-11-25",
+    "filed": "2024-11-27",
+    "code": "P",
+    "value": 13202,
+    "who": "Williamson Robert F III"
+   },
+   {
+    "date": "2024-11-25",
+    "filed": "2024-11-27",
+    "code": "P",
+    "value": 9612,
+    "who": "Williamson Robert F III"
+   },
+   {
+    "date": "2024-11-25",
+    "filed": "2024-11-27",
+    "code": "P",
+    "value": 1420,
+    "who": "Hunt Jonathan Robert"
+   },
+   {
+    "date": "2024-11-25",
+    "filed": "2024-11-27",
+    "code": "P",
+    "value": 114,
+    "who": "Hunt Jonathan Robert"
+   },
+   {
+    "date": "2024-11-25",
+    "filed": "2024-11-27",
+    "code": "P",
+    "value": 8640,
+    "who": "Hunt Jonathan Robert"
+   },
+   {
+    "date": "2024-11-25",
+    "filed": "2024-11-27",
+    "code": "P",
+    "value": 38800,
+    "who": "Hunt Jonathan Robert"
+   },
+   {
+    "date": "2024-11-25",
+    "filed": "2024-11-26",
+    "code": "P",
+    "value": 54868,
+    "who": "Spoor Johan M."
+   },
+   {
+    "date": "2024-11-25",
+    "filed": "2024-11-26",
+    "code": "P",
+    "value": 20520,
+    "who": "Spoor Johan M."
+   },
+   {
+    "date": "2024-11-25",
+    "filed": "2024-11-26",
+    "code": "P",
+    "value": 25080,
+    "who": "Spoor Johan M."
+   }
   ]
  },
  "drug": null,

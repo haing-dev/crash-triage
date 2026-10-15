@@ -3,11 +3,12 @@
  "cik": "1907223",
  "name": "Greenland Mines Ltd",
  "date": "2024-06-21",
- "asof": "2024-07-21",
+ "asof": "2024-06-21",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-07-22",
-  "adj_close": 1.43
+  "date": "2024-06-21",
+  "adj_close": 2.34
  },
  "balance": {
   "end": "2024-03-31",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2024-03-31",
-  "months": 3.0,
-  "per_month": -127352.84266666666
+  "ytd_months": 3.0,
+  "ytd": -376536,
+  "accn": "0001213900-24-046038",
+  "ttm_per_month": -105518.16666666667,
+  "quarter_per_month": -125512.0,
+  "per_month": -105518.16666666667
  },
  "shares": {
   "end": "2024-05-22",
@@ -28,11 +33,43 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001213900-24-046038",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
   "form4s": 1,
-  "bought": 0,
-  "sold": 725162,
-  "buyers": []
+  "from": "2024-03-23",
+  "to": "2024-07-21",
+  "trades": [
+   {
+    "date": "2024-06-28",
+    "filed": "2024-07-02",
+    "code": "S",
+    "value": 119103,
+    "who": "CHARDAN CAPITAL MARKETS LLC"
+   },
+   {
+    "date": "2024-07-01",
+    "filed": "2024-07-02",
+    "code": "S",
+    "value": 237618,
+    "who": "CHARDAN CAPITAL MARKETS LLC"
+   },
+   {
+    "date": "2024-07-02",
+    "filed": "2024-07-02",
+    "code": "S",
+    "value": 368442,
+    "who": "CHARDAN CAPITAL MARKETS LLC"
+   }
+  ]
  },
  "drug": null,
  "trials": {

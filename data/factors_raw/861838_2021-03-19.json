@@ -3,11 +3,12 @@
  "cik": "861838",
  "name": "Aceragen, Inc.",
  "date": "2021-03-19",
- "asof": "2021-04-18",
+ "asof": "2021-03-25",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2021-04-19",
-  "adj_close": 17.34
+  "date": "2021-03-25",
+  "adj_close": 23.8
  },
  "balance": {
   "end": "2020-12-31",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2020-12-31",
-  "months": 12.0,
-  "per_month": -2816492.273972603
+  "ytd_months": 12.0,
+  "ytd": -33772000,
+  "accn": "0001558370-21-002152",
+  "ttm_per_month": -2814333.3333333335,
+  "quarter_per_month": -2526666.6666666665,
+  "per_month": -2814333.3333333335
  },
  "shares": {
   "end": "2021-02-28",
@@ -34,11 +39,120 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001558370-21-002152",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "tial gross proceeds, of which $15.1 million was received during 2020. &#9679; Received $12.3 million and $1.7 million in net proceeds pursuant to the ATM Agreement and LPC Purchase Agreement, respectively. &#8203; Intellectual Property As further discussed under the caption &#8220;Patents, Proprietary Rights and Trade Secrets&#8221; below: &#9679; In September 2020, we obtained new patent coverage"
+ },
  "insiders": {
-  "form4s": 8,
-  "bought": 0,
-  "sold": 3083058,
-  "buyers": []
+  "form4s": 22,
+  "from": "2020-12-19",
+  "to": "2021-04-18",
+  "trades": [
+   {
+    "date": "2021-03-18",
+    "filed": "2021-03-31",
+    "code": "S",
+    "value": 2474806,
+    "who": "Pillar Invest Corp"
+   },
+   {
+    "date": "2021-03-18",
+    "filed": "2021-03-31",
+    "code": "S",
+    "value": 582221,
+    "who": "Pillar Invest Corp"
+   },
+   {
+    "date": "2021-03-25",
+    "filed": "2021-03-29",
+    "code": "S",
+    "value": 6778,
+    "who": "Tarka Elizabeth Ann"
+   },
+   {
+    "date": "2021-03-25",
+    "filed": "2021-03-29",
+    "code": "S",
+    "value": 10378,
+    "who": "Lim Bryant David"
+   },
+   {
+    "date": "2021-03-25",
+    "filed": "2021-03-29",
+    "code": "S",
+    "value": 8876,
+    "who": "Kirby John J."
+   },
+   {
+    "date": "2021-03-05",
+    "filed": "2021-03-05",
+    "code": "P",
+    "value": 38950,
+    "who": "SOLAND DANIEL B"
+   },
+   {
+    "date": "2021-01-12",
+    "filed": "2021-01-12",
+    "code": "S",
+    "value": 7152,
+    "who": "Kirby John J."
+   },
+   {
+    "date": "2021-01-12",
+    "filed": "2021-01-12",
+    "code": "S",
+    "value": 7310,
+    "who": "Tarka Elizabeth Ann"
+   },
+   {
+    "date": "2021-01-12",
+    "filed": "2021-01-12",
+    "code": "S",
+    "value": 7202,
+    "who": "Lim Bryant David"
+   },
+   {
+    "date": "2021-01-12",
+    "filed": "2021-01-12",
+    "code": "S",
+    "value": 13474,
+    "who": "MILANO VINCENT"
+   },
+   {
+    "date": "2021-01-05",
+    "filed": "2021-01-11",
+    "code": "S",
+    "value": 5722,
+    "who": "Lim Bryant David"
+   },
+   {
+    "date": "2021-01-05",
+    "filed": "2021-01-11",
+    "code": "S",
+    "value": 10700,
+    "who": "MILANO VINCENT"
+   },
+   {
+    "date": "2021-01-05",
+    "filed": "2021-01-06",
+    "code": "S",
+    "value": 3362,
+    "who": "Kirby John J."
+   },
+   {
+    "date": "2020-12-22",
+    "filed": "2020-12-22",
+    "code": "S",
+    "value": 160525,
+    "who": "MILANO VINCENT"
+   }
+  ]
  },
  "drug": null,
  "trials": {

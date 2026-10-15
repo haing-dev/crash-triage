@@ -3,20 +3,22 @@
  "cik": "1766140",
  "name": "Unicycive Therapeutics, Inc.",
  "date": "2021-07-14",
- "asof": "2021-08-13",
+ "asof": "2021-07-19",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2021-08-13",
-  "adj_close": 27.3
+  "date": "2021-07-19",
+  "adj_close": 27.0
  },
  "balance": null,
  "burn": null,
  "shares": null,
+ "filing": null,
  "insiders": {
   "form4s": 3,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2021-04-15",
+  "to": "2021-08-13",
+  "trades": []
  },
  "drug": null,
  "trials": {

@@ -3,36 +3,136 @@
  "cik": "1694665",
  "name": "Evelo Biosciences, Inc.",
  "date": "2023-10-17",
- "asof": "2023-11-16",
+ "asof": "2023-10-17",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-11-16",
-  "adj_close": 0.7348
+  "date": "2023-10-17",
+  "adj_close": 1.2
  },
  "balance": {
-  "end": "2023-09-30",
-  "cash": 17262000,
+  "end": "2023-06-30",
+  "cash": 7622000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001694665-23-000182"
+  "accn": "0001694665-23-000146"
  },
  "burn": {
-  "end": "2023-09-30",
-  "months": 8.9,
-  "per_month": -5652775.147058823
+  "end": "2023-06-30",
+  "ytd_months": 5.9,
+  "ytd": -40103000,
+  "accn": "0001694665-23-000146",
+  "ttm_per_month": -7156666.666666667,
+  "quarter_per_month": -6609000.0,
+  "per_month": -7156666.666666667
  },
  "shares": {
-  "end": "2023-11-06",
-  "shares": 18930960,
+  "end": "2023-08-10",
+  "shares": 18835066,
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001694665-23-000146",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": 69100000.0,
+  "atm_quote": "isting Rule 5550(a)(2 ). Compliance with Nasdaq Continued Listing Requirements On August 9, 2023, we were notified by Nasdaq Listing Qualifications that the market value of our publicly held shares has been at or above the $15 million requirement for 14 consecutive business days from July 20, 2023 to August 8, 2023. Accordingly, we have regained compliance with Listing Rule 5450(b)(2)(C). Private "
+ },
  "insiders": {
-  "form4s": 7,
-  "bought": 0,
-  "sold": 8565,
-  "buyers": []
+  "form4s": 15,
+  "from": "2023-07-19",
+  "to": "2023-11-16",
+  "trades": [
+   {
+    "date": "2023-11-08",
+    "filed": "2023-11-08",
+    "code": "S",
+    "value": 1044,
+    "who": "Bodmer Mark"
+   },
+   {
+    "date": "2023-11-08",
+    "filed": "2023-11-08",
+    "code": "S",
+    "value": 1024,
+    "who": "McHale Duncan"
+   },
+   {
+    "date": "2023-11-08",
+    "filed": "2023-11-08",
+    "code": "S",
+    "value": 57,
+    "who": "GILL SIMBA"
+   },
+   {
+    "date": "2023-11-08",
+    "filed": "2023-11-08",
+    "code": "S",
+    "value": 598,
+    "who": "Thorell Marella"
+   },
+   {
+    "date": "2023-11-02",
+    "filed": "2023-11-03",
+    "code": "S",
+    "value": 2262,
+    "who": "Bodmer Mark"
+   },
+   {
+    "date": "2023-11-02",
+    "filed": "2023-11-03",
+    "code": "S",
+    "value": 2262,
+    "who": "McHale Duncan"
+   },
+   {
+    "date": "2023-11-02",
+    "filed": "2023-11-03",
+    "code": "S",
+    "value": 1320,
+    "who": "Thorell Marella"
+   },
+   {
+    "date": "2023-09-28",
+    "filed": "2023-09-29",
+    "code": "S",
+    "value": 7864,
+    "who": "GILL SIMBA"
+   },
+   {
+    "date": "2023-08-08",
+    "filed": "2023-08-09",
+    "code": "S",
+    "value": 29747,
+    "who": "Bodmer Mark"
+   },
+   {
+    "date": "2023-08-08",
+    "filed": "2023-08-09",
+    "code": "S",
+    "value": 3252,
+    "who": "GILL SIMBA"
+   },
+   {
+    "date": "2023-08-08",
+    "filed": "2023-08-09",
+    "code": "S",
+    "value": 32657,
+    "who": "McHale Duncan"
+   },
+   {
+    "date": "2023-08-08",
+    "filed": "2023-08-09",
+    "code": "S",
+    "value": 19058,
+    "who": "Thorell Marella"
+   }
+  ]
  },
  "drug": null,
  "trials": {

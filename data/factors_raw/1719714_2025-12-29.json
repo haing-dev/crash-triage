@@ -3,11 +3,12 @@
  "cik": "1719714",
  "name": "Mereo BioPharma Group plc",
  "date": "2025-12-29",
- "asof": "2026-01-28",
+ "asof": "2025-12-29",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-01-28",
-  "adj_close": 0.449
+  "date": "2025-12-29",
+  "adj_close": 0.285
  },
  "balance": {
   "end": "2025-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2025-09-30",
-  "months": 8.9,
-  "per_month": -2606313.088235294
+  "ytd_months": 8.9,
+  "ytd": -23289000,
+  "accn": "0001193125-25-274272",
+  "ttm_per_month": -2725750.0,
+  "quarter_per_month": -2436333.3333333335,
+  "per_month": -2725750.0
  },
  "shares": {
   "end": "2025-11-10",
@@ -28,13 +33,23 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001193125-25-274272",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "d approximately $259.0 million, including through the $50.0 million underwritten registered direct offering in June 2024 and the $12.0 million &#8220;at-the-market&#8221; offering pursuant to our Open Market Sale Agreement with Jefferies LLC in July 2023 (all amounts are gross proceeds before fees and discounts). We have also received payments under various license and collaboration agreements, in"
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2025-09-30",
+  "to": "2026-01-28",
+  "trades": []
  },
- "drug": null,
+ "drug": "setrusumab (UX143)",
  "trials": {
   "query": "mereo biopharma",
   "other_trials": 0,

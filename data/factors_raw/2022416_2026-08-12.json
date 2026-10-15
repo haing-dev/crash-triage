@@ -3,11 +3,12 @@
  "cik": "2022416",
  "name": "Silexion Therapeutics Corp",
  "date": "2026-08-12",
- "asof": "2026-09-11",
+ "asof": "2026-08-14",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-09-11",
-  "adj_close": 0.35699999
+  "date": "2026-08-14",
+  "adj_close": 0.41999999
  },
  "balance": {
   "end": "2026-06-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2026-06-30",
-  "months": 5.9,
-  "per_month": -1111229.1111111112
+  "ytd_months": 5.9,
+  "ytd": -6571000,
+  "accn": "0001178913-26-004138",
+  "ttm_per_month": -1035833.3333333334,
+  "quarter_per_month": -975000.0,
+  "per_month": -1035833.3333333334
  },
  "shares": {
   "end": "2026-08-13",
@@ -28,13 +33,23 @@
   "split_factor": 1.0,
   "splits_after": []
  },
- "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+ "filing": {
+  "accn": "0001178913-26-004138",
+  "guided_until": "2026-12-15",
+  "guidance": "cash flow from operations, will not be sufficient to meet our anticipated cash requirements for the next 12 months from the filing date of this quarterly report, but rather through the fourth quarter of 2026 unde",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": 10900000.0,
+  "atm_quote": "bination, under which approximately $0.2 million remains outstanding as of the date of this quarterly report; &#9679; &#8220; ATM &#8221; and &#8220; ATM Agreement &#8221; are to our at-the-market offering and the At The Market Offering Agreement, dated September 26, 2025, with H.C. Wainwright, as sales agent or principal, respectively, under which we may sell from time to time of up to $13.17 mil"
  },
- "drug": null,
+ "insiders": {
+  "form4s": 3,
+  "from": "2026-05-14",
+  "to": "2026-09-11",
+  "trades": []
+ },
+ "drug": "n/a",
  "trials": {
   "query": "silexion therapeutics",
   "other_trials": 0,

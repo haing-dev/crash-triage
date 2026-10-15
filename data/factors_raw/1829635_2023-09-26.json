@@ -3,11 +3,12 @@
  "cik": "1829635",
  "name": "Transcode Therapeutics, Inc.",
  "date": "2023-09-26",
- "asof": "2023-10-26",
+ "asof": "2023-10-02",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-10-26",
-  "adj_close": 15375.36035
+  "date": "2023-10-02",
+  "adj_close": 16890.7207
  },
  "balance": {
   "end": "2023-06-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2023-06-30",
-  "months": 5.9,
-  "per_month": -1505977.0604444444
+  "ytd_months": 5.9,
+  "ytd": -8905252,
+  "accn": "0001410578-23-001892",
+  "ttm_per_month": -1445583.6666666667,
+  "quarter_per_month": -1463900.3333333333,
+  "per_month": -1445583.6666666667
  },
  "shares": {
   "end": "2023-08-04",
@@ -49,13 +54,35 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001410578-23-001892",
+  "guided_until": null,
+  "guidance": "sufficient to fund our planned operating and capital expenditures for at least the next 12 months",
+  "twelve_months": true,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "vised accounting pronouncements as of effective dates applicable to public companies. We are also a &#8220;smaller reporting company&#8221; meaning that the market value of our stock held by non-affiliates plus the proposed aggregate amount of gross proceeds to us as a result of our initial public offering is less than $700 million and our annual revenue was less than $100 million during the most "
+ },
  "insiders": {
   "form4s": 2,
-  "bought": 75148,
-  "sold": 0,
-  "buyers": [
-   "Dudley Robert Michael",
-   "Fitzgerald Thomas A"
+  "from": "2023-06-28",
+  "to": "2023-10-26",
+  "trades": [
+   {
+    "date": "2023-09-28",
+    "filed": "2023-10-02",
+    "code": "P",
+    "value": 25168,
+    "who": "Fitzgerald Thomas A"
+   },
+   {
+    "date": "2023-09-28",
+    "filed": "2023-10-02",
+    "code": "P",
+    "value": 49980,
+    "who": "Dudley Robert Michael"
+   }
   ]
  },
  "drug": null,

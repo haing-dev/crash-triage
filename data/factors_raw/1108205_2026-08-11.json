@@ -3,57 +3,62 @@
  "cik": "1108205",
  "name": "CURIS INC",
  "date": "2026-08-11",
- "asof": "2026-09-10",
+ "asof": "2026-08-11",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-09-10",
-  "adj_close": 1.16
+  "date": "2026-08-11",
+  "adj_close": 2.31
  },
  "balance": {
-  "end": "2026-06-30",
-  "cash": 5073000,
+  "end": "2026-03-31",
+  "cash": 15001000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001108205-26-000118"
+  "accn": "0001108205-26-000061"
  },
  "burn": {
-  "end": "2026-06-30",
-  "months": 5.9,
-  "per_month": -3153414.888888889
+  "end": "2026-03-31",
+  "ytd_months": 2.9,
+  "ytd": -9001000,
+  "accn": "0001108205-26-000061",
+  "ttm_per_month": -2412500.0,
+  "quarter_per_month": -3000333.3333333335,
+  "per_month": -2412500.0
  },
  "shares": {
-  "end": "2026-08-11",
-  "shares": 2090077,
-  "split_factor": 1.0,
-  "splits_after": []
+  "end": "2026-05-08",
+  "shares": 38978693,
+  "split_factor": 19.997,
+  "splits_after": [
+   [
+    "2026-08-14",
+    20.0
+   ]
+  ]
+ },
+ "filing": {
+  "accn": "0001108205-26-000061",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": 98800000.0,
+  "atm_quote": "Company's stockholders approved an increase to the number of authorized shares of its common stock from 68,343,750 shares to 283,757,150 shares. (b) Sales Agreement with Cantor Fitzgerald &amp; Co. and JonesTrading Institutional Services LLC In February 2024, the Company entered into an amended and restated sales agreement with Cantor Fitzgerald &amp; Co. (&#8220;Cantor&#8221;) and JonesTrading In"
  },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 8,
+  "from": "2026-05-13",
+  "to": "2026-09-10",
+  "trades": []
  },
- "drug": null,
+ "drug": "emavusertib (CA-4948)",
  "trials": {
   "query": "curis",
-  "other_trials": 2,
-  "crashed_drug_trials": 0,
-  "examples": [
-   {
-    "nct": "NCT03328078",
-    "drugs": [
-     "Emavusertib",
-     "Ibrutinib"
-    ]
-   },
-   {
-    "nct": "NCT07271667",
-    "drugs": [
-     "Emavusertib",
-     "Zanubrutinib"
-    ]
-   }
-  ]
+  "other_trials": 0,
+  "crashed_drug_trials": 2,
+  "examples": []
  }
 }

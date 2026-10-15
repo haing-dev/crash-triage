@@ -3,11 +3,12 @@
  "cik": "1260990",
  "name": "Oncternal Therapeutics, Inc.",
  "date": "2024-09-12",
- "asof": "2024-10-12",
+ "asof": "2024-09-16",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-10-14",
-  "adj_close": 1.05
+  "date": "2024-09-16",
+  "adj_close": 1.455
  },
  "balance": {
   "end": "2024-06-30",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2024-06-30",
-  "months": 5.9,
-  "per_month": -2230024.309392265
+  "ytd_months": 5.9,
+  "ytd": -13260000,
+  "accn": "0000950170-24-094082",
+  "ttm_per_month": -2099333.3333333335,
+  "quarter_per_month": -1940666.6666666667,
+  "per_month": -2099333.3333333335
  },
  "shares": {
   "end": "2024-08-01",
@@ -29,11 +34,21 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0000950170-24-094082",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "le. Any of these actions could materially harm the Company's business, results of operations and future prospects. As of April 2, 2024, the Company's at-the-market (&#8220;ATM&#8221;) equity offering program expired. Through April 2, 2024, the Company had sold 457,342 shares of common stock for net proceeds of $ 10.8 million under the ATM program. The Company's ability to obtain additional financi"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 8,
+  "from": "2024-06-14",
+  "to": "2024-10-12",
+  "trades": []
  },
  "drug": null,
  "trials": {

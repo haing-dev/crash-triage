@@ -3,56 +3,73 @@
  "cik": "1774857",
  "name": "Aardvark Therapeutics, Inc.",
  "date": "2026-03-02",
- "asof": "2026-04-01",
+ "asof": "2026-03-03",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-04-01",
-  "adj_close": 4.09
+  "date": "2026-03-03",
+  "adj_close": 4.9
  },
  "balance": {
-  "end": "2025-12-31",
-  "cash": 110027000,
+  "end": "2025-09-30",
+  "cash": 126350000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue",
    "ShortTermInvestments"
   ],
-  "accn": "0001193125-26-119770"
+  "accn": "0001193125-25-280260"
  },
  "burn": {
-  "end": "2025-12-31",
-  "months": 12.0,
-  "per_month": -4530207.912087913
+  "end": "2025-09-30",
+  "ytd_months": 8.9,
+  "ytd": -37362000,
+  "accn": "0001193125-25-280260",
+  "ttm_per_month": null,
+  "quarter_per_month": -5376666.666666667,
+  "per_month": -4181247.3529411764
  },
  "shares": {
-  "end": "2026-02-28",
-  "shares": 21816041,
+  "end": "2025-11-03",
+  "shares": 21773272,
   "split_factor": 1.0,
   "splits_after": []
  },
- "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+ "filing": {
+  "accn": "0001193125-25-280260",
+  "guided_until": "2027-01-15",
+  "guidance": "ents and short-term investments will be sufficient to fund our projected operations into 2027. How",
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
  },
- "drug": null,
- "trials": {
-  "query": "aardvark therapeutics",
-  "other_trials": 2,
-  "crashed_drug_trials": 0,
-  "examples": [
+ "insiders": {
+  "form4s": 5,
+  "from": "2025-12-02",
+  "to": "2026-04-01",
+  "trades": [
    {
-    "nct": "NCT06828861",
-    "drugs": [
-     "ARD-101"
-    ]
+    "date": "2025-12-11",
+    "filed": "2025-12-12",
+    "code": "P",
+    "value": 43200,
+    "who": "Sun Nelson"
    },
    {
-    "nct": "NCT07197034",
-    "drugs": [
-     "ARD-101"
-    ]
+    "date": "2025-12-11",
+    "filed": "2025-12-12",
+    "code": "P",
+    "value": 101395,
+    "who": "Lee Tien-Li"
    }
   ]
+ },
+ "drug": "ARD-101",
+ "trials": {
+  "query": "aardvark therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 2,
+  "examples": []
  }
 }

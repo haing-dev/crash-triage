@@ -3,36 +3,56 @@
  "cik": "1517681",
  "name": "Propanc Biopharma, Inc.",
  "date": "2026-08-28",
- "asof": "2026-09-27",
+ "asof": "2026-09-03",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-09-28",
-  "adj_close": 0.5334
+  "date": "2026-09-03",
+  "adj_close": 1.02
  },
  "balance": {
-  "end": "2026-06-30",
-  "cash": 832006,
+  "end": "2026-03-31",
+  "cash": 443702,
   "parts": [
    "Cash"
   ],
-  "accn": "0001493152-26-044373"
+  "accn": "0001493152-26-033807"
  },
  "burn": {
-  "end": "2026-06-30",
-  "months": 12.0,
-  "per_month": -475218.1576923077
+  "end": "2026-03-31",
+  "ytd_months": 9.0,
+  "ytd": -4080653,
+  "accn": "0001493152-26-033807",
+  "ttm_per_month": -347736.5833333333,
+  "quarter_per_month": -380815.3333333333,
+  "per_month": -347736.5833333333
  },
  "shares": {
-  "end": "2026-09-23",
-  "shares": 6331116,
-  "split_factor": 1.0,
-  "splits_after": []
+  "end": "2026-05-14",
+  "shares": 56959280,
+  "split_factor": 25.0,
+  "splits_after": [
+   [
+    "2026-07-17",
+    25.0
+   ]
+  ]
+ },
+ "filing": {
+  "accn": "0001493152-26-033807",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": ", we have not independently verified and cannot assure you as to the accuracy or completeness of this information. As a result, you should be aware that the market and industry data contained herein, and our beliefs and estimates based on such data, may not be reliable. PROSPECTUS SUMMARY This summary highlights selected information contained elsewhere in this prospectus. This summary does not con"
  },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2026-05-30",
+  "to": "2026-09-27",
+  "trades": []
  },
  "drug": null,
  "trials": {

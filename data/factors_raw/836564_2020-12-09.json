@@ -3,36 +3,51 @@
  "cik": "836564",
  "name": "Mosaic ImmunoEngineering Inc.",
  "date": "2020-12-09",
- "asof": "2021-01-08",
+ "asof": "2020-12-09",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2021-01-08",
-  "adj_close": 3.995
+  "date": "2020-12-09",
+  "adj_close": 2.8
  },
  "balance": {
-  "end": "2020-11-30",
-  "cash": 412526,
+  "end": "2020-08-31",
+  "cash": 373378,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001683168-20-004474"
+  "accn": "0001683168-20-003453"
  },
  "burn": {
-  "end": "2020-11-30",
-  "months": 6.0,
-  "per_month": -32321.927912087915
+  "end": "2020-08-31",
+  "ytd_months": 3.0,
+  "ytd": -55156,
+  "accn": "0001683168-20-003453",
+  "ttm_per_month": -60157.916666666664,
+  "quarter_per_month": -18385.333333333332,
+  "per_month": -60157.916666666664
  },
  "shares": {
-  "end": "2020-12-29",
-  "shares": 805803,
+  "end": "2020-10-15",
+  "shares": 401392948,
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001683168-20-003453",
+  "guided_until": null,
+  "guidance": "sufficient to fund our operations for the next twelve months",
+  "twelve_months": true,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
   "form4s": 5,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2020-09-10",
+  "to": "2021-01-08",
+  "trades": []
  },
  "drug": null,
  "trials": {

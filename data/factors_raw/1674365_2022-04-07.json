@@ -3,11 +3,12 @@
  "cik": "1674365",
  "name": "Aptinyx Inc.",
  "date": "2022-04-07",
- "asof": "2022-05-07",
+ "asof": "2022-04-07",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-05-09",
-  "adj_close": 0.7282
+  "date": "2022-04-07",
+  "adj_close": 1.19
  },
  "balance": {
   "end": "2021-12-31",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2021-12-31",
-  "months": 12.0,
-  "per_month": -5304002.747252747
+  "ytd_months": 12.0,
+  "ytd": -63425000,
+  "accn": "0001558370-22-004153",
+  "ttm_per_month": -5285416.666666667,
+  "quarter_per_month": -6353333.333333333,
+  "per_month": -5285416.666666667
  },
  "shares": {
   "end": "2022-03-15",
@@ -28,11 +33,29 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001558370-22-004153",
+  "guided_until": null,
+  "guidance": "sufficient to fund our operations for at least the next twelve months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "ed our operations to date through proceeds from collaborations, grants, sales of convertible preferred stock, IPO and follow-on public offerings, our ATM Offerings, and our debt financing. We have generated limited revenue to date from a research collaboration agreement with Allergan, a development services agreement with Allergan, and research and development grants from the U.S. government. The "
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 2,
+  "from": "2022-01-07",
+  "to": "2022-05-07",
+  "trades": [
+   {
+    "date": "2022-01-13",
+    "filed": "2022-01-18",
+    "code": "P",
+    "value": 50091,
+    "who": "Miller Joan W."
+   }
+  ]
  },
  "drug": null,
  "trials": {

@@ -3,11 +3,12 @@
  "cik": "1789192",
  "name": "Nexentis Technologies Inc.",
  "date": "2026-06-23",
- "asof": "2026-07-23",
+ "asof": "2026-06-29",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-07-23",
-  "adj_close": 1.91
+  "date": "2026-06-29",
+  "adj_close": 4.67
  },
  "balance": {
   "end": "2026-03-31",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2026-03-31",
-  "months": 2.9,
-  "per_month": -485329.88764044945
+  "ytd_months": 2.9,
+  "ytd": -1419000,
+  "accn": "0001493152-26-023107",
+  "ttm_per_month": -368166.6666666667,
+  "quarter_per_month": -473000.0,
+  "per_month": -368166.6666666667
  },
  "shares": {
   "end": "2026-05-14",
@@ -29,13 +34,31 @@
   "split_factor": 1.0,
   "splits_after": []
  },
- "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+ "filing": {
+  "accn": "0001493152-26-023107",
+  "guided_until": "2027-03-15",
+  "guidance": "opinion that its existing cash will be sufficient to fund operations through the first quarter of 2027. As",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
  },
- "drug": null,
+ "insiders": {
+  "form4s": 1,
+  "from": "2026-03-25",
+  "to": "2026-07-23",
+  "trades": [
+   {
+    "date": "2026-01-29",
+    "filed": "2026-03-26",
+    "code": "S",
+    "value": 172,
+    "who": "Lee Eun Young"
+   }
+  ]
+ },
+ "drug": "n/a",
  "trials": {
   "query": "nexentis technologies",
   "other_trials": 0,

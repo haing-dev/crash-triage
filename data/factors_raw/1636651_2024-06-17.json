@@ -3,11 +3,12 @@
  "cik": "1636651",
  "name": "Ovid Therapeutics Inc.",
  "date": "2024-06-17",
- "asof": "2024-07-17",
+ "asof": "2024-06-20",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-07-17",
-  "adj_close": 1.02
+  "date": "2024-06-20",
+  "adj_close": 0.70099998
  },
  "balance": {
   "end": "2024-03-31",
@@ -21,8 +22,12 @@
  },
  "burn": {
   "end": "2024-03-31",
-  "months": 3.0,
-  "per_month": -5643576.0
+  "ytd_months": 3.0,
+  "ytd": -16686000,
+  "accn": "0001628280-24-023067",
+  "ttm_per_month": -4196243.75,
+  "quarter_per_month": -5562000.0,
+  "per_month": -4196243.75
  },
  "shares": {
   "end": "2024-05-10",
@@ -30,11 +35,29 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001628280-24-023067",
+  "guided_until": null,
+  "guidance": "sufficient to fund its current operating plans through at least the next 12 months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "dition and our ability to pursue our business strategy. See &#8220;Risk Factors&#8221; for additional risks associated with our capital requirements. At-the-Market Offering Program In November 2023, we filed a shelf registration statement on Form S-3 (Registration No. 333-275307) to replace our prior registration statement that was set to expire. The replacement registration statement allows us to"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 1,
+  "from": "2024-03-19",
+  "to": "2024-07-17",
+  "trades": [
+   {
+    "date": "2024-03-18",
+    "filed": "2024-03-20",
+    "code": "P",
+    "value": 50364,
+    "who": "LEVIN JEREMY M"
+   }
+  ]
  },
  "drug": null,
  "trials": {

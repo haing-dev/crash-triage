@@ -3,11 +3,12 @@
  "cik": "1689548",
  "name": "Praxis Precision Medicines, Inc.",
  "date": "2023-03-03",
- "asof": "2023-04-02",
+ "asof": "2023-03-03",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-04-03",
-  "adj_close": 12.765
+  "date": "2023-03-03",
+  "adj_close": 14.955
  },
  "balance": {
   "end": "2022-12-31",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2022-12-31",
-  "months": 12.0,
-  "per_month": -15474475.054945055
+  "ytd_months": 12.0,
+  "ytd": -185043000,
+  "accn": "0001689548-23-000044",
+  "ttm_per_month": -15420250.0,
+  "quarter_per_month": -9602000.0,
+  "per_month": -15420250.0
  },
  "shares": {
   "end": "2023-02-03",
@@ -34,14 +39,49 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001689548-23-000044",
+  "guided_until": null,
+  "guidance": "sufficient to fund operations for at least the next twelve months",
+  "twelve_months": true,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "ate treats a serious condition and, if approved, would provide a significant improvement in safety or effectiveness. The FDA determines at the time that the marketing application is submitted, on a case-by-case basis, whether the product candidate represents a significant improvement when compared with other available therapies. Significant improvement may be illustrated by, among other things, ev"
+ },
  "insiders": {
-  "form4s": 3,
-  "bought": 109179,
-  "sold": 0,
-  "buyers": [
-   "Kelly Timothy Edwin",
-   "MITCHELL DEAN J",
-   "Souza Marcio"
+  "form4s": 20,
+  "from": "2022-12-03",
+  "to": "2023-04-02",
+  "trades": [
+   {
+    "date": "2023-03-23",
+    "filed": "2023-03-27",
+    "code": "P",
+    "value": 30160,
+    "who": "Souza Marcio"
+   },
+   {
+    "date": "2023-03-23",
+    "filed": "2023-03-27",
+    "code": "P",
+    "value": 30207,
+    "who": "Souza Marcio"
+   },
+   {
+    "date": "2023-03-24",
+    "filed": "2023-03-27",
+    "code": "P",
+    "value": 41815,
+    "who": "MITCHELL DEAN J"
+   },
+   {
+    "date": "2023-03-24",
+    "filed": "2023-03-27",
+    "code": "P",
+    "value": 6998,
+    "who": "Kelly Timothy Edwin"
+   }
   ]
  },
  "drug": null,

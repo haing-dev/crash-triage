@@ -3,11 +3,12 @@
  "cik": "1644963",
  "name": "AVENUE THERAPEUTICS, INC.",
  "date": "2022-10-05",
- "asof": "2022-11-04",
+ "asof": "2022-10-10",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-11-04",
-  "adj_close": 133.5
+  "date": "2022-10-10",
+  "adj_close": 193.5
  },
  "balance": {
   "end": "2022-06-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2022-06-30",
-  "months": 5.9,
-  "per_month": -485856.22222222225
+  "ytd_months": 5.9,
+  "ytd": -2873000,
+  "accn": "0001410578-22-002605",
+  "ttm_per_month": -384333.3333333333,
+  "quarter_per_month": -314333.3333333333,
+  "per_month": -384333.3333333333
  },
  "shares": {
   "end": "2022-08-08",
@@ -37,11 +42,29 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001410578-22-002605",
+  "guided_until": "2022-10-15",
+  "guidance": "its cash and cash equivalents are only sufficient to fund its operating expenses into the fourth quarter of 2022. The",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
   "form4s": 1,
-  "bought": 0,
-  "sold": 2999882,
-  "buyers": []
+  "from": "2022-07-07",
+  "to": "2022-11-04",
+  "trades": [
+   {
+    "date": "2022-10-11",
+    "filed": "2022-10-13",
+    "code": "S",
+    "value": 2999882,
+    "who": "InvaGen Pharmaceuticals, Inc."
+   }
+  ]
  },
  "drug": null,
  "trials": {

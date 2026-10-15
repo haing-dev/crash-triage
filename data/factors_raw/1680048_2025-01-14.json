@@ -3,11 +3,12 @@
  "cik": "1680048",
  "name": "MUSTANG BIO, INC.",
  "date": "2025-01-14",
- "asof": "2025-02-13",
+ "asof": "2025-01-17",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-02-13",
-  "adj_close": 2.64
+  "date": "2025-01-17",
+  "adj_close": 5.55
  },
  "balance": {
   "end": "2024-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2024-09-30",
-  "months": 9.0,
-  "per_month": -1049566.73992674
+  "ytd_months": 9.0,
+  "ytd": -9413000,
+  "accn": "0001558370-24-015048",
+  "ttm_per_month": -1388916.6666666667,
+  "quarter_per_month": -585666.6666666666,
+  "per_month": -1388916.6666666667
  },
  "shares": {
   "end": "2017-03-30",
@@ -37,11 +42,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001558370-24-015048",
+  "guided_until": "2025-06-15",
+  "guidance": "in October, as described above, will be sufficient to fund our operations through the first half of 2025. We",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "8212; &#8203; &#8212; 66,549 &#8203; &#8212; &#8203; &#8212; &#8203; 29 &#8203; &#8212; &#8203; 29 Issuance of common shares, net of offering costs - At-the-Market Offering &#8203; &#8212; &#8203; &#8212; &#8212; &#8203; &#8212; 2,661,943 &#8203; &#8212; &#8203; &#8212; &#8203; 1,118 &#8203; &#8212; &#8203; 1,118 Offering costs - Equity Offerings &#8203; &#8212; &#8203; &#8203; &#8212; &#8203; &#8"
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2024-10-16",
+  "to": "2025-02-13",
+  "trades": []
  },
  "drug": null,
  "trials": {

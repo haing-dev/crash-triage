@@ -3,11 +3,12 @@
  "cik": "1527728",
  "name": "Lunai Bioworks Inc.",
  "date": "2024-07-30",
- "asof": "2024-08-29",
+ "asof": "2024-08-02",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-08-29",
-  "adj_close": 52.4
+  "date": "2024-08-02",
+  "adj_close": 41.36
  },
  "balance": {
   "end": "2024-03-31",
@@ -15,12 +16,16 @@
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001731122-24-001290"
+  "accn": "0001731122-24-000807"
  },
  "burn": {
   "end": "2024-03-31",
-  "months": 9.0,
-  "per_month": -950711.0786861314
+  "ytd_months": 9.0,
+  "ytd": -8557649,
+  "accn": "0001731122-24-000807",
+  "ttm_per_month": -901605.0833333334,
+  "quarter_per_month": -877939.6666666666,
+  "per_month": -901605.0833333334
  },
  "shares": {
   "end": "2024-05-10",
@@ -45,11 +50,113 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001731122-24-000807",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "TES TO UNAUDITED CONDENSED CONSOLIDATED FINANCIAL STATEMENTS NOTE 8 &#8212; STOCKHOLDERS' EQUITY (Continued) All of the above options are exercisable at the market price of the Company's Common Stock on the date of the grant. On February 13, 2024, the Company repriced 3,849,931 eligible employee and consultant options from the original issued exercise price to $1.92 per share, the closing price of"
+ },
  "insiders": {
-  "form4s": 2,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 18,
+  "from": "2024-05-01",
+  "to": "2024-08-29",
+  "trades": [
+   {
+    "date": "2024-07-17",
+    "filed": "2024-07-19",
+    "code": "S",
+    "value": 23889,
+    "who": "William Anderson Wittekind"
+   },
+   {
+    "date": "2024-07-15",
+    "filed": "2024-07-17",
+    "code": "S",
+    "value": 30955,
+    "who": "William Anderson Wittekind"
+   },
+   {
+    "date": "2024-07-09",
+    "filed": "2024-07-15",
+    "code": "S",
+    "value": 7084,
+    "who": "William Anderson Wittekind"
+   },
+   {
+    "date": "2024-07-10",
+    "filed": "2024-07-15",
+    "code": "S",
+    "value": 113250,
+    "who": "William Anderson Wittekind"
+   },
+   {
+    "date": "2024-07-11",
+    "filed": "2024-07-15",
+    "code": "S",
+    "value": 22493,
+    "who": "William Anderson Wittekind"
+   },
+   {
+    "date": "2024-07-03",
+    "filed": "2024-07-08",
+    "code": "S",
+    "value": 75500,
+    "who": "William Anderson Wittekind"
+   },
+   {
+    "date": "2024-07-05",
+    "filed": "2024-07-08",
+    "code": "S",
+    "value": 93000,
+    "who": "William Anderson Wittekind"
+   },
+   {
+    "date": "2024-07-01",
+    "filed": "2024-07-03",
+    "code": "S",
+    "value": 93600,
+    "who": "William Anderson Wittekind"
+   },
+   {
+    "date": "2024-07-02",
+    "filed": "2024-07-03",
+    "code": "S",
+    "value": 53212,
+    "who": "William Anderson Wittekind"
+   },
+   {
+    "date": "2024-06-25",
+    "filed": "2024-06-27",
+    "code": "S",
+    "value": 31600,
+    "who": "William Anderson Wittekind"
+   },
+   {
+    "date": "2024-06-26",
+    "filed": "2024-06-27",
+    "code": "S",
+    "value": 78500,
+    "who": "William Anderson Wittekind"
+   },
+   {
+    "date": "2024-06-27",
+    "filed": "2024-06-27",
+    "code": "S",
+    "value": 22006,
+    "who": "William Anderson Wittekind"
+   },
+   {
+    "date": "2024-06-14",
+    "filed": "2024-06-18",
+    "code": "S",
+    "value": 79000,
+    "who": "William Anderson Wittekind"
+   }
+  ]
  },
  "drug": null,
  "trials": {

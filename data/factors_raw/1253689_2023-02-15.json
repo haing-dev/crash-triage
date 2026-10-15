@@ -3,11 +3,12 @@
  "cik": "1253689",
  "name": "CRESCENT BIOPHARMA, INC.",
  "date": "2023-02-15",
- "asof": "2023-03-17",
+ "asof": "2023-02-15",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-03-17",
-  "adj_close": 140.0
+  "date": "2023-02-15",
+  "adj_close": 152.0
  },
  "balance": {
   "end": "2022-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2022-09-30",
-  "months": 8.9,
-  "per_month": -4313741.8175
+  "ytd_months": 8.9,
+  "ytd": -38545919,
+  "accn": "0001558370-22-017036",
+  "ttm_per_month": -4280246.166666667,
+  "quarter_per_month": -2872371.0,
+  "per_month": -4280246.166666667
  },
  "shares": {
   "end": "2022-11-07",
@@ -28,12 +33,175 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001558370-22-017036",
+  "guided_until": "2023-12-15",
+  "guidance": "sting cash and cash equivalents will be sufficient to fund our operations to the end of 2023 with",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "al funding from either debt or equity financings, although the Company may, in its discretion, sell equity securities under the terms of its existing at-the-market sales agreement (see Note 8), subject to certain conditions and limitations. Management believes that given the Company's current cash position and forecasted negative cash flows from operating activities over the next twelve months, in"
+ },
  "insiders": {
-  "form4s": 3,
-  "bought": 3910184,
-  "sold": 0,
-  "buyers": [
-   "Invus Public Equities, L.P."
+  "form4s": 13,
+  "from": "2022-11-17",
+  "to": "2023-03-17",
+  "trades": [
+   {
+    "date": "2023-02-24",
+    "filed": "2023-02-28",
+    "code": "P",
+    "value": 170000,
+    "who": "Invus Public Equities, L.P."
+   },
+   {
+    "date": "2023-02-21",
+    "filed": "2023-02-23",
+    "code": "P",
+    "value": 92500,
+    "who": "Invus Public Equities, L.P."
+   },
+   {
+    "date": "2023-02-22",
+    "filed": "2023-02-23",
+    "code": "P",
+    "value": 268995,
+    "who": "Invus Public Equities, L.P."
+   },
+   {
+    "date": "2023-02-23",
+    "filed": "2023-02-23",
+    "code": "P",
+    "value": 350760,
+    "who": "Invus Public Equities, L.P."
+   },
+   {
+    "date": "2023-02-15",
+    "filed": "2023-02-17",
+    "code": "P",
+    "value": 2155800,
+    "who": "Invus Public Equities, L.P."
+   },
+   {
+    "date": "2023-02-16",
+    "filed": "2023-02-17",
+    "code": "P",
+    "value": 531129,
+    "who": "Invus Public Equities, L.P."
+   },
+   {
+    "date": "2023-02-17",
+    "filed": "2023-02-17",
+    "code": "P",
+    "value": 341000,
+    "who": "Invus Public Equities, L.P."
+   },
+   {
+    "date": "2023-02-09",
+    "filed": "2023-02-13",
+    "code": "P",
+    "value": 37123,
+    "who": "Invus Public Equities, L.P."
+   },
+   {
+    "date": "2023-01-25",
+    "filed": "2023-01-27",
+    "code": "S",
+    "value": 1169687,
+    "who": "SANDELL SCOTT D"
+   },
+   {
+    "date": "2023-01-25",
+    "filed": "2023-01-27",
+    "code": "S",
+    "value": 958428,
+    "who": "SANDELL SCOTT D"
+   },
+   {
+    "date": "2023-01-26",
+    "filed": "2023-01-27",
+    "code": "S",
+    "value": 5142614,
+    "who": "SANDELL SCOTT D"
+   },
+   {
+    "date": "2023-01-26",
+    "filed": "2023-01-27",
+    "code": "S",
+    "value": 4213786,
+    "who": "SANDELL SCOTT D"
+   },
+   {
+    "date": "2023-01-05",
+    "filed": "2023-01-06",
+    "code": "S",
+    "value": 108201,
+    "who": "SANDELL SCOTT D"
+   },
+   {
+    "date": "2023-01-05",
+    "filed": "2023-01-06",
+    "code": "S",
+    "value": 88659,
+    "who": "SANDELL SCOTT D"
+   },
+   {
+    "date": "2022-12-30",
+    "filed": "2023-01-04",
+    "code": "S",
+    "value": 201404,
+    "who": "SANDELL SCOTT D"
+   },
+   {
+    "date": "2022-12-30",
+    "filed": "2023-01-04",
+    "code": "S",
+    "value": 165028,
+    "who": "SANDELL SCOTT D"
+   },
+   {
+    "date": "2023-01-03",
+    "filed": "2023-01-04",
+    "code": "S",
+    "value": 287301,
+    "who": "SANDELL SCOTT D"
+   },
+   {
+    "date": "2023-01-03",
+    "filed": "2023-01-04",
+    "code": "S",
+    "value": 235411,
+    "who": "SANDELL SCOTT D"
+   },
+   {
+    "date": "2023-01-04",
+    "filed": "2023-01-04",
+    "code": "S",
+    "value": 163100,
+    "who": "SANDELL SCOTT D"
+   },
+   {
+    "date": "2023-01-04",
+    "filed": "2023-01-04",
+    "code": "S",
+    "value": 133643,
+    "who": "SANDELL SCOTT D"
+   },
+   {
+    "date": "2022-12-22",
+    "filed": "2022-12-27",
+    "code": "P",
+    "value": 247500,
+    "who": "Rock Edwin"
+   },
+   {
+    "date": "2022-11-17",
+    "filed": "2022-11-18",
+    "code": "P",
+    "value": 37400,
+    "who": "JUNIUS DANIEL M"
+   }
   ]
  },
  "drug": null,

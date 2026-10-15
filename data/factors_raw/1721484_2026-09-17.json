@@ -3,11 +3,12 @@
  "cik": "1721484",
  "name": "Longeveron Inc.",
  "date": "2026-09-17",
- "asof": "2026-10-15",
+ "asof": "2026-09-18",
  "final": false,
+ "version": 2,
  "price": {
-  "date": "2026-10-14",
-  "adj_close": 1.87
+  "date": "2026-09-18",
+  "adj_close": 2.49
  },
  "balance": {
   "end": "2026-06-30",
@@ -19,17 +20,31 @@
  },
  "burn": {
   "end": "2026-06-30",
-  "months": 5.9,
-  "per_month": -1695000.6666666667
+  "ytd_months": 5.9,
+  "ytd": -10023000,
+  "accn": "0001193125-26-346794",
+  "ttm_per_month": -1697833.3333333333,
+  "quarter_per_month": -1884333.3333333333,
+  "per_month": -1697833.3333333333
  },
  "shares": null,
- "insiders": {
-  "form4s": 5,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+ "filing": {
+  "accn": "0001193125-26-346794",
+  "guided_until": "2026-10-15",
+  "guidance": "s 8 from the Private Placement, will be adequate to fund operations into the fourth quarter of 2026. The",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": 9300000.0,
+  "atm_quote": "vate placement, net of issuance cost of $ 1.7 million 6,013,384 6 &#8212; &#8212; 11,873 &#8212; 13,430 &#8212; 13,436 Class A common stock issued in At-The-Market offering 287,074 &#8212; &#8212; &#8212; &#8212; &#8212; 138 &#8212; 138 Class A common stock issued for warrants exercised 1,602,193 2 &#8212; &#8212; &#8212; &#8212; 1,360 &#8212; 1,362 Conversion of Series A preferred stock for Class"
  },
- "drug": null,
+ "insiders": {
+  "form4s": 23,
+  "from": "2026-06-19",
+  "to": "2026-10-15",
+  "trades": []
+ },
+ "drug": "n/a",
  "trials": {
   "query": "longeveron",
   "other_trials": 0,

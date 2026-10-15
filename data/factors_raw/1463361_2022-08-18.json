@@ -3,11 +3,12 @@
  "cik": "1463361",
  "name": "Unity Biotechnology, Inc.",
  "date": "2022-08-18",
- "asof": "2022-09-17",
+ "asof": "2022-08-23",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-09-19",
-  "adj_close": 4.521
+  "date": "2022-08-23",
+  "adj_close": 5.682
  },
  "balance": {
   "end": "2022-06-30",
@@ -21,8 +22,12 @@
  },
  "burn": {
   "end": "2022-06-30",
-  "months": 5.9,
-  "per_month": -5040694.888888889
+  "ytd_months": 5.9,
+  "ytd": -29807000,
+  "accn": "0001564590-22-029209",
+  "ttm_per_month": -3866000.0,
+  "quarter_per_month": -4945000.0,
+  "per_month": -3866000.0
  },
  "shares": {
   "end": "2022-08-11",
@@ -35,11 +40,64 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001564590-22-029209",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "December 31, 2021 62,991,906 $ 6 $ 459,631 $ &#8212; $ &#8212; $ ( 44 ) $ ( 400,024 ) $ 59,569 Issuance of common stock, net of issuance costs, under at-the-market (&#8220;ATM&#8221;) offering program 2,325,000 &#8212; 3,420 &#8212; &#8212; &#8212; &#8212; 3,420 Issuance of common stock to Lincoln Park Capital Fund 900,000 &#8212; 910 &#8212; &#8212; &#8212; &#8212; 910 Issuance of common stock to"
+ },
  "insiders": {
-  "form4s": 2,
-  "bought": 0,
-  "sold": 11822,
-  "buyers": []
+  "form4s": 16,
+  "from": "2022-05-20",
+  "to": "2022-09-17",
+  "trades": [
+   {
+    "date": "2022-09-14",
+    "filed": "2022-09-15",
+    "code": "S",
+    "value": 6579,
+    "who": "Ghosh Anirvan"
+   },
+   {
+    "date": "2022-09-14",
+    "filed": "2022-09-15",
+    "code": "S",
+    "value": 5243,
+    "who": "Dananberg Jamie"
+   },
+   {
+    "date": "2022-08-01",
+    "filed": "2022-08-02",
+    "code": "S",
+    "value": 6999,
+    "who": "Ghosh Anirvan"
+   },
+   {
+    "date": "2022-06-27",
+    "filed": "2022-06-28",
+    "code": "S",
+    "value": 2595,
+    "who": "Dananberg Jamie"
+   },
+   {
+    "date": "2022-06-27",
+    "filed": "2022-06-28",
+    "code": "S",
+    "value": 7168,
+    "who": "Ghosh Anirvan"
+   },
+   {
+    "date": "2022-06-21",
+    "filed": "2022-06-22",
+    "code": "S",
+    "value": 2292,
+    "who": "Dananberg Jamie"
+   }
+  ]
  },
  "drug": null,
  "trials": {

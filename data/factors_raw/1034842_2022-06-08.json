@@ -3,11 +3,12 @@
  "cik": "1034842",
  "name": "RIGEL PHARMACEUTICALS INC",
  "date": "2022-06-08",
- "asof": "2022-07-08",
+ "asof": "2022-06-10",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-07-08",
-  "adj_close": 13.8
+  "date": "2022-06-10",
+  "adj_close": 6.7
  },
  "balance": {
   "end": "2022-03-31",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2022-03-31",
-  "months": 2.9,
-  "per_month": -8768430.112359552
+  "ytd_months": 2.9,
+  "ytd": -25637000,
+  "accn": "0001558370-22-006809",
+  "ttm_per_month": 16333.333333333334,
+  "quarter_per_month": -8545666.666666666,
+  "per_month": 16333.333333333334
  },
  "shares": {
   "end": "2022-04-29",
@@ -34,12 +39,28 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001558370-22-006809",
+  "guided_until": null,
+  "guidance": "sufficient to fund our expenses and capital expenditure requirements for at least the next 12 months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "ies LLC, as a sole agent, pursuant to which we may sell from time to time, through Jefferies, shares of our common stock in sales deemed to be &#8220;at-the-market offerings&#8221; as defined in Rule 415 under the Securities Act, subject to conditions specified in the Open Market Sale Agreement, including maintaining an effective registration statement covering the sale of shares under the Open Ma"
+ },
  "insiders": {
-  "form4s": 1,
-  "bought": 688400,
-  "sold": 0,
-  "buyers": [
-   "RODRIGUEZ RAUL R"
+  "form4s": 8,
+  "from": "2022-03-10",
+  "to": "2022-07-08",
+  "trades": [
+   {
+    "date": "2022-06-09",
+    "filed": "2022-06-13",
+    "code": "P",
+    "value": 688400,
+    "who": "RODRIGUEZ RAUL R"
+   }
   ]
  },
  "drug": null,

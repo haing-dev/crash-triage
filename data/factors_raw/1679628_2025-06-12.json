@@ -3,11 +3,12 @@
  "cik": "1679628",
  "name": "JUPITER NEUROSCIENCES, INC.",
  "date": "2025-06-12",
- "asof": "2025-07-12",
+ "asof": "2025-06-17",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-07-14",
-  "adj_close": 2.81
+  "date": "2025-06-17",
+  "adj_close": 0.93599999
  },
  "balance": {
   "end": "2025-03-31",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2025-03-31",
-  "months": 2.9,
-  "per_month": -363583.9105617978
+  "ytd_months": 2.9,
+  "ytd": -1063041,
+  "accn": "0001641172-25-010990",
+  "ttm_per_month": -409073.3333333333,
+  "quarter_per_month": -354347.0,
+  "per_month": -409073.3333333333
  },
  "shares": {
   "end": "2025-05-14",
@@ -33,13 +38,168 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001641172-25-010990",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
   "form4s": 6,
-  "bought": 14280,
-  "sold": 0,
-  "buyers": [
-   "ROSEN CHRISTER",
-   "Silva Alison D."
+  "from": "2025-03-14",
+  "to": "2025-07-12",
+  "trades": [
+   {
+    "date": "2025-07-01",
+    "filed": "2025-07-03",
+    "code": "P",
+    "value": 257,
+    "who": "Silva Alison D."
+   },
+   {
+    "date": "2025-07-01",
+    "filed": "2025-07-03",
+    "code": "P",
+    "value": 257,
+    "who": "Silva Alison D."
+   },
+   {
+    "date": "2025-07-01",
+    "filed": "2025-07-03",
+    "code": "P",
+    "value": 258,
+    "who": "Silva Alison D."
+   },
+   {
+    "date": "2025-07-01",
+    "filed": "2025-07-03",
+    "code": "P",
+    "value": 505,
+    "who": "ROSEN CHRISTER"
+   },
+   {
+    "date": "2025-07-01",
+    "filed": "2025-07-03",
+    "code": "P",
+    "value": 3162,
+    "who": "ROSEN CHRISTER"
+   },
+   {
+    "date": "2025-06-27",
+    "filed": "2025-07-01",
+    "code": "P",
+    "value": 250,
+    "who": "Silva Alison D."
+   },
+   {
+    "date": "2025-06-27",
+    "filed": "2025-07-01",
+    "code": "P",
+    "value": 103,
+    "who": "Silva Alison D."
+   },
+   {
+    "date": "2025-06-27",
+    "filed": "2025-07-01",
+    "code": "P",
+    "value": 261,
+    "who": "Silva Alison D."
+   },
+   {
+    "date": "2025-06-27",
+    "filed": "2025-07-01",
+    "code": "P",
+    "value": 262,
+    "who": "Silva Alison D."
+   },
+   {
+    "date": "2025-06-30",
+    "filed": "2025-07-01",
+    "code": "P",
+    "value": 102,
+    "who": "Silva Alison D."
+   },
+   {
+    "date": "2025-06-30",
+    "filed": "2025-07-01",
+    "code": "P",
+    "value": 255,
+    "who": "Silva Alison D."
+   },
+   {
+    "date": "2025-06-30",
+    "filed": "2025-07-01",
+    "code": "P",
+    "value": 258,
+    "who": "Silva Alison D."
+   },
+   {
+    "date": "2025-06-30",
+    "filed": "2025-07-01",
+    "code": "P",
+    "value": 259,
+    "who": "Silva Alison D."
+   },
+   {
+    "date": "2025-06-30",
+    "filed": "2025-07-01",
+    "code": "P",
+    "value": 105,
+    "who": "Silva Alison D."
+   },
+   {
+    "date": "2025-06-27",
+    "filed": "2025-07-01",
+    "code": "P",
+    "value": 176,
+    "who": "ROSEN CHRISTER"
+   },
+   {
+    "date": "2025-06-30",
+    "filed": "2025-07-01",
+    "code": "P",
+    "value": 980,
+    "who": "ROSEN CHRISTER"
+   },
+   {
+    "date": "2025-06-30",
+    "filed": "2025-07-01",
+    "code": "P",
+    "value": 2020,
+    "who": "ROSEN CHRISTER"
+   },
+   {
+    "date": "2025-06-30",
+    "filed": "2025-07-01",
+    "code": "P",
+    "value": 1479,
+    "who": "ROSEN CHRISTER"
+   },
+   {
+    "date": "2025-06-30",
+    "filed": "2025-07-01",
+    "code": "P",
+    "value": 721,
+    "who": "ROSEN CHRISTER"
+   },
+   {
+    "date": "2025-06-30",
+    "filed": "2025-07-01",
+    "code": "P",
+    "value": 1560,
+    "who": "ROSEN CHRISTER"
+   },
+   {
+    "date": "2025-06-30",
+    "filed": "2025-07-01",
+    "code": "P",
+    "value": 1050,
+    "who": "ROSEN CHRISTER"
+   }
   ]
  },
  "drug": null,

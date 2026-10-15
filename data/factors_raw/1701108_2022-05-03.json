@@ -3,37 +3,109 @@
  "cik": "1701108",
  "name": "Spero Therapeutics, Inc.",
  "date": "2022-05-03",
- "asof": "2022-06-02",
+ "asof": "2022-05-03",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-06-02",
-  "adj_close": 1.04
+  "date": "2022-05-03",
+  "adj_close": 1.85
  },
  "balance": {
-  "end": "2022-03-31",
-  "cash": 121966000,
+  "end": "2021-12-31",
+  "cash": 146402000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue",
    "MarketableSecuritiesCurrent"
   ],
-  "accn": "0000950170-22-010064"
+  "accn": "0000950170-22-005194"
  },
  "burn": {
-  "end": "2022-03-31",
-  "months": 2.9,
-  "per_month": -9652900.224719102
+  "end": "2021-12-31",
+  "ytd_months": 12.0,
+  "ytd": -64347000,
+  "accn": "0000950170-22-005194",
+  "ttm_per_month": -5362250.0,
+  "quarter_per_month": -9116333.333333334,
+  "per_month": -5362250.0
  },
  "shares": {
-  "end": "2022-05-12",
-  "shares": 32821544,
+  "end": "2022-03-25",
+  "shares": 32755559,
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0000950170-22-005194",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "hat treats a serious condition and, if approved, would provide a significant improvement in safety or effectiveness. The FDA determines at the time that the marketing application is submitted, on a case-by-case basis, whether the proposed drug represents a significant improvement in treatment, prevention or diagnosis of disease when compared with other available therapies. Significant improvement "
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 11,
+  "from": "2022-02-02",
+  "to": "2022-06-02",
+  "trades": [
+   {
+    "date": "2022-04-26",
+    "filed": "2022-04-28",
+    "code": "P",
+    "value": 207971,
+    "who": "Aquilo Capital Management, LLC"
+   },
+   {
+    "date": "2022-03-30",
+    "filed": "2022-03-31",
+    "code": "P",
+    "value": 291028,
+    "who": "Aquilo Capital Management, LLC"
+   },
+   {
+    "date": "2022-03-30",
+    "filed": "2022-03-31",
+    "code": "P",
+    "value": 148392,
+    "who": "Aquilo Capital Management, LLC"
+   },
+   {
+    "date": "2022-03-14",
+    "filed": "2022-03-16",
+    "code": "P",
+    "value": 119743,
+    "who": "Aquilo Capital Management, LLC"
+   },
+   {
+    "date": "2022-03-14",
+    "filed": "2022-03-16",
+    "code": "P",
+    "value": 61054,
+    "who": "Aquilo Capital Management, LLC"
+   },
+   {
+    "date": "2022-02-28",
+    "filed": "2022-03-02",
+    "code": "P",
+    "value": 283297,
+    "who": "Aquilo Capital Management, LLC"
+   },
+   {
+    "date": "2022-02-28",
+    "filed": "2022-03-02",
+    "code": "P",
+    "value": 143931,
+    "who": "Aquilo Capital Management, LLC"
+   },
+   {
+    "date": "2022-02-18",
+    "filed": "2022-02-23",
+    "code": "P",
+    "value": 137039,
+    "who": "Aquilo Capital Management, LLC"
+   }
+  ]
  },
  "drug": null,
  "trials": {

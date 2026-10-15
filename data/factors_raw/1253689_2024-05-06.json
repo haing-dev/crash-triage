@@ -3,10 +3,11 @@
  "cik": "1253689",
  "name": "CRESCENT BIOPHARMA, INC.",
  "date": "2024-05-06",
- "asof": "2024-06-05",
+ "asof": "2024-05-10",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-06-05",
+  "date": "2024-05-10",
   "adj_close": 27.0
  },
  "balance": {
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2024-03-31",
-  "months": 3.0,
-  "per_month": -3554319.4973333334
+  "ytd_months": 3.0,
+  "ytd": -10508829,
+  "accn": "0001558370-24-007632",
+  "ttm_per_month": -2816830.8333333335,
+  "quarter_per_month": -3502943.0,
+  "per_month": -2816830.8333333335
  },
  "shares": {
   "end": "2024-05-07",
@@ -28,11 +33,21 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001558370-24-007632",
+  "guided_until": "2024-12-15",
+  "guidance": "sting cash and cash equivalents will be sufficient to fund our operations through the fourth quarter of 2024 with",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": 66000000.0,
+  "atm_quote": "al funding from either debt or equity financings, although the Company may, at its discretion, sell equity securities under the terms of its existing at-the-market sales agreement (see Note 7), subject to certain conditions and limitations. Management believes that given the Company's current cash position and forecasted negative cash flows from operating activities over the next twelve months, in"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 10,
+  "from": "2024-02-06",
+  "to": "2024-06-05",
+  "trades": []
  },
  "drug": null,
  "trials": {

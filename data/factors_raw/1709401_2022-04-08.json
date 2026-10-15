@@ -3,11 +3,12 @@
  "cik": "1709401",
  "name": "Rubius Therapeutics, Inc.",
  "date": "2022-04-08",
- "asof": "2022-05-08",
+ "asof": "2022-04-11",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-05-09",
-  "adj_close": 1.33
+  "date": "2022-04-11",
+  "adj_close": 2.41
  },
  "balance": {
   "end": "2021-12-31",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2021-12-31",
-  "months": 12.0,
-  "per_month": -12136026.593406593
+  "ytd_months": 12.0,
+  "ytd": -145122000,
+  "accn": "0001558370-22-002057",
+  "ttm_per_month": -12093500.0,
+  "quarter_per_month": -12405666.666666666,
+  "per_month": -12093500.0
  },
  "shares": {
   "end": "2022-01-31",
@@ -29,12 +34,49 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001558370-22-002057",
+  "guided_until": "2023-04-15",
+  "guidance": "679; expectations that our cash will be sufficient to fund our operating expenses and capital expenditure requirements into the second quarter of 2023 and",
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "Contents debilitating conditions; (2) either (i) such condition affects not more than 5 in 10,000 persons in the E.U. or (ii) where it is unlikely that the marketing of the medicine, without the benefit derived from orphan status, would generate sufficient return to justify the necessary investment in its development and (3) there exists no satisfactory method of diagnosis, prevention or treatment"
+ },
  "insiders": {
-  "form4s": 1,
-  "bought": 43329,
-  "sold": 0,
-  "buyers": [
-   "Epstein David R"
+  "form4s": 6,
+  "from": "2022-01-08",
+  "to": "2022-05-08",
+  "trades": [
+   {
+    "date": "2022-04-21",
+    "filed": "2022-04-22",
+    "code": "P",
+    "value": 43329,
+    "who": "Epstein David R"
+   },
+   {
+    "date": "2022-02-01",
+    "filed": "2022-02-01",
+    "code": "S",
+    "value": 44236,
+    "who": "CAGNONI PABLO J"
+   },
+   {
+    "date": "2022-02-01",
+    "filed": "2022-02-01",
+    "code": "S",
+    "value": 17957,
+    "who": "Keson-Brookes Maiken"
+   },
+   {
+    "date": "2022-02-01",
+    "filed": "2022-02-01",
+    "code": "S",
+    "value": 16544,
+    "who": "Turka Laurence A."
+   }
   ]
  },
  "drug": null,

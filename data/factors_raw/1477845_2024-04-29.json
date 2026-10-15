@@ -3,36 +3,51 @@
  "cik": "1477845",
  "name": "Annovis Bio, Inc.",
  "date": "2024-04-29",
- "asof": "2024-05-29",
+ "asof": "2024-05-03",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-05-29",
-  "adj_close": 6.0
+  "date": "2024-05-03",
+  "adj_close": 5.18
  },
  "balance": {
-  "end": "2024-03-31",
-  "cash": 3136968,
+  "end": "2023-12-31",
+  "cash": 5754720,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001558370-24-007820"
+  "accn": "0001558370-24-004393"
  },
  "burn": {
-  "end": "2024-03-31",
-  "months": 3.0,
-  "per_month": -2378633.009777778
+  "end": "2023-12-31",
+  "ytd_months": 12.0,
+  "ytd": -39967304,
+  "accn": "0001558370-24-004393",
+  "ttm_per_month": -3330608.6666666665,
+  "quarter_per_month": -3121658.6666666665,
+  "per_month": -3330608.6666666665
  },
  "shares": {
-  "end": "2024-05-09",
-  "shares": 11171480,
+  "end": "2024-03-26",
+  "shares": 11011299,
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001558370-24-004393",
+  "guided_until": "2024-06-15",
+  "guidance": "nd funding from existing grants will be sufficient to fund our operating expenses and capital expenditure requirements until the second quarter of 2024, inc",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "on or treatment of a life-threatening, seriously debilitating or serious and chronic condition in the EU and that without incentives it is unlikely that the marketing of the drug in the EU would generate sufficient return to justify the necessary investment in development. For either of these conditions, the applicant must demonstrate that there exists no satisfactory method of diagnosis, preventi"
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2024-01-30",
+  "to": "2024-05-29",
+  "trades": []
  },
  "drug": null,
  "trials": {

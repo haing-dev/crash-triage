@@ -3,11 +3,12 @@
  "cik": "1620463",
  "name": "LeonaBio, Inc.",
  "date": "2022-06-22",
- "asof": "2022-07-22",
+ "asof": "2022-06-24",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-07-22",
-  "adj_close": 32.099998
+  "date": "2022-06-24",
+  "adj_close": 27.4
  },
  "balance": {
   "end": "2022-03-31",
@@ -21,8 +22,12 @@
  },
  "burn": {
   "end": "2022-03-31",
-  "months": 2.9,
-  "per_month": -5667996.404494382
+  "ytd_months": 2.9,
+  "ytd": -16572000,
+  "accn": "0000950170-22-009683",
+  "ttm_per_month": -4363750.0,
+  "quarter_per_month": -5524000.0,
+  "per_month": -4363750.0
  },
  "shares": {
   "end": "2022-05-09",
@@ -35,13 +40,84 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0000950170-22-009683",
+  "guided_until": null,
+  "guidance": "sufficient to fund our operating expenses and capital expenditure requirements through at least the next 12 months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 8,
-  "bought": 4129172,
-  "sold": 53787,
-  "buyers": [
-   "MOEBIUS HANS",
-   "PERCEPTIVE ADVISORS LLC"
+  "form4s": 19,
+  "from": "2022-03-24",
+  "to": "2022-07-22",
+  "trades": [
+   {
+    "date": "2022-06-29",
+    "filed": "2022-07-01",
+    "code": "P",
+    "value": 807300,
+    "who": "PERCEPTIVE ADVISORS LLC"
+   },
+   {
+    "date": "2022-06-30",
+    "filed": "2022-07-01",
+    "code": "P",
+    "value": 3293072,
+    "who": "PERCEPTIVE ADVISORS LLC"
+   },
+   {
+    "date": "2022-06-28",
+    "filed": "2022-06-30",
+    "code": "P",
+    "value": 28800,
+    "who": "MOEBIUS HANS"
+   },
+   {
+    "date": "2022-06-23",
+    "filed": "2022-06-24",
+    "code": "S",
+    "value": 7032,
+    "who": "Worthington Mark"
+   },
+   {
+    "date": "2022-06-23",
+    "filed": "2022-06-24",
+    "code": "S",
+    "value": 7032,
+    "who": "MILESON GLENNA"
+   },
+   {
+    "date": "2022-06-23",
+    "filed": "2022-06-24",
+    "code": "S",
+    "value": 21412,
+    "who": "Litton Mark James"
+   },
+   {
+    "date": "2022-06-23",
+    "filed": "2022-06-24",
+    "code": "S",
+    "value": 11279,
+    "who": "Lenington Rachel"
+   },
+   {
+    "date": "2022-06-23",
+    "filed": "2022-06-24",
+    "code": "S",
+    "value": 7032,
+    "who": "CHURCH KEVIN"
+   },
+   {
+    "date": "2022-03-31",
+    "filed": "2022-04-01",
+    "code": "P",
+    "value": 104880,
+    "who": "Romano Kelly A"
+   }
   ]
  },
  "drug": null,

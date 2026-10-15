@@ -3,11 +3,12 @@
  "cik": "1408443",
  "name": "Milestone Pharmaceuticals Inc.",
  "date": "2025-03-28",
- "asof": "2025-04-27",
+ "asof": "2025-04-03",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-04-28",
-  "adj_close": 1.35
+  "date": "2025-04-03",
+  "adj_close": 0.75
  },
  "balance": {
   "end": "2024-12-31",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2024-12-31",
-  "months": 12.0,
-  "per_month": -2405844.164383562
+  "ytd_months": 12.0,
+  "ytd": -28848000,
+  "accn": "0001558370-25-002849",
+  "ttm_per_month": -2404000.0,
+  "quarter_per_month": -2281000.0,
+  "per_month": -2404000.0
  },
  "shares": {
   "end": "2025-03-13",
@@ -29,11 +34,21 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001558370-25-002849",
+  "guided_until": null,
+  "guidance": "sufficient to fund our operations for at least the next 12 months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": ", but excluding, the redemption date. 89 Table of Contents &#8203; On July 29, 2020, we entered into an Open Market Sale Agreement SM , or the &#8220;Sales Agreement,&#8221; with respect to an at-the-market offering program, or the &#8220;ATM Program,&#8221; under which the Company may issue and sell its common shares having an aggregate offering price of up to $50 million through Jefferies as its"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 5,
+  "from": "2024-12-28",
+  "to": "2025-04-27",
+  "trades": []
  },
  "drug": null,
  "trials": {

@@ -3,40 +3,56 @@
  "cik": "2029039",
  "name": "Nasus Pharma Ltd",
  "date": "2026-03-16",
- "asof": "2026-04-15",
+ "asof": "2026-03-19",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-04-15",
-  "adj_close": 2.21
+  "date": "2026-03-19",
+  "adj_close": 2.48
  },
  "balance": {
-  "end": "2025-12-31",
-  "cash": 1237000,
+  "end": "2025-06-30",
+  "cash": 203000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001493152-26-012559"
+  "accn": "0001493152-25-029210"
  },
  "burn": {
-  "end": "2025-12-31",
-  "months": 12.0,
-  "per_month": -411274.5054945055
+  "end": "2025-06-30",
+  "ytd_months": 5.9,
+  "ytd": -433000,
+  "accn": "0001493152-25-029210",
+  "ttm_per_month": null,
+  "quarter_per_month": null,
+  "per_month": -73225.11111111111
  },
- "shares": {
-  "end": "2025-12-31",
-  "shares": 9015383,
-  "split_factor": 1.0,
-  "splits_after": []
+ "shares": null,
+ "filing": {
+  "accn": "0001493152-25-029210",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
  },
  "insiders": {
   "form4s": 1,
-  "bought": 30600,
-  "sold": 0,
-  "buyers": [
-   "Teleman Dan Benjamin"
+  "from": "2025-12-16",
+  "to": "2026-04-15",
+  "trades": [
+   {
+    "date": "2026-03-31",
+    "filed": "2026-04-01",
+    "code": "P",
+    "value": 30600,
+    "who": "Teleman Dan Benjamin"
+   }
   ]
  },
- "drug": null,
+ "drug": "NS002",
  "trials": {
   "query": "nasus pharma",
   "other_trials": 2,

@@ -3,11 +3,12 @@
  "cik": "1633932",
  "name": "ESSA Pharma Inc.",
  "date": "2024-11-01",
- "asof": "2024-12-01",
+ "asof": "2024-11-01",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-12-02",
-  "adj_close": 0.554247
+  "date": "2024-11-01",
+  "adj_close": 0.443397
  },
  "balance": {
   "end": "2024-06-30",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2024-06-30",
-  "months": 9.0,
-  "per_month": -2157567.687179487
+  "ytd_months": 9.0,
+  "ytd": -19350065,
+  "accn": "0001558370-24-010767",
+  "ttm_per_month": -1986540.1666666667,
+  "quarter_per_month": -1915033.0,
+  "per_month": -1986540.1666666667
  },
  "shares": {
   "end": "2024-08-05",
@@ -29,11 +34,71 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001558370-24-010767",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "e &#8220;Common Shares&#8221;) under the Open Market Sale Agreement between the Company and Jefferies LLC, effective November 3, 2023 (the &#8220;ATM Sales Agreement&#8221;); &#9679; our intended use of proceeds from past and future offerings of our securities; &#9679; the implementation of our business model and strategic plans, including strategic plans with respect to patent applications and st"
+ },
  "insiders": {
-  "form4s": 1,
-  "bought": 0,
-  "sold": 12018409,
-  "buyers": []
+  "form4s": 4,
+  "from": "2024-08-03",
+  "to": "2024-12-01",
+  "trades": [
+   {
+    "date": "2024-11-01",
+    "filed": "2024-11-05",
+    "code": "S",
+    "value": 3064000,
+    "who": "BIOTECH GROWTH N V"
+   },
+   {
+    "date": "2024-11-01",
+    "filed": "2024-11-05",
+    "code": "S",
+    "value": 3051800,
+    "who": "BIOTECH GROWTH N V"
+   },
+   {
+    "date": "2024-11-01",
+    "filed": "2024-11-05",
+    "code": "S",
+    "value": 3058800,
+    "who": "BIOTECH GROWTH N V"
+   },
+   {
+    "date": "2024-11-01",
+    "filed": "2024-11-05",
+    "code": "S",
+    "value": 2843809,
+    "who": "BIOTECH GROWTH N V"
+   },
+   {
+    "date": "2024-10-07",
+    "filed": "2024-10-07",
+    "code": "S",
+    "value": 4185,
+    "who": "Virsik Peter"
+   },
+   {
+    "date": "2024-09-09",
+    "filed": "2024-09-09",
+    "code": "S",
+    "value": 4164,
+    "who": "Virsik Peter"
+   },
+   {
+    "date": "2024-09-03",
+    "filed": "2024-09-03",
+    "code": "S",
+    "value": 12554,
+    "who": "Virsik Peter"
+   }
+  ]
  },
  "drug": null,
  "trials": {

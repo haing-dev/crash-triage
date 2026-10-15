@@ -3,29 +3,18 @@
  "cik": "1401395",
  "name": "Neptune Wellness Solutions Inc.",
  "date": "2022-06-22",
- "asof": "2022-07-22",
+ "asof": "2022-06-24",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-07-22",
-  "adj_close": 52.8
+  "date": "2022-06-24",
+  "adj_close": 58.0
  },
- "balance": {
-  "end": "2022-03-31",
-  "cash": 8745596,
-  "parts": [
-   "CashAndCashEquivalentsAtCarryingValue",
-   "ShortTermInvestments"
-  ],
-  "accn": "0000950170-22-012532"
- },
- "burn": {
-  "end": "2022-03-31",
-  "months": 12.0,
-  "per_month": -4544769.521648352
- },
+ "balance": null,
+ "burn": null,
  "shares": {
-  "end": "2022-07-07",
-  "shares": 7614434,
+  "end": "2021-03-31",
+  "shares": 165622944,
   "split_factor": 38.372,
   "splits_after": [
    [
@@ -34,11 +23,12 @@
    ]
   ]
  },
+ "filing": null,
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 2,
+  "from": "2022-03-24",
+  "to": "2022-07-22",
+  "trades": []
  },
  "drug": null,
  "trials": {

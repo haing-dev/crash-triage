@@ -3,11 +3,12 @@
  "cik": "1810560",
  "name": "REVELATION BIOSCIENCES, INC.",
  "date": "2024-12-03",
- "asof": "2025-01-02",
+ "asof": "2024-12-06",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-01-02",
-  "adj_close": 126.144
+  "date": "2024-12-06",
+  "adj_close": 84.48
  },
  "balance": {
   "end": "2024-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2024-09-30",
-  "months": 9.0,
-  "per_month": -1624986.9941391943
+  "ytd_months": 9.0,
+  "ytd": -14573635,
+  "accn": "0000950170-24-124036",
+  "ttm_per_month": -1381372.5833333333,
+  "quarter_per_month": -3085661.3333333335,
+  "per_month": -1381372.5833333333
  },
  "shares": {
   "end": "2024-11-04",
@@ -45,11 +50,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0000950170-24-124036",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "isting on Nasdaq, the Company intends to undertake such a reverse stock split. Even if a reverse stock split is effected, there can be no assurance that the market price of the Company's common stock will maintain the Minimum Bid Price Requirement. The market price of our common stock will continue to be based, in part, on our performance and other factors unrelated to the number of shares outstan"
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2024-09-04",
+  "to": "2025-01-02",
+  "trades": []
  },
  "drug": null,
  "trials": {

@@ -3,11 +3,12 @@
  "cik": "1133416",
  "name": "GALECTIN THERAPEUTICS INC",
  "date": "2024-12-20",
- "asof": "2025-01-19",
+ "asof": "2024-12-23",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-01-21",
-  "adj_close": 1.23
+  "date": "2024-12-23",
+  "adj_close": 0.88999999
  },
  "balance": {
   "end": "2024-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2024-09-30",
-  "months": 9.0,
-  "per_month": -3230877.0695970696
+  "ytd_months": 9.0,
+  "ytd": -28976000,
+  "accn": "0001140361-24-046726",
+  "ttm_per_month": -2806500.0,
+  "quarter_per_month": -2846000.0,
+  "per_month": -2806500.0
  },
  "shares": {
   "end": "2024-11-08",
@@ -28,15 +33,98 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001140361-24-046726",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "503,340 49,402,846 33,232,640 8. Common Stock 2020 At Market Issuance of Common Stock On May 11, 2020, the Company entered into an At Market Issuance Sales Agreement (the &#8220;2020 At Market Agreement&#8221;) with a sales agent under which the Company may issue and sell shares of its common stock having an aggregate offering price of up to $ 40.0 million from time to time through the sales agent"
+ },
  "insiders": {
-  "form4s": 7,
-  "bought": 34883,
-  "sold": 97147,
-  "buyers": [
-   "ELDRED KARY",
-   "FREEMAN KEVIN D",
-   "Shlevin Harold H.",
-   "Zordani Richard A. Jr."
+  "form4s": 10,
+  "from": "2024-09-21",
+  "to": "2025-01-19",
+  "trades": [
+   {
+    "date": "2024-12-30",
+    "filed": "2024-12-31",
+    "code": "P",
+    "value": 7540,
+    "who": "Shlevin Harold H."
+   },
+   {
+    "date": "2024-12-23",
+    "filed": "2024-12-26",
+    "code": "S",
+    "value": 12044,
+    "who": "Jamil Khurram"
+   },
+   {
+    "date": "2024-12-23",
+    "filed": "2024-12-26",
+    "code": "S",
+    "value": 49610,
+    "who": "LEWIS JOEL"
+   },
+   {
+    "date": "2024-12-23",
+    "filed": "2024-12-26",
+    "code": "S",
+    "value": 35492,
+    "who": "CALLICUTT JACK W"
+   },
+   {
+    "date": "2024-12-24",
+    "filed": "2024-12-26",
+    "code": "P",
+    "value": 8164,
+    "who": "Zordani Richard A. Jr."
+   },
+   {
+    "date": "2024-12-24",
+    "filed": "2024-12-26",
+    "code": "P",
+    "value": 11045,
+    "who": "ELDRED KARY"
+   },
+   {
+    "date": "2024-12-24",
+    "filed": "2024-12-26",
+    "code": "P",
+    "value": 8134,
+    "who": "FREEMAN KEVIN D"
+   },
+   {
+    "date": "2024-10-23",
+    "filed": "2024-10-23",
+    "code": "P",
+    "value": 1300,
+    "who": "ELDRED KARY"
+   },
+   {
+    "date": "2024-10-17",
+    "filed": "2024-10-17",
+    "code": "P",
+    "value": 3432,
+    "who": "FREEMAN KEVIN D"
+   },
+   {
+    "date": "2024-10-16",
+    "filed": "2024-10-16",
+    "code": "P",
+    "value": 13500,
+    "who": "FREEMAN KEVIN D"
+   },
+   {
+    "date": "2024-10-16",
+    "filed": "2024-10-16",
+    "code": "P",
+    "value": 13500,
+    "who": "FREEMAN KEVIN D"
+   }
   ]
  },
  "drug": null,

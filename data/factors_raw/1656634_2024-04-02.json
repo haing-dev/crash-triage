@@ -3,11 +3,12 @@
  "cik": "1656634",
  "name": "Gritstone bio, Inc.",
  "date": "2024-04-02",
- "asof": "2024-05-02",
+ "asof": "2024-04-04",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-05-02",
-  "adj_close": 0.87
+  "date": "2024-04-04",
+  "adj_close": 1.035
  },
  "balance": {
   "end": "2023-12-31",
@@ -21,8 +22,12 @@
  },
  "burn": {
   "end": "2023-12-31",
-  "months": 12.0,
-  "per_month": -10172981.098901099
+  "ytd_months": 12.0,
+  "ytd": -121648000,
+  "accn": "0000950170-24-025855",
+  "ttm_per_month": -10137333.333333334,
+  "quarter_per_month": -6502666.666666667,
+  "per_month": -10137333.333333334
  },
  "shares": {
   "end": "2024-03-01",
@@ -30,11 +35,21 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0000950170-24-025855",
+  "guided_until": "2024-07-15",
+  "guidance": "under its Loan Agreement, will only be sufficient to fund its planned operating and capital needs into the third quarter of 2024. How",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "ore transactions at prices and in a manner we determine from time to time. For example, we have issued and may continue to issue shares in our &#8220;at the market offering&#8221; program or other registered offerings, and we have issued shares in three private placement of public issuer's equity transactions. To the extent that additional capital is raised through the issuance of shares of common"
+ },
  "insiders": {
-  "form4s": 1,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 7,
+  "from": "2024-01-03",
+  "to": "2024-05-02",
+  "trades": []
  },
  "drug": null,
  "trials": {

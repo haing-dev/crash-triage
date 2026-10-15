@@ -3,11 +3,12 @@
  "cik": "897448",
  "name": "AMARIN CORP PLC\\UK",
  "date": "2022-05-04",
- "asof": "2022-06-03",
+ "asof": "2022-05-05",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-06-03",
-  "adj_close": 33.6
+  "date": "2022-05-05",
+  "adj_close": 27.0
  },
  "balance": {
   "end": "2022-03-31",
@@ -21,8 +22,12 @@
  },
  "burn": {
   "end": "2022-03-31",
-  "months": 2.9,
-  "per_month": -33807895.28089888
+  "ytd_months": 2.9,
+  "ytd": -98847000,
+  "accn": "0000950170-22-007188",
+  "ttm_per_month": -12223333.333333334,
+  "quarter_per_month": -32949000.0,
+  "per_month": -12223333.333333334
  },
  "shares": {
   "end": "2013-02-20",
@@ -39,11 +44,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0000950170-22-007188",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 2,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 12,
+  "from": "2022-02-03",
+  "to": "2022-06-03",
+  "trades": []
  },
  "drug": null,
  "trials": {

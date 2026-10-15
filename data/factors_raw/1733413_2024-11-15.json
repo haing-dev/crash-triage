@@ -3,37 +3,52 @@
  "cik": "1733413",
  "name": "TFF Pharmaceuticals, Inc.",
  "date": "2024-11-15",
- "asof": "2024-12-15",
+ "asof": "2024-11-18",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-12-16",
-  "adj_close": 0.065
+  "date": "2024-11-18",
+  "adj_close": 0.364
  },
  "balance": {
-  "end": "2024-09-30",
-  "cash": 4376746,
+  "end": "2024-06-30",
+  "cash": 6163944,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue",
    "LongTermInvestments"
   ],
-  "accn": "0001213900-24-100587"
+  "accn": "0001213900-24-068964"
  },
  "burn": {
-  "end": "2024-09-30",
-  "months": 9.0,
-  "per_month": -934085.9655677656
+  "end": "2024-06-30",
+  "ytd_months": 5.9,
+  "ytd": -6397747,
+  "accn": "0001213900-24-068964",
+  "ttm_per_month": -1134335.6666666667,
+  "quarter_per_month": -1084493.6666666667,
+  "per_month": -1134335.6666666667
  },
  "shares": {
-  "end": "2024-11-18",
-  "shares": 4443041,
+  "end": "2024-08-12",
+  "shares": 3466041,
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001213900-24-068964",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "Deficit Equity Balance, January 1, 2024 2,370,000 $ 2,370 $ 128,044,509 $ ( 148,192 ) $ ( 118,331,653 ) $ 9,567,034 Sales of common stock through the at-the-market offering 1,720 2 12,582 - - 12,584 Sale of common stock and warrants through direct offering, net of offering costs 147,500 147 903,408 - - 903,555 Stock-based compensation - - 626,990 - - 626,990 Costs related to ATM - - ( 15,000 ) - -"
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2024-08-17",
+  "to": "2024-12-15",
+  "trades": []
  },
  "drug": null,
  "trials": {

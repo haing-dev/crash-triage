@@ -3,11 +3,12 @@
  "cik": "1853816",
  "name": "Dermata Therapeutics, Inc.",
  "date": "2022-12-05",
- "asof": "2023-01-04",
+ "asof": "2022-12-07",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-01-04",
-  "adj_close": 696.0
+  "date": "2022-12-07",
+  "adj_close": 468.0
  },
  "balance": {
   "end": "2022-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2022-09-30",
-  "months": 8.9,
-  "per_month": -784348.8229411765
+  "ytd_months": 8.9,
+  "ytd": -7008636,
+  "accn": "0001654954-22-015035",
+  "ttm_per_month": -734378.75,
+  "quarter_per_month": -853757.6666666666,
+  "per_month": -734378.75
  },
  "shares": {
   "end": "2022-11-10",
@@ -33,11 +38,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001654954-22-015035",
+  "guided_until": "2023-07-15",
+  "guidance": "8220;Private Placement&#8221;), will be sufficient to fund our operating expenses and capital expenditure requirements into the third quarter of 2023. We",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 6,
+  "from": "2022-09-06",
+  "to": "2023-01-04",
+  "trades": []
  },
  "drug": null,
  "trials": {

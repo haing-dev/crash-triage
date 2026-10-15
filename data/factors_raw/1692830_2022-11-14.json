@@ -3,11 +3,12 @@
  "cik": "1692830",
  "name": "Satsuma Pharmaceuticals, Inc.",
  "date": "2022-11-14",
- "asof": "2022-12-14",
+ "asof": "2022-11-14",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-12-14",
-  "adj_close": 0.7986
+  "date": "2022-11-14",
+  "adj_close": 0.6795
  },
  "balance": {
   "end": "2022-09-30",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2022-09-30",
-  "months": 8.9,
-  "per_month": -4411785.588235294
+  "ytd_months": 8.9,
+  "ytd": -39422000,
+  "accn": "0001564590-22-036617",
+  "ttm_per_month": -4418666.666666667,
+  "quarter_per_month": -4473000.0,
+  "per_month": -4418666.666666667
  },
  "shares": {
   "end": "2022-10-31",
@@ -29,12 +34,56 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001564590-22-036617",
+  "guided_until": "2023-07-15",
+  "guidance": "lents and marketable securities will be sufficient to fund our planned operations into the second half of 2023. How",
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "587,493 3 245,814 ( 107 ) ( 173,521 ) 72,189 Stock-based compensation &#8212; &#8212; 1,586 &#8212; &#8212; 1,586 Issuance of common stock as part of At-the-Market offering, net of issuance costs of $ 300 1,538,461 &#8212; 9,700 &#8212; &#8212; 9,700 Net loss &#8212; &#8212; &#8212; &#8212; ( 15,140 ) ( 15,140 ) Other comprehensive income &#8212; &#8212; &#8212; 44 &#8212; 44 Balances at September"
+ },
  "insiders": {
   "form4s": 3,
-  "bought": 4501013,
-  "sold": 2294500,
-  "buyers": [
-   "Leonard Braden Michael"
+  "from": "2022-08-16",
+  "to": "2022-12-14",
+  "trades": [
+   {
+    "date": "2022-11-21",
+    "filed": "2022-11-23",
+    "code": "P",
+    "value": 106740,
+    "who": "Leonard Braden Michael"
+   },
+   {
+    "date": "2022-11-14",
+    "filed": "2022-11-16",
+    "code": "P",
+    "value": 3868609,
+    "who": "Leonard Braden Michael"
+   },
+   {
+    "date": "2022-11-15",
+    "filed": "2022-11-16",
+    "code": "P",
+    "value": 336707,
+    "who": "Leonard Braden Michael"
+   },
+   {
+    "date": "2022-11-15",
+    "filed": "2022-11-16",
+    "code": "P",
+    "value": 188956,
+    "who": "Leonard Braden Michael"
+   },
+   {
+    "date": "2022-11-14",
+    "filed": "2022-11-16",
+    "code": "S",
+    "value": 2294500,
+    "who": "COMMODORE CAPITAL LP"
+   }
   ]
  },
  "drug": null,

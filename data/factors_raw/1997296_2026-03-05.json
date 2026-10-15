@@ -3,38 +3,53 @@
  "cik": "1997296",
  "name": "Medicus Pharma Ltd.",
  "date": "2026-03-05",
- "asof": "2026-04-04",
+ "asof": "2026-03-06",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-04-06",
-  "adj_close": 24.55
+  "date": "2026-03-06",
+  "adj_close": 19.35
  },
  "balance": {
-  "end": "2025-12-31",
-  "cash": 8705218,
+  "end": "2025-09-30",
+  "cash": 8662091,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001062993-26-001606"
+  "accn": "0001062993-25-016838"
  },
  "burn": {
-  "end": "2025-12-31",
-  "months": 12.0,
-  "per_month": -1904738.5943956045
+  "end": "2025-09-30",
+  "ytd_months": 8.9,
+  "ytd": -16167654,
+  "accn": "0001062993-25-016838",
+  "ttm_per_month": -1613267.1666666667,
+  "quarter_per_month": -2252609.6666666665,
+  "per_month": -1613267.1666666667
  },
  "shares": {
-  "end": "2026-03-17",
-  "shares": 39362109,
+  "end": "2025-11-11",
+  "shares": 22029144,
   "split_factor": 1.0,
   "splits_after": []
  },
- "insiders": {
-  "form4s": 13,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+ "filing": {
+  "accn": "0001062993-25-016838",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
  },
- "drug": null,
+ "insiders": {
+  "form4s": 26,
+  "from": "2025-12-05",
+  "to": "2026-04-04",
+  "trades": []
+ },
+ "drug": "n/a",
  "trials": {
   "query": "medicus pharma",
   "other_trials": 0,

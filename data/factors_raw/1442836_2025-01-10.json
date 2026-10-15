@@ -3,11 +3,12 @@
  "cik": "1442836",
  "name": "Mersana Therapeutics, Inc.",
  "date": "2025-01-10",
- "asof": "2025-02-09",
+ "asof": "2025-01-13",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-02-10",
-  "adj_close": 17.5
+  "date": "2025-01-13",
+  "adj_close": 15.5375
  },
  "balance": {
   "end": "2024-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2024-09-30",
-  "months": 9.0,
-  "per_month": -7034539.0476190485
+  "ytd_months": 9.0,
+  "ytd": -63089000,
+  "accn": "0001628280-24-047441",
+  "ttm_per_month": -7920916.666666667,
+  "quarter_per_month": -2859000.0,
+  "per_month": -7920916.666666667
  },
  "shares": {
   "end": "2024-11-08",
@@ -33,11 +38,155 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001628280-24-047441",
+  "guided_until": "2026-01-15",
+  "guidance": "e our currently available funds will be sufficient to fund our current operating plan commitments into 2026. Our",
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "kholders' Equity Shares Amount Balance at December 31, 2022 105,144,864 $ 11 $ 746,889 $ ( 152 ) $ ( 654,691 ) $ 92,057 Issuance of common stock from at-the-market transactions, net of issuance costs of $ 558 3,535,093 &#8212; 21,795 &#8212; &#8212; 21,795 Exercise of stock options 8,826 &#8212; 34 &#8212; &#8212; 34 Vesting of restricted stock units 372,291 &#8212; &#8212; &#8212; &#8212; &#8212;"
+ },
  "insiders": {
-  "form4s": 18,
-  "bought": 0,
-  "sold": 51268,
-  "buyers": []
+  "form4s": 21,
+  "from": "2024-10-12",
+  "to": "2025-02-09",
+  "trades": [
+   {
+    "date": "2025-01-16",
+    "filed": "2025-01-17",
+    "code": "S",
+    "value": 2061,
+    "who": "Mandelia Ashish"
+   },
+   {
+    "date": "2025-01-16",
+    "filed": "2025-01-17",
+    "code": "S",
+    "value": 5009,
+    "who": "Protopapas Anna"
+   },
+   {
+    "date": "2025-01-16",
+    "filed": "2025-01-17",
+    "code": "S",
+    "value": 4668,
+    "who": "Lowinger Timothy B"
+   },
+   {
+    "date": "2025-01-16",
+    "filed": "2025-01-17",
+    "code": "S",
+    "value": 2618,
+    "who": "Huber Martin H. Jr."
+   },
+   {
+    "date": "2025-01-16",
+    "filed": "2025-01-17",
+    "code": "S",
+    "value": 4913,
+    "who": "DeSchuytner Brian"
+   },
+   {
+    "date": "2025-01-16",
+    "filed": "2025-01-17",
+    "code": "S",
+    "value": 2956,
+    "who": "Carvajal Alejandra"
+   },
+   {
+    "date": "2025-01-16",
+    "filed": "2025-01-17",
+    "code": "S",
+    "value": 3445,
+    "who": "Bala Mohan"
+   },
+   {
+    "date": "2025-01-15",
+    "filed": "2025-01-16",
+    "code": "S",
+    "value": 3900,
+    "who": "Protopapas Anna"
+   },
+   {
+    "date": "2025-01-15",
+    "filed": "2025-01-16",
+    "code": "S",
+    "value": 1128,
+    "who": "Mandelia Ashish"
+   },
+   {
+    "date": "2025-01-15",
+    "filed": "2025-01-16",
+    "code": "S",
+    "value": 1130,
+    "who": "Lowinger Timothy B"
+   },
+   {
+    "date": "2025-01-15",
+    "filed": "2025-01-16",
+    "code": "S",
+    "value": 1469,
+    "who": "DeSchuytner Brian"
+   },
+   {
+    "date": "2025-01-15",
+    "filed": "2025-01-16",
+    "code": "S",
+    "value": 600,
+    "who": "Carvajal Alejandra"
+   },
+   {
+    "date": "2025-01-14",
+    "filed": "2025-01-15",
+    "code": "S",
+    "value": 7612,
+    "who": "Protopapas Anna"
+   },
+   {
+    "date": "2025-01-14",
+    "filed": "2025-01-15",
+    "code": "S",
+    "value": 665,
+    "who": "Mandelia Ashish"
+   },
+   {
+    "date": "2025-01-14",
+    "filed": "2025-01-15",
+    "code": "S",
+    "value": 2299,
+    "who": "Lowinger Timothy B"
+   },
+   {
+    "date": "2025-01-14",
+    "filed": "2025-01-15",
+    "code": "S",
+    "value": 2451,
+    "who": "DeSchuytner Brian"
+   },
+   {
+    "date": "2025-01-14",
+    "filed": "2025-01-15",
+    "code": "S",
+    "value": 2198,
+    "who": "Carvajal Alejandra"
+   },
+   {
+    "date": "2025-01-14",
+    "filed": "2025-01-15",
+    "code": "S",
+    "value": 2147,
+    "who": "Bala Mohan"
+   },
+   {
+    "date": "2024-10-28",
+    "filed": "2024-10-29",
+    "code": "S",
+    "value": 3580,
+    "who": "Bala Mohan"
+   }
+  ]
  },
  "drug": null,
  "trials": {

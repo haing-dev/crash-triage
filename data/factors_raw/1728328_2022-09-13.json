@@ -3,29 +3,34 @@
  "cik": "1728328",
  "name": "InMed Pharmaceuticals Inc.",
  "date": "2022-09-13",
- "asof": "2022-10-13",
+ "asof": "2022-09-19",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-10-13",
-  "adj_close": 113.4
+  "date": "2022-09-19",
+  "adj_close": 156.0
  },
  "balance": {
-  "end": "2022-06-30",
-  "cash": 6221670,
+  "end": "2022-03-31",
+  "cash": 5944411,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue",
    "ShortTermInvestments"
   ],
-  "accn": "0001213900-22-058355"
+  "accn": "0001213900-22-026136"
  },
  "burn": {
-  "end": "2022-06-30",
-  "months": 12.0,
-  "per_month": -1303213.1690109891
+  "end": "2022-03-31",
+  "ytd_months": 9.0,
+  "ytd": -11536511,
+  "accn": "0001213900-22-026136",
+  "ttm_per_month": -1128549.75,
+  "quarter_per_month": -1782928.6666666667,
+  "per_month": -1128549.75
  },
  "shares": {
-  "end": "2022-09-23",
-  "shares": 908761,
+  "end": "2022-05-13",
+  "shares": 14641645,
   "split_factor": 20.0,
   "splits_after": [
    [
@@ -34,11 +39,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001213900-22-026136",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "th anniversary following the closing. On April 7, 2022, the Company filed a prospectus supplement to its S-3 universal shelf filing to incorporate an At The Market Offering Agreement following which the Company sold 268,985 common shares under the agreement with net proceeds of $ 0.3 million. 24 CAUTIONARY STATEMENT REGARDING FORWARD-LOOKING STATEMENTS This Quarterly Report on Form 10-Q contains &"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 1,
+  "from": "2022-06-15",
+  "to": "2022-10-13",
+  "trades": []
  },
  "drug": null,
  "trials": {

@@ -3,11 +3,12 @@
  "cik": "1633070",
  "name": "Axcella Health Inc.",
  "date": "2023-11-27",
- "asof": "2023-12-27",
+ "asof": "2023-11-28",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-12-27",
-  "adj_close": 0.44
+  "date": "2023-11-28",
+  "adj_close": 1.29
  },
  "balance": {
   "end": "2023-06-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2023-06-30",
-  "months": 5.9,
-  "per_month": -1481582.4444444445
+  "ytd_months": 5.9,
+  "ytd": -8761000,
+  "accn": "0001633070-23-000016",
+  "ttm_per_month": -3568333.3333333335,
+  "quarter_per_month": -1218666.6666666667,
+  "per_month": -3568333.3333333335
  },
  "shares": {
   "end": "2023-07-28",
@@ -28,11 +33,21 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001633070-23-000016",
+  "guided_until": "2023-07-15",
+  "guidance": "226; expectations that our cash will be sufficient to fund our operating expenses and capital expenditure requirements into the third quarter of 2023; &#8",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2023-08-29",
+  "to": "2023-12-27",
+  "trades": []
  },
  "drug": null,
  "trials": {

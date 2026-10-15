@@ -3,11 +3,12 @@
  "cik": "1721484",
  "name": "Longeveron Inc.",
  "date": "2021-11-26",
- "asof": "2021-12-26",
+ "asof": "2021-12-02",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2021-12-27",
-  "adj_close": 124.7
+  "date": "2021-12-02",
+  "adj_close": 180.0
  },
  "balance": {
   "end": "2021-09-30",
@@ -20,15 +21,93 @@
  },
  "burn": {
   "end": "2021-09-30",
-  "months": 8.9,
+  "ytd_months": 8.9,
+  "ytd": -8355000,
+  "accn": "0001213900-21-058657",
+  "ttm_per_month": null,
+  "quarter_per_month": -790333.3333333334,
   "per_month": -935022.794117647
  },
  "shares": null,
+ "filing": {
+  "accn": "0001213900-21-058657",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 9,
+  "from": "2021-08-28",
+  "to": "2021-12-26",
+  "trades": [
+   {
+    "date": "2021-10-12",
+    "filed": "2021-10-14",
+    "code": "P",
+    "value": 9225,
+    "who": "Hare Joshua"
+   },
+   {
+    "date": "2021-10-13",
+    "filed": "2021-10-14",
+    "code": "P",
+    "value": 3810,
+    "who": "Green Geoff"
+   },
+   {
+    "date": "2021-10-11",
+    "filed": "2021-10-13",
+    "code": "P",
+    "value": 13455,
+    "who": "Soffer Rock"
+   },
+   {
+    "date": "2021-10-12",
+    "filed": "2021-10-13",
+    "code": "P",
+    "value": 14280,
+    "who": "Soffer Rock"
+   },
+   {
+    "date": "2021-10-13",
+    "filed": "2021-10-13",
+    "code": "P",
+    "value": 45120,
+    "who": "Soffer Rock"
+   },
+   {
+    "date": "2021-10-07",
+    "filed": "2021-10-12",
+    "code": "P",
+    "value": 16700,
+    "who": "Clavijo James"
+   },
+   {
+    "date": "2021-10-07",
+    "filed": "2021-10-12",
+    "code": "P",
+    "value": 5845,
+    "who": "Lehr Paul T"
+   },
+   {
+    "date": "2021-10-07",
+    "filed": "2021-10-12",
+    "code": "P",
+    "value": 6709,
+    "who": "Hare Joshua"
+   },
+   {
+    "date": "2021-10-08",
+    "filed": "2021-10-12",
+    "code": "P",
+    "value": 10221,
+    "who": "Hare Joshua"
+   }
+  ]
  },
  "drug": null,
  "trials": {

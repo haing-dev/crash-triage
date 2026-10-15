@@ -3,11 +3,12 @@
  "cik": "1888012",
  "name": "HilleVax, Inc.",
  "date": "2024-07-08",
- "asof": "2024-08-07",
+ "asof": "2024-07-08",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-08-07",
-  "adj_close": 1.61
+  "date": "2024-07-08",
+  "adj_close": 1.64
  },
  "balance": {
   "end": "2024-03-31",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2024-03-31",
-  "months": 3.0,
-  "per_month": -11162009.777777778
+  "ytd_months": 3.0,
+  "ytd": -33002000,
+  "accn": "0000950170-24-056997",
+  "ttm_per_month": -8652583.333333334,
+  "quarter_per_month": -11000666.666666666,
+  "per_month": -8652583.333333334
  },
  "shares": {
   "end": "2024-05-06",
@@ -29,11 +34,64 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0000950170-24-056997",
+  "guided_until": null,
+  "guidance": "sufficient to meet our anticipated cash requirements through at least the next 12 months",
+  "twelve_months": true,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "suance of common stock under share-based compensation arrangements 22,365 &#8212; 175 &#8212; &#8212; 175 Issuance of common stock in connection with at-the-market offering, net 1,016,950 &#8212; 14,887 &#8212; &#8212; 14,887 Unrealized gain on marketable securities &#8212; &#8212; &#8212; ( 121 ) &#8212; ( 121 ) Pension and other postemployment benefits &#8212; &#8212; &#8212; 78 &#8212; 78 Net l"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 2,
+  "from": "2024-04-09",
+  "to": "2024-08-07",
+  "trades": [
+   {
+    "date": "2024-05-20",
+    "filed": "2024-05-22",
+    "code": "S",
+    "value": 92689,
+    "who": "Kohli Aditya"
+   },
+   {
+    "date": "2024-05-21",
+    "filed": "2024-05-22",
+    "code": "S",
+    "value": 85230,
+    "who": "Kohli Aditya"
+   },
+   {
+    "date": "2024-05-22",
+    "filed": "2024-05-22",
+    "code": "S",
+    "value": 88372,
+    "who": "Kohli Aditya"
+   },
+   {
+    "date": "2024-05-01",
+    "filed": "2024-05-03",
+    "code": "S",
+    "value": 2456,
+    "who": "Kohli Aditya"
+   },
+   {
+    "date": "2024-05-02",
+    "filed": "2024-05-03",
+    "code": "S",
+    "value": 84081,
+    "who": "Kohli Aditya"
+   },
+   {
+    "date": "2024-05-03",
+    "filed": "2024-05-03",
+    "code": "S",
+    "value": 10233,
+    "who": "Kohli Aditya"
+   }
+  ]
  },
  "drug": null,
  "trials": {

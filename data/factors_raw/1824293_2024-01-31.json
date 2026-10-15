@@ -3,11 +3,12 @@
  "cik": "1824293",
  "name": "GRI Bio, Inc.",
  "date": "2024-01-31",
- "asof": "2024-03-01",
+ "asof": "2024-02-05",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-03-01",
-  "adj_close": 5074.16016
+  "date": "2024-02-05",
+  "adj_close": 8168.16016
  },
  "balance": {
   "end": "2023-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2023-09-30",
-  "months": 8.9,
-  "per_month": -383857.35294117645
+  "ytd_months": 8.9,
+  "ytd": -3430000,
+  "accn": "0001824293-23-000170",
+  "ttm_per_month": -860333.3333333334,
+  "quarter_per_month": -437000.0,
+  "per_month": -860333.3333333334
  },
  "shares": {
   "end": "2023-11-13",
@@ -61,11 +66,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001824293-23-000170",
+  "guided_until": "2024-01-15",
+  "guidance": "sting cash and cash equivalents will be sufficient to fund its operating expenses and capital expenditure requirements into the first quarter of 2024. The",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2023-11-02",
+  "to": "2024-03-01",
+  "trades": []
  },
  "drug": null,
  "trials": {

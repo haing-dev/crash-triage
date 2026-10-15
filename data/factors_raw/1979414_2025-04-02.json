@@ -3,20 +3,22 @@
  "cik": "1979414",
  "name": "NEONC TECHNOLOGIES HOLDINGS, INC.",
  "date": "2025-04-02",
- "asof": "2025-05-02",
+ "asof": "2025-04-02",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-05-02",
-  "adj_close": 5.36
+  "date": "2025-04-02",
+  "adj_close": 7.0
  },
  "balance": null,
  "burn": null,
  "shares": null,
+ "filing": null,
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 7,
+  "from": "2025-01-02",
+  "to": "2025-05-02",
+  "trades": []
  },
  "drug": null,
  "trials": {

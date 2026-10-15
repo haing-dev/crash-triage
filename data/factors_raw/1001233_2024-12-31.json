@@ -3,11 +3,12 @@
  "cik": "1001233",
  "name": "SANGAMO THERAPEUTICS, INC",
  "date": "2024-12-31",
- "asof": "2025-01-30",
+ "asof": "2024-12-31",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-01-30",
-  "adj_close": 1.23
+  "date": "2024-12-31",
+  "adj_close": 1.02
  },
  "balance": {
   "end": "2024-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2024-09-30",
-  "months": 9.0,
-  "per_month": -7112478.827838829
+  "ytd_months": 9.0,
+  "ytd": -63788000,
+  "accn": "0001628280-24-047102",
+  "ttm_per_month": -9527166.666666666,
+  "quarter_per_month": 3919666.6666666665,
+  "per_month": -9527166.666666666
  },
  "shares": {
   "end": "2024-11-07",
@@ -28,11 +33,21 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001628280-24-047102",
+  "guided_until": "2025-01-15",
+  "guidance": "024, or the Genentech Payments, will be sufficient to fund our planned operations only into the first quarter of 2025. Our",
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": 194500000.0,
+  "atm_quote": "Equity Shares Amount Balances at December 31, 2022 166,793,320 $ 1,668 $ 1,450,239 $ ( 1,148,545 ) $ ( 8,404 ) $ 294,958 Issuance of common stock in at-the-market offering, net of offering expenses 8,249,261 83 15,023 &#8212; &#8212; 15,106 Issuance of common stock upon exercise of stock options and vesting of restricted stock units, net of tax 1,481,508 15 ( 1,419 ) &#8212; &#8212; ( 1,404 ) Issu"
+ },
  "insiders": {
-  "form4s": 5,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 10,
+  "from": "2024-10-02",
+  "to": "2025-01-30",
+  "trades": []
  },
  "drug": null,
  "trials": {

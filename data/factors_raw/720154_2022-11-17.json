@@ -3,11 +3,12 @@
  "cik": "720154",
  "name": "Inotiv, Inc.",
  "date": "2022-11-17",
- "asof": "2022-12-17",
+ "asof": "2022-11-17",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-12-19",
-  "adj_close": 3.94
+  "date": "2022-11-17",
+  "adj_close": 6.82
  },
  "balance": {
   "end": "2022-06-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2022-06-30",
-  "months": 8.9,
-  "per_month": -602980.5882352941
+  "ytd_months": 8.9,
+  "ytd": -5388000,
+  "accn": "0001558370-22-013530",
+  "ttm_per_month": -224250.0,
+  "quarter_per_month": -3138333.3333333335,
+  "per_month": -224250.0
  },
  "shares": {
   "end": "2022-08-03",
@@ -28,11 +33,64 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001558370-22-013530",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 1,
-  "bought": 0,
-  "sold": 6120,
-  "buyers": []
+  "form4s": 6,
+  "from": "2022-08-19",
+  "to": "2022-12-17",
+  "trades": [
+   {
+    "date": "2022-12-01",
+    "filed": "2022-12-02",
+    "code": "S",
+    "value": 6120,
+    "who": "Neff R Matthew"
+   },
+   {
+    "date": "2022-11-01",
+    "filed": "2022-11-03",
+    "code": "S",
+    "value": 10560,
+    "who": "Neff R Matthew"
+   },
+   {
+    "date": "2022-11-01",
+    "filed": "2022-11-03",
+    "code": "S",
+    "value": 10563,
+    "who": "Neff R Matthew"
+   },
+   {
+    "date": "2022-10-17",
+    "filed": "2022-10-18",
+    "code": "S",
+    "value": 19100,
+    "who": "Neff R Matthew"
+   },
+   {
+    "date": "2022-09-15",
+    "filed": "2022-09-19",
+    "code": "P",
+    "value": 23058,
+    "who": "Garrett Michael"
+   },
+   {
+    "date": "2022-09-09",
+    "filed": "2022-09-13",
+    "code": "P",
+    "value": 198826,
+    "who": "Beattie John Gregory"
+   }
+  ]
  },
  "drug": null,
  "trials": {

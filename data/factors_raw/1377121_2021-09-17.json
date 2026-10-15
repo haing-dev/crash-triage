@@ -3,11 +3,12 @@
  "cik": "1377121",
  "name": "Protagonist Therapeutics, Inc",
  "date": "2021-09-17",
- "asof": "2021-10-17",
+ "asof": "2021-09-20",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2021-10-18",
-  "adj_close": 30.12
+  "date": "2021-09-20",
+  "adj_close": 12.95
  },
  "balance": {
   "end": "2021-06-30",
@@ -21,8 +22,12 @@
  },
  "burn": {
   "end": "2021-06-30",
-  "months": 5.9,
-  "per_month": -8870892.444444444
+  "ytd_months": 5.9,
+  "ytd": -52456000,
+  "accn": "0001558370-21-010244",
+  "ttm_per_month": -7300833.333333333,
+  "quarter_per_month": -7900000.0,
+  "per_month": -7300833.333333333
  },
  "shares": {
   "end": "2021-07-30",
@@ -30,11 +35,29 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001558370-21-010244",
+  "guided_until": null,
+  "guidance": "sufficient to meet our anticipated operating and capital expenditure requirements for at least the next 12 months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": 94200000.0,
+  "atm_quote": "&#8203; &#8212; &#8203; &#8203; 105,331 &#8203; &#8203; &#8212; &#8203; &#8203; &#8212; &#8203; &#8203; 105,331 Issuance of common stock pursuant to at-the-market offering, net of issuance costs &#8203; 1,232,793 &#8203; &#8203; &#8212; &#8203; &#8203; 16,643 &#8203; &#8203; &#8212; &#8203; &#8203; &#8212; &#8203; &#8203; 16,643 Issuance of common stock under equity incentive and employee stock pu"
+ },
  "insiders": {
-  "form4s": 1,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 2,
+  "from": "2021-06-19",
+  "to": "2021-10-17",
+  "trades": [
+   {
+    "date": "2021-08-17",
+    "filed": "2021-08-19",
+    "code": "S",
+    "value": 702889,
+    "who": "Liu David Y"
+   }
+  ]
  },
  "drug": null,
  "trials": {

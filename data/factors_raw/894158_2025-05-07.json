@@ -3,36 +3,51 @@
  "cik": "894158",
  "name": "Theriva Biologics, Inc.",
  "date": "2025-05-07",
- "asof": "2025-06-06",
+ "asof": "2025-05-08",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-06-06",
-  "adj_close": 0.47
+  "date": "2025-05-08",
+  "adj_close": 0.63999999
  },
  "balance": {
-  "end": "2025-03-31",
-  "cash": 10014000,
+  "end": "2024-12-31",
+  "cash": 11609000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001410578-25-001242"
+  "accn": "0001410578-25-000285"
  },
  "burn": {
-  "end": "2025-03-31",
-  "months": 2.9,
-  "per_month": -1626658.8764044945
+  "end": "2024-12-31",
+  "ytd_months": 12.0,
+  "ytd": -16937000,
+  "accn": "0001410578-25-000285",
+  "ttm_per_month": -1411416.6666666667,
+  "quarter_per_month": -1563666.6666666667,
+  "per_month": -1411416.6666666667
  },
  "shares": {
-  "end": "2025-05-12",
-  "shares": 8186989,
+  "end": "2025-03-04",
+  "shares": 2782449,
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001410578-25-000285",
+  "guided_until": "2025-07-15",
+  "guidance": "We expect that our current cash will be able to fund operations into the third quarter of 2025 but",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "tockholders may cause the market price of our common stock to fall. &#9679; The shares of common stock offered under our current Amended and Restated At The Market Issuance Sales Agreement may be sold in &#8220;at the market&#8221; offerings, and investors who buy shares at different times will likely pay different prices. &#8203; 5 Table of Contents Item 1. Business . Overview We are a diversifie"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 4,
+  "from": "2025-02-06",
+  "to": "2025-06-06",
+  "trades": []
  },
  "drug": null,
  "trials": {

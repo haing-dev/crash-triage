@@ -3,11 +3,12 @@
  "cik": "812796",
  "name": "SOLIGENIX, INC.",
  "date": "2020-12-22",
- "asof": "2021-01-21",
+ "asof": "2020-12-23",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2021-01-21",
-  "adj_close": 384.0
+  "date": "2020-12-23",
+  "adj_close": 321.60001
  },
  "balance": {
   "end": "2020-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2020-09-30",
-  "months": 9.0,
-  "per_month": -817249.4404395605
+  "ytd_months": 9.0,
+  "ytd": -7329471,
+  "accn": "0001213900-20-036345",
+  "ttm_per_month": -831062.5,
+  "quarter_per_month": -996980.3333333334,
+  "per_month": -831062.5
  },
  "shares": {
   "end": "2020-11-09",
@@ -37,11 +42,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001213900-20-036345",
+  "guided_until": null,
+  "guidance": "sufficient to meet the anticipated cash needs for working capital and capital expenditures for at least the next 12 months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "ember 31, 2019 21,753,124 $ 21,753 $ 177,006,004 $ (45,010 ) $ (175,525,612 ) $ 1,457,135 Issuance of common stock pursuant to FBR At Market Issuance Sales Agreement 5,797,403 5,797 12,685,471 - - 12,691,268 Issuance costs associated with FBR At Market Issuance Sales Agreement - - (591,079 ) - - (591,079 ) Issuance of common stock for milestone 1,956,182 1,956 4,998,044 - 5,000,000 Issuance of com"
+ },
  "insiders": {
-  "form4s": 1,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 5,
+  "from": "2020-09-23",
+  "to": "2021-01-21",
+  "trades": []
  },
  "drug": null,
  "trials": {

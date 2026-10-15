@@ -3,11 +3,12 @@
  "cik": "1528115",
  "name": "Annexon, Inc.",
  "date": "2023-05-25",
- "asof": "2023-06-24",
+ "asof": "2023-05-25",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-06-26",
-  "adj_close": 3.345
+  "date": "2023-05-25",
+  "adj_close": 2.1
  },
  "balance": {
   "end": "2023-03-31",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2023-03-31",
-  "months": 2.9,
-  "per_month": -11284347.415730337
+  "ytd_months": 2.9,
+  "ytd": -32993000,
+  "accn": "0000950170-23-018797",
+  "ttm_per_month": -9917833.333333334,
+  "quarter_per_month": -10997666.666666666,
+  "per_month": -9917833.333333334
  },
  "shares": {
   "end": "2022-05-02",
@@ -29,12 +34,28 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0000950170-23-018797",
+  "guided_until": null,
+  "guidance": "sufficient to support operations for at least the next 12 months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": 82000000.0,
+  "atm_quote": "nded warrants to purchase up to 22,113,062 shares of common stock and common warrants to purchase up to 8,427,508 shares of common stock outstanding. At-the-Market Offering In August 2021, the Company entered into a sales agreement with Cowen and Company LLC, or Cowen, as sales agent, pursuant to which the Company may issue and sell shares of its common stock for an aggregate maximum offering pric"
+ },
  "insiders": {
   "form4s": 7,
-  "bought": 639720,
-  "sold": 0,
-  "buyers": [
-   "Bain Capital Life Sciences Investors, LLC"
+  "from": "2023-02-24",
+  "to": "2023-06-24",
+  "trades": [
+   {
+    "date": "2023-05-25",
+    "filed": "2023-05-30",
+    "code": "P",
+    "value": 639720,
+    "who": "Bain Capital Life Sciences Investors, LLC"
+   }
   ]
  },
  "drug": null,

@@ -3,28 +3,33 @@
  "cik": "1517681",
  "name": "Propanc Biopharma, Inc.",
  "date": "2023-05-10",
- "asof": "2023-06-09",
+ "asof": "2023-05-10",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-06-09",
-  "adj_close": 2.5
+  "date": "2023-05-10",
+  "adj_close": 10.0
  },
  "balance": {
-  "end": "2023-03-31",
-  "cash": 93241,
+  "end": "2022-12-31",
+  "cash": 24476,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001493152-23-017346"
+  "accn": "0001493152-23-004150"
  },
  "burn": {
-  "end": "2023-03-31",
-  "months": 9.0,
-  "per_month": -103393.19531135532
+  "end": "2022-12-31",
+  "ytd_months": 6.0,
+  "ytd": -734542,
+  "accn": "0001493152-23-004150",
+  "ttm_per_month": -121646.08333333333,
+  "quarter_per_month": -75075.66666666667,
+  "per_month": -121646.08333333333
  },
  "shares": {
-  "end": "2023-05-12",
-  "shares": 3288404722,
+  "end": "2023-02-09",
+  "shares": 1763908545,
   "split_factor": 1500128674.475,
   "splits_after": [
    [
@@ -41,11 +46,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001493152-23-004150",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2023-02-09",
+  "to": "2023-06-09",
+  "trades": []
  },
  "drug": null,
  "trials": {

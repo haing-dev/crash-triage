@@ -3,11 +3,12 @@
  "cik": "1659617",
  "name": "Moleculin Biotech, Inc.",
  "date": "2025-06-20",
- "asof": "2025-07-20",
+ "asof": "2025-06-20",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-07-21",
-  "adj_close": 20.049999
+  "date": "2025-06-20",
+  "adj_close": 6.675
  },
  "balance": {
   "end": "2025-03-31",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2025-03-31",
-  "months": 2.9,
-  "per_month": -1560990.5617977527
+  "ytd_months": 2.9,
+  "ytd": -4564000,
+  "accn": "0001437749-25-016466",
+  "ttm_per_month": -1809083.3333333333,
+  "quarter_per_month": -1521333.3333333333,
+  "per_month": -1809083.3333333333
  },
  "shares": {
   "end": "2025-05-06",
@@ -33,13 +38,35 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001437749-25-016466",
+  "guided_until": "2025-07-15",
+  "guidance": "sh equivalents as of March 31, 2025, is sufficient to fund our planned operations into the third quarter of 2025. Thi",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 3,
-  "bought": 350000,
-  "sold": 0,
-  "buyers": [
-   "Foster Jonathan P.",
-   "KLEMP WALTER V"
+  "form4s": 5,
+  "from": "2025-03-22",
+  "to": "2025-07-20",
+  "trades": [
+   {
+    "date": "2025-06-23",
+    "filed": "2025-06-23",
+    "code": "P",
+    "value": 100000,
+    "who": "Foster Jonathan P."
+   },
+   {
+    "date": "2025-06-23",
+    "filed": "2025-06-23",
+    "code": "P",
+    "value": 250000,
+    "who": "KLEMP WALTER V"
+   }
   ]
  },
  "drug": null,

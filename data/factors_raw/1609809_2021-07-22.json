@@ -3,30 +3,35 @@
  "cik": "1609809",
  "name": "Seres Therapeutics, Inc.",
  "date": "2021-07-22",
- "asof": "2021-08-21",
+ "asof": "2021-07-27",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2021-08-23",
-  "adj_close": 126.8
+  "date": "2021-07-27",
+  "adj_close": 142.39999
  },
  "balance": {
-  "end": "2021-06-30",
-  "cash": 229432000,
+  "end": "2021-03-31",
+  "cash": 272549000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue",
    "ShortTermInvestments",
    "LongTermInvestments"
   ],
-  "accn": "0000950170-21-000674"
+  "accn": "0001564590-21-023017"
  },
  "burn": {
-  "end": "2021-06-30",
-  "months": 5.9,
-  "per_month": -11700966.88888889
+  "end": "2021-03-31",
+  "ytd_months": 2.9,
+  "ytd": -29496000,
+  "accn": "0001564590-21-023017",
+  "ttm_per_month": -8237916.666666667,
+  "quarter_per_month": -9832000.0,
+  "per_month": -8237916.666666667
  },
  "shares": {
-  "end": "2021-07-28",
-  "shares": 91718571,
+  "end": "2021-04-28",
+  "shares": 91622669,
   "split_factor": 20.0,
   "splits_after": [
    [
@@ -35,11 +40,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001564590-21-023017",
+  "guided_until": null,
+  "guidance": "sufficient to fund its operating expenses, capital expenditure requirements and debt service obligations for at least the next 12 months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "ive (Loss) Equity (Deficit) Balance at December 31, 2019 70,143,252 $ 70 $ 411,255 $ ( 459,649 ) $ &#8212; $ ( 48,324 ) Issuance of common stock from at the market equity offering 1,230,531 1 4,177 &#8212; 4,178 Issuance of common stock upon exercise of stock options 110,967 1 59 &#8212; &#8212; 60 Issuance of common stock upon vesting of RSUs, net of tax withholdings 110,000 &#8212; 120 &#8212; &"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 10,
+  "from": "2021-04-23",
+  "to": "2021-08-21",
+  "trades": []
  },
  "drug": null,
  "trials": {

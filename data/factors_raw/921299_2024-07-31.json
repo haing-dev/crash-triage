@@ -3,30 +3,34 @@
  "cik": "921299",
  "name": "KYNTRA BIO, INC.",
  "date": "2024-07-31",
- "asof": "2024-08-30",
+ "asof": "2024-07-31",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-08-30",
-  "adj_close": 9.15
+  "date": "2024-07-31",
+  "adj_close": 13.5
  },
  "balance": {
-  "end": "2024-06-30",
-  "cash": 140714000,
+  "end": "2024-03-31",
+  "cash": 177599000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue",
-   "ShortTermInvestments",
-   "LongTermInvestments"
+   "ShortTermInvestments"
   ],
-  "accn": "0000950170-24-091808"
+  "accn": "0000950170-24-053554"
  },
  "burn": {
-  "end": "2024-06-30",
-  "months": 5.9,
-  "per_month": -16675906.519337017
+  "end": "2024-03-31",
+  "ytd_months": 3.0,
+  "ytd": -59288000,
+  "accn": "0000950170-24-053554",
+  "ttm_per_month": -22726500.0,
+  "quarter_per_month": -19762666.666666668,
+  "per_month": -22726500.0
  },
  "shares": {
-  "end": "2024-07-31",
-  "shares": 100400786,
+  "end": "2024-04-30",
+  "shares": 99475398,
   "split_factor": 25.003,
   "splits_after": [
    [
@@ -35,11 +39,29 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0000950170-24-053554",
+  "guided_until": null,
+  "guidance": "sufficient to meet its anticipated cash requirements for at least the next 12 months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "1,398 &#8212; Foreign currency translation adjustments &#8212; &#8212; &#8212; ( 248 ) &#8212; &#8212; ( 248 ) &#8212; Issuance of common stock under ATM Program 1,541,579 15 31,116 &#8212; &#8212; &#8212; 31,131 &#8212; Shares issued from stock plans, net of payroll taxes paid 915,644 9 898 &#8212; &#8212; &#8212; 907 &#8212; Stock-based compensation &#8212; &#8212; 16,112 &#8212; &#8212; &#8212;"
+ },
  "insiders": {
-  "form4s": 1,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 14,
+  "from": "2024-05-02",
+  "to": "2024-08-30",
+  "trades": [
+   {
+    "date": "2024-06-12",
+    "filed": "2024-06-13",
+    "code": "P",
+    "value": 25884,
+    "who": "Adib Deyaa"
+   }
+  ]
  },
  "drug": null,
  "trials": {

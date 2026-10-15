@@ -3,11 +3,12 @@
  "cik": "109657",
  "name": "GT Biopharma, Inc.",
  "date": "2024-05-21",
- "asof": "2024-06-20",
+ "asof": "2024-05-28",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-06-20",
-  "adj_close": 2.85
+  "date": "2024-05-28",
+  "adj_close": 3.53
  },
  "balance": {
   "end": "2024-03-31",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2024-03-31",
-  "months": 3.0,
-  "per_month": -1408019.1111111112
+  "ytd_months": 3.0,
+  "ytd": -4163000,
+  "accn": "0001493152-24-019970",
+  "ttm_per_month": -842416.6666666666,
+  "quarter_per_month": -1387666.6666666667,
+  "per_month": -842416.6666666666
  },
  "shares": {
   "end": "2024-05-15",
@@ -34,11 +39,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001493152-24-019970",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "reverse stock-split as of the earliest period presented. Economic Disruption While we make our strategic planning decisions based on the assumption that the markets we are targeting will grow in the long term, our business is dependent, in large part on, and directly affected by, business cycles and other factors affecting the economy generally. Our industry depends on general economic conditions "
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2024-02-21",
+  "to": "2024-06-20",
+  "trades": []
  },
  "drug": null,
  "trials": {

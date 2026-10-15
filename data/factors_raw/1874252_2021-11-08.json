@@ -3,20 +3,22 @@
  "cik": "1874252",
  "name": "Quantum Cyber N.V.",
  "date": "2021-11-08",
- "asof": "2021-12-08",
+ "asof": "2021-11-10",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2021-12-08",
+  "date": "2021-11-10",
   "adj_close": 8.6
  },
  "balance": null,
  "burn": null,
  "shares": null,
+ "filing": null,
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2021-08-10",
+  "to": "2021-12-08",
+  "trades": []
  },
  "drug": null,
  "trials": {

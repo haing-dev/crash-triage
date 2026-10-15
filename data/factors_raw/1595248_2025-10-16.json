@@ -3,41 +3,60 @@
  "cik": "1595248",
  "name": "Genprex, Inc.",
  "date": "2025-10-16",
- "asof": "2025-11-15",
+ "asof": "2025-10-22",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-11-17",
-  "adj_close": 4.04
+  "date": "2025-10-22",
+  "adj_close": 10.96
  },
  "balance": {
-  "end": "2025-09-30",
-  "cash": 1103315,
+  "end": "2025-06-30",
+  "cash": 1346844,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001437749-25-035191"
+  "accn": "0001437749-25-026965"
  },
  "burn": {
-  "end": "2025-09-30",
-  "months": 8.9,
-  "per_month": -1254859.679117647
+  "end": "2025-06-30",
+  "ytd_months": 5.9,
+  "ytd": -8025660,
+  "accn": "0001437749-25-026965",
+  "ttm_per_month": -1108961.4166666667,
+  "quarter_per_month": -1288078.3333333333,
+  "per_month": -1108961.4166666667
  },
  "shares": {
-  "end": "2025-11-13",
-  "shares": 2270346,
-  "split_factor": 1093.739,
+  "end": "2025-08-01",
+  "shares": 33466784,
+  "split_factor": 54673.724,
   "splits_after": [
+   [
+    "2025-11-14",
+    49.99
+   ],
    [
     "2026-08-14",
     1093.74
    ]
   ]
  },
+ "filing": {
+  "accn": "0001437749-25-026965",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "roactive basis, to reflect the Reverse Split. Registered Direct Offering On March 21, 2024, the Company completed a registered direct offering priced at the market under Nasdaq rules, in which the Company sold to an institutional investor an aggregate of (i) 165,000 shares of common stock, (ii) pre-funded warrants (the &#8220;March 2024 Pre-Funded Warrants&#8221;) exercisable for up to an aggregat"
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2025-07-18",
+  "to": "2025-11-15",
+  "trades": []
  },
  "drug": null,
  "trials": {

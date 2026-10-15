@@ -3,11 +3,12 @@
  "cik": "1585608",
  "name": "Jaguar Health, Inc.",
  "date": "2023-12-11",
- "asof": "2024-01-10",
+ "asof": "2023-12-11",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-01-10",
-  "adj_close": 90562.5
+  "date": "2023-12-11",
+  "adj_close": 144112.5
  },
  "balance": {
   "end": "2023-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2023-09-30",
-  "months": 8.9,
-  "per_month": -2886316.3235294116
+  "ytd_months": 8.9,
+  "ytd": -25791000,
+  "accn": "0001558370-23-018909",
+  "ttm_per_month": -2684500.0,
+  "quarter_per_month": -2263333.3333333335,
+  "per_month": -2684500.0
  },
  "shares": {
   "end": "2018-05-15",
@@ -73,11 +78,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001558370-23-018909",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "; &#8212; &#8203; &#8203; 1,443 &#8203; &#8203; &#8212; &#8203; &#8203; &#8212; &#8203; &#8203; &#8212; &#8203; &#8203; 1,443 Common shares issued in At The Market offering, net of $ 65 offering costs &#8203; &#8212; &#8203; &#8203; &#8212; &#8203; &#8212; &#8203; &#8203; &#8212; &#8203; &#8212; &#8203; &#8203; &#8212; &#8203; 4,447,200 &#8203; &#8203; &#8212; &#8203; &#8212; &#8203; &#8203; &#821"
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2023-09-12",
+  "to": "2024-01-10",
+  "trades": []
  },
  "drug": null,
  "trials": {

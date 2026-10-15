@@ -3,11 +3,12 @@
  "cik": "1831828",
  "name": "Vera Therapeutics, Inc.",
  "date": "2023-01-04",
- "asof": "2023-02-03",
+ "asof": "2023-01-06",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-02-03",
-  "adj_close": 7.23
+  "date": "2023-01-06",
+  "adj_close": 5.48
  },
  "balance": {
   "end": "2022-09-30",
@@ -21,8 +22,12 @@
  },
  "burn": {
   "end": "2022-09-30",
-  "months": 8.9,
-  "per_month": -5196510.882352941
+  "ytd_months": 8.9,
+  "ytd": -46434000,
+  "accn": "0000950170-22-023932",
+  "ttm_per_month": -4406000.0,
+  "quarter_per_month": -6140000.0,
+  "per_month": -4406000.0
  },
  "shares": {
   "end": "2022-11-08",
@@ -30,11 +35,120 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0000950170-22-023932",
+  "guided_until": null,
+  "guidance": "sufficient to fund our operations for at least the next 12 months",
+  "twelve_months": true,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": 150000000.0,
+  "atm_quote": "ies and warrants. Up to a maximum of $ 150.0 million of the maximum aggregate offering price of $ 400.0 million may be issued and sold pursuant to an at-the-market financing facility under a sales agreement dated June 3, 2022, between the Company and Cowen and Company, LLC (Sales Agreement). As of September 30, 2022, all $ 150.0 million remains available for issuance and sale under the Sales Agree"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 8,
+  "from": "2022-10-06",
+  "to": "2023-02-03",
+  "trades": [
+   {
+    "date": "2022-12-16",
+    "filed": "2022-12-19",
+    "code": "S",
+    "value": 27323,
+    "who": "Curley Joanne"
+   },
+   {
+    "date": "2022-12-16",
+    "filed": "2022-12-19",
+    "code": "S",
+    "value": 15793,
+    "who": "Curley Joanne"
+   },
+   {
+    "date": "2022-12-12",
+    "filed": "2022-12-14",
+    "code": "S",
+    "value": 125924,
+    "who": "Curley Joanne"
+   },
+   {
+    "date": "2022-12-13",
+    "filed": "2022-12-14",
+    "code": "S",
+    "value": 214441,
+    "who": "Curley Joanne"
+   },
+   {
+    "date": "2022-12-13",
+    "filed": "2022-12-14",
+    "code": "S",
+    "value": 19609,
+    "who": "Curley Joanne"
+   },
+   {
+    "date": "2022-12-07",
+    "filed": "2022-12-08",
+    "code": "S",
+    "value": 8136,
+    "who": "Curley Joanne"
+   },
+   {
+    "date": "2022-11-17",
+    "filed": "2022-11-21",
+    "code": "S",
+    "value": 17098,
+    "who": "Curley Joanne"
+   },
+   {
+    "date": "2022-11-17",
+    "filed": "2022-11-21",
+    "code": "S",
+    "value": 35030,
+    "who": "Curley Joanne"
+   },
+   {
+    "date": "2022-11-09",
+    "filed": "2022-11-10",
+    "code": "S",
+    "value": 8171,
+    "who": "Curley Joanne"
+   },
+   {
+    "date": "2022-10-18",
+    "filed": "2022-10-20",
+    "code": "S",
+    "value": 20946,
+    "who": "Curley Joanne"
+   },
+   {
+    "date": "2022-10-18",
+    "filed": "2022-10-20",
+    "code": "S",
+    "value": 42883,
+    "who": "Curley Joanne"
+   },
+   {
+    "date": "2022-10-18",
+    "filed": "2022-10-20",
+    "code": "S",
+    "value": 102865,
+    "who": "Curley Joanne"
+   },
+   {
+    "date": "2022-10-18",
+    "filed": "2022-10-20",
+    "code": "S",
+    "value": 41,
+    "who": "Curley Joanne"
+   },
+   {
+    "date": "2022-10-05",
+    "filed": "2022-10-06",
+    "code": "S",
+    "value": 21380,
+    "who": "Curley Joanne"
+   }
+  ]
  },
  "drug": null,
  "trials": {

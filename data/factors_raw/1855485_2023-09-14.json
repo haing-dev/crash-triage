@@ -3,11 +3,12 @@
  "cik": "1855485",
  "name": "Calidi Biotherapeutics, Inc.",
  "date": "2023-09-14",
- "asof": "2023-10-14",
+ "asof": "2023-09-14",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-10-16",
-  "adj_close": 360.0
+  "date": "2023-09-14",
+  "adj_close": 476.39999
  },
  "balance": {
   "end": "2023-06-30",
@@ -19,15 +20,29 @@
  },
  "burn": {
   "end": "2023-06-30",
-  "months": 5.9,
-  "per_month": 97033.08066666668
+  "ytd_months": 5.9,
+  "ytd": 573783,
+  "accn": "0001193125-23-217072",
+  "ttm_per_month": 117137.0,
+  "quarter_per_month": 127165.66666666667,
+  "per_month": 117137.0
  },
  "shares": null,
+ "filing": {
+  "accn": "0001193125-23-217072",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
   "form4s": 3,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2023-06-16",
+  "to": "2023-10-14",
+  "trades": []
  },
  "drug": null,
  "trials": {

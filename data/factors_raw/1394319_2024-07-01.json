@@ -3,11 +3,12 @@
  "cik": "1394319",
  "name": "Tracon Pharmaceuticals, Inc.",
  "date": "2024-07-01",
- "asof": "2024-07-31",
+ "asof": "2024-07-08",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-07-31",
-  "adj_close": 0.0899
+  "date": "2024-07-08",
+  "adj_close": 0.75
  },
  "balance": {
   "end": "2024-03-31",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2024-03-31",
-  "months": 3.0,
-  "per_month": -860099.1111111111
+  "ytd_months": 3.0,
+  "ytd": -2543000,
+  "accn": "0000950170-24-059752",
+  "ttm_per_month": 511333.3333333333,
+  "quarter_per_month": -847666.6666666666,
+  "per_month": 511333.3333333333
  },
  "shares": {
   "end": "2024-04-30",
@@ -29,11 +34,21 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0000950170-24-059752",
+  "guided_until": "2024-07-15",
+  "guidance": "quivalents as of March 31, 2024 will be sufficient to fund the current requirements of working capital and other financial commitments, including our operating lease obligations, late into the third quarter of 2024. Bas",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": 39800000.0,
+  "atm_quote": "and potential licensing or collaboration arrangements. In addition, the Company may fund its losses from operations through the Capital on Demand TM Sales Agreement (the Sales Agreement) the Company entered into with JonesTrading in December 2020, as amended in March 20 22, pursuant to which the Company may sell, at its option, up to an aggregate of $ 50.0 million of the Company's common stock, $ "
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2024-04-02",
+  "to": "2024-07-31",
+  "trades": []
  },
  "drug": null,
  "trials": {

@@ -3,29 +3,34 @@
  "cik": "1673772",
  "name": "RAPT Therapeutics, Inc.",
  "date": "2024-02-20",
- "asof": "2024-03-21",
+ "asof": "2024-02-20",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-03-21",
-  "adj_close": 68.08
+  "date": "2024-02-20",
+  "adj_close": 54.96
  },
  "balance": {
-  "end": "2023-12-31",
-  "cash": 158862000,
+  "end": "2023-09-30",
+  "cash": 184777000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue",
    "MarketableSecuritiesCurrent"
   ],
-  "accn": "0000950170-24-027594"
+  "accn": "0000950170-23-062471"
  },
  "burn": {
-  "end": "2023-12-31",
-  "months": 12.0,
-  "per_month": -8115772.307692308
+  "end": "2023-09-30",
+  "ytd_months": 8.9,
+  "ytd": -69294000,
+  "accn": "0000950170-23-062471",
+  "ttm_per_month": -7678583.333333333,
+  "quarter_per_month": -7294666.666666667,
+  "per_month": -7678583.333333333
  },
  "shares": {
-  "end": "2024-03-04",
-  "shares": 34797702,
+  "end": "2023-11-07",
+  "shares": 34396212,
   "split_factor": 8.0,
   "splits_after": [
    [
@@ -34,11 +39,43 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0000950170-23-062471",
+  "guided_until": null,
+  "guidance": "sufficient to fund our anticipated level of operations through at least the next 12 months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "x2014; ( 19,184 ) ( 19,184 ) Balance at June 30, 2022 29,649,457 $ 3 $ 526,573 $ ( 745 ) $ ( 323,698 ) $ 202,133 Issuances of common stock in &#x201c;at the market&#x201d; offerings, net of issuance costs 209,349 &#x2014; 4,979 &#x2014; &#x2014; 4,979 Issuances of common stock under employee stock plans 27,356 &#x2014; 272 &#x2014; &#x2014; 272 Stock-based compensation &#x2014; &#x2014; 2,865 &#x2"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 8,
+  "from": "2023-11-22",
+  "to": "2024-03-21",
+  "trades": [
+   {
+    "date": "2024-01-05",
+    "filed": "2024-01-08",
+    "code": "S",
+    "value": 20456,
+    "who": "Brockstedt Dirk G."
+   },
+   {
+    "date": "2023-12-21",
+    "filed": "2023-12-22",
+    "code": "S",
+    "value": 54200,
+    "who": "HO WILLIAM"
+   },
+   {
+    "date": "2023-11-28",
+    "filed": "2023-11-29",
+    "code": "S",
+    "value": 20580,
+    "who": "HO WILLIAM"
+   }
+  ]
  },
  "drug": null,
  "trials": {

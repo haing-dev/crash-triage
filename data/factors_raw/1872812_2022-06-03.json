@@ -3,11 +3,12 @@
  "cik": "1872812",
  "name": "TC BioPharm (Holdings) plc",
  "date": "2022-06-03",
- "asof": "2022-07-03",
+ "asof": "2022-06-03",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-07-05",
-  "adj_close": 38400.0
+  "date": "2022-06-03",
+  "adj_close": 39424.0
  },
  "balance": null,
  "burn": null,
@@ -17,11 +18,12 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": null,
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2022-03-05",
+  "to": "2022-07-03",
+  "trades": []
  },
  "drug": null,
  "trials": {

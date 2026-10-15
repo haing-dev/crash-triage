@@ -3,36 +3,51 @@
  "cik": "1513525",
  "name": "ADIAL PHARMACEUTICALS, INC.",
  "date": "2022-07-20",
- "asof": "2022-08-19",
+ "asof": "2022-07-26",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-08-19",
-  "adj_close": 368.75
+  "date": "2022-07-26",
+  "adj_close": 387.5
  },
  "balance": {
-  "end": "2022-06-30",
-  "cash": 9156635,
+  "end": "2022-03-31",
+  "cash": 12689161,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001213900-22-047638"
+  "accn": "0001213900-22-026590"
  },
  "burn": {
-  "end": "2022-06-30",
-  "months": 5.9,
-  "per_month": -1019933.4631111112
+  "end": "2022-03-31",
+  "ytd_months": 2.9,
+  "ytd": -2496753,
+  "accn": "0001213900-22-026590",
+  "ttm_per_month": -966896.5,
+  "quarter_per_month": -832251.0,
+  "per_month": -966896.5
  },
  "shares": {
-  "end": "2022-08-12",
-  "shares": 25853962,
+  "end": "2022-05-13",
+  "shares": 23788962,
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001213900-22-026590",
+  "guided_until": null,
+  "guidance": "sufficient to fund operations, including the Company's ongoing trial of AD04 as well as a number of additional, discretionary research and development projects associated with the Company's Purnovate subsidiary, for at least the next twelve months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 1,
+  "from": "2022-04-21",
+  "to": "2022-08-19",
+  "trades": []
  },
  "drug": null,
  "trials": {

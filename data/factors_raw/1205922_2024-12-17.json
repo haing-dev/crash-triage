@@ -3,11 +3,12 @@
  "cik": "1205922",
  "name": "VACCINEX, INC.",
  "date": "2024-12-17",
- "asof": "2025-01-16",
+ "asof": "2024-12-18",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-01-16",
-  "adj_close": 1.27
+  "date": "2024-12-18",
+  "adj_close": 1.06
  },
  "balance": {
   "end": "2024-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2024-09-30",
-  "months": 9.0,
-  "per_month": -1366343.4432234433
+  "ytd_months": 9.0,
+  "ytd": -12254000,
+  "accn": "0000950170-24-127139",
+  "ttm_per_month": -1320500.0,
+  "quarter_per_month": -1069000.0,
+  "per_month": -1320500.0
  },
  "shares": {
   "end": "2024-11-12",
@@ -28,11 +33,21 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0000950170-24-127139",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 4,
+  "from": "2024-09-18",
+  "to": "2025-01-16",
+  "trades": []
  },
  "drug": null,
  "trials": {

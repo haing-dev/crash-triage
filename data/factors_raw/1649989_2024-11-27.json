@@ -3,36 +3,59 @@
  "cik": "1649989",
  "name": "Outlook Therapeutics, Inc.",
  "date": "2024-11-27",
- "asof": "2024-12-27",
+ "asof": "2024-11-27",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-12-27",
-  "adj_close": 2.01
+  "date": "2024-11-27",
+  "adj_close": 1.7
  },
  "balance": {
-  "end": "2024-09-30",
-  "cash": 14927538,
+  "end": "2024-06-30",
+  "cash": 32024387,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001558370-24-016491"
+  "accn": "0001558370-24-012234"
  },
  "burn": {
-  "end": "2024-09-30",
-  "months": 12.0,
-  "per_month": -5737219.280876713
+  "end": "2024-06-30",
+  "ytd_months": 9.0,
+  "ytd": -51811963,
+  "accn": "0001558370-24-012234",
+  "ttm_per_month": -5379439.75,
+  "quarter_per_month": -6504119.0,
+  "per_month": -5379439.75
  },
  "shares": {
-  "end": "2024-12-24",
-  "shares": 24905635,
+  "end": "2024-08-12",
+  "shares": 23655636,
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001558370-24-012234",
+  "guided_until": "2025-12-15",
+  "guidance": "ts for calling such warrants), would be sufficient to support the Company's operations through 2025. For",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "ct candidates in regions outside of the U.S., the issuance of additional debt, the issuance of equity securities, including accessing capital through at-the-market offering agreements (refer to Note 9 for further details), and revenues from potential future product sales, if any. There can be no assurance that these future funding efforts will be successful. 5 Table of Contents Outlook Therapeutic"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 9,
+  "from": "2024-08-29",
+  "to": "2024-12-27",
+  "trades": [
+   {
+    "date": "2024-09-26",
+    "filed": "2024-09-30",
+    "code": "P",
+    "value": 28446,
+    "who": "KENYON LAWRENCE A"
+   }
+  ]
  },
  "drug": null,
  "trials": {

@@ -3,28 +3,33 @@
  "cik": "1833214",
  "name": "SAB Biotherapeutics, Inc.",
  "date": "2022-03-02",
- "asof": "2022-04-01",
+ "asof": "2022-03-07",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-04-01",
-  "adj_close": 34.6
+  "date": "2022-03-07",
+  "adj_close": 23.1
  },
  "balance": {
-  "end": "2021-12-31",
-  "cash": 33206712,
+  "end": "2021-09-30",
+  "cash": 667873,
   "parts": [
-   "CashAndCashEquivalentsAtCarryingValue"
+   "Cash"
   ],
-  "accn": "0000950170-22-004935"
+  "accn": "0001493152-21-029551"
  },
  "burn": {
-  "end": "2021-12-31",
-  "months": 12.0,
-  "per_month": 314316.7498901099
+  "end": "2021-09-30",
+  "ytd_months": 8.9,
+  "ytd": -553341,
+  "accn": "0001493152-21-029551",
+  "ttm_per_month": null,
+  "quarter_per_month": -29643.333333333332,
+  "per_month": -61925.36779411764
  },
  "shares": {
-  "end": "2022-03-28",
-  "shares": 42955121,
+  "end": "2021-11-15",
+  "shares": 43474779,
   "split_factor": 567.046,
   "splits_after": [
    [
@@ -41,11 +46,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001493152-21-029551",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
   "form4s": 9,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2021-12-02",
+  "to": "2022-04-01",
+  "trades": []
  },
  "drug": null,
  "trials": {

@@ -3,11 +3,12 @@
  "cik": "1664710",
  "name": "Keros Therapeutics, Inc.",
  "date": "2024-12-12",
- "asof": "2025-01-11",
+ "asof": "2024-12-12",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-01-13",
-  "adj_close": 12.82
+  "date": "2024-12-12",
+  "adj_close": 18.43
  },
  "balance": {
   "end": "2024-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2024-09-30",
-  "months": 9.0,
-  "per_month": -12807211.868131869
+  "ytd_months": 9.0,
+  "ytd": -114861000,
+  "accn": "0001664710-24-000091",
+  "ttm_per_month": -11693333.333333334,
+  "quarter_per_month": -10166666.666666666,
+  "per_month": -11693333.333333334
  },
  "shares": {
   "end": "2024-10-31",
@@ -28,11 +33,21 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001664710-24-000091",
+  "guided_until": null,
+  "guidance": "sufficient to fund our projected liquidity requirements for at least the next 12 months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "#8212; &#8212; &#8212; ( 43,114 ) ( 43,114 ) As of March 31, 2024 36,067,786 $ 3 $ 878,484 $ ( 424,540 ) $ 453,947 Issuance of common stock under the ATM agreement, net of commissions and offering costs of $ 164 14,068 $ &#8212; $ 474 &#8212; $ 474 Exercise of common stock options 87,704 &#8212; 2,967 &#8212; 2,967 Stock-based compensation &#8212; &#8212; 8,785 &#8212; 8,785 Net loss &#8212; &#821"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 1,
+  "from": "2024-09-13",
+  "to": "2025-01-11",
+  "trades": []
  },
  "drug": null,
  "trials": {

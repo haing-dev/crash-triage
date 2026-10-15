@@ -3,11 +3,12 @@
  "cik": "1662774",
  "name": "Quince Therapeutics, Inc.",
  "date": "2021-10-27",
- "asof": "2021-11-26",
+ "asof": "2021-10-29",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2021-11-26",
-  "adj_close": 120.3
+  "date": "2021-10-29",
+  "adj_close": 132.0
  },
  "balance": {
   "end": "2021-09-30",
@@ -21,8 +22,12 @@
  },
  "burn": {
   "end": "2021-09-30",
-  "months": 8.9,
-  "per_month": -5429287.352941176
+  "ytd_months": 8.9,
+  "ytd": -48514000,
+  "accn": "0000950170-21-002495",
+  "ttm_per_month": -5149166.666666667,
+  "quarter_per_month": -5780666.666666667,
+  "per_month": -5149166.666666667
  },
  "shares": {
   "end": "2021-10-25",
@@ -39,12 +44,119 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0000950170-21-002495",
+  "guided_until": "2023-12-15",
+  "guidance": "ash equivalents and investments will be sufficient to fund our planned operations through 2023. We",
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 3,
-  "bought": 10987,
-  "sold": 0,
-  "buyers": [
-   "Dominy Stephen S."
+  "form4s": 8,
+  "from": "2021-07-29",
+  "to": "2021-11-26",
+  "trades": [
+   {
+    "date": "2021-11-12",
+    "filed": "2021-11-12",
+    "code": "P",
+    "value": 10987,
+    "who": "Dominy Stephen S."
+   },
+   {
+    "date": "2021-10-08",
+    "filed": "2021-10-12",
+    "code": "S",
+    "value": 88930,
+    "who": "McLoughlin Margaret"
+   },
+   {
+    "date": "2021-10-05",
+    "filed": "2021-10-07",
+    "code": "S",
+    "value": 488856,
+    "who": "LOWE CHRISTOPHER P."
+   },
+   {
+    "date": "2021-08-16",
+    "filed": "2021-08-18",
+    "code": "S",
+    "value": 288945,
+    "who": "McLoughlin Margaret"
+   },
+   {
+    "date": "2021-08-16",
+    "filed": "2021-08-18",
+    "code": "S",
+    "value": 99775,
+    "who": "McLoughlin Margaret"
+   },
+   {
+    "date": "2021-08-16",
+    "filed": "2021-08-18",
+    "code": "S",
+    "value": 137913,
+    "who": "McLoughlin Margaret"
+   },
+   {
+    "date": "2021-08-16",
+    "filed": "2021-08-18",
+    "code": "S",
+    "value": 41264,
+    "who": "McLoughlin Margaret"
+   },
+   {
+    "date": "2021-08-16",
+    "filed": "2021-08-18",
+    "code": "S",
+    "value": 4747,
+    "who": "McLoughlin Margaret"
+   },
+   {
+    "date": "2021-08-16",
+    "filed": "2021-08-18",
+    "code": "S",
+    "value": 862958,
+    "who": "LOWE CHRISTOPHER P."
+   },
+   {
+    "date": "2021-08-16",
+    "filed": "2021-08-18",
+    "code": "S",
+    "value": 696972,
+    "who": "LOWE CHRISTOPHER P."
+   },
+   {
+    "date": "2021-08-16",
+    "filed": "2021-08-18",
+    "code": "S",
+    "value": 224426,
+    "who": "LOWE CHRISTOPHER P."
+   },
+   {
+    "date": "2021-08-16",
+    "filed": "2021-08-18",
+    "code": "S",
+    "value": 107008,
+    "who": "LOWE CHRISTOPHER P."
+   },
+   {
+    "date": "2021-08-16",
+    "filed": "2021-08-18",
+    "code": "S",
+    "value": 205415,
+    "who": "LOWE CHRISTOPHER P."
+   },
+   {
+    "date": "2021-08-10",
+    "filed": "2021-08-12",
+    "code": "S",
+    "value": 1000000,
+    "who": "Detke Michael J."
+   }
   ]
  },
  "drug": null,

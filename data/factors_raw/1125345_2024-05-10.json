@@ -3,11 +3,12 @@
  "cik": "1125345",
  "name": "MACROGENICS INC",
  "date": "2024-05-10",
- "asof": "2024-06-09",
+ "asof": "2024-05-10",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-06-10",
-  "adj_close": 4.58
+  "date": "2024-05-10",
+  "adj_close": 3.31
  },
  "balance": {
   "end": "2024-03-31",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2024-03-31",
-  "months": 3.0,
-  "per_month": -15437476.88888889
+  "ytd_months": 3.0,
+  "ytd": -45643000,
+  "accn": "0001125345-24-000088",
+  "ttm_per_month": -9251250.0,
+  "quarter_per_month": -15214333.333333334,
+  "per_month": -9251250.0
  },
  "shares": {
   "end": "2024-05-03",
@@ -28,11 +33,99 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001125345-24-000088",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "eserves are reflected in cost of product sales during the period they are recorded. 6. Stockholders' Equity In March 2023, the Company entered into a sales agreement (Sales Agreement) with an agent to sell, from time to time, shares of its common stock having an aggregate sales price of up to $ 100.0 million through an &#8220;at the market offering&#8221; (ATM Offering) as defined in Rule 415 unde"
+ },
  "insiders": {
-  "form4s": 18,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 42,
+  "from": "2024-02-10",
+  "to": "2024-06-09",
+  "trades": [
+   {
+    "date": "2024-04-04",
+    "filed": "2024-04-08",
+    "code": "S",
+    "value": 640475,
+    "who": "Peters Jeffrey Stuart"
+   },
+   {
+    "date": "2024-04-04",
+    "filed": "2024-04-08",
+    "code": "S",
+    "value": 2280,
+    "who": "Peters Jeffrey Stuart"
+   },
+   {
+    "date": "2024-04-04",
+    "filed": "2024-04-08",
+    "code": "S",
+    "value": 3800,
+    "who": "Peters Jeffrey Stuart"
+   },
+   {
+    "date": "2024-04-04",
+    "filed": "2024-04-08",
+    "code": "S",
+    "value": 94927,
+    "who": "Peters Jeffrey Stuart"
+   },
+   {
+    "date": "2024-04-04",
+    "filed": "2024-04-08",
+    "code": "S",
+    "value": 57666,
+    "who": "Peters Jeffrey Stuart"
+   },
+   {
+    "date": "2024-03-06",
+    "filed": "2024-03-08",
+    "code": "S",
+    "value": 421938,
+    "who": "Peters Jeffrey Stuart"
+   },
+   {
+    "date": "2024-03-04",
+    "filed": "2024-03-06",
+    "code": "S",
+    "value": 300000,
+    "who": "Risser Eric Blasius"
+   },
+   {
+    "date": "2024-03-04",
+    "filed": "2024-03-06",
+    "code": "S",
+    "value": 513501,
+    "who": "Risser Eric Blasius"
+   },
+   {
+    "date": "2024-03-04",
+    "filed": "2024-03-06",
+    "code": "S",
+    "value": 200000,
+    "who": "Spitznagel Thomas"
+   },
+   {
+    "date": "2024-03-04",
+    "filed": "2024-03-06",
+    "code": "S",
+    "value": 615000,
+    "who": "Karrels James"
+   },
+   {
+    "date": "2024-02-26",
+    "filed": "2024-02-28",
+    "code": "S",
+    "value": 277655,
+    "who": "Peters Jeffrey Stuart"
+   }
+  ]
  },
  "drug": null,
  "trials": {

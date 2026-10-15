@@ -3,30 +3,39 @@
  "cik": "1671584",
  "name": "Aptevo Therapeutics Inc.",
  "date": "2024-04-11",
- "asof": "2024-05-11",
+ "asof": "2024-04-15",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-05-13",
-  "adj_close": 10815.83984
+  "date": "2024-04-15",
+  "adj_close": 10429.55957
  },
  "balance": {
-  "end": "2024-03-31",
-  "cash": 10250000,
+  "end": "2023-12-31",
+  "cash": 16904000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0000950170-24-055096"
+  "accn": "0000950170-24-025428"
  },
  "burn": {
-  "end": "2024-03-31",
-  "months": 3.0,
-  "per_month": -2249516.0
+  "end": "2023-12-31",
+  "ytd_months": 12.0,
+  "ytd": -11730000,
+  "accn": "0000950170-24-025428",
+  "ttm_per_month": -977500.0,
+  "quarter_per_month": -1751000.0,
+  "per_month": -977500.0
  },
  "shares": {
-  "end": "2024-05-08",
-  "shares": 4080169,
-  "split_factor": 288967502345.123,
+  "end": "2024-03-05",
+  "shares": 23472436,
+  "split_factor": 12714613557761.996,
   "splits_after": [
+   [
+    "2024-05-08",
+    44.0
+   ],
    [
     "2025-02-14",
     1628.03
@@ -49,11 +58,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0000950170-24-025428",
+  "guided_until": null,
+  "guidance": "sufficient to support our current operating plan for at least the next twelve months",
+  "twelve_months": true,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 7,
+  "from": "2024-01-12",
+  "to": "2024-05-11",
+  "trades": []
  },
  "drug": null,
  "trials": {

@@ -3,11 +3,12 @@
  "cik": "1017491",
  "name": "SEELOS THERAPEUTICS, INC.",
  "date": "2024-03-19",
- "asof": "2024-04-18",
+ "asof": "2024-03-21",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-04-18",
-  "adj_close": 43.264
+  "date": "2024-03-21",
+  "adj_close": 62.7328
  },
  "balance": {
   "end": "2023-12-31",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2023-12-31",
-  "months": 12.0,
-  "per_month": -1999673.8461538462
+  "ytd_months": 12.0,
+  "ytd": -23912000,
+  "accn": "0001410578-24-000140",
+  "ttm_per_month": -1992666.6666666667,
+  "quarter_per_month": -637000.0,
+  "per_month": -1992666.6666666667
  },
  "shares": {
   "end": "2024-02-21",
@@ -33,11 +38,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001410578-24-000140",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "the &#8220;Agent&#8221;), pursuant to which we were able to offer and sell shares of our common stock from time to time through the Agent (the &#8220;ATM Offering&#8221;). We also filed a prospectus supplement, dated May 12, 2022, with the SEC in connection with the ATM Offering (the &#8220;Prospectus Supplement&#8221;) under our Prior Registration Statement. Pursuant to the Prospectus Supplement,"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 7,
+  "from": "2023-12-20",
+  "to": "2024-04-18",
+  "trades": []
  },
  "drug": null,
  "trials": {

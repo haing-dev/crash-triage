@@ -3,11 +3,12 @@
  "cik": "1339970",
  "name": "aTYR PHARMA INC",
  "date": "2025-09-15",
- "asof": "2025-10-15",
+ "asof": "2025-09-19",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-10-15",
-  "adj_close": 1.02
+  "date": "2025-09-19",
+  "adj_close": 0.99199998
  },
  "balance": {
   "end": "2025-06-30",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2025-06-30",
-  "months": 5.9,
-  "per_month": -4957323.111111111
+  "ytd_months": 5.9,
+  "ytd": -29314000,
+  "accn": "0001339970-25-000009",
+  "ttm_per_month": -4633666.666666667,
+  "quarter_per_month": -4631333.333333333,
+  "per_month": -4633666.666666667
  },
  "shares": {
   "end": "2025-08-01",
@@ -29,12 +34,35 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001339970-25-000009",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "&#8212; &#8212; &#8212; Issuance of common stock upon exercise of stock options 900 &#8212; 2 &#8212; &#8212; &#8212; 2 Issuance of common stock from at-the-market offerings, net of offering costs 4,941,895 5 18,752 &#8212; &#8212; &#8212; 18,757 Stock-based compensation &#8212; &#8212; 1,178 &#8212; &#8212; &#8212; 1,178 Net unrealized loss on investments, net of tax &#8212; &#8212; &#8212; ( 26 "
+ },
  "insiders": {
   "form4s": 1,
-  "bought": 911801,
-  "sold": 0,
-  "buyers": [
-   "SCHIMMEL PAUL"
+  "from": "2025-06-17",
+  "to": "2025-10-15",
+  "trades": [
+   {
+    "date": "2025-10-08",
+    "filed": "2025-10-09",
+    "code": "P",
+    "value": 612437,
+    "who": "SCHIMMEL PAUL"
+   },
+   {
+    "date": "2025-10-09",
+    "filed": "2025-10-09",
+    "code": "P",
+    "value": 299364,
+    "who": "SCHIMMEL PAUL"
+   }
   ]
  },
  "drug": null,

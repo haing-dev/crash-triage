@@ -3,38 +3,88 @@
  "cik": "1786255",
  "name": "Icosavax, Inc.",
  "date": "2022-03-25",
- "asof": "2022-04-24",
+ "asof": "2022-03-25",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-04-25",
-  "adj_close": 9.14
+  "date": "2022-03-25",
+  "adj_close": 4.41
  },
  "balance": {
-  "end": "2021-12-31",
-  "cash": 280724000,
+  "end": "2021-09-30",
+  "cash": 288571000,
   "parts": [
-   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+   "minus RestrictedCash",
+   "minus RestrictedCashCurrent"
   ],
-  "accn": "0000950170-22-005064"
+  "accn": "0000950170-21-004623"
  },
  "burn": {
-  "end": "2021-12-31",
-  "months": 12.0,
-  "per_month": -3222960.4395604394
+  "end": "2021-09-30",
+  "ytd_months": 8.9,
+  "ytd": -25504000,
+  "accn": "0000950170-21-004623",
+  "ttm_per_month": null,
+  "quarter_per_month": -3108666.6666666665,
+  "per_month": -2854197.6470588236
  },
  "shares": {
-  "end": "2022-03-28",
-  "shares": 39724980,
+  "end": "2021-11-12",
+  "shares": 39041805,
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0000950170-21-004623",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 3,
-  "bought": 1136680,
-  "sold": 0,
-  "buyers": [
-   "MCDADE MARK",
-   "RA CAPITAL MANAGEMENT, L.P."
+  "form4s": 16,
+  "from": "2021-12-25",
+  "to": "2022-04-24",
+  "trades": [
+   {
+    "date": "2022-04-01",
+    "filed": "2022-04-05",
+    "code": "P",
+    "value": 299798,
+    "who": "MCDADE MARK"
+   },
+   {
+    "date": "2022-03-28",
+    "filed": "2022-03-30",
+    "code": "P",
+    "value": 794611,
+    "who": "RA CAPITAL MANAGEMENT, L.P."
+   },
+   {
+    "date": "2022-03-29",
+    "filed": "2022-03-30",
+    "code": "P",
+    "value": 42271,
+    "who": "RA CAPITAL MANAGEMENT, L.P."
+   },
+   {
+    "date": "2022-03-07",
+    "filed": "2022-03-09",
+    "code": "S",
+    "value": 163009,
+    "who": "Cearley Cassia"
+   },
+   {
+    "date": "2022-03-07",
+    "filed": "2022-03-09",
+    "code": "S",
+    "value": 8620,
+    "who": "Cearley Cassia"
+   }
   ]
  },
  "drug": null,

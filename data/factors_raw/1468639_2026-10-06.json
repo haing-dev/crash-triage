@@ -3,10 +3,11 @@
  "cik": "1468639",
  "name": "Vicapsys Life Sciences, Inc.",
  "date": "2026-10-06",
- "asof": "2026-10-15",
+ "asof": "2026-10-07",
  "final": false,
+ "version": 2,
  "price": {
-  "date": "2026-10-13",
+  "date": "2026-10-07",
   "adj_close": 0.4
  },
  "balance": {
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2024-09-30",
-  "months": 9.0,
-  "per_month": -4871.180512820513
+  "ytd_months": 9.0,
+  "ytd": -43687,
+  "accn": "0001493152-25-001779",
+  "ttm_per_month": -10478.416666666666,
+  "quarter_per_month": -13477.0,
+  "per_month": -10478.416666666666
  },
  "shares": {
   "end": "2024-12-13",
@@ -28,11 +33,21 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001493152-25-001779",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2026-07-08",
+  "to": "2026-10-15",
+  "trades": []
  },
  "drug": null,
  "trials": {

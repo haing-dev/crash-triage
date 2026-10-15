@@ -3,11 +3,12 @@
  "cik": "1807120",
  "name": "Design Therapeutics, Inc.",
  "date": "2023-08-15",
- "asof": "2023-09-14",
+ "asof": "2023-08-18",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-09-14",
-  "adj_close": 2.68
+  "date": "2023-08-18",
+  "adj_close": 2.09
  },
  "balance": {
   "end": "2023-06-30",
@@ -21,8 +22,12 @@
  },
  "burn": {
   "end": "2023-06-30",
-  "months": 5.9,
-  "per_month": -5281001.777777778
+  "ytd_months": 5.9,
+  "ytd": -31228000,
+  "accn": "0000950170-23-042411",
+  "ttm_per_month": -5018166.666666667,
+  "quarter_per_month": -4601333.333333333,
+  "per_month": -5018166.666666667
  },
  "shares": {
   "end": "2023-08-09",
@@ -30,13 +35,42 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0000950170-23-042411",
+  "guided_until": null,
+  "guidance": "sufficient to fund our planned operating expenses and capital expenditure requirements for more than the next 12 months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "d sale by the Company of up to a maximum aggregate offering price of $ 100.0 million of our common stock that may be issued and sold under an &#x201c;at-the-market&#x201d; sales agreement (the &#x201c;ATM Program&#x201d; ). The $ 100.0 million of common stock that may be issued and sold under the ATM Program is included in the $ 300.0 million of securities that may be issued and sold under the 202"
+ },
  "insiders": {
-  "form4s": 3,
-  "bought": 5401320,
-  "sold": 0,
-  "buyers": [
-   "Prasad Deepa",
-   "William Arsani"
+  "form4s": 10,
+  "from": "2023-05-17",
+  "to": "2023-09-14",
+  "trades": [
+   {
+    "date": "2023-08-29",
+    "filed": "2023-08-30",
+    "code": "P",
+    "value": 27670,
+    "who": "Prasad Deepa"
+   },
+   {
+    "date": "2023-08-28",
+    "filed": "2023-08-30",
+    "code": "P",
+    "value": 591250,
+    "who": "William Arsani"
+   },
+   {
+    "date": "2023-08-29",
+    "filed": "2023-08-30",
+    "code": "P",
+    "value": 4782400,
+    "who": "William Arsani"
+   }
   ]
  },
  "drug": null,

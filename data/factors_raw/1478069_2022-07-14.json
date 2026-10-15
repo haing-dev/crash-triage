@@ -3,11 +3,12 @@
  "cik": "1478069",
  "name": "CONTRAFECT Corp",
  "date": "2022-07-14",
- "asof": "2022-08-13",
+ "asof": "2022-07-14",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-08-15",
-  "adj_close": 24.512
+  "date": "2022-07-14",
+  "adj_close": 38.432
  },
  "balance": {
   "end": "2022-03-31",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2022-03-31",
-  "months": 2.9,
-  "per_month": -4024578.4269662923
+  "ytd_months": 2.9,
+  "ytd": -11767000,
+  "accn": "0001193125-22-151878",
+  "ttm_per_month": -3652750.0,
+  "quarter_per_month": -3922333.3333333335,
+  "per_month": -3652750.0
  },
  "shares": {
   "end": "2022-05-10",
@@ -34,11 +39,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001193125-22-151878",
+  "guided_until": null,
+  "guidance": "sufficient to meet its obligations within the next twelve months",
+  "twelve_months": true,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 7,
+  "from": "2022-04-15",
+  "to": "2022-08-13",
+  "trades": []
  },
  "drug": null,
  "trials": {

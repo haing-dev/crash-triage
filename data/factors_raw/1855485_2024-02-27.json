@@ -3,28 +3,36 @@
  "cik": "1855485",
  "name": "Calidi Biotherapeutics, Inc.",
  "date": "2024-02-27",
- "asof": "2024-03-28",
+ "asof": "2024-02-29",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-03-28",
-  "adj_close": 67.8
+  "date": "2024-02-29",
+  "adj_close": 71.64
  },
  "balance": {
-  "end": "2023-12-31",
-  "cash": 2167000,
+  "end": "2023-09-30",
+  "cash": 9947000,
   "parts": [
-   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+   "minus RestrictedCash",
+   "minus RestrictedCashAndCashEquivalentsAtCarryingValue",
+   "minus RestrictedCashAndCashEquivalentsNoncurrent"
   ],
-  "accn": "0001493152-24-010158"
+  "accn": "0001493152-23-041122"
  },
  "burn": {
-  "end": "2023-12-31",
-  "months": 12.0,
-  "per_month": -2256490.4395604394
+  "end": "2023-09-30",
+  "ytd_months": 8.9,
+  "ytd": -21797000,
+  "accn": "0001493152-23-041122",
+  "ttm_per_month": -1030079.0833333334,
+  "quarter_per_month": -7456927.666666667,
+  "per_month": -1030079.0833333334
  },
  "shares": {
-  "end": "2024-03-08",
-  "shares": 35538034,
+  "end": "2023-11-10",
+  "shares": 35436381,
   "split_factor": 230315.36,
   "splits_after": [
    [
@@ -49,11 +57,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001493152-23-041122",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "r the Securities Exchange Act of 1934, as amended, (the &#8220;Exchange Act&#8221;). We are also a &#8220;smaller reporting company,&#8221; meaning that the market value of our stock held by non-affiliates plus the proposed aggregate amount of gross proceeds to us as a result of this offering is less than $700 million and our annual revenue was less than $100 million during the most recently compl"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 6,
+  "from": "2023-11-29",
+  "to": "2024-03-28",
+  "trades": []
  },
  "drug": null,
  "trials": {

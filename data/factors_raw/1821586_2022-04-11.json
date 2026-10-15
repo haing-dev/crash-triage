@@ -3,11 +3,12 @@
  "cik": "1821586",
  "name": "MoonLake Immunotherapeutics",
  "date": "2022-04-11",
- "asof": "2022-05-11",
+ "asof": "2022-04-12",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-05-11",
-  "adj_close": 5.0
+  "date": "2022-04-12",
+  "adj_close": 4.85
  },
  "balance": {
   "end": "2021-12-31",
@@ -19,15 +20,37 @@
  },
  "burn": {
   "end": "2021-12-31",
-  "months": 12.0,
-  "per_month": -51101.65175824176
+  "ytd_months": 12.0,
+  "ytd": -611071,
+  "accn": "0001213900-22-008253",
+  "ttm_per_month": -50922.583333333336,
+  "quarter_per_month": -120654.0,
+  "per_month": -50922.583333333336
  },
  "shares": null,
+ "filing": {
+  "accn": "0001213900-22-008253",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 4,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 6,
+  "from": "2022-01-11",
+  "to": "2022-05-11",
+  "trades": [
+   {
+    "date": "2022-04-05",
+    "filed": "2022-04-07",
+    "code": "P",
+    "value": 28500000,
+    "who": "Chen Bihua"
+   }
+  ]
  },
  "drug": null,
  "trials": {

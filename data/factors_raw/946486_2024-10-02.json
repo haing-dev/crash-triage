@@ -3,11 +3,12 @@
  "cik": "946486",
  "name": "WINDTREE THERAPEUTICS INC /DE/",
  "date": "2024-10-02",
- "asof": "2024-11-01",
+ "asof": "2024-10-02",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-11-01",
-  "adj_close": 36.05
+  "date": "2024-10-02",
+  "adj_close": 72.0
  },
  "balance": {
   "end": "2024-06-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2024-06-30",
-  "months": 5.9,
-  "per_month": -886796.2430939227
+  "ytd_months": 5.9,
+  "ytd": -5273000,
+  "accn": "0001437749-24-027232",
+  "ttm_per_month": -1057833.3333333333,
+  "quarter_per_month": -775333.3333333334,
+  "per_month": -1057833.3333333333
  },
  "shares": {
   "end": "2024-08-19",
@@ -37,12 +42,28 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001437749-24-027232",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "ance - December 31, 2023 - $ - 333 $ - $ 851,268 $ ( 844,823 ) - $ ( 3,054 ) $ 3,391 Net income - - - - - 10,219 - - 10,219 Issuance of common stock, ATM Program, net of issuance costs of $ 44 - - 143 1 1,366 - - - 1,367 Issuance of common stock, equity consideration in debt extinguishment - - 34 - 280 - - - 280 Stock-based compensation expense - - - - 164 - - - 164 Balance - March 31, 2024 - $ - "
+ },
  "insiders": {
-  "form4s": 1,
-  "bought": 4942,
-  "sold": 0,
-  "buyers": [
-   "Fraser Craig"
+  "form4s": 3,
+  "from": "2024-07-04",
+  "to": "2024-11-01",
+  "trades": [
+   {
+    "date": "2024-10-08",
+    "filed": "2024-10-09",
+    "code": "P",
+    "value": 4942,
+    "who": "Fraser Craig"
+   }
   ]
  },
  "drug": null,

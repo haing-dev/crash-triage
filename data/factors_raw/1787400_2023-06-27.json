@@ -3,11 +3,12 @@
  "cik": "1787400",
  "name": "Nkarta, Inc.",
  "date": "2023-06-27",
- "asof": "2023-07-27",
+ "asof": "2023-06-30",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-07-27",
-  "adj_close": 2.03
+  "date": "2023-06-30",
+  "adj_close": 2.19
  },
  "balance": {
   "end": "2023-03-31",
@@ -21,8 +22,12 @@
  },
  "burn": {
   "end": "2023-03-31",
-  "months": 2.9,
-  "per_month": -7099702.471910113
+  "ytd_months": 2.9,
+  "ytd": -20758000,
+  "accn": "0000950170-23-021277",
+  "ttm_per_month": -4958333.333333333,
+  "quarter_per_month": -6919333.333333333,
+  "per_month": -4958333.333333333
  },
  "shares": {
   "end": "2023-05-08",
@@ -30,11 +35,64 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0000950170-23-021277",
+  "guided_until": null,
+  "guidance": "sufficient to fund our operations for at least the next 12 months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "not yet been sold. The Shelf Registration Statement was declared effective by the SEC on May 5, 2023. On August 12, 2021, the Company entered into a sales agreement with Cowen and Company, LLC, a sales agent, to provide for the offering, issuance and sale of up to an aggregate of $ 150.0 million of the Company&#x2019;s common stock through an &#x201c;at-the-market&#x201d; equity offering program ("
+ },
  "insiders": {
-  "form4s": 2,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 16,
+  "from": "2023-03-29",
+  "to": "2023-07-27",
+  "trades": [
+   {
+    "date": "2023-06-20",
+    "filed": "2023-06-22",
+    "code": "S",
+    "value": 2129,
+    "who": "Trager James"
+   },
+   {
+    "date": "2023-06-20",
+    "filed": "2023-06-22",
+    "code": "S",
+    "value": 1072,
+    "who": "Brandenberger Ralph"
+   },
+   {
+    "date": "2023-06-20",
+    "filed": "2023-06-22",
+    "code": "S",
+    "value": 3400,
+    "who": "Hager Alicia J."
+   },
+   {
+    "date": "2023-06-20",
+    "filed": "2023-06-22",
+    "code": "S",
+    "value": 2129,
+    "who": "Shook David"
+   },
+   {
+    "date": "2023-06-20",
+    "filed": "2023-06-22",
+    "code": "S",
+    "value": 2551,
+    "who": "Mahmood Nadir"
+   },
+   {
+    "date": "2023-06-20",
+    "filed": "2023-06-22",
+    "code": "S",
+    "value": 8264,
+    "who": "HASTINGS PAUL J"
+   }
+  ]
  },
  "drug": null,
  "trials": {

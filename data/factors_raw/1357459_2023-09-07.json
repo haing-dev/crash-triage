@@ -3,11 +3,12 @@
  "cik": "1357459",
  "name": "PALISADE BIO, INC.",
  "date": "2023-09-07",
- "asof": "2023-10-07",
+ "asof": "2023-09-13",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-10-09",
-  "adj_close": 8.1
+  "date": "2023-09-13",
+  "adj_close": 9.75
  },
  "balance": {
   "end": "2023-06-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2023-06-30",
-  "months": 5.9,
-  "per_month": -968161.1111111111
+  "ytd_months": 5.9,
+  "ytd": -5725000,
+  "accn": "0000950170-23-041459",
+  "ttm_per_month": -1005916.6666666666,
+  "quarter_per_month": -733000.0,
+  "per_month": -1005916.6666666666
  },
  "shares": {
   "end": "2023-08-08",
@@ -33,13 +38,49 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0000950170-23-041459",
+  "guided_until": null,
+  "guidance": "sufficient to fund its anticipated level of operations for the next 12 months",
+  "twelve_months": true,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 6,
-  "bought": 28713,
-  "sold": 192,
-  "buyers": [
-   "Finley John David",
-   "Williams Donald Allen"
+  "form4s": 17,
+  "from": "2023-06-09",
+  "to": "2023-10-07",
+  "trades": [
+   {
+    "date": "2023-09-27",
+    "filed": "2023-09-29",
+    "code": "P",
+    "value": 10800,
+    "who": "Williams Donald Allen"
+   },
+   {
+    "date": "2023-09-27",
+    "filed": "2023-09-29",
+    "code": "P",
+    "value": 8088,
+    "who": "Finley John David"
+   },
+   {
+    "date": "2023-09-14",
+    "filed": "2023-09-15",
+    "code": "S",
+    "value": 192,
+    "who": "Trenschel Robert J."
+   },
+   {
+    "date": "2023-09-13",
+    "filed": "2023-09-14",
+    "code": "P",
+    "value": 9825,
+    "who": "Finley John David"
+   }
   ]
  },
  "drug": null,

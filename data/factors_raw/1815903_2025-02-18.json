@@ -3,11 +3,12 @@
  "cik": "1815903",
  "name": "Petros Pharmaceuticals, Inc.",
  "date": "2025-02-18",
- "asof": "2025-03-20",
+ "asof": "2025-02-24",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-03-20",
-  "adj_close": 1.9
+  "date": "2025-02-24",
+  "adj_close": 2.9375
  },
  "balance": {
   "end": "2024-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2024-09-30",
-  "months": 9.0,
-  "per_month": -397889.37963369966
+  "ytd_months": 9.0,
+  "ytd": -3568456,
+  "accn": "0001410578-24-001943",
+  "ttm_per_month": -485695.8333333333,
+  "quarter_per_month": -257082.0,
+  "per_month": -485695.8333333333
  },
  "shares": {
   "end": "2024-11-12",
@@ -33,11 +38,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001410578-24-001943",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
   "form4s": 5,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2024-11-20",
+  "to": "2025-03-20",
+  "trades": []
  },
  "drug": null,
  "trials": {

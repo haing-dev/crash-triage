@@ -3,38 +3,53 @@
  "cik": "320017",
  "name": "LISATA THERAPEUTICS, INC.",
  "date": "2026-07-21",
- "asof": "2026-08-20",
+ "asof": "2026-07-24",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-08-20",
-  "adj_close": 1.12
+  "date": "2026-07-24",
+  "adj_close": 1.67
  },
  "balance": {
-  "end": "2026-06-30",
-  "cash": 10443000,
+  "end": "2026-03-31",
+  "cash": 13060000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0000320017-26-000038"
+  "accn": "0000320017-26-000032"
  },
  "burn": {
-  "end": "2026-06-30",
-  "months": 5.9,
-  "per_month": -969344.8888888889
+  "end": "2026-03-31",
+  "ytd_months": 2.9,
+  "ytd": -3083000,
+  "accn": "0000320017-26-000032",
+  "ttm_per_month": -1135833.3333333333,
+  "quarter_per_month": -1027666.6666666666,
+  "per_month": -1135833.3333333333
  },
  "shares": {
-  "end": "2026-08-06",
-  "shares": 9010937,
+  "end": "2026-05-08",
+  "shares": 9106391,
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0000320017-26-000032",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "s 811 1,022 Accounting &amp; tax consulting liabilities 96 62 Other 143 41 Total $ 2,805 $ 2,052 Note 8 &#8211; Stockholders' Equity Equity Issuances At The Market Offering Agreement On June 4, 2021, the Company entered into an At The Market Offering Agreement (the &#8220;ATM Agreement&#8221;) with H.C. Wainwright &amp; Co., LLC, as sales agent, in connection with an &#8220;at the market offering&"
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2026-04-22",
+  "to": "2026-08-20",
+  "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "lisata therapeutics",
   "other_trials": 0,

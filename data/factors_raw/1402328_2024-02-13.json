@@ -3,11 +3,12 @@
  "cik": "1402328",
  "name": "Sunshine Biopharma Inc.",
  "date": "2024-02-13",
- "asof": "2024-03-14",
+ "asof": "2024-02-13",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-03-14",
-  "adj_close": 1000.0
+  "date": "2024-02-13",
+  "adj_close": 1380.0
  },
  "balance": {
   "end": "2023-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2023-09-30",
-  "months": 8.9,
-  "per_month": -681031.7698529412
+  "ytd_months": 8.9,
+  "ytd": -6085435,
+  "accn": "0001683168-23-007911",
+  "ttm_per_month": -694337.25,
+  "quarter_per_month": -152429.66666666666,
+  "per_month": -694337.25
  },
  "shares": {
   "end": "2023-11-13",
@@ -37,12 +42,35 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001683168-23-007911",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 1,
-  "bought": 10000,
-  "sold": 0,
-  "buyers": [
-   "Slilaty Steve N."
+  "form4s": 2,
+  "from": "2023-11-15",
+  "to": "2024-03-14",
+  "trades": [
+   {
+    "date": "2024-03-04",
+    "filed": "2024-03-05",
+    "code": "P",
+    "value": 10000,
+    "who": "Slilaty Steve N."
+   },
+   {
+    "date": "2024-02-08",
+    "filed": "2024-02-12",
+    "code": "P",
+    "value": 2000,
+    "who": "Slilaty Steve N."
+   }
   ]
  },
  "drug": null,

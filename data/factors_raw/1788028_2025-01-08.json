@@ -3,11 +3,12 @@
  "cik": "1788028",
  "name": "Jasper Therapeutics, Inc.",
  "date": "2025-01-08",
- "asof": "2025-02-07",
+ "asof": "2025-01-08",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-02-07",
-  "adj_close": 6.14
+  "date": "2025-01-08",
+  "adj_close": 6.99
  },
  "balance": {
   "end": "2024-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2024-09-30",
-  "months": 9.0,
-  "per_month": -4623757.948717949
+  "ytd_months": 9.0,
+  "ytd": -41468000,
+  "accn": "0001213900-24-095173",
+  "ttm_per_month": -4828916.666666667,
+  "quarter_per_month": -4684000.0,
+  "per_month": -4828916.666666667
  },
  "shares": {
   "end": "2023-10-31",
@@ -33,11 +38,29 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001213900-24-095173",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": 75000000.0,
+  "atm_quote": "offering, net of discounts and commissions and offering expenses of $ 6.6 million 6,900,000 1 96,969 &#8212; 96,970 Issuance of common stock through ATM offering, net of commissions and offering expenses of $ 0.1 million 233,747 &#8212; 4,509 &#8212; 4,509 Reclassification of common stock warrants from liability to equity &#8212; &#8212; 725 &#8212; 725 Settlement of restricted stock units 130,937"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 1,
+  "from": "2024-10-10",
+  "to": "2025-02-07",
+  "trades": [
+   {
+    "date": "2024-12-12",
+    "filed": "2024-12-12",
+    "code": "S",
+    "value": 19899,
+    "who": "Mahal Jeetinder Singh"
+   }
+  ]
  },
  "drug": null,
  "trials": {

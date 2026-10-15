@@ -3,11 +3,12 @@
  "cik": "1390478",
  "name": "SELLAS Life Sciences Group, Inc.",
  "date": "2022-11-14",
- "asof": "2022-12-14",
+ "asof": "2022-11-14",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-12-14",
-  "adj_close": 2.32
+  "date": "2022-11-14",
+  "adj_close": 2.55
  },
  "balance": {
   "end": "2022-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2022-09-30",
-  "months": 8.9,
-  "per_month": -2087937.794117647
+  "ytd_months": 8.9,
+  "ytd": -18657000,
+  "accn": "0001390478-22-000028",
+  "ttm_per_month": -1969416.6666666667,
+  "quarter_per_month": -1915333.3333333333,
+  "per_month": -1969416.6666666667
  },
  "shares": {
   "end": "2022-11-10",
@@ -28,11 +33,43 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001390478-22-000028",
+  "guided_until": null,
+  "guidance": "sufficient to fund its current planned operations for at least the next twelve months",
+  "twelve_months": true,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "tantial doubt about the Company's ability to continue as a going concern. On April 16, 2021, the Company entered into a Controlled Equity Offering SM Sales Agreement (the \"Sales Agreement\") with Cantor Fitzgerald &amp; Co. (the \"Agent\"). From time to time during the term of the Sales Agreement, the Company may offer and sell shares of common stock having an aggregate offering price up to a total o"
+ },
  "insiders": {
-  "form4s": 3,
-  "bought": 0,
-  "sold": 25516,
-  "buyers": []
+  "form4s": 4,
+  "from": "2022-08-16",
+  "to": "2022-12-14",
+  "trades": [
+   {
+    "date": "2022-12-05",
+    "filed": "2022-12-05",
+    "code": "S",
+    "value": 16938,
+    "who": "Stergiou Angelos M."
+   },
+   {
+    "date": "2022-12-05",
+    "filed": "2022-12-05",
+    "code": "S",
+    "value": 3002,
+    "who": "Burns John Thomas"
+   },
+   {
+    "date": "2022-12-05",
+    "filed": "2022-12-05",
+    "code": "S",
+    "value": 5576,
+    "who": "WOOD BARBARA A"
+   }
+  ]
  },
  "drug": null,
  "trials": {

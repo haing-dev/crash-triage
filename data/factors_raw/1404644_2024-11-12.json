@@ -3,11 +3,12 @@
  "cik": "1404644",
  "name": "Neurogene Inc.",
  "date": "2024-11-12",
- "asof": "2024-12-12",
+ "asof": "2024-11-18",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-12-12",
-  "adj_close": 22.335
+  "date": "2024-11-18",
+  "adj_close": 19.82
  },
  "balance": {
   "end": "2024-09-30",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2024-09-30",
-  "months": 9.0,
-  "per_month": -5921527.765567766
+  "ytd_months": 9.0,
+  "ytd": -53107000,
+  "accn": "0001404644-24-000104",
+  "ttm_per_month": -5839916.666666667,
+  "quarter_per_month": -5188000.0,
+  "per_month": -5839916.666666667
  },
  "shares": {
   "end": "2024-11-13",
@@ -29,14 +34,63 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001404644-24-000104",
+  "guided_until": "2027-07-15",
+  "guidance": "ts and short-term investments should be sufficient to fund our operations into the second half of 2027. Thi",
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "the issuance date of these financial statements. As a result of the reverse merger with Neoleukin Therapeutics, the Company assumed an ATM or &#8220;at-the-market&#8221; Equity Offering Sales Agreement with BofA Securities, Inc., as agent (&#8220;BofA&#8221;), pursuant to which the Company was able to offer and sell, from time to time through BofA, shares of the Company's common stock, having an a"
+ },
  "insiders": {
   "form4s": 3,
-  "bought": 2720023,
-  "sold": 0,
-  "buyers": [
-   "Cvijic Christine Mikail",
-   "McMinn Rachel",
-   "Samsara BioCapital GP, LLC"
+  "from": "2024-08-14",
+  "to": "2024-12-12",
+  "trades": [
+   {
+    "date": "2024-11-26",
+    "filed": "2024-11-27",
+    "code": "P",
+    "value": 516833,
+    "who": "Samsara BioCapital GP, LLC"
+   },
+   {
+    "date": "2024-11-26",
+    "filed": "2024-11-27",
+    "code": "P",
+    "value": 280986,
+    "who": "Samsara BioCapital GP, LLC"
+   },
+   {
+    "date": "2024-11-26",
+    "filed": "2024-11-27",
+    "code": "P",
+    "value": 406804,
+    "who": "Samsara BioCapital GP, LLC"
+   },
+   {
+    "date": "2024-11-26",
+    "filed": "2024-11-27",
+    "code": "P",
+    "value": 55000,
+    "who": "Samsara BioCapital GP, LLC"
+   },
+   {
+    "date": "2024-11-22",
+    "filed": "2024-11-25",
+    "code": "P",
+    "value": 491400,
+    "who": "Cvijic Christine Mikail"
+   },
+   {
+    "date": "2024-11-22",
+    "filed": "2024-11-25",
+    "code": "P",
+    "value": 969000,
+    "who": "McMinn Rachel"
+   }
   ]
  },
  "drug": null,

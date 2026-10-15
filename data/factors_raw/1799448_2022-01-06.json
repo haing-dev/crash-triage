@@ -3,11 +3,12 @@
  "cik": "1799448",
  "name": "Aligos Therapeutics, Inc.",
  "date": "2022-01-06",
- "asof": "2022-02-05",
+ "asof": "2022-01-10",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-02-07",
-  "adj_close": 72.75
+  "date": "2022-01-10",
+  "adj_close": 93.25
  },
  "balance": {
   "end": "2021-09-30",
@@ -21,8 +22,12 @@
  },
  "burn": {
   "end": "2021-09-30",
-  "months": 8.9,
-  "per_month": -8749485.588235294
+  "ytd_months": 8.9,
+  "ytd": -78182000,
+  "accn": "0001564590-21-054514",
+  "ttm_per_month": -8155500.0,
+  "quarter_per_month": -8456000.0,
+  "per_month": -8155500.0
  },
  "shares": {
   "end": "2021-08-04",
@@ -35,11 +40,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001564590-21-054514",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 1,
+  "from": "2021-10-08",
+  "to": "2022-02-05",
+  "trades": []
  },
  "drug": null,
  "trials": {

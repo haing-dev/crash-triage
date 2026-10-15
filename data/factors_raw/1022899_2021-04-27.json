@@ -3,28 +3,33 @@
  "cik": "1022899",
  "name": "Protagenic Therapeutics, Inc.\\new",
  "date": "2021-04-27",
- "asof": "2021-05-27",
+ "asof": "2021-04-27",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2021-05-27",
-  "adj_close": 135.52
+  "date": "2021-04-27",
+  "adj_close": 125.44
  },
  "balance": {
-  "end": "2021-03-31",
-  "cash": 191674,
+  "end": "2020-12-31",
+  "cash": 671091,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001493152-21-011799"
+  "accn": "0001493152-21-006756"
  },
  "burn": {
-  "end": "2021-03-31",
-  "months": 2.9,
-  "per_month": -207849.45033707866
+  "end": "2020-12-31",
+  "ytd_months": 12.0,
+  "ytd": -1348779,
+  "accn": "0001493152-21-006756",
+  "ttm_per_month": -112398.25,
+  "quarter_per_month": -106956.0,
+  "per_month": -112398.25
  },
  "shares": {
-  "end": "2021-05-14",
-  "shares": 14643780,
+  "end": "2021-03-17",
+  "shares": 10521506,
   "split_factor": 55.998,
   "splits_after": [
    [
@@ -37,12 +42,35 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001493152-21-006756",
+  "guided_until": "2024-06-15",
+  "guidance": "ations and our current cash position is sufficient to fund our current business plan at least until the second quarter of 2024. We",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
   "form4s": 3,
-  "bought": 4580,
-  "sold": 0,
-  "buyers": [
-   "Arrow Alexander K."
+  "from": "2021-01-27",
+  "to": "2021-05-27",
+  "trades": [
+   {
+    "date": "2021-04-29",
+    "filed": "2021-05-03",
+    "code": "P",
+    "value": 2290,
+    "who": "Arrow Alexander K."
+   },
+   {
+    "date": "2021-04-30",
+    "filed": "2021-05-03",
+    "code": "P",
+    "value": 2290,
+    "who": "Arrow Alexander K."
+   }
   ]
  },
  "drug": null,

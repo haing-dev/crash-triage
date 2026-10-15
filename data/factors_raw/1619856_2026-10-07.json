@@ -3,11 +3,12 @@
  "cik": "1619856",
  "name": "Caribou Biosciences, Inc.",
  "date": "2026-10-07",
- "asof": "2026-10-15",
+ "asof": "2026-10-07",
  "final": false,
+ "version": 2,
  "price": {
-  "date": "2026-10-14",
-  "adj_close": 0.46
+  "date": "2026-10-07",
+  "adj_close": 0.61699998
  },
  "balance": {
   "end": "2026-06-30",
@@ -21,8 +22,12 @@
  },
  "burn": {
   "end": "2026-06-30",
-  "months": 5.9,
-  "per_month": -8416829.111111112
+  "ytd_months": 5.9,
+  "ytd": -49771000,
+  "accn": "0001619856-26-000055",
+  "ttm_per_month": -7981666.666666667,
+  "quarter_per_month": -7595666.666666667,
+  "per_month": -7981666.666666667
  },
  "shares": {
   "end": "2026-08-07",
@@ -30,11 +35,21 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001619856-26-000055",
+  "guided_until": null,
+  "guidance": "sufficient to fund our current operating plan for at least the next 12 months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": 75200000.0,
+  "atm_quote": "8 &#8212; &#8212; 468 Issuances of common stock on exercise of options 6,200 &#8212; 9 &#8212; &#8212; 9 Issuances of common stock in connection with ATM offering, net of offering expenses 1,078,768 1 2,219 &#8212; &#8212; 2,220 Issuances of common stock upon vesting of RSUs 374,165 &#8212; &#8212; &#8212; &#8212; &#8212; Stock-based compensation expense &#8212; &#8212; 2,357 &#8212; &#8212; 2,357"
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2026-07-09",
+  "to": "2026-10-15",
+  "trades": []
  },
  "drug": "vispa-cel (CB-010); CB-011",
  "trials": {

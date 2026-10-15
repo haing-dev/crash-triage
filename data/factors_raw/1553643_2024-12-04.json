@@ -3,11 +3,12 @@
  "cik": "1553643",
  "name": "RELMADA THERAPEUTICS, INC.",
  "date": "2024-12-04",
- "asof": "2025-01-03",
+ "asof": "2024-12-05",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-01-03",
-  "adj_close": 0.47
+  "date": "2024-12-05",
+  "adj_close": 0.44999999
  },
  "balance": {
   "end": "2024-09-30",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2024-09-30",
-  "months": 9.0,
-  "per_month": -4789690.960293041
+  "ytd_months": 9.0,
+  "ytd": -42956164,
+  "accn": "0001213900-24-095398",
+  "ttm_per_month": -4433823.166666667,
+  "quarter_per_month": -5552130.333333333,
+  "per_month": -4433823.166666667
  },
  "shares": {
   "end": "2024-11-04",
@@ -29,11 +34,78 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001213900-24-095398",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "activities after taking into account the resources we have available, market dynamics and potential for adding value. Market Opportunity We believe that the market for addressing areas of high unmet medical need in the treatment of CNS diseases will continue to be large for the foreseeable future and that it will represent a sizable revenue opportunity for us. For example, the World Health Organiz"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 5,
+  "from": "2024-09-05",
+  "to": "2025-01-03",
+  "trades": [
+   {
+    "date": "2024-09-09",
+    "filed": "2024-09-11",
+    "code": "P",
+    "value": 150619,
+    "who": "TRAVERSA SERGIO"
+   },
+   {
+    "date": "2024-09-10",
+    "filed": "2024-09-11",
+    "code": "P",
+    "value": 90788,
+    "who": "TRAVERSA SERGIO"
+   },
+   {
+    "date": "2024-09-11",
+    "filed": "2024-09-11",
+    "code": "P",
+    "value": 153707,
+    "who": "TRAVERSA SERGIO"
+   },
+   {
+    "date": "2024-09-09",
+    "filed": "2024-09-11",
+    "code": "P",
+    "value": 33280,
+    "who": "CASAMENTO CHARLES J"
+   },
+   {
+    "date": "2024-09-09",
+    "filed": "2024-09-11",
+    "code": "P",
+    "value": 20895,
+    "who": "Shenouda Maged"
+   },
+   {
+    "date": "2024-09-10",
+    "filed": "2024-09-11",
+    "code": "P",
+    "value": 57652,
+    "who": "Shenouda Maged"
+   },
+   {
+    "date": "2024-09-11",
+    "filed": "2024-09-11",
+    "code": "P",
+    "value": 71154,
+    "who": "Shenouda Maged"
+   },
+   {
+    "date": "2024-09-09",
+    "filed": "2024-09-11",
+    "code": "P",
+    "value": 64750,
+    "who": "Kelly Paul Edward"
+   }
+  ]
  },
  "drug": null,
  "trials": {

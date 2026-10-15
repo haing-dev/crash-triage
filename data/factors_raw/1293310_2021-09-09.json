@@ -3,11 +3,12 @@
  "cik": "1293310",
  "name": "HUMANIGEN, INC",
  "date": "2021-09-09",
- "asof": "2021-10-09",
+ "asof": "2021-09-09",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2021-10-11",
-  "adj_close": 6.25
+  "date": "2021-09-09",
+  "adj_close": 7.97
  },
  "balance": {
   "end": "2021-06-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2021-06-30",
-  "months": 5.9,
-  "per_month": -17551027.555555556
+  "ytd_months": 5.9,
+  "ytd": -103784000,
+  "accn": "0001214659-21-008442",
+  "ttm_per_month": -12585250.0,
+  "quarter_per_month": -22653333.333333332,
+  "per_month": -12585250.0
  },
  "shares": {
   "end": "2021-08-05",
@@ -28,11 +33,442 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001214659-21-008442",
+  "guided_until": null,
+  "guidance": "sufficient to fund its planned operational requirements for at least the next 12 months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "priate, to reflect the reverse stock split. Controlled Equity Offering On December 31, 2020, the Company entered into a Controlled Equity Offering SM Sales Agreement (the &#x201C;Sales Agreement&#x201D;) with Cantor Fitzgerald &amp; Co. (&#x201C;Cantor&#x201D;), under which the Company could issue and sell from time-to-time shares of the Company&#x2019;s common stock, having an aggregate gross sal"
+ },
  "insiders": {
-  "form4s": 4,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 13,
+  "from": "2021-06-11",
+  "to": "2021-10-09",
+  "trades": [
+   {
+    "date": "2021-08-11",
+    "filed": "2021-08-13",
+    "code": "S",
+    "value": 140419,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2021-08-12",
+    "filed": "2021-08-13",
+    "code": "S",
+    "value": 74062,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2021-08-11",
+    "filed": "2021-08-13",
+    "code": "S",
+    "value": 374422,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2021-08-12",
+    "filed": "2021-08-13",
+    "code": "S",
+    "value": 197509,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2021-08-11",
+    "filed": "2021-08-13",
+    "code": "S",
+    "value": 1357304,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2021-08-12",
+    "filed": "2021-08-13",
+    "code": "S",
+    "value": 715993,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2021-07-28",
+    "filed": "2021-07-30",
+    "code": "S",
+    "value": 12389,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2021-07-29",
+    "filed": "2021-07-30",
+    "code": "S",
+    "value": 37543,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2021-07-28",
+    "filed": "2021-07-30",
+    "code": "S",
+    "value": 33026,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2021-07-29",
+    "filed": "2021-07-30",
+    "code": "S",
+    "value": 100144,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2021-07-28",
+    "filed": "2021-07-30",
+    "code": "S",
+    "value": 119748,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2021-07-29",
+    "filed": "2021-07-30",
+    "code": "S",
+    "value": 363016,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2021-07-21",
+    "filed": "2021-07-23",
+    "code": "S",
+    "value": 170629,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2021-07-22",
+    "filed": "2021-07-23",
+    "code": "S",
+    "value": 227453,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2021-07-23",
+    "filed": "2021-07-23",
+    "code": "S",
+    "value": 7140,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2021-07-21",
+    "filed": "2021-07-23",
+    "code": "S",
+    "value": 455028,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2021-07-22",
+    "filed": "2021-07-23",
+    "code": "S",
+    "value": 606559,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2021-07-23",
+    "filed": "2021-07-23",
+    "code": "S",
+    "value": 19034,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2021-07-21",
+    "filed": "2021-07-23",
+    "code": "S",
+    "value": 1649466,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2021-07-22",
+    "filed": "2021-07-23",
+    "code": "S",
+    "value": 2198783,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2021-07-23",
+    "filed": "2021-07-23",
+    "code": "S",
+    "value": 68980,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2021-07-14",
+    "filed": "2021-07-16",
+    "code": "S",
+    "value": 19409,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2021-07-14",
+    "filed": "2021-07-16",
+    "code": "S",
+    "value": 51780,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2021-07-14",
+    "filed": "2021-07-16",
+    "code": "S",
+    "value": 187658,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2021-07-08",
+    "filed": "2021-07-09",
+    "code": "S",
+    "value": 61813,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2021-07-09",
+    "filed": "2021-07-09",
+    "code": "S",
+    "value": 385713,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2021-07-08",
+    "filed": "2021-07-09",
+    "code": "S",
+    "value": 164822,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2021-07-09",
+    "filed": "2021-07-09",
+    "code": "S",
+    "value": 1028550,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2021-07-08",
+    "filed": "2021-07-09",
+    "code": "S",
+    "value": 597476,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2021-07-09",
+    "filed": "2021-07-09",
+    "code": "S",
+    "value": 3728504,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2021-06-30",
+    "filed": "2021-07-02",
+    "code": "S",
+    "value": 284093,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2021-07-01",
+    "filed": "2021-07-02",
+    "code": "S",
+    "value": 180810,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2021-07-02",
+    "filed": "2021-07-02",
+    "code": "S",
+    "value": 132064,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2021-06-30",
+    "filed": "2021-07-02",
+    "code": "S",
+    "value": 757587,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2021-07-01",
+    "filed": "2021-07-02",
+    "code": "S",
+    "value": 482127,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2021-07-02",
+    "filed": "2021-07-02",
+    "code": "S",
+    "value": 352141,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2021-06-30",
+    "filed": "2021-07-02",
+    "code": "S",
+    "value": 2746274,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2021-07-01",
+    "filed": "2021-07-02",
+    "code": "S",
+    "value": 1747730,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2021-07-02",
+    "filed": "2021-07-02",
+    "code": "S",
+    "value": 1276553,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2021-06-23",
+    "filed": "2021-06-25",
+    "code": "S",
+    "value": 182574,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2021-06-24",
+    "filed": "2021-06-25",
+    "code": "S",
+    "value": 192293,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2021-06-25",
+    "filed": "2021-06-25",
+    "code": "S",
+    "value": 1335262,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2021-06-23",
+    "filed": "2021-06-25",
+    "code": "S",
+    "value": 486833,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2021-06-24",
+    "filed": "2021-06-25",
+    "code": "S",
+    "value": 512770,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2021-06-25",
+    "filed": "2021-06-25",
+    "code": "S",
+    "value": 3560700,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2021-06-23",
+    "filed": "2021-06-25",
+    "code": "S",
+    "value": 1764776,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2021-06-24",
+    "filed": "2021-06-25",
+    "code": "S",
+    "value": 1858768,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2021-06-25",
+    "filed": "2021-06-25",
+    "code": "S",
+    "value": 12907538,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2021-06-16",
+    "filed": "2021-06-21",
+    "code": "S",
+    "value": 248178,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2021-06-17",
+    "filed": "2021-06-21",
+    "code": "S",
+    "value": 260888,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2021-06-18",
+    "filed": "2021-06-21",
+    "code": "S",
+    "value": 558417,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2021-06-16",
+    "filed": "2021-06-21",
+    "code": "S",
+    "value": 667948,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2021-06-17",
+    "filed": "2021-06-21",
+    "code": "S",
+    "value": 695677,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2021-06-18",
+    "filed": "2021-06-21",
+    "code": "S",
+    "value": 1489112,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2021-06-16",
+    "filed": "2021-06-21",
+    "code": "S",
+    "value": 2160061,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2021-06-17",
+    "filed": "2021-06-21",
+    "code": "S",
+    "value": 2521876,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2021-06-18",
+    "filed": "2021-06-21",
+    "code": "S",
+    "value": 5398030,
+    "who": "Chappell Dale"
+   },
+   {
+    "date": "2021-06-14",
+    "filed": "2021-06-16",
+    "code": "S",
+    "value": 544685,
+    "who": "Durrant Cameron"
+   },
+   {
+    "date": "2021-06-14",
+    "filed": "2021-06-16",
+    "code": "S",
+    "value": 107687,
+    "who": "Durrant Cameron"
+   },
+   {
+    "date": "2021-06-14",
+    "filed": "2021-06-16",
+    "code": "S",
+    "value": 1028563,
+    "who": "Durrant Cameron"
+   }
+  ]
  },
  "drug": null,
  "trials": {

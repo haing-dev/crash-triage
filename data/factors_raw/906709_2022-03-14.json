@@ -3,11 +3,12 @@
  "cik": "906709",
  "name": "NEKTAR THERAPEUTICS",
  "date": "2022-03-14",
- "asof": "2022-04-13",
+ "asof": "2022-03-14",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-04-13",
-  "adj_close": 92.55
+  "date": "2022-03-14",
+  "adj_close": 62.4
  },
  "balance": {
   "end": "2021-12-31",
@@ -21,8 +22,12 @@
  },
  "burn": {
   "end": "2021-12-31",
-  "months": 12.0,
-  "per_month": -34509259.34065934
+  "ytd_months": 12.0,
+  "ytd": -412660000,
+  "accn": "0000906709-22-000005",
+  "ttm_per_month": -34388333.333333336,
+  "quarter_per_month": -50512666.666666664,
+  "per_month": -34388333.333333336
  },
  "shares": {
   "end": "2022-02-23",
@@ -35,11 +40,64 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0000906709-22-000005",
+  "guided_until": null,
+  "guidance": "sufficient to meet our liquidity requirements through at least the next 12 months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "&#174; for the year ended December 31, 2021 was consistent with the year ended December 31, 2020. Non-cash interest expense for the 2012 Purchase and Sales Agreement decreased for the year ended December 31, 2021 compared to the year ended December 31, 2020 due to the lower interest rate used in the three months ended December 31, 2021 as a result of the revaluation of the liability. As discussed "
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 12,
+  "from": "2021-12-14",
+  "to": "2022-04-13",
+  "trades": [
+   {
+    "date": "2022-02-16",
+    "filed": "2022-02-18",
+    "code": "S",
+    "value": 119486,
+    "who": "Zalevsky Jonathan"
+   },
+   {
+    "date": "2022-02-16",
+    "filed": "2022-02-18",
+    "code": "S",
+    "value": 40088,
+    "who": "Wilson Mark Andrew"
+   },
+   {
+    "date": "2022-02-16",
+    "filed": "2022-02-18",
+    "code": "S",
+    "value": 25875,
+    "who": "Thomsen Jillian B."
+   },
+   {
+    "date": "2022-02-16",
+    "filed": "2022-02-18",
+    "code": "S",
+    "value": 136656,
+    "who": "ROBIN HOWARD W"
+   },
+   {
+    "date": "2022-02-16",
+    "filed": "2022-02-18",
+    "code": "S",
+    "value": 53129,
+    "who": "NORTHCOTT JOHN"
+   },
+   {
+    "date": "2022-02-16",
+    "filed": "2022-02-18",
+    "code": "S",
+    "value": 82990,
+    "who": "Labrucherie Gil M"
+   }
+  ]
  },
  "drug": null,
  "trials": {

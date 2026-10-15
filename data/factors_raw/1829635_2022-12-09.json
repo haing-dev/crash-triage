@@ -3,11 +3,12 @@
  "cik": "1829635",
  "name": "Transcode Therapeutics, Inc.",
  "date": "2022-12-09",
- "asof": "2023-01-08",
+ "asof": "2022-12-14",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-01-09",
-  "adj_close": 458304.0
+  "date": "2022-12-14",
+  "adj_close": 337814.40625
  },
  "balance": {
   "end": "2022-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2022-09-30",
-  "months": 8.9,
-  "per_month": -1314156.1276470588
+  "ytd_months": 8.9,
+  "ytd": -11742788,
+  "accn": "0001104659-22-118641",
+  "ttm_per_month": -1111961.75,
+  "quarter_per_month": -1474009.3333333333,
+  "per_month": -1111961.75
  },
  "shares": {
   "end": "2022-11-04",
@@ -53,11 +58,29 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001104659-22-118641",
+  "guided_until": "2023-03-15",
+  "guidance": "e Company's SBIR Award (see Note 7) are sufficient to fund operations and capital requirements through the first quarter of 2023, but",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "vised accounting pronouncements as of effective dates applicable to public companies. We are also a &#8220;smaller reporting company&#8221; meaning that the market value of our stock held by non-affiliates plus the proposed aggregate amount of gross proceeds to us as a result of our initial public offering is less than $700 million and our annual revenue was less than $100 million during the most "
+ },
  "insiders": {
-  "form4s": 4,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 5,
+  "from": "2022-09-10",
+  "to": "2023-01-08",
+  "trades": [
+   {
+    "date": "2022-09-14",
+    "filed": "2022-09-16",
+    "code": "P",
+    "value": 23000,
+    "who": "Dudley Robert Michael"
+   }
+  ]
  },
  "drug": null,
  "trials": {

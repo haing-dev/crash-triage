@@ -3,11 +3,12 @@
  "cik": "1476963",
  "name": "Scorpius Holdings, Inc.",
  "date": "2024-07-17",
- "asof": "2024-08-16",
+ "asof": "2024-07-22",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-08-16",
-  "adj_close": 1.09
+  "date": "2024-07-22",
+  "adj_close": 2.75
  },
  "balance": {
   "end": "2024-03-31",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2024-03-31",
-  "months": 3.0,
-  "per_month": -1584191.6257777778
+  "ytd_months": 3.0,
+  "ytd": -4683878,
+  "accn": "0001558370-24-008693",
+  "ttm_per_month": -1868470.1666666667,
+  "quarter_per_month": -1561292.6666666667,
+  "per_month": -1868470.1666666667
  },
  "shares": {
   "end": "2024-05-26",
@@ -34,11 +39,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001558370-24-008693",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "ation &#8203; &#8203; &#8212; &#8203; &#8203; 283,877 &#8203; &#8203; &#8212; &#8203; &#8203; &#8212; &#8203; &#8203; &#8212; &#8203; &#8203; 283,877 At-the-market sale &#8203; 4 &#8203; &#8203; 8,049 &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; 8,053 Issuance of common stock from public offering &#8203; 2,000 &#8203; &#8203; 1,233,000 &#8203; &#8203; &#8203; &#8"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 1,
+  "from": "2024-04-18",
+  "to": "2024-08-16",
+  "trades": []
  },
  "drug": null,
  "trials": {

@@ -3,11 +3,12 @@
  "cik": "1894525",
  "name": "Apimeds Pharmaceuticals US, Inc.",
  "date": "2026-03-26",
- "asof": "2026-04-25",
+ "asof": "2026-03-26",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-04-27",
-  "adj_close": 1.88
+  "date": "2026-03-26",
+  "adj_close": 1.63
  },
  "balance": {
   "end": "2025-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2025-09-30",
-  "months": 8.9,
-  "per_month": -571597.731617647
+  "ytd_months": 8.9,
+  "ytd": -5107575,
+  "accn": "0001213900-25-109280",
+  "ttm_per_month": -433932.5833333333,
+  "quarter_per_month": -575388.6666666666,
+  "per_month": -433932.5833333333
  },
  "shares": {
   "end": "2025-11-12",
@@ -33,13 +38,23 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001213900-25-109280",
+  "guided_until": null,
+  "guidance": "sufficient to fund the Company's current operating plan through at least the next twelve months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2025-12-26",
+  "to": "2026-04-25",
+  "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "apimeds pharmaceuticals us",
   "other_trials": 0,

@@ -3,11 +3,12 @@
  "cik": "1583648",
  "name": "PALVELLA THERAPEUTICS, INC.",
  "date": "2023-06-21",
- "asof": "2023-07-21",
+ "asof": "2023-06-21",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-07-21",
-  "adj_close": 18.32
+  "date": "2023-06-21",
+  "adj_close": 20.88
  },
  "balance": {
   "end": "2023-03-31",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2023-03-31",
-  "months": 2.9,
-  "per_month": -3760879.1011235956
+  "ytd_months": 2.9,
+  "ytd": -10996000,
+  "accn": "0001437749-23-013687",
+  "ttm_per_month": -4023750.0,
+  "quarter_per_month": -3665333.3333333335,
+  "per_month": -4023750.0
  },
  "shares": {
   "end": "2023-05-08",
@@ -38,11 +43,29 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001437749-23-013687",
+  "guided_until": null,
+  "guidance": "sufficient to fund the Company&#x2019;s remaining limited operations through at least the next 12 months",
+  "twelve_months": true,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "on stock resulting from exercise of stock options &#x2014; &#x2014; 43 &#x2014; &#x2014; 85 &#x2014; &#x2014; 85 Issuance of common stock pursuant to ATM offering program, net of $ 0.3 million in offering costs &#x2014; &#x2014; 1,833 2 &#x2014; 6,407 &#x2014; &#x2014; 6,409 Balance at March 31, 2022 16 $ &#x2014; 74,098 $ 74 $ &#x2014; $ 314,668 $ 953 $ ( 262,245 ) $ 53,450 Balance as of December"
+ },
  "insiders": {
-  "form4s": 7,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 8,
+  "from": "2023-03-23",
+  "to": "2023-07-21",
+  "trades": [
+   {
+    "date": "2023-05-25",
+    "filed": "2023-05-30",
+    "code": "P",
+    "value": 8500,
+    "who": "KIRITSY CHRISTOPHER P"
+   }
+  ]
  },
  "drug": null,
  "trials": {

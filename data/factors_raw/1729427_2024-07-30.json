@@ -3,30 +3,39 @@
  "cik": "1729427",
  "name": "CNS Pharmaceuticals, Inc.",
  "date": "2024-07-30",
- "asof": "2024-08-29",
+ "asof": "2024-08-01",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-08-29",
-  "adj_close": 88.2
+  "date": "2024-08-01",
+  "adj_close": 174.60001
  },
  "balance": {
-  "end": "2024-06-30",
-  "cash": 1491559,
+  "end": "2024-03-31",
+  "cash": 815226,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001683168-24-005711"
+  "accn": "0001683168-24-003531"
  },
  "burn": {
-  "end": "2024-06-30",
-  "months": 5.9,
-  "per_month": -814387.7237569061
+  "end": "2024-03-31",
+  "ytd_months": 3.0,
+  "ytd": -3192057,
+  "accn": "0001683168-24-003531",
+  "ttm_per_month": -1042291.3333333334,
+  "quarter_per_month": -1064019.0,
+  "per_month": -1042291.3333333334
  },
  "shares": {
-  "end": "2024-08-14",
-  "shares": 32146403,
-  "split_factor": 18095529.104,
+  "end": "2024-05-15",
+  "shares": 11851932,
+  "split_factor": 904770827.111,
   "splits_after": [
+   [
+    "2024-08-14",
+    50.0
+   ],
    [
     "2025-03-31",
     2499.92
@@ -41,11 +50,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001683168-24-003531",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "thin 24 months from issuance the Company achieves &#8220;Positive Interim, Clinical Data&#8221; as defined by the Board of Directors. To the extent that the market and/or &#8220;Positive Interim Clinical Data&#8221; conditions are not met, the applicable portions of the PUs will not vest and will be cancelled. The fair value at grant date of these performance units was $ 169,663 . Compensation exp"
+ },
  "insiders": {
   "form4s": 1,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2024-05-01",
+  "to": "2024-08-29",
+  "trades": []
  },
  "drug": null,
  "trials": {

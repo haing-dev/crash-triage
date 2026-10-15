@@ -3,36 +3,87 @@
  "cik": "1267813",
  "name": "MARINUS PHARMACEUTICALS, INC.",
  "date": "2024-10-24",
- "asof": "2024-11-23",
+ "asof": "2024-10-24",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-11-25",
-  "adj_close": 0.3238
+  "date": "2024-10-24",
+  "adj_close": 0.296
  },
  "balance": {
-  "end": "2024-09-30",
-  "cash": 42184000,
+  "end": "2024-06-30",
+  "cash": 64676000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001558370-24-015315"
+  "accn": "0001558370-24-011982"
  },
  "burn": {
-  "end": "2024-09-30",
-  "months": 9.0,
-  "per_month": -9784843.223443225
+  "end": "2024-06-30",
+  "ytd_months": 5.9,
+  "ytd": -68302000,
+  "accn": "0001558370-24-011982",
+  "ttm_per_month": -10038916.666666666,
+  "quarter_per_month": -10280333.333333334,
+  "per_month": -10038916.666666666
  },
  "shares": {
-  "end": "2024-11-05",
-  "shares": 55185622,
+  "end": "2024-08-07",
+  "shares": 55084038,
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001558370-24-011982",
+  "guided_until": "2025-04-15",
+  "guidance": "in the second quarter of 2024, will be sufficient to fund our operating expenses and capital expenditure requirements into the second quarter of 2025; &#9",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "y Distribution Agreement (EDA) with JMP Securities LLC (JMP), as amended by the March 31, 2023 Amendment No. 1 to the EDA (Amended EDA), to create an at the market equity program under which we from time to time may offer and sell shares of our common stock without a maximum aggregate offering price. The Amended EDA was entered into in connection with our filing of a Registration Statement on Form"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 6,
+  "from": "2024-07-26",
+  "to": "2024-11-23",
+  "trades": [
+   {
+    "date": "2024-08-05",
+    "filed": "2024-08-07",
+    "code": "S",
+    "value": 5262,
+    "who": "Pfanstiel Steven"
+   },
+   {
+    "date": "2024-08-05",
+    "filed": "2024-08-07",
+    "code": "S",
+    "value": 4355,
+    "who": "Shafer Christina"
+   },
+   {
+    "date": "2024-08-05",
+    "filed": "2024-08-07",
+    "code": "S",
+    "value": 4092,
+    "who": "MANNING MARTHA E"
+   },
+   {
+    "date": "2024-08-05",
+    "filed": "2024-08-07",
+    "code": "S",
+    "value": 5456,
+    "who": "Hulihan Joseph"
+   },
+   {
+    "date": "2024-08-05",
+    "filed": "2024-08-07",
+    "code": "S",
+    "value": 13724,
+    "who": "Braunstein Scott"
+   }
+  ]
  },
  "drug": null,
  "trials": {

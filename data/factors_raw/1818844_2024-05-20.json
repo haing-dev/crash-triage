@@ -3,11 +3,12 @@
  "cik": "1818844",
  "name": "Dogwood Therapeutics, Inc.",
  "date": "2024-05-20",
- "asof": "2024-06-19",
+ "asof": "2024-05-21",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-06-20",
-  "adj_close": 6.5
+  "date": "2024-05-21",
+  "adj_close": 4.6
  },
  "balance": {
   "end": "2024-03-31",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2024-03-31",
-  "months": 3.0,
-  "per_month": -317054.2462222222
+  "ytd_months": 3.0,
+  "ytd": -937414,
+  "accn": "0001558370-24-007713",
+  "ttm_per_month": -342454.4166666667,
+  "quarter_per_month": -312471.3333333333,
+  "per_month": -342454.4166666667
  },
  "shares": {
   "end": "2024-05-08",
@@ -33,11 +38,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001558370-24-007713",
+  "guided_until": null,
+  "guidance": "sufficient to fund operating expenses and capital requirements for at least the next 12 months",
+  "twelve_months": true,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "ance of two classes of stock: 43,000,000 shares of common stock and 2,000,000 shares of preferred stock, each with a par value of $ 0.0001 per share. At-the-market Offering On July 14, 2023, the Company entered into a Capital on Demand TM Sales Agreement (the &#8220;Sales Agreement&#8221;) with JonesTrading Institutional Services LLC (&#8220;JonesTrading&#8221;) relating to shares of common stock,"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 10,
+  "from": "2024-02-20",
+  "to": "2024-06-19",
+  "trades": []
  },
  "drug": null,
  "trials": {

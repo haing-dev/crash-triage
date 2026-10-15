@@ -3,28 +3,33 @@
  "cik": "1755237",
  "name": "Korsana Biosciences, Inc.",
  "date": "2022-10-06",
- "asof": "2022-11-05",
+ "asof": "2022-10-11",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-11-07",
-  "adj_close": 62.72
+  "date": "2022-10-11",
+  "adj_close": 52.22
  },
  "balance": {
-  "end": "2022-09-30",
-  "cash": 20405000,
+  "end": "2022-06-30",
+  "cash": 30323000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0000950170-22-021966"
+  "accn": "0000950170-22-016032"
  },
  "burn": {
-  "end": "2022-09-30",
-  "months": 8.9,
-  "per_month": -3756654.117647059
+  "end": "2022-06-30",
+  "ytd_months": 5.9,
+  "ytd": -23653000,
+  "accn": "0000950170-22-016032",
+  "ttm_per_month": -3350500.0,
+  "quarter_per_month": -3606000.0,
+  "per_month": -3350500.0
  },
  "shares": {
-  "end": "2022-11-01",
-  "shares": 43494184,
+  "end": "2022-08-05",
+  "shares": 43479835,
   "split_factor": 0.4,
   "splits_after": [
    [
@@ -37,11 +42,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0000950170-22-016032",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "The Company did not utilize the services of a placement agent or broker and accordingly incurred no material related transaction fees or commissions. At-the-Market Offering On July 24, 2020, the Company filed a Registration Statement on Form S-3 (the &#x201c;Shelf&#x201d;) with the Securities and Exchange Commission (the &#x201c;SEC&#x201d;) in relation to the registration of common stock, preferr"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 1,
+  "from": "2022-07-08",
+  "to": "2022-11-05",
+  "trades": []
  },
  "drug": null,
  "trials": {

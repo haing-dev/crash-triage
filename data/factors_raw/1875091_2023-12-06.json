@@ -3,11 +3,12 @@
  "cik": "1875091",
  "name": "NeuroSense Therapeutics Ltd.",
  "date": "2023-12-06",
- "asof": "2024-01-05",
+ "asof": "2023-12-11",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-01-05",
-  "adj_close": 0.80000001
+  "date": "2023-12-11",
+  "adj_close": 0.69999999
  },
  "balance": {
   "end": "2023-06-30",
@@ -24,11 +25,21 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001213900-23-068186",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2023-09-07",
+  "to": "2024-01-05",
+  "trades": []
  },
  "drug": null,
  "trials": {

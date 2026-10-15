@@ -3,39 +3,93 @@
  "cik": "1496671",
  "name": "Calithera Biosciences, Inc.",
  "date": "2021-11-05",
- "asof": "2021-12-05",
+ "asof": "2021-11-05",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2021-12-06",
-  "adj_close": 14.64
+  "date": "2021-11-05",
+  "adj_close": 17.256
  },
  "balance": {
-  "end": "2021-09-30",
-  "cash": 84493000,
+  "end": "2021-06-30",
+  "cash": 92205000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0000950170-21-003783"
+  "accn": "0000950170-21-000955"
  },
  "burn": {
-  "end": "2021-09-30",
-  "months": 8.9,
-  "per_month": -4557942.352941176
+  "end": "2021-06-30",
+  "ytd_months": 5.9,
+  "ytd": -33123000,
+  "accn": "0000950170-21-000955",
+  "ttm_per_month": -6035416.666666667,
+  "quarter_per_month": -3707000.0,
+  "per_month": -6035416.666666667
  },
  "shares": {
-  "end": "2021-11-04",
-  "shares": 74926064,
+  "end": "2021-08-03",
+  "shares": 74114399,
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0000950170-21-000955",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "tal Stockholders' Equity Balance at March 31, 2021 73,884 $ 7 $ 490,784 $ ( 396,633 ) $ &#x2014; $ 94,158 Issuance of common stock in connection with at-the-market offering, net of underwriting commissions and issuance costs 164 &#x2014; 400 &#x2014; &#x2014; 400 Exercise of stock options 5 &#x2014; 4 &#x2014; &#x2014; 4 Issuance of common stock per employee stock plan purchases 60 &#x2014; 118 &#"
+ },
  "insiders": {
-  "form4s": 11,
-  "bought": 341240,
-  "sold": 111623,
-  "buyers": [
-   "DRACHMAN JONATHAN G",
-   "Molineaux Christopher",
-   "Molineaux Susan"
+  "form4s": 17,
+  "from": "2021-08-07",
+  "to": "2021-12-05",
+  "trades": [
+   {
+    "date": "2021-11-10",
+    "filed": "2021-11-12",
+    "code": "S",
+    "value": 25695,
+    "who": "Orford Keith"
+   },
+   {
+    "date": "2021-11-11",
+    "filed": "2021-11-12",
+    "code": "S",
+    "value": 42407,
+    "who": "Orford Keith"
+   },
+   {
+    "date": "2021-11-10",
+    "filed": "2021-11-10",
+    "code": "P",
+    "value": 84670,
+    "who": "Molineaux Susan"
+   },
+   {
+    "date": "2021-11-10",
+    "filed": "2021-11-10",
+    "code": "P",
+    "value": 171900,
+    "who": "DRACHMAN JONATHAN G"
+   },
+   {
+    "date": "2021-11-10",
+    "filed": "2021-11-10",
+    "code": "P",
+    "value": 84670,
+    "who": "Molineaux Christopher"
+   },
+   {
+    "date": "2021-11-09",
+    "filed": "2021-11-09",
+    "code": "S",
+    "value": 43520,
+    "who": "Orford Keith"
+   }
   ]
  },
  "drug": null,

@@ -3,11 +3,12 @@
  "cik": "1382574",
  "name": "Scienture Holdings, Inc.",
  "date": "2026-03-30",
- "asof": "2026-04-29",
+ "asof": "2026-03-30",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-04-29",
-  "adj_close": 9.3
+  "date": "2026-03-30",
+  "adj_close": 6.025
  },
  "balance": {
   "end": "2025-12-31",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2025-12-31",
-  "months": 12.0,
-  "per_month": -1118894.3695604396
+  "ytd_months": 12.0,
+  "ytd": -13379683,
+  "accn": "0001493152-26-013475",
+  "ttm_per_month": -1114973.5833333333,
+  "quarter_per_month": -1725098.0,
+  "per_month": -1114973.5833333333
  },
  "shares": {
   "end": "2026-03-27",
@@ -28,11 +33,21 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001493152-26-013475",
+  "guided_until": null,
+  "guidance": "sufficient to meet our funding requirements during the next 12 months",
+  "twelve_months": true,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "the Company with the Securities and Exchange Commission (the &#8220; Commission &#8221;) on August 1, 2025, and declared effective on August 8, 2025. ATM Program On September 19, 2025, the Company entered into an Equity Distribution Agreement (the &#8220;ATM Agreement&#8221;) with Maxim Group LLC (&#8220;Maxim&#8221;), acting as the sole sales agent for the offer and sale of the Company's common s"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 2,
+  "from": "2025-12-30",
+  "to": "2026-04-29",
+  "trades": []
  },
  "drug": null,
  "trials": {

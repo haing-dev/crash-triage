@@ -3,11 +3,12 @@
  "cik": "1824293",
  "name": "GRI Bio, Inc.",
  "date": "2022-05-13",
- "asof": "2022-06-12",
+ "asof": "2022-05-16",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-06-13",
-  "adj_close": 592562.875
+  "date": "2022-05-16",
+  "adj_close": 721211.375
  },
  "balance": {
   "end": "2022-03-31",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2022-03-31",
-  "months": 2.9,
-  "per_month": -783231.4606741574
+  "ytd_months": 2.9,
+  "ytd": -2290000,
+  "accn": "0001824293-22-000034",
+  "ttm_per_month": -637833.3333333334,
+  "quarter_per_month": -763333.3333333334,
+  "per_month": -637833.3333333334
  },
  "shares": {
   "end": "2022-05-06",
@@ -74,11 +79,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001824293-22-000034",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 3,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 6,
+  "from": "2022-02-12",
+  "to": "2022-06-12",
+  "trades": []
  },
  "drug": null,
  "trials": {

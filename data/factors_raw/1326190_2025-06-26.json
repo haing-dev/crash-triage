@@ -3,11 +3,12 @@
  "cik": "1326190",
  "name": "Altimmune, Inc.",
  "date": "2025-06-26",
- "asof": "2025-07-26",
+ "asof": "2025-06-27",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-07-28",
-  "adj_close": 4.03
+  "date": "2025-06-27",
+  "adj_close": 3.5
  },
  "balance": {
   "end": "2025-03-31",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2025-03-31",
-  "months": 2.9,
-  "per_month": -5759658.426966292
+  "ytd_months": 2.9,
+  "ytd": -16840000,
+  "accn": "0001326190-25-000034",
+  "ttm_per_month": -6694250.0,
+  "quarter_per_month": -5613333.333333333,
+  "per_month": -6694250.0
  },
  "shares": {
   "end": "2025-05-09",
@@ -29,11 +34,21 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001326190-25-000034",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "on stock from Employee Stock Purchase Plan 32,872 &#8203; &#8212; &#8203; 170 &#8203; &#8212; &#8203; &#8212; &#8203; 170 Issuance of common stock in at-the-market offerings, net 5,273,368 &#8203; 1 &#8203; 34,747 &#8203; &#8203; &#8212; &#8203; &#8203; &#8212; &#8203; 34,748 Unrealized (loss) gain on short-term investments &#8212; &#8203; &#8212; &#8203; &#8212; &#8203; &#8212; &#8203; ( 30 ) &#8"
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2025-03-28",
+  "to": "2025-07-26",
+  "trades": []
  },
  "drug": null,
  "trials": {

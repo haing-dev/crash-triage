@@ -3,11 +3,12 @@
  "cik": "1430306",
  "name": "Tonix Pharmaceuticals Holding Corp.",
  "date": "2022-05-16",
- "asof": "2022-06-15",
+ "asof": "2022-05-18",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-06-15",
-  "adj_close": 35600.0
+  "date": "2022-05-18",
+  "adj_close": 38400.0
  },
  "balance": {
   "end": "2022-03-31",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2022-03-31",
-  "months": 2.9,
-  "per_month": -10618429.662921349
+  "ytd_months": 2.9,
+  "ytd": -31046000,
+  "accn": "0001387131-22-005860",
+  "ttm_per_month": -7128750.0,
+  "quarter_per_month": -10348666.666666666,
+  "per_month": -7128750.0
  },
  "shares": {
   "end": "2022-05-09",
@@ -57,11 +62,29 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001387131-22-005860",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "February 2021 ($ 1.20 per share), net of transactional expenses of $ 5,002 58,333,334 58 64,939 &#8212; &#8212; 64,997 Issuance of common stock under at-the-market offering, net of transactional expenses of $ 230 9,517,867 10 6,769 &#8212; &#8212; 6,779 Employee stock purchase plan 54,447 &#8212; 28 &#8212; &#8212; 28 Stock-based compensation &#8212; &#8212; 1,212 &#8212; &#8212; 1,212 Foreign cur"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 11,
+  "from": "2022-02-15",
+  "to": "2022-06-15",
+  "trades": [
+   {
+    "date": "2022-03-25",
+    "filed": "2022-03-28",
+    "code": "P",
+    "value": 24500,
+    "who": "LEDERMAN SETH"
+   }
+  ]
  },
  "drug": null,
  "trials": {

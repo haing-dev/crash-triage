@@ -3,11 +3,12 @@
  "cik": "1640455",
  "name": "Jounce Therapeutics, Inc.",
  "date": "2022-11-10",
- "asof": "2022-12-10",
+ "asof": "2022-11-16",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-12-12",
-  "adj_close": 0.64
+  "date": "2022-11-16",
+  "adj_close": 0.9832
  },
  "balance": {
   "end": "2022-09-30",
@@ -21,8 +22,12 @@
  },
  "burn": {
   "end": "2022-09-30",
-  "months": 8.9,
-  "per_month": -9860657.5
+  "ytd_months": 8.9,
+  "ytd": -88111000,
+  "accn": "0001640455-22-000103",
+  "ttm_per_month": -9692666.666666666,
+  "quarter_per_month": -10513333.333333334,
+  "per_month": -9692666.666666666
  },
  "shares": {
   "end": "2022-11-07",
@@ -30,11 +35,21 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001640455-22-000103",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "Stockholders' Equity Shares Amount Balance at December 31, 2020 41,729 $ 42 $ 362,270 $ ( 17 ) $ ( 151,001 ) $ 211,294 Issuance of common stock from at the market offering, net of issuance cost 3,156 3 30,218 &#8212; &#8212; 30,221 Issuance of common stock from follow-on public offering, net of issuance costs 5,750 6 60,632 &#8212; &#8212; 60,638 Exercise of common stock options 342 &#8212; 1,019 "
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2022-08-12",
+  "to": "2022-12-10",
+  "trades": []
  },
  "drug": null,
  "trials": {

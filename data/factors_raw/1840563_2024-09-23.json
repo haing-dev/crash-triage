@@ -3,11 +3,12 @@
  "cik": "1840563",
  "name": "PMGC Holdings Inc.",
  "date": "2024-09-23",
- "asof": "2024-10-23",
+ "asof": "2024-09-24",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-10-23",
-  "adj_close": 119073.6875
+  "date": "2024-09-24",
+  "adj_close": 121431.57812
  },
  "balance": {
   "end": "2024-06-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2024-06-30",
-  "months": 5.9,
-  "per_month": -522148.08331491717
+  "ytd_months": 5.9,
+  "ytd": -3104757,
+  "accn": "0001213900-24-068592",
+  "ttm_per_month": -500608.8333333333,
+  "quarter_per_month": -260229.66666666666,
+  "per_month": -500608.8333333333
  },
  "shares": {
   "end": "2024-08-14",
@@ -41,11 +46,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001213900-24-068592",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2024-06-25",
+  "to": "2024-10-23",
+  "trades": []
  },
  "drug": null,
  "trials": {

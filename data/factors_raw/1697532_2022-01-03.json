@@ -3,11 +3,12 @@
  "cik": "1697532",
  "name": "Applied Therapeutics, Inc.",
  "date": "2022-01-03",
- "asof": "2022-02-02",
+ "asof": "2022-01-06",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-02-02",
-  "adj_close": 2.95
+  "date": "2022-01-06",
+  "adj_close": 4.33
  },
  "balance": {
   "end": "2021-09-30",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2021-09-30",
-  "months": 8.9,
-  "per_month": -7138403.823529412
+  "ytd_months": 8.9,
+  "ytd": -63786000,
+  "accn": "0001558370-21-015654",
+  "ttm_per_month": -7211333.333333333,
+  "quarter_per_month": -5221666.666666667,
+  "per_month": -7211333.333333333
  },
  "shares": {
   "end": "2021-11-10",
@@ -29,11 +34,21 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001558370-21-015654",
+  "guided_until": null,
+  "guidance": "sufficient to fund our projected operations through at least the next 12 months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "to $ 100.0 million. The issuance and sale of shares of common stock by the Company pursuant to the Equity Distribution Agreement is deemed an &#8220;at-the-market&#8221; offering under the Securities Act of 1933, as amended, or the Securities Act. Goldman is entitled to compensation for its services equal to up to 3.0 % of the gross offering proceeds of all shares of the Company's common stock sol"
+ },
  "insiders": {
-  "form4s": 5,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 9,
+  "from": "2021-10-05",
+  "to": "2022-02-02",
+  "trades": []
  },
  "drug": null,
  "trials": {

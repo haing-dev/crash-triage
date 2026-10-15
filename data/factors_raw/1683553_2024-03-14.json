@@ -3,29 +3,34 @@
  "cik": "1683553",
  "name": "SPRUCE BIOSCIENCES, INC.",
  "date": "2024-03-14",
- "asof": "2024-04-13",
+ "asof": "2024-03-14",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-04-15",
-  "adj_close": 52.9275
+  "date": "2024-03-14",
+  "adj_close": 60.795
  },
  "balance": {
-  "end": "2023-12-31",
-  "cash": 96339000,
+  "end": "2023-09-30",
+  "cash": 108032000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue",
    "ShortTermInvestments"
   ],
-  "accn": "0000950170-24-032819"
+  "accn": "0000950170-23-062997"
  },
  "burn": {
-  "end": "2023-12-31",
-  "months": 12.0,
-  "per_month": -2782667.5824175826
+  "end": "2023-09-30",
+  "ytd_months": 8.9,
+  "ytd": -22066000,
+  "accn": "0000950170-23-062997",
+  "ttm_per_month": -2817000.0,
+  "quarter_per_month": -4089666.6666666665,
+  "per_month": -2817000.0
  },
  "shares": {
-  "end": "2024-03-14",
-  "shares": 41149160,
+  "end": "2023-11-09",
+  "shares": 40710692,
   "split_factor": 75.007,
   "splits_after": [
    [
@@ -34,11 +39,57 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0000950170-23-062997",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "pany were approximately $ 53.6 million , which does not include any proceeds that may be received upon exercise of the Standard Warrants. Open Market Sales Agreement In February 2022, the U.S. Securities and Exchange Commission (&#x201c;SEC&#x201d;) declared effective a registration statement on Form S-3 (the &#x201c;Shelf Registration&#x201d;), covering the sale of up to $ 200.0 million of our se"
+ },
  "insiders": {
-  "form4s": 6,
-  "bought": 0,
-  "sold": 3408657,
-  "buyers": []
+  "form4s": 11,
+  "from": "2023-12-15",
+  "to": "2024-04-13",
+  "trades": [
+   {
+    "date": "2024-03-21",
+    "filed": "2024-03-25",
+    "code": "S",
+    "value": 350951,
+    "who": "Novo Holdings A/S"
+   },
+   {
+    "date": "2024-03-18",
+    "filed": "2024-03-20",
+    "code": "S",
+    "value": 647008,
+    "who": "Novo Holdings A/S"
+   },
+   {
+    "date": "2024-03-19",
+    "filed": "2024-03-20",
+    "code": "S",
+    "value": 447715,
+    "who": "Novo Holdings A/S"
+   },
+   {
+    "date": "2024-03-20",
+    "filed": "2024-03-20",
+    "code": "S",
+    "value": 264081,
+    "who": "Novo Holdings A/S"
+   },
+   {
+    "date": "2024-03-14",
+    "filed": "2024-03-18",
+    "code": "S",
+    "value": 1698902,
+    "who": "Novo Holdings A/S"
+   }
+  ]
  },
  "drug": null,
  "trials": {

@@ -3,11 +3,12 @@
  "cik": "1434868",
  "name": "Esperion Therapeutics, Inc.",
  "date": "2023-03-16",
- "asof": "2023-04-15",
+ "asof": "2023-03-16",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-04-17",
-  "adj_close": 1.37
+  "date": "2023-03-16",
+  "adj_close": 1.82
  },
  "balance": {
   "end": "2022-12-31",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2022-12-31",
-  "months": 12.0,
-  "per_month": -14620148.021978023
+  "ytd_months": 12.0,
+  "ytd": -174827000,
+  "accn": "0001628280-23-004167",
+  "ttm_per_month": -14568916.666666666,
+  "quarter_per_month": -14157333.333333334,
+  "per_month": -14568916.666666666
  },
  "shares": {
   "end": "2023-02-01",
@@ -29,11 +34,78 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001628280-23-004167",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "f their investment. Risks Related to Impact of Uncertain Capital Markets We have in the past relied in part on sales of our common shares through our at-the-market (ATM) offering program. Increased volatility and decreases in market prices of equity securities generally and of our common shares in particular may have an adverse impact on our willingness and/or ability to continue to sell our commo"
+ },
  "insiders": {
-  "form4s": 3,
-  "bought": 0,
-  "sold": 20202,
-  "buyers": []
+  "form4s": 13,
+  "from": "2022-12-16",
+  "to": "2023-04-15",
+  "trades": [
+   {
+    "date": "2023-03-17",
+    "filed": "2023-03-20",
+    "code": "S",
+    "value": 6785,
+    "who": "Foody Joanne M."
+   },
+   {
+    "date": "2023-03-17",
+    "filed": "2023-03-20",
+    "code": "S",
+    "value": 12479,
+    "who": "Koenig Sheldon L."
+   },
+   {
+    "date": "2023-03-17",
+    "filed": "2023-03-20",
+    "code": "S",
+    "value": 937,
+    "who": "Warren Eric"
+   },
+   {
+    "date": "2023-03-07",
+    "filed": "2023-03-08",
+    "code": "S",
+    "value": 25730,
+    "who": "Warren Eric"
+   },
+   {
+    "date": "2023-03-07",
+    "filed": "2023-03-08",
+    "code": "S",
+    "value": 27510,
+    "who": "Koenig Sheldon L."
+   },
+   {
+    "date": "2023-03-07",
+    "filed": "2023-03-08",
+    "code": "S",
+    "value": 19672,
+    "who": "Foody Joanne M."
+   },
+   {
+    "date": "2023-01-18",
+    "filed": "2023-01-19",
+    "code": "S",
+    "value": 44404,
+    "who": "Looker Benjamin"
+   },
+   {
+    "date": "2023-01-18",
+    "filed": "2023-01-19",
+    "code": "S",
+    "value": 8319,
+    "who": "Foody Joanne M."
+   }
+  ]
  },
  "drug": null,
  "trials": {

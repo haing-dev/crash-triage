@@ -3,30 +3,39 @@
  "cik": "1726711",
  "name": "Aditxt, Inc.",
  "date": "2025-03-13",
- "asof": "2025-04-12",
+ "asof": "2025-03-18",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-04-14",
-  "adj_close": 61020.0
+  "date": "2025-03-18",
+  "adj_close": 183060.0
  },
  "balance": {
-  "end": "2024-12-31",
-  "cash": 833031,
+  "end": "2024-09-30",
+  "cash": 328596,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001213900-25-026256"
+  "accn": "0001213900-24-099697"
  },
  "burn": {
-  "end": "2024-12-31",
-  "months": 12.0,
-  "per_month": -1397914.967780822
+  "end": "2024-09-30",
+  "ytd_months": 9.0,
+  "ytd": -10615131,
+  "accn": "0001213900-24-099697",
+  "ttm_per_month": -1160366.0,
+  "quarter_per_month": -788108.0,
+  "per_month": -1160366.0
  },
  "shares": {
-  "end": "2025-03-28",
-  "shares": 1159200,
-  "split_factor": 1.3431640235898925e+19,
+  "end": "2024-11-13",
+  "shares": 14234210,
+  "split_factor": 3.359087688308896e+21,
   "splits_after": [
+   [
+    "2025-03-31",
+    250.09
+   ],
    [
     "2025-05-15",
     10005.42
@@ -49,11 +58,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001213900-24-099697",
+  "guided_until": null,
+  "guidance": "sufficient to fund our operations for the next 12 months",
+  "twelve_months": true,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "nt to which we may issue and sell up to $150 million of our common stock, which could result in significant dilution; &#9679; we have entered into an At The Market Offering Agreement with H.C. Wainwright &amp; Co., LLC pursuant to which we may issue and sell up to $35 million of our common stock, which could result in significant dilution; &#9679; while we have entered into a Share Exchange Agreem"
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2024-12-13",
+  "to": "2025-04-12",
+  "trades": []
  },
  "drug": null,
  "trials": {

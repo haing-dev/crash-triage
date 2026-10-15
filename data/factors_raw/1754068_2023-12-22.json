@@ -3,11 +3,12 @@
  "cik": "1754068",
  "name": "Kalaris Therapeutics, Inc.",
  "date": "2023-12-22",
- "asof": "2024-01-21",
+ "asof": "2023-12-27",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-01-22",
-  "adj_close": 15.64
+  "date": "2023-12-27",
+  "adj_close": 16.077
  },
  "balance": {
   "end": "2023-09-30",
@@ -21,8 +22,12 @@
  },
  "burn": {
   "end": "2023-09-30",
-  "months": 8.9,
-  "per_month": -10487922.94117647
+  "ytd_months": 8.9,
+  "ytd": -93716000,
+  "accn": "0000950170-23-058145",
+  "ttm_per_month": -10440583.333333334,
+  "quarter_per_month": -11492000.0,
+  "per_month": -10440583.333333334
  },
  "shares": {
   "end": "2023-10-27",
@@ -43,11 +48,141 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0000950170-23-058145",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "pecified amount of common stock, preferred stock, debt securities, warrants and/or units of any combination thereof. We simultaneously entered into a sales agreement with SVB Leerink LLC, as sales 17 agent, to provide for the issuance and sale by the Company of up to $100.0 million of common stock from time to time in &#x201c;at-the-market&#x201d; offerings under the Registration Statement and rel"
+ },
  "insiders": {
-  "form4s": 5,
-  "bought": 0,
-  "sold": 22984,
-  "buyers": []
+  "form4s": 14,
+  "from": "2023-09-23",
+  "to": "2024-01-21",
+  "trades": [
+   {
+    "date": "2024-01-04",
+    "filed": "2024-01-08",
+    "code": "S",
+    "value": 198,
+    "who": "Hagen Brett R"
+   },
+   {
+    "date": "2024-01-04",
+    "filed": "2024-01-08",
+    "code": "S",
+    "value": 271,
+    "who": "Miller Edward"
+   },
+   {
+    "date": "2024-01-04",
+    "filed": "2024-01-08",
+    "code": "S",
+    "value": 614,
+    "who": "Sinha Vikas"
+   },
+   {
+    "date": "2024-01-04",
+    "filed": "2024-01-08",
+    "code": "S",
+    "value": 1063,
+    "who": "Brainard Diana"
+   },
+   {
+    "date": "2023-12-27",
+    "filed": "2024-01-02",
+    "code": "S",
+    "value": 20838,
+    "who": "Hagen Brett R"
+   },
+   {
+    "date": "2023-11-17",
+    "filed": "2023-11-21",
+    "code": "S",
+    "value": 4061,
+    "who": "Sinha Vikas"
+   },
+   {
+    "date": "2023-11-17",
+    "filed": "2023-11-21",
+    "code": "S",
+    "value": 4386,
+    "who": "Brainard Diana"
+   },
+   {
+    "date": "2023-11-20",
+    "filed": "2023-11-21",
+    "code": "S",
+    "value": 7408,
+    "who": "Brainard Diana"
+   },
+   {
+    "date": "2023-11-17",
+    "filed": "2023-11-21",
+    "code": "S",
+    "value": 657,
+    "who": "Hagen Brett R"
+   },
+   {
+    "date": "2023-10-19",
+    "filed": "2023-10-23",
+    "code": "S",
+    "value": 566,
+    "who": "Hagen Brett R"
+   },
+   {
+    "date": "2023-10-20",
+    "filed": "2023-10-23",
+    "code": "S",
+    "value": 550,
+    "who": "Hagen Brett R"
+   },
+   {
+    "date": "2023-10-19",
+    "filed": "2023-10-23",
+    "code": "S",
+    "value": 13558,
+    "who": "Brainard Diana"
+   },
+   {
+    "date": "2023-10-19",
+    "filed": "2023-10-23",
+    "code": "S",
+    "value": 1947,
+    "who": "Sinha Vikas"
+   },
+   {
+    "date": "2023-10-20",
+    "filed": "2023-10-23",
+    "code": "S",
+    "value": 2273,
+    "who": "Sinha Vikas"
+   },
+   {
+    "date": "2023-10-03",
+    "filed": "2023-10-05",
+    "code": "S",
+    "value": 2619,
+    "who": "Brainard Diana"
+   },
+   {
+    "date": "2023-10-03",
+    "filed": "2023-10-05",
+    "code": "S",
+    "value": 1492,
+    "who": "Sinha Vikas"
+   },
+   {
+    "date": "2023-10-03",
+    "filed": "2023-10-05",
+    "code": "S",
+    "value": 439,
+    "who": "Hagen Brett R"
+   }
+  ]
  },
  "drug": null,
  "trials": {

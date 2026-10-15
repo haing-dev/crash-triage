@@ -3,11 +3,12 @@
  "cik": "1661998",
  "name": "Q32 Bio Inc.",
  "date": "2024-12-11",
- "asof": "2025-01-10",
+ "asof": "2024-12-13",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-01-10",
-  "adj_close": 3.34
+  "date": "2024-12-13",
+  "adj_close": 3.7
  },
  "balance": {
   "end": "2024-09-30",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2024-09-30",
-  "months": 9.0,
-  "per_month": -6276103.58974359
+  "ytd_months": 9.0,
+  "ytd": -56287000,
+  "accn": "0000950170-24-122785",
+  "ttm_per_month": -12046250.0,
+  "quarter_per_month": -6507333.333333333,
+  "per_month": -12046250.0
  },
  "shares": {
   "end": "2024-11-01",
@@ -29,11 +34,21 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0000950170-24-122785",
+  "guided_until": "2026-07-15",
+  "guidance": "lents as of September 30, 2024, will be sufficient to fund our operations through mid-2026. Man",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 4,
+  "from": "2024-09-12",
+  "to": "2025-01-10",
+  "trades": []
  },
  "drug": null,
  "trials": {

@@ -3,11 +3,12 @@
  "cik": "1420720",
  "name": "iBio, Inc.",
  "date": "2023-11-28",
- "asof": "2023-12-28",
+ "asof": "2023-12-04",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-12-28",
-  "adj_close": 1.42
+  "date": "2023-12-04",
+  "adj_close": 2.7
  },
  "balance": {
   "end": "2023-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2023-09-30",
-  "months": 3.0,
-  "per_month": -1786259.3406593406
+  "ytd_months": 3.0,
+  "ytd": -5340000,
+  "accn": "0001558370-23-019043",
+  "ttm_per_month": -1818083.3333333333,
+  "quarter_per_month": -1780000.0,
+  "per_month": -1818083.3333333333
  },
  "shares": {
   "end": "2023-11-09",
@@ -33,11 +38,50 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001558370-23-019043",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "scontinued Operations for more information.) &#8203; 14 Table of Contents During the first quarter ended on September 30, 2023, the Company completed at-the-market offerings and sold 3,419,795 shares of Common Stock for which it received approximately $ 1.7 million. The Company also sold 3,622,834 shares of Common Stock under its purchase agreement entered into on August 4, 2023 (the &#8220;Purcha"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 4,
+  "from": "2023-08-30",
+  "to": "2023-12-28",
+  "trades": [
+   {
+    "date": "2023-11-01",
+    "filed": "2023-11-03",
+    "code": "S",
+    "value": 1296,
+    "who": "Brenner Martin"
+   },
+   {
+    "date": "2023-10-03",
+    "filed": "2023-10-05",
+    "code": "S",
+    "value": 1592,
+    "who": "Brenner Martin"
+   },
+   {
+    "date": "2023-10-02",
+    "filed": "2023-10-03",
+    "code": "S",
+    "value": 1311,
+    "who": "Brenner Martin"
+   },
+   {
+    "date": "2023-08-28",
+    "filed": "2023-08-30",
+    "code": "S",
+    "value": 1529,
+    "who": "Brenner Martin"
+   }
+  ]
  },
  "drug": null,
  "trials": {

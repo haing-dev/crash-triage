@@ -3,11 +3,12 @@
  "cik": "1719406",
  "name": "NRX Pharmaceuticals, Inc.",
  "date": "2022-05-26",
- "asof": "2022-06-25",
+ "asof": "2022-05-26",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-06-27",
-  "adj_close": 6.12
+  "date": "2022-05-26",
+  "adj_close": 5.77
  },
  "balance": {
   "end": "2022-03-31",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2022-03-31",
-  "months": 2.9,
-  "per_month": -3550193.2584269666
+  "ytd_months": 2.9,
+  "ytd": -10380000,
+  "accn": "0001558370-22-008948",
+  "ttm_per_month": -3755666.6666666665,
+  "quarter_per_month": -3460000.0,
+  "per_month": -3755666.6666666665
  },
  "shares": {
   "end": "2022-05-11",
@@ -37,12 +42,49 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001558370-22-008948",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 2,
-  "bought": 5800000,
-  "sold": 303910,
-  "buyers": [
-   "Javitt Jonathan C"
+  "form4s": 3,
+  "from": "2022-02-25",
+  "to": "2022-06-25",
+  "trades": [
+   {
+    "date": "2022-06-03",
+    "filed": "2022-06-07",
+    "code": "S",
+    "value": 171102,
+    "who": "Javitt Daniel C."
+   },
+   {
+    "date": "2022-06-06",
+    "filed": "2022-06-07",
+    "code": "S",
+    "value": 76947,
+    "who": "Javitt Daniel C."
+   },
+   {
+    "date": "2022-06-07",
+    "filed": "2022-06-07",
+    "code": "S",
+    "value": 55861,
+    "who": "Javitt Daniel C."
+   },
+   {
+    "date": "2022-06-01",
+    "filed": "2022-06-02",
+    "code": "P",
+    "value": 5800000,
+    "who": "Javitt Jonathan C"
+   }
   ]
  },
  "drug": null,

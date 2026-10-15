@@ -3,11 +3,12 @@
  "cik": "1501989",
  "name": "CytomX Therapeutics, Inc.",
  "date": "2024-05-09",
- "asof": "2024-06-08",
+ "asof": "2024-05-09",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-06-10",
-  "adj_close": 1.63
+  "date": "2024-05-09",
+  "adj_close": 2.04
  },
  "balance": {
   "end": "2024-03-31",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2024-03-31",
-  "months": 3.0,
-  "per_month": -8808997.777777778
+  "ytd_months": 3.0,
+  "ytd": -26045000,
+  "accn": "0000950170-24-055588",
+  "ttm_per_month": -7619083.333333333,
+  "quarter_per_month": -8681666.666666666,
+  "per_month": -7619083.333333333
  },
  "shares": {
   "end": "2024-02-29",
@@ -29,11 +34,57 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0000950170-24-055588",
+  "guided_until": "2025-12-15",
+  "guidance": "our existing capital resources will be sufficient to fund operations to the end of 2025. How",
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "ate by which this matter will be resolved. 11. Subsequent Event In February 2020, the Company entered into the Open Market Sale Agreement (the &#8220;Sales Agreement&#8221;) with Jefferies LLC (&#8220;Jefferies&#8221;), to sell its common stock, at par value $ 0.00001 per share, with aggregate gross sales proceeds of up to $ 75,000,000 , from time to time upon the Company's request, through an at "
+ },
  "insiders": {
-  "form4s": 7,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 14,
+  "from": "2024-02-09",
+  "to": "2024-06-08",
+  "trades": [
+   {
+    "date": "2024-03-19",
+    "filed": "2024-03-21",
+    "code": "S",
+    "value": 10986,
+    "who": "ROWLAND LLOYD A"
+   },
+   {
+    "date": "2024-03-19",
+    "filed": "2024-03-21",
+    "code": "S",
+    "value": 42175,
+    "who": "McCarthy Sean A."
+   },
+   {
+    "date": "2024-03-19",
+    "filed": "2024-03-21",
+    "code": "S",
+    "value": 6196,
+    "who": "Ogden Christopher"
+   },
+   {
+    "date": "2024-03-19",
+    "filed": "2024-03-21",
+    "code": "S",
+    "value": 26684,
+    "who": "BELVIN MARCIA"
+   },
+   {
+    "date": "2024-03-19",
+    "filed": "2024-03-21",
+    "code": "S",
+    "value": 13685,
+    "who": "Landau Jeffrey B"
+   }
+  ]
  },
  "drug": null,
  "trials": {

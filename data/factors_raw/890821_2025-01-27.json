@@ -3,11 +3,12 @@
  "cik": "890821",
  "name": "Enveric Biosciences, Inc.",
  "date": "2025-01-27",
- "asof": "2025-02-26",
+ "asof": "2025-01-27",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-02-26",
-  "adj_close": 27.6
+  "date": "2025-01-27",
+  "adj_close": 54.9
  },
  "balance": {
   "end": "2024-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2024-09-30",
-  "months": 9.0,
-  "per_month": -715238.5333333334
+  "ytd_months": 9.0,
+  "ytd": -6414590,
+  "accn": "0001493152-24-045859",
+  "ttm_per_month": -680469.8333333334,
+  "quarter_per_month": -309023.3333333333,
+  "per_month": -680469.8333333334
  },
  "shares": {
   "end": "2024-11-12",
@@ -41,11 +46,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001493152-24-045859",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "to the terms and conditions of the Distribution Agreement, Canaccord may sell the Common Stock by any method permitted by law deemed to be an &#8220;at-the-market offering&#8221;. The Company will pay Canaccord a commission equal to 3.0 % of the gross sales price of the Common Stock sold through Canaccord under the Distribution Agreement and has also agreed to reimburse Canaccord for certain expen"
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2024-10-29",
+  "to": "2025-02-26",
+  "trades": []
  },
  "drug": null,
  "trials": {

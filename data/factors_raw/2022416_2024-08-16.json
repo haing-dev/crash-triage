@@ -3,57 +3,22 @@
  "cik": "2022416",
  "name": "Silexion Therapeutics Corp",
  "date": "2024-08-16",
- "asof": "2024-09-15",
+ "asof": "2024-08-16",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-09-16",
-  "adj_close": 138.60001
+  "date": "2024-08-16",
+  "adj_close": 292.5
  },
- "balance": {
-  "end": "2024-06-30",
-  "cash": 1697000,
-  "parts": [
-   "CashAndCashEquivalentsAtCarryingValue"
-  ],
-  "accn": "0001213900-24-073934"
- },
- "burn": {
-  "end": "2024-06-30",
-  "months": 5.9,
-  "per_month": -473754.0331491713
- },
- "shares": {
-  "end": "2024-08-29",
-  "shares": 9768396,
-  "split_factor": 10216705.354,
-  "splits_after": [
-   [
-    "2025-08-12",
-    33.71
-   ],
-   [
-    "2025-08-20",
-    14.98
-   ],
-   [
-    "2025-11-12",
-    134.87
-   ],
-   [
-    "2026-05-15",
-    15.0
-   ],
-   [
-    "2026-08-10",
-    10.0
-   ]
-  ]
- },
+ "balance": null,
+ "burn": null,
+ "shares": null,
+ "filing": null,
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2024-05-18",
+  "to": "2024-09-15",
+  "trades": []
  },
  "drug": null,
  "trials": {

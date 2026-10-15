@@ -3,38 +3,53 @@
  "cik": "1847345",
  "name": "Aspire-Lakewood Holdings, Inc.",
  "date": "2026-04-15",
- "asof": "2026-05-15",
+ "asof": "2026-04-16",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-05-15",
-  "adj_close": 5.61
+  "date": "2026-04-16",
+  "adj_close": 0.30000001
  },
  "balance": {
-  "end": "2026-03-31",
-  "cash": 5857024,
+  "end": "2025-12-31",
+  "cash": 1003904,
   "parts": [
-   "CashAndCashEquivalentsAtCarryingValue"
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
   ],
-  "accn": "0001493152-26-023802"
+  "accn": "0001493152-26-016123"
  },
  "burn": {
-  "end": "2026-03-31",
-  "months": 2.9,
-  "per_month": -1039242.8053932585
+  "end": "2025-12-31",
+  "ytd_months": 12.0,
+  "ytd": -4923488,
+  "accn": "0001493152-26-016123",
+  "ttm_per_month": -410290.6666666667,
+  "quarter_per_month": -309280.3333333333,
+  "per_month": -410290.6666666667
  },
  "shares": {
-  "end": "2026-05-13",
-  "shares": 1295234,
+  "end": "2026-03-27",
+  "shares": 5024124,
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001493152-26-016123",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2026-01-15",
+  "to": "2026-05-15",
+  "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "aspire lakewood",
   "other_trials": 0,

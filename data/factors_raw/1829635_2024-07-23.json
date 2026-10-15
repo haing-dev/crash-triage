@@ -3,30 +3,39 @@
  "cik": "1829635",
  "name": "Transcode Therapeutics, Inc.",
  "date": "2024-07-23",
- "asof": "2024-08-22",
+ "asof": "2024-07-23",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-08-22",
-  "adj_close": 256.87201
+  "date": "2024-07-23",
+  "adj_close": 280.896
  },
  "balance": {
-  "end": "2024-06-30",
-  "cash": 3354551,
+  "end": "2024-03-31",
+  "cash": 4913676,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001558370-24-012264"
+  "accn": "0001558370-24-008298"
  },
  "burn": {
-  "end": "2024-06-30",
-  "months": 5.9,
-  "per_month": -1055644.9049723758
+  "end": "2024-03-31",
+  "ytd_months": 3.0,
+  "ytd": -3937227,
+  "accn": "0001558370-24-008298",
+  "ttm_per_month": -1458184.25,
+  "quarter_per_month": -1312409.0,
+  "per_month": -1458184.25
  },
  "shares": {
-  "end": "2024-08-09",
-  "shares": 17265658,
-  "split_factor": 847533.767,
+  "end": "2024-05-10",
+  "shares": 6622053,
+  "split_factor": 36674276.376,
   "splits_after": [
+   [
+    "2024-08-14",
+    43.27
+   ],
    [
     "2024-11-14",
     32.34
@@ -41,11 +50,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001558370-24-008298",
+  "guided_until": "2024-07-15",
+  "guidance": "anagement believes that current cash is sufficient to fund operations and capital requirements into the third quarter of 2024, but",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "vised accounting pronouncements as of effective dates applicable to public companies. We are also a &#8220;smaller reporting company&#8221; meaning that the market value of our stock held by non-affiliates plus the proposed aggregate amount of gross proceeds to us as a result of our initial public offering is less than $700 million and our annual revenue was less than $100 million during the most "
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 4,
+  "from": "2024-04-24",
+  "to": "2024-08-22",
+  "trades": []
  },
  "drug": null,
  "trials": {

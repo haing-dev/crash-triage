@@ -3,11 +3,12 @@
  "cik": "1787740",
  "name": "Valion Bio, Inc.",
  "date": "2023-08-22",
- "asof": "2023-09-21",
+ "asof": "2023-08-23",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-09-21",
-  "adj_close": 913.75
+  "date": "2023-08-23",
+  "adj_close": 1224.0
  },
  "balance": {
   "end": "2023-06-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2023-06-30",
-  "months": 5.9,
-  "per_month": -822894.6666666667
+  "ytd_months": 5.9,
+  "ytd": -4866000,
+  "accn": "0000950170-23-042520",
+  "ttm_per_month": -822083.3333333334,
+  "quarter_per_month": -813333.3333333334,
+  "per_month": -822083.3333333334
  },
  "shares": {
   "end": "2023-08-10",
@@ -37,11 +42,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0000950170-23-042520",
+  "guided_until": null,
+  "guidance": "sufficient to meet our anticipated needs for the next twelve months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 3,
+  "from": "2023-05-24",
+  "to": "2023-09-21",
+  "trades": []
  },
  "drug": null,
  "trials": {

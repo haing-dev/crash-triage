@@ -3,11 +3,12 @@
  "cik": "1729427",
  "name": "CNS Pharmaceuticals, Inc.",
  "date": "2022-11-30",
- "asof": "2022-12-30",
+ "asof": "2022-12-01",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-12-30",
-  "adj_close": 72000.0
+  "date": "2022-12-01",
+  "adj_close": 87000.0
  },
  "balance": {
   "end": "2022-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2022-09-30",
-  "months": 8.9,
-  "per_month": -923550.9429411765
+  "ytd_months": 8.9,
+  "ytd": -8252492,
+  "accn": "0001683168-22-007532",
+  "ttm_per_month": -957441.1666666666,
+  "quarter_per_month": -604253.0,
+  "per_month": -957441.1666666666
  },
  "shares": {
   "end": "2022-11-10",
@@ -49,11 +54,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001683168-22-007532",
+  "guided_until": "2023-01-15",
+  "guidance": "expectation is that our cash on hand is sufficient to fund our operations into the first quarter of 2023. The",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "thin 24 months from issuance the Company achieves &#8220;Positive Interim, Clinical Data&#8221; as defined by the Board of Directors. To the extent that the market and/or &#8220;Positive Interim Clinical Data&#8221; conditions are not met, the applicable portions of the PUs will not vest and will be cancelled. The fair value at grant date of these performance units was $ 169,663 . Compensation exp"
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2022-09-01",
+  "to": "2022-12-30",
+  "trades": []
  },
  "drug": null,
  "trials": {

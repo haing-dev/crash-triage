@@ -3,28 +3,33 @@
  "cik": "1752828",
  "name": "Celularity Inc",
  "date": "2022-05-09",
- "asof": "2022-06-08",
+ "asof": "2022-05-12",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-06-08",
-  "adj_close": 65.8
+  "date": "2022-05-12",
+  "adj_close": 57.7
  },
  "balance": {
-  "end": "2022-03-31",
-  "cash": 48039000,
+  "end": "2021-12-31",
+  "cash": 37240000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001564590-22-020422"
+  "accn": "0001564590-22-013004"
  },
  "burn": {
-  "end": "2022-03-31",
-  "months": 2.9,
-  "per_month": -11715295.73033708
+  "end": "2021-12-31",
+  "ytd_months": 12.0,
+  "ytd": -110096000,
+  "accn": "0001564590-22-013004",
+  "ttm_per_month": -9174666.666666666,
+  "quarter_per_month": -10681666.666666666,
+  "per_month": -9174666.666666666
  },
  "shares": {
-  "end": "2022-05-12",
-  "shares": 138311074,
+  "end": "2022-03-25",
+  "shares": 137720526,
   "split_factor": 10.0,
   "splits_after": [
    [
@@ -33,11 +38,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001564590-22-013004",
+  "guided_until": null,
+  "guidance": "sufficient to fund our operating expenses and capital expenditure requirements through the next twelve months",
+  "twelve_months": true,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 1,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 9,
+  "from": "2022-02-08",
+  "to": "2022-06-08",
+  "trades": []
  },
  "drug": null,
  "trials": {

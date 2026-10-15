@@ -3,11 +3,12 @@
  "cik": "1771910",
  "name": "ADC Therapeutics SA",
  "date": "2026-06-04",
- "asof": "2026-07-04",
+ "asof": "2026-06-04",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-07-06",
-  "adj_close": 1.25
+  "date": "2026-06-04",
+  "adj_close": 1.32
  },
  "balance": {
   "end": "2026-03-31",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2026-03-31",
-  "months": 2.9,
-  "per_month": -10161487.640449438
+  "ytd_months": 2.9,
+  "ytd": -29710000,
+  "accn": "0001628280-26-029819",
+  "ttm_per_month": -9545833.333333334,
+  "quarter_per_month": -9903333.333333334,
+  "per_month": -9545833.333333334
  },
  "shares": {
   "end": "2026-04-27",
@@ -28,13 +33,66 @@
   "split_factor": 1.0,
   "splits_after": []
  },
- "insiders": {
-  "form4s": 4,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+ "filing": {
+  "accn": "0001628280-26-029819",
+  "guided_until": null,
+  "guidance": "sufficient to fund our operation and meet capital requirements for at least the next twelve months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
  },
- "drug": null,
+ "insiders": {
+  "form4s": 12,
+  "from": "2026-03-06",
+  "to": "2026-07-04",
+  "trades": [
+   {
+    "date": "2026-03-31",
+    "filed": "2026-04-02",
+    "code": "S",
+    "value": 736251,
+    "who": "Redmile Group, LLC"
+   },
+   {
+    "date": "2026-03-31",
+    "filed": "2026-04-02",
+    "code": "S",
+    "value": 706903,
+    "who": "Redmile Group, LLC"
+   },
+   {
+    "date": "2026-04-01",
+    "filed": "2026-04-02",
+    "code": "S",
+    "value": 643038,
+    "who": "Redmile Group, LLC"
+   },
+   {
+    "date": "2026-04-01",
+    "filed": "2026-04-02",
+    "code": "S",
+    "value": 617402,
+    "who": "Redmile Group, LLC"
+   },
+   {
+    "date": "2026-04-02",
+    "filed": "2026-04-02",
+    "code": "S",
+    "value": 8638545,
+    "who": "Redmile Group, LLC"
+   },
+   {
+    "date": "2026-04-02",
+    "filed": "2026-04-02",
+    "code": "S",
+    "value": 8294201,
+    "who": "Redmile Group, LLC"
+   }
+  ]
+ },
+ "drug": "ZYNLONTA (loncastuximab tesirine-lpyl) plus rituximab",
  "trials": {
   "query": "adc therapeutics",
   "other_trials": 0,

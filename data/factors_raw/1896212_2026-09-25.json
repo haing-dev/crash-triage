@@ -3,11 +3,12 @@
  "cik": "1896212",
  "name": "CDT Equity Inc.",
  "date": "2026-09-25",
- "asof": "2026-10-15",
+ "asof": "2026-10-01",
  "final": false,
+ "version": 2,
  "price": {
-  "date": "2026-10-14",
-  "adj_close": 0.238
+  "date": "2026-10-01",
+  "adj_close": 1.25
  },
  "balance": {
   "end": "2026-06-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2026-06-30",
-  "months": 5.9,
-  "per_month": -412292.8888888889
+  "ytd_months": 5.9,
+  "ytd": -2438000,
+  "accn": "0001493152-26-041808",
+  "ttm_per_month": -957000.0,
+  "quarter_per_month": -181333.33333333334,
+  "per_month": -957000.0
  },
  "shares": {
   "end": "2026-08-12",
@@ -33,13 +38,31 @@
    ]
   ]
  },
- "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+ "filing": {
+  "accn": "0001493152-26-041808",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "ts of $104,187.65 starting on August 19, 2026. Further, the parties agreed to increase the net proceeds due to the Lender from the Company's existing Sales Agreement, dated October 23, 2024 (the &#8220;Sales Agreement&#8221;), with A.G.P./Alliance Global Partners (&#8220;A.G.P.&#8221;) from eighty percent to ninety percent to pay down the weekly installments under the Notes. Additionally, subject "
  },
- "drug": null,
+ "insiders": {
+  "form4s": 1,
+  "from": "2026-06-27",
+  "to": "2026-10-15",
+  "trades": [
+   {
+    "date": "2026-08-28",
+    "filed": "2026-09-02",
+    "code": "S",
+    "value": 0,
+    "who": "Regan Andrew"
+   }
+  ]
+ },
+ "drug": "n/a",
  "trials": {
   "query": "cdt equity",
   "other_trials": 0,

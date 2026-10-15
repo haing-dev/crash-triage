@@ -3,11 +3,12 @@
  "cik": "1661059",
  "name": "NextCure, Inc.",
  "date": "2026-06-01",
- "asof": "2026-07-01",
+ "asof": "2026-06-01",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-07-01",
-  "adj_close": 1.95
+  "date": "2026-06-01",
+  "adj_close": 3.38
  },
  "balance": {
   "end": "2026-03-31",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2026-03-31",
-  "months": 2.9,
-  "per_month": -4570446.292134832
+  "ytd_months": 2.9,
+  "ytd": -13363000,
+  "accn": "0001104659-26-057187",
+  "ttm_per_month": -4165166.6666666665,
+  "quarter_per_month": -4454333.333333333,
+  "per_month": -4165166.6666666665
  },
  "shares": {
   "end": "2026-05-01",
@@ -28,13 +33,23 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001104659-26-057187",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "s &#8203; 2,488 &#8203; &#8203; &#8212; &#8203; &#8203; 14 &#8203; &#8203; &#8212; &#8203; &#8203; &#8212; &#8203; &#8203; 14 Issuance of shares from at-the-market sales, net of expenses &#8203; 99,446 &#8203; &#8203; &#8212; &#8203; &#8203; 1,234 &#8203; &#8203; &#8212; &#8203; &#8203; &#8212; &#8203; &#8203; 1,234 Unrealized loss on marketable securities, net of tax &#8203; &#8212; &#8203; &#820"
+ },
  "insiders": {
   "form4s": 6,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2026-03-03",
+  "to": "2026-07-01",
+  "trades": []
  },
- "drug": null,
+ "drug": "SIM0505",
  "trials": {
   "query": "nextcure",
   "other_trials": 0,

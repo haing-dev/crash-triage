@@ -3,37 +3,52 @@
  "cik": "1377121",
  "name": "Protagonist Therapeutics, Inc",
  "date": "2022-04-26",
- "asof": "2022-05-26",
+ "asof": "2022-04-27",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-05-26",
-  "adj_close": 8.31
+  "date": "2022-04-27",
+  "adj_close": 9.39
  },
  "balance": {
-  "end": "2022-03-31",
-  "cash": 305289000,
+  "end": "2021-12-31",
+  "cash": 326900000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue",
    "MarketableSecuritiesCurrent"
   ],
-  "accn": "0001558370-22-007438"
+  "accn": "0001558370-22-002385"
  },
  "burn": {
-  "end": "2022-03-31",
-  "months": 2.9,
-  "per_month": -12882618.426966293
+  "end": "2021-12-31",
+  "ytd_months": 12.0,
+  "ytd": -107865000,
+  "accn": "0001558370-22-002385",
+  "ttm_per_month": -8988750.0,
+  "quarter_per_month": -8979666.666666666,
+  "per_month": -8988750.0
  },
  "shares": {
-  "end": "2022-04-29",
-  "shares": 48656189,
+  "end": "2022-02-15",
+  "shares": 48413555,
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001558370-22-002385",
+  "guided_until": null,
+  "guidance": "sufficient to fund our operations for at least the next 12 months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": 94200000.0,
+  "atm_quote": "ximum of $75.0 million of the maximum aggregate offering price of $250.0 million may be issued and sold pursuant to an ATM financing facility under a sales agreement we entered into on November 27, 2019 (the &#8220;2019 Sales Agreement&#8221;). In May 2020, we completed an underwritten public offering of 7,000,000 shares of common stock at a public offering price of $14.00 per share, and we issued"
+ },
  "insiders": {
-  "form4s": 4,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 13,
+  "from": "2022-01-26",
+  "to": "2022-05-26",
+  "trades": []
  },
  "drug": null,
  "trials": {

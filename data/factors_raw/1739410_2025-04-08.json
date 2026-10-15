@@ -3,29 +3,34 @@
  "cik": "1739410",
  "name": "Rallybio Corp",
  "date": "2025-04-08",
- "asof": "2025-05-08",
+ "asof": "2025-04-08",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-05-08",
-  "adj_close": 2.344
+  "date": "2025-04-08",
+  "adj_close": 2.0
  },
  "balance": {
-  "end": "2025-03-31",
-  "cash": 54495000,
+  "end": "2024-12-31",
+  "cash": 65511000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue",
    "MarketableSecuritiesCurrent"
   ],
-  "accn": "0001739410-25-000061"
+  "accn": "0001739410-25-000040"
  },
  "burn": {
-  "end": "2025-03-31",
-  "months": 2.9,
-  "per_month": -3490339.3258426967
+  "end": "2024-12-31",
+  "ytd_months": 12.0,
+  "ytd": -49282000,
+  "accn": "0001739410-25-000040",
+  "ttm_per_month": -4106833.3333333335,
+  "quarter_per_month": -3287333.3333333335,
+  "per_month": -4106833.3333333335
  },
  "shares": {
-  "end": "2025-05-02",
-  "shares": 41613964,
+  "end": "2025-03-07",
+  "shares": 41612039,
   "split_factor": 8.0,
   "splits_after": [
    [
@@ -34,11 +39,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001739410-25-000040",
+  "guided_until": "2026-07-15",
+  "guidance": "rities as of December 31, 2024, will be sufficient to fund our operating expenses and capital expenditure requirements into the second half of 2026. Thi",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "ird quarter of 2025 at which time we will determine the next steps for the program including seeking a partner to continue development. We estimate that the market opportunity for RLYB212 exceeds $1.6 billion. &#8226; Advance RLYB116 for the treatment of diseases of complement dysregulation through partnering or other forms of non-dilutive financing. Based on the biomarker characterization analyse"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 3,
+  "from": "2025-01-08",
+  "to": "2025-05-08",
+  "trades": []
  },
  "drug": null,
  "trials": {

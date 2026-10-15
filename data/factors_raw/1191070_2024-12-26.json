@@ -3,11 +3,12 @@
  "cik": "1191070",
  "name": "Neuphoria Therapeutics Inc.",
  "date": "2024-12-26",
- "asof": "2025-01-25",
+ "asof": "2025-01-02",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-01-27",
-  "adj_close": 4.67
+  "date": "2025-01-02",
+  "adj_close": 2.93
  },
  "balance": {
   "end": "2024-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2024-09-30",
-  "months": 3.0,
-  "per_month": -1482883.930989011
+  "ytd_months": 3.0,
+  "ytd": -4433063,
+  "accn": "0000950170-24-127032",
+  "ttm_per_month": -1223670.0,
+  "quarter_per_month": -1477687.6666666667,
+  "per_month": -1223670.0
  },
  "shares": {
   "end": "2024-10-31",
@@ -33,11 +38,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0000950170-24-127032",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "2024. Based upon the Company's current operating plans, the Company believes that its existing cash and cash equivalents, combined with its existing ATM facility, will be sufficient to continue funding its development activities into late in the first quarter of fiscal year 2026, which is less than twelve months from the date these condensed consolidated financial statements are issued. Accordingl"
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2024-09-27",
+  "to": "2025-01-25",
+  "trades": []
  },
  "drug": null,
  "trials": {

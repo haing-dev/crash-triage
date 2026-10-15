@@ -3,28 +3,33 @@
  "cik": "1896212",
  "name": "CDT Equity Inc.",
  "date": "2026-06-25",
- "asof": "2026-07-25",
+ "asof": "2026-06-29",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-07-27",
-  "adj_close": 71.125
+  "date": "2026-06-29",
+  "adj_close": 145.75
  },
  "balance": {
-  "end": "2026-03-31",
-  "cash": 97000,
+  "end": "2025-12-31",
+  "cash": 1509000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001493152-26-033380"
+  "accn": "0001493152-26-016858"
  },
  "burn": {
-  "end": "2026-03-31",
-  "months": 2.9,
-  "per_month": -647790.5617977529
+  "end": "2025-12-31",
+  "ytd_months": 12.0,
+  "ytd": -15555000,
+  "accn": "0001493152-26-016858",
+  "ttm_per_month": -1296250.0,
+  "quarter_per_month": -1545333.3333333333,
+  "per_month": -1296250.0
  },
  "shares": {
-  "end": "2026-07-15",
-  "shares": 6310778,
+  "end": "2026-04-15",
+  "shares": 4858417,
   "split_factor": 20046.628,
   "splits_after": [
    [
@@ -37,13 +42,52 @@
    ]
   ]
  },
- "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+ "filing": {
+  "accn": "0001493152-26-016858",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "hat treats a serious condition and, if approved, would provide a significant improvement in safety or effectiveness. The FDA determines at the time that the marketing application is submitted, on a case-by-case basis, whether the proposed drug represents a significant improvement in treatment, prevention or diagnosis of disease when compared with other available therapies. Significant improvement "
  },
- "drug": null,
+ "insiders": {
+  "form4s": 3,
+  "from": "2026-03-27",
+  "to": "2026-07-25",
+  "trades": [
+   {
+    "date": "2026-06-18",
+    "filed": "2026-06-23",
+    "code": "S",
+    "value": 3526,
+    "who": "Taylor Mark Andrew"
+   },
+   {
+    "date": "2026-06-18",
+    "filed": "2026-06-23",
+    "code": "S",
+    "value": 2109184,
+    "who": "Taylor Mark Andrew"
+   },
+   {
+    "date": "2026-06-18",
+    "filed": "2026-06-23",
+    "code": "S",
+    "value": 3755,
+    "who": "Taylor Mark Andrew"
+   },
+   {
+    "date": "2026-06-18",
+    "filed": "2026-06-23",
+    "code": "S",
+    "value": 829121,
+    "who": "Taylor Mark Andrew"
+   }
+  ]
+ },
+ "drug": "n/a",
  "trials": {
   "query": "cdt equity",
   "other_trials": 0,

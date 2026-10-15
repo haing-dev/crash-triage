@@ -3,28 +3,34 @@
  "cik": "749647",
  "name": "Imunon, Inc.",
  "date": "2024-07-31",
- "asof": "2024-08-30",
+ "asof": "2024-08-02",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-08-30",
-  "adj_close": 15.0
+  "date": "2024-08-02",
+  "adj_close": 14.73913
  },
  "balance": {
-  "end": "2024-06-30",
-  "cash": 5306568,
+  "end": "2024-03-31",
+  "cash": 9808853,
   "parts": [
-   "CashAndCashEquivalentsAtCarryingValue"
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
   ],
-  "accn": "0001493152-24-031916"
+  "accn": "0001493152-24-018795"
  },
  "burn": {
-  "end": "2024-06-30",
-  "months": 5.9,
-  "per_month": -1745425.7319337018
+  "end": "2024-03-31",
+  "ytd_months": 3.0,
+  "ytd": -5873884,
+  "accn": "0001493152-24-018795",
+  "ttm_per_month": -1742786.5,
+  "quarter_per_month": -1957961.3333333333,
+  "per_month": -1742786.5
  },
  "shares": {
-  "end": "2024-08-08",
-  "shares": 14400889,
+  "end": "2024-05-10",
+  "shares": 9400889,
   "split_factor": 167.991,
   "splits_after": [
    [
@@ -37,13 +43,35 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001493152-24-018795",
+  "guided_until": "2024-10-15",
+  "guidance": "s, we anticipate cash resources will be sufficient to fund our operations into the fourth quarter of 2024. The",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "and the end of the term fees, net of previously amortized interest expense totaling $ 334,212 on the date of its payoff. Note 9. Stockholders' Equity At the Market Offering Agreement On May 25, 2022, the Company entered into an At the Market Offering Agreement (the &#8220;ATM Agreement&#8221;) with H.C. Wainwright &amp; Co., LLC (&#8220;Wainwright&#8221;) as sales agent, pursuant to which the Comp"
+ },
  "insiders": {
-  "form4s": 2,
-  "bought": 50250,
-  "sold": 0,
-  "buyers": [
-   "Lindborg Stacy",
-   "Tardugno Michael H"
+  "form4s": 10,
+  "from": "2024-05-02",
+  "to": "2024-08-30",
+  "trades": [
+   {
+    "date": "2024-08-15",
+    "filed": "2024-08-16",
+    "code": "P",
+    "value": 24500,
+    "who": "Lindborg Stacy"
+   },
+   {
+    "date": "2024-08-15",
+    "filed": "2024-08-16",
+    "code": "P",
+    "value": 25750,
+    "who": "Tardugno Michael H"
+   }
   ]
  },
  "drug": null,

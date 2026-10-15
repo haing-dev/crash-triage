@@ -3,43 +3,58 @@
  "cik": "1763950",
  "name": "Lantern Pharma Inc.",
  "date": "2026-03-27",
- "asof": "2026-04-26",
+ "asof": "2026-03-27",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-04-27",
-  "adj_close": 2.46
+  "date": "2026-03-27",
+  "adj_close": 1.12
  },
  "balance": {
-  "end": "2025-12-31",
-  "cash": 10119224,
+  "end": "2025-09-30",
+  "cash": 12362576,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue",
    "MarketableSecuritiesCurrent"
   ],
-  "accn": "0001493152-26-013612"
+  "accn": "0001493152-25-021927"
  },
  "burn": {
-  "end": "2025-12-31",
-  "months": 12.0,
-  "per_month": -1311008.986813187
+  "end": "2025-09-30",
+  "ytd_months": 8.9,
+  "ytd": -12884867,
+  "accn": "0001493152-25-021927",
+  "ttm_per_month": -1404721.1666666667,
+  "quarter_per_month": -1523993.3333333333,
+  "per_month": -1404721.1666666667
  },
  "shares": {
-  "end": "2026-03-13",
-  "shares": 11254697,
+  "end": "2025-11-05",
+  "shares": 11184423,
   "split_factor": 1.0,
   "splits_after": []
  },
- "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+ "filing": {
+  "accn": "0001493152-25-021927",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "ises and also plans to apply for grant funding in the future to assist in supporting its capital needs. In July 2025, the Company entered into an ATM Sales Agreement (&#8220;ATM&#8221;), with ThinkEquity LLC (&#8220;ThinkEquity&#8221;), as sales agent, pursuant to which the Company may offer and sell up to $ 15,530,000 of its common stock from time to time, in &#8220;at-the-market&#8221; offerings"
  },
- "drug": null,
+ "insiders": {
+  "form4s": 5,
+  "from": "2025-12-27",
+  "to": "2026-04-26",
+  "trades": []
+ },
+ "drug": "LP-300",
  "trials": {
   "query": "lantern pharma",
-  "other_trials": 2,
-  "crashed_drug_trials": 0,
+  "other_trials": 1,
+  "crashed_drug_trials": 1,
   "examples": [
    {
     "nct": "NCT05933265",
@@ -47,14 +62,6 @@
      "LP-184",
      "Olaparib",
      "Nivolumab & Ipilimumab"
-    ]
-   },
-   {
-    "nct": "NCT05456256",
-    "drugs": [
-     "LP-300",
-     "Pemetrexed",
-     "Carboplatin"
     ]
    }
   ]

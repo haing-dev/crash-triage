@@ -3,11 +3,12 @@
  "cik": "819050",
  "name": "Fresh Tracks Therapeutics, Inc.",
  "date": "2022-06-30",
- "asof": "2022-07-30",
+ "asof": "2022-07-06",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-08-01",
-  "adj_close": 3.05
+  "date": "2022-07-06",
+  "adj_close": 3.57
  },
  "balance": {
   "end": "2022-03-31",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2022-03-31",
-  "months": 2.9,
-  "per_month": -3262894.382022472
+  "ytd_months": 2.9,
+  "ytd": -9540000,
+  "accn": "0000819050-22-000059",
+  "ttm_per_month": -3316416.6666666665,
+  "quarter_per_month": -3180000.0,
+  "per_month": -3316416.6666666665
  },
  "shares": {
   "end": "2022-05-10",
@@ -33,11 +38,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0000819050-22-000059",
+  "guided_until": null,
+  "guidance": "sufficient to fund its operations for at least the next 12 months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "s common stock offerings for research and development, including clinical trials, working capital, and general corporate purposes. At Market Issuance Sales Agreements In March 2021, the Company entered into an At Market Issuance Sales Agreement (the &#8220;2021 ATM Agreement&#8221;) with Oppenheimer &amp; Co. Inc. (&#8220;Oppenheimer&#8221;) and William Blair &amp; Company, L.L.C. as the Company's"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 11,
+  "from": "2022-04-01",
+  "to": "2022-07-30",
+  "trades": []
  },
  "drug": null,
  "trials": {

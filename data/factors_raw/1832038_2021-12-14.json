@@ -3,11 +3,12 @@
  "cik": "1832038",
  "name": "Invivyd, Inc.",
  "date": "2021-12-14",
- "asof": "2022-01-13",
+ "asof": "2021-12-16",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-01-13",
-  "adj_close": 5.26
+  "date": "2021-12-16",
+  "adj_close": 14.18
  },
  "balance": {
   "end": "2021-09-30",
@@ -19,7 +20,11 @@
  },
  "burn": {
   "end": "2021-09-30",
-  "months": 8.9,
+  "ytd_months": 8.9,
+  "ytd": -111524000,
+  "accn": "0000950170-21-004586",
+  "ttm_per_month": null,
+  "quarter_per_month": -18071000.0,
   "per_month": -12480847.647058824
  },
  "shares": {
@@ -28,11 +33,21 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0000950170-21-004586",
+  "guided_until": "2023-01-15",
+  "guidance": "ents and marketable securities, will be sufficient to fund our operating expenses and capital expenditure requirements into the first quarter of 2023. Thi",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 3,
+  "from": "2021-09-15",
+  "to": "2022-01-13",
+  "trades": []
  },
  "drug": null,
  "trials": {

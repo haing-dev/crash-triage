@@ -3,11 +3,12 @@
  "cik": "1689548",
  "name": "Praxis Precision Medicines, Inc.",
  "date": "2022-06-06",
- "asof": "2022-07-06",
+ "asof": "2022-06-09",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-07-06",
-  "adj_close": 39.45
+  "date": "2022-06-09",
+  "adj_close": 26.25
  },
  "balance": {
   "end": "2022-03-31",
@@ -21,8 +22,12 @@
  },
  "burn": {
   "end": "2022-03-31",
-  "months": 2.9,
-  "per_month": -18506493.93258427
+  "ytd_months": 2.9,
+  "ytd": -54109000,
+  "accn": "0001689548-22-000038",
+  "ttm_per_month": -12745083.333333334,
+  "quarter_per_month": -18036333.333333332,
+  "per_month": -12745083.333333334
  },
  "shares": {
   "end": "2022-05-06",
@@ -35,16 +40,56 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001689548-22-000038",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "567,598 $ ( 316,615 ) $ ( 176 ) $ 250,812 Stock-based compensation expense &#8212; &#8212; 7,886 &#8212; &#8212; 7,886 Issuance of common stock from at-the-market public offerings, net of issuance costs 70,410 &#8212; 1,368 &#8212; &#8212; 1,368 Vesting of restricted stock units 81,130 &#8212; &#8212; &#8212; &#8212; &#8212; Shares withheld for taxes for vesting of restricted stock units ( 17,850 "
+ },
  "insiders": {
-  "form4s": 11,
-  "bought": 130725,
-  "sold": 0,
-  "buyers": [
-   "Kelly Timothy Edwin",
-   "MITCHELL DEAN J",
-   "Mastrocola Lauren",
-   "Nemiroff Alex",
-   "Souza Marcio"
+  "form4s": 23,
+  "from": "2022-03-08",
+  "to": "2022-07-06",
+  "trades": [
+   {
+    "date": "2022-06-16",
+    "filed": "2022-06-21",
+    "code": "P",
+    "value": 5775,
+    "who": "Mastrocola Lauren"
+   },
+   {
+    "date": "2022-06-13",
+    "filed": "2022-06-14",
+    "code": "P",
+    "value": 12225,
+    "who": "Nemiroff Alex"
+   },
+   {
+    "date": "2022-06-09",
+    "filed": "2022-06-13",
+    "code": "P",
+    "value": 17650,
+    "who": "Kelly Timothy Edwin"
+   },
+   {
+    "date": "2022-06-08",
+    "filed": "2022-06-09",
+    "code": "P",
+    "value": 49888,
+    "who": "Souza Marcio"
+   },
+   {
+    "date": "2022-06-08",
+    "filed": "2022-06-09",
+    "code": "P",
+    "value": 45188,
+    "who": "MITCHELL DEAN J"
+   }
   ]
  },
  "drug": null,

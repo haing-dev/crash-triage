@@ -3,36 +3,59 @@
  "cik": "1768224",
  "name": "Arcturus Therapeutics Holdings Inc.",
  "date": "2025-10-22",
- "asof": "2025-11-21",
+ "asof": "2025-10-28",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-11-21",
-  "adj_close": 6.26
+  "date": "2025-10-28",
+  "adj_close": 9.88
  },
  "balance": {
-  "end": "2025-09-30",
-  "cash": 180360000,
+  "end": "2025-06-30",
+  "cash": 196467000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001193125-25-275758"
+  "accn": "0000950170-25-106560"
  },
  "burn": {
-  "end": "2025-09-30",
-  "months": 8.9,
-  "per_month": -6495806.470588235
+  "end": "2025-06-30",
+  "ytd_months": 5.9,
+  "ytd": -40893000,
+  "accn": "0000950170-25-106560",
+  "ttm_per_month": -5411750.0,
+  "quarter_per_month": -1918333.3333333333,
+  "per_month": -5411750.0
  },
  "shares": {
-  "end": "2025-11-05",
-  "shares": 28412537,
+  "end": "2025-08-08",
+  "shares": 27154529,
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0000950170-25-106560",
+  "guided_until": null,
+  "guidance": "sufficient to meet our anticipated cash requirements through at least the next twelve months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "application for regulatory approval within a particular timeframe; &#8226; the likelihood or timing of any regulatory approval, and the likelihood that the marketing approval of ARCT-154 in Japan will be predictive of any future marketing approvals in other countries or for other versions of our LUNAR-COV19 or other product candidates or of any commercial sales; &#8226; the potential administratio"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 1,
+  "from": "2025-07-24",
+  "to": "2025-11-21",
+  "trades": [
+   {
+    "date": "2025-08-15",
+    "filed": "2025-08-19",
+    "code": "P",
+    "value": 20499,
+    "who": "SASSINE ANDY"
+   }
+  ]
  },
  "drug": null,
  "trials": {

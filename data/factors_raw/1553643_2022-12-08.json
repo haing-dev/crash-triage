@@ -3,11 +3,12 @@
  "cik": "1553643",
  "name": "RELMADA THERAPEUTICS, INC.",
  "date": "2022-12-08",
- "asof": "2023-01-07",
+ "asof": "2022-12-08",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-01-09",
-  "adj_close": 3.39
+  "date": "2022-12-08",
+  "adj_close": 2.17
  },
  "balance": {
   "end": "2022-09-30",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2022-09-30",
-  "months": 8.9,
-  "per_month": -7600903.476029412
+  "ytd_months": 8.9,
+  "ytd": -67918717,
+  "accn": "0001213900-22-071154",
+  "ttm_per_month": -8798240.083333334,
+  "quarter_per_month": -8954277.666666666,
+  "per_month": -8798240.083333334
  },
  "shares": {
   "end": "2022-11-07",
@@ -29,12 +34,28 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001213900-22-071154",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "ance &#8211; December 31, 2021 27,740,147 $ 27,740 $ 513,304,258 $ ( 305,067,112 ) $ 208,264,886 Stock based compensation - - 11,930,681 - 11,930,681 ATM offering, net 1,609,343 1,610 29,581,932 - 29,583,542 Warrant exercised for cash 33,334 33 299,973 - 300,006 Options exercised for cash 20,000 20 64,780 - 64,800 Net loss - - - ( 39,745,783 ) ( 39,745,783 ) Balance &#8211; March 31, 2022 29,402,8"
+ },
  "insiders": {
   "form4s": 11,
-  "bought": 115804,
-  "sold": 0,
-  "buyers": [
-   "TRAVERSA SERGIO"
+  "from": "2022-09-09",
+  "to": "2023-01-07",
+  "trades": [
+   {
+    "date": "2022-12-08",
+    "filed": "2022-12-12",
+    "code": "P",
+    "value": 115804,
+    "who": "TRAVERSA SERGIO"
+   }
   ]
  },
  "drug": null,

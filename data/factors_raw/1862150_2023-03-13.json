@@ -3,11 +3,12 @@
  "cik": "1862150",
  "name": "Cingulate Inc.",
  "date": "2023-03-13",
- "asof": "2023-04-12",
+ "asof": "2023-03-17",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-04-12",
-  "adj_close": 239.75999
+  "date": "2023-03-17",
+  "adj_close": 222.0
  },
  "balance": {
   "end": "2022-12-31",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2022-12-31",
-  "months": 12.0,
-  "per_month": -1328221.636043956
+  "ytd_months": 12.0,
+  "ytd": -15882808,
+  "accn": "0001493152-23-007252",
+  "ttm_per_month": -1323567.3333333333,
+  "quarter_per_month": -1402164.6666666667,
+  "per_month": -1323567.3333333333
  },
  "shares": {
   "end": "2023-03-03",
@@ -41,11 +46,57 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001493152-23-007252",
+  "guided_until": "2023-04-15",
+  "guidance": "together with interest thereon, will be sufficient to fund our operations into the second quarter of 2023. We",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "lawsuit. Such a lawsuit could also divert the time and attention of our management. Our warrants may not have any value. There can be no assurance that the market price of our common stock will ever equal or exceed the exercise price of our outstanding warrants. In the event that our common stock price does not exceed the exercise price of the warrants during the period when the warrants are exerc"
+ },
  "insiders": {
-  "form4s": 1,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 12,
+  "from": "2022-12-13",
+  "to": "2023-04-12",
+  "trades": [
+   {
+    "date": "2022-12-16",
+    "filed": "2022-12-19",
+    "code": "P",
+    "value": 10166,
+    "who": "Schaffer Shane J."
+   },
+   {
+    "date": "2022-12-13",
+    "filed": "2022-12-15",
+    "code": "P",
+    "value": 28422,
+    "who": "Werth Peter J."
+   },
+   {
+    "date": "2022-12-13",
+    "filed": "2022-12-15",
+    "code": "P",
+    "value": 1750,
+    "who": "Schaffer Shane J."
+   },
+   {
+    "date": "2022-12-14",
+    "filed": "2022-12-15",
+    "code": "P",
+    "value": 13400,
+    "who": "Schaffer Shane J."
+   },
+   {
+    "date": "2022-12-14",
+    "filed": "2022-12-15",
+    "code": "P",
+    "value": 7468,
+    "who": "Callahan Jennifer L."
+   }
+  ]
  },
  "drug": null,
  "trials": {

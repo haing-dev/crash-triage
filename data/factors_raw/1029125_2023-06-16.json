@@ -3,11 +3,12 @@
  "cik": "1029125",
  "name": "Panbela Therapeutics, Inc.",
  "date": "2023-06-16",
- "asof": "2023-07-16",
+ "asof": "2023-06-16",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-07-17",
-  "adj_close": 41.6
+  "date": "2023-06-16",
+  "adj_close": 52.0
  },
  "balance": {
   "end": "2023-03-31",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2023-03-31",
-  "months": 2.9,
-  "per_month": -3335061.1235955055
+  "ytd_months": 2.9,
+  "ytd": -9751000,
+  "accn": "0001437749-23-012574",
+  "ttm_per_month": -1712000.0,
+  "quarter_per_month": -3250333.3333333335,
+  "per_month": -1712000.0
  },
  "shares": {
   "end": "2023-05-02",
@@ -41,11 +46,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001437749-23-012574",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "in the first quarter of 2023, the Company received net proceeds of approximately $ 1.6 million from the sale of common stock via the Company&#x2019;s At-the-Market facility. We need to raise additional capital to support our current business plans. We may seek to raise additional funds through various sources, such as equity and debt financing, or through strategic collaborations and license agree"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 8,
+  "from": "2023-03-18",
+  "to": "2023-07-16",
+  "trades": []
  },
  "drug": null,
  "trials": {

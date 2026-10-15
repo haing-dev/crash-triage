@@ -3,11 +3,12 @@
  "cik": "1737953",
  "name": "Replimune Group, Inc.",
  "date": "2026-04-13",
- "asof": "2026-05-13",
+ "asof": "2026-04-13",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-05-13",
-  "adj_close": 5.3
+  "date": "2026-04-13",
+  "adj_close": 1.7
  },
  "balance": {
   "end": "2025-12-31",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2025-12-31",
-  "months": 9.0,
-  "per_month": -24905585.839416057
+  "ytd_months": 9.0,
+  "ytd": -224183000,
+  "accn": "0001628280-26-004805",
+  "ttm_per_month": -23159500.0,
+  "quarter_per_month": -21985000.0,
+  "per_month": -23159500.0
  },
  "shares": {
   "end": "2026-01-30",
@@ -29,53 +34,42 @@
   "split_factor": 1.0,
   "splits_after": []
  },
- "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+ "filing": {
+  "accn": "0001628280-26-004805",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "undesignated preferred stock, par value $ 0.001 per share. There were no undesignated preferred shares issued or outstanding as of December 31, 2025. ATM program On August 3, 2023, the Company and Leerink Partners LLC (the \"Agent\") entered into a sales agreement, which was subsequently amended on May 16, 2024, November 25, 2024 and May 22, 2025 (as so amended, the \"2023 Sales Agreement\"). Under th"
  },
- "drug": null,
+ "insiders": {
+  "form4s": 16,
+  "from": "2026-01-13",
+  "to": "2026-05-13",
+  "trades": [
+   {
+    "date": "2026-04-02",
+    "filed": "2026-04-06",
+    "code": "S",
+    "value": 52065,
+    "who": "Sarchi Christopher"
+   }
+  ]
+ },
+ "drug": "RP1 (vusolimogene oderparepvec) plus nivolumab",
  "trials": {
   "query": "replimune",
-  "other_trials": 5,
-  "crashed_drug_trials": 0,
+  "other_trials": 1,
+  "crashed_drug_trials": 4,
   "examples": [
-   {
-    "nct": "NCT03767348",
-    "drugs": [
-     "RP1",
-     "nivolumab"
-    ]
-   },
-   {
-    "nct": "NCT06264180",
-    "drugs": [
-     "Vusolimogene Oderparepvec",
-     "Nivolumab",
-     "Nivolumab + Relatlimab"
-    ]
-   },
    {
     "nct": "NCT05733598",
     "drugs": [
      "RP2",
      "Bevacizumab",
      "Atezolizumab"
-    ]
-   },
-   {
-    "nct": "NCT04349436",
-    "drugs": [
-     "RP1, intra-tumoral injection, oncolytic virus"
-    ]
-   },
-   {
-    "nct": "NCT06581406",
-    "drugs": [
-     "RP2",
-     "Ipilimumab",
-     "Nivolumab"
     ]
    }
   ]

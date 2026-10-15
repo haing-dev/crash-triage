@@ -3,11 +3,12 @@
  "cik": "1479615",
  "name": "Silence Therapeutics plc",
  "date": "2024-11-19",
- "asof": "2024-12-19",
+ "asof": "2024-11-19",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-12-19",
-  "adj_close": 6.34
+  "date": "2024-11-19",
+  "adj_close": 6.97
  },
  "balance": {
   "end": "2023-12-31",
@@ -24,11 +25,21 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0000950170-24-030519",
+  "guided_until": "2026-01-15",
+  "guidance": "rom our existing collaborations will be sufficient to fund our operating expenses and capital expenditure requirements into 2026; and",
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "lion), before deducting &#163;1.0 million in placement agent fees and other expenses, from sales of ADSs under our Open Market Sale Agreement, or the Sales Agreement, with Jefferies LLC, as sales agent. As of December 31, 2023, we had cash and cash equivalents of &#163;54.0 million ($68.8 million). In January 2024, we raised an additional $20 million of net proceeds before deducting $0.6 million i"
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2024-08-21",
+  "to": "2024-12-19",
+  "trades": []
  },
  "drug": null,
  "trials": {

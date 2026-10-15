@@ -3,28 +3,33 @@
  "cik": "1780097",
  "name": "Baudax Bio, Inc.",
  "date": "2023-04-27",
- "asof": "2023-05-27",
+ "asof": "2023-04-28",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-05-30",
-  "adj_close": 0.5186
+  "date": "2023-04-28",
+  "adj_close": 0.768
  },
  "balance": {
-  "end": "2023-03-31",
-  "cash": 3803000,
+  "end": "2022-12-31",
+  "cash": 5259000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0000950170-23-021387"
+  "accn": "0000950170-23-003946"
  },
  "burn": {
-  "end": "2023-03-31",
-  "months": 2.9,
-  "per_month": -1346884.4943820224
+  "end": "2022-12-31",
+  "ytd_months": 12.0,
+  "ytd": -27793000,
+  "accn": "0000950170-23-003946",
+  "ttm_per_month": -2316083.3333333335,
+  "quarter_per_month": -1261000.0,
+  "per_month": -2316083.3333333335
  },
  "shares": {
-  "end": "2023-05-09",
-  "shares": 6063964,
+  "end": "2023-02-21",
+  "shares": 2585702,
   "split_factor": 40.0,
   "splits_after": [
    [
@@ -33,11 +38,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0000950170-23-003946",
+  "guided_until": "2023-04-15",
+  "guidance": "in the year ended December 31, 2022 are sufficient to fund our currently anticipated operating and capital requirements into the second quarter of 2023, how",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2023-01-27",
+  "to": "2023-05-27",
+  "trades": []
  },
  "drug": null,
  "trials": {

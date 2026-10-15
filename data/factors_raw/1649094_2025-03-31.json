@@ -3,11 +3,12 @@
  "cik": "1649094",
  "name": "Vaxcyte, Inc.",
  "date": "2025-03-31",
- "asof": "2025-04-30",
+ "asof": "2025-04-01",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-04-30",
-  "adj_close": 35.84
+  "date": "2025-04-01",
+  "adj_close": 32.23
  },
  "balance": {
   "end": "2024-12-31",
@@ -21,8 +22,12 @@
  },
  "burn": {
   "end": "2024-12-31",
-  "months": 12.0,
-  "per_month": -37747851.7260274
+  "ytd_months": 12.0,
+  "ytd": -452627000,
+  "accn": "0001649094-25-000028",
+  "ttm_per_month": -37718916.666666664,
+  "quarter_per_month": -37133666.666666664,
+  "per_month": -37718916.666666664
  },
  "shares": {
   "end": "2025-02-21",
@@ -30,11 +35,246 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001649094-25-000028",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "d private equity offerings, debt financings, strategic partnerships and alliances and licensing arrangements, including through the use of our &#8220;at-the-market&#8221; facility. To the extent that we raise additional capital through the sale of equity or convertible debt securities, your ownership interest will 92 Table of Contents be diluted, and the terms may include liquidation or other pref"
+ },
  "insiders": {
-  "form4s": 3,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 17,
+  "from": "2024-12-31",
+  "to": "2025-04-30",
+  "trades": [
+   {
+    "date": "2025-03-05",
+    "filed": "2025-03-07",
+    "code": "S",
+    "value": 184487,
+    "who": "Eydelman Mikhail"
+   },
+   {
+    "date": "2025-03-05",
+    "filed": "2025-03-07",
+    "code": "S",
+    "value": 161107,
+    "who": "Eydelman Mikhail"
+   },
+   {
+    "date": "2025-03-05",
+    "filed": "2025-03-07",
+    "code": "S",
+    "value": 8105,
+    "who": "Eydelman Mikhail"
+   },
+   {
+    "date": "2025-03-03",
+    "filed": "2025-03-03",
+    "code": "S",
+    "value": 432215,
+    "who": "Wassil Jim"
+   },
+   {
+    "date": "2025-03-03",
+    "filed": "2025-03-03",
+    "code": "S",
+    "value": 153950,
+    "who": "Wassil Jim"
+   },
+   {
+    "date": "2025-02-18",
+    "filed": "2025-02-19",
+    "code": "S",
+    "value": 517056,
+    "who": "GUGGENHIME ANDREW"
+   },
+   {
+    "date": "2025-02-18",
+    "filed": "2025-02-19",
+    "code": "S",
+    "value": 153766,
+    "who": "GUGGENHIME ANDREW"
+   },
+   {
+    "date": "2025-02-05",
+    "filed": "2025-02-07",
+    "code": "S",
+    "value": 50115,
+    "who": "Eydelman Mikhail"
+   },
+   {
+    "date": "2025-02-05",
+    "filed": "2025-02-07",
+    "code": "S",
+    "value": 56571,
+    "who": "Eydelman Mikhail"
+   },
+   {
+    "date": "2025-02-05",
+    "filed": "2025-02-07",
+    "code": "S",
+    "value": 157860,
+    "who": "Eydelman Mikhail"
+   },
+   {
+    "date": "2025-02-05",
+    "filed": "2025-02-07",
+    "code": "S",
+    "value": 162437,
+    "who": "Eydelman Mikhail"
+   },
+   {
+    "date": "2025-02-05",
+    "filed": "2025-02-07",
+    "code": "S",
+    "value": 23386,
+    "who": "Eydelman Mikhail"
+   },
+   {
+    "date": "2025-02-03",
+    "filed": "2025-02-04",
+    "code": "S",
+    "value": 456983,
+    "who": "Wassil Jim"
+   },
+   {
+    "date": "2025-02-03",
+    "filed": "2025-02-04",
+    "code": "S",
+    "value": 231049,
+    "who": "Wassil Jim"
+   },
+   {
+    "date": "2025-02-03",
+    "filed": "2025-02-04",
+    "code": "S",
+    "value": 1759,
+    "who": "Wassil Jim"
+   },
+   {
+    "date": "2025-01-21",
+    "filed": "2025-01-22",
+    "code": "S",
+    "value": 457795,
+    "who": "GUGGENHIME ANDREW"
+   },
+   {
+    "date": "2025-01-21",
+    "filed": "2025-01-22",
+    "code": "S",
+    "value": 174407,
+    "who": "GUGGENHIME ANDREW"
+   },
+   {
+    "date": "2025-01-21",
+    "filed": "2025-01-22",
+    "code": "S",
+    "value": 59899,
+    "who": "GUGGENHIME ANDREW"
+   },
+   {
+    "date": "2025-01-15",
+    "filed": "2025-01-17",
+    "code": "S",
+    "value": 11747,
+    "who": "Loxam Teri"
+   },
+   {
+    "date": "2025-01-15",
+    "filed": "2025-01-17",
+    "code": "S",
+    "value": 17530,
+    "who": "Loxam Teri"
+   },
+   {
+    "date": "2025-01-15",
+    "filed": "2025-01-17",
+    "code": "S",
+    "value": 94168,
+    "who": "Loxam Teri"
+   },
+   {
+    "date": "2025-01-15",
+    "filed": "2025-01-17",
+    "code": "S",
+    "value": 100885,
+    "who": "Loxam Teri"
+   },
+   {
+    "date": "2025-01-15",
+    "filed": "2025-01-17",
+    "code": "S",
+    "value": 88961,
+    "who": "Loxam Teri"
+   },
+   {
+    "date": "2025-01-15",
+    "filed": "2025-01-17",
+    "code": "S",
+    "value": 83324,
+    "who": "Loxam Teri"
+   },
+   {
+    "date": "2025-01-15",
+    "filed": "2025-01-17",
+    "code": "S",
+    "value": 88513,
+    "who": "Loxam Teri"
+   },
+   {
+    "date": "2025-01-15",
+    "filed": "2025-01-17",
+    "code": "S",
+    "value": 46836,
+    "who": "Loxam Teri"
+   },
+   {
+    "date": "2025-01-06",
+    "filed": "2025-01-07",
+    "code": "S",
+    "value": 80953,
+    "who": "Eydelman Mikhail"
+   },
+   {
+    "date": "2025-01-06",
+    "filed": "2025-01-07",
+    "code": "S",
+    "value": 336155,
+    "who": "Eydelman Mikhail"
+   },
+   {
+    "date": "2025-01-06",
+    "filed": "2025-01-07",
+    "code": "S",
+    "value": 10815,
+    "who": "Eydelman Mikhail"
+   },
+   {
+    "date": "2025-01-02",
+    "filed": "2025-01-03",
+    "code": "S",
+    "value": 112381,
+    "who": "Wassil Jim"
+   },
+   {
+    "date": "2025-01-02",
+    "filed": "2025-01-03",
+    "code": "S",
+    "value": 458861,
+    "who": "Wassil Jim"
+   },
+   {
+    "date": "2025-01-02",
+    "filed": "2025-01-03",
+    "code": "S",
+    "value": 98024,
+    "who": "Wassil Jim"
+   }
+  ]
  },
  "drug": null,
  "trials": {

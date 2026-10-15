@@ -3,11 +3,12 @@
  "cik": "748592",
  "name": "Ernexa Therapeutics Inc.",
  "date": "2026-02-06",
- "asof": "2026-03-08",
+ "asof": "2026-02-09",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-03-09",
-  "adj_close": 7.0
+  "date": "2026-02-09",
+  "adj_close": 7.75
  },
  "balance": {
   "end": "2025-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2025-09-30",
-  "months": 8.9,
-  "per_month": -656810.1470588235
+  "ytd_months": 8.9,
+  "ytd": -5869000,
+  "accn": "0001493152-25-021287",
+  "ttm_per_month": -784500.0,
+  "quarter_per_month": -424000.0,
+  "per_month": -784500.0
  },
  "shares": {
   "end": "2025-11-07",
@@ -37,15 +42,31 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001493152-25-021287",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
   "form4s": 1,
-  "bought": 2000000,
-  "sold": 0,
-  "buyers": [
-   "Cherington Charles"
+  "from": "2025-11-08",
+  "to": "2026-03-08",
+  "trades": [
+   {
+    "date": "2026-02-10",
+    "filed": "2026-02-17",
+    "code": "P",
+    "value": 2000000,
+    "who": "Cherington Charles"
+   }
   ]
  },
- "drug": null,
+ "drug": "ERNA-101",
  "trials": {
   "query": "ernexa therapeutics",
   "other_trials": 0,

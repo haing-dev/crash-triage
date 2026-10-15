@@ -3,11 +3,12 @@
  "cik": "1826892",
  "name": "BioAtla, Inc.",
  "date": "2023-01-10",
- "asof": "2023-02-09",
+ "asof": "2023-01-12",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-02-09",
-  "adj_close": 197.5
+  "date": "2023-01-12",
+  "adj_close": 170.0
  },
  "balance": {
   "end": "2022-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2022-09-30",
-  "months": 8.9,
-  "per_month": -7394346.029411765
+  "ytd_months": 8.9,
+  "ytd": -66073000,
+  "accn": "0000950170-22-022036",
+  "ttm_per_month": -7251833.333333333,
+  "quarter_per_month": -8005333.333333333,
+  "per_month": -7251833.333333333
  },
  "shares": {
   "end": "2021-08-13",
@@ -33,11 +38,36 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0000950170-22-022036",
+  "guided_until": "2024-07-15",
+  "guidance": "and cash equivalents are expected to be sufficient to fund our ongoing operations into the second half of 2024. How",
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 5,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 22,
+  "from": "2022-10-12",
+  "to": "2023-02-09",
+  "trades": [
+   {
+    "date": "2022-12-19",
+    "filed": "2022-12-19",
+    "code": "P",
+    "value": 30813,
+    "who": "MCBRINN SYLVIA"
+   },
+   {
+    "date": "2022-11-22",
+    "filed": "2022-11-23",
+    "code": "P",
+    "value": 16540,
+    "who": "MCBRINN SYLVIA"
+   }
+  ]
  },
  "drug": null,
  "trials": {

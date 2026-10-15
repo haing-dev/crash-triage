@@ -3,11 +3,12 @@
  "cik": "1124105",
  "name": "GYRE THERAPEUTICS, INC.",
  "date": "2022-09-21",
- "asof": "2022-10-21",
+ "asof": "2022-09-21",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-10-21",
-  "adj_close": 8.7
+  "date": "2022-09-21",
+  "adj_close": 7.5
  },
  "balance": {
   "end": "2022-06-30",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2022-06-30",
-  "months": 5.9,
-  "per_month": -4116840.888888889
+  "ytd_months": 5.9,
+  "ytd": -24344000,
+  "accn": "0001564590-22-029487",
+  "ttm_per_month": -5301666.666666667,
+  "quarter_per_month": -4098000.0,
+  "per_month": -5301666.666666667
  },
  "shares": {
   "end": "2022-07-29",
@@ -34,11 +39,43 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001564590-22-029487",
+  "guided_until": null,
+  "guidance": "sufficient to fund its cash requirements for at least the next 12 months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "of operations, which the Company paid in the second quarter of 2022. Sale of Assets During the quarter ended June 30, 2022, the Company entered into sales agreements with Dren Bio, Inc. and Copia Scientific, LLC, pursuant to which the Company sold various lab equipment, consumables, and furniture and fixtures for total consideration of $ 0.4 million. The Company recorded a loss on disposal of $ 0."
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 3,
+  "from": "2022-06-23",
+  "to": "2022-10-21",
+  "trades": [
+   {
+    "date": "2022-08-09",
+    "filed": "2022-08-10",
+    "code": "P",
+    "value": 1528,
+    "who": "USMAN NASSIM"
+   },
+   {
+    "date": "2022-08-09",
+    "filed": "2022-08-10",
+    "code": "P",
+    "value": 1528,
+    "who": "Miller Seline E."
+   },
+   {
+    "date": "2022-08-09",
+    "filed": "2022-08-10",
+    "code": "P",
+    "value": 1528,
+    "who": "Blouse Grant E."
+   }
+  ]
  },
  "drug": null,
  "trials": {

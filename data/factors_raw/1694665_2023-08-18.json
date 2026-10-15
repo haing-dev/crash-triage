@@ -3,11 +3,12 @@
  "cik": "1694665",
  "name": "Evelo Biosciences, Inc.",
  "date": "2023-08-18",
- "asof": "2023-09-17",
+ "asof": "2023-08-23",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-09-18",
-  "adj_close": 5.04
+  "date": "2023-08-23",
+  "adj_close": 5.74
  },
  "balance": {
   "end": "2023-06-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2023-06-30",
-  "months": 5.9,
-  "per_month": -6781862.888888889
+  "ytd_months": 5.9,
+  "ytd": -40103000,
+  "accn": "0001694665-23-000146",
+  "ttm_per_month": -7156666.666666667,
+  "quarter_per_month": -6609000.0,
+  "per_month": -7156666.666666667
  },
  "shares": {
   "end": "2023-08-10",
@@ -28,11 +33,78 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001694665-23-000146",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": 69100000.0,
+  "atm_quote": "isting Rule 5550(a)(2 ). Compliance with Nasdaq Continued Listing Requirements On August 9, 2023, we were notified by Nasdaq Listing Qualifications that the market value of our publicly held shares has been at or above the $15 million requirement for 14 consecutive business days from July 20, 2023 to August 8, 2023. Accordingly, we have regained compliance with Listing Rule 5450(b)(2)(C). Private "
+ },
  "insiders": {
-  "form4s": 3,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 20,
+  "from": "2023-05-20",
+  "to": "2023-09-17",
+  "trades": [
+   {
+    "date": "2023-08-08",
+    "filed": "2023-08-09",
+    "code": "S",
+    "value": 29747,
+    "who": "Bodmer Mark"
+   },
+   {
+    "date": "2023-08-08",
+    "filed": "2023-08-09",
+    "code": "S",
+    "value": 3252,
+    "who": "GILL SIMBA"
+   },
+   {
+    "date": "2023-08-08",
+    "filed": "2023-08-09",
+    "code": "S",
+    "value": 32657,
+    "who": "McHale Duncan"
+   },
+   {
+    "date": "2023-08-08",
+    "filed": "2023-08-09",
+    "code": "S",
+    "value": 19058,
+    "who": "Thorell Marella"
+   },
+   {
+    "date": "2023-07-11",
+    "filed": "2023-07-13",
+    "code": "P",
+    "value": 2500000,
+    "who": "Flagship Ventures Fund IV General Partner LLC"
+   },
+   {
+    "date": "2023-07-11",
+    "filed": "2023-07-13",
+    "code": "P",
+    "value": 2500000,
+    "who": "Flagship Ventures Fund IV General Partner LLC"
+   },
+   {
+    "date": "2023-07-11",
+    "filed": "2023-07-13",
+    "code": "P",
+    "value": 7499999,
+    "who": "Flagship Ventures Fund IV General Partner LLC"
+   },
+   {
+    "date": "2023-05-23",
+    "filed": "2023-06-12",
+    "code": "S",
+    "value": 3201,
+    "who": "Bodmer Mark"
+   }
+  ]
  },
  "drug": null,
  "trials": {

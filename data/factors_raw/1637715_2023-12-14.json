@@ -3,11 +3,12 @@
  "cik": "1637715",
  "name": "OnKure Therapeutics, Inc.",
  "date": "2023-12-14",
- "asof": "2024-01-13",
+ "asof": "2023-12-14",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-01-16",
-  "adj_close": 16.7
+  "date": "2023-12-14",
+  "adj_close": 13.4
  },
  "balance": {
   "end": "2023-09-30",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2023-09-30",
-  "months": 8.9,
-  "per_month": -4916171.911764706
+  "ytd_months": 8.9,
+  "ytd": -43929000,
+  "accn": "0000950170-23-062910",
+  "ttm_per_month": -4961833.333333333,
+  "quarter_per_month": -6255666.666666667,
+  "per_month": -4961833.333333333
  },
  "shares": {
   "end": "2023-11-09",
@@ -42,11 +47,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0000950170-23-062910",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "$ ( 43 ) $ ( 136,683 ) $ 99,970 Stock based compensation &#x2014; &#x2014; 1,157 &#x2014; &#x2014; 1,157 Issuance of common stock in connection with at-the-market facility, net of issuance costs 407,877 &#x2014; 1,009 &#x2014; &#x2014; 1,009 Other comprehensive income &#x2014; &#x2014; &#x2014; 55 &#x2014; 55 Net loss &#x2014; &#x2014; &#x2014; &#x2014; ( 15,107 ) ( 15,107 ) Balances, March 31, 20"
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2023-09-15",
+  "to": "2024-01-13",
+  "trades": []
  },
  "drug": null,
  "trials": {

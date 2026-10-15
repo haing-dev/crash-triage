@@ -3,20 +3,22 @@
  "cik": "1728328",
  "name": "InMed Pharmaceuticals Inc.",
  "date": "2020-11-12",
- "asof": "2020-12-12",
+ "asof": "2020-11-12",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2020-12-14",
-  "adj_close": 1535.0
+  "date": "2020-11-12",
+  "adj_close": 1625.0
  },
  "balance": null,
  "burn": null,
  "shares": null,
+ "filing": null,
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2020-08-14",
+  "to": "2020-12-12",
+  "trades": []
  },
  "drug": null,
  "trials": {

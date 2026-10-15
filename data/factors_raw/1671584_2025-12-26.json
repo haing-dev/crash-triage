@@ -3,11 +3,12 @@
  "cik": "1671584",
  "name": "Aptevo Therapeutics Inc.",
  "date": "2025-12-26",
- "asof": "2026-01-25",
+ "asof": "2025-12-30",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-01-26",
-  "adj_close": 8.81
+  "date": "2025-12-30",
+  "adj_close": 9.39
  },
  "balance": {
   "end": "2025-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2025-09-30",
-  "months": 8.9,
-  "per_month": -2278075.882352941
+  "ytd_months": 8.9,
+  "ytd": -20356000,
+  "accn": "0001193125-25-269598",
+  "ttm_per_month": -2176250.0,
+  "quarter_per_month": -2229333.3333333335,
+  "per_month": -2176250.0
  },
  "shares": {
   "end": "2025-11-06",
@@ -37,13 +42,31 @@
    ]
   ]
  },
- "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+ "filing": {
+  "accn": "0001193125-25-269598",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "eement (the &#8220;SEPA&#8221;) with YA II PN, LTD., a Cayman Islands exempt limited company (&#8220;Yorkville&#8221;) , dated June 16, 2025, and the At the Market Offering Agreement (the &#8220;ATM Agreement&#8221;) with Roth Capital Partners, LLC, as sales agent (&#8220;Roth&#8221;), dated April 28, 2025. In addition, $ 4.1 million in net proceeds was raised during the subsequent events period. "
  },
- "drug": null,
+ "insiders": {
+  "form4s": 2,
+  "from": "2025-09-27",
+  "to": "2026-01-25",
+  "trades": [
+   {
+    "date": "2025-11-10",
+    "filed": "2025-11-12",
+    "code": "P",
+    "value": 20134,
+    "who": "Grant Grady III"
+   }
+  ]
+ },
+ "drug": "n/a",
  "trials": {
   "query": "aptevo therapeutics",
   "other_trials": 0,

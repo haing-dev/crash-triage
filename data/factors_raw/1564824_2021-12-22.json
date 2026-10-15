@@ -3,11 +3,12 @@
  "cik": "1564824",
  "name": "Allakos Inc.",
  "date": "2021-12-22",
- "asof": "2022-01-21",
+ "asof": "2021-12-22",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-01-21",
-  "adj_close": 6.85
+  "date": "2021-12-22",
+  "adj_close": 8.55
  },
  "balance": {
   "end": "2021-09-30",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2021-09-30",
-  "months": 8.9,
-  "per_month": -15944740.588235294
+  "ytd_months": 8.9,
+  "ytd": -142476000,
+  "accn": "0000950170-21-003465",
+  "ttm_per_month": -14740916.666666666,
+  "quarter_per_month": -15478333.333333334,
+  "per_month": -14740916.666666666
  },
  "shares": {
   "end": "2021-11-03",
@@ -29,11 +34,29 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0000950170-21-003465",
+  "guided_until": null,
+  "guidance": "sufficient to fund the Company&#x2019;s operations for at least the next 12 months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "ice of $82.00 per share. We received aggregate net proceeds of $271.7 million, after deducting the underwriting discounts and commissions. 23 &#x201c;At-the-Market&#x201d; Equity Offering On May 10, 2021, we entered into a Sales Agreement (the &#x201c;Sales Agreement&#x201d;) with Cowen and Company, LLC (&#x201c;Cowen&#x201d;). Pursuant to the terms of the Sales Agreement, we may sell, from time t"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 11,
+  "from": "2021-09-23",
+  "to": "2022-01-21",
+  "trades": [
+   {
+    "date": "2021-09-28",
+    "filed": "2021-09-29",
+    "code": "S",
+    "value": 432480,
+    "who": "James Steven P"
+   }
+  ]
  },
  "drug": null,
  "trials": {

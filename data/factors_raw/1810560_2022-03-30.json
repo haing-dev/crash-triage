@@ -3,28 +3,34 @@
  "cik": "1810560",
  "name": "REVELATION BIOSCIENCES, INC.",
  "date": "2022-03-30",
- "asof": "2022-04-29",
+ "asof": "2022-03-31",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-04-29",
-  "adj_close": 191520.0
+  "date": "2022-03-31",
+  "adj_close": 229824.0
  },
  "balance": {
-  "end": "2021-12-31",
-  "cash": 78532,
+  "end": "2020-12-31",
+  "cash": 537021,
   "parts": [
-   "CashAndCashEquivalentsAtCarryingValue"
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
   ],
-  "accn": "0001213900-22-020179"
+  "accn": "0001213900-21-055498"
  },
  "burn": {
-  "end": "2021-12-31",
-  "months": 12.0,
-  "per_month": -60680.80197802198
+  "end": "2021-09-30",
+  "ytd_months": 8.9,
+  "ytd": -499916,
+  "accn": "0001213900-21-055498",
+  "ttm_per_month": -58870.083333333336,
+  "quarter_per_month": -93989.0,
+  "per_month": -58870.083333333336
  },
  "shares": {
-  "end": "2022-04-13",
-  "shares": 15082771,
+  "end": "2021-10-29",
+  "shares": 9097689,
   "split_factor": 6696039610.077,
   "splits_after": [
    [
@@ -69,11 +75,57 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001213900-21-055498",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 4,
+  "from": "2021-12-30",
+  "to": "2022-04-29",
+  "trades": [
+   {
+    "date": "2022-02-25",
+    "filed": "2022-02-28",
+    "code": "P",
+    "value": 32000,
+    "who": "TIDMARSH GEORGE F"
+   },
+   {
+    "date": "2022-02-08",
+    "filed": "2022-02-10",
+    "code": "P",
+    "value": 2540,
+    "who": "TIDMARSH GEORGE F"
+   },
+   {
+    "date": "2022-02-09",
+    "filed": "2022-02-10",
+    "code": "P",
+    "value": 76599,
+    "who": "TIDMARSH GEORGE F"
+   },
+   {
+    "date": "2022-02-04",
+    "filed": "2022-02-08",
+    "code": "P",
+    "value": 18256,
+    "who": "TIDMARSH GEORGE F"
+   },
+   {
+    "date": "2022-02-07",
+    "filed": "2022-02-08",
+    "code": "P",
+    "value": 109780,
+    "who": "TIDMARSH GEORGE F"
+   }
+  ]
  },
  "drug": null,
  "trials": {

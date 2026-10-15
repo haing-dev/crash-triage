@@ -3,11 +3,12 @@
  "cik": "1862150",
  "name": "Cingulate Inc.",
  "date": "2024-02-02",
- "asof": "2024-03-03",
+ "asof": "2024-02-02",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-03-04",
-  "adj_close": 14.16
+  "date": "2024-02-02",
+  "adj_close": 15.96
  },
  "balance": {
   "end": "2023-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2023-09-30",
-  "months": 8.9,
-  "per_month": -1395782.7782352942
+  "ytd_months": 8.9,
+  "ytd": -12472172,
+  "accn": "0001493152-23-040540",
+  "ttm_per_month": -1389888.8333333333,
+  "quarter_per_month": -1430655.0,
+  "per_month": -1389888.8333333333
  },
  "shares": {
   "end": "2023-11-10",
@@ -41,11 +46,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001493152-23-040540",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "09,412 $ 1,131 $ 73,493,866 $ ( 73,413,383 ) $ - $ 81,614 Activity for the three months to June 30, 2023: Issuance of common stock in connection with At the Market Offering and Purchase Agreement, net of fees 747,376 75 218,723 218,798 Stock-based compensation expense - - 217,376 - - 217,376 Net loss - - - ( 6,616,309 ) - ( 6,616,309 ) Balance June 30, 2023 12,056,788 $ 1,206 $ 73,929,965 $ ( 80,0"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 2,
+  "from": "2023-11-04",
+  "to": "2024-03-03",
+  "trades": []
  },
  "drug": null,
  "trials": {

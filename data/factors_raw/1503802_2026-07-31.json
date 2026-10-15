@@ -3,83 +3,108 @@
  "cik": "1503802",
  "name": "Karyopharm Therapeutics Inc.",
  "date": "2026-07-31",
- "asof": "2026-08-30",
+ "asof": "2026-07-31",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-08-31",
-  "adj_close": 2.06
+  "date": "2026-07-31",
+  "adj_close": 1.92
  },
  "balance": {
-  "end": "2026-06-30",
-  "cash": 65105000,
+  "end": "2026-03-31",
+  "cash": 90850000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue",
    "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
   ],
-  "accn": "0001193125-26-347906"
+  "accn": "0001193125-26-222827"
  },
  "burn": {
-  "end": "2026-06-30",
-  "months": 5.9,
-  "per_month": -8059666.444444445
+  "end": "2026-03-31",
+  "ytd_months": 2.9,
+  "ytd": -22728000,
+  "accn": "0001193125-26-222827",
+  "ttm_per_month": -4926083.333333333,
+  "quarter_per_month": -7576000.0,
+  "per_month": -4926083.333333333
  },
  "shares": {
-  "end": "2026-08-06",
-  "shares": 22681460,
+  "end": "2026-05-07",
+  "shares": 22662943,
   "split_factor": 1.0,
   "splits_after": []
  },
- "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+ "filing": {
+  "accn": "0001193125-26-222827",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "blic and private placements of equity securities; (iii) the issuance of convertible debt; (iv) a term loan; (v) our deferred royalty obligation; (vi) at the market offerings; and (vii) business development activities. As of March 31, 2026, we had $ 90.9 million of cash and cash equivalents and an accumulated deficit of $ 1.8 billion. We have incurred significant operating losses since our inceptio"
  },
- "drug": null,
- "trials": {
-  "query": "karyopharm therapeutics",
-  "other_trials": 6,
-  "crashed_drug_trials": 0,
-  "examples": [
+ "insiders": {
+  "form4s": 13,
+  "from": "2026-05-02",
+  "to": "2026-08-30",
+  "trades": [
    {
-    "nct": "NCT04414475",
-    "drugs": [
-     "Selinexor",
-     "Dexamethasone",
-     "Bortezomib"
-    ]
+    "date": "2026-07-28",
+    "filed": "2026-07-30",
+    "code": "S",
+    "value": 1342,
+    "who": "Poulton Stuart"
    },
    {
-    "nct": "NCT04562870",
-    "drugs": [
-     "Selinexor",
-     "Physician's Choice Treatment"
-    ]
+    "date": "2026-05-14",
+    "filed": "2026-05-15",
+    "code": "S",
+    "value": 3828,
+    "who": "Poulton Stuart"
    },
    {
-    "nct": "NCT04442022",
-    "drugs": [
-     "Selinexor (combination therapy)",
-     "Selinexor (combination therapy)",
-     "Selinexor (combination therapy)"
-    ]
+    "date": "2026-05-14",
+    "filed": "2026-05-15",
+    "code": "S",
+    "value": 3876,
+    "who": "Rangwala Reshma"
    },
    {
-    "nct": "NCT05980806",
-    "drugs": [
-     "Selinexor 60 mg",
-     "Selinexor 40 mg",
-     "Ruxolitinib"
-    ]
+    "date": "2026-05-14",
+    "filed": "2026-05-15",
+    "code": "S",
+    "value": 3078,
+    "who": "Cheng Sohanya Roshan"
    },
    {
-    "nct": "NCT02227251",
-    "drugs": [
-     "Selinexor",
-     "Selinexor",
-     "Selinexor"
-    ]
+    "date": "2026-05-14",
+    "filed": "2026-05-15",
+    "code": "S",
+    "value": 504,
+    "who": "Abate Kristin"
+   },
+   {
+    "date": "2026-05-14",
+    "filed": "2026-05-15",
+    "code": "S",
+    "value": 20928,
+    "who": "Paulson Richard A."
+   },
+   {
+    "date": "2026-05-14",
+    "filed": "2026-05-15",
+    "code": "S",
+    "value": 2527,
+    "who": "Mano Michael"
    }
   ]
+ },
+ "drug": "selinexor",
+ "trials": {
+  "query": "karyopharm therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 6,
+  "examples": []
  }
 }

@@ -3,11 +3,12 @@
  "cik": "1649989",
  "name": "Outlook Therapeutics, Inc.",
  "date": "2023-08-30",
- "asof": "2023-09-29",
+ "asof": "2023-09-06",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-09-29",
-  "adj_close": 4.42
+  "date": "2023-09-06",
+  "adj_close": 4.44
  },
  "balance": {
   "end": "2023-06-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2023-06-30",
-  "months": 8.9,
-  "per_month": -3383325.8711764705
+  "ytd_months": 8.9,
+  "ytd": -30232084,
+  "accn": "0001558370-23-014866",
+  "ttm_per_month": -3373564.25,
+  "quarter_per_month": -4405406.666666667,
+  "per_month": -3373564.25
  },
  "shares": {
   "end": "2023-08-10",
@@ -33,11 +38,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001558370-23-014866",
+  "guided_until": "2023-12-15",
+  "guidance": "BTIG ATM Offering in July 2023, will be sufficient to fund its operations through the anticipated approval of the BLA for ONS-5010 in the third calendar quarter of 2023 and potentially through the fourth calendar quarter of 2023. As",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "the amounts and classification of liabilities that might result from the outcome of this uncertainty. In May 2023, the Company entered into the BTIG ATM Agreement (as defined under Note 9), allowing for sales of up to $ 100,000,000 of common stock (refer to Note 9 for further details). In July 2023, the Company sold 1,540,962 shares of common stock under the BTIG ATM Offering (as defined under Not"
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2023-06-01",
+  "to": "2023-09-29",
+  "trades": []
  },
  "drug": null,
  "trials": {

@@ -3,11 +3,12 @@
  "cik": "1713863",
  "name": "Rafael Holdings, Inc.",
  "date": "2021-10-28",
- "asof": "2021-11-27",
+ "asof": "2021-10-28",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2021-11-29",
-  "adj_close": 5.69033
+  "date": "2021-10-28",
+  "adj_close": 7.9783
  },
  "balance": {
   "end": "2021-07-31",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2021-07-31",
-  "months": 12.0,
-  "per_month": -1304655.054945055
+  "ytd_months": 12.0,
+  "ytd": -15601000,
+  "accn": "0001213900-21-053306",
+  "ttm_per_month": -1300083.3333333333,
+  "quarter_per_month": -2327000.0,
+  "per_month": -1300083.3333333333
  },
  "shares": {
   "end": "2018-03-12",
@@ -29,11 +34,29 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001213900-21-053306",
+  "guided_until": null,
+  "guidance": "sufficient to meet Rafael Holdings' obligations for at least the next 12 months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 5,
+  "from": "2021-07-30",
+  "to": "2021-11-27",
+  "trades": [
+   {
+    "date": "2021-08-24",
+    "filed": "2021-08-25",
+    "code": "P",
+    "value": 5056240,
+    "who": "JONAS HOWARD S"
+   }
+  ]
  },
  "drug": null,
  "trials": {

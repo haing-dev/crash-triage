@@ -3,37 +3,193 @@
  "cik": "1560241",
  "name": "G1 Therapeutics, Inc.",
  "date": "2024-02-13",
- "asof": "2024-03-14",
+ "asof": "2024-02-13",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-03-14",
-  "adj_close": 3.12
+  "date": "2024-02-13",
+  "adj_close": 2.1
  },
  "balance": {
-  "end": "2023-12-31",
-  "cash": 82156000,
+  "end": "2023-09-30",
+  "cash": 94352000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue",
    "MarketableSecuritiesCurrent"
   ],
-  "accn": "0001628280-24-007601"
+  "accn": "0001628280-23-035947"
  },
  "burn": {
-  "end": "2023-12-31",
-  "months": 12.0,
-  "per_month": -3205984.285714286
+  "end": "2023-09-30",
+  "ytd_months": 8.9,
+  "ytd": -25545000,
+  "accn": "0001628280-23-035947",
+  "ttm_per_month": -4681416.666666667,
+  "quarter_per_month": -3525666.6666666665,
+  "per_month": -4681416.666666667
  },
  "shares": {
-  "end": "2024-02-23",
-  "shares": 52199394,
+  "end": "2023-10-27",
+  "shares": 51843669,
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001628280-23-035947",
+  "guided_until": null,
+  "guidance": "sufficient to fund the Company's planned operations and remain in compliance with its objective financial covenants for at least the next 12 months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "stock that the Company may issue and sell from time to time through Cowen and Company, LLC (&#8220;Cowen&#8221;), acting as its agent, pursuant to a sales agreement for &#8220;at the market offerings&#8221; the Company entered into with Cowen in July 2021 (the &#8220;2021 Sales Agreement&#8221;). The Company did not sell any shares of common stock under the 2021 Sales Agreement. 15 At the time of "
+ },
  "insiders": {
-  "form4s": 1,
-  "bought": 0,
-  "sold": 132143,
-  "buyers": []
+  "form4s": 10,
+  "from": "2023-11-15",
+  "to": "2024-03-14",
+  "trades": [
+   {
+    "date": "2024-02-12",
+    "filed": "2024-02-13",
+    "code": "S",
+    "value": 132143,
+    "who": "Malik Rajesh"
+   },
+   {
+    "date": "2024-01-03",
+    "filed": "2024-01-08",
+    "code": "S",
+    "value": 789,
+    "who": "Umstead John W. V"
+   },
+   {
+    "date": "2024-01-03",
+    "filed": "2024-01-08",
+    "code": "S",
+    "value": 1182,
+    "who": "Umstead John W. V"
+   },
+   {
+    "date": "2024-01-04",
+    "filed": "2024-01-08",
+    "code": "S",
+    "value": 327,
+    "who": "Umstead John W. V"
+   },
+   {
+    "date": "2024-01-03",
+    "filed": "2024-01-08",
+    "code": "S",
+    "value": 2364,
+    "who": "Malik Rajesh"
+   },
+   {
+    "date": "2024-01-03",
+    "filed": "2024-01-08",
+    "code": "S",
+    "value": 7052,
+    "who": "Malik Rajesh"
+   },
+   {
+    "date": "2024-01-04",
+    "filed": "2024-01-08",
+    "code": "S",
+    "value": 2121,
+    "who": "Malik Rajesh"
+   },
+   {
+    "date": "2024-01-03",
+    "filed": "2024-01-08",
+    "code": "S",
+    "value": 1182,
+    "who": "Perry Andrew"
+   },
+   {
+    "date": "2024-01-03",
+    "filed": "2024-01-08",
+    "code": "S",
+    "value": 6344,
+    "who": "Perry Andrew"
+   },
+   {
+    "date": "2024-01-03",
+    "filed": "2024-01-08",
+    "code": "S",
+    "value": 8084,
+    "who": "Bailey John E. (Jack) Jr."
+   },
+   {
+    "date": "2024-01-03",
+    "filed": "2024-01-08",
+    "code": "S",
+    "value": 28363,
+    "who": "Bailey John E. (Jack) Jr."
+   },
+   {
+    "date": "2024-01-03",
+    "filed": "2024-01-08",
+    "code": "S",
+    "value": 2364,
+    "who": "Avagliano Mark"
+   },
+   {
+    "date": "2024-01-03",
+    "filed": "2024-01-08",
+    "code": "S",
+    "value": 8115,
+    "who": "Avagliano Mark"
+   },
+   {
+    "date": "2024-01-04",
+    "filed": "2024-01-08",
+    "code": "S",
+    "value": 2121,
+    "who": "Avagliano Mark"
+   },
+   {
+    "date": "2024-01-03",
+    "filed": "2024-01-08",
+    "code": "S",
+    "value": 2364,
+    "who": "MURDOCK TERRY L"
+   },
+   {
+    "date": "2024-01-03",
+    "filed": "2024-01-08",
+    "code": "S",
+    "value": 7052,
+    "who": "MURDOCK TERRY L"
+   },
+   {
+    "date": "2024-01-04",
+    "filed": "2024-01-08",
+    "code": "S",
+    "value": 2121,
+    "who": "MURDOCK TERRY L"
+   },
+   {
+    "date": "2024-01-02",
+    "filed": "2024-01-02",
+    "code": "S",
+    "value": 108006,
+    "who": "Bailey John E. (Jack) Jr."
+   },
+   {
+    "date": "2023-12-11",
+    "filed": "2023-12-13",
+    "code": "S",
+    "value": 65659,
+    "who": "Malik Rajesh"
+   },
+   {
+    "date": "2023-12-11",
+    "filed": "2023-12-13",
+    "code": "S",
+    "value": 49863,
+    "who": "Malik Rajesh"
+   }
+  ]
  },
  "drug": null,
  "trials": {

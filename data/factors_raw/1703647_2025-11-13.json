@@ -3,11 +3,12 @@
  "cik": "1703647",
  "name": "Korro Bio, Inc.",
  "date": "2025-11-13",
- "asof": "2025-12-13",
+ "asof": "2025-11-14",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-12-15",
-  "adj_close": 7.96
+  "date": "2025-11-14",
+  "adj_close": 6.07
  },
  "balance": {
   "end": "2025-09-30",
@@ -21,8 +22,12 @@
  },
  "burn": {
   "end": "2025-09-30",
-  "months": 8.9,
-  "per_month": -6810838.0882352935
+  "ytd_months": 8.9,
+  "ytd": -60859000,
+  "accn": "0001193125-25-277572",
+  "ttm_per_month": -5696166.666666667,
+  "quarter_per_month": -5726333.333333333,
+  "per_month": -5696166.666666667
  },
  "shares": {
   "end": "2025-11-10",
@@ -30,13 +35,23 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001193125-25-277572",
+  "guided_until": "2027-07-15",
+  "guidance": "anding as of September 30, 2025 will be sufficient to fund our operating expenses and capital expenditure requirements into the second half of 2027. We",
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "tely $ 70.0 million, before deducting placement agent fees and offering expenses of approximately $ 2.6 million. The PIPE closed on April 22, 2024. 9 At-The-Market Equity Program In December 2024, the Company filed a Shelf Registration Statement on Form S-3 (the \"Shelf Registration Statement\") with the Securities and Exchange Commission (\"SEC\"), which covered the offering, issuance and sale by the"
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2025-08-15",
+  "to": "2025-12-13",
+  "trades": []
  },
- "drug": null,
+ "drug": "KRRO-110",
  "trials": {
   "query": "korro bio",
   "other_trials": 0,

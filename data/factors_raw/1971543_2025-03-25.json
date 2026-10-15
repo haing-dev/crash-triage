@@ -3,11 +3,12 @@
  "cik": "1971543",
  "name": "Mural Oncology plc",
  "date": "2025-03-25",
- "asof": "2025-04-24",
+ "asof": "2025-03-25",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-04-24",
-  "adj_close": 2.64
+  "date": "2025-03-25",
+  "adj_close": 1.47
  },
  "balance": {
   "end": "2024-12-31",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2024-12-31",
-  "months": 12.0,
-  "per_month": -10720300.82191781
+  "ytd_months": 12.0,
+  "ytd": -128545000,
+  "accn": "0000950170-25-037138",
+  "ttm_per_month": -10712083.333333334,
+  "quarter_per_month": -10590000.0,
+  "per_month": -10712083.333333334
  },
  "shares": {
   "end": "2025-02-28",
@@ -28,11 +33,57 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0000950170-25-037138",
+  "guided_until": "2026-01-15",
+  "guidance": "able securities which we expect will be sufficient to support our operations into the first quarter of 2026. We",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 6,
+  "from": "2024-12-25",
+  "to": "2025-04-24",
+  "trades": [
+   {
+    "date": "2025-03-04",
+    "filed": "2025-03-05",
+    "code": "S",
+    "value": 4240,
+    "who": "Keson-Brookes Maiken"
+   },
+   {
+    "date": "2025-03-05",
+    "filed": "2025-03-05",
+    "code": "S",
+    "value": 5068,
+    "who": "Keson-Brookes Maiken"
+   },
+   {
+    "date": "2025-03-04",
+    "filed": "2025-03-05",
+    "code": "S",
+    "value": 14492,
+    "who": "Loew Caroline"
+   },
+   {
+    "date": "2025-02-24",
+    "filed": "2025-02-25",
+    "code": "S",
+    "value": 51294,
+    "who": "Goodman Vicki L"
+   },
+   {
+    "date": "2024-12-23",
+    "filed": "2024-12-26",
+    "code": "S",
+    "value": 8355,
+    "who": "Keson-Brookes Maiken"
+   }
+  ]
  },
  "drug": null,
  "trials": {

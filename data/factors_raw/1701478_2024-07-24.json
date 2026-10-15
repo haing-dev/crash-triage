@@ -3,41 +3,60 @@
  "cik": "1701478",
  "name": "Azitra, Inc.",
  "date": "2024-07-24",
- "asof": "2024-08-23",
+ "asof": "2024-07-30",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-08-23",
-  "adj_close": 4.73333
+  "date": "2024-07-30",
+  "adj_close": 5.13333
  },
  "balance": {
-  "end": "2024-06-30",
-  "cash": 803082,
+  "end": "2024-03-31",
+  "cash": 3001158,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001701478-24-000009"
+  "accn": "0001701478-24-000005"
  },
  "burn": {
-  "end": "2024-06-30",
-  "months": 5.9,
-  "per_month": -861393.9790055249
+  "end": "2024-03-31",
+  "ytd_months": 3.0,
+  "ytd": -3020922,
+  "accn": "0001701478-24-000005",
+  "ttm_per_month": -756579.0833333334,
+  "quarter_per_month": -1006974.0,
+  "per_month": -756579.0833333334
  },
  "shares": {
-  "end": "2024-08-12",
-  "shares": 7625056,
-  "split_factor": 6.591,
+  "end": "2024-05-09",
+  "shares": 28804643,
+  "split_factor": 197.655,
   "splits_after": [
+   [
+    "2024-08-12",
+    29.99
+   ],
    [
     "2025-11-12",
     6.59
    ]
   ]
  },
+ "filing": {
+  "accn": "0001701478-24-000005",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2024-04-25",
+  "to": "2024-08-23",
+  "trades": []
  },
  "drug": null,
  "trials": {

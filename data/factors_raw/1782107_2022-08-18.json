@@ -3,11 +3,12 @@
  "cik": "1782107",
  "name": "Onconetix, Inc.",
  "date": "2022-08-18",
- "asof": "2022-09-17",
+ "asof": "2022-08-24",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-09-19",
-  "adj_close": 430100.0
+  "date": "2022-08-24",
+  "adj_close": 552500.0
  },
  "balance": {
   "end": "2022-06-30",
@@ -19,7 +20,11 @@
  },
  "burn": {
   "end": "2022-06-30",
-  "months": 5.9,
+  "ytd_months": 5.9,
+  "ytd": -4068508,
+  "accn": "0001213900-22-048105",
+  "ttm_per_month": null,
+  "quarter_per_month": -1060805.6666666667,
   "per_month": -688029.9084444444
  },
  "shares": {
@@ -49,11 +54,57 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001213900-22-048105",
+  "guided_until": null,
+  "guidance": "sufficient to fund our operations for at least the next 12 months",
+  "twelve_months": true,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 5,
-  "bought": 0,
-  "sold": 2776650,
-  "buyers": []
+  "form4s": 12,
+  "from": "2022-05-20",
+  "to": "2022-09-17",
+  "trades": [
+   {
+    "date": "2022-08-19",
+    "filed": "2022-08-23",
+    "code": "S",
+    "value": 116766,
+    "who": "Shaw Allan"
+   },
+   {
+    "date": "2022-08-18",
+    "filed": "2022-08-22",
+    "code": "S",
+    "value": 2192825,
+    "who": "Hernandez Joseph"
+   },
+   {
+    "date": "2022-08-19",
+    "filed": "2022-08-22",
+    "code": "S",
+    "value": 323662,
+    "who": "Hernandez Joseph"
+   },
+   {
+    "date": "2022-08-22",
+    "filed": "2022-08-22",
+    "code": "S",
+    "value": 124206,
+    "who": "Hernandez Joseph"
+   },
+   {
+    "date": "2022-08-19",
+    "filed": "2022-08-22",
+    "code": "S",
+    "value": 19191,
+    "who": "Henderson Erin"
+   }
+  ]
  },
  "drug": null,
  "trials": {

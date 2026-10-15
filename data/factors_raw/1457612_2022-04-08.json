@@ -3,36 +3,122 @@
  "cik": "1457612",
  "name": "GENOCEA BIOSCIENCES, INC.",
  "date": "2022-04-08",
- "asof": "2022-05-08",
+ "asof": "2022-04-08",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-05-09",
-  "adj_close": 0.1981
+  "date": "2022-04-08",
+  "adj_close": 0.4
  },
  "balance": {
-  "end": "2022-03-31",
-  "cash": 20137000,
+  "end": "2021-12-31",
+  "cash": 37148000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001457612-22-000054"
+  "accn": "0001457612-22-000039"
  },
  "burn": {
-  "end": "2022-03-31",
-  "months": 2.9,
-  "per_month": -5201819.775280899
+  "end": "2021-12-31",
+  "ytd_months": 12.0,
+  "ytd": -45370000,
+  "accn": "0001457612-22-000039",
+  "ttm_per_month": -3780833.3333333335,
+  "quarter_per_month": -3701666.6666666665,
+  "per_month": -3780833.3333333335
  },
  "shares": {
-  "end": "2022-04-29",
-  "shares": 58783503,
+  "end": "2022-03-15",
+  "shares": 58733759,
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001457612-22-000039",
+  "guided_until": "2022-07-15",
+  "guidance": "existing cash and cash equivalents are sufficient to support our current operations into Q3 2022. We",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "ur operating plan which includes a combination of equity offerings, strategic transactions, or other sources of funding, including utilization of the at-the-market equity offering program with Cowen and Company, LLC. Although management plans to pursue additional funding, there is no assurance that we will be successful in obtaining sufficient funding on terms acceptable to us to fund continuing o"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 13,
+  "from": "2022-01-08",
+  "to": "2022-05-08",
+  "trades": [
+   {
+    "date": "2022-04-04",
+    "filed": "2022-04-05",
+    "code": "S",
+    "value": 1515,
+    "who": "Flechtner Jessica Baker"
+   },
+   {
+    "date": "2022-04-04",
+    "filed": "2022-04-05",
+    "code": "S",
+    "value": 1204,
+    "who": "Duvall Diantha"
+   },
+   {
+    "date": "2022-04-04",
+    "filed": "2022-04-05",
+    "code": "S",
+    "value": 1364,
+    "who": "Davis Thomas Andrew"
+   },
+   {
+    "date": "2022-04-04",
+    "filed": "2022-04-05",
+    "code": "S",
+    "value": 4905,
+    "who": "Clark William D"
+   },
+   {
+    "date": "2022-04-04",
+    "filed": "2022-04-05",
+    "code": "S",
+    "value": 1204,
+    "who": "Aakalu Girish N"
+   },
+   {
+    "date": "2022-03-16",
+    "filed": "2022-03-17",
+    "code": "S",
+    "value": 3684,
+    "who": "Flechtner Jessica Baker"
+   },
+   {
+    "date": "2022-03-16",
+    "filed": "2022-03-17",
+    "code": "S",
+    "value": 3160,
+    "who": "Duvall Diantha"
+   },
+   {
+    "date": "2022-03-16",
+    "filed": "2022-03-17",
+    "code": "S",
+    "value": 2989,
+    "who": "Davis Thomas Andrew"
+   },
+   {
+    "date": "2022-03-16",
+    "filed": "2022-03-17",
+    "code": "S",
+    "value": 12579,
+    "who": "Clark William D"
+   },
+   {
+    "date": "2022-03-16",
+    "filed": "2022-03-17",
+    "code": "S",
+    "value": 2637,
+    "who": "Aakalu Girish N"
+   }
+  ]
  },
  "drug": null,
  "trials": {

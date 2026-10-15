@@ -3,11 +3,12 @@
  "cik": "1029125",
  "name": "Panbela Therapeutics, Inc.",
  "date": "2022-06-24",
- "asof": "2022-07-24",
+ "asof": "2022-06-24",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-07-25",
-  "adj_close": 31680.0
+  "date": "2022-06-24",
+  "adj_close": 14688.0
  },
  "balance": {
   "end": "2022-03-31",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2022-03-31",
-  "months": 2.9,
-  "per_month": -1533286.7415730339
+  "ytd_months": 2.9,
+  "ytd": -4483000,
+  "accn": "0001437749-22-012129",
+  "ttm_per_month": -768500.0,
+  "quarter_per_month": -1494333.3333333333,
+  "per_month": -768500.0
  },
  "shares": {
   "end": "2022-05-10",
@@ -45,11 +50,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001437749-22-012129",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2022-03-26",
+  "to": "2022-07-24",
+  "trades": []
  },
  "drug": null,
  "trials": {

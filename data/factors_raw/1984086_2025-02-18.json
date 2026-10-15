@@ -3,11 +3,12 @@
  "cik": "1984086",
  "name": "Septerna, Inc.",
  "date": "2025-02-18",
- "asof": "2025-03-20",
+ "asof": "2025-02-19",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-03-20",
-  "adj_close": 6.15
+  "date": "2025-02-19",
+  "adj_close": 5.55
  },
  "balance": {
   "end": "2024-09-30",
@@ -21,7 +22,11 @@
  },
  "burn": {
   "end": "2024-09-30",
-  "months": 9.0,
+  "ytd_months": 9.0,
+  "ytd": -46512000,
+  "accn": "0000950170-24-129274",
+  "ttm_per_month": null,
+  "quarter_per_month": null,
   "per_month": -5186173.186813187
  },
  "shares": {
@@ -30,15 +35,126 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0000950170-24-129274",
+  "guided_until": "2027-07-15",
+  "guidance": "n of net proceeds from our IPO, will be sufficient to fund our operations and capital expenditure requirements into the second half of 2027. See",
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "rsely impact our business. Risks Related to Ownership of Our Common Stock We do not know whether a market will be sustained for our common stock or what the market price of our common stock will be, and, as a result, it may be difficult for you to sell your shares of our common stock. Although our common stock is listed on the Nasdaq Global Market (&#8220;Nasdaq&#8221;), an active trading market f"
+ },
  "insiders": {
-  "form4s": 7,
-  "bought": 7214853,
-  "sold": 0,
-  "buyers": [
-   "Ezekowitz Alan",
-   "Finer Jeffrey",
-   "Labrucherie Gil M",
-   "Third Rock Ventures VI, L.P."
+  "form4s": 8,
+  "from": "2024-11-20",
+  "to": "2025-03-20",
+  "trades": [
+   {
+    "date": "2025-03-07",
+    "filed": "2025-03-10",
+    "code": "P",
+    "value": 92270,
+    "who": "Ezekowitz Alan"
+   },
+   {
+    "date": "2025-03-04",
+    "filed": "2025-03-06",
+    "code": "P",
+    "value": 47544,
+    "who": "Ezekowitz Alan"
+   },
+   {
+    "date": "2025-03-05",
+    "filed": "2025-03-06",
+    "code": "P",
+    "value": 220260,
+    "who": "Ezekowitz Alan"
+   },
+   {
+    "date": "2025-03-06",
+    "filed": "2025-03-06",
+    "code": "P",
+    "value": 248130,
+    "who": "Ezekowitz Alan"
+   },
+   {
+    "date": "2025-02-25",
+    "filed": "2025-02-27",
+    "code": "P",
+    "value": 56765,
+    "who": "Finer Jeffrey"
+   },
+   {
+    "date": "2025-02-26",
+    "filed": "2025-02-27",
+    "code": "P",
+    "value": 22796,
+    "who": "Finer Jeffrey"
+   },
+   {
+    "date": "2025-02-27",
+    "filed": "2025-02-27",
+    "code": "P",
+    "value": 17400,
+    "who": "Finer Jeffrey"
+   },
+   {
+    "date": "2025-02-25",
+    "filed": "2025-02-27",
+    "code": "P",
+    "value": 35116,
+    "who": "Labrucherie Gil M"
+   },
+   {
+    "date": "2025-02-27",
+    "filed": "2025-02-27",
+    "code": "P",
+    "value": 21750,
+    "who": "Labrucherie Gil M"
+   },
+   {
+    "date": "2025-02-24",
+    "filed": "2025-02-26",
+    "code": "P",
+    "value": 113147,
+    "who": "Third Rock Ventures VI, L.P."
+   },
+   {
+    "date": "2025-02-20",
+    "filed": "2025-02-24",
+    "code": "P",
+    "value": 3627030,
+    "who": "Third Rock Ventures VI, L.P."
+   },
+   {
+    "date": "2025-02-21",
+    "filed": "2025-02-24",
+    "code": "P",
+    "value": 2540348,
+    "who": "Third Rock Ventures VI, L.P."
+   },
+   {
+    "date": "2025-02-19",
+    "filed": "2025-02-21",
+    "code": "P",
+    "value": 57813,
+    "who": "Labrucherie Gil M"
+   },
+   {
+    "date": "2025-02-20",
+    "filed": "2025-02-21",
+    "code": "P",
+    "value": 85234,
+    "who": "Labrucherie Gil M"
+   },
+   {
+    "date": "2025-02-21",
+    "filed": "2025-02-21",
+    "code": "P",
+    "value": 29250,
+    "who": "Labrucherie Gil M"
+   }
   ]
  },
  "drug": null,

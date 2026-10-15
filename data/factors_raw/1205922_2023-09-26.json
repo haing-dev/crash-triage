@@ -3,11 +3,12 @@
  "cik": "1205922",
  "name": "VACCINEX, INC.",
  "date": "2023-09-26",
- "asof": "2023-10-26",
+ "asof": "2023-09-27",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-10-26",
-  "adj_close": 14.14
+  "date": "2023-09-27",
+  "adj_close": 15.68
  },
  "balance": {
   "end": "2023-06-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2023-06-30",
-  "months": 5.9,
-  "per_month": -1783614.888888889
+  "ytd_months": 5.9,
+  "ytd": -10547000,
+  "accn": "0000950170-23-042073",
+  "ttm_per_month": -1607666.6666666667,
+  "quarter_per_month": -1835666.6666666667,
+  "per_month": -1607666.6666666667
  },
  "shares": {
   "end": "2023-08-08",
@@ -41,13 +46,49 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0000950170-23-042073",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 4,
-  "bought": 3509515,
-  "sold": 0,
-  "buyers": [
-   "FRIEDBERG ALBERT",
-   "Zauderer Maurice"
+  "form4s": 5,
+  "from": "2023-06-28",
+  "to": "2023-10-26",
+  "trades": [
+   {
+    "date": "2023-10-03",
+    "filed": "2023-10-05",
+    "code": "P",
+    "value": 500000,
+    "who": "Zauderer Maurice"
+   },
+   {
+    "date": "2023-10-03",
+    "filed": "2023-10-05",
+    "code": "P",
+    "value": 4650,
+    "who": "Zauderer Maurice"
+   },
+   {
+    "date": "2023-10-04",
+    "filed": "2023-10-05",
+    "code": "P",
+    "value": 4865,
+    "who": "Zauderer Maurice"
+   },
+   {
+    "date": "2023-10-03",
+    "filed": "2023-10-05",
+    "code": "P",
+    "value": 3000000,
+    "who": "FRIEDBERG ALBERT"
+   }
   ]
  },
  "drug": null,

@@ -3,28 +3,36 @@
  "cik": "1855485",
  "name": "Calidi Biotherapeutics, Inc.",
  "date": "2024-04-16",
- "asof": "2024-05-16",
+ "asof": "2024-04-18",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-05-16",
-  "adj_close": 29.040001
+  "date": "2024-04-18",
+  "adj_close": 19.2
  },
  "balance": {
-  "end": "2024-03-31",
-  "cash": 1200000,
+  "end": "2023-12-31",
+  "cash": 1749000,
   "parts": [
-   "CashAndCashEquivalentsAtCarryingValue"
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+   "minus RestrictedCash",
+   "minus RestrictedCashAndCashEquivalentsAtCarryingValue",
+   "minus RestrictedCashAndCashEquivalentsNoncurrent"
   ],
-  "accn": "0001493152-24-019305"
+  "accn": "0001493152-24-010158"
  },
  "burn": {
-  "end": "2024-03-31",
-  "months": 3.0,
-  "per_month": -1295729.3333333333
+  "end": "2023-12-31",
+  "ytd_months": 12.0,
+  "ytd": -26983000,
+  "accn": "0001493152-24-010158",
+  "ttm_per_month": -2248583.3333333335,
+  "quarter_per_month": -1728666.6666666667,
+  "per_month": -2248583.3333333335
  },
  "shares": {
-  "end": "2024-05-10",
-  "shares": 50924284,
+  "end": "2024-03-08",
+  "shares": 35538034,
   "split_factor": 230315.36,
   "splits_after": [
    [
@@ -49,11 +57,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001493152-24-010158",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "bstantial losses for investors. Further, an active, liquid and orderly trading market for our common stock may not be sustained, and we do not know what the market price of our common stock will be, and as a result it may be difficult for you to sell your shares of our common stock. Although our common stock is listed on the NYSE American, the market for our shares has demonstrated varying levels "
+ },
  "insiders": {
   "form4s": 1,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2024-01-17",
+  "to": "2024-05-16",
+  "trades": []
  },
  "drug": null,
  "trials": {

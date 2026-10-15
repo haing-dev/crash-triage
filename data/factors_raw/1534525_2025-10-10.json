@@ -3,11 +3,12 @@
  "cik": "1534525",
  "name": "Xenetic Biosciences, Inc.",
  "date": "2025-10-10",
- "asof": "2025-11-09",
+ "asof": "2025-10-15",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-11-10",
-  "adj_close": 2.65
+  "date": "2025-10-15",
+  "adj_close": 4.81
  },
  "balance": {
   "end": "2025-06-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2025-06-30",
-  "months": 5.9,
-  "per_month": -234340.9871111111
+  "ytd_months": 5.9,
+  "ytd": -1385722,
+  "accn": "0001683168-25-005983",
+  "ttm_per_month": -209895.91666666666,
+  "quarter_per_month": -127943.33333333333,
+  "per_month": -209895.91666666666
  },
  "shares": {
   "end": "2025-08-07",
@@ -28,11 +33,21 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001683168-25-005983",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2025-07-12",
+  "to": "2025-11-09",
+  "trades": []
  },
  "drug": null,
  "trials": {

@@ -3,11 +3,12 @@
  "cik": "1783032",
  "name": "Elevation Oncology, Inc.",
  "date": "2024-08-06",
- "asof": "2024-09-05",
+ "asof": "2024-08-06",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-09-05",
-  "adj_close": 0.65
+  "date": "2024-08-06",
+  "adj_close": 0.7802
  },
  "balance": {
   "end": "2024-06-30",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2024-06-30",
-  "months": 5.9,
-  "per_month": -2990183.425414365
+  "ytd_months": 5.9,
+  "ytd": -17780000,
+  "accn": "0001558370-24-010952",
+  "ttm_per_month": -3609833.3333333335,
+  "quarter_per_month": -2735000.0,
+  "per_month": -3609833.3333333335
  },
  "shares": {
   "end": "2024-08-02",
@@ -29,11 +34,21 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001558370-24-010952",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "r 31, 2023 42,422,531 &#8203; $ 4 &#8203; $ 250,825 &#8203; $ ( 59 ) &#8203; $ 9 &#8203; $ ( 195,970 ) &#8203; $ 54,809 Issuance of common stock upon at-the-market offering, net of issuance costs &#8203; 11,625,295 &#8203; &#8203; 1 &#8203; &#8203; 44,206 &#8203; &#8203; &#8212; &#8203; &#8203; &#8212; &#8203; &#8203; &#8212; &#8203; &#8203; 44,207 Issuance of common stock upon stock option exerci"
+ },
  "insiders": {
-  "form4s": 1,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 9,
+  "from": "2024-05-08",
+  "to": "2024-09-05",
+  "trades": []
  },
  "drug": null,
  "trials": {

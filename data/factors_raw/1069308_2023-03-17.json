@@ -3,36 +3,51 @@
  "cik": "1069308",
  "name": "Acer Therapeutics Inc.",
  "date": "2023-03-17",
- "asof": "2023-04-16",
+ "asof": "2023-03-17",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-04-17",
-  "adj_close": 1.07
+  "date": "2023-03-17",
+  "adj_close": 0.67
  },
  "balance": {
-  "end": "2022-12-31",
-  "cash": 2329218,
+  "end": "2022-09-30",
+  "cash": 6377923,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0000950170-23-009992"
+  "accn": "0001564590-22-037680"
  },
  "burn": {
-  "end": "2022-12-31",
-  "months": 12.0,
-  "per_month": -2529856.525054945
+  "end": "2022-09-30",
+  "ytd_months": 8.9,
+  "ytd": -21953658,
+  "accn": "0001564590-22-037680",
+  "ttm_per_month": -1947825.5,
+  "quarter_per_month": -3029190.3333333335,
+  "per_month": -1947825.5
  },
  "shares": {
-  "end": "2023-03-24",
-  "shares": 23421534,
+  "end": "2022-11-01",
+  "shares": 16373611,
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001564590-22-037680",
+  "guided_until": "2022-10-15",
+  "guidance": "available at September 30, 2022 will be sufficient to fund our currently anticipated operating and capital requirements into the fourth quarter of 2022. The",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": 36200000.0,
+  "atm_quote": "timely manner &#8226; Funding from our equity line purchase agreement with Lincoln Park Capital Fund, LLC (&#8220;Lincoln Park&#8221;) and our &#8220;at-the-market&#8221; (&#8220;ATM&#8221;) facility with JonesTrading Institutional Services LLC (&#8220;Jones Trading&#8221;) may be limited or may be insufficient to fund our operations or implement our strategy &#8226; We have a limited operating hi"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 11,
+  "from": "2022-12-17",
+  "to": "2023-04-16",
+  "trades": []
  },
  "drug": null,
  "trials": {

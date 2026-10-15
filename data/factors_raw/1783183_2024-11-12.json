@@ -3,11 +3,12 @@
  "cik": "1783183",
  "name": "Phathom Pharmaceuticals, Inc.",
  "date": "2024-11-12",
- "asof": "2024-12-12",
+ "asof": "2024-11-14",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-12-12",
-  "adj_close": 7.985
+  "date": "2024-11-14",
+  "adj_close": 9.09
  },
  "balance": {
   "end": "2024-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2024-09-30",
-  "months": 9.0,
-  "per_month": -22669883.36996337
+  "ytd_months": 9.0,
+  "ytd": -203314000,
+  "accn": "0000950170-24-123264",
+  "ttm_per_month": -20592583.333333332,
+  "quarter_per_month": -21191000.0,
+  "per_month": -20592583.333333332
  },
  "shares": {
   "end": "2024-11-04",
@@ -28,11 +33,21 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0000950170-24-123264",
+  "guided_until": null,
+  "guidance": "sufficient to fund operations for at least the next twelve months",
+  "twelve_months": true,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": 150000000.0,
+  "atm_quote": "ed compensation &#8212; &#8212; &#8212; 7,048 &#8212; 7,048 ESPP shares issued 121,801 &#8212; &#8212; 856 &#8212; 856 Issuance of common stock under ATM facility 1,514,219 1 &#8212; 14,072 &#8212; 14,073 Net loss &#8212; &#8212; &#8212; &#8212; ( 37,814 ) ( 37,814 ) Balance at March 31, 2023 43,571,140 $ 4 19 $ 674,708 $ ( 764,907 ) $ ( 90,195 ) Vesting of restricted shares and restricted stock u"
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2024-08-14",
+  "to": "2024-12-12",
+  "trades": []
  },
  "drug": null,
  "trials": {

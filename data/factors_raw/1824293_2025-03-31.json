@@ -3,11 +3,12 @@
  "cik": "1824293",
  "name": "GRI Bio, Inc.",
  "date": "2025-03-31",
- "asof": "2025-04-30",
+ "asof": "2025-03-31",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-04-30",
-  "adj_close": 50.96
+  "date": "2025-03-31",
+  "adj_close": 89.6
  },
  "balance": {
   "end": "2024-12-31",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2024-12-31",
-  "months": 12.0,
-  "per_month": -718133.8082191781
+  "ytd_months": 12.0,
+  "ytd": -8611000,
+  "accn": "0001824293-25-000050",
+  "ttm_per_month": -717583.3333333334,
+  "quarter_per_month": -666333.3333333334,
+  "per_month": -717583.3333333334
  },
  "shares": {
   "end": "2025-03-11",
@@ -41,11 +46,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001824293-25-000050",
+  "guided_until": "2025-04-15",
+  "guidance": "sting cash and cash equivalents will be sufficient to fund our operating expenses and capital expenditure requirements into the second quarter of 2025. We",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "hat treats a serious condition and, if approved, would provide a significant improvement in safety or effectiveness. The FDA determines at the time that the marketing application is submitted, on a case-by-case basis, whether the proposed drug represents a significant improvement in treatment, prevention or diagnosis of disease when compared with other available therapies. Significant improvement "
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 7,
+  "from": "2024-12-31",
+  "to": "2025-04-30",
+  "trades": []
  },
  "drug": null,
  "trials": {

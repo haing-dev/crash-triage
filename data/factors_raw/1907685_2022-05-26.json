@@ -3,20 +3,22 @@
  "cik": "1907685",
  "name": "Comera Life Sciences Holdings, Inc.",
  "date": "2022-05-26",
- "asof": "2022-06-25",
+ "asof": "2022-05-26",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-06-27",
-  "adj_close": 2.97
+  "date": "2022-05-26",
+  "adj_close": 3.39
  },
  "balance": null,
  "burn": null,
  "shares": null,
+ "filing": null,
  "insiders": {
   "form4s": 1,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2022-02-25",
+  "to": "2022-06-25",
+  "trades": []
  },
  "drug": null,
  "trials": {

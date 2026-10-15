@@ -3,28 +3,33 @@
  "cik": "832489",
  "name": "GeoVax Labs, Inc.",
  "date": "2025-07-01",
- "asof": "2025-07-31",
+ "asof": "2025-07-02",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-07-31",
-  "adj_close": 18.0
+  "date": "2025-07-02",
+  "adj_close": 11.925
  },
  "balance": {
-  "end": "2025-06-30",
-  "cash": 3093862,
+  "end": "2025-03-31",
+  "cash": 7438769,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001437749-25-023651"
+  "accn": "0001437749-25-014083"
  },
  "burn": {
-  "end": "2025-06-30",
-  "months": 5.9,
-  "per_month": -1741857.6351111112
+  "end": "2025-03-31",
+  "ytd_months": 2.9,
+  "ytd": -5965680,
+  "accn": "0001437749-25-014083",
+  "ttm_per_month": -2079788.4166666667,
+  "quarter_per_month": -1988560.0,
+  "per_month": -2079788.4166666667
  },
  "shares": {
-  "end": "2025-07-28",
-  "shares": 25359593,
+  "end": "2025-04-30",
+  "shares": 15193593,
   "split_factor": 25.0,
   "splits_after": [
    [
@@ -33,11 +38,36 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001437749-25-014083",
+  "guided_until": "2025-07-15",
+  "guidance": "existing cash and cash equivalents are sufficient to fund our operations into the third quarter of 2025. We",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "ise price of $ 1.31 per share. Net proceeds after deducting placement agent commissions and other offering expenses were approximately $ 4.1 million. ATM Program . On September 25, 2024, we entered into a Sales Agreement and established an &#8220;At-the-Market&#8221; continuous offering program (the &#8220;ATM Program&#8221;), pursuant to which the Company may offer and sell, from time to time thr"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 13,
+  "from": "2025-04-02",
+  "to": "2025-07-31",
+  "trades": [
+   {
+    "date": "2025-04-10",
+    "filed": "2025-04-11",
+    "code": "P",
+    "value": 9800,
+    "who": "SPENCER JOHN N JR"
+   },
+   {
+    "date": "2025-04-10",
+    "filed": "2025-04-10",
+    "code": "P",
+    "value": 5940,
+    "who": "Sharkey John W."
+   }
+  ]
  },
  "drug": null,
  "trials": {

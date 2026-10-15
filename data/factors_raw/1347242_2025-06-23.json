@@ -3,11 +3,12 @@
  "cik": "1347242",
  "name": "LIPELLA PHARMACEUTICALS INC.",
  "date": "2025-06-23",
- "asof": "2025-07-23",
+ "asof": "2025-06-24",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-07-23",
-  "adj_close": 0.701
+  "date": "2025-06-24",
+  "adj_close": 0.76
  },
  "balance": {
   "end": "2025-03-31",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2025-03-31",
-  "months": 2.9,
-  "per_month": -487767.1397752809
+  "ytd_months": 2.9,
+  "ytd": -1426126,
+  "accn": "0001753926-25-000818",
+  "ttm_per_month": -332369.5833333333,
+  "quarter_per_month": -475375.3333333333,
+  "per_month": -332369.5833333333
  },
  "shares": {
   "end": "2025-05-13",
@@ -28,11 +33,21 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001753926-25-000818",
+  "guided_until": "2025-12-15",
+  "guidance": "sting cash and cash equivalents will be sufficient to fund our operations and capital expenses through the end of 2025. How",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "website at www.lipella.com. The information contained on our website is not incorporated by reference into this quarterly report. Recent Developments At The Market Offering On April 4, 2025, the Company entered into an At The Market Offering Agreement (the &#8220;ATM Agreement&#8221;) with H.C. Wainwright &amp; Co., LLC (&#8220;Wainwright&#8221;) to sell shares of its Common Stock having an aggreg"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 1,
+  "from": "2025-03-25",
+  "to": "2025-07-23",
+  "trades": []
  },
  "drug": null,
  "trials": {

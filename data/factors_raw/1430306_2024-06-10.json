@@ -3,11 +3,12 @@
  "cik": "1430306",
  "name": "Tonix Pharmaceuticals Holding Corp.",
  "date": "2024-06-10",
- "asof": "2024-07-10",
+ "asof": "2024-06-10",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-07-10",
-  "adj_close": 62.0
+  "date": "2024-06-10",
+  "adj_close": 221.0
  },
  "balance": {
   "end": "2024-03-31",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2024-03-31",
-  "months": 3.0,
-  "per_month": -5944255.555555556
+  "ytd_months": 3.0,
+  "ytd": -17575000,
+  "accn": "0001999371-24-005989",
+  "ttm_per_month": -7222250.0,
+  "quarter_per_month": -5858333.333333333,
+  "per_month": -7222250.0
  },
  "shares": {
   "end": "2024-05-13",
@@ -49,11 +54,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001999371-24-005989",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "rch 31, 2023, the Company sold 0.1 million shares of common stock under the 2022 Purchase Agreement, for net proceeds of approximately $ 0.4 million. At-the-Market Offerings On April 8, 2020, the Company entered into a sales agreement (the &#8220;Sales Agreement&#8221;) with AGP pursuant to which the Company may issue and sell, from time to time, shares of the Company's common stock having an aggr"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 7,
+  "from": "2024-03-12",
+  "to": "2024-07-10",
+  "trades": []
  },
  "drug": null,
  "trials": {

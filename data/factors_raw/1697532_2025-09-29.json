@@ -3,11 +3,12 @@
  "cik": "1697532",
  "name": "Applied Therapeutics, Inc.",
  "date": "2025-09-29",
- "asof": "2025-10-29",
+ "asof": "2025-09-30",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-10-29",
-  "adj_close": 1.22
+  "date": "2025-09-30",
+  "adj_close": 0.6049
  },
  "balance": {
   "end": "2025-06-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2025-06-30",
-  "months": 5.9,
-  "per_month": -8282554.888888889
+  "ytd_months": 5.9,
+  "ytd": -48977000,
+  "accn": "0000950170-25-108172",
+  "ttm_per_month": -7648000.0,
+  "quarter_per_month": -6780333.333333333,
+  "per_month": -7648000.0
  },
  "shares": {
   "end": "2025-08-12",
@@ -28,11 +33,21 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0000950170-25-108172",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "t entitle the holders thereof to any voting rights or any of the other rights or privileges to which the Company's stockholders are entitled. Leerink ATM Agreement On August 11, 2023, the Company entered into an ATM Agreement with Leerink Partners LLC (the \"Leerink ATM Agreement\"), pursuant to which the Company may offer and sell, from time to time, shares of common stock having an aggregate offer"
+ },
  "insiders": {
-  "form4s": 1,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 2,
+  "from": "2025-07-01",
+  "to": "2025-10-29",
+  "trades": []
  },
  "drug": null,
  "trials": {

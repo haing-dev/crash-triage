@@ -3,11 +3,12 @@
  "cik": "1055726",
  "name": "INOVIO PHARMACEUTICALS, INC.",
  "date": "2024-12-13",
- "asof": "2025-01-12",
+ "asof": "2024-12-17",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-01-13",
-  "adj_close": 1.9
+  "date": "2024-12-17",
+  "adj_close": 1.96
  },
  "balance": {
   "end": "2024-09-30",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2024-09-30",
-  "months": 9.0,
-  "per_month": -9412164.407912089
+  "ytd_months": 9.0,
+  "ytd": -84412644,
+  "accn": "0001055726-24-000052",
+  "ttm_per_month": -9224035.75,
+  "quarter_per_month": -9147779.333333334,
+  "per_month": -9224035.75
  },
  "shares": {
   "end": "2024-11-12",
@@ -29,11 +34,21 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001055726-24-000052",
+  "guided_until": "2025-07-15",
+  "guidance": "f September 30, 2024 are expected to be sufficient to support the Company's planned operations into the third quarter of 2025. The",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "may occur through strategic alliance and licensing arrangements, grant agreements and/or future public or private debt or equity financings including At-the-Market Equity Offering Sales Agreements (&#8220;Sales Agreements&#8221;). The Company has a history of conducting debt and equity financings, including the Offering described above, and the receipt of net proceeds of $ 667,000 and $ 5.5 millio"
+ },
  "insiders": {
   "form4s": 1,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2024-09-14",
+  "to": "2025-01-12",
+  "trades": []
  },
  "drug": null,
  "trials": {

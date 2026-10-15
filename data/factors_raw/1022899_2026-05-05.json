@@ -3,11 +3,12 @@
  "cik": "1022899",
  "name": "Protagenic Therapeutics, Inc.\\new",
  "date": "2026-05-05",
- "asof": "2026-06-04",
+ "asof": "2026-05-05",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-06-04",
-  "adj_close": 0.5
+  "date": "2026-05-05",
+  "adj_close": 0.538
  },
  "balance": {
   "end": "2025-12-31",
@@ -19,7 +20,11 @@
  },
  "burn": {
   "end": "2025-12-31",
-  "months": 9.0,
+  "ytd_months": 9.0,
+  "ytd": -3072333,
+  "accn": "0001493152-26-009301",
+  "ttm_per_month": null,
+  "quarter_per_month": -169889.0,
   "per_month": -341320.4982481752
  },
  "shares": {
@@ -28,11 +33,21 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001493152-26-009301",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": 1000000.0,
+  "atm_quote": ",856 . 8 During the nine months ended December 31, 2025, the Company raised approximately $ 4.3 million through warrant exercises and sales under its at-the-market facility. Management believes the Company has multiple potential avenues to raise additional capital, including the equity markets, and that its current cash position, together with its continued ability to manage the timing and level o"
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2026-02-04",
+  "to": "2026-06-04",
+  "trades": []
  },
  "drug": null,
  "trials": {

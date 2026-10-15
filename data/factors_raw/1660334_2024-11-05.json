@@ -3,11 +3,12 @@
  "cik": "1660334",
  "name": "Verrica Pharmaceuticals Inc.",
  "date": "2024-11-05",
- "asof": "2024-12-05",
+ "asof": "2024-11-05",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-12-05",
-  "adj_close": 10.6
+  "date": "2024-11-05",
+  "adj_close": 7.98
  },
  "balance": {
   "end": "2024-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2024-09-30",
-  "months": 9.0,
-  "per_month": -5002306.666666667
+  "ytd_months": 9.0,
+  "ytd": -44863000,
+  "accn": "0000950170-24-120982",
+  "ttm_per_month": -4947500.0,
+  "quarter_per_month": -2852666.6666666665,
+  "per_month": -4947500.0
  },
  "shares": {
   "end": "2024-10-28",
@@ -33,14 +38,119 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0000950170-24-120982",
+  "guided_until": "2025-01-15",
+  "guidance": "illion as of September 30, 2024 will be sufficient to support the Company's planned operations only into the first quarter of 2025. The",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 5,
-  "bought": 0,
-  "sold": 0,
-  "buyers": [
-   "Manning Paul B",
-   "Rieger Jayson",
-   "Stalfort John A III"
+  "form4s": 12,
+  "from": "2024-08-07",
+  "to": "2024-12-05",
+  "trades": [
+   {
+    "date": "2024-11-22",
+    "filed": "2024-11-26",
+    "code": "P",
+    "value": 0,
+    "who": "Rieger Jayson"
+   },
+   {
+    "date": "2024-11-22",
+    "filed": "2024-11-26",
+    "code": "P",
+    "value": 0,
+    "who": "Stalfort John A III"
+   },
+   {
+    "date": "2024-11-22",
+    "filed": "2024-11-26",
+    "code": "P",
+    "value": 0,
+    "who": "Manning Paul B"
+   },
+   {
+    "date": "2024-11-22",
+    "filed": "2024-11-26",
+    "code": "P",
+    "value": 0,
+    "who": "Manning Paul B"
+   },
+   {
+    "date": "2024-08-26",
+    "filed": "2024-08-28",
+    "code": "S",
+    "value": 69647,
+    "who": "Hayes Christopher G."
+   },
+   {
+    "date": "2024-08-27",
+    "filed": "2024-08-28",
+    "code": "S",
+    "value": 23444,
+    "who": "Hayes Christopher G."
+   },
+   {
+    "date": "2024-08-26",
+    "filed": "2024-08-28",
+    "code": "S",
+    "value": 26302,
+    "who": "Goldenberg Gary"
+   },
+   {
+    "date": "2024-08-27",
+    "filed": "2024-08-28",
+    "code": "S",
+    "value": 8858,
+    "who": "Goldenberg Gary"
+   },
+   {
+    "date": "2024-08-26",
+    "filed": "2024-08-28",
+    "code": "S",
+    "value": 65726,
+    "who": "Bonaccorso Joe"
+   },
+   {
+    "date": "2024-08-27",
+    "filed": "2024-08-28",
+    "code": "S",
+    "value": 22123,
+    "who": "Bonaccorso Joe"
+   },
+   {
+    "date": "2024-08-26",
+    "filed": "2024-08-28",
+    "code": "S",
+    "value": 58041,
+    "who": "Kohler Terry"
+   },
+   {
+    "date": "2024-08-27",
+    "filed": "2024-08-28",
+    "code": "S",
+    "value": 19432,
+    "who": "Kohler Terry"
+   },
+   {
+    "date": "2024-08-26",
+    "filed": "2024-08-28",
+    "code": "S",
+    "value": 66444,
+    "who": "White Ted"
+   },
+   {
+    "date": "2024-08-27",
+    "filed": "2024-08-28",
+    "code": "S",
+    "value": 22192,
+    "who": "White Ted"
+   }
   ]
  },
  "drug": null,

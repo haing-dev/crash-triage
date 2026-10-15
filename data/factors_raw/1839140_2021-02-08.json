@@ -3,20 +3,22 @@
  "cik": "1839140",
  "name": "Revium Rx.",
  "date": "2021-02-08",
- "asof": "2021-03-10",
+ "asof": "2021-02-08",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2021-03-10",
-  "adj_close": 1.41
+  "date": "2021-02-08",
+  "adj_close": 1.35
  },
  "balance": null,
  "burn": null,
  "shares": null,
+ "filing": null,
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2020-11-10",
+  "to": "2021-03-10",
+  "trades": []
  },
  "drug": null,
  "trials": {

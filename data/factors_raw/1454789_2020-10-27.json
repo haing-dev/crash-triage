@@ -3,36 +3,52 @@
  "cik": "1454789",
  "name": "Astria Therapeutics, Inc.",
  "date": "2020-10-27",
- "asof": "2020-11-26",
+ "asof": "2020-10-29",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2020-11-27",
-  "adj_close": 9.54
+  "date": "2020-10-29",
+  "adj_close": 8.34
  },
  "balance": {
-  "end": "2020-09-30",
-  "cash": 52856000,
+  "end": "2020-06-30",
+  "cash": 53886000,
   "parts": [
-   "CashAndCashEquivalentsAtCarryingValue"
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
   ],
-  "accn": "0001104659-20-124372"
+  "accn": "0001104659-20-092697"
  },
  "burn": {
-  "end": "2020-09-30",
-  "months": 9.0,
-  "per_month": -2723320.7326007327
+  "end": "2020-06-30",
+  "ytd_months": 5.9,
+  "ytd": -14455000,
+  "accn": "0001104659-20-092697",
+  "ttm_per_month": -2391583.3333333335,
+  "quarter_per_month": -2488666.6666666665,
+  "per_month": -2391583.3333333335
  },
  "shares": {
-  "end": "2020-10-30",
-  "shares": 20084337,
+  "end": "2020-07-31",
+  "shares": 19080769,
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001104659-20-092697",
+  "guided_until": "2021-09-15",
+  "guidance": "ivalents and short-term investments are sufficient to support our operating expenses through the third quarter of 2021 and",
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": 37100000.0,
+  "atm_quote": "une 30, 2020 2019 2020 2019 Common stock, shares Balance, beginning of period 17,897,172 11,496,242 12,433,600 7,141,996 Issuance of common stock for at-the-market offerings 926,429 49,495 1,100,001 403,241 Issuance of common stock and warrants in public offerings - - 5,290,000 4,000,000 Issuance of common stock upon exercise of common stock warrants - 8,200 - 8,700 Balance, end of period 18,823,6"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 1,
+  "from": "2020-07-29",
+  "to": "2020-11-26",
+  "trades": []
  },
  "drug": null,
  "trials": {

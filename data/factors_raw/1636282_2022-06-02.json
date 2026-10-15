@@ -3,11 +3,12 @@
  "cik": "1636282",
  "name": "Spyre Therapeutics, Inc.",
  "date": "2022-06-02",
- "asof": "2022-07-02",
+ "asof": "2022-06-06",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-07-05",
-  "adj_close": 12.575
+  "date": "2022-06-06",
+  "adj_close": 14.625
  },
  "balance": {
   "end": "2022-03-31",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2022-03-31",
-  "months": 2.9,
-  "per_month": -8982536.17977528
+  "ytd_months": 2.9,
+  "ytd": -26263000,
+  "accn": "0001564590-22-018006",
+  "ttm_per_month": -5037416.666666667,
+  "quarter_per_month": -8754333.333333334,
+  "per_month": -5037416.666666667
  },
  "shares": {
   "end": "2022-04-28",
@@ -34,12 +39,63 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001564590-22-018006",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "rmance obligation. During the year ended December 31, 2020, we raised $163.3 million of gross proceeds through an underwritten public offering and an at-the-market offering program. We sold 15,442,303 shares of common stock and pre-funded warrants to purchase up to 13,610,328 shares of common stock in an underwritten public offering, or the 2020 Public Offering, for gross proceeds of $138.0 millio"
+ },
  "insiders": {
-  "form4s": 9,
-  "bought": 20022,
-  "sold": 0,
-  "buyers": [
-   "Hanley Jr. Michael Conick"
+  "form4s": 12,
+  "from": "2022-03-04",
+  "to": "2022-07-02",
+  "trades": [
+   {
+    "date": "2022-06-08",
+    "filed": "2022-06-10",
+    "code": "P",
+    "value": 20022,
+    "who": "Hanley Jr. Michael Conick"
+   },
+   {
+    "date": "2022-03-16",
+    "filed": "2022-03-18",
+    "code": "P",
+    "value": 187705,
+    "who": "Quinn Anthony G."
+   },
+   {
+    "date": "2022-03-11",
+    "filed": "2022-03-15",
+    "code": "P",
+    "value": 71780,
+    "who": "Quinn Anthony G."
+   },
+   {
+    "date": "2022-03-14",
+    "filed": "2022-03-15",
+    "code": "P",
+    "value": 130221,
+    "who": "Quinn Anthony G."
+   },
+   {
+    "date": "2022-03-15",
+    "filed": "2022-03-15",
+    "code": "P",
+    "value": 78942,
+    "who": "Quinn Anthony G."
+   },
+   {
+    "date": "2022-03-11",
+    "filed": "2022-03-15",
+    "code": "P",
+    "value": 156000,
+    "who": "Alspaugh Jonathan"
+   }
   ]
  },
  "drug": null,

@@ -3,11 +3,12 @@
  "cik": "1660334",
  "name": "Verrica Pharmaceuticals Inc.",
  "date": "2022-05-25",
- "asof": "2022-06-24",
+ "asof": "2022-05-31",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-06-24",
-  "adj_close": 21.1
+  "date": "2022-05-31",
+  "adj_close": 19.3
  },
  "balance": {
   "end": "2022-03-31",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2022-03-31",
-  "months": 2.9,
-  "per_month": -2852467.415730337
+  "ytd_months": 2.9,
+  "ytd": -8340000,
+  "accn": "0000950170-22-008242",
+  "ttm_per_month": -2094750.0,
+  "quarter_per_month": -2780000.0,
+  "per_month": -2094750.0
  },
  "shares": {
   "end": "2022-05-02",
@@ -33,11 +38,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0000950170-22-008242",
+  "guided_until": "2022-07-15",
+  "guidance": "securities as of March 31, 2022 will be sufficient to support Company&#x2019;s planned operations into the third quarter of 2022. Sub",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 4,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 9,
+  "from": "2022-02-24",
+  "to": "2022-06-24",
+  "trades": []
  },
  "drug": null,
  "trials": {

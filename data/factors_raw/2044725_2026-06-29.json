@@ -3,11 +3,12 @@
  "cik": "2044725",
  "name": "Evommune, Inc.",
  "date": "2026-06-29",
- "asof": "2026-07-29",
+ "asof": "2026-07-06",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-07-29",
-  "adj_close": 11.05
+  "date": "2026-07-06",
+  "adj_close": 12.36
  },
  "balance": {
   "end": "2026-03-31",
@@ -22,8 +23,12 @@
  },
  "burn": {
   "end": "2026-03-31",
-  "months": 2.9,
-  "per_month": -9406644.04494382
+  "ytd_months": 2.9,
+  "ytd": -27503000,
+  "accn": "0001193125-26-211963",
+  "ttm_per_month": -6670416.666666667,
+  "quarter_per_month": -9167666.666666666,
+  "per_month": -6670416.666666667
  },
  "shares": {
   "end": "2026-05-05",
@@ -31,29 +36,105 @@
   "split_factor": 1.0,
   "splits_after": []
  },
- "insiders": {
-  "form4s": 2,
-  "bought": 146260,
-  "sold": 0,
-  "buyers": [
-   "Carver Kyle",
-   "KIRSCH ARTHUR S"
-  ]
+ "filing": {
+  "accn": "0001193125-26-211963",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
  },
- "drug": null,
- "trials": {
-  "query": "evommune",
-  "other_trials": 1,
-  "crashed_drug_trials": 0,
-  "examples": [
+ "insiders": {
+  "form4s": 18,
+  "from": "2026-03-31",
+  "to": "2026-07-29",
+  "trades": [
    {
-    "nct": "NCT07150845",
-    "drugs": [
-     "EVO756",
-     "EVO756",
-     "EVO756"
-    ]
+    "date": "2026-07-08",
+    "filed": "2026-07-10",
+    "code": "P",
+    "value": 13260,
+    "who": "Carver Kyle"
+   },
+   {
+    "date": "2026-07-07",
+    "filed": "2026-07-08",
+    "code": "P",
+    "value": 133000,
+    "who": "KIRSCH ARTHUR S"
+   },
+   {
+    "date": "2026-06-22",
+    "filed": "2026-06-24",
+    "code": "S",
+    "value": 452600,
+    "who": "Drew Janice Suzann"
+   },
+   {
+    "date": "2026-06-22",
+    "filed": "2026-06-24",
+    "code": "S",
+    "value": 33480,
+    "who": "Patel Jeegar Pravinkumar"
+   },
+   {
+    "date": "2026-06-22",
+    "filed": "2026-06-24",
+    "code": "S",
+    "value": 168917,
+    "who": "Pena Luis C."
+   },
+   {
+    "date": "2026-06-02",
+    "filed": "2026-06-03",
+    "code": "S",
+    "value": 110266,
+    "who": "Cohen David E"
+   },
+   {
+    "date": "2026-06-02",
+    "filed": "2026-06-03",
+    "code": "S",
+    "value": 12828,
+    "who": "Cohen David E"
+   },
+   {
+    "date": "2026-06-01",
+    "filed": "2026-06-03",
+    "code": "S",
+    "value": 379462,
+    "who": "Patel Jeegar Pravinkumar"
+   },
+   {
+    "date": "2026-06-01",
+    "filed": "2026-06-03",
+    "code": "S",
+    "value": 381736,
+    "who": "Pena Luis C."
+   },
+   {
+    "date": "2026-05-28",
+    "filed": "2026-06-01",
+    "code": "S",
+    "value": 324711,
+    "who": "Moss Gregory S."
+   },
+   {
+    "date": "2026-05-28",
+    "filed": "2026-06-01",
+    "code": "S",
+    "value": 415117,
+    "who": "Carver Kyle"
    }
   ]
+ },
+ "drug": "EVO756",
+ "trials": {
+  "query": "evommune",
+  "other_trials": 0,
+  "crashed_drug_trials": 1,
+  "examples": []
  }
 }

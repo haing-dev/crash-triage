@@ -3,28 +3,33 @@
  "cik": "1644963",
  "name": "AVENUE THERAPEUTICS, INC.",
  "date": "2020-10-12",
- "asof": "2020-11-11",
+ "asof": "2020-10-16",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2020-11-11",
-  "adj_close": 3611.25
+  "date": "2020-10-16",
+  "adj_close": 4320.0
  },
  "balance": {
-  "end": "2020-09-30",
-  "cash": 4325000,
+  "end": "2020-06-30",
+  "cash": 5257000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001104659-20-121404"
+  "accn": "0001104659-20-095653"
  },
  "burn": {
-  "end": "2020-09-30",
-  "months": 9.0,
-  "per_month": -381336.2637362638
+  "end": "2020-06-30",
+  "ytd_months": 5.9,
+  "ytd": -2488000,
+  "accn": "0001104659-20-095653",
+  "ttm_per_month": -766500.0,
+  "quarter_per_month": -439000.0,
+  "per_month": -766500.0
  },
  "shares": {
-  "end": "2020-10-28",
-  "shares": 16747803,
+  "end": "2020-08-01",
+  "shares": 16702803,
   "split_factor": 1124.996,
   "splits_after": [
    [
@@ -37,11 +42,29 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001104659-20-095653",
+  "guided_until": null,
+  "guidance": "sufficient to fund our anticipated operating cash requirements for approximately the next 12 months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 1,
+  "from": "2020-07-14",
+  "to": "2020-11-11",
+  "trades": [
+   {
+    "date": "2020-08-20",
+    "filed": "2020-08-21",
+    "code": "S",
+    "value": 46579,
+    "who": "Vazzano Joseph Walter"
+   }
+  ]
  },
  "drug": null,
  "trials": {

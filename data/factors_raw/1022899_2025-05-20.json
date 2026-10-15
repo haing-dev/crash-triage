@@ -3,11 +3,12 @@
  "cik": "1022899",
  "name": "Protagenic Therapeutics, Inc.\\new",
  "date": "2025-05-20",
- "asof": "2025-06-19",
+ "asof": "2025-05-27",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-06-20",
-  "adj_close": 3.56
+  "date": "2025-05-27",
+  "adj_close": 3.94
  },
  "balance": {
   "end": "2025-03-31",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2025-03-31",
-  "months": 2.9,
-  "per_month": -365285.8143820225
+  "ytd_months": 2.9,
+  "ytd": -1068017,
+  "accn": "0001641172-25-009923",
+  "ttm_per_month": -302112.4166666667,
+  "quarter_per_month": -356005.6666666667,
+  "per_month": -302112.4166666667
  },
  "shares": {
   "end": "2025-05-09",
@@ -28,11 +33,21 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001641172-25-009923",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2025-02-19",
+  "to": "2025-06-19",
+  "trades": []
  },
  "drug": null,
  "trials": {

@@ -3,11 +3,12 @@
  "cik": "1853816",
  "name": "Dermata Therapeutics, Inc.",
  "date": "2021-11-19",
- "asof": "2021-12-19",
+ "asof": "2021-11-22",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2021-12-20",
-  "adj_close": 5544.0
+  "date": "2021-11-22",
+  "adj_close": 5808.0
  },
  "balance": {
   "end": "2021-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2021-09-30",
-  "months": 8.9,
-  "per_month": 435278.90632352943
+  "ytd_months": 8.9,
+  "ytd": 3889483,
+  "accn": "0001654954-21-012206",
+  "ttm_per_month": -302635.4166666667,
+  "quarter_per_month": 1856305.3333333333,
+  "per_month": -302635.4166666667
  },
  "shares": {
   "end": "2021-11-10",
@@ -33,12 +38,28 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001654954-21-012206",
+  "guided_until": null,
+  "guidance": "sufficient to fund our operating expenses and capital expenditure requirements for at least the next 12 months",
+  "twelve_months": true,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 1,
-  "bought": 48000,
-  "sold": 0,
-  "buyers": [
-   "PROEHL GERALD T"
+  "form4s": 2,
+  "from": "2021-08-21",
+  "to": "2021-12-19",
+  "trades": [
+   {
+    "date": "2021-11-23",
+    "filed": "2021-11-26",
+    "code": "P",
+    "value": 48000,
+    "who": "PROEHL GERALD T"
+   }
   ]
  },
  "drug": null,

@@ -3,11 +3,12 @@
  "cik": "1348911",
  "name": "KalVista Pharmaceuticals, Inc.",
  "date": "2022-10-04",
- "asof": "2022-11-03",
+ "asof": "2022-10-05",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-11-03",
-  "adj_close": 5.31
+  "date": "2022-10-05",
+  "adj_close": 5.15
  },
  "balance": {
   "end": "2022-07-31",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2022-07-31",
-  "months": 3.0,
-  "per_month": -7607323.956043956
+  "ytd_months": 3.0,
+  "ytd": -22742000,
+  "accn": "0000950170-22-018239",
+  "ttm_per_month": -6928416.666666667,
+  "quarter_per_month": -7580666.666666667,
+  "per_month": -6928416.666666667
  },
  "shares": {
   "end": "2022-09-01",
@@ -29,11 +34,64 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0000950170-22-018239",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "ntial efforts in this indication, including the potential for our oral drug candidates. On May 21, 2021, we entered into a Controlled Equity Offering Sales Agreement with Cantor Fitzgerald &amp; Co. (the &#x201c;Sales Agreement&#x201d;), which established an at-the-market offering program pursuant to which we may offer and sell shares of our common stock from time to time. The Sales Agreement prov"
+ },
  "insiders": {
-  "form4s": 4,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 10,
+  "from": "2022-07-06",
+  "to": "2022-11-03",
+  "trades": [
+   {
+    "date": "2022-09-02",
+    "filed": "2022-09-07",
+    "code": "S",
+    "value": 22458,
+    "who": "Crockett Thomas Andrew"
+   },
+   {
+    "date": "2022-08-17",
+    "filed": "2022-08-19",
+    "code": "S",
+    "value": 10847,
+    "who": "Audhya Paul K."
+   },
+   {
+    "date": "2022-08-17",
+    "filed": "2022-08-19",
+    "code": "S",
+    "value": 7960,
+    "who": "Feener Edward P."
+   },
+   {
+    "date": "2022-08-17",
+    "filed": "2022-08-19",
+    "code": "S",
+    "value": 17130,
+    "who": "Yea Christopher"
+   },
+   {
+    "date": "2022-08-17",
+    "filed": "2022-08-19",
+    "code": "S",
+    "value": 10847,
+    "who": "Palleiko Benjamin L"
+   },
+   {
+    "date": "2022-08-17",
+    "filed": "2022-08-19",
+    "code": "S",
+    "value": 26890,
+    "who": "Crockett Thomas Andrew"
+   }
+  ]
  },
  "drug": null,
  "trials": {

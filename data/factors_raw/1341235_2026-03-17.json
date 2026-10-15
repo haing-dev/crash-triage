@@ -3,11 +3,12 @@
  "cik": "1341235",
  "name": "Aldeyra Therapeutics, Inc.",
  "date": "2026-03-17",
- "asof": "2026-04-16",
+ "asof": "2026-03-17",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-04-16",
-  "adj_close": 1.8
+  "date": "2026-03-17",
+  "adj_close": 1.24
  },
  "balance": {
   "end": "2025-12-31",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2025-12-31",
-  "months": 12.0,
-  "per_month": -2788578.461758242
+  "ytd_months": 12.0,
+  "ytd": -33345682,
+  "accn": "0001193125-26-083012",
+  "ttm_per_month": -2778806.8333333335,
+  "quarter_per_month": -1766448.3333333333,
+  "per_month": -2778806.8333333335
  },
  "shares": {
   "end": "2026-02-27",
@@ -29,16 +34,38 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001193125-26-083012",
+  "guided_until": null,
+  "guidance": "sufficient to fund the Company's currently projected operating expenses and debt obligations for at least the next 12 months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "be more than five in 10,000 persons in the EU when the application is made, or without the benefits derived from orphan status, it must be unlikely that the marketing of the medicine would generate sufficient return in the EU to justify the investment needed for its development; and (3) there exists no satisfactory method of diagnosis, prevention or treatment of such condition authorized for marke"
+ },
  "insiders": {
   "form4s": 3,
-  "bought": 105100,
-  "sold": 0,
-  "buyers": [
-   "Alfieri Michael",
-   "DOUGLAS RICHARD"
+  "from": "2025-12-17",
+  "to": "2026-04-16",
+  "trades": [
+   {
+    "date": "2026-03-19",
+    "filed": "2026-03-20",
+    "code": "P",
+    "value": 98000,
+    "who": "DOUGLAS RICHARD"
+   },
+   {
+    "date": "2026-03-18",
+    "filed": "2026-03-19",
+    "code": "P",
+    "value": 7100,
+    "who": "Alfieri Michael"
+   }
   ]
  },
- "drug": null,
+ "drug": "reproxalap",
  "trials": {
   "query": "aldeyra therapeutics",
   "other_trials": 1,

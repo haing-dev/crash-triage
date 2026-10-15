@@ -3,11 +3,12 @@
  "cik": "1348362",
  "name": "Lexaria Bioscience Corp.",
  "date": "2026-09-08",
- "asof": "2026-10-08",
+ "asof": "2026-09-14",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-10-08",
-  "adj_close": 3.2
+  "date": "2026-09-14",
+  "adj_close": 3.55
  },
  "balance": {
   "end": "2026-05-31",
@@ -21,8 +22,12 @@
  },
  "burn": {
   "end": "2026-05-31",
-  "months": 8.9,
-  "per_month": -535272.8514705882
+  "ytd_months": 8.9,
+  "ytd": -4782990,
+  "accn": "0001640334-26-001166",
+  "ttm_per_month": -618790.6666666666,
+  "quarter_per_month": -545006.6666666666,
+  "per_month": -618790.6666666666
  },
  "shares": {
   "end": "2026-07-13",
@@ -30,13 +35,23 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001640334-26-001166",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2026-06-10",
+  "to": "2026-10-08",
+  "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "lexaria bioscience",
   "other_trials": 0,

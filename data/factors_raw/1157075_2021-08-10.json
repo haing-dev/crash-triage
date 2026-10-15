@@ -3,11 +3,12 @@
  "cik": "1157075",
  "name": "PharmaCyte Biotech, Inc.",
  "date": "2021-08-10",
- "asof": "2021-09-09",
+ "asof": "2021-08-11",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2021-09-09",
-  "adj_close": 3.95
+  "date": "2021-08-11",
+  "adj_close": 2.86
  },
  "balance": {
   "end": "2021-04-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2021-04-30",
-  "months": 12.0,
-  "per_month": -278550.16802197805
+  "ytd_months": 12.0,
+  "ytd": -3330889,
+  "accn": "0001683168-21-003377",
+  "ttm_per_month": -277574.0833333333,
+  "quarter_per_month": -313434.3333333333,
+  "per_month": -277574.0833333333
  },
  "shares": {
   "end": "2021-08-09",
@@ -28,11 +33,21 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001683168-21-003377",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "uture. We cannot assure you that we will be able to continue to comply with the minimum bid price requirement of Nasdaq . There can be no assurance that the market price of our common stock will remain at the level required for continuing compliance with Nasdaq's minimum bid requirement. It is not uncommon for the market price of a company's common stock to decline in the period following a revers"
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2021-05-12",
+  "to": "2021-09-09",
+  "trades": []
  },
  "drug": null,
  "trials": {

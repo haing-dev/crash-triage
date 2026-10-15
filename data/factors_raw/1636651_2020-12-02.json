@@ -3,11 +3,12 @@
  "cik": "1636651",
  "name": "Ovid Therapeutics Inc.",
  "date": "2020-12-02",
- "asof": "2021-01-01",
+ "asof": "2020-12-07",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2021-01-04",
-  "adj_close": 2.43
+  "date": "2020-12-07",
+  "adj_close": 2.58
  },
  "balance": {
   "end": "2020-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2020-09-30",
-  "months": 9.0,
-  "per_month": -4133878.2200732604
+  "ytd_months": 9.0,
+  "ytd": -37074532,
+  "accn": "0001564590-20-053666",
+  "ttm_per_month": -4496907.166666667,
+  "quarter_per_month": -489809.0,
+  "per_month": -4496907.166666667
  },
  "shares": {
   "end": "2020-11-05",
@@ -28,11 +33,21 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001564590-20-053666",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "ares Amount Capital Income Deficit Total Balance, December 31, 2019 7,762 $ 8 54,710,322 $ 54,711 $ 283,122,894 $ 2,469 $ (213,156,521 ) $ 70,023,561 ATM offering costs - - - - 2,053 - - 2,053 Stock-based compensation expense - - - - 1,302,931 - - 1,302,931 Issuance of common stock from employee stock purchase plan - - 43,743 43 83,067 - - 83,110 Other comprehensive income - - - - - 63,235 - 63,23"
+ },
  "insiders": {
-  "form4s": 7,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 11,
+  "from": "2020-09-03",
+  "to": "2021-01-01",
+  "trades": []
  },
  "drug": null,
  "trials": {

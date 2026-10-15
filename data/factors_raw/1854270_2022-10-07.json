@@ -3,11 +3,12 @@
  "cik": "1854270",
  "name": "Senti Biosciences Holdings, Inc.",
  "date": "2022-10-07",
- "asof": "2022-11-06",
+ "asof": "2022-10-12",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-11-07",
-  "adj_close": 22.9
+  "date": "2022-10-12",
+  "adj_close": 32.0
  },
  "balance": {
   "end": "2022-06-30",
@@ -19,7 +20,11 @@
  },
  "burn": {
   "end": "2022-06-30",
-  "months": 5.9,
+  "ytd_months": 5.9,
+  "ytd": -15754000,
+  "accn": "0001854270-22-000019",
+  "ttm_per_month": null,
+  "quarter_per_month": -5087123.333333333,
   "per_month": -2664176.4444444445
  },
  "shares": {
@@ -33,11 +38,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001854270-22-000019",
+  "guided_until": null,
+  "guidance": "sufficient to fund our operations for the next twelve months",
+  "twelve_months": true,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 8,
+  "from": "2022-07-09",
+  "to": "2022-11-06",
+  "trades": []
  },
  "drug": null,
  "trials": {

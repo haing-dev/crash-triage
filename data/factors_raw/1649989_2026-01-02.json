@@ -3,11 +3,12 @@
  "cik": "1649989",
  "name": "Outlook Therapeutics, Inc.",
  "date": "2026-01-02",
- "asof": "2026-02-01",
+ "asof": "2026-01-06",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-02-02",
-  "adj_close": 0.44
+  "date": "2026-01-06",
+  "adj_close": 0.52999997
  },
  "balance": {
   "end": "2025-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2025-09-30",
-  "months": 12.0,
-  "per_month": -4334307.863406594
+  "ytd_months": 12.0,
+  "ytd": -51829437,
+  "accn": "0001104659-25-123264",
+  "ttm_per_month": -4319119.75,
+  "quarter_per_month": -4125732.3333333335,
+  "per_month": -4319119.75
  },
  "shares": {
   "end": "2025-12-16",
@@ -28,24 +33,27 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001104659-25-123264",
+  "guided_until": null,
+  "guidance": "adequate to fund our currently planned operations through at least the next 12 months",
+  "twelve_months": true,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "uivalents as of September 30, 2025, together with $14.9 million in net proceeds from the sale of shares of 29 Table of Contents common stock under an at-the-market sales program since September 30, 2025, are sufficient to fund our operations through one year from the Form 10-K filing date. On March 13, 2025, we issued a $33.1 million promissory note, or the March 2025 Note, to Avondale Capital, LL"
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2025-10-04",
+  "to": "2026-02-01",
+  "trades": []
  },
- "drug": null,
+ "drug": "ONS-5010/LYTENAVA (bevacizumab-vikg)",
  "trials": {
   "query": "outlook therapeutics",
-  "other_trials": 1,
-  "crashed_drug_trials": 0,
-  "examples": [
-   {
-    "nct": "NCT05112861",
-    "drugs": [
-     "bevacizumab"
-    ]
-   }
-  ]
+  "other_trials": 0,
+  "crashed_drug_trials": 1,
+  "examples": []
  }
 }

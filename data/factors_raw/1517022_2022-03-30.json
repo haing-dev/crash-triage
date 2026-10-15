@@ -3,11 +3,12 @@
  "cik": "1517022",
  "name": "Akebia Therapeutics, Inc.",
  "date": "2022-03-30",
- "asof": "2022-04-29",
+ "asof": "2022-03-31",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-04-29",
-  "adj_close": 0.41499999
+  "date": "2022-03-31",
+  "adj_close": 0.71799999
  },
  "balance": {
   "end": "2021-12-31",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2021-12-31",
-  "months": 12.0,
-  "per_month": -21154545.604395606
+  "ytd_months": 12.0,
+  "ytd": -252965000,
+  "accn": "0001628280-22-004522",
+  "ttm_per_month": -21080416.666666668,
+  "quarter_per_month": -20936000.0,
+  "per_month": -21080416.666666668
  },
  "shares": {
   "end": "2022-02-23",
@@ -28,11 +33,176 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001628280-22-004522",
+  "guided_until": null,
+  "guidance": "sufficient to fund our current operating plan through at least the next twelve months",
+  "twelve_months": true,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "ties, warrants and units, from time to time pursuant to one or more offerings at prices and terms to be determined at the time of sale, including a a sales agreement prospectus that covers the offering, issuance and sale by us of up to a maximum aggregate offering price of up to $25,268,163 of our common stock that may be issued and sold from time to time under an amended and restated sales agreem"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 8,
+  "from": "2021-12-30",
+  "to": "2022-04-29",
+  "trades": [
+   {
+    "date": "2022-02-28",
+    "filed": "2022-03-02",
+    "code": "S",
+    "value": 53984,
+    "who": "Butler John P."
+   },
+   {
+    "date": "2022-03-01",
+    "filed": "2022-03-02",
+    "code": "S",
+    "value": 53857,
+    "who": "Butler John P."
+   },
+   {
+    "date": "2022-03-01",
+    "filed": "2022-03-02",
+    "code": "S",
+    "value": 54335,
+    "who": "Butler John P."
+   },
+   {
+    "date": "2022-03-01",
+    "filed": "2022-03-02",
+    "code": "S",
+    "value": 8967,
+    "who": "Butler John P."
+   },
+   {
+    "date": "2022-02-28",
+    "filed": "2022-03-02",
+    "code": "S",
+    "value": 15946,
+    "who": "Burke Steven Keith"
+   },
+   {
+    "date": "2022-03-01",
+    "filed": "2022-03-02",
+    "code": "S",
+    "value": 14231,
+    "who": "Burke Steven Keith"
+   },
+   {
+    "date": "2022-03-01",
+    "filed": "2022-03-02",
+    "code": "S",
+    "value": 2388,
+    "who": "Burke Steven Keith"
+   },
+   {
+    "date": "2022-02-28",
+    "filed": "2022-03-02",
+    "code": "S",
+    "value": 8503,
+    "who": "Cotreau Violetta"
+   },
+   {
+    "date": "2022-02-28",
+    "filed": "2022-03-02",
+    "code": "S",
+    "value": 14125,
+    "who": "Dahan Michel"
+   },
+   {
+    "date": "2022-03-01",
+    "filed": "2022-03-02",
+    "code": "S",
+    "value": 14919,
+    "who": "Dahan Michel"
+   },
+   {
+    "date": "2022-03-01",
+    "filed": "2022-03-02",
+    "code": "S",
+    "value": 14919,
+    "who": "Dahan Michel"
+   },
+   {
+    "date": "2022-03-01",
+    "filed": "2022-03-02",
+    "code": "S",
+    "value": 2674,
+    "who": "Dahan Michel"
+   },
+   {
+    "date": "2022-02-28",
+    "filed": "2022-03-02",
+    "code": "S",
+    "value": 13961,
+    "who": "Faulkingham Dell"
+   },
+   {
+    "date": "2022-03-01",
+    "filed": "2022-03-02",
+    "code": "S",
+    "value": 12477,
+    "who": "Faulkingham Dell"
+   },
+   {
+    "date": "2022-03-01",
+    "filed": "2022-03-02",
+    "code": "S",
+    "value": 2077,
+    "who": "Faulkingham Dell"
+   },
+   {
+    "date": "2022-02-28",
+    "filed": "2022-03-02",
+    "code": "S",
+    "value": 14125,
+    "who": "Hadas Nicole R."
+   },
+   {
+    "date": "2022-03-01",
+    "filed": "2022-03-02",
+    "code": "S",
+    "value": 14919,
+    "who": "Hadas Nicole R."
+   },
+   {
+    "date": "2022-03-01",
+    "filed": "2022-03-02",
+    "code": "S",
+    "value": 14231,
+    "who": "Hadas Nicole R."
+   },
+   {
+    "date": "2022-03-01",
+    "filed": "2022-03-02",
+    "code": "S",
+    "value": 2340,
+    "who": "Hadas Nicole R."
+   },
+   {
+    "date": "2022-02-28",
+    "filed": "2022-03-02",
+    "code": "S",
+    "value": 15946,
+    "who": "Spellman David A"
+   },
+   {
+    "date": "2022-03-01",
+    "filed": "2022-03-02",
+    "code": "S",
+    "value": 1743,
+    "who": "Spellman David A"
+   },
+   {
+    "date": "2022-01-03",
+    "filed": "2022-01-05",
+    "code": "S",
+    "value": 13335,
+    "who": "Cotreau Violetta"
+   }
+  ]
  },
  "drug": null,
  "trials": {

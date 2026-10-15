@@ -3,39 +3,54 @@
  "cik": "1738021",
  "name": "Compass Therapeutics, Inc.",
  "date": "2026-04-27",
- "asof": "2026-05-27",
+ "asof": "2026-04-27",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-05-27",
-  "adj_close": 2.27
+  "date": "2026-04-27",
+  "adj_close": 1.79
  },
  "balance": {
-  "end": "2026-03-31",
-  "cash": 194687000,
+  "end": "2025-12-31",
+  "cash": 208906000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue",
    "MarketableSecuritiesCurrent"
   ],
-  "accn": "0001171843-26-003006"
+  "accn": "0001171843-26-001337"
  },
  "burn": {
-  "end": "2026-03-31",
-  "months": 2.9,
-  "per_month": -5906386.06741573
+  "end": "2025-12-31",
+  "ytd_months": 12.0,
+  "ytd": -49143000,
+  "accn": "0001171843-26-001337",
+  "ttm_per_month": -4095250.0,
+  "quarter_per_month": -4418000.0,
+  "per_month": -4095250.0
  },
  "shares": {
-  "end": "2026-04-30",
+  "end": "2026-02-27",
   "shares": 180087915,
   "split_factor": 1.0,
   "splits_after": []
  },
- "insiders": {
-  "form4s": 2,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+ "filing": {
+  "accn": "0001171843-26-001337",
+  "guided_until": "2028-01-15",
+  "guidance": "lents and marketable securities will be sufficient to fund its operating expenses and capital expenditure requirements into 2028. The",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "with proceeds from private placements of preferred and common equity, an underwritten public offering and a PIPE offering, as well as sales under our at-the-market offering program. Since commencing operations, we have devoted substantially all of our efforts and financial resources to organizing and staffing our company, identifying business development opportunities, raising capital, securing in"
  },
- "drug": null,
+ "insiders": {
+  "form4s": 3,
+  "from": "2026-01-27",
+  "to": "2026-05-27",
+  "trades": []
+ },
+ "drug": "tovecimig",
  "trials": {
   "query": "compass therapeutics",
   "other_trials": 1,

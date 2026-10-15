@@ -3,11 +3,12 @@
  "cik": "1904286",
  "name": "MIRA PHARMACEUTICALS, INC.",
  "date": "2023-12-06",
- "asof": "2024-01-05",
+ "asof": "2023-12-08",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-01-05",
-  "adj_close": 1.13
+  "date": "2023-12-08",
+  "adj_close": 1.58
  },
  "balance": {
   "end": "2023-09-30",
@@ -19,7 +20,11 @@
  },
  "burn": {
   "end": "2023-09-30",
-  "months": 8.9,
+  "ytd_months": 8.9,
+  "ytd": -3497388,
+  "accn": "0001493152-23-040517",
+  "ttm_per_month": null,
+  "quarter_per_month": -587089.6666666666,
   "per_month": -391398.86294117646
  },
  "shares": {
@@ -28,11 +33,176 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001493152-23-040517",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 1,
-  "bought": 0,
-  "sold": 726088,
-  "buyers": []
+  "form4s": 2,
+  "from": "2023-09-07",
+  "to": "2024-01-05",
+  "trades": [
+   {
+    "date": "2023-11-20",
+    "filed": "2023-12-27",
+    "code": "S",
+    "value": 67764,
+    "who": "McNulty Brian Patrick"
+   },
+   {
+    "date": "2023-11-21",
+    "filed": "2023-12-27",
+    "code": "S",
+    "value": 12500,
+    "who": "McNulty Brian Patrick"
+   },
+   {
+    "date": "2023-11-27",
+    "filed": "2023-12-27",
+    "code": "S",
+    "value": 12860,
+    "who": "McNulty Brian Patrick"
+   },
+   {
+    "date": "2023-11-28",
+    "filed": "2023-12-27",
+    "code": "S",
+    "value": 484,
+    "who": "McNulty Brian Patrick"
+   },
+   {
+    "date": "2023-11-29",
+    "filed": "2023-12-27",
+    "code": "S",
+    "value": 14721,
+    "who": "McNulty Brian Patrick"
+   },
+   {
+    "date": "2023-11-30",
+    "filed": "2023-12-27",
+    "code": "S",
+    "value": 9136,
+    "who": "McNulty Brian Patrick"
+   },
+   {
+    "date": "2023-12-04",
+    "filed": "2023-12-27",
+    "code": "S",
+    "value": 122047,
+    "who": "McNulty Brian Patrick"
+   },
+   {
+    "date": "2023-12-06",
+    "filed": "2023-12-27",
+    "code": "S",
+    "value": 40894,
+    "who": "McNulty Brian Patrick"
+   },
+   {
+    "date": "2023-12-07",
+    "filed": "2023-12-27",
+    "code": "S",
+    "value": 31577,
+    "who": "McNulty Brian Patrick"
+   },
+   {
+    "date": "2023-12-08",
+    "filed": "2023-12-27",
+    "code": "S",
+    "value": 15316,
+    "who": "McNulty Brian Patrick"
+   },
+   {
+    "date": "2023-12-11",
+    "filed": "2023-12-27",
+    "code": "S",
+    "value": 35749,
+    "who": "McNulty Brian Patrick"
+   },
+   {
+    "date": "2023-11-20",
+    "filed": "2023-12-27",
+    "code": "S",
+    "value": 67759,
+    "who": "McNulty Brian Patrick"
+   },
+   {
+    "date": "2023-11-21",
+    "filed": "2023-12-27",
+    "code": "S",
+    "value": 12500,
+    "who": "McNulty Brian Patrick"
+   },
+   {
+    "date": "2023-11-27",
+    "filed": "2023-12-27",
+    "code": "S",
+    "value": 12856,
+    "who": "McNulty Brian Patrick"
+   },
+   {
+    "date": "2023-11-28",
+    "filed": "2023-12-27",
+    "code": "S",
+    "value": 480,
+    "who": "McNulty Brian Patrick"
+   },
+   {
+    "date": "2023-11-29",
+    "filed": "2023-12-27",
+    "code": "S",
+    "value": 14725,
+    "who": "McNulty Brian Patrick"
+   },
+   {
+    "date": "2023-11-30",
+    "filed": "2023-12-27",
+    "code": "S",
+    "value": 9136,
+    "who": "McNulty Brian Patrick"
+   },
+   {
+    "date": "2023-12-04",
+    "filed": "2023-12-27",
+    "code": "S",
+    "value": 122051,
+    "who": "McNulty Brian Patrick"
+   },
+   {
+    "date": "2023-12-06",
+    "filed": "2023-12-27",
+    "code": "S",
+    "value": 40891,
+    "who": "McNulty Brian Patrick"
+   },
+   {
+    "date": "2023-12-07",
+    "filed": "2023-12-27",
+    "code": "S",
+    "value": 31579,
+    "who": "McNulty Brian Patrick"
+   },
+   {
+    "date": "2023-12-08",
+    "filed": "2023-12-27",
+    "code": "S",
+    "value": 15318,
+    "who": "McNulty Brian Patrick"
+   },
+   {
+    "date": "2023-12-11",
+    "filed": "2023-12-27",
+    "code": "S",
+    "value": 35747,
+    "who": "McNulty Brian Patrick"
+   }
+  ]
  },
  "drug": null,
  "trials": {

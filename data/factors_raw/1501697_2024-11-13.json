@@ -3,11 +3,12 @@
  "cik": "1501697",
  "name": "X4 Pharmaceuticals, Inc",
  "date": "2024-11-13",
- "asof": "2024-12-13",
+ "asof": "2024-11-13",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-12-13",
-  "adj_close": 20.1
+  "date": "2024-11-13",
+  "adj_close": 8.31
  },
  "balance": {
   "end": "2024-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2024-09-30",
-  "months": 9.0,
-  "per_month": -10916698.315018317
+  "ytd_months": 9.0,
+  "ytd": -97906000,
+  "accn": "0001628280-24-047445",
+  "ttm_per_month": -10471083.333333334,
+  "quarter_per_month": -11344000.0,
+  "per_month": -10471083.333333334
  },
  "shares": {
   "end": "2024-11-11",
@@ -33,11 +38,78 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001628280-24-047445",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "and our common stock, sales of preferred stock, proceeds from the issuance of convertible debt and borrowings under loan and security agreements. ATM Sales Agreement &#8212; We have entered into a Controlled Equity Offering SM Sales Agreement (&#8220;ATM Sales Agreement&#8221;), with certain investment banks (collectively the &#8220;Sales Agents&#8221;), pursuant to which we may offer and sell, at"
+ },
  "insiders": {
-  "form4s": 1,
-  "bought": 0,
-  "sold": 12583,
-  "buyers": []
+  "form4s": 8,
+  "from": "2024-08-15",
+  "to": "2024-12-13",
+  "trades": [
+   {
+    "date": "2024-11-15",
+    "filed": "2024-11-19",
+    "code": "S",
+    "value": 12583,
+    "who": "Ragan Paula"
+   },
+   {
+    "date": "2024-10-15",
+    "filed": "2024-10-16",
+    "code": "S",
+    "value": 17926,
+    "who": "Ragan Paula"
+   },
+   {
+    "date": "2024-10-07",
+    "filed": "2024-10-08",
+    "code": "S",
+    "value": 126901,
+    "who": "Mostafa Adam S."
+   },
+   {
+    "date": "2024-10-07",
+    "filed": "2024-10-08",
+    "code": "S",
+    "value": 6506,
+    "who": "Baldry Mark"
+   },
+   {
+    "date": "2024-10-07",
+    "filed": "2024-10-08",
+    "code": "S",
+    "value": 131522,
+    "who": "Ragan Paula"
+   },
+   {
+    "date": "2024-10-07",
+    "filed": "2024-10-08",
+    "code": "S",
+    "value": 38329,
+    "who": "DiBiase Mary"
+   },
+   {
+    "date": "2024-10-07",
+    "filed": "2024-10-08",
+    "code": "S",
+    "value": 43306,
+    "who": "Taveras Arthur"
+   },
+   {
+    "date": "2024-09-09",
+    "filed": "2024-09-11",
+    "code": "S",
+    "value": 1738,
+    "who": "DiBiase Mary"
+   }
+  ]
  },
  "drug": null,
  "trials": {

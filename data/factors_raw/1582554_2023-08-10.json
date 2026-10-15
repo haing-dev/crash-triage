@@ -3,11 +3,12 @@
  "cik": "1582554",
  "name": "Matinas BioPharma Holdings, Inc.",
  "date": "2023-08-10",
- "asof": "2023-09-09",
+ "asof": "2023-08-14",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-09-11",
-  "adj_close": 7.85
+  "date": "2023-08-14",
+  "adj_close": 8.3
  },
  "balance": {
   "end": "2023-06-30",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2023-06-30",
-  "months": 5.9,
-  "per_month": -1062017.7777777778
+  "ytd_months": 5.9,
+  "ytd": -6280000,
+  "accn": "0001493152-23-027340",
+  "ttm_per_month": -1295750.0,
+  "quarter_per_month": -731000.0,
+  "per_month": -1295750.0
  },
  "shares": {
   "end": "2023-08-04",
@@ -34,11 +39,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001493152-23-027340",
+  "guided_until": "2024-07-15",
+  "guidance": "marketable debt securities on hand are sufficient to fund planned operations into the third quarter of 2024, but",
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "continue as a going concern is dependent upon control over its operating expenses, anticipated proceeds from future sales of common stock through the At-The-Market Sales Agreement (&#8220;ATM&#8221;) with BTIG, LLC. and securing additional financing. While the Company believes in the viability of this strategy and believes the actions presently being taken by the Company provide the opportunity fo"
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2023-05-12",
+  "to": "2023-09-09",
+  "trades": []
  },
  "drug": null,
  "trials": {

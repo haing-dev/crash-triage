@@ -3,38 +3,68 @@
  "cik": "1699382",
  "name": "PMV Pharmaceuticals, Inc.",
  "date": "2023-10-12",
- "asof": "2023-11-11",
+ "asof": "2023-10-13",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-11-13",
-  "adj_close": 2.03
+  "date": "2023-10-13",
+  "adj_close": 2.0
  },
  "balance": {
-  "end": "2023-09-30",
-  "cash": 238102000,
+  "end": "2023-06-30",
+  "cash": 218844000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue",
    "MarketableSecuritiesCurrent",
    "MarketableSecuritiesNoncurrent"
   ],
-  "accn": "0000950170-23-061551"
+  "accn": "0000950170-23-040153"
  },
  "burn": {
-  "end": "2023-09-30",
-  "months": 8.9,
-  "per_month": -4876219.411764706
+  "end": "2023-06-30",
+  "ytd_months": 5.9,
+  "ytd": -27913000,
+  "accn": "0000950170-23-040153",
+  "ttm_per_month": -4999666.666666667,
+  "quarter_per_month": -4300333.333333333,
+  "per_month": -4999666.666666667
  },
  "shares": {
-  "end": "2023-11-07",
-  "shares": 51157636,
+  "end": "2023-08-07",
+  "shares": 48454582,
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0000950170-23-040153",
+  "guided_until": "2024-12-15",
+  "guidance": "securities as of June 30, 2023 will be sufficient to fund our operations at least through 2024. We",
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "f directors subject to the rights of any preferred stockholders. As of June 30, 2023 , no dividends on common stock had been declared by the Company. ATM Program On October 4, 2021, the Company entered into an at-the-market offering program (the &#x201c;ATM Program&#x201d;) pursuant to which, the Company may offer and sell shares of its common stock having aggregate gross sales proceeds of up to $"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 3,
+  "from": "2023-07-14",
+  "to": "2023-11-11",
+  "trades": [
+   {
+    "date": "2023-09-15",
+    "filed": "2023-09-18",
+    "code": "S",
+    "value": 27168,
+    "who": "Jalota Deepika"
+   },
+   {
+    "date": "2023-09-15",
+    "filed": "2023-09-18",
+    "code": "S",
+    "value": 41646,
+    "who": "Alland Leila"
+   }
+  ]
  },
  "drug": null,
  "trials": {

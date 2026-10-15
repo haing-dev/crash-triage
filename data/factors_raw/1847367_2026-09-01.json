@@ -3,11 +3,12 @@
  "cik": "1847367",
  "name": "ALUMIS INC.",
  "date": "2026-09-01",
- "asof": "2026-10-01",
+ "asof": "2026-09-01",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-10-01",
-  "adj_close": 7.21
+  "date": "2026-09-01",
+  "adj_close": 9.47
  },
  "balance": {
   "end": "2026-06-30",
@@ -19,37 +20,127 @@
  },
  "burn": {
   "end": "2026-06-30",
-  "months": 5.9,
-  "per_month": -28509089.333333336
+  "ytd_months": 5.9,
+  "ytd": -168582000,
+  "accn": "0001847367-26-000018",
+  "ttm_per_month": -29283166.666666668,
+  "quarter_per_month": -27166666.666666668,
+  "per_month": -29283166.666666668
  },
  "shares": null,
- "insiders": {
-  "form4s": 1,
-  "bought": 10726255,
-  "sold": 1014028,
-  "buyers": [
-   "AKKARAJU SRINIVAS"
-  ]
+ "filing": {
+  "accn": "0001847367-26-000018",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "SOLIDATED FINANCIAL STATEMENTS (Unaudited) Controlled Equity Offering SM On March 18, 2026, the Company entered into a C ontrolled Equity Offering SM Sales Agreement (the &#8220;Sales Agreement&#8221;) with Cantor as sales agent, pursuant to which the Company may offer and sell, from time to time through Cantor, at its option, shares of its common stock having an aggregate offering price of up to "
  },
- "drug": null,
- "trials": {
-  "query": "alumis",
-  "other_trials": 2,
-  "crashed_drug_trials": 0,
-  "examples": [
+ "insiders": {
+  "form4s": 13,
+  "from": "2026-06-03",
+  "to": "2026-10-01",
+  "trades": [
    {
-    "nct": "NCT06846541",
-    "drugs": [
-     "Open-Label Envudeucitinib",
-     "Blinded Envudeucitinib"
-    ]
+    "date": "2026-09-04",
+    "filed": "2026-09-09",
+    "code": "P",
+    "value": 2458842,
+    "who": "AKKARAJU SRINIVAS"
    },
    {
-    "nct": "NCT05739435",
-    "drugs": [
-     "envudeucitinib"
-    ]
+    "date": "2026-09-04",
+    "filed": "2026-09-09",
+    "code": "P",
+    "value": 2458842,
+    "who": "AKKARAJU SRINIVAS"
+   },
+   {
+    "date": "2026-09-08",
+    "filed": "2026-09-09",
+    "code": "S",
+    "value": 507019,
+    "who": "AKKARAJU SRINIVAS"
+   },
+   {
+    "date": "2026-09-08",
+    "filed": "2026-09-09",
+    "code": "S",
+    "value": 507009,
+    "who": "AKKARAJU SRINIVAS"
+   },
+   {
+    "date": "2026-09-08",
+    "filed": "2026-09-09",
+    "code": "P",
+    "value": 2904291,
+    "who": "AKKARAJU SRINIVAS"
+   },
+   {
+    "date": "2026-09-08",
+    "filed": "2026-09-09",
+    "code": "P",
+    "value": 2904280,
+    "who": "AKKARAJU SRINIVAS"
+   },
+   {
+    "date": "2026-08-03",
+    "filed": "2026-08-05",
+    "code": "S",
+    "value": 86546,
+    "who": "Schroer John R."
+   },
+   {
+    "date": "2026-08-03",
+    "filed": "2026-08-05",
+    "code": "S",
+    "value": 35969,
+    "who": "Pangali Sanam"
+   },
+   {
+    "date": "2026-08-03",
+    "filed": "2026-08-05",
+    "code": "S",
+    "value": 70988,
+    "who": "Hardiman Roy C."
+   },
+   {
+    "date": "2026-08-03",
+    "filed": "2026-08-05",
+    "code": "S",
+    "value": 68457,
+    "who": "Goldstein David M"
+   },
+   {
+    "date": "2026-08-03",
+    "filed": "2026-08-05",
+    "code": "S",
+    "value": 64527,
+    "who": "Drappa Jorn"
+   },
+   {
+    "date": "2026-08-03",
+    "filed": "2026-08-05",
+    "code": "S",
+    "value": 67824,
+    "who": "Bradley Mark Christopher"
+   },
+   {
+    "date": "2026-07-06",
+    "filed": "2026-07-08",
+    "code": "S",
+    "value": 140000,
+    "who": "Pangali Sanam"
    }
   ]
+ },
+ "drug": "envudeucitinib",
+ "trials": {
+  "query": "alumis",
+  "other_trials": 0,
+  "crashed_drug_trials": 2,
+  "examples": []
  }
 }

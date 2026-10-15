@@ -3,11 +3,12 @@
  "cik": "1673772",
  "name": "RAPT Therapeutics, Inc.",
  "date": "2024-05-09",
- "asof": "2024-06-08",
+ "asof": "2024-05-14",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-06-10",
-  "adj_close": 30.56
+  "date": "2024-05-14",
+  "adj_close": 32.0
  },
  "balance": {
   "end": "2024-03-31",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2024-03-31",
-  "months": 3.0,
-  "per_month": -9160410.666666666
+  "ytd_months": 3.0,
+  "ytd": -27084000,
+  "accn": "0000950170-24-056302",
+  "ttm_per_month": -8794166.666666666,
+  "quarter_per_month": -9028000.0,
+  "per_month": -8794166.666666666
  },
  "shares": {
   "end": "2024-05-03",
@@ -34,11 +39,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0000950170-24-056302",
+  "guided_until": null,
+  "guidance": "sufficient to fund our anticipated level of operations through at least the next 12 months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": 140600000.0,
+  "atm_quote": "$ ( 484,682 ) $ 147,035 Issuances of common stock under employee stock plans 36,074 &#8212; 67 &#8212; &#8212; 67 Issuances of common stock in &#8220;at-the-market&#8221; offerings, net of issuance costs 365,316 &#8212; 8,969 &#8212; &#8212; 8,969 Stock-based compensation &#8212; &#8212; 5,398 &#8212; &#8212; 5,398 Unrealized loss on marketable securities &#8212; &#8212; &#8212; ( 113 ) &#8212; ( "
+ },
  "insiders": {
-  "form4s": 6,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 9,
+  "from": "2024-02-09",
+  "to": "2024-06-08",
+  "trades": []
  },
  "drug": null,
  "trials": {

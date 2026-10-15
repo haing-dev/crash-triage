@@ -3,11 +3,12 @@
  "cik": "1726711",
  "name": "Aditxt, Inc.",
  "date": "2026-05-22",
- "asof": "2026-06-21",
+ "asof": "2026-05-22",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-06-22",
-  "adj_close": 0.0192
+  "date": "2026-05-22",
+  "adj_close": 0.515
  },
  "balance": {
   "end": "2026-03-31",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2026-03-31",
-  "months": 2.9,
-  "per_month": -1566022.3964044945
+  "ytd_months": 2.9,
+  "ytd": -4578712,
+  "accn": "0001213900-26-059562",
+  "ttm_per_month": -1546139.6666666667,
+  "quarter_per_month": -1526237.3333333333,
+  "per_month": -1546139.6666666667
  },
  "shares": {
   "end": "2026-05-20",
@@ -28,13 +33,168 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001213900-26-059562",
+  "guided_until": null,
+  "guidance": "sufficient to fund our operations for the next 12 months",
+  "twelve_months": true,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "r of authorized shares of the Company's common stock. All share amounts referenced in this report are adjusted to reflect the May 2026 Reverse Split. At the Market Offering Agreement Amendment &amp; Activity On October 25, 2024, the Company entered into an amendment to the existing At The Market Offering Agreement (the &#8220;ATM&#8221;) with H.C. Wainwright &amp; Co., LLC as agent (the &#8220;Age"
+ },
  "insiders": {
-  "form4s": 9,
-  "bought": 245293,
-  "sold": 162867,
-  "buyers": [
-   "BANK OF AMERICA CORP /DE/",
-   "HRT FINANCIAL LP"
+  "form4s": 11,
+  "from": "2026-02-21",
+  "to": "2026-06-21",
+  "trades": [
+   {
+    "date": "2026-06-16",
+    "filed": "2026-06-18",
+    "code": "S",
+    "value": 40722,
+    "who": "HRT FINANCIAL LP"
+   },
+   {
+    "date": "2026-06-17",
+    "filed": "2026-06-18",
+    "code": "S",
+    "value": 1001,
+    "who": "DRW Securities, LLC"
+   },
+   {
+    "date": "2026-06-15",
+    "filed": "2026-06-17",
+    "code": "P",
+    "value": 29601,
+    "who": "HRT FINANCIAL LP"
+   },
+   {
+    "date": "2026-06-12",
+    "filed": "2026-06-16",
+    "code": "P",
+    "value": 68044,
+    "who": "HRT FINANCIAL LP"
+   },
+   {
+    "date": "2026-06-11",
+    "filed": "2026-06-15",
+    "code": "P",
+    "value": 0,
+    "who": "BANK OF AMERICA CORP /DE/"
+   },
+   {
+    "date": "2026-06-11",
+    "filed": "2026-06-15",
+    "code": "P",
+    "value": 0,
+    "who": "BANK OF AMERICA CORP /DE/"
+   },
+   {
+    "date": "2026-06-11",
+    "filed": "2026-06-15",
+    "code": "P",
+    "value": 0,
+    "who": "BANK OF AMERICA CORP /DE/"
+   },
+   {
+    "date": "2026-06-11",
+    "filed": "2026-06-15",
+    "code": "P",
+    "value": 0,
+    "who": "BANK OF AMERICA CORP /DE/"
+   },
+   {
+    "date": "2026-06-11",
+    "filed": "2026-06-15",
+    "code": "P",
+    "value": 0,
+    "who": "BANK OF AMERICA CORP /DE/"
+   },
+   {
+    "date": "2026-06-11",
+    "filed": "2026-06-15",
+    "code": "S",
+    "value": 0,
+    "who": "BANK OF AMERICA CORP /DE/"
+   },
+   {
+    "date": "2026-06-11",
+    "filed": "2026-06-12",
+    "code": "S",
+    "value": 39668,
+    "who": "HRT FINANCIAL LP"
+   },
+   {
+    "date": "2026-06-08",
+    "filed": "2026-06-11",
+    "code": "P",
+    "value": 69751,
+    "who": "HRT FINANCIAL LP"
+   },
+   {
+    "date": "2026-06-09",
+    "filed": "2026-06-11",
+    "code": "S",
+    "value": 28996,
+    "who": "HRT FINANCIAL LP"
+   },
+   {
+    "date": "2026-06-10",
+    "filed": "2026-06-11",
+    "code": "P",
+    "value": 13781,
+    "who": "HRT FINANCIAL LP"
+   },
+   {
+    "date": "2026-06-09",
+    "filed": "2026-06-10",
+    "code": "S",
+    "value": 6880,
+    "who": "Gong Sandie"
+   },
+   {
+    "date": "2026-06-04",
+    "filed": "2026-06-08",
+    "code": "P",
+    "value": 64115,
+    "who": "HRT FINANCIAL LP"
+   },
+   {
+    "date": "2026-06-05",
+    "filed": "2026-06-08",
+    "code": "S",
+    "value": 45599,
+    "who": "HRT FINANCIAL LP"
+   },
+   {
+    "date": "2026-04-23",
+    "filed": "2026-04-27",
+    "code": "S",
+    "value": 1105,
+    "who": "HRT FINANCIAL LP"
+   },
+   {
+    "date": "2026-04-24",
+    "filed": "2026-04-27",
+    "code": "S",
+    "value": 8233,
+    "who": "HRT FINANCIAL LP"
+   },
+   {
+    "date": "2026-04-21",
+    "filed": "2026-04-23",
+    "code": "P",
+    "value": 24061,
+    "who": "HRT FINANCIAL LP"
+   },
+   {
+    "date": "2026-04-22",
+    "filed": "2026-04-23",
+    "code": "S",
+    "value": 3595,
+    "who": "HRT FINANCIAL LP"
+   }
   ]
  },
  "drug": null,

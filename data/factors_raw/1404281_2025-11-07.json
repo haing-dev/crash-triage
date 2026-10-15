@@ -3,39 +3,54 @@
  "cik": "1404281",
  "name": "Eledon Pharmaceuticals, Inc.",
  "date": "2025-11-07",
- "asof": "2025-12-07",
+ "asof": "2025-11-07",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-12-08",
-  "adj_close": 1.59
+  "date": "2025-11-07",
+  "adj_close": 2.06
  },
  "balance": {
-  "end": "2025-09-30",
-  "cash": 93401000,
+  "end": "2025-06-30",
+  "cash": 107570000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue",
    "ShortTermInvestments"
   ],
-  "accn": "0001193125-25-283275"
+  "accn": "0001193125-25-180906"
  },
  "burn": {
-  "end": "2025-09-30",
-  "months": 8.9,
-  "per_month": -5399742.647058823
+  "end": "2025-06-30",
+  "ytd_months": 5.9,
+  "ytd": -33773000,
+  "accn": "0001193125-25-180906",
+  "ttm_per_month": -5377416.666666667,
+  "quarter_per_month": -5904333.333333333,
+  "per_month": -5377416.666666667
  },
  "shares": {
-  "end": "2025-11-07",
-  "shares": 59932212,
+  "end": "2025-08-13",
+  "shares": 59881775,
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001193125-25-180906",
+  "guided_until": null,
+  "guidance": "sufficient to fund its currently planned operations for at least the next 12 months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "fective on June 5, 2024. 2024 Equity Distribution Agreement On September 20, 2024, the Company entered into an Open Market Sale Agreement (the &#8220;Sales Agreement&#8221;) with Guggenheim Securities, LLC (&#8220;Guggenheim Securities&#8221;) to sell shares of the Company's common stock, having aggregate sales proceeds of up to $ 75.0 million, from time to time, through an &#8220;at the market&#8"
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2025-08-09",
+  "to": "2025-12-07",
+  "trades": []
  },
- "drug": null,
+ "drug": "tegoprubart",
  "trials": {
   "query": "eledon pharmaceuticals",
   "other_trials": 2,

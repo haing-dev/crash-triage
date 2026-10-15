@@ -3,11 +3,12 @@
  "cik": "1411906",
  "name": "Ampio Pharmaceuticals, Inc.",
  "date": "2022-10-04",
- "asof": "2022-11-03",
+ "asof": "2022-10-04",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-11-03",
-  "adj_close": 10.62
+  "date": "2022-10-04",
+  "adj_close": 6.0
  },
  "balance": {
   "end": "2022-06-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2022-06-30",
-  "months": 5.9,
-  "per_month": -1841789.1111111112
+  "ytd_months": 5.9,
+  "ytd": -10891000,
+  "accn": "0001558370-22-012937",
+  "ttm_per_month": -1542083.3333333333,
+  "quarter_per_month": -1982333.3333333333,
+  "per_month": -1542083.3333333333
  },
  "shares": {
   "end": "2022-08-08",
@@ -37,11 +42,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001558370-22-012937",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "&#8203; &#8203; &#8212; &#8203; &#8203; 114,000 &#8203; &#8203; &#8212; &#8203; &#8203; 114,000 Issuance of common stock in connection with the &quot;at-the-market&quot; equity offering program &#8203; 1,848,437 &#8203; &#8203; &#8212; &#8203; &#8203; 2,705,000 &#8203; &#8203; &#8212; &#8203; &#8203; 2,705,000 Offering costs related to the issuance of common stock in connection with the &quot;at-t"
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2022-07-06",
+  "to": "2022-11-03",
+  "trades": []
  },
  "drug": null,
  "trials": {

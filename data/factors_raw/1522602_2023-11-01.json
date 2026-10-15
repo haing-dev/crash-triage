@@ -3,11 +3,12 @@
  "cik": "1522602",
  "name": "CohBar, Inc.",
  "date": "2023-11-01",
- "asof": "2023-12-01",
+ "asof": "2023-11-01",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-12-01",
-  "adj_close": 0.785
+  "date": "2023-11-01",
+  "adj_close": 0.92
  },
  "balance": {
   "end": "2023-06-30",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2023-06-30",
-  "months": 5.9,
-  "per_month": -580281.6095555556
+  "ytd_months": 5.9,
+  "ytd": -3431363,
+  "accn": "0001213900-23-067030",
+  "ttm_per_month": -661686.0833333334,
+  "quarter_per_month": -601015.6666666666,
+  "per_month": -661686.0833333334
  },
  "shares": {
   "end": "2023-08-07",
@@ -29,11 +34,21 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001213900-23-067030",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "vestments 16,953,000 38,138,000 Net cash provided by investing activities 3,692,975 3,998,000 Cash flows from financing activities: Proceeds from the At-the-Market Offering, net - 200,624 Repayment of promissory notes - ( 375,000 ) Net cash provided by financing activities - ( 174,376 ) Net increase (decrease) in cash and cash equivalents 261,612 ( 2,113,998 ) Cash and cash equivalents at beginnin"
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2023-08-03",
+  "to": "2023-12-01",
+  "trades": []
  },
  "drug": null,
  "trials": {

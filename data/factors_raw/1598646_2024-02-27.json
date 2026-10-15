@@ -3,11 +3,12 @@
  "cik": "1598646",
  "name": "Minerva Neurosciences, Inc.",
  "date": "2024-02-27",
- "asof": "2024-03-28",
+ "asof": "2024-02-27",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-03-28",
-  "adj_close": 2.58
+  "date": "2024-02-27",
+  "adj_close": 2.8
  },
  "balance": {
   "end": "2023-12-31",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2023-12-31",
-  "months": 12.0,
-  "per_month": -1236393.5221978023
+  "ytd_months": 12.0,
+  "ytd": -14784732,
+  "accn": "0000950170-24-018392",
+  "ttm_per_month": -1232061.0,
+  "quarter_per_month": -1997128.3333333333,
+  "per_month": -1232061.0
  },
  "shares": {
   "end": "2024-02-19",
@@ -28,11 +33,21 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0000950170-24-018392",
+  "guided_until": null,
+  "guidance": "sufficient to meet our cash commitments for at least the next 12 months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "otect or enforce our patents or other intellectual property, which could be expensive, time consuming and unsuccessful; 4 &#8226; We cannot predict what the market price of our common stock will be and, as a result, it may be difficult for you to sell your shares of our common stock; &#8226; Our principal stockholders and management own a significant percentage of our stock and will be able to exe"
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2023-11-29",
+  "to": "2024-03-28",
+  "trades": []
  },
  "drug": null,
  "trials": {

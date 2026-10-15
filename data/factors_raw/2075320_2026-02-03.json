@@ -3,24 +3,32 @@
  "cik": "2075320",
  "name": "Polaryx Therapeutics, Inc.",
  "date": "2026-02-03",
- "asof": "2026-03-05",
+ "asof": "2026-02-09",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-03-05",
-  "adj_close": 2.62
+  "date": "2026-02-09",
+  "adj_close": 5.93
  },
  "balance": null,
  "burn": null,
  "shares": null,
+ "filing": null,
  "insiders": {
   "form4s": 1,
-  "bought": 7991,
-  "sold": 0,
-  "buyers": [
-   "Landis G. Michael"
+  "from": "2025-11-05",
+  "to": "2026-03-05",
+  "trades": [
+   {
+    "date": "2026-02-18",
+    "filed": "2026-02-20",
+    "code": "P",
+    "value": 7991,
+    "who": "Landis G. Michael"
+   }
   ]
  },
- "drug": null,
+ "drug": "PLX-200",
  "trials": {
   "query": "polaryx therapeutics",
   "other_trials": 0,

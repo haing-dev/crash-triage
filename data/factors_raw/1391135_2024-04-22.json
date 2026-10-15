@@ -3,36 +3,51 @@
  "cik": "1391135",
  "name": "LFTD PARTNERS INC.",
  "date": "2024-04-22",
- "asof": "2024-05-22",
+ "asof": "2024-04-22",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-05-22",
-  "adj_close": 0.95
+  "date": "2024-04-22",
+  "adj_close": 0.68
  },
  "balance": {
-  "end": "2024-03-31",
-  "cash": 4376185,
+  "end": "2023-12-31",
+  "cash": 4357539,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001096906-24-001119"
+  "accn": "0001096906-24-000671"
  },
  "burn": {
-  "end": "2024-03-31",
-  "months": 3.0,
-  "per_month": 60417.650222222226
+  "end": "2023-12-31",
+  "ytd_months": 12.0,
+  "ytd": 638925,
+  "accn": "0001096906-24-000671",
+  "ttm_per_month": 53243.75,
+  "quarter_per_month": -34692.0,
+  "per_month": 53243.75
  },
  "shares": {
-  "end": "2024-05-13",
-  "shares": 14822678,
+  "end": "2024-03-26",
+  "shares": 14805678,
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001096906-24-000671",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2024-01-23",
+  "to": "2024-05-22",
+  "trades": []
  },
  "drug": null,
  "trials": {

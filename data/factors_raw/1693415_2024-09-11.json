@@ -3,11 +3,12 @@
  "cik": "1693415",
  "name": "Translate Bio, Inc.",
  "date": "2024-09-11",
- "asof": "2024-10-11",
+ "asof": "2024-09-11",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-10-11",
-  "adj_close": 2.85
+  "date": "2024-09-11",
+  "adj_close": 1.7
  },
  "balance": {
   "end": "2021-06-30",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2021-06-30",
-  "months": 5.9,
-  "per_month": 2315807.5555555555
+  "ytd_months": 5.9,
+  "ytd": 13694000,
+  "accn": "0001193125-21-237889",
+  "ttm_per_month": 25124916.666666668,
+  "quarter_per_month": 4335000.0,
+  "per_month": 25124916.666666668
  },
  "shares": {
   "end": "2021-08-02",
@@ -29,11 +34,21 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001193125-21-237889",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": 62100000.0,
+  "atm_quote": "any other interim periods, or any future year or period. Sales of Common Stock The Company is a party to an Open Market Sale Agreement SM (the &#8220;Sales Agreement&#8221;) with Jefferies LLC under which the Company may issue and sell shares of common stock, from time to time, having an aggregate offering price of up to $ 100.0 million. During the year ended December 31 , 2020 , the Company issue"
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2024-06-13",
+  "to": "2024-10-11",
+  "trades": []
  },
  "drug": null,
  "trials": {

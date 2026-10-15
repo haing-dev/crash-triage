@@ -3,30 +3,39 @@
  "cik": "1824293",
  "name": "GRI Bio, Inc.",
  "date": "2024-07-29",
- "asof": "2024-08-28",
+ "asof": "2024-08-02",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-08-28",
-  "adj_close": 254.18401
+  "date": "2024-08-02",
+  "adj_close": 256.564
  },
  "balance": {
-  "end": "2024-06-30",
-  "cash": 6353000,
+  "end": "2024-03-31",
+  "cash": 4091000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001824293-24-000105"
+  "accn": "0001824293-24-000047"
  },
  "burn": {
-  "end": "2024-06-30",
-  "months": 5.9,
-  "per_month": -730560.0
+  "end": "2024-03-31",
+  "ytd_months": 3.0,
+  "ytd": -2203000,
+  "accn": "0001824293-24-000047",
+  "ttm_per_month": -884500.0,
+  "quarter_per_month": -734333.3333333334,
+  "per_month": -884500.0
  },
  "shares": {
-  "end": "2024-08-06",
-  "shares": 2927707,
-  "split_factor": 2380059632.854,
+  "end": "2024-05-06",
+  "shares": 3774488,
+  "split_factor": 204196887243.899,
   "splits_after": [
+   [
+    "2024-08-14",
+    85.79
+   ],
    [
     "2024-11-14",
     126.97
@@ -49,11 +58,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001824293-24-000047",
+  "guided_until": "2024-07-15",
+  "guidance": "sting cash and cash equivalents will be sufficient to fund its operating expenses and capital expenditure requirements into the third quarter of 2024. The",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2024-04-30",
+  "to": "2024-08-28",
+  "trades": []
  },
  "drug": null,
  "trials": {

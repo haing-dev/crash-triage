@@ -3,11 +3,12 @@
  "cik": "2025942",
  "name": "Curanex Pharmaceuticals Inc",
  "date": "2025-09-18",
- "asof": "2025-10-18",
+ "asof": "2025-09-24",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-10-20",
-  "adj_close": 0.58700001
+  "date": "2025-09-24",
+  "adj_close": 0.86699998
  },
  "balance": {
   "end": "2025-06-30",
@@ -19,7 +20,11 @@
  },
  "burn": {
   "end": "2025-06-30",
-  "months": 5.9,
+  "ytd_months": 5.9,
+  "ytd": -440029,
+  "accn": "0001493152-25-012880",
+  "ttm_per_month": null,
+  "quarter_per_month": null,
   "per_month": -74413.79311111111
  },
  "shares": {
@@ -28,11 +33,21 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001493152-25-012880",
+  "guided_until": null,
+  "guidance": "sufficient to fund our operations for at least the next twelve months",
+  "twelve_months": true,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2025-06-20",
+  "to": "2025-10-18",
+  "trades": []
  },
  "drug": null,
  "trials": {

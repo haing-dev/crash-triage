@@ -3,11 +3,12 @@
  "cik": "1873875",
  "name": "Incannex Healthcare Inc.",
  "date": "2025-07-25",
- "asof": "2025-08-24",
+ "asof": "2025-07-31",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-08-25",
-  "adj_close": 22.23
+  "date": "2025-07-31",
+  "adj_close": 17.55
  },
  "balance": {
   "end": "2025-03-31",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2025-03-31",
-  "months": 9.0,
-  "per_month": -1229976.7032967033
+  "ytd_months": 9.0,
+  "ytd": -11031000,
+  "accn": "0001213900-25-043682",
+  "ttm_per_month": -1222750.0,
+  "quarter_per_month": -1053000.0,
+  "per_month": -1222750.0
  },
  "shares": {
   "end": "2025-05-13",
@@ -33,11 +38,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001213900-25-043682",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "cy Agreement (incorporated by reference to Exhibit 10.3 of the Company's Current Report on Form 8-K filed with the SEC on March 10, 2025). 10.4&#x5E; Sales Agreement (incorporated by reference to Exhibit 10.1 of the Company's Current Report on Form 8-K filed with the SEC on April 7, 2025). 31.1* Certification of Principal Executive Officer Required Under Rule 13a-14(a) of the Securities Exchange A"
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2025-04-26",
+  "to": "2025-08-24",
+  "trades": []
  },
  "drug": null,
  "trials": {

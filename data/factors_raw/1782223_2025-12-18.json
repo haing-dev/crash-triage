@@ -3,11 +3,12 @@
  "cik": "1782223",
  "name": "Pyxis Oncology, Inc.",
  "date": "2025-12-18",
- "asof": "2026-01-17",
+ "asof": "2025-12-18",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-01-20",
-  "adj_close": 1.66
+  "date": "2025-12-18",
+  "adj_close": 1.73
  },
  "balance": {
   "end": "2025-09-30",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2025-09-30",
-  "months": 8.9,
-  "per_month": -5939716.911764706
+  "ytd_months": 8.9,
+  "ytd": -53075000,
+  "accn": "0001193125-25-261696",
+  "ttm_per_month": -6030416.666666667,
+  "quarter_per_month": -4425666.666666667,
+  "per_month": -6030416.666666667
  },
  "shares": {
   "end": "2025-10-31",
@@ -29,13 +34,23 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001193125-25-261696",
+  "guided_until": "2026-07-15",
+  "guidance": "ments as of September 30, 2025, will be sufficient to fund our operations into the second half of 2026. How",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "5,071 ) $ 68,779 Balance at June 30, 2024 58,914,712 $ 59 $ 476,619 $ ( 102 ) $ ( 306,782 ) $ 169,794 Issuance of restricted common stock pursuant to at-the-market (\"ATM\") program, net of offering costs 450,000 &#8212; 1,584 &#8212; &#8212; 1,584 Issuance of restricted common stock, net of tax withholdings 58,687 &#8212; ( 1 ) &#8212; &#8212; ( 1 ) Issuance of common stock under employee stock pur"
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2025-09-19",
+  "to": "2026-01-17",
+  "trades": []
  },
- "drug": null,
+ "drug": "micvotabart pelidotin (MICVO)",
  "trials": {
   "query": "pyxis oncology",
   "other_trials": 1,

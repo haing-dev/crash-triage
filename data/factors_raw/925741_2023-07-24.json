@@ -3,11 +3,12 @@
  "cik": "925741",
  "name": "BioCardia, Inc.",
  "date": "2023-07-24",
- "asof": "2023-08-23",
+ "asof": "2023-07-24",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-08-23",
-  "adj_close": 12.9
+  "date": "2023-07-24",
+  "adj_close": 16.5
  },
  "balance": {
   "end": "2023-12-31",
@@ -18,13 +19,17 @@
   "accn": "0001437749-23-013580"
  },
  "burn": {
-  "end": "2023-06-30",
-  "months": 5.9,
-  "per_month": -965793.5555555556
+  "end": "2023-03-31",
+  "ytd_months": 2.9,
+  "ytd": -2560000,
+  "accn": "0001437749-23-013580",
+  "ttm_per_month": -850666.6666666666,
+  "quarter_per_month": -853333.3333333334,
+  "per_month": -850666.6666666666
  },
  "shares": {
-  "end": "2023-07-31",
-  "shares": 21619432,
+  "end": "2023-04-30",
+  "shares": 20219087,
   "split_factor": 15.0,
   "splits_after": [
    [
@@ -33,11 +38,29 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001437749-23-013580",
+  "guided_until": "2023-09-15",
+  "guidance": ".9 million as of March 31, 2023 are not sufficient to fund the Company&#x2019;s planned expenditures and meet its obligations beyond the third quarter of 2023. The",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "f March 31, 2023, we had not sold any common stock to Lincoln Park under the Purchase Agreement other than the Initial Purchase. 11 Cantor Fitzgerald Sales agreement - On April 12, 2022, we entered into a sales agreement (Sales Agreement) with Cantor Fitzgerald &amp; Co. (Cantor) as the sales agent, pursuant to which we may offer and sell, from time to time, through Cantor, shares of common stock "
+ },
  "insiders": {
-  "form4s": 2,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 15,
+  "from": "2023-04-25",
+  "to": "2023-08-23",
+  "trades": [
+   {
+    "date": "2023-05-26",
+    "filed": "2023-05-30",
+    "code": "P",
+    "value": 9920,
+    "who": "Altman Peter"
+   }
+  ]
  },
  "drug": null,
  "trials": {

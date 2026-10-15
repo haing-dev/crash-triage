@@ -3,11 +3,12 @@
  "cik": "1587221",
  "name": "Zosano Pharma Corp",
  "date": "2022-06-02",
- "asof": "2022-07-02",
+ "asof": "2022-06-06",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-07-05",
-  "adj_close": 0.27
+  "date": "2022-06-06",
+  "adj_close": 0.565
  },
  "balance": {
   "end": "2022-03-31",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2022-03-31",
-  "months": 2.9,
-  "per_month": -2920871.9101123596
+  "ytd_months": 2.9,
+  "ytd": -8540000,
+  "accn": "0001587221-22-000030",
+  "ttm_per_month": -2389166.6666666665,
+  "quarter_per_month": -2846666.6666666665,
+  "per_month": -2389166.6666666665
  },
  "shares": {
   "end": "2022-05-11",
@@ -28,11 +33,57 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001587221-22-000030",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "274 &#8212; 3,274 Issuance of common stock upon exercise of Series C warrants 4,143 &#8212; 94 &#8212; 94 Issuance of common stock in connection with at-the-market offering, net 2,370 &#8212; &#8212; &#8212; &#8212; Stock-based compensation &#8212; &#8212; 410 &#8212; 410 Net loss &#8212; &#8212; &#8212; ( 8,142 ) ( 8,142 ) Balance at March 31, 2021 3,039,223 $ &#8212; $ 383,483 $ ( 340,332 ) $ 43"
+ },
  "insiders": {
-  "form4s": 2,
-  "bought": 0,
-  "sold": 372,
-  "buyers": []
+  "form4s": 5,
+  "from": "2022-03-04",
+  "to": "2022-07-02",
+  "trades": [
+   {
+    "date": "2022-06-06",
+    "filed": "2022-06-07",
+    "code": "S",
+    "value": 58,
+    "who": "Matthews Christine"
+   },
+   {
+    "date": "2022-06-06",
+    "filed": "2022-06-07",
+    "code": "S",
+    "value": 314,
+    "who": "Lo Steven"
+   },
+   {
+    "date": "2022-03-31",
+    "filed": "2022-04-01",
+    "code": "S",
+    "value": 1705,
+    "who": "Matthews Christine"
+   },
+   {
+    "date": "2022-03-31",
+    "filed": "2022-04-01",
+    "code": "S",
+    "value": 842,
+    "who": "KELLERMAN DONALD J"
+   },
+   {
+    "date": "2022-03-31",
+    "filed": "2022-04-01",
+    "code": "S",
+    "value": 4965,
+    "who": "Lo Steven"
+   }
+  ]
  },
  "drug": null,
  "trials": {

@@ -3,11 +3,12 @@
  "cik": "1821586",
  "name": "MoonLake Immunotherapeutics",
  "date": "2025-09-29",
- "asof": "2025-10-29",
+ "asof": "2025-09-29",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-10-29",
-  "adj_close": 9.61
+  "date": "2025-09-29",
+  "adj_close": 6.245
  },
  "balance": {
   "end": "2025-06-30",
@@ -20,16 +21,78 @@
  },
  "burn": {
   "end": "2025-06-30",
-  "months": 5.9,
-  "per_month": -15671526.666666668
+  "ytd_months": 5.9,
+  "ytd": -92670000,
+  "accn": "0001821586-25-000018",
+  "ttm_per_month": -13868271.916666666,
+  "quarter_per_month": -18176666.666666668,
+  "per_month": -13868271.916666666
  },
  "shares": null,
+ "filing": {
+  "accn": "0001821586-25-000018",
+  "guided_until": "2028-01-15",
+  "guidance": "er amounting to $425.1 million, will be sufficient to fund our operating expenses and capital expenditure requirements into 2028. Equ",
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "&amp;R Shareholders' Agreement filed as an exhibit on the Company's Current Report on Form 8-K filed with the SEC on April 11, 2022. Equity Offerings At-the-Market Offering On May 11, 2023, the Company entered into a Sales Agreement (the &#8220;May 2023 Sales Agreement&#8221;) with Leerink Partners LLC (formerly known as SVB Securities LLC) (&#8220;Leerink Partners&#8221;), through which the Compa"
+ },
  "insiders": {
-  "form4s": 2,
-  "bought": 98808,
-  "sold": 46868184,
-  "buyers": [
-   "Bodenstedt Matthias"
+  "form4s": 4,
+  "from": "2025-07-01",
+  "to": "2025-10-29",
+  "trades": [
+   {
+    "date": "2025-10-08",
+    "filed": "2025-10-09",
+    "code": "P",
+    "value": 98808,
+    "who": "Bodenstedt Matthias"
+   },
+   {
+    "date": "2025-09-29",
+    "filed": "2025-10-01",
+    "code": "S",
+    "value": 663616,
+    "who": "Chen Bihua"
+   },
+   {
+    "date": "2025-09-29",
+    "filed": "2025-10-01",
+    "code": "S",
+    "value": 1952664,
+    "who": "Chen Bihua"
+   },
+   {
+    "date": "2025-09-29",
+    "filed": "2025-10-01",
+    "code": "S",
+    "value": 25703348,
+    "who": "Chen Bihua"
+   },
+   {
+    "date": "2025-09-29",
+    "filed": "2025-10-01",
+    "code": "S",
+    "value": 18508000,
+    "who": "Chen Bihua"
+   },
+   {
+    "date": "2025-09-30",
+    "filed": "2025-10-01",
+    "code": "S",
+    "value": 40556,
+    "who": "Chen Bihua"
+   },
+   {
+    "date": "2025-07-03",
+    "filed": "2025-07-07",
+    "code": "S",
+    "value": 1146565,
+    "who": "Moukheibir Catherine"
+   }
   ]
  },
  "drug": null,

@@ -3,28 +3,33 @@
  "cik": "1755237",
  "name": "Korsana Biosciences, Inc.",
  "date": "2020-10-14",
- "asof": "2020-11-13",
+ "asof": "2020-10-20",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2020-11-13",
-  "adj_close": 396.20001
+  "date": "2020-10-20",
+  "adj_close": 371.0
  },
  "balance": {
-  "end": "2020-09-30",
-  "cash": 66840000,
+  "end": "2020-06-30",
+  "cash": 56462000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001564590-20-050844"
+  "accn": "0001104659-20-089193"
  },
  "burn": {
-  "end": "2020-09-30",
-  "months": 9.0,
-  "per_month": -6517170.54945055
+  "end": "2020-06-30",
+  "ytd_months": 5.9,
+  "ytd": -43401000,
+  "accn": "0001104659-20-089193",
+  "ttm_per_month": -7448000.0,
+  "quarter_per_month": -4740333.333333333,
+  "per_month": -7448000.0
  },
  "shares": {
-  "end": "2020-11-03",
-  "shares": 33961868,
+  "end": "2020-07-29",
+  "shares": 33920210,
   "split_factor": 0.4,
   "splits_after": [
    [
@@ -37,12 +42,35 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001104659-20-089193",
+  "guided_until": "2021-07-15",
+  "guidance": "quivalents as of June 30, 2020, will be sufficient to fund our planned operating expenses and capital expenditure requirements into the second half of 2021, exc",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
   "form4s": 3,
-  "bought": 316250,
-  "sold": 9644,
-  "buyers": [
-   "Busch Andreas"
+  "from": "2020-07-16",
+  "to": "2020-11-13",
+  "trades": [
+   {
+    "date": "2020-11-09",
+    "filed": "2020-11-12",
+    "code": "P",
+    "value": 316250,
+    "who": "Busch Andreas"
+   },
+   {
+    "date": "2020-11-06",
+    "filed": "2020-11-10",
+    "code": "S",
+    "value": 9644,
+    "who": "Huyett William"
+   }
   ]
  },
  "drug": null,

@@ -3,38 +3,24 @@
  "cik": "2079272",
  "name": "Lakewood-Amedex Biotherapeutics Inc.",
  "date": "2026-04-27",
- "asof": "2026-05-27",
+ "asof": "2026-04-30",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-05-27",
-  "adj_close": 0.73000002
+  "date": "2026-04-30",
+  "adj_close": 2.66
  },
- "balance": {
-  "end": "2026-03-31",
-  "cash": 11709,
-  "parts": [
-   "CashAndCashEquivalentsAtCarryingValue"
-  ],
-  "accn": "0001213900-26-060640"
- },
- "burn": {
-  "end": "2026-03-31",
-  "months": 2.9,
-  "per_month": -119602.18022471911
- },
- "shares": {
-  "end": "2026-03-31",
-  "shares": 6995469,
-  "split_factor": 1.0,
-  "splits_after": []
- },
+ "balance": null,
+ "burn": null,
+ "shares": null,
+ "filing": null,
  "insiders": {
   "form4s": 1,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2026-01-27",
+  "to": "2026-05-27",
+  "trades": []
  },
- "drug": null,
+ "drug": "Nu-3",
  "trials": {
   "query": "lakewood amedex biotherapeutics",
   "other_trials": 0,

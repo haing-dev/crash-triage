@@ -3,10 +3,11 @@
  "cik": "1913577",
  "name": "Semnur Pharmaceuticals, Inc.",
  "date": "2025-10-02",
- "asof": "2025-11-01",
+ "asof": "2025-10-02",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-11-03",
+  "date": "2025-10-02",
   "adj_close": 9.0
  },
  "balance": {
@@ -19,15 +20,44 @@
  },
  "burn": {
   "end": "2025-06-30",
-  "months": 5.9,
-  "per_month": -31033.918222222223
+  "ytd_months": 5.9,
+  "ytd": -183512,
+  "accn": "0001213900-25-077047",
+  "ttm_per_month": -37345.333333333336,
+  "quarter_per_month": -23127.0,
+  "per_month": -37345.333333333336
  },
  "shares": null,
+ "filing": {
+  "accn": "0001213900-25-077047",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 1,
+  "from": "2025-07-04",
+  "to": "2025-11-01",
+  "trades": [
+   {
+    "date": "2025-09-23",
+    "filed": "2025-09-25",
+    "code": "S",
+    "value": 191122416,
+    "who": "Scilex Holding Co"
+   },
+   {
+    "date": "2025-09-23",
+    "filed": "2025-09-25",
+    "code": "S",
+    "value": 8877584,
+    "who": "Scilex Holding Co"
+   }
+  ]
  },
  "drug": null,
  "trials": {

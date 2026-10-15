@@ -3,37 +3,52 @@
  "cik": "1553643",
  "name": "RELMADA THERAPEUTICS, INC.",
  "date": "2022-10-13",
- "asof": "2022-11-12",
+ "asof": "2022-10-13",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-11-14",
-  "adj_close": 6.18
+  "date": "2022-10-13",
+  "adj_close": 6.475
  },
  "balance": {
-  "end": "2022-09-30",
-  "cash": 184152174,
+  "end": "2022-06-30",
+  "cash": 211955077,
   "parts": [
    "Cash",
    "ShortTermInvestments"
   ],
-  "accn": "0001213900-22-071154"
+  "accn": "0001213900-22-046934"
  },
  "burn": {
-  "end": "2022-09-30",
-  "months": 8.9,
-  "per_month": -7600903.476029412
+  "end": "2022-06-30",
+  "ytd_months": 5.9,
+  "ytd": -41055884,
+  "accn": "0001213900-22-046934",
+  "ttm_per_month": -8302699.083333333,
+  "quarter_per_month": -7208713.666666667,
+  "per_month": -8302699.083333333
  },
  "shares": {
-  "end": "2022-11-07",
-  "shares": 30099203,
+  "end": "2022-08-09",
+  "shares": 30060518,
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001213900-22-046934",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "al Balance - December 31, 2021 27,740,147 $ 27,740 $ 513,304,258 $ ( 305,067,112 ) $ 208,264,886 Stock based compensation - - 11,930,681 - 11,930,681 ATM offering, net 1,609,343 1,610 29,581,932 - 29,583,542 Warrant exercised for cash 33,334 33 299,973 - 300,006 Options exercised for cash 20,000 20 64,780 - 64,800 Net loss - - - ( 39,745,783 ) ( 39,745,783 ) Balance &#8211; March 31, 2022 29,402,8"
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2022-07-15",
+  "to": "2022-11-12",
+  "trades": []
  },
  "drug": null,
  "trials": {

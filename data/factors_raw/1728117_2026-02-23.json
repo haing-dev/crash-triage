@@ -3,60 +3,60 @@
  "cik": "1728117",
  "name": "Gossamer Bio, Inc.",
  "date": "2026-02-23",
- "asof": "2026-03-25",
+ "asof": "2026-02-23",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-03-25",
-  "adj_close": 30.56
+  "date": "2026-02-23",
+  "adj_close": 33.84
  },
  "balance": {
-  "end": "2025-12-31",
-  "cash": 245991000,
+  "end": "2025-09-30",
+  "cash": 351515000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue",
    "MarketableSecuritiesCurrent",
    "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
    "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
   ],
-  "accn": "0001728117-26-000017"
+  "accn": "0001728117-25-000081"
  },
  "burn": {
-  "end": "2025-12-31",
-  "months": 12.0,
-  "per_month": -14322354.505494505
+  "end": "2025-09-30",
+  "ytd_months": 8.9,
+  "ytd": -122952000,
+  "accn": "0001728117-25-000081",
+  "ttm_per_month": -13202750.0,
+  "quarter_per_month": -12055666.666666666,
+  "per_month": -13202750.0
  },
  "shares": {
-  "end": "2026-03-10",
-  "shares": 234696281,
+  "end": "2025-10-31",
+  "shares": 231456247,
   "split_factor": 1.0,
   "splits_after": []
  },
- "insiders": {
-  "form4s": 6,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+ "filing": {
+  "accn": "0001728117-25-000081",
+  "guided_until": null,
+  "guidance": "sufficient to fund our operations through at least the next 12 months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
  },
- "drug": null,
+ "insiders": {
+  "form4s": 12,
+  "from": "2025-11-25",
+  "to": "2026-03-25",
+  "trades": []
+ },
+ "drug": "seralutinib",
  "trials": {
   "query": "gossamer bio",
-  "other_trials": 2,
-  "crashed_drug_trials": 0,
-  "examples": [
-   {
-    "nct": "NCT06274801",
-    "drugs": [
-     "Seralutinib",
-     "Gereic Dry Powder Inhaler"
-    ]
-   },
-   {
-    "nct": "NCT04816604",
-    "drugs": [
-     "GB002 (seralutinib)",
-     "Generic Dry Powder Inhaler"
-    ]
-   }
-  ]
+  "other_trials": 0,
+  "crashed_drug_trials": 2,
+  "examples": []
  }
 }

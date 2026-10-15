@@ -3,30 +3,39 @@
  "cik": "1638287",
  "name": "MetaVia Inc.",
  "date": "2022-11-03",
- "asof": "2022-12-03",
+ "asof": "2022-11-03",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-12-05",
-  "adj_close": 133.75999
+  "date": "2022-11-03",
+  "adj_close": 410.95999
  },
  "balance": {
-  "end": "2022-09-30",
-  "cash": 6356000,
+  "end": "2022-06-30",
+  "cash": 8849000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001558370-22-017864"
+  "accn": "0001558370-22-013500"
  },
  "burn": {
-  "end": "2022-09-30",
-  "months": 8.9,
-  "per_month": -1108486.0294117646
+  "end": "2022-06-30",
+  "ytd_months": 5.9,
+  "ytd": -7546000,
+  "accn": "0001558370-22-013500",
+  "ttm_per_month": -1079333.3333333333,
+  "quarter_per_month": -905666.6666666666,
+  "per_month": -1079333.3333333333
  },
  "shares": {
-  "end": "2022-11-11",
-  "shares": 6503528,
-  "split_factor": 88.0,
+  "end": "2022-08-11",
+  "shares": 26661771,
+  "split_factor": 2640.144,
   "splits_after": [
+   [
+    "2022-11-14",
+    30.0
+   ],
    [
     "2024-03-28",
     8.0
@@ -37,11 +46,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001558370-22-013500",
+  "guided_until": "2023-01-15",
+  "guidance": "believes that its existing cash will be sufficient to fund its operations into the first quarter of 2023. The",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2022-08-05",
+  "to": "2022-12-03",
+  "trades": []
  },
  "drug": null,
  "trials": {

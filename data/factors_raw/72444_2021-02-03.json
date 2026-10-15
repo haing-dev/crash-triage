@@ -3,36 +3,66 @@
  "cik": "72444",
  "name": "Vaxart, Inc.",
  "date": "2021-02-03",
- "asof": "2021-03-05",
+ "asof": "2021-02-05",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2021-03-05",
-  "adj_close": 6.02
+  "date": "2021-02-05",
+  "adj_close": 7.7
  },
  "balance": {
-  "end": "2020-12-31",
-  "cash": 126870000,
+  "end": "2020-09-30",
+  "cash": 133438000,
   "parts": [
    "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
   ],
-  "accn": "0001437749-21-004115"
+  "accn": "0001437749-20-023615"
  },
  "burn": {
-  "end": "2020-12-31",
-  "months": 12.0,
-  "per_month": -1980684.9315068496
+  "end": "2020-09-30",
+  "ytd_months": 9.0,
+  "ytd": -12984000,
+  "accn": "0001437749-20-023615",
+  "ttm_per_month": -1398000.0,
+  "quarter_per_month": -3085000.0,
+  "per_month": -1398000.0
  },
  "shares": {
-  "end": "2021-02-24",
-  "shares": 117766672,
+  "end": "2020-11-11",
+  "shares": 109468945,
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001437749-20-023615",
+  "guided_until": "2021-12-15",
+  "guidance": "common stock warrants and options, are sufficient to fund us through 2021. To",
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "ing activities: Net proceeds from issuance of securities in registered direct offering 9,175 2,540 Net proceeds from issuance of common stock through at-the-market facility 97,034 &#8212; Net proceeds from issuance of securities in April 2019 underwritten offering &#8212; 8,074 Net proceeds from issuance of securities in September 2019 underwritten offering &#8212; 7,741 Proceeds from issuance of "
+ },
  "insiders": {
-  "form4s": 1,
-  "bought": 0,
-  "sold": 906450,
-  "buyers": []
+  "form4s": 2,
+  "from": "2020-11-05",
+  "to": "2021-03-05",
+  "trades": [
+   {
+    "date": "2021-03-04",
+    "filed": "2021-03-05",
+    "code": "S",
+    "value": 906450,
+    "who": "Latour Wouter"
+   },
+   {
+    "date": "2020-11-23",
+    "filed": "2020-11-23",
+    "code": "S",
+    "value": 2108138,
+    "who": "Latour Wouter"
+   }
+  ]
  },
  "drug": null,
  "trials": {

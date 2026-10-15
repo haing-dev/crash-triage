@@ -3,37 +3,52 @@
  "cik": "1678660",
  "name": "Prelude Therapeutics Inc",
  "date": "2025-11-04",
- "asof": "2025-12-04",
+ "asof": "2025-11-07",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-12-04",
-  "adj_close": 1.54
+  "date": "2025-11-07",
+  "adj_close": 1.19
  },
  "balance": {
-  "end": "2025-09-30",
-  "cash": 54957000,
+  "end": "2025-06-30",
+  "cash": 73216000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue",
    "MarketableSecuritiesCurrent"
   ],
-  "accn": "0001193125-25-275887"
+  "accn": "0000950170-25-108417"
  },
  "burn": {
-  "end": "2025-09-30",
-  "months": 8.9,
-  "per_month": -8888144.264705881
+  "end": "2025-06-30",
+  "ytd_months": 5.9,
+  "ytd": -60306000,
+  "accn": "0000950170-25-108417",
+  "ttm_per_month": -9028833.333333334,
+  "quarter_per_month": -8691666.666666666,
+  "per_month": -9028833.333333334
  },
  "shares": {
-  "end": "2025-11-10",
-  "shares": 62865270,
+  "end": "2025-08-11",
+  "shares": 56600345,
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0000950170-25-108417",
+  "guided_until": null,
+  "guidance": "sufficient to fund its operating expenses and capital expenditure requirements for at least the next twelve months",
+  "twelve_months": true,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "tatement expires in May 2027 , and as of June 30, 2025 , there was $ 400.0 million remaining under the 2024 Shelf Registration statement. Open Market Sales Agreement In March 2023, in connection with filing a prospectus supplement to the shelf registration statement filed in November 2021 (the &#8220;2021 Shelf Registration Statement\"), the Company entered into an Open Market Sales Agreement (the "
+ },
  "insiders": {
-  "form4s": 1,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 3,
+  "from": "2025-08-06",
+  "to": "2025-12-04",
+  "trades": []
  },
  "drug": null,
  "trials": {

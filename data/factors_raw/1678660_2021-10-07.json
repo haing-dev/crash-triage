@@ -3,11 +3,12 @@
  "cik": "1678660",
  "name": "Prelude Therapeutics Inc",
  "date": "2021-10-07",
- "asof": "2021-11-06",
+ "asof": "2021-10-08",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2021-11-08",
-  "adj_close": 17.4
+  "date": "2021-10-08",
+  "adj_close": 15.87
  },
  "balance": {
   "end": "2021-06-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2021-06-30",
-  "months": 5.9,
-  "per_month": -6097301.111111111
+  "ytd_months": 5.9,
+  "ytd": -36055000,
+  "accn": "0001564590-21-043718",
+  "ttm_per_month": -5284083.333333333,
+  "quarter_per_month": -6637333.333333333,
+  "per_month": -5284083.333333333
  },
  "shares": {
   "end": "2021-08-09",
@@ -28,11 +33,183 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001564590-21-043718",
+  "guided_until": "2023-07-15",
+  "guidance": "equivalents as of June 30, 2021 will be sufficient to fund its operating expenses and capital expenditure requirements into mid-2023. To",
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "d more than $1.0 billion in non-convertible debt during the prior three-year period. We are also a &#8220;smaller reporting company,&#8221; meaning that the market value of our stock held by non-affiliates is less than $700.0 million and our annual revenue is less than $100.0 million during the most recently completed fiscal year. We may continue to be a smaller reporting company after if either ("
+ },
  "insiders": {
-  "form4s": 1,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 17,
+  "from": "2021-07-09",
+  "to": "2021-11-06",
+  "trades": [
+   {
+    "date": "2021-10-05",
+    "filed": "2021-10-06",
+    "code": "S",
+    "value": 178762,
+    "who": "Mauro David J"
+   },
+   {
+    "date": "2021-10-05",
+    "filed": "2021-10-06",
+    "code": "S",
+    "value": 244257,
+    "who": "Mauro David J"
+   },
+   {
+    "date": "2021-10-05",
+    "filed": "2021-10-06",
+    "code": "S",
+    "value": 41330,
+    "who": "Mauro David J"
+   },
+   {
+    "date": "2021-09-07",
+    "filed": "2021-09-09",
+    "code": "S",
+    "value": 268867,
+    "who": "Mauro David J"
+   },
+   {
+    "date": "2021-09-07",
+    "filed": "2021-09-09",
+    "code": "S",
+    "value": 106081,
+    "who": "Mauro David J"
+   },
+   {
+    "date": "2021-09-07",
+    "filed": "2021-09-09",
+    "code": "S",
+    "value": 175334,
+    "who": "Mauro David J"
+   },
+   {
+    "date": "2021-09-02",
+    "filed": "2021-09-07",
+    "code": "S",
+    "value": 134697,
+    "who": "Pierce Christopher"
+   },
+   {
+    "date": "2021-09-02",
+    "filed": "2021-09-07",
+    "code": "S",
+    "value": 279289,
+    "who": "Pierce Christopher"
+   },
+   {
+    "date": "2021-09-02",
+    "filed": "2021-09-07",
+    "code": "S",
+    "value": 294507,
+    "who": "Pierce Christopher"
+   },
+   {
+    "date": "2021-08-26",
+    "filed": "2021-08-30",
+    "code": "S",
+    "value": 59819,
+    "who": "Scherle Peggy"
+   },
+   {
+    "date": "2021-08-27",
+    "filed": "2021-08-30",
+    "code": "S",
+    "value": 95377,
+    "who": "Scherle Peggy"
+   },
+   {
+    "date": "2021-08-27",
+    "filed": "2021-08-30",
+    "code": "S",
+    "value": 98085,
+    "who": "Scherle Peggy"
+   },
+   {
+    "date": "2021-08-27",
+    "filed": "2021-08-30",
+    "code": "S",
+    "value": 22505,
+    "who": "Scherle Peggy"
+   },
+   {
+    "date": "2021-08-25",
+    "filed": "2021-08-27",
+    "code": "S",
+    "value": 68124,
+    "who": "Piper Brian"
+   },
+   {
+    "date": "2021-08-25",
+    "filed": "2021-08-27",
+    "code": "S",
+    "value": 129235,
+    "who": "Piper Brian"
+   },
+   {
+    "date": "2021-08-25",
+    "filed": "2021-08-27",
+    "code": "S",
+    "value": 80469,
+    "who": "Piper Brian"
+   },
+   {
+    "date": "2021-08-13",
+    "filed": "2021-08-17",
+    "code": "S",
+    "value": 80161,
+    "who": "Scherle Peggy"
+   },
+   {
+    "date": "2021-08-05",
+    "filed": "2021-08-09",
+    "code": "S",
+    "value": 183070,
+    "who": "Mauro David J"
+   },
+   {
+    "date": "2021-08-05",
+    "filed": "2021-08-09",
+    "code": "S",
+    "value": 64010,
+    "who": "Mauro David J"
+   },
+   {
+    "date": "2021-08-05",
+    "filed": "2021-08-09",
+    "code": "S",
+    "value": 216051,
+    "who": "Mauro David J"
+   },
+   {
+    "date": "2021-08-05",
+    "filed": "2021-08-09",
+    "code": "S",
+    "value": 3263,
+    "who": "Mauro David J"
+   },
+   {
+    "date": "2021-07-27",
+    "filed": "2021-07-29",
+    "code": "S",
+    "value": 684840,
+    "who": "Scherle Peggy"
+   },
+   {
+    "date": "2021-07-27",
+    "filed": "2021-07-29",
+    "code": "S",
+    "value": 24540,
+    "who": "Scherle Peggy"
+   }
+  ]
  },
  "drug": null,
  "trials": {

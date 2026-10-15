@@ -3,11 +3,12 @@
  "cik": "1858848",
  "name": "Tenaya Therapeutics, Inc.",
  "date": "2025-12-12",
- "asof": "2026-01-11",
+ "asof": "2025-12-17",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-01-12",
-  "adj_close": 0.73699999
+  "date": "2025-12-17",
+  "adj_close": 0.667
  },
  "balance": {
   "end": "2025-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2025-09-30",
-  "months": 8.9,
-  "per_month": -6079494.705882353
+  "ytd_months": 8.9,
+  "ytd": -54324000,
+  "accn": "0001193125-25-273239",
+  "ttm_per_month": -6059333.333333333,
+  "quarter_per_month": -5199666.666666667,
+  "per_month": -6059333.333333333
  },
  "shares": {
   "end": "2025-11-04",
@@ -28,24 +33,49 @@
   "split_factor": 1.0,
   "splits_after": []
  },
- "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+ "filing": {
+  "accn": "0001193125-25-273239",
+  "guided_until": null,
+  "guidance": "sufficient to fund the Company's operations for at least the next twelve months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "ce of common stock upon vesting of restricted stock units 295,191 &#8212; &#8212; &#8212; &#8212; &#8212; Issuance of common stock in connection with at-the market sales, net of issuance costs of $ 280 822,566 &#8212; 912 &#8212; &#8212; 912 Stock-based compensation &#8212; &#8212; 3,731 &#8212; &#8212; 3,731 Other comprehensive loss &#8212; &#8212; &#8212; ( 38 ) &#8212; ( 38 ) Net loss &#8212; &"
  },
- "drug": null,
- "trials": {
-  "query": "tenaya therapeutics",
-  "other_trials": 1,
-  "crashed_drug_trials": 0,
-  "examples": [
+ "insiders": {
+  "form4s": 3,
+  "from": "2025-09-13",
+  "to": "2026-01-11",
+  "trades": [
    {
-    "nct": "NCT05836259",
-    "drugs": [
-     "TN-201"
-    ]
+    "date": "2025-11-17",
+    "filed": "2025-11-17",
+    "code": "S",
+    "value": 1818,
+    "who": "Higa Tomohiro"
+   },
+   {
+    "date": "2025-11-17",
+    "filed": "2025-11-17",
+    "code": "S",
+    "value": 3826,
+    "who": "Tingley Whittemore"
+   },
+   {
+    "date": "2025-11-17",
+    "filed": "2025-11-17",
+    "code": "S",
+    "value": 4158,
+    "who": "Ali Faraz"
    }
   ]
+ },
+ "drug": "TN-201, TN-401",
+ "trials": {
+  "query": "tenaya therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 1,
+  "examples": []
  }
 }

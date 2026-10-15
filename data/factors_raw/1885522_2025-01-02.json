@@ -3,11 +3,12 @@
  "cik": "1885522",
  "name": "Neumora Therapeutics, Inc.",
  "date": "2025-01-02",
- "asof": "2025-02-01",
+ "asof": "2025-01-02",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-02-03",
-  "adj_close": 1.86
+  "date": "2025-01-02",
+  "adj_close": 1.97
  },
  "balance": {
   "end": "2024-09-30",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2024-09-30",
-  "months": 9.0,
-  "per_month": -14784696.849816851
+  "ytd_months": 9.0,
+  "ytd": -132596000,
+  "accn": "0000950170-24-125437",
+  "ttm_per_month": -15336500.0,
+  "quarter_per_month": -11161000.0,
+  "per_month": -15336500.0
  },
  "shares": {
   "end": "2024-11-04",
@@ -29,11 +34,50 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0000950170-24-125437",
+  "guided_until": null,
+  "guidance": "sufficient to support operations for at least the next 12 months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "rom issuance of common stock &#8212; 810 Repurchase of unvested early exercised shares &#8212; ( 491 ) Payments for offering costs in connection with at-the-market offering and initial public offering ( 225 ) ( 2,984 ) Net cash provided by financing activities 6,030 232,417 Net change in cash and cash equivalents and restricted cash ( 98,324 ) 171,291 Cash and cash equivalents and restricted cash "
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 3,
+  "from": "2024-10-04",
+  "to": "2025-02-01",
+  "trades": [
+   {
+    "date": "2024-10-17",
+    "filed": "2024-10-18",
+    "code": "S",
+    "value": 131643,
+    "who": "Fust Matthew K"
+   },
+   {
+    "date": "2024-10-18",
+    "filed": "2024-10-18",
+    "code": "S",
+    "value": 239319,
+    "who": "Fust Matthew K"
+   },
+   {
+    "date": "2024-10-09",
+    "filed": "2024-10-11",
+    "code": "S",
+    "value": 83507,
+    "who": "Lenz Robert A."
+   },
+   {
+    "date": "2024-10-10",
+    "filed": "2024-10-11",
+    "code": "S",
+    "value": 124603,
+    "who": "Lenz Robert A."
+   }
+  ]
  },
  "drug": null,
  "trials": {

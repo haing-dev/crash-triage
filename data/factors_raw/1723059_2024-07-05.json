@@ -3,11 +3,12 @@
  "cik": "1723059",
  "name": "Bio Essence Corp",
  "date": "2024-07-05",
- "asof": "2024-08-04",
+ "asof": "2024-07-11",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-08-05",
-  "adj_close": 0.69
+  "date": "2024-07-11",
+  "adj_close": 0.52005
  },
  "balance": {
   "end": "2024-03-31",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2024-03-31",
-  "months": 3.0,
-  "per_month": -58043.33022222223
+  "ytd_months": 3.0,
+  "ytd": -171613,
+  "accn": "0001213900-24-044667",
+  "ttm_per_month": -80463.41666666667,
+  "quarter_per_month": -57204.333333333336,
+  "per_month": -80463.41666666667
  },
  "shares": {
   "end": "2024-05-17",
@@ -28,11 +33,50 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001213900-24-044667",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 1,
-  "bought": 0,
-  "sold": 484286,
-  "buyers": []
+  "form4s": 2,
+  "from": "2024-04-06",
+  "to": "2024-08-04",
+  "trades": [
+   {
+    "date": "2024-07-02",
+    "filed": "2024-07-17",
+    "code": "S",
+    "value": 391550,
+    "who": "Yan Yin"
+   },
+   {
+    "date": "2024-07-03",
+    "filed": "2024-07-17",
+    "code": "S",
+    "value": 36414,
+    "who": "Yan Yin"
+   },
+   {
+    "date": "2024-07-05",
+    "filed": "2024-07-17",
+    "code": "S",
+    "value": 56322,
+    "who": "Yan Yin"
+   },
+   {
+    "date": "2023-06-06",
+    "filed": "2024-06-03",
+    "code": "P",
+    "value": 2500000,
+    "who": "Yan Yin"
+   }
+  ]
  },
  "drug": null,
  "trials": {

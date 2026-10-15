@@ -3,29 +3,34 @@
  "cik": "1476963",
  "name": "Scorpius Holdings, Inc.",
  "date": "2024-04-02",
- "asof": "2024-05-02",
+ "asof": "2024-04-02",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-05-10",
-  "adj_close": 36.0
+  "date": "2024-04-02",
+  "adj_close": 32.0
  },
  "balance": {
-  "end": "2023-12-31",
-  "cash": 2391480,
+  "end": "2023-09-30",
+  "cash": 6210496,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue",
    "ShortTermInvestments"
   ],
-  "accn": "0001558370-24-005902"
+  "accn": "0001558370-23-019242"
  },
  "burn": {
-  "end": "2023-12-31",
-  "months": 12.0,
-  "per_month": -2636956.570879121
+  "end": "2023-09-30",
+  "ytd_months": 8.9,
+  "ytd": -30454924,
+  "accn": "0001558370-23-019242",
+  "ttm_per_month": -3191438.75,
+  "quarter_per_month": -2817194.3333333335,
+  "per_month": -3191438.75
  },
  "shares": {
-  "end": "2024-04-26",
-  "shares": 36031964,
+  "end": "2023-11-20",
+  "shares": 26081890,
   "split_factor": 200.001,
   "splits_after": [
    [
@@ -34,11 +39,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001558370-23-019242",
+  "guided_until": "2024-01-15",
+  "guidance": "-term investments, which it believes is sufficient to fund its operations into the first quarter of 2024. The",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "ds to continue to consider multiple alternatives, including, but not limited to, additional equity financings such as sales of its common stock under at-the-market offerings, debt financings, partnerships, grants, funding collaborations and other funding transactions, if any are available. As of September 30, 2023, the Company had approximately $ 6.2 million in cash and cash equivalents and short-"
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2024-01-03",
+  "to": "2024-05-02",
+  "trades": []
  },
  "drug": null,
  "trials": {

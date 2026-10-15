@@ -3,11 +3,12 @@
  "cik": "1595097",
  "name": "Corbus Pharmaceuticals Holdings, Inc.",
  "date": "2024-09-20",
- "asof": "2024-10-20",
+ "asof": "2024-09-20",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-10-21",
-  "adj_close": 17.67
+  "date": "2024-09-20",
+  "adj_close": 19.51
  },
  "balance": {
   "end": "2024-06-30",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2024-06-30",
-  "months": 5.9,
-  "per_month": -2843869.6132596685
+  "ytd_months": 5.9,
+  "ytd": -16910000,
+  "accn": "0000950170-24-091922",
+  "ttm_per_month": -2507872.75,
+  "quarter_per_month": -2980877.3333333335,
+  "per_month": -2507872.75
  },
  "shares": {
   "end": "2024-08-02",
@@ -29,12 +34,63 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0000950170-24-091922",
+  "guided_until": "2027-09-15",
+  "guidance": "$147.0 million at June 30, 2024 will be sufficient to meet our operating and capital requirements to support our operations through the third quarter of 2027, bas",
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "ket Offering&#8221;). Under the Open Market Sale Agreement, Jefferies may sell the common stock by any method permitted by law deemed to be an &#8220;at-the-market offering&#8221; as defined by Rule 415(a)(4) promulgated under the Securities Act of 1933, as amended. The Company may sell common stock in amounts and at times to be determined by the Company subject to the terms and conditions of the "
+ },
  "insiders": {
-  "form4s": 1,
-  "bought": 7003761,
-  "sold": 0,
-  "buyers": [
-   "Cormorant Asset Management, LP"
+  "form4s": 2,
+  "from": "2024-06-22",
+  "to": "2024-10-20",
+  "trades": [
+   {
+    "date": "2024-09-20",
+    "filed": "2024-09-24",
+    "code": "P",
+    "value": 787860,
+    "who": "Cormorant Asset Management, LP"
+   },
+   {
+    "date": "2024-09-20",
+    "filed": "2024-09-24",
+    "code": "P",
+    "value": 476313,
+    "who": "Cormorant Asset Management, LP"
+   },
+   {
+    "date": "2024-09-20",
+    "filed": "2024-09-24",
+    "code": "P",
+    "value": 1296052,
+    "who": "Cormorant Asset Management, LP"
+   },
+   {
+    "date": "2024-09-20",
+    "filed": "2024-09-24",
+    "code": "P",
+    "value": 2849352,
+    "who": "Cormorant Asset Management, LP"
+   },
+   {
+    "date": "2024-09-20",
+    "filed": "2024-09-24",
+    "code": "P",
+    "value": 1021389,
+    "who": "Cormorant Asset Management, LP"
+   },
+   {
+    "date": "2024-09-20",
+    "filed": "2024-09-24",
+    "code": "P",
+    "value": 572793,
+    "who": "Cormorant Asset Management, LP"
+   }
   ]
  },
  "drug": null,

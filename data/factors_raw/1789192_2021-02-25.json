@@ -3,11 +3,12 @@
  "cik": "1789192",
  "name": "Nexentis Technologies Inc.",
  "date": "2021-02-25",
- "asof": "2021-03-27",
+ "asof": "2021-02-25",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2021-03-29",
-  "adj_close": 25725.0
+  "date": "2021-02-25",
+  "adj_close": 6860.0
  },
  "balance": {
   "end": "2020-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2020-09-30",
-  "months": 9.0,
-  "per_month": -69063.89992673993
+  "ytd_months": 9.0,
+  "ytd": -619397,
+  "accn": "0001493152-20-021059",
+  "ttm_per_month": -82032.41666666667,
+  "quarter_per_month": -50132.666666666664,
+  "per_month": -82032.41666666667
  },
  "shares": {
   "end": "2020-11-10",
@@ -49,11 +54,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001493152-20-021059",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2020-11-27",
+  "to": "2021-03-27",
+  "trades": []
  },
  "drug": null,
  "trials": {

@@ -3,11 +3,12 @@
  "cik": "1035354",
  "name": "Eloxx Pharmaceuticals, Inc.",
  "date": "2024-09-10",
- "asof": "2024-10-10",
+ "asof": "2024-09-10",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-10-10",
-  "adj_close": 0.0011
+  "date": "2024-09-10",
+  "adj_close": 0.0066
  },
  "balance": {
   "end": "2023-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2023-09-30",
-  "months": 8.9,
-  "per_month": -1379872.0588235294
+  "ytd_months": 8.9,
+  "ytd": -12330000,
+  "accn": "0000950170-23-062940",
+  "ttm_per_month": -1499250.0,
+  "quarter_per_month": -1150000.0,
+  "per_month": -1499250.0
  },
  "shares": {
   "end": "2023-11-08",
@@ -33,11 +38,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0000950170-23-062940",
+  "guided_until": null,
+  "guidance": "sufficient to fund our current and planned operations for at least the next twelve months",
+  "twelve_months": true,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "Form 10-Q, including without limitation statements regarding our ability to obtain the capital necessary to fund our operations, including under the ATM Program (defined herein), and continue as a going concern; our ability to remain listed on the Nasdaq Capital Market; our strategy, future results of operations and financial position; the expected timing of trials of our product candidates and th"
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2024-06-12",
+  "to": "2024-10-10",
+  "trades": []
  },
  "drug": null,
  "trials": {

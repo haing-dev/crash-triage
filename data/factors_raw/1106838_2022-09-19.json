@@ -3,11 +3,12 @@
  "cik": "1106838",
  "name": "Sonnet BioTherapeutics Holdings, Inc.",
  "date": "2022-09-19",
- "asof": "2022-10-19",
+ "asof": "2022-09-21",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-10-19",
-  "adj_close": 207.68
+  "date": "2022-09-21",
+  "adj_close": 232.32
  },
  "balance": {
   "end": "2022-06-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2022-06-30",
-  "months": 8.9,
-  "per_month": -2408967.2108823527
+  "ytd_months": 8.9,
+  "ytd": -21525594,
+  "accn": "0001493152-22-022892",
+  "ttm_per_month": -2288643.4166666665,
+  "quarter_per_month": -2608227.3333333335,
+  "per_month": -2288643.4166666665
  },
  "shares": {
   "end": "2022-08-12",
@@ -41,11 +46,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001493152-22-022892",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "lit of the Company's outstanding common stock, expected to be submitted to stockholders at a special meeting. The offering closed on August 15, 2022. At-the-Market Offering of Common Stock The Company entered into an At-the-Market Sales Agreement with BTIG, LLC (&#8220;BTIG&#8221;) on August 15, 2022 (the &#8220;Sales Agreement&#8221;). Pursuant to the Sales Agreement, the Company may offer and se"
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2022-06-21",
+  "to": "2022-10-19",
+  "trades": []
  },
  "drug": null,
  "trials": {

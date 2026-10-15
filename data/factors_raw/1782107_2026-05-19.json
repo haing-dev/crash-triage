@@ -3,11 +3,12 @@
  "cik": "1782107",
  "name": "Onconetix, Inc.",
  "date": "2026-05-19",
- "asof": "2026-06-18",
+ "asof": "2026-05-19",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-06-18",
-  "adj_close": 0.94400001
+  "date": "2026-05-19",
+  "adj_close": 1.18
  },
  "balance": {
   "end": "2026-03-31",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2026-03-31",
-  "months": 2.9,
-  "per_month": -725594.175730337
+  "ytd_months": 2.9,
+  "ytd": -2121481,
+  "accn": "0001213900-26-055483",
+  "ttm_per_month": -816682.5833333334,
+  "quarter_per_month": -707160.3333333334,
+  "per_month": -816682.5833333334
  },
  "shares": {
   "end": "2026-05-12",
@@ -33,13 +38,66 @@
    ]
   ]
  },
- "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+ "filing": {
+  "accn": "0001213900-26-055483",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "ries, hospitals, and medical centers, and to distributors. The Company considers customer purchase orders, which in some cases are governed by master sales agreements or standard terms and conditions, to be the contracts with a customer. For each contract, the Company considers the promise to transfer products, each of which is distinct, to be the identified performance obligations. In determining"
  },
- "drug": null,
+ "insiders": {
+  "form4s": 3,
+  "from": "2026-02-18",
+  "to": "2026-06-18",
+  "trades": [
+   {
+    "date": "2026-04-21",
+    "filed": "2026-04-22",
+    "code": "S",
+    "value": 34300,
+    "who": "HRT FINANCIAL LP"
+   },
+   {
+    "date": "2026-04-16",
+    "filed": "2026-04-21",
+    "code": "S",
+    "value": 39323,
+    "who": "HRT FINANCIAL LP"
+   },
+   {
+    "date": "2026-04-17",
+    "filed": "2026-04-21",
+    "code": "P",
+    "value": 25284,
+    "who": "HRT FINANCIAL LP"
+   },
+   {
+    "date": "2026-04-20",
+    "filed": "2026-04-21",
+    "code": "S",
+    "value": 70846,
+    "who": "HRT FINANCIAL LP"
+   },
+   {
+    "date": "2026-04-14",
+    "filed": "2026-04-16",
+    "code": "P",
+    "value": 57250,
+    "who": "HRT FINANCIAL LP"
+   },
+   {
+    "date": "2026-04-15",
+    "filed": "2026-04-16",
+    "code": "P",
+    "value": 70341,
+    "who": "HRT FINANCIAL LP"
+   }
+  ]
+ },
+ "drug": "Proclarix",
  "trials": {
   "query": "onconetix",
   "other_trials": 0,

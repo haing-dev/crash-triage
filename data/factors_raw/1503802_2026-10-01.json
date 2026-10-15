@@ -3,11 +3,12 @@
  "cik": "1503802",
  "name": "Karyopharm Therapeutics Inc.",
  "date": "2026-10-01",
- "asof": "2026-10-15",
+ "asof": "2026-10-02",
  "final": false,
+ "version": 2,
  "price": {
-  "date": "2026-10-14",
-  "adj_close": 0.345
+  "date": "2026-10-02",
+  "adj_close": 0.80199999
  },
  "balance": {
   "end": "2026-06-30",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2026-06-30",
-  "months": 5.9,
-  "per_month": -8059666.444444445
+  "ytd_months": 5.9,
+  "ytd": -47659000,
+  "accn": "0001193125-26-347906",
+  "ttm_per_month": -5445583.333333333,
+  "quarter_per_month": -8310333.333333333,
+  "per_month": -5445583.333333333
  },
  "shares": {
   "end": "2026-08-06",
@@ -29,11 +34,43 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001193125-26-347906",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "blic and private placements of equity securities; (iii) the issuance of convertible debt; (iv) a term loan; (v) our deferred royalty obligation; (vi) at the market offerings; and (vii) business development activities. As of June 30, 2026, we had $ 65.1 million of cash, cash equivalents, and investments and an accumulated deficit of $ 1.8 billion. We have incurred significant operating losses since"
+ },
  "insiders": {
-  "form4s": 1,
-  "bought": 0,
-  "sold": 450,
-  "buyers": []
+  "form4s": 3,
+  "from": "2026-07-03",
+  "to": "2026-10-15",
+  "trades": [
+   {
+    "date": "2026-10-01",
+    "filed": "2026-10-02",
+    "code": "S",
+    "value": 450,
+    "who": "Abate Kristin"
+   },
+   {
+    "date": "2026-09-01",
+    "filed": "2026-09-02",
+    "code": "S",
+    "value": 38,
+    "who": "Abate Kristin"
+   },
+   {
+    "date": "2026-07-28",
+    "filed": "2026-07-30",
+    "code": "S",
+    "value": 1342,
+    "who": "Poulton Stuart"
+   }
+  ]
  },
  "drug": null,
  "trials": {

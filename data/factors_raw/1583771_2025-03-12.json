@@ -3,36 +3,56 @@
  "cik": "1583771",
  "name": "Hepion Pharmaceuticals, Inc.",
  "date": "2025-03-12",
- "asof": "2025-04-11",
+ "asof": "2025-03-13",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-04-11",
-  "adj_close": 0.422
+  "date": "2025-03-13",
+  "adj_close": 1.89
  },
  "balance": {
-  "end": "2024-12-31",
-  "cash": 406408,
+  "end": "2024-09-30",
+  "cash": 1497106,
   "parts": [
    "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
   ],
-  "accn": "0001641172-25-003250"
+  "accn": "0001493152-24-046002"
  },
  "burn": {
-  "end": "2024-12-31",
-  "months": 12.0,
-  "per_month": -1519189.7625205482
+  "end": "2024-09-30",
+  "ytd_months": 9.0,
+  "ytd": -17063429,
+  "accn": "0001493152-24-046002",
+  "ttm_per_month": -2172100.25,
+  "quarter_per_month": -839310.6666666666,
+  "per_month": -2172100.25
  },
  "shares": {
-  "end": "2025-04-08",
-  "shares": 10975276,
-  "split_factor": 1.0,
-  "splits_after": []
+  "end": "2024-11-14",
+  "shares": 6958371,
+  "split_factor": 50.0,
+  "splits_after": [
+   [
+    "2025-04-08",
+    50.0
+   ]
+  ]
+ },
+ "filing": {
+  "accn": "0001493152-24-046002",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "ice of $ 5.10 per share and pre-funded warrants to purchase up to 580,393 shares at a offering price of $ 5.09 in a registered direct offering priced at-the-market under Nasdaq rules. In addition, in a concurrent private placement, we issued to the investor unregistered Series A Warrants to purchase up to an aggregate of 980,393 shares of common stock and Series B Warrants to purchase up to an agg"
  },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2024-12-12",
+  "to": "2025-04-11",
+  "trades": []
  },
  "drug": null,
  "trials": {

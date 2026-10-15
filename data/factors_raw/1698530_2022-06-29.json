@@ -3,11 +3,12 @@
  "cik": "1698530",
  "name": "EXICURE, INC.",
  "date": "2022-06-29",
- "asof": "2022-07-29",
+ "asof": "2022-07-05",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-07-29",
-  "adj_close": 8.1
+  "date": "2022-07-05",
+  "adj_close": 10.0
  },
  "balance": {
   "end": "2022-03-31",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2022-03-31",
-  "months": 2.9,
-  "per_month": -4362838.651685393
+  "ytd_months": 2.9,
+  "ytd": -12756000,
+  "accn": "0001698530-22-000033",
+  "ttm_per_month": -2730500.0,
+  "quarter_per_month": -4252000.0,
+  "per_month": -2730500.0
  },
  "shares": {
   "end": "2022-05-12",
@@ -38,11 +43,29 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001698530-22-000033",
+  "guided_until": null,
+  "guidance": "sufficient to fund operations over the next twelve months",
+  "twelve_months": true,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 8,
+  "from": "2022-03-31",
+  "to": "2022-07-29",
+  "trades": [
+   {
+    "date": "2022-05-19",
+    "filed": "2022-05-19",
+    "code": "P",
+    "value": 285151,
+    "who": "Muralidhar Bali"
+   }
+  ]
  },
  "drug": null,
  "trials": {

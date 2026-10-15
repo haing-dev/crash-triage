@@ -3,27 +3,32 @@
  "cik": "863894",
  "name": "VERU INC.",
  "date": "2025-01-27",
- "asof": "2025-02-26",
+ "asof": "2025-01-28",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-02-26",
-  "adj_close": 5.3
+  "date": "2025-01-28",
+  "adj_close": 5.2
  },
  "balance": {
-  "end": "2024-12-31",
-  "cash": 26607002,
+  "end": "2024-09-30",
+  "cash": 24916285,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001437749-25-003734"
+  "accn": "0001437749-24-037576"
  },
  "burn": {
-  "end": "2024-12-31",
-  "months": 3.0,
-  "per_month": -3790946.420659341
+  "end": "2024-09-30",
+  "ytd_months": 12.0,
+  "ytd": -21682333,
+  "accn": "0001437749-24-037576",
+  "ttm_per_month": -1806861.0833333333,
+  "quarter_per_month": -1455364.6666666667,
+  "per_month": -1806861.0833333333
  },
  "shares": {
-  "end": "2025-02-10",
+  "end": "2024-12-12",
   "shares": 146383920,
   "split_factor": 10.0,
   "splits_after": [
@@ -33,12 +38,35 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001437749-24-037576",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "eeds from the sale of shares in a private investment in public equity of $5.0 million, and proceeds from the sale of shares pursuant to the Jefferies Sales Agreement of $1.0 million. Sources of Capital SWK Credit Agreement and Residual Royalty Agreement On March 5, 2018, the Company entered into a Credit Agreement (as amended, the &#8220;Credit Agreement&#8221;) with the financial institutions par"
+ },
  "insiders": {
   "form4s": 1,
-  "bought": 84351,
-  "sold": 0,
-  "buyers": [
-   "Rankowitz Michael L"
+  "from": "2024-10-29",
+  "to": "2025-02-26",
+  "trades": [
+   {
+    "date": "2025-02-18",
+    "filed": "2025-02-20",
+    "code": "P",
+    "value": 52432,
+    "who": "Rankowitz Michael L"
+   },
+   {
+    "date": "2025-02-19",
+    "filed": "2025-02-20",
+    "code": "P",
+    "value": 31919,
+    "who": "Rankowitz Michael L"
+   }
   ]
  },
  "drug": null,

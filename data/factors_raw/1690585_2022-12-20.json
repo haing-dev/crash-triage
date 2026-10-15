@@ -3,11 +3,12 @@
  "cik": "1690585",
  "name": "Dianthus Therapeutics, Inc. /DE/",
  "date": "2022-12-20",
- "asof": "2023-01-19",
+ "asof": "2022-12-21",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-01-19",
-  "adj_close": 7.84
+  "date": "2022-12-21",
+  "adj_close": 5.76
  },
  "balance": {
   "end": "2022-09-30",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2022-09-30",
-  "months": 8.9,
-  "per_month": -5640576.764705882
+  "ytd_months": 8.9,
+  "ytd": -50402000,
+  "accn": "0000950170-22-021603",
+  "ttm_per_month": -5507666.666666667,
+  "quarter_per_month": -4602666.666666667,
+  "per_month": -5507666.666666667
  },
  "shares": {
   "end": "2022-10-31",
@@ -34,11 +39,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0000950170-22-021603",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": 247000000.0,
+  "atm_quote": "ths Ended September 30, 2022 Balances at June 30, 2022 58,848,861 $ 59 $ 502,009 $ ( 602 ) $ ( 365,788 ) $ 135,678 Issuance of common stock under the ATM Program, net of commissions and offering costs 1,644,200 2 2,761 &#x2014; &#x2014; 2,763 Vesting of restricted stock 62,459 &#x2014; &#x2014; &#x2014; &#x2014; &#x2014; Stock-based compensation expense &#x2014; &#x2014; 1,507 &#x2014; &#x2014; 1,"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 5,
+  "from": "2022-09-21",
+  "to": "2023-01-19",
+  "trades": []
  },
  "drug": null,
  "trials": {

@@ -3,11 +3,12 @@
  "cik": "1604464",
  "name": "Atara Biotherapeutics, Inc.",
  "date": "2023-11-09",
- "asof": "2023-12-09",
+ "asof": "2023-11-10",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-12-11",
-  "adj_close": 16.5
+  "date": "2023-11-10",
+  "adj_close": 5.75
  },
  "balance": {
   "end": "2023-09-30",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2023-09-30",
-  "months": 8.9,
-  "per_month": -15955372.205882352
+  "ytd_months": 8.9,
+  "ytd": -142571000,
+  "accn": "0000950170-23-057147",
+  "ttm_per_month": -16620916.666666666,
+  "quarter_per_month": -17115333.333333332,
+  "per_month": -16620916.666666666
  },
  "shares": {
   "end": "2023-10-27",
@@ -34,14 +39,175 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0000950170-23-057147",
+  "guided_until": null,
+  "guidance": "sufficient to fund our planned operations for at least the next twelve months",
+  "twelve_months": true,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": 55200000.0,
+  "atm_quote": "t of the May 2020 and December 2020 underwritten public offerings, respectively, were outstanding. ATM Facilities In November 2021, we entered into a sales agreement (the 2021 ATM Facility) with Cowen and Company, LLC (Cowen), which provides for the sale, in our sole discretion, of shares of our common stock having an aggregate offering price of up to $ 100.0 million through Cowen, as our sales ag"
+ },
  "insiders": {
-  "form4s": 9,
-  "bought": 194884,
-  "sold": 25318,
-  "buyers": [
-   "DOBMEIER ERIC",
-   "Gallagher Carol Giltner",
-   "HEIDEN WILLIAM K"
+  "form4s": 15,
+  "from": "2023-08-11",
+  "to": "2023-12-09",
+  "trades": [
+   {
+    "date": "2023-11-16",
+    "filed": "2023-11-20",
+    "code": "S",
+    "value": 7939,
+    "who": "Touchon Pascal"
+   },
+   {
+    "date": "2023-11-16",
+    "filed": "2023-11-20",
+    "code": "S",
+    "value": 3445,
+    "who": "Nguyen AnhCo"
+   },
+   {
+    "date": "2023-11-16",
+    "filed": "2023-11-20",
+    "code": "S",
+    "value": 3231,
+    "who": "Murugan Amar"
+   },
+   {
+    "date": "2023-11-16",
+    "filed": "2023-11-20",
+    "code": "S",
+    "value": 4780,
+    "who": "Joshi Manher"
+   },
+   {
+    "date": "2023-11-16",
+    "filed": "2023-11-20",
+    "code": "S",
+    "value": 4652,
+    "who": "Hyllengren Eric J"
+   },
+   {
+    "date": "2023-11-16",
+    "filed": "2023-11-20",
+    "code": "S",
+    "value": 1271,
+    "who": "Henrich Jill"
+   },
+   {
+    "date": "2023-11-13",
+    "filed": "2023-11-15",
+    "code": "P",
+    "value": 40029,
+    "who": "Gallagher Carol Giltner"
+   },
+   {
+    "date": "2023-11-14",
+    "filed": "2023-11-15",
+    "code": "P",
+    "value": 28186,
+    "who": "Gallagher Carol Giltner"
+   },
+   {
+    "date": "2023-11-10",
+    "filed": "2023-11-14",
+    "code": "P",
+    "value": 25330,
+    "who": "HEIDEN WILLIAM K"
+   },
+   {
+    "date": "2023-11-10",
+    "filed": "2023-11-14",
+    "code": "P",
+    "value": 101340,
+    "who": "DOBMEIER ERIC"
+   },
+   {
+    "date": "2023-08-16",
+    "filed": "2023-08-18",
+    "code": "S",
+    "value": 10586,
+    "who": "Hyllengren Eric J"
+   },
+   {
+    "date": "2023-08-16",
+    "filed": "2023-08-18",
+    "code": "S",
+    "value": 2941,
+    "who": "Hyllengren Eric J"
+   },
+   {
+    "date": "2023-08-16",
+    "filed": "2023-08-18",
+    "code": "S",
+    "value": 8343,
+    "who": "Murugan Amar"
+   },
+   {
+    "date": "2023-08-16",
+    "filed": "2023-08-18",
+    "code": "S",
+    "value": 5987,
+    "who": "Murugan Amar"
+   },
+   {
+    "date": "2023-08-16",
+    "filed": "2023-08-18",
+    "code": "S",
+    "value": 35406,
+    "who": "Touchon Pascal"
+   },
+   {
+    "date": "2023-08-16",
+    "filed": "2023-08-18",
+    "code": "S",
+    "value": 15429,
+    "who": "Touchon Pascal"
+   },
+   {
+    "date": "2023-08-16",
+    "filed": "2023-08-18",
+    "code": "S",
+    "value": 9663,
+    "who": "Nguyen AnhCo"
+   },
+   {
+    "date": "2023-08-16",
+    "filed": "2023-08-18",
+    "code": "S",
+    "value": 15335,
+    "who": "Nguyen AnhCo"
+   },
+   {
+    "date": "2023-08-16",
+    "filed": "2023-08-18",
+    "code": "S",
+    "value": 5290,
+    "who": "Joshi Manher"
+   },
+   {
+    "date": "2023-08-16",
+    "filed": "2023-08-18",
+    "code": "S",
+    "value": 6237,
+    "who": "Joshi Manher"
+   },
+   {
+    "date": "2023-08-16",
+    "filed": "2023-08-18",
+    "code": "S",
+    "value": 4609,
+    "who": "Henrich Jill"
+   },
+   {
+    "date": "2023-08-16",
+    "filed": "2023-08-18",
+    "code": "S",
+    "value": 923,
+    "who": "Henrich Jill"
+   }
   ]
  },
  "drug": null,

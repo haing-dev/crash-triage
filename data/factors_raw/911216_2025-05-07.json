@@ -3,28 +3,33 @@
  "cik": "911216",
  "name": "PALATIN TECHNOLOGIES INC",
  "date": "2025-05-07",
- "asof": "2025-06-06",
+ "asof": "2025-05-12",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-06-06",
-  "adj_close": 5.0
+  "date": "2025-05-12",
+  "adj_close": 4.5
  },
  "balance": {
-  "end": "2025-03-31",
-  "cash": 2520602,
+  "end": "2024-12-31",
+  "cash": 3416604,
   "parts": [
-   "CashAndCashEquivalentsAtCarryingValue"
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
   ],
-  "accn": "0001654954-25-005610"
+  "accn": "0001654954-25-001431"
  },
  "burn": {
-  "end": "2025-03-31",
-  "months": 9.0,
-  "per_month": -1919793.3765567767
+  "end": "2024-12-31",
+  "ytd_months": 6.0,
+  "ytd": -11863319,
+  "accn": "0001654954-25-001431",
+  "ttm_per_month": -2245223.4166666665,
+  "quarter_per_month": -1615702.0,
+  "per_month": -2245223.4166666665
  },
  "shares": {
-  "end": "2025-05-14",
-  "shares": 46479861,
+  "end": "2025-02-12",
+  "shares": 26005846,
   "split_factor": 49.999,
   "splits_after": [
    [
@@ -33,12 +38,28 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001654954-25-001431",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "), pursuant to which the Company may, from time to time, sell shares of the Company's common stock at market prices by methods deemed to be an &#8220;at-the-market offering&#8221; as defined in Rule 415 promulgated under the Securities Act of 1933, as amended. The 2023 Equity Distribution Agreement and related prospectus is limited to sales of up to an aggregate maximum $50.0 million of shares of "
+ },
  "insiders": {
   "form4s": 1,
-  "bought": 10180,
-  "sold": 0,
-  "buyers": [
-   "DEVEER ROBERT K JR"
+  "from": "2025-02-06",
+  "to": "2025-06-06",
+  "trades": [
+   {
+    "date": "2025-05-07",
+    "filed": "2025-05-12",
+    "code": "P",
+    "value": 10180,
+    "who": "DEVEER ROBERT K JR"
+   }
   ]
  },
  "drug": null,

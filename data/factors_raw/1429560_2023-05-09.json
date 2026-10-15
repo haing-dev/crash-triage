@@ -3,11 +3,12 @@
  "cik": "1429560",
  "name": "TREVENA INC",
  "date": "2023-05-09",
- "asof": "2023-06-08",
+ "asof": "2023-05-15",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-06-08",
-  "adj_close": 26.5
+  "date": "2023-05-15",
+  "adj_close": 29.5
  },
  "balance": {
   "end": "2023-03-31",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2023-03-31",
-  "months": 2.9,
-  "per_month": -3719152.3595505618
+  "ytd_months": 2.9,
+  "ytd": -10874000,
+  "accn": "0001558370-23-009683",
+  "ttm_per_month": -3674500.0,
+  "quarter_per_month": -3624666.6666666665,
+  "per_month": -3674500.0
  },
  "shares": {
   "end": "2023-05-11",
@@ -33,11 +38,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001558370-23-009683",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "$27.4 million, and restricted cash of $2.0 million. In November 2020, we filed a $250.0 million shelf registration statement, which includes the HCW ATM Program, of which there was approximately $41.9 million of available capacity as of March 31, 2023. Our primary use of cash is to fund operating expenses, which consist of research and development expenditures, commercialization expenditures, and "
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2023-02-08",
+  "to": "2023-06-08",
+  "trades": []
  },
  "drug": null,
  "trials": {

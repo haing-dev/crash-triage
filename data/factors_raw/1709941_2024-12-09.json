@@ -3,11 +3,12 @@
  "cik": "1709941",
  "name": "BioAge Labs, Inc.",
  "date": "2024-12-09",
- "asof": "2025-01-08",
+ "asof": "2024-12-13",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-01-08",
-  "adj_close": 5.09
+  "date": "2024-12-13",
+  "adj_close": 4.28
  },
  "balance": {
   "end": "2024-09-30",
@@ -20,7 +21,11 @@
  },
  "burn": {
   "end": "2024-09-30",
-  "months": 9.0,
+  "ytd_months": 9.0,
+  "ytd": -46384000,
+  "accn": "0000950170-24-123445",
+  "ttm_per_month": null,
+  "quarter_per_month": null,
   "per_month": -5171900.952380952
  },
  "shares": {
@@ -29,11 +34,99 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0000950170-24-123445",
+  "guided_until": "2029-01-15",
+  "guidance": "nal shares of our common stock, will be sufficient to fund our operations and capital expenses into 2029. How",
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "d three-tier fair value hierarchy distinguishes between the following: &#8226; Level 1 inputs are quoted prices in active markets that are accessible at the market date for identical assets or liabilities. &#8226; Level 2 inputs are inputs other than quoted prices included within Level 1 that are observable for the asset or liability, either directly or indirectly. &#8226; Level 3 inputs are unobs"
+ },
  "insiders": {
-  "form4s": 1,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 11,
+  "from": "2024-09-10",
+  "to": "2025-01-08",
+  "trades": [
+   {
+    "date": "2024-10-01",
+    "filed": "2024-10-03",
+    "code": "P",
+    "value": 2501626,
+    "who": "Pande Vijay Satyanand"
+   },
+   {
+    "date": "2024-10-02",
+    "filed": "2024-10-03",
+    "code": "P",
+    "value": 1323804,
+    "who": "Pande Vijay Satyanand"
+   },
+   {
+    "date": "2024-10-03",
+    "filed": "2024-10-03",
+    "code": "P",
+    "value": 503589,
+    "who": "Pande Vijay Satyanand"
+   },
+   {
+    "date": "2024-09-27",
+    "filed": "2024-10-01",
+    "code": "P",
+    "value": 8100000,
+    "who": "Cormorant Asset Management, LP"
+   },
+   {
+    "date": "2024-09-27",
+    "filed": "2024-09-27",
+    "code": "P",
+    "value": 16200000,
+    "who": "Pande Vijay Satyanand"
+   },
+   {
+    "date": "2024-09-27",
+    "filed": "2024-09-27",
+    "code": "P",
+    "value": 7200000,
+    "who": "ENRIGHT PATRICK G"
+   },
+   {
+    "date": "2024-09-27",
+    "filed": "2024-09-27",
+    "code": "P",
+    "value": 10599984,
+    "who": "HEALY JAMES"
+   },
+   {
+    "date": "2024-09-27",
+    "filed": "2024-09-27",
+    "code": "P",
+    "value": 200034,
+    "who": "HEALY JAMES"
+   },
+   {
+    "date": "2024-09-27",
+    "filed": "2024-09-27",
+    "code": "P",
+    "value": 330354,
+    "who": "HEALY JAMES"
+   },
+   {
+    "date": "2024-09-27",
+    "filed": "2024-09-27",
+    "code": "P",
+    "value": 392652,
+    "who": "HEALY JAMES"
+   },
+   {
+    "date": "2024-09-27",
+    "filed": "2024-09-27",
+    "code": "P",
+    "value": 476946,
+    "who": "HEALY JAMES"
+   }
+  ]
  },
  "drug": null,
  "trials": {

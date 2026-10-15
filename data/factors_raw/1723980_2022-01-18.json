@@ -3,11 +3,12 @@
  "cik": "1723980",
  "name": "China SXT Pharmaceuticals, Inc.",
  "date": "2022-01-18",
- "asof": "2022-02-17",
+ "asof": "2022-01-20",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-02-17",
-  "adj_close": 716.25
+  "date": "2022-01-20",
+  "adj_close": 720.0
  },
  "balance": {
   "end": "2021-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2021-09-30",
-  "months": 6.0,
-  "per_month": -52241.22835164835
+  "ytd_months": 6.0,
+  "ytd": -312349,
+  "accn": "0001213900-22-002091",
+  "ttm_per_month": -107950.16666666667,
+  "quarter_per_month": null,
+  "per_month": -107950.16666666667
  },
  "shares": {
   "end": "2021-03-31",
@@ -41,11 +46,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001213900-22-002091",
+  "guided_until": null,
+  "guidance": "sufficient to meet our liquidity needs for at least the next 12 months",
+  "twelve_months": true,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2021-10-20",
+  "to": "2022-02-17",
+  "trades": []
  },
  "drug": null,
  "trials": {

@@ -3,21 +3,71 @@
  "cik": "2007919",
  "name": "Inhibrx Biosciences, Inc.",
  "date": "2024-05-29",
- "asof": "2024-06-28",
+ "asof": "2024-05-29",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-06-28",
-  "adj_close": 14.17
+  "date": "2024-05-29",
+  "adj_close": 13.92
  },
  "balance": null,
  "burn": null,
  "shares": null,
+ "filing": null,
  "insiders": {
   "form4s": 11,
-  "bought": 5924604,
-  "sold": 0,
-  "buyers": [
-   "Kayyem Jon Faiz"
+  "from": "2024-02-29",
+  "to": "2024-06-28",
+  "trades": [
+   {
+    "date": "2024-06-05",
+    "filed": "2024-06-07",
+    "code": "P",
+    "value": 849163,
+    "who": "Kayyem Jon Faiz"
+   },
+   {
+    "date": "2024-06-05",
+    "filed": "2024-06-07",
+    "code": "P",
+    "value": 147861,
+    "who": "Kayyem Jon Faiz"
+   },
+   {
+    "date": "2024-05-31",
+    "filed": "2024-06-04",
+    "code": "P",
+    "value": 1132915,
+    "who": "Kayyem Jon Faiz"
+   },
+   {
+    "date": "2024-06-03",
+    "filed": "2024-06-04",
+    "code": "P",
+    "value": 777215,
+    "who": "Kayyem Jon Faiz"
+   },
+   {
+    "date": "2024-06-03",
+    "filed": "2024-06-04",
+    "code": "P",
+    "value": 1445210,
+    "who": "Kayyem Jon Faiz"
+   },
+   {
+    "date": "2024-06-04",
+    "filed": "2024-06-04",
+    "code": "P",
+    "value": 1139477,
+    "who": "Kayyem Jon Faiz"
+   },
+   {
+    "date": "2024-06-04",
+    "filed": "2024-06-04",
+    "code": "P",
+    "value": 432762,
+    "who": "Kayyem Jon Faiz"
+   }
   ]
  },
  "drug": null,

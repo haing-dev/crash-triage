@@ -3,11 +3,12 @@
  "cik": "1346830",
  "name": "Tvardi Therapeutics, Inc.",
  "date": "2023-12-18",
- "asof": "2024-01-17",
+ "asof": "2023-12-21",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-01-17",
-  "adj_close": 19.296
+  "date": "2023-12-21",
+  "adj_close": 21.456
  },
  "balance": {
   "end": "2023-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2023-09-30",
-  "months": 8.9,
-  "per_month": -8360704.117647058
+  "ytd_months": 8.9,
+  "ytd": -74708000,
+  "accn": "0001558370-23-018837",
+  "ttm_per_month": -8184833.333333333,
+  "quarter_per_month": -6548333.333333333,
+  "per_month": -8184833.333333333
  },
  "shares": {
   "end": "2023-11-09",
@@ -41,11 +46,29 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001558370-23-018837",
+  "guided_until": "2025-01-15",
+  "guidance": "ly announced royalty financing, will be sufficient to fund our currently anticipated operating plan into 2025. Our",
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "06 &#8203; $ 54 &#8203; $ 733,984 &#8203; $ ( 624,376 ) &#8203; $ ( 730 ) &#8203; $ 108,932 Net proceeds from sales of common stock under open market sales agreement &#8203; 386,881 &#8203; &#8203; &#8212; &#8203; &#8203; 1,117 &#8203; &#8203; &#8212; &#8203; &#8203; &#8212; &#8203; &#8203; 1,117 Stock-based compensation expense &#8203; &#8212; &#8203; &#8203; &#8212; &#8203; &#8203; 3,171 &#8203;"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 1,
+  "from": "2023-09-19",
+  "to": "2024-01-17",
+  "trades": [
+   {
+    "date": "2023-11-02",
+    "filed": "2023-11-03",
+    "code": "S",
+    "value": 4631,
+    "who": "Posner Christopher"
+   }
+  ]
  },
  "drug": null,
  "trials": {

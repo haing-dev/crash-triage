@@ -3,11 +3,12 @@
  "cik": "1517681",
  "name": "Propanc Biopharma, Inc.",
  "date": "2020-11-19",
- "asof": "2020-12-19",
+ "asof": "2020-11-19",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2020-12-21",
-  "adj_close": 18250.0
+  "date": "2020-11-19",
+  "adj_close": 48500.0
  },
  "balance": {
   "end": "2020-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2020-09-30",
-  "months": 3.0,
-  "per_month": -60193.92923076923
+  "ytd_months": 3.0,
+  "ytd": -179949,
+  "accn": "0001493152-20-021528",
+  "ttm_per_month": -108600.58333333333,
+  "quarter_per_month": -59983.0,
+  "per_month": -108600.58333333333
  },
  "shares": {
   "end": "2020-11-12",
@@ -45,11 +50,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001493152-20-021528",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2020-08-21",
+  "to": "2020-12-19",
+  "trades": []
  },
  "drug": null,
  "trials": {

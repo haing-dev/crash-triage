@@ -3,11 +3,12 @@
  "cik": "1069530",
  "name": "FILANA THERAPEUTICS, INC.",
  "date": "2024-11-25",
- "asof": "2024-12-25",
+ "asof": "2024-11-26",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-12-26",
-  "adj_close": 2.59
+  "date": "2024-11-26",
+  "adj_close": 3.83
  },
  "balance": {
   "end": "2024-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2024-09-30",
-  "months": 9.0,
-  "per_month": -6206637.948717949
+  "ytd_months": 9.0,
+  "ytd": -55664000,
+  "accn": "0001437749-24-033944",
+  "ttm_per_month": -6498333.333333333,
+  "quarter_per_month": -6098666.666666667,
+  "per_month": -6498333.333333333
  },
  "shares": {
   "end": "2024-11-04",
@@ -28,11 +33,43 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001437749-24-033944",
+  "guided_until": null,
+  "guidance": "sufficient to meet the Company's working capital needs for at least the next 12 months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": 200000000.0,
+  "atm_quote": "sed Compensation Expense Common Stock Warrant Distribution See Notes 2 and 12 regarding the distribution of common stock warrants on January 3, 2024. At-the-Market Common Stock Offering On May 1, 2023, the Company entered into an at-the-market offering program (&#8220;ATM&#8221;) to sell, from time to time, shares of Company common stock having an aggregate offering price of up to $ 200 million in"
+ },
  "insiders": {
-  "form4s": 2,
-  "bought": 0,
-  "sold": 253948,
-  "buyers": []
+  "form4s": 8,
+  "from": "2024-08-27",
+  "to": "2024-12-25",
+  "trades": [
+   {
+    "date": "2024-11-29",
+    "filed": "2024-12-03",
+    "code": "S",
+    "value": 15480,
+    "who": "Kupiec James William"
+   },
+   {
+    "date": "2024-11-29",
+    "filed": "2024-12-03",
+    "code": "S",
+    "value": 7640,
+    "who": "Schoen Eric"
+   },
+   {
+    "date": "2024-11-29",
+    "filed": "2024-12-03",
+    "code": "S",
+    "value": 230828,
+    "who": "Schoen Eric"
+   }
+  ]
  },
  "drug": null,
  "trials": {

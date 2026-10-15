@@ -3,11 +3,12 @@
  "cik": "1743881",
  "name": "BridgeBio Pharma, Inc.",
  "date": "2021-12-27",
- "asof": "2022-01-26",
+ "asof": "2021-12-27",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-01-26",
-  "adj_close": 9.74
+  "date": "2021-12-27",
+  "adj_close": 11.38
  },
  "balance": {
   "end": "2021-09-30",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2021-09-30",
-  "months": 8.9,
-  "per_month": -40740246.9117647
+  "ytd_months": 8.9,
+  "ytd": -364039000,
+  "accn": "0000950170-21-003080",
+  "ttm_per_month": -38358333.333333336,
+  "quarter_per_month": -40520333.333333336,
+  "per_month": -38358333.333333336
  },
  "shares": {
   "end": "2021-10-29",
@@ -29,16 +34,98 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0000950170-21-003080",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "and 2027 Notes ( 16,064 ) ( 13,039 ) Purchase of capped calls ( 61,295 ) ( 49,280 ) Repurchases of common stock ( 198,458 ) ( 75,000 ) Proceeds from at-the-market issuance of noncontrolling interest by Eidos, net &#x2014; 24,094 Transactions with noncontrolling interests 3,500 2,000 Repurchase of Eidos noncontrolling interest, including direct transaction costs ( 85,090 ) &#x2014; Proceeds from te"
+ },
  "insiders": {
-  "form4s": 7,
-  "bought": 2274550,
-  "sold": 150336,
-  "buyers": [
-   "DANIELS RONALD J",
-   "Dachille Douglas A.",
-   "Hassan Fred",
-   "Lo Andrew",
-   "MOMTAZEE JAMES C"
+  "form4s": 14,
+  "from": "2021-09-28",
+  "to": "2022-01-26",
+  "trades": [
+   {
+    "date": "2022-01-04",
+    "filed": "2022-01-06",
+    "code": "P",
+    "value": 84100,
+    "who": "Dachille Douglas A."
+   },
+   {
+    "date": "2022-01-05",
+    "filed": "2022-01-06",
+    "code": "P",
+    "value": 79550,
+    "who": "Dachille Douglas A."
+   },
+   {
+    "date": "2021-12-29",
+    "filed": "2022-01-03",
+    "code": "P",
+    "value": 254880,
+    "who": "SAUNDERS BRENT L"
+   },
+   {
+    "date": "2021-12-29",
+    "filed": "2022-01-03",
+    "code": "P",
+    "value": 77400,
+    "who": "Lo Andrew"
+   },
+   {
+    "date": "2021-12-30",
+    "filed": "2022-01-03",
+    "code": "P",
+    "value": 21450,
+    "who": "Lo Andrew"
+   },
+   {
+    "date": "2021-12-29",
+    "filed": "2022-01-03",
+    "code": "P",
+    "value": 25102,
+    "who": "Valantine Hannah"
+   },
+   {
+    "date": "2021-12-29",
+    "filed": "2022-01-03",
+    "code": "P",
+    "value": 273390,
+    "who": "Hassan Fred"
+   },
+   {
+    "date": "2021-12-29",
+    "filed": "2022-01-03",
+    "code": "P",
+    "value": 1160000,
+    "who": "MOMTAZEE JAMES C"
+   },
+   {
+    "date": "2021-12-28",
+    "filed": "2021-12-30",
+    "code": "P",
+    "value": 149514,
+    "who": "DANIELS RONALD J"
+   },
+   {
+    "date": "2021-12-28",
+    "filed": "2021-12-30",
+    "code": "S",
+    "value": 150336,
+    "who": "DANIELS RONALD J"
+   },
+   {
+    "date": "2021-12-30",
+    "filed": "2021-12-30",
+    "code": "P",
+    "value": 149165,
+    "who": "DANIELS RONALD J"
+   }
   ]
  },
  "drug": null,

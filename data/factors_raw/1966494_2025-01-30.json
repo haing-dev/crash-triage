@@ -3,11 +3,12 @@
  "cik": "1966494",
  "name": "CARGO Therapeutics, Inc.",
  "date": "2025-01-30",
- "asof": "2025-03-01",
+ "asof": "2025-01-30",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-03-03",
-  "adj_close": 3.68
+  "date": "2025-01-30",
+  "adj_close": 3.39
  },
  "balance": {
   "end": "2024-09-30",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2024-09-30",
-  "months": 9.0,
-  "per_month": -11691524.542124543
+  "ytd_months": 9.0,
+  "ytd": -104855000,
+  "accn": "0000950170-24-125369",
+  "ttm_per_month": -11153083.333333334,
+  "quarter_per_month": -13208333.333333334,
+  "per_month": -11153083.333333334
  },
  "shares": {
   "end": "2024-11-07",
@@ -29,11 +34,21 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0000950170-24-125369",
+  "guided_until": "2026-12-15",
+  "guidance": "rities as of September 30, 2024 will be sufficient to meet our working capital and capital expenditures through 2026. We",
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 1,
+  "from": "2024-11-01",
+  "to": "2025-03-01",
+  "trades": []
  },
  "drug": null,
  "trials": {

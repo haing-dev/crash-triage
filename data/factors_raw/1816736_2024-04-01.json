@@ -3,11 +3,12 @@
  "cik": "1816736",
  "name": "Disc Medicine, Inc.",
  "date": "2024-04-01",
- "asof": "2024-05-01",
+ "asof": "2024-04-04",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-05-01",
-  "adj_close": 28.53
+  "date": "2024-04-04",
+  "adj_close": 29.5
  },
  "balance": {
   "end": "2023-12-31",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2023-12-31",
-  "months": 12.0,
-  "per_month": -6143360.659340659
+  "ytd_months": 12.0,
+  "ytd": -73462000,
+  "accn": "0000950170-24-034432",
+  "ttm_per_month": -6121833.333333333,
+  "quarter_per_month": -5932000.0,
+  "per_month": -6121833.333333333
  },
  "shares": {
   "end": "2024-02-29",
@@ -28,11 +33,99 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0000950170-24-034432",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "ns primarily with proceeds from the sale of our convertible preferred stock and common stock, the proceeds from the merger with Gemini, proceeds from at-the-market offerings, proceeds from a registered direct offering and proceeds from a follow-on public offering. Through December 31, 2023, we have received net proceeds of $144.5 million from sales of our Series Seed, Series A and Series B convert"
+ },
  "insiders": {
-  "form4s": 2,
-  "bought": 0,
-  "sold": 81407,
-  "buyers": []
+  "form4s": 15,
+  "from": "2024-01-02",
+  "to": "2024-05-01",
+  "trades": [
+   {
+    "date": "2024-04-11",
+    "filed": "2024-04-15",
+    "code": "S",
+    "value": 78897,
+    "who": "White William Richard"
+   },
+   {
+    "date": "2024-04-11",
+    "filed": "2024-04-15",
+    "code": "S",
+    "value": 2510,
+    "who": "White William Richard"
+   },
+   {
+    "date": "2024-03-05",
+    "filed": "2024-03-07",
+    "code": "S",
+    "value": 1922540,
+    "who": "Bitterman Kevin"
+   },
+   {
+    "date": "2024-01-23",
+    "filed": "2024-01-25",
+    "code": "S",
+    "value": 5581125,
+    "who": "Bitterman Kevin"
+   },
+   {
+    "date": "2024-01-23",
+    "filed": "2024-01-25",
+    "code": "S",
+    "value": 1353000,
+    "who": "Bitterman Kevin"
+   },
+   {
+    "date": "2024-01-23",
+    "filed": "2024-01-25",
+    "code": "S",
+    "value": 3213375,
+    "who": "Atlas Venture Fund X, L.P."
+   },
+   {
+    "date": "2024-01-23",
+    "filed": "2024-01-25",
+    "code": "S",
+    "value": 5581125,
+    "who": "Atlas Venture Fund X, L.P."
+   },
+   {
+    "date": "2024-01-23",
+    "filed": "2024-01-25",
+    "code": "S",
+    "value": 1353000,
+    "who": "Atlas Venture Fund X, L.P."
+   },
+   {
+    "date": "2024-01-10",
+    "filed": "2024-01-12",
+    "code": "S",
+    "value": 1280000,
+    "who": "Bitterman Kevin"
+   },
+   {
+    "date": "2024-01-10",
+    "filed": "2024-01-12",
+    "code": "S",
+    "value": 1920000,
+    "who": "Atlas Venture Fund X, L.P."
+   },
+   {
+    "date": "2024-01-10",
+    "filed": "2024-01-12",
+    "code": "S",
+    "value": 1280000,
+    "who": "Atlas Venture Fund X, L.P."
+   }
+  ]
  },
  "drug": null,
  "trials": {

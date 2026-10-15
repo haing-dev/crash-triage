@@ -3,11 +3,12 @@
  "cik": "1671858",
  "name": "ARS Pharmaceuticals, Inc.",
  "date": "2023-09-20",
- "asof": "2023-10-20",
+ "asof": "2023-09-20",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-10-20",
-  "adj_close": 3.51
+  "date": "2023-09-20",
+  "adj_close": 2.92
  },
  "balance": {
   "end": "2023-06-30",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2023-06-30",
-  "months": 5.9,
-  "per_month": -4920795.111111111
+  "ytd_months": 5.9,
+  "ytd": -29098000,
+  "accn": "0000950170-23-041310",
+  "ttm_per_month": -4606416.666666667,
+  "quarter_per_month": -5556333.333333333,
+  "per_month": -4606416.666666667
  },
  "shares": {
   "end": "2023-08-07",
@@ -29,13 +34,133 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0000950170-23-041310",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 2,
-  "bought": 8503480,
-  "sold": 0,
-  "buyers": [
-   "Fitzpatrick Alexander A",
-   "RA CAPITAL MANAGEMENT, L.P."
+  "form4s": 19,
+  "from": "2023-06-22",
+  "to": "2023-10-20",
+  "trades": [
+   {
+    "date": "2023-09-28",
+    "filed": "2023-10-02",
+    "code": "P",
+    "value": 144960,
+    "who": "Fitzpatrick Alexander A"
+   },
+   {
+    "date": "2023-09-29",
+    "filed": "2023-10-02",
+    "code": "P",
+    "value": 174994,
+    "who": "Fitzpatrick Alexander A"
+   },
+   {
+    "date": "2023-09-21",
+    "filed": "2023-09-25",
+    "code": "P",
+    "value": 7450812,
+    "who": "RA CAPITAL MANAGEMENT, L.P."
+   },
+   {
+    "date": "2023-09-21",
+    "filed": "2023-09-25",
+    "code": "P",
+    "value": 732713,
+    "who": "RA CAPITAL MANAGEMENT, L.P."
+   },
+   {
+    "date": "2023-09-01",
+    "filed": "2023-09-05",
+    "code": "S",
+    "value": 770520,
+    "who": "Shawver Laura"
+   },
+   {
+    "date": "2023-08-29",
+    "filed": "2023-08-31",
+    "code": "P",
+    "value": 23250000,
+    "who": "RA CAPITAL MANAGEMENT, L.P."
+   },
+   {
+    "date": "2023-08-29",
+    "filed": "2023-08-31",
+    "code": "P",
+    "value": 3100000,
+    "who": "ORBIMED ADVISORS LLC"
+   },
+   {
+    "date": "2023-08-29",
+    "filed": "2023-08-31",
+    "code": "P",
+    "value": 3100000,
+    "who": "Thompson Peter A."
+   },
+   {
+    "date": "2023-08-03",
+    "filed": "2023-08-07",
+    "code": "S",
+    "value": 183018,
+    "who": "Shawver Laura"
+   },
+   {
+    "date": "2023-08-04",
+    "filed": "2023-08-07",
+    "code": "S",
+    "value": 133471,
+    "who": "Shawver Laura"
+   },
+   {
+    "date": "2023-08-01",
+    "filed": "2023-08-03",
+    "code": "S",
+    "value": 134576,
+    "who": "Shawver Laura"
+   },
+   {
+    "date": "2023-08-02",
+    "filed": "2023-08-03",
+    "code": "S",
+    "value": 257265,
+    "who": "Shawver Laura"
+   },
+   {
+    "date": "2023-07-07",
+    "filed": "2023-07-07",
+    "code": "S",
+    "value": 56372,
+    "who": "Shawver Laura"
+   },
+   {
+    "date": "2023-07-03",
+    "filed": "2023-07-06",
+    "code": "S",
+    "value": 178347,
+    "who": "Shawver Laura"
+   },
+   {
+    "date": "2023-07-05",
+    "filed": "2023-07-06",
+    "code": "S",
+    "value": 199552,
+    "who": "Shawver Laura"
+   },
+   {
+    "date": "2023-07-06",
+    "filed": "2023-07-06",
+    "code": "S",
+    "value": 212554,
+    "who": "Shawver Laura"
+   }
   ]
  },
  "drug": null,

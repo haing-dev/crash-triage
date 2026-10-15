@@ -3,36 +3,51 @@
  "cik": "1999480",
  "name": "Alto Neuroscience, Inc.",
  "date": "2024-10-23",
- "asof": "2024-11-22",
+ "asof": "2024-10-29",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-11-22",
-  "adj_close": 4.31
+  "date": "2024-10-29",
+  "adj_close": 4.01
  },
  "balance": {
-  "end": "2024-09-30",
-  "cash": 181701000,
+  "end": "2024-06-30",
+  "cash": 193122000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001999480-24-000042"
+  "accn": "0001999480-24-000035"
  },
  "burn": {
-  "end": "2024-09-30",
-  "months": 9.0,
-  "per_month": -3835997.5091575095
+  "end": "2024-06-30",
+  "ytd_months": 5.9,
+  "ytd": -22677000,
+  "accn": "0001999480-24-000035",
+  "ttm_per_month": null,
+  "quarter_per_month": -3898000.0,
+  "per_month": -3813745.193370166
  },
  "shares": {
-  "end": "2024-11-08",
-  "shares": 26970168,
+  "end": "2024-08-08",
+  "shares": 26958973,
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001999480-24-000035",
+  "guided_until": "2027-01-15",
+  "guidance": "sting cash and cash equivalents will be sufficient to fund our operating expenses and capital expenditure requirements into 2027. See",
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2024-07-25",
+  "to": "2024-11-22",
+  "trades": []
  },
  "drug": null,
  "trials": {

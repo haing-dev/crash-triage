@@ -3,20 +3,22 @@
  "cik": "1990550",
  "name": "Ambrx Biopharma, Inc.",
  "date": "2022-12-12",
- "asof": "2023-01-11",
+ "asof": "2022-12-13",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-01-11",
-  "adj_close": 2.22
+  "date": "2022-12-13",
+  "adj_close": 2.04
  },
  "balance": null,
  "burn": null,
  "shares": null,
+ "filing": null,
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2022-09-13",
+  "to": "2023-01-11",
+  "trades": []
  },
  "drug": null,
  "trials": {

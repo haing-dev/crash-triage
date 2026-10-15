@@ -3,20 +3,22 @@
  "cik": "1265521",
  "name": "Polomar Health Services, Inc.",
  "date": "2023-03-01",
- "asof": "2023-03-31",
+ "asof": "2023-03-01",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-03-31",
-  "adj_close": 9.9
+  "date": "2023-03-01",
+  "adj_close": 3.0
  },
  "balance": null,
  "burn": null,
  "shares": null,
+ "filing": null,
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2022-12-01",
+  "to": "2023-03-31",
+  "trades": []
  },
  "drug": null,
  "trials": {

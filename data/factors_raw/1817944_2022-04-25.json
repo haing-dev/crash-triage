@@ -3,36 +3,51 @@
  "cik": "1817944",
  "name": "Clarus Therapeutics Holdings, Inc.",
  "date": "2022-04-25",
- "asof": "2022-05-25",
+ "asof": "2022-04-28",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-05-25",
-  "adj_close": 0.373
+  "date": "2022-04-28",
+  "adj_close": 0.74
  },
  "balance": {
-  "end": "2022-03-31",
-  "cash": 9137000,
+  "end": "2021-12-31",
+  "cash": 26415000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001193125-22-152016"
+  "accn": "0001193125-22-092120"
  },
  "burn": {
-  "end": "2022-03-31",
-  "months": 2.9,
-  "per_month": -5906044.044943821
+  "end": "2021-12-31",
+  "ytd_months": 12.0,
+  "ytd": -43786000,
+  "accn": "0001193125-22-092120",
+  "ttm_per_month": -3648833.3333333335,
+  "quarter_per_month": -3111333.3333333335,
+  "per_month": -3648833.3333333335
  },
  "shares": {
-  "end": "2022-05-11",
-  "shares": 52020731,
+  "end": "2022-04-25",
+  "shares": 24750011,
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001193125-22-092120",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
   "form4s": 1,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2022-01-25",
+  "to": "2022-05-25",
+  "trades": []
  },
  "drug": null,
  "trials": {

@@ -3,11 +3,12 @@
  "cik": "1534120",
  "name": "Avalo Therapeutics, Inc.",
  "date": "2023-09-15",
- "asof": "2023-10-15",
+ "asof": "2023-09-20",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-10-16",
-  "adj_close": 38.4
+  "date": "2023-09-20",
+  "adj_close": 26.64
  },
  "balance": {
   "end": "2023-06-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2023-06-30",
-  "months": 5.9,
-  "per_month": -3564524.0
+  "ytd_months": 5.9,
+  "ytd": -21078000,
+  "accn": "0001628280-23-026990",
+  "ttm_per_month": -1607666.6666666667,
+  "quarter_per_month": -3675333.3333333335,
+  "per_month": -1607666.6666666667
  },
  "shares": {
   "end": "2023-08-02",
@@ -33,11 +38,71 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001628280-23-026990",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "it Three Months Ended June 30, 2023 Balance, March 31, 2023 13,200,535 $ 13 $ 307,499 $ ( 313,779 ) $ ( 6,267 ) Issuance of common shares pursuant to ATM Program, net 2,044,672 2 6,529 &#8212; 6,531 Retirement of common shares in exchange for pre-funded warrants ( 1,300,000 ) ( 1 ) ( 3,873 ) 234 ( 3,640 ) Issuance of pre-funded warrants in exchange for retirement of common shares &#8212; &#8212; 3"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 5,
+  "from": "2023-06-17",
+  "to": "2023-10-15",
+  "trades": [
+   {
+    "date": "2023-06-26",
+    "filed": "2023-06-28",
+    "code": "S",
+    "value": 1682010,
+    "who": "ARMISTICE CAPITAL, LLC"
+   },
+   {
+    "date": "2023-06-27",
+    "filed": "2023-06-28",
+    "code": "S",
+    "value": 486888,
+    "who": "ARMISTICE CAPITAL, LLC"
+   },
+   {
+    "date": "2023-06-26",
+    "filed": "2023-06-27",
+    "code": "P",
+    "value": 917153,
+    "who": "Caissa Capital Management ltd."
+   },
+   {
+    "date": "2023-06-26",
+    "filed": "2023-06-27",
+    "code": "P",
+    "value": 113026,
+    "who": "Caissa Capital Management ltd."
+   },
+   {
+    "date": "2023-06-15",
+    "filed": "2023-06-20",
+    "code": "P",
+    "value": 11640,
+    "who": "Caissa Capital Management ltd."
+   },
+   {
+    "date": "2023-06-16",
+    "filed": "2023-06-20",
+    "code": "P",
+    "value": 11714,
+    "who": "Caissa Capital Management ltd."
+   },
+   {
+    "date": "2023-06-20",
+    "filed": "2023-06-20",
+    "code": "P",
+    "value": 8289,
+    "who": "Caissa Capital Management ltd."
+   }
+  ]
  },
  "drug": null,
  "trials": {

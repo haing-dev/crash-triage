@@ -3,11 +3,12 @@
  "cik": "1595248",
  "name": "Genprex, Inc.",
  "date": "2024-08-13",
- "asof": "2024-09-12",
+ "asof": "2024-08-15",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-09-12",
-  "adj_close": 21.5
+  "date": "2024-08-15",
+  "adj_close": 32.6
  },
  "balance": {
   "end": "2024-06-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2024-06-30",
-  "months": 5.9,
-  "per_month": -1865708.466961326
+  "ytd_months": 5.9,
+  "ytd": -11093733,
+  "accn": "0001437749-24-025893",
+  "ttm_per_month": -1732733.1666666667,
+  "quarter_per_month": -1931947.3333333333,
+  "per_month": -1732733.1666666667
  },
  "shares": {
   "end": "2024-08-05",
@@ -37,11 +42,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001437749-24-025893",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "roceeds that may be received in the future from any exercise of the warrants. On July 21, 2023, Genprex completed a registered direct offering priced at the market under Nasdaq rules, in which the Company sold to accredited healthcare-focused institutional investors an aggregate of (i) 185,644 shares of its common stock, and (ii) warrants to purchase up to 185,644 shares of its common stock, at a "
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2024-05-15",
+  "to": "2024-09-12",
+  "trades": []
  },
  "drug": null,
  "trials": {

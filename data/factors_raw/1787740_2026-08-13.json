@@ -3,11 +3,12 @@
  "cik": "1787740",
  "name": "Valion Bio, Inc.",
  "date": "2026-08-13",
- "asof": "2026-09-12",
+ "asof": "2026-08-19",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-09-14",
-  "adj_close": 2.1
+  "date": "2026-08-19",
+  "adj_close": 3.35
  },
  "balance": {
   "end": "2026-06-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2026-06-30",
-  "months": 5.9,
-  "per_month": -1740491.5555555555
+  "ytd_months": 5.9,
+  "ytd": -10292000,
+  "accn": "0001437749-26-028069",
+  "ttm_per_month": -1214583.3333333333,
+  "quarter_per_month": -1760333.3333333333,
+  "per_month": -1214583.3333333333
  },
  "shares": {
   "end": "2026-08-13",
@@ -28,13 +33,23 @@
   "split_factor": 1.0,
   "splits_after": []
  },
- "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+ "filing": {
+  "accn": "0001437749-26-028069",
+  "guided_until": null,
+  "guidance": "sufficient to meet our anticipated needs for the next twelve months",
+  "twelve_months": true,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "lling their shares and greater difficulty effecting such sales. Even if we effect the Reverse Stock Split of our common stock, we cannot assure you that the market price of our common stock will remain high enough for such Reverse Stock Split to have the intended effect of complying with Nasdaq ' s minimum bid price requirement. We plan to effect the Reverse Stock Split in order to achieve a suffi"
  },
- "drug": null,
+ "insiders": {
+  "form4s": 2,
+  "from": "2026-05-15",
+  "to": "2026-09-12",
+  "trades": []
+ },
+ "drug": "n/a",
  "trials": {
   "query": "valion bio",
   "other_trials": 0,

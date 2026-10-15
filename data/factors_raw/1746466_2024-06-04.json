@@ -3,11 +3,12 @@
  "cik": "1746466",
  "name": "Equillium, Inc.",
  "date": "2024-06-04",
- "asof": "2024-07-04",
+ "asof": "2024-06-10",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-07-05",
-  "adj_close": 0.68000001
+  "date": "2024-06-10",
+  "adj_close": 0.70999998
  },
  "balance": {
   "end": "2024-03-31",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2024-03-31",
-  "months": 3.0,
-  "per_month": -2976355.5555555555
+  "ytd_months": 3.0,
+  "ytd": -8800000,
+  "accn": "0000950170-24-056960",
+  "ttm_per_month": -1882333.3333333333,
+  "quarter_per_month": -2933333.3333333335,
+  "per_month": -1882333.3333333333
  },
  "shares": {
   "end": "2024-05-08",
@@ -29,11 +34,21 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0000950170-24-056960",
+  "guided_until": null,
+  "guidance": "sufficient to fund operations for at least the next 12 months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "d stock, par value $ 0.0001 per share. The Company had 35,254,752 shares of common stock outstanding as of March 31, 2024 and December 31, 2023. 2023 ATM Facility In October 2023, the Company entered into an at-the-market facility with Jefferies LLC (Jefferies) under which the Company may offer and sell shares of its common stock having an aggregate offering price of up to $ 21.95 million from tim"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 6,
+  "from": "2024-03-06",
+  "to": "2024-07-04",
+  "trades": []
  },
  "drug": null,
  "trials": {

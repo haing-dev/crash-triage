@@ -3,11 +3,12 @@
  "cik": "1860871",
  "name": "Tevogen Inc.",
  "date": "2024-01-26",
- "asof": "2024-02-25",
+ "asof": "2024-01-29",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-02-26",
-  "adj_close": 388.0
+  "date": "2024-01-29",
+  "adj_close": 277.5
  },
  "balance": {
   "end": "2023-09-30",
@@ -19,15 +20,29 @@
  },
  "burn": {
   "end": "2023-09-30",
-  "months": 8.9,
-  "per_month": -76395.44705882353
+  "ytd_months": 8.9,
+  "ytd": -682640,
+  "accn": "0001493152-23-040622",
+  "ttm_per_month": -58041.75,
+  "quarter_per_month": -69488.0,
+  "per_month": -58041.75
  },
  "shares": null,
+ "filing": {
+  "accn": "0001493152-23-040622",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
   "form4s": 9,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2023-10-28",
+  "to": "2024-02-25",
+  "trades": []
  },
  "drug": null,
  "trials": {

@@ -3,11 +3,12 @@
  "cik": "1239819",
  "name": "LUNA INNOVATIONS INC",
  "date": "2025-01-06",
- "asof": "2025-02-05",
+ "asof": "2025-01-06",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-02-05",
-  "adj_close": 0.85
+  "date": "2025-01-06",
+  "adj_close": 0.8891
  },
  "balance": {
   "end": "2023-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2023-09-30",
-  "months": 8.9,
-  "per_month": -910961.7647058823
+  "ytd_months": 8.9,
+  "ytd": -8140000,
+  "accn": "0001239819-23-000131",
+  "ttm_per_month": -1118500.0,
+  "quarter_per_month": 775333.3333333334,
+  "per_month": -1118500.0
  },
  "shares": {
   "end": "2023-11-10",
@@ -28,11 +33,21 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001239819-23-000131",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 5,
+  "from": "2024-10-08",
+  "to": "2025-02-05",
+  "trades": []
  },
  "drug": null,
  "trials": {

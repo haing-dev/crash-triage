@@ -3,11 +3,12 @@
  "cik": "1880438",
  "name": "AN2 Therapeutics, Inc.",
  "date": "2024-02-12",
- "asof": "2024-03-13",
+ "asof": "2024-02-12",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-03-13",
-  "adj_close": 2.98
+  "date": "2024-02-12",
+  "adj_close": 5.1
  },
  "balance": {
   "end": "2023-09-30",
@@ -21,8 +22,12 @@
  },
  "burn": {
   "end": "2023-09-30",
-  "months": 8.9,
-  "per_month": -4053444.117647059
+  "ytd_months": 8.9,
+  "ytd": -36220000,
+  "accn": "0000950170-23-062081",
+  "ttm_per_month": -3654833.3333333335,
+  "quarter_per_month": -3933333.3333333335,
+  "per_month": -3654833.3333333335
  },
  "shares": {
   "end": "2023-11-02",
@@ -30,11 +35,134 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0000950170-23-062081",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "15,323 ) Balances at March 31, 2023 &#x2014; &#x2014; 19,426,452 &#x2014; 187,738 ( 175 ) ( 105,046 ) 82,517 Issuance of common stock in the &#x201c;at the market&#x201d; offering, net of commissions and offering costs of $ 0.9 million &#x2014; &#x2014; 2,502,000 &#x2014; 19,050 &#x2014; &#x2014; 19,050 Vesting of early exercised stock options &#x2014; &#x2014; &#x2014; &#x2014; 2 &#x2014; &#x2014"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 10,
+  "from": "2023-11-14",
+  "to": "2024-03-13",
+  "trades": [
+   {
+    "date": "2024-01-18",
+    "filed": "2024-01-19",
+    "code": "S",
+    "value": 1911410,
+    "who": "Zakrzewski Joseph S"
+   },
+   {
+    "date": "2024-01-16",
+    "filed": "2024-01-18",
+    "code": "S",
+    "value": 1652427,
+    "who": "Aziz Kabeer"
+   },
+   {
+    "date": "2024-01-16",
+    "filed": "2024-01-18",
+    "code": "S",
+    "value": 312573,
+    "who": "Aziz Kabeer"
+   },
+   {
+    "date": "2024-01-16",
+    "filed": "2024-01-18",
+    "code": "S",
+    "value": 1652427,
+    "who": "Adjuvant Global Health Technology Fund, L.P."
+   },
+   {
+    "date": "2024-01-16",
+    "filed": "2024-01-18",
+    "code": "S",
+    "value": 312573,
+    "who": "Adjuvant Global Health Technology Fund, L.P."
+   },
+   {
+    "date": "2024-01-12",
+    "filed": "2024-01-17",
+    "code": "S",
+    "value": 15476,
+    "who": "Readnour Robin Shane"
+   },
+   {
+    "date": "2024-01-12",
+    "filed": "2024-01-17",
+    "code": "S",
+    "value": 15753,
+    "who": "Readnour Robin Shane"
+   },
+   {
+    "date": "2024-01-10",
+    "filed": "2024-01-12",
+    "code": "S",
+    "value": 40987,
+    "who": "Readnour Robin Shane"
+   },
+   {
+    "date": "2024-01-10",
+    "filed": "2024-01-12",
+    "code": "S",
+    "value": 39456,
+    "who": "Readnour Robin Shane"
+   },
+   {
+    "date": "2024-01-09",
+    "filed": "2024-01-11",
+    "code": "S",
+    "value": 149367,
+    "who": "Krause Kevin Michael"
+   },
+   {
+    "date": "2024-01-02",
+    "filed": "2024-01-04",
+    "code": "S",
+    "value": 51967,
+    "who": "Krause Kevin Michael"
+   },
+   {
+    "date": "2024-01-02",
+    "filed": "2024-01-04",
+    "code": "S",
+    "value": 55802,
+    "who": "Easom Eric"
+   },
+   {
+    "date": "2023-11-14",
+    "filed": "2023-11-16",
+    "code": "S",
+    "value": 24574,
+    "who": "Adjuvant Global Health Technology Fund, L.P."
+   },
+   {
+    "date": "2023-11-14",
+    "filed": "2023-11-16",
+    "code": "S",
+    "value": 4650,
+    "who": "Adjuvant Global Health Technology Fund, L.P."
+   },
+   {
+    "date": "2023-11-14",
+    "filed": "2023-11-16",
+    "code": "S",
+    "value": 24574,
+    "who": "Aziz Kabeer"
+   },
+   {
+    "date": "2023-11-14",
+    "filed": "2023-11-16",
+    "code": "S",
+    "value": 4650,
+    "who": "Aziz Kabeer"
+   }
+  ]
  },
  "drug": null,
  "trials": {

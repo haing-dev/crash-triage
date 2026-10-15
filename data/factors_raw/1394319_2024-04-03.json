@@ -3,11 +3,12 @@
  "cik": "1394319",
  "name": "Tracon Pharmaceuticals, Inc.",
  "date": "2024-04-03",
- "asof": "2024-05-03",
+ "asof": "2024-04-09",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-05-03",
-  "adj_close": 1.86
+  "date": "2024-04-09",
+  "adj_close": 3.362
  },
  "balance": {
   "end": "2023-12-31",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2023-12-31",
-  "months": 12.0,
-  "per_month": 307410.5494505495
+  "ytd_months": 12.0,
+  "ytd": 3676000,
+  "accn": "0000950170-24-026205",
+  "ttm_per_month": 306333.3333333333,
+  "quarter_per_month": -174000.0,
+  "per_month": 306333.3333333333
  },
  "shares": {
   "end": "2024-03-01",
@@ -34,11 +39,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0000950170-24-026205",
+  "guided_until": "2024-07-15",
+  "guidance": "valents as of December 31, 2023 will be sufficient to fund the current requirements of working capital and other financial commitments, including our operating lease obligations, into mid-2024. We",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": 41500000.0,
+  "atm_quote": "regulatory approval, or commercializing any product candidates. In December 2020, as amended in March 2022, we entered into the Capital on Demand TM Sales Agreement (as amended, the Sales Agreement) with JonesTrading Institutional Services LLC (JonesTrading) pursuant to which we could sell from time to time, at our option, up to an aggregate of $50.0 million of shares of our common stock through J"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 2,
+  "from": "2024-01-04",
+  "to": "2024-05-03",
+  "trades": []
  },
  "drug": null,
  "trials": {

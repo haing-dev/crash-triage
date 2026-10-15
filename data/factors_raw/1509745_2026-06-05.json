@@ -3,11 +3,12 @@
  "cik": "1509745",
  "name": "CYPHERPUNK TECHNOLOGIES INC.",
  "date": "2026-06-05",
- "asof": "2026-07-05",
+ "asof": "2026-06-05",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-07-06",
-  "adj_close": 0.67500001
+  "date": "2026-06-05",
+  "adj_close": 0.51899999
  },
  "balance": {
   "end": "2026-03-31",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2026-03-31",
-  "months": 2.9,
-  "per_month": -1173137.0786516855
+  "ytd_months": 2.9,
+  "ytd": -3430000,
+  "accn": "0001104659-26-060662",
+  "ttm_per_month": -2737666.6666666665,
+  "quarter_per_month": -1143333.3333333333,
+  "per_month": -2737666.6666666665
  },
  "shares": {
   "end": "2026-05-12",
@@ -28,11 +33,29 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001104659-26-060662",
+  "guided_until": null,
+  "guidance": "sufficient to fund its operating expenses for at least the next 12 months",
+  "twelve_months": true,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "believes that its cash and cash equivalents of $ 6,689 as of March 31, 2026 together with its ability to raise additional capital from the $ 200,000 Sales Agreement with Cantor, will be sufficient to fund its operating expenses for at least the next 12 months from issuance of these financial statements. In addition, to support its future operations and recently announced digital asset treasury str"
+ },
  "insiders": {
-  "form4s": 8,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 19,
+  "from": "2026-03-07",
+  "to": "2026-07-05",
+  "trades": [
+   {
+    "date": "2026-03-26",
+    "filed": "2026-03-30",
+    "code": "S",
+    "value": 42630,
+    "who": "Mirabelli Christopher"
+   }
+  ]
  },
  "drug": null,
  "trials": {

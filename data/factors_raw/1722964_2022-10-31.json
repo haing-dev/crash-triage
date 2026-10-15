@@ -3,37 +3,58 @@
  "cik": "1722964",
  "name": "Y-mAbs Therapeutics, Inc.",
  "date": "2022-10-31",
- "asof": "2022-11-30",
+ "asof": "2022-11-01",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-11-30",
-  "adj_close": 4.47
+  "date": "2022-11-01",
+  "adj_close": 3.35
  },
  "balance": {
-  "end": "2022-09-30",
-  "cash": 114526000,
+  "end": "2022-06-30",
+  "cash": 133665000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001558370-22-016659"
+  "accn": "0001558370-22-012656"
  },
  "burn": {
-  "end": "2022-09-30",
-  "months": 8.9,
-  "per_month": -7527185.294117647
+  "end": "2022-06-30",
+  "ytd_months": 5.9,
+  "ytd": -48025000,
+  "accn": "0001558370-22-012656",
+  "ttm_per_month": -8330333.333333333,
+  "quarter_per_month": -7700000.0,
+  "per_month": -8330333.333333333
  },
  "shares": {
-  "end": "2022-11-02",
-  "shares": 43668130,
+  "end": "2022-08-03",
+  "shares": 43719549,
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001558370-22-012656",
+  "guided_until": "2024-07-15",
+  "guidance": "r current cash and cash equivalents are sufficient to fund our operations as currently planned through mid-2024, and",
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
   "form4s": 1,
-  "bought": 5884,
-  "sold": 0,
-  "buyers": [
-   "Rajah Vignesh"
+  "from": "2022-08-02",
+  "to": "2022-11-30",
+  "trades": [
+   {
+    "date": "2022-11-15",
+    "filed": "2022-11-16",
+    "code": "P",
+    "value": 5884,
+    "who": "Rajah Vignesh"
+   }
   ]
  },
  "drug": null,

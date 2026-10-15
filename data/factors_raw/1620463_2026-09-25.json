@@ -3,11 +3,12 @@
  "cik": "1620463",
  "name": "LeonaBio, Inc.",
  "date": "2026-09-25",
- "asof": "2026-10-15",
+ "asof": "2026-09-25",
  "final": false,
+ "version": 2,
  "price": {
-  "date": "2026-10-13",
-  "adj_close": 6.43
+  "date": "2026-09-25",
+  "adj_close": 3.25
  },
  "balance": {
   "end": "2026-06-30",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2026-06-30",
-  "months": 5.9,
-  "per_month": -6402715.777777778
+  "ytd_months": 5.9,
+  "ytd": -37861000,
+  "accn": "0001193125-26-352243",
+  "ttm_per_month": -5160500.0,
+  "quarter_per_month": -5652666.666666667,
+  "per_month": -5160500.0
  },
  "shares": {
   "end": "2026-08-04",
@@ -29,13 +34,23 @@
   "split_factor": 1.0,
   "splits_after": []
  },
- "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+ "filing": {
+  "accn": "0001193125-26-352243",
+  "guided_until": null,
+  "guidance": "sufficient to fund its operating expenses and capital expenditure requirements through at least the next 12 months",
+  "twelve_months": true,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "exercised in full, the Series A Common Warrants would provide $ 146.2 million of additional capital to the Company. Additionally, t he Company has a sales agreement in place with Cantor Fitzgerald &amp; Co. and BTIG, LLC for an &#8220;at the market&#8221; equity offering facility through which it may offer and sell shares of its common stock, however, the Company is currently unable to offer and s"
  },
- "drug": null,
+ "insiders": {
+  "form4s": 2,
+  "from": "2026-06-27",
+  "to": "2026-10-15",
+  "trades": []
+ },
+ "drug": "n/a",
  "trials": {
   "query": "leonabio",
   "other_trials": 1,

@@ -3,11 +3,12 @@
  "cik": "1680581",
  "name": "Fulcrum Therapeutics, Inc.",
  "date": "2024-09-12",
- "asof": "2024-10-12",
+ "asof": "2024-09-13",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-10-14",
-  "adj_close": 3.57
+  "date": "2024-09-13",
+  "adj_close": 3.18
  },
  "balance": {
   "end": "2024-06-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2024-06-30",
-  "months": 5.9,
-  "per_month": 5653262.983425414
+  "ytd_months": 5.9,
+  "ytd": 33615000,
+  "accn": "0000950170-24-088238",
+  "ttm_per_month": -1037416.6666666666,
+  "quarter_per_month": 19633000.0,
+  "per_month": -1037416.6666666666
  },
  "shares": {
   "end": "2024-07-24",
@@ -33,11 +38,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0000950170-24-088238",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "purpose in June 2018. The lease ends on June 30, 2028. The Company has the option to extend the term of the lease for an additional five-year period, at the market rate, by giving the landlord written notice of its election to exercise the extension at least nine months prior to the original expiration of the lease term. The lease has a total commitment of $ 25.1 million over the ten year term, an"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 10,
+  "from": "2024-06-14",
+  "to": "2024-10-12",
+  "trades": []
  },
  "drug": null,
  "trials": {

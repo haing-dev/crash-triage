@@ -3,11 +3,12 @@
  "cik": "1485003",
  "name": "Carisma Therapeutics Inc.",
  "date": "2023-03-08",
- "asof": "2023-04-07",
+ "asof": "2023-03-14",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-04-10",
-  "adj_close": 2.82
+  "date": "2023-03-14",
+  "adj_close": 3.16
  },
  "balance": {
   "end": "2022-12-31",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2022-12-31",
-  "months": 12.0,
-  "per_month": 2081878.5714285716
+  "ytd_months": 12.0,
+  "ytd": 24895000,
+  "accn": "0001485003-23-000090",
+  "ttm_per_month": 2074583.3333333333,
+  "quarter_per_month": 893666.6666666666,
+  "per_month": 2074583.3333333333
  },
  "shares": {
   "end": "2023-02-21",
@@ -38,11 +43,141 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001485003-23-000090",
+  "guided_until": null,
+  "guidance": "sufficient to fund the Company's operations for at least the next twelve months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": 97800000.0,
+  "atm_quote": "stock warrants and convertible bridge notes, venture debt borrowings, our initial public offering, our follow-on public offerings, sales effected in at-the-market offerings, our out-licensing and former OUS business development partnership agreements and from the Roche Asset Purchase Agreement . The majority of our revenue to date has been from milestone payments received under our out-licensing a"
+ },
  "insiders": {
-  "form4s": 8,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 18,
+  "from": "2022-12-08",
+  "to": "2023-04-07",
+  "trades": [
+   {
+    "date": "2023-03-02",
+    "filed": "2023-03-06",
+    "code": "S",
+    "value": 59274,
+    "who": "Sullivan Mark"
+   },
+   {
+    "date": "2023-03-02",
+    "filed": "2023-03-06",
+    "code": "S",
+    "value": 43063,
+    "who": "Sullivan Mark"
+   },
+   {
+    "date": "2023-03-02",
+    "filed": "2023-03-06",
+    "code": "S",
+    "value": 26344,
+    "who": "Sullivan Mark"
+   },
+   {
+    "date": "2023-03-02",
+    "filed": "2023-03-06",
+    "code": "S",
+    "value": 44757,
+    "who": "MacDonald Glen C"
+   },
+   {
+    "date": "2023-03-02",
+    "filed": "2023-03-06",
+    "code": "S",
+    "value": 35359,
+    "who": "MacDonald Glen C"
+   },
+   {
+    "date": "2023-03-02",
+    "filed": "2023-03-06",
+    "code": "S",
+    "value": 19892,
+    "who": "MacDonald Glen C"
+   },
+   {
+    "date": "2023-03-02",
+    "filed": "2023-03-06",
+    "code": "S",
+    "value": 10149,
+    "who": "Ryu Elly"
+   },
+   {
+    "date": "2023-03-02",
+    "filed": "2023-03-06",
+    "code": "S",
+    "value": 122638,
+    "who": "Cannell Thomas R"
+   },
+   {
+    "date": "2023-03-02",
+    "filed": "2023-03-06",
+    "code": "S",
+    "value": 163517,
+    "who": "Cannell Thomas R"
+   },
+   {
+    "date": "2023-03-02",
+    "filed": "2023-03-06",
+    "code": "S",
+    "value": 90554,
+    "who": "Forbes Monica"
+   },
+   {
+    "date": "2023-03-02",
+    "filed": "2023-03-06",
+    "code": "S",
+    "value": 54755,
+    "who": "Forbes Monica"
+   },
+   {
+    "date": "2023-03-02",
+    "filed": "2023-03-06",
+    "code": "S",
+    "value": 57704,
+    "who": "Forbes Monica"
+   },
+   {
+    "date": "2023-02-21",
+    "filed": "2023-02-23",
+    "code": "S",
+    "value": 23393,
+    "who": "Sullivan Mark"
+   },
+   {
+    "date": "2023-02-21",
+    "filed": "2023-02-23",
+    "code": "S",
+    "value": 4204,
+    "who": "Ryu Elly"
+   },
+   {
+    "date": "2023-02-21",
+    "filed": "2023-02-23",
+    "code": "S",
+    "value": 31554,
+    "who": "Cannell Thomas R"
+   },
+   {
+    "date": "2023-02-21",
+    "filed": "2023-02-23",
+    "code": "S",
+    "value": 36332,
+    "who": "Forbes Monica"
+   },
+   {
+    "date": "2023-02-21",
+    "filed": "2023-02-23",
+    "code": "S",
+    "value": 15227,
+    "who": "MacDonald Glen C"
+   }
+  ]
  },
  "drug": null,
  "trials": {

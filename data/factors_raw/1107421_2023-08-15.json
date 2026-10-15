@@ -3,11 +3,12 @@
  "cik": "1107421",
  "name": "Alaunos Therapeutics, Inc.",
  "date": "2023-08-15",
- "asof": "2023-09-14",
+ "asof": "2023-08-15",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-09-14",
-  "adj_close": 19.5
+  "date": "2023-08-15",
+  "adj_close": 21.0
  },
  "balance": {
   "end": "2023-06-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2023-06-30",
-  "months": 5.9,
-  "per_month": -2770547.3333333335
+  "ytd_months": 5.9,
+  "ytd": -16383000,
+  "accn": "0000950170-23-042486",
+  "ttm_per_month": -2471500.0,
+  "quarter_per_month": -2334000.0,
+  "per_month": -2471500.0
  },
  "shares": {
   "end": "2023-08-10",
@@ -41,11 +46,29 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0000950170-23-042486",
+  "guided_until": "2023-10-15",
+  "guidance": "pany anticipates cash resources will be sufficient to fund operations into the fourth quarter of 2023.&#x2",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "discretion, shares of its common stock having an aggregate offering price of up to $ 50.0 million through Piper Sandler as its sales agent in an &#34;at the market offering.&#34; Piper Sandler will receive a commission of 3.0 % of the gross proceeds of any common stock sold under the Equity Distribution Agreement. During the three and six months ended June 30, 2023, there have been no sales of the"
+ },
  "insiders": {
-  "form4s": 1,
-  "bought": 0,
-  "sold": 9542,
-  "buyers": []
+  "form4s": 7,
+  "from": "2023-05-17",
+  "to": "2023-09-14",
+  "trades": [
+   {
+    "date": "2023-09-01",
+    "filed": "2023-09-05",
+    "code": "S",
+    "value": 9542,
+    "who": "Boyle Kevin S. Sr."
+   }
+  ]
  },
  "drug": null,
  "trials": {

@@ -3,11 +3,12 @@
  "cik": "1535955",
  "name": "Lipocine Inc.",
  "date": "2026-04-02",
- "asof": "2026-05-02",
+ "asof": "2026-04-06",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-05-04",
-  "adj_close": 2.29
+  "date": "2026-04-06",
+  "adj_close": 1.94
  },
  "balance": {
   "end": "2025-12-31",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2025-12-31",
-  "months": 12.0,
-  "per_month": -816253.7012087912
+  "ytd_months": 12.0,
+  "ytd": -9760721,
+  "accn": "0001493152-26-009411",
+  "ttm_per_month": -813393.4166666666,
+  "quarter_per_month": -973169.0,
+  "per_month": -813393.4166666666
  },
  "shares": {
   "end": "2026-03-09",
@@ -29,16 +34,52 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001493152-26-009411",
+  "guided_until": null,
+  "guidance": "sufficient to fund planned operations for at least the next twelve months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "s experienced extreme price fluctuations that have been unrelated to the operating performance of the affected companies. There can be no assurance that the market price of our shares of common stock will not experience significant fluctuations in the future, including fluctuations that are unrelated to our performance. These fluctuations may result due to macroeconomic and world events, national "
+ },
  "insiders": {
-  "form4s": 4,
-  "bought": 434600,
-  "sold": 0,
-  "buyers": [
-   "Higuchi John W.",
-   "Patel Mahesh V."
+  "form4s": 5,
+  "from": "2026-01-02",
+  "to": "2026-05-02",
+  "trades": [
+   {
+    "date": "2026-04-07",
+    "filed": "2026-04-07",
+    "code": "P",
+    "value": 81200,
+    "who": "Higuchi John W."
+   },
+   {
+    "date": "2026-04-06",
+    "filed": "2026-04-06",
+    "code": "P",
+    "value": 252150,
+    "who": "Higuchi John W."
+   },
+   {
+    "date": "2026-04-06",
+    "filed": "2026-04-06",
+    "code": "P",
+    "value": 50750,
+    "who": "Patel Mahesh V."
+   },
+   {
+    "date": "2026-04-02",
+    "filed": "2026-04-02",
+    "code": "P",
+    "value": 50500,
+    "who": "Patel Mahesh V."
+   }
   ]
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "lipocine",
   "other_trials": 0,

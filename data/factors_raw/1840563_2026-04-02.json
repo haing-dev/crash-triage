@@ -3,11 +3,12 @@
  "cik": "1840563",
  "name": "PMGC Holdings Inc.",
  "date": "2026-04-02",
- "asof": "2026-05-02",
+ "asof": "2026-04-07",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-05-04",
-  "adj_close": 23.3
+  "date": "2026-04-07",
+  "adj_close": 34.5
  },
  "balance": {
   "end": "2025-12-31",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2025-12-31",
-  "months": 12.0,
-  "per_month": -496228.94956043956
+  "ytd_months": 12.0,
+  "ytd": -5933881,
+  "accn": "0001213900-26-035937",
+  "ttm_per_month": -494490.0833333333,
+  "quarter_per_month": -583333.3333333334,
+  "per_month": -494490.0833333333
  },
  "shares": {
   "end": "2026-03-30",
@@ -29,13 +34,23 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001213900-26-035937",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "ts may be viewed negatively by investors and analysts as an indication of financial difficulty or poor stock performance. There can be no assurance that the market price of our Common Stock following any reverse stock split will remain at a level proportional to the prices prior to the reverse stock split. The repeated use of reverse stock splits may diminish investor confidence, reduce trading li"
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2026-01-02",
+  "to": "2026-05-02",
+  "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "pmgc",
   "other_trials": 0,

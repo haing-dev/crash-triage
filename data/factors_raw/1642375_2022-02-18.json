@@ -3,11 +3,12 @@
  "cik": "1642375",
  "name": "Guardion Health Sciences, Inc.",
  "date": "2022-02-18",
- "asof": "2022-03-20",
+ "asof": "2022-02-23",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-03-21",
-  "adj_close": 7.06039
+  "date": "2022-02-23",
+  "adj_close": 5.07554
  },
  "balance": {
   "end": "2021-09-30",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2021-09-30",
-  "months": 8.9,
-  "per_month": -1015954.2488235293
+  "ytd_months": 8.9,
+  "ytd": -9078172,
+  "accn": "0001493152-21-027760",
+  "ttm_per_month": -937618.25,
+  "quarter_per_month": -597606.0,
+  "per_month": -937618.25
  },
  "shares": {
   "end": "2021-11-01",
@@ -34,11 +39,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001493152-21-027760",
+  "guided_until": null,
+  "guidance": "sufficient to fund operations for at least the next twelve months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "ue of warrants during the three months and nine months ended September 30, 2021. 10. Stockholders' Equity Common Stock January 2021 and February 2021 At the Market Offerings On January 8, 2021, the Company entered into a sales agreement with Maxim Group LLC (&#8220;Maxim&#8221;) pursuant to which the Company could sell up to $ 10,000,000 worth of shares of the Company's common stock in an &#8220;a"
+ },
  "insiders": {
-  "form4s": 1,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 2,
+  "from": "2021-11-20",
+  "to": "2022-03-20",
+  "trades": []
  },
  "drug": null,
  "trials": {

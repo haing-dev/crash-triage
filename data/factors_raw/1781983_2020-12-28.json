@@ -3,11 +3,12 @@
  "cik": "1781983",
  "name": "Aprea Therapeutics, Inc.",
  "date": "2020-12-28",
- "asof": "2021-01-27",
+ "asof": "2020-12-29",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2021-01-27",
-  "adj_close": 107.6
+  "date": "2020-12-29",
+  "adj_close": 5.05
  },
  "balance": {
   "end": "2020-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2020-09-30",
-  "months": 9.0,
-  "per_month": -3189339.2923076926
+  "ytd_months": 9.0,
+  "ytd": -28603470,
+  "accn": "0001558370-20-013179",
+  "ttm_per_month": -3612170.3333333335,
+  "quarter_per_month": -3807844.0,
+  "per_month": -3612170.3333333335
  },
  "shares": {
   "end": "2020-11-06",
@@ -33,11 +38,29 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001558370-20-013179",
+  "guided_until": "2023-01-15",
+  "guidance": "of approximately $101.1 million will be sufficient to fund the Company's operations into 2023. In",
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "over a three-year period. We are also a &#8220;smaller reporting company,&#8221; as such term is defined in Rule 12b-2 of the Exchange Act, meaning that the market value of our common stock held by non-affiliates is less than $700 million and our annual revenue is less than $100 million during the most recently completed fiscal year. We may continue to be a smaller reporting company if either (i) "
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 2,
+  "from": "2020-09-29",
+  "to": "2021-01-27",
+  "trades": [
+   {
+    "date": "2020-10-05",
+    "filed": "2020-10-07",
+    "code": "S",
+    "value": 4427500,
+    "who": "5AM Ventures IV, L.P."
+   }
+  ]
  },
  "drug": null,
  "trials": {

@@ -3,11 +3,12 @@
  "cik": "1017491",
  "name": "SEELOS THERAPEUTICS, INC.",
  "date": "2023-11-28",
- "asof": "2023-12-28",
+ "asof": "2023-11-29",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-12-28",
-  "adj_close": 185.6
+  "date": "2023-11-29",
+  "adj_close": 160.0
  },
  "balance": {
   "end": "2023-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2023-09-30",
-  "months": 8.9,
-  "per_month": -2462170.7352941176
+  "ytd_months": 8.9,
+  "ytd": -22001000,
+  "accn": "0001410578-23-002472",
+  "ttm_per_month": -2924250.0,
+  "quarter_per_month": -1916333.3333333333,
+  "per_month": -2924250.0
  },
  "shares": {
   "end": "2023-11-06",
@@ -37,13 +42,35 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001410578-23-002472",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": 59400000.0,
+  "atm_quote": "107 Issuance of common stock for license acquired 500,000 &#8203; &#8212; &#8203; &#8212; &#8203; &#8212; &#8203; &#8212; Issuance of common stock in at-the-market offering, net of issuance costs 350,000 &#8203; 1 &#8203; 151 &#8203; &#8212; &#8203; 152 Issuance of common stock, ESPP 27,483 &#8203; &#8212; &#8203; 24 &#8203; &#8212; &#8203; 24 Net loss &#8212; &#8203; &#8212; &#8203; &#8212; &#820"
+ },
  "insiders": {
-  "form4s": 2,
-  "bought": 200222,
-  "sold": 0,
-  "buyers": [
-   "Golembiewski Michael Joseph",
-   "Mehra Raj"
+  "form4s": 3,
+  "from": "2023-08-30",
+  "to": "2023-12-28",
+  "trades": [
+   {
+    "date": "2023-11-30",
+    "filed": "2023-12-01",
+    "code": "P",
+    "value": 100222,
+    "who": "Golembiewski Michael Joseph"
+   },
+   {
+    "date": "2023-12-01",
+    "filed": "2023-12-01",
+    "code": "P",
+    "value": 99999,
+    "who": "Mehra Raj"
+   }
   ]
  },
  "drug": null,

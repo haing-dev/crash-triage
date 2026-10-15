@@ -3,11 +3,12 @@
  "cik": "1851484",
  "name": "CITIUS ONCOLOGY, INC.",
  "date": "2024-08-13",
- "asof": "2024-09-12",
+ "asof": "2024-08-14",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-09-12",
-  "adj_close": 1.64
+  "date": "2024-08-14",
+  "adj_close": 2.47
  },
  "balance": {
   "end": "2024-06-30",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2024-06-30",
-  "months": 5.9,
-  "per_month": -93808.34386740332
+  "ytd_months": 5.9,
+  "ytd": -557796,
+  "accn": "0001493152-24-030991",
+  "ttm_per_month": -74170.41666666667,
+  "quarter_per_month": -122035.33333333333,
+  "per_month": -74170.41666666667
  },
  "shares": {
   "end": "2024-08-09",
@@ -34,11 +39,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001493152-24-030991",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
   "form4s": 9,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2024-05-15",
+  "to": "2024-09-12",
+  "trades": []
  },
  "drug": null,
  "trials": {

@@ -3,11 +3,12 @@
  "cik": "1175680",
  "name": "CytoDyn Inc.",
  "date": "2021-03-08",
- "asof": "2021-04-07",
+ "asof": "2021-03-10",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2021-04-07",
-  "adj_close": 3.5
+  "date": "2021-03-10",
+  "adj_close": 2.14
  },
  "balance": {
   "end": "2020-11-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2020-11-30",
-  "months": 6.0,
-  "per_month": -10222320.65934066
+  "ytd_months": 6.0,
+  "ytd": -61119000,
+  "accn": "0001193125-21-004744",
+  "ttm_per_month": -8995634.583333334,
+  "quarter_per_month": -6723666.666666667,
+  "per_month": -8995634.583333334
  },
  "shares": {
   "end": "2020-12-31",
@@ -33,11 +38,64 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001193125-21-004744",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 3,
+  "from": "2020-12-08",
+  "to": "2021-04-07",
+  "trades": [
+   {
+    "date": "2020-12-22",
+    "filed": "2020-12-28",
+    "code": "S",
+    "value": 1349849,
+    "who": "Mulholland Michael D."
+   },
+   {
+    "date": "2020-12-22",
+    "filed": "2020-12-28",
+    "code": "S",
+    "value": 3003009,
+    "who": "Mulholland Michael D."
+   },
+   {
+    "date": "2020-12-22",
+    "filed": "2020-12-28",
+    "code": "S",
+    "value": 84700,
+    "who": "Mulholland Michael D."
+   },
+   {
+    "date": "2020-12-17",
+    "filed": "2020-12-21",
+    "code": "S",
+    "value": 145674,
+    "who": "Mulholland Michael D."
+   },
+   {
+    "date": "2020-12-18",
+    "filed": "2020-12-21",
+    "code": "S",
+    "value": 2411439,
+    "who": "Mulholland Michael D."
+   },
+   {
+    "date": "2020-12-21",
+    "filed": "2020-12-21",
+    "code": "S",
+    "value": 3292247,
+    "who": "Mulholland Michael D."
+   }
+  ]
  },
  "drug": null,
  "trials": {

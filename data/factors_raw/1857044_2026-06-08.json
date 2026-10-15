@@ -3,11 +3,12 @@
  "cik": "1857044",
  "name": "Indaptus Therapeutics, Inc.",
  "date": "2026-06-08",
- "asof": "2026-07-08",
+ "asof": "2026-06-09",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-07-08",
-  "adj_close": 2.45
+  "date": "2026-06-09",
+  "adj_close": 2.025
  },
  "balance": {
   "end": "2026-03-31",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2026-03-31",
-  "months": 2.9,
-  "per_month": -2397575.1339325844
+  "ytd_months": 2.9,
+  "ytd": -7009993,
+  "accn": "0001493152-26-023362",
+  "ttm_per_month": -1398843.5,
+  "quarter_per_month": -2336664.3333333335,
+  "per_month": -1398843.5
  },
  "shares": {
   "end": "2026-05-15",
@@ -28,13 +33,23 @@
   "split_factor": 1.0,
   "splits_after": []
  },
- "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+ "filing": {
+  "accn": "0001493152-26-023362",
+  "guided_until": "2026-06-15",
+  "guidance": "sh equivalents as of March 31, 2026 are adequate to fund our ongoing activities through the second quarter of 2026 and",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "otal outstanding warrants at March 31, 2026 were exercisable at a weighted average price of $ 19.57 . b) On June 1, 2022, the Company entered into an ATM Agreement which was amended on September 1, 2022 with a sales agent, pursuant to which the Company may offer and sell, from time to time through the sales agent, shares of the Company's common stock. The issuance and sale of common stock by the C"
  },
- "drug": null,
+ "insiders": {
+  "form4s": 1,
+  "from": "2026-03-10",
+  "to": "2026-07-08",
+  "trades": []
+ },
+ "drug": "n/a",
  "trials": {
   "query": "indaptus therapeutics",
   "other_trials": 1,

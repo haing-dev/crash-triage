@@ -3,38 +3,53 @@
  "cik": "1815974",
  "name": "Anebulo Pharmaceuticals, Inc.",
  "date": "2026-02-06",
- "asof": "2026-03-08",
+ "asof": "2026-02-06",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-03-09",
-  "adj_close": 0.47234
+  "date": "2026-02-06",
+  "adj_close": 0.5005
  },
  "balance": {
-  "end": "2025-12-31",
-  "cash": 9041570,
+  "end": "2025-09-30",
+  "cash": 10354773,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001493152-26-006446"
+  "accn": "0001493152-25-022350"
  },
  "burn": {
-  "end": "2025-12-31",
-  "months": 6.0,
-  "per_month": -430198.5396721312
+  "end": "2025-09-30",
+  "ytd_months": 3.0,
+  "ytd": -1273076,
+  "accn": "0001493152-25-022350",
+  "ttm_per_month": -494397.8333333333,
+  "quarter_per_month": -424358.6666666667,
+  "per_month": -494397.8333333333
  },
  "shares": {
-  "end": "2026-02-06",
-  "shares": 40784731,
+  "end": "2025-11-07",
+  "shares": 41084731,
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001493152-25-022350",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "s (the &#8220;Investors&#8221;), pursuant to which, on December 23, 2024, the Company issued and sold to the Investors, in a private placement priced at-the-market (the &#8220;Private Placement&#8221;) consistent with the rules of the Nasdaq Stock Market LLC (&#8220;Nasdaq&#8221;), an aggregate of 15,151,514 shares (the &#8220;Shares&#8221;) of common stock. The purchase price of each Share was $ "
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2025-11-08",
+  "to": "2026-03-08",
+  "trades": []
  },
- "drug": null,
+ "drug": "selonabant",
  "trials": {
   "query": "anebulo pharmaceuticals",
   "other_trials": 0,

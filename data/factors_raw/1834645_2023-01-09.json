@@ -3,11 +3,12 @@
  "cik": "1834645",
  "name": "Peak Bio, Inc.",
  "date": "2023-01-09",
- "asof": "2023-02-08",
+ "asof": "2023-01-11",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-02-08",
-  "adj_close": 1.31
+  "date": "2023-01-11",
+  "adj_close": 1.71
  },
  "balance": {
   "end": "2022-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2022-09-30",
-  "months": 8.9,
-  "per_month": -73033.3938235294
+  "ytd_months": 8.9,
+  "ytd": -652598,
+  "accn": "0001193125-22-290073",
+  "ttm_per_month": -67300.83333333333,
+  "quarter_per_month": -23286.666666666668,
+  "per_month": -67300.83333333333
  },
  "shares": {
   "end": "2022-11-21",
@@ -33,11 +38,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001193125-22-290073",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 4,
+  "from": "2022-10-11",
+  "to": "2023-02-08",
+  "trades": []
  },
  "drug": null,
  "trials": {

@@ -3,11 +3,12 @@
  "cik": "1644963",
  "name": "AVENUE THERAPEUTICS, INC.",
  "date": "2022-02-16",
- "asof": "2022-03-18",
+ "asof": "2022-02-16",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-03-18",
-  "adj_close": 765.675
+  "date": "2022-02-16",
+  "adj_close": 352.125
  },
  "balance": {
   "end": "2021-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2021-09-30",
-  "months": 8.9,
-  "per_month": -285039.26470588235
+  "ytd_months": 8.9,
+  "ytd": -2547000,
+  "accn": "0001410578-21-000225",
+  "ttm_per_month": -311666.6666666667,
+  "quarter_per_month": -178666.66666666666,
+  "per_month": -311666.6666666667
  },
  "shares": {
   "end": "2021-11-12",
@@ -37,11 +42,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001410578-21-000225",
+  "guided_until": "2021-10-15",
+  "guidance": "its cash and cash equivalents are only sufficient to fund its operating expenses into the fourth quarter of 2021. The",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 5,
+  "from": "2021-11-18",
+  "to": "2022-03-18",
+  "trades": []
  },
  "drug": null,
  "trials": {

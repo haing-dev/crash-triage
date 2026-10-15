@@ -3,36 +3,51 @@
  "cik": "1603345",
  "name": "Agentix Corp.",
  "date": "2020-11-19",
- "asof": "2020-12-19",
+ "asof": "2020-11-19",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2020-12-21",
-  "adj_close": 0.4
+  "date": "2020-11-19",
+  "adj_close": 0.5
  },
  "balance": {
-  "end": "2020-08-31",
-  "cash": 242750,
+  "end": "2020-05-31",
+  "cash": 17,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001477932-20-007176"
+  "accn": "0001477932-20-003920"
  },
  "burn": {
-  "end": "2020-08-31",
-  "months": 4.5,
-  "per_month": -81344.0620289855
+  "end": "2020-05-31",
+  "ytd_months": 9.0,
+  "ytd": -76,
+  "accn": "0001477932-20-003920",
+  "ttm_per_month": -3.9166666666666665,
+  "quarter_per_month": 1.3333333333333333,
+  "per_month": -3.9166666666666665
  },
  "shares": {
-  "end": "2020-12-02",
-  "shares": 34489605,
+  "end": "2020-07-10",
+  "shares": 31738884,
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001477932-20-003920",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2020-08-21",
+  "to": "2020-12-19",
+  "trades": []
  },
  "drug": null,
  "trials": {

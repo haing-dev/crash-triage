@@ -3,28 +3,33 @@
  "cik": "1712762",
  "name": "bioAffinity Technologies, Inc.",
  "date": "2025-05-06",
- "asof": "2025-06-05",
+ "asof": "2025-05-08",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-06-05",
-  "adj_close": 8.43
+  "date": "2025-05-08",
+  "adj_close": 6.06
  },
  "balance": {
-  "end": "2025-03-31",
-  "cash": 444706,
+  "end": "2024-12-31",
+  "cash": 1105291,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001641172-25-010787"
+  "accn": "0001641172-25-001840"
  },
  "burn": {
-  "end": "2025-03-31",
-  "months": 2.9,
-  "per_month": -561523.9438202247
+  "end": "2024-12-31",
+  "ytd_months": 12.0,
+  "ytd": -7264795,
+  "accn": "0001641172-25-001840",
+  "ttm_per_month": -605399.5833333334,
+  "quarter_per_month": -559053.6666666666,
+  "per_month": -605399.5833333334
  },
  "shares": {
-  "end": "2025-05-13",
-  "shares": 27249462,
+  "end": "2025-03-31",
+  "shares": 18255824,
   "split_factor": 30.011,
   "splits_after": [
    [
@@ -33,11 +38,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001641172-25-001840",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2025-02-05",
+  "to": "2025-06-05",
+  "trades": []
  },
  "drug": null,
  "trials": {

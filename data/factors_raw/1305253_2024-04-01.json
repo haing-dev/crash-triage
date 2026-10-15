@@ -3,36 +3,57 @@
  "cik": "1305253",
  "name": "Eiger BioPharmaceuticals, Inc.",
  "date": "2024-04-01",
- "asof": "2024-05-01",
+ "asof": "2024-04-01",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-05-01",
-  "adj_close": 2.4
+  "date": "2024-04-01",
+  "adj_close": 1.39
  },
  "balance": {
-  "end": "2023-12-31",
-  "cash": 25440000,
+  "end": "2023-09-30",
+  "cash": 39401000,
   "parts": [
-   "CashAndCashEquivalentsAtCarryingValue"
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
   ],
-  "accn": "0001628280-24-015297"
+  "accn": "0001628280-23-038276"
  },
  "burn": {
-  "end": "2023-12-31",
-  "months": 12.0,
-  "per_month": -6234178.901098901
+  "end": "2023-09-30",
+  "ytd_months": 8.9,
+  "ytd": -60594000,
+  "accn": "0001628280-23-038276",
+  "ttm_per_month": -6903416.666666667,
+  "quarter_per_month": -4851333.333333333,
+  "per_month": -6903416.666666667
  },
  "shares": {
-  "end": "2024-04-24",
-  "shares": 1480797,
-  "split_factor": 1.0,
-  "splits_after": []
+  "end": "2023-11-06",
+  "shares": 44384684,
+  "split_factor": 29.999,
+  "splits_after": [
+   [
+    "2024-04-08",
+    30.0
+   ]
+  ]
+ },
+ "filing": {
+  "accn": "0001628280-23-038276",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "' Equity Shares Amount Balance at December 31, 2021 34,568,821 $ 35 $ 412,930 $ ( 149 ) $ ( 340,417 ) $ 72,399 Issuance of common stock upon offering at-the-market, net of $ 1,288 of commissions 5,841,786 6 45,604 &#8212; &#8212; 45,610 Issuance of common stock upon exercise of stock options 15,995 &#8212; 144 &#8212; &#8212; 144 Vesting of common stock issued under Product Development Agreement &"
  },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2024-01-02",
+  "to": "2024-05-01",
+  "trades": []
  },
  "drug": null,
  "trials": {

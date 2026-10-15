@@ -3,20 +3,30 @@
  "cik": "1231457",
  "name": "GENELUX Corp",
  "date": "2023-03-13",
- "asof": "2023-04-12",
+ "asof": "2023-03-13",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-04-12",
-  "adj_close": 29.68
+  "date": "2023-03-13",
+  "adj_close": 14.25
  },
  "balance": null,
  "burn": null,
  "shares": null,
+ "filing": null,
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 4,
+  "from": "2022-12-13",
+  "to": "2023-04-12",
+  "trades": [
+   {
+    "date": "2023-01-26",
+    "filed": "2023-01-31",
+    "code": "P",
+    "value": 1250,
+    "who": "Zhang Qian"
+   }
+  ]
  },
  "drug": null,
  "trials": {

@@ -3,28 +3,33 @@
  "cik": "1787740",
  "name": "Valion Bio, Inc.",
  "date": "2024-05-09",
- "asof": "2024-06-08",
+ "asof": "2024-05-13",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-06-10",
-  "adj_close": 170.0
+  "date": "2024-05-13",
+  "adj_close": 205.7
  },
  "balance": {
-  "end": "2024-03-31",
-  "cash": 1668000,
+  "end": "2023-12-31",
+  "cash": 3395000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0000950170-24-060534"
+  "accn": "0000950170-24-035946"
  },
  "burn": {
-  "end": "2024-03-31",
-  "months": 3.0,
-  "per_month": -563478.2222222222
+  "end": "2023-12-31",
+  "ytd_months": 12.0,
+  "ytd": -8511000,
+  "accn": "0000950170-24-035946",
+  "ttm_per_month": -709250.0,
+  "quarter_per_month": -591333.3333333334,
+  "per_month": -709250.0
  },
  "shares": {
-  "end": "2024-05-14",
-  "shares": 6183592,
+  "end": "2024-03-20",
+  "shares": 1466092,
   "split_factor": 17.0,
   "splits_after": [
    [
@@ -33,11 +38,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0000950170-24-035946",
+  "guided_until": null,
+  "guidance": "sufficient to meet our anticipated needs for the next twelve months",
+  "twelve_months": true,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 3,
+  "from": "2024-02-09",
+  "to": "2024-06-08",
+  "trades": []
  },
  "drug": null,
  "trials": {

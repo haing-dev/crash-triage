@@ -3,11 +3,12 @@
  "cik": "1094038",
  "name": "Marker Therapeutics, Inc.",
  "date": "2023-03-22",
- "asof": "2023-04-21",
+ "asof": "2023-03-23",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-04-21",
-  "adj_close": 0.97000003
+  "date": "2023-03-23",
+  "adj_close": 0.94
  },
  "balance": {
   "end": "2022-12-31",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2022-12-31",
-  "months": 12.0,
-  "per_month": -2255583.3442857144
+  "ytd_months": 12.0,
+  "ytd": -26972153,
+  "accn": "0001410578-23-000324",
+  "ttm_per_month": -2247679.4166666665,
+  "quarter_per_month": -2101807.3333333335,
+  "per_month": -2247679.4166666665
  },
  "shares": {
   "end": "2023-03-17",
@@ -28,11 +33,21 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001410578-23-000324",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "ect the market price of our common stock. As a result, there can be no assurance that the Reverse Stock Split will result in the intended benefits, that the market price of our common stock will remain higher following the Reverse Stock Split or that the market price of our common stock will not decrease in the future. Sales of additional equity securities may adversely affect the market price of "
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 6,
+  "from": "2022-12-22",
+  "to": "2023-04-21",
+  "trades": []
  },
  "drug": null,
  "trials": {

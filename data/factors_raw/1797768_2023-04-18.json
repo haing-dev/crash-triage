@@ -3,42 +3,277 @@
  "cik": "1797768",
  "name": "Kinnate Biopharma Inc.",
  "date": "2023-04-18",
- "asof": "2023-05-18",
+ "asof": "2023-04-20",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-05-18",
-  "adj_close": 3.68
+  "date": "2023-04-20",
+  "adj_close": 2.95
  },
  "balance": {
-  "end": "2023-03-31",
-  "cash": 231184000,
+  "end": "2022-12-31",
+  "cash": 240614000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue",
    "ShortTermInvestments",
    "LongTermInvestments"
   ],
-  "accn": "0001140361-23-024155"
+  "accn": "0001140361-23-011846"
  },
  "burn": {
-  "end": "2023-03-31",
-  "months": 2.9,
-  "per_month": -9480862.921348315
+  "end": "2022-12-31",
+  "ytd_months": 12.0,
+  "ytd": -89034000,
+  "accn": "0001140361-23-011846",
+  "ttm_per_month": -7419500.0,
+  "quarter_per_month": -7916000.0,
+  "per_month": -7419500.0
  },
  "shares": {
-  "end": "2023-05-08",
-  "shares": 46572594,
+  "end": "2023-03-10",
+  "shares": 46569648,
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001140361-23-011846",
+  "guided_until": "2024-07-15",
+  "guidance": "this Annual Report on Form 10-K will be sufficient to fund our operating expenses and capital expenditures into mid-2024. Adv",
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "iled a shelf registration with the SEC on Form S-3ASR (File No. 333-261970). The shelf registration statement included a prospectus supplement for an at-the-market offering ( ATM Offering) to sell up to an aggregate of $150.0 million of shares of our common stock that may be issued and sold from time to time under a sales agreement with SVB Leerink LLC. To date, no shares have been issued and sold"
+ },
  "insiders": {
-  "form4s": 6,
-  "bought": 25488271,
-  "sold": 0,
-  "buyers": [
-   "Foresite Capital Management IV, LLC",
-   "GORDON CARL L",
-   "ORBIMED ADVISORS LLC",
-   "Tananbaum James B."
+  "form4s": 18,
+  "from": "2023-01-18",
+  "to": "2023-05-18",
+  "trades": [
+   {
+    "date": "2023-05-08",
+    "filed": "2023-05-10",
+    "code": "P",
+    "value": 4342677,
+    "who": "Tananbaum James B."
+   },
+   {
+    "date": "2023-05-08",
+    "filed": "2023-05-10",
+    "code": "P",
+    "value": 641323,
+    "who": "Tananbaum James B."
+   },
+   {
+    "date": "2023-05-08",
+    "filed": "2023-05-10",
+    "code": "P",
+    "value": 4342677,
+    "who": "Foresite Capital Management IV, LLC"
+   },
+   {
+    "date": "2023-05-08",
+    "filed": "2023-05-10",
+    "code": "P",
+    "value": 641323,
+    "who": "Foresite Capital Management IV, LLC"
+   },
+   {
+    "date": "2023-05-04",
+    "filed": "2023-05-08",
+    "code": "P",
+    "value": 229512,
+    "who": "ORBIMED ADVISORS LLC"
+   },
+   {
+    "date": "2023-05-04",
+    "filed": "2023-05-08",
+    "code": "P",
+    "value": 860725,
+    "who": "ORBIMED ADVISORS LLC"
+   },
+   {
+    "date": "2023-05-04",
+    "filed": "2023-05-08",
+    "code": "P",
+    "value": 229512,
+    "who": "ORBIMED ADVISORS LLC"
+   },
+   {
+    "date": "2023-05-05",
+    "filed": "2023-05-08",
+    "code": "P",
+    "value": 1383244,
+    "who": "ORBIMED ADVISORS LLC"
+   },
+   {
+    "date": "2023-05-05",
+    "filed": "2023-05-08",
+    "code": "P",
+    "value": 1383241,
+    "who": "ORBIMED ADVISORS LLC"
+   },
+   {
+    "date": "2023-05-04",
+    "filed": "2023-05-08",
+    "code": "P",
+    "value": 229512,
+    "who": "GORDON CARL L"
+   },
+   {
+    "date": "2023-05-04",
+    "filed": "2023-05-08",
+    "code": "P",
+    "value": 860725,
+    "who": "GORDON CARL L"
+   },
+   {
+    "date": "2023-05-04",
+    "filed": "2023-05-08",
+    "code": "P",
+    "value": 229512,
+    "who": "GORDON CARL L"
+   },
+   {
+    "date": "2023-05-05",
+    "filed": "2023-05-08",
+    "code": "P",
+    "value": 1383244,
+    "who": "GORDON CARL L"
+   },
+   {
+    "date": "2023-05-05",
+    "filed": "2023-05-08",
+    "code": "P",
+    "value": 1383241,
+    "who": "GORDON CARL L"
+   },
+   {
+    "date": "2023-04-28",
+    "filed": "2023-05-02",
+    "code": "P",
+    "value": 155545,
+    "who": "GORDON CARL L"
+   },
+   {
+    "date": "2023-04-28",
+    "filed": "2023-05-02",
+    "code": "P",
+    "value": 583323,
+    "who": "GORDON CARL L"
+   },
+   {
+    "date": "2023-04-28",
+    "filed": "2023-05-02",
+    "code": "P",
+    "value": 155542,
+    "who": "GORDON CARL L"
+   },
+   {
+    "date": "2023-05-01",
+    "filed": "2023-05-02",
+    "code": "P",
+    "value": 326305,
+    "who": "GORDON CARL L"
+   },
+   {
+    "date": "2023-05-01",
+    "filed": "2023-05-02",
+    "code": "P",
+    "value": 1223718,
+    "who": "GORDON CARL L"
+   },
+   {
+    "date": "2023-05-01",
+    "filed": "2023-05-02",
+    "code": "P",
+    "value": 326308,
+    "who": "GORDON CARL L"
+   },
+   {
+    "date": "2023-05-02",
+    "filed": "2023-05-02",
+    "code": "P",
+    "value": 157065,
+    "who": "GORDON CARL L"
+   },
+   {
+    "date": "2023-05-02",
+    "filed": "2023-05-02",
+    "code": "P",
+    "value": 589029,
+    "who": "GORDON CARL L"
+   },
+   {
+    "date": "2023-05-02",
+    "filed": "2023-05-02",
+    "code": "P",
+    "value": 157065,
+    "who": "GORDON CARL L"
+   },
+   {
+    "date": "2023-04-28",
+    "filed": "2023-05-02",
+    "code": "P",
+    "value": 155545,
+    "who": "ORBIMED ADVISORS LLC"
+   },
+   {
+    "date": "2023-04-28",
+    "filed": "2023-05-02",
+    "code": "P",
+    "value": 583323,
+    "who": "ORBIMED ADVISORS LLC"
+   },
+   {
+    "date": "2023-04-28",
+    "filed": "2023-05-02",
+    "code": "P",
+    "value": 155542,
+    "who": "ORBIMED ADVISORS LLC"
+   },
+   {
+    "date": "2023-05-01",
+    "filed": "2023-05-02",
+    "code": "P",
+    "value": 326305,
+    "who": "ORBIMED ADVISORS LLC"
+   },
+   {
+    "date": "2023-05-01",
+    "filed": "2023-05-02",
+    "code": "P",
+    "value": 1223718,
+    "who": "ORBIMED ADVISORS LLC"
+   },
+   {
+    "date": "2023-05-01",
+    "filed": "2023-05-02",
+    "code": "P",
+    "value": 326308,
+    "who": "ORBIMED ADVISORS LLC"
+   },
+   {
+    "date": "2023-05-02",
+    "filed": "2023-05-02",
+    "code": "P",
+    "value": 157065,
+    "who": "ORBIMED ADVISORS LLC"
+   },
+   {
+    "date": "2023-05-02",
+    "filed": "2023-05-02",
+    "code": "P",
+    "value": 589029,
+    "who": "ORBIMED ADVISORS LLC"
+   },
+   {
+    "date": "2023-05-02",
+    "filed": "2023-05-02",
+    "code": "P",
+    "value": 157065,
+    "who": "ORBIMED ADVISORS LLC"
+   }
   ]
  },
  "drug": null,

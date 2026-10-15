@@ -3,11 +3,12 @@
  "cik": "1600132",
  "name": "Bellerophon Therapeutics, Inc.",
  "date": "2023-06-05",
- "asof": "2023-07-05",
+ "asof": "2023-06-05",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-07-05",
-  "adj_close": 0.6974
+  "date": "2023-06-05",
+  "adj_close": 0.943
  },
  "balance": {
   "end": "2023-03-31",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2023-03-31",
-  "months": 2.9,
-  "per_month": 1117045.393258427
+  "ytd_months": 2.9,
+  "ytd": 3266000,
+  "accn": "0001558370-23-009885",
+  "ttm_per_month": -814000.0,
+  "quarter_per_month": 1088666.6666666667,
+  "per_month": -814000.0
  },
  "shares": {
   "end": "2023-05-12",
@@ -28,11 +33,43 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001558370-23-009885",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 10,
-  "bought": 0,
-  "sold": 111569,
-  "buyers": []
+  "form4s": 12,
+  "from": "2023-03-07",
+  "to": "2023-07-05",
+  "trades": [
+   {
+    "date": "2023-06-07",
+    "filed": "2023-06-07",
+    "code": "S",
+    "value": 111569,
+    "who": "Puissance Life Science Opportunities Fund VI"
+   },
+   {
+    "date": "2023-05-18",
+    "filed": "2023-05-22",
+    "code": "S",
+    "value": 94550,
+    "who": "Kim Bobae"
+   },
+   {
+    "date": "2023-05-18",
+    "filed": "2023-05-19",
+    "code": "S",
+    "value": 5297600,
+    "who": "Puissance Life Science Opportunities Fund VI"
+   }
+  ]
  },
  "drug": null,
  "trials": {

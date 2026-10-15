@@ -3,11 +3,12 @@
  "cik": "1595353",
  "name": "Galmed Pharmaceuticals Ltd.",
  "date": "2024-09-18",
- "asof": "2024-10-18",
+ "asof": "2024-09-18",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-10-18",
-  "adj_close": 30.4
+  "date": "2024-09-18",
+  "adj_close": 55.2
  },
  "balance": {
   "end": "2024-06-30",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2024-06-30",
-  "months": 5.9,
-  "per_month": -478799.3370165746
+  "ytd_months": 5.9,
+  "ytd": -2847000,
+  "accn": "0001493152-24-034198",
+  "ttm_per_month": -493500.0,
+  "quarter_per_month": null,
+  "per_month": -493500.0
  },
  "shares": {
   "end": "2023-12-31",
@@ -42,11 +47,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001493152-24-034198",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2024-06-20",
+  "to": "2024-10-18",
+  "trades": []
  },
  "drug": null,
  "trials": {

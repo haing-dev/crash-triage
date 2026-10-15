@@ -3,11 +3,12 @@
  "cik": "1698530",
  "name": "EXICURE, INC.",
  "date": "2024-12-03",
- "asof": "2025-01-02",
+ "asof": "2024-12-03",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-01-02",
-  "adj_close": 15.18
+  "date": "2024-12-03",
+  "adj_close": 14.0
  },
  "balance": {
   "end": "2024-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2024-09-30",
-  "months": 9.0,
-  "per_month": -230251.28205128206
+  "ytd_months": 9.0,
+  "ytd": -2065000,
+  "accn": "0001698530-24-000117",
+  "ttm_per_month": -240083.33333333334,
+  "quarter_per_month": -149666.66666666666,
+  "per_month": -240083.33333333334
  },
  "shares": {
   "end": "2024-11-07",
@@ -28,11 +33,29 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001698530-24-000117",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "Purchasers&#8221;) entered into on December 14, 2021, pursuant to which the Company offered to the Purchasers, in a registered direct offering priced at-the-market consistent with the rules of Nasdaq (the &#8220;Registered Direct Offering&#8221;), (i) an aggregate of 86,711 shares (the &#8220;Shares&#8221;) of the Company's common stock, $ 0.0001 par value per share, (ii) pre-funded warrants to pu"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 2,
+  "from": "2024-09-04",
+  "to": "2025-01-02",
+  "trades": [
+   {
+    "date": "2024-09-12",
+    "filed": "2024-09-16",
+    "code": "P",
+    "value": 711669,
+    "who": "DGP Co., Ltd."
+   }
+  ]
  },
  "drug": null,
  "trials": {

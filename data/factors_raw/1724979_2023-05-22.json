@@ -3,11 +3,12 @@
  "cik": "1724979",
  "name": "Rain Oncology Inc.",
  "date": "2023-05-22",
- "asof": "2023-06-21",
+ "asof": "2023-05-26",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-06-21",
-  "adj_close": 1.31
+  "date": "2023-05-26",
+  "adj_close": 1.1
  },
  "balance": {
   "end": "2023-03-31",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2023-03-31",
-  "months": 2.9,
-  "per_month": -7469428.764044944
+  "ytd_months": 2.9,
+  "ytd": -21839000,
+  "accn": "0001558370-23-009375",
+  "ttm_per_month": -5660666.666666667,
+  "quarter_per_month": -7279666.666666667,
+  "per_month": -5660666.666666667
  },
  "shares": {
   "end": "2023-05-04",
@@ -29,12 +34,91 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001558370-23-009375",
+  "guided_until": null,
+  "guidance": "sufficient to meet our obligations for at least the next twelve months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "lans and employee stock purchase plan &#8203; &#8203; 212 &#8203; &#8203; 399 Proceeds from issuance of common stock in connection with the Company's at-the-market facility &#8203; &#8203; 343 &#8203; &#8203; &#8212; Payments of issuance costs related to equity financings &#8203; &#8203; ( 89 ) &#8203; &#8203; &#8212; Net cash provided by financing activities &#8203; &#8203; 466 &#8203; &#8203; 39"
+ },
  "insiders": {
-  "form4s": 2,
-  "bought": 1158764,
-  "sold": 1243750,
-  "buyers": [
-   "TANG KEVIN C"
+  "form4s": 3,
+  "from": "2023-02-21",
+  "to": "2023-06-21",
+  "trades": [
+   {
+    "date": "2023-05-30",
+    "filed": "2023-06-01",
+    "code": "P",
+    "value": 365329,
+    "who": "TANG KEVIN C"
+   },
+   {
+    "date": "2023-05-30",
+    "filed": "2023-06-01",
+    "code": "P",
+    "value": 200000,
+    "who": "TANG KEVIN C"
+   },
+   {
+    "date": "2023-05-30",
+    "filed": "2023-06-01",
+    "code": "P",
+    "value": 34863,
+    "who": "TANG KEVIN C"
+   },
+   {
+    "date": "2023-05-30",
+    "filed": "2023-06-01",
+    "code": "P",
+    "value": 2177,
+    "who": "TANG KEVIN C"
+   },
+   {
+    "date": "2023-05-30",
+    "filed": "2023-06-01",
+    "code": "P",
+    "value": 6286,
+    "who": "TANG KEVIN C"
+   },
+   {
+    "date": "2023-05-31",
+    "filed": "2023-06-01",
+    "code": "P",
+    "value": 174074,
+    "who": "TANG KEVIN C"
+   },
+   {
+    "date": "2023-05-31",
+    "filed": "2023-06-01",
+    "code": "P",
+    "value": 5500,
+    "who": "TANG KEVIN C"
+   },
+   {
+    "date": "2023-06-01",
+    "filed": "2023-06-01",
+    "code": "P",
+    "value": 101353,
+    "who": "TANG KEVIN C"
+   },
+   {
+    "date": "2023-06-01",
+    "filed": "2023-06-01",
+    "code": "P",
+    "value": 269182,
+    "who": "TANG KEVIN C"
+   },
+   {
+    "date": "2023-05-22",
+    "filed": "2023-05-24",
+    "code": "S",
+    "value": 1243750,
+    "who": "Boxer Capital, LLC"
+   }
   ]
  },
  "drug": null,

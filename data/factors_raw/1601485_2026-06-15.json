@@ -3,11 +3,12 @@
  "cik": "1601485",
  "name": "Elicio Therapeutics, Inc.",
  "date": "2026-06-15",
- "asof": "2026-07-15",
+ "asof": "2026-06-16",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-07-15",
-  "adj_close": 3.04
+  "date": "2026-06-16",
+  "adj_close": 2.76
  },
  "balance": {
   "end": "2026-03-31",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2026-03-31",
-  "months": 2.9,
-  "per_month": -3982851.6853932585
+  "ytd_months": 2.9,
+  "ytd": -11645000,
+  "accn": "0001601485-26-000042",
+  "ttm_per_month": -3206500.0,
+  "quarter_per_month": -3881666.6666666665,
+  "per_month": -3206500.0
  },
  "shares": {
   "end": "2026-05-08",
@@ -28,13 +33,23 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001601485-26-000042",
+  "guided_until": "2026-10-15",
+  "guidance": "e our cash and cash equivalents will be sufficient to fund our planned operations into the fourth quarter of 2026. How",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "Amount Balance as of December 31, 2025 17,814,762 $ 178 ( 14,455 ) $ ( 150 ) $ 235,407 $ ( 127 ) $ ( 233,672 ) $ 1,636 Issuance of common stock from at-the-market offering, net of issuance costs of $ 0.2 million 819,157 8 &#8212; &#8212; 7,769 &#8212; &#8212; 7,777 Issuance of common stock upon exercise of options 20,431 &#8212; &#8212; &#8212; 100 &#8212; &#8212; 100 Stock-based compensation &#82"
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2026-03-17",
+  "to": "2026-07-15",
+  "trades": []
  },
- "drug": null,
+ "drug": "ELI-002 7P",
  "trials": {
   "query": "elicio therapeutics",
   "other_trials": 0,

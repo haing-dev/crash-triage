@@ -3,11 +3,12 @@
  "cik": "1293971",
  "name": "bluebird bio, Inc.",
  "date": "2023-12-20",
- "asof": "2024-01-19",
+ "asof": "2023-12-20",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-01-19",
-  "adj_close": 25.3
+  "date": "2023-12-20",
+  "adj_close": 26.4
  },
  "balance": {
   "end": "2023-09-30",
@@ -22,8 +23,12 @@
  },
  "burn": {
   "end": "2023-09-30",
-  "months": 8.9,
-  "per_month": -24755889.55882353
+  "ytd_months": 8.9,
+  "ytd": -221209000,
+  "accn": "0001293971-23-000055",
+  "ttm_per_month": -23123500.0,
+  "quarter_per_month": -20615333.333333332,
+  "per_month": -23123500.0
  },
  "shares": {
   "end": "2023-11-03",
@@ -36,11 +41,57 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001293971-23-000055",
+  "guided_until": "2024-04-15",
+  "guidance": "ted cash flows from operations, will be sufficient to fund our operations into the second quarter of 2024. We",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "en public offering at a price of $6.00 per share for aggregate net proceeds of $130.5 million. &#8226; In August 2023, we entered into an Open Market Sales Agreement (the \"Sales Agreement\") with Jefferies LLC (\"Jefferies\") to sell shares of our common stock up to $125.0 million, from time to time, through an &#8220;at the market&#8221; equity offering program under which Jefferies will act as sale"
+ },
  "insiders": {
-  "form4s": 2,
-  "bought": 0,
-  "sold": 5365,
-  "buyers": []
+  "form4s": 5,
+  "from": "2023-09-21",
+  "to": "2024-01-19",
+  "trades": [
+   {
+    "date": "2024-01-05",
+    "filed": "2024-01-09",
+    "code": "S",
+    "value": 4520,
+    "who": "Obenshain Andrew"
+   },
+   {
+    "date": "2024-01-05",
+    "filed": "2024-01-09",
+    "code": "S",
+    "value": 845,
+    "who": "Colvin Richard A"
+   },
+   {
+    "date": "2023-12-06",
+    "filed": "2023-12-08",
+    "code": "S",
+    "value": 20437,
+    "who": "Krawtschuk Christopher"
+   },
+   {
+    "date": "2023-11-03",
+    "filed": "2023-11-03",
+    "code": "S",
+    "value": 2555,
+    "who": "Obenshain Andrew"
+   },
+   {
+    "date": "2023-11-02",
+    "filed": "2023-11-03",
+    "code": "S",
+    "value": 6975,
+    "who": "Colvin Richard A"
+   }
+  ]
  },
  "drug": null,
  "trials": {

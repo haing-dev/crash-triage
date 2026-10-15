@@ -3,36 +3,51 @@
  "cik": "1513818",
  "name": "Aravive, Inc.",
  "date": "2023-08-03",
- "asof": "2023-09-02",
+ "asof": "2023-08-04",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-09-05",
-  "adj_close": 0.1518
+  "date": "2023-08-04",
+  "adj_close": 0.253
  },
  "balance": {
-  "end": "2023-06-30",
-  "cash": 18359000,
+  "end": "2023-03-31",
+  "cash": 35924000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001437749-23-024285"
+  "accn": "0001437749-23-013588"
  },
  "burn": {
-  "end": "2023-06-30",
-  "months": 5.9,
-  "per_month": -5987886.222222222
+  "end": "2023-03-31",
+  "ytd_months": 2.9,
+  "ytd": -17752000,
+  "accn": "0001437749-23-013588",
+  "ttm_per_month": -5828416.666666667,
+  "quarter_per_month": -5917333.333333333,
+  "per_month": -5828416.666666667
  },
  "shares": {
-  "end": "2023-08-17",
-  "shares": 73562648,
+  "end": "2023-05-05",
+  "shares": 59844850,
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001437749-23-013588",
+  "guided_until": "2023-10-15",
+  "guidance": "rrent cash and cash equivalents will be sufficient to fund our current planned operations into the fourth quarter of 2023 but",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "mmon stock warrants in registered direct offering, net of issuance costs of $ 706 3,185,216 &#x2014; 9,291 &#x2014; 9,291 Issuance of common stock in at the market offering, net of issuance costs of $ 3 54,763 &#x2014; 123 &#x2014; 123 Stock-based compensation &#x2014; &#x2014; 620 &#x2014; 620 Net loss &#x2014; &#x2014; &#x2014; ( 13,057 ) ( 13,057 ) Balances at March 31, 2022 24,279,573 $ 2 $ 59"
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2023-05-05",
+  "to": "2023-09-02",
+  "trades": []
  },
  "drug": null,
  "trials": {

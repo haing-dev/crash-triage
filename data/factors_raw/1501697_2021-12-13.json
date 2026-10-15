@@ -3,11 +3,12 @@
  "cik": "1501697",
  "name": "X4 Pharmaceuticals, Inc",
  "date": "2021-12-13",
- "asof": "2022-01-12",
+ "asof": "2021-12-14",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-01-12",
-  "adj_close": 65.099998
+  "date": "2021-12-14",
+  "adj_close": 57.0
  },
  "balance": {
   "end": "2021-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2021-09-30",
-  "months": 8.9,
-  "per_month": -5802848.823529412
+  "ytd_months": 8.9,
+  "ytd": -51852000,
+  "accn": "0001628280-21-021795",
+  "ttm_per_month": -5779666.666666667,
+  "quarter_per_month": -4737000.0,
+  "per_month": -5779666.666666667
  },
  "shares": {
   "end": "2021-10-29",
@@ -33,11 +38,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001628280-21-021795",
+  "guided_until": "2022-10-15",
+  "guidance": "sting cash and cash equivalents will be sufficient to fund its operating expense and capital expenditure requirements into the fourth quarter of 2022. How",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "oan and security agreement (the &#8220;Hercules Loan Agreement&#8221;) with Hercules. In August 2020, we entered into a Controlled Equity Offering SM Sales Agreement, (the &#8220;ATM Sales Agreement&#8221;), with B. Riley Securities, Inc., Cantor Fitzgerald &amp; Co., and Stifel, Nicolaus &amp; Company, Incorporated, (collectively, the &#8220;Sales Agents&#8221;), pursuant to which we may offer an"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 1,
+  "from": "2021-09-14",
+  "to": "2022-01-12",
+  "trades": []
  },
  "drug": null,
  "trials": {

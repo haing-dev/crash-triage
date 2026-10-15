@@ -3,11 +3,12 @@
  "cik": "1726711",
  "name": "Aditxt, Inc.",
  "date": "2022-09-16",
- "asof": "2022-10-16",
+ "asof": "2022-09-20",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-10-17",
-  "adj_close": 28703800000.0
+  "date": "2022-09-20",
+  "adj_close": 40907800000.0
  },
  "balance": {
   "end": "2022-06-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2022-06-30",
-  "months": 5.9,
-  "per_month": -1328131.5295555557
+  "ytd_months": 5.9,
+  "ytd": -7853603,
+  "accn": "0001213900-22-048035",
+  "ttm_per_month": -1755900.8333333333,
+  "quarter_per_month": -884766.3333333334,
+  "per_month": -1755900.8333333333
  },
  "shares": {
   "end": "2022-08-14",
@@ -61,11 +66,29 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001213900-22-048035",
+  "guided_until": null,
+  "guidance": "sufficient to fund our operations for the next 12 months",
+  "twelve_months": true,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 1,
+  "from": "2022-06-18",
+  "to": "2022-10-16",
+  "trades": [
+   {
+    "date": "2022-07-19",
+    "filed": "2022-07-21",
+    "code": "P",
+    "value": 20000,
+    "who": "Albanna Amro A."
+   }
+  ]
  },
  "drug": null,
  "trials": {

@@ -3,28 +3,33 @@
  "cik": "1580149",
  "name": "BIOVIE INC.",
  "date": "2025-08-07",
- "asof": "2025-09-06",
+ "asof": "2025-08-08",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-09-08",
-  "adj_close": 1.8
+  "date": "2025-08-08",
+  "adj_close": 1.67
  },
  "balance": {
-  "end": "2025-06-30",
-  "cash": 17544547,
+  "end": "2025-03-31",
+  "cash": 23152014,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001520138-25-000268"
+  "accn": "0001520138-25-000144"
  },
  "burn": {
-  "end": "2025-06-30",
-  "months": 12.0,
-  "per_month": -1591008.9016483517
+  "end": "2025-03-31",
+  "ytd_months": 9.0,
+  "ytd": -13417738,
+  "accn": "0001520138-25-000144",
+  "ttm_per_month": -1452023.0833333333,
+  "quarter_per_month": -417834.3333333333,
+  "per_month": -1452023.0833333333
  },
  "shares": {
-  "end": "2025-08-15",
-  "shares": 7534225,
+  "end": "2025-05-05",
+  "shares": 18562376,
   "split_factor": 10.0,
   "splits_after": [
    [
@@ -33,12 +38,28 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001520138-25-000144",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "d two concurrent private placements of warrants to purchase up to 7,110,000 shares of Common Stock (the &#8220;October Common Warrants&#8221;) priced at-the-market under Nasdaq rules at prices ranging from $ 1.50 to $ 2.83 per share (the &#8220;October Offerings&#8221;) . The October Common Warrants have exercise prices ranging from $ 1.37 to $ 2.12 per share and are exercisable beginning six mont"
+ },
  "insiders": {
   "form4s": 1,
-  "bought": 0,
-  "sold": 0,
-  "buyers": [
-   "DO CUONG V"
+  "from": "2025-05-09",
+  "to": "2025-09-06",
+  "trades": [
+   {
+    "date": "2025-08-07",
+    "filed": "2025-08-13",
+    "code": "P",
+    "value": 0,
+    "who": "DO CUONG V"
+   }
   ]
  },
  "drug": null,

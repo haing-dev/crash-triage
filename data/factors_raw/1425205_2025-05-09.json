@@ -3,11 +3,12 @@
  "cik": "1425205",
  "name": "IOVANCE BIOTHERAPEUTICS, INC.",
  "date": "2025-05-09",
- "asof": "2025-06-08",
+ "asof": "2025-05-09",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-06-09",
-  "adj_close": 2.21
+  "date": "2025-05-09",
+  "adj_close": 1.75
  },
  "balance": {
   "end": "2025-03-31",
@@ -21,8 +22,12 @@
  },
  "burn": {
   "end": "2025-03-31",
-  "months": 2.9,
-  "per_month": -35465678.202247195
+  "ytd_months": 2.9,
+  "ytd": -103694000,
+  "accn": "0001558370-25-007009",
+  "ttm_per_month": -27866000.0,
+  "quarter_per_month": -34564666.666666664,
+  "per_month": -27866000.0
  },
  "shares": {
   "end": "2025-04-30",
@@ -30,14 +35,42 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001558370-25-007009",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "#8203; 2,586 &#8203; &#8203; &#8212; &#8203; &#8203; 15 &#8203; &#8203; &#8212; &#8203; &#8203; &#8212; &#8203; 15 Common stock sold in public and/or at the market offering, net of offering costs &#8203; &#8212; &#8203; &#8203; &#8212; &#8203; &#8212; &#8203; &#8203; &#8212; &#8203; 25,599,389 &#8203; &#8203; 1 &#8203; &#8203; 148,941 &#8203; &#8203; &#8212; &#8203; &#8203; &#8212; &#8203; &#8203;"
+ },
  "insiders": {
-  "form4s": 8,
-  "bought": 107193,
-  "sold": 0,
-  "buyers": [
-   "Kirby Daniel Gordon",
-   "Puri Raj K.",
-   "Vogt Frederick G"
+  "form4s": 20,
+  "from": "2025-02-08",
+  "to": "2025-06-08",
+  "trades": [
+   {
+    "date": "2025-06-05",
+    "filed": "2025-06-06",
+    "code": "P",
+    "value": 55200,
+    "who": "Kirby Daniel Gordon"
+   },
+   {
+    "date": "2025-05-23",
+    "filed": "2025-05-27",
+    "code": "P",
+    "value": 9743,
+    "who": "Puri Raj K."
+   },
+   {
+    "date": "2025-05-14",
+    "filed": "2025-05-16",
+    "code": "P",
+    "value": 42250,
+    "who": "Vogt Frederick G"
+   }
   ]
  },
  "drug": null,

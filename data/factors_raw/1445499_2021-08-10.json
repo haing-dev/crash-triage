@@ -3,11 +3,12 @@
  "cik": "1445499",
  "name": "IPI Legacy Liquidation Co",
  "date": "2021-08-10",
- "asof": "2021-09-09",
+ "asof": "2021-08-16",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2021-09-09",
-  "adj_close": 21.13
+  "date": "2021-08-16",
+  "adj_close": 12.55
  },
  "balance": {
   "end": "2021-06-30",
@@ -19,7 +20,11 @@
  },
  "burn": {
   "end": "2021-06-30",
-  "months": 5.9,
+  "ytd_months": 5.9,
+  "ytd": -25944000,
+  "accn": "0000950170-21-001473",
+  "ttm_per_month": null,
+  "quarter_per_month": -5344666.666666667,
   "per_month": -4387418.666666667
  },
  "shares": {
@@ -28,12 +33,42 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0000950170-21-001473",
+  "guided_until": null,
+  "guidance": "sufficient to fund our projected operating requirements for at least the next twelve months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 1,
-  "bought": 279790,
-  "sold": 0,
-  "buyers": [
-   "ADAMS ADRIAN"
+  "form4s": 11,
+  "from": "2021-05-12",
+  "to": "2021-09-09",
+  "trades": [
+   {
+    "date": "2021-08-18",
+    "filed": "2021-08-19",
+    "code": "P",
+    "value": 237506,
+    "who": "ADAMS ADRIAN"
+   },
+   {
+    "date": "2021-08-18",
+    "filed": "2021-08-19",
+    "code": "P",
+    "value": 32751,
+    "who": "ADAMS ADRIAN"
+   },
+   {
+    "date": "2021-08-18",
+    "filed": "2021-08-19",
+    "code": "P",
+    "value": 9532,
+    "who": "ADAMS ADRIAN"
+   }
   ]
  },
  "drug": null,

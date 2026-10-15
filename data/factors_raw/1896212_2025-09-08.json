@@ -3,11 +3,12 @@
  "cik": "1896212",
  "name": "CDT Equity Inc.",
  "date": "2025-09-08",
- "asof": "2025-10-08",
+ "asof": "2025-09-09",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-10-08",
-  "adj_close": 36850.0
+  "date": "2025-09-09",
+  "adj_close": 31250.0
  },
  "balance": {
   "end": "2025-06-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2025-06-30",
-  "months": 5.9,
-  "per_month": -1100744.2222222222
+  "ytd_months": 5.9,
+  "ytd": -6509000,
+  "accn": "0001641172-25-024140",
+  "ttm_per_month": -1026750.0,
+  "quarter_per_month": -860000.0,
+  "per_month": -1026750.0
  },
  "shares": {
   "end": "2025-08-14",
@@ -45,11 +50,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001641172-25-024140",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "634,137 $ - $ - $ 36,588 $ ( 33,854 ) $ 346 $ 3,080 Issuance of Common Stock for services 258,096 - - 740 - - 740 Issuance of Common Stock under the ATM Program 1,183,221 - - 3,887 - - 3,887 Issuance of Common Stock upon exercise of conversion option 329,692 - - 1,873 - - 1,873 Stock-based compensation - - - 160 - - 160 Share Repurchases - - ( 106 ) - - - ( 106 ) Foreign currency translation adjus"
+ },
  "insiders": {
-  "form4s": 2,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 6,
+  "from": "2025-06-10",
+  "to": "2025-10-08",
+  "trades": []
  },
  "drug": null,
  "trials": {

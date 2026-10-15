@@ -3,11 +3,12 @@
  "cik": "1358762",
  "name": "REATA PHARMACEUTICALS INC",
  "date": "2021-12-09",
- "asof": "2022-01-08",
+ "asof": "2021-12-09",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-01-10",
-  "adj_close": 28.38
+  "date": "2021-12-09",
+  "adj_close": 29.11
  },
  "balance": {
   "end": "2021-09-30",
@@ -19,16 +20,36 @@
  },
  "burn": {
   "end": "2021-09-30",
-  "months": 8.9,
-  "per_month": -12620177.794117646
+  "ytd_months": 8.9,
+  "ytd": -112769000,
+  "accn": "0001564590-21-055047",
+  "ttm_per_month": -13159083.333333334,
+  "quarter_per_month": -14052666.666666666,
+  "per_month": -13159083.333333334
  },
  "shares": null,
+ "filing": {
+  "accn": "0001564590-21-055047",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
   "form4s": 10,
-  "bought": 419565,
-  "sold": 0,
-  "buyers": [
-   "Soni Manmeet Singh"
+  "from": "2021-09-10",
+  "to": "2022-01-08",
+  "trades": [
+   {
+    "date": "2021-12-31",
+    "filed": "2022-01-04",
+    "code": "P",
+    "value": 419565,
+    "who": "Soni Manmeet Singh"
+   }
   ]
  },
  "drug": null,

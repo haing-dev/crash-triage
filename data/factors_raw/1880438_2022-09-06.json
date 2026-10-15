@@ -3,11 +3,12 @@
  "cik": "1880438",
  "name": "AN2 Therapeutics, Inc.",
  "date": "2022-09-06",
- "asof": "2022-10-06",
+ "asof": "2022-09-08",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-10-06",
-  "adj_close": 18.11
+  "date": "2022-09-08",
+  "adj_close": 8.37
  },
  "balance": {
   "end": "2022-06-30",
@@ -21,7 +22,11 @@
  },
  "burn": {
   "end": "2022-06-30",
-  "months": 5.9,
+  "ytd_months": 5.9,
+  "ytd": -16337000,
+  "accn": "0000950170-22-016900",
+  "ttm_per_month": null,
+  "quarter_per_month": -3198333.3333333335,
   "per_month": -2762768.2222222225
  },
  "shares": {
@@ -30,11 +35,71 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0000950170-22-016900",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 6,
+  "from": "2022-06-08",
+  "to": "2022-10-06",
+  "trades": [
+   {
+    "date": "2022-08-03",
+    "filed": "2022-08-05",
+    "code": "P",
+    "value": 13531,
+    "who": "RA CAPITAL MANAGEMENT, L.P."
+   },
+   {
+    "date": "2022-08-04",
+    "filed": "2022-08-05",
+    "code": "P",
+    "value": 799,
+    "who": "RA CAPITAL MANAGEMENT, L.P."
+   },
+   {
+    "date": "2022-07-26",
+    "filed": "2022-07-28",
+    "code": "P",
+    "value": 115172,
+    "who": "RA CAPITAL MANAGEMENT, L.P."
+   },
+   {
+    "date": "2022-07-27",
+    "filed": "2022-07-28",
+    "code": "P",
+    "value": 65503,
+    "who": "RA CAPITAL MANAGEMENT, L.P."
+   },
+   {
+    "date": "2022-06-21",
+    "filed": "2022-06-23",
+    "code": "P",
+    "value": 2413,
+    "who": "RA CAPITAL MANAGEMENT, L.P."
+   },
+   {
+    "date": "2022-06-13",
+    "filed": "2022-06-15",
+    "code": "P",
+    "value": 158000,
+    "who": "RA CAPITAL MANAGEMENT, L.P."
+   },
+   {
+    "date": "2022-06-14",
+    "filed": "2022-06-15",
+    "code": "P",
+    "value": 489402,
+    "who": "RA CAPITAL MANAGEMENT, L.P."
+   }
+  ]
  },
  "drug": null,
  "trials": {

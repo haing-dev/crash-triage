@@ -3,11 +3,12 @@
  "cik": "1726711",
  "name": "Aditxt, Inc.",
  "date": "2025-12-15",
- "asof": "2026-01-14",
+ "asof": "2025-12-15",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-01-14",
-  "adj_close": 157.68
+  "date": "2025-12-15",
+  "adj_close": 311.04
  },
  "balance": {
   "end": "2025-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2025-09-30",
-  "months": 8.9,
-  "per_month": -1840130.0067647058
+  "ytd_months": 8.9,
+  "ytd": -16442686,
+  "accn": "0001213900-25-111638",
+  "ttm_per_month": -1882473.0,
+  "quarter_per_month": -781518.0,
+  "per_month": -1882473.0
  },
  "shares": {
   "end": "2025-11-17",
@@ -37,13 +42,38 @@
    ]
   ]
  },
- "insiders": {
-  "form4s": 1,
-  "bought": 0,
-  "sold": 2,
-  "buyers": []
+ "filing": {
+  "accn": "0001213900-25-111638",
+  "guided_until": null,
+  "guidance": "sufficient to fund our operations for the next 12 months",
+  "twelve_months": true,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "ant to which we may issue and sell up to $150 million of our common stock, which could result in significant dilution &#9679; we have entered into an At The Market Offering Agreement with H.C. Wainwright &amp; Co., LLC pursuant to which we may issue and sell up to $35 million of our common stock, which could result in significant dilution &#9679; our ability to remain compliant with the requiremen"
  },
- "drug": null,
+ "insiders": {
+  "form4s": 2,
+  "from": "2025-09-16",
+  "to": "2026-01-14",
+  "trades": [
+   {
+    "date": "2025-12-17",
+    "filed": "2025-12-19",
+    "code": "S",
+    "value": 2,
+    "who": "Brady Brian Michael"
+   },
+   {
+    "date": "2025-11-25",
+    "filed": "2025-11-26",
+    "code": "S",
+    "value": 3,
+    "who": "Pankovcin Corinne"
+   }
+  ]
+ },
+ "drug": "n/a",
  "trials": {
   "query": "aditxt",
   "other_trials": 0,

@@ -3,11 +3,12 @@
  "cik": "1514183",
  "name": "Silo Pharma, Inc.",
  "date": "2025-05-15",
- "asof": "2025-06-14",
+ "asof": "2025-05-16",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-06-16",
-  "adj_close": 8.7
+  "date": "2025-05-16",
+  "adj_close": 7.245
  },
  "balance": {
   "end": "2025-03-31",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2025-03-31",
-  "months": 2.9,
-  "per_month": -561019.4606741574
+  "ytd_months": 2.9,
+  "ytd": -1640300,
+  "accn": "0001213900-25-041519",
+  "ttm_per_month": -386336.25,
+  "quarter_per_month": -546766.6666666666,
+  "per_month": -386336.25
  },
  "shares": {
   "end": "2025-05-08",
@@ -34,12 +39,28 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001213900-25-041519",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
   "form4s": 6,
-  "bought": 4329,
-  "sold": 0,
-  "buyers": [
-   "Weisblum Eric"
+  "from": "2025-02-14",
+  "to": "2025-06-14",
+  "trades": [
+   {
+    "date": "2025-05-27",
+    "filed": "2025-05-28",
+    "code": "P",
+    "value": 4329,
+    "who": "Weisblum Eric"
+   }
   ]
  },
  "drug": null,

@@ -3,11 +3,12 @@
  "cik": "1401395",
  "name": "Neptune Wellness Solutions Inc.",
  "date": "2023-09-22",
- "asof": "2023-10-22",
+ "asof": "2023-09-22",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-10-23",
-  "adj_close": 0.76
+  "date": "2023-09-22",
+  "adj_close": 1.61
  },
  "balance": {
   "end": "2023-06-30",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2023-06-30",
-  "months": 3.0,
-  "per_month": -1791873.5991111111
+  "ytd_months": 3.0,
+  "ytd": -5297918,
+  "accn": "0000950170-23-046512",
+  "ttm_per_month": -2292982.3333333335,
+  "quarter_per_month": -1765972.6666666667,
+  "per_month": -2292982.3333333335
  },
  "shares": {
   "end": "2023-09-01",
@@ -34,11 +39,29 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0000950170-23-046512",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "pre-consolidation Common Shares (the &#34;Share Consolidation&#34;). The post-consolidation Common Shares commenced trading on the NASDAQ and the TSX at the market open on June 13, 2022. The Share Consolidation reduced the number of Common Shares issued and outstanding from approximately 198 million Common Shares to approximately 5.7 million Common Shares as at June 13, 2022. These consolidated fi"
+ },
  "insiders": {
   "form4s": 1,
-  "bought": 0,
-  "sold": 68840,
-  "buyers": []
+  "from": "2023-06-24",
+  "to": "2023-10-22",
+  "trades": [
+   {
+    "date": "2023-10-17",
+    "filed": "2023-10-19",
+    "code": "S",
+    "value": 68840,
+    "who": "Neptune Securities Settlement Fund"
+   }
+  ]
  },
  "drug": null,
  "trials": {

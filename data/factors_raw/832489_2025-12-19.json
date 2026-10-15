@@ -3,11 +3,12 @@
  "cik": "832489",
  "name": "GeoVax Labs, Inc.",
  "date": "2025-12-19",
- "asof": "2026-01-18",
+ "asof": "2025-12-19",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-01-20",
-  "adj_close": 2.79
+  "date": "2025-12-19",
+  "adj_close": 3.975
  },
  "balance": {
   "end": "2025-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2025-09-30",
-  "months": 8.9,
-  "per_month": -1847908.6577941177
+  "ytd_months": 8.9,
+  "ytd": -16512193,
+  "accn": "0001437749-25-034811",
+  "ttm_per_month": -2022145.25,
+  "quarter_per_month": -2070705.0,
+  "per_month": -2022145.25
  },
  "shares": {
   "end": "2025-11-13",
@@ -33,13 +38,31 @@
    ]
   ]
  },
- "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+ "filing": {
+  "accn": "0001437749-25-034811",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "issions and other offering expenses were approximately $ 4.1 million. The pre-funded warrants were fully exercised during the second quarter of 2025. ATM Program . On September 25, 2024, we entered into a Sales Agreement and established an &#8220;At-the-Market&#8221; continuous offering program (the &#8220;ATM Program&#8221;), pursuant to which the Company may offer and sell, from time to time thr"
  },
- "drug": null,
+ "insiders": {
+  "form4s": 1,
+  "from": "2025-09-20",
+  "to": "2026-01-18",
+  "trades": [
+   {
+    "date": "2025-10-17",
+    "filed": "2025-10-20",
+    "code": "P",
+    "value": 5498,
+    "who": "SPENCER JOHN N JR"
+   }
+  ]
+ },
+ "drug": "n/a",
  "trials": {
   "query": "geovax labs",
   "other_trials": 0,

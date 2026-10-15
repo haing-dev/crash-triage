@@ -3,28 +3,33 @@
  "cik": "1829635",
  "name": "Transcode Therapeutics, Inc.",
  "date": "2025-03-24",
- "asof": "2025-04-23",
+ "asof": "2025-03-28",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-04-23",
-  "adj_close": 8.792
+  "date": "2025-03-28",
+  "adj_close": 13.72
  },
  "balance": {
-  "end": "2024-12-31",
-  "cash": 5811064,
+  "end": "2024-09-30",
+  "cash": 1875862,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001558370-25-004843"
+  "accn": "0001558370-24-015731"
  },
  "burn": {
-  "end": "2024-12-31",
-  "months": 12.0,
-  "per_month": -1112181.4429589042
+  "end": "2024-09-30",
+  "ytd_months": 9.0,
+  "ytd": -10189610,
+  "accn": "0001558370-24-015731",
+  "ttm_per_month": -1321091.5833333333,
+  "quarter_per_month": -1304205.0,
+  "per_month": -1321091.5833333333
  },
  "shares": {
-  "end": "2025-04-11",
-  "shares": 23341336,
+  "end": "2024-11-04",
+  "shares": 17265658,
   "split_factor": 26203.34,
   "splits_after": [
    [
@@ -37,11 +42,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001558370-24-015731",
+  "guided_until": "2024-12-15",
+  "guidance": "on. We believe that these funds will be sufficient to fund our operating expenses and capital expenditure requirements into late 2024. We",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "vised accounting pronouncements as of effective dates applicable to public companies. We are also a &#8220;smaller reporting company&#8221; meaning that the market value of our stock held by non-affiliates plus the proposed aggregate amount of gross proceeds to us as a result of our initial public offering is less than $700 million and our annual revenue was less than $100 million during the most "
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2024-12-24",
+  "to": "2025-04-23",
+  "trades": []
  },
  "drug": null,
  "trials": {

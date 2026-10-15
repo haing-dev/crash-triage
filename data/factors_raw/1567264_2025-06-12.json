@@ -3,11 +3,12 @@
  "cik": "1567264",
  "name": "INTENSITY THERAPEUTICS, INC.",
  "date": "2025-06-12",
- "asof": "2025-07-12",
+ "asof": "2025-06-17",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-07-14",
-  "adj_close": 8.375
+  "date": "2025-06-17",
+  "adj_close": 7.15
  },
  "balance": {
   "end": "2025-03-31",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2025-03-31",
-  "months": 2.9,
-  "per_month": -680282.6966292135
+  "ytd_months": 2.9,
+  "ytd": -1989000,
+  "accn": "0001567264-25-000039",
+  "ttm_per_month": -1070250.0,
+  "quarter_per_month": -663000.0,
+  "per_month": -1070250.0
  },
  "shares": {
   "end": "2025-05-12",
@@ -33,11 +38,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001567264-25-000039",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "ted Deficit Stockholders' Equity Shares Amount Balances at December 31, 2024 15,122,873 $ 2 $ 69,699 $ ( 66,783 ) $ 2,918 Issuance of common stock in ATM offering, net of $ 17 issuance costs 141,996 - 328 - 328 Stock-based compensation expense - - 435 - 435 Net loss - - - ( 3,347 ) ( 3,347 ) Balances at March 31, 2025 15,264,869 $ 2 $ 70,462 $ ( 70,130 ) $ 334 Common Stock Additional Paid in Capit"
+ },
  "insiders": {
-  "form4s": 2,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 10,
+  "from": "2025-03-14",
+  "to": "2025-07-12",
+  "trades": []
  },
  "drug": null,
  "trials": {

@@ -3,24 +3,29 @@
  "cik": "1585608",
  "name": "Jaguar Health, Inc.",
  "date": "2026-04-27",
- "asof": "2026-05-27",
+ "asof": "2026-05-01",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-05-27",
-  "adj_close": 47.85
+  "date": "2026-05-01",
+  "adj_close": 100.35
  },
  "balance": {
-  "end": "2026-03-31",
-  "cash": 7278000,
+  "end": "2025-12-31",
+  "cash": 968000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001193125-26-232560"
+  "accn": "0001193125-26-144470"
  },
  "burn": {
-  "end": "2026-03-31",
-  "months": 2.9,
-  "per_month": 3020058.4269662923
+  "end": "2025-12-31",
+  "ytd_months": 12.0,
+  "ytd": -23686000,
+  "accn": "0001193125-26-144470",
+  "ttm_per_month": -1973833.3333333333,
+  "quarter_per_month": -1829333.3333333333,
+  "per_month": -1973833.3333333333
  },
  "shares": {
   "end": "2018-05-15",
@@ -73,13 +78,23 @@
    ]
   ]
  },
- "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+ "filing": {
+  "accn": "0001193125-26-144470",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "al products. Review of the market exclusivity period Article 8(2) of the Orphan Regulation establishes the possibility for Member States to request that the market exclusivity be reduced from ten to six years under certain circumstances. Expiry of market exclusivity When the period of market exclusivity for an indication ends, the orphan designation for that indication expires, and the European Co"
  },
- "drug": null,
+ "insiders": {
+  "form4s": 1,
+  "from": "2026-01-27",
+  "to": "2026-05-27",
+  "trades": []
+ },
+ "drug": "n/a",
  "trials": {
   "query": "jaguar health",
   "other_trials": 0,

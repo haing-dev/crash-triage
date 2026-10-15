@@ -3,30 +3,35 @@
  "cik": "1346830",
  "name": "Tvardi Therapeutics, Inc.",
  "date": "2021-04-29",
- "asof": "2021-05-29",
+ "asof": "2021-04-30",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2021-06-01",
-  "adj_close": 477.72
+  "date": "2021-04-30",
+  "adj_close": 466.20001
  },
  "balance": {
-  "end": "2021-03-31",
-  "cash": 228310000,
+  "end": "2020-12-31",
+  "cash": 251490000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue",
    "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
    "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
   ],
-  "accn": "0001558370-21-006674"
+  "accn": "0001558370-21-001839"
  },
  "burn": {
-  "end": "2021-03-31",
-  "months": 2.9,
-  "per_month": -8113115.056179776
+  "end": "2020-12-31",
+  "ytd_months": 12.0,
+  "ytd": -5487000,
+  "accn": "0001558370-21-001839",
+  "ttm_per_month": -457250.0,
+  "quarter_per_month": 27362666.666666668,
+  "per_month": -457250.0
  },
  "shares": {
-  "end": "2021-05-06",
-  "shares": 50052011,
+  "end": "2021-02-22",
+  "shares": 49876763,
   "split_factor": 9181.827,
   "splits_after": [
    [
@@ -43,11 +48,99 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001558370-21-001839",
+  "guided_until": "2023-01-15",
+  "guidance": "-for-sale marketable securities will be sufficient to fund our currently anticipated operating expenses and capital expenditures into 2023, wit",
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 15,
+  "from": "2021-01-29",
+  "to": "2021-05-29",
+  "trades": [
+   {
+    "date": "2021-04-21",
+    "filed": "2021-04-23",
+    "code": "S",
+    "value": 82890,
+    "who": "Goncalves Joana"
+   },
+   {
+    "date": "2021-03-22",
+    "filed": "2021-03-24",
+    "code": "S",
+    "value": 58950,
+    "who": "Goncalves Joana"
+   },
+   {
+    "date": "2021-03-05",
+    "filed": "2021-03-08",
+    "code": "S",
+    "value": 60377,
+    "who": "Menzaghi Frederique Ph.D."
+   },
+   {
+    "date": "2021-03-05",
+    "filed": "2021-03-08",
+    "code": "S",
+    "value": 55558,
+    "who": "Terrillion Scott"
+   },
+   {
+    "date": "2021-03-05",
+    "filed": "2021-03-08",
+    "code": "S",
+    "value": 55612,
+    "who": "Goncalves Joana"
+   },
+   {
+    "date": "2021-03-05",
+    "filed": "2021-03-08",
+    "code": "S",
+    "value": 55792,
+    "who": "CHALMERS DEREK T"
+   },
+   {
+    "date": "2021-02-25",
+    "filed": "2021-02-25",
+    "code": "S",
+    "value": 77397,
+    "who": "Terrillion Scott"
+   },
+   {
+    "date": "2021-02-25",
+    "filed": "2021-02-25",
+    "code": "S",
+    "value": 96708,
+    "who": "Menzaghi Frederique Ph.D."
+   },
+   {
+    "date": "2021-02-25",
+    "filed": "2021-02-25",
+    "code": "S",
+    "value": 65181,
+    "who": "Goncalves Joana"
+   },
+   {
+    "date": "2021-02-25",
+    "filed": "2021-02-25",
+    "code": "S",
+    "value": 226722,
+    "who": "CHALMERS DEREK T"
+   },
+   {
+    "date": "2021-02-22",
+    "filed": "2021-02-24",
+    "code": "S",
+    "value": 39460,
+    "who": "Goncalves Joana"
+   }
+  ]
  },
  "drug": null,
  "trials": {

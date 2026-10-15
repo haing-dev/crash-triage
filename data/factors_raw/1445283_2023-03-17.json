@@ -3,28 +3,33 @@
  "cik": "1445283",
  "name": "KINETA, INC./DE",
  "date": "2023-03-17",
- "asof": "2023-04-16",
+ "asof": "2023-03-20",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-04-17",
-  "adj_close": 4.3
+  "date": "2023-03-20",
+  "adj_close": 3.01
  },
  "balance": {
-  "end": "2022-12-31",
-  "cash": 13268000,
+  "end": "2022-09-30",
+  "cash": 8416000,
   "parts": [
-   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+   "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0000950170-23-011364"
+  "accn": "0000950170-22-024749"
  },
  "burn": {
-  "end": "2022-12-31",
-  "months": 12.0,
-  "per_month": -1591326.2637362638
+  "end": "2022-09-30",
+  "ytd_months": 8.9,
+  "ytd": -16798000,
+  "accn": "0000950170-22-024749",
+  "ttm_per_month": -2127916.6666666665,
+  "quarter_per_month": -1226666.6666666667,
+  "per_month": -2127916.6666666665
  },
  "shares": {
-  "end": "2023-03-28",
-  "shares": 8501366,
+  "end": "2022-11-03",
+  "shares": 10856487,
   "split_factor": 2.266,
   "splits_after": [
    [
@@ -33,11 +38,113 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0000950170-22-024749",
+  "guided_until": "2023-01-15",
+  "guidance": "lents and marketable securities will be sufficient to fund its operating expenses and capital expenditure requirements early into the first quarter of 2023, whi",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": 59600000.0,
+  "atm_quote": "&#x2014; $ ( 187,313 ) $ 23,497 Stock/equity-based compensation expense &#x2014; &#x2014; 1,204 &#x2014; &#x2014; 1,204 Issuance of common stock from at the market offering 216,332 &#x2014; 383 &#x2014; &#x2014; 383 Vesting of restricted stock units 17,624 &#x2014; &#x2014; &#x2014; &#x2014; &#x2014; Forfeiture of restricted stock awards ( 31,930 ) &#x2014; &#x2014; Net loss &#x2014; &#x2014; &#x2"
+ },
  "insiders": {
-  "form4s": 12,
-  "bought": 0,
-  "sold": 26018,
-  "buyers": []
+  "form4s": 21,
+  "from": "2022-12-17",
+  "to": "2023-04-16",
+  "trades": [
+   {
+    "date": "2023-03-17",
+    "filed": "2023-03-21",
+    "code": "S",
+    "value": 5902,
+    "who": "PHILIPS CRAIG W."
+   },
+   {
+    "date": "2023-03-17",
+    "filed": "2023-03-21",
+    "code": "S",
+    "value": 178,
+    "who": "PHILIPS CRAIG W."
+   },
+   {
+    "date": "2023-03-17",
+    "filed": "2023-03-21",
+    "code": "S",
+    "value": 5,
+    "who": "PHILIPS CRAIG W."
+   },
+   {
+    "date": "2023-03-20",
+    "filed": "2023-03-21",
+    "code": "S",
+    "value": 2866,
+    "who": "PHILIPS CRAIG W."
+   },
+   {
+    "date": "2023-03-17",
+    "filed": "2023-03-21",
+    "code": "S",
+    "value": 3677,
+    "who": "Kenny Pauline"
+   },
+   {
+    "date": "2023-03-17",
+    "filed": "2023-03-21",
+    "code": "S",
+    "value": 115,
+    "who": "Kenny Pauline"
+   },
+   {
+    "date": "2023-03-20",
+    "filed": "2023-03-21",
+    "code": "S",
+    "value": 1788,
+    "who": "Kenny Pauline"
+   },
+   {
+    "date": "2023-03-17",
+    "filed": "2023-03-21",
+    "code": "S",
+    "value": 7578,
+    "who": "Iadonato Shawn"
+   },
+   {
+    "date": "2023-03-17",
+    "filed": "2023-03-21",
+    "code": "S",
+    "value": 230,
+    "who": "Iadonato Shawn"
+   },
+   {
+    "date": "2023-03-20",
+    "filed": "2023-03-21",
+    "code": "S",
+    "value": 3678,
+    "who": "Iadonato Shawn"
+   },
+   {
+    "date": "2022-12-30",
+    "filed": "2023-01-04",
+    "code": "P",
+    "value": 31125,
+    "who": "Bartoszek Raymond J."
+   },
+   {
+    "date": "2022-12-30",
+    "filed": "2023-01-04",
+    "code": "P",
+    "value": 6231,
+    "who": "Bartoszek Raymond J."
+   },
+   {
+    "date": "2022-12-30",
+    "filed": "2023-01-04",
+    "code": "P",
+    "value": 6225,
+    "who": "Bartoszek Raymond J."
+   }
+  ]
  },
  "drug": null,
  "trials": {

@@ -3,39 +3,122 @@
  "cik": "1858848",
  "name": "Tenaya Therapeutics, Inc.",
  "date": "2025-03-04",
- "asof": "2025-04-03",
+ "asof": "2025-03-04",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-04-03",
-  "adj_close": 0.51999998
+  "date": "2025-03-04",
+  "adj_close": 0.44
  },
  "balance": {
-  "end": "2024-12-31",
-  "cash": 61446000,
+  "end": "2024-09-30",
+  "cash": 79469000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue",
    "ShortTermInvestments"
   ],
-  "accn": "0000950170-25-036329"
+  "accn": "0000950170-24-122359"
  },
  "burn": {
-  "end": "2024-12-31",
-  "months": 12.0,
-  "per_month": -7547535.452054795
+  "end": "2024-09-30",
+  "ytd_months": 9.0,
+  "ytd": -72113000,
+  "accn": "0000950170-24-122359",
+  "ttm_per_month": -7836416.666666667,
+  "quarter_per_month": -6612000.0,
+  "per_month": -7836416.666666667
  },
  "shares": {
-  "end": "2025-03-04",
-  "shares": 87582646,
+  "end": "2024-10-31",
+  "shares": 79220516,
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0000950170-24-122359",
+  "guided_until": null,
+  "guidance": "sufficient to fund the Company's operations for at least the next twelve months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": ",737 ) ( 31,737 ) Balance as of March 31, 2023 66,865,424 $ 7 $ 526,460 $ ( 120 ) $ ( 310,935 ) $ 215,412 Issuance of common stock in connection with at-the-market sales, net of issuance costs of $ 120 535,767 &#8212; 3,868 &#8212; &#8212; 3,868 Issuance of common stock upon exercise of pre-funded warrants 302,517 &#8212; &#8212; &#8212; &#8212; &#8212; Issuance of common stock pursuant to employe"
+ },
  "insiders": {
-  "form4s": 5,
-  "bought": 49999998,
-  "sold": 10564,
-  "buyers": [
-   "COLUMN GROUP III GP, LP",
-   "GOEDDEL DAVID V"
+  "form4s": 7,
+  "from": "2024-12-04",
+  "to": "2025-04-03",
+  "trades": [
+   {
+    "date": "2025-03-10",
+    "filed": "2025-03-10",
+    "code": "S",
+    "value": 548,
+    "who": "Higa Tomohiro"
+   },
+   {
+    "date": "2025-03-10",
+    "filed": "2025-03-10",
+    "code": "S",
+    "value": 334,
+    "who": "Higa Tomohiro"
+   },
+   {
+    "date": "2025-03-10",
+    "filed": "2025-03-10",
+    "code": "S",
+    "value": 455,
+    "who": "Higa Tomohiro"
+   },
+   {
+    "date": "2025-03-10",
+    "filed": "2025-03-10",
+    "code": "S",
+    "value": 930,
+    "who": "Tingley Whittemore"
+   },
+   {
+    "date": "2025-03-10",
+    "filed": "2025-03-10",
+    "code": "S",
+    "value": 2193,
+    "who": "Tingley Whittemore"
+   },
+   {
+    "date": "2025-03-10",
+    "filed": "2025-03-10",
+    "code": "S",
+    "value": 860,
+    "who": "Tingley Whittemore"
+   },
+   {
+    "date": "2025-03-10",
+    "filed": "2025-03-10",
+    "code": "S",
+    "value": 3119,
+    "who": "Ali Faraz"
+   },
+   {
+    "date": "2025-03-10",
+    "filed": "2025-03-10",
+    "code": "S",
+    "value": 2125,
+    "who": "Ali Faraz"
+   },
+   {
+    "date": "2025-03-05",
+    "filed": "2025-03-07",
+    "code": "P",
+    "value": 24999999,
+    "who": "COLUMN GROUP III GP, LP"
+   },
+   {
+    "date": "2025-03-05",
+    "filed": "2025-03-07",
+    "code": "P",
+    "value": 24999999,
+    "who": "GOEDDEL DAVID V"
+   }
   ]
  },
  "drug": null,

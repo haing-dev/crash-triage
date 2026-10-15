@@ -3,28 +3,33 @@
  "cik": "1567264",
  "name": "INTENSITY THERAPEUTICS, INC.",
  "date": "2025-04-23",
- "asof": "2025-05-23",
+ "asof": "2025-04-25",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-05-23",
-  "adj_close": 7.95
+  "date": "2025-04-25",
+  "adj_close": 14.15
  },
  "balance": {
-  "end": "2025-03-31",
-  "cash": 929000,
+  "end": "2024-12-31",
+  "cash": 2590000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001567264-25-000039"
+  "accn": "0001567264-25-000010"
  },
  "burn": {
-  "end": "2025-03-31",
-  "months": 2.9,
-  "per_month": -680282.6966292135
+  "end": "2024-12-31",
+  "ytd_months": 12.0,
+  "ytd": -15220000,
+  "accn": "0001567264-25-000010",
+  "ttm_per_month": -1268333.3333333333,
+  "quarter_per_month": -889333.3333333334,
+  "per_month": -1268333.3333333333
  },
  "shares": {
-  "end": "2025-05-12",
-  "shares": 18398202,
+  "end": "2025-03-12",
+  "shares": 15180945,
   "split_factor": 25.0,
   "splits_after": [
    [
@@ -33,11 +38,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001567264-25-000010",
+  "guided_until": null,
+  "guidance": "sufficient to fund our operations and capital expenditure requirements for approximately the next 12 months",
+  "twelve_months": true,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "we may issue and sell from time to time, through H.C. Wainwright &amp; Co., LLC (&#8220;Wainwright&#8221;) acting as our sales agent, pursuant to the sales agreement that we entered into with Wainwright on July 3, 2024 for our &#8220;at-the-market&#8221; equity program (the &#8220;ATM Agreement&#8221;). On November 20, 2024, we filed a prospectus supplement to reduce the maximum we may sell and is"
+ },
  "insiders": {
   "form4s": 8,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2025-01-23",
+  "to": "2025-05-23",
+  "trades": []
  },
  "drug": null,
  "trials": {

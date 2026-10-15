@@ -3,28 +3,33 @@
  "cik": "1829635",
  "name": "Transcode Therapeutics, Inc.",
  "date": "2024-05-13",
- "asof": "2024-06-12",
+ "asof": "2024-05-13",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-06-12",
-  "adj_close": 1136.52002
+  "date": "2024-05-13",
+  "adj_close": 569.18402
  },
  "balance": {
-  "end": "2024-03-31",
-  "cash": 4913676,
+  "end": "2023-12-31",
+  "cash": 2767598,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001558370-24-008298"
+  "accn": "0001410578-24-000413"
  },
  "burn": {
-  "end": "2024-03-31",
-  "months": 3.0,
-  "per_month": -1331657.6653333334
+  "end": "2023-12-31",
+  "ytd_months": 12.0,
+  "ytd": -18074535,
+  "accn": "0001410578-24-000413",
+  "ttm_per_month": -1506211.25,
+  "quarter_per_month": -1887829.6666666667,
+  "per_month": -1506211.25
  },
  "shares": {
-  "end": "2024-05-10",
-  "shares": 6622053,
+  "end": "2024-03-20",
+  "shares": 5808053,
   "split_factor": 36674276.376,
   "splits_after": [
    [
@@ -45,11 +50,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001410578-24-000413",
+  "guided_until": "2024-07-15",
+  "guidance": "et proceeds from this offering, will be sufficient to fund our operating expenses and capital expenditure requirements into the third quarter of 2024. As",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "hares. Trading volume in shares of our common stock on the Nasdaq Capital Market has been limited. You may not be able to sell your shares quickly or at the market price if trading in shares of our common stock is not active. An active or liquid market in our common stock may not develop or, if it does develop, it may not sustain. As a result of these and other factors, shareholders may not be abl"
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2024-02-13",
+  "to": "2024-06-12",
+  "trades": []
  },
  "drug": null,
  "trials": {

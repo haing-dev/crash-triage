@@ -3,11 +3,12 @@
  "cik": "1697532",
  "name": "Applied Therapeutics, Inc.",
  "date": "2024-11-29",
- "asof": "2024-12-29",
+ "asof": "2024-12-04",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-12-30",
-  "adj_close": 0.815
+  "date": "2024-12-04",
+  "adj_close": 1.38
  },
  "balance": {
   "end": "2024-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2024-09-30",
-  "months": 9.0,
-  "per_month": -7229332.747252747
+  "ytd_months": 9.0,
+  "ytd": -64836000,
+  "accn": "0000950170-24-122804",
+  "ttm_per_month": -6820083.333333333,
+  "quarter_per_month": -7776666.666666667,
+  "per_month": -6820083.333333333
  },
  "shares": {
   "end": "2024-11-06",
@@ -28,11 +33,21 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0000950170-24-122804",
+  "guided_until": "2026-01-15",
+  "guidance": "al year 2025 from Advanz Pharma will be sufficient to fund our operations into 2026, and",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "r the date that the financial statements are issued. As of September 30, 2024 , financing through the Company's March 2024 Private Placement, Leerink ATM Agreement and warrant exercises has resulted in net proceeds of $ 113.8 million, after deducting placement agent commissions and other offering expenses (see Note 7 and Note 8). The Company continues to evaluate several potential long-term financ"
+ },
  "insiders": {
   "form4s": 2,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2024-08-31",
+  "to": "2024-12-29",
+  "trades": []
  },
  "drug": null,
  "trials": {

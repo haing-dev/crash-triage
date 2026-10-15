@@ -3,11 +3,12 @@
  "cik": "1620463",
  "name": "LeonaBio, Inc.",
  "date": "2024-09-04",
- "asof": "2024-10-04",
+ "asof": "2024-09-04",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-10-04",
-  "adj_close": 4.25
+  "date": "2024-09-04",
+  "adj_close": 6.11
  },
  "balance": {
   "end": "2024-06-30",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2024-06-30",
-  "months": 5.9,
-  "per_month": -8095021.878453039
+  "ytd_months": 5.9,
+  "ytd": -48134000,
+  "accn": "0000950170-24-089304",
+  "ttm_per_month": -8200916.666666667,
+  "quarter_per_month": -7443333.333333333,
+  "per_month": -8200916.666666667
  },
  "shares": {
   "end": "2024-07-29",
@@ -34,11 +39,71 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0000950170-24-089304",
+  "guided_until": null,
+  "guidance": "sufficient to fund our operating expenses and capital expenditure requirements through at least the next 12 months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "ver its operating costs; therefore, the Company will need to continue to raise additional capital to accomplish its operating plan. The Company has a sales agreement in place with Cantor Fitzgerald &amp; Co., or Cantor Fitzgerald, and BTIG, LLC, or BTIG, for an &#8220;at the market&#8221; equity offering facility through which it may offer and sell shares of its common stock equaling an aggregate "
+ },
  "insiders": {
-  "form4s": 10,
-  "bought": 0,
-  "sold": 7856,
-  "buyers": []
+  "form4s": 11,
+  "from": "2024-06-06",
+  "to": "2024-10-04",
+  "trades": [
+   {
+    "date": "2024-09-05",
+    "filed": "2024-09-05",
+    "code": "S",
+    "value": 720,
+    "who": "Gengos Andrew"
+   },
+   {
+    "date": "2024-09-05",
+    "filed": "2024-09-05",
+    "code": "S",
+    "value": 1429,
+    "who": "Lenington Rachel"
+   },
+   {
+    "date": "2024-09-05",
+    "filed": "2024-09-05",
+    "code": "S",
+    "value": 1429,
+    "who": "CHURCH KEVIN"
+   },
+   {
+    "date": "2024-09-05",
+    "filed": "2024-09-05",
+    "code": "S",
+    "value": 1429,
+    "who": "Worthington Mark"
+   },
+   {
+    "date": "2024-09-05",
+    "filed": "2024-09-05",
+    "code": "S",
+    "value": 2848,
+    "who": "Litton Mark James"
+   },
+   {
+    "date": "2024-06-21",
+    "filed": "2024-06-25",
+    "code": "P",
+    "value": 33872,
+    "who": "Romano Kelly A"
+   },
+   {
+    "date": "2024-06-24",
+    "filed": "2024-06-25",
+    "code": "P",
+    "value": 66179,
+    "who": "Romano Kelly A"
+   }
+  ]
  },
  "drug": null,
  "trials": {

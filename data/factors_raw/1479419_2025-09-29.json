@@ -3,11 +3,12 @@
  "cik": "1479419",
  "name": "KALA BIO, Inc.",
  "date": "2025-09-29",
- "asof": "2025-10-29",
+ "asof": "2025-10-01",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-10-29",
-  "adj_close": 39.95
+  "date": "2025-10-01",
+  "adj_close": 68.0
  },
  "balance": {
   "end": "2025-06-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2025-06-30",
-  "months": 5.9,
-  "per_month": -2800141.777777778
+  "ytd_months": 5.9,
+  "ytd": -16558000,
+  "accn": "0001558370-25-010853",
+  "ttm_per_month": -2156750.0,
+  "quarter_per_month": -2578000.0,
+  "per_month": -2156750.0
  },
  "shares": {
   "end": "2025-08-07",
@@ -33,11 +38,92 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001558370-25-010853",
+  "guided_until": "2026-01-15",
+  "guidance": "quivalents as of June 30, 2025, will be sufficient to fund its operating expenses, lease and debt service obligations and capital expenditure requirements into the first quarter of 2026. The",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "203; 10,901 &#8203; $ &#8212; &#8203; &#8212; &#8203; $ &#8212; &#8203; 2,816,454 &#8203; $ 3 &#8203; $ 647,874 &#8203; $ ( 641,216 ) &#8203; $ 6,661 At the market offering, net of offering costs of $ 50 &#8203; &#8212; &#8203; &#8203; &#8212; &#8203; &#8212; &#8203; &#8203; &#8212; &#8203; &#8212; &#8203; &#8203; &#8212; &#8203; &#8212; &#8203; &#8203; &#8212; &#8203; 387,500 &#8203; &#8203; 1 &#"
+ },
  "insiders": {
-  "form4s": 6,
-  "bought": 0,
-  "sold": 1305447,
-  "buyers": []
+  "form4s": 7,
+  "from": "2025-07-01",
+  "to": "2025-10-29",
+  "trades": [
+   {
+    "date": "2025-10-23",
+    "filed": "2025-10-24",
+    "code": "S",
+    "value": 125464,
+    "who": "Iwicki Mark T"
+   },
+   {
+    "date": "2025-10-22",
+    "filed": "2025-10-24",
+    "code": "S",
+    "value": 26751,
+    "who": "Reumuth Mary"
+   },
+   {
+    "date": "2025-10-23",
+    "filed": "2025-10-24",
+    "code": "S",
+    "value": 793,
+    "who": "Reumuth Mary"
+   },
+   {
+    "date": "2025-10-22",
+    "filed": "2025-10-24",
+    "code": "S",
+    "value": 39647,
+    "who": "Bazemore Todd"
+   },
+   {
+    "date": "2025-10-22",
+    "filed": "2025-10-24",
+    "code": "S",
+    "value": 38801,
+    "who": "Brazzell Romulus K"
+   },
+   {
+    "date": "2025-10-22",
+    "filed": "2025-10-24",
+    "code": "S",
+    "value": 17269,
+    "who": "Kharabi Darius"
+   },
+   {
+    "date": "2025-09-30",
+    "filed": "2025-10-02",
+    "code": "S",
+    "value": 34114,
+    "who": "BAKER BROS. ADVISORS LP"
+   },
+   {
+    "date": "2025-09-30",
+    "filed": "2025-10-02",
+    "code": "S",
+    "value": 311879,
+    "who": "BAKER BROS. ADVISORS LP"
+   },
+   {
+    "date": "2025-10-01",
+    "filed": "2025-10-02",
+    "code": "S",
+    "value": 70076,
+    "who": "BAKER BROS. ADVISORS LP"
+   },
+   {
+    "date": "2025-10-01",
+    "filed": "2025-10-02",
+    "code": "S",
+    "value": 640654,
+    "who": "BAKER BROS. ADVISORS LP"
+   }
+  ]
  },
  "drug": null,
  "trials": {

@@ -3,11 +3,12 @@
  "cik": "827871",
  "name": "EAGLE PHARMACEUTICALS, INC.",
  "date": "2024-10-02",
- "asof": "2024-11-01",
+ "asof": "2024-10-03",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-11-01",
-  "adj_close": 0.55
+  "date": "2024-10-03",
+  "adj_close": 1.99
  },
  "balance": {
   "end": "2023-06-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2023-06-30",
-  "months": 5.9,
-  "per_month": -5688559.555555556
+  "ytd_months": 5.9,
+  "ytd": -33638000,
+  "accn": "0000827871-23-000024",
+  "ttm_per_month": -776500.0,
+  "quarter_per_month": -42000.0,
+  "per_month": -776500.0
  },
  "shares": {
   "end": "2023-08-01",
@@ -28,11 +33,21 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0000827871-23-000024",
+  "guided_until": null,
+  "guidance": "sufficient to fund our currently anticipated working capital requirements for at least the next 12 months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2024-07-04",
+  "to": "2024-11-01",
+  "trades": []
  },
  "drug": null,
  "trials": {

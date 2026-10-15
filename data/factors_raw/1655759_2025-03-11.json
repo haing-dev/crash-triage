@@ -3,11 +3,12 @@
  "cik": "1655759",
  "name": "ARVINAS, INC.",
  "date": "2025-03-11",
- "asof": "2025-04-10",
+ "asof": "2025-03-11",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-04-10",
-  "adj_close": 6.62
+  "date": "2025-03-11",
+  "adj_close": 8.3
  },
  "balance": {
   "end": "2024-12-31",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2024-12-31",
-  "months": 12.0,
-  "per_month": -21624909.5890411
+  "ytd_months": 12.0,
+  "ytd": -259300000,
+  "accn": "0001655759-25-000016",
+  "ttm_per_month": -21608333.333333332,
+  "quarter_per_month": -28033333.333333332,
+  "per_month": -21608333.333333332
  },
  "shares": {
   "end": "2025-02-05",
@@ -29,11 +34,78 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001655759-25-000016",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "than what was designated in its orphan drug application, it may not be entitled to exclusivity. The period of market exclusivity begins on the date that the marketing application is approved by the FDA and applies only to the disease or condition for which the product has been designated. Orphan drug exclusivity will not bar approval of another product under certain circumstances, including if the"
+ },
  "insiders": {
-  "form4s": 1,
-  "bought": 0,
-  "sold": 74372,
-  "buyers": []
+  "form4s": 11,
+  "from": "2024-12-11",
+  "to": "2025-04-10",
+  "trades": [
+   {
+    "date": "2025-03-18",
+    "filed": "2025-03-19",
+    "code": "S",
+    "value": 74372,
+    "who": "Berkowitz Noah"
+   },
+   {
+    "date": "2025-02-24",
+    "filed": "2025-02-25",
+    "code": "S",
+    "value": 20334,
+    "who": "Loomis David K"
+   },
+   {
+    "date": "2025-02-24",
+    "filed": "2025-02-25",
+    "code": "S",
+    "value": 51272,
+    "who": "Cacace Angela M"
+   },
+   {
+    "date": "2025-02-24",
+    "filed": "2025-02-25",
+    "code": "S",
+    "value": 18966,
+    "who": "Cacace Angela M"
+   },
+   {
+    "date": "2025-02-24",
+    "filed": "2025-02-25",
+    "code": "S",
+    "value": 123213,
+    "who": "Taylor Ian"
+   },
+   {
+    "date": "2025-02-24",
+    "filed": "2025-02-25",
+    "code": "S",
+    "value": 27539,
+    "who": "Taylor Ian"
+   },
+   {
+    "date": "2025-02-24",
+    "filed": "2025-02-25",
+    "code": "S",
+    "value": 438582,
+    "who": "Houston John G"
+   },
+   {
+    "date": "2025-02-24",
+    "filed": "2025-02-25",
+    "code": "S",
+    "value": 85299,
+    "who": "Houston John G"
+   }
+  ]
  },
  "drug": null,
  "trials": {

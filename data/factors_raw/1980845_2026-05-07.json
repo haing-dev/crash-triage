@@ -3,11 +3,12 @@
  "cik": "1980845",
  "name": "enGene Therapeutics Inc.",
  "date": "2026-05-07",
- "asof": "2026-06-06",
+ "asof": "2026-05-12",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-06-08",
-  "adj_close": 1.65
+  "date": "2026-05-12",
+  "adj_close": 1.44
  },
  "balance": {
   "end": "2026-01-31",
@@ -21,8 +22,12 @@
  },
  "burn": {
   "end": "2026-01-31",
-  "months": 3.0,
-  "per_month": -9668212.307692308
+  "ytd_months": 3.0,
+  "ytd": -28903000,
+  "accn": "0001193125-26-097541",
+  "ttm_per_month": -8537166.666666666,
+  "quarter_per_month": -9634333.333333334,
+  "per_month": -8537166.666666666
  },
  "shares": {
   "end": "2026-03-03",
@@ -30,13 +35,23 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001193125-26-097541",
+  "guided_until": null,
+  "guidance": "sufficient to fund its operating expenses and debt obligations requirements for at least the next 12 months",
+  "twelve_months": true,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2026-02-06",
+  "to": "2026-06-06",
+  "trades": []
  },
- "drug": null,
+ "drug": "detalimogene voraplasmid",
  "trials": {
   "query": "engene therapeutics",
   "other_trials": 0,

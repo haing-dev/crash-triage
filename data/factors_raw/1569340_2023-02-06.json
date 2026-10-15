@@ -3,11 +3,12 @@
  "cik": "1569340",
  "name": "Cell Source, Inc.",
  "date": "2023-02-06",
- "asof": "2023-03-08",
+ "asof": "2023-02-10",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-03-08",
-  "adj_close": 0.4
+  "date": "2023-02-10",
+  "adj_close": 0.35
  },
  "balance": {
   "end": "2022-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2022-09-30",
-  "months": 8.9,
-  "per_month": -270312.9075
+  "ytd_months": 8.9,
+  "ytd": -2415411,
+  "accn": "0001493152-22-034876",
+  "ttm_per_month": -239551.25,
+  "quarter_per_month": -362219.0,
+  "per_month": -239551.25
  },
  "shares": {
   "end": "2022-12-05",
@@ -28,11 +33,21 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001493152-22-034876",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2022-11-08",
+  "to": "2023-03-08",
+  "trades": []
  },
  "drug": null,
  "trials": {

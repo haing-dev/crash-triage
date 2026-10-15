@@ -3,11 +3,12 @@
  "cik": "1601485",
  "name": "Elicio Therapeutics, Inc.",
  "date": "2024-06-28",
- "asof": "2024-07-28",
+ "asof": "2024-07-02",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-07-29",
-  "adj_close": 4.93
+  "date": "2024-07-02",
+  "adj_close": 3.39
  },
  "balance": {
   "end": "2024-03-31",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2024-03-31",
-  "months": 3.0,
-  "per_month": -4099929.777777778
+  "ytd_months": 3.0,
+  "ytd": -12122000,
+  "accn": "0001601485-24-000033",
+  "ttm_per_month": -3056416.6666666665,
+  "quarter_per_month": -4040666.6666666665,
+  "per_month": -3056416.6666666665
  },
  "shares": {
   "end": "2024-05-10",
@@ -33,11 +38,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001601485-24-000033",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "s of December 31, 2023 &#8212; $ &#8212; 9,603,723 $ 96 ( 14,455 ) $ ( 150 ) $ 153,827 $ ( 197 ) $ ( 142,203 ) $ 11,373 Issuance of common stock from At-the-Market offering, net of issuance costs of $ 0.1 million &#8212; &#8212; 615,363 6 &#8212; &#8212; 5,056 &#8212; &#8212; 5,062 Issuance of common stock upon net settlement of restricted stock units &#8212; &#8212; 903 &#8212; &#8212; &#8212; 11"
+ },
  "insiders": {
   "form4s": 2,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2024-03-30",
+  "to": "2024-07-28",
+  "trades": []
  },
  "drug": null,
  "trials": {

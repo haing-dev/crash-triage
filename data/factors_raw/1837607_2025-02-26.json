@@ -3,36 +3,56 @@
  "cik": "1837607",
  "name": "AEON Biopharma, Inc.",
  "date": "2025-02-26",
- "asof": "2025-03-28",
+ "asof": "2025-02-28",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-03-28",
-  "adj_close": 0.59299999
+  "date": "2025-02-28",
+  "adj_close": 0.75
  },
  "balance": {
-  "end": "2024-12-31",
-  "cash": 13000,
+  "end": "2024-09-30",
+  "cash": 537000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001837607-25-000022"
+  "accn": "0001837607-24-000093"
  },
  "burn": {
-  "end": "2024-12-31",
-  "months": 12.0,
-  "per_month": -1692297.2054794522
+  "end": "2024-09-30",
+  "ytd_months": 9.0,
+  "ytd": -19671000,
+  "accn": "0001837607-24-000093",
+  "ttm_per_month": null,
+  "quarter_per_month": -985000.0,
+  "per_month": -2193352.5274725277
  },
  "shares": {
-  "end": "2025-03-21",
-  "shares": 10532802,
-  "split_factor": 1.0,
-  "splits_after": []
+  "end": "2024-11-11",
+  "shares": 39970693,
+  "split_factor": 71.958,
+  "splits_after": [
+   [
+    "2025-03-24",
+    71.96
+   ]
+  ]
+ },
+ "filing": {
+  "accn": "0001837607-24-000093",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": 49900000.0,
+  "atm_quote": "12; &#8203; &#8212; &#8203; &#8212; &#8203; ( 6,171 ) &#8203; &#8212; &#8203; &#8212; &#8203; &#8212; &#8203; ( 6,171 ) Issuance of shares related to at-the-market offering, net &#8203; &#8212; &#8203; &#8203; &#8212; &#8203; &#8203; 65,392 &#8203; &#8203; &#8212; &#8203; &#8203; 50 &#8203; &#8203; &#8212; &#8203; &#8203; &#8212; &#8203; &#8203; &#8212; &#8203; &#8203; &#8212; &#8203; &#8203; &#82"
  },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2024-11-28",
+  "to": "2025-03-28",
+  "trades": []
  },
  "drug": null,
  "trials": {

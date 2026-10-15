@@ -3,20 +3,22 @@
  "cik": "1819576",
  "name": "Liquidia Corp",
  "date": "2020-10-13",
- "asof": "2020-11-12",
+ "asof": "2020-10-16",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2020-11-12",
-  "adj_close": 4.19
+  "date": "2020-10-16",
+  "adj_close": 2.86
  },
  "balance": null,
  "burn": null,
  "shares": null,
+ "filing": null,
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2020-07-15",
+  "to": "2020-11-12",
+  "trades": []
  },
  "drug": null,
  "trials": {

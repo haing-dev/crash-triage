@@ -3,11 +3,12 @@
  "cik": "1716947",
  "name": "Ensysce Biosciences, Inc.",
  "date": "2022-12-07",
- "asof": "2023-01-06",
+ "asof": "2022-12-07",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-01-06",
-  "adj_close": 130.67999
+  "date": "2022-12-07",
+  "adj_close": 187.2
  },
  "balance": {
   "end": "2022-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2022-09-30",
-  "months": 8.9,
-  "per_month": -1632996.2145588235
+  "ytd_months": 8.9,
+  "ytd": -14591819,
+  "accn": "0001493152-22-032094",
+  "ttm_per_month": -1529969.3333333333,
+  "quarter_per_month": -2238103.6666666665,
+  "per_month": -1529969.3333333333
  },
  "shares": {
   "end": "2022-11-07",
@@ -41,11 +46,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001493152-22-032094",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "ransaction. An &#8220;alternate transaction&#8221; includes an issuance of common stock at a price less than the then current market price, an &#8220;at-the-market&#8221; offering of securities, and an issuance of options, warrants, or similar rights of subscription or the issuance of convertible equity or debt securities. See &#8220; Risks Related to Our Business, Financial Condition and Capital "
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2022-09-08",
+  "to": "2023-01-06",
+  "trades": []
  },
  "drug": null,
  "trials": {

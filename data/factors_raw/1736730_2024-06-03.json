@@ -3,20 +3,22 @@
  "cik": "1736730",
  "name": "Camp4 Therapeutics Corp",
  "date": "2024-06-03",
- "asof": "2024-07-03",
+ "asof": "2024-06-03",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-07-03",
-  "adj_close": 0.16
+  "date": "2024-06-03",
+  "adj_close": 1.01
  },
  "balance": null,
  "burn": null,
  "shares": null,
+ "filing": null,
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2024-03-05",
+  "to": "2024-07-03",
+  "trades": []
  },
  "drug": null,
  "trials": {

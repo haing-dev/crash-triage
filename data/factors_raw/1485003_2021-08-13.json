@@ -3,11 +3,12 @@
  "cik": "1485003",
  "name": "Carisma Therapeutics Inc.",
  "date": "2021-08-13",
- "asof": "2021-09-12",
+ "asof": "2021-08-19",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2021-09-13",
-  "adj_close": 10.5807
+  "date": "2021-08-19",
+  "adj_close": 12.5196
  },
  "balance": {
   "end": "2021-06-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2021-06-30",
-  "months": 5.9,
-  "per_month": -7037728.0
+  "ytd_months": 5.9,
+  "ytd": -41616000,
+  "accn": "0001485003-21-000176",
+  "ttm_per_month": -4507500.0,
+  "quarter_per_month": -7713666.666666667,
+  "per_month": -4507500.0
  },
  "shares": {
   "end": "2021-08-02",
@@ -37,11 +42,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001485003-21-000176",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "8 Exercises of stock options 30,610 &#8212; 39 &#8212; 39 Exercises of common stock warrants 852,840 1 468 &#8212; 469 Issuance of common stock under ATM Offering, net of issuance costs of $ 2.2 million 30,645,702 31 72,512 &#8212; 72,543 Balance at March 31, 2021 171,978,799 $ 172 $ 380,531 $ ( 371,433 ) $ 9,270 Net loss &#8212; &#8212; &#8212; ( 25,442 ) ( 25,442 ) Share-based compensation &#821"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 3,
+  "from": "2021-05-15",
+  "to": "2021-09-12",
+  "trades": []
  },
  "drug": null,
  "trials": {

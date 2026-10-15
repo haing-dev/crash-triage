@@ -3,38 +3,53 @@
  "cik": "1106644",
  "name": "CHINA PHARMA HOLDINGS, INC.",
  "date": "2026-07-22",
- "asof": "2026-08-21",
+ "asof": "2026-07-27",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-08-21",
-  "adj_close": 0.98000002
+  "date": "2026-07-27",
+  "adj_close": 1.23
  },
  "balance": {
-  "end": "2026-06-30",
-  "cash": 304874,
+  "end": "2026-03-31",
+  "cash": 168474,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001213900-26-090173"
+  "accn": "0001213900-26-057705"
  },
  "burn": {
-  "end": "2026-06-30",
-  "months": 5.9,
-  "per_month": -14902.071111111112
+  "end": "2026-03-31",
+  "ytd_months": 2.9,
+  "ytd": -55292,
+  "accn": "0001213900-26-057705",
+  "ttm_per_month": 13887.083333333334,
+  "quarter_per_month": -18430.666666666668,
+  "per_month": 13887.083333333334
  },
  "shares": {
-  "end": "2026-08-11",
-  "shares": 43022002,
+  "end": "2026-05-11",
+  "shares": 40522002,
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001213900-26-057705",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2026-04-23",
+  "to": "2026-08-21",
+  "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "china pharma",
   "other_trials": 1,

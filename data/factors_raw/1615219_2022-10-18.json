@@ -3,30 +3,39 @@
  "cik": "1615219",
  "name": "Decoy Therapeutics Inc.",
  "date": "2022-10-18",
- "asof": "2022-11-17",
+ "asof": "2022-10-19",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-11-17",
-  "adj_close": 2851.19995
+  "date": "2022-10-19",
+  "adj_close": 3326.3999
  },
  "balance": {
-  "end": "2022-09-30",
-  "cash": 16820220,
+  "end": "2022-06-30",
+  "cash": 22647005,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001615219-22-000150"
+  "accn": "0001615219-22-000124"
  },
  "burn": {
-  "end": "2022-09-30",
-  "months": 8.9,
-  "per_month": -1441595.3139705881
+  "end": "2022-06-30",
+  "ytd_months": 5.9,
+  "ytd": -7140445,
+  "accn": "0001615219-22-000124",
+  "ttm_per_month": -953589.3333333334,
+  "quarter_per_month": -1206539.6666666667,
+  "per_month": -953589.3333333334
  },
  "shares": {
-  "end": "2022-11-07",
-  "shares": 2278227,
-  "split_factor": 60568124.801,
+  "end": "2022-08-01",
+  "shares": 56116243,
+  "split_factor": 1514202893.263,
   "splits_after": [
+   [
+    "2022-11-10",
+    25.0
+   ],
    [
     "2024-08-09",
     8.0
@@ -49,11 +58,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001615219-22-000124",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "n before deducting certain fees due to the placement agent and other estimated transaction expenses. On February 5, 2021, the Company entered into an At the Market Offering Agreement (the &#8220;Sales Agreement&#8221;) with Ladenburg Thalmann &amp; Co. Inc. (&#8220;Ladenburg&#8221;). Under the Sales Agreement the Company was able to issue and sell, from time to time, shares of its common stock hav"
+ },
  "insiders": {
   "form4s": 2,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2022-07-20",
+  "to": "2022-11-17",
+  "trades": []
  },
  "drug": null,
  "trials": {

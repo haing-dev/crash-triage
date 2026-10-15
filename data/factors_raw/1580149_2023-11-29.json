@@ -3,11 +3,12 @@
  "cik": "1580149",
  "name": "BIOVIE INC.",
  "date": "2023-11-29",
- "asof": "2023-12-29",
+ "asof": "2023-12-01",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-12-29",
-  "adj_close": 126.0
+  "date": "2023-12-01",
+  "adj_close": 168.0
  },
  "balance": {
   "end": "2023-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2023-09-30",
-  "months": 3.0,
-  "per_month": -4073289.7973626377
+  "ytd_months": 3.0,
+  "ytd": -12177049,
+  "accn": "0001520138-23-000473",
+  "ttm_per_month": -3600800.8333333335,
+  "quarter_per_month": -4059016.3333333335,
+  "per_month": -3600800.8333333335
  },
  "shares": {
   "end": "2023-11-06",
@@ -37,12 +42,42 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001520138-23-000473",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "Table of Contents 10. Equity Transactions Issuance of common stock for cash On August 31, 2022, the Company entered into a Controlled Equity Offering Sales Agreement (the &#8220;Sales Agreement&#8221;) with Cantor Fitzgerald &amp; Co. and B. Riley Securities, Inc. (collectively, the &#8220;Agents&#8221;), pursuant to which the Company may issue and sell from time-to-time shares of the Company's co"
+ },
  "insiders": {
-  "form4s": 8,
-  "bought": 17800,
-  "sold": 127899,
-  "buyers": [
-   "DO CUONG V"
+  "form4s": 9,
+  "from": "2023-08-31",
+  "to": "2023-12-29",
+  "trades": [
+   {
+    "date": "2023-12-01",
+    "filed": "2023-12-06",
+    "code": "S",
+    "value": 127899,
+    "who": "GORLIN STEVE"
+   },
+   {
+    "date": "2023-11-30",
+    "filed": "2023-12-01",
+    "code": "P",
+    "value": 17800,
+    "who": "DO CUONG V"
+   },
+   {
+    "date": "2023-09-05",
+    "filed": "2023-09-07",
+    "code": "S",
+    "value": 26108,
+    "who": "GORLIN STEVE"
+   }
   ]
  },
  "drug": null,

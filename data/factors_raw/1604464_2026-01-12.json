@@ -3,11 +3,12 @@
  "cik": "1604464",
  "name": "Atara Biotherapeutics, Inc.",
  "date": "2026-01-12",
- "asof": "2026-02-11",
+ "asof": "2026-01-13",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-02-11",
-  "adj_close": 4.59
+  "date": "2026-01-13",
+  "adj_close": 4.37
  },
  "balance": {
   "end": "2025-09-30",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2025-09-30",
-  "months": 8.9,
-  "per_month": -5063223.970588235
+  "ytd_months": 8.9,
+  "ytd": -45243000,
+  "accn": "0001193125-25-276219",
+  "ttm_per_month": -5809500.0,
+  "quarter_per_month": -3262333.3333333335,
+  "per_month": -5809500.0
  },
  "shares": {
   "end": "2025-11-06",
@@ -29,13 +34,66 @@
   "split_factor": 1.0,
   "splits_after": []
  },
- "insiders": {
-  "form4s": 1,
-  "bought": 0,
-  "sold": 489019,
-  "buyers": []
+ "filing": {
+  "accn": "0001193125-25-276219",
+  "guided_until": null,
+  "guidance": "sufficient to fund our planned operations for at least the next 12 months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": ",742 $ 46,599 Non-cash financing activities Accrued costs related to underwritten registered direct offering $ &#8212; $ 210 Accrued costs related to ATM facility $ 25 $ &#8212; Supplemental cash flow disclosure Cash paid for interest $ 171 $ 497 Cash paid for income taxes $ 31 $ 24 See accompanying notes to the condensed consolidated financial statements. 9 Atara Biotherapeutics, Inc. Notes to Co"
  },
- "drug": null,
+ "insiders": {
+  "form4s": 4,
+  "from": "2025-10-14",
+  "to": "2026-02-11",
+  "trades": [
+   {
+    "date": "2026-01-12",
+    "filed": "2026-01-14",
+    "code": "S",
+    "value": 489019,
+    "who": "Panacea Innovation Ltd"
+   },
+   {
+    "date": "2025-11-17",
+    "filed": "2025-11-19",
+    "code": "S",
+    "value": 37699,
+    "who": "Nguyen AnhCo"
+   },
+   {
+    "date": "2025-11-17",
+    "filed": "2025-11-19",
+    "code": "S",
+    "value": 739,
+    "who": "Nguyen AnhCo"
+   },
+   {
+    "date": "2025-11-17",
+    "filed": "2025-11-19",
+    "code": "S",
+    "value": 21691,
+    "who": "Grant-Huerta Yanina"
+   },
+   {
+    "date": "2025-11-17",
+    "filed": "2025-11-19",
+    "code": "S",
+    "value": 1121,
+    "who": "Grant-Huerta Yanina"
+   },
+   {
+    "date": "2025-11-17",
+    "filed": "2025-11-19",
+    "code": "S",
+    "value": 976,
+    "who": "Grant-Huerta Yanina"
+   }
+  ]
+ },
+ "drug": "tabelecleucel (EBVALLO)",
  "trials": {
   "query": "atara biotherapeutics",
   "other_trials": 0,

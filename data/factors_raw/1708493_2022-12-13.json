@@ -3,11 +3,12 @@
  "cik": "1708493",
  "name": "Harpoon Therapeutics, Inc.",
  "date": "2022-12-13",
- "asof": "2023-01-12",
+ "asof": "2022-12-19",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-01-12",
-  "adj_close": 8.1
+  "date": "2022-12-19",
+  "adj_close": 6.507
  },
  "balance": {
   "end": "2022-09-30",
@@ -21,8 +22,12 @@
  },
  "burn": {
   "end": "2022-09-30",
-  "months": 8.9,
-  "per_month": -7922457.647058823
+  "ytd_months": 8.9,
+  "ytd": -70792000,
+  "accn": "0000950170-22-025077",
+  "ttm_per_month": -7302083.333333333,
+  "quarter_per_month": -7983666.666666667,
+  "per_month": -7302083.333333333
  },
  "shares": {
   "end": "2022-10-31",
@@ -35,11 +40,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0000950170-22-025077",
+  "guided_until": null,
+  "guidance": "sufficient to fund our planned operations for at least the next 12 months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": 69000000.0,
+  "atm_quote": "2014; &#x2014; ( 20 ) &#x2014; ( 20 ) Balances at March 31, 2021 32,438,733 4 332,188 ( 17 ) ( 229,795 ) 102,380 Issuance of common stock pursuant to ATM facility, net of offering costs 138,153 &#x2014; 2,767 &#x2014; &#x2014; 2,767 Issuance of common stock under equity incentive plans including exercise of stock options 56,934 &#x2014; 186 &#x2014; &#x2014; 186 Vesting of early exercised stock op"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 3,
+  "from": "2022-09-14",
+  "to": "2023-01-12",
+  "trades": []
  },
  "drug": null,
  "trials": {

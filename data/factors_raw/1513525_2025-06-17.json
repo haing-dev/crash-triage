@@ -3,11 +3,12 @@
  "cik": "1513525",
  "name": "ADIAL PHARMACEUTICALS, INC.",
  "date": "2025-06-17",
- "asof": "2025-07-17",
+ "asof": "2025-06-17",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-07-17",
-  "adj_close": 11.25
+  "date": "2025-06-17",
+  "adj_close": 6.0
  },
  "balance": {
   "end": "2025-03-31",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2025-03-31",
-  "months": 2.9,
-  "per_month": -542240.0328089888
+  "ytd_months": 2.9,
+  "ytd": -1585393,
+  "accn": "0001213900-25-043281",
+  "ttm_per_month": -573455.25,
+  "quarter_per_month": -528464.3333333334,
+  "per_month": -573455.25
  },
  "shares": {
   "end": "2025-05-13",
@@ -28,11 +33,21 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001213900-25-043281",
+  "guided_until": "2025-10-15",
+  "guidance": "nducement that closed on May 5, 2025 is sufficient to fund our operations and meet our existing commitments into the fourth quarter of 2025, bas",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "candidate. To date, we have funded our operations primarily with the proceeds from our initial and secondary public offerings, sales pursuant to the At the Market Offering Agreement, dated April 18, 2024, that we entered into with H.C. Wainwright &amp; Co., LLC (the &#8220; ATM Agreement&#8221;), private placements, use of our equity line, as well as other equity financings, warrant exercises, and"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 7,
+  "from": "2025-03-19",
+  "to": "2025-07-17",
+  "trades": []
  },
  "drug": null,
  "trials": {

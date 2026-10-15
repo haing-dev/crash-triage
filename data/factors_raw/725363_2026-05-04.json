@@ -3,37 +3,65 @@
  "cik": "725363",
  "name": "CEL SCI CORP",
  "date": "2026-05-04",
- "asof": "2026-06-03",
+ "asof": "2026-05-06",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-06-03",
-  "adj_close": 1.48
+  "date": "2026-05-06",
+  "adj_close": 1.45
  },
  "balance": {
-  "end": "2026-03-31",
-  "cash": 1890732,
+  "end": "2025-12-31",
+  "cash": 6277582,
   "parts": [
    "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
   ],
-  "accn": "0001654954-26-005005"
+  "accn": "0001654954-26-001319"
  },
  "burn": {
-  "end": "2026-03-31",
-  "months": 5.9,
-  "per_month": -1352897.2229834255
+  "end": "2025-12-31",
+  "ytd_months": 3.0,
+  "ytd": -4022105,
+  "accn": "0001654954-26-001319",
+  "ttm_per_month": -1416822.4166666667,
+  "quarter_per_month": -1340701.6666666667,
+  "per_month": -1416822.4166666667
  },
  "shares": {
-  "end": "2026-05-11",
-  "shares": 8493111,
+  "end": "2026-02-09",
+  "shares": 8457967,
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001654954-26-001319",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 2,
-  "bought": 479000,
-  "sold": 0,
-  "buyers": [
-   "KERSTEN GEERT R"
+  "form4s": 5,
+  "from": "2026-02-03",
+  "to": "2026-06-03",
+  "trades": [
+   {
+    "date": "2026-05-14",
+    "filed": "2026-05-18",
+    "code": "P",
+    "value": 360000,
+    "who": "KERSTEN GEERT R"
+   },
+   {
+    "date": "2026-05-13",
+    "filed": "2026-05-14",
+    "code": "P",
+    "value": 119000,
+    "who": "KERSTEN GEERT R"
+   }
   ]
  },
  "drug": null,

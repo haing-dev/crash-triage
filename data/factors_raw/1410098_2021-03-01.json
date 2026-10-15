@@ -3,29 +3,34 @@
  "cik": "1410098",
  "name": "CorMedix Inc.",
  "date": "2021-03-01",
- "asof": "2021-03-31",
+ "asof": "2021-03-03",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2021-03-31",
-  "adj_close": 9.99
+  "date": "2021-03-03",
+  "adj_close": 6.84
  },
  "balance": {
-  "end": "2020-12-31",
-  "cash": 46349541,
+  "end": "2020-09-30",
+  "cash": 37039330,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue",
    "ShortTermInvestments"
   ],
-  "accn": "0001213900-21-018684"
+  "accn": "0001213900-20-035310"
  },
  "burn": {
-  "end": "2020-12-31",
-  "months": 12.0,
-  "per_month": -1832040.823890411
+  "end": "2020-09-30",
+  "ytd_months": 9.0,
+  "ytd": -16034152,
+  "accn": "0001213900-20-035310",
+  "ttm_per_month": -1659904.8333333333,
+  "quarter_per_month": -2437619.0,
+  "per_month": -1659904.8333333333
  },
  "shares": {
-  "end": "2021-03-25",
-  "shares": 38024194,
+  "end": "2020-11-04",
+  "shares": 32132492,
   "split_factor": 0.0,
   "splits_after": [
    [
@@ -38,11 +43,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001213900-20-035310",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": ",640 ( 12,316,718 ) CASH FLOWS FROM FINANCING ACTIVITIES: Proceeds from the public offering, net 21,320,170 - Proceeds from sale of common stock from at-the-market program, net 3,045,730 15,234,529 Proceeds from exercise of warrants 411,751 8,658,233 Proceeds from exchange agreement, related party - 2,000,000 Proceeds from exercise of stock options - 117,529 Net cash provided by financing activiti"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 11,
+  "from": "2020-12-01",
+  "to": "2021-03-31",
+  "trades": []
  },
  "drug": null,
  "trials": {

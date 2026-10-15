@@ -3,11 +3,12 @@
  "cik": "1781174",
  "name": "Acrivon Therapeutics, Inc.",
  "date": "2025-03-26",
- "asof": "2025-04-25",
+ "asof": "2025-03-31",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-04-25",
-  "adj_close": 1.64
+  "date": "2025-03-31",
+  "adj_close": 2.03
  },
  "balance": {
   "end": "2024-12-31",
@@ -21,8 +22,12 @@
  },
  "burn": {
   "end": "2024-12-31",
-  "months": 12.0,
-  "per_month": -5476614.684931507
+  "ytd_months": 12.0,
+  "ytd": -65669000,
+  "accn": "0000950170-25-046056",
+  "ttm_per_month": -5472416.666666667,
+  "quarter_per_month": -5786666.666666667,
+  "per_month": -5472416.666666667
  },
  "shares": {
   "end": "2025-03-24",
@@ -30,11 +35,21 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0000950170-25-046056",
+  "guided_until": "2027-01-15",
+  "guidance": "tments as of December 31, 2024, will be sufficient to fund our operating expenses and capital expenditure requirements into 2027. Thi",
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "common stock remained issued and outstanding. On December 1, 2023, we filed the Registration Statement with the SEC and simultaneously entered into a sales agreement with Cowen and Company, LLC, to provide for the issuance and sale of up to $100.0 million of common stock from time to time in &#8220;at-the-market&#8221; offerings under the Registration Statement and related prospectus. On April 8, "
+ },
  "insiders": {
-  "form4s": 3,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 18,
+  "from": "2024-12-26",
+  "to": "2025-04-25",
+  "trades": []
  },
  "drug": null,
  "trials": {

@@ -3,11 +3,12 @@
  "cik": "1880438",
  "name": "AN2 Therapeutics, Inc.",
  "date": "2024-08-09",
- "asof": "2024-09-08",
+ "asof": "2024-08-15",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-09-09",
-  "adj_close": 1.04
+  "date": "2024-08-15",
+  "adj_close": 1.02
  },
  "balance": {
   "end": "2024-06-30",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2024-06-30",
-  "months": 5.9,
-  "per_month": -5377789.392265193
+  "ytd_months": 5.9,
+  "ytd": -31977000,
+  "accn": "0000950170-24-096243",
+  "ttm_per_month": -5070416.666666667,
+  "quarter_per_month": -4794666.666666667,
+  "per_month": -5070416.666666667
  },
  "shares": {
   "end": "2024-08-05",
@@ -29,12 +34,42 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0000950170-24-096243",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "&#8212; ( 15,323 ) ( 15,323 ) Balances at March 31, 2023 19,426,452 &#8212; 187,738 ( 175 ) ( 105,046 ) 82,517 Issuance of common stock in the &#8220;at-the-market&#8221; offering, net of commissions and offering costs of $ 0.9 million 2,502,000 &#8212; 19,050 &#8212; &#8212; 19,050 Vesting of early exercised stock options &#8212; &#8212; 2 &#8212; &#8212; 2 Stock-based compensation &#8212; &#8212"
+ },
  "insiders": {
-  "form4s": 2,
-  "bought": 1560000,
-  "sold": 3807102,
-  "buyers": [
-   "Leonard Braden Michael"
+  "form4s": 11,
+  "from": "2024-05-11",
+  "to": "2024-09-08",
+  "trades": [
+   {
+    "date": "2024-08-14",
+    "filed": "2024-08-14",
+    "code": "P",
+    "value": 1560000,
+    "who": "Leonard Braden Michael"
+   },
+   {
+    "date": "2024-08-09",
+    "filed": "2024-08-13",
+    "code": "S",
+    "value": 3683162,
+    "who": "RA CAPITAL MANAGEMENT, L.P."
+   },
+   {
+    "date": "2024-08-09",
+    "filed": "2024-08-13",
+    "code": "S",
+    "value": 123940,
+    "who": "RA CAPITAL MANAGEMENT, L.P."
+   }
   ]
  },
  "drug": null,

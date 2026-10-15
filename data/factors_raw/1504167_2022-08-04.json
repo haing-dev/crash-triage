@@ -3,28 +3,33 @@
  "cik": "1504167",
  "name": "TREX WIND-DOWN, INC.",
  "date": "2022-08-04",
- "asof": "2022-09-03",
+ "asof": "2022-08-04",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-09-06",
-  "adj_close": 5.355
+  "date": "2022-08-04",
+  "adj_close": 4.8
  },
  "balance": {
-  "end": "2022-06-30",
-  "cash": 8273728,
+  "end": "2022-03-31",
+  "cash": 13860273,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001558370-22-013348"
+  "accn": "0001558370-22-008526"
  },
  "burn": {
-  "end": "2022-06-30",
-  "months": 5.9,
-  "per_month": -1442325.6675555557
+  "end": "2022-03-31",
+  "ytd_months": 2.9,
+  "ytd": -2944747,
+  "accn": "0001558370-22-008526",
+  "ttm_per_month": -867522.25,
+  "quarter_per_month": -981582.3333333334,
+  "per_month": -867522.25
  },
  "shares": {
-  "end": "2022-08-09",
-  "shares": 132451180,
+  "end": "2022-05-06",
+  "shares": 63678836,
   "split_factor": 50.0,
   "splits_after": [
    [
@@ -33,11 +38,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001558370-22-008526",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2022-05-06",
+  "to": "2022-09-03",
+  "trades": []
  },
  "drug": null,
  "trials": {

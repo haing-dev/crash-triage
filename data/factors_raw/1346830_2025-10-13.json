@@ -3,11 +3,12 @@
  "cik": "1346830",
  "name": "Tvardi Therapeutics, Inc.",
  "date": "2025-10-13",
- "asof": "2025-11-12",
+ "asof": "2025-10-16",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-11-12",
-  "adj_close": 4.24
+  "date": "2025-10-16",
+  "adj_close": 6.48
  },
  "balance": {
   "end": "2025-06-30",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2025-06-30",
-  "months": 5.9,
-  "per_month": -2292639.3333333335
+  "ytd_months": 5.9,
+  "ytd": -13557000,
+  "accn": "0001558370-25-011562",
+  "ttm_per_month": -5638083.333333333,
+  "quarter_per_month": -2955000.0,
+  "per_month": -5638083.333333333
  },
  "shares": {
   "end": "2025-08-08",
@@ -29,11 +34,21 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001558370-25-011562",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 1,
+  "from": "2025-07-15",
+  "to": "2025-11-12",
+  "trades": []
  },
  "drug": null,
  "trials": {

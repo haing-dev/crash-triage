@@ -3,11 +3,12 @@
  "cik": "1425205",
  "name": "IOVANCE BIOTHERAPEUTICS, INC.",
  "date": "2022-05-27",
- "asof": "2022-06-26",
+ "asof": "2022-05-27",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-06-27",
-  "adj_close": 11.13
+  "date": "2022-05-27",
+  "adj_close": 7.02
  },
  "balance": {
   "end": "2022-03-31",
@@ -23,8 +24,12 @@
  },
  "burn": {
   "end": "2022-03-31",
-  "months": 2.9,
-  "per_month": -25241942.47191011
+  "ytd_months": 2.9,
+  "ytd": -73802000,
+  "accn": "0001558370-22-007449",
+  "ttm_per_month": -19946000.0,
+  "quarter_per_month": -24600666.666666668,
+  "per_month": -19946000.0
  },
  "shares": {
   "end": "2022-04-25",
@@ -41,16 +46,77 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001558370-22-007449",
+  "guided_until": null,
+  "guidance": "sufficient to fund our operations for at least the next twelve months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "ompany's common stock, par value $ 0.000041666 . As of March 31, 2022, 157,168,321 shares of the Company's common stock were issued and outstanding . At the Market Offering Program On February 8, 2021, the Company entered into an Open Market Sale Agreement (the &#8220;Sales Agreement&#8221;) with Jefferies LLC (&#8220;Jefferies&#8221;) with respect to an &#8220;at the market&#8221; offering progra"
+ },
  "insiders": {
   "form4s": 14,
-  "bought": 6861456,
-  "sold": 0,
-  "buyers": [
-   "MCPEAK MERRILL A",
-   "Maynard Ryan D",
-   "Rothbaum Wayne P.",
-   "Vogt Frederick G",
-   "WEISER MICHAEL"
+  "from": "2022-02-26",
+  "to": "2022-06-26",
+  "trades": [
+   {
+    "date": "2022-05-31",
+    "filed": "2022-06-02",
+    "code": "P",
+    "value": 68400,
+    "who": "MCPEAK MERRILL A"
+   },
+   {
+    "date": "2022-05-31",
+    "filed": "2022-06-02",
+    "code": "P",
+    "value": 68000,
+    "who": "MCPEAK MERRILL A"
+   },
+   {
+    "date": "2022-05-31",
+    "filed": "2022-06-02",
+    "code": "P",
+    "value": 50588,
+    "who": "Maynard Ryan D"
+   },
+   {
+    "date": "2022-05-31",
+    "filed": "2022-06-02",
+    "code": "P",
+    "value": 14850,
+    "who": "WEISER MICHAEL"
+   },
+   {
+    "date": "2022-05-31",
+    "filed": "2022-06-02",
+    "code": "P",
+    "value": 53128,
+    "who": "WEISER MICHAEL"
+   },
+   {
+    "date": "2022-06-01",
+    "filed": "2022-06-02",
+    "code": "P",
+    "value": 6440,
+    "who": "Vogt Frederick G"
+   },
+   {
+    "date": "2022-05-31",
+    "filed": "2022-06-02",
+    "code": "P",
+    "value": 3384550,
+    "who": "Rothbaum Wayne P."
+   },
+   {
+    "date": "2022-06-01",
+    "filed": "2022-06-02",
+    "code": "P",
+    "value": 3215500,
+    "who": "Rothbaum Wayne P."
+   }
   ]
  },
  "drug": null,

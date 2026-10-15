@@ -3,28 +3,33 @@
  "cik": "1133818",
  "name": "BIO-PATH HOLDINGS, INC.",
  "date": "2022-11-07",
- "asof": "2022-12-07",
+ "asof": "2022-11-08",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-12-07",
-  "adj_close": 28.8
+  "date": "2022-11-08",
+  "adj_close": 28.4
  },
  "balance": {
-  "end": "2022-09-30",
-  "cash": 13650000,
+  "end": "2022-06-30",
+  "cash": 17024000,
   "parts": [
    "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
   ],
-  "accn": "0001558370-22-017789"
+  "accn": "0001558370-22-013644"
  },
  "burn": {
-  "end": "2022-09-30",
-  "months": 8.9,
-  "per_month": -1130644.5588235294
+  "end": "2022-06-30",
+  "ytd_months": 5.9,
+  "ytd": -6729000,
+  "accn": "0001558370-22-013644",
+  "ttm_per_month": -1035083.3333333334,
+  "quarter_per_month": -1401000.0,
+  "per_month": -1035083.3333333334
  },
  "shares": {
-  "end": "2022-11-09",
-  "shares": 7960164,
+  "end": "2022-08-09",
+  "shares": 7160164,
   "split_factor": 19.989,
   "splits_after": [
    [
@@ -33,11 +38,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001558370-22-013644",
+  "guided_until": null,
+  "guidance": "sufficient to meet obligations and fund our liquidity and capital expenditure requirements for at least the next 12 months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "s from the offerings, after deducting the placement agent's fees and expenses and the Company's offering expenses, were approximately $ 12.2 million. At-The-Market Offering Agreement - On July 13, 2020, the Company entered into an At-The-Market Offering Agreement (the &#8220;Offering Agreement&#8221;) with H. C. Wainwright &amp; Co., LLC (&#8220;Wainwright&#8221;), as sales agent and/or principal,"
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2022-08-09",
+  "to": "2022-12-07",
+  "trades": []
  },
  "drug": null,
  "trials": {

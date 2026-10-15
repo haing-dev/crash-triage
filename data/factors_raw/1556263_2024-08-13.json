@@ -3,11 +3,12 @@
  "cik": "1556263",
  "name": "Syros Pharmaceuticals, Inc.",
  "date": "2024-08-13",
- "asof": "2024-09-12",
+ "asof": "2024-08-13",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-09-12",
-  "adj_close": 1.57
+  "date": "2024-08-13",
+  "adj_close": 1.92
  },
  "balance": {
   "end": "2024-06-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2024-06-30",
-  "months": 5.9,
-  "per_month": -10219262.983425414
+  "ytd_months": 5.9,
+  "ytd": -60765000,
+  "accn": "0000950170-24-088224",
+  "ttm_per_month": -9265416.666666666,
+  "quarter_per_month": -9889000.0,
+  "per_month": -9265416.666666666
  },
  "shares": {
   "end": "2024-05-07",
@@ -28,13 +33,63 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0000950170-24-088224",
+  "guided_until": null,
+  "guidance": "sufficient to fund operations for at least the next 12 months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": 203600000.0,
+  "atm_quote": "issuance of common stock through Employee Stock Purchase Plan 115 144 Payment of issuance cost related to underwritten registered direct offering and at-the-market facility ( 339 ) &#8212; Net cash (used in) provided by financing activities ( 224 ) 87 Net decrease in cash, cash equivalents and restricted cash ( 60,562 ) ( 52,025 ) Cash, cash equivalents and restricted cash (See reconciliation in N"
+ },
  "insiders": {
-  "form4s": 2,
-  "bought": 321920,
-  "sold": 0,
-  "buyers": [
-   "Chee Conley",
-   "Haas Jason"
+  "form4s": 14,
+  "from": "2024-05-15",
+  "to": "2024-09-12",
+  "trades": [
+   {
+    "date": "2024-09-10",
+    "filed": "2024-09-12",
+    "code": "P",
+    "value": 54788,
+    "who": "Haas Jason"
+   },
+   {
+    "date": "2024-09-11",
+    "filed": "2024-09-12",
+    "code": "P",
+    "value": 30446,
+    "who": "Haas Jason"
+   },
+   {
+    "date": "2024-09-12",
+    "filed": "2024-09-12",
+    "code": "P",
+    "value": 76006,
+    "who": "Haas Jason"
+   },
+   {
+    "date": "2024-09-10",
+    "filed": "2024-09-12",
+    "code": "P",
+    "value": 75260,
+    "who": "Chee Conley"
+   },
+   {
+    "date": "2024-09-11",
+    "filed": "2024-09-12",
+    "code": "P",
+    "value": 85420,
+    "who": "Chee Conley"
+   },
+   {
+    "date": "2024-06-28",
+    "filed": "2024-07-02",
+    "code": "S",
+    "value": 178365,
+    "who": "Young Richard A"
+   }
   ]
  },
  "drug": null,

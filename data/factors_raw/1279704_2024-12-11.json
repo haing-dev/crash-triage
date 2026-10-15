@@ -3,11 +3,12 @@
  "cik": "1279704",
  "name": "Cellectar Biosciences, Inc.",
  "date": "2024-12-11",
- "asof": "2025-01-10",
+ "asof": "2024-12-11",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-01-10",
-  "adj_close": 8.4
+  "date": "2024-12-11",
+  "adj_close": 9.3
  },
  "balance": {
   "end": "2024-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2024-09-30",
-  "months": 9.0,
-  "per_month": -4088718.974798535
+  "ytd_months": 9.0,
+  "ytd": -36669523,
+  "accn": "0001410578-24-002012",
+  "ttm_per_month": -3855435.25,
+  "quarter_per_month": -3055627.6666666665,
+  "per_month": -3855435.25
  },
  "shares": {
   "end": "2024-11-14",
@@ -33,11 +38,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001410578-24-002012",
+  "guided_until": "2025-06-15",
+  "guidance": "ase its liquidity, the Company may be unable to fund its operations under normal course beyond the second quarter of 2025. To",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "n stock at $ 2.085 per share and warrants to purchase up to an aggregate of 3,275,153 shares of common stock in a concurrent private placement priced at-the-market under Nasdaq rules. In a separate concurrent private placement transaction, the Company offered and sold pre-funded warrants to purchase an aggregate of 1,875,945 shares of common stock and warrants to purchase an aggregate of 1,875,945"
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2024-09-12",
+  "to": "2025-01-10",
+  "trades": []
  },
  "drug": null,
  "trials": {

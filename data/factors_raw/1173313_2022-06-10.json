@@ -3,11 +3,12 @@
  "cik": "1173313",
  "name": "ABVC BIOPHARMA, INC.",
  "date": "2022-06-10",
- "asof": "2022-07-10",
+ "asof": "2022-06-10",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-07-11",
-  "adj_close": 9.3
+  "date": "2022-06-10",
+  "adj_close": 9.0
  },
  "balance": {
   "end": "2022-03-31",
@@ -21,8 +22,12 @@
  },
  "burn": {
   "end": "2022-03-31",
-  "months": 2.9,
-  "per_month": -1024103.1806741573
+  "ytd_months": 2.9,
+  "ytd": -2994257,
+  "accn": "0001213900-22-027157",
+  "ttm_per_month": -764908.5,
+  "quarter_per_month": -998085.6666666666,
+  "per_month": -764908.5
  },
  "shares": {
   "end": "2022-05-16",
@@ -35,11 +40,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001213900-22-027157",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2022-03-12",
+  "to": "2022-07-10",
+  "trades": []
  },
  "drug": null,
  "trials": {

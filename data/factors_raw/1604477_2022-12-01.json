@@ -3,11 +3,12 @@
  "cik": "1604477",
  "name": "SQZ Biotechnologies Co",
  "date": "2022-12-01",
- "asof": "2022-12-31",
+ "asof": "2022-12-07",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-01-03",
-  "adj_close": 0.74
+  "date": "2022-12-07",
+  "adj_close": 1.23
  },
  "balance": {
   "end": "2022-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2022-09-30",
-  "months": 8.9,
-  "per_month": -7026827.794117647
+  "ytd_months": 8.9,
+  "ytd": -62789000,
+  "accn": "0000950170-22-023879",
+  "ttm_per_month": -6984083.333333333,
+  "quarter_per_month": -7293000.0,
+  "per_month": -6984083.333333333
  },
  "shares": {
   "end": "2022-11-03",
@@ -28,11 +33,21 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0000950170-22-023879",
+  "guided_until": null,
+  "guidance": "sufficient to meet our anticipated needs over the next twelve months",
+  "twelve_months": true,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "D DEFICIT TOTAL STOCKHOLDERS&#x2019; EQUITY Balances at June 30, 2022 29,148,053 $ 29 $ 326,943 $ ( 238,784 ) $ 88,188 Issuance of common stock under at-the-market offering, net of issuance costs of $ 3 202,105 &#x2014; 653 &#x2014; 653 Stock-based compensation expense &#x2014; &#x2014; 2,376 &#x2014; 2,376 Net loss &#x2014; &#x2014; &#x2014; ( 22,643 ) ( 22,643 ) Balances at September 30, 2022 29"
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2022-09-02",
+  "to": "2022-12-31",
+  "trades": []
  },
  "drug": null,
  "trials": {

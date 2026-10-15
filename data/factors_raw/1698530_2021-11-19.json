@@ -3,11 +3,12 @@
  "cik": "1698530",
  "name": "EXICURE, INC.",
  "date": "2021-11-19",
- "asof": "2021-12-19",
+ "asof": "2021-11-19",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2021-12-20",
-  "adj_close": 36.15
+  "date": "2021-11-19",
+  "adj_close": 69.0
  },
  "balance": {
   "end": "2021-09-30",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2021-09-30",
-  "months": 8.9,
-  "per_month": -2352609.117647059
+  "ytd_months": 8.9,
+  "ytd": -21022000,
+  "accn": "0001698530-21-000105",
+  "ttm_per_month": -2735750.0,
+  "quarter_per_month": 1621000.0,
+  "per_month": -2735750.0
  },
  "shares": {
   "end": "2021-11-12",
@@ -38,11 +43,29 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001698530-21-000105",
+  "guided_until": null,
+  "guidance": "sufficient to fund operations over the next twelve months",
+  "twelve_months": true,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "ugh equity or debt financings, collaboration agreements, strategic partnerships and licensing arrangements, or other arrangements, such as its &#8220;at the market offering&#8221; program pursuant to its equity distribution agreement with BMO Capital Markets Corp., to fund its current operations and business strategy. However, there can be no assurance that such additional financing will be availa"
+ },
  "insiders": {
-  "form4s": 2,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 3,
+  "from": "2021-08-21",
+  "to": "2021-12-19",
+  "trades": [
+   {
+    "date": "2021-08-27",
+    "filed": "2021-09-08",
+    "code": "P",
+    "value": 13800,
+    "who": "Papadimas Elias D."
+   }
+  ]
  },
  "drug": null,
  "trials": {

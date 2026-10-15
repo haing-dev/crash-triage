@@ -3,30 +3,39 @@
  "cik": "25743",
  "name": "TherapeuticsMD, Inc.",
  "date": "2022-05-09",
- "asof": "2022-06-08",
+ "asof": "2022-05-10",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-06-08",
-  "adj_close": 9.92
+  "date": "2022-05-10",
+  "adj_close": 4.6
  },
  "balance": {
-  "end": "2022-03-31",
-  "cash": 30384000,
+  "end": "2021-12-31",
+  "cash": 65122000,
   "parts": [
    "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
   ],
-  "accn": "0001564590-22-020440"
+  "accn": "0001564590-22-011525"
  },
  "burn": {
-  "end": "2022-03-31",
-  "months": 2.9,
-  "per_month": -10098555.505617978
+  "end": "2021-12-31",
+  "ytd_months": 12.0,
+  "ytd": -142693000,
+  "accn": "0001564590-22-011525",
+  "ttm_per_month": -11891083.333333334,
+  "quarter_per_month": -13186000.0,
+  "per_month": -11891083.333333334
  },
  "shares": {
-  "end": "2022-05-10",
-  "shares": 8668558,
-  "split_factor": 1000.0,
+  "end": "2022-04-25",
+  "shares": 433427878,
+  "split_factor": 49995.536,
   "splits_after": [
+   [
+    "2022-05-16",
+    50.0
+   ],
    [
     "2025-03-27",
     1000.0
@@ -41,11 +50,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001564590-22-011525",
+  "guided_until": null,
+  "guidance": "sufficient to meet our cash needs arising in the ordinary course of business for the next twelve months",
+  "twelve_months": true,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "-U.S. markets in which our licensees distribute our products have different pharmacovigilance reporting requirements than the U.S., there is a risk that the marketing of our drugs in those countries may increase the number of adverse events reported for our products. Our success is tied to our distribution channels. We sell our products to wholesale distributors and retail pharmacy distributors. I"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 10,
+  "from": "2022-02-08",
+  "to": "2022-06-08",
+  "trades": []
  },
  "drug": null,
  "trials": {

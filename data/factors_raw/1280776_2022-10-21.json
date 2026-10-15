@@ -3,28 +3,33 @@
  "cik": "1280776",
  "name": "IMMUNIC, INC.",
  "date": "2022-10-21",
- "asof": "2022-11-20",
+ "asof": "2022-10-21",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-11-21",
-  "adj_close": 13.1
+  "date": "2022-10-21",
+  "adj_close": 20.8
  },
  "balance": {
-  "end": "2022-09-30",
-  "cash": 72771000,
+  "end": "2022-06-30",
+  "cash": 88078000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001280776-22-000021"
+  "accn": "0001280776-22-000017"
  },
  "burn": {
-  "end": "2022-09-30",
-  "months": 8.9,
-  "per_month": -5600064.705882353
+  "end": "2022-06-30",
+  "ytd_months": 5.9,
+  "ytd": -36444000,
+  "accn": "0001280776-22-000017",
+  "ttm_per_month": -6477000.0,
+  "quarter_per_month": -5254333.333333333,
+  "per_month": -6477000.0
  },
  "shares": {
-  "end": "2022-10-28",
-  "shares": 39261547,
+  "end": "2022-07-31",
+  "shares": 30564995,
   "split_factor": 10.0,
   "splits_after": [
    [
@@ -33,12 +38,28 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001280776-22-000017",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "12; ( 58 ) &#8212; ( 58 ) Shares issued in connection with the Company's stock option plan 852 &#8212; 5 &#8212; &#8212; 5 Issuance of common stock - at the market Sales Agreement net of issuance costs of $ 918 2,904,113 &#8212; 29,638 &#8212; &#8212; 29,638 Balance at March 31, 2022 29,240,383 $ 3 $ 355,949 $ ( 310 ) $ ( 217,681 ) $ 137,961 Net loss &#8212; &#8212; &#8212; &#8212; ( 21,901 ) ( 21"
+ },
  "insiders": {
   "form4s": 1,
-  "bought": 7475,
-  "sold": 0,
-  "buyers": [
-   "Whaley Glenn"
+  "from": "2022-07-23",
+  "to": "2022-11-20",
+  "trades": [
+   {
+    "date": "2022-11-07",
+    "filed": "2022-11-08",
+    "code": "P",
+    "value": 7475,
+    "who": "Whaley Glenn"
+   }
   ]
  },
  "drug": null,

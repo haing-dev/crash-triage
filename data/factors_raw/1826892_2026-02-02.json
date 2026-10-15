@@ -3,11 +3,12 @@
  "cik": "1826892",
  "name": "BioAtla, Inc.",
  "date": "2026-02-02",
- "asof": "2026-03-04",
+ "asof": "2026-02-02",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-03-04",
-  "adj_close": 8.615
+  "date": "2026-02-02",
+  "adj_close": 8.665
  },
  "balance": {
   "end": "2025-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2025-09-30",
-  "months": 8.9,
-  "per_month": -4508813.088235294
+  "ytd_months": 8.9,
+  "ytd": -40289000,
+  "accn": "0001193125-25-280435",
+  "ttm_per_month": -4756000.0,
+  "quarter_per_month": -3293666.6666666665,
+  "per_month": -4756000.0
  },
  "shares": {
   "end": "2021-08-13",
@@ -33,13 +38,23 @@
    ]
   ]
  },
- "insiders": {
-  "form4s": 4,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+ "filing": {
+  "accn": "0001193125-25-280435",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
  },
- "drug": null,
+ "insiders": {
+  "form4s": 8,
+  "from": "2025-11-04",
+  "to": "2026-03-04",
+  "trades": []
+ },
+ "drug": "n/a",
  "trials": {
   "query": "bioatla",
   "other_trials": 0,

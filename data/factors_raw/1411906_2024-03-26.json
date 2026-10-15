@@ -3,36 +3,51 @@
  "cik": "1411906",
  "name": "Ampio Pharmaceuticals, Inc.",
  "date": "2024-03-26",
- "asof": "2024-04-25",
+ "asof": "2024-03-26",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-04-25",
-  "adj_close": 0.35
+  "date": "2024-03-26",
+  "adj_close": 0.8115
  },
  "balance": {
-  "end": "2023-12-31",
-  "cash": 4089000,
+  "end": "2023-09-30",
+  "cash": 6398000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001558370-24-004090"
+  "accn": "0001558370-23-019022"
  },
  "burn": {
-  "end": "2023-12-31",
-  "months": 12.0,
-  "per_month": -716176.2637362637
+  "end": "2023-09-30",
+  "ytd_months": 8.9,
+  "ytd": -6255000,
+  "accn": "0001558370-23-019022",
+  "ttm_per_month": -879083.3333333334,
+  "quarter_per_month": -185000.0,
+  "per_month": -879083.3333333334
  },
  "shares": {
-  "end": "2024-03-15",
-  "shares": 1135358,
+  "end": "2023-11-10",
+  "shares": 832021,
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001558370-23-019022",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "03; ( 79,000 ) &#8203; &#8203; &#8212; &#8203; &#8203; ( 79,000 ) Offering costs related to the issuance of common stock in connection with the &quot;at-the-market&quot; equity offering program &#8203; &#8212; &#8203; &#8203; &#8212; &#8203; &#8212; &#8203; &#8203; &#8212; &#8203; &#8203; ( 32,000 ) &#8203; &#8203; &#8212; &#8203; &#8203; ( 32,000 ) Net loss &#8212; &#8203; &#8212; &#8203; &#8212;"
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2023-12-27",
+  "to": "2024-04-25",
+  "trades": []
  },
  "drug": null,
  "trials": {

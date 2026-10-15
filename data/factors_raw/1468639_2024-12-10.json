@@ -3,10 +3,11 @@
  "cik": "1468639",
  "name": "Vicapsys Life Sciences, Inc.",
  "date": "2024-12-10",
- "asof": "2025-01-09",
+ "asof": "2024-12-10",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-01-10",
+  "date": "2024-12-10",
   "adj_close": 1e-06
  },
  "balance": {
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2023-12-31",
-  "months": 12.0,
-  "per_month": -34916.01802197802
+  "ytd_months": 12.0,
+  "ytd": -417524,
+  "accn": "0001493152-24-041809",
+  "ttm_per_month": -34793.666666666664,
+  "quarter_per_month": -27351.333333333332,
+  "per_month": -34793.666666666664
  },
  "shares": {
   "end": "2024-09-24",
@@ -28,11 +33,21 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001493152-24-041809",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "ion, but each sponsor seeking orphan drug designation must file a complete request for designation. 16 The period of exclusivity begins on the date that the marketing application is approved by the FDA and applies only to the indication for which the product has been designated. The FDA may approve a second application for the same product for a different use or a second application for a clinical"
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2024-09-11",
+  "to": "2025-01-09",
+  "trades": []
  },
  "drug": null,
  "trials": {

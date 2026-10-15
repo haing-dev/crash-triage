@@ -3,11 +3,12 @@
  "cik": "1402328",
  "name": "Sunshine Biopharma Inc.",
  "date": "2026-05-13",
- "asof": "2026-06-12",
+ "asof": "2026-05-14",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-06-12",
-  "adj_close": 2.22
+  "date": "2026-05-14",
+  "adj_close": 4.69
  },
  "balance": {
   "end": "2026-03-31",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2026-03-31",
-  "months": 2.9,
-  "per_month": -708704.7640449438
+  "ytd_months": 2.9,
+  "ytd": -2072100,
+  "accn": "0001683168-26-003819",
+  "ttm_per_month": -475680.9166666667,
+  "quarter_per_month": -690700.0,
+  "per_month": -475680.9166666667
  },
  "shares": {
   "end": "2026-05-13",
@@ -33,13 +38,23 @@
    ]
   ]
  },
- "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+ "filing": {
+  "accn": "0001683168-26-003819",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
  },
- "drug": null,
+ "insiders": {
+  "form4s": 1,
+  "from": "2026-02-12",
+  "to": "2026-06-12",
+  "trades": []
+ },
+ "drug": "K1.1 mRNA",
  "trials": {
   "query": "sunshine biopharma",
   "other_trials": 0,

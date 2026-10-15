@@ -3,11 +3,12 @@
  "cik": "1618835",
  "name": "Evofem Biosciences, Inc.",
  "date": "2022-05-05",
- "asof": "2022-06-04",
+ "asof": "2022-05-10",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-06-06",
-  "adj_close": 0.3596
+  "date": "2022-05-10",
+  "adj_close": 1.12
  },
  "balance": {
   "end": "2022-03-31",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2022-03-31",
-  "months": 2.9,
-  "per_month": -7154768.08988764
+  "ytd_months": 2.9,
+  "ytd": -20919000,
+  "accn": "0001618835-22-000110",
+  "ttm_per_month": -11094000.0,
+  "quarter_per_month": -6973000.0,
+  "per_month": -11094000.0
  },
  "shares": {
   "end": "2022-05-09",
@@ -37,12 +42,28 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001618835-22-000110",
+  "guided_until": "2022-04-15",
+  "guidance": "ty resources as of March 31, 2022 to be sufficient to fund our planned operations into the second quarter of 2022. As",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "gregate proceeds of $3.8 million during the first half of 2020 upon the issuance and sale of 45,110 shares of our common stock pursuant to the &#8220;at the market&#8221; (ATM) program. The ATM program was terminated in June 2020. Summary Statement of Cash Flows The following table sets forth a summary of the net cash flow activity for each of the periods set forth below (in thousands): Three Mont"
+ },
  "insiders": {
-  "form4s": 6,
-  "bought": 49702,
-  "sold": 0,
-  "buyers": [
-   "PELLETIER SAUNDRA L"
+  "form4s": 9,
+  "from": "2022-02-04",
+  "to": "2022-06-04",
+  "trades": [
+   {
+    "date": "2022-05-27",
+    "filed": "2022-05-31",
+    "code": "P",
+    "value": 49702,
+    "who": "PELLETIER SAUNDRA L"
+   }
   ]
  },
  "drug": null,

@@ -3,11 +3,12 @@
  "cik": "1419041",
  "name": "Forte Biosciences, Inc.",
  "date": "2021-09-03",
- "asof": "2021-10-03",
+ "asof": "2021-09-09",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2021-10-04",
-  "adj_close": 74.0
+  "date": "2021-09-09",
+  "adj_close": 101.0
  },
  "balance": {
   "end": "2021-06-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2021-06-30",
-  "months": 5.9,
-  "per_month": -1347477.3333333333
+  "ytd_months": 5.9,
+  "ytd": -7968000,
+  "accn": "0001564590-21-044463",
+  "ttm_per_month": -1625833.3333333333,
+  "quarter_per_month": -1312666.6666666667,
+  "per_month": -1625833.3333333333
  },
  "shares": {
   "end": "2021-08-11",
@@ -28,11 +33,43 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001564590-21-044463",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "viously issued by Tocagen, survived the Merger and remained outstanding as of June 30, 2021. On September 4, 2020, the Company entered into an &#8220;at-the-market&#8221; equity offering program (&#8220; ATM Facility&#8221;), as amended on October 28, 2020, whereby the Company may from time to time offer and sell shares of its common stock up to an aggregate offering price of $ 10.0 million during"
+ },
  "insiders": {
   "form4s": 2,
-  "bought": 0,
-  "sold": 4453205,
-  "buyers": []
+  "from": "2021-06-05",
+  "to": "2021-10-03",
+  "trades": [
+   {
+    "date": "2021-09-07",
+    "filed": "2021-09-08",
+    "code": "S",
+    "value": 4347100,
+    "who": "Wagner Paul A."
+   },
+   {
+    "date": "2021-09-07",
+    "filed": "2021-09-07",
+    "code": "S",
+    "value": 91092,
+    "who": "Riley Antony A"
+   },
+   {
+    "date": "2021-09-07",
+    "filed": "2021-09-07",
+    "code": "S",
+    "value": 15013,
+    "who": "Riley Antony A"
+   }
+  ]
  },
  "drug": null,
  "trials": {

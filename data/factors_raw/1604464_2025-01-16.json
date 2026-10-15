@@ -3,11 +3,12 @@
  "cik": "1604464",
  "name": "Atara Biotherapeutics, Inc.",
  "date": "2025-01-16",
- "asof": "2025-02-15",
+ "asof": "2025-01-16",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-02-18",
-  "adj_close": 8.08
+  "date": "2025-01-16",
+  "adj_close": 7.83
  },
  "balance": {
   "end": "2024-09-30",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2024-09-30",
-  "months": 9.0,
-  "per_month": -4933510.036630037
+  "ytd_months": 9.0,
+  "ytd": -44246000,
+  "accn": "0000950170-24-125389",
+  "ttm_per_month": -7887666.666666667,
+  "quarter_per_month": -1329666.6666666667,
+  "per_month": -7887666.666666667
  },
  "shares": {
   "end": "2024-11-06",
@@ -29,11 +34,43 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0000950170-24-125389",
+  "guided_until": null,
+  "guidance": "sufficient to fund our planned operations for at least the next 12 months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": 88700000.0,
+  "atm_quote": "tinue as a going concern, we plan to secure additional capital, potentially through a combination of public or private security offerings; use of our ATM facility as described in Note 9; and/or strategic transactions. We may need to raise additional funding as required based on the status of our development programs and our projected cash flows. Although we have been successful in raising capital "
+ },
  "insiders": {
-  "form4s": 1,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 4,
+  "from": "2024-10-18",
+  "to": "2025-02-15",
+  "trades": [
+   {
+    "date": "2024-11-18",
+    "filed": "2024-11-20",
+    "code": "S",
+    "value": 11198,
+    "who": "Henrich Jill"
+   },
+   {
+    "date": "2024-11-18",
+    "filed": "2024-11-20",
+    "code": "S",
+    "value": 15274,
+    "who": "Hyllengren Eric J"
+   },
+   {
+    "date": "2024-11-18",
+    "filed": "2024-11-20",
+    "code": "S",
+    "value": 18633,
+    "who": "Nguyen AnhCo"
+   }
+  ]
  },
  "drug": null,
  "trials": {

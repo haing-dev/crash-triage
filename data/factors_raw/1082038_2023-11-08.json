@@ -3,36 +3,52 @@
  "cik": "1082038",
  "name": "DURECT CORP",
  "date": "2023-11-08",
- "asof": "2023-12-08",
+ "asof": "2023-11-08",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-12-08",
-  "adj_close": 0.643
+  "date": "2023-11-08",
+  "adj_close": 0.527
  },
  "balance": {
-  "end": "2023-09-30",
-  "cash": 38985000,
+  "end": "2023-06-30",
+  "cash": 34745000,
   "parts": [
-   "CashAndCashEquivalentsAtCarryingValue"
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
   ],
-  "accn": "0000950170-23-063671"
+  "accn": "0000950170-23-041356"
  },
  "burn": {
-  "end": "2023-09-30",
-  "months": 8.9,
-  "per_month": -2919666.029411765
+  "end": "2023-06-30",
+  "ytd_months": 5.9,
+  "ytd": -18606000,
+  "accn": "0000950170-23-041356",
+  "ttm_per_month": -2437166.6666666665,
+  "quarter_per_month": -3114333.3333333335,
+  "per_month": -2437166.6666666665
  },
  "shares": {
-  "end": "2023-11-13",
-  "shares": 29828891,
+  "end": "2023-08-07",
+  "shares": 27600079,
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0000950170-23-041356",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "4; &#x2014; 6 &#x2014; 6 Balance at March 31, 2023 24,485 $ 23 $ 588,695 $ ( 7 ) $ ( 573,369 ) $ 15,342 Issuance of common stock pursuant to the 2021 Sales Agreement, net of issuance costs of $ 13 118 &#x2014; 658 &#x2014; &#x2014; 658 Issuance of common stock upon exercise of stock options and from the ESPP 6 &#x2014; 23 &#x2014; &#x2014; 23 Stock-based compensation expense from stock options and"
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2023-08-10",
+  "to": "2023-12-08",
+  "trades": []
  },
  "drug": null,
  "trials": {

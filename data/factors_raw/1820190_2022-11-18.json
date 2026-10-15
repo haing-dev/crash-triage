@@ -3,24 +3,30 @@
  "cik": "1820190",
  "name": "Scilex Holding Co",
  "date": "2022-11-18",
- "asof": "2022-12-18",
+ "asof": "2022-11-21",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-12-19",
-  "adj_close": 67.55915
+  "date": "2022-11-21",
+  "adj_close": 107.87671
  },
  "balance": {
   "end": "2022-09-30",
-  "cash": 34961,
+  "cash": 0,
   "parts": [
-   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+   "minus RestrictedCashCurrent"
   ],
   "accn": "0001213900-22-069366"
  },
  "burn": {
   "end": "2022-09-30",
-  "months": 8.9,
-  "per_month": -216880.63544117648
+  "ytd_months": 8.9,
+  "ytd": -1937961,
+  "accn": "0001213900-22-069366",
+  "ttm_per_month": -170473.5,
+  "quarter_per_month": -105437.33333333333,
+  "per_month": -170473.5
  },
  "shares": {
   "end": "2022-11-04",
@@ -65,11 +71,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001213900-22-069366",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 4,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 9,
+  "from": "2022-08-20",
+  "to": "2022-12-18",
+  "trades": []
  },
  "drug": null,
  "trials": {

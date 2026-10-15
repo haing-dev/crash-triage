@@ -3,11 +3,12 @@
  "cik": "1860657",
  "name": "Allarity Therapeutics, Inc.",
  "date": "2023-07-06",
- "asof": "2023-08-05",
+ "asof": "2023-07-11",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-08-07",
-  "adj_close": 1254.0
+  "date": "2023-07-11",
+  "adj_close": 1980.0
  },
  "balance": {
   "end": "2023-03-31",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2023-03-31",
-  "months": 2.9,
-  "per_month": -1094813.9325842697
+  "ytd_months": 2.9,
+  "ytd": -3201000,
+  "accn": "0001213900-23-038609",
+  "ttm_per_month": -1188583.3333333333,
+  "quarter_per_month": -1067000.0,
+  "per_month": -1188583.3333333333
  },
  "shares": {
   "end": "2023-05-11",
@@ -49,11 +54,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001213900-23-038609",
+  "guided_until": null,
+  "guidance": "sufficient to fund our current operating plan and planned capital expenditures for the next 12 months",
+  "twelve_months": true,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2023-04-07",
+  "to": "2023-08-05",
+  "trades": []
  },
  "drug": null,
  "trials": {

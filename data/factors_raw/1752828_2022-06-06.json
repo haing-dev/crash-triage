@@ -3,11 +3,12 @@
  "cik": "1752828",
  "name": "Celularity Inc",
  "date": "2022-06-06",
- "asof": "2022-07-06",
+ "asof": "2022-06-10",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-07-06",
-  "adj_close": 39.8
+  "date": "2022-06-10",
+  "adj_close": 46.2
  },
  "balance": {
   "end": "2022-03-31",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2022-03-31",
-  "months": 2.9,
-  "per_month": -11715295.73033708
+  "ytd_months": 2.9,
+  "ytd": -34253000,
+  "accn": "0001564590-22-020422",
+  "ttm_per_month": -9939083.333333334,
+  "quarter_per_month": -11417666.666666666,
+  "per_month": -9939083.333333334
  },
  "shares": {
   "end": "2022-05-12",
@@ -33,11 +38,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001564590-22-020422",
+  "guided_until": null,
+  "guidance": "sufficient to fund our operating expenses and capital expenditure requirements through the next 12 months",
+  "twelve_months": true,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 9,
+  "from": "2022-03-08",
+  "to": "2022-07-06",
+  "trades": []
  },
  "drug": null,
  "trials": {

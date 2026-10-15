@@ -3,11 +3,12 @@
  "cik": "836564",
  "name": "Mosaic ImmunoEngineering Inc.",
  "date": "2022-03-04",
- "asof": "2022-04-03",
+ "asof": "2022-03-07",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-04-04",
-  "adj_close": 0.77
+  "date": "2022-03-07",
+  "adj_close": 1.0
  },
  "balance": {
   "end": "2021-12-31",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2021-12-31",
-  "months": 12.0,
-  "per_month": -56802.04351648352
+  "ytd_months": 12.0,
+  "ytd": -679236,
+  "accn": "0001683168-22-000466",
+  "ttm_per_month": -56603.0,
+  "quarter_per_month": -55659.666666666664,
+  "per_month": -56603.0
  },
  "shares": {
   "end": "2022-01-24",
@@ -28,11 +33,21 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001683168-22-000466",
+  "guided_until": null,
+  "guidance": "sufficient to fund our operations for the next twelve months",
+  "twelve_months": true,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "ock outstanding resulting from the Discretionary Reverse Stock Split, effectively reducing our market capitalization, and there can be no assurance that the market price per post-reverse split share will either exceed or remain in excess of the prescribed initial listing minimum bid price for a sustained period of time. The market price of our common stock may vary based on other factors that are "
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 5,
+  "from": "2021-12-04",
+  "to": "2022-04-03",
+  "trades": []
  },
  "drug": null,
  "trials": {

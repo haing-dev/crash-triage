@@ -3,11 +3,12 @@
  "cik": "1622229",
  "name": "Cogent Biosciences, Inc.",
  "date": "2023-12-11",
- "asof": "2024-01-10",
+ "asof": "2023-12-11",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-01-10",
-  "adj_close": 5.33
+  "date": "2023-12-11",
+  "adj_close": 4.06
  },
  "balance": {
   "end": "2023-09-30",
@@ -21,8 +22,12 @@
  },
  "burn": {
   "end": "2023-09-30",
-  "months": 8.9,
-  "per_month": -12260381.470588235
+  "ytd_months": 8.9,
+  "ytd": -109554000,
+  "accn": "0000950170-23-059769",
+  "ttm_per_month": -11580166.666666666,
+  "quarter_per_month": -12657000.0,
+  "per_month": -11580166.666666666
  },
  "shares": {
   "end": "2023-11-03",
@@ -30,11 +35,21 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0000950170-23-059769",
+  "guided_until": "2026-01-15",
+  "guidance": "lents and marketable securities will be sufficient to fund our operating expenses and capital expenditure requirements into 2026. 18",
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "t filed with the SEC prior to the completion of any such offering. Additionally, on May 6, 2022, pursuant to the Form S-3, the Company entered into a Sales Agreement (the &#x201c;Sales Agreement&#x201d;) with Guggenheim Securities, LLC (&#x201c;Guggenheim Securities&#x201d;), pursuant to which the Company may issue and sell, from time to time, shares of its common stock having an aggregate offerin"
+ },
  "insiders": {
-  "form4s": 2,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 4,
+  "from": "2023-09-12",
+  "to": "2024-01-10",
+  "trades": []
  },
  "drug": null,
  "trials": {

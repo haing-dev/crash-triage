@@ -3,28 +3,33 @@
  "cik": "1859007",
  "name": "ZyVersa Therapeutics, Inc.",
  "date": "2023-04-26",
- "asof": "2023-05-26",
+ "asof": "2023-04-26",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-05-26",
-  "adj_close": 138.39
+  "date": "2023-04-26",
+  "adj_close": 174.3
  },
  "balance": {
-  "end": "2023-03-31",
-  "cash": 1278073,
+  "end": "2022-12-31",
+  "cash": 5902199,
   "parts": [
    "Cash"
   ],
-  "accn": "0001493152-23-016480"
+  "accn": "0001493152-23-010259"
  },
  "burn": {
-  "end": "2023-03-31",
-  "months": 2.9,
-  "per_month": -1569695.717752809
+  "end": "2022-12-31",
+  "ytd_months": 0.6,
+  "ytd": -3393888,
+  "accn": "0001493152-23-010259",
+  "ttm_per_month": null,
+  "quarter_per_month": -1131296.0,
+  "per_month": -5739441.706666667
  },
  "shares": {
-  "end": "2023-05-10",
-  "shares": 20225263,
+  "end": "2023-03-23",
+  "shares": 9211922,
   "split_factor": 122506.236,
   "splits_after": [
    [
@@ -41,11 +46,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001493152-23-010259",
+  "guided_until": "2023-06-15",
+  "guidance": "d cash equivalents on hand will only be sufficient to meet our anticipated cash requirements through the second quarter of 2023. If",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 1,
+  "from": "2023-01-26",
+  "to": "2023-05-26",
+  "trades": []
  },
  "drug": null,
  "trials": {

@@ -3,28 +3,33 @@
  "cik": "1659323",
  "name": "Iterum Therapeutics plc",
  "date": "2020-10-23",
- "asof": "2020-11-22",
+ "asof": "2020-10-28",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2020-11-23",
-  "adj_close": 8.625
+  "date": "2020-10-28",
+  "adj_close": 6.849
  },
  "balance": {
-  "end": "2020-09-30",
-  "cash": 8570000,
+  "end": "2020-06-30",
+  "cash": 12250000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001564590-20-054013"
+  "accn": "0001564590-20-037240"
  },
  "burn": {
-  "end": "2020-09-30",
-  "months": 9.0,
-  "per_month": -5072998.827838828
+  "end": "2020-06-30",
+  "ytd_months": 5.9,
+  "ytd": -41080000,
+  "accn": "0001564590-20-037240",
+  "ttm_per_month": -7208833.333333333,
+  "quarter_per_month": -4563000.0,
+  "per_month": -7208833.333333333
  },
  "shares": {
-  "end": "2020-10-31",
-  "shares": 43035245,
+  "end": "2020-07-31",
+  "shares": 21239093,
   "split_factor": 15.0,
   "splits_after": [
    [
@@ -33,12 +38,35 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001564590-20-037240",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 1,
-  "bought": 0,
-  "sold": 0,
-  "buyers": [
-   "Dunne Michael W."
+  "form4s": 2,
+  "from": "2020-07-25",
+  "to": "2020-11-22",
+  "trades": [
+   {
+    "date": "2020-10-27",
+    "filed": "2020-10-28",
+    "code": "P",
+    "value": 0,
+    "who": "Dunne Michael W."
+   },
+   {
+    "date": "2020-09-30",
+    "filed": "2020-10-02",
+    "code": "S",
+    "value": 92053,
+    "who": "Matthews Judith M."
+   }
   ]
  },
  "drug": null,

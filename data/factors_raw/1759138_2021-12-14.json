@@ -3,11 +3,12 @@
  "cik": "1759138",
  "name": "Cabaletta Bio, Inc.",
  "date": "2021-12-14",
- "asof": "2022-01-13",
+ "asof": "2021-12-14",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-01-13",
-  "adj_close": 3.37
+  "date": "2021-12-14",
+  "adj_close": 3.36
  },
  "balance": {
   "end": "2021-09-30",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2021-09-30",
-  "months": 8.9,
-  "per_month": -2640446.176470588
+  "ytd_months": 8.9,
+  "ytd": -23594000,
+  "accn": "0001564590-21-053043",
+  "ttm_per_month": -2730583.3333333335,
+  "quarter_per_month": -2781333.3333333335,
+  "per_month": -2730583.3333333335
  },
  "shares": {
   "end": "2021-10-29",
@@ -29,11 +34,36 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001564590-21-053043",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "similar public health crisis&#59; &#8226; our expected use of proceeds from the initial public offering and from sales of our common stock in &#8220;at-the-market&#8221; offerings and the period over which such proceeds, together with existing cash, will be sufficient to meet our operating needs&#59; &#8226; our plans to pursue research and development of other product candidates&#59; &#8226; our "
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 1,
+  "from": "2021-09-15",
+  "to": "2022-01-13",
+  "trades": [
+   {
+    "date": "2021-11-01",
+    "filed": "2021-11-03",
+    "code": "S",
+    "value": 3359928,
+    "who": "5AM Ventures V, L.P."
+   },
+   {
+    "date": "2021-11-01",
+    "filed": "2021-11-03",
+    "code": "S",
+    "value": 475072,
+    "who": "5AM Ventures V, L.P."
+   }
+  ]
  },
  "drug": null,
  "trials": {

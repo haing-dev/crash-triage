@@ -3,37 +3,58 @@
  "cik": "1191070",
  "name": "Neuphoria Therapeutics Inc.",
  "date": "2025-10-21",
- "asof": "2025-11-20",
+ "asof": "2025-10-22",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-11-20",
-  "adj_close": 4.21
+  "date": "2025-10-22",
+  "adj_close": 4.3
  },
  "balance": {
-  "end": "2025-09-30",
-  "cash": 13649638,
+  "end": "2025-06-30",
+  "cash": 14210745,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001193125-25-281579"
+  "accn": "0001193125-25-223338"
  },
  "burn": {
-  "end": "2025-09-30",
-  "months": 3.0,
-  "per_month": -1269330.6057142857
+  "end": "2025-06-30",
+  "ytd_months": 12.0,
+  "ytd": 77229,
+  "accn": "0001193125-25-223338",
+  "ttm_per_month": 6435.75,
+  "quarter_per_month": -1195024.3333333333,
+  "per_month": 6435.75
  },
  "shares": {
-  "end": "2025-11-13",
-  "shares": 5377329,
+  "end": "2025-09-29",
+  "shares": 2357613,
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001193125-25-223338",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "sale and issuance of shares and warrant, partially offset by equity issuance costs of $0.4 million. On November 18, 2024, the Company entered into an At The Market Offering Agreement (the &#8220;Sales Agreement&#8221;) with H.C. Wainwright &amp; Co., LLC (the &#8220;Sales Agent&#8221;). Pursuant to the Sales Agreement, the Sales Agent will act as the Company's agent with respect to an offering and"
+ },
  "insiders": {
-  "form4s": 1,
-  "bought": 3283108,
-  "sold": 0,
-  "buyers": [
-   "Lynx1 Capital Management LP"
+  "form4s": 2,
+  "from": "2025-07-23",
+  "to": "2025-11-20",
+  "trades": [
+   {
+    "date": "2025-10-21",
+    "filed": "2025-10-23",
+    "code": "P",
+    "value": 3283108,
+    "who": "Lynx1 Capital Management LP"
+   }
   ]
  },
  "drug": null,

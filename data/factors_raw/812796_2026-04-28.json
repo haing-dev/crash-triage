@@ -3,49 +3,57 @@
  "cik": "812796",
  "name": "SOLIGENIX, INC.",
  "date": "2026-04-28",
- "asof": "2026-05-28",
+ "asof": "2026-04-29",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-05-28",
-  "adj_close": 0.97000003
+  "date": "2026-04-29",
+  "adj_close": 0.34
  },
  "balance": {
-  "end": "2026-03-31",
-  "cash": 6029430,
+  "end": "2025-12-31",
+  "cash": 7936153,
   "parts": [
    "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
   ],
-  "accn": "0001104659-26-057904"
+  "accn": "0001104659-26-037701"
  },
  "burn": {
-  "end": "2026-03-31",
-  "months": 2.9,
-  "per_month": -806394.2485393259
+  "end": "2025-12-31",
+  "ytd_months": 12.0,
+  "ytd": -10266553,
+  "accn": "0001104659-26-037701",
+  "ttm_per_month": -855546.0833333334,
+  "quarter_per_month": -915034.6666666666,
+  "per_month": -855546.0833333334
  },
  "shares": {
-  "end": "2026-05-01",
-  "shares": 14824174,
+  "end": "2026-03-24",
+  "shares": 10306079,
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001104659-26-037701",
+  "guided_until": "2026-10-15",
+  "guidance": "that we have sufficient resources available to support our development activities and business operations and timely satisfy our obligations as they come due into the fourth quarter of 2026. We",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "nd drug product collaborations; &#9679; additional proceeds from government contract and grant programs; and &#8203; &#9679; additional proceeds from at-the-market sales of shares of our common stock via an At Market Issuance Sales Agreement (&#8220;Rodman Sales Agreement&#8221;) with Rodman &amp; Renshaw LLC. &#8203; In January 2026, we entered into the Rodman Sales Agreement (See Note 12 in the "
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2026-01-28",
+  "to": "2026-05-28",
+  "trades": []
  },
- "drug": null,
+ "drug": "HyBryte (SGX301, synthetic hypericin)",
  "trials": {
   "query": "soligenix",
-  "other_trials": 1,
-  "crashed_drug_trials": 0,
-  "examples": [
-   {
-    "nct": "NCT06470451",
-    "drugs": [
-     "Hypericin"
-    ]
-   }
-  ]
+  "other_trials": 0,
+  "crashed_drug_trials": 1,
+  "examples": []
  }
 }

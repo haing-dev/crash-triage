@@ -3,11 +3,12 @@
  "cik": "1819615",
  "name": "Clever Leaves Holdings Inc.",
  "date": "2022-03-28",
- "asof": "2022-04-27",
+ "asof": "2022-03-28",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-04-27",
-  "adj_close": 43.8
+  "date": "2022-03-28",
+  "adj_close": 57.3
  },
  "balance": {
   "end": "2021-12-31",
@@ -19,15 +20,72 @@
  },
  "burn": {
   "end": "2021-12-31",
-  "months": 12.0,
-  "per_month": -3030034.395604396
+  "ytd_months": 12.0,
+  "ytd": -36233000,
+  "accn": "0001819615-22-000056",
+  "ttm_per_month": -3019416.6666666665,
+  "quarter_per_month": -2679333.3333333335,
+  "per_month": -3019416.6666666665
  },
  "shares": null,
+ "filing": {
+  "accn": "0001819615-22-000056",
+  "guided_until": null,
+  "guidance": "sufficient to meet our currently anticipated cash requirements through the next twelve months",
+  "twelve_months": true,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "va, we have a preferred supply relationship with Cansativa with respect to products sourced from Colombia and have recently entered into a multi-year sales agreement with them. We also entered into a sales agreement with a European manufacturer and distributor of pharmaceuticals products, for the sale of medical cannabis extracts produced in our EU GMP certified facilities in Colombia and have beg"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 14,
+  "from": "2021-12-28",
+  "to": "2022-04-27",
+  "trades": [
+   {
+    "date": "2022-03-03",
+    "filed": "2022-03-03",
+    "code": "S",
+    "value": 2364,
+    "who": "Kastin David"
+   },
+   {
+    "date": "2022-03-03",
+    "filed": "2022-03-03",
+    "code": "S",
+    "value": 4981,
+    "who": "Hague Henry R III"
+   },
+   {
+    "date": "2021-12-30",
+    "filed": "2022-01-03",
+    "code": "S",
+    "value": 148397,
+    "who": "Detwiler Kyle"
+   },
+   {
+    "date": "2021-12-30",
+    "filed": "2022-01-03",
+    "code": "S",
+    "value": 5365,
+    "who": "Kastin David"
+   },
+   {
+    "date": "2021-12-30",
+    "filed": "2022-01-03",
+    "code": "S",
+    "value": 14305,
+    "who": "Fajardo Andres"
+   },
+   {
+    "date": "2021-12-30",
+    "filed": "2022-01-03",
+    "code": "S",
+    "value": 10608,
+    "who": "Wilches Julian"
+   }
+  ]
  },
  "drug": null,
  "trials": {

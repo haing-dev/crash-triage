@@ -3,31 +3,40 @@
  "cik": "1827506",
  "name": "Tourmaline Bio, Inc.",
  "date": "2023-10-20",
- "asof": "2023-11-19",
+ "asof": "2023-10-23",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-11-20",
-  "adj_close": 17.65
+  "date": "2023-10-23",
+  "adj_close": 9.46
  },
  "balance": {
-  "end": "2023-09-30",
-  "cash": 147024000,
+  "end": "2023-06-30",
+  "cash": 152252000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue",
    "MarketableSecuritiesCurrent"
   ],
-  "accn": "0001193125-23-277196"
+  "accn": "0000950170-23-042065"
  },
  "burn": {
-  "end": "2023-09-30",
-  "months": 8.9,
-  "per_month": -4375973.823529412
+  "end": "2023-06-30",
+  "ytd_months": 5.9,
+  "ytd": -31581000,
+  "accn": "0000950170-23-042065",
+  "ttm_per_month": -4910083.333333333,
+  "quarter_per_month": -4893000.0,
+  "per_month": -4910083.333333333
  },
  "shares": {
-  "end": "2023-11-10",
-  "shares": 20336741,
-  "split_factor": 199.737,
+  "end": "2023-08-01",
+  "shares": 42764165,
+  "split_factor": 1997.366,
   "splits_after": [
+   [
+    "2023-11-14",
+    10.0
+   ],
    [
     "2024-03-19",
     47.03
@@ -38,15 +47,70 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0000950170-23-042065",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "e fiscal year ending after the fifth anniversary of our initial public offering. 29 We are also a &#x201c;smaller reporting company&#x201d; meaning that the market value of our stock held by non-affiliates is less than $700 million and our annual revenue was less than $100 million during the most recently completed fiscal year. We may continue to be a smaller reporting company if either (i) the ma"
+ },
  "insiders": {
   "form4s": 15,
-  "bought": 557986,
-  "sold": 0,
-  "buyers": [
-   "Castelein Caley",
-   "KANTOFF AARON",
-   "Kulkarni Sandeep Chidambar",
-   "Thiara Parvinder"
+  "from": "2023-07-22",
+  "to": "2023-11-19",
+  "trades": [
+   {
+    "date": "2023-10-25",
+    "filed": "2023-10-27",
+    "code": "P",
+    "value": 50694,
+    "who": "Castelein Caley"
+   },
+   {
+    "date": "2023-10-27",
+    "filed": "2023-10-27",
+    "code": "P",
+    "value": 229890,
+    "who": "Castelein Caley"
+   },
+   {
+    "date": "2023-10-24",
+    "filed": "2023-10-26",
+    "code": "P",
+    "value": 49662,
+    "who": "Kulkarni Sandeep Chidambar"
+   },
+   {
+    "date": "2023-10-26",
+    "filed": "2023-10-26",
+    "code": "P",
+    "value": 61250,
+    "who": "Kulkarni Sandeep Chidambar"
+   },
+   {
+    "date": "2023-10-24",
+    "filed": "2023-10-26",
+    "code": "P",
+    "value": 88950,
+    "who": "KANTOFF AARON"
+   },
+   {
+    "date": "2023-10-24",
+    "filed": "2023-10-26",
+    "code": "P",
+    "value": 53300,
+    "who": "Thiara Parvinder"
+   },
+   {
+    "date": "2023-10-25",
+    "filed": "2023-10-26",
+    "code": "P",
+    "value": 24240,
+    "who": "Thiara Parvinder"
+   }
   ]
  },
  "drug": null,

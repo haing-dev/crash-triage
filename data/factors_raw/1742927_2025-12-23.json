@@ -3,11 +3,12 @@
  "cik": "1742927",
  "name": "REVIVA PHARMACEUTICALS HOLDINGS, INC.",
  "date": "2025-12-23",
- "asof": "2026-01-22",
+ "asof": "2025-12-24",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-01-22",
-  "adj_close": 6.8
+  "date": "2025-12-24",
+  "adj_close": 5.56
  },
  "balance": {
   "end": "2025-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2025-09-30",
-  "months": 8.9,
-  "per_month": -2103541.8752941177
+  "ytd_months": 8.9,
+  "ytd": -18796432,
+  "accn": "0001437749-25-034827",
+  "ttm_per_month": -2324744.0833333335,
+  "quarter_per_month": -1863162.0,
+  "per_month": -2324744.0833333335
  },
  "shares": {
   "end": "2025-11-11",
@@ -33,13 +38,23 @@
    ]
   ]
  },
- "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+ "filing": {
+  "accn": "0001437749-25-034827",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "apital Deficit Equity (Deficit) Balance at June 30, 2025 68,003,613 $ 6,800 $ 176,293,553 $ ( 176,759,500 ) $ ( 459,147 ) Issuance of common stock in At-The-Market (ATM) offering, net of transaction costs 1,183,506 118 500,855 &#8212; 500,973 Issuance of common stock in September 2025 public offering, net of transaction costs 27,000,000 2,700 3,362,148 &#8212; 3,364,848 Issuance of common stock wa"
  },
- "drug": null,
+ "insiders": {
+  "form4s": 4,
+  "from": "2025-09-24",
+  "to": "2026-01-22",
+  "trades": []
+ },
+ "drug": "brilaroxazine",
  "trials": {
   "query": "reviva pharmaceuticals",
   "other_trials": 0,

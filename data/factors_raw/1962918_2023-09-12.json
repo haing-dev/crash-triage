@@ -3,11 +3,12 @@
  "cik": "1962918",
  "name": "ACELYRIN, Inc.",
  "date": "2023-09-12",
- "asof": "2023-10-12",
+ "asof": "2023-09-13",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-10-12",
-  "adj_close": 9.6
+  "date": "2023-09-13",
+  "adj_close": 10.71
  },
  "balance": {
   "end": "2023-06-30",
@@ -19,7 +20,11 @@
  },
  "burn": {
   "end": "2023-06-30",
-  "months": 5.9,
+  "ytd_months": 5.9,
+  "ytd": -56949000,
+  "accn": "0001962918-23-000013",
+  "ttm_per_month": null,
+  "quarter_per_month": -10540000.0,
   "per_month": -9630708.666666666
  },
  "shares": {
@@ -28,11 +33,21 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001962918-23-000013",
+  "guided_until": null,
+  "guidance": "sufficient to fund its current operating plan and capital expenditure requirements for at least the next 12 months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 4,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 10,
+  "from": "2023-06-14",
+  "to": "2023-10-12",
+  "trades": []
  },
  "drug": null,
  "trials": {

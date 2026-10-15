@@ -3,11 +3,12 @@
  "cik": "1780097",
  "name": "Baudax Bio, Inc.",
  "date": "2022-12-12",
- "asof": "2023-01-11",
+ "asof": "2022-12-16",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-01-11",
-  "adj_close": 3.45
+  "date": "2022-12-16",
+  "adj_close": 1.94
  },
  "balance": {
   "end": "2022-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2022-09-30",
-  "months": 8.9,
-  "per_month": -2687001.470588235
+  "ytd_months": 8.9,
+  "ytd": -24010000,
+  "accn": "0000950170-22-023184",
+  "ttm_per_month": -3054666.6666666665,
+  "quarter_per_month": -1296000.0,
+  "per_month": -3054666.6666666665
  },
  "shares": {
   "end": "2022-11-02",
@@ -33,12 +38,28 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0000950170-22-023184",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "any is authorized to issue 190,000,000 shares of common stock, with a par value of $ 0.01 per share. On February 13, 2020, the Company entered into a Sales Agreement (the &#x201c;ATM Facility&#x201d;) with JMP Securities LLC, as sales agent (the &#x201c;Agent&#x201d;), pursuant to which the Company may, from time to time, issue and sell shares of its common stock, par value $ 0.01 per share, in an"
+ },
  "insiders": {
   "form4s": 1,
-  "bought": 3057,
-  "sold": 0,
-  "buyers": [
-   "HENWOOD GERALDINE"
+  "from": "2022-09-13",
+  "to": "2023-01-11",
+  "trades": [
+   {
+    "date": "2022-12-15",
+    "filed": "2022-12-19",
+    "code": "P",
+    "value": 3057,
+    "who": "HENWOOD GERALDINE"
+   }
   ]
  },
  "drug": null,

@@ -3,11 +3,12 @@
  "cik": "1133869",
  "name": "CAPRICOR THERAPEUTICS, INC.",
  "date": "2023-09-29",
- "asof": "2023-10-29",
+ "asof": "2023-10-04",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-10-30",
-  "adj_close": 2.77
+  "date": "2023-10-04",
+  "adj_close": 2.84
  },
  "balance": {
   "end": "2023-06-30",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2023-06-30",
-  "months": 5.9,
-  "per_month": -880673.8453333334
+  "ytd_months": 5.9,
+  "ytd": -5207664,
+  "accn": "0001558370-23-013763",
+  "ttm_per_month": -1482943.5,
+  "quarter_per_month": -3139250.0,
+  "per_month": -1482943.5
  },
  "shares": {
   "end": "2023-08-07",
@@ -29,14 +34,56 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001558370-23-013763",
+  "guided_until": null,
+  "guidance": "sufficient to fund our operations for at least the next twelve months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "ation and Distribution Agreement (see Note 7 &#8211; &#8220;License and Distribution Agreements&#8221;). Additionally, the Company has a Common Stock Sales Agreement in place with H.C. Wainwright &amp; Co. LLC (&quot;Wainwright&quot;) to create at-the-market equity programs under which the Company, from time to time, sells shares of its common stock (see Note 2 - &quot;Stockholders&#39; Equity&quo"
+ },
  "insiders": {
-  "form4s": 6,
-  "bought": 65212,
-  "sold": 0,
-  "buyers": [
-   "Auwaerter Paul Gisbert",
-   "COLLIER EARL M JR",
-   "Musket David B"
+  "form4s": 10,
+  "from": "2023-07-01",
+  "to": "2023-10-29",
+  "trades": [
+   {
+    "date": "2023-10-12",
+    "filed": "2023-10-13",
+    "code": "P",
+    "value": 1128,
+    "who": "Musket David B"
+   },
+   {
+    "date": "2023-10-10",
+    "filed": "2023-10-12",
+    "code": "P",
+    "value": 28300,
+    "who": "COLLIER EARL M JR"
+   },
+   {
+    "date": "2023-10-09",
+    "filed": "2023-10-11",
+    "code": "P",
+    "value": 14334,
+    "who": "Musket David B"
+   },
+   {
+    "date": "2023-10-06",
+    "filed": "2023-10-10",
+    "code": "P",
+    "value": 14200,
+    "who": "Auwaerter Paul Gisbert"
+   },
+   {
+    "date": "2023-10-04",
+    "filed": "2023-10-06",
+    "code": "P",
+    "value": 7250,
+    "who": "Musket David B"
+   }
   ]
  },
  "drug": null,

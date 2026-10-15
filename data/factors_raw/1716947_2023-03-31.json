@@ -3,11 +3,12 @@
  "cik": "1716947",
  "name": "Ensysce Biosciences, Inc.",
  "date": "2023-03-31",
- "asof": "2023-04-30",
+ "asof": "2023-04-05",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-05-01",
-  "adj_close": 55.2
+  "date": "2023-04-05",
+  "adj_close": 51.0
  },
  "balance": {
   "end": "2022-12-31",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2022-12-31",
-  "months": 12.0,
-  "per_month": -1495861.657032967
+  "ytd_months": 12.0,
+  "ytd": -17887439,
+  "accn": "0001493152-23-009844",
+  "ttm_per_month": -1490619.9166666667,
+  "quarter_per_month": -1098540.0,
+  "per_month": -1490619.9166666667
  },
  "shares": {
   "end": "2023-03-27",
@@ -41,11 +46,50 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001493152-23-009844",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "saction. An &#8220; alternate transaction &#8221; includes an issuance of common stock at a price less than the then current market price, an &#8220; at-the-market &#8221; offering of securities, and an issuance of options, warrants, or similar rights of subscription or the issuance of convertible equity or debt securities. See &#8220; Risks Related to Our Business, Financial Condition and Capital"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 3,
+  "from": "2022-12-31",
+  "to": "2023-04-30",
+  "trades": [
+   {
+    "date": "2023-03-02",
+    "filed": "2023-03-06",
+    "code": "P",
+    "value": 44087,
+    "who": "GOWER BOB G"
+   },
+   {
+    "date": "2023-02-28",
+    "filed": "2023-03-02",
+    "code": "P",
+    "value": 53371,
+    "who": "GOWER BOB G"
+   },
+   {
+    "date": "2023-03-01",
+    "filed": "2023-03-02",
+    "code": "P",
+    "value": 128979,
+    "who": "GOWER BOB G"
+   },
+   {
+    "date": "2022-12-09",
+    "filed": "2023-02-01",
+    "code": "P",
+    "value": 500000,
+    "who": "GOWER BOB G"
+   }
+  ]
  },
  "drug": null,
  "trials": {

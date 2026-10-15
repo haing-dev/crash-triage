@@ -3,11 +3,12 @@
  "cik": "1875558",
  "name": "Nuvectis Pharma, Inc.",
  "date": "2024-11-14",
- "asof": "2024-12-14",
+ "asof": "2024-11-15",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-12-16",
-  "adj_close": 4.87
+  "date": "2024-11-15",
+  "adj_close": 4.95
  },
  "balance": {
   "end": "2024-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2024-09-30",
-  "months": 9.0,
-  "per_month": -1090710.9157509159
+  "ytd_months": 9.0,
+  "ytd": -9782000,
+  "accn": "0001558370-24-014340",
+  "ttm_per_month": -1136000.0,
+  "quarter_per_month": -801333.3333333334,
+  "per_month": -1136000.0
  },
  "shares": {
   "end": "2024-11-01",
@@ -28,13 +33,42 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001558370-24-014340",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": 26600000.0,
+  "atm_quote": "s &#8203; 79,104 &#8203; * &#8203; &#8203; 816 &#8203; &#8203; &#8212; &#8203; &#8203; 816 Issuance of common share, net of offering costs of $ 152 - At-the-market &#8203; 188,970 &#8203; * &#8203; &#8203; 3,110 &#8203; &#8203; &#8212; &#8203; &#8203; 3,110 Exercise of share options &#8203; 6,809 &#8203; * &#8203; &#8203; 38 &#8203; &#8203; &#8212; &#8203; &#8203; 38 Net loss for the period &#8212"
+ },
  "insiders": {
-  "form4s": 2,
-  "bought": 108380,
-  "sold": 0,
-  "buyers": [
-   "BENTSUR RON",
-   "Poradosu Enrique"
+  "form4s": 3,
+  "from": "2024-08-16",
+  "to": "2024-12-14",
+  "trades": [
+   {
+    "date": "2024-11-19",
+    "filed": "2024-11-20",
+    "code": "P",
+    "value": 9980,
+    "who": "Poradosu Enrique"
+   },
+   {
+    "date": "2024-11-15",
+    "filed": "2024-11-18",
+    "code": "P",
+    "value": 98400,
+    "who": "BENTSUR RON"
+   },
+   {
+    "date": "2024-11-07",
+    "filed": "2024-11-08",
+    "code": "S",
+    "value": 22478,
+    "who": "Carson Michael J."
+   }
   ]
  },
  "drug": null,

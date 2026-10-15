@@ -3,28 +3,33 @@
  "cik": "1582554",
  "name": "Matinas BioPharma Holdings, Inc.",
  "date": "2023-10-12",
- "asof": "2023-11-11",
+ "asof": "2023-10-13",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-11-13",
-  "adj_close": 10.9
+  "date": "2023-10-13",
+  "adj_close": 10.55
  },
  "balance": {
-  "end": "2023-09-30",
-  "cash": 18216000,
+  "end": "2023-06-30",
+  "cash": 22513000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue",
    "MarketableSecuritiesCurrent"
   ],
-  "accn": "0001493152-23-039892"
+  "accn": "0001493152-23-027340"
  },
  "burn": {
-  "end": "2023-09-30",
-  "months": 8.9,
-  "per_month": -1197343.9705882352
+  "end": "2023-06-30",
+  "ytd_months": 5.9,
+  "ytd": -6280000,
+  "accn": "0001493152-23-027340",
+  "ttm_per_month": -1295750.0,
+  "quarter_per_month": -731000.0,
+  "per_month": -1295750.0
  },
  "shares": {
-  "end": "2023-11-03",
+  "end": "2023-08-04",
   "shares": 217264526,
   "split_factor": 50.0,
   "splits_after": [
@@ -34,11 +39,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001493152-23-027340",
+  "guided_until": "2024-07-15",
+  "guidance": "marketable debt securities on hand are sufficient to fund planned operations into the third quarter of 2024, but",
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "continue as a going concern is dependent upon control over its operating expenses, anticipated proceeds from future sales of common stock through the At-The-Market Sales Agreement (&#8220;ATM&#8221;) with BTIG, LLC. and securing additional financing. While the Company believes in the viability of this strategy and believes the actions presently being taken by the Company provide the opportunity fo"
+ },
  "insiders": {
   "form4s": 6,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2023-07-14",
+  "to": "2023-11-11",
+  "trades": []
  },
  "drug": null,
  "trials": {

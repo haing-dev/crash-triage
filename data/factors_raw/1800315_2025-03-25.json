@@ -3,11 +3,12 @@
  "cik": "1800315",
  "name": "Damora Therapeutics, Inc.",
  "date": "2025-03-25",
- "asof": "2025-04-24",
+ "asof": "2025-03-31",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-04-24",
-  "adj_close": 2.85
+  "date": "2025-03-31",
+  "adj_close": 3.1
  },
  "balance": {
   "end": "2024-12-31",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2024-12-31",
-  "months": 12.0,
-  "per_month": -1553107.1780821919
+  "ytd_months": 12.0,
+  "ytd": -18623000,
+  "accn": "0000950170-25-041981",
+  "ttm_per_month": -1551916.6666666667,
+  "quarter_per_month": -1645333.3333333333,
+  "per_month": -1551916.6666666667
  },
  "shares": {
   "end": "2025-03-14",
@@ -28,11 +33,43 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0000950170-25-041981",
+  "guided_until": "2026-01-15",
+  "guidance": "sting cash and cash equivalents will be sufficient to fund the preclinical development of GB3226 into 2026, inc",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "d, if approved, would provide a significant improvement in safety and effectiveness compared to available therapies. The FDA determines at the time that the marketing application is submitted, on a case-by-case basis, whether the proposed drug represents a significant improvement in treatment, prevention or diagnosis of disease when compared with other available therapies. Significant improvement "
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 4,
+  "from": "2024-12-25",
+  "to": "2025-04-24",
+  "trades": [
+   {
+    "date": "2025-01-03",
+    "filed": "2025-01-07",
+    "code": "S",
+    "value": 2638,
+    "who": "Winslow Garrett"
+   },
+   {
+    "date": "2025-01-03",
+    "filed": "2025-01-07",
+    "code": "S",
+    "value": 1469,
+    "who": "Firmani Lori"
+   },
+   {
+    "date": "2025-01-03",
+    "filed": "2025-01-07",
+    "code": "S",
+    "value": 7510,
+    "who": "Schambye Hans T."
+   }
+  ]
  },
  "drug": null,
  "trials": {

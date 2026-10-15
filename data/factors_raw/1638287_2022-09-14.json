@@ -3,11 +3,12 @@
  "cik": "1638287",
  "name": "MetaVia Inc.",
  "date": "2022-09-14",
- "asof": "2022-10-14",
+ "asof": "2022-09-19",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-10-14",
-  "adj_close": 1122.0
+  "date": "2022-09-19",
+  "adj_close": 1284.80005
  },
  "balance": {
   "end": "2022-06-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2022-06-30",
-  "months": 5.9,
-  "per_month": -1276112.4444444445
+  "ytd_months": 5.9,
+  "ytd": -7546000,
+  "accn": "0001558370-22-013500",
+  "ttm_per_month": -1079333.3333333333,
+  "quarter_per_month": -905666.6666666666,
+  "per_month": -1079333.3333333333
  },
  "shares": {
   "end": "2022-08-11",
@@ -41,11 +46,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001558370-22-013500",
+  "guided_until": "2023-01-15",
+  "guidance": "believes that its existing cash will be sufficient to fund its operations into the first quarter of 2023. The",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 2,
+  "from": "2022-06-16",
+  "to": "2022-10-14",
+  "trades": []
  },
  "drug": null,
  "trials": {

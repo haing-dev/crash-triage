@@ -3,11 +3,12 @@
  "cik": "1262104",
  "name": "Lite Strategy, Inc.",
  "date": "2022-03-25",
- "asof": "2022-04-24",
+ "asof": "2022-03-28",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-04-25",
-  "adj_close": 11.4
+  "date": "2022-03-28",
+  "adj_close": 10.8
  },
  "balance": {
   "end": "2021-12-31",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2021-12-31",
-  "months": 6.0,
-  "per_month": -2709160.0
+  "ytd_months": 6.0,
+  "ytd": -16287000,
+  "accn": "0000950170-22-001070",
+  "ttm_per_month": -3599166.6666666665,
+  "quarter_per_month": -2855333.3333333335,
+  "per_month": -3599166.6666666665
  },
  "shares": {
   "end": "2022-02-08",
@@ -34,11 +39,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0000950170-22-001070",
+  "guided_until": null,
+  "guidance": "sufficient to meet our obligations and fund our liquidity and capital expenditure requirements for at least the next 12 months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": 60000000.0,
+  "atm_quote": "aggregate value of securities available under the shelf registration statement, including up to $ 60.0 million remaining available under the 2020 ATM Sales Agreement described below. At-The-Market Equity Offering On November 10, 2020, we entered into an At-The-Market Equity Offering Sales Agreement (the &#x201c;2020 ATM Sales Agreement&#x201d;), pursuant to which we may sell an aggregate of up to "
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2021-12-25",
+  "to": "2022-04-24",
+  "trades": []
  },
  "drug": null,
  "trials": {

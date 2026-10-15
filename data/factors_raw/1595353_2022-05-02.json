@@ -3,11 +3,12 @@
  "cik": "1595353",
  "name": "Galmed Pharmaceuticals Ltd.",
  "date": "2022-05-02",
- "asof": "2022-06-01",
+ "asof": "2022-05-06",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2022-06-01",
-  "adj_close": 756.0
+  "date": "2022-05-06",
+  "adj_close": 1094.40002
  },
  "balance": {
   "end": "2021-12-31",
@@ -21,8 +22,12 @@
  },
  "burn": {
   "end": "2021-12-31",
-  "months": 12.0,
-  "per_month": -2750638.681318681
+  "ytd_months": 12.0,
+  "ytd": -32892000,
+  "accn": "0001493152-22-011729",
+  "ttm_per_month": -2741000.0,
+  "quarter_per_month": null,
+  "per_month": -2741000.0
  },
  "shares": {
   "end": "2021-12-31",
@@ -43,11 +48,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001493152-22-011729",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "ur operations or require us to relinquish rights. We may seek additional capital through a combination of private and public equity offerings, &#8220;at-the-market&#8221; issuances, equity-linked and structured transactions, debt (straight, convertible, or otherwise) financings, collaborations and licensing arrangements. Under our existing &#8220;at the market&#8221; equity offering program as of "
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2022-02-01",
+  "to": "2022-06-01",
+  "trades": []
  },
  "drug": null,
  "trials": {

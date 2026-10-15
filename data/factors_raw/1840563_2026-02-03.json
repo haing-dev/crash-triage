@@ -3,11 +3,12 @@
  "cik": "1840563",
  "name": "PMGC Holdings Inc.",
  "date": "2026-02-03",
- "asof": "2026-03-05",
+ "asof": "2026-02-05",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-03-05",
-  "adj_close": 42.36
+  "date": "2026-02-05",
+  "adj_close": 96.0
  },
  "balance": {
   "end": "2025-09-30",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2025-09-30",
-  "months": 8.9,
-  "per_month": -468225.50602941174
+  "ytd_months": 8.9,
+  "ytd": -4183881,
+  "accn": "0001213900-25-110390",
+  "ttm_per_month": -515368.8333333333,
+  "quarter_per_month": -496722.3333333333,
+  "per_month": -515368.8333333333
  },
  "shares": {
   "end": "2025-11-10",
@@ -34,13 +39,23 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001213900-25-110390",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": ",888 ) 228 8,555,222 Balance, June 30, 2025 (1) 422,165 42 6,372,874 637 24,490,155 ( 15,440,437 ) ( 1,222 ) 9,049,175 Issuance of common stock under ATM program 18,358 2 - - 204,519 - - 204,521 Exercise of replacement warrants 236,545 23 - - 1,511,420 - - 1,511,443 Issuance of commitment shares of ELOC 56,700 6 - - 306,174 - - 306,180 Issuance of Pre-Delivery shares of ELOC 10,300 1 6 - 7 Round-u"
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2025-11-05",
+  "to": "2026-03-05",
+  "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "pmgc",
   "other_trials": 0,

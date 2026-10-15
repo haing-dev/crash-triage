@@ -3,11 +3,12 @@
  "cik": "1800315",
  "name": "Damora Therapeutics, Inc.",
  "date": "2023-08-15",
- "asof": "2023-09-14",
+ "asof": "2023-08-17",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-09-14",
-  "adj_close": 15.225
+  "date": "2023-08-17",
+  "adj_close": 16.65
  },
  "balance": {
   "end": "2023-06-30",
@@ -20,8 +21,12 @@
  },
  "burn": {
   "end": "2023-06-30",
-  "months": 5.9,
-  "per_month": -2872014.0
+  "ytd_months": 5.9,
+  "ytd": -16983000,
+  "accn": "0000950170-23-035925",
+  "ttm_per_month": -3189833.3333333335,
+  "quarter_per_month": -2616333.3333333335,
+  "per_month": -3189833.3333333335
  },
  "shares": {
   "end": "2023-07-26",
@@ -34,11 +39,106 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0000950170-23-035925",
+  "guided_until": "2024-07-15",
+  "guidance": "2.1 million as of June 30, 2023 will be sufficient to fund our operating expenditures and capital expenditure requirements into the second half of 2024. We",
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "preferred shares, debt financings, the Company&#x2019;s initial public offering (&#x201c;IPO&#x201d;) and sales of the Company's common stock in &#34;at-the-market&#34; offerings. As of June 30, 2023, the Company had an accumulated deficit of $ 241.5 million, from recurring losses since inception in 2011. The Company has incurred recurring losses and has no sales as none of its product candidates "
+ },
  "insiders": {
-  "form4s": 1,
-  "bought": 0,
-  "sold": 617010,
-  "buyers": []
+  "form4s": 10,
+  "from": "2023-05-17",
+  "to": "2023-09-14",
+  "trades": [
+   {
+    "date": "2023-08-15",
+    "filed": "2023-08-17",
+    "code": "S",
+    "value": 28745,
+    "who": "ORBIMED ADVISORS LLC"
+   },
+   {
+    "date": "2023-08-15",
+    "filed": "2023-08-17",
+    "code": "S",
+    "value": 186614,
+    "who": "ORBIMED ADVISORS LLC"
+   },
+   {
+    "date": "2023-08-15",
+    "filed": "2023-08-17",
+    "code": "S",
+    "value": 401650,
+    "who": "ORBIMED ADVISORS LLC"
+   },
+   {
+    "date": "2023-07-31",
+    "filed": "2023-08-02",
+    "code": "S",
+    "value": 79866,
+    "who": "ORBIMED ADVISORS LLC"
+   },
+   {
+    "date": "2023-07-31",
+    "filed": "2023-08-02",
+    "code": "S",
+    "value": 89100,
+    "who": "ORBIMED ADVISORS LLC"
+   },
+   {
+    "date": "2023-07-31",
+    "filed": "2023-08-02",
+    "code": "S",
+    "value": 459234,
+    "who": "ORBIMED ADVISORS LLC"
+   },
+   {
+    "date": "2023-07-25",
+    "filed": "2023-07-27",
+    "code": "S",
+    "value": 22776,
+    "who": "ORBIMED ADVISORS LLC"
+   },
+   {
+    "date": "2023-07-25",
+    "filed": "2023-07-27",
+    "code": "S",
+    "value": 13724,
+    "who": "ORBIMED ADVISORS LLC"
+   },
+   {
+    "date": "2023-07-25",
+    "filed": "2023-07-27",
+    "code": "S",
+    "value": 77964,
+    "who": "ORBIMED ADVISORS LLC"
+   },
+   {
+    "date": "2023-07-13",
+    "filed": "2023-07-17",
+    "code": "S",
+    "value": 23520,
+    "who": "ORBIMED ADVISORS LLC"
+   },
+   {
+    "date": "2023-07-13",
+    "filed": "2023-07-17",
+    "code": "S",
+    "value": 126720,
+    "who": "ORBIMED ADVISORS LLC"
+   },
+   {
+    "date": "2023-07-13",
+    "filed": "2023-07-17",
+    "code": "S",
+    "value": 317040,
+    "who": "ORBIMED ADVISORS LLC"
+   }
+  ]
  },
  "drug": null,
  "trials": {

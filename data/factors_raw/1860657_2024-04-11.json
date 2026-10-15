@@ -3,11 +3,12 @@
  "cik": "1860657",
  "name": "Allarity Therapeutics, Inc.",
  "date": "2024-04-11",
- "asof": "2024-05-11",
+ "asof": "2024-04-11",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-05-13",
-  "adj_close": 23.88
+  "date": "2024-04-11",
+  "adj_close": 68.91
  },
  "balance": {
   "end": "2023-12-31",
@@ -19,12 +20,16 @@
  },
  "burn": {
   "end": "2023-12-31",
-  "months": 12.0,
-  "per_month": -1065818.131868132
+  "ytd_months": 12.0,
+  "ytd": -12745000,
+  "accn": "0001213900-24-020864",
+  "ttm_per_month": -1062083.3333333333,
+  "quarter_per_month": -557333.3333333334,
+  "per_month": -1062083.3333333333
  },
  "shares": {
-  "end": "2024-04-26",
-  "shares": 2386273,
+  "end": "2024-03-07",
+  "shares": 6178892,
   "split_factor": 360072.174,
   "splits_after": [
    [
@@ -41,11 +46,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001213900-24-020864",
+  "guided_until": null,
+  "guidance": "sufficient to fund our current operating plan and planned capital expenditures for the next twelve months",
+  "twelve_months": true,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "e or need to sell them. We cannot provide any assurance that an active and liquid trading market in our common stock will develop or, if developed, that the market will continue. Our Certificate of Incorporation and our by-laws, and Delaware law may have anti-takeover effects that could discourage, delay or prevent a change in control, which may cause our stock price to decline. Our Certificate of"
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2024-01-12",
+  "to": "2024-05-11",
+  "trades": []
  },
  "drug": null,
  "trials": {

@@ -3,41 +3,95 @@
  "cik": "1745020",
  "name": "Theseus Pharmaceuticals, Inc.",
  "date": "2023-07-14",
- "asof": "2023-08-13",
+ "asof": "2023-07-14",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-08-14",
-  "adj_close": 3.1
+  "date": "2023-07-14",
+  "adj_close": 2.66
  },
  "balance": {
-  "end": "2023-06-30",
-  "cash": 234232000,
+  "end": "2023-03-31",
+  "cash": 243613000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue",
    "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
    "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
   ],
-  "accn": "0001745020-23-000050"
+  "accn": "0001745020-23-000009"
  },
  "burn": {
-  "end": "2023-06-30",
-  "months": 5.9,
-  "per_month": -4848246.444444445
+  "end": "2023-03-31",
+  "ytd_months": 2.9,
+  "ytd": -18630000,
+  "accn": "0001745020-23-000009",
+  "ttm_per_month": -3657583.3333333335,
+  "quarter_per_month": -6210000.0,
+  "per_month": -3657583.3333333335
  },
  "shares": {
-  "end": "2023-08-04",
-  "shares": 43603369,
+  "end": "2023-05-05",
+  "shares": 43576534,
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001745020-23-000009",
+  "guided_until": "2025-07-15",
+  "guidance": "nts, and marketable securities, will be sufficient to fund our operations and capital expenses into the third quarter of 2025. We",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "eds for additional financing; &#8226; our anticipated use of our existing cash resources and use of proceeds from sales of our common stock in &#8220;at-the-market&#8221; offerings and the period over which such proceeds, together with existing cash, will be sufficient to meet our operating needs; &#8226; our financial performance; &#8226; the period over which we estimate our existing cash, cash "
+ },
  "insiders": {
-  "form4s": 3,
-  "bought": 5006585,
-  "sold": 0,
-  "buyers": [
-   "Foresite Capital Management V, LLC",
-   "GORDON CARL L",
-   "ORBIMED ADVISORS LLC"
+  "form4s": 8,
+  "from": "2023-04-15",
+  "to": "2023-08-13",
+  "trades": [
+   {
+    "date": "2023-07-17",
+    "filed": "2023-07-19",
+    "code": "P",
+    "value": 1001870,
+    "who": "GORDON CARL L"
+   },
+   {
+    "date": "2023-07-17",
+    "filed": "2023-07-19",
+    "code": "P",
+    "value": 461922,
+    "who": "GORDON CARL L"
+   },
+   {
+    "date": "2023-07-17",
+    "filed": "2023-07-19",
+    "code": "P",
+    "value": 1001870,
+    "who": "ORBIMED ADVISORS LLC"
+   },
+   {
+    "date": "2023-07-17",
+    "filed": "2023-07-19",
+    "code": "P",
+    "value": 461922,
+    "who": "ORBIMED ADVISORS LLC"
+   },
+   {
+    "date": "2023-07-17",
+    "filed": "2023-07-19",
+    "code": "P",
+    "value": 1554646,
+    "who": "Foresite Capital Management V, LLC"
+   },
+   {
+    "date": "2023-07-17",
+    "filed": "2023-07-19",
+    "code": "P",
+    "value": 524354,
+    "who": "Foresite Capital Management V, LLC"
+   }
   ]
  },
  "drug": null,

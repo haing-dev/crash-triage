@@ -3,28 +3,33 @@
  "cik": "1133818",
  "name": "BIO-PATH HOLDINGS, INC.",
  "date": "2023-08-03",
- "asof": "2023-09-02",
+ "asof": "2023-08-04",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-09-05",
-  "adj_close": 8.0
+  "date": "2023-08-04",
+  "adj_close": 8.01
  },
  "balance": {
-  "end": "2023-06-30",
-  "cash": 3444000,
+  "end": "2023-03-31",
+  "cash": 6731000,
   "parts": [
    "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
   ],
-  "accn": "0001558370-23-014847"
+  "accn": "0001558370-23-009382"
  },
  "burn": {
-  "end": "2023-06-30",
-  "months": 5.9,
-  "per_month": -1173631.1111111112
+  "end": "2023-03-31",
+  "ytd_months": 2.9,
+  "ytd": -3653000,
+  "accn": "0001558370-23-009382",
+  "ttm_per_month": -1352500.0,
+  "quarter_per_month": -1217666.6666666667,
+  "per_month": -1352500.0
  },
  "shares": {
-  "end": "2023-08-08",
-  "shares": 11460164,
+  "end": "2023-05-05",
+  "shares": 7960164,
   "split_factor": 19.989,
   "splits_after": [
    [
@@ -33,11 +38,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001558370-23-009382",
+  "guided_until": null,
+  "guidance": "sufficient to fund liquidity and capital expenditure requirements for the next 12 months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "se common stock or preferred stock or any combination thereof, either individually or in units, (ii) up to $9.0 million of our common stock under our At-The-Market Offering Agreement (the &#8220;Offering Agreement&#8221;), dated as of July 13, 2020, with H. C. Wainwright &amp; Co., LLC (&#8220;Wainwright&#8221;), pursuant to which we could offer and sell, from time to time, through or to Wainwrigh"
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2023-05-05",
+  "to": "2023-09-02",
+  "trades": []
  },
  "drug": null,
  "trials": {

@@ -3,28 +3,33 @@
  "cik": "1638287",
  "name": "MetaVia Inc.",
  "date": "2025-04-15",
- "asof": "2025-05-15",
+ "asof": "2025-04-21",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2025-05-15",
-  "adj_close": 7.436
+  "date": "2025-04-21",
+  "adj_close": 8.063
  },
  "balance": {
-  "end": "2025-03-31",
-  "cash": 11190000,
+  "end": "2024-12-31",
+  "cash": 16017000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001558370-25-007749"
+  "accn": "0001558370-25-003386"
  },
  "burn": {
-  "end": "2025-03-31",
-  "months": 2.9,
-  "per_month": -1646838.202247191
+  "end": "2024-12-31",
+  "ytd_months": 12.0,
+  "ytd": -24710000,
+  "accn": "0001558370-25-003386",
+  "ttm_per_month": -2059166.6666666667,
+  "quarter_per_month": -1809333.3333333333,
+  "per_month": -2059166.6666666667
  },
  "shares": {
-  "end": "2025-05-14",
-  "shares": 19564214,
+  "end": "2025-03-17",
+  "shares": 8654869,
   "split_factor": 11.0,
   "splits_after": [
    [
@@ -33,11 +38,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001558370-25-003386",
+  "guided_until": "2025-07-15",
+  "guidance": "believe that our existing cash will be sufficient to fund our operations into the third quarter of 2025. Unt",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "hat treats a serious condition and, if approved, would provide a significant improvement in safety or effectiveness. The FDA determines at the time that the marketing application is submitted, on a case- by-case basis, whether the proposed drug represents a significant improvement when compared with other available therapies. Significant improvement may be illustrated by evidence of increased effe"
+ },
  "insiders": {
-  "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 2,
+  "from": "2025-01-15",
+  "to": "2025-05-15",
+  "trades": []
  },
  "drug": null,
  "trials": {

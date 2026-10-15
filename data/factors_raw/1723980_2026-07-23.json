@@ -3,11 +3,12 @@
  "cik": "1723980",
  "name": "China SXT Pharmaceuticals, Inc.",
  "date": "2026-07-23",
- "asof": "2026-08-22",
+ "asof": "2026-07-28",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2026-08-24",
-  "adj_close": 3.8
+  "date": "2026-07-28",
+  "adj_close": 0.057999998
  },
  "balance": {
   "end": "2026-03-31",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2026-03-31",
-  "months": 12.0,
-  "per_month": -335965.2764835165
+  "ytd_months": 12.0,
+  "ytd": -4017456,
+  "accn": "0001213900-26-074310",
+  "ttm_per_month": -334788.0,
+  "quarter_per_month": null,
+  "per_month": -334788.0
  },
  "shares": {
   "end": "2026-03-31",
@@ -28,13 +33,23 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001213900-26-074310",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "dated May 2, 2026, issued in connection with the Securities Purchase Agreement with several &#8220;non-U.S. Persons.&#8221; 6-K 4.1 May 4, 2026 4.37 Sales Agreement, dated June 1, 2026, by and between China SXT Pharmaceuticals, Inc. and Univest Securities, LLC. 6-K 1.1 June 1, 2026 8.1 List of Subsidiaries and Consolidated Variable Interest Entities X 11 Code of Business Conduct and Ethics 20-F 11"
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2026-04-24",
+  "to": "2026-08-22",
+  "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "china sxt pharmaceuticals",
   "other_trials": 0,

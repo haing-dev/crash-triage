@@ -3,29 +3,34 @@
  "cik": "1394319",
  "name": "Tracon Pharmaceuticals, Inc.",
  "date": "2023-04-25",
- "asof": "2023-05-25",
+ "asof": "2023-04-26",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2023-05-25",
-  "adj_close": 12.0
+  "date": "2023-04-26",
+  "adj_close": 15.8
  },
  "balance": {
-  "end": "2023-03-31",
-  "cash": 6610000,
+  "end": "2022-12-31",
+  "cash": 17433000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue",
    "ShortTermInvestments"
   ],
-  "accn": "0000950170-23-020649"
+  "accn": "0001564590-23-003313"
  },
  "burn": {
-  "end": "2023-03-31",
-  "months": 2.9,
-  "per_month": -1711138.426966292
+  "end": "2022-12-31",
+  "ytd_months": 12.0,
+  "ytd": -26239000,
+  "accn": "0001564590-23-003313",
+  "ttm_per_month": -2186583.3333333335,
+  "quarter_per_month": -1551000.0,
+  "per_month": -2186583.3333333335
  },
  "shares": {
-  "end": "2023-05-04",
-  "shares": 24059460,
+  "end": "2023-03-03",
+  "shares": 23822542,
   "split_factor": 18.84,
   "splits_after": [
    [
@@ -34,12 +39,56 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001564590-23-003313",
+  "guided_until": "2023-07-15",
+  "guidance": "valents as of December 31, 2022 will be sufficient to fund our operating expenses and capital requirements into mid-2023. We",
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": true,
+  "atm_remaining": 45700000.0,
+  "atm_quote": "threshold, we may not have access to additional capital under the Investment Agreement. In December 2020, as amended in March 2022, we entered into a Sales Agreement with JonesTrading pursuant to which we could sell from time to time, at our option, up to an aggregate of $50.0 million of shares of our common stock through JonesTrading, as sales agent or principal, $45.7 million of which remains av"
+ },
  "insiders": {
-  "form4s": 1,
-  "bought": 37889,
-  "sold": 0,
-  "buyers": [
-   "THEUER CHARLES"
+  "form4s": 13,
+  "from": "2023-01-25",
+  "to": "2023-05-25",
+  "trades": [
+   {
+    "date": "2023-04-26",
+    "filed": "2023-04-28",
+    "code": "P",
+    "value": 2639,
+    "who": "THEUER CHARLES"
+   },
+   {
+    "date": "2023-04-27",
+    "filed": "2023-04-28",
+    "code": "P",
+    "value": 35250,
+    "who": "THEUER CHARLES"
+   },
+   {
+    "date": "2023-03-09",
+    "filed": "2023-03-13",
+    "code": "P",
+    "value": 240821,
+    "who": "Opaleye Management Inc."
+   },
+   {
+    "date": "2023-02-28",
+    "filed": "2023-03-02",
+    "code": "P",
+    "value": 304,
+    "who": "THEUER CHARLES"
+   },
+   {
+    "date": "2023-03-01",
+    "filed": "2023-03-02",
+    "code": "P",
+    "value": 7296,
+    "who": "THEUER CHARLES"
+   }
   ]
  },
  "drug": null,

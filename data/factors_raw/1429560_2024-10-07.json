@@ -3,11 +3,12 @@
  "cik": "1429560",
  "name": "TREVENA INC",
  "date": "2024-10-07",
- "asof": "2024-11-06",
+ "asof": "2024-10-09",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-11-06",
-  "adj_close": 1.72
+  "date": "2024-10-09",
+  "adj_close": 1.46
  },
  "balance": {
   "end": "2024-06-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2024-06-30",
-  "months": 5.9,
-  "per_month": -2792239.3370165746
+  "ytd_months": 5.9,
+  "ytd": -16603000,
+  "accn": "0001558370-24-011462",
+  "ttm_per_month": -2626166.6666666665,
+  "quarter_per_month": -2394333.3333333335,
+  "per_month": -2626166.6666666665
  },
  "shares": {
   "end": "2024-08-06",
@@ -33,11 +38,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001558370-24-011462",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "s of $16.4 million, and restricted cash of $0.5 million. In November 2020, we filed a $250.0 million shelf registration statement, which includes our at-the-market program with H.C. Wainwright &amp; Co., LLC., of which there was approximately $33.7 million of available capacity as of June 30, 2024, subject to the restrictions set forth in General Instruction I.B.6 of Form S-3. Our primary use of c"
+ },
  "insiders": {
-  "form4s": 3,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "form4s": 5,
+  "from": "2024-07-09",
+  "to": "2024-11-06",
+  "trades": []
  },
  "drug": null,
  "trials": {

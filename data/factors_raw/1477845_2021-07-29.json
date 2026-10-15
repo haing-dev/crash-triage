@@ -3,11 +3,12 @@
  "cik": "1477845",
  "name": "Annovis Bio, Inc.",
  "date": "2021-07-29",
- "asof": "2021-08-28",
+ "asof": "2021-07-30",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2021-08-30",
-  "adj_close": 36.0099983
+  "date": "2021-07-30",
+  "adj_close": 34.43
  },
  "balance": {
   "end": "2021-06-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2021-06-30",
-  "months": 5.9,
-  "per_month": -950308.2202222223
+  "ytd_months": 5.9,
+  "ytd": -5619431,
+  "accn": "0001558370-21-009460",
+  "ttm_per_month": -609003.5833333334,
+  "quarter_per_month": -1048187.6666666666,
+  "per_month": -609003.5833333334
  },
  "shares": {
   "end": "2021-07-26",
@@ -28,12 +33,28 @@
   "split_factor": 1.0,
   "splits_after": []
  },
+ "filing": {
+  "accn": "0001558370-21-009460",
+  "guided_until": null,
+  "guidance": "sufficient to fund operations and capital requirements for at least the next 12 months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
-  "form4s": 1,
-  "bought": 18805,
-  "sold": 0,
-  "buyers": [
-   "McCarthy Reid"
+  "form4s": 7,
+  "from": "2021-04-30",
+  "to": "2021-08-28",
+  "trades": [
+   {
+    "date": "2021-08-19",
+    "filed": "2021-08-23",
+    "code": "P",
+    "value": 18805,
+    "who": "McCarthy Reid"
+   }
   ]
  },
  "drug": null,

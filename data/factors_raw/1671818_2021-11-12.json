@@ -3,11 +3,12 @@
  "cik": "1671818",
  "name": "Oncorus, Inc.",
  "date": "2021-11-12",
- "asof": "2021-12-12",
+ "asof": "2021-11-15",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2021-12-13",
-  "adj_close": 5.46
+  "date": "2021-11-15",
+  "adj_close": 5.78
  },
  "balance": {
   "end": "2021-09-30",
@@ -19,8 +20,12 @@
  },
  "burn": {
   "end": "2021-09-30",
-  "months": 8.9,
-  "per_month": -3512462.6470588236
+  "ytd_months": 8.9,
+  "ytd": -31386000,
+  "accn": "0000950170-21-002820",
+  "ttm_per_month": -3547166.6666666665,
+  "quarter_per_month": -3282666.6666666665,
+  "per_month": -3547166.6666666665
  },
  "shares": {
   "end": "2021-10-27",
@@ -33,12 +38,35 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0000950170-21-002820",
+  "guided_until": null,
+  "guidance": "sufficient to fund its operating expenses and capital expenditure requirements through at least the next 12 months",
+  "twelve_months": true,
+  "going_concern": false,
+  "atm": true,
+  "atm_remaining": null,
+  "atm_quote": "Securities Exchange Act of 1934, as amended, or the Exchange Act. We are also a &#x2018;&#x2018;smaller reporting company,&#x2019;&#x2019; meaning that the market value of our stock held by non-affiliates is less than $700 million and our annual revenue was less than $100 million during our most recently completed fiscal year. We may continue to be a smaller reporting company for so long as (i) th"
+ },
  "insiders": {
-  "form4s": 2,
-  "bought": 173655,
-  "sold": 0,
-  "buyers": [
-   "Harbin Stephen"
+  "form4s": 3,
+  "from": "2021-08-14",
+  "to": "2021-12-12",
+  "trades": [
+   {
+    "date": "2021-11-16",
+    "filed": "2021-11-17",
+    "code": "P",
+    "value": 86955,
+    "who": "Harbin Stephen"
+   },
+   {
+    "date": "2021-11-16",
+    "filed": "2021-11-17",
+    "code": "P",
+    "value": 86700,
+    "who": "Harbin Stephen"
+   }
   ]
  },
  "drug": null,

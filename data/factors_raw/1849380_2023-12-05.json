@@ -3,11 +3,12 @@
  "cik": "1849380",
  "name": "OneMedNet Corp",
  "date": "2023-12-05",
- "asof": "2024-01-04",
+ "asof": "2023-12-07",
  "final": true,
+ "version": 2,
  "price": {
-  "date": "2024-01-04",
-  "adj_close": 7.54
+  "date": "2023-12-07",
+  "adj_close": 13.6
  },
  "balance": {
   "end": "2023-09-30",
@@ -19,11 +20,15 @@
  },
  "burn": {
   "end": "2023-09-30",
-  "months": 8.9,
-  "per_month": -527389.4510294117
+  "ytd_months": 8.9,
+  "ytd": -4712547,
+  "accn": "0001493152-23-042153",
+  "ttm_per_month": -120333.08333333333,
+  "quarter_per_month": -1355322.3333333333,
+  "per_month": -120333.08333333333
  },
  "shares": {
-  "end": "2023-12-14",
+  "end": "2023-11-20",
   "shares": 32263342,
   "split_factor": 9.023,
   "splits_after": [
@@ -37,11 +42,21 @@
    ]
   ]
  },
+ "filing": {
+  "accn": "0001493152-23-042153",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": true,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
  "insiders": {
   "form4s": 0,
-  "bought": 0,
-  "sold": 0,
-  "buyers": []
+  "from": "2023-09-06",
+  "to": "2024-01-04",
+  "trades": []
  },
  "drug": null,
  "trials": {
