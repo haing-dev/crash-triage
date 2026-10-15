@@ -1,0 +1,64 @@
+{
+ "id": "1742927_2025-12-23",
+ "asof": "2025-12-24",
+ "chars": 36136,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-12-16",
+   "net_proceeds_usd": 6700000,
+   "what": "Warrant exercises Oct 1 - Dec 16, 2025 (19,794,000 warrants, $0.335-$0.50 per warrant)",
+   "quote": "resulting in net proceeds of approximately $6.7 million"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 6881313,
+   "exercise_price_usd": 11.5,
+   "expiry": "2025-12-31",
+   "quote": "SPAC Public Warrants December 2020 $ 11.50 6,881,313"
+  },
+  {
+   "count": 4445066,
+   "exercise_price_usd": 4.125,
+   "expiry": "2026-05-31",
+   "quote": "June 2021 Common Stock Warrants June 2021 $ 4.125 4,445,066"
+  },
+  {
+   "count": 2199975,
+   "exercise_price_usd": 0.7964,
+   "expiry": "2029-08-31",
+   "quote": "June 2021 Common Stock Warrants (August 2024 Amended)* June 2021 $ 0.7964 2,199,975"
+  },
+  {
+   "count": 20000000,
+   "exercise_price_usd": 0.5,
+   "expiry": null,
+   "quote": "The Series C Common Warrants are exercisable immediately upon issuance, have a term of five years from the date of issuance and have an exercise price of $0.50 per share."
+  },
+  {
+   "count": 20000000,
+   "exercise_price_usd": 0.5,
+   "expiry": null,
+   "quote": "The Series D Common Warrants are exercisable immediately upon issuance, have a term of twelve months from the date of issuance and have an exercise price of $0.50 per share."
+  },
+  {
+   "count": 27000000,
+   "exercise_price_usd": 0.335,
+   "expiry": "2030-09-30",
+   "quote": "The Series E Common Warrants are exercisable immediately, have a term of five years from the date of issuance and have an exercise price of $0.335 per share."
+  },
+  {
+   "count": 27000000,
+   "exercise_price_usd": 0.335,
+   "expiry": "2026-09-30",
+   "quote": "The Series F Common Warrants are exercisable immediately, have a term of twelve months and have an exercise price of $0.335 per share."
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": null
+}

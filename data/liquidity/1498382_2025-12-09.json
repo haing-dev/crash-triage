@@ -1,0 +1,70 @@
+{
+ "id": "1498382_2025-12-09",
+ "asof": "2025-12-15",
+ "chars": 39490,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-10-27",
+   "net_proceeds_usd": 1500000,
+   "what": "Bridge loan initial advance (secured promissory note)",
+   "quote": "The Lender advanced the first loan to the Company in the amount of $1,500,000 simultaneously with the execution of the Loan Agreement"
+  },
+  {
+   "date": "2025-12-10",
+   "net_proceeds_usd": 8600000,
+   "what": "Registered direct offering, first closing (gross; net not given for this closing)",
+   "quote": "gross proceeds to the Company of approximately $8.6 million from the First Closing"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 8324808,
+   "exercise_price_usd": 4.52,
+   "expiry": null,
+   "quote": "Legacy TuHURA common stock warrants 8,324,808 $ 4.52 October 2025 to December 2030"
+  },
+  {
+   "count": 10199,
+   "exercise_price_usd": 757.65,
+   "expiry": null,
+   "quote": "Historical Kintara common stock warrants 10,199 $ 757.65 June 2025 to April 2027"
+  },
+  {
+   "count": 4570629,
+   "exercise_price_usd": 3.3125,
+   "expiry": "2030-12-02",
+   "quote": "TuHURA Warrants from 2025 Securities Purchase Agreement 4,570,629 $ 3.32 December 2030"
+  },
+  {
+   "count": 182825,
+   "exercise_price_usd": 3.3125,
+   "expiry": "2030-12-02",
+   "quote": "TuHURA Warrants issued to placement agent 182,825 $ 3.32 December 2030"
+  },
+  {
+   "count": 297029,
+   "exercise_price_usd": 0.01,
+   "expiry": "2027-04-30",
+   "quote": "2024 common stock warrants issued to financial advisor 297,029 $ 0.01 April 2027"
+  },
+  {
+   "count": 5219999,
+   "exercise_price_usd": 1.95,
+   "expiry": "2031-06-10",
+   "quote": "At the first closing, the Company will issue an aggregate of 5,219,999 shares of its common stock, Series A warrants to purchase up to an aggregate of 5,219,999 shares of its common stock"
+  },
+  {
+   "count": 5219999,
+   "exercise_price_usd": 1.95,
+   "expiry": "2027-12-10",
+   "quote": "Series B warrants to purchase up to an aggregate of 5,219,999 shares of its common stock"
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": null
+}

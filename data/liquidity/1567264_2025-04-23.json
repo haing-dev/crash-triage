@@ -1,0 +1,33 @@
+{
+ "id": "1567264_2025-04-23",
+ "asof": "2025-04-25",
+ "chars": 31918,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-04-25",
+   "net_proceeds_usd": 1900000,
+   "what": "Public offering of common stock with Series B-1 and B-2 warrants at $0.75 per share and warrants (placement agents A.G.P. and Brookline)",
+   "quote": "We estimate that we will receive approximately $1.9 million in net proceeds from this offering, after deducting the estimated Placement Agents\u2019 fees and estimated offering expenses."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 1237113,
+   "exercise_price_usd": 2.95,
+   "expiry": null,
+   "quote": "warrants to purchase up to 1,237,113 shares"
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": {
+  "what": "INVINCIBLE-4 Study data read out (contingent on obtaining sufficient additional funding)",
+  "timing_text": "first half of 2026",
+  "latest_date": "2026-06-30",
+  "quote": "INVINCIBLE-4 Study (expected in the first half of 2026 provided that we are able to obtain sufficient additional funding)"
+ }
+}

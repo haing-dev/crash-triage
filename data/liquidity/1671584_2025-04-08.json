@@ -1,0 +1,58 @@
+{
+ "id": "1671584_2025-04-08",
+ "asof": "2025-04-10",
+ "chars": 27336,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-04-04",
+   "net_proceeds_usd": 2100005,
+   "what": "Registered direct offering of 1,764,710 shares at $1.19 combined price with concurrent private placement warrants (gross proceeds computed as shares x price; net not stated)",
+   "quote": "The combined purchase price of one share of Common Stock and accompanying Common Warrants was $1.19. The closing of the Offering occurred on April 4, 2025"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 39,
+   "exercise_price_usd": 1009.36,
+   "expiry": "2028-08-04",
+   "quote": "there were 39 Series A and 39 Series B common warrants outstanding with an exercise price of $ 1,009.36 per share."
+  },
+  {
+   "count": 948,
+   "exercise_price_usd": 379.32,
+   "expiry": null,
+   "quote": "November 2023 948 379.32 360 2.13"
+  },
+  {
+   "count": 11616,
+   "exercise_price_usd": 21.44,
+   "expiry": null,
+   "quote": "April 2024 11,616 21.44 249 4.25"
+  },
+  {
+   "count": 11687,
+   "exercise_price_usd": 8.6,
+   "expiry": null,
+   "quote": "July 2024 11,687 8.60 101 4.58"
+  },
+  {
+   "count": 1647088,
+   "exercise_price_usd": 9.53,
+   "expiry": null,
+   "quote": "December 2024 1,647,088 9.53 15,697 4.92"
+  },
+  {
+   "count": 3529420,
+   "exercise_price_usd": 1.19,
+   "expiry": null,
+   "quote": "common warrants to purchase up to an aggregate of 3,529,420 shares of Common Stock"
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": null
+}

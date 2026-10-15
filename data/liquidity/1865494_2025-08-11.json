@@ -1,0 +1,51 @@
+{
+ "id": "1865494_2025-08-11",
+ "asof": "2025-08-11",
+ "chars": 40423,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-05-06",
+   "net_proceeds_usd": 11300000,
+   "what": "EIB Tranche A loan drawdown of EUR 10.0M (USD is an approximate conversion; gross, before fees)",
+   "quote": "On May 6, 2025, we drew down on the Tranche A loan facility to obtain &#8364;10.0 million before payment of certain fees and transaction related expense."
+  },
+  {
+   "date": "2025-07-04",
+   "net_proceeds_usd": 14700000,
+   "what": "EIB Tranche B loan drawdown of EUR 12.5M (USD is an approximate conversion; gross, before fees)",
+   "quote": "the \u20ac12.5 million drawn on July 4, 2025 from the second tranche of the term loan facility with the European Investment Bank"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 37065647,
+   "exercise_price_usd": 2.47,
+   "expiry": "2027-02-09",
+   "quote": "As of March 31, 2025 , the Company had 37,065,647 warrants issued and outstanding at an exercise price of $ 2.47 per share to purchase shares of the Company's common stock."
+  },
+  {
+   "count": 5623664.38,
+   "exercise_price_usd": 0.8891,
+   "expiry": null,
+   "quote": "Tranche A Warrants to purchase up to 5,623,664.38 shares of the Company's Common Stock."
+  },
+  {
+   "count": 4221867.59,
+   "exercise_price_usd": 1.3159,
+   "expiry": null,
+   "quote": "the Company issued to EIB a Tranche B warrant (the \u201cTranche B Warrant\u201d) to purchase up to 4,221,867.59 shares of the Company\u2019s common stock"
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": {
+  "what": "FDA meeting to discuss Phase 3 IOB-013 Cylembio data and next steps for a potential BLA submission in advanced melanoma",
+  "timing_text": "this fall (2025)",
+  "latest_date": "2025-12-31",
+  "quote": "IO Biotech plans to meet with the FDA this fall to discuss the data and next steps for a potential regulatory submission"
+ }
+}

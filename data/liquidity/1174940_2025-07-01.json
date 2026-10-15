@@ -1,0 +1,46 @@
+{
+ "id": "1174940_2025-07-01",
+ "asof": "2025-07-02",
+ "chars": 26927,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-07-02",
+   "net_proceeds_usd": 15000000,
+   "what": "Public offering of Series H Convertible Preferred Stock with warrants (Dawson James), closed July 2, 2025",
+   "quote": "The Company intends to use the net proceeds from the Offering of approximately $15 million"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 52911,
+   "exercise_price_usd": 60.0,
+   "expiry": "2025-07-17",
+   "quote": "52,911 $ 60.00 7/17/2025"
+  },
+  {
+   "count": 70000,
+   "exercise_price_usd": 1.88,
+   "expiry": "2029-02-27",
+   "quote": "70,000 $ 1.88 2/27/2029"
+  },
+  {
+   "count": 55000,
+   "exercise_price_usd": 1.25,
+   "expiry": "2029-06-29",
+   "quote": "55,000 $ 1.25 6/29/2029"
+  },
+  {
+   "count": 405329,
+   "exercise_price_usd": 0.69,
+   "expiry": "2029-09-04",
+   "quote": "405,329 $ 0.69 9/4/2029"
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": null
+}

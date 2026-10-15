@@ -1,0 +1,46 @@
+{
+ "id": "1649989_2025-08-28",
+ "asof": "2025-08-29",
+ "chars": 34818,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-08-28",
+   "net_proceeds_usd": 1900000,
+   "what": "ATM sales of 940,478 shares after June 30, 2025 (exact date not stated; set to the crash date as a placeholder)",
+   "quote": "Subsequent to June 30, 2025, we sold 940,478 shares of common stock under the ATM Agreement and generated $1.9 million in net proceeds"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 18571428,
+   "exercise_price_usd": 1.4,
+   "expiry": "2030-05-27",
+   "quote": "The warrants have an exercise price of $1.40 per share of common stock and will expire on May 27, 2030."
+  },
+  {
+   "count": 14149274,
+   "exercise_price_usd": 2.26,
+   "expiry": null,
+   "quote": "we issued two new inducement warrants for each Existing Warrant exercised, which are exercisable for an aggregate of up to 14,149,274 shares of common stock at an exercise price of $2.26 per share."
+  },
+  {
+   "count": 5782496,
+   "exercise_price_usd": 7.7,
+   "expiry": "2029-03-18",
+   "quote": "The Warrants have an exercise price of $ 7.70 per share of common stock and will expire on March 18, 2029."
+  },
+  {
+   "count": 1071429,
+   "exercise_price_usd": 7.7,
+   "expiry": "2029-04-15",
+   "quote": "The warrants have an exercise price of $ 7.70 per share of common stock and will expire on April 15, 2029."
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": null
+}

@@ -1,0 +1,40 @@
+{
+ "id": "1513525_2025-06-17",
+ "asof": "2025-06-17",
+ "chars": 38326,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-05-05",
+   "net_proceeds_usd": 2350000,
+   "what": "Warrant inducement: exercise of Series B and C warrants at reduced price of $0.74, closed May 5, 2025",
+   "quote": "at a reduced exercise price of $ 0.74 for net proceeds of approximately $ 2.35 million"
+  },
+  {
+   "date": "2025-05-13",
+   "net_proceeds_usd": 42396,
+   "what": "Sales of 66,667 shares under the New SEPA after quarter end (as of May 13, 2025)",
+   "quote": "66,667 additional shares of common stock had been sold subsequent to the quarter ended March 31, 2025 under the terms of the New SEPA for a total of $ 42,396"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 2482270,
+   "exercise_price_usd": 0.74,
+   "expiry": null,
+   "quote": "Series B-1 warrants to purchase up to 2,482,270 shares of common stock"
+  },
+  {
+   "count": 4025000,
+   "exercise_price_usd": 0.74,
+   "expiry": null,
+   "quote": "Series C-1 Warrants to purchase up to 4,025,000 shares of common stock"
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": null
+}

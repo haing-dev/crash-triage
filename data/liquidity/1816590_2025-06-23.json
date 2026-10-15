@@ -1,0 +1,38 @@
+{
+ "id": "1816590_2025-06-23",
+ "asof": "2025-06-23",
+ "chars": 33675,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 12324700,
+   "exercise_price_usd": 9.93,
+   "expiry": null,
+   "quote": "Each PIPE Warrant has an exercise price of $ 9.93 per ADS and is exercisable for a three year period beginning in February 2024."
+  },
+  {
+   "count": 35059448,
+   "exercise_price_usd": 5.796,
+   "expiry": null,
+   "quote": "The 2025 ADS Warrants have an exercise price of $ 5.7960 per ADS and are exercisable following a specified data milestone."
+  },
+  {
+   "count": 11044720,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "The Pre-funded Warrants have an exercise price of $ 0.0001 per ADS and are exercisable immediately."
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": {
+  "what": "26-week topline data from the Phase 3 COMP006 trial of COMP360 psilocybin in treatment-resistant depression",
+  "timing_text": "second half of 2026",
+  "latest_date": "2026-12-31",
+  "quote": "The 26-week data from COMP006 is expected in the second half of 2026."
+ }
+}

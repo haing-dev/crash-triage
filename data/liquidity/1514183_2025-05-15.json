@@ -1,0 +1,52 @@
+{
+ "id": "1514183_2025-05-15",
+ "asof": "2025-05-16",
+ "chars": 31142,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-05-16",
+   "net_proceeds_usd": 1560000,
+   "what": "Public offering of common stock/pre-funded warrants with Series A-1 and A-2 warrants, placed by H.C. Wainwright",
+   "quote": "The Company received net proceeds of approximately $1.56 million from the Offering, after deducting the estimated Offering expenses payable by the Company"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 917432,
+   "exercise_price_usd": 2.06,
+   "expiry": null,
+   "quote": "The June 2024 Common Warrants have an exercise price of $ 2.06 per share and are exercisable immediately upon issuance for a five-year period."
+  },
+  {
+   "count": 68807,
+   "exercise_price_usd": 2.725,
+   "expiry": null,
+   "quote": "at an exercise price equal to 125.0 % of the offering price per June 2024 Share, or $ 2.725 per share."
+  },
+  {
+   "count": 763638,
+   "exercise_price_usd": 2.75,
+   "expiry": null,
+   "quote": "The July 2024 Common Warrants have an exercise price of $ 2.75 per share and are exercisable immediately upon issuance for a five-year period."
+  },
+  {
+   "count": 3333338,
+   "exercise_price_usd": 0.6,
+   "expiry": null,
+   "quote": "The Series A-1 Warrants will have an exercise price of $0.60 per share, are exercisable upon issuance and will expire five years thereafter."
+  },
+  {
+   "count": 3333338,
+   "exercise_price_usd": 0.6,
+   "expiry": null,
+   "quote": "The Series A-2 Warrants will have an exercise price of $0.60 per share, are exercisable upon issuance and will expire eighteen months thereafter."
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": null
+}

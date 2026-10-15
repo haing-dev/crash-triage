@@ -1,0 +1,69 @@
+{
+ "id": "1742927_2025-06-26",
+ "asof": "2025-06-27",
+ "chars": 41877,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-06-27",
+   "net_proceeds_usd": 9000000,
+   "what": "Registered public offering of 20,000,000 shares with Series C and Series D warrants, expected to close on or about June 27, 2025",
+   "quote": "The net proceeds to the Company from the Offering are expected to be approximately $9.0 million, after deducting placement agent fees and expenses and other estimated offering expenses payable by the Company."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 6881313,
+   "exercise_price_usd": 11.5,
+   "expiry": "2025-12-31",
+   "quote": "SPAC Public Warrants December 2020 $ 11.50 6,881,313"
+  },
+  {
+   "count": 4445066,
+   "exercise_price_usd": 4.125,
+   "expiry": "2026-05-31",
+   "quote": "June 2021 Common Stock Warrants June 2021 $ 4.125 4,445,066"
+  },
+  {
+   "count": 2199975,
+   "exercise_price_usd": 0.7964,
+   "expiry": "2029-08-31",
+   "quote": "In August 2024, 2,199,975 of these warrants were modified to reduce the exercise price from $ 4.125 per warrant share, to $ 0.7964 per warrant share"
+  },
+  {
+   "count": 5944750,
+   "exercise_price_usd": 1.5,
+   "expiry": "2025-06-30",
+   "quote": "December 2024 Series A Common Stock Warrants December 2024 $ 1.50 6,000,000"
+  },
+  {
+   "count": 11894500,
+   "exercise_price_usd": 1.5,
+   "expiry": "2029-12-31",
+   "quote": "December 2024 Series B Common Stock Warrants December 2024 $ 1.50 12,000,000"
+  },
+  {
+   "count": 20000000,
+   "exercise_price_usd": 0.5,
+   "expiry": null,
+   "quote": "The Series C Warrants are exercisable immediately, have a term of five years and have an exercise price of $0.50 per share."
+  },
+  {
+   "count": 20000000,
+   "exercise_price_usd": 0.5,
+   "expiry": null,
+   "quote": "The Series D Warrants are exercisable immediately, have a term of 12 months and have an exercise price of $0.50 per share."
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": {
+  "what": "Topline readout of the registrational Phase 3 RECOVER-2 trial of brilaroxazine in schizophrenia",
+  "timing_text": "third quarter of 2026",
+  "latest_date": "2026-09-30",
+  "quote": "We expect to initiate the registrational RECOVER-2 Trial in mid-2025, subject to receipt of additional financing, with topline readout anticipated in the third quarter of 2026."
+ }
+}

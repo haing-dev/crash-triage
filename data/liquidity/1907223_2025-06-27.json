@@ -1,0 +1,33 @@
+{
+ "id": "1907223_2025-06-27",
+ "asof": "2025-06-27",
+ "chars": 25349,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-04-04",
+   "net_proceeds_usd": 106534,
+   "what": "Red Road Holdings promissory note (stated loan amount, including $11,414 guaranteed interest; $13,120 original issue discount recognized, so cash received may be lower)",
+   "quote": "On April 4, 2025, the Company signed a loan agreement with Red Road Holdings in the amount of $ 106,534 , including guaranteed interest of $ 11,414 ."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 4000000,
+   "exercise_price_usd": 0.5,
+   "expiry": null,
+   "quote": "The Warrants are exercisable, at the option of the holder, at any time, for up to an aggregate of 4,000,000 shares of Common Stock of the Company at an exercise price equal to $ 0.50"
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": {
+  "what": "Start of Phase I/II single-dose gene therapy study of KLTO-202 in ALS patients (after IND filing)",
+  "timing_text": "third quarter of next year (2026)",
+  "latest_date": "2026-09-30",
+  "quote": "begin the single-dose gene therapy studies in ALS patients by the third quarter of next year"
+ }
+}

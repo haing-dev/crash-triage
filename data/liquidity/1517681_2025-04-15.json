@@ -1,0 +1,52 @@
+{
+ "id": "1517681_2025-04-15",
+ "asof": "2025-04-21",
+ "chars": 37085,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-02-06",
+   "net_proceeds_usd": 56000,
+   "what": "Convertible promissory note ($65,000 principal)",
+   "quote": "for a purchase price of $56,000"
+  },
+  {
+   "date": "2025-02-10",
+   "net_proceeds_usd": 40000,
+   "what": "Convertible promissory note ($43,000 principal)",
+   "quote": "for a purchase price of $40,000"
+  },
+  {
+   "date": "2025-03-14",
+   "net_proceeds_usd": 30000,
+   "what": "Convertible promissory note ($33,000 principal)",
+   "quote": "for a purchase price of $30,000"
+  },
+  {
+   "date": "2025-03-31",
+   "net_proceeds_usd": 67000,
+   "what": "Convertible promissory note ($79,200 principal)",
+   "quote": "for a purchase price of $67,000"
+  },
+  {
+   "date": "2025-04-15",
+   "net_proceeds_usd": 50000,
+   "what": "Convertible promissory note ($55,000 principal)",
+   "quote": "for a purchase price of $50,000"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 250,
+   "exercise_price_usd": 600,
+   "expiry": "2026-07-05",
+   "quote": "the Company issued 250 warrants to purchase common stock to such investor immediately exercisable at an initial exercise price of $ 600 per share"
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": null
+}

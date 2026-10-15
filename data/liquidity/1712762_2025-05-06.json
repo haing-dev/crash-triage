@@ -1,0 +1,40 @@
+{
+ "id": "1712762_2025-05-06",
+ "asof": "2025-05-08",
+ "chars": 44781,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-02-26",
+   "net_proceeds_usd": 1400000,
+   "what": "Warrant inducement: cash exercise of October and August warrants at $0.58 (gross proceeds; net not given)",
+   "quote": "The Company received aggregate gross proceeds of approximately $1.4 million, before deducting advisory fees and other expenses payable by the Company."
+  },
+  {
+   "date": "2025-05-08",
+   "net_proceeds_usd": 2854728.54,
+   "what": "May 2025 public offering of shares/pre-funded warrants with May 2025 Warrants (gross $3,233,400.58 less $258,672.04 placement fee less $120,000 expense reimbursement; closing date inferred from the 8-K filed 2025-05-08)",
+   "quote": "aggregate gross proceeds from the Offering was approximately $3.2 million, before deducting placement agent fees and other offering expenses."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 15234375,
+   "exercise_price_usd": 0.352,
+   "expiry": null,
+   "quote": "The May 2025 Warrants will have an initial exercise price of $0.352 per share"
+  },
+  {
+   "count": 304687,
+   "exercise_price_usd": 0.352,
+   "expiry": null,
+   "quote": "warrants (the \u201cPlacement Agent Warrants\u201d) to purchase 304,687 shares of Common Stock"
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": null
+}

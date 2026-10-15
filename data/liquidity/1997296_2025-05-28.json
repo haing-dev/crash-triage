@@ -1,0 +1,34 @@
+{
+ "id": "1997296_2025-05-28",
+ "asof": "2025-05-29",
+ "chars": 35137,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-05-02",
+   "net_proceeds_usd": 1125000,
+   "what": "Initial tranche of Yorkville debentures (8% interest, matures Feb 2, 2026)",
+   "quote": "Yorkville purchased and the Company issued $ 1,250,000 in aggregate principal amount of Debentures upon the signing of the Purchase Agreement, for net proceeds to the company of $ 1,125,000"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 1115500,
+   "exercise_price_usd": 4.64,
+   "expiry": "2029-11-15",
+   "quote": "November 15, 2029 $ 4.64 1,115,500"
+  },
+  {
+   "count": 1485000,
+   "exercise_price_usd": 2.8,
+   "expiry": "2030-03-10",
+   "quote": "March 10, 2030 $ 2.80 1,485,000"
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": null
+}

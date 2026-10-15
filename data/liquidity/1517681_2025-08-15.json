@@ -1,0 +1,46 @@
+{
+ "id": "1517681_2025-08-15",
+ "asof": "2025-08-19",
+ "chars": 34943,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-04-15",
+   "net_proceeds_usd": 50000,
+   "what": "GS Capital convertible redeemable note, $55,000 principal less $5,000 OID",
+   "quote": "The GS Capital Note contains a $ 5,000 original issue discount."
+  },
+  {
+   "date": "2025-07-18",
+   "net_proceeds_usd": 75000,
+   "what": "Promissory note to accredited investor",
+   "quote": "for a purchase price of $75,000."
+  },
+  {
+   "date": "2025-07-25",
+   "net_proceeds_usd": 107000,
+   "what": "Convertible promissory note, $112,350 principal",
+   "quote": "for a purchase price of $107,000."
+  },
+  {
+   "date": "2025-08-18",
+   "net_proceeds_usd": 3340000,
+   "what": "Underwritten public offering of 1,000,000 shares at $4.00",
+   "quote": "the Company received net proceeds of $3,340,000."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 250,
+   "exercise_price_usd": 600,
+   "expiry": "2026-07-05",
+   "quote": "the Company issued 250 warrants to purchase common stock to such investor immediately exercisable at an initial exercise price of $ 600 per share"
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": null
+}

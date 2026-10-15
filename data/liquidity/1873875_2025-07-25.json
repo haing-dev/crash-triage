@@ -1,0 +1,44 @@
+{
+ "id": "1873875_2025-07-25",
+ "asof": "2025-07-31",
+ "chars": 39193,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 585000,
+   "exercise_price_usd": 1.66,
+   "expiry": "2029-10-31",
+   "quote": "exercisable for 585,000 shares of Common Stock with an exercise price equal to $ 1.66 per share"
+  },
+  {
+   "count": 453749,
+   "exercise_price_usd": 1.89,
+   "expiry": null,
+   "quote": "In addition, the Company issued a warrant to Arena Investors exercisable for up to 453,749 shares of Common Stock"
+  },
+  {
+   "count": 11574090,
+   "exercise_price_usd": 2.16,
+   "expiry": null,
+   "quote": "to purchase up to 11,574,090 shares of Common Stock at an initial exercise price of $ 2.16 per share"
+  },
+  {
+   "count": 1887045,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "to purchase up to 1,887,045 shares"
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": {
+  "what": "Topline data from the U.S. Phase 2 portion of the RePOSA Phase 2/3 trial of IHL-42X in obstructive sleep apnea",
+  "timing_text": "July 2025",
+  "latest_date": "2025-07-31",
+  "quote": "A topline readout from the U.S. Phase 2 portion is anticipated in July 2025."
+ }
+}

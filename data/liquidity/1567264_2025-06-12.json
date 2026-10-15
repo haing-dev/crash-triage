@@ -1,0 +1,45 @@
+{
+ "id": "1567264_2025-06-12",
+ "asof": "2025-06-17",
+ "chars": 41391,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-04-28",
+   "net_proceeds_usd": 1900000,
+   "what": "Best-efforts public offering of shares with Series B-1/B-2 warrants, closed April 28, 2025",
+   "quote": "We raised an aggregate of $2.35 million in the Offering, and net proceeds of the Offering, after deducting the fees and expenses were approximately $1.9 million."
+  },
+  {
+   "date": "2025-06-13",
+   "net_proceeds_usd": 1900000,
+   "what": "Underwritten public offering at $0.30 per share, closed June 13, 2025 including over-allotment",
+   "quote": "The net proceeds to the Company from the Offering, including the exercise of the Underwriter\u2019s over-allotment option, are approximately $1.9 million after deducting the underwriting discounts and commissions and estimated offering expenses payable by the Company."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 3133333,
+   "exercise_price_usd": 0.85,
+   "expiry": "2030-04-28",
+   "quote": "The Series B-1 Common Warrants will expire on the five-year anniversary of the date of issuance"
+  },
+  {
+   "count": 3133333,
+   "exercise_price_usd": 0.85,
+   "expiry": "2026-10-28",
+   "quote": "the Series B-2 Common Warrants will expire on the eighteen-month anniversary of the date of issuance"
+  }
+ ],
+ "warrants_dropped": 1,
+ "next_catalyst": {
+  "what": "Data read out for the INVINCIBLE-4 Study",
+  "timing_text": "first half of 2026",
+  "latest_date": "2026-06-30",
+  "quote": "for the enrollment of patients and to reach data read out in the INVINCIBLE-4 Study (expected in the first half of 2026)"
+ }
+}
