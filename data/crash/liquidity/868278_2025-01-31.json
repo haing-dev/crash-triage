@@ -1,0 +1,45 @@
+{
+ "id": "868278_2025-01-31",
+ "asof": "2025-01-31",
+ "chars": 30554,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-10-22",
+   "net_proceeds_usd": 500000,
+   "what": "Term note with individual investor",
+   "quote": "On October 22, 2024, the Company entered into a term note agreement with an individual investor for cash proceeds of $500,000"
+  },
+  {
+   "date": "2024-11-05",
+   "net_proceeds_usd": 527000,
+   "what": "Amended Second Future Receipts Financing Agreement with Slate (net of origination fees and payoff of prior balance)",
+   "quote": "resulting in net proceeds to the Company of $527,000"
+  },
+  {
+   "date": "2024-11-12",
+   "net_proceeds_usd": 3000000,
+   "what": "Underwritten public offering of 4,795,500 shares at $0.72; net proceeds approximate (gross $3.45M)",
+   "quote": "The net proceeds to the Company from the sale of the Shares, after deducting the underwriting discounts and commissions and other estimated offering expenses payable by the Company, is expected to be approximately $3 million."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 76000,
+   "exercise_price_usd": 9.0,
+   "expiry": null,
+   "quote": "the Company issued warrants to purchase 76,000 shares of the Company's common stock at an exercise price of $9.00 for a term of 5 years, vesting immediately."
+  },
+  {
+   "count": 208500,
+   "exercise_price_usd": null,
+   "expiry": null,
+   "quote": "warrants to purchase up to 208,500 shares of common stock, which is equal to 5% of the aggregate number of shares of common stock sold in the Offering."
+  }
+ ],
+ "warrants_dropped": 0
+}

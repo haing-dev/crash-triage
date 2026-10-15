@@ -1,0 +1,33 @@
+{
+ "id": "1671502_2024-03-05",
+ "asof": "2024-03-11",
+ "chars": 31598,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-03-08",
+   "net_proceeds_usd": 6499675,
+   "what": "March 2024 public offering of ADSs, pre-funded warrants and warrants via A.G.P. (gross proceeds; net not stated; closing date not stated, so the 8-K filing date is used)",
+   "quote": "the Placement Agent was paid a cash fee of 7.0% of the aggregate gross proceeds to the Company from the sale of the ADSs, Pre Funded-Funded Warrants and Warrants in the Offering"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 583333,
+   "exercise_price_usd": 12.0,
+   "expiry": null,
+   "quote": "Each February Common Warrant has an exercise price of $12.00 per ADS and expires on the fifth anniversary of the February Closing Date."
+  },
+  {
+   "count": 236670,
+   "exercise_price_usd": 13.2,
+   "expiry": "2028-02-24",
+   "quote": "reduced the exercise price of Common Warrants to purchase 236,670 ADSs out of the total 280,000 issued in the August Offering from $60.00 to $13.20 and extended the term during which those warrants could remain exercisable until February 24, 2028."
+  }
+ ],
+ "warrants_dropped": 0
+}

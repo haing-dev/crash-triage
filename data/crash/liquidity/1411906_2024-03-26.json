@@ -1,0 +1,33 @@
+{
+ "id": "1411906_2024-03-26",
+ "asof": "2024-03-26",
+ "chars": 25387,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2023-10-31",
+   "net_proceeds_usd": 6000,
+   "what": "ATM sales of 27,417 shares through Oct 31, 2023: gross $0.1M less offering costs of $94,000 (net approx. $6,000 based on rounded gross)",
+   "quote": "Through October 31, 2023, the Company received gross proceeds of $0.1 million from the sale of 27,417 shares of common stock from the Offering Agreement, which was offset by offering related costs of $94,000."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 50001,
+   "exercise_price_usd": 330.0,
+   "expiry": null,
+   "quote": "December 2021 registered direct offering\n\u200b\n\u200b\n$ 330.00\n\u200b\nInvestor \n\u200b\n 50,001"
+  },
+  {
+   "count": 2750,
+   "exercise_price_usd": 150.0,
+   "expiry": null,
+   "quote": "June 2019 public offering\n\u200b\n\u200b\n$ 150.00\n\u200b\nPlacement agent \n\u200b\n 2,750"
+  }
+ ],
+ "warrants_dropped": 0
+}

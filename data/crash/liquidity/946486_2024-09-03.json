@@ -1,0 +1,45 @@
+{
+ "id": "946486_2024-09-03",
+ "asof": "2024-09-03",
+ "chars": 36175,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [
+  {
+   "amount_usd": 100000,
+   "what": "Cash paid to Deerfield on 2024-01-24 to terminate milestone payment rights (part of $0.2M total)",
+   "quote": "cash in the aggregate amount of $0.2 million, $0.1 million of which was paid on January 24, 2024 and"
+  }
+ ],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-07-03",
+   "net_proceeds_usd": 200000,
+   "what": "Senior secured and unsecured notes private offering (gross proceeds)",
+   "quote": "for aggregate gross proceeds of $200,000, each in a private offering"
+  },
+  {
+   "date": "2024-07-22",
+   "net_proceeds_usd": 3400000,
+   "what": "First tranche Series C preferred and warrants private placement; cash portion only ($12.9M gross less $9.5M paid by cancellation of securities), gross",
+   "quote": "aggregate gross proceeds of approximately $12.9 million of which $9.5 million was paid through the cancellation and extinguishment of certain securities"
+  },
+  {
+   "date": "2024-07-29",
+   "net_proceeds_usd": 1000000,
+   "what": "Second tranche Series C preferred and warrants private placement (gross cash proceeds)",
+   "quote": "for aggregate cash proceeds to us of approximately $1.0 million"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 3778925,
+   "exercise_price_usd": 4.11,
+   "expiry": null,
+   "quote": "Our Warrants have an exercise price of $4.11, or the Exercise Price, subject to adjustment to no lower than $3.741."
+  }
+ ],
+ "warrants_dropped": 0
+}

@@ -1,0 +1,27 @@
+{
+ "id": "890821_2025-01-27",
+ "asof": "2025-01-27",
+ "chars": 21283,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-11-12",
+   "net_proceeds_usd": 405820,
+   "what": "Common stock sold to Lincoln Park under the Purchase Agreement (gross proceeds; net not given; date is the filing's 'as of' date, as the exact closing date is not stated)",
+   "quote": "Subsequent to September 30, 2024, the Company issued 950,000 shares of common stock through the Purchase Agreement with Lincoln Park for gross cash proceeds of $405,820."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 844628,
+   "exercise_price_usd": 35.78,
+   "expiry": null,
+   "quote": "Warrants to purchase shares of common stock"
+  }
+ ],
+ "warrants_dropped": 0
+}

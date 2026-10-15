@@ -1,0 +1,32 @@
+{
+ "id": "1402328_2024-02-13",
+ "asof": "2024-02-13",
+ "chars": 9773,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 11904762,
+   "exercise_price_usd": 0.59,
+   "expiry": "2028-11-16",
+   "quote": "investor warrants (the \u201cMay Investor Warrants\u201d) to purchase up to 11,904,762 shares of common stock at $0.59 per share"
+  },
+  {
+   "count": 4102200,
+   "exercise_price_usd": 0.11,
+   "expiry": null,
+   "quote": "issued and sold an aggregate of 1,882,353 shares of common stock and 4,102,200 warrants to purchase shares of common stock (the \u201cTradeable Warrants\u201d)"
+  },
+  {
+   "count": 3603604,
+   "exercise_price_usd": 2.22,
+   "expiry": "2027-03-14",
+   "quote": "The Investor Warrants have an exercise price of $2.22 per share (subject to adjustment as set forth in the warrant), are exercisable upon issuance and will expire five years from the date of issuance."
+  }
+ ],
+ "warrants_dropped": 0
+}

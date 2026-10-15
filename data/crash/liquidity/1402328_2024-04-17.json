@@ -1,0 +1,45 @@
+{
+ "id": "1402328_2024-04-17",
+ "asof": "2024-04-17",
+ "chars": 25393,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-02-15",
+   "net_proceeds_usd": 10000000,
+   "what": "Firm commitment underwritten public offering of units (gross proceeds; net not stated)",
+   "quote": "On February 15, 2024, the Company closed a firm commitment underwritten public offering with gross proceeds to the Company of approximately $10.0 million."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 963693,
+   "exercise_price_usd": 0.11,
+   "expiry": null,
+   "quote": "As of March 28, 2024, we had a total of 963,693 tradeable warrants outstanding."
+  },
+  {
+   "count": 7973214,
+   "exercise_price_usd": 2.1,
+   "expiry": "2026-08-15",
+   "quote": "The initial exercise price of each Series A Warrant is $2.10 per share of common stock or pursuant to an alternative cashless exercise option."
+  },
+  {
+   "count": 15946428,
+   "exercise_price_usd": 2.38,
+   "expiry": "2029-02-15",
+   "quote": "The initial exercise price of each Series B Warrant is $2.38 per share of common stock."
+  },
+  {
+   "count": 45000000,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "The Pre-Funded Warrants are immediately exercisable at $0.001 per share and may be exercised at any time until exercised in full."
+  }
+ ],
+ "warrants_dropped": 0
+}
