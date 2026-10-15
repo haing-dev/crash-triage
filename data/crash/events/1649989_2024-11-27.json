@@ -1,0 +1,44 @@
+{
+ "cik": "1649989",
+ "name": "Outlook Therapeutics, Inc.",
+ "ticker": "OTLK",
+ "date": "2024-11-27",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-11-27",
+  "accession": "0001104659-24-123554",
+  "doc": "tm2429443d1_ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1649989/000110465924123554/tm2429443d1_ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Missed non-inferiority primary endpoint at week 8 \u00b7 Phase 3 \u00b7 ONS-5010 in wet AMD \u00b7 approved in EU/UK, not in US",
+  "phase": "Phase 3",
+  "drug": "ONS-5010",
+  "indication": "wet age-related macular degeneration (wet AMD)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "In the NORSE EIGHT trial, ONS-5010 did not meet the pre-specified non-inferiority endpoint at week 8 set forth in the special protocol assessment (SPA) with the U.S. Food and Drug Administration (FDA).",
+   "primary_endpoint_met": "the hypothesis of noninferiority was not met (p>0.025)",
+   "safety": "In NORSE EIGHT, ONS-5010 was generally well-tolerated with overall ocular adverse event rates comparable to ranibizumab.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

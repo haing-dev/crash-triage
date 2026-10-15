@@ -1,0 +1,44 @@
+{
+ "cik": "1174940",
+ "name": "ORAGENICS INC",
+ "ticker": "OGEN",
+ "date": "2024-09-04",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-09-05",
+  "accession": "0001493152-24-035166",
+  "doc": "ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1174940/000149315224035166/ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Priced dilutive public offering at $0.55/share raising ~$4.45M \u00b7 Preclinical/development \u00b7 ONP-002 in concussion (mTBI) \u00b7 not yet approved",
+  "phase": "n/a",
+  "drug": "ONP-002",
+  "indication": "mild traumatic brain injury (concussion)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "entered into a placement agency agreement for the purchase and sale of 8,106,584 shares of its common stock (or pre-funded warrants in lieu thereof) at an offering price of $0.55 per share",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

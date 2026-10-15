@@ -1,0 +1,44 @@
+{
+ "cik": "728387",
+ "name": "Perspective Therapeutics, Inc.",
+ "ticker": "CATX",
+ "date": "2024-11-21",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-11-21",
+  "accession": "0000950170-24-129487",
+  "doc": "catx-ex99_1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/728387/000095017024129487/catx-ex99_1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Early NET data showed modest tumor response; dose escalation needs FDA alignment \u00b7 Phase 1/2a \u00b7 [212Pb]VMT-\u03b1-NET in neuroendocrine tumors \u00b7 not yet approved",
+  "phase": "Phase 1/2",
+  "drug": "[212Pb]VMT-\u03b1-NET",
+  "indication": "SSTR2-positive neuroendocrine tumors",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": 9,
+   "serious_drug_related_patients": 0,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": false,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "Eight of nine patients had durable control of disease. Six of nine patients had a measurable reduction of tumor volume, one of whom had a confirmed response as defined by RECIST v1.1.",
+   "primary_endpoint_met": null,
+   "safety": "No dose limiting toxicities (DLTs) were observed among any patients. No grade 4 or 5 treatment emergent adverse events (TEAEs) or serious adverse events (SAEs) were observed.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

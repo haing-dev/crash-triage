@@ -1,0 +1,44 @@
+{
+ "cik": "1697532",
+ "name": "Applied Therapeutics, Inc.",
+ "ticker": "APLT",
+ "date": "2024-11-29",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-11-27",
+  "accession": "0000950170-24-131507",
+  "doc": "aplt-20241127.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1697532/000095017024131507/aplt-20241127.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "regulatory rejection",
+  "summary": "FDA issued complete response letter rejecting NDA \u00b7 Filed \u00b7 govorestat in Classic Galactosemia \u00b7 not yet approved",
+  "phase": "Filed",
+  "drug": "govorestat",
+  "indication": "Classic Galactosemia",
+  "market_stage": "filed for approval",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "The CRL indicates that the FDA completed its review of the application and determined that it is unable to approve the NDA in its current form, citing deficiencies in the clinical application.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": "The Company is reviewing the feedback from the FDA and plans to immediately request a meeting to discuss requirements for a potential resubmission of the NDA or appeal of the decision along with appropriate next steps."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": true
+  }
+ }
+}

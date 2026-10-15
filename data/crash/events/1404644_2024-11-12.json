@@ -1,0 +1,44 @@
+{
+ "cik": "1404644",
+ "name": "Neurogene Inc.",
+ "ticker": "NGNE",
+ "date": "2024-11-12",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-11-12",
+  "accession": "0001404644-24-000091",
+  "doc": "ngne-20241111.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1404644/000140464424000091/ngne-20241111.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "other",
+  "summary": "Initial low-dose efficacy data and updated safety announced \u00b7 Phase 1/2 \u00b7 Rett syndrome gene therapy \u00b7 not yet approved",
+  "phase": "Phase 1/2",
+  "drug": "n/a",
+  "indication": "Rett syndrome",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "issued a press release announcing initial efficacy data from the first four participants in the low-dose cohort of its ongoing Phase 1/2 gene therapy clinical trial for Rett syndrome",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

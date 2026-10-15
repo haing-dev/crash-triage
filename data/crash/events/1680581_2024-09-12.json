@@ -1,0 +1,44 @@
+{
+ "cik": "1680581",
+ "name": "Fulcrum Therapeutics, Inc.",
+ "ticker": "FULC",
+ "date": "2024-09-12",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-09-12",
+  "accession": "0001193125-24-217822",
+  "doc": "d844807dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1680581/000119312524217822/d844807dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 3 missed primary endpoint, development suspended \u00b7 Phase 3 \u00b7 losmapimod in FSHD \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "losmapimod",
+  "indication": "facioscapulohumeral muscular dystrophy (FSHD)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": false,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": 0,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "Phase 3 REACH trial evaluating losmapimod in patients with FSHD, did not achieve its primary endpoint of change from baseline in RSA with losmapimod compared to placebo.",
+   "primary_endpoint_met": "did not achieve its primary endpoint of change from baseline in RSA with losmapimod compared to placebo",
+   "safety": "there were no treatment-related serious adverse events in participants receiving losmapimod.",
+   "program_discontinued": "In light of these results, we plan to suspend the losmapimod program in FSHD."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

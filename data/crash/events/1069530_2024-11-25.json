@@ -1,0 +1,44 @@
+{
+ "cik": "1069530",
+ "name": "FILANA THERAPEUTICS, INC.",
+ "ticker": "FLNA",
+ "date": "2024-11-25",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-11-25",
+  "accession": "0001171843-24-006545",
+  "doc": "f8k_112524.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1069530/000117184324006545/f8k_112524.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 3 topline missed all endpoints; other Phase 3 and extension studies discontinued \u00b7 Phase 3 \u00b7 simufilam in mild-to-moderate Alzheimer's disease \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "simufilam",
+  "indication": "mild-to-moderate Alzheimer's disease",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": false,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "topline results from the Phase 3 ReThink-ALZ study of simufilam in mild-to-moderate Alzheimer\u2019s disease did not meet each of the pre-specified co-primary, secondary and exploratory biomarker endpoints.",
+   "primary_endpoint_met": "did not meet each of the pre-specified co-primary, secondary and exploratory biomarker endpoints",
+   "safety": null,
+   "program_discontinued": "the Company\u2019s decision to discontinue its Phase 3 ReFocus-ALZ study and its open label extension study."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": false,
+   "program_discontinued": true
+  }
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "cik": "1801834",
+ "name": "PRF Technologies Ltd.",
+ "ticker": "PRFX",
+ "date": "2024-11-20",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-11-20",
+  "accession": "0001178913-24-003778",
+  "doc": "zk2432364.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1801834/000117891324003778/zk2432364.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "other",
+  "summary": "Topline Phase 3 data press release announced \u00b7 Phase 3 \u00b7 PRF-110 in postoperative pain \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "PRF-110",
+  "indication": "postoperative pain",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "On November 20, 2024 PainReform Ltd. issued a press release entitled \u201cPainReform Announces Initial Topline Data for PRF-110 Phase 3 Clinical Trial\u201d.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

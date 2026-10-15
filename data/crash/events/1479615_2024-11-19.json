@@ -1,0 +1,44 @@
+{
+ "cik": "1479615",
+ "name": "Silence Therapeutics plc",
+ "ticker": "SLN",
+ "date": "2024-11-19",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-11-18",
+  "accession": "0001193125-24-260987",
+  "doc": "d828427dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1479615/000119312524260987/d828427dex991.htm"
+ },
+ "facts": {
+  "related": false,
+  "trigger": "other",
+  "summary": "Positive Phase 2 time-averaged Lp(a) reduction data presented at AHA, no safety concerns \u00b7 Phase 2 \u00b7 zerlasiran in ASCVD with high Lp(a) \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "zerlasiran",
+  "indication": "atherosclerotic cardiovascular disease with high lipoprotein(a)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": true,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "Results presented today showed that zerlasiran (300 mg every 16 weeks, 300 mg every 24 weeks or 450 mg every 24 weeks) produced greater than 80% mean time-averaged placebo-adjusted reductions from baseline in Lp(a) concentrations over 36 weeks.",
+   "primary_endpoint_met": null,
+   "safety": "reductions in Lp(a) persisted and no safety concerns emerged with infrequent dosing.",
+   "program_discontinued": "We look forward to progressing zerlasiran into Phase 3 as a potentially promising new treatment for patients with high Lp(a)."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

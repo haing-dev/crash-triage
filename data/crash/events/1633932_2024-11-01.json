@@ -1,0 +1,44 @@
+{
+ "cik": "1633932",
+ "name": "ESSA Pharma Inc.",
+ "ticker": "EPIX",
+ "date": "2024-11-01",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-11-01",
+  "accession": "0001279569-24-001310",
+  "doc": "ex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1633932/000127956924001310/ex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 2 futility led to termination of masofaniten plus enzalutamide study and program \u00b7 Phase 2 \u00b7 masofaniten in mCRPC \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "masofaniten",
+  "indication": "metastatic castration-resistant prostate cancer",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": false,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "A futility analysis determined a low likelihood of meeting the prespecified primary endpoint of the study.",
+   "primary_endpoint_met": "A futility analysis determined a low likelihood of meeting the prespecified primary endpoint of the study.",
+   "safety": "The combination of masofaniten plus enzalutamide was well-tolerated with no new safety signals and a safety profile similar to that seen in Phase 1 studies.",
+   "program_discontinued": "Additional clinical studies with masofaniten including the combination study with abiraterone acetate and apalutamide as well as the remaining investigator sponsored trials will also be terminated"
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

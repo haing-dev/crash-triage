@@ -1,0 +1,44 @@
+{
+ "cik": "1501697",
+ "name": "X4 Pharmaceuticals, Inc",
+ "ticker": "XFOR",
+ "date": "2024-11-13",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-11-13",
+  "accession": "0001628280-24-047433",
+  "doc": "xfor-20241113.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1501697/000162828024047433/xfor-20241113.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "other",
+  "summary": "Phase 2 final data showed ANC increase and G-CSF reduction, stock fell anyway \u00b7 Phase 2 completed \u00b7 mavorixafor in chronic neutropenia \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "mavorixafor",
+  "indication": "chronic neutropenia",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": 23,
+   "serious_drug_related_patients": 0,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "An analysis of final data from the six-month study showed that once-daily oral mavorixafor durably and meaningfully increased participants\u2019 mean absolute neutrophil counts (\u201cANC\u201d).",
+   "primary_endpoint_met": null,
+   "safety": "Overall, mavorixafor was generally well tolerated as a monotherapy and in combination with G-CSF, with no drug-related serious adverse events reported, consistent with previous clinical studies.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "cik": "1680367",
+ "name": "Shattuck Labs, Inc.",
+ "ticker": "STTK",
+ "date": "2024-10-01",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-10-01",
+  "accession": "0001193125-24-229480",
+  "doc": "d845252dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1680367/000119312524229480/d845252dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Interim survival gain only modest, program discontinued, 40% layoffs \u00b7 Phase 1B \u00b7 SL-172154 + azacitidine in TP53m AML/HR-MDS \u00b7 not yet approved",
+  "phase": "Phase 1",
+  "drug": "SL-172154",
+  "indication": "TP53 mutant acute myeloid leukemia and higher-risk myelodysplastic syndromes",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "showed only modest improvement in median overall survival compared to azacitidine monotherapy benchmarks; further development of SL-172154 discontinued",
+   "primary_endpoint_met": "the promising complete remission rates we previously shared from our Phase 1 clinical trial did not translate to clinically meaningful improvements in median overall survival",
+   "safety": "SL-172154 showed a manageable safety profile with Infusion-Related Reactions (IRRs) as the most common SL-172154 treatment-emergent adverse events",
+   "program_discontinued": "today announced a strategic pipeline prioritization to include the discontinuation of its clinical program, SL-172154."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

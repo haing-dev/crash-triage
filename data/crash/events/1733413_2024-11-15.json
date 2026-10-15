@@ -1,0 +1,44 @@
+{
+ "cik": "1733413",
+ "name": "TFF Pharmaceuticals, Inc.",
+ "ticker": "TFFP",
+ "date": "2024-11-15",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-11-14",
+  "accession": "0001213900-24-098457",
+  "doc": "ea022110201ex99-1_tffpharma.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1733413/000121390024098457/ea022110201ex99-1_tffpharma.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "other",
+  "summary": "Company terminated employees and will wind down operations \u00b7 n/a \u00b7 n/a \u00b7 n/a",
+  "phase": "n/a",
+  "drug": "n/a",
+  "indication": "n/a",
+  "market_stage": "n/a",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "the Company has terminated its employees and will wind down its operations.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": "the Company has terminated its employees and will wind down its operations."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": true
+  }
+ }
+}

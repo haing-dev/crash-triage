@@ -1,0 +1,44 @@
+{
+ "cik": "1840563",
+ "name": "PMGC Holdings Inc.",
+ "ticker": "ELAB",
+ "date": "2024-09-23",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-09-24",
+  "accession": "0001213900-24-081234",
+  "doc": "ea0215355-424b3_elevai.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1840563/000121390024081234/ea0215355-424b3_elevai.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Public offering and resale registration dilute shares \u00b7 Phase 1 completed \u00b7 EL-22 in obesity muscle preservation \u00b7 not yet approved",
+  "phase": "Phase 1",
+  "drug": "EL-22",
+  "indication": "obesity (muscle preservation during GLP-1 weight loss)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "We will receive approximately $7.0 million in net proceeds from the offering, which will terminate on September 24, 2024",
+   "primary_endpoint_met": null,
+   "safety": "EL-22 has completed a Phase 1 clinical trial in South Korea, demonstrating it was generally well tolerated and safe in healthy volunteers.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

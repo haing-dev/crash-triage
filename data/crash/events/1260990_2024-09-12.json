@@ -1,0 +1,44 @@
+{
+ "cik": "1260990",
+ "name": "Oncternal Therapeutics, Inc.",
+ "ticker": "ONCT",
+ "date": "2024-09-12",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-09-12",
+  "accession": "0000950170-24-105987",
+  "doc": "onct-20240911.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1260990/000095017024105987/onct-20240911.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Discontinued both trials after no meaningful ONCT-534 response; exploring strategic alternatives \u00b7 Phase 1 \u00b7 ONCT-534 in metastatic castration-resistant prostate cancer \u00b7 not yet approved",
+  "phase": "Phase 1",
+  "drug": "ONCT-534",
+  "indication": "metastatic castration-resistant prostate cancer",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": false,
+  "safety": {
+   "treated_patients": 20,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": false,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "interim Phase 1 study results of ONCT-534 did not show clinically meaningful improvements of disease, including prostate-specific antigen (PSA) levels, in the 20 patients treated in eight dosing cohorts",
+   "primary_endpoint_met": "interim Phase 1 study results of ONCT-534 did not show clinically meaningful improvements of disease, including prostate-specific antigen (PSA) levels",
+   "safety": "ONCT-534 was generally well tolerated, with dose limiting toxicity observed in 2 of 3 patients at the highest dose tested, 1200 mg given orally once per day.",
+   "program_discontinued": "Based on the available clinical data and capital requirements for continued development, Oncternal has decided to terminate these studies."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

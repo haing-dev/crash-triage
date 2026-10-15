@@ -1,0 +1,44 @@
+{
+ "cik": "1620463",
+ "name": "LeonaBio, Inc.",
+ "ticker": "LONA",
+ "date": "2024-09-04",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-09-03",
+  "accession": "0000950170-24-102788",
+  "doc": "atha-ex99_1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1620463/000095017024102788/atha-ex99_1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Missed primary endpoint, subgroups numerically better \u00b7 Phase 2/3 \u00b7 fosgonimeton in mild-to-moderate Alzheimer's \u00b7 not yet approved",
+  "phase": "Phase 2/3",
+  "drug": "fosgonimeton",
+  "indication": "mild-to-moderate Alzheimer's disease",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": 0,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "LIFT-AD trial did not meet primary endpoint of GST and key secondary endpoints of cognition (ADAS-Cog11) and function (ADCS-ADL23)",
+   "primary_endpoint_met": "While the trial did not meet its primary endpoint",
+   "safety": "Fosgonimeton was generally well tolerated, with a favorable safety profile.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

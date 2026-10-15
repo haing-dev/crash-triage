@@ -1,0 +1,44 @@
+{
+ "cik": "1678660",
+ "name": "Prelude Therapeutics Inc",
+ "ticker": "PRLD",
+ "date": "2024-09-13",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-09-13",
+  "accession": "0000950170-24-106362",
+  "doc": "prld-ex99_1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1678660/000095017024106362/prld-ex99_1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Interim data showed modest tumor responses, none in non-lung/esophageal tumors \u00b7 Phase 1 \u00b7 PRT3789 in SMARCA4-mutated solid tumors \u00b7 not yet approved",
+  "phase": "Phase 1",
+  "drug": "PRT3789",
+  "indication": "SMARCA4-mutated solid tumors (NSCLC, esophageal cancer)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": 65,
+   "serious_drug_related_patients": 0,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "Overall, of the 26 advanced, heavily pre-treated NSCLC or esophageal patients evaluable for efficacy, 7 had tumor shrinkage. RECIST confirmed partial responses (PRs) were observed in 3 patients.",
+   "primary_endpoint_met": null,
+   "safety": "No dose limiting toxicities were observed and no study drug-related serious adverse events were reported.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

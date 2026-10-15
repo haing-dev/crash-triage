@@ -1,0 +1,44 @@
+{
+ "cik": "1267813",
+ "name": "MARINUS PHARMACEUTICALS, INC.",
+ "ticker": "MRNS",
+ "date": "2024-10-24",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-10-24",
+  "accession": "0001558370-24-013565",
+  "doc": "mrns-20241024xex99d1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1267813/000155837024013565/mrns-20241024xex99d1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 3 trial missed primary endpoint; ganaxolone development discontinued, strategic alternatives explored \u00b7 Phase 3 \u00b7 ganaxolone in TSC seizures \u00b7 approved for CDKL5 only",
+  "phase": "Phase 3",
+  "drug": "ganaxolone",
+  "indication": "seizures associated with tuberous sclerosis complex",
+  "market_stage": "on market",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "the Phase 3 TrustTSC trial evaluating oral ganaxolone for the treatment of seizures associated with tuberous sclerosis complex (TSC) in children and adults did not meet the primary endpoint",
+   "primary_endpoint_met": "The trial did not achieve statistical significance on its primary endpoint of percent reduction in 28-day frequency of TSC-associated seizures",
+   "safety": "Ganaxolone was generally well-tolerated with a safety profile consistent with previous clinical trials.",
+   "program_discontinued": "Marinus is discontinuing further ganaxolone clinical development and is taking additional steps to reduce costs, including a reduction in its workforce."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

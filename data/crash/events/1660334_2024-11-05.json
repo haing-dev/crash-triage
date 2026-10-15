@@ -1,0 +1,44 @@
+{
+ "cik": "1660334",
+ "name": "Verrica Pharmaceuticals Inc.",
+ "ticker": "VRCA",
+ "date": "2024-11-05",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-11-04",
+  "accession": "0001193125-24-250638",
+  "doc": "d907851dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1660334/000119312524250638/d907851dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "commercial miss",
+  "summary": "Zero Q3 shipments, negative net revenue, cash runway into Q1 2025, CEO change \u00b7 n/a \u00b7 YCANTH in molluscum contagiosum \u00b7 on market",
+  "phase": "Approved",
+  "drug": "YCANTH (VP-102)",
+  "indication": "molluscum contagiosum",
+  "market_stage": "on market",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "Company reported $0 in product shipments in the third quarter of 2024 and recognized negative net product revenue of $1.9 million, including a provision for product returns of $1.7 million",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

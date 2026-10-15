@@ -1,0 +1,44 @@
+{
+ "cik": "1595353",
+ "name": "Galmed Pharmaceuticals Ltd.",
+ "ticker": "EOCN",
+ "date": "2024-09-18",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-09-19",
+  "accession": "0001493152-24-037073",
+  "doc": "ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1595353/000149315224037073/ex99-1.htm"
+ },
+ "facts": {
+  "related": false,
+  "trigger": "other",
+  "summary": "Announced expansion into cancer and cardiometabolic programs, $7.5M raised \u00b7 Preclinical \u00b7 Aramchol in colorectal/hepatic cancer and cardiac fibrosis \u00b7 not yet approved",
+  "phase": "Preclinical",
+  "drug": "Aramchol",
+  "indication": "colorectal and hepatic cancers; cardiac fibrosis",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "Galmed raised an aggregate of $7.5 million in warrant exercises and drawdowns on its recently adopted equity line",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

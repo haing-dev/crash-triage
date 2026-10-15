@@ -1,0 +1,44 @@
+{
+ "cik": "1999480",
+ "name": "Alto Neuroscience, Inc.",
+ "ticker": "ANRO",
+ "date": "2024-10-23",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-10-22",
+  "accession": "0001193125-24-241092",
+  "doc": "d876702dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1999480/000119312524241092/d876702dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 2b missed primary endpoint versus placebo \u00b7 Phase 2 \u00b7 ALTO-100 in major depressive disorder \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "ALTO-100",
+  "indication": "major depressive disorder",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": false,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "the Phase 2b study of ALTO-100 in patients with major depressive disorder (MDD) did not meet its primary endpoint, assessed by a change from baseline in Montgomery-\u00c5sberg Depression Rating Scale (MADRS), compared to placebo.",
+   "primary_endpoint_met": "The biomarker-defined MDD patient group treated with ALTO-100 did not demonstrate a statistically significant improvement in depressive symptoms compared to placebo.",
+   "safety": "ALTO-100 continued to demonstrate a favorable safety and tolerability profile, with no new safety signals observed in this study as compared to the previously completed clinical trials of ALTO-100.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

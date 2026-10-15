@@ -1,0 +1,44 @@
+{
+ "cik": "1582554",
+ "name": "Matinas BioPharma Holdings, Inc.",
+ "ticker": "MTNB",
+ "date": "2024-10-31",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-10-31",
+  "accession": "0001493152-24-043130",
+  "doc": "ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1582554/000149315224043130/ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "partner exit",
+  "summary": "Partner ended MAT2203 deal talks; 80% layoffs, development stopped \u00b7 Phase 3-ready \u00b7 MAT2203 in invasive fungal infections \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "MAT2203",
+  "indication": "invasive fungal infections",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "negotiations under the previously disclosed non-binding term sheet regarding global rights to MAT2203, its oral formulation of amphotericin B, have been terminated following notification from the prospective partner.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": "has implemented an 80% workforce reduction effective immediately, eliminating 15 positions including three members of senior management, and has ceased all product development activities to conserve cash."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": true
+  }
+ }
+}
