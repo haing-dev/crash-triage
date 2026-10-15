@@ -1,0 +1,38 @@
+{
+ "id": "1426800_2026-09-16",
+ "asof": "2026-09-16",
+ "chars": 18772,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 814000,
+   "exercise_price_usd": 17.0,
+   "expiry": "2029-06-18",
+   "quote": "6/16/2024 6/16/2024 6/18/2029 $ 17.00 634,500 634,500"
+  },
+  {
+   "count": 1455820,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "the Company sold pre-funded warrants to purchase up to 1,040,820 shares and 415,000 shares of common stock, respectively"
+  },
+  {
+   "count": 4209187,
+   "exercise_price_usd": 21.6,
+   "expiry": "2030-08-11",
+   "quote": "8/11/2025 8/11/2025 8/11/2030 (1) $ 21.60 4,209,187 4,209,187"
+  },
+  {
+   "count": 4464290,
+   "exercise_price_usd": 21.6,
+   "expiry": "2026-12-31",
+   "quote": "8/11/2025 11/15/2026 (2) 12/31/2026 (2) $ 21.60 4,464,290"
+  }
+ ],
+ "warrants_dropped": 0
+}

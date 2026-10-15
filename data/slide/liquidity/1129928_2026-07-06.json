@@ -1,0 +1,33 @@
+{
+ "id": "1129928_2026-07-06",
+ "asof": "2026-07-06",
+ "chars": 24372,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2026-05-12",
+   "net_proceeds_usd": 2292000,
+   "what": "ATM sales under Jefferies Sales Agreement, April 1 to May 12, 2026",
+   "quote": "We received net proceeds of $2,292 after commissions of $71."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 536693,
+   "exercise_price_usd": 2.25,
+   "expiry": null,
+   "quote": "Each compensation warrant is exercisable into one common share at an exercise price of $2.25 up to 60 months from the date of issuance."
+  },
+  {
+   "count": 7667050,
+   "exercise_price_usd": 2.81,
+   "expiry": null,
+   "quote": "As of March 31, 2026 and March 31, 2025, there were 7,667,050 warrants outstanding."
+  }
+ ],
+ "warrants_dropped": 0
+}

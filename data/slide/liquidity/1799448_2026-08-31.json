@@ -1,0 +1,38 @@
+{
+ "id": "1799448_2026-08-31",
+ "asof": "2026-08-31",
+ "chars": 18778,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 2200858,
+   "exercise_price_usd": 18.92,
+   "expiry": "2030-10-25",
+   "quote": "Each 2023 Common Warrant has an exercise price of $18.92 per share of common stock, is immediately exercisable and will expire on October 25, 2030."
+  },
+  {
+   "count": 2012909,
+   "exercise_price_usd": 26.02,
+   "expiry": null,
+   "quote": "Each 2025 Common Warrant has an exercise price of $26.02, is immediately exercisable and will expire in February 2032."
+  },
+  {
+   "count": 2294921,
+   "exercise_price_usd": 0.0025,
+   "expiry": null,
+   "quote": "Each 2023 Pre-Funded Warrant has an exercise price of $0.0025 per share of common stock, was immediately exercisable and is exercisable until exercised in full."
+  },
+  {
+   "count": 1922511,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "which represents the purchase price per share less the $0.0001 per share exercise price of each Pre-Funded Warrant."
+  }
+ ],
+ "warrants_dropped": 0
+}

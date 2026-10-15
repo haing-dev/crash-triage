@@ -1,0 +1,33 @@
+{
+ "id": "1137883_2026-07-14",
+ "asof": "2026-07-14",
+ "chars": 21271,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2026-05-11",
+   "net_proceeds_usd": 200000,
+   "what": "May 2026 private placements of common stock with common warrants (gross proceeds; net not given)",
+   "quote": "The Company received aggregate gross proceeds of $200,000 from the transactions."
+  },
+  {
+   "date": "2026-05-11",
+   "net_proceeds_usd": 125000,
+   "what": "Unsecured convertible promissory note, cash proceeds after OID",
+   "quote": "On May 11, 2026, the Company issued an unsecured convertible promissory note in the principal amount of $151,800, receiving $125,000 in cash proceeds after an original issue discount."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 252630,
+   "exercise_price_usd": 1.45,
+   "expiry": "2031-05-11",
+   "quote": "Common Warrants to purchase an aggregate of 252,630 shares of Common Stock, representing 120% of the Shares issued, at an exercise price of $1.45 per share, exercisable immediately and expiring five (5) years from the date of issuance"
+  }
+ ],
+ "warrants_dropped": 0
+}

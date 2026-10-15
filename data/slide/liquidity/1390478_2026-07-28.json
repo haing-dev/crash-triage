@@ -1,0 +1,39 @@
+{
+ "id": "1390478_2026-07-28",
+ "asof": "2026-07-28",
+ "chars": 21277,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": null,
+   "net_proceeds_usd": 7500000,
+   "what": "Exercise of 4.7 million warrants after March 31, 2026 at a weighted average price of $1.60 (exact receipt date not given)",
+   "quote": "Subsequent to March 31, 2026, we received an additional $7.5 million from the exercise of 4.7 million warrants at a weighted average exercise price of $1.60 per share."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 22364000,
+   "exercise_price_usd": 2.0,
+   "expiry": null,
+   "quote": "October 2025 Inducement Warrants22,364 \u2014 22,364 $2.00 October 2030"
+  },
+  {
+   "count": 5449000,
+   "exercise_price_usd": 1.41,
+   "expiry": null,
+   "quote": "March 2024 Registered Direct Offering6,514 (1,065)5,449 $1.41 September 2029"
+  },
+  {
+   "count": 2486000,
+   "exercise_price_usd": 2.18,
+   "expiry": null,
+   "quote": "Other9,919 (7,433)2,486 $2.18 April 2027 - January 2029"
+  }
+ ],
+ "warrants_dropped": 0
+}
