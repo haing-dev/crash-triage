@@ -1,7 +1,7 @@
 # Crashes (fall of 50%+ within 5 trading days, with a news day of 25%+)
 scanned 970 price files
 
-**960 crashes** (643 crossed -50% in a single day)
+**962 crashes** (643 crossed -50% in a single day)
 
 | Year | Crashes |
 |---|---|
@@ -9,9 +9,9 @@ scanned 970 price files
 | 2021 | 77 |
 | 2022 | 167 |
 | 2023 | 180 |
-| 2024 | 205 |
+| 2024 | 206 |
 | 2025 | 185 |
-| 2026 | 119 |
+| 2026 | 120 |
 
 Latest 15:
 
