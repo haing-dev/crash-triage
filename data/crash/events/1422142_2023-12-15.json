@@ -1,0 +1,44 @@
+{
+ "cik": "1422142",
+ "name": "Whitehawk Therapeutics, Inc.",
+ "ticker": "WHWK",
+ "date": "2023-12-15",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-12-14",
+  "accession": "0001193125-23-295566",
+  "doc": "d572047dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1422142/000119312523295566/d572047dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Interim response rates modest (26% TSC1, 11% TSC2 arms) \u00b7 Phase 2 \u00b7 nab-sirolimus in TSC1/TSC2-altered solid tumors \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "nab-sirolimus (FYARRO)",
+  "indication": "solid tumors with TSC1 or TSC2 inactivating alterations",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": 40,
+   "serious_drug_related_patients": null,
+   "deaths": 0,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "An 11% ORR including 2 PRs with 1 confirmed and 1 uPR",
+   "primary_endpoint_met": "The primary endpoint is overall response rate per independent radiographic review (IRR) using RECIST v1.1.",
+   "safety": "No new safety signals were observed, and no grade four treatment-related events or deaths occurred.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

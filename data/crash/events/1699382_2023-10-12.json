@@ -1,0 +1,44 @@
+{
+ "cik": "1699382",
+ "name": "PMV Pharmaceuticals, Inc.",
+ "ticker": "PMVP",
+ "date": "2023-10-12",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-10-12",
+  "accession": "0001193125-23-255083",
+  "doc": "d534012dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1699382/000119312523255083/d534012dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Updated Phase 1 data showed 38% response rate at recommended dose, below market hopes \u00b7 Phase 1/2 \u00b7 PC14586 in TP53 Y220C solid tumors \u00b7 not yet approved",
+  "phase": "Phase 1/2",
+  "drug": "PC14586",
+  "indication": "advanced solid tumors with TP53 Y220C mutation",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": 67,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "Confirmed overall response rate of 38% at Recommended Phase 2 Dose of 2000 mg daily (6/16 evaluable patients) reflective of the planned Phase 2 patient population (TP53 Y220C and KRAS wild-type)",
+   "primary_endpoint_met": null,
+   "safety": "PC14586 achieved efficacy in heavily pretreated patients across multiple tumor types and was well tolerated with a favorable safety profile.",
+   "program_discontinued": "PMV plans to initiate a registrational Phase 2 trial in early 2024."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

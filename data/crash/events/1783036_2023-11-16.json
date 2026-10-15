@@ -1,0 +1,44 @@
+{
+ "cik": "1783036",
+ "name": "NewcelX Ltd.",
+ "ticker": "NCEL",
+ "date": "2023-11-16",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-11-16",
+  "accession": "0001213900-23-087912",
+  "doc": "ea188582ex99-1_nlspharma.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1783036/000121390023087912/ea188582ex99-1_nlspharma.htm"
+ },
+ "facts": {
+  "related": false,
+  "trigger": "other",
+  "summary": "Form of CHF 250,000 short-term unsecured loan, 10% interest, due June 2024 \u00b7 n/a \u00b7 n/a in n/a \u00b7 n/a",
+  "phase": "n/a",
+  "drug": "n/a",
+  "indication": "n/a",
+  "market_stage": "n/a",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "The Lender herewith grants a loan to the Borrower in the amount of CHF 250,000.00 (\u201cLoan\u201d).",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

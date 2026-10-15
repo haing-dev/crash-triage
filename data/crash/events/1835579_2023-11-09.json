@@ -1,0 +1,44 @@
+{
+ "cik": "1835579",
+ "name": "ImageneBio, Inc.",
+ "ticker": "IMA",
+ "date": "2023-11-09",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-11-09",
+  "accession": "0000950170-23-061519",
+  "doc": "ikna-ex99_1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1835579/000095017023061519/ikna-ex99_1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Only 7 of 15 patients reached efficacious exposure; early EHE activity, next update delayed to 2H 2024 \u00b7 Phase 1 \u00b7 IK-930 in solid tumors/EHE \u00b7 not yet approved",
+  "phase": "Phase 1",
+  "drug": "IK-930",
+  "indication": "epithelioid hemangioendothelioma (EHE) and other solid tumors",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": 26,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "7 out of 15 patients were determined to reach efficacious exposure",
+   "primary_endpoint_met": null,
+   "safety": "Favorable safety profile in dose escalation shown to date",
+   "program_discontinued": "Dose escalation is currently ongoing"
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

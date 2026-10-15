@@ -1,0 +1,44 @@
+{
+ "cik": "1498382",
+ "name": "TuHURA Biosciences, Inc./NV",
+ "ticker": "HURA",
+ "date": "2023-10-31",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-10-31",
+  "accession": "0000950170-23-056547",
+  "doc": "ktra-ex99_1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1498382/000095017023056547/ktra-ex99_1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "VAL-083 failed to beat standard of care, development suspended \u00b7 Phase 2/3 GBM AGILE \u00b7 VAL-083 in glioblastoma \u00b7 not yet approved",
+  "phase": "Phase 2/3",
+  "drug": "VAL-083",
+  "indication": "glioblastoma",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "preliminary topline results from the Glioblastoma Adaptive Global Innovative Learning Environment (GBM AGILE) study showed that VAL-083 did not perform better than the current standards of care in glioblastoma.",
+   "primary_endpoint_met": "VAL-083 did not perform better than the current standards of care in glioblastoma.",
+   "safety": "These topline results included preliminary safety data for VAL-083 that was similar to that of the current standards of care used to treat glioblastoma.",
+   "program_discontinued": "With this study outcome, Kintara is suspending the development of VAL-083 and turning its focus to its second program, REM-001."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

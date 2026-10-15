@@ -1,0 +1,44 @@
+{
+ "cik": "1533040",
+ "name": "Phio Pharmaceuticals Corp.",
+ "ticker": "PHIO",
+ "date": "2023-12-07",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-12-08",
+  "accession": "0001683168-23-008732",
+  "doc": "phio_ex9901.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1533040/000168316823008732/phio_ex9901.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Warrant exercise repriced to $1.33 raising $2.8M with new warrants issued \u00b7 clinical stage \u00b7 INTASYL platform \u00b7 not yet approved",
+  "phase": "n/a",
+  "drug": "INTASYL",
+  "indication": "n/a",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "announced the agreement by several accredited investors to exercise certain outstanding warrants to purchase up to an aggregate of 2,130,252 shares of common stock of the Company",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

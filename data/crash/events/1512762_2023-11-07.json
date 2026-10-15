@@ -1,0 +1,44 @@
+{
+ "cik": "1512762",
+ "name": "Coherus Oncology, Inc.",
+ "ticker": "CHRS",
+ "date": "2023-11-07",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-11-06",
+  "accession": "0001558370-23-017778",
+  "doc": "chrs-20231106xex99d1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1512762/000155837023017778/chrs-20231106xex99d1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "commercial miss",
+  "summary": "Lowered 2023 revenue guidance on delayed UDENYCA ONBODY and LOQTORZI launches \u00b7 Approved/Filed \u00b7 UDENYCA ONBODY, LOQTORZI in oncology supportive care/NPC \u00b7 on market",
+  "phase": "Approved",
+  "drug": "UDENYCA ONBODY / LOQTORZI",
+  "indication": "neutropenia (pegfilgrastim on-body injector); nasopharyngeal carcinoma",
+  "market_stage": "on market",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "Primarily due to the delay in the timing of the planned commercial launches of the UDENYCA\u00ae On-body Injector and of LOQTORZI\u2122, Coherus is lowering its guidance for 2023 net product revenue to a range of $250 to $260 million.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

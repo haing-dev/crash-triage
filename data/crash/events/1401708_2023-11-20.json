@@ -1,0 +1,44 @@
+{
+ "cik": "1401708",
+ "name": "NS Wind Down Co., Inc.",
+ "ticker": "NSTG",
+ "date": "2023-11-20",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-11-20",
+  "accession": "0001401708-23-000258",
+  "doc": "nstg-20238kex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1401708/000140170823000258/nstg-20238kex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "other",
+  "summary": "Jury patent-infringement verdict (~$31M damages) and withdrawn guidance \u00b7 n/a \u00b7 GeoMx spatial profiler in life science research \u00b7 on market",
+  "phase": "n/a",
+  "drug": "n/a",
+  "indication": "n/a",
+  "market_stage": "on market",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "finding that NanoString GeoMx\u00ae Digital Spatial Profiler products infringe patents licensed to 10x Genomics and awarding approximately $31 million in damages",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

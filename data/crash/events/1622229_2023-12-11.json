@@ -1,0 +1,44 @@
+{
+ "cik": "1622229",
+ "name": "Cogent Biosciences, Inc.",
+ "ticker": "COGT",
+ "date": "2023-12-11",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-12-11",
+  "accession": "0001193125-23-292084",
+  "doc": "d844329d8k.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1622229/000119312523292084/d844329d8k.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "other",
+  "summary": "Stock fell despite positive data; SUMMIT/APEX results presented at ASH \u00b7 Phase 2 \u00b7 bezuclastinib in systemic mastocytosis \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "bezuclastinib",
+  "indication": "nonadvanced and advanced systemic mastocytosis",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": 52,
+   "serious_drug_related_patients": 4,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "announced positive initial data from the Company's ongoing Phase 2 SUMMIT clinical trial evaluating bezuclastinib in patients with nonadvanced systemic mastocytosis",
+   "primary_endpoint_met": null,
+   "safety": "Related serious adverse events were reported in four patients including Grade 4 thrombocytopenia, Grade 3 hypersensitivity (mediator flare), Grade 3 leishmaniasis, and Grade 3 drug induced liver injury",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

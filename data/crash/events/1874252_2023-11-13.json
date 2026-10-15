@@ -1,0 +1,44 @@
+{
+ "cik": "1874252",
+ "name": "Quantum Cyber N.V.",
+ "ticker": "QUCY",
+ "date": "2023-11-13",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-11-13",
+  "accession": "0001213900-23-086099",
+  "doc": "ea188217ex99-1_mainzbio.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1874252/000121390023086099/ea188217ex99-1_mainzbio.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Priced $5.0M registered direct offering with warrants at $1.20 \u00b7 pivotal FDA study ongoing \u00b7 ColoAlert in colorectal cancer \u00b7 on market in Europe",
+  "phase": "n/a",
+  "drug": "ColoAlert",
+  "indication": "colorectal cancer",
+  "market_stage": "on market",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "announced today that it has entered into a securities purchase agreement with several institutional investors to purchase $5.0 million of its ordinary shares (or pre-funded warrants to purchase ordinary shares in lieu thereof) and warrants to purchase ordinary shares in a registered direct offering.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

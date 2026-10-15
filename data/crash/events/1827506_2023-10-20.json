@@ -1,0 +1,44 @@
+{
+ "cik": "1827506",
+ "name": "Tourmaline Bio, Inc.",
+ "ticker": "TRML",
+ "date": "2023-10-20",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-10-20",
+  "accession": "0001193125-23-259403",
+  "doc": "d571384dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1827506/000119312523259403/d571384dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "other",
+  "summary": "Reverse merger with Talaris closed, special cash dividend ex-date, ticker change \u00b7 Phase 2b \u00b7 TOUR006 in thyroid eye disease \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "TOUR006",
+  "indication": "thyroid eye disease",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "Talaris enacted a 1-for-10 reverse stock split of its common stock and issued a special cash dividend to Talaris shareholders of record as of October 16, 2023",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

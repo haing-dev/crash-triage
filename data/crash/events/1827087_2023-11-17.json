@@ -1,0 +1,44 @@
+{
+ "cik": "1827087",
+ "name": "Vigil Neuroscience, Inc.",
+ "ticker": "VIGL",
+ "date": "2023-11-17",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-11-16",
+  "accession": "0001193125-23-278840",
+  "doc": "d945726dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1827087/000119312523278840/d945726dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Interim data showed only directional biomarker trends in six patients, disappointing investors \u00b7 Phase 2 \u00b7 iluzanebart in ALSP \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "iluzanebart (VGL101)",
+  "indication": "adult-onset leukoencephalopathy with axonal spheroids and pigmented glia (ALSP)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": 6,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": false,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "Directionally supportive changes at 6 months on magnetic resonance imaging (MRI) and neurofilament light (NfL) biomarkers of disease progression in individual patients with ALSP were also observed.",
+   "primary_endpoint_met": null,
+   "safety": "Favorable safety and tolerability profile, including no hematologic adverse events.",
+   "program_discontinued": "We believe the quality and consistency of the interim data further support the continuation of IGNITE without modification."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

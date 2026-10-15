@@ -1,0 +1,44 @@
+{
+ "cik": "1604464",
+ "name": "Atara Biotherapeutics, Inc.",
+ "ticker": "ATRA",
+ "date": "2023-11-09",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-11-09",
+  "accession": "0001193125-23-273808",
+  "doc": "d139069dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1604464/000119312523273808/d139069dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 2 missed primary endpoint; no benefit seen, study likely stopped \u00b7 Phase 2 \u00b7 ATA188 in non-active progressive multiple sclerosis \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "ATA188",
+  "indication": "non-active progressive multiple sclerosis",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": false,
+  "safety": {
+   "treated_patients": 103,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "The study did not meet the primary endpoint of confirmed disability improvement (CDI) by expanded disability status scale (EDSS) at 12 months compared to placebo.",
+   "primary_endpoint_met": "The study did not meet the primary endpoint of confirmed disability improvement (CDI) by expanded disability status scale (EDSS) at 12 months compared to placebo.",
+   "safety": "Preliminary safety data showed there were no new safety signals in the EMBOLD study, reinforcing the favorable safety profile observed with ATA188 to date.",
+   "program_discontinued": "however we anticipate stopping the study as no treatment benefit was observed."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

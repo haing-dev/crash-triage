@@ -1,0 +1,44 @@
+{
+ "cik": "1859007",
+ "name": "ZyVersa Therapeutics, Inc.",
+ "ticker": "ZVSA",
+ "date": "2023-12-07",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-12-08",
+  "accession": "0001493152-23-044266",
+  "doc": "form424b4.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1859007/000149315223044266/form424b4.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Priced ~$5M best-efforts offering with pre-funded and Series A/B warrants at $1.25 vs $2.17 prior close \u00b7 Preclinical/Phase 2a planned \u00b7 VAR 200 in FSGS \u00b7 not yet approved",
+  "phase": "Preclinical",
+  "drug": "VAR 200",
+  "indication": "focal segmental glomerulosclerosis (FSGS)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "On December 5, 2023, the last quoted sale price for our Common Stock as reported on Nasdaq was $2.17.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "cik": "1840574",
+ "name": "Verve Therapeutics, Inc.",
+ "ticker": "VERV",
+ "date": "2023-11-13",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-11-13",
+  "accession": "0001193125-23-275264",
+  "doc": "d579390d8k.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1840574/000119312523275264/d579390d8k.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "safety",
+  "summary": "Interim data showed grade 3 MI, grade 3 liver enzyme rise and a death \u00b7 Phase 1b \u00b7 VERVE-101 in heterozygous familial hypercholesterolemia/ASCVD \u00b7 not yet approved",
+  "phase": "Phase 1",
+  "drug": "VERVE-101",
+  "indication": "Heterozygous familial hypercholesterolemia and atherosclerotic cardiovascular disease",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": 10,
+   "serious_drug_related_patients": 1,
+   "deaths": 1,
+   "clinical_hold_or_trial_paused": false,
+   "described_as_well_tolerated": false
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "The two patients treated with 0.45 mg/kg of VERVE-101 had a time-averaged blood PCSK9 protein reduction of 59% and 84% and a time-averaged LDL-C reduction of 39% and 48%.",
+   "primary_endpoint_met": null,
+   "safety": "One patient dosed in the 0.45 mg/kg cohort experienced a myocardial infarction (Grade 3) the day after treatment. The event was considered potentially related to treatment due to the proximity to dosing.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

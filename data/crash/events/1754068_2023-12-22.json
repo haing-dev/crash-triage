@@ -1,0 +1,44 @@
+{
+ "cik": "1754068",
+ "name": "Kalaris Therapeutics, Inc.",
+ "ticker": "KLRS",
+ "date": "2023-12-22",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-12-22",
+  "accession": "0001193125-23-301777",
+  "doc": "d671953dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1754068/000119312523301777/d671953dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Three Phase 3 trials stopped for futility, no safety concerns \u00b7 Phase 3 \u00b7 posoleucel in post-transplant viral infections \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "posoleucel",
+  "indication": "viral infections (prevention, hemorrhagic cystitis, adenovirus) after allogeneic hematopoietic cell transplant",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "each of which recommended stopping its respective trial for futility after a review of the data suggested that each study was unlikely to meet its primary endpoint.",
+   "primary_endpoint_met": "each of which recommended stopping its respective trial for futility after a review of the data suggested that each study was unlikely to meet its primary endpoint.",
+   "safety": "There were no observed safety concerns raised by any of the DSMBs.",
+   "program_discontinued": "The company will discontinue its three global Phase 3 posoleucel studies"
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

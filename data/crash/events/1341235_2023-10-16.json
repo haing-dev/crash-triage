@@ -1,0 +1,44 @@
+{
+ "cik": "1341235",
+ "name": "Aldeyra Therapeutics, Inc.",
+ "ticker": "ALDX",
+ "date": "2023-10-16",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-10-16",
+  "accession": "0001193125-23-256532",
+  "doc": "d760002d8k.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1341235/000119312523256532/d760002d8k.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "regulatory delay",
+  "summary": "FDA late-cycle review flagged efficacy issues, may need new trial, CRL possible \u00b7 Filed \u00b7 reproxalap in dry eye disease \u00b7 filed for approval",
+  "phase": "Filed",
+  "drug": "reproxalap",
+  "indication": "dry eye disease",
+  "market_stage": "filed for approval",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "The FDA stated that \u201c[i]t does not appear that you have data to support the clinical relevance of the ocular signs to support your dry eye indication.\u201d",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

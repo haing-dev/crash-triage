@@ -1,0 +1,44 @@
+{
+ "cik": "1851194",
+ "name": "Ventyx Biosciences, Inc.",
+ "ticker": "VTYX",
+ "date": "2023-11-07",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-11-06",
+  "accession": "0001193125-23-271463",
+  "doc": "d471746dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1851194/000119312523271463/d471746dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Efficacy magnitude below internal target; psoriasis and psoriatic arthritis trials terminated \u00b7 Phase 2 \u00b7 VTX958 in plaque psoriasis \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "VTX958",
+  "indication": "moderate to severe plaque psoriasis",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": true,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": 0,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": false,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "Efficacy results did not meet the internal target to support further development of VTX958 in psoriasis; Ventyx to terminate Phase 2 trials of VTX958 in plaque psoriasis and psoriatic arthritis",
+   "primary_endpoint_met": "Both high doses of VTX958 (225 mg BID and 300 mg BID) achieved statistical significance on the primary endpoint and all key secondary endpoints at Week 16.",
+   "safety": "No drug-related serious adverse events were observed.",
+   "program_discontinued": "Accordingly, we will terminate ongoing activities in the Phase 2 plaque psoriasis trial effective immediately."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

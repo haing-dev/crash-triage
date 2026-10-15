@@ -1,0 +1,44 @@
+{
+ "cik": "1133869",
+ "name": "CAPRICOR THERAPEUTICS, INC.",
+ "ticker": "CAPR",
+ "date": "2023-09-29",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-09-29",
+  "accession": "0001558370-23-016171",
+  "doc": "capr-20230929xex99d1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1133869/000155837023016171/capr-20230929xex99d1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Announced $23M registered direct offering with warrants, causing dilution \u00b7 late-stage \u00b7 CAP-1002 in Duchenne muscular dystrophy \u00b7 not yet approved",
+  "phase": "n/a",
+  "drug": "CAP-1002",
+  "indication": "Duchenne muscular dystrophy",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "Capricor Therapeutics Announces $23 Million Registered Direct Offering",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

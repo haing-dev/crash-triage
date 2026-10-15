@@ -1,0 +1,44 @@
+{
+ "cik": "1557746",
+ "name": "Aclaris Therapeutics, Inc.",
+ "ticker": "ACRS",
+ "date": "2023-11-13",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-11-13",
+  "accession": "0001558370-23-018691",
+  "doc": "acrs-20231113xex99d1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1557746/000155837023018691/acrs-20231113xex99d1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 2b trial failed to beat placebo on primary and key secondary endpoints \u00b7 Phase 2 \u00b7 zunsemetinib (ATI-450) in rheumatoid arthritis \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "zunsemetinib (ATI-450)",
+  "indication": "rheumatoid arthritis",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": false,
+  "safety": {
+   "treated_patients": 250,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "Efficacy: ATI-450 20 mg BID and 50 mg BID did not differentiate from placebo in ACR20 and other measures",
+   "primary_endpoint_met": "Primary and Key Secondary Efficacy Endpoints at Week 12 Failed to Differentiate from Placebo",
+   "safety": "Safety: No meaningful safety findings",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

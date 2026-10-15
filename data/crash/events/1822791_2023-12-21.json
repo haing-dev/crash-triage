@@ -1,0 +1,44 @@
+{
+ "cik": "1822791",
+ "name": "Clene Inc.",
+ "ticker": "CLNN",
+ "date": "2023-12-21",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-12-21",
+  "accession": "0001437749-23-035028",
+  "doc": "clnn20231218_8k.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1822791/000143774923035028/clnn20231218_8k.htm"
+ },
+ "facts": {
+  "related": false,
+  "trigger": "other",
+  "summary": "8-K announces NfL reduction, survival data and an FDA meeting update, with no details \u00b7 stage not stated \u00b7 CNM-Au8 in ALS \u00b7 not yet approved",
+  "phase": "n/a",
+  "drug": "CNM-Au8",
+  "indication": "amyotrophic lateral sclerosis (ALS)",
+  "market_stage": "n/a",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "the Company issued a press release reporting a reduction in biomarker plasma neurofilament light (\u201cNfL\u201d) levels and improved survival with CNM-Au8 treatment from the HEALEY ALS Platform Trial long-term open label extension",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

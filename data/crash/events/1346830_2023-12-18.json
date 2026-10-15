@@ -1,0 +1,44 @@
+{
+ "cik": "1346830",
+ "name": "Tvardi Therapeutics, Inc.",
+ "ticker": "TVRD",
+ "date": "2023-12-18",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-12-18",
+  "accession": "0001104659-23-126599",
+  "doc": "tm2333104d1_ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1346830/000110465923126599/tm2333104d1_ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Adjunct therapy showed no meaningful benefit, AD program discontinued \u00b7 Phase 3 \u00b7 oral difelikefalin in atopic dermatitis pruritus \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "oral difelikefalin",
+  "indication": "moderate-to-severe pruritus in atopic dermatitis",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "Oral difelikefalin as adjunct to TCS did not demonstrate a meaningful clinical benefit compared to TCS alone, resulting in the Company\u2019s decision to discontinue its clinical program in pruritus associated with atopic dermatitis.",
+   "primary_endpoint_met": "Oral difelikefalin as adjunct therapy to TCS did not demonstrate a meaningful clinical benefit compared to TCS alone.",
+   "safety": "Oral difelikefalin was generally well tolerated with a safety profile similar to prior trials.",
+   "program_discontinued": "resulting in the Company\u2019s decision to discontinue its clinical program in pruritus associated with atopic dermatitis."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "cik": "1580149",
+ "name": "BIOVIE INC.",
+ "ticker": "BIVI",
+ "date": "2023-11-29",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-11-29",
+  "accession": "0001520138-23-000511",
+  "doc": "bivi-20231129_8kex99z1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1580149/000152013823000511/bivi-20231129_8kex99z1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Primary endpoints missed significance after GCP-violation site exclusions \u00b7 Phase 3 \u00b7 NE3107 in mild-to-moderate Alzheimer's \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "NE3107",
+  "indication": "mild to moderate Alzheimer's disease",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "Due to Exclusions, the Primary Efficacy EndpointMissedStatistical Significance;Adaptive Feature of Trial May Allow the Company to Continue Enrolling Patients to Reach Statistical Significancefor Registrational Purposes",
+   "primary_endpoint_met": "Due to Exclusions, the Primary Efficacy EndpointMissedStatistical Significance",
+   "safety": null,
+   "program_discontinued": "the Company intends to work with the FDA to potentially employ the adaptive trial feature of the protocol to continue enrolling patients to achieve statistical significance."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": false,
+   "program_discontinued": true
+  }
+ }
+}

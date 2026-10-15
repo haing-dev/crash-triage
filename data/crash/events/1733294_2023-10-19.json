@@ -1,0 +1,44 @@
+{
+ "cik": "1733294",
+ "name": "Generation Bio Co.",
+ "ticker": "GBIO",
+ "date": "2023-10-19",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-10-18",
+  "accession": "0001558370-23-016508",
+  "doc": "gbio-20231018xex99d1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1733294/000155837023016508/gbio-20231018xex99d1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "other",
+  "summary": "Discontinued prior ceDNA constructs for new iqDNA; lead program reset \u00b7 Preclinical \u00b7 iqDNA factor VIII in hemophilia A \u00b7 not yet approved",
+  "phase": "Preclinical",
+  "drug": "iqDNA factor VIII (ceDNA constructs discontinued)",
+  "indication": "hemophilia A",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "Due to the superior tolerability profile of iqDNA, Generation Bio is discontinuing development of prior ceDNA constructs and is advancing iqDNA as the cargo for its lead program in hemophilia A",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": "Generation Bio is discontinuing development of prior ceDNA constructs and is advancing iqDNA as the cargo for its lead program in hemophilia A as well as for all other programs."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": true
+  }
+ }
+}

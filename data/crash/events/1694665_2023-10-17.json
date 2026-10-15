@@ -1,0 +1,44 @@
+{
+ "cik": "1694665",
+ "name": "Evelo Biosciences, Inc.",
+ "ticker": "EVLO",
+ "date": "2023-10-17",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-10-17",
+  "accession": "0001694665-23-000163",
+  "doc": "evlo-20231017.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1694665/000169466523000163/evlo-20231017.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 2 missed primary PASI-50 endpoint; strategic alternatives explored \u00b7 Phase 2 \u00b7 EDP2939 in moderate psoriasis \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "EDP2939",
+  "indication": "moderate psoriasis",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": 0,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "The study's primary endpoint, the difference in the proportion of patients who achieved an outcome of a 50% improvement from baseline in Psoriasis Area and Severity Index (PASI) score (a PASI-50 response) between EDP2939 and placebo after 16 weeks of daily treatment, was not achieved.",
+   "primary_endpoint_met": "The study's primary endpoint, the difference in the proportion of patients who achieved an outcome of a 50% improvement from baseline in Psoriasis Area and Severity Index (PASI) score (a PASI-50 response) between EDP2939 and placebo after 16 weeks of daily treatment, was not achieved.",
+   "safety": "EDP2939 was well-tolerated with adverse events (AEs) comparable to placebo.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

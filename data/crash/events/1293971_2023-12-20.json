@@ -1,0 +1,44 @@
+{
+ "cik": "1293971",
+ "name": "bluebird bio, Inc.",
+ "ticker": "BLUE",
+ "date": "2023-12-20",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-12-20",
+  "accession": "0001193125-23-299322",
+  "doc": "d624703d8k.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1293971/000119312523299322/d624703d8k.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Priced 83.3M-share equity offering at $1.50, ~$118.3M net proceeds \u00b7 n/a \u00b7 ZYNTEGLO, SKYSONA, LYFGENIA \u00b7 on market",
+  "phase": "Approved",
+  "drug": "ZYNTEGLO, SKYSONA, LYFGENIA",
+  "indication": "n/a",
+  "market_stage": "on market",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "the public offering, issuance and sale by the Company of 83,333,333 shares of the Company\u2019s common stock, $0.01 par value per share (the \u201cCommon Stock\u201d), at a public offering price of $1.50 per share",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

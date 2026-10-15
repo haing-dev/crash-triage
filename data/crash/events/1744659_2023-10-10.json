@@ -1,0 +1,44 @@
+{
+ "cik": "1744659",
+ "name": "Akero Therapeutics, Inc.",
+ "ticker": "AKRO",
+ "date": "2023-10-10",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-10-10",
+  "accession": "0001193125-23-253123",
+  "doc": "d512932dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1744659/000119312523253123/d512932dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Primary fibrosis endpoint showed only a trend, not significance, at week 36 \u00b7 Phase 2b \u00b7 efruxifermin in compensated cirrhosis due to NASH \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "efruxifermin (EFX)",
+  "indication": "compensated cirrhosis (F4) due to NASH",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": 0,
+   "deaths": 1,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "A trend was observed for the primary endpoint of fibrosis improvement at 36 weeks, with 22% and 24% of the 28mg and 50mg EFX-treated groups, respectively",
+   "primary_endpoint_met": "A trend was observed for the primary endpoint of fibrosis improvement at 36 weeks",
+   "safety": "EFX was reported to be generally well-tolerated. Across all three groups, there was one death in a placebo patient who had pneumonia.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "cik": "1082038",
+ "name": "DURECT CORP",
+ "ticker": "DRRX",
+ "date": "2023-11-08",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-11-07",
+  "accession": "0000950170-23-060249",
+  "doc": "drrx-ex99_1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1082038/000095017023060249/drrx-ex99_1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 2b missed primary endpoint of mortality or transplant at 90 days \u00b7 Phase 2 \u00b7 larsucosterol in alcohol-associated hepatitis \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "larsucosterol",
+  "indication": "alcohol-associated hepatitis",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": 307,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "Numerical improvement in primary endpoint of mortality or transplant at 90 days did not achieve statistical significance",
+   "primary_endpoint_met": "The numerical improvement in the primary endpoint of mortality or transplant at 90 days did not achieve statistical significance for either dose of larsucosterol.",
+   "safety": "Larsucosterol was safe and well tolerated. There were fewer treatment-emergent adverse events (TEAEs) in the larsucosterol arms compared with SOC.",
+   "program_discontinued": "Strong rationale for advancing larsucosterol in a Phase 3 registration trial in alcohol-associated hepatitis with reduction in 90-day mortality as the primary endpoint"
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

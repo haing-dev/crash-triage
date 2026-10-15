@@ -1,0 +1,44 @@
+{
+ "cik": "1205922",
+ "name": "VACCINEX, INC.",
+ "ticker": "VCNX",
+ "date": "2023-09-26",
+ "status": "read",
+ "source": {
+  "filing_date": "2023-09-26",
+  "accession": "0001193125-23-241942",
+  "doc": "d481466dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1205922/000119312523241942/d481466dex991.htm"
+ },
+ "facts": {
+  "related": false,
+  "trigger": "other",
+  "summary": "Conference presentation announcement of pepinemab data; no negative news explaining drop \u00b7 Phase 1/2a and Phase 2 \u00b7 pepinemab in Alzheimer's, Huntington's, head and neck cancer \u00b7 not yet approved",
+  "phase": "Phase 1/2",
+  "drug": "pepinemab",
+  "indication": "Alzheimer's disease, Huntington's disease, head and neck squamous cell carcinoma",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": 400,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "Vaccinex, Inc. (Nasdaq: VCNX), a clinical-stage biotechnology company will report on novel findings for its lead product, pepinemab, with implications for treatment of Alzheimer's and other slowly progressive neurodegenerative diseases and for cancer immunotherapy",
+   "primary_endpoint_met": null,
+   "safety": "Pepinemab has been administered to more than 400 patients and appears to be well-tolerated and to have a favorable safety profile.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

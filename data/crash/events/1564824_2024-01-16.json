@@ -1,0 +1,44 @@
+{
+ "cik": "1564824",
+ "name": "Allakos Inc.",
+ "ticker": "ALLK",
+ "date": "2024-01-16",
+ "status": "read",
+ "source": {
+  "filing_date": "2024-01-16",
+  "accession": "0000950170-24-004686",
+  "doc": "allk-ex99_1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1564824/000095017024004686/allk-ex99_1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "other",
+  "summary": "Halted lirentelimab and cut 50% of workforce to focus on AK006 \u00b7 Phase 1 \u00b7 lirentelimab (halted) in allergic/inflammatory diseases; AK006 in CSU \u00b7 not yet approved",
+  "phase": "Phase 1",
+  "drug": "AK006",
+  "indication": "chronic spontaneous urticaria (CSU)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "The Company will halt lirentelimab-related activities across clinical, manufacturing, research and administrative functions. As a result, the Company will reduce its workforce by approximately 50%.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": "The Company will halt lirentelimab-related activities across clinical, manufacturing, research and administrative functions."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": true
+  }
+ }
+}
