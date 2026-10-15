@@ -103,8 +103,13 @@ def split_events(f):
         for (f0, v0), (f1, v1) in zip(vals, vals[1:]):
             r = v0 / v1
             if f1 > f0 and (r > 1.8 or r < 0.55):
-                votes.setdefault(f1, []).append(r)
-    ev = sorted((d, sorted(r)[len(r) // 2]) for d, r in votes.items())
+                votes.setdefault(f1, []).append((f0, r))
+    ev = []
+    for d, v in votes.items():                            # compare only with the most recent earlier report,
+        last = max(f0 for f0, _ in v)                     # so two splits in a row aren't multiplied twice
+        rs = sorted(r for f0, r in v if f0 == last)
+        ev.append((d, rs[len(rs) // 2]))
+    ev.sort()
     out = []
     for d, r in ev:                                       # one split restated in several filings: keep the first
         if out and abs(r / out[-1][1] - 1) < 0.1 and (date.fromisoformat(d) - date.fromisoformat(out[-1][0])).days < 400:
