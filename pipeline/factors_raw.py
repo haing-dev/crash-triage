@@ -1,15 +1,20 @@
 """
-Collect the raw inputs for each crash's factors, using only information public by day 30 after the news day
-(the day returns start being measured), so there is no look-ahead.
+Collect the raw inputs for each crash's factors, using only information public by the trough (the lowest close of
+the crash window), which is where the backtest buys, so there is no look-ahead.
 
-  cash      latest balance sheet filed by day 30: cash + short/long-term marketable securities (SEC XBRL)
-  burn      operating cash flow per month from the latest filed cash-flow statement (SEC XBRL)
+  cash      latest balance sheet filed by the trough: cash + cash equivalents + marketable securities
+            (short and long term), minus restricted cash (SEC XBRL)
+  burn      operating cash outflow per month, trailing 12 months (smooths one-off receipts such as upfront
+            payments) and latest quarter (SEC XBRL)
+  guidance  the company's own runway statement in that 10-Q/10-K ("sufficient to fund operations into Q3 2027"),
+            going-concern warnings, and at-the-market (ATM) equity programme mentions (filing text)
   shares    shares outstanding from the latest cover page (SEC XBRL, dei)
-  price     close on day 30 (first trading day on/after), un-adjusted for later reverse splits
-  insiders  open-market buys (code P) and sales (code S) in Form 4s filed from news day to day 30
+  price     close at the trough (split-adjusted; the actual price is recovered in fit.py)
+  insiders  every open-market buy (P) and sale (S) in Form 4s from 90 days before the news day to 30 days after;
+            fit.py only uses the ones filed by the trough for the verdict
   trials    other Phase 2+ trials the company leads that were running on the news day (ClinicalTrials.gov)
 
-Output: data/factors_raw/<cik>_<date>.json   (re-collected until day 30 has passed)
+Output: data/factors_raw/<cik>_<date>.json   (re-collected until the 30-day insider window has passed)
 
     python factors_raw.py --limit 300 [--only CIK]
 """
@@ -29,7 +34,10 @@ INVEST = ["ShortTermInvestments", "MarketableSecuritiesCurrent", "AvailableForSa
           "HeldToMaturitySecuritiesCurrent", "MarketableSecuritiesNoncurrent",
           "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent", "LongTermInvestments"]
 BURN = ["NetCashProvidedByUsedInOperatingActivities", "NetCashProvidedByUsedInOperatingActivitiesContinuingOperations"]
-_facts, _subs = {}, {}
+RESTRICTED = ["RestrictedCash", "RestrictedCashCurrent", "RestrictedCashNoncurrent", "RestrictedCashAndCashEquivalentsAtCarryingValue",
+              "RestrictedCashAndCashEquivalentsCurrent", "RestrictedCashAndCashEquivalentsNoncurrent"]
+VERSION = 2
+_facts, _subs, _docs = {}, {}, {}
 
 
 def facts(cik):
@@ -64,6 +72,12 @@ def balance(f, asof):
         return None
     _, c0, x0 = best
     end, total, parts = x0["end"], x0["val"], [c0]
+    if c0 == "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents":
+        for c in RESTRICTED:                              # restricted cash can't fund operations
+            v = [x for x in series(f, c) if x["end"] == end and x.get("filed", "9") <= asof and "start" not in x]
+            if v:
+                total -= max(v, key=lambda x: x["filed"])["val"]
+                parts.append("minus " + c)
     for c in INVEST:
         v = [x for x in series(f, c) if x["end"] == end and x.get("filed", "9") <= asof and "start" not in x]
         if v:
@@ -73,20 +87,123 @@ def balance(f, asof):
 
 
 def burn(f, asof):
-    """Operating cash flow per month from the latest cash-flow period filed by `asof` (negative = burning)."""
-    cands = []
+    """Operating cash flow per month (negative = burning): trailing 12 months and latest quarter, from the cash-flow
+    statements filed by `asof`. 10-Qs report year-to-date figures, so quarters and TTM are built by differences."""
+    vals = {}
     for c in BURN:
         for x in series(f, c):
             if x.get("filed", "9") <= asof and x.get("start"):
-                m = months(x["start"], x["end"])
-                if 2.5 <= m <= 12.5:
-                    cands.append((x["end"], m, x))
-        if cands:
+                k = (x["start"], x["end"])
+                if k not in vals or x["filed"] > vals[k]["filed"]:
+                    vals[k] = x
+        if vals:
             break
-    if not cands:
+    if not vals:
         return None
-    end, m, x = max(cands, key=lambda t: (t[0], t[1]))
-    return {"end": end, "months": round(m, 1), "per_month": x["val"] / m}
+    m = lambda k: months(*k)
+    E = max(e for _, e in vals)
+    ytd = max((k for k in vals if k[1] == E and m(k) <= 12.5), key=m, default=None)
+    if not ytd:
+        return None
+    mo = m(ytd)
+    near = lambda a, b, tol=20: abs((date.fromisoformat(a) - date.fromisoformat(b)).days) <= tol
+    ttm = None
+    if mo >= 11.5:
+        ttm = vals[ytd]["val"]
+    else:
+        fy = next((vals[k] for k in vals if 11.5 <= m(k) <= 12.5 and near(k[1], (date.fromisoformat(ytd[0]) - timedelta(days=1)).isoformat())), None)
+        prev = next((vals[k] for k in vals if near(k[1], (date.fromisoformat(E) - timedelta(days=365)).isoformat()) and abs(m(k) - mo) < 0.6), None)
+        if fy and prev:
+            ttm = vals[ytd]["val"] + fy["val"] - prev["val"]
+    q = None
+    if mo <= 3.5:
+        q = vals[ytd]["val"]
+    else:
+        before = next((vals[k] for k in vals if k[0] == ytd[0] and abs(m(k) - (mo - 3)) < 0.6), None)
+        if before:
+            q = vals[ytd]["val"] - before["val"]
+    return {"end": E, "ytd_months": round(mo, 1), "ytd": vals[ytd]["val"], "accn": vals[ytd].get("accn"),
+            "ttm_per_month": None if ttm is None else ttm / 12, "quarter_per_month": None if q is None else q / 3,
+            "per_month": ttm / 12 if ttm is not None else vals[ytd]["val"] / mo}
+
+
+MONTH = {"first": 1, "second": 4, "third": 7, "fourth": 10, "q1": 1, "q2": 4, "q3": 7, "q4": 10, "1q": 1, "2q": 4, "3q": 7, "4q": 10}
+GUIDE = re.compile(r"(?:sufficient|enough|adequate|able) to (?:fund|support|finance|meet)[^.]{0,220}?"
+                   r"\b(into|through|until|to|beyond|at least into|at least through|well into)\s+(?:the\s+)?"
+                   r"(?:(first|second|third|fourth)\s+(?:calendar\s+)?quarter\s+of\s+|(q[1-4]|[1-4]q)\s+|"
+                   r"(first|second)\s+half\s+of\s+|(mid|middle of|end of|beginning of|early|late)[-\s]+(?:calendar\s+)?)?(20\d\d)", re.I)
+TWELVE = re.compile(r"(?:sufficient|enough|adequate) to (?:fund|support|finance|meet)[^.]{0,200}?(?:at least\s+)?(?:the\s+)?next\s+(?:12|twelve)\s+months", re.I)
+GOING = re.compile(r"substantial doubt (?:about|regarding|as to) (?:our|the company.s|its) ability to continue as a going concern", re.I)
+ATM = re.compile(r"at[- ]the[- ]market|\bATM (?:program|facility|offering|agreement)|sales agreement", re.I)
+ATM_LEFT = re.compile(r"\$\s?([\d,.]+)\s*(million|billion)?[^.]{0,120}?remain(?:ed|s|ing)?\s+available", re.I)
+
+
+def guide_date(mt):
+    word, qtr, qn, half, edge, yr = mt.groups()
+    y = int(yr)
+    through = word.lower() in ("through", "until", "to", "at least through", "beyond")
+    if qtr or qn:
+        mth = MONTH[(qtr or qn).lower()] + (2 if through else 0)
+    elif half:
+        mth = (1 if half.lower() == "first" else 7) + (5 if through else 0)
+    elif edge:
+        e = edge.lower()
+        mth = 7 if e.startswith("mid") else 12 if e in ("end of", "late") else 1 if e in ("beginning of", "early") else 7
+    else:
+        mth = 12 if through else 1
+    return f"{y}-{mth:02d}-15"
+
+
+def doc_text(cik, accn):
+    """Plain text of a filing's main document (cached per filing)."""
+    if not accn:
+        return None
+    if accn not in _docs:
+        _docs.clear()
+        doc = next((d for fm, fd, a, d in subs(cik) if a == accn), None)
+        t = None
+        if doc:
+            b = get(f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{accn.replace('-', '')}/{doc.split('/')[-1]}", raw=True)
+            if b:
+                t = re.sub(r"<[^>]+>", " ", b.decode("utf-8", "replace"))
+                t = re.sub(r"&#160;|&nbsp;|&#xa0;", " ", t)
+                t = re.sub(r"&#8217;|&rsquo;", "'", t)
+                t = re.sub(r"\s+", " ", t)
+        _docs[accn] = t
+    return _docs[accn]
+
+
+def filing_notes(cik, accn, filed):
+    t = doc_text(cik, accn)
+    if not t:
+        return None
+    out = {"accn": accn, "guided_until": None, "guidance": None, "twelve_months": False, "going_concern": False,
+           "atm": False, "atm_remaining": None, "atm_quote": None}
+    lim = (date.fromisoformat(filed) + timedelta(days=6 * 365)).isoformat()
+    g = [mt for mt in GUIDE.finditer(t) if guide_date(mt) <= lim]
+    if g:
+        best = max(g, key=lambda mt: guide_date(mt))          # several statements: the company's longest horizon
+        out["guided_until"] = guide_date(best)
+        st = max(0, best.start() - 40)
+        out["guidance"] = t[st:best.end() + 5].strip()[:300]
+    elif TWELVE.search(t):
+        out["twelve_months"] = True
+        out["guidance"] = TWELVE.search(t).group(0)[:300]
+    gc = GOING.search(t)
+    if gc:
+        ctx = t[max(0, gc.start() - 200):gc.end() + 100].lower()
+        out["going_concern"] = not any(w in ctx for w in ("alleviat", "no longer", "do not believe", "does not exist"))
+    a = ATM.search(t)
+    if a:
+        out["atm"] = True
+        out["atm_quote"] = t[max(0, a.start() - 150):a.end() + 250].strip()[:400]
+        for mt in ATM_LEFT.finditer(t):
+            ctx = t[max(0, mt.start() - 300):mt.end()].lower()
+            if "at-the-market" in ctx or "at the market" in ctx or "sales agreement" in ctx or "atm" in ctx:
+                v = float(mt.group(1).replace(",", "")) * (1e9 if (mt.group(2) or "").lower() == "billion" else 1e6 if mt.group(2) else 1)
+                out["atm_remaining"] = v
+                break
+    return out
 
 
 def split_events(f):
@@ -152,8 +269,8 @@ def subs(cik):
 
 
 def insiders(cik, d0, d1):
-    buy = sell = 0.0
-    buyers, n = set(), 0
+    """Every open-market buy (P) and sale (S) in Form 4s filed between d0 and d1."""
+    trades, n = [], 0
     for form, fd, acc, doc in subs(cik):
         if form != "4" or not (d0 <= fd <= d1):
             continue
@@ -170,17 +287,16 @@ def insiders(cik, d0, d1):
         who = x.findtext("reportingOwner/reportingOwnerId/rptOwnerName") or "?"
         for t in x.iter("nonDerivativeTransaction"):
             code = t.findtext("transactionCoding/transactionCode")
+            if code not in ("P", "S"):
+                continue
             try:
                 v = float(t.findtext("transactionAmounts/transactionShares/value") or 0) * \
                     float(t.findtext("transactionAmounts/transactionPricePerShare/value") or 0)
             except ValueError:
                 continue
-            if code == "P":
-                buy += v
-                buyers.add(who)
-            elif code == "S":
-                sell += v
-    return {"form4s": n, "bought": round(buy), "sold": round(sell), "buyers": sorted(buyers)[:5]}
+            td = (t.findtext("transactionDate/value") or fd)[:10]
+            trades.append({"date": td, "filed": fd, "code": code, "value": round(v), "who": who})
+    return {"form4s": n, "from": d0, "to": d1, "trades": trades}
 
 
 STOP = {"inc", "corp", "corporation", "co", "ltd", "limited", "plc", "nv", "n", "v", "sa", "ag", "ab", "as", "llc",
@@ -243,26 +359,28 @@ def main():
             continue
         cid = f"{c['cik']}_{c['date']}"
         out = OUT / f"{cid}.json"
-        day30 = (date.fromisoformat(c["date"]) + timedelta(days=30)).isoformat()
-        asof = min(day30, TODAY)
+        trough = c["end_date"]
+        win0 = (date.fromisoformat(c["date"]) - timedelta(days=90)).isoformat()
+        win1 = (date.fromisoformat(c["date"]) + timedelta(days=30)).isoformat()
+        final = win1 <= TODAY
         if out.exists():
             old = json.loads(out.read_text())
-            if old.get("asof") == day30 and not old.get("error"):
+            if old.get("version") == VERSION and old.get("final") and not old.get("error"):
                 done += 1
                 continue
         if n >= a.limit:
             break
         n += 1
-        rec = {"id": cid, "cik": c["cik"], "name": c["name"], "date": c["date"], "asof": asof, "final": asof == day30}
+        rec = {"id": cid, "cik": c["cik"], "name": c["name"], "date": c["date"], "asof": trough, "final": final, "version": VERSION}
         try:
             f = facts(c["cik"])
             ds, cs = closes(c["cik"])
-            i = min(bisect_left(ds, asof), len(ds) - 1)
-            if ds and ds[i] > asof and i > 0 and asof == TODAY:
-                i -= 1
-            rec["price"] = {"date": ds[i], "adj_close": cs[i]} if ds else None
-            rec["balance"], rec["burn"], rec["shares"] = balance(f, asof), burn(f, asof), shares(f, asof)
-            rec["insiders"] = insiders(c["cik"], c["date"], asof)
+            i = bisect_left(ds, trough)
+            rec["price"] = {"date": ds[i], "adj_close": cs[i]} if ds and i < len(ds) else None
+            rec["balance"], rec["burn"], rec["shares"] = balance(f, trough), burn(f, trough), shares(f, trough)
+            src = (rec["balance"] or {}).get("accn") or (rec["burn"] or {}).get("accn")
+            rec["filing"] = filing_notes(c["cik"], src, trough) if src else None
+            rec["insiders"] = insiders(c["cik"], win0, min(win1, TODAY))
             ev = ROOT / "data" / "events" / f"{cid}.json"
             drug = ((json.loads(ev.read_text()).get("facts") or {}).get("drug")) if ev.exists() else None
             rec["drug"] = drug
@@ -270,9 +388,9 @@ def main():
         except Exception as e:
             rec["error"] = str(e)[:300]
         out.write_text(json.dumps(rec, indent=1))
-        b, s = rec.get("balance") or {}, rec.get("insiders") or {}
-        print(f"{c['date']} {c['ticker']:6s} cash={b.get('cash')} trials={(rec.get('trials') or {}).get('other_trials')} "
-              f"buy={s.get('bought')} sell={s.get('sold')} {rec.get('error', '')[:80]}", flush=True)
+        b, fl = rec.get("balance") or {}, rec.get("filing") or {}
+        print(f"{c['date']} {c['ticker']:6s} cash={b.get('cash')} guided={fl.get('guided_until')} atm={fl.get('atm')} "
+              f"trades={len((rec.get('insiders') or {}).get('trades', []))} {rec.get('error', '')[:80]}", flush=True)
     print(f"collected this run: {n} · already final: {done} · total crashes: {len(crashes)}")
 
 
