@@ -8,7 +8,9 @@ on:
       tiingo: { description: "Tiingo calls this run", default: "45" }
 permissions:
   contents: write
-concurrency: { group: ${{ github.workflow }}, cancel-in-progress: false }   # own queue: long jobs don't cancel the hourly ones
+concurrency:                   # own queue: long jobs don't cancel the hourly ones
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
 jobs:
   prices:
     runs-on: ubuntu-latest
