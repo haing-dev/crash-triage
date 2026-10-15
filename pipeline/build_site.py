@@ -74,7 +74,7 @@ def build(kind):
                 rec["ret"], rec["ret_to"] = round((px / entry - 1) * 100, 1), when
                 if rec["played"]:
                     rec["outcome"] = "Winner" if rec["ret"] >= 30 else "Recovery" if rec["ret"] >= 0 else "Failure"
-                if ds[-1] < (one_year if rec["played"] else (TODAY - timedelta(days=7)).isoformat()):
+                if ds[-1] < min(one_year, (TODAY - timedelta(days=7)).isoformat()):
                     rec["stopped"] = ds[-1]
         if rec["played"]:
             rec["path"], xp = path_from(ds, cs, entry_d), path_from(xd, xc, entry_d)

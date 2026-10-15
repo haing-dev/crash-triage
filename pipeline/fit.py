@@ -70,6 +70,17 @@ def actual_close(cik, d, adj):
     return None
 
 
+def shares_at(cik, sh, d):
+    """Cover-page share count carried to day d through any split in between (a 1-for-50 reverse split divides it)."""
+    n = sh["shares"]
+    sp = DATA / "splits" / f"{cik}.json"
+    if sp.exists():
+        for day, num_, den in json.loads(sp.read_text())["splits"]:
+            if sh["end"] < day <= d:
+                n *= num_ / den
+    return n
+
+
 def num(v):
     return isinstance(v, (int, float)) and v > 0
 
@@ -79,7 +90,7 @@ def features(kind, r):
     b, b6, sh, p, L = r.get("balance"), r.get("burn6"), r.get("shares"), r.get("price"), r.get("liquidity") or {}
     x["cash"] = b["cash"] if b and b["cash"] > 0 else None
     px = actual_close(r["cik"], p["date"], p["adj_close"]) if p else None
-    x["mcap"] = px * sh["shares"] if px and sh else None
+    x["mcap"] = px * shares_at(r["cik"], sh, r["asof"]) if px and sh else None
     # runway
     x["runway_m"] = x["burn_m"] = None
     stale = b and months_between(b["end"], r["asof"]) > 9           # no balance sheet in 9 months: delinquent filer
@@ -150,13 +161,13 @@ def fit(train, keys):
         col = CONT[k]
         have = sorted((t[col], t["y"]) for t in train if t[col] is not None)
         best = None
-        for q in range(20, 81, 5) if len(have) >= 40 else []:
-            i = len(have) * q // 100
-            lo, hi = [y for _, y in have[:i]], [y for _, y in have[i:]]
+        cuts = sorted({have[len(have) * q // 100][0] for q in range(20, 81, 5)}) if len(have) >= 40 else []
+        for cut in cuts:                                         # split on the value, so ties stay together
+            lo, hi = [y for v, y in have if v < cut], [y for v, y in have if v >= cut]
             if min(len(lo), len(hi)) >= 0.2 * len(have):
                 gap = st.median(hi) - st.median(lo)
                 if best is None or abs(gap) > abs(best[1]):
-                    best = (have[i][0], gap)
+                    best = (cut, gap)
         model["cuts"][k] = {"cut": best[0], "higher_is_better": best[1] > 0} if best else None
     for k in keys:
         cats = {}
