@@ -1,0 +1,33 @@
+{
+ "id": "34956_2024-02-08",
+ "asof": "2024-02-14",
+ "chars": 27471,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-02-12",
+   "net_proceeds_usd": 8000000,
+   "what": "Registered public offering of common stock, pre-funded warrants and common warrants, closed Feb 12, 2024 (estimated net proceeds)",
+   "quote": "Estimated net proceeds of the Public Offering are approximately $8.0 million, after deducting the Placement Agent fees and estimated offering expenses payable by the Company."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 3200000,
+   "exercise_price_usd": 5.65,
+   "expiry": "2029-02-12",
+   "quote": "The Common Warrants have an exercise price of $5.65 per share, are exercisable upon issuance, and will expire five years following the date of issuance."
+  },
+  {
+   "count": 1178740,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "The Pre-Funded Warrants do not expire and have an exercise price of $0.001 per share."
+  }
+ ],
+ "warrants_dropped": 0
+}

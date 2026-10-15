@@ -1,0 +1,39 @@
+{
+ "id": "1729427_2024-01-30",
+ "asof": "2024-01-30",
+ "chars": 22163,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2023-10-16",
+   "net_proceeds_usd": 2403840,
+   "what": "Cash exercise of existing warrants at reduced $1.28 price under inducement letter (gross; net not stated, AGP fee of $145,000 and other expenses not netted)",
+   "quote": "The Company received aggregate gross proceeds of $2,403,840 from the exercise of the Existing Warrants before deducting financial advisory fees and other expenses payable by it."
+  },
+  {
+   "date": null,
+   "net_proceeds_usd": 215641,
+   "what": "ATM sales of 129,530 shares after quarter end (exact date not given)",
+   "quote": "Subsequent to the quarter ended on September 30, 2023, the Company sold 129,530 shares of common stock to the Agent for net proceeds of $215,641."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 2268827,
+   "exercise_price_usd": null,
+   "expiry": null,
+   "quote": "included warrants to purchase 2,268,827 common shares"
+  },
+  {
+   "count": 3756000,
+   "exercise_price_usd": null,
+   "expiry": null,
+   "quote": "in exchange for the Company\u2019s agreement to issue the Inducement Warrants to purchase up to 3,756,000 shares of the Company\u2019s common stock"
+  }
+ ],
+ "warrants_dropped": 0
+}

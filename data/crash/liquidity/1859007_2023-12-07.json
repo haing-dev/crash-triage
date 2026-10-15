@@ -1,0 +1,32 @@
+{
+ "id": "1859007_2023-12-07",
+ "asof": "2023-12-12",
+ "chars": 28328,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 11015500,
+   "exercise_price_usd": 1.0,
+   "expiry": "2028-04-28",
+   "quote": "Each share of common stock was sold together with a five-year warrant to purchase one share of common stock at an exercise price of $1.00 per share"
+  },
+  {
+   "count": 12727273,
+   "exercise_price_usd": 0.165,
+   "expiry": null,
+   "quote": "The July 2023 Warrants are exercisable immediately for a term of five years and have an exercise price of $0.165 per share."
+  },
+  {
+   "count": 4878875,
+   "exercise_price_usd": 2.0,
+   "expiry": null,
+   "quote": "had the exercise price reset to its floor price of $2.00 per share, while becoming exercisable for 4,965,125 shares of common stock"
+  }
+ ],
+ "warrants_dropped": 0
+}

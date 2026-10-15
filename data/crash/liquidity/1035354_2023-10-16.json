@@ -1,0 +1,39 @@
+{
+ "id": "1035354_2023-10-16",
+ "asof": "2023-10-18",
+ "chars": 21162,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2023-07-01",
+   "net_proceeds_usd": 1700000,
+   "what": "ATM Program sales of 260,108 shares after June 30, 2023 (gross proceeds; exact date not given, so 2023-07-01 is a placeholder)",
+   "quote": "Subsequent to June 30, 2023, the Company sold an additional 260,108 shares for additional gross proceeds of $1.7 million."
+  },
+  {
+   "date": "2023-09-20",
+   "net_proceeds_usd": 1999835,
+   "what": "Registered direct offering of 305,590 shares at $5.255 and a 75,000-share pre-funded warrant at $5.254 (gross, computed from the stated per-share prices; net not given)",
+   "quote": "The Purchase Agreement provided for the sale and issuance by the Company of an aggregate of: (i) 305,590 shares"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 380590,
+   "exercise_price_usd": 5.13,
+   "expiry": null,
+   "quote": "The exercise price of the Private Warrant is $5.13 per underlying share."
+  },
+  {
+   "count": 75000,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "The exercise price of the Pre-Funded Warrant is $0.001 per underlying share."
+  }
+ ],
+ "warrants_dropped": 0
+}

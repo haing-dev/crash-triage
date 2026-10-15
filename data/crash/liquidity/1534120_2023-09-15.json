@@ -1,0 +1,39 @@
+{
+ "id": "1534120_2023-09-15",
+ "asof": "2023-09-20",
+ "chars": 18560,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2023-09-08",
+   "net_proceeds_usd": 6400000,
+   "what": "ATM sales July 1 to Sept 8, 2023 (about $12.9M cumulative since May 4 less $6.5M received in Q2)",
+   "quote": "Pursuant to the Agreement, from May 4, 2023 through September 8, 2023, the Company has raised approximately $12.9 million in net proceeds through the sale of 50,837,984 shares of common stock."
+  },
+  {
+   "date": "2023-09-13",
+   "net_proceeds_usd": 1800000,
+   "what": "ATM sales after Sept 8, 2023, settling on the second trading day after sale",
+   "quote": "Subsequent to September 8, 2023, the Company sold a total of 16,149,321 shares pursuant to the Agreement for net proceeds of approximately $1.8 million."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 33656,
+   "exercise_price_usd": 31.2,
+   "expiry": "2031-06-04",
+   "quote": "the Company issued warrants to the Lenders to purchase 33,656 shares of the Company\u2019s common stock with an exercise price of $31.20 per share"
+  },
+  {
+   "count": 1300000,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "to purchase an aggregate of 1.3 million shares of common stock (subject to adjustment in the event of stock splits, recapitlizations and other similar events affecting common stock), with an exercise price of $0.001 per share."
+  }
+ ],
+ "warrants_dropped": 0
+}

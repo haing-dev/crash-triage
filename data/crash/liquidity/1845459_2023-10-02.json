@@ -1,0 +1,33 @@
+{
+ "id": "1845459_2023-10-02",
+ "asof": "2023-10-05",
+ "chars": 16537,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2023-10-05",
+   "net_proceeds_usd": 21000000,
+   "what": "Business Combination closing: gross proceeds from Graf trust account, Warrant Subscription Agreements and Securities Purchase Agreement (net not given; gross used)",
+   "quote": "Upon the Closing, the Company received approximately $21.0 million in gross proceeds"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 3432300,
+   "exercise_price_usd": 11.5,
+   "expiry": null,
+   "quote": "Warrants, each whole warrant exercisable for one share of common stock at an exercise price of $11.50 per share"
+  },
+  {
+   "count": 4721533,
+   "exercise_price_usd": 11.5,
+   "expiry": null,
+   "quote": "Each whole Private Placement Warrant entitles the holder thereof to purchase one common stock at an exercise price of $11.50 per full share."
+  }
+ ],
+ "warrants_dropped": 0
+}

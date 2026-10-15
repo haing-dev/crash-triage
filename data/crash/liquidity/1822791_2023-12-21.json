@@ -1,0 +1,44 @@
+{
+ "id": "1822791_2023-12-21",
+ "asof": "2023-12-27",
+ "chars": 22885,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 2407500,
+   "exercise_price_usd": 11.5,
+   "expiry": null,
+   "quote": "Represents 2,407,500 shares of Common Stock underlying warrants to purchase one-half (1/2) of one share of Common Stock"
+  },
+  {
+   "count": 24583,
+   "exercise_price_usd": 11.5,
+   "expiry": null,
+   "quote": "Represents 24,583 shares of Common Stock underlying warrants to purchase one-half (1/2) of one share of Common Stock"
+  },
+  {
+   "count": 3000000,
+   "exercise_price_usd": 0.8,
+   "expiry": null,
+   "quote": "a new warrant to purchase 3,000,000 shares of Common Stock at $0.80 per share was issued"
+  },
+  {
+   "count": 50000000,
+   "exercise_price_usd": 1.1,
+   "expiry": null,
+   "quote": "Liability 50,000,000"
+  },
+  {
+   "count": 50000000,
+   "exercise_price_usd": 1.5,
+   "expiry": null,
+   "quote": "Equity 50,000,000"
+  }
+ ],
+ "warrants_dropped": 0
+}

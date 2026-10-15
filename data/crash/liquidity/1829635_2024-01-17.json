@@ -1,0 +1,63 @@
+{
+ "id": "1829635_2024-01-17",
+ "asof": "2024-01-17",
+ "chars": 27370,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2023-10-05",
+   "net_proceeds_usd": 156000,
+   "what": "Underwriter exercise of over-allotment option for 333,922 shares (September offering)",
+   "quote": "On October 5, 2023, the underwriter in the September Offering exercised its option to purchase an additional 333,922 shares of common stock pursuant to the over-allotment option for net proceeds of approximately $156 thousand."
+  },
+  {
+   "date": "2023-12-04",
+   "net_proceeds_usd": 1210000,
+   "what": "Registered direct offering of 5,000,000 shares at $0.242 (gross proceeds; net not stated)",
+   "quote": "The Company received gross proceeds of $1.21 million in connection with the Offering, before deducting placement agent fees and other offering expenses payable by the Company."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 15625,
+   "exercise_price_usd": 100,
+   "expiry": null,
+   "quote": "the Company also granted the underwriter warrants to purchase up to 15,625 shares of Company common stock at an exercise price of $100.00 per share"
+  },
+  {
+   "count": 9962,
+   "exercise_price_usd": 13.175,
+   "expiry": null,
+   "quote": "the placement agent warrants to purchase up to 9,962 shares of common stock (the \u201cFebruary Placement Agent Warrants\u201d)"
+  },
+  {
+   "count": 2000000,
+   "exercise_price_usd": 3.25,
+   "expiry": null,
+   "quote": "2,000,000 Series A-1 Warrants to purchase common stock (the \u201cSeries A-1 Warrants\u201d)"
+  },
+  {
+   "count": 2000000,
+   "exercise_price_usd": 3.25,
+   "expiry": null,
+   "quote": "2,000,000 Series A-2 Warrants to purchase common stock (the \u201cSeries A-2 Warrants\u201d)"
+  },
+  {
+   "count": 140000,
+   "exercise_price_usd": 4.375,
+   "expiry": null,
+   "quote": "the Company also issued the placement agent warrants to purchase up to 140,000 shares of common stock (the \u201cJune Placement Agent Warrants\u201d)"
+  },
+  {
+   "count": 843150,
+   "exercise_price_usd": 0.6375,
+   "expiry": null,
+   "quote": "exercisable to purchase 843,150 shares of common stock, at an exercise price of $0.6375 per share"
+  }
+ ],
+ "warrants_dropped": 0
+}

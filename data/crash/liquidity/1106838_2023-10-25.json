@@ -1,0 +1,32 @@
+{
+ "id": "1106838_2023-10-25",
+ "asof": "2023-10-27",
+ "chars": 11394,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 972222,
+   "exercise_price_usd": 1.35,
+   "expiry": "2028-02-10",
+   "quote": "warrants to purchase 972,222 shares of common stock were issued to the underwriters as compensation for their services related to the offering"
+  },
+  {
+   "count": 5000000,
+   "exercise_price_usd": 0.6749,
+   "expiry": "2026-12-30",
+   "quote": "common warrants to purchase up to an aggregate of 5,000,000 shares of its common stock"
+  },
+  {
+   "count": 150000,
+   "exercise_price_usd": 0.6749,
+   "expiry": "2026-12-30",
+   "quote": "warrants to purchase 150,000 shares of common stock were issued to the placement agent as compensation for its services related to the offering"
+  }
+ ],
+ "warrants_dropped": 0
+}
