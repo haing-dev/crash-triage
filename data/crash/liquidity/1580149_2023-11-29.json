@@ -1,0 +1,33 @@
+{
+ "id": "1580149_2023-11-29",
+ "asof": "2023-12-01",
+ "chars": 7251,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2023-12-01",
+   "net_proceeds_usd": 3500000,
+   "what": "ATM sales of 819,935 shares under Sales Agreement after Sept 30, 2023 (exact date not given; entry date used as upper bound)",
+   "quote": "Subsequent to September 30, 2023, the Company sold 819,935 shares of common\nstock for net proceeds of $3.5 million net of 3% commission and expenses totaling approximately $105,000 under the Sales Agreement with\nthe Agent."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 7272728,
+   "exercise_price_usd": 1.82,
+   "expiry": null,
+   "quote": "a warrant to purchase 7,272,728 shares of Common Stock\n(\u201cPIPE Warrant Shares\u201d), at an exercise price of $1.82, with a term of exercise of five years."
+  },
+  {
+   "count": 361002,
+   "exercise_price_usd": 5.82,
+   "expiry": "2026-11-30",
+   "quote": "warrants to purchase 361,002 shares of Common Stock of the Company (the \u201cAvenue Warrants\u201d) at an exercise price per share\nequal to $5.82. The Avenue Warrants are exercisable until November 30, 2026."
+  }
+ ],
+ "warrants_dropped": 0
+}

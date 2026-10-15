@@ -1,0 +1,32 @@
+{
+ "id": "1849380_2023-12-05",
+ "asof": "2023-12-07",
+ "chars": 11380,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 11500000,
+   "exercise_price_usd": 11.5,
+   "expiry": null,
+   "quote": "we issued 11,500,000 public warrants to purchase Class A Common Stock (originally sold as part of the units issued in our IPO)"
+  },
+  {
+   "count": 585275,
+   "exercise_price_usd": 11.5,
+   "expiry": null,
+   "quote": "585,275 Private Placement Units, each consisting of one share of Class A Common Stock and one Private Placement Warrant"
+  },
+  {
+   "count": 4219848,
+   "exercise_price_usd": 0.96,
+   "expiry": null,
+   "quote": "Outstanding as of September 30, 2023 4,219,848 $0.96 $4,063,156"
+  }
+ ],
+ "warrants_dropped": 0
+}

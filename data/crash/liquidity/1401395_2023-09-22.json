@@ -1,0 +1,32 @@
+{
+ "id": "1401395_2023-09-22",
+ "asof": "2023-09-22",
+ "chars": 23817,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 850000,
+   "exercise_price_usd": 0.53,
+   "expiry": null,
+   "quote": "warrants to purchase an aggregate of 850,000 shares of Neptune common stock, with each warrant exercisable for 5 years following the initial issuance at a price of $0.53 per common share"
+  },
+  {
+   "count": 111111,
+   "exercise_price_usd": 0.54,
+   "expiry": null,
+   "quote": "to purchase an aggregate of 111,111 shares of Neptune common stock, with each warrant exercisable for 5 years following the initial issuance at a price of $0.54 per common share"
+  },
+  {
+   "count": 12121212,
+   "exercise_price_usd": 0.33,
+   "expiry": "2028-05-15",
+   "quote": "The warrants have an exercise price of $0.33 per share, are immediately exercisable upon issuance and will expire five years following the date of issuance."
+  }
+ ],
+ "warrants_dropped": 0
+}

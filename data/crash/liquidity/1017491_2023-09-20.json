@@ -1,0 +1,39 @@
+{
+ "id": "1017491_2023-09-20",
+ "asof": "2023-09-25",
+ "chars": 8864,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2023-09-25",
+   "net_proceeds_usd": 4000000,
+   "what": "Registered direct offering of 15,000,000 shares with accompanying common warrants, closed Sept 25, 2023",
+   "quote": "We estimate the net proceeds from this offering will be approximately $4.0 million, after deducting fees payable to financial advisors and other estimated offering expenses payable by us."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 26750000,
+   "exercise_price_usd": 0.6,
+   "expiry": "2028-09-10",
+   "quote": "The March 2023 Common Warrants have an exercise price of $0.60 per share of common stock, will be exercisable beginning on September 11, 2023 and will expire on September 10, 2028."
+  },
+  {
+   "count": 9340702,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "The March 2023 Pre-Funded Warrants were exercisable immediately upon issuance and have an exercise price of $0.001 per share of common stock."
+  },
+  {
+   "count": 10010010,
+   "exercise_price_usd": 0.325,
+   "expiry": "2028-09-25",
+   "quote": "The Common Warrants have an exercise price of $0.325 and, subject to certain ownership limitations described herein, are exercisable immediately upon issuance, will expire on the date that is five years following the date of issuance"
+  }
+ ],
+ "warrants_dropped": 0
+}

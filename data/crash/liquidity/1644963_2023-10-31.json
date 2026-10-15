@@ -1,0 +1,33 @@
+{
+ "id": "1644963_2023-10-31",
+ "asof": "2023-10-31",
+ "chars": 18347,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2023-09-08",
+   "net_proceeds_usd": 550000,
+   "what": "Private placement of 767,085 common shares to Fortress and Dr. Rosenwald at $0.717 per share, no placement fees",
+   "quote": "The gross proceeds to the Company from the Private Placement, before deducting estimated offering expenses payable by the Company, were approximately $550,000."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 1492299,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "pre-funded warrants (the \u201cPre-funded Warrants\u201d) to purchase 1,492,299 shares of common stock, at a price per Pre-funded Warrant equal to the price per Share, less $0.001"
+  },
+  {
+   "count": null,
+   "exercise_price_usd": 1.55,
+   "expiry": "2027-10-10",
+   "quote": "the exercise price for the October 2022 Warrants was permanently adjusted to $1.55"
+  }
+ ],
+ "warrants_dropped": 0
+}

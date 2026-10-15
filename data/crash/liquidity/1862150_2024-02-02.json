@@ -1,0 +1,44 @@
+{
+ "id": "1862150_2024-02-02",
+ "asof": "2024-02-02",
+ "chars": 21289,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 6925208,
+   "exercise_price_usd": 0.5776,
+   "expiry": null,
+   "quote": "Series A warrants to purchase up to 6,925,208 shares of common stock"
+  },
+  {
+   "count": 3462604,
+   "exercise_price_usd": 0.5776,
+   "expiry": null,
+   "quote": "Series B warrants to purchase up to 3,462,604 shares of common stock"
+  },
+  {
+   "count": 346260,
+   "exercise_price_usd": 0.722,
+   "expiry": "2028-09-11",
+   "quote": "The placement agent warrants have an exercise price of $0.722 per share. These warrants have a five-year term ending September 11, 2028."
+  },
+  {
+   "count": 5205208,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "to purchase up to an aggregate of 5,205,208 shares of its common stock"
+  },
+  {
+   "count": 6838235,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "The WFIA Pre-Funded Warrants have no expiration date and are exercisable immediately at an exercise price of $0.0001 per share"
+  }
+ ],
+ "warrants_dropped": 0
+}

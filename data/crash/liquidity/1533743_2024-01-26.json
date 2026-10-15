@@ -1,0 +1,33 @@
+{
+ "id": "1533743_2024-01-26",
+ "asof": "2024-02-01",
+ "chars": 7930,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-01-30",
+   "net_proceeds_usd": 6509998,
+   "what": "Public offering of common stock/pre-funded warrants with common warrants, closed; proceeds after placement agent fees, before other expenses",
+   "quote": "Proceeds to us, before expenses (2) $4.185 $4.1849 $6,509,998"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 3160130,
+   "exercise_price_usd": 1.02,
+   "expiry": "2026-04-17",
+   "quote": "we granted Spartan warrants to purchase 3,160,130 shares of our common stock with an exercise price of $1.02."
+  },
+  {
+   "count": 62222,
+   "exercise_price_usd": 5.625,
+   "expiry": "2027-01-30",
+   "quote": "warrants to purchase up to 62,222 shares of common stock"
+  }
+ ],
+ "warrants_dropped": 0
+}

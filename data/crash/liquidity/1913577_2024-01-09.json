@@ -1,0 +1,39 @@
+{
+ "id": "1913577_2024-01-09",
+ "asof": "2024-01-11",
+ "chars": 24838,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2023-10-11",
+   "net_proceeds_usd": 50000,
+   "what": "FutureTech convertible promissory note, initial $50,000 funded to pay the monthly extension deposit",
+   "quote": "The Convertible Promissory Note was issued with an initial principal balance of $50,000, with the remaining $400,000 drawable at the Company\u2019s request"
+  },
+  {
+   "date": "2023-10-12",
+   "net_proceeds_usd": 150000,
+   "what": "Additional Sponsor loan under the Sponsor Convertible Promissory Note",
+   "quote": "On October 12, 2023, the Sponsor lent another $150,000 to the Company, resulting in the principal amount of the Sponsor Convertible Promissory Note being increased to $642,500."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 8250000,
+   "exercise_price_usd": 11.5,
+   "expiry": null,
+   "quote": "each whole Public Warrant entitling the holder thereof to purchase one Public Share at an exercise price of $11.50 per share"
+  },
+  {
+   "count": 510000,
+   "exercise_price_usd": 11.5,
+   "expiry": null,
+   "quote": "each whole warrant entitling the holder thereof to purchase one Class A ordinary share at an exercise price of $11.50 per share"
+  }
+ ],
+ "warrants_dropped": 0
+}

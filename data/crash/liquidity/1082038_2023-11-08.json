@@ -1,0 +1,39 @@
+{
+ "id": "1082038_2023-11-08",
+ "asof": "2023-11-08",
+ "chars": 25393,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2023-07-21",
+   "net_proceeds_usd": 13800000,
+   "what": "Registered direct offering of common stock and common warrants, closed July 21, 2023",
+   "quote": "The net proceeds from the offering to the Company were approximately $13.8 million after deducting placement agent fees and other estimated offering expenses."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 2991027,
+   "exercise_price_usd": 4.89,
+   "expiry": "2028-07-21",
+   "quote": "The warrants have an exercise price of $4.89 per share, are immediately exercisable and will expire five years from the date of issuance."
+  },
+  {
+   "count": 2000000,
+   "exercise_price_usd": 5.0,
+   "expiry": null,
+   "quote": "In February 2023, the Company issued pre-funded warrants to purchase 300,000 shares of common stock and common warrants to purchase an aggregate of 2,000,000 shares of common stock in a registered direct offering."
+  },
+  {
+   "count": 300000,
+   "exercise_price_usd": 1e-05,
+   "expiry": null,
+   "quote": "In February 2023, the Company issued pre-funded warrants to purchase 300,000 shares of common stock and common warrants to purchase an aggregate of 2,000,000 shares of common stock in a registered direct offering."
+  }
+ ],
+ "warrants_dropped": 0
+}
