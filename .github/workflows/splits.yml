@@ -3,20 +3,21 @@ on:
   schedule:
     - cron: "29 4 * * 1"        # weekly; splits are rare and stored once per company
   workflow_dispatch:
-    inputs:
-      limit: { description: "Max companies", default: "10000" }
 permissions:
   contents: write
 concurrency: { group: data-writes, cancel-in-progress: false }
 jobs:
   splits:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
-      - run: cd pipeline && python splits.py --limit ${{ inputs.limit || '10000' }}
+      - name: List all splits (a few calls) and store them
+        env:
+          MASSIVE_API_KEY: ${{ secrets.MASSIVE_API_KEY }}
+        run: cd pipeline && python splits.py
       - name: Save
         run: |
           git config user.name "crash-triage-bot"

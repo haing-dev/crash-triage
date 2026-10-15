@@ -55,28 +55,33 @@ def money(v):
 
 
 _raw = {}
-UNI = {u["cik"]: u for u in csv.DictReader((ROOT / "data" / "universe.csv").open())}
+
 
 
 def raw_close(cik, d, adj):
-    """Actual (not split-adjusted) close on day d. Still-listed companies: the adjusted close with every later split
-    undone (stored Yahoo split list). Companies that stopped trading: Tiingo's raw close."""
+    """Actual (not split-adjusted) close on day d: the stored split list (adjusted close with later splits undone)
+    if we have one, else Tiingo's raw closes (after the last raw day: same ratio as on that day)."""
     if cik not in _raw:
         p = ROOT / "data" / "prices_raw" / f"{cik}.csv"
         sp = ROOT / "data" / "splits" / f"{cik}.json"
-        tiingo = UNI.get(cik, {}).get("price_source") == "tiingo"
-        _raw[cik] = (dict((r["date"], float(r["close"])) for r in csv.DictReader(p.open()) if r["close"]) if tiingo and p.exists() else {},
+        _raw[cik] = (dict((r["date"], float(r["close"])) for r in csv.DictReader(p.open()) if r["close"]) if p.exists() else {},
                      json.loads(sp.read_text())["splits"] if sp.exists() else None)
     closes, splits = _raw[cik]
+    if splits is not None:
+        px = adj
+        for day, num, den in splits:
+            if day > d:
+                px *= num / den          # e.g. 1-for-50 reverse split later: actual price was 1/50 of the adjusted one
+        return px
     if d in closes:
         return closes[d]
-    if splits is None:
-        return None
-    px = adj
-    for day, num, den in splits:
-        if day > d:
-            px *= num / den              # e.g. 1-for-50 reverse split later: actual price was 1/50 of the adjusted one
-    return px
+    if closes and d > max(closes):
+        last = max(closes)
+        ds, cs = prices(cik)
+        i = bisect_right(ds, last) - 1
+        if i >= 0 and ds[i] == last and cs[i] > 0:
+            return adj * closes[last] / cs[i]
+    return None
 
 
 def features(r):

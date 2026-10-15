@@ -126,24 +126,34 @@ def main():
         use[src] += 1
         STATE.parent.mkdir(parents=True, exist_ok=True)
         STATE.write_text(json.dumps(st, indent=0))
-    # spare calls: raw (not split-adjusted) closes, once per company that stopped trading (Tiingo). Still-listed
-    # companies use the stored split list instead (splits.py): Twelve Data's unadjusted series proved unreliable.
+    # spare Tiingo calls: raw (not split-adjusted) closes, once per company, crash companies first (latest crash
+    # first, so the live screener fills in first). Twelve Data's unadjusted series proved unreliable, so listed
+    # companies are fetched from Tiingo too (counts against its 500-symbols-a-month limit: failures retry next month).
     raw = st.setdefault("raw_done", {})
-    for u in uni:
-        src, cik = u["price_source"], u["cik"]
-        if src != "tiingo" or got[src] >= budget[src] or cik in raw or cik not in st["done"]:
-            continue
+    month = today[:7]
+    last_crash = {}
+    cp = ROOT / "data" / "crashes.csv"
+    for c in (csv.DictReader(cp.open()) if cp.exists() else []):
+        last_crash[c["cik"]] = max(last_crash.get(c["cik"], ""), c["date"])
+    order = sorted((u for u in uni if u["cik"] in st["done"] and u["price_source"] in ("tiingo", "twelvedata")),
+                   key=lambda u: (u["cik"] not in last_crash, "" if u["cik"] not in last_crash else
+                                  "".join(chr(255 - ord(ch)) for ch in last_crash[u["cik"]])))
+    for u in order:
+        cik = u["cik"]
+        if not TI or got["tiingo"] >= budget["tiingo"]:
+            break
+        prev = str(raw.get(cik, ""))
+        if prev and not (prev.startswith("failed") and prev[7:14] != month):
+            continue                                     # done, or failed this month already
+        sym = u["tiingo_ticker"] if u["price_source"] == "tiingo" else u["ticker"].replace(".", "-")
         try:
-            if src == "twelvedata":
-                rows = twelvedata(u["ticker"], START, adjust="none")
-            else:
-                rows = tiingo(u["tiingo_ticker"], START, u["tiingo_end"] or today, field="close")
-            save(cik, rows, src, True, ROOT / "data" / "prices_raw")
+            rows = tiingo(sym, START, u["tiingo_end"] or today, field="close")
+            save(cik, rows, "tiingo", True, ROOT / "data" / "prices_raw")
             raw[cik] = today
         except Exception as e:
             raw[cik] = f"failed {today}: {str(e)[:80]}"
-        got[src] += 1
-        use[src] += 1
+        got["tiingo"] += 1
+        use["tiingo"] += 1
         STATE.write_text(json.dumps(st, indent=0))
     print(f"raw closes: {sum(1 for v in raw.values() if not str(v).startswith('failed'))} companies")
     need = {s: sum(1 for u in uni if u["price_source"] == s and u["cik"] not in st["done"]) for s in budget}
