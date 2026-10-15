@@ -5,7 +5,7 @@
  "date": "2023-03-03",
  "asof": "2023-03-03",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2023-03-03",
   "adj_close": 14.955
@@ -41,13 +41,14 @@
  },
  "filing": {
   "accn": "0001689548-23-000044",
-  "guided_until": null,
-  "guidance": "sufficient to fund operations for at least the next twelve months",
-  "twelve_months": true,
+  "guided_until": "2024-01-15",
+  "guidance": "ecurities of $100.5 million, which will enable us to fund our operating expenses and capital expenditures into the first quarter of 2024. Sin",
+  "twelve_months": false,
   "going_concern": true,
   "atm": true,
   "atm_remaining": null,
-  "atm_quote": "ate treats a serious condition and, if approved, would provide a significant improvement in safety or effectiveness. The FDA determines at the time that the marketing application is submitted, on a case-by-case basis, whether the product candidate represents a significant improvement when compared with other available therapies. Significant improvement may be illustrated by, among other things, ev"
+  "atm_quote": "ate treats a serious condition and, if approved, would provide a significant improvement in safety or effectiveness. The FDA determines at the time that the marketing application is submitted, on a case-by-case basis, whether the product candidate represents a significant improvement when compared with other available therapies. Significant improvement may be illustrated by, among other things, ev",
+  "going_concern_quote": "Since our cash, cash equivalents and marketable securities as of December 31, 2022 are not sufficient to fund our operations for at least the next twelve months from the date of issuance of the consolidated financial statements included elsewhere in this Annual Report on Form 10-K, there is substant"
  },
  "insiders": {
   "form4s": 20,

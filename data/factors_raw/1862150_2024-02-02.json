@@ -5,7 +5,7 @@
  "date": "2024-02-02",
  "asof": "2024-02-02",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2024-02-02",
   "adj_close": 15.96
@@ -51,10 +51,11 @@
   "guided_until": null,
   "guidance": null,
   "twelve_months": false,
-  "going_concern": false,
+  "going_concern": true,
   "atm": true,
   "atm_remaining": null,
-  "atm_quote": "09,412 $ 1,131 $ 73,493,866 $ ( 73,413,383 ) $ - $ 81,614 Activity for the three months to June 30, 2023: Issuance of common stock in connection with At the Market Offering and Purchase Agreement, net of fees 747,376 75 218,723 218,798 Stock-based compensation expense - - 217,376 - - 217,376 Net loss - - - ( 6,616,309 ) - ( 6,616,309 ) Balance June 30, 2023 12,056,788 $ 1,206 $ 73,929,965 $ ( 80,0"
+  "atm_quote": "09,412 $ 1,131 $ 73,493,866 $ ( 73,413,383 ) $ - $ 81,614 Activity for the three months to June 30, 2023: Issuance of common stock in connection with At the Market Offering and Purchase Agreement, net of fees 747,376 75 218,723 218,798 Stock-based compensation expense - - 217,376 - - 217,376 Net loss - - - ( 6,616,309 ) - ( 6,616,309 ) Balance June 30, 2023 12,056,788 $ 1,206 $ 73,929,965 $ ( 80,0",
+  "going_concern_quote": "These uncertainties raise substantial doubt about our ability to continue as a going concern"
  },
  "insiders": {
   "form4s": 2,

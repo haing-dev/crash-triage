@@ -5,7 +5,7 @@
  "date": "2023-07-24",
  "asof": "2023-07-24",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2023-07-24",
   "adj_close": 16.5
@@ -40,13 +40,14 @@
  },
  "filing": {
   "accn": "0001437749-23-013580",
-  "guided_until": "2023-09-15",
-  "guidance": ".9 million as of March 31, 2023 are not sufficient to fund the Company&#x2019;s planned expenditures and meet its obligations beyond the third quarter of 2023. The",
+  "guided_until": null,
+  "guidance": null,
   "twelve_months": false,
   "going_concern": true,
   "atm": true,
   "atm_remaining": null,
-  "atm_quote": "f March 31, 2023, we had not sold any common stock to Lincoln Park under the Purchase Agreement other than the Initial Purchase. 11 Cantor Fitzgerald Sales agreement - On April 12, 2022, we entered into a sales agreement (Sales Agreement) with Cantor Fitzgerald &amp; Co. (Cantor) as the sales agent, pursuant to which we may offer and sell, from time to time, through Cantor, shares of common stock "
+  "atm_quote": ",871,265 $ 17 $ 139,374 $ ( 132,022 ) $ 7,369 Balance at December 31, 2022 20,076,773 $ 20 $ 145,476 $ ( 140,604 ) $ 4,892 Sale of common stock under ATM, net of issuance costs of $ 13 106,241 &#x2014; 231 &#x2014; 231 Exercise of common stock options 199 &#x2014; &#x2014; &#x2014; &#x2014; Restricted stock units vested and issued 18,792 &#x2014; &#x2014; &#x2014; &#x2014; Share-based compensation",
+  "going_concern_quote": "These factors raise substantial doubt about our ability to continue as a going concern"
  },
  "insiders": {
   "form4s": 15,

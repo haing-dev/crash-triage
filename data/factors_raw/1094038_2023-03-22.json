@@ -5,7 +5,7 @@
  "date": "2023-03-22",
  "asof": "2023-03-23",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2023-03-23",
   "adj_close": 0.94
@@ -35,13 +35,14 @@
  },
  "filing": {
   "accn": "0001410578-23-000324",
-  "guided_until": null,
-  "guidance": null,
+  "guided_until": "2023-07-15",
+  "guidance": "icted cash as of December 31, 2022 will enable us to fund our operating expenses and capital expenditure requirements into the third quarter of 2023. We",
   "twelve_months": false,
   "going_concern": true,
   "atm": true,
   "atm_remaining": null,
-  "atm_quote": "ect the market price of our common stock. As a result, there can be no assurance that the Reverse Stock Split will result in the intended benefits, that the market price of our common stock will remain higher following the Reverse Stock Split or that the market price of our common stock will not decrease in the future. Sales of additional equity securities may adversely affect the market price of "
+  "atm_quote": "ect the market price of our common stock. As a result, there can be no assurance that the Reverse Stock Split will result in the intended benefits, that the market price of our common stock will remain higher following the Reverse Stock Split or that the market price of our common stock will not decrease in the future. Sales of additional equity securities may adversely affect the market price of ",
+  "going_concern_quote": "These factors raise substantial doubt regarding our ability to continue as a going concern"
  },
  "insiders": {
   "form4s": 6,

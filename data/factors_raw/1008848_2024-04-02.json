@@ -5,7 +5,7 @@
  "date": "2024-04-02",
  "asof": "2024-04-08",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2024-04-08",
   "adj_close": 1.2
@@ -38,7 +38,7 @@
   "guided_until": null,
   "guidance": null,
   "twelve_months": false,
-  "going_concern": true,
+  "going_concern": false,
   "atm": false,
   "atm_remaining": null,
   "atm_quote": null

@@ -5,7 +5,7 @@
  "date": "2024-05-15",
  "asof": "2024-05-20",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2024-05-20",
   "adj_close": 19.3275
@@ -41,7 +41,8 @@
   "going_concern": true,
   "atm": false,
   "atm_remaining": null,
-  "atm_quote": null
+  "atm_quote": null,
+  "going_concern_quote": "Our auditor's report on those financial statements includes an explanatory paragraph referring to the matters in Note 1 of those consolidated financial statements and indicates that these matters raised substantial doubt about the Company's ability to continue as a going concern"
  },
  "insiders": {
   "form4s": 0,

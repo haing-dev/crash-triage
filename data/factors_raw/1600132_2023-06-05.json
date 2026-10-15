@@ -5,7 +5,7 @@
  "date": "2023-06-05",
  "asof": "2023-06-05",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2023-06-05",
   "adj_close": 0.943
@@ -38,10 +38,11 @@
   "guided_until": null,
   "guidance": null,
   "twelve_months": false,
-  "going_concern": false,
+  "going_concern": true,
   "atm": false,
   "atm_remaining": null,
-  "atm_quote": null
+  "atm_quote": null,
+  "going_concern_quote": "Based on such evaluation and the Company's current plans, management believes that the Company's existing cash and cash equivalents as of March 31, 2022 are not sufficient to satisfy its operating cash needs for at least one year after the filing of this Quarterly Report on Form 10-Q.Accordingly, su"
  },
  "insiders": {
   "form4s": 12,

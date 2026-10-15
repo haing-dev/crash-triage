@@ -5,7 +5,7 @@
  "date": "2023-12-14",
  "asof": "2023-12-14",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2023-12-14",
   "adj_close": 13.4
@@ -54,8 +54,9 @@
   "twelve_months": false,
   "going_concern": true,
   "atm": true,
-  "atm_remaining": null,
-  "atm_quote": "$ ( 43 ) $ ( 136,683 ) $ 99,970 Stock based compensation &#x2014; &#x2014; 1,157 &#x2014; &#x2014; 1,157 Issuance of common stock in connection with at-the-market facility, net of issuance costs 407,877 &#x2014; 1,009 &#x2014; &#x2014; 1,009 Other comprehensive income &#x2014; &#x2014; &#x2014; 55 &#x2014; 55 Net loss &#x2014; &#x2014; &#x2014; &#x2014; ( 15,107 ) ( 15,107 ) Balances, March 31, 20"
+  "atm_remaining": 18800000.0,
+  "atm_quote": "$ ( 43 ) $ ( 136,683 ) $ 99,970 Stock based compensation &#x2014; &#x2014; 1,157 &#x2014; &#x2014; 1,157 Issuance of common stock in connection with at-the-market facility, net of issuance costs 407,877 &#x2014; 1,009 &#x2014; &#x2014; 1,009 Other comprehensive income &#x2014; &#x2014; &#x2014; 55 &#x2014; 55 Net loss &#x2014; &#x2014; &#x2014; &#x2014; ( 15,107 ) ( 15,107 ) Balances, March 31, 20",
+  "going_concern_quote": "We have identified conditions and events that raise substantial doubt about our ability to continue as a going concern"
  },
  "insiders": {
   "form4s": 0,

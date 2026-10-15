@@ -5,7 +5,7 @@
  "date": "2024-05-09",
  "asof": "2024-05-13",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2024-05-13",
   "adj_close": 205.7
@@ -46,7 +46,8 @@
   "going_concern": true,
   "atm": false,
   "atm_remaining": null,
-  "atm_quote": null
+  "atm_quote": null,
+  "going_concern_quote": "20 There is substantial doubt about our ability to continue as a going concern"
  },
  "insiders": {
   "form4s": 3,

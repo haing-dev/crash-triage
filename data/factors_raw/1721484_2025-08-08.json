@@ -5,10 +5,10 @@
  "date": "2025-08-08",
  "asof": "2025-08-08",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2025-08-08",
-  "adj_close": 0.67799997
+  "adj_close": 6.78
  },
  "balance": {
   "end": "2025-03-31",
@@ -31,13 +31,14 @@
  "shares": null,
  "filing": {
   "accn": "0000950170-25-066889",
-  "guided_until": null,
-  "guidance": null,
+  "guided_until": "2025-07-15",
+  "guidance": "ash and cash equivalents will enable it to fund its operating expenses and capital expenditure requirements late into the third quarter of 2025 base",
   "twelve_months": false,
   "going_concern": true,
   "atm": false,
   "atm_remaining": null,
-  "atm_quote": null
+  "atm_quote": null,
+  "going_concern_quote": "As a result, there is substantial doubt about the Company's ability to continue as a going concern"
  },
  "insiders": {
   "form4s": 25,

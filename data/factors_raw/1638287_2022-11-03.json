@@ -5,7 +5,7 @@
  "date": "2022-11-03",
  "asof": "2022-11-03",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2022-11-03",
   "adj_close": 410.95999
@@ -54,7 +54,8 @@
   "going_concern": true,
   "atm": false,
   "atm_remaining": null,
-  "atm_quote": null
+  "atm_quote": null,
+  "going_concern_quote": "&#8203; These factors individually and collectively raise substantial doubt about our ability to continue as a going concern"
  },
  "insiders": {
   "form4s": 0,

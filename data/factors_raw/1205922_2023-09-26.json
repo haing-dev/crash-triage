@@ -5,7 +5,7 @@
  "date": "2023-09-26",
  "asof": "2023-09-27",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2023-09-27",
   "adj_close": 15.68
@@ -54,7 +54,8 @@
   "going_concern": true,
   "atm": false,
   "atm_remaining": null,
-  "atm_quote": null
+  "atm_quote": null,
+  "going_concern_quote": "Our recurring net losses and negative cash flows from operations raised substantial doubt regarding our ability to continue as a going concern"
  },
  "insiders": {
   "form4s": 5,

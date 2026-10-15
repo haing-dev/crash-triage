@@ -5,7 +5,7 @@
  "date": "2022-06-29",
  "asof": "2022-07-05",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2022-07-05",
   "adj_close": 10.0
@@ -45,13 +45,14 @@
  },
  "filing": {
   "accn": "0001698530-22-000033",
-  "guided_until": null,
-  "guidance": "sufficient to fund operations over the next twelve months",
-  "twelve_months": true,
+  "guided_until": "2023-01-15",
+  "guidance": "th the May 2022 private placement, will enable us to fund our operating expenses and capital expenditure requirements into the first quarter of 2023. How",
+  "twelve_months": false,
   "going_concern": true,
   "atm": false,
   "atm_remaining": null,
-  "atm_quote": null
+  "atm_quote": null,
+  "going_concern_quote": "Management believes that given the Company's current cash position, operating plans and forecasted negative cash flows from operating activities over the next twelve months, there is substantial doubt about the Company's ability to continue as a going concern"
  },
  "insiders": {
   "form4s": 8,

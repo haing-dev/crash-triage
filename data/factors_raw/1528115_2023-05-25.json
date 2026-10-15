@@ -5,7 +5,7 @@
  "date": "2023-05-25",
  "asof": "2023-05-25",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2023-05-25",
   "adj_close": 2.1
@@ -36,9 +36,9 @@
  },
  "filing": {
   "accn": "0000950170-23-018797",
-  "guided_until": null,
-  "guidance": "sufficient to support operations for at least the next 12 months",
-  "twelve_months": true,
+  "guided_until": "2025-01-15",
+  "guidance": "valents and short-term investments will enable us to fund our operating expenses and capital expenditure requirements related to currently ongoing clinical trials into 2025. We",
+  "twelve_months": false,
   "going_concern": false,
   "atm": true,
   "atm_remaining": 82000000.0,

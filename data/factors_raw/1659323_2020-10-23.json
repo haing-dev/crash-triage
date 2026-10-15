@@ -5,7 +5,7 @@
  "date": "2020-10-23",
  "asof": "2020-10-28",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2020-10-28",
   "adj_close": 6.849
@@ -40,13 +40,14 @@
  },
  "filing": {
   "accn": "0001564590-20-037240",
-  "guided_until": null,
-  "guidance": null,
+  "guided_until": "2020-10-15",
+  "guidance": "of June 30, 2020, will be sufficient to enable us to fund our operating expenses and capital expenditure requirements into the fourth quarter of 2020, inc",
   "twelve_months": false,
   "going_concern": true,
   "atm": false,
   "atm_remaining": null,
-  "atm_quote": null
+  "atm_quote": null,
+  "going_concern_quote": "Based on the Company's operating losses since inception, the expectation of continued operating losses for the foreseeable future and the need to raise additional capital to finance its future operations, management have concluded there is substantial doubt about the Company's ability to continue as"
  },
  "insiders": {
   "form4s": 2,

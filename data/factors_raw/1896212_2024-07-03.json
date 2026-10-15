@@ -5,7 +5,7 @@
  "date": "2024-07-03",
  "asof": "2024-07-08",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2024-07-08",
   "adj_close": 37500000.0
@@ -66,7 +66,8 @@
   "going_concern": true,
   "atm": false,
   "atm_remaining": null,
-  "atm_quote": null
+  "atm_quote": null,
+  "going_concern_quote": "Management believes these factors raise substantial doubt regarding the Company's ability to continue as a going concern"
  },
  "insiders": {
   "form4s": 7,

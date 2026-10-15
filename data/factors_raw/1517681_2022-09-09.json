@@ -5,7 +5,7 @@
  "date": "2022-09-09",
  "asof": "2022-09-14",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2022-09-14",
   "adj_close": 85.0
@@ -54,7 +54,8 @@
   "going_concern": true,
   "atm": false,
   "atm_remaining": null,
-  "atm_quote": null
+  "atm_quote": null,
+  "going_concern_quote": "It is management's opinion that these conditions raise substantial doubt about the Company's ability to continue as a going concern"
  },
  "insiders": {
   "form4s": 0,

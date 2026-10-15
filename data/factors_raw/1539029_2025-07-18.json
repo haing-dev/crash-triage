@@ -5,7 +5,7 @@
  "date": "2025-07-18",
  "asof": "2025-07-18",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2025-07-18",
   "adj_close": 6.135
@@ -40,13 +40,14 @@
  },
  "filing": {
   "accn": "0000950170-25-072568",
-  "guided_until": null,
-  "guidance": null,
+  "guided_until": "2025-10-15",
+  "guidance": "we expect to have sufficient resources to fund our planned operations into the fourth quarter of 2025. We",
   "twelve_months": false,
   "going_concern": true,
   "atm": true,
   "atm_remaining": null,
-  "atm_quote": "ount Paid-In-Capital Deficit Deficit Balance at December 31, 2024 76,578,383 $ 77 $ 316,343 $ ( 355,275 ) $ ( 38,855 ) Issuance of common stock under at-the-market sales agreement 426,822 &#8212; 434 &#8212; 434 Vesting and settlement of restricted stock units 251,359 &#8212; &#8212; &#8212; &#8212; Issuance of common stock under employee stock purchase plan 16,222 &#8212; 13 &#8212; 13 Share-base"
+  "atm_quote": "ount Paid-In-Capital Deficit Deficit Balance at December 31, 2024 76,578,383 $ 77 $ 316,343 $ ( 355,275 ) $ ( 38,855 ) Issuance of common stock under at-the-market sales agreement 426,822 &#8212; 434 &#8212; 434 Vesting and settlement of restricted stock units 251,359 &#8212; &#8212; &#8212; &#8212; Issuance of common stock under employee stock purchase plan 16,222 &#8212; 13 &#8212; 13 Share-base",
+  "going_concern_quote": "These conditions raise substantial doubt about the Company's ability to continue as a going concern"
  },
  "insiders": {
   "form4s": 0,

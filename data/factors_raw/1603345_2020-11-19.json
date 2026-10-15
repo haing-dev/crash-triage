@@ -5,7 +5,7 @@
  "date": "2020-11-19",
  "asof": "2020-11-19",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2020-11-19",
   "adj_close": 0.5
@@ -41,7 +41,8 @@
   "going_concern": true,
   "atm": false,
   "atm_remaining": null,
-  "atm_quote": null
+  "atm_quote": null,
+  "going_concern_quote": "These factors raise substantial doubt about the Company's ability to continue as a going concern"
  },
  "insiders": {
   "form4s": 0,

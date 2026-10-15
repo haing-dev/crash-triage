@@ -5,7 +5,7 @@
  "date": "2025-04-29",
  "asof": "2025-05-01",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2025-05-01",
   "adj_close": 3.99
@@ -46,7 +46,8 @@
   "going_concern": true,
   "atm": false,
   "atm_remaining": null,
-  "atm_quote": null
+  "atm_quote": null,
+  "going_concern_quote": "Pursuant to the requirements of ASC 205-40, Presentation of Financial Statements - Going Concern , and as a result of the financial condition and other factors described herein, there is substantial doubt about the Company's ability to continue as a going concern"
  },
  "insiders": {
   "form4s": 0,

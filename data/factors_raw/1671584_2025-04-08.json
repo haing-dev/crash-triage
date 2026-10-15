@@ -5,7 +5,7 @@
  "date": "2025-04-08",
  "asof": "2025-04-10",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2025-04-10",
   "adj_close": 353.16
@@ -58,7 +58,8 @@
   "going_concern": true,
   "atm": false,
   "atm_remaining": null,
-  "atm_quote": null
+  "atm_quote": null,
+  "going_concern_quote": "When considered in aggregate, these factors raise substantial doubt about our ability to continue as a going concern"
  },
  "insiders": {
   "form4s": 4,

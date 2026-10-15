@@ -5,7 +5,7 @@
  "date": "2025-03-25",
  "asof": "2025-03-25",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2025-03-25",
   "adj_close": 1.47
@@ -41,7 +41,8 @@
   "going_concern": true,
   "atm": false,
   "atm_remaining": null,
-  "atm_quote": null
+  "atm_quote": null,
+  "going_concern_quote": "&#8226; Our financial condition raises substantial doubt as to our ability to continue as a going concern"
  },
  "insiders": {
   "form4s": 6,

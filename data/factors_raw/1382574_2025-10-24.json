@@ -5,7 +5,7 @@
  "date": "2025-10-24",
  "asof": "2025-10-30",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2025-10-30",
   "adj_close": 19.2
@@ -41,7 +41,8 @@
   "going_concern": true,
   "atm": false,
   "atm_remaining": null,
-  "atm_quote": null
+  "atm_quote": null,
+  "going_concern_quote": "These factors include, but are not limited to: &#9679; Our limited amount of cash; &#9679; The negative effect on our business and our ability to raise capital that is created by the fact that there is a substantial doubt about our ability to continue as a going concern"
  },
  "insiders": {
   "form4s": 0,

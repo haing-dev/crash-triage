@@ -5,7 +5,7 @@
  "date": "2021-06-28",
  "asof": "2021-07-02",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2021-07-02",
   "adj_close": 241.5
@@ -42,7 +42,8 @@
   "going_concern": true,
   "atm": false,
   "atm_remaining": null,
-  "atm_quote": null
+  "atm_quote": null,
+  "going_concern_quote": "The financial statements have been prepared assuming that the Company will continue as a going concern, but due to recurring losses from operations and future liquidity needs, there is substantial doubt about the Company's ability to continue as a going concern"
  },
  "insiders": {
   "form4s": 21,

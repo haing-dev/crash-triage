@@ -5,7 +5,7 @@
  "date": "2024-03-11",
  "asof": "2024-03-11",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2024-03-11",
   "adj_close": 0.0018
@@ -41,7 +41,8 @@
   "going_concern": true,
   "atm": false,
   "atm_remaining": null,
-  "atm_quote": null
+  "atm_quote": null,
+  "going_concern_quote": "The liquidity condition and date for mandatory liquidation and subsequent dissolution raise substantial doubt about our ability to continue as a going concern"
  },
  "insiders": {
   "form4s": 0,

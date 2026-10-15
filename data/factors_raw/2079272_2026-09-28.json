@@ -5,7 +5,7 @@
  "date": "2026-09-28",
  "asof": "2026-09-29",
  "final": false,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2026-09-29",
   "adj_close": 0.99000001
@@ -36,13 +36,14 @@
  },
  "filing": {
   "accn": "0001213900-26-101512",
-  "guided_until": null,
-  "guidance": "adequate to fund its limited overhead and other cash requirements over the next 12 months",
-  "twelve_months": true,
+  "guided_until": "2027-01-15",
+  "guidance": "xpected to provide sufficient liquidity to fund operations into the first quarter of 2027. The",
+  "twelve_months": false,
   "going_concern": true,
   "atm": true,
   "atm_remaining": null,
-  "atm_quote": "ements of other companies that have adopted the new or revised accounting standards. We are also a &#8220;smaller reporting company,&#8221; meaning that the market value of our stock held by non-affiliates is less than $700 million, and our annual revenue was less than $100 million during our most recently completed fiscal year. We may continue to be a smaller reporting company if either (i) the m"
+  "atm_quote": "ements of other companies that have adopted the new or revised accounting standards. We are also a &#8220;smaller reporting company,&#8221; meaning that the market value of our stock held by non-affiliates is less than $700 million, and our annual revenue was less than $100 million during our most recently completed fiscal year. We may continue to be a smaller reporting company if either (i) the m",
+  "going_concern_quote": "19 Our independent registered public accounting firm's report contains an explanatory paragraph that expresses substantial doubt about our ability to continue as a &#8220;going concern.&#8221; Our audited financial statements for the year ended December 31, 2025 include an explanatory paragraph from"
  },
  "insiders": {
   "form4s": 0,

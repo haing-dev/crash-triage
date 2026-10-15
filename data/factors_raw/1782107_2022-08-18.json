@@ -5,7 +5,7 @@
  "date": "2022-08-18",
  "asof": "2022-08-24",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2022-08-24",
   "adj_close": 552500.0
@@ -62,7 +62,8 @@
   "going_concern": true,
   "atm": false,
   "atm_remaining": null,
-  "atm_quote": null
+  "atm_quote": null,
+  "going_concern_quote": "As such, the Company determined that it is not probable based on projected cash flows that substantial doubt about the Company's ability to continue as a going concern"
  },
  "insiders": {
   "form4s": 12,

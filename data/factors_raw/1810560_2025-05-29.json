@@ -5,7 +5,7 @@
  "date": "2025-05-29",
  "asof": "2025-05-30",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2025-05-30",
   "adj_close": 10.2
@@ -54,7 +54,8 @@
   "going_concern": true,
   "atm": false,
   "atm_remaining": null,
-  "atm_quote": null
+  "atm_quote": null,
+  "going_concern_quote": "The Company does not anticipate that its current cash and cash equivalents balance will be sufficient to sustain operations within one-year after the date that the Company's unaudited financial statements for March 31, 2025 were issued, which raises substantial doubt about its ability to continue as"
  },
  "insiders": {
   "form4s": 0,

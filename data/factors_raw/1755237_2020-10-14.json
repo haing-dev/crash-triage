@@ -5,7 +5,7 @@
  "date": "2020-10-14",
  "asof": "2020-10-20",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2020-10-20",
   "adj_close": 371.0
@@ -47,7 +47,7 @@
   "guided_until": "2021-07-15",
   "guidance": "quivalents as of June 30, 2020, will be sufficient to fund our planned operating expenses and capital expenditure requirements into the second half of 2021, exc",
   "twelve_months": false,
-  "going_concern": true,
+  "going_concern": false,
   "atm": false,
   "atm_remaining": null,
   "atm_quote": null

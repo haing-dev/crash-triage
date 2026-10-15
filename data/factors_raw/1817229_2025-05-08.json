@@ -5,7 +5,7 @@
  "date": "2025-05-08",
  "asof": "2025-05-08",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2025-05-08",
   "adj_close": 3.2
@@ -41,13 +41,14 @@
  },
  "filing": {
   "accn": "0000950170-25-042623",
-  "guided_until": null,
-  "guidance": null,
+  "guided_until": "2026-01-15",
+  "guidance": "securities as of December 31, 2024 will enable us to fund our operating expenses and capital expenditure requirements into the first quarter of 2026. How",
   "twelve_months": false,
   "going_concern": true,
   "atm": true,
   "atm_remaining": 119700000.0,
-  "atm_quote": "of funds. To the extent that we raise additional capital through the sale of equity or convertible debt securities, including through the use of our at-the-market facility, our stockholders' ownership interest will be diluted, and the terms of these securities may include liquidation or other preferences that adversely affect rights of our common stockholders. Debt financing and preferred equity f"
+  "atm_quote": "of funds. To the extent that we raise additional capital through the sale of equity or convertible debt securities, including through the use of our at-the-market facility, our stockholders' ownership interest will be diluted, and the terms of these securities may include liquidation or other preferences that adversely affect rights of our common stockholders. Debt financing and preferred equity f",
+  "going_concern_quote": "&#8226; There is substantial doubt regarding our ability to continue as a going concern"
  },
  "insiders": {
   "form4s": 18,

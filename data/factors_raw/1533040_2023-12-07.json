@@ -5,7 +5,7 @@
  "date": "2023-12-07",
  "asof": "2023-12-13",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2023-12-13",
   "adj_close": 7.02
@@ -51,7 +51,8 @@
   "going_concern": true,
   "atm": false,
   "atm_remaining": null,
-  "atm_quote": null
+  "atm_quote": null,
+  "going_concern_quote": "These factors raise substantial doubt regarding the Company's ability to continue as a going concern"
  },
  "insiders": {
   "form4s": 1,

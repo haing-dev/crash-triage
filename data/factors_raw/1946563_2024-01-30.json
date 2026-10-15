@@ -5,7 +5,7 @@
  "date": "2024-01-30",
  "asof": "2024-01-30",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2024-01-30",
   "adj_close": 73.68
@@ -58,7 +58,8 @@
   "going_concern": true,
   "atm": false,
   "atm_remaining": null,
-  "atm_quote": null
+  "atm_quote": null,
+  "going_concern_quote": "These factors among others raise substantial doubt about our ability to continue as a going concern"
  },
  "insiders": {
   "form4s": 2,

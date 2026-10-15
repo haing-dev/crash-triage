@@ -5,7 +5,7 @@
  "date": "2022-05-03",
  "asof": "2022-05-03",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2022-05-03",
   "adj_close": 1.85
@@ -36,13 +36,14 @@
  },
  "filing": {
   "accn": "0000950170-22-005194",
-  "guided_until": null,
-  "guidance": null,
+  "guided_until": "2023-07-15",
+  "guidance": "non-dilutive funding commitments, will enable us to fund our operating expenses and capital expenditure requirements into the second half of 2023. The",
   "twelve_months": false,
   "going_concern": true,
   "atm": true,
-  "atm_remaining": null,
-  "atm_quote": "hat treats a serious condition and, if approved, would provide a significant improvement in safety or effectiveness. The FDA determines at the time that the marketing application is submitted, on a case-by-case basis, whether the proposed drug represents a significant improvement in treatment, prevention or diagnosis of disease when compared with other available therapies. Significant improvement "
+  "atm_remaining": 34000000.0,
+  "atm_quote": "hat treats a serious condition and, if approved, would provide a significant improvement in safety or effectiveness. The FDA determines at the time that the marketing application is submitted, on a case-by-case basis, whether the proposed drug represents a significant improvement in treatment, prevention or diagnosis of disease when compared with other available therapies. Significant improvement ",
+  "going_concern_quote": "The report of our auditor on our consolidated financial statements expresses substantial doubt about our ability to continue as a going concern"
  },
  "insiders": {
   "form4s": 11,

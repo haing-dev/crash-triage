@@ -5,7 +5,7 @@
  "date": "2024-08-13",
  "asof": "2024-08-13",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2024-08-13",
   "adj_close": 1.92
@@ -35,13 +35,14 @@
  },
  "filing": {
   "accn": "0000950170-24-088224",
-  "guided_until": null,
-  "guidance": "sufficient to fund operations for at least the next 12 months",
-  "twelve_months": true,
-  "going_concern": false,
+  "guided_until": "2025-07-15",
+  "guidance": "h equivalents as of June 30, 2024, will enable us to fund our planned operating expense and capital expenditure requirements into the third quarter of 2025. Our",
+  "twelve_months": false,
+  "going_concern": true,
   "atm": true,
   "atm_remaining": 203600000.0,
-  "atm_quote": "issuance of common stock through Employee Stock Purchase Plan 115 144 Payment of issuance cost related to underwritten registered direct offering and at-the-market facility ( 339 ) &#8212; Net cash (used in) provided by financing activities ( 224 ) 87 Net decrease in cash, cash equivalents and restricted cash ( 60,562 ) ( 52,025 ) Cash, cash equivalents and restricted cash (See reconciliation in N"
+  "atm_quote": "issuance of common stock through Employee Stock Purchase Plan 115 144 Payment of issuance cost related to underwritten registered direct offering and at-the-market facility ( 339 ) &#8212; Net cash (used in) provided by financing activities ( 224 ) 87 Net decrease in cash, cash equivalents and restricted cash ( 60,562 ) ( 52,025 ) Cash, cash equivalents and restricted cash (See reconciliation in N",
+  "going_concern_quote": "The Company's history of significant losses, its negative cash flows from operations, its limited liquidity resources currently on hand, and its dependence on its ability to obtain additional financing to fund its operations after the current resources are exhausted, about which there can be no cert"
  },
  "insiders": {
   "form4s": 14,

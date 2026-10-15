@@ -5,7 +5,7 @@
  "date": "2023-10-31",
  "asof": "2023-10-31",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2023-10-31",
   "adj_close": 17.625
@@ -43,10 +43,11 @@
   "guided_until": null,
   "guidance": null,
   "twelve_months": false,
-  "going_concern": false,
+  "going_concern": true,
   "atm": false,
   "atm_remaining": null,
-  "atm_quote": null
+  "atm_quote": null,
+  "going_concern_quote": "As a result of our financial condition and other factors described herein, there is substantial doubt about our ability to continue as a going concern"
  },
  "insiders": {
   "form4s": 2,

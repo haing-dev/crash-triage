@@ -5,7 +5,7 @@
  "date": "2022-04-11",
  "asof": "2022-04-12",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2022-04-12",
   "adj_close": 4.85
@@ -36,7 +36,8 @@
   "going_concern": true,
   "atm": false,
   "atm_remaining": null,
-  "atm_quote": null
+  "atm_quote": null,
+  "going_concern_quote": "Management has determined that the mandatory liquidation, should a Business Combination not occur, and potential subsequent dissolution raises substantial doubt about our ability to continue as a going concern"
  },
  "insiders": {
   "form4s": 6,

@@ -5,7 +5,7 @@
  "date": "2020-10-27",
  "asof": "2020-10-27",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2020-10-27",
   "adj_close": 1.13
@@ -50,7 +50,8 @@
   "going_concern": true,
   "atm": false,
   "atm_remaining": null,
-  "atm_quote": null
+  "atm_quote": null,
+  "going_concern_quote": "Because of recurring operating losses and operating cash flow deficits, there is substantial doubt about the Company's ability to continue as a going concern"
  },
  "insiders": {
   "form4s": 1,

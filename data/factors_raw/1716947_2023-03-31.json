@@ -5,7 +5,7 @@
  "date": "2023-03-31",
  "asof": "2023-04-05",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2023-04-05",
   "adj_close": 51.0
@@ -48,13 +48,14 @@
  },
  "filing": {
   "accn": "0001493152-23-009844",
-  "guided_until": null,
-  "guidance": null,
+  "guided_until": "2023-04-15",
+  "guidance": "existing cash and cash equivalents will enable us to fund our operating expenses and capital expenditure requirements into the second quarter of 2023, whi",
   "twelve_months": false,
   "going_concern": true,
   "atm": true,
   "atm_remaining": null,
-  "atm_quote": "saction. An &#8220; alternate transaction &#8221; includes an issuance of common stock at a price less than the then current market price, an &#8220; at-the-market &#8221; offering of securities, and an issuance of options, warrants, or similar rights of subscription or the issuance of convertible equity or debt securities. See &#8220; Risks Related to Our Business, Financial Condition and Capital"
+  "atm_quote": "saction. An &#8220; alternate transaction &#8221; includes an issuance of common stock at a price less than the then current market price, an &#8220; at-the-market &#8221; offering of securities, and an issuance of options, warrants, or similar rights of subscription or the issuance of convertible equity or debt securities. See &#8220; Risks Related to Our Business, Financial Condition and Capital",
+  "going_concern_quote": "These conditions raise substantial doubt about the Company's ability to continue as a going concern"
  },
  "insiders": {
   "form4s": 3,

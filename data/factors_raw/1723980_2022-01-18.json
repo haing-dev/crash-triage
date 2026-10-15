@@ -5,10 +5,10 @@
  "date": "2022-01-18",
  "asof": "2022-01-20",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2022-01-20",
-  "adj_close": 720.0
+  "adj_close": 9216000.0
  },
  "balance": {
   "end": "2021-09-30",
@@ -54,7 +54,8 @@
   "going_concern": true,
   "atm": false,
   "atm_remaining": null,
-  "atm_quote": null
+  "atm_quote": null,
+  "going_concern_quote": "It is management's opinion that these conditions do not raise substantial doubt about the Company's ability to continue as a going concern"
  },
  "insiders": {
   "form4s": 0,

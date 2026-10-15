@@ -5,10 +5,10 @@
  "date": "2024-03-06",
  "asof": "2024-03-06",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2024-03-06",
-  "adj_close": 45.0
+  "adj_close": 675.0
  },
  "balance": {
   "end": "2023-09-30",
@@ -46,7 +46,8 @@
   "going_concern": true,
   "atm": false,
   "atm_remaining": null,
-  "atm_quote": null
+  "atm_quote": null,
+  "going_concern_quote": "Based on the Company's current expected level of operating expenditures and the cash and cash equivalents on hand at September 30, 2023, management concludes that there is substantial doubt about the Company's ability to continue as a going concern"
  },
  "insiders": {
   "form4s": 17,

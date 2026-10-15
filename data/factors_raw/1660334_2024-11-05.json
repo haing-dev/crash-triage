@@ -5,7 +5,7 @@
  "date": "2024-11-05",
  "asof": "2024-11-05",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2024-11-05",
   "adj_close": 7.98
@@ -43,7 +43,7 @@
   "guided_until": "2025-01-15",
   "guidance": "illion as of September 30, 2024 will be sufficient to support the Company's planned operations only into the first quarter of 2025. The",
   "twelve_months": false,
-  "going_concern": true,
+  "going_concern": false,
   "atm": false,
   "atm_remaining": null,
   "atm_quote": null

@@ -5,7 +5,7 @@
  "date": "2026-02-02",
  "asof": "2026-02-02",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2026-02-02",
   "adj_close": 8.665
@@ -40,13 +40,14 @@
  },
  "filing": {
   "accn": "0001193125-25-280435",
-  "guided_until": null,
-  "guidance": null,
+  "guided_until": "2026-01-15",
+  "guidance": "that our cash and cash equivalents will enable us to fund our operations into the first half of 2026. Our",
   "twelve_months": false,
   "going_concern": true,
   "atm": false,
   "atm_remaining": null,
-  "atm_quote": null
+  "atm_quote": null,
+  "going_concern_quote": "Management's assessment concluded that there is substantial doubt about the Company's ability to continue as a going concern"
  },
  "insiders": {
   "form4s": 8,

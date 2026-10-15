@@ -5,7 +5,7 @@
  "date": "2024-04-09",
  "asof": "2024-04-10",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2024-04-10",
   "adj_close": 20.0
@@ -51,7 +51,8 @@
   "going_concern": true,
   "atm": false,
   "atm_remaining": null,
-  "atm_quote": null
+  "atm_quote": null,
+  "going_concern_quote": "As a result, we have concluded that these circumstances and the uncertainties associated with our ability to obtain additional capital raise substantial doubt about our ability to continue as a going concern"
  },
  "insiders": {
   "form4s": 4,

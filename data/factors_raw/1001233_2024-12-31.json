@@ -5,7 +5,7 @@
  "date": "2024-12-31",
  "asof": "2024-12-31",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2024-12-31",
   "adj_close": 1.02
@@ -36,12 +36,13 @@
  "filing": {
   "accn": "0001628280-24-047102",
   "guided_until": "2025-01-15",
-  "guidance": "024, or the Genentech Payments, will be sufficient to fund our planned operations only into the first quarter of 2025. Our",
+  "guidance": "entech in October 2024, are expected to allow us to meet our liquidity requirements only into the first quarter of 2025. Our",
   "twelve_months": false,
-  "going_concern": false,
+  "going_concern": true,
   "atm": true,
   "atm_remaining": 194500000.0,
-  "atm_quote": "Equity Shares Amount Balances at December 31, 2022 166,793,320 $ 1,668 $ 1,450,239 $ ( 1,148,545 ) $ ( 8,404 ) $ 294,958 Issuance of common stock in at-the-market offering, net of offering expenses 8,249,261 83 15,023 &#8212; &#8212; 15,106 Issuance of common stock upon exercise of stock options and vesting of restricted stock units, net of tax 1,481,508 15 ( 1,419 ) &#8212; &#8212; ( 1,404 ) Issu"
+  "atm_quote": "Equity Shares Amount Balances at December 31, 2022 166,793,320 $ 1,668 $ 1,450,239 $ ( 1,148,545 ) $ ( 8,404 ) $ 294,958 Issuance of common stock in at-the-market offering, net of offering expenses 8,249,261 83 15,023 &#8212; &#8212; 15,106 Issuance of common stock upon exercise of stock options and vesting of restricted stock units, net of tax 1,481,508 15 ( 1,419 ) &#8212; &#8212; ( 1,404 ) Issu",
+  "going_concern_quote": "Our history of significant losses, negative cash flows from operations, limited liquidity resources currently on hand and dependence on our ability to obtain additional financing to fund our operations have resulted in management's assessment that there is substantial doubt about our ability to cont"
  },
  "insiders": {
   "form4s": 10,

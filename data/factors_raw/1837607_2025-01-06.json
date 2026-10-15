@@ -5,7 +5,7 @@
  "date": "2025-01-06",
  "asof": "2025-01-06",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2025-01-06",
   "adj_close": 15.12
@@ -40,13 +40,14 @@
  },
  "filing": {
   "accn": "0001837607-24-000093",
-  "guided_until": null,
-  "guidance": null,
+  "guided_until": "2024-10-15",
+  "guidance": "of this Report, we have sufficient cash to fund our operating plan into the fourth quarter of 2024. Any",
   "twelve_months": false,
   "going_concern": true,
   "atm": true,
   "atm_remaining": 49900000.0,
-  "atm_quote": "12; &#8203; &#8212; &#8203; &#8212; &#8203; ( 6,171 ) &#8203; &#8212; &#8203; &#8212; &#8203; &#8212; &#8203; ( 6,171 ) Issuance of shares related to at-the-market offering, net &#8203; &#8212; &#8203; &#8203; &#8212; &#8203; &#8203; 65,392 &#8203; &#8203; &#8212; &#8203; &#8203; 50 &#8203; &#8203; &#8212; &#8203; &#8203; &#8212; &#8203; &#8203; &#8212; &#8203; &#8203; &#8212; &#8203; &#8203; &#82"
+  "atm_quote": "12; &#8203; &#8212; &#8203; &#8212; &#8203; ( 6,171 ) &#8203; &#8212; &#8203; &#8212; &#8203; &#8212; &#8203; ( 6,171 ) Issuance of shares related to at-the-market offering, net &#8203; &#8212; &#8203; &#8203; &#8212; &#8203; &#8203; 65,392 &#8203; &#8203; &#8212; &#8203; &#8203; 50 &#8203; &#8203; &#8212; &#8203; &#8203; &#8212; &#8203; &#8203; &#8212; &#8203; &#8203; &#8212; &#8203; &#8203; &#82",
+  "going_concern_quote": "As a result of these conditions, management has concluded that there is substantial doubt about the Company's ability to continue as a going concern"
  },
  "insiders": {
   "form4s": 0,

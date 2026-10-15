@@ -5,7 +5,7 @@
  "date": "2024-12-11",
  "asof": "2024-12-13",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2024-12-13",
   "adj_close": 3.7
@@ -37,9 +37,9 @@
  "filing": {
   "accn": "0000950170-24-122785",
   "guided_until": "2026-07-15",
-  "guidance": "lents as of September 30, 2024, will be sufficient to fund our operations through mid-2026. Man",
+  "guidance": "cash equivalents will be sufficient to enable us to fund our operating expenses and capital expenditure requirements to mid-2026. Thi",
   "twelve_months": false,
-  "going_concern": true,
+  "going_concern": false,
   "atm": false,
   "atm_remaining": null,
   "atm_quote": null

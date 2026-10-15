@@ -5,7 +5,7 @@
  "date": "2025-01-14",
  "asof": "2025-01-21",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2025-01-21",
   "adj_close": 2.48
@@ -35,13 +35,14 @@
  },
  "filing": {
   "accn": "0001683168-24-008120",
-  "guided_until": null,
-  "guidance": null,
+  "guided_until": "2025-04-15",
+  "guidance": "that our cash and cash equivalents will enable us to fund our current operating plan into Q2 2025. Due",
   "twelve_months": false,
   "going_concern": true,
   "atm": false,
   "atm_remaining": null,
-  "atm_quote": null
+  "atm_quote": null,
+  "going_concern_quote": "These factors raise substantial doubt regarding the Company's ability to continue as a going concern"
  },
  "insiders": {
   "form4s": 0,

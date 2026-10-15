@@ -5,7 +5,7 @@
  "date": "2025-06-11",
  "asof": "2025-06-16",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2025-06-16",
   "adj_close": 605.5
@@ -46,7 +46,8 @@
   "going_concern": true,
   "atm": false,
   "atm_remaining": null,
-  "atm_quote": null
+  "atm_quote": null,
+  "going_concern_quote": "As such, this raises substantial doubt about the Company's ability to continue as a going concern"
  },
  "insiders": {
   "form4s": 0,

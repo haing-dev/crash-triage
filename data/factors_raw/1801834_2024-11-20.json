@@ -1,0 +1,73 @@
+{
+ "id": "1801834_2024-11-20",
+ "cik": "1801834",
+ "name": "PRF Technologies Ltd.",
+ "date": "2024-11-20",
+ "asof": "2024-11-26",
+ "final": true,
+ "version": 3,
+ "price": {
+  "date": "2024-11-26",
+  "adj_close": 13.6
+ },
+ "balance": {
+  "end": "2024-06-30",
+  "cash": 2898000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "LongTermInvestments"
+  ],
+  "accn": "0001178913-24-002662"
+ },
+ "burn": {
+  "end": "2024-06-30",
+  "ytd_months": 5.9,
+  "ytd": -8644000,
+  "accn": "0001178913-24-002662",
+  "ttm_per_month": -947333.3333333334,
+  "quarter_per_month": null,
+  "per_month": -947333.3333333334
+ },
+ "shares": {
+  "end": "2023-12-31",
+  "shares": 1728347,
+  "split_factor": 587.975,
+  "splits_after": [
+   [
+    "2025-04-07",
+    8.84
+   ],
+   [
+    "2025-10-01",
+    20.27
+   ],
+   [
+    "2026-03-26",
+    3.28
+   ]
+  ]
+ },
+ "filing": {
+  "accn": "0001178913-24-002662",
+  "guided_until": null,
+  "guidance": null,
+  "twelve_months": false,
+  "going_concern": false,
+  "atm": false,
+  "atm_remaining": null,
+  "atm_quote": null
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2024-08-22",
+  "to": "2024-12-20",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "prf technologies",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

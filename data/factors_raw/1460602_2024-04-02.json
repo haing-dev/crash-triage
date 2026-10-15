@@ -5,7 +5,7 @@
  "date": "2024-04-02",
  "asof": "2024-04-02",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2024-04-02",
   "adj_close": 3.866
@@ -51,7 +51,8 @@
   "going_concern": true,
   "atm": false,
   "atm_remaining": null,
-  "atm_quote": null
+  "atm_quote": null,
+  "going_concern_quote": "The Company expects its current and projected cash resources and commitments will not be sufficient to meet the Company's obligations for the next 12 months, raising a substantial doubt about the Company's ability to continue as a going concern"
  },
  "insiders": {
   "form4s": 4,

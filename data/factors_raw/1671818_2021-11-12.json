@@ -5,7 +5,7 @@
  "date": "2021-11-12",
  "asof": "2021-11-15",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2021-11-15",
   "adj_close": 5.78
@@ -40,9 +40,9 @@
  },
  "filing": {
   "accn": "0000950170-21-002820",
-  "guided_until": null,
-  "guidance": "sufficient to fund its operating expenses and capital expenditure requirements through at least the next 12 months",
-  "twelve_months": true,
+  "guided_until": "2023-12-15",
+  "guidance": "existing cash and cash equivalents will enable us to fund our operating expenses and capital expenditure requirements into late 2023. 17",
+  "twelve_months": false,
   "going_concern": false,
   "atm": true,
   "atm_remaining": null,

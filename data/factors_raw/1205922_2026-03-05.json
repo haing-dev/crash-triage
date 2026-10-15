@@ -5,7 +5,7 @@
  "date": "2026-03-05",
  "asof": "2026-03-10",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2026-03-10",
   "adj_close": 0.6048
@@ -39,9 +39,10 @@
   "guidance": null,
   "twelve_months": false,
   "going_concern": true,
-  "atm": false,
+  "atm": true,
   "atm_remaining": null,
-  "atm_quote": null
+  "atm_quote": "ts. In September 2020, we filed a prospectus supplement related to open market sale agreement (the &#8220;Open Market Sale Agreement&#8221; or &#8220;ATM&#8221;) with Jefferies, LLC (&#8220;Jefferies&#8221;) pursuant to which we may sell up to $113.0 million of shares of our common stock through Jefferies. On May 19, 2023, the Company filed a prospectus supplement under which the Company may offer",
+  "going_concern_quote": "These conditions raise substantial doubt about the Company's ability to continue as a going concern"
  },
  "insiders": {
   "form4s": 0,

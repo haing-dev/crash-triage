@@ -5,10 +5,10 @@
  "date": "2026-04-15",
  "asof": "2026-04-16",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2026-04-16",
-  "adj_close": 0.30000001
+  "adj_close": 9.0
  },
  "balance": {
   "end": "2025-12-31",
@@ -41,7 +41,8 @@
   "going_concern": true,
   "atm": false,
   "atm_remaining": null,
-  "atm_quote": null
+  "atm_quote": null,
+  "going_concern_quote": "As a result of the above, in connection with the Company's assessment of going concern considerations in accordance with Financial Accounting Standard Board (&#8220;FASB&#8221;) Accounting Standards Codification (&#8220;ASC&#8221;) Subtopic 205-40, &#8220;Going Concern,&#8221; management has determi"
  },
  "insiders": {
   "form4s": 0,

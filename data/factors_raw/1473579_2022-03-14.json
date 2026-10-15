@@ -5,7 +5,7 @@
  "date": "2022-03-14",
  "asof": "2022-03-15",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2022-03-15",
   "adj_close": 2.5
@@ -41,7 +41,8 @@
   "going_concern": true,
   "atm": false,
   "atm_remaining": null,
-  "atm_quote": null
+  "atm_quote": null,
+  "going_concern_quote": "These matters, among others, raise substantial doubt about the Company's ability to continue as a going concern"
  },
  "insiders": {
   "form4s": 0,

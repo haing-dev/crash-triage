@@ -5,7 +5,7 @@
  "date": "2025-04-29",
  "asof": "2025-05-05",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2025-05-05",
   "adj_close": 0.211
@@ -46,7 +46,8 @@
   "going_concern": true,
   "atm": false,
   "atm_remaining": null,
-  "atm_quote": null
+  "atm_quote": null,
+  "going_concern_quote": "In its report dated March 31, 2025, Marcum LLP, our independent registered public accounting firm, expressed substantial doubt about our ability to continue as a going concern"
  },
  "insiders": {
   "form4s": 5,

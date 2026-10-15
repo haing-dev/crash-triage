@@ -5,7 +5,7 @@
  "date": "2022-10-07",
  "asof": "2022-10-12",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2022-10-12",
   "adj_close": 32.0
@@ -46,7 +46,8 @@
   "going_concern": true,
   "atm": false,
   "atm_remaining": null,
-  "atm_quote": null
+  "atm_quote": null,
+  "going_concern_quote": "&#8226; Our history of recurring losses and anticipated expenditures raises substantial doubt about our ability to continue as a going concern"
  },
  "insiders": {
   "form4s": 8,

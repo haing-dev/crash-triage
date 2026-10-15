@@ -5,10 +5,10 @@
  "date": "2025-06-27",
  "asof": "2025-06-27",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2025-06-27",
-  "adj_close": 0.72000003
+  "adj_close": 36.0
  },
  "balance": {
   "end": "2025-03-31",
@@ -41,7 +41,8 @@
   "going_concern": true,
   "atm": false,
   "atm_remaining": null,
-  "atm_quote": null
+  "atm_quote": null,
+  "going_concern_quote": "Without additional funding, there is substantial doubt about the Company's ability to continue as a going concern"
  },
  "insiders": {
   "form4s": 0,

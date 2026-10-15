@@ -5,7 +5,7 @@
  "date": "2026-03-30",
  "asof": "2026-03-31",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2026-03-31",
   "adj_close": 1.32
@@ -46,7 +46,8 @@
   "going_concern": true,
   "atm": false,
   "atm_remaining": null,
-  "atm_quote": null
+  "atm_quote": null,
+  "going_concern_quote": "Summary of Risk Factors &#9679; There is substantial doubt about our ability to continue as a going concern"
  },
  "insiders": {
   "form4s": 4,

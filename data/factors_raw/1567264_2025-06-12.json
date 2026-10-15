@@ -5,7 +5,7 @@
  "date": "2025-06-12",
  "asof": "2025-06-17",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2025-06-17",
   "adj_close": 7.15
@@ -40,13 +40,14 @@
  },
  "filing": {
   "accn": "0001567264-25-000039",
-  "guided_until": null,
-  "guidance": null,
+  "guided_until": "2025-07-15",
+  "guidance": "ing, we project to have sufficient cash to fund our current operating plan into the third quarter of 2025. The",
   "twelve_months": false,
   "going_concern": true,
   "atm": true,
   "atm_remaining": null,
-  "atm_quote": "ted Deficit Stockholders' Equity Shares Amount Balances at December 31, 2024 15,122,873 $ 2 $ 69,699 $ ( 66,783 ) $ 2,918 Issuance of common stock in ATM offering, net of $ 17 issuance costs 141,996 - 328 - 328 Stock-based compensation expense - - 435 - 435 Net loss - - - ( 3,347 ) ( 3,347 ) Balances at March 31, 2025 15,264,869 $ 2 $ 70,462 $ ( 70,130 ) $ 334 Common Stock Additional Paid in Capit"
+  "atm_quote": "ted Deficit Stockholders' Equity Shares Amount Balances at December 31, 2024 15,122,873 $ 2 $ 69,699 $ ( 66,783 ) $ 2,918 Issuance of common stock in ATM offering, net of $ 17 issuance costs 141,996 - 328 - 328 Stock-based compensation expense - - 435 - 435 Net loss - - - ( 3,347 ) ( 3,347 ) Balances at March 31, 2025 15,264,869 $ 2 $ 70,462 $ ( 70,130 ) $ 334 Common Stock Additional Paid in Capit",
+  "going_concern_quote": "As a result, the Company believes there is substantial doubt about its ability to continue as a going concern"
  },
  "insiders": {
   "form4s": 10,

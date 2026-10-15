@@ -5,7 +5,7 @@
  "date": "2025-05-22",
  "asof": "2025-05-22",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2025-05-22",
   "adj_close": 2.46
@@ -41,7 +41,8 @@
   "going_concern": true,
   "atm": false,
   "atm_remaining": null,
-  "atm_quote": null
+  "atm_quote": null,
+  "going_concern_quote": "Due to recurring losses from operations and future liquidity needs, there is substantial doubt about the Company's ability to continue as a going concern"
  },
  "insiders": {
   "form4s": 3,

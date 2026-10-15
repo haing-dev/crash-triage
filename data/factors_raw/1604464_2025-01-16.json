@@ -5,7 +5,7 @@
  "date": "2025-01-16",
  "asof": "2025-01-16",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2025-01-16",
   "adj_close": 7.83
@@ -36,13 +36,14 @@
  },
  "filing": {
   "accn": "0000950170-24-125389",
-  "guided_until": null,
-  "guidance": "sufficient to fund our planned operations for at least the next 12 months",
-  "twelve_months": true,
-  "going_concern": false,
+  "guided_until": "2027-01-15",
+  "guidance": "the BLA transfer to Pierre Fabre, will enable us to fund our planned operations into 2027. Suc",
+  "twelve_months": false,
+  "going_concern": true,
   "atm": true,
   "atm_remaining": 88700000.0,
-  "atm_quote": "tinue as a going concern, we plan to secure additional capital, potentially through a combination of public or private security offerings; use of our ATM facility as described in Note 9; and/or strategic transactions. We may need to raise additional funding as required based on the status of our development programs and our projected cash flows. Although we have been successful in raising capital "
+  "atm_quote": "through a registered direct offering, net of offering costs of $ 177 &#8212; &#8212; $ 14,823 &#8212; &#8212; 14,823 Issuance of common stock through ATM facilities, net of commissions and offering costs of $ 168 493 &#8212; 9,312 &#8212; &#8212; 9,312 RSU settlements, net of shares withheld 63 &#8212; ( 6 ) &#8212; &#8212; ( 6 ) Stock-based compensation expense &#8212; &#8212; 8,397 &#8212; &#821",
+  "going_concern_quote": "These conditions raise substantial doubt about our ability to continue as a going concern"
  },
  "insiders": {
   "form4s": 4,

@@ -5,7 +5,7 @@
  "date": "2024-02-01",
  "asof": "2024-02-02",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2024-02-02",
   "adj_close": 584.64001
@@ -70,7 +70,8 @@
   "going_concern": true,
   "atm": false,
   "atm_remaining": null,
-  "atm_quote": null
+  "atm_quote": null,
+  "going_concern_quote": "The Company does not anticipate that its current cash and cash equivalents balance will be sufficient to sustain operations within one year after the date that the Company&#x2019;s unaudited financial statements for September 30, 2023 were issued, which raises substantial doubt about its ability to "
  },
  "insiders": {
   "form4s": 1,

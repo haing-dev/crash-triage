@@ -5,7 +5,7 @@
  "date": "2024-06-04",
  "asof": "2024-06-10",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2024-06-10",
   "adj_close": 0.70999998
@@ -36,9 +36,9 @@
  },
  "filing": {
   "accn": "0000950170-24-056960",
-  "guided_until": null,
-  "guidance": "sufficient to fund operations for at least the next 12 months",
-  "twelve_months": true,
+  "guided_until": "2025-07-15",
+  "guidance": "investments as of March 31, 2024, will enable us to fund our operations into the second half of 2025, ass",
+  "twelve_months": false,
   "going_concern": false,
   "atm": true,
   "atm_remaining": null,

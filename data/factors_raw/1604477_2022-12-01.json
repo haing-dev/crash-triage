@@ -5,7 +5,7 @@
  "date": "2022-12-01",
  "asof": "2022-12-07",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2022-12-07",
   "adj_close": 1.23
@@ -35,13 +35,14 @@
  },
  "filing": {
   "accn": "0000950170-22-023879",
-  "guided_until": null,
-  "guidance": "sufficient to meet our anticipated needs over the next twelve months",
-  "twelve_months": true,
+  "guided_until": "2023-10-15",
+  "guidance": "existing cash and cash equivalents will enable us to fund our operating expenses and capital expenditure requirements into the fourth quarter of 2023, but",
+  "twelve_months": false,
   "going_concern": true,
   "atm": true,
   "atm_remaining": null,
-  "atm_quote": "D DEFICIT TOTAL STOCKHOLDERS&#x2019; EQUITY Balances at June 30, 2022 29,148,053 $ 29 $ 326,943 $ ( 238,784 ) $ 88,188 Issuance of common stock under at-the-market offering, net of issuance costs of $ 3 202,105 &#x2014; 653 &#x2014; 653 Stock-based compensation expense &#x2014; &#x2014; 2,376 &#x2014; 2,376 Net loss &#x2014; &#x2014; &#x2014; ( 22,643 ) ( 22,643 ) Balances at September 30, 2022 29"
+  "atm_quote": "D DEFICIT TOTAL STOCKHOLDERS&#x2019; EQUITY Balances at June 30, 2022 29,148,053 $ 29 $ 326,943 $ ( 238,784 ) $ 88,188 Issuance of common stock under at-the-market offering, net of issuance costs of $ 3 202,105 &#x2014; 653 &#x2014; 653 Stock-based compensation expense &#x2014; &#x2014; 2,376 &#x2014; 2,376 Net loss &#x2014; &#x2014; &#x2014; ( 22,643 ) ( 22,643 ) Balances at September 30, 2022 29",
+  "going_concern_quote": "As of November 9, 2022, the issuance date of these interim condensed consolidated financial statements for the three and nine month periods ended September 30, 2022, the Company has concluded that there is substantial doubt about its ability to continue as a going concern"
  },
  "insiders": {
   "form4s": 0,

@@ -5,7 +5,7 @@
  "date": "2023-07-17",
  "asof": "2023-07-18",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2023-07-18",
   "adj_close": 40.0
@@ -40,9 +40,9 @@
  },
  "filing": {
   "accn": "0000950170-23-017819",
-  "guided_until": null,
-  "guidance": "sufficient to fund its operations and capital expenditures for at least the next twelve months",
-  "twelve_months": true,
+  "guided_until": "2025-01-15",
+  "guidance": "yments from Sobi, will be sufficient to enable us to fund our current operations at least into the first quarter of 2025. We",
+  "twelve_months": false,
   "going_concern": false,
   "atm": true,
   "atm_remaining": null,

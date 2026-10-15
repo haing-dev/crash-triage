@@ -5,7 +5,7 @@
  "date": "2021-03-03",
  "asof": "2021-03-03",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2021-03-03",
   "adj_close": 6.1005
@@ -42,7 +42,8 @@
   "going_concern": true,
   "atm": false,
   "atm_remaining": null,
-  "atm_quote": null
+  "atm_quote": null,
+  "going_concern_quote": "The ability to successfully resolve these factors raise substantial doubt about the Company's ability to continue as a going concern"
  },
  "insiders": {
   "form4s": 0,

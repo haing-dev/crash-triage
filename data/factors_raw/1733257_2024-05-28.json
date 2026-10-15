@@ -5,7 +5,7 @@
  "date": "2024-05-28",
  "asof": "2024-05-29",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2024-05-29",
   "adj_close": 0.8801
@@ -35,13 +35,14 @@
  },
  "filing": {
   "accn": "0000950170-24-057912",
-  "guided_until": null,
-  "guidance": null,
+  "guided_until": "2025-01-15",
+  "guidance": "eve that our existing cash on hand will enable us to fund our operating expenses and capital expenditure requirements into 2025; how",
   "twelve_months": false,
   "going_concern": true,
   "atm": false,
   "atm_remaining": null,
-  "atm_quote": null
+  "atm_quote": null,
+  "going_concern_quote": "However, due to the consideration of certain qualitative factors, including the Company's recurring losses from operations incurred since inception, the expectation of continuing operating losses for the foreseeable future, and uncertainty around its ability to successfully realize the full value of"
  },
  "insiders": {
   "form4s": 3,

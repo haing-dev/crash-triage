@@ -5,7 +5,7 @@
  "date": "2022-12-16",
  "asof": "2022-12-20",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2022-12-20",
   "adj_close": 8.225
@@ -36,13 +36,14 @@
  },
  "filing": {
   "accn": "0001633070-22-000028",
-  "guided_until": null,
-  "guidance": "sufficient to fund our operating expenses, capital expenditure requirements and loan and security agreement obligations through at least the next 12 months",
-  "twelve_months": true,
+  "guided_until": "2023-04-15",
+  "guidance": "h equivalents and marketable securities to fund its operations into the second quarter of 2023, how",
+  "twelve_months": false,
   "going_concern": true,
   "atm": true,
   "atm_remaining": null,
-  "atm_quote": "4 ) &#8212; Convertible notes $ 5,939 $ &#8212; 20 Table of Contents 9. STOCKHOLDERS' EQUITY Common Stock On June 5, 2020, the Company entered into a sales agreement with SVB Leerink LLC (&#8220;SVB Leerink&#8221;) pursuant to which the Company may offer and sell shares of its common stock having an aggregate offering price of up to $ 35.0 million from time to time through SVB Leerink, acting as i"
+  "atm_quote": "4 ) &#8212; Convertible notes $ 5,939 $ &#8212; 20 Table of Contents 9. STOCKHOLDERS' EQUITY Common Stock On June 5, 2020, the Company entered into a sales agreement with SVB Leerink LLC (&#8220;SVB Leerink&#8221;) pursuant to which the Company may offer and sell shares of its common stock having an aggregate offering price of up to $ 35.0 million from time to time through SVB Leerink, acting as i",
+  "going_concern_quote": "Accordingly, the foregoing conditions, taken together, raise substantial doubt about the Company's ability to continue as a going concern"
  },
  "insiders": {
   "form4s": 5,

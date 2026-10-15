@@ -5,7 +5,7 @@
  "date": "2024-01-26",
  "asof": "2024-01-29",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2024-01-29",
   "adj_close": 277.5
@@ -36,7 +36,8 @@
   "going_concern": true,
   "atm": false,
   "atm_remaining": null,
-  "atm_quote": null
+  "atm_quote": null,
+  "going_concern_quote": "Management has also determined that the mandatory liquidation and subsequent dissolution described in the financial statements, should the Company be unable to complete a business combination, raises substantial doubt about the Company's ability to continue as a going concern"
  },
  "insiders": {
   "form4s": 9,

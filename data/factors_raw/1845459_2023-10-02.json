@@ -5,7 +5,7 @@
  "date": "2023-10-02",
  "asof": "2023-10-05",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2023-10-05",
   "adj_close": 3.5
@@ -43,7 +43,7 @@
   "guided_until": null,
   "guidance": null,
   "twelve_months": false,
-  "going_concern": true,
+  "going_concern": false,
   "atm": false,
   "atm_remaining": null,
   "atm_quote": null

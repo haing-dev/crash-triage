@@ -5,7 +5,7 @@
  "date": "2025-05-28",
  "asof": "2025-05-29",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2025-05-29",
   "adj_close": 181.75
@@ -41,7 +41,8 @@
   "going_concern": true,
   "atm": false,
   "atm_remaining": null,
-  "atm_quote": null
+  "atm_quote": null,
+  "going_concern_quote": "This uncertainty, along with the Company's history of losses, indicates that there is substantial doubt about the Company's ability to continue as a going concern"
  },
  "insiders": {
   "form4s": 1,

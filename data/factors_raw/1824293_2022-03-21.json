@@ -5,7 +5,7 @@
  "date": "2022-03-21",
  "asof": "2022-03-22",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2022-03-22",
   "adj_close": 2845861.25
@@ -87,7 +87,8 @@
   "going_concern": true,
   "atm": false,
   "atm_remaining": null,
-  "atm_quote": null
+  "atm_quote": null,
+  "going_concern_quote": "The report of our independent registered public accounting firm on our financial statements as of and for the year ended December 31, 2021 included an explanatory paragraph indicating that there is substantial doubt about our ability to continue as a going concern"
  },
  "insiders": {
   "form4s": 3,

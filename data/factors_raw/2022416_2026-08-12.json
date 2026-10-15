@@ -5,10 +5,10 @@
  "date": "2026-08-12",
  "asof": "2026-08-14",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2026-08-14",
-  "adj_close": 0.41999999
+  "adj_close": 0.42
  },
  "balance": {
   "end": "2026-06-30",
@@ -35,13 +35,14 @@
  },
  "filing": {
   "accn": "0001178913-26-004138",
-  "guided_until": "2026-12-15",
-  "guidance": "cash flow from operations, will not be sufficient to meet our anticipated cash requirements for the next 12 months from the filing date of this quarterly report, but rather through the fourth quarter of 2026 unde",
-  "twelve_months": false,
+  "guided_until": null,
+  "guidance": "sufficient to meet our anticipated cash requirements for the next 12 months",
+  "twelve_months": true,
   "going_concern": true,
   "atm": true,
   "atm_remaining": 10900000.0,
-  "atm_quote": "bination, under which approximately $0.2 million remains outstanding as of the date of this quarterly report; &#9679; &#8220; ATM &#8221; and &#8220; ATM Agreement &#8221; are to our at-the-market offering and the At The Market Offering Agreement, dated September 26, 2025, with H.C. Wainwright, as sales agent or principal, respectively, under which we may sell from time to time of up to $13.17 mil"
+  "atm_quote": "sing of the Business Combination, under which approximately $0.2 million remains outstanding as of the date of this quarterly report; &#9679; &#8220; ATM &#8221; and &#8220; ATM Agreement &#8221; are to our at-the-market offering and the At The Market Offering Agreement, dated September 26, 2025, with H.C. Wainwright, as sales agent or principal, respectively, under which we may sell from time to ",
+  "going_concern_quote": "Under these circumstances, in accordance with the requirements of Accounting Standards Codification (&#8220;ASC&#8221;) 205-40, management has concluded that there is substantial doubt about the Company's ability to continue as a going concern"
  },
  "insiders": {
   "form4s": 3,

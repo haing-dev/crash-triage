@@ -5,7 +5,7 @@
  "date": "2023-11-09",
  "asof": "2023-11-10",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2023-11-10",
   "adj_close": 5.75
@@ -41,13 +41,14 @@
  },
  "filing": {
   "accn": "0000950170-23-057147",
-  "guided_until": null,
-  "guidance": "sufficient to fund our planned operations for at least the next twelve months",
-  "twelve_months": true,
+  "guided_until": "2025-07-15",
+  "guidance": "amp;R Commercialization Agreement, will enable us to fund our planned operations into the third quarter of 2025. Suc",
+  "twelve_months": false,
   "going_concern": true,
   "atm": true,
   "atm_remaining": 55200000.0,
-  "atm_quote": "t of the May 2020 and December 2020 underwritten public offerings, respectively, were outstanding. ATM Facilities In November 2021, we entered into a sales agreement (the 2021 ATM Facility) with Cowen and Company, LLC (Cowen), which provides for the sale, in our sole discretion, of shares of our common stock having an aggregate offering price of up to $ 100.0 million through Cowen, as our sales ag"
+  "atm_quote": "Deficit Equity (Deficit) Balance as of January 1, 2023 95,927 $ 10 $ 1,821,721 $ ( 2,067 ) $ ( 1,693,024 ) $ 126,640 Issuance of common stock through ATM facilities, net of commissions and offering costs of $ 97 148 &#x2014; 590 &#x2014; &#x2014; 590 RSU settlements, net of shares withheld 463 &#x2014; ( 93 ) &#x2014; &#x2014; ( 93 ) Stock-based compensation expense &#x2014; &#x2014; 11,764 &#x201",
+  "going_concern_quote": "These conditions raise substantial doubt about our ability to continue as a going concern"
  },
  "insiders": {
   "form4s": 15,

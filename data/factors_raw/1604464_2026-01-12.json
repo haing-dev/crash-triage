@@ -5,7 +5,7 @@
  "date": "2026-01-12",
  "asof": "2026-01-13",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2026-01-13",
   "adj_close": 4.37
@@ -39,10 +39,11 @@
   "guided_until": null,
   "guidance": "sufficient to fund our planned operations for at least the next 12 months",
   "twelve_months": true,
-  "going_concern": false,
+  "going_concern": true,
   "atm": true,
   "atm_remaining": null,
-  "atm_quote": ",742 $ 46,599 Non-cash financing activities Accrued costs related to underwritten registered direct offering $ &#8212; $ 210 Accrued costs related to ATM facility $ 25 $ &#8212; Supplemental cash flow disclosure Cash paid for interest $ 171 $ 497 Cash paid for income taxes $ 31 $ 24 See accompanying notes to the condensed consolidated financial statements. 9 Atara Biotherapeutics, Inc. Notes to Co"
+  "atm_quote": "&#8212; &#8212; 2,387 2,387 Balance as of June 30, 2025 6,978 $ 1 $ 1,979,114 $ &#8212; $ ( 2,014,156 ) $ ( 35,041 ) Issuance of common stock through ATM facilities, net of commissions and offering costs of $ 48 125 $ 1,471 &#8212; &#8212; 1,471 RSU settlements, net of shares withheld 106 &#8212; &#8212; &#8212; &#8212; &#8212; Issuance of common stock pursuant to employee stock awards 1 &#8212; 1",
+  "going_concern_quote": "These conditions raise substantial doubt about our ability to continue as a going concern"
  },
  "insiders": {
   "form4s": 4,

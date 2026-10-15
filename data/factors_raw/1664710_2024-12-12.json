@@ -5,7 +5,7 @@
  "date": "2024-12-12",
  "asof": "2024-12-12",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2024-12-12",
   "adj_close": 18.43
@@ -35,9 +35,9 @@
  },
  "filing": {
   "accn": "0001664710-24-000091",
-  "guided_until": null,
-  "guidance": "sufficient to fund our projected liquidity requirements for at least the next 12 months",
-  "twelve_months": true,
+  "guided_until": "2027-07-15",
+  "guidance": "Offering through October 31, 2024, will enable us to fund our operating expenses and capital expenditure requirements into the third quarter of 2027. We",
+  "twelve_months": false,
   "going_concern": false,
   "atm": true,
   "atm_remaining": null,

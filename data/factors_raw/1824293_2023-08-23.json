@@ -5,7 +5,7 @@
  "date": "2023-08-23",
  "asof": "2023-08-25",
  "final": true,
- "version": 2,
+ "version": 3,
  "price": {
   "date": "2023-08-25",
   "adj_close": 56267.48438
@@ -78,7 +78,8 @@
   "going_concern": true,
   "atm": false,
   "atm_remaining": null,
-  "atm_quote": null
+  "atm_quote": null,
+  "going_concern_quote": "Therefore, there is substantial doubt about the Company's ability to continue as a going concern"
  },
  "insiders": {
   "form4s": 4,
