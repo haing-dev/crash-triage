@@ -1,0 +1,46 @@
+{
+ "id": "1958777_2026-03-30",
+ "asof": "2026-03-31",
+ "chars": 32800,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2026-01-14",
+   "net_proceeds_usd": 17.5,
+   "what": "Exercise of 1,075,000 pre-funded warrants by an investor",
+   "quote": "On January 14, 2026, an investor exercised 1,075,000 pre-funded warrants for $ 17.50 , and the Company issued 1,075,000 shares."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 12110203,
+   "exercise_price_usd": 0.3303,
+   "expiry": null,
+   "quote": "for an aggregate of 12,110,203 shares of Common Stock. The warrants are subject to stockholder approval. The exercise price of the warrants is $ 0.3303 per share."
+  },
+  {
+   "count": 4477614,
+   "exercise_price_usd": 0.335,
+   "expiry": null,
+   "quote": "warrants to purchase one share of its Common Stock for each share of Common Stock purchased in the registered direct offering for an aggregate of 4,477,614 shares of Common Stock."
+  },
+  {
+   "count": 313433,
+   "exercise_price_usd": 0.4188,
+   "expiry": null,
+   "quote": "warrants to purchase up to 313,433 shares of Common Stock, at an exercise price of $ 0.4188 per share."
+  },
+  {
+   "count": 5227275,
+   "exercise_price_usd": 0.33,
+   "expiry": null,
+   "quote": "for an aggregate of 5,227,275 shares of Common Stock. The exercisability of the warrants is subject to stockholder approval. The exercise price of the warrants is $ 0.33 per share."
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": null
+}

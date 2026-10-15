@@ -1,0 +1,40 @@
+{
+ "id": "1348362_2026-09-08",
+ "asof": "2026-09-14",
+ "chars": 30721,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2026-09-09",
+   "net_proceeds_usd": 5900000,
+   "what": "Inducement exercise of existing warrants at reduced price of $12.92 (gross proceeds used; net not given). The 8-K only says closing was expected on 2026-09-09, so closing is not confirmed.",
+   "quote": "The gross proceeds to the Company from the exercise of the Existing Warrants were approximately $5.9 million, prior to deducting placement agent fees and estimated offering expenses."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 453969,
+   "exercise_price_usd": 12.67,
+   "expiry": null,
+   "quote": "which Series A Warrants will have an exercise price of $12.67 per share,"
+  },
+  {
+   "count": 453969,
+   "exercise_price_usd": 12.67,
+   "expiry": null,
+   "quote": "The Series B Warrants will have an exercise price of $12.67 per share, will be exercisable immediately upon issuance and will expire eighteen months from the effective date of the Resale Registration Statement."
+  },
+  {
+   "count": 15889,
+   "exercise_price_usd": 16.15,
+   "expiry": null,
+   "quote": "warrants to purchase up to 15,889 shares of Common Stock at an exercise price of $16.15 per share"
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": null
+}

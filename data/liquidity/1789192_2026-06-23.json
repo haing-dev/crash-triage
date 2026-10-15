@@ -1,0 +1,52 @@
+{
+ "id": "1789192_2026-06-23",
+ "asof": "2026-06-29",
+ "chars": 40912,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2026-06-15",
+   "net_proceeds_usd": 1249999.08,
+   "what": "Registered direct offering of 311,876 shares at $4.008 (gross proceeds; net not given)",
+   "quote": "Proceeds, before expenses, to us (1) $ 1,249,999.08 $ 1,249,999.08"
+  },
+  {
+   "date": "2026-06-24",
+   "net_proceeds_usd": 2900001.88,
+   "what": "Registered direct offering of 410,998 shares at $7.056 (gross proceeds; net not given; expected close on or about June 24)",
+   "quote": "Aggregate gross proceeds to the Company in respect of the Offerings is approximately $2.9 million, before deducting offering expenses payable by the Company."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 38266,
+   "exercise_price_usd": 58.8,
+   "expiry": null,
+   "quote": "warrants to purchase 38,266 shares of the Company's common stock at an exercise price of $ 58.80"
+  },
+  {
+   "count": 7552,
+   "exercise_price_usd": 24.5,
+   "expiry": null,
+   "quote": "the warrant was exercisable for 7,552 shares of Common Stock at an exercise price of $ 24.5 per share"
+  },
+  {
+   "count": 311876,
+   "exercise_price_usd": 4.008,
+   "expiry": null,
+   "quote": "an aggregate of 311,876 warrants to purchase up to 311,876 shares"
+  },
+  {
+   "count": 410998,
+   "exercise_price_usd": 7.056,
+   "expiry": null,
+   "quote": "an aggregate of 410,998 warrants to purchase up to 410,998 shares"
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": null
+}

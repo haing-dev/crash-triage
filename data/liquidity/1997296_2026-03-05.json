@@ -1,0 +1,58 @@
+{
+ "id": "1997296_2026-03-05",
+ "asof": "2026-03-06",
+ "chars": 39822,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-10-21",
+   "net_proceeds_usd": 1607000,
+   "what": "SEPA share sales to Yorkville, Oct 2025 (approx. $547k + $294k + $251k + $515k)",
+   "quote": "for proceeds of approximately $ 547,000 , $ 294,000 , $ 251,000 and $ 515,000 respectively."
+  },
+  {
+   "date": null,
+   "net_proceeds_usd": 5100000,
+   "what": "Cash exercise of existing warrants by an institutional investor under the warrant inducement agreement (gross; date not stated in excerpt)",
+   "quote": "the investor exercised its existing warrants for cash, for gross proceeds of approximately $5.1 million to the Company."
+  },
+  {
+   "date": "2026-03-06",
+   "net_proceeds_usd": 3846910,
+   "what": "SEPA share sales to Yorkville, Dec 19, 2025 through Mar 6, 2026 (approximate aggregate consideration)",
+   "quote": "Total 4,471,038 $3,846,910"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 16200,
+   "exercise_price_usd": 2.8,
+   "expiry": "2030-03-10",
+   "quote": "1,473,800 of the 1,490,000 Regulation A Warrants have been exercised for cash"
+  },
+  {
+   "count": 2260000,
+   "exercise_price_usd": 3.1,
+   "expiry": "2030-06-03",
+   "quote": "The June 2030 Warrants were immediately exercisable for one of our common shares at an exercise price of $ 3.10 per share"
+  },
+  {
+   "count": 985595,
+   "exercise_price_usd": 4.64,
+   "expiry": null,
+   "quote": "Warrants, each exercisable for one common share at an exercise price of $4.64 per share"
+  },
+  {
+   "count": 4020000,
+   "exercise_price_usd": 2.0,
+   "expiry": null,
+   "quote": "in consideration for receiving 4,020,000 warrants to purchase common shares with an exercise price of $2.00."
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": null
+}

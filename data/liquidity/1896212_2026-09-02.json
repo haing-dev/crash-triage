@@ -1,0 +1,27 @@
+{
+ "id": "1896212_2026-09-02",
+ "asof": "2026-09-02",
+ "chars": 28395,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 91250,
+   "exercise_price_usd": 7.2,
+   "expiry": null,
+   "quote": "common stock purchase warrants to purchase 91,250 shares of the Company's Common Stock at an exercise price of $7.20 per share"
+  },
+  {
+   "count": 439915,
+   "exercise_price_usd": 0.025,
+   "expiry": null,
+   "quote": "pre-funded warrants to purchase up to 439,915 shares of Common Stock"
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": null
+}

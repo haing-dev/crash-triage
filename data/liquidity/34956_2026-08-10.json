@@ -1,0 +1,34 @@
+{
+ "id": "34956_2026-08-10",
+ "asof": "2026-08-10",
+ "chars": 33788,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2026-08-10",
+   "net_proceeds_usd": 8100000,
+   "what": "Cash from exercise of pre-funded warrants and warrants after June 30, 2026 (exact receipt date not stated; trough date used)",
+   "quote": "Subsequent to June 30, 2026, the Company received a total of $ 8.1 million from the exercise of 3,667,440 pre-funded warrants and 1,797,973 warrants for the issuance of shares of common stock."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 7508153,
+   "exercise_price_usd": 6.91,
+   "expiry": null,
+   "quote": "Outstanding at June 30, 2026 7,508,153 $ 6.91"
+  },
+  {
+   "count": 19858043,
+   "exercise_price_usd": 0.01,
+   "expiry": null,
+   "quote": "Outstanding at June 30, 2026 19,858,043 $ 0.01"
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": null
+}

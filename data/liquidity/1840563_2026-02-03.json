@@ -1,0 +1,40 @@
+{
+ "id": "1840563_2026-02-03",
+ "asof": "2026-02-05",
+ "chars": 35375,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2026-01-07",
+   "net_proceeds_usd": 2732704,
+   "what": "Second Pre-Paid Purchase under equity purchase facility (Streeterville)",
+   "quote": "The Company obtained net proceeds of $2,732,704 after the deduction of the cash fee payable to Univest Securities, LLC, its placement agent, and legal fees."
+  },
+  {
+   "date": "2026-01-13",
+   "net_proceeds_usd": 4562840,
+   "what": "Third Pre-Paid Purchase under equity purchase facility",
+   "quote": "The Company obtained net proceeds of $4,562,840 after the deduction of the cash fee payable to Univest Securities, LLC, its placement agent."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 49,
+   "exercise_price_usd": 9859,
+   "expiry": "2027-04-27",
+   "quote": "49 April 27, 2027 9,859"
+  },
+  {
+   "count": 16,
+   "exercise_price_usd": 19600,
+   "expiry": "2028-11-21",
+   "quote": "16 November 21, 2028 19,600"
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": null
+}

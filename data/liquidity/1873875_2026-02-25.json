@@ -1,0 +1,27 @@
+{
+ "id": "1873875_2026-02-25",
+ "asof": "2026-03-02",
+ "chars": 27051,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 585000,
+   "exercise_price_usd": 1.66,
+   "expiry": "2029-10-31",
+   "quote": "exercisable for 585,000 shares of Common Stock with an exercise price equal to $ 1.66 per share"
+  },
+  {
+   "count": 453749,
+   "exercise_price_usd": 1.89,
+   "expiry": null,
+   "quote": "exercisable for up to 453,749 shares of Common Stock (the &#8220;First Tranche Warrant&#8221;), at an exercise price of $ 1.89 per share"
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": null
+}

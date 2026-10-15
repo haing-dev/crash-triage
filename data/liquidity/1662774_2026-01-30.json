@@ -1,0 +1,34 @@
+{
+ "id": "1662774_2026-01-30",
+ "asof": "2026-02-03",
+ "chars": 35708,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-11-12",
+   "net_proceeds_usd": 2000000,
+   "what": "ATM sales of common stock in October 2025 through the 10-Q filing date",
+   "quote": "During October and through the date of filing, the Company raised net proceeds of approximately $ 2.0 million by issuing 1,186,525 shares of common stock."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 8671928,
+   "exercise_price_usd": 1.2,
+   "expiry": "2030-06-12",
+   "quote": "Common Warrants 8,671,928 $ 1.20 June 12, 2030"
+  },
+  {
+   "count": 2000000,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "Pre-Funded Warrants 2,000,000 $ 0.001 None"
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": null
+}

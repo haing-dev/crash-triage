@@ -1,0 +1,44 @@
+{
+ "id": "1842952_2026-06-15",
+ "asof": "2026-06-15",
+ "chars": 24717,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 250000,
+   "exercise_price_usd": 6.25,
+   "expiry": null,
+   "quote": "Issued in connection with 2021 initial public offering 250,000 $ 6.25 October 2026"
+  },
+  {
+   "count": 5250000,
+   "exercise_price_usd": 6.25,
+   "expiry": null,
+   "quote": "Issued in connection with 2021 private placement 5,250,000 $ 6.25 June 2027"
+  },
+  {
+   "count": 360000,
+   "exercise_price_usd": 10.0,
+   "expiry": null,
+   "quote": "Issued in 2022 for consulting services 360,000 $ 10.00 December 2027"
+  },
+  {
+   "count": 3304541,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "Issued in connection with 2024 private placement 3,304,541 $ 0.001 No expiration"
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": {
+  "what": "Phase 1a interim data for the CT-95 (MSLN x CD3 TCE) trial",
+  "timing_text": "September 2026",
+  "latest_date": "2026-09-30",
+  "quote": "We expect to share Phase 1a interim data for the CT-95 trial in September 2026."
+ }
+}

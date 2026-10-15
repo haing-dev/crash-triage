@@ -1,0 +1,51 @@
+{
+ "id": "1659617_2026-02-19",
+ "asof": "2026-02-23",
+ "chars": 40969,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-10-31",
+   "net_proceeds_usd": 400000,
+   "what": "ATM sales of 736,549 shares in October 2025 (gross proceeds; net not given)",
+   "quote": "We sold 736,549 shares of common stock pursuant to the 2025 ATM agreement in October for gross proceeds of $0.4 million at prices ranging from $0.4349 to $0.5601."
+  },
+  {
+   "date": "2025-12-09",
+   "net_proceeds_usd": 6800000,
+   "what": "Warrant inducement transaction completed Dec 9, 2025 (gross proceeds; net not given)",
+   "quote": "on December 9, 2025, the Company completed a warrant inducement transaction pursuant to which it raised $6.8 million in gross proceeds from the exercise of warrants"
+  },
+  {
+   "date": "2025-12-22",
+   "net_proceeds_usd": 1100000,
+   "what": "ATM sales raised before Dec 22, 2025 (gross proceeds; exact date not given, filing date used)",
+   "quote": "the Company raised gross proceeds of approximately $1.1 million at an average price of approximately $8.31 per share pursuant to its at-the-market facility"
+  },
+  {
+   "date": "2026-02-19",
+   "net_proceeds_usd": 8300000,
+   "what": "Warrant inducement letters signed Feb 19, 2026; up to ~$8.3M gross expected from exercise of existing warrants (closing not explicitly confirmed; gross used)",
+   "quote": "The Company anticipates receiving aggregate gross proceeds of up to approximately $8.3 million from the exercise of the Existing Warrants before deducting fees and other expenses payable by it."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 6367956,
+   "exercise_price_usd": 3.9,
+   "expiry": null,
+   "quote": "new Series H warrants to purchase up to 6,367,956 shares of Company common stock (the \u201cInducement Warrants\u201d and the shares of Company common stock underlying the Inducement Warrants, the \u201cInducement Warrant Shares\u201d)"
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": {
+  "what": "Phase 3 MIRACLE trial of naxtarubicin plus cytarabine in R/R AML: interim unblinding/readout after the first 45 subjects",
+  "timing_text": "Treatment of the first 45 subjects expected to complete in Q1 2026 (per filing); readout expected shortly thereafter",
+  "latest_date": "2026-06-30",
+  "quote": "This Phase 3 trial plans to have an interim unblinding of data upon the recruitment of the first 45 subjects and the readout of the data from the sites, expected shortly thereafter."
+ }
+}

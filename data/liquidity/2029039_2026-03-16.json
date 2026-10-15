@@ -1,0 +1,34 @@
+{
+ "id": "2029039_2026-03-16",
+ "asof": "2026-03-19",
+ "chars": 15387,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-09-30",
+   "net_proceeds_usd": 8800000,
+   "what": "IPO (including partial over-allotment exercise), total net proceeds",
+   "quote": "The closing of the partial exercise of the option brings the total net proceeds from the Company\u2019s IPO to approximately $8.8 million, after deducting the underwriters\u2019 discount and estimated offering expenses."
+  },
+  {
+   "date": "2026-02-13",
+   "net_proceeds_usd": 15000000,
+   "what": "Private placement of ordinary shares with accompanying warrants (gross proceeds; net not given)",
+   "quote": "The offering is expected to result in gross proceeds to the Company of $15.0 million."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 2695425,
+   "exercise_price_usd": 6.53,
+   "expiry": null,
+   "quote": "The Warrants will have an exercise price of $6.53 per share, are immediately exercisable, and will expire upon the earlier of two years from the date of issuance and 30 trading days following"
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": null
+}

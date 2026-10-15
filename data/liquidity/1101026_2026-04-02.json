@@ -1,0 +1,34 @@
+{
+ "id": "1101026_2026-04-02",
+ "asof": "2026-04-08",
+ "chars": 27592,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-10-31",
+   "net_proceeds_usd": 390000,
+   "what": "October 2025 private sales of common stock and warrants to five individuals (exact date within October not given)",
+   "quote": "The company raised $ 390,000 of cash and exchanged a related party payable of $ 284,433"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 392931,
+   "exercise_price_usd": 19.77,
+   "expiry": null,
+   "quote": "Outstanding, end of period 392,931 $ 19.77 663,590 $ 20.28"
+  },
+  {
+   "count": 495917,
+   "exercise_price_usd": 33.0,
+   "expiry": null,
+   "quote": "Outstanding, end of period 495,917 $ 33.00 495,917 $ 33.00"
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": null
+}

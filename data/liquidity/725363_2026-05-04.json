@@ -1,0 +1,64 @@
+{
+ "id": "725363_2026-05-04",
+ "asof": "2026-05-06",
+ "chars": 22407,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2026-01-22",
+   "net_proceeds_usd": 200000,
+   "what": "CEO purchase of restricted common stock (38,023 shares)",
+   "quote": "On January 22, 2026, the Company's CEO purchased 38,023 shares of restricted common stock at an aggregate fair market value of approximately $ 200,000"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 2845,
+   "exercise_price_usd": 90.0,
+   "expiry": "2026-08-18",
+   "quote": "Series N 8/18/2008 2,845 $ 90.00 8/18/2026"
+  },
+  {
+   "count": 3122,
+   "exercise_price_usd": 84.0,
+   "expiry": "2026-06-30",
+   "quote": "Series UU 6/11/2018 3,122 $ 84.00 6/30/2026"
+  },
+  {
+   "count": 4000,
+   "exercise_price_usd": 277.5,
+   "expiry": "2026-07-13",
+   "quote": "Series X 1/13/2016 4,000 $ 277.50 7/13/2026"
+  },
+  {
+   "count": 867,
+   "exercise_price_usd": 360.0,
+   "expiry": "2026-08-15",
+   "quote": "Series Y 2/15/2016 867 $ 360.00 8/15/2026"
+  },
+  {
+   "count": 11115,
+   "exercise_price_usd": 55.8,
+   "expiry": "2026-06-22",
+   "quote": "Series MM 6/22/2017 11,115 $ 55.80 6/22/2026"
+  },
+  {
+   "count": 6670,
+   "exercise_price_usd": 75.6,
+   "expiry": "2026-07-24",
+   "quote": "Series NN 7/24/2017 6,670 $ 75.60 7/24/2026"
+  },
+  {
+   "count": 7802,
+   "exercise_price_usd": 49.5,
+   "expiry": "2026-10-30",
+   "quote": "Series RR 10/30/2017 7,802 $ 49.50 10/30/2026"
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": null
+}

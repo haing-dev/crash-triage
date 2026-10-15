@@ -1,0 +1,39 @@
+{
+ "id": "1737953_2026-04-13",
+ "asof": "2026-04-13",
+ "chars": 37546,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2026-01-31",
+   "net_proceeds_usd": 20800000,
+   "what": "ATM sales of common stock under the 2023 Sales Agreement in January 2026 (exact day not stated; month-end used)",
+   "quote": "In January 2026, pursuant to the 2023 Sales Agreement, the Company issued and sold an aggregate of 2,940,452 shares of its common stock, resulting in net proceeds of $ 20.8 million."
+  },
+  {
+   "date": "2026-01-29",
+   "net_proceeds_usd": 35000000,
+   "what": "Hercules loan tranche 3 drawdown under the Third Amendment",
+   "quote": "a third amendment was made to the Company's Loan Agreement (the \"Third Amendment\") with Hercules on January 29, 2026 pursuant to which the Company drew down the tranche 3 loan advance amount of $ 35.0 million."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 14058153,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "Pre-funded warrants 14,058,153 14,058,153"
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": {
+  "what": "Preliminary Phase 2 data for RP2 in hepatocellular carcinoma (HCC)",
+  "timing_text": "by the end of 2026",
+  "latest_date": "2026-12-31",
+  "quote": "we plan to release preliminary HCC data by the end of 2026"
+ }
+}

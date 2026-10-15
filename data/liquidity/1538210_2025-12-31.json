@@ -1,0 +1,27 @@
+{
+ "id": "1538210_2025-12-31",
+ "asof": "2026-01-05",
+ "chars": 25427,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 304731,
+   "exercise_price_usd": 12.05,
+   "expiry": null,
+   "quote": "Each Unregistered Warrant is exercisable immediately and will expire two years from the initial exercise date."
+  },
+  {
+   "count": 21331,
+   "exercise_price_usd": 15.0625,
+   "expiry": null,
+   "quote": "Each Unregistered PA Warrant is exercisable immediately and will expire two years from the initial exercise date."
+  }
+ ],
+ "warrants_dropped": 0,
+ "next_catalyst": null
+}
