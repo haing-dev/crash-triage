@@ -1,0 +1,47 @@
+{
+ "cik": "1420720",
+ "name": "iBio, Inc.",
+ "ticker": "IBIO",
+ "date": "2025-04-07",
+ "fall_pct": "-70.9",
+ "days": "1",
+ "news_day_pct": "-53.3",
+ "status": "read",
+ "source": {
+  "filing_date": "2025-04-07",
+  "accession": "0001420720-25-000016",
+  "doc": "ibio-20250407xex99d1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1420720/000142072025000016/ibio-20250407xex99d1.htm"
+ },
+ "facts": {
+  "related": false,
+  "trigger": "other",
+  "summary": "Positive preclinical NHP half-life and muscle data announced; no negative event explains drop \u00b7 Preclinical \u00b7 IBIO-600 in obesity \u00b7 not yet approved",
+  "phase": "Preclinical",
+  "drug": "IBIO-600",
+  "indication": "obesity",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "the results indicate IBIO-600 promoted a dose-dependent increase in lean mass and a reduction in fat mass from baseline values.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

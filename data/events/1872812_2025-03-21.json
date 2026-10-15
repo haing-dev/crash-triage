@@ -1,0 +1,47 @@
+{
+ "cik": "1872812",
+ "name": "TC BioPharm (Holdings) plc",
+ "ticker": "TCBP",
+ "date": "2025-03-21",
+ "fall_pct": "-71.4",
+ "days": "1",
+ "news_day_pct": "-67.5",
+ "status": "read",
+ "source": {
+  "filing_date": "2025-03-21",
+  "accession": "0001493152-25-011113",
+  "doc": "ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1872812/000149315225011113/ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "other",
+  "summary": "Nasdaq delisting notice, shares moving to OTC Markets \u00b7 Phase 2b/3 \u00b7 gamma-delta T cell therapy in acute myeloid leukemia \u00b7 not yet approved",
+  "phase": "Phase 2/3",
+  "drug": "n/a",
+  "indication": "acute myeloid leukemia",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "the Nasdaq Hearings Panel had determined to delist the Company\u2019s securities from The Nasdaq Stock Market LLC (\u201cNasdaq\u201d) due to the Company\u2019s failure to comply with Rule 5550(a)(2)",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

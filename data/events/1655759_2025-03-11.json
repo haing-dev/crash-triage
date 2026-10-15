@@ -1,0 +1,47 @@
+{
+ "cik": "1655759",
+ "name": "ARVINAS, INC.",
+ "ticker": "ARVN",
+ "date": "2025-03-11",
+ "fall_pct": "-54.6",
+ "days": "1",
+ "news_day_pct": "-52.7",
+ "status": "read",
+ "source": {
+  "filing_date": "2025-03-11",
+  "accession": "0001655759-25-000057",
+  "doc": "ex991-final_veritacx2tlr.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1655759/000165575925000057/ex991-final_veritacx2tlr.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 3 met primary endpoint only in ESR1-mutant subgroup, missed in overall population \u00b7 Phase 3 \u00b7 vepdegestrant in ER+/HER2- breast cancer \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "vepdegestrant",
+  "indication": "ER+/HER2- advanced or metastatic breast cancer",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "The trial did not reach statistical significance in improvement in PFS in the intent-to-treat (ITT) population.",
+   "primary_endpoint_met": "The trial did not reach statistical significance in improvement in PFS in the intent-to-treat (ITT) population.",
+   "safety": "In the trial, vepdegestrant was generally well tolerated and its safety profile was consistent with what has been observed in previous studies.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "cik": "1824293",
+ "name": "GRI Bio, Inc.",
+ "ticker": "GRI",
+ "date": "2025-03-31",
+ "fall_pct": "-60.3",
+ "days": "1",
+ "news_day_pct": "-26.7",
+ "status": "read",
+ "source": {
+  "filing_date": "2025-04-02",
+  "accession": "0001628280-25-016066",
+  "doc": "ex991_aprilofferingpressre.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1824293/000162828025016066/ex991_aprilofferingpressre.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Priced $5.0M public offering with warrants at $3.60 per share \u00b7 Phase n/a \u00b7 GRI-0621 in idiopathic pulmonary fibrosis \u00b7 not yet approved",
+  "phase": "n/a",
+  "drug": "GRI-0621",
+  "indication": "idiopathic pulmonary fibrosis",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "GRI Bio, Inc. (NASDAQ: GRI) (\u201cGRI Bio\u201d or the \u201cCompany\u201d), a biotechnology company advancing an innovative pipeline of Natural Killer T (\u201cNKT\u201d) cell modulators for the treatment of inflammatory, fibrotic and autoimmune diseases, today announced the pricing of a public offering",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

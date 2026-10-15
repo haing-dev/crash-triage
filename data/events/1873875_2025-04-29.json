@@ -1,0 +1,47 @@
+{
+ "cik": "1873875",
+ "name": "Incannex Healthcare Inc.",
+ "ticker": "IXHL",
+ "date": "2025-04-29",
+ "fall_pct": "-78.7",
+ "days": "1",
+ "news_day_pct": "-75.1",
+ "status": "read",
+ "source": {
+  "filing_date": "2025-04-28",
+  "accession": "0001213900-25-036065",
+  "doc": "ea0239656-424b3_incannex.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1873875/000121390025036065/ea0239656-424b3_incannex.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Resale registration of 75.9M shares from PIPE with zero-exercise-price warrants, massive dilution \u00b7 Phase 2/3 \u00b7 IHL-42X in obstructive sleep apnea \u00b7 not yet approved",
+  "phase": "Phase 2/3",
+  "drug": "IHL-42X",
+  "indication": "obstructive sleep apnea",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "the market price of shares of our Common Stock could decline significantly and the volatility of the market price of our Common Stock could increase significantly, even if our research and development efforts are going well.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

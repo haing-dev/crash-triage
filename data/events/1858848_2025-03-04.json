@@ -1,0 +1,47 @@
+{
+ "cik": "1858848",
+ "name": "Tenaya Therapeutics, Inc.",
+ "ticker": "TNYA",
+ "date": "2025-03-04",
+ "fall_pct": "-57.3",
+ "days": "1",
+ "news_day_pct": "-53.5",
+ "status": "read",
+ "source": {
+  "filing_date": "2025-03-04",
+  "accession": "0001193125-25-045628",
+  "doc": "d878268dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1858848/000119312525045628/d878268dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Priced dilutive public offering of units with warrants at $0.70 \u00b7 n/a \u00b7 TN-201 and TN-401 gene therapies in heart disease \u00b7 not yet approved",
+  "phase": "n/a",
+  "drug": "TN-201, TN-401",
+  "indication": "MYBPC3-associated hypertrophic cardiomyopathy; PKP2-associated arrhythmogenic right ventricular cardiomyopathy",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "announced the pricing of its underwritten public offering of 75,000,000 total units for gross proceeds of approximately $52.5 million",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "cik": "1798749",
+ "name": "Jade Biosciences, Inc.",
+ "ticker": "JBIO",
+ "date": "2025-04-29",
+ "fall_pct": "-89.5",
+ "days": "1",
+ "news_day_pct": "-89.2",
+ "status": "read",
+ "source": {
+  "filing_date": "2025-04-29",
+  "accession": "0001193125-25-103761",
+  "doc": "d938753dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1798749/000119312525103761/d938753dex991.htm"
+ },
+ "facts": {
+  "related": false,
+  "trigger": "other",
+  "summary": "Corporate overview deck after Aerovate merger and PIPE; no adverse event described \u00b7 Preclinical \u00b7 JADE-001 in IgA nephropathy \u00b7 not yet approved",
+  "phase": "Preclinical",
+  "drug": "JADE-001",
+  "indication": "IgA nephropathy (IgAN)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "Jade Biosciences is advancing potentially best-in-class therapies for autoimmune diseases Current funding through 2027, well-beyond biomarker-rich JADE-001 healthy volunteer data",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "cik": "894158",
+ "name": "Theriva Biologics, Inc.",
+ "ticker": "TOVX",
+ "date": "2025-05-07",
+ "fall_pct": "-54.3",
+ "days": "2",
+ "news_day_pct": "-40.4",
+ "status": "read",
+ "source": {
+  "filing_date": "2025-05-07",
+  "accession": "0001104659-25-045309",
+  "doc": "tm2514050d1_ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/894158/000110465925045309/tm2514050d1_ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Topline OS benefit missed conventional significance (p=0.0546) despite company calling it positive \u00b7 Phase 2b \u00b7 VCN-01 in metastatic pancreatic cancer \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "VCN-01 (zabilugene almadenorepvec)",
+  "indication": "Metastatic pancreatic ductal adenocarcinoma",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "had a median OS of 10.8 months [Hazard Ratio (HR) = 0.57, 95% CI 0.34-0.96, p=0.0546].",
+   "primary_endpoint_met": "Theriva\u2122 Biologics Announces Primary Endpoints for Efficacy and Safety Achieved in VIRAGE Phase 2b Clinical Trial of VCN-01",
+   "safety": "VCN-01 was well-tolerated, with transient and reversible adverse events (AEs), meeting primary safety endpoint",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

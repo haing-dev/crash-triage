@@ -1,0 +1,47 @@
+{
+ "cik": "1649094",
+ "name": "Vaxcyte, Inc.",
+ "ticker": "PCVX",
+ "date": "2025-03-31",
+ "fall_pct": "-55.2",
+ "days": "2",
+ "news_day_pct": "-45.6",
+ "status": "read",
+ "source": {
+  "filing_date": "2025-03-31",
+  "accession": "0001193125-25-067901",
+  "doc": "d848914dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1649094/000119312525067901/d848914dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Mixed infant immunogenicity, 20 of 24 serotypes non-inferior \u00b7 Phase 2 \u00b7 VAX-24 in pneumococcal disease \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "VAX-24",
+  "indication": "invasive pneumococcal disease (infant)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": 0,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "particularly for the highest circulating serotypes2 contained in VAX-24 and for 20 of 24 serotypes overall.",
+   "primary_endpoint_met": "particularly for the highest circulating serotypes2 contained in VAX-24 and for 20 of 24 serotypes overall.",
+   "safety": "No serious adverse events were considered to be related to study vaccines.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

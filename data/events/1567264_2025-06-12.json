@@ -1,0 +1,47 @@
+{
+ "cik": "1567264",
+ "name": "INTENSITY THERAPEUTICS, INC.",
+ "ticker": "INTS",
+ "date": "2025-06-12",
+ "fall_pct": "-50.6",
+ "days": "4",
+ "news_day_pct": "-44.7",
+ "status": "read",
+ "source": {
+  "filing_date": "2025-06-12",
+  "accession": "0001628280-25-031040",
+  "doc": "intensitytherapeutics-424b.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1567264/000162828025031040/intensitytherapeutics-424b.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Priced dilutive public stock offering at $0.30 vs $0.579 prior close \u00b7 Phase 3 paused for funding \u00b7 INT230-6 in sarcoma \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "INT230-6",
+  "indication": "soft tissue sarcoma",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": true,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "The shares will be sold for a purchase price of $0.30 per share.",
+   "primary_endpoint_met": null,
+   "safety": "In March 2025, we paused new site activations and patient enrollments due to funding constraints, and prioritized funding for the INVINCIBLE-4 Study",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

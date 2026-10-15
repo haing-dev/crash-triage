@@ -1,0 +1,47 @@
+{
+ "cik": "1979414",
+ "name": "NEONC TECHNOLOGIES HOLDINGS, INC.",
+ "ticker": "NTHI",
+ "date": "2025-04-02",
+ "fall_pct": "-57.7",
+ "days": "1",
+ "news_day_pct": "-37.8",
+ "status": "read",
+ "source": {
+  "filing_date": "2025-04-01",
+  "accession": "0001829126-25-002295",
+  "doc": "neonctechnologies_ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1979414/000182912625002295/neonctechnologies_ex99-1.htm"
+ },
+ "facts": {
+  "related": false,
+  "trigger": "other",
+  "summary": "Announced CRO partnership to expand trial sites in India \u00b7 Phase 2a \u00b7 NEO100 in glioblastoma \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "NEO100",
+  "indication": "glioblastoma",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "NeOnc will initiate clinical trials across 30 FDA-compliant clinical research sites in India, increasing patient enrollment and accelerating development efforts for a novel therapy designed to target aggressive brain tumors.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

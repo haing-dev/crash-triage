@@ -1,0 +1,47 @@
+{
+ "cik": "1971543",
+ "name": "Mural Oncology plc",
+ "ticker": "MURA",
+ "date": "2025-03-25",
+ "fall_pct": "-65.2",
+ "days": "1",
+ "news_day_pct": "-61.6",
+ "status": "read",
+ "source": {
+  "filing_date": "2025-03-25",
+  "accession": "0001193125-25-061872",
+  "doc": "d936530d8k.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1971543/000119312525061872/d936530d8k.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 3 failed interim overall survival analysis, development stopped \u00b7 Phase 3 \u00b7 nemvaleukin alfa plus Keytruda in platinum-resistant ovarian cancer \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "nemvaleukin alfa",
+  "indication": "platinum-resistant ovarian cancer",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": 800,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "nemvaleukin in combination with pembrolizumab did not achieve a statistically significant improvement in overall survival versus investigator\u2019s choice chemotherapy alone",
+   "primary_endpoint_met": "nemvaleukin in combination with pembrolizumab did not achieve a statistically significant improvement in overall survival versus investigator\u2019s choice chemotherapy alone",
+   "safety": "Nemvaleukin has a well characterized and favorable safety profile, both as a monotherapy and in combination with pembrolizumab, with over 800 patients treated across the broader clinical program.",
+   "program_discontinued": "will not continue to final analysis and the Company will cease development of nemvaleukin for PROC"
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

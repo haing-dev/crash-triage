@@ -1,0 +1,47 @@
+{
+ "cik": "1997296",
+ "name": "Medicus Pharma Ltd.",
+ "ticker": "MDCX",
+ "date": "2025-05-28",
+ "fall_pct": "-52.9",
+ "days": "2",
+ "news_day_pct": "-33.1",
+ "status": "read",
+ "source": {
+  "filing_date": "2025-05-30",
+  "accession": "0001062993-25-010580",
+  "doc": "form424b3.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1997296/000106299325010580/form424b3.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Resale registration of 3.71M shares to Yorkville under equity line plus new debentures \u00b7 Phase 2 \u00b7 SkinJect (doxorubicin microneedle) in basal cell carcinoma \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "SkinJect",
+  "indication": "basal cell carcinoma",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "This prospectus relates to the resale from time to time of up to 3,710,000 common shares of Medicus Pharma Ltd.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}
