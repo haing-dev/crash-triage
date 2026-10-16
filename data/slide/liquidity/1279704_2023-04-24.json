@@ -1,0 +1,32 @@
+{
+ "id": "1279704_2023-04-24",
+ "asof": "2023-04-24",
+ "chars": 18766,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 3275153,
+   "exercise_price_usd": 1.96,
+   "expiry": null,
+   "quote": "warrants to purchase up to an aggregate of 3,275,153 shares of common stock in a concurrent private placement priced at-the-market under Nasdaq rules"
+  },
+  {
+   "count": 1875945,
+   "exercise_price_usd": 1.96,
+   "expiry": null,
+   "quote": "warrants to purchase an aggregate of 1,875,945 shares of common stock. The warrants are immediately exercisable at an exercise price of $1.96 per share"
+  },
+  {
+   "count": 1875945,
+   "exercise_price_usd": 1e-05,
+   "expiry": null,
+   "quote": "is immediately exercisable at an exercise price of $0.00001 per share and will not expire until exercised in full"
+  }
+ ],
+ "warrants_dropped": 0
+}

@@ -1,0 +1,26 @@
+{
+ "id": "1711754_2023-04-25",
+ "asof": "2023-04-25",
+ "chars": 23798,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 45386,
+   "exercise_price_usd": 14.05,
+   "expiry": null,
+   "quote": "The warrants have a 10-year term and an exercise price of $14.05. At December 31, 2022, 45,386 of these warrants are outstanding and the intrinsic value of these warrants is $0."
+  },
+  {
+   "count": 28688,
+   "exercise_price_usd": 9.6,
+   "expiry": "2023-12-19",
+   "quote": "The warrants are exercisable until December 19, 2023 and have an exercise price of $9.60. At December 31, 2022, 28,688 of these warrants are outstanding and the intrinsic value is $0."
+  }
+ ],
+ "warrants_dropped": 0
+}

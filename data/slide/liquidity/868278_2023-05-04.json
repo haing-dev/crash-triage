@@ -1,0 +1,33 @@
+{
+ "id": "868278_2023-05-04",
+ "asof": "2023-05-04",
+ "chars": 21283,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2023-01-26",
+   "net_proceeds_usd": 7600000,
+   "what": "JXVII Trust unsecured promissory note, 10% interest, due 2026 (gross principal; net proceeds not stated)",
+   "quote": "On January 26, 2023, the Company issued an unsecured promissory note and guaranty for an aggregate principal amount of $7.6 million"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 275000,
+   "exercise_price_usd": 11.0,
+   "expiry": null,
+   "quote": "Each Warrant has an exercise price equal to $11.00 per share of common stock"
+  },
+  {
+   "count": 180000,
+   "exercise_price_usd": 15.625,
+   "expiry": null,
+   "quote": "warrants to purchase up to an aggregate of 180,000 shares of common stock (6% of the shares of common stock sold in the offering) at an exercise price of $15.625 per share"
+  }
+ ],
+ "warrants_dropped": 0
+}
