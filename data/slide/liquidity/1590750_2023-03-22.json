@@ -1,0 +1,38 @@
+{
+ "id": "1590750_2023-03-22",
+ "asof": "2023-03-22",
+ "chars": 23164,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 781,
+   "exercise_price_usd": 127.95,
+   "expiry": null,
+   "quote": "Issued April 2017781 781 $127.952.33"
+  },
+  {
+   "count": 29446,
+   "exercise_price_usd": 0.01,
+   "expiry": null,
+   "quote": "Acquired October 202029,446 29,446 $0.017.73"
+  },
+  {
+   "count": 332130,
+   "exercise_price_usd": 15.09,
+   "expiry": null,
+   "quote": "Issued February 2020 (2)332,130 388,796 $15.092.12"
+  },
+  {
+   "count": 1606,
+   "exercise_price_usd": 0.47,
+   "expiry": null,
+   "quote": "Issued November 20171,606 1,606 $0.471.87"
+  }
+ ],
+ "warrants_dropped": 0
+}

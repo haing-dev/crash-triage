@@ -1,0 +1,26 @@
+{
+ "id": "1697532_2023-03-23",
+ "asof": "2023-03-23",
+ "chars": 21301,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 30000000,
+   "exercise_price_usd": null,
+   "expiry": "2027-06-27",
+   "quote": "Common Warrants to purchase up to 30,000,000 shares of common stock"
+  },
+  {
+   "count": 10000000,
+   "exercise_price_usd": null,
+   "expiry": "2027-06-27",
+   "quote": "20,000,000 shares of common stock, par value $0.0001 per share, 10,000,000 Pre-Funded Warrants"
+  }
+ ],
+ "warrants_dropped": 0
+}
