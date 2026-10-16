@@ -1,0 +1,39 @@
+{
+ "id": "1183765_2023-09-18",
+ "asof": "2023-09-18",
+ "chars": 25872,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [
+  {
+   "amount_usd": 276000,
+   "what": "Restructuring cash payments (completed, six months ended June 30, 2023)",
+   "quote": "Cash payments"
+  }
+ ],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2023-07-17",
+   "net_proceeds_usd": 18700000,
+   "what": "July 2023 Private Placement initial tranche (common stock and pre-funded warrants)",
+   "quote": "The Company received approximately $20.0 million in gross proceeds in connection with the closing of the initial tranche and net proceeds, following the payment of related offering expenses, of approximately $18.7 million."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 5103343,
+   "exercise_price_usd": 0.3919,
+   "expiry": "2033-06-16",
+   "quote": "the Company issued a warrant to purchase up to 5,103,343 shares of the Company\u2019s common stock at an exercise price of $0.3919 per share. The warrant has a term of 10 years."
+  },
+  {
+   "count": 18331547,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "pre-funded warrants (the \u201cJuly 2023 Pre-Funded Warrants\u201d) exercisable for up to 18,331,547 shares of the Company\u2019s common stock."
+  }
+ ],
+ "warrants_dropped": 0
+}

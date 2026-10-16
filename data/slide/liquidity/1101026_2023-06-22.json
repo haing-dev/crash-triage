@@ -1,0 +1,27 @@
+{
+ "id": "1101026_2023-06-22",
+ "asof": "2023-06-22",
+ "chars": 6551,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2023-04-03",
+   "net_proceeds_usd": 1000000,
+   "what": "10% promissory note with warrant issued to CEO in private placement (Payne Bridge Loan)",
+   "quote": "agreed to issue and sell to the Subscriber a 10% promissory note with a principal amount of $1 million (the \u201cNote\u201d) and a warrant (the \u201cWarrant\u201d)"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 390000,
+   "exercise_price_usd": 2.91,
+   "expiry": "2026-04-03",
+   "quote": "a warrant (the \u201cWarrant\u201d) to purchase 390,000 shares of the Company\u2019s common stock, par value $0.001 per share (\u201cCommon Stock\u201d) at an exercise price of $2.91."
+  }
+ ],
+ "warrants_dropped": 0
+}

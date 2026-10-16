@@ -1,0 +1,45 @@
+{
+ "id": "1279704_2023-11-09",
+ "asof": "2023-11-09",
+ "chars": 15983,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2023-09-08",
+   "net_proceeds_usd": 24500000,
+   "what": "Series E-1 preferred stock and warrants private placement (gross proceeds; net not stated)",
+   "quote": "The closing of the Offering took place on September 8, 2023. The gross proceeds of the Offering are estimated to be approximately $24.5 million, before deducting"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 5151098,
+   "exercise_price_usd": 1.96,
+   "expiry": "2027-10-25",
+   "quote": "2022 Common Warrants"
+  },
+  {
+   "count": 1520710,
+   "exercise_price_usd": 1e-05,
+   "expiry": null,
+   "quote": "2022 Pre-Funded Warrants"
+  },
+  {
+   "count": 720796,
+   "exercise_price_usd": 12.075,
+   "expiry": "2025-06-05",
+   "quote": "June 2020 Series H Warrants"
+  },
+  {
+   "count": 195700,
+   "exercise_price_usd": 24.0,
+   "expiry": "2024-05-20",
+   "quote": "May 2019 Series F Warrants"
+  }
+ ],
+ "warrants_dropped": 0
+}

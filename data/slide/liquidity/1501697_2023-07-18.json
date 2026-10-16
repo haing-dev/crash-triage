@@ -1,0 +1,45 @@
+{
+ "id": "1501697_2023-07-18",
+ "asof": "2023-07-18",
+ "chars": 22894,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2023-05-18",
+   "net_proceeds_usd": 65024726,
+   "what": "Private placement of common stock ($1.52/share) and pre-funded warrants ($1.519 each); gross proceeds computed from the stated share counts and prices because net proceeds are not given",
+   "quote": "On May 18, 2023, we closed the Private Placement and issued an aggregate of 34,521,046 shares of Common Stock and Pre-Funded Warrants to purchase an aggregate of 8,263,157 shares of Common Stock."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 5155,
+   "exercise_price_usd": 19.78,
+   "expiry": "2026-10-24",
+   "quote": "October 25, 20165,155 $19.78 October 24, 2026"
+  },
+  {
+   "count": 115916,
+   "exercise_price_usd": 19.78,
+   "expiry": "2027-12-28",
+   "quote": "December 28, 2017115,916 $19.78 December 28, 2027"
+  },
+  {
+   "count": 20220,
+   "exercise_price_usd": 19.78,
+   "expiry": "2028-09-12",
+   "quote": "September 12, 201820,220 $19.78 September 12, 2028"
+  },
+  {
+   "count": 8263157,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "Each Pre-Funded Warrant has an exercise price equal to $0.001 per share. The Pre-Funded Warrants are exercisable at any time after their original issuance and will not expire until exercised in full."
+  }
+ ],
+ "warrants_dropped": 0
+}

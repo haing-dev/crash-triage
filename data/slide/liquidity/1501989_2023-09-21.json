@@ -1,0 +1,39 @@
+{
+ "id": "1501989_2023-09-21",
+ "asof": "2023-09-21",
+ "chars": 11371,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2023-07-03",
+   "net_proceeds_usd": 30000000,
+   "what": "BVF private placement of pre-funded warrants and Tranche warrants (gross proceeds; net not given)",
+   "quote": "The aggregate gross proceeds to the Company from this offering are approximately $30.0 million, excluding any proceeds the Company may receive upon exercise of the Tranche Warrants and the Pre-Funded Warrants."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 14423077,
+   "exercise_price_usd": 1e-05,
+   "expiry": null,
+   "quote": "Each pre-funded warrant has an exercise price of $0.00001 per share of common stock, are immediately exercisable and will be exercisable for 20 years."
+  },
+  {
+   "count": 5769231,
+   "exercise_price_usd": 4.16,
+   "expiry": null,
+   "quote": "The accompanying Tranche 1 warrants have an exercise price of $4.16 per share of common stock, are immediately exercisable and will expire in July 2025."
+  },
+  {
+   "count": 5769231,
+   "exercise_price_usd": 6.24,
+   "expiry": null,
+   "quote": "The accompanying Tranche 2 warrants have an exercise price of $6.24 per share of common stock, are immediately exercisable and will expire in July 2026."
+  }
+ ],
+ "warrants_dropped": 0
+}

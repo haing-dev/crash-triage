@@ -1,0 +1,33 @@
+{
+ "id": "1806310_2023-10-04",
+ "asof": "2023-10-04",
+ "chars": 25408,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2023-08-16",
+   "net_proceeds_usd": 150000000,
+   "what": "August 2023 private placement of common stock and pre-funded warrants (gross proceeds; net not stated)",
+   "quote": "We received gross proceeds of approximately $150.0 million"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 525000,
+   "exercise_price_usd": 0.709,
+   "expiry": null,
+   "quote": "Each SSI Warrant has an exercise price of $0.7090 per Warrant Share, which was the closing price of our common stock on the Nasdaq Global Market on April 4, 2023."
+  },
+  {
+   "count": 44250978,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "The Pre-Funded Warrants have a per share exercise price of $0.001, subject to proportional adjustments in the event of stock splits or combinations or similar events."
+  }
+ ],
+ "warrants_dropped": 0
+}

@@ -1,0 +1,32 @@
+{
+ "id": "1835022_2023-07-11",
+ "asof": "2023-07-11",
+ "chars": 23357,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 1525000,
+   "exercise_price_usd": 7.5,
+   "expiry": null,
+   "quote": "warrants to purchase 1,525,000 shares of common stock. The warrants were sold at the rate of one warrant for every two shares of common stock purchased in the IPO, with each full warrant having an exercise price of $7.50 per share."
+  },
+  {
+   "count": 145000,
+   "exercise_price_usd": 5.0,
+   "expiry": null,
+   "quote": "the underwriters purchased 237,804 shares of common stock and 145,000 warrants to purchase common stock at $5.00 per share in connection with Over-Allotment."
+  },
+  {
+   "count": 230146,
+   "exercise_price_usd": 6.25,
+   "expiry": null,
+   "quote": "Common stock warrants issued to underwriters as compensation for IPO"
+  }
+ ],
+ "warrants_dropped": 0
+}

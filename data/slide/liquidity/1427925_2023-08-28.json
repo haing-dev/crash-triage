@@ -1,0 +1,45 @@
+{
+ "id": "1427925_2023-08-28",
+ "asof": "2023-08-28",
+ "chars": 25861,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2023-07-17",
+   "net_proceeds_usd": 10000000,
+   "what": "Private placement of common stock, pre-funded warrants and Series A/B warrants (gross proceeds; net not given; date is the agreement date because the closing date is not stated)",
+   "quote": "we recently closed the private placement of our common stock, pre-funded warrants and common warrants for aggregate gross proceeds to us of $10.0 million"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 4227052,
+   "exercise_price_usd": 2.07,
+   "expiry": null,
+   "quote": "The common warrants issued in December 2022 to purchase an aggregate of 4,227,052 shares of common stock, or the 2022 Warrants"
+  },
+  {
+   "count": 7352947,
+   "exercise_price_usd": 1.11,
+   "expiry": null,
+   "quote": "Series A common stock warrants to purchase up to an aggregate of 7,352,947 shares of common stock at an exercise price of $1.11 per share"
+  },
+  {
+   "count": 7352947,
+   "exercise_price_usd": 1.11,
+   "expiry": null,
+   "quote": "Series B common stock warrants to purchase up to an aggregate of 7,352,947 shares of common stock at an exercise price of $1.11 per share"
+  },
+  {
+   "count": 2012356,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "pre-funded warrants to purchase up to an aggregate of 2,012,356 shares of common stock at an exercise price of $0.001 per share"
+  }
+ ],
+ "warrants_dropped": 0
+}

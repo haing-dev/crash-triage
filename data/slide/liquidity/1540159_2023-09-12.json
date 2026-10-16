@@ -1,0 +1,45 @@
+{
+ "id": "1540159_2023-09-12",
+ "asof": "2023-09-12",
+ "chars": 21277,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": null,
+   "net_proceeds_usd": 190000,
+   "what": "ATM sales of 226,882 common shares after June 30, 2023 (exact dates not given)",
+   "quote": "Subsequent to the quarter end, sales under the agreement have resulted in the issuance of 226,882 common shares and receipt of net cash proceeds of $0.19 million after deducting sales agent commissions."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 1345665,
+   "exercise_price_usd": 1.5,
+   "expiry": "2025-12-23",
+   "quote": "The Class A warrants have an exercise price of $1.50 per share and will expire on December 23, 2025."
+  },
+  {
+   "count": 1345665,
+   "exercise_price_usd": 1.0,
+   "expiry": "2023-12-23",
+   "quote": "The Class B warrants have an exercise price of $1.00 per share and will expire on December 23, 2023."
+  },
+  {
+   "count": 2739727,
+   "exercise_price_usd": 3.52,
+   "expiry": "2027-09-24",
+   "quote": "The common share purchase warrants were immediately exercisable at an exercise price of $3.52 per share and will expire on September 24, 2027."
+  },
+  {
+   "count": 191780,
+   "exercise_price_usd": 4.5625,
+   "expiry": "2027-03-21",
+   "quote": "The placement agent warrants are exercisable on or after March 24, 2022, at an exercise price of $4.5625 per share, and will expire on March 21, 2027"
+  }
+ ],
+ "warrants_dropped": 0
+}

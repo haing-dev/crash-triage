@@ -1,0 +1,39 @@
+{
+ "id": "1819576_2023-08-16",
+ "asof": "2023-08-16",
+ "chars": 21283,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2023-07-27",
+   "net_proceeds_usd": 10000000,
+   "what": "HCR second tranche funding under the Revenue Interest Financing Agreement (gross amount; net not given)",
+   "quote": "On July 27, 2023, HCR funded us $10.0 million of the Investment Amount from the second tranche of the RIFA"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 250000,
+   "exercise_price_usd": 5.14,
+   "expiry": "2032-01-06",
+   "quote": "warrants to purchase an aggregate of 250,000 shares of our common stock at an exercise price of $5.14 per share"
+  },
+  {
+   "count": 100000,
+   "exercise_price_usd": 3.05,
+   "expiry": "2031-02-26",
+   "quote": "SVB Warrant - Initial Tranche (see Note 12)"
+  },
+  {
+   "count": 65572,
+   "exercise_price_usd": 0.02,
+   "expiry": null,
+   "quote": "Other warrants"
+  }
+ ],
+ "warrants_dropped": 0
+}

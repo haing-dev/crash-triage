@@ -1,0 +1,39 @@
+{
+ "id": "318306_2023-07-24",
+ "asof": "2023-07-24",
+ "chars": 10836,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2023-07-07",
+   "net_proceeds_usd": 22900000,
+   "what": "Registered direct offering of common stock and pre-funded warrants, closed July 2023",
+   "quote": "The Company estimates that the net proceeds from the Offering will be approximately $22.9 million, after deducting placement agent fees and paying estimated offering expenses."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 7609879,
+   "exercise_price_usd": 4.75,
+   "expiry": null,
+   "quote": "the Company had outstanding warrant liabilities related to the 2022 private placement that allow the holders to purchase 7,609,879 shares of common stock at a weighted average exercise price of $4.75 per share."
+  },
+  {
+   "count": 1788000,
+   "exercise_price_usd": 9.75,
+   "expiry": "2026-12-21",
+   "quote": "As of March 31, 2023, there were 1,788,000 post-split stock purchase warrants outstanding. These stock purchase warrants expire on December 21, 2026."
+  },
+  {
+   "count": 2919140,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "Pre-funded warrants to purchase 2,919,140 Shares of Common Stock"
+  }
+ ],
+ "warrants_dropped": 0
+}

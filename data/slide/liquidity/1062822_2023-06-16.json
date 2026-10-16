@@ -1,0 +1,39 @@
+{
+ "id": "1062822_2023-06-16",
+ "asof": "2023-06-16",
+ "chars": 24152,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2023-06-05",
+   "net_proceeds_usd": 66900000,
+   "what": "Underwritten public offering of common stock, including the underwriters' option shares exercised in full on June 1, 2023",
+   "quote": "The net proceeds to the Company from the Public Offering are expected to be approximately $66.9 million after deducting underwriting discounts and commissions and estimated offering expenses payable by the Company."
+  },
+  {
+   "date": "2023-06-05",
+   "net_proceeds_usd": 62800000,
+   "what": "Concurrent private placement of common stock to an Invus affiliate (gross proceeds; excludes any additional-closing option shares)",
+   "quote": "aggregate gross proceeds of approximately $62.8 million"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 420673,
+   "exercise_price_usd": 2.08,
+   "expiry": null,
+   "quote": "Concurrent with the funding of the first tranche, Lexicon granted Oxford a warrant to purchase 420,673 shares of Lexicon\u2019s common stock at an exercise price of $2.08 per share."
+  },
+  {
+   "count": 224128,
+   "exercise_price_usd": 1.95,
+   "expiry": null,
+   "quote": "Concurrent with the funding of the second tranche, Lexicon granted Oxford a warrant to purchase 224,128 shares of Lexicon\u2019s common stock at an exercise price of $1.95 per share."
+  }
+ ],
+ "warrants_dropped": 0
+}

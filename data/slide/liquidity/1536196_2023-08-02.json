@@ -1,0 +1,45 @@
+{
+ "id": "1536196_2023-08-02",
+ "asof": "2023-08-02",
+ "chars": 33107,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2023-01-11",
+   "net_proceeds_usd": 6808000,
+   "what": "January 2023 registered direct offering and concurrent private placement of shares, pre-funded warrants, and Series A and B warrants",
+   "quote": "The Company received total consideration of $ 6,808 net of direct issuance costs from the above mentioned issuance of shares, prefunded warrants and Series A and B warrants."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 409091100,
+   "exercise_price_usd": 0.02,
+   "expiry": null,
+   "quote": "Series A warrants to purchase up to 409,091,100 ordinary shares represented by 1,363,637 ADSs at an exercise price of $6.00 per ADS"
+  },
+  {
+   "count": 409091100,
+   "exercise_price_usd": 0.018,
+   "expiry": null,
+   "quote": "Series B warrants to purchase up to 409,091,100 ordinary shares represented 1,363,637 ADSs"
+  },
+  {
+   "count": 28636500,
+   "exercise_price_usd": 0.022,
+   "expiry": null,
+   "quote": "to purchase up to 28,636,500 of the Company\u2019s Ordinary Shares for an exercise price of $ 0.022 per share"
+  },
+  {
+   "count": 180000000,
+   "exercise_price_usd": 0.018,
+   "expiry": null,
+   "quote": "to purchase up to an aggregate of 180,000,000 Ordinary shares that were issued in December 2021 to the investor in this offering and private placement by reducing the exercise prices from $ 0.067 per share to $ 0.018 per share"
+  }
+ ],
+ "warrants_dropped": 0
+}

@@ -1,0 +1,33 @@
+{
+ "id": "1697532_2023-11-13",
+ "asof": "2023-11-13",
+ "chars": 21289,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2023-10-13",
+   "net_proceeds_usd": 12700000,
+   "what": "Leerink ATM sale of 5,750,000 shares",
+   "quote": "On October 13, 2023, the Company sold an additional 5,750,000 shares of the company\u2019s common stock pursuant to the Leerink ATM Agreement"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 22000000,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "They have an exercise price of $0.001."
+  },
+  {
+   "count": 5658034,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "pre-funded warrants to purchase an aggregate of 5,658,034 shares of common stock (subject to adjustment in the event of stock splits, recapitalizations and other similar events affecting common stock), with an exercise price of $0.001 per share."
+  }
+ ],
+ "warrants_dropped": 0
+}

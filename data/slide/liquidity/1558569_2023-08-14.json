@@ -1,0 +1,32 @@
+{
+ "id": "1558569_2023-08-14",
+ "asof": "2023-08-14",
+ "chars": 18765,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 90000,
+   "exercise_price_usd": 10.0,
+   "expiry": "2026-06-15",
+   "quote": "The Underwriter Warrant became exercisable on or after December 16, 2021 (six months from the effective date of the offering) and expires on June 15, 2026."
+  },
+  {
+   "count": 12500,
+   "exercise_price_usd": 8.0,
+   "expiry": "2031-08-12",
+   "quote": "The Lender Warrant is exercisable at a per share exercise price of $8.00 and is exercisable at any time on or after August 13, 2021 through August 12, 2031."
+  },
+  {
+   "count": 1312500,
+   "exercise_price_usd": 13.0,
+   "expiry": null,
+   "quote": "These PIPE Warrants have an exercise price of $13.00 per share and are immediately exercisable upon issuance and will expire on the five- and one-half-year anniversary of the issuance date."
+  }
+ ],
+ "warrants_dropped": 0
+}
