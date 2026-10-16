@@ -1,5 +1,26 @@
 {
  "id": "1479615_2024-06-26",
  "asof": "2024-06-26",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 22877,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-01-31",
+   "net_proceeds_usd": 20000000,
+   "what": "ATM sales of ADSs under Sales Agreement in January 2024 (gross; exact day not given, net only stated in GBP)",
+   "quote": "In January 2024, we raised an additional $20 million of gross proceeds before deducting \u00a30.6 million in placement agent fees and other expenses, from sales of ADSs under our Sales Agreement."
+  },
+  {
+   "date": "2024-02-07",
+   "net_proceeds_usd": 120000000,
+   "what": "Private placement of 5,714,286 ADSs at $21.00 per ADS, closed Feb 7, 2024 (gross; net only stated in GBP)",
+   "quote": "On February 7, 2024, we closed the Private Placement and is"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [],
+ "warrants_dropped": 0
 }

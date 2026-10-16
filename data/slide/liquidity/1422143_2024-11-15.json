@@ -1,5 +1,26 @@
 {
  "id": "1422143_2024-11-15",
  "asof": "2024-11-15",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 18784,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 7179755,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "As of September 30, 2024, pre-funded warrants to purchase 139,131 of such shares of common stock had been exercised and 7,179,755 remained outstanding."
+  },
+  {
+   "count": 2173913,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "As of September 30, 2024, pre-funded warrants to purchase 860,869 of such shares of common stock had been exercised and 2,173,913 remained outstanding."
+  }
+ ],
+ "warrants_dropped": 0
 }

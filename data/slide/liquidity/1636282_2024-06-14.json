@@ -1,5 +1,26 @@
 {
  "id": "1636282_2024-06-14",
  "asof": "2024-06-14",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 23348,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 684407,
+   "exercise_price_usd": 21.52,
+   "expiry": null,
+   "quote": "the Company settled its 2023 obligations under the Parapyre Option Obligation by issuing Parapyre 684,407 warrants to purchase the Company's Common Stock, with a $21.52 per share exercise price for each warrant."
+  },
+  {
+   "count": 250000,
+   "exercise_price_usd": 0.0025,
+   "expiry": null,
+   "quote": "May 20, 2022None$0.0025 250,000"
+  }
+ ],
+ "warrants_dropped": 0
 }

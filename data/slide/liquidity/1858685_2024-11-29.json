@@ -1,5 +1,39 @@
 {
  "id": "1858685_2024-11-29",
  "asof": "2024-11-29",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 10374,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-11-22",
+   "net_proceeds_usd": 4200000,
+   "what": "10.0% Senior Secured Convertible Notes private placement to principal stockholders (gross principal; net not given)",
+   "quote": "The closing of the Private Placement occurred on November 22, 2024"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 170950,
+   "exercise_price_usd": 3.55,
+   "expiry": "2028-11-02",
+   "quote": "warrants to purchase 170,950 shares of Common Stock originally issued in a private placement on May 16, 2022, as amended on November 2, 2023 to extend the expiration date until November 2, 2028"
+  },
+  {
+   "count": 214286,
+   "exercise_price_usd": 3.55,
+   "expiry": "2028-11-02",
+   "quote": "warrants to purchase 214,286 shares of Common Stock issued on July 26, 2022, as amended on November 2, 2023 to extend the expiration date until November 2, 2028 and revise the exercise price to $3.55 per share"
+  },
+  {
+   "count": 1807500,
+   "exercise_price_usd": 3.55,
+   "expiry": "2028-11-02",
+   "quote": "warrants to purchase 1,807,500 shares of Common Stock issued on November 2, 2023 expiring five years following the date of issuance and with an exercise price of $3.55 per share"
+  }
+ ],
+ "warrants_dropped": 0
 }

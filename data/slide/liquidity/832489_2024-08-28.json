@@ -1,5 +1,57 @@
 {
  "id": "832489_2024-08-28",
  "asof": "2024-08-28",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 32723,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-07-12",
+   "net_proceeds_usd": 2836000,
+   "what": "July 2024 registered direct offering of common stock and pre-funded warrants, with concurrent private placement of common warrants",
+   "quote": "The Offering closed on July 12, 2024."
+  },
+  {
+   "date": "2024-08-21",
+   "net_proceeds_usd": 7855000,
+   "what": "August 2024 registered direct offering of common stock and pre-funded warrants, with concurrent private placement of common warrants",
+   "quote": "The Offering closed on August 21, 2024."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 4000,
+   "exercise_price_usd": 1.68,
+   "expiry": null,
+   "quote": "June 2020 4,000 $ 1.68 June 2025"
+  },
+  {
+   "count": 159781,
+   "exercise_price_usd": 75.0,
+   "expiry": null,
+   "quote": "September 2020 159,781 75.00 September 2025"
+  },
+  {
+   "count": 1605688,
+   "exercise_price_usd": 1.68,
+   "expiry": null,
+   "quote": "we issued common warrants to the purchaser to purchase up to 1,605,688 shares of common stock at an exercise price of $1.68 per share"
+  },
+  {
+   "count": 2170000,
+   "exercise_price_usd": 2.86,
+   "expiry": null,
+   "quote": "we issued common warrants to the purchaser to purchase up to 2,170,000 shares of common stock at an exercise price of $2.86 per share"
+  },
+  {
+   "count": 1700000,
+   "exercise_price_usd": 5.0,
+   "expiry": "2029-08-21",
+   "quote": "common warrants to purchase an aggregate of up to 1,700,000 shares of our common stock (the \u201cCommon Warrants\u201d) at an exercise price of $5.00 per share. The Common Warrants are immediately exercisable and will expire five years from the date of issuance."
+  }
+ ],
+ "warrants_dropped": 0
 }

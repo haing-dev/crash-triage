@@ -1,5 +1,51 @@
 {
  "id": "1829247_2024-10-23",
  "asof": "2024-10-23",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 8848,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-10-21",
+   "net_proceeds_usd": 2879530,
+   "what": "Registered direct offering plus concurrent private placement; proceeds after placement agent fees, before other expenses",
+   "quote": "The closing of the Transactions took place on October 21, 2024."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 1297318,
+   "exercise_price_usd": 7.8,
+   "expiry": null,
+   "quote": "one tradeable warrant (each, a \u201cTradeable Warrant,\u201d collectively, the \u201cTradeable Warrants\u201d) to purchase one share of common stock at an exercise price of $7.80 per share"
+  },
+  {
+   "count": 1297318,
+   "exercise_price_usd": 8.125,
+   "expiry": null,
+   "quote": "to purchase one share of the Company\u2019s common stock at an exercise price of $8.125."
+  },
+  {
+   "count": 1725521,
+   "exercise_price_usd": 4.16,
+   "expiry": null,
+   "quote": "The warrants have an exercise price of $4.16 and expire five years from issuance."
+  },
+  {
+   "count": 1565000,
+   "exercise_price_usd": 2.0,
+   "expiry": null,
+   "quote": "warrants (the \u201cCommon Warrants\u201d) to purchase an aggregate of 1,565,000 shares of Common Stock (the \u201cCommon Warrant Shares\u201d) with an exercise price of $2.00 per share"
+  },
+  {
+   "count": 702398,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "pre-funded warrants (the \u201cPre-Funded Warrants\u201d) to purchase up to 702,398 shares of Common Stock (the \u201cPre-funded Warrants Shares\u201d) with an exercise price of $0.0001 per share"
+  }
+ ],
+ "warrants_dropped": 0
 }

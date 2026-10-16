@@ -1,5 +1,31 @@
 {
  "id": "1382101_2024-10-09",
  "asof": "2024-10-09",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 18766,
+ "one_off_receipts": [
+  {
+   "amount_usd": 50000000,
+   "what": "Ipsen upfront license fee for STRO-003, paid April 2024",
+   "quote": "Ipsen (i) paid us an upfront license fee in the amount of $50.0 million in April 2024"
+  },
+  {
+   "amount_usd": 25000000,
+   "what": "Vaxcyte second installment of Option exercise price, paid May 2024",
+   "quote": "In May 2024, Vaxcyte paid us $25.0 million in cash as the second of two installment payments for the Option exercise price under the Vaxcyte Agreement."
+  }
+ ],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 127616,
+   "exercise_price_usd": null,
+   "expiry": null,
+   "quote": "Warrants to purchase common stock"
+  }
+ ],
+ "warrants_dropped": 0
 }

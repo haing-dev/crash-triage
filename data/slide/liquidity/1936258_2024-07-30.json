@@ -1,5 +1,33 @@
 {
  "id": "1936258_2024-07-30",
  "asof": "2024-07-30",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 23333,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-05-03",
+   "net_proceeds_usd": 2900000,
+   "what": "Exercise of 255,702 public warrants at $11.50 between April 1 and May 3, 2024 (gross proceeds)",
+   "quote": "From April 1, 2024 through May 3, 2024 a total of 255,702 additional Warrants were exercised generating gross proceeds of $2.9 million."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 2738971,
+   "exercise_price_usd": 11.5,
+   "expiry": "2027-11-23",
+   "quote": "As of March 31, 2024, we had another 2,994,673 outstanding Warrants to purchase 2,994,673 Ordinary Shares, exercisable at an exercise price of $11.50 per share, which expire on November 23, 2027"
+  },
+  {
+   "count": 4736841,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "Pre-Funded Warrants to purchase 4,736,841 Ordinary Shares at a public offering price of $18.9999 per Pre-Funded Warrant"
+  }
+ ],
+ "warrants_dropped": 0
 }

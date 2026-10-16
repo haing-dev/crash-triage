@@ -1,5 +1,26 @@
 {
  "id": "1858848_2024-12-12",
  "asof": "2024-12-12",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 18782,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 171848,
+   "exercise_price_usd": 2.55,
+   "expiry": null,
+   "quote": "the Company issued to SVB a warrant to purchase up to 171,848 shares of our common stock (the Lender Warrant)"
+  },
+  {
+   "count": 2222271,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "pre-funded warrants to purchase 2,222,271 shares of its common stock at a price of $4.499 per each pre-funded warrant"
+  }
+ ],
+ "warrants_dropped": 0
 }

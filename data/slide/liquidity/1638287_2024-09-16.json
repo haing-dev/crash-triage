@@ -1,5 +1,38 @@
 {
  "id": "1638287_2024-09-16",
  "asof": "2024-09-16",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 23341,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 5089060,
+   "exercise_price_usd": 3.93,
+   "expiry": null,
+   "quote": "Series A warrants to purchase 5,089,060 shares of common stock (the \u201cSeries A Warrants\u201d)"
+  },
+  {
+   "count": 7633591,
+   "exercise_price_usd": 3.93,
+   "expiry": null,
+   "quote": "Series B warrants to purchase up to 7,633,591 shares of common stock (the \u201cSeries B Warrants\u201d)"
+  },
+  {
+   "count": 1552000,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "The Pre-Funded Warrant has an exercise price of $0.001 per share and is immediately exercisable and will expire when exercised in full"
+  },
+  {
+   "count": 127227,
+   "exercise_price_usd": 4.9125,
+   "expiry": null,
+   "quote": "to purchase up to 127,227 shares of common stock (which represents 5% of the sum of the shares of common stock and Pre-Funded Warrants sold to the institutional investor in the Offering)"
+  }
+ ],
+ "warrants_dropped": 0
 }

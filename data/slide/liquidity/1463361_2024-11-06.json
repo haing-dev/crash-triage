@@ -1,5 +1,32 @@
 {
  "id": "1463361_2024-11-06",
  "asof": "2024-11-06",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 4729,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 4285572,
+   "exercise_price_usd": 8.5,
+   "expiry": null,
+   "quote": "The Existing Warrants have an exercise price of $8.50 per warrant."
+  },
+  {
+   "count": 2143000,
+   "exercise_price_usd": 1.92,
+   "expiry": null,
+   "quote": "In November 2023, the Company issued common stock warrants to purchase an aggregate of 2,143,000 shares of common stock at an exercise price of $1.92 per warrant."
+  },
+  {
+   "count": 128580,
+   "exercise_price_usd": 2.5563,
+   "expiry": null,
+   "quote": "128,580 common stock warrants were issued to the Placement Agent (\u201cPlacement Agent Warrants\u201d) at an exercise price of $2.5563 per warrant."
+  }
+ ],
+ "warrants_dropped": 0
 }

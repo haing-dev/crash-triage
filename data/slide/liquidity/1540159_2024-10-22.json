@@ -1,5 +1,44 @@
 {
  "id": "1540159_2024-10-22",
  "asof": "2024-10-22",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 21859,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 1687,
+   "exercise_price_usd": 22.4,
+   "expiry": null,
+   "quote": "1,687 $ 22.40 January 2025"
+  },
+  {
+   "count": 173614,
+   "exercise_price_usd": 10.5,
+   "expiry": "2025-12-23",
+   "quote": "The Class A warrants have an exercise price of $10.50 per share and will expire on December 23, 2025."
+  },
+  {
+   "count": 15627,
+   "exercise_price_usd": 56.0,
+   "expiry": null,
+   "quote": "15,627 $ 56.00 February 2026"
+  },
+  {
+   "count": 27399,
+   "exercise_price_usd": 31.94,
+   "expiry": null,
+   "quote": "27,399 $ 31.94 March 2027"
+  },
+  {
+   "count": 391390,
+   "exercise_price_usd": 24.64,
+   "expiry": null,
+   "quote": "391,390 $ 24.64 September 2027"
+  }
+ ],
+ "warrants_dropped": 0
 }

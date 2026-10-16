@@ -1,5 +1,27 @@
 {
  "id": "1133869_2024-12-04",
  "asof": "2024-12-04",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 31020,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-10-16",
+   "net_proceeds_usd": 80800000,
+   "what": "October 2024 underwritten public offering of 5,073,800 shares at $17.00; gross ~$86.3M less ~$5.5M costs",
+   "quote": "total gross proceeds of approximately $86.3 million, before deducting underwriting commissions and other offering expenses payable by Capricor."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 4935621,
+   "exercise_price_usd": 5.7,
+   "expiry": null,
+   "quote": "Each share of common stock offered was sold with a warrant to purchase one share of common stock at an exercise price of $5.70 per share."
+  }
+ ],
+ "warrants_dropped": 0
 }

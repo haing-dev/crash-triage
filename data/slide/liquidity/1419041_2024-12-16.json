@@ -1,5 +1,27 @@
 {
  "id": "1419041_2024-12-16",
  "asof": "2024-12-16",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 20840,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-11-21",
+   "net_proceeds_usd": 53000000,
+   "what": "Private placement of common stock and pre-funded warrants (gross proceeds; net not given; closing expected 2024-11-21, not confirmed in the documents)",
+   "quote": "The gross proceeds of the Private Placement are expected to be approximately $53.0 million, before deducting offering expenses payable by the Company."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 387566,
+   "exercise_price_usd": 0.025,
+   "expiry": null,
+   "quote": "As of September 30, 2024, no pre-funded warrants were exercised and pre-funded warrants to purchase an aggregate of 387,566 shares of common stock remain outstanding."
+  }
+ ],
+ "warrants_dropped": 0
 }

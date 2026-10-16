@@ -1,5 +1,50 @@
 {
  "id": "1374339_2024-07-26",
  "asof": "2024-07-26",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 25396,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 524088,
+   "exercise_price_usd": 12.6,
+   "expiry": null,
+   "quote": "US$12.60\n\n 524,088\n\nAugust 2026"
+  },
+  {
+   "count": 146744,
+   "exercise_price_usd": 9.6,
+   "expiry": null,
+   "quote": "US$9.60\n\n 146,744\n\nAugust 2026"
+  },
+  {
+   "count": 345938,
+   "exercise_price_usd": 7.5,
+   "expiry": null,
+   "quote": "US$7.50\n\n 345,938\n\nApril 2028"
+  },
+  {
+   "count": 69188,
+   "exercise_price_usd": 6.1,
+   "expiry": null,
+   "quote": "US$6.10\n\n 69,188\n\nApril 2028"
+  },
+  {
+   "count": 594724,
+   "exercise_price_usd": 0.01,
+   "expiry": null,
+   "quote": "US$0.01"
+  },
+  {
+   "count": 11227714,
+   "exercise_price_usd": 1.75,
+   "expiry": null,
+   "quote": "US$1.75\n\n 11,227,714\n\nFebruary 2029"
+  }
+ ],
+ "warrants_dropped": 0
 }

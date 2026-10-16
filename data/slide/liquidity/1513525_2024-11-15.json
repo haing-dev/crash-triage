@@ -1,5 +1,20 @@
 {
  "id": "1513525_2024-11-15",
  "asof": "2024-11-15",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 23810,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 4201568,
+   "exercise_price_usd": 8.45,
+   "expiry": null,
+   "quote": "Outstanding September 30, 2024 4,201,568 2.32 $8.45 $0.01"
+  }
+ ],
+ "warrants_dropped": 0
 }

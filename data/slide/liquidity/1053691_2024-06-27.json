@@ -1,5 +1,33 @@
 {
  "id": "1053691_2024-06-27",
  "asof": "2024-06-27",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 23342,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-04-01",
+   "net_proceeds_usd": 50000000,
+   "what": "2024 Private Placement of units (common stock or pre-funded warrants plus Series A Warrants); gross proceeds, as net proceeds are not stated",
+   "quote": "The aggregate upfront gross proceeds from the 2024 Private Placement were approximately $50.0 million, before deducting offering fees and expenses"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 2532285,
+   "exercise_price_usd": 39.24,
+   "expiry": null,
+   "quote": "the Series A warrants to purchase an aggregate of 2,532,285 shares of common stock at a purchase price of $39.24 per share issued in connection with the 2024 Private Placement"
+  },
+  {
+   "count": 43618,
+   "exercise_price_usd": 19.81,
+   "expiry": "2028-04-01",
+   "quote": "Historical EIP common stock warrants"
+  }
+ ],
+ "warrants_dropped": 0
 }

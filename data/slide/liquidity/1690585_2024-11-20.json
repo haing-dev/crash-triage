@@ -1,5 +1,26 @@
 {
  "id": "1690585_2024-11-20",
  "asof": "2024-11-20",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 25411,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 4666332,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "As of September 30, 2024, there were 4,666,332 pre-funded warrants outstanding related to this private placement."
+  },
+  {
+   "count": 210320,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "As of September 30, 2024, there were 210,320 pre-funded warrants outstanding related to this financing."
+  }
+ ],
+ "warrants_dropped": 0
 }

@@ -1,5 +1,33 @@
 {
  "id": "1534248_2024-11-15",
  "asof": "2024-11-15",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 5297,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-07-26",
+   "net_proceeds_usd": 10000000,
+   "what": "July 2024 private placement of ADSs and pre-funded warrants (gross proceeds; net not given; closing date is the expected 'on or about' date)",
+   "quote": "The Company anticipates receiving gross proceeds from the Private Placement of approximately $10.0 million before deducting any offering expenses payable by the Company."
+  },
+  {
+   "date": "2024-09-30",
+   "net_proceeds_usd": 695000,
+   "what": "ATM sales under Roth Capital Sales Agreement during Q3 2024 (gross proceeds; date is the quarter end because no exact date is given)",
+   "quote": "the Company issued 348,554 ADSs at an average price of $1.993 per ADS under its Sales Agreement with Roth Capital Partners, LLC, resulting in gross proceeds of $695 thousand."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 3948300,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "3,948,300 ADSs issuable upon the exercise of pre-funded warrants"
+  }
+ ],
+ "warrants_dropped": 0
 }

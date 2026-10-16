@@ -1,5 +1,20 @@
 {
  "id": "1372514_2024-10-30",
  "asof": "2024-10-30",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 21283,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 11733,
+   "exercise_price_usd": 31.842,
+   "expiry": "2028-02-03",
+   "quote": "warrants to purchase up to 11,733 shares of common stock"
+  }
+ ],
+ "warrants_dropped": 0
 }

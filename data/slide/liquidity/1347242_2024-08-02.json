@@ -1,5 +1,33 @@
 {
  "id": "1347242_2024-08-02",
  "asof": "2024-08-02",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 9517,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-08-02",
+   "net_proceeds_usd": 1000000,
+   "what": "Registered direct offering of common stock and pre-funded warrants (agreed July 31, 2024; closing date not stated in the excerpts, assumed on or before the entry date)",
+   "quote": "We estimate the net proceeds from this offering will be approximately $1.0 million after deducting estimated offering expenses payable by us."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 1315790,
+   "exercise_price_usd": 1.4,
+   "expiry": "2026-10-23",
+   "quote": "common stock purchase warrants (the \u201cWarrants\u201d) to purchase up to 1,315,790 shares of Common Stock, with an exercise price of $1.40 per share"
+  },
+  {
+   "count": 1667000,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "a pre-funded warrant (the \u201cPre-Funded Warrant\u201d) to purchase up to 1,667,000 shares of Common Stock (the \u201cPre-Funded Warrant Shares\u201d)"
+  }
+ ],
+ "warrants_dropped": 0
 }

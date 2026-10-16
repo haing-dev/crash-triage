@@ -1,5 +1,32 @@
 {
  "id": "1534525_2024-08-12",
  "asof": "2024-08-12",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 19564,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 462963,
+   "exercise_price_usd": 33.0,
+   "expiry": "2025-02-23",
+   "quote": "The Series A Warrants are immediately exercisable at a price of $33.00 per share of common stock and expire on February 23, 2025."
+  },
+  {
+   "count": 2100,
+   "exercise_price_usd": 130.0,
+   "expiry": "2024-07-17",
+   "quote": "These warrants have an exercise price of $130.00 per share of common stock and expire on July 17, 2024."
+  },
+  {
+   "count": 800,
+   "exercise_price_usd": 29.09,
+   "expiry": "2026-07-03",
+   "quote": "These warrants have an exercise price of $29.09 per share of common stock and expire on July 3, 2026."
+  }
+ ],
+ "warrants_dropped": 0
 }

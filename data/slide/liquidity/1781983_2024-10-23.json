@@ -1,5 +1,32 @@
 {
  "id": "1781983_2024-10-23",
  "asof": "2024-10-23",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 16922,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 1097394,
+   "exercise_price_usd": 7.29,
+   "expiry": null,
+   "quote": "tranche A common stock purchase warrants to purchase up to 1,097,394 shares of our common stock at an exercise price of $7.29 per share"
+  },
+  {
+   "count": 1097394,
+   "exercise_price_usd": 9.1125,
+   "expiry": null,
+   "quote": "tranche B common stock purchase warrants to purchase up to 1,097,394 shares of our common stock at an exercise price of $9.1125 per share"
+  },
+  {
+   "count": 507076,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "pre-funded common stock purchase warrants at a purchase price of $7.289 to purchase an aggregate of up to 507,076 shares of our common stock at an exercise price of $0.001 per share"
+  }
+ ],
+ "warrants_dropped": 0
 }

@@ -1,5 +1,39 @@
 {
  "id": "886744_2024-12-20",
  "asof": "2024-12-20",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 23820,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-11-01",
+   "net_proceeds_usd": 125000000,
+   "what": "Pharmakon Tranche A term loan drawn (gross; net not given)",
+   "quote": "We drew the Tranche A Loan of $125.0 million on November 1, 2024"
+  },
+  {
+   "date": "2024-11-01",
+   "net_proceeds_usd": 125000000,
+   "what": "Royalty Pharma purchase price received (amount inferred: $250M combined with Pharmakon, less $125M Tranche A)",
+   "quote": "Pursuant to the Royalty Pharma Agreement, we received the Purchase Price in exchange for which Royalty Pharma obtained the right to receive the Revenue Interest Payments."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 2152570,
+   "exercise_price_usd": 1.3,
+   "expiry": null,
+   "quote": "we had warrants remaining from our 2020 issuance covering 2,152,570 shares of our common stock"
+  },
+  {
+   "count": 59433145,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "These pre-funded warrants, which represent an aggregate of 59,433,145 shares of common stock"
+  }
+ ],
+ "warrants_dropped": 0
 }

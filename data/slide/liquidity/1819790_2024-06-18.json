@@ -1,5 +1,38 @@
 {
  "id": "1819790_2024-06-18",
  "asof": "2024-06-18",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 22312,
+ "one_off_receipts": [
+  {
+   "amount_usd": 2500000,
+   "what": "Termination Payment related to the Novation Agreement (China out-license), recognized Q1 2024",
+   "quote": "$2.5 million for the Termination Payment related to the Novation Agreement"
+  },
+  {
+   "amount_usd": 400000,
+   "what": "Warrant Termination Payment from licensee, recognized Q1 2024",
+   "quote": "$0.4 million for the Warrant Termination Payment"
+  }
+ ],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-04-19",
+   "net_proceeds_usd": 39800000,
+   "what": "Pharmakon Credit Facility $75.0M initial term loan, net of repayment of prior Hercules/SVB facility",
+   "quote": "resulting in total net proceeds of $39.8 million"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 312500,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "pre-funded warrants to purchase 312,500 shares of its common stock"
+  }
+ ],
+ "warrants_dropped": 0
 }

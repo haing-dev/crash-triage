@@ -1,5 +1,26 @@
 {
  "id": "1539029_2024-10-24",
  "asof": "2024-10-24",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 18772,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 11111111,
+   "exercise_price_usd": 1.62,
+   "expiry": "2029-08-09",
+   "quote": "The exercise price for the Warrants is $1.62 per share. The Warrants will be exercisable from August 9, 2024 and will expire on August 9, 2029."
+  },
+  {
+   "count": 29796,
+   "exercise_price_usd": 10.74,
+   "expiry": null,
+   "quote": "the Company issued warrants to purchase up to 29,796 shares of common stock at a price per share of $10.74. The warrants expire in September 2026"
+  }
+ ],
+ "warrants_dropped": 0
 }

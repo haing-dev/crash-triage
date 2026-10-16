@@ -1,5 +1,26 @@
 {
  "id": "1818382_2024-08-12",
  "asof": "2024-08-12",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 18777,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 411006,
+   "exercise_price_usd": 10.28,
+   "expiry": null,
+   "quote": "to purchase 411,006 shares of Common Stock at an exercise price of $10.28 per share"
+  },
+  {
+   "count": 5177500,
+   "exercise_price_usd": 11.5,
+   "expiry": null,
+   "quote": "The Common Stock Warrants entitle the holder to purchase one share of Common Stock at an exercise price of $11.50 per share."
+  }
+ ],
+ "warrants_dropped": 0
 }

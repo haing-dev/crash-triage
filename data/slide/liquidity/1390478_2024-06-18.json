@@ -1,5 +1,44 @@
 {
  "id": "1390478_2024-06-18",
  "asof": "2024-06-18",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 21283,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 13029316,
+   "exercise_price_usd": 1.41,
+   "expiry": null,
+   "quote": "exercisable for up to an aggregate of 13,029,316 shares of common stock warrants at an exercise price of $1.41 per share"
+  },
+  {
+   "count": 11940000,
+   "exercise_price_usd": 0.75,
+   "expiry": null,
+   "quote": "January 2024 Offering\u2014 12,000 (60)\u2014 11,940 $0.75 January 2029"
+  },
+  {
+   "count": 3652300,
+   "exercise_price_usd": 0.75,
+   "expiry": "2029-01-08",
+   "quote": "reduce the exercise price of an aggregate of 3,652,300 warrants that were issued in the November 2023 Registered Direct Offering to $0.75"
+  },
+  {
+   "count": 3863851,
+   "exercise_price_usd": 0.75,
+   "expiry": "2029-01-08",
+   "quote": "reduce the exercise price of an aggregate of 3,863,851 warrants that were issued to certain purchasers in an underwritten public offering that closed on April 5, 2022"
+  },
+  {
+   "count": 7201000,
+   "exercise_price_usd": 0.75,
+   "expiry": null,
+   "quote": "February 2023 Offering7,206 \u2014 (5)\u2014 7,201 $0.75 February 2028"
+  }
+ ],
+ "warrants_dropped": 0
 }

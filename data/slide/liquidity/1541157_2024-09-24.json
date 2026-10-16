@@ -1,5 +1,32 @@
 {
  "id": "1541157_2024-09-24",
  "asof": "2024-09-24",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 4271,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 4029754,
+   "exercise_price_usd": null,
+   "expiry": null,
+   "quote": "4,029,754 ADSs issuable upon the exercise of warrants issued pursuant to the May SPA"
+  },
+  {
+   "count": 132061,
+   "exercise_price_usd": null,
+   "expiry": null,
+   "quote": "132,061 ADSs issuable upon the exercise of placement agent warrants issued in connection with the March Private Placement"
+  },
+  {
+   "count": 322380,
+   "exercise_price_usd": null,
+   "expiry": null,
+   "quote": "322,380 ADSs issuable upon the exercise of placement agent warrants issued in connection with the May Private Placement"
+  }
+ ],
+ "warrants_dropped": 0
 }

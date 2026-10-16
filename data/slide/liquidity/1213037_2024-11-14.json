@@ -1,5 +1,27 @@
 {
  "id": "1213037_2024-11-14",
  "asof": "2024-11-14",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 14282,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-11-04",
+   "net_proceeds_usd": 7000000,
+   "what": "ATM sales of 2.4 million common shares under Jefferies sales agreement, Oct 1 - Nov 4, 2024 (gross proceeds; net not given)",
+   "quote": "From October 1, 2024 through November 4, 2024, we raised gross proceeds of $7.0 million from the sale of 2.4 million shares of our Common Stock."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 2807353,
+   "exercise_price_usd": 2.4,
+   "expiry": null,
+   "quote": "Balance outstanding, September 30, 2024"
+  }
+ ],
+ "warrants_dropped": 0
 }

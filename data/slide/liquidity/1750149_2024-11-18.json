@@ -1,5 +1,75 @@
 {
  "id": "1750149_2024-11-18",
  "asof": "2024-11-18",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 27941,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-10-21",
+   "net_proceeds_usd": 110000000,
+   "what": "October 2024 private placement (gross proceeds; net not given)",
+   "quote": "the closing of a private placement of approximately $110 million from the issuance and sale of shares of the Company's common stock and accompanying warrants"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 40139474,
+   "exercise_price_usd": 1.37,
+   "expiry": null,
+   "quote": "Series A-1 Warrants to purchase an aggregate of 40,139,474 shares of common stock with an exercise price of $1.37"
+  },
+  {
+   "count": 73813529,
+   "exercise_price_usd": 1.37,
+   "expiry": null,
+   "quote": "Series B-1 Warrants to purchase an aggregate of 73,813,529 shares of common stock with an exercise price of $1.37"
+  },
+  {
+   "count": 21985000,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "pre-funded warrants (\u201cPre-Funded Warrants\u201d) to purchase up to 21,985,000 shares of common stock with an exercise price of $0.001"
+  },
+  {
+   "count": 957925,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "Pre-Funded Common Warrants to purchase up to 957,925 shares of common stock with an exercise price of $0.0001"
+  },
+  {
+   "count": 1672452,
+   "exercise_price_usd": 1.68,
+   "expiry": null,
+   "quote": "Series A Common Warrants to purchase 1,672,452 shares of common stock with an exercise price of $1.68 per share"
+  },
+  {
+   "count": 1672452,
+   "exercise_price_usd": 1.68,
+   "expiry": null,
+   "quote": "Series B Common Warrants to purchase 1,672,452 shares of common stock with an exercise price of $1.68 per share"
+  },
+  {
+   "count": 1229484,
+   "exercise_price_usd": 1.68,
+   "expiry": null,
+   "quote": "reduce the exercise price of the remaining unexercised portion of such warrants to purchase 1,229,484 shares of common stock to $1.68 per share"
+  },
+  {
+   "count": 708500,
+   "exercise_price_usd": 1.68,
+   "expiry": null,
+   "quote": "Series C Common Warrants to purchase 708,500 shares of the Company's common stock"
+  },
+  {
+   "count": 708500,
+   "exercise_price_usd": 1.68,
+   "expiry": null,
+   "quote": "Series D Common Warrants to purchase 708,500 shares of the Company's common stock"
+  }
+ ],
+ "warrants_dropped": 0
 }

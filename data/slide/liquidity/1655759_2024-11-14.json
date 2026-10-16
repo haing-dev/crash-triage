@@ -1,5 +1,32 @@
 {
  "id": "1655759_2024-11-14",
  "asof": "2024-11-14",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 17841,
+ "one_off_receipts": [
+  {
+   "amount_usd": 20000000,
+   "what": "Sale of AR-V7 to Novartis under the Novartis Asset Agreement (April 2024)",
+   "quote": "April 2024: sale of AR-V7 to Novartis under the Novartis Asset Agreement for $20.0 million."
+  }
+ ],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [
+  {
+   "amount_usd": 41500000,
+   "what": "One-time cash termination fee for termination of laboratory and office lease with 101 College Street LLC (August 2024)",
+   "quote": "a one-time cash termination fee in the amount of $41.5 million related to the termination of our laboratory and office space lease with 101 College Street LLC in August 2024"
+  }
+ ],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 3422380,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "pre-funded warrants issued in November 2023 which allow holders to acquire up 3,422,380 shares of common stock at a nominal exercise price of $0.001 per share"
+  }
+ ],
+ "warrants_dropped": 0
 }
