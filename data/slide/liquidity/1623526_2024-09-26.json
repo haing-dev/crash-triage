@@ -1,5 +1,27 @@
 {
  "id": "1623526_2024-09-26",
  "asof": "2024-09-26",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 21295,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-09-26",
+   "net_proceeds_usd": 4000000,
+   "what": "ATM sales under Sales Agreement after June 30, 2024 (about 0.3 million shares); exact sale dates not given, so the entry date is used",
+   "quote": "Since June 30, 2024, through the date of the issuance of these consolidated financial statements, the Company sold 0.3 million shares of our common stock and received $4.0 million after deducting commissions related to the Sales Agreement."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 3703730,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "issued pre-funded warrants to purchase 3,703,730 shares of common stock at a public offering price of $13.499 per share subject to an exercise price equal to $0.0001."
+  }
+ ],
+ "warrants_dropped": 0
 }

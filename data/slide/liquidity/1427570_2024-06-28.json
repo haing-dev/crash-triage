@@ -1,5 +1,20 @@
 {
  "id": "1427570_2024-06-28",
  "asof": "2024-06-28",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 21287,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 2199375,
+   "exercise_price_usd": 8.0,
+   "expiry": "2028-02-08",
+   "quote": "There were 2,199,375 common stock purchase warrants issued with an alternative cashless exercise provision."
+  }
+ ],
+ "warrants_dropped": 0
 }

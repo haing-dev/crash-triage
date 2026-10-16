@@ -1,5 +1,38 @@
 {
  "id": "1403708_2024-08-20",
  "asof": "2024-08-20",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 18771,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 665046,
+   "exercise_price_usd": 0.0012,
+   "expiry": null,
+   "quote": "The 665,046 shares of the Company's common stock underlying the Pre-Funded Warrants described in Note 3 - Stockholders\u2019 Equity"
+  },
+  {
+   "count": 919107,
+   "exercise_price_usd": 8.16,
+   "expiry": "2029-02-13",
+   "quote": "The Series A Warrants will expire on February 13, 2029, which is five years from the date of issuance."
+  },
+  {
+   "count": 716886,
+   "exercise_price_usd": 8.16,
+   "expiry": "2024-11-13",
+   "quote": "The Series B Warrants will expire on November 13, 2024, which is nine months from the date of issuance."
+  },
+  {
+   "count": 919107,
+   "exercise_price_usd": 8.16,
+   "expiry": "2024-11-13",
+   "quote": "The Series C Warrants will also expire on November 13, 2024"
+  }
+ ],
+ "warrants_dropped": 0
 }

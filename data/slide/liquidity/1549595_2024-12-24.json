@@ -1,5 +1,33 @@
 {
  "id": "1549595_2024-12-24",
  "asof": "2024-12-24",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 23351,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-10-31",
+   "net_proceeds_usd": 78400000,
+   "what": "October 2024 ATM sales under Amended Equity Distribution Agreement (exact sale date not given; 2024-10-31 is the 424B5 filing date)",
+   "quote": "In October 2024, we issued and sold 3,711,770 shares of common stock under the Amended Equity Distribution Agreement at $21.50 per share for total net proceeds of $78.4 million"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 6097560,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "As of August 31, 2024, a total of 6,097,560 of the 2022 Pre-Funded Warrants remained available for exercise."
+  },
+  {
+   "count": 1480349,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "As of August 31, 2024, all of the 2024 Pre-Funded Warrants remained available for exercise."
+  }
+ ],
+ "warrants_dropped": 0
 }

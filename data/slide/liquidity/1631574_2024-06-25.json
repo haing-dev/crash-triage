@@ -1,5 +1,20 @@
 {
  "id": "1631574_2024-06-25",
  "asof": "2024-06-25",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 18514,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 7093656,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "there are 7,093,656 vested and exercisable pre-funded warrants (\u201cPre-Funded Warrants\u201d) outstanding to purchase ordinary shares for the exercise price of $0.0001 per share"
+  }
+ ],
+ "warrants_dropped": 0
 }

@@ -1,5 +1,39 @@
 {
  "id": "1708527_2024-08-01",
  "asof": "2024-08-01",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 22869,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-06-18",
+   "net_proceeds_usd": 11760000,
+   "what": "Registered direct offering of Class A shares and prefunded warrants (closed June 18, 2024)",
+   "quote": "We estimate the net proceeds from this offering will be approximately $11.76 million, after deducting placement agency fees and estimated offering expenses payable by us"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 187969,
+   "exercise_price_usd": 6.65,
+   "expiry": null,
+   "quote": "to purchase, in the aggregate, up to 187,969 shares of Class A common stock of the Company, $0.001 par value per share at an exercise price of $6.65 per share"
+  },
+  {
+   "count": 11033803,
+   "exercise_price_usd": 1.4275,
+   "expiry": null,
+   "quote": "Each Common Warrant is exercisable at any time until the earlier of (a) 30 trading days after the clearance by the FDA of our CanGarooRM antibiotic-eluting biologic envelope or (b) five years from the date of the offering, at an exercise price per share of $1.4275."
+  },
+  {
+   "count": 725000,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "to purchase up to an aggregate of 725,000 shares of Class A Common Stock (the \u201cPrefunded Warrant Shares\u201d)"
+  }
+ ],
+ "warrants_dropped": 0
 }

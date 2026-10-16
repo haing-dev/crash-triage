@@ -1,5 +1,27 @@
 {
  "id": "1736243_2024-08-23",
  "asof": "2024-08-23",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 21295,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-08-07",
+   "net_proceeds_usd": 600000,
+   "what": "ATM Program sales of 236,431 shares after June 30, 2024, through August 7, 2024",
+   "quote": "the Company sold 236,431 shares of its common stock subsequent to June 30, 2024 pursuant to the Sales Agreement at an average price of $2.57 for aggregate net proceeds of approximately $0.6 million as of August 7, 2024"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 150000,
+   "exercise_price_usd": 7.5,
+   "expiry": "2026-06-21",
+   "quote": "In connection with the IPO, the Company issued 150,000 warrants to the underwriter. Each warrant is exercisable for 4.5 years from December 21, 2021 at an exercise price of $7.50 per share."
+  }
+ ],
+ "warrants_dropped": 0
 }

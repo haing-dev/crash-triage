@@ -1,5 +1,32 @@
 {
  "id": "1348362_2024-10-17",
  "asof": "2024-10-17",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 27006,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 2917032,
+   "exercise_price_usd": 4.75,
+   "expiry": "2029-02-16",
+   "quote": "The Warrant will become exercisable commencing at any time on or after April 30, 2024, with an expiration date of February 16, 2029, with an exercise price per share equal to $4.75."
+  },
+  {
+   "count": 102097,
+   "exercise_price_usd": 5.9375,
+   "expiry": "2029-02-16",
+   "quote": "The Tail Warrants are exercisable until February 16, 2029, at an exercise price of $5.9375."
+  },
+  {
+   "count": 54546,
+   "exercise_price_usd": 2.8875,
+   "expiry": null,
+   "quote": "The Company also agreed to partially compensate the placement agent through the issuance of warrants to purchase up to 54,546 shares of common stock."
+  }
+ ],
+ "warrants_dropped": 0
 }

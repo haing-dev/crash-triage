@@ -1,5 +1,26 @@
 {
  "id": "1444192_2024-08-09",
  "asof": "2024-08-09",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 20830,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 2536391,
+   "exercise_price_usd": 3.003,
+   "expiry": null,
+   "quote": "At June 30, 2024, the Company had outstanding Common Warrants to purchase 2,536,391 Common Shares, with an exercise price of $3.003, all of which were classified as derivative warrant liability."
+  },
+  {
+   "count": 1366419,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "At June 30, 2024, the Company had outstanding Pre-funded Warrants to purchase 1,366,419 Common Shares, with an exercise price of $0.0001, all of which were classified within shareholders' equity."
+  }
+ ],
+ "warrants_dropped": 0
 }

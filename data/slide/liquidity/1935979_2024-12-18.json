@@ -1,5 +1,27 @@
 {
  "id": "1935979_2024-12-18",
  "asof": "2024-12-18",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 20944,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-10-02",
+   "net_proceeds_usd": 269900000,
+   "what": "Underwritten public offering of 6,052,631 common shares at $47.50, closed October 2, 2024",
+   "quote": "On October 2, 2024, we closed an underwritten public offering of 6,052,631 of our common shares, which included the exercise in full of the underwriters' option to purchase additional shares, at a price of $47.50 per share."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 294195,
+   "exercise_price_usd": 67.98,
+   "expiry": null,
+   "quote": "we issued to Knopp a warrant to purchase 294,195 of the Company's common shares with a purchase price of $67.98, subject to certain specified development milestones"
+  }
+ ],
+ "warrants_dropped": 0
 }

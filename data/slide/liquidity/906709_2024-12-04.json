@@ -1,5 +1,20 @@
 {
  "id": "906709_2024-12-04",
  "asof": "2024-12-04",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 17599,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 25000000,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "The pre-funded warrant has an exercise price of $0.0001 per share and may be exercised at any time after the original issuance date."
+  }
+ ],
+ "warrants_dropped": 0
 }

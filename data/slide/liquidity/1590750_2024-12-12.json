@@ -1,5 +1,38 @@
 {
  "id": "1590750_2024-12-12",
  "asof": "2024-12-12",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 21277,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 781,
+   "exercise_price_usd": 127.95,
+   "expiry": null,
+   "quote": "Issued April 2017781781 $127.950.58"
+  },
+  {
+   "count": 29446,
+   "exercise_price_usd": 0.02,
+   "expiry": null,
+   "quote": "Acquired October 202029,44629,446 $0.025.98"
+  },
+  {
+   "count": 218050,
+   "exercise_price_usd": 14.44,
+   "expiry": null,
+   "quote": "Issued February 2020 (2)218,050218,050 $14.440.37"
+  },
+  {
+   "count": 1606,
+   "exercise_price_usd": 0.69,
+   "expiry": null,
+   "quote": "Issued November 20171,6061,606 $0.690.12"
+  }
+ ],
+ "warrants_dropped": 0
 }

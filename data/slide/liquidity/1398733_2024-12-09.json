@@ -1,5 +1,20 @@
 {
  "id": "1398733_2024-12-09",
  "asof": "2024-12-09",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 21301,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 2750000,
+   "exercise_price_usd": 2.6,
+   "expiry": "2029-02-02",
+   "quote": "The New Warrants are exercisable after February 2, 2024, expire on February 2, 2029 and are exercisable only for cash"
+  }
+ ],
+ "warrants_dropped": 0
 }

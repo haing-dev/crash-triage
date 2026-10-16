@@ -1,5 +1,45 @@
 {
  "id": "1497253_2024-06-12",
  "asof": "2024-06-12",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 28492,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [
+  {
+   "amount_usd": 2000000,
+   "what": "Cash payment for acquired IPR&D, included in operating cash flow (fiscal 2024; exact timing within the year not stated)",
+   "quote": "attributable primarily to the $2.0 million cash payment in fiscal 2024 for acquired IPR&D"
+  }
+ ],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-05-13",
+   "net_proceeds_usd": 4700000,
+   "what": "Best efforts public offering of common stock, pre-funded warrants and common warrants, closed May 13, 2024",
+   "quote": "The closing of the Offering occurred on May 13, 2024. The Company received net proceeds of approximately $4.7 million from the Offering"
+  },
+  {
+   "date": "2024-05-29",
+   "net_proceeds_usd": 1800000,
+   "what": "ATM sales from April 1, 2024 to the 10-K filing date (the filing date is not given, so 2024-05-29, the latest date in the documents, is used)",
+   "quote": "between April 1, 2024 and the date of the filing of this Annual Report on Form 10-K, the Company issued 1,389,002 shares of common stock in ATM offerings under the 2024 ATM Prospectus for net proceeds of approximately $1.8 million."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 6562500,
+   "exercise_price_usd": 0.8,
+   "expiry": "2029-05-13",
+   "quote": "The per share exercise price for the Common Warrants is $0.80, subject to adjustment as provided therein."
+  },
+  {
+   "count": 5000000,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "The per share exercise price for the Pre-Funded Warrants is $0.001, subject to adjustment as provided therein."
+  }
+ ],
+ "warrants_dropped": 0
 }

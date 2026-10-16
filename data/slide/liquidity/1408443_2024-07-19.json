@@ -1,5 +1,26 @@
 {
  "id": "1408443_2024-07-19",
  "asof": "2024-07-19",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 18766,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 3333333,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "in lieu of common shares to certain investors, pre-funded warrants to purchase 3,333,333 Shares at a public offering price of $1.499 per pre-funded warrant."
+  },
+  {
+   "count": 1059000,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "for pre-funded warrants, or the Exchange Warrants, to purchase an aggregate of 1,059,000 common shares, with an exercise price of $0.001 per share and no expiration date."
+  }
+ ],
+ "warrants_dropped": 0
 }

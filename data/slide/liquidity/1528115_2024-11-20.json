@@ -1,5 +1,33 @@
 {
  "id": "1528115_2024-11-20",
  "asof": "2024-11-20",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 18772,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-11-11",
+   "net_proceeds_usd": 4500000,
+   "what": "Sales of 750,000 shares under the 2024 ATM program after September 30, 2024, through the date of issuance of the financial statements",
+   "quote": "we sold 750,000 shares of common stock under the 2024 ATM for net proceeds of approximately $4.5 million, after deducting commissions paid to TD Cowen"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 8104615,
+   "exercise_price_usd": 5.806875,
+   "expiry": "2025-06-30",
+   "quote": "The common warrants have an exercise price of $5.806875 per share and expire on June 30, 2025."
+  },
+  {
+   "count": 41283052,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "41,283,052 shares of Common Stock issuable upon the exercise of pre-funded warrants (which are immediately exercisable at an exercise price of $0.001 per share of Common Stock"
+  }
+ ],
+ "warrants_dropped": 0
 }

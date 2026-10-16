@@ -1,5 +1,39 @@
 {
  "id": "1267565_2024-11-18",
  "asof": "2024-11-18",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 15997,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [
+  {
+   "amount_usd": 28400000,
+   "what": "Cash settlement of Ironshore cash-settled share-based awards liabilities assumed in acquisition",
+   "quote": "$28.4 million of Ironshore\u2019s cash-settled share-based awards liabilities"
+  },
+  {
+   "amount_usd": 9000000,
+   "what": "Cash settlement of Ironshore cash-settled warrant liabilities assumed in acquisition",
+   "quote": "$9.0 million of Ironshore cash-settled warrant liabilities"
+  },
+  {
+   "amount_usd": 7600000,
+   "what": "Ironshore acquisition transaction costs paid",
+   "quote": "$7.6 million in transaction costs"
+  },
+  {
+   "amount_usd": 6700000,
+   "what": "Ironshore acquisition-related employee expenses paid",
+   "quote": "$6.7 million in employee-related expenses"
+  },
+  {
+   "amount_usd": 1100000,
+   "what": "Ironshore directors and officers insurance expense paid in acquisition",
+   "quote": "$1.1 million in Ironshore directors and officers insurance expense"
+  }
+ ],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [],
+ "warrants_dropped": 0
 }

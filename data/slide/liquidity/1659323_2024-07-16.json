@@ -1,5 +1,44 @@
 {
  "id": "1659323_2024-07-16",
  "asof": "2024-07-16",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 18778,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 1326,
+   "exercise_price_usd": 282.75,
+   "expiry": "2028-04-27",
+   "quote": "warrants to purchase 1,326 ordinary shares upon the Company\u2019s initial public offering (IPO)) at an exercise price of $282.75 per share. These warrants will expire on April 27, 2028."
+  },
+  {
+   "count": 99057,
+   "exercise_price_usd": 24.3,
+   "expiry": "2025-12-05",
+   "quote": "warrants to purchase up to 99,057 ordinary shares. Upon closing, the warrants became exercisable immediately at an exercise price of $24.30 per ordinary share, subject to adjustment in certain circumstances, and will expire on December 5, 2025."
+  },
+  {
+   "count": 13868,
+   "exercise_price_usd": 31.5465,
+   "expiry": "2025-06-03",
+   "quote": "Upon closing, the warrants issued to such designees became exercisable immediately at an exercise price of $31.5465 per ordinary share, and will expire on June 3, 2025."
+  },
+  {
+   "count": 28105,
+   "exercise_price_usd": 21.3,
+   "expiry": "2026-01-02",
+   "quote": "warrants issued in connection with the June 30, 2020 Offering had been exercised for 84,317 ordinary shares"
+  },
+  {
+   "count": 15739,
+   "exercise_price_usd": 27.7965,
+   "expiry": "2025-06-30",
+   "quote": "Upon closing, the warrants issued to such designees became exercisable immediately at an exercise price of $27.7965 per ordinary share, and will expire on June 30, 2025."
+  }
+ ],
+ "warrants_dropped": 0
 }

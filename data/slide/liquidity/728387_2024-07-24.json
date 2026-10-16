@@ -1,5 +1,45 @@
 {
  "id": "728387_2024-07-24",
  "asof": "2024-07-24",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 26441,
+ "one_off_receipts": [
+  {
+   "amount_usd": 28000000,
+   "what": "Amounts received pursuant to the Option Agreement in Q1 2024",
+   "quote": "primarily due to amounts received pursuant to the Option Agreement of $28.0 million"
+  }
+ ],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-04-11",
+   "net_proceeds_usd": 49500000,
+   "what": "ATM sales of common stock (gross proceeds; net not given)",
+   "quote": "On April 11, 2024, we sold 35,352,461 shares of our common stock under the ATM Agreement at an average price of approximately $1.40 per common share, resulting in gross proceeds of approximately $49.5 million."
+  },
+  {
+   "date": "2024-05-29",
+   "net_proceeds_usd": 80000000,
+   "what": "Public offering of shares and pre-funded warrants closed May 29, 2024 (gross proceeds; net not given)",
+   "quote": "The gross proceeds to the Company from the Offering were approximately $80 million, before underwriting discounts and commissions and estimated expenses of the Offering."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 3387093,
+   "exercise_price_usd": 0.27,
+   "expiry": null,
+   "quote": "the Company assumed 3,387,093 warrants to purchase shares of common stock with an exercise price of $0.27 per share"
+  },
+  {
+   "count": 30086944,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "pre-funded warrants (Pre-funded Warrants) to purchase 30,086,944 shares of Common Stock"
+  }
+ ],
+ "warrants_dropped": 0
 }

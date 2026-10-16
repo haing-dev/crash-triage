@@ -1,5 +1,57 @@
 {
  "id": "1874252_2024-12-16",
  "asof": "2024-12-16",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 18494,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2022-01-31",
+   "net_proceeds_usd": 382500,
+   "what": "Warrant exercises after year end 2021 (202,943 shares); exact date within January 2022 not given",
+   "quote": "Subsequent to year end 202,943 shares were issued from the exercise of warrants. Net proceeds received from these exercises was $382,500."
+  },
+  {
+   "date": "2022-01-28",
+   "net_proceeds_usd": 25875000,
+   "what": "Follow-on public offering of 1,725,000 ordinary shares (gross proceeds; net not given)",
+   "quote": "On January 28, 2022, we conducted a follow-on public offering in which we sold 1,725,000 ordinary shares for gross proceeds of $25,875,000."
+  },
+  {
+   "date": "2023-09-26",
+   "net_proceeds_usd": 5060000,
+   "what": "Promissory note (Pre-Paid Advance) net proceeds received",
+   "quote": "we received net proceeds of $5,060,000 from the sale of a Promissory Note on September 26, 2023"
+  },
+  {
+   "date": "2023-11-15",
+   "net_proceeds_usd": 4500000,
+   "what": "Registered direct offering of shares/pre-funded warrants and common warrants (closing date not stated; date approximated from 6-K filing date)",
+   "quote": "Net proceeds from the offering will be approximately $4.5 million, after deducting placement agent fees and expenses and estimated offering expenses payable by us."
+  },
+  {
+   "date": "2024-12-16",
+   "net_proceeds_usd": 7440000,
+   "what": "Follow-on offering of units with Class A/B warrants, closed Dec 16, 2024 (proceeds to company before expenses)",
+   "quote": "Proceeds to us, before expenses(2) $5.44 $5.44 $7,440,000"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 4166667,
+   "exercise_price_usd": 1.2,
+   "expiry": null,
+   "quote": "Each Common Warrant has an exercise price of $1.20 per share, will be immediately exercisable and will have a term of exercise equal to 5 years from the initial exercise date."
+  },
+  {
+   "count": 1147356,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "(ii) 1,147,356 pre-funded units with each pre-funded unit consisting of one pre-funded warrant to purchase one ordinary share, one Class A Warrant, and one Class B Warrant"
+  }
+ ],
+ "warrants_dropped": 0
 }

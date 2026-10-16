@@ -1,5 +1,51 @@
 {
  "id": "1158780_2024-06-06",
  "asof": "2024-06-06",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 18784,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-05-09",
+   "net_proceeds_usd": 253383,
+   "what": "ATM sales under A.G.P. Sales Agreement (gross, 42,729 shares x $5.93; net not given)",
+   "quote": "As of May 9, 2024, we have sold an aggregate of 42,729 common shares pursuant to the Sales Agreement at an average price of $5.93 per share."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 697486,
+   "exercise_price_usd": 8.24,
+   "expiry": null,
+   "quote": "with an exercise price of $8.24 per share and a term of three years"
+  },
+  {
+   "count": 258565,
+   "exercise_price_usd": 8.4,
+   "expiry": null,
+   "quote": "an exercise price of $8.40 per share and a term of three years"
+  },
+  {
+   "count": 29688,
+   "exercise_price_usd": 8.48,
+   "expiry": null,
+   "quote": "price of $8.48 per share and a term of three years"
+  },
+  {
+   "count": 16875,
+   "exercise_price_usd": 8.72,
+   "expiry": null,
+   "quote": "up to 16,875 common shares and Warrants to purchase up to 16,875 common shares, with an exercise price of $8.72"
+  },
+  {
+   "count": 16875,
+   "exercise_price_usd": 8.96,
+   "expiry": null,
+   "quote": "up to 16,875 common shares and Warrants to purchase up to 16,875 common shares, with an exercise price of $8.96 per share"
+  }
+ ],
+ "warrants_dropped": 0
 }

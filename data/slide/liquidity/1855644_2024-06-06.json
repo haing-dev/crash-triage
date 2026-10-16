@@ -1,5 +1,45 @@
 {
  "id": "1855644_2024-06-06",
  "asof": "2024-06-06",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 25423,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-04-22",
+   "net_proceeds_usd": 112500000,
+   "what": "April 2024 Private Placement of Class A shares and pre-funded warrants (gross; net not given)",
+   "quote": "The April 2024 Private Placement closed on April 22, 2024, from which the Company received total gross proceeds of approximately $112.5 million"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 6899996,
+   "exercise_price_usd": 11.5,
+   "expiry": null,
+   "quote": "assumed 5,910,000 private placement warrants to purchase Class A that were held by JATT and 6,899,996 public warrants to purchase Class A Ordinary Shares"
+  },
+  {
+   "count": 5910000,
+   "exercise_price_usd": 11.5,
+   "expiry": null,
+   "quote": "assumed 5,910,000 private placement warrants to purchase Class A that were held by JATT and 6,899,996 public warrants to purchase Class A Ordinary Shares"
+  },
+  {
+   "count": 3782000,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "Pre-Funded Warrants to purchase up to 3,782,000 Class A Ordinary Shares at a price of $4.249 per Pre-Funded Warrant"
+  },
+  {
+   "count": 16102348,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "pre-funded warrants (the \u201c2024 Pre-Funded Warrants\u201d) to purchase up to 16,102,348 Class A Ordinary Shares"
+  }
+ ],
+ "warrants_dropped": 0
 }

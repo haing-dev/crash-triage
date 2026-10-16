@@ -1,5 +1,26 @@
 {
  "id": "1359931_2024-11-14",
  "asof": "2024-11-14",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 21271,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 10843380,
+   "exercise_price_usd": 5.25,
+   "expiry": "2027-04-10",
+   "quote": "Common Warrants to purchase an aggregate of up to 10,843,380 shares of common stock at a price of $5.25."
+  },
+  {
+   "count": 1700000,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "The Pre-Funded Warrants are exercisable at any time after April 10, 2024, at an exercise price of $0.001 per share."
+  }
+ ],
+ "warrants_dropped": 0
 }

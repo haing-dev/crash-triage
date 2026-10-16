@@ -1,5 +1,44 @@
 {
  "id": "946486_2024-07-30",
  "asof": "2024-07-30",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 28739,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [
+  {
+   "amount_usd": 100000,
+   "what": "Cash paid to Deerfield on Jan 24, 2024 to terminate its milestone payment rights (Exchange and Termination Agreement)",
+   "quote": "$0.1 million of which was paid on January 24, 2024"
+  }
+ ],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-04-02",
+   "net_proceeds_usd": 1500000,
+   "what": "Senior convertible notes, gross proceeds (net not given)",
+   "quote": "the Company agreed to sell senior convertible notes in an aggregate principal amount of $1.5 million (the \u201cNotes\u201d) for $1.5 million of gross proceeds"
+  },
+  {
+   "date": "2024-06-28",
+   "net_proceeds_usd": 350000,
+   "what": "Senior secured bridge notes issued June 25 and June 28, gross proceeds (net not given)",
+   "quote": "for aggregate gross proceeds of $350,000, each in a private offering in reliance on exemption from registration provided in Section 4(a)(2) of the Securities Act of 1933"
+  },
+  {
+   "date": "2024-07-03",
+   "net_proceeds_usd": 200000,
+   "what": "Senior secured and unsecured notes due 2025, gross proceeds (net not given)",
+   "quote": "for aggregate gross proceeds of $200,000, each in a private offering in reliance on exemption from registration provided in Section 4(a)(2) of the Securities Act of 1933, as amended."
+  },
+  {
+   "date": "2024-07-19",
+   "net_proceeds_usd": 3400000,
+   "what": "Series C preferred and warrants private placement; cash portion of $12.9M gross after $9.5M paid by cancellation of debt/securities (net not given)",
+   "quote": "for aggregate gross proceeds of approximately $12.9 million, of which $9.5 million was paid through the cancellation and extinguishment"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [],
+ "warrants_dropped": 0
 }

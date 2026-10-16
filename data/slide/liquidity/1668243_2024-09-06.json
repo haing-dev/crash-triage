@@ -1,5 +1,33 @@
 {
  "id": "1668243_2024-09-06",
  "asof": "2024-09-06",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 21295,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-07-18",
+   "net_proceeds_usd": 16100000,
+   "what": "Closing of underwriters' option for 921,428 additional shares in the public offering (gross proceeds; net not stated)",
+   "quote": "which resulted in additional gross proceeds of $16.1 million before deducting underwriting discounts and commissions"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 5278776,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "5,278,776 of pre-funded warrants to purchase ordinary shares of the Company at a purchase price of $9.54 per Share or $9.539 for each ordinary share underlying a pre-funded warrant"
+  },
+  {
+   "count": 1142857,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "pre-funded warrants to purchase 1,142,857 ordinary shares of the Company for $17.499 per pre-funded warrant"
+  }
+ ],
+ "warrants_dropped": 0
 }

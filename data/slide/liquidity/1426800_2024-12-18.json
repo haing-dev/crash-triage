@@ -1,5 +1,26 @@
 {
  "id": "1426800_2024-12-18",
  "asof": "2024-12-18",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 21863,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 634500,
+   "exercise_price_usd": 17.0,
+   "expiry": "2029-06-18",
+   "quote": "The warrants sold to both parties have an exercise price equal to $17.00 per share, became immediately exercisable on the date of issuance and expire on June 18, 2029."
+  },
+  {
+   "count": 179500,
+   "exercise_price_usd": 17.0,
+   "expiry": "2029-06-18",
+   "quote": "The warrants sold to both parties have an exercise price equal to $17.00 per share, became immediately exercisable on the date of issuance and expire on June 18, 2029."
+  }
+ ],
+ "warrants_dropped": 0
 }

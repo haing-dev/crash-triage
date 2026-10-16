@@ -1,5 +1,20 @@
 {
  "id": "1496323_2024-11-12",
  "asof": "2024-11-12",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 18772,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 1334332,
+   "exercise_price_usd": 0.01,
+   "expiry": null,
+   "quote": "the Company issued pre-funded warrants to purchase up to 1,334,332 shares of common stock in an underwritten public offering at the offering price of the common stock, less the $0.01 per share exercise price"
+  }
+ ],
+ "warrants_dropped": 0
 }

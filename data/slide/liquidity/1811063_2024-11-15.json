@@ -1,5 +1,26 @@
 {
  "id": "1811063_2024-11-15",
  "asof": "2024-11-15",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 4729,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 5787472,
+   "exercise_price_usd": 11.5,
+   "expiry": null,
+   "quote": "Following the Merger, there were 5,787,472 warrants to purchase Common Stock outstanding, consisting of 4,791,639 Public Warrants, 162,500 Private Placement Warrants and 833,333 Forward Purchase Warrants."
+  },
+  {
+   "count": 2893720,
+   "exercise_price_usd": 11.5,
+   "expiry": null,
+   "quote": "the Company issued warrants collectively exercisable for approximately 2,893,720 shares of the Company\u2019s Class A Common Stock at an exercise price of $11.50 per share (the \u201cConsideration Warrants\u201d)."
+  }
+ ],
+ "warrants_dropped": 0
 }

@@ -1,5 +1,32 @@
 {
  "id": "1937993_2024-08-28",
  "asof": "2024-08-28",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 21295,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 84000,
+   "exercise_price_usd": 6.0,
+   "expiry": null,
+   "quote": "The Representative\u2019s Warrant has an exercise price of $6.00, which was equal to 120% of the public offering price of the common stock in the IPO."
+  },
+  {
+   "count": 4285715,
+   "exercise_price_usd": 1.75,
+   "expiry": "2029-01-16",
+   "quote": "Each Common Warrant has an exercise price equal to $1.75 per share. The Common Warrants are exercisable at any time after their original issuance and will expire on January 16, 2029."
+  },
+  {
+   "count": 278571,
+   "exercise_price_usd": 2.1875,
+   "expiry": null,
+   "quote": "Placement Agent Warrants to purchase up to 278,571 shares of common stock at an exercise price of $2.1875."
+  }
+ ],
+ "warrants_dropped": 0
 }

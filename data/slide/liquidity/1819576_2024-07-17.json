@@ -1,5 +1,32 @@
 {
  "id": "1819576_2024-07-17",
  "asof": "2024-07-17",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 17841,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 250000,
+   "exercise_price_usd": 5.14,
+   "expiry": "2032-01-06",
+   "quote": "Outstanding warrants consisted of the following as of March 31, 2024:"
+  },
+  {
+   "count": 100000,
+   "exercise_price_usd": 3.05,
+   "expiry": "2031-02-26",
+   "quote": "Outstanding warrants consisted of the following as of March 31, 2024:"
+  },
+  {
+   "count": 64624,
+   "exercise_price_usd": 0.02,
+   "expiry": "2026-12-31",
+   "quote": "Certain common stock warrants are included in the calculation of basic and diluted net loss per share since their exercise price is de minimis."
+  }
+ ],
+ "warrants_dropped": 0
 }

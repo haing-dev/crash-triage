@@ -1,5 +1,63 @@
 {
  "id": "1580063_2024-10-09",
  "asof": "2024-10-09",
- "error": "You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "chars": 24378,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-08-01",
+   "net_proceeds_usd": 400000,
+   "what": "ATM sales under Equity Distribution Agreement, July 1 to Aug 1, 2024",
+   "quote": "From July 1, 2024 through August 1, 2024, the Company received net proceeds of $0.4 million, after deducting commissions and other offering expenses, from the sale of 525,853 shares under the Sale Agreement."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 16634507,
+   "exercise_price_usd": 3.01,
+   "expiry": "2026-09-18",
+   "quote": "warrants to purchase up to 16,634,507 shares of common stock at an exercise price of $3.01 per share. The warrants are exercisable on or after September 18, 2023 until September 18, 2026"
+  },
+  {
+   "count": 7399226,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "7,399,226 pre-funded warrants at an exercise price of $0.001 per share"
+  },
+  {
+   "count": 5039236,
+   "exercise_price_usd": 5.5,
+   "expiry": "2028-12-19",
+   "quote": "The Exchange Warrants have an exercise price of $5.50 per share, are exercisable any time on or after December 19, 2023 and expire on December 19, 2028"
+  },
+  {
+   "count": 7352941,
+   "exercise_price_usd": 1.36,
+   "expiry": "2028-12-19",
+   "quote": "the Commitment Warrants have an exercise price of $1.36 per share, are exercisable at any time on or after June 19, 2024 and expire on December 19, 2028"
+  },
+  {
+   "count": 5084613,
+   "exercise_price_usd": 5.0,
+   "expiry": "2028-12-19",
+   "quote": "the Additional Warrants have an exercise price of $5.00 per share, are exercisable any time on or after December 19, 2023 and expire on December 19, 2028"
+  },
+  {
+   "count": 2322059,
+   "exercise_price_usd": 1.1,
+   "expiry": "2029-06-05",
+   "quote": "2,322,059 of the December 2023 Warrants were amended to (i) lower the exercise price to $1.10 per share"
+  },
+  {
+   "count": 1249999,
+   "exercise_price_usd": 0.63,
+   "expiry": "2028-07-03",
+   "quote": "the Company issued to the holders 1,249,999 warrants to purchase shares of common stock (the \u201cForbearance Warrants\u201d). The Forbearance Warrants have an exercise price of $0.63 per share"
+  }
+ ],
+ "warrants_dropped": 0
 }
