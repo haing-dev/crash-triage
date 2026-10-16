@@ -1,0 +1,26 @@
+{
+ "id": "1494650_2023-05-22",
+ "asof": "2023-05-22",
+ "chars": 16003,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 2500000,
+   "exercise_price_usd": 1.6,
+   "expiry": "2024-11-15",
+   "quote": "2,500,000Equity$1.60November 15, 2024"
+  },
+  {
+   "count": 30268000,
+   "exercise_price_usd": 2.565,
+   "expiry": "2027-11-23",
+   "quote": "30,268,000Liability$2.565November 23, 2027"
+  }
+ ],
+ "warrants_dropped": 0
+}
