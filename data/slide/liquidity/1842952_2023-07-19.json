@@ -1,0 +1,32 @@
+{
+ "id": "1842952_2023-07-19",
+ "asof": "2023-07-19",
+ "chars": 16928,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 250000,
+   "exercise_price_usd": 6.25,
+   "expiry": null,
+   "quote": "Issued in connection with 2021 IPO250,000$6.25October 2026"
+  },
+  {
+   "count": 5250000,
+   "exercise_price_usd": 6.25,
+   "expiry": null,
+   "quote": "Issued in connection with 2021 private placement5,250,000$6.25June 2027"
+  },
+  {
+   "count": 360000,
+   "exercise_price_usd": 10.0,
+   "expiry": "2027-12-31",
+   "quote": "Issued in 2022 for consulting services360,000$10.00December 2027"
+  }
+ ],
+ "warrants_dropped": 0
+}

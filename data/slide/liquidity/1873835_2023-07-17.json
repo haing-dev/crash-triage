@@ -1,0 +1,33 @@
+{
+ "id": "1873835_2023-07-17",
+ "asof": "2023-07-17",
+ "chars": 10339,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2023-07-17",
+   "net_proceeds_usd": 2507928,
+   "what": "ATM Facility sales of 1,084,281 shares after March 31, 2023 (exact sale dates not given; dated at entry date)",
+   "quote": "Subsequent to March 31, 2023, the Company sold a total of 1,084,281 shares of its common stock under the ATM Facility for aggregate net proceeds of $2,507,928."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 156000,
+   "exercise_price_usd": 0.8,
+   "expiry": null,
+   "quote": "$0.80 \n 156,000 \n $0.80 \n 7.99 \n 156,000 \n $0.80"
+  },
+  {
+   "count": 241500,
+   "exercise_price_usd": 6.25,
+   "expiry": null,
+   "quote": "$6.25 \n 241,500 \n $6.25 \n 3.71 \n 241,500 \n $6.25"
+  }
+ ],
+ "warrants_dropped": 0
+}

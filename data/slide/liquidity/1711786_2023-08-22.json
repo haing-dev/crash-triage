@@ -1,0 +1,32 @@
+{
+ "id": "1711786_2023-08-22",
+ "asof": "2023-08-22",
+ "chars": 21283,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 2500000,
+   "exercise_price_usd": 5.0,
+   "expiry": null,
+   "quote": "Each December Common Stock Warrant is exercisable for a period of five and one-half years from the issuance date at an exercise price of $5.00 per share, subject to adjustment"
+  },
+  {
+   "count": 100000,
+   "exercise_price_usd": 6.25,
+   "expiry": null,
+   "quote": "The December Wainwright Warrants are exercisable for a period of five and one-half years from the issuance date at an exercise price of $6.25 per share, subject to adjustment"
+  },
+  {
+   "count": 1860000,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "Each December Pre-Funded Warrant is exercisable until exercised in full at an exercise price of $0.001 per share and may be exercised on a cashless basis."
+  }
+ ],
+ "warrants_dropped": 0
+}

@@ -1,0 +1,39 @@
+{
+ "id": "911216_2023-08-21",
+ "asof": "2023-08-21",
+ "chars": 24376,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2023-05-12",
+   "net_proceeds_usd": 876121,
+   "what": "ATM sales through Canaccord under 2023 Equity Distribution Agreement (Apr 12 - May 12, 2023)",
+   "quote": "Between April 12, 2023 and May 12, 2023, a total of 374,772 shares of common stock were sold through Canaccord under the 2023 Equity Distribution Agreement for net proceeds of $876,121 after payment of commission fees of $27,097."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 66666,
+   "exercise_price_usd": 12.5,
+   "expiry": "2026-05-11",
+   "quote": "warrants to purchase up to 66,666 shares of common stock at an exercise price of $12.50 per share, which expire 48 months following issuance."
+  },
+  {
+   "count": 1818182,
+   "exercise_price_usd": 5.83,
+   "expiry": "2028-05-02",
+   "quote": "The Common Warrants have an exercise price of $5.83 per share, are exercisable beginning six months after the date of issuance, and will expire five and one-half years from the date of issuance."
+  },
+  {
+   "count": 90909,
+   "exercise_price_usd": 6.88,
+   "expiry": "2027-10-31",
+   "quote": "November 2022 Placement Agent Warrants"
+  }
+ ],
+ "warrants_dropped": 0
+}

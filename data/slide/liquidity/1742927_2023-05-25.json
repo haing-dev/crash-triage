@@ -1,0 +1,32 @@
+{
+ "id": "1742927_2023-05-25",
+ "asof": "2023-05-25",
+ "chars": 23360,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 6325000,
+   "exercise_price_usd": 11.5,
+   "expiry": null,
+   "quote": "Each public warrant entitles the holder thereof to purchase one share of common stock at a price of $11.50 per share, subject to adjustment."
+  },
+  {
+   "count": 3359684,
+   "exercise_price_usd": 2.4,
+   "expiry": "2027-09-08",
+   "quote": "The Private Placement Warrants were immediately exercisable upon issuance at an exercise price of $2.40 per share and will expire on September 8, 2027."
+  },
+  {
+   "count": 1383399,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "The Private Pre-Funded Warrants were immediately exercisable at an exercise price of $0.0001 per share and will expire when the Private Pre-Funded Warrants are fully exercised."
+  }
+ ],
+ "warrants_dropped": 0
+}

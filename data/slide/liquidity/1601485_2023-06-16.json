@@ -1,0 +1,38 @@
+{
+ "id": "1601485_2023-06-16",
+ "asof": "2023-06-16",
+ "chars": 19916,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 232287,
+   "exercise_price_usd": 8.03,
+   "expiry": "2023-08-31",
+   "quote": "Warrants issued with conversion of Convertible Notes to Common StockEquity$8.03 8/31/23232,287 232,287"
+  },
+  {
+   "count": 875034,
+   "exercise_price_usd": 8.03,
+   "expiry": "2023-08-31",
+   "quote": "Warrants issued with Units in the Equity OfferingEquity$8.03 8/31/23875,034 875,034"
+  },
+  {
+   "count": 1297,
+   "exercise_price_usd": 0.01,
+   "expiry": "2025-08-31",
+   "quote": "Broker Warrants issued with Equity OfferingEquity$0.01 8/31/251,297 1,297"
+  },
+  {
+   "count": 39505,
+   "exercise_price_usd": 7.6,
+   "expiry": "2028-08-31",
+   "quote": "Consultant WarrantsLiability$7.60 8/31/2839,505 39,505"
+  }
+ ],
+ "warrants_dropped": 0
+}

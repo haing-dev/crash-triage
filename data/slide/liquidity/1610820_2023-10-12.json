@@ -1,0 +1,57 @@
+{
+ "id": "1610820_2023-10-12",
+ "asof": "2023-10-12",
+ "chars": 22320,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2023-05-19",
+   "net_proceeds_usd": 4000000,
+   "what": "Share issuance to Prevail Partners (463,408 shares at $8.63); gross proceeds, net not stated",
+   "quote": "the Company issued Prevail the Shares at a price per Share of $8.63 for aggregate gross proceeds of $4,000,000"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 51698,
+   "exercise_price_usd": 4.41,
+   "expiry": "2025-11-16",
+   "quote": "51,698 $4.41 51,698 November 16, 2025"
+  },
+  {
+   "count": 3896809,
+   "exercise_price_usd": 5.31,
+   "expiry": null,
+   "quote": "3,896,809 $5.31 3,896,809 February 26, 2026 \u2013 April 26, 2026"
+  },
+  {
+   "count": 4173143,
+   "exercise_price_usd": 6.19,
+   "expiry": "2026-12-07",
+   "quote": "4,173,143 $6.19 4,173,143 December 7, 2026"
+  },
+  {
+   "count": 4890,
+   "exercise_price_usd": 4.41,
+   "expiry": "2025-11-16",
+   "quote": "4,890 $4.41 4,890 November 16, 2025"
+  },
+  {
+   "count": 17074,
+   "exercise_price_usd": 5.31,
+   "expiry": "2026-02-26",
+   "quote": "17,074 $5.31 17,074 February 26, 2026"
+  },
+  {
+   "count": 24688,
+   "exercise_price_usd": 6.19,
+   "expiry": "2026-06-07",
+   "quote": "24,688 $6.19 24,688 June 7, 2026"
+  }
+ ],
+ "warrants_dropped": 0
+}

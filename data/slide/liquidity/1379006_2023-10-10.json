@@ -1,0 +1,32 @@
+{
+ "id": "1379006_2023-10-10",
+ "asof": "2023-10-10",
+ "chars": 6551,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 286,
+   "exercise_price_usd": 3.4,
+   "expiry": "2026-08-31",
+   "quote": "fully vested warrants to purchase 286 shares of common stock with an exercise price of $3.40 per share expiring in August 2026"
+  },
+  {
+   "count": 286,
+   "exercise_price_usd": 2.09,
+   "expiry": "2026-11-30",
+   "quote": "fully vested warrants to purchase 286 shares of common stock with an exercise price of $2.09 per share expiring in November 2026"
+  },
+  {
+   "count": 286,
+   "exercise_price_usd": 1.79,
+   "expiry": "2027-02-28",
+   "quote": "fully vested warrants to purchase 286 shares of common stock with an exercise price of $1.79 per share expiring in February 2027"
+  }
+ ],
+ "warrants_dropped": 0
+}

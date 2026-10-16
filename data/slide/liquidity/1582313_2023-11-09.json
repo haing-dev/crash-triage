@@ -1,0 +1,26 @@
+{
+ "id": "1582313_2023-11-09",
+ "asof": "2023-11-09",
+ "chars": 18778,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 1403851,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "outstanding pre-funded warrants to purchase an additional 1,403,851 common shares"
+  },
+  {
+   "count": 40000,
+   "exercise_price_usd": null,
+   "expiry": null,
+   "quote": "an outstanding warrant to purchase an additional 40,000 common shares"
+  }
+ ],
+ "warrants_dropped": 0
+}

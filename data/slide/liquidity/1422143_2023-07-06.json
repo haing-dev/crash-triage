@@ -1,0 +1,33 @@
+{
+ "id": "1422143_2023-07-06",
+ "asof": "2023-07-06",
+ "chars": 22172,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2023-06-16",
+   "net_proceeds_usd": 93600000,
+   "what": "Underwritten public offering of common stock and pre-funded warrants (closing expected June 16, 2023)",
+   "quote": "The aggregate net proceeds to us from the offering are expected to be approximately $93.6 million, after deducting the underwriting discounts and commissions and estimated offering expenses payable by us"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 33988,
+   "exercise_price_usd": 3.31,
+   "expiry": null,
+   "quote": "warrants to purchase up to (i) 33,988 shares of our common stock at an exercise price of $3.31 per share"
+  },
+  {
+   "count": 26078,
+   "exercise_price_usd": 14.38,
+   "expiry": null,
+   "quote": "(ii) 26,078 shares of our common stock at an exercise price of $14.38 per share were outstanding as of March 31, 2023."
+  }
+ ],
+ "warrants_dropped": 0
+}

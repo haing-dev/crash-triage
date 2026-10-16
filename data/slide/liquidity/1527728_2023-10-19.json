@@ -1,0 +1,45 @@
+{
+ "id": "1527728_2023-10-19",
+ "asof": "2023-10-19",
+ "chars": 27937,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2023-08-01",
+   "net_proceeds_usd": 2000000,
+   "what": "August 2023 private placement of Series A preferred units with warrants (cash portion)",
+   "quote": "the Company closed a private placement of 280,505 units"
+  },
+  {
+   "date": "2023-10-05",
+   "net_proceeds_usd": 2000000,
+   "what": "5% OID convertible promissory notes issued Sept 5 - Oct 5, 2023 (gross proceeds)",
+   "quote": "The Company received a total of $2,000,000 in gross proceeds from the offering, taking into account the 5% original issue discount."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 1189036,
+   "exercise_price_usd": 1.14,
+   "expiry": null,
+   "quote": "The Purchase Warrants were immediately exercisable and had an exercise term of five years with an exercise price of $1.14 per share."
+  },
+  {
+   "count": 2359266,
+   "exercise_price_usd": 0.53,
+   "expiry": "2028-06-26",
+   "quote": "The warrants were immediately exercisable and had an exercise term of five years with an exercise price of $0.53 per share."
+  },
+  {
+   "count": 2805050,
+   "exercise_price_usd": 0.65,
+   "expiry": "2028-08-01",
+   "quote": "the Company sold Warrants to purchase an aggregate of 2,805,050 shares of Common Stock, which represents 50% warrant coverage."
+  }
+ ],
+ "warrants_dropped": 0
+}
