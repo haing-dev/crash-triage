@@ -1,0 +1,44 @@
+{
+ "cik": "1124105",
+ "name": "GYRE THERAPEUTICS, INC.",
+ "ticker": "GYRE",
+ "date": "2021-11-12",
+ "status": "read",
+ "source": {
+  "filing_date": "2021-11-12",
+  "accession": "0001193125-21-327327",
+  "doc": "d257518dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1124105/000119312521327327/d257518dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "other",
+  "summary": "Halted MarzAA development, citing enrollment feasibility, and seeking a buyer \u00b7 clinical stage \u00b7 MarzAA in hemophilia \u00b7 not yet approved",
+  "phase": "n/a",
+  "drug": "MarzAA",
+  "indication": "Hemophilia",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": 0,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "a strategic decision to halt the clinical development of MarzAA, report data to date, and seek a buyer for its hemophilia assets.",
+   "primary_endpoint_met": null,
+   "safety": "have not observed any treatment-related adverse or thrombotic events",
+   "program_discontinued": "Company to discontinue MarzAA development; focus on developing its complement portfolio"
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

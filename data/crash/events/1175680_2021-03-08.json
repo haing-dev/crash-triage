@@ -1,0 +1,44 @@
+{
+ "cik": "1175680",
+ "name": "CytoDyn Inc.",
+ "ticker": "CYDY",
+ "date": "2021-03-08",
+ "status": "read",
+ "source": {
+  "filing_date": "2021-03-08",
+  "accession": "0001193125-21-073448",
+  "doc": "d145217dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1175680/000119312521073448/d145217dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 2b/3 missed primary mortality endpoint overall; benefit only in subgroups \u00b7 Phase 2/3 \u00b7 leronlimab in severe/critical COVID-19 \u00b7 not yet approved",
+  "phase": "Phase 2/3",
+  "drug": "leronlimab (PRO 140)",
+  "indication": "severe or critical COVID-19",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": 384,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "Day 28 Mortality, mITT 53/259 (20.5%) 27/125 (21.6%) 1.1% 5.3%",
+   "primary_endpoint_met": "Subject Deceased, n (%) 53 (20.46%) 27(21.60%) 0.70 (0.39, 1.25)",
+   "safety": "Leronlimab in combination with other commonly used COVID-19 treatments was well-tolerated with no new safety signal detected in the CD12_COVID-19 study.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

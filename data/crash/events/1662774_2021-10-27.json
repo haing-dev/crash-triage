@@ -1,0 +1,44 @@
+{
+ "cik": "1662774",
+ "name": "Quince Therapeutics, Inc.",
+ "ticker": "QNCX",
+ "date": "2021-10-27",
+ "status": "read",
+ "source": {
+  "filing_date": "2021-10-26",
+  "accession": "0001193125-21-307962",
+  "doc": "d212962d8k.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1662774/000119312521307962/d212962d8k.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Missed co-primary endpoints overall, subgroup benefit only \u00b7 Phase 2/3 \u00b7 atuzaginstat in Alzheimer's disease \u00b7 not yet approved",
+  "phase": "Phase 2/3",
+  "drug": "atuzaginstat (COR388)",
+  "indication": "Alzheimer's disease",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": true,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "did not meet statistical significance in its co-primary cognitive and functional endpoints as measured by ADAS-Cog11 and ADCS-ADL at end of the treatment period in the overall cohort",
+   "primary_endpoint_met": "did not meet statistical significance in its co-primary cognitive and functional endpoints as measured by ADAS-Cog11 and ADCS-ADL at end of the treatment period in the overall cohort",
+   "safety": "Most adverse events were mild to moderate in severity.",
+   "program_discontinued": "the Company is actively engaging with regulators, the medical community, patient advocacy groups, and other key stakeholders to advance development of atuzaginstat"
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

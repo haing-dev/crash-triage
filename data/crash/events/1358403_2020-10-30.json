@@ -1,0 +1,44 @@
+{
+ "cik": "1358403",
+ "name": "BELLICUM PHARMACEUTICALS, INC",
+ "ticker": "BLCM",
+ "date": "2020-10-30",
+ "status": "read",
+ "source": {
+  "filing_date": "2020-10-30",
+  "accession": "0001193125-20-282788",
+  "doc": "d48439d424b5.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1358403/000119312520282788/d48439d424b5.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Interim data showed no meaningful tumor response, plus restructuring and dilutive $25M offering \u00b7 Phase 1 \u00b7 BPX-601 in pancreatic cancer \u00b7 not yet approved",
+  "phase": "Phase 1",
+  "drug": "BPX-601",
+  "indication": "metastatic pancreatic cancer",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": false,
+  "safety": {
+   "treated_patients": 4,
+   "serious_drug_related_patients": 1,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "Clinically meaningful efficacy as measured by RECIST criteria was not observed.",
+   "primary_endpoint_met": "Clinically meaningful efficacy as measured by RECIST criteria was not observed.",
+   "safety": "Findings from the first four patients treated with BPX-601 followed by repeat rimiducid dosing showed a manageable safety profile and evidence of rimiducid-mediated CAR-T cell activation.",
+   "program_discontinued": "review our plans in pancreatic cancer upon completion of the current safety cohort"
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

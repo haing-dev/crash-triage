@@ -1,0 +1,44 @@
+{
+ "cik": "1634379",
+ "name": "Metacrine, Inc.",
+ "ticker": "MTCR",
+ "date": "2021-10-22",
+ "status": "read",
+ "source": {
+  "filing_date": "2021-10-21",
+  "accession": "0001564590-21-051434",
+  "doc": "mtcr-ex991_52.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1634379/000156459021051434/mtcr-ex991_52.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Mixed interim NASH results; NASH program halted, pivot to IBD \u00b7 Phase 2a \u00b7 MET642 in NASH \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "MET642",
+  "indication": "non-alcoholic steatohepatitis (NASH)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": 41,
+   "serious_drug_related_patients": 0,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "we have made the decision to focus Metacrine\u2019s clinical development effort and financial resources on moving MET642 into a Phase 2 trial in IBD in the first half of 2022 and to halt future development of the FXR program in NASH.",
+   "primary_endpoint_met": null,
+   "safety": "MET642 was generally well-tolerated, with no treatment-related serious adverse events (AEs).",
+   "program_discontinued": "to halt future development of the FXR program in NASH"
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

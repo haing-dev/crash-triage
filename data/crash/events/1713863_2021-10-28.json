@@ -1,0 +1,44 @@
+{
+ "cik": "1713863",
+ "name": "Rafael Holdings, Inc.",
+ "ticker": "RFL",
+ "date": "2021-10-28",
+ "status": "read",
+ "source": {
+  "filing_date": "2021-10-28",
+  "accession": "0001213900-21-054953",
+  "doc": "ea149509ex99-1_rafaelhold.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1713863/000121390021054953/ea149509ex99-1_rafaelhold.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 3 pancreatic trial missed overall survival endpoint; AML Phase 3 stopped for futility \u00b7 Phase 3 \u00b7 devimistat in metastatic pancreatic cancer and relapsed/refractory AML \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "devimistat (CPI-613)",
+  "indication": "metastatic pancreatic adenocarcinoma; relapsed or refractory acute myeloid leukemia",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "the AVENGER 500 Phase 3 clinical trial for CPI-613\u00ae (devimistat), Rafael Pharmaceuticals\u2019 lead product candidate, did not meet its primary endpoint of significant improvement in overall survival",
+   "primary_endpoint_met": "Devimistat given with mFFX did not significantly improve overall survival (HR=0.95, p=0.66) compared to FFX alone.",
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

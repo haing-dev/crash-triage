@@ -1,0 +1,44 @@
+{
+ "cik": "1426800",
+ "name": "ASSEMBLY BIOSCIENCES, INC.",
+ "ticker": "ASMB",
+ "date": "2020-11-06",
+ "status": "read",
+ "source": {
+  "filing_date": "2020-11-05",
+  "accession": "0001564590-20-051400",
+  "doc": "asmb-ex991_28.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1426800/000156459020051400/asmb-ex991_28.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Off-treatment sustained response not achieved, 39 of 41 relapsed \u00b7 Phase 2 \u00b7 vebicorvir in chronic hepatitis B \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "vebicorvir (VBR, ABI-H0731)",
+  "indication": "chronic hepatitis B virus infection",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "HBV field's first core inhibitor combination study (Study 211) to assess off-treatment response did not achieve a meaningful rate of sustained virologic response (SVR) as 39 of 41 patients have relapsed.",
+   "primary_endpoint_met": "did not achieve a meaningful rate of sustained virologic response (SVR) as 39 of 41 patients have relapsed.",
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

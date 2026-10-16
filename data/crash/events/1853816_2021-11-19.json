@@ -1,0 +1,44 @@
+{
+ "cik": "1853816",
+ "name": "Dermata Therapeutics, Inc.",
+ "ticker": "DRMA",
+ "date": "2021-11-19",
+ "status": "read",
+ "source": {
+  "filing_date": "2021-11-19",
+  "accession": "0001654954-21-012446",
+  "doc": "drma_ex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1853816/000165495421012446/drma_ex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "other",
+  "summary": "Positive open-label proof-of-concept data, but no meaningful upper-facial-line effect \u00b7 Phase 1b \u00b7 DMT410 in aesthetic skin conditions \u00b7 not yet approved",
+  "phase": "Phase 1",
+  "drug": "DMT410",
+  "indication": "aesthetic skin conditions",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": 10,
+   "serious_drug_related_patients": 0,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "Upper facial lines - a measurement of the visible improvement of a patient\u2019s forehead, lateral canthal, and glabellar lines did not show clinically meaningful improvement.",
+   "primary_endpoint_met": null,
+   "safety": "DMT410 was generally safe and well tolerated with no adverse events reported, no withdrawals due to treatment-related adverse events, and no potential distant spread of toxin reported.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "cik": "1750149",
+ "name": "Inhibikase Therapeutics, Inc.",
+ "ticker": "IKT",
+ "date": "2021-06-16",
+ "status": "read",
+ "source": {
+  "filing_date": "2021-06-16",
+  "accession": "0001193125-21-191715",
+  "doc": "d113030dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1750149/000119312521191715/d113030dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Priced $45M follow-on stock offering at $3.00 per share \u00b7 Phase 1 \u00b7 IkT-148009 in Parkinson's disease \u00b7 not yet approved",
+  "phase": "Phase 1",
+  "drug": "IkT-148009",
+  "indication": "Parkinson's disease",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "announced the pricing of an underwritten public offering of 15 million shares of its common stock at a public offering price of $3.00 per share for total gross proceeds of approximately $45 million",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

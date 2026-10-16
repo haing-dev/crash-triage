@@ -1,0 +1,44 @@
+{
+ "cik": "1445499",
+ "name": "IPI Legacy Liquidation Co",
+ "ticker": "IMPL",
+ "date": "2021-08-10",
+ "status": "read",
+ "source": {
+  "filing_date": "2021-08-16",
+  "accession": "0000950170-21-001470",
+  "doc": "impl-20210816ex99_1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1445499/000095017021001470/impl-20210816ex99_1.htm"
+ },
+ "facts": {
+  "related": false,
+  "trigger": "other",
+  "summary": "Q2 2021 financial results and corporate update, no adverse event \u00b7 Filed \u00b7 TRUDHESA (DHE) in acute migraine \u00b7 filed for approval",
+  "phase": "Filed",
+  "drug": "TRUDHESA",
+  "indication": "acute migraine",
+  "market_stage": "filed for approval",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "TRUDHESA\u2122 New Drug Application (NDA) Under Review by U.S. Food & Drug Administration (FDA) with PDUFA Target Action Date of September 6, 2021",
+   "primary_endpoint_met": "Results from the pivotal Phase 3 STOP 301 study, which met its primary objectives, with no new safety signals or concerning trends in nasal safety findings observed for TRUDHESA",
+   "safety": "no new safety signals or concerning trends in nasal safety findings observed for TRUDHESA",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

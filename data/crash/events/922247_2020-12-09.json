@@ -1,0 +1,44 @@
+{
+ "cik": "922247",
+ "name": "Cyclo Therapeutics, Inc.",
+ "ticker": "CYTH",
+ "date": "2020-12-09",
+ "status": "read",
+ "source": {
+  "filing_date": "2020-12-11",
+  "accession": "0001437749-20-025196",
+  "doc": "ctdh20201211_8k.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/922247/000143774920025196/ctdh20201211_8k.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Priced $12.5M unit offering with warrants plus 1-for-100 reverse split and Nasdaq uplist \u00b7 Phase 3 \u00b7 Trappsol Cyclo in NPC \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "Trappsol Cyclo",
+  "indication": "Niemann-Pick Disease Type C (NPC)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "sold an aggregate of 2,500,000 units at a price to the public of $5.00 per unit",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

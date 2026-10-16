@@ -1,0 +1,44 @@
+{
+ "cik": "1419041",
+ "name": "Forte Biosciences, Inc.",
+ "ticker": "FBRX",
+ "date": "2021-09-03",
+ "status": "read",
+ "source": {
+  "filing_date": "2021-09-02",
+  "accession": "0001193125-21-264493",
+  "doc": "d88078dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1419041/000119312521264493/d88078dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 2 missed primary endpoint, program halted \u00b7 Phase 2 \u00b7 FB-401 in atopic dermatitis \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "FB-401",
+  "indication": "atopic dermatitis",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": false,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "topline data from its Phase 2 clinical trial of FB-401 for the treatment of atopic dermatitis failed to meet statistical significance for the primary endpoint of EASI-50",
+   "primary_endpoint_met": "The primary endpoint of EASI-50 was achieved by 58% of subjects on FB-401 compared to 60% of subjects on placebo (p=0.7567).",
+   "safety": null,
+   "program_discontinued": "given this readout we will not continue to advance FB-401."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": false,
+   "program_discontinued": true
+  }
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "cik": "1701541",
+ "name": "Black Diamond Therapeutics, Inc.",
+ "ticker": "BDTX",
+ "date": "2021-05-20",
+ "status": "read",
+ "source": {
+  "filing_date": "2021-05-19",
+  "accession": "0001104659-21-069398",
+  "doc": "tm2116976d1_ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1701541/000110465921069398/tm2116976d1_ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Initial Phase 1 data showed modest responses, only few confirmed partial responses \u00b7 Phase 1 \u00b7 BDTX-189 in EGFR/HER2-altered solid tumors \u00b7 not yet approved",
+  "phase": "Phase 1",
+  "drug": "BDTX-189",
+  "indication": "Advanced solid tumors harboring EGFR or HER2 alterations",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": 55,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "Preliminary anti-cancer activity observed in heavily pre-treated patients (prior EGFR/HER2-directed and/or I/O agents) in a variety of tumor types and genomic alterations in EGFR or HER2, including confirmed partial responses",
+   "primary_endpoint_met": null,
+   "safety": "BDTX-189 demonstrated a favorable tolerability profile, with no dose-limiting toxicities at doses of \u2264800 mg QD fasting and non-fasting in the dose-escalation cohorts.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

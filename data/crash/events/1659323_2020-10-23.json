@@ -1,0 +1,44 @@
+{
+ "cik": "1659323",
+ "name": "Iterum Therapeutics plc",
+ "ticker": "ITRM",
+ "date": "2020-10-23",
+ "status": "read",
+ "source": {
+  "filing_date": "2020-10-26",
+  "accession": "0001193125-20-277136",
+  "doc": "d80934d424b4.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1659323/000119312520277136/d80934d424b4.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Priced discounted equity offering with warrants after earlier trial misses \u00b7 Phase 3 completed, NDA planned \u00b7 oral sulopenem in uUTI \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "oral sulopenem (sulopenem etzadroxil-probenecid)",
+  "indication": "uncomplicated urinary tract infections (uUTI)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "We are offering 15,511,537 of our ordinary shares, together with warrants, or the Warrants, to purchase 11,633,653 ordinary shares",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

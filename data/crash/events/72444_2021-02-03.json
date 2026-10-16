@@ -1,0 +1,44 @@
+{
+ "cik": "72444",
+ "name": "Vaxart, Inc.",
+ "ticker": "VXRT",
+ "date": "2021-02-03",
+ "status": "read",
+ "source": {
+  "filing_date": "2021-02-03",
+  "accession": "0001437749-21-001865",
+  "doc": "vxrt20210203_8k.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/72444/000143774921001865/vxrt20210203_8k.htm"
+ },
+ "facts": {
+  "related": false,
+  "trigger": "other",
+  "summary": "Company presented Phase 1 data in corporate presentation at symposium; no drop explanation given \u00b7 Phase 1 \u00b7 COVID-19 oral vaccine in COVID-19 \u00b7 not yet approved",
+  "phase": "Phase 1",
+  "drug": "n/a",
+  "indication": "COVID-19",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "On February 3, 2021, Vaxart, Inc. (the \u201cCompany\u201d) presented the Phase 1 data as part of a clinical trial update at the New York Academy of Sciences Symposium \u201cThe Quest for a COVID-19 Vaccine\u201d.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "cik": "1300699",
+ "name": "Athenex, Inc.",
+ "ticker": "ATNX",
+ "date": "2021-03-01",
+ "status": "read",
+ "source": {
+  "filing_date": "2021-03-01",
+  "accession": "0001193125-21-062270",
+  "doc": "d137872dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1300699/000119312521062270/d137872dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "regulatory rejection",
+  "summary": "FDA issued complete response letter citing neutropenia safety and BICR endpoint concerns \u00b7 Filed \u00b7 oral paclitaxel plus encequidar in metastatic breast cancer \u00b7 filed for approval",
+  "phase": "Filed",
+  "drug": "oral paclitaxel plus encequidar",
+  "indication": "metastatic breast cancer",
+  "market_stage": "filed for approval",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "the U.S. Food and Drug Administration (FDA) has issued a complete response letter (CRL) for the Company\u2019s New Drug Application (NDA) for oral paclitaxel and encequidar for the treatment of metastatic breast cancer.",
+   "primary_endpoint_met": null,
+   "safety": "Concerns about safety risks associated with increase in neutropenia-related sequelae",
+   "program_discontinued": "we are committed to exploring our available options to obtain approval for oral paclitaxel and encequidar."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

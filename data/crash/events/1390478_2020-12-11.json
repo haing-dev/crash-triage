@@ -1,0 +1,44 @@
+{
+ "cik": "1390478",
+ "name": "SELLAS Life Sciences Group, Inc.",
+ "ticker": "SLS",
+ "date": "2020-12-11",
+ "status": "read",
+ "source": {
+  "filing_date": "2020-12-10",
+  "accession": "0001104659-20-134189",
+  "doc": "tm2038143d1_ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1390478/000110465920134189/tm2038143d1_ex99-1.htm"
+ },
+ "facts": {
+  "related": false,
+  "trigger": "other",
+  "summary": "Exclusive Greater China license deal with upfront payment \u00b7 Phase 3 \u00b7 galinpepimut-S in acute myeloid leukemia \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "galinpepimut-S (GPS)",
+  "indication": "acute myeloid leukemia",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "SELLAS could potentially receive up to $202 million in license and milestone payments during the course of the collaboration, not including future royalties.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

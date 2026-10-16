@@ -1,0 +1,44 @@
+{
+ "cik": "812796",
+ "name": "SOLIGENIX, INC.",
+ "ticker": "SNGX",
+ "date": "2020-12-22",
+ "status": "read",
+ "source": {
+  "filing_date": "2020-12-22",
+  "accession": "0001213900-20-043965",
+  "doc": "ea132049ex99-1_soligenixinc.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/812796/000121390020043965/ea132049ex99-1_soligenixinc.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 3 missed primary endpoint of reducing severe oral mucositis duration \u00b7 Phase 3 \u00b7 SGX942 in oral mucositis in head and neck cancer \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "SGX942 (dusquetide)",
+  "indication": "severe oral mucositis in head and neck cancer patients receiving chemoradiation",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "The primary endpoint of median duration of SOM did not achieve the pre-specified criterion for statistical significance (p\u22640.05)",
+   "primary_endpoint_met": "The primary endpoint of median duration of SOM did not achieve the pre-specified criterion for statistical significance (p\u22640.05)",
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

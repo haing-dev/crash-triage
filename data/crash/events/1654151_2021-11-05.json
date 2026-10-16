@@ -1,0 +1,44 @@
+{
+ "cik": "1654151",
+ "name": "Deciphera Pharmaceuticals, Inc.",
+ "ticker": "DCPH",
+ "date": "2021-11-05",
+ "status": "read",
+ "source": {
+  "filing_date": "2021-11-05",
+  "accession": "0001193125-21-320901",
+  "doc": "d252692dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1654151/000119312521320901/d252692dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 3 missed primary PFS endpoint versus sunitinib \u00b7 Phase 3 \u00b7 QINLOCK (ripretinib) in second-line GIST \u00b7 on market (fourth-line)",
+  "phase": "Phase 3",
+  "drug": "QINLOCK (ripretinib)",
+  "indication": "second-line gastrointestinal stromal tumor (GIST)",
+  "market_stage": "on market",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": false,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "The study did not meet the primary endpoint of improved progression-free survival (PFS) compared with the standard of care sunitinib.",
+   "primary_endpoint_met": "The study did not achieve the primary efficacy endpoint of progression-free survival (PFS) as determined by independent radiologic review using modified Response Evaluation Criteria in Solid Tumors (RECIST).",
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

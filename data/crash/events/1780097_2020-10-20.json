@@ -1,0 +1,44 @@
+{
+ "cik": "1780097",
+ "name": "Baudax Bio, Inc.",
+ "ticker": "BXRX",
+ "date": "2020-10-20",
+ "status": "read",
+ "source": {
+  "filing_date": "2020-10-20",
+  "accession": "0001193125-20-272523",
+  "doc": "d98315dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1780097/000119312520272523/d98315dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Warrant exchange issuing ~9.8M shares and slower ANJESO revenue ramp due to COVID \u00b7 Approved \u00b7 ANJESO (meloxicam) in moderate to severe pain \u00b7 on market",
+  "phase": "Approved",
+  "drug": "ANJESO (meloxicam injection)",
+  "indication": "moderate to severe pain",
+  "market_stage": "on market",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "the commercial rollout continues to be impacted by the ongoing COVID-19 pandemic and we believe the revenue ramp will likely take more time than originally anticipated.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

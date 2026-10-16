@@ -1,0 +1,44 @@
+{
+ "cik": "1496671",
+ "name": "Calithera Biosciences, Inc.",
+ "ticker": "CALA",
+ "date": "2021-11-05",
+ "status": "read",
+ "source": {
+  "filing_date": "2021-11-05",
+  "accession": "0001193125-21-320821",
+  "doc": "d233634dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1496671/000119312521320821/d233634dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Trial discontinued after interim analysis showed no clinical benefit \u00b7 Phase 2 \u00b7 telaglenastat in KEAP1/NRF2-mutant NSCLC \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "telaglenastat",
+  "indication": "stage IV non-squamous non-small cell lung cancer with KEAP1 or NRF2 mutation",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": 40,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "announced today the decision to terminate its phase 2 KEAPSAKE clinical trial based on a lack of clinical benefit observed in patients treated with telaglenastat in an interim analysis.",
+   "primary_endpoint_met": "The available efficacy data at unblinding, including investigator-assessed progression-free survival (PFS), did not demonstrate clinical benefit",
+   "safety": "No difference in safety profile was seen between the two arms.",
+   "program_discontinued": "Calithera has no plans to continue the development of telaglenastat at this time."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

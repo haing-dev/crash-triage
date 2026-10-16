@@ -1,0 +1,44 @@
+{
+ "cik": "1644963",
+ "name": "AVENUE THERAPEUTICS, INC.",
+ "ticker": "ATXI",
+ "date": "2020-10-12",
+ "status": "read",
+ "source": {
+  "filing_date": "2020-10-13",
+  "accession": "0001104659-20-114095",
+  "doc": "tm2032957d1_ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1644963/000110465920114095/tm2032957d1_ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "regulatory rejection",
+  "summary": "FDA complete response letter citing opioid-stacking safety concern and sterilization validation \u00b7 Filed (NDA) \u00b7 IV tramadol in acute pain \u00b7 filed for approval",
+  "phase": "Filed",
+  "drug": "IV tramadol",
+  "indication": "acute pain requiring an opioid",
+  "market_stage": "filed for approval",
+  "primary_endpoint_met": true,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "today announced it has received a Complete Response Letter (\u201cCRL\u201d) from the U.S. Food and Drug Administration (\u201cFDA\u201d) regarding the Company\u2019s New Drug Application (\u201cNDA\u201d) for IV tramadol.",
+   "primary_endpoint_met": "the pivotal Phase 3 clinical trials demonstrated statistically significant outcomes for all of the primary and many secondary endpoints",
+   "safety": "IV tramadol, intended to treat patients in acute pain who require an opioid, is not safe for the intended patient population.",
+   "program_discontinued": "We will request a meeting with the FDA as soon as possible and are committed to working closely with the agency to resolve these issues"
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

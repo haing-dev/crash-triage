@@ -1,0 +1,44 @@
+{
+ "cik": "861838",
+ "name": "Aceragen, Inc.",
+ "ticker": "ACGN",
+ "date": "2021-03-19",
+ "status": "read",
+ "source": {
+  "filing_date": "2021-03-18",
+  "accession": "0001104659-21-038365",
+  "doc": "tm2110123d1_ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/861838/000110465921038365/tm2110123d1_ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 3 missed primary ORR endpoint \u00b7 Phase 3 \u00b7 tilsotolimod + ipilimumab in anti-PD-1 refractory melanoma \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "tilsotolimod (IMO-2125)",
+  "indication": "anti-PD-1 refractory advanced melanoma",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "ILLUMINATE-301, the Company\u2019s pivotal registration trial of tilsotolimod in combination with ipilimumab versus ipilimumab alone in patients with anti-PD-1 refractory advanced melanoma, did not meet its primary endpoint of objective response rate (ORR).",
+   "primary_endpoint_met": "ORR of 8.8% for the combination arm and 8.6% for ipilimumab alone.",
+   "safety": "Treatment-emergent adverse events (TEAEs) (Grade 3 and above) occurred in 61.1% of patients who received the combination vs. 55.1% of patients who received ipilimumab alone.",
+   "program_discontinued": "Idera is evaluating its next steps regarding continuation of the trial toward its overall survival (OS) endpoint"
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

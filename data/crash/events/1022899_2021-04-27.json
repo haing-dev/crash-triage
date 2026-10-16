@@ -1,0 +1,44 @@
+{
+ "cik": "1022899",
+ "name": "Protagenic Therapeutics, Inc.\\new",
+ "ticker": "PTIX",
+ "date": "2021-04-27",
+ "status": "read",
+ "source": {
+  "filing_date": "2021-04-28",
+  "accession": "0001493152-21-009968",
+  "doc": "form424b4.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1022899/000149315221009968/form424b4.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Priced $13.2M unit offering of stock plus warrants at $4.15, below prior $3.71 quote context \u00b7 Preclinical \u00b7 PT00114 in stress-related neuropsychiatric disorders \u00b7 not yet approved",
+  "phase": "Preclinical",
+  "drug": "PT00114",
+  "indication": "stress-related neuropsychiatric disorders (treatment resistant depression, substance use disorder, anxiety, PTSD)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "This is a firm commitment public offering of 3,180,000 units, each unit consisting of one share of our common stock and one warrant",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

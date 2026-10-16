@@ -1,0 +1,44 @@
+{
+ "cik": "1437402",
+ "name": "ARDELYX, INC.",
+ "ticker": "ARDX",
+ "date": "2021-07-20",
+ "status": "read",
+ "source": {
+  "filing_date": "2021-07-19",
+  "accession": "0001628280-21-014021",
+  "doc": "ardx-20210713.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1437402/000162828021014021/ardx-20210713.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "regulatory delay",
+  "summary": "FDA flags deficiencies precluding labeling discussion, citing treatment effect size \u00b7 Filed \u00b7 tenapanor in hyperphosphatemia on dialysis \u00b7 filed for approval",
+  "phase": "Filed",
+  "drug": "n/a",
+  "indication": "control of serum phosphorus in chronic kidney disease patients on dialysis",
+  "market_stage": "filed for approval",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "the FDA has identified deficiencies that preclude discussion of labeling and post-marketing requirements/commitments at this time.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

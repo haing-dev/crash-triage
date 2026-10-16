@@ -1,0 +1,44 @@
+{
+ "cik": "1781983",
+ "name": "Aprea Therapeutics, Inc.",
+ "ticker": "APRE",
+ "date": "2020-12-28",
+ "status": "read",
+ "source": {
+  "filing_date": "2020-12-28",
+  "accession": "0001104659-20-139797",
+  "doc": "tm2039402d1_ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1781983/000110465920139797/tm2039402d1_ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 3 missed primary complete remission endpoint, not statistically significant \u00b7 Phase 3 \u00b7 eprenetapopt plus azacitidine in TP53 mutant MDS \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "eprenetapopt",
+  "indication": "TP53 mutant myelodysplastic syndromes (MDS)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": false,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "The trial did not meet the predefined primary endpoint of complete remission (CR) rate.",
+   "primary_endpoint_met": "the CR rate in the eprenetapopt with AZA arm was 33.3% (95% CI: 23.1% - 44.9%) compared to 22.4% (95% CI: 13.6% - 33.4%) in the AZA alone arm (P = 0.13).",
+   "safety": "The combination of eprenetapopt with AZA appeared well-tolerated, with an adverse event profile that was similar to the Company\u2019s prior Phase 2 clinical trials.",
+   "program_discontinued": "Our other clinical trials continue to progress and we remain committed to pursuing our clinical development programs."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "cik": "1377121",
+ "name": "Protagonist Therapeutics, Inc",
+ "ticker": "PTGX",
+ "date": "2021-09-17",
+ "status": "read",
+ "source": {
+  "filing_date": "2021-09-17",
+  "accession": "0001104659-21-117017",
+  "doc": "tm2127921d1_ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1377121/000110465921117017/tm2127921d1_ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "safety",
+  "summary": "FDA clinical hold after tumors seen in mouse study \u00b7 Phase 2 \u00b7 rusfertide in polycythemia vera \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "rusfertide",
+  "indication": "polycythemia vera",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": true,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "The clinical hold follows Protagonist\u2019s notification to the FDA of a recent non-clinical finding in a 26-week rasH2 transgenic mouse model study.",
+   "primary_endpoint_met": null,
+   "safety": "benign and malignant subcutaneous skin tumors were observed in this study.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

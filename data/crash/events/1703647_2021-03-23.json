@@ -1,0 +1,44 @@
+{
+ "cik": "1703647",
+ "name": "Korro Bio, Inc.",
+ "ticker": "KRRO",
+ "date": "2021-03-23",
+ "status": "read",
+ "source": {
+  "filing_date": "2021-03-23",
+  "accession": "0001193125-21-090326",
+  "doc": "d127745dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1703647/000119312521090326/d127745dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 2a day-90 interim showed no hearing improvement over placebo \u00b7 Phase 2 \u00b7 FX-322 in sensorineural hearing loss \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "FX-322",
+  "indication": "sensorineural hearing loss",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": 0,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "No discernible hearing improvement over placebo observed",
+   "primary_endpoint_met": "No discernible hearing improvement over placebo observed",
+   "safety": "FX-322 continues to have a favorable safety profile No treatment related SAEs reported Comparable AEs in placebo and FX-322 groups",
+   "program_discontinued": "Company plans to advance single injection regimen moving forward"
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

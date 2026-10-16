@@ -1,0 +1,44 @@
+{
+ "cik": "1671584",
+ "name": "Aptevo Therapeutics Inc.",
+ "ticker": "APVO",
+ "date": "2021-11-24",
+ "status": "read",
+ "source": {
+  "filing_date": "2021-11-23",
+  "accession": "0001564590-21-057958",
+  "doc": "apvo-ex991_33.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1671584/000156459021057958/apvo-ex991_33.htm"
+ },
+ "facts": {
+  "related": false,
+  "trigger": "other",
+  "summary": "Positive early update: one complete remission reported \u00b7 Phase 1b expansion \u00b7 APVO436 in acute myeloid leukemia \u00b7 not yet approved",
+  "phase": "Phase 1",
+  "drug": "APVO436",
+  "indication": "acute myeloid leukemia",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "A high-risk AML patient treated in Cohort 1 with a combination of chemotherapy plus APVO436 achieved a complete remission (CR) after one cycle of therapy.",
+   "primary_endpoint_met": null,
+   "safety": "The patient tolerated treatment without evidence of overt toxicity.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

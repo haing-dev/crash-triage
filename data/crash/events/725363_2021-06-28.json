@@ -1,0 +1,44 @@
+{
+ "cik": "725363",
+ "name": "CEL SCI CORP",
+ "ticker": "CVM",
+ "date": "2021-06-28",
+ "status": "read",
+ "source": {
+  "filing_date": "2021-06-28",
+  "accession": "0001004878-21-000049",
+  "doc": "form8k101kingswood6-21.txt",
+  "url": "https://www.sec.gov/Archives/edgar/data/725363/000100487821000049/form8k101kingswood6-21.txt"
+ },
+ "facts": {
+  "related": false,
+  "trigger": "other",
+  "summary": "Underwriters exercised over-allotment option, closing 210,000 share sale for ~$4.4M \u00b7 n/a \u00b7 n/a in n/a \u00b7 n/a",
+  "phase": "n/a",
+  "drug": "n/a",
+  "indication": "n/a",
+  "market_stage": "n/a",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "On June 23, 2021, the Underwriters exercised their over-allotment option to purchase 210,000 additional shares of common stock.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

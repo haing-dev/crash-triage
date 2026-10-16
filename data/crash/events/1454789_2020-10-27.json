@@ -1,0 +1,44 @@
+{
+ "cik": "1454789",
+ "name": "Astria Therapeutics, Inc.",
+ "ticker": "ATXS",
+ "date": "2020-10-27",
+ "status": "read",
+ "source": {
+  "filing_date": "2020-10-26",
+  "accession": "0001104659-20-118204",
+  "doc": "tm2034243d1_ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1454789/000110465920118204/tm2034243d1_ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 3 missed primary and secondary endpoints; program stopped \u00b7 Phase 3 \u00b7 edasalonexent in Duchenne muscular dystrophy \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "edasalonexent",
+  "indication": "Duchenne muscular dystrophy",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": false,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": 0,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "the Phase 3 PolarisDMD trial of edasalonexent in Duchenne muscular dystrophy (DMD) did not meet the primary endpoint",
+   "primary_endpoint_met": "PolarisDMD Trial Did Not Achieve Primary or Secondary Endpoints",
+   "safety": "There were no treatment-related serious adverse events and no dose reductions.",
+   "program_discontinued": "Catabasis is stopping activities related to the development of edasalonexent including the ongoing GalaxyDMD open-label extension trial."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

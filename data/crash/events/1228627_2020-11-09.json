@@ -1,0 +1,44 @@
+{
+ "cik": "1228627",
+ "name": "Opus Genetics, Inc.",
+ "ticker": "IRD",
+ "date": "2020-11-09",
+ "status": "read",
+ "source": {
+  "filing_date": "2020-11-06",
+  "accession": "0001140361-20-024749",
+  "doc": "brhc10016678_ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1228627/000114036120024749/brhc10016678_ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Reverse merger with Rexahn closed with $21.15M private placement and reverse split \u00b7 Phase 2 completed \u00b7 Nyxol in night vision disturbances \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "Nyxol",
+  "indication": "dim light or night vision disturbances",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "Concurrent $21.15 Million Private Placement led by Institutional Healthcare and Accredited Investors",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

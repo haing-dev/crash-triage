@@ -1,0 +1,44 @@
+{
+ "cik": "1579428",
+ "name": "Axsome Therapeutics, Inc.",
+ "ticker": "AXSM",
+ "date": "2021-08-09",
+ "status": "read",
+ "source": {
+  "filing_date": "2021-08-09",
+  "accession": "0001564590-21-042348",
+  "doc": "axsm-ex991_9.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1579428/000156459021042348/axsm-ex991_9.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "regulatory delay",
+  "summary": "FDA found deficiencies precluding labeling talks, may delay approval \u00b7 Filed (priority review) \u00b7 AXS-05 in major depressive disorder \u00b7 filed for approval",
+  "phase": "Filed",
+  "drug": "AXS-05",
+  "indication": "major depressive disorder",
+  "market_stage": "filed for approval",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "the FDA recently notified us that they have identified deficiencies that preclude labeling discussions at this time. We are attempting to learn the nature of these deficiencies with the goal of addressing them, however, this development may lead to a delay",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

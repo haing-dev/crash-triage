@@ -1,0 +1,44 @@
+{
+ "cik": "1645842",
+ "name": "Zymergen Inc.",
+ "ticker": "ZY",
+ "date": "2021-08-04",
+ "status": "read",
+ "source": {
+  "filing_date": "2021-08-03",
+  "accession": "0001104659-21-099450",
+  "doc": "tm2123868d1_ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1645842/000110465921099450/tm2123868d1_ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "commercial miss",
+  "summary": "Hyaline commercialization delayed, no 2021 product revenue expected, CEO steps down \u00b7 commercial \u00b7 Hyaline in foldable display films \u00b7 not yet approved",
+  "phase": "n/a",
+  "drug": "Hyaline",
+  "indication": "foldable display applications",
+  "market_stage": "n/a",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "Accordingly, the Company no longer expects product revenue in 2021, and expects product revenue to be immaterial in 2022.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

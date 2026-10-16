@@ -1,0 +1,44 @@
+{
+ "cik": "1611747",
+ "name": "Scinai Immunotherapeutics Ltd.",
+ "ticker": "SCNI",
+ "date": "2020-10-23",
+ "status": "read",
+ "source": {
+  "filing_date": "2020-10-23",
+  "accession": "0001213900-20-032956",
+  "doc": "ea128831ex99-1_biondvax.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1611747/000121390020032956/ea128831ex99-1_biondvax.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 3 failed primary and secondary efficacy endpoints \u00b7 Phase 3 \u00b7 M-001 in influenza (universal flu vaccine) \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "M-001",
+  "indication": "influenza",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": false,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "Results did not demonstrate a statistically significant difference between the vaccinated and placebo groups in reduction of flu illness and severity, and therefore failed to meet both the primary and secondary efficacy endpoints.",
+   "primary_endpoint_met": "failed to meet both the primary and secondary efficacy endpoints. The study\u2019s primary safety endpoint was met.",
+   "safety": "In a total of seven previously completed Phase 1/2 and Phase 2 clinical trials, the M-001 vaccine candidate was well-tolerated and immunogenic.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

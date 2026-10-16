@@ -1,0 +1,44 @@
+{
+ "cik": "1636651",
+ "name": "Ovid Therapeutics Inc.",
+ "ticker": "OVID",
+ "date": "2020-12-02",
+ "status": "read",
+ "source": {
+  "filing_date": "2020-12-01",
+  "accession": "0001564590-20-055762",
+  "doc": "ovid-ex991_6.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1636651/000156459020055762/ovid-ex991_6.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 3 trial missed primary endpoint, program paused \u00b7 Phase 3 \u00b7 OV101 (gaboxadol) in Angelman syndrome \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "OV101 (gaboxadol)",
+  "indication": "Angelman syndrome",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": false,
+  "safety": {
+   "treated_patients": 104,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "Ovid Therapeutics Announces Phase 3 NEPTUNE Clinical Trial of OV101 for the Treatment of Angelman Syndrome Did Not Meet Primary Endpoint",
+   "primary_endpoint_met": "The primary endpoint of the NEPTUNE study was not achieved.",
+   "safety": "OV101 was well-tolerated, with no significant safety issues observed.",
+   "program_discontinued": "OV101 program in Angelman syndrome to pause pending full analysis of NEPTUNE trial and discussions with FDA"
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

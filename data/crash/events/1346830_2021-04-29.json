@@ -1,0 +1,44 @@
+{
+ "cik": "1346830",
+ "name": "Tvardi Therapeutics, Inc.",
+ "ticker": "TVRD",
+ "date": "2021-04-29",
+ "status": "read",
+ "source": {
+  "filing_date": "2021-04-29",
+  "accession": "0001104659-21-056913",
+  "doc": "tm2114554d1_ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1346830/000110465921056913/tm2114554d1_ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Missed primary endpoint \u00b7 Phase 2 \u00b7 Oral KORSUVA in atopic dermatitis pruritus \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "Oral KORSUVA (difelikefalin)",
+  "indication": "moderate-to-severe pruritus in atopic dermatitis",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "Study did not meet Primary Endpoint of worst-itch NRS change from baseline at week 12 or Secondary Endpoint of 4-point responder analysis in the ITT patient population",
+   "primary_endpoint_met": "Although no dose group met this endpoint, a statistically significant improvement from baseline was evident as early as week 1 for the 1 mg dose group",
+   "safety": "KORSUVA was well tolerated at all dose levels",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}
