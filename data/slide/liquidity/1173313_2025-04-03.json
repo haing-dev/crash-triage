@@ -1,0 +1,27 @@
+{
+ "id": "1173313_2025-04-03",
+ "asof": "2025-04-03",
+ "chars": 31620,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-10-31",
+   "net_proceeds_usd": 210000,
+   "what": "Lind warrant exercise for cash (500,000 warrant shares at $0.42)",
+   "quote": "We also reduced our outstanding warrants from 2.5 million shares to 2 million shares in October, receiving around $210,000 in cash."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 2000000,
+   "exercise_price_usd": 2,
+   "expiry": null,
+   "quote": "Lind also received a 5-year common stock purchase warrant to purchase up to 1,000,000 shares of the Company\u2019s common stock at an initial exercise price of $2 per share for a period of 5 years."
+  }
+ ],
+ "warrants_dropped": 0
+}

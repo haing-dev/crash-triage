@@ -1,0 +1,51 @@
+{
+ "id": "1420565_2025-05-27",
+ "asof": "2025-05-27",
+ "chars": 24260,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-05-01",
+   "net_proceeds_usd": 1679000,
+   "what": "Cash exercise of PIPE and Offering Warrants at reduced $1.60 price (gross; net not given)",
+   "quote": "The total gross proceeds for the Warrant Exercises were $1.7 million."
+  },
+  {
+   "date": "2025-04-24",
+   "net_proceeds_usd": 3101000,
+   "what": "Warrant Exchanges: PIPE Warrants surrendered for Exchange Pre-Funded Warrants with cash payment (gross; net not given)",
+   "quote": "The total gross proceeds for the Warrant Exchanges were $3.1 million."
+  },
+  {
+   "date": "2025-04-24",
+   "net_proceeds_usd": 500000,
+   "what": "Private placement of pre-funded warrants to Bios Purchaser (gross; net not given)",
+   "quote": "The total gross proceeds for the Private Placement were $0.5 million."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 726437,
+   "exercise_price_usd": 5.66,
+   "expiry": "2029-05-20",
+   "quote": "warrants to purchase 726,437 shares of the Company\u2019s common stock, with an exercise price of $5.66, which expire on May 20, 2029"
+  },
+  {
+   "count": 255000,
+   "exercise_price_usd": 4.89,
+   "expiry": "2027-05-02",
+   "quote": "warrants to purchase 2,353,500 shares of the Company\u2019s common stock, with an exercise price of $4.89 per share, which were issued and sold in the PIPE Financing as described above and expire on May 2, 2027"
+  },
+  {
+   "count": 3383367,
+   "exercise_price_usd": 4.68,
+   "expiry": "2027-05-01",
+   "quote": "Each Offering Warrant has an exercise price per share of common stock equal to $4.68. Each Offering Warrant may be exercised until May 1, 2027."
+  }
+ ],
+ "warrants_dropped": 0
+}

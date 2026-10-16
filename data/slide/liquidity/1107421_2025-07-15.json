@@ -1,0 +1,39 @@
+{
+ "id": "1107421_2025-07-15",
+ "asof": "2025-07-15",
+ "chars": 26559,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-04-11",
+   "net_proceeds_usd": 500000,
+   "what": "Series A-1 Convertible Preferred private placement to Watermill Asset Management (gross; net not given)",
+   "quote": "The Preferred Offering closed on April 11, 2025."
+  },
+  {
+   "date": "2025-06-24",
+   "net_proceeds_usd": 2050669,
+   "what": "Registered direct offering of common stock and pre-funded warrants (gross computed: 338,725 x $3.36 + 271,674 x $3.359; net not given)",
+   "quote": "The Offering closed on June 24, 2025."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 26552,
+   "exercise_price_usd": 28.5,
+   "expiry": null,
+   "quote": "Outstanding, March 31, 2025"
+  },
+  {
+   "count": 22222,
+   "exercise_price_usd": 1.5,
+   "expiry": "2026-12-31",
+   "quote": "the Company issued MD Anderson a warrant to purchase 22,222 shares of the Company's common stock"
+  }
+ ],
+ "warrants_dropped": 0
+}

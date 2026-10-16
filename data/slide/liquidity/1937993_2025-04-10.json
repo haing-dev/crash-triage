@@ -1,0 +1,33 @@
+{
+ "id": "1937993_2025-04-10",
+ "asof": "2025-04-10",
+ "chars": 21295,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-03-13",
+   "net_proceeds_usd": 1419000,
+   "what": "ATM sales of 72,224 shares, Jan 1 to Mar 13, 2025",
+   "quote": "resulting in total gross proceeds of approximately $1,466,000 and net proceeds of approximately $1,419,000."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 285715,
+   "exercise_price_usd": 16.5,
+   "expiry": null,
+   "quote": "new unregistered Series A-1 Common Stock purchase warrants to purchase an aggregate of 285,715 shares of Common Stock"
+  },
+  {
+   "count": 285715,
+   "exercise_price_usd": 16.5,
+   "expiry": null,
+   "quote": "at an exercise price of $16.50 per share."
+  }
+ ],
+ "warrants_dropped": 0
+}

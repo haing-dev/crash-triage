@@ -1,0 +1,33 @@
+{
+ "id": "1708599_2025-04-01",
+ "asof": "2025-04-01",
+ "chars": 23348,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-01-31",
+   "net_proceeds_usd": 5000000,
+   "what": "Second tranche of Juvenescence common stock purchase (received January 2025)",
+   "quote": "$5.0 million was received in November 2024, and the second tranche of $5.0 million in January 2025."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 377865,
+   "exercise_price_usd": 18.0,
+   "expiry": "2028-03-26",
+   "quote": "Juvenescence also received Incentive Warrants to purchase 377,865 shares of common stock with an exercise price of $18.00 per share that expire on March 26, 2028."
+  },
+  {
+   "count": 755728,
+   "exercise_price_usd": 18.0,
+   "expiry": "2028-03-26",
+   "quote": "warrants to purchase an additional 755,728 shares of Common Stock at an exercise price of $18.00 per share (the \u201cReplacement Incentive Warrants\u201d)."
+  }
+ ],
+ "warrants_dropped": 0
+}

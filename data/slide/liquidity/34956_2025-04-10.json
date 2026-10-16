@@ -1,0 +1,45 @@
+{
+ "id": "34956_2025-04-10",
+ "asof": "2025-04-10",
+ "chars": 22483,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-03-05",
+   "net_proceeds_usd": 25000000,
+   "what": "March 2025 private placement of common stock and pre-funded warrants (gross proceeds; net not given)",
+   "quote": "The Private Placement closed on March 5, 2025."
+  },
+  {
+   "date": null,
+   "net_proceeds_usd": 347000,
+   "what": "Cash from exercise of pre-funded warrants and warrants after December 31, 2024",
+   "quote": "Subsequent to December 31, 2024, the Company received a total of $347 thousand from the exercise of pre-funded warrants for 99,189 shares of common stock and warrants for 71,944 shares of common stock."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 19874360,
+   "exercise_price_usd": 5.77,
+   "expiry": null,
+   "quote": "shares underlying warrants with a weighted average exercise price of $5.77 per share"
+  },
+  {
+   "count": 31882671,
+   "exercise_price_usd": 0.01,
+   "expiry": null,
+   "quote": "31,882,671 shares underlying pre-funded warrants with an exercise price of $0.01 per share"
+  },
+  {
+   "count": 3760726,
+   "exercise_price_usd": 0.01,
+   "expiry": null,
+   "quote": "The pre-funded warrants do not expire and have an exercise price of $0.01."
+  }
+ ],
+ "warrants_dropped": 0
+}

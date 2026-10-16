@@ -1,0 +1,33 @@
+{
+ "id": "1652935_2025-08-25",
+ "asof": "2025-08-25",
+ "chars": 23359,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-08-13",
+   "net_proceeds_usd": 1597000,
+   "what": "Sales of common stock to B. Riley under the Committed Equity Facility, July 1 through Aug 13, 2025 (274,683 shares)",
+   "quote": "the Company issued 274,683 shares of common stock to B. Riley under the Committed Equity Facility (see Note 7) in exchange for net proceeds of approximately $1,597,000."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 666497,
+   "exercise_price_usd": 7.0,
+   "expiry": null,
+   "quote": "issued warrants to purchase up to an aggregate of 666,497 shares of common stock at an exercise price of $7.00 per share."
+  },
+  {
+   "count": 161000,
+   "exercise_price_usd": 10.0,
+   "expiry": "2027-08-12",
+   "quote": "Warrants issued under IPO 161,000 $10.00 August 12, 2027"
+  }
+ ],
+ "warrants_dropped": 0
+}

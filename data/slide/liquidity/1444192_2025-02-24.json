@@ -1,0 +1,45 @@
+{
+ "id": "1444192_2025-02-24",
+ "asof": "2025-02-24",
+ "chars": 25878,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-02-11",
+   "net_proceeds_usd": 13800000,
+   "what": "2025 Private Placement of common stock, pre-funded warrants and common warrants, closed February 11, 2025",
+   "quote": "The 2025 Private Placement closed on February 11, 2025. The net proceeds to the Company were approximately $13,800, after deducting fees and expenses."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 2536391,
+   "exercise_price_usd": 3.003,
+   "expiry": null,
+   "quote": "At December 31, 2024, the Company had outstanding 2023 Common Warrants to purchase 2,536,391 shares of Common Stock, with an exercise price of $3.003"
+  },
+  {
+   "count": 1366373,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "the Company had outstanding 2023 Pre-funded Warrants to purchase 1,366,373 shares of Common Stock, with an exercise price of $0.0001"
+  },
+  {
+   "count": 4418292,
+   "exercise_price_usd": 3.395,
+   "expiry": "2028-09-25",
+   "quote": "Each 2025 Common Warrant is exercisable for one share of Common Stock at an exercise price of $3.395 per share, is immediately exercisable and will expire on the earlier of"
+  },
+  {
+   "count": 1166160,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "pre-funded warrants to purchase up to 1,166,160 shares of Common Stock, at a purchase price equal to the purchase price per Share less $0.0001"
+  }
+ ],
+ "warrants_dropped": 0
+}

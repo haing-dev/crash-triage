@@ -1,0 +1,32 @@
+{
+ "id": "1488039_2025-05-20",
+ "asof": "2025-05-20",
+ "chars": 18772,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 2812500,
+   "exercise_price_usd": 1.0,
+   "expiry": "2025-06-21",
+   "quote": "December 2020 warrants\n\n2,812,500\n\n$\n\n1.00\n\nJune 21, 2025"
+  },
+  {
+   "count": 4500000,
+   "exercise_price_usd": 1.055,
+   "expiry": "2025-07-08",
+   "quote": "January 2021 warrants\n\n4,500,000\n\n$\n\n1.055\n\nJuly 8, 2025"
+  },
+  {
+   "count": 10525000,
+   "exercise_price_usd": 2.88,
+   "expiry": "2025-09-22",
+   "quote": "March 2021 warrants\n\n10,525,000\n\n$\n\n2.88\n\nSeptember 22, 2025"
+  }
+ ],
+ "warrants_dropped": 0
+}

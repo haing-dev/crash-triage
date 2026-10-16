@@ -1,0 +1,33 @@
+{
+ "id": "1856725_2025-10-24",
+ "asof": "2025-10-24",
+ "chars": 29497,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-07-16",
+   "net_proceeds_usd": 3000000,
+   "what": "July 2025 registered direct offering of Class A shares and pre-funded warrants (gross proceeds; net not given)",
+   "quote": "The Offering price was $0.40 per share of Class A common stock and $0.3999 per pre-funded warrant for total gross proceeds of $3.0 million."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 13160172,
+   "exercise_price_usd": 0.65,
+   "expiry": null,
+   "quote": "As of June 30, 2025, there were 13,160,172 Series D warrants outstanding."
+  },
+  {
+   "count": 300000,
+   "exercise_price_usd": 0.7,
+   "expiry": null,
+   "quote": "the Company issued warrants to purchase 300,000 shares of the Company's Class A common stock, $0.0001 par value per share (\"Service Warrants\") to a third party vendor."
+  }
+ ],
+ "warrants_dropped": 0
+}

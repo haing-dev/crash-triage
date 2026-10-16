@@ -1,0 +1,39 @@
+{
+ "id": "1526119_2025-06-03",
+ "asof": "2025-06-03",
+ "chars": 25405,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-04-28",
+   "net_proceeds_usd": 75000000,
+   "what": "2025 Private Placement of common stock and pre-funded warrants (gross proceeds; net not disclosed)",
+   "quote": "The gross proceeds of the 2025 Private Placement were approximately $75.0 million, before deducting placement agent fees and other expenses."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 18333334,
+   "exercise_price_usd": 3.5,
+   "expiry": "2026-01-25",
+   "quote": "Each Warrant has an exercise price equal to $3.50."
+  },
+  {
+   "count": 5000000,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "Each July 2024 Pre-Funded Warrant has an exercise price equal to $0.001 per underlying share of common stock."
+  },
+  {
+   "count": 7285713,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "The exercise price of each April 2025 Pre-Funded Warrant equals $0.0001 per underlying share of common stock."
+  }
+ ],
+ "warrants_dropped": 0
+}

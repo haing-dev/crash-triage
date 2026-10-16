@@ -1,0 +1,45 @@
+{
+ "id": "1558569_2025-09-25",
+ "asof": "2025-09-25",
+ "chars": 26446,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-07-25",
+   "net_proceeds_usd": 3528902,
+   "what": "Underwritten public offering of shares and pre-funded warrants (WestPark), closed July 25, 2025",
+   "quote": "for gross proceeds of approximately $4,000,000 and net proceeds of approximately $3,528,902, after deducting underwriting discounts and commissions and estimated offering expenses payable by the Company."
+  },
+  {
+   "date": "2025-08-04",
+   "net_proceeds_usd": 1750000,
+   "what": "Private placement of common stock and pre-funded warrants; gross proceeds used because net was not given",
+   "quote": "The Private Placement closed on August 4, 2025, and resulted in gross proceeds to the Company of approximately $1.75 million, before deducting placement agent fees and other offering expenses."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 4500,
+   "exercise_price_usd": 200,
+   "expiry": "2026-06-15",
+   "quote": "warrant agreement to purchase up to 4,500 shares of common stock to several affiliates of ThinkEquity (the \u201cUnderwriter Warrants\u201d). The Underwriter Warrants are exercisable at a per share exercise price of $200.00"
+  },
+  {
+   "count": 625,
+   "exercise_price_usd": 160,
+   "expiry": "2031-08-12",
+   "quote": "to purchase 625 shares of common stock of the Company. The Lender Warrant is exercisable at a per share exercise price of $160.00 and is exercisable at any time on or after August 13, 2021 through August 12, 2031."
+  },
+  {
+   "count": 4231639,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "pre-funded warrants to purchase up to 4,231,639 shares of Common Stock (the \u201cPre-Funded Warrants\u201d), at an exercise price of $0.0001 per share."
+  }
+ ],
+ "warrants_dropped": 0
+}

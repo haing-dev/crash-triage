@@ -1,0 +1,45 @@
+{
+ "id": "1962011_2025-09-18",
+ "asof": "2025-09-18",
+ "chars": 9323,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-07-01",
+   "net_proceeds_usd": 3693000,
+   "what": "July 2025 ELOC sale of 3,000,000 shares to Helena (exact July day not given; 2025-07-01 is a placeholder)",
+   "quote": "In\nJuly 2025, in connection with the ELOC agreement with Helena, the Company sold 3,000,000\nshares of its common stock to Helena for net proceeds of $3,693,"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 3750000,
+   "exercise_price_usd": 1.4,
+   "expiry": "2030-07-16",
+   "quote": "The investor also received a warrant to purchase up to 3,750,000 shares of the Company\u2019s common stock\nat an exercise price of $1.40 per share."
+  },
+  {
+   "count": 175000,
+   "exercise_price_usd": 1.4,
+   "expiry": null,
+   "quote": "we are registering 175,000 shares of common stock, exercisable at $1.40 per\nshare, underlying common stock purchase warrants issued to Boustead Securities, LLC and D. Boral Capital LLC"
+  },
+  {
+   "count": 108500,
+   "exercise_price_usd": 4.8,
+   "expiry": null,
+   "quote": "warrants to purchase a total of\n108,500 shares of common stock, exercisable at $4.80 per share."
+  },
+  {
+   "count": 210000,
+   "exercise_price_usd": 0.4,
+   "expiry": null,
+   "quote": "issued warrants to purchase 210,000 shares of common stock to the Placement Agents at exercise prices of $0.40 and $0.46 per share."
+  }
+ ],
+ "warrants_dropped": 0
+}

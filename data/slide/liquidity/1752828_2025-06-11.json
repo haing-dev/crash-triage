@@ -1,0 +1,39 @@
+{
+ "id": "1752828_2025-06-11",
+ "asof": "2025-06-11",
+ "chars": 26319,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-01-24",
+   "net_proceeds_usd": 2460000,
+   "what": "Exercise of 2024 and 2020 warrants at amended $2.07 price (gross proceeds, net not given)",
+   "quote": "the holder agreed to exercise the Warrants for gross proceeds to the Company of approximately $2.46 million."
+  },
+  {
+   "date": "2025-05-01",
+   "net_proceeds_usd": 594000,
+   "what": "Cash advance from sale of accounts receivable to Genesis Equity Group Funding LLC (net of fees)",
+   "quote": "Net funds, after applicable fees, were $594."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 263157,
+   "exercise_price_usd": 2.85,
+   "expiry": null,
+   "quote": "The November Warrants entitle the holder thereof to purchase shares of Class A common stock equal to the principal amount of November Notes purchased by such holder, divided by the exercise price of $2.85 per share."
+  },
+  {
+   "count": 52500,
+   "exercise_price_usd": 3.56,
+   "expiry": null,
+   "quote": "we issued a five-year warrant to the placement agent to purchase 52,500 shares of Class A common stock (the \u201cPlacement Agent Warrants\u201d) at an exercise price equal to 125% of the offering price, or $3.56."
+  }
+ ],
+ "warrants_dropped": 0
+}

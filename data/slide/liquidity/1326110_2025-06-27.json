@@ -1,0 +1,39 @@
+{
+ "id": "1326110_2025-06-27",
+ "asof": "2025-06-27",
+ "chars": 26889,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-04-09",
+   "net_proceeds_usd": 74800000,
+   "what": "Registered direct offering of 29,024,768 shares with accompanying warrants",
+   "quote": "generating net proceeds of approximately $74.8 million, after deducting estimated offering costs"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 29024768,
+   "exercise_price_usd": 3.101,
+   "expiry": "2030-04-09",
+   "quote": "warrants that allows such investor to purchase an additional 29,024,768 shares of common stock at an exercise price of $3.101 per share"
+  },
+  {
+   "count": 14072615,
+   "exercise_price_usd": 3.2946,
+   "expiry": "2026-07-24",
+   "quote": "reducing the exercise price of the warrants from $4.2636 per share to $3.2946 per share and extending the expiration date of the warrants until July 24, 2026."
+  },
+  {
+   "count": 14569296,
+   "exercise_price_usd": 3.2946,
+   "expiry": "2026-07-24",
+   "quote": "the company issued 14,569,296 warrants with an exercise price of $3.2946 per share. These warrants were classified as a liability at their fair value upon issuance."
+  }
+ ],
+ "warrants_dropped": 0
+}

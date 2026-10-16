@@ -1,0 +1,51 @@
+{
+ "id": "1719406_2025-08-06",
+ "asof": "2025-08-06",
+ "chars": 23357,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-04-17",
+   "net_proceeds_usd": 100000,
+   "what": "ATM sales of 64,263 shares after quarter end (gross sales price, net not given; date approximate, the filing gives only 'subsequent to the quarter ended March 31, 2025')",
+   "quote": "The Company sold 64,263 shares of Common Stock with an aggregate sales price of approximately $0.1 million under the Offering Agreement subsequent to the quarter ended March 31, 2025."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": null,
+   "exercise_price_usd": 2.88,
+   "expiry": null,
+   "quote": "the RD Warrants are immediately exercisable upon issuance at an exercise price equal to $2.88 per share of common stock"
+  },
+  {
+   "count": 1349305,
+   "exercise_price_usd": 2.4168,
+   "expiry": null,
+   "quote": "the Company issued warrants to purchase up to 1,349,305 shares of the Company\u2019s Common Stock."
+  },
+  {
+   "count": 1846128,
+   "exercise_price_usd": 1.766,
+   "expiry": null,
+   "quote": "and Warrants to purchase up to 1,846,128 shares of Common Stock."
+  },
+  {
+   "count": null,
+   "exercise_price_usd": 3.78,
+   "expiry": null,
+   "quote": "$3.78 per share for the Warrants issued in the third tranche"
+  },
+  {
+   "count": 270000,
+   "exercise_price_usd": 3.8,
+   "expiry": null,
+   "quote": "issued and sold 270,000 shares of common stock and warrants to purchase up to 270,000 shares of common stock at a price of $3.80 per share"
+  }
+ ],
+ "warrants_dropped": 0
+}

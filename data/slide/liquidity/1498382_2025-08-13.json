@@ -1,0 +1,39 @@
+{
+ "id": "1498382_2025-08-13",
+ "asof": "2025-08-13",
+ "chars": 26438,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-06-06",
+   "net_proceeds_usd": 2230000,
+   "what": "Initial closing of private placement of common stock with warrants (gross proceeds; net not given)",
+   "quote": "The Company received aggregate gross proceeds from the Initial Closing of approximately $2.23 million, before deducting fees to the placement agents and other estimated offering expenses payable by the Company."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 8324808,
+   "exercise_price_usd": 4.52,
+   "expiry": null,
+   "quote": "Legacy TuHURA common stock warrants"
+  },
+  {
+   "count": 10270,
+   "exercise_price_usd": 765.6,
+   "expiry": null,
+   "quote": "Historical Kintara common stock warrants"
+  },
+  {
+   "count": 297029,
+   "exercise_price_usd": 0.01,
+   "expiry": null,
+   "quote": "2024 common stock warrants issued to financial advisor"
+  }
+ ],
+ "warrants_dropped": 0
+}

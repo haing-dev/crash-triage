@@ -1,0 +1,33 @@
+{
+ "id": "1875091_2025-03-31",
+ "asof": "2025-03-31",
+ "chars": 11485,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-12-17",
+   "net_proceeds_usd": 5000000,
+   "what": "December 2024 private placement of shares, pre-funded warrants and ordinary warrants (gross proceeds; net not given)",
+   "quote": "for total gross proceeds to the Company of $5 mil"
+  },
+  {
+   "date": "2024-08-16",
+   "net_proceeds_usd": 1150000,
+   "what": "ATM sales under JonesTrading Sales Agreement (approximate equity increase; gross was $1.2M)",
+   "quote": "This transaction has had the effect of increasing the Company\u2019s shareholders\u2019 equity by approximately $1.15 million"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 1656271,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "(ii) an aggregate of 1,656,271 pre-funded warrants, each representing the right to acquire one ordinary share"
+  }
+ ],
+ "warrants_dropped": 0
+}

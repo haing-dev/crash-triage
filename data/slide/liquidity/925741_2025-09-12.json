@@ -1,0 +1,45 @@
+{
+ "id": "925741_2025-09-12",
+ "asof": "2025-09-12",
+ "chars": 24398,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-08-08",
+   "net_proceeds_usd": 769000,
+   "what": "ATM sales of 296,422 shares, July 1 to Aug 8, 2025 (gross proceeds; net not stated)",
+   "quote": "During the period from July 1, 2025 to August 8, 2025 we sold an aggregate of 296,422 shares of common stock under the ATM Offerings at an average share price of $2.59 for total gross proceeds of $769,000."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 67104,
+   "exercise_price_usd": 6.6,
+   "expiry": "2026-02-13",
+   "quote": "warrants to purchase 67,104 shares of our common stock at an exercise price equal to $6.60 per warrant share"
+  },
+  {
+   "count": 2400000,
+   "exercise_price_usd": 3.0,
+   "expiry": "2029-09-03",
+   "quote": "Each Common Warrant is exercisable at a price per share of $3.00 and expires on September 3, 2029."
+  },
+  {
+   "count": 406818,
+   "exercise_price_usd": 1.905,
+   "expiry": "2030-04-24",
+   "quote": "warrants to purchase an aggregate of 406,818 shares of our common stock at an exercise price equal to $1.905 per share"
+  },
+  {
+   "count": 274696,
+   "exercise_price_usd": 1.95,
+   "expiry": "2030-06-30",
+   "quote": "warrants to purchase an aggregate of 274,696 shares of our common stock at an exercise price equal to $1.95 per share"
+  }
+ ],
+ "warrants_dropped": 0
+}

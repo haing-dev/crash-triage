@@ -1,0 +1,69 @@
+{
+ "id": "1106838_2025-07-18",
+ "asof": "2025-07-18",
+ "chars": 25436,
+ "one_off_receipts": [
+  {
+   "amount_usd": 800000,
+   "what": "Alkem licence upfront payment received (net of tax withholdings; $1.0M gross)",
+   "quote": "Alkem paid us $1.0 million in upfront non-refundable cash payments, which after tax withholdings resulted in net payments of $0.8 million"
+  }
+ ],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-05-13",
+   "net_proceeds_usd": 100000,
+   "what": "Sales of common stock to Chardan under the committed equity facility (date approximate, no later than May 13, 2025)",
+   "quote": "Subsequent to March 31, 2025, the Company sold 42,381 shares of common stock pursuant to the Purchase Agreement for net proceeds of $0.1 million."
+  },
+  {
+   "date": "2025-06-30",
+   "net_proceeds_usd": 2000000,
+   "what": "Bridge convertible notes issued",
+   "quote": "convertible notes in the aggregate principal amount of $2.0 million issued on June 30, 2025"
+  },
+  {
+   "date": "2025-07-15",
+   "net_proceeds_usd": 5500000,
+   "what": "Series 5 preferred PIPE closed (gross; net not given)",
+   "quote": "On July 15, 2025, the Company closed the private placement offering, as reported on July 14, 2025, for gross proceeds of approximately $5.5 million"
+  },
+  {
+   "date": "2025-07-18",
+   "net_proceeds_usd": 10500000,
+   "what": "Proceeds from exercise of outstanding warrants",
+   "quote": "the Company has received proceeds of approximately $10.5 million in connection with the exercise of outstanding warrants"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 2222222,
+   "exercise_price_usd": 4.5,
+   "expiry": "2029-11-07",
+   "quote": "accompanying common warrants to purchase up to an aggregate of 2,222,222 shares of our common stock"
+  },
+  {
+   "count": 1085325,
+   "exercise_price_usd": 2.1,
+   "expiry": "2029-12-10",
+   "quote": "accompanying warrants to purchase up to an aggregate of 1,085,325 shares of our common stock"
+  },
+  {
+   "count": 10664,
+   "exercise_price_usd": 16.0,
+   "expiry": "2028-10-26",
+   "quote": "warrants to purchase 10,664 shares of common stock were issued to the underwriters as compensation for their services related to the offering"
+  },
+  {
+   "count": 8800000,
+   "exercise_price_usd": 1.25,
+   "expiry": null,
+   "quote": "warrants to purchase up to 8,800,000 shares of Company Common Stock"
+  }
+ ],
+ "warrants_dropped": 0
+}
