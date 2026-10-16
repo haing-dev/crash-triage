@@ -1,0 +1,39 @@
+{
+ "id": "1596812_2026-04-07",
+ "asof": "2026-04-07",
+ "chars": 25405,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2026-03-23",
+   "net_proceeds_usd": 18700000,
+   "what": "Lind senior secured convertible promissory note ($21.0M principal) private placement, closed",
+   "quote": "the Company received net proceeds of approximately $18.7 million before offering expenses."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 1750000,
+   "exercise_price_usd": 1.0,
+   "expiry": null,
+   "quote": "a five-year warrant to purchase up to an aggregate of 1,750,000 ordinary shares at an exercise price of $1.00 per share"
+  },
+  {
+   "count": 3571429,
+   "exercise_price_usd": 1.4,
+   "expiry": null,
+   "quote": "Series B warrants to purchase up to 3,571,429 ordinary shares"
+  },
+  {
+   "count": 1891232,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "1,891,232 ordinary shares issuable upon the exercise of pre-funded warrants acquired by certain of the Selling Shareholders"
+  }
+ ],
+ "warrants_dropped": 0
+}

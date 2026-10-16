@@ -1,0 +1,33 @@
+{
+ "id": "1770121_2025-11-05",
+ "asof": "2025-11-05",
+ "chars": 28495,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-08-08",
+   "net_proceeds_usd": 70000000,
+   "what": "Underwritten public offering of common stock and pre-funded warrants, closed August 2025",
+   "quote": "sold 20.9 million shares of its common stock and pre-funded warrants to purchase 1.5 million shares of its common stock for net proceeds of approximately $70.0 million"
+  },
+  {
+   "date": "2025-11-05",
+   "net_proceeds_usd": 28600000,
+   "what": "ATM sales under TD Cowen Sales Agreement from July 1, 2025 through the 10-Q date (exact date not given; entry date used as upper bound)",
+   "quote": "the Company raised $28.6 million in net proceeds under the Sales Agreement"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 12700000,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "The pre-funded warrants have an exercise price of $0.0001 per share of common stock."
+  }
+ ],
+ "warrants_dropped": 0
+}

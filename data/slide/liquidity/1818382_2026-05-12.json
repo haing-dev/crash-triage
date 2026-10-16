@@ -1,0 +1,33 @@
+{
+ "id": "1818382_2026-05-12",
+ "asof": "2026-05-12",
+ "chars": 26906,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2026-03-17",
+   "net_proceeds_usd": 4600000,
+   "what": "TD Cowen ATM sales, Jan 1 to Mar 17, 2026 (date is the last sale date)",
+   "quote": "we sold an aggregate of 4,018,497 shares of Common Stock under the TD Cowen ATM Facility (defined below) at an average price of $1.16 per share for net proceeds of approximately $4.6 million"
+  },
+  {
+   "date": "2026-03-20",
+   "net_proceeds_usd": 18400000,
+   "what": "March 2026 registered direct offering of 25,000,000 shares at $0.80",
+   "quote": "Net proceeds to the Company from the March 2026 Registered Direct Offering were approximately $18,400,000, after deducting the placement agent\u2019s fees and estimated expenses payable by the Company."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 42569928,
+   "exercise_price_usd": null,
+   "expiry": null,
+   "quote": "As of December 31, 2025, we had warrants outstanding to purchase up to an aggregate of 42,569,928 shares of our common stock"
+  }
+ ],
+ "warrants_dropped": 0
+}

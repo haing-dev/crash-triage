@@ -1,0 +1,45 @@
+{
+ "id": "1878313_2025-12-12",
+ "asof": "2025-12-12",
+ "chars": 9320,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-10-01",
+   "net_proceeds_usd": 406697,
+   "what": "ATM sales through H.C. Wainwright since Oct 1, 2025",
+   "quote": "resulting in net proceeds to the Company of approximately $406,697."
+  },
+  {
+   "date": "2025-10-01",
+   "net_proceeds_usd": 2300000,
+   "what": "Private placement of shares and warrants at $1.30 (gross; escrow funds released at closing)",
+   "quote": "for which the Company received gross proceeds of approximately $2.3 million."
+  },
+  {
+   "date": "2025-10-16",
+   "net_proceeds_usd": 736600,
+   "what": "Private placement of shares and warrants at $1.22 (gross)",
+   "quote": "for an aggregate purchase price of approximately $736,600."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 1733766,
+   "exercise_price_usd": 1.57,
+   "expiry": "2028-10-01",
+   "quote": "The warrants are exercisable at a price per share of $1.57, are exercisable commencing six months following issuance, have a term of three years from the issuance date, and expiring on October 1, 2028."
+  },
+  {
+   "count": 603769,
+   "exercise_price_usd": 1.52,
+   "expiry": "2028-10-16",
+   "quote": "The Investor Warrants are exercisable at a price per Investor Share of $1.52"
+  }
+ ],
+ "warrants_dropped": 0
+}

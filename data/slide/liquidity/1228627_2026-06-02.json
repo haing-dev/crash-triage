@@ -1,0 +1,39 @@
+{
+ "id": "1228627_2026-06-02",
+ "asof": "2026-06-02",
+ "chars": 25867,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2026-04-21",
+   "net_proceeds_usd": 34500000,
+   "what": "First tranche of Oberland Capital senior secured notes facility",
+   "quote": "we received net proceeds of approximately $34.5 million from the funding of the first tranche of our senior secured notes facility with Oberland Capital on April 21, 2026"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 21052631,
+   "exercise_price_usd": 0.95,
+   "expiry": "2030-03-24",
+   "quote": "The March 2025 Warrants have an initial exercise price equal to $0.95 per share of common stock and are exercisable for five years from the date of issuance."
+  },
+  {
+   "count": 1176471,
+   "exercise_price_usd": 1.15,
+   "expiry": "2030-03-24",
+   "quote": "Each March 2025 Private Placement Warrant has an initial exercise price of $1.15, expires on the five-year anniversary of the original issuance date"
+  },
+  {
+   "count": 7177033,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "pre-funded warrants to purchase up to an aggregate of 7,177,033 shares of common stock at a purchase price of $2.0899 per pre-funded warrant."
+  }
+ ],
+ "warrants_dropped": 0
+}

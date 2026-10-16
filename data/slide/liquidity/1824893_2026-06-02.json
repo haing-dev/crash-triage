@@ -1,0 +1,33 @@
+{
+ "id": "1824893_2026-06-02",
+ "asof": "2026-06-02",
+ "chars": 21282,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2026-04-30",
+   "net_proceeds_usd": 800000,
+   "what": "Exercise of Series B common stock warrants (70,158 shares), gross proceeds. The filing says only 'April 2026', so the date is a placeholder.",
+   "quote": "In April 2026, Series B common stock warrants were exercised for 70,158 shares of common stock, resulting in gross proceeds of $0.8 million."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 3410065,
+   "exercise_price_usd": 11.54,
+   "expiry": null,
+   "quote": "Each Series E common stock warrant has an exercise price of $11.54 per share, is exercisable immediately and expires five years from the date of issuance."
+  },
+  {
+   "count": 1373000,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "Each pre-funded warrant has an exercise price of $0.0001 per share, is exercisable immediately and will not expire until exercised in full."
+  }
+ ],
+ "warrants_dropped": 0
+}

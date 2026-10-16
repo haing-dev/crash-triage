@@ -1,0 +1,27 @@
+{
+ "id": "1512762_2026-02-13",
+ "asof": "2026-02-13",
+ "chars": 24017,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-10-21",
+   "net_proceeds_usd": 8000000,
+   "what": "Private placement of common stock and $0.01 warrants (aggregate purchase price; net not given)",
+   "quote": "Warrants to purchase an aggregate of 463,498 shares of common stock, each for an exercise price of $0.01 per share, for an aggregate purchase price of $8.0 million."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 463498,
+   "exercise_price_usd": 0.01,
+   "expiry": "2030-10-21",
+   "quote": "Warrants to purchase an aggregate of 463,498 shares of common stock, each for an exercise price of $0.01 per share, for an aggregate purchase price of $8.0 million. The Warrants may be exercised at any time on or before October 21, 2030."
+  }
+ ],
+ "warrants_dropped": 0
+}

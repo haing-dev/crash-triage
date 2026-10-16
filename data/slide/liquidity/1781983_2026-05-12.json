@@ -1,0 +1,57 @@
+{
+ "id": "1781983_2026-05-12",
+ "asof": "2026-05-12",
+ "chars": 30571,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2026-01-30",
+   "net_proceeds_usd": 5200000,
+   "what": "January 2026 private placement of shares, pre-funded warrants and common warrants (gross $5.6M less about $0.4M fees and costs)",
+   "quote": "The aggregate upfront gross proceeds from the issuance of common stock and pre-funded common stock purchase warrants totaled approximately $5.6 million, before deducting placement agent fees and offering costs of approximately $0.4 million."
+  },
+  {
+   "date": "2026-03-31",
+   "net_proceeds_usd": 30000000,
+   "what": "March 2026 private placement, closed; gross proceeds used because net was not given",
+   "quote": "issued a press release regarding the closing of its previously announced private placement for gross proceeds of approximately $30 million."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 1097394,
+   "exercise_price_usd": 7.29,
+   "expiry": null,
+   "quote": "tranche A common stock purchase warrants to purchase up to 1,097,394 shares of our common stock at an exercise price of $7.29 per share"
+  },
+  {
+   "count": 1097394,
+   "exercise_price_usd": 9.1125,
+   "expiry": null,
+   "quote": "tranche B common stock purchase warrants to purchase up to 1,097,394 shares of our common stock at an exercise price of $9.1125 per share"
+  },
+  {
+   "count": 2880533,
+   "exercise_price_usd": 1.04,
+   "expiry": null,
+   "quote": "common stock purchase warrants to purchase up to 2,880,533 shares of our common stock at an exercise price of $1.04 per share"
+  },
+  {
+   "count": 6288857,
+   "exercise_price_usd": 0.765,
+   "expiry": null,
+   "quote": "common stock purchase warrants to purchase up to 6,288,857 shares of our common stock at an exercise price of $0.765 per share"
+  },
+  {
+   "count": 37174713,
+   "exercise_price_usd": 0.683,
+   "expiry": "2029-12-31",
+   "quote": "at an exercise price of $0.683 per share (the \u201cCommon Warrants\u201d and together with the Pre-Funded Warrants, the \u201cWarrants\u201d)."
+  }
+ ],
+ "warrants_dropped": 0
+}

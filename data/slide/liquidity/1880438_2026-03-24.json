@@ -1,0 +1,33 @@
+{
+ "id": "1880438_2026-03-24",
+ "asof": "2026-03-24",
+ "chars": 21470,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2026-03-10",
+   "net_proceeds_usd": 40000000,
+   "what": "Private placement of common stock and pre-funded warrants (gross proceeds; net not given)",
+   "quote": "The Private Placement closed on March 10, 2026."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 2952000,
+   "exercise_price_usd": 1e-05,
+   "expiry": null,
+   "quote": "Each Warrant has an exercise price of $0.00001 per share and does not have an expiration date."
+  },
+  {
+   "count": 5789473,
+   "exercise_price_usd": 1e-05,
+   "expiry": null,
+   "quote": "pre-funded warrants to purchase up to 5,789,473 shares of common stock at a purchase price of $2.84999 per pre-funded warrant"
+  }
+ ],
+ "warrants_dropped": 0
+}

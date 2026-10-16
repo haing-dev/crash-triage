@@ -1,0 +1,45 @@
+{
+ "id": "1841387_2025-11-13",
+ "asof": "2025-11-13",
+ "chars": 25855,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-10-14",
+   "net_proceeds_usd": 50000000,
+   "what": "Trinity LSA First Tranche term loan drawn at closing (gross principal; net proceeds not given)",
+   "quote": "On October 14, 2025, (the Closing Date), we drew down the First Tranche."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 3672484,
+   "exercise_price_usd": 6.81,
+   "expiry": null,
+   "quote": "warrants to purchase 3,672,484 shares of common stock for $6.81 per share (the Series B Warrants)"
+  },
+  {
+   "count": 3672484,
+   "exercise_price_usd": 6.81,
+   "expiry": null,
+   "quote": "additional five-year warrants for the purchase of 3,672,484 shares of common stock for $6.81 per share (the Conditional Series B Warrants)"
+  },
+  {
+   "count": 162740,
+   "exercise_price_usd": 1.46,
+   "expiry": null,
+   "quote": "The warrant provides the beneficiary the right to purchase 162,740 shares of the Company\u2019s common stock, $0.01 par value at an exercise price of $1.46 per share"
+  },
+  {
+   "count": 254642,
+   "exercise_price_usd": 5.89,
+   "expiry": "2035-10-14",
+   "quote": "In connection with the drawdown of the First Tranche, we issued a Lender Warrant to purchase up to 254,642 shares of Common Stock."
+  }
+ ],
+ "warrants_dropped": 0
+}

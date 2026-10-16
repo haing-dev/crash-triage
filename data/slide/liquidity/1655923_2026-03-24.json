@@ -1,0 +1,105 @@
+{
+ "id": "1655923_2026-03-24",
+ "asof": "2026-03-24",
+ "chars": 24382,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-10-02",
+   "net_proceeds_usd": 32890000,
+   "what": "Public offering of common shares and pre-funded warrants, ~$35M gross less ~$2.11M underwriting fees",
+   "quote": "On October 2, 2025, the Company completed a public offering of Common Stock by issuing 4,651,516 shares of Common Stock at a public offering price of $6.25 per share and 948,484 pre-funded warrants"
+  },
+  {
+   "date": "2025-10-17",
+   "net_proceeds_usd": 5250000,
+   "what": "Underwriter over-allotment exercised in full (gross; no fee figure given)",
+   "quote": "On October 17, 2025, the underwriter of the Company\u2019s public offering exercised its over-allotment option in full to purchase an additional 840,000 shares of Common Stock"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 129861,
+   "exercise_price_usd": 7.75,
+   "expiry": "2026-08-31",
+   "quote": "129,861 $7.75 August 31, 2026"
+  },
+  {
+   "count": 35064,
+   "exercise_price_usd": 7.75,
+   "expiry": "2026-10-16",
+   "quote": "35,064 $7.75 October 16, 2026"
+  },
+  {
+   "count": 101000,
+   "exercise_price_usd": 7.75,
+   "expiry": "2026-11-08",
+   "quote": "101,000 $7.75 November 8, 2026"
+  },
+  {
+   "count": 385482,
+   "exercise_price_usd": 7.75,
+   "expiry": "2026-12-22",
+   "quote": "385,482 $7.75 December 22, 2026"
+  },
+  {
+   "count": 720123,
+   "exercise_price_usd": 7.75,
+   "expiry": "2027-01-19",
+   "quote": "720,123 $7.75 January 19, 2027"
+  },
+  {
+   "count": 585609,
+   "exercise_price_usd": 7.23,
+   "expiry": "2028-02-16",
+   "quote": "585,609 $7.23 February 16, 2028"
+  },
+  {
+   "count": 86200,
+   "exercise_price_usd": 7.0,
+   "expiry": "2028-02-16",
+   "quote": "86,200 $ 7.00 (CAD$9.75) February 16, 2028"
+  },
+  {
+   "count": 28796,
+   "exercise_price_usd": 7.0,
+   "expiry": "2028-03-15",
+   "quote": "28,796 $ 7.00 (CAD$9.75) March 15, 2028"
+  },
+  {
+   "count": 262287,
+   "exercise_price_usd": 7.08,
+   "expiry": "2028-03-15",
+   "quote": "262,287 $7.08 March 15, 2028"
+  },
+  {
+   "count": 430805,
+   "exercise_price_usd": 7.19,
+   "expiry": "2029-09-24",
+   "quote": "430,805 $7.19 September 24, 2029"
+  },
+  {
+   "count": 514314,
+   "exercise_price_usd": 7.18,
+   "expiry": "2029-11-08",
+   "quote": "514,314 $7.18 November 8, 2029"
+  },
+  {
+   "count": 215421,
+   "exercise_price_usd": 7.19,
+   "expiry": "2029-11-13",
+   "quote": "215,421 $7.19 November 13, 2029"
+  },
+  {
+   "count": 948484,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "948,484 pre-funded warrants exercisable to Common Stock with an exercise price of $0.001 per share"
+  }
+ ],
+ "warrants_dropped": 0
+}

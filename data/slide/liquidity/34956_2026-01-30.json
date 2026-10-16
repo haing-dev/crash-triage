@@ -1,0 +1,33 @@
+{
+ "id": "34956_2026-01-30",
+ "asof": "2026-01-30",
+ "chars": 21301,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": null,
+   "net_proceeds_usd": 1200000,
+   "what": "Cash received from exercise of pre-funded warrants (115,244 shares) and warrants (221,098 shares) after Sept 30, 2025; exact date not given",
+   "quote": "Subsequent to September 30, 2025, the Company received a total of $1.2 million from the exercise of pre-funded warrants for 115,244 shares of common stock and warrants for 221,098 shares of common stock."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 16666666,
+   "exercise_price_usd": null,
+   "expiry": null,
+   "quote": "accompanying warrants to purchase up to an aggregate of 16,666,666 shares of its common stock"
+  },
+  {
+   "count": 3200000,
+   "exercise_price_usd": null,
+   "expiry": null,
+   "quote": "accompanying warrants to purchase up to an aggregate of 3,200,000 shares of its common stock"
+  }
+ ],
+ "warrants_dropped": 0
+}

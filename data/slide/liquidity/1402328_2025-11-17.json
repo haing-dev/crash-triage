@@ -1,0 +1,39 @@
+{
+ "id": "1402328_2025-11-17",
+ "asof": "2025-11-17",
+ "chars": 14439,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-10-16",
+   "net_proceeds_usd": 724500,
+   "what": "Exercise of 350,000 Series B Warrants",
+   "quote": "On October 16, 2025, the Company issued 350,000 shares of common stock upon the exercise of 350,000 Series B Warrants and received net proceeds of $724,500."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 482,
+   "exercise_price_usd": 220,
+   "expiry": null,
+   "quote": "Tradeable Warrants* 482 $220.00 February 2027"
+  },
+  {
+   "count": 400,
+   "exercise_price_usd": 4000,
+   "expiry": null,
+   "quote": "Investor Warrants 400* $4,000.00* March 2027"
+  },
+  {
+   "count": 15227965,
+   "exercise_price_usd": 2.07,
+   "expiry": null,
+   "quote": "15,577,965 Series B Warrants remained outstanding and their exercise price had been adjusted to $2.07"
+  }
+ ],
+ "warrants_dropped": 0
+}

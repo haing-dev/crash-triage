@@ -1,0 +1,39 @@
+{
+ "id": "1359931_2025-12-18",
+ "asof": "2025-12-18",
+ "chars": 27459,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-12-08",
+   "net_proceeds_usd": 75000000,
+   "what": "Public offering of common stock (gross, net not given)",
+   "quote": "The Offering closed on December 8, 2025."
+  },
+  {
+   "date": "2025-12-15",
+   "net_proceeds_usd": 11300000,
+   "what": "Full exercise of underwriters' option (gross; $86.3M total less $75M initial)",
+   "quote": "Closing for the full exercise of the Underwriters\u2019 Option occurred on December 15, 2025."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": null,
+   "exercise_price_usd": 5.25,
+   "expiry": "2027-04-10",
+   "quote": "The April 2024 Common Warrants are exercisable on or prior to the earlier of (i) April 10, 2027 and (ii) 90 days after the public announcement"
+  },
+  {
+   "count": 2325372,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "to purchase an aggregate of 2,325,372 shares of common stock"
+  }
+ ],
+ "warrants_dropped": 0
+}

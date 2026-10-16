@@ -1,0 +1,38 @@
+{
+ "id": "1426800_2026-01-20",
+ "asof": "2026-01-20",
+ "chars": 20837,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 179500,
+   "exercise_price_usd": 17.0,
+   "expiry": "2029-06-18",
+   "quote": "The 2024 Warrant sold to Gilead has an exercise price equal to $17.00 per share, became immediately exercisable on the date of issuance and will expire on June 18, 2029."
+  },
+  {
+   "count": 1040820,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "Each pre-funded warrant sold in the August 2025 Underwritten Offering carries a nominal exercise price of $0.001 per share, is immediately exercisable and does not expire."
+  },
+  {
+   "count": 4464290,
+   "exercise_price_usd": 21.6,
+   "expiry": "2030-08-11",
+   "quote": "Each Class A warrant sold in the August 2025 Underwritten Offering and August 2025 Private Placement has an exercise price of $21.60 per share, is immediately exercisable and will expire on the earlier of (i) August 11, 2030"
+  },
+  {
+   "count": 4464290,
+   "exercise_price_usd": 21.6,
+   "expiry": null,
+   "quote": "each Class A and Class B warrant has an exercise price of $21.60 per share"
+  }
+ ],
+ "warrants_dropped": 0
+}

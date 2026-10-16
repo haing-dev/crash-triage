@@ -1,0 +1,33 @@
+{
+ "id": "1528115_2026-06-10",
+ "asof": "2026-06-10",
+ "chars": 18772,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2026-05-04",
+   "net_proceeds_usd": 8100000,
+   "what": "2026 ATM program sales after March 31, 2026 (exact closing dates not given; date taken from the 10-Q cover share-count date)",
+   "quote": "we sold 1,305,463 shares of common stock under the 2026 ATM program for net proceeds of approximately $8.1 million, after deducting commissions paid to TD Cowen."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 6877622,
+   "exercise_price_usd": 5.806875,
+   "expiry": "2026-06-30",
+   "quote": "In June 2025, we and holders of common warrants exercisable for 6,877,622 shares of our common stock entered into amendments to the common warrants held by such holders."
+  },
+  {
+   "count": 35765799,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "This number does not include 35,765,799 shares of Common Stock issuable upon the exercise of pre-funded warrants (which are immediately exercisable at an exercise price of $0.001 per share of Common Stock, subject to beneficial ownership limitations)."
+  }
+ ],
+ "warrants_dropped": 0
+}

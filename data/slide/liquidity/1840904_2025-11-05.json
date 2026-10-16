@@ -1,0 +1,39 @@
+{
+ "id": "1840904_2025-11-05",
+ "asof": "2025-11-05",
+ "chars": 29539,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-08-01",
+   "net_proceeds_usd": 50000000,
+   "what": "July 2025 PIPE (common shares plus pre-funded warrant), closed in August 2025. Exact closing day not given, and only gross proceeds are stated.",
+   "quote": "The July 2025 PIPE Financing was subject to the satisfaction or waiver of closing conditions contained in the July Subscription Agreements and was completed in August 2025."
+  },
+  {
+   "date": "2025-10-20",
+   "net_proceeds_usd": 139400000,
+   "what": "October 2025 public offering, closed with underwriters' option exercised in full. Net proceeds are the company's estimate for full option exercise.",
+   "quote": "announced the closing of the Company\u2019s public offering (the \u201cOffering\u201d) of 27,283,750 common shares of the Company, nominal value \u20ac0.10 per share"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 6311006,
+   "exercise_price_usd": 0.01,
+   "expiry": null,
+   "quote": "a pre-funded warrant to purchase 6,311,006 common shares with an exercise price of $0.01 (the \u201cJune 2025 Pre-Funded Warrant\u201d)"
+  },
+  {
+   "count": 4566210,
+   "exercise_price_usd": 0.01,
+   "expiry": null,
+   "quote": "a pre-funded warrant to purchase 4,566,210 common shares with an exercise price of $0.01 (the \u201cJuly 2025 Pre-Funded Warrant\u201d)"
+  }
+ ],
+ "warrants_dropped": 0
+}

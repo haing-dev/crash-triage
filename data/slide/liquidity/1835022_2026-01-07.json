@@ -1,0 +1,33 @@
+{
+ "id": "1835022_2026-01-07",
+ "asof": "2026-01-07",
+ "chars": 23679,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-10-27",
+   "net_proceeds_usd": 23000000,
+   "what": "Underwritten public offering of 4,181,818 shares at $5.50 (incl. full over-allotment); gross proceeds, since net for the full offering is not given",
+   "quote": "Gross proceeds from the Offering, including the proceeds from the exercise by the Underwriter of its option to purchase additional Shares, was approximately $23.0 million"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 131703,
+   "exercise_price_usd": 6.25,
+   "expiry": null,
+   "quote": "Common stock warrants issued to underwriters as compensation for IPO"
+  },
+  {
+   "count": 181174,
+   "exercise_price_usd": 6.0,
+   "expiry": null,
+   "quote": "Common stock warrants issued to placement agent as part of the convertible promissory notes conversion"
+  }
+ ],
+ "warrants_dropped": 0
+}

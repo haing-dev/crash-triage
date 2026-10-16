@@ -1,0 +1,33 @@
+{
+ "id": "1098972_2026-03-30",
+ "asof": "2026-03-30",
+ "chars": 21282,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2026-03-12",
+   "net_proceeds_usd": 800000,
+   "what": "ATM sales under B. Riley Sales Agreement, Jan 1 to Mar 12, 2026",
+   "quote": "During the period of January 1, 2026 through March 12, 2026, we received net proceeds of approximately $0.8 million under the Sales Agreement."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 867052,
+   "exercise_price_usd": 7.5,
+   "expiry": "2029-05-06",
+   "quote": "The Ligand Warrant is exercisable until May 6, 2029."
+  },
+  {
+   "count": 165000,
+   "exercise_price_usd": 3.23,
+   "expiry": null,
+   "quote": "warrants to purchase approximately 1,032,052 shares of our common stock with a weighted average exercise price per share of $15.05 were outstanding."
+  }
+ ],
+ "warrants_dropped": 0
+}

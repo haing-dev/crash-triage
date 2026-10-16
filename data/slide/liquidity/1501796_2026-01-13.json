@@ -1,0 +1,26 @@
+{
+ "id": "1501796_2026-01-13",
+ "asof": "2026-01-13",
+ "chars": 21295,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 3826750,
+   "exercise_price_usd": 4.9,
+   "expiry": null,
+   "quote": "Each common stock warrant has an initial exercise price per share of $4.90, subject to certain adjustments."
+  },
+  {
+   "count": 3571435,
+   "exercise_price_usd": 1e-05,
+   "expiry": null,
+   "quote": "Each pre-funded warrant has an initial exercise price per share of $0.00001, subject to certain adjustments."
+  }
+ ],
+ "warrants_dropped": 0
+}

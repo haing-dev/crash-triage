@@ -1,0 +1,39 @@
+{
+ "id": "1808898_2025-12-17",
+ "asof": "2025-12-17",
+ "chars": 27435,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-11-07",
+   "net_proceeds_usd": 94051694,
+   "what": "Underwritten public offering plus concurrent registered direct offering at $13.50/share, proceeds before expenses. The closing date is not stated in the excerpts, so the date is the 8-K and 424B5 filing date. The over-allotment option is excluded.",
+   "quote": "Proceeds to us (before expenses)"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 101537,
+   "exercise_price_usd": 11.22,
+   "expiry": null,
+   "quote": "exercisable into 1,753,503 shares of common stock at an exercise price of $11.22 per share"
+  },
+  {
+   "count": 588236,
+   "exercise_price_usd": 0.0017,
+   "expiry": null,
+   "quote": "at an exercise price of $0.0017 per share until exercised in full"
+  },
+  {
+   "count": 14681575,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "an exercise price per share equal to $0.0001 per share"
+  }
+ ],
+ "warrants_dropped": 0
+}
