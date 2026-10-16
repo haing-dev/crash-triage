@@ -1,0 +1,26 @@
+{
+ "id": "1314052_2023-03-09",
+ "asof": "2023-03-09",
+ "chars": 22412,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 150000,
+   "exercise_price_usd": 3.17,
+   "expiry": "2024-05-06",
+   "quote": "150,000 $ 3.17 May 6, 2024"
+  },
+  {
+   "count": 10000,
+   "exercise_price_usd": 12.0,
+   "expiry": "2026-04-21",
+   "quote": "10,000 $ 12.00 April 21, 2026"
+  }
+ ],
+ "warrants_dropped": 0
+}

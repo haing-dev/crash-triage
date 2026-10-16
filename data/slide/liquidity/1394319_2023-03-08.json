@@ -1,0 +1,26 @@
+{
+ "id": "1394319_2023-03-08",
+ "asof": "2023-03-08",
+ "chars": 18784,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 150753,
+   "exercise_price_usd": 1.99,
+   "expiry": "2032-09-02",
+   "quote": "warrants to purchase 150,753 shares of our common stock (the RGC Term A Warrants) at an exercise price of $1.99 per underlying share of our common stock"
+  },
+  {
+   "count": 2205018,
+   "exercise_price_usd": 0.01,
+   "expiry": null,
+   "quote": "pre-funded warrants to purchase 2,205,018 shares of our common stock at a purchase price of $1.31 per share of underlying common stock with an exercise price of $0.01 per share of underlying common stock"
+  }
+ ],
+ "warrants_dropped": 0
+}

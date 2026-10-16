@@ -1,0 +1,33 @@
+{
+ "id": "1874252_2023-03-13",
+ "asof": "2023-03-13",
+ "chars": 11478,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2022-01-28",
+   "net_proceeds_usd": 23529700,
+   "what": "Follow-on public offering of 1,725,000 ordinary shares (incl. over-allotment), closed",
+   "quote": "the net proceeds from the Offering were approximately $23,529,700."
+  },
+  {
+   "date": null,
+   "net_proceeds_usd": 382500,
+   "what": "Exercise of warrants for 202,943 shares after year end (exact date not given)",
+   "quote": "Net proceeds received from these exercises was $382,500."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 3707500,
+   "exercise_price_usd": null,
+   "expiry": null,
+   "quote": "we had 3,707,500 warrants exercisable into ordinary shares outstanding"
+  }
+ ],
+ "warrants_dropped": 0
+}
