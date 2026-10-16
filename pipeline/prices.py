@@ -19,6 +19,7 @@ PDIR = ROOT / "data" / "prices"
 STATE = ROOT / "data" / "state" / "prices.json"
 START = "2020-10-01"          # 5 years of crashes + lookback for the first day
 TD, TI = os.environ.get("TWELVEDATA_API_KEY", ""), os.environ.get("TIINGO_API_KEY", "")
+MK = os.environ.get("MASSIVE_API_KEY", "")
 
 
 def load_state():
@@ -71,6 +72,59 @@ def changed(cik, rows):
     return False
 
 
+def massive_daily(st, uni):
+    """Daily update for every still-listed company at once: Massive's grouped daily bars return the close of every
+    US stock for one day in a single call (free plan: 5 calls a minute). New splits are then applied to the stored
+    history, so it stays split-adjusted, and added to the stored split list."""
+    if not MK:
+        return set()
+    by_tick = {u["ticker"].upper(): u["cik"] for u in uni if u["price_source"] == "twelvedata" and u["ticker"]}
+    by_tick["XBI"] = "XBI"
+    last = st.get("massive_last") or (date.today() - timedelta(days=5)).isoformat()
+    d, updated = date.fromisoformat(last) + timedelta(days=1), set()
+    while d <= date.today():
+        if d.weekday() < 5:
+            j = get(f"https://api.massive.com/v2/aggs/grouped/locale/us/market/stocks/{d}?adjusted=true&apiKey={MK}",
+                    headers={"User-Agent": "crash-triage"}) or {}
+            res = j.get("results") or []
+            if res:
+                for r in res:
+                    cik = by_tick.get(str(r.get("T", "")).upper())
+                    if cik and r.get("c"):
+                        save(cik, [(d.isoformat(), f"{r['c']:.6g}")], "massive")
+                        updated.add(cik)
+                st["massive_last"] = d.isoformat()
+            elif d < date.today() - timedelta(days=1):
+                st["massive_last"] = d.isoformat()          # market holiday
+            time.sleep(13)
+        d += timedelta(days=1)
+    # splits since the last check: re-base older closes and add them to the stored list
+    since = st.get("massive_splits_since") or (date.today() - timedelta(days=10)).isoformat()
+    j = get(f"https://api.massive.com/stocks/v1/splits?execution_date.gte={since}&limit=5000&sort=execution_date.asc&apiKey={MK}",
+            headers={"User-Agent": "crash-triage"}) or {}
+    seen = set(st.setdefault("splits_applied", []))
+    for sp in j.get("results") or []:
+        cik = by_tick.get(sp.get("ticker", "").upper())
+        if not cik or cik == "XBI" or sp.get("adjustment_type") not in ("forward_split", "reverse_split") \
+                or sp["id"] in seen or sp["execution_date"] > date.today().isoformat():
+            continue
+        f = sp["split_from"] / sp["split_to"]                  # 1-for-50 reverse split: older closes x 50
+        p = PDIR / f"{cik}.csv"
+        if p.exists():
+            rows = [(r["date"], float(r["close"])) for r in csv.DictReader(p.open()) if r["close"]]
+            save(cik, [(dd, f"{c * f:.6g}" if dd < sp["execution_date"] else f"{c:.6g}") for dd, c in rows], "massive", True)
+        spf = ROOT / "data" / "splits" / f"{cik}.json"
+        lst = json.loads(spf.read_text()) if spf.exists() else {"ticker": sp["ticker"], "splits": []}
+        lst["splits"] = sorted(lst["splits"] + [[sp["execution_date"], sp["split_to"], sp["split_from"]]])
+        lst["checked"] = date.today().isoformat()
+        spf.write_text(json.dumps(lst))
+        st["splits_applied"].append(sp["id"])
+        print(f"split applied: {sp['ticker']} {sp['split_to']}:{sp['split_from']} on {sp['execution_date']}")
+    st["massive_splits_since"] = (date.today() - timedelta(days=3)).isoformat()
+    print(f"massive: updated {len(updated)} companies through {st.get('massive_last')}")
+    return updated
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--twelvedata", type=int, default=380)
@@ -85,8 +139,13 @@ def main():
     budget = {"twelvedata": min(a.twelvedata, 760 - use["twelvedata"]) if TD else 0,
               "tiingo": min(a.tiingo, 950 - use["tiingo"]) if TI else 0}
     got = {"twelvedata": 0, "tiingo": 0}
+    try:
+        for cik in massive_daily(st, uni):
+            st["done"][cik] = today
+    except Exception as e:
+        print("massive daily update failed, falling back to Twelve Data:", str(e)[:200])
     # benchmark: biotech index ETF (XBI), refreshed daily
-    if TD and st["done"].get("XBI", "") < (date.today() - timedelta(days=1)).isoformat() and budget["twelvedata"] > 0:
+    if TD and st["done"].get("XBI", "") < (date.today() - timedelta(days=3)).isoformat() and budget["twelvedata"] > 0:
         try:
             save("XBI", twelvedata("XBI", START), "twelvedata")
             st["done"]["XBI"] = today
@@ -101,7 +160,7 @@ def main():
         last = st["done"].get(cik)
         if src == "tiingo" and last:
             continue                                   # stopped trading: history is complete once fetched
-        if src == "twelvedata" and last and last >= (date.today() - timedelta(days=1)).isoformat():
+        if src == "twelvedata" and last and last >= (date.today() - timedelta(days=3)).isoformat():
             continue                                   # already current
         start = (date.fromisoformat(last) - timedelta(days=7)).isoformat() if last else START
         try:

@@ -1,7 +1,7 @@
 name: collect-inputs
 on:
   schedule:
-    - cron: "37 */6 * * *"      # every 6 hours; new episodes are re-collected until their 30-day insider window has passed
+    - cron: "37 1 * * *"        # daily; new episodes are re-collected until their 30-day insider window has passed
   workflow_dispatch:
     inputs:
       limit: { description: "Episodes per triage this run", default: "4000" }

@@ -1,7 +1,7 @@
 name: read-press-releases
 on:
   schedule:
-    - cron: "47 * * * *"        # hourly; reads the company announcement for crashes not yet read
+    - cron: "47 */6 * * *"      # every 6 hours; reads the announcement for crashes not yet read
   workflow_dispatch:
     inputs:
       limit: { description: "Crashes to read this run", default: "150" }
@@ -16,18 +16,22 @@ jobs:
     timeout-minutes: 55
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with: { python-version: "3.12" }
+      - id: c                      # skip the rest when every crash has been read
+        run: echo "n=$(cd pipeline && python3 pending.py events)" >> "$GITHUB_OUTPUT"
       - uses: actions/setup-node@v4
+        if: steps.c.outputs.n != '0'
         with: { node-version: "22" }
       - name: Install Claude Code
+        if: steps.c.outputs.n != '0'
         run: npm install -g @anthropic-ai/claude-code
       - name: Read announcements
+        if: steps.c.outputs.n != '0'
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
         run: cd pipeline && timeout 50m python events.py --limit ${{ inputs.limit || '150' }} || true
       - name: Save
+        if: steps.c.outputs.n != '0'
         run: |
           git config user.name "crash-triage-bot"
           git config user.email "actions@users.noreply.github.com"

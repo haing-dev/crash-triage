@@ -1,7 +1,5 @@
 name: splits
 on:
-  schedule:
-    - cron: "29 4 * * 1"        # weekly; splits are rare and stored once per company
   workflow_dispatch:
 permissions:
   contents: write

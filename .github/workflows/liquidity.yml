@@ -1,7 +1,7 @@
 name: read-liquidity
 on:
   schedule:
-    - cron: "7 * * * *"         # hourly; reads one-off cash items, financings, warrants and next catalyst per crash (once)
+    - cron: "7 */6 * * *"         # every 6 hours while filings are left to read (one-offs, later financings, warrants; once per episode)
   workflow_dispatch:
     inputs:
       limit: { description: "Crashes to read this run", default: "150" }
@@ -11,7 +11,17 @@ concurrency:
   group: ${{ github.workflow }}
   cancel-in-progress: false
 jobs:
+  pending:                       # one cheap check, so the four readers don't start when nothing is left to read
+    runs-on: ubuntu-latest
+    outputs:
+      n: ${{ steps.c.outputs.n }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: c
+        run: echo "n=$(cd pipeline && python3 pending.py liquidity)" >> "$GITHUB_OUTPUT"
   liquidity:
+    needs: pending
+    if: needs.pending.outputs.n != '0'
     strategy:
       fail-fast: false
       matrix: { kind: [crash, slide], shard: [0, 1] }    # four runners in parallel
