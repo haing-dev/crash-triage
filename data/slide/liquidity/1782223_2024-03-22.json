@@ -1,0 +1,33 @@
+{
+ "id": "1782223_2024-03-22",
+ "asof": "2024-03-22",
+ "chars": 25867,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-01-30",
+   "net_proceeds_usd": 10800000,
+   "what": "ATM sales of 3,600,000 shares (gross proceeds; net not given)",
+   "quote": "On January 30, 2024, we completed the sale of an aggregate of 3,600,000 shares of our common stock under the ATM offering program, with an average sale price of $3.00 per share, resulting in gross proceeds of $10.8 million, before the placement agent fees."
+  },
+  {
+   "date": "2024-02-29",
+   "net_proceeds_usd": 50000000,
+   "what": "Private placement of common stock and pre-funded warrants (gross proceeds; net not given)",
+   "quote": "We received aggregate gross proceeds from the private placement of approximately $50 million, before deducting placement agent fees and offering expenses."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 1611215,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "which represents the per share purchase price of the Shares less the $0.001 per share exercise price for each Pre-Funded Warrant."
+  }
+ ],
+ "warrants_dropped": 0
+}

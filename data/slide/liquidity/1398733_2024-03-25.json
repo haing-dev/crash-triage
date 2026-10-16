@@ -1,0 +1,33 @@
+{
+ "id": "1398733_2024-03-25",
+ "asof": "2024-03-25",
+ "chars": 28420,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-03-04",
+   "net_proceeds_usd": 12014000,
+   "what": "ATM facility sales Jan 1 to Mar 4, 2024",
+   "quote": "sold 4,557,220 shares which generated net proceeds of approximately $12,014."
+  },
+  {
+   "date": "2024-03-22",
+   "net_proceeds_usd": 69800000,
+   "what": "Underwritten public offering of 16,666,667 shares at $4.50 (expected closing; closing not confirmed in the documents)",
+   "quote": "The closing of the offering is expected to occur on March 22, 2024, subject to customary"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 2750000,
+   "exercise_price_usd": 2.6,
+   "expiry": "2029-02-02",
+   "quote": "The New Warrants are exercisable after February 2, 2024, expire on February 2, 2029 and are issuable only for cash"
+  }
+ ],
+ "warrants_dropped": 0
+}

@@ -1,0 +1,33 @@
+{
+ "id": "1536196_2024-03-05",
+ "asof": "2024-03-05",
+ "chars": 5289,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2023-11-24",
+   "net_proceeds_usd": 3000000,
+   "what": "Warrant exercise under inducement letter (gross proceeds; net not stated, closing expected on or about this date)",
+   "quote": "The Company expects to receive aggregate gross proceeds of approximately $3.0 million from the exercise of the Existing Warrants by the Holder, before deducting placement agent fees and other offering expenses payable by the Company."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 3927274,
+   "exercise_price_usd": 1.75,
+   "expiry": null,
+   "quote": "issue new warrants to purchase ADSs, or the New Warrants to purchase up to an aggregate of 3,927,274 ADSs, or the New Warrant Shares, at an exercise price of $1.75 per ADS."
+  },
+  {
+   "count": 1363637,
+   "exercise_price_usd": 1.75,
+   "expiry": "2025-07-24",
+   "quote": "reduce the exercise price of Series B warrants to purchase 1,363,637 ADSs issued in the January 2023 and held by the Holder from $5.50 per ADS to $1.75 per ADS"
+  }
+ ],
+ "warrants_dropped": 0
+}

@@ -1,0 +1,33 @@
+{
+ "id": "1434316_2024-04-12",
+ "asof": "2024-04-12",
+ "chars": 25400,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-03-21",
+   "net_proceeds_usd": 74700000,
+   "what": "Underwritten public offering of 14,545,454 common shares at $5.50",
+   "quote": "The Company estimates that net proceeds from the Offering will be approximately $74.7 million, after deducting the Underwriters\u2019 discounts and commissions and estimated offering expenses payable by the Company."
+  },
+  {
+   "date": "2024-03-21",
+   "net_proceeds_usd": 20000000,
+   "what": "Concurrent private placement of pre-funded warrants to Redmile for 3,636,364 shares",
+   "quote": "The net proceeds to the Company from the sale of the Pre-Funded Warrants are expected to be approximately $20.0 million."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 257310,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "all of the 257,310 prefunded warrants to purchase common stock in our public offering in January 2021"
+  }
+ ],
+ "warrants_dropped": 0
+}

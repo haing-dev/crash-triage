@@ -1,0 +1,39 @@
+{
+ "id": "1711786_2024-04-22",
+ "asof": "2024-04-22",
+ "chars": 27457,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-03-27",
+   "net_proceeds_usd": 4200000,
+   "what": "Warrant inducement: cash exercise of 2,500,000 existing warrants at reduced price of $1.6675 (gross proceeds; net not given)",
+   "quote": "immediately exercise for cash an aggregate 2,500,000 warrants to purchase shares of the Company\u2019s common stock at a reduced exercise price of $1.6675 per share for gross proceeds to the Company of approximately $4.2 million"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 1100000,
+   "exercise_price_usd": 2.505,
+   "expiry": null,
+   "quote": "Each September Common Stock Warrant is exercisable for a period of five years from the issuance date at an exercise price of $2.505 per share"
+  },
+  {
+   "count": 55000,
+   "exercise_price_usd": 3.2875,
+   "expiry": null,
+   "quote": "warrants (\u201cSeptember Wainwright Warrants\u201d) to purchase up to 55,000 shares of the Company\u2019s common stock"
+  },
+  {
+   "count": 3750000,
+   "exercise_price_usd": 1.5,
+   "expiry": "2028-07-03",
+   "quote": "issue new unregistered warrants to purchase up to 3,750,000 shares of the Company\u2019s common stock at an exercise price of $1.50 per share"
+  }
+ ],
+ "warrants_dropped": 0
+}

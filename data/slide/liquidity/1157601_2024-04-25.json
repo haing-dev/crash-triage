@@ -1,0 +1,33 @@
+{
+ "id": "1157601_2024-04-25",
+ "asof": "2024-04-25",
+ "chars": 24991,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-03-21",
+   "net_proceeds_usd": 574000000,
+   "what": "March 2024 underwritten public offering of common stock and pre-funded warrants (expected closing date; the later 8-K's $660.0M aggregate implies it closed)",
+   "quote": "will be approximately $574.0 million, excluding any exercise of the Underwriter\u2019s option to purchase additional shares."
+  },
+  {
+   "date": "2024-04-02",
+   "net_proceeds_usd": 86000000,
+   "what": "Underwriters' option exercise in full, 346,153 additional shares at $260.00",
+   "quote": "The exercise closed on April 2, 2024."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 2048098,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "pre-funded warrants (the \u201cPre-Funded Warrants\u201d) to purchase 2,048,098 shares of common stock at a public offering price of $151.6899 per Pre-Funded Warrant"
+  }
+ ],
+ "warrants_dropped": 0
+}

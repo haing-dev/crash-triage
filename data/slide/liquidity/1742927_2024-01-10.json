@@ -1,0 +1,39 @@
+{
+ "id": "1742927_2024-01-10",
+ "asof": "2024-01-10",
+ "chars": 25416,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2023-11-20",
+   "net_proceeds_usd": 27900000,
+   "what": "Registered direct offering of shares, pre-funded warrants and warrants (expected closing date; the excerpts do not confirm the close)",
+   "quote": "The net proceeds to the Company from the Offering are expected to be approximately $27.9 million, after deducting placement agent fees and expenses and other estimated offering expenses payable by the Company."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 6325000,
+   "exercise_price_usd": 11.5,
+   "expiry": null,
+   "quote": "Each public warrant entitles the holder thereof to purchase one share of common stock at a price of $11.50 per sh"
+  },
+  {
+   "count": 1383399,
+   "exercise_price_usd": 2.4,
+   "expiry": "2027-09-08",
+   "quote": "The 2022 Private Placement Warrants were immediately exercisable upon issuance at an exercise price of $2.40 per share and will expire on September 8, 2027."
+  },
+  {
+   "count": 1383399,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "The 2022 Private Pre-Funded Warrants were immediately exercisable at an exercise price of $0.0001 per share and will expire when the 2022 Private Pre-Funded Warrants are fully exercised."
+  }
+ ],
+ "warrants_dropped": 0
+}

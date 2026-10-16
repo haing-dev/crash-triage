@@ -1,0 +1,51 @@
+{
+ "id": "1752828_2024-02-29",
+ "asof": "2024-02-29",
+ "chars": 26898,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-01-16",
+   "net_proceeds_usd": 6000000,
+   "what": "Dragasac Limited private placement of Class A shares and PIPE Warrants (gross, approximate; net not given)",
+   "quote": "for an aggregate purchase price of approximately $6.00 million. The closing of the private placement occurred on January 16, 2024."
+  },
+  {
+   "date": "2023-10-12",
+   "net_proceeds_usd": 285000,
+   "what": "CEO Promissory Note from Dr. Hariri (receipt of cash assumed from the note's purpose; not stated explicitly)",
+   "quote": "Robert Hariri, M.D., Ph.D., the Company's Chairman and Chief Executive Officer, and the Company signed a promissory note (\"CEO Promissory Note\") for $285"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 5352746,
+   "exercise_price_usd": 0.24898,
+   "expiry": "2029-01-16",
+   "quote": "accompanying warrants to purchase up to 5,352,746 shares of Class A common stock, or the PIPE Warrants"
+  },
+  {
+   "count": 750000,
+   "exercise_price_usd": 0.71,
+   "expiry": null,
+   "quote": "The Starr Warrant has a five-year term and an exercise price of $0.71 per share."
+  },
+  {
+   "count": 500000,
+   "exercise_price_usd": 0.81,
+   "expiry": null,
+   "quote": "additional warrants to acquire up to an aggregate 500,000 shares of its Class A common stock, which additional warrants have a 5-year term and an exercise price of $0.81 per share"
+  },
+  {
+   "count": 3000000,
+   "exercise_price_usd": 0.81,
+   "expiry": null,
+   "quote": "warrants to acquire up to an aggregate of 3,000,000 shares of the Company's Class A common stock (\"RWI Warrants\")"
+  }
+ ],
+ "warrants_dropped": 0
+}
