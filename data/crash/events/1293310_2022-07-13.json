@@ -1,0 +1,44 @@
+{
+ "cik": "1293310",
+ "name": "HUMANIGEN, INC",
+ "ticker": "HGEN",
+ "date": "2022-07-13",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-07-13",
+  "accession": "0001214659-22-008799",
+  "doc": "ex99_1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1293310/000121465922008799/ex99_1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 3-like NIAID trial missed primary endpoint \u00b7 Phase 2/3 platform trial \u00b7 lenzilumab in hospitalized COVID-19 \u00b7 not yet approved",
+  "phase": "Phase 2/3",
+  "drug": "lenzilumab",
+  "indication": "hospitalized COVID-19",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": false,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "The trial did not achieve statistical significance on the primary endpoint, which was defined as the proportion of patients with baseline CRP<150 mg/L and age<85 years, alive and without mechanical ventilation through Day 29.",
+   "primary_endpoint_met": "The trial did not achieve statistical significance on the primary endpoint, which was defined as the proportion of patients with baseline CRP<150 mg/L and age<85 years, alive and without mechanical ventilation through Day 29.",
+   "safety": "There were no new safety signals attributed to lenzilumab in the ACTIV-5/BET-B study.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

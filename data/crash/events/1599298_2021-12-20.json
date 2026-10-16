@@ -1,0 +1,44 @@
+{
+ "cik": "1599298",
+ "name": "Summit Therapeutics Inc.",
+ "ticker": "SMMT",
+ "date": "2021-12-20",
+ "status": "read",
+ "source": {
+  "filing_date": "2021-12-20",
+  "accession": "0001599298-21-000045",
+  "doc": "smmt-20211220.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1599298/000159929821000045/smmt-20211220.htm"
+ },
+ "facts": {
+  "related": false,
+  "trigger": "other",
+  "summary": "Topline Phase III results announced, outcome not stated in filing \u00b7 Phase 3 \u00b7 ridinilazole in C. difficile infection \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "ridinilazole",
+  "indication": "C. difficile infection",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "announced topline results for the Phase III Ri-CoDIFy study evaluating its investigational drug, ridinilazole",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

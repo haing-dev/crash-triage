@@ -1,0 +1,44 @@
+{
+ "cik": "1595353",
+ "name": "Galmed Pharmaceuticals Ltd.",
+ "ticker": "EOCN",
+ "date": "2022-05-02",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-05-02",
+  "accession": "0001493152-22-011702",
+  "doc": "ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1595353/000149315222011702/ex99-1.htm"
+ },
+ "facts": {
+  "related": false,
+  "trigger": "other",
+  "summary": "Annual results and business update with interim open-label fibrosis data, no new drop trigger \u00b7 Phase 3 \u00b7 Aramchol in NASH \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "Aramchol",
+  "indication": "NASH and fibrosis",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "Announced positive interim results from Open-Label part of the ARMOR study showing that treatment with Aramchol 300mg BID resulted in a high rate of fibrosis improvement",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

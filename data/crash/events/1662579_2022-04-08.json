@@ -1,0 +1,44 @@
+{
+ "cik": "1662579",
+ "name": "C4 Therapeutics, Inc.",
+ "ticker": "CCCC",
+ "date": "2022-04-08",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-04-08",
+  "accession": "0001564590-22-013950",
+  "doc": "cccc-ex991_19.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1662579/000156459022013950/cccc-ex991_19.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "safety",
+  "summary": "On-target neutropenia dose-limiting toxicities and weak responses in first cohort \u00b7 Phase 1/2 \u00b7 CFT7455 in multiple myeloma \u00b7 not yet approved",
+  "phase": "Phase 1/2",
+  "drug": "CFT7455",
+  "indication": "multiple myeloma and non-Hodgkin's lymphomas",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": 5,
+   "serious_drug_related_patients": 0,
+   "deaths": 0,
+   "clinical_hold_or_trial_paused": false,
+   "described_as_well_tolerated": false
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "On-Target Dose Limiting Toxicity Observed; Modeling Suggests Differentiated Activity and PK Profile Provides Pathway to Increase Therapeutic Index with Alternative Dosing Schedule",
+   "primary_endpoint_met": null,
+   "safety": "There were no serious adverse events reported and no adverse events resulted in death or treatment discontinuation.",
+   "program_discontinued": "Patients are enrolling in Cohort B1, exploring CFT7455 as a monotherapy for RRMM, and Cohort C, exploring CFT7455 as a monotherapy for NHL."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

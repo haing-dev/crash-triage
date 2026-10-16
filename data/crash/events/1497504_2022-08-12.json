@@ -1,0 +1,44 @@
+{
+ "cik": "1497504",
+ "name": "PLx Pharma Winddown Corp.",
+ "ticker": "PLXP",
+ "date": "2022-08-12",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-08-12",
+  "accession": "0001193805-22-001162",
+  "doc": "e621868_ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1497504/000119380522001162/e621868_ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "commercial miss",
+  "summary": "Weak VAZALORE sales, sales force cut, strategic alternatives review \u00b7 on market \u00b7 VAZALORE aspirin capsules in cardiovascular secondary prevention/pain \u00b7 on market",
+  "phase": "Approved",
+  "drug": "VAZALORE",
+  "indication": "secondary prevention of cardiovascular events and pain relief",
+  "market_stage": "on market",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "These macro elements put pressure on the rate of acceptance of our product in the marketplace and on our commercial resources.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

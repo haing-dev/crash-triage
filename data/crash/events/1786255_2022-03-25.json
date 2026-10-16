@@ -1,0 +1,44 @@
+{
+ "cik": "1786255",
+ "name": "Icosavax, Inc.",
+ "ticker": "ICVX",
+ "date": "2022-03-25",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-03-25",
+  "accession": "0001193125-22-084596",
+  "doc": "d322370d8k.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1786255/000119312522084596/d322370d8k.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Interim immunogenicity below expectations, comparable to or below convalescent sera \u00b7 Phase 1/2 \u00b7 IVX-411 in COVID-19 \u00b7 not yet approved",
+  "phase": "Phase 1/2",
+  "drug": "IVX-411",
+  "indication": "COVID-19 (SARS-CoV-2)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": 0,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "while IVX-411 was immunogenic and well-tolerated in these initial topline data, the level of response was below the Company\u2019s expectations given what it knows about VLPs",
+   "primary_endpoint_met": null,
+   "safety": "There were no serious AEs deemed to be related to vaccine, AEs of special interest, or AEs leading to discontinuation.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

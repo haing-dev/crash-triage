@@ -1,0 +1,44 @@
+{
+ "cik": "1709401",
+ "name": "Rubius Therapeutics, Inc.",
+ "ticker": "RUBY",
+ "date": "2022-04-08",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-04-08",
+  "accession": "0001104659-22-044293",
+  "doc": "tm2212302d1_ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1709401/000110465922044293/tm2212302d1_ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Modest single-agent responses, AML trial not pursued further \u00b7 Phase 1 \u00b7 RTX-240 in advanced solid tumors and AML \u00b7 not yet approved",
+  "phase": "Phase 1",
+  "drug": "RTX-240",
+  "indication": "advanced solid tumors (NSCLC, RCC, anal cancer, uveal melanoma) and relapsed/refractory AML",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": 34,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "disease control was observed in 10 patients (1 partial response, 2 unconfirmed partial responses and 7 with stable disease), 9 of whom had experienced disease progression on prior anti-PD-1/anti-PD-L1 therapy.",
+   "primary_endpoint_met": null,
+   "safety": "RTX-240 has been shown to have been generally well tolerated with no treatment-related or investigator-identified immune-related Grade 3/4 adverse events (AEs) and no dose-limiting toxicities.",
+   "program_discontinued": "to focus our resources on advancing RTX-240 in combination with pembrolizumab in NSCLC and RCC, we do not plan to pursue a separate clinical trial in AML in the near-term."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

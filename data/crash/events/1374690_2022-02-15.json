@@ -1,0 +1,44 @@
+{
+ "cik": "1374690",
+ "name": "Larimar Therapeutics, Inc.",
+ "ticker": "LRMR",
+ "date": "2022-02-15",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-02-14",
+  "accession": "0001193125-22-042209",
+  "doc": "d302075dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1374690/000119312522042209/d302075dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "regulatory delay",
+  "summary": "FDA maintains clinical hold, more data needed; trial timelines reassessed \u00b7 Phase 1 \u00b7 CTI-1601 in Friedreich's ataxia \u00b7 not yet approved",
+  "phase": "Phase 1",
+  "drug": "CTI-1601",
+  "indication": "Friedreich's ataxia",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": 0,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": true,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "FDA stated it is maintaining its clinical hold at this time and that additional data is needed to resolve the clinical hold.",
+   "primary_endpoint_met": null,
+   "safety": "No serious adverse events, important medical events, or treatment-related severe adverse events were reported in the trial",
+   "program_discontinued": "We remain committed to CTI-1601\u2019s further development and are working towards this goal with a strong cash position which provides runway at least into 2023."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

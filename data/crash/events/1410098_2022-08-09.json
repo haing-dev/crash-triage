@@ -1,0 +1,44 @@
+{
+ "cik": "1410098",
+ "name": "CorMedix Inc.",
+ "ticker": "CRMD",
+ "date": "2022-08-09",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-08-09",
+  "accession": "0001213900-22-045631",
+  "doc": "ea164023ex99-1_cormedix.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1410098/000121390022045631/ea164023ex99-1_cormedix.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "regulatory rejection",
+  "summary": null,
+  "phase": "Filed",
+  "drug": "DefenCath",
+  "indication": "prevention of catheter-related bloodstream infections in chronic hemodialysis patients",
+  "market_stage": "filed for approval",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "A second Complete Response Letter (CRL) was received from the FDA stating that the DefenCath New Drug Application (NDA) cannot be approved until deficiencies recently conveyed to the contract manufacturing organization (CMO)",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": "I am confident there is line of sight to FDA approval of the NDA"
+  },
+  "evidence_verified": {
+   "summary": false,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": true
+  }
+ }
+}

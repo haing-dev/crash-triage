@@ -1,0 +1,44 @@
+{
+ "cik": "1466301",
+ "name": "Clovis Oncology, Inc.",
+ "ticker": "CLVS",
+ "date": "2022-05-06",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-05-04",
+  "accession": "0001193125-22-139558",
+  "doc": "d294578dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1466301/000119312522139558/d294578dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Going-concern doubt and near-term capital raise needed despite positive trial result \u00b7 Phase 3 \u00b7 Rubraca in ovarian cancer \u00b7 on market",
+  "phase": "Phase 3",
+  "drug": "Rubraca (rucaparib)",
+  "indication": "first-line maintenance ovarian cancer",
+  "market_stage": "on market",
+  "primary_endpoint_met": true,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "Clovis remains focused on its liquidity position and is committed to raising additional capital in the near term in order to fund its operating plan for the next 12 months and beyond.",
+   "primary_endpoint_met": "successfully achieved the primary endpoint of improved PFS in both populations in the primary efficacy analyses: HRD-positive and all patients randomized (ITT)",
+   "safety": "The safety of Rubraca observed in ATHENA-MONO was consistent with both the current US and European labels.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

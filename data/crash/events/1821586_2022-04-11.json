@@ -1,0 +1,44 @@
+{
+ "cik": "1821586",
+ "name": "MoonLake Immunotherapeutics",
+ "ticker": "MLTX",
+ "date": "2022-04-11",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-04-11",
+  "accession": "0001213900-22-019217",
+  "doc": "ea158227ex99-1_moonlake.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1821586/000121390022019217/ea158227ex99-1_moonlake.htm"
+ },
+ "facts": {
+  "related": false,
+  "trigger": "other",
+  "summary": "SPAC business combination closed, Nasdaq listing as MLTX \u00b7 Phase 2 starting \u00b7 sonelokimab in hidradenitis suppurativa \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "sonelokimab",
+  "indication": "hidradenitis suppurativa",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "MoonLake Immunotherapeutics AG, a clinical-stage biopharmaceutical company elevating care with innovative immunology therapeutics, today announced the closing of its previously announced business combination with Helix Acquisition Corp.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

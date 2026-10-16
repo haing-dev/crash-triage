@@ -1,0 +1,44 @@
+{
+ "cik": "1425205",
+ "name": "IOVANCE BIOTHERAPEUTICS, INC.",
+ "ticker": "IOVA",
+ "date": "2022-05-27",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-05-26",
+  "accession": "0001104659-22-065357",
+  "doc": "tm2217040d1_ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1425205/000110465922065357/tm2217040d1_ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Registrational cohort ORR of 29%, below the prior cohort's 35% \u00b7 Pivotal \u00b7 lifileucel in advanced melanoma \u00b7 BLA planned, not yet approved",
+  "phase": "Phase 2",
+  "drug": "lifileucel",
+  "indication": "advanced (unresectable or metastatic) melanoma",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "In registrational Cohort 4 (n=87), the objective response rate (ORR) by an independent review committee (IRC) using RECIST 1.1 criteria was 29% (95% confidence interval (CI): 19.5%, 39.4%)",
+   "primary_endpoint_met": null,
+   "safety": "The treatment-emergent adverse event profile in both cohorts was consistent with the underlying disease and known adverse event profiles of non-myeloablative lymphodepletion and interleukin-2 (IL-2)",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "cik": "1757499",
+ "name": "Shuttle Pharmaceuticals Holdings, Inc.",
+ "ticker": "SHPH",
+ "date": "2022-09-15",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-09-19",
+  "accession": "0001493152-22-026195",
+  "doc": "form8-k.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1757499/000149315222026195/form8-k.htm"
+ },
+ "facts": {
+  "related": false,
+  "trigger": "other",
+  "summary": "Manufacturing agreement for cGMP drug supply, no drop explained \u00b7 clinical stage \u00b7 Ropidoxuridine in cancer with radiotherapy \u00b7 not yet approved",
+  "phase": "n/a",
+  "drug": "Ropidoxuridine",
+  "indication": "cancer (with radiation therapy)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "TCG GreenChem will manufacture 25 kg of Ropidoxuridine under cGMP (current good manufacturing processes) for use in formulating the drug product for testing in clinical trials",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

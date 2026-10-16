@@ -1,0 +1,44 @@
+{
+ "cik": "1551986",
+ "name": "9 METERS BIOPHARMA, INC.",
+ "ticker": "NMTR",
+ "date": "2022-06-21",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-06-21",
+  "accession": "0001551986-22-000046",
+  "doc": "ex-991pressreleasedated621.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1551986/000155198622000046/ex-991pressreleasedated621.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Interim analysis shows trial too large to continue \u00b7 Phase 3 \u00b7 larazotide in celiac disease \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "larazotide",
+  "indication": "celiac disease",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "the additional number of patients needed to determine a significant clinical outcome between placebo and larazotide is too large to support trial continuation.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

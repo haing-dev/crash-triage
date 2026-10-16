@@ -1,0 +1,44 @@
+{
+ "cik": "1701108",
+ "name": "Spero Therapeutics, Inc.",
+ "ticker": "SPRO",
+ "date": "2022-05-03",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-05-03",
+  "accession": "0001193125-22-137586",
+  "doc": "d241547dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1701108/000119312522137586/d241547dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "regulatory rejection",
+  "summary": "FDA late-cycle feedback says non-inferiority not met; commercialization halted, 75% layoffs \u00b7 Filed \u00b7 tebipenem HBr in cUTI \u00b7 filed for approval",
+  "phase": "Filed",
+  "drug": "tebipenem HBr",
+  "indication": "complicated urinary tract infection (cUTI)",
+  "market_stage": "filed for approval",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "the discussion suggested that the data package may be insufficient to support approval during this review cycle",
+   "primary_endpoint_met": "As a result, the FDA considers that the pre-specified non-inferiority (NI) margin of -12.5%, was not met.",
+   "safety": null,
+   "program_discontinued": "Spero is continuing its dialogue with the FDA, as the company seeks a pathway forward for potential approval of tebipenem HBr."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": false,
+   "program_discontinued": true
+  }
+ }
+}

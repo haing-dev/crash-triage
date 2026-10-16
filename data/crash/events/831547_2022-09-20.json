@@ -1,0 +1,44 @@
+{
+ "cik": "831547",
+ "name": "SPECTRUM PHARMACEUTICALS INC",
+ "ticker": "SPPI",
+ "date": "2022-09-20",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-09-23",
+  "accession": "0001193125-22-250274",
+  "doc": "d382544dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/831547/000119312522250274/d382544dex991.htm"
+ },
+ "facts": {
+  "related": false,
+  "trigger": "financing / dilution",
+  "summary": "Announced $65M term loan facility with $30M funded at closing \u00b7 n/a \u00b7 ROLVEDON (eflapegrastim-xnst) in chemotherapy neutropenia \u00b7 recently approved",
+  "phase": "Approved",
+  "drug": "ROLVEDON (eflapegrastim-xnst)",
+  "indication": "n/a",
+  "market_stage": "on market",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "Spectrum Pharmaceuticals Announces Debt Financing Agreement with SLR Capital Partners with $30 Million Funded at Closing",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

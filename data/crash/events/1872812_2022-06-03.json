@@ -1,0 +1,44 @@
+{
+ "cik": "1872812",
+ "name": "TC BioPharm (Holdings) plc",
+ "ticker": "TCBP",
+ "date": "2022-06-03",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-06-03",
+  "accession": "0001493152-22-015853",
+  "doc": "form6-k.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1872812/000149315222015853/form6-k.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Warrant exercise price reset to $0.50 after $4M discounted ADS offering \u00b7 n/a \u00b7 n/a in n/a \u00b7 n/a",
+  "phase": "n/a",
+  "drug": "n/a",
+  "indication": "n/a",
+  "market_stage": "n/a",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "the Company announced that it has entered into an underwriting agreement with EF Hutton, a division of Benchmark Investments, LLC, for the sale of an aggregate of 10,000,000 ADS for an aggregate purchase price of $4,000,000",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

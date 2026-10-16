@@ -1,0 +1,44 @@
+{
+ "cik": "1674365",
+ "name": "Aptinyx Inc.",
+ "ticker": "APTX",
+ "date": "2022-04-07",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-04-07",
+  "accession": "0001104659-22-043425",
+  "doc": "tm2212134d1_ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1674365/000110465922043425/tm2212134d1_ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Missed primary endpoint, no path forward in painful DPN \u00b7 Phase 2b \u00b7 NYX-2925 in painful diabetic peripheral neuropathy \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "NYX-2925",
+  "indication": "painful diabetic peripheral neuropathy",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": false,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "NYX-2925 did not achieve statistically significant separation from placebo on the study\u2019s primary endpoint, which assessed the change from baseline in average daily pain on the numeric rating scale (NRS) during week 12.",
+   "primary_endpoint_met": "The primary endpoint of the study was not achieved.",
+   "safety": "NYX-2925 was well tolerated in the study, with no concerning safety issues observed.",
+   "program_discontinued": "Unfortunately, the data from this study do not currently point to a path forward in development for painful DPN."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

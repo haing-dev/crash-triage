@@ -1,0 +1,44 @@
+{
+ "cik": "1780097",
+ "name": "Baudax Bio, Inc.",
+ "ticker": "BXRX",
+ "date": "2022-02-25",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-02-24",
+  "accession": "0001193125-22-052252",
+  "doc": "d940271d424b5.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1780097/000119312522052252/d940271d424b5.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Dilutive public offering of stock and warrants with going-concern doubt \u00b7 n/a \u00b7 ANJESO in moderate to severe pain \u00b7 on market",
+  "phase": "Approved",
+  "drug": "ANJESO",
+  "indication": "moderate to severe pain",
+  "market_stage": "on market",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "We are offering shares of our common stock, par value $0.01 per share, and warrants to purchase up to shares of common stock, or the Common Warrants, pursuant to this prospectus supplement",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

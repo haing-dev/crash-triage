@@ -1,0 +1,44 @@
+{
+ "cik": "1689548",
+ "name": "Praxis Precision Medicines, Inc.",
+ "ticker": "PRAX",
+ "date": "2022-06-06",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-06-06",
+  "accession": "0001689548-22-000072",
+  "doc": "prax-20220606.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1689548/000168954822000072/prax-20220606.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Aria trial missed primary and secondary endpoints; other studies halted, workforce cut \u00b7 Phase 2/3 \u00b7 PRAX-114 in major depressive disorder \u00b7 not yet approved",
+  "phase": "Phase 2/3",
+  "drug": "PRAX-114",
+  "indication": "major depressive disorder",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": false,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": true,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "the Phase 2/3 Aria Study evaluating the efficacy and safety of PRAX-114 for monotherapy treatment of major depressive disorder (\u201cMDD\u201d) did not achieve statistical significance on the primary endpoint",
+   "primary_endpoint_met": "did not achieve statistical significance on the primary endpoint of change from baseline in the 17-item Hamilton Depression Rating Scale total score at Day 15, or on any secondary endpoints",
+   "safety": "The Company is stopping enrollment in its Phase 2 study evaluating PRAX-114 for the treatment of post-traumatic stress disorder, and intends to review the safety data once available.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

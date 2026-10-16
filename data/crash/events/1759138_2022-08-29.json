@@ -1,0 +1,44 @@
+{
+ "cik": "1759138",
+ "name": "Cabaletta Bio, Inc.",
+ "ticker": "CABA",
+ "date": "2022-08-29",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-08-29",
+  "accession": "0001193125-22-232575",
+  "doc": "d381073dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1759138/000119312522232575/d381073dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Prioritized combination cohort with IVIg and cyclophosphamide to boost low CAART exposure \u00b7 Phase 1 \u00b7 DSG3-CAART in mucosal pemphigus vulgaris \u00b7 not yet approved",
+  "phase": "Phase 1",
+  "drug": "DSG3-CAART",
+  "indication": "mucosal-dominant pemphigus vulgaris",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "Cabaletta plans to prioritize initiation of the cohort in the combination sub-study (2.5 billion cells in addition to patient pre-treatment with intravenous immunoglobulin [IVIg] and cyclophosphamide)",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

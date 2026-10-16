@@ -1,0 +1,44 @@
+{
+ "cik": "1137883",
+ "name": "BRAINSTORM CELL THERAPEUTICS INC.",
+ "ticker": "BCLI",
+ "date": "2022-11-10",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-11-14",
+  "accession": "0001104659-22-117689",
+  "doc": "tm2230408d1_ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1137883/000110465922117689/tm2230408d1_ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "regulatory rejection",
+  "summary": "FDA refused to file new BLA; company seeks Type A meeting \u00b7 Phase 3 completed \u00b7 NurOwn in ALS \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "NurOwn",
+  "indication": "ALS",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "despite our receipt of a refusal to file letter regarding our new Biologics License Application",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": "Our commitment to ALS patients and our belief in NurOwn\u2019s potential to address their unmet medical needs remains unchanged"
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": true
+  }
+ }
+}

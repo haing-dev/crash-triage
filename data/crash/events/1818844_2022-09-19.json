@@ -1,0 +1,44 @@
+{
+ "cik": "1818844",
+ "name": "Dogwood Therapeutics, Inc.",
+ "ticker": "DWTX",
+ "date": "2022-09-19",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-09-19",
+  "accession": "0001558370-22-014456",
+  "doc": "tmb-20220919xex99d1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1818844/000155837022014456/tmb-20220919xex99d1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 2b missed primary pain endpoint overall; later-enrolled subgroup positive \u00b7 Phase 2 \u00b7 IMC-1 in fibromyalgia \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "IMC-1",
+  "indication": "fibromyalgia",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "Overall, the FORTRESS study did not achieve statistical significance on the prespecified primary efficacy endpoint of change from baseline to Week 14 in the weekly average of daily self-reported average pain severity scores",
+   "primary_endpoint_met": "Overall, the FORTRESS study did not achieve statistical significance on the prespecified primary efficacy endpoint of change from baseline to Week 14 in the weekly average of daily self-reported average pain severity scores comparing IMC-1 to placebo (p=0.302).",
+   "safety": "IMC-1 was well-tolerated overall, with only 4.6% of IMC-1 treated patients dropping out due to adverse events, as compared with 8.1% of placebo treated patients.",
+   "program_discontinued": "We will continue to explore IMC-1\u2019s potential as a viable FM treatment option."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "cik": "1478069",
+ "name": "CONTRAFECT Corp",
+ "ticker": "CFRX",
+ "date": "2022-07-14",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-07-13",
+  "accession": "0001193125-22-192978",
+  "doc": "d369748d8k.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1478069/000119312522192978/d369748d8k.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "DSMB recommended stopping trial for futility at interim analysis \u00b7 Phase 3 \u00b7 exebacase in MRSA bacteremia incl. right-sided endocarditis \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "exebacase",
+  "indication": "methicillin-resistant Staphylococcus aureus bacteremia, including right-sided endocarditis",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "the DSMB recommended that the trial be stopped because the conditional power of the study was below the pre-specified threshold for futility",
+   "primary_endpoint_met": "the DSMB recommended that the trial be stopped because the conditional power of the study was below the pre-specified threshold for futility",
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

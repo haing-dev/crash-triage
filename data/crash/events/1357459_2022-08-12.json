@@ -1,0 +1,44 @@
+{
+ "cik": "1357459",
+ "name": "PALISADE BIO, INC.",
+ "ticker": "PALI",
+ "date": "2022-08-12",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-08-12",
+  "accession": "0001193125-22-219953",
+  "doc": "d390445d424b4.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1357459/000119312522219953/d390445d424b4.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Priced heavily dilutive $12M unit offering with warrants at $0.25 \u00b7 Phase 3 start \u00b7 LB1148 in post-surgical bowel recovery \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "LB1148",
+  "indication": "return of bowel function after GI/abdominal surgery",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "We are offering Class A Units, with each Class A Unit consisting of one share of our common stock, par value $0.01 per share (the \u201ccommon stock\u201d) together with warrants",
+   "primary_endpoint_met": null,
+   "safety": "LB1148 was well tolerated with 10.9% and 4.8% of patients in the LB1148 group and placebo group, respectively, experiencing a drug-related adverse event.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

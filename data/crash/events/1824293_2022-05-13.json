@@ -1,0 +1,44 @@
+{
+ "cik": "1824293",
+ "name": "GRI Bio, Inc.",
+ "ticker": "GRI",
+ "date": "2022-05-13",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-05-13",
+  "accession": "0001628280-22-014382",
+  "doc": "ex991_vlon-pressreleasexre.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1824293/000162828022014382/ex991_vlon-pressreleasexre.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Priced $3.9M registered direct offering with warrants, dilutive \u00b7 Clinical-stage \u00b7 ADAIR in ADHD and narcolepsy \u00b7 not yet approved",
+  "phase": "n/a",
+  "drug": "ADAIR",
+  "indication": "ADHD and narcolepsy",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "entered into definitive agreements with several institutional and accredited investors for the purchase and sale in a registered direct offering of 3,700,000 shares of its common stock, at a purchase price of $1.0632 per share.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

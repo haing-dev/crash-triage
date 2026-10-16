@@ -1,0 +1,44 @@
+{
+ "cik": "1426332",
+ "name": "NGM BIOPHARMACEUTICALS INC",
+ "ticker": "NGM",
+ "date": "2022-10-17",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-10-17",
+  "accession": "0001193125-22-263369",
+  "doc": "d393962dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1426332/000119312522263369/d393962dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 2 trial missed primary endpoint, clean safety \u00b7 Phase 2 \u00b7 NGM621 in geographic atrophy \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "NGM621",
+  "indication": "geographic atrophy secondary to age-related macular degeneration",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": 212,
+   "serious_drug_related_patients": 0,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "Trial did not meet primary endpoint of statistically significant rate of change in GA lesion area using slope analysis over 52 weeks for NGM621 versus sham",
+   "primary_endpoint_met": "Trial did not meet primary endpoint of statistically significant rate of change in GA lesion area using slope analysis over 52 weeks for NGM621 versus sham",
+   "safety": "NGM621 demonstrated a favorable safety profile, with no evidence of increased choroidal neovascularization (CNV) conversions and numerically fewer cases of CNV in NGM621-treated patients compared to sham.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

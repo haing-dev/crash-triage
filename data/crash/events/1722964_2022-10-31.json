@@ -1,0 +1,44 @@
+{
+ "cik": "1722964",
+ "name": "Y-mAbs Therapeutics, Inc.",
+ "ticker": "YMAB",
+ "date": "2022-10-31",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-10-28",
+  "accession": "0001104659-22-112553",
+  "doc": "tm2229210d1_ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1722964/000110465922112553/tm2229210d1_ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "regulatory rejection",
+  "summary": "FDA advisory panel voted 16-0 evidence insufficient for survival benefit \u00b7 Filed (BLA) \u00b7 omburtamab in CNS/leptomeningeal metastasis from neuroblastoma \u00b7 filed for approval",
+  "phase": "Filed",
+  "drug": "131I-omburtamab (OMBLASTYS)",
+  "indication": "CNS/leptomeningeal metastasis from neuroblastoma",
+  "market_stage": "filed for approval",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "The committee voted 16 to 0 that the Company had not provided sufficient evidence to conclude that omburtamab improves overall survival.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": "Y-mAbs is committed to working closely with the FDA on their review of the Biologic License Application (\u201cBLA\u201d) for omburtamab ahead of their decision."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": true
+  }
+ }
+}

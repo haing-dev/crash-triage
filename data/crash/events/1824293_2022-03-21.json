@@ -1,0 +1,44 @@
+{
+ "cik": "1824293",
+ "name": "GRI Bio, Inc.",
+ "ticker": "GRI",
+ "date": "2022-03-21",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-03-21",
+  "accession": "0001824293-22-000019",
+  "doc": "ck00018242493-20220321.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1824293/000182429322000019/ck00018242493-20220321.htm"
+ },
+ "facts": {
+  "related": false,
+  "trigger": "other",
+  "summary": "Top-line pivotal SEAL study results announced, details not given \u00b7 phase not stated \u00b7 ADAIR in ADHD \u00b7 stage not stated",
+  "phase": "n/a",
+  "drug": "ADAIR",
+  "indication": "attention deficit hyperactivity disorder",
+  "market_stage": "n/a",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "announcing top-line results from its pivotal SEAL study evaluating ADAIR, a proprietary abuse-deterrent formulation of immediate release dextroamphetamine for the treatment of attention deficit hyperactivity disorder",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

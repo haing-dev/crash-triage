@@ -1,0 +1,44 @@
+{
+ "cik": "1280776",
+ "name": "IMMUNIC, INC.",
+ "ticker": "IMUX",
+ "date": "2022-10-21",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-10-20",
+  "accession": "0001193805-22-001439",
+  "doc": "e621964_ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1280776/000119380522001439/e621964_ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Interim analysis showed no separation from placebo due to high placebo response \u00b7 Phase 1b \u00b7 IMU-935 in psoriasis \u00b7 not yet approved",
+  "phase": "Phase 1",
+  "drug": "IMU-935",
+  "indication": "moderate-to-severe psoriasis",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": 41,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "the group averages for Psoriasis Area and Severity Index (PASI) reductions in the two active arms did not separate from placebo at four weeks.",
+   "primary_endpoint_met": null,
+   "safety": "administration of IMU-935 and placebo in this trial were demonstrated to be safe and well-tolerated, and no new safety signals were observed.",
+   "program_discontinued": "Company Expects to Continue IMU-935 Development in Psoriasis"
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

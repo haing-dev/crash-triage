@@ -1,0 +1,44 @@
+{
+ "cik": "1213037",
+ "name": "Cardiff Oncology, Inc.",
+ "ticker": "CRDF",
+ "date": "2022-09-13",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-09-12",
+  "accession": "0001628280-22-024744",
+  "doc": "crdf-20220910.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1213037/000162828022024744/crdf-20220910.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "other",
+  "summary": "Announced plan for randomized Phase 2 and response durability data at ESMO \u00b7 Phase 1b/2 \u00b7 onvansertib in KRAS-mutated mCRC \u00b7 not yet approved",
+  "phase": "Phase 1/2",
+  "drug": "onvansertib",
+  "indication": "KRAS-mutated metastatic colorectal cancer (mCRC)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "announcing plans to conduct a randomized Phase 2 trial of onvansertib in combination with standard-of-care (SoC) FOLFIRI/bevacizumab in second-line RAS-mutated mCRC, durability of responses from its ongoing Phase 1b/2 clinical trial",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

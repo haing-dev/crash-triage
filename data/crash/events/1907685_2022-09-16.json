@@ -1,0 +1,44 @@
+{
+ "cik": "1907685",
+ "name": "Comera Life Sciences Holdings, Inc.",
+ "ticker": "CMRA",
+ "date": "2022-09-16",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-09-15",
+  "accession": "0001193125-22-245620",
+  "doc": "d260766d424b3.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1907685/000119312522245620/d260766d424b3.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Resale registration of up to 5,000,000 shares under $15M Arena equity line, risking dilution \u00b7 preclinical \u00b7 SQore platform biologics \u00b7 not yet approved",
+  "phase": "Preclinical",
+  "drug": "SQore platform",
+  "indication": "n/a",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "The sale and issuance of Holdco Common Stock to the Selling Stockholder, if any, will cause dilution to our existing stockholders, and any resales by the Selling Stockholder pursuant to this prospectus may cause the price of Holdco Common Stock to fall.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

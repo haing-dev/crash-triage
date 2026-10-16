@@ -1,0 +1,44 @@
+{
+ "cik": "1411906",
+ "name": "Ampio Pharmaceuticals, Inc.",
+ "ticker": "AMPE",
+ "date": "2022-10-04",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-10-04",
+  "accession": "0001558370-22-014811",
+  "doc": "ampe-20221003xex99d1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1411906/000155837022014811/ampe-20221003xex99d1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "other",
+  "summary": "NYSE American began delisting proceedings over abnormally low share price; trading suspended, moved to OTC Pink \u00b7 n/a \u00b7 n/a \u00b7 n/a",
+  "phase": "n/a",
+  "drug": "n/a",
+  "indication": "n/a",
+  "market_stage": "n/a",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "NYSE Regulation staff determined that the Company is no longer suitable for listing pursuant to Section 1033(f)(v) of the NYSE American Company Guide due to the abnormally low trading price of the Company\u2019s common stock.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

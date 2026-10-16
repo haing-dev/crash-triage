@@ -1,0 +1,44 @@
+{
+ "cik": "1799448",
+ "name": "Aligos Therapeutics, Inc.",
+ "ticker": "ALGS",
+ "date": "2022-01-06",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-01-06",
+  "accession": "0001193125-22-003165",
+  "doc": "d288360d8k.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1799448/000119312522003165/d288360d8k.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Halted development after no meaningful HBsAg reduction at projected efficacious dose \u00b7 Phase 1 \u00b7 ALG-010133 in chronic hepatitis B \u00b7 not yet approved",
+  "phase": "Phase 1",
+  "drug": "ALG-010133",
+  "indication": "chronic hepatitis B",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "at the projected efficacious dose (400 mg, estimated to achieve liver exposures >3 x EC90 for HBsAg inhibition) there is no meaningful HBsAg reduction.",
+   "primary_endpoint_met": "higher doses levels (maximum feasible dose is 600 mg) that were planned to be evaluated in a subsequent cohort are very unlikely to reach the 1 log10 IU/mL HBsAg reduction level that the Company had previously defined as necessary to advance the program.",
+   "safety": "No dose limiting safety findings have been identified in CHB subjects dosed at any dose level.",
+   "program_discontinued": "these data were not sufficient to support further development of ALG-010133 and that dosing should be discontinued."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "cik": "1644963",
+ "name": "AVENUE THERAPEUTICS, INC.",
+ "ticker": "ATXI",
+ "date": "2022-02-16",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-02-16",
+  "accession": "0001104659-22-024086",
+  "doc": "tm226914d1_ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1644963/000110465922024086/tm226914d1_ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "regulatory rejection",
+  "summary": "FDA advisory committee voted 8 yes, 14 no on benefit-risk \u00b7 Filed \u00b7 IV tramadol in acute pain \u00b7 not yet approved",
+  "phase": "Filed",
+  "drug": "IV tramadol",
+  "indication": "acute pain severe enough to require an opioid analgesic in an inpatient setting",
+  "market_stage": "filed for approval",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "The results are 8 yes votes and 14 no votes.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

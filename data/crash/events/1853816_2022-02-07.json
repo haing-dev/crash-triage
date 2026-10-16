@@ -1,0 +1,44 @@
+{
+ "cik": "1853816",
+ "name": "Dermata Therapeutics, Inc.",
+ "ticker": "DRMA",
+ "date": "2022-02-07",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-02-04",
+  "accession": "0001654954-22-001134",
+  "doc": "drma_8k.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1853816/000165495422001134/drma_8k.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "regulatory delay",
+  "summary": "Company sought FDA waivers of preclinical studies; denial could delay Phase 3 start to 2023 \u00b7 Phase 2 \u00b7 DMT310 in acne \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "DMT310",
+  "indication": "acne",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": 170,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "If the FDA grants the waiver request only with respect to the standard dermal pharmacokinetic study, or denies both of waiver requests, the Company may be forced to delay the start of its Phase 3 program into 2023",
+   "primary_endpoint_met": null,
+   "safety": "DMT310 has been used in clinical trials by over 170 human patients exhibiting an acceptable safety and tolerability profile.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

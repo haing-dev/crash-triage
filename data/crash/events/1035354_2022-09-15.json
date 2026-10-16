@@ -1,0 +1,44 @@
+{
+ "cik": "1035354",
+ "name": "Eloxx Pharmaceuticals, Inc.",
+ "ticker": "ELOX",
+ "date": "2022-09-15",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-09-15",
+  "accession": "0001104659-22-100245",
+  "doc": "tm2225930d1_ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1035354/000110465922100245/tm2225930d1_ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 2 combination trial missed efficacy endpoints, drug well tolerated \u00b7 Phase 2 \u00b7 ELX-02 in Class 1 cystic fibrosis \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "ELX-02",
+  "indication": "Class 1 cystic fibrosis (nonsense mutation)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": 0,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "The combination trial of ELX-02 with ivacaftor was well tolerated but did not achieve statistical significance for efficacy endpoints, including changes from baseline in sweat chloride concentration (SCC) and percent forced expiratory volume (FEV1).",
+   "primary_endpoint_met": "Overall, the study did not achieve statistical significance for efficacy endpoints in the Phase 2 study in Class 1 CF for efficacy endpoints, including changes from baseline in SCC and FEV1.",
+   "safety": "ELX-02 was generally well tolerated in the trial, with no treatment-related serious adverse events noted.",
+   "program_discontinued": "Path forward for ELX-02 for the treatment of Class 1 CF to be determined together with CF Foundation"
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

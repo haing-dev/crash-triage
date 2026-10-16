@@ -1,0 +1,44 @@
+{
+ "cik": "1656634",
+ "name": "Gritstone bio, Inc.",
+ "ticker": "GRTS",
+ "date": "2022-01-04",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-01-04",
+  "accession": "0001193125-22-001861",
+  "doc": "d199614dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1656634/000119312522001861/d199614dex991.htm"
+ },
+ "facts": {
+  "related": false,
+  "trigger": "other",
+  "summary": "Positive early immunogenicity and safety data reported, no negative news \u00b7 Phase 1 \u00b7 CORAL samRNA vaccine in COVID-19 booster \u00b7 not yet approved",
+  "phase": "Phase 1",
+  "drug": "CORAL samRNA vaccine (Spike plus T cell epitopes)",
+  "indication": "COVID-19 (booster in adults \u226560 years)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": 10,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "Gritstone Announces Positive Clinical Results from First Cohort of a Phase 1 Study (CORAL-BOOST)",
+   "primary_endpoint_met": null,
+   "safety": "CORAL\u2019s samRNA vaccine was well-tolerated and demonstrated a favorable safety profile with no grade 3/4 adverse events or unexpected reactogenicity or safety events in ten healthy adults",
+   "program_discontinued": "Gritstone is amending this trial to increase enrollment to 120 subjects and evaluate the addition of a second samRNA-Spike-TCE dose"
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

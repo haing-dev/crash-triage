@@ -1,0 +1,44 @@
+{
+ "cik": "1300699",
+ "name": "Athenex, Inc.",
+ "ticker": "ATNX",
+ "date": "2022-08-11",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-08-12",
+  "accession": "0001193125-22-219886",
+  "doc": "d365282d424b5.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1300699/000119312522219886/d365282d424b5.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Dilutive public offering priced at $0.75 vs $1.11 close, with warrants \u00b7 n/a \u00b7 n/a in n/a \u00b7 n/a",
+  "phase": "n/a",
+  "drug": "n/a",
+  "indication": "n/a",
+  "market_stage": "n/a",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "The public offering price is $0.75 per share of common stock and accompanying common warrant.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

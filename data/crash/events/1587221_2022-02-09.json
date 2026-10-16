@@ -1,0 +1,44 @@
+{
+ "cik": "1587221",
+ "name": "Zosano Pharma Corp",
+ "ticker": "ZSAN",
+ "date": "2022-02-09",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-02-09",
+  "accession": "0001193125-22-032875",
+  "doc": "d484151d8k.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1587221/000119312522032875/d484151d8k.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Dilutive $0.30 unit offering and going-concern liquidity warning \u00b7 NDA resubmission pending \u00b7 M207 \u00b7 not yet approved",
+  "phase": "Filed",
+  "drug": "M207",
+  "indication": "n/a",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "the public offering by the Company of 51,250,000 units (\u201cUnits\u201d), each consisting of one share of common stock, par value $0.0001 per share, of the Company (the \u201cCommon Stock\u201d) and one Series F Common Stock Purchase Warrant",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

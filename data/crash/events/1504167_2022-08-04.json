@@ -1,0 +1,44 @@
+{
+ "cik": "1504167",
+ "name": "TREX WIND-DOWN, INC.",
+ "ticker": "TMBR",
+ "date": "2022-08-04",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-08-05",
+  "accession": "0001104659-22-086689",
+  "doc": "tm2220067-5_424b4.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1504167/000110465922086689/tm2220067-5_424b4.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Priced $8M offering with warrants at $0.12, well below $0.1728 prior close \u00b7 Phase 3 \u00b7 TMB-001 in congenital ichthyosis \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "TMB-001",
+  "indication": "congenital ichthyosis",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": 0,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "We are offering 46,583,333 shares of common stock, together with common warrants to purchase an equal number of shares of common stock at a combined public offering price of $0.12 per share",
+   "primary_endpoint_met": null,
+   "safety": "TMB-001 was generally well tolerated with a similar incidence of adverse events (AEs) across treatment groups.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

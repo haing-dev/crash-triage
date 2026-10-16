@@ -1,0 +1,44 @@
+{
+ "cik": "1571498",
+ "name": "Epizyme, Inc.",
+ "ticker": "EPZM",
+ "date": "2022-01-27",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-01-27",
+  "accession": "0001193125-22-019951",
+  "doc": "d301490d8k.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1571498/000119312522019951/d301490d8k.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Priced dilutive public offering of 56.7M shares at $1.50 \u00b7 n/a \u00b7 n/a \u00b7 on market",
+  "phase": "n/a",
+  "drug": "n/a",
+  "indication": "n/a",
+  "market_stage": "on market",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "relating to an underwritten public offering (the \u201cOffering\u201d) of 56,666,667 shares (the \u201cShares\u201d) of the Company\u2019s common stock, par value $0.0001 per share (the \u201cCommon Stock\u201d) at a public offering price of $1.50 per share.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

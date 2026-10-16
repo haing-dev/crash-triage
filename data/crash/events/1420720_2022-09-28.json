@@ -1,0 +1,44 @@
+{
+ "cik": "1420720",
+ "name": "iBio, Inc.",
+ "ticker": "IBIO",
+ "date": "2022-09-28",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-09-27",
+  "accession": "0001420720-22-000054",
+  "doc": "ibio-20220927xex99d1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1420720/000142072022000054/ibio-20220927xex99d1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Going-concern warning, 1-for-25 reverse split, and IBIO-202 IND dropped after failed hamster challenge \u00b7 Preclinical \u00b7 IBIO-202 in COVID-19 \u00b7 not yet approved",
+  "phase": "Preclinical",
+  "drug": "IBIO-202",
+  "indication": "COVID-19",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "The Company has concluded there is substantial doubt about the Company\u2019s ability to continue as a going concern.",
+   "primary_endpoint_met": "data derived from recent IND-enabling challenge studies in immunologically na\u00efve hamsters showed that IBIO-202 did not provide protective effect as an \u201cN-only\u201d vaccine.",
+   "safety": null,
+   "program_discontinued": "we have decided not to proceed with an IND submission for IBIO-202, our multi-variant COVID-19 vaccine candidate."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": false,
+   "program_discontinued": true
+  }
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "cik": "1827506",
+ "name": "Tourmaline Bio, Inc.",
+ "ticker": "TRML",
+ "date": "2022-07-01",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-06-30",
+  "accession": "0001193125-22-186259",
+  "doc": "d376486dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1827506/000119312522186259/d376486dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "safety",
+  "summary": "Three grade II acute GvHD cases and protocol change disclosed \u00b7 Phase 3 \u00b7 FCR001 in living donor kidney transplant \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "FCR001",
+  "indication": "living donor kidney transplant (immune tolerance)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": 7,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": false,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "Three cases of low-grade aGvHD; all cases were treatment responsive and resolved Cases were grade II, with symptoms limited to skin and/or GI",
+   "primary_endpoint_met": null,
+   "safety": "No events occurred that caused data monitoring committee (DMC) to stop the study; no stopping rules triggered Three cases of low-grade aGvHD; all cases were treatment responsive and resolved",
+   "program_discontinued": "Trial enrollment continues without interruption"
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "cik": "1564824",
+ "name": "Allakos Inc.",
+ "ticker": "ALLK",
+ "date": "2021-12-22",
+ "status": "read",
+ "source": {
+  "filing_date": "2021-12-22",
+  "accession": "0000950170-21-005310",
+  "doc": "allk-ex99_1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1564824/000095017021005310/allk-ex99_1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Missed symptom co-primary endpoints despite histology success \u00b7 Phase 3 and Phase 2/3 \u00b7 lirentelimab in eosinophilic GI diseases \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "lirentelimab (AK002)",
+  "indication": "eosinophilic gastritis/duodenitis and eosinophilic esophagitis",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "Both ENIGMA 2 and KRYPTOS studies met their histologic co-primary endpoints, but did not achieve statistical significance on the patient reported symptomatic co-primary endpoints.",
+   "primary_endpoint_met": "Lirentelimab met histologic co-primary endpoints but missed symptomatic co-primary endpoints in both ENIGMA and KRYPTOS studies",
+   "safety": "The safety results of the trial were generally consistent with previously reported lirentelimab studies. No new safety signals were observed.",
+   "program_discontinued": "At present we intend to continue our development efforts with subcutaneous lirentelimab in atopic dermatitis, chronic spontaneous urticaria, and asthma."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

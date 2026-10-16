@@ -1,0 +1,44 @@
+{
+ "cik": "1814140",
+ "name": "Apexigen, Inc.",
+ "ticker": "APGN",
+ "date": "2022-08-02",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-08-01",
+  "accession": "0001193125-22-207863",
+  "doc": "d387414dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1814140/000119312522207863/d387414dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "SPAC business combination closed with $19.0M gross proceeds, Nasdaq debut \u00b7 Phase 2 \u00b7 sotigalimab in solid tumors \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "sotigalimab",
+  "indication": "solid tumors (melanoma, pancreatic cancer, esophageal cancer)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "Gross proceeds from this transaction totaled $19.0 million, which included funds held in BCAC\u2019s trust account and a concurrent private placement investment in public equity (\u201cPIPE\u201d) financing.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

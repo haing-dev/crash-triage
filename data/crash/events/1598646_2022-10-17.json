@@ -1,0 +1,44 @@
+{
+ "cik": "1598646",
+ "name": "Minerva Neurosciences, Inc.",
+ "ticker": "NERV",
+ "date": "2022-10-17",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-10-17",
+  "accession": "0001193125-22-263403",
+  "doc": "d370453dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1598646/000119312522263403/d370453dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "regulatory rejection",
+  "summary": "FDA refused to file NDA \u00b7 NDA submitted \u00b7 roluperidone in negative symptoms of schizophrenia \u00b7 not yet approved",
+  "phase": "Filed",
+  "drug": "roluperidone",
+  "indication": "negative symptoms of schizophrenia",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "announced that the company has received a refusal to file letter from the U.S. Food and Drug Administration (FDA) regarding the company\u2019s New Drug Application (NDA) for roluperidone",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": "Our goal remains to provide a new and much needed therapeutic option to help patients and their families"
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": true
+  }
+ }
+}

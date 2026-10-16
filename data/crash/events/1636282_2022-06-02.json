@@ -1,0 +1,44 @@
+{
+ "cik": "1636282",
+ "name": "Spyre Therapeutics, Inc.",
+ "ticker": "SYRE",
+ "date": "2022-06-02",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-06-02",
+  "accession": "0001193125-22-165841",
+  "doc": "d362890d8k.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1636282/000119312522165841/d362890d8k.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "regulatory rejection",
+  "summary": "FDA refused to file BLA, wants efficacy evidence and CMC info \u00b7 Filed (BLA) \u00b7 pegzilarginase in Arginase 1 Deficiency \u00b7 not yet approved",
+  "phase": "Filed",
+  "drug": "pegzilarginase",
+  "indication": "Arginase 1 Deficiency",
+  "market_stage": "filed for approval",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "announced that it received a Refusal to File letter (the \u201cRTF letter\u201d) from the U.S. Food and Drug Administration (the \u201cFDA\u201d) regarding the Company\u2019s Biologics License Application (\u201cBLA\u201d) for pegzilarginase",
+   "primary_endpoint_met": null,
+   "safety": "There were no issues related to safety raised in the RTF letter.",
+   "program_discontinued": "The Company intends to request a Type A meeting with the FDA to clarify and respond to the items identified in the RTF letter."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

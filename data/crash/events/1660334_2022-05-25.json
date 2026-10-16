@@ -1,0 +1,44 @@
+{
+ "cik": "1660334",
+ "name": "Verrica Pharmaceuticals Inc.",
+ "ticker": "VRCA",
+ "date": "2022-05-25",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-05-25",
+  "accession": "0001193125-22-159075",
+  "doc": "d306825d8k.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1660334/000119312522159075/d306825d8k.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "regulatory rejection",
+  "summary": "FDA complete response letter due to contract manufacturer inspection deficiencies \u00b7 Filed \u00b7 VP-102 in molluscum contagiosum \u00b7 filed for approval",
+  "phase": "Filed",
+  "drug": "VP-102",
+  "indication": "molluscum contagiosum",
+  "market_stage": "filed for approval",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "received a complete response letter (\u201cCRL\u201d) from the U.S. Food and Drug Administration (the \u201cFDA\u201d) as a direct result of deficiencies identified at a general reinspection of a facility of Sterling Pharmaceutical Services, LLC",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

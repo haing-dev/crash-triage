@@ -1,0 +1,44 @@
+{
+ "cik": "1810560",
+ "name": "REVELATION BIOSCIENCES, INC.",
+ "ticker": "REVB",
+ "date": "2022-07-26",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-07-27",
+  "accession": "0001213900-22-042058",
+  "doc": "ea163404-424b3_revelation.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1810560/000121390022042058/ea163404-424b3_revelation.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 1b efficacy endpoints missed, dilutive $5M offering at $0.60 \u00b7 Phase 1b \u00b7 REVTx-99b in allergic rhinitis \u00b7 not yet approved",
+  "phase": "Phase 1",
+  "drug": "REVTx-99b",
+  "indication": "allergic rhinitis",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": true,
+  "subgroup_or_secondary_positive": false,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "Exploratory endpoints for efficacy were not met. This includes no reduction in allergy symptoms (Total Nasal Symptom Score) and no increase in peak nasal inspiratory flow versus placebo.",
+   "primary_endpoint_met": "The primary endpoint to evaluate the effects of REVTx-99b versus placebo on safety and tolerability was met.",
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

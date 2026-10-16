@@ -1,0 +1,44 @@
+{
+ "cik": "1377121",
+ "name": "Protagonist Therapeutics, Inc",
+ "ticker": "PTGX",
+ "date": "2022-04-26",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-04-26",
+  "accession": "0001104659-22-049856",
+  "doc": "tm2213399d1_ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1377121/000110465922049856/tm2213399d1_ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 2 missed primary endpoint at 450 mg, 150 mg marginal (p=0.08) \u00b7 Phase 2 \u00b7 PN-943 in ulcerative colitis \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "PN-943",
+  "indication": "ulcerative colitis",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "While the 450 mg BID dose did not meet the prespecified primary endpoint, the 150 mg dose achieved a placebo versus treatment delta of 13% (p=0.08) in the modified Intent to Treat (mITT) group",
+   "primary_endpoint_met": "While the 450 mg BID dose did not meet the prespecified primary endpoint, the 150 mg dose achieved a placebo versus treatment delta of 13% (p=0.08) in the modified Intent to Treat (mITT) group",
+   "safety": "Safety analysis similar for the 150 mg BID dose versus the placebo group",
+   "program_discontinued": "Plans underway for a registrational Phase 3 study anchored around twice daily 150 mg dose of PN-943, pending regulatory guidance"
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

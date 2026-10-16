@@ -1,0 +1,44 @@
+{
+ "cik": "1743881",
+ "name": "BridgeBio Pharma, Inc.",
+ "ticker": "BBIO",
+ "date": "2021-12-27",
+ "status": "read",
+ "source": {
+  "filing_date": "2021-12-27",
+  "accession": "0001193125-21-366669",
+  "doc": "d285149dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1743881/000119312521366669/d285149dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Missed primary 6-minute walk endpoint at Month 12 \u00b7 Phase 3 \u00b7 acoramidis in ATTR-CM \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "acoramidis",
+  "indication": "transthyretin amyloid cardiomyopathy (ATTR-CM)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": false,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "ATTRibute-CM did not meet its primary endpoint at Month 12.",
+   "primary_endpoint_met": "In the primary analysis, change from baseline in 6MWD was not improved in the acoramidis arm relative to the placebo arm (p = 0.76)",
+   "safety": "Acoramidis was generally well-tolerated with no safety signals of clinical concern identified.",
+   "program_discontinued": "The ATTRibute-CM independent data monitoring committee recommends continuing the study based on unblinded data reviews."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

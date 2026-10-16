@@ -1,0 +1,44 @@
+{
+ "cik": "1517022",
+ "name": "Akebia Therapeutics, Inc.",
+ "ticker": "AKBA",
+ "date": "2022-03-30",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-03-30",
+  "accession": "0001193125-22-089998",
+  "doc": "d321381dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1517022/000119312522089998/d321381dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "regulatory rejection",
+  "summary": "FDA issued complete response letter citing unfavorable benefit-risk \u00b7 Filed (NDA) \u00b7 vadadustat in anemia due to CKD \u00b7 not yet approved in US",
+  "phase": "Filed",
+  "drug": "vadadustat",
+  "indication": "anemia due to chronic kidney disease",
+  "market_stage": "filed for approval",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "The FDA concluded that the data in the NDA do not support a favorable benefit-risk assessment of vadadustat for dialysis and non-dialysis patients.",
+   "primary_endpoint_met": "failure to meet non-inferiority in MACE in the non-dialysis patient population",
+   "safety": "the increased risk of thromboembolic events, driven by vascular access thrombosis in dialysis patients, and the risk of drug-induced liver injury",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

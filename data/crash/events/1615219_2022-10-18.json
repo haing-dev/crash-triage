@@ -1,0 +1,44 @@
+{
+ "cik": "1615219",
+ "name": "Decoy Therapeutics Inc.",
+ "ticker": "DCOY",
+ "date": "2022-10-18",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-10-18",
+  "accession": "0001615219-22-000137",
+  "doc": "flks-20221018.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1615219/000161521922000137/flks-20221018.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "safety",
+  "summary": "Paused new patient enrollment after suspected unexpected serious adverse reaction death \u00b7 Phase 1/2 \u00b7 seclidemstat in Ewing and FET-rearranged sarcomas \u00b7 not yet approved",
+  "phase": "Phase 1/2",
+  "drug": "seclidemstat",
+  "indication": "Ewing sarcoma and FET-rearranged sarcomas",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": 1,
+   "deaths": 1,
+   "clinical_hold_or_trial_paused": true,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "the Company is voluntarily pausing new patient enrollment in the Company\u2019s Phase 1/2 trial of seclidemstat as a treatment for Ewing sarcoma and FET-rearranged sarcomas",
+   "primary_endpoint_met": null,
+   "safety": "due to an FET-rearranged sarcoma patient death which was classified as a suspected unexpected serious adverse reaction",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

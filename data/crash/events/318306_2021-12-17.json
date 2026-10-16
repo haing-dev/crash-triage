@@ -1,0 +1,44 @@
+{
+ "cik": "318306",
+ "name": "ABEONA THERAPEUTICS INC.",
+ "ticker": "ABEO",
+ "date": "2021-12-17",
+ "status": "read",
+ "source": {
+  "filing_date": "2021-12-17",
+  "accession": "0001493152-21-031904",
+  "doc": "ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/318306/000149315221031904/ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Priced dilutive $17.5M offering of stock and warrants at $0.39 \u00b7 Phase 3 \u00b7 EB-101 in recessive dystrophic epidermolysis bullosa \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "EB-101",
+  "indication": "recessive dystrophic epidermolysis bullosa",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "announced the pricing of its underwritten public offering of 44,700,000 shares of its common stock and warrants to purchase 44,700,000 shares of its common stock at a combined offering price to the public of $0.39",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

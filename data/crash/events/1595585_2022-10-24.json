@@ -1,0 +1,44 @@
+{
+ "cik": "1595585",
+ "name": "Tricida, Inc.",
+ "ticker": "TCDA",
+ "date": "2022-10-24",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-10-24",
+  "accession": "0001595585-22-000077",
+  "doc": "tcda-20221024.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1595585/000159558522000077/tcda-20221024.htm"
+ },
+ "facts": {
+  "related": false,
+  "trigger": "other",
+  "summary": "Company announced top-line VALOR-CKD data via press release and call; results not stated in filing \u00b7 Phase 3 \u00b7 drug and indication not named \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "n/a",
+  "indication": "n/a",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "On October 24, 2022, Tricida, Inc. (the \"Company\") issued a press release providing top-line data from the VALOR-CKD renal outcomes clinical trial.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "cik": "1513525",
+ "name": "ADIAL PHARMACEUTICALS, INC.",
+ "ticker": "ADIL",
+ "date": "2022-07-20",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-07-20",
+  "accession": "0001213900-22-040399",
+  "doc": "ea1630859ex99-1_adialpharma.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1513525/000121390022040399/ea1630859ex99-1_adialpharma.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 3 missed pre-specified primary analysis; benefit only in heavy-drinker subgroup \u00b7 Phase 3 \u00b7 AD04 in alcohol use disorder \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "AD04",
+  "indication": "Alcohol Use Disorder",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": 0,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "AD04 patients, compared with placebo patients, showed a trend in the reduction from baseline at month six in heavy drinking days for the combined trial population of heavy and very heavy drinkers (p=NS)",
+   "primary_endpoint_met": "A similar, non-statistically significant trend was seen in the combined months five and six analysis in the reduction from baseline, which was the pre-specified primary efficacy analysis.",
+   "safety": "No SAEs were determined to be related to AD04 treatment.",
+   "program_discontinued": "we intend to advance AD04. We will work with regulatory authorities in Europe and the U.S. to achieve this goal."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "cik": "1854270",
+ "name": "Senti Biosciences Holdings, Inc.",
+ "ticker": "SNTI",
+ "date": "2022-06-13",
+ "status": "read",
+ "source": {
+  "filing_date": "2022-06-15",
+  "accession": "0001193125-22-174498",
+  "doc": "d360749dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1854270/000119312522174498/d360749dex991.htm"
+ },
+ "facts": {
+  "related": false,
+  "trigger": "other",
+  "summary": "Quarterly financials show going-concern doubt and pending SPAC merger; no clear drop explanation \u00b7 Preclinical \u00b7 n/a \u00b7 not yet approved",
+  "phase": "Preclinical",
+  "drug": "n/a",
+  "indication": "n/a",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "the Company expects that its cash and cash equivalents will not be sufficient to fund its operating expenses and capital expenditure requirements for at least one year",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}
