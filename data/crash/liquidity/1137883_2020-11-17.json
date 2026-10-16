@@ -1,0 +1,33 @@
+{
+ "id": "1137883_2020-11-17",
+ "asof": "2020-11-18",
+ "chars": 23793,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2020-10-14",
+   "net_proceeds_usd": 5070000,
+   "what": "ATM sales under the September 25, 2020 ATM (gross proceeds; net not given; period starts Sept 25, so may include a few days before Sept 30)",
+   "quote": "From September 25, 2020 through October 14, 2020, the Company sold an aggregate of 294,723 additional shares of Common Stock pursuant to the September 25, 2020 ATM, at an average price of $17.21 per share, raising gross proceeds of approximately $5.07 million."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 222000,
+   "exercise_price_usd": 7.0,
+   "expiry": "2021-12-31",
+   "quote": "pursuant to which holders were issued warrants to purchase an aggregate 842,000 shares of Common Stock (the \u201c2019 Warrants\u201d), at an exercise price of $7.00, with an expiration date of December 31, 2021"
+  },
+  {
+   "count": 250000,
+   "exercise_price_usd": 15.0,
+   "expiry": null,
+   "quote": "Purchaser also received a three-year warrant to purchase up to 250,000 shares of Common Stock at any exercise price of $15.00 per share."
+  }
+ ],
+ "warrants_dropped": 0
+}

@@ -1,0 +1,33 @@
+{
+ "id": "1789192_2021-02-25",
+ "asof": "2021-02-25",
+ "chars": 7255,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2020-10-31",
+   "net_proceeds_usd": 75000,
+   "what": "October 2020 convertible promissory notes (aggregate principal; exact closing day not given)",
+   "quote": "During October 2020, the Company entered into a series of additional convertible loan agreements as detailed in Note 3B above, with certain lenders to sell convertible promissory notes with an aggregate principal amount of $75,000."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 485318,
+   "exercise_price_usd": 1.2,
+   "expiry": null,
+   "quote": "the Company issued to the Lenders an aggregate of 485,318 shares of Common Stock and Warrants to purchase an aggregate of 485,318 shares of Common Stock."
+  },
+  {
+   "count": 91743,
+   "exercise_price_usd": 1.2,
+   "expiry": null,
+   "quote": "each 2019 Unit consists of (i) one share of Common Stock and (ii) one warrant to purchase one share of Common Stock with an exercise price of $1.20 for a period of 36 months following the issuance date."
+  }
+ ],
+ "warrants_dropped": 0
+}

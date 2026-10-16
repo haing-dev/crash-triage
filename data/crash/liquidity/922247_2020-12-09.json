@@ -1,0 +1,39 @@
+{
+ "id": "922247_2020-12-09",
+ "asof": "2020-12-15",
+ "chars": 26457,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2020-12-11",
+   "net_proceeds_usd": 11100000,
+   "what": "Underwritten public offering of 2,500,000 units (common stock plus warrants) at $5.00 per unit; closing date inferred from the 8-K filing date",
+   "quote": "We will receive net proceeds from this offering of approximately $11,100,000 after deducting underwriting discounts and estimated offering expenses payable by us."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 28311140,
+   "exercise_price_usd": 0.15,
+   "expiry": null,
+   "quote": "Each unit consisted of one share of common stock and a seven-year warrant to purchase one share of common stock at an exercise price of $0.15 per share."
+  },
+  {
+   "count": 29770000,
+   "exercise_price_usd": 0.3,
+   "expiry": null,
+   "quote": "The warrants are exercisable immediately upon issuance at an exercise price of $0.30 per share and expire on the 66th month anniversary of the issuance date."
+  },
+  {
+   "count": 222282,
+   "exercise_price_usd": 0.11,
+   "expiry": null,
+   "quote": "a warrant to purchase 222,282 shares of Common Stock, representing 6% of the shares of Common Stock purchased by such investors in the Private Placement, at an exercise price of $0.11 per share"
+  }
+ ],
+ "warrants_dropped": 0
+}

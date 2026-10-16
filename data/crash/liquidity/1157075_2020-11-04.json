@@ -1,0 +1,45 @@
+{
+ "id": "1157075_2020-11-04",
+ "asof": "2020-11-04",
+ "chars": 23803,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2020-08-12",
+   "net_proceeds_usd": 2721000,
+   "what": "S-3 Block Trade common stock sales Aug 1-12, 2020; ~$3.0M gross less ~$183K Aeon fee and ~$96K transaction fees",
+   "quote": "From August 1, 2020 through August 12, 2020, the Company sold approximately 459 million shares of common stock using the S-3 structured as Block Trade transactions."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 11433333,
+   "exercise_price_usd": 0.01,
+   "expiry": null,
+   "quote": "The warrants provide Aeon the right to purchase 11,433,333 shares of common stock based upon these Block Trades pursuant to the Aeon Engagement Agreement."
+  },
+  {
+   "count": 34000000,
+   "exercise_price_usd": 0.01,
+   "expiry": null,
+   "quote": "This amounted to approximately 34 million warrant shares with a five-year term."
+  },
+  {
+   "count": 1338889,
+   "exercise_price_usd": 0.01,
+   "expiry": "2024-06-13",
+   "quote": "The Company issued a warrant to purchase 1,338,889 shares of common stock based upon the Block Trade transaction"
+  },
+  {
+   "count": 1944444,
+   "exercise_price_usd": 0.01,
+   "expiry": "2024-07-15",
+   "quote": "The Company issued a warrant to purchase 1,944,444 shares of common stock based upon the Block Trade pursuant to the Aeon Engagement Agreement."
+  }
+ ],
+ "warrants_dropped": 0
+}

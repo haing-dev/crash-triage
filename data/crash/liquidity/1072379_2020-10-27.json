@@ -1,0 +1,69 @@
+{
+ "id": "1072379_2020-10-27",
+ "asof": "2020-10-27",
+ "chars": 25397,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2020-07-31",
+   "net_proceeds_usd": 128000,
+   "what": "Cash from warrant exercises in July 2020 (exact day not given)",
+   "quote": "During July 2020, the Company received $128,000 from the exercise of warrants with an exercise price between $0.24 and $0.27."
+  },
+  {
+   "date": "2020-08-07",
+   "net_proceeds_usd": 6787054,
+   "what": "August 2020 registered common stock offering with warrants, net proceeds (date taken from the 424B5 filing; closing date not stated)",
+   "quote": "We estimate that our net proceeds from the offering will be approximately $6,787,054, after deducting estimated expenses payable by us in connection with such closing."
+  },
+  {
+   "date": "2020-08-05",
+   "net_proceeds_usd": 1000000,
+   "what": "August Note, convertible note financing (gross; closing assumed with the August offering)",
+   "quote": "$1 million from a convertible note (the \u201cAugust Note\u201d) which is convertible at $0.345 per share."
+  },
+  {
+   "date": "2020-10-13",
+   "net_proceeds_usd": 9975570,
+   "what": "October 2020 equity offering, estimated net proceeds (date taken from the 424B5 filing; closing date not stated)",
+   "quote": "We estimate that our net proceeds from the offering will be approximately $9,975,570, after deducting estimated expenses payable by us in connection with such closing."
+  },
+  {
+   "date": "2020-10-13",
+   "net_proceeds_usd": 1925000,
+   "what": "Note proceeds alongside the October 2020 offering (closing assumed with the offering)",
+   "quote": "(in addition to the note proceeds of $1,925,000)"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 1400000,
+   "exercise_price_usd": 0.35,
+   "expiry": null,
+   "quote": "the Holders also received a 2-year warrant to purchase a total of 1.4 million common shares of the Company at an exercise price of $0.35 per share."
+  },
+  {
+   "count": 5100000,
+   "exercise_price_usd": 0.2,
+   "expiry": null,
+   "quote": "amend the Holder\u2019s existing outstanding warrants to purchase 5.1 million common shares of the Company. The exercise price of the warrants was amended from $0.25 per share to $0.20 per share."
+  },
+  {
+   "count": 5300000,
+   "exercise_price_usd": 0.34,
+   "expiry": null,
+   "quote": "with 20-35% warrants exercisable at $0.34 per share for approximately 5.3 million shares, with an exercise period of 18 to 30 months"
+  },
+  {
+   "count": 12800000,
+   "exercise_price_usd": 0.34,
+   "expiry": null,
+   "quote": "the Company issued approximately 12.8 million warrants with an exercise price of $0.34 per share"
+  }
+ ],
+ "warrants_dropped": 0
+}
