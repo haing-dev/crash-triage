@@ -3,5 +3,42 @@
  "name": "InMed Pharmaceuticals Inc.",
  "ticker": "INM",
  "date": "2020-11-12",
- "status": "error: You've hit your session limit \u00b7 resets 3:20am (UTC)\n"
+ "status": "read",
+ "source": {
+  "filing_date": "2020-11-12",
+  "accession": "0001193125-20-291199",
+  "doc": "d95662dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1728328/000119312520291199/d95662dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Priced US$8M public offering with warrants at US$4.50 and Nasdaq listing \u00b7 Preclinical/clinical-stage \u00b7 INM-755 in dermatology \u00b7 not yet approved",
+  "phase": "n/a",
+  "drug": "INM-755",
+  "indication": "dermatology",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "announced that it has priced a public offering of an aggregate of 1,780,000 common shares, together with accompanying warrants to purchase up to an aggregate of 1,780,000 common shares, at a public offering price of US$4.50 per share",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
 }
