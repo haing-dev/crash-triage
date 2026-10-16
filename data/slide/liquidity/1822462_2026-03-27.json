@@ -1,0 +1,39 @@
+{
+ "id": "1822462_2026-03-27",
+ "asof": "2026-03-27",
+ "chars": 24384,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2026-01-13",
+   "net_proceeds_usd": 49650000,
+   "what": "January 2026 registered direct offering of common stock, pre-funded warrants and series warrants; $50.0M gross less ~$350K estimated expenses",
+   "quote": "The gross proceeds to us before expenses will be approximately $50.0 million. We estimate the total expenses of this offering will be approximately $350,000."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 7451564,
+   "exercise_price_usd": 13.42,
+   "expiry": "2027-06-30",
+   "quote": "Each Series 1 Warrant has an initial exercise price of $13.42 per share of Common Stock, subject to certain adjustments, and expires on June 30, 2027."
+  },
+  {
+   "count": 7451564,
+   "exercise_price_usd": 20.13,
+   "expiry": "2030-12-31",
+   "quote": "Each Series 2 Warrant has an initial exercise price of $20.13 per share of Common Stock, subject to certain adjustments, and expires on December 31, 2030."
+  },
+  {
+   "count": 5421250,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "The Pre-Funded Warrants were exercisable immediately upon issuance at an initial exercise price of $0.0001 per share and have a term of 20 years."
+  }
+ ],
+ "warrants_dropped": 0
+}

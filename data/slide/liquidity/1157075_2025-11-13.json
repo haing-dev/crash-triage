@@ -1,0 +1,39 @@
+{
+ "id": "1157075_2025-11-13",
+ "asof": "2025-11-13",
+ "chars": 26909,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [
+  {
+   "amount_usd": 1250000,
+   "what": "Initial payment under H.C. Wainwright litigation settlement (May 16, 2025)",
+   "quote": "The Settlement Agreement required the Company to pay $1.55 million, comprised of an initial payment of $1.25 million and twelve equal payments of $25,000 beginning on the one-month anniversary of the initial payment."
+  }
+ ],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-08-17",
+   "net_proceeds_usd": 7000000,
+   "what": "Private placement of Series C convertible preferred stock and warrants (gross proceeds; net not given)",
+   "quote": "the Company sold in a private placement (i) 7,000 shares of the Company\u2019s newly designated Series C convertible preferred stock with a stated value of $1,000 per share"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 343183,
+   "exercise_price_usd": 4.0,
+   "expiry": "2030-05-16",
+   "quote": "the Company also issued warrants \u201c(First Warrant Issuance\u201d) to purchase 343,183 shares of the Company\u2019s common stock with an exercise price of $4.00 per share and a term of five years from the issuance date."
+  },
+  {
+   "count": 313067,
+   "exercise_price_usd": 4.0,
+   "expiry": "2030-07-29",
+   "quote": "On July 29, 2025, the Company issued additional warrants (\u201cAdditional Warrants\u201d) to purchase 313,067 shares of the Company\u2019s common stock with an exercise price of $4.00 per share and a term of five years."
+  }
+ ],
+ "warrants_dropped": 0
+}

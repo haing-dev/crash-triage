@@ -1,0 +1,39 @@
+{
+ "id": "1650648_2026-02-05",
+ "asof": "2026-02-05",
+ "chars": 26902,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-10-31",
+   "net_proceeds_usd": 9500000,
+   "what": "October 2025 ATM sales under Leerink Sales Agreement (exact day not given; month-end used)",
+   "quote": "In October 2025, 1,175,000 shares of the Company's common stock were sold pursuant to the Leerink Sales Agreement for net proceeds to the Company of $9.5 million, after deducting issuance costs."
+  },
+  {
+   "date": "2025-11-07",
+   "net_proceeds_usd": 93300000,
+   "what": "2025 underwritten public offering of common stock and pre-funded warrants, closed Nov 7, 2025",
+   "quote": "The net proceeds from the Offering were approximately $93.3 million, after deducting the underwriting discounts and commissions and other estimated offering expenses payable by the Company. The Offering closed on November 7, 2025."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 10513949,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "This number does not include 10,513,949 shares of common stock issuable upon the exercise of pre-funded warrants outstanding as of November 7, 2025"
+  },
+  {
+   "count": 30000,
+   "exercise_price_usd": 18.0,
+   "expiry": null,
+   "quote": "In December 2020, the Company issued a warrant for 30,000 shares of the Company\u2019s common stock to a service provider with an exercise price of $18.00 per share."
+  }
+ ],
+ "warrants_dropped": 0
+}

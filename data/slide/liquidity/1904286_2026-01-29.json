@@ -1,0 +1,39 @@
+{
+ "id": "1904286_2026-01-29",
+ "asof": "2026-01-29",
+ "chars": 7369,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-10-15",
+   "net_proceeds_usd": 1200000,
+   "what": "ATM sale of 500,000 shares at $2.55 average",
+   "quote": "October 15, 2025, under the ATM Agreement, the Company sold 500,000 shares at an average price of $2.55 and received net proceeds of $1.2 million after deducting fees and expenses."
+  },
+  {
+   "date": "2025-10-16",
+   "net_proceeds_usd": 2500000,
+   "what": "ATM sale of 1,251,000 shares at $2.05 average",
+   "quote": "On October 16, 2025, under the ATM Agreement, the Company sold 1,251,000 shares at an average price of $2.05 and received net proceeds of $2.5 million after deducting fees and expenses."
+  },
+  {
+   "date": "2025-10-16",
+   "net_proceeds_usd": 590490,
+   "what": "CEO exercise of 613,595 stock options",
+   "quote": "exercised options to purchase 613,595 shares of the Company\u2019s common stock. The Company received $590,490 in net proceeds from this transaction."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 700000,
+   "exercise_price_usd": 2.0,
+   "expiry": "2028-11-15",
+   "quote": "The MIRALOGX Warrant is exercisable, in whole or in part, any time prior to November 15, 2028 at a cash exercise price of $2.00 per share."
+  }
+ ],
+ "warrants_dropped": 0
+}

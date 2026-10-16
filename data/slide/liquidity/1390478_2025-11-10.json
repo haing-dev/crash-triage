@@ -1,0 +1,51 @@
+{
+ "id": "1390478_2025-11-10",
+ "asof": "2025-11-10",
+ "chars": 27455,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": null,
+   "net_proceeds_usd": 300000,
+   "what": "Proceeds from H1 2025 $0.75 warrant exercises received after quarter-end (date not given)",
+   "quote": "$0.3 million of which was received subsequent to quarter-end"
+  },
+  {
+   "date": null,
+   "net_proceeds_usd": 3700000,
+   "what": "Exercise of 4.9M warrants at $0.75 after June 30, 2025 (date not given)",
+   "quote": "Subsequent to June 30, 2025, an additional 4.9 million warrants have been exercised at an exercise price of $0.75 per share for additional proceeds of approximately $3.7 million."
+  },
+  {
+   "date": "2025-09-11",
+   "net_proceeds_usd": 23600000,
+   "what": "September 2025 inducement cash exercise of 19,685,040 warrants at $1.20 (gross; net not given)",
+   "quote": "We received aggregate gross proceeds of approximately $23.6 million from the exercise of the September 2025 Existing Warrants"
+  },
+  {
+   "date": "2025-10-27",
+   "net_proceeds_usd": 29100000,
+   "what": "October 2025 inducement exercise of March and August 2024 warrants (estimated net)",
+   "quote": "approximately $29.1 million, after deducting financial advisor fees and estimated offering expenses payable by us"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 766000,
+   "exercise_price_usd": 5.4,
+   "expiry": null,
+   "quote": "2022 Offering766 \u2014 \u2014 766 $5.40 April 2027"
+  },
+  {
+   "count": 22363714,
+   "exercise_price_usd": 2.0,
+   "expiry": null,
+   "quote": "The Inducement Warrants will have an exercise price of $2.00 per share,"
+  }
+ ],
+ "warrants_dropped": 0
+}

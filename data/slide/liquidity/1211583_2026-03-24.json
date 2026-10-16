@@ -1,0 +1,33 @@
+{
+ "id": "1211583_2026-03-24",
+ "asof": "2026-03-24",
+ "chars": 29513,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-11-17",
+   "net_proceeds_usd": 40250000,
+   "what": "Underwritten public offering of 5,366,667 common shares at $7.50 (gross proceeds; net not given)",
+   "quote": "we completed an underwritten public offering of 5,366,667 of our common shares at a price of $7.50 per share, for gross proceeds to us"
+  },
+  {
+   "date": "2025-11-18",
+   "net_proceeds_usd": 5025000,
+   "what": "Concurrent LIFE offering of 670,000 common shares at $7.50 (gross proceeds; net not given)",
+   "quote": "The Offering closed on November 18, 2025 (the \u201cClosing Date\u201d). The aggregate gross proceeds to the Company from the Offering were US$5,025,000"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 111000,
+   "exercise_price_usd": 8.0,
+   "expiry": null,
+   "quote": "Outstanding September 30, 2025"
+  }
+ ],
+ "warrants_dropped": 0
+}

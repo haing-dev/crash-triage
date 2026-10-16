@@ -1,0 +1,39 @@
+{
+ "id": "1971532_2026-03-13",
+ "asof": "2026-03-13",
+ "chars": 5408,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-10-09",
+   "net_proceeds_usd": 1003200,
+   "what": "ATM block sales of 550,000 shares at average $1.90/share",
+   "quote": "Net proceeds totaled $1,003,200, after deducting fees and expenses."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 268025,
+   "exercise_price_usd": 15.42,
+   "expiry": null,
+   "quote": "a Common Stock warrant the right to purchase up to 268,025 shares of common stock at an exercise price of $15.42 per share."
+  },
+  {
+   "count": 67007,
+   "exercise_price_usd": 3.73,
+   "expiry": null,
+   "quote": "a Common Stock warrant the right to purchase up to 67,007 shares of common stock at an exercise price of $3.73 per share."
+  },
+  {
+   "count": 50000,
+   "exercise_price_usd": 7.0,
+   "expiry": null,
+   "quote": "the Company issued 50,000 warrants to purchase common stock to the IPO underwriter (or its designees) at an exercise price of $7.00."
+  }
+ ],
+ "warrants_dropped": 0
+}

@@ -1,0 +1,39 @@
+{
+ "id": "1816736_2026-02-13",
+ "asof": "2026-02-13",
+ "chars": 24598,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-10-20",
+   "net_proceeds_usd": 210900000,
+   "what": "October 2025 underwritten public offering of common stock and pre-funded warrants (the exact closing date is not stated; the date given is the underwriting agreement date)",
+   "quote": "In October 2025, we completed an underwritten public offering of shares of our common stock and pre-funded warrants for net proceeds of approximately $210.9 million, after deducting estimated offering expenses payable by us."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 59523,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "pre-funded warrants to purchase an aggregate of 59,523 shares of Common Stock (the \u201cPre-Funded Warrants\u201d), at a price to the public of $83.9999 per Pre-Funded Warrant"
+  },
+  {
+   "count": 181818,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "As of September 30, 2025, none of the 181,818 pre-funded warrants had been exercised."
+  },
+  {
+   "count": 204081,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "As of September 30, 2025, none of the 204,081 pre-funded warrants had been exercised."
+  }
+ ],
+ "warrants_dropped": 0
+}

@@ -1,0 +1,33 @@
+{
+ "id": "1130598_2026-05-12",
+ "asof": "2026-05-12",
+ "chars": 25275,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2026-04-16",
+   "net_proceeds_usd": 9400000,
+   "what": "April 2026 private placement: $10.0M gross upfront, less 6% placement agent success fee",
+   "quote": "The unaudited pro forma balance sheet as of December 31, 2025 gives effect to an assumed $10.0 million gross equity financing completed after December 31, 2025."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 3375457,
+   "exercise_price_usd": null,
+   "expiry": null,
+   "quote": "as of December 31, 2025, there are warrants to purchase an aggregate of 3,375,457 shares of our common stock outstanding"
+  },
+  {
+   "count": 5982919,
+   "exercise_price_usd": 1.67,
+   "expiry": null,
+   "quote": "Series B warrants to initially purchase up to 5,982,919 shares of Common Stock"
+  }
+ ],
+ "warrants_dropped": 1
+}

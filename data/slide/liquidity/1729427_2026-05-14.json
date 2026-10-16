@@ -1,0 +1,33 @@
+{
+ "id": "1729427_2026-05-14",
+ "asof": "2026-05-14",
+ "chars": 23348,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2026-05-05",
+   "net_proceeds_usd": 22500000,
+   "what": "Private placement of common stock and pre-funded warrants (gross proceeds; net not given)",
+   "quote": "private placement financing that resulted in gross proceeds of approximately $22.5 million"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 333931,
+   "exercise_price_usd": 90.75,
+   "expiry": null,
+   "quote": "warrants to purchase 333,931 common shares"
+  },
+  {
+   "count": 9143479,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "The pre-funded warrants have an exercise price of $0.001 per share."
+  }
+ ],
+ "warrants_dropped": 0
+}

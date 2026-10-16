@@ -1,0 +1,39 @@
+{
+ "id": "1826457_2026-03-09",
+ "asof": "2026-03-09",
+ "chars": 30001,
+ "one_off_receipts": [
+  {
+   "amount_usd": 120000000,
+   "what": "Novartis non-refundable upfront payment received September 2025",
+   "quote": "which includes a $120.0 million non-refundable upfront payment we received from Novartis in September 2025"
+  }
+ ],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-10-31",
+   "net_proceeds_usd": 23900000,
+   "what": "ATM sales of 2,955,082 shares under Jefferies Sales Agreement in October 2025",
+   "quote": "During October 2025, we sold 2,955,082 shares of common stock under the Sales Agreement for aggregate gross proceeds of $25.0 million, or aggregate net proceeds of $23.9 million"
+  },
+  {
+   "date": "2026-01-09",
+   "net_proceeds_usd": 281600000,
+   "what": "January 2026 underwritten public offering of common stock and pre-funded warrants (estimated net proceeds, excluding underwriters' option)",
+   "quote": "The Company estimates that the net proceeds from the Offering, after deducting the underwriting discounts and commissions and estimated offering expenses payable by the Company, will be approximately $281.6 million"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 20638924,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "the Company has issued pre-funded warrants to purchase 20,638,924 shares of the Company's common stock to accredited investors."
+  }
+ ],
+ "warrants_dropped": 0
+}

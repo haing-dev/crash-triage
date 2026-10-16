@@ -1,0 +1,43 @@
+{
+ "id": "1660334_2026-02-10",
+ "asof": "2026-02-10",
+ "chars": 22894,
+ "one_off_receipts": [
+  {
+   "amount_usd": 8000000,
+   "what": "Torii Agreement payment received July 2025",
+   "quote": "$8.0 million received in July 2025"
+  },
+  {
+   "amount_usd": 10000000,
+   "what": "Torii Agreement payment received September 2025",
+   "quote": "$10.0 million received in September 2025"
+  }
+ ],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 51855,
+   "exercise_price_usd": 34.504,
+   "expiry": "2033-07-26",
+   "quote": "Warrants issued in connection with OrbiMed debt facility51,855$34.5040 7/26/2033"
+  },
+  {
+   "count": 50000,
+   "exercise_price_usd": 95.6,
+   "expiry": "2034-05-14",
+   "quote": "Warrants issued in connection with Torii amendment50,000$95.6000 5/14/2034"
+  },
+  {
+   "count": 2387703,
+   "exercise_price_usd": 13.35,
+   "expiry": "2029-11-20",
+   "quote": "Series B warrants issued pursuant to 2024 underwritten public offering2,387,703$13.3500 11/20/2029"
+  }
+ ],
+ "warrants_dropped": 0
+}

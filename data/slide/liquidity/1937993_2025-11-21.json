@@ -1,0 +1,39 @@
+{
+ "id": "1937993_2025-11-21",
+ "asof": "2025-11-21",
+ "chars": 23343,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-11-10",
+   "net_proceeds_usd": 219890,
+   "what": "ATM sales of 16,091 shares, Oct 1 to Nov 10, 2025",
+   "quote": "resulting in total gross proceeds of approximately $227,772 and net proceeds of approximately $219,890."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 5600,
+   "exercise_price_usd": 90.0,
+   "expiry": null,
+   "quote": "a five-year warrant (the \u201cRepresentative\u2019s Warrant\u201d) to purchase an aggregate of 5,600 shares of the Company\u2019s common stock"
+  },
+  {
+   "count": 285715,
+   "exercise_price_usd": 26.25,
+   "expiry": "2029-01-16",
+   "quote": "Each Common Warrant has an exercise price equal to $26.25 per share. The Common Warrants are exercisable at any time after their original issuance and will expire on January 16, 2029."
+  },
+  {
+   "count": 18571,
+   "exercise_price_usd": 32.81,
+   "expiry": null,
+   "quote": "Placement Agent Warrants to purchase up to 18,571 shares of common stock at an exercise price of $32.81."
+  }
+ ],
+ "warrants_dropped": 0
+}

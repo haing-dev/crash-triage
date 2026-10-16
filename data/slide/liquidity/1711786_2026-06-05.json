@@ -1,0 +1,45 @@
+{
+ "id": "1711786_2026-06-05",
+ "asof": "2026-06-05",
+ "chars": 32067,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2026-04-02",
+   "net_proceeds_usd": 1611879,
+   "what": "Registered offering of 2,857,144 shares at $0.70 with concurrent private placement warrants; closed April 2, 2026",
+   "quote": "the Company received net proceeds of $1,611,879, after deducting placement agent\u2019s fees and other offering expenses paid by the Company of $388,121."
+  },
+  {
+   "date": "2026-06-03",
+   "net_proceeds_usd": 2670000,
+   "what": "ATM sales between the 2026-05-27 and 2026-06-03 prospectus supplements (gross, approx. $9.27M less approx. $6.6M cumulative)",
+   "quote": "we have offered and sold an aggregate of 8,124,155 shares of common stock for gross proceeds of approximately $9.27 million pursuant to the Sales Agreement."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 1683820,
+   "exercise_price_usd": 2.63,
+   "expiry": null,
+   "quote": "Outstanding as of March 31, 2026 1,683,820 2.63 \u2014 2.21"
+  },
+  {
+   "count": 2857144,
+   "exercise_price_usd": 0.85,
+   "expiry": null,
+   "quote": "Warrants to purchase one share of common stock at an exercise price of $0.85 per share."
+  },
+  {
+   "count": 142857,
+   "exercise_price_usd": 0.875,
+   "expiry": "2031-04-01",
+   "quote": "The Placement Agent Warrants are immediately exercisable at an exercise price of $0.875 per share and expire on April 1, 2031."
+  }
+ ],
+ "warrants_dropped": 0
+}

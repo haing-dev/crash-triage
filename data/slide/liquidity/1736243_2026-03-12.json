@@ -1,0 +1,51 @@
+{
+ "id": "1736243_2026-03-12",
+ "asof": "2026-03-12",
+ "chars": 22015,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2026-03-12",
+   "net_proceeds_usd": 1000000,
+   "what": "ELOC sales to Lincoln Park after year end (gross, net not given; date is the cumulative-through date)",
+   "quote": "Under the ELOC, the Company sold an additional 482,038 shares of its common stock for approximately $1.0 million subsequent to year end"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 123153,
+   "exercise_price_usd": 18.0,
+   "expiry": null,
+   "quote": "we agreed to issue to the January Investors and to the January Affiliate Investors Series E warrants to purchase up to an aggregate of 123,153 shares of common stock"
+  },
+  {
+   "count": 411750,
+   "exercise_price_usd": 8.0,
+   "expiry": "2027-07-19",
+   "quote": "The Series F Warrants will have an exercise price of $8.00 per share and were exercisable commencing on July 17, 2025 and will expire on July 19, 2027."
+  },
+  {
+   "count": 311180,
+   "exercise_price_usd": 8.5,
+   "expiry": null,
+   "quote": "Series G-1 warrants (the \u201cSeries G-1 Warrants\u201d) to purchase up to an aggregate of 311,180 shares of common stock"
+  },
+  {
+   "count": 133363,
+   "exercise_price_usd": 8.5,
+   "expiry": null,
+   "quote": "to purchase up to an aggregate of 133,363 shares of common stock, each at an exercise price of $8.50 per share."
+  },
+  {
+   "count": 13336,
+   "exercise_price_usd": 15.0,
+   "expiry": null,
+   "quote": "to purchase up to an aggregate of 13,336 shares of common stock, which have the same terms as the Series G Warrants, except that they have an exercise price of $15.00 per share."
+  }
+ ],
+ "warrants_dropped": 0
+}

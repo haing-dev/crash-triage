@@ -1,0 +1,32 @@
+{
+ "id": "1598646_2026-05-11",
+ "asof": "2026-05-11",
+ "chars": 21282,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 78800,
+   "exercise_price_usd": 1000,
+   "expiry": null,
+   "quote": "As of March 31, 2026, an aggregate of 78,800 Preferred Tranche A Warrants remaining outstanding."
+  },
+  {
+   "count": 40000,
+   "exercise_price_usd": 1000,
+   "expiry": "2029-10-23",
+   "quote": "The Preferred Tranche B Warrants will expire on the four (4)-year anniversary of the Closing Date."
+  },
+  {
+   "count": 575575,
+   "exercise_price_usd": 0.01,
+   "expiry": null,
+   "quote": "the Company issued and sold pre-funded warrants exercisable for an aggregate of 575,575 shares of common stock."
+  }
+ ],
+ "warrants_dropped": 0
+}

@@ -1,0 +1,33 @@
+{
+ "id": "1526119_2026-01-02",
+ "asof": "2026-01-02",
+ "chars": 26430,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-11-17",
+   "net_proceeds_usd": 96900000,
+   "what": "November 2025 underwritten public offering of common stock and pre-funded warrants, including full exercise of the underwriters' option",
+   "quote": "The Company expects to receive net proceeds from the Offering, after deducting underwriting discounts and commissions and estimated offering expenses, of approximately $96.9 million"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 18333334,
+   "exercise_price_usd": 3.5,
+   "expiry": "2026-01-25",
+   "quote": "The Warrants are exercisable as of July 25, 2024 until their expiration on January 25, 2026."
+  },
+  {
+   "count": 7285713,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "pre-funded warrants to purchase an aggregate of 7,285,713 shares of common stock (the \u201cApril 2025 Pre-Funded Warrants,\u201d)"
+  }
+ ],
+ "warrants_dropped": 0
+}

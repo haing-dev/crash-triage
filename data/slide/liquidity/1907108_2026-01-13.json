@@ -1,0 +1,33 @@
+{
+ "id": "1907108_2026-01-13",
+ "asof": "2026-01-13",
+ "chars": 29543,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-10-20",
+   "net_proceeds_usd": 134600000,
+   "what": "October 2025 public offering of common stock incl. full exercise of 30-day underwriter option",
+   "quote": "The gross and estimated net proceeds received from the October 2025 Public Offering including the full exercise of the 30-day Underwriter Option were approximately $143.8 million and $134.6 million, respectively"
+  },
+  {
+   "date": "2025-10-20",
+   "net_proceeds_usd": 9300000,
+   "what": "October 2025 private placement of pre-funded warrants",
+   "quote": "The gross and estimated net proceeds received from the October 2025 Private Placement were approximately $10.0 million and $9.3 million, respectively"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 1250015,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "The pre-funded warrants issued in the October 2025 Private Placement do not expire and are immediately exercisable at an exercise price of $0.0001 per pre-funded warrant share"
+  }
+ ],
+ "warrants_dropped": 0
+}

@@ -1,0 +1,45 @@
+{
+ "id": "1841330_2026-01-07",
+ "asof": "2026-01-07",
+ "chars": 25389,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-12-02",
+   "net_proceeds_usd": 54900000,
+   "what": "Public offering of shares and pre-funded warrants led by H.C. Wainwright (closing date not stated; 8-K filing date used)",
+   "quote": "The net proceeds of the Offering, after deducting the placement agent fees and estimated offering expenses payable by the Company, were approximately $54.9 million."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 1219513,
+   "exercise_price_usd": 3.85,
+   "expiry": null,
+   "quote": "Series A warrants (the \u201cSeries A Warrants\u201d) to purchase up to an aggregate of 1,219,513 shares of Common Stock at an exercise price of $3.85 per share"
+  },
+  {
+   "count": 1219513,
+   "exercise_price_usd": 3.85,
+   "expiry": null,
+   "quote": "Series B warrants (the \u201cSeries B Warrants\u201d and, together with the Series A Warrants, the \u201cSeptember 2024 PIPE Warrants\u201d) to purchase up to an aggregate of 1,219,513 shares of Common Stock with an exercise price of $3.85 per share"
+  },
+  {
+   "count": 85366,
+   "exercise_price_usd": 5.125,
+   "expiry": null,
+   "quote": "warrants (the \u201cSeptember 2024 Placement Agent Warrants\u201d) to purchase up to an aggregate of 85,366 shares of Common Stock at an exercise price equal to $5.125 per share"
+  },
+  {
+   "count": 4000000,
+   "exercise_price_usd": 0.9375,
+   "expiry": null,
+   "quote": "warrants (the \u201cPlacement Agent Warrants\u201d) to purchase up to an aggregate of 4,000,000 shares of Common Stock (the \u201cPlacement Agent Warrant Shares\u201d) at an exercise price equal to $0.9375 per share"
+  }
+ ],
+ "warrants_dropped": 0
+}

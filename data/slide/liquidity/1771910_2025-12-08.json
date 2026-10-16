@@ -1,0 +1,45 @@
+{
+ "id": "1771910_2025-12-08",
+ "asof": "2025-12-08",
+ "chars": 23357,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [
+  {
+   "amount_usd": 3400000,
+   "what": "Severance payments from the 2025 restructuring",
+   "quote": "$3.4 million in severance payments as a result of the 2025 restructuring"
+  }
+ ],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-10-27",
+   "net_proceeds_usd": 57600000,
+   "what": "October 2025 private placement of common shares and pre-funded warrants",
+   "quote": "The private placement closed on October 27, 2025 and resulted in net proceeds of approximately $57.6 million."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 527295,
+   "exercise_price_usd": 8.3,
+   "expiry": "2032-08-15",
+   "quote": "issued to the lenders under the Loan Agreement warrants to purchase an aggregate of 527,295 common shares, which warrants have an exercise price of $8.30 per share."
+  },
+  {
+   "count": 15734267,
+   "exercise_price_usd": 0.1,
+   "expiry": "2035-06-16",
+   "quote": "pre-funded warrants (the \u201cJune 2025 Pre-Funded Warrants\u201d) to purchase 15,734,267 common shares at $3.43 per pre-funded warrant"
+  },
+  {
+   "count": 3846153,
+   "exercise_price_usd": 0.1,
+   "expiry": "2035-10-27",
+   "quote": "pre-funded warrants (the \u201cOctober 2025 Pre-Funded Warrants\u201d) to purchase 3,846,153 common shares at $3.90 per pre-funded warrant"
+  }
+ ],
+ "warrants_dropped": 0
+}

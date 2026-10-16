@@ -1,0 +1,51 @@
+{
+ "id": "1379006_2026-06-12",
+ "asof": "2026-06-12",
+ "chars": 24479,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2026-05-18",
+   "net_proceeds_usd": 1860001,
+   "what": "Registered direct offering of common stock and pre-funded warrants, closed May 18, 2026 (proceeds after placement agent fee, before other expenses)",
+   "quote": "Proceeds, before expenses, to us(2) $1.395 $1,860,001"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 3571429,
+   "exercise_price_usd": 1.75,
+   "expiry": null,
+   "quote": "The Series A Warrants will be exercisable beginning six months from the date of issuance at an exercise price of $1.75 per share, and will expire two years from the date of issuance."
+  },
+  {
+   "count": 3571429,
+   "exercise_price_usd": 2.0,
+   "expiry": null,
+   "quote": "The Series B Warrants will be exercisable beginning six months from the date of issuance at an exercise price of $2.00 per share, and will expire five and one-half years from the date of issuance."
+  },
+  {
+   "count": 286,
+   "exercise_price_usd": 1.79,
+   "expiry": null,
+   "quote": "fully vested warrants to purchase 286 shares of common stock with an exercise price of $1.79 per share expiring in August 2029"
+  },
+  {
+   "count": 286,
+   "exercise_price_usd": 1.63,
+   "expiry": null,
+   "quote": "fully vested warrants to purchase 286 shares of common stock with an exercise price of $1.63 per share expiring in November 2029"
+  },
+  {
+   "count": 286,
+   "exercise_price_usd": 1.16,
+   "expiry": null,
+   "quote": "fully vested warrants to purchase 286 shares of common stock with exercise price of $1.16 expiring in February 2030"
+  }
+ ],
+ "warrants_dropped": 0
+}

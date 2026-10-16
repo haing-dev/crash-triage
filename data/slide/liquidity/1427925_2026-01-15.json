@@ -1,0 +1,45 @@
+{
+ "id": "1427925_2026-01-15",
+ "asof": "2026-01-15",
+ "chars": 24389,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-10-21",
+   "net_proceeds_usd": 1600000,
+   "what": "Optional Closing of April 2025 Private Placement (gross proceeds; net not given)",
+   "quote": "The aggregate gross proceeds to Talphera from Optional Closing of the private placement were approximately $1.6 million"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 4227052,
+   "exercise_price_usd": 2.07,
+   "expiry": null,
+   "quote": "The common warrants issued in December 2022 to purchase an aggregate of 4,227,052 shares of common stock, or the December 2022 Common Stock Warrants, were accounted for by the Company as a liability."
+  },
+  {
+   "count": 4999316,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "pre-funded warrants at a price of $0.585 per warrant to purchase up to an aggregate of 4,999,316 shares of common stock at an exercise price of $0.001 per share"
+  },
+  {
+   "count": 5845455,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "pre-funded warrants to purchase up to an aggregate of 5,845,455 shares of common stock at a purchase price of $0.549 per share"
+  },
+  {
+   "count": 1706484,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "pre-funded warrants at a price of $0.585 per warrant to purchase up to an aggregate of 1,706,484 shares of common stock at an exercise price of $0.001 per share"
+  }
+ ],
+ "warrants_dropped": 0
+}
