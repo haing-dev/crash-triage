@@ -1,0 +1,45 @@
+{
+ "id": "1513525_2024-03-04",
+ "asof": "2024-03-04",
+ "chars": 30570,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2023-10-24",
+   "net_proceeds_usd": 3500000,
+   "what": "Private placement of pre-funded warrants and Series A/B warrants (closed Oct 24, 2023), net proceeds approx.",
+   "quote": "The net proceeds to the Company from the Private Placement were approximately $3.5 million, after deducting placement agent fees and expenses and estimated offering expenses payable by the Company."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 7317,
+   "exercise_price_usd": 10.25,
+   "expiry": null,
+   "quote": "warrants to purchase 7,317 shares of common stock at an exercise price of $10.25 per share"
+  },
+  {
+   "count": 1418440,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "pre-funded warrants (the \u201cPre-Funded Warrants\u201d) to purchase up to 1,418,440 shares of the Company\u2019s common stock, par value $0.001 (the \u201cCommon Stock\u201d), at an exercise price of $0.001 per share"
+  },
+  {
+   "count": 1418440,
+   "exercise_price_usd": 2.82,
+   "expiry": null,
+   "quote": "series A warrants (the \u201cSeries A Warrants\u201d) to purchase up to 1,418,440 shares of the Company\u2019s Common Stock at an exercise price of $2.82 per share"
+  },
+  {
+   "count": 1418440,
+   "exercise_price_usd": 2.82,
+   "expiry": null,
+   "quote": "series B warrants (the \u201cSeries B Warrants\u201d and together with the Series A Warrants, the \u201cWarrants\u201d) to purchase up to 1,418,440 shares of the Company\u2019s Common Stock at an exercise price of $2.82 per share"
+  }
+ ],
+ "warrants_dropped": 0
+}

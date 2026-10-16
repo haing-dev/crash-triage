@@ -1,0 +1,33 @@
+{
+ "id": "1799448_2024-01-10",
+ "asof": "2024-01-10",
+ "chars": 23565,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2023-10-25",
+   "net_proceeds_usd": 92149996.41,
+   "what": "PIPE private placement of common stock, pre-funded warrants and common warrants (gross proceeds; net not given)",
+   "quote": "On October 25, 2023, the Company closed its private investment in public equity (PIPE) offering that resulted in gross proceeds of $92,149,996.41."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 56241973,
+   "exercise_price_usd": 0.7568,
+   "expiry": "2030-10-25",
+   "quote": "Each Common Warrant has an exercise price per share of $0.7568, became immediately exercisable on the date of issuance and will expire on October 25, 2030."
+  },
+  {
+   "count": 81054686,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "Each Pre-Funded Warrant has an exercise price of $0.0001 per share of common stock, is immediately exercisable and does not expire."
+  }
+ ],
+ "warrants_dropped": 0
+}

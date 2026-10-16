@@ -1,0 +1,38 @@
+{
+ "id": "1819411_2024-04-08",
+ "asof": "2024-04-08",
+ "chars": 23353,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 225387,
+   "exercise_price_usd": 5.07,
+   "expiry": "2025-07-20",
+   "quote": "As of December 31, 2023, 225,387 warrants were outstanding."
+  },
+  {
+   "count": 200000,
+   "exercise_price_usd": 13.75,
+   "expiry": "2025-05-06",
+   "quote": "to purchase an aggregate of 200,000 shares of the Company common stock at an exercise price of $13.75 per share"
+  },
+  {
+   "count": 1272500,
+   "exercise_price_usd": 2.75,
+   "expiry": null,
+   "quote": "warrants to purchase 1,272,500 shares of our common stock"
+  },
+  {
+   "count": 2500088,
+   "exercise_price_usd": 2.75,
+   "expiry": null,
+   "quote": "private warrants to purchase 2.5 million shares of our common stock with an exercise price of $2.75 per share"
+  }
+ ],
+ "warrants_dropped": 0
+}

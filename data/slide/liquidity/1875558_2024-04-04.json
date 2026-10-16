@@ -1,0 +1,39 @@
+{
+ "id": "1875558_2024-04-04",
+ "asof": "2024-04-04",
+ "chars": 21277,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-04-04",
+   "net_proceeds_usd": 3800000,
+   "what": "ATM sales of 422,130 shares after year-end, through completion of the subsequent events review (exact date not given; entry date used)",
+   "quote": "the Company sold a total of 422,130 shares of common stock under the ATM for aggregate total gross proceeds of approximately $3.9 million at an average selling price of $9.31 per share, resulting in net proceeds of approximately $3.8 million"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 128000,
+   "exercise_price_usd": 6.25,
+   "expiry": null,
+   "quote": "we issued 128,000 representative warrants, with an exercise price of $6.25, to purchase common stock to the underwriter"
+  },
+  {
+   "count": 923598,
+   "exercise_price_usd": 9.65,
+   "expiry": "2026-01-29",
+   "quote": "The Preferred Investment Options became exercisable on January 23, 2023 and are exercisable at any time on or after January 23, 2023 through January 29, 2026, at an exercise price of $9.65 per share"
+  },
+  {
+   "count": 36377,
+   "exercise_price_usd": 10.31,
+   "expiry": null,
+   "quote": "The placement agent warrants are in substantially the same form as the Preferred Investment Options, except that the exercise price is $10.31."
+  }
+ ],
+ "warrants_dropped": 0
+}

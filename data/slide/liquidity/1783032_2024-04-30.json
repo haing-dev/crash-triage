@@ -1,0 +1,45 @@
+{
+ "id": "1783032_2024-04-30",
+ "asof": "2024-04-30",
+ "chars": 21299,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-03-06",
+   "net_proceeds_usd": 17000000,
+   "what": "ATM sales of 5,777,527 shares under the Cowen Sales Agreement, Jan 1 to Mar 6, 2024 (date is the end of the sales period)",
+   "quote": "The Company sold 5,777,527 ATM Shares pursuant to the Sales Agreement with Cowen during the period from January 1, 2024 through March 6, 2024. Net proceeds were approximately $17.0 million after deducting issuance costs."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 22250000,
+   "exercise_price_usd": 2.25,
+   "expiry": null,
+   "quote": "The accompanying warrants have an exercise price of $2.25 per share, are exercisable immediately, and will expire five years following the date of issuance."
+  },
+  {
+   "count": 4440000,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "In June 2023, we issued pre-funded warrants to purchase a total of 4,440,000 shares of our common stock."
+  },
+  {
+   "count": 339725,
+   "exercise_price_usd": 1.3246,
+   "expiry": "2032-07-27",
+   "quote": "a warrant to purchase 339,725 shares of Common Stock, with an exercise price per warrant of $1.3246, expiring July 27, 2032."
+  },
+  {
+   "count": 55249,
+   "exercise_price_usd": 2.715,
+   "expiry": "2034-03-01",
+   "quote": "the Company issued to the K2HV Holder an additional warrant to purchase 55,249 shares of Common Stock, with an exercise price per warrant of $2.7150, expiring March 1, 2034"
+  }
+ ],
+ "warrants_dropped": 0
+}

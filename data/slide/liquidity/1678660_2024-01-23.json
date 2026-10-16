@@ -1,0 +1,33 @@
+{
+ "id": "1678660_2024-01-23",
+ "asof": "2024-01-23",
+ "chars": 20829,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2023-12-13",
+   "net_proceeds_usd": 24900000,
+   "what": "Private placement of pre-funded warrants for 7,936,759 voting common shares, expected closing date (closing not confirmed in the excerpts)",
+   "quote": "The Company estimates that the net proceeds from the Offering will be approximately $24.9 million, after deducting estimated Offering expenses."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 12895256,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "pre-funded warrants to purchase 12,895,256 shares of voting common stock at a price of $5.7499 per pre-funded warrant"
+  },
+  {
+   "count": 7936759,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "pre-funded warrants (the \u201cPre-Funded Warrants\u201d) to purchase up to 7,936,759 shares of the Company\u2019s voting common stock, par value $0.0001 per share"
+  }
+ ],
+ "warrants_dropped": 0
+}

@@ -1,0 +1,5 @@
+{
+ "id": "895051_2024-01-17",
+ "asof": "2024-01-17",
+ "error": "\n<invoke name=\"Bash\">\n<parameter name=\"command\">timeout 3 cat < /dev/stdin | head -c 200000; ls -la /tmp/tmp9f8itzxm</parameter>\n</invoke>\n"
+}

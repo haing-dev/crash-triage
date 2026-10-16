@@ -1,0 +1,33 @@
+{
+ "id": "1840233_2024-05-23",
+ "asof": "2024-05-23",
+ "chars": 21289,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-04-02",
+   "net_proceeds_usd": 11300000,
+   "what": "March 2024 private placement of common stock and prefunded warrants to existing investors (gross proceeds; net not given)",
+   "quote": "The private placement closed on April 2, 2024. The Company received aggregate gross proceeds of approximately $11.3 million from the private placement"
+  },
+  {
+   "date": "2024-04-03",
+   "net_proceeds_usd": 3300000,
+   "what": "Additional private placement to Gilead of common stock and prefunded warrants (gross proceeds; net not given)",
+   "quote": "The Company received aggregate gross proceeds of approximately $3.3 million from the additional private placement with Gilead."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 15627441,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "The prefunded warrants have an exercise price of $0.0001 per share of common stock, are immediately exercisable and remain exercisable until exercised in full."
+  }
+ ],
+ "warrants_dropped": 0
+}

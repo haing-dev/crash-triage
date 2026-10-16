@@ -1,0 +1,51 @@
+{
+ "id": "1590750_2024-04-03",
+ "asof": "2024-04-03",
+ "chars": 29980,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-01-31",
+   "net_proceeds_usd": 36300000,
+   "what": "January 2024 ATM sales via Jefferies (gross; net not given; exact date not given)",
+   "quote": "In January 2024, the Company sold 1,561,570 shares of common stock under the September 2022 ATM Agreement with Jefferies at a weighted average price of $23.22 per share, for aggregate gross proceeds of approximately $36.3 million"
+  },
+  {
+   "date": "2024-01-19",
+   "net_proceeds_usd": 150000000,
+   "what": "January 2024 underwritten public offering of common stock (gross; net not given; date is the 8-K filing date, closing date not given)",
+   "quote": "The aggregate gross proceeds to the Company from the 2024 Offering were approximately $150.0 million, before deducting underwriting discounts and commissions and other offering expenses payable by the Company."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 781,
+   "exercise_price_usd": 127.95,
+   "expiry": null,
+   "quote": "Issued April 2017781 781 $127.951.33"
+  },
+  {
+   "count": 29446,
+   "exercise_price_usd": 0.02,
+   "expiry": null,
+   "quote": "Acquired October 202029,446 29,446 $0.026.73"
+  },
+  {
+   "count": 218050,
+   "exercise_price_usd": 14.44,
+   "expiry": null,
+   "quote": "Issued February 2020 (2)218,050 332,130 $14.441.12"
+  },
+  {
+   "count": 1606,
+   "exercise_price_usd": 0.69,
+   "expiry": null,
+   "quote": "Issued November 20171,606 1,606 $0.690.87"
+  }
+ ],
+ "warrants_dropped": 0
+}

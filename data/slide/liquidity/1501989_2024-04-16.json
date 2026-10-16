@@ -1,0 +1,32 @@
+{
+ "id": "1501989_2024-04-16",
+ "asof": "2024-04-16",
+ "chars": 18778,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 14423077,
+   "exercise_price_usd": 1e-05,
+   "expiry": null,
+   "quote": "14,423,077 shares of common stock issuable upon the exercise of pre-funded warrants outstanding as of February 29, 2024 (which are immediately exercisable at an exercise price of $0.00001 per share of common stock"
+  },
+  {
+   "count": 5769231,
+   "exercise_price_usd": null,
+   "expiry": null,
+   "quote": "accompanying Tranche 1 warrants to purchase up to 5,769,231 shares of common stock"
+  },
+  {
+   "count": 5769231,
+   "exercise_price_usd": null,
+   "expiry": null,
+   "quote": "accompanying Tranche 2 warrants to purchase up to 5,769,231 shares of common stock"
+  }
+ ],
+ "warrants_dropped": 0
+}

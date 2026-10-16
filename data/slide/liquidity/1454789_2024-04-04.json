@@ -1,0 +1,39 @@
+{
+ "id": "1454789_2024-04-04",
+ "asof": "2024-04-04",
+ "chars": 28441,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-01-05",
+   "net_proceeds_usd": 20000000,
+   "what": "Jefferies ATM Program sales completing all available amounts",
+   "quote": "On January 5, 2024, the Company sold an aggregate of 2,945,806 shares of common stock under the Jefferies ATM Program for gross proceeds of $20.6 million and net proceeds of $20.0 million"
+  },
+  {
+   "date": "2024-02-01",
+   "net_proceeds_usd": 117100000,
+   "what": "February 2024 underwritten public offering of common stock",
+   "quote": "On February 1, 2024, we closed the February 2024 Financing, in which we sold 10,340,000 shares of our common stock for gross proceeds of approximately $125.0 million, and net proceeds of approximately $117.1 million."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 7368738,
+   "exercise_price_usd": 8.025,
+   "expiry": null,
+   "quote": "we issued common stock warrants to purchase an aggregate of 7,368,738 shares of our common stock, and pre-funded warrants to purchase up to an aggregate of 1,571,093 shares of our common stock"
+  },
+  {
+   "count": 1571093,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "we issued common stock warrants to purchase an aggregate of 7,368,738 shares of our common stock, and pre-funded warrants to purchase up to an aggregate of 1,571,093 shares of our common stock"
+  }
+ ],
+ "warrants_dropped": 0
+}

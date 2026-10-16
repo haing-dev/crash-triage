@@ -1,0 +1,45 @@
+{
+ "id": "1835022_2024-06-05",
+ "asof": "2024-06-05",
+ "chars": 23357,
+ "one_off_receipts": [
+  {
+   "amount_usd": 7500000,
+   "what": "DRL Development Agreement upfront nonrefundable payment received January 2024",
+   "quote": "we received an up-front, nonrefundable payment of $7.5 million in January 2024"
+  }
+ ],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-05-17",
+   "net_proceeds_usd": 5000000,
+   "what": "Private placement of 603,136 shares to ADDF at $8.29 per share (gross proceeds; net not given)",
+   "quote": "issuance and sale in a private placement (the \u201cPrivate Placement\u201d) of 603,136 shares (the \u201cShares\u201d) of the Company\u2019s common stock, par value $0.0001 per share (\u201cCommon Stock\u201d), at a purchase price of $8.29 per share for gross proceeds to the Company of $5.0 million"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 1490825,
+   "exercise_price_usd": 7.5,
+   "expiry": null,
+   "quote": "Common stock warrants issued related to the IPO"
+  },
+  {
+   "count": 201803,
+   "exercise_price_usd": 6.25,
+   "expiry": null,
+   "quote": "Common stock warrants issued to underwriters as compensation for IPO"
+  },
+  {
+   "count": 319004,
+   "exercise_price_usd": 7.58,
+   "expiry": null,
+   "quote": "warrants to purchase up to an aggregate of 319,004 shares of common stock with an exercise price of $7.58 per share"
+  }
+ ],
+ "warrants_dropped": 0
+}

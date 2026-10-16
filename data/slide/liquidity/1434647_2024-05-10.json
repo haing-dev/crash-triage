@@ -1,0 +1,33 @@
+{
+ "id": "1434647_2024-05-10",
+ "asof": "2024-05-10",
+ "chars": 23822,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-04-05",
+   "net_proceeds_usd": 60000000,
+   "what": "Initial $60.0M term loan tranche funded under HCR/Perceptive credit agreement (gross; net not stated)",
+   "quote": "$60.0 million which was funded in full on the Term Loans Closing Date"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 5603729,
+   "exercise_price_usd": null,
+   "expiry": null,
+   "quote": "of which 5,603,729 remain outstanding as of March 31, 2024, and are immediately exercisable"
+  },
+  {
+   "count": 1382489,
+   "exercise_price_usd": null,
+   "expiry": "2028-11-22",
+   "quote": "The Warrants are immediately exercisable and expire on November 22, 2028."
+  }
+ ],
+ "warrants_dropped": 0
+}

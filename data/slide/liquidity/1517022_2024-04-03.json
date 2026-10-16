@@ -1,0 +1,33 @@
+{
+ "id": "1517022_2024-04-03",
+ "asof": "2024-04-03",
+ "chars": 23340,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-01-29",
+   "net_proceeds_usd": 34500000,
+   "what": "BlackRock Tranche A term loan funded at closing (net of debt issuance costs, fees and expenses)",
+   "quote": "Borrower\u2019s net proceeds from the Initial Loan were approximately $34.5 million, after deducting estimated debt issuance costs, fees and expenses."
+  },
+  {
+   "date": "2024-02-23",
+   "net_proceeds_usd": 18700000,
+   "what": "ATM sales of 13,261,311 shares, Jan 1 to Feb 23, 2024",
+   "quote": "From January 1, 2024 through February 23, 2024, we sold 13,261,311 shares of our common stock under our Sales Agreement, resulting in proceeds to us of $18.7 million, net of offering expenses"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 3076923,
+   "exercise_price_usd": 1.3,
+   "expiry": "2032-01-29",
+   "quote": "we (i) issued a warrant to purchase 3,076,923 shares of our common stock, at an exercise price per share of $1.30"
+  }
+ ],
+ "warrants_dropped": 0
+}
