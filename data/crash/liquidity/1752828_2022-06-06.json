@@ -1,0 +1,39 @@
+{
+ "id": "1752828_2022-06-06",
+ "asof": "2022-06-10",
+ "chars": 32648,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2022-05-20",
+   "net_proceeds_usd": 30000000,
+   "what": "Private placement of 4,054,055 Class A shares with accompanying warrants (gross proceeds; net not stated)",
+   "quote": "for $7.40 per share and accompanying warrant, or an aggregate purchase price of approximately $30.0 million."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 14375000,
+   "exercise_price_usd": 11.5,
+   "expiry": null,
+   "quote": "up to 14,375,000 shares of Class A Common Stock that are issuable upon the exercise of\n14,375,000 warrants"
+  },
+  {
+   "count": 8499999,
+   "exercise_price_usd": 11.5,
+   "expiry": null,
+   "quote": "\u201cPrivate Placement Warrants\u201d means the 8,499,999 warrants"
+  },
+  {
+   "count": 4054055,
+   "exercise_price_usd": 8.25,
+   "expiry": null,
+   "quote": "Each warrant has an exercise price of $8.25 per share"
+  }
+ ],
+ "warrants_dropped": 0
+}

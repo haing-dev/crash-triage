@@ -1,0 +1,45 @@
+{
+ "id": "1817944_2022-04-25",
+ "asof": "2022-04-28",
+ "chars": 26989,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2022-03-10",
+   "net_proceeds_usd": 7.24,
+   "what": "Exercise of 724,194 pre-funded warrants at $0.00001 per share",
+   "quote": "724,194 pre-funded warrants issued as part of the December 2021 private placement were exercised for a price of $0.00001 per share"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 5750000,
+   "exercise_price_usd": 11.5,
+   "expiry": null,
+   "quote": "5,750,000 warrants (the \u201cPublic Warrants\u201d and, together with the Placement Warrants, the \u201cWarrants\u201d)"
+  },
+  {
+   "count": 3445000,
+   "exercise_price_usd": 11.5,
+   "expiry": null,
+   "quote": "3,445,000 warrants (the \u201cPlacement Warrants\u201d) originally issued"
+  },
+  {
+   "count": 3024194,
+   "exercise_price_usd": 5.25,
+   "expiry": null,
+   "quote": "Each PIPE Common Warrant entitles the holder thereof to purchase one share of Common Stock for $5.25 per share."
+  },
+  {
+   "count": 1300000,
+   "exercise_price_usd": 1.8,
+   "expiry": null,
+   "quote": "5-year warrants to acquire an aggregate 1,300,000 shares of its common stock at an initial exercise price of $1.80 per share"
+  }
+ ],
+ "warrants_dropped": 0
+}

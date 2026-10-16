@@ -1,0 +1,33 @@
+{
+ "id": "1780097_2022-12-12",
+ "asof": "2022-12-16",
+ "chars": 27054,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2022-12-06",
+   "net_proceeds_usd": 4200000,
+   "what": "December 2022 best-efforts public offering of common stock/pre-funded warrants with Series A warrants (closing expected Dec 6; not confirmed as closed in the excerpts)",
+   "quote": "The Company expects to receive net proceeds of approximately $4.2 million from the Offering, after deducting the estimated offering expenses payable by the Company, including the Placement Agent fees."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 15060,
+   "exercise_price_usd": 160.65,
+   "expiry": "2027-05-29",
+   "quote": "the Company issued a warrant to MAM Eagle Lender, LLC to purchase 15,060 shares of the Company\u2019s common stock, at an exercise price equal to $160.65 per share."
+  },
+  {
+   "count": 62567,
+   "exercise_price_usd": 5.99375,
+   "expiry": null,
+   "quote": "The Company also issued to designees of the Placement Agent warrants to purchase up to 62,567 shares of Common Stock (the \u201cPlacement Agent Warrants\u201d)."
+  }
+ ],
+ "warrants_dropped": 0
+}

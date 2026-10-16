@@ -1,0 +1,27 @@
+{
+ "id": "1293310_2022-07-13",
+ "asof": "2022-07-18",
+ "chars": 20574,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2022-07-18",
+   "net_proceeds_usd": 2000000,
+   "what": "ATM sales of 679,328 shares under Cantor Sales Agreement after March 31, 2022 (exact date not given; entry date used as upper bound)",
+   "quote": "we issued and sold 679,328 shares of common stock pursuant to the Sales Agreement and raised net proceeds of approximately $2.0 million,"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 31238,
+   "exercise_price_usd": null,
+   "expiry": null,
+   "quote": "Warrants to purchase common stock"
+  }
+ ],
+ "warrants_dropped": 0
+}

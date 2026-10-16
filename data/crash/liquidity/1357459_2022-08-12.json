@@ -1,0 +1,45 @@
+{
+ "id": "1357459_2022-08-12",
+ "asof": "2022-08-12",
+ "chars": 36063,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2022-05-10",
+   "net_proceeds_usd": 2000000,
+   "what": "Registered direct offering of 3,646,690 shares at $0.55 (gross proceeds; net not given)",
+   "quote": "an aggregate of 3,646,690 shares of common stock, for aggregate gross proceeds of approximately $2.0 million, before deducting fees to the placement agents and other estimated offering expenses payable by us."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 1100000,
+   "exercise_price_usd": 3.63,
+   "expiry": null,
+   "quote": "the Company issued the Investor additional warrants to purchase 1,100,000 shares of the Company's Common Stock at an exercise price of $3.63 per share (the \"July 2021 Warrants\")."
+  },
+  {
+   "count": 2250000,
+   "exercise_price_usd": 1.1,
+   "expiry": null,
+   "quote": "the Company issued the Investor an additional warrant to purchase up to 2,250,000 shares of the Company\u2019s common stock (the \u201cJanuary 2022 Warrant\u201d)."
+  },
+  {
+   "count": 3646690,
+   "exercise_price_usd": 0.7105,
+   "expiry": null,
+   "quote": "unregistered warrants to purchase up to an aggregate of 3,646,690 shares of its common stock. The warrants have an exercise price of $0.7105 per share of common stock"
+  },
+  {
+   "count": 218801,
+   "exercise_price_usd": 0.7105,
+   "expiry": null,
+   "quote": "We issued placement agent warrants to purchase an aggregate of 218,801 shares of our common stock, or the placement agent warrants."
+  }
+ ],
+ "warrants_dropped": 0
+}

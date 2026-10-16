@@ -1,0 +1,75 @@
+{
+ "id": "890821_2022-08-04",
+ "asof": "2022-08-09",
+ "chars": 15507,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2022-05-05",
+   "net_proceeds_usd": 1000000,
+   "what": "Acanna Series A Preferred Stock first tranche (gross; net not given)",
+   "quote": "Acanna has issued 1,000 shares of the Acanna Series A Preferred Stock to the Investor in exchange for $1,000,000 on May 5,"
+  },
+  {
+   "date": "2022-07-26",
+   "net_proceeds_usd": 3000000,
+   "what": "Registered direct offering (gross; net not given; closing date approximated by prospectus supplement filing)",
+   "quote": "The gross proceeds from RD Offering was approximately"
+  },
+  {
+   "date": "2022-07-26",
+   "net_proceeds_usd": 5000000,
+   "what": "Concurrent PIPE private placement (gross; net not given; closing date approximated)",
+   "quote": "The gross proceeds from the PIPE was approximately $5,000,000."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 23000000,
+   "exercise_price_usd": 0.55,
+   "expiry": null,
+   "quote": "Number of warrants 1,821,449 1,714,005 23,000,000"
+  },
+  {
+   "count": 1821449,
+   "exercise_price_usd": 4.95,
+   "expiry": null,
+   "quote": "Number of warrants 1,821,449 1,714,005 23,000,000"
+  },
+  {
+   "count": 1714005,
+   "exercise_price_usd": 4.9,
+   "expiry": null,
+   "quote": "Number of warrants 1,821,449 1,714,005 23,000,000"
+  },
+  {
+   "count": 375000,
+   "exercise_price_usd": 7.78,
+   "expiry": null,
+   "quote": "preferred investment options to purchase up to 375,000 shares of Common Stock, which have an exercise price of $7.78 per share"
+  },
+  {
+   "count": 625000,
+   "exercise_price_usd": 7.78,
+   "expiry": null,
+   "quote": "The PIPE Preferred Investment Options have an exercise price of $7.78 per share"
+  },
+  {
+   "count": 258500,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "pre-funded warrants to purchase up to 258,500 shares of Common Stock"
+  },
+  {
+   "count": 509000,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "pre-funded warrants to purchase up to 509,000 shares of Common Stock"
+  }
+ ],
+ "warrants_dropped": 0
+}

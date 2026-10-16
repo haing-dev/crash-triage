@@ -1,0 +1,45 @@
+{
+ "id": "1368148_2022-11-08",
+ "asof": "2022-11-08",
+ "chars": 27683,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2022-08-17",
+   "net_proceeds_usd": 11200000,
+   "what": "Registered direct offering of shares, pre-funded warrants and common warrants",
+   "quote": "received approximately $11.2 million of net proceeds, before giving effect to offering expenses"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 3000000,
+   "exercise_price_usd": 1.8,
+   "expiry": null,
+   "quote": "One of the 2021 Warrants is for the purchase of up to 3,000,000 shares at an exercise price of $1.80 per share"
+  },
+  {
+   "count": 7000000,
+   "exercise_price_usd": 2.4,
+   "expiry": null,
+   "quote": "The other 2021 Warrant is for the purchase of up to 7,000,000 shares at an exercise price of $2.40 per share"
+  },
+  {
+   "count": 1920000,
+   "exercise_price_usd": 6.385,
+   "expiry": "2028-02-17",
+   "quote": "warrants (the \u201cInitial Warrants\u201d) exercisable for an aggregate of 1,920,000 shares of the Company\u2019s common stock"
+  },
+  {
+   "count": 2000000,
+   "exercise_price_usd": 6.385,
+   "expiry": null,
+   "quote": "warrants (the \u201cNew Warrants\u201d) exercisable for an aggregate of 2,000,000 shares of Common Stock"
+  }
+ ],
+ "warrants_dropped": 0
+}

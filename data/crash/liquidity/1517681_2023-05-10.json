@@ -1,0 +1,39 @@
+{
+ "id": "1517681_2023-05-10",
+ "asof": "2023-05-10",
+ "chars": 11362,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2023-02-16",
+   "net_proceeds_usd": 100000,
+   "what": "ONE44 Capital convertible promissory note ($111,111 principal, with OID)",
+   "quote": "The Company intends to use the net proceeds ($100,000) from the Note for general working capital purposes."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 1000000,
+   "exercise_price_usd": 0.01,
+   "expiry": "2025-08-16",
+   "quote": "in exchange for 1,000,000 warrants to purchase the Company\u2019s common stock at $0.01 per share with an expiry date of August 16, 2025"
+  },
+  {
+   "count": 2305000,
+   "exercise_price_usd": 0.01,
+   "expiry": "2025-08-16",
+   "quote": "in exchange for 2,305,000 warrants to purchase the Company\u2019s common stock at $0.01 per share with an expiry date of August 16, 2025"
+  },
+  {
+   "count": 9986,
+   "exercise_price_usd": 200,
+   "expiry": null,
+   "quote": "alternate cashless exercise of 960 Series A warrants with an original exercise price of $200"
+  }
+ ],
+ "warrants_dropped": 0
+}

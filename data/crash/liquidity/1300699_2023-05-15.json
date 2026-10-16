@@ -1,0 +1,32 @@
+{
+ "id": "1300699_2023-05-15",
+ "asof": "2023-05-15",
+ "chars": 23805,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 45420,
+   "exercise_price_usd": 10.0,
+   "expiry": null,
+   "quote": "we granted warrants to Oaktree to purchase up to an aggregate of 45,420 shares of our common stock at a purchase price of $252.60 per share."
+  },
+  {
+   "count": 2000000,
+   "exercise_price_usd": 20.0,
+   "expiry": null,
+   "quote": "common warrants to purchase up to 2,000,000 shares of common stock at a price of $20.00 per share"
+  },
+  {
+   "count": 233334,
+   "exercise_price_usd": 0.02,
+   "expiry": null,
+   "quote": "pre-funded warrants to purchase up to 233,334 shares of common stock at a price of $0.02 per share"
+  }
+ ],
+ "warrants_dropped": 0
+}

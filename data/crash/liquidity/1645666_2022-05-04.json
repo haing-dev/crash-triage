@@ -1,0 +1,33 @@
+{
+ "id": "1645666_2022-05-04",
+ "asof": "2022-05-09",
+ "chars": 18784,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2022-03-15",
+   "net_proceeds_usd": 6400000,
+   "what": "ATM sales under December 2021 ATM Agreement, Jan 1 to Mar 15 2022 (gross proceeds; net not given)",
+   "quote": "As of March 15, 2022, an additional of 424,043 shares of our common stock were sold pursuant to the December 2021 ATM Agreement for gross proceeds of approximately $6.4 million"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 2884615,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "pre-funded warrants to purchase 2,884,615 shares of its common stock at an exercise price of $0.001 per share"
+  },
+  {
+   "count": 909091,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "pre-funded warrants to purchase 909,091 shares of its common stock at an exercise price of $0.001 per share"
+  }
+ ],
+ "warrants_dropped": 0
+}

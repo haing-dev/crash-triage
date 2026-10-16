@@ -1,0 +1,51 @@
+{
+ "id": "1372514_2023-06-02",
+ "asof": "2023-06-06",
+ "chars": 22324,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2023-04-30",
+   "net_proceeds_usd": 300000,
+   "what": "April 2023 Lincoln Park equity line share sales (105,000 shares)",
+   "quote": "In April 2023, the Company completed multiple issuances under the terms of the February 3, 2023 purchase agreement with Lincoln Park for a total of 105,000 shares sold to Lincoln Park for proceeds of $0.3 million."
+  },
+  {
+   "date": "2023-06-06",
+   "net_proceeds_usd": 5600000,
+   "what": "Public offering closed June 6, 2023 (common shares, preferred shares, Class C and D warrants)",
+   "quote": "The net proceeds to the Company, after deducting the underwriting discount and commissions and estimated offering expenses payable by the Company, were approximately $5.6 million."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 654609,
+   "exercise_price_usd": 5.97,
+   "expiry": null,
+   "quote": "the Company's agreement to issue new warrants (the \u201cInducement Warrants\u201d) on substantially the same terms as the Class A Warrants to purchase up to 654,609 shares of Common Stock"
+  },
+  {
+   "count": 105596,
+   "exercise_price_usd": 3.538,
+   "expiry": "2028-02-03",
+   "quote": "52,798 shares of common stock and warrants to purchase up to 105,596 shares of common stock"
+  },
+  {
+   "count": 5750000,
+   "exercise_price_usd": 1.1,
+   "expiry": null,
+   "quote": "5,750,000 Class C Warrants (including 750,000 Class C Warrants sold pursuant to the exercise of the Overallotment Option)"
+  },
+  {
+   "count": 5750000,
+   "exercise_price_usd": 1.1,
+   "expiry": null,
+   "quote": "5,750,000 Class D Warrants (including 750,000 Class D Warrants sold pursuant to the exercise of the Overallotment Option)"
+  }
+ ],
+ "warrants_dropped": 0
+}

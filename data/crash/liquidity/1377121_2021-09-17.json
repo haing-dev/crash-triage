@@ -1,0 +1,32 @@
+{
+ "id": "1377121_2021-09-17",
+ "asof": "2021-09-20",
+ "chars": 21283,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 1375000,
+   "exercise_price_usd": 10.0,
+   "expiry": "2023-08-08",
+   "quote": "Warrants to purchase 1,375,000 shares of the Company\u2019s common stock have an exercise price of $10.00 per share"
+  },
+  {
+   "count": 1375000,
+   "exercise_price_usd": 15.0,
+   "expiry": "2023-08-08",
+   "quote": "Warrants to purchase 1,375,000 shares of the Company\u2019s common stock have an exercise price of $15.00 per share"
+  },
+  {
+   "count": 400000,
+   "exercise_price_usd": 1e-05,
+   "expiry": null,
+   "quote": "As of June 30, 2021, 400,000 of the Exchange Warrants remain unexercised."
+  }
+ ],
+ "warrants_dropped": 0
+}

@@ -1,0 +1,39 @@
+{
+ "id": "1394319_2023-04-25",
+ "asof": "2023-04-26",
+ "chars": 20846,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2023-03-10",
+   "net_proceeds_usd": 3000000,
+   "what": "Private placement of shares and pre-funded warrants to Opaleye L.P. (gross, approximate; closing expected on or about 2023-03-10 and not confirmed in the excerpts)",
+   "quote": "The aggregate purchase price of the Securities is approximately $3.0 million."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 150753,
+   "exercise_price_usd": 1.99,
+   "expiry": "2032-09-02",
+   "quote": "warrants to purchase 150,753 shares of our common stock (the RGC Term A Warrants) at an exercise price of $1.99 per underlying share of our common stock."
+  },
+  {
+   "count": 2205018,
+   "exercise_price_usd": 0.01,
+   "expiry": null,
+   "quote": "pre-funded warrants to purchase 2,205,018 shares of our common stock at a purchase price of $1.31 per share of underlying common stock with an exercise price of $0.01 per share"
+  },
+  {
+   "count": 2013999,
+   "exercise_price_usd": 0.01,
+   "expiry": null,
+   "quote": "pre-funded warrants to purchase an aggregate of 2,013,999 shares of Common Stock"
+  }
+ ],
+ "warrants_dropped": 0
+}

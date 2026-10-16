@@ -1,0 +1,75 @@
+{
+ "id": "1516551_2023-09-08",
+ "asof": "2023-09-14",
+ "chars": 23340,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2023-07-24",
+   "net_proceeds_usd": 250000,
+   "what": "Bridge Loan from MFDI, LLC (principal amount; receipt of cash not explicitly stated)",
+   "quote": "On July 24, 2023, the Company entered into a loan agreement in the principal amount of $250,000 (the \u201cBridge Loan\u201d) with MFDI, LLC."
+  },
+  {
+   "date": "2023-08-18",
+   "net_proceeds_usd": 12000000,
+   "what": "PIPE of 581,383,799 shares at $0.02064041 (gross, computed from shares x price; net not given)",
+   "quote": "the Company sold to the Investors an aggregate of 581,383,799 shares of Common Stock (the \u201cPIPE Shares\u201d), at a price of $0.02064041 per share"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 1481667,
+   "exercise_price_usd": 0.19,
+   "expiry": null,
+   "quote": "s to Placement Agent0.19 3.071,481,667"
+  },
+  {
+   "count": 77777779,
+   "exercise_price_usd": 0.09,
+   "expiry": null,
+   "quote": "2021 Common Stock Warrants0.09 3.2577,777,779"
+  },
+  {
+   "count": 5444445,
+   "exercise_price_usd": 0.11,
+   "expiry": null,
+   "quote": "2021 Common Stock Warrants to Placement Agent0.11 3.255,444,445"
+  },
+  {
+   "count": 2000000,
+   "exercise_price_usd": 0.04,
+   "expiry": null,
+   "quote": "2022 Common Stock Warrants to Service Provider0.04 0.762,000,000"
+  },
+  {
+   "count": 8552630,
+   "exercise_price_usd": 0.29,
+   "expiry": null,
+   "quote": "November 2019 EHT Common Stock Warrants0.29 1.428,552,630"
+  },
+  {
+   "count": 945750,
+   "exercise_price_usd": 0.15,
+   "expiry": null,
+   "quote": "November 2019 EHT Common Stock Warrants0.15 1.50945,750"
+  },
+  {
+   "count": 20172409,
+   "exercise_price_usd": 0.15,
+   "expiry": null,
+   "quote": "December 2019 EHT Common Stock Warrants0.15 1.6120,172,409"
+  },
+  {
+   "count": 581383799,
+   "exercise_price_usd": 0.02064041,
+   "expiry": "2033-08-18",
+   "quote": "The PIPE Warrants have a term of ten years from the date of issuance."
+  }
+ ],
+ "warrants_dropped": 0
+}

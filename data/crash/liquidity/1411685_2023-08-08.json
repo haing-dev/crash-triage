@@ -1,0 +1,33 @@
+{
+ "id": "1411685_2023-08-08",
+ "asof": "2023-08-11",
+ "chars": 24838,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2023-08-11",
+   "net_proceeds_usd": 16893700,
+   "what": "ATM sales under Jefferies Sales Agreement since June 30, 2023 through the date of the report (gross proceeds; net not given)",
+   "quote": "we sold an aggregate of 1,487,293 shares of our common stock under the Sales Agreement at a weighted average price of $11.36 per share and received gross cash proceeds of $16,893,700"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 33334,
+   "exercise_price_usd": 15.0,
+   "expiry": "2024-12-09",
+   "quote": "$15.00 12/9/2024 33,334"
+  },
+  {
+   "count": 12352,
+   "exercise_price_usd": 21.9,
+   "expiry": "2025-07-25",
+   "quote": "$21.90 7/25/2025 12,352"
+  }
+ ],
+ "warrants_dropped": 0
+}

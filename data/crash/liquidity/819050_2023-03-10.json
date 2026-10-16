@@ -1,0 +1,33 @@
+{
+ "id": "819050_2023-03-10",
+ "asof": "2023-03-13",
+ "chars": 24840,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2023-03-08",
+   "net_proceeds_usd": 6500000,
+   "what": "ATM sales of ~2.9 million common shares under the Oppenheimer / William Blair At Market Issuance Sales Agreement",
+   "quote": "on March 8, 2023, the Company sold approximately 2.9 million shares of its common stock pursuant to its At Market Issuance Sales Agreement with Oppenheimer & Co. Inc. and William Blair & Company, L.L.C. at a weighted average price of approximately $2.35 per share for net proceeds of approximately $6.5 million."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 186814,
+   "exercise_price_usd": 32.4,
+   "expiry": null,
+   "quote": "The common warrants are exercisable at a price of $32.40 per share of the Company\u2019s common stock and will expire five years from the date of issuance."
+  },
+  {
+   "count": 388920,
+   "exercise_price_usd": 56.25,
+   "expiry": null,
+   "quote": "common warrants were immediately exercisable at a price of $56.25 per share of common stock and will expire five years from the date of issuance."
+  }
+ ],
+ "warrants_dropped": 0
+}

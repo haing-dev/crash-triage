@@ -1,0 +1,32 @@
+{
+ "id": "1517681_2023-06-09",
+ "asof": "2023-06-09",
+ "chars": 11337,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 1000000,
+   "exercise_price_usd": 0.01,
+   "expiry": "2025-08-16",
+   "quote": "1,000,000 warrants to purchase common stock at $0.01 per share with an expiry date of August 16, 2025"
+  },
+  {
+   "count": 2305000,
+   "exercise_price_usd": 0.01,
+   "expiry": "2025-08-16",
+   "quote": "2,305,000 warrants to purchase common stock at $0.01"
+  },
+  {
+   "count": 9986,
+   "exercise_price_usd": 200,
+   "expiry": null,
+   "quote": "exercise of 960 Series A Warrants with an original exercise price of $200"
+  }
+ ],
+ "warrants_dropped": 0
+}

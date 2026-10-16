@@ -1,0 +1,32 @@
+{
+ "id": "1551986_2022-06-21",
+ "asof": "2022-06-21",
+ "chars": 20511,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 2233,
+   "exercise_price_usd": 2.54,
+   "expiry": null,
+   "quote": "Warrants outstanding at an exercise price of $2.542,233 2,233"
+  },
+  {
+   "count": 113980,
+   "exercise_price_usd": 3.18,
+   "expiry": null,
+   "quote": "Warrants outstanding at an exercise price of $3.18113,980 113,980"
+  },
+  {
+   "count": 22927849,
+   "exercise_price_usd": 0.5894,
+   "expiry": null,
+   "quote": "Warrants outstanding at an exercise price of $0.589422,927,849 26,822,849"
+  }
+ ],
+ "warrants_dropped": 0
+}

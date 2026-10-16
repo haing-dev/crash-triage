@@ -1,0 +1,33 @@
+{
+ "id": "1820190_2022-11-18",
+ "asof": "2022-11-21",
+ "chars": 25425,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2022-10-10",
+   "net_proceeds_usd": 323889,
+   "what": "Sponsor non-interest-bearing loans deposited into Trust Account to extend business combination deadline",
+   "quote": "The Sponsors deposited $323,889 into the Trust Account made in the form of non-interest-bearing loans."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 6900000,
+   "exercise_price_usd": 11.5,
+   "expiry": null,
+   "quote": "there were 6,900,000 Public Warrants outstanding."
+  },
+  {
+   "count": 4104000,
+   "exercise_price_usd": 11.5,
+   "expiry": null,
+   "quote": "the Sponsors forfeited 2,736,000 warrants that were issued in a private placement in connection with Vickers\u2019s initial public offering."
+  }
+ ],
+ "warrants_dropped": 0
+}
