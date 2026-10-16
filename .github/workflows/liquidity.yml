@@ -1,17 +1,17 @@
 name: read-liquidity
 on:
   schedule:
-    - cron: "7 * * * *"           # hourly while filings are left to read (skipped when none) (one-offs, later financings, warrants; once per episode)
+    - cron: "7 */3 * * *"       # every 3 hours, ~30 filings a run (~240 a day): gentle on the Claude subscription
   workflow_dispatch:
     inputs:
-      limit: { description: "Crashes to read this run", default: "150" }
+      limit: { description: "Filings to read this run", default: "30" }
 permissions:
   contents: write
 concurrency:
   group: ${{ github.workflow }}
   cancel-in-progress: false
 jobs:
-  pending:                       # one cheap check, so the four readers don't start when nothing is left to read
+  pending:                       # one cheap check, so the reader doesn't start when nothing is left to read
     runs-on: ubuntu-latest
     outputs:
       n: ${{ steps.c.outputs.n }}
@@ -22,25 +22,24 @@ jobs:
   liquidity:
     needs: pending
     if: needs.pending.outputs.n != '0'
-    strategy:
-      fail-fast: false
-      matrix: { kind: [crash, slide], shard: [0, 1] }    # four runners in parallel
     runs-on: ubuntu-latest
     timeout-minutes: 58
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with: { python-version: "3.12" }
       - uses: actions/setup-node@v4
         with: { node-version: "22" }
       - name: Install Claude Code
         run: npm install -g @anthropic-ai/claude-code
-      - name: Read filings
+      - name: Read filings (one at a time; crashes first, then slides)
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
-        run: cd pipeline && timeout 55m python liquidity.py --kind ${{ matrix.kind }} --limit ${{ inputs.limit || '150' }} --shard ${{ matrix.shard }}/2 || true
+        run: |
+          cd pipeline
+          timeout 25m python3 liquidity.py --kind crash --limit 10 || true
+          timeout 25m python3 liquidity.py --kind slide --limit ${{ inputs.limit || '30' }} || true
       - name: Save
+        if: always()
         run: |
           git config user.name "crash-triage-bot"
           git config user.email "actions@users.noreply.github.com"

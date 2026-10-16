@@ -4,7 +4,7 @@ on:
     - cron: "47 */6 * * *"      # every 6 hours; reads the announcement for crashes not yet read
   workflow_dispatch:
     inputs:
-      limit: { description: "Crashes to read this run", default: "150" }
+      limit: { description: "Crashes to read this run", default: "20" }
 permissions:
   contents: write
 concurrency:                   # own queue: long jobs don't cancel the hourly ones
@@ -29,7 +29,7 @@ jobs:
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
-        run: cd pipeline && timeout 50m python events.py --limit ${{ inputs.limit || '150' }} || true
+        run: cd pipeline && timeout 50m python events.py --limit ${{ inputs.limit || '20' }} || true
       - name: Save
         if: steps.c.outputs.n != '0'
         run: |
