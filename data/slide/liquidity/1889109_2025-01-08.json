@@ -1,0 +1,45 @@
+{
+ "id": "1889109_2025-01-08",
+ "asof": "2025-01-08",
+ "chars": 23438,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-04-29",
+   "net_proceeds_usd": 25000000,
+   "what": "Registered direct offering of 651,380 ADSs with accompanying warrants at $38.38 (net proceeds estimate)",
+   "quote": "We estimate that the net proceeds to us from this offering will be approximately $25 million"
+  },
+  {
+   "date": "2024-11-04",
+   "net_proceeds_usd": 28750000,
+   "what": "Cash exercise of 651,380 existing warrants at $44.14 (gross proceeds; closing expected on or about Nov 4, 2024)",
+   "quote": "The Company expects to receive aggregate gross proceeds of approximately US$28.75 million from the exercise"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 150000,
+   "exercise_price_usd": 7.5,
+   "expiry": "2027-04-28",
+   "quote": "warrants to purchase a number of ADSs equal to 150,000 ADSs (the \u201cRepresentative\u2019s Warrants\u201d). The Representative\u2019s Warrants have an exercise price equal to US$7.50 per ADS"
+  },
+  {
+   "count": 894022,
+   "exercise_price_usd": 18.0,
+   "expiry": null,
+   "quote": "warrants to purchase 2,000,000 ordinary shares of our Company, with an exercise period of five year at an exercise price of US$18.00 per share. As of the date of this Annual Report, warrants to purchase 894,022 ADSs remain outstanding"
+  },
+  {
+   "count": 651380,
+   "exercise_price_usd": 70.0,
+   "expiry": null,
+   "quote": "to purchase up to an aggregate of 651,380 ordinary shares (the \u201cNew Warrant Shares\u201d), at an exercise price"
+  }
+ ],
+ "warrants_dropped": 0
+}

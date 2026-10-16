@@ -1,0 +1,51 @@
+{
+ "id": "1719406_2025-01-21",
+ "asof": "2025-01-21",
+ "chars": 24859,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [
+  {
+   "amount_usd": 2500000,
+   "what": "Streeterville settlement payment made at first Anson closing",
+   "quote": "The Company made the $2.5 million payment upon the Anson Notes closing on August 15, 2024."
+  }
+ ],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-10-10",
+   "net_proceeds_usd": 4600000,
+   "what": "Anson second tranche notes and warrants; ~$5.0M purchase price less ~$0.4M issuance costs",
+   "quote": "with an aggregate purchase price of approximately $5.0 million"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 1349305,
+   "exercise_price_usd": 2.42,
+   "expiry": "2029-08-14",
+   "quote": "On August 14, 2024, in conjunction with the issuance of the First Tranche Notes, the Company issued warrants to purchase up to 1,349,305 shares of the Company\u2019s Common Stock."
+  },
+  {
+   "count": 1846128,
+   "exercise_price_usd": null,
+   "expiry": null,
+   "quote": "Warrants to purchase up to 1,846,128 shares of Common Stock (the \u201cSecond Closing\u201d)."
+  },
+  {
+   "count": 270000,
+   "exercise_price_usd": 3.8,
+   "expiry": null,
+   "quote": "The February Warrants will have an exercise price of $3.80 per share, are initially exercisable beginning six months following the date of issuance, and will expire 5 years from the date of issuance."
+  },
+  {
+   "count": 419598,
+   "exercise_price_usd": 4.0,
+   "expiry": null,
+   "quote": "Alvogen received warrants to purchase up to 419,598 shares of the Company's Common Stock, at a strike price of $4.00 with a three year term"
+  }
+ ],
+ "warrants_dropped": 0
+}

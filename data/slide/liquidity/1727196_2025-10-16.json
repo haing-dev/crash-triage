@@ -1,5 +1,26 @@
 {
  "id": "1727196_2025-10-16",
  "asof": "2025-10-16",
- "error": "Extra data: line 3 column 1 (char 644)"
+ "chars": 18778,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 8220620,
+   "exercise_price_usd": 7.35,
+   "expiry": null,
+   "quote": "In June 2022, the Company also issued 10,459,181 warrants with an exercise price of $7.35."
+  },
+  {
+   "count": 17362147,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "As of June 30, 2025, the Company has 17,362,147 pre-funded warrants outstanding."
+  }
+ ],
+ "warrants_dropped": 0
 }
