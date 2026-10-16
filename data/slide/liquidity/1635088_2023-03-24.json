@@ -1,0 +1,33 @@
+{
+ "id": "1635088_2023-03-24",
+ "asof": "2023-03-24",
+ "chars": 26425,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2023-02-07",
+   "net_proceeds_usd": 216800000,
+   "what": "Underwritten public offering of 30,666,665 common shares at $7.50, underwriters' option exercised in full (net proceeds figure from the prospectus supplement)",
+   "quote": "approximately $188.5 million, or approximately $216.8 million if the underwriters exercise in full their option to purchase additional common shares"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 10214365,
+   "exercise_price_usd": 11.5,
+   "expiry": null,
+   "quote": "10,214,365 outstanding warrants for the purchase of one of the Company\u2019s common shares, which were held by the MAAC Sponsor at an exercise price of $11.50"
+  },
+  {
+   "count": 20535896,
+   "exercise_price_usd": 11.5,
+   "expiry": null,
+   "quote": "20,535,896 outstanding warrants for the purchase of one of the Company\u2019s common shares, which were held by MAAC\u2019s shareholders at an exercise price of $11.50"
+  }
+ ],
+ "warrants_dropped": 0
+}

@@ -1,0 +1,39 @@
+{
+ "id": "1429260_2023-03-30",
+ "asof": "2023-03-30",
+ "chars": 25412,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2022-10-11",
+   "net_proceeds_usd": 10400000,
+   "what": "Avenue underwritten public offering of common and pre-funded units with warrants",
+   "quote": "Avenue received net proceeds of approximately $10.4 million at closing after deducting underwriting discounts and commissions and other expenses of the offering."
+  },
+  {
+   "date": "2023-02-10",
+   "net_proceeds_usd": 13568038.81,
+   "what": "Fortress registered direct offering of 16,642,894 shares at $0.835 (proceeds before expenses, after placement agent fees); closing was expected on or about this date, not confirmed in the excerpts",
+   "quote": "the Registered Direct Offering is expected to close on or about February 10, 2023."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 1909450,
+   "exercise_price_usd": 3.11,
+   "expiry": null,
+   "quote": "Outstanding as of September 30, 2022"
+  },
+  {
+   "count": 748036,
+   "exercise_price_usd": 0.8021,
+   "expiry": null,
+   "quote": "Mustang also issued to Runway a warrant to purchase up to 748,036 of Mustang common shares with an exercise price of $0.8021 per share"
+  }
+ ],
+ "warrants_dropped": 0
+}
