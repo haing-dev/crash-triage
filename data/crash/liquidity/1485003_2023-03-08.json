@@ -1,0 +1,32 @@
+{
+ "id": "1485003_2023-03-08",
+ "asof": "2023-03-14",
+ "chars": 23341,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 132000,
+   "exercise_price_usd": 0.55,
+   "expiry": null,
+   "quote": "Mar-2018$0.55*Mar-2023132 \u2014 \u2014 \u2014 132"
+  },
+  {
+   "count": 28000,
+   "exercise_price_usd": 11.83,
+   "expiry": null,
+   "quote": "May-2015$11.83Nov-202428 \u2014 \u2014 \u2014 28"
+  },
+  {
+   "count": 27000,
+   "exercise_price_usd": 11.04,
+   "expiry": null,
+   "quote": "Nov-2014$11.04Nov-202427 \u2014 \u2014 \u2014 27"
+  }
+ ],
+ "warrants_dropped": 0
+}

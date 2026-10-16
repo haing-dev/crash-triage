@@ -1,0 +1,33 @@
+{
+ "id": "1427570_2023-02-06",
+ "asof": "2023-02-10",
+ "chars": 28508,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2022-11-09",
+   "net_proceeds_usd": 697502.23,
+   "what": "Registered direct offering of common stock, Series D Mirroring Preferred and pre-funded warrants; net of 7% placement agent fee, before other offering expenses",
+   "quote": "The offering closed on November 9, 2022."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 2884615,
+   "exercise_price_usd": 0.3,
+   "expiry": null,
+   "quote": "warrants to purchase an aggregate of 2,884,615 shares of common stock at an exercise price of $0.30 per share"
+  },
+  {
+   "count": 5348146,
+   "exercise_price_usd": 0.3,
+   "expiry": null,
+   "quote": "amend certain existing warrants to purchase up to 5,348,146 shares of common stock that were previously issued to the Investor"
+  }
+ ],
+ "warrants_dropped": 0
+}

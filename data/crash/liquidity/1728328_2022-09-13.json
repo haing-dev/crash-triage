@@ -1,0 +1,63 @@
+{
+ "id": "1728328_2022-09-13",
+ "asof": "2022-09-19",
+ "chars": 32592,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2022-06-06",
+   "net_proceeds_usd": 5000000,
+   "what": "Registered direct offering plus concurrent private placement, closed June 2022 (gross; net not given)",
+   "quote": "the closing of a previously announced registered direct issuance and sale of 4,079,256 of its common shares (or pre-funded warrants in lieu thereto)"
+  },
+  {
+   "date": "2022-09-13",
+   "net_proceeds_usd": 6000247,
+   "what": "September 2022 private placement of 691,245 shares at $8.68. Amount is computed gross; the filing text is cut off at the closing sentence",
+   "quote": "On September 13, 2022, the parties consumm"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 1780000,
+   "exercise_price_usd": 5.11,
+   "expiry": "2026-11-16",
+   "quote": "On\nNovember 16, 2020, 1,780,000 warrants were issued with an exercise price of $5.11 per share, were immediately exercisable upon issuance,\nand expire 6 years following the date of issuance."
+  },
+  {
+   "count": 323400,
+   "exercise_price_usd": 0.45,
+   "expiry": "2023-03-31",
+   "quote": "On March 21, 2022, the Company amended the warrants to re-price them to $0.45 per\nshare with an expiry date of March 31, 2023."
+  },
+  {
+   "count": 4036327,
+   "exercise_price_usd": 2.848,
+   "expiry": "2026-07-02",
+   "quote": "On\nJuly 2, 2021, 4,036,327 warrants were issued with an exercise price of $2.848 per share, were immediately exercisable upon issuance,\nand expire 5 years following the date of issuance."
+  },
+  {
+   "count": 302725,
+   "exercise_price_usd": 3.7163,
+   "expiry": "2026-07-02",
+   "quote": "On\nJuly 2, 2021, 302,725 warrants were issued for services with an exercise price of $3.7163 per share, were immediately exercisable upon\nissuance, and expire 5 years following the date of issuance."
+  },
+  {
+   "count": 5827506,
+   "exercise_price_usd": 0.74,
+   "expiry": null,
+   "quote": "The investment options have an exercise price equal to $0.74 per share, will be exercisable\nimmediately, and will expire six and one-half years from the date of issuance."
+  },
+  {
+   "count": 1748250,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "1,748,250 common shares issuable upon the exercise of pre-funded warrants at an exercise price of $0.0001\nper share"
+  }
+ ],
+ "warrants_dropped": 0
+}

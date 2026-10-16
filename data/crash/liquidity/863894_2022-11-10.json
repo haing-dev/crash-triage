@@ -1,0 +1,33 @@
+{
+ "id": "863894_2022-11-10",
+ "asof": "2022-11-14",
+ "chars": 13068,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2020-06-26",
+   "net_proceeds_usd": 5000000,
+   "what": "Aspire Capital initial purchase shares (1,644,737 shares) sold on signing the purchase agreement; gross proceeds, no net figure given",
+   "quote": "1,644,737 Initial Purchase Shares to Aspire Capital for an aggregate sale price of $5.0 million"
+  },
+  {
+   "date": "2021-02-22",
+   "net_proceeds_usd": 100000000,
+   "what": "Underwritten public offering of 6,451,613 shares at $15.50 (Jefferies); net proceeds are an estimate, and the closing date was expected rather than confirmed",
+   "quote": "are expected to be approximately $100 million after deducting underwriting discounts and commissions and estimated expenses payable by the Company"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 2585379,
+   "exercise_price_usd": 1.93,
+   "expiry": "2021-10-31",
+   "quote": "the Company issued a warrant to purchase up to 2,585,379 shares of the Company's common stock to Torreya Capital"
+  }
+ ],
+ "warrants_dropped": 0
+}

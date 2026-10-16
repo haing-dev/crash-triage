@@ -1,0 +1,33 @@
+{
+ "id": "1580063_2021-08-20",
+ "asof": "2021-08-20",
+ "chars": 20825,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2021-07-31",
+   "net_proceeds_usd": 500,
+   "what": "Exercise of 500,000 pre-funded warrants at $0.001 per share (July 2021; exact day not given)",
+   "quote": "In July 2021, the Company issued 500,000 shares of common stock as a result of the exercise of the outstanding pre-funded warrants at an exercise price of $0.001 per share."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 4370629,
+   "exercise_price_usd": 6.86,
+   "expiry": "2026-02-25",
+   "quote": "The warrants are exercisable for cash at an exercise price of $6.86 per share, subject to adjustments as provided under the terms of the warrants."
+  },
+  {
+   "count": 16194332,
+   "exercise_price_usd": 2.84,
+   "expiry": "2026-06-14",
+   "quote": "The warrants are immediately exercisable at an exercise price of $2.84 per share, subject to adjustments as provided under the terms of the warrants, and expire on the fifth anniversary of the date of issuance."
+  }
+ ],
+ "warrants_dropped": 0
+}

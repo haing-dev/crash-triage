@@ -1,0 +1,51 @@
+{
+ "id": "1029125_2023-01-26",
+ "asof": "2023-01-26",
+ "chars": 26288,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2022-10-04",
+   "net_proceeds_usd": 5200000,
+   "what": "Registered public offering of common stock, pre-funded warrants and common warrants",
+   "quote": "Net proceeds from the offering totaled approximately $5.2 million."
+  },
+  {
+   "date": "2022-11-08",
+   "net_proceeds_usd": 3835,
+   "what": "Exercise of pre-funded warrants from the October offering (gross proceeds)",
+   "quote": "an additional 3,385,000 shares of common stock had been issued pursuant to the exercise of pre-funded warrants issued in the offering for gross proceeds of $3,835."
+  },
+  {
+   "date": "2023-01-13",
+   "net_proceeds_usd": 639000,
+   "what": "At-the-market equity program sales through Jan 13, 2023 (cumulative since July 2022 agreement)",
+   "quote": "sold a total of 154,909 shares of its common stock through the at-the-market equity offering program pursuant to the Sales Agreement dated July 19, 2022, for net proceeds of approximately $639,000"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 5446561,
+   "exercise_price_usd": 4.56,
+   "expiry": null,
+   "quote": "Warrants outstanding (1) 5,446,561"
+  },
+  {
+   "count": 30150000,
+   "exercise_price_usd": 0.3,
+   "expiry": "2027-10-04",
+   "quote": "warrants to purchase up to an aggregate of 30,150,000 shares of its common stock at an exercise price of $0.30 per share"
+  },
+  {
+   "count": 9628000,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "pre-funded warrants to purchase up to an aggregate of 13,013,000 shares of common stock at an exercise price of $0.001 per shares"
+  }
+ ],
+ "warrants_dropped": 0
+}

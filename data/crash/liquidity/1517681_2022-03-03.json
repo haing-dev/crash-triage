@@ -1,0 +1,39 @@
+{
+ "id": "1517681_2022-03-03",
+ "asof": "2022-03-09",
+ "chars": 11353,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2022-01-06",
+   "net_proceeds_usd": 60000,
+   "what": "Sixth Street Lending convertible promissory note ($63,750 principal), closed January 6, 2022",
+   "quote": "The transaction contemplated by the Purchase Agreement closed on January 6, 2022. The Company intends to use the net proceeds ($60,000) from the Note for general working capital purposes."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 450,
+   "exercise_price_usd": 2250,
+   "expiry": "2024-08-30",
+   "quote": "to purchase 450 shares of the Company\u2019s common stock (the \u201cFirst Warrant\u201d) as a commitment fee upon the terms and subject to the limitations and conditions set forth in such First Warrant at an \u201cExercise Price\u201d of $2,250."
+  },
+  {
+   "count": 300,
+   "exercise_price_usd": 3330,
+   "expiry": "2024-08-30",
+   "quote": "to purchase 300 shares of the Company\u2019s common stock (the \u201cSecond Warrant\u201d) as a commitment fee upon the terms and subject to the limitations and conditions set forth in such Second Warrant at an \u201cExercise Price\u201d of $3,330."
+  },
+  {
+   "count": 225,
+   "exercise_price_usd": 4500,
+   "expiry": "2024-08-30",
+   "quote": "to purchase 225 shares of the Company\u2019s common stock (the \u201cThird Warrant\u201d) as a commitment fee upon the terms and subject to the limitations and conditions set forth in such Third Warrant at an \u201cExercise Price\u201d of $4,500."
+  }
+ ],
+ "warrants_dropped": 0
+}

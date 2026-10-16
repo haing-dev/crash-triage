@@ -1,0 +1,51 @@
+{
+ "id": "1069308_2023-03-17",
+ "asof": "2023-03-17",
+ "chars": 26430,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2022-12-08",
+   "net_proceeds_usd": 2600000,
+   "what": "ATM sales of 1,858,757 shares since Sept 30, 2022 (cumulative through Dec 8, 2022)",
+   "quote": "Since September 30, 2022, the Company has sold an additional 1,858,757 shares of common stock at an average price per share of $1.44 under the ATM Facility, with gross proceeds of approximately $2.7 million, and net proceeds of approximately $2.6 million."
+  },
+  {
+   "date": "2022-12-02",
+   "net_proceeds_usd": 1499999.76,
+   "what": "Private placement of 1,229,508 shares to company directors (gross proceeds; net not given)",
+   "quote": "the proceeds received by the Company from its sale of 1,229,508 shares of common stock in a private placement on December 2, 2022 with proceeds to the Company of approximately $1.5 million"
+  },
+  {
+   "date": "2023-01-31",
+   "net_proceeds_usd": 3700000,
+   "what": "ATM sales of 1,365,059 shares in January 2023",
+   "quote": "During January 2023 to date, the Company has sold 1,365,059 shares of Common Stock at an average price per share of $2.84 under the ATM Facility, with gross proceeds of approximately $3.9 million, and net proceeds of approximately $3.7 million."
+  },
+  {
+   "date": null,
+   "net_proceeds_usd": 60000,
+   "what": "Lincoln Park sale of 50,000 shares after Sept 30, 2022 (exact date not given)",
+   "quote": "Subsequent to September 30, 2022, the Company sold 50,000 shares of common stock under its purchase agreement with Lincoln Park at an average gross sale price of $1.20 per share, resulting in proceeds of $60 thousand."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 150000,
+   "exercise_price_usd": 2.46,
+   "expiry": null,
+   "quote": "the Company issued a warrant (the \u201cFirst SWK Warrant\u201d) to purchase 150,000 shares of the Company\u2019s common stock at an exercise price of $2.46 per share."
+  },
+  {
+   "count": 100000,
+   "exercise_price_usd": 1.51,
+   "expiry": null,
+   "quote": "an additional warrant to purchase 100,000 shares of the Company\u2019s common stock at an exercise price of $1.51 per share"
+  }
+ ],
+ "warrants_dropped": 0
+}

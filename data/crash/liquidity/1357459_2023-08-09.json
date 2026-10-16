@@ -1,0 +1,63 @@
+{
+ "id": "1357459_2023-08-09",
+ "asof": "2023-08-09",
+ "chars": 29949,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2023-04-03",
+   "net_proceeds_usd": 5400000,
+   "what": "April 2023 registered direct offering and concurrent private placement (net)",
+   "quote": "Gross cash proceeds from the April 2023 Offering were $6.0 million and net cash proceeds were $5.4 million after deducting cash equity issuance costs of approximately $0.6 million."
+  },
+  {
+   "date": "2023-04-30",
+   "net_proceeds_usd": 47600,
+   "what": "Cash received in April 2023 for warrant exercises outstanding at March 31, 2023 (exact day not stated)",
+   "quote": "Other receivables as of March 31, 2023 and December 31, 2022 includes a $47,600 receivable"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 278162,
+   "exercise_price_usd": 2.38,
+   "expiry": null,
+   "quote": "278,162 common stock warrants have an exercise price of $2.38"
+  },
+  {
+   "count": 1012631,
+   "exercise_price_usd": 2.375,
+   "expiry": null,
+   "quote": "1,012,631 common stock warrants have an exercise price of $2.375"
+  },
+  {
+   "count": 63158,
+   "exercise_price_usd": 2.9668,
+   "expiry": null,
+   "quote": "63,158 common stock warrants have an exercise price of $2.9668"
+  },
+  {
+   "count": 250470,
+   "exercise_price_usd": 104.24,
+   "expiry": null,
+   "quote": "the remaining 250,470 common stock warrants have a weighted-average exercise price of $104.24"
+  },
+  {
+   "count": 2272723,
+   "exercise_price_usd": 2.64,
+   "expiry": null,
+   "quote": "The Warrants have a term of five (5) years and an exercise price of $2.64 per share."
+  },
+  {
+   "count": 1061164,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "1,061,164 prefunded warrants to purchase shares of the Company's common stock at an exercise price of $0.0001 per share, with a perpetual term"
+  }
+ ],
+ "warrants_dropped": 0
+}

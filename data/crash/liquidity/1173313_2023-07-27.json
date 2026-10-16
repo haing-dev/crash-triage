@@ -1,0 +1,51 @@
+{
+ "id": "1173313_2023-07-27",
+ "asof": "2023-07-31",
+ "chars": 17575,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2023-07-31",
+   "net_proceeds_usd": 1500000,
+   "what": "Registered direct offering of 300,000 shares and 200,000 pre-funded warrants, closed July 31, 2023",
+   "quote": "We estimate the net proceeds to us from this offering will be approximately $1.5 million after deducting the placement agent fee and estimated offering expenses payable by us."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 5291667,
+   "exercise_price_usd": 1.05,
+   "expiry": null,
+   "quote": "a common stock purchase warrant (the \u201cLind Warrant\u201d) to purchase up to 5,291,667 shares of the Company\u2019s common stock at an initial exercise price of $1.05 per share"
+  },
+  {
+   "count": 2000000,
+   "exercise_price_usd": 2.45,
+   "expiry": null,
+   "quote": "5-year warrants to purchase 2,000,000 shares of common stock, exercisable at a price of $2.45 per share"
+  },
+  {
+   "count": 1100000,
+   "exercise_price_usd": 6.3,
+   "expiry": "2026-08-05",
+   "quote": "to purchase one share of common stock at an exercise price equal to $6.30 per share, exercisable until the fifth anniversary of the issuance date"
+  },
+  {
+   "count": 1100000,
+   "exercise_price_usd": 10.0,
+   "expiry": "2026-08-05",
+   "quote": "to purchase one share of common stock at an exercise price equal to $10.00 per share, exercisable until the fifth anniversary of the issuance date"
+  },
+  {
+   "count": 200000,
+   "exercise_price_usd": 0.01,
+   "expiry": null,
+   "quote": "200,000 pre-funded warrants, at an exercise price of $0.01 per share"
+  }
+ ],
+ "warrants_dropped": 0
+}

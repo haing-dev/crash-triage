@@ -1,0 +1,33 @@
+{
+ "id": "1501697_2021-12-13",
+ "asof": "2021-12-14",
+ "chars": 21792,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2021-11-15",
+   "net_proceeds_usd": 19500000,
+   "what": "Proceeds received since 9/30/21 from $10M pre-funded warrant private placement plus ATM sales (figure not stated as net)",
+   "quote": "As of November 15, 2021, the Company has received approximately $19.5 million in proceeds from the sale of shares of common stock and pre-funded warrants to purchase shares of common stock since September 30, 2021."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 11249128,
+   "exercise_price_usd": 10.92,
+   "expiry": null,
+   "quote": "Outstanding and exercisable warrants to purchase common shares as of September 30, 202111,249,128 $10.922.97"
+  },
+  {
+   "count": 2008032,
+   "exercise_price_usd": 0.01,
+   "expiry": null,
+   "quote": "pre-funded warrants (the \u201cPre-Funded Warrants\u201d) to purchase an aggregate of 2,008,032 shares"
+  }
+ ],
+ "warrants_dropped": 0
+}

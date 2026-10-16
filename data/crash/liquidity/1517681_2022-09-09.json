@@ -1,0 +1,57 @@
+{
+ "id": "1517681_2022-09-09",
+ "asof": "2022-09-14",
+ "chars": 17533,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2022-04-18",
+   "net_proceeds_usd": 65000,
+   "what": "Sixth Street convertible note (closing expected on or about this date)",
+   "quote": "The Company intends to use the net proceeds ($65,000) from the Note"
+  },
+  {
+   "date": "2022-04-16",
+   "net_proceeds_usd": 88000,
+   "what": "GS Capital convertible note, closed April 16, 2022",
+   "quote": "The transaction contemplated by the GS Capital Purchase Agreement closed on April 16, 2022."
+  },
+  {
+   "date": "2022-05-16",
+   "net_proceeds_usd": 60000,
+   "what": "1800 Diagonal Lending convertible note, closed May 16, 2022",
+   "quote": "The transaction contemplated by the Purchase Agreement closed on May 16, 2022."
+  },
+  {
+   "date": "2022-08-15",
+   "net_proceeds_usd": 110000,
+   "what": "ONE44 Capital convertible note (gross principal, net not given)",
+   "quote": "On August 15, 2022, the Company entered into a securities purchase agreement (the \u201cONE44 Purchase Agreement\u201d) with ONE44 Capital"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 450,
+   "exercise_price_usd": 2250,
+   "expiry": "2024-08-30",
+   "quote": "to purchase 450 shares of the Company\u2019s common stock (the \u201cFirst Warrant\u201d) as a commitment fee"
+  },
+  {
+   "count": 300,
+   "exercise_price_usd": 3330,
+   "expiry": "2024-08-30",
+   "quote": "to purchase 300 shares of the Company\u2019s common stock (the \u201cSecond Warrant\u201d) as a commitment fee"
+  },
+  {
+   "count": 225,
+   "exercise_price_usd": 4500,
+   "expiry": "2024-08-30",
+   "quote": "to purchase 225 shares of the Company\u2019s common stock (the \u201cThird Warrant\u201d) as a commitment"
+  }
+ ],
+ "warrants_dropped": 0
+}

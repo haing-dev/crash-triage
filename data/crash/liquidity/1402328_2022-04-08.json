@@ -1,0 +1,39 @@
+{
+ "id": "1402328_2022-04-08",
+ "asof": "2022-04-14",
+ "chars": 32066,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2022-02-17",
+   "net_proceeds_usd": 6833071,
+   "what": "Underwritten public offering of common stock and warrants",
+   "quote": "The net proceeds from the offering were $6,833,071."
+  },
+  {
+   "date": "2022-03-14",
+   "net_proceeds_usd": 6800000,
+   "what": "Private placement of common stock, pre-funded warrants and warrants",
+   "quote": "We received net proceeds of approximately $6.8 million from the private placement."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 7355352,
+   "exercise_price_usd": 2.22,
+   "expiry": null,
+   "quote": "as of March 16, 2022, we have 7,355,352 shares of common issuable upon exercise of outstanding warrants with an exercise price of $2.22, subject to adjustment"
+  },
+  {
+   "count": 1302251,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "1,302,251 shares issuable upon exercise of pre-funded warrants at a nominal exercise price of $0.001"
+  }
+ ],
+ "warrants_dropped": 0
+}

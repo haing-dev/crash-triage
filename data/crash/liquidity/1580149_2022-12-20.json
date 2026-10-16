@@ -1,0 +1,33 @@
+{
+ "id": "1580149_2022-12-20",
+ "asof": "2022-12-21",
+ "chars": 8866,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2022-12-01",
+   "net_proceeds_usd": 7400000,
+   "what": "ATM sales under Cantor/B. Riley Sales Agreement, cumulative since Aug 31, 2022 through Dec 1, 2022 (the filing does not split out sales made before the Sept 30 balance-sheet date)",
+   "quote": "we have sold 1,934,871 shares of common stock for total net proceeds of approximately $7.4 million after commissions and expenses of approximately $228,247."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 7272728,
+   "exercise_price_usd": 1.82,
+   "expiry": null,
+   "quote": "a warrant to purchase 7,272,728 shares of Common Stock (\u201cWarrant Shares\u201d), at an exercise price of $1.82, with a term of exercise of five years"
+  },
+  {
+   "count": 361002,
+   "exercise_price_usd": 5.82,
+   "expiry": "2026-11-30",
+   "quote": "warrants to purchase 361,002 shares of Class A common stock of the Company (the \u201cWarrants\u201d) at an exercise price per share equal to $5.82, the stock purchase price."
+  }
+ ],
+ "warrants_dropped": 0
+}

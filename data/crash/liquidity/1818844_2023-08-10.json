@@ -1,0 +1,33 @@
+{
+ "id": "1818844_2023-08-10",
+ "asof": "2023-08-11",
+ "chars": 22290,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2023-08-11",
+   "net_proceeds_usd": 1355091,
+   "what": "ATM sales under JonesTrading Sales Agreement after June 30, 2023 (amount as stated; net vs gross not specified; exact sale dates not given, so entry date used)",
+   "quote": "Subsequent to June 30, 2023, the Company has raised $1,355,091 using the Sales Agreement."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 172500,
+   "exercise_price_usd": 12.5,
+   "expiry": null,
+   "quote": "the Company granted the underwriters warrants to purchase 172,500 shares of common stock at an exercise price of $12.50 per share."
+  },
+  {
+   "count": 32375,
+   "exercise_price_usd": 0.625,
+   "expiry": null,
+   "quote": "the Company granted the Underwriter warrants to purchase 500,000 shares of common stock at an exercise price of $0.625 per share (the \u201cRepresentative Warrants\u201d)."
+  }
+ ],
+ "warrants_dropped": 0
+}

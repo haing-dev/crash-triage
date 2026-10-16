@@ -1,0 +1,33 @@
+{
+ "id": "1860657_2023-07-06",
+ "asof": "2023-07-11",
+ "chars": 20077,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2023-04-21",
+   "net_proceeds_usd": 6598368,
+   "what": "Public offering of shares, pre-funded warrants and common warrants (closed April 21, 2023); net proceeds are the prospectus estimate",
+   "quote": "The closing of the Offering occurred on April 21, 2023"
+  },
+  {
+   "date": "2023-06-30",
+   "net_proceeds_usd": 350000,
+   "what": "3i, LP secured promissory note, paid in cash",
+   "quote": "3i, LP purchased a secured promissory note for a principal amount of $350,000"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 7130670,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "pre-funded warrants to purchase up to 7,130,670 shares of Common Stock"
+  }
+ ],
+ "warrants_dropped": 0
+}

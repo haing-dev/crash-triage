@@ -1,0 +1,45 @@
+{
+ "id": "1377121_2022-04-26",
+ "asof": "2022-04-27",
+ "chars": 21282,
+ "one_off_receipts": [
+  {
+   "amount_usd": 7500000,
+   "what": "Janssen milestone payment for completion of PN-235 Phase 1 data collection (Q4 2021)",
+   "quote": "During the fourth quarter of 2021, we received $7.5 million milestone payment from Janssen triggered by completion of the data collection for PN-235 Phase 1 activities."
+  }
+ ],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2022-04-27",
+   "net_proceeds_usd": 14600000,
+   "what": "ATM sales of 422,367 shares from Jan 1, 2022 through the 10-K issuance date (exact date not given; entry date used as upper bound)",
+   "quote": "Net proceeds were $14.6 million, after deducting issuance costs."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 1375000,
+   "exercise_price_usd": 10.0,
+   "expiry": "2023-08-08",
+   "quote": "Each Warrant is exercisable from August 8, 2018 through August 8, 2023. Warrants to purchase 1,375,000 shares of the Company\u2019s common stock have an exercise price of $10.00 per share"
+  },
+  {
+   "count": 1375000,
+   "exercise_price_usd": 15.0,
+   "expiry": "2023-08-08",
+   "quote": "Warrants to purchase 1,375,000 shares of the Company\u2019s common stock have an exercise price of $15.00 per share"
+  },
+  {
+   "count": 400000,
+   "exercise_price_usd": 1e-05,
+   "expiry": null,
+   "quote": "As of December 31, 2021, 400,000 of the Exchange Warrants remain unexercised."
+  }
+ ],
+ "warrants_dropped": 0
+}

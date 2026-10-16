@@ -1,0 +1,69 @@
+{
+ "id": "946486_2023-04-20",
+ "asof": "2023-04-24",
+ "chars": 31589,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2023-01-20",
+   "net_proceeds_usd": 1000000,
+   "what": "January 2023 warrant exercise inducement (gross proceeds; net not given in excerpt)",
+   "quote": "We received aggregate gross proceeds of approximately $1.0 million from the exercise of the January 2023 Existing Warrants by the exercising holders."
+  },
+  {
+   "date": "2023-04-24",
+   "net_proceeds_usd": 10800000,
+   "what": "April 2023 public offering of common stock and common warrants, including full exercise of underwriter option",
+   "quote": "The Offering, including the additional shares of Common Stock and Common Warrants sold pursuant to the full exercise of the Underwriter\u2019s option, closed on April 24, 2023."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 95999,
+   "exercise_price_usd": 180.0,
+   "expiry": "2026-03-25",
+   "quote": "Investors - March 2021 financing 185 185 $180.00 03/25/26"
+  },
+  {
+   "count": 57402,
+   "exercise_price_usd": 399.0,
+   "expiry": "2025-05-22",
+   "quote": "Investors - May 2020 financing 63 63 $399.00 05/22/25"
+  },
+  {
+   "count": 27427,
+   "exercise_price_usd": 604.5,
+   "expiry": "2024-12-06",
+   "quote": "Investors - December 2019 financing 29 29 $604.50 12/06/24"
+  },
+  {
+   "count": 3000,
+   "exercise_price_usd": 412.5,
+   "expiry": "2024-02-09",
+   "quote": "Service Agreement - 2021 warrants 3 3 $412.50 02/09/24"
+  },
+  {
+   "count": 26000,
+   "exercise_price_usd": 607.5,
+   "expiry": "2023-12-04",
+   "quote": "Investors - December 2018 financing - long-term 26 26 $607.50 12/04/23"
+  },
+  {
+   "count": 1000,
+   "exercise_price_usd": 975.0,
+   "expiry": "2023-12-07",
+   "quote": "Battelle - 2018 payables restructuring agreement (1) 1 1 $975.00 12/07/23"
+  },
+  {
+   "count": 192344,
+   "exercise_price_usd": 10.76,
+   "expiry": null,
+   "quote": "Each January 2023 New Warrant is exercisable into shares of common stock at a price per share of $10.76"
+  }
+ ],
+ "warrants_dropped": 0
+}

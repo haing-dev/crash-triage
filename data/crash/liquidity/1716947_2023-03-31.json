@@ -1,0 +1,57 @@
+{
+ "id": "1716947_2023-03-31",
+ "asof": "2023-04-05",
+ "chars": 27420,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2023-02-06",
+   "net_proceeds_usd": 3000000,
+   "what": "Registered direct offering of 3,571,431 shares at $0.84 (gross; net not given)",
+   "quote": "for gross proceeds of approximately $3.0 million before the deduction of placement agent fees and offering expenses"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 3571431,
+   "exercise_price_usd": 0.715,
+   "expiry": "2028-08-06",
+   "quote": "The common warrants have an exercise price of $0.715 per share and are exercisable to purchase an aggregate of up to 3,571,431 shares of common stock."
+  },
+  {
+   "count": 55306,
+   "exercise_price_usd": 0.7512,
+   "expiry": null,
+   "quote": "55,306 shares of common stock that may be issued upon the exercise of warrants issued to GYBL under the terms of the GEM Agreement at an exercise price of $0.7512 per share"
+  },
+  {
+   "count": 54174,
+   "exercise_price_usd": 15.6,
+   "expiry": null,
+   "quote": "The Prior Warrants issued in (i) 2021 are exercisable for an aggregate of 54,174 shares of our common stock at an exercise price of $15.60 per share"
+  },
+  {
+   "count": 466788,
+   "exercise_price_usd": 2.006,
+   "expiry": null,
+   "quote": "(ii) 2022 are exercisable for an aggregate of 466,788 shares of our common stock at an exercise price of $2.006 per share"
+  },
+  {
+   "count": 351663,
+   "exercise_price_usd": 227.87,
+   "expiry": null,
+   "quote": "exercisable for 351,663 shares of our common stock at a weighted average exercise price of $227.87 per share"
+  },
+  {
+   "count": 500000,
+   "exercise_price_usd": 230.0,
+   "expiry": null,
+   "quote": "The Public Warrants are exercisable for an aggregate of approximately 500,000 shares of our common stock at an exercise price of $230.00 per share"
+  }
+ ],
+ "warrants_dropped": 0
+}

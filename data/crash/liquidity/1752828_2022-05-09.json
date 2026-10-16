@@ -1,0 +1,33 @@
+{
+ "id": "1752828_2022-05-09",
+ "asof": "2022-05-12",
+ "chars": 33683,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2022-03-01",
+   "net_proceeds_usd": 46400000,
+   "what": "Cash proceeds from exercise of 13,281,386 amended warrants at $3.50 per share",
+   "quote": "In March 2022, we received approximately $46.4 million of cash proceeds from the exercise of warrants to acquire an aggregate of 13,281,386 shares at $3.50 per share."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 14375000,
+   "exercise_price_usd": 11.5,
+   "expiry": null,
+   "quote": "14,375,000 warrants (the \u201cPublic Warrants,\u201d and, together with the Private Placement Warrants, the \u201cWarrants\u201d) issued in the GX IPO."
+  },
+  {
+   "count": 8499999,
+   "exercise_price_usd": 11.5,
+   "expiry": null,
+   "quote": "up to 8,499,999 shares of Class A Common Stock that are"
+  }
+ ],
+ "warrants_dropped": 0
+}

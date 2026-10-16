@@ -1,0 +1,32 @@
+{
+ "id": "1497504_2022-08-12",
+ "asof": "2022-08-18",
+ "chars": 7936,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 2457501,
+   "exercise_price_usd": 7.5,
+   "expiry": null,
+   "quote": "June 2017 Warrants 2,457,501 - 2,457,501 $7.50 4.95 $-"
+  },
+  {
+   "count": 4109344,
+   "exercise_price_usd": 4.31,
+   "expiry": null,
+   "quote": "November 2020 Warrants 4,109,344 - 4,109,344 $4.31 3.38 $-"
+  },
+  {
+   "count": 29251,
+   "exercise_price_usd": 6.41,
+   "expiry": null,
+   "quote": "SVB Warrants 29,251 - 29,251 $6.41 5.11 $-"
+  }
+ ],
+ "warrants_dropped": 0
+}

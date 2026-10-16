@@ -1,0 +1,63 @@
+{
+ "id": "1642375_2022-02-18",
+ "asof": "2022-02-23",
+ "chars": 16503,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2022-02-23",
+   "net_proceeds_usd": 10000000,
+   "what": "Public offering of common stock, Series A/B warrants and pre-funded warrants, closed Feb 23, 2022",
+   "quote": "The net proceeds to the Company, after deducting the placement agent fees and estimated offering expenses payable by the Company, were approximately $10.0 million."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 160108,
+   "exercise_price_usd": 2.05,
+   "expiry": null,
+   "quote": "160,108"
+  },
+  {
+   "count": 146667,
+   "exercise_price_usd": 2.67,
+   "expiry": null,
+   "quote": "146.667"
+  },
+  {
+   "count": 112001,
+   "exercise_price_usd": 3.3,
+   "expiry": null,
+   "quote": "112,001"
+  },
+  {
+   "count": 37700,
+   "exercise_price_usd": 3.51,
+   "expiry": null,
+   "quote": "37,700"
+  },
+  {
+   "count": 18174,
+   "exercise_price_usd": 17.25,
+   "expiry": null,
+   "quote": "18,174"
+  },
+  {
+   "count": 10417,
+   "exercise_price_usd": 30.0,
+   "expiry": null,
+   "quote": "10,417"
+  },
+  {
+   "count": 1850000,
+   "exercise_price_usd": 0.37,
+   "expiry": null,
+   "quote": "exercisable at an exercise price of $0.37 per share for up to 1,850,000"
+  }
+ ],
+ "warrants_dropped": 0
+}

@@ -1,0 +1,39 @@
+{
+ "id": "1787740_2023-02-09",
+ "asof": "2023-02-13",
+ "chars": 25395,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2023-02-13",
+   "net_proceeds_usd": 4100000,
+   "what": "Firm commitment underwritten public offering of 20,000,000 shares at $0.25, closed Feb 13, 2023",
+   "quote": "The Offering closed on February 13, 2023, with the sale of 20,000,000 Shares of Common Stock to the Underwriter."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 50000,
+   "exercise_price_usd": 1.04,
+   "expiry": "2026-07-01",
+   "quote": "Common Stock\n\n50,000\n\n$\n\n1.04\n\nJuly 1, 2026"
+  },
+  {
+   "count": 50000,
+   "exercise_price_usd": 1.04,
+   "expiry": "2026-11-15",
+   "quote": "Common Stock\n\n50,000\n\n$\n\n1.04\n\nNovember 15, 2026"
+  },
+  {
+   "count": 172680,
+   "exercise_price_usd": 6.25,
+   "expiry": "2026-11-10",
+   "quote": "Common Stock\n\n172,680\n\n$\n\n6.25\n\nNovember 10, 2026"
+  }
+ ],
+ "warrants_dropped": 0
+}

@@ -1,0 +1,26 @@
+{
+ "id": "1513525_2022-07-20",
+ "asof": "2022-07-26",
+ "chars": 9325,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 3977888,
+   "exercise_price_usd": 2.52,
+   "expiry": null,
+   "quote": "to purchase an aggregate of up to 3,977,888 shares of Common Stock at an exercise price of $2.52 per share"
+  },
+  {
+   "count": 1865000,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "pre-funded warrants to purchase up to 1,865,000 shares of Common Stock with an exercise price of $0.001 per share"
+  }
+ ],
+ "warrants_dropped": 0
+}

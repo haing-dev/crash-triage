@@ -1,0 +1,51 @@
+{
+ "id": "1782107_2022-08-18",
+ "asof": "2022-08-24",
+ "chars": 23336,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2022-08-11",
+   "net_proceeds_usd": 8800000,
+   "what": "August Private Placement (shares, pre-funded warrants and preferred investment options), net of placement agent fees and expenses",
+   "quote": "The aggregate net cash proceeds to the Company from the August Private Placement were approximately $8.8 million"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 111111,
+   "exercise_price_usd": 10.35,
+   "expiry": "2027-02-11",
+   "quote": "the Company issued to Boustead warrants to purchase 111,111 shares of common stock."
+  },
+  {
+   "count": 70849,
+   "exercise_price_usd": 8.46875,
+   "expiry": null,
+   "quote": "the Company issued warrants to Wainwright (the \u201cWainwright Warrants\u201d) to purchase up to 70,849 shares of common stock."
+  },
+  {
+   "count": 4972428,
+   "exercise_price_usd": 2.546,
+   "expiry": "2027-08-12",
+   "quote": "preferred investment options to purchase up to an aggregate of 4,972,428 shares of common stock"
+  },
+  {
+   "count": 220997,
+   "exercise_price_usd": 3.3938,
+   "expiry": null,
+   "quote": "the Company issued warrants to Wainwright (the \u201cAugust Wainwright Warrants\u201d) to purchase up to 220,997 shares of common stock."
+  },
+  {
+   "count": 2333280,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "pre-funded warrants (the \u201cPre-Funded Warrants\u201d) to purchase an aggregate of 2,333,280 shares of common stock"
+  }
+ ],
+ "warrants_dropped": 0
+}

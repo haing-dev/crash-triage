@@ -1,0 +1,33 @@
+{
+ "id": "1818844_2022-09-19",
+ "asof": "2022-09-23",
+ "chars": 20612,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2022-09-21",
+   "net_proceeds_usd": 4448000,
+   "what": "Underwritten public offering of common stock at $0.50 per share; net proceeds estimated after fees and expenses. The excerpts do not state a closing date, so the date is the 424B4 filing date.",
+   "quote": "We expect to receive net proceeds from the sale of shares of our common stock in this offering of approximately $4,448,000, after deducting fees and our estimated offering expenses."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 172500,
+   "exercise_price_usd": 12.5,
+   "expiry": null,
+   "quote": "the Company granted the underwriters warrants to purchase 172,500 shares of common stock at an exercise price of $12.50 per share."
+  },
+  {
+   "count": 500000,
+   "exercise_price_usd": 0.625,
+   "expiry": null,
+   "quote": "purchase 500,000 shares of our common stock, which equals 5% of the total number of shares sold in this public offering at an exercise price of $0.625 per share"
+  }
+ ],
+ "warrants_dropped": 0
+}

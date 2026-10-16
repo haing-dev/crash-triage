@@ -1,0 +1,39 @@
+{
+ "id": "1571498_2022-01-27",
+ "asof": "2022-01-27",
+ "chars": 25428,
+ "one_off_receipts": [
+  {
+   "amount_usd": 25000000,
+   "what": "HutchMed upfront payment received September 2021",
+   "quote": "including the $25.0 million upfront payment received from HutchMed in September 2021"
+  }
+ ],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": null,
+   "net_proceeds_usd": 1100000,
+   "what": "ATM sales of 229,150 shares after September 30, 2021 (exact dates not given)",
+   "quote": "Subsequent to September 30, 2021, we have sold 229,150 shares of our common stock under the ATM Offering resulting in net proceeds of approximately $1.1 million."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 5653000,
+   "exercise_price_usd": 11.5,
+   "expiry": "2025-08-07",
+   "quote": "exercisable at any time prior to August 7, 2025 for up to 5,653,000 shares of the Company\u2019s common stock at an exercise price of $11.50 per share"
+  },
+  {
+   "count": 2500000,
+   "exercise_price_usd": 20.0,
+   "expiry": null,
+   "quote": "a warrant to purchase up to 2,500,000 shares of common stock at an exercise price of $20.00 per share"
+  }
+ ],
+ "warrants_dropped": 0
+}
