@@ -1,0 +1,33 @@
+{
+ "id": "1737953_2025-01-15",
+ "asof": "2025-01-15",
+ "chars": 24942,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-11-27",
+   "net_proceeds_usd": 155800000,
+   "what": "Underwritten public offering of common stock and pre-funded warrants (estimated net proceeds, including underwriter option; firm shares delivery expected 2024-11-27, pre-funded warrants 2024-12-04)",
+   "quote": "net proceeds from the Offering will be approximately $155.8 million, after deducting underwriting discounts and commissions and estimated"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 10211969,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "Pre-funded warrants10,211,969 5,281,616"
+  },
+  {
+   "count": 497344,
+   "exercise_price_usd": null,
+   "expiry": null,
+   "quote": "Pre-IPO warrants to purchase common stock497,344 497,344"
+  }
+ ],
+ "warrants_dropped": 0
+}

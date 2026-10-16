@@ -1,0 +1,45 @@
+{
+ "id": "1429260_2025-01-22",
+ "asof": "2025-01-22",
+ "chars": 23353,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-11-12",
+   "net_proceeds_usd": 9200000,
+   "what": "Checkpoint receipt from exercise of Series B warrants (gross, approximate)",
+   "quote": "On November 12, 2024, Checkpoint received approximately $9.2 million from the exercise of existing Series B warrants for the issuance of 3,256,269 shares of common stock"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 4702753,
+   "exercise_price_usd": 1.84,
+   "expiry": null,
+   "quote": "we issued warrants to purchase 4,702,753 shares of Common Stock at an exercise price per share of $1.84"
+  },
+  {
+   "count": 3303305,
+   "exercise_price_usd": 3.21,
+   "expiry": null,
+   "quote": "The warrants have an exercise price of $3.21 per share, are immediately exercisable, and will expire five years following the date of issue."
+  },
+  {
+   "count": 202834,
+   "exercise_price_usd": 1.68,
+   "expiry": "2029-06-27",
+   "quote": "202,834 warrants to purchase Fortress common stock at an exercise price of $1.68. The Fortress common stock warrants have a five-year life, expiring on June 27, 2029."
+  },
+  {
+   "count": 506390,
+   "exercise_price_usd": 2.0735,
+   "expiry": null,
+   "quote": "warrants to the lenders to purchase up to 506,390 shares of the Company\u2019s common stock at a purchase price of $2.0735 per share"
+  }
+ ],
+ "warrants_dropped": 0
+}

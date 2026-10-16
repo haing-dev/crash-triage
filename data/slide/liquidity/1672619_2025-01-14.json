@@ -1,0 +1,27 @@
+{
+ "id": "1672619_2025-01-14",
+ "asof": "2025-01-14",
+ "chars": 21289,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-10-31",
+   "net_proceeds_usd": 38600000,
+   "what": "ATM sales of common stock under the Jefferies Sales Agreement in October 2024 (exact day not given; month-end used)",
+   "quote": "In October 2024, the Company sold 1,526,610 shares of its common stock pursuant to the Sales Agreement at a weighted-average price per share of $26.20 and received net proceeds of $38.6 million"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 1071505,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "Pre-Funded Warrants to purchase 1,071,505 shares of the Company's common stock were used in the calculation of the weighted-average common shares outstanding"
+  }
+ ],
+ "warrants_dropped": 0
+}

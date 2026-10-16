@@ -1,0 +1,27 @@
+{
+ "id": "1817713_2025-01-10",
+ "asof": "2025-01-10",
+ "chars": 23915,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-12-06",
+   "net_proceeds_usd": 328600000,
+   "what": "Underwritten public offering of common stock and pre-funded warrants (Dec 2024), net proceeds excluding the underwriters' option. The filings only say it was scheduled to close on or about this date, not that it closed.",
+   "quote": "The Offering is scheduled to close on or about December 6, 2024, subject to customary closing conditions."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 2518966,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "pre-funded warrants to purchase 1,935,483 shares of common stock at an exercise price of $0.001 per share"
+  }
+ ],
+ "warrants_dropped": 0
+}

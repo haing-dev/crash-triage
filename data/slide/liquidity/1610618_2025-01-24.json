@@ -1,0 +1,39 @@
+{
+ "id": "1610618_2025-01-24",
+ "asof": "2025-01-24",
+ "chars": 22893,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [
+  {
+   "amount_usd": 85000000,
+   "what": "Upfront payment to Janssen under the Janssen License Agreement",
+   "quote": "we paid Janssen an upfront payment of $85.0 million on April 24, 2024."
+  }
+ ],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-11-26",
+   "net_proceeds_usd": 105000000,
+   "what": "Private placement of common stock and pre-funded warrants (gross proceeds; net not given)",
+   "quote": "The Company received aggregate gross proceeds from the Private Placement of approximately $105.0 million, before deducting estimated offering expenses payable by the Company."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 866,
+   "exercise_price_usd": 230.95,
+   "expiry": null,
+   "quote": "warrants to purchase 866 shares of the Company\u2019s common stock were outstanding with a weighted average exercise price of $230.95 per share."
+  },
+  {
+   "count": 3149035,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "pre-funded warrants (the \u201cPre-Funded Warrants\u201d) to purchase up to an aggregate of 3,149,035 shares of Common Stock (the \u201cWarrant Shares\u201d)"
+  }
+ ],
+ "warrants_dropped": 0
+}
