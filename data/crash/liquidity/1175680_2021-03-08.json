@@ -1,0 +1,27 @@
+{
+ "id": "1175680_2021-03-08",
+ "asof": "2021-03-10",
+ "chars": 23338,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2021-01-28",
+   "net_proceeds_usd": 2900000,
+   "what": "Warrant exercise agreements with negotiated exercise prices (gross proceeds; net of 4.5% Paulson commission and expenses not stated)",
+   "quote": "In the aggregate, 3,560,550 shares of Common Stock, which includes the 2,543,250 Warrant Shares and 1,017,300 Additional Shares, will be issued in these transactions for aggregate gross proceeds to the Company of approximately $2.9 million"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 105000,
+   "exercise_price_usd": 3.07,
+   "expiry": null,
+   "quote": "The warrants have a five-year term and an exercise price of $3.07."
+  }
+ ],
+ "warrants_dropped": 0
+}

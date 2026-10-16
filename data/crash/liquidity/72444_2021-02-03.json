@@ -1,0 +1,69 @@
+{
+ "id": "72444_2021-02-03",
+ "asof": "2021-02-05",
+ "chars": 25426,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2020-10-31",
+   "net_proceeds_usd": 5000000,
+   "what": "ATM facility sales in October 2020 (gross figure; net not given; exact day not given)",
+   "quote": "$5 million from the ATM facility in October 2020"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 5000,
+   "exercise_price_usd": 0.3,
+   "expiry": null,
+   "quote": "5,000"
+  },
+  {
+   "count": 224797,
+   "exercise_price_usd": 0.375,
+   "expiry": null,
+   "quote": "224,797"
+  },
+  {
+   "count": 225966,
+   "exercise_price_usd": 1.1,
+   "expiry": null,
+   "quote": "225,966"
+  },
+  {
+   "count": 111931,
+   "exercise_price_usd": 1.375,
+   "expiry": null,
+   "quote": "111,931"
+  },
+  {
+   "count": 316584,
+   "exercise_price_usd": 2.5,
+   "expiry": null,
+   "quote": "316,584"
+  },
+  {
+   "count": 269496,
+   "exercise_price_usd": 3.125,
+   "expiry": null,
+   "quote": "269,496"
+  },
+  {
+   "count": 80286,
+   "exercise_price_usd": 3.125,
+   "expiry": null,
+   "quote": "80,286"
+  },
+  {
+   "count": 10914,
+   "exercise_price_usd": 22.99,
+   "expiry": null,
+   "quote": "10,914"
+  }
+ ],
+ "warrants_dropped": 0
+}

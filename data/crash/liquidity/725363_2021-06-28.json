@@ -1,0 +1,75 @@
+{
+ "id": "725363_2021-06-28",
+ "asof": "2021-07-02",
+ "chars": 29509,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2021-06-11",
+   "net_proceeds_usd": 29300000,
+   "what": "Public offering of 1,400,000 shares at $22.62 per share (net proceeds excluding over-allotment)",
+   "quote": "The Company expects to receive approximately $29.3 million in net proceeds from the Offering (excluding the over-allotment option), after deducting underwriting discounts and commissions and estimated offering expenses."
+  },
+  {
+   "date": "2021-06-28",
+   "net_proceeds_usd": 4418000,
+   "what": "Over-allotment exercise, 210,000 additional shares",
+   "quote": "The net proceeds to the Company from the sale of the shares was approximately $4,418,000, after deducting the underwriting discount."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 85339,
+   "exercise_price_usd": 3.0,
+   "expiry": "2021-08-18",
+   "quote": "Series N 8/18/2008 85,339 $3.00 8/18/2021"
+  },
+  {
+   "count": 93603,
+   "exercise_price_usd": 2.8,
+   "expiry": "2021-06-30",
+   "quote": "Series UU 6/11/2018 93,603 $2.80 6/30/2021"
+  },
+  {
+   "count": 120000,
+   "exercise_price_usd": 9.25,
+   "expiry": "2021-07-13",
+   "quote": "Series X 1/13/2016 120,000 $9.25 7/13/2021"
+  },
+  {
+   "count": 26000,
+   "exercise_price_usd": 12.0,
+   "expiry": "2021-08-15",
+   "quote": "Series Y 2/15/2016 26,000 $12.00 8/15/2021"
+  },
+  {
+   "count": 16000,
+   "exercise_price_usd": 13.75,
+   "expiry": "2021-08-22",
+   "quote": "Series BB 8/26/2016 16,000 $13.75 8/22/2021"
+  },
+  {
+   "count": 184800,
+   "exercise_price_usd": 13.75,
+   "expiry": "2021-11-23",
+   "quote": "Series Z 5/23/2016 184,800 $13.75 11/23/2021"
+  },
+  {
+   "count": 68048,
+   "exercise_price_usd": 3.91,
+   "expiry": "2021-12-01",
+   "quote": "Series FF 12/8/2016 68,048 $3.91 12/1/2021"
+  },
+  {
+   "count": 46345,
+   "exercise_price_usd": 5.0,
+   "expiry": null,
+   "quote": "Series CC 12/8/2016 46,345 $5.00"
+  }
+ ],
+ "warrants_dropped": 0
+}

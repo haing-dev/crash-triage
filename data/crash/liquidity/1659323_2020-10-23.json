@@ -1,0 +1,57 @@
+{
+ "id": "1659323_2020-10-23",
+ "asof": "2020-10-28",
+ "chars": 32539,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2020-07-02",
+   "net_proceeds_usd": 4400000,
+   "what": "June 30 registered direct offering of ordinary shares (closed July 2, 2020)",
+   "quote": "net proceeds of approximately $4.4 million after deducting fees payable to the placement agent and other estimated offering expenses payable by the Company"
+  },
+  {
+   "date": "2020-10-27",
+   "net_proceeds_usd": 15300000,
+   "what": "Registered public offering of shares, pre-funded warrants and warrants (completed Oct 27, 2020)",
+   "quote": "The Company\u2019s net proceeds from the Offering, after deducting placement agent fees and other estimated offering expenses payable by the Company, were approximately $15.3 million."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 19890,
+   "exercise_price_usd": 18.85,
+   "expiry": null,
+   "quote": "warrants to purchase an aggregate of 19,890 Series B convertible preferred shares (which converted into warrants to purchase 19,890 ordinary shares upon our IPO) at an exercise price of $18.85 per share"
+  },
+  {
+   "count": 1485885,
+   "exercise_price_usd": 1.62,
+   "expiry": "2025-12-05",
+   "quote": "warrants to purchase up to 1,485,885 ordinary shares. Upon closing, the warrants became exercisable immediately at an exercise price of $1.62 per ordinary share"
+  },
+  {
+   "count": 208023,
+   "exercise_price_usd": 2.1031,
+   "expiry": "2025-06-03",
+   "quote": "Warrants to purchase 208,023 ordinary shares, amounting to 7% of the ordinary shares issued under the June 3 SPA, were issued to designees of the placement agent"
+  },
+  {
+   "count": 1686343,
+   "exercise_price_usd": 1.42,
+   "expiry": "2026-01-02",
+   "quote": "warrants to purchase up to 1,686,343 ordinary shares. Upon closing, the warrants were exercisable immediately at an exercise price of $1.42 per ordinary share"
+  },
+  {
+   "count": 236088,
+   "exercise_price_usd": 1.8531,
+   "expiry": "2025-06-30",
+   "quote": "Warrants to purchase 236,088 ordinary shares, amounting to 7% of the ordinary shares issued under the June 30 SPA, were issued to designees of the placement agent on closing of the June 30 Offering."
+  }
+ ],
+ "warrants_dropped": 0
+}

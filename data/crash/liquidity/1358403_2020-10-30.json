@@ -1,0 +1,39 @@
+{
+ "id": "1358403_2020-10-30",
+ "asof": "2020-11-04",
+ "chars": 22879,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2020-11-03",
+   "net_proceeds_usd": 25000000,
+   "what": "Underwritten offering of common stock, pre-funded warrants and common warrants (gross proceeds; net not stated; closing expected Nov 3, not confirmed in the excerpts)",
+   "quote": "The gross proceeds to the Company from the offering are expected to be approximately $25.0 million, before deducting underwriting discounts and commissions and estimated offering expenses payable by the Company"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 5750000,
+   "exercise_price_usd": 13.0,
+   "expiry": null,
+   "quote": "All of the Public Warrants sold in the Offering have an exercise price of $13.00 per share of common stock"
+  },
+  {
+   "count": 2800000,
+   "exercise_price_usd": 10.0,
+   "expiry": null,
+   "quote": "related warrants (the \u201cPrivate Warrants\u201d) to purchase up to 2,800,000 shares of common stock at an exercise price of $10.00 per share"
+  },
+  {
+   "count": 875000,
+   "exercise_price_usd": 14.0,
+   "expiry": null,
+   "quote": "related warrants (also, \u201cPrivate Warrants\u201d) to purchase up to 875,000 shares of common stock at an exercise price of $14.00 per share"
+  }
+ ],
+ "warrants_dropped": 0
+}
