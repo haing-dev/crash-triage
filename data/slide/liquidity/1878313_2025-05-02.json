@@ -1,0 +1,75 @@
+{
+ "id": "1878313_2025-05-02",
+ "asof": "2025-05-02",
+ "chars": 25765,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-03-21",
+   "net_proceeds_usd": 1475458,
+   "what": "ATM sales since Jan 1, 2025 (date approximate; filing gives only 'since January 1, 2025')",
+   "quote": "resulting in net proceeds to the Company of approximately $1,475,458"
+  },
+  {
+   "date": "2025-02-24",
+   "net_proceeds_usd": 2720000,
+   "what": "Private placement of shares and warrants (gross proceeds; net not given)",
+   "quote": "On February 24, 2025, we issued and sold 1,810,000 shares of our Common Stock and warrants to purchase 1,810,000 shares of our Common Stock in a private placement"
+  },
+  {
+   "date": "2025-03-03",
+   "net_proceeds_usd": 1430000,
+   "what": "Private placement of shares and warrants (gross proceeds; net not given)",
+   "quote": "On March 3, 2025, we issued and sold 952,633, shares of our Common Stock and warrants to purchase 952,633 shares of our Common Stock in a private placement"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 2496318,
+   "exercise_price_usd": 1.3,
+   "expiry": "2029-09-14",
+   "quote": "The warrants are exercisable at a price per Share of $1.30, which price represents the greater of the book or market value of the stock on the date the purchase agreement was executed"
+  },
+  {
+   "count": 578643,
+   "exercise_price_usd": 2.55,
+   "expiry": "2029-09-28",
+   "quote": "The warrants are exercisable at a price per Share of $2.55, which price represents the greater of the book or market value of the stock on the date the purchase agreement was executed"
+  },
+  {
+   "count": 494096,
+   "exercise_price_usd": 2.26,
+   "expiry": "2029-10-25",
+   "quote": "The warrants are exercisable at a price per Share of $2.26, which price represents the greater of the book or market value of the stock on the date the purchase agreement was executed"
+  },
+  {
+   "count": 1079784,
+   "exercise_price_usd": 2.51,
+   "expiry": "2030-05-01",
+   "quote": "The warrants are exercisable at a price per Share of $2.51, which price represents the greater of the book or market value of the stock on the date the purchase agreement was executed"
+  },
+  {
+   "count": 507364,
+   "exercise_price_usd": 2.08,
+   "expiry": "2030-06-13",
+   "quote": "The warrants are exercisable at a price per Share of $2.08, which price represents the greater of the book or market value of the stock on the date the purchase agreement was executed"
+  },
+  {
+   "count": 1810000,
+   "exercise_price_usd": 1.87,
+   "expiry": "2031-02-24",
+   "quote": "The warrants are exercisable at a price per Share of $1.87, which price represents the greater of the book or market value of the stock on the date the purchase agreement was executed"
+  },
+  {
+   "count": 952633,
+   "exercise_price_usd": 1.85,
+   "expiry": "2031-03-03",
+   "quote": "The warrants are exercisable at a price per Share of $1.85, which price represents the greater of the book or market value of the stock on the date the purchase agreement was executed"
+  }
+ ],
+ "warrants_dropped": 0
+}

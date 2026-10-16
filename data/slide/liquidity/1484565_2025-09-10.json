@@ -1,0 +1,33 @@
+{
+ "id": "1484565_2025-09-10",
+ "asof": "2025-09-10",
+ "chars": 27451,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-07-11",
+   "net_proceeds_usd": 215700000,
+   "what": "July 2025 underwritten public offering of common stock, closed with underwriters' option exercised in full; $230.0M gross less approx. $14.3M discount and expenses",
+   "quote": "The gross proceeds of the public offering were $230.0 million, before deducting the underwriter discount and other offering expenses, totaling approximately $14.3 million."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 516265,
+   "exercise_price_usd": 4.5,
+   "expiry": null,
+   "quote": "common warrant (the 2022 common warrants) with a five-year term to purchase one share of common stock at an exercise price of $4.50 per share"
+  },
+  {
+   "count": 250000,
+   "exercise_price_usd": 0.01,
+   "expiry": null,
+   "quote": "October 2023 pre-funded warrants"
+  }
+ ],
+ "warrants_dropped": 0
+}

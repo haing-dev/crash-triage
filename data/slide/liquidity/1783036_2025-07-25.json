@@ -1,0 +1,45 @@
+{
+ "id": "1783036_2025-07-25",
+ "asof": "2025-07-25",
+ "chars": 25415,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-01-07",
+   "net_proceeds_usd": 500000,
+   "what": "Initial closing of $1M financing with accredited investor (gross; exact closing date in January 2025 not stated, EGM approval date used)",
+   "quote": "In January 2025, the Company completed the initial closing of $500,000 of the previously announced $1 million financing"
+  },
+  {
+   "date": "2025-03-28",
+   "net_proceeds_usd": 2000000,
+   "what": "March 2025 private placement of preferred shares, initial closing (gross)",
+   "quote": "The March 2025 Offering closed on March 28, 2025."
+  },
+  {
+   "date": "2025-06-27",
+   "net_proceeds_usd": 1000000,
+   "what": "Second closing of March 2025 SPA, preferred participation certificates (gross)",
+   "quote": "The second closing occurred on June 27, 2025."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 81944,
+   "exercise_price_usd": 9.6,
+   "expiry": null,
+   "quote": "the investors in the offering received unregistered warrants to purchase up to an aggregate of 81,944 common shares at an exercise of $9.60 per share in a concurrent private placement."
+  },
+  {
+   "count": 1181819,
+   "exercise_price_usd": 1.8,
+   "expiry": null,
+   "quote": "as well as warrants to purchase 787,880 common shares at an exercise price of $1.80 per share, for aggregate gross proceeds of $2 million."
+  }
+ ],
+ "warrants_dropped": 0
+}

@@ -1,0 +1,93 @@
+{
+ "id": "1655923_2025-08-25",
+ "asof": "2025-08-25",
+ "chars": 25367,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-07-23",
+   "net_proceeds_usd": 70448,
+   "what": "Exercise of 9,090 warrants at $7.75 per share",
+   "quote": "On July 23, 2025, the Company issued 9,090 Common Shares for the exercise of 9,090 warrants at a price of $7.75 per share for total proceeds of $70,448."
+  },
+  {
+   "date": "2025-08-06",
+   "net_proceeds_usd": 923190,
+   "what": "Exercise of 128,578 warrants at $7.18 per share",
+   "quote": "On August 6, 2025, the Company issued 128,578 Common Shares for the exercise of 128,578 warrants at a price of $7.18 per share for total proceeds of $923,190."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 129861,
+   "exercise_price_usd": 7.75,
+   "expiry": "2026-08-31",
+   "quote": "129,861 $ 7.75 August 31, 2026"
+  },
+  {
+   "count": 35064,
+   "exercise_price_usd": 7.75,
+   "expiry": "2026-10-16",
+   "quote": "35,064 $ 7.75 October 16, 2026"
+  },
+  {
+   "count": 101000,
+   "exercise_price_usd": 7.75,
+   "expiry": "2026-11-08",
+   "quote": "101,000 $ 7.75 November 8, 2026"
+  },
+  {
+   "count": 394572,
+   "exercise_price_usd": 7.75,
+   "expiry": "2026-12-22",
+   "quote": "394,572 $ 7.75 December 22, 2026"
+  },
+  {
+   "count": 720123,
+   "exercise_price_usd": 7.75,
+   "expiry": "2027-01-19",
+   "quote": "720,123 $ 7.75 January 19, 2027"
+  },
+  {
+   "count": 585609,
+   "exercise_price_usd": 7.23,
+   "expiry": "2028-02-16",
+   "quote": "585,609 $ 7.23 February 16, 2028"
+  },
+  {
+   "count": 86200,
+   "exercise_price_usd": 7.15,
+   "expiry": "2028-02-16",
+   "quote": "86,200 $ 7.15 (CAD$9.75) February 16, 2028"
+  },
+  {
+   "count": 28796,
+   "exercise_price_usd": 7.15,
+   "expiry": "2028-03-15",
+   "quote": "28,796 $ 7.15 (CAD$9.75) March 15, 2028"
+  },
+  {
+   "count": 262287,
+   "exercise_price_usd": 7.08,
+   "expiry": "2028-03-15",
+   "quote": "262,287 $ 7.08 March 15, 2028"
+  },
+  {
+   "count": 430805,
+   "exercise_price_usd": 7.19,
+   "expiry": "2029-09-24",
+   "quote": "430,805 $ 7.19 September 24, 2029"
+  },
+  {
+   "count": 514314,
+   "exercise_price_usd": 7.18,
+   "expiry": "2029-11-08",
+   "quote": "642,892 $ 7.18 November 8, 2029"
+  }
+ ],
+ "warrants_dropped": 0
+}

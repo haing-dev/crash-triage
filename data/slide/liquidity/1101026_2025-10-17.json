@@ -1,0 +1,57 @@
+{
+ "id": "1101026_2025-10-17",
+ "asof": "2025-10-17",
+ "chars": 19451,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-07-08",
+   "net_proceeds_usd": 250000,
+   "what": "Unsecured convertible loan from an investor, 10% interest, 24-month term",
+   "quote": "The investor loaned the Company $250,000 at an interest rate of 10% and a term of 24 months."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 1793,
+   "exercise_price_usd": 13.94,
+   "expiry": null,
+   "quote": "the Company issued a warrant to the investor which allows the investor to purchase 1,793 shares of the Company\u2019s common stock at a fixed price of $13.94 per share"
+  },
+  {
+   "count": 17832,
+   "exercise_price_usd": 8.24,
+   "expiry": null,
+   "quote": "$ 6.00-11.99 17,832 4.12 $ 6.00-11.99 17,832 8.24"
+  },
+  {
+   "count": 571030,
+   "exercise_price_usd": 16.86,
+   "expiry": null,
+   "quote": "12.00-17.99 571,030 1.46 12.00-17.99 571,030 16.86"
+  },
+  {
+   "count": 7500,
+   "exercise_price_usd": 20.19,
+   "expiry": null,
+   "quote": "18.00-23.99 7,500 4.50 18.00-23.99 7,500 20.19"
+  },
+  {
+   "count": 36800,
+   "exercise_price_usd": 33.0,
+   "expiry": null,
+   "quote": "30.00-35.99 36,800 0.92 30.00-35.99 36,800 33.00"
+  },
+  {
+   "count": 495917,
+   "exercise_price_usd": 33.0,
+   "expiry": null,
+   "quote": "$33.00 495,917 0.92 $33.00 495,917 33.00"
+  }
+ ],
+ "warrants_dropped": 0
+}

@@ -1,0 +1,38 @@
+{
+ "id": "1411685_2025-02-27",
+ "asof": "2025-02-27",
+ "chars": 18766,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 12352,
+   "exercise_price_usd": 21.9,
+   "expiry": "2025-07-25",
+   "quote": "12,352$21.9007/25/2025"
+  },
+  {
+   "count": 2788620,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "2,788,620$0.001N/A"
+  },
+  {
+   "count": 9294022,
+   "exercise_price_usd": 5.38,
+   "expiry": null,
+   "quote": "9,294,022$5.380(a)"
+  },
+  {
+   "count": 11265086,
+   "exercise_price_usd": 8.877,
+   "expiry": "2028-10-04",
+   "quote": "11,265,086$8.87710/4/2028"
+  }
+ ],
+ "warrants_dropped": 0
+}

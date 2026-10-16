@@ -1,0 +1,33 @@
+{
+ "id": "1746466_2025-10-03",
+ "asof": "2025-10-03",
+ "chars": 24387,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-08-12",
+   "net_proceeds_usd": 30000000,
+   "what": "Private placement initial closing (shares and pre-funded warrants), gross proceeds; net not given",
+   "quote": "The Initial Closing of the Private Placement occurred on August 12, 2025."
+  },
+  {
+   "date": "2025-09-19",
+   "net_proceeds_usd": 900000,
+   "what": "ATM sales after June 30, 2025 (1,610,075 shares), gross proceeds; net not given. Date is the 8-K that confirms the cumulative total, not the exact sale date",
+   "quote": "Since June 30, 2025 and through the date of the filing of this Quarterly Report on Form 10-Q, there were an additional 1,610,075 shares sold under the 2023 ATM Facility, as amended, for gross proceeds of approximately $0.9 million."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 30816705,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "pre-funded warrants to purchase up to 30,816,705 warrant shares at a purchase price of $0.5699 per warrant share"
+  }
+ ],
+ "warrants_dropped": 0
+}

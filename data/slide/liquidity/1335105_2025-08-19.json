@@ -1,0 +1,45 @@
+{
+ "id": "1335105_2025-08-19",
+ "asof": "2025-08-19",
+ "chars": 14950,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-07-02",
+   "net_proceeds_usd": 4000000,
+   "what": "Initial closing of private placement (gross proceeds; net not given; remaining $1,000,000 not yet received)",
+   "quote": "The initial Offering closed on July 2, 2025 with the Company receiving gross proceeds of approximately $4,000,000."
+  },
+  {
+   "date": "2025-07-08",
+   "net_proceeds_usd": 1380000,
+   "what": "Registered direct offering, proceeds after placement agent fee but before other expenses",
+   "quote": "The Offering closed on July 8, 2025."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 583334,
+   "exercise_price_usd": 6.0,
+   "expiry": "2028-07-20",
+   "quote": "Each common warrant had an initial exercise price of $6.00 per share, was immediately exercisable upon issuance, and expires five years thereafter on July 20, 2028."
+  },
+  {
+   "count": 35000,
+   "exercise_price_usd": 6.6,
+   "expiry": "2028-07-20",
+   "quote": "the Company granted the placement agent warrants to purchase 35,000 shares of common stock at an exercise price of $6.60 per share and expiring on July 20, 2028."
+  },
+  {
+   "count": 6355214,
+   "exercise_price_usd": null,
+   "expiry": null,
+   "quote": "common stock warrants (the \u201cCommon Stock Warrants\u201d) to purchase 6,355,214 shares of Common Stock"
+  }
+ ],
+ "warrants_dropped": 0
+}

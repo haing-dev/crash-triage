@@ -1,0 +1,51 @@
+{
+ "id": "1404281_2025-03-10",
+ "asof": "2025-03-10",
+ "chars": 29991,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-10-30",
+   "net_proceeds_usd": 79500000,
+   "what": "Underwritten public offering of common stock and pre-funded warrants (Leerink Partners)",
+   "quote": "The Offering resulted in gross proceeds to the Company of $85.0 million, or net proceeds of approximately $79.5 million after deducting underwriting discounts and commissions and offering expenses."
+  },
+  {
+   "date": "2024-10-01",
+   "net_proceeds_usd": 500000,
+   "what": "Oct 1 portion (200,000 shares) of 2023 SPA Third Closing; approximate, derived as ~$3.8M total net less $3.3M received by Sep 30",
+   "quote": "On September 30, 2024 and October 1, 2024, the Third Closing occurred and the Company received gross proceeds of $4.0 million, or net proceeds of approximately $3.8 million"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 15151518,
+   "exercise_price_usd": 3.0,
+   "expiry": null,
+   "quote": "Each Common Warrant has an exercise price of $3.00 per share and expires five years after issuance."
+  },
+  {
+   "count": 6421350,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "in exchange for 8,730,168 shares of common stock and Pre-Funded Warrants to purchase 6,421,350 shares of common stock."
+  },
+  {
+   "count": 7989516,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "which are exercisable to purchase 7,989,516 shares of common stock at an exercise price of $0.001 per share."
+  },
+  {
+   "count": 4931507,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "which are exercisable to purchase 4,931,507 shares of the Company\u2019s common stock at an exercise price of $0.001 per share."
+  }
+ ],
+ "warrants_dropped": 0
+}

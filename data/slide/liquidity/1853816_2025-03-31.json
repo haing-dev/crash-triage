@@ -1,0 +1,39 @@
+{
+ "id": "1853816_2025-03-31",
+ "asof": "2025-03-31",
+ "chars": 29994,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-01-23",
+   "net_proceeds_usd": 2550000,
+   "what": "Private placement of shares, pre-funded warrants and common warrants at $1.27 (gross proceeds estimated from share counts and price; net not stated)",
+   "quote": "The Shares and Warrants were issued to the Selling Stockholders in a private placement offering (the \u201cPrivate Placement\u201d) which closed on January 23, 2025."
+  },
+  {
+   "date": "2025-03-28",
+   "net_proceeds_usd": 6200000,
+   "what": "Cash exercise of existing warrants at reduced price under inducement letters (gross proceeds)",
+   "quote": "The Company received aggregate gross proceeds of approximately $6.2 million from the exercise of the Existing Warrants by the Holder, before deducting offering expenses payable by the Company."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 2007880,
+   "exercise_price_usd": 1.27,
+   "expiry": null,
+   "quote": "warrants (the \u201cWarrants\u201d) to purchase up to 2,007,880 shares of Common Stock at an exercise price of $1.27 per share"
+  },
+  {
+   "count": 72468,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "pre-funded warrants (\u201cPre-Funded Warrants\u201d) to purchase up to 72,468 shares of Common Stock, at an exercise price of $0.001 per share"
+  }
+ ],
+ "warrants_dropped": 0
+}

@@ -1,0 +1,39 @@
+{
+ "id": "1401914_2025-10-09",
+ "asof": "2025-10-09",
+ "chars": 24835,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-07-01",
+   "net_proceeds_usd": 17600000,
+   "what": "ATM sales of 4,329,116 shares via Stifel after June 30, 2025 (date is approximate: first day after balance sheet; exact dates not given)",
+   "quote": "We sold 4,329,116 shares of our common stock under this agreement subsequent to June 30, 2025 and received net proceeds of approximately $17.6 million."
+  },
+  {
+   "date": "2025-07-01",
+   "net_proceeds_usd": 300000,
+   "what": "Lincoln Park equity line sales of 120,000 shares after June 30, 2025 (date is approximate; exact dates not given)",
+   "quote": "We sold 120,000 shares of our common stock under this agreement subsequent to June 30, 2025 and received net proceeds of approximately $0.3 million."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 422805,
+   "exercise_price_usd": 4.1,
+   "expiry": null,
+   "quote": "the Company issued a warrant to purchase up to an aggregate of 422,805 shares of the Company's common stock. The warrant has a term of five years from the date of issuance and an exercise price of $4.10 per share"
+  },
+  {
+   "count": 845225,
+   "exercise_price_usd": 9.11,
+   "expiry": "2029-03-01",
+   "quote": "The warrants became exercisable on March 1, 2024, expire March 1, 2029 and have an exercise price of $9.11 per share"
+  }
+ ],
+ "warrants_dropped": 0
+}

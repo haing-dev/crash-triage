@@ -1,0 +1,45 @@
+{
+ "id": "1533743_2025-10-17",
+ "asof": "2025-10-17",
+ "chars": 9323,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2025-08-06",
+   "net_proceeds_usd": 1300000,
+   "what": "Private placement of 5,467,181 shares at $0.23 (gross; net not given), closed Aug 6, 2025",
+   "quote": "sold 5,467,181 restricted shares of common stock at a purchase price of $0.23 per share for approximately $1.3 million in gross proceeds"
+  },
+  {
+   "date": "2025-08-04",
+   "net_proceeds_usd": 1100000,
+   "what": "ATM sales of 4,597,612 shares (gross; net not given); date taken from the Aug 4, 2025 subsequent-events paragraph",
+   "quote": "We also sold 4,597,612 shares for $1.1 million in gross proceeds under our ATM agreement."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 8050672,
+   "exercise_price_usd": 0.65,
+   "expiry": "2030-07-18",
+   "quote": "The Series A and B Warrants both have an exercise price of $0.65 per share of common stock"
+  },
+  {
+   "count": 4025336,
+   "exercise_price_usd": 0.65,
+   "expiry": "2027-01-18",
+   "quote": "The Series A Warrants will expire on July 18, 2030 and the Series B Warrants will expire on January 18, 2027."
+  },
+  {
+   "count": 27600000,
+   "exercise_price_usd": 0.25,
+   "expiry": null,
+   "quote": "we also received $100,000 for the exercise of warrants to purchase 400,000 shares of common stock from the June PO."
+  }
+ ],
+ "warrants_dropped": 0
+}
