@@ -1,0 +1,40 @@
+{
+ "id": "1742927_2022-09-22",
+ "asof": "2022-09-22",
+ "accn": "0001437749-22-020538",
+ "chars": 22836,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2022-09-06",
+   "net_proceeds_usd": 5000000,
+   "what": "Registered direct offering of 1,976,285 shares at $2.53 (gross; net not given; closing date not stated in the excerpts)",
+   "quote": "for aggregate gross proceeds to the Company of approximately $5.0 million, before deducting the placement agent fees and offering expenses payable by the Company."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 6900000,
+   "exercise_price_usd": 4.125,
+   "expiry": null,
+   "quote": "Investor Warrants exercisable for 6,900,000 shares of common stock"
+  },
+  {
+   "count": 5066600,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "Pre-Funded Warrants exercisable for 5,066,600 shares of common stock"
+  },
+  {
+   "count": 1976285,
+   "exercise_price_usd": 2.4,
+   "expiry": null,
+   "quote": "Each Private Placement Warrant will have an exercise price of $2.40 per share of Common Stock and is exercisable at any time after its original issuance for a term of five years."
+  }
+ ],
+ "warrants_dropped": 0
+}
