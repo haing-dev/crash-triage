@@ -4,12 +4,12 @@
  "cik": "1346830",
  "name": "Tvardi Therapeutics, Inc.",
  "date": "2025-10-13",
- "asof": "2025-10-16",
+ "asof": "2025-10-13",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2025-10-16",
-  "adj_close": 6.48
+  "date": "2025-10-13",
+  "adj_close": 6.69
  },
  "balance": {
   "end": "2025-06-30",
@@ -34,6 +34,16 @@
  "going_concern": {
   "flag": true,
   "quote": "Given the inherent uncertainties in the forecast, the Company considered both quantitative and qualitative factors that are known or reasonably knowable as of the date that these condensed consolidated financial statements are issued and concluded that there are conditions present in the aggregate t"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 12141593,
+  "as_of": "2024-06-30",
+  "filed": "2025-03-11"
  },
  "insiders": {
   "form4s": 1,

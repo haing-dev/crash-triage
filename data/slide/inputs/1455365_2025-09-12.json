@@ -6,7 +6,7 @@
  "date": "2025-09-12",
  "asof": "2025-09-12",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-09-12",
   "adj_close": 2.17
@@ -32,6 +32,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "On March 10, 2023, the Company entered into a purchase agreement with Lincoln Park Capital Fund, LLC (\u201cLincoln Park\u201d) for an equity line financing (the \u201cPurchase Agreement\u201d)."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 56312451,
+  "as_of": "2024-06-30",
+  "filed": "2025-03-20"
  },
  "insiders": {
   "form4s": 10,

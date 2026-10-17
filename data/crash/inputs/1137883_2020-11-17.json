@@ -4,12 +4,12 @@
  "cik": "1137883",
  "name": "BRAINSTORM CELL THERAPEUTICS INC.",
  "date": "2020-11-17",
- "asof": "2020-11-18",
+ "asof": "2020-11-17",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2020-11-18",
-  "adj_close": 59.85
+  "date": "2020-11-17",
+  "adj_close": 60.3
  },
  "balance": {
   "end": "2020-09-30",
@@ -34,24 +34,27 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 75373809,
+  "as_of": "2019-06-30",
+  "filed": "2020-02-18"
+ },
  "insiders": {
   "form4s": 2,
   "from": "2020-08-19",
   "to": "2020-12-17",
   "trades": []
  },
- "drug": null,
+ "drug": "NurOwn (MSC-NTF cells)",
  "trials": {
   "query": "brainstorm cell therapeutics",
-  "other_trials": 1,
-  "crashed_drug_trials": 0,
-  "examples": [
-   {
-    "nct": "NCT03799718",
-    "drugs": [
-     "NurOwn (MSC-NTF cells)"
-    ]
-   }
-  ]
+  "other_trials": 0,
+  "crashed_drug_trials": 1,
+  "examples": []
  }
 }

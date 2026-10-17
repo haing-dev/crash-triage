@@ -4,12 +4,12 @@
  "cik": "1796129",
  "name": "Vincerx Pharma, Inc.",
  "date": "2024-04-09",
- "asof": "2024-04-10",
+ "asof": "2024-04-09",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2024-04-10",
-  "adj_close": 20.0
+  "date": "2024-04-09",
+  "adj_close": 21.2
  },
  "balance": {
   "end": "2023-12-31",
@@ -34,13 +34,23 @@
   "flag": true,
   "quote": "As a result, we have concluded that these circumstances and the uncertainties associated with our ability to obtain additional capital raise substantial doubt about our ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 23000000,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-29"
+ },
  "insiders": {
   "form4s": 4,
   "from": "2024-01-10",
   "to": "2024-05-09",
   "trades": []
  },
- "drug": null,
+ "drug": "VIP236",
  "trials": {
   "query": "vincerx pharma",
   "other_trials": 0,

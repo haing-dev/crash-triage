@@ -4,12 +4,12 @@
  "cik": "1420720",
  "name": "iBio, Inc.",
  "date": "2022-12-07",
- "asof": "2022-12-08",
+ "asof": "2022-12-07",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2022-12-08",
-  "adj_close": 12.4
+  "date": "2022-12-07",
+  "adj_close": 13.4
  },
  "balance": {
   "end": "2022-09-30",
@@ -34,13 +34,25 @@
   "flag": true,
   "quote": "9 Table of Contents Going Concern The history of significant losses, the negative cash flow from operations, the limited cash resources on hand and the dependence by the Company on its ability to obtain additional financing to fund its operations after the current cash resources are exhausted raises"
  },
+ "financing_terms": {
+  "equity_line": "The Equity Purchase Agreement The Company also entered into an Equity Purchase Agreement with Bryan Capital on November 1, 2021 (the \u201cEquity Purchase Agreement\u201d) pursuant to which the Company acquired for $50,000 cash, plus the Warrant, the one (1) share of iBio CMO Preferred Tracking Stock and the 0.01% interest in iBio CDMO owned by Bryan Capital."
+ },
+ "debt": {
+  "usd": 22201000.0,
+  "tags": "NotesPayableCurrent"
+ },
+ "public_float": {
+  "usd": 119731492,
+  "as_of": "2021-12-31",
+  "filed": "2022-10-11"
+ },
  "insiders": {
   "form4s": 3,
   "from": "2022-09-08",
   "to": "2023-01-06",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "ibio",
   "other_trials": 0,

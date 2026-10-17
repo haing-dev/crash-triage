@@ -6,7 +6,7 @@
  "date": "2024-03-20",
  "asof": "2024-03-20",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-03-20",
   "adj_close": 62.8
@@ -33,13 +33,19 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 0,
   "from": "2023-12-21",
   "to": "2024-04-19",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "newcelx",
   "other_trials": 0,

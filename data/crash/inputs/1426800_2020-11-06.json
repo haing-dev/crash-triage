@@ -6,7 +6,7 @@
  "date": "2020-11-06",
  "asof": "2020-11-06",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2020-11-06",
   "adj_close": 58.44
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 332600000,
+  "as_of": "2019-06-28",
+  "filed": "2020-03-04"
  },
  "insiders": {
   "form4s": 3,
@@ -62,23 +72,16 @@
    }
   ]
  },
- "drug": null,
+ "drug": "vebicorvir (VBR, ABI-H0731)",
  "trials": {
   "query": "assembly biosciences",
-  "other_trials": 2,
-  "crashed_drug_trials": 0,
+  "other_trials": 1,
+  "crashed_drug_trials": 1,
   "examples": [
    {
     "nct": "NCT03780543",
     "drugs": [
      "standard of care (SOC) Nucleoside reverse transcriptase inhibitor (NrtI)"
-    ]
-   },
-   {
-    "nct": "NCT04398134",
-    "drugs": [
-     "ABI-H2158",
-     "Entecavir (ETV)"
     ]
    }
   ]

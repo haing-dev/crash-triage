@@ -6,7 +6,7 @@
  "date": "2026-01-30",
  "asof": "2026-01-30",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-01-30",
   "adj_close": 338.059998
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 1040276000.0,
+  "tags": "ConvertibleDebtNoncurrent"
+ },
+ "public_float": {
+  "usd": 30990000000,
+  "as_of": "2024-06-30",
+  "filed": "2025-02-13"
  },
  "insiders": {
   "form4s": 15,
@@ -1090,15 +1100,9 @@
     ]
    },
    {
-    "nct": "NCT07181109",
+    "nct": "NCT06659640",
     "drugs": [
-     "Zilebesiran"
-    ]
-   },
-   {
-    "nct": "NCT06393712",
-    "drugs": [
-     "ALN-APP"
+     "ALN-6400"
     ]
    },
    {
@@ -1109,9 +1113,15 @@
     ]
    },
    {
-    "nct": "NCT06659640",
+    "nct": "NCT07181109",
     "drugs": [
-     "ALN-6400"
+     "Zilebesiran"
+    ]
+   },
+   {
+    "nct": "NCT06845202",
+    "drugs": [
+     "ALN-4324"
     ]
    }
   ]

@@ -6,7 +6,7 @@
  "date": "2023-10-04",
  "asof": "2023-10-04",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-10-04",
   "adj_close": 15.82
@@ -34,6 +34,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "(Gilead) entered into an Option, License and Collaboration Agreement (the Gilead Collaboration Agreement), Common Stock Purchase Agreement (the Stock Purchase Agreement), and Investor Rights Agreement (Investor Rights Agreement)."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 1298340892,
+  "as_of": "2022-06-30",
+  "filed": "2023-02-28"
  },
  "insiders": {
   "form4s": 4,
@@ -63,11 +75,19 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT05568095",
+    "nct": "NCT04660812",
+    "drugs": [
+     "AB680",
+     "Etrumadenant",
+     "Zimberelimab"
+    ]
+   },
+   {
+    "nct": "NCT04736173",
     "drugs": [
      "Domvanalimab",
      "Zimberelimab",
-     "Capecitabine"
+     "Carboplatin"
     ]
    },
    {
@@ -75,14 +95,6 @@
     "drugs": [
      "Domvanalimab",
      "Etrumadenant",
-     "Zimberelimab"
-    ]
-   },
-   {
-    "nct": "NCT05329766",
-    "drugs": [
-     "Domvanalimab",
-     "Quemliclustat",
      "Zimberelimab"
     ]
    },
@@ -95,11 +107,11 @@
     ]
    },
    {
-    "nct": "NCT04660812",
+    "nct": "NCT05568095",
     "drugs": [
-     "AB680",
-     "Etrumadenant",
-     "Zimberelimab"
+     "Domvanalimab",
+     "Zimberelimab",
+     "Capecitabine"
     ]
    }
   ]

@@ -6,7 +6,7 @@
  "date": "2024-02-14",
  "asof": "2024-02-14",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-02-14",
   "adj_close": 45.4
@@ -28,6 +28,12 @@
   "flag": true,
   "quote": "These factors among others raise substantial doubt about the Company\u2019s ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 3,
   "from": "2023-11-16",
@@ -56,7 +62,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "azitra",
   "other_trials": 1,

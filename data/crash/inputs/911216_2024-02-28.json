@@ -4,12 +4,12 @@
  "cik": "911216",
  "name": "PALATIN TECHNOLOGIES INC",
  "date": "2024-02-28",
- "asof": "2024-03-05",
+ "asof": "2024-03-04",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2024-03-05",
-  "adj_close": 98.5
+  "date": "2024-03-04",
+  "adj_close": 99.0
  },
  "balance": {
   "end": "2024-01-31",
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "Investors are cautioned that statements that are not strictly historical facts contained in this Quarterly Report, including, without limitation, the following are forward looking statements: \u00b7 our significant operating losses since our inception and our need to obtain additional financing has cause"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 25882442,
+  "as_of": "2022-12-30",
+  "filed": "2023-09-28"
  },
  "insiders": {
   "form4s": 3,

@@ -6,7 +6,7 @@
  "date": "2024-11-14",
  "asof": "2024-11-14",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-11-14",
   "adj_close": 65.6
@@ -35,6 +35,16 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 594627000.0,
+  "tags": "ConvertibleDebtNoncurrent"
+ },
+ "public_float": {
+  "usd": 10100000000,
+  "as_of": "2023-06-30",
+  "filed": "2024-02-26"
+ },
  "insiders": {
   "form4s": 4,
   "from": "2024-08-16",
@@ -56,12 +66,6 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT02724228",
-    "drugs": [
-     "BMN 111"
-    ]
-   },
-   {
     "nct": "NCT05270837",
     "drugs": [
      "Pegvaliase",
@@ -69,22 +73,29 @@
     ]
    },
    {
-    "nct": "NCT03424018",
-    "drugs": [
-     "BMN 111"
-    ]
-   },
-   {
-    "nct": "NCT06382155",
-    "drugs": [
-     "Vosoritide Injection",
-     "Human Growth Hormone"
-    ]
-   },
-   {
-    "nct": "NCT04684940",
+    "nct": "NCT06224907",
     "drugs": [
      "Valoctocogene roxaparvovec"
+    ]
+   },
+   {
+    "nct": "NCT04480567",
+    "drugs": [
+     "BMN 307"
+    ]
+   },
+   {
+    "nct": "NCT04554940",
+    "drugs": [
+     "vosoritide"
+    ]
+   },
+   {
+    "nct": "NCT05121376",
+    "drugs": [
+     "Dose 1 of BMN 331",
+     "Dose 2 of BMN 331",
+     "Dose 3 of BMN 331"
     ]
    }
   ]

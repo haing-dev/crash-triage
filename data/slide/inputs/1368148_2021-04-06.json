@@ -6,7 +6,7 @@
  "date": "2021-04-06",
  "asof": "2021-04-06",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-04-06",
   "adj_close": 46.25
@@ -32,6 +32,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "Unregistered Sales Since 2011, we have had in place equity purchase agreements with Aspire Capital, which provide us the ability to sell shares of our common stock to Aspire Capital from time-to-time."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 464400000,
+  "as_of": "2020-06-30",
+  "filed": "2021-03-25"
  },
  "insiders": {
   "form4s": 9,

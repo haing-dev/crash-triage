@@ -6,7 +6,7 @@
  "date": "2024-04-02",
  "asof": "2024-04-02",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-04-02",
   "adj_close": 3.866
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "The Company expects its current and projected cash resources and commitments will not be sufficient to meet the Company\u2019s obligations for the next 12 months, raising a substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "equity_line": "Equity Line of Credit On November 8, 2023, the Company also agreed to enter into an Equity Line of Credit Agreement (the \u201cELOC Agreement\u201d) with the Investor pursuant to which the Company may sell and issue to the Investor, and the Investor is obligated to purchase from the Company, up to $25,000 of its Common Stock, from time to time over a 24-month period, provided that certain conditions are met"
+ },
+ "debt": {
+  "usd": 20934000.0,
+  "tags": "ConvertibleDebtCurrent+ConvertibleDebtNoncurrent"
+ },
+ "public_float": {
+  "usd": 54809919,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-22"
  },
  "insiders": {
   "form4s": 4,

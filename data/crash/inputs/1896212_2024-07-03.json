@@ -6,7 +6,7 @@
  "date": "2024-07-03",
  "asof": "2024-07-08",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-07-08",
   "adj_close": 37500000.0
@@ -34,13 +34,23 @@
   "flag": true,
   "quote": "Management believes these factors raise substantial doubt regarding the Company\u2019s ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 200000.0,
+  "tags": "LoansPayable"
+ },
+ "public_float": {
+  "usd": 23222860,
+  "as_of": "2023-06-30",
+  "filed": "2024-04-16"
+ },
  "insiders": {
   "form4s": 7,
   "from": "2024-04-04",
   "to": "2024-08-02",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "cdt equity",
   "other_trials": 0,

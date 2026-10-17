@@ -4,12 +4,12 @@
  "cik": "1533743",
  "name": "Processa Pharmaceuticals, Inc.",
  "date": "2024-01-26",
- "asof": "2024-02-01",
+ "asof": "2024-01-31",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2024-02-01",
-  "adj_close": 58.5
+  "date": "2024-01-31",
+  "adj_close": 59.0
  },
  "balance": {
   "end": "2023-09-30",
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "These risks and other factors raise substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 33800000,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-30"
  },
  "insiders": {
   "form4s": 6,
@@ -83,7 +93,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "NGC-Cap (PCS6422 + capecitabine)",
  "trials": {
   "query": "processa pharmaceuticals",
   "other_trials": 0,

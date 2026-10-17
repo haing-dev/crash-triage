@@ -6,7 +6,7 @@
  "date": "2022-05-09",
  "asof": "2022-05-09",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-05-09",
   "adj_close": 30.86
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 431897000.0,
+  "tags": "LongTermDebtNoncurrent+LongTermDebtCurrent"
+ },
+ "public_float": {
+  "usd": 2191128010,
+  "as_of": "2021-06-30",
+  "filed": "2022-02-22"
  },
  "insiders": {
   "form4s": 7,
@@ -111,25 +121,25 @@
     ]
    },
    {
+    "nct": "NCT02352896",
+    "drugs": [
+     "EPI-743"
+    ]
+   },
+   {
     "nct": "NCT05099640",
     "drugs": [
      "PTC923"
     ]
    },
    {
-    "nct": "NCT05166161",
-    "drugs": [
-     "PTC923"
-    ]
-   },
-   {
-    "nct": "NCT04903288",
-    "drugs": [
-     "Eladocagene Exuparvovec"
-    ]
-   },
-   {
     "nct": "NCT04336826",
+    "drugs": [
+     "Ataluren"
+    ]
+   },
+   {
+    "nct": "NCT01247207",
     "drugs": [
      "Ataluren"
     ]

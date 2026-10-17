@@ -6,7 +6,7 @@
  "date": "2025-12-03",
  "asof": "2025-12-03",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-12-03",
   "adj_close": 1.38
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "In addition, the Company\u2019s cash and cash equivalents will not be sufficient to enable the Company to fund its operating expenses and capital expenditure requirements for at least twelve months from the date of issuance of these condensed consolidated financial statements, which raises substantial do"
+ },
+ "financing_terms": {
+  "equity_line": "In July 2025, the Company entered into a Pre-Paid Advance Agreement, or the PPA, and a Standby Equity Purchase Agreement, or the SEPA, with YA II PN, Ltd., a Cayman Islands exempt limited partnership, or Yorkville."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 54077680000,
+  "as_of": "2024-06-28",
+  "filed": "2025-04-30"
  },
  "insiders": {
   "form4s": 2,

@@ -6,7 +6,7 @@
  "date": "2022-03-25",
  "asof": "2022-03-25",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-03-25",
   "adj_close": 4.41
@@ -29,6 +29,12 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 16,
   "from": "2021-12-25",
@@ -71,7 +77,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "IVX-411",
  "trials": {
   "query": "icosavax",
   "other_trials": 0,

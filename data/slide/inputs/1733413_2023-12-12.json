@@ -6,7 +6,7 @@
  "date": "2023-12-12",
  "asof": "2023-12-12",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-12-12",
   "adj_close": 8.275
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "\u25cfThe report of our independent registered public accounting firm for the year ended December 31, 2022 states that due to our lack of revenue from commercial operations, significant losses and need for additional capital there is substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 139121520,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-31"
  },
  "insiders": {
   "form4s": 6,

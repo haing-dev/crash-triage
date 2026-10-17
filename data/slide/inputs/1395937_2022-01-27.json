@@ -6,7 +6,7 @@
  "date": "2022-01-27",
  "asof": "2022-01-27",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-01-27",
   "adj_close": 14.89
@@ -33,6 +33,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "price_reset_warrants": "As a result of this offering, the exercise price of Series 1 Warrants and Series 2 Warrants outstanding reset from $12.00 per share to $10.00 per share and from $18.00 per share to $13.00, respectively."
+ },
+ "debt": {
+  "usd": 20478000.0,
+  "tags": "LoansPayable"
+ },
+ "public_float": {
+  "usd": 500100000,
+  "as_of": "2020-06-30",
+  "filed": "2021-04-30"
  },
  "insiders": {
   "form4s": 18,
@@ -139,18 +151,6 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT03604692",
-    "drugs": [
-     "axatilimab"
-    ]
-   },
-   {
-    "nct": "NCT04710576",
-    "drugs": [
-     "Axatilimab"
-    ]
-   },
-   {
     "nct": "NCT04065399",
     "drugs": [
      "revumenib",
@@ -158,10 +158,22 @@
     ]
    },
    {
+    "nct": "NCT03604692",
+    "drugs": [
+     "axatilimab"
+    ]
+   },
+   {
     "nct": "NCT02437136",
     "drugs": [
      "entinostat",
      "pembrolizumab"
+    ]
+   },
+   {
+    "nct": "NCT04710576",
+    "drugs": [
+     "Axatilimab"
     ]
    }
   ]

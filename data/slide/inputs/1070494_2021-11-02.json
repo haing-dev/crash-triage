@@ -6,7 +6,7 @@
  "date": "2021-11-02",
  "asof": "2021-11-02",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-11-02",
   "adj_close": 19.18
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 4600000000,
+  "as_of": "2020-06-30",
+  "filed": "2021-02-25"
  },
  "insiders": {
   "form4s": 6,
@@ -69,10 +79,9 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT05008835",
+    "nct": "NCT04279314",
     "drugs": [
-     "ACP-044 Dose A",
-     "ACP-044 Dose B"
+     "Trofinetide"
     ]
    },
    {
@@ -82,22 +91,21 @@
     ]
    },
    {
-    "nct": "NCT04855240",
-    "drugs": [
-     "ACP-044 Dose A",
-     "ACP-044 Dose B"
-    ]
-   },
-   {
-    "nct": "NCT03623321",
-    "drugs": [
-     "Pimavanserin"
-    ]
-   },
-   {
     "nct": "NCT03121586",
     "drugs": [
      "Pimavanserin"
+    ]
+   },
+   {
+    "nct": "NCT04531982",
+    "drugs": [
+     "Pimavanserin"
+    ]
+   },
+   {
+    "nct": "NCT04776746",
+    "drugs": [
+     "trofinetide"
     ]
    }
   ]

@@ -6,7 +6,7 @@
  "date": "2023-09-12",
  "asof": "2023-09-14",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-09-14",
   "adj_close": 4.2
@@ -35,6 +35,12 @@
   "flag": true,
   "quote": "The Company has evaluated and concluded there are no conditions or events, considered in the aggregate, that raise substantial doubt about its ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 5,
   "from": "2023-06-14",

@@ -6,7 +6,7 @@
  "date": "2021-04-07",
  "asof": "2021-04-07",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-04-07",
   "adj_close": 10.02
@@ -24,6 +24,14 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {
+  "equity_line": "Hung contributed to Legacy Nuvation Bio the specified intellectual property rights and other assets in consideration of Legacy Nuvation Bio\u2019s issuance to him of shares of its common stock as described below under \u201cCommon Stock Purchase Agreement.\u201d On March 2, 2021, we, Legacy Nuvation Bio, GiraF and Dr."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 20,
   "from": "2021-01-07",

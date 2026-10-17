@@ -4,12 +4,12 @@
  "cik": "1514183",
  "name": "Silo Pharma, Inc.",
  "date": "2025-05-15",
- "asof": "2025-05-16",
+ "asof": "2025-05-15",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2025-05-16",
-  "adj_close": 7.245
+  "date": "2025-05-15",
+  "adj_close": 7.8
  },
  "balance": {
   "end": "2025-03-31",
@@ -34,6 +34,16 @@
  "going_concern": {
   "flag": true,
   "quote": "The positive working capital serves to mitigate the conditions that historically raised substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 3431092,
+  "as_of": "2024-06-30",
+  "filed": "2025-03-28"
  },
  "insiders": {
   "form4s": 6,

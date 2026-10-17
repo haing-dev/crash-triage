@@ -4,12 +4,12 @@
  "cik": "1808158",
  "name": "Repare Therapeutics Inc.",
  "date": "2024-12-13",
- "asof": "2024-12-18",
+ "asof": "2024-12-13",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2024-12-18",
-  "adj_close": 1.26
+  "date": "2024-12-13",
+  "adj_close": 1.77
  },
  "balance": {
   "end": "2024-09-30",
@@ -34,26 +34,27 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 383103514,
+  "as_of": "2023-06-30",
+  "filed": "2024-02-28"
+ },
  "insiders": {
   "form4s": 0,
   "from": "2024-09-14",
   "to": "2025-01-12",
   "trades": []
  },
- "drug": null,
+ "drug": "lunresertib + camonsertib",
  "trials": {
   "query": "repare therapeutics",
-  "other_trials": 1,
-  "crashed_drug_trials": 0,
-  "examples": [
-   {
-    "nct": "NCT04497116",
-    "drugs": [
-     "RP-3500 (camonsertib)",
-     "Talazoparib",
-     "Gemcitabine Injection"
-    ]
-   }
-  ]
+  "other_trials": 0,
+  "crashed_drug_trials": 1,
+  "examples": []
  }
 }

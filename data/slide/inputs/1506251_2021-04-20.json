@@ -6,7 +6,7 @@
  "date": "2021-04-20",
  "asof": "2021-04-20",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-04-20",
   "adj_close": 37.75
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "This raises substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 337553.0,
+  "tags": "NotesPayableCurrent+LongTermNotesPayable"
+ },
+ "public_float": {
+  "usd": 15500000,
+  "as_of": "2020-03-31",
+  "filed": "2020-12-16"
  },
  "insiders": {
   "form4s": 5,

@@ -6,7 +6,7 @@
  "date": "2021-04-12",
  "asof": "2021-04-12",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-04-12",
   "adj_close": 157.4
@@ -33,6 +33,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "In October 2019, as amended in April 2020, we entered into a Common Stock Purchase Agreement (2019 Purchase Agreement) with Aspire Capital Fund, LLC (Aspire Capital) pursuant to which, upon the terms and subject to the conditions and limitations set forth in the 2019 Purchase Agreement, Aspire Capital committed to purchase up to an aggregate of $15.0 million of shares of our common stock at our re"
+ },
+ "debt": {
+  "usd": 7626000.0,
+  "tags": "DebtCurrent+LongTermDebtNoncurrent"
+ },
+ "public_float": {
+  "usd": 14300000,
+  "as_of": "2020-06-30",
+  "filed": "2021-02-25"
  },
  "insiders": {
   "form4s": 6,

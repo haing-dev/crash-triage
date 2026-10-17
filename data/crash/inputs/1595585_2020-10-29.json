@@ -6,7 +6,7 @@
  "date": "2020-10-29",
  "asof": "2020-10-29",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2020-10-29",
   "adj_close": 4.37
@@ -35,13 +35,23 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 74736000.0,
+  "tags": "LongTermDebtNoncurrent+LongTermDebtCurrent"
+ },
+ "public_float": {
+  "usd": 1100000000,
+  "as_of": "2019-06-28",
+  "filed": "2020-03-02"
+ },
  "insiders": {
   "form4s": 7,
   "from": "2020-07-31",
   "to": "2020-11-28",
   "trades": []
  },
- "drug": null,
+ "drug": "veverimer",
  "trials": {
   "query": "tricida",
   "other_trials": 1,

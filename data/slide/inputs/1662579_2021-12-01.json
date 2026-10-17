@@ -6,7 +6,7 @@
  "date": "2021-12-01",
  "asof": "2021-12-01",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-12-01",
   "adj_close": 34.39
@@ -35,6 +35,12 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 10588000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 19,
   "from": "2021-09-02",

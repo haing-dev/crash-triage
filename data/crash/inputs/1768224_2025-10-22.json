@@ -4,12 +4,12 @@
  "cik": "1768224",
  "name": "Arcturus Therapeutics Holdings Inc.",
  "date": "2025-10-22",
- "asof": "2025-10-28",
+ "asof": "2025-10-22",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2025-10-28",
-  "adj_close": 9.88
+  "date": "2025-10-22",
+  "adj_close": 11.54
  },
  "balance": {
   "end": "2025-06-30",
@@ -32,6 +32,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 602700000,
+  "as_of": "2024-06-30",
+  "filed": "2025-03-06"
  },
  "insiders": {
   "form4s": 1,

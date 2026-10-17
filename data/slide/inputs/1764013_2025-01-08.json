@@ -6,7 +6,7 @@
  "date": "2025-01-08",
  "asof": "2025-01-08",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-01-08",
   "adj_close": 23.63
@@ -32,6 +32,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 2176900000,
+  "as_of": "2023-09-30",
+  "filed": "2024-05-29"
  },
  "insiders": {
   "form4s": 25,
@@ -257,16 +267,15 @@
     ]
    },
    {
-    "nct": "NCT05403541",
+    "nct": "NCT05517421",
     "drugs": [
-     "Batoclimab 680 mg SC weekly",
-     "Batoclimab 340 mg SC weekly",
-     "Batoclimab 340 mg SC bi-weekly"
+     "Batoclimab"
     ]
    },
    {
-    "nct": "NCT05517421",
+    "nct": "NCT05517447",
     "drugs": [
+     "Observational cohort study",
      "Batoclimab"
     ]
    },

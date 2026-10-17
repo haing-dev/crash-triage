@@ -6,7 +6,7 @@
  "date": "2021-11-15",
  "asof": "2021-11-15",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-11-15",
   "adj_close": 27.049999
@@ -34,6 +34,16 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 30589000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 2163126348,
+  "as_of": "2020-06-30",
+  "filed": "2021-03-01"
+ },
  "insiders": {
   "form4s": 0,
   "from": "2021-08-17",
@@ -47,37 +57,40 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT02612311",
+    "nct": "NCT03207256",
     "drugs": [
-     "Obinutuzumab",
-     "Ublituximab",
-     "TGR-1202"
+     "TGR-1202",
+     "TGR-1202 + Ublituximab"
     ]
    },
    {
-    "nct": "NCT02656303",
+    "nct": "NCT04016805",
     "drugs": [
      "Ublituximab",
-     "Umbralisib"
+     "Umbralisib",
+     "Ibrutinib"
     ]
    },
    {
-    "nct": "NCT03381170",
+    "nct": "NCT03379051",
     "drugs": [
+     "Venetoclax",
+     "Umbralisib",
      "Ublituximab"
     ]
    },
    {
-    "nct": "NCT03364231",
+    "nct": "NCT02793583",
     "drugs": [
-     "Umbralisib"
+     "Ublituximab",
+     "Umbralisib",
+     "Bendamustine"
     ]
    },
    {
-    "nct": "NCT03828448",
+    "nct": "NCT04130997",
     "drugs": [
-     "Ublituximab",
-     "Umbralisib"
+     "Ublituximab"
     ]
    }
   ]

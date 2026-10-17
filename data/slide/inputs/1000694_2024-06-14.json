@@ -6,7 +6,7 @@
  "date": "2024-06-14",
  "asof": "2024-06-14",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-06-14",
   "adj_close": 14.4
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "Going Concern As described in Note 2 to our consolidated financial statements, conditions or events existed that raised substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 699000000,
+  "as_of": "2023-06-30",
+  "filed": "2024-02-28"
  },
  "insiders": {
   "form4s": 17,

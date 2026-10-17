@@ -4,12 +4,12 @@
  "cik": "1660334",
  "name": "Verrica Pharmaceuticals Inc.",
  "date": "2022-05-25",
- "asof": "2022-05-31",
+ "asof": "2022-05-25",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2022-05-31",
-  "adj_close": 19.3
+  "date": "2022-05-25",
+  "adj_close": 20.1
  },
  "balance": {
   "end": "2022-03-31",
@@ -34,26 +34,27 @@
   "flag": true,
   "quote": "These factors raise substantial doubt about the Company's ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 185600000,
+  "as_of": "2021-06-30",
+  "filed": "2022-03-02"
+ },
  "insiders": {
   "form4s": 9,
   "from": "2022-02-24",
   "to": "2022-06-24",
   "trades": []
  },
- "drug": null,
+ "drug": "VP-102",
  "trials": {
   "query": "verrica pharmaceuticals",
-  "other_trials": 1,
-  "crashed_drug_trials": 0,
-  "examples": [
-   {
-    "nct": "NCT05188729",
-    "drugs": [
-     "Part 1: VP-315 3 Day Dosing/Week",
-     "Part 2: VP-315 3 Day Dosing/Week - Loading Dose",
-     "Part 2: VP-315 3 Day Dosing/Week - No Loading Dose"
-    ]
-   }
-  ]
+  "other_trials": 0,
+  "crashed_drug_trials": 1,
+  "examples": []
  }
 }

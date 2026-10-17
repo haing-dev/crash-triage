@@ -4,12 +4,12 @@
  "cik": "1834105",
  "name": "IMPACT BIOMEDICAL INC.",
  "date": "2025-06-24",
- "asof": "2025-06-30",
+ "asof": "2025-06-27",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2025-06-30",
-  "adj_close": 8.18987
+  "date": "2025-06-27",
+  "adj_close": 9.51899
  },
  "balance": {
   "end": "2025-03-31",
@@ -34,6 +34,12 @@
   "flag": true,
   "quote": "These factors raise substantial doubt about the Company\u2019s ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 9141000.0,
+  "tags": "NotesPayableCurrent"
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 6,
   "from": "2025-03-26",

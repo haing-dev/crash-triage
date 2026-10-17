@@ -6,7 +6,7 @@
  "date": "2022-07-06",
  "asof": "2022-07-06",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-07-06",
   "adj_close": 181.050003
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 608992000.0,
+  "tags": "LongTermDebtNoncurrent+LongTermDebtCurrent"
+ },
+ "public_float": {
+  "usd": 14700000000,
+  "as_of": "2021-06-30",
+  "filed": "2022-02-28"
  },
  "insiders": {
   "form4s": 22,
@@ -160,30 +170,6 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT04771130",
-    "drugs": [
-     "BGB-11417",
-     "Azacitidine",
-     "Posaconazole"
-    ]
-   },
-   {
-    "nct": "NCT04002297",
-    "drugs": [
-     "zanubrutinib",
-     "bendamustine",
-     "rituximab"
-    ]
-   },
-   {
-    "nct": "NCT05100862",
-    "drugs": [
-     "Zanubrutinib",
-     "Rituximab",
-     "Lenalidomide"
-    ]
-   },
-   {
     "nct": "NCT04170283",
     "drugs": [
      "Zanubrutinib",
@@ -196,6 +182,30 @@
      "Sonrotoclax",
      "Dexamethasone",
      "Carfilzomib"
+    ]
+   },
+   {
+    "nct": "NCT04002297",
+    "drugs": [
+     "zanubrutinib",
+     "bendamustine",
+     "rituximab"
+    ]
+   },
+   {
+    "nct": "NCT04164199",
+    "drugs": [
+     "Tislelizumab",
+     "Pamiparib",
+     "Temozolomide"
+    ]
+   },
+   {
+    "nct": "NCT05100862",
+    "drugs": [
+     "Zanubrutinib",
+     "Rituximab",
+     "Lenalidomide"
     ]
    }
   ]

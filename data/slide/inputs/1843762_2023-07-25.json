@@ -6,7 +6,7 @@
  "date": "2023-07-25",
  "asof": "2023-07-25",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-07-25",
   "adj_close": 1.79
@@ -34,6 +34,16 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 1600000000,
+  "as_of": "2022-06-30",
+  "filed": "2023-02-23"
+ },
  "insiders": {
   "form4s": 1,
   "from": "2023-04-26",
@@ -53,18 +63,18 @@
     ]
    },
    {
+    "nct": "NCT05712941",
+    "drugs": [
+     "Lerociclib",
+     "Letrozole 2.5mg"
+    ]
+   },
+   {
     "nct": "NCT05493501",
     "drugs": [
      "Aumolertinib monotherapy",
      "Osimertinib monotherapy",
      "Pemetrexed"
-    ]
-   },
-   {
-    "nct": "NCT05712941",
-    "drugs": [
-     "Lerociclib",
-     "Letrozole 2.5mg"
     ]
    }
   ]

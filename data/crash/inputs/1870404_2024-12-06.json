@@ -4,12 +4,12 @@
  "cik": "1870404",
  "name": "CERO THERAPEUTICS HOLDINGS, INC.",
  "date": "2024-12-06",
- "asof": "2024-12-12",
+ "asof": "2024-12-10",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2024-12-12",
-  "adj_close": 139.2
+  "date": "2024-12-10",
+  "adj_close": 179.2
  },
  "balance": {
   "end": "2024-09-30",
@@ -33,6 +33,20 @@
  "going_concern": {
   "flag": true,
   "quote": "These conditions raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "floating_convertible": "14 Alternate Conversion: Following the occurrence and during the continuance of a Trigger Event (as defined below), each holder may alternatively elect to convert the Series A Preferred Stock at the \u201cAlternate Conversion Price\u201d equal to the lesser of the Conversion Price and the greater of $1.00 (the \u201cConversion Price Floor\u201d) or 80% of the 5-day volume weighted average price of a share of Common S",
+  "price_reset_warrants": "In connection with such adjustment provisions, the Conversion Price has been reset to $1.00.",
+  "equity_line": "CONDENSED CONSOLIDATED STATEMENTS OF CONVERTIBLE PREFERRED STOCK AND STOCKHOLDERS\u2019 DEFICIT (Unaudited) Convertible Preferred Stock Additional Total Series Seed Series A Common Stock Paid-in Accumulated Stockholders\u2019 Shares Amount Shares Amount Shares Amount Capital Deficit Deficit Balance at December 31, 2022 (Predecessor) 5,155,703 $4,077,560 22,764,764 $38,023,784 9,044,733 $904 $928,560 $(35,80"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 2688948,
+  "as_of": "2023-06-30",
+  "filed": "2024-04-02"
  },
  "insiders": {
   "form4s": 15,
@@ -97,7 +111,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "CER-1236",
  "trials": {
   "query": "cero therapeutics",
   "other_trials": 0,

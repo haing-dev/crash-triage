@@ -6,7 +6,7 @@
  "date": "2025-11-11",
  "asof": "2025-11-11",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-11-11",
   "adj_close": 11.76
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "The lack of revenue from product sales to date and recurring losses from operations since its inception raise substantial doubt as to the Company's ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "equity_line": "At the appeal before the Hearings Panel, the Company presented its plans to regain compliance with the Minimum Bid Price Requirement, including via the implementation of a reverse stock split (shareholder approval sought at the Special Meeting held on July 8, 2025 (the \u201cSpecial Meeting\u201d)), and the Equity Standard in connection with the Company\u2019s planned merger transaction with Decoy (as well as fu"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 1500431,
+  "as_of": "2024-06-28",
+  "filed": "2025-03-21"
  },
  "insiders": {
   "form4s": 2,

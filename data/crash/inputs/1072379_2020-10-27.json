@@ -6,7 +6,7 @@
  "date": "2020-10-27",
  "asof": "2020-10-27",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2020-10-27",
   "adj_close": 1.13
@@ -34,13 +34,23 @@
   "flag": true,
   "quote": "Because of recurring operating losses and operating cash flow deficits, there is substantial doubt about the Company\u2019s ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 16052000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 138133000,
+  "as_of": "2019-06-30",
+  "filed": "2020-03-16"
+ },
  "insiders": {
   "form4s": 1,
   "from": "2020-07-29",
   "to": "2020-11-26",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "northwest biotherapeutics",
   "other_trials": 1,

@@ -6,7 +6,7 @@
  "date": "2023-11-09",
  "asof": "2023-11-09",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-11-09",
   "adj_close": 15.96
@@ -34,13 +34,23 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 58000000,
+  "as_of": "2022-12-31",
+  "filed": "2023-03-14"
+ },
  "insiders": {
   "form4s": 2,
   "from": "2023-08-11",
   "to": "2023-12-09",
   "trades": []
  },
- "drug": null,
+ "drug": "IK-930",
  "trials": {
   "query": "imagenebio",
   "other_trials": 0,

@@ -4,12 +4,12 @@
  "cik": "1980845",
  "name": "enGene Therapeutics Inc.",
  "date": "2026-05-07",
- "asof": "2026-05-12",
+ "asof": "2026-05-07",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2026-05-12",
-  "adj_close": 1.44
+  "date": "2026-05-07",
+  "adj_close": 1.72
  },
  "balance": {
   "end": "2026-01-31",
@@ -34,6 +34,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 24924000.0,
+  "tags": "NotesPayableCurrent+LongTermNotesPayable"
+ },
+ "public_float": {
+  "usd": 154176366,
+  "as_of": "2025-04-30",
+  "filed": "2026-02-19"
  },
  "insiders": {
   "form4s": 0,

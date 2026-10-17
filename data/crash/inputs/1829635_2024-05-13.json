@@ -6,7 +6,7 @@
  "date": "2024-05-13",
  "asof": "2024-05-13",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-05-13",
   "adj_close": 569.18402
@@ -34,13 +34,25 @@
   "flag": true,
   "quote": "We have identified conditions and events that raise substantial doubt about our ability to continue operations in the near-term and our independent registered public accounting firm has expressed substantial doubt about our ability to continue as a going concern"
  },
+ "financing_terms": {
+  "equity_line": "\u200b \u200b \u200b 10.14 \u200b Common Stock Purchase Agreement, dated April 13, 2023, by and between TransCode Therapeutics,Inc."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 4400000,
+  "as_of": "2023-06-30",
+  "filed": "2024-04-01"
+ },
  "insiders": {
   "form4s": 0,
   "from": "2024-02-13",
   "to": "2024-06-12",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "transcode therapeutics",
   "other_trials": 0,

@@ -6,7 +6,7 @@
  "date": "2026-10-08",
  "asof": "2026-10-12",
  "final": false,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-10-12",
   "adj_close": 3.58
@@ -32,6 +32,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "The fair value of the Regulation A Warrants were estimated using the Black-Scholes model with the following assumptions: Issue Date March 10, 2025 Valuation date share price $ 3.40 Exercise price $ 2.80 Dividend yield - Risk-free interest rate 3.98% Expected warrant life 5.00 years Expected volatility 97.81% Warrant activity as below: Number of common share warrants outstanding Weighted average ex"
+ },
+ "debt": {
+  "usd": 17114.0,
+  "tags": "LongTermLoansPayable"
+ },
+ "public_float": {
+  "usd": 28300000,
+  "as_of": "2025-06-30",
+  "filed": "2026-04-29"
  },
  "insiders": {
   "form4s": 5,

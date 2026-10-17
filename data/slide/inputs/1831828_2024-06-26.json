@@ -6,7 +6,7 @@
  "date": "2024-06-26",
  "asof": "2024-06-26",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-06-26",
   "adj_close": 33.72
@@ -34,6 +34,16 @@
  "going_concern": {
   "flag": true,
   "quote": "As of March 31, 2024, under the terms of the sublease agreement, the Company is entitled to receive future annual sublease payments as follows (in thousands): 2024 (remaining) 1,466 2025 1,496 Total sublease payments $ 2,962 The subtenant of the leased facilities in South San Francisco, California, "
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 50066000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 449200000,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-27"
  },
  "insiders": {
   "form4s": 13,

@@ -6,7 +6,7 @@
  "date": "2023-07-17",
  "asof": "2023-07-17",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-07-17",
   "adj_close": 546.47998
@@ -30,6 +30,16 @@
  "going_concern": {
   "flag": true,
   "quote": "In connection with the Company\u2019s assessment of going concern considerations in accordance with FASB ASC Topic 205-40, \u201cPresentation of Financial Statements\u2013 Going Concern,\u201d Management has determined that the liquidity condition and mandatory liquidation, should a Business Combination not occur, and "
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 332600000,
+  "as_of": "2021-06-30",
+  "filed": "2023-04-10"
  },
  "insiders": {
   "form4s": 11,

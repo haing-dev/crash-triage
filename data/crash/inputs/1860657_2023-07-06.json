@@ -4,12 +4,12 @@
  "cik": "1860657",
  "name": "Allarity Therapeutics, Inc.",
  "date": "2023-07-06",
- "asof": "2023-07-11",
+ "asof": "2023-07-06",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2023-07-11",
-  "adj_close": 1980.0
+  "date": "2023-07-06",
+  "adj_close": 2286.0
  },
  "balance": {
   "end": "2023-03-31",
@@ -33,22 +33,35 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {
+  "floating_convertible": "Conversion Price Adjustment for Series A Preferred Stock On December 9, 2022, the Company and 3i entered into a letter agreement which provided that pursuant to Section 8(g) of the Certificate of Designations for the Series A Preferred Stock, the parties agreed that the Conversion Price was modified to mean the lower of: (i) the Closing Sale Price on the trading date immediately preceding the Conv"
+ },
+ "debt": {
+  "usd": 2687000.0,
+  "tags": "ConvertibleDebtCurrent"
+ },
+ "public_float": {
+  "usd": 10592706,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-13"
+ },
  "insiders": {
   "form4s": 0,
   "from": "2023-04-07",
   "to": "2023-08-05",
   "trades": []
  },
- "drug": null,
+ "drug": "stenoparib",
  "trials": {
   "query": "allarity therapeutics",
   "other_trials": 3,
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT03562832",
+    "nct": "NCT03878849",
     "drugs": [
-     "PARP inhibitor 2X-121"
+     "2X-121",
+     "2X-121"
     ]
    },
    {
@@ -58,10 +71,9 @@
     ]
    },
    {
-    "nct": "NCT03878849",
+    "nct": "NCT03562832",
     "drugs": [
-     "2X-121",
-     "2X-121"
+     "PARP inhibitor 2X-121"
     ]
    }
   ]

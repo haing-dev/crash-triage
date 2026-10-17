@@ -6,7 +6,7 @@
  "date": "2026-02-03",
  "asof": "2026-02-05",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-02-05",
   "adj_close": 96.0
@@ -34,6 +34,19 @@
  "going_concern": {
   "flag": true,
   "quote": "These factors raise substantial doubt regarding the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "price_reset_warrants": "On April 29, 2025, the exercise price of the replacement warrants were reset to the contractual floor price of $11.27 per share.",
+  "equity_line": "20 Future minimum lease payments under the Company\u2019s operating leases that have an initial non-cancelable lease term in excess of one year at September 30, 2025, are as follows: As at September 30, 2025 Lease payments ($) 2025 (remaining three months) $81,915 2026 320,234 2027 335,772 2028 345,456 2029 303,477 2030 and thereafter 42,534 Total future payments $1,429,388 Less: imputed interest (214,"
+ },
+ "debt": {
+  "usd": 3194053.0,
+  "tags": "ConvertibleDebtCurrent"
+ },
+ "public_float": {
+  "usd": 7609535.44,
+  "as_of": "2024-06-30",
+  "filed": "2025-03-28"
  },
  "insiders": {
   "form4s": 0,

@@ -4,12 +4,12 @@
  "cik": "1590560",
  "name": "uniQure N.V.",
  "date": "2026-03-02",
- "asof": "2026-03-03",
+ "asof": "2026-03-02",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2026-03-03",
-  "adj_close": 9.03
+  "date": "2026-03-02",
+  "adj_close": 10.5
  },
  "balance": {
   "end": "2025-12-31",
@@ -32,6 +32,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 71922000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 764800000,
+  "as_of": "2025-06-30",
+  "filed": "2026-03-02"
  },
  "insiders": {
   "form4s": 13,
@@ -145,6 +155,13 @@
   "crashed_drug_trials": 2,
   "examples": [
    {
+    "nct": "NCT04120493",
+    "drugs": [
+     "intra-striatal rAAV5-miHTT",
+     "Imitation (sham) surgery"
+    ]
+   },
+   {
     "nct": "NCT05243017",
     "drugs": [
      "intra-striatal rAAV5-miHTT"
@@ -154,13 +171,6 @@
     "nct": "NCT06063850",
     "drugs": [
      "AAV9-hSyn1-miGRIK2"
-    ]
-   },
-   {
-    "nct": "NCT04120493",
-    "drugs": [
-     "intra-striatal rAAV5-miHTT",
-     "Imitation (sham) surgery"
     ]
    }
   ]

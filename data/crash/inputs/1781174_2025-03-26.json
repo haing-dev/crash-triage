@@ -4,35 +4,45 @@
  "cik": "1781174",
  "name": "Acrivon Therapeutics, Inc.",
  "date": "2025-03-26",
- "asof": "2025-03-31",
+ "asof": "2025-03-26",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2025-03-31",
-  "adj_close": 2.03
+  "date": "2025-03-26",
+  "adj_close": 2.61
  },
  "balance": {
-  "end": "2024-12-31",
-  "cash": 179480000,
+  "end": "2024-09-30",
+  "cash": 187453000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue",
    "ShortTermInvestments"
   ],
-  "accn": "0000950170-25-046056"
+  "accn": "0000950170-24-125929"
  },
  "burn6": {
-  "end": "2024-12-31",
-  "start": "2024-07-01",
-  "cash_used_ops": 34683000.0,
-  "capex": 1816000.0,
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": 31226000.0,
+  "capex": 1126000.0,
   "periods": 2
  },
  "shares": {
-  "end": "2025-03-24",
-  "shares": 31351480
+  "end": "2024-11-07",
+  "shares": 31136296
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 157700000,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-28"
  },
  "insiders": {
   "form4s": 18,

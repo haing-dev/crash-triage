@@ -4,12 +4,12 @@
  "cik": "1812360",
  "name": "FOXO TECHNOLOGIES INC.",
  "date": "2025-05-07",
- "asof": "2025-05-09",
+ "asof": "2025-05-07",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2025-05-09",
-  "adj_close": 1.39442
+  "date": "2025-05-07",
+  "adj_close": 1.51116
  },
  "balance": {
   "end": "2024-12-31",
@@ -33,6 +33,19 @@
  "going_concern": {
   "flag": true,
   "quote": "Primarily as a result of our losses, limited working capital, debt obligations and significant operating costs expected to be incurred in the next twelve months, the report of our independent registered public accounting firm included elsewhere in this Annual Report contains an explanatory paragraph"
+ },
+ "financing_terms": {
+  "floating_convertible": "Per the terms of the amendment and restatement, the principal balance of the note, which includes previously accrued interest expense, is $1.1 million, the maturity date is February 26, 2026 and the note is convertible into shares of the Company\u2019s Class A Common Stock at a conversion price equal to 90% of the average VWAP for the five trading days prior to conversion.",
+  "equity_line": "By Reference 8-K 10.8 September 21, 2022 10.9 Common Stock Purchase Agreement, dated as of February 24, 2022, by and between Delwinds and Cantor."
+ },
+ "debt": {
+  "usd": 10219905.0,
+  "tags": "NotesPayable"
+ },
+ "public_float": {
+  "usd": 2653834,
+  "as_of": "2024-06-30",
+  "filed": "2025-04-15"
  },
  "insiders": {
   "form4s": 0,

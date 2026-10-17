@@ -6,7 +6,7 @@
  "date": "2025-12-26",
  "asof": "2025-12-26",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-12-26",
   "adj_close": 11.49
@@ -34,6 +34,12 @@
   "flag": true,
   "quote": "Although the Company believes it has sufficient working capital for the near term, management believes that there remains substantial doubt about its ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 0,
   "from": "2025-09-27",

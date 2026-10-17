@@ -6,10 +6,10 @@
  "date": "2025-03-28",
  "asof": "2025-03-28",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-03-28",
-  "adj_close": 15.8
+  "adj_close": 1.58
  },
  "balance": {
   "end": "2024-12-31",
@@ -30,6 +30,16 @@
  "going_concern": {
   "flag": true,
   "quote": "Our recurring losses from operations and negative cash flow raise substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 12438864,
+  "as_of": "2024-06-30",
+  "filed": "2025-02-28"
  },
  "insiders": {
   "form4s": 9,

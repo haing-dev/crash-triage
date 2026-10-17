@@ -6,7 +6,7 @@
  "date": "2024-04-17",
  "asof": "2024-04-17",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-04-17",
   "adj_close": 2.58
@@ -33,6 +33,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "On June 18, 2021, we entered into the LPC Purchase Agreement with Lincoln Park for an equity line financing."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 105600000,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-20"
  },
  "insiders": {
   "form4s": 7,

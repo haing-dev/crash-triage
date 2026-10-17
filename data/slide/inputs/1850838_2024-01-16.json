@@ -6,7 +6,7 @@
  "date": "2024-01-16",
  "asof": "2024-01-16",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-01-16",
   "adj_close": 3.695
@@ -34,6 +34,16 @@
  "going_concern": {
   "flag": true,
   "quote": "This raises substantial doubt about the Company's ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 19864000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 80000000,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-24"
  },
  "insiders": {
   "form4s": 6,

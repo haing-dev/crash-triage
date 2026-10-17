@@ -6,7 +6,7 @@
  "date": "2023-05-02",
  "asof": "2023-05-02",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-05-02",
   "adj_close": 1.5
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "This condition raises substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "floating_convertible": "The Note is convertible into the Common Shares of Regen at a price per share ( \u201cConversion Price\u201d) equivalent to the lower of (a) a 75% discount to the closing price of the common stock of the Company on the trading day immediately prior to the date a conversion notice is given by the Lender to Regen or (b) $375 per common share as of the date which is the earlier of: (i) One day subsequent to the"
+ },
+ "debt": {
+  "usd": 499880.0,
+  "tags": "ConvertibleNotesPayable"
+ },
+ "public_float": {
+  "usd": 27918610,
+  "as_of": "2022-12-21",
+  "filed": "2022-11-15"
  },
  "insiders": {
   "form4s": 0,

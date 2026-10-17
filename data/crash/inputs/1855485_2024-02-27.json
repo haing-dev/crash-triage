@@ -6,7 +6,7 @@
  "date": "2024-02-27",
  "asof": "2024-02-29",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-02-29",
   "adj_close": 71.64
@@ -37,13 +37,25 @@
   "flag": true,
   "quote": "Management estimates that based on the Company\u2019s liquidity resources, there is substantial doubt about the Company\u2019s ability to continue as a going concern"
  },
+ "financing_terms": {
+  "equity_line": "Calidi is currently seeking to execute a Common Stock Purchase Agreement (also referred to as the equity line of credit or \u201cELOC\u201d) and is currently in negotiations; however, nothing has been agreed to with the counterparty as of the issuance of the accompanying unaudited condensed consolidated financial statements as of and for the three and nine months ended September 30, 2023."
+ },
+ "debt": {
+  "usd": 3345000.0,
+  "tags": "LongTermDebtCurrent"
+ },
+ "public_float": {
+  "usd": 228620000,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-31"
+ },
  "insiders": {
   "form4s": 6,
   "from": "2023-11-29",
   "to": "2024-03-28",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "calidi biotherapeutics",
   "other_trials": 0,

@@ -4,12 +4,12 @@
  "cik": "1724979",
  "name": "Rain Oncology Inc.",
  "date": "2023-05-22",
- "asof": "2023-05-26",
+ "asof": "2023-05-22",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2023-05-26",
-  "adj_close": 1.1
+  "date": "2023-05-22",
+  "adj_close": 1.22
  },
  "balance": {
   "end": "2023-03-31",
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 43929838,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-09"
  },
  "insiders": {
   "form4s": 3,
@@ -111,30 +121,23 @@
    }
   ]
  },
- "drug": null,
+ "drug": "milademetan",
  "trials": {
   "query": "rain oncology",
-  "other_trials": 3,
-  "crashed_drug_trials": 0,
+  "other_trials": 2,
+  "crashed_drug_trials": 1,
   "examples": [
    {
-    "nct": "NCT06090318",
+    "nct": "NCT04979442",
     "drugs": [
-     "Milademetan",
-     "Atezolizumab"
+     "RAIN-32",
+     "Trabectedin"
     ]
    },
    {
     "nct": "NCT05012397",
     "drugs": [
      "RAIN-32"
-    ]
-   },
-   {
-    "nct": "NCT04979442",
-    "drugs": [
-     "RAIN-32",
-     "Trabectedin"
     ]
    }
   ]

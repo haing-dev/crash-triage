@@ -6,7 +6,7 @@
  "date": "2025-06-13",
  "asof": "2025-06-13",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-06-13",
   "adj_close": 1.54
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 9464000.0,
+  "tags": "LongTermDebtNoncurrent"
+ },
+ "public_float": {
+  "usd": 311200000,
+  "as_of": "2024-06-30",
+  "filed": "2025-02-26"
  },
  "insiders": {
   "form4s": 15,
@@ -76,16 +86,16 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT06111014",
-    "drugs": [
-     "Latozinemab"
-    ]
-   },
-   {
     "nct": "NCT04374136",
     "drugs": [
      "Part 1 Blinded - AL001",
      "Part 2 (OLE Treatment) - AL001"
+    ]
+   },
+   {
+    "nct": "NCT06111014",
+    "drugs": [
+     "Latozinemab"
     ]
    }
   ]

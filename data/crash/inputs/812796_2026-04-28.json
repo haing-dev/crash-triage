@@ -4,12 +4,12 @@
  "cik": "812796",
  "name": "SOLIGENIX, INC.",
  "date": "2026-04-28",
- "asof": "2026-04-29",
+ "asof": "2026-04-28",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2026-04-29",
-  "adj_close": 0.34
+  "date": "2026-04-28",
+  "adj_close": 0.41999999
  },
  "balance": {
   "end": "2025-12-31",
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "\u25cfOur losses from operations, negative cash flows, and shareholders\u2019 deficit as of December 31, 2025 raise substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "equity_line": "We also 23 Table of Contents entered into a common stock purchase agreement with SciClone pursuant to which we sold 1,471 shares of our common stock to SciClone for approximately $2,040 per share, for an aggregate price of approximately $3 million."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 4590609,
+  "as_of": "2025-06-30",
+  "filed": "2026-03-31"
  },
  "insiders": {
   "form4s": 0,

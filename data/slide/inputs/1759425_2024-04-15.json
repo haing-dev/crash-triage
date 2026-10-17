@@ -6,7 +6,7 @@
  "date": "2024-04-15",
  "asof": "2024-04-15",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-04-15",
   "adj_close": 23.91
@@ -32,6 +32,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "134 Concurrently with the RIPA, the Company entered into a Common Stock Purchase Agreement (\u201cCSPA\u201d) with certain affiliates of Oberland, pursuant to which the Company sold an aggregate of 509,164 shares of its common stock for an aggregate purchase price of $10.0 million."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 830100000,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-15"
  },
  "insiders": {
   "form4s": 19,
@@ -138,6 +150,18 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
+    "nct": "NCT05050136",
+    "drugs": [
+     "Volixibat"
+    ]
+   },
+   {
+    "nct": "NCT04185363",
+    "drugs": [
+     "Maralixibat"
+    ]
+   },
+   {
     "nct": "NCT04729751",
     "drugs": [
      "Maralixibat"
@@ -150,21 +174,9 @@
     ]
    },
    {
-    "nct": "NCT05050136",
-    "drugs": [
-     "Volixibat"
-    ]
-   },
-   {
     "nct": "NCT04663308",
     "drugs": [
      "Volixibat"
-    ]
-   },
-   {
-    "nct": "NCT04185363",
-    "drugs": [
-     "Maralixibat"
     ]
    }
   ]

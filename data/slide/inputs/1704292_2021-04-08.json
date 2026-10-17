@@ -6,7 +6,7 @@
  "date": "2021-04-08",
  "asof": "2021-04-08",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-04-08",
   "adj_close": 132.88
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 6200000000,
+  "as_of": "2020-06-30",
+  "filed": "2021-03-01"
  },
  "insiders": {
   "form4s": 18,
@@ -419,18 +429,10 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT04633122",
+    "nct": "NCT04212221",
     "drugs": [
-     "Ripretinib",
-     "Sunitinib"
-    ]
-   },
-   {
-    "nct": "NCT04262804",
-    "drugs": [
-     "Margetuximab",
-     "Trastuzumab",
-     "Chosen Chemotherapy (Capecitabine)"
+     "MGD013 monotherapy",
+     "MGD013 in combination with Brivanib Alaninate"
     ]
    },
    {
@@ -446,10 +448,18 @@
     ]
    },
    {
-    "nct": "NCT04212221",
+    "nct": "NCT04633122",
     "drugs": [
-     "MGD013 monotherapy",
-     "MGD013 in combination with Brivanib Alaninate"
+     "Ripretinib",
+     "Sunitinib"
+    ]
+   },
+   {
+    "nct": "NCT04262804",
+    "drugs": [
+     "Margetuximab",
+     "Trastuzumab",
+     "Chosen Chemotherapy (Capecitabine)"
     ]
    }
   ]

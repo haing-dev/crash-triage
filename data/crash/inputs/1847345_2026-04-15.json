@@ -4,12 +4,12 @@
  "cik": "1847345",
  "name": "Aspire-Lakewood Holdings, Inc.",
  "date": "2026-04-15",
- "asof": "2026-04-16",
+ "asof": "2026-04-15",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2026-04-16",
-  "adj_close": 9.0
+  "date": "2026-04-15",
+  "adj_close": 16.35
  },
  "balance": {
   "end": "2025-12-31",
@@ -33,6 +33,19 @@
  "going_concern": {
   "flag": true,
   "quote": "As a result of the above, in connection with the Company\u2019s assessment of going concern considerations in accordance with Financial Accounting Standard Board (\u201cFASB\u201d) Accounting Standards Codification (\u201cASC\u201d) Subtopic 205-40, \u201cGoing Concern,\u201d management has determined that the Company\u2019s liquidity con"
+ },
+ "financing_terms": {
+  "floating_convertible": "The conversion price per share of each Debenture is equal to 92.5% of the lowest daily VWAP (as defined in the Debentures) of the Company\u2019s shares of common stock during the five trading day period ending on the trading day immediately prior to delivery or deemed delivery of the applicable Conversion Notice (as defined in the Debentures), subject to adjustments related to the trading price of the ",
+  "equity_line": "Equity line of credit Agreement On February 13, 2025, the Company entered into a Purchase Agreement (\u201cELOC Agreement\u201d) with Arena Business Solutions Global SPC II, Ltd."
+ },
+ "debt": {
+  "usd": 1290476.0,
+  "tags": "ConvertibleDebtCurrent"
+ },
+ "public_float": {
+  "usd": 17400000,
+  "as_of": "2025-12-31",
+  "filed": "2026-04-08"
  },
  "insiders": {
   "form4s": 0,

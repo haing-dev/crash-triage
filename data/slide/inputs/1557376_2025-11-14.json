@@ -6,7 +6,7 @@
  "date": "2025-11-14",
  "asof": "2025-11-14",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-11-14",
   "adj_close": 1.62
@@ -32,6 +32,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "floating_convertible": "The Convertible Promissory Notes may be prepaid by the Company, in whole, but not in part, at any time prior to the Maturity Date, subject to payment of a premium of 10%, provided that the Company gives the holders fifteen (15) business notice prior to prepayment, during which period, Investors may elect to convert the Notes and accrued but unpaid interest thereon into Shares at a conversion price"
+ },
+ "debt": {
+  "usd": 698000.0,
+  "tags": "LongTermDebtCurrent"
+ },
+ "public_float": {
+  "usd": 4723000,
+  "as_of": "2024-04-30",
+  "filed": "2025-01-29"
  },
  "insiders": {
   "form4s": 0,

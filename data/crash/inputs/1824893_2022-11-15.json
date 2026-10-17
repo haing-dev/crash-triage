@@ -6,7 +6,7 @@
  "date": "2022-11-15",
  "asof": "2022-11-18",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-11-18",
   "adj_close": 13.35
@@ -33,6 +33,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "Condensed Consolidated Statements of Stockholders\u2019 Equity (Unaudited) (In thousands) Additional Accumulated other Total Common stock paid-in comprehensive Accumulated stockholders\u2019 Shares Amount capital loss deficit equity Balance at December 31, 2021 35,034 $ 4 $ 252,464 $ (119 ) $ (142,649 ) $ 109,700 Issuance of common stock under Equity Purchase Agreement 100 \u2014 273 \u2014 \u2014 273 Repurchase of early "
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 81400000,
+  "as_of": "2021-06-30",
+  "filed": "2022-03-28"
  },
  "insiders": {
   "form4s": 5,
@@ -69,7 +81,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "surrozen",
   "other_trials": 0,

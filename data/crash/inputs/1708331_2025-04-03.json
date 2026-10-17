@@ -6,7 +6,7 @@
  "date": "2025-04-03",
  "asof": "2025-04-03",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-04-03",
   "adj_close": 0.6695
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "\u25cf The report of our independent registered public accounting firm for the fiscal years ended December 31, 2024 and 2023 contains an explanatory paragraph regarding substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 1466500,
+  "as_of": "2024-06-30",
+  "filed": "2025-03-03"
  },
  "insiders": {
   "form4s": 0,

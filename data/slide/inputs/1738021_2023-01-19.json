@@ -6,7 +6,7 @@
  "date": "2023-01-19",
  "asof": "2023-01-19",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-01-19",
   "adj_close": 3.75
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 180000000,
+  "as_of": "2021-06-30",
+  "filed": "2022-03-18"
  },
  "insiders": {
   "form4s": 14,
@@ -118,16 +128,16 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT05513742",
-    "drugs": [
-     "CTX-009"
-    ]
-   },
-   {
     "nct": "NCT05506943",
     "drugs": [
      "CTX-009",
      "Paclitaxel"
+    ]
+   },
+   {
+    "nct": "NCT05513742",
+    "drugs": [
+     "CTX-009"
     ]
    }
   ]

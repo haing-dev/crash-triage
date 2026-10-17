@@ -4,12 +4,12 @@
  "cik": "1633070",
  "name": "Axcella Health Inc.",
  "date": "2023-09-15",
- "asof": "2023-09-20",
+ "asof": "2023-09-19",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2023-09-20",
-  "adj_close": 10.36
+  "date": "2023-09-19",
+  "adj_close": 12.15
  },
  "balance": {
   "end": "2023-06-30",
@@ -34,13 +34,23 @@
   "flag": true,
   "quote": "As of August 3, 2023, the issuance date of the condensed consolidated financial statements for the quarter ended June 30, 2023, the Company has concluded that there is substantial doubt about its ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 67802542,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-30"
+ },
  "insiders": {
   "form4s": 0,
   "from": "2023-06-17",
   "to": "2023-10-15",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "axcella health",
   "other_trials": 1,

@@ -4,12 +4,12 @@
  "cik": "1069530",
  "name": "FILANA THERAPEUTICS, INC.",
  "date": "2021-08-25",
- "asof": "2021-08-30",
+ "asof": "2021-08-27",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2021-08-30",
-  "adj_close": 53.26
+  "date": "2021-08-27",
+  "adj_close": 58.34
  },
  "balance": {
   "end": "2021-06-30",
@@ -32,6 +32,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 71146906,
+  "as_of": "2020-06-30",
+  "filed": "2021-03-23"
  },
  "insiders": {
   "form4s": 3,

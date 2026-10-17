@@ -6,7 +6,7 @@
  "date": "2024-05-23",
  "asof": "2024-05-23",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-05-23",
   "adj_close": 14.98
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "These risks include, but are not limited to, the following: \u25cfOur recurring losses from operations raise substantial doubt regarding our ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "equity_line": "10.2\u2020* \u200b Common Stock Purchase Agreement, dated March 27, 2024, between the Registrant and Gilead Sciences, Inc."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 67700000,
+  "as_of": "2023-06-30",
+  "filed": "2024-04-01"
  },
  "insiders": {
   "form4s": 13,

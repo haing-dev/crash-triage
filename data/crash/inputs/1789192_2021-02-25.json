@@ -6,7 +6,7 @@
  "date": "2021-02-25",
  "asof": "2021-02-25",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-02-25",
   "adj_close": 6860.0
@@ -34,13 +34,19 @@
   "flag": true,
   "quote": "As a result, our independent registered public accounting firm has expressed substantial doubt about our ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 106500.0,
+  "tags": "ConvertibleDebtCurrent+ConvertibleDebtNoncurrent"
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 0,
   "from": "2020-11-27",
   "to": "2021-03-27",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "nexentis technologies",
   "other_trials": 0,

@@ -4,12 +4,12 @@
  "cik": "748592",
  "name": "Ernexa Therapeutics Inc.",
  "date": "2026-02-06",
- "asof": "2026-02-09",
+ "asof": "2026-02-06",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2026-02-09",
-  "adj_close": 7.75
+  "date": "2026-02-06",
+  "adj_close": 9.5
  },
  "balance": {
   "end": "2025-09-30",
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "In connection with preparing the accompanying condensed consolidated financial statements as of and for the three and nine months ended September 30, 2025, the Company\u2019s management concluded that there is substantial doubt regarding the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 8900000,
+  "as_of": "2024-06-30",
+  "filed": "2025-03-12"
  },
  "insiders": {
   "form4s": 1,

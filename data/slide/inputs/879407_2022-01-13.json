@@ -6,7 +6,7 @@
  "date": "2022-01-13",
  "asof": "2022-01-13",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-01-13",
   "adj_close": 57.58
@@ -34,6 +34,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "Cardiovascular Collaboration and License Agreements with Amgen On September 28, 2016, the Company entered into two Collaboration and License agreements and a Common Stock Purchase Agreement with Amgen."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 5900000000,
+  "as_of": "2021-03-31",
+  "filed": "2021-11-22"
  },
  "insiders": {
   "form4s": 24,
@@ -363,15 +375,9 @@
     ]
    },
    {
-    "nct": "NCT04720534",
+    "nct": "NCT03946449",
     "drugs": [
-     "ARO-APOC3"
-    ]
-   },
-   {
-    "nct": "NCT05089084",
-    "drugs": [
-     "Plozasiran"
+     "ARO-AAT"
     ]
    },
    {
@@ -381,9 +387,15 @@
     ]
    },
    {
-    "nct": "NCT03946449",
+    "nct": "NCT05089084",
     "drugs": [
-     "ARO-AAT"
+     "Plozasiran"
+    ]
+   },
+   {
+    "nct": "NCT04720534",
+    "drugs": [
+     "ARO-APOC3"
     ]
    }
   ]

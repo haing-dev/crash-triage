@@ -6,7 +6,7 @@
  "date": "2022-08-12",
  "asof": "2022-08-12",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-08-12",
   "adj_close": 180.0
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "However, the Company\u2019s current working capital, anticipated operating expenses and net operating losses raise substantial doubt about its ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "price_reset_warrants": "As part of the July 2021 Waiver Agreement, the Investor agreed to waive the reset provisions of the Senior Secured Promissory Note Warrants and the May 2021 Warrants such that the number of shares and exercise price in effect immediately prior to the effective date of the Waiver Agreement shall no longer be subject to price-based resets."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 39200000,
+  "as_of": "2021-06-30",
+  "filed": "2022-03-17"
  },
  "insiders": {
   "form4s": 4,
@@ -69,24 +81,11 @@
    }
   ]
  },
- "drug": null,
+ "drug": "LB1148",
  "trials": {
   "query": "palisade bio",
-  "other_trials": 2,
-  "crashed_drug_trials": 0,
-  "examples": [
-   {
-    "nct": "NCT05470387",
-    "drugs": [
-     "LB1148"
-    ]
-   },
-   {
-    "nct": "NCT02836470",
-    "drugs": [
-     "LB1148"
-    ]
-   }
-  ]
+  "other_trials": 0,
+  "crashed_drug_trials": 2,
+  "examples": []
  }
 }

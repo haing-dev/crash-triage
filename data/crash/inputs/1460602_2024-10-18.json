@@ -4,12 +4,12 @@
  "cik": "1460602",
  "name": "Orgenesis Inc.",
  "date": "2024-10-18",
- "asof": "2024-10-23",
+ "asof": "2024-10-21",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2024-10-23",
-  "adj_close": 1.15
+  "date": "2024-10-21",
+  "adj_close": 1.53
  },
  "balance": {
   "end": "2024-06-30",
@@ -34,13 +34,23 @@
   "flag": true,
   "quote": "For the six months ended June 30, 2024 and as of the date of this report, the Company has assessed its financial condition and concluded that based on current and projected cash resources and commitments, as well as other factors mentioned above, there is substantial doubt about its ability to conti"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 7227000.0,
+  "tags": "ConvertibleNotesPayableCurrent+ConvertibleDebtNoncurrent"
+ },
+ "public_float": {
+  "usd": 35033921,
+  "as_of": "2023-06-30",
+  "filed": "2024-04-15"
+ },
  "insiders": {
   "form4s": 2,
   "from": "2024-07-20",
   "to": "2024-11-17",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "orgenesis",
   "other_trials": 0,

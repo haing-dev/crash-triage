@@ -6,7 +6,7 @@
  "date": "2021-02-23",
  "asof": "2021-02-26",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-02-26",
   "adj_close": 85.8645
@@ -34,13 +34,23 @@
   "flag": true,
   "quote": "As a result, management has concluded that there is substantial doubt about the Company\u2019s ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 20800000,
+  "as_of": "2019-06-28",
+  "filed": "2020-03-30"
+ },
  "insiders": {
   "form4s": 1,
   "from": "2020-11-25",
   "to": "2021-03-25",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "guardion health sciences",
   "other_trials": 0,

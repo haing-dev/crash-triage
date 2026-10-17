@@ -6,7 +6,7 @@
  "date": "2025-04-01",
  "asof": "2025-04-01",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-04-01",
   "adj_close": 5.34
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "These factors raise substantial doubt regarding our ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "floating_convertible": "The Legacy Serina Convertible Notes provided that upon a Qualified Equity Financing event in which Serina sells shares of Preferred Stock for aggregate proceeds of at least $15.0 million, the principal and outstanding interest on the Legacy Serina Convertible Notes would automatically convert into shares of Legacy Serina\u2019s Preferred Stock issued in the Qualified Financing at a conversion price of "
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 38400000,
+  "as_of": "2024-06-30",
+  "filed": "2025-03-24"
  },
  "insiders": {
   "form4s": 6,

@@ -6,7 +6,7 @@
  "date": "2024-03-11",
  "asof": "2024-03-11",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-03-11",
   "adj_close": 63.44
@@ -33,6 +33,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "S-1/A 4/10/2015 10.30 10.15#\u2020 Common Stock Purchase Agreement, dated February 20, 2014, by and between Viking Therapeutics, Inc."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 93700028,
+  "as_of": "2023-06-30",
+  "filed": "2024-02-07"
  },
  "insiders": {
   "form4s": 20,

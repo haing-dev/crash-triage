@@ -6,7 +6,7 @@
  "date": "2024-06-17",
  "asof": "2024-06-17",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-06-17",
   "adj_close": 7.99
@@ -34,6 +34,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 80218629000,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-14"
  },
  "insiders": {
   "form4s": 6,

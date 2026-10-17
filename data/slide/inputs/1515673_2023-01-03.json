@@ -6,7 +6,7 @@
  "date": "2023-01-03",
  "asof": "2023-01-03",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-01-03",
   "adj_close": 45.52
@@ -34,6 +34,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "For instance, in June 2019, we purchased 2,400,000 shares of common stock of Arcturus and in May 2020, we exercised our option to purchase an additional 600,000 shares of Arcturus\u2019 common stock pursuant to the terms of our equity purchase agreement with Arcturus; we have subsequently sold an aggregate of 2,500,000 shares."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 6500000000,
+  "as_of": "2021-06-30",
+  "filed": "2022-02-15"
  },
  "insiders": {
   "form4s": 4,
@@ -84,31 +96,31 @@
     ]
    },
    {
+    "nct": "NCT04884815",
+    "drugs": [
+     "UX701",
+     "Standard of Care (SOC)"
+    ]
+   },
+   {
+    "nct": "NCT04360265",
+    "drugs": [
+     "No Investigational Product",
+     "Adjuvant Immunomodulatory (IM) Therapy"
+    ]
+   },
+   {
+    "nct": "NCT02716246",
+    "drugs": [
+     "UX111",
+     "Prophylactic Immunomodulatory (IM) Therapy",
+     "Optimized Prophylactic IM Therapy"
+    ]
+   },
+   {
     "nct": "NCT05125809",
     "drugs": [
      "Setrusumab"
-    ]
-   },
-   {
-    "nct": "NCT05345171",
-    "drugs": [
-     "DTX301",
-     "Oral Corticosteroids",
-     "Sodium Acetate"
-    ]
-   },
-   {
-    "nct": "NCT04259281",
-    "drugs": [
-     "GTX-102"
-    ]
-   },
-   {
-    "nct": "NCT04990388",
-    "drugs": [
-     "UX053",
-     "Antipyretic",
-     "H2 Blocker"
     ]
    }
   ]

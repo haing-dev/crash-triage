@@ -6,7 +6,7 @@
  "date": "2024-06-05",
  "asof": "2024-06-05",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-06-05",
   "adj_close": 19.0
@@ -29,6 +29,18 @@
  "shares": null,
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "entered into a common stock purchase agreement with G42 Investments AI Holding RSC Ltd (\u201cG42 Investments\u201d) (the \u201cG42 Purchase Agreement\u201d), the common stock and warrant purchase agreement with CinPax, LLC and CinRx, LLC, respectively (the \u201cCinRx Purchase Agreement\u201d)."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 22902852,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-13"
  },
  "insiders": {
   "form4s": 10,

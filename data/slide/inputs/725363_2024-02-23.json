@@ -6,7 +6,7 @@
  "date": "2024-02-23",
  "asof": "2024-02-23",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-02-23",
   "adj_close": 63.9
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "Due to recurring losses from operations and future liquidity needs, there is substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 97639295,
+  "as_of": "2022-03-31",
+  "filed": "2023-12-21"
  },
  "insiders": {
   "form4s": 3,

@@ -6,7 +6,7 @@
  "date": "2025-12-31",
  "asof": "2026-01-05",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-01-05",
   "adj_close": 0.0001
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "The Company expects its negative cash flows from operating activities to exceed its currently available liquidity and thus has determined that its losses and negative cash flows from operations and uncertainty in obtaining additional liquidity sufficient to meet its obligations and sustain its opera"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 5800000,
+  "as_of": "2023-06-30",
+  "filed": "2024-04-16"
  },
  "insiders": {
   "form4s": 0,

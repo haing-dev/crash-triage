@@ -6,7 +6,7 @@
  "date": "2022-05-09",
  "asof": "2022-05-10",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-05-10",
   "adj_close": 4.6
@@ -34,13 +34,23 @@
   "flag": true,
   "quote": "\u2022 Our level of indebtedness and the terms of the Financing Agreement, as amended (the \u201cFinancing Agreement\u201d), dated as of April 24, 2019, as amended, with Sixth Street Specialty Lending, Inc., as administrative agent, or the Administrative Agent or Sixth Street, various lenders from time to time par"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 188269000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 444995626,
+  "as_of": "2021-06-30",
+  "filed": "2022-04-29"
+ },
  "insiders": {
   "form4s": 10,
   "from": "2022-02-08",
   "to": "2022-06-08",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "therapeuticsmd",
   "other_trials": 0,

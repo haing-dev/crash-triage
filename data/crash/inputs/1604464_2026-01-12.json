@@ -4,12 +4,12 @@
  "cik": "1604464",
  "name": "Atara Biotherapeutics, Inc.",
  "date": "2026-01-12",
- "asof": "2026-01-13",
+ "asof": "2026-01-12",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2026-01-13",
-  "adj_close": 4.37
+  "date": "2026-01-12",
+  "adj_close": 5.88
  },
  "balance": {
   "end": "2025-09-30",
@@ -34,6 +34,16 @@
  "going_concern": {
   "flag": true,
   "quote": "These conditions raise substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 41039683,
+  "as_of": "2024-06-30",
+  "filed": "2025-03-07"
  },
  "insiders": {
   "form4s": 4,

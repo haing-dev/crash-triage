@@ -6,7 +6,7 @@
  "date": "2023-08-22",
  "asof": "2023-08-23",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-08-23",
   "adj_close": 1224.0
@@ -34,13 +34,23 @@
   "flag": true,
   "quote": "The aforementioned factors raise substantial doubt about the Company\u2019s ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 13000000,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-31"
+ },
  "insiders": {
   "form4s": 3,
   "from": "2023-05-24",
   "to": "2023-09-21",
   "trades": []
  },
- "drug": null,
+ "drug": "ClearUP",
  "trials": {
   "query": "valion bio",
   "other_trials": 0,

@@ -4,12 +4,12 @@
  "cik": "946644",
  "name": "AIM ImmunoTech Inc.",
  "date": "2025-04-08",
- "asof": "2025-04-09",
+ "asof": "2025-04-08",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2025-04-09",
-  "adj_close": 2.9098
+  "date": "2025-04-08",
+  "adj_close": 3.87973
  },
  "balance": {
   "end": "2024-12-31",
@@ -34,6 +34,18 @@
  "going_concern": {
   "flag": true,
   "quote": "These conditions raise substantial doubt regarding the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "equity_line": "Atlas Equity Line of Credit On March 28, 2024, we entered into a purchase agreement (the \u201cPurchase Agreement\u201d) and a registration rights agreement (the \u201cRegistration Rights Agreement\u201d) with Atlas Sciences, LLC, a Utah limited liability company (\u201cAtlas\u201d), pursuant to which Atlas has committed to purchase up to $15 million of our Common Stock."
+ },
+ "debt": {
+  "usd": 2807000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 20793354,
+  "as_of": "2024-06-30",
+  "filed": "2025-03-27"
  },
  "insiders": {
   "form4s": 21,

@@ -6,7 +6,7 @@
  "date": "2021-08-06",
  "asof": "2021-08-06",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-08-06",
   "adj_close": 2.55
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 246663071,
+  "as_of": "2020-06-30",
+  "filed": "2021-03-31"
  },
  "insiders": {
   "form4s": 10,
@@ -133,9 +143,11 @@
     ]
    },
    {
-    "nct": "NCT03318939",
+    "nct": "NCT00055887",
     "drugs": [
-     "Poziotinib"
+     "carboplatin",
+     "cisplatin",
+     "efaproxiral"
     ]
    },
    {
@@ -145,18 +157,17 @@
     ]
    },
    {
-    "nct": "NCT00055887",
-    "drugs": [
-     "carboplatin",
-     "cisplatin",
-     "efaproxiral"
-    ]
-   },
-   {
     "nct": "NCT04172597",
     "drugs": [
      "Poziotinib Hydrochloride",
      "Loperamide"
+    ]
+   },
+   {
+    "nct": "NCT04570423",
+    "drugs": [
+     "Eflapegrastim",
+     "Chemotherapy"
     ]
    }
   ]

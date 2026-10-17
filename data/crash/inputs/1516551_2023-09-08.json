@@ -6,7 +6,7 @@
  "date": "2023-09-08",
  "asof": "2023-09-14",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-09-14",
   "adj_close": 15.864
@@ -34,6 +34,16 @@
   "flag": true,
   "quote": "These conditions, including the uncertainty of our ability to successfully resolve our litigation with Cunning (as described below), give rise to substantial doubt as to the Company\u2019s ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 90615.0,
+  "tags": "LoansPayableCurrent"
+ },
+ "public_float": {
+  "usd": 17357379,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-31"
+ },
  "insiders": {
   "form4s": 9,
   "from": "2023-06-10",
@@ -48,7 +58,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "skye bioscience",
   "other_trials": 0,

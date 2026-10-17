@@ -6,7 +6,7 @@
  "date": "2026-01-21",
  "asof": "2026-01-21",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-01-21",
   "adj_close": 8.358
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "These risks include, but are not limited to, the following: \u2022 Our recurring losses from operations raise substantial doubt regarding our ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "price_reset_warrants": "Each Series B warrant is exercisable beginning on November 1, 2025, with an exercise price of $0.75 per share of common stock, and will expire on December 2, 2025, provided that if the closing sale price of the Company\u2019s common stock is below the exercise price on such date, the exercise price will reset to the closing sale price on December 1, 2025 and the expiration time will be extended to Dece"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 41500000,
+  "as_of": "2024-06-28",
+  "filed": "2025-03-11"
  },
  "insiders": {
   "form4s": 10,

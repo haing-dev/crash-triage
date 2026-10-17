@@ -6,7 +6,7 @@
  "date": "2024-04-23",
  "asof": "2024-04-23",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-04-23",
   "adj_close": 8.74
@@ -34,6 +34,16 @@
  "going_concern": {
   "flag": true,
   "quote": "The inclusion of disclosures expressing substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 201799000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 486948825,
+  "as_of": "2023-06-30",
+  "filed": "2024-02-27"
  },
  "insiders": {
   "form4s": 17,

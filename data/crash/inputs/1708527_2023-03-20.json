@@ -4,12 +4,12 @@
  "cik": "1708527",
  "name": "ELUTIA INC.",
  "date": "2023-03-20",
- "asof": "2023-03-22",
+ "asof": "2023-03-20",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2023-03-22",
-  "adj_close": 1.19
+  "date": "2023-03-20",
+  "adj_close": 1.45
  },
  "balance": {
   "end": "2022-09-30",
@@ -30,6 +30,16 @@
  "going_concern": {
   "flag": true,
   "quote": "Due to these factors, there is substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 20000000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 28649130,
+  "as_of": "2021-06-30",
+  "filed": "2022-03-08"
  },
  "insiders": {
   "form4s": 6,
@@ -122,7 +132,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "CanGaroo RM Antibacterial Envelope",
  "trials": {
   "query": "elutia",
   "other_trials": 0,

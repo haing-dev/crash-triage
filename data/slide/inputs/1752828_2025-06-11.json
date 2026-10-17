@@ -6,7 +6,7 @@
  "date": "2025-06-11",
  "asof": "2025-06-11",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-06-11",
   "adj_close": 1.8
@@ -33,6 +33,19 @@
  "going_concern": {
   "flag": true,
   "quote": "Accordingly, there is substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "price_reset_warrants": "The exercise price, and the number of shares of Class A common stock issuable under the November Warrants, are subject to a one-time reset upon the completion of a subsequent financing transaction with gross proceeds of $2.5 million or more, subject to a floor price of $1.00 per share.",
+  "equity_line": "The transactions were entered into at various times throughout 2024 and consisted of convertible notes, standby equity purchase agreements, private placements, existing loan modifications and warrant agreements."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 38500000,
+  "as_of": "2024-06-30",
+  "filed": "2025-05-21"
  },
  "insiders": {
   "form4s": 4,

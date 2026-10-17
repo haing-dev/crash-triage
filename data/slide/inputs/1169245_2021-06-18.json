@@ -6,7 +6,7 @@
  "date": "2021-06-18",
  "asof": "2021-06-18",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-06-18",
   "adj_close": 3.75
@@ -34,6 +34,16 @@
   "flag": true,
   "quote": "The auditor's opinion on the audited financial statements included in our Annual Report on Form 10-K for the year ended December 31, 2020 contained an explanatory paragraph related to our substantial doubt about our ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 10795000.0,
+  "tags": "LongTermDebtNoncurrent+LongTermDebtCurrent"
+ },
+ "public_float": {
+  "usd": 120500000,
+  "as_of": "2020-06-30",
+  "filed": "2021-03-15"
+ },
  "insiders": {
   "form4s": 14,
   "from": "2021-03-20",
@@ -55,15 +65,15 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT03556020",
-    "drugs": [
-     "Pemziviptadil (PB1046)"
-    ]
-   },
-   {
     "nct": "NCT03795428",
     "drugs": [
      "Pemziviptadil (PB1046) Injection"
+    ]
+   },
+   {
+    "nct": "NCT03556020",
+    "drugs": [
+     "Pemziviptadil (PB1046)"
     ]
    }
   ]

@@ -6,7 +6,7 @@
  "date": "2025-10-23",
  "asof": "2025-10-23",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-10-23",
   "adj_close": 0.4875
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "The above matters raise substantial doubt regarding our ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "floating_convertible": "The Convertible Notes will convert into the same equity securities offered in the Qualified Financing or Smaller Financing (\u201cConversion Shares\u201d), as described below, at a conversion price equal to the lower of (i) the product equal to 80% times the lowest per unit purchase price of the equity securities issued for cash in the Qualified Financing or Smaller Financing, or (ii) $2.377 for the May Con"
+ },
+ "debt": {
+  "usd": 200000.0,
+  "tags": "LoansPayableCurrent"
+ },
+ "public_float": {
+  "usd": 466000,
+  "as_of": "2024-06-28",
+  "filed": "2025-04-15"
  },
  "insiders": {
   "form4s": 0,

@@ -6,7 +6,7 @@
  "date": "2025-01-15",
  "asof": "2025-01-15",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-01-15",
   "adj_close": 10.42
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 45572000.0,
+  "tags": "LongTermDebtNoncurrent"
+ },
+ "public_float": {
+  "usd": 605600000,
+  "as_of": "2023-09-30",
+  "filed": "2024-05-16"
  },
  "insiders": {
   "form4s": 3,
@@ -75,19 +85,19 @@
     ]
    },
    {
-    "nct": "NCT06581406",
-    "drugs": [
-     "RP2",
-     "Ipilimumab",
-     "Nivolumab"
-    ]
-   },
-   {
     "nct": "NCT06264180",
     "drugs": [
      "Vusolimogene Oderparepvec",
      "Nivolumab",
      "Nivolumab + Relatlimab"
+    ]
+   },
+   {
+    "nct": "NCT06581406",
+    "drugs": [
+     "RP2",
+     "Ipilimumab",
+     "Nivolumab"
     ]
    },
    {
@@ -99,10 +109,11 @@
     ]
    },
    {
-    "nct": "NCT03767348",
+    "nct": "NCT05743270",
     "drugs": [
-     "RP1",
-     "nivolumab"
+     "RP3",
+     "CCRT(concurrent chemoradiation therapy)",
+     "carboplatin and paclitaxel"
     ]
    }
   ]

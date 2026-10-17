@@ -6,7 +6,7 @@
  "date": "2025-12-23",
  "asof": "2025-12-26",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-12-26",
   "adj_close": 0.52
@@ -32,6 +32,19 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "floating_convertible": "After the July 2025 Notes conversion waiting period of 4 months, the July 2025 Notes permit holders to convert outstanding principal and accrued interest into shares of common stock at a conversion price that is the lower of 80% of the trailing ten-day volume weighted average price (\"VWAP\") or a 20 ProPhase Labs, Inc.",
+  "equity_line": "and Subsidiaries Notes to Condensed Consolidated Financial Statements (unaudited) Equity Line of Credit - Keystone Capital Partners, LLC On January 29, 2025, the Company entered into an Equity Line of Credit (\"Keystone ELOC\") with a purchaser, Keystone Capital Partners, LLC (\u201cKeystone\u201d) whereby the Company has the right to sell up to an aggregate of $7.7 million of shares of the Company\u2019s common s"
+ },
+ "debt": {
+  "usd": 517000.0,
+  "tags": "ConvertibleDebtCurrent"
+ },
+ "public_float": {
+  "usd": 67230869,
+  "as_of": "2024-06-30",
+  "filed": "2025-04-30"
  },
  "insiders": {
   "form4s": 0,

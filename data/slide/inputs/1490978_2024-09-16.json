@@ -6,7 +6,7 @@
  "date": "2024-09-16",
  "asof": "2024-09-16",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-09-16",
   "adj_close": 19.86
@@ -30,6 +30,16 @@
  "shares": null,
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 1758532189,
+  "as_of": "2023-06-30",
+  "filed": "2024-02-28"
  },
  "insiders": {
   "form4s": 9,

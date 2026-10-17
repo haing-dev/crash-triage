@@ -6,7 +6,7 @@
  "date": "2022-08-19",
  "asof": "2022-08-19",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-08-19",
   "adj_close": 13.86
@@ -34,6 +34,16 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 960000000,
+  "as_of": "2021-06-30",
+  "filed": "2022-02-28"
+ },
  "insiders": {
   "form4s": 9,
   "from": "2022-05-21",
@@ -47,6 +57,14 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
+    "nct": "NCT05002127",
+    "drugs": [
+     "Evorpacept (ALX148)",
+     "Trastuzumab",
+     "Ramucirumab"
+    ]
+   },
+   {
     "nct": "NCT04675333",
     "drugs": [
      "evorpacept",
@@ -59,14 +77,6 @@
     "drugs": [
      "evorpacept",
      "pembrolizumab"
-    ]
-   },
-   {
-    "nct": "NCT05002127",
-    "drugs": [
-     "Evorpacept (ALX148)",
-     "Trastuzumab",
-     "Ramucirumab"
     ]
    }
   ]

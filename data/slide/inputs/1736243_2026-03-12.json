@@ -6,7 +6,7 @@
  "date": "2026-03-12",
  "asof": "2026-03-12",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-03-12",
   "adj_close": 5.01
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "Our independent registered public accounting firm has expressed substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "equity_line": "Equity Line of Credit Purchase Agreement On May 8, 2025, we entered into a purchase agreement (the \u201cPurchase Agreement\u201d) with Lincoln Park Capital Fund, LLC (\u201cLincoln Park\u201d), pursuant to which Lincoln Park committed to purchase up to $12.0 million in shares of our common stock."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 13700000,
+  "as_of": "2025-06-30",
+  "filed": "2026-03-12"
  },
  "insiders": {
   "form4s": 0,

@@ -6,7 +6,7 @@
  "date": "2023-05-10",
  "asof": "2023-05-10",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-05-10",
   "adj_close": 10.0
@@ -34,13 +34,26 @@
   "flag": true,
   "quote": "It is management\u2019s opinion that these conditions raise substantial doubt about the Company\u2019s ability to continue as a going concern"
  },
+ "financing_terms": {
+  "floating_convertible": "The conversion price of the Coventry note is ninety percent (90%) per share of the lowest per-share VWAP during the twenty (20) trading-day period before the conversion (each, a \u201cCalculated Conversion Price\u201d).",
+  "equity_line": "Common Stock: Shares issued for Common Stock Purchase Agreement Dutchess Capital Growth Fund LP On November 30, 2021, the Company entered into a Common Stock Purchase Agreement (the \u201cPurchase Agreement\u201d) with Dutchess Capital Growth Fund LP, a Delaware limited partnership (\u201cDutchess\u201d), providing for an equity financing facility (the \u201cEquity Line\u201d)."
+ },
+ "debt": {
+  "usd": 633740.0,
+  "tags": "ConvertibleDebtCurrent"
+ },
+ "public_float": {
+  "usd": 1519637,
+  "as_of": "2021-12-31",
+  "filed": "2022-09-28"
+ },
  "insiders": {
   "form4s": 0,
   "from": "2023-02-09",
   "to": "2023-06-09",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "propanc biopharma",
   "other_trials": 0,

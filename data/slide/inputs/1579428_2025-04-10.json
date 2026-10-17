@@ -6,7 +6,7 @@
  "date": "2025-04-10",
  "asof": "2025-04-10",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-04-10",
   "adj_close": 95.65
@@ -32,6 +32,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 180710000.0,
+  "tags": "LongTermDebtNoncurrent"
+ },
+ "public_float": {
+  "usd": 3200000000,
+  "as_of": "2024-06-30",
+  "filed": "2025-02-18"
  },
  "insiders": {
   "form4s": 9,
@@ -68,16 +78,16 @@
     ]
    },
    {
-    "nct": "NCT06878976",
-    "drugs": [
-     "Solriamfetol"
-    ]
-   },
-   {
     "nct": "NCT06568367",
     "drugs": [
      "Solriamfetol 150 mg",
      "Solriamfetol 300 mg"
+    ]
+   },
+   {
+    "nct": "NCT06878976",
+    "drugs": [
+     "Solriamfetol"
     ]
    }
   ]

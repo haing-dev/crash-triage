@@ -6,7 +6,7 @@
  "date": "2025-05-09",
  "asof": "2025-05-09",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-05-09",
   "adj_close": 1.75
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 1000000.0,
+  "tags": "NotesPayableCurrent"
+ },
+ "public_float": {
+  "usd": 2100000000,
+  "as_of": "2024-06-30",
+  "filed": "2025-02-27"
  },
  "insiders": {
   "form4s": 20,
@@ -69,6 +79,19 @@
   "crashed_drug_trials": 3,
   "examples": [
    {
+    "nct": "NCT03108495",
+    "drugs": [
+     "LN-145",
+     "LN-145 + pembrolizumab"
+    ]
+   },
+   {
+    "nct": "NCT05361174",
+    "drugs": [
+     "IOV-4001"
+    ]
+   },
+   {
     "nct": "NCT06940739",
     "drugs": [
      "IOV-3001"
@@ -79,19 +102,6 @@
     "drugs": [
      "LN-145",
      "LN-145"
-    ]
-   },
-   {
-    "nct": "NCT05361174",
-    "drugs": [
-     "IOV-4001"
-    ]
-   },
-   {
-    "nct": "NCT03108495",
-    "drugs": [
-     "LN-145",
-     "LN-145 + pembrolizumab"
     ]
    }
   ]

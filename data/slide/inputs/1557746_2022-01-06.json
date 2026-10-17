@@ -6,7 +6,7 @@
  "date": "2022-01-06",
  "asof": "2022-01-06",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-01-06",
   "adj_close": 13.15
@@ -34,6 +34,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "CONDENSED CONSOLIDATED STATEMENTS OF STOCKHOLDERS\u2019 EQUITY (Unaudited) \u200b (In thousands, except share data) \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b Accumulated \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b Common Stock \u200b Additional \u200b Other \u200b \u200b \u200b Total \u200b \u200b \u200b \u200b Par \u200b Paid\u2011in \u200b Comprehensive \u200b Accumulated \u200b Stockholders\u2019 \u200b Shares Value Capital Loss Deficit Equity Balance at December 31, 2020 \u200b 45,109,314 \u200b $ \u2014 \u200b"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 65500000,
+  "as_of": "2020-06-30",
+  "filed": "2021-02-25"
  },
  "insiders": {
   "form4s": 8,

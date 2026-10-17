@@ -6,7 +6,7 @@
  "date": "2021-05-20",
  "asof": "2021-05-21",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-05-21",
   "adj_close": 13.4
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 1010084331,
+  "as_of": "2020-06-30",
+  "filed": "2021-03-25"
  },
  "insiders": {
   "form4s": 18,
@@ -104,7 +114,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "BDTX-189",
  "trials": {
   "query": "black diamond therapeutics",
   "other_trials": 0,

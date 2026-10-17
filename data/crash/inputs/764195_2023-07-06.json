@@ -6,7 +6,7 @@
  "date": "2023-07-06",
  "asof": "2023-07-06",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-07-06",
   "adj_close": 1.18
@@ -34,6 +34,16 @@
   "flag": true,
   "quote": "The above conditions raise substantial doubt about the Company\u2019s ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 49359000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 154978074,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-13"
+ },
  "insiders": {
   "form4s": 14,
   "from": "2023-04-07",
@@ -48,7 +58,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "PreHevbrio",
  "trials": {
   "query": "vbi vaccines bc",
   "other_trials": 0,

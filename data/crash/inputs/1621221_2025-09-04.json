@@ -6,7 +6,7 @@
  "date": "2025-09-04",
  "asof": "2025-09-04",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-09-04",
   "adj_close": 13.05
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "These conditions raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "equity_line": "In May 2022, we entered into a purchase agreement and a registration rights agreement (the \u201cEquity Line\u201d) with an institutional investor, providing for the sale of up to $20.0 million worth of our Common Stock over the thirty-six (36) month term of the purchase agreement, which has now expired."
+ },
+ "debt": {
+  "usd": 791000.0,
+  "tags": "ConvertibleNotesPayable"
+ },
+ "public_float": {
+  "usd": 4289305,
+  "as_of": "2024-06-30",
+  "filed": "2025-03-03"
  },
  "insiders": {
   "form4s": 1,

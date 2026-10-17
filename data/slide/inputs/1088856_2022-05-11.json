@@ -6,7 +6,7 @@
  "date": "2022-05-11",
  "asof": "2022-05-11",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-05-11",
   "adj_close": 17.33
@@ -34,6 +34,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 2122097933,
+  "as_of": "2021-06-30",
+  "filed": "2022-02-15"
  },
  "insiders": {
   "form4s": 19,
@@ -84,10 +94,9 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT04524403",
+    "nct": "NCT03697109",
     "drugs": [
-     "Miricorlilant",
-     "Miricorlilant"
+     "Relacorilant"
     ]
    },
    {
@@ -97,21 +106,22 @@
     ]
    },
    {
-    "nct": "NCT03604198",
-    "drugs": [
-     "relacorilant"
-    ]
-   },
-   {
-    "nct": "NCT03697109",
-    "drugs": [
-     "Relacorilant"
-    ]
-   },
-   {
     "nct": "NCT03818256",
     "drugs": [
      "Miricorilant"
+    ]
+   },
+   {
+    "nct": "NCT04524403",
+    "drugs": [
+     "Miricorlilant",
+     "Miricorlilant"
+    ]
+   },
+   {
+    "nct": "NCT03604198",
+    "drugs": [
+     "relacorilant"
     ]
    }
   ]

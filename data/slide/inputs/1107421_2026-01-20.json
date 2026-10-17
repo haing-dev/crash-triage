@@ -6,7 +6,7 @@
  "date": "2026-01-20",
  "asof": "2026-01-20",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-01-20",
   "adj_close": 2.91
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "Based on the current cash forecast and the Company's dependence on its ability to obtain additional financing to fund its operations after the current resources are exhausted, about which there can be no certainty, management has determined that the Company's present capital resources will not be su"
+ },
+ "financing_terms": {
+  "equity_line": "CONDENSED STATEMENTS OF CASH FLOWS (unaudited) (in thousands) For the Nine Months Ended September 30, 2025 2024 Cash flows from operating activities: Net loss $ (3,283 ) $ (3,937 ) Adjustments to reconcile net loss to net cash used in operating activities: Depreciation \u2014 3 Change in fair value of warrant liability 31 \u2014 Common stock issued for services rendered 174 \u2014 Stock-based compensation 379 35"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 10801553,
+  "as_of": "2024-06-30",
+  "filed": "2025-04-30"
  },
  "insiders": {
   "form4s": 6,

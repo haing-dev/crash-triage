@@ -6,7 +6,7 @@
  "date": "2022-05-26",
  "asof": "2022-05-26",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-05-26",
   "adj_close": 5.77
@@ -32,6 +32,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 500000.0,
+  "tags": "NotesPayableCurrent"
+ },
+ "public_float": {
+  "usd": 187300000,
+  "as_of": "2021-06-30",
+  "filed": "2022-04-29"
  },
  "insiders": {
   "form4s": 3,
@@ -68,7 +78,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "nrx pharmaceuticals",
   "other_trials": 0,

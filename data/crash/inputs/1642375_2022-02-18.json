@@ -4,12 +4,12 @@
  "cik": "1642375",
  "name": "Guardion Health Sciences, Inc.",
  "date": "2022-02-18",
- "asof": "2022-02-23",
+ "asof": "2022-02-18",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2022-02-23",
-  "adj_close": 5.07554
+  "date": "2022-02-18",
+  "adj_close": 5.69368
  },
  "balance": {
   "end": "2021-09-30",
@@ -34,13 +34,25 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {
+  "equity_line": "The acquisition was made pursuant to an equity purchase agreement dated May 18, 2021 between the Company, Adare Pharmaceuticals, Inc., (\u201cAdare\u201d), and Activ."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 37500000,
+  "as_of": "2020-06-30",
+  "filed": "2021-03-26"
+ },
  "insiders": {
   "form4s": 2,
   "from": "2021-11-20",
   "to": "2022-03-20",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "guardion health sciences",
   "other_trials": 0,

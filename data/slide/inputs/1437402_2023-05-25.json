@@ -6,7 +6,7 @@
  "date": "2023-05-25",
  "asof": "2023-05-25",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-05-25",
   "adj_close": 3.29
@@ -34,6 +34,16 @@
  "going_concern": {
   "flag": true,
   "quote": "SUMMARY OF PRINCIPAL RISKS ASSOCIATED WITH OUR BUSINESS The principal risks and uncertainties affecting our business include the following: \u2022We have incurred significant losses since our inception and will incur losses in the future, which makes it difficult for us to assess our future viability; al"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 26880000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 89227062,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-02"
  },
  "insiders": {
   "form4s": 25,

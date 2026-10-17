@@ -6,7 +6,7 @@
  "date": "2024-05-23",
  "asof": "2024-05-23",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-05-23",
   "adj_close": 6.3
@@ -34,6 +34,16 @@
  "going_concern": {
   "flag": true,
   "quote": "The Company has concluded that there is substantial doubt about its ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 3180248,
+  "as_of": "2022-12-31",
+  "filed": "2023-12-21"
  },
  "insiders": {
   "form4s": 7,

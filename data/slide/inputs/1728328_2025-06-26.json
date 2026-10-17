@@ -6,7 +6,7 @@
  "date": "2025-06-26",
  "asof": "2025-06-26",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-06-26",
   "adj_close": 3.46
@@ -34,6 +34,18 @@
  "going_concern": {
   "flag": true,
   "quote": "The Company has concluded that there is substantial doubt about its ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "equity_line": "On December 13, 2024, the Company entered into a Standby Equity Purchase Agreement (the \u201cSEPA\u201d) with YA II PN, LTD (the \u201cInvestor\u201d) to sell up to $10 million in the aggregate of the Company\u2019s Common Shares at any time during the 36-month period following the effective date of the SEPA (the \u201cEffective Date\u201d)."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 2351381,
+  "as_of": "2023-12-31",
+  "filed": "2024-09-30"
  },
  "insiders": {
   "form4s": 0,

@@ -6,7 +6,7 @@
  "date": "2024-05-17",
  "asof": "2024-05-17",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-05-17",
   "adj_close": 12.13
@@ -34,6 +34,16 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 799700757,
+  "as_of": "2023-03-31",
+  "filed": "2023-11-22"
+ },
  "insiders": {
   "form4s": 8,
   "from": "2024-02-17",
@@ -47,6 +57,12 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
+    "nct": "NCT05568706",
+    "drugs": [
+     "EDP-938"
+    ]
+   },
+   {
     "nct": "NCT06170242",
     "drugs": [
      "EDP-323 Dose Regimen 1",
@@ -55,12 +71,6 @@
    },
    {
     "nct": "NCT04816721",
-    "drugs": [
-     "EDP-938"
-    ]
-   },
-   {
-    "nct": "NCT05568706",
     "drugs": [
      "EDP-938"
     ]

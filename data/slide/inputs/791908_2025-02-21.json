@@ -6,7 +6,7 @@
  "date": "2025-02-21",
  "asof": "2025-02-21",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-02-21",
   "adj_close": 23.52
@@ -32,6 +32,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "In addition, the Company entered into a common stock purchase agreement with Rezolute pursuant to which Rezolute agreed to issue to the Company, as consideration for receiving the license for RZ358, a certain number of its common stock in connection with any future equity financing activities."
+ },
+ "debt": {
+  "usd": 117915000.0,
+  "tags": "LongTermDebtNoncurrent+LongTermDebtCurrent"
+ },
+ "public_float": {
+  "usd": 123749750,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-08"
  },
  "insiders": {
   "form4s": 3,

@@ -4,12 +4,12 @@
  "cik": "1817944",
  "name": "Clarus Therapeutics Holdings, Inc.",
  "date": "2022-04-25",
- "asof": "2022-04-28",
+ "asof": "2022-04-25",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2022-04-28",
-  "adj_close": 0.74
+  "date": "2022-04-25",
+  "adj_close": 0.7889
  },
  "balance": {
   "end": "2021-12-31",
@@ -27,12 +27,24 @@
   "periods": 2
  },
  "shares": {
-  "end": "2022-04-25",
+  "end": "2022-03-24",
   "shares": 24750011
  },
  "going_concern": {
   "flag": true,
   "quote": "Risks Related to Business Operations and Commercialization We have incurred significant operating losses and there is substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "equity_line": "Unvested shares of restricted common stock may not be sold or transferred by the holder, except for transfers for estate planning purposes in which the transferee agrees to remain bound by all restrictions set forth in the original common stock purchase agreement."
+ },
+ "debt": {
+  "usd": 42269000.0,
+  "tags": "NotesPayableCurrent"
+ },
+ "public_float": {
+  "usd": 25600000,
+  "as_of": "2021-06-30",
+  "filed": "2022-03-31"
  },
  "insiders": {
   "form4s": 1,
@@ -40,7 +52,7 @@
   "to": "2022-05-25",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "clarus therapeutics",
   "other_trials": 0,

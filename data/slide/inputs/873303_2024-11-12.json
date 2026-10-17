@@ -6,7 +6,7 @@
  "date": "2024-11-12",
  "asof": "2024-11-12",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-11-12",
   "adj_close": 114.32
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 1227560000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 10681685915000,
+  "as_of": "2023-06-30",
+  "filed": "2024-02-28"
  },
  "insiders": {
   "form4s": 7,
@@ -83,10 +93,9 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT06246513",
+    "nct": "NCT05967351",
     "drugs": [
-     "SRP-9003",
-     "Glucocorticoid"
+     "delandistrogene moxeparvovec"
     ]
    },
    {
@@ -96,9 +105,9 @@
     ]
    },
    {
-    "nct": "NCT05881408",
+    "nct": "NCT06131983",
     "drugs": [
-     "delandistrogene moxeparvovec"
+     "SRP-1001 for Injection"
     ]
    },
    {
@@ -108,10 +117,9 @@
     ]
    },
    {
-    "nct": "NCT02500381",
+    "nct": "NCT03992430",
     "drugs": [
-     "SRP-4045",
-     "SRP-4053"
+     "Eteplirsen"
     ]
    }
   ]

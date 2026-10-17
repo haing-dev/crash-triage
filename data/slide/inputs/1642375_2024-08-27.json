@@ -6,7 +6,7 @@
  "date": "2024-08-27",
  "asof": "2024-08-27",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-08-27",
   "adj_close": 7.00368
@@ -32,6 +32,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "(\u201cViactiv\u201d), a Delaware corporation and a wholly-owned subsidiary of the Company, pursuant to an equity purchase agreement with Doctor\u2019s Best Inc., a Delaware corporation (\u201cDoctor\u2019s Best\u201d), dated January 30, 2024 (the \u201cPurchase Agreement\u201d); and (ii) the grant of discretionary authority to the Board of Directors of the Company to adjourn the Special Meeting to a later date, to allow for the solicit"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 9900000,
+  "as_of": "2023-06-30",
+  "filed": "2024-04-29"
  },
  "insiders": {
   "form4s": 1,

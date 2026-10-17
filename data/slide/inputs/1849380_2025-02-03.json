@@ -6,7 +6,7 @@
  "date": "2025-02-03",
  "asof": "2025-02-03",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-02-03",
   "adj_close": 10.0
@@ -33,6 +33,19 @@
  "going_concern": {
   "flag": true,
   "quote": "Therefore, these conditions raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "floating_convertible": "PIPE Notes On June 28, 2023, Data Knights and certain investors (the \u201cPurchasers\u201d) entered into a Securities Purchase Agreement pursuant to which Data Knights issued and sold to the Purchasers a new series of senior secured convertible notes (the \u201cPIPE Notes\u201d), which are convertible into shares of Common Stock at the Purchasers\u2019 election at a conversion price equal to the lower of (i) $10.00 per s",
+  "equity_line": "Yorkville Note On June 17, 2024, the Company entered into a Standby Equity Purchase Agreement (\u201cSEPA\u201d) with YA II PN, LTD, a Cayman Islands exempt limited partnership managed by Yorkville Advisors Global, LP (\u201cYorkville\u201d) (see Note 7)."
+ },
+ "debt": {
+  "usd": 2992000.0,
+  "tags": "LoansPayableCurrent"
+ },
+ "public_float": {
+  "usd": 9700000,
+  "as_of": "2024-06-28",
+  "filed": "2024-11-05"
  },
  "insiders": {
   "form4s": 0,

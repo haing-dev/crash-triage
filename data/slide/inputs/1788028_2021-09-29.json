@@ -6,7 +6,7 @@
  "date": "2021-09-29",
  "asof": "2021-09-29",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-09-29",
   "adj_close": 92.2
@@ -31,6 +31,16 @@
  "going_concern": {
   "flag": true,
   "quote": "Management has determined that the mandatory liquidation, should a Business Combination not occur, and potential subsequent dissolution raises substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 102500000,
+  "as_of": "2020-06-30",
+  "filed": "2021-05-24"
  },
  "insiders": {
   "form4s": 4,

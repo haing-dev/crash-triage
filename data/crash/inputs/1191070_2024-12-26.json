@@ -6,7 +6,7 @@
  "date": "2024-12-26",
  "asof": "2025-01-02",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-01-02",
   "adj_close": 2.93
@@ -28,13 +28,23 @@
   "flag": true,
   "quote": "Accordingly, based on its recurring losses from operations incurred since inception, the expectation of continued operating losses, and the need to raise additional capital to finance its future operations, the Company determined that there is substantial doubt about the Company\u2019s ability to continu"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 13300000,
+  "as_of": "2023-12-31",
+  "filed": "2024-09-30"
+ },
  "insiders": {
   "form4s": 0,
   "from": "2024-09-27",
   "to": "2025-01-25",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "neuphoria therapeutics",
   "other_trials": 0,

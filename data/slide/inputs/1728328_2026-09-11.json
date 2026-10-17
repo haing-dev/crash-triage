@@ -6,7 +6,7 @@
  "date": "2026-09-11",
  "asof": "2026-09-11",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-09-11",
   "adj_close": 1.29
@@ -34,6 +34,18 @@
  "going_concern": {
   "flag": true,
   "quote": "InMed has concluded that there is substantial doubt about its ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "equity_line": "The decrease primarily results from the fees incurred in relation to the Standby Equity Purchase Agreement with YA II PN, LTD in the prior year."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 2967434,
+  "as_of": "2025-12-31",
+  "filed": "2026-09-09"
  },
  "insiders": {
   "form4s": 6,

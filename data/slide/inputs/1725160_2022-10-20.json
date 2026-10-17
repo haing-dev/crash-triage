@@ -6,7 +6,7 @@
  "date": "2022-10-20",
  "asof": "2022-10-20",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-10-20",
   "adj_close": 21.53
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "The Company determined that there are no conditions or events that raise substantial doubt about its ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 1760000000,
+  "as_of": "2021-06-30",
+  "filed": "2022-02-24"
  },
  "insiders": {
   "form4s": 11,
@@ -146,21 +156,15 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT04814108",
-    "drugs": [
-     "Azenosertib"
-    ]
-   },
-   {
-    "nct": "NCT05128825",
-    "drugs": [
-     "azenosertib"
-    ]
-   },
-   {
     "nct": "NCT05199337",
     "drugs": [
      "ZN-d5"
+    ]
+   },
+   {
+    "nct": "NCT04814108",
+    "drugs": [
+     "Azenosertib"
     ]
    },
    {
@@ -168,6 +172,12 @@
     "drugs": [
      "Azenosertib",
      "Niraparib"
+    ]
+   },
+   {
+    "nct": "NCT05128825",
+    "drugs": [
+     "azenosertib"
     ]
    }
   ]

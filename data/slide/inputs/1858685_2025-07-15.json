@@ -6,7 +6,7 @@
  "date": "2025-07-15",
  "asof": "2025-07-15",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-07-15",
   "adj_close": 0.81999999
@@ -34,6 +34,16 @@
   "flag": true,
   "quote": "These conditions raise substantial doubt about the Company\u2019s ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 4217000.0,
+  "tags": "ConvertibleNotesPayable"
+ },
+ "public_float": {
+  "usd": 4200000,
+  "as_of": "2024-06-30",
+  "filed": "2025-03-20"
+ },
  "insiders": {
   "form4s": 0,
   "from": "2025-04-16",
@@ -47,18 +57,18 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
+    "nct": "NCT05662202",
+    "drugs": [
+     "BF-200 ALA and red light LED lamp",
+     "Vehicle and red light LED lamp"
+    ]
+   },
+   {
     "nct": "NCT05080764",
     "drugs": [
      "1h Incubation Photodynamic therapy (PDT) (ALA-PDT, Ameluz\u00ae-PDT)",
      "1h Incubation Photodynamic therapy (PDT) (vehicle to BF-200 ALA containing no active ingredient)",
      "3h Incubation Photodynamic therapy (PDT) (ALA-PDT, Ameluz\u00ae-PDT)"
-    ]
-   },
-   {
-    "nct": "NCT05662202",
-    "drugs": [
-     "BF-200 ALA and red light LED lamp",
-     "Vehicle and red light LED lamp"
     ]
    }
   ]

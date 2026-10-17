@@ -6,7 +6,7 @@
  "date": "2022-01-21",
  "asof": "2022-01-21",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-01-21",
   "adj_close": 18.97
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 505700000,
+  "as_of": "2020-06-30",
+  "filed": "2021-03-30"
  },
  "insiders": {
   "form4s": 18,
@@ -174,7 +184,7 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT05192382",
+    "nct": "NCT04837040",
     "drugs": [
      "Paltusotine"
     ]
@@ -186,7 +196,7 @@
     ]
    },
    {
-    "nct": "NCT04837040",
+    "nct": "NCT05192382",
     "drugs": [
      "Paltusotine"
     ]

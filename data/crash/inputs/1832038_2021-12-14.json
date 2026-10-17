@@ -6,7 +6,7 @@
  "date": "2021-12-14",
  "asof": "2021-12-16",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-12-16",
   "adj_close": 14.18
@@ -28,31 +28,23 @@
   "flag": true,
   "quote": "In our financial statements for the period from June 3, 2020 (inception) to December 31, 2020, we concluded that our recurring losses from operations and need for additional financing to fund future operations raise substantial doubt about our ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 3,
   "from": "2021-09-15",
   "to": "2022-01-13",
   "trades": []
  },
- "drug": null,
+ "drug": "ADG20",
  "trials": {
   "query": "invivyd",
-  "other_trials": 2,
-  "crashed_drug_trials": 0,
-  "examples": [
-   {
-    "nct": "NCT04859517",
-    "drugs": [
-     "ADG20"
-    ]
-   },
-   {
-    "nct": "NCT04805671",
-    "drugs": [
-     "ADG20",
-     "Normal saline"
-    ]
-   }
-  ]
+  "other_trials": 0,
+  "crashed_drug_trials": 2,
+  "examples": []
  }
 }

@@ -6,7 +6,7 @@
  "date": "2025-08-07",
  "asof": "2025-08-07",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-08-07",
   "adj_close": 640.85999
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 39903800000.0,
+  "tags": "DebtCurrent+LongTermDebtNoncurrent"
+ },
+ "public_float": {
+  "usd": 769792000000,
+  "as_of": "2024-06-30",
+  "filed": "2025-02-19"
  },
  "insiders": {
   "form4s": 35,
@@ -177,39 +187,38 @@
  "drug": null,
  "trials": {
   "query": "eli lilly",
-  "other_trials": 6,
+  "other_trials": 13,
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT05508789",
+    "nct": "NCT06948422",
     "drugs": [
-     "Donanemab"
+     "Orforglipron"
     ]
    },
    {
-    "nct": "NCT05784246",
+    "nct": "NCT05936151",
     "drugs": [
-     "Mirikizumab IV",
-     "Mirikizumab SC"
+     "Retatrutide"
     ]
    },
    {
-    "nct": "NCT06914895",
+    "nct": "NCT06598943",
     "drugs": [
-     "Tirzepatide"
+     "Eltrekibart",
+     "Mirikizumab"
     ]
    },
    {
-    "nct": "NCT04616326",
+    "nct": "NCT03432286",
     "drugs": [
      "Galcanezumab"
     ]
    },
    {
-    "nct": "NCT06045221",
+    "nct": "NCT06948435",
     "drugs": [
-     "Orforglipron",
-     "Semaglutide"
+     "Orforglipron"
     ]
    }
   ]

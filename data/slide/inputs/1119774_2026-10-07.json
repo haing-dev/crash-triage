@@ -6,7 +6,7 @@
  "date": "2026-10-07",
  "asof": "2026-10-07",
  "final": false,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-10-07",
   "adj_close": 2.15
@@ -34,6 +34,12 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 13,
   "from": "2026-07-09",

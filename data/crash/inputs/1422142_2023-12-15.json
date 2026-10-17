@@ -4,12 +4,12 @@
  "cik": "1422142",
  "name": "Whitehawk Therapeutics, Inc.",
  "date": "2023-12-15",
- "asof": "2023-12-21",
+ "asof": "2023-12-15",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2023-12-21",
-  "adj_close": 1.99
+  "date": "2023-12-15",
+  "adj_close": 2.34
  },
  "balance": {
   "end": "2023-09-30",
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 177896069,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-29"
  },
  "insiders": {
   "form4s": 6,
@@ -104,7 +114,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "nab-sirolimus (FYARRO)",
  "trials": {
   "query": "whitehawk therapeutics",
   "other_trials": 0,

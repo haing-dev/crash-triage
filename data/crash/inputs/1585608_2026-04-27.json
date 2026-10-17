@@ -6,7 +6,7 @@
  "date": "2026-04-27",
  "asof": "2026-05-01",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-05-01",
   "adj_close": 100.35
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "As more fully discussed in Note 1 to our consolidated financial statements, we believe there is substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "equity_line": "10.30 Equity Purchase Agreement, dated March 24, 2020, by and between Jaguar Health, Inc."
+ },
+ "debt": {
+  "usd": 42523000.0,
+  "tags": "NotesPayable"
+ },
+ "public_float": {
+  "usd": 3800000,
+  "as_of": "2025-06-30",
+  "filed": "2026-04-07"
  },
  "insiders": {
   "form4s": 1,

@@ -6,7 +6,7 @@
  "date": "2026-09-25",
  "asof": "2026-10-01",
  "final": false,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-10-01",
   "adj_close": 1.25
@@ -33,6 +33,19 @@
  "going_concern": {
   "flag": true,
   "quote": "Risks Related to Finances and Capital Requirements \u25cf There is substantial doubt regarding our ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "floating_convertible": "Additionally, subject to the requisite shareholder approval, the Lender shall have the right, at its sole option, to convert any or all of the outstanding balance of the Notes into Conversion Shares at a conversion price equal to the greater of (i) seventy percent of the lowest volume-weighted average price of the Company\u2019s Common Stock over the twenty consecutive trading days preceding the conver",
+  "equity_line": "Subsequent Events Equity Purchase Agreement On January 16, 2026, the Company entered into a directed stock purchase agreement with an institutional investor relating to an equity line of credit facility (the \u201cELOC\u201d)."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 55200,
+  "as_of": "2025-06-30",
+  "filed": "2026-04-15"
  },
  "insiders": {
   "form4s": 1,

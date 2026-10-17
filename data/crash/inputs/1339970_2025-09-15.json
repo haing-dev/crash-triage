@@ -4,12 +4,12 @@
  "cik": "1339970",
  "name": "aTYR PHARMA INC",
  "date": "2025-09-15",
- "asof": "2025-09-19",
+ "asof": "2025-09-15",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2025-09-19",
-  "adj_close": 0.99199998
+  "date": "2025-09-15",
+  "adj_close": 1.015
  },
  "balance": {
   "end": "2025-06-30",
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 116242729,
+  "as_of": "2024-06-30",
+  "filed": "2025-03-13"
  },
  "insiders": {
   "form4s": 1,

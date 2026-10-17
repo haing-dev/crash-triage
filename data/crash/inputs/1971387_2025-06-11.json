@@ -6,7 +6,7 @@
  "date": "2025-06-11",
  "asof": "2025-06-16",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-06-16",
   "adj_close": 605.5
@@ -28,6 +28,12 @@
   "flag": true,
   "quote": "As such, this raises substantial doubt about the Company\u2019s ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 0,
   "from": "2025-03-13",

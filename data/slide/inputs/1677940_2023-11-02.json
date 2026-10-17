@@ -6,7 +6,7 @@
  "date": "2023-11-02",
  "asof": "2023-11-02",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-11-02",
   "adj_close": 0.92000002
@@ -35,6 +35,14 @@
   "flag": true,
   "quote": "The opinion of our independent registered accountants on our audited financial statements included in this annual report on Form 20-F contains an explanatory paragraph regarding substantial doubt about our ability to continue as a going concern"
  },
+ "financing_terms": {
+  "equity_line": "69 In June and July 2019, Wanchunbulin, our partially owned Chinese subsidiary, and Wanchun Biotech entered into definitive agreements for the sale of its equity interests, or the Equity Purchase Agreements, to certain investors led by Efung Capital."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 0,
   "from": "2023-08-04",

@@ -4,12 +4,12 @@
  "cik": "1408443",
  "name": "Milestone Pharmaceuticals Inc.",
  "date": "2025-03-28",
- "asof": "2025-04-03",
+ "asof": "2025-03-28",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2025-04-03",
-  "adj_close": 0.75
+  "date": "2025-03-28",
+  "adj_close": 0.88
  },
  "balance": {
   "end": "2024-12-31",
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 53352000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 69800000,
+  "as_of": "2024-06-30",
+  "filed": "2025-03-13"
  },
  "insiders": {
   "form4s": 5,

@@ -6,7 +6,7 @@
  "date": "2023-08-21",
  "asof": "2023-08-21",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-08-21",
   "adj_close": 112.0
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "Investors are cautioned that statements that are not strictly historical facts contained in this Quarterly Report, including, without limitation, the following are forward looking statements: \u00b7 our significant operating losses since our inception and our need to obtain additional financing has cause"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 115996632,
+  "as_of": "2021-12-31",
+  "filed": "2022-09-22"
  },
  "insiders": {
   "form4s": 10,

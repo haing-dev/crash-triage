@@ -6,7 +6,7 @@
  "date": "2021-04-29",
  "asof": "2021-04-30",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-04-30",
   "adj_close": 466.20001
@@ -34,6 +34,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "In connection with the Enteris License Agreement, in August 2019, the Company entered into a Common Stock Purchase Agreement, or the Enteris Purchase Agreement, with Enteris and its affiliate, EBP Holdco LLC, collectively referred to as Purchaser, pursuant to which the Company issued and sold to Purchaser 170,793 shares of its common stock in a private placement in satisfaction of the $4,000 porti"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 726180228,
+  "as_of": "2020-06-30",
+  "filed": "2021-02-25"
  },
  "insiders": {
   "form4s": 15,
@@ -119,7 +131,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "Oral KORSUVA (difelikefalin)",
  "trials": {
   "query": "tvardi therapeutics",
   "other_trials": 0,

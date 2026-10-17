@@ -4,12 +4,12 @@
  "cik": "1017491",
  "name": "SEELOS THERAPEUTICS, INC.",
  "date": "2023-11-28",
- "asof": "2023-11-29",
+ "asof": "2023-11-28",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2023-11-29",
-  "adj_close": 160.0
+  "date": "2023-11-28",
+  "adj_close": 304.64
  },
  "balance": {
   "end": "2023-09-30",
@@ -34,6 +34,16 @@
   "flag": true,
   "quote": "Based on such evaluation and the Company\u2019s current plans (including the ongoing clinical programs for SLS-002, SLS-005, and other product candidates), which are subject to change, management believes that the Company\u2019s existing cash and cash equivalents as of September 30, 2023 are not sufficient to"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 16900000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 69900000,
+  "as_of": "2022-12-31",
+  "filed": "2023-03-10"
+ },
  "insiders": {
   "form4s": 3,
   "from": "2023-08-30",
@@ -55,7 +65,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "seelos therapeutics",
   "other_trials": 0,

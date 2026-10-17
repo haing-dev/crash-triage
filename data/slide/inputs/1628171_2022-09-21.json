@@ -6,7 +6,7 @@
  "date": "2022-09-21",
  "asof": "2022-09-21",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-09-21",
   "adj_close": 17.46
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 1956000000,
+  "as_of": "2021-06-30",
+  "filed": "2022-02-28"
  },
  "insiders": {
   "form4s": 10,
@@ -90,16 +100,16 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
+    "nct": "NCT05379985",
+    "drugs": [
+     "RMC-6236"
+    ]
+   },
+   {
     "nct": "NCT05054725",
     "drugs": [
      "RMC-4630",
      "Sotorasib"
-    ]
-   },
-   {
-    "nct": "NCT05379985",
-    "drugs": [
-     "RMC-6236"
     ]
    }
   ]

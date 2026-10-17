@@ -6,7 +6,7 @@
  "date": "2022-06-24",
  "asof": "2022-06-24",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-06-24",
   "adj_close": 14688.0
@@ -33,13 +33,23 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 33799047,
+  "as_of": "2021-06-29",
+  "filed": "2022-03-24"
+ },
  "insiders": {
   "form4s": 0,
   "from": "2022-03-26",
   "to": "2022-07-24",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "panbela therapeutics",
   "other_trials": 0,

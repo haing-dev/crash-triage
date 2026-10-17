@@ -4,12 +4,12 @@
  "cik": "922247",
  "name": "Cyclo Therapeutics, Inc.",
  "date": "2020-12-09",
- "asof": "2020-12-15",
+ "asof": "2020-12-09",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2020-12-15",
-  "adj_close": 3.98
+  "date": "2020-12-09",
+  "adj_close": 4.2
  },
  "balance": {
   "end": "2020-09-30",
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "These factors raise substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 158524.0,
+  "tags": "LongTermDebtNoncurrent+LongTermDebtCurrent"
+ },
+ "public_float": {
+  "usd": 25510459,
+  "as_of": "2019-06-30",
+  "filed": "2020-03-30"
  },
  "insiders": {
   "form4s": 13,
@@ -293,7 +303,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "Trappsol Cyclo",
  "trials": {
   "query": "cyclo therapeutics",
   "other_trials": 1,

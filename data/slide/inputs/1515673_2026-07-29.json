@@ -6,7 +6,7 @@
  "date": "2026-07-29",
  "asof": "2026-07-29",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-07-29",
   "adj_close": 25.0
@@ -34,6 +34,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 3400000000,
+  "as_of": "2025-06-30",
+  "filed": "2026-02-18"
  },
  "insiders": {
   "form4s": 15,
@@ -112,11 +122,9 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT05345171",
+    "nct": "NCT06415344",
     "drugs": [
-     "DTX301",
-     "Oral Corticosteroids",
-     "Sodium Acetate"
+     "GTX-102"
     ]
    },
    {
@@ -127,23 +135,22 @@
     ]
    },
    {
-    "nct": "NCT02716246",
+    "nct": "NCT06636071",
     "drugs": [
-     "UX111",
-     "Prophylactic Immunomodulatory (IM) Therapy",
-     "Optimized Prophylactic IM Therapy"
+     "setrusumab"
     ]
    },
    {
-    "nct": "NCT04360265",
+    "nct": "NCT04884815",
     "drugs": [
-     "No Investigational Product",
-     "Adjuvant Immunomodulatory (IM) Therapy"
+     "UX701",
+     "Standard of Care (SOC)"
     ]
    },
    {
-    "nct": "NCT06415344",
+    "nct": "NCT07157254",
     "drugs": [
+     "No intervention",
      "GTX-102"
     ]
    }

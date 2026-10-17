@@ -6,7 +6,7 @@
  "date": "2025-04-03",
  "asof": "2025-04-03",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-04-03",
   "adj_close": 16.56
@@ -32,6 +32,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 378988000.0,
+  "tags": "ConvertibleDebtCurrent+ConvertibleDebtNoncurrent"
+ },
+ "public_float": {
+  "usd": 624140482,
+  "as_of": "2024-06-30",
+  "filed": "2025-02-21"
  },
  "insiders": {
   "form4s": 23,

@@ -6,7 +6,7 @@
  "date": "2024-12-03",
  "asof": "2024-12-03",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-12-03",
   "adj_close": 14.0
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "Management believes that, given the Company\u2019s current cash position, operating plans and forecasted negative cash flows from operating activities over the next twelve months, there is substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "equity_line": "Common Stock Purchase Agreement In an agreement dated November 6, 2024 and executed on November 12, 2024, the Company agreed to sell and issue to HiTron Systems Inc."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 5800000,
+  "as_of": "2023-06-30",
+  "filed": "2024-06-06"
  },
  "insiders": {
   "form4s": 2,

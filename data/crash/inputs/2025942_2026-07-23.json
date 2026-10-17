@@ -4,12 +4,12 @@
  "cik": "2025942",
  "name": "Curanex Pharmaceuticals Inc",
  "date": "2026-07-23",
- "asof": "2026-07-27",
+ "asof": "2026-07-23",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2026-07-27",
-  "adj_close": 0.183
+  "date": "2026-07-23",
+  "adj_close": 0.2
  },
  "balance": {
   "end": "2026-03-31",
@@ -34,6 +34,12 @@
   "flag": true,
   "quote": "In prior years, the Company disclosed conditions that raised substantial doubt about its ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 0,
   "from": "2026-04-24",

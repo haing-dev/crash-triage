@@ -6,7 +6,7 @@
  "date": "2024-06-25",
  "asof": "2024-06-25",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-06-25",
   "adj_close": 0.73
@@ -33,6 +33,19 @@
  "going_concern": {
   "flag": true,
   "quote": "This condition raises substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "floating_convertible": "The Note is convertible into the Common Shares of Regen at a price per share ( \u201cConversion Price\u201d) equivalent to the lower of (a) a 75% discount to the closing price of the common stock of the Company on the trading day immediately prior to the date a conversion notice is given by the Lender to Regen or (b) $375 per common share as of the date which is the earlier of: (i) One day subsequent to the",
+  "equity_line": "On September 12, 2023 the Company entered into a common stock purchase agreement (the \u201cEquity Line Agreement\u201d) with Coventry Enterprises LLC (\u201cCoventry\u201d) providing for an equity financing facility (the \u201cEquity Line\u201d)."
+ },
+ "debt": {
+  "usd": 499880.0,
+  "tags": "ConvertibleNotesPayable"
+ },
+ "public_float": {
+  "usd": 6592681,
+  "as_of": "2023-03-31",
+  "filed": "2023-11-20"
  },
  "insiders": {
   "form4s": 0,

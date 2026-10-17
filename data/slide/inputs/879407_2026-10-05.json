@@ -6,7 +6,7 @@
  "date": "2026-10-05",
  "asof": "2026-10-05",
  "final": false,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-10-05",
   "adj_close": 62.35
@@ -34,6 +34,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "(\u201cAmgen\u201d) In September 2016, Amgen and the Company entered into two collaboration and license agreements and a common stock purchase agreement."
+ },
+ "debt": {
+  "usd": 682707000.0,
+  "tags": "ConvertibleDebtNoncurrent"
+ },
+ "public_float": {
+  "usd": 1400000000,
+  "as_of": "2025-03-31",
+  "filed": "2025-11-25"
  },
  "insiders": {
   "form4s": 2,

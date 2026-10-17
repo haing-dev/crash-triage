@@ -4,12 +4,12 @@
  "cik": "1789192",
  "name": "Nexentis Technologies Inc.",
  "date": "2022-08-16",
- "asof": "2022-08-18",
+ "asof": "2022-08-16",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2022-08-18",
-  "adj_close": 4939.2002
+  "date": "2022-08-16",
+  "adj_close": 5007.7998
  },
  "balance": {
   "end": "2022-06-30",
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 20635900,
+  "as_of": "2021-06-30",
+  "filed": "2022-03-31"
+ },
  "insiders": {
   "form4s": 1,
   "from": "2022-05-18",
@@ -54,7 +64,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "nexentis technologies",
   "other_trials": 0,

@@ -6,7 +6,7 @@
  "date": "2026-05-12",
  "asof": "2026-05-12",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-05-12",
   "adj_close": 3.06
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "Based on our recurring losses from operations incurred since inception, our expectation of continuing operating losses for the foreseeable future, negative operating cash flows for the foreseeable future, and the need to raise additional capital to finance its future operations, we have concluded th"
+ },
+ "financing_terms": {
+  "equity_line": "\u25cfWhite Lion equity line of credit (\u201cELOC\u201d)."
+ },
+ "debt": {
+  "usd": 81000.0,
+  "tags": "NotesPayableCurrent"
+ },
+ "public_float": {
+  "usd": 15000000,
+  "as_of": "2025-06-30",
+  "filed": "2026-03-30"
  },
  "insiders": {
   "form4s": 1,

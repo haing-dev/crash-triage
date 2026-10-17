@@ -6,7 +6,7 @@
  "date": "2024-06-13",
  "asof": "2024-06-13",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-06-13",
   "adj_close": 719.2
@@ -33,6 +33,20 @@
  "going_concern": {
   "flag": true,
   "quote": "These conditions raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "floating_convertible": "Alternate Conversion: Following the occurrence and during the continuance of a Trigger Event (as defined below), each holder may alternatively elect to convert the Series A Preferred Stock at the \u201cAlternate Conversion Price\u201d equal to the lesser of the Conversion Price and the greater of $1.00 or 80% of the 5-day volume weighted average price of a share of Common Stock.",
+  "price_reset_warrants": "1 to the Business Combination Agreement (the \u201cFirst BCA Amendment\u201d) to, among other things, (i) remove the minimum cash condition, (ii) modify the stock-price based milestones such that (a) the trading price condition for the First Level Earnout Target (as defined in the First BCA Amendment) shall be reset from $12.50 to 125% of the Conversion Price (as defined in the First BCA Amendment) of the C",
+  "equity_line": "CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOW (Unaudited) For the period from February 14, 2024 through March 31, 2024 (Successor) For the period from January 1, 2024 through February 13, 2024 (Predecessor) For the Three months ended March 31, 2023 (Predecessor) Cash flows from operating activities: $(1,727,483) $(572,211) $(2,438,330) Net loss Adjustments to reconcile net loss to net cash used i"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 2688948,
+  "as_of": "2023-06-30",
+  "filed": "2024-04-02"
  },
  "insiders": {
   "form4s": 9,

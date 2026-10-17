@@ -6,7 +6,7 @@
  "date": "2024-11-11",
  "asof": "2024-11-11",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-11-11",
   "adj_close": 13.1
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "Including our existing cash and cash equivalents, we believe that we have sufficient working capital on hand to fund operations such that there is no substantial doubt as to our ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 175729000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 526000000,
+  "as_of": "2023-06-30",
+  "filed": "2024-06-14"
  },
  "insiders": {
   "form4s": 0,

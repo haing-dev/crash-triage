@@ -6,7 +6,7 @@
  "date": "2023-03-31",
  "asof": "2023-04-05",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-04-05",
   "adj_close": 51.0
@@ -33,6 +33,20 @@
  "going_concern": {
   "flag": true,
   "quote": "These conditions raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "floating_convertible": "We may elect to pay all or part of the redemption amount in cash with a premium of eight percent or in conversion shares of common stock based on a conversion price equal to the lesser of (i) the conversion price and (ii) 92% of the average of the three lowest VWAPs (as defined) during the ten consecutive trading days ending on the trading day that is immediately prior to the applicable redemption",
+  "price_reset_warrants": "The conversion price of the 2022 Notes and exercise price of the Prior Warrants have been reset, but not below a price of $2.006 for the Prior Warrants issued in 2022, $15.60 for the Prior Warrants issued in 2021 and $2.006 for the 2022 Notes (temporarily reduced for the 2022 Notes to $0.7512 for the period from January 12, 2023 until May 12, 2023).",
+  "equity_line": "This equity line facility is available for a period of 36 months from the closing date of the Merger."
+ },
+ "debt": {
+  "usd": 4406758.0,
+  "tags": "NotesPayable"
+ },
+ "public_float": {
+  "usd": 18800000,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-30"
  },
  "insiders": {
   "form4s": 3,
@@ -69,7 +83,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "PF614",
  "trials": {
   "query": "ensysce biosciences",
   "other_trials": 0,

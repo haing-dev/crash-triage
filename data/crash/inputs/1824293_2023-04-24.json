@@ -6,7 +6,7 @@
  "date": "2023-04-24",
  "asof": "2023-04-26",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-04-26",
   "adj_close": 257730.20312
@@ -34,13 +34,23 @@
   "flag": true,
   "quote": "Our auditors have expressed substantial doubt about our ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 5200000,
+  "as_of": "2022-06-30",
+  "filed": "2023-02-24"
+ },
  "insiders": {
   "form4s": 3,
   "from": "2023-01-24",
   "to": "2023-05-24",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "gri bio",
   "other_trials": 0,

@@ -6,7 +6,7 @@
  "date": "2024-05-13",
  "asof": "2024-05-13",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-05-13",
   "adj_close": 29.31
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "\u2022Our liquidity position raises substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "equity_line": "Other than our common stock purchase agreement with Lincoln Park Capital Fund LLC (\u201cLincoln Park\u201d), pursuant to which Lincoln Park is obligated, subject to certain limitations and conditions, to purchase up to a remaining $47.0 million in the aggregate of shares of our common stock, we do not have any committed external sources of funds and may seek to raise additional capital at any time."
+ },
+ "debt": {
+  "usd": 55000000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 318000000,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-21"
  },
  "insiders": {
   "form4s": 18,
@@ -76,13 +88,13 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT04154488",
+    "nct": "NCT03995108",
     "drugs": [
      "Mavorixafor"
     ]
    },
    {
-    "nct": "NCT03995108",
+    "nct": "NCT04154488",
     "drugs": [
      "Mavorixafor"
     ]

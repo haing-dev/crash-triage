@@ -6,7 +6,7 @@
  "date": "2020-11-19",
  "asof": "2020-11-19",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2020-11-19",
   "adj_close": 48500.0
@@ -34,13 +34,25 @@
   "flag": true,
   "quote": "It is management\u2019s opinion that these conditions raise substantial doubt about the Company\u2019s ability to continue as a going concern"
  },
+ "financing_terms": {
+  "floating_convertible": "However, in the event that the Company\u2019s common stock is restricted by the DTC for any reason, the Conversion Price shall be lowered to 50% of the lowest Closing Bid Price for the duration of such restriction."
+ },
+ "debt": {
+  "usd": 1029688.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 780127,
+  "as_of": "2019-12-31",
+  "filed": "2020-10-01"
+ },
  "insiders": {
   "form4s": 0,
   "from": "2020-08-21",
   "to": "2020-12-19",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "propanc biopharma",
   "other_trials": 0,

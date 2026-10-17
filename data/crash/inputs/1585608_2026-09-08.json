@@ -6,7 +6,7 @@
  "date": "2026-09-08",
  "asof": "2026-09-10",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-09-10",
   "adj_close": 4.785
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "These conditions raise substantial doubt about the Company's ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "equity_line": "Equity Line of Credit The Company evaluates equity-linked financing arrangements, such as an equity line of credit (\"ELOC\"), to determine if they meet the definition of a derivative under ASC 815, Derivatives and Hedging (\"ASC 815\") or represent liability-classified obligations under ASC 480, Distinguishing Liabilities from Equity (\"ASC 480\")."
+ },
+ "debt": {
+  "usd": 15559000.0,
+  "tags": "NotesPayable"
+ },
+ "public_float": {
+  "usd": 3800000,
+  "as_of": "2025-06-30",
+  "filed": "2026-04-07"
  },
  "insiders": {
   "form4s": 0,

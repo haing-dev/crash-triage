@@ -6,7 +6,7 @@
  "date": "2021-04-20",
  "asof": "2021-04-20",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-04-20",
   "adj_close": 1.28
@@ -34,6 +34,18 @@
  "going_concern": {
   "flag": true,
   "quote": "We are dependent on financing to sustain our operations, and there is substantial doubt regarding our ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "price_reset_warrants": "Our outstanding Second Amended and Restated 10% Senior Secured Convertible Debentures in the aggregate principal amount of $7.2 million as of December 31, 2020 and related warrantsto purchase a total of up to 1,537,200 shares of our common stock include so-called full-ratchet anti-dilution adjustments in the event we sell or issue shares of common stock or common stock equivalents at an effective "
+ },
+ "debt": {
+  "usd": 7015000.0,
+  "tags": "ConvertibleDebtCurrent"
+ },
+ "public_float": {
+  "usd": 58283977,
+  "as_of": "2020-06-30",
+  "filed": "2021-01-25"
  },
  "insiders": {
   "form4s": 5,

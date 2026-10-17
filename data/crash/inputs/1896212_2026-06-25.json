@@ -4,12 +4,12 @@
  "cik": "1896212",
  "name": "CDT Equity Inc.",
  "date": "2026-06-25",
- "asof": "2026-06-29",
+ "asof": "2026-06-25",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2026-06-29",
-  "adj_close": 145.75
+  "date": "2026-06-25",
+  "adj_close": 178.25
  },
  "balance": {
   "end": "2025-12-31",
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "Risks Related to Finances and Capital Requirements \u25cf There is substantial doubt regarding our ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "equity_line": "10.41 Equity Purchase Agreement, dated January 16, 2026, by and among the Company and the Purchaser (filed as Exhibit 10.1 to the Company\u2019s Current Report on Form 8-K filed on January 22, 2026, and incorporated herein by reference)."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 55200,
+  "as_of": "2025-06-30",
+  "filed": "2026-04-15"
  },
  "insiders": {
   "form4s": 3,

@@ -6,7 +6,7 @@
  "date": "2024-06-04",
  "asof": "2024-06-10",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-06-10",
   "adj_close": 0.70999998
@@ -34,13 +34,25 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {
+  "equity_line": "Biocon Collaboration and License Agreement In May 2017, the Company entered into a collaboration and license agreement (which was amended in September 2018, April 2019, December 2019, April 2021 and November 2022), clinical supply agreement, investor rights agreement, and common stock purchase agreement (collectively License Agreements) with Biocon SA (subsequently assigned to Biocon Limited, or t"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 16000000,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-25"
+ },
  "insiders": {
   "form4s": 6,
   "from": "2024-03-06",
   "to": "2024-07-04",
   "trades": []
  },
- "drug": null,
+ "drug": "EQ101",
  "trials": {
   "query": "equillium",
   "other_trials": 1,

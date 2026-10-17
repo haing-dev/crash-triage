@@ -6,7 +6,7 @@
  "date": "2021-04-15",
  "asof": "2021-04-15",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-04-15",
   "adj_close": 63.4
@@ -32,6 +32,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 25065000.0,
+  "tags": "LongTermDebtNoncurrent+LongTermDebtCurrent"
+ },
+ "public_float": {
+  "usd": 508000000000,
+  "as_of": "2020-12-31",
+  "filed": "2021-03-02"
  },
  "insiders": {
   "form4s": 7,
@@ -61,15 +71,15 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT03488394",
-    "drugs": [
-     "Frozen autologous CD34+ hematopoietic stem and progenitor cells genetically modified with the lentiviral vector IDUA LVV, encoding for the \u03b1-L-iduronidase cDNA, in their final formulation medium."
-    ]
-   },
-   {
     "nct": "NCT03392987",
     "drugs": [
      "OTL-200"
+    ]
+   },
+   {
+    "nct": "NCT03488394",
+    "drugs": [
+     "Frozen autologous CD34+ hematopoietic stem and progenitor cells genetically modified with the lentiviral vector IDUA LVV, encoding for the \u03b1-L-iduronidase cDNA, in their final formulation medium."
     ]
    }
   ]

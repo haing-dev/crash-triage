@@ -6,7 +6,7 @@
  "date": "2024-11-21",
  "asof": "2024-11-25",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-11-25",
   "adj_close": 24.32
@@ -34,13 +34,23 @@
   "flag": true,
   "quote": "As of September 30, 2024, the conclusion of a going concern assessment was that there is substantial doubt about the Company\u2019s ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 6462769.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 42800000,
+  "as_of": "2023-06-30",
+  "filed": "2024-05-15"
+ },
  "insiders": {
   "form4s": 0,
   "from": "2024-08-23",
   "to": "2024-12-21",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "hcw biologics",
   "other_trials": 0,

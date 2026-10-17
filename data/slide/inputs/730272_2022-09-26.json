@@ -6,7 +6,7 @@
  "date": "2022-09-26",
  "asof": "2022-09-26",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-09-26",
   "adj_close": 179.33
@@ -32,6 +32,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "On November 29, 2021, the Company entered into an Equity Purchase Agreement with BioFlex, NTM and each of Ralph Meola and Jason Nisler (the \"Equity Purchase Agreement\"), to acquire 100% of the outstanding securities of BioFlex and NTM (collectively, the \u201cNTM Acquisition\u201d)."
+ },
+ "debt": {
+  "usd": 283712000.0,
+  "tags": "ConvertibleNotesPayableCurrent"
+ },
+ "public_float": {
+  "usd": 10858031196,
+  "as_of": "2021-06-30",
+  "filed": "2022-02-17"
  },
  "insiders": {
   "form4s": 9,

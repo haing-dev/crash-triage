@@ -6,7 +6,7 @@
  "date": "2026-05-01",
  "asof": "2026-05-01",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-05-01",
   "adj_close": 3.41
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "\u2022Because our existing cash, cash equivalents, and investments will not be sufficient to fund our operations, as currently planned, for more than one year beyond the filing date of this Annual Report on Form 10-K, we have determined that there is substantial doubt regarding our ability to continue as"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 238759057,
+  "as_of": "2025-06-30",
+  "filed": "2026-03-03"
  },
  "insiders": {
   "form4s": 4,

@@ -6,7 +6,7 @@
  "date": "2024-06-28",
  "asof": "2024-07-02",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-07-02",
   "adj_close": 3.39
@@ -34,24 +34,27 @@
   "flag": true,
   "quote": "The Company\u2019s losses from operations, negative operating cash flows and accumulated deficit, as well as the additional capital needed to fund operations for at least twelve months following the issuance of the condensed consolidated financial statements, raise substantial doubt about the Company\u2019s a"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 47100000,
+  "as_of": "2023-06-30",
+  "filed": "2024-04-29"
+ },
  "insiders": {
   "form4s": 2,
   "from": "2024-03-30",
   "to": "2024-07-28",
   "trades": []
  },
- "drug": null,
+ "drug": "ELI-002 7P",
  "trials": {
   "query": "elicio therapeutics",
-  "other_trials": 1,
-  "crashed_drug_trials": 0,
-  "examples": [
-   {
-    "nct": "NCT05726864",
-    "drugs": [
-     "ELI-002 7P"
-    ]
-   }
-  ]
+  "other_trials": 0,
+  "crashed_drug_trials": 1,
+  "examples": []
  }
 }

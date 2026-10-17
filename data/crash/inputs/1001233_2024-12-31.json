@@ -6,7 +6,7 @@
  "date": "2024-12-31",
  "asof": "2024-12-31",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-12-31",
   "adj_close": 1.02
@@ -34,30 +34,40 @@
   "flag": true,
   "quote": "Our history of significant losses, negative cash flows from operations, limited liquidity resources currently on hand and dependence on our ability to obtain additional financing to fund our operations have resulted in management\u2019s assessment that there is substantial doubt about our ability to cont"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 229054076,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-13"
+ },
  "insiders": {
   "form4s": 10,
   "from": "2024-10-02",
   "to": "2025-01-30",
   "trades": []
  },
- "drug": null,
+ "drug": "giroctocogene fitelparvovec (SB-525)",
  "trials": {
   "query": "sangamo therapeutics",
   "other_trials": 2,
   "crashed_drug_trials": 0,
   "examples": [
    {
+    "nct": "NCT04046224",
+    "drugs": [
+     "ST-920"
+    ]
+   },
+   {
     "nct": "NCT03653247",
     "drugs": [
      "Plerixafor",
      "Busulfan",
      "BIVV003"
-    ]
-   },
-   {
-    "nct": "NCT04046224",
-    "drugs": [
-     "ST-920"
     ]
    }
   ]

@@ -4,12 +4,12 @@
  "cik": "1958777",
  "name": "FibroBiologics, Inc.",
  "date": "2026-03-30",
- "asof": "2026-03-31",
+ "asof": "2026-03-30",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2026-03-31",
-  "adj_close": 1.32
+  "date": "2026-03-30",
+  "adj_close": 2.28
  },
  "balance": {
   "end": "2025-12-31",
@@ -33,6 +33,19 @@
  "going_concern": {
   "flag": true,
   "quote": "Summary of Risk Factors \u25cf There is substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "floating_convertible": "The First Note is convertible at a conversion price equal to the lower of (i) $2.41 per share or (ii) 94% of the lowest daily volume-weighted average price (\u201cVWAP\u201d) during the five consecutive trading days immediately preceding the conversion date (but no lower than the \u201cfloor price\u201d then in effect, subject to adjustment from time to time).",
+  "equity_line": "We are party to a standby equity purchase agreement, or the SEPA, dated December 20, 2024, with YA II PN, LTD., or Yorkville."
+ },
+ "debt": {
+  "usd": 11600000.0,
+  "tags": "ConvertibleNotesPayableCurrent"
+ },
+ "public_float": {
+  "usd": 21600000,
+  "as_of": "2025-06-30",
+  "filed": "2026-03-13"
  },
  "insiders": {
   "form4s": 4,

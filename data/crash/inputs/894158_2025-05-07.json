@@ -6,7 +6,7 @@
  "date": "2025-05-07",
  "asof": "2025-05-08",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-05-08",
   "adj_close": 0.63999999
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "As discussed in Note 2 to the consolidated financial statements, the Company has suffered recurring losses from operations and has not generated positive cash flows from operations which raise substantial doubt about its ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 153000.0,
+  "tags": "LoansPayableCurrent+LongTermLoansPayable"
+ },
+ "public_float": {
+  "usd": 5300000,
+  "as_of": "2024-06-30",
+  "filed": "2025-03-06"
  },
  "insiders": {
   "form4s": 4,

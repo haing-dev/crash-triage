@@ -6,7 +6,7 @@
  "date": "2024-10-29",
  "asof": "2024-10-29",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-10-29",
   "adj_close": 1.8
@@ -32,6 +32,19 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "floating_convertible": "The Convertible Promissory Notes may be prepaid by the Company, in whole, but not in part, at any time prior to the Maturity Date, subject to payment of a premium of 10%, provided that the Company gives the holders fifteen (15) business notice prior to prepayment, during which period, Investors may elect to convert the Notes and accrued but unpaid interest thereon into Shares at a conversion price",
+  "equity_line": "15 Equity Line Of Credit Commitment: On February 23, 2024, pursuant to the Purchase Agreement dated as of September 1, 2022 (\u201cAgreement\u201d), by and between the Company and Tysadco Partners, LLC (\u201cTysadco\u201d), the Company provided Tysadco formal notice that it was terminating the Agreement and the $10,000,000 equity line of credit facility (\u201cELOC\u201d)."
+ },
+ "debt": {
+  "usd": 674000.0,
+  "tags": "LongTermDebtCurrent"
+ },
+ "public_float": {
+  "usd": 7197268,
+  "as_of": "2023-04-28",
+  "filed": "2024-01-29"
  },
  "insiders": {
   "form4s": 3,

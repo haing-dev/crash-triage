@@ -6,7 +6,7 @@
  "date": "2026-10-13",
  "asof": "2026-10-13",
  "final": false,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-10-13",
   "adj_close": 0.792
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "We will need to raise additional capital to support our operations beyond November 2026, which raises substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 6410161.0,
+  "tags": "LongTermNotesPayable"
+ },
+ "public_float": {
+  "usd": 5097850,
+  "as_of": "2025-03-31",
+  "filed": "2025-12-23"
  },
  "insiders": {
   "form4s": 0,

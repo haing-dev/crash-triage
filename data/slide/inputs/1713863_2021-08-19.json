@@ -6,7 +6,7 @@
  "date": "2021-08-19",
  "asof": "2021-08-19",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-08-19",
   "adj_close": 43.80671
@@ -32,6 +32,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 183500000,
+  "as_of": "2020-01-31",
+  "filed": "2020-10-29"
  },
  "insiders": {
   "form4s": 2,
@@ -60,15 +70,15 @@
     ]
    },
    {
-    "nct": "NCT02574585",
-    "drugs": [
-     "Autologous mesenchymal cells transplantation"
-    ]
-   },
-   {
     "nct": "NCT04924491",
     "drugs": [
      "Autologous thyTreg"
+    ]
+   },
+   {
+    "nct": "NCT02574585",
+    "drugs": [
+     "Autologous mesenchymal cells transplantation"
     ]
    }
   ]

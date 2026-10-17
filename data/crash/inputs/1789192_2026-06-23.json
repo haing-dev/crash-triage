@@ -4,12 +4,12 @@
  "cik": "1789192",
  "name": "Nexentis Technologies Inc.",
  "date": "2026-06-23",
- "asof": "2026-06-29",
+ "asof": "2026-06-23",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2026-06-29",
-  "adj_close": 4.67
+  "date": "2026-06-23",
+  "adj_close": 5.81
  },
  "balance": {
   "end": "2026-03-31",
@@ -34,6 +34,18 @@
  "going_concern": {
   "flag": true,
   "quote": "As a result, there is substantial doubt regarding the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "equity_line": "UNAUDITED CONDENSED CONSOLIDATED INTERIM STATEMENTS OF CASH FLOWS (U.S, dollars in thousands except share and per share data) 2026 2025 Three months ended March 31 2026 2025 CASH FLOWS FROM OPERATING ACTIVITIES: Net loss (6,589) (1,257) Adjustments required to reconcile net loss for the year to net cash used in operating activities: Depreciation and amortization 82 3 Issuance of shares to employee"
+ },
+ "debt": {
+  "usd": 1733000.0,
+  "tags": "LoansPayable"
+ },
+ "public_float": {
+  "usd": 6387364,
+  "as_of": "2025-06-30",
+  "filed": "2026-03-31"
  },
  "insiders": {
   "form4s": 1,

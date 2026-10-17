@@ -6,7 +6,7 @@
  "date": "2024-04-05",
  "asof": "2024-04-05",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-04-05",
   "adj_close": 7.8
@@ -34,6 +34,16 @@
  "going_concern": {
   "flag": true,
   "quote": "Risks Related to our Financial Position and Need for Additional Capital \u25cfWe have identified conditions and events that raise substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 75000000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 545158729,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-05"
  },
  "insiders": {
   "form4s": 19,
@@ -91,6 +101,12 @@
     ]
    },
    {
+    "nct": "NCT05757544",
+    "drugs": [
+     "IV Ganaxolone"
+    ]
+   },
+   {
     "nct": "NCT05323734",
     "drugs": [
      "Ganaxolone"
@@ -100,12 +116,6 @@
     "nct": "NCT05604170",
     "drugs": [
      "Ganaxolone"
-    ]
-   },
-   {
-    "nct": "NCT05757544",
-    "drugs": [
-     "IV Ganaxolone"
     ]
    }
   ]

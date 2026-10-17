@@ -6,7 +6,7 @@
  "date": "2023-02-22",
  "asof": "2023-02-22",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-02-22",
   "adj_close": 7.2
@@ -32,6 +32,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "floating_convertible": "The notes were convertible into shares of the Company\u2019s common stock at conversion prices ranging from 60% to 71% of the average of the two lowest traded prices or the lowest trade price of the Company\u2019s common stock during the previous 15 trading days preceding the conversion date."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 38245340,
+  "as_of": "2021-06-30",
+  "filed": "2022-04-29"
  },
  "insiders": {
   "form4s": 0,

@@ -6,7 +6,7 @@
  "date": "2024-09-25",
  "asof": "2024-09-25",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-09-25",
   "adj_close": 2.3
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "\u2022Our history of recurring losses and anticipated expenditures raises substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "equity_line": "Condensed Consolidated Statements of Cash Flows (unaudited) (in thousands) Six Months Ended June 30, 20242023 Cash flows from operating activities Net loss$(23,314)$(37,419) Adjustments to reconcile net loss to net cash used in operating activities: Depreciation1,955 1,221 Amortization of operating lease right-of-use assets973 919 Accretion of discount on short-term investments\u2014 (952) Change in fa"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 30200000,
+  "as_of": "2023-12-29",
+  "filed": "2024-04-26"
  },
  "insiders": {
   "form4s": 4,

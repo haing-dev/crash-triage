@@ -6,7 +6,7 @@
  "date": "2021-10-27",
  "asof": "2021-10-27",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-10-27",
   "adj_close": 2025.0
@@ -32,6 +32,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "In addition, the Company has an active equity purchase agreement (See Note 10) with Keystone Capital, LLC, which allows the sale of up to $15 million of securities, which amount, if fully accessible, would be sufficient to fund the Company\u2019s operations for an additional period if completion of the trial is delayed or if costs increase."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 14669240,
+  "as_of": "2020-06-30",
+  "filed": "2021-03-22"
  },
  "insiders": {
   "form4s": 2,

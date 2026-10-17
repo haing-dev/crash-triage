@@ -6,7 +6,7 @@
  "date": "2021-04-06",
  "asof": "2021-04-06",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-04-06",
   "adj_close": 88.5
@@ -34,6 +34,16 @@
  "going_concern": {
   "flag": true,
   "quote": "In its report dated March 2, 2021, EisnerAmper LLP, our independent registered public accounting firm, expressed substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 16329000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 499170016,
+  "as_of": "2020-06-30",
+  "filed": "2021-03-02"
  },
  "insiders": {
   "form4s": 11,

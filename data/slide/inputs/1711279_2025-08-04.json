@@ -6,7 +6,7 @@
  "date": "2025-08-04",
  "asof": "2025-08-04",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-08-04",
   "adj_close": 134.94
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 4600000000,
+  "as_of": "2024-06-30",
+  "filed": "2025-02-19"
  },
  "insiders": {
   "form4s": 10,
@@ -258,6 +268,14 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
+    "nct": "NCT06228326",
+    "drugs": [
+     "KB707",
+     "Pembrolizumab (KEYTRUDA\u00ae)",
+     "Chemotherapy"
+    ]
+   },
+   {
     "nct": "NCT05970497",
     "drugs": [
      "KB707",
@@ -275,14 +293,6 @@
     "nct": "NCT06999733",
     "drugs": [
      "KB801"
-    ]
-   },
-   {
-    "nct": "NCT06228326",
-    "drugs": [
-     "KB707",
-     "Pembrolizumab (KEYTRUDA\u00ae)",
-     "Chemotherapy"
     ]
    }
   ]

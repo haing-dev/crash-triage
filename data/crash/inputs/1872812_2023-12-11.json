@@ -6,7 +6,7 @@
  "date": "2023-12-11",
  "asof": "2023-12-14",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-12-14",
   "adj_close": 305.152
@@ -18,13 +18,16 @@
   "shares": 949958
  },
  "going_concern": null,
+ "financing_terms": null,
+ "debt": null,
+ "public_float": null,
  "insiders": {
   "form4s": 0,
   "from": "2023-09-12",
   "to": "2024-01-10",
   "trades": []
  },
- "drug": null,
+ "drug": "OmnImmune",
  "trials": {
   "query": "tc biopharm",
   "other_trials": 1,

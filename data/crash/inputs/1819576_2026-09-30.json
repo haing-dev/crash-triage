@@ -4,12 +4,12 @@
  "cik": "1819576",
  "name": "Liquidia Corp",
  "date": "2026-09-30",
- "asof": "2026-10-05",
+ "asof": "2026-09-30",
  "final": false,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2026-10-05",
-  "adj_close": 27.64
+  "date": "2026-09-30",
+  "adj_close": 30.26
  },
  "balance": {
   "end": "2026-06-30",
@@ -32,6 +32,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 847006478,
+  "as_of": "2025-06-30",
+  "filed": "2026-03-05"
  },
  "insiders": {
   "form4s": 30,

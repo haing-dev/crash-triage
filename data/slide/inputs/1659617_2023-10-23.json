@@ -6,7 +6,7 @@
  "date": "2023-10-23",
  "asof": "2023-10-23",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-10-23",
   "adj_close": 195.375
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "These factors raise substantial doubt regarding the Company's ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "equity_line": "Condensed Consolidated Statements of Stockholders\u2019 Equity (in thousands, except for shares) (Unaudited) Six Months Ended June 30, 2023 Common Stock Accumulated Shares Par Value Amount Additional Paid-In Capital Accumulated Deficit Other Comprehensive Income (Loss) Total Stockholders' Equity Balance, December 31, 2022 28,627,827 $ 29 $ 153,985 $ (101,835 ) $ 12 $ 52,191 Issuance of common stock wit"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 40000000,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-22"
  },
  "insiders": {
   "form4s": 0,

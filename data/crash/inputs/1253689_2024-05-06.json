@@ -4,35 +4,45 @@
  "cik": "1253689",
  "name": "CRESCENT BIOPHARMA, INC.",
  "date": "2024-05-06",
- "asof": "2024-05-10",
+ "asof": "2024-05-06",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2024-05-10",
-  "adj_close": 27.0
+  "date": "2024-05-06",
+  "adj_close": 32.0
  },
  "balance": {
-  "end": "2024-03-31",
-  "cash": 31281460,
+  "end": "2023-12-31",
+  "cash": 41792830,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001558370-24-007632"
+  "accn": "0001558370-24-004013"
  },
  "burn6": {
-  "end": "2024-03-31",
-  "start": "2023-10-01",
-  "cash_used_ops": 18143923.0,
-  "capex": 8240.0,
+  "end": "2023-12-31",
+  "start": "2023-07-01",
+  "cash_used_ops": 16298190.0,
+  "capex": 8667.0,
   "periods": 2
  },
  "shares": {
-  "end": "2024-05-07",
-  "shares": 64464412
+  "end": "2024-03-25",
+  "shares": 64450385
  },
  "going_concern": {
   "flag": true,
-  "quote": "Management believes that given the Company\u2019s current cash position and forecasted negative cash flows from operating activities over the next twelve months, including the continuation of our product development activities, there is substantial doubt about its ability to continue as a going concern"
+  "quote": "Based on our current cash position, our ongoing significant operating losses and the fact that we do not have any committed sources of revenue or cash flows other than potential payments from our license and collaboration agreements, management believes that, given our current cash position, there i"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 109300000,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-27"
  },
  "insiders": {
   "form4s": 10,
@@ -40,7 +50,7 @@
   "to": "2024-06-05",
   "trades": []
  },
- "drug": null,
+ "drug": "uproleselan",
  "trials": {
   "query": "crescent biopharma",
   "other_trials": 0,

@@ -6,7 +6,7 @@
  "date": "2022-01-05",
  "asof": "2022-01-05",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-01-05",
   "adj_close": 191.55
@@ -34,6 +34,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 4100000000,
+  "as_of": "2020-06-30",
+  "filed": "2021-02-26"
  },
  "insiders": {
   "form4s": 20,
@@ -98,16 +108,25 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT04677179",
+    "nct": "NCT03785925",
     "drugs": [
-     "LY3471851"
+     "Bempegaldesleukin",
+     "Nivolumab"
     ]
    },
    {
-    "nct": "NCT04616196",
+    "nct": "NCT04410445",
     "drugs": [
-     "NKTR-255",
-     "Cetuximab"
+     "Bempegaldesleukin",
+     "Nivolumab"
+    ]
+   },
+   {
+    "nct": "NCT03435640",
+    "drugs": [
+     "NKTR-262",
+     "bempegaldesleukin",
+     "nivolumab"
     ]
    },
    {
@@ -124,14 +143,6 @@
      "NKTR-214",
      "Pembrolizumab",
      "NKTR-214"
-    ]
-   },
-   {
-    "nct": "NCT03435640",
-    "drugs": [
-     "NKTR-262",
-     "bempegaldesleukin",
-     "nivolumab"
     ]
    }
   ]

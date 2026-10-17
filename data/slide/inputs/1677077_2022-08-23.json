@@ -6,7 +6,7 @@
  "date": "2022-08-23",
  "asof": "2022-08-23",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-08-23",
   "adj_close": 1275.75
@@ -32,6 +32,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "price_reset_warrants": "- 75 - Pursuant to the securities purchase agreement, ALSF is entitled to full ratchet anti-dilution protection, most-favored nation status, denying our company the right to enter into a variable rate transaction absent its consent, and the right to participate in any future financing we may consummate."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 109100000,
+  "as_of": "2021-10-31",
+  "filed": "2022-07-19"
  },
  "insiders": {
   "form4s": 21,

@@ -6,7 +6,7 @@
  "date": "2024-02-28",
  "asof": "2024-02-29",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-02-29",
   "adj_close": 42.9
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 493420.0,
+  "tags": "NotesPayableCurrent"
+ },
+ "public_float": {
+  "usd": 41703585,
+  "as_of": "2022-06-30",
+  "filed": "2023-04-17"
+ },
  "insiders": {
   "form4s": 2,
   "from": "2023-11-30",
@@ -47,7 +57,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "ONP-002",
  "trials": {
   "query": "oragenics",
   "other_trials": 0,

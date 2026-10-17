@@ -6,7 +6,7 @@
  "date": "2021-11-18",
  "asof": "2021-11-18",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-11-18",
   "adj_close": 3.02
@@ -32,6 +32,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 58715000.0,
+  "tags": "NotesPayableCurrent+LongTermNotesPayable"
+ },
+ "public_float": {
+  "usd": 394331941,
+  "as_of": "2020-06-30",
+  "filed": "2021-03-11"
  },
  "insiders": {
   "form4s": 10,

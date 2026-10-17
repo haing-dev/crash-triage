@@ -6,7 +6,7 @@
  "date": "2023-03-21",
  "asof": "2023-03-21",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-03-21",
   "adj_close": 4.95
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 4581000.0,
+  "tags": "LongTermDebtNoncurrent"
+ },
+ "public_float": {
+  "usd": 537900000,
+  "as_of": "2022-06-30",
+  "filed": "2023-02-28"
  },
  "insiders": {
   "form4s": 18,
@@ -69,7 +79,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "pemvidutide",
  "trials": {
   "query": "altimmune",
   "other_trials": 2,

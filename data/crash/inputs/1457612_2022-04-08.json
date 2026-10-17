@@ -6,7 +6,7 @@
  "date": "2022-04-08",
  "asof": "2022-04-08",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-04-08",
   "adj_close": 0.4
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "These factors, combined with our forecast of cash required to fund operations for a period of at least one year from the date of issuance of these consolidated financial statements, raise substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 8787000.0,
+  "tags": "LongTermDebtNoncurrent+LongTermDebtCurrent"
+ },
+ "public_float": {
+  "usd": 108805512,
+  "as_of": "2021-06-30",
+  "filed": "2022-03-18"
  },
  "insiders": {
   "form4s": 13,

@@ -6,7 +6,7 @@
  "date": "2024-02-27",
  "asof": "2024-02-27",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-02-27",
   "adj_close": 2.8
@@ -33,13 +33,25 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {
+  "equity_line": "and the Registrant, dated as of February 13, 2014 S-1/A 333-195169 10.7 June 10, 2014 10.9 Form of Securities Purchase Agreement between certain investors referenced therein and the Registrant, dated as of March 13, 2015 8-K 001-36517 10.1 March 18, 2015 10.10 Form of Registration Rights Agreement between certain investors referenced therein and the Registrant, dated as of March 13, 2015 8-K 001-3"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 36900000,
+  "as_of": "2023-06-30",
+  "filed": "2024-02-26"
+ },
  "insiders": {
   "form4s": 0,
   "from": "2023-11-29",
   "to": "2024-03-28",
   "trades": []
  },
- "drug": null,
+ "drug": "roluperidone",
  "trials": {
   "query": "minerva neurosciences",
   "other_trials": 0,

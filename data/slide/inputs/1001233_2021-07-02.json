@@ -6,7 +6,7 @@
  "date": "2021-07-02",
  "asof": "2021-07-02",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-07-02",
   "adj_close": 11.71
@@ -35,6 +35,16 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 1262431735,
+  "as_of": "2020-06-30",
+  "filed": "2021-02-24"
+ },
  "insiders": {
   "form4s": 4,
   "from": "2021-04-03",
@@ -48,6 +58,24 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
+    "nct": "NCT03432364",
+    "drugs": [
+     "ST-400 Investigational product"
+    ]
+   },
+   {
+    "nct": "NCT04046224",
+    "drugs": [
+     "ST-920"
+    ]
+   },
+   {
+    "nct": "NCT04817774",
+    "drugs": [
+     "TX200-TR101"
+    ]
+   },
+   {
     "nct": "NCT02702115",
     "drugs": [
      "SB-318"
@@ -59,24 +87,6 @@
      "Plerixafor",
      "Busulfan",
      "BIVV003"
-    ]
-   },
-   {
-    "nct": "NCT04046224",
-    "drugs": [
-     "ST-920"
-    ]
-   },
-   {
-    "nct": "NCT03432364",
-    "drugs": [
-     "ST-400 Investigational product"
-    ]
-   },
-   {
-    "nct": "NCT04817774",
-    "drugs": [
-     "TX200-TR101"
     ]
    }
   ]

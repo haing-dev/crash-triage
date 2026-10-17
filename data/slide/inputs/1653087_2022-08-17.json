@@ -6,7 +6,7 @@
  "date": "2022-08-17",
  "asof": "2022-08-17",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-08-17",
   "adj_close": 11.83
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 1192500000,
+  "as_of": "2021-06-30",
+  "filed": "2022-02-24"
  },
  "insiders": {
   "form4s": 12,
@@ -69,18 +79,6 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT04592874",
-    "drugs": [
-     "AL002"
-    ]
-   },
-   {
-    "nct": "NCT05053035",
-    "drugs": [
-     "AL001"
-    ]
-   },
-   {
     "nct": "NCT04374136",
     "drugs": [
      "Part 1 Blinded - AL001",
@@ -88,7 +86,19 @@
     ]
    },
    {
+    "nct": "NCT04592874",
+    "drugs": [
+     "AL002"
+    ]
+   },
+   {
     "nct": "NCT03987295",
+    "drugs": [
+     "AL001"
+    ]
+   },
+   {
+    "nct": "NCT05053035",
     "drugs": [
      "AL001"
     ]

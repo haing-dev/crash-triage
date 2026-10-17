@@ -6,7 +6,7 @@
  "date": "2023-12-18",
  "asof": "2023-12-18",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-12-18",
   "adj_close": 3.665
@@ -32,6 +32,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 65124000.0,
+  "tags": "LongTermNotesPayable"
+ },
+ "public_float": {
+  "usd": 284000000,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-06"
  },
  "insiders": {
   "form4s": 1,

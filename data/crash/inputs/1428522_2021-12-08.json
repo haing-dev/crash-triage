@@ -4,12 +4,12 @@
  "cik": "1428522",
  "name": "Radius Health, Inc.",
  "date": "2021-12-08",
- "asof": "2021-12-09",
+ "asof": "2021-12-08",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2021-12-09",
-  "adj_close": 7.6
+  "date": "2021-12-08",
+  "adj_close": 8.01
  },
  "balance": {
   "end": "2021-09-30",
@@ -32,6 +32,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 148057000.0,
+  "tags": "SecuredDebt"
+ },
+ "public_float": {
+  "usd": 600000000,
+  "as_of": "2020-06-30",
+  "filed": "2021-02-25"
  },
  "insiders": {
   "form4s": 8,

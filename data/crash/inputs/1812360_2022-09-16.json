@@ -4,12 +4,12 @@
  "cik": "1812360",
  "name": "FOXO TECHNOLOGIES INC.",
  "date": "2022-09-16",
- "asof": "2022-09-19",
+ "asof": "2022-09-16",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2022-09-19",
-  "adj_close": 49.8008
+  "date": "2022-09-16",
+  "adj_close": 80.0797
  },
  "balance": {
   "end": "2022-06-30",
@@ -30,13 +30,25 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {
+  "equity_line": "F-12 DELWINDS INSURANCE ACQUISITION CORPORATION UNAUDITED CONDENSED NOTES TO FINANCIAL STATEMENTS Note 6 \u2014 Commitments (cont.) Financing Agreements Common Stock Purchase Agreement In connection with the FOXO Transaction Agreement, the Company also entered into a Common Stock Purchase Agreement (the \u201cCommon Stock Purchase Agreement\u201d) with CF Principal Investments LLC (\u201cCantor\u201d), pursuant to which, "
+ },
+ "debt": {
+  "usd": 560000.0,
+  "tags": "NotesPayableCurrent"
+ },
+ "public_float": {
+  "usd": 197023750,
+  "as_of": "2021-06-30",
+  "filed": "2022-03-07"
+ },
  "insiders": {
   "form4s": 11,
   "from": "2022-06-18",
   "to": "2022-10-16",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "foxo technologies",
   "other_trials": 0,

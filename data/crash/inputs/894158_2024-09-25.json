@@ -6,7 +6,7 @@
  "date": "2024-09-25",
  "asof": "2024-09-27",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-09-27",
   "adj_close": 1.49
@@ -34,29 +34,31 @@
   "flag": true,
   "quote": "These factors raise substantial doubt about the Company\u2019s ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 155000.0,
+  "tags": "LoansPayableCurrent+LongTermLoansPayable"
+ },
+ "public_float": {
+  "usd": 16791123000000,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-25"
+ },
  "insiders": {
   "form4s": 0,
   "from": "2024-06-27",
   "to": "2024-10-25",
   "trades": []
  },
- "drug": null,
+ "drug": "VCN-01",
  "trials": {
   "query": "theriva biologics",
-  "other_trials": 2,
-  "crashed_drug_trials": 0,
+  "other_trials": 1,
+  "crashed_drug_trials": 1,
   "examples": [
    {
     "nct": "NCT04692181",
     "drugs": []
-   },
-   {
-    "nct": "NCT05673811",
-    "drugs": [
-     "Nab-paclitaxel",
-     "Gemcitabine",
-     "VCN-01"
-    ]
    }
   ]
  }

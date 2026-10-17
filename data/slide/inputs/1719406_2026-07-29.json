@@ -6,7 +6,7 @@
  "date": "2026-07-29",
  "asof": "2026-07-29",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-07-29",
   "adj_close": 3.23
@@ -33,6 +33,19 @@
  "going_concern": {
   "flag": true,
   "quote": "In addition, the Company's independent registered public accounting firm, in its report on the Company's consolidated financial statements for the year ended December 31, 2025, expressed substantial doubt about the Company's ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "floating_convertible": "The First Tranche Notes bore interest at a rate of 6% per annum, maturing on November 14, 2025, and were convertible at the option of the holder at any time after issuance into Common Stock, at a per share conversion price equal to the lower of (a) $2.4168 or (b) a price equal to 92% of the lowest VWAP during the seven trading day period immediately preceding the effective conversion date.",
+  "price_reset_warrants": "In connection with the Second RD Purchase Agreement (see Note 11), and pursuant to the full ratchet anti-dilution provisions contained in the Anson financing agreements, the exercise price of all outstanding Common Stock purchase warrants issued on August 14, 2024, October 10, 2024, January 28, 2025, and January 29, 2025 (collectively, the \u201cAnson Warrants\u201d) were each adjusted to $1.65 per share, w"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 57400000,
+  "as_of": "2025-06-30",
+  "filed": "2026-03-23"
  },
  "insiders": {
   "form4s": 0,

@@ -6,7 +6,7 @@
  "date": "2025-11-03",
  "asof": "2025-11-03",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-11-03",
   "adj_close": 8.43
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "These circumstances raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 101000000,
+  "as_of": "2024-06-28",
+  "filed": "2025-04-15"
  },
  "insiders": {
   "form4s": 4,

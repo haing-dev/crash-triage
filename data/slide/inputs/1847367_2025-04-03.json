@@ -6,7 +6,7 @@
  "date": "2025-04-03",
  "asof": "2025-04-03",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-04-03",
   "adj_close": 8.54
@@ -31,6 +31,16 @@
  "going_concern": {
   "flag": true,
   "quote": "\u25cfAs a result of our history of losses and negative cash flows from operations, our consolidated financial statements contain a statement regarding a substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 165400000,
+  "as_of": "2024-06-30",
+  "filed": "2025-03-19"
  },
  "insiders": {
   "form4s": 10,
@@ -67,23 +77,9 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT06588738",
+    "nct": "NCT05966480",
     "drugs": [
-     "Envudeucitinib",
-     "Apremilast"
-    ]
-   },
-   {
-    "nct": "NCT05739435",
-    "drugs": [
-     "envudeucitinib"
-    ]
-   },
-   {
-    "nct": "NCT06846541",
-    "drugs": [
-     "Open-Label Envudeucitinib",
-     "Blinded Envudeucitinib"
+     "Envudeucitinib"
     ]
    },
    {
@@ -94,9 +90,23 @@
     ]
    },
    {
-    "nct": "NCT05966480",
+    "nct": "NCT06588738",
     "drugs": [
-     "Envudeucitinib"
+     "Envudeucitinib",
+     "Apremilast"
+    ]
+   },
+   {
+    "nct": "NCT06846541",
+    "drugs": [
+     "Open-Label Envudeucitinib",
+     "Blinded Envudeucitinib"
+    ]
+   },
+   {
+    "nct": "NCT05739435",
+    "drugs": [
+     "envudeucitinib"
     ]
    }
   ]

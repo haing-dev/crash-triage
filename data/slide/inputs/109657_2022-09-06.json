@@ -6,10 +6,10 @@
  "date": "2022-09-06",
  "asof": "2022-09-06",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-09-06",
-  "adj_close": 1687.5
+  "adj_close": 67.5
  },
  "balance": {
   "end": "2022-06-30",
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 372300000,
+  "as_of": "2021-06-30",
+  "filed": "2022-03-28"
  },
  "insiders": {
   "form4s": 6,

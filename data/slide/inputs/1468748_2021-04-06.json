@@ -6,7 +6,7 @@
  "date": "2021-04-06",
  "asof": "2021-04-06",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-04-06",
   "adj_close": 110.38
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 1600000000,
+  "as_of": "2020-06-30",
+  "filed": "2021-03-01"
  },
  "insiders": {
   "form4s": 6,
@@ -251,6 +261,14 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
+    "nct": "NCT04592419",
+    "drugs": [
+     "KSI-301",
+     "Aflibercept",
+     "Sham Procedure"
+    ]
+   },
+   {
     "nct": "NCT04603937",
     "drugs": [
      "KSI-301",
@@ -268,14 +286,6 @@
    },
    {
     "nct": "NCT04611152",
-    "drugs": [
-     "KSI-301",
-     "Aflibercept",
-     "Sham Procedure"
-    ]
-   },
-   {
-    "nct": "NCT04592419",
     "drugs": [
      "KSI-301",
      "Aflibercept",

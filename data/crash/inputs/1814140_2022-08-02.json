@@ -4,12 +4,12 @@
  "cik": "1814140",
  "name": "Apexigen, Inc.",
  "date": "2022-08-02",
- "asof": "2022-08-05",
+ "asof": "2022-08-04",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2022-08-05",
-  "adj_close": 10.03
+  "date": "2022-08-04",
+  "adj_close": 10.19
  },
  "balance": {
   "end": "2022-03-31",
@@ -34,13 +34,25 @@
   "flag": true,
   "quote": "These conditions raise substantial doubt about the Company\u2019s ability to continue as a going concern"
  },
+ "financing_terms": {
+  "equity_line": "Additionally, under the terms of the Business Combination Agreement, the obligations of the Company and Merger Sub to consummate the Business Combination, including the Merger, are subject to the satisfaction or waiver (where permissible) at or prior to the Closing of, among other customary closing conditions, the following conditions: (i) no Company Material Adverse Effect shall have occurred bet"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 59600000,
+  "as_of": "2021-06-30",
+  "filed": "2022-04-07"
+ },
  "insiders": {
   "form4s": 0,
   "from": "2022-05-04",
   "to": "2022-09-01",
   "trades": []
  },
- "drug": null,
+ "drug": "sotigalimab",
  "trials": {
   "query": "apexigen",
   "other_trials": 1,

@@ -6,7 +6,7 @@
  "date": "2026-02-05",
  "asof": "2026-02-05",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-02-05",
   "adj_close": 21.01
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "\u2022 Our financial condition raises substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 76100000,
+  "as_of": "2024-06-28",
+  "filed": "2025-03-27"
  },
  "insiders": {
   "form4s": 1,
@@ -62,15 +72,14 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT06556368",
+    "nct": "NCT06996080",
     "drugs": [
-     "Tarcocimab tedromer",
-     "Tabirafusp tedromer",
-     "Aflibercept"
+     "KSI-101",
+     "Sham Comparator"
     ]
    },
    {
-    "nct": "NCT06996080",
+    "nct": "NCT06990399",
     "drugs": [
      "KSI-101",
      "Sham Comparator"
@@ -84,10 +93,11 @@
     ]
    },
    {
-    "nct": "NCT06990399",
+    "nct": "NCT06556368",
     "drugs": [
-     "KSI-101",
-     "Sham Comparator"
+     "Tarcocimab tedromer",
+     "Tabirafusp tedromer",
+     "Aflibercept"
     ]
    }
   ]

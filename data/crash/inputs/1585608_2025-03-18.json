@@ -6,7 +6,7 @@
  "date": "2025-03-18",
  "asof": "2025-03-21",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-03-21",
   "adj_close": 3031.875
@@ -32,6 +32,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 33147000.0,
+  "tags": "NotesPayable"
+ },
+ "public_float": {
+  "usd": 9900000,
+  "as_of": "2023-06-30",
+  "filed": "2024-04-17"
  },
  "insiders": {
   "form4s": 8,

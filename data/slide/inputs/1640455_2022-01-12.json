@@ -6,7 +6,7 @@
  "date": "2022-01-12",
  "asof": "2022-01-12",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-01-12",
   "adj_close": 6.49
@@ -34,6 +34,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 117863213,
+  "as_of": "2020-06-30",
+  "filed": "2021-02-25"
  },
  "insiders": {
   "form4s": 10,
@@ -119,18 +129,18 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
+    "nct": "NCT04669899",
+    "drugs": [
+     "JTX-8064",
+     "pimivalimab"
+    ]
+   },
+   {
     "nct": "NCT04319224",
     "drugs": [
      "Vopratelimab",
      "Ipilimumab",
      "Nivolumab"
-    ]
-   },
-   {
-    "nct": "NCT04669899",
-    "drugs": [
-     "JTX-8064",
-     "pimivalimab"
     ]
    },
    {

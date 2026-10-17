@@ -6,7 +6,7 @@
  "date": "2024-01-30",
  "asof": "2024-01-30",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-01-30",
   "adj_close": 73.68
@@ -28,6 +28,14 @@
   "flag": true,
   "quote": "These factors among others raise substantial doubt about our ability to continue as a going concern"
  },
+ "financing_terms": {
+  "floating_convertible": "The \u201cConversion Price\u201d is equal to the lesser of (a) the Liquidation Value, (b) the offering price per share of Common Stock in the Company\u2019s IPO, or (c) the 10-day volume weighted average price per share of Common Stock, as reasonably determined by the Company."
+ },
+ "debt": {
+  "usd": 2174194.0,
+  "tags": "NotesPayable"
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 2,
   "from": "2023-11-01",
@@ -49,7 +57,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "Arakoda (Tafenoquine)",
  "trials": {
   "query": "60 degrees pharmaceuticals",
   "other_trials": 0,

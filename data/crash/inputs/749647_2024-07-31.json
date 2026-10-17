@@ -4,12 +4,12 @@
  "cik": "749647",
  "name": "Imunon, Inc.",
  "date": "2024-07-31",
- "asof": "2024-08-02",
+ "asof": "2024-07-31",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2024-08-02",
-  "adj_close": 14.73913
+  "date": "2024-07-31",
+  "adj_close": 17.6087
  },
  "balance": {
   "end": "2024-03-31",
@@ -35,6 +35,16 @@
   "flag": true,
   "quote": "Based on the above, management has determined there is substantial doubt regarding our ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 11900000,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-28"
+ },
  "insiders": {
   "form4s": 10,
   "from": "2024-05-02",
@@ -56,28 +66,12 @@
    }
   ]
  },
- "drug": null,
+ "drug": "IMNN-001",
  "trials": {
   "query": "imunon",
-  "other_trials": 4,
-  "crashed_drug_trials": 0,
+  "other_trials": 2,
+  "crashed_drug_trials": 2,
   "examples": [
-   {
-    "nct": "NCT05739981",
-    "drugs": [
-     "Paclitaxel",
-     "Carboplatin",
-     "Bevacizumab"
-    ]
-   },
-   {
-    "nct": "NCT00036998",
-    "drugs": [
-     "conventional surgery",
-     "neoadjuvant therapy",
-     "thermal ablation therapy"
-    ]
-   },
    {
     "nct": "NCT00036985",
     "drugs": [
@@ -87,9 +81,11 @@
     ]
    },
    {
-    "nct": "NCT06283459",
+    "nct": "NCT00036998",
     "drugs": [
-     "IMNN-101"
+     "conventional surgery",
+     "neoadjuvant therapy",
+     "thermal ablation therapy"
     ]
    }
   ]

@@ -6,7 +6,7 @@
  "date": "2023-06-20",
  "asof": "2023-06-20",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-06-20",
   "adj_close": 191.57001
@@ -32,6 +32,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 488106000.0,
+  "tags": "LongTermDebtNoncurrent+LongTermDebtCurrent"
+ },
+ "public_float": {
+  "usd": 16800000000,
+  "as_of": "2022-06-30",
+  "filed": "2023-02-27"
  },
  "insiders": {
   "form4s": 24,
@@ -236,11 +246,18 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT04771130",
+    "nct": "NCT04170283",
     "drugs": [
-     "BGB-11417",
-     "Azacitidine",
-     "Posaconazole"
+     "Zanubrutinib",
+     "Tislelizumab"
+    ]
+   },
+   {
+    "nct": "NCT04973605",
+    "drugs": [
+     "Sonrotoclax",
+     "Dexamethasone",
+     "Carfilzomib"
     ]
    },
    {
@@ -259,18 +276,11 @@
     ]
    },
    {
-    "nct": "NCT05100862",
+    "nct": "NCT04164199",
     "drugs": [
-     "Zanubrutinib",
-     "Rituximab",
-     "Lenalidomide"
-    ]
-   },
-   {
-    "nct": "NCT04170283",
-    "drugs": [
-     "Zanubrutinib",
-     "Tislelizumab"
+     "Tislelizumab",
+     "Pamiparib",
+     "Temozolomide"
     ]
    }
   ]

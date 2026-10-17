@@ -6,7 +6,7 @@
  "date": "2024-06-06",
  "asof": "2024-06-06",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-06-06",
   "adj_close": 1.83
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {
+  "equity_line": "AND SUBSIDIARY CONSOLIDATED STATEMENTS OF STOCKHOLDERS\u2019 EQUITY (unaudited) (in thousands, except share amounts) \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b Accumulated \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b Additional \u200b \u200b \u200b \u200b Other \u200b Total \u200b \u200b Common Stock \u200b Paid-in \u200b Accumulated \u200b Comprehensive \u200b Stockholders\u2019 \u200b Shares Amount Capital Deficit (Loss) Gain Equity Balances as of December 31, 2023 32"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 43124364,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-26"
+ },
  "insiders": {
   "form4s": 8,
   "from": "2024-03-08",
@@ -54,12 +66,6 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT05893537",
-    "drugs": [
-     "Active Comparator CT1812"
-    ]
-   },
-   {
     "nct": "NCT05531656",
     "drugs": [
      "CT1812"
@@ -69,6 +75,12 @@
     "nct": "NCT05225415",
     "drugs": [
      "CT1812"
+    ]
+   },
+   {
+    "nct": "NCT05893537",
+    "drugs": [
+     "Active Comparator CT1812"
     ]
    }
   ]

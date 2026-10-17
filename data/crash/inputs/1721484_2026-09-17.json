@@ -4,12 +4,12 @@
  "cik": "1721484",
  "name": "Longeveron Inc.",
  "date": "2026-09-17",
- "asof": "2026-09-18",
+ "asof": "2026-09-17",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2026-09-18",
-  "adj_close": 2.49
+  "date": "2026-09-17",
+  "adj_close": 2.71
  },
  "balance": {
   "end": "2026-06-30",
@@ -30,6 +30,16 @@
  "going_concern": {
   "flag": true,
   "quote": "As a result, there is substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 16492155,
+  "as_of": "2025-06-30",
+  "filed": "2026-03-17"
  },
  "insiders": {
   "form4s": 23,

@@ -6,7 +6,7 @@
  "date": "2023-03-24",
  "asof": "2023-03-24",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-03-24",
   "adj_close": 505.20001
@@ -33,6 +33,12 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 354336.0,
+  "tags": "NotesPayable"
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 0,
   "from": "2022-12-24",

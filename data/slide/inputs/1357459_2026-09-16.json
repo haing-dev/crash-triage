@@ -6,7 +6,7 @@
  "date": "2026-09-16",
  "asof": "2026-09-16",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-09-16",
   "adj_close": 1.69
@@ -32,6 +32,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "Recent Equity Transactions Common Stock Purchase Agreement On March 27, 2026, the Company issued and sold 1,536,885 shares of its common stock, par value $0.01 per share, to an investor for a total purchase price of $3.0 million, or $1.952 per share, pursuant to a common stock purchase agreement, dated March 27, 2026, by and between the Company and the investor."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 11200000,
+  "as_of": "2025-06-30",
+  "filed": "2026-03-20"
  },
  "insiders": {
   "form4s": 10,

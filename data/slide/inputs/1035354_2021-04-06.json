@@ -6,7 +6,7 @@
  "date": "2021-04-06",
  "asof": "2021-04-06",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-04-06",
   "adj_close": 1390.40002
@@ -34,6 +34,16 @@
   "flag": true,
   "quote": "We have concluded that these conditions, in aggregate, raise substantial doubt about our ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 11615000.0,
+  "tags": "LongTermDebtNoncurrent+LongTermDebtCurrent"
+ },
+ "public_float": {
+  "usd": 82832622,
+  "as_of": "2020-06-30",
+  "filed": "2021-03-12"
+ },
  "insiders": {
   "form4s": 13,
   "from": "2021-01-06",
@@ -47,14 +57,14 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT04126473",
+    "nct": "NCT04135495",
     "drugs": [
      "ELX-02",
      "Ivacaftor"
     ]
    },
    {
-    "nct": "NCT04135495",
+    "nct": "NCT04126473",
     "drugs": [
      "ELX-02",
      "Ivacaftor"

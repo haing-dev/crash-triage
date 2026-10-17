@@ -4,12 +4,12 @@
  "cik": "1662579",
  "name": "C4 Therapeutics, Inc.",
  "date": "2022-04-08",
- "asof": "2022-04-11",
+ "asof": "2022-04-08",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2022-04-11",
-  "adj_close": 8.01
+  "date": "2022-04-08",
+  "adj_close": 11.32
  },
  "balance": {
   "end": "2021-12-31",
@@ -35,6 +35,16 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 10768000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 1278344331,
+  "as_of": "2021-06-30",
+  "filed": "2022-02-24"
+ },
  "insiders": {
   "form4s": 17,
   "from": "2022-01-08",
@@ -49,7 +59,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "CFT7455",
  "trials": {
   "query": "c4 therapeutics",
   "other_trials": 0,

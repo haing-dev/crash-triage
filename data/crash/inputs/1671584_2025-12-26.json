@@ -4,12 +4,12 @@
  "cik": "1671584",
  "name": "Aptevo Therapeutics Inc.",
  "date": "2025-12-26",
- "asof": "2025-12-30",
+ "asof": "2025-12-29",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2025-12-30",
-  "adj_close": 9.39
+  "date": "2025-12-29",
+  "adj_close": 9.9
  },
  "balance": {
   "end": "2025-09-30",
@@ -32,6 +32,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "In the third quarter of 2025, we raised approximately $18.7 million in aggregate net proceeds through the issuance of common stock under the Standby Equity Purchase Agreement (the \u201cSEPA\u201d) with YA II PN, LTD., a Cayman Islands exempt limited company (\u201cYorkville\u201d), dated June 16, 2025, and the At the Market Offering Agreement (the \u201cATM Agreement\u201d) with Roth Capital Partners, LLC, as sales agent (\u201cRo"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 1200000,
+  "as_of": "2024-06-30",
+  "filed": "2025-02-14"
  },
  "insiders": {
   "form4s": 2,

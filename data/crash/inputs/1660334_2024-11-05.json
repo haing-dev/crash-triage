@@ -6,7 +6,7 @@
  "date": "2024-11-05",
  "asof": "2024-11-05",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-11-05",
   "adj_close": 7.98
@@ -32,6 +32,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 43305000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 152400000,
+  "as_of": "2023-06-30",
+  "filed": "2024-02-29"
  },
  "insiders": {
   "form4s": 12,
@@ -138,7 +148,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "YCANTH (VP-102)",
  "trials": {
   "query": "verrica pharmaceuticals",
   "other_trials": 0,

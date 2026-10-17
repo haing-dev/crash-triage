@@ -6,7 +6,7 @@
  "date": "2025-08-05",
  "asof": "2025-08-05",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-08-05",
   "adj_close": 2.12
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "\u2022 We have not generated any revenue from the sale of our products, have a history of losses and expect to incur substantial future losses; the report of our auditor on our consolidated financial statements expresses substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 69500000,
+  "as_of": "2024-06-28",
+  "filed": "2025-03-27"
  },
  "insiders": {
   "form4s": 10,

@@ -6,7 +6,7 @@
  "date": "2025-11-12",
  "asof": "2025-11-12",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-11-12",
   "adj_close": 2.1
@@ -32,6 +32,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "On April 20, 2023, UPTD entered into the Common Stock Purchase Agreement and the White Lion RRA with White Lion."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 39971984,
+  "as_of": "2024-07-01",
+  "filed": "2025-03-25"
  },
  "insiders": {
   "form4s": 0,

@@ -6,7 +6,7 @@
  "date": "2020-11-04",
  "asof": "2020-11-04",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2020-11-04",
   "adj_close": 6.51
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "In Note 2 \u2013 Going Concern to our Condensed Consolidated Financial Statements set forth in this Report, we note that certain conditions raise substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 75200.0,
+  "tags": "LoansPayable"
+ },
+ "public_float": {
+  "usd": 44427991,
+  "as_of": "2019-10-31",
+  "filed": "2020-08-13"
  },
  "insiders": {
   "form4s": 0,

@@ -6,7 +6,7 @@
  "date": "2026-07-02",
  "asof": "2026-07-02",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-07-02",
   "adj_close": 3.91
@@ -35,6 +35,12 @@
   "flag": true,
   "quote": "Evaluation of Substantial Doubt Raised In performing the first step of the evaluation, the Company concluded that the following conditions raised substantial doubt about its ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 2,
   "from": "2026-04-03",

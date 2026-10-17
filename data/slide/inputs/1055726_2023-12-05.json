@@ -6,7 +6,7 @@
  "date": "2023-12-05",
  "asof": "2023-12-05",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-12-05",
   "adj_close": 4.8
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 16488329.0,
+  "tags": "ConvertibleDebtCurrent+ConvertibleDebtNoncurrent"
+ },
+ "public_float": {
+  "usd": 425500000,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-01"
  },
  "insiders": {
   "form4s": 0,

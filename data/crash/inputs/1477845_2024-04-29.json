@@ -4,12 +4,12 @@
  "cik": "1477845",
  "name": "Annovis Bio, Inc.",
  "date": "2024-04-29",
- "asof": "2024-05-03",
+ "asof": "2024-04-29",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2024-05-03",
-  "adj_close": 5.18
+  "date": "2024-04-29",
+  "adj_close": 7.28
  },
  "balance": {
   "end": "2023-12-31",
@@ -34,13 +34,23 @@
   "flag": true,
   "quote": "Risk Factors Risks Related to Our Financial Position and Need for Additional Capital Our recurring operating losses, negative cash flows from operations, and accumulated deficit raise substantial doubt about our ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 91527093,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-29"
+ },
  "insiders": {
   "form4s": 0,
   "from": "2024-01-30",
   "to": "2024-05-29",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "annovis bio",
   "other_trials": 0,

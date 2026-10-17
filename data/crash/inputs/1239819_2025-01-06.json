@@ -6,7 +6,7 @@
  "date": "2025-01-06",
  "asof": "2025-01-06",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-01-06",
   "adj_close": 0.8891
@@ -33,13 +33,23 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 31887000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 182200000,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-16"
+ },
  "insiders": {
   "form4s": 5,
   "from": "2024-10-08",
   "to": "2025-02-05",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "luna innovations",
   "other_trials": 0,

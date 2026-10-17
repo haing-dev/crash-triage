@@ -6,7 +6,7 @@
  "date": "2024-08-05",
  "asof": "2024-08-05",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-08-05",
   "adj_close": 8.65
@@ -34,6 +34,16 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 1800000000,
+  "as_of": "2023-06-30",
+  "filed": "2024-02-26"
+ },
  "insiders": {
   "form4s": 13,
   "from": "2024-05-07",
@@ -55,11 +65,11 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT04856085",
+    "nct": "NCT05612581",
     "drugs": [
-     "VIR-2218",
      "VIR-3434",
-     "PEG-IFN\u03b1"
+     "VIR-2218",
+     "TDF"
     ]
    },
    {
@@ -71,18 +81,18 @@
     ]
    },
    {
+    "nct": "NCT04856085",
+    "drugs": [
+     "VIR-2218",
+     "VIR-3434",
+     "PEG-IFN\u03b1"
+    ]
+   },
+   {
     "nct": "NCT05356741",
     "drugs": [
      "VIR-5818",
      "pembrolizumab"
-    ]
-   },
-   {
-    "nct": "NCT05612581",
-    "drugs": [
-     "VIR-3434",
-     "VIR-2218",
-     "TDF"
     ]
    }
   ]

@@ -6,7 +6,7 @@
  "date": "2025-10-24",
  "asof": "2025-10-24",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-10-24",
   "adj_close": 1.82
@@ -30,6 +30,16 @@
  "going_concern": {
   "flag": true,
   "quote": "Forward-looking statements contained in this Quarterly Report on Form 10-Q include, but are not limited to, statements about: \u2022 our ability to raise additional capital to fund our existing operations and continue as a going concern; \u2022 our plans to improve our liquidity and financial position in resp"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 17500000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 51900000,
+  "as_of": "2024-06-28",
+  "filed": "2025-03-31"
  },
  "insiders": {
   "form4s": 5,

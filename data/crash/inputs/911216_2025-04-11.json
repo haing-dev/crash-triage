@@ -6,7 +6,7 @@
  "date": "2025-04-11",
  "asof": "2025-04-11",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-04-11",
   "adj_close": 8.5
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "Investors are cautioned that statements that are not strictly historical facts contained in this Quarterly Report, including, without limitation, the following are forward looking statements: \u00b7our significant operating losses since our inception and our need to obtain additional financing has caused"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 55737667,
+  "as_of": "2023-12-29",
+  "filed": "2024-09-30"
  },
  "insiders": {
   "form4s": 0,

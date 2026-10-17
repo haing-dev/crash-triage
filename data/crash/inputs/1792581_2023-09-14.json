@@ -4,12 +4,12 @@
  "cik": "1792581",
  "name": "Kiromic Biopharma, Inc.",
  "date": "2023-09-14",
- "asof": "2023-09-15",
+ "asof": "2023-09-14",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2023-09-15",
-  "adj_close": 0.375
+  "date": "2023-09-14",
+  "adj_close": 0.6
  },
  "balance": {
   "end": "2023-06-30",
@@ -34,13 +34,25 @@
   "flag": true,
   "quote": "This condition raises substantial doubt about the Company\u2019s ability to continue as a going concern"
  },
+ "financing_terms": {
+  "equity_line": "Condensed Consolidated Statements of Stockholders\u2019 Deficit (Unaudited) \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b Preferred Stock \u200b Common Stock \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b Number of \u200b \u200b \u200b \u200b Number of \u200b \u200b \u200b \u200b Additional \u200b Accumulated \u200b \u200b \u200b Shares Amount \u200b Shares Amount Paid-In Capital Deficit \u200b Total Balance at December 31, 2022 \u2014 \u200b $ \u2014 \u200b 648,384 \u200b $ 648 \u200b $ 96,172,152 \u200b $"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 6731623,
+  "as_of": "2022-06-30",
+  "filed": "2023-04-28"
+ },
  "insiders": {
   "form4s": 5,
   "from": "2023-06-16",
   "to": "2023-10-14",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "kiromic biopharma",
   "other_trials": 0,

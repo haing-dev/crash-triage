@@ -4,12 +4,12 @@
  "cik": "1678660",
  "name": "Prelude Therapeutics Inc",
  "date": "2024-09-13",
- "asof": "2024-09-17",
+ "asof": "2024-09-16",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2024-09-17",
-  "adj_close": 2.45
+  "date": "2024-09-16",
+  "adj_close": 2.6
  },
  "balance": {
   "end": "2024-06-30",
@@ -34,13 +34,23 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 77100000,
+  "as_of": "2023-06-30",
+  "filed": "2024-02-15"
+ },
  "insiders": {
   "form4s": 8,
   "from": "2024-06-15",
   "to": "2024-10-13",
   "trades": []
  },
- "drug": null,
+ "drug": "PRT3789",
  "trials": {
   "query": "prelude therapeutics",
   "other_trials": 0,

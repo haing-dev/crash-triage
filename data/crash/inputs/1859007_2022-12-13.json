@@ -4,12 +4,12 @@
  "cik": "1859007",
  "name": "ZyVersa Therapeutics, Inc.",
  "date": "2022-12-13",
- "asof": "2022-12-19",
+ "asof": "2022-12-13",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2022-12-19",
-  "adj_close": 955.5
+  "date": "2022-12-13",
+  "adj_close": 2625.0
  },
  "balance": {
   "end": "2022-09-30",
@@ -30,13 +30,19 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 9,
   "from": "2022-09-14",
   "to": "2023-01-12",
   "trades": []
  },
- "drug": null,
+ "drug": "VAR 200",
  "trials": {
   "query": "zyversa therapeutics",
   "other_trials": 0,

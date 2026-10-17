@@ -4,12 +4,12 @@
  "cik": "1709941",
  "name": "BioAge Labs, Inc.",
  "date": "2024-12-09",
- "asof": "2024-12-13",
+ "asof": "2024-12-09",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2024-12-13",
-  "adj_close": 4.28
+  "date": "2024-12-09",
+  "adj_close": 4.65
  },
  "balance": {
   "end": "2024-09-30",
@@ -27,6 +27,12 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 9940000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 11,
   "from": "2024-09-10",

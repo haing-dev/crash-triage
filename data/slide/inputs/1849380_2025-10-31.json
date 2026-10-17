@@ -6,7 +6,7 @@
  "date": "2025-10-31",
  "asof": "2025-10-31",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-10-31",
   "adj_close": 21.2
@@ -33,6 +33,19 @@
  "going_concern": {
   "flag": true,
   "quote": "Therefore, these conditions raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "floating_convertible": "Debt PIPE Notes On June 28, 2023, Data Knights and certain investors (the \u201cPurchasers\u201d) entered into a Securities Purchase Agreement pursuant to which Data Knights issued and sold to the Purchasers senior secured convertible notes (the \u201cPIPE Notes\u201d), which are convertible into shares of our common stock, par value $0.0001 per share (\u201cCommon Stock\u201d), at the Purchasers\u2019 election at a conversion pric",
+  "equity_line": "The following table summarizes shareholder loans outstanding as of December 31, 2024 (in thousands): Schedule of Shareholder Loans Outstanding December 31, 2024 Shareholder loans \u2013 non-convertible $654 Shareholder loans \u2013 convertible 1,600 Accrued interest 65 Total loan \u2013 related party $2,319 Yorkville Note On June 17, 2024, the Company entered into a Standby Equity Purchase Agreement (\u201cSEPA\u201d) wit"
+ },
+ "debt": {
+  "usd": 400000.0,
+  "tags": "LoansPayableCurrent"
+ },
+ "public_float": {
+  "usd": 9700000,
+  "as_of": "2024-06-28",
+  "filed": "2025-04-15"
  },
  "insiders": {
   "form4s": 11,

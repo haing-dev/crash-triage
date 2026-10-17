@@ -4,12 +4,12 @@
  "cik": "836564",
  "name": "Mosaic ImmunoEngineering Inc.",
  "date": "2022-03-04",
- "asof": "2022-03-07",
+ "asof": "2022-03-04",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2022-03-07",
-  "adj_close": 1.0
+  "date": "2022-03-04",
+  "adj_close": 1.1
  },
  "balance": {
   "end": "2021-12-31",
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "These matters raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "floating_convertible": "The Convertible Notes will convert into the same equity securities offered in the Qualified Financing or Smaller Financing (\u201cConversion Shares\u201d), as described below, at a conversion price equal to the lower of (i) the product equal to 80% times the lowest per unit purchase price of the equity securities issued for cash in the Qualified Financing or Smaller Financing, or (ii) $2.377 (\u201cConversion Pr"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 1284558,
+  "as_of": "2021-06-30",
+  "filed": "2022-01-26"
  },
  "insiders": {
   "form4s": 5,

@@ -6,7 +6,7 @@
  "date": "2024-04-12",
  "asof": "2024-04-12",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-04-12",
   "adj_close": 11.56
@@ -33,6 +33,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "54 Net cash provided by financing activities of $48.6 million for the year ended December 31, 2022, consisted primarily of the gross proceeds of $45.0 million from the April 2022 public offering, the $2.2 million in gross proceeds from common stock issued under our ATM and common stock purchase agreement, and the $5.0 million received from the Loan Agreement, offset in part by payments of offering"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 109140501000000,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-28"
  },
  "insiders": {
   "form4s": 4,

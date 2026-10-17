@@ -6,7 +6,7 @@
  "date": "2024-09-03",
  "asof": "2024-09-03",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-09-03",
   "adj_close": 16.79
@@ -34,13 +34,23 @@
   "flag": true,
   "quote": "These factors raise substantial doubt about the Company\u2019s ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 10060000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 16996283,
+  "as_of": "2023-06-30",
+  "filed": "2024-04-01"
+ },
  "insiders": {
   "form4s": 0,
   "from": "2024-06-05",
   "to": "2024-10-03",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "tonix pharmaceuticals",
   "other_trials": 1,

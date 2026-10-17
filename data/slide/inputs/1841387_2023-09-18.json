@@ -6,7 +6,7 @@
  "date": "2023-09-18",
  "asof": "2023-09-18",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-09-18",
   "adj_close": 1.19
@@ -34,6 +34,16 @@
   "flag": true,
   "quote": "There is substantial doubt regarding our ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 20355000.0,
+  "tags": "LongTermDebtNoncurrent+LongTermDebtCurrent"
+ },
+ "public_float": {
+  "usd": 72300000,
+  "as_of": "2022-06-30",
+  "filed": "2023-05-01"
+ },
  "insiders": {
   "form4s": 8,
   "from": "2023-06-20",
@@ -47,16 +57,22 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT04495153",
-    "drugs": [
-     "Aglatimagene besadenovec"
-    ]
-   },
-   {
     "nct": "NCT02768363",
     "drugs": [
      "aglatimagene besadenovec",
      "valacyclovir"
+    ]
+   },
+   {
+    "nct": "NCT01436968",
+    "drugs": [
+     "Aglatimagene besadenovec + valacyclovir"
+    ]
+   },
+   {
+    "nct": "NCT04495153",
+    "drugs": [
+     "Aglatimagene besadenovec"
     ]
    },
    {
@@ -65,12 +81,6 @@
      "Aglatimagene besadenovec",
      "Chemoradiation",
      "Stereotactic body radiation therapy"
-    ]
-   },
-   {
-    "nct": "NCT01436968",
-    "drugs": [
-     "Aglatimagene besadenovec + valacyclovir"
     ]
    }
   ]

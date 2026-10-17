@@ -6,7 +6,7 @@
  "date": "2024-11-29",
  "asof": "2024-11-29",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-11-29",
   "adj_close": 7.1
@@ -32,6 +32,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "UNAUDITED CONDENSED CONSOLIDATED STATEMENTS OF STOCKHOLDERS\u2019 EQUITY Accumulated Additional Other Treasury Common Stock Paid-in Comprehensive Accumulated Stock, Shares Amount Capital Loss Deficit at Cost Total Balance at September 30, 2023 (Restated) 93,966,402 $939,664 $283,894,830 $(581,519) $(256,768,209) $(7,806,605) $19,678,161 Share-based compensation \u2014 \u2014 3,406,949 \u2014 \u2014 \u2014 3,406,949 Issuance of"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 77700000,
+  "as_of": "2023-03-31",
+  "filed": "2024-04-01"
  },
  "insiders": {
   "form4s": 4,

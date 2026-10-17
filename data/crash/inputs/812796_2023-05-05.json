@@ -4,12 +4,12 @@
  "cik": "812796",
  "name": "SOLIGENIX, INC.",
  "date": "2023-05-05",
- "asof": "2023-05-11",
+ "asof": "2023-05-05",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2023-05-11",
-  "adj_close": 12.32
+  "date": "2023-05-05",
+  "adj_close": 17.6
  },
  "balance": {
   "end": "2022-12-31",
@@ -34,13 +34,25 @@
   "flag": true,
   "quote": "\u25cfOur losses from operations, negative cash flows, and shareholders' deficit as of December 31, 2022 as well as a projected potential breach of our cash debt covenant with our debt holder during the 12 month look-forward period from the issuance of the financial statements without taking additional m"
  },
+ "financing_terms": {
+  "equity_line": "We also entered into a common stock purchase agreement with SciClone pursuant to which we sold 23,530 shares of our common stock to SciClone for approximately $127.50 per share, for an aggregate price of $3 million."
+ },
+ "debt": {
+  "usd": 9897691.0,
+  "tags": "ConvertibleDebtCurrent"
+ },
+ "public_float": {
+  "usd": 25734915,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-31"
+ },
  "insiders": {
   "form4s": 1,
   "from": "2023-02-04",
   "to": "2023-06-04",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "soligenix",
   "other_trials": 1,

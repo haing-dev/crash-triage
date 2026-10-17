@@ -6,7 +6,7 @@
  "date": "2024-02-20",
  "asof": "2024-02-20",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-02-20",
   "adj_close": 54.96
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 319000000,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-14"
  },
  "insiders": {
   "form4s": 8,
@@ -62,29 +72,17 @@
    }
   ]
  },
- "drug": null,
+ "drug": "zelnecirnon (RPT193)",
  "trials": {
   "query": "rapt therapeutics",
-  "other_trials": 3,
-  "crashed_drug_trials": 0,
+  "other_trials": 1,
+  "crashed_drug_trials": 2,
   "examples": [
-   {
-    "nct": "NCT05935332",
-    "drugs": [
-     "RPT193"
-    ]
-   },
    {
     "nct": "NCT03674567",
     "drugs": [
      "FLX475 (tivumecirnon)",
      "pembrolizumab (KEYTRUDA\u00ae)"
-    ]
-   },
-   {
-    "nct": "NCT05399368",
-    "drugs": [
-     "RPT193"
     ]
    }
   ]

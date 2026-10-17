@@ -6,7 +6,7 @@
  "date": "2026-07-31",
  "asof": "2026-07-31",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-07-31",
   "adj_close": 1.92
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "Based on our current business plan and current capital resources, combined with the uncertainty regarding the availability of additional funding or other strategic alternatives and considering our debt service obligations and financial covenant to maintain minimum liquidity, we have concluded that t"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 37000000,
+  "as_of": "2025-06-30",
+  "filed": "2026-02-13"
  },
  "insiders": {
   "form4s": 13,

@@ -6,7 +6,7 @@
  "date": "2024-09-03",
  "asof": "2024-09-03",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-09-03",
   "adj_close": 159.5
@@ -34,30 +34,29 @@
   "flag": true,
   "quote": "These conditions raise substantial doubt regarding our ability to continue as a going concern"
  },
+ "financing_terms": {
+  "equity_line": "In June 2024, we entered into a Common Stock Purchase Agreement, or the ELOC Purchase Agreement, establishing an equity line of credit with the purchaser, or the Purchaser, whereby we have the right, but not the obligation, to sell to the Purchaser, and the Purchaser is obligated to purchase, up to the lesser of (i) $35 million of newly issued shares of our common stock, and (ii) the Exchange Cap "
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 6200000,
+  "as_of": "2023-06-30",
+  "filed": "2024-04-16"
+ },
  "insiders": {
   "form4s": 2,
   "from": "2024-06-05",
   "to": "2024-10-03",
   "trades": []
  },
- "drug": null,
+ "drug": "istaroxime",
  "trials": {
   "query": "windtree therapeutics",
-  "other_trials": 2,
-  "crashed_drug_trials": 0,
-  "examples": [
-   {
-    "nct": "NCT05975021",
-    "drugs": [
-     "Istaroxime"
-    ]
-   },
-   {
-    "nct": "NCT04325035",
-    "drugs": [
-     "Istaroxime"
-    ]
-   }
-  ]
+  "other_trials": 0,
+  "crashed_drug_trials": 2,
+  "examples": []
  }
 }

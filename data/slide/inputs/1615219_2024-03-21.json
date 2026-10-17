@@ -6,7 +6,7 @@
  "date": "2024-03-21",
  "asof": "2024-03-21",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-03-21",
   "adj_close": 842.40002
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "The lack of revenue from product sales to date and recurring losses from operations since its inception raise substantial doubt as to the Company's ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 459091.0,
+  "tags": "NotesPayableCurrent"
+ },
+ "public_float": {
+  "usd": 11654060,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-27"
  },
  "insiders": {
   "form4s": 8,

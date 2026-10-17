@@ -4,12 +4,12 @@
  "cik": "1680367",
  "name": "Shattuck Labs, Inc.",
  "date": "2024-10-01",
- "asof": "2024-10-04",
+ "asof": "2024-10-01",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2024-10-04",
-  "adj_close": 1.22
+  "date": "2024-10-01",
+  "adj_close": 1.92
  },
  "balance": {
   "end": "2024-06-30",
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 85554422,
+  "as_of": "2023-06-30",
+  "filed": "2024-02-29"
+ },
  "insiders": {
   "form4s": 1,
   "from": "2024-07-03",
@@ -47,7 +57,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "SL-172154",
  "trials": {
   "query": "shattuck labs",
   "other_trials": 0,

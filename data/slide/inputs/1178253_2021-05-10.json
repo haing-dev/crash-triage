@@ -6,7 +6,7 @@
  "date": "2021-05-10",
  "asof": "2021-05-10",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-05-10",
   "adj_close": 52.0
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {
+  "equity_line": "We may issue and sell to Aspire Capital from time to time pursuant to the common stock purchase agreement an aggregate amount of up to $20.0 million of shares of common stock."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 77935551,
+  "as_of": "2020-06-30",
+  "filed": "2021-03-29"
+ },
  "insiders": {
   "form4s": 1,
   "from": "2021-02-09",
@@ -46,10 +58,10 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT04029116",
+    "nct": "NCT03672292",
     "drugs": [
-     "Fluconazole Tablet",
-     "IBREXAFUNGERP"
+     "SCY-078",
+     "Voriconazole"
     ]
    },
    {
@@ -59,16 +71,16 @@
     ]
    },
    {
-    "nct": "NCT03672292",
-    "drugs": [
-     "SCY-078",
-     "Voriconazole"
-    ]
-   },
-   {
     "nct": "NCT03363841",
     "drugs": [
      "SCY-078"
+    ]
+   },
+   {
+    "nct": "NCT04029116",
+    "drugs": [
+     "Fluconazole Tablet",
+     "IBREXAFUNGERP"
     ]
    }
   ]

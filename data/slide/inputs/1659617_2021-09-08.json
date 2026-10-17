@@ -6,7 +6,7 @@
  "date": "2021-09-08",
  "asof": "2021-09-08",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-09-08",
   "adj_close": 1162.5
@@ -32,6 +32,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "Condensed Consolidated Statements of Stockholders\u2019 Equity (in thousands, except for shares) (unaudited) Six Months Ended June 30, 2021 Common Stock Common Stock Subscribed Accumulated Shares Par Value Amount Shares Par Value Amount Additional Paid-In Capital Accumulated Deficit Other Comprehensive Income (Loss) Subscription Receivable Stockholder's Equity Balance, December 31, 2020 11,536,720 $69 "
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 52000000,
+  "as_of": "2020-06-30",
+  "filed": "2021-03-24"
  },
  "insiders": {
   "form4s": 5,

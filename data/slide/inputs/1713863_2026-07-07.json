@@ -6,7 +6,7 @@
  "date": "2026-07-07",
  "asof": "2026-07-07",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-07-07",
   "adj_close": 2.34
@@ -32,6 +32,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "floating_convertible": "The conversion price of the Series C Convertible Notes upon a Qualified Financing shall be the lesser of (i) 90% of the price per share (or unit) at which the securities in the Qualified Financing are sold, or (ii) $1.25 price per share (or unit) (whichever is less) at the holder\u2019s selection of (i) or (ii), and 90% of the share price per share (or unit) at which securities in an IPO are first sold"
+ },
+ "debt": {
+  "usd": 608000.0,
+  "tags": "ConvertibleNotesPayableCurrent"
+ },
+ "public_float": {
+  "usd": 38600000,
+  "as_of": "2025-01-31",
+  "filed": "2025-10-29"
  },
  "insiders": {
   "form4s": 3,

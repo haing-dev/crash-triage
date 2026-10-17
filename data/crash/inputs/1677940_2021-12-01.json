@@ -4,12 +4,12 @@
  "cik": "1677940",
  "name": "BeyondSpring Inc.",
  "date": "2021-12-01",
- "asof": "2021-12-03",
+ "asof": "2021-12-01",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2021-12-03",
-  "adj_close": 4.02
+  "date": "2021-12-01",
+  "adj_close": 4.93
  },
  "balance": {
   "end": "2021-06-30",
@@ -34,13 +34,19 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 2184000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 0,
   "from": "2021-09-02",
   "to": "2021-12-31",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "beyondspring",
   "other_trials": 0,

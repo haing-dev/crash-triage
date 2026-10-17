@@ -6,7 +6,7 @@
  "date": "2026-05-13",
  "asof": "2026-05-13",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-05-13",
   "adj_close": 26.01
@@ -33,6 +33,19 @@
  "going_concern": {
   "flag": true,
   "quote": "The report of the independent registered public accounting firm covering our consolidated financial statements for the year ended December 31, 2024 stated that certain factors, including that we had suffered recurring losses from operations and had an accumulated deficit at December 31, 2024, raised"
+ },
+ "financing_terms": {
+  "floating_convertible": "In addition, on the maturity date of the Convertible Notes, if the Company\u2019s Permitted Senior Indebtedness does not permit the Company to make the cash payment then due under the Convertible Notes, the Convertible Conversion Price will automatically adjust to a price equal to the average volume weighted average price of the Common Stock for the five trading days ending immediately prior to the Con",
+  "equity_line": "For the year ended December 31, 2024, net cash flows provided by financing activities were $6.2 million resulting from (i) net proceeds from Common Stock issued for cash of $6.0 million, (ii) $0.1 million from an equity line of credit, and (iii) proceeds from loans of $0.5 million, offset by payment on rescission on stock of $0.1 million, stock repurchases of $0.1 million and payments on loans of "
+ },
+ "debt": {
+  "usd": 31441000.0,
+  "tags": "ConvertibleDebtNoncurrent"
+ },
+ "public_float": {
+  "usd": 6700000,
+  "as_of": "2025-06-30",
+  "filed": "2026-03-19"
  },
  "insiders": {
   "form4s": 6,

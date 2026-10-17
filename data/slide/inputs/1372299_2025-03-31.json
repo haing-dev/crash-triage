@@ -6,7 +6,7 @@
  "date": "2025-03-31",
  "asof": "2025-03-31",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-03-31",
   "adj_close": 0.70599997
@@ -36,6 +36,16 @@
   "flag": true,
   "quote": "These factors raise substantial doubt about our ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 28671000.0,
+  "tags": "LongTermDebtNoncurrent+LongTermDebtCurrent"
+ },
+ "public_float": {
+  "usd": 392900000,
+  "as_of": "2024-06-30",
+  "filed": "2025-03-05"
+ },
  "insiders": {
   "form4s": 4,
   "from": "2024-12-31",
@@ -49,18 +59,6 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT05956626",
-    "drugs": [
-     "OCU410ST"
-    ]
-   },
-   {
-    "nct": "NCT06388200",
-    "drugs": [
-     "Sub-Retinal Administration of OCU400-301"
-    ]
-   },
-   {
     "nct": "NCT06018558",
     "drugs": [
      "OCU410"
@@ -72,6 +70,18 @@
      "OCU400 Low Dose",
      "OCU400 Med Dose",
      "OCU400 High Dose"
+    ]
+   },
+   {
+    "nct": "NCT05956626",
+    "drugs": [
+     "OCU410ST"
+    ]
+   },
+   {
+    "nct": "NCT06388200",
+    "drugs": [
+     "Sub-Retinal Administration of OCU400-301"
     ]
    }
   ]

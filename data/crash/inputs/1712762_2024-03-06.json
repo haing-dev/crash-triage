@@ -6,7 +6,7 @@
  "date": "2024-03-06",
  "asof": "2024-03-06",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-03-06",
   "adj_close": 675.0
@@ -34,13 +34,19 @@
   "flag": true,
   "quote": "Based on the Company\u2019s current expected level of operating expenditures and the cash and cash equivalents on hand at September 30, 2023, management concludes that there is substantial doubt about the Company\u2019s ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 17,
   "from": "2023-12-07",
   "to": "2024-04-05",
   "trades": []
  },
- "drug": null,
+ "drug": "CyPath Lung",
  "trials": {
   "query": "bioaffinity technologies",
   "other_trials": 0,

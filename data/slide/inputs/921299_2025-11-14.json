@@ -6,7 +6,7 @@
  "date": "2025-11-14",
  "asof": "2025-11-14",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-11-14",
   "adj_close": 8.69
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "These factors had raised substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "equity_line": "8-K 001-36740 4.1 11/21/2014 4.2 Common Stock Purchase Agreement by and between FibroGen, Inc."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 88400000,
+  "as_of": "2024-06-30",
+  "filed": "2025-03-17"
  },
  "insiders": {
   "form4s": 5,

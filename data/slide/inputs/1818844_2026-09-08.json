@@ -6,7 +6,7 @@
  "date": "2026-09-08",
  "asof": "2026-09-08",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-09-08",
   "adj_close": 2.04
@@ -32,6 +32,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 8092720,
+  "as_of": "2025-06-30",
+  "filed": "2026-03-18"
  },
  "insiders": {
   "form4s": 4,

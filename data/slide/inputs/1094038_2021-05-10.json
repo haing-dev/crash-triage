@@ -6,7 +6,7 @@
  "date": "2021-05-10",
  "asof": "2021-05-10",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-05-10",
   "adj_close": 22.4
@@ -33,6 +33,19 @@
  "going_concern": {
   "flag": true,
   "quote": "These factors raise substantial doubt regarding our ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "price_reset_warrants": "This exercise affects the accounting for (i) certain freestanding warrants that contain exercise price adjustment features and (ii) convertible notes containing full-ratchet and anti-dilution protections (iii) certain free-standing warrants that contain contingently putable cash settlement.",
+  "equity_line": "81 Table of Contents Aspire Common Stock Purchase Agreement In February 2020, we entered into a common stock purchase agreement, or the Purchase Agreement, with Aspire Capital Fund, LLC, or Aspire Capital, which provides that, upon the terms and subject to the conditions and limitations set forth therein, Aspire Capital is committed to purchase up to an aggregate of $30.0 million of shares of our "
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 64600000,
+  "as_of": "2020-06-30",
+  "filed": "2021-03-09"
  },
  "insiders": {
   "form4s": 25,

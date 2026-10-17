@@ -6,7 +6,7 @@
  "date": "2023-09-22",
  "asof": "2023-09-22",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-09-22",
   "adj_close": 1.61
@@ -35,6 +35,16 @@
   "flag": true,
   "quote": "Risks Relating to Our Accounting and Financial Policies \u2022 Although our consolidated financial statements have been prepared on a going concern basis, our management believes that our recurring losses and negative cash flows from operations and other factors have raised substantial doubt about our ab"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 25218066.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 3557010,
+  "as_of": "2023-07-14",
+  "filed": "2023-07-17"
+ },
  "insiders": {
   "form4s": 1,
   "from": "2023-06-24",
@@ -49,7 +59,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "neptune wellness solutions",
   "other_trials": 0,

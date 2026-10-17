@@ -6,7 +6,7 @@
  "date": "2026-03-27",
  "asof": "2026-03-27",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-03-27",
   "adj_close": 6.02
@@ -33,6 +33,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "floating_convertible": "The ordinary shares of Imugene Limited were determined using a conversion price based on the 10 days volume weighted average price of Imugene Limited\u2019s ordinary shares prior to the date of conversion."
+ },
+ "debt": {
+  "usd": 22404000.0,
+  "tags": "LoansPayable"
+ },
+ "public_float": {
+  "usd": 47100000,
+  "as_of": "2025-06-30",
+  "filed": "2026-03-12"
  },
  "insiders": {
   "form4s": 8,

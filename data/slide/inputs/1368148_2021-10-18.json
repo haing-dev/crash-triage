@@ -6,7 +6,7 @@
  "date": "2021-10-18",
  "asof": "2021-10-18",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-10-18",
   "adj_close": 31.25
@@ -32,6 +32,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "Stockholders\u2019 Equity Equity Purchase Agreement We have had equity purchase agreements in place since 2011 with Aspire Capital Fund, LLC (\u201cAspire Capital\u201d) that provide us the ability to sell shares to Aspire Capital from time to time."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 464400000,
+  "as_of": "2020-06-30",
+  "filed": "2021-03-25"
  },
  "insiders": {
   "form4s": 5,

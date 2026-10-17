@@ -4,12 +4,12 @@
  "cik": "1723980",
  "name": "China SXT Pharmaceuticals, Inc.",
  "date": "2022-01-18",
- "asof": "2022-01-20",
+ "asof": "2022-01-18",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2022-01-20",
-  "adj_close": 9216000.0
+  "date": "2022-01-18",
+  "adj_close": 832.5
  },
  "balance": {
   "end": "2021-09-30",
@@ -34,13 +34,19 @@
   "flag": true,
   "quote": "It is management\u2019s opinion that these conditions do not raise substantial doubt about the Company\u2019s ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 0,
   "from": "2021-10-20",
   "to": "2022-02-17",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "china sxt pharmaceuticals",
   "other_trials": 0,

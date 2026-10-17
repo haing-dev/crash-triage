@@ -6,7 +6,7 @@
  "date": "2025-01-08",
  "asof": "2025-01-08",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-01-08",
   "adj_close": 6.99
@@ -34,6 +34,16 @@
   "flag": true,
   "quote": "Given our recurring losses from operations and negative cash flows, and based on our current operating plan, we have concluded that there is substantial doubt about our ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 110500000,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-05"
+ },
  "insiders": {
   "form4s": 1,
   "from": "2024-10-10",
@@ -48,34 +58,16 @@
    }
   ]
  },
- "drug": null,
+ "drug": "briquilimab",
  "trials": {
   "query": "jasper therapeutics",
-  "other_trials": 4,
-  "crashed_drug_trials": 0,
+  "other_trials": 1,
+  "crashed_drug_trials": 3,
   "examples": [
    {
     "nct": "NCT02963064",
     "drugs": [
      "Humanized anti-CD117 Monoclonal Antibody (JSP191)"
-    ]
-   },
-   {
-    "nct": "NCT06353971",
-    "drugs": [
-     "Briquilimab"
-    ]
-   },
-   {
-    "nct": "NCT06162728",
-    "drugs": [
-     "Briquilimab"
-    ]
-   },
-   {
-    "nct": "NCT06736262",
-    "drugs": [
-     "Briquilimab"
     ]
    }
   ]

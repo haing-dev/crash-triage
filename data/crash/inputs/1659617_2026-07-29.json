@@ -4,12 +4,12 @@
  "cik": "1659617",
  "name": "Moleculin Biotech, Inc.",
  "date": "2026-07-29",
- "asof": "2026-07-31",
+ "asof": "2026-07-30",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2026-07-31",
-  "adj_close": 0.40000001
+  "date": "2026-07-30",
+  "adj_close": 1.02
  },
  "balance": {
   "end": "2026-03-31",
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "These factors raise substantial doubt regarding the Company's ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 8800000,
+  "as_of": "2025-12-31",
+  "filed": "2026-04-14"
  },
  "insiders": {
   "form4s": 6,

@@ -6,7 +6,7 @@
  "date": "2026-03-24",
  "asof": "2026-03-24",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-03-24",
   "adj_close": 4.13
@@ -32,6 +32,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 50106000.0,
+  "tags": "LongTermDebtNoncurrent"
+ },
+ "public_float": {
+  "usd": 544800000,
+  "as_of": "2025-06-30",
+  "filed": "2026-03-19"
  },
  "insiders": {
   "form4s": 8,
@@ -110,13 +120,13 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT05606614",
+    "nct": "NCT06152237",
     "drugs": [
      "TSHA-102"
     ]
    },
    {
-    "nct": "NCT06152237",
+    "nct": "NCT05606614",
     "drugs": [
      "TSHA-102"
     ]

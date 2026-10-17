@@ -4,12 +4,12 @@
  "cik": "1468748",
  "name": "Kodiak Sciences Inc.",
  "date": "2023-07-24",
- "asof": "2023-07-28",
+ "asof": "2023-07-25",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2023-07-28",
-  "adj_close": 2.87
+  "date": "2023-07-25",
+  "adj_close": 3.63
  },
  "balance": {
   "end": "2023-03-31",
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 242600000,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-28"
  },
  "insiders": {
   "form4s": 13,
@@ -69,7 +79,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "tarcocimab tedromer",
  "trials": {
   "query": "kodiak sciences",
   "other_trials": 1,

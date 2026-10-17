@@ -6,7 +6,7 @@
  "date": "2021-05-06",
  "asof": "2021-05-06",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-05-06",
   "adj_close": 17.36
@@ -33,6 +33,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "To the extent that we raise additional capital through the sale of equity, including pursuant to any sales under the Common Stock Sales Agreement entered into in March 2017 (\u201cATM Agreement\u201d) with Cowen and Company, LLC (\u201cCowen\u201d) or the Common Stock Purchase Agreement entered into in December 2019 (\u201cCommon Stock Purchase Agreement\u201d) with Aspire Capital Fund LLC (\u201cAspire Capital\u201d), convertible debt,"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 58500000,
+  "as_of": "2020-06-30",
+  "filed": "2021-03-26"
  },
  "insiders": {
   "form4s": 5,

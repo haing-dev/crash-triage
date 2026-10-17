@@ -6,7 +6,7 @@
  "date": "2021-10-13",
  "asof": "2021-10-13",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-10-13",
   "adj_close": 100.2
@@ -34,6 +34,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 35018000.0,
+  "tags": "LongTermDebtNoncurrent"
+ },
+ "public_float": {
+  "usd": 410327063,
+  "as_of": "2020-06-30",
+  "filed": "2021-03-19"
  },
  "insiders": {
   "form4s": 4,

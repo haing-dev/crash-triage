@@ -6,7 +6,7 @@
  "date": "2022-05-06",
  "asof": "2022-05-06",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-05-06",
   "adj_close": 193.61
@@ -35,6 +35,16 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 7275200000.0,
+  "tags": "NotesPayable"
+ },
+ "public_float": {
+  "usd": 51264577902,
+  "as_of": "2021-06-30",
+  "filed": "2022-02-03"
+ },
  "insiders": {
   "form4s": 24,
   "from": "2022-02-05",
@@ -44,38 +54,38 @@
  "drug": null,
  "trials": {
   "query": "biogen",
-  "other_trials": 8,
+  "other_trials": 10,
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT01181089",
+    "nct": "NCT04856982",
     "drugs": [
-     "Baminercept"
+     "Tofersen"
     ]
    },
    {
-    "nct": "NCT05067790",
+    "nct": "NCT02283853",
     "drugs": [
-     "Nusinersen"
+     "dimethyl fumarate",
+     "Interferon \u03b2-1a"
     ]
    },
    {
-    "nct": "NCT04729907",
+    "nct": "NCT04961567",
     "drugs": [
-     "Nusinersen"
+     "Litifilimab"
     ]
    },
    {
-    "nct": "NCT03689972",
+    "nct": "NCT04241068",
     "drugs": [
-     "Natalizumab",
-     "Natalizumab"
+     "Aducanumab"
     ]
    },
    {
-    "nct": "NCT05083923",
+    "nct": "NCT05065970",
     "drugs": [
-     "Diroximel fumarate"
+     "Felzartamab"
     ]
    }
   ]

@@ -4,12 +4,12 @@
  "cik": "1860657",
  "name": "Allarity Therapeutics, Inc.",
  "date": "2023-03-24",
- "asof": "2023-03-30",
+ "asof": "2023-03-29",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2023-03-30",
-  "adj_close": 42240.0
+  "date": "2023-03-29",
+  "adj_close": 43200.0
  },
  "balance": {
   "end": "2022-12-31",
@@ -34,22 +34,36 @@
   "flag": true,
   "quote": "The report from our independent registered public accounting firm for the year ended December 31, 2022, includes an explanatory paragraph stating that our recurring losses from operations since inception and our accumulated deficit raise substantial doubt about our ability to continue as a going con"
  },
+ "financing_terms": {
+  "floating_convertible": "On December 9, 2022, the Company and 3i, LP entered into a letter agreement which provided that pursuant to Section 8(g) of the Certificate of Designations for the Series A Preferred Stock, the parties agreed that the Conversion Price (as defined in such Certificate of Designations) was modified to mean the lower of: (i) the Closing Sale Price (as defined in the Certificate of Designations) on the",
+  "price_reset_warrants": "The adjustment is a \u201cfull ratchet\u201d adjustment in the conversion price of the Series A Preferred Stock and the exercise price of the Warrant equal to the lower of the new issuance price or the then existing conversion price of the Series A Preferred Stock or exercise price of Warrant, with few exceptions required to redeem the shares we were unable to deliver at a price equal to the highest closing"
+ },
+ "debt": {
+  "usd": 2644000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 10592706,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-13"
+ },
  "insiders": {
   "form4s": 0,
   "from": "2022-12-24",
   "to": "2023-04-23",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "allarity therapeutics",
   "other_trials": 3,
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT03562832",
+    "nct": "NCT03878849",
     "drugs": [
-     "PARP inhibitor 2X-121"
+     "2X-121",
+     "2X-121"
     ]
    },
    {
@@ -59,10 +73,9 @@
     ]
    },
    {
-    "nct": "NCT03878849",
+    "nct": "NCT03562832",
     "drugs": [
-     "2X-121",
-     "2X-121"
+     "PARP inhibitor 2X-121"
     ]
    }
   ]

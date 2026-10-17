@@ -6,7 +6,7 @@
  "date": "2023-05-15",
  "asof": "2023-05-15",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-05-15",
   "adj_close": 12.335
@@ -18,6 +18,9 @@
   "shares": 81559780
  },
  "going_concern": null,
+ "financing_terms": null,
+ "debt": null,
+ "public_float": null,
  "insiders": {
   "form4s": 0,
   "from": "2023-02-14",
@@ -31,12 +34,6 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT05142722",
-    "drugs": [
-     "Obicetrapib"
-    ]
-   },
-   {
     "nct": "NCT05425745",
     "drugs": [
      "Obicetrapib"
@@ -44,6 +41,12 @@
    },
    {
     "nct": "NCT05202509",
+    "drugs": [
+     "Obicetrapib"
+    ]
+   },
+   {
+    "nct": "NCT05142722",
     "drugs": [
      "Obicetrapib"
     ]

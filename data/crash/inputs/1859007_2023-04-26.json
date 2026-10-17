@@ -6,7 +6,7 @@
  "date": "2023-04-26",
  "asof": "2023-04-26",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-04-26",
   "adj_close": 174.3
@@ -34,13 +34,26 @@
   "flag": true,
   "quote": "Those circumstances raise substantial doubt about our ability to continue as a going concern"
  },
+ "financing_terms": {
+  "floating_convertible": "The automatic conversion price shall equal the lesser of (A) $3.25 per share or (B) 80% of the price per share of the (i) in the case of an Initial Public Offering (\u201cIPO\u201d) or Reg A Offering, the lowest price per share of the qualified offering securities issued, (ii) in the case of a reverse merger, the gross price per share of common stock payable to the Company\u2019s stockholders, or (iii) in the ca",
+  "price_reset_warrants": "The conversion price of the PIPE Shares and the Series B Shares would be reset to the price our shares are sold in any proposed offering, but not below a price of $2.00 for the PIPE Shares and $7.00 for the Series B Shares."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 77127889,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-31"
+ },
  "insiders": {
   "form4s": 1,
   "from": "2023-01-26",
   "to": "2023-05-26",
   "trades": []
  },
- "drug": null,
+ "drug": "VAR 200",
  "trials": {
   "query": "zyversa therapeutics",
   "other_trials": 0,

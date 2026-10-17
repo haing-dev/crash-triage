@@ -6,7 +6,7 @@
  "date": "2022-02-07",
  "asof": "2022-02-09",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-02-09",
   "adj_close": 2568.0
@@ -28,6 +28,12 @@
   "flag": true,
   "quote": "These factors raise substantial doubt about the Company\u2019s ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 12,
   "from": "2021-11-09",
@@ -42,7 +48,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "DMT310",
  "trials": {
   "query": "dermata therapeutics",
   "other_trials": 1,

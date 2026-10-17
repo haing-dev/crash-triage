@@ -6,7 +6,7 @@
  "date": "2024-04-22",
  "asof": "2024-04-22",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-04-22",
   "adj_close": 40.73715
@@ -33,6 +33,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "Atlas Equity Line of Credit On March 28, 2024, we entered into a purchase agreement (the \u201cPurchase Agreement\u201d) and a registration rights agreement (the \u201cRegistration Rights Agreement\u201d) with Atlas Sciences, LLC, a Utah limited liability company (\u201cAtlas\u201d), pursuant to which Atlas has committed to purchase up to $15 million of our Common Stock."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 31829482,
+  "as_of": "2023-06-30",
+  "filed": "2024-04-01"
  },
  "insiders": {
   "form4s": 8,

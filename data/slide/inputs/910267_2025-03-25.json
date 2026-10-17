@@ -6,7 +6,7 @@
  "date": "2025-03-25",
  "asof": "2025-03-25",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-03-25",
   "adj_close": 3.85
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "Titan has incurred net losses in almost every year since its inception, which losses will continue for the foreseeable future and raise substantial doubt about its ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 3700000,
+  "as_of": "2024-06-30",
+  "filed": "2025-03-20"
  },
  "insiders": {
   "form4s": 0,

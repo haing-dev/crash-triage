@@ -6,7 +6,7 @@
  "date": "2024-09-16",
  "asof": "2024-09-16",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-09-16",
   "adj_close": 20.45
@@ -33,6 +33,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "(\u201cAmgen\u201d) In September 2016, Amgen and the Company entered into two collaboration and license agreements and a common stock purchase agreement."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 2300000000,
+  "as_of": "2023-03-31",
+  "filed": "2023-11-29"
  },
  "insiders": {
   "form4s": 1,
@@ -61,21 +73,21 @@
     ]
    },
    {
-    "nct": "NCT05413135",
+    "nct": "NCT05292950",
     "drugs": [
-     "ARO-APOC3"
+     "ARO-MUC5AC"
+    ]
+   },
+   {
+    "nct": "NCT06347003",
+    "drugs": [
+     "Plozasiran Injection"
     ]
    },
    {
     "nct": "NCT06347016",
     "drugs": [
      "Plozasiran Injection"
-    ]
-   },
-   {
-    "nct": "NCT05276570",
-    "drugs": [
-     "ARO-RAGE"
     ]
    },
    {

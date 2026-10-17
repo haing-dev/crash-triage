@@ -6,7 +6,7 @@
  "date": "2023-06-22",
  "asof": "2023-06-22",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-06-22",
   "adj_close": 2.4125
@@ -34,13 +34,23 @@
   "flag": true,
   "quote": "As a result, management has concluded that there is substantial doubt about the Company\u2019s ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 4000000,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-20"
+ },
  "insiders": {
   "form4s": 0,
   "from": "2023-03-24",
   "to": "2023-07-22",
   "trades": []
  },
- "drug": null,
+ "drug": "LADR7",
  "trials": {
   "query": "ladrx",
   "other_trials": 0,

@@ -4,12 +4,12 @@
  "cik": "1069530",
  "name": "FILANA THERAPEUTICS, INC.",
  "date": "2024-11-25",
- "asof": "2024-11-26",
+ "asof": "2024-11-25",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2024-11-26",
-  "adj_close": 3.83
+  "date": "2024-11-25",
+  "adj_close": 4.3
  },
  "balance": {
   "end": "2024-09-30",
@@ -32,6 +32,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 967000000,
+  "as_of": "2023-06-30",
+  "filed": "2024-02-28"
  },
  "insiders": {
   "form4s": 8,
@@ -61,7 +71,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "simufilam",
  "trials": {
   "query": "filana therapeutics",
   "other_trials": 0,

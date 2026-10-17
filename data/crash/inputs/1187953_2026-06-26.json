@@ -6,7 +6,7 @@
  "date": "2026-06-26",
  "asof": "2026-06-29",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-06-29",
   "adj_close": 0.81019998
@@ -32,6 +32,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "floating_convertible": "The conversion price is based on a discount to the Issuer\u2019s trading price, defined as 65% of the lowest traded price during the 10 trading days immediately preceding the conversion date."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 4633334,
+  "as_of": "2025-06-30",
+  "filed": "2026-04-24"
  },
  "insiders": {
   "form4s": 0,

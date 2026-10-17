@@ -6,7 +6,7 @@
  "date": "2024-08-23",
  "asof": "2024-08-23",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-08-23",
   "adj_close": 1.66
@@ -32,6 +32,19 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "floating_convertible": "The amortization payments due upon such redemption are payable, at the Company\u2019s election, in cash, or subject to certain limitations, in shares of common stock valued at the lower of (i) the Conversion Price then in effect and (ii) the greater of (A) a 20% discount to the average of the three lowest closing prices of the Company\u2019s common stock during the thirty trading day period immediately prio",
+  "price_reset_warrants": "The exercise price of each TNF Warrant is subject to customary adjustments for stock dividends, stock splits, reclassifications and the like, and subject to price-based adjustment, on a \u201cfull ratchet\u201d basis, in the event of any issuances of TNF Common Shares or securities convertible, exercisable or exchangeable for TNF Common Shares at a price below the then-applicable exercise price (subject to "
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 18203997,
+  "as_of": "2023-10-31",
+  "filed": "2024-08-13"
  },
  "insiders": {
   "form4s": 4,

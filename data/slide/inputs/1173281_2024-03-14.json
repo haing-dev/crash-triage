@@ -6,7 +6,7 @@
  "date": "2024-03-14",
  "asof": "2024-03-14",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-03-14",
   "adj_close": 0.91
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "Accordingly, there are material risks and uncertainties that raised substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "equity_line": "Stockholders\u2019 Equity Equity Purchase Agreement On December 28, 2022, the Company entered into a purchase agreement (the \u201cEquity Purchase Agreement\u201d) with Alumni Capital LP, a Delaware limited partnership (\u201cAlumni Capital\u201d), pursuant to which the Company agreed to sell, and Alumni Capital agreed to purchase, upon request of the Company in one or more transactions, a number of shares of the Company\u2019"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 57900000,
+  "as_of": "2022-03-31",
+  "filed": "2022-12-21"
  },
  "insiders": {
   "form4s": 0,

@@ -4,12 +4,12 @@
  "cik": "819050",
  "name": "Fresh Tracks Therapeutics, Inc.",
  "date": "2023-03-10",
- "asof": "2023-03-13",
+ "asof": "2023-03-10",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2023-03-13",
-  "adj_close": 0.74
+  "date": "2023-03-10",
+  "adj_close": 0.8882
  },
  "balance": {
   "end": "2022-09-30",
@@ -33,13 +33,23 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 66300000,
+  "as_of": "2021-06-30",
+  "filed": "2022-03-15"
+ },
  "insiders": {
   "form4s": 4,
   "from": "2022-12-10",
   "to": "2023-04-09",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "fresh tracks therapeutics",
   "other_trials": 0,

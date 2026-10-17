@@ -6,7 +6,7 @@
  "date": "2023-10-23",
  "asof": "2023-10-23",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-10-23",
   "adj_close": 62.0099983
@@ -32,6 +32,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 176820000.0,
+  "tags": "LongTermDebtNoncurrent"
+ },
+ "public_float": {
+  "usd": 1200000000,
+  "as_of": "2022-06-30",
+  "filed": "2023-02-28"
  },
  "insiders": {
   "form4s": 2,
@@ -61,9 +71,16 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT05550207",
+    "nct": "NCT05113745",
     "drugs": [
-     "AXS-07 (meloxicam-rizatriptan)"
+     "AXS-12 (reboxetine)"
+    ]
+   },
+   {
+    "nct": "NCT05972044",
+    "drugs": [
+     "Solriamfetol 150 mg",
+     "Solriamfetol 300 mg"
     ]
    },
    {
@@ -79,16 +96,9 @@
     ]
    },
    {
-    "nct": "NCT05113745",
+    "nct": "NCT05550207",
     "drugs": [
-     "AXS-12 (reboxetine)"
-    ]
-   },
-   {
-    "nct": "NCT05972044",
-    "drugs": [
-     "Solriamfetol 150 mg",
-     "Solriamfetol 300 mg"
+     "AXS-07 (meloxicam-rizatriptan)"
     ]
    }
   ]

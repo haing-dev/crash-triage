@@ -6,7 +6,7 @@
  "date": "2021-05-27",
  "asof": "2021-05-27",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-05-27",
   "adj_close": 19.56
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 659242807,
+  "as_of": "2020-06-30",
+  "filed": "2021-03-18"
  },
  "insiders": {
   "form4s": 16,
@@ -195,15 +205,15 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT04083339",
-    "drugs": [
-     "AT-001"
-    ]
-   },
-   {
     "nct": "NCT04902781",
     "drugs": [
      "AT-007"
+    ]
+   },
+   {
+    "nct": "NCT04083339",
+    "drugs": [
+     "AT-001"
     ]
    },
    {

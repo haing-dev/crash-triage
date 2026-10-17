@@ -6,7 +6,7 @@
  "date": "2021-09-20",
  "asof": "2021-09-20",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-09-20",
   "adj_close": 128.64
@@ -32,6 +32,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 6737900000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 5958338704,
+  "as_of": "2020-06-30",
+  "filed": "2021-04-23"
  },
  "insiders": {
   "form4s": 28,
@@ -152,16 +162,16 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT05027139",
+    "nct": "NCT03295396",
     "drugs": [
-     "Zanidatamab",
-     "Evorpacept"
+     "Dordaviprone (ONC201)"
     ]
    },
    {
-    "nct": "NCT04466891",
+    "nct": "NCT04571645",
     "drugs": [
-     "ZW25 (Zanidatamab)"
+     "Dociparstat",
+     "Control"
     ]
    },
    {
@@ -171,15 +181,16 @@
     ]
    },
    {
-    "nct": "NCT04592159",
+    "nct": "NCT04203498",
     "drugs": [
      "Nabiximols"
     ]
    },
    {
-    "nct": "NCT04421456",
+    "nct": "NCT05027139",
     "drugs": [
-     "GWP42003-P"
+     "Zanidatamab",
+     "Evorpacept"
     ]
    }
   ]

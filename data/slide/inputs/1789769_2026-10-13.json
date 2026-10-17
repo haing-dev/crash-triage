@@ -6,7 +6,7 @@
  "date": "2026-10-13",
  "asof": "2026-10-13",
  "final": false,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-10-13",
   "adj_close": 6.18
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "As disclosed and defined in Note 10, the 2024 Loan is due in January 2027, for total principal of $85.6 million, which is in excess of cash, cash equivalents, and marketable securities on hand as of June 30, 2026, which management has concluded is an indicator of substantial doubt about the Company\u2019"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 85192000.0,
+  "tags": "LongTermLoansPayable"
+ },
+ "public_float": {
+  "usd": 83400000,
+  "as_of": "2025-06-30",
+  "filed": "2026-03-27"
  },
  "insiders": {
   "form4s": 0,

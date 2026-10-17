@@ -4,12 +4,12 @@
  "cik": "1782107",
  "name": "Onconetix, Inc.",
  "date": "2026-02-12",
- "asof": "2026-02-19",
+ "asof": "2026-02-13",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2026-02-19",
-  "adj_close": 36.0
+  "date": "2026-02-13",
+  "adj_close": 38.7
  },
  "balance": {
   "end": "2025-09-30",
@@ -33,6 +33,19 @@
  "going_concern": {
   "flag": true,
   "quote": "These factors raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "floating_convertible": "Alternate Conversion Price means, with respect to any Alternate Conversion that price will be the lowest of (i) the applicable Conversion Price as in effect on the applicable Conversion Date of the applicable Alternate Conversion, and (ii) the greater of (x) the Floor Price and (y) 80% of the lowest VWAP of the Common Stock during the five (5) consecutive Trading Day period ending and including th",
+  "equity_line": "Pursuant to the November A&R Forbearance Agreement, Veru agreed to waive the due date for payment of applicable Cash Receipt Payments (as such term is defined in the A&R Forbearance Agreement) generated in October 2024 until the Company receives funds of at least $97,000 pursuant to its equity line of credit facility with Keystone Capital Partners LLC."
+ },
+ "debt": {
+  "usd": 160267.0,
+  "tags": "NotesPayableCurrent"
+ },
+ "public_float": {
+  "usd": 3600000,
+  "as_of": "2024-06-30",
+  "filed": "2025-06-02"
  },
  "insiders": {
   "form4s": 0,

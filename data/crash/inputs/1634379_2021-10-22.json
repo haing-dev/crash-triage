@@ -4,12 +4,12 @@
  "cik": "1634379",
  "name": "Metacrine, Inc.",
  "date": "2021-10-22",
- "asof": "2021-10-27",
+ "asof": "2021-10-22",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2021-10-27",
-  "adj_close": 1.43
+  "date": "2021-10-22",
+  "adj_close": 1.63
  },
  "balance": {
   "end": "2021-06-30",
@@ -34,6 +34,12 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 9498000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 1,
   "from": "2021-07-24",
@@ -55,23 +61,17 @@
    }
   ]
  },
- "drug": null,
+ "drug": "MET642",
  "trials": {
   "query": "metacrine",
-  "other_trials": 2,
-  "crashed_drug_trials": 0,
+  "other_trials": 1,
+  "crashed_drug_trials": 1,
   "examples": [
    {
     "nct": "NCT04702490",
     "drugs": [
      "MET409 Active",
      "Empagliflozin"
-    ]
-   },
-   {
-    "nct": "NCT04773964",
-    "drugs": [
-     "MET642"
     ]
    }
   ]

@@ -6,7 +6,7 @@
  "date": "2021-05-17",
  "asof": "2021-05-17",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-05-17",
   "adj_close": 566.70001
@@ -34,6 +34,16 @@
  "going_concern": {
   "flag": true,
   "quote": "The financial statements have been prepared assuming that the Company will continue as a going concern, but due to recurring losses from operations and future liquidity needs, there is substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 411591295,
+  "as_of": "2020-03-31",
+  "filed": "2020-12-29"
  },
  "insiders": {
   "form4s": 13,

@@ -4,12 +4,12 @@
  "cik": "1860657",
  "name": "Allarity Therapeutics, Inc.",
  "date": "2024-06-25",
- "asof": "2024-06-26",
+ "asof": "2024-06-25",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2024-06-26",
-  "adj_close": 6.03
+  "date": "2024-06-25",
+  "adj_close": 6.24
  },
  "balance": {
   "end": "2024-03-31",
@@ -33,29 +33,41 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {
+  "floating_convertible": "Determination of Conversion Price Adjustments for Series A Preferred Stock On December 9, 2022, the Company and 3i entered into a letter agreement (the \u201c2022 Letter Agreement\u201d) which provided that pursuant to Section 8(g) of the Company\u2019s Certificate of Designations for the Series A Preferred Stock (the \u201cCOD\u201d), the Company and 3i agreed that the Conversion Price (as defined in the COD) was modifie"
+ },
+ "debt": {
+  "usd": 2690000.0,
+  "tags": "ConvertibleNotesPayableCurrent"
+ },
+ "public_float": {
+  "usd": 3323760,
+  "as_of": "2023-06-30",
+  "filed": "2024-04-29"
+ },
  "insiders": {
   "form4s": 0,
   "from": "2024-03-27",
   "to": "2024-07-25",
   "trades": []
  },
- "drug": null,
+ "drug": "stenoparib",
  "trials": {
   "query": "allarity therapeutics",
   "other_trials": 2,
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT04796324",
-    "drugs": [
-     "Ixabepilone Injection"
-    ]
-   },
-   {
     "nct": "NCT03878849",
     "drugs": [
      "2X-121",
      "2X-121"
+    ]
+   },
+   {
+    "nct": "NCT04796324",
+    "drugs": [
+     "Ixabepilone Injection"
     ]
    }
   ]

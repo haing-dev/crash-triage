@@ -6,7 +6,7 @@
  "date": "2022-05-04",
  "asof": "2022-05-05",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-05-05",
   "adj_close": 27.0
@@ -34,13 +34,23 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 1710300000,
+  "as_of": "2021-06-30",
+  "filed": "2022-05-02"
+ },
  "insiders": {
   "form4s": 12,
   "from": "2022-02-03",
   "to": "2022-06-03",
   "trades": []
  },
- "drug": null,
+ "drug": "VASCEPA (icosapent ethyl)",
  "trials": {
   "query": "amarin uk",
   "other_trials": 0,

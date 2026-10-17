@@ -6,7 +6,7 @@
  "date": "2025-10-10",
  "asof": "2025-10-10",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-10-10",
   "adj_close": 6.09
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 392500000,
+  "as_of": "2024-06-30",
+  "filed": "2025-02-27"
+ },
  "insiders": {
   "form4s": 4,
   "from": "2025-07-12",
@@ -46,15 +56,15 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT07038824",
-    "drugs": [
-     "ENTR-601-45"
-    ]
-   },
-   {
     "nct": "NCT07037862",
     "drugs": [
      "ENTR-601-44"
+    ]
+   },
+   {
+    "nct": "NCT07038824",
+    "drugs": [
+     "ENTR-601-45"
     ]
    }
   ]

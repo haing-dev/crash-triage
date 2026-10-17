@@ -6,7 +6,7 @@
  "date": "2024-08-28",
  "asof": "2024-08-28",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-08-28",
   "adj_close": 125.0
@@ -32,6 +32,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 142292.0,
+  "tags": "NotesPayableCurrent"
+ },
+ "public_float": {
+  "usd": 14363801,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-11"
  },
  "insiders": {
   "form4s": 12,

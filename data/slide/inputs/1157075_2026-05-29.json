@@ -6,7 +6,7 @@
  "date": "2026-05-29",
  "asof": "2026-05-29",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-05-29",
   "adj_close": 0.8344
@@ -33,6 +33,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "price_reset_warrants": "In connection with the Series C Private Placement (as defined herein), in August 2025, the exercise price of the Series B Preferred Warrants was adjusted to $0.95 per share and the number of shares of Common Stock issuable upon exercise of the Series B Warrants was adjusted proportionally to 36,780,161 pursuant to the full ratchet anti-dilution provisions contained therein."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 12527115,
+  "as_of": "2024-10-31",
+  "filed": "2025-08-11"
  },
  "insiders": {
   "form4s": 5,

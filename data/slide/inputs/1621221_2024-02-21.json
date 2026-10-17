@@ -6,7 +6,7 @@
  "date": "2024-02-21",
  "asof": "2024-02-21",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-02-21",
   "adj_close": 29.16
@@ -34,6 +34,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "Additionally, in May 2022, the Company entered into a purchase agreement and a registration rights agreement (the \u201cEquity Line\u201d) with an institutional investor, providing for the sale of up to $20,000 worth of the Company\u2019s Common Stock, over the thirty-six (36) month term of the purchase agreement."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 13685251,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-31"
  },
  "insiders": {
   "form4s": 8,

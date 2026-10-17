@@ -6,7 +6,7 @@
  "date": "2022-05-16",
  "asof": "2022-05-18",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-05-18",
   "adj_close": 38400.0
@@ -34,6 +34,18 @@
   "flag": true,
   "quote": "These factors raise substantial doubt about the Company\u2019s ability to continue as a going concern"
  },
+ "financing_terms": {
+  "equity_line": "NOTE 12 \u2013 SALE OF COMMON STOCK Purchase Agreement with Lincoln Park On December 3, 2021, the Company entered into a purchase agreement (the \u201cPurchase Agreement with Lincoln Park\u201d) and a registration rights agreement (the \u201cLincoln Park Registration Rights Agreement\u201d) with Lincoln Park Capital Fund, LLC (\u201cLincoln Park\u201d)."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 384121940,
+  "as_of": "2021-06-30",
+  "filed": "2022-03-14"
+ },
  "insiders": {
   "form4s": 11,
   "from": "2022-02-15",
@@ -48,25 +60,11 @@
    }
   ]
  },
- "drug": null,
+ "drug": "TNX-102 SL",
  "trials": {
   "query": "tonix pharmaceuticals",
-  "other_trials": 2,
-  "crashed_drug_trials": 0,
-  "examples": [
-   {
-    "nct": "NCT05273749",
-    "drugs": [
-     "TNX-102 SL Tablet, 5.6 mg"
-    ]
-   },
-   {
-    "nct": "NCT04996056",
-    "drugs": [
-     "TNX-1300",
-     "Usual Care"
-    ]
-   }
-  ]
+  "other_trials": 0,
+  "crashed_drug_trials": 2,
+  "examples": []
  }
 }

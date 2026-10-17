@@ -6,7 +6,7 @@
  "date": "2021-10-01",
  "asof": "2021-10-01",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-10-01",
   "adj_close": 80.4
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 4200000000,
+  "as_of": "2020-06-30",
+  "filed": "2021-03-01"
  },
  "insiders": {
   "form4s": 1,
@@ -70,11 +80,11 @@
     ]
    },
    {
-    "nct": "NCT04588428",
+    "nct": "NCT04642638",
     "drugs": [
-     "INO-4700",
-     "CELLECTRA\u2122 2000",
-     "INO-4700"
+     "INO-4800",
+     "CELLECTRA\u00ae 2000",
+     "CELLECTRA\u00ae 2000"
     ]
    },
    {
@@ -85,11 +95,11 @@
     ]
    },
    {
-    "nct": "NCT03502785",
+    "nct": "NCT04588428",
     "drugs": [
-     "INO-5401",
-     "INO-9012",
-     "Atezolizumab"
+     "INO-4700",
+     "CELLECTRA\u2122 2000",
+     "INO-4700"
     ]
    }
   ]

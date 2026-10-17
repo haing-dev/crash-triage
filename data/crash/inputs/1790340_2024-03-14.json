@@ -6,7 +6,7 @@
  "date": "2024-03-14",
  "asof": "2024-03-14",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-03-14",
   "adj_close": 2.9
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 239000000,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-01"
  },
  "insiders": {
   "form4s": 21,
@@ -216,26 +226,11 @@
    }
   ]
  },
- "drug": null,
+ "drug": "IMM-1-104",
  "trials": {
   "query": "immuneering",
-  "other_trials": 2,
-  "crashed_drug_trials": 0,
-  "examples": [
-   {
-    "nct": "NCT06208124",
-    "drugs": [
-     "IMM-6-415"
-    ]
-   },
-   {
-    "nct": "NCT05585320",
-    "drugs": [
-     "IMM-1-104 Monotherapy (Treatment Group A)",
-     "IMM-1-104 + modified Gemcitabine/nab-Paclitaxel (Treatment Group B)",
-     "IMM-1-104 + modified FOLFIRINOX (Treatment Group C)"
-    ]
-   }
-  ]
+  "other_trials": 0,
+  "crashed_drug_trials": 2,
+  "examples": []
  }
 }

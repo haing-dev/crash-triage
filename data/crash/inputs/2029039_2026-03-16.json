@@ -6,7 +6,7 @@
  "date": "2026-03-16",
  "asof": "2026-03-19",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-03-19",
   "adj_close": 2.48
@@ -30,6 +30,12 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 2563000.0,
+  "tags": "ConvertibleDebtCurrent"
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 1,
   "from": "2025-12-16",
@@ -51,18 +57,18 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT07045701",
-    "drugs": [
-     "Epinephrine 4mg nasal powder spray",
-     "Adrenalin 0.5mg Injectable Product"
-    ]
-   },
-   {
     "nct": "NCT07228325",
     "drugs": [
      "FMXIN002 single dose",
      "Epinephrine autoinjector single dose",
      "FMXIN002 single dose + NAC"
+    ]
+   },
+   {
+    "nct": "NCT07045701",
+    "drugs": [
+     "Epinephrine 4mg nasal powder spray",
+     "Adrenalin 0.5mg Injectable Product"
     ]
    }
   ]

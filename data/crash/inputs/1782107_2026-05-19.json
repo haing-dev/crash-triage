@@ -6,7 +6,7 @@
  "date": "2026-05-19",
  "asof": "2026-05-19",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-05-19",
   "adj_close": 1.18
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "These factors raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "equity_line": "October 2024 ELOC Concurrently, on October 2, 2024, the Company entered into a Common Stock Equity Line of Credit Purchase Agreement (the \u201cELOC Purchase Agreement\u201d) with an institutional investor, whereby the Company may sell up to $25,000,000 of the Company\u2019s new issued Common Stock."
+ },
+ "debt": {
+  "usd": 247196.0,
+  "tags": "NotesPayableCurrent"
+ },
+ "public_float": {
+  "usd": 3600000,
+  "as_of": "2025-06-30",
+  "filed": "2026-03-13"
  },
  "insiders": {
   "form4s": 3,

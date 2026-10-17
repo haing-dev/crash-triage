@@ -6,7 +6,7 @@
  "date": "2023-03-27",
  "asof": "2023-03-27",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-03-27",
   "adj_close": 0.68
@@ -35,28 +35,32 @@
   "flag": true,
   "quote": "e.These conditions raise substantial doubt about the Company\u2019s ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 1000000.0,
+  "tags": "ConvertibleNotesPayable"
+ },
+ "public_float": {
+  "usd": 379900000,
+  "as_of": "2021-06-30",
+  "filed": "2022-03-24"
+ },
  "insiders": {
   "form4s": 13,
   "from": "2022-12-27",
   "to": "2023-04-26",
   "trades": []
  },
- "drug": null,
+ "drug": "omidubicel",
  "trials": {
   "query": "gamida cell",
-  "other_trials": 2,
-  "crashed_drug_trials": 0,
+  "other_trials": 1,
+  "crashed_drug_trials": 1,
   "examples": [
    {
     "nct": "NCT05296525",
     "drugs": [
      "GDA-201"
-    ]
-   },
-   {
-    "nct": "NCT04260698",
-    "drugs": [
-     "omidubicel"
     ]
    }
   ]

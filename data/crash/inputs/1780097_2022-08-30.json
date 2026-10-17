@@ -6,7 +6,7 @@
  "date": "2022-08-30",
  "asof": "2022-08-30",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-08-30",
   "adj_close": 11.9252
@@ -34,13 +34,23 @@
   "flag": true,
   "quote": "Risks Related to Our Finances and Capital Requirements Our losses, negative cash flows from operations and accumulated deficit raise substantial doubt about our ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 8710000.0,
+  "tags": "LongTermDebtNoncurrent+LongTermDebtCurrent"
+ },
+ "public_float": {
+  "usd": 62700000,
+  "as_of": "2021-06-30",
+  "filed": "2022-03-16"
+ },
  "insiders": {
   "form4s": 7,
   "from": "2022-06-01",
   "to": "2022-09-29",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "baudax bio",
   "other_trials": 0,

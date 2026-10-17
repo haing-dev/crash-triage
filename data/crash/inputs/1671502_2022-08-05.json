@@ -4,12 +4,12 @@
  "cik": "1671502",
  "name": "Quoin Pharmaceuticals Ltd.",
  "date": "2022-08-05",
- "asof": "2022-08-11",
+ "asof": "2022-08-05",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2022-08-11",
-  "adj_close": 2024.40002
+  "date": "2022-08-05",
+  "adj_close": 2221.80005
  },
  "balance": {
   "end": "2021-12-31",
@@ -34,26 +34,25 @@
   "flag": true,
   "quote": "These conditions raised substantial doubt about the Company\u2019s ability to continue as a going concern"
  },
+ "financing_terms": {
+  "price_reset_warrants": "Following the closing date of the Merger, on each of the tenth trading day, the forty-fifth day, the ninetieth day, and the one hundred thirty-fifth day thereafter (each, a \u201cReset Date\u201d), if the initial exercise price of the Bridge Warrants is greater than the arithmetic average of 85% of the three lowest weighted average prices of the post-Merger ordinary shares of the combined company during the"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 0,
   "from": "2022-05-07",
   "to": "2022-09-04",
   "trades": []
  },
- "drug": null,
+ "drug": "QRX003",
  "trials": {
   "query": "quoin pharmaceuticals",
-  "other_trials": 1,
-  "crashed_drug_trials": 0,
-  "examples": [
-   {
-    "nct": "NCT05521438",
-    "drugs": [
-     "QRX003-2% Lotion",
-     "QRX003-4% Lotion QAM",
-     "Vehicle"
-    ]
-   }
-  ]
+  "other_trials": 0,
+  "crashed_drug_trials": 1,
+  "examples": []
  }
 }

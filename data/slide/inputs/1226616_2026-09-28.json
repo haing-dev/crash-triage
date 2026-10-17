@@ -6,7 +6,7 @@
  "date": "2026-09-28",
  "asof": "2026-09-28",
  "final": false,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-09-28",
   "adj_close": 2.1
@@ -32,6 +32,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "Standby Equity Purchase Agreement On July 30, 2025, the Company entered into a Standby Equity Purchase Agreement, or the SEPA with YA II PN, LTD., a Cayman Islands exempt limited company, or Yorkville."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 62397025,
+  "as_of": "2025-06-30",
+  "filed": "2026-03-10"
  },
  "insiders": {
   "form4s": 1,

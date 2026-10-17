@@ -6,7 +6,7 @@
  "date": "2025-07-24",
  "asof": "2025-07-24",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-07-24",
   "adj_close": 6.67497
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "As a result, management has concluded that the aforementioned conditions, among other things, raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "equity_line": "License \u2014 \u2014 \u2014 \u2014 (808 ) \u2014 \u2014 (22 ) 1,174 366 Treasury Stock transferred to Oramed for the Oramed Note maturity extension \u2014 \u2014 \u2014 \u2014 (3,523 ) \u2014 \u2014 (93 ) 4,898 1,375 Stock-based compensation \u2014 \u2014 \u2014 \u2014 3,314 \u2014 \u2014 \u2014 \u2014 3,314 Net loss \u2014 \u2014 \u2014 \u2014 \u2014 \u2014 (26,080 ) \u2014 \u2014 (26,080 ) Balance, March 31, 2025 34,057 $ 1 6,952 $ 1 $ 448,244 $ 6,317 $ (589,132 ) 1,458 $ (76,915 ) $ (211,484 ) Preferred Stock Common Stock Addition"
+ },
+ "debt": {
+  "usd": 39442000.0,
+  "tags": "DebtCurrent"
+ },
+ "public_float": {
+  "usd": 233120000,
+  "as_of": "2024-06-30",
+  "filed": "2025-04-29"
  },
  "insiders": {
   "form4s": 0,

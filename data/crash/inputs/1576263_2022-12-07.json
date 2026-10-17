@@ -4,12 +4,12 @@
  "cik": "1576263",
  "name": "Mirati Therapeutics, Inc.",
  "date": "2022-12-07",
- "asof": "2022-12-09",
+ "asof": "2022-12-08",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2022-12-09",
-  "adj_close": 41.75
+  "date": "2022-12-08",
+  "adj_close": 43.85
  },
  "balance": {
   "end": "2022-09-30",
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 7400000000,
+  "as_of": "2021-06-30",
+  "filed": "2022-02-28"
  },
  "insiders": {
   "form4s": 10,
@@ -97,48 +107,17 @@
    }
   ]
  },
- "drug": null,
+ "drug": "adagrasib (MRTX849) + pembrolizumab",
  "trials": {
   "query": "mirati therapeutics",
-  "other_trials": 7,
-  "crashed_drug_trials": 0,
+  "other_trials": 1,
+  "crashed_drug_trials": 6,
   "examples": [
    {
-    "nct": "NCT04613596",
+    "nct": "NCT03906071",
     "drugs": [
-     "Adagrasib",
-     "Adagrasib",
-     "Adagrasib"
-    ]
-   },
-   {
-    "nct": "NCT05609578",
-    "drugs": [
-     "Adagrasib oral dose of 400 mg twice daily tablets",
-     "Pembrolizumab",
-     "Chemotherapy: Pemetrexed"
-    ]
-   },
-   {
-    "nct": "NCT04887870",
-    "drugs": [
-     "Sitravatinib",
      "Nivolumab",
-     "Pembrolizumab"
-    ]
-   },
-   {
-    "nct": "NCT04793958",
-    "drugs": [
-     "MRTX849",
-     "Cetuximab",
-     "mFOLFOX6 Regimen"
-    ]
-   },
-   {
-    "nct": "NCT04685135",
-    "drugs": [
-     "MRTX849",
+     "Sitravatinib",
      "Docetaxel"
     ]
    }

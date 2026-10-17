@@ -4,12 +4,12 @@
  "cik": "1678660",
  "name": "Prelude Therapeutics Inc",
  "date": "2025-11-04",
- "asof": "2025-11-07",
+ "asof": "2025-11-04",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2025-11-07",
-  "adj_close": 1.19
+  "date": "2025-11-04",
+  "adj_close": 1.76
  },
  "balance": {
   "end": "2025-06-30",
@@ -34,6 +34,16 @@
  "going_concern": {
   "flag": true,
   "quote": "Our financial statements contain a statement regarding a substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 66100000,
+  "as_of": "2024-06-30",
+  "filed": "2025-03-10"
  },
  "insiders": {
   "form4s": 3,

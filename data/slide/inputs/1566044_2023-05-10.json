@@ -6,7 +6,7 @@
  "date": "2023-05-10",
  "asof": "2023-05-10",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-05-10",
   "adj_close": 299.0
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "These risks include, but are not limited to, the following: \u2022We will need substantial additional funding to fund our operations, and there is substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "equity_line": "In addition, on March 15, 2022, we entered into a purchase agreement (the \"Equity Purchase Agreement\") with Lincoln Park Capital Fund, LLC (\"Lincoln Park\") which provides that, upon the terms and subject to the conditions and limitations set forth therein, we have the right, but not the obligation, to sell to Lincoln Park up to $30.0 million of shares of our common stock over the 36-month term of "
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 22300000,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-14"
  },
  "insiders": {
   "form4s": 8,

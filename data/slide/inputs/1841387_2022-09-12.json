@@ -6,7 +6,7 @@
  "date": "2022-09-12",
  "asof": "2022-09-12",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-09-12",
   "adj_close": 3.75
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 106500000,
+  "as_of": "2021-06-30",
+  "filed": "2022-03-29"
+ },
  "insiders": {
   "form4s": 5,
   "from": "2022-06-14",
@@ -46,16 +56,22 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT04495153",
-    "drugs": [
-     "Aglatimagene besadenovec"
-    ]
-   },
-   {
     "nct": "NCT02768363",
     "drugs": [
      "aglatimagene besadenovec",
      "valacyclovir"
+    ]
+   },
+   {
+    "nct": "NCT01436968",
+    "drugs": [
+     "Aglatimagene besadenovec + valacyclovir"
+    ]
+   },
+   {
+    "nct": "NCT04495153",
+    "drugs": [
+     "Aglatimagene besadenovec"
     ]
    },
    {
@@ -64,12 +80,6 @@
      "Aglatimagene besadenovec",
      "Chemoradiation",
      "Stereotactic body radiation therapy"
-    ]
-   },
-   {
-    "nct": "NCT01436968",
-    "drugs": [
-     "Aglatimagene besadenovec + valacyclovir"
     ]
    }
   ]

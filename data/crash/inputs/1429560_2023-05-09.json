@@ -4,35 +4,45 @@
  "cik": "1429560",
  "name": "TREVENA INC",
  "date": "2023-05-09",
- "asof": "2023-05-15",
+ "asof": "2023-05-11",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2023-05-15",
-  "adj_close": 29.5
+  "date": "2023-05-11",
+  "adj_close": 38.0
  },
  "balance": {
-  "end": "2023-03-31",
-  "cash": 27436000,
+  "end": "2022-12-31",
+  "cash": 38320000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001558370-23-009683"
+  "accn": "0001558370-23-004988"
  },
  "burn6": {
-  "end": "2023-03-31",
-  "start": "2022-10-01",
-  "cash_used_ops": 21538000.0,
-  "capex": 0.0,
+  "end": "2022-12-31",
+  "start": "2022-07-01",
+  "cash_used_ops": 21270000.0,
+  "capex": 14049.23076923077,
   "periods": 2
  },
  "shares": {
-  "end": "2023-05-11",
-  "shares": 10969023
+  "end": "2023-03-29",
+  "shares": 8975072
  },
  "going_concern": {
   "flag": true,
-  "quote": "We believe that our cash and cash equivalents as of March 31, 2023, together with interest thereon, will be sufficient to fund our operating expenses and capital expenditure requirements to year-end 2023, but not for more than one year after the date of this filing and as a result, there is substant"
+  "quote": "We believe that our cash and cash equivalents as of December 31, 2022, together with interest thereon, will be sufficient to fund our operating expenses and capital expenditure requirements into the fourth quarter of 2023, but not for more than one year after the date of this filing and as a result,"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 13430000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 276000000,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-30"
  },
  "insiders": {
   "form4s": 0,
@@ -40,7 +50,7 @@
   "to": "2023-06-08",
   "trades": []
  },
- "drug": null,
+ "drug": "OLINVYK (oliceridine)",
  "trials": {
   "query": "trevena",
   "other_trials": 0,

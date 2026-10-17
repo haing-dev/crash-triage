@@ -6,7 +6,7 @@
  "date": "2021-10-05",
  "asof": "2021-10-05",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-10-05",
   "adj_close": 99.35
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 2365000.0,
+  "tags": "LongTermDebtCurrent"
+ },
+ "public_float": {
+  "usd": 1088000000,
+  "as_of": "2020-03-31",
+  "filed": "2020-11-27"
  },
  "insiders": {
   "form4s": 57,

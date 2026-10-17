@@ -6,7 +6,7 @@
  "date": "2025-07-25",
  "asof": "2025-07-25",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-07-25",
   "adj_close": 19.8
@@ -34,6 +34,14 @@
   "flag": true,
   "quote": "16 Risks Related to Our Financial Condition and Capital Requirements Our financial statements for the year ended December 31, 2024, contained a disclosure in Note 1 regarding substantial doubt about our ability to continue as a going concern"
  },
+ "financing_terms": {
+  "equity_line": "We also agreed not to enter into an equity line of credit or similar agreement without the consent of the majority of the preferred shareholders."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 0,
   "from": "2025-04-26",

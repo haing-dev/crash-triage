@@ -6,7 +6,7 @@
  "date": "2025-12-18",
  "asof": "2025-12-18",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-12-18",
   "adj_close": 5.18
@@ -35,6 +35,16 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 35000000,
+  "as_of": "2024-06-28",
+  "filed": "2025-03-05"
+ },
  "insiders": {
   "form4s": 0,
   "from": "2025-09-19",
@@ -48,6 +58,12 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
+    "nct": "NCT05871970",
+    "drugs": [
+     "TARA-002"
+    ]
+   },
+   {
     "nct": "NCT06910943",
     "drugs": [
      "Choline Chloride for Injection"
@@ -55,12 +71,6 @@
    },
    {
     "nct": "NCT05951179",
-    "drugs": [
-     "TARA-002"
-    ]
-   },
-   {
-    "nct": "NCT05871970",
     "drugs": [
      "TARA-002"
     ]

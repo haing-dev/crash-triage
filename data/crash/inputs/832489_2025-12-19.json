@@ -6,7 +6,7 @@
  "date": "2025-12-19",
  "asof": "2025-12-19",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-12-19",
   "adj_close": 3.975
@@ -32,6 +32,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "price_reset_warrants": "Issue Date Number of Shares Exercise Price * Expiration September 2021 6,668 195.00 September 2026 May 2024 1,605,688 0.54 May 2029 July 2024 2,170,000 0.54 January 2030 August 2024 2,675,610 1.31 March 2030 March 2025 3,435,115 1.31 June 2030 July 2025 18,230,000 0.49 July 2030 September 2025 11,904,768 0.63 November 2030 Outstanding at September 30, 2025 40,027,849 * Reflects current exercise pr"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 13192305,
+  "as_of": "2024-06-30",
+  "filed": "2025-03-27"
  },
  "insiders": {
   "form4s": 1,

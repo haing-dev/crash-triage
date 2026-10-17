@@ -6,7 +6,7 @@
  "date": "2024-09-17",
  "asof": "2024-09-18",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-09-18",
   "adj_close": 2197.80005
@@ -34,13 +34,23 @@
   "flag": true,
   "quote": "When considered in aggregate, these factors raise substantial doubt about our ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 11000000,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-05"
+ },
  "insiders": {
   "form4s": 12,
   "from": "2024-06-19",
   "to": "2024-10-17",
   "trades": []
  },
- "drug": null,
+ "drug": "mipletamig",
  "trials": {
   "query": "aptevo therapeutics",
   "other_trials": 0,

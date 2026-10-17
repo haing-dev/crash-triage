@@ -4,12 +4,12 @@
  "cik": "1133818",
  "name": "BIO-PATH HOLDINGS, INC.",
  "date": "2023-08-03",
- "asof": "2023-08-04",
+ "asof": "2023-08-03",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2023-08-04",
-  "adj_close": 8.01
+  "date": "2023-08-03",
+  "adj_close": 8.198
  },
  "balance": {
   "end": "2023-03-31",
@@ -33,25 +33,27 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 27578277.9,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-30"
+ },
  "insiders": {
   "form4s": 0,
   "from": "2023-05-05",
   "to": "2023-09-02",
   "trades": []
  },
- "drug": null,
+ "drug": "prexigebersen (BP1001)",
  "trials": {
   "query": "bio path",
-  "other_trials": 1,
-  "crashed_drug_trials": 0,
-  "examples": [
-   {
-    "nct": "NCT02781883",
-    "drugs": [
-     "BP1001 in combination with Ventoclax plus decitabine",
-     "BP1001 plus decitabine"
-    ]
-   }
-  ]
+  "other_trials": 0,
+  "crashed_drug_trials": 1,
+  "examples": []
  }
 }

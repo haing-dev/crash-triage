@@ -6,7 +6,7 @@
  "date": "2022-11-09",
  "asof": "2022-11-09",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-11-09",
   "adj_close": 14.4
@@ -34,6 +34,18 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {
+  "equity_line": "Common Stock Purchase Agreement and Sales Agreements On April 10, 2020, the Company entered into the Common Stock Purchase Agreement with Aspire Capital (the \u201cCommon Stock Purchase Agreement\u201d) pursuant to which the Company had the right to sell to Aspire Capital from time to time in its sole discretion up to $20.0 million in shares of the Company\u2019s common stock, subject to certain limitations and "
+ },
+ "debt": {
+  "usd": 34162000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 168966957,
+  "as_of": "2021-06-30",
+  "filed": "2022-05-02"
+ },
  "insiders": {
   "form4s": 1,
   "from": "2022-08-11",
@@ -47,11 +59,10 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT05178862",
+    "nct": "NCT03672292",
     "drugs": [
      "SCY-078",
-     "Fluconazole",
-     "Echinocandin"
+     "Voriconazole"
     ]
    },
    {
@@ -61,22 +72,23 @@
     ]
    },
    {
-    "nct": "NCT05399641",
-    "drugs": [
-     "Ibrexafungerp"
-    ]
-   },
-   {
-    "nct": "NCT03672292",
+    "nct": "NCT05178862",
     "drugs": [
      "SCY-078",
-     "Voriconazole"
+     "Fluconazole",
+     "Echinocandin"
     ]
    },
    {
     "nct": "NCT03363841",
     "drugs": [
      "SCY-078"
+    ]
+   },
+   {
+    "nct": "NCT05399641",
+    "drugs": [
+     "Ibrexafungerp"
     ]
    }
   ]

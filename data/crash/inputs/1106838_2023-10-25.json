@@ -6,7 +6,7 @@
  "date": "2023-10-25",
  "asof": "2023-10-27",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-10-27",
   "adj_close": 9.2
@@ -34,6 +34,16 @@
   "flag": true,
   "quote": "These factors raise substantial doubt about the Company\u2019s ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 22100000,
+  "as_of": "2022-03-31",
+  "filed": "2022-12-15"
+ },
  "insiders": {
   "form4s": 2,
   "from": "2023-07-27",
@@ -55,22 +65,22 @@
    }
   ]
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "sonnet biotherapeutics",
   "other_trials": 2,
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT05756907",
-    "drugs": [
-     "SON-1010"
-    ]
-   },
-   {
     "nct": "NCT05435742",
     "drugs": [
      "SON-080"
+    ]
+   },
+   {
+    "nct": "NCT05756907",
+    "drugs": [
+     "SON-1010"
     ]
    }
   ]

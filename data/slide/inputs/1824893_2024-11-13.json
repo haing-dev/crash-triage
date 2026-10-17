@@ -6,7 +6,7 @@
  "date": "2024-11-13",
  "asof": "2024-11-13",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-11-13",
   "adj_close": 9.2
@@ -32,6 +32,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "Equity Purchase Agreement In February 2022, the Company entered into a purchase agreement with Lincoln Park Capital Fund, LLC, or Lincoln Park, or the Equity Purchase Agreement, pursuant to which Lincoln Park is obligated to purchase up to $50.0 million shares of the Company\u2019s common stock."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 11500000,
+  "as_of": "2023-06-30",
+  "filed": "2024-04-10"
  },
  "insiders": {
   "form4s": 0,

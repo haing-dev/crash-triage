@@ -6,7 +6,7 @@
  "date": "2025-01-13",
  "asof": "2025-01-13",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-01-13",
   "adj_close": 22.63
@@ -34,6 +34,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 35123000.0,
+  "tags": "LoansPayable"
+ },
+ "public_float": {
+  "usd": 2517511353,
+  "as_of": "2023-06-30",
+  "filed": "2024-02-29"
  },
  "insiders": {
   "form4s": 37,
@@ -427,6 +437,12 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
+    "nct": "NCT06528314",
+    "drugs": [
+     "Efruxifermin"
+    ]
+   },
+   {
     "nct": "NCT06215716",
     "drugs": [
      "Efruxifermin"
@@ -434,12 +450,6 @@
    },
    {
     "nct": "NCT06161571",
-    "drugs": [
-     "Efruxifermin"
-    ]
-   },
-   {
-    "nct": "NCT06528314",
     "drugs": [
      "Efruxifermin"
     ]

@@ -6,7 +6,7 @@
  "date": "2021-04-06",
  "asof": "2021-04-06",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-04-06",
   "adj_close": 5.3
@@ -33,6 +33,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "On July 8, 2020, the Company entered into a Common Stock Purchase Agreement (the \u201cIDBiologics Agreement\u201d) with IDBiologics, Inc (\u201cIDBiologics\u201d)."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 238000000,
+  "as_of": "2020-06-30",
+  "filed": "2021-03-30"
  },
  "insiders": {
   "form4s": 11,

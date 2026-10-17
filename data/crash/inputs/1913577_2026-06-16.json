@@ -4,12 +4,12 @@
  "cik": "1913577",
  "name": "Semnur Pharmaceuticals, Inc.",
  "date": "2026-06-16",
- "asof": "2026-06-17",
+ "asof": "2026-06-16",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2026-06-17",
-  "adj_close": 0.5
+  "date": "2026-06-16",
+  "adj_close": 0.9
  },
  "balance": {
   "end": "2026-03-31",
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "As a result, management has concluded that the aforementioned conditions, among other things, raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 2767000.0,
+  "tags": "NotesPayableCurrent"
+ },
+ "public_float": {
+  "usd": 500000,
+  "as_of": "2025-06-30",
+  "filed": "2026-02-27"
  },
  "insiders": {
   "form4s": 1,

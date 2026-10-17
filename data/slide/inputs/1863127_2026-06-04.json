@@ -6,7 +6,7 @@
  "date": "2026-06-04",
  "asof": "2026-06-04",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-06-04",
   "adj_close": 27.18
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 297300000,
+  "as_of": "2025-06-30",
+  "filed": "2026-03-02"
+ },
  "insiders": {
   "form4s": 16,
   "from": "2026-03-06",
@@ -54,22 +64,6 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT07265947",
-    "drugs": [
-     "Dabogratinib (TYRA-300) 60mg",
-     "Dabogratinib (TYRA-300) 80mg",
-     "Dabogratinib (TYRA-300) TBD"
-    ]
-   },
-   {
-    "nct": "NCT06995677",
-    "drugs": [
-     "TYRA-300 60mg",
-     "TYRA-300 50mg",
-     "TYRA-300 Dose 70 mg"
-    ]
-   },
-   {
     "nct": "NCT05544552",
     "drugs": [
      "TYRA-300"
@@ -81,6 +75,21 @@
      "TYRA-300 0.125 mg/kg",
      "TYRA-300 0.25 mg/kg",
      "TYRA-300 0.375 mg/kg"
+    ]
+   },
+   {
+    "nct": "NCT06995677",
+    "drugs": [
+     "TYRA-300 60mg",
+     "TYRA-300 50mg",
+     "TYRA-300 Dose 70 mg"
+    ]
+   },
+   {
+    "nct": "NCT07265947",
+    "drugs": [
+     "Dabogratinib (TYRA-300) 60mg",
+     "Dabogratinib (TYRA-300) 80mg"
     ]
    }
   ]

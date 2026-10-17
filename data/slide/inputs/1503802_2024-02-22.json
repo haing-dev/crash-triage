@@ -6,7 +6,7 @@
  "date": "2024-02-22",
  "asof": "2024-02-22",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-02-22",
   "adj_close": 16.95
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 351300000,
+  "as_of": "2022-06-30",
+  "filed": "2023-02-17"
  },
  "insiders": {
   "form4s": 24,
@@ -188,6 +198,28 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
+    "nct": "NCT05611931",
+    "drugs": [
+     "Selinexor"
+    ]
+   },
+   {
+    "nct": "NCT04562389",
+    "drugs": [
+     "Selinexor",
+     "Selinexor",
+     "Ruxolitinib"
+    ]
+   },
+   {
+    "nct": "NCT04256707",
+    "drugs": [
+     "Selinexor 100 mg",
+     "Docetaxel",
+     "Pembrolizumab"
+    ]
+   },
+   {
     "nct": "NCT04414475",
     "drugs": [
      "Selinexor",
@@ -196,35 +228,11 @@
     ]
    },
    {
-    "nct": "NCT04442022",
-    "drugs": [
-     "Selinexor (combination therapy)",
-     "Selinexor (combination therapy)",
-     "Selinexor (combination therapy)"
-    ]
-   },
-   {
-    "nct": "NCT02227251",
-    "drugs": [
-     "Selinexor",
-     "Selinexor",
-     "Selinexor"
-    ]
-   },
-   {
     "nct": "NCT02649790",
     "drugs": [
      "KPT-8602",
      "ASTX727",
      "Dexamethasone"
-    ]
-   },
-   {
-    "nct": "NCT02343042",
-    "drugs": [
-     "Selinexor",
-     "Dexamethasone",
-     "Lenalidomide"
     ]
    }
   ]

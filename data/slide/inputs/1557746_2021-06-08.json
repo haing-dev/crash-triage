@@ -6,7 +6,7 @@
  "date": "2021-06-08",
  "asof": "2021-06-08",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-06-08",
   "adj_close": 18.76
@@ -34,6 +34,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "Professional and legal fees included accounting, legal, investor relations and corporate communication costs, as well as legal fees related to patents and current lawsuits described in this report and were higher during the three months ended March 31, 2021 compared to March 31, 2020 primarily as a result of a non-cash write-off of previously capitalized expenses related to an equity line of credi"
+ },
+ "debt": {
+  "usd": 10692000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 65500000,
+  "as_of": "2020-06-30",
+  "filed": "2021-02-25"
  },
  "insiders": {
   "form4s": 19,

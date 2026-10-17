@@ -6,7 +6,7 @@
  "date": "2021-12-13",
  "asof": "2021-12-14",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-12-14",
   "adj_close": 57.0
@@ -34,32 +34,38 @@
   "flag": true,
   "quote": "As a result, the Company believes that, in the aggregate, these conditions raise substantial doubt about the Company\u2019s ability to continue as a going concern"
  },
+ "financing_terms": {
+  "equity_line": "In October 2020, we entered into a common stock purchase agreement with Aspire Capital LLC (\u201cAspire Capital\u201d) pursuant to which Aspire Capital has committed to purchase, at our request from time to time over a 36-month period, shares of our common stock having an aggregate offering price of up to $50.0 million, subject to certain limitations."
+ },
+ "debt": {
+  "usd": 32500000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 144752443,
+  "as_of": "2020-06-30",
+  "filed": "2021-03-19"
+ },
  "insiders": {
   "form4s": 1,
   "from": "2021-09-14",
   "to": "2022-01-12",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "x4 pharmaceuticals",
   "other_trials": 4,
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT04154488",
+    "nct": "NCT03995108",
     "drugs": [
      "Mavorixafor"
     ]
    },
    {
-    "nct": "NCT03005327",
-    "drugs": [
-     "X4P-001"
-    ]
-   },
-   {
-    "nct": "NCT03995108",
+    "nct": "NCT04154488",
     "drugs": [
      "Mavorixafor"
     ]
@@ -69,6 +75,12 @@
     "drugs": [
      "X4P-001",
      "axitinib"
+    ]
+   },
+   {
+    "nct": "NCT03005327",
+    "drugs": [
+     "X4P-001"
     ]
    }
   ]

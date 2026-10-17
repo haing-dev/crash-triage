@@ -4,12 +4,12 @@
  "cik": "1975641",
  "name": "Zhengye Biotechnology Holding Ltd",
  "date": "2026-07-21",
- "asof": "2026-07-22",
+ "asof": "2026-07-21",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2026-07-22",
-  "adj_close": 1.38
+  "date": "2026-07-21",
+  "adj_close": 2.85
  },
  "balance": {
   "end": "2025-12-31",
@@ -34,6 +34,12 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 1366000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 0,
   "from": "2026-04-22",

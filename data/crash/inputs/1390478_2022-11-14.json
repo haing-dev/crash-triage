@@ -6,7 +6,7 @@
  "date": "2022-11-14",
  "asof": "2022-11-14",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-11-14",
   "adj_close": 2.55
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "The Company expects to generate losses from operations for the foreseeable future primarily due to research and development costs for its product candidates, which raises substantial doubt about the Company's ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 176103964,
+  "as_of": "2021-06-30",
+  "filed": "2022-03-31"
  },
  "insiders": {
   "form4s": 4,
@@ -62,20 +72,12 @@
    }
   ]
  },
- "drug": null,
+ "drug": "galinpepimut-S",
  "trials": {
   "query": "sellas life sciences",
-  "other_trials": 2,
-  "crashed_drug_trials": 0,
+  "other_trials": 1,
+  "crashed_drug_trials": 1,
   "examples": [
-   {
-    "nct": "NCT04229979",
-    "drugs": [
-     "Galinpepimut-S",
-     "Azacitidine",
-     "Venetoclax"
-    ]
-   },
    {
     "nct": "NCT04588922",
     "drugs": [

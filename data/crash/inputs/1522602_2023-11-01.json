@@ -6,7 +6,7 @@
  "date": "2023-11-01",
  "asof": "2023-11-01",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-11-01",
   "adj_close": 0.92
@@ -34,13 +34,23 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 14064722,
+  "as_of": "2022-06-30",
+  "filed": "2023-04-28"
+ },
  "insiders": {
   "form4s": 0,
   "from": "2023-08-03",
   "to": "2023-12-01",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "cohbar",
   "other_trials": 0,

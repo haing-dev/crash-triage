@@ -6,7 +6,7 @@
  "date": "2024-10-15",
  "asof": "2024-10-15",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-10-15",
   "adj_close": 1.28
@@ -34,13 +34,23 @@
   "flag": true,
   "quote": "Based on such evaluation and our current plans (including the ongoing clinical programs for SLS-002, SLS-005, and other product candidates), which are subject to change, management believes that our existing cash and cash equivalents as of March 31, 2024 are not sufficient to satisfy our operating c"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 10100000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 144900000,
+  "as_of": "2023-06-30",
+  "filed": "2024-04-29"
+ },
  "insiders": {
   "form4s": 0,
   "from": "2024-07-17",
   "to": "2024-11-14",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "seelos therapeutics",
   "other_trials": 0,

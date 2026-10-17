@@ -6,7 +6,7 @@
  "date": "2020-10-23",
  "asof": "2020-10-23",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2020-10-23",
   "adj_close": 5200.0
@@ -27,13 +27,19 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 0,
   "from": "2020-07-25",
   "to": "2020-11-22",
   "trades": []
  },
- "drug": null,
+ "drug": "M-001",
  "trials": {
   "query": "scinai immunotherapeutics",
   "other_trials": 0,

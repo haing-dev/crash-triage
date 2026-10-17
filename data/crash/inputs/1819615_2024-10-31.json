@@ -6,7 +6,7 @@
  "date": "2024-10-31",
  "asof": "2024-10-31",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-10-31",
   "adj_close": 0.0001
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "There is substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 1218000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 11900000,
+  "as_of": "2023-06-30",
+  "filed": "2024-04-01"
  },
  "insiders": {
   "form4s": 0,

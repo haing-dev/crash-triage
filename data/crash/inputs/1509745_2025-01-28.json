@@ -6,7 +6,7 @@
  "date": "2025-01-28",
  "asof": "2025-01-28",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-01-28",
   "adj_close": 0.64999998
@@ -33,13 +33,25 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {
+  "price_reset_warrants": "Warrants As of September 30, 2024, the number of shares of common stock issuable upon the exercise of outstanding warrants, consisted of the following: \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b September 30, 2024 \u200b \u200b \u200b \u200b Number of Common Shares \u200b \u200b \u200b \u200b \u200b Description Issuable Exercise Price Expiration Date January 23 2017 Warrants \u200b 5,450 \u200b $ 0.10 \u200b Upon M&A Event 2017 Warrants \u200b 250,227 \u200b $ 2.82 \u200b November 2024 2019 Warr"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 77700000,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-18"
+ },
  "insiders": {
   "form4s": 4,
   "from": "2024-10-30",
   "to": "2025-02-27",
   "trades": []
  },
- "drug": null,
+ "drug": "sirexatamab (DKN-01)",
  "trials": {
   "query": "cypherpunk technologies",
   "other_trials": 0,

@@ -4,12 +4,12 @@
  "cik": "1205922",
  "name": "VACCINEX, INC.",
  "date": "2024-12-17",
- "asof": "2024-12-18",
+ "asof": "2024-12-17",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2024-12-18",
-  "adj_close": 1.06
+  "date": "2024-12-17",
+  "adj_close": 1.41
  },
  "balance": {
   "end": "2024-09-30",
@@ -34,24 +34,27 @@
   "flag": true,
   "quote": "These conditions and events raise substantial doubt about the Company\u2019s ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 44000.0,
+  "tags": "LongTermDebtCurrent"
+ },
+ "public_float": {
+  "usd": 10419739,
+  "as_of": "2023-06-30",
+  "filed": "2024-04-25"
+ },
  "insiders": {
   "form4s": 4,
   "from": "2024-09-18",
   "to": "2025-01-16",
   "trades": []
  },
- "drug": null,
+ "drug": "pepinemab",
  "trials": {
   "query": "vaccinex",
-  "other_trials": 1,
-  "crashed_drug_trials": 0,
-  "examples": [
-   {
-    "nct": "NCT05102721",
-    "drugs": [
-     "Avelumab and Pepinemab"
-    ]
-   }
-  ]
+  "other_trials": 0,
+  "crashed_drug_trials": 1,
+  "examples": []
  }
 }

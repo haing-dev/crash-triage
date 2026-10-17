@@ -6,7 +6,7 @@
  "date": "2023-08-16",
  "asof": "2023-08-16",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-08-16",
   "adj_close": 0.621
@@ -34,13 +34,23 @@
   "flag": true,
   "quote": "23 Based upon our current operating plan, we estimate that our cash and cash equivalents as of March 31, 2023, are insufficient for us to fund operating, investing, and financing cash flow needs for twelve months subsequent to the issuance date of the financial statements as of and for the period en"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 48095000.0,
+  "tags": "LongTermDebtNoncurrent"
+ },
+ "public_float": {
+  "usd": 119700000,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-31"
+ },
  "insiders": {
   "form4s": 5,
   "from": "2023-05-18",
   "to": "2023-09-15",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "ipi legacy liquidation",
   "other_trials": 0,

@@ -6,7 +6,7 @@
  "date": "2023-12-07",
  "asof": "2023-12-07",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-12-07",
   "adj_close": 174.3
@@ -33,6 +33,12 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 5,
   "from": "2023-09-08",

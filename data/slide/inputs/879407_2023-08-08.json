@@ -6,7 +6,7 @@
  "date": "2023-08-08",
  "asof": "2023-08-08",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-08-08",
   "adj_close": 27.49
@@ -34,6 +34,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "(\u201cAmgen\u201d) On September 28, 2016, Amgen and the Company entered into two collaboration and license agreements and a common stock purchase agreement."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 4100000000,
+  "as_of": "2022-03-31",
+  "filed": "2022-11-28"
  },
  "insiders": {
   "form4s": 3,
@@ -76,15 +88,15 @@
     ]
    },
    {
-    "nct": "NCT05413135",
+    "nct": "NCT05292950",
     "drugs": [
-     "ARO-APOC3"
+     "ARO-MUC5AC"
     ]
    },
    {
-    "nct": "NCT05276570",
+    "nct": "NCT05413135",
     "drugs": [
-     "ARO-RAGE"
+     "ARO-APOC3"
     ]
    },
    {
@@ -94,9 +106,9 @@
     ]
    },
    {
-    "nct": "NCT05537025",
+    "nct": "NCT05276570",
     "drugs": [
-     "ARO-MMP7 Inhalation Solution"
+     "ARO-RAGE"
     ]
    }
   ]

@@ -6,7 +6,7 @@
  "date": "2025-11-13",
  "asof": "2025-11-13",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-11-13",
   "adj_close": 1.24
@@ -36,6 +36,16 @@
   "flag": true,
   "quote": "As a result of these factors, together with the anticipated continued spending that will be necessary to continue to research, develop, and commercialize the Company's product candidates, there is substantial doubt about the Company's ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 28400000.0,
+  "tags": "LongTermDebtNoncurrent+LongTermDebtCurrent"
+ },
+ "public_float": {
+  "usd": 392900000,
+  "as_of": "2024-06-30",
+  "filed": "2025-03-05"
+ },
  "insiders": {
   "form4s": 0,
   "from": "2025-08-15",
@@ -49,18 +59,6 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT05956626",
-    "drugs": [
-     "OCU410ST"
-    ]
-   },
-   {
-    "nct": "NCT06388200",
-    "drugs": [
-     "Sub-Retinal Administration of OCU400-301"
-    ]
-   },
-   {
     "nct": "NCT06018558",
     "drugs": [
      "OCU410"
@@ -72,6 +70,18 @@
      "OCU400 Low Dose",
      "OCU400 Med Dose",
      "OCU400 High Dose"
+    ]
+   },
+   {
+    "nct": "NCT05956626",
+    "drugs": [
+     "OCU410ST"
+    ]
+   },
+   {
+    "nct": "NCT06388200",
+    "drugs": [
+     "Sub-Retinal Administration of OCU400-301"
     ]
    }
   ]

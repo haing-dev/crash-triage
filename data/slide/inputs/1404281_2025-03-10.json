@@ -6,7 +6,7 @@
  "date": "2025-03-10",
  "asof": "2025-03-10",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-03-10",
   "adj_close": 3.59
@@ -34,6 +34,16 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 25607310,
+  "as_of": "2023-06-30",
+  "filed": "2024-08-19"
+ },
  "insiders": {
   "form4s": 10,
   "from": "2024-12-10",
@@ -47,6 +57,13 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
+    "nct": "NCT05983770",
+    "drugs": [
+     "AT-1501",
+     "Tacrolimus"
+    ]
+   },
+   {
     "nct": "NCT05027906",
     "drugs": [
      "AT-1501"
@@ -54,13 +71,6 @@
    },
    {
     "nct": "NCT06126380",
-    "drugs": [
-     "AT-1501",
-     "Tacrolimus"
-    ]
-   },
-   {
-    "nct": "NCT05983770",
     "drugs": [
      "AT-1501",
      "Tacrolimus"

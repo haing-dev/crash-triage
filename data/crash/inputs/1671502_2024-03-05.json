@@ -4,12 +4,12 @@
  "cik": "1671502",
  "name": "Quoin Pharmaceuticals Ltd.",
  "date": "2024-03-05",
- "asof": "2024-03-11",
+ "asof": "2024-03-06",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2024-03-11",
-  "adj_close": 39.9
+  "date": "2024-03-06",
+  "adj_close": 45.5
  },
  "balance": {
   "end": "2023-09-30",
@@ -33,13 +33,23 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 3775500,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-15"
+ },
  "insiders": {
   "form4s": 0,
   "from": "2023-12-06",
   "to": "2024-04-04",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "quoin pharmaceuticals",
   "other_trials": 2,

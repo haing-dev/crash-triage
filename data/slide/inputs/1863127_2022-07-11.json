@@ -6,7 +6,7 @@
  "date": "2022-07-11",
  "asof": "2022-07-11",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-07-11",
   "adj_close": 9.46
@@ -32,6 +32,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 299000000,
+  "as_of": "2021-09-30",
+  "filed": "2022-03-03"
  },
  "insiders": {
   "form4s": 9,

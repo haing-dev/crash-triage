@@ -6,7 +6,7 @@
  "date": "2021-04-16",
  "asof": "2021-04-16",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-04-16",
   "adj_close": 7.49
@@ -34,6 +34,16 @@
  "going_concern": {
   "flag": true,
   "quote": "Substantial Doubt About the Company's Ability to Continue as a Going Concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 171882000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 435100000,
+  "as_of": "2020-06-30",
+  "filed": "2021-03-01"
  },
  "insiders": {
   "form4s": 30,
@@ -126,19 +136,19 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT04724980",
-    "drugs": [
-     "PRGN-2012 - Phase I; Dose Level 1",
-     "PRGN-2012 - Phase I; Dose Level 2",
-     "PRGN-2012 - Phase II; Dose Level 2"
-    ]
-   },
-   {
     "nct": "NCT03751007",
     "drugs": [
      "AG019 - Low Dose",
      "Teplizumab",
      "AG019 - High Dose"
+    ]
+   },
+   {
+    "nct": "NCT04724980",
+    "drugs": [
+     "PRGN-2012 - Phase I; Dose Level 1",
+     "PRGN-2012 - Phase I; Dose Level 2",
+     "PRGN-2012 - Phase II; Dose Level 2"
     ]
    }
   ]

@@ -6,7 +6,7 @@
  "date": "2023-03-24",
  "asof": "2023-03-24",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-03-24",
   "adj_close": 23.2
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "However, the Company\u2019s current working capital, anticipated operating expenses and net losses and the uncertainties surrounding its ability to raise additional capital as needed, as discussed below, raise substantial doubt about its ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 33200000,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-23"
  },
  "insiders": {
   "form4s": 11,

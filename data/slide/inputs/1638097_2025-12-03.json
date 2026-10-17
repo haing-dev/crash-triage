@@ -6,7 +6,7 @@
  "date": "2025-12-03",
  "asof": "2025-12-03",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-12-03",
   "adj_close": 2.06
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "dollars in thousands, except share and per share data) (Unaudited) NOTE 1 - DESCRIPTION OF BUSINESS (Cont.) These factors raise substantial doubt as to the Company's ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 58800000,
+  "as_of": "2024-06-30",
+  "filed": "2025-03-28"
  },
  "insiders": {
   "form4s": 6,

@@ -4,12 +4,12 @@
  "cik": "1534120",
  "name": "Avalo Therapeutics, Inc.",
  "date": "2023-06-26",
- "asof": "2023-06-30",
+ "asof": "2023-06-26",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2023-06-30",
-  "adj_close": 85.2
+  "date": "2023-06-26",
+  "adj_close": 120.0
  },
  "balance": {
   "end": "2023-03-31",
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "These conditions raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 19766000.0,
+  "tags": "NotesPayableCurrent+LongTermNotesPayable"
+ },
+ "public_float": {
+  "usd": 32400000,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-29"
  },
  "insiders": {
   "form4s": 23,
@@ -307,7 +317,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "AVTX-002 (quisovalimab)",
  "trials": {
   "query": "avalo therapeutics",
   "other_trials": 0,

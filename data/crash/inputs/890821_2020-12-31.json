@@ -4,12 +4,12 @@
  "cik": "890821",
  "name": "Enveric Biosciences, Inc.",
  "date": "2020-12-31",
- "asof": "2021-01-05",
+ "asof": "2021-01-04",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2021-01-05",
-  "adj_close": 526500.0
+  "date": "2021-01-04",
+  "adj_close": 537300.0
  },
  "balance": {
   "end": "2020-09-30",
@@ -34,13 +34,23 @@
   "flag": true,
   "quote": "The foregoing conditions raise substantial doubt about our ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 1876576.0,
+  "tags": "LoansPayableCurrent+LongTermLoansPayable"
+ },
+ "public_float": {
+  "usd": 15760000,
+  "as_of": "2019-06-28",
+  "filed": "2020-08-12"
+ },
  "insiders": {
   "form4s": 0,
   "from": "2020-10-02",
   "to": "2021-01-30",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "enveric biosciences",
   "other_trials": 0,

@@ -4,36 +4,42 @@
  "cik": "1834105",
  "name": "IMPACT BIOMEDICAL INC.",
  "date": "2025-03-26",
- "asof": "2025-03-28",
+ "asof": "2025-03-26",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2025-03-28",
-  "adj_close": 19.24051
+  "date": "2025-03-26",
+  "adj_close": 27.8481
  },
  "balance": {
-  "end": "2024-12-31",
-  "cash": 1999000,
+  "end": "2024-09-30",
+  "cash": 2668000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001641172-25-001199"
+  "accn": "0001493152-24-044792"
  },
  "burn6": {
-  "end": "2024-12-31",
-  "start": "2024-07-01",
-  "cash_used_ops": 2541000.0,
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": 1951000.0,
   "capex": 0.0,
   "periods": 2
  },
  "shares": {
-  "end": "2025-02-26",
-  "shares": 12085412
+  "end": "2024-10-25",
+  "shares": 11503955
  },
  "going_concern": {
   "flag": true,
   "quote": "These factors raise substantial doubt about the Company\u2019s ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 8006000.0,
+  "tags": "NotesPayableCurrent+LongTermNotesPayable"
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 6,
   "from": "2024-12-26",

@@ -6,7 +6,7 @@
  "date": "2021-01-08",
  "asof": "2021-01-08",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-01-08",
   "adj_close": 5.6
@@ -34,13 +34,25 @@
   "flag": true,
   "quote": "Management believes these conditions raise substantial doubt about the Company\u2019s ability to continue as a going concern"
  },
+ "financing_terms": {
+  "equity_line": "UNAUDITED CONDENSED STATEMENTS OF CHANGES IN STOCKHOLDERS\u2019 DEFICIT (in thousands) Preferred Stock Series A Series B-1 Series B-2 Convertible Convertible Convertible Undesignated Additional Total Preferred Preferred Preferred Preferred Common Paid-in Accumulated Stockholders' Stock Stock Stock Stock Stock Capital Deficit Equity Balance as of January 1, 2020 $ \u2014 $ \u2014 $ \u2014 $ \u2014 $ 4 $ 171,254 $ (245,714 "
+ },
+ "debt": {
+  "usd": 65920000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 38659464,
+  "as_of": "2019-06-28",
+  "filed": "2020-02-28"
+ },
  "insiders": {
   "form4s": 0,
   "from": "2020-10-10",
   "to": "2021-02-07",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "zevra therapeutics",
   "other_trials": 0,

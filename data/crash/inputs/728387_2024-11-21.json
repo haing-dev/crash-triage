@@ -6,7 +6,7 @@
  "date": "2024-11-21",
  "asof": "2024-11-21",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-11-21",
   "adj_close": 3.0
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 1689000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 186423142,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-28"
  },
  "insiders": {
   "form4s": 5,
@@ -118,27 +128,11 @@
    }
   ]
  },
- "drug": null,
+ "drug": "[212Pb]VMT-\u03b1-NET",
  "trials": {
   "query": "perspective therapeutics",
-  "other_trials": 2,
-  "crashed_drug_trials": 0,
-  "examples": [
-   {
-    "nct": "NCT05655312",
-    "drugs": [
-     "[203Pb]VMT01",
-     "[212Pb]VMT01",
-     "Nivolumab"
-    ]
-   },
-   {
-    "nct": "NCT05636618",
-    "drugs": [
-     "[203Pb]VMT-\u03b1-NET",
-     "[212Pb]VMT-\u03b1-NET"
-    ]
-   }
-  ]
+  "other_trials": 0,
+  "crashed_drug_trials": 2,
+  "examples": []
  }
 }

@@ -6,7 +6,7 @@
  "date": "2022-01-21",
  "asof": "2022-01-21",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-01-21",
   "adj_close": 91.775
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 12500000.0,
+  "tags": "LongTermDebtCurrent"
+ },
+ "public_float": {
+  "usd": 12400000000,
+  "as_of": "2020-12-31",
+  "filed": "2021-08-25"
  },
  "insiders": {
   "form4s": 15,

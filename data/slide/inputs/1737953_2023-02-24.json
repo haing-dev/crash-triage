@@ -6,7 +6,7 @@
  "date": "2023-02-24",
  "asof": "2023-02-24",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-02-24",
   "adj_close": 19.8
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 28390000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 620300000,
+  "as_of": "2021-09-30",
+  "filed": "2022-05-19"
  },
  "insiders": {
   "form4s": 2,
@@ -61,17 +71,17 @@
     ]
    },
    {
-    "nct": "NCT03767348",
-    "drugs": [
-     "RP1",
-     "nivolumab"
-    ]
-   },
-   {
     "nct": "NCT04050436",
     "drugs": [
      "Cemiplimab",
      "RP1"
+    ]
+   },
+   {
+    "nct": "NCT03767348",
+    "drugs": [
+     "RP1",
+     "nivolumab"
     ]
    }
   ]

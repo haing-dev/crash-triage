@@ -6,7 +6,7 @@
  "date": "2025-03-21",
  "asof": "2025-03-21",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-03-21",
   "adj_close": 0.312
@@ -33,6 +33,19 @@
  "going_concern": {
   "flag": true,
   "quote": "These conditions raise substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "floating_convertible": "The Subsequent Note is convertible into shares of the Company\u2019s common stock, par value $0.001 per share, at a floating conversion price equal to 90% of the 5-day VWAP for the Company's common stock beginning on the fifth day preceding the notice by the Investor of the intent to convert, subject to a beneficial ownership limitation equivalent to 19.99%.",
+  "equity_line": "Consolidated Statements of Stockholders\u2019 Deficit (In thousands, except share and per share amounts) Preferred Stock Common Stock Number of Number of Additional Accumulated Shares Amount Shares Amount Paid-In Capital Deficit Total Balance at December 31, 2022 \u2014 $\u2014 648,384 $1 $96,172 $(101,948) $(5,775) Common stock discount amortization \u2014 \u2014 \u2014 \u2014 345 \u2014 345 Warrants underlying common stock issuance \u2014 "
+ },
+ "debt": {
+  "usd": 13240000.0,
+  "tags": "ConvertibleDebtCurrent"
+ },
+ "public_float": {
+  "usd": 3377900,
+  "as_of": "2024-06-30",
+  "filed": "2025-02-14"
  },
  "insiders": {
   "form4s": 0,

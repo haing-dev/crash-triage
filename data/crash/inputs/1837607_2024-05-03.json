@@ -6,7 +6,7 @@
  "date": "2024-05-03",
  "asof": "2024-05-03",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-05-03",
   "adj_close": 122.4
@@ -28,13 +28,23 @@
   "flag": true,
   "quote": "Some of the principal risks and uncertainties include the following: \u25cfOur management has concluded that uncertainties around our ability to raise additional capital raise substantial doubt about our ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 14200000,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-29"
+ },
  "insiders": {
   "form4s": 9,
   "from": "2024-02-03",
   "to": "2024-06-02",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "aeon biopharma",
   "other_trials": 2,

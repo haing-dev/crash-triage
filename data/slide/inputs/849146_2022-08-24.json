@@ -6,7 +6,7 @@
  "date": "2022-08-24",
  "asof": "2022-08-24",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-08-24",
   "adj_close": 3.93
@@ -32,6 +32,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "Pursuant to a Common Stock Purchase Agreement between the Company and GEG dated December 16, 2019, GEG issued to the Company 1,000,000 shares of GEG\u2019s common stock, par value $0.0001 per share, in consideration for conversion and cancellation of all principal, interest and other amounts due under the Convertible Note (representing $2.2 million in aggregate consideration)."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 81200000,
+  "as_of": "2021-12-31",
+  "filed": "2022-08-23"
  },
  "insiders": {
   "form4s": 11,

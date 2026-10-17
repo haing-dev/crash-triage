@@ -6,7 +6,7 @@
  "date": "2024-03-12",
  "asof": "2024-03-12",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-03-12",
   "adj_close": 3.85
@@ -34,6 +34,18 @@
  "going_concern": {
   "flag": true,
   "quote": "These events and conditions raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "equity_line": "Condensed Consolidated Statements of Stockholders\u2019 Equity/(Deficit) (in thousands) (unaudited) Shares Amount Capital Deficit Deficit Common Additional Paid-In Accumulated Total Stockholders\u2019 Shares Amount Capital Deficit Deficit Balances at March 31, 2023 33,774,467 $ - $ 150,534 $ (148,990 ) $ 1,544 Net loss - - - (13,028 ) (13,028 ) Stock-based compensation - - 186 - 186 Issuance of common stock"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 107166000,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-31"
  },
  "insiders": {
   "form4s": 0,

@@ -4,12 +4,12 @@
  "cik": "1750149",
  "name": "Inhibikase Therapeutics, Inc.",
  "date": "2021-06-16",
- "asof": "2021-06-17",
+ "asof": "2021-06-16",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2021-06-17",
-  "adj_close": 17.34
+  "date": "2021-06-16",
+  "adj_close": 17.64
  },
  "balance": {
   "end": "2021-03-31",
@@ -27,13 +27,19 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 1243700.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 5,
   "from": "2021-03-18",
   "to": "2021-07-16",
   "trades": []
  },
- "drug": null,
+ "drug": "IkT-148009",
  "trials": {
   "query": "inhibikase therapeutics",
   "other_trials": 0,

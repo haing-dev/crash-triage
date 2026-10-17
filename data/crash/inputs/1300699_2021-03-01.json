@@ -4,12 +4,12 @@
  "cik": "1300699",
  "name": "Athenex, Inc.",
  "date": "2021-03-01",
- "asof": "2021-03-03",
+ "asof": "2021-03-01",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2021-03-03",
-  "adj_close": 96.3
+  "date": "2021-03-01",
+  "adj_close": 109.2
  },
  "balance": {
   "end": "2020-12-31",
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 731000.0,
+  "tags": "LongTermDebtCurrent"
+ },
+ "public_float": {
+  "usd": 702000000,
+  "as_of": "2020-06-30",
+  "filed": "2021-03-01"
  },
  "insiders": {
   "form4s": 7,
@@ -62,20 +72,20 @@
    }
   ]
  },
- "drug": null,
+ "drug": "oral paclitaxel plus encequidar",
  "trials": {
   "query": "athenex",
   "other_trials": 2,
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT04180384",
+    "nct": "NCT03544567",
     "drugs": [
      "Oraxol"
     ]
    },
    {
-    "nct": "NCT03544567",
+    "nct": "NCT04180384",
     "drugs": [
      "Oraxol"
     ]

@@ -6,7 +6,7 @@
  "date": "2025-12-29",
  "asof": "2025-12-29",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-12-29",
   "adj_close": 3.5
@@ -32,6 +32,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "Issuance costs related to the Equity Line of Credit (\u201cELOC\u201d) Purchase Agreement are expensed as incurred as prescribed by ASC 815."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 51312050,
+  "as_of": "2024-06-30",
+  "filed": "2025-03-21"
  },
  "insiders": {
   "form4s": 7,

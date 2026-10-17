@@ -6,7 +6,7 @@
  "date": "2023-06-26",
  "asof": "2023-06-26",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-06-26",
   "adj_close": 32.94
@@ -34,6 +34,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "We also have used other specific terms in this Form 10-Q, most of which are explained or defined below: Term/Abbreviation Definition 2004 Plan Cytokinetics\u2019 Amended and Restated 2004 Equity Incentive Plan 2020 RTW Transactions The transactions contemplated by the RTW Royalty Purchase Agreement, Ji Xing Aficamten License Agreement and the Common Stock Purchase Agreements, dated July 14, 2020, by an"
+ },
+ "debt": {
+  "usd": 64110000.0,
+  "tags": "LongTermDebtNoncurrent"
+ },
+ "public_float": {
+  "usd": 2000000000,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-01"
  },
  "insiders": {
   "form4s": 36,
@@ -161,27 +173,27 @@
     ]
    },
    {
-    "nct": "NCT04848506",
-    "drugs": [
-     "Aficamten (5 - 20 mg)"
-    ]
-   },
-   {
-    "nct": "NCT05186818",
-    "drugs": [
-     "Aficamten (5 mg, 10 mg, 15 mg, and 20 mg)"
-    ]
-   },
-   {
     "nct": "NCT04464525",
     "drugs": [
      "Omecamtiv mecarbil"
     ]
    },
    {
+    "nct": "NCT04848506",
+    "drugs": [
+     "Aficamten (5 - 20 mg)"
+    ]
+   },
+   {
     "nct": "NCT04944784",
     "drugs": [
      "Reldesemtiv"
+    ]
+   },
+   {
+    "nct": "NCT05186818",
+    "drugs": [
+     "Aficamten (5 mg, 10 mg, 15 mg, and 20 mg)"
     ]
    }
   ]

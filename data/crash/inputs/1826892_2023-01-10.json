@@ -4,12 +4,12 @@
  "cik": "1826892",
  "name": "BioAtla, Inc.",
  "date": "2023-01-10",
- "asof": "2023-01-12",
+ "asof": "2023-01-11",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2023-01-12",
-  "adj_close": 170.0
+  "date": "2023-01-11",
+  "adj_close": 185.0
  },
  "balance": {
   "end": "2022-09-30",
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "Management\u2019s assessment included the preparation of cash flow forecasts resulting in management\u2019s conclusion that there is not substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 1000000000,
+  "as_of": "2021-06-30",
+  "filed": "2022-02-28"
  },
  "insiders": {
   "form4s": 22,
@@ -62,10 +72,18 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT04681131",
+    "nct": "NCT03425279",
     "drugs": [
      "CAB-AXL-ADC",
      "PD-1 inhibitor"
+    ]
+   },
+   {
+    "nct": "NCT05271604",
+    "drugs": [
+     "Ozuriftamab Vedotin",
+     "Pembrolizumab",
+     "Evalstotug (BA3071)"
     ]
    },
    {
@@ -84,15 +102,7 @@
     ]
    },
    {
-    "nct": "NCT05271604",
-    "drugs": [
-     "Ozuriftamab Vedotin",
-     "Pembrolizumab",
-     "Evalstotug (BA3071)"
-    ]
-   },
-   {
-    "nct": "NCT03425279",
+    "nct": "NCT04681131",
     "drugs": [
      "CAB-AXL-ADC",
      "PD-1 inhibitor"

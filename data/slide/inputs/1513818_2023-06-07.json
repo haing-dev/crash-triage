@@ -6,7 +6,7 @@
  "date": "2023-06-07",
  "asof": "2023-06-07",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-06-07",
   "adj_close": 1.6
@@ -34,6 +34,16 @@
   "flag": true,
   "quote": "These factors raise substantial doubt about the Company\u2019s ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 19068322,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-15"
+ },
  "insiders": {
   "form4s": 1,
   "from": "2023-03-09",
@@ -47,14 +57,6 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT04300140",
-    "drugs": [
-     "Batiraxcept",
-     "Cabozantinib (Cabo)",
-     "Nivolumab"
-    ]
-   },
-   {
     "nct": "NCT04983407",
     "drugs": [
      "batiraxcept",
@@ -67,6 +69,14 @@
     "drugs": [
      "Batiraxcept",
      "Paclitaxel"
+    ]
+   },
+   {
+    "nct": "NCT04300140",
+    "drugs": [
+     "Batiraxcept",
+     "Cabozantinib (Cabo)",
+     "Nivolumab"
     ]
    }
   ]

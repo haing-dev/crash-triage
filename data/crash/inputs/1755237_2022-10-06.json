@@ -4,12 +4,12 @@
  "cik": "1755237",
  "name": "Korsana Biosciences, Inc.",
  "date": "2022-10-06",
- "asof": "2022-10-11",
+ "asof": "2022-10-10",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2022-10-11",
-  "adj_close": 52.22
+  "date": "2022-10-10",
+  "adj_close": 62.44
  },
  "balance": {
   "end": "2022-06-30",
@@ -34,13 +34,25 @@
   "flag": true,
   "quote": "\u2022 There is substantial doubt regarding our ability to continue as a going concern"
  },
+ "financing_terms": {
+  "equity_line": "2021 Equity Private Placement On June 3, 2021, the Company entered into a Common Stock Purchase Agreement (the \u201c2021 Equity Private Placement\u201d) for the private placement of 5,735,988 shares of the Company\u2019s common stock, for total gross proceeds of approximately $18 million."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 131500000,
+  "as_of": "2021-06-30",
+  "filed": "2022-02-24"
+ },
  "insiders": {
   "form4s": 1,
   "from": "2022-07-08",
   "to": "2022-11-05",
   "trades": []
  },
- "drug": null,
+ "drug": "CY6463",
  "trials": {
   "query": "korsana biosciences",
   "other_trials": 0,

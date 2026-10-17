@@ -6,7 +6,7 @@
  "date": "2022-04-07",
  "asof": "2022-04-07",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-04-07",
   "adj_close": 6.94
@@ -32,6 +32,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "2.6#* Form of Equity Purchase Agreement, by and among the Company and the Management Investors, dated as of March 7, 2022."
+ },
+ "debt": {
+  "usd": 15840000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 337500000,
+  "as_of": "2021-06-30",
+  "filed": "2022-03-14"
  },
  "insiders": {
   "form4s": 14,

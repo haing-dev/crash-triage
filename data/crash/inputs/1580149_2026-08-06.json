@@ -6,7 +6,7 @@
  "date": "2026-08-06",
  "asof": "2026-08-07",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-08-07",
   "adj_close": 0.99900001
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "These factors raise substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 32006880,
+  "as_of": "2024-12-31",
+  "filed": "2025-08-15"
  },
  "insiders": {
   "form4s": 4,

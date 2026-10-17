@@ -6,7 +6,7 @@
  "date": "2021-05-04",
  "asof": "2021-05-04",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-05-04",
   "adj_close": 54.288
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "Based on our cash balances, recurring losses since inception and our existing capital resources to fund our planned operations for a 12-month period, there is substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 121700.0,
+  "tags": "LongTermNotesPayable"
+ },
+ "public_float": {
+  "usd": 27358149,
+  "as_of": "2020-06-30",
+  "filed": "2021-02-25"
  },
  "insiders": {
   "form4s": 0,

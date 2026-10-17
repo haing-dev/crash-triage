@@ -6,7 +6,7 @@
  "date": "2022-12-01",
  "asof": "2022-12-01",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-12-01",
   "adj_close": 17.78
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 9900000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 751814002,
+  "as_of": "2021-06-30",
+  "filed": "2022-05-27"
  },
  "insiders": {
   "form4s": 12,
@@ -110,13 +120,13 @@
     ]
    },
    {
-    "nct": "NCT04396756",
+    "nct": "NCT04480840",
     "drugs": [
      "PLN-74809"
     ]
    },
    {
-    "nct": "NCT04480840",
+    "nct": "NCT04396756",
     "drugs": [
      "PLN-74809"
     ]

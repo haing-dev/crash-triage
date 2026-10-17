@@ -6,7 +6,7 @@
  "date": "2025-08-13",
  "asof": "2025-08-13",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-08-13",
   "adj_close": 3.68
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "These uncertainties raise substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "equity_line": "Equity Line of Credit In April 2023, we entered into a purchase agreement (Lincoln Park Agreement) with Lincoln Park Capital Fund LLC (Lincoln Park)."
+ },
+ "debt": {
+  "usd": 5048633.0,
+  "tags": "NotesPayableCurrent+LongTermNotesPayable"
+ },
+ "public_float": {
+  "usd": 2000000,
+  "as_of": "2024-06-30",
+  "filed": "2025-03-27"
  },
  "insiders": {
   "form4s": 11,

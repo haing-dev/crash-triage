@@ -4,12 +4,12 @@
  "cik": "1636651",
  "name": "Ovid Therapeutics Inc.",
  "date": "2020-12-02",
- "asof": "2020-12-07",
+ "asof": "2020-12-02",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2020-12-07",
-  "adj_close": 2.58
+  "date": "2020-12-02",
+  "adj_close": 2.935
  },
  "balance": {
   "end": "2020-09-30",
@@ -34,13 +34,23 @@
   "flag": true,
   "quote": "These factors raise substantial doubt about our ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 25500000,
+  "as_of": "2019-06-28",
+  "filed": "2020-03-11"
+ },
  "insiders": {
   "form4s": 11,
   "from": "2020-09-03",
   "to": "2021-01-01",
   "trades": []
  },
- "drug": null,
+ "drug": "OV101 (gaboxadol)",
  "trials": {
   "query": "ovid therapeutics",
   "other_trials": 0,

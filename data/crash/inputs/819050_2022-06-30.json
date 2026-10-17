@@ -6,7 +6,7 @@
  "date": "2022-06-30",
  "asof": "2022-07-06",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-07-06",
   "adj_close": 3.57
@@ -33,13 +33,23 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 66300000,
+  "as_of": "2021-06-30",
+  "filed": "2022-03-15"
+ },
  "insiders": {
   "form4s": 11,
   "from": "2022-04-01",
   "to": "2022-07-30",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "fresh tracks therapeutics",
   "other_trials": 0,

@@ -4,12 +4,12 @@
  "cik": "1809616",
  "name": "Universe Pharmaceuticals INC",
  "date": "2024-12-09",
- "asof": "2024-12-13",
+ "asof": "2024-12-09",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2024-12-13",
-  "adj_close": 30.88
+  "date": "2024-12-09",
+  "adj_close": 55.2
  },
  "balance": {
   "end": "2024-03-31",
@@ -34,13 +34,19 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 0,
   "from": "2024-09-10",
   "to": "2025-01-08",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "universe pharmaceuticals",
   "other_trials": 0,

@@ -6,7 +6,7 @@
  "date": "2023-05-30",
  "asof": "2023-05-30",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-05-30",
   "adj_close": 20.16
@@ -35,6 +35,18 @@
   "flag": true,
   "quote": "These uncertainties raise substantial doubt about the Company\u2019s ability to continue as a going concern"
  },
+ "financing_terms": {
+  "equity_line": "11 Table of Contents The following table summarizes common stock share activity for the three months ended March 31, 2023 and 2022 (dollars in thousands): Three Months Ended March 31, 2023 Shares of Common Stock Common Stock Additional Paid-in Capital Accumulated Deficit Total Stockholders\u2019 (Deficit) Equity Balance, December 31, 2022 32,682,342 $ 36 $ 425,485 $ (422,288 ) $ 3,233 Net loss \u2014 \u2014 \u2014 (3"
+ },
+ "debt": {
+  "usd": 34648000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 60150447,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-31"
+ },
  "insiders": {
   "form4s": 13,
   "from": "2023-03-01",
@@ -48,17 +60,17 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
+    "nct": "NCT03059992",
+    "drugs": [
+     "Ibrexafungerp"
+    ]
+   },
+   {
     "nct": "NCT05178862",
     "drugs": [
      "SCY-078",
      "Fluconazole",
      "Echinocandin"
-    ]
-   },
-   {
-    "nct": "NCT03059992",
-    "drugs": [
-     "Ibrexafungerp"
     ]
    }
   ]

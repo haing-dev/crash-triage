@@ -4,12 +4,12 @@
  "cik": "1372514",
  "name": "KIORA PHARMACEUTICALS INC",
  "date": "2023-06-02",
- "asof": "2023-06-06",
+ "asof": "2023-06-02",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2023-06-06",
-  "adj_close": 7.02
+  "date": "2023-06-02",
+  "adj_close": 7.56
  },
  "balance": {
   "end": "2023-03-31",
@@ -34,28 +34,40 @@
   "flag": true,
   "quote": "The factors described above have caused management to determine there is substantial doubt about the Company\u2019s ability to continue as a going concern"
  },
+ "financing_terms": {
+  "equity_line": "Although historically the Company has been successful at raising capital, most recently raising net proceeds of approximately $0.1 million in a private placement offering that closed on February 3, 2023 as well as an equity line of credit that provides up to $10.0 million (subject to certain limitations), additional capital may not be available on terms favorable to Kiora, if at all."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 6117599,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-23"
+ },
  "insiders": {
   "form4s": 9,
   "from": "2023-03-04",
   "to": "2023-07-02",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "kiora pharmaceuticals",
   "other_trials": 2,
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT05282953",
-    "drugs": [
-     "KIO-301"
-    ]
-   },
-   {
     "nct": "NCT05629364",
     "drugs": [
      "KIO-101"
+    ]
+   },
+   {
+    "nct": "NCT05282953",
+    "drugs": [
+     "KIO-301"
     ]
    }
   ]

@@ -6,7 +6,7 @@
  "date": "2025-08-27",
  "asof": "2025-08-27",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-08-27",
   "adj_close": 1.96
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "Accordingly, based on recurring losses from operations incurred since inception, the expectation of continued operating losses, and the need to raise additional capital to finance our future operations, we determined that there is substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 32432613,
+  "as_of": "2024-06-30",
+  "filed": "2025-05-19"
  },
  "insiders": {
   "form4s": 12,

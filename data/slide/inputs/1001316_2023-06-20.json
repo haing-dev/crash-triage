@@ -6,7 +6,7 @@
  "date": "2023-06-20",
  "asof": "2023-06-20",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-06-20",
   "adj_close": 24.22
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 96503000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 564449606,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-01"
  },
  "insiders": {
   "form4s": 2,
@@ -62,13 +72,13 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT05877963",
+    "nct": "NCT04130997",
     "drugs": [
      "Ublituximab"
     ]
    },
    {
-    "nct": "NCT04130997",
+    "nct": "NCT05877963",
     "drugs": [
      "Ublituximab"
     ]

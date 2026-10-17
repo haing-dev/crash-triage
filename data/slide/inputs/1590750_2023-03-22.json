@@ -6,7 +6,7 @@
  "date": "2023-03-22",
  "asof": "2023-03-22",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-03-22",
   "adj_close": 25.85
@@ -33,6 +33,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "In December 2019, the Company entered into a common stock purchase agreement (the \u201cAspire Stock Purchase Agreement\u201d) with Aspire Capital, LLC (\u201cAspire Capital\u201d)."
+ },
+ "debt": {
+  "usd": 4645000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 329300000,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-09"
  },
  "insiders": {
   "form4s": 13,

@@ -6,7 +6,7 @@
  "date": "2025-10-02",
  "asof": "2025-10-02",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-10-02",
   "adj_close": 4.96
@@ -34,6 +34,16 @@
  "going_concern": {
   "flag": true,
   "quote": "However, due to the significant uncertainty in its plans, including the achievement of its collaboration income, the Company has concluded that there is substantial doubt about its ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 21900000,
+  "as_of": "2024-06-28",
+  "filed": "2025-03-24"
  },
  "insiders": {
   "form4s": 3,

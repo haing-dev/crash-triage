@@ -4,12 +4,12 @@
  "cik": "1671584",
  "name": "Aptevo Therapeutics Inc.",
  "date": "2024-04-11",
- "asof": "2024-04-15",
+ "asof": "2024-04-11",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2024-04-15",
-  "adj_close": 10429.55957
+  "date": "2024-04-11",
+  "adj_close": 12760.55957
  },
  "balance": {
   "end": "2023-12-31",
@@ -34,13 +34,25 @@
   "flag": true,
   "quote": "When considered in aggregate, these factors raise substantial doubt about our ability to continue as a going concern"
  },
+ "financing_terms": {
+  "equity_line": "We may obtain additional funding through our existing equity Purchase Agreement with Lincoln Park or attempt to obtain other public or private financing, collaborative or licensing arrangements with strategic partners, or through credit lines or other debt financing sources to increase the funds available to fund operations."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 11000000,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-05"
+ },
  "insiders": {
   "form4s": 7,
   "from": "2024-01-12",
   "to": "2024-05-11",
   "trades": []
  },
- "drug": null,
+ "drug": "APVO436",
  "trials": {
   "query": "aptevo therapeutics",
   "other_trials": 0,

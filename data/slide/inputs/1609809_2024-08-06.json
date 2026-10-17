@@ -6,7 +6,7 @@
  "date": "2024-08-06",
  "asof": "2024-08-06",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-08-06",
   "adj_close": 20.2
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "The principal risks and uncertainties affecting our business include the following: \u2022 We have identified conditions and events that raise substantial doubt regarding our ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 110000000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 463030964,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-05"
  },
  "insiders": {
   "form4s": 16,

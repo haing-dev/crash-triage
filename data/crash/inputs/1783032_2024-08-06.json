@@ -6,7 +6,7 @@
  "date": "2024-08-06",
  "asof": "2024-08-06",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-08-06",
   "adj_close": 0.7802
@@ -34,13 +34,23 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 30916000.0,
+  "tags": "LongTermDebtNoncurrent"
+ },
+ "public_float": {
+  "usd": 52800000,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-06"
+ },
  "insiders": {
   "form4s": 9,
   "from": "2024-05-08",
   "to": "2024-09-05",
   "trades": []
  },
- "drug": null,
+ "drug": "EO-3021",
  "trials": {
   "query": "elevation oncology",
   "other_trials": 0,

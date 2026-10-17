@@ -6,7 +6,7 @@
  "date": "2021-12-29",
  "asof": "2021-12-29",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-12-29",
   "adj_close": 92.9
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 181400000,
+  "as_of": "2020-06-30",
+  "filed": "2021-02-26"
+ },
  "insiders": {
   "form4s": 3,
   "from": "2021-09-30",
@@ -52,15 +62,15 @@
     ]
    },
    {
-    "nct": "NCT05134441",
-    "drugs": [
-     "IMU-838 tablets"
-    ]
-   },
-   {
     "nct": "NCT05054140",
     "drugs": [
      "IMU-838"
+    ]
+   },
+   {
+    "nct": "NCT05134441",
+    "drugs": [
+     "IMU-838 tablets"
     ]
    }
   ]

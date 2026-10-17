@@ -6,7 +6,7 @@
  "date": "2023-06-23",
  "asof": "2023-06-23",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-06-23",
   "adj_close": 762.75
@@ -32,6 +32,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "price_reset_warrants": "Pursuant to the SPA, ALSF is entitled to full ratchet anti-dilution protection, most-favored nation status, denying the Company the right to enter into a variable rate transaction absent its consent, a right to participate in any future financing the Company may consummate and to have all the shares of Common Stock to which it is entitled under the SPA registered under the Securities Act within 18"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 109100000,
+  "as_of": "2021-10-31",
+  "filed": "2022-07-19"
  },
  "insiders": {
   "form4s": 2,

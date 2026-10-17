@@ -6,7 +6,7 @@
  "date": "2025-06-03",
  "asof": "2025-06-03",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-06-03",
   "adj_close": 5.9
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "As a result of the assessment in accordance with the applicable accounting standards, these conditions raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 740000.0,
+  "tags": "NotesPayableCurrent"
+ },
+ "public_float": {
+  "usd": 79628327,
+  "as_of": "2024-06-28",
+  "filed": "2025-03-20"
  },
  "insiders": {
   "form4s": 22,
@@ -146,10 +156,9 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT05074810",
+    "nct": "NCT06682572",
     "drugs": [
-     "avutometinib and sotorasib",
-     "avutometinib and sotorasib and defactinib"
+     "Avutometinib (VS-6766) + Defactinib (VS-6063)"
     ]
    },
    {
@@ -161,21 +170,22 @@
     ]
    },
    {
-    "nct": "NCT06682572",
+    "nct": "NCT05074810",
     "drugs": [
-     "Avutometinib (VS-6766) + Defactinib (VS-6063)"
-    ]
-   },
-   {
-    "nct": "NCT05375994",
-    "drugs": [
-     "avutometinib (VS-6766) and adagrasib"
+     "avutometinib and sotorasib",
+     "avutometinib and sotorasib and defactinib"
     ]
    },
    {
     "nct": "NCT05669482",
     "drugs": [
      "avutometinib (VS-6766) and defactinib in combination with gemcitabine and nab-paclitaxel"
+    ]
+   },
+   {
+    "nct": "NCT05375994",
+    "drugs": [
+     "avutometinib (VS-6766) and adagrasib"
     ]
    }
   ]

@@ -6,7 +6,7 @@
  "date": "2025-11-20",
  "asof": "2025-11-20",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-11-20",
   "adj_close": 24.0
@@ -33,6 +33,12 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 12,
   "from": "2025-08-22",

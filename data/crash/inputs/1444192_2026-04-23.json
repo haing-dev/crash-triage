@@ -4,12 +4,12 @@
  "cik": "1444192",
  "name": "Grace Therapeutics, Inc.",
  "date": "2026-04-23",
- "asof": "2026-04-28",
+ "asof": "2026-04-24",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2026-04-28",
-  "adj_close": 2.1
+  "date": "2026-04-24",
+  "adj_close": 2.3
  },
  "balance": {
   "end": "2025-12-31",
@@ -32,6 +32,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 24040390,
+  "as_of": "2024-09-30",
+  "filed": "2025-06-23"
  },
  "insiders": {
   "form4s": 0,

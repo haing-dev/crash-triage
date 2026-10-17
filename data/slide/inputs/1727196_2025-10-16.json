@@ -6,7 +6,7 @@
  "date": "2025-10-16",
  "asof": "2025-10-16",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-10-16",
   "adj_close": 29.44
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 49756000.0,
+  "tags": "LongTermDebtNoncurrent"
+ },
+ "public_float": {
+  "usd": 394700000,
+  "as_of": "2024-06-30",
+  "filed": "2025-02-27"
  },
  "insiders": {
   "form4s": 7,

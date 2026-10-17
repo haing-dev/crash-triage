@@ -4,12 +4,12 @@
  "cik": "1844417",
  "name": "Estrella Immunopharma, Inc.",
  "date": "2023-09-05",
- "asof": "2023-09-11",
+ "asof": "2023-09-07",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2023-09-11",
-  "adj_close": 8.45
+  "date": "2023-09-07",
+  "adj_close": 9.96
  },
  "balance": {
   "end": "2023-06-30",
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "In connection with the Company\u2019s assessment of going concern considerations in accordance with Financial Accounting Standard Board\u2019s Accounting Standards Update (\u201cASU\u201d) 2014-15, \u201cDisclosures of Uncertainties about an Entity\u2019s Ability to Continue as a Going Concern,\u201d management has determined that th"
+ },
+ "financing_terms": {
+  "equity_line": "16 Common Stock Purchase Agreement On April 20, 2023, the Company entered into a common stock purchase agreement (the \u201cCommon Stock Purchase Agreement\u201d) and a related registration rights agreement (the \u201cRRA\u201d) with White Lion Capital, LLC, a Nevada limited liability company (\u201cWhite Lion\u201d)."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 58497000,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-14"
  },
  "insiders": {
   "form4s": 8,

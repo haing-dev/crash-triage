@@ -6,7 +6,7 @@
  "date": "2021-05-13",
  "asof": "2021-05-13",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-05-13",
   "adj_close": 25.55
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 619916280,
+  "as_of": "2020-06-30",
+  "filed": "2021-02-16"
  },
  "insiders": {
   "form4s": 39,
@@ -258,10 +268,21 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT04773587",
+    "nct": "NCT04286607",
     "drugs": [
-     "Roflumilast Cream 0.15%",
-     "Vehicle Cream"
+     "Topical roflumilast"
+    ]
+   },
+   {
+    "nct": "NCT04804605",
+    "drugs": [
+     "ARQ-151 Cream 0.15% or ARQ-151 Cream 0.05%"
+    ]
+   },
+   {
+    "nct": "NCT04445987",
+    "drugs": [
+     "ARQ-154"
     ]
    },
    {
@@ -272,23 +293,9 @@
     ]
    },
    {
-    "nct": "NCT04811131",
-    "drugs": [
-     "ARQ-252 cream 0.3%",
-     "ARQ-252 Vehicle cream",
-     "NB-UVB phototherapy active treatment"
-    ]
-   },
-   {
-    "nct": "NCT04746911",
+    "nct": "NCT04655313",
     "drugs": [
      "ARQ-151 cream 0.3%"
-    ]
-   },
-   {
-    "nct": "NCT04445987",
-    "drugs": [
-     "ARQ-154"
     ]
    }
   ]

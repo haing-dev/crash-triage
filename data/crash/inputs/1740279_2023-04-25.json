@@ -6,7 +6,7 @@
  "date": "2023-04-25",
  "asof": "2023-04-28",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-04-28",
   "adj_close": 43.8
@@ -35,13 +35,23 @@
   "flag": true,
   "quote": "Going Concern The report from our independent registered public accounting firm for the year ended December 31, 2022, includes an explanatory paragraph stating that our recurring losses since inception raises substantial doubt about our ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 5900000,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-30"
+ },
  "insiders": {
   "form4s": 6,
   "from": "2023-01-25",
   "to": "2023-05-25",
   "trades": []
  },
- "drug": null,
+ "drug": "INB-100",
  "trials": {
   "query": "in8bio",
   "other_trials": 0,

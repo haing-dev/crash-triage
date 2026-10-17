@@ -6,7 +6,7 @@
  "date": "2026-08-31",
  "asof": "2026-08-31",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-08-31",
   "adj_close": 5.86
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "Our current operating plan and projected cash outflows for the upcoming periods raise substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 19900000,
+  "as_of": "2025-06-30",
+  "filed": "2026-03-05"
  },
  "insiders": {
   "form4s": 6,

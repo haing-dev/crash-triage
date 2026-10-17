@@ -6,7 +6,7 @@
  "date": "2021-04-30",
  "asof": "2021-04-30",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-04-30",
   "adj_close": 60.46
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 48321848.0,
+  "tags": "LongTermDebtNoncurrent"
+ },
+ "public_float": {
+  "usd": 2400000000,
+  "as_of": "2020-06-30",
+  "filed": "2021-03-01"
+ },
  "insiders": {
   "form4s": 7,
   "from": "2021-01-30",
@@ -54,16 +64,15 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT04608396",
+    "nct": "NCT04634669",
     "drugs": [
-     "AXS-05"
+     "AXS-05 (dextromethorphan-bupropion)"
     ]
    },
    {
-    "nct": "NCT04971291",
+    "nct": "NCT04608396",
     "drugs": [
-     "AXS-05",
-     "Bupropion SR"
+     "AXS-05"
     ]
    },
    {
@@ -73,9 +82,10 @@
     ]
    },
    {
-    "nct": "NCT04634669",
+    "nct": "NCT04971291",
     "drugs": [
-     "AXS-05 (dextromethorphan-bupropion)"
+     "AXS-05",
+     "Bupropion SR"
     ]
    }
   ]

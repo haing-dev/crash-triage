@@ -4,12 +4,12 @@
  "cik": "1781983",
  "name": "Aprea Therapeutics, Inc.",
  "date": "2020-12-28",
- "asof": "2020-12-29",
+ "asof": "2020-12-28",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2020-12-29",
-  "adj_close": 5.05
+  "date": "2020-12-28",
+  "adj_close": 5.5
  },
  "balance": {
   "end": "2020-09-30",
@@ -33,6 +33,12 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 2,
   "from": "2020-09-29",
@@ -47,22 +53,16 @@
    }
   ]
  },
- "drug": null,
+ "drug": "eprenetapopt",
  "trials": {
   "query": "aprea therapeutics",
-  "other_trials": 2,
-  "crashed_drug_trials": 0,
+  "other_trials": 1,
+  "crashed_drug_trials": 1,
   "examples": [
    {
     "nct": "NCT03931291",
     "drugs": [
      "APR-246"
-    ]
-   },
-   {
-    "nct": "NCT04383938",
-    "drugs": [
-     "APR-246 (eprenetapopt) + Pembrolizumab"
     ]
    }
   ]

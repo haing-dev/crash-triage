@@ -6,7 +6,7 @@
  "date": "2022-06-01",
  "asof": "2022-06-01",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-06-01",
   "adj_close": 13.04
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 755000000,
+  "as_of": "2021-06-30",
+  "filed": "2022-05-20"
  },
  "insiders": {
   "form4s": 42,
@@ -888,6 +898,14 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
+    "nct": "NCT04068896",
+    "drugs": [
+     "NGM120 30mg",
+     "NGM120 100mg",
+     "NGM120 30mg with Gemcitabine and Abraxane"
+    ]
+   },
+   {
     "nct": "NCT04210245",
     "drugs": [
      "aldafermin"
@@ -907,14 +925,6 @@
      "NGM707",
      "NGM707 plus pembrolizumab (KEYTRUDA\u00ae)",
      "NGM707 plus pembrolizumab (KEYTRUDA\u00ae)"
-    ]
-   },
-   {
-    "nct": "NCT04068896",
-    "drugs": [
-     "NGM120 30mg",
-     "NGM120 100mg",
-     "NGM120 30mg with Gemcitabine and Abraxane"
     ]
    }
   ]

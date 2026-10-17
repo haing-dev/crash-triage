@@ -6,7 +6,7 @@
  "date": "2023-02-23",
  "asof": "2023-02-27",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-02-27",
   "adj_close": 0.71
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "Management has determined that the mandatory liquidation, should a business combination not occur, and potential subsequent dissolution, raises substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 55500000,
+  "as_of": "2021-06-30",
+  "filed": "2022-03-31"
  },
  "insiders": {
   "form4s": 0,

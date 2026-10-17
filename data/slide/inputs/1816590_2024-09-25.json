@@ -6,7 +6,7 @@
  "date": "2024-09-25",
  "asof": "2024-09-25",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-09-25",
   "adj_close": 6.83
@@ -32,6 +32,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 29434000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 215700000,
+  "as_of": "2023-06-30",
+  "filed": "2024-02-29"
  },
  "insiders": {
   "form4s": 6,
@@ -82,12 +92,6 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT05481736",
-    "drugs": [
-     "Psilocybin"
-    ]
-   },
-   {
     "nct": "NCT05624268",
     "drugs": [
      "Psilocybin"
@@ -95,6 +99,12 @@
    },
    {
     "nct": "NCT05711940",
+    "drugs": [
+     "Psilocybin"
+    ]
+   },
+   {
+    "nct": "NCT05481736",
     "drugs": [
      "Psilocybin"
     ]

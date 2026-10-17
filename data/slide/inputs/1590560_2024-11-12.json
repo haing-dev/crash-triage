@@ -6,7 +6,7 @@
  "date": "2024-11-12",
  "asof": "2024-11-12",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-11-12",
   "adj_close": 6.73
@@ -32,6 +32,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 51113000.0,
+  "tags": "LongTermDebtNoncurrent"
+ },
+ "public_float": {
+  "usd": 546670000,
+  "as_of": "2023-06-30",
+  "filed": "2024-02-28"
  },
  "insiders": {
   "form4s": 3,
@@ -68,6 +78,19 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
+    "nct": "NCT04120493",
+    "drugs": [
+     "intra-striatal rAAV5-miHTT",
+     "Imitation (sham) surgery"
+    ]
+   },
+   {
+    "nct": "NCT06270316",
+    "drugs": [
+     "AMT-191"
+    ]
+   },
+   {
     "nct": "NCT05243017",
     "drugs": [
      "intra-striatal rAAV5-miHTT"
@@ -80,22 +103,9 @@
     ]
    },
    {
-    "nct": "NCT04120493",
-    "drugs": [
-     "intra-striatal rAAV5-miHTT",
-     "Imitation (sham) surgery"
-    ]
-   },
-   {
     "nct": "NCT06100276",
     "drugs": [
      "AMT-162"
-    ]
-   },
-   {
-    "nct": "NCT06270316",
-    "drugs": [
-     "AMT-191"
     ]
    }
   ]

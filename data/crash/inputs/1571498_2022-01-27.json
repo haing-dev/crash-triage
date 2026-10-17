@@ -6,7 +6,7 @@
  "date": "2022-01-27",
  "asof": "2022-01-27",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-01-27",
   "adj_close": 1.06
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 216254000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 794600000,
+  "as_of": "2020-06-30",
+  "filed": "2021-02-23"
  },
  "insiders": {
   "form4s": 13,
@@ -97,23 +107,23 @@
    }
   ]
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "epizyme",
   "other_trials": 6,
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT02601950",
+    "nct": "NCT02875548",
     "drugs": [
      "Tazemetostat"
     ]
    },
    {
-    "nct": "NCT04224493",
+    "nct": "NCT05205252",
     "drugs": [
      "Tazemetostat",
-     "Tazemetostat",
+     "Tafasitamab",
      "Lenalidomide"
     ]
    },
@@ -125,17 +135,19 @@
     ]
    },
    {
-    "nct": "NCT02875548",
-    "drugs": [
-     "Tazemetostat"
-    ]
-   },
-   {
     "nct": "NCT04179864",
     "drugs": [
      "Tazemetostat",
      "Abiraterone/prednisone",
      "Enzalutamide"
+    ]
+   },
+   {
+    "nct": "NCT04224493",
+    "drugs": [
+     "Tazemetostat",
+     "Tazemetostat",
+     "Lenalidomide"
     ]
    }
   ]

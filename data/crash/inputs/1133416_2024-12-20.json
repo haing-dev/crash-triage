@@ -4,12 +4,12 @@
  "cik": "1133416",
  "name": "GALECTIN THERAPEUTICS INC",
  "date": "2024-12-20",
- "asof": "2024-12-23",
+ "asof": "2024-12-20",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2024-12-23",
-  "adj_close": 0.88999999
+  "date": "2024-12-20",
+  "adj_close": 1.04
  },
  "balance": {
   "end": "2024-09-30",
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "These factors raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 63000000,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-29"
  },
  "insiders": {
   "form4s": 10,
@@ -118,18 +128,11 @@
    }
   ]
  },
- "drug": null,
+ "drug": "belapectin",
  "trials": {
   "query": "galectin therapeutics",
-  "other_trials": 1,
-  "crashed_drug_trials": 0,
-  "examples": [
-   {
-    "nct": "NCT04365868",
-    "drugs": [
-     "belapectin"
-    ]
-   }
-  ]
+  "other_trials": 0,
+  "crashed_drug_trials": 1,
+  "examples": []
  }
 }

@@ -6,7 +6,7 @@
  "date": "2023-11-28",
  "asof": "2023-12-04",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-12-04",
   "adj_close": 2.7
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "Going Concern The history of significant losses, the negative cash flow from operations, the limited cash resources on hand and the dependence by the Company on obtaining additional financing to fund its operations after the current cash resources are exhausted raise substantial doubt about the Comp"
+ },
+ "financing_terms": {
+  "equity_line": "The Equity Purchase Agreement The Company also entered into an Equity Purchase Agreement with Bryan Capital on November 1, 2021 (the \u201cEquity Purchase Agreement\u201d) pursuant to which the Company acquired for $50,000 cash, plus the Warrant, the one (1) share of iBio CMO Preferred Tracking Stock and the 0.01% interest in iBio CDMO owned by Bryan Capital."
+ },
+ "debt": {
+  "usd": 12625000.0,
+  "tags": "NotesPayableCurrent"
+ },
+ "public_float": {
+  "usd": 5435812,
+  "as_of": "2022-12-31",
+  "filed": "2023-09-27"
  },
  "insiders": {
   "form4s": 4,
@@ -69,7 +81,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "ibio",
   "other_trials": 0,

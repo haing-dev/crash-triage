@@ -4,12 +4,12 @@
  "cik": "1711754",
  "name": "Inmune Bio, Inc.",
  "date": "2025-06-30",
- "asof": "2025-07-01",
+ "asof": "2025-06-30",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2025-07-01",
-  "adj_close": 2.09
+  "date": "2025-06-30",
+  "adj_close": 2.31
  },
  "balance": {
   "end": "2025-03-31",
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "These conditions and events raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 15000000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 135000000,
+  "as_of": "2024-06-30",
+  "filed": "2025-03-27"
  },
  "insiders": {
   "form4s": 0,

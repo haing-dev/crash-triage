@@ -6,7 +6,7 @@
  "date": "2022-08-30",
  "asof": "2022-08-30",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-08-30",
   "adj_close": 4.5
@@ -32,6 +32,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 404400000,
+  "as_of": "2021-06-30",
+  "filed": "2022-03-25"
  },
  "insiders": {
   "form4s": 10,
@@ -145,18 +155,18 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT04607850",
-    "drugs": [
-     "ChAdOx1-HPV",
-     "MVA-HPV"
-    ]
-   },
-   {
     "nct": "NCT04778904",
     "drugs": [
      "ChAdOx1-HBV",
      "MVA-HBV",
      "Nivolumab"
+    ]
+   },
+   {
+    "nct": "NCT04607850",
+    "drugs": [
+     "ChAdOx1-HPV",
+     "MVA-HPV"
     ]
    }
   ]

@@ -6,7 +6,7 @@
  "date": "2025-01-10",
  "asof": "2025-01-15",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-01-15",
   "adj_close": 1.38
@@ -34,31 +34,27 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 42065000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 199465749000,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-12"
+ },
  "insiders": {
   "form4s": 0,
   "from": "2024-10-12",
   "to": "2025-02-09",
   "trades": []
  },
- "drug": null,
+ "drug": "INZ-701",
  "trials": {
   "query": "inozyme pharma",
-  "other_trials": 2,
-  "crashed_drug_trials": 0,
-  "examples": [
-   {
-    "nct": "NCT06462547",
-    "drugs": [
-     "INZ-701"
-    ]
-   },
-   {
-    "nct": "NCT06046820",
-    "drugs": [
-     "INZ-701",
-     "Control Arm (Conventional Therapy)"
-    ]
-   }
-  ]
+  "other_trials": 0,
+  "crashed_drug_trials": 2,
+  "examples": []
  }
 }

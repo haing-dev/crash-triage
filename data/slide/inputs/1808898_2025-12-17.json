@@ -6,7 +6,7 @@
  "date": "2025-12-17",
  "asof": "2025-12-17",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-12-17",
   "adj_close": 10.79
@@ -32,6 +32,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "price_reset_warrants": "The Series 2 Warrants contain an exercise price adjustment mechanism providing that certain issuances of common stock (or common stock equivalents), if made at a price lower than the then existing exercise price of such Series 2 Warrants would reset the exercise price to such lower price."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 152964292,
+  "as_of": "2024-12-31",
+  "filed": "2025-09-22"
  },
  "insiders": {
   "form4s": 12,
