@@ -1,0 +1,26 @@
+{
+ "id": "1401914_2022-11-04",
+ "asof": "2022-11-04",
+ "chars": 21283,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 6500,
+   "exercise_price_usd": 10.0,
+   "expiry": "2026-04-04",
+   "quote": "6,500$10.0004/04/2026"
+  },
+  {
+   "count": 1374515,
+   "exercise_price_usd": 0.96,
+   "expiry": "2023-02-15",
+   "quote": "1,374,515$0.9602/15/2023"
+  }
+ ],
+ "warrants_dropped": 0
+}

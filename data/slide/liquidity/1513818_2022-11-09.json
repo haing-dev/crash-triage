@@ -1,0 +1,32 @@
+{
+ "id": "1513818_2022-11-09",
+ "asof": "2022-11-09",
+ "chars": 23338,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 3990025,
+   "exercise_price_usd": 1.88,
+   "expiry": null,
+   "quote": "The 3,990,025 common stock warrants issued to the institutional investor are exercisable immediately, will expire five years from the exercisable date and have an exercise price of $1.88 per share."
+  },
+  {
+   "count": 860216,
+   "exercise_price_usd": 2.2,
+   "expiry": null,
+   "quote": "will expire five years following the exercise date and have an exercise price of $2.20 per share"
+  },
+  {
+   "count": 1665025,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "The 1,665,025 pre-funded warrants are exercisable at any time until all of the pre-funded warrants are exercised in full and have an exercise price of $0.001."
+  }
+ ],
+ "warrants_dropped": 0
+}

@@ -1,0 +1,33 @@
+{
+ "id": "1528115_2022-11-02",
+ "asof": "2022-11-02",
+ "chars": 25861,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2022-07-11",
+   "net_proceeds_usd": 122700000,
+   "what": "Private placement of common stock, pre-funded warrants and common warrants",
+   "quote": "The private placement resulted in net proceeds of approximately $122.7 million, after deducting placement agent fees and estimated expenses."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 24696206,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "up to 24,696,206 shares are issuable upon the exercise of pre-funded warrants (which are immediately exercisable at an exercise price of $0.001 per share, subject to beneficial ownership limitations)"
+  },
+  {
+   "count": 8427508,
+   "exercise_price_usd": 5.806875,
+   "expiry": "2025-06-30",
+   "quote": "up to 8,427,508 shares are issuable upon the exercise of common warrants (which are immediately exercisable at an exercise price of $5.806875 per share, subject to beneficial ownership limitations, and expire on June 30, 2025)"
+  }
+ ],
+ "warrants_dropped": 0
+}
