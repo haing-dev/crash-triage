@@ -49,7 +49,8 @@ def add(folder, cik, rows, cols):
 def run(kind, base, date_field, cols, row, st, t_end):
     tick = {u["ticker"].upper(): u["cik"] for u in universe().values() if u["ticker"]}
     s = st.setdefault(kind, {})
-    url = s.get("next") or f"{base}?{urlencode({date_field + '.gte': s.get('through', START), 'sort': date_field + '.asc', 'limit': s.get('limit', 50000)})}"
+    order = {"sort": date_field, "order": "asc"} if "/v3/" in base else {"sort": date_field + ".asc"}   # v3 sorts differently
+    url = s.get("next") or f"{base}?{urlencode({date_field + '.gte': s.get('through', START), **order, 'limit': s.get('limit', 50000)})}"
     n = 0
     try:
         n = read_pages(kind, url, date_field, cols, row, tick, s, st, t_end)
