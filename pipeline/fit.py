@@ -22,9 +22,11 @@ Cells (all as of the entry day; nothing later):
   specialists 13F filers with half their reported value in this universe across 5+ of its companies: their holdings
               in the latest quarter whose 13F deadline (45 days) had passed by entry vs the quarter before:
               Bought / Held / Sold (more funds adding than cutting, or the reverse)
-  short       FINRA short interest at the latest settlement date 14+ days before entry, % of shares outstanding
-Cut-offs for runway / ev / programs / short and which side is green are learned walk-forward (refitted monthly on
-episodes whose year had ended).
+  short       FINRA short interest at the latest settlement date 14+ days before entry, % of shares outstanding that
+              day (N/A above 100%: the share count and the short interest then disagree)
+Colours are learned walk-forward (refitted monthly on episodes whose year had ended): the cut-off and which side is
+green for runway / ev / programs / short, and for raise terms and specialist funds whether that category did better
+(green) or worse (red) than similar biotechs. Insider buying is green and selling red; safety follows the wording.
 
 Call, a fixed rule:
   Avoid          going-concern warning, runway under 12 months or unknown, share price under $1, or it must raise
@@ -152,8 +154,11 @@ def short_interest(cik, asof):
     if not rows:
         return {"pct": None}, None
     sd, si = rows[-1]
-    sh = shares_on(cik, asof)
-    return {"pct": si / sh * 100 if sh else None, "settlement": sd}, None
+    sh = shares_on(cik, sd)                               # shares on the settlement day (before any later split)
+    pct = si / sh * 100 if sh else None
+    if pct is not None and pct > 100:                     # more shares short than exist: the two sources disagree
+        pct = None
+    return {"pct": pct, "settlement": sd}, None
 
 
 # ---------------------------------------------------------------- features
@@ -571,8 +576,8 @@ def run(kind, ctrl):
                 return "n"
             if k == "insider":
                 return "g" if x["insider_net"] > 0 else "r"
-            if k in ("safety", "raise", "specialists"):
-                return cat(model, x, k)
+            if k == "safety":
+                return cat(model, x, k)                     # the announcement's own wording sets the colour
             pts = model["points"][k].get(cat(model, x, k), 0.0)
             return "g" if pts >= 0.05 else "r" if pts <= -0.05 else "n"
 
