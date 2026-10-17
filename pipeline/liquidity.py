@@ -12,7 +12,7 @@ checked against the text; unverified items are dropped.
 Sources, all public by the entry day: the latest 10-Q/10-K (liquidity section, subsequent events, warrants note) and
 the 8-Ks and prospectuses filed between the balance-sheet date and the entry day.
 
-Output: data/<kind>/liquidity/<cik>_<date>.json (once per episode; newest first)
+Output: data/<kind>/liquidity/<cik>_<date>.json (once per episode and balance-sheet filing; newest first)
 
     python liquidity.py --kind crash --limit 40 --shard 0/2
 """
@@ -76,6 +76,14 @@ def gather(rec):
     return "\n\n".join(parts)[:45000]
 
 
+def current(out, rec):
+    """A read is reused while it was made from the same balance-sheet filing the episode's inputs now point to."""
+    if not out.exists():
+        return False
+    j = json.loads(out.read_text())
+    return not j.get("error") and j.get("accn", (rec.get("balance") or {}).get("accn")) == (rec.get("balance") or {}).get("accn")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--kind", choices=KINDS, required=True)
@@ -89,17 +97,17 @@ def main():
         if pos % sn != si:
             continue
         out = out_dir / p.name
-        if out.exists() and not json.loads(out.read_text()).get("error"):
-            done += 1
-            continue
         rec = json.loads(p.read_text())
         if not rec.get("balance"):
             continue                                         # nothing to adjust without a balance sheet
+        if current(out, rec):
+            done += 1
+            continue
         if n >= a.limit:
             break
         n += 1
         b6 = rec.get("burn6")
-        res = {"id": rec["id"], "asof": rec["asof"]}
+        res = {"id": rec["id"], "asof": rec["asof"], "accn": rec["balance"].get("accn")}
         try:
             text = gather(rec)
             prompt = (f"Company: {rec['name']}. Entry date: {rec['asof']}. Balance-sheet date: {rec['balance']['end']}. "

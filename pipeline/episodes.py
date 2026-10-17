@@ -3,7 +3,8 @@ Find the episodes each triage studies, from the stored daily closes (split-adjus
 
 CRASH  the stock falls 50%+ within 5 trading days from the highest close of the 5 days before, and the biggest
        single-day fall in that window is 25%+ (the "news day" = crash date). Entry (where the backtest buys) is the
-       trough: the lowest close of the window.
+       close of the detection day: the first day both conditions are met, so the price is knowable on the day (never
+       the later trough, which is only known afterwards).
 SLIDE  the stock is 30%+ below its highest close of the past 6 months (126 trading days) with no single day of
        -25% or worse on the way down: a slow decline, not a news crash. Entry is the first close 30% below the high.
        Left out when the company had a crash from a year before the high through the entry (that is a crash
@@ -13,7 +14,8 @@ SLIDE  the stock is 30%+ below its highest close of the past 6 months (126 tradi
 Shared filters: the high is at least $1 (penny-stock noise); a +80% snap-back within 3 days means a bad print.
 One crash per company per 20 trading days; at most one slide per company per 126 trading days (6 months).
 
-Output: data/crash/episodes.csv, data/slide/episodes.csv (same columns), reports/episodes.md
+Output: data/crash/episodes.csv, data/slide/episodes.csv (same columns; end_date / low_close = entry day and its
+close), reports/episodes.md
 """
 import csv, time
 from collections import Counter
@@ -55,7 +57,7 @@ def crashes(cik, rows):
         if news_move > NEWS_DAY or snap_back(rows, low_k):
             j += 1
             continue
-        out.append(row(cik, rows, start, low_k, news_k, news_move, j - news_k + 1))
+        out.append(row(cik, rows, start, j, news_k, news_move, j - news_k + 1))      # entry = detection day j
         j = low_k + CRASH_COOLDOWN
     return out
 

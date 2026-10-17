@@ -19,5 +19,10 @@ def todo(out_dir, ids):
 if sys.argv[1] == "events":
     print(todo(kdir("crash", "events"), [f"{c['cik']}_{c['date']}" for c in episodes("crash")]))
 else:
-    print(sum(todo(kdir(k, "liquidity"), [p.stem for p in kdir(k, "inputs").glob("*.json")
-                                          if json.loads(p.read_text()).get("balance")]) for k in KINDS))
+    from liquidity import current
+    n = 0
+    for k in KINDS:
+        for p in kdir(k, "inputs").glob("*.json"):
+            rec = json.loads(p.read_text())
+            n += bool(rec.get("balance")) and not current(kdir(k, "liquidity") / p.name, rec)
+    print(n)

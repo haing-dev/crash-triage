@@ -1,0 +1,41 @@
+name: collect-more-sources
+on:
+  schedule:
+    - cron: "41 3 * * *"        # daily, incremental: share counts, raises, 13F holdings, short interest, dividends
+  push:
+    paths: ["pipeline/shares.py", "pipeline/raises.py", "pipeline/holdings.py", "pipeline/massive_extra.py", ".github/workflows/enrich.yml"]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { step: shares, run: "python shares.py --minutes 150", save: "data/shares" }
+          - { step: raises, run: "python raises.py --minutes 300", save: "data/raises" }
+          - { step: holdings, run: "python holdings.py --minutes 300", save: "data/holdings data/state/holdings.json" }
+          - { step: massive, run: "python massive_extra.py --minutes 280", save: "data/market data/state/massive_extra.json" }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Collect (${{ matrix.step }})
+        env:
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+          MASSIVE_API_KEY: ${{ secrets.MASSIVE_API_KEY }}
+        run: cd pipeline && ${{ matrix.run }}
+      - name: Save
+        if: always()
+        run: |
+          git config user.name "crash-triage-bot"
+          git config user.email "actions@users.noreply.github.com"
+          for p in ${{ matrix.save }}; do [ -e "$p" ] && git add "$p"; done
+          git commit -m "${{ matrix.step }} collected [skip ci]" || echo "no change"
+          for i in 1 2 3 4 5 6 7 8; do git pull --rebase -q && git push -q && break; sleep $((i*9)); done

@@ -1,6 +1,6 @@
 """
-Collect each episode's factor inputs from public sources, using only what was public by the entry day (the crash
-trough, or the day a slide crossed -30%), which is where the backtest buys: no look-ahead.
+Collect each episode's factor inputs from public sources, using only what was public by the entry day (the day the
+crash was detected, or the day a slide crossed -30%), which is where the backtest buys: no look-ahead.
 
   liquid funds  latest balance sheet filed by entry: unrestricted cash & equivalents + readily liquid marketable
                 securities (SEC XBRL; restricted cash removed; long-term investments left out)
@@ -8,6 +8,12 @@ trough, or the day a slide crossed -30%), which is where the backtest buys: no l
                 figures turned into quarters/halves)
   shares        shares outstanding on the latest cover page (SEC XBRL, dei) -> market value with the actual price
   going concern a real going-concern conclusion in that 10-Q/10-K (not the hypothetical risk-factor wording)
+  debt          borrowings on that balance sheet (SEC XBRL): the largest of the alternative debt totals a company
+                may report (term loans, notes, convertibles; leases excluded), so one loan is never counted twice
+  public float  market value of shares held by non-affiliates, from the latest 10-K cover page (SEC XBRL, dei);
+                under $75M the SEC caps shelf sales (incl. ATM) at a third of it per 12 months
+  financing terms in that same 10-Q/10-K text: convertibles whose conversion price floats below the market,
+                warrants whose price resets lower, and equity lines (fixed patterns; the matching sentence is kept)
   insiders      every open-market buy (P) and sale (S) in Form 4s from 90 days before the episode date to 30 after
   trials        other Phase 2+ trials the company leads that were running on the episode date (ClinicalTrials.gov)
 
@@ -24,7 +30,7 @@ from urllib.parse import quote
 from common import closes, episodes, filings, get, kdir, sec_text, sec_url, KINDS
 
 TODAY = date.today().isoformat()
-VERSION = 5
+VERSION = 6
 CASH = ["CashAndCashEquivalentsAtCarryingValue", "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents", "Cash"]
 RESTRICTED = ["RestrictedCash", "RestrictedCashCurrent", "RestrictedCashNoncurrent", "RestrictedCashAndCashEquivalentsAtCarryingValue",
               "RestrictedCashAndCashEquivalentsCurrent", "RestrictedCashAndCashEquivalentsNoncurrent"]
@@ -35,6 +41,17 @@ INVEST_GROUPS = [["ShortTermInvestments", "MarketableSecuritiesCurrent", "Availa
                   "HeldToMaturitySecuritiesNoncurrent", "AvailableForSaleSecuritiesNoncurrent"]]
 BURN = ["NetCashProvidedByUsedInOperatingActivities", "NetCashProvidedByUsedInOperatingActivitiesContinuingOperations"]
 CAPEX = ["PaymentsToAcquirePropertyPlantAndEquipment", "PaymentsToAcquireProductiveAssets"]
+DEBT_SETS = [["LongTermDebt"], ["LongTermDebtNoncurrent", "LongTermDebtCurrent"], ["DebtCurrent", "LongTermDebtNoncurrent"],
+             ["ConvertibleNotesPayable"], ["ConvertibleNotesPayableCurrent", "ConvertibleDebtNoncurrent"],
+             ["ConvertibleDebtCurrent", "ConvertibleDebtNoncurrent"], ["NotesPayable"], ["NotesPayableCurrent", "LongTermNotesPayable"],
+             ["LoansPayable"], ["LoansPayableCurrent", "LongTermLoansPayable"], ["SecuredDebt"], ["SeniorNotes"]]
+TERMS = {"floating_convertible": re.compile(r"conversion price[^.]{0,250}?(?:lower of|lesser of|\d{1,2}(?:\.\d+)?% of the (?:lowest|average)|"
+                                             r"volume[- ]weighted average (?:trading )?price|\bVWAP\b)", re.I),
+         "price_reset_warrants": re.compile(r"full[- ]ratchet|(?:exercise|conversion) price[^.]{0,200}?(?:shall be |will be |is )?"
+                                            r"(?:reset|reduced to (?:equal )?the (?:lower|lowest))", re.I),
+         "equity_line": re.compile(r"equity line|committed equity facility|standby equity purchase agreement|equity purchase agreement|"
+                                   r"common stock purchase agreement", re.I)}
+NOT_FACT = re.compile(r"\b(?:could|might|no assurance|cannot assure|if we (?:issue|enter|sell))\b", re.I)
 GOING = re.compile(r"substantial doubt (?:about|regarding|as to|concerning) (?:our|the company.s|the company’s|its) ability to continue as a going concern", re.I)
 HYPO = re.compile(r"\b(?:could|may|might|would|if|unless|whether|cannot assure|no assurance|in the event)\b", re.I)
 
@@ -160,6 +177,48 @@ def shares(f, asof):
     return {"end": cur["end"], "shares": sum(same) if len(same) > 1 else cur["val"]}
 
 
+def debt(f, end, asof):
+    """Borrowings on the balance sheet dated `end`: the largest alternative total (never two tags for one loan)."""
+    best = (0.0, None)
+    for tags in DEBT_SETS:
+        tot, used = 0.0, []
+        for c in tags:
+            v = [x for x in series(f, c) if x["end"] == end and x.get("filed", "9") <= asof and "start" not in x]
+            if v:
+                tot += max(v, key=lambda x: x["filed"])["val"]
+                used.append(c)
+        if used and tot > best[0]:
+            best = (tot, "+".join(used))
+    return {"usd": best[0], "tags": best[1]}
+
+
+def public_float(f, asof):
+    """Non-affiliate market value on the latest 10-K cover page filed by `asof`."""
+    v = [x for x in series(f, "EntityPublicFloat", "USD", "dei") if x.get("filed", "9") <= asof and x.get("val")]
+    if not v:
+        return None
+    x = max(v, key=lambda x: (x["end"], x["filed"]))
+    return {"usd": x["val"], "as_of": x["end"], "filed": x["filed"]}
+
+
+def financing_terms(cik, accn):
+    """Sentences in the 10-Q/10-K describing toxic or costly financing already in place (first match per kind)."""
+    t = sec_text(cik, accn) if accn else None
+    if not t:
+        return None
+    t = re.sub(r"\s+", " ", t)
+    out = {}
+    for k, pat in TERMS.items():
+        for m in pat.finditer(t):
+            a = t.rfind(". ", 0, m.start()) + 2
+            b = t.find(". ", m.end())
+            sent = t[a:(b + 1 if b > 0 else m.end() + 200)][:400]
+            if not NOT_FACT.search(sent):
+                out[k] = sent
+                break
+    return out
+
+
 def going_concern(cik, accn):
     """A real going-concern conclusion in the filing, not the hypothetical risk-factor wording."""
     t = sec_text(cik, accn) if accn else None
@@ -281,7 +340,11 @@ def main():
             i = bisect_left(ds, entry)
             rec["price"] = {"date": ds[i], "adj_close": cs[i]} if i < len(ds) else None
             rec["balance"], rec["burn6"], rec["shares"] = balance(f, entry), burn6(f, entry), shares(f, entry)
-            rec["going_concern"] = going_concern(c["cik"], (rec["balance"] or {}).get("accn"))
+            accn = (rec["balance"] or {}).get("accn")
+            rec["going_concern"] = going_concern(c["cik"], accn)
+            rec["financing_terms"] = financing_terms(c["cik"], accn)
+            rec["debt"] = debt(f, rec["balance"]["end"], entry) if rec["balance"] else None
+            rec["public_float"] = public_float(f, entry)
             rec["insiders"] = insiders(c["cik"], win0, min(win1, TODAY))
             ev = kdir("crash", "events") / f"{cid}.json"
             drug = ((json.loads(ev.read_text()).get("facts") or {}).get("drug")) if a.kind == "crash" and ev.exists() else None

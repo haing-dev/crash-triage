@@ -97,7 +97,11 @@ def filings(cik):
     rows = []
     for r in pages:
         rows += list(zip(r.get("form", []), r.get("filingDate", []), r.get("accessionNumber", []), r.get("primaryDocument", [])))
+        ITEMS.update(zip(r.get("accessionNumber", []), r.get("items", [""] * len(r.get("form", [])))))
     return rows
+
+
+ITEMS = {}          # accession -> 8-K item numbers ("2.01,3.02,9.01"), filled by filings()
 
 
 def sec_url(cik, accn, doc):

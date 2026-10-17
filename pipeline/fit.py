@@ -28,7 +28,7 @@ Output: data/<kind>/scores/<id>.json, reports/fit_<kind>.md
 import json, statistics as st
 from bisect import bisect_right
 from datetime import date, timedelta
-from common import DATA, ROOT, KINDS, closes, kdir, money
+from common import DATA, ROOT, KINDS, closes, episodes, kdir, money
 
 TODAY = date.today().isoformat()
 MIN_TRAIN, SHRINK = 250, 30
@@ -299,10 +299,11 @@ def run(kind):
     keys = KEYS[kind]
     xd, xc = closes("XBI")
     rows = []
+    entry = {f"{c['cik']}_{c['date']}": c["end_date"] for c in episodes(kind)}
     for p in sorted(kdir(kind, "inputs").glob("*.json")):
         r = json.loads(p.read_text())
-        if r.get("error") or r.get("version", 0) < 5:
-            continue
+        if r.get("error") or r.get("version", 0) < 5 or r.get("asof") != entry.get(r["id"]):
+            continue                                                  # collected for another entry day: redo first
         for sub, field in (("liquidity", "liquidity"), ("events", "event")):
             q = DATA / kind / sub / p.name
             if q.exists():
