@@ -10,6 +10,7 @@ permissions:
 concurrency: { group: site, cancel-in-progress: true }
 jobs:
   site:
+    if: github.ref == 'refs/heads/main'      # only main is published
     runs-on: ubuntu-latest
     timeout-minutes: 45
     steps:
