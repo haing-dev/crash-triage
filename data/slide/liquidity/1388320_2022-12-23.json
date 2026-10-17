@@ -1,0 +1,27 @@
+{
+ "id": "1388320_2022-12-23",
+ "asof": "2022-12-23",
+ "chars": 21040,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2022-09-30",
+   "net_proceeds_usd": 2700000,
+   "what": "ATM sales of 0.3 million common shares under A&R Sales Agreement since the balance-sheet date (exact date not given; 2022-09-30 is the lower bound)",
+   "quote": "the Company has sold 0.3 million shares of common stock under its A&R Sales Agreement, resulting in net proceeds of $2.7 million."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 1443000,
+   "exercise_price_usd": 16.58,
+   "expiry": null,
+   "quote": "Outstanding, September 30, 2022 1,443 $16.58 1.58"
+  }
+ ],
+ "warrants_dropped": 0
+}

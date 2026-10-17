@@ -1,0 +1,26 @@
+{
+ "id": "1534120_2023-01-23",
+ "asof": "2023-01-23",
+ "chars": 21277,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 33656,
+   "exercise_price_usd": 31.2,
+   "expiry": "2031-06-04",
+   "quote": "the Company issued warrants to the Lenders to purchase 33,656 shares of the Company\u2019s common stock with an exercise price of $31.20 per share"
+  },
+  {
+   "count": 114007,
+   "exercise_price_usd": 0.012,
+   "expiry": null,
+   "quote": "As of September 30, 2022, 114,007 pre-funded warrants were outstanding."
+  }
+ ],
+ "warrants_dropped": 0
+}
