@@ -35,10 +35,24 @@
   "flag": false
  },
  "insiders": {
-  "form4s": 18,
+  "form4s": 19,
   "from": "2026-06-25",
-  "to": "2026-10-16",
+  "to": "2026-10-17",
   "trades": [
+   {
+    "date": "2026-10-14",
+    "filed": "2026-10-16",
+    "code": "S",
+    "value": 126063,
+    "who": "SCHMERTZLER MICHAEL"
+   },
+   {
+    "date": "2026-10-14",
+    "filed": "2026-10-16",
+    "code": "S",
+    "value": 22973,
+    "who": "SCHMERTZLER MICHAEL"
+   },
    {
     "date": "2026-10-09",
     "filed": "2026-10-13",
@@ -426,15 +440,15 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT06302348",
-    "drugs": [
-     "Sepiapterin"
-    ]
-   },
-   {
     "nct": "NCT07779616",
     "drugs": [
      "PTC844"
+    ]
+   },
+   {
+    "nct": "NCT06302348",
+    "drugs": [
+     "Sepiapterin"
     ]
    },
    {

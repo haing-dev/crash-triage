@@ -1,0 +1,65 @@
+{
+ "id": "1108205_2026-08-07",
+ "kind": "slide",
+ "cik": "1108205",
+ "name": "CURIS INC",
+ "date": "2026-08-07",
+ "asof": "2026-08-07",
+ "final": true,
+ "version": 5,
+ "price": {
+  "date": "2026-08-07",
+  "adj_close": 4.02
+ },
+ "balance": {
+  "end": "2026-03-31",
+  "cash": 15001000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001108205-26-000061"
+ },
+ "burn6": {
+  "end": "2026-03-31",
+  "start": "2025-10-01",
+  "cash_used_ops": 15372000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-05-08",
+  "shares": 38978693
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "2014-15, Disclosure of Uncertainties about an Entity\u2019s Ability to Continue as a Going Concern (Subtopic 205-40), the Company has concluded there are conditions and events, considered in the aggregate, that raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2026-05-09",
+  "to": "2026-09-06",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "curis",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT07271667",
+    "drugs": [
+     "Emavusertib",
+     "Zanubrutinib"
+    ]
+   },
+   {
+    "nct": "NCT03328078",
+    "drugs": [
+     "Emavusertib",
+     "Ibrutinib"
+    ]
+   }
+  ]
+ }
+}

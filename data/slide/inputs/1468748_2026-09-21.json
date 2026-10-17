@@ -37,7 +37,7 @@
  "insiders": {
   "form4s": 12,
   "from": "2026-06-23",
-  "to": "2026-10-16",
+  "to": "2026-10-17",
   "trades": [
    {
     "date": "2026-09-28",
@@ -622,13 +622,6 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT07734844",
-    "drugs": [
-     "Tabirafusp tedromer",
-     "Aflibercept (2.0 mg)"
-    ]
-   },
-   {
     "nct": "NCT06996080",
     "drugs": [
      "KSI-101",
@@ -640,6 +633,13 @@
     "drugs": [
      "KSI-101",
      "Sham Comparator"
+    ]
+   },
+   {
+    "nct": "NCT07734844",
+    "drugs": [
+     "Tabirafusp tedromer",
+     "Aflibercept (2.0 mg)"
     ]
    }
   ]

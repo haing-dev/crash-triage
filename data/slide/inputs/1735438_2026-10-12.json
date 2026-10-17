@@ -36,7 +36,7 @@
  "insiders": {
   "form4s": 4,
   "from": "2026-07-14",
-  "to": "2026-10-16",
+  "to": "2026-10-17",
   "trades": [
    {
     "date": "2026-10-06",
@@ -68,23 +68,9 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT06646289",
-    "drugs": [
-     "AAV5-hRKp.RPGR",
-     "No intervention (Follow-Up assessment)"
-    ]
-   },
-   {
     "nct": "NCT06544798",
     "drugs": [
      "AAV2-hAQP1"
-    ]
-   },
-   {
-    "nct": "NCT04794101",
-    "drugs": [
-     "Genetic: AAV5-hRKp.RPGR Intermediate Dose",
-     "Genetic: AAV5-hRKp.RPGR Low Dose"
     ]
    },
    {
@@ -94,10 +80,25 @@
     ]
    },
    {
-    "nct": "NCT05926583",
+    "nct": "NCT05926765",
+    "drugs": [
+     "AAV2-hAQP1 Concentration 1",
+     "AAV2-hAQP1 Concentration 2",
+     "AAV2-hAQP1 Concentration 3"
+    ]
+   },
+   {
+    "nct": "NCT06646289",
     "drugs": [
      "AAV5-hRKp.RPGR",
-     "AAV5-hRKp.RPGR"
+     "No intervention (Follow-Up assessment)"
+    ]
+   },
+   {
+    "nct": "NCT04794101",
+    "drugs": [
+     "Genetic: AAV5-hRKp.RPGR Intermediate Dose",
+     "Genetic: AAV5-hRKp.RPGR Low Dose"
     ]
    }
   ]

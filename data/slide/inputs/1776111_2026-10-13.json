@@ -37,7 +37,7 @@
  "insiders": {
   "form4s": 3,
   "from": "2026-07-15",
-  "to": "2026-10-16",
+  "to": "2026-10-17",
   "trades": [
    {
     "date": "2026-08-04",
@@ -55,16 +55,16 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
+    "nct": "NCT07699471",
+    "drugs": [
+     "Canvuparatide"
+    ]
+   },
+   {
     "nct": "NCT06531941",
     "drugs": [
      "400 \u00b5g of MBX 2109 once-weekly by subcutaneous injection",
      "200-1600 \u00b5g of MBX 2109 once-weekly by subcutaneous injection"
-    ]
-   },
-   {
-    "nct": "NCT07699471",
-    "drugs": [
-     "Canvuparatide"
     ]
    }
   ]

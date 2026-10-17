@@ -36,7 +36,7 @@
  "insiders": {
   "form4s": 8,
   "from": "2026-06-30",
-  "to": "2026-10-16",
+  "to": "2026-10-17",
   "trades": [
    {
     "date": "2026-10-08",
@@ -103,12 +103,6 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT07516132",
-    "drugs": [
-     "OTX-TKI"
-    ]
-   },
-   {
     "nct": "NCT07235085",
     "drugs": [
      "Single intravitreal injection of axitinib hydrogel implant followed by a mock (sham) injection procedure at Week 24",
@@ -122,6 +116,12 @@
      "OTX-TKI",
      "Aflibercept",
      "Aflibercept"
+    ]
+   },
+   {
+    "nct": "NCT07516132",
+    "drugs": [
+     "OTX-TKI"
     ]
    }
   ]
