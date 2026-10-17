@@ -101,6 +101,18 @@ def read_set(url, issuer_to_cik):
     return out_f, out_p
 
 
+def span(url):
+    """Filing dates a data set covers: 2023q4 -> Oct-Dec 2023; 01mar2024-31may2024 -> those days."""
+    n = url.rsplit("/", 1)[-1]
+    m = re.match(r"(\d{4})q(\d)_", n)
+    if m:
+        y, q = int(m.group(1)), int(m.group(2))
+        return [f"{y}-{3 * q - 2:02d}-01", f"{y}-{3 * q:02d}-{[31, 30, 30, 31][q - 1]}"]
+    m = re.match(r"(\d{2}[a-z]{3}\d{4})-(\d{2}[a-z]{3}\d{4})_", n)
+    return [iso(m.group(1)[:2] + "-" + m.group(1)[2:5].upper() + "-" + m.group(1)[5:]),
+            iso(m.group(2)[:2] + "-" + m.group(2)[2:5].upper() + "-" + m.group(2)[5:])] if m else None
+
+
 def iso(d):
     """13F data sets write dates as 31-MAR-2024."""
     m = re.match(r"(\d{2})-([A-Z]{3})-(\d{4})", d or "")
@@ -139,6 +151,7 @@ def main():
         append("filings.csv", ["accession", "filer_cik", "filer", "period", "filed", "universe_share", "positions"], f)
         append("positions.csv", ["accession", "cik", "shares"], p)
         st["read"].append(url)
+        st.setdefault("ranges", {})[url] = span(url)
         STATE.write_text(json.dumps(st, indent=1))
         print(f"{url.rsplit('/', 1)[-1]}: {len(f)} specialist filings, {len(p)} positions", flush=True)
 

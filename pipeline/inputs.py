@@ -19,7 +19,7 @@ crash was detected, or the day a slide crossed -30%), which is where the backtes
 
 Output: data/<kind>/inputs/<cik>_<date>.json (re-collected until the 30-day insider window has passed)
 
-    python inputs.py --kind crash --limit 2000
+    python inputs.py --kind crash --limit 2000      # re-collects everything when VERSION changes
 """
 import argparse, json, re
 import xml.etree.ElementTree as ET

@@ -9,11 +9,13 @@ How each company has raised money, read from its own SEC filings with fixed text
                   agent warrants are not counted: they are not a sweetener for investors)
 The matching sentence is stored with every record, so each one can be checked against the filing.
 
-Output: data/raises/<cik>.json {"done": [accessions read], "raises": [...]}; incremental, newest filings first.
+Output: data/raises/<cik>.json {"done": [accessions read], "raises": [...], "checked": day all filings were read};
+incremental, newest filings first.
 
     python raises.py --minutes 300
 """
 import argparse, json, re, time
+from datetime import date
 from common import DATA, ITEMS, filings, get, sec_url, to_text, universe
 
 SINCE = "2017-06-01"
@@ -86,6 +88,7 @@ def main():
             if r:
                 rec["raises"].append({"form": form, "filed": fd, "accn": acc, "doc": doc, **r})
         rec["raises"].sort(key=lambda r: r["filed"])
+        rec["checked"] = date.today().isoformat()            # every filing up to today has been read
         p.write_text(json.dumps(rec))
         print(f"{cik} {universe()[cik]['ticker']:6s} raises={len(rec['raises'])}", flush=True)
     print(f"all companies done ({n} documents this run)")
