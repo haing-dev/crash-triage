@@ -6,7 +6,7 @@
  "date": "2023-03-10",
  "asof": "2023-03-10",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-03-10",
   "adj_close": 330.56
@@ -32,6 +32,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 91695000.0,
+  "tags": "LongTermDebtNoncurrent"
+ },
+ "public_float": {
+  "usd": 550896639,
+  "as_of": "2021-06-30",
+  "filed": "2022-03-11"
  },
  "insiders": {
   "form4s": 11,
@@ -187,9 +197,10 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT05665088",
+    "nct": "NCT03910660",
     "drugs": [
-     "BXCL501"
+     "BXCL701 plus Pembrolizumab",
+     "BXCL701 monotherapy"
     ]
    },
    {
@@ -199,14 +210,13 @@
     ]
    },
    {
-    "nct": "NCT03910660",
+    "nct": "NCT05658510",
     "drugs": [
-     "BXCL701 plus Pembrolizumab",
-     "BXCL701 monotherapy"
+     "BXCL501"
     ]
    },
    {
-    "nct": "NCT05658510",
+    "nct": "NCT05665088",
     "drugs": [
      "BXCL501"
     ]

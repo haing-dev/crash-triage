@@ -6,7 +6,7 @@
  "date": "2023-08-28",
  "asof": "2023-08-28",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-08-28",
   "adj_close": 0.92000002
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "These conditions raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "price_reset_warrants": "On April 25, 2023, the 2022 Warrants were amended to remove the full ratchet anti-dilutive adjustment rights in the event the Company issues shares of common stock or common stock equivalents in the future with a value less than the then effective exercise price of such common warrants subject to certain customary exceptions, and further subject to a minimum exercise price of $1.00 per share."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 35604258,
+  "as_of": "2022-06-30",
+  "filed": "2023-05-01"
  },
  "insiders": {
   "form4s": 2,

@@ -6,7 +6,7 @@
  "date": "2026-09-22",
  "asof": "2026-09-22",
  "final": false,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-09-22",
   "adj_close": 3.98
@@ -34,6 +34,14 @@
   "flag": true,
   "quote": "We have identified conditions that raise substantial doubt about our ability to continue as a going concern"
  },
+ "financing_terms": {
+  "equity_line": "12,050,000 of Common Stock This prospectus relates to the offer and sale of up to 12,050,000 shares (the \u201cPurchase Shares\u201d), of our Common Stock, par value $0.001 per share (\u201cCommon Stock\u201d), by Roth Principal Investments, LLC, whom we refer to in this prospectus as \u201cRoth\u201d or the \u201cSelling Stockholder.\u201d The shares of Common Stock to which this prospectus relates may be issued by us to Roth pursuant "
+ },
+ "debt": {
+  "usd": 1000000.0,
+  "tags": "NotesPayable"
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 15,
   "from": "2026-06-24",

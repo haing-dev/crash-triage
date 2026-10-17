@@ -6,7 +6,7 @@
  "date": "2026-07-06",
  "asof": "2026-07-06",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-07-06",
   "adj_close": 0.88
@@ -28,6 +28,16 @@
   "flag": true,
   "quote": "These conditions raise substantial doubt about our ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 72100000,
+  "as_of": "2025-06-30",
+  "filed": "2026-03-30"
+ },
  "insiders": {
   "form4s": 14,
   "from": "2026-04-07",
@@ -41,19 +51,19 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT07280377",
-    "drugs": [
-     "Pelareorep",
-     "Atezolizumab",
-     "Gemcitabine and nab-paclitaxel"
-    ]
-   },
-   {
     "nct": "NCT07446322",
     "drugs": [
      "Bevacizumab",
      "FOLFIRI",
      "Pelareorep"
+    ]
+   },
+   {
+    "nct": "NCT07280377",
+    "drugs": [
+     "Pelareorep",
+     "Atezolizumab",
+     "Gemcitabine and nab-paclitaxel"
     ]
    }
   ]

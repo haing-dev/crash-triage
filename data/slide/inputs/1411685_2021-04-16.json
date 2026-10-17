@@ -6,7 +6,7 @@
  "date": "2021-04-16",
  "asof": "2021-04-16",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-04-16",
   "adj_close": 61.5
@@ -32,6 +32,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS (Unaudited) (Amounts in Dollars) Nine Months Ended December 31, 2020 2019 Cash flows from operating activities: Net loss $(11,723,300) $(17,507,300) Adjustments to reconcile net loss to net cash used in operating activities: Depreciation and amortization 77,300 77,600 Stock-based compensation 1,815,900 3,088,700 Expense related to modification of war"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 45352358,
+  "as_of": "2019-09-30",
+  "filed": "2020-06-29"
  },
  "insiders": {
   "form4s": 6,

@@ -6,7 +6,7 @@
  "date": "2022-06-10",
  "asof": "2022-06-10",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-06-10",
   "adj_close": 9.0
@@ -33,6 +33,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "floating_convertible": "At any time from the date hereof until this Yu and Wei Note has been satisfied, the Yu and Wei may convert the unpaid and outstanding principal plus any accrued and unpaid interest and or default interest, if any, into shares of the Company\u2019s common stock at a conversion price (the \u201cConversion Price\u201d) equal to the lower of (i) $2.00 per share (the \u201cFixed Conversion Price\u201d), subject to adjustment o"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 16488373,
+  "as_of": "2021-06-30",
+  "filed": "2022-06-06"
  },
  "insiders": {
   "form4s": 0,

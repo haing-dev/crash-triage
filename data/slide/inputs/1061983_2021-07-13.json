@@ -6,7 +6,7 @@
  "date": "2021-07-13",
  "asof": "2021-07-13",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-07-13",
   "adj_close": 18.79
@@ -34,6 +34,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "Common Stock Purchase Agreement On July 14, 2020, we entered into Common Stock Purchase Agreements (each, a \u201cCSPA\u201d) with each of RTW Master Fund, Ltd., RTW Innovation Master Fund, Ltd."
+ },
+ "debt": {
+  "usd": 46499000.0,
+  "tags": "LongTermDebtNoncurrent+LongTermDebtCurrent"
+ },
+ "public_float": {
+  "usd": 1413000000,
+  "as_of": "2020-06-30",
+  "filed": "2021-02-26"
  },
  "insiders": {
   "form4s": 41,
@@ -217,18 +229,6 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT03759392",
-    "drugs": [
-     "Omecamtiv Mecarbil"
-    ]
-   },
-   {
-    "nct": "NCT04848506",
-    "drugs": [
-     "Aficamten (5 - 20 mg)"
-    ]
-   },
-   {
     "nct": "NCT04219826",
     "drugs": [
      "CK-3773274 (5 - 15 mg)",
@@ -239,6 +239,18 @@
     "nct": "NCT04464525",
     "drugs": [
      "Omecamtiv mecarbil"
+    ]
+   },
+   {
+    "nct": "NCT04848506",
+    "drugs": [
+     "Aficamten (5 - 20 mg)"
+    ]
+   },
+   {
+    "nct": "NCT03759392",
+    "drugs": [
+     "Omecamtiv Mecarbil"
     ]
    }
   ]

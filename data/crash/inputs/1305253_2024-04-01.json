@@ -6,7 +6,7 @@
  "date": "2024-04-01",
  "asof": "2024-04-01",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-04-01",
   "adj_close": 1.39
@@ -35,13 +35,25 @@
   "flag": true,
   "quote": "Based on its recurring losses from operations incurred since inception, expectation of continuing operating losses and negative cash flows for the foreseeable future, need to raise additional capital to finance its future operations, and given the current cash, cash equivalents and short-term securi"
  },
+ "financing_terms": {
+  "equity_line": "Bristol-Meyers Squibb License Agreement On April 20, 2016, the Company and Bristol-Myers Squibb Company (BMS) entered into a License Agreement (the BMS License Agreement) and a Common Stock Purchase Agreement (the BMS Purchase Agreement)."
+ },
+ "debt": {
+  "usd": 40734000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 274107513,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-17"
+ },
  "insiders": {
   "form4s": 0,
   "from": "2024-01-02",
   "to": "2024-05-01",
   "trades": []
  },
- "drug": null,
+ "drug": "Zokinvy (lonafarnib)",
  "trials": {
   "query": "eiger biopharmaceuticals",
   "other_trials": 1,

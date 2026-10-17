@@ -4,12 +4,12 @@
  "cik": "1798749",
  "name": "Jade Biosciences, Inc.",
  "date": "2024-06-17",
- "asof": "2024-06-18",
+ "asof": "2024-06-17",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2024-06-18",
-  "adj_close": 49.35
+  "date": "2024-06-17",
+  "adj_close": 57.75
  },
  "balance": {
   "end": "2024-03-31",
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 232000000,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-25"
  },
  "insiders": {
   "form4s": 31,
@@ -314,7 +324,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "AV-101",
  "trials": {
   "query": "jade biosciences",
   "other_trials": 0,

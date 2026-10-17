@@ -6,7 +6,7 @@
  "date": "2026-10-08",
  "asof": "2026-10-08",
  "final": false,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-10-08",
   "adj_close": 0.34400001
@@ -34,6 +34,15 @@
   "flag": true,
   "quote": "These factors raise substantial doubt about the Company\u2019s ability to continue as a going concern"
  },
+ "financing_terms": {
+  "floating_convertible": "If Company chooses to satisfy a redemption in Pre-reverse Ordinary Shares, such Pre-reverse Ordinary Shares shall be issued at a redemption conversion price of the lower of (i) the Lender Conversion Price (as defined in the Note) which is initially $0.30 and (ii) 80% of the average of the lowest VWAP during the fifteen (15) trading days immediately preceding the redemption notice is delivered.",
+  "price_reset_warrants": "Because the exercise price is fixed and the warrants contain no price-reset or down-round features, they are classified as equity."
+ },
+ "debt": {
+  "usd": 644390.0,
+  "tags": "LongTermDebtNoncurrent"
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 0,
   "from": "2026-07-10",

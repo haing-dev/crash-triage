@@ -4,12 +4,12 @@
  "cik": "1260990",
  "name": "Oncternal Therapeutics, Inc.",
  "date": "2023-04-04",
- "asof": "2023-04-06",
+ "asof": "2023-04-04",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2023-04-06",
-  "adj_close": 5.504
+  "date": "2023-04-04",
+  "adj_close": 6.808
  },
  "balance": {
   "end": "2022-12-31",
@@ -34,6 +34,16 @@
  "going_concern": {
   "flag": true,
   "quote": "\u2022 Our management, as of December 31, 2022, and our independent registered public accounting firm, in their report on our financial statements as of and for the fiscal year ended December 31, 2022, have concluded that there is substantial doubt as to our ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 52700000,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-09"
  },
  "insiders": {
   "form4s": 17,
@@ -105,11 +115,11 @@
    }
   ]
  },
- "drug": null,
+ "drug": "zilovertamab",
  "trials": {
   "query": "oncternal therapeutics",
-  "other_trials": 2,
-  "crashed_drug_trials": 0,
+  "other_trials": 1,
+  "crashed_drug_trials": 1,
   "examples": [
    {
     "nct": "NCT03088878",
@@ -117,13 +127,6 @@
      "Cirmtuzumab (2-16 kg/mg) plus Ibrutinib",
      "Cirmtuzumab (300mg) plus Ibrutinib",
      "Cirmtuzumab (600 mg) plus ibrutinib"
-    ]
-   },
-   {
-    "nct": "NCT05431179",
-    "drugs": [
-     "Zilovertamab",
-     "Ibrutinib"
     ]
    }
   ]

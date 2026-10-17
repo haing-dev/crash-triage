@@ -6,10 +6,10 @@
  "date": "2025-08-08",
  "asof": "2025-08-08",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-08-08",
-  "adj_close": 6.78
+  "adj_close": 0.67799997
  },
  "balance": {
   "end": "2025-03-31",
@@ -30,6 +30,16 @@
  "going_concern": {
   "flag": true,
   "quote": "As a result, there is substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 12438864,
+  "as_of": "2024-06-30",
+  "filed": "2025-02-28"
  },
  "insiders": {
   "form4s": 25,

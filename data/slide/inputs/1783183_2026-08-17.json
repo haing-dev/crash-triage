@@ -6,7 +6,7 @@
  "date": "2026-08-17",
  "asof": "2026-08-17",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-08-17",
   "adj_close": 9.28
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "Including our existing cash and cash equivalents, we believe that we have sufficient working capital on hand to fund operations such that there is no substantial doubt as to our ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 164587000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 555500000,
+  "as_of": "2025-06-30",
+  "filed": "2026-02-26"
  },
  "insiders": {
   "form4s": 10,

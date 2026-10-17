@@ -6,7 +6,7 @@
  "date": "2022-08-18",
  "asof": "2022-08-18",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-08-18",
   "adj_close": 15.12
@@ -33,6 +33,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "floating_convertible": "The Company has the right, exercisable at its option, to cause all 2018 Notes then outstanding to be converted automatically if the \u201cDaily VWAP\u201d (as defined in the 2018 Indenture) per share of the Company\u2019s common stock equals or exceeds 130% of the conversion price on each of at least 20 VWAP Trading Days (as defined in the 2018 Indenture), 16 Table of Contents whether or not consecutive, during "
+ },
+ "debt": {
+  "usd": 24276000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 696704277,
+  "as_of": "2021-06-30",
+  "filed": "2022-03-28"
  },
  "insiders": {
   "form4s": 10,
@@ -76,19 +88,6 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT05074810",
-    "drugs": [
-     "avutometinib and sotorasib",
-     "avutometinib and sotorasib and defactinib"
-    ]
-   },
-   {
-    "nct": "NCT05375994",
-    "drugs": [
-     "avutometinib (VS-6766) and adagrasib"
-    ]
-   },
-   {
     "nct": "NCT04625270",
     "drugs": [
      "avutometinib (VS-6766)",
@@ -96,10 +95,23 @@
     ]
    },
    {
+    "nct": "NCT05074810",
+    "drugs": [
+     "avutometinib and sotorasib",
+     "avutometinib and sotorasib and defactinib"
+    ]
+   },
+   {
     "nct": "NCT04620330",
     "drugs": [
      "avutometinib (VS-6766)",
      "avutometinib (VS-6766) and Defactinib"
+    ]
+   },
+   {
+    "nct": "NCT05375994",
+    "drugs": [
+     "avutometinib (VS-6766) and adagrasib"
     ]
    }
   ]

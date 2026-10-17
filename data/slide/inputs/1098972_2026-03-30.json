@@ -6,7 +6,7 @@
  "date": "2026-03-30",
  "asof": "2026-03-30",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-03-30",
   "adj_close": 3.24
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "As discussed in Note 1 to the consolidated financial statements, the Company has suffered recurring losses from operations and has a net capital deficiency that raise substantial doubt about its ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 44655000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 135400000,
+  "as_of": "2025-06-30",
+  "filed": "2026-03-16"
  },
  "insiders": {
   "form4s": 20,

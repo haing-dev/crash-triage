@@ -6,7 +6,7 @@
  "date": "2023-10-31",
  "asof": "2023-10-31",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-10-31",
   "adj_close": 26.74
@@ -34,13 +34,25 @@
   "flag": true,
   "quote": "\u2022 We have expressed substantial doubt about our ability to continue as a going concern"
  },
+ "financing_terms": {
+  "floating_convertible": "Each class of Series C Preferred Stock has a Conversion Price that will be equal to the lesser of (i) the closing price of our common stock on Nasdaq on the date immediately preceding the signing of the applicable binding agreements for the applicable closing date of the Private Placement for which the Series C Preferred Stock is issued or (ii) the average closing price of the our common stock on "
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 11500,
+  "as_of": "2022-12-31",
+  "filed": "2023-09-18"
+ },
  "insiders": {
   "form4s": 5,
   "from": "2023-08-02",
   "to": "2023-11-30",
   "trades": []
  },
- "drug": null,
+ "drug": "VAL-083",
  "trials": {
   "query": "tuhura biosciences",
   "other_trials": 0,

@@ -4,12 +4,12 @@
  "cik": "1728328",
  "name": "InMed Pharmaceuticals Inc.",
  "date": "2022-09-13",
- "asof": "2022-09-19",
+ "asof": "2022-09-16",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2022-09-19",
-  "adj_close": 156.0
+  "date": "2022-09-16",
+  "adj_close": 169.8
  },
  "balance": {
   "end": "2022-03-31",
@@ -35,13 +35,19 @@
   "flag": true,
   "quote": "As a result, the Company has concluded that there is substantial doubt about its ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 1,
   "from": "2022-06-15",
   "to": "2022-10-13",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "inmed pharmaceuticals",
   "other_trials": 1,

@@ -4,12 +4,12 @@
  "cik": "1501756",
  "name": "Adverum Biotechnologies, Inc.",
  "date": "2021-04-29",
- "asof": "2021-05-04",
+ "asof": "2021-04-29",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2021-05-04",
-  "adj_close": 36.1
+  "date": "2021-04-29",
+  "adj_close": 38.3
  },
  "balance": {
   "end": "2020-12-31",
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 1500000000,
+  "as_of": "2020-06-30",
+  "filed": "2021-03-01"
  },
  "insiders": {
   "form4s": 17,
@@ -76,20 +86,11 @@
    }
   ]
  },
- "drug": null,
+ "drug": "ADVM-022",
  "trials": {
   "query": "adverum biotechnologies",
-  "other_trials": 1,
-  "crashed_drug_trials": 0,
-  "examples": [
-   {
-    "nct": "NCT04418427",
-    "drugs": [
-     "6E11 vg/eye of ADVM-022",
-     "2E11 vg/eye of ADVM-022",
-     "Aflibercept"
-    ]
-   }
-  ]
+  "other_trials": 0,
+  "crashed_drug_trials": 1,
+  "examples": []
  }
 }

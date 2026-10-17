@@ -6,7 +6,7 @@
  "date": "2021-07-27",
  "asof": "2021-07-27",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-07-27",
   "adj_close": 1.22
@@ -28,6 +28,12 @@
   "flag": true,
   "quote": "These factors raise substantial doubt about its ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 0,
   "from": "2021-04-28",

@@ -6,7 +6,7 @@
  "date": "2025-05-14",
  "asof": "2025-05-14",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-05-14",
   "adj_close": 44.12
@@ -34,6 +34,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 49711000000.0,
+  "tags": "DebtCurrent+LongTermDebtNoncurrent"
+ },
+ "public_float": {
+  "usd": 84156423913,
+  "as_of": "2024-06-30",
+  "filed": "2025-02-12"
  },
  "insiders": {
   "form4s": 27,
@@ -73,35 +83,41 @@
  "drug": null,
  "trials": {
   "query": "bristol myers squibb",
-  "other_trials": 4,
+  "other_trials": 8,
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT06045689",
+    "nct": "NCT06140836",
     "drugs": [
-     "Luspatercept"
+     "Repotrectinib",
+     "Crizotinib"
     ]
    },
    {
-    "nct": "NCT05328908",
+    "nct": "NCT05827016",
     "drugs": [
-     "Nivolumab-relatlimab FDC",
-     "Regorafenib",
-     "TAS-102"
+     "Iberdomide",
+     "Lenalidomide"
     ]
    },
    {
-    "nct": "NCT06126224",
+    "nct": "NCT05949684",
     "drugs": [
-     "KarXT"
+     "Luspatercept",
+     "Epoetin Alfa"
     ]
    },
    {
-    "nct": "NCT06090539",
+    "nct": "NCT03873402",
     "drugs": [
-     "BMS-986458",
-     "Rituximab",
-     "Glofitamab/Obinutuzumab"
+     "Nivolumab",
+     "Ipilimumab"
+    ]
+   },
+   {
+    "nct": "NCT05620407",
+    "drugs": [
+     "Deucravacitinib"
     ]
    }
   ]

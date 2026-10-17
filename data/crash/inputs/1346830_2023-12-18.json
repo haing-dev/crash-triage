@@ -4,12 +4,12 @@
  "cik": "1346830",
  "name": "Tvardi Therapeutics, Inc.",
  "date": "2023-12-18",
- "asof": "2023-12-21",
+ "asof": "2023-12-20",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2023-12-21",
-  "adj_close": 21.456
+  "date": "2023-12-20",
+  "adj_close": 21.852
  },
  "balance": {
   "end": "2023-09-30",
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 416562477,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-06"
+ },
  "insiders": {
   "form4s": 1,
   "from": "2023-09-19",
@@ -47,7 +57,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "oral difelikefalin",
  "trials": {
   "query": "tvardi therapeutics",
   "other_trials": 2,

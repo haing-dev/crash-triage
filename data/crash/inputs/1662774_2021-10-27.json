@@ -4,36 +4,46 @@
  "cik": "1662774",
  "name": "Quince Therapeutics, Inc.",
  "date": "2021-10-27",
- "asof": "2021-10-29",
+ "asof": "2021-10-27",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2021-10-29",
-  "adj_close": 132.0
+  "date": "2021-10-27",
+  "adj_close": 135.10001
  },
  "balance": {
-  "end": "2021-09-30",
-  "cash": 140553000,
+  "end": "2021-06-30",
+  "cash": 153466000,
   "parts": [
    "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
    "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
    "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
   ],
-  "accn": "0000950170-21-002495"
+  "accn": "0000950170-21-001015"
  },
  "burn6": {
-  "end": "2021-09-30",
-  "start": "2021-04-01",
-  "cash_used_ops": 34904000.0,
-  "capex": 99000.0,
+  "end": "2021-06-30",
+  "start": "2021-01-01",
+  "cash_used_ops": 31172000.0,
+  "capex": 136000.0,
   "periods": 2
  },
  "shares": {
-  "end": "2021-10-25",
-  "shares": 29877608
+  "end": "2021-08-03",
+  "shares": 29685786
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 1370000000,
+  "as_of": "2020-06-30",
+  "filed": "2021-03-01"
  },
  "insiders": {
   "form4s": 8,
@@ -140,7 +150,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "atuzaginstat (COR388)",
  "trials": {
   "query": "quince therapeutics",
   "other_trials": 1,

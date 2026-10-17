@@ -6,7 +6,7 @@
  "date": "2025-06-16",
  "asof": "2025-06-18",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-06-18",
   "adj_close": 100.0
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "It is management\u2019s opinion that these conditions raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 438578.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 424536,
+  "as_of": "2023-12-29",
+  "filed": "2024-09-30"
  },
  "insiders": {
   "form4s": 0,

@@ -6,7 +6,7 @@
  "date": "2024-06-14",
  "asof": "2024-06-14",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-06-14",
   "adj_close": 5.05
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "In preparing the financial statements, management used estimates in the following areas, among others: prepaid and accrued expenses; warrant liabilities valuation; license revenue; research and development services revenue; stock-based compensation expense; the likelihood of realization of deferred "
+ },
+ "financing_terms": {
+  "price_reset_warrants": "The exercise price of the 2018 Notes Warrants resets each time the Company issues common stock with an issue price less than the exercise price of the Warrants."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 63926605,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-06"
  },
  "insiders": {
   "form4s": 14,

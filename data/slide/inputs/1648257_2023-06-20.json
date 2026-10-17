@@ -6,7 +6,7 @@
  "date": "2023-06-20",
  "asof": "2023-06-20",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-06-20",
   "adj_close": 11.95
@@ -34,6 +34,12 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 18104000.0,
+  "tags": "LongTermDebtNoncurrent"
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 0,
   "from": "2023-03-22",

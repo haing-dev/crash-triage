@@ -6,7 +6,7 @@
  "date": "2021-11-17",
  "asof": "2021-11-17",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-11-17",
   "adj_close": 3035.0
@@ -32,6 +32,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "price_reset_warrants": "Condensed Consolidated Statement of Changes in Stockholders\u2019 Equity (Unaudited) Addutional Nine Months Ended September 30, 2021 Additional Common Stock Paid-In Accumulated Shares Amount Capital Deficit Total Balance at January 1, 2021 14,187,984 $1,419 $48,333,857 - $(25,395,798) $22,939,478 Stock-based compensation 12,500 1 620,590 - 620,591 Shares issued in private placement, net of transaction "
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 22000000,
+  "as_of": "2020-06-30",
+  "filed": "2021-03-25"
  },
  "insiders": {
   "form4s": 11,

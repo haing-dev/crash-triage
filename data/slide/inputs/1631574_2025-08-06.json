@@ -6,7 +6,7 @@
  "date": "2025-08-06",
  "asof": "2025-08-06",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-08-06",
   "adj_close": 8.55
@@ -32,6 +32,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 488707919,
+  "as_of": "2024-06-28",
+  "filed": "2025-04-29"
  },
  "insiders": {
   "form4s": 14,
@@ -102,15 +112,15 @@
     ]
    },
    {
-    "nct": "NCT06405633",
-    "drugs": [
-     "WVE-006"
-    ]
-   },
-   {
     "nct": "NCT06842186",
     "drugs": [
      "WVE-007"
+    ]
+   },
+   {
+    "nct": "NCT06405633",
+    "drugs": [
+     "WVE-006"
     ]
    }
   ]

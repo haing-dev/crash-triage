@@ -6,7 +6,7 @@
  "date": "2024-09-24",
  "asof": "2024-09-24",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-09-24",
   "adj_close": 11.8
@@ -33,13 +33,23 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 7992904.0,
+  "tags": "NotesPayableCurrent"
+ },
+ "public_float": {
+  "usd": 86033369,
+  "as_of": "2022-12-31",
+  "filed": "2023-08-16"
+ },
  "insiders": {
   "form4s": 3,
   "from": "2024-06-26",
   "to": "2024-10-24",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "biovie",
   "other_trials": 0,

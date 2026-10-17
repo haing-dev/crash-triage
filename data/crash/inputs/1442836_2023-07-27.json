@@ -4,12 +4,12 @@
  "cik": "1442836",
  "name": "Mersana Therapeutics, Inc.",
  "date": "2023-07-27",
- "asof": "2023-08-02",
+ "asof": "2023-07-27",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2023-08-02",
-  "adj_close": 26.5
+  "date": "2023-07-27",
+  "adj_close": 26.75
  },
  "balance": {
   "end": "2023-03-31",
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 25004000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 403311770,
+  "as_of": "2022-06-30",
+  "filed": "2023-02-28"
+ },
  "insiders": {
   "form4s": 14,
   "from": "2023-04-28",
@@ -54,18 +64,11 @@
    }
   ]
  },
- "drug": null,
+ "drug": "upifitamab rilsodotin (UpRi)",
  "trials": {
   "query": "mersana therapeutics",
-  "other_trials": 1,
-  "crashed_drug_trials": 0,
-  "examples": [
-   {
-    "nct": "NCT05329545",
-    "drugs": [
-     "Upifitimab rilsodotin"
-    ]
-   }
-  ]
+  "other_trials": 0,
+  "crashed_drug_trials": 1,
+  "examples": []
  }
 }

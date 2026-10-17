@@ -6,7 +6,7 @@
  "date": "2025-07-18",
  "asof": "2025-07-18",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-07-18",
   "adj_close": 6.18
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "These factors raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "equity_line": "The Company plans to secure additional capital in the future through equity or debt financings, including sales pursuant to its ChEF Purchase Agreement (the \u201cPurchase Agreement\u201d) with Chardan Capital Markets, LLC (\u201cChardan\u201d), related to a \u201cChEF,\u201d Chardan\u2019s committed equity facility (the \u201cFacility\u201d); partnerships; collaborations; or other sources to carry out the Company\u2019s planned development activ"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 46150766.4,
+  "as_of": "2024-03-28",
+  "filed": "2024-12-17"
  },
  "insiders": {
   "form4s": 9,

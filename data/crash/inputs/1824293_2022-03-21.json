@@ -4,12 +4,12 @@
  "cik": "1824293",
  "name": "GRI Bio, Inc.",
  "date": "2022-03-21",
- "asof": "2022-03-22",
+ "asof": "2022-03-21",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2022-03-22",
-  "adj_close": 2845861.25
+  "date": "2022-03-21",
+  "adj_close": 3001798.75
  },
  "balance": {
   "end": "2021-12-31",
@@ -35,13 +35,23 @@
   "flag": true,
   "quote": "The report of our independent registered public accounting firm on our financial statements as of and for the year ended December 31, 2021 included an explanatory paragraph indicating that there is substantial doubt about our ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 22900000,
+  "as_of": "2021-06-30",
+  "filed": "2022-02-14"
+ },
  "insiders": {
   "form4s": 3,
   "from": "2021-12-21",
   "to": "2022-04-20",
   "trades": []
  },
- "drug": null,
+ "drug": "ADAIR",
  "trials": {
   "query": "gri bio",
   "other_trials": 0,

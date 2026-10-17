@@ -6,7 +6,7 @@
  "date": "2022-09-13",
  "asof": "2022-09-13",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-09-13",
   "adj_close": 9.68
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 836606033,
+  "as_of": "2021-06-30",
+  "filed": "2022-02-23"
+ },
  "insiders": {
   "form4s": 1,
   "from": "2022-06-15",
@@ -46,19 +56,19 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT05359861",
-    "drugs": [
-     "Casdozokitug",
-     "Atezolizumab",
-     "Bevacizumab"
-    ]
-   },
-   {
     "nct": "NCT05177770",
     "drugs": [
      "SRF617",
      "etrumadenant",
      "zimberelimab"
+    ]
+   },
+   {
+    "nct": "NCT05359861",
+    "drugs": [
+     "Casdozokitug",
+     "Atezolizumab",
+     "Bevacizumab"
     ]
    }
   ]

@@ -6,7 +6,7 @@
  "date": "2021-05-05",
  "asof": "2021-05-05",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-05-05",
   "adj_close": 240.0
@@ -28,6 +28,12 @@
   "flag": true,
   "quote": "These conditions raise substantial doubt about our ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 105600.0,
+  "tags": "LoansPayableCurrent"
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 1,
   "from": "2021-02-04",

@@ -6,7 +6,7 @@
  "date": "2023-03-13",
  "asof": "2023-03-17",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-03-17",
   "adj_close": 222.0
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "The report of our independent registered public accounting firm for the fiscal years ended December 31, 2022 and 2021 contains an explanatory paragraph regarding substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 5000000.0,
+  "tags": "NotesPayableCurrent"
+ },
+ "public_float": {
+  "usd": 11500000,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-10"
  },
  "insiders": {
   "form4s": 12,
@@ -76,7 +86,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "cingulate",
   "other_trials": 1,

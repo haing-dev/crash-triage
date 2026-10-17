@@ -6,7 +6,7 @@
  "date": "2023-03-16",
  "asof": "2023-03-16",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-03-16",
   "adj_close": 1.82
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 422300000,
+  "as_of": "2022-06-30",
+  "filed": "2023-02-21"
  },
  "insiders": {
   "form4s": 13,
@@ -97,18 +107,11 @@
    }
   ]
  },
- "drug": null,
+ "drug": "NEXLETOL (bempedoic acid)",
  "trials": {
   "query": "esperion therapeutics",
-  "other_trials": 1,
-  "crashed_drug_trials": 0,
-  "examples": [
-   {
-    "nct": "NCT05694260",
-    "drugs": [
-     "Bempedoic acid"
-    ]
-   }
-  ]
+  "other_trials": 0,
+  "crashed_drug_trials": 1,
+  "examples": []
  }
 }

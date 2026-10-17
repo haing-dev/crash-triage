@@ -6,7 +6,7 @@
  "date": "2025-01-21",
  "asof": "2025-01-21",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-01-21",
   "adj_close": 3.53
@@ -32,6 +32,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "floating_convertible": "The \u201cRedemption Conversion Price\u201d on any given redemption date equaled 85% multiplied by the average of the two lowest daily volume weighted average prices per share of the Common Stock during the ten trading days immediately preceding the date that the noteholder delivered notice electing to redeem a portion of the Streeterville Note."
+ },
+ "debt": {
+  "usd": 3050000.0,
+  "tags": "ConvertibleNotesPayableCurrent"
+ },
+ "public_float": {
+  "usd": 29700000,
+  "as_of": "2023-06-30",
+  "filed": "2024-04-29"
  },
  "insiders": {
   "form4s": 2,

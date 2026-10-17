@@ -6,7 +6,7 @@
  "date": "2021-03-23",
  "asof": "2021-03-23",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-03-23",
   "adj_close": 399.5
@@ -33,6 +33,12 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 25,
   "from": "2020-12-23",
@@ -243,7 +249,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "FX-322",
  "trials": {
   "query": "korro bio",
   "other_trials": 0,

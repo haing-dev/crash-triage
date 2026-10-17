@@ -6,7 +6,7 @@
  "date": "2022-04-13",
  "asof": "2022-04-13",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-04-13",
   "adj_close": 5.25
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "Our net losses and significant cash used in operating activities have raised substantial doubt regarding our ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "equity_line": "As previously disclosed on a Current Report on Form 8-K filed with the SEC on April 13, 2021 and described in further detail in this Annual Report on Form 10-K, we entered into a Common Stock Purchase Agreement, dated as of April 12, 2021 with a fund and account managed by Caligan Partners LP and certain other accredited investors for the sale by us in a private placement (the \u201cPrivate Placement\u201d)"
+ },
+ "debt": {
+  "usd": 10409950.0,
+  "tags": "LongTermDebtNoncurrent"
+ },
+ "public_float": {
+  "usd": 61668021,
+  "as_of": "2021-06-30",
+  "filed": "2022-03-17"
  },
  "insiders": {
   "form4s": 11,

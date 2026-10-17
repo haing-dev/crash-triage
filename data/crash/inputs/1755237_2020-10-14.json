@@ -4,12 +4,12 @@
  "cik": "1755237",
  "name": "Korsana Biosciences, Inc.",
  "date": "2020-10-14",
- "asof": "2020-10-20",
+ "asof": "2020-10-14",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2020-10-20",
-  "adj_close": 371.0
+  "date": "2020-10-14",
+  "adj_close": 469.0
  },
  "balance": {
   "end": "2020-06-30",
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {
+  "equity_line": "Subsequent Events On July 29, 2020, the Company closed on a private placement of 6,062,500 shares of the Company\u2019s common stock at a purchase price of $4.00 per share pursuant to a Common Stock Purchase Agreement for total proceeds of approximately $24.3 million."
+ },
+ "debt": {
+  "usd": 3509000.0,
+  "tags": "NotesPayableCurrent"
+ },
+ "public_float": {
+  "usd": 306200000,
+  "as_of": "2019-06-28",
+  "filed": "2020-03-12"
+ },
  "insiders": {
   "form4s": 3,
   "from": "2020-07-16",
@@ -54,7 +66,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "IW-6463",
  "trials": {
   "query": "korsana biosciences",
   "other_trials": 0,

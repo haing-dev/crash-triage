@@ -6,7 +6,7 @@
  "date": "2022-07-22",
  "asof": "2022-07-22",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-07-22",
   "adj_close": 4.5
@@ -26,6 +26,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "CONSOLIDATED STATEMENTS OF CASH FLOWS (Amounts in dollars) Fiscal Years Ended March 31, 2022 2021 Cash flows from operating activities: Net loss $ (47,762,400 ) $ (17,934,200 ) Adjustments to reconcile net loss to net cash used in operating activities: Depreciation and amortization 153,500 117,600 Stock-based compensation 3,480,700 2,306,100 Amortization of operating lease right of use asset 557,6"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 536809889,
+  "as_of": "2021-09-30",
+  "filed": "2022-06-23"
  },
  "insiders": {
   "form4s": 8,
@@ -55,30 +67,11 @@
    }
   ]
  },
- "drug": null,
+ "drug": "PH94B",
  "trials": {
   "query": "vistagen therapeutics",
-  "other_trials": 3,
-  "crashed_drug_trials": 0,
-  "examples": [
-   {
-    "nct": "NCT05011396",
-    "drugs": [
-     "PH94B Nasal Spray"
-    ]
-   },
-   {
-    "nct": "NCT05030350",
-    "drugs": [
-     "PH94B"
-    ]
-   },
-   {
-    "nct": "NCT04404192",
-    "drugs": [
-     "PH94B"
-    ]
-   }
-  ]
+  "other_trials": 0,
+  "crashed_drug_trials": 3,
+  "examples": []
  }
 }

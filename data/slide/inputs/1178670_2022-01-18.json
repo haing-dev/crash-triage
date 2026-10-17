@@ -6,7 +6,7 @@
  "date": "2022-01-18",
  "asof": "2022-01-18",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-01-18",
   "adj_close": 139.19
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 433799000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 16993028024,
+  "as_of": "2020-06-30",
+  "filed": "2021-02-11"
  },
  "insiders": {
   "form4s": 11,
@@ -209,10 +219,24 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
+    "nct": "NCT05103332",
+    "drugs": [
+     "Indapamide",
+     "Amlodipine",
+     "Olmesartan"
+    ]
+   },
+   {
     "nct": "NCT04153149",
     "drugs": [
      "Vutrisiran",
      "Sterile Normal Saline (0.9% NaCl)"
+    ]
+   },
+   {
+    "nct": "NCT03841448",
+    "drugs": [
+     "Cemdisiran"
     ]
    },
    {
@@ -222,23 +246,9 @@
     ]
    },
    {
-    "nct": "NCT04936035",
+    "nct": "NCT03997383",
     "drugs": [
-     "ALN-AGT01"
-    ]
-   },
-   {
-    "nct": "NCT05103332",
-    "drugs": [
-     "Indapamide",
-     "Amlodipine",
-     "Olmesartan"
-    ]
-   },
-   {
-    "nct": "NCT03841448",
-    "drugs": [
-     "Cemdisiran"
+     "Patisiran"
     ]
    }
   ]

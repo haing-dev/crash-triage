@@ -6,7 +6,7 @@
  "date": "2024-12-20",
  "asof": "2024-12-20",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-12-20",
   "adj_close": 34.615
@@ -34,20 +34,30 @@
   "flag": true,
   "quote": "Management\u2019s assessment included the preparation of cash flow forecasts resulting in management\u2019s conclusion that there is not substantial doubt about the Company\u2019s ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 91000000,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-26"
+ },
  "insiders": {
   "form4s": 0,
   "from": "2024-09-21",
   "to": "2025-01-19",
   "trades": []
  },
- "drug": null,
+ "drug": "BA3182; mecbotamab vedotin",
  "trials": {
   "query": "bioatla",
-  "other_trials": 5,
-  "crashed_drug_trials": 0,
+  "other_trials": 4,
+  "crashed_drug_trials": 1,
   "examples": [
    {
-    "nct": "NCT04681131",
+    "nct": "NCT03425279",
     "drugs": [
      "CAB-AXL-ADC",
      "PD-1 inhibitor"
@@ -69,15 +79,7 @@
     ]
    },
    {
-    "nct": "NCT05271604",
-    "drugs": [
-     "Ozuriftamab Vedotin",
-     "Pembrolizumab",
-     "Evalstotug (BA3071)"
-    ]
-   },
-   {
-    "nct": "NCT03425279",
+    "nct": "NCT04681131",
     "drugs": [
      "CAB-AXL-ADC",
      "PD-1 inhibitor"

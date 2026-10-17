@@ -6,7 +6,7 @@
  "date": "2021-10-26",
  "asof": "2021-10-26",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-10-26",
   "adj_close": 17.148
@@ -32,6 +32,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 1053215.0,
+  "tags": "ConvertibleDebtCurrent"
+ },
+ "public_float": {
+  "usd": 3170292,
+  "as_of": "2020-08-31",
+  "filed": "2020-11-04"
  },
  "insiders": {
   "form4s": 0,

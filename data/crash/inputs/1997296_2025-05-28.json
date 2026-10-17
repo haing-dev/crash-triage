@@ -6,7 +6,7 @@
  "date": "2025-05-28",
  "asof": "2025-05-29",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-05-29",
   "adj_close": 181.75
@@ -27,6 +27,18 @@
  "going_concern": {
   "flag": true,
   "quote": "This uncertainty, along with the Company's history of losses, indicates that there is substantial doubt about the Company's ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "equity_line": "The fair value of the Public Warrants was estimated using the Black-Scholes option pricing model with the following inputs: 2024 Valuation date share price $ 2.65 Exercise price $ 4.64 Expected dividend yield - Risk-free interest rate 4.32% Expected term (in years) 5 years Expected volatility 95% The number of Public Warrants outstanding as of March 31, 2025: Public Warrants outstanding Expiry dat"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 11200000,
+  "as_of": "2024-06-30",
+  "filed": "2025-04-30"
  },
  "insiders": {
   "form4s": 1,

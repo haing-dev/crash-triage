@@ -6,7 +6,7 @@
  "date": "2025-06-11",
  "asof": "2025-06-11",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-06-11",
   "adj_close": 16.74
@@ -34,6 +34,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "(\u201cAmgen\u201d) In September 2016, Amgen and the Company entered into two collaboration and license agreements and a common stock purchase agreement."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 3000000000,
+  "as_of": "2024-03-31",
+  "filed": "2024-11-26"
  },
  "insiders": {
   "form4s": 2,
@@ -91,31 +103,32 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
+    "nct": "NCT06700538",
+    "drugs": [
+     "ARO-INHBE",
+     "Tirzepatide"
+    ]
+   },
+   {
     "nct": "NCT05083364",
     "drugs": [
      "ARO-C3"
     ]
    },
    {
-    "nct": "NCT05413135",
+    "nct": "NCT06937203",
     "drugs": [
-     "ARO-APOC3"
+     "ARO-ALK7"
     ]
    },
    {
-    "nct": "NCT06880770",
-    "drugs": [
-     "Plozasiran"
-    ]
-   },
-   {
-    "nct": "NCT06347016",
+    "nct": "NCT06347003",
     "drugs": [
      "Plozasiran Injection"
     ]
    },
    {
-    "nct": "NCT06347133",
+    "nct": "NCT06347016",
     "drugs": [
      "Plozasiran Injection"
     ]

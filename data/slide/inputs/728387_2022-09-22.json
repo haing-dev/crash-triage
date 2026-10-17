@@ -6,7 +6,7 @@
  "date": "2022-09-22",
  "asof": "2022-09-22",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-09-22",
   "adj_close": 3.0
@@ -32,6 +32,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 38730949,
+  "as_of": "2020-12-31",
+  "filed": "2021-09-27"
  },
  "insiders": {
   "form4s": 10,

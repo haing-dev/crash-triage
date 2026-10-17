@@ -4,12 +4,12 @@
  "cik": "1496323",
  "name": "IGM Biosciences, Inc.",
  "date": "2025-01-10",
- "asof": "2025-01-14",
+ "asof": "2025-01-10",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2025-01-14",
-  "adj_close": 1.71
+  "date": "2025-01-10",
+  "adj_close": 2.09
  },
  "balance": {
   "end": "2024-09-30",
@@ -29,6 +29,16 @@
  "shares": null,
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 132100000,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-07"
  },
  "insiders": {
   "form4s": 14,
@@ -72,7 +82,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "imvotamab",
  "trials": {
   "query": "igm biosciences",
   "other_trials": 0,

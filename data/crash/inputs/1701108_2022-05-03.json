@@ -6,7 +6,7 @@
  "date": "2022-05-03",
  "asof": "2022-05-03",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-05-03",
   "adj_close": 1.85
@@ -34,6 +34,16 @@
  "going_concern": {
   "flag": true,
   "quote": "The report of our auditor on our consolidated financial statements expresses substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 326300000,
+  "as_of": "2021-06-30",
+  "filed": "2022-03-31"
  },
  "insiders": {
   "form4s": 11,
@@ -98,7 +108,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "tebipenem HBr",
  "trials": {
   "query": "spero therapeutics",
   "other_trials": 0,

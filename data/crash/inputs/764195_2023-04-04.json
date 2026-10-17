@@ -4,12 +4,12 @@
  "cik": "764195",
  "name": "VBI Vaccines Inc/BC",
  "date": "2023-04-04",
- "asof": "2023-04-05",
+ "asof": "2023-04-04",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2023-04-05",
-  "adj_close": 3.663
+  "date": "2023-04-04",
+  "adj_close": 4.227
  },
  "balance": {
   "end": "2022-12-31",
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "In its report dated March 13, 2023, EisnerAmper LLP, our independent registered public accounting firm, expressed substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 48888000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 154978074,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-13"
  },
  "insiders": {
   "form4s": 14,
@@ -62,7 +72,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "PreHevbrio",
  "trials": {
   "query": "vbi vaccines bc",
   "other_trials": 0,

@@ -6,7 +6,7 @@
  "date": "2024-11-15",
  "asof": "2024-11-15",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-11-15",
   "adj_close": 2.63
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 261249647000,
+  "as_of": "2023-06-30",
+  "filed": "2024-04-26"
  },
  "insiders": {
   "form4s": 9,
@@ -69,16 +79,16 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
+    "nct": "NCT04919811",
+    "drugs": [
+     "Taletrectinib"
+    ]
+   },
+   {
     "nct": "NCT05191004",
     "drugs": [
      "NUV-422",
      "Fulvestrant"
-    ]
-   },
-   {
-    "nct": "NCT06334432",
-    "drugs": [
-     "NUV-1511"
     ]
    },
    {
@@ -88,16 +98,15 @@
     ]
    },
    {
-    "nct": "NCT05191017",
+    "nct": "NCT04617054",
     "drugs": [
-     "NUV-422",
-     "Enzalutamide"
+     "AB-106"
     ]
    },
    {
-    "nct": "NCT04919811",
+    "nct": "NCT06334432",
     "drugs": [
-     "Taletrectinib"
+     "NUV-1511"
     ]
    }
   ]

@@ -6,7 +6,7 @@
  "date": "2022-09-06",
  "asof": "2022-09-06",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-09-06",
   "adj_close": 37.35
@@ -33,6 +33,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "Condensed Consolidated Statements of Redeemable Convertible Preferred Stock and Stockholders\u2019 Equity (Unaudited) (In thousands) Additional Accumulated other Total Common stock paid-in comprehensive Accumulated stockholders\u2019 Shares Amount capital loss deficit equity Balance at December 31, 2021 35,034 $ 4 $ 252,464 $ (119 ) $ (142,649 ) $ 109,700 Issuance of common stock under Equity Purchase Agree"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 81400000,
+  "as_of": "2021-06-30",
+  "filed": "2022-03-28"
  },
  "insiders": {
   "form4s": 7,

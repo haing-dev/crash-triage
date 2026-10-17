@@ -6,7 +6,7 @@
  "date": "2024-05-10",
  "asof": "2024-05-10",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-05-10",
   "adj_close": 3.31
@@ -32,6 +32,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 322500000,
+  "as_of": "2023-12-31",
+  "filed": "2024-03-07"
  },
  "insiders": {
   "form4s": 42,
@@ -117,7 +127,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "macrogenics",
   "other_trials": 2,

@@ -6,7 +6,7 @@
  "date": "2022-09-16",
  "asof": "2022-09-16",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-09-16",
   "adj_close": 1.08
@@ -34,6 +34,16 @@
  "going_concern": {
   "flag": true,
   "quote": "This condition raises substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 353900000,
+  "as_of": "2021-06-30",
+  "filed": "2022-03-18"
  },
  "insiders": {
   "form4s": 12,
@@ -99,16 +109,11 @@
     ]
    },
    {
-    "nct": "NCT05378763",
+    "nct": "NCT00055887",
     "drugs": [
-     "Poziotinib",
-     "Docetaxel"
-    ]
-   },
-   {
-    "nct": "NCT03318939",
-    "drugs": [
-     "Poziotinib"
+     "carboplatin",
+     "cisplatin",
+     "efaproxiral"
     ]
    },
    {
@@ -118,11 +123,17 @@
     ]
    },
    {
-    "nct": "NCT00055887",
+    "nct": "NCT04570423",
     "drugs": [
-     "carboplatin",
-     "cisplatin",
-     "efaproxiral"
+     "Eflapegrastim",
+     "Chemotherapy"
+    ]
+   },
+   {
+    "nct": "NCT05378763",
+    "drugs": [
+     "Poziotinib",
+     "Docetaxel"
     ]
    }
   ]

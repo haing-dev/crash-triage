@@ -6,7 +6,7 @@
  "date": "2023-08-23",
  "asof": "2023-08-23",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-08-23",
   "adj_close": 25.44
@@ -30,6 +30,18 @@
  "going_concern": {
   "flag": true,
   "quote": "As such, these conditions raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "equity_line": "(\u201cCantor Fitzgerald\u201d) (the \u201cATM Offering\u201d), the purchase agreement with Lincoln Park Capital Fund, LLC (\u201cLincoln Park\u201d) (the \u201cLPC Purchase Agreement\u201d), the common stock purchase agreement with G42 Investments AI Holding RSC Ltd (\u201cG42 Investments\u201d) (the \u201cG42 Purchase Agreement\u201d) and the common stock and warrant purchase agreement with CinPax, LLC and CinRx, LLC, respectively (the \u201cCinRx Purchase Ag"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 22745674,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-06"
  },
  "insiders": {
   "form4s": 6,

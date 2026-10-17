@@ -6,7 +6,7 @@
  "date": "2026-09-09",
  "asof": "2026-09-09",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-09-09",
   "adj_close": 1.44
@@ -33,6 +33,19 @@
  "going_concern": {
   "flag": true,
   "quote": "Accordingly, there is substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "price_reset_warrants": "The note was initially convertible into common stock at a price per share equal to $6.3171, provided however, the conversion price was subject to reset on the earlier of (a) the fifth trading day following the effective date of the resale shelf, or (b) the six-month anniversary of the issuance date of the convertible note (i.e., September 13, 2024).",
+  "equity_line": "95 The following table presents a reconciliation of the derivative liabilities measured on a recurring basis using Level 3 inputs for the years ended December 31, 2025: Schedule of Derivative Liabilities Measured on a Recurring Basis Liabilities: Balance as of January 1, 2025 $\u2014 Fair value of derivative liability associated with Series A Preferred Stock at issuance 157 Change in fair value of bifu"
+ },
+ "debt": {
+  "usd": 922000.0,
+  "tags": "ConvertibleNotesPayable"
+ },
+ "public_float": {
+  "usd": 28400000,
+  "as_of": "2025-06-30",
+  "filed": "2026-04-30"
  },
  "insiders": {
   "form4s": 6,

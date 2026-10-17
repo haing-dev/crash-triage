@@ -6,7 +6,7 @@
  "date": "2025-04-03",
  "asof": "2025-04-03",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-04-03",
   "adj_close": 1.34
@@ -34,6 +34,16 @@
  "going_concern": {
   "flag": true,
   "quote": "Risks Related to Our Financial Position and Capital Needs \u2022We will need substantial additional capital in the future in order to fund our business and have identified conditions that raise substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 239800000,
+  "as_of": "2024-06-30",
+  "filed": "2025-03-19"
  },
  "insiders": {
   "form4s": 18,

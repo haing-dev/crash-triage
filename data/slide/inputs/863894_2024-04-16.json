@@ -6,7 +6,7 @@
  "date": "2024-04-16",
  "asof": "2024-04-16",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-04-16",
   "adj_close": 12.5
@@ -32,6 +32,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "UNAUDITED CONDENSED CONSOLIDATED STATEMENTS OF STOCKHOLDERS\u2019 EQUITY \ufeff \ufeff Accumulated Additional Other Treasury Preferred Common Stock Paid-in Comprehensive Accumulated Stock, Stock Shares Amount Capital Loss Deficit at Cost Total Balance at September 30, 2018 $ \u2014 57,468,660 $ 574,687 $ 95,496,506 $ (581,519) $ (58,201,651) $ (7,806,605) $ 29,481,418 Share-based compensation \u2014 \u2014 \u2014 417,256 \u2014 \u2014 \u2014 417,"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 77700000,
+  "as_of": "2023-03-31",
+  "filed": "2024-04-01"
  },
  "insiders": {
   "form4s": 4,

@@ -6,10 +6,10 @@
  "date": "2024-06-21",
  "asof": "2024-06-21",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-06-21",
-  "adj_close": 117.0
+  "adj_close": 2.34
  },
  "balance": {
   "end": "2024-03-31",
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "Management has determined that the date for liquidation and subsequent dissolution as well as liquidity concerns raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 56560000,
+  "as_of": "2023-06-30",
+  "filed": "2024-04-17"
  },
  "insiders": {
   "form4s": 1,
@@ -62,7 +72,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "greenland mines",
   "other_trials": 0,

@@ -6,7 +6,7 @@
  "date": "2026-04-23",
  "asof": "2026-04-23",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-04-23",
   "adj_close": 37.97
@@ -28,6 +28,14 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {
+  "floating_convertible": "The 2032 Notes are convertible in whole, but not in part, at the option of the noteholders on a net share settlement basis, at the prevailing conversion price in the following circumstances beginning after October 15, 2025 through March 3, 2032: \u2022if the daily volume-weighted average trading price of our common shares for at least 20-consecutive trading days during a period of 30-consecutive tradin"
+ },
+ "debt": {
+  "usd": 1654428000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 0,
   "from": "2026-01-23",

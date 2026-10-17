@@ -6,10 +6,10 @@
  "date": "2023-11-09",
  "asof": "2023-11-09",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-11-09",
-  "adj_close": 183.75
+  "adj_close": 7.35
  },
  "balance": {
   "end": "2023-09-30",
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 89800000,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-30"
  },
  "insiders": {
   "form4s": 2,

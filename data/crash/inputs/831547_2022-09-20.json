@@ -6,7 +6,7 @@
  "date": "2022-09-20",
  "asof": "2022-09-23",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-09-23",
   "adj_close": 0.4274
@@ -34,6 +34,16 @@
  "going_concern": {
   "flag": true,
   "quote": "This condition raises substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 353900000,
+  "as_of": "2021-06-30",
+  "filed": "2022-03-18"
  },
  "insiders": {
   "form4s": 12,
@@ -84,11 +94,11 @@
    }
   ]
  },
- "drug": null,
+ "drug": "ROLVEDON (eflapegrastim-xnst)",
  "trials": {
   "query": "spectrum pharmaceuticals",
-  "other_trials": 6,
-  "crashed_drug_trials": 0,
+  "other_trials": 5,
+  "crashed_drug_trials": 1,
   "examples": [
    {
     "nct": "NCT04402008",
@@ -96,6 +106,20 @@
      "Poziotinib Once Daily Dosing",
      "Poziotinib Twice Daily Dosing",
      "Poziotinib Once Daily Dosing or Twice Daily Dosing as determined in Phase 1"
+    ]
+   },
+   {
+    "nct": "NCT00055887",
+    "drugs": [
+     "carboplatin",
+     "cisplatin",
+     "efaproxiral"
+    ]
+   },
+   {
+    "nct": "NCT03744715",
+    "drugs": [
+     "Poziotinib"
     ]
    },
    {
@@ -109,20 +133,6 @@
     "nct": "NCT03318939",
     "drugs": [
      "Poziotinib"
-    ]
-   },
-   {
-    "nct": "NCT03744715",
-    "drugs": [
-     "Poziotinib"
-    ]
-   },
-   {
-    "nct": "NCT00055887",
-    "drugs": [
-     "carboplatin",
-     "cisplatin",
-     "efaproxiral"
     ]
    }
   ]

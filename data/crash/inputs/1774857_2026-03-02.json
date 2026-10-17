@@ -4,12 +4,12 @@
  "cik": "1774857",
  "name": "Aardvark Therapeutics, Inc.",
  "date": "2026-03-02",
- "asof": "2026-03-03",
+ "asof": "2026-03-02",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2026-03-03",
-  "adj_close": 4.9
+  "date": "2026-03-02",
+  "adj_close": 5.47
  },
  "balance": {
   "end": "2025-09-30",
@@ -34,6 +34,12 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 5,
   "from": "2025-12-02",

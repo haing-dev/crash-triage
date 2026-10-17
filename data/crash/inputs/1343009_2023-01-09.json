@@ -6,7 +6,7 @@
  "date": "2023-01-09",
  "asof": "2023-01-12",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-01-12",
   "adj_close": 1.0
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "Our independent registered public accountants have expressed substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "floating_convertible": "The convertible notes include a conversion right, at the Investor\u2019s option, to convert the convertible notes into shares of our Common Stock at a conversion price equal to the lower of (i) $42 per share or (ii) eighty percent (80%) of the average of the two lowest daily volume-weighted average price for the Company\u2019s Common Stock during the ten (10) consecutive trading days preceding the conversio"
+ },
+ "debt": {
+  "usd": 1758702.0,
+  "tags": "ConvertibleDebtCurrent"
+ },
+ "public_float": {
+  "usd": 1809687,
+  "as_of": "2022-08-31",
+  "filed": "2022-11-30"
  },
  "insiders": {
   "form4s": 0,

@@ -6,7 +6,7 @@
  "date": "2022-07-13",
  "asof": "2022-07-13",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-07-13",
   "adj_close": 22.66
@@ -35,6 +35,16 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 3267590001,
+  "as_of": "2021-06-30",
+  "filed": "2022-02-24"
+ },
  "insiders": {
   "form4s": 14,
   "from": "2022-04-14",
@@ -48,13 +58,7 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT05144256",
-    "drugs": [
-     "Mitapivat"
-    ]
-   },
-   {
-    "nct": "NCT04770753",
+    "nct": "NCT04770779",
     "drugs": [
      "Mitapivat"
     ]
@@ -67,6 +71,12 @@
    },
    {
     "nct": "NCT05031780",
+    "drugs": [
+     "Mitapivat"
+    ]
+   },
+   {
+    "nct": "NCT04770753",
     "drugs": [
      "Mitapivat"
     ]

@@ -6,7 +6,7 @@
  "date": "2021-04-09",
  "asof": "2021-04-09",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-04-09",
   "adj_close": 47.6
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 309145000.0,
+  "tags": "LongTermDebtNoncurrent"
+ },
+ "public_float": {
+  "usd": 2923373633,
+  "as_of": "2020-06-30",
+  "filed": "2021-02-25"
  },
  "insiders": {
   "form4s": 20,
@@ -265,6 +275,12 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
+    "nct": "NCT03642145",
+    "drugs": [
+     "Deflazacort"
+    ]
+   },
+   {
     "nct": "NCT04439071",
     "drugs": [
      "PTC299",
@@ -272,9 +288,9 @@
     ]
    },
    {
-    "nct": "NCT03179631",
+    "nct": "NCT02352896",
     "drugs": [
-     "Ataluren"
+     "EPI-743"
     ]
    },
    {
@@ -284,15 +300,9 @@
     ]
    },
    {
-    "nct": "NCT04577352",
+    "nct": "NCT03179631",
     "drugs": [
-     "Vatiquinone"
-    ]
-   },
-   {
-    "nct": "NCT04378075",
-    "drugs": [
-     "Vatiquinone"
+     "Ataluren"
     ]
    }
   ]

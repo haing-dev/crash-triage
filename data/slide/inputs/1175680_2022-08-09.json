@@ -6,7 +6,7 @@
  "date": "2022-08-09",
  "asof": "2022-08-09",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-08-09",
   "adj_close": 0.815
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "These factors, among others, raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "price_reset_warrants": "In addition to standard anti-dilution adjustments, the conversion price of the April 2, 2021 Note is subject to full-ratchet anti-dilution protection, pursuant to which the conversion price will be automatically reduced to equal the effective price per share in any new offering by the Company of equity securities that have registration rights, are registered or become registered under the Securiti"
+ },
+ "debt": {
+  "usd": 40504000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 1534001633,
+  "as_of": "2020-11-30",
+  "filed": "2021-09-28"
  },
  "insiders": {
   "form4s": 26,

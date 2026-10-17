@@ -6,7 +6,7 @@
  "date": "2023-10-09",
  "asof": "2023-10-09",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-10-09",
   "adj_close": 16.31
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 24607000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 180500000,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-17"
  },
  "insiders": {
   "form4s": 9,
@@ -118,16 +128,16 @@
     ]
    },
    {
+    "nct": "NCT06054217",
+    "drugs": [
+     "Vehicle of TP-03"
+    ]
+   },
+   {
     "nct": "NCT05387083",
     "drugs": [
      "Low Dose TP-05",
      "High Dose TP-05"
-    ]
-   },
-   {
-    "nct": "NCT06054217",
-    "drugs": [
-     "Vehicle of TP-03"
     ]
    }
   ]

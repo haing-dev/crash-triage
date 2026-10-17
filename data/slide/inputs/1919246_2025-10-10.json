@@ -6,7 +6,7 @@
  "date": "2025-10-10",
  "asof": "2025-10-10",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-10-10",
   "adj_close": 23.26
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "There is substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "equity_line": "Committed Equity Financing On July 26, 2024, the Company entered into a Common Stock Purchase Agreement, dated as of July 26, 2024 (the \u201cCEF Purchase Agreement\u201d), with Tikkun Capital LLC (\u201cTikkun\u201d), providing for a committed equity financing facility, pursuant to which, upon the terms and subject to the satisfaction of the conditions contained in the CEF Purchase Agreement, Tikkun has committed to"
+ },
+ "debt": {
+  "usd": 131868.0,
+  "tags": "LoansPayable"
+ },
+ "public_float": {
+  "usd": 6800000,
+  "as_of": "2024-06-28",
+  "filed": "2025-03-27"
  },
  "insiders": {
   "form4s": 2,

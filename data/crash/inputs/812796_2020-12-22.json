@@ -6,7 +6,7 @@
  "date": "2020-12-22",
  "asof": "2020-12-23",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2020-12-23",
   "adj_close": 321.60001
@@ -33,13 +33,23 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 417830.0,
+  "tags": "NotesPayableCurrent+LongTermNotesPayable"
+ },
+ "public_float": {
+  "usd": 9584222,
+  "as_of": "2019-06-28",
+  "filed": "2020-03-30"
+ },
  "insiders": {
   "form4s": 5,
   "from": "2020-09-23",
   "to": "2021-01-21",
   "trades": []
  },
- "drug": null,
+ "drug": "SGX942 (dusquetide)",
  "trials": {
   "query": "soligenix",
   "other_trials": 0,

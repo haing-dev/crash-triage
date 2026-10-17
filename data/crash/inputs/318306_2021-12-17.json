@@ -6,7 +6,7 @@
  "date": "2021-12-17",
  "asof": "2021-12-17",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-12-17",
   "adj_close": 7.25
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 204160000,
+  "as_of": "2020-06-30",
+  "filed": "2021-03-24"
  },
  "insiders": {
   "form4s": 9,
@@ -97,22 +107,16 @@
    }
   ]
  },
- "drug": null,
+ "drug": "EB-101",
  "trials": {
   "query": "abeona therapeutics",
-  "other_trials": 3,
-  "crashed_drug_trials": 0,
+  "other_trials": 2,
+  "crashed_drug_trials": 1,
   "examples": [
    {
     "nct": "NCT01263379",
     "drugs": [
      "LZRSE-Col7A1 Engineered Autologous Epidermal Sheets"
-    ]
-   },
-   {
-    "nct": "NCT04227106",
-    "drugs": [
-     "EB-101"
     ]
    },
    {

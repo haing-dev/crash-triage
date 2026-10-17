@@ -6,7 +6,7 @@
  "date": "2026-06-10",
  "asof": "2026-06-10",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-06-10",
   "adj_close": 2.95
@@ -32,6 +32,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "Lincoln Park Capital Fund, LLC Purchase Agreement On May 2, 2023, the Company entered into a common stock purchase agreement (as amended, the \u201cLincoln Park Purchase Agreement\u201d) with Lincoln Park Capital Fund, LLC (\u201cLincoln Park\u201d) which provides that, upon the terms and subject to the conditions and limitations set forth therein, the Company has the right, but not the obligation, to sell to Lincoln"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 64100000,
+  "as_of": "2025-03-31",
+  "filed": "2025-12-17"
  },
  "insiders": {
   "form4s": 8,

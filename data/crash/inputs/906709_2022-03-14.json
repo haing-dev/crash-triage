@@ -6,7 +6,7 @@
  "date": "2022-03-14",
  "asof": "2022-03-14",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-03-14",
   "adj_close": 62.4
@@ -34,6 +34,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 3100000000,
+  "as_of": "2021-06-30",
+  "filed": "2022-03-01"
  },
  "insiders": {
   "form4s": 12,
@@ -84,25 +94,12 @@
    }
   ]
  },
- "drug": null,
+ "drug": "bempegaldesleukin (BEMPEG) + Opdivo (nivolumab)",
  "trials": {
   "query": "nektar therapeutics",
-  "other_trials": 8,
-  "crashed_drug_trials": 0,
+  "other_trials": 4,
+  "crashed_drug_trials": 4,
   "examples": [
-   {
-    "nct": "NCT04677179",
-    "drugs": [
-     "LY3471851"
-    ]
-   },
-   {
-    "nct": "NCT04616196",
-    "drugs": [
-     "NKTR-255",
-     "Cetuximab"
-    ]
-   },
    {
     "nct": "NCT03138889",
     "drugs": [
@@ -112,19 +109,22 @@
     ]
    },
    {
-    "nct": "NCT03435640",
+    "nct": "NCT04677179",
     "drugs": [
-     "NKTR-262",
-     "bempegaldesleukin",
-     "nivolumab"
+     "LY3471851"
     ]
    },
    {
-    "nct": "NCT02983045",
+    "nct": "NCT04433585",
     "drugs": [
-     "Dose Escalation Doublet: Combination of NKTR-214 + nivolumab",
-     "Dose Expansion Doublet: Combination of NKTR-214 + nivolumab",
-     "Schedule Finding Triplet: Combination of NKTR-214+ nivolumab+ ipilimumab"
+     "LY3471851"
+    ]
+   },
+   {
+    "nct": "NCT04616196",
+    "drugs": [
+     "NKTR-255",
+     "Cetuximab"
     ]
    }
   ]

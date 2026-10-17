@@ -6,7 +6,7 @@
  "date": "2024-02-12",
  "asof": "2024-02-12",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-02-12",
   "adj_close": 11.25
@@ -32,6 +32,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "floating_convertible": "On the Maturity Date, the Imugene Convertible Note will be redeemed with cash, converted into ordinary shares of Imugene Limited at a conversion price based on the 10-day volume weighted average price of Imugene Limited\u2019s ordinary shares prior to the date of conversion, or partially redeemed with cash and partially converted into shares, at Imugene's discretion."
+ },
+ "debt": {
+  "usd": 22365000.0,
+  "tags": "LoansPayableCurrent"
+ },
+ "public_float": {
+  "usd": 170300000,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-09"
  },
  "insiders": {
   "form4s": 5,

@@ -6,7 +6,7 @@
  "date": "2021-04-12",
  "asof": "2021-04-12",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-04-12",
   "adj_close": 15.8
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "These conditions raised substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "equity_line": "Net cash provided by financing activities was $137.5 million for the year ended December 31, 2020 and consists primarily of $67.0 million received from the issuance of common stock in the 2020 Private Placement (as defined below) in June 2020, $72.7 million received from the issuance of common stock in the 2020 Underwritten Offering (as defined below) in September 2020, $0.5 million received from "
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 370406889,
+  "as_of": "2020-06-30",
+  "filed": "2021-03-10"
  },
  "insiders": {
   "form4s": 13,

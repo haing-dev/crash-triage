@@ -6,7 +6,7 @@
  "date": "2025-04-01",
  "asof": "2025-04-01",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-04-01",
   "adj_close": 30.64
@@ -34,6 +34,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 2946200000,
+  "as_of": "2024-06-30",
+  "filed": "2025-02-27"
  },
  "insiders": {
   "form4s": 4,
@@ -83,13 +93,19 @@
     ]
    },
    {
-    "nct": "NCT05667142",
+    "nct": "NCT05718817",
     "drugs": [
      "XEN1101"
     ]
    },
    {
-    "nct": "NCT05718817",
+    "nct": "NCT05716100",
+    "drugs": [
+     "XEN1101"
+    ]
+   },
+   {
+    "nct": "NCT05667142",
     "drugs": [
      "XEN1101"
     ]
@@ -98,12 +114,6 @@
     "nct": "NCT05614063",
     "drugs": [
      "XEN1101"
-    ]
-   },
-   {
-    "nct": "NCT06922110",
-    "drugs": [
-     "Azetukalner"
     ]
    }
   ]

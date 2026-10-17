@@ -6,7 +6,7 @@
  "date": "2026-02-12",
  "asof": "2026-02-12",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-02-12",
   "adj_close": 6.12
@@ -32,6 +32,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 268700000,
+  "as_of": "2025-06-30",
+  "filed": "2026-02-12"
  },
  "insiders": {
   "form4s": 11,
@@ -89,19 +99,13 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT07065773",
+    "nct": "NCT07223632",
     "drugs": [
-     "Trichostatin A"
+     "VCA-894A"
     ]
    },
    {
-    "nct": "NCT07179055",
-    "drugs": [
-     "VSJ-110"
-    ]
-   },
-   {
-    "nct": "NCT07090161",
+    "nct": "NCT06961968",
     "drugs": [
      "iloperidone"
     ]
@@ -113,9 +117,15 @@
     ]
    },
    {
-    "nct": "NCT06953869",
+    "nct": "NCT07221578",
     "drugs": [
-     "Tasimelteon Oral Suspension"
+     "VQW-765"
+    ]
+   },
+   {
+    "nct": "NCT04652882",
+    "drugs": [
+     "Tasimelteon"
     ]
    }
   ]

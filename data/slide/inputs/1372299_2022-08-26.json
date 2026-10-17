@@ -6,7 +6,7 @@
  "date": "2022-08-26",
  "asof": "2022-08-26",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-08-26",
   "adj_close": 2.64
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "As a result of these factors, together with the anticipated increase in spending that will be necessary to continue to research, develop, and commercialize the Company's product candidates, there is substantial doubt about the Company's ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 1750000.0,
+  "tags": "LongTermDebtNoncurrent"
+ },
+ "public_float": {
+  "usd": 1600000000,
+  "as_of": "2021-06-30",
+  "filed": "2022-02-28"
  },
  "insiders": {
   "form4s": 9,

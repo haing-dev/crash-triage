@@ -6,7 +6,7 @@
  "date": "2023-05-26",
  "asof": "2023-05-26",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-05-26",
   "adj_close": 3.7
@@ -34,6 +34,16 @@
  "going_concern": {
   "flag": true,
   "quote": "On an ongoing basis, the Company\u2019s management evaluates its estimates, which include, but are not limited to, estimates related to revenue recognition, warrant liability, stock-based compensation expense, accrued expenses, income taxes and the evaluation of the existence of conditions and events tha"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 40784000.0,
+  "tags": "LongTermDebtNoncurrent+LongTermDebtCurrent"
+ },
+ "public_float": {
+  "usd": 55740050,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-02"
  },
  "insiders": {
   "form4s": 15,

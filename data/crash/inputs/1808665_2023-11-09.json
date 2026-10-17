@@ -6,7 +6,7 @@
  "date": "2023-11-09",
  "asof": "2023-11-10",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-11-10",
   "adj_close": 16.8
@@ -32,6 +32,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 38866000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 140400000,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-08"
  },
  "insiders": {
   "form4s": 7,
@@ -82,7 +92,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "assertio",
   "other_trials": 0,

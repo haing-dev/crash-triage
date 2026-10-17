@@ -6,7 +6,7 @@
  "date": "2021-05-14",
  "asof": "2021-05-14",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-05-14",
   "adj_close": 28.049999
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 855889147,
+  "as_of": "2020-06-30",
+  "filed": "2021-03-16"
  },
  "insiders": {
   "form4s": 7,
@@ -125,16 +135,16 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT04396756",
-    "drugs": [
-     "PLN-74809"
-    ]
-   },
-   {
     "nct": "NCT04072315",
     "drugs": [
      "PLN-74809",
      "Knottin tracer"
+    ]
+   },
+   {
+    "nct": "NCT04565249",
+    "drugs": [
+     "PLN-74809"
     ]
    },
    {
@@ -144,7 +154,7 @@
     ]
    },
    {
-    "nct": "NCT04565249",
+    "nct": "NCT04396756",
     "drugs": [
      "PLN-74809"
     ]

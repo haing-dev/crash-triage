@@ -6,7 +6,7 @@
  "date": "2024-11-19",
  "asof": "2024-11-19",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-11-19",
   "adj_close": 6.97
@@ -27,13 +27,19 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 0,
   "from": "2024-08-21",
   "to": "2024-12-19",
   "trades": []
  },
- "drug": null,
+ "drug": "zerlasiran",
  "trials": {
   "query": "silence therapeutics",
   "other_trials": 1,

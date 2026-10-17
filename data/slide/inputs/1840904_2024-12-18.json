@@ -6,7 +6,7 @@
  "date": "2024-12-18",
  "asof": "2024-12-18",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-12-18",
   "adj_close": 1.18
@@ -32,6 +32,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "floating_convertible": "The IntelGenx Term Loan, as amended includes a conversion feature that allows for: a) any portion of the outstanding and unpaid principal under the Initial Tranches and/or the Tranche 1 Additional Term Loan into conversion shares (the \u201cConversion Shares\u201d) at a conversion price per share of $0.185 (the \u201cInitial Conversion Price\u201d); b) any accrued interest under the Initial Tranches into Conversion S"
+ },
+ "debt": {
+  "usd": 20336000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 203300000,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-28"
  },
  "insiders": {
   "form4s": 7,

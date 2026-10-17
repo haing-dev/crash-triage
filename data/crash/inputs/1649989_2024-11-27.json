@@ -6,7 +6,7 @@
  "date": "2024-11-27",
  "asof": "2024-11-27",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-11-27",
   "adj_close": 1.7
@@ -34,6 +34,18 @@
   "flag": true,
   "quote": "Liquidity The Company has incurred recurring losses and negative cash flows from operations since its inception and has an accumulated deficit of $548,976,181 as of June 30, 2024, which raises substantial doubt about the Company\u2019s ability to continue as a going concern"
  },
+ "financing_terms": {
+  "floating_convertible": "In addition, the Company had the right to convert all or any portion of the outstanding balance under the December 2022 Note into shares of common stock at the Conversion Price if certain conditions have been met at the time of conversion, including if at any time after the six-month anniversary of the closing date, the daily volume-weighted average price of the common stock on Nasdaq equals or ex"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 179500000,
+  "as_of": "2023-03-31",
+  "filed": "2024-01-24"
+ },
  "insiders": {
   "form4s": 9,
   "from": "2024-08-29",
@@ -48,7 +60,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "ONS-5010",
  "trials": {
   "query": "outlook therapeutics",
   "other_trials": 1,

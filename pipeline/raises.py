@@ -23,9 +23,11 @@ FORMS = {"424B4", "424B5", "S-3", "S-3/A", "8-K"}
 ATM = re.compile(r"at[- ]the[- ]market", re.I)
 AGREEMENT = re.compile(r"(?:sales|sale|distribution|equity distribution|open market sale|at[- ]the[- ]market (?:issuance |offering )?sales) agreement", re.I)
 ATM_SIZE = re.compile(r"aggregate (?:gross )?(?:offering|sales) (?:price|proceeds) of up to \$\s?([\d,]+(?:\.\d+)?)\s*(million|billion)?", re.I)
-PRICE = re.compile(r"(?:(?:combined )?public offering price|offering price|purchase price|price to (?:the )?public)"
-                   r"[^$.;]{0,70}?\$\s?(\d{1,4}(?:\.\d{1,6})?)", re.I)
-PRICE_8K = re.compile(r"(?:at a|for a|purchase) (?:purchase |offering |combined )?price of \$\s?(\d{1,4}(?:\.\d{1,6})?) per (?:share|unit)", re.I)
+PRICE = re.compile(r"(?:(?:combined )?public offering price|offering price|price to (?:the )?public)"
+                   r"[^$.;]{0,70}?\$\s?(\d{1,4}(?:\.\d{1,6})?)(?![\d,])(?!\s*(?:million|billion|thousand))", re.I)
+PRICE_8K = re.compile(r"(?:at a|for a|purchase) (?:purchase |offering |combined )?price of \$\s?(\d{1,4}(?:\.\d{1,6})?)(?![\d,])\s*per (?:share|unit)", re.I)
+PREFERRED = re.compile(r"preferred", re.I)
+PARSER = 2                                                # bump to re-read every filing with changed patterns
 WARRANT = re.compile(r"warrants? to purchase", re.I)
 NOT_SWEETENER = re.compile(r"pre-?funded|underwriter|placement agent|representative|agent.s|underwriters", re.I)
 
@@ -47,8 +49,9 @@ def read(form, t):
                 "quote": snippet(head, m or ATM.search(head))}
     if form.startswith("S-3"):
         return None
-    m = (PRICE_8K if form == "8-K" else PRICE).search(head) or (PRICE.search(head) if form == "8-K" else None)
-    if not m or not 0 < float(m.group(1)) < 5000:
+    m = next((m for m in (PRICE_8K if form == "8-K" else PRICE).finditer(head)
+              if 0 < float(m.group(1)) < 5000 and not PREFERRED.search(head[max(0, m.start() - 120):m.end()])), None)
+    if not m:                                             # common-stock price per share only (not preferred)
         return None
     sweet = [w for w in WARRANT.finditer(head) if not NOT_SWEETENER.search(head[max(0, w.start() - 60):w.start()])]
     return {"type": "priced", "price": float(m.group(1)), "warrants": bool(sweet), "quote": snippet(head, m),
@@ -64,7 +67,9 @@ def main():
     n = 0
     for cik in sorted(universe()):
         p = out_dir / f"{cik}.json"
-        rec = json.loads(p.read_text()) if p.exists() else {"done": [], "raises": []}
+        rec = json.loads(p.read_text()) if p.exists() else {}
+        if rec.get("parser") != PARSER:
+            rec = {"parser": PARSER, "done": [], "raises": []}
         done = set(rec["done"])
         try:
             fl = [x for x in filings(cik) if x[0] in FORMS and x[1] >= SINCE and x[2] not in done]

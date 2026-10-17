@@ -4,12 +4,12 @@
  "cik": "1683553",
  "name": "SPRUCE BIOSCIENCES, INC.",
  "date": "2025-08-05",
- "asof": "2025-08-11",
+ "asof": "2025-08-05",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2025-08-11",
-  "adj_close": 9.15
+  "date": "2025-08-05",
+  "adj_close": 10.125
  },
  "balance": {
   "end": "2025-03-31",
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "Accordingly, there is substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 1402000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 18800000,
+  "as_of": "2024-06-28",
+  "filed": "2025-04-15"
  },
  "insiders": {
   "form4s": 7,

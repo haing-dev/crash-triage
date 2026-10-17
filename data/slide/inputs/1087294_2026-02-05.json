@@ -6,7 +6,7 @@
  "date": "2026-02-05",
  "asof": "2026-02-05",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-02-05",
   "adj_close": 3.59
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 12234822,
+  "as_of": "2024-06-30",
+  "filed": "2025-03-07"
+ },
  "insiders": {
   "form4s": 8,
   "from": "2025-11-07",
@@ -46,15 +56,15 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT02682511",
-    "drugs": [
-     "Oral Ifetroban"
-    ]
-   },
-   {
     "nct": "NCT05571059",
     "drugs": [
      "Ifetroban Sodium"
+    ]
+   },
+   {
+    "nct": "NCT02682511",
+    "drugs": [
+     "Oral Ifetroban"
     ]
    }
   ]

@@ -4,12 +4,12 @@
  "cik": "1872812",
  "name": "TC BioPharm (Holdings) plc",
  "date": "2024-07-31",
- "asof": "2024-08-06",
+ "asof": "2024-08-02",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2024-08-06",
-  "adj_close": 42.7008
+  "date": "2024-08-02",
+  "adj_close": 44.2368
  },
  "balance": null,
  "burn6": null,
@@ -18,13 +18,20 @@
   "shares": 98902641
  },
  "going_concern": null,
+ "financing_terms": null,
+ "debt": null,
+ "public_float": {
+  "usd": 3100000,
+  "as_of": "2023-06-30",
+  "filed": "2024-04-29"
+ },
  "insiders": {
   "form4s": 0,
   "from": "2024-05-02",
   "to": "2024-08-30",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "tc biopharm",
   "other_trials": 1,

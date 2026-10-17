@@ -6,7 +6,7 @@
  "date": "2023-07-31",
  "asof": "2023-07-31",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-07-31",
   "adj_close": 7.39
@@ -33,6 +33,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "Concurrent with entering into the 2021 RPI Royalty Purchase Agreement, the Company and RPI entered into a Common Stock Purchase Agreement (the \u201cCommon Stock Purchase Agreement\u201d), pursuant to which the Company sold common stock to RPI for a premium of $4,269."
+ },
+ "debt": {
+  "usd": 232522000.0,
+  "tags": "LongTermDebtNoncurrent"
+ },
+ "public_float": {
+  "usd": 1949284603,
+  "as_of": "2022-12-31",
+  "filed": "2023-02-27"
  },
  "insiders": {
   "form4s": 14,
@@ -62,9 +74,23 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
+    "nct": "NCT05116774",
+    "drugs": [
+     "Eculizumab",
+     "Ravulizumab",
+     "BCX9930"
+    ]
+   },
+   {
     "nct": "NCT05116787",
     "drugs": [
      "BCX9930 monotherapy"
+    ]
+   },
+   {
+    "nct": "NCT05741346",
+    "drugs": [
+     "BCX9930"
     ]
    },
    {
@@ -77,22 +103,6 @@
     "nct": "NCT04933721",
     "drugs": [
      "berotralstat"
-    ]
-   },
-   {
-    "nct": "NCT04702568",
-    "drugs": [
-     "BCX9930",
-     "Eculizumab",
-     "Ravulizumab"
-    ]
-   },
-   {
-    "nct": "NCT05116774",
-    "drugs": [
-     "Eculizumab",
-     "Ravulizumab",
-     "BCX9930"
     ]
    }
   ]

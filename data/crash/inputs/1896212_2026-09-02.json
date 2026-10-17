@@ -6,7 +6,7 @@
  "date": "2026-09-02",
  "asof": "2026-09-02",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-09-02",
   "adj_close": 22.75
@@ -33,6 +33,19 @@
  "going_concern": {
   "flag": true,
   "quote": "These factors raise substantial doubt regarding the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "floating_convertible": "Repayments may be paid in cash or, at the option of the Company commencing six months following the closing, in shares of the Company\u2019s Common Stock, at a conversion price equal to the greater of: (a) Ninety Percent (90%) of the lowest volume-weighted average price (\u201cVWAP\u201d) of the Company\u2019s Common Stock over the ten consecutive trading days immediately preceding the date of conversion; or (b) the ",
+  "equity_line": "CONDENSED CONSOLIDATED STATEMENTS OF CHANGES IN STOCKHOLDERS\u2019 EQUITY For the Three and Six Months Ended June 30, 2026 and 2025 (unaudited) (in thousands, except share amounts) Shares Amount Stock capital deficit income (deficit) Common stock Treasury Additional paid-in Accumulated Accumulated other comprehensive Total stockholders\u2019 equity Shares Amount Stock capital deficit income (deficit) Balanc"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 55200,
+  "as_of": "2025-06-30",
+  "filed": "2026-04-15"
  },
  "insiders": {
   "form4s": 2,

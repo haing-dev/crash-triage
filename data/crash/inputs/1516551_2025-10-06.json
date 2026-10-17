@@ -4,12 +4,12 @@
  "cik": "1516551",
  "name": "Skye Bioscience, Inc.",
  "date": "2025-10-06",
- "asof": "2025-10-07",
+ "asof": "2025-10-06",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2025-10-07",
-  "adj_close": 13.28
+  "date": "2025-10-06",
+  "adj_close": 15.2
  },
  "balance": {
   "end": "2025-06-30",
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 224823935,
+  "as_of": "2024-06-30",
+  "filed": "2025-03-20"
  },
  "insiders": {
   "form4s": 2,

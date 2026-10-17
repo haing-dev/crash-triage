@@ -6,7 +6,7 @@
  "date": "2024-02-09",
  "asof": "2024-02-12",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-02-12",
   "adj_close": 1.72
@@ -34,13 +34,23 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 41500000,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-29"
+ },
  "insiders": {
   "form4s": 5,
   "from": "2023-11-11",
   "to": "2024-03-10",
   "trades": []
  },
- "drug": null,
+ "drug": "labafenogene marselecobac (SYNB1934)",
  "trials": {
   "query": "synlogic",
   "other_trials": 1,

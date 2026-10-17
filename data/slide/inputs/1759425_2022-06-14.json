@@ -6,7 +6,7 @@
  "date": "2022-06-14",
  "asof": "2022-06-14",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-06-14",
   "adj_close": 19.12
@@ -33,6 +33,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "Concurrently with the RIPA, the Company entered into a Common Stock Purchase Agreement (\u201cCSPA\u201d) with certain affiliates of Oberland, pursuant to which the Company sold an aggregate of 509,164 shares of its common stock for an aggregate purchase price of $10.0 million."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 300000,
+  "as_of": "2021-12-31",
+  "filed": "2022-03-09"
  },
  "insiders": {
   "form4s": 15,
@@ -90,9 +102,9 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT04729751",
+    "nct": "NCT05050136",
     "drugs": [
-     "Maralixibat"
+     "Volixibat"
     ]
    },
    {
@@ -102,23 +114,21 @@
     ]
    },
    {
+    "nct": "NCT04185363",
+    "drugs": [
+     "Maralixibat"
+    ]
+   },
+   {
+    "nct": "NCT04524390",
+    "drugs": [
+     "Maralixibat"
+    ]
+   },
+   {
     "nct": "NCT04718961",
     "drugs": [
      "Volixibat"
-    ]
-   },
-   {
-    "nct": "NCT04270682",
-    "drugs": [
-     "Blinded CDCA 250 mg TID",
-     "Open-Label CDCA 250 mg TID",
-     "Rescue Medication CDCA 250 mg TID"
-    ]
-   },
-   {
-    "nct": "NCT04168385",
-    "drugs": [
-     "Maralixibat"
     ]
    }
   ]

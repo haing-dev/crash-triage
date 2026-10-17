@@ -4,12 +4,12 @@
  "cik": "1430306",
  "name": "Tonix Pharmaceuticals Holding Corp.",
  "date": "2025-02-03",
- "asof": "2025-02-04",
+ "asof": "2025-02-03",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2025-02-04",
-  "adj_close": 15.21
+  "date": "2025-02-03",
+  "adj_close": 19.49
  },
  "balance": {
   "end": "2024-09-30",
@@ -34,24 +34,27 @@
   "flag": true,
   "quote": "These factors raise substantial doubt about the Company\u2019s ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 9355000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 16996283,
+  "as_of": "2023-06-30",
+  "filed": "2024-04-01"
+ },
  "insiders": {
   "form4s": 9,
   "from": "2024-11-05",
   "to": "2025-03-05",
   "trades": []
  },
- "drug": null,
+ "drug": "TNX-102 SL",
  "trials": {
   "query": "tonix pharmaceuticals",
-  "other_trials": 1,
-  "crashed_drug_trials": 0,
-  "examples": [
-   {
-    "nct": "NCT06045793",
-    "drugs": [
-     "TNX-1300 (Injection)"
-    ]
-   }
-  ]
+  "other_trials": 0,
+  "crashed_drug_trials": 1,
+  "examples": []
  }
 }

@@ -6,7 +6,7 @@
  "date": "2026-02-13",
  "asof": "2026-02-13",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-02-13",
   "adj_close": 55.95
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 28948000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 983000000,
+  "as_of": "2024-06-30",
+  "filed": "2025-02-27"
  },
  "insiders": {
   "form4s": 22,
@@ -362,16 +372,16 @@
     ]
    },
    {
-    "nct": "NCT06985147",
-    "drugs": [
-     "DISC-3405"
-    ]
-   },
-   {
     "nct": "NCT05883748",
     "drugs": [
      "DISC-1459",
      "DISC-1459"
+    ]
+   },
+   {
+    "nct": "NCT06985147",
+    "drugs": [
+     "DISC-3405"
     ]
    },
    {

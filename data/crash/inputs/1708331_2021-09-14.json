@@ -6,7 +6,7 @@
  "date": "2021-09-14",
  "asof": "2021-09-14",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-09-14",
   "adj_close": 1540.0
@@ -33,13 +33,19 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 1072100.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 1,
   "from": "2021-06-16",
   "to": "2021-10-14",
   "trades": []
  },
- "drug": null,
+ "drug": "Epoladerm, OSF200, Probudur, Envelta, PES200, AnQlar",
  "trials": {
   "query": "virpax pharmaceuticals",
   "other_trials": 0,

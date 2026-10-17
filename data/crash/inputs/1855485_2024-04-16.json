@@ -4,12 +4,12 @@
  "cik": "1855485",
  "name": "Calidi Biotherapeutics, Inc.",
  "date": "2024-04-16",
- "asof": "2024-04-18",
+ "asof": "2024-04-16",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2024-04-18",
-  "adj_close": 19.2
+  "date": "2024-04-16",
+  "adj_close": 24.84
  },
  "balance": {
   "end": "2023-12-31",
@@ -37,13 +37,27 @@
   "flag": true,
   "quote": "Our recurring losses from operations since inception and requirement for additional funding to finance our operations raise substantial doubt about our ability to continue as a going concern"
  },
+ "financing_terms": {
+  "floating_convertible": "The Convertible Notes also provide the investor a right to convert in whole or in part, the Principal Amount (as defined in the Convertible Notes) and accrued interest into shares of our common stock at an initial note conversion price equal to 94% of the 10-day VWAP ending the business day preceding execution of the Convertible Notes subject to a reset note conversion price equal to 94% of 10-day",
+  "price_reset_warrants": "The Convertible Notes also provide the investor a right to convert in whole or in part, the Principal Amount (as defined in the Convertible Notes) and accrued interest into shares of our common stock at an initial note conversion price equal to 94% of the 10-day VWAP ending the business day preceding execution of the Convertible Notes subject to a reset note conversion price equal to 94% of 10-day",
+  "equity_line": "Standby Equity Purchase Agreement On December 10, 2023, we entered into a Standby Equity Purchase Agreement (the \u201cSEPA\u201d) with YA II PN, Ltd., a Cayman Island exempt limited partnership (\u201cYorkville\u201d)."
+ },
+ "debt": {
+  "usd": 2060000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 43302972,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-15"
+ },
  "insiders": {
   "form4s": 1,
   "from": "2024-01-17",
   "to": "2024-05-16",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "calidi biotherapeutics",
   "other_trials": 0,

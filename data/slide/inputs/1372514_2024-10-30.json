@@ -6,7 +6,7 @@
  "date": "2024-10-30",
  "asof": "2024-10-30",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-10-30",
   "adj_close": 3.7
@@ -33,6 +33,19 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "price_reset_warrants": "In addition, on August 7, 2023, the first business day after the 60th calendar day immediately following the initial exercise day, the exercise price of the warrants was reduced to $4.7079 per share pursuant to the reset provision which stated that the warrants would be reduced to the lesser of (i) the exercise price then in effect and (ii) 90% of the average of the volume weighted average price o",
+  "equity_line": "The increase in cash from financing activities is due to receiving net proceeds of approximately $13.8 million in a private offering that closed on February 5, 2024 and proceeds of $1.7 million from warrant exercises, compared to net proceeds of approximately $0.4 million from equity line of credit share purchases and $5.6 million from a public offering that closed on June 6, 2023."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 4762870,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-25"
  },
  "insiders": {
   "form4s": 5,

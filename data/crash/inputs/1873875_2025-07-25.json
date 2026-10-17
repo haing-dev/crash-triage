@@ -6,7 +6,7 @@
  "date": "2025-07-25",
  "asof": "2025-07-31",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-07-31",
   "adj_close": 17.55
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "Pursuant to the requirements of ASC 205-40, Presentation of Financial Statements - Going Concern, and as a result of the financial condition and other factors described herein, there is substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "equity_line": "Equity-Line of Credit Purchase Agreement On September 6, 2024, the Company entered into an equity line of credit Purchase Agreement (the \u201cELOC Purchase Agreement\u201d) with Arena Business Solutions Global SPC II, Ltd (\u201cArena Global\u201d)."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 64000000,
+  "as_of": "2023-12-29",
+  "filed": "2024-09-30"
  },
  "insiders": {
   "form4s": 0,

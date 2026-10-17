@@ -4,12 +4,12 @@
  "cik": "1904286",
  "name": "MIRA PHARMACEUTICALS, INC.",
  "date": "2023-12-06",
- "asof": "2023-12-08",
+ "asof": "2023-12-07",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2023-12-08",
-  "adj_close": 1.58
+  "date": "2023-12-07",
+  "adj_close": 1.81
  },
  "balance": {
   "end": "2023-09-30",
@@ -27,6 +27,12 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 2,
   "from": "2023-09-07",

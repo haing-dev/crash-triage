@@ -6,7 +6,7 @@
  "date": "2024-04-19",
  "asof": "2024-04-19",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-04-19",
   "adj_close": 9.84
@@ -34,6 +34,16 @@
  "going_concern": {
   "flag": true,
   "quote": "Accordingly, these uncertainties and risk factors meet the ASC 205-40 standard for raising substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 40086000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 186689509,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-14"
  },
  "insiders": {
   "form4s": 16,
@@ -126,10 +136,10 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT05074810",
+    "nct": "NCT04625270",
     "drugs": [
-     "avutometinib and sotorasib",
-     "avutometinib and sotorasib and defactinib"
+     "avutometinib (VS-6766)",
+     "avutometinib (VS-6766) and defactinib"
     ]
    },
    {
@@ -141,9 +151,10 @@
     ]
    },
    {
-    "nct": "NCT05375994",
+    "nct": "NCT05074810",
     "drugs": [
-     "avutometinib (VS-6766) and adagrasib"
+     "avutometinib and sotorasib",
+     "avutometinib and sotorasib and defactinib"
     ]
    },
    {
@@ -153,10 +164,9 @@
     ]
    },
    {
-    "nct": "NCT04625270",
+    "nct": "NCT05375994",
     "drugs": [
-     "avutometinib (VS-6766)",
-     "avutometinib (VS-6766) and defactinib"
+     "avutometinib (VS-6766) and adagrasib"
     ]
    }
   ]

@@ -6,7 +6,7 @@
  "date": "2023-03-10",
  "asof": "2023-03-10",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-03-10",
   "adj_close": 2.61
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 404400000,
+  "as_of": "2021-06-30",
+  "filed": "2022-03-25"
+ },
  "insiders": {
   "form4s": 8,
   "from": "2022-12-10",
@@ -54,17 +64,17 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT04607850",
-    "drugs": [
-     "ChAdOx1-HPV",
-     "MVA-HPV"
-    ]
-   },
-   {
     "nct": "NCT05617040",
     "drugs": [
      "ChAdOx1-PCAQ",
      "MVA-PCAQ"
+    ]
+   },
+   {
+    "nct": "NCT04607850",
+    "drugs": [
+     "ChAdOx1-HPV",
+     "MVA-HPV"
     ]
    },
    {

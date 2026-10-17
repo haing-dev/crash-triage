@@ -6,7 +6,7 @@
  "date": "2025-02-05",
  "asof": "2025-02-11",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-02-11",
   "adj_close": 3.22
@@ -18,13 +18,20 @@
   "shares": 98902641
  },
  "going_concern": null,
+ "financing_terms": null,
+ "debt": null,
+ "public_float": {
+  "usd": 3100000,
+  "as_of": "2023-06-30",
+  "filed": "2024-04-29"
+ },
  "insiders": {
   "form4s": 0,
   "from": "2024-11-07",
   "to": "2025-03-07",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "tc biopharm",
   "other_trials": 1,

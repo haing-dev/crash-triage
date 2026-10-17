@@ -4,12 +4,12 @@
  "cik": "1810560",
  "name": "REVELATION BIOSCIENCES, INC.",
  "date": "2024-12-03",
- "asof": "2024-12-06",
+ "asof": "2024-12-04",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2024-12-06",
-  "adj_close": 84.48
+  "date": "2024-12-04",
+  "adj_close": 90.24
  },
  "balance": {
   "end": "2024-09-30",
@@ -34,13 +34,25 @@
   "flag": true,
   "quote": "The Company does not anticipate that its current cash and cash equivalents balance will be sufficient to sustain operations within one-year after the date that the Company\u2019s unaudited financial statements for September 30, 2024 were issued, which raises substantial doubt about its ability to continu"
  },
+ "financing_terms": {
+  "price_reset_warrants": "As part of the February 2024 Public Offering, the exercise price of the Class C Common Stock Warrants was reset from $160.80 to $4.53."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 7314347,
+  "as_of": "2023-06-30",
+  "filed": "2024-09-23"
+ },
  "insiders": {
   "form4s": 0,
   "from": "2024-09-04",
   "to": "2025-01-02",
   "trades": []
  },
- "drug": null,
+ "drug": "Gemini",
  "trials": {
   "query": "revelation biosciences",
   "other_trials": 0,

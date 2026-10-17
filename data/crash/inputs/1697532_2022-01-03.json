@@ -4,12 +4,12 @@
  "cik": "1697532",
  "name": "Applied Therapeutics, Inc.",
  "date": "2022-01-03",
- "asof": "2022-01-06",
+ "asof": "2022-01-05",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2022-01-06",
-  "adj_close": 4.33
+  "date": "2022-01-05",
+  "adj_close": 4.45
  },
  "balance": {
   "end": "2021-09-30",
@@ -34,6 +34,16 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 659242807,
+  "as_of": "2020-06-30",
+  "filed": "2021-03-18"
+ },
  "insiders": {
   "form4s": 9,
   "from": "2021-10-05",
@@ -47,15 +57,15 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT04083339",
-    "drugs": [
-     "AT-001"
-    ]
-   },
-   {
     "nct": "NCT04902781",
     "drugs": [
      "AT-007"
+    ]
+   },
+   {
+    "nct": "NCT04083339",
+    "drugs": [
+     "AT-001"
     ]
    },
    {

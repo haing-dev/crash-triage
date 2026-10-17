@@ -6,7 +6,7 @@
  "date": "2022-08-01",
  "asof": "2022-08-01",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-08-01",
   "adj_close": 10.54
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 1169300000,
+  "as_of": "2021-06-30",
+  "filed": "2022-02-24"
  },
  "insiders": {
   "form4s": 11,
@@ -97,16 +107,16 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT04819776",
+    "nct": "NCT05352893",
     "drugs": [
-     "Iloperidone"
+     "750 mg Imsidolimab",
+     "300 mg Imsidolimab"
     ]
    },
    {
-    "nct": "NCT04028492",
+    "nct": "NCT05344365",
     "drugs": [
-     "Tradipitant",
-     "Open Label Tradipitant"
+     "Iloperidone"
     ]
    },
    {
@@ -118,15 +128,16 @@
     ]
    },
    {
-    "nct": "NCT04800237",
+    "nct": "NCT04028492",
     "drugs": [
-     "VQW-765"
+     "Tradipitant",
+     "Open Label Tradipitant"
     ]
    },
    {
-    "nct": "NCT05344365",
+    "nct": "NCT01218789",
     "drugs": [
-     "Iloperidone"
+     "tasimelteon"
     ]
    }
   ]

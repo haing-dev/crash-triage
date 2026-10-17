@@ -6,7 +6,7 @@
  "date": "2022-02-16",
  "asof": "2022-02-16",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-02-16",
   "adj_close": 352.125
@@ -34,13 +34,23 @@
   "flag": true,
   "quote": "Risks Pertaining to Our Finances \u25cfThere is substantial doubt about our ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 72342650,
+  "as_of": "2020-06-30",
+  "filed": "2021-03-31"
+ },
  "insiders": {
   "form4s": 5,
   "from": "2021-11-18",
   "to": "2022-03-18",
   "trades": []
  },
- "drug": null,
+ "drug": "IV tramadol",
  "trials": {
   "query": "avenue therapeutics",
   "other_trials": 0,

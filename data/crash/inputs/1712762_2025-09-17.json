@@ -4,12 +4,12 @@
  "cik": "1712762",
  "name": "bioAffinity Technologies, Inc.",
  "date": "2025-09-17",
- "asof": "2025-09-19",
+ "asof": "2025-09-18",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2025-09-19",
-  "adj_close": 74.7
+  "date": "2025-09-18",
+  "adj_close": 76.05
  },
  "balance": {
   "end": "2025-06-30",
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "Based on the Company\u2019s current expected level of operating expenditures and the cash and cash equivalents on hand at June 30, 2025, management concludes that there is substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "price_reset_warrants": "and are exercisable for a term of five years on a date that is five years after the later of receiving the shareholder The number of shares of our Common Stock issuable upon exercise of the May 2025 Warrant Shares is subject to the following adjustments: (i) a 30% increase in the number of shares of Common Stock that would be issuable upon exercise of the May 2025 Warrants if a reverse stock split"
+ },
+ "debt": {
+  "usd": 78898.0,
+  "tags": "NotesPayableCurrent+LongTermNotesPayable"
+ },
+ "public_float": {
+  "usd": 22600000,
+  "as_of": "2025-06-30",
+  "filed": "2025-04-29"
  },
  "insiders": {
   "form4s": 0,

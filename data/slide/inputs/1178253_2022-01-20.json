@@ -6,7 +6,7 @@
  "date": "2022-01-20",
  "asof": "2022-01-20",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-01-20",
   "adj_close": 42.16
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {
+  "equity_line": "UNAUDITED CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS (in thousands) Nine Months Ended September 30, 2021 2020 Cash flows from operating activities: Net loss $ (3,623 ) $ (12,474 ) Adjustments to reconcile net loss to net cash used in operating activities: Depreciation 133 82 Stock-based compensation expense 1,528 1,220 Amortization of debt issuance costs and discount 937 910 Change in fair va"
+ },
+ "debt": {
+  "usd": 28579000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 77935551,
+  "as_of": "2020-06-30",
+  "filed": "2021-03-29"
+ },
  "insiders": {
   "form4s": 4,
   "from": "2021-10-22",
@@ -46,16 +58,16 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT03059992",
-    "drugs": [
-     "Ibrexafungerp"
-    ]
-   },
-   {
     "nct": "NCT03672292",
     "drugs": [
      "SCY-078",
      "Voriconazole"
+    ]
+   },
+   {
+    "nct": "NCT03059992",
+    "drugs": [
+     "Ibrexafungerp"
     ]
    },
    {

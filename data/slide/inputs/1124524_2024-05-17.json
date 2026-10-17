@@ -6,7 +6,7 @@
  "date": "2024-05-17",
  "asof": "2024-05-17",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-05-17",
   "adj_close": 12.65
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 379153000.0,
+  "tags": "ConvertibleDebtNoncurrent"
+ },
+ "public_float": {
+  "usd": 500000000,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-13"
  },
  "insiders": {
   "form4s": 16,

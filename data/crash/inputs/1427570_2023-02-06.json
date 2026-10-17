@@ -4,12 +4,12 @@
  "cik": "1427570",
  "name": "Vyome Holdings, Inc",
  "date": "2023-02-06",
- "asof": "2023-02-10",
+ "asof": "2023-02-06",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2023-02-10",
-  "adj_close": 29116.0
+  "date": "2023-02-06",
+  "adj_close": 40310.0
  },
  "balance": {
   "end": "2022-09-30",
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "This condition raises substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 37324000,
+  "as_of": "2021-06-30",
+  "filed": "2022-04-08"
  },
  "insiders": {
   "form4s": 3,
@@ -104,7 +114,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "Lap-Band System",
  "trials": {
   "query": "vyome",
   "other_trials": 0,

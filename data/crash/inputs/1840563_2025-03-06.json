@@ -6,7 +6,7 @@
  "date": "2025-03-06",
  "asof": "2025-03-12",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-03-12",
   "adj_close": 3461.052734
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "These factors raise substantial doubt regarding the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "price_reset_warrants": "The exercise price of the Series A and Series B Warrants shall be $0.38, subject to adjustments, including the following: A.On the day that is the eleventh trading day following the Initial Exercise Date (the \u201cReset Date\u201d), the exercise price shall be adjusted to equal the reset price (the \u201cReset Price\u201d), which is the greater of: (i)the lowest daily volume-weighted average price (\u201cVWAP\u201d) during th"
+ },
+ "debt": {
+  "usd": 869711.0,
+  "tags": "LoansPayable"
+ },
+ "public_float": {
+  "usd": 4916092,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-29"
  },
  "insiders": {
   "form4s": 2,

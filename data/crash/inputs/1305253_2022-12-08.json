@@ -6,7 +6,7 @@
  "date": "2022-12-08",
  "asof": "2022-12-08",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-12-08",
   "adj_close": 35.1
@@ -33,6 +33,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "Bristol-Meyers Squibb License Agreement On April 20, 2016, the Company and Bristol-Myers Squibb Company (BMS) entered into a License Agreement (the BMS License Agreement) and a Common Stock Purchase Agreement (the BMS Purchase Agreement)."
+ },
+ "debt": {
+  "usd": 39315000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 285874670,
+  "as_of": "2021-06-30",
+  "filed": "2022-03-10"
  },
  "insiders": {
   "form4s": 3,
@@ -62,7 +74,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "lonafarnib",
  "trials": {
   "query": "eiger biopharmaceuticals",
   "other_trials": 1,

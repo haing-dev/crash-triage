@@ -6,7 +6,7 @@
  "date": "2021-11-10",
  "asof": "2021-11-10",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-11-10",
   "adj_close": 1.7
@@ -32,6 +32,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "(10) Shareholders\u2019 equity or deficit Capital raises The following table presents the Company\u2019s capital raises since its initial public offering: Date or period Shares of common stock issued Gross proceeds Offering expenses Net proceeds Initial public offering March 12, 2014 4,312,500 $ 34,500 $ (4,244 ) $ 30,256 Private placement July 7, 2015 1,379,311 16,000 (1,188 ) 14,812 Underwritten public of"
+ },
+ "debt": {
+  "usd": 106532000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 93000000,
+  "as_of": "2020-06-30",
+  "filed": "2021-02-26"
  },
  "insiders": {
   "form4s": 3,

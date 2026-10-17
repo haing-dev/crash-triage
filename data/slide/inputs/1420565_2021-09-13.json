@@ -6,7 +6,7 @@
  "date": "2021-09-13",
  "asof": "2021-09-13",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-09-13",
   "adj_close": 24.4
@@ -33,6 +33,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "We have financed our operations through sales of common stock in our initial public offering and follow-on public offerings, sales of common stock and warrants in a private placement, sales of common stock in \u201cat-the-market\u201d offerings under the Capital on Demand Sales Agreements, sales of common stock under our equity line with LPC, sales of preferred stock prior to our initial public offering and"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 36630063,
+  "as_of": "2020-06-30",
+  "filed": "2021-03-24"
  },
  "insiders": {
   "form4s": 10,

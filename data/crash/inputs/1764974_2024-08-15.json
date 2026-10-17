@@ -6,7 +6,7 @@
  "date": "2024-08-15",
  "asof": "2024-08-15",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-08-15",
   "adj_close": 0.83
@@ -35,13 +35,19 @@
   "flag": true,
   "quote": "However, the Company incurred a net loss and negative cash flows from operations during the six months ended June 30, 2024 and management\u2019s cash flow forecasts indicate that based on the Company\u2019s expected future operating losses and negative cash flows, there is substantial doubt about the Company\u2019"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 5,
   "from": "2024-05-17",
   "to": "2024-09-14",
   "trades": []
  },
- "drug": null,
+ "drug": "TIDAL-01",
  "trials": {
   "query": "turnstone biologics",
   "other_trials": 0,

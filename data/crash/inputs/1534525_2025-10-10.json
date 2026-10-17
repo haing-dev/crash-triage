@@ -4,12 +4,12 @@
  "cik": "1534525",
  "name": "Xenetic Biosciences, Inc.",
  "date": "2025-10-10",
- "asof": "2025-10-15",
+ "asof": "2025-10-14",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2025-10-15",
-  "adj_close": 4.81
+  "date": "2025-10-14",
+  "adj_close": 5.07
  },
  "balance": {
   "end": "2025-06-30",
@@ -32,6 +32,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 5301818,
+  "as_of": "2024-06-28",
+  "filed": "2025-05-13"
  },
  "insiders": {
   "form4s": 0,

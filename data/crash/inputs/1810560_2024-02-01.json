@@ -4,12 +4,12 @@
  "cik": "1810560",
  "name": "REVELATION BIOSCIENCES, INC.",
  "date": "2024-02-01",
- "asof": "2024-02-02",
+ "asof": "2024-02-01",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2024-02-02",
-  "adj_close": 584.64001
+  "date": "2024-02-01",
+  "adj_close": 610.56
  },
  "balance": {
   "end": "2023-09-30",
@@ -34,6 +34,16 @@
   "flag": true,
   "quote": "The Company does not anticipate that its current cash and cash equivalents balance will be sufficient to sustain operations within one year after the date that the Company\u2019s unaudited financial statements for September 30, 2023 were issued, which raises substantial doubt about its ability to continu"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 13305377,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-30"
+ },
  "insiders": {
   "form4s": 1,
   "from": "2023-11-03",
@@ -48,7 +58,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "GEM-SSI, GEM-AKI, GEM-CKD",
  "trials": {
   "query": "revelation biosciences",
   "other_trials": 0,

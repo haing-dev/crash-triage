@@ -6,7 +6,7 @@
  "date": "2023-08-15",
  "asof": "2023-08-15",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-08-15",
   "adj_close": 21.0
@@ -34,6 +34,16 @@
   "flag": true,
   "quote": "Based on the current cash forecast and the Company's dependence on its ability to obtain additional financing to fund its operations after the current resources are exhausted, about which there can be no certainty, management has determined that the Company's present capital resources will not be su"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 221548093,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-07"
+ },
  "insiders": {
   "form4s": 7,
   "from": "2023-05-17",
@@ -48,7 +58,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "TCR-T Library",
  "trials": {
   "query": "alaunos therapeutics",
   "other_trials": 0,

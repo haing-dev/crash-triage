@@ -6,7 +6,7 @@
  "date": "2023-10-04",
  "asof": "2023-10-04",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-10-04",
   "adj_close": 6.49
@@ -32,6 +32,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 25386000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 98210075,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-29"
  },
  "insiders": {
   "form4s": 5,

@@ -6,7 +6,7 @@
  "date": "2023-11-16",
  "asof": "2023-11-16",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-11-16",
   "adj_close": 128.0
@@ -34,13 +34,19 @@
   "flag": true,
   "quote": "These conditions raise substantial doubt about the Company\u2019s ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 0,
   "from": "2023-08-18",
   "to": "2023-12-16",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "newcelx",
   "other_trials": 0,

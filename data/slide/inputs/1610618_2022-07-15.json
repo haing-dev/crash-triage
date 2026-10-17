@@ -6,7 +6,7 @@
  "date": "2022-07-15",
  "asof": "2022-07-15",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-07-15",
   "adj_close": 14.13
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "However, the Company\u2019s current working capital, anticipated operating expenses and net losses and the uncertainties surrounding its ability to raise additional capital as needed, as discussed below, raise substantial doubt about its ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 1481000.0,
+  "tags": "LoansPayableCurrent"
+ },
+ "public_float": {
+  "usd": 98000000,
+  "as_of": "2021-06-30",
+  "filed": "2022-03-07"
  },
  "insiders": {
   "form4s": 7,

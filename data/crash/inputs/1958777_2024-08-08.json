@@ -6,7 +6,7 @@
  "date": "2024-08-08",
  "asof": "2024-08-08",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-08-08",
   "adj_close": 45.2
@@ -34,6 +34,12 @@
   "flag": true,
   "quote": "These factors raise substantial doubt about the Company\u2019s ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 287000.0,
+  "tags": "NotesPayableCurrent"
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 7,
   "from": "2024-05-10",

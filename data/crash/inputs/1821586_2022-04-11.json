@@ -6,7 +6,7 @@
  "date": "2022-04-11",
  "asof": "2022-04-12",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-04-12",
   "adj_close": 4.85
@@ -31,6 +31,16 @@
   "flag": true,
   "quote": "Management has determined that the mandatory liquidation, should a Business Combination not occur, and potential subsequent dissolution raises substantial doubt about our ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 119025000,
+  "as_of": "2021-06-30",
+  "filed": "2022-02-17"
+ },
  "insiders": {
   "form4s": 6,
   "from": "2022-01-11",
@@ -45,7 +55,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "sonelokimab",
  "trials": {
   "query": "moonlake immunotherapeutics",
   "other_trials": 0,

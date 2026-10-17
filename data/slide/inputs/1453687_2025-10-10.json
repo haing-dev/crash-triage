@@ -6,7 +6,7 @@
  "date": "2025-10-10",
  "asof": "2025-10-10",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-10-10",
   "adj_close": 9.32
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 193901954,
+  "as_of": "2024-06-28",
+  "filed": "2025-03-13"
+ },
  "insiders": {
   "form4s": 1,
   "from": "2025-07-12",
@@ -46,12 +56,6 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT06038474",
-    "drugs": [
-     "Descartes-08"
-    ]
-   },
-   {
     "nct": "NCT06799247",
     "drugs": [
      "Decartes-08"
@@ -59,6 +63,12 @@
    },
    {
     "nct": "NCT04146051",
+    "drugs": [
+     "Descartes-08"
+    ]
+   },
+   {
+    "nct": "NCT06038474",
     "drugs": [
      "Descartes-08"
     ]

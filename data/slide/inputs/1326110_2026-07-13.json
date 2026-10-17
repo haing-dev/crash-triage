@@ -6,7 +6,7 @@
  "date": "2026-07-13",
  "asof": "2026-07-13",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-07-13",
   "adj_close": 7.79
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 884000.0,
+  "tags": "DebtCurrent"
+ },
+ "public_float": {
+  "usd": 690200000,
+  "as_of": "2025-06-30",
+  "filed": "2026-02-23"
  },
  "insiders": {
   "form4s": 11,
@@ -90,24 +100,17 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT07123727",
-    "drugs": [
-     "Anktiva"
-    ]
-   },
-   {
-    "nct": "NCT06061809",
-    "drugs": [
-     "Bevacizumab",
-     "PD-L1 t-haNK",
-     "N-803"
-    ]
-   },
-   {
     "nct": "NCT07551544",
     "drugs": [
      "BCG (50 mg) plus ANKTIVA (400 \u00b5g)",
      "BCG (50 mg)"
+    ]
+   },
+   {
+    "nct": "NCT06829823",
+    "drugs": [
+     "N-803 and BCG",
+     "N-803 and Gemcitabine"
     ]
    },
    {
@@ -119,11 +122,17 @@
     ]
    },
    {
-    "nct": "NCT06765902",
+    "nct": "NCT07108036",
     "drugs": [
+     "N-803 (IL-15 Superagonist)"
+    ]
+   },
+   {
+    "nct": "NCT07477366",
+    "drugs": [
+     "CD19 t-haNK- IV Administration",
      "N-803",
-     "ETBX-071",
-     "M-CENK"
+     "rituximab"
     ]
    }
   ]

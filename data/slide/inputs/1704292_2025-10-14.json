@@ -6,7 +6,7 @@
  "date": "2025-10-14",
  "asof": "2025-10-14",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-10-14",
   "adj_close": 29.4
@@ -32,6 +32,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 1700000000,
+  "as_of": "2024-06-30",
+  "filed": "2025-02-27"
  },
  "insiders": {
   "form4s": 11,
@@ -138,17 +148,17 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
+    "nct": "NCT06885281",
+    "drugs": [
+     "ZL-1310"
+    ]
+   },
+   {
     "nct": "NCT06380907",
     "drugs": [
      "ZL-1102 1% w/w gel BID for 16 weeks",
      "ZL-1102 3% w/w gel BID for 16 weeks",
      "ZL-1102 3% w/w gel QD for 16 weeks"
-    ]
-   },
-   {
-    "nct": "NCT06885281",
-    "drugs": [
-     "ZL-1310"
     ]
    }
   ]

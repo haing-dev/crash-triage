@@ -6,7 +6,7 @@
  "date": "2023-02-15",
  "asof": "2023-02-15",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-02-15",
   "adj_close": 152.0
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "Management believes that given the Company\u2019s current cash position and forecasted negative cash flows from operating activities over the next twelve months, including the completion of its planned Phase 3 clinical trial of its lead glycomimetic drug candidate, uproleselan, there is substantial doubt"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 117500000,
+  "as_of": "2021-06-30",
+  "filed": "2022-03-03"
  },
  "insiders": {
   "form4s": 13,
@@ -195,7 +205,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "crescent biopharma",
   "other_trials": 0,

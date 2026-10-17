@@ -6,7 +6,7 @@
  "date": "2021-11-22",
  "asof": "2021-11-22",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-11-22",
   "adj_close": 21.96
@@ -33,6 +33,12 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 0,
   "from": "2021-08-24",
@@ -52,18 +58,18 @@
     ]
    },
    {
-    "nct": "NCT04699461",
-    "drugs": [
-     "Loncastuximab Tesirine",
-     "Idelalisib"
-    ]
-   },
-   {
     "nct": "NCT04384484",
     "drugs": [
      "Loncastuximab Tesirine",
      "Rituximab",
      "Gemcitabine"
+    ]
+   },
+   {
+    "nct": "NCT04699461",
+    "drugs": [
+     "Loncastuximab Tesirine",
+     "Idelalisib"
     ]
    },
    {

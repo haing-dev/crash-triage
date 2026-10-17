@@ -6,7 +6,7 @@
  "date": "2025-02-04",
  "asof": "2025-02-04",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-02-04",
   "adj_close": 3.08
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "These circumstances raise substantial doubt about the Company's ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "equity_line": "Equity Line On October 21, 2024, the Company entered into a purchase agreement and registration rights agreement with Lincoln Park Capital Fund, LLC, or Lincoln Park."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 77323000,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-28"
  },
  "insiders": {
   "form4s": 2,

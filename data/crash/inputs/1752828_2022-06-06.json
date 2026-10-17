@@ -6,7 +6,7 @@
  "date": "2022-06-06",
  "asof": "2022-06-10",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-06-10",
   "adj_close": 46.2
@@ -34,13 +34,23 @@
   "flag": true,
   "quote": "Based on its recurring losses from operations incurred since inception, expectation of continuing operating losses for the foreseeable future, and need to raise additional capital to finance its future operations, the Company has concluded that there is substantial doubt about its ability to continu"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 128100000,
+  "as_of": "2021-06-30",
+  "filed": "2022-03-31"
+ },
  "insiders": {
   "form4s": 9,
   "from": "2022-03-08",
   "to": "2022-07-06",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "celularity",
   "other_trials": 1,

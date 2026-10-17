@@ -6,7 +6,7 @@
  "date": "2024-09-10",
  "asof": "2024-09-10",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-09-10",
   "adj_close": 0.0066
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "\u2022 Our recurring losses from operations raise substantial doubt regarding our ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 5440000.0,
+  "tags": "LongTermDebtNoncurrent+LongTermDebtCurrent"
+ },
+ "public_float": {
+  "usd": 16650960,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-31"
  },
  "insiders": {
   "form4s": 0,

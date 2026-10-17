@@ -6,7 +6,7 @@
  "date": "2023-11-08",
  "asof": "2023-11-08",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-11-08",
   "adj_close": 0.527
@@ -35,13 +35,23 @@
   "flag": true,
   "quote": "These factors raise substantial doubt regarding the Company\u2019s ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 20721000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 107820564,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-08"
+ },
  "insiders": {
   "form4s": 0,
   "from": "2023-08-10",
   "to": "2023-12-08",
   "trades": []
  },
- "drug": null,
+ "drug": "larsucosterol",
  "trials": {
   "query": "durect",
   "other_trials": 0,

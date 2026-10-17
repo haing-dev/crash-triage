@@ -6,7 +6,7 @@
  "date": "2023-05-25",
  "asof": "2023-05-25",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-05-25",
   "adj_close": 61.2
@@ -29,6 +29,16 @@
  "shares": null,
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 2392000000,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-13"
  },
  "insiders": {
   "form4s": 80,

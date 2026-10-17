@@ -6,7 +6,7 @@
  "date": "2021-05-10",
  "asof": "2021-05-10",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-05-10",
   "adj_close": 10.87
@@ -32,6 +32,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 177399544,
+  "as_of": "2020-03-31",
+  "filed": "2020-12-28"
  },
  "insiders": {
   "form4s": 4,
@@ -82,13 +92,7 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT04304482",
-    "drugs": [
-     "ANAVEX2-73 oral liquid"
-    ]
-   },
-   {
-    "nct": "NCT04314934",
+    "nct": "NCT03941444",
     "drugs": [
      "ANAVEX2-73"
     ]
@@ -100,16 +104,22 @@
     ]
    },
    {
-    "nct": "NCT03941444",
-    "drugs": [
-     "ANAVEX2-73"
-    ]
-   },
-   {
     "nct": "NCT03790709",
     "drugs": [
      "High dose ANAVEX2-73",
      "Mid dose ANAVEX2-73"
+    ]
+   },
+   {
+    "nct": "NCT04304482",
+    "drugs": [
+     "ANAVEX2-73 oral liquid"
+    ]
+   },
+   {
+    "nct": "NCT04314934",
+    "drugs": [
+     "ANAVEX2-73"
     ]
    }
   ]

@@ -6,7 +6,7 @@
  "date": "2022-07-28",
  "asof": "2022-07-28",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-07-28",
   "adj_close": 13.69
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 716885000.0,
+  "tags": "LongTermDebtNoncurrent"
+ },
+ "public_float": {
+  "usd": 555200000,
+  "as_of": "2021-06-30",
+  "filed": "2022-03-02"
+ },
  "insiders": {
   "form4s": 16,
   "from": "2022-04-29",
@@ -46,25 +56,9 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT05239468",
-    "drugs": [
-     "Bezafibrate 100 mg",
-     "Bezafibrate 200 mg",
-     "Obeticholic Acid 5 mg"
-    ]
-   },
-   {
     "nct": "NCT02548351",
     "drugs": [
      "Obeticholic Acid"
-    ]
-   },
-   {
-    "nct": "NCT05321524",
-    "drugs": [
-     "OCA 0.1mg",
-     "OCA 1.5mg",
-     "OCA 5mg"
     ]
    },
    {
@@ -80,6 +74,22 @@
     "drugs": [
      "Obeticholic acid (10 mg)",
      "Obeticholic acid (10 mg to 25 mg)"
+    ]
+   },
+   {
+    "nct": "NCT05321524",
+    "drugs": [
+     "OCA 0.1mg",
+     "OCA 1.5mg",
+     "OCA 5mg"
+    ]
+   },
+   {
+    "nct": "NCT05239468",
+    "drugs": [
+     "Bezafibrate 100 mg",
+     "Bezafibrate 200 mg",
+     "Obeticholic Acid 5 mg"
     ]
    }
   ]

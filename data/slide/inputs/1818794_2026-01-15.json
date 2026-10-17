@@ -6,7 +6,7 @@
  "date": "2026-01-15",
  "asof": "2026-01-15",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-01-15",
   "adj_close": 16.42
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 99147000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 3000000000,
+  "as_of": "2024-06-28",
+  "filed": "2025-02-27"
  },
  "insiders": {
   "form4s": 4,
@@ -69,15 +79,15 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT05481879",
-    "drugs": [
-     "DYNE-101"
-    ]
-   },
-   {
     "nct": "NCT05524883",
     "drugs": [
      "DYNE-251"
+    ]
+   },
+   {
+    "nct": "NCT05481879",
+    "drugs": [
+     "DYNE-101"
     ]
    }
   ]

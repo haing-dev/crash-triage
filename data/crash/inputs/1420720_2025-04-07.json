@@ -4,12 +4,12 @@
  "cik": "1420720",
  "name": "iBio, Inc.",
  "date": "2025-04-07",
- "asof": "2025-04-08",
+ "asof": "2025-04-07",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2025-04-08",
-  "adj_close": 1.2
+  "date": "2025-04-07",
+  "adj_close": 1.51
  },
  "balance": {
   "end": "2024-12-31",
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "\u200b The history of significant losses, the negative cash flow from operations, the limited cash resources on hand and the dependence by the Company on its ability to obtain additional financing to fund its operations after the current cash resources are exhausted raise substantial doubt about the Comp"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 880000.0,
+  "tags": "NotesPayableCurrent+LongTermNotesPayable"
+ },
+ "public_float": {
+  "usd": 4431006,
+  "as_of": "2023-12-31",
+  "filed": "2024-09-24"
  },
  "insiders": {
   "form4s": 10,

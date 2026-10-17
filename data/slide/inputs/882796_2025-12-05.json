@@ -6,7 +6,7 @@
  "date": "2025-12-05",
  "asof": "2025-12-05",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-12-05",
   "adj_close": 7.59
@@ -33,6 +33,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "Concurrent with entering into the 2021 RPI Royalty Purchase Agreement, the Company and RPI entered into a Common Stock Purchase Agreement pursuant to which the Company sold common stock to RPI for a premium of $4,269."
+ },
+ "debt": {
+  "usd": 194366000.0,
+  "tags": "LongTermDebtNoncurrent"
+ },
+ "public_float": {
+  "usd": 1264650517,
+  "as_of": "2024-06-30",
+  "filed": "2025-02-25"
  },
  "insiders": {
   "form4s": 15,

@@ -6,7 +6,7 @@
  "date": "2021-11-23",
  "asof": "2021-11-23",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-11-23",
   "adj_close": 14.57
@@ -34,6 +34,12 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 4,
   "from": "2021-08-25",
@@ -146,16 +152,16 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT05012397",
-    "drugs": [
-     "RAIN-32"
-    ]
-   },
-   {
     "nct": "NCT04979442",
     "drugs": [
      "RAIN-32",
      "Trabectedin"
+    ]
+   },
+   {
+    "nct": "NCT05012397",
+    "drugs": [
+     "RAIN-32"
     ]
    }
   ]

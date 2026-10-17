@@ -4,12 +4,12 @@
  "cik": "1008848",
  "name": "Acorda Therapeutics, Inc.",
  "date": "2024-04-02",
- "asof": "2024-04-08",
+ "asof": "2024-04-02",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2024-04-08",
-  "adj_close": 1.2
+  "date": "2024-04-02",
+  "adj_close": 2.5
  },
  "balance": {
   "end": "2023-12-31",
@@ -33,13 +33,23 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 186143000.0,
+  "tags": "ConvertibleDebtCurrent+ConvertibleDebtNoncurrent"
+ },
+ "public_float": {
+  "usd": 16055406,
+  "as_of": "2023-06-30",
+  "filed": "2024-04-01"
+ },
  "insiders": {
   "form4s": 0,
   "from": "2024-01-03",
   "to": "2024-05-02",
   "trades": []
  },
- "drug": null,
+ "drug": "INBRIJA, AMPYRA",
  "trials": {
   "query": "acorda therapeutics",
   "other_trials": 0,

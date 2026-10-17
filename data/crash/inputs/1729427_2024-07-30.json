@@ -4,12 +4,12 @@
  "cik": "1729427",
  "name": "CNS Pharmaceuticals, Inc.",
  "date": "2024-07-30",
- "asof": "2024-08-01",
+ "asof": "2024-07-30",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2024-08-01",
-  "adj_close": 174.60001
+  "date": "2024-07-30",
+  "adj_close": 246.0
  },
  "balance": {
   "end": "2024-03-31",
@@ -34,13 +34,23 @@
   "flag": true,
   "quote": "These factors raise substantial doubt regarding the Company\u2019s ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 213104.0,
+  "tags": "NotesPayableCurrent"
+ },
+ "public_float": {
+  "usd": 8780000,
+  "as_of": "2023-06-30",
+  "filed": "2024-04-01"
+ },
  "insiders": {
   "form4s": 1,
   "from": "2024-05-01",
   "to": "2024-08-29",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "cns pharmaceuticals",
   "other_trials": 1,

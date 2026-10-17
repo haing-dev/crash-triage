@@ -6,7 +6,7 @@
  "date": "2023-10-27",
  "asof": "2023-10-27",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-10-27",
   "adj_close": 52.54
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 14200000000,
+  "as_of": "2022-06-30",
+  "filed": "2023-02-07"
  },
  "insiders": {
   "form4s": 6,
@@ -62,38 +72,36 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT05620823",
+    "nct": "NCT03656536",
+    "drugs": [
+     "Pemigatinib",
+     "Gemcitabine",
+     "Cisplatin"
+    ]
+   },
+   {
+    "nct": "NCT03235544",
+    "drugs": [
+     "Parsaclisib"
+    ]
+   },
+   {
+    "nct": "NCT05620836",
     "drugs": [
      "Povorcitinib"
     ]
    },
    {
-    "nct": "NCT05233410",
+    "nct": "NCT05750823",
     "drugs": [
-     "Ruxolitinib cream",
-     "Vehicle"
+     "Ruxolitinib Cream"
     ]
    },
    {
-    "nct": "NCT04680052",
+    "nct": "NCT04455841",
     "drugs": [
-     "tafasitamab",
-     "rituximab",
-     "lenalidomide"
-    ]
-   },
-   {
-    "nct": "NCT04203511",
-    "drugs": [
-     "Retifanlimab",
-     "Pemetrexed",
-     "Cisplatin"
-    ]
-   },
-   {
-    "nct": "NCT05888844",
-    "drugs": [
-     "INCB099280"
+     "INCB000928",
+     "ruxolitinib"
     ]
    }
   ]

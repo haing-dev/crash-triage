@@ -6,7 +6,7 @@
  "date": "2021-12-20",
  "asof": "2021-12-20",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-12-20",
   "adj_close": 4.01
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "The COVID-19 pandemic and its ramifications, combined with the expenses and potential liabilities associated with litigation involving Lifted, combined with the regulatory risks and uncertainties associated with the cannabinoid-infused products, vaping and nicotine products industries, combined with"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 2524936,
+  "as_of": "2020-06-30",
+  "filed": "2021-03-31"
  },
  "insiders": {
   "form4s": 3,

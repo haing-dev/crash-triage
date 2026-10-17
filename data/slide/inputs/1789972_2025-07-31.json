@@ -6,7 +6,7 @@
  "date": "2025-07-31",
  "asof": "2025-07-31",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-07-31",
   "adj_close": 7.77
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 1000000000,
+  "as_of": "2024-06-30",
+  "filed": "2025-02-27"
  },
  "insiders": {
   "form4s": 7,

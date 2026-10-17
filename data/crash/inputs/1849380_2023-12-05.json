@@ -4,12 +4,12 @@
  "cik": "1849380",
  "name": "OneMedNet Corp",
  "date": "2023-12-05",
- "asof": "2023-12-07",
+ "asof": "2023-12-05",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2023-12-07",
-  "adj_close": 13.6
+  "date": "2023-12-05",
+  "adj_close": 18.65
  },
  "balance": {
   "end": "2023-09-30",
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "These conditions raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "floating_convertible": "Pursuant to the Securities Purchase Agreement, Data Knights will issue and sell to each of the Purchasers, a new series of senior secured convertible notes (the \u201cPIPE Notes\u201d), which are convertible into shares of Common Stock at the Purchasers election at a conversion price equal to the lower of (i) $10.00 per share, and (ii) 92.5% of the lowest volume weighted average trading price for the ten (1"
+ },
+ "debt": {
+  "usd": 13865000.0,
+  "tags": "ConvertibleDebtCurrent+ConvertibleDebtNoncurrent"
+ },
+ "public_float": {
+  "usd": 113735000,
+  "as_of": "2021-06-30",
+  "filed": "2023-03-31"
  },
  "insiders": {
   "form4s": 0,

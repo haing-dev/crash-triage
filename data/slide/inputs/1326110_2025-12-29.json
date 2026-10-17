@@ -6,7 +6,7 @@
  "date": "2025-12-29",
  "asof": "2025-12-29",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-12-29",
   "adj_close": 2.04
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 2603000.0,
+  "tags": "DebtCurrent"
+ },
+ "public_float": {
+  "usd": 980300000,
+  "as_of": "2024-06-28",
+  "filed": "2025-03-03"
  },
  "insiders": {
   "form4s": 5,
@@ -76,38 +86,40 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT07123727",
+    "nct": "NCT06829823",
     "drugs": [
-     "Anktiva"
-    ]
-   },
-   {
-    "nct": "NCT06061809",
-    "drugs": [
-     "Bevacizumab",
-     "PD-L1 t-haNK",
-     "N-803"
-    ]
-   },
-   {
-    "nct": "NCT06765902",
-    "drugs": [
-     "N-803",
-     "ETBX-071",
-     "M-CENK"
-    ]
-   },
-   {
-    "nct": "NCT02138734",
-    "drugs": [
-     "BCG (50mg/instillation) + N-803 (400 \u03bcg/instillation)",
-     "BCG (50mg/instillation)"
+     "N-803 and BCG",
+     "N-803 and Gemcitabine"
     ]
    },
    {
     "nct": "NCT07108036",
     "drugs": [
      "N-803 (IL-15 Superagonist)"
+    ]
+   },
+   {
+    "nct": "NCT06710288",
+    "drugs": [
+     "Gemcitabine",
+     "N-803",
+     "M-CENK"
+    ]
+   },
+   {
+    "nct": "NCT03228667",
+    "drugs": [
+     "N-803 + Pembrolizumab",
+     "N-803 + Nivolumab",
+     "N-803 + Atezolizumab"
+    ]
+   },
+   {
+    "nct": "NCT06745908",
+    "drugs": [
+     "N-803",
+     "Tislelizumab",
+     "Docetaxel"
     ]
    }
   ]

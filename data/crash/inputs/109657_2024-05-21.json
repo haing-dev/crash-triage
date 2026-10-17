@@ -4,12 +4,12 @@
  "cik": "109657",
  "name": "GT Biopharma, Inc.",
  "date": "2024-05-21",
- "asof": "2024-05-28",
+ "asof": "2024-05-23",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2024-05-28",
-  "adj_close": 88.25
+  "date": "2024-05-23",
+  "adj_close": 3.9
  },
  "balance": {
   "end": "2024-03-31",
@@ -34,13 +34,23 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 11500000,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-26"
+ },
  "insiders": {
   "form4s": 0,
   "from": "2024-02-21",
   "to": "2024-06-20",
   "trades": []
  },
- "drug": null,
+ "drug": "TriKE",
  "trials": {
   "query": "gt biopharma",
   "other_trials": 0,

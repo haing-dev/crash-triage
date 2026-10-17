@@ -6,7 +6,7 @@
  "date": "2025-03-31",
  "asof": "2025-03-31",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-03-31",
   "adj_close": 40.19
@@ -34,6 +34,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "We also have used other specific terms in this Form 10-K, most of which are explained or defined below: Term/Abbreviation Definition 2004 Plan Cytokinetics\u2019 Amended and Restated 2004 Equity Incentive Plan 2020 RTW Transactions The transactions contemplated by the RTW Royalty Purchase Agreement, Corxel Aficamten License Agreement and the Common Stock Purchase Agreements, dated July 14, 2020, by and"
+ },
+ "debt": {
+  "usd": 619521000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 5600000000,
+  "as_of": "2024-06-28",
+  "filed": "2025-02-27"
  },
  "insiders": {
   "form4s": 46,
@@ -259,15 +271,15 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT04848506",
+    "nct": "NCT06412666",
     "drugs": [
-     "Aficamten (5 - 20 mg)"
+     "Aficamten"
     ]
    },
    {
-    "nct": "NCT06793371",
+    "nct": "NCT04464525",
     "drugs": [
-     "CK-4021586 (150 mg, 300 mg, 450 mg, and 600 mg)"
+     "Omecamtiv mecarbil"
     ]
    },
    {
@@ -277,9 +289,9 @@
     ]
    },
    {
-    "nct": "NCT06412666",
+    "nct": "NCT04848506",
     "drugs": [
-     "Aficamten"
+     "Aficamten (5 - 20 mg)"
     ]
    },
    {

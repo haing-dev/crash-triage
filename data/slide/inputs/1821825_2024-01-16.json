@@ -6,7 +6,7 @@
  "date": "2024-01-16",
  "asof": "2024-01-16",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-01-16",
   "adj_close": 16.59
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 8654000000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 8600000000,
+  "as_of": "2022-06-30",
+  "filed": "2023-02-27"
+ },
  "insiders": {
   "form4s": 1,
   "from": "2023-10-18",
@@ -46,6 +56,12 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
+    "nct": "NCT05560646",
+    "drugs": [
+     "OG-6219"
+    ]
+   },
+   {
     "nct": "NCT00095017",
     "drugs": [
      "MK0663, etoricoxib / Duration of Treatment: 4 weeks"
@@ -55,12 +71,6 @@
     "nct": "NCT05142774",
     "drugs": [
      "Tapinarof cream, 1%"
-    ]
-   },
-   {
-    "nct": "NCT04626596",
-    "drugs": [
-     "Radiopaque Etonogestrel (ENG) Implant"
     ]
    }
   ]

@@ -6,7 +6,7 @@
  "date": "2026-08-13",
  "asof": "2026-08-19",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-08-19",
   "adj_close": 3.35
@@ -33,6 +33,19 @@
  "going_concern": {
   "flag": true,
   "quote": "The aforementioned factors raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "floating_convertible": "Notwithstanding the foregoing, subject to the terms of the Note, at any time after the effective date of a registration statement covering the shares of Common Stock issuable upon conversion of the Note (the \"Note Conversion Shares\u201d) and shares of Common Stock issuable upon exercise of the Note Offering Warrants (the \"Note Offering Warrant Shares\u201d), the holder shall be entitled to convert all or a",
+  "equity_line": "(formerly known as Tivic Health Systems, Inc.) Condensed Consolidated Statements of Stockholders\u2019 Equity (Unaudited) Three and Six Months Ended June 30, 2026 and 2025 (in thousands except share and per share data) For the Three and Six Months Ended June 30, 2026 Mezzanine Equity - Redeemable Convertible Series B Preferred Stock Mezzanine Equity - Redeemable Convertible Series C Preferred Stock Pre"
+ },
+ "debt": {
+  "usd": 7388000.0,
+  "tags": "ConvertibleDebtNoncurrent"
+ },
+ "public_float": {
+  "usd": 4000000,
+  "as_of": "2025-06-30",
+  "filed": "2026-03-30"
  },
  "insiders": {
   "form4s": 2,

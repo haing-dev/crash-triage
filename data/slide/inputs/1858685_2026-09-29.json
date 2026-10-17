@@ -6,7 +6,7 @@
  "date": "2026-09-29",
  "asof": "2026-09-29",
  "final": false,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-09-29",
   "adj_close": 1.09
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "Management believes that these conditions raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 4620000.0,
+  "tags": "ConvertibleNotesPayable"
+ },
+ "public_float": {
+  "usd": 6900000,
+  "as_of": "2025-06-30",
+  "filed": "2026-07-22"
  },
  "insiders": {
   "form4s": 2,

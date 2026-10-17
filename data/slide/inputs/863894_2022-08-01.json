@@ -6,7 +6,7 @@
  "date": "2022-08-01",
  "asof": "2022-08-01",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-08-01",
   "adj_close": 118.7
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {
+  "equity_line": "UNAUDITED CONDENSED CONSOLIDATED STATEMENTS OF STOCKHOLDERS\u2019 EQUITY \ufeff \ufeff Accumulated Additional Other Treasury Preferred Common Stock Paid-in Comprehensive Accumulated Stock, Stock Shares Amount Capital Loss Deficit at Cost Total Balance at September 30, 2018 $ \u2014 57,468,660 $ 574,687 $ 95,496,506 $ (581,519) $ (58,201,651) $ (7,806,605) $ 29,481,418 Share-based compensation \u2014 \u2014 \u2014 417,256 \u2014 \u2014 \u2014 417,"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 689500000,
+  "as_of": "2021-03-31",
+  "filed": "2021-12-02"
+ },
  "insiders": {
   "form4s": 1,
   "from": "2022-05-03",
@@ -54,6 +66,12 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
+    "nct": "NCT04843319",
+    "drugs": [
+     "VERU-100"
+    ]
+   },
+   {
     "nct": "NCT05065411",
     "drugs": [
      "Enobosarm & Abemaciclib Combo",
@@ -65,12 +83,6 @@
     "drugs": [
      "Enobosarm",
      "Exemestane"
-    ]
-   },
-   {
-    "nct": "NCT04843319",
-    "drugs": [
-     "VERU-100"
     ]
    },
    {

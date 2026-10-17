@@ -6,7 +6,7 @@
  "date": "2023-02-08",
  "asof": "2023-02-08",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-02-08",
   "adj_close": 4.74
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 269680028,
+  "as_of": "2021-06-30",
+  "filed": "2022-04-28"
  },
  "insiders": {
   "form4s": 4,
@@ -76,21 +86,15 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT05683860",
-    "drugs": [
-     "WVE-004 10 mg Q12W"
-    ]
-   },
-   {
-    "nct": "NCT04931862",
-    "drugs": [
-     "WVE-004"
-    ]
-   },
-   {
     "nct": "NCT04906460",
     "drugs": [
      "WVE-N531"
+    ]
+   },
+   {
+    "nct": "NCT05683860",
+    "drugs": [
+     "WVE-004 10 mg Q12W"
     ]
    },
    {
@@ -99,6 +103,12 @@
      "SAD: 30mg WVE-003",
      "SAD: 60mg WVE-003",
      "SAD: 90mg WVE-003"
+    ]
+   },
+   {
+    "nct": "NCT04931862",
+    "drugs": [
+     "WVE-004"
     ]
    }
   ]

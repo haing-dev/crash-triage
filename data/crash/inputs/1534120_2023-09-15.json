@@ -6,7 +6,7 @@
  "date": "2023-09-15",
  "asof": "2023-09-20",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-09-20",
   "adj_close": 26.64
@@ -32,6 +32,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 14115000.0,
+  "tags": "NotesPayableCurrent+LongTermNotesPayable"
+ },
+ "public_float": {
+  "usd": 32400000,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-29"
  },
  "insiders": {
   "form4s": 5,
@@ -89,7 +99,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "avalo therapeutics",
   "other_trials": 0,

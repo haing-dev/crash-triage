@@ -6,7 +6,7 @@
  "date": "2024-04-25",
  "asof": "2024-04-25",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-04-25",
   "adj_close": 51.38
@@ -34,6 +34,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "In connection with the Kite Collaboration Agreement, we also entered into a common stock purchase agreement (the Purchase Agreement) and a standstill and stock restriction agreement (the Standstill Agreement) with Gilead Sciences (Gilead) in December 2022, pursuant to which, upon closing in January 2023, we issued and sold to Gilead 3,478,261 shares of our common stock for an aggregate purchase pr"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 1300000000,
+  "as_of": "2023-06-30",
+  "filed": "2024-02-28"
  },
  "insiders": {
   "form4s": 12,

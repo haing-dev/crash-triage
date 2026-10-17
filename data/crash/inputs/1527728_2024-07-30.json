@@ -6,7 +6,7 @@
  "date": "2024-07-30",
  "asof": "2024-08-02",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-08-02",
   "adj_close": 41.36
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "These conditions raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 3700694.0,
+  "tags": "ConvertibleNotesPayable"
+ },
+ "public_float": {
+  "usd": 45415777,
+  "as_of": "2022-12-31",
+  "filed": "2023-10-02"
  },
  "insiders": {
   "form4s": 18,

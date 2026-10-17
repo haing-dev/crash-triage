@@ -6,7 +6,7 @@
  "date": "2025-09-05",
  "asof": "2025-09-08",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-09-08",
   "adj_close": 2.91
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "As a result of these uncertainties, there is substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "equity_line": "In February 2025, the Company entered into a Standby Equity Purchase Agreement pursuant to which the Company has the right, but not the obligation, to sell up to $20.0 million of the Company\u2019s common stock during a 36-month period, subject to the restrictions and satisfaction of the conditions in the Standby Equity Purchase Agreement (the \u201cSEPA\u201d)."
+ },
+ "debt": {
+  "usd": 6502503.0,
+  "tags": "ConvertibleNotesPayableCurrent"
+ },
+ "public_float": {
+  "usd": 15039986,
+  "as_of": "2024-06-30",
+  "filed": "2025-03-13"
  },
  "insiders": {
   "form4s": 7,

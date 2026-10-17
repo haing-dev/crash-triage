@@ -6,7 +6,7 @@
  "date": "2022-10-04",
  "asof": "2022-10-04",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-10-04",
   "adj_close": 6.0
@@ -34,13 +34,23 @@
   "flag": true,
   "quote": "\u200b Based on the above, these existing and ongoing factors raise substantial doubt about the Company\u2019s ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 329700000,
+  "as_of": "2021-06-30",
+  "filed": "2022-05-02"
+ },
  "insiders": {
   "form4s": 0,
   "from": "2022-07-06",
   "to": "2022-11-03",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "ampio pharmaceuticals",
   "other_trials": 0,

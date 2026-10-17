@@ -4,12 +4,12 @@
  "cik": "1598646",
  "name": "Minerva Neurosciences, Inc.",
  "date": "2022-10-17",
- "asof": "2022-10-21",
+ "asof": "2022-10-17",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2022-10-21",
-  "adj_close": 3.18
+  "date": "2022-10-17",
+  "adj_close": 4.09
  },
  "balance": {
   "end": "2022-06-30",
@@ -33,13 +33,23 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 95500000,
+  "as_of": "2021-06-30",
+  "filed": "2022-03-01"
+ },
  "insiders": {
   "form4s": 1,
   "from": "2022-07-19",
   "to": "2022-11-16",
   "trades": []
  },
- "drug": null,
+ "drug": "roluperidone",
  "trials": {
   "query": "minerva neurosciences",
   "other_trials": 0,

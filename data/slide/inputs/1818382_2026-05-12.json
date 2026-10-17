@@ -6,7 +6,7 @@
  "date": "2026-05-12",
  "asof": "2026-05-12",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-05-12",
   "adj_close": 0.91000003
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "These factors raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "equity_line": "Included on the Company\u2019s consolidated balance sheets as of December 31, 2025 are derivative liabilities related to the Contingent Consideration, the Private Placement Warrants, warrants issued in our October 2024, November 2024, and October 2025 registered direct offerings (the \u201cRegistered Direct Offerings\u201d), a warrant issued to Avenue on December 15, 2025 in connection with the Loan Agreement, a"
+ },
+ "debt": {
+  "usd": 35444000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 280300000,
+  "as_of": "2025-06-30",
+  "filed": "2026-03-27"
  },
  "insiders": {
   "form4s": 4,

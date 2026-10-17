@@ -6,7 +6,7 @@
  "date": "2024-03-14",
  "asof": "2024-03-14",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-03-14",
   "adj_close": 8.5
@@ -34,6 +34,16 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 10069000.0,
+  "tags": "LongTermDebtNoncurrent"
+ },
+ "public_float": {
+  "usd": 173000000,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-14"
+ },
  "insiders": {
   "form4s": 2,
   "from": "2023-12-15",
@@ -47,16 +57,16 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT05781750",
-    "drugs": [
-     "zetomipzomib"
-    ]
-   },
-   {
     "nct": "NCT05569759",
     "drugs": [
      "zetomipzomib",
      "zetomipzomib in open-label extension"
+    ]
+   },
+   {
+    "nct": "NCT05781750",
+    "drugs": [
+     "zetomipzomib"
     ]
    }
   ]

@@ -6,7 +6,7 @@
  "date": "2024-03-19",
  "asof": "2024-03-21",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-03-21",
   "adj_close": 62.7328
@@ -34,13 +34,25 @@
   "flag": true,
   "quote": "The report of our independent registered public accounting firm on our audited financial statements for the year ended December 31, 2023 included a \u201cgoing concern\u201d explanatory paragraph indicating that our recurring losses from operations raise substantial doubt about our ability to continue as a go"
  },
+ "financing_terms": {
+  "equity_line": "Acquisition of License from iX Biopharma Europe Limited On November 24, 2021, we entered into an exclusive license agreement (the \u201ciX License Agreement\u201d) with iX Biopharma Europe Limited (\u201ciX Biopharma\u201d) and a common stock purchase agreement with iX Biopharma (the \u201cPurchase Agreement\u201d)."
+ },
+ "debt": {
+  "usd": 14200000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 144900000,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-06"
+ },
  "insiders": {
   "form4s": 7,
   "from": "2023-12-20",
   "to": "2024-04-18",
   "trades": []
  },
- "drug": null,
+ "drug": "SLS-005 (IV trehalose)",
  "trials": {
   "query": "seelos therapeutics",
   "other_trials": 0,

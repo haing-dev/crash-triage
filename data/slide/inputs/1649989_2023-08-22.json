@@ -6,7 +6,7 @@
  "date": "2023-08-22",
  "asof": "2023-08-22",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-08-22",
   "adj_close": 25.3
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "As a result, there is substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "floating_convertible": "In addition, the Company has the right to convert all or any portion of the outstanding balance under the December 2022 Note into shares of common stock at the Conversion Price if certain conditions have been met at the time of conversion, including if at any time after the six-month anniversary of the closing date, the daily volume-weighted average price of the common stock on Nasdaq equals or ex"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 221500000,
+  "as_of": "2022-03-31",
+  "filed": "2023-01-24"
  },
  "insiders": {
   "form4s": 0,

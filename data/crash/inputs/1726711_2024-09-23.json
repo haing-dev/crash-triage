@@ -6,7 +6,7 @@
  "date": "2024-09-23",
  "asof": "2024-09-25",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-09-25",
   "adj_close": 52965400.0
@@ -34,6 +34,18 @@
   "flag": true,
   "quote": "We believe our remaining funds on hand will not be sufficient to fund our operations for the next 12 months and such creates substantial doubt about our ability to continue as a going concern"
  },
+ "financing_terms": {
+  "equity_line": "The vesting and, if applicable, exercise of these securities and the sale of the shares of common stock issuable thereunder may dilute your percentage ownership interest and may also result in downward pressure on the price of our common stock; \u25cf we have entered into a Common Stock Purchase Agreement with an equity line investor pursuant to which we may issue and sell up to $150 million of our com"
+ },
+ "debt": {
+  "usd": 5946031.0,
+  "tags": "NotesPayableCurrent"
+ },
+ "public_float": {
+  "usd": 3008286,
+  "as_of": "2023-06-30",
+  "filed": "2024-04-16"
+ },
  "insiders": {
   "form4s": 1,
   "from": "2024-06-25",
@@ -55,7 +67,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "aditxt",
   "other_trials": 0,

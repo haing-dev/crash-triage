@@ -4,12 +4,12 @@
  "cik": "1582554",
  "name": "Matinas BioPharma Holdings, Inc.",
  "date": "2026-07-13",
- "asof": "2026-07-15",
+ "asof": "2026-07-14",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2026-07-15",
-  "adj_close": 5.115
+  "date": "2026-07-14",
+  "adj_close": 5.25
  },
  "balance": {
   "end": "2026-03-31",
@@ -32,6 +32,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 4500000,
+  "as_of": "2025-06-30",
+  "filed": "2026-03-31"
  },
  "insiders": {
   "form4s": 0,

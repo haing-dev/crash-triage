@@ -4,12 +4,12 @@
  "cik": "1496671",
  "name": "Calithera Biosciences, Inc.",
  "date": "2023-01-09",
- "asof": "2023-01-10",
+ "asof": "2023-01-09",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2023-01-10",
-  "adj_close": 0.4789
+  "date": "2023-01-09",
+  "adj_close": 0.6601
  },
  "balance": {
   "end": "2022-09-30",
@@ -34,6 +34,16 @@
   "flag": true,
   "quote": "Therefore, our expectation to generate operating losses and negative operating cash flows in the future and our need for additional funding to support our planned operations raise substantial doubt regarding our ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 143300000,
+  "as_of": "2021-06-30",
+  "filed": "2022-03-31"
+ },
  "insiders": {
   "form4s": 6,
   "from": "2022-10-11",
@@ -55,7 +65,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "calithera biosciences",
   "other_trials": 1,

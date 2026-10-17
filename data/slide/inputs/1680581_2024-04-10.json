@@ -6,7 +6,7 @@
  "date": "2024-04-10",
  "asof": "2024-04-10",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-04-10",
   "adj_close": 7.91
@@ -32,6 +32,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 163559530000,
+  "as_of": "2023-06-30",
+  "filed": "2024-02-27"
  },
  "insiders": {
   "form4s": 8,
@@ -68,7 +78,7 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT04004000",
+    "nct": "NCT05397470",
     "drugs": [
      "Losmapimod"
     ]
@@ -80,7 +90,7 @@
     ]
    },
    {
-    "nct": "NCT05397470",
+    "nct": "NCT04004000",
     "drugs": [
      "Losmapimod"
     ]

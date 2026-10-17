@@ -6,7 +6,7 @@
  "date": "2021-07-28",
  "asof": "2021-07-28",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-07-28",
   "adj_close": 3.33
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "As a result, the Company has concluded that, after consideration of management\u2019s plans it has sufficient liquidity to meet its obligations within one year after the issuance date of its Consolidated Financial Statements, and it does not have substantial doubt about its ability to continue as a going"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 219755000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 78900000,
+  "as_of": "2020-06-30",
+  "filed": "2021-03-30"
  },
  "insiders": {
   "form4s": 7,

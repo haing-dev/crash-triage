@@ -6,7 +6,7 @@
  "date": "2026-07-08",
  "asof": "2026-07-08",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-07-08",
   "adj_close": 1.46
@@ -33,6 +33,19 @@
  "going_concern": {
   "flag": true,
   "quote": "These factors raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "price_reset_warrants": "Although the Bridge Warrants contain a full-ratchet down-round adjustment and a Qualified Offering reset provision, both adjustments operate only to reduce the exercise price (i.e., are conditional and downward-only) and therefore qualify for the down-round carve-out in ASC 815.",
+  "equity_line": "2 OS Therapies Incorporated Consolidated Statements of Stockholders\u2019 Deficit For the Three Months Ended March 31, 2026 and 2025 (unaudited) Common Stock Preferred Stock Additional Total CS \u2013 Shares PS \u2013 Shares Paid-in Accumulated Stockholders\u2019 CS \u2013 Par PS \u2013 Par Capital Deficit Deficit Balances, December 31, 2024 20,869,908 $20,870 - $ - $35,144,967 $(38,432,375) $(3,266,538) Commitment shares issu"
+ },
+ "debt": {
+  "usd": 1342942.0,
+  "tags": "ConvertibleNotesPayableCurrent"
+ },
+ "public_float": {
+  "usd": 49600000,
+  "as_of": "2025-06-30",
+  "filed": "2026-03-31"
  },
  "insiders": {
   "form4s": 0,

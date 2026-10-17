@@ -6,7 +6,7 @@
  "date": "2025-06-11",
  "asof": "2025-06-11",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-06-11",
   "adj_close": 1.23
@@ -32,6 +32,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "floating_convertible": "Pursuant to the terms of the K2HV Loan Agreement, the lenders thereto may elect, prior to the full repayment of the term loans, to convert up to $5.0 million of the outstanding principal of the term loans into shares of our common stock at a conversion price of the lesser of $6.3182 per share (the \u201cFixed Price Conversion\u201d) and the lowest effective price per share of our first equity financing foll"
+ },
+ "debt": {
+  "usd": 32085000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 69689962,
+  "as_of": "2024-06-28",
+  "filed": "2025-03-11"
  },
  "insiders": {
   "form4s": 12,

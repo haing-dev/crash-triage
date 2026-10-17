@@ -6,7 +6,7 @@
  "date": "2025-01-13",
  "asof": "2025-01-13",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-01-13",
   "adj_close": 34.77
@@ -34,6 +34,16 @@
  "going_concern": {
   "flag": true,
   "quote": "As a result, these conditions raise substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 50470000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 449200000,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-27"
  },
  "insiders": {
   "form4s": 8,
@@ -279,15 +289,15 @@
     ]
    },
    {
-    "nct": "NCT06674577",
-    "drugs": [
-     "Atacicept 150 mg"
-    ]
-   },
-   {
     "nct": "NCT04716231",
     "drugs": [
      "Atacicept"
+    ]
+   },
+   {
+    "nct": "NCT06674577",
+    "drugs": [
+     "Atacicept 150 mg"
     ]
    }
   ]

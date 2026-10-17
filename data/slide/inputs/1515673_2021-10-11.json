@@ -6,7 +6,7 @@
  "date": "2021-10-11",
  "asof": "2021-10-11",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-10-11",
   "adj_close": 80.99
@@ -34,6 +34,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "For instance, in June 2019, we purchased 2.4 million shares of common stock of Arcturus and in May 2020, we exercised our option to purchase an additional 600,000 shares of Arcturus\u2019 common stock pursuant to the terms of our equity purchase agreement with Arcturus; we subsequently sold an aggregate of 800,000 shares in December 2020."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 4700000000,
+  "as_of": "2020-06-30",
+  "filed": "2021-02-12"
  },
  "insiders": {
   "form4s": 13,
@@ -133,24 +145,24 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT04259281",
+    "nct": "NCT04088734",
     "drugs": [
-     "GTX-102"
+     "ABO-102"
     ]
    },
    {
-    "nct": "NCT02716246",
+    "nct": "NCT02991144",
     "drugs": [
-     "UX111",
-     "Prophylactic Immunomodulatory (IM) Therapy",
-     "Optimized Prophylactic IM Therapy"
+     "scAAV8OTC",
+     "Reactive Corticosteroid Taper Regimen",
+     "Prophylactic Corticosteroid Taper Regimen"
     ]
    },
    {
-    "nct": "NCT03517085",
+    "nct": "NCT04884815",
     "drugs": [
-     "DTX401",
-     "steroid regimen"
+     "UX701",
+     "Standard of Care (SOC)"
     ]
    },
    {
@@ -161,10 +173,11 @@
     ]
    },
    {
-    "nct": "NCT04884815",
+    "nct": "NCT02716246",
     "drugs": [
-     "UX701",
-     "Standard of Care (SOC)"
+     "UX111",
+     "Prophylactic Immunomodulatory (IM) Therapy",
+     "Optimized Prophylactic IM Therapy"
     ]
    }
   ]

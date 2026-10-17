@@ -6,7 +6,7 @@
  "date": "2026-04-30",
  "asof": "2026-04-30",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-04-30",
   "adj_close": 6.22
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 108739558,
+  "as_of": "2025-06-30",
+  "filed": "2026-03-09"
+ },
  "insiders": {
   "form4s": 3,
   "from": "2026-01-30",
@@ -52,15 +62,15 @@
     ]
    },
    {
-    "nct": "NCT06038474",
-    "drugs": [
-     "Descartes-08"
-    ]
-   },
-   {
     "nct": "NCT06799247",
     "drugs": [
      "Decartes-08"
+    ]
+   },
+   {
+    "nct": "NCT06038474",
+    "drugs": [
+     "Descartes-08"
     ]
    },
    {

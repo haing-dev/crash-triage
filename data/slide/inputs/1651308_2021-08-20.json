@@ -6,7 +6,7 @@
  "date": "2021-08-20",
  "asof": "2021-08-20",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-08-20",
   "adj_close": 249.60001
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 629658000.0,
+  "tags": "LongTermDebtNoncurrent+LongTermDebtCurrent"
+ },
+ "public_float": {
+  "usd": 7200000000,
+  "as_of": "2020-06-30",
+  "filed": "2021-02-25"
  },
  "insiders": {
   "form4s": 41,
@@ -1609,11 +1619,10 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT04771130",
+    "nct": "NCT04170283",
     "drugs": [
-     "BGB-11417",
-     "Azacitidine",
-     "Posaconazole"
+     "Zanubrutinib",
+     "Tislelizumab"
     ]
    },
    {
@@ -1625,18 +1634,19 @@
     ]
    },
    {
-    "nct": "NCT04170283",
-    "drugs": [
-     "Zanubrutinib",
-     "Tislelizumab"
-    ]
-   },
-   {
     "nct": "NCT04164199",
     "drugs": [
      "Tislelizumab",
      "Pamiparib",
      "Temozolomide"
+    ]
+   },
+   {
+    "nct": "NCT04771130",
+    "drugs": [
+     "BGB-11417",
+     "Azacitidine",
+     "Posaconazole"
     ]
    }
   ]

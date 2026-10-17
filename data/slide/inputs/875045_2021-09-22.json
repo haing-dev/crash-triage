@@ -6,7 +6,7 @@
  "date": "2021-09-22",
  "asof": "2021-09-22",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-09-22",
   "adj_close": 289.32001
@@ -35,6 +35,16 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 7269200000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 42102640463,
+  "as_of": "2020-06-30",
+  "filed": "2021-02-03"
+ },
  "insiders": {
   "form4s": 14,
   "from": "2021-06-24",
@@ -44,32 +54,34 @@
  "drug": null,
  "trials": {
   "query": "biogen",
-  "other_trials": 10,
+  "other_trials": 12,
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT01181089",
+    "nct": "NCT04476030",
     "drugs": [
-     "Baminercept"
+     "SAGE-217",
+     "Sertraline",
+     "Escitalopram"
     ]
    },
    {
-    "nct": "NCT04729907",
+    "nct": "NCT04856982",
     "drugs": [
-     "Nusinersen"
+     "Tofersen"
     ]
    },
    {
-    "nct": "NCT04702997",
+    "nct": "NCT02283853",
     "drugs": [
-     "Bardoxolone methyl oral capsule"
+     "dimethyl fumarate",
+     "Interferon \u03b2-1a"
     ]
    },
    {
-    "nct": "NCT03689972",
+    "nct": "NCT04961567",
     "drugs": [
-     "Natalizumab",
-     "Natalizumab"
+     "Litifilimab"
     ]
    },
    {

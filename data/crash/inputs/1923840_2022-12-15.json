@@ -4,12 +4,12 @@
  "cik": "1923840",
  "name": "Third Harmonic Bio, Inc.",
  "date": "2022-12-15",
- "asof": "2022-12-20",
+ "asof": "2022-12-15",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2022-12-20",
-  "adj_close": 4.0
+  "date": "2022-12-15",
+  "adj_close": 4.3
  },
  "balance": {
   "end": "2022-09-30",
@@ -27,6 +27,14 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {
+  "equity_line": "Unvested shares of restricted common stock may not be sold or transferred by the holder, except for transfers for estate planning purposes in which the transferee agrees to remain bound by all restrictions set forth in the original common stock purchase agreement."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 17,
   "from": "2022-09-16",
@@ -76,7 +84,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "third harmonic bio",
   "other_trials": 0,

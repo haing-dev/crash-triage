@@ -6,7 +6,7 @@
  "date": "2025-08-06",
  "asof": "2025-08-06",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-08-06",
   "adj_close": 2.455
@@ -32,6 +32,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "floating_convertible": "The First Tranche Notes are convertible at the option of the holder at any time after issuance into Common Stock, at a per share conversion price equal to the lower of (a) $2.4168, (the \u201cFixed Conversion Price\u201d) or (b) a price equal to 92% of the lowest VWAP during the seven trading day period immediately preceding the effective conversion date (the \u201cAlternate Conversion Price\u201d, and together with "
+ },
+ "debt": {
+  "usd": 8397000.0,
+  "tags": "ConvertibleNotesPayableCurrent"
+ },
+ "public_float": {
+  "usd": 21500000,
+  "as_of": "2024-06-30",
+  "filed": "2025-04-30"
  },
  "insiders": {
   "form4s": 0,

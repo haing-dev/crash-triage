@@ -4,12 +4,12 @@
  "cik": "1610820",
  "name": "BriaCell Therapeutics Corp.",
  "date": "2026-01-14",
- "asof": "2026-01-21",
+ "asof": "2026-01-14",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2026-01-21",
-  "adj_close": 4.21
+  "date": "2026-01-14",
+  "adj_close": 4.86
  },
  "balance": {
   "end": "2025-10-31",
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 94477705,
+  "as_of": "2025-01-31",
+  "filed": "2025-10-16"
  },
  "insiders": {
   "form4s": 0,

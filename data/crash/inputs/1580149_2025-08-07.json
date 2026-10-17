@@ -4,12 +4,12 @@
  "cik": "1580149",
  "name": "BIOVIE INC.",
  "date": "2025-08-07",
- "asof": "2025-08-08",
+ "asof": "2025-08-07",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2025-08-08",
-  "adj_close": 1.67
+  "date": "2025-08-07",
+  "adj_close": 2.91
  },
  "balance": {
   "end": "2025-03-31",
@@ -32,6 +32,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 20590705,
+  "as_of": "2023-06-30",
+  "filed": "2024-09-30"
  },
  "insiders": {
   "form4s": 1,

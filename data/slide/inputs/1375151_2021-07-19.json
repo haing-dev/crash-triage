@@ -6,7 +6,7 @@
  "date": "2021-07-19",
  "asof": "2021-07-19",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-07-19",
   "adj_close": 16.01
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 151451000.0,
+  "tags": "ConvertibleDebtNoncurrent"
+ },
+ "public_float": {
+  "usd": 1500000000,
+  "as_of": "2020-06-30",
+  "filed": "2021-03-01"
  },
  "insiders": {
   "form4s": 16,
@@ -76,15 +86,15 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT03355209",
-    "drugs": [
-     "ZX008 0.2 or 0.8 mg/kg/day"
-    ]
-   },
-   {
     "nct": "NCT02823145",
     "drugs": [
      "ZX008 (Fenfluramine Hydrochloride)"
+    ]
+   },
+   {
+    "nct": "NCT03355209",
+    "drugs": [
+     "ZX008 0.2 or 0.8 mg/kg/day"
     ]
    },
    {

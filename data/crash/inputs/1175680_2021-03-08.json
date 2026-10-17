@@ -6,7 +6,7 @@
  "date": "2021-03-08",
  "asof": "2021-03-10",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-03-10",
   "adj_close": 2.14
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "These factors, among others, raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "price_reset_warrants": "In addition to standard anti-dilution adjustments, the conversion price of the July 2020 Note is subject to full-ratchet anti-dilution protection, pursuant to which the conversion price will be automatically reduced to equal the effective price per share in any new offering by the Company of equity securities that have registration rights, are registered or become registered under the Securities A"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 106487002,
+  "as_of": "2019-11-30",
+  "filed": "2020-08-14"
  },
  "insiders": {
   "form4s": 3,
@@ -83,46 +95,11 @@
    }
   ]
  },
- "drug": null,
+ "drug": "leronlimab (PRO 140)",
  "trials": {
   "query": "cytodyn",
-  "other_trials": 9,
-  "crashed_drug_trials": 0,
-  "examples": [
-   {
-    "nct": "NCT04347239",
-    "drugs": [
-     "Leronlimab (700mg)"
-    ]
-   },
-   {
-    "nct": "NCT05271370",
-    "drugs": [
-     "PRO 140 350",
-     "PRO 140 525",
-     "PRO 140 700"
-    ]
-   },
-   {
-    "nct": "NCT02355184",
-    "drugs": [
-     "PRO 140 350mg weekly subcutaneous (SC) injection."
-    ]
-   },
-   {
-    "nct": "NCT02737306",
-    "drugs": [
-     "PRO 140"
-    ]
-   },
-   {
-    "nct": "NCT03838367",
-    "drugs": [
-     "350 mg leronlimab",
-     "525 mg leronlimab",
-     "700 mg leronlimab"
-    ]
-   }
-  ]
+  "other_trials": 0,
+  "crashed_drug_trials": 9,
+  "examples": []
  }
 }

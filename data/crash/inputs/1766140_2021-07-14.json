@@ -6,7 +6,7 @@
  "date": "2021-07-14",
  "asof": "2021-07-19",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-07-19",
   "adj_close": 27.0
@@ -15,13 +15,16 @@
  "burn6": null,
  "shares": null,
  "going_concern": null,
+ "financing_terms": null,
+ "debt": null,
+ "public_float": null,
  "insiders": {
   "form4s": 3,
   "from": "2021-04-15",
   "to": "2021-08-13",
   "trades": []
  },
- "drug": null,
+ "drug": "Renazorb",
  "trials": {
   "query": "unicycive therapeutics",
   "other_trials": 0,

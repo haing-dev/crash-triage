@@ -6,7 +6,7 @@
  "date": "2021-12-03",
  "asof": "2021-12-03",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-12-03",
   "adj_close": 4.17
@@ -34,6 +34,16 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 11693000.0,
+  "tags": "LongTermDebtCurrent"
+ },
+ "public_float": {
+  "usd": 82000000,
+  "as_of": "2020-06-30",
+  "filed": "2021-03-12"
+ },
  "insiders": {
   "form4s": 0,
   "from": "2021-09-04",
@@ -47,13 +57,13 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT04662281",
+    "nct": "NCT04455633",
     "drugs": [
      "LX9211"
     ]
    },
    {
-    "nct": "NCT04455633",
+    "nct": "NCT04662281",
     "drugs": [
      "LX9211"
     ]

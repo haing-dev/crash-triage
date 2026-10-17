@@ -6,7 +6,7 @@
  "date": "2021-10-06",
  "asof": "2021-10-06",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-10-06",
   "adj_close": 787.5
@@ -34,6 +34,16 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 141900000,
+  "as_of": "2020-06-30",
+  "filed": "2021-03-29"
+ },
  "insiders": {
   "form4s": 9,
   "from": "2021-07-08",
@@ -47,12 +57,6 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT02629419",
-    "drugs": [
-     "Amphotericin B"
-    ]
-   },
-   {
     "nct": "NCT04662528",
     "drugs": [
      "MAT9001 (omega-3 pentaenoic acid)"
@@ -62,6 +66,12 @@
     "nct": "NCT04031833",
     "drugs": [
      "MAT2203",
+     "Amphotericin B"
+    ]
+   },
+   {
+    "nct": "NCT02629419",
+    "drugs": [
      "Amphotericin B"
     ]
    }

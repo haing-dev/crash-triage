@@ -6,7 +6,7 @@
  "date": "2023-06-29",
  "asof": "2023-06-29",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-06-29",
   "adj_close": 102.24
@@ -32,6 +32,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 95062000.0,
+  "tags": "LongTermDebtNoncurrent"
+ },
+ "public_float": {
+  "usd": 250888981,
+  "as_of": "2022-06-30",
+  "filed": "2023-05-01"
  },
  "insiders": {
   "form4s": 15,
@@ -103,29 +113,17 @@
    }
   ]
  },
- "drug": null,
+ "drug": "BXCL501",
  "trials": {
   "query": "bioxcel therapeutics",
-  "other_trials": 3,
-  "crashed_drug_trials": 0,
+  "other_trials": 1,
+  "crashed_drug_trials": 2,
   "examples": [
-   {
-    "nct": "NCT05665088",
-    "drugs": [
-     "BXCL501"
-    ]
-   },
    {
     "nct": "NCT03910660",
     "drugs": [
      "BXCL701 plus Pembrolizumab",
      "BXCL701 monotherapy"
-    ]
-   },
-   {
-    "nct": "NCT05658510",
-    "drugs": [
-     "BXCL501"
     ]
    }
   ]

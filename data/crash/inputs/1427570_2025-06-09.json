@@ -4,12 +4,12 @@
  "cik": "1427570",
  "name": "Vyome Holdings, Inc",
  "date": "2025-06-09",
- "asof": "2025-06-10",
+ "asof": "2025-06-09",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2025-06-10",
-  "adj_close": 9.84
+  "date": "2025-06-09",
+  "adj_close": 10.4
  },
  "balance": {
   "end": "2025-03-31",
@@ -33,6 +33,19 @@
  "going_concern": {
   "flag": true,
   "quote": "This condition raises substantial doubt about its ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "price_reset_warrants": "The exercise price of the Warrants will be subject to adjustment on the date that is four trading days after stockholder approval is obtained (the \u201cReset Date\u201d), if the lowest volume weighted average price (\u201cVWAP\u201d) for the Company\u2019s Common Stock during the period beginning four trading days prior to the effective date of stockholder approval and ending four trading days after the effective date of",
+  "equity_line": "\u200b The Company\u2019s stockholders approved, in accordance with Nasdaq Listing Rule 5635(d), the issuance of shares of common stock pursuant to the equity purchase agreement, dated December 19, 2024, (the \u201cELOC Purchase Agreement\u201d) with a certain institutional investor (the \u201cELOC Investor\u201d), which provides that, upon the terms and subject to the conditions and limitations set forth therein, the Company "
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 5638012,
+  "as_of": "2024-06-30",
+  "filed": "2025-04-04"
  },
  "insiders": {
   "form4s": 0,

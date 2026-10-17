@@ -6,7 +6,7 @@
  "date": "2026-07-06",
  "asof": "2026-07-06",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-07-06",
   "adj_close": 1.2
@@ -32,6 +32,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "entered into a Common Stock Purchase Agreement with Tumim Stone Capital LLC (\"Tumim\")."
+ },
+ "debt": {
+  "usd": 1416000.0,
+  "tags": "ConvertibleNotesPayableCurrent"
+ },
+ "public_float": {
+  "usd": 14730848,
+  "as_of": "2025-06-30",
+  "filed": "2026-03-30"
  },
  "insiders": {
   "form4s": 4,

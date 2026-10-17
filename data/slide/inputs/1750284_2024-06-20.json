@@ -6,7 +6,7 @@
  "date": "2024-06-20",
  "asof": "2024-06-20",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-06-20",
   "adj_close": 11.42
@@ -34,6 +34,16 @@
  "going_concern": {
   "flag": true,
   "quote": "As a result, these conditions raise substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 245200000,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-11"
  },
  "insiders": {
   "form4s": 18,
@@ -119,17 +129,17 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT04505826",
-    "drugs": [
-     "OP-1250"
-    ]
-   },
-   {
     "nct": "NCT06016738",
     "drugs": [
      "Palazestrant",
      "Fulvestrant",
      "Anastrozole"
+    ]
+   },
+   {
+    "nct": "NCT04505826",
+    "drugs": [
+     "OP-1250"
     ]
    }
   ]

@@ -6,7 +6,7 @@
  "date": "2026-09-28",
  "asof": "2026-09-29",
  "final": false,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-09-29",
   "adj_close": 0.99000001
@@ -35,6 +35,15 @@
   "flag": true,
   "quote": "19 Our independent registered public accounting firm\u2019s report contains an explanatory paragraph that expresses substantial doubt about our ability to continue as a \u201cgoing concern.\u201d Our audited financial statements for the year ended December 31, 2025 include an explanatory paragraph from our indepen"
  },
+ "financing_terms": {
+  "floating_convertible": "Each share of Series C Preferred has a stated value of $10.00 and is convertible, at the option of the holder, into shares of the Company\u2019s common stock at a conversion price equal to the lesser of: \u25cf $10.00 per share; or \u25cf 80% of the lowest closing sale price of the Company\u2019s common stock during the five consecutive trading days immediately preceding the applicable conversion date, subject to a m",
+  "price_reset_warrants": "The conversion price is subject to customary adjustments, including adjustments for stock splits, stock dividends, recapitalizations, and similar transactions, as well as full-ratchet type adjustments in the event the Company issues common stock at a price below the Fixed Price, subject to the limitations that the Fixed Price will not exceed $10.00, and the Floor Price will not exceed $1.00."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 0,
   "from": "2026-06-30",

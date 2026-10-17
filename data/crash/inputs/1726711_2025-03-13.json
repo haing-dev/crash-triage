@@ -6,7 +6,7 @@
  "date": "2025-03-13",
  "asof": "2025-03-18",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-03-18",
   "adj_close": 183060.0
@@ -33,6 +33,19 @@
  "going_concern": {
   "flag": true,
   "quote": "We believe our remaining funds on hand will not be sufficient to fund our operations for the next 12 months and such creates substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "price_reset_warrants": "Per the May PIPE Placement Agent Warrant agreement, the exercise price of the May PIPE Placement Agent Warrants was reset to $20.76.",
+  "equity_line": "The vesting and, if applicable, exercise of these securities and the sale of the shares of common stock issuable thereunder may dilute your percentage ownership interest and may also result in downward pressure on the price of our common stock; \u25cfwe have entered into a Common Stock Purchase Agreement with an equity line investor pursuant to which we may issue and sell up to $150 million of our comm"
+ },
+ "debt": {
+  "usd": 8372685.0,
+  "tags": "NotesPayableCurrent"
+ },
+ "public_float": {
+  "usd": 3008286,
+  "as_of": "2023-06-30",
+  "filed": "2024-04-16"
  },
  "insiders": {
   "form4s": 0,

@@ -6,7 +6,7 @@
  "date": "2023-06-26",
  "asof": "2023-06-26",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-06-26",
   "adj_close": 108.28
@@ -34,6 +34,16 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 1234284000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 6561646013000,
+  "as_of": "2022-06-30",
+  "filed": "2023-02-28"
+ },
  "insiders": {
   "form4s": 2,
   "from": "2023-03-28",
@@ -53,15 +63,15 @@
     ]
    },
    {
-    "nct": "NCT05881408",
-    "drugs": [
-     "delandistrogene moxeparvovec"
-    ]
-   },
-   {
     "nct": "NCT03652259",
     "drugs": [
      "SRP-9003"
+    ]
+   },
+   {
+    "nct": "NCT03992430",
+    "drugs": [
+     "Eteplirsen"
     ]
    },
    {

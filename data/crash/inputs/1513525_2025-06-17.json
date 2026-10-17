@@ -6,7 +6,7 @@
  "date": "2025-06-17",
  "asof": "2025-06-17",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-06-17",
   "adj_close": 6.0
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "These factors raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "equity_line": "9 5 \u2014 ACCRUED EXPENSES Accrued expenses consist of the following: March 31, 2025 December 31, 2024 Employee compensation $588,442 $405,246 Minimum license royalties 10,000 \u2014 Legal and consulting services 38,108 190,603 Pre-clinical and manufacturing expenses 13,000 81,607 Other 109,145 \u2014 Total accrued expenses $758,695 $677,456 6 \u2014 STOCKHOLDERS\u2019 EQUITY Standby Equity Purchase Agreement On December"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 4832073,
+  "as_of": "2024-06-30",
+  "filed": "2025-03-04"
  },
  "insiders": {
   "form4s": 7,

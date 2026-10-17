@@ -4,12 +4,12 @@
  "cik": "1463361",
  "name": "Unity Biotechnology, Inc.",
  "date": "2023-03-27",
- "asof": "2023-03-31",
+ "asof": "2023-03-27",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2023-03-31",
-  "adj_close": 1.63
+  "date": "2023-03-27",
+  "adj_close": 1.95
  },
  "balance": {
   "end": "2022-12-31",
@@ -34,6 +34,18 @@
  "going_concern": {
   "flag": true,
   "quote": "\u2022 Our financial condition raises substantial doubt as to our ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "equity_line": "Other income (expense) in 2020 includes the recognized losses resulting from the sale of the investment in this equity security and the previous changes in fair value, while other expense in 2021 includes the commitment share expenses related to the equity purchase agreement with Lincoln Park Capital Fund and the debt extinguishment gain from the conversion of debt to equity."
+ },
+ "debt": {
+  "usd": 20367000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 32542134,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-15"
  },
  "insiders": {
   "form4s": 7,
@@ -91,19 +103,11 @@
    }
   ]
  },
- "drug": null,
+ "drug": "UBX1325",
  "trials": {
   "query": "unity biotechnology",
-  "other_trials": 1,
-  "crashed_drug_trials": 0,
-  "examples": [
-   {
-    "nct": "NCT04857996",
-    "drugs": [
-     "UBX1325",
-     "Sham"
-    ]
-   }
-  ]
+  "other_trials": 0,
+  "crashed_drug_trials": 1,
+  "examples": []
  }
 }

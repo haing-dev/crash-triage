@@ -6,7 +6,7 @@
  "date": "2023-10-16",
  "asof": "2023-10-18",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-10-18",
   "adj_close": 20.9
@@ -34,13 +34,23 @@
   "flag": true,
   "quote": "\u2022 Our recurring losses from operations raise substantial doubt regarding our ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 5610000.0,
+  "tags": "LongTermDebtNoncurrent+LongTermDebtCurrent"
+ },
+ "public_float": {
+  "usd": 16650960,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-31"
+ },
  "insiders": {
   "form4s": 0,
   "from": "2023-07-18",
   "to": "2023-11-15",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "eloxx pharmaceuticals",
   "other_trials": 0,

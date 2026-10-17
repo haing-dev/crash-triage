@@ -6,7 +6,7 @@
  "date": "2026-09-25",
  "asof": "2026-09-25",
  "final": false,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-09-25",
   "adj_close": 17.78
@@ -34,6 +34,14 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {
+  "equity_line": "S-1/A 333-297452 10.4 7/29/2026 10.5 Form of Common Stock Purchase Agreement."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 14,
   "from": "2026-06-27",

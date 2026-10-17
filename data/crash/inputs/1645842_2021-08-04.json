@@ -6,7 +6,7 @@
  "date": "2021-08-04",
  "asof": "2021-08-04",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-08-04",
   "adj_close": 8.25
@@ -28,13 +28,19 @@
   "flag": true,
   "quote": "The audit report with respect to our audited financial statements for the year ended December 31, 2020 included an explanatory paragraph stating that there are material uncertainties which caused substantial doubt about our ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 79615000.0,
+  "tags": "LongTermDebtNoncurrent+LongTermDebtCurrent"
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 2,
   "from": "2021-05-06",
   "to": "2021-09-03",
   "trades": []
  },
- "drug": null,
+ "drug": "Hyaline",
  "trials": {
   "query": "zymergen",
   "other_trials": 0,

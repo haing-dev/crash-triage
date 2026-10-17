@@ -4,12 +4,12 @@
  "cik": "1827506",
  "name": "Tourmaline Bio, Inc.",
  "date": "2023-10-20",
- "asof": "2023-10-23",
+ "asof": "2023-10-20",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2023-10-23",
-  "adj_close": 9.46
+  "date": "2023-10-20",
+  "adj_close": 10.9
  },
  "balance": {
   "end": "2023-06-30",
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 139064898,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-31"
  },
  "insiders": {
   "form4s": 15,
@@ -90,7 +100,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "TOUR006",
  "trials": {
   "query": "tourmaline bio",
   "other_trials": 0,

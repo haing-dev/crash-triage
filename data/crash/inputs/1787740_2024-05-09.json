@@ -4,12 +4,12 @@
  "cik": "1787740",
  "name": "Valion Bio, Inc.",
  "date": "2024-05-09",
- "asof": "2024-05-13",
+ "asof": "2024-05-09",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2024-05-13",
-  "adj_close": 205.7
+  "date": "2024-05-09",
+  "adj_close": 250.75
  },
  "balance": {
   "end": "2023-12-31",
@@ -34,13 +34,23 @@
   "flag": true,
   "quote": "20 There is substantial doubt about our ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 3000000,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-25"
+ },
  "insiders": {
   "form4s": 3,
   "from": "2024-02-09",
   "to": "2024-06-08",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "valion bio",
   "other_trials": 0,

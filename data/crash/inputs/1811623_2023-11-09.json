@@ -4,12 +4,12 @@
  "cik": "1811623",
  "name": "Kuvatris Therapeutics, Inc.",
  "date": "2023-11-09",
- "asof": "2023-11-13",
+ "asof": "2023-11-10",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2023-11-13",
-  "adj_close": 1.71
+  "date": "2023-11-10",
+  "adj_close": 1.92
  },
  "balance": {
   "end": "2023-06-30",
@@ -34,6 +34,14 @@
   "flag": true,
   "quote": "Accordingly, there are material risks and uncertainties that raise substantial doubt about the Company\u2019s ability to continue as a going concern"
  },
+ "financing_terms": {
+  "equity_line": "CONDENSED STATEMENTS OF CHANGES IN SHAREHOLDERS\u2019 EQUITY (DEFICIT) (Unaudited) \u200b For The Three Months Ended June 30, 2023 \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b Additional \u200b \u200b Total \u200b \u200b Series X Preferred Stock \u200b Common Stock \u200b Paid-in \u200b Accumulated \u200b Stockholders\u2019 \u200b \u200b Shares Amount \u200b Shares Amount \u200b Capital \u200b Deficit \u200b Equity Balance at April 1, 2023 45,567 \u200b $ 5 \u200b 13,920,234 \u200b "
+ },
+ "debt": {
+  "usd": 1665047.0,
+  "tags": "NotesPayableCurrent+LongTermNotesPayable"
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 19,
   "from": "2023-08-11",
@@ -209,7 +217,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "kuvatris therapeutics",
   "other_trials": 0,

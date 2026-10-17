@@ -6,7 +6,7 @@
  "date": "2023-01-11",
  "asof": "2023-01-11",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-01-11",
   "adj_close": 108.0
@@ -34,6 +34,16 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 170606113,
+  "as_of": "2021-06-30",
+  "filed": "2022-07-06"
+ },
  "insiders": {
   "form4s": 0,
   "from": "2022-10-13",
@@ -47,12 +57,6 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT05643872",
-    "drugs": [
-     "PTX-022"
-    ]
-   },
-   {
     "nct": "NCT05180708",
     "drugs": [
      "QTORIN 3.9% rapamycin anhydrous gel",
@@ -64,6 +68,12 @@
     "drugs": [
      "PTX-022",
      "Vehicle comparator"
+    ]
+   },
+   {
+    "nct": "NCT05643872",
+    "drugs": [
+     "PTX-022"
     ]
    }
   ]

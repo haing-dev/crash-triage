@@ -6,7 +6,7 @@
  "date": "2024-04-24",
  "asof": "2024-04-29",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-04-29",
   "adj_close": 4.5147
@@ -34,13 +34,23 @@
   "flag": true,
   "quote": "Risks Pertaining to Our Finances \u25cf There is substantial doubt about our ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 8522013,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-18"
+ },
  "insiders": {
   "form4s": 1,
   "from": "2024-01-25",
   "to": "2024-05-24",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "avenue therapeutics",
   "other_trials": 0,

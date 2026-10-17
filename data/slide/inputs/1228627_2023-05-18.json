@@ -6,7 +6,7 @@
  "date": "2023-05-18",
  "asof": "2023-05-18",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-05-18",
   "adj_close": 4.35
@@ -33,6 +33,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "price_reset_warrants": "The Waiver Agreements provide for the permanent waiver of the full ratchet anti-dilution provisions, contained in the Series A Warrants (as certain of the anti-dilution provisions had previously caused liability accounting treatment for the Series A Warrants)."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 37236094,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-30"
  },
  "insiders": {
   "form4s": 10,

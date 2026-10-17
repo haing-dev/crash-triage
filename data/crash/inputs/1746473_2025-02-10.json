@@ -4,12 +4,12 @@
  "cik": "1746473",
  "name": "PLIANT THERAPEUTICS, INC.",
  "date": "2025-02-10",
- "asof": "2025-02-11",
+ "asof": "2025-02-10",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2025-02-11",
-  "adj_close": 2.605
+  "date": "2025-02-10",
+  "adj_close": 3.07
  },
  "balance": {
   "end": "2024-09-30",
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 30139000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 1008132383,
+  "as_of": "2023-06-30",
+  "filed": "2024-02-27"
  },
  "insiders": {
   "form4s": 12,
@@ -90,7 +100,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "bexotegrast",
  "trials": {
   "query": "pliant therapeutics",
   "other_trials": 1,

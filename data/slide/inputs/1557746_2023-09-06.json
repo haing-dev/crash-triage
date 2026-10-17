@@ -6,7 +6,7 @@
  "date": "2023-09-06",
  "asof": "2023-09-06",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-09-06",
   "adj_close": 7.55
@@ -34,6 +34,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 898400000,
+  "as_of": "2022-06-30",
+  "filed": "2023-02-23"
  },
  "insiders": {
   "form4s": 9,
@@ -77,17 +87,17 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT05511519",
-    "drugs": [
-     "ATI-450"
-    ]
-   },
-   {
     "nct": "NCT05432596",
     "drugs": [
      "ATI-1777 2.0% w/w",
      "ATI-1777 1.0% w/w",
      "ATI-1777 0.5% w/w"
+    ]
+   },
+   {
+    "nct": "NCT05511519",
+    "drugs": [
+     "ATI-450"
     ]
    }
   ]

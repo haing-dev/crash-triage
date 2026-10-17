@@ -6,7 +6,7 @@
  "date": "2025-06-26",
  "asof": "2025-06-26",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-06-26",
   "adj_close": 14.55
@@ -34,6 +34,16 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 20685000.0,
+  "tags": "LongTermDebtNoncurrent"
+ },
+ "public_float": {
+  "usd": 731800000,
+  "as_of": "2024-06-28",
+  "filed": "2025-03-03"
+ },
  "insiders": {
   "form4s": 8,
   "from": "2025-03-28",
@@ -47,13 +57,13 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT06812325",
+    "nct": "NCT06625411",
     "drugs": [
      "VRDN-003"
     ]
    },
    {
-    "nct": "NCT06625411",
+    "nct": "NCT06812325",
     "drugs": [
      "VRDN-003"
     ]

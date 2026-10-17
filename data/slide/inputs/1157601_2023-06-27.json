@@ -6,7 +6,7 @@
  "date": "2023-06-27",
  "asof": "2023-06-27",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-06-27",
   "adj_close": 203.88
@@ -34,6 +34,16 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 113696000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 984861131,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-03"
+ },
  "insiders": {
   "form4s": 5,
   "from": "2023-03-29",
@@ -47,6 +57,12 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
+    "nct": "NCT04951219",
+    "drugs": [
+     "Resmetirom"
+    ]
+   },
+   {
     "nct": "NCT05500222",
     "drugs": [
      "Resmetirom"
@@ -57,12 +73,6 @@
     "drugs": [
      "MGL-3196",
      "Liver Biopsy"
-    ]
-   },
-   {
-    "nct": "NCT04951219",
-    "drugs": [
-     "Resmetirom"
     ]
    }
   ]

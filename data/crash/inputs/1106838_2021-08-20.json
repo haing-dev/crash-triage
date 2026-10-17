@@ -4,12 +4,12 @@
  "cik": "1106838",
  "name": "Sonnet BioTherapeutics Holdings, Inc.",
  "date": "2021-08-20",
- "asof": "2021-08-26",
+ "asof": "2021-08-23",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2021-08-26",
-  "adj_close": 1407.93
+  "date": "2021-08-23",
+  "adj_close": 1497.37
  },
  "balance": {
   "end": "2021-06-30",
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "These factors raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 5713094,
+  "as_of": "2020-03-31",
+  "filed": "2020-12-17"
  },
  "insiders": {
   "form4s": 5,
@@ -62,7 +72,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "sonnet biotherapeutics",
   "other_trials": 0,

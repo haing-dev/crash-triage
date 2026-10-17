@@ -4,12 +4,12 @@
  "cik": "1533040",
  "name": "Phio Pharmaceuticals Corp.",
  "date": "2025-01-14",
- "asof": "2025-01-21",
+ "asof": "2025-01-15",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2025-01-21",
-  "adj_close": 2.48
+  "date": "2025-01-15",
+  "adj_close": 2.66
  },
  "balance": {
   "end": "2024-09-30",
@@ -34,13 +34,23 @@
   "flag": true,
   "quote": "These factors raise substantial doubt regarding the Company\u2019s ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 5700000,
+  "as_of": "2023-06-30",
+  "filed": "2024-04-01"
+ },
  "insiders": {
   "form4s": 0,
   "from": "2024-10-16",
   "to": "2025-02-13",
   "trades": []
  },
- "drug": null,
+ "drug": "PH-762",
  "trials": {
   "query": "phio pharmaceuticals",
   "other_trials": 0,

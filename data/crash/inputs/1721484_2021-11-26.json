@@ -4,12 +4,12 @@
  "cik": "1721484",
  "name": "Longeveron Inc.",
  "date": "2021-11-26",
- "asof": "2021-12-02",
+ "asof": "2021-12-01",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2021-12-02",
-  "adj_close": 1800.0
+  "date": "2021-12-01",
+  "adj_close": 204.3
  },
  "balance": {
   "end": "2021-09-30",
@@ -31,6 +31,12 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 143000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 9,
   "from": "2021-08-28",

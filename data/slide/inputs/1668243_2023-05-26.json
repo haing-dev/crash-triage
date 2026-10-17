@@ -6,7 +6,7 @@
  "date": "2023-05-26",
  "asof": "2023-05-26",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-05-26",
   "adj_close": 9.97
@@ -35,6 +35,16 @@
  "going_concern": {
   "flag": true,
   "quote": "These factors raise substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 97941000.0,
+  "tags": "LongTermDebtNoncurrent"
+ },
+ "public_float": {
+  "usd": 145100000,
+  "as_of": "2022-06-30",
+  "filed": "2023-05-01"
  },
  "insiders": {
   "form4s": 2,

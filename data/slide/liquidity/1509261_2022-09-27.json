@@ -1,0 +1,34 @@
+{
+ "id": "1509261_2022-09-27",
+ "asof": "2022-09-27",
+ "accn": "0001558370-22-014432",
+ "chars": 23348,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2022-07-01",
+   "net_proceeds_usd": 11600000,
+   "what": "July 2022 private placement of common stock to Handok and affiliates (exact July closing date not given; 2022-07-01 is a placeholder)",
+   "quote": "The Company incurred approximately $0.8 million for underwriting commissions and other offering costs, resulting in net proceeds of $11.6 million."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 1973684,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "Class A pre-funded warrants (the \u201cClass A Warrants\u201d) to purchase up to 1,973,684 shares of Common Stock at a public offering price of $3.799 per Class A Warrant"
+  },
+  {
+   "count": 10947371,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "the Class B Warrants (together with the Class A Warrants, the \u201cPre-Funded Warrants\u201d) to purchase up to 10,947,371 shares of Common Stock at a public offering price of $3.799 per Class B Warrant"
+  }
+ ],
+ "warrants_dropped": 0
+}

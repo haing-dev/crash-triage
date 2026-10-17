@@ -6,7 +6,7 @@
  "date": "2022-11-21",
  "asof": "2022-11-21",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-11-21",
   "adj_close": 19.92
@@ -34,6 +34,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 375117000.0,
+  "tags": "ConvertibleDebtNoncurrent"
+ },
+ "public_float": {
+  "usd": 879383041,
+  "as_of": "2021-06-30",
+  "filed": "2022-02-24"
  },
  "insiders": {
   "form4s": 3,
@@ -69,19 +79,19 @@
     ]
    },
    {
-    "nct": "NCT03762850",
-    "drugs": [
-     "sparsentan",
-     "irbesartan",
-     "Dapagliflozin"
-    ]
-   },
-   {
     "nct": "NCT05003986",
     "drugs": [
      "Sparsentan",
      "Sparsentan",
      "Sparsentan"
+    ]
+   },
+   {
+    "nct": "NCT03762850",
+    "drugs": [
+     "sparsentan",
+     "irbesartan",
+     "Dapagliflozin"
     ]
    },
    {

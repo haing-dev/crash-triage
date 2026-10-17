@@ -4,12 +4,12 @@
  "cik": "1347242",
  "name": "LIPELLA PHARMACEUTICALS INC.",
  "date": "2025-06-23",
- "asof": "2025-06-24",
+ "asof": "2025-06-23",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2025-06-24",
-  "adj_close": 0.76
+  "date": "2025-06-23",
+  "adj_close": 1.1
  },
  "balance": {
   "end": "2025-03-31",
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "These factors individually and collectively raise substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 2623125.6,
+  "as_of": "2024-06-30",
+  "filed": "2025-03-28"
  },
  "insiders": {
   "form4s": 1,

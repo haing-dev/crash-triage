@@ -6,7 +6,7 @@
  "date": "2026-02-06",
  "asof": "2026-02-06",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-02-06",
   "adj_close": 29.02
@@ -29,6 +29,18 @@
  "shares": null,
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "has provided financial and other support to vTv LLC in the form of its purchase of vTv Units with the net proceeds of the Company\u2019s various debt and equity transactions in prior years and equity purchase agreements with various parties."
+ },
+ "debt": {
+  "usd": 328000.0,
+  "tags": "NotesPayableCurrent"
+ },
+ "public_float": {
+  "usd": 23162697,
+  "as_of": "2024-06-30",
+  "filed": "2025-03-20"
  },
  "insiders": {
   "form4s": 2,

@@ -6,7 +6,7 @@
  "date": "2023-04-24",
  "asof": "2023-04-25",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-04-25",
   "adj_close": 147.97633
@@ -34,13 +34,25 @@
   "flag": true,
   "quote": "\u2022 Our recurring losses from operations, negative cash flows and substantial cumulative net losses raise substantial doubt about our ability to continue as a going concern"
  },
+ "financing_terms": {
+  "equity_line": "The issuance of additional equity securities, whether pursuant to that certain standby equity purchase agreement (the \u201cB."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 99400000,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-07"
+ },
  "insiders": {
   "form4s": 1,
   "from": "2023-01-24",
   "to": "2023-05-24",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "scilex",
   "other_trials": 1,

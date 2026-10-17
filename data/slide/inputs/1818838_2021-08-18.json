@@ -6,7 +6,7 @@
  "date": "2021-08-18",
  "asof": "2021-08-18",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-08-18",
   "adj_close": 17.8
@@ -27,6 +27,12 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 7980965.0,
+  "tags": "DebtCurrent+LongTermDebtNoncurrent"
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 0,
   "from": "2021-05-20",

@@ -6,7 +6,7 @@
  "date": "2024-12-16",
  "asof": "2024-12-16",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-12-16",
   "adj_close": 14.9
@@ -34,6 +34,12 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 82100000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 0,
   "from": "2024-09-17",

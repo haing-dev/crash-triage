@@ -4,12 +4,12 @@
  "cik": "1267813",
  "name": "MARINUS PHARMACEUTICALS, INC.",
  "date": "2024-04-15",
- "asof": "2024-04-16",
+ "asof": "2024-04-15",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2024-04-16",
-  "adj_close": 1.2
+  "date": "2024-04-15",
+  "adj_close": 1.3
  },
  "balance": {
   "end": "2023-12-31",
@@ -34,6 +34,16 @@
  "going_concern": {
   "flag": true,
   "quote": "Risks Related to our Financial Position and Need for Additional Capital \u25cfWe have identified conditions and events that raise substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 75000000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 545158729,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-05"
  },
  "insiders": {
   "form4s": 19,
@@ -77,37 +87,11 @@
    }
   ]
  },
- "drug": null,
+ "drug": "IV ganaxolone",
  "trials": {
   "query": "marinus pharmaceuticals",
-  "other_trials": 4,
-  "crashed_drug_trials": 0,
-  "examples": [
-   {
-    "nct": "NCT05814523",
-    "drugs": [
-     "Ganaxolone",
-     "Standard of care"
-    ]
-   },
-   {
-    "nct": "NCT05323734",
-    "drugs": [
-     "Ganaxolone"
-    ]
-   },
-   {
-    "nct": "NCT05604170",
-    "drugs": [
-     "Ganaxolone"
-    ]
-   },
-   {
-    "nct": "NCT05757544",
-    "drugs": [
-     "IV Ganaxolone"
-    ]
-   }
-  ]
+  "other_trials": 0,
+  "crashed_drug_trials": 4,
+  "examples": []
  }
 }

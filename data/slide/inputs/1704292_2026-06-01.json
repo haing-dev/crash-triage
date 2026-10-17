@@ -6,7 +6,7 @@
  "date": "2026-06-01",
  "asof": "2026-06-01",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-06-01",
   "adj_close": 17.09
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 3800000000,
+  "as_of": "2025-06-30",
+  "filed": "2026-02-26"
  },
  "insiders": {
   "form4s": 40,
@@ -286,10 +296,9 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT07218146",
+    "nct": "NCT06885281",
     "drugs": [
-     "ZL-1310",
-     "Investigator's Choice of Therapy"
+     "ZL-1310"
     ]
    },
    {
@@ -299,9 +308,10 @@
     ]
    },
    {
-    "nct": "NCT06885281",
+    "nct": "NCT07218146",
     "drugs": [
-     "ZL-1310"
+     "ZL-1310",
+     "Investigator's Choice of Therapy"
     ]
    }
   ]

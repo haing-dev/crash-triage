@@ -4,36 +4,45 @@
  "cik": "2022416",
  "name": "Silexion Therapeutics Corp",
  "date": "2026-08-12",
- "asof": "2026-08-14",
+ "asof": "2026-08-12",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2026-08-14",
-  "adj_close": 0.42
+  "date": "2026-08-12",
+  "adj_close": 0.454
  },
  "balance": {
-  "end": "2026-06-30",
-  "cash": 2229000,
+  "end": "2026-03-31",
+  "cash": 2413000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001178913-26-004138"
+  "accn": "0001178913-26-004003"
  },
  "burn6": {
-  "end": "2026-06-30",
-  "start": "2026-01-01",
-  "cash_used_ops": 6571000.0,
-  "capex": 0.0,
+  "end": "2026-03-31",
+  "start": "2025-10-01",
+  "cash_used_ops": 6662000.0,
+  "capex": 2000.0,
   "periods": 2
  },
  "shares": {
-  "end": "2026-08-13",
-  "shares": 5560256
+  "end": "2026-05-14",
+  "shares": 4189954
  },
  "going_concern": {
   "flag": true,
-  "quote": "Under these circumstances, in accordance with the requirements of Accounting Standards Codification (\u201cASC\u201d) 205-40, management has concluded that there is substantial doubt about the Company\u2019s ability to continue as a going concern"
+  "quote": "Based upon our then-expected level of operating expenditures, we have substantial doubt about our ability to continue as a going concern"
  },
+ "financing_terms": {
+  "floating_convertible": "EarlyBird was able to elect, at its sole discretion, at any time on or prior to the maturity date of the EarlyBird Convertible Note, to convert all or part of the then outstanding principal and/or accrued interest under the note into ordinary shares, at a per share conversion price equal to 95% of the volume weighted average price of a Silexion ordinary share for the five trading days immediately ",
+  "equity_line": "Also in connection with the Closing, we entered into an ordinary share purchase agreement, dated August 13, 2024 and effective as of August 15, 2024, with White Lion Capital, LLC, which provided us with an equity line of credit (the \u201cELOC\u201d) of up to $15.0 million."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 3,
   "from": "2026-05-14",

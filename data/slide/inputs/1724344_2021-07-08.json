@@ -6,7 +6,7 @@
  "date": "2021-07-08",
  "asof": "2021-07-08",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-07-08",
   "adj_close": 2.465
@@ -32,6 +32,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "Warrants As of March 31, 2021, outstanding warrants to purchase shares of the Company\u2019s common stock are as follows: \u200b \u200b \u200b \u200b \u200b \u200b Shares Underlying Outstanding Warrants Exercise Price Expiration Date 1,322,510 \u200b $ 2.50 April 22, 2025 12,677,490 \u200b $ 2.50 June 11, 2025 8,672,897 \u200b $ 2.675 \u200b September 1, 2025 22,672,897 \u200b \u200b \u200b \u200b \u200b \u200b Aspire Common Stock Purchase Agreement In October 2019, the Company en"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 39300000,
+  "as_of": "2020-06-30",
+  "filed": "2021-04-30"
  },
  "insiders": {
   "form4s": 3,

@@ -6,7 +6,7 @@
  "date": "2024-12-12",
  "asof": "2024-12-12",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-12-12",
   "adj_close": 41.45
@@ -35,6 +35,16 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 1303600000,
+  "as_of": "2023-06-30",
+  "filed": "2024-02-28"
+ },
  "insiders": {
   "form4s": 0,
   "from": "2024-09-13",
@@ -56,14 +66,6 @@
     ]
    },
    {
-    "nct": "NCT04868877",
-    "drugs": [
-     "MCLA-129",
-     "Osimertinib",
-     "Chemotherapy"
-    ]
-   },
-   {
     "nct": "NCT06525220",
     "drugs": [
      "Petosemtamab",
@@ -76,6 +78,14 @@
      "Petosemtamab",
      "Investigator's Choice",
      "Investigator's Choice"
+    ]
+   },
+   {
+    "nct": "NCT04868877",
+    "drugs": [
+     "MCLA-129",
+     "Osimertinib",
+     "Chemotherapy"
     ]
    }
   ]

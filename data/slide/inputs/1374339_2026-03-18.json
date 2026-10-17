@@ -6,7 +6,7 @@
  "date": "2026-03-18",
  "asof": "2026-03-18",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-03-18",
   "adj_close": 17.0
@@ -34,6 +34,16 @@
  "going_concern": {
   "flag": true,
   "quote": "Management believes these conditions raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 29700000,
+  "as_of": "2024-06-30",
+  "filed": "2025-03-31"
  },
  "insiders": {
   "form4s": 9,

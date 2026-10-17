@@ -6,7 +6,7 @@
  "date": "2021-07-08",
  "asof": "2021-07-08",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-07-08",
   "adj_close": 17.83
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 6399562142,
+  "as_of": "2020-07-03",
+  "filed": "2021-02-11"
  },
  "insiders": {
   "form4s": 25,
@@ -139,14 +149,6 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT04446117",
-    "drugs": [
-     "Cabozantinib",
-     "Atezolizumab",
-     "Abiraterone Acetate"
-    ]
-   },
-   {
     "nct": "NCT03755791",
     "drugs": [
      "Cabozantinib",
@@ -160,6 +162,14 @@
      "Cabozantinib",
      "Nivolumab",
      "Ipilimumab"
+    ]
+   },
+   {
+    "nct": "NCT04446117",
+    "drugs": [
+     "Cabozantinib",
+     "Atezolizumab",
+     "Abiraterone Acetate"
     ]
    }
   ]

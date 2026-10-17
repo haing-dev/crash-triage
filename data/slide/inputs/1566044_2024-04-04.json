@@ -6,7 +6,7 @@
  "date": "2024-04-04",
  "asof": "2024-04-04",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-04-04",
   "adj_close": 142.0
@@ -33,6 +33,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "dollars in thousands) Mezzanine Equity (Convertible Preferred Stock)Common stockAdditional paid-in capitalAccumulated other comprehensive incomeAccumulated deficitTotal Shareholders' Equity Number of sharesAmountsNumber of sharesAmountsAmounts BALANCE AT DECEMBER 31, 2021\u2014 $\u2014 2,976,541 $5 $688,156 $\u2014 $(639,525)$48,636 CHANGES DURING 2022: Reclassification due to reverse stock split\u2014 \u2014 \u2014 (5)5 \u2014 \u2014 V"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 13100000,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-01"
  },
  "insiders": {
   "form4s": 4,

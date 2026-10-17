@@ -6,7 +6,7 @@
  "date": "2021-09-29",
  "asof": "2021-09-29",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-09-29",
   "adj_close": 27.92
@@ -33,6 +33,12 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 3,
   "from": "2021-07-01",
@@ -138,16 +144,16 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT04519749",
-    "drugs": [
-     "4D-310"
-    ]
-   },
-   {
     "nct": "NCT04517149",
     "drugs": [
      "4D-125 IVT Injection",
      "Observational"
+    ]
+   },
+   {
+    "nct": "NCT04519749",
+    "drugs": [
+     "4D-310"
     ]
    }
   ]

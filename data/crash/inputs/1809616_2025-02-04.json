@@ -6,7 +6,7 @@
  "date": "2025-02-04",
  "asof": "2025-02-05",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-02-05",
   "adj_close": 8.24
@@ -34,13 +34,19 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 0,
   "from": "2024-11-06",
   "to": "2025-03-06",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "universe pharmaceuticals",
   "other_trials": 0,

@@ -6,7 +6,7 @@
  "date": "2023-04-25",
  "asof": "2023-04-25",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-04-25",
   "adj_close": 37.89
@@ -35,6 +35,18 @@
  "going_concern": {
   "flag": true,
   "quote": "Consequently, there is substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "equity_line": "Additionally, in May 2022, the Company entered into a purchase agreement and a registration rights agreement (the \u201cEquity Line\u201d) with an institutional investor, providing for the sale of up to $20.0 million worth of the Company\u2019s common stock, over the thirty-six (36) month term of the purchase agreement."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 13685251,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-31"
  },
  "insiders": {
   "form4s": 1,

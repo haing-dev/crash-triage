@@ -6,7 +6,7 @@
  "date": "2021-11-22",
  "asof": "2021-11-22",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-11-22",
   "adj_close": 21.25
@@ -35,6 +35,12 @@
   "flag": true,
   "quote": "As a result, these conditions raise substantial doubt about our ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 13,
   "from": "2021-08-24",

@@ -6,7 +6,7 @@
  "date": "2025-11-17",
  "asof": "2025-11-17",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-11-17",
   "adj_close": 1.71
@@ -34,6 +34,15 @@
   "flag": true,
   "quote": "These circumstances raise substantial doubt about the Company\u2019s ability to continue as a going concern"
  },
+ "financing_terms": {
+  "price_reset_warrants": "The conversion price and exercise price, as applicable, of the Company\u2019s Series A Preferred Stock and the Series A Warrants was automatically reset to $1.12 per share based on the volume weight average price of the Company\u2019s common stock for the 10 trading days immediately preceding April 9, 2025, creating a conversion multiplier of 3.571429 of common shares to preferred shares.",
+  "equity_line": "2 OS Therapies Incorporated Consolidated Statements of Stockholders\u2019 Equity (Deficit) For the Three and Nine Months Ended September 30, 2025 and 2024 (unaudited) Common Stock Preferred Stock Additional Total CS \u2013 Shares Shares Par Paid-in Accumulated Stockholders\u2019 CS \u2013 Par Amount Capital Deficit Equity (Deficit) Balances, December 31, 2023 5,340,000 $5,340 1,302,082 1,302 $5,495,330 $(29,518,187) "
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 0,
   "from": "2025-08-19",

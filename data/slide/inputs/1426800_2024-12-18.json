@@ -6,7 +6,7 @@
  "date": "2024-12-18",
  "asof": "2024-12-18",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-12-18",
   "adj_close": 13.51
@@ -33,6 +33,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "8 A reconciliation of the numerators and the denominators of the basic and diluted net loss per common share computations is as follows (in thousands, except for share and per share amounts): Three Months Ended September 30, Nine Months Ended September 30, 2024 2023 2024 2023 Numerator: Net loss $ (9,613 ) $ (14,420 ) $ (29,842 ) $ (50,266 ) Denominator: Weighted average common shares outstanding "
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 60000000,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-28"
  },
  "insiders": {
   "form4s": 7,

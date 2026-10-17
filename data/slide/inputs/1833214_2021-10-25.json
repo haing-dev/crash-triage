@@ -6,7 +6,7 @@
  "date": "2021-10-25",
  "asof": "2021-10-25",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-10-25",
   "adj_close": 73.0
@@ -33,6 +33,14 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {
+  "equity_line": "Impact of the Restatement The impact to the balance sheet dated January 14, 2021, filed on Form 8-K on January 21, 2021 related to the impact of accounting for public and private warrants as liabilities at fair value resulted in a $7.0 million increase to the warrant liabilities line item on January 14, 2021 and offsetting decrease to the Class A common stock subject to redemption mezzanine equity"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 22,
   "from": "2021-07-27",

@@ -6,7 +6,7 @@
  "date": "2024-03-11",
  "asof": "2024-03-11",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-03-11",
   "adj_close": 0.0018
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "The liquidity condition and date for mandatory liquidation and subsequent dissolution raise substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 4000000.0,
+  "tags": "NotesPayable"
+ },
+ "public_float": {
+  "usd": 103157271,
+  "as_of": "2022-06-30",
+  "filed": "2024-02-21"
  },
  "insiders": {
   "form4s": 0,

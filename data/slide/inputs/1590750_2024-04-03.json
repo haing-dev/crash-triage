@@ -6,7 +6,7 @@
  "date": "2024-04-03",
  "asof": "2024-04-03",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-04-03",
   "adj_close": 16.26
@@ -34,6 +34,16 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 20205000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 1021100000,
+  "as_of": "2023-06-30",
+  "filed": "2024-02-27"
+ },
  "insiders": {
   "form4s": 4,
   "from": "2024-01-04",
@@ -55,6 +65,12 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
+    "nct": "NCT05176639",
+    "drugs": [
+     "Veligrotug"
+    ]
+   },
+   {
     "nct": "NCT06021054",
     "drugs": [
      "Veligrotug"
@@ -62,12 +78,6 @@
    },
    {
     "nct": "NCT06179875",
-    "drugs": [
-     "Veligrotug"
-    ]
-   },
-   {
-    "nct": "NCT05176639",
     "drugs": [
      "Veligrotug"
     ]

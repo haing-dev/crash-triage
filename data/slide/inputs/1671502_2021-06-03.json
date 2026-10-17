@@ -6,7 +6,7 @@
  "date": "2021-06-03",
  "asof": "2021-06-03",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-06-03",
   "adj_close": 68880.0
@@ -34,6 +34,12 @@
   "flag": true,
   "quote": "The opinion of our independent registered public accounting firm on our audited financial statements as of and for the year ended December 31, 2020 contains an explanatory paragraph regarding substantial doubt about our ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 0,
   "from": "2021-03-05",

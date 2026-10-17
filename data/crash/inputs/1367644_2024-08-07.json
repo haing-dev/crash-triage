@@ -6,7 +6,7 @@
  "date": "2024-08-07",
  "asof": "2024-08-07",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-08-07",
   "adj_close": 5.72
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "As a result of these factors, the Company determined that there is substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 863800000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 380700000,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-08"
  },
  "insiders": {
   "form4s": 20,
@@ -62,7 +72,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "emergent biosolutions",
   "other_trials": 0,

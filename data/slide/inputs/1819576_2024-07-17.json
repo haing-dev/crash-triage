@@ -6,7 +6,7 @@
  "date": "2024-07-17",
  "asof": "2024-07-17",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-07-17",
   "adj_close": 11.34
@@ -32,6 +32,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "Stockholders\u2019 Equity Common Stock Issuance of Common Stock on January 4, 2024 from a Private Placement On January 4, 2024, we entered into a common stock purchase agreement with Legend Aggregator, LP for the sale by us in a private placement (the \u201c2024 Private Placement\u201d) of an aggregate of 7,182,532 shares of our common stock at a purchase price of $10.442 per share."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 368576944,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-13"
  },
  "insiders": {
   "form4s": 21,

@@ -6,7 +6,7 @@
  "date": "2021-04-16",
  "asof": "2021-04-16",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-04-16",
   "adj_close": 4310.0
@@ -32,6 +32,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "price_reset_warrants": "Consolidated Statement of Changes in Stockholders\u2019 Equity Years Ended December 31, 2020 and 2019 Shares Amount Additional Paid in Capital Subscription Receivable Stock Dividend Payable Accumulated Deficit Total Balance, January 1, 2019 5,525,128 $552 $19,124,600 $(1,800,000) $ - $(7,624,134) $9,701,018 Conversion of Senior convertible debt for common stock and stock purchase warrants 18,107 2 258,"
+ },
+ "debt": {
+  "usd": 117574.0,
+  "tags": "NotesPayableCurrent"
+ },
+ "public_float": {
+  "usd": 22000000,
+  "as_of": "2020-06-30",
+  "filed": "2021-03-25"
  },
  "insiders": {
   "form4s": 3,

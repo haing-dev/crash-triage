@@ -4,12 +4,12 @@
  "cik": "1601485",
  "name": "Elicio Therapeutics, Inc.",
  "date": "2026-06-15",
- "asof": "2026-06-16",
+ "asof": "2026-06-15",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2026-06-16",
-  "adj_close": 2.76
+  "date": "2026-06-15",
+  "adj_close": 4.08
  },
  "balance": {
   "end": "2026-03-31",
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "The Company\u2019s losses from operations, negative operating cash flows and accumulated deficit, as well as the additional capital needed to fund operations for at least twelve months following the issuance of the condensed consolidated financial statements, raise substantial doubt about the Company\u2019s a"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 9475000.0,
+  "tags": "LongTermDebtNoncurrent"
+ },
+ "public_float": {
+  "usd": 81800000,
+  "as_of": "2025-06-30",
+  "filed": "2026-04-29"
  },
  "insiders": {
   "form4s": 0,

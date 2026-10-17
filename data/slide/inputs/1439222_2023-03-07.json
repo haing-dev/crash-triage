@@ -6,7 +6,7 @@
  "date": "2023-03-07",
  "asof": "2023-03-07",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-03-07",
   "adj_close": 23.56
@@ -34,6 +34,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 1200277504,
+  "as_of": "2022-06-30",
+  "filed": "2023-02-23"
  },
  "insiders": {
   "form4s": 24,
@@ -140,19 +150,7 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT05144256",
-    "drugs": [
-     "Mitapivat"
-    ]
-   },
-   {
-    "nct": "NCT05490446",
-    "drugs": [
-     "Tebapivat"
-    ]
-   },
-   {
-    "nct": "NCT04770753",
+    "nct": "NCT04770779",
     "drugs": [
      "Mitapivat"
     ]
@@ -164,7 +162,19 @@
     ]
    },
    {
+    "nct": "NCT05490446",
+    "drugs": [
+     "Tebapivat"
+    ]
+   },
+   {
     "nct": "NCT05031780",
+    "drugs": [
+     "Mitapivat"
+    ]
+   },
+   {
+    "nct": "NCT04770753",
     "drugs": [
      "Mitapivat"
     ]

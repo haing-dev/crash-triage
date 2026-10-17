@@ -6,7 +6,7 @@
  "date": "2024-02-23",
  "asof": "2024-02-23",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-02-23",
   "adj_close": 205.5
@@ -33,6 +33,19 @@
  "going_concern": {
   "flag": true,
   "quote": "These factors include, but are not limited to: \u25cf Our limited amount of cash; \u25cf The negative effect on our business and our ability to raise capital that is created by the fact that there is a substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "price_reset_warrants": "The Private Warrants contain standard adjustments to the exercise price including for stock splits, stock dividend, rights offerings and pro rata distributions, and include full ratchet anti-dilutive rights in the event the Company issues shares of Common Stock or Common Stock equivalents within fifteen months of the initial exercise date, with a value less than the then exercise price of such Pri",
+  "equity_line": "In the first quarter of 2023, we issued 50,000 shares of common stock to White Lion Capital, LLC as the \u201ccommitment shares\u201d pursuant to the terms of a Common Stock Purchase Agreement dated September 7, 2022, as described in our Current Report on Form 8-K dated September 7, 2022."
+ },
+ "debt": {
+  "usd": 5255000.0,
+  "tags": "NotesPayable"
+ },
+ "public_float": {
+  "usd": 16921890,
+  "as_of": "2022-06-30",
+  "filed": "2023-05-01"
  },
  "insiders": {
   "form4s": 2,

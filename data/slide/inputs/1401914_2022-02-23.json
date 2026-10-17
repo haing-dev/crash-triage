@@ -6,7 +6,7 @@
  "date": "2022-02-23",
  "asof": "2022-02-23",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-02-23",
   "adj_close": 17.28
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "These circumstances raise substantial doubt about the Company's ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "equity_line": "and Subsidiaries Condensed Consolidated Statements of Stockholders\u2019 Equity (Deficit) (Unaudited) Nine Months Ended September 30, 2021 AdditionalAccumulated otherTotal Common stockpaid-incomprehensiveAccumulatedstockholders' SharesAmountcapitallossdeficitequity (deficit) Balance at December 31, 202041,596,253 $4,159 $70,366,293 $(91,388)$(71,430,797)$(1,151,733) Stock-based compensation\u2014 \u2014 365,911 "
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 22800000,
+  "as_of": "2020-06-30",
+  "filed": "2021-03-30"
  },
  "insiders": {
   "form4s": 3,

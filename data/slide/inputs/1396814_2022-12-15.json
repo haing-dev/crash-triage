@@ -6,7 +6,7 @@
  "date": "2022-12-15",
  "asof": "2022-12-15",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-12-15",
   "adj_close": 39.91
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 404151000.0,
+  "tags": "ConvertibleDebtNoncurrent"
+ },
+ "public_float": {
+  "usd": 1600000000,
+  "as_of": "2021-06-30",
+  "filed": "2022-02-28"
  },
  "insiders": {
   "form4s": 2,

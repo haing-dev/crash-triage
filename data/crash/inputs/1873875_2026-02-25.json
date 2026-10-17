@@ -6,7 +6,7 @@
  "date": "2026-02-25",
  "asof": "2026-03-02",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-03-02",
   "adj_close": 3.82
@@ -32,6 +32,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "Equity-Line of Credit Purchase Agreement On September 6, 2024, the Company entered into an equity line of credit Purchase Agreement (the \u201cELOC Purchase Agreement\u201d) with Arena Business Solutions Global SPC II, Ltd (\u201cArena Global\u201d)."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 29100000,
+  "as_of": "2024-12-31",
+  "filed": "2025-09-29"
  },
  "insiders": {
   "form4s": 0,

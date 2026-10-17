@@ -6,7 +6,7 @@
  "date": "2024-06-18",
  "asof": "2024-06-18",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-06-18",
   "adj_close": 4.14
@@ -34,6 +34,16 @@
   "flag": true,
   "quote": "The Company determined that there are no conditions or events that raise substantial doubt about its ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 1560000000,
+  "as_of": "2023-06-30",
+  "filed": "2024-02-27"
+ },
  "insiders": {
   "form4s": 6,
   "from": "2024-03-20",
@@ -55,7 +65,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "zentalis pharmaceuticals",
   "other_trials": 4,
@@ -65,12 +75,6 @@
     "nct": "NCT04814108",
     "drugs": [
      "Azenosertib"
-    ]
-   },
-   {
-    "nct": "NCT05128825",
-    "drugs": [
-     "azenosertib"
     ]
    },
    {
@@ -85,6 +89,12 @@
     "drugs": [
      "Azenosertib",
      "Niraparib"
+    ]
+   },
+   {
+    "nct": "NCT05128825",
+    "drugs": [
+     "azenosertib"
     ]
    }
   ]

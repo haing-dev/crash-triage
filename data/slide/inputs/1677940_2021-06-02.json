@@ -6,7 +6,7 @@
  "date": "2021-06-02",
  "asof": "2021-06-02",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-06-02",
   "adj_close": 10.93
@@ -34,6 +34,14 @@
   "flag": true,
   "quote": "Based on the Company\u2019s cash and cash equivalents on hand on December 31, 2020, management does not believe that there is substantial doubt about the Company\u2019s ability to continue as a going concern"
  },
+ "financing_terms": {
+  "equity_line": "In June and July 2019, Wanchun Bulin, our partially owned Chinese subsidiary, and Wanchun Biotech entered into definitive agreements for the sale of its equity interests, or the Equity Purchase Agreements, to certain investors led by Efung Capital."
+ },
+ "debt": {
+  "usd": 2167000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 0,
   "from": "2021-03-04",

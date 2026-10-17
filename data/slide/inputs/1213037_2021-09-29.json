@@ -6,7 +6,7 @@
  "date": "2021-09-29",
  "asof": "2021-09-29",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-09-29",
   "adj_close": 6.55
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 103720151,
+  "as_of": "2020-06-30",
+  "filed": "2021-02-25"
  },
  "insiders": {
   "form4s": 4,
@@ -90,11 +100,11 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT03414034",
+    "nct": "NCT03829410",
     "drugs": [
      "Onvansertib",
-     "Abiraterone",
-     "Prednisone"
+     "Bevacizumab",
+     "FOLFIRI"
     ]
    },
    {
@@ -106,19 +116,19 @@
     ]
    },
    {
+    "nct": "NCT03414034",
+    "drugs": [
+     "Onvansertib",
+     "Abiraterone",
+     "Prednisone"
+    ]
+   },
+   {
     "nct": "NCT03303339",
     "drugs": [
      "Onvansertib",
      "Cytarabine",
      "Decitabine"
-    ]
-   },
-   {
-    "nct": "NCT03829410",
-    "drugs": [
-     "Onvansertib",
-     "Bevacizumab",
-     "FOLFIRI"
     ]
    }
   ]

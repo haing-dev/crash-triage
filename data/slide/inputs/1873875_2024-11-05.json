@@ -6,7 +6,7 @@
  "date": "2024-11-05",
  "asof": "2024-11-05",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-11-05",
   "adj_close": 72.0
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "\u25cfWe have identified conditions and events that raise substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "equity_line": "Note 16 \u2013 Subsequent Events Equity line of credit agreement with Arena Business Solutions Global SPC II, Ltd On September 6, 2024, the Company entered into an equity line of credit agreement (\u201cELOC Agreement\u201d) with Arena Business Solutions Global SPC II, Ltd (\u201cArena Business\u201d)."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 64000000,
+  "as_of": "2023-12-29",
+  "filed": "2024-09-30"
  },
  "insiders": {
   "form4s": 1,

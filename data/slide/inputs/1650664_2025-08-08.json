@@ -6,7 +6,7 @@
  "date": "2025-08-08",
  "asof": "2025-08-08",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-08-08",
   "adj_close": 2.21
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 54579000.0,
+  "tags": "LongTermDebtNoncurrent+LongTermDebtCurrent"
+ },
+ "public_float": {
+  "usd": 383847152,
+  "as_of": "2024-06-28",
+  "filed": "2025-03-05"
  },
  "insiders": {
   "form4s": 13,

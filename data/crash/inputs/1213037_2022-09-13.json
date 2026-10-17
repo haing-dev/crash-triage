@@ -6,7 +6,7 @@
  "date": "2022-09-13",
  "asof": "2022-09-16",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-09-16",
   "adj_close": 1.58
@@ -34,6 +34,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 258944643,
+  "as_of": "2021-06-30",
+  "filed": "2022-02-24"
  },
  "insiders": {
   "form4s": 6,
@@ -84,36 +94,11 @@
    }
   ]
  },
- "drug": null,
+ "drug": "onvansertib",
  "trials": {
   "query": "cardiff oncology",
-  "other_trials": 3,
-  "crashed_drug_trials": 0,
-  "examples": [
-   {
-    "nct": "NCT03414034",
-    "drugs": [
-     "Onvansertib",
-     "Abiraterone",
-     "Prednisone"
-    ]
-   },
-   {
-    "nct": "NCT04752696",
-    "drugs": [
-     "Onvansertib",
-     "Nanoliposomal irinotecan",
-     "Leucovorin"
-    ]
-   },
-   {
-    "nct": "NCT03829410",
-    "drugs": [
-     "Onvansertib",
-     "Bevacizumab",
-     "FOLFIRI"
-    ]
-   }
-  ]
+  "other_trials": 0,
+  "crashed_drug_trials": 3,
+  "examples": []
  }
 }

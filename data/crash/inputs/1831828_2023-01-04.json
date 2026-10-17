@@ -4,12 +4,12 @@
  "cik": "1831828",
  "name": "Vera Therapeutics, Inc.",
  "date": "2023-01-04",
- "asof": "2023-01-06",
+ "asof": "2023-01-04",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2023-01-06",
-  "adj_close": 5.48
+  "date": "2023-01-04",
+  "adj_close": 6.46
  },
  "balance": {
   "end": "2022-09-30",
@@ -35,6 +35,16 @@
  "going_concern": {
   "flag": true,
   "quote": "As a result, these conditions raise substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 5000000.0,
+  "tags": "SecuredDebt"
+ },
+ "public_float": {
+  "usd": 94400000,
+  "as_of": "2021-06-30",
+  "filed": "2022-03-28"
  },
  "insiders": {
   "form4s": 8,
@@ -141,18 +151,11 @@
    }
   ]
  },
- "drug": null,
+ "drug": "atacicept",
  "trials": {
   "query": "vera therapeutics",
-  "other_trials": 1,
-  "crashed_drug_trials": 0,
-  "examples": [
-   {
-    "nct": "NCT05609812",
-    "drugs": [
-     "Atacicept"
-    ]
-   }
-  ]
+  "other_trials": 0,
+  "crashed_drug_trials": 1,
+  "examples": []
  }
 }

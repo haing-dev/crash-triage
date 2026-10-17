@@ -6,7 +6,7 @@
  "date": "2023-06-07",
  "asof": "2023-06-07",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-06-07",
   "adj_close": 6.13
@@ -32,6 +32,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "price_reset_warrants": "Warrants As of March 31, 2023, the number of shares of common stock and Series X Preferred Stock issuable upon the exercise of outstanding warrants, consisted of the following: \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b March 31, 2023 \u200b \u200b \u200b \u200b Number of Common Shares \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b Description Issuable Number of Series X Preferred Shares Issuable Exercise Price Expiration Date January 23 2017 Warrants \u200b 54,516 \u200b \u200b \u2014"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 93800000,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-24"
  },
  "insiders": {
   "form4s": 15,

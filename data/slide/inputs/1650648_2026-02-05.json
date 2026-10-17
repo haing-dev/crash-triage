@@ -6,7 +6,7 @@
  "date": "2026-02-05",
  "asof": "2026-02-05",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-02-05",
   "adj_close": 8.39
@@ -34,6 +34,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 1044134011,
+  "as_of": "2024-06-30",
+  "filed": "2025-02-28"
  },
  "insiders": {
   "form4s": 6,
@@ -77,6 +87,26 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
+    "nct": "NCT05629559",
+    "drugs": [
+     "4D-310"
+    ]
+   },
+   {
+    "nct": "NCT04517149",
+    "drugs": [
+     "4D-125 IVT Injection",
+     "Observational"
+    ]
+   },
+   {
+    "nct": "NCT05197270",
+    "drugs": [
+     "4D-150 IVT",
+     "Aflibercept IVT"
+    ]
+   },
+   {
     "nct": "NCT07064759",
     "drugs": [
      "4D-150 IVT (3E10 vg/eye)",
@@ -84,26 +114,7 @@
     ]
    },
    {
-    "nct": "NCT05248230",
-    "drugs": [
-     "4D-710"
-    ]
-   },
-   {
     "nct": "NCT05930561",
-    "drugs": [
-     "4D-150 IVT",
-     "Aflibercept IVT"
-    ]
-   },
-   {
-    "nct": "NCT05629559",
-    "drugs": [
-     "4D-310"
-    ]
-   },
-   {
-    "nct": "NCT05197270",
     "drugs": [
      "4D-150 IVT",
      "Aflibercept IVT"

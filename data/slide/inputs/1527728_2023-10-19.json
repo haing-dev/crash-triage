@@ -6,7 +6,7 @@
  "date": "2023-10-19",
  "asof": "2023-10-19",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-10-19",
   "adj_close": 276.0
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "\u00b7There is substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "equity_line": "The prior year net cash from financing activities primarily consisted of $4,676,399 in proceeds from the issuance of Common Stock related to equity line draws."
+ },
+ "debt": {
+  "usd": 4624947.0,
+  "tags": "NotesPayableCurrent"
+ },
+ "public_float": {
+  "usd": 45415777,
+  "as_of": "2022-12-31",
+  "filed": "2023-10-02"
  },
  "insiders": {
   "form4s": 6,

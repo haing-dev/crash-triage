@@ -4,12 +4,12 @@
  "cik": "1819615",
  "name": "Clever Leaves Holdings Inc.",
  "date": "2024-04-29",
- "asof": "2024-05-01",
+ "asof": "2024-04-29",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2024-05-01",
-  "adj_close": 1.5405
+  "date": "2024-04-29",
+  "adj_close": 1.62
  },
  "balance": {
   "end": "2023-12-31",
@@ -34,6 +34,16 @@
   "flag": true,
   "quote": "There is substantial doubt about our ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 1218000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 11900000,
+  "as_of": "2023-06-30",
+  "filed": "2024-04-01"
+ },
  "insiders": {
   "form4s": 2,
   "from": "2024-01-30",
@@ -55,7 +65,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "clever leaves",
   "other_trials": 0,

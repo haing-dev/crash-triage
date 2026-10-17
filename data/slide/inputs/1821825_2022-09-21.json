@@ -6,7 +6,7 @@
  "date": "2022-09-21",
  "asof": "2022-09-21",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-09-21",
   "adj_close": 26.8
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 8893000000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 7670000000,
+  "as_of": "2021-06-30",
+  "filed": "2022-03-21"
+ },
  "insiders": {
   "form4s": 2,
   "from": "2022-06-23",
@@ -42,9 +52,23 @@
  "drug": null,
  "trials": {
   "query": "organon",
-  "other_trials": 3,
+  "other_trials": 4,
   "crashed_drug_trials": 0,
   "examples": [
+   {
+    "nct": "NCT05014568",
+    "drugs": [
+     "tapinarof cream, 1%",
+     "Vehicle cream"
+    ]
+   },
+   {
+    "nct": "NCT05032859",
+    "drugs": [
+     "tapinarof cream, 1%",
+     "vehicle cream"
+    ]
+   },
    {
     "nct": "NCT00095017",
     "drugs": [
@@ -55,12 +79,6 @@
     "nct": "NCT05142774",
     "drugs": [
      "Tapinarof cream, 1%"
-    ]
-   },
-   {
-    "nct": "NCT04626596",
-    "drugs": [
-     "Radiopaque Etonogestrel (ENG) Implant"
     ]
    }
   ]

@@ -6,7 +6,7 @@
  "date": "2025-10-30",
  "asof": "2025-10-30",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-10-30",
   "adj_close": 4.96
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "These circumstances raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 33445000.0,
+  "tags": "ConvertibleDebtCurrent"
+ },
+ "public_float": {
+  "usd": 30300000,
+  "as_of": "2024-06-28",
+  "filed": "2025-03-21"
  },
  "insiders": {
   "form4s": 0,

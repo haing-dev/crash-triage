@@ -6,7 +6,7 @@
  "date": "2022-06-10",
  "asof": "2022-06-10",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-06-10",
   "adj_close": 1.9
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "These factors individually and collectively raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "equity_line": "(See Note 11 for a discussion of subsequent ATM facility activity.) On April 30, 2020, the Company entered into an equity line purchase agreement and registration rights agreement pursuant to which Lincoln Park Capital Fund, LLC (\u201cLincoln Park\u201d) has committed to purchase up to $15.0 million of the Company\u2019s common stock."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 34649392,
+  "as_of": "2021-06-30",
+  "filed": "2022-03-02"
  },
  "insiders": {
   "form4s": 1,

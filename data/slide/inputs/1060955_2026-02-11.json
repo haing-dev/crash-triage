@@ -6,7 +6,7 @@
  "date": "2026-02-11",
  "asof": "2026-02-11",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-02-11",
   "adj_close": 133.14
@@ -33,6 +33,12 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 2878547000.0,
+  "tags": "LongTermDebtNoncurrent"
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 0,
   "from": "2025-11-13",

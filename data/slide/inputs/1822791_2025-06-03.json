@@ -6,7 +6,7 @@
  "date": "2025-06-03",
  "asof": "2025-06-03",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-06-03",
   "adj_close": 3.92
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "These conditions raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "equity_line": "To mitigate our funding needs, we plan to raise additional funding, including exploring equity financing and offerings, debt financing, licensing or collaboration arrangements with third parties, as well as utilizing our existing at-the-market facility and equity purchase agreement and potential proceeds from the exercise of outstanding warrants and stock options."
+ },
+ "debt": {
+  "usd": 16633000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 36000000,
+  "as_of": "2024-06-30",
+  "filed": "2025-03-24"
  },
  "insiders": {
   "form4s": 15,

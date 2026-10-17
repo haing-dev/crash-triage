@@ -6,7 +6,7 @@
  "date": "2024-04-09",
  "asof": "2024-04-09",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-04-09",
   "adj_close": 6.86
@@ -34,6 +34,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 377263000.0,
+  "tags": "ConvertibleDebtNoncurrent"
+ },
+ "public_float": {
+  "usd": 1145413509,
+  "as_of": "2023-06-30",
+  "filed": "2024-02-20"
  },
  "insiders": {
   "form4s": 14,
@@ -168,12 +178,6 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT05856760",
-    "drugs": [
-     "Sparsentan"
-    ]
-   },
-   {
     "nct": "NCT03406611",
     "drugs": [
      "Pegtibatinase"
@@ -190,6 +194,12 @@
     "drugs": [
      "Sparsentan",
      "Sparsentan",
+     "Sparsentan"
+    ]
+   },
+   {
+    "nct": "NCT05856760",
+    "drugs": [
      "Sparsentan"
     ]
    }

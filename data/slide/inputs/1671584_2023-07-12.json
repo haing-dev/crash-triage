@@ -6,7 +6,7 @@
  "date": "2023-07-12",
  "asof": "2023-07-12",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-07-12",
   "adj_close": 937728.0
@@ -32,6 +32,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "We may obtain additional funding through our existing equity Purchase Agreement with Lincoln Park or our Equity Distribution Agreement with Piper Sandler, or attempt to obtain other public or private financing, collaborative or licensing arrangements with strategic partners, or through credit lines or other debt financing sources to increase the funds available to fund operations."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 18000000,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-30"
  },
  "insiders": {
   "form4s": 14,

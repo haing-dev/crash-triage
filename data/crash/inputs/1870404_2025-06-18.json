@@ -6,7 +6,7 @@
  "date": "2025-06-18",
  "asof": "2025-06-23",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-06-23",
   "adj_close": 8.16
@@ -33,6 +33,20 @@
  "going_concern": {
   "flag": true,
   "quote": "These conditions raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "floating_convertible": "16 Alternate Conversion: Following the occurrence and during the continuance of a Trigger Event (as defined below), each holder may alternatively elect to convert the Series A Preferred Stock at the \u201cAlternate Conversion Price\u201d equal to the lesser of the Conversion Price and the greater of $100.00 (the \u201cSeries A Conversion Price Floor\u201d) or 80% of the 5-day volume weighted average price of a share ",
+  "price_reset_warrants": "In connection with such adjustment provisions, the Conversion Price was reset to $100.00.",
+  "equity_line": "\u201cNew Keystone Purchase Agreement\u201d refers to the Common Stock Purchase Agreement, dated as of November 8, 2024, by and between CERo and Keystone."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 5765325,
+  "as_of": "2024-06-30",
+  "filed": "2025-04-28"
  },
  "insiders": {
   "form4s": 9,

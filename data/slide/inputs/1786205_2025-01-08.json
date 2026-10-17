@@ -6,7 +6,7 @@
  "date": "2025-01-08",
  "asof": "2025-01-08",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-01-08",
   "adj_close": 72.26
@@ -34,6 +34,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "These holdings resulted from Gilead's investment in the Company of: (i) $100.0 million, by purchasing 3,478,261 shares of common stock at a per share price of $28.75 pursuant to a Common Stock Purchase Agreement with Gilead (Gilead SPA); and (ii) $200.0 million, by purchasing 3,242,542 shares of common stock at a per share price of $61.68 pursuant to a second Common Stock Purchase Agreement with G"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 1300000000,
+  "as_of": "2023-06-30",
+  "filed": "2024-02-28"
  },
  "insiders": {
   "form4s": 16,

@@ -6,7 +6,7 @@
  "date": "2024-03-14",
  "asof": "2024-03-14",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-03-14",
   "adj_close": 34.5
@@ -33,6 +33,19 @@
  "going_concern": {
   "flag": true,
   "quote": "These conditions and events raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "floating_convertible": "The amortization payments due upon such redemptions are payable, at our election, in cash at 107% of the Installment Redemption Amount (as defined in the Certificate of Designations), or subject to certain limitations, in shares of common stock valued at the lower of (i) the Conversion Price then in effect and (ii) the greater of (A) 80% of the average of the three lowest closing prices of the Com",
+  "price_reset_warrants": "The exercise price is subject to customary adjustments for stock dividends, stock splits, reclassifications and the like, and subject to price-based adjustment, on a \u201cfull ratchet\u201d basis, in the event of any issuances of Common Stock, or securities convertible, exercisable or exchangeable for common stock, at a price below the then-applicable exercise price (subject to certain exceptions)."
+ },
+ "debt": {
+  "usd": 8388093.0,
+  "tags": "NotesPayableCurrent+LongTermNotesPayable"
+ },
+ "public_float": {
+  "usd": 12567127,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-31"
  },
  "insiders": {
   "form4s": 6,

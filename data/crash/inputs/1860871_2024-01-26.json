@@ -6,7 +6,7 @@
  "date": "2024-01-26",
  "asof": "2024-01-29",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-01-29",
   "adj_close": 277.5
@@ -31,13 +31,23 @@
   "flag": true,
   "quote": "Management has also determined that the mandatory liquidation and subsequent dissolution described in the financial statements, should the Company be unable to complete a business combination, raises substantial doubt about the Company\u2019s ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 625694.0,
+  "tags": "ConvertibleNotesPayableCurrent"
+ },
+ "public_float": {
+  "usd": 345345000,
+  "as_of": "2022-06-30",
+  "filed": "2023-04-17"
+ },
  "insiders": {
   "form4s": 9,
   "from": "2023-10-28",
   "to": "2024-02-25",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "tevogen",
   "other_trials": 0,

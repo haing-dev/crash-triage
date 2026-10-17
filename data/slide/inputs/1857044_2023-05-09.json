@@ -6,7 +6,7 @@
  "date": "2023-05-09",
  "asof": "2023-05-09",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-05-09",
   "adj_close": 56.56
@@ -33,6 +33,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "Following completion of the Merger, our shares of common stock commenced trading on August 4, 2021 on the Nasdaq Capital Market under the name \u201cIndaptus Therapeutics, Inc.\u201d and ticker symbol \u201cINDP.\u201d 60 Recent Events Lincoln Park Committed Equity Facility On December 22, 2022, we entered into a purchase agreement with Lincoln Park Capital Fund, LLC (\u201cLincoln Park\u201d), pursuant to which we have the ri"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 15083730,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-17"
  },
  "insiders": {
   "form4s": 6,

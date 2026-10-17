@@ -6,7 +6,7 @@
  "date": "2024-12-19",
  "asof": "2024-12-19",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-12-19",
   "adj_close": 8.11
@@ -32,6 +32,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 224600000,
+  "as_of": "2023-06-30",
+  "filed": "2024-06-14"
  },
  "insiders": {
   "form4s": 7,
@@ -89,19 +99,19 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT06643884",
-    "drugs": [
-     "AU-011",
-     "SCS Microinjector",
-     "Laser"
-    ]
-   },
-   {
     "nct": "NCT06007690",
     "drugs": [
      "Bel-sar",
      "Suprachoroidal Microinjector",
      "Infrared Laser"
+    ]
+   },
+   {
+    "nct": "NCT06643884",
+    "drugs": [
+     "AU-011",
+     "SCS Microinjector",
+     "Laser"
     ]
    }
   ]

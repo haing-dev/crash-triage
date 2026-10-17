@@ -6,7 +6,7 @@
  "date": "2024-06-12",
  "asof": "2024-06-12",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-06-12",
   "adj_close": 11.04
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "We have concluded that the prevailing conditions and ongoing liquidity risks faced by us raise substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 10340301,
+  "as_of": "2023-09-30",
+  "filed": "2024-05-31"
  },
  "insiders": {
   "form4s": 0,

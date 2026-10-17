@@ -4,12 +4,12 @@
  "cik": "1854270",
  "name": "Senti Biosciences Holdings, Inc.",
  "date": "2026-07-15",
- "asof": "2026-07-17",
+ "asof": "2026-07-16",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2026-07-17",
-  "adj_close": 0.43700001
+  "date": "2026-07-16",
+  "adj_close": 0.46000001
  },
  "balance": {
   "end": "2026-03-31",
@@ -32,6 +32,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "price_reset_warrants": "The Conversion Price and Exchange Price are each subject to full-ratchet anti-dilution adjustment upon certain issuances of common stock at a price below the then-effective Conversion Price or Exchange Price (a \u201cDilutive Issuance\u201d), in which case the applicable Conversion Price or Exchange Price will be reduced to the price per share of such Dilutive Issuance."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 53200000,
+  "as_of": "2025-06-30",
+  "filed": "2026-04-29"
  },
  "insiders": {
   "form4s": 0,

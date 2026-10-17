@@ -6,7 +6,7 @@
  "date": "2021-04-13",
  "asof": "2021-04-13",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-04-13",
   "adj_close": 11.9
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "This Form 10-K includes disclosures regarding management\u2019s assessment of our ability to continue as a going concern as our current liquidity position and recurring losses from operations since inception and negative cash flows from operating activities raise substantial doubt about our ability to co"
+ },
+ "financing_terms": {
+  "equity_line": "72 Table of Contents In connection with the 2014 Sanofi Amendment, we entered into a Common Stock Purchase Agreement (the \u201c Sanofi Purchase Agreement\u201d), pursuant to which we sold 108,648 shares of our common stock to Aventisub LLC (\u201cAventis\u201d), an entity affiliated with Sanofi, in a private placement at a price per share of $92.04 for an aggregate purchase price of $10.0 million."
+ },
+ "debt": {
+  "usd": 4652000.0,
+  "tags": "DebtCurrent"
+ },
+ "public_float": {
+  "usd": 22500000,
+  "as_of": "2020-06-30",
+  "filed": "2021-03-09"
  },
  "insiders": {
   "form4s": 18,

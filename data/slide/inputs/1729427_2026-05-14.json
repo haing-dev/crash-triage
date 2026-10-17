@@ -6,7 +6,7 @@
  "date": "2026-05-14",
  "asof": "2026-05-14",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-05-14",
   "adj_close": 5.01
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "These conditions initially raised substantial doubt about the Company's ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 232353.0,
+  "tags": "NotesPayableCurrent"
+ },
+ "public_float": {
+  "usd": 8780000,
+  "as_of": "2025-06-30",
+  "filed": "2026-04-30"
  },
  "insiders": {
   "form4s": 3,

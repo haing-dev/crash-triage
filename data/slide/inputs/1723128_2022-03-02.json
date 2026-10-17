@@ -6,7 +6,7 @@
  "date": "2022-03-02",
  "asof": "2022-03-02",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-03-02",
   "adj_close": 4.02
@@ -32,6 +32,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "AvKARE and R&S Acquisitions On December 10, 2019, the Company, through its investment in Rondo Partners, LLC (\u201cRondo\u201d), entered into an equity purchase agreement (\u201cRondo Equity Purchase Agreement\u201d) and an operating agreement to acquire a 65.1% controlling financing interest in both AvKARE Inc., a Tennessee corporation, and Dixon-Shane, LLC d/b/a R&S Northeast LLC, a Kentucky limited liability comp"
+ },
+ "debt": {
+  "usd": 2710667000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 750794557,
+  "as_of": "2021-06-30",
+  "filed": "2022-03-01"
  },
  "insiders": {
   "form4s": 16,

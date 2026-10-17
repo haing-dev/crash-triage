@@ -4,12 +4,12 @@
  "cik": "1997296",
  "name": "Medicus Pharma Ltd.",
  "date": "2026-03-05",
- "asof": "2026-03-06",
+ "asof": "2026-03-05",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2026-03-06",
-  "adj_close": 19.35
+  "date": "2026-03-05",
+  "adj_close": 33.9
  },
  "balance": {
   "end": "2025-09-30",
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "This uncertainty, along with the Company's history of losses, indicates that there is substantial doubt about the Company's ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "equity_line": "Warrants Activity as below: Number of common share warrants outstanding Number of common share warrants exercisable Weighted average exercise price $ Weighted average remaining life (years) Outstanding as at December 31, 2024 1,115,500 1,115,500 0.87 4 Granted Regulation A Warrants on March 10, 2025 1,490,000 1,490,000 0.70 4 Granted warrants on June 2, 2025 2,260,000 2,260,000 1.18 5 Granted Seri"
+ },
+ "debt": {
+  "usd": 6785812.0,
+  "tags": "DebtCurrent"
+ },
+ "public_float": {
+  "usd": 11200000,
+  "as_of": "2024-06-30",
+  "filed": "2025-04-30"
  },
  "insiders": {
   "form4s": 26,

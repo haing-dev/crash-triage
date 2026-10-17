@@ -6,7 +6,7 @@
  "date": "2023-08-03",
  "asof": "2023-08-03",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-08-03",
   "adj_close": 796.5
@@ -33,6 +33,12 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 168430.0,
+  "tags": "LoansPayableCurrent"
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 9,
   "from": "2023-05-05",

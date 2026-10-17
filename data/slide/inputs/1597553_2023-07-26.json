@@ -6,7 +6,7 @@
  "date": "2023-07-26",
  "asof": "2023-07-26",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-07-26",
   "adj_close": 36.205
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 1685744591,
+  "as_of": "2022-06-30",
+  "filed": "2023-02-16"
  },
  "insiders": {
   "form4s": 12,
@@ -62,13 +72,13 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT05366751",
+    "nct": "NCT05173012",
     "drugs": [
      "SAGE-324"
     ]
    },
    {
-    "nct": "NCT05173012",
+    "nct": "NCT05366751",
     "drugs": [
      "SAGE-324"
     ]

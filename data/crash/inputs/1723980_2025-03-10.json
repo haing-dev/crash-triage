@@ -6,10 +6,10 @@
  "date": "2025-03-10",
  "asof": "2025-03-10",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-03-10",
-  "adj_close": 33240.0
+  "adj_close": 415.5
  },
  "balance": {
   "end": "2024-03-31",
@@ -34,6 +34,14 @@
   "flag": true,
   "quote": "These factors raise substantial doubt about our ability to continue as a going concern"
  },
+ "financing_terms": {
+  "floating_convertible": "If Company chooses to satisfy a redemption in Pre-reverse Ordinary Shares, such Pre-reverse Ordinary Shares shall be issued at a redemption conversion price of the lower of (i) the Lender Conversion Price (as defined in the Note) which is initially $0.30 and (ii) 80% of the average of the lowest VWAP during the fifteen (15) trading days immediately preceding the redemption notice is delivered."
+ },
+ "debt": {
+  "usd": 1780095.0,
+  "tags": "ConvertibleDebtCurrent"
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 0,
   "from": "2024-12-10",

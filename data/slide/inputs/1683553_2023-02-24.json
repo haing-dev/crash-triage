@@ -6,7 +6,7 @@
  "date": "2023-02-24",
  "asof": "2023-02-24",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-02-24",
   "adj_close": 165.0
@@ -34,6 +34,16 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 5623000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 142930538,
+  "as_of": "2021-06-30",
+  "filed": "2022-03-14"
+ },
  "insiders": {
   "form4s": 7,
   "from": "2022-11-26",
@@ -59,14 +69,14 @@
     "drugs": []
    },
    {
-    "nct": "NCT04544410",
-    "drugs": []
-   },
-   {
     "nct": "NCT05370521",
     "drugs": [
      "Tildacerfont"
     ]
+   },
+   {
+    "nct": "NCT04544410",
+    "drugs": []
    },
    {
     "nct": "NCT05128942",

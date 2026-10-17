@@ -6,7 +6,7 @@
  "date": "2024-03-13",
  "asof": "2024-03-13",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-03-13",
   "adj_close": 0.95
@@ -34,6 +34,16 @@
  "going_concern": {
   "flag": true,
   "quote": "30 Risks Related to our Financial Position and Need for Additional Capital There is substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 25274000.0,
+  "tags": "LongTermDebtNoncurrent+LongTermDebtCurrent"
+ },
+ "public_float": {
+  "usd": 50200000,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-07"
  },
  "insiders": {
   "form4s": 6,

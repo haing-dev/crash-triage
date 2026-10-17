@@ -6,7 +6,7 @@
  "date": "2025-04-04",
  "asof": "2025-04-04",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-04-04",
   "adj_close": 5.68
@@ -32,6 +32,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 73221000.0,
+  "tags": "LongTermNotesPayable"
+ },
+ "public_float": {
+  "usd": 272320427,
+  "as_of": "2024-06-28",
+  "filed": "2025-03-13"
  },
  "insiders": {
   "form4s": 23,
@@ -82,23 +92,9 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT06646289",
-    "drugs": [
-     "AAV5-hRKp.RPGR",
-     "No intervention (Follow-Up assessment)"
-    ]
-   },
-   {
     "nct": "NCT06544798",
     "drugs": [
      "AAV2-hAQP1"
-    ]
-   },
-   {
-    "nct": "NCT04794101",
-    "drugs": [
-     "Genetic: AAV5-hRKp.RPGR Intermediate Dose",
-     "Genetic: AAV5-hRKp.RPGR Low Dose"
     ]
    },
    {
@@ -108,10 +104,25 @@
     ]
    },
    {
-    "nct": "NCT05926583",
+    "nct": "NCT05926765",
+    "drugs": [
+     "AAV2-hAQP1 Concentration 1",
+     "AAV2-hAQP1 Concentration 2",
+     "AAV2-hAQP1 Concentration 3"
+    ]
+   },
+   {
+    "nct": "NCT06646289",
     "drugs": [
      "AAV5-hRKp.RPGR",
-     "AAV5-hRKp.RPGR"
+     "No intervention (Follow-Up assessment)"
+    ]
+   },
+   {
+    "nct": "NCT04794101",
+    "drugs": [
+     "Genetic: AAV5-hRKp.RPGR Intermediate Dose",
+     "Genetic: AAV5-hRKp.RPGR Low Dose"
     ]
    }
   ]

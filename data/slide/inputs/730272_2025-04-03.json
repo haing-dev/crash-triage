@@ -6,7 +6,7 @@
  "date": "2025-04-03",
  "asof": "2025-04-03",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-04-03",
   "adj_close": 121.7
@@ -32,6 +32,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "On April 17, 2023, the Company completed its acquisition of all of the outstanding equity interests in FlexBiosys, pursuant to an Equity Purchase Agreement with FlexBiosys, TSAP Holdings Inc."
+ },
+ "debt": {
+  "usd": 525567000.0,
+  "tags": "ConvertibleNotesPayableCurrent+ConvertibleDebtNoncurrent"
+ },
+ "public_float": {
+  "usd": 5979282111,
+  "as_of": "2024-06-30",
+  "filed": "2025-03-14"
  },
  "insiders": {
   "form4s": 17,

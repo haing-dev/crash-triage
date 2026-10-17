@@ -6,7 +6,7 @@
  "date": "2021-04-06",
  "asof": "2021-04-06",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-04-06",
   "adj_close": 256.5
@@ -33,6 +33,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "License Agreement with Bristol-Myers Squibb Company In April 2016, we entered into a License Agreement and a Common Stock Purchase Agreement with Bristol-Myers Squibb Company, together BMS, the BMS Purchase Agreement and the BMS License Agreement."
+ },
+ "debt": {
+  "usd": 31194000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 257943696,
+  "as_of": "2020-06-30",
+  "filed": "2021-03-09"
  },
  "insiders": {
   "form4s": 14,

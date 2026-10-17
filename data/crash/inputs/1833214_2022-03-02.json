@@ -6,7 +6,7 @@
  "date": "2022-03-02",
  "asof": "2022-03-07",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-03-07",
   "adj_close": 23.1
@@ -33,6 +33,12 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 9,
   "from": "2021-12-02",

@@ -6,7 +6,7 @@
  "date": "2022-01-19",
  "asof": "2022-01-19",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-01-19",
   "adj_close": 72.3456
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 316889000.0,
+  "tags": "ConvertibleDebtNoncurrent"
+ },
+ "public_float": {
+  "usd": 1200000000,
+  "as_of": "2020-06-30",
+  "filed": "2021-02-24"
  },
  "insiders": {
   "form4s": 11,

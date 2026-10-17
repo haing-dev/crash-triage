@@ -4,12 +4,12 @@
  "cik": "1661998",
  "name": "Q32 Bio Inc.",
  "date": "2024-12-11",
- "asof": "2024-12-13",
+ "asof": "2024-12-11",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2024-12-13",
-  "adj_close": 3.7
+  "date": "2024-12-11",
+  "adj_close": 5.95
  },
  "balance": {
   "end": "2024-09-30",
@@ -33,30 +33,27 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 45800000,
+  "as_of": "2023-06-30",
+  "filed": "2024-04-12"
+ },
  "insiders": {
   "form4s": 4,
   "from": "2024-09-12",
   "to": "2025-01-10",
   "trades": []
  },
- "drug": null,
+ "drug": "bempikibart (ADX-914)",
  "trials": {
   "query": "q32 bio",
-  "other_trials": 2,
-  "crashed_drug_trials": 0,
-  "examples": [
-   {
-    "nct": "NCT06018428",
-    "drugs": [
-     "bempikibart (ADX-914)"
-    ]
-   },
-   {
-    "nct": "NCT05509023",
-    "drugs": [
-     "ADX-914"
-    ]
-   }
-  ]
+  "other_trials": 0,
+  "crashed_drug_trials": 2,
+  "examples": []
  }
 }

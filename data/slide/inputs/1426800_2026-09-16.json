@@ -6,7 +6,7 @@
  "date": "2026-09-16",
  "asof": "2026-09-16",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-09-16",
   "adj_close": 25.48
@@ -33,6 +33,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "Note 3 \u2013 Related Party In October 2023, the Company entered into the Option, License and Collaboration Agreement, as amended (the Gilead Collaboration Agreement), and a Common Stock Purchase Agreement and an Investor Rights Agreement (collectively, the Gilead Equity Agreements) with Gilead."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 97800000,
+  "as_of": "2025-06-30",
+  "filed": "2026-03-19"
  },
  "insiders": {
   "form4s": 1,

@@ -6,7 +6,7 @@
  "date": "2024-08-05",
  "asof": "2024-08-05",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-08-05",
   "adj_close": 2.48
@@ -33,13 +33,23 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 200262958,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-29"
+ },
  "insiders": {
   "form4s": 0,
   "from": "2024-05-07",
   "to": "2024-09-04",
   "trades": []
  },
- "drug": null,
+ "drug": "Iomab-B",
  "trials": {
   "query": "actinium pharmaceuticals",
   "other_trials": 0,

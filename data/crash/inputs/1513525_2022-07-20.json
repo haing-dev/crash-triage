@@ -4,12 +4,12 @@
  "cik": "1513525",
  "name": "ADIAL PHARMACEUTICALS, INC.",
  "date": "2022-07-20",
- "asof": "2022-07-26",
+ "asof": "2022-07-21",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2022-07-26",
-  "adj_close": 387.5
+  "date": "2022-07-21",
+  "adj_close": 518.75
  },
  "balance": {
   "end": "2022-03-31",
@@ -33,13 +33,25 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {
+  "equity_line": "8 \u2014 ACCRUED EXPENSES Accrued expenses consist of the following: March 31, 2022 December 31, 2021 Clinical research organization services and expenses $995,088 $1,826,479 Employee compensation 357,535 520,795 Preclinical and manufacturing expenses 293,150 \u2013 Legal and consulting services 39,058 29,656 Minimum license royalties 10,000 \u2013 Total accrued expenses $1,694,831 $2,376,930 11 9 \u2014 RELATED PART"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 40504498,
+  "as_of": "2021-06-30",
+  "filed": "2022-03-28"
+ },
  "insiders": {
   "form4s": 1,
   "from": "2022-04-21",
   "to": "2022-08-19",
   "trades": []
  },
- "drug": null,
+ "drug": "AD04",
  "trials": {
   "query": "adial pharmaceuticals",
   "other_trials": 0,

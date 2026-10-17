@@ -6,7 +6,7 @@
  "date": "2022-09-21",
  "asof": "2022-09-21",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-09-21",
   "adj_close": 3.8
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "These factors raise substantial doubt regarding our ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "equity_line": "Aspire Common Stock Purchase Agreement In February 2020, we entered into a common stock purchase agreement, or the Purchase Agreement, with Aspire Capital Fund, LLC, or Aspire Capital, which provides that, upon the terms and subject to the conditions and limitations set forth therein, Aspire Capital is committed to purchase up to an aggregate of $30.0 million of shares of our common stock over the"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 164300000,
+  "as_of": "2021-06-30",
+  "filed": "2022-03-17"
  },
  "insiders": {
   "form4s": 0,

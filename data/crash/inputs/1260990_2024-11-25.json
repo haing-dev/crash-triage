@@ -6,7 +6,7 @@
  "date": "2024-11-25",
  "asof": "2024-12-02",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-12-02",
   "adj_close": 0.5266
@@ -35,13 +35,23 @@
   "flag": true,
   "quote": "As a result, there is substantial doubt about the Company\u2019s ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 18800000,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-07"
+ },
  "insiders": {
   "form4s": 0,
   "from": "2024-08-27",
   "to": "2024-12-25",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "oncternal therapeutics",
   "other_trials": 1,

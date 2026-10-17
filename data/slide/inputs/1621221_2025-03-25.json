@@ -6,7 +6,7 @@
  "date": "2025-03-25",
  "asof": "2025-03-25",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-03-25",
   "adj_close": 17.478
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "RISKS RELATED TO OUR BUSINESS AND PRODUCT CANDIDATES Our financial condition raises substantial doubt as to our ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "equity_line": "As described in Part II, Item 7 of this Annual Report on Form 10-K, \u201cManagement\u2019s Discussion and Analysis of Financial Condition and Results of Operations,\u201d the Company entered into the Equity Line with an institutional investor which provides, among other things, for the sale by us to the institutional investor of up to $20.0 million in shares of our Common Stock, subject to the terms of the Equi"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 4289305,
+  "as_of": "2024-06-30",
+  "filed": "2025-03-03"
  },
  "insiders": {
   "form4s": 0,

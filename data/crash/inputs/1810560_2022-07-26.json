@@ -6,7 +6,7 @@
  "date": "2022-07-26",
  "asof": "2022-07-26",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-07-26",
   "adj_close": 98985.60156
@@ -34,13 +34,25 @@
   "flag": true,
   "quote": "The Company does not anticipate that its current cash and cash equivalents balance will be sufficient to sustain operations within one year after the date that the Company\u2019s unaudited financial statements for March 31, 2022 were issued, which raises substantial doubt about its ability to continue as"
  },
+ "financing_terms": {
+  "equity_line": "During 2020 Revelation Sub entered into multiple common stock purchase agreements that resulted in the issuance of 6,292,140 shares and raised net proceeds of $6.1 million."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 73173036,
+  "as_of": "2021-06-30",
+  "filed": "2022-04-15"
+ },
  "insiders": {
   "form4s": 0,
   "from": "2022-04-27",
   "to": "2022-08-25",
   "trades": []
  },
- "drug": null,
+ "drug": "REVTx-99b",
  "trials": {
   "query": "revelation biosciences",
   "other_trials": 0,

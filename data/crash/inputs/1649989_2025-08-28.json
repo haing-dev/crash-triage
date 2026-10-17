@@ -4,12 +4,12 @@
  "cik": "1649989",
  "name": "Outlook Therapeutics, Inc.",
  "date": "2025-08-28",
- "asof": "2025-08-29",
+ "asof": "2025-08-28",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2025-08-29",
-  "adj_close": 0.85100001
+  "date": "2025-08-28",
+  "adj_close": 1.09
  },
  "balance": {
   "end": "2025-06-30",
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "As a result, there is substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "floating_convertible": "Furthermore, the Company retains the right to convert any portion of the outstanding balance under the March 2025 Note into shares of common stock at the Conversion Price, provided certain conditions are met at the time of conversion, including, but not limited to, the condition that the daily volume-weighted average price of the Company\u2019s common stock on Nasdaq equals or exceeds $3.00 per share ("
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 180400000,
+  "as_of": "2024-03-31",
+  "filed": "2025-01-23"
  },
  "insiders": {
   "form4s": 1,

@@ -6,7 +6,7 @@
  "date": "2021-12-02",
  "asof": "2021-12-02",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-12-02",
   "adj_close": 408.79999
@@ -30,6 +30,14 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {
+  "price_reset_warrants": "The Access Bio Convertible Notes are convertible into a number of shares of common stock of Access Bio, a company listed on the Korea Stock Exchange, of up to $10.0 million based on a fixed foreign currency exchange rate and a conversion price subject to certain adjustments, including reset adjustments each quarter based on the trading price of Access Bio\u2019s stock."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 13,
   "from": "2021-09-03",

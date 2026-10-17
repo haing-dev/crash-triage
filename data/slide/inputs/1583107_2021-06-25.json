@@ -6,7 +6,7 @@
  "date": "2021-06-25",
  "asof": "2021-06-25",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-06-25",
   "adj_close": 15.6
@@ -34,6 +34,16 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 614070000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 1280000000,
+  "as_of": "2020-06-30",
+  "filed": "2021-02-26"
+ },
  "insiders": {
   "form4s": 19,
   "from": "2021-03-27",
@@ -47,15 +57,23 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
+    "nct": "NCT03920254",
+    "drugs": [
+     "TD-1473 Dose A",
+     "TD-1473 Dose B",
+     "TD-1473 Dose C"
+    ]
+   },
+   {
     "nct": "NCT03750552",
     "drugs": [
      "ampreloxetine"
     ]
    },
    {
-    "nct": "NCT03635112",
+    "nct": "NCT04095793",
     "drugs": [
-     "TD-1473"
+     "ampreloxetine"
     ]
    },
    {
@@ -67,17 +85,9 @@
     ]
    },
    {
-    "nct": "NCT03920254",
+    "nct": "NCT03635112",
     "drugs": [
-     "TD-1473 Dose A",
-     "TD-1473 Dose B",
-     "TD-1473 Dose C"
-    ]
-   },
-   {
-    "nct": "NCT03829657",
-    "drugs": [
-     "ampreloxetine"
+     "TD-1473"
     ]
    }
   ]

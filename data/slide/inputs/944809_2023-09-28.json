@@ -6,7 +6,7 @@
  "date": "2023-09-28",
  "asof": "2023-09-28",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-09-28",
   "adj_close": 1.5
@@ -32,6 +32,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "floating_convertible": "On February 10, 2023, we amended the 2023 Convertible Notes to extend the maturity to January 31, 2025 and reset the conversion price to the 10 day volume weighted average price immediately preceding the date of the amended note, plus a 25% conversion premium, or $1.66 per share."
+ },
+ "debt": {
+  "usd": 249529000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 1061262723,
+  "as_of": "2022-06-30",
+  "filed": "2023-02-27"
  },
  "insiders": {
   "form4s": 4,

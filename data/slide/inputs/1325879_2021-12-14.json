@@ -6,7 +6,7 @@
  "date": "2021-12-14",
  "asof": "2021-12-14",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-12-14",
   "adj_close": 5.18
@@ -34,6 +34,16 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 33026000.0,
+  "tags": "LoansPayableCurrent+LongTermLoansPayable"
+ },
+ "public_float": {
+  "usd": 105700000,
+  "as_of": "2020-06-30",
+  "filed": "2021-03-16"
+ },
  "insiders": {
   "form4s": 1,
   "from": "2021-09-15",
@@ -47,17 +57,17 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT03970616",
-    "drugs": [
-     "Tivozanib",
-     "Durvalumab"
-    ]
-   },
-   {
     "nct": "NCT04987203",
     "drugs": [
      "Tivozanib",
      "Nivolumab"
+    ]
+   },
+   {
+    "nct": "NCT03970616",
+    "drugs": [
+     "Tivozanib",
+     "Durvalumab"
     ]
    }
   ]

@@ -4,12 +4,12 @@
  "cik": "1815903",
  "name": "Petros Pharmaceuticals, Inc.",
  "date": "2025-04-29",
- "asof": "2025-05-05",
+ "asof": "2025-04-29",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2025-05-05",
-  "adj_close": 0.211
+  "date": "2025-04-29",
+  "adj_close": 0.325
  },
  "balance": {
   "end": "2024-12-31",
@@ -33,6 +33,19 @@
  "going_concern": {
   "flag": true,
   "quote": "In its report dated March 31, 2025, Marcum LLP, our independent registered public accounting firm, expressed substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "floating_convertible": "For installment amounts paid in shares of Common Stock, the number of shares of Common Stock shall be calculated by dividing the applicable payment amount due by the \u201cinstallment conversion price.\u201d The installment conversion price shall be equal to the lower of (i) the Conversion Price (as defined in the Certificate of Designations) in effect as of the applicable payment date and (ii) the greater ",
+  "price_reset_warrants": "In addition, we may be required to issue shares of Common Stock to the holders of Series A Preferred Stock upon conversion of the Series A Preferred Stock and the payment of the dividends to the holders thereof in Common Stock as a result of the full ratchet anti-dilution price protection in the Certificate of Designations if the effective Common Stock purchase price in a subsequent offering is le"
+ },
+ "debt": {
+  "usd": 7248635.0,
+  "tags": "NotesPayableCurrent"
+ },
+ "public_float": {
+  "usd": 3948512,
+  "as_of": "2024-06-30",
+  "filed": "2025-03-31"
  },
  "insiders": {
   "form4s": 5,

@@ -6,7 +6,7 @@
  "date": "2022-10-10",
  "asof": "2022-10-10",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-10-10",
   "adj_close": 4.22
@@ -35,6 +35,12 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 19892000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 8,
   "from": "2022-07-12",

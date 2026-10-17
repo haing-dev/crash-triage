@@ -4,12 +4,12 @@
  "cik": "1569340",
  "name": "Cell Source, Inc.",
  "date": "2023-02-06",
- "asof": "2023-02-10",
+ "asof": "2023-02-07",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2023-02-10",
-  "adj_close": 0.35
+  "date": "2023-02-07",
+  "adj_close": 0.5
  },
  "balance": {
   "end": "2022-09-30",
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "These conditions raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 1408000.0,
+  "tags": "NotesPayable"
+ },
+ "public_float": {
+  "usd": 45701873,
+  "as_of": "2021-06-30",
+  "filed": "2022-04-15"
  },
  "insiders": {
   "form4s": 0,

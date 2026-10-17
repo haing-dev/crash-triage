@@ -6,7 +6,7 @@
  "date": "2025-09-18",
  "asof": "2025-09-18",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-09-18",
   "adj_close": 9.38
@@ -33,6 +33,14 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {
+  "equity_line": "Condensed Consolidated Statements of Shareholders\u2019 Equity (Deficit) (Unaudited) (in thousands, except share amounts) Shares Amount Paid-in Capital Deficit Total Common Stock Additional Accumulated Shares Amount Paid-in Capital Deficit Total Balance, March 31, 2025 (unaudited) 16,376,118 $17 $17,192 $(10,077) $7,132 Issuance of common shares upon the exercise of pre-funded warrants 490,000 - - - - "
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 0,
   "from": "2025-06-20",

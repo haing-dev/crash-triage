@@ -6,7 +6,7 @@
  "date": "2023-06-05",
  "asof": "2023-06-05",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-06-05",
   "adj_close": 0.943
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "Based on such evaluation and the Company\u2019s current plans, management believes that the Company\u2019s existing cash and cash equivalents as of March 31, 2022 are not sufficient to satisfy its operating cash needs for at least one year after the filing of this Quarterly Report on Form 10-Q.Accordingly, su"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 8800000,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-31"
  },
  "insiders": {
   "form4s": 12,
@@ -62,7 +72,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "INOpulse (iNO45)",
  "trials": {
   "query": "bellerophon therapeutics",
   "other_trials": 0,

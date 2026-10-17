@@ -4,12 +4,12 @@
  "cik": "1553643",
  "name": "RELMADA THERAPEUTICS, INC.",
  "date": "2024-12-04",
- "asof": "2024-12-05",
+ "asof": "2024-12-04",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2024-12-05",
-  "adj_close": 0.44999999
+  "date": "2024-12-04",
+  "adj_close": 0.63
  },
  "balance": {
   "end": "2024-09-30",
@@ -34,6 +34,16 @@
  "going_concern": {
   "flag": true,
   "quote": "These conditions and events raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 72952616,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-19"
  },
  "insiders": {
   "form4s": 5,
@@ -98,7 +108,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "REL-1017",
  "trials": {
   "query": "relmada therapeutics",
   "other_trials": 1,

@@ -4,12 +4,12 @@
  "cik": "1394319",
  "name": "Tracon Pharmaceuticals, Inc.",
  "date": "2024-04-03",
- "asof": "2024-04-09",
+ "asof": "2024-04-08",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2024-04-09",
-  "adj_close": 3.362
+  "date": "2024-04-08",
+  "adj_close": 3.84
  },
  "balance": {
   "end": "2023-12-31",
@@ -34,25 +34,29 @@
   "flag": true,
   "quote": "There is substantial doubt as to our ability to continue as a going concern"
  },
+ "financing_terms": {
+  "equity_line": "We may fund our future liquidity needs by selling shares of our common stock under our existing Sales Agreement with JonesTrading and our common stock purchase agreement (the LPC Purchase Agreement) with Lincoln Park."
+ },
+ "debt": {
+  "usd": 9755000.0,
+  "tags": "DebtCurrent"
+ },
+ "public_float": {
+  "usd": 7600000,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-05"
+ },
  "insiders": {
   "form4s": 2,
   "from": "2024-01-04",
   "to": "2024-05-03",
   "trades": []
  },
- "drug": null,
+ "drug": "envafolimab",
  "trials": {
   "query": "tracon pharmaceuticals",
-  "other_trials": 1,
-  "crashed_drug_trials": 0,
-  "examples": [
-   {
-    "nct": "NCT04480502",
-    "drugs": [
-     "Envafolimab",
-     "Ipilimumab"
-    ]
-   }
-  ]
+  "other_trials": 0,
+  "crashed_drug_trials": 1,
+  "examples": []
  }
 }

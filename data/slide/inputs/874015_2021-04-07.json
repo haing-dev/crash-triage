@@ -6,7 +6,7 @@
  "date": "2021-04-07",
  "asof": "2021-04-07",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-04-07",
   "adj_close": 43.65
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 293161000.0,
+  "tags": "ConvertibleDebtCurrent"
+ },
+ "public_float": {
+  "usd": 6748320336,
+  "as_of": "2020-06-30",
+  "filed": "2021-02-24"
  },
  "insiders": {
   "form4s": 23,
@@ -97,36 +107,33 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT00048295",
+    "nct": "NCT04568434",
     "drugs": [
-     "Alicaforsen"
-    ]
-   },
-   {
-    "nct": "NCT03967249",
-    "drugs": [
-     "IONIS GHR-LRx",
-     "Somatostatin Receptor Ligand (SRL)"
-    ]
-   },
-   {
-    "nct": "NCT04441788",
-    "drugs": [
-     "ION-827359",
-     "ION-827359"
-    ]
-   },
-   {
-    "nct": "NCT04136184",
-    "drugs": [
-     "Inotersen",
-     "Eplontersen"
+     "Olezarsen"
     ]
    },
    {
     "nct": "NCT04136171",
     "drugs": [
      "Eplontersen"
+    ]
+   },
+   {
+    "nct": "NCT04307381",
+    "drugs": [
+     "Donidalorsen"
+    ]
+   },
+   {
+    "nct": "NCT04059406",
+    "drugs": [
+     "sapablursen"
+    ]
+   },
+   {
+    "nct": "NCT04014335",
+    "drugs": [
+     "IONIS-FB-LRx"
     ]
    }
   ]

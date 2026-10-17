@@ -6,7 +6,7 @@
  "date": "2024-11-15",
  "asof": "2024-11-15",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-11-15",
   "adj_close": 2.87
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "in October 2023; \u2022 our expectations regarding our ability to fund our operating expenses, our planned activities, and capital expenditure requirements with our cash, cash equivalents and investments; \u2022 our belief that our existing cash and cash equivalents will not be sufficient to enable us to fund"
+ },
+ "financing_terms": {
+  "equity_line": "27 To date, we have funded our operations through sales of common stock in our initial public offering, sales of common stock and warrants in follow-on public offerings, sales of common stock and warrants in a private placement, sales of common stock in \u201cat-the-market\u201d offerings, sales of common stock under our now terminated equity line with Lincoln Park Capital LLC, sales of preferred stock prio"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 6587576000,
+  "as_of": "2023-06-30",
+  "filed": "2024-04-29"
  },
  "insiders": {
   "form4s": 12,

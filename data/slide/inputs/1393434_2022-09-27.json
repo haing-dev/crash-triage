@@ -6,7 +6,7 @@
  "date": "2022-09-27",
  "asof": "2022-09-27",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-09-27",
   "adj_close": 4.31
@@ -32,6 +32,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 27567000.0,
+  "tags": "ConvertibleDebtNoncurrent"
+ },
+ "public_float": {
+  "usd": 1079000000,
+  "as_of": "2021-06-30",
+  "filed": "2022-02-28"
  },
  "insiders": {
   "form4s": 5,

@@ -6,7 +6,7 @@
  "date": "2023-12-14",
  "asof": "2023-12-14",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-12-14",
   "adj_close": 13.4
@@ -35,13 +35,23 @@
   "flag": true,
   "quote": "We have identified conditions and events that raise substantial doubt about our ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 38700000,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-27"
+ },
  "insiders": {
   "form4s": 0,
   "from": "2023-09-15",
   "to": "2024-01-13",
   "trades": []
  },
- "drug": null,
+ "drug": "mavodelpar",
  "trials": {
   "query": "onkure therapeutics",
   "other_trials": 0,

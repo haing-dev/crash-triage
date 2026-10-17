@@ -6,7 +6,7 @@
  "date": "2024-07-29",
  "asof": "2024-08-02",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-08-02",
   "adj_close": 256.564
@@ -34,13 +34,23 @@
   "flag": true,
   "quote": "Therefore, there is substantial doubt about the Company\u2019s ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 9500000,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-28"
+ },
  "insiders": {
   "form4s": 0,
   "from": "2024-04-30",
   "to": "2024-08-28",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "gri bio",
   "other_trials": 1,

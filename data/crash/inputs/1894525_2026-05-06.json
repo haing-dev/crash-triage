@@ -4,12 +4,12 @@
  "cik": "1894525",
  "name": "Apimeds Pharmaceuticals US, Inc.",
  "date": "2026-05-06",
- "asof": "2026-05-12",
+ "asof": "2026-05-07",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2026-05-12",
-  "adj_close": 1.34
+  "date": "2026-05-07",
+  "adj_close": 1.45
  },
  "balance": {
   "end": "2025-12-31",
@@ -34,6 +34,16 @@
  "going_concern": {
   "flag": true,
   "quote": "These conditions raise substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 7091263.0,
+  "tags": "ConvertibleNotesPayableCurrent"
+ },
+ "public_float": {
+  "usd": 7811096.48,
+  "as_of": "2025-06-30",
+  "filed": "2026-05-04"
  },
  "insiders": {
   "form4s": 0,

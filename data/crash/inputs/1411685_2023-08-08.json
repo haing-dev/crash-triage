@@ -6,7 +6,7 @@
  "date": "2023-08-08",
  "asof": "2023-08-11",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-08-11",
   "adj_close": 6.42
@@ -34,6 +34,16 @@
   "flag": true,
   "quote": "We had cash and cash equivalents of approximately $9.6 million at June 30, 2023, which we believe will not be sufficient to fund our planned operations for the twelve months following the issuance of these Condensed Consolidated Financial Statements, which raises substantial doubt regarding our abil"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 31202662,
+  "as_of": "2022-09-30",
+  "filed": "2023-06-28"
+ },
  "insiders": {
   "form4s": 5,
   "from": "2023-05-10",
@@ -48,7 +58,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "vistagen therapeutics",
   "other_trials": 1,

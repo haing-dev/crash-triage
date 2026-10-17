@@ -6,7 +6,7 @@
  "date": "2025-07-22",
  "asof": "2025-07-22",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-07-22",
   "adj_close": 2.805
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 46377000.0,
+  "tags": "LongTermDebtNoncurrent"
+ },
+ "public_float": {
+  "usd": 523200000,
+  "as_of": "2024-09-30",
+  "filed": "2025-05-22"
  },
  "insiders": {
   "form4s": 7,
@@ -113,19 +123,19 @@
     ]
    },
    {
-    "nct": "NCT05733598",
-    "drugs": [
-     "RP2",
-     "Bevacizumab",
-     "Atezolizumab"
-    ]
-   },
-   {
     "nct": "NCT05743270",
     "drugs": [
      "RP3",
      "CCRT(concurrent chemoradiation therapy)",
      "carboplatin and paclitaxel"
+    ]
+   },
+   {
+    "nct": "NCT05733598",
+    "drugs": [
+     "RP2",
+     "Bevacizumab",
+     "Atezolizumab"
     ]
    }
   ]

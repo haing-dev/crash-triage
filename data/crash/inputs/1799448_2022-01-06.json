@@ -4,12 +4,12 @@
  "cik": "1799448",
  "name": "Aligos Therapeutics, Inc.",
  "date": "2022-01-06",
- "asof": "2022-01-10",
+ "asof": "2022-01-06",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2022-01-10",
-  "adj_close": 93.25
+  "date": "2022-01-06",
+  "adj_close": 114.75
  },
  "balance": {
   "end": "2021-09-30",
@@ -34,13 +34,19 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 1,
   "from": "2021-10-08",
   "to": "2022-02-05",
   "trades": []
  },
- "drug": null,
+ "drug": "ALG-010133",
  "trials": {
   "query": "aligos therapeutics",
   "other_trials": 0,

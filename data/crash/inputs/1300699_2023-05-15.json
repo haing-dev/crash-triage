@@ -6,7 +6,7 @@
  "date": "2023-05-15",
  "asof": "2023-05-15",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-05-15",
   "adj_close": 0.4475
@@ -34,6 +34,18 @@
  "going_concern": {
   "flag": true,
   "quote": "Risks Related to Our Financial Position and Need for Additional Capital We have incurred net losses every year since our inception and anticipate that we will continue to incur net losses for the foreseeable future, and as a result, our management has identified and our auditors agreed that there is"
+ },
+ "financing_terms": {
+  "equity_line": "Additionally, on July 7, 2022, the Company entered into an Equity Purchase Agreement with TiHe Capital (Beijing) Co."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 32500000,
+  "as_of": "2022-06-30",
+  "filed": "2023-04-28"
  },
  "insiders": {
   "form4s": 25,

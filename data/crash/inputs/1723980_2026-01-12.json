@@ -4,12 +4,12 @@
  "cik": "1723980",
  "name": "China SXT Pharmaceuticals, Inc.",
  "date": "2026-01-12",
- "asof": "2026-01-16",
+ "asof": "2026-01-12",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2026-01-16",
-  "adj_close": 1140.0
+  "date": "2026-01-12",
+  "adj_close": 21.3
  },
  "balance": {
   "end": "2025-09-30",
@@ -33,6 +33,12 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 159850.0,
+  "tags": "ConvertibleNotesPayable"
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 0,
   "from": "2025-10-14",

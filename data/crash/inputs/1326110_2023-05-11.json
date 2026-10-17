@@ -4,12 +4,12 @@
  "cik": "1326110",
  "name": "ImmunityBio, Inc.",
  "date": "2023-05-11",
- "asof": "2023-05-12",
+ "asof": "2023-05-11",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2023-05-12",
-  "adj_close": 2.28
+  "date": "2023-05-11",
+  "adj_close": 2.79
  },
  "balance": {
   "end": "2023-03-31",
@@ -34,6 +34,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 302100000,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-01"
  },
  "insiders": {
   "form4s": 4,
@@ -91,48 +101,26 @@
    }
   ]
  },
- "drug": null,
+ "drug": "Anktiva (N-803) plus BCG",
  "trials": {
   "query": "immunitybio",
-  "other_trials": 7,
-  "crashed_drug_trials": 0,
+  "other_trials": 2,
+  "crashed_drug_trials": 5,
   "examples": [
-   {
-    "nct": "NCT03022825",
-    "drugs": [
-     "N-803 and BCG",
-     "N-803"
-    ]
-   },
-   {
-    "nct": "NCT04390399",
-    "drugs": [
-     "N-803",
-     "Aldoxorubicin HCl",
-     "PD-L1 t-haNK"
-    ]
-   },
-   {
-    "nct": "NCT02138734",
-    "drugs": [
-     "BCG (50mg/instillation) + N-803 (400 \u03bcg/instillation)",
-     "BCG (50mg/instillation)"
-    ]
-   },
-   {
-    "nct": "NCT03228667",
-    "drugs": [
-     "N-803 + Pembrolizumab",
-     "N-803 + Nivolumab",
-     "N-803 + Atezolizumab"
-    ]
-   },
    {
     "nct": "NCT05370040",
     "drugs": [
      "AAHI-SC2 Vaccine",
      "AAHI-SC3 Vaccine",
      "EUA or approved vaccine"
+    ]
+   },
+   {
+    "nct": "NCT05304936",
+    "drugs": [
+     "HCW9218",
+     "Gemcitabine (GEM)",
+     "Nab-paclitaxel"
     ]
    }
   ]

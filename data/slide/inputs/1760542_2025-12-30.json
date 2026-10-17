@@ -6,7 +6,7 @@
  "date": "2025-12-30",
  "asof": "2025-12-30",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-12-30",
   "adj_close": 0.875
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "Our business and our forward-looking statements involve substantial known and unknown risks and uncertainties, including the risks and uncertainties inherent in our statements regarding: \u25cfthe success, cost and timing of our product development activities and clinical trials; \u25cfthe substantial doubt r"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 57000000,
+  "as_of": "2024-12-31",
+  "filed": "2025-04-30"
  },
  "insiders": {
   "form4s": 1,

@@ -6,7 +6,7 @@
  "date": "2023-09-08",
  "asof": "2023-09-08",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-09-08",
   "adj_close": 7.49
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "-6- Table of Contents Going Concern Update As disclosed in the Company\u2019s previous filings, the Company had previously determined that there were factors, which was principally the result of our noncompliance with financial covenants, that raised substantial doubt about its ability to continue as a g"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 98964000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 225356000,
+  "as_of": "2020-11-29",
+  "filed": "2023-03-16"
  },
  "insiders": {
   "form4s": 0,

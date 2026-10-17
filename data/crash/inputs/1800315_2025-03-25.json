@@ -6,7 +6,7 @@
  "date": "2025-03-25",
  "asof": "2025-03-31",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-03-31",
   "adj_close": 3.1
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "The report from our independent registered public accounting firm for the year ended December 31, 2024 includes an explanatory paragraph stating that our losses from operations and required additional funding to finance our operations raise substantial doubt about our ability to continue as a going "
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 12300000,
+  "as_of": "2024-06-28",
+  "filed": "2025-03-19"
  },
  "insiders": {
   "form4s": 4,

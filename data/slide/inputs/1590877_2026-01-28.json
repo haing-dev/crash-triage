@@ -6,7 +6,7 @@
  "date": "2026-01-28",
  "asof": "2026-01-28",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-01-28",
   "adj_close": 11.01
@@ -35,6 +35,16 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 536344977,
+  "as_of": "2024-06-30",
+  "filed": "2025-03-13"
+ },
  "insiders": {
   "form4s": 12,
   "from": "2025-10-30",
@@ -48,15 +58,15 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT05693142",
-    "drugs": [
-     "RGX-202"
-    ]
-   },
-   {
     "nct": "NCT07236606",
     "drugs": [
      "RGX-121-3102"
+    ]
+   },
+   {
+    "nct": "NCT05693142",
+    "drugs": [
+     "RGX-202"
     ]
    },
    {

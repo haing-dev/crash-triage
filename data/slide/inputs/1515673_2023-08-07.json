@@ -6,7 +6,7 @@
  "date": "2023-08-07",
  "asof": "2023-08-07",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-08-07",
   "adj_close": 36.14
@@ -34,6 +34,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 3300000000,
+  "as_of": "2022-06-30",
+  "filed": "2023-02-17"
  },
  "insiders": {
   "form4s": 13,
@@ -98,27 +108,6 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT05139316",
-    "drugs": [
-     "DTX401",
-     "Oral prednisolone"
-    ]
-   },
-   {
-    "nct": "NCT05125809",
-    "drugs": [
-     "Setrusumab"
-    ]
-   },
-   {
-    "nct": "NCT05345171",
-    "drugs": [
-     "DTX301",
-     "Oral Corticosteroids",
-     "Sodium Acetate"
-    ]
-   },
-   {
     "nct": "NCT05933200",
     "drugs": [
      "Triheptanoin",
@@ -126,9 +115,32 @@
     ]
    },
    {
-    "nct": "NCT04259281",
+    "nct": "NCT05139316",
     "drugs": [
-     "GTX-102"
+     "DTX401",
+     "Oral prednisolone"
+    ]
+   },
+   {
+    "nct": "NCT04884815",
+    "drugs": [
+     "UX701",
+     "Standard of Care (SOC)"
+    ]
+   },
+   {
+    "nct": "NCT04360265",
+    "drugs": [
+     "No Investigational Product",
+     "Adjuvant Immunomodulatory (IM) Therapy"
+    ]
+   },
+   {
+    "nct": "NCT02716246",
+    "drugs": [
+     "UX111",
+     "Prophylactic Immunomodulatory (IM) Therapy",
+     "Optimized Prophylactic IM Therapy"
     ]
    }
   ]

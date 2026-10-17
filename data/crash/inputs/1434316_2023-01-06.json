@@ -6,7 +6,7 @@
  "date": "2023-01-06",
  "asof": "2023-01-06",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-01-06",
   "adj_close": 4.24
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "The Company determined that there are no conditions or events that raise substantial doubt about its ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 6960000000,
+  "as_of": "2021-06-30",
+  "filed": "2022-02-28"
  },
  "insiders": {
   "form4s": 9,
@@ -97,7 +107,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "FT596",
  "trials": {
   "query": "fate therapeutics",
   "other_trials": 0,

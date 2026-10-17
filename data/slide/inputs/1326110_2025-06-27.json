@@ -6,7 +6,7 @@
  "date": "2025-06-27",
  "asof": "2025-06-27",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-06-27",
   "adj_close": 2.7
@@ -34,6 +34,16 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 980300000,
+  "as_of": "2024-06-28",
+  "filed": "2025-03-03"
+ },
  "insiders": {
   "form4s": 5,
   "from": "2025-03-29",
@@ -47,11 +57,11 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT06061809",
+    "nct": "NCT03520686",
     "drugs": [
-     "Bevacizumab",
-     "PD-L1 t-haNK",
-     "N-803"
+     "NAI + Pembrolizumab",
+     "NAI + Nivolumab + Ipilimumab",
+     "NAI + Pembrolizumab + Carboplatin + Nab-paclitaxel or Paclitaxel"
     ]
    },
    {
@@ -63,10 +73,11 @@
     ]
    },
    {
-    "nct": "NCT02138734",
+    "nct": "NCT06710288",
     "drugs": [
-     "BCG (50mg/instillation) + N-803 (400 \u03bcg/instillation)",
-     "BCG (50mg/instillation)"
+     "Gemcitabine",
+     "N-803",
+     "M-CENK"
     ]
    },
    {
@@ -78,11 +89,10 @@
     ]
    },
    {
-    "nct": "NCT06710288",
+    "nct": "NCT02138734",
     "drugs": [
-     "Gemcitabine",
-     "N-803",
-     "M-CENK"
+     "BCG (50mg/instillation) + N-803 (400 \u03bcg/instillation)",
+     "BCG (50mg/instillation)"
     ]
    }
   ]

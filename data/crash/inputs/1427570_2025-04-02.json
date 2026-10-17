@@ -4,35 +4,45 @@
  "cik": "1427570",
  "name": "Vyome Holdings, Inc",
  "date": "2025-04-02",
- "asof": "2025-04-08",
+ "asof": "2025-04-02",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2025-04-08",
-  "adj_close": 37.9
+  "date": "2025-04-02",
+  "adj_close": 45.0
  },
  "balance": {
-  "end": "2024-12-31",
-  "cash": 693000,
+  "end": "2024-09-30",
+  "cash": 743000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001558370-25-004477"
+  "accn": "0001558370-24-015732"
  },
  "burn6": {
-  "end": "2024-12-31",
-  "start": "2024-07-01",
-  "cash_used_ops": 998000.0,
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": 1668000.0,
   "capex": 0.0,
   "periods": 2
  },
  "shares": {
-  "end": "2025-04-02",
-  "shares": 11276248
+  "end": "2024-11-12",
+  "shares": 712680
  },
  "going_concern": {
   "flag": true,
-  "quote": "This condition raises substantial doubt about our ability to continue as a going concern"
+  "quote": "This condition raises substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 5074445,
+  "as_of": "2023-06-30",
+  "filed": "2024-04-01"
  },
  "insiders": {
   "form4s": 0,

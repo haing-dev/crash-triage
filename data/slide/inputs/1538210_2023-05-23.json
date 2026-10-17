@@ -6,7 +6,7 @@
  "date": "2023-05-23",
  "asof": "2023-05-23",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-05-23",
   "adj_close": 8.975
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "While we have no outstanding debt and $22.3 million in cash and cash equivalents as of March 31, 2023, the Company expects its negative cash flows from operating activities to continue and thus has determined that its losses and negative cash flows from operations and uncertainty in generating suffi"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 28700000,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-28"
  },
  "insiders": {
   "form4s": 11,

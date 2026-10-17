@@ -6,7 +6,7 @@
  "date": "2025-02-27",
  "asof": "2025-02-27",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-02-27",
   "adj_close": 8.11
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 745600000,
+  "as_of": "2024-06-30",
+  "filed": "2025-02-27"
  },
  "insiders": {
   "form4s": 12,
@@ -118,19 +128,19 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT04856085",
-    "drugs": [
-     "VIR-2218",
-     "VIR-3434",
-     "PEG-IFN\u03b1"
-    ]
-   },
-   {
     "nct": "NCT05461170",
     "drugs": [
      "VIR-2218",
      "VIR-3434",
      "NRTI"
+    ]
+   },
+   {
+    "nct": "NCT04856085",
+    "drugs": [
+     "VIR-2218",
+     "VIR-3434",
+     "PEG-IFN\u03b1"
     ]
    },
    {

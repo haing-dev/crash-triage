@@ -6,7 +6,7 @@
  "date": "2020-11-12",
  "asof": "2020-11-12",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2020-11-12",
   "adj_close": 1625.0
@@ -15,13 +15,16 @@
  "burn6": null,
  "shares": null,
  "going_concern": null,
+ "financing_terms": null,
+ "debt": null,
+ "public_float": null,
  "insiders": {
   "form4s": 0,
   "from": "2020-08-14",
   "to": "2020-12-12",
   "trades": []
  },
- "drug": null,
+ "drug": "INM-755",
  "trials": {
   "query": "inmed pharmaceuticals",
   "other_trials": 0,

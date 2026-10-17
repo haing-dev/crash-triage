@@ -6,7 +6,7 @@
  "date": "2023-11-16",
  "asof": "2023-11-16",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-11-16",
   "adj_close": 1.25
@@ -34,13 +34,25 @@
   "flag": true,
   "quote": "Based on such evaluation and the Company's current plans, which are subject to change, management believes there is substantial doubt about the Company's ability to continue as a going concern"
  },
+ "financing_terms": {
+  "price_reset_warrants": "The Series A Warrants have a 5-year term and an exercise price of $2.7953, subject to the number of shares and exercise price being reset based on our stock price after the Merger."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 20000000,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-31"
+ },
  "insiders": {
   "form4s": 3,
   "from": "2023-08-18",
   "to": "2023-12-16",
   "trades": []
  },
- "drug": null,
+ "drug": "TMB-001",
  "trials": {
   "query": "trex wind down",
   "other_trials": 0,

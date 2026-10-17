@@ -6,7 +6,7 @@
  "date": "2025-04-03",
  "asof": "2025-04-03",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-04-03",
   "adj_close": 0.91500002
@@ -33,6 +33,19 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "floating_convertible": "On November 17, 2023, the Company entered another securities purchase agreement with Lind, pursuant to which the Company issued Lind a secured, convertible note (the \u201c2nd Lind Note\u201d) in the principal amount of $1,200,000, for a purchase price of $1,000,000, that is convertible into shares of the Company\u2019s common stock at a conversion price, which shall be the lesser of (i) $3.50 and (ii) 90% of th",
+  "price_reset_warrants": "The warrant exercise price was reset to $3.5 in accordance with the issuance of common stock in relation to securities purchase agreement in July 2023."
+ },
+ "debt": {
+  "usd": 1000000.0,
+  "tags": "LoansPayable"
+ },
+ "public_float": {
+  "usd": 5200000,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-15"
  },
  "insiders": {
   "form4s": 0,

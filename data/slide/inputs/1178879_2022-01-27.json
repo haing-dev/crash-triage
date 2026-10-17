@@ -6,7 +6,7 @@
  "date": "2022-01-27",
  "asof": "2022-01-27",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-01-27",
   "adj_close": 8.7
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 388719000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 3851129284,
+  "as_of": "2020-06-30",
+  "filed": "2021-03-01"
  },
  "insiders": {
   "form4s": 17,
@@ -118,6 +128,13 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
+    "nct": "NCT02675465",
+    "drugs": [
+     "ATB200",
+     "AT2221"
+    ]
+   },
+   {
     "nct": "NCT04049760",
     "drugs": [
      "migalastat HCl 150 mg"
@@ -135,13 +152,6 @@
     "drugs": [
      "AT2221",
      "ATB200"
-    ]
-   },
-   {
-    "nct": "NCT02675465",
-    "drugs": [
-     "ATB200",
-     "AT2221"
     ]
    }
   ]

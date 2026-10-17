@@ -6,7 +6,7 @@
  "date": "2026-08-28",
  "asof": "2026-09-01",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-09-01",
   "adj_close": 1.08
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "Management\u2019s assessment concluded that there is substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "equity_line": "In November 2025, the Company entered into the Standby Equity Purchase Agreement (the \u201cSEPA\u201d) with YA II PN, Ltd."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 18700000,
+  "as_of": "2025-06-30",
+  "filed": "2026-04-29"
  },
  "insiders": {
   "form4s": 6,

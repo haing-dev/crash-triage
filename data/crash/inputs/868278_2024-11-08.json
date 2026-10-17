@@ -4,12 +4,12 @@
  "cik": "868278",
  "name": "ProPhase Labs, Inc.",
  "date": "2024-11-08",
- "asof": "2024-11-11",
+ "asof": "2024-11-08",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2024-11-11",
-  "adj_close": 7.39
+  "date": "2024-11-08",
+  "adj_close": 7.8
  },
  "balance": {
   "end": "2024-06-30",
@@ -34,13 +34,23 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 100240301,
+  "as_of": "2023-06-30",
+  "filed": "2024-04-29"
+ },
  "insiders": {
   "form4s": 0,
   "from": "2024-08-10",
   "to": "2024-12-08",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "prophase labs",
   "other_trials": 0,

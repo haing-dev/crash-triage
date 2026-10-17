@@ -6,7 +6,7 @@
  "date": "2024-04-05",
  "asof": "2024-04-05",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-04-05",
   "adj_close": 19.8
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "See \"Note Regarding Forward-Looking Statements.\" 37 Table of contents Risks Related to Our Financial Position and Capital Resources We have identified conditions and events that raise substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 130227000.0,
+  "tags": "LongTermDebtCurrent"
+ },
+ "public_float": {
+  "usd": 119300000,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-07"
  },
  "insiders": {
   "form4s": 8,

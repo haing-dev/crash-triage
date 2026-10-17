@@ -6,7 +6,7 @@
  "date": "2024-05-10",
  "asof": "2024-05-10",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-05-10",
   "adj_close": 4.82
@@ -34,6 +34,16 @@
  "going_concern": {
   "flag": true,
   "quote": "These factors raise substantial doubt as to the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 5059000.0,
+  "tags": "LongTermNotesPayable"
+ },
+ "public_float": {
+  "usd": 172100000,
+  "as_of": "2023-06-30",
+  "filed": "2024-04-01"
  },
  "insiders": {
   "form4s": 7,

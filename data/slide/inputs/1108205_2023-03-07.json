@@ -6,10 +6,10 @@
  "date": "2023-03-07",
  "asof": "2023-03-07",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-03-07",
-  "adj_close": 276.0
+  "adj_close": 13.8
  },
  "balance": {
   "end": "2022-09-30",
@@ -33,6 +33,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "(c)Aspire Capital Fund LLC In February 2020, the Company entered into a common stock purchase agreement (the \u201cAgreement\u201d) with Aspire Capital Fund, LLC (\u201cAspire Capital\u201d) for the sale of up to $30.0 million of the Company's common stock."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 737100000,
+  "as_of": "2021-06-30",
+  "filed": "2022-02-24"
  },
  "insiders": {
   "form4s": 8,

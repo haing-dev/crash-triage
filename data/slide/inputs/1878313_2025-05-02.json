@@ -6,7 +6,7 @@
  "date": "2025-05-02",
  "asof": "2025-05-02",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-05-02",
   "adj_close": 2.05
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "Forward-looking statements contained in this Annual Report on Form 10-K include, but are not limited to, statements about: \u2022 our financial performance; \u2022 there is substantial doubt regarding our ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 67463300,
+  "as_of": "2024-06-30",
+  "filed": "2025-03-21"
  },
  "insiders": {
   "form4s": 18,

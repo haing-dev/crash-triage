@@ -6,7 +6,7 @@
  "date": "2021-11-26",
  "asof": "2021-11-26",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-11-26",
   "adj_close": 22.47
@@ -34,6 +34,16 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 296437000.0,
+  "tags": "LongTermDebtNoncurrent+LongTermDebtCurrent"
+ },
+ "public_float": {
+  "usd": 3057878108,
+  "as_of": "2020-06-30",
+  "filed": "2021-04-29"
+ },
  "insiders": {
   "form4s": 15,
   "from": "2021-08-28",
@@ -53,16 +63,16 @@
     ]
    },
    {
+    "nct": "NCT03201757",
+    "drugs": [
+     "ALKS 3831"
+    ]
+   },
+   {
     "nct": "NCT03187769",
     "drugs": [
      "ALKS 3831",
      "Olanzapine"
-    ]
-   },
-   {
-    "nct": "NCT03201757",
-    "drugs": [
-     "ALKS 3831"
     ]
    }
   ]

@@ -4,12 +4,12 @@
  "cik": "1357459",
  "name": "PALISADE BIO, INC.",
  "date": "2023-09-07",
- "asof": "2023-09-13",
+ "asof": "2023-09-12",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2023-09-13",
-  "adj_close": 9.75
+  "date": "2023-09-12",
+  "adj_close": 10.35
  },
  "balance": {
   "end": "2023-06-30",
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "Based on the Company\u2019s current working capital, anticipated operating expenses, and anticipated net operating losses, there is substantial doubt about the Company's ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 8100000,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-22"
  },
  "insiders": {
   "form4s": 17,
@@ -69,7 +79,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "GT-2108",
  "trials": {
   "query": "palisade bio",
   "other_trials": 0,

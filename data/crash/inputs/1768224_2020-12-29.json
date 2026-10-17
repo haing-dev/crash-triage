@@ -6,7 +6,7 @@
  "date": "2020-12-29",
  "asof": "2020-12-29",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2020-12-29",
   "adj_close": 42.36
@@ -32,6 +32,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "Pursuant to the terms of the equity purchase agreement between the Company and Ultragenyx, the transfer restrictions will terminate on November 20, 2020 as a result of the purchase of the 0.6 million option shares."
+ },
+ "debt": {
+  "usd": 15076000.0,
+  "tags": "LongTermDebtNoncurrent"
+ },
+ "public_float": {
+  "usd": 76400000,
+  "as_of": "2019-06-28",
+  "filed": "2020-03-16"
  },
  "insiders": {
   "form4s": 11,

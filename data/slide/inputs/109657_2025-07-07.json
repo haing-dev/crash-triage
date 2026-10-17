@@ -6,10 +6,10 @@
  "date": "2025-07-07",
  "asof": "2025-07-07",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-07-07",
-  "adj_close": 54.25
+  "adj_close": 2.17
  },
  "balance": {
   "end": "2025-03-31",
@@ -33,6 +33,19 @@
  "going_concern": {
   "flag": true,
   "quote": "These factors raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "price_reset_warrants": "The Preferred Shares and Warrants both have full ratchet price protection and are subject to other adjustments, as further described in the Certificate of Designation or the Warrants, as applicable, subject, solely with respect to adjustments in connection with the exercise of Greenshoe Rights, a floor price of $0.454 per share (subject to adjustment for reverse and forward splits, recapitalizatio",
+  "equity_line": "Private Placement On May 14, 2025, the Company entered into a common shares purchase agreement (the \u201cPurchase Agreement\u201d) with investors (collectively, the \u201cInvestors\u201d) relating to a committed equity facility (the \u201cFacility\u201d)."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 5100000,
+  "as_of": "2024-06-30",
+  "filed": "2025-04-14"
  },
  "insiders": {
   "form4s": 0,

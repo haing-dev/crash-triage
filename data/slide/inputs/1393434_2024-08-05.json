@@ -6,7 +6,7 @@
  "date": "2024-08-05",
  "asof": "2024-08-05",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-08-05",
   "adj_close": 7.45
@@ -32,6 +32,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 66456000.0,
+  "tags": "LongTermNotesPayable"
+ },
+ "public_float": {
+  "usd": 405700000,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-11"
  },
  "insiders": {
   "form4s": 12,

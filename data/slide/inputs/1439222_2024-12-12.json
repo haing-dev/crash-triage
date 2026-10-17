@@ -6,7 +6,7 @@
  "date": "2024-12-12",
  "asof": "2024-12-12",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-12-12",
   "adj_close": 38.17
@@ -34,6 +34,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 1557785326,
+  "as_of": "2023-06-30",
+  "filed": "2024-02-15"
  },
  "insiders": {
   "form4s": 6,
@@ -126,15 +136,15 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT05490446",
-    "drugs": [
-     "Tebapivat"
-    ]
-   },
-   {
     "nct": "NCT05175105",
     "drugs": [
      "Mitapivat"
+    ]
+   },
+   {
+    "nct": "NCT05490446",
+    "drugs": [
+     "Tebapivat"
     ]
    },
    {

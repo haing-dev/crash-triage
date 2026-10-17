@@ -4,12 +4,12 @@
  "cik": "1174940",
  "name": "ORAGENICS INC",
  "date": "2025-07-01",
- "asof": "2025-07-02",
+ "asof": "2025-07-01",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2025-07-02",
-  "adj_close": 1.44
+  "date": "2025-07-01",
+  "adj_close": 1.55
  },
  "balance": {
   "end": "2025-03-31",
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "Going Concern In light of our recurring losses, accumulated deficit and negative cash flow, the report of our independent registered public accounting firm on our consolidated financial statements for the year ended December 31, 2024 contained an explanatory paragraph raising substantial doubt about"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 2554385.0,
+  "tags": "NotesPayableCurrent"
+ },
+ "public_float": {
+  "usd": 4740189,
+  "as_of": "2024-06-28",
+  "filed": "2025-03-14"
  },
  "insiders": {
   "form4s": 2,

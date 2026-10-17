@@ -4,12 +4,12 @@
  "cik": "1517681",
  "name": "Propanc Biopharma, Inc.",
  "date": "2026-08-28",
- "asof": "2026-09-03",
+ "asof": "2026-09-02",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2026-09-03",
-  "adj_close": 1.02
+  "date": "2026-09-02",
+  "adj_close": 1.03
  },
  "balance": {
   "end": "2026-03-31",
@@ -33,6 +33,19 @@
  "going_concern": {
   "flag": true,
   "quote": "This raises substantial doubt about its ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "floating_convertible": "The conversion price shall be the lesser of the fixed conversion price of $125.00 per share or 85% of the lowest trading price of the Common Stock during the period beginning on the day the holder sends a conversion notice to the Company and ending on the trading day on which the aggregate dollar volume of the Company\u2019s common stock exceeds the product of the conversion amount set forth on the app",
+  "equity_line": "Common Stock Shares issued under the Equity Lines Dutchess Capital Growth Fund LP (\u201cDutchess\u201d) On July 13, 2022, the Company issued de minimis shares of its common stock at an average price per share of approximately $3 million, as a result of delivering one Dutchess Draw Down Notice to Dutchess."
+ },
+ "debt": {
+  "usd": 55000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 47895,
+  "as_of": "2024-12-31",
+  "filed": "2025-09-29"
  },
  "insiders": {
   "form4s": 0,

@@ -6,7 +6,7 @@
  "date": "2022-05-06",
  "asof": "2022-05-06",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-05-06",
   "adj_close": 40.66
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 189168000.0,
+  "tags": "ConvertibleDebtNoncurrent"
+ },
+ "public_float": {
+  "usd": 4074163162,
+  "as_of": "2021-06-30",
+  "filed": "2022-02-28"
  },
  "insiders": {
   "form4s": 32,
@@ -195,27 +205,27 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT04572854",
-    "drugs": [
-     "Pegcetacoplan"
-    ]
-   },
-   {
     "nct": "NCT03531255",
     "drugs": [
      "Pegcetacoplan"
     ]
    },
    {
-    "nct": "NCT03226678",
+    "nct": "NCT04572854",
     "drugs": [
-     "APL-2"
+     "Pegcetacoplan"
     ]
    },
    {
     "nct": "NCT04901936",
     "drugs": [
      "Pegcetacoplan"
+    ]
+   },
+   {
+    "nct": "NCT04579666",
+    "drugs": [
+     "Pegcetacoplan (APL-2)"
     ]
    },
    {

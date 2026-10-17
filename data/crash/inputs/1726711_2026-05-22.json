@@ -6,7 +6,7 @@
  "date": "2026-05-22",
  "asof": "2026-05-22",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2026-05-22",
   "adj_close": 0.515
@@ -33,6 +33,19 @@
  "going_concern": {
   "flag": true,
   "quote": "We believe our remaining funds on hand will not be sufficient to fund our operations for the next 12 months and such creates substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "price_reset_warrants": "28 Warrants A summary of warrant issuances are as follows: Vested and Nonvested Warrants Number Weighted Average Exercise Price Weighted Average Remaining Life Outstanding December 31, 2025 77 $19,764,861,421.50 1.49 Granted - - - Issued due to resets 698,798 18.63 3.24 Exercised - - - Expired or forfeited (4) 1,952,640,000,000.00 - Outstanding March 31, 2026 698,871 $9,068,800.72 3.24 Nonvested W",
+  "equity_line": "ELOC Activity On May 2, 2024, the Company entered into a Common Stock Purchase Agreement (the \u201cELOC Purchase Agreement\u201d) with an equity line investor (the \u201cELOC Investor\u201d), pursuant to which the ELOC Investor has agreed to purchase from the Company, at the Company\u2019s direction from time to time, in its sole discretion, from and after the date effective date of the Registration Statement (as defined"
+ },
+ "debt": {
+  "usd": 3306211.0,
+  "tags": "NotesPayableCurrent"
+ },
+ "public_float": {
+  "usd": 4316100,
+  "as_of": "2025-06-30",
+  "filed": "2026-03-31"
  },
  "insiders": {
   "form4s": 11,

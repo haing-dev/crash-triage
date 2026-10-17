@@ -4,12 +4,12 @@
  "cik": "1782107",
  "name": "Onconetix, Inc.",
  "date": "2026-03-27",
- "asof": "2026-03-31",
+ "asof": "2026-03-30",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2026-03-31",
-  "adj_close": 14.9
+  "date": "2026-03-30",
+  "adj_close": 15.7
  },
  "balance": {
   "end": "2025-12-31",
@@ -33,6 +33,19 @@
  "going_concern": {
   "flag": true,
   "quote": "These circumstances raise substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "floating_convertible": "Alternate Conversion Price means, with respect to any Alternate Conversion that price will be the lowest of (i) the applicable Conversion Price as in effect on the applicable Conversion Date of the applicable Alternate Conversion, and (ii) the greater of (x) the Floor Price and (y) 80% of the lowest VWAP of the Common Stock during the five (5) consecutive Trading Day period ending and including th",
+  "equity_line": "Additionally, the obligation of Realbotix, Parent and us to complete the Closing are subject to the conditions that (i) we have entered into an agreement with an investor, reasonably acceptable to us and Realbotix, providing for an equity line of credit pursuant to which such investor would commit to purchase up to an aggregate of $125.0 million of Common Stock and (ii) the conversion of our Prefe"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 3600000,
+  "as_of": "2025-06-30",
+  "filed": "2026-03-13"
  },
  "insiders": {
   "form4s": 3,

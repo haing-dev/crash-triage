@@ -6,7 +6,7 @@
  "date": "2024-11-21",
  "asof": "2024-11-21",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-11-21",
   "adj_close": 2.1
@@ -34,6 +34,16 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 97000000,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-21"
+ },
  "insiders": {
   "form4s": 1,
   "from": "2024-08-23",
@@ -55,7 +65,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "PYX-201",
  "trials": {
   "query": "pyxis oncology",
   "other_trials": 0,

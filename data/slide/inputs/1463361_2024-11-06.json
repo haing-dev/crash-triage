@@ -6,7 +6,7 @@
  "date": "2024-11-06",
  "asof": "2024-11-06",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-11-06",
   "adj_close": 1.15
@@ -34,6 +34,18 @@
  "going_concern": {
   "flag": true,
   "quote": "\u2022 Our financial condition raises substantial doubt as to our ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "equity_line": "We have historically financed our operations primarily through private placements of preferred stock and promissory notes, as well as public equity issuances, such as our initial public offering, and more recently through proceeds from our Loan Agreement, our prior and existing at-the-market offering programs, the Equity Purchase Agreement, and the sale of common stock and warrants in the Follow-O"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 34108688,
+  "as_of": "2023-06-30",
+  "filed": "2024-04-15"
  },
  "insiders": {
   "form4s": 3,

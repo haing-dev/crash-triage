@@ -6,7 +6,7 @@
  "date": "2024-10-18",
  "asof": "2024-10-18",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-10-18",
   "adj_close": 2.51
@@ -33,6 +33,20 @@
  "going_concern": {
   "flag": true,
   "quote": "There is substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "floating_convertible": "Yorkville may convert the note into shares of our Class A common stock at a price per share equal to $6.3171, provided however, on the earlier of (a) the fifth trading day following the effective date of the resale shelf, or (b) September 13, 2024, the conversion price will be the average VWAP of our Class A common stock on Nasdaq during the five consecutive trading days immediately prior to the c",
+  "price_reset_warrants": "The note was initially convertible into common stock at a price per share equal to $6.3171, provided however, the conversion price was subject to reset on the earlier of (a) the fifth trading day following the effective date of the resale shelf, or (b) the six-month anniversary of the issuance date of the convertible note (i.e., September 13, 2024).",
+  "equity_line": "On March 13, 2024, the Company entered into a Standby Equity Purchase Agreement (\"SEPA\") with Yorkville (see Note 10)."
+ },
+ "debt": {
+  "usd": 39800000.0,
+  "tags": "DebtCurrent"
+ },
+ "public_float": {
+  "usd": 94000000,
+  "as_of": "2023-06-30",
+  "filed": "2024-07-30"
  },
  "insiders": {
   "form4s": 1,

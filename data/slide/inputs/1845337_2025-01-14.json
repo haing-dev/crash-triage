@@ -6,7 +6,7 @@
  "date": "2025-01-14",
  "asof": "2025-01-14",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-01-14",
   "adj_close": 11.16
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 758500000,
+  "as_of": "2023-06-30",
+  "filed": "2024-02-26"
  },
  "insiders": {
   "form4s": 11,
@@ -111,9 +121,9 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT05377996",
+    "nct": "NCT04775485",
     "drugs": [
-     "Emi-Le"
+     "Tovorafenib"
     ]
    },
    {
@@ -124,9 +134,9 @@
     ]
    },
    {
-    "nct": "NCT04775485",
+    "nct": "NCT05377996",
     "drugs": [
-     "Tovorafenib"
+     "Emi-Le"
     ]
    }
   ]

@@ -6,7 +6,7 @@
  "date": "2021-11-22",
  "asof": "2021-11-22",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-11-22",
   "adj_close": 2.27
@@ -32,6 +32,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 30639333,
+  "as_of": "2020-06-30",
+  "filed": "2021-03-12"
  },
  "insiders": {
   "form4s": 31,
@@ -4485,12 +4495,6 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT02682511",
-    "drugs": [
-     "Oral Ifetroban"
-    ]
-   },
-   {
     "nct": "NCT03340675",
     "drugs": [
      "Ifetroban"
@@ -4500,6 +4504,12 @@
     "nct": "NCT03028350",
     "drugs": [
      "Ifetroban Oral Capsule"
+    ]
+   },
+   {
+    "nct": "NCT02682511",
+    "drugs": [
+     "Oral Ifetroban"
     ]
    }
   ]

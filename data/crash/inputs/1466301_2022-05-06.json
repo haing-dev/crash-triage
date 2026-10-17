@@ -4,12 +4,12 @@
  "cik": "1466301",
  "name": "Clovis Oncology, Inc.",
  "date": "2022-05-06",
- "asof": "2022-05-09",
+ "asof": "2022-05-06",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2022-05-09",
-  "adj_close": 0.8139
+  "date": "2022-05-06",
+  "adj_close": 0.9914
  },
  "balance": {
   "end": "2022-03-31",
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "The aforementioned factors, which are largely outside of our control, raise substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 443282000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 671298229,
+  "as_of": "2021-06-30",
+  "filed": "2022-02-24"
  },
  "insiders": {
   "form4s": 17,
@@ -251,7 +261,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "Rubraca (rucaparib)",
  "trials": {
   "query": "clovis oncology",
   "other_trials": 1,

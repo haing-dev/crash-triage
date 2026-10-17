@@ -6,7 +6,7 @@
  "date": "2022-04-04",
  "asof": "2022-04-04",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-04-04",
   "adj_close": 21.76
@@ -34,6 +34,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 2310825.0,
+  "tags": "DebtCurrent"
+ },
+ "public_float": {
+  "usd": 120500000,
+  "as_of": "2021-06-30",
+  "filed": "2022-03-09"
  },
  "insiders": {
   "form4s": 2,

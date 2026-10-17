@@ -6,7 +6,7 @@
  "date": "2023-01-19",
  "asof": "2023-01-19",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-01-19",
   "adj_close": 1.47
@@ -34,6 +34,16 @@
  "going_concern": {
   "flag": true,
   "quote": "\u2022Our need for additional capital raises substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 4478000.0,
+  "tags": "DebtCurrent+LongTermDebtNoncurrent"
+ },
+ "public_float": {
+  "usd": 67800000,
+  "as_of": "2021-06-30",
+  "filed": "2022-03-11"
  },
  "insiders": {
   "form4s": 3,

@@ -6,7 +6,7 @@
  "date": "2022-05-04",
  "asof": "2022-05-04",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-05-04",
   "adj_close": 0.81999999
@@ -27,13 +27,19 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": null,
  "insiders": {
   "form4s": 0,
   "from": "2022-02-03",
   "to": "2022-06-03",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "connect biopharma",
   "other_trials": 0,

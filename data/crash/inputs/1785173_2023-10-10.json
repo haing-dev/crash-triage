@@ -4,12 +4,12 @@
  "cik": "1785173",
  "name": "89bio, Inc.",
  "date": "2023-10-10",
- "asof": "2023-10-13",
+ "asof": "2023-10-12",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2023-10-13",
-  "adj_close": 7.62
+  "date": "2023-10-12",
+  "adj_close": 7.89
  },
  "balance": {
   "end": "2023-06-30",
@@ -32,6 +32,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 24483000.0,
+  "tags": "LongTermDebtNoncurrent"
+ },
+ "public_float": {
+  "usd": 30400000,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-15"
  },
  "insiders": {
   "form4s": 8,

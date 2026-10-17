@@ -6,7 +6,7 @@
  "date": "2025-08-06",
  "asof": "2025-08-06",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-08-06",
   "adj_close": 9.49
@@ -35,6 +35,18 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {
+  "equity_line": "In 2020, we and Gilead entered into an Option, License and Collaboration Agreement (the \"Gilead Collaboration Agreement\"), Common Stock Purchase Agreement (the \"Stock Purchase Agreement\"), and Investor Rights Agreement (the \"Investor Rights Agreement\")."
+ },
+ "debt": {
+  "usd": 97000000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 825139210,
+  "as_of": "2024-06-28",
+  "filed": "2025-02-25"
+ },
  "insiders": {
   "form4s": 8,
   "from": "2025-05-08",
@@ -56,6 +68,30 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
+    "nct": "NCT04660812",
+    "drugs": [
+     "AB680",
+     "Etrumadenant",
+     "Zimberelimab"
+    ]
+   },
+   {
+    "nct": "NCT06608927",
+    "drugs": [
+     "Quemliclustat",
+     "Nab-paclitaxel",
+     "Gemcitabine"
+    ]
+   },
+   {
+    "nct": "NCT04736173",
+    "drugs": [
+     "Domvanalimab",
+     "Zimberelimab",
+     "Carboplatin"
+    ]
+   },
+   {
     "nct": "NCT05568095",
     "drugs": [
      "Domvanalimab",
@@ -69,30 +105,6 @@
      "Domvanalimab",
      "Quemliclustat",
      "Zimberelimab"
-    ]
-   },
-   {
-    "nct": "NCT04660812",
-    "drugs": [
-     "AB680",
-     "Etrumadenant",
-     "Zimberelimab"
-    ]
-   },
-   {
-    "nct": "NCT04736173",
-    "drugs": [
-     "Domvanalimab",
-     "Zimberelimab",
-     "Carboplatin"
-    ]
-   },
-   {
-    "nct": "NCT06608927",
-    "drugs": [
-     "Quemliclustat",
-     "Nab-paclitaxel",
-     "Gemcitabine"
     ]
    }
   ]

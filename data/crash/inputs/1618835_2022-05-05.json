@@ -4,35 +4,49 @@
  "cik": "1618835",
  "name": "Evofem Biosciences, Inc.",
  "date": "2022-05-05",
- "asof": "2022-05-10",
+ "asof": "2022-05-09",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2022-05-10",
-  "adj_close": 1.12
+  "date": "2022-05-09",
+  "adj_close": 1.21
  },
  "balance": {
-  "end": "2022-03-31",
-  "cash": 2761000,
+  "end": "2021-12-31",
+  "cash": 7732000,
   "parts": [
    "CashAndCashEquivalentsAtCarryingValue"
   ],
-  "accn": "0001618835-22-000110"
+  "accn": "0001618835-22-000057"
  },
  "burn6": {
-  "end": "2022-03-31",
-  "start": "2021-10-01",
-  "cash_used_ops": 42184000.0,
-  "capex": 119000.0,
+  "end": "2021-12-31",
+  "start": "2021-07-01",
+  "cash_used_ops": 58632000.0,
+  "capex": 650000.0,
   "periods": 2
  },
  "shares": {
-  "end": "2022-05-09",
-  "shares": 12713254
+  "end": "2022-02-28",
+  "shares": 167783009
  },
  "going_concern": {
   "flag": true,
-  "quote": "These circumstances and the uncertainties associated with the Company\u2019s ability to obtain additional equity or debt financing on terms that are favorable to the Company, or at all, and otherwise succeed in its future operations raise substantial doubt about the Company\u2019s ability to continue as a goi"
+  "quote": "Due to the recurring losses, negative cash flows from operating activities since inception, and net working capital at December 31, 2021, the report 30 of our independent registered public accountant on our financial statements as of and for the years ended December 31, 2021 and 2020 filed with this"
+ },
+ "financing_terms": {
+  "floating_convertible": "Purchase Agreement (the Baker Amendment), in which each Baker Purchaser shall have the right to convert all or any portion of the Baker Notes into Common Stock at a conversion price equal to the lesser of (a) $2.44 and (b) 115% of the lowest price per share of common stock (or, as applicable with respect to any equity securities convertible into common stock, 115% of the applicable conversion pric",
+  "price_reset_warrants": "Until late April 2022, the number of shares of common stock we are required to reserve for issuance upon conversion of shares of our Series B-2 Convertible Preferred Stock is subject to full ratchet adjustment for certain dilutive issuances.",
+  "equity_line": "If we make additional draws from the Equity Line of Credit this would further limit the number of shares available for issuance."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 172915009,
+  "as_of": "2021-06-30",
+  "filed": "2022-03-10"
  },
  "insiders": {
   "form4s": 9,
@@ -48,7 +62,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "evofem biosciences",
   "other_trials": 0,

@@ -6,7 +6,7 @@
  "date": "2025-10-03",
  "asof": "2025-10-03",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-10-03",
   "adj_close": 1.33
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "The Company's limited cash and cash equivalents previously raised substantial doubt about the Company's ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "equity_line": "Biocon Collaboration and License Agreement In May 2017, the Company entered into a collaboration and license agreement (which was amended in September 2018, April 2019, December 2019, April 2021 and November 2022), clinical supply agreement, investor rights agreement, and common stock purchase agreement (collectively License Agreements) with Biocon SA (subsequently assigned to Biocon Limited, or t"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 15400000,
+  "as_of": "2024-06-28",
+  "filed": "2025-03-27"
  },
  "insiders": {
   "form4s": 4,

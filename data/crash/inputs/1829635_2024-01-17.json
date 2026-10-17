@@ -6,7 +6,7 @@
  "date": "2024-01-17",
  "asof": "2024-01-17",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-01-17",
   "adj_close": 1995.83997
@@ -34,13 +34,25 @@
   "flag": true,
   "quote": "Due to the Company\u2019s recurring and expected continuing losses from operations, the Company has concluded there is substantial doubt concerning its ability to continue as a going concern"
  },
+ "financing_terms": {
+  "equity_line": "In April and May 2023, the Company sold an aggregate of 110,000 shares to White Lion Capital LLC (\u201cWhite Lion\u201d) under a Common Stock Purchase Agreement dated April 14, 2023, (the \u201cWhite Lion Purchase Agreement\u201d) between the Company and White Lion."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 11000000,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-31"
+ },
  "insiders": {
   "form4s": 0,
   "from": "2023-10-19",
   "to": "2024-02-16",
   "trades": []
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "transcode therapeutics",
   "other_trials": 0,

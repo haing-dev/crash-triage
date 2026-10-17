@@ -6,7 +6,7 @@
  "date": "2025-08-20",
  "asof": "2025-08-20",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2025-08-20",
   "adj_close": 1.72
@@ -35,6 +35,18 @@
  "going_concern": {
   "flag": true,
   "quote": "Management estimates that based on the Company\u2019s liquidity resources, there is substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "equity_line": "Standby Equity Purchase Agreement On December 10, 2023, the Company entered into a Standby Equity Purchase Agreement (the \u201cSEPA\u201d) with YA II PN, Ltd., a Cayman Island exempt limited partnership (\u201cYorkville\u201d)."
+ },
+ "debt": {
+  "usd": 820000.0,
+  "tags": "LongTermDebtCurrent"
+ },
+ "public_float": {
+  "usd": 14010268,
+  "as_of": "2024-06-28",
+  "filed": "2025-03-31"
  },
  "insiders": {
   "form4s": 11,

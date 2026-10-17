@@ -4,12 +4,12 @@
  "cik": "1835597",
  "name": "PepGen Inc.",
  "date": "2026-03-31",
- "asof": "2026-04-02",
+ "asof": "2026-03-31",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2026-04-02",
-  "adj_close": 1.73
+  "date": "2026-03-31",
+  "adj_close": 1.77
  },
  "balance": {
   "end": "2025-12-31",
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 16900000,
+  "as_of": "2025-06-30",
+  "filed": "2026-03-04"
  },
  "insiders": {
   "form4s": 8,

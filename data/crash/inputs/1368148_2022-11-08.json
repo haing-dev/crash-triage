@@ -6,7 +6,7 @@
  "date": "2022-11-08",
  "asof": "2022-11-08",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-11-08",
   "adj_close": 1.28
@@ -34,6 +34,18 @@
   "flag": true,
   "quote": "These factors, among others, raise substantial doubt about our ability to continue as a going concern"
  },
+ "financing_terms": {
+  "equity_line": "Stockholders\u2019 Equity and Warrants Equity Purchase Agreement We previously had equity purchase agreements in place since 2011 with Aspire Capital Fund, LLC (\u201cAspire Capital\u201d) that provided us the ability to sell shares to Aspire Capital from time to time."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 185100000,
+  "as_of": "2021-06-30",
+  "filed": "2022-03-15"
+ },
  "insiders": {
   "form4s": 8,
   "from": "2022-08-10",
@@ -48,7 +60,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "MultiStem (invimestrocel)",
  "trials": {
   "query": "athersys new",
   "other_trials": 0,

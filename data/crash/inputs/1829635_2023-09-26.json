@@ -4,12 +4,12 @@
  "cik": "1829635",
  "name": "Transcode Therapeutics, Inc.",
  "date": "2023-09-26",
- "asof": "2023-10-02",
+ "asof": "2023-09-26",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2023-10-02",
-  "adj_close": 16890.7207
+  "date": "2023-09-26",
+  "adj_close": 25539.35938
  },
  "balance": {
   "end": "2023-06-30",
@@ -34,6 +34,18 @@
   "flag": true,
   "quote": "Due to the Company\u2019s recurring and expected continuing losses from operations, the Company has concluded there is substantial doubt concerning its ability to continue as a going concern"
  },
+ "financing_terms": {
+  "equity_line": "\u200b In April and May 2023, the Company sold an aggregate of 110,000 shares to White Lion Capital LLC (\u201cWhite Lion\u201d) under a Common Stock Purchase Agreement dated April 14, 2023, (the \u201cWhite Lion Purchase Agreement\u201d) between the Company and White Lion."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 11000000,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-31"
+ },
  "insiders": {
   "form4s": 2,
   "from": "2023-06-28",
@@ -55,7 +67,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "TTX-MC138",
  "trials": {
   "query": "transcode therapeutics",
   "other_trials": 0,

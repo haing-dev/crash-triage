@@ -6,7 +6,7 @@
  "date": "2021-04-29",
  "asof": "2021-04-29",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-04-29",
   "adj_close": 94.5
@@ -32,6 +32,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 24793000.0,
+  "tags": "LoansPayableCurrent+LongTermLoansPayable"
+ },
+ "public_float": {
+  "usd": 247960409,
+  "as_of": "2020-06-30",
+  "filed": "2021-03-12"
  },
  "insiders": {
   "form4s": 17,
@@ -131,15 +141,15 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT04436029",
-    "drugs": [
-     "Descartes 11"
-    ]
-   },
-   {
     "nct": "NCT04146051",
     "drugs": [
      "Descartes-08"
+    ]
+   },
+   {
+    "nct": "NCT04436029",
+    "drugs": [
+     "Descartes 11"
     ]
    }
   ]

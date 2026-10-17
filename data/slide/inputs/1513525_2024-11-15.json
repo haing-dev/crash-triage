@@ -6,7 +6,7 @@
  "date": "2024-11-15",
  "asof": "2024-11-15",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-11-15",
   "adj_close": 26.5
@@ -27,6 +27,18 @@
  "going_concern": {
   "flag": true,
   "quote": "These factors raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "equity_line": "8 \u2014 SHAREHOLDERS\u2019 EQUITY Standby Equity Purchase Agreement On May 31, 2023, the Company entered into an Equity Purchase Agreement with Alumni Capital, LLC (\u201cAlumni\u201d)."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 5385155,
+  "as_of": "2023-06-30",
+  "filed": "2024-04-01"
  },
  "insiders": {
   "form4s": 2,

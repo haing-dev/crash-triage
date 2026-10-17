@@ -4,12 +4,12 @@
  "cik": "1205922",
  "name": "VACCINEX, INC.",
  "date": "2026-03-05",
- "asof": "2026-03-10",
+ "asof": "2026-03-05",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2026-03-10",
-  "adj_close": 0.6048
+  "date": "2026-03-05",
+  "adj_close": 0.6105
  },
  "balance": {
   "end": "2024-12-31",
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "These conditions raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 25000.0,
+  "tags": "LongTermDebtNoncurrent+LongTermDebtCurrent"
+ },
+ "public_float": {
+  "usd": 5577428,
+  "as_of": "2024-06-30",
+  "filed": "2025-04-15"
  },
  "insiders": {
   "form4s": 0,

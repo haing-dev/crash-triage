@@ -6,7 +6,7 @@
  "date": "2024-06-10",
  "asof": "2024-06-10",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-06-10",
   "adj_close": 221.0
@@ -34,13 +34,23 @@
   "flag": true,
   "quote": "These factors raise substantial doubt about the Company\u2019s ability to continue as a going concern"
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 10765000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 16996283,
+  "as_of": "2023-06-30",
+  "filed": "2024-04-01"
+ },
  "insiders": {
   "form4s": 7,
   "from": "2024-03-12",
   "to": "2024-07-10",
   "trades": []
  },
- "drug": null,
+ "drug": "Tonmya (TNX-102 SL)",
  "trials": {
   "query": "tonix pharmaceuticals",
   "other_trials": 0,

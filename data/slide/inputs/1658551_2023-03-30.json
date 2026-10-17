@@ -6,7 +6,7 @@
  "date": "2023-03-30",
  "asof": "2023-03-30",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2023-03-30",
   "adj_close": 27.71
@@ -33,6 +33,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "floating_convertible": "Conversion Price\u2014Upon the occurrence of an IPO, the 2021 Notes would convert into shares of common stock at the conversion price equal to the lesser of (i) 85% of the price at which the Company offered each share of common stock in the IPO without deducting any amount for discounts, commissions, fees, or other costs and (ii) $600.0 million divided by the fully diluted capital."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 788100000,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-13"
  },
  "insiders": {
   "form4s": 24,

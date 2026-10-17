@@ -6,7 +6,7 @@
  "date": "2021-08-13",
  "asof": "2021-08-13",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-08-13",
   "adj_close": 7.31
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": true,
   "quote": "In management\u2019s opinion, the uncertainty regarding future revenues raises substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 44130000.0,
+  "tags": "NotesPayableCurrent+LongTermNotesPayable"
+ },
+ "public_float": {
+  "usd": 29531837,
+  "as_of": "2020-06-30",
+  "filed": "2021-03-05"
  },
  "insiders": {
   "form4s": 0,

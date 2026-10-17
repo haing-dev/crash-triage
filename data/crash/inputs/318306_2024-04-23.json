@@ -4,12 +4,12 @@
  "cik": "318306",
  "name": "ABEONA THERAPEUTICS INC.",
  "date": "2024-04-23",
- "asof": "2024-04-24",
+ "asof": "2024-04-23",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2024-04-24",
-  "adj_close": 3.17
+  "date": "2024-04-23",
+  "adj_close": 3.41
  },
  "balance": {
   "end": "2023-12-31",
@@ -33,6 +33,16 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 78468000,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-18"
  },
  "insiders": {
   "form4s": 9,
@@ -83,7 +93,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "n/a",
  "trials": {
   "query": "abeona therapeutics",
   "other_trials": 1,

@@ -6,7 +6,7 @@
  "date": "2022-09-26",
  "asof": "2022-09-26",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-09-26",
   "adj_close": 45.36
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 93458824.0,
+  "tags": "LongTermDebtNoncurrent"
+ },
+ "public_float": {
+  "usd": 2000000000,
+  "as_of": "2021-06-30",
+  "filed": "2022-03-01"
+ },
  "insiders": {
   "form4s": 0,
   "from": "2022-06-28",
@@ -46,9 +56,9 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT05550207",
+    "nct": "NCT05113745",
     "drugs": [
-     "AXS-07 (meloxicam-rizatriptan)"
+     "AXS-12 (reboxetine)"
     ]
    },
    {
@@ -64,15 +74,15 @@
     ]
    },
    {
-    "nct": "NCT04797715",
+    "nct": "NCT05550207",
     "drugs": [
-     "AXS-05"
+     "AXS-07 (meloxicam-rizatriptan)"
     ]
    },
    {
-    "nct": "NCT05113745",
+    "nct": "NCT04797715",
     "drugs": [
-     "AXS-12 (reboxetine)"
+     "AXS-05"
     ]
    }
   ]

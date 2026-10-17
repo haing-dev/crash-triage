@@ -6,7 +6,7 @@
  "date": "2022-08-16",
  "asof": "2022-08-16",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-08-16",
   "adj_close": 5.41
@@ -35,6 +35,16 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 489700000,
+  "as_of": "2021-06-30",
+  "filed": "2022-02-24"
+ },
  "insiders": {
   "form4s": 7,
   "from": "2022-05-18",
@@ -54,12 +64,6 @@
     ]
    },
    {
-    "nct": "NCT04424927",
-    "drugs": [
-     "PRV-015"
-    ]
-   },
-   {
     "nct": "NCT05087628",
     "drugs": [
      "PRV-3279"
@@ -69,6 +73,12 @@
     "nct": "NCT04270942",
     "drugs": [
      "teplizumab 1 mg/mL"
+    ]
+   },
+   {
+    "nct": "NCT04424927",
+    "drugs": [
+     "PRV-015"
     ]
    }
   ]

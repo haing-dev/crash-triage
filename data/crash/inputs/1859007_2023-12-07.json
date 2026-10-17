@@ -4,12 +4,12 @@
  "cik": "1859007",
  "name": "ZyVersa Therapeutics, Inc.",
  "date": "2023-12-07",
- "asof": "2023-12-12",
+ "asof": "2023-12-08",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2023-12-12",
-  "adj_close": 7.126
+  "date": "2023-12-08",
+  "adj_close": 8.99
  },
  "balance": {
   "end": "2023-09-30",
@@ -34,13 +34,25 @@
   "flag": true,
   "quote": "The aforementioned conditions raise substantial doubt about the Company\u2019s ability to continue as a going concern"
  },
+ "financing_terms": {
+  "price_reset_warrants": "Triggering of Down Round Provisions As a result of the Registered Offering, (a) the exercise price of the Series A Warrants to purchase 863,500 shares of common stock at an exercise price of $11.50 per share that were issued to participants in the original PIPE financing had the exercise price reset to its floor price of $2.00 per share, while becoming exercisable for 4,965,125 shares of common st"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 77127889,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-31"
+ },
  "insiders": {
   "form4s": 0,
   "from": "2023-09-08",
   "to": "2024-01-06",
   "trades": []
  },
- "drug": null,
+ "drug": "VAR 200",
  "trials": {
   "query": "zyversa therapeutics",
   "other_trials": 0,

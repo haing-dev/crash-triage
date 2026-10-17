@@ -6,7 +6,7 @@
  "date": "2022-02-11",
  "asof": "2022-02-15",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2022-02-15",
   "adj_close": 42525.0
@@ -33,13 +33,23 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 7045916,
+  "as_of": "2020-06-30",
+  "filed": "2021-04-01"
+ },
  "insiders": {
   "form4s": 2,
   "from": "2021-11-13",
   "to": "2022-03-13",
   "trades": []
  },
- "drug": null,
+ "drug": "EVM-101",
  "trials": {
   "query": "enveric biosciences",
   "other_trials": 0,

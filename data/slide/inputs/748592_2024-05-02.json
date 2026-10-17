@@ -6,7 +6,7 @@
  "date": "2024-05-02",
  "asof": "2024-05-02",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2024-05-02",
   "adj_close": 641.25
@@ -33,6 +33,18 @@
  "going_concern": {
   "flag": true,
   "quote": "As discussed above, there is substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "equity_line": "Lincoln Park committed to purchase up to $10.0 million of our common stock under a standby equity purchase agreement (\u201cSEPA\u201d)."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 9700000,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-18"
  },
  "insiders": {
   "form4s": 3,

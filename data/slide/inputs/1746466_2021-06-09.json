@@ -6,7 +6,7 @@
  "date": "2021-06-09",
  "asof": "2021-06-09",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-06-09",
   "adj_close": 7.12
@@ -33,6 +33,18 @@
  },
  "going_concern": {
   "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "Collaboration and License Agreement In May 2017, the Company entered into a collaboration and license agreement (which was amended in September 2018, April 2019, December 2019, and April 2021), clinical supply agreement, investor rights agreement, and common stock purchase agreement (collectively License Agreements) with Biocon SA (together with Biocon Limited, Biocon)."
+ },
+ "debt": {
+  "usd": 10006000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 18800000,
+  "as_of": "2020-06-30",
+  "filed": "2021-03-24"
  },
  "insiders": {
   "form4s": 9,

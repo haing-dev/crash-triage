@@ -4,12 +4,12 @@
  "cik": "1699382",
  "name": "PMV Pharmaceuticals, Inc.",
  "date": "2023-10-12",
- "asof": "2023-10-13",
+ "asof": "2023-10-12",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
-  "date": "2023-10-13",
-  "adj_close": 2.0
+  "date": "2023-10-12",
+  "adj_close": 2.49
  },
  "balance": {
   "end": "2023-06-30",
@@ -35,6 +35,16 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 543361107,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-01"
+ },
  "insiders": {
   "form4s": 3,
   "from": "2023-07-14",
@@ -56,7 +66,7 @@
    }
   ]
  },
- "drug": null,
+ "drug": "PC14586",
  "trials": {
   "query": "pmv pharmaceuticals",
   "other_trials": 1,

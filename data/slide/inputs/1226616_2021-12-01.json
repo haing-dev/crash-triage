@@ -6,7 +6,7 @@
  "date": "2021-12-01",
  "asof": "2021-12-01",
  "final": true,
- "version": 5,
+ "version": 6,
  "price": {
   "date": "2021-12-01",
   "adj_close": 3.03
@@ -33,6 +33,16 @@
  "going_concern": {
   "flag": false
  },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 227193094,
+  "as_of": "2020-06-30",
+  "filed": "2021-02-19"
+ },
  "insiders": {
   "form4s": 0,
   "from": "2021-09-02",
@@ -46,9 +56,10 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT04429555",
+    "nct": "NCT03782415",
     "drugs": [
-     "Ibudilast"
+     "MN-166",
+     "Temozolomide"
     ]
    },
    {
@@ -58,10 +69,9 @@
     ]
    },
    {
-    "nct": "NCT03782415",
+    "nct": "NCT04429555",
     "drugs": [
-     "MN-166",
-     "Temozolomide"
+     "Ibudilast"
     ]
    }
   ]
