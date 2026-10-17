@@ -1,30 +1,34 @@
 /* Biotech Triage — static front end for two triages (crash, slide). Reads data.json built by pipeline/build_site.py.
-   Routes: #/<kind>/<view>  kind = crash | slide; view = screener (default) | backtest | outcomes | track | c/<id> */
+   Routes: #/<kind>/<view>  kind = crash | slide; view = screener (default) | backtest | outcomes | track | live | c/<id> */
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const FACTS = [["runway","Cash runway",""],["ev","EV / Cash","below 0 = under cash"],["programs","Other programs",""],
+  ["raise","Raise terms","if it sells shares"],["insider","Insiders",""],["specialists","Specialist funds","quarter before entry"],
+  ["short","Short interest","% of shares, before entry"]];
 const KIND = {
-  crash: {label: "Crash Triage", word: "crash", plural: "crashes",
-    facts: [["safety","Safety"],["runway","Cash runway"],["value","Value vs cash"],["insider","Insider buying"],["programs","Other programs"]],
-    blurb: "a US biotech stock fell 50% or more within 5 trading days, starting with a news day of −25% or worse. Entry = the trough"},
-  slide: {label: "Slide Triage", word: "slide", plural: "slides",
-    facts: [["runway","Cash runway"],["value","Value vs cash"],["insider","Insider buying"],["programs","Other programs"]],
+  crash: {label: "Crash Triage", word: "crash", plural: "crashes", facts: [["safety","Safety",""], ...FACTS],
+    blurb: "a US biotech stock fell 50% or more within 5 trading days, starting with a news day of −25% or worse. Entry = the close on the day the crash is detected"},
+  slide: {label: "Slide Triage", word: "slide", plural: "slides", facts: FACTS,
     blurb: "a US biotech stock slid 30% below its 6-month high with no single day of −25% or worse (stocks that crashed in the same period are left out). Entry = the first close 30% below the high"}};
 const ICON = {g:"✓", r:"✕", n:"–"};
 const VERDICT = {
-  overdone:["p-good","▲","Potentially Oversold","var(--g-line)"],
-  close:["p-warn","●","Too Close To Call","var(--w-line)"],
-  justified:["p-crit","■","Justified","var(--r-line)"],
-  pending:["p-pend","","Not scored yet","var(--axis)"]};
+  overdone:["p-good","▲","Buy candidate","var(--g-line)"],
+  close:["p-warn","●","Watch","var(--w-line)"],
+  justified:["p-crit","■","Avoid","var(--r-line)"],
+  tbu:["p-pend","","TBU","var(--axis)"]};
+const CALLS = ["overdone","close","justified"];
 const OUTCOME = {Winner:"p-good", Recovery:"p-warn", Failure:"p-crit"};
 const BUCKETS = {
   safety:["Reported Death","Negative Side Effects","Well Tolerated","N/A"],
-  runway:["Under 6 mo","6–12 mo","12–24 mo","24+ mo","No cash burn","N/A"], value:["Below Cash","Above Cash","N/A"],
-  insider:["Insider Buy","Insider Sell","N/A"], programs:["1 trial","2–4 trials","5+ trials","N/A"],
+  runway:["Under 6 mo","6–12 mo","12–24 mo","24+ mo","No cash burn","N/A"], ev:["Below cash","0–1×","1–2×","Over 2×","N/A"],
+  programs:["1 trial","2–4 trials","5+ trials","N/A"], raise:["Friendly","Costly","Toxic","N/A"], insider:["Bought","Sold","N/A"],
+  specialists:["Bought","Held","Sold","N/A"], short:["Under 5%","5–15%","15%+","N/A"],
   mcap:["Under $50M","$50–300M","$300M–2B","Over $2B","N/A"]};
-const pill = v => { const [c,i,t] = VERDICT[v] || VERDICT.pending; return `<span class="pill ${c}">${i?`<i>${i}</i>`:""}${t}</span>`; };
+const pill = v => { const [c,i,t] = VERDICT[v] || VERDICT.tbu; return `<span class="pill ${c}">${i?`<i>${i}</i>`:""}${t}</span>`; };
 const dur = c => `${c.days} day${c.days === 1 ? "" : "s"}`;
-const pct = v => v == null ? "–" : `${v > 0 ? "+" : v < 0 ? "−" : ""}${Math.abs(v).toFixed(0)}%`;
+const pct = v => { if (v == null) return "–"; const r = Math.round(v); return `${r > 0 ? "+" : r < 0 ? "−" : ""}${Math.abs(r)}%`; };
 const money = v => v == null ? "N/A" : v >= 1e9 ? `$${(v/1e9).toFixed(1)}B` : v >= 1e7 ? `$${(v/1e6).toFixed(0)}M` : `$${(v/1e6).toFixed(1)}M`;
+const usd = v => "$" + Math.round(v).toLocaleString("en-US");
 const mcapBucket = v => v == null ? "N/A" : v < 5e7 ? "Under $50M" : v < 3e8 ? "$50–300M" : v < 2e9 ? "$300M–2B" : "Over $2B";
 let D = null, K = "crash", SHOW = 60, MODE = "screener", SORT = false;
 const items = () => D.kinds[K].items;
@@ -36,8 +40,13 @@ function showTip(e, html){ tip.innerHTML = html; tip.style.opacity = 1;
   tip.style.left = x + "px"; tip.style.top = (y < 8 ? e.clientY + 18 : y) + "px"; }
 function hideTip(){ tip.style.opacity = 0; }
 
-function cell(f){ const [k,v] = f || ["n","N/A"];
-  return v === "N/A" ? `<td class="f f-na">N/A</td>` : `<td class="f f-${k}"><span class="ic">${ICON[k]||""}</span>${esc(v)}</td>`; }
+function cell(f, wide){ const [k,v] = f || ["n","N/A"];
+  return v === "N/A" ? `<td class="f f-na${wide?" wide":""}">N/A</td>` : `<td class="f f-${k}${wide?" wide":""}"><span class="ic">${ICON[k]||""}</span>${esc(v)}</td>`; }
+const th = (label, sub, cls="") => `<th class="${cls}">${label}${sub ? `<div class="hs">${sub}</div>` : ""}</th>`;
+const chance = v => v == null ? `<td class="r muted">–</td>` : `<td class="r"><span class="num big">${v}%</span></td>`;
+const retCell = (c, bt) => c.ret == null ? `<td class="r muted">N/A</td>` :
+  `<td class="r" style="white-space:nowrap"><span class="num" style="color:${c.ret >= 0 ? "var(--good)" : "var(--bad)"}">${pct(c.ret)}</span>
+   <div class="muted sm">${c.ctrl_ret != null ? `similar biotechs ${pct(c.ctrl_ret)}` : ""}${c.stopped ? `${c.ctrl_ret != null ? "<br>" : ""}stopped trading ${esc(c.stopped)}` : ""}</div></td>`;
 
 /* ------------------------------------------------------------------ the two tables
    screener = episodes less than a year past entry (return to date); backtest = a full year since entry */
@@ -47,27 +56,28 @@ function viewTable(mode){
   MODE = mode; SHOW = 60; SORT = false;
   const kd = KIND[K], rows = rowsFor(mode), bt = mode === "backtest", crash = K === "crash";
   const years = [...new Set(rows.map(c => c.date.slice(0,4)))].sort().reverse();
-  const trig = [...new Set(rows.map(c => c.trigger).filter(Boolean))].sort();
+  const trig = [...new Set(rows.map(c => c.cause).filter(Boolean))].sort();
   const opts = k => { const seen = new Set(rows.map(c => bucketOf(c, k))); return (BUCKETS[k] || [...seen].sort()).filter(o => seen.has(o)); };
   const sel = (id, list) => `<select class="hsel" id="${id}"><option value="">All</option>${list.map(([v,l]) => `<option value="${esc(v)}">${esc(l)}</option>`).join("")}</select>`;
-  const cols = kd.facts.map(([k, label]) => k === "insider"
-    ? `<th class="fh sortable" id="sort_ins" title="Sort: biggest buy first, biggest sell last">${label} <span id="sort_ic">⇅</span></th>` : `<th class="fh">${label}</th>`).join("");
+  const cols = kd.facts.map(([k, label, sub]) => k === "insider"
+    ? `<th class="fh sortable" id="sort_ins" title="Sort: biggest buy first, biggest sell last">${label} <span id="sort_ic">⇅</span></th>` : th(label, sub, "fh")).join("");
+  const nT = rows.filter(c => c.verdict === "tbu").length;
   $("#app").innerHTML = `
   <div class="toprow"><div><h1>${bt ? "Backtest" : "Screener"}</h1><div class="muted">${rows.length} times ${kd.blurb}. ${bt
-     ? "A full year since entry: return if bought at entry and held one year · Winner ≥ +30%, Recovery 0 to +30%, Failure below 0%"
-     : "Less than a year since entry: return if bought at entry, to the latest close"}</div></div>
+     ? "A full year since entry: total return if bought at entry and held one year · Winner ≥ +30%, Recovery 0 to +30%, Failure below 0%"
+     : "Less than a year since entry: total return if bought at entry, to the latest close"}${nT ? ` · ${nT} TBU: an input for the entry day is still being collected` : ""}</div></div>
    <div class="filters">
     <select id="fy"><option value="">All years</option>${years.map(y=>`<option>${y}</option>`).join("")}</select>
     <input id="fq" placeholder="Search company or ticker"></div></div>
   <div class="tablewrap"><table class="crash"><thead>
-   <tr><th>Company</th><th>${crash ? "Crash" : "Entry"}</th><th class="r">${crash ? "Fall" : "Fall from high"}</th>${crash ? "<th>What happened</th>" : ""}<th class="r">Market cap<br>at entry</th>${cols}
-    <th>Verdict</th><th class="r">${bt ? "1-year return<br>from entry" : "Return since<br>entry"}</th>${bt ? "<th>Outcome</th>" : ""}</tr>
-   <tr class="frow"><th></th><th></th><th></th>${crash ? `<th>${sel("ft", trig.map(t => [t, t]))}</th>` : ""}<th>${sel("f_mcap", opts("mcap").map(o => [o,o]))}</th>
-    ${kd.facts.map(([k]) => `<th>${sel("f_"+k, opts(k).map(o => [o,o]))}</th>`).join("")}
-    <th>${sel("f_verdict", Object.entries(VERDICT).filter(([k]) => rows.some(c => (c.verdict||"pending") === k)).map(([k,v]) => [k, v[2]]))}</th><th></th>
+   <tr><th>Company</th><th class="r">${crash ? "Fall" : "Fall from high"}</th>${crash ? "<th>What happened</th>" : ""}${th("Market cap","at entry","r")}${cols}
+    ${th("Chance up 30%+","in 1 year","r")}${th("Chance down 80%+","in 1 year","r")}<th>Call</th>${th(bt ? "1-year return" : "Return","from entry","r")}${bt ? "<th>Outcome</th>" : ""}</tr>
+   <tr class="frow"><th></th><th></th>${crash ? `<th>${sel("ft", trig.map(t => [t, t]))}</th>` : ""}<th>${sel("f_mcap", opts("mcap").map(o => [o,o]))}</th>
+    ${kd.facts.map(([k]) => `<th>${sel("f_"+k, opts(k).map(o => [o,o]))}</th>`).join("")}<th></th><th></th>
+    <th>${sel("f_verdict", Object.entries(VERDICT).filter(([k]) => rows.some(c => (c.verdict||"tbu") === k)).map(([k,v]) => [k, v[2]]))}</th><th></th>
     ${bt ? `<th>${sel("f_outcome", ["Winner","Recovery","Failure"].map(o => [o,o]))}</th>` : ""}</tr>
   </thead><tbody id="rows"></tbody></table></div>
-  <div class="legend"><span class="lg f-g"><span class="ic">✓</span>Better than typical</span><span class="lg f-n"><span class="ic">–</span>Neutral</span><span class="lg f-r"><span class="ic">✕</span>Worse than typical</span>
+  <div class="legend"><span class="lg f-g"><span class="ic">✓</span>Better than similar biotechs</span><span class="lg f-n"><span class="ic">–</span>Neutral</span><span class="lg f-r"><span class="ic">✕</span>Worse than similar biotechs</span>
    <span class="muted" id="cnt"></span></div><div class="more" id="more"></div>`;
   document.querySelectorAll("#fy,#fq,.hsel").forEach(el => el.addEventListener("input", () => { SHOW = 60; fill(); }));
   document.querySelectorAll(".hsel").forEach(el => el.addEventListener("click", e => e.stopPropagation()));
@@ -78,20 +88,18 @@ function fill(){
   const kd = KIND[K], bt = MODE === "backtest", crash = K === "crash", val = id => $("#"+id)?.value || "";
   const y = val("fy"), t = val("ft"), q = val("fq").trim().toLowerCase(), v = val("f_verdict"), o = val("f_outcome");
   const keys = ["mcap", ...kd.facts.map(f => f[0])], fv = Object.fromEntries(keys.map(k => [k, val("f_"+k)]));
-  const list = rowsFor(MODE).filter(c => (!y || c.date.startsWith(y)) && (!t || c.trigger === t) && (!v || (c.verdict||"pending") === v)
+  const list = rowsFor(MODE).filter(c => (!y || c.date.startsWith(y)) && (!t || c.cause === t) && (!v || (c.verdict||"tbu") === v)
     && (!o || c.outcome === o) && keys.every(k => !fv[k] || bucketOf(c, k) === fv[k])
     && (!q || `${c.name} ${c.ticker} ${c.summary||""}`.toLowerCase().includes(q)));
-  if (SORT) list.sort((a, b) => (b.insider_net ?? 0) - (a.insider_net ?? 0));   // biggest buy first, N/A middle, biggest sell last
-  const ret = c => c.ret == null ? `<td class="r muted">N/A</td>` :
-    `<td class="r" style="white-space:nowrap"><span class="num" style="color:${c.ret >= 0 ? "var(--good)" : "var(--bad)"}">${pct(c.ret)}</span>
-     <div class="muted" style="font-size:11.5px">${c.stopped ? `stopped ${esc(c.stopped)}` : bt ? "after 1 year" : `to ${esc(c.ret_to)}`}</div></td>`;
-  $("#rows").innerHTML = list.slice(0, SHOW).map(c => `<tr data-id="${c.id}"><td><b>${esc(c.name)}</b><div class="muted" style="font-size:11.5px">${esc(c.ticker)}</div></td>
-    <td style="white-space:nowrap">${esc(c.month)}</td><td class="r" style="white-space:nowrap"><span class="num">${pct(c.move)}</span><div class="muted" style="font-size:11.5px">${dur(c)}</div></td>
+  if (SORT) list.sort((a, b) => (b.insider_net ?? 0) - (a.insider_net ?? 0));
+  $("#rows").innerHTML = list.slice(0, SHOW).map(c => `<tr data-id="${c.id}"><td><b>${esc(c.name)}</b><div class="muted sm">${esc(c.ticker)} · ${esc(c.entry_date)}</div></td>
+    <td class="r" style="white-space:nowrap"><span class="num">${pct(c.move)}</span><div class="muted sm">${dur(c)}</div></td>
     ${crash ? `<td class="what">${esc(c.summary || "Reading the company's announcement…")}</td>` : ""}
-    <td class="r ${c.mcap == null ? "muted" : ""}" style="white-space:nowrap">${money(c.mcap)}${c.price != null ? `<div class="muted" style="font-size:11.5px">$${c.price < 1 ? c.price.toFixed(3) : c.price.toFixed(2)}/share</div>` : ""}</td>
-    ${kd.facts.map(f => cell(c.factors?.[f[0]])).join("")}<td>${pill(c.verdict)}${c.why?.length ? `<div class="why">${esc(c.why.join(" · "))}</div>` : ""}</td>${ret(c)}
+    <td class="r ${c.mcap == null ? "muted" : ""}" style="white-space:nowrap">${money(c.mcap)}${c.price != null ? `<div class="muted sm">$${c.price < 1 ? c.price.toFixed(3) : c.price.toFixed(2)}/share</div>` : ""}</td>
+    ${kd.facts.map(f => cell(c.factors?.[f[0]], f[0] === "raise" || f[0] === "insider")).join("")}${chance(c.chance_up)}${chance(c.chance_down)}
+    <td>${pill(c.verdict)}${c.why?.length ? `<div class="why">${esc(c.why.join(" · "))}</div>` : ""}</td>${retCell(c, bt)}
     ${bt ? `<td>${c.outcome ? `<span class="pill ${OUTCOME[c.outcome]}">${c.outcome}</span>` : ""}</td>` : ""}</tr>`).join("") ||
-    `<tr><td colspan="14" class="empty">Nothing matches these filters.</td></tr>`;
+    `<tr><td colspan="20" class="empty">Nothing matches these filters.</td></tr>`;
   $("#cnt").textContent = `Showing ${Math.min(SHOW, list.length)} of ${list.length}.`;
   $("#more").innerHTML = list.length > SHOW ? `<button id="mb">Show more</button>` : "";
   if (list.length > SHOW) $("#mb").onclick = () => { SHOW += 60; fill(); };
@@ -109,17 +117,19 @@ function viewOne(id){
   const quotes = (c.quotes||[]).map(q => `<div class="quote">“${esc(q)}”</div>`).join("");
   const src = (c.sources||[]).map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.label)}</a>`).join("");
   const after = c.ret == null ? "" : `<div class="card"><h4>What happened next</h4><div class="tiles">
-     <div><b>${pct(c.ret)}</b><span>${c.played ? "1-year return if bought at entry" : `return if bought at entry, to ${esc(c.ret_to)}`} (entry ${esc(c.entry_date)}${c.stopped ? `, stopped trading ${esc(c.stopped)}` : ""})</span></div>
-     ${c.outcome ? `<div><b><span class="pill ${OUTCOME[c.outcome]}">${c.outcome}</span></b><span>outcome</span></div>` : ""}
-     ${c.xbi365 == null ? "" : `<div><b>${pct(c.xbi365)}</b><span>biotech index over the same year</span></div>`}</div></div>`;
-  const head = K === "crash" ? `News day ${esc(c.date)} (${pct(c.news_day)} that day)`
-    : `Entry ${esc(c.date)} · 6-month high on ${esc(c.peak_date)} · worst single day ${pct(c.news_day)}`;
+     <div><b>${pct(c.ret)}</b><span>${c.played ? "1-year total return if bought at entry" : `total return if bought at entry, to ${esc(c.ret_to)}`} (entry close ${esc(c.entry_date)}${c.stopped ? `; stopped trading ${esc(c.stopped)}, valued at its last close` : ""})</span></div>
+     ${c.ctrl_ret == null ? "" : `<div><b>${pct(c.ctrl_ret)}</b><span>10 similar biotechs bought the same day (same size and 6-month price change, no crash or slide of their own)</span></div>`}
+     ${c.outcome ? `<div><b><span class="pill ${OUTCOME[c.outcome]}">${c.outcome}</span></b><span>outcome</span></div>` : ""}</div></div>`;
+  const odds = c.chance_up == null ? "" : `<div class="tiles" style="margin:0 0 16px"><div><b>${c.chance_up}%</b><span>chance of being up 30%+ a year after entry</span></div><div><b>${c.chance_down}%</b><span>chance of being down 80%+ a year after entry</span></div></div>`;
+  const head = K === "crash" ? `News day ${esc(c.date)} (${pct(c.news_day)} that day) · entry close ${esc(c.entry_date)}`
+    : `Entry ${esc(c.entry_date)} · 6-month high on ${esc(c.peak_date)} · worst single day ${pct(c.news_day)}`;
   $("#app").innerHTML = `
   <div class="vhead"><div><div class="muted">${head} · <a href="${back}">‹ ${c.played ? "Backtest" : "Screener"}</a></div>
     <h2>${esc(c.name)} <span class="muted" style="font-size:18px">${esc(c.ticker)}</span><span class="mv">${pct(c.move)}</span><span class="muted" style="font-size:16px;margin-left:8px">in ${dur(c)}</span></h2>
     <div class="what1">${K === "crash" ? esc(c.summary || "Reading the company's announcement…") + " · " : ""}Market cap at entry ${money(c.mcap)}</div></div>
-   <div class="vbox">${pill(c.verdict)}<div class="conf">${c.why?.length ? esc(c.why.join(" · ")) : c.verdict === "overdone" ? "Cash for 12+ months, no going-concern warning, share price $1+, market cap $50M+, valued at 3x cash or less" : ""}</div></div></div>
-  <div class="fcs" style="grid-template-columns:repeat(${kd.facts.length},minmax(0,1fr))">${cards}</div>
+   <div class="vbox">${pill(c.verdict)}<div class="conf">${c.why?.length ? esc(c.why.join(" · ")) : c.verdict === "overdone" ? "Cash for 12+ months, no going-concern warning, share price $1+, no forced raise on costly terms, market cap $50M+, EV / Cash 2× or less" : ""}</div></div></div>
+  ${odds}
+  <div class="fcs" style="grid-template-columns:repeat(${Math.min(kd.facts.length, 4)},minmax(0,1fr))">${cards}</div>
   ${quotes ? `<div class="card"><h4>From the company's announcement</h4>${quotes}</div>` : ""}
   ${after}
   ${src ? `<div class="card srcs"><h4>Sources</h4>${src}</div>` : ""}`;
@@ -127,18 +137,18 @@ function viewOne(id){
 
 /* ------------------------------------------------------------------ outcomes: every backtest episode, one row */
 function viewOutcomes(){
-  const pts = items().filter(c => c.played && c.ret != null && c.verdict !== "pending");
-  $("#app").innerHTML = `<div class="toprow"><div><h1>Outcomes</h1><div class="muted">Every backtest ${KIND[K].word}: the return if bought at entry and held 365 days, coloured by its verdict (which uses only what was public at entry). Hover a dot to see the company; click to open it.</div></div></div>
-   <div class="card" id="oc">${pts.length ? "" : `<p class="empty">Outcomes appear once episodes are scored and have a full year of prices.</p>`}</div>`;
+  const pts = items().filter(c => c.played && c.ret != null && CALLS.includes(c.verdict));
+  $("#app").innerHTML = `<div class="toprow"><div><h1>Outcomes</h1><div class="muted">Every backtest ${KIND[K].word} with a call: the total return if bought at entry and held 365 days, coloured by its call (which uses only what was public at entry). Hover a dot to see the company; click to open it.</div></div></div>
+   <div class="card" id="oc">${pts.length ? "" : `<p class="empty">Outcomes appear once episodes have a call and a full year of prices.</p>`}</div>`;
   if (!pts.length) return;
-  const groups = ["overdone","close","justified"].filter(g => pts.some(c => c.verdict === g));
+  const groups = CALLS.filter(g => pts.some(c => c.verdict === g));
   const W = Math.max(720, $("#oc").clientWidth - 32), top = 34, left = 20, right = 24, band = 300, H = top + band + 48;
   const lo = -100, hi = Math.max(150, Math.min(400, Math.ceil(Math.max(...pts.map(p => p.ret)) / 50) * 50));
   const x = v => left + (Math.max(lo, Math.min(hi, v)) - lo) / (hi - lo) * (W - left - right), med = median(pts.map(c => c.ret));
   let s = `<div class="chartleg">${groups.map(g => `<span><i style="background:${VERDICT[g][3]}"></i>${VERDICT[g][2]} · ${pts.filter(c => c.verdict === g).length}</span>`).join("")}
     <span><i class="ln" style="background:var(--ink)"></i>Median ${pct(med)} · ${pts.length}</span></div><svg width="${W}" height="${H}" role="img" aria-label="1-year returns from entry">`;
   for (let t = lo; t <= hi; t += 50) s += `<line x1="${x(t)}" x2="${x(t)}" y1="${top}" y2="${H-40}" stroke="${t===0?"var(--axis)":"var(--line)"}"/><text x="${x(t)}" y="${H-24}" text-anchor="middle">${t===0?"0%":(t>0?"+":"")+t+"%"}</text>`;
-  s += `<text x="${(left+W-right)/2}" y="${H-4}" text-anchor="middle">Return if bought at entry, 365 days later</text>`;
+  s += `<text x="${(left+W-right)/2}" y="${H-4}" text-anchor="middle">Total return if bought at entry, 365 days later</text>`;
   pts.forEach(c => { const jy = top + 10 + hash(c.id) * (band - 20);
     s += `<circle class="pt" data-id="${c.id}" cx="${x(c.ret)}" cy="${jy}" r="${pts.length > 1200 ? 3.5 : 5}" fill="${VERDICT[c.verdict][3]}" fill-opacity=".85" stroke="var(--bg)" stroke-width="1" style="cursor:pointer"/>`; });
   s += `<line x1="${x(med)}" x2="${x(med)}" y1="${top-6}" y2="${top+band}" stroke="var(--ink)" stroke-width="2.5"/><text class="lab" x="${x(med)+6}" y="${top-12}" font-weight="600">Median ${pct(med)}</text>`;
@@ -146,39 +156,88 @@ function viewOutcomes(){
   const byId = Object.fromEntries(pts.map(c => [c.id, c]));
   document.querySelectorAll(".pt").forEach(el => { const c = byId[el.dataset.id];
     el.onmousemove = e => showTip(e, `<b>${esc(c.name)} · ${esc(c.month)}</b>${VERDICT[c.verdict][2]} · ${pct(c.move)} fall → ${pct(c.ret)} a year after entry<br><span class="a">Click to open ›</span>`);
-    el.onmouseleave = hideTip; el.onclick = () => { hideTip(); location.hash = `${base()}/c/${c.id}`; }; });
+    el.onleave = hideTip; el.onmouseleave = hideTip; el.onclick = () => { hideTip(); location.hash = `${base()}/c/${c.id}`; }; });
 }
 
 /* ------------------------------------------------------------------ track record */
-function viewTrack(){
-  const T = D.kinds[K].track || {};
-  const series = [["overdone","Potentially Oversold"],["close","Too Close To Call"],["justified","Justified"]].filter(([k]) => T[k]?.path?.length)
-    .map(([k,l]) => ({k, l: `${l} · ${T[k].n}`, col: VERDICT[k][3], path: T[k].path}));
-  if (T.xbi?.path?.length) series.push({k:"xbi", l:"Biotech index (XBI)", col:"var(--idx)", path:T.xbi.path, dash:true});
-  const S = D.kinds[K].stats || {}, f = v => v == null ? "–" : pct(v);
-  const table = Object.keys(S).length ? `<div class="card"><h4>One year after entry, by verdict</h4><div class="tablewrap"><table class="stats"><thead><tr><th>Verdict</th><th class="r">${KIND[K].plural}</th><th class="r">Median</th><th class="r">Average*</th><th class="r">Biotech index average</th><th class="r">Beat the index</th><th class="r">Up 30%+</th><th class="r">Down 80%+</th></tr></thead><tbody>
-    ${["overdone","close","justified"].filter(g => S[g]).map(g => `<tr><td>${pill(g)}</td><td class="r">${S[g].n}</td><td class="r">${f(S[g].median)}</td><td class="r"><b>${f(S[g].mean)}</b></td><td class="r">${f(S[g].xbi_mean)}</td><td class="r">${S[g].beat}%</td><td class="r">${S[g].win30}%</td><td class="r">${S[g].wipe80}%</td></tr>`).join("")}
-    </tbody></table></div><div class="muted" style="font-size:12px;margin-top:8px">*Average with any single return capped at +500%. Biotech recoveries are lopsided (a few big winners, many slow losers), so the average and the hit rates describe a basket of picks better than the median.</div></div>` : "";
-  $("#app").innerHTML = `<div class="toprow"><div><h1>Track record</h1><div class="muted">Backtest ${KIND[K].plural}: return if bought at entry, by verdict, vs. the biotech index over the same dates. The chart shows the median path.</div></div></div>
-   ${table}<div class="card" id="tr">${series.length > 1 ? "" : `<p class="empty">The track record appears once episodes are scored and have a full year of prices.</p>`}</div>`;
-  if (series.length < 2) return;
-  const W = Math.max(720, $("#tr").clientWidth - 32), H = 420, left = 50, right = 230, top = 14, bot = 44;
-  const all = series.flatMap(s => s.path), lo = Math.floor(Math.min(-10, ...all) / 10) * 10, hi = Math.ceil(Math.max(10, ...all) / 10) * 10;
-  const n = series[0].path.length, x = i => left + i / (n - 1) * (W - left - right), y = v => top + (hi - v) / (hi - lo) * (H - top - bot);
+function lineChart(el, series, n, xlab, fmt){
+  const W = Math.max(520, el.clientWidth - 32), H = 340, left = 56, right = 150, top = 14, bot = 40;
+  const all = series.flatMap(s => s.path), lo = fmt.lo(Math.min(...all)), hi = fmt.hi(Math.max(...all));
+  const x = i => left + i / (n - 1) * (W - left - right), y = v => top + (hi - v) / (hi - lo) * (H - top - bot);
   let s = `<div class="chartleg">${series.map(r => `<span><i class="ln" style="background:${r.col}"></i>${esc(r.l)}</span>`).join("")}</div><svg width="${W}" height="${H}">`;
-  for (let t = lo; t <= hi; t += 10) s += `<line x1="${left}" x2="${W-right}" y1="${y(t)}" y2="${y(t)}" stroke="${t===0?"var(--axis)":"var(--line)"}"/><text x="${left-8}" y="${y(t)+4}" text-anchor="end">${t===0?"0%":(t>0?"+":"")+t+"%"}</text>`;
-  [0,90,180,270,365].forEach(d => s += `<text x="${x(Math.round(d/365*(n-1)))}" y="${H-24}" text-anchor="middle">${d ? "day " + d : "entry"}</text>`);
+  fmt.ticks(lo, hi).forEach(t => s += `<line x1="${left}" x2="${W-right}" y1="${y(t)}" y2="${y(t)}" stroke="${t===fmt.zero?"var(--axis)":"var(--line)"}"/><text x="${left-8}" y="${y(t)+4}" text-anchor="end">${fmt.tick(t)}</text>`);
+  xlab.forEach(([i, l]) => s += `<text x="${x(i)}" y="${H-16}" text-anchor="middle">${esc(l)}</text>`);
   const ends = series.map((r,i) => ({i, y: y(r.path[n-1])})).sort((a,b) => a.y - b.y); let last = -1e9;
   ends.forEach(e => { e.ly = Math.max(e.y, last + 18); last = e.ly; });
-  series.forEach((r, i) => { s += `<path d="M${r.path.map((v,j)=>`${x(j)},${y(v)}`).join(" L")}" fill="none" stroke="${r.col}" stroke-width="2.5" ${r.dash?'stroke-dasharray="6 5"':""}/>`;
-    const e = ends.find(z => z.i === i); s += `<circle cx="${x(n-1)}" cy="${y(r.path[n-1])}" r="4.5" fill="${r.col}"/><text class="lab" x="${x(n-1)+12}" y="${e.ly+4}"><tspan font-weight="700">${pct(r.path[n-1])}</tspan> ${esc(r.l)}</text>`; });
-  s += `<line id="xh" y1="${top}" y2="${H-bot}" stroke="var(--axis)" opacity="0"/><rect x="${left}" y="${top}" width="${W-left-right}" height="${H-top-bot}" fill="transparent" id="hit"/></svg>`;
-  $("#tr").innerHTML = s;
-  const hit = $("#hit"), xh = $("#xh");
-  hit.onmousemove = e => { const b = hit.getBoundingClientRect(), j = Math.round((e.clientX - b.left) / b.width * (n - 1));
+  series.forEach((r, i) => { s += `<path d="M${r.path.map((v,j)=>`${x(j).toFixed(1)},${y(v).toFixed(1)}`).join(" L")}" fill="none" stroke="${r.col}" stroke-width="2.5" ${r.dash?'stroke-dasharray="6 5"':""}/>`;
+    const e = ends.find(z => z.i === i); s += `<circle cx="${x(n-1)}" cy="${y(r.path[n-1])}" r="4.5" fill="${r.col}"/><text class="lab" x="${x(n-1)+10}" y="${e.ly+4}" font-weight="700">${fmt.end(r.path[n-1])}</text>`; });
+  s += `<line class="xh" y1="${top}" y2="${H-bot}" stroke="var(--axis)" opacity="0"/><rect x="${left}" y="${top}" width="${W-left-right}" height="${H-top-bot}" fill="transparent" class="hit"/></svg>`;
+  el.innerHTML += s;
+  const hit = el.querySelector(".hit"), xh = el.querySelector(".xh");
+  hit.onmousemove = e => { const b = hit.getBoundingClientRect(), j = Math.max(0, Math.min(n-1, Math.round((e.clientX - b.left) / b.width * (n - 1))));
     xh.setAttribute("x1", x(j)); xh.setAttribute("x2", x(j)); xh.setAttribute("opacity", 1);
-    showTip(e, `<b>Day ${Math.round(j/(n-1)*365)}</b>` + series.map(r => `${esc(r.l.split(" · ")[0])}: ${pct(r.path[j])}`).join("<br>")); };
+    showTip(e, `<b>${esc(fmt.at(j))}</b>` + series.map(r => `${esc(r.l)}: ${fmt.end(r.path[j])}`).join("<br>")); };
   hit.onmouseleave = () => { xh.setAttribute("opacity", 0); hideTip(); };
+}
+const PCT = {lo: v => Math.floor(Math.min(-10, v) / 10) * 10, hi: v => Math.ceil(Math.max(10, v) / 10) * 10, zero: 0,
+  ticks: (lo, hi) => { const st = (hi - lo) > 120 ? 20 : 10, o = []; for (let t = lo; t <= hi; t += st) o.push(t); return o; },
+  tick: t => t === 0 ? "0%" : (t > 0 ? "+" : "−") + Math.abs(t) + "%", end: v => pct(v)};
+
+function barChart(el, data, keys){
+  const W = Math.max(520, el.clientWidth - 32), H = 330, left = 56, right = 16, top = 22, bot = 56;
+  const vals = data.flatMap(d => keys.map(k => d[k.k]).filter(v => v != null)), lo = Math.floor(Math.min(0, ...vals) / 10) * 10 - 10, hi = Math.ceil(Math.max(10, ...vals) / 10) * 10 + 10;
+  const y = v => top + (hi - v) / (hi - lo) * (H - top - bot), gw = (W - left - right) / data.length, bw = Math.min(30, (gw - 16) / keys.length);
+  let s = `<div class="chartleg">${keys.map(k => `<span><i class="ln" style="background:${k.col}"></i>${esc(k.l)}</span>`).join("")}</div><svg width="${W}" height="${H}">`;
+  PCT.ticks(lo, hi).forEach(t => s += `<line x1="${left}" x2="${W-right}" y1="${y(t)}" y2="${y(t)}" stroke="${t===0?"var(--axis)":"var(--line)"}"/><text x="${left-8}" y="${y(t)+4}" text-anchor="end">${PCT.tick(t)}</text>`);
+  data.forEach((d, i) => { const x0 = left + i * gw + gw / 2 - keys.length * bw / 2;
+    keys.forEach((k, j) => { const v = d[k.k]; if (v == null) return; const a = y(Math.max(v, 0)), b = y(Math.min(v, 0));
+      s += `<rect x="${x0 + j * bw + 1}" y="${a}" width="${bw - 3}" height="${Math.max(1, b - a)}" rx="3" fill="${k.col}"/><text class="lab" x="${x0 + j * bw + bw / 2}" y="${v >= 0 ? a - 5 : b + 13}" text-anchor="middle" font-size="11">${pct(v)}</text>`; });
+    s += `<text class="lab" x="${left + i * gw + gw / 2}" y="${H - 30}" text-anchor="middle" font-weight="600">${esc(d.label)}</text><text x="${left + i * gw + gw / 2}" y="${H - 14}" text-anchor="middle" font-size="11">${esc(d.sub)}</text>`; });
+  el.innerHTML += s + "</svg>";
+}
+
+function viewTrack(){
+  const kd = D.kinds[K], T = kd.track || {}, S = kd.stats || {}, f = v => v == null ? "–" : pct(v), p = v => v == null ? "–" : v + "%";
+  const row = (lab, s) => `<tr><td>${lab}</td><td class="r">${s.n}</td><td class="r">${f(s.median)}</td><td class="r"><b>${f(s.mean)}</b></td><td class="r">${f(s.ctrl_mean)}</td><td class="r">${p(s.beat)}</td><td class="r">${s.win30}%</td><td class="r">${s.wipe80}%</td></tr>`;
+  const head = first => `<thead><tr><th>${first}</th><th class="r">${KIND[K].plural[0].toUpperCase() + KIND[K].plural.slice(1)}</th><th class="r">Median</th><th class="r">Average*</th><th class="r">Similar biotechs, average</th><th class="r">Beat similar biotechs</th><th class="r">Up 30%+</th><th class="r">Down 80%+</th></tr></thead>`;
+  const note = `<div class="fnote">*Each return capped at +500%. Total return: price change plus cash paid out per share; a company that stopped trading (bought out, delisted) counts at its last close; reverse splits are taken out of the price. Similar biotechs: the 10 closest in market value and 6-month price change on the entry day, with no crash or slide of their own.</div>`;
+  const table = Object.keys(S).length ? `<div class="card"><h4>One year after entry, by call</h4><div class="tablewrap"><table class="stats">${head("Call")}<tbody>
+    ${CALLS.filter(g => S[g]).map(g => row(pill(g), S[g])).join("")}</tbody></table></div>${note}</div>` : "";
+  const C = kd.causes || {};
+  const causes = Object.keys(C).length ? `<div class="card"><h4>One year after entry, by cause of the crash (all calls)</h4><div class="tablewrap"><table class="stats">${head("Cause")}<tbody>
+    ${Object.entries(C).map(([k, s]) => row(esc(k), s)).join("")}</tbody></table></div></div>` : "";
+  const P = kd.portfolio;
+  const port = P ? `<div class="card" id="pf"><h4>$10,000 test: every Buy candidate since ${esc(P.start)}, equal money in each open one, held a year · ${P.positions} positions · no trading costs</h4>
+    <div class="tiles" style="margin-bottom:10px"><div><b>${usd(P.own)}</b><span>in Buy candidates</span></div><div><b>${usd(P.ctrl)}</b><span>in their similar biotechs</span></div></div></div>` : "";
+  const Y = Object.entries(kd.years || {}).filter(([, v]) => v.buy_n || v.avoid_n);
+  $("#app").innerHTML = `<div class="toprow"><div><h1>Track record</h1><div class="muted">Backtest ${KIND[K].plural} with a call: total return if bought at the entry close, vs. 10 similar biotechs bought the same day. TBU ${KIND[K].plural} are left out until their inputs are complete.</div></div></div>
+   ${table || `<div class="card"><p class="empty">The track record appears once ${KIND[K].plural} have a call and a full year of prices.</p></div>`}
+   <div class="grid2"><div class="card" id="tr"><h4>Median return after entry</h4></div><div class="card" id="yr"><h4>Average 1-year return by year of entry</h4></div></div>
+   ${port}${causes}`;
+  const series = CALLS.filter(k => T[k]?.path?.length).map(k => ({l: `${VERDICT[k][2]} · ${T[k].n}`, col: VERDICT[k][3], path: T[k].path}));
+  if (T.ctrl?.path?.length) series.push({l: "Similar biotechs", col: "var(--idx)", path: T.ctrl.path, dash: true});
+  if (series.length > 1) { const n = series[0].path.length;
+    lineChart($("#tr"), series, n, [0,90,180,270,365].map(d => [Math.round(d/365*(n-1)), d ? "day " + d : "entry"]),
+      {...PCT, at: j => `Day ${Math.round(j/(n-1)*365)}`}); }
+  if (Y.length) barChart($("#yr"), Y.map(([y, v]) => ({label: y, sub: `${v.buy_n} buy · ${v.avoid_n} avoid`, buy: v.buy, avoid: v.avoid, ctrl: v.ctrl})),
+    [{k:"buy", l:"Buy candidates", col:"var(--g-line)"}, {k:"avoid", l:"Avoid", col:"var(--r-line)"}, {k:"ctrl", l:"Similar biotechs (of the buys)", col:"var(--idx)"}]);
+  if (P) { const pts = P.points, n = pts.length, step = Math.max(1, Math.round(n / 6));
+    lineChart($("#pf"), [{l: "Buy candidates", col: "var(--g-line)", path: pts.map(q => q[1])}, {l: "Similar biotechs", col: "var(--idx)", path: pts.map(q => q[2]), dash: true}], n,
+      pts.map((q, i) => [i, q[0].slice(0, 7)]).filter(([i]) => i % step === 0),
+      {lo: v => Math.floor(Math.min(10000, v) / 2000) * 2000, hi: v => Math.ceil(Math.max(10000, v) / 2000) * 2000, zero: 10000,
+       ticks: (lo, hi) => { const st = (hi - lo) > 16000 ? 4000 : 2000, o = []; for (let t = lo; t <= hi; t += st) o.push(t); return o; },
+       tick: t => "$" + (t / 1000) + "k", end: v => usd(v), at: j => pts[j][0]}); }
+}
+
+/* ------------------------------------------------------------------ live calls */
+function viewLive(){
+  const rows = (D.live || []).filter(r => r.kind === K);
+  $("#app").innerHTML = `<div class="toprow"><div><h1>Live calls</h1><div class="muted">Each call on a recent ${KIND[K].word} is added here when it is made and published the same moment as a <a href="https://github.com/haing-dev/crash-triage/releases" target="_blank" rel="noopener">GitHub release</a>, whose time GitHub sets, so no result can be filled in afterwards. Return is measured from the last close before the call.</div></div></div>
+   <div class="card"><div class="tablewrap"><table class="stats"><thead><tr><th>Called</th><th>Company</th><th>Call</th><th class="r">Return since</th><th class="r">Similar biotechs</th></tr></thead><tbody>
+   ${rows.map(r => `<tr><td>${esc(r.called_utc)}</td><td><a href="${base()}/c/${esc(r.id)}"><b>${esc(r.name)}</b></a> <span class="muted">${esc(r.ticker)}</span></td><td>${pill(r.call)}</td>
+     <td class="r"><span class="num" style="color:${(r.ret ?? 0) >= 0 ? "var(--good)" : "var(--bad)"}">${pct(r.ret)}</span><div class="muted sm">from ${esc(r.base_date)}</div></td><td class="r">${pct(r.ctrl_ret)}</td></tr>`).join("")
+     || `<tr><td colspan="5" class="empty">No calls yet: the first ones appear when a new ${KIND[K].word} has all its inputs.</td></tr>`}
+   </tbody></table></div></div>`;
 }
 
 function median(a){ if (!a.length) return 0; const s = [...a].sort((x,y)=>x-y), m = s.length >> 1; return s.length % 2 ? s[m] : (s[m-1]+s[m]) / 2; }
@@ -187,7 +246,7 @@ function hash(s){ let h = 2166136261; for (const ch of s) h = Math.imul(h ^ ch.c
 function route(){
   hideTip();
   let h = (location.hash || "#/").slice(2);
-  if (!/^(crash|slide)(\/|$)/.test(h)) h = "crash/" + h;          // old links (#/backtest, #/c/...) are crash links
+  if (!/^(crash|slide)(\/|$)/.test(h)) h = "crash/" + h;
   const [kind, ...rest] = h.split("/"), view = rest[0] || "screener";
   K = kind;
   document.querySelectorAll(".kind button").forEach(b => b.classList.toggle("on", b.dataset.kind === K));
@@ -195,13 +254,13 @@ function route(){
     a.classList.toggle("on", a.dataset.nav === (view === "c" ? "screener" : view)); });
   document.title = KIND[K].label;
   if (view === "c") viewOne(decodeURIComponent(rest.slice(1).join("/")));
-  else if (view === "outcomes") viewOutcomes(); else if (view === "track") viewTrack();
+  else if (view === "outcomes") viewOutcomes(); else if (view === "track") viewTrack(); else if (view === "live") viewLive();
   else viewTable(view === "backtest" ? "backtest" : "screener");
   scrollTo(0, 0);
 }
 fetch("data.json", {cache: "no-store"}).then(r => r.json()).then(d => {
   D = d; Object.values(D.kinds).forEach(k => k.items.sort((a,b) => b.date.localeCompare(a.date)));
   document.querySelectorAll(".kind button").forEach(b => b.onclick = () => { location.hash = `#/${b.dataset.kind}`; });
-  $("#foot").textContent = `Updated ${d.updated}. Data: SEC EDGAR, ClinicalTrials.gov, Twelve Data, Tiingo, Massive. Not investment advice.`;
+  $("#foot").textContent = `Updated ${d.updated}. Data: SEC EDGAR (filings, XBRL, Form 4, 13F), FINRA short interest and prices via Massive, ClinicalTrials.gov, Twelve Data, Tiingo. Not investment advice.`;
   addEventListener("hashchange", route); route();
 }).catch(() => $("#app").innerHTML = `<p class="empty">Could not load data.</p>`);

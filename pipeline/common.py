@@ -9,7 +9,7 @@ Layout: one "kind" per triage, same files for each:
   data/<kind>/scores/        factor cells, score and verdict (fit.py, rebuilt every site build, not committed)
 Shared: data/universe.csv, data/prices/, data/prices_raw/, data/splits/, data/state/
 """
-import csv, functools, html, json, os, re, shutil, subprocess, tempfile, time, urllib.error, urllib.request
+import csv, functools, html, json, math, os, re, shutil, subprocess, tempfile, time, urllib.error, urllib.request
 from html.parser import HTMLParser
 from pathlib import Path
 
@@ -37,12 +37,32 @@ def universe():
     return {u["cik"]: u for u in csv.DictReader((DATA / "universe.csv").open())}
 
 
-@functools.lru_cache(maxsize=64)
+@functools.lru_cache(maxsize=None)
 def closes(key):
-    """Daily closes (split-adjusted) as two parallel lists: dates, prices."""
+    """Daily closes (split-adjusted) as two parallel lists: dates, prices. Two fixed repairs, from the sources:
+    - a split in the company's split list that the stored history still shows as a jump (the day's move is closer
+      to the split ratio than to no move) is taken out: earlier closes are put on the post-split basis;
+    - a one-day rise of 20x or more that no split explains is a different security under the same ticker (a reused
+      ticker), so the history stops the day before it."""
     p = DATA / "prices" / f"{key}.csv"
     rows = [(r["date"], float(r["close"])) for r in csv.DictReader(p.open()) if r["close"]] if p.exists() else []
-    return [d for d, _ in rows], [c for _, c in rows]
+    ds, cs = [d for d, _ in rows], [c for _, c in rows]
+    sp = DATA / "splits" / f"{key}.json"
+    splits = json.loads(sp.read_text())["splits"] if sp.exists() else []
+    for day, num, den in splits:
+        f = den / num                                     # 1-for-40 reverse split: earlier actual prices x 40
+        i = next((k for k, d in enumerate(ds) if d >= day), None)
+        if i is None or i == 0 or abs(math.log(f)) < math.log(1.5) or cs[i - 1] <= 0 or cs[i] <= 0:
+            continue
+        r = cs[i] / cs[i - 1]
+        if abs(math.log(r) - math.log(f)) < abs(math.log(r)):
+            cs[:i] = [c * f for c in cs[:i]]
+    split_days = {d for d, _, _ in splits}
+    for k in range(1, len(cs)):
+        if cs[k - 1] > 0 and cs[k] / cs[k - 1] >= 20 and not any(ds[k - 1] < d <= ds[k] for d in split_days):
+            ds, cs = ds[:k], cs[:k]
+            break
+    return ds, cs
 
 
 def money(v):

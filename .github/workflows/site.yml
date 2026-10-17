@@ -3,7 +3,7 @@ on:
   schedule:
     - cron: "23 0,12 * * *"     # twice a day; Cloudflare only deploys the 'site' branch
   push:
-    paths: ["web/**", "pipeline/build_site.py", "pipeline/fit.py", "pipeline/common.py", ".github/workflows/site.yml"]
+    paths: ["web/**", "pipeline/build_site.py", "pipeline/fit.py", "pipeline/common.py", "pipeline/returns.py", "pipeline/controls.py", ".github/workflows/site.yml"]
   workflow_dispatch:
 permissions:
   contents: write
@@ -11,12 +11,27 @@ concurrency: { group: site, cancel-in-progress: true }
 jobs:
   site:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
+      - run: pip install -q numpy
       - run: cd pipeline && python fit.py && python build_site.py
+      - name: Keep the call ledger and the similar-biotech matches; publish new calls as a release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "crash-triage-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/ledger.csv data/controls.json reports/fit_*.md 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -q -m "calls and matches [skip ci]"
+            for i in 1 2 3 4 5 6; do git pull --rebase -q && git push -q && break; sleep $((i*9)); done
+          fi
+          if [ -f new_calls.md ]; then
+            gh release create "calls-$(date -u +%Y%m%d-%H%M)" --title "Calls $(date -u '+%Y-%m-%d %H:%M UTC')" --notes-file new_calls.md --target main
+          fi
       - name: Package for Cloudflare (Worker with static assets)
         run: |
           mkdir -p deploy && mv site deploy/public
