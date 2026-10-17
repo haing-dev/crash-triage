@@ -1,0 +1,33 @@
+{
+ "id": "1563880_2023-02-17",
+ "asof": "2023-02-17",
+ "chars": 23810,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2022-10-25",
+   "net_proceeds_usd": 3100000,
+   "what": "Underwriters' partial exercise of option to buy 1,600,428 additional shares at $1.93 (gross proceeds; net not given)",
+   "quote": "On October 25, 2022, the Company sold 1,600,428 shares of common stock at $1.93 per share to the Underwriters upon the exercise of the Option pursuant to the Underwriting Agreement for gross proceeds of approximately $3.1 million"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 1851852,
+   "exercise_price_usd": 1.37,
+   "expiry": null,
+   "quote": "1,851,852 of the warrants to purchase shares of common stock that are to expire in April 2025"
+  },
+  {
+   "count": 7851852,
+   "exercise_price_usd": 1.37,
+   "expiry": null,
+   "quote": "7,851,852 of the warrants to purchase shares of common stock that are to expire in October 2028"
+  }
+ ],
+ "warrants_dropped": 0
+}

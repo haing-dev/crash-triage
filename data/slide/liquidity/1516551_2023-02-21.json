@@ -1,0 +1,69 @@
+{
+ "id": "1516551_2023-02-21",
+ "asof": "2023-02-21",
+ "chars": 9786,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2022-10-17",
+   "net_proceeds_usd": 700000,
+   "what": "Unsecured loan from EHT under promissory note, 12% simple interest, matures Oct 17, 2023",
+   "quote": "On October 17, 2022, Skye and EHT entered into a loan agreement (the \u201cLoan Agreement\u201d) pursuant to which EHT loaned Skye USD$700,000"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 7500000,
+   "exercise_price_usd": 0.5,
+   "expiry": null,
+   "quote": "s0.50 57,500,000"
+  },
+  {
+   "count": 8000000,
+   "exercise_price_usd": 0.35,
+   "expiry": null,
+   "quote": "2019 Common Stock Warrants0.35 58,000,000"
+  },
+  {
+   "count": 8166667,
+   "exercise_price_usd": 0.08,
+   "expiry": null,
+   "quote": "2020 Common Stock Warrants to Placement Agent0.08 58,166,667"
+  },
+  {
+   "count": 21166667,
+   "exercise_price_usd": 0.15,
+   "expiry": null,
+   "quote": "2021 Inducement Warrants0.15 521,166,667"
+  },
+  {
+   "count": 1481667,
+   "exercise_price_usd": 0.19,
+   "expiry": null,
+   "quote": "2021 Inducement Warrants to Placement Agent0.19 51,481,667"
+  },
+  {
+   "count": 77777779,
+   "exercise_price_usd": 0.09,
+   "expiry": null,
+   "quote": "2021 Common Stock Warrants0.09 577,777,779"
+  },
+  {
+   "count": 5444445,
+   "exercise_price_usd": 0.11,
+   "expiry": null,
+   "quote": "2021 Common Stock Warrants to Placement Agent0.11 55,444,445"
+  },
+  {
+   "count": 2000000,
+   "exercise_price_usd": 0.04,
+   "expiry": "2024-04-01",
+   "quote": "2022 Common Stock Warrants to Service Provider0.04 22,000,000"
+  }
+ ],
+ "warrants_dropped": 0
+}
