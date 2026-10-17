@@ -1,0 +1,39 @@
+{
+ "id": "1569340_2022-12-20",
+ "asof": "2022-12-20",
+ "chars": 9790,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": null,
+   "net_proceeds_usd": 600000,
+   "what": "Convertible notes issued after 2022-09-30 (exact closing date not given in the excerpts)",
+   "quote": "the Company received aggregate proceeds of $600,000"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 1200000,
+   "exercise_price_usd": 1.25,
+   "expiry": null,
+   "quote": "five-year immediately vested warrants to purchase an aggregate of 1,200,000 shares"
+  },
+  {
+   "count": 496000,
+   "exercise_price_usd": 1.25,
+   "expiry": null,
+   "quote": "warrants to purchase an aggregate of 496,000 shares"
+  },
+  {
+   "count": 200000,
+   "exercise_price_usd": 0.75,
+   "expiry": null,
+   "quote": "a five-year immediately vested warrant to purchase 200,000"
+  }
+ ],
+ "warrants_dropped": 0
+}

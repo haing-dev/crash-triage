@@ -1,0 +1,38 @@
+{
+ "id": "1498382_2022-12-13",
+ "asof": "2022-12-13",
+ "chars": 23799,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 50000,
+   "exercise_price_usd": 2.38,
+   "expiry": "2024-02-25",
+   "quote": "nts issued for services"
+  },
+  {
+   "count": 1623000,
+   "exercise_price_usd": 0.66,
+   "expiry": "2026-10-14",
+   "quote": "2022 April Agent warrants"
+  },
+  {
+   "count": 600000,
+   "exercise_price_usd": 1.56,
+   "expiry": "2025-03-28",
+   "quote": "2022 Agent warrants"
+  },
+  {
+   "count": 47000,
+   "exercise_price_usd": 3.88,
+   "expiry": "2024-06-03",
+   "quote": "2019 Agent warrants"
+  }
+ ],
+ "warrants_dropped": 0
+}

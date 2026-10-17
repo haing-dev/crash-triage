@@ -1,5 +1,20 @@
 {
  "id": "1815974_2023-01-17",
  "asof": "2023-01-17",
- "error": "Extra data: line 21 column 1 (char 705)"
+ "chars": 3820,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 2264650,
+   "exercise_price_usd": 4.215,
+   "expiry": "2027-09-28",
+   "quote": "Each warrant has an exercise price of $4.215 per share, which is subject to customary adjustments in the event of any combination or split of our common stock. The warrants expire on September 28, 2027."
+  }
+ ],
+ "warrants_dropped": 0
 }

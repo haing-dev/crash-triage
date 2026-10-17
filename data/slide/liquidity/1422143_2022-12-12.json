@@ -1,0 +1,39 @@
+{
+ "id": "1422143_2022-12-12",
+ "asof": "2022-12-12",
+ "chars": 25517,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2022-11-02",
+   "net_proceeds_usd": 10000000,
+   "what": "Hercules Tranche 1 term loan initial borrowing",
+   "quote": "Under the terms of the Loan Agreement, we borrowed $10.0 million of an initial $25.0 million tranche of term loans"
+  },
+  {
+   "date": "2022-11-03",
+   "net_proceeds_usd": 24900000,
+   "what": "BMS registered direct offering of common stock (expected close on or about Nov 3, 2022; closing not confirmed in the excerpts)",
+   "quote": "We estimate that the net proceeds to us from this offering will be approximately $24.9 million."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 33988,
+   "exercise_price_usd": 3.31,
+   "expiry": null,
+   "quote": "a warrant to purchase up to 33,988 shares of our common stock at an exercise price of $3.31 per share was outstanding as of September 30, 2022"
+  },
+  {
+   "count": 26078,
+   "exercise_price_usd": 14.38,
+   "expiry": "2029-11-02",
+   "quote": "we issued warrants to certain of the Lenders, or collectively, the Warrants, to acquire up to 26,078 shares of our common stock at an exercise price of $14.38 per share"
+  }
+ ],
+ "warrants_dropped": 0
+}
