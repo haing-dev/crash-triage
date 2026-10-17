@@ -1,0 +1,24 @@
+name: probe-sources
+on:
+  push:
+    paths: ["pipeline/probe.py"]
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - env:
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+          MASSIVE_API_KEY: ${{ secrets.MASSIVE_API_KEY }}
+        run: cd pipeline && python probe.py
+      - run: |
+          git config user.name "crash-triage-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add reports/probe.md
+          git commit -m "probe [skip ci]" || true
+          for i in 1 2 3 4 5; do git pull --rebase -q && git push -q && break; sleep $((i*7)); done
