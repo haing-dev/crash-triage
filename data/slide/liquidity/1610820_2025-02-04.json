@@ -1,0 +1,51 @@
+{
+ "id": "1610820_2025-02-04",
+ "asof": "2025-02-04",
+ "chars": 30554,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2024-12-10",
+   "net_proceeds_usd": 527765,
+   "what": "Exercise of 620,900 October 2024 Warrants (gross proceeds; net not given)",
+   "quote": "620,900 October 2024 Warrants were exercised into 620,900 common shares of the Company, generating gross proceeds of $527,765."
+  },
+  {
+   "date": "2024-12-13",
+   "net_proceeds_usd": 5133750,
+   "what": "December 2024 public offering of 7.4M shares plus warrants (proceeds after underwriting discount, before other expenses)",
+   "quote": "Proceeds to us, before expenses"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 4507600,
+   "exercise_price_usd": 0.85,
+   "expiry": "2029-10-02",
+   "quote": "The warrants have an exercise price of $0.85 per share, are immediately exercisable, and expire five years from the date of issuance"
+  },
+  {
+   "count": 7400000,
+   "exercise_price_usd": 0.9375,
+   "expiry": "2029-12-13",
+   "quote": "The warrants have an exercise price of $0.9375 per share, and are immediately exercisable for a period of five years from the closing date."
+  },
+  {
+   "count": 370000,
+   "exercise_price_usd": 0.9375,
+   "expiry": "2029-12-13",
+   "quote": "The agent warrants are immediately exercisable for a period of five years from the closing date at an exercise price of $0.9375."
+  },
+  {
+   "count": 616250,
+   "exercise_price_usd": 0.8625,
+   "expiry": null,
+   "quote": "the Company issued 616,250 placement agent warrants with an exercise price of $0.8625 per share"
+  }
+ ],
+ "warrants_dropped": 0
+}

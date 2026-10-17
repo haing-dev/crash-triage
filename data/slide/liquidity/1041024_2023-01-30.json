@@ -1,0 +1,39 @@
+{
+ "id": "1041024_2023-01-30",
+ "asof": "2023-01-30",
+ "chars": 21289,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2022-10-28",
+   "net_proceeds_usd": 48,
+   "what": "Exercise of 480,000 pre-funded warrants at $0.0001 per share",
+   "quote": "The exercise price of each Pre-Funded Warrant is $0.0001 per share and resulted in gross proceeds of $48.00"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 9900990,
+   "exercise_price_usd": 1.39,
+   "expiry": null,
+   "quote": "warrants to purchase up to a total of 9,900,990 shares of common stock"
+  },
+  {
+   "count": 7788480,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "prefunded warrants to purchase up to an aggregate of 7,788,480 shares of common stock"
+  },
+  {
+   "count": 1267897,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "pre-funded warrants to purchase up to a total of 1,267,897 shares of common stock"
+  }
+ ],
+ "warrants_dropped": 0
+}
