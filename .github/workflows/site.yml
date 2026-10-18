@@ -51,6 +51,8 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
           if [ -z "$CLOUDFLARE_API_TOKEN" ]; then echo "no Cloudflare token yet: relying on Cloudflare's own build of the 'site' branch"; exit 0; fi
+          export CLOUDFLARE_ACCOUNT_ID=$(printf %s "$CLOUDFLARE_ACCOUNT_ID" | tr -d '[:space:]')   # pasted secrets can carry a newline
+          export CLOUDFLARE_API_TOKEN=$(printf %s "$CLOUDFLARE_API_TOKEN" | tr -d '[:space:]')
           cd deploy
           if ! npx -y wrangler@4 deploy > ../wrangler.log 2>&1; then
             tail -25 ../wrangler.log | sed 's/^/::error::/'
