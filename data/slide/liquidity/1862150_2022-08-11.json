@@ -2,5 +2,27 @@
  "id": "1862150_2022-08-11",
  "asof": "2022-08-11",
  "accn": "0001493152-22-021964",
- "error": "Extra data: line 3 column 1 (char 505)"
+ "chars": 22418,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2022-08-10",
+   "net_proceeds_usd": 5000000,
+   "what": "Unsecured 15% promissory note debt financing from Werth Family Investment Associates LLC (WFIA)",
+   "quote": "On\nAugust 10, 2022, the Company received $5.0\nmillion of debt financing from Werth Family Investment Associates LLC (WFIA)."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 4999998,
+   "exercise_price_usd": 0,
+   "expiry": null,
+   "quote": "Common\n stock purchase warrants outstanding\n\n 4,999,998"
+  }
+ ],
+ "warrants_dropped": 0
 }

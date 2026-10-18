@@ -1,0 +1,64 @@
+{
+ "id": "72444_2022-07-29",
+ "asof": "2022-07-29",
+ "accn": "0001437749-22-011554",
+ "chars": 20370,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2022-03-31",
+   "net_proceeds_usd": 2800000,
+   "what": "Net proceeds from common stock sold under the September 2021 ATM since March 31, 2022",
+   "quote": "Since March 31, 2022, the Company has issued 560,000 shares of common stock under the September 2021 ATM (see Note 1) for net proceeds totaling $2.8 million."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 5000,
+   "exercise_price_usd": 0.3,
+   "expiry": "2024-09-30",
+   "quote": "Common Stock 5,000 $0.30 \nSeptember 2024"
+  },
+  {
+   "count": 44148,
+   "exercise_price_usd": 1.1,
+   "expiry": "2024-04-30",
+   "quote": "Common Stock 44,148 $1.10 \nApril 2024"
+  },
+  {
+   "count": 26515,
+   "exercise_price_usd": 1.375,
+   "expiry": "2024-04-30",
+   "quote": "Common Stock 26,515 $1.375 \nApril 2024"
+  },
+  {
+   "count": 29150,
+   "exercise_price_usd": 2.5,
+   "expiry": "2025-03-31",
+   "quote": "Common Stock 29,150 $2.50 \nMarch 2025"
+  },
+  {
+   "count": 100532,
+   "exercise_price_usd": 3.125,
+   "expiry": "2025-02-28",
+   "quote": "Common Stock 100,532 $3.125 \nFebruary 2025"
+  },
+  {
+   "count": 16175,
+   "exercise_price_usd": 3.125,
+   "expiry": "2024-03-31",
+   "quote": "Common Stock 16,175 $3.125 \nMarch 2024"
+  },
+  {
+   "count": 10914,
+   "exercise_price_usd": 22.99,
+   "expiry": "2026-12-31",
+   "quote": "Common Stock 10,914 $22.99 \nDecember 2026"
+  }
+ ],
+ "warrants_dropped": 0
+}
