@@ -1,7 +1,5 @@
 name: read-liquidity
-on:
-  schedule:
-    - cron: "7 */3 * * *"       # every 3 hours, ~30 filings a run (~240 a day): gentle on the Claude subscription
+on:                             # paused: cash runway is no longer a signal, so these Claude reads aren't needed
   workflow_dispatch:
     inputs:
       limit: { description: "Filings to read this run", default: "30" }
