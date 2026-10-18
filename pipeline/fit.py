@@ -36,8 +36,9 @@ Call, a fixed rule:
   Watch          the rest
   TBU            an input for that day is still being collected (listed in the reasons)
 Chances: two logistic regressions on the cells' categories (plus market value, price under $1, going concern and,
-for crashes, the cause), refitted each quarter on episodes whose year had ended: the chance of being up 30%+ and
-down 80%+ one year after entry.
+for crashes, the cause), refitted each month on episodes whose year had ended: the chance of being up 30%+ and
+down 80%+ one year after entry. A chance column is shown only while its walk-forward check passes (in each band of
+predictions, 0-20 / 20-40 / 40-100%, with 20+ cases, what happened is within 10 points of the band).
 
 Output: data/<kind>/scores/<id>.json, reports/fit_<kind>.md
 """
@@ -554,11 +555,11 @@ def run(kind, ctrl):
         if "tbu" in x:
             (out_dir / f"{x['id']}.json").write_text(json.dumps(x["tbu"]))
             continue
-        m0, q0 = x["asof"][:7] + "-01", quarter_start(x["asof"])
+        m0 = q0 = x["asof"][:7] + "-01"
         if m0 not in colours:                                  # colours: monthly refit on outcomes known by the 1st
             tr = [t for t in known if t["d365"] <= m0]
             colours[m0] = fit(tr, keys) if len(tr) >= MIN_TRAIN else None
-        if q0 not in chances:                                  # chances: quarterly refit
+        if q0 not in chances:                                  # chances: monthly refit, like the colours
             tr = [t for t in known if t["d365"] <= q0]
             chances[q0] = (logit(tr, lambda t: t["abs"] >= 0.3), logit(tr, lambda t: t["abs"] <= -0.8)) if len(tr) >= MIN_TRAIN else None
         ins = not (colours[m0] and chances[q0])
@@ -618,6 +619,18 @@ def run(kind, ctrl):
             a = [h for u, h, _, _ in calib if lo <= u < hi]
             b = [h for _, _, d, h in calib if lo <= d < hi]
             rep.append(f"| {lo}–{min(hi, 100)}% | {len(a)} | {sum(a) / len(a) if a else 0:.0%} | {len(b)} | {sum(b) / len(b) if b else 0:.0%} |")
+    # the chance columns stay only while they pass their check: in every band with 20+ walk-forward predictions, what
+    # happened is within 10 points of the band (0-20%, 20-40%, 40-100%)
+    ok = {}
+    for name, pi, hi_ in (("up", 0, 1), ("down", 2, 3)):
+        good = True
+        for lo, hi in ((0, 20), (20, 40), (40, 101)):
+            h = [c[hi_] for c in calib if lo <= c[pi] < hi]
+            if len(h) >= 20 and not (lo - 10 <= 100 * sum(h) / len(h) <= min(hi, 100) + 10):
+                good = False
+        ok[name] = good and len(calib) >= 50
+    (DATA / kind / "calibration.json").write_text(json.dumps(ok))
+    rep += ["", f"Chance columns shown: up 30%+ {'yes' if ok['up'] else 'no (check failed)'} · down 80%+ {'yes' if ok['down'] else 'no (check failed)'}"]
     (ROOT / "reports" / f"fit_{kind}.md").write_text("\n".join(rep) + "\n")
     print("\n".join(rep))
 

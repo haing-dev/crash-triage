@@ -160,7 +160,9 @@ def build(kind, ctrl, calendar):
     fmt = lambda d: time.strftime("%b %Y", time.strptime(d, "%Y-%m-%d"))
     print(f"{kind}: {len(items)} episodes, {sum(1 for r in items if r['played'])} with a full year, "
           f"{len(calls)} with a call, {sum(1 for r in items if r['verdict'] == 'tbu')} TBU")
+    cal = DATA / kind / "calibration.json"
     return {"range": f"{fmt(dates[0])} – {fmt(dates[-1])}" if dates else "", "items": items, "track": track, "stats": stat,
+            "chance_ok": json.loads(cal.read_text()) if cal.exists() else {"up": False, "down": False},
             "years": years, "causes": causes, "portfolio": portfolio(calls, ctrl, calendar)}
 
 
@@ -209,7 +211,10 @@ def main():
         shutil.rmtree(SITE)
     shutil.copytree(ROOT / "web", SITE)
     (SITE / "data.json").write_text(json.dumps(data, separators=(",", ":")))
-    (SITE / "_headers").write_text("/data.json\n  Cache-Control: no-cache\n")
+    v = time.strftime("%Y%m%d%H%M", time.gmtime())          # new file names each build: browsers never keep old code
+    idx = SITE / "index.html"
+    idx.write_text(idx.read_text().replace('href="style.css"', f'href="style.css?v={v}"').replace('src="app.js"', f'src="app.js?v={v}"'))
+    (SITE / "_headers").write_text("".join(f"{p}\n  Cache-Control: no-cache\n" for p in ("/", "/index.html", "/data.json", "/app.js", "/style.css")))
 
 
 if __name__ == "__main__":

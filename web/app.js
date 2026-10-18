@@ -32,6 +32,7 @@ const usd = v => "$" + Math.round(v).toLocaleString("en-US");
 const mcapBucket = v => v == null ? "N/A" : v < 5e7 ? "Under $50M" : v < 3e8 ? "$50–300M" : v < 2e9 ? "$300M–2B" : "Over $2B";
 let D = null, K = "crash", SHOW = 60, MODE = "screener", SORT = false;
 const items = () => D.kinds[K].items;
+const CU = () => D.kinds[K].chance_ok?.up, CD = () => D.kinds[K].chance_ok?.down;   // shown only while they pass their check
 const base = () => `#/${K}`;
 
 const tip = $("#tip");
@@ -71,9 +72,9 @@ function viewTable(mode){
     <input id="fq" placeholder="Search company or ticker"></div></div>
   <div class="tablewrap"><table class="crash"><thead>
    <tr><th>Company</th><th class="r">${crash ? "Fall" : "Fall from high"}</th>${crash ? "<th>What happened</th>" : ""}${th("Market cap","at entry","r")}${cols}
-    ${th("Chance up 30%+","in 1 year","r")}${th("Chance down 80%+","in 1 year","r")}<th>Call</th>${th(bt ? "1-year return" : "Return","from entry","r")}${bt ? "<th>Outcome</th>" : ""}</tr>
+    ${CU() ? th("Chance up 30%+","in 1 year","r") : ""}${CD() ? th("Chance down 80%+","in 1 year","r") : ""}<th>Call</th>${th(bt ? "1-year return" : "Return","from entry","r")}${bt ? "<th>Outcome</th>" : ""}</tr>
    <tr class="frow"><th></th><th></th>${crash ? `<th>${sel("ft", trig.map(t => [t, t]))}</th>` : ""}<th>${sel("f_mcap", opts("mcap").map(o => [o,o]))}</th>
-    ${kd.facts.map(([k]) => `<th>${sel("f_"+k, opts(k).map(o => [o,o]))}</th>`).join("")}<th></th><th></th>
+    ${kd.facts.map(([k]) => `<th>${sel("f_"+k, opts(k).map(o => [o,o]))}</th>`).join("")}${CU() ? "<th></th>" : ""}${CD() ? "<th></th>" : ""}
     <th>${sel("f_verdict", Object.entries(VERDICT).filter(([k]) => rows.some(c => (c.verdict||"tbu") === k)).map(([k,v]) => [k, v[2]]))}</th><th></th>
     ${bt ? `<th>${sel("f_outcome", ["Winner","Recovery","Failure"].map(o => [o,o]))}</th>` : ""}</tr>
   </thead><tbody id="rows"></tbody></table></div>
@@ -96,7 +97,7 @@ function fill(){
     <td class="r" style="white-space:nowrap"><span class="num">${pct(c.move)}</span><div class="muted sm">${dur(c)}</div></td>
     ${crash ? `<td class="what">${esc(c.summary || "Reading the company's announcement…")}</td>` : ""}
     <td class="r ${c.mcap == null ? "muted" : ""}" style="white-space:nowrap">${money(c.mcap)}${c.price != null ? `<div class="muted sm">$${c.price < 1 ? c.price.toFixed(3) : c.price.toFixed(2)}/share</div>` : ""}</td>
-    ${kd.facts.map(f => cell(c.factors?.[f[0]], f[0] === "raise" || f[0] === "insider")).join("")}${chance(c.chance_up)}${chance(c.chance_down)}
+    ${kd.facts.map(f => cell(c.factors?.[f[0]], f[0] === "raise" || f[0] === "insider")).join("")}${CU() ? chance(c.chance_up) : ""}${CD() ? chance(c.chance_down) : ""}
     <td>${pill(c.verdict)}${c.why?.length ? `<div class="why">${esc(c.why.join(" · "))}</div>` : ""}</td>${retCell(c, bt)}
     ${bt ? `<td>${c.outcome ? `<span class="pill ${OUTCOME[c.outcome]}">${c.outcome}</span>` : ""}</td>` : ""}</tr>`).join("") ||
     `<tr><td colspan="20" class="empty">Nothing matches these filters.</td></tr>`;
@@ -120,7 +121,7 @@ function viewOne(id){
      <div><b>${pct(c.ret)}</b><span>${c.played ? "1-year total return if bought at entry" : `total return if bought at entry, to ${esc(c.ret_to)}`} (entry close ${esc(c.entry_date)}${c.stopped ? `; stopped trading ${esc(c.stopped)}, valued at its last close` : ""})</span></div>
      ${c.ctrl_ret == null ? "" : `<div><b>${pct(c.ctrl_ret)}</b><span>10 similar biotechs bought the same day (same size and 6-month price change, no crash or slide of their own)</span></div>`}
      ${c.outcome ? `<div><b><span class="pill ${OUTCOME[c.outcome]}">${c.outcome}</span></b><span>outcome</span></div>` : ""}</div></div>`;
-  const odds = c.chance_up == null ? "" : `<div class="tiles" style="margin:0 0 16px"><div><b>${c.chance_up}%</b><span>chance of being up 30%+ a year after entry</span></div><div><b>${c.chance_down}%</b><span>chance of being down 80%+ a year after entry</span></div></div>`;
+  const odds = c.chance_up == null || !(CU() || CD()) ? "" : `<div class="tiles" style="margin:0 0 16px">${CU() ? `<div><b>${c.chance_up}%</b><span>chance of being up 30%+ a year after entry</span></div>` : ""}${CD() ? `<div><b>${c.chance_down}%</b><span>chance of being down 80%+ a year after entry</span></div>` : ""}</div>`;
   const head = K === "crash" ? `News day ${esc(c.date)} (${pct(c.news_day)} that day) · entry close ${esc(c.entry_date)}`
     : `Entry ${esc(c.entry_date)} · 6-month high on ${esc(c.peak_date)} · worst single day ${pct(c.news_day)}`;
   $("#app").innerHTML = `
