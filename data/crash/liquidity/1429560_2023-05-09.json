@@ -1,7 +1,8 @@
 {
  "id": "1429560_2023-05-09",
- "asof": "2023-05-15",
- "chars": 18760,
+ "asof": "2023-05-11",
+ "accn": "0001558370-23-004988",
+ "chars": 18766,
  "one_off_receipts": [],
  "one_off_receipts_dropped": 0,
  "one_off_payments": [],
@@ -10,30 +11,17 @@
  "financings_after_balance_sheet_dropped": 0,
  "warrants": [
   {
-   "count": 320000,
-   "exercise_price_usd": 6.58,
-   "expiry": "2027-12-28",
-   "quote": "320,000"
-  },
-  {
-   "count": 619000,
-   "exercise_price_usd": 0.001,
-   "expiry": null,
-   "quote": "619,000"
-  },
-  {
-   "count": 2614380,
-   "exercise_price_usd": 2.95,
-   "expiry": "2027-11-18",
-   "quote": "2,614,380"
-  },
-  {
    "count": 200000,
    "exercise_price_usd": 20.5,
-   "expiry": "2025-04-14",
-   "quote": "the Company issued a warrant to R-Bridge to purchase 200,000 shares of the Company\u2019s common stock at an initial exercise price of $20.50 per share"
+   "expiry": null,
+   "quote": "we issued a warrant to R-Bridge to purchase 200,000 shares of our common stock at an initial exercise price of $20.50 per share and will be exercisable for a period of three years."
+  },
+  {
+   "count": 320000,
+   "exercise_price_usd": 6.575,
+   "expiry": null,
+   "quote": "issued warrants to purchase 320,000 shares of common stock (each, a \u201cCommon Stock Warrant\u201d) (together with the Series A Preferred and Series B Preferred, the \u201cPreferred Stock Transaction\u201d). The Common Stock Warrants have an exercise price of $6.575 per share"
   }
  ],
- "warrants_dropped": 0,
- "accn": "0001558370-23-009683"
+ "warrants_dropped": 0
 }

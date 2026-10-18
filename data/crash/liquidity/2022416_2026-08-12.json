@@ -1,59 +1,40 @@
 {
  "id": "2022416_2026-08-12",
- "asof": "2026-08-14",
- "chars": 34730,
+ "asof": "2026-08-12",
+ "accn": "0001178913-26-004003",
+ "chars": 27924,
  "one_off_receipts": [],
  "one_off_receipts_dropped": 0,
  "one_off_payments": [],
  "one_off_payments_dropped": 0,
  "financings_after_balance_sheet": [
   {
-   "date": "2026-08-13",
-   "net_proceeds_usd": 2100000,
-   "what": "August 2026 public offering of shares, pre-funded warrants and Series E warrants",
-   "quote": "The aggregate gross proceeds to the Company from the August 2026 Offering were approximately $ 2,500 , while the net proceeds, after transaction costs, were approximately $ 2,100 ."
+   "date": "2026-05-31",
+   "net_proceeds_usd": 1085000,
+   "what": "ATM sales of 176,811 ordinary shares in April and May 2026 (net of transaction costs)",
+   "quote": "In April and May, 2026, the Company issued and sold 176,811 ordinary shares for $1,085 net of transaction costs under the Sales Agreement"
   },
   {
-   "date": "2026-07-31",
-   "net_proceeds_usd": 261000,
-   "what": "ATM share sales in July and August 2026",
-   "quote": "In July and August 2026, the Company issued and sold an aggregate of 130,249 ordinary shares for $ 261 , net of transaction costs under the Sales Agreement for the Company's ATM facility"
+   "date": "2026-05-15",
+   "net_proceeds_usd": 1000000,
+   "what": "May 2026 warrant exercise inducement transaction (approximate gross proceeds; net not given)",
+   "quote": "We received aggregate gross proceeds of approximately $1.0 million from those warrant exercises, before deducting placement agent fees and other offering expenses."
   }
  ],
  "financings_after_balance_sheet_dropped": 0,
  "warrants": [
   {
-   "count": 399020,
+   "count": 204500,
    "exercise_price_usd": 5.0,
    "expiry": null,
-   "quote": "(a) 399,020 aggregate Series C ordinary warrants and Series D ordinary warrants to purchase up to 399,020 ordinary shares at an exercise price of $ 5.00 per ordinary share"
+   "quote": "399,020 new warrants to purchase up to 399,020 of our ordinary shares at an exercise price of $5.00 per share, consisting of 204,500 Series C warrants exercisable for a five-year period"
   },
   {
-   "count": 13966,
-   "exercise_price_usd": 6.25,
+   "count": 194520,
+   "exercise_price_usd": 5.0,
    "expiry": null,
-   "quote": "(b) 13,966 placement agent warrants to purchase up to 13,966 ordinary shares at an exercise price of $ 6.25 per ordinary share"
-  },
-  {
-   "count": 3846161,
-   "exercise_price_usd": 0.65,
-   "expiry": "2031-08-13",
-   "quote": "The Series E ordinary warrants have an exercise price of $ 0.65 per ordinary share, are immediately exercisable, and may be exercised for five years from issuance."
-  },
-  {
-   "count": 269231,
-   "exercise_price_usd": 0.8125,
-   "expiry": "2031-08-13",
-   "quote": "Those placement agent warrants have an exercise price of $ 0.8125 per ordinary share, are exercisable for five years from the date of issuance"
-  },
-  {
-   "count": 1817542,
-   "exercise_price_usd": 0.0001,
-   "expiry": null,
-   "quote": "The pre-funded warrants are immediately exercisable at an exercise price of $ 0.0001 per ordinary share and will not expire until exercised in full."
+   "quote": "194,520 Series D warrants exercisable for a 24-month"
   }
  ],
- "warrants_dropped": 0,
- "next_catalyst": null,
- "accn": "0001178913-26-004138"
+ "warrants_dropped": 0
 }

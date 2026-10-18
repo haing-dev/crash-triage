@@ -1,27 +1,28 @@
 {
  "id": "1427570_2025-04-02",
- "asof": "2025-04-08",
- "chars": 36536,
+ "asof": "2025-04-02",
+ "accn": "0001558370-24-015732",
+ "chars": 28498,
  "one_off_receipts": [],
  "one_off_receipts_dropped": 0,
  "one_off_payments": [],
  "one_off_payments_dropped": 0,
  "financings_after_balance_sheet": [
   {
+   "date": "2024-10-16",
+   "net_proceeds_usd": 700000,
+   "what": "Senior secured convertible note (gross proceeds; net not given)",
+   "quote": "the Company has raised gross proceeds of $0.7 million from the issuance of a senior secured convertible note on October 16, 2024"
+  },
+  {
    "date": "2025-02-18",
-   "net_proceeds_usd": 4500000,
-   "what": "Public offering of common shares and warrants (closed Feb 18, 2025), net of costs",
-   "quote": "In February 2025, the Company raised $4.5 million after costs in a public offering of common shares and stock warrants."
+   "net_proceeds_usd": 5380000,
+   "what": "February 2025 best-efforts public offering via Maxim (estimated net proceeds)",
+   "quote": "we estimate that our net proceeds from this offering will be approximately $5,380,000"
   }
  ],
  "financings_after_balance_sheet_dropped": 0,
  "warrants": [
-  {
-   "count": 2575107,
-   "exercise_price_usd": 5.83,
-   "expiry": null,
-   "quote": "warrants to purchase up to 2,575,107 shares of Common Stock at an initial exercise price of $ 5.83 per share"
-  },
   {
    "count": 128755,
    "exercise_price_usd": 5.83,
@@ -29,7 +30,5 @@
    "quote": "warrants to purchase up to 128,755 shares of Common Stock, which is equal to 5.0% of the aggregate amount of shares of Common Stock issued in the offering, at an exercise price of $5.83 per share"
   }
  ],
- "warrants_dropped": 0,
- "next_catalyst": null,
- "accn": "0001558370-25-004477"
+ "warrants_dropped": 0
 }

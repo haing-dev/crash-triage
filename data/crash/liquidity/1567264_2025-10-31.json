@@ -1,23 +1,18 @@
 {
  "id": "1567264_2025-10-31",
- "asof": "2025-11-06",
- "chars": 33807,
+ "asof": "2025-11-03",
+ "accn": "0001567264-25-000077",
+ "chars": 25409,
  "one_off_receipts": [],
  "one_off_receipts_dropped": 0,
  "one_off_payments": [],
  "one_off_payments_dropped": 0,
  "financings_after_balance_sheet": [
   {
-   "date": "2025-10-31",
-   "net_proceeds_usd": 2000000,
-   "what": "ATM sales of 5,930,344 shares after Sept 30, 2025 (exact date not stated; date is approximate)",
-   "quote": "Subsequent to September 30, 2025, we have issued an additional 5,930,344 shares of common stock under the ATM Sales Agreement for net proceeds of $2.0 million."
-  },
-  {
-   "date": "2025-11-03",
-   "net_proceeds_usd": 3600000,
-   "what": "October 2025 registered direct offering of 5,000,000 shares at $0.80 (expected close on or about Nov 3; closing not explicitly confirmed)",
-   "quote": "We estimate that our net proceeds from this offering will be approximately $3.6 million, after deducting placement agent\u2019s fees and estimated offering expenses payable by us."
+   "date": null,
+   "net_proceeds_usd": 6600000,
+   "what": "ATM Sales Agreement issuances after June 30, 2025 (20,891,304 shares)",
+   "quote": "Subsequent to June 30, 2025, the Company issued 20,891,304 shares of common stock under the ATM Sales Agreement for net proceeds of $6.6 million."
   }
  ],
  "financings_after_balance_sheet_dropped": 0,
@@ -25,23 +20,21 @@
   {
    "count": 1237113,
    "exercise_price_usd": 2.95,
-   "expiry": "2030-05-21",
-   "quote": "Each Common Warrant will be exercisable six months from the issuance date and will expire five and one-half years from the issuance date."
+   "expiry": null,
+   "quote": "we agreed to issue to the Investor common stock warrants to purchase up to 1,237,113 shares (the \u201cCommon Warrants\u201d) at an exercise price of $2.95 per share."
   },
   {
    "count": 3133333,
    "exercise_price_usd": 0.85,
    "expiry": "2030-04-28",
-   "quote": "The Series B-1 Common Warrants will expire on the five-year anniversary of the date of issuance, and the Series B-2 Common Warrants will expire on the eighteen-month anniversary of the date of issuance."
+   "quote": "Each Warrant has an exercise price of $0.85 and was immediately exercisable upon issuance. The Series B-1 Common Warrants will expire on the five-year anniversary of the date of issuance"
   },
   {
    "count": 3133333,
    "exercise_price_usd": 0.85,
    "expiry": "2026-10-28",
-   "quote": "The Series B-1 Common Warrants will expire on the five-year anniversary of the date of issuance, and the Series B-2 Common Warrants will expire on the eighteen-month anniversary of the date of issuance."
+   "quote": "the Series B-2 Common Warrants will expire on the eighteen-month anniversary of the date of issuance."
   }
  ],
- "warrants_dropped": 0,
- "next_catalyst": null,
- "accn": "0001567264-25-000103"
+ "warrants_dropped": 0
 }
