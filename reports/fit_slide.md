@@ -1,30 +1,30 @@
 # Fit report: slide
-episodes: 3132 · still collecting (TBU): 1107 · with a full year and complete inputs: 1381
+episodes: 3132 · still collecting (TBU): 832 · with a full year and complete inputs: 1637
 
 ## Colours on all history
 
 | Cell | Cut-off | Points green / grey / red (pp vs similar biotechs) |
 |---|---|---|
-| runway | ≥ 28.37 is green | +11.8 / -1.8 / -5.8 |
-| ev | < 1.26 is green | +7.3 / +5.1 / -1.6 |
-| programs | ≥ 2.00 is green | +11.7 / +0.0 / -3.8 |
-| raise | categorical | +2.7 / +16.4 / -10.4 |
-| insider | categorical | -1.7 / -1.1 / +6.5 |
-| specialists | categorical | +11.2 / -2.7 / +1.7 |
-| short | ≥ 1.33 is green | +4.5 / -15.9 / -0.0 |
+| runway | ≥ 24.17 is green | +9.7 / -1.1 / -9.1 |
+| ev | < 4.54 is green | +1.8 / -0.4 / -7.2 |
+| programs | ≥ 2.00 is green | +10.1 / +0.0 / -5.1 |
+| raise | categorical | +1.8 / +12.8 / -12.7 |
+| insider | categorical | -1.7 / -1.2 / +3.7 |
+| specialists | categorical | +7.2 / -5.8 / +3.6 |
+| short | ≥ 1.81 is green | +1.8 / -16.7 / -2.2 |
 
 ## Backtest (complete inputs, a full year; mean caps any single return at +500%)
 
 | Call | n | median | mean | similar biotechs mean | beat them | up 30%+ | down 80%+ |
 |---|---|---|---|---|---|---|---|
-| overdone | 389 | -8% | +20% | +14% | 44% | 33% | 4% |
-| close | 348 | -2% | +16% | +13% | 43% | 32% | 4% |
-| justified | 644 | -30% | -3% | +9% | 32% | 23% | 12% |
+| overdone | 464 | -10% | +18% | +12% | 42% | 32% | 5% |
+| close | 397 | -2% | +19% | +11% | 45% | 33% | 4% |
+| justified | 776 | -32% | -5% | +9% | 31% | 22% | 15% |
 
 ## Chance check (walk-forward predictions only)
 
 | Predicted | n | up 30%+ happened | n | down 80%+ happened |
 |---|---|---|---|---|
-| 0–20% | 265 | 21% | 654 | 7% |
-| 20–40% | 358 | 38% | 34 | 12% |
-| 40–100% | 68 | 31% | 3 | 67% |
+| 0–20% | 363 | 20% | 678 | 7% |
+| 20–40% | 424 | 36% | 126 | 19% |
+| 40–100% | 47 | 43% | 30 | 33% |
