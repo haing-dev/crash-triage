@@ -26,6 +26,8 @@ episodes: 963 · still collecting (TBU): 31 · with a full year and complete inp
 
 | Predicted | n | up 30%+ happened | n | down 80%+ happened |
 |---|---|---|---|---|
-| 0–20% | 170 | 15% | 52 | 4% |
-| 20–40% | 28 | 21% | 29 | 41% |
-| 40–100% | 13 | 46% | 130 | 55% |
+| 0–20% | 169 | 14% | 52 | 4% |
+| 20–40% | 28 | 25% | 29 | 31% |
+| 40–100% | 14 | 50% | 130 | 57% |
+
+Chance columns shown: up 30%+ yes · down 80%+ yes
