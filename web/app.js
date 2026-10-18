@@ -2,8 +2,8 @@
    Routes: #/<kind>/<view>  kind = crash | slide; view = screener (default) | backtest | outcomes | track | live | c/<id> */
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-const FACTS = [["runway","Cash runway",""],["ev","EV / Cash","below 0 = under cash"],["programs","Other programs",""],
-  ["raise","Raise terms","if it sells shares"],["insider","Insiders",""],["specialists","Specialist funds","quarter before entry"],
+const FACTS = [["ev","EV / Cash","below 0 = under cash"],["programs","Other programs",""],
+  ["raise","Raise terms","hover for details"],["insider","Insiders",""],["funds","Funds with 2%+","of their portfolio, last 13F"],
   ["short","Short interest","% of shares, before entry"]];
 const KIND = {
   crash: {label: "Crash Triage", word: "crash", plural: "crashes", facts: [["safety","Safety",""], ...FACTS],
@@ -20,9 +20,9 @@ const CALLS = ["overdone","close","justified"];
 const OUTCOME = {Winner:"p-good", Recovery:"p-warn", Failure:"p-crit"};
 const BUCKETS = {
   safety:["Reported Death","Negative Side Effects","Well Tolerated","N/A"],
-  runway:["Under 6 mo","6–12 mo","12–24 mo","24+ mo","No cash burn","N/A"], ev:["Below cash","0–1×","1–2×","Over 2×","N/A"],
+  ev:["Below cash","0–1×","1–2×","Over 2×","N/A"],
   programs:["1 trial","2–4 trials","5+ trials","N/A"], raise:["Friendly","Costly","Toxic","N/A"], insider:["Bought","Sold","N/A"],
-  specialists:["Bought","Held","Sold","N/A"], short:["Under 5%","5–15%","15%+","N/A"],
+  funds:["None","1 fund","2+ funds","N/A"], short:["Under 5%","5–15%","15%+","N/A"],
   mcap:["Under $50M","$50–300M","$300M–2B","Over $2B","N/A"]};
 const pill = v => { const [c,i,t] = VERDICT[v] || VERDICT.tbu; return `<span class="pill ${c}">${i?`<i>${i}</i>`:""}${t}</span>`; };
 const dur = c => `${c.days} day${c.days === 1 ? "" : "s"}`;
@@ -32,7 +32,6 @@ const usd = v => "$" + Math.round(v).toLocaleString("en-US");
 const mcapBucket = v => v == null ? "N/A" : v < 5e7 ? "Under $50M" : v < 3e8 ? "$50–300M" : v < 2e9 ? "$300M–2B" : "Over $2B";
 let D = null, K = "crash", SHOW = 60, MODE = "screener", SORT = false;
 const items = () => D.kinds[K].items;
-const CU = () => D.kinds[K].chance_ok?.up, CD = () => D.kinds[K].chance_ok?.down;   // shown only while they pass their check
 const base = () => `#/${K}`;
 
 const tip = $("#tip");
@@ -41,10 +40,9 @@ function showTip(e, html){ tip.innerHTML = html; tip.style.opacity = 1;
   tip.style.left = x + "px"; tip.style.top = (y < 8 ? e.clientY + 18 : y) + "px"; }
 function hideTip(){ tip.style.opacity = 0; }
 
-function cell(f, wide){ const [k,v] = f || ["n","N/A"];
-  return v === "N/A" ? `<td class="f f-na${wide?" wide":""}">N/A</td>` : `<td class="f f-${k}${wide?" wide":""}"><span class="ic">${ICON[k]||""}</span>${esc(v)}</td>`; }
+function cell(f, wide){ const [k,v,n] = f || ["n","N/A",""], t = n ? ` title="${esc(n)}"` : "";
+  return v === "N/A" ? `<td class="f f-na${wide?" wide":""}"${t}>N/A</td>` : `<td class="f f-${k}${wide?" wide":""}${n?" tip":""}"${t}><span class="ic">${ICON[k]||""}</span>${esc(v)}</td>`; }
 const th = (label, sub, cls="") => `<th class="${cls}">${label}${sub ? `<div class="hs">${sub}</div>` : ""}</th>`;
-const chance = v => v == null ? `<td class="r muted">–</td>` : `<td class="r"><span class="num big">${v}%</span></td>`;
 const retCell = (c, bt) => c.ret == null ? `<td class="r muted">N/A</td>` :
   `<td class="r" style="white-space:nowrap"><span class="num" style="color:${c.ret >= 0 ? "var(--good)" : "var(--bad)"}">${pct(c.ret)}</span>
    <div class="muted sm">${c.ctrl_ret != null ? `similar biotechs ${pct(c.ctrl_ret)}` : ""}${c.stopped ? `${c.ctrl_ret != null ? "<br>" : ""}stopped trading ${esc(c.stopped)}` : ""}</div></td>`;
@@ -72,9 +70,9 @@ function viewTable(mode){
     <input id="fq" placeholder="Search company or ticker"></div></div>
   <div class="tablewrap"><table class="crash"><thead>
    <tr><th>Company</th><th class="r">${crash ? "Fall" : "Fall from high"}</th>${crash ? "<th>What happened</th>" : ""}${th("Market cap","at entry","r")}${cols}
-    ${CU() ? th("Chance up 30%+","in 1 year","r") : ""}${CD() ? th("Chance down 80%+","in 1 year","r") : ""}<th>Call</th>${th(bt ? "1-year return" : "Return","from entry","r")}${bt ? "<th>Outcome</th>" : ""}</tr>
+    <th>Call</th>${th(bt ? "1-year return" : "Return","from entry","r")}${bt ? "<th>Outcome</th>" : ""}</tr>
    <tr class="frow"><th></th><th></th>${crash ? `<th>${sel("ft", trig.map(t => [t, t]))}</th>` : ""}<th>${sel("f_mcap", opts("mcap").map(o => [o,o]))}</th>
-    ${kd.facts.map(([k]) => `<th>${sel("f_"+k, opts(k).map(o => [o,o]))}</th>`).join("")}${CU() ? "<th></th>" : ""}${CD() ? "<th></th>" : ""}
+    ${kd.facts.map(([k]) => `<th>${sel("f_"+k, opts(k).map(o => [o,o]))}</th>`).join("")}
     <th>${sel("f_verdict", Object.entries(VERDICT).filter(([k]) => rows.some(c => (c.verdict||"tbu") === k)).map(([k,v]) => [k, v[2]]))}</th><th></th>
     ${bt ? `<th>${sel("f_outcome", ["Winner","Recovery","Failure"].map(o => [o,o]))}</th>` : ""}</tr>
   </thead><tbody id="rows"></tbody></table></div>
@@ -97,8 +95,8 @@ function fill(){
     <td class="r" style="white-space:nowrap"><span class="num">${pct(c.move)}</span><div class="muted sm">${dur(c)}</div></td>
     ${crash ? `<td class="what">${esc(c.summary || "Reading the company's announcement…")}</td>` : ""}
     <td class="r ${c.mcap == null ? "muted" : ""}" style="white-space:nowrap">${money(c.mcap)}${c.price != null ? `<div class="muted sm">$${c.price < 1 ? c.price.toFixed(3) : c.price.toFixed(2)}/share</div>` : ""}</td>
-    ${kd.facts.map(f => cell(c.factors?.[f[0]], f[0] === "raise" || f[0] === "insider")).join("")}${CU() ? chance(c.chance_up) : ""}${CD() ? chance(c.chance_down) : ""}
-    <td>${pill(c.verdict)}${c.why?.length ? `<div class="why">${esc(c.why.join(" · "))}</div>` : ""}</td>${retCell(c, bt)}
+    ${kd.facts.map(f => cell(c.factors?.[f[0]], f[0] === "insider")).join("")}
+    <td${c.why?.length ? ` title="${esc(c.why.join(" · "))}"` : ""}>${pill(c.verdict)}</td>${retCell(c, bt)}
     ${bt ? `<td>${c.outcome ? `<span class="pill ${OUTCOME[c.outcome]}">${c.outcome}</span>` : ""}</td>` : ""}</tr>`).join("") ||
     `<tr><td colspan="20" class="empty">Nothing matches these filters.</td></tr>`;
   $("#cnt").textContent = `Showing ${Math.min(SHOW, list.length)} of ${list.length}.`;
@@ -121,15 +119,13 @@ function viewOne(id){
      <div><b>${pct(c.ret)}</b><span>${c.played ? "1-year total return if bought at entry" : `total return if bought at entry, to ${esc(c.ret_to)}`} (entry close ${esc(c.entry_date)}${c.stopped ? `; stopped trading ${esc(c.stopped)}, valued at its last close` : ""})</span></div>
      ${c.ctrl_ret == null ? "" : `<div><b>${pct(c.ctrl_ret)}</b><span>10 similar biotechs bought the same day (same size and 6-month price change, no crash or slide of their own)</span></div>`}
      ${c.outcome ? `<div><b><span class="pill ${OUTCOME[c.outcome]}">${c.outcome}</span></b><span>outcome</span></div>` : ""}</div></div>`;
-  const odds = c.chance_up == null || !(CU() || CD()) ? "" : `<div class="tiles" style="margin:0 0 16px">${CU() ? `<div><b>${c.chance_up}%</b><span>chance of being up 30%+ a year after entry</span></div>` : ""}${CD() ? `<div><b>${c.chance_down}%</b><span>chance of being down 80%+ a year after entry</span></div>` : ""}</div>`;
   const head = K === "crash" ? `News day ${esc(c.date)} (${pct(c.news_day)} that day) · entry close ${esc(c.entry_date)}`
     : `Entry ${esc(c.entry_date)} · 6-month high on ${esc(c.peak_date)} · worst single day ${pct(c.news_day)}`;
   $("#app").innerHTML = `
   <div class="vhead"><div><div class="muted">${head} · <a href="${back}">‹ ${c.played ? "Backtest" : "Screener"}</a></div>
     <h2>${esc(c.name)} <span class="muted" style="font-size:18px">${esc(c.ticker)}</span><span class="mv">${pct(c.move)}</span><span class="muted" style="font-size:16px;margin-left:8px">in ${dur(c)}</span></h2>
     <div class="what1">${K === "crash" ? esc(c.summary || "Reading the company's announcement…") + " · " : ""}Market cap at entry ${money(c.mcap)}</div></div>
-   <div class="vbox">${pill(c.verdict)}<div class="conf">${c.why?.length ? esc(c.why.join(" · ")) : c.verdict === "overdone" ? "Cash for 12+ months, no going-concern warning, share price $1+, no forced raise on costly terms, market cap $50M+, EV / Cash 2× or less" : ""}</div></div></div>
-  ${odds}
+   <div class="vbox">${pill(c.verdict)}<div class="conf">${c.why?.length ? esc(c.why.join(" · ")) : c.verdict === "overdone" ? "No going-concern warning, share price $1+, no toxic financing, market cap $50M+, EV / Cash 2× or less" : ""}</div></div></div>
   <div class="fcs" style="grid-template-columns:repeat(${Math.min(kd.facts.length, 4)},minmax(0,1fr))">${cards}</div>
   ${quotes ? `<div class="card"><h4>From the company's announcement</h4>${quotes}</div>` : ""}
   ${after}
@@ -198,36 +194,29 @@ function barChart(el, data, keys){
 }
 
 function viewTrack(){
-  const kd = D.kinds[K], T = kd.track || {}, S = kd.stats || {}, f = v => v == null ? "–" : pct(v), p = v => v == null ? "–" : v + "%";
-  const row = (lab, s) => `<tr><td>${lab}</td><td class="r">${s.n}</td><td class="r">${f(s.median)}</td><td class="r"><b>${f(s.mean)}</b></td><td class="r">${f(s.ctrl_mean)}</td><td class="r">${p(s.beat)}</td><td class="r">${s.win30}%</td><td class="r">${s.wipe80}%</td></tr>`;
-  const head = first => `<thead><tr><th>${first}</th><th class="r">${KIND[K].plural[0].toUpperCase() + KIND[K].plural.slice(1)}</th><th class="r">Median</th><th class="r">Average*</th><th class="r">Similar biotechs, average</th><th class="r">Beat similar biotechs</th><th class="r">Up 30%+</th><th class="r">Down 80%+</th></tr></thead>`;
-  const note = `<div class="fnote">*Each return capped at +500%. Total return: price change plus cash paid out per share; a company that stopped trading (bought out, delisted) counts at its last close; reverse splits are taken out of the price. Similar biotechs: the 10 closest in market value and 6-month price change on the entry day, with no crash or slide of their own.</div>`;
-  const table = Object.keys(S).length ? `<div class="card"><h4>One year after entry, by call</h4><div class="tablewrap"><table class="stats">${head("Call")}<tbody>
-    ${CALLS.filter(g => S[g]).map(g => row(pill(g), S[g])).join("")}</tbody></table></div>${note}</div>` : "";
-  const C = kd.causes || {};
-  const causes = Object.keys(C).length ? `<div class="card"><h4>One year after entry, by cause of the crash (all calls)</h4><div class="tablewrap"><table class="stats">${head("Cause")}<tbody>
-    ${Object.entries(C).map(([k, s]) => row(esc(k), s)).join("")}</tbody></table></div></div>` : "";
-  const P = kd.portfolio;
-  const port = P ? `<div class="card" id="pf"><h4>$10,000 test: every Buy candidate since ${esc(P.start)}, equal money in each open one, held a year · ${P.positions} positions · no trading costs</h4>
-    <div class="tiles" style="margin-bottom:10px"><div><b>${usd(P.own)}</b><span>in Buy candidates</span></div><div><b>${usd(P.ctrl)}</b><span>in their similar biotechs</span></div></div></div>` : "";
-  const Y = Object.entries(kd.years || {}).filter(([, v]) => v.buy_n || v.avoid_n);
-  $("#app").innerHTML = `<div class="toprow"><div><h1>Track record</h1><div class="muted">Backtest ${KIND[K].plural} with a call: total return if bought at the entry close, vs. 10 similar biotechs bought the same day. TBU ${KIND[K].plural} are left out until their inputs are complete.</div></div></div>
-   ${table || `<div class="card"><p class="empty">The track record appears once ${KIND[K].plural} have a call and a full year of prices.</p></div>`}
-   <div class="grid2"><div class="card" id="tr"><h4>Median return after entry</h4></div><div class="card" id="yr"><h4>Average 1-year return by year of entry</h4></div></div>
-   ${port}${causes}`;
-  const series = CALLS.filter(k => T[k]?.path?.length).map(k => ({l: `${VERDICT[k][2]} · ${T[k].n}`, col: VERDICT[k][3], path: T[k].path}));
-  if (T.ctrl?.path?.length) series.push({l: "Similar biotechs", col: "var(--idx)", path: T.ctrl.path, dash: true});
-  if (series.length > 1) { const n = series[0].path.length;
-    lineChart($("#tr"), series, n, [0,90,180,270,365].map(d => [Math.round(d/365*(n-1)), d ? "day " + d : "entry"]),
-      {...PCT, at: j => `Day ${Math.round(j/(n-1)*365)}`}); }
-  if (Y.length) barChart($("#yr"), Y.map(([y, v]) => ({label: y, sub: `${v.buy_n} buy · ${v.avoid_n} avoid`, buy: v.buy, avoid: v.avoid, ctrl: v.ctrl})),
-    [{k:"buy", l:"Buy candidates", col:"var(--g-line)"}, {k:"avoid", l:"Avoid", col:"var(--r-line)"}, {k:"ctrl", l:"Similar biotechs (of the buys)", col:"var(--idx)"}]);
-  if (P) { const pts = P.points, n = pts.length, step = Math.max(1, Math.round(n / 6));
-    lineChart($("#pf"), [{l: "Buy candidates", col: "var(--g-line)", path: pts.map(q => q[1])}, {l: "Similar biotechs", col: "var(--idx)", path: pts.map(q => q[2]), dash: true}], n,
-      pts.map((q, i) => [i, q[0].slice(0, 7)]).filter(([i]) => i % step === 0),
+  const kd = D.kinds[K], T = kd.track, Y = kd.years || {}, ys = Object.keys(Y).sort(), C = kd.causes || {}, f = v => v == null ? "–" : pct(v);
+  const steps = kd.steps || [], last = a => a?.length ? a[a.length - 1] : null;
+  const causes = Object.keys(C).length ? `<div class="card"><h4>One year after entry, by cause of the crash (all calls)</h4><div class="tablewrap"><table class="stats">
+    <thead><tr><th>Cause</th><th class="r">Crashes</th><th class="r">Median</th><th class="r">Average*</th><th class="r">Similar biotechs, average</th><th class="r">Up 30%+</th><th class="r">Down 80%+</th></tr></thead><tbody>
+    ${Object.entries(C).map(([k, s]) => `<tr><td>${esc(k)}</td><td class="r">${s.n}</td><td class="r">${f(s.median)}</td><td class="r"><b>${f(s.mean)}</b></td><td class="r">${f(s.ctrl_mean)}</td><td class="r">${s.win30}%</td><td class="r">${s.wipe80}%</td></tr>`).join("")}</tbody></table></div></div>` : "";
+  $("#app").innerHTML = `<div class="toprow"><div><h1>Track record</h1><div class="muted">Buy candidates, bought at the entry close (the close on the day the ${KIND[K].word} was detected) and held a year, against 10 similar biotechs bought the same day and the biotech index (XBI) over the same dates.</div></div></div>
+   <div class="card" id="tr"><h4>Average return after buying${T ? ` · ${T.n} Buy candidates with a full year` : ""}</h4>${T ? `<div class="tiles" style="margin-bottom:12px">
+     <div><b>${f(last(T.own))}</b><span>Buy candidates, 1 year later</span></div><div><b>${f(last(T.ctrl))}</b><span>similar biotechs</span></div><div><b>${f(last(T.xbi))}</b><span>biotech index (XBI)</span></div></div>` : `<p class="empty">Appears once Buy candidates have a full year of prices.</p>`}</div>
+   <div class="card" id="pf"><div class="toprow" style="margin-bottom:4px"><h4 style="margin:0">$10,000 test: all Buy candidates of one year, equal money in each, each held a year</h4>
+     ${ys.length ? `<select id="py">${ys.map(y => `<option${y === ys[ys.length - 2] || (ys.length === 1) ? " selected" : ""}>${y}</option>`).join("")}</select>` : ""}</div><div id="pfb"></div></div>
+   ${causes}<div class="fnote">*Each return capped at +500%. Total return: price change plus cash paid out per share; a company that stopped trading (bought out, delisted) counts at its last close; reverse splits are taken out of the price. No trading costs. Similar biotechs: the 10 closest in market value and 6-month price change on the entry day, with no crash or slide of their own.</div>`;
+  const xl = n => [0,90,180,270,365].map(d => [steps.indexOf(d) >= 0 ? steps.indexOf(d) : Math.round(d/365*(n-1)), d ? "day " + d : "bought"]).filter(([i]) => i < n);
+  if (T) lineChart($("#tr"), [{l: "Buy candidates", col: "var(--g-line)", path: T.own}, {l: "Similar biotechs", col: "var(--idx)", path: T.ctrl, dash: true},
+    {l: "Biotech index (XBI)", col: "var(--blue)", path: T.xbi, dash: true}], T.own.length, xl(T.own.length), {...PCT, at: j => `Day ${steps[j]}`});
+  const draw = () => { const y = $("#py").value, v = Y[y], n = v.path.own.length, money = a => a.map(q => 10000 * (1 + q / 100));
+    $("#pfb").innerHTML = `<div class="tiles" style="margin:8px 0 10px"><div><b>${usd(v.own)}</b><span>in ${v.n} Buy candidates of ${y}</span></div><div><b>${usd(v.ctrl)}</b><span>in their similar biotechs</span></div><div><b>${usd(v.xbi)}</b><span>in the biotech index (XBI)</span></div></div>
+      ${v.open ? `<div class="fnote" style="margin:0 0 8px">${v.open} of them bought less than a year ago: valued at the latest close.</div>` : ""}`;
+    if (n > 1) lineChart($("#pfb"), [{l: "Buy candidates", col: "var(--g-line)", path: money(v.path.own)}, {l: "Similar biotechs", col: "var(--idx)", path: money(v.path.ctrl), dash: true},
+      {l: "Biotech index (XBI)", col: "var(--blue)", path: money(v.path.xbi), dash: true}], n, xl(n),
       {lo: v => Math.floor(Math.min(10000, v) / 2000) * 2000, hi: v => Math.ceil(Math.max(10000, v) / 2000) * 2000, zero: 10000,
        ticks: (lo, hi) => { const st = (hi - lo) > 16000 ? 4000 : 2000, o = []; for (let t = lo; t <= hi; t += st) o.push(t); return o; },
-       tick: t => "$" + (t / 1000) + "k", end: v => usd(v), at: j => pts[j][0]}); }
+       tick: t => "$" + (t / 1000) + "k", end: v => usd(v), at: j => `Day ${steps[j]}`}); };
+  if (ys.length) { $("#py").onchange = draw; draw(); }
 }
 
 /* ------------------------------------------------------------------ live calls */

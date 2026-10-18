@@ -1,19 +1,17 @@
 """
 Build the static site into ./site: web/ (page code) + site/data.json with both triages.
 
-For every episode: the cells, call and chances (fit.py), the crash announcement (crashes), market value at entry,
-and the total return if bought at the entry-day close (returns.py): one year later once the year is complete
-(backtest: Winner >= +30%, Recovery 0 to +30%, Failure < 0), else to the latest close (screener). Every return is
-shown next to the average of the 10 similar biotechs bought the same day (controls.py).
+For every episode: the cells and call (fit.py), the crash announcement (crashes), market value at entry, and the total
+return if bought at the entry-day close (returns.py): one year later once the year is complete (backtest: Winner >=
++30%, Recovery 0 to +30%, Failure < 0), else to the latest close (screener). Every return is shown next to the average
+of the 10 similar biotechs bought the same day (controls.py).
 
-Track record (backtest episodes with complete inputs):
-  by call      median, average (any single return capped at +500%), similar biotechs' average, share that beat them,
-               share up 30%+ and down 80%+
-  paths        median return day by day after entry, per call and for the similar biotechs
-  by year      average 1-year return per entry year: Buy candidates, Avoid, and the Buy candidates' similar biotechs
-  by cause     crashes only: the same numbers per cause of the crash (from the company's announcement)
-  $10,000      $10,000 spread equally, day by day, over every open Buy candidate (bought at its entry close, sold a
-               year later), against the same money in their similar biotechs; no trading costs
+Track record (Buy candidates with complete inputs):
+  line chart   average total return day by day for a year after entry (any single return capped at +500%), against
+               their similar biotechs and the biotech index (XBI) over the same dates
+  $10,000      per year of entry: $10,000 split equally over that year's Buy candidates, each held a year (or to the
+               latest close if the year isn't over), against the same money in their similar biotechs and in XBI
+  by cause     crashes only: one-year results per cause of the crash (from the company's announcement)
 Live calls: data/ledger.csv, one row each time a recent episode (entry within 30 days) gets a call or a new call;
 the build's time is the call time and the return is measured from the last close before it. The workflow publishes
 new rows as a GitHub release, whose timestamp GitHub sets.
@@ -21,7 +19,7 @@ new rows as a GitHub release, whose timestamp GitHub sets.
 import csv, json, shutil, statistics, time
 from datetime import date, datetime, timezone
 from common import DATA, ROOT, KINDS, closes, episodes, universe
-from returns import STEPS, daily, path, plus, total_return
+from returns import STEPS, path, plus, total_return
 
 SITE = ROOT / "site"
 TODAY = date.today().isoformat()
@@ -40,47 +38,42 @@ def ctrl_return(ctrl, cid, d0, d1):
     return mean(rs)                                      # each capped at +500%, like the averages of the calls
 
 
-def ctrl_path(ctrl, cid, d0):
-    ps = [p for p in (path(k, d0) for k in (ctrl.get(cid) or {}).get("ciks", [])) if p]
-    return [mean([p[i] for p in ps]) for i in range(len(STEPS))] if ps else None
-
-
-def stats(group, key="ret", ckey="ctrl365"):
-    a = [r[key] for r in group]
-    c = [r[ckey] for r in group if r.get(ckey) is not None]
+def stats(group):
+    a = [r["ret"] for r in group]
+    c = [r["ctrl365"] for r in group if r.get("ctrl365") is not None]
     return {"n": len(a), "median": round(statistics.median(a), 1), "mean": round(mean([min(v, 500) for v in a]), 1),
             "ctrl_mean": round(mean(c), 1) if c else None,
-            "beat": round(100 * sum(r[key] > r[ckey] for r in group if r.get(ckey) is not None) / len(c)) if c else None,
             "win30": round(100 * sum(v >= 30 for v in a) / len(a)), "wipe80": round(100 * sum(v <= -80 for v in a) / len(a))}
 
 
-def portfolio(items, ctrl, calendar):
-    """$10,000 split equally each day across open positions; idle cash earns nothing."""
-    pos = [r for r in items if r["verdict"] == "overdone" and r.get("ret") is not None]
-    if not pos:
-        return None
-    start = min(r["entry_date"] for r in pos)
-    cal = [t for t in calendar if t >= start]
-    legs = []
-    for r in pos:
-        d1 = min(plus(r["entry_date"], 365), TODAY)
-        own = daily(r["cik"], r["entry_date"], d1, cal)
-        cs = [daily(k, r["entry_date"], d1, cal) for k in (ctrl.get(r["id"]) or {}).get("ciks", [])]
-        legs.append((r["entry_date"], d1, own, cs))
-    v_own = v_ctl = 10000.0
-    out = [[start, 10000, 10000]]
-    for t in cal[1:]:
-        open_ = [l for l in legs if l[0] < t <= l[1]]
-        if open_:
-            v_own *= 1 + mean([l[2].get(t, 0.0) for l in open_])
-            v_ctl *= 1 + mean([mean([c.get(t, 0.0) for c in l[3]]) if l[3] else 0.0 for l in open_])
-        out.append([t, round(v_own), round(v_ctl)])
-    week = [p for i, p in enumerate(out) if i % 5 == 0 or i == len(out) - 1]
-    return {"start": start, "positions": len(pos), "points": week, "own": out[-1][1], "ctrl": out[-1][2]}
+def series(ctrl, r):
+    """Return at each step after entry (as far as today reaches): own, similar biotechs, XBI."""
+    own, ctl, idx = [], [], []
+    for k in STEPS:
+        d1 = plus(r["entry_date"], k)
+        if d1 > TODAY:
+            break
+        a, _ = total_return(r["cik"], r["entry_date"], d1)
+        if a is None:
+            break
+        own.append(min(a, 5.0))
+        ctl.append(ctrl_return(ctrl, r["id"], r["entry_date"], d1))
+        idx.append(total_return("XBI", r["entry_date"], d1)[0])
+    return own, ctl, idx
 
 
-def build(kind, ctrl, calendar):
-    xd, xc = closes("XBI")
+def avg_path(rows, i):
+    """Average over the positions that have reached each step."""
+    out = []
+    for k in range(len(STEPS)):
+        v = [s[i][k] for s in rows if len(s[i]) > k and s[i][k] is not None]
+        if not v:
+            break
+        out.append(round(mean(v) * 100, 1))
+    return out
+
+
+def build(kind, ctrl):
     items = []
     for c in sorted(episodes(kind), key=lambda c: c["cik"]):
         if c["date"] < FIVE_YEARS_AGO:
@@ -105,7 +98,7 @@ def build(kind, ctrl, calendar):
         sc = DATA / kind / "scores" / f"{cid}.json"
         if sc.exists():
             rec.update({k: v for k, v in json.loads(sc.read_text()).items()
-                        if k in ("factors", "verdict", "why", "insider_net", "mcap", "price", "chance_up", "chance_down", "cause")})
+                        if k in ("factors", "verdict", "why", "insider_net", "mcap", "price", "cause")})
         rec["sources"].append({"label": "All SEC filings",
                                "url": f"https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK={int(c['cik'])}&type=&dateb=&owner=include&count=40"})
         entry_d = c["end_date"]
@@ -122,48 +115,34 @@ def build(kind, ctrl, calendar):
             ds, _ = closes(c["cik"])
             if ds and ds[-1] < min(one_year, plus(TODAY, -7)):
                 rec["stopped"] = ds[-1]
-        if rec["played"]:
-            p = path(c["cik"], entry_d)
-            rec["path"] = [v * 100 for v in p] if p else None
-            cp = ctrl_path(ctrl, cid, entry_d)
-            rec["cpath"] = [v * 100 for v in cp] if cp else None
         items.append(rec)
-    done = [r for r in items if r["verdict"] in CALLS and r.get("played") and r.get("path") and r.get("ret") is not None]
-    track = {}
-    for g in CALLS:
-        grp = [r for r in done if r["verdict"] == g]
-        if grp:
-            track[g] = {"n": len(grp), "path": [round(statistics.median(r["path"][i] for r in grp), 1) for i in range(len(STEPS))]}
-    wc = [r for r in done if r.get("cpath")]
-    if wc:
-        track["ctrl"] = {"n": len(wc), "path": [round(statistics.median(r["cpath"][i] for r in wc), 1) for i in range(len(STEPS))]}
-    stat = {g: stats([r for r in done if r["verdict"] == g]) for g in CALLS if any(r["verdict"] == g for r in done)}
+    buys = [r for r in items if r["verdict"] == "overdone" and r.get("ret") is not None]
+    ser = {r["id"]: series(ctrl, r) for r in buys}
+    played = [ser[r["id"]] for r in buys if r["played"] and len(ser[r["id"]][0]) == len(STEPS)]
+    track = {"n": len(played), "own": avg_path(played, 0), "ctrl": avg_path(played, 1), "xbi": avg_path(played, 2)} if played else None
     years = {}
-    for y in sorted({r["entry_date"][:4] for r in done}):
-        b = [r for r in done if r["entry_date"][:4] == y and r["verdict"] == "overdone"]
-        a = [r for r in done if r["entry_date"][:4] == y and r["verdict"] == "justified"]
-        years[y] = {"buy": round(mean([min(r["ret"], 500) for r in b]), 1) if b else None, "buy_n": len(b),
-                    "avoid": round(mean([min(r["ret"], 500) for r in a]), 1) if a else None, "avoid_n": len(a),
-                    "ctrl": round(mean([r["ctrl365"] for r in b if r.get("ctrl365") is not None]), 1) if any(r.get("ctrl365") is not None for r in b) else None}
+    for y in sorted({r["entry_date"][:4] for r in buys}):
+        grp = [r for r in buys if r["entry_date"][:4] == y]
+        ss = [ser[r["id"]] for r in grp if ser[r["id"]][0]]
+        if not ss:
+            continue
+        fin = lambda i: round(10000 * (1 + mean([s[i][-1] for s in ss if s[i] and s[i][-1] is not None])))
+        years[y] = {"n": len(ss), "open": sum(1 for r in grp if not r["played"]), "own": fin(0), "ctrl": fin(1), "xbi": fin(2),
+                    "path": {"own": avg_path(ss, 0), "ctrl": avg_path(ss, 1), "xbi": avg_path(ss, 2)}}
     causes = {}
     if kind == "crash":
-        played = [r for r in items if r.get("played") and r.get("ret") is not None and r.get("cause")]
+        done = [r for r in items if r.get("played") and r.get("ret") is not None and r.get("cause")]
         for cz in ("Failed trial", "FDA rejection or delay", "Safety problem", "Share sale", "Other", "No announcement filed"):
-            grp = [r for r in played if r["cause"] == cz]
+            grp = [r for r in done if r["cause"] == cz]
             if grp:
                 causes[cz] = stats(grp)
-    calls = [r for r in items if r["verdict"] in CALLS]
-    for r in items:
-        r.pop("path", None)
-        r.pop("cpath", None)
     dates = sorted(r["date"] for r in items)
     fmt = lambda d: time.strftime("%b %Y", time.strptime(d, "%Y-%m-%d"))
     print(f"{kind}: {len(items)} episodes, {sum(1 for r in items if r['played'])} with a full year, "
-          f"{len(calls)} with a call, {sum(1 for r in items if r['verdict'] == 'tbu')} TBU")
-    cal = DATA / kind / "calibration.json"
-    return {"range": f"{fmt(dates[0])} – {fmt(dates[-1])}" if dates else "", "items": items, "track": track, "stats": stat,
-            "chance_ok": json.loads(cal.read_text()) if cal.exists() else {"up": False, "down": False},
-            "years": years, "causes": causes, "portfolio": portfolio(calls, ctrl, calendar)}
+          f"{sum(1 for r in items if r['verdict'] in CALLS)} with a call, {sum(1 for r in items if r['verdict'] == 'tbu')} TBU, "
+          f"{len(buys)} buy candidates")
+    return {"range": f"{fmt(dates[0])} – {fmt(dates[-1])}" if dates else "", "items": items, "track": track,
+            "years": years, "causes": causes, "steps": STEPS}
 
 
 def ledger(data, ctrl):
@@ -203,8 +182,7 @@ def ledger(data, ctrl):
 
 def main():
     ctrl = json.loads((DATA / "controls.json").read_text()) if (DATA / "controls.json").exists() else {}
-    calendar, _ = closes("XBI")
-    kinds = {k: build(k, ctrl, calendar) for k in KINDS}
+    kinds = {k: build(k, ctrl) for k in KINDS}
     data = {"updated": time.strftime("%Y-%m-%d %H:%M UTC", time.gmtime()), "companies": len(universe()),
             "kinds": kinds, "live": ledger(kinds, ctrl)}
     if SITE.exists():
