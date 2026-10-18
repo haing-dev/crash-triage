@@ -8,6 +8,8 @@ What specialist biotech funds held, from the SEC's Form 13F data sets (every 13F
   position        shares of the company's common stock (SH, not options) in that filing
 
 Output: data/holdings/cusips.json {cik: [issuer codes]}
+        data/holdings/concentrated.csv accession,filer_cik,filer,period,filed,cik,weight: every 13F filer holding a
+        company of the universe at 2% or more of the filing's total reported value
         data/holdings/filings.csv  accession,filer_cik,filer,period,filed,universe_share,positions
         data/holdings/positions.csv accession,cik,shares
 State:  data/state/holdings.json (data sets already read)
@@ -74,7 +76,7 @@ def read_set(url, issuer_to_cik):
     z = zipfile.ZipFile(io.BytesIO(b))
     sub = {r["ACCESSION_NUMBER"]: r for r in rows(z, "SUBMISSION.TSV") if r.get("SUBMISSIONTYPE") == "13F-HR"}
     names = {r["ACCESSION_NUMBER"]: r.get("FILINGMANAGER_NAME", "") for r in rows(z, "COVERPAGE.TSV")}
-    total, univ, pos = {}, {}, {}
+    total, univ, pos, val = {}, {}, {}, {}
     for r in rows(z, "INFOTABLE.TSV"):
         a = r["ACCESSION_NUMBER"]
         if a not in sub:
@@ -87,6 +89,7 @@ def read_set(url, issuer_to_cik):
         cik = issuer_to_cik.get((r.get("CUSIP") or "")[:6].upper())
         if cik and (r.get("SSHPRNAMTTYPE") or "").upper() == "SH" and not (r.get("PUTCALL") or "").strip():
             univ[a] = univ.get(a, 0) + v
+            val.setdefault(a, {})[cik] = val.setdefault(a, {}).get(cik, 0) + v
             try:
                 pos.setdefault(a, {})[cik] = pos.setdefault(a, {}).get(cik, 0) + float(r.get("SSHPRNAMT") or 0)
             except ValueError:
@@ -98,7 +101,15 @@ def read_set(url, issuer_to_cik):
             s = sub[a]
             out_f.append([a, s.get("CIK", ""), names.get(a, ""), s.get("PERIODOFREPORT", ""), s.get("FILING_DATE", ""), round(share, 3), len(pos[a])])
             out_p += [[a, c, int(n)] for c, n in pos[a].items()]
-    return out_f, out_p
+    conc = []                                             # any 13F filer holding a company at 2%+ of its portfolio
+    for a, vs in val.items():
+        if not total.get(a):
+            continue
+        s = sub[a]
+        for c, v in vs.items():
+            if v / total[a] >= 0.02:
+                conc.append([a, s.get("CIK", ""), names.get(a, ""), iso(s.get("PERIODOFREPORT", "")), iso(s.get("FILING_DATE", "")), c, round(v / total[a], 4)])
+    return out_f, out_p, conc
 
 
 def span(url):
@@ -143,17 +154,20 @@ def main():
     issuer_to_cik = {c: cik for cik, cs in have.items() for c in cs}
     print(f"CUSIPs: {len(issuer_to_cik)} issuer codes for {sum(1 for v in have.values() if v)} companies")
     for url in datasets():
-        if url in st["read"] or time.time() > t_end:
+        if url in st.setdefault("read_conc", []) or time.time() > t_end:
             continue
-        f, p = read_set(url, issuer_to_cik)
-        for r in f:
-            r[3], r[4] = iso(r[3]), iso(r[4])
-        append("filings.csv", ["accession", "filer_cik", "filer", "period", "filed", "universe_share", "positions"], f)
-        append("positions.csv", ["accession", "cik", "shares"], p)
-        st["read"].append(url)
+        f, p, conc = read_set(url, issuer_to_cik)
+        if url not in st["read"]:
+            for r in f:
+                r[3], r[4] = iso(r[3]), iso(r[4])
+            append("filings.csv", ["accession", "filer_cik", "filer", "period", "filed", "universe_share", "positions"], f)
+            append("positions.csv", ["accession", "cik", "shares"], p)
+            st["read"].append(url)
+        append("concentrated.csv", ["accession", "filer_cik", "filer", "period", "filed", "cik", "weight"], conc)
+        st["read_conc"].append(url)
         st.setdefault("ranges", {})[url] = span(url)
         STATE.write_text(json.dumps(st, indent=1))
-        print(f"{url.rsplit('/', 1)[-1]}: {len(f)} specialist filings, {len(p)} positions", flush=True)
+        print(f"{url.rsplit('/', 1)[-1]}: {len(conc)} holdings at 2%+ of a fund's portfolio", flush=True)
 
 
 if __name__ == "__main__":
