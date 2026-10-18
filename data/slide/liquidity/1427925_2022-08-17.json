@@ -1,0 +1,34 @@
+{
+ "id": "1427925_2022-08-17",
+ "asof": "2022-08-17",
+ "accn": "0001437749-22-020168",
+ "chars": 21500,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2022-08-03",
+   "net_proceeds_usd": 300000,
+   "what": "Private placement of Series A Preferred Stock with warrant to Lincoln Park Capital Fund (gross subscription amount; net not given)",
+   "quote": "an aggregate of 3,000 shares of Series A Preferred Stock, par value $0.001 per share, together with a warrant to purchase up to an aggregate of 1,623,008 shares of common stock of the Company at an exercise price of $0.2033 per share"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 176679,
+   "exercise_price_usd": 2.83,
+   "expiry": null,
+   "quote": "the Company issued warrants to the Lender and its affiliates, or the Warrants, which are exercisable for an aggregate of 176,679 shares of the Company\u2019s common stock with a per share exercise price of $2.83."
+  },
+  {
+   "count": 1623008,
+   "exercise_price_usd": 0.2033,
+   "expiry": "2028-02-03",
+   "quote": "The warrant is immediately exercisable and has a term ending on February 3, 2028."
+  }
+ ],
+ "warrants_dropped": 0
+}

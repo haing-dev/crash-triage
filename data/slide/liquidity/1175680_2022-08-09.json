@@ -1,0 +1,46 @@
+{
+ "id": "1175680_2022-08-09",
+ "asof": "2022-08-09",
+ "accn": "0001558370-22-005291",
+ "chars": 35144,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2022-03-18",
+   "net_proceeds_usd": 1000000,
+   "what": "Private placement of 2.5M shares and 1.25M warrants to an accredited investor (gross; net not given)",
+   "quote": "for total proceeds of $1.0 million"
+  },
+  {
+   "date": "2022-06-24",
+   "net_proceeds_usd": 21800000,
+   "what": "Final closing of placement-agent private offering of units (cumulative gross; net not given)",
+   "quote": "The aggregate gross proceeds received under the executed subscription agreements in the Offering were approximately $21.8 million."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 1250000,
+   "exercise_price_usd": 0.4,
+   "expiry": "2027-03-18",
+   "quote": "warrants to purchase a total of 1,250,000 shares of common stock at an exercise price of $0.40 per share"
+  },
+  {
+   "count": 64050000,
+   "exercise_price_usd": 0.255,
+   "expiry": null,
+   "quote": "The final purchase price per unit and the exercise price of the warrants is $0.255 per share"
+  },
+  {
+   "count": 7000000,
+   "exercise_price_usd": 0.37,
+   "expiry": null,
+   "quote": "grant to Dr. Pestell warrants with a three-year term to purchase 7,000,000 shares of Common Stock at an exercise price of $0.37 per share"
+  }
+ ],
+ "warrants_dropped": 0
+}

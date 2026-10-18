@@ -1,0 +1,64 @@
+{
+ "id": "832489_2022-08-10",
+ "asof": "2022-08-10",
+ "accn": "0001437749-22-018639",
+ "chars": 27101,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2022-08-03",
+   "net_proceeds_usd": 5000000,
+   "what": "Cash exercise of 3,030,304 May 2022 Preferred Investment Options (gross proceeds; exact August date not given, 2022-08-03 is the 10-Q signing date)",
+   "quote": "During August 2022, we issued an aggregate of 3,030,304 shares of common stock upon the partial exercise of the May 2022 Preferred Investment Options, with gross cash proceeds to us of $5,000,000."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 3067484,
+   "exercise_price_usd": 3.26,
+   "expiry": "2027-02-10",
+   "quote": "a warrant to purchase up to 3,067,484 shares of common stock at an exercise price of $3.26 per share"
+  },
+  {
+   "count": 9090910,
+   "exercise_price_usd": 1.65,
+   "expiry": "2028-05-29",
+   "quote": "Subsequent to these exercises, 9,090,910 of the May 2022 Preferred Investment Options remain outstanding."
+  },
+  {
+   "count": 120000,
+   "exercise_price_usd": 1.65,
+   "expiry": null,
+   "quote": "2020 Warrants 120,000 $1.65"
+  },
+  {
+   "count": 2396631,
+   "exercise_price_usd": 5.0,
+   "expiry": null,
+   "quote": "2020 Unit Warrants 2,396,631 5.00"
+  },
+  {
+   "count": 128000,
+   "exercise_price_usd": 5.5,
+   "expiry": null,
+   "quote": "2020 Representative Warrants 128,000 5.50"
+  },
+  {
+   "count": 72000,
+   "exercise_price_usd": 6.875,
+   "expiry": null,
+   "quote": "2021 Representative Warrants 72,000 6.875"
+  },
+  {
+   "count": 100000,
+   "exercise_price_usd": 13.0,
+   "expiry": null,
+   "quote": "2021 Warrants 100,000 13.00"
+  }
+ ],
+ "warrants_dropped": 0
+}
