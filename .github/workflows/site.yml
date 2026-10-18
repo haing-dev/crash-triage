@@ -55,7 +55,7 @@ jobs:
           export CLOUDFLARE_API_TOKEN=$(printf %s "$CLOUDFLARE_API_TOKEN" | tr -d '[:space:]')
           cd deploy
           if ! npx -y wrangler@4 deploy > ../wrangler.log 2>&1; then
-            tail -25 ../wrangler.log | sed 's/^/::error::/'
+            grep -v '^\s*$' ../wrangler.log | tail -40 | sed 's/^/::error::/'
             exit 1
           fi
           tail -5 ../wrangler.log
