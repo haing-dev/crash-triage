@@ -1,20 +1,31 @@
 # Fit report: crash
-episodes with inputs: 962 · with a full year: 798
+episodes: 963 · still collecting (TBU): 216 · with a full year and complete inputs: 470
 
-## Model on all history
+## Colours on all history
 
-| Factor | Cut-off | Points green / grey / red (pp vs median) |
+| Cell | Cut-off | Points green / grey / red (pp vs similar biotechs) |
 |---|---|---|
-| safety | categorical | +7.2 / -0.5 / -1.2 |
-| runway | ≥ 11.66 is green | +30.1 / -1.5 / -16.2 |
-| value | ≥ 0.41 is green | +11.6 / -6.2 / -10.9 |
-| insider | categorical | +10.6 / -8.9 / +17.8 |
-| programs | ≥ 1.00 is green | +15.0 / +0.0 / -8.8 |
+| safety | categorical | +6.0 / -1.4 / +2.1 |
+| runway | ≥ 13.52 is green | +9.5 / -11.5 / -5.1 |
+| ev | < 8.42 is green | +4.3 / -4.9 / -21.6 |
+| programs | ≥ 1.00 is green | +0.5 / +0.0 / -0.1 |
+| raise | categorical | +7.3 / -3.0 / -2.1 |
+| insider | categorical | +5.5 / -1.7 / +4.4 |
+| specialists | categorical | +9.0 / -5.2 / +8.0 |
+| short | ≥ 2.02 is green | +4.1 / -0.4 / -5.3 |
 
-## Backtest (every episode with a full year; entry to +365 days; mean caps any single return at +500%)
+## Backtest (complete inputs, a full year; mean caps any single return at +500%)
 
-| Verdict | n | median | mean | XBI mean | beat XBI | up 30%+ | down 80%+ |
+| Call | n | median | mean | similar biotechs mean | beat them | up 30%+ | down 80%+ |
 |---|---|---|---|---|---|---|---|
-| overdone | 75 | -5% | +42% | +9% | 41% | 35% | 1% |
-| close | 93 | -18% | +0% | -1% | 42% | 30% | 12% |
-| justified | 630 | -69% | -26% | +14% | 19% | 16% | 42% |
+| overdone | 71 | -22% | +23% | +13% | 38% | 32% | 1% |
+| close | 26 | -52% | -5% | -20% | 35% | 31% | 15% |
+| justified | 373 | -67% | -34% | -13% | 25% | 13% | 41% |
+
+## Chance check (walk-forward predictions only)
+
+| Predicted | n | up 30%+ happened | n | down 80%+ happened |
+|---|---|---|---|---|
+| 0–20% | 61 | 10% | 19 | 32% |
+| 20–40% | 8 | 25% | 14 | 21% |
+| 40–100% | 6 | 67% | 42 | 52% |
