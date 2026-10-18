@@ -61,3 +61,4 @@ jobs:
           git add -A
           git commit -q -m "site build $(date -u +%Y-%m-%dT%H:%MZ)"
           git push -q -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" site
+# deploy: Actions publishes to Cloudflare with wrangler (secrets CLOUDFLARE_API_TOKEN / CLOUDFLARE_ACCOUNT_ID)
