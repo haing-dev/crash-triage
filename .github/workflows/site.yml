@@ -45,6 +45,13 @@ jobs:
             "assets": { "directory": "./public", "not_found_handling": "single-page-application" }
           }
           JSON
+      - name: Deploy to Cloudflare directly (used once the CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID secrets exist)
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          if [ -z "$CLOUDFLARE_API_TOKEN" ]; then echo "no Cloudflare token yet: relying on Cloudflare's own build of the 'site' branch"; exit 0; fi
+          cd deploy && npx -y wrangler@4 deploy
       - name: Publish to the 'site' branch
         run: |
           cd deploy
