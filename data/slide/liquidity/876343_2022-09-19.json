@@ -1,0 +1,28 @@
+{
+ "id": "876343_2022-09-19",
+ "asof": "2022-09-19",
+ "accn": "0001493152-22-022085",
+ "chars": 9790,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2022-07-06",
+   "net_proceeds_usd": 891839,
+   "what": "Cash exercise by HBL of remaining Cell Cure warrant for 21,999 shares at $40.54 (proceeds computed from shares x exercise price)",
+   "quote": "In July 2022, HBL cash exercised the remaining outstanding warrant to purchase 21,999 shares"
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 2000,
+   "exercise_price_usd": 40.0,
+   "expiry": null,
+   "quote": "An additional warrant to purchase 2,000 ordinary shares issued to Cell Cure consultants is outstanding as of June 30, 2022, the warrant has an exercise price of $40.00 which expire in January 2024."
+  }
+ ],
+ "warrants_dropped": 0
+}

@@ -1,27 +1,40 @@
 {
  "id": "1618835_2022-05-05",
- "asof": "2022-05-10",
- "chars": 24854,
+ "asof": "2022-05-09",
+ "accn": "0001618835-22-000057",
+ "chars": 33105,
  "one_off_receipts": [],
  "one_off_receipts_dropped": 0,
  "one_off_payments": [],
  "one_off_payments_dropped": 0,
- "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet": [
+  {
+   "date": "2022-01-14",
+   "net_proceeds_usd": 4700000,
+   "what": "January 2022 registered direct offering of 5.0% Senior Subordinated Notes and warrants",
+   "quote": "aggregate net proceeds to the Company were approximately $4.7 million after deducting commissions and offering expenses payable by the Company"
+  },
+  {
+   "date": "2022-03-02",
+   "net_proceeds_usd": 4600000,
+   "what": "March 2022 registered direct offering of 5.0% Senior Subordinated Notes and warrants",
+   "quote": "aggregate net proceeds to the Company will be approximately $4.6 million, after deducting commissions and estimated offering expenses payable by the Company."
+  }
+ ],
  "financings_after_balance_sheet_dropped": 0,
  "warrants": [
   {
-   "count": 341530,
-   "exercise_price_usd": 36.6,
+   "count": 15006003,
+   "exercise_price_usd": 0.392,
    "expiry": null,
-   "quote": "the Baker Purchasers acquired the remaining Baker Notes with an aggregate principal amount of $10.0 million and Baker Warrants exercisable for 136,612 shares of common stock."
+   "quote": "The January 2022 Warrants have an exercise price of $0.392 per share and will be exercisable beginning on July 15, 2022 with a five year term."
   },
   {
-   "count": 833333,
-   "exercise_price_usd": 2.4765,
+   "count": 15568287,
+   "exercise_price_usd": 0.4787,
    "expiry": null,
-   "quote": "The New Warrants have an exercise price of $2.4765 per share and were exercisable immediately with a five year term."
+   "quote": "The Warrants will have an exercise price of $0.4787 per share"
   }
  ],
- "warrants_dropped": 0,
- "accn": "0001618835-22-000110"
+ "warrants_dropped": 0
 }

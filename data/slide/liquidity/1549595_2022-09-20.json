@@ -1,0 +1,46 @@
+{
+ "id": "1549595_2022-09-20",
+ "asof": "2022-09-20",
+ "accn": "0001564590-22-025450",
+ "chars": 24698,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2022-06-30",
+   "net_proceeds_usd": 19300000,
+   "what": "June 2022 ATM offering of 2,000,000 shares (exact June closing date not stated; month-end used)",
+   "quote": "In June 2022, we issued and sold 2,000,000 shares of common stock under the Equity Distribution Agreement for net proceeds of approximately $19.3 million after deducting offering commissions and expenses paid by us"
+  },
+  {
+   "date": "2022-07-07",
+   "net_proceeds_usd": 54900000,
+   "what": "July 7 registered direct offering of pre-funded warrants (agreement date; closing not confirmed in the excerpts)",
+   "quote": "We estimate that our net proceeds from this offering will be approximately $54.9 million, after deducting estimated offering expenses payable by us."
+  },
+  {
+   "date": "2022-07-08",
+   "net_proceeds_usd": 39900000,
+   "what": "July 8 registered direct offering of pre-funded warrants (agreement date; closing not confirmed in the excerpts)",
+   "quote": "We estimate that our net proceeds from this offering will be approximately $39.9 million, after deducting estimated offering expenses payable by us."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 3945480,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "pre-funded warrants (the \u201cJuly 7 Pre-funded Warrants\u201d) to purchase up to 3,945,480 shares of the Company\u2019s common stock"
+  },
+  {
+   "count": 2869440,
+   "exercise_price_usd": 0.001,
+   "expiry": null,
+   "quote": "pre-funded warrants (the \u201cJuly 8 Pre-funded Warrants\u201d and together with the July 7 Pre-funded Warrants, the \u201cPre-funded Warrants\u201d) to purchase up to 2,869,440 shares of Common Stock"
+  }
+ ],
+ "warrants_dropped": 0
+}
