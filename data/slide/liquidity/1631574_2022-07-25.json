@@ -1,0 +1,28 @@
+{
+ "id": "1631574_2022-07-25",
+ "asof": "2022-07-25",
+ "accn": "0000950170-22-009469",
+ "chars": 20791,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2022-06-16",
+   "net_proceeds_usd": 65400000,
+   "what": "Underwritten public offering of ordinary shares and pre-funded warrants (expected closing date; filings give an estimated net figure, not a closing confirmation)",
+   "quote": "We estimate that the net proceeds from this offering will be approximately $65.4 million, after deducting underwriting discounts and commissions and estimated offering expenses payable by us."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 7093656,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "pre-funded warrants (the \u201cPre-Funded Warrants\u201d) to purchase up to 7,093,656 of the Company\u2019s ordinary shares"
+  }
+ ],
+ "warrants_dropped": 0
+}

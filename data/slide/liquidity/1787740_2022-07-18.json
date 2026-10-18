@@ -1,0 +1,33 @@
+{
+ "id": "1787740_2022-07-18",
+ "asof": "2022-07-18",
+ "accn": "0001410578-22-001666",
+ "chars": 21283,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 50000,
+   "exercise_price_usd": 1.07,
+   "expiry": "2026-07-01",
+   "quote": "Common Stock 50,000 $ 1.07 July 1, 2026"
+  },
+  {
+   "count": 50000,
+   "exercise_price_usd": 1.07,
+   "expiry": "2026-11-15",
+   "quote": "Common Stock 50,000 $ 1.07 November 15, 2026"
+  },
+  {
+   "count": 172680,
+   "exercise_price_usd": 6.25,
+   "expiry": "2026-11-10",
+   "quote": "In November 2021, the Company issued warrants to purchase 172,680 shares of common stock to employees of Think Equity, the underwriters of the IPO."
+  }
+ ],
+ "warrants_dropped": 0
+}
