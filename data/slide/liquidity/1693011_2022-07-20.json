@@ -2,5 +2,27 @@
  "id": "1693011_2022-07-20",
  "asof": "2022-07-20",
  "accn": "0000950170-22-008727",
- "error": "Extra data: line 3 column 1 (char 456)"
+ "chars": 21961,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2022-04-19",
+   "net_proceeds_usd": 68300000,
+   "what": "Underwritten public offering of common stock and pre-funded warrants, closed April 19, 2022",
+   "quote": "The closing of the offering took place on April 19, 2022."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 3523013,
+   "exercise_price_usd": 0.0001,
+   "expiry": null,
+   "quote": "pre-funded warrants to purchase 3,523,013 shares of common stock"
+  }
+ ],
+ "warrants_dropped": 0
 }
