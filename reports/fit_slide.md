@@ -1,32 +1,32 @@
 # Fit report: slide
-episodes: 3132 · still collecting (TBU): 803 · with a full year and complete inputs: 1665
+episodes: 3132 · still collecting (TBU): 773 · with a full year and complete inputs: 1690
 
 ## Colours on all history
 
 | Cell | Cut-off | Points green / grey / red (pp vs similar biotechs) |
 |---|---|---|
-| runway | ≥ 24.28 is green | +9.6 / -3.0 / -9.1 |
-| ev | < 4.51 is green | +1.8 / -0.4 / -8.1 |
-| programs | ≥ 2.00 is green | +10.3 / +0.0 / -5.1 |
-| raise | categorical | +1.8 / +12.5 / -12.7 |
-| insider | categorical | -0.7 / -1.3 / +3.7 |
-| specialists | categorical | +7.8 / -5.7 / +3.6 |
-| short | < 5.66 is green | +3.2 / -17.6 / -0.5 |
+| runway | ≥ 9.01 is green | +3.9 / -5.0 / -15.3 |
+| ev | < 5.59 is green | +1.4 / -0.5 / -8.7 |
+| programs | ≥ 2.00 is green | +10.4 / +0.0 / -5.1 |
+| raise | categorical | +1.6 / +12.4 / -13.1 |
+| insider | categorical | +0.1 / -1.8 / +4.0 |
+| specialists | categorical | +8.3 / -6.0 / +3.3 |
+| short | ≥ 2.23 is green | +1.6 / -17.5 / -2.5 |
 
 ## Backtest (complete inputs, a full year; mean caps any single return at +500%)
 
 | Call | n | median | mean | similar biotechs mean | beat them | up 30%+ | down 80%+ |
 |---|---|---|---|---|---|---|---|
-| overdone | 475 | -10% | +18% | +12% | 43% | 32% | 5% |
-| close | 403 | -3% | +18% | +11% | 45% | 33% | 4% |
-| justified | 787 | -32% | -6% | +9% | 31% | 22% | 16% |
+| overdone | 486 | -10% | +17% | +11% | 43% | 31% | 5% |
+| close | 410 | -3% | +18% | +11% | 45% | 32% | 4% |
+| justified | 794 | -33% | -7% | +8% | 31% | 22% | 16% |
 
 ## Chance check (walk-forward predictions only)
 
 | Predicted | n | up 30%+ happened | n | down 80%+ happened |
 |---|---|---|---|---|
-| 0–20% | 378 | 20% | 702 | 7% |
-| 20–40% | 432 | 37% | 132 | 20% |
-| 40–100% | 51 | 31% | 27 | 33% |
+| 0–20% | 395 | 21% | 720 | 7% |
+| 20–40% | 444 | 37% | 141 | 21% |
+| 40–100% | 45 | 29% | 23 | 26% |
 
-Chance columns shown: up 30%+ yes · down 80%+ yes
+Chance columns shown: up 30%+ no (check failed) · down 80%+ no (check failed)
