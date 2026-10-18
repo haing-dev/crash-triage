@@ -23,7 +23,6 @@ from returns import STEPS, path, plus, total_return
 
 SITE = ROOT / "site"
 TODAY = date.today().isoformat()
-FIVE_YEARS_AGO = TODAY.replace(TODAY[:4], str(int(TODAY[:4]) - 5), 1)
 LEDGER = DATA / "ledger.csv"
 LCOLS = ["called_utc", "kind", "id", "cik", "ticker", "name", "call", "base_date"]
 CALLS = ("overdone", "close", "justified")
@@ -62,11 +61,13 @@ def series(ctrl, r):
     return own, ctl, idx
 
 
-def avg_path(rows, i):
-    """Average over the positions that have reached each step."""
-    out = []
-    for k in range(len(STEPS)):
-        v = [s[i][k] for s in rows if len(s[i]) > k and s[i][k] is not None]
+def avg_path(rows, i, carry=False):
+    """Average over the positions at each step after buying. carry=True: a position bought less than a year ago keeps
+    its latest value for the later steps, so the last point equals what the money is worth today."""
+    out, n = [], max((len(s[i]) for s in rows), default=0)
+    for k in range(n):
+        v = [s[i][k] if len(s[i]) > k else (s[i][-1] if carry and s[i] else None) for s in rows]
+        v = [x for x in v if x is not None]
         if not v:
             break
         out.append(round(mean(v) * 100, 1))
@@ -76,8 +77,6 @@ def avg_path(rows, i):
 def build(kind, ctrl):
     items = []
     for c in sorted(episodes(kind), key=lambda c: c["cik"]):
-        if c["date"] < FIVE_YEARS_AGO:
-            continue
         cid = f"{c['cik']}_{c['date']}"
         rec = {"id": cid, "cik": c["cik"], "name": c["name"], "ticker": c["ticker"], "date": c["date"], "month": c["month"],
                "move": float(c["fall_pct"]), "days": int(c["days"]), "news_day": float(c["news_day_pct"]),
@@ -126,9 +125,10 @@ def build(kind, ctrl):
         ss = [ser[r["id"]] for r in grp if ser[r["id"]][0]]
         if not ss:
             continue
-        fin = lambda i: round(10000 * (1 + mean([s[i][-1] for s in ss if s[i] and s[i][-1] is not None])))
-        years[y] = {"n": len(ss), "open": sum(1 for r in grp if not r["played"]), "own": fin(0), "ctrl": fin(1), "xbi": fin(2),
-                    "path": {"own": avg_path(ss, 0), "ctrl": avg_path(ss, 1), "xbi": avg_path(ss, 2)}}
+        pth = {"own": avg_path(ss, 0, True), "ctrl": avg_path(ss, 1, True), "xbi": avg_path(ss, 2, True)}
+        fin = lambda k: round(10000 * (1 + pth[k][-1] / 100)) if pth[k] else None
+        years[y] = {"n": len(ss), "open": sum(1 for r in grp if not r["played"]), "own": fin("own"), "ctrl": fin("ctrl"),
+                    "xbi": fin("xbi"), "path": pth}
     causes = {}
     if kind == "crash":
         done = [r for r in items if r.get("played") and r.get("ret") is not None and r.get("cause")]
