@@ -1,0 +1,40 @@
+{
+ "id": "1595248_2022-08-30",
+ "asof": "2022-08-30",
+ "accn": "0001437749-22-020379",
+ "chars": 21282,
+ "one_off_receipts": [],
+ "one_off_receipts_dropped": 0,
+ "one_off_payments": [],
+ "one_off_payments_dropped": 0,
+ "financings_after_balance_sheet": [
+  {
+   "date": "2022-07-28",
+   "net_proceeds_usd": 1755,
+   "what": "Option exercise by CFO",
+   "quote": "On July 28, 2022, we issued 116,953 shares of common stock for $1,755 in cash to our Chief Financial Officer upon the exercise of options."
+  }
+ ],
+ "financings_after_balance_sheet_dropped": 0,
+ "warrants": [
+  {
+   "count": 2078111,
+   "exercise_price_usd": 4.41,
+   "expiry": null,
+   "quote": "Outstanding at June 30, 2022 2,078,111 $4.41"
+  },
+  {
+   "count": 50000,
+   "exercise_price_usd": 1.38,
+   "expiry": null,
+   "quote": "On July 1, 2022, the Company issued a warrant to purchase up to 50,000 shares of its common stock at an exercise price of $1.38 per share to a consultant for services."
+  },
+  {
+   "count": 50000,
+   "exercise_price_usd": 1.49,
+   "expiry": null,
+   "quote": "On August 10, 2022, the Company issued a warrant to purchase up to 50,000 shares of its common stock at an exercise price of $1.49 per share to a consultant for services."
+  }
+ ],
+ "warrants_dropped": 0
+}
