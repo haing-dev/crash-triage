@@ -1,14 +1,16 @@
 # Top performer owners (as of today)
 
-| Rank | Fund | Winners held at 2%+ |
-|---|---|---|
-| 1 | Logos Global Management LP | 41 |
-| 2 | COMMODORE CAPITAL LP | 39 |
-| 3 | TCG Crossover Management, LLC | 36 |
-| 4 | Ally Bridge Group (NY) LLC | 35 |
-| 5 | GREAT POINT PARTNERS LLC | 35 |
-| 6 | Fairmount Funds Management LLC | 32 |
-| 7 | Deep Track Capital, LP | 31 |
-| 8 | Ghost Tree Capital, LLC | 30 |
-| 9 | Paradigm Biocapital Advisors LP | 30 |
-| 10 | Affinity Asset Advisors, LLC | 29 |
+Conviction-weighted hit rate (portfolio weight capped at 20%; hit = up 30%+ a year later), shrunk toward the average of all plays; 5+ different companies needed.
+
+| Rank | Fund | Score | Plays up 30%+ | Plays |
+|---|---|---|---|---|
+| 1 | Foresite Capital Management VI LLC | 75% | 11 | 13 |
+| 2 | Siren, L.L.C. | 64% | 11 | 19 |
+| 3 | Nextech Invest, Ltd. | 64% | 5 | 6 |
+| 4 | CAXTON CORP | 62% | 11 | 22 |
+| 5 | Caligan Partners LP | 61% | 13 | 23 |
+| 6 | Merck & Co., Inc. | 60% | 3 | 7 |
+| 7 | Sofinnova Investments, Inc. | 59% | 19 | 38 |
+| 8 | Artia Global Partners LP | 59% | 12 | 18 |
+| 9 | Catalio Capital Management, LP | 58% | 9 | 13 |
+| 10 | Allostery Investments LP | 57% | 6 | 9 |

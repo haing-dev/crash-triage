@@ -376,7 +376,7 @@ def note(k, x):
             return f"No 13F filer held it at 2%+ of its portfolio at the end of {f['before']} or {f['after']}{tail}"
         return "; ".join(f"{n} {w * 100:.1f}% ({q})" for _, n, w, q in f["list"][:8]) + tail
     if k == "top" and x.get("top"):
-        return "; ".join(f"{n} (top {rank})" for n, rank in x["top"])
+        return "; ".join(f"{n} (top {rank}: {hits} of {n_} plays up 30%+)" for n, rank, hits, n_ in x["top"])
     if k == "short" and x.get("si") and x["si"].get("settlement"):
         return f"FINRA short interest at settlement {x['si']['settlement']} ÷ shares outstanding that day"
     if k == "programs" and r.get("trials"):
@@ -416,9 +416,17 @@ def prepare(kind, ctrl):
     return rows
 
 
+MIN_COMPANIES, PRIOR_PLAYS, WEIGHT_CAP = 5, 5, 0.20
+
+
 def top_performers(all_rows):
-    """Rank 13F filers by how many backtest episodes (both triages) they held at 2%+ that were up 30%+ a year later.
-    as_of(d) uses only episodes whose year had ended by d, so a past call never sees later results."""
+    """Rank 13F filers by their record on backtest episodes (both triages) they held at 2%+ of their portfolio.
+
+    Score = conviction-weighted hit rate: each play counts with the fund's portfolio weight in the stock (capped at 20%,
+    so one huge stake can't dominate), a hit = up 30%+ a year later (a giant winner counts once, like any other hit),
+    shrunk toward the hit rate of all plays with the weight of 5 average plays, so a short record can't top the list.
+    A fund needs plays in 5+ different companies to be ranked. as_of(d) uses only episodes whose year had ended by d,
+    so a past call never sees later results."""
     done = sorted((x for x in all_rows if "tbu" not in x and x.get("d365") and x.get("fund")), key=lambda x: x["d365"])
     names = {}
     for x in all_rows:
@@ -428,15 +436,28 @@ def top_performers(all_rows):
 
     def as_of(d):
         if d not in cache:
-            wins = {}
+            plays = {}
             for x in done:
                 if x["d365"] > d:
                     break
-                if x["abs"] >= 0.3:
-                    for fc in {t[0] for t in x["fund"]["list"]}:
-                        wins[fc] = wins.get(fc, 0) + 1
-            ranked = sorted(wins.items(), key=lambda t: (-t[1], names.get(t[0], "")))[:TOP_N]
-            cache[d] = {fc: (i + 1, w) for i, (fc, w) in enumerate(ranked)}
+                hit = x["abs"] >= 0.3
+                for fc, _, w, _ in x["fund"]["list"]:
+                    plays.setdefault(fc, []).append((min(w, WEIGHT_CAP), hit, x["cik"]))
+            allp = [p for v in plays.values() for p in v]
+            if not allp:
+                cache[d] = {}
+                return cache[d]
+            base = sum(w * h for w, h, _ in allp) / sum(w for w, _, _ in allp)
+            wbar = sum(w for w, _, _ in allp) / len(allp)
+            scored = []
+            for fc, v in plays.items():
+                if len({c for _, _, c in v}) < MIN_COMPANIES:
+                    continue
+                sw, sh = sum(w for w, _, _ in v), sum(w * h for w, h, _ in v)
+                score = (sh + PRIOR_PLAYS * wbar * base) / (sw + PRIOR_PLAYS * wbar)
+                scored.append((fc, score, sum(h for _, h, _ in v), len(v)))
+            ranked = sorted(scored, key=lambda t: (-t[1], names.get(t[0], "")))[:TOP_N]
+            cache[d] = {fc: (i + 1, sc, hits, n) for i, (fc, sc, hits, n) in enumerate(ranked)}
         return cache[d]
     return as_of, names
 
@@ -505,12 +526,14 @@ def run_all():
                 continue
             # a call that is still open uses today's ranking; a past one the ranking known on its entry day
             tops = as_of(TODAY if plus(x["asof"], 365) > TODAY else x["asof"][:7] + "-01")
-            hit = sorted({fc: tops[fc][0] for fc, *_ in f["list"] if fc in tops}.items(), key=lambda t: t[1])
-            x["top"] = [(names.get(fc, fc), rank) for fc, rank in hit]
+            hit = sorted((tops[fc] + (fc,) for fc, *_ in f["list"] if fc in tops), key=lambda t: t[0])
+            x["top"] = [(names.get(t[4], t[4]), t[0], t[2], t[3]) for t in hit]
         score_kind(k, rows[k])
     now = as_of(TODAY)
-    (ROOT / "reports" / "top_performers.md").write_text("# Top performer owners (as of today)\n\n| Rank | Fund | Winners held at 2%+ |\n|---|---|---|\n"
-        + "\n".join(f"| {r} | {names.get(fc, fc)} | {w} |" for fc, (r, w) in sorted(now.items(), key=lambda t: t[1][0])) + "\n")
+    (ROOT / "reports" / "top_performers.md").write_text(
+        "# Top performer owners (as of today)\n\nConviction-weighted hit rate (portfolio weight capped at 20%; hit = up 30%+ a year "
+        "later), shrunk toward the average of all plays; 5+ different companies needed.\n\n| Rank | Fund | Score | Plays up 30%+ | Plays |\n|---|---|---|---|---|\n"
+        + "\n".join(f"| {r} | {names.get(fc, fc)} | {sc:.0%} | {h} | {n} |" for fc, (r, sc, h, n) in sorted(now.items(), key=lambda t: t[1][0])) + "\n")
 
 
 if __name__ == "__main__":
