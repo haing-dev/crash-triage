@@ -25,7 +25,7 @@ jobs:
         run: |
           git config user.name "crash-triage-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/ledger.csv data/controls.json data/*/calibration.json reports/fit_*.md 2>/dev/null || true
+          git add data/ledger.csv data/controls.json data/*/calibration.json reports/fit_*.md reports/top_performers.md 2>/dev/null || true
           if ! git diff --cached --quiet; then
             git commit -q -m "calls and matches [skip ci]"
             for i in 1 2 3 4 5 6; do git pull --rebase -q && git push -q && break; sleep $((i*9)); done
