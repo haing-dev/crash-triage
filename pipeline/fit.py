@@ -416,23 +416,29 @@ def prepare(kind, ctrl):
     return rows
 
 
-MIN_COMPANIES, PRIOR_PLAYS, WEIGHT_CAP = 5, 5, 0.20
+MIN_COMPANIES, PRIOR_PLAYS, WEIGHT_CAP, CONC_CAP = 5, 5, 0.20, 2.0
 
 
 def top_performers(all_rows):
     """Rank 13F filers by their record on backtest episodes (both triages) they held at 2%+ of their portfolio.
-
-    Score = conviction-weighted hit rate: each play counts with the fund's portfolio weight in the stock (capped at 20%,
-    so one huge stake can't dominate), a hit = up 30%+ a year later (a giant winner counts once, like any other hit),
-    shrunk toward the hit rate of all plays with the weight of 5 average plays, so a short record can't top the list.
-    A fund needs plays in 5+ different companies to be ranked. as_of(d) uses only episodes whose year had ended by d,
-    so a past call never sees later results."""
+    Two halves, equally weighted (each as a percentile rank among the ranked funds):
+      quality  conviction-weighted hit rate x concentration. Hit = up 30%+ a year later (a giant winner counts once).
+               Each play counts with the fund's portfolio weight in it (capped at 20%); the rate is shrunk toward the
+               hit rate of all plays with the weight of 5 average plays, so a short record can't top it.
+               Concentration = the fund's median position size / the median of all funds (capped at 2x): a fund that
+               typically bets 10% of its portfolio scores above one that bets 3% with the same hit rate.
+      winners  how many of its plays were hits.
+    A fund needs plays in 5+ different companies. as_of(d) uses only episodes whose year had ended by d."""
     done = sorted((x for x in all_rows if "tbu" not in x and x.get("d365") and x.get("fund")), key=lambda x: x["d365"])
     names = {}
     for x in all_rows:
         for fc, n, _, _ in ((x.get("fund") or {}).get("list") or []):
             names[fc] = n
     cache = {}
+
+    def pct_rank(vals):
+        order = sorted(vals)
+        return [(sum(1 for o in order if o < v) + 0.5 * sum(1 for o in order if o == v)) / len(order) for v in vals]
 
     def as_of(d):
         if d not in cache:
@@ -442,22 +448,28 @@ def top_performers(all_rows):
                     break
                 hit = x["abs"] >= 0.3
                 for fc, _, w, _ in x["fund"]["list"]:
-                    plays.setdefault(fc, []).append((min(w, WEIGHT_CAP), hit, x["cik"]))
+                    plays.setdefault(fc, []).append((w, hit, x["cik"]))
             allp = [p for v in plays.values() for p in v]
-            if not allp:
+            elig = {fc: v for fc, v in plays.items() if len({c for _, _, c in v}) >= MIN_COMPANIES}
+            if not elig:
                 cache[d] = {}
                 return cache[d]
-            base = sum(w * h for w, h, _ in allp) / sum(w for w, _, _ in allp)
-            wbar = sum(w for w, _, _ in allp) / len(allp)
-            scored = []
-            for fc, v in plays.items():
-                if len({c for _, _, c in v}) < MIN_COMPANIES:
-                    continue
-                sw, sh = sum(w for w, _, _ in v), sum(w * h for w, h, _ in v)
-                score = (sh + PRIOR_PLAYS * wbar * base) / (sw + PRIOR_PLAYS * wbar)
-                scored.append((fc, score, sum(h for _, h, _ in v), len(v)))
-            ranked = sorted(scored, key=lambda t: (-t[1], names.get(t[0], "")))[:TOP_N]
-            cache[d] = {fc: (i + 1, sc, hits, n) for i, (fc, sc, hits, n) in enumerate(ranked)}
+            base = sum(min(w, WEIGHT_CAP) * h for w, h, _ in allp) / sum(min(w, WEIGHT_CAP) for w, _, _ in allp)
+            wbar = sum(min(w, WEIGHT_CAP) for w, _, _ in allp) / len(allp)
+            med = lambda v: sorted(v)[len(v) // 2]
+            med_all = med([med([w for w, _, _ in v]) for v in elig.values()])
+            stats = []
+            for fc, v in elig.items():
+                sw = sum(min(w, WEIGHT_CAP) for w, _, _ in v)
+                sh = sum(min(w, WEIGHT_CAP) * h for w, h, _ in v)
+                rate = (sh + PRIOR_PLAYS * wbar * base) / (sw + PRIOR_PLAYS * wbar)
+                conc = min(med([w for w, _, _ in v]) / med_all, CONC_CAP)
+                stats.append((fc, rate, conc, sum(h for _, h, _ in v), len(v)))
+            q = pct_rank([r * c for _, r, c, _, _ in stats])
+            n = pct_rank([h for _, _, _, h, _ in stats])
+            scored = sorted(((t[0], (qq + nn) / 2, t[1], t[2], t[3], t[4]) for t, qq, nn in zip(stats, q, n)),
+                            key=lambda t: (-t[1], names.get(t[0], "")))[:TOP_N]
+            cache[d] = {fc: (i + 1, sc, hits, k, rate, conc) for i, (fc, sc, rate, conc, hits, k) in enumerate(scored)}
         return cache[d]
     return as_of, names
 
@@ -527,13 +539,15 @@ def run_all():
             # a call that is still open uses today's ranking; a past one the ranking known on its entry day
             tops = as_of(TODAY if plus(x["asof"], 365) > TODAY else x["asof"][:7] + "-01")
             hit = sorted((tops[fc] + (fc,) for fc, *_ in f["list"] if fc in tops), key=lambda t: t[0])
-            x["top"] = [(names.get(t[4], t[4]), t[0], t[2], t[3]) for t in hit]
+            x["top"] = [(names.get(t[-1], t[-1]), t[0], t[2], t[3]) for t in hit]
         score_kind(k, rows[k])
     now = as_of(TODAY)
     (ROOT / "reports" / "top_performers.md").write_text(
-        "# Top performer owners (as of today)\n\nConviction-weighted hit rate (portfolio weight capped at 20%; hit = up 30%+ a year "
-        "later), shrunk toward the average of all plays; 5+ different companies needed.\n\n| Rank | Fund | Score | Plays up 30%+ | Plays |\n|---|---|---|---|---|\n"
-        + "\n".join(f"| {r} | {names.get(fc, fc)} | {sc:.0%} | {h} | {n} |" for fc, (r, sc, h, n) in sorted(now.items(), key=lambda t: t[1][0])) + "\n")
+        "# Top performer owners (as of today)\n\nHalf quality (conviction-weighted hit rate x concentration), half number of "
+        "winners, each as a percentile rank among funds with plays in 5+ companies. Hit = up 30%+ a year later.\n\n"
+        "| Rank | Fund | Plays up 30%+ | Hit rate (weighted) | Concentration | Score |\n|---|---|---|---|---|---|\n"
+        + "\n".join(f"| {r} | {names.get(fc, fc)} | {h} of {n} | {rate:.0%} | {conc:.1f}x | {sc:.2f} |"
+                     for fc, (r, sc, h, n, rate, conc) in sorted(now.items(), key=lambda t: t[1][0])) + "\n")
 
 
 if __name__ == "__main__":

@@ -1,16 +1,16 @@
 # Top performer owners (as of today)
 
-Conviction-weighted hit rate (portfolio weight capped at 20%; hit = up 30%+ a year later), shrunk toward the average of all plays; 5+ different companies needed.
+Half quality (conviction-weighted hit rate x concentration), half number of winners, each as a percentile rank among funds with plays in 5+ companies. Hit = up 30%+ a year later.
 
-| Rank | Fund | Score | Plays up 30%+ | Plays |
-|---|---|---|---|---|
-| 1 | Foresite Capital Management VI LLC | 75% | 11 | 13 |
-| 2 | Siren, L.L.C. | 64% | 11 | 19 |
-| 3 | Nextech Invest, Ltd. | 64% | 5 | 6 |
-| 4 | CAXTON CORP | 62% | 11 | 22 |
-| 5 | Caligan Partners LP | 61% | 13 | 23 |
-| 6 | Merck & Co., Inc. | 60% | 3 | 7 |
-| 7 | Sofinnova Investments, Inc. | 59% | 19 | 38 |
-| 8 | Artia Global Partners LP | 59% | 12 | 18 |
-| 9 | Catalio Capital Management, LP | 58% | 9 | 13 |
-| 10 | Allostery Investments LP | 57% | 6 | 9 |
+| Rank | Fund | Plays up 30%+ | Hit rate (weighted) | Concentration | Score |
+|---|---|---|---|---|---|
+| 1 | Fairmount Funds Management LLC | 32 of 76 | 47% | 1.4x | 0.94 |
+| 2 | TCG Crossover Management, LLC | 36 of 73 | 49% | 1.1x | 0.91 |
+| 3 | Saturn V Capital Management LLC | 24 of 53 | 47% | 1.5x | 0.90 |
+| 4 | Velan Capital Investment Management LP | 17 of 35 | 51% | 1.4x | 0.85 |
+| 5 | Atlas Venture Life Science Advisors, LLC | 15 of 42 | 42% | 1.9x | 0.85 |
+| 6 | Kynam Capital Management, LP | 25 of 51 | 51% | 1.0x | 0.84 |
+| 7 | Caligan Partners LP | 13 of 23 | 61% | 1.6x | 0.83 |
+| 8 | Stonepine Capital Management, LLC | 26 of 63 | 43% | 1.1x | 0.83 |
+| 9 | Sofinnova Investments, Inc. | 19 of 38 | 59% | 1.0x | 0.83 |
+| 10 | Ally Bridge Group (NY) LLC | 35 of 106 | 40% | 1.0x | 0.82 |
