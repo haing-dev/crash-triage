@@ -42,8 +42,9 @@ import controls, holdings
 TODAY = date.today().isoformat()
 MIN_TRAIN, SHRINK = 250, 30
 GATE_MCAP, GATE_EV, DEEP = 5e7, 2.0, -0.15
-KEYS = {"crash": ["safety", "ev", "programs", "raise", "insider", "funds", "short"],
-        "slide": ["ev", "programs", "raise", "insider", "funds", "short"]}
+KEYS = {"crash": ["safety", "ev", "programs", "raise", "insider", "funds", "top", "short"],
+        "slide": ["ev", "programs", "raise", "insider", "funds", "top", "short"]}
+TOP_N = 10
 CONT = {"ev": "ev_x", "programs": "trials", "funds": "n_funds", "short": "short_pct"}
 WORD = {"crash": "crash", "slide": "slide start"}
 CAUSE = {"efficacy miss": "Failed trial", "regulatory rejection": "FDA rejection or delay", "regulatory delay": "FDA rejection or delay",
@@ -89,17 +90,28 @@ def quarter_before(d):
     return [e for e in ends if plus(e, 45) <= d][-1]
 
 
+def quarter_of(d):
+    """End of the calendar quarter containing day d."""
+    y, m = int(d[:4]), int(d[5:7])
+    q = (m - 1) // 3
+    return f"{y}-{3 * q + 3:02d}-{[31, 30, 30, 31][q]}"
+
+
 def funds(cik, asof):
+    """13F filers holding the company at 2%+ of their portfolio at the end of the last quarter reported before the
+    entry day, or at the end of the quarter the entry falls in (funds may buy just before or just after a fall)."""
     by_cik, through = fund_data()
-    q = quarter_before(asof)
-    if through is None or through < plus(q, 45):
-        return None, "13F holdings for the quarter not published yet"
+    qb, qa = quarter_before(asof), quarter_of(asof)
+    if through is None or through < plus(qb, 45):
+        return None
     best = {}
     for r in by_cik.get(cik, []):
-        if r["period"] == q and r["filed"] <= asof:
-            if r["filer_cik"] not in best or r["filed"] > best[r["filer_cik"]]["filed"]:
-                best[r["filer_cik"]] = r
-    return {"quarter": q, "list": sorted(((r["filer"], float(r["weight"])) for r in best.values()), key=lambda t: -t[1])}, None
+        if (r["period"] == qb and r["filed"] <= asof) or r["period"] == qa:
+            k = r["filer_cik"]
+            if k not in best or float(r["weight"]) > float(best[k]["weight"]):
+                best[k] = r
+    return {"before": qb, "after": qa, "after_pending": through < plus(qa, 45),
+            "list": sorted(((r["filer_cik"], r["filer"], float(r["weight"]), r["period"]) for r in best.values()), key=lambda t: -t[2])}
 
 
 @lru_cache(maxsize=None)
@@ -218,9 +230,7 @@ def pending(kind, r, event, x):
     rz = raises(r["cik"])
     if not rz or rz.get("checked", "") < r["asof"]:
         why.append("raise history not collected yet")
-    fd, w = funds(r["cik"], r["asof"])
-    if w:
-        why.append(w)
+    fd = funds(r["cik"], r["asof"])
     si, w2 = short_interest(r["cik"], r["asof"])
     if w2:
         why.append(w2)
@@ -260,6 +270,8 @@ def cat(model, x, k):
         return x["insider"]
     if k == "raise":
         return {"Friendly": "g", "Costly": "r", "Toxic": "r"}.get(x["raise"], "n")
+    if k == "top":
+        return "g" if x.get("top") else "n"
     m, v = model["cuts"].get(k), x[CONT[k]]
     if not m or v is None:
         return "n"
@@ -314,6 +326,8 @@ def text(k, x):
     if k == "funds":
         n = x["n_funds"]
         return "N/A" if n is None else "None" if n == 0 else f"{n} fund{'s' if n > 1 else ''}"
+    if k == "top":
+        return "N/A" if x.get("top") is None else "Yes" if x["top"] else "No"
     if k == "short":
         v = x["short_pct"]
         return "N/A" if v is None else f"{v:.1f}%" if v < 10 else f"{v:.0f}%"
@@ -335,6 +349,8 @@ def bucket(k, x):
     if k == "funds":
         n = x["n_funds"]
         return "N/A" if n is None else "None" if n == 0 else "1 fund" if n == 1 else "2+ funds"
+    if k == "top":
+        return "N/A" if x.get("top") is None else "Yes" if x["top"] else "No"
     if k == "short":
         v = x["short_pct"]
         return "N/A" if v is None else "Under 5%" if v < 5 else "5–15%" if v < 15 else "15%+"
@@ -355,9 +371,12 @@ def note(k, x):
         return f"Largest: {t['who']} {money(t['value'])} on {t['date']} (Form 4 filed {t['filed']}). Trades from 90 days before to 30 days after; the call uses those filed by entry."
     if k == "funds" and x.get("fund"):
         f = x["fund"]
+        tail = " (next quarter's 13F not filed yet)" if f["after_pending"] else ""
         if not f["list"]:
-            return f"No 13F filer held it at 2%+ of its portfolio at the end of {f['quarter']}"
-        return f"13F, quarter ended {f['quarter']}: " + "; ".join(f"{n} {w * 100:.1f}%" for n, w in f["list"][:6])
+            return f"No 13F filer held it at 2%+ of its portfolio at the end of {f['before']} or {f['after']}{tail}"
+        return "; ".join(f"{n} {w * 100:.1f}% ({q})" for _, n, w, q in f["list"][:8]) + tail
+    if k == "top" and x.get("top"):
+        return "; ".join(f"{n} (top {rank})" for n, rank in x["top"])
     if k == "short" and x.get("si") and x["si"].get("settlement"):
         return f"FINRA short interest at settlement {x['si']['settlement']} ÷ shares outstanding that day"
     if k == "programs" and r.get("trials"):
@@ -368,7 +387,7 @@ def note(k, x):
 
 # ---------------------------------------------------------------- run
 
-def run(kind, ctrl):
+def prepare(kind, ctrl):
     keys = KEYS[kind]
     rows = []
     for c in episodes(kind):
@@ -389,9 +408,41 @@ def run(kind, ctrl):
         if d365 <= TODAY:
             a, _ = total_return(r["cik"], r["asof"], d365)
             cs = [min(v, 5.0) for v in (total_return(k, r["asof"], d365)[0] for k in (ctrl.get(cid) or {}).get("ciks", [])) if v is not None]
+            if a is not None:
+                x["abs"], x["d365"] = a, d365
             if a is not None and cs:
-                x["y"], x["abs"], x["d365"] = a - sum(cs) / len(cs), a, d365
+                x["y"] = a - sum(cs) / len(cs)
         rows.append(x)
+    return rows
+
+
+def top_performers(all_rows):
+    """Rank 13F filers by how many backtest episodes (both triages) they held at 2%+ that were up 30%+ a year later.
+    as_of(d) uses only episodes whose year had ended by d, so a past call never sees later results."""
+    done = sorted((x for x in all_rows if "tbu" not in x and x.get("d365") and x.get("fund")), key=lambda x: x["d365"])
+    names = {}
+    for x in all_rows:
+        for fc, n, _, _ in ((x.get("fund") or {}).get("list") or []):
+            names[fc] = n
+    cache = {}
+
+    def as_of(d):
+        if d not in cache:
+            wins = {}
+            for x in done:
+                if x["d365"] > d:
+                    break
+                if x["abs"] >= 0.3:
+                    for fc in {t[0] for t in x["fund"]["list"]}:
+                        wins[fc] = wins.get(fc, 0) + 1
+            ranked = sorted(wins.items(), key=lambda t: (-t[1], names.get(t[0], "")))[:TOP_N]
+            cache[d] = {fc: (i + 1, w) for i, (fc, w) in enumerate(ranked)}
+        return cache[d]
+    return as_of, names
+
+
+def score_kind(kind, rows):
+    keys = KEYS[kind]
     known = sorted((x for x in rows if "tbu" not in x and x["y"] is not None and not x["pending"]), key=lambda x: x["d365"])
     out_dir = kdir(kind, "scores")
     for old in out_dir.glob("*.json"):
@@ -440,7 +491,27 @@ def run(kind, ctrl):
     print("\n".join(rep))
 
 
-if __name__ == "__main__":
+def run_all():
     c = controls.build()
-    for kind in KINDS:
-        run(kind, c)
+    rows = {k: prepare(k, c) for k in KINDS}
+    as_of, names = top_performers(rows["crash"] + rows["slide"])
+    for k in KINDS:
+        for x in rows[k]:
+            if "tbu" in x:
+                continue
+            f = x.get("fund")
+            if not f:
+                x["top"] = None
+                continue
+            # a call that is still open uses today's ranking; a past one the ranking known on its entry day
+            tops = as_of(TODAY if plus(x["asof"], 365) > TODAY else x["asof"][:7] + "-01")
+            hit = sorted({fc: tops[fc][0] for fc, *_ in f["list"] if fc in tops}.items(), key=lambda t: t[1])
+            x["top"] = [(names.get(fc, fc), rank) for fc, rank in hit]
+        score_kind(k, rows[k])
+    now = as_of(TODAY)
+    (ROOT / "reports" / "top_performers.md").write_text("# Top performer owners (as of today)\n\n| Rank | Fund | Winners held at 2%+ |\n|---|---|---|\n"
+        + "\n".join(f"| {r} | {names.get(fc, fc)} | {w} |" for fc, (r, w) in sorted(now.items(), key=lambda t: t[1][0])) + "\n")
+
+
+if __name__ == "__main__":
+    run_all()
