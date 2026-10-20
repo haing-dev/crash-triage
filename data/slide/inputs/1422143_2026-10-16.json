@@ -1,0 +1,176 @@
+{
+ "id": "1422143_2026-10-16",
+ "kind": "slide",
+ "cik": "1422143",
+ "name": "Kura Oncology, Inc.",
+ "date": "2026-10-16",
+ "asof": "2026-10-16",
+ "final": false,
+ "version": 6,
+ "price": {
+  "date": "2026-10-16",
+  "adj_close": 9.08
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 519025000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001193125-26-346884"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": 148403000.0,
+  "capex": 784000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-08-07",
+  "shares": 88960619
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 9790000.0,
+  "tags": "LongTermDebtNoncurrent+LongTermDebtCurrent"
+ },
+ "public_float": {
+  "usd": 496100000,
+  "as_of": "2025-06-30",
+  "filed": "2026-03-05"
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2026-07-18",
+  "to": "2026-10-20",
+  "trades": [
+   {
+    "date": "2026-09-28",
+    "filed": "2026-09-29",
+    "code": "S",
+    "value": 88618,
+    "who": "Bair Teresa Brophy"
+   },
+   {
+    "date": "2026-09-28",
+    "filed": "2026-09-29",
+    "code": "S",
+    "value": 72494,
+    "who": "FORD KATHLEEN"
+   },
+   {
+    "date": "2026-09-29",
+    "filed": "2026-09-29",
+    "code": "S",
+    "value": 39437,
+    "who": "FORD KATHLEEN"
+   },
+   {
+    "date": "2026-09-28",
+    "filed": "2026-09-29",
+    "code": "S",
+    "value": 130670,
+    "who": "Leoni Mollie"
+   },
+   {
+    "date": "2026-09-29",
+    "filed": "2026-09-29",
+    "code": "S",
+    "value": 309567,
+    "who": "Leoni Mollie"
+   },
+   {
+    "date": "2026-09-28",
+    "filed": "2026-09-29",
+    "code": "S",
+    "value": 48361,
+    "who": "DOYLE THOMAS JAMES"
+   },
+   {
+    "date": "2026-09-28",
+    "filed": "2026-09-29",
+    "code": "S",
+    "value": 94686,
+    "who": "Powl Brian T."
+   },
+   {
+    "date": "2026-09-28",
+    "filed": "2026-09-29",
+    "code": "S",
+    "value": 84498,
+    "who": "Powl Brian T."
+   },
+   {
+    "date": "2026-09-29",
+    "filed": "2026-09-29",
+    "code": "S",
+    "value": 165852,
+    "who": "Powl Brian T."
+   },
+   {
+    "date": "2026-09-24",
+    "filed": "2026-09-25",
+    "code": "S",
+    "value": 224514,
+    "who": "Burrows Francis"
+   },
+   {
+    "date": "2026-08-24",
+    "filed": "2026-08-24",
+    "code": "P",
+    "value": 1239000,
+    "who": "WILSON TROY EDWARD"
+   },
+   {
+    "date": "2026-08-21",
+    "filed": "2026-08-24",
+    "code": "S",
+    "value": 51663,
+    "who": "Powl Brian T."
+   },
+   {
+    "date": "2026-08-19",
+    "filed": "2026-08-21",
+    "code": "S",
+    "value": 397681,
+    "who": "Bair Teresa Brophy"
+   },
+   {
+    "date": "2026-08-17",
+    "filed": "2026-08-17",
+    "code": "P",
+    "value": 1112000,
+    "who": "WILSON TROY EDWARD"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "kura oncology",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT07007312",
+    "drugs": [
+     "Ziftomenib",
+     "Venetoclax",
+     "Azacitidine (AZA)"
+    ]
+   },
+   {
+    "nct": "NCT04067336",
+    "drugs": [
+     "Ziftomenib",
+     "Midazolam",
+     "Itraconazole"
+    ]
+   }
+  ]
+ }
+}

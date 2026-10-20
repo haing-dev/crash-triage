@@ -46,7 +46,7 @@
  "insiders": {
   "form4s": 6,
   "from": "2026-07-15",
-  "to": "2026-10-19",
+  "to": "2026-10-20",
   "trades": [
    {
     "date": "2026-09-10",
@@ -78,18 +78,18 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
+    "nct": "NCT07332000",
+    "drugs": [
+     "aglatimagene besadenovec + valacyclovir",
+     "External Beam Radiation Therapy (EBRT)"
+    ]
+   },
+   {
     "nct": "NCT07660094",
     "drugs": [
      "Aglatimagene Besadenovec",
      "Valacyclovir",
      "Pembrolizumab"
-    ]
-   },
-   {
-    "nct": "NCT07332000",
-    "drugs": [
-     "aglatimagene besadenovec + valacyclovir",
-     "External Beam Radiation Therapy (EBRT)"
     ]
    }
   ]

@@ -46,10 +46,17 @@
   "filed": "2026-02-13"
  },
  "insiders": {
-  "form4s": 3,
+  "form4s": 4,
   "from": "2026-07-03",
-  "to": "2026-10-19",
+  "to": "2026-10-20",
   "trades": [
+   {
+    "date": "2026-10-16",
+    "filed": "2026-10-19",
+    "code": "S",
+    "value": 1647,
+    "who": "Abate Kristin"
+   },
    {
     "date": "2026-10-01",
     "filed": "2026-10-02",
@@ -80,27 +87,11 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT05980806",
-    "drugs": [
-     "Selinexor 60 mg",
-     "Selinexor 40 mg",
-     "Ruxolitinib"
-    ]
-   },
-   {
-    "nct": "NCT04414475",
+    "nct": "NCT02343042",
     "drugs": [
      "Selinexor",
      "Dexamethasone",
-     "Bortezomib"
-    ]
-   },
-   {
-    "nct": "NCT02227251",
-    "drugs": [
-     "Selinexor",
-     "Selinexor",
-     "Selinexor"
+     "Lenalidomide"
     ]
    },
    {
@@ -112,11 +103,27 @@
     ]
    },
    {
-    "nct": "NCT02343042",
+    "nct": "NCT05980806",
+    "drugs": [
+     "Selinexor 60 mg",
+     "Selinexor 40 mg",
+     "Ruxolitinib"
+    ]
+   },
+   {
+    "nct": "NCT02227251",
+    "drugs": [
+     "Selinexor",
+     "Selinexor",
+     "Selinexor"
+    ]
+   },
+   {
+    "nct": "NCT04414475",
     "drugs": [
      "Selinexor",
      "Dexamethasone",
-     "Lenalidomide"
+     "Bortezomib"
     ]
    }
   ]

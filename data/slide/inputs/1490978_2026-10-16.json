@@ -1,0 +1,72 @@
+{
+ "id": "1490978_2026-10-16",
+ "kind": "slide",
+ "cik": "1490978",
+ "name": "Schrodinger, Inc.",
+ "date": "2026-10-16",
+ "asof": "2026-10-16",
+ "final": false,
+ "version": 6,
+ "price": {
+  "date": "2026-10-16",
+  "adj_close": 22.6
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 413739000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001490978-26-000068"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": 48904000.0,
+  "capex": 2869000.0,
+  "periods": 2
+ },
+ "shares": null,
+ "going_concern": {
+  "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 1124429157,
+  "as_of": "2025-06-30",
+  "filed": "2026-02-25"
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2026-07-18",
+  "to": "2026-10-20",
+  "trades": [
+   {
+    "date": "2026-09-17",
+    "filed": "2026-09-21",
+    "code": "S",
+    "value": 280000,
+    "who": "Akinsanya Karen"
+   },
+   {
+    "date": "2026-09-17",
+    "filed": "2026-09-21",
+    "code": "S",
+    "value": 647970,
+    "who": "Akinsanya Karen"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "schrodinger",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

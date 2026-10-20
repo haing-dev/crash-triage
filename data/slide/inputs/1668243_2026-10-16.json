@@ -1,0 +1,96 @@
+{
+ "id": "1668243_2026-10-16",
+ "kind": "slide",
+ "cik": "1668243",
+ "name": "UroGen Pharma Ltd.",
+ "date": "2026-10-16",
+ "asof": "2026-10-16",
+ "final": false,
+ "version": 6,
+ "price": {
+  "date": "2026-10-16",
+  "adj_close": 34.56
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 109295000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001437749-26-025794"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": 78322000.0,
+  "capex": 114000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-07-28",
+  "shares": 48880564
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 200000000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 620400000,
+  "as_of": "2025-06-30",
+  "filed": "2026-03-02"
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2026-07-18",
+  "to": "2026-10-20",
+  "trades": [
+   {
+    "date": "2026-10-08",
+    "filed": "2026-10-09",
+    "code": "S",
+    "value": 80791,
+    "who": "Degnan Chris"
+   },
+   {
+    "date": "2026-09-08",
+    "filed": "2026-09-09",
+    "code": "S",
+    "value": 37383,
+    "who": "Schoenberg Mark"
+   },
+   {
+    "date": "2026-09-08",
+    "filed": "2026-09-09",
+    "code": "S",
+    "value": 64618,
+    "who": "Smith Jason Drew"
+   },
+   {
+    "date": "2026-08-20",
+    "filed": "2026-08-24",
+    "code": "S",
+    "value": 2854853,
+    "who": "Schoenberg Mark"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "urogen pharma",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06774131",
+    "drugs": [
+     "UGN-104"
+    ]
+   }
+  ]
+ }
+}
