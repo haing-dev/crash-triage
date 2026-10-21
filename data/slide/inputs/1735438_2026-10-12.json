@@ -44,10 +44,17 @@
   "filed": "2026-03-30"
  },
  "insiders": {
-  "form4s": 4,
+  "form4s": 5,
   "from": "2026-07-14",
-  "to": "2026-10-20",
+  "to": "2026-10-21",
   "trades": [
+   {
+    "date": "2026-10-20",
+    "filed": "2026-10-20",
+    "code": "S",
+    "value": 557200,
+    "who": "Giroux Richard"
+   },
    {
     "date": "2026-10-06",
     "filed": "2026-10-06",
@@ -78,16 +85,17 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT06544798",
-    "drugs": [
-     "AAV2-hAQP1"
-    ]
-   },
-   {
     "nct": "NCT06646289",
     "drugs": [
      "AAV5-hRKp.RPGR",
      "No intervention (Follow-Up assessment)"
+    ]
+   },
+   {
+    "nct": "NCT05926583",
+    "drugs": [
+     "AAV5-hRKp.RPGR",
+     "AAV5-hRKp.RPGR"
     ]
    },
    {
@@ -105,10 +113,10 @@
     ]
    },
    {
-    "nct": "NCT05926583",
+    "nct": "NCT04794101",
     "drugs": [
-     "AAV5-hRKp.RPGR",
-     "AAV5-hRKp.RPGR"
+     "Genetic: AAV5-hRKp.RPGR Intermediate Dose",
+     "Genetic: AAV5-hRKp.RPGR Low Dose"
     ]
    }
   ]

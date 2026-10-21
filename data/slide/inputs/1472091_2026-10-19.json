@@ -1,0 +1,59 @@
+{
+ "id": "1472091_2026-10-19",
+ "kind": "slide",
+ "cik": "1472091",
+ "name": "PDS Biotechnology Corp",
+ "date": "2026-10-19",
+ "asof": "2026-10-19",
+ "final": false,
+ "version": 6,
+ "price": {
+  "date": "2026-10-19",
+  "adj_close": 0.9165
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 5596254,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001140361-26-032824"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": 7164155.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-08-06",
+  "shares": 55971338
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 60145221,
+  "as_of": "2025-06-30",
+  "filed": "2026-04-28"
+ },
+ "insiders": {
+  "form4s": 2,
+  "from": "2026-07-21",
+  "to": "2026-10-21",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "pds biotechnology",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

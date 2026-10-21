@@ -43,7 +43,7 @@
  "insiders": {
   "form4s": 3,
   "from": "2026-07-07",
-  "to": "2026-10-20",
+  "to": "2026-10-21",
   "trades": []
  },
  "drug": null,
@@ -52,12 +52,6 @@
   "other_trials": 3,
   "crashed_drug_trials": 0,
   "examples": [
-   {
-    "nct": "NCT07369154",
-    "drugs": [
-     "LB-102"
-    ]
-   },
    {
     "nct": "NCT07494305",
     "drugs": [
@@ -69,6 +63,12 @@
     "drugs": [
      "LB-102 (50 mg tablet)",
      "LB-102 (100 mg tablet)"
+    ]
+   },
+   {
+    "nct": "NCT07369154",
+    "drugs": [
+     "LB-102"
     ]
    }
   ]

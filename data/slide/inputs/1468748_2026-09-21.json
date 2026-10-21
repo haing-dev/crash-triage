@@ -5,7 +5,7 @@
  "name": "Kodiak Sciences Inc.",
  "date": "2026-09-21",
  "asof": "2026-09-21",
- "final": false,
+ "final": true,
  "version": 6,
  "price": {
   "date": "2026-09-21",
@@ -47,7 +47,7 @@
  "insiders": {
   "form4s": 12,
   "from": "2026-06-23",
-  "to": "2026-10-20",
+  "to": "2026-10-21",
   "trades": [
    {
     "date": "2026-09-28",
@@ -639,17 +639,17 @@
     ]
    },
    {
-    "nct": "NCT06990399",
-    "drugs": [
-     "KSI-101",
-     "Sham Comparator"
-    ]
-   },
-   {
     "nct": "NCT07734844",
     "drugs": [
      "Tabirafusp tedromer",
      "Aflibercept (2.0 mg)"
+    ]
+   },
+   {
+    "nct": "NCT06990399",
+    "drugs": [
+     "KSI-101",
+     "Sham Comparator"
     ]
    }
   ]
