@@ -1,0 +1,59 @@
+{
+ "id": "1598646_2024-02-27",
+ "kind": "crash",
+ "cik": "1598646",
+ "name": "Minerva Neurosciences, Inc.",
+ "date": "2024-02-27",
+ "detected": "2024-02-27",
+ "asof": "2024-05-28",
+ "version": 7,
+ "price": {
+  "date": "2024-05-28",
+  "adj_close": 2.44
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 34818304,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-24-050883"
+ },
+ "burn6": {
+  "end": "2024-03-31",
+  "start": "2023-10-01",
+  "cash_used_ops": 12085656.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-04-26",
+  "shares": 6993406
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 36900000,
+  "as_of": "2023-06-30",
+  "filed": "2024-04-22"
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2023-11-29",
+  "to": "2024-05-28",
+  "trades": []
+ },
+ "drug": "roluperidone",
+ "trials": {
+  "query": "minerva neurosciences",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

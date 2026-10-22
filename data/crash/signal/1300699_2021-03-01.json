@@ -1,0 +1,130 @@
+{
+ "id": "1300699_2021-03-01",
+ "kind": "crash",
+ "cik": "1300699",
+ "name": "Athenex, Inc.",
+ "date": "2021-03-01",
+ "detected": "2021-03-01",
+ "asof": "2021-05-31",
+ "version": 7,
+ "price": {
+  "date": "2021-05-28",
+  "adj_close": 93.8
+ },
+ "balance": {
+  "end": "2021-03-31",
+  "cash": 171166000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001564590-21-024603"
+ },
+ "burn6": {
+  "end": "2021-03-31",
+  "start": "2020-10-01",
+  "cash_used_ops": 64031000.0,
+  "capex": 13887000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-04-30",
+  "shares": 93512700
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 729000.0,
+  "tags": "LongTermDebtCurrent"
+ },
+ "public_float": {
+  "usd": 702000000,
+  "as_of": "2020-06-30",
+  "filed": "2021-03-01"
+ },
+ "insiders": {
+  "form4s": 15,
+  "from": "2020-12-01",
+  "to": "2021-05-31",
+  "trades": [
+   {
+    "date": "2021-05-07",
+    "filed": "2021-05-10",
+    "code": "P",
+    "value": 1125,
+    "who": "VIERLING JOHN"
+   },
+   {
+    "date": "2021-05-06",
+    "filed": "2021-05-10",
+    "code": "P",
+    "value": 6863,
+    "who": "VIERLING JOHN"
+   },
+   {
+    "date": "2021-05-06",
+    "filed": "2021-05-07",
+    "code": "P",
+    "value": 7052,
+    "who": "CAMPBELL KIM"
+   },
+   {
+    "date": "2021-05-06",
+    "filed": "2021-05-06",
+    "code": "P",
+    "value": 19950,
+    "who": "LAU JOHNSON YIU NAM"
+   },
+   {
+    "date": "2021-04-05",
+    "filed": "2021-04-07",
+    "code": "P",
+    "value": 36465,
+    "who": "CAMPBELL KIM"
+   },
+   {
+    "date": "2021-03-04",
+    "filed": "2021-03-08",
+    "code": "S",
+    "value": 1898088,
+    "who": "Zuo William Wei"
+   },
+   {
+    "date": "2021-03-03",
+    "filed": "2021-03-04",
+    "code": "S",
+    "value": 465500,
+    "who": "WU JINN"
+   },
+   {
+    "date": "2020-12-01",
+    "filed": "2020-12-01",
+    "code": "P",
+    "value": 13310,
+    "who": "LAU JOHNSON YIU NAM"
+   }
+  ]
+ },
+ "drug": "oral paclitaxel plus encequidar",
+ "trials": {
+  "query": "athenex",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04180384",
+    "drugs": [
+     "Oraxol"
+    ]
+   },
+   {
+    "nct": "NCT03544567",
+    "drugs": [
+     "Oraxol"
+    ]
+   }
+  ]
+ }
+}

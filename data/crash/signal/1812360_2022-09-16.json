@@ -1,0 +1,62 @@
+{
+ "id": "1812360_2022-09-16",
+ "kind": "crash",
+ "cik": "1812360",
+ "name": "FOXO TECHNOLOGIES INC.",
+ "date": "2022-09-16",
+ "detected": "2022-09-16",
+ "asof": "2022-12-16",
+ "version": 7,
+ "price": {
+  "date": "2022-12-16",
+  "adj_close": 8.11155
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 10454000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001213900-22-074296"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 18587100.0,
+  "capex": 72518.82352941176,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-11-18",
+  "shares": 31187069
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "As such, until additional equity or debt capital is secured and the Company begins generating sufficient revenue, there is substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "equity_line": "Simultaneously with the execution of the Merger Agreement, Delwinds entered into a Common Stock Purchase Agreement (the \u201cELOC Agreement\u201d) with CF Principal Investments LLC (the \u201cCantor Investor\u201d), pursuant to which, assuming satisfaction of certain conditions and subject to limitations set forth in the ELOC Agreement, the Company would have the right, from time to time to sell the Cantor Investor "
+ },
+ "debt": {
+  "usd": 88383000.0,
+  "tags": "ConvertibleNotesPayable"
+ },
+ "public_float": {
+  "usd": 197023750,
+  "as_of": "2021-06-30",
+  "filed": "2022-03-07"
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2022-06-18",
+  "to": "2022-12-16",
+  "trades": []
+ },
+ "drug": "n/a",
+ "trials": {
+  "query": "foxo technologies",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

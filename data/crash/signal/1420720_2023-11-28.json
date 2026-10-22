@@ -1,0 +1,91 @@
+{
+ "id": "1420720_2023-11-28",
+ "kind": "crash",
+ "cik": "1420720",
+ "name": "iBio, Inc.",
+ "date": "2023-11-28",
+ "detected": "2023-12-04",
+ "asof": "2024-03-04",
+ "version": 7,
+ "price": {
+  "date": "2024-03-04",
+  "adj_close": 1.25
+ },
+ "balance": {
+  "end": "2023-12-31",
+  "cash": 2788000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-24-000934"
+ },
+ "burn6": {
+  "end": "2023-12-31",
+  "start": "2023-07-01",
+  "cash_used_ops": 10046000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-02-08",
+  "shares": 3484266
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Going Concern The history of significant losses, the negative cash flow from operations, the limited cash resources on hand and the dependence by the Company on obtaining additional financing to fund its operations after the current cash resources are exhausted raise substantial doubt about the Comp"
+ },
+ "financing_terms": {
+  "equity_line": "The Equity Purchase Agreement The Company also entered into an Equity Purchase Agreement with Bryan Capital on November 1, 2021 (the \u201cEquity Purchase Agreement\u201d) pursuant to which the Company acquired for $50,000 cash, plus the Warrant, the one (1) share of iBio CMO Preferred Tracking Stock and the 0.01% interest in iBio CDMO owned by Bryan Capital."
+ },
+ "debt": {
+  "usd": 12655000.0,
+  "tags": "NotesPayableCurrent"
+ },
+ "public_float": {
+  "usd": 5435812,
+  "as_of": "2022-12-31",
+  "filed": "2023-09-27"
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2023-08-30",
+  "to": "2024-03-04",
+  "trades": [
+   {
+    "date": "2023-11-01",
+    "filed": "2023-11-03",
+    "code": "S",
+    "value": 1296,
+    "who": "Brenner Martin"
+   },
+   {
+    "date": "2023-10-03",
+    "filed": "2023-10-05",
+    "code": "S",
+    "value": 1592,
+    "who": "Brenner Martin"
+   },
+   {
+    "date": "2023-10-02",
+    "filed": "2023-10-03",
+    "code": "S",
+    "value": 1311,
+    "who": "Brenner Martin"
+   },
+   {
+    "date": "2023-08-28",
+    "filed": "2023-08-30",
+    "code": "S",
+    "value": 1529,
+    "who": "Brenner Martin"
+   }
+  ]
+ },
+ "drug": "n/a",
+ "trials": {
+  "query": "ibio",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

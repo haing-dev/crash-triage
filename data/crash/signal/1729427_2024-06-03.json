@@ -1,0 +1,60 @@
+{
+ "id": "1729427_2024-06-03",
+ "kind": "crash",
+ "cik": "1729427",
+ "name": "CNS Pharmaceuticals, Inc.",
+ "date": "2024-06-03",
+ "detected": "2024-06-05",
+ "asof": "2024-09-04",
+ "version": 7,
+ "price": {
+  "date": "2024-09-04",
+  "adj_close": 89.4
+ },
+ "balance": {
+  "end": "2024-06-30",
+  "cash": 1491559,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001683168-24-005711"
+ },
+ "burn6": {
+  "end": "2024-06-30",
+  "start": "2024-01-01",
+  "cash_used_ops": 4842450.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-08-14",
+  "shares": 32146403
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These factors raise substantial doubt regarding the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 123248.0,
+  "tags": "NotesPayableCurrent"
+ },
+ "public_float": {
+  "usd": 8780000,
+  "as_of": "2023-06-30",
+  "filed": "2024-04-01"
+ },
+ "insiders": {
+  "form4s": 9,
+  "from": "2024-03-05",
+  "to": "2024-09-04",
+  "trades": []
+ },
+ "drug": "Berubicin",
+ "trials": {
+  "query": "cns pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 1,
+  "examples": []
+ }
+}

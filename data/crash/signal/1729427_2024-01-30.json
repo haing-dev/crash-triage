@@ -1,0 +1,89 @@
+{
+ "id": "1729427_2024-01-30",
+ "kind": "crash",
+ "cik": "1729427",
+ "name": "CNS Pharmaceuticals, Inc.",
+ "date": "2024-01-30",
+ "detected": "2024-01-30",
+ "asof": "2024-04-30",
+ "version": 7,
+ "price": {
+  "date": "2024-04-30",
+  "adj_close": 6330.0
+ },
+ "balance": {
+  "end": "2023-12-31",
+  "cash": 548721,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001683168-24-002032"
+ },
+ "burn6": {
+  "end": "2023-12-31",
+  "start": "2023-07-01",
+  "cash_used_ops": 5912672.0,
+  "capex": 3901.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-04-01",
+  "shares": 10634932
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "The report of our independent registered public accounting firm expresses substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 300806.0,
+  "tags": "NotesPayableCurrent"
+ },
+ "public_float": {
+  "usd": 8780000,
+  "as_of": "2023-06-30",
+  "filed": "2024-04-01"
+ },
+ "insiders": {
+  "form4s": 13,
+  "from": "2023-11-01",
+  "to": "2024-04-30",
+  "trades": [
+   {
+    "date": "2024-02-01",
+    "filed": "2024-02-06",
+    "code": "P",
+    "value": 10000,
+    "who": "Gumulka Jerzy"
+   },
+   {
+    "date": "2024-02-01",
+    "filed": "2024-02-06",
+    "code": "P",
+    "value": 10000,
+    "who": "Evans Carl Anthony"
+   },
+   {
+    "date": "2024-02-01",
+    "filed": "2024-02-06",
+    "code": "P",
+    "value": 20000,
+    "who": "Downs Christopher"
+   },
+   {
+    "date": "2024-02-01",
+    "filed": "2024-02-06",
+    "code": "P",
+    "value": 50000,
+    "who": "Climaco John M"
+   }
+  ]
+ },
+ "drug": "Berubicin",
+ "trials": {
+  "query": "cns pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 1,
+  "examples": []
+ }
+}

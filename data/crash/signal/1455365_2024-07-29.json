@@ -1,0 +1,62 @@
+{
+ "id": "1455365_2024-07-29",
+ "kind": "crash",
+ "cik": "1455365",
+ "name": "COGNITION THERAPEUTICS INC",
+ "date": "2024-07-29",
+ "detected": "2024-07-30",
+ "asof": "2024-10-29",
+ "version": 7,
+ "price": {
+  "date": "2024-10-29",
+  "adj_close": 0.56999999
+ },
+ "balance": {
+  "end": "2024-06-30",
+  "cash": 28533000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-24-011464"
+ },
+ "burn6": {
+  "end": "2024-06-30",
+  "start": "2024-01-01",
+  "cash_used_ops": 13241000.0,
+  "capex": 3000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-08-05",
+  "shares": 40132961
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "There is substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "equity_line": "AND SUBSIDIARY CONSOLIDATED STATEMENTS OF STOCKHOLDERS\u2019 EQUITY (continued) (unaudited) (in thousands, except share amounts) \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b Accumulated \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b Additional \u200b \u200b \u200b \u200b Other \u200b Total \u200b \u200b Common Stock \u200b Paid-in \u200b Accumulated \u200b Comprehensive \u200b Stockholders\u2019 \u200b Shares Amount Capital Deficit (Loss) Gain Equity Balances as of Decemb"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 43124364,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-26"
+ },
+ "insiders": {
+  "form4s": 7,
+  "from": "2024-04-30",
+  "to": "2024-10-29",
+  "trades": []
+ },
+ "drug": "CT1812",
+ "trials": {
+  "query": "cognition therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 3,
+  "examples": []
+ }
+}

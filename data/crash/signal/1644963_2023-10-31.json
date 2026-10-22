@@ -1,0 +1,117 @@
+{
+ "id": "1644963_2023-10-31",
+ "kind": "crash",
+ "cik": "1644963",
+ "name": "AVENUE THERAPEUTICS, INC.",
+ "date": "2023-10-31",
+ "detected": "2023-10-31",
+ "asof": "2024-01-30",
+ "version": 7,
+ "price": {
+  "date": "2024-01-30",
+  "adj_close": 11.25
+ },
+ "balance": {
+  "end": "2023-09-30",
+  "cash": 161000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001437749-23-031621"
+ },
+ "burn6": {
+  "end": "2023-09-30",
+  "start": "2023-04-01",
+  "cash_used_ops": 5554000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-11-08",
+  "shares": 13247622
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "However, as described below, substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 2946058,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-31"
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2023-08-02",
+  "to": "2024-01-30",
+  "trades": [
+   {
+    "date": "2023-12-11",
+    "filed": "2023-12-13",
+    "code": "S",
+    "value": 36960,
+    "who": "Davidow Robert L"
+   },
+   {
+    "date": "2023-12-11",
+    "filed": "2023-12-13",
+    "code": "S",
+    "value": 2700,
+    "who": "Davidow Robert L"
+   },
+   {
+    "date": "2023-12-11",
+    "filed": "2023-12-13",
+    "code": "S",
+    "value": 8540,
+    "who": "Davidow Robert L"
+   },
+   {
+    "date": "2023-12-11",
+    "filed": "2023-12-13",
+    "code": "S",
+    "value": 17640,
+    "who": "Davidow Robert L"
+   },
+   {
+    "date": "2023-12-11",
+    "filed": "2023-12-13",
+    "code": "S",
+    "value": 17920,
+    "who": "Davidow Robert L"
+   },
+   {
+    "date": "2023-12-11",
+    "filed": "2023-12-13",
+    "code": "S",
+    "value": 2800,
+    "who": "Davidow Robert L"
+   },
+   {
+    "date": "2023-09-08",
+    "filed": "2023-09-12",
+    "code": "P",
+    "value": 251046,
+    "who": "ROSENWALD LINDSAY A MD"
+   },
+   {
+    "date": "2023-09-08",
+    "filed": "2023-09-12",
+    "code": "P",
+    "value": 301255,
+    "who": "Fortress Biotech, Inc."
+   }
+  ]
+ },
+ "drug": "IV tramadol",
+ "trials": {
+  "query": "avenue therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

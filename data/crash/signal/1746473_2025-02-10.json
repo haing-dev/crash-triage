@@ -1,0 +1,110 @@
+{
+ "id": "1746473_2025-02-10",
+ "kind": "crash",
+ "cik": "1746473",
+ "name": "PLIANT THERAPEUTICS, INC.",
+ "date": "2025-02-10",
+ "detected": "2025-02-10",
+ "asof": "2025-05-12",
+ "version": 7,
+ "price": {
+  "date": "2025-05-12",
+  "adj_close": 1.47
+ },
+ "balance": {
+  "end": "2025-03-31",
+  "cash": 305645000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001746473-25-000099"
+ },
+ "burn6": {
+  "end": "2025-03-31",
+  "start": "2024-10-01",
+  "cash_used_ops": 96526000.0,
+  "capex": 471000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-05-01",
+  "shares": 61386278
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 30284000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 607605287,
+  "as_of": "2024-06-30",
+  "filed": "2025-03-03"
+ },
+ "insiders": {
+  "form4s": 12,
+  "from": "2024-11-12",
+  "to": "2025-05-12",
+  "trades": [
+   {
+    "date": "2025-01-17",
+    "filed": "2025-01-22",
+    "code": "S",
+    "value": 587150,
+    "who": "Coulie Bernard"
+   },
+   {
+    "date": "2025-01-17",
+    "filed": "2025-01-22",
+    "code": "S",
+    "value": 225680,
+    "who": "Cummings Keith Lamont"
+   },
+   {
+    "date": "2025-01-17",
+    "filed": "2025-01-22",
+    "code": "S",
+    "value": 178501,
+    "who": "Hull Hans"
+   },
+   {
+    "date": "2025-01-17",
+    "filed": "2025-01-22",
+    "code": "S",
+    "value": 206974,
+    "who": "Lefebvre Eric"
+   },
+   {
+    "date": "2025-01-17",
+    "filed": "2025-01-22",
+    "code": "S",
+    "value": 41892,
+    "who": "Cheung Lily"
+   },
+   {
+    "date": "2025-01-17",
+    "filed": "2025-01-22",
+    "code": "S",
+    "value": 148639,
+    "who": "Ouimette Mike"
+   },
+   {
+    "date": "2025-01-22",
+    "filed": "2025-01-22",
+    "code": "S",
+    "value": 112462,
+    "who": "Ouimette Mike"
+   }
+  ]
+ },
+ "drug": "bexotegrast",
+ "trials": {
+  "query": "pliant therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

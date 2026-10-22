@@ -1,0 +1,125 @@
+{
+ "id": "1553643_2024-12-04",
+ "kind": "crash",
+ "cik": "1553643",
+ "name": "RELMADA THERAPEUTICS, INC.",
+ "date": "2024-12-04",
+ "detected": "2024-12-04",
+ "asof": "2025-03-05",
+ "version": 7,
+ "price": {
+  "date": "2025-03-05",
+  "adj_close": 0.259
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 54117727,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001213900-24-095398"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": 29919416.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-11-04",
+  "shares": 30174202
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These conditions and events raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 72952616,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-19"
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2024-09-05",
+  "to": "2025-03-05",
+  "trades": [
+   {
+    "date": "2024-09-09",
+    "filed": "2024-09-11",
+    "code": "P",
+    "value": 150619,
+    "who": "TRAVERSA SERGIO"
+   },
+   {
+    "date": "2024-09-10",
+    "filed": "2024-09-11",
+    "code": "P",
+    "value": 90788,
+    "who": "TRAVERSA SERGIO"
+   },
+   {
+    "date": "2024-09-11",
+    "filed": "2024-09-11",
+    "code": "P",
+    "value": 153707,
+    "who": "TRAVERSA SERGIO"
+   },
+   {
+    "date": "2024-09-09",
+    "filed": "2024-09-11",
+    "code": "P",
+    "value": 33280,
+    "who": "CASAMENTO CHARLES J"
+   },
+   {
+    "date": "2024-09-09",
+    "filed": "2024-09-11",
+    "code": "P",
+    "value": 20895,
+    "who": "Shenouda Maged"
+   },
+   {
+    "date": "2024-09-10",
+    "filed": "2024-09-11",
+    "code": "P",
+    "value": 57652,
+    "who": "Shenouda Maged"
+   },
+   {
+    "date": "2024-09-11",
+    "filed": "2024-09-11",
+    "code": "P",
+    "value": 71154,
+    "who": "Shenouda Maged"
+   },
+   {
+    "date": "2024-09-09",
+    "filed": "2024-09-11",
+    "code": "P",
+    "value": 64750,
+    "who": "Kelly Paul Edward"
+   }
+  ]
+ },
+ "drug": "REL-1017",
+ "trials": {
+  "query": "relmada therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06663137",
+    "drugs": [
+     "NDV01 intravesical controlled release formulation of gemcitabine and docetaxel"
+    ]
+   }
+  ]
+ }
+}

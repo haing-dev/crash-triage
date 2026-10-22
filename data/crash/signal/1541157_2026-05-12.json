@@ -1,0 +1,62 @@
+{
+ "id": "1541157_2026-05-12",
+ "kind": "crash",
+ "cik": "1541157",
+ "name": "Akari Therapeutics Plc",
+ "date": "2026-05-12",
+ "detected": "2026-05-12",
+ "asof": "2026-08-11",
+ "version": 7,
+ "price": {
+  "date": "2026-08-11",
+  "adj_close": 7.73
+ },
+ "balance": {
+  "end": "2026-03-31",
+  "cash": 2768000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001493152-26-024446"
+ },
+ "burn6": {
+  "end": "2026-03-31",
+  "start": "2025-10-01",
+  "cash_used_ops": 5529000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-05-19",
+  "shares": 91567009533
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These factors raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "equity_line": "The ELOC Purchase Agreement was accounted for as a standby equity purchase agreement under ASC 815 as it includes an embedded put option and an embedded forward option."
+ },
+ "debt": {
+  "usd": 49000.0,
+  "tags": "NotesPayableCurrent"
+ },
+ "public_float": {
+  "usd": 15000000,
+  "as_of": "2025-06-30",
+  "filed": "2026-03-30"
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2026-02-11",
+  "to": "2026-08-11",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "akari therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

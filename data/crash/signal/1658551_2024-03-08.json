@@ -1,0 +1,152 @@
+{
+ "id": "1658551_2024-03-08",
+ "kind": "crash",
+ "cik": "1658551",
+ "name": "Amylyx Pharmaceuticals, Inc.",
+ "date": "2024-03-08",
+ "detected": "2024-03-08",
+ "asof": "2024-06-07",
+ "version": 7,
+ "price": {
+  "date": "2024-06-07",
+  "adj_close": 1.77
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 373293000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-24-056269"
+ },
+ "burn6": {
+  "end": "2024-03-31",
+  "start": "2023-10-01",
+  "cash_used_ops": -13062000.0,
+  "capex": 423000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-04-30",
+  "shares": 68005749
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 1310000000,
+  "as_of": "2023-06-30",
+  "filed": "2024-02-22"
+ },
+ "insiders": {
+  "form4s": 30,
+  "from": "2023-12-09",
+  "to": "2024-06-07",
+  "trades": [
+   {
+    "date": "2024-05-14",
+    "filed": "2024-05-16",
+    "code": "P",
+    "value": 5184,
+    "who": "Quimi Daphne"
+   },
+   {
+    "date": "2024-05-15",
+    "filed": "2024-05-16",
+    "code": "P",
+    "value": 4252,
+    "who": "Quimi Daphne"
+   },
+   {
+    "date": "2024-05-15",
+    "filed": "2024-05-16",
+    "code": "S",
+    "value": 19654,
+    "who": "Mazzariello Gina"
+   },
+   {
+    "date": "2024-03-05",
+    "filed": "2024-03-07",
+    "code": "S",
+    "value": 77440,
+    "who": "Cohen Joshua B"
+   },
+   {
+    "date": "2024-03-05",
+    "filed": "2024-03-07",
+    "code": "S",
+    "value": 77440,
+    "who": "Klee Justin B."
+   },
+   {
+    "date": "2024-03-05",
+    "filed": "2024-03-07",
+    "code": "S",
+    "value": 33560,
+    "who": "FRATES JAMES M"
+   },
+   {
+    "date": "2024-03-05",
+    "filed": "2024-03-07",
+    "code": "S",
+    "value": 28841,
+    "who": "Mazzariello Gina"
+   },
+   {
+    "date": "2024-02-23",
+    "filed": "2024-02-27",
+    "code": "S",
+    "value": 53231,
+    "who": "Mazzariello Gina"
+   },
+   {
+    "date": "2024-01-09",
+    "filed": "2024-01-11",
+    "code": "S",
+    "value": 95372,
+    "who": "Klee Justin B."
+   },
+   {
+    "date": "2024-01-09",
+    "filed": "2024-01-11",
+    "code": "S",
+    "value": 44347,
+    "who": "FRATES JAMES M"
+   },
+   {
+    "date": "2024-01-09",
+    "filed": "2024-01-11",
+    "code": "S",
+    "value": 95372,
+    "who": "Cohen Joshua B"
+   },
+   {
+    "date": "2024-01-09",
+    "filed": "2024-01-11",
+    "code": "S",
+    "value": 45915,
+    "who": "Yeramian Patrick D"
+   },
+   {
+    "date": "2023-12-15",
+    "filed": "2023-12-19",
+    "code": "P",
+    "value": 59880,
+    "who": "Firestone Karen"
+   }
+  ]
+ },
+ "drug": "AMX0035 (RELYVRIO/ALBRIOZA)",
+ "trials": {
+  "query": "amylyx pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 3,
+  "examples": []
+ }
+}

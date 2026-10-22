@@ -1,0 +1,135 @@
+{
+ "id": "1737953_2025-07-22",
+ "kind": "crash",
+ "cik": "1737953",
+ "name": "Replimune Group, Inc.",
+ "date": "2025-07-22",
+ "detected": "2025-07-22",
+ "asof": "2025-10-21",
+ "version": 7,
+ "price": {
+  "date": "2025-10-21",
+  "adj_close": 8.1
+ },
+ "balance": {
+  "end": "2025-06-30",
+  "cash": 403340000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001737953-25-000013"
+ },
+ "burn6": {
+  "end": "2025-06-30",
+  "start": "2025-01-01",
+  "cash_used_ops": 130747000.0,
+  "capex": 5560373.333333333,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-08-04",
+  "shares": 78055846
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 46792000.0,
+  "tags": "LongTermDebtNoncurrent"
+ },
+ "public_float": {
+  "usd": 523200000,
+  "as_of": "2024-09-30",
+  "filed": "2025-05-22"
+ },
+ "insiders": {
+  "form4s": 7,
+  "from": "2025-04-23",
+  "to": "2025-10-21",
+  "trades": [
+   {
+    "date": "2025-08-15",
+    "filed": "2025-08-19",
+    "code": "S",
+    "value": 49157,
+    "who": "Hill Emily Luisa"
+   },
+   {
+    "date": "2025-05-20",
+    "filed": "2025-05-22",
+    "code": "S",
+    "value": 260169,
+    "who": "Astley-Sparke Philip"
+   },
+   {
+    "date": "2025-05-20",
+    "filed": "2025-05-22",
+    "code": "S",
+    "value": 64093,
+    "who": "Xynos Konstantinos"
+   },
+   {
+    "date": "2025-05-20",
+    "filed": "2025-05-22",
+    "code": "S",
+    "value": 26460,
+    "who": "Schwendenman Andrew"
+   },
+   {
+    "date": "2025-05-20",
+    "filed": "2025-05-22",
+    "code": "S",
+    "value": 202346,
+    "who": "Patel Sushil"
+   },
+   {
+    "date": "2025-05-20",
+    "filed": "2025-05-22",
+    "code": "S",
+    "value": 20407,
+    "who": "Hill Emily Luisa"
+   },
+   {
+    "date": "2025-05-20",
+    "filed": "2025-05-22",
+    "code": "S",
+    "value": 30179,
+    "who": "Sarchi Christopher"
+   }
+  ]
+ },
+ "drug": "RP1 (vusolimogene oderparepvec)",
+ "trials": {
+  "query": "replimune",
+  "other_trials": 3,
+  "crashed_drug_trials": 3,
+  "examples": [
+   {
+    "nct": "NCT06581406",
+    "drugs": [
+     "RP2",
+     "Ipilimumab",
+     "Nivolumab"
+    ]
+   },
+   {
+    "nct": "NCT05743270",
+    "drugs": [
+     "RP3",
+     "CCRT(concurrent chemoradiation therapy)",
+     "carboplatin and paclitaxel"
+    ]
+   },
+   {
+    "nct": "NCT05733598",
+    "drugs": [
+     "RP2",
+     "Bevacizumab",
+     "Atezolizumab"
+    ]
+   }
+  ]
+ }
+}

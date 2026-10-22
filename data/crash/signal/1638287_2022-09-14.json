@@ -1,0 +1,60 @@
+{
+ "id": "1638287_2022-09-14",
+ "kind": "crash",
+ "cik": "1638287",
+ "name": "MetaVia Inc.",
+ "date": "2022-09-14",
+ "detected": "2022-09-19",
+ "asof": "2022-12-19",
+ "version": 7,
+ "price": {
+  "date": "2022-12-19",
+  "adj_close": 119.68
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 6356000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-22-017864"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 5076000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-11-11",
+  "shares": 6503528
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These conditions previously raised substantial doubt about the Company's ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 31200000,
+  "as_of": "2021-06-30",
+  "filed": "2022-03-31"
+ },
+ "insiders": {
+  "form4s": 2,
+  "from": "2022-06-16",
+  "to": "2022-12-19",
+  "trades": []
+ },
+ "drug": "DA-1241, DA-1726",
+ "trials": {
+  "query": "metavia",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

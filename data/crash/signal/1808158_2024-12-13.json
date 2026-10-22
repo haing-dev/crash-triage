@@ -1,0 +1,89 @@
+{
+ "id": "1808158_2024-12-13",
+ "kind": "crash",
+ "cik": "1808158",
+ "name": "Repare Therapeutics Inc.",
+ "date": "2024-12-13",
+ "detected": "2024-12-13",
+ "asof": "2025-03-14",
+ "version": 7,
+ "price": {
+  "date": "2025-03-14",
+  "adj_close": 1.1
+ },
+ "balance": {
+  "end": "2024-12-31",
+  "cash": 152791000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0000950170-25-030405"
+ },
+ "burn6": {
+  "end": "2024-12-31",
+  "start": "2024-07-01",
+  "cash_used_ops": 57863000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-02-21",
+  "shares": 42510708
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 128954706,
+  "as_of": "2024-06-30",
+  "filed": "2025-03-03"
+ },
+ "insiders": {
+  "form4s": 7,
+  "from": "2024-09-14",
+  "to": "2025-03-14",
+  "trades": [
+   {
+    "date": "2025-03-12",
+    "filed": "2025-03-14",
+    "code": "S",
+    "value": 4099,
+    "who": "Koehler Maria"
+   },
+   {
+    "date": "2025-03-12",
+    "filed": "2025-03-14",
+    "code": "S",
+    "value": 6397,
+    "who": "Zinda Michael"
+   },
+   {
+    "date": "2025-03-12",
+    "filed": "2025-03-14",
+    "code": "S",
+    "value": 7848,
+    "who": "Forte Steve"
+   },
+   {
+    "date": "2025-03-12",
+    "filed": "2025-03-14",
+    "code": "S",
+    "value": 24144,
+    "who": "Segal Lloyd Mitchell"
+   }
+  ]
+ },
+ "drug": "lunresertib + camonsertib",
+ "trials": {
+  "query": "repare therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 1,
+  "examples": []
+ }
+}

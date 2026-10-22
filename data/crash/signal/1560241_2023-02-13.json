@@ -1,0 +1,146 @@
+{
+ "id": "1560241_2023-02-13",
+ "kind": "crash",
+ "cik": "1560241",
+ "name": "G1 Therapeutics, Inc.",
+ "date": "2023-02-13",
+ "detected": "2023-02-13",
+ "asof": "2023-05-15",
+ "version": 7,
+ "price": {
+  "date": "2023-05-15",
+  "adj_close": 2.92
+ },
+ "balance": {
+  "end": "2023-03-31",
+  "cash": 116317000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001628280-23-015220"
+ },
+ "burn6": {
+  "end": "2023-03-31",
+  "start": "2022-10-01",
+  "cash_used_ops": 59685000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-04-28",
+  "shares": 51660547
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 77470000.0,
+  "tags": "LoansPayable"
+ },
+ "public_float": {
+  "usd": 209000000,
+  "as_of": "2022-06-30",
+  "filed": "2023-04-14"
+ },
+ "insiders": {
+  "form4s": 15,
+  "from": "2022-11-15",
+  "to": "2023-05-15",
+  "trades": [
+   {
+    "date": "2023-01-04",
+    "filed": "2023-01-05",
+    "code": "S",
+    "value": 9138,
+    "who": "Moses Jennifer K."
+   },
+   {
+    "date": "2023-01-05",
+    "filed": "2023-01-05",
+    "code": "S",
+    "value": 3942,
+    "who": "Moses Jennifer K."
+   },
+   {
+    "date": "2023-01-04",
+    "filed": "2023-01-05",
+    "code": "S",
+    "value": 9138,
+    "who": "MURDOCK TERRY L"
+   },
+   {
+    "date": "2023-01-05",
+    "filed": "2023-01-05",
+    "code": "S",
+    "value": 3942,
+    "who": "MURDOCK TERRY L"
+   },
+   {
+    "date": "2023-01-04",
+    "filed": "2023-01-05",
+    "code": "S",
+    "value": 4572,
+    "who": "Perry Andrew"
+   },
+   {
+    "date": "2023-01-04",
+    "filed": "2023-01-05",
+    "code": "S",
+    "value": 9138,
+    "who": "Malik Rajesh"
+   },
+   {
+    "date": "2023-01-05",
+    "filed": "2023-01-05",
+    "code": "S",
+    "value": 3942,
+    "who": "Malik Rajesh"
+   },
+   {
+    "date": "2023-01-04",
+    "filed": "2023-01-05",
+    "code": "S",
+    "value": 9138,
+    "who": "Hanson James S."
+   },
+   {
+    "date": "2023-01-05",
+    "filed": "2023-01-05",
+    "code": "S",
+    "value": 3942,
+    "who": "Hanson James S."
+   },
+   {
+    "date": "2023-01-03",
+    "filed": "2023-01-05",
+    "code": "S",
+    "value": 187452,
+    "who": "Bailey John E. (Jack) Jr."
+   },
+   {
+    "date": "2023-01-04",
+    "filed": "2023-01-05",
+    "code": "S",
+    "value": 31262,
+    "who": "Bailey John E. (Jack) Jr."
+   }
+  ]
+ },
+ "drug": "trilaciclib",
+ "trials": {
+  "query": "g1 therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 2,
+  "examples": [
+   {
+    "nct": "NCT02983071",
+    "drugs": [
+     "G1T38",
+     "Fulvestrant"
+    ]
+   }
+  ]
+ }
+}

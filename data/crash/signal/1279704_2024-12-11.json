@@ -1,0 +1,68 @@
+{
+ "id": "1279704_2024-12-11",
+ "kind": "crash",
+ "cik": "1279704",
+ "name": "Cellectar Biosciences, Inc.",
+ "date": "2024-12-11",
+ "detected": "2024-12-11",
+ "asof": "2025-03-12",
+ "version": 7,
+ "price": {
+  "date": "2025-03-12",
+  "adj_close": 9.6
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 34263371,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001410578-24-002012"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": 23307882.0,
+  "capex": 21276.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-11-14",
+  "shares": 41269830
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These uncertainties raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 18922339,
+  "as_of": "2023-06-30",
+  "filed": "2024-10-29"
+ },
+ "insiders": {
+  "form4s": 9,
+  "from": "2024-09-12",
+  "to": "2025-03-12",
+  "trades": [
+   {
+    "date": "2025-01-10",
+    "filed": "2025-03-12",
+    "code": "P",
+    "value": 8400,
+    "who": "Longcor Jarrod"
+   }
+  ]
+ },
+ "drug": "iopofosine I 131",
+ "trials": {
+  "query": "cellectar biosciences",
+  "other_trials": 0,
+  "crashed_drug_trials": 1,
+  "examples": []
+ }
+}

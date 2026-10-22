@@ -1,0 +1,69 @@
+{
+ "id": "1693011_2025-01-10",
+ "kind": "crash",
+ "cik": "1693011",
+ "name": "Inozyme Pharma, Inc.",
+ "date": "2025-01-10",
+ "detected": "2025-01-15",
+ "asof": "2025-04-16",
+ "version": 7,
+ "price": {
+  "date": "2025-04-16",
+  "adj_close": 0.9618
+ },
+ "balance": {
+  "end": "2024-12-31",
+  "cash": 113087000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-25-035940"
+ },
+ "burn6": {
+  "end": "2024-12-31",
+  "start": "2024-07-01",
+  "cash_used_ops": 43716000.0,
+  "capex": 30000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-03-03",
+  "shares": 64240198
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Since our cash, cash equivalents and short-term investments as of December 31, 2024 are not sufficient to fund our operations for at least the next twelve months from the date of issuance of the consolidated financial statements included elsewhere in this Annual Report on Form 10-K, there is substan"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 31458000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 199349178000,
+  "as_of": "2024-06-28",
+  "filed": "2025-03-10"
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2024-10-12",
+  "to": "2025-04-16",
+  "trades": [
+   {
+    "date": "2025-04-02",
+    "filed": "2025-04-03",
+    "code": "S",
+    "value": 7849,
+    "who": "Treco Douglas A"
+   }
+  ]
+ },
+ "drug": "INZ-701",
+ "trials": {
+  "query": "inozyme pharma",
+  "other_trials": 0,
+  "crashed_drug_trials": 4,
+  "examples": []
+ }
+}

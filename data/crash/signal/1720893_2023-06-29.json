@@ -1,0 +1,132 @@
+{
+ "id": "1720893_2023-06-29",
+ "kind": "crash",
+ "cik": "1720893",
+ "name": "BioXcel Therapeutics, Inc.",
+ "date": "2023-06-29",
+ "detected": "2023-06-29",
+ "asof": "2023-09-28",
+ "version": 7,
+ "price": {
+  "date": "2023-09-28",
+  "adj_close": 39.84
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 127545000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001558370-23-014729"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 90559000.0,
+  "capex": 20000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-08-10",
+  "shares": 29267197
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "\u25cfWe have identified conditions and events that raise substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 96846000.0,
+  "tags": "LongTermDebtNoncurrent"
+ },
+ "public_float": {
+  "usd": 250888981,
+  "as_of": "2022-06-30",
+  "filed": "2023-05-01"
+ },
+ "insiders": {
+  "form4s": 20,
+  "from": "2023-03-31",
+  "to": "2023-09-28",
+  "trades": [
+   {
+    "date": "2023-06-15",
+    "filed": "2023-06-16",
+    "code": "S",
+    "value": 470763,
+    "who": "Mehta Vimal"
+   },
+   {
+    "date": "2023-06-15",
+    "filed": "2023-06-16",
+    "code": "S",
+    "value": 175463,
+    "who": "Mehta Vimal"
+   },
+   {
+    "date": "2023-06-16",
+    "filed": "2023-06-16",
+    "code": "S",
+    "value": 499990,
+    "who": "Mehta Vimal"
+   },
+   {
+    "date": "2023-06-16",
+    "filed": "2023-06-16",
+    "code": "S",
+    "value": 89159,
+    "who": "Mehta Vimal"
+   },
+   {
+    "date": "2023-06-16",
+    "filed": "2023-06-16",
+    "code": "S",
+    "value": 16352,
+    "who": "Mehta Vimal"
+   },
+   {
+    "date": "2023-05-22",
+    "filed": "2023-05-24",
+    "code": "S",
+    "value": 167641,
+    "who": "Mehta Vimal"
+   },
+   {
+    "date": "2023-05-15",
+    "filed": "2023-05-16",
+    "code": "S",
+    "value": 135864,
+    "who": "Steinhart Richard I"
+   },
+   {
+    "date": "2023-05-15",
+    "filed": "2023-05-16",
+    "code": "S",
+    "value": 48765,
+    "who": "Rodriguez Javier"
+   },
+   {
+    "date": "2023-04-06",
+    "filed": "2023-04-10",
+    "code": "S",
+    "value": 1039200,
+    "who": "Nandabalan Krishnan"
+   }
+  ]
+ },
+ "drug": "BXCL501",
+ "trials": {
+  "query": "bioxcel therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 1,
+  "examples": [
+   {
+    "nct": "NCT03910660",
+    "drugs": [
+     "BXCL701 plus Pembrolizumab",
+     "BXCL701 monotherapy"
+    ]
+   }
+  ]
+ }
+}

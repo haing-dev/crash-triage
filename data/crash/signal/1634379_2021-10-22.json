@@ -1,0 +1,268 @@
+{
+ "id": "1634379_2021-10-22",
+ "kind": "crash",
+ "cik": "1634379",
+ "name": "Metacrine, Inc.",
+ "date": "2021-10-22",
+ "detected": "2021-10-22",
+ "asof": "2022-01-21",
+ "version": 7,
+ "price": {
+  "date": "2022-01-21",
+  "adj_close": 0.4919
+ },
+ "balance": {
+  "end": "2021-09-30",
+  "cash": 61728000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001564590-21-056493"
+ },
+ "burn6": {
+  "end": "2021-09-30",
+  "start": "2021-04-01",
+  "cash_used_ops": 23156000.0,
+  "capex": 5371.764705882353,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-11-05",
+  "shares": 27314553
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 9565000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": null,
+ "insiders": {
+  "form4s": 10,
+  "from": "2021-07-24",
+  "to": "2022-01-21",
+  "trades": [
+   {
+    "date": "2021-12-10",
+    "filed": "2021-12-27",
+    "code": "S",
+    "value": 49630,
+    "who": "Walker Paul Edward"
+   },
+   {
+    "date": "2021-12-22",
+    "filed": "2021-12-27",
+    "code": "S",
+    "value": 289288,
+    "who": "Walker Paul Edward"
+   },
+   {
+    "date": "2021-12-22",
+    "filed": "2021-12-27",
+    "code": "S",
+    "value": 155565,
+    "who": "Walker Paul Edward"
+   },
+   {
+    "date": "2021-12-10",
+    "filed": "2021-12-27",
+    "code": "S",
+    "value": 49630,
+    "who": "Sonsini Peter W."
+   },
+   {
+    "date": "2021-12-22",
+    "filed": "2021-12-27",
+    "code": "S",
+    "value": 289288,
+    "who": "Sonsini Peter W."
+   },
+   {
+    "date": "2021-12-22",
+    "filed": "2021-12-27",
+    "code": "S",
+    "value": 155565,
+    "who": "Sonsini Peter W."
+   },
+   {
+    "date": "2021-12-10",
+    "filed": "2021-12-27",
+    "code": "S",
+    "value": 49630,
+    "who": "SANDELL SCOTT D"
+   },
+   {
+    "date": "2021-12-22",
+    "filed": "2021-12-27",
+    "code": "S",
+    "value": 289288,
+    "who": "SANDELL SCOTT D"
+   },
+   {
+    "date": "2021-12-22",
+    "filed": "2021-12-27",
+    "code": "S",
+    "value": 155565,
+    "who": "SANDELL SCOTT D"
+   },
+   {
+    "date": "2021-12-10",
+    "filed": "2021-12-27",
+    "code": "S",
+    "value": 49630,
+    "who": "Makhzoumi Mohamad"
+   },
+   {
+    "date": "2021-12-22",
+    "filed": "2021-12-27",
+    "code": "S",
+    "value": 289288,
+    "who": "Makhzoumi Mohamad"
+   },
+   {
+    "date": "2021-12-22",
+    "filed": "2021-12-27",
+    "code": "S",
+    "value": 155565,
+    "who": "Makhzoumi Mohamad"
+   },
+   {
+    "date": "2021-12-10",
+    "filed": "2021-12-27",
+    "code": "S",
+    "value": 49630,
+    "who": "Florence Anthony A. Jr."
+   },
+   {
+    "date": "2021-12-22",
+    "filed": "2021-12-27",
+    "code": "S",
+    "value": 289288,
+    "who": "Florence Anthony A. Jr."
+   },
+   {
+    "date": "2021-12-22",
+    "filed": "2021-12-27",
+    "code": "S",
+    "value": 155565,
+    "who": "Florence Anthony A. Jr."
+   },
+   {
+    "date": "2021-12-10",
+    "filed": "2021-12-27",
+    "code": "S",
+    "value": 49630,
+    "who": "Chang Carmen"
+   },
+   {
+    "date": "2021-12-22",
+    "filed": "2021-12-27",
+    "code": "S",
+    "value": 289288,
+    "who": "Chang Carmen"
+   },
+   {
+    "date": "2021-12-22",
+    "filed": "2021-12-27",
+    "code": "S",
+    "value": 155565,
+    "who": "Chang Carmen"
+   },
+   {
+    "date": "2021-12-10",
+    "filed": "2021-12-27",
+    "code": "S",
+    "value": 49630,
+    "who": "Behbahani Ali"
+   },
+   {
+    "date": "2021-12-22",
+    "filed": "2021-12-27",
+    "code": "S",
+    "value": 289288,
+    "who": "Behbahani Ali"
+   },
+   {
+    "date": "2021-12-22",
+    "filed": "2021-12-27",
+    "code": "S",
+    "value": 155565,
+    "who": "Behbahani Ali"
+   },
+   {
+    "date": "2021-12-10",
+    "filed": "2021-12-27",
+    "code": "S",
+    "value": 49630,
+    "who": "BASKETT FOREST"
+   },
+   {
+    "date": "2021-12-22",
+    "filed": "2021-12-27",
+    "code": "S",
+    "value": 289288,
+    "who": "BASKETT FOREST"
+   },
+   {
+    "date": "2021-12-22",
+    "filed": "2021-12-27",
+    "code": "S",
+    "value": 155565,
+    "who": "BASKETT FOREST"
+   },
+   {
+    "date": "2021-12-10",
+    "filed": "2021-12-27",
+    "code": "S",
+    "value": 49630,
+    "who": "New Enterprise Associates 16, L.P."
+   },
+   {
+    "date": "2021-12-22",
+    "filed": "2021-12-27",
+    "code": "S",
+    "value": 289288,
+    "who": "New Enterprise Associates 16, L.P."
+   },
+   {
+    "date": "2021-12-22",
+    "filed": "2021-12-27",
+    "code": "S",
+    "value": 155565,
+    "who": "New Enterprise Associates 16, L.P."
+   },
+   {
+    "date": "2021-10-22",
+    "filed": "2021-10-26",
+    "code": "S",
+    "value": 122930,
+    "who": "venBio Global Strategic Fund, L.P."
+   },
+   {
+    "date": "2021-10-25",
+    "filed": "2021-10-26",
+    "code": "S",
+    "value": 805972,
+    "who": "venBio Global Strategic Fund, L.P."
+   }
+  ]
+ },
+ "drug": "MET642",
+ "trials": {
+  "query": "metacrine",
+  "other_trials": 1,
+  "crashed_drug_trials": 1,
+  "examples": [
+   {
+    "nct": "NCT04702490",
+    "drugs": [
+     "MET409 Active",
+     "Empagliflozin"
+    ]
+   }
+  ]
+ }
+}

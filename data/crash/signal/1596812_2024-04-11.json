@@ -1,0 +1,56 @@
+{
+ "id": "1596812_2024-04-11",
+ "kind": "crash",
+ "cik": "1596812",
+ "name": "Enlivex Ltd.",
+ "date": "2024-04-11",
+ "detected": "2024-04-11",
+ "asof": "2024-07-11",
+ "version": 7,
+ "price": {
+  "date": "2024-07-11",
+  "adj_close": 21.3
+ },
+ "balance": {
+  "end": "2023-12-31",
+  "cash": 5921000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001213900-24-037878"
+ },
+ "burn6": {
+  "end": "2023-12-31",
+  "start": "2023-07-01",
+  "cash_used_ops": 10716000.0,
+  "capex": 36000.0,
+  "periods": 1
+ },
+ "shares": {
+  "end": "2023-12-31",
+  "shares": 18598555
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": null,
+ "insiders": {
+  "form4s": 0,
+  "from": "2024-01-12",
+  "to": "2024-07-11",
+  "trades": []
+ },
+ "drug": "Allocetra",
+ "trials": {
+  "query": "enlivex",
+  "other_trials": 0,
+  "crashed_drug_trials": 1,
+  "examples": []
+ }
+}

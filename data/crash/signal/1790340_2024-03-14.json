@@ -1,0 +1,236 @@
+{
+ "id": "1790340_2024-03-14",
+ "kind": "crash",
+ "cik": "1790340",
+ "name": "Immuneering Corp",
+ "date": "2024-03-14",
+ "detected": "2024-03-14",
+ "asof": "2024-06-13",
+ "version": 7,
+ "price": {
+  "date": "2024-06-13",
+  "adj_close": 1.69
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 71278348,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001790340-24-000056"
+ },
+ "burn6": {
+  "end": "2024-03-31",
+  "start": "2023-10-01",
+  "cash_used_ops": 27266315.0,
+  "capex": 208396.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2021-09-03",
+  "shares": 25938064
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 239000000,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-01"
+ },
+ "insiders": {
+  "form4s": 31,
+  "from": "2023-12-15",
+  "to": "2024-06-13",
+  "trades": [
+   {
+    "date": "2024-04-01",
+    "filed": "2024-04-03",
+    "code": "S",
+    "value": 307,
+    "who": "Cormorant Asset Management, LP"
+   },
+   {
+    "date": "2024-04-01",
+    "filed": "2024-04-03",
+    "code": "S",
+    "value": 920,
+    "who": "Cormorant Asset Management, LP"
+   },
+   {
+    "date": "2024-04-01",
+    "filed": "2024-04-03",
+    "code": "S",
+    "value": 305,
+    "who": "Cormorant Asset Management, LP"
+   },
+   {
+    "date": "2024-04-01",
+    "filed": "2024-04-03",
+    "code": "S",
+    "value": 1818,
+    "who": "Cormorant Asset Management, LP"
+   },
+   {
+    "date": "2024-04-01",
+    "filed": "2024-04-03",
+    "code": "S",
+    "value": 30,
+    "who": "Cormorant Asset Management, LP"
+   },
+   {
+    "date": "2024-04-01",
+    "filed": "2024-04-03",
+    "code": "S",
+    "value": 30,
+    "who": "Cormorant Asset Management, LP"
+   },
+   {
+    "date": "2024-04-01",
+    "filed": "2024-04-03",
+    "code": "S",
+    "value": 832,
+    "who": "Cormorant Asset Management, LP"
+   },
+   {
+    "date": "2024-04-01",
+    "filed": "2024-04-03",
+    "code": "S",
+    "value": 1155940,
+    "who": "Cormorant Asset Management, LP"
+   },
+   {
+    "date": "2024-03-22",
+    "filed": "2024-03-25",
+    "code": "P",
+    "value": 7385,
+    "who": "Schall Thomas J."
+   },
+   {
+    "date": "2024-03-22",
+    "filed": "2024-03-25",
+    "code": "P",
+    "value": 63713,
+    "who": "Feinberg Peter"
+   },
+   {
+    "date": "2024-03-22",
+    "filed": "2024-03-25",
+    "code": "P",
+    "value": 10015,
+    "who": "Brakewood Harold Eugene"
+   },
+   {
+    "date": "2024-03-21",
+    "filed": "2024-03-25",
+    "code": "P",
+    "value": 3009,
+    "who": "Morales Mallory"
+   },
+   {
+    "date": "2024-03-22",
+    "filed": "2024-03-25",
+    "code": "P",
+    "value": 1000,
+    "who": "Morales Mallory"
+   },
+   {
+    "date": "2024-03-20",
+    "filed": "2024-03-21",
+    "code": "P",
+    "value": 10993,
+    "who": "Neufeld Leah R"
+   },
+   {
+    "date": "2024-03-20",
+    "filed": "2024-03-21",
+    "code": "P",
+    "value": 20020,
+    "who": "Hall Brett Matthew"
+   },
+   {
+    "date": "2024-03-18",
+    "filed": "2024-03-19",
+    "code": "P",
+    "value": 123436,
+    "who": "BERMAN ANN E"
+   },
+   {
+    "date": "2024-03-18",
+    "filed": "2024-03-19",
+    "code": "P",
+    "value": 103857,
+    "who": "Feinberg Peter"
+   },
+   {
+    "date": "2024-03-18",
+    "filed": "2024-03-19",
+    "code": "P",
+    "value": 15201,
+    "who": "Feinberg Peter"
+   },
+   {
+    "date": "2024-03-19",
+    "filed": "2024-03-19",
+    "code": "P",
+    "value": 64000,
+    "who": "Feinberg Peter"
+   },
+   {
+    "date": "2024-03-19",
+    "filed": "2024-03-19",
+    "code": "P",
+    "value": 55326,
+    "who": "Zeskind Benjamin J."
+   },
+   {
+    "date": "2024-03-14",
+    "filed": "2024-03-18",
+    "code": "S",
+    "value": 1116936,
+    "who": "Cormorant Asset Management, LP"
+   },
+   {
+    "date": "2024-03-14",
+    "filed": "2024-03-18",
+    "code": "S",
+    "value": 418430,
+    "who": "Cormorant Asset Management, LP"
+   },
+   {
+    "date": "2024-03-14",
+    "filed": "2024-03-18",
+    "code": "S",
+    "value": 291351,
+    "who": "Cormorant Asset Management, LP"
+   },
+   {
+    "date": "2024-03-14",
+    "filed": "2024-03-18",
+    "code": "S",
+    "value": 65887,
+    "who": "Cormorant Asset Management, LP"
+   },
+   {
+    "date": "2024-03-15",
+    "filed": "2024-03-18",
+    "code": "S",
+    "value": 856400,
+    "who": "Cormorant Asset Management, LP"
+   }
+  ]
+ },
+ "drug": "IMM-1-104",
+ "trials": {
+  "query": "immuneering",
+  "other_trials": 0,
+  "crashed_drug_trials": 2,
+  "examples": []
+ }
+}

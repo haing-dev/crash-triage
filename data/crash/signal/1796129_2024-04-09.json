@@ -1,0 +1,60 @@
+{
+ "id": "1796129_2024-04-09",
+ "kind": "crash",
+ "cik": "1796129",
+ "name": "Vincerx Pharma, Inc.",
+ "date": "2024-04-09",
+ "detected": "2024-04-09",
+ "asof": "2024-07-09",
+ "version": 7,
+ "price": {
+  "date": "2024-07-09",
+  "adj_close": 13.796
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 5110000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001193125-24-138276"
+ },
+ "burn6": {
+  "end": "2024-03-31",
+  "start": "2023-10-01",
+  "cash_used_ops": 15758000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-04-30",
+  "shares": 29534238
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "As a result, the Company has concluded that these circumstances and the uncertainties associated with its ability to obtain additional capital raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 23000000,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-29"
+ },
+ "insiders": {
+  "form4s": 13,
+  "from": "2024-01-10",
+  "to": "2024-07-09",
+  "trades": []
+ },
+ "drug": "VIP236",
+ "trials": {
+  "query": "vincerx pharma",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

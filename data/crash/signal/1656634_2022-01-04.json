@@ -1,0 +1,93 @@
+{
+ "id": "1656634_2022-01-04",
+ "kind": "crash",
+ "cik": "1656634",
+ "name": "Gritstone bio, Inc.",
+ "date": "2022-01-04",
+ "detected": "2022-01-05",
+ "asof": "2022-04-06",
+ "version": 7,
+ "price": {
+  "date": "2022-04-06",
+  "adj_close": 3.97
+ },
+ "balance": {
+  "end": "2021-12-31",
+  "cash": 206250000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent",
+   "MarketableSecuritiesNoncurrent"
+  ],
+  "accn": "0000950170-22-003366"
+ },
+ "burn6": {
+  "end": "2021-12-31",
+  "start": "2021-07-01",
+  "cash_used_ops": 38650000.0,
+  "capex": 2803000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-03-07",
+  "shares": 72708342
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 419000000,
+  "as_of": "2021-06-30",
+  "filed": "2022-03-10"
+ },
+ "insiders": {
+  "form4s": 20,
+  "from": "2021-10-06",
+  "to": "2022-04-06",
+  "trades": [
+   {
+    "date": "2021-12-01",
+    "filed": "2021-12-03",
+    "code": "S",
+    "value": 13010,
+    "who": "Jones Erin"
+   },
+   {
+    "date": "2021-11-01",
+    "filed": "2021-11-03",
+    "code": "S",
+    "value": 11140,
+    "who": "Jones Erin"
+   }
+  ]
+ },
+ "drug": "CORAL samRNA vaccine (Spike plus T cell epitopes)",
+ "trials": {
+  "query": "gritstone bio",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03953235",
+    "drugs": [
+     "GRT-C903",
+     "GRT-R904",
+     "nivolumab"
+    ]
+   },
+   {
+    "nct": "NCT03639714",
+    "drugs": [
+     "GRT-C901",
+     "GRT-R902",
+     "nivolumab"
+    ]
+   }
+  ]
+ }
+}

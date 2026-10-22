@@ -1,0 +1,91 @@
+{
+ "id": "1390478_2022-11-14",
+ "kind": "crash",
+ "cik": "1390478",
+ "name": "SELLAS Life Sciences Group, Inc.",
+ "date": "2022-11-14",
+ "detected": "2022-11-14",
+ "asof": "2023-02-13",
+ "version": 7,
+ "price": {
+  "date": "2023-02-13",
+  "adj_close": 3.2
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 21348000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001390478-22-000028"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 11507000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-11-10",
+  "shares": 20588247
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "The Company expects to generate losses from operations for the foreseeable future primarily due to research and development costs for its product candidates, which raises substantial doubt about the Company's ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 176103964,
+  "as_of": "2021-06-30",
+  "filed": "2022-03-31"
+ },
+ "insiders": {
+  "form4s": 13,
+  "from": "2022-08-16",
+  "to": "2023-02-13",
+  "trades": [
+   {
+    "date": "2022-12-05",
+    "filed": "2022-12-05",
+    "code": "S",
+    "value": 16938,
+    "who": "Stergiou Angelos M."
+   },
+   {
+    "date": "2022-12-05",
+    "filed": "2022-12-05",
+    "code": "S",
+    "value": 3002,
+    "who": "Burns John Thomas"
+   },
+   {
+    "date": "2022-12-05",
+    "filed": "2022-12-05",
+    "code": "S",
+    "value": 5576,
+    "who": "WOOD BARBARA A"
+   }
+  ]
+ },
+ "drug": "galinpepimut-S",
+ "trials": {
+  "query": "sellas life sciences",
+  "other_trials": 1,
+  "crashed_drug_trials": 1,
+  "examples": [
+   {
+    "nct": "NCT04588922",
+    "drugs": [
+     "SLS009",
+     "venetoclax",
+     "azacitidine"
+    ]
+   }
+  ]
+ }
+}

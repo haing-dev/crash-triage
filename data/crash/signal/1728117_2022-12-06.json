@@ -1,0 +1,82 @@
+{
+ "id": "1728117_2022-12-06",
+ "kind": "crash",
+ "cik": "1728117",
+ "name": "Gossamer Bio, Inc.",
+ "date": "2022-12-06",
+ "detected": "2022-12-06",
+ "asof": "2023-03-07",
+ "version": 7,
+ "price": {
+  "date": "2023-03-07",
+  "adj_close": 133.60001
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 304383000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001728117-22-000100"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 85819000.0,
+  "capex": 151000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-10-31",
+  "shares": 94476801
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 26447000.0,
+  "tags": "DebtCurrent+LongTermDebtNoncurrent"
+ },
+ "public_float": {
+  "usd": 516900000,
+  "as_of": "2021-06-30",
+  "filed": "2022-03-03"
+ },
+ "insiders": {
+  "form4s": 9,
+  "from": "2022-09-07",
+  "to": "2023-03-07",
+  "trades": [
+   {
+    "date": "2022-10-24",
+    "filed": "2022-10-25",
+    "code": "S",
+    "value": 57431,
+    "who": "Peterson Caryn"
+   },
+   {
+    "date": "2022-10-24",
+    "filed": "2022-10-25",
+    "code": "S",
+    "value": 58868,
+    "who": "Carter Laura"
+   },
+   {
+    "date": "2022-10-24",
+    "filed": "2022-10-25",
+    "code": "S",
+    "value": 57431,
+    "who": "Aranda Richard"
+   }
+  ]
+ },
+ "drug": "seralutinib",
+ "trials": {
+  "query": "gossamer bio",
+  "other_trials": 0,
+  "crashed_drug_trials": 1,
+  "examples": []
+ }
+}

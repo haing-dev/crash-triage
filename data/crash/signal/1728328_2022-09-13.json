@@ -1,0 +1,69 @@
+{
+ "id": "1728328_2022-09-13",
+ "kind": "crash",
+ "cik": "1728328",
+ "name": "InMed Pharmaceuticals Inc.",
+ "date": "2022-09-13",
+ "detected": "2022-09-16",
+ "asof": "2022-12-16",
+ "version": 7,
+ "price": {
+  "date": "2022-12-16",
+  "adj_close": 35.6
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 9392552,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001213900-22-071487"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 6302790.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-11-14",
+  "shares": 936761
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "As a result of the recurring losses and requirement for cash in fiscal 2023 or the beginning of fiscal 2024, the Company has concluded that there is substantial doubt about its ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 18040469,
+  "as_of": "2021-12-31",
+  "filed": "2022-09-28"
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2022-06-15",
+  "to": "2022-12-16",
+  "trades": []
+ },
+ "drug": "n/a",
+ "trials": {
+  "query": "inmed pharmaceuticals",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04908215",
+    "drugs": [
+     "INM-755 (cannabinol) cream",
+     "Vehicle Cream"
+    ]
+   }
+  ]
+ }
+}

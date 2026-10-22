@@ -1,0 +1,72 @@
+{
+ "id": "1789192_2026-06-23",
+ "kind": "crash",
+ "cik": "1789192",
+ "name": "Nexentis Technologies Inc.",
+ "date": "2026-06-23",
+ "detected": "2026-06-23",
+ "asof": "2026-09-22",
+ "version": 7,
+ "price": {
+  "date": "2026-09-22",
+  "adj_close": 1.41
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 8880000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001493152-26-037757"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": 1958000.0,
+  "capex": 72000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-08-13",
+  "shares": 1453333
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "As a result, there is substantial doubt regarding the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "price_reset_warrants": "Following the approval of our stockholders at the Special Meeting, on May 27, 2026, we and the Lender released from escrow the signatures to the amended and restated facility agreement (the \u201cAmended and Restated Facility Agreement\u201d), which, among other things: (i) increases the total amount available under the credit facility from EUR 6,000,000 to EUR 10,000,000; and (ii) amends certain provisions",
+  "equity_line": "UNAUDITED CONDENSED CONSOLIDATED INTERIM STATEMENTS OF CASH FLOWS (U.S, dollars in thousands except share and per share data) 2026 2025 Six months ended June 30 2026 2025 CASH FLOWS FROM OPERATING ACTIVITIES: Net loss (17,749) (5,765) Adjustments to reconcile net loss to net cash used in operating: Depreciation and amortization 209 5 Deferred income taxes (47) - Issuance of shares to employees and"
+ },
+ "debt": {
+  "usd": 1739000.0,
+  "tags": "LoansPayable"
+ },
+ "public_float": {
+  "usd": 6387364,
+  "as_of": "2025-06-30",
+  "filed": "2026-03-31"
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2026-03-25",
+  "to": "2026-09-22",
+  "trades": [
+   {
+    "date": "2026-01-29",
+    "filed": "2026-03-26",
+    "code": "S",
+    "value": 172,
+    "who": "Lee Eun Young"
+   }
+  ]
+ },
+ "drug": "n/a",
+ "trials": {
+  "query": "nexentis technologies",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

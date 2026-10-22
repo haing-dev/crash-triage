@@ -1,0 +1,109 @@
+{
+ "id": "1680581_2026-06-02",
+ "kind": "crash",
+ "cik": "1680581",
+ "name": "Fulcrum Therapeutics, Inc.",
+ "date": "2026-06-02",
+ "detected": "2026-06-02",
+ "asof": "2026-09-01",
+ "version": 7,
+ "price": {
+  "date": "2026-09-01",
+  "adj_close": 3.87
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 48466000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001193125-26-326098"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": 34789000.0,
+  "capex": 116000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-07-23",
+  "shares": 76297257
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 296079672,
+  "as_of": "2025-06-30",
+  "filed": "2026-02-24"
+ },
+ "insiders": {
+  "form4s": 12,
+  "from": "2026-03-04",
+  "to": "2026-09-01",
+  "trades": [
+   {
+    "date": "2026-07-16",
+    "filed": "2026-07-20",
+    "code": "P",
+    "value": 415349,
+    "who": "TANG KEVIN"
+   },
+   {
+    "date": "2026-07-17",
+    "filed": "2026-07-20",
+    "code": "P",
+    "value": 179326,
+    "who": "TANG KEVIN"
+   },
+   {
+    "date": "2026-07-13",
+    "filed": "2026-07-15",
+    "code": "P",
+    "value": 45900,
+    "who": "TANG KEVIN"
+   },
+   {
+    "date": "2026-07-14",
+    "filed": "2026-07-15",
+    "code": "P",
+    "value": 190998,
+    "who": "TANG KEVIN"
+   },
+   {
+    "date": "2026-07-14",
+    "filed": "2026-07-15",
+    "code": "P",
+    "value": 271908,
+    "who": "TANG KEVIN"
+   },
+   {
+    "date": "2026-07-15",
+    "filed": "2026-07-15",
+    "code": "P",
+    "value": 382262,
+    "who": "TANG KEVIN"
+   },
+   {
+    "date": "2026-06-26",
+    "filed": "2026-06-30",
+    "code": "S",
+    "value": 65614,
+    "who": "Ezekowitz Alan"
+   }
+  ]
+ },
+ "drug": "pociredir",
+ "trials": {
+  "query": "fulcrum therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 1,
+  "examples": []
+ }
+}

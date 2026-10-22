@@ -1,0 +1,59 @@
+{
+ "id": "1133818_2023-08-03",
+ "kind": "crash",
+ "cik": "1133818",
+ "name": "BIO-PATH HOLDINGS, INC.",
+ "date": "2023-08-03",
+ "detected": "2023-08-03",
+ "asof": "2023-11-02",
+ "version": 7,
+ "price": {
+  "date": "2023-11-02",
+  "adj_close": 12.882
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 3444000,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0001558370-23-014847"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 6940000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-08-08",
+  "shares": 11460164
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 27578277.9,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-30"
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2023-05-05",
+  "to": "2023-11-02",
+  "trades": []
+ },
+ "drug": "prexigebersen (BP1001)",
+ "trials": {
+  "query": "bio path",
+  "other_trials": 0,
+  "crashed_drug_trials": 1,
+  "examples": []
+ }
+}

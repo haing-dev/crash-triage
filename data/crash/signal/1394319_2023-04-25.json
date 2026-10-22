@@ -1,0 +1,98 @@
+{
+ "id": "1394319_2023-04-25",
+ "kind": "crash",
+ "cik": "1394319",
+ "name": "Tracon Pharmaceuticals, Inc.",
+ "date": "2023-04-25",
+ "detected": "2023-04-26",
+ "asof": "2023-07-26",
+ "version": 7,
+ "price": {
+  "date": "2023-07-26",
+  "adj_close": 5.51
+ },
+ "balance": {
+  "end": "2023-03-31",
+  "cash": 6610000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-23-020649"
+ },
+ "burn6": {
+  "end": "2023-03-31",
+  "start": "2022-10-01",
+  "cash_used_ops": 9656000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-05-04",
+  "shares": 24059460
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "However, based on the Company\u2019s current working capital, business plan, anticipated operating expenses and net losses, and the uncertainties surrounding its ability to raise additional capital as needed, as discussed below, management believes that there is substantial doubt about its ability to con"
+ },
+ "financing_terms": {
+  "equity_line": "16 Lincoln Park Capital Fund, LLC (Lincoln Park) Common Stock Purchase Agreement On May 8, 2023, the Company and Lincoln Park entered into a common stock purchase agreement (the Lincoln Park Purchase Agreement), which provides that, upon the terms and subject to the conditions and limitations set forth therein, Lincoln Park is committed to purchase up to an aggregate of $26.0 million of the Compan"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 42200000,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-08"
+ },
+ "insiders": {
+  "form4s": 13,
+  "from": "2023-01-25",
+  "to": "2023-07-26",
+  "trades": [
+   {
+    "date": "2023-04-26",
+    "filed": "2023-04-28",
+    "code": "P",
+    "value": 2639,
+    "who": "THEUER CHARLES"
+   },
+   {
+    "date": "2023-04-27",
+    "filed": "2023-04-28",
+    "code": "P",
+    "value": 35250,
+    "who": "THEUER CHARLES"
+   },
+   {
+    "date": "2023-03-09",
+    "filed": "2023-03-13",
+    "code": "P",
+    "value": 240821,
+    "who": "Opaleye Management Inc."
+   },
+   {
+    "date": "2023-02-28",
+    "filed": "2023-03-02",
+    "code": "P",
+    "value": 304,
+    "who": "THEUER CHARLES"
+   },
+   {
+    "date": "2023-03-01",
+    "filed": "2023-03-02",
+    "code": "P",
+    "value": 7296,
+    "who": "THEUER CHARLES"
+   }
+  ]
+ },
+ "drug": "envafolimab",
+ "trials": {
+  "query": "tracon pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 2,
+  "examples": []
+ }
+}

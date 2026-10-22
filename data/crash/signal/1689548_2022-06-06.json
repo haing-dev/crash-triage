@@ -1,0 +1,96 @@
+{
+ "id": "1689548_2022-06-06",
+ "kind": "crash",
+ "cik": "1689548",
+ "name": "Praxis Precision Medicines, Inc.",
+ "date": "2022-06-06",
+ "detected": "2022-06-06",
+ "asof": "2022-09-05",
+ "version": 7,
+ "price": {
+  "date": "2022-09-02",
+  "adj_close": 45.75
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 165404000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001689548-22-000111"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 111318000.0,
+  "capex": 399000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-08-05",
+  "shares": 45576128
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 761000000,
+  "as_of": "2021-06-30",
+  "filed": "2022-02-28"
+ },
+ "insiders": {
+  "form4s": 23,
+  "from": "2022-03-08",
+  "to": "2022-09-05",
+  "trades": [
+   {
+    "date": "2022-06-16",
+    "filed": "2022-06-21",
+    "code": "P",
+    "value": 5775,
+    "who": "Mastrocola Lauren"
+   },
+   {
+    "date": "2022-06-13",
+    "filed": "2022-06-14",
+    "code": "P",
+    "value": 12225,
+    "who": "Nemiroff Alex"
+   },
+   {
+    "date": "2022-06-09",
+    "filed": "2022-06-13",
+    "code": "P",
+    "value": 17650,
+    "who": "Kelly Timothy Edwin"
+   },
+   {
+    "date": "2022-06-08",
+    "filed": "2022-06-09",
+    "code": "P",
+    "value": 49888,
+    "who": "Souza Marcio"
+   },
+   {
+    "date": "2022-06-08",
+    "filed": "2022-06-09",
+    "code": "P",
+    "value": 45188,
+    "who": "MITCHELL DEAN J"
+   }
+  ]
+ },
+ "drug": "PRAX-114",
+ "trials": {
+  "query": "praxis precision medicines",
+  "other_trials": 0,
+  "crashed_drug_trials": 1,
+  "examples": []
+ }
+}

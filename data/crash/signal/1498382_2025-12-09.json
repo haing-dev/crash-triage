@@ -1,0 +1,60 @@
+{
+ "id": "1498382_2025-12-09",
+ "kind": "crash",
+ "cik": "1498382",
+ "name": "TuHURA Biosciences, Inc./NV",
+ "date": "2025-12-09",
+ "detected": "2025-12-15",
+ "asof": "2026-03-16",
+ "version": 7,
+ "price": {
+  "date": "2026-03-16",
+  "adj_close": 2.1
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 2697416,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001193125-25-281539"
+ },
+ "burn6": {
+  "end": "2025-09-30",
+  "start": "2025-04-01",
+  "cash_used_ops": 17334706.0,
+  "capex": 5561.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-11-11",
+  "shares": 51258085
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "As such, there is substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 493386.0,
+  "tags": "NotesPayableCurrent"
+ },
+ "public_float": {
+  "usd": 14932000,
+  "as_of": "2024-06-30",
+  "filed": "2025-03-31"
+ },
+ "insiders": {
+  "form4s": 9,
+  "from": "2025-09-10",
+  "to": "2026-03-16",
+  "trades": []
+ },
+ "drug": "IFx-2.0",
+ "trials": {
+  "query": "tuhura biosciences",
+  "other_trials": 0,
+  "crashed_drug_trials": 1,
+  "examples": []
+ }
+}

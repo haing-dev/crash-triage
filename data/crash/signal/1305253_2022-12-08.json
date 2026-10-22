@@ -1,0 +1,98 @@
+{
+ "id": "1305253_2022-12-08",
+ "kind": "crash",
+ "cik": "1305253",
+ "name": "Eiger BioPharmaceuticals, Inc.",
+ "date": "2022-12-08",
+ "detected": "2022-12-08",
+ "asof": "2023-03-09",
+ "version": 7,
+ "price": {
+  "date": "2023-03-09",
+  "adj_close": 40.5
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 121008000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001305253-22-000008"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 42304000.0,
+  "capex": 77890.58823529411,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-11-01",
+  "shares": 44074284
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "Bristol-Meyers Squibb License Agreement On April 20, 2016, the Company and Bristol-Myers Squibb Company (BMS) entered into a License Agreement (the BMS License Agreement) and a Common Stock Purchase Agreement (the BMS Purchase Agreement)."
+ },
+ "debt": {
+  "usd": 39315000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 285874670,
+  "as_of": "2021-06-30",
+  "filed": "2022-03-10"
+ },
+ "insiders": {
+  "form4s": 15,
+  "from": "2022-09-09",
+  "to": "2023-03-09",
+  "trades": [
+   {
+    "date": "2023-01-23",
+    "filed": "2023-01-25",
+    "code": "P",
+    "value": 71580,
+    "who": "Dietz Thomas John"
+   },
+   {
+    "date": "2022-12-29",
+    "filed": "2023-01-03",
+    "code": "S",
+    "value": 6104,
+    "who": "Murray Christine"
+   },
+   {
+    "date": "2022-12-22",
+    "filed": "2022-12-27",
+    "code": "S",
+    "value": 26302,
+    "who": "Dietz Thomas John"
+   },
+   {
+    "date": "2022-12-22",
+    "filed": "2022-12-27",
+    "code": "P",
+    "value": 127950,
+    "who": "Glenn Jeffrey S"
+   }
+  ]
+ },
+ "drug": "lonafarnib",
+ "trials": {
+  "query": "eiger biopharmaceuticals",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05070364",
+    "drugs": [
+     "Peginterferon Lambda-1a"
+    ]
+   }
+  ]
+ }
+}

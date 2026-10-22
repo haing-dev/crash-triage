@@ -1,0 +1,63 @@
+{
+ "id": "1476963_2024-07-17",
+ "kind": "crash",
+ "cik": "1476963",
+ "name": "Scorpius Holdings, Inc.",
+ "date": "2024-07-17",
+ "detected": "2024-07-22",
+ "asof": "2024-10-21",
+ "version": 7,
+ "price": {
+  "date": "2024-10-21",
+  "adj_close": 0.82377
+ },
+ "balance": {
+  "end": "2024-06-30",
+  "cash": 1506536,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001558370-24-012376"
+ },
+ "burn6": {
+  "end": "2024-06-30",
+  "start": "2024-01-01",
+  "cash_used_ops": 11222621.0,
+  "capex": 695700.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-08-19",
+  "shares": 3116268
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "As a result of these circumstances, management has determined that there is substantial doubt about the Company's ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "floating_convertible": "The conversion price of the Restated Note was equal to 110% of the volume weighted average price (VWAP) of common stock for the seven trading days prior to December 11, 2023 which was $78.22; however, Section 2(b) of the Restated Note provided that if we consummated a public financing, subject to certain exceptions, within sixty days of May 1, 2024, the conversion price would be adjusted to be 110"
+ },
+ "debt": {
+  "usd": 2680000.0,
+  "tags": "NotesPayableCurrent+LongTermNotesPayable"
+ },
+ "public_float": {
+  "usd": 16554383,
+  "as_of": "2023-06-30",
+  "filed": "2024-04-26"
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2024-04-18",
+  "to": "2024-10-21",
+  "trades": []
+ },
+ "drug": "n/a",
+ "trials": {
+  "query": "scorpius",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

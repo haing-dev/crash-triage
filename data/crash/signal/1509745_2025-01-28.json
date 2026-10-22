@@ -1,0 +1,61 @@
+{
+ "id": "1509745_2025-01-28",
+ "kind": "crash",
+ "cik": "1509745",
+ "name": "CYPHERPUNK TECHNOLOGIES INC.",
+ "date": "2025-01-28",
+ "detected": "2025-01-28",
+ "asof": "2025-04-29",
+ "version": 7,
+ "price": {
+  "date": "2025-04-29",
+  "adj_close": 0.38699999
+ },
+ "balance": {
+  "end": "2024-12-31",
+  "cash": 47249000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001410578-25-000454"
+ },
+ "burn6": {
+  "end": "2024-12-31",
+  "start": "2024-07-01",
+  "cash_used_ops": 31112000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-03-20",
+  "shares": 41257602
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "financing_terms": {
+  "price_reset_warrants": "Warrants As of December 31, 2024, outstanding warrants to purchase common stock, all of which are classified as equity warrants, consisted of the following: \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b \u200b December 31, 2024 \u200b \u200b \u200b \u200b Number of Common Shares \u200b \u200b \u200b \u200b Description Issuable Exercise Price Expiration Date January 23, 2017 Warrants 5,450 \u200b $ 0.10 \u200b Upon M&A Event 2019 Warrants \u200b 690,813 \u200b $ 19.50 \u200b February 2026 March 2"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 73500000,
+  "as_of": "2024-06-30",
+  "filed": "2025-03-26"
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2024-10-30",
+  "to": "2025-04-29",
+  "trades": []
+ },
+ "drug": "sirexatamab (DKN-01)",
+ "trials": {
+  "query": "cypherpunk technologies",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

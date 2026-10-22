@@ -1,0 +1,97 @@
+{
+ "id": "1267813_2024-04-15",
+ "kind": "crash",
+ "cik": "1267813",
+ "name": "MARINUS PHARMACEUTICALS, INC.",
+ "date": "2024-04-15",
+ "detected": "2024-04-15",
+ "asof": "2024-07-15",
+ "version": 7,
+ "price": {
+  "date": "2024-07-15",
+  "adj_close": 1.41
+ },
+ "balance": {
+  "end": "2024-03-31",
+  "cash": 113253000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001558370-24-007187"
+ },
+ "burn6": {
+  "end": "2024-03-31",
+  "start": "2023-10-01",
+  "cash_used_ops": 64453000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-05-03",
+  "shares": 54933774
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "As a result, there is substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 75000000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 545158729,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-05"
+ },
+ "insiders": {
+  "form4s": 32,
+  "from": "2024-01-16",
+  "to": "2024-07-15",
+  "trades": [
+   {
+    "date": "2024-02-20",
+    "filed": "2024-02-22",
+    "code": "S",
+    "value": 20583,
+    "who": "Shafer Christina"
+   },
+   {
+    "date": "2024-02-20",
+    "filed": "2024-02-22",
+    "code": "S",
+    "value": 18126,
+    "who": "MANNING MARTHA E"
+   },
+   {
+    "date": "2024-02-16",
+    "filed": "2024-02-21",
+    "code": "S",
+    "value": 28084,
+    "who": "Hulihan Joseph"
+   },
+   {
+    "date": "2024-02-16",
+    "filed": "2024-02-21",
+    "code": "S",
+    "value": 30827,
+    "who": "Pfanstiel Steven"
+   },
+   {
+    "date": "2024-02-16",
+    "filed": "2024-02-21",
+    "code": "S",
+    "value": 117789,
+    "who": "Braunstein Scott"
+   }
+  ]
+ },
+ "drug": "IV ganaxolone",
+ "trials": {
+  "query": "marinus pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 4,
+  "examples": []
+ }
+}

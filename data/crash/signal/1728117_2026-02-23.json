@@ -1,0 +1,61 @@
+{
+ "id": "1728117_2026-02-23",
+ "kind": "crash",
+ "cik": "1728117",
+ "name": "Gossamer Bio, Inc.",
+ "date": "2026-02-23",
+ "detected": "2026-02-23",
+ "asof": "2026-05-25",
+ "version": 7,
+ "price": {
+  "date": "2026-05-22",
+  "adj_close": 16.8
+ },
+ "balance": {
+  "end": "2026-03-31",
+  "cash": 99215000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001728117-26-000032"
+ },
+ "burn6": {
+  "end": "2026-03-31",
+  "start": "2025-10-01",
+  "cash_used_ops": 87035000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-05-12",
+  "shares": 234696281
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Accordingly, these conditions raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 270800000,
+  "as_of": "2025-06-28",
+  "filed": "2026-03-17"
+ },
+ "insiders": {
+  "form4s": 12,
+  "from": "2025-11-25",
+  "to": "2026-05-25",
+  "trades": []
+ },
+ "drug": "seralutinib",
+ "trials": {
+  "query": "gossamer bio",
+  "other_trials": 0,
+  "crashed_drug_trials": 2,
+  "examples": []
+ }
+}

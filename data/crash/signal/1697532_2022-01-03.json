@@ -1,0 +1,108 @@
+{
+ "id": "1697532_2022-01-03",
+ "kind": "crash",
+ "cik": "1697532",
+ "name": "Applied Therapeutics, Inc.",
+ "date": "2022-01-03",
+ "detected": "2022-01-05",
+ "asof": "2022-04-06",
+ "version": 7,
+ "price": {
+  "date": "2022-04-06",
+  "adj_close": 2.64
+ },
+ "balance": {
+  "end": "2021-12-31",
+  "cash": 80823000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001558370-22-003206"
+ },
+ "burn6": {
+  "end": "2021-12-31",
+  "start": "2021-07-01",
+  "cash_used_ops": 42607000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-03-09",
+  "shares": 26215514
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "The report of our independent registered public accounting firm on our financial statements for the year ended December 31, 2021 includes an explanatory paragraph regarding the existence of substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 393223618,
+  "as_of": "2021-06-30",
+  "filed": "2022-03-10"
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2021-10-05",
+  "to": "2022-04-06",
+  "trades": [
+   {
+    "date": "2022-03-21",
+    "filed": "2022-03-23",
+    "code": "P",
+    "value": 23214,
+    "who": "Perfetti Riccardo"
+   },
+   {
+    "date": "2022-03-22",
+    "filed": "2022-03-23",
+    "code": "P",
+    "value": 43483,
+    "who": "Perfetti Riccardo"
+   },
+   {
+    "date": "2022-03-23",
+    "filed": "2022-03-23",
+    "code": "P",
+    "value": 59100,
+    "who": "Perfetti Riccardo"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "applied therapeutics",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05397665",
+    "drugs": [
+     "AT-007"
+    ]
+   },
+   {
+    "nct": "NCT04902781",
+    "drugs": [
+     "AT-007"
+    ]
+   },
+   {
+    "nct": "NCT05418829",
+    "drugs": [
+     "AT-007"
+    ]
+   },
+   {
+    "nct": "NCT04083339",
+    "drugs": [
+     "AT-001"
+    ]
+   }
+  ]
+ }
+}

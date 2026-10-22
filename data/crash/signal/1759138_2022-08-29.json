@@ -1,0 +1,110 @@
+{
+ "id": "1759138_2022-08-29",
+ "kind": "crash",
+ "cik": "1759138",
+ "name": "Cabaletta Bio, Inc.",
+ "date": "2022-08-29",
+ "detected": "2022-08-30",
+ "asof": "2022-11-29",
+ "version": 7,
+ "price": {
+  "date": "2022-11-29",
+  "adj_close": 3.88
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 85895000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-22-024168"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 21440000.0,
+  "capex": 1990000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-11-04",
+  "shares": 29013995
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 205000000,
+  "as_of": "2021-06-30",
+  "filed": "2022-03-17"
+ },
+ "insiders": {
+  "form4s": 10,
+  "from": "2022-05-31",
+  "to": "2022-11-29",
+  "trades": [
+   {
+    "date": "2022-10-19",
+    "filed": "2022-10-19",
+    "code": "P",
+    "value": 10152,
+    "who": "Nichtberger Steven"
+   },
+   {
+    "date": "2022-10-18",
+    "filed": "2022-10-18",
+    "code": "P",
+    "value": 994,
+    "who": "Bollard Catherine"
+   },
+   {
+    "date": "2022-10-18",
+    "filed": "2022-10-18",
+    "code": "P",
+    "value": 49620,
+    "who": "Marda Anup"
+   },
+   {
+    "date": "2022-10-18",
+    "filed": "2022-10-18",
+    "code": "P",
+    "value": 115286,
+    "who": "Simon Mark"
+   },
+   {
+    "date": "2022-10-18",
+    "filed": "2022-10-18",
+    "code": "P",
+    "value": 6835,
+    "who": "Simon Mark"
+   },
+   {
+    "date": "2022-10-18",
+    "filed": "2022-10-18",
+    "code": "P",
+    "value": 19894,
+    "who": "Binder Gwendolyn"
+   },
+   {
+    "date": "2022-10-18",
+    "filed": "2022-10-18",
+    "code": "P",
+    "value": 141008,
+    "who": "Nichtberger Steven"
+   }
+  ]
+ },
+ "drug": "DSG3-CAART",
+ "trials": {
+  "query": "cabaletta bio",
+  "other_trials": 0,
+  "crashed_drug_trials": 1,
+  "examples": []
+ }
+}

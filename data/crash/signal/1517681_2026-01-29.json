@@ -1,0 +1,63 @@
+{
+ "id": "1517681_2026-01-29",
+ "kind": "crash",
+ "cik": "1517681",
+ "name": "Propanc Biopharma, Inc.",
+ "date": "2026-01-29",
+ "detected": "2026-02-04",
+ "asof": "2026-05-06",
+ "version": 7,
+ "price": {
+  "date": "2026-05-06",
+  "adj_close": 2.525
+ },
+ "balance": {
+  "end": "2025-12-31",
+  "cash": 561237,
+  "parts": [
+   "Cash"
+  ],
+  "accn": "0001493152-26-016228"
+ },
+ "burn6": {
+  "end": "2025-12-31",
+  "start": "2025-07-01",
+  "cash_used_ops": 2938207.0,
+  "capex": 4758.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-02-16",
+  "shares": 15859280
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "This raises substantial doubt about its ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "floating_convertible": "The conversion price shall be the lesser of the fixed conversion price of $5.00 per share or 85% of the of the lowest trading price of the Common Stock during the period beginning on the day the holder sends a conversion notice to the Company and ending on the trading day on which the aggregate dollar volume of the Company\u2019s common stock exceeds the product of the conversion amount set forth on th",
+  "equity_line": "Common Stock Shares issued under the Equity Lines Dutchess Capital Growth Fund LP (\u201cDutchess\u201d) On July 13, 2022, the Company issued 0.24 shares of its common stock at an average price per share of approximately $120,000, as a result of delivering one Dutchess Draw Down Notice to Dutchess."
+ },
+ "debt": {
+  "usd": 55000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 47895,
+  "as_of": "2024-12-31",
+  "filed": "2025-09-29"
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2025-10-31",
+  "to": "2026-05-06",
+  "trades": []
+ },
+ "drug": "PRP",
+ "trials": {
+  "query": "propanc biopharma",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

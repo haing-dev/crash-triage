@@ -1,0 +1,68 @@
+{
+ "id": "1553643_2022-10-13",
+ "kind": "crash",
+ "cik": "1553643",
+ "name": "RELMADA THERAPEUTICS, INC.",
+ "date": "2022-10-13",
+ "detected": "2022-10-13",
+ "asof": "2023-01-12",
+ "version": 7,
+ "price": {
+  "date": "2023-01-12",
+  "adj_close": 4.22
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 184152174,
+  "parts": [
+   "Cash",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001213900-22-071154"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 48488974.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-11-07",
+  "shares": 30099203
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 547451729,
+  "as_of": "2021-06-30",
+  "filed": "2022-03-25"
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2022-07-15",
+  "to": "2023-01-12",
+  "trades": [
+   {
+    "date": "2022-12-08",
+    "filed": "2022-12-12",
+    "code": "P",
+    "value": 115804,
+    "who": "TRAVERSA SERGIO"
+   }
+  ]
+ },
+ "drug": "REL-1017",
+ "trials": {
+  "query": "relmada therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 1,
+  "examples": []
+ }
+}

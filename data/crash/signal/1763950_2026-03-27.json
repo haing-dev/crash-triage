@@ -1,0 +1,85 @@
+{
+ "id": "1763950_2026-03-27",
+ "kind": "crash",
+ "cik": "1763950",
+ "name": "Lantern Pharma Inc.",
+ "date": "2026-03-27",
+ "detected": "2026-03-27",
+ "asof": "2026-06-26",
+ "version": 7,
+ "price": {
+  "date": "2026-06-26",
+  "adj_close": 3.86
+ },
+ "balance": {
+  "end": "2026-03-31",
+  "cash": 6322853,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001493152-26-023740"
+ },
+ "burn6": {
+  "end": "2026-03-31",
+  "start": "2025-10-01",
+  "cash_used_ops": 6564740.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-05-12",
+  "shares": 11304697
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "The forward-looking statements in this Quarterly Report on Form 10-Q include, among other things, statements relating to: \u25cf the existence of substantial doubt regarding our ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 33935133,
+  "as_of": "2025-06-30",
+  "filed": "2026-04-30"
+ },
+ "insiders": {
+  "form4s": 7,
+  "from": "2025-12-27",
+  "to": "2026-06-26",
+  "trades": [
+   {
+    "date": "2026-05-12",
+    "filed": "2026-05-14",
+    "code": "P",
+    "value": 100001,
+    "who": "Schalop Lee Troy"
+   },
+   {
+    "date": "2026-05-12",
+    "filed": "2026-05-14",
+    "code": "P",
+    "value": 100001,
+    "who": "KEYSER D JEFFREY"
+   }
+  ]
+ },
+ "drug": "LP-300",
+ "trials": {
+  "query": "lantern pharma",
+  "other_trials": 1,
+  "crashed_drug_trials": 1,
+  "examples": [
+   {
+    "nct": "NCT05933265",
+    "drugs": [
+     "LP-184",
+     "Olaparib",
+     "Nivolumab & Ipilimumab"
+    ]
+   }
+  ]
+ }
+}

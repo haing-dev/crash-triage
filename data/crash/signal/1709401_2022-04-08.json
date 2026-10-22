@@ -1,0 +1,89 @@
+{
+ "id": "1709401_2022-04-08",
+ "kind": "crash",
+ "cik": "1709401",
+ "name": "Rubius Therapeutics, Inc.",
+ "date": "2022-04-08",
+ "detected": "2022-04-11",
+ "asof": "2022-07-11",
+ "version": 7,
+ "price": {
+  "date": "2022-07-11",
+  "adj_close": 0.8817
+ },
+ "balance": {
+  "end": "2022-03-31",
+  "cash": 176517000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001558370-22-007983"
+ },
+ "burn6": {
+  "end": "2022-03-31",
+  "start": "2021-10-01",
+  "cash_used_ops": 84352000.0,
+  "capex": 3771000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-04-29",
+  "shares": 90213126
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 76377000.0,
+  "tags": "LongTermDebtNoncurrent"
+ },
+ "public_float": {
+  "usd": 851600000,
+  "as_of": "2021-06-30",
+  "filed": "2022-02-25"
+ },
+ "insiders": {
+  "form4s": 14,
+  "from": "2022-01-08",
+  "to": "2022-07-11",
+  "trades": [
+   {
+    "date": "2022-04-21",
+    "filed": "2022-04-22",
+    "code": "P",
+    "value": 43329,
+    "who": "Epstein David R"
+   },
+   {
+    "date": "2022-02-01",
+    "filed": "2022-02-01",
+    "code": "S",
+    "value": 44236,
+    "who": "CAGNONI PABLO J"
+   },
+   {
+    "date": "2022-02-01",
+    "filed": "2022-02-01",
+    "code": "S",
+    "value": 17957,
+    "who": "Keson-Brookes Maiken"
+   },
+   {
+    "date": "2022-02-01",
+    "filed": "2022-02-01",
+    "code": "S",
+    "value": 16544,
+    "who": "Turka Laurence A."
+   }
+  ]
+ },
+ "drug": "RTX-240",
+ "trials": {
+  "query": "rubius therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 2,
+  "examples": []
+ }
+}

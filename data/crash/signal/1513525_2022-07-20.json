@@ -1,0 +1,62 @@
+{
+ "id": "1513525_2022-07-20",
+ "kind": "crash",
+ "cik": "1513525",
+ "name": "ADIAL PHARMACEUTICALS, INC.",
+ "date": "2022-07-20",
+ "detected": "2022-07-21",
+ "asof": "2022-10-20",
+ "version": 7,
+ "price": {
+  "date": "2022-10-20",
+  "adj_close": 175.0
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 9156635,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001213900-22-047638"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 6031144.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-08-12",
+  "shares": 25853962
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These factors raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "equity_line": "8 \u2014 ACCRUED EXPENSES Accrued expenses consist of the following: June 30, 2022 December 31, 2021 Clinical research organization services and expenses $187,160 $1,826,479 Employee compensation 498,628 520,795 Preclinical and manufacturing expenses 299,611 \u2013 Legal and consulting services 23,643 29,656 Total accrued expenses $1,009,042 $2,376,930 11 9 \u2014 RELATED PARTY TRANSACTIONS On December 7, 2020, "
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 40504498,
+  "as_of": "2021-06-30",
+  "filed": "2022-03-28"
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2022-04-21",
+  "to": "2022-10-20",
+  "trades": []
+ },
+ "drug": "AD04",
+ "trials": {
+  "query": "adial pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

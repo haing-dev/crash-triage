@@ -1,0 +1,159 @@
+{
+ "id": "1604464_2022-07-13",
+ "kind": "crash",
+ "cik": "1604464",
+ "name": "Atara Biotherapeutics, Inc.",
+ "date": "2022-07-13",
+ "detected": "2022-07-13",
+ "asof": "2022-10-12",
+ "version": 7,
+ "price": {
+  "date": "2022-10-12",
+  "adj_close": 98.5
+ },
+ "balance": {
+  "end": "2022-06-30",
+  "cash": 331311000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-22-015536"
+ },
+ "burn6": {
+  "end": "2022-06-30",
+  "start": "2022-01-01",
+  "cash_used_ops": 148493000.0,
+  "capex": 4024000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-07-29",
+  "shares": 94362320
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 1149785847,
+  "as_of": "2021-06-30",
+  "filed": "2022-02-28"
+ },
+ "insiders": {
+  "form4s": 19,
+  "from": "2022-04-14",
+  "to": "2022-10-12",
+  "trades": [
+   {
+    "date": "2022-08-16",
+    "filed": "2022-08-18",
+    "code": "S",
+    "value": 74548,
+    "who": "Touchon Pascal"
+   },
+   {
+    "date": "2022-08-16",
+    "filed": "2022-08-18",
+    "code": "S",
+    "value": 20760,
+    "who": "Dupont Jakob"
+   },
+   {
+    "date": "2022-08-16",
+    "filed": "2022-08-18",
+    "code": "S",
+    "value": 6021,
+    "who": "Murugan Amar"
+   },
+   {
+    "date": "2022-08-16",
+    "filed": "2022-08-18",
+    "code": "S",
+    "value": 11248,
+    "who": "Murugan Amar"
+   },
+   {
+    "date": "2022-08-16",
+    "filed": "2022-08-18",
+    "code": "S",
+    "value": 29908,
+    "who": "Koppikar Utpal"
+   },
+   {
+    "date": "2022-06-27",
+    "filed": "2022-06-29",
+    "code": "S",
+    "value": 102384,
+    "who": "Touchon Pascal"
+   },
+   {
+    "date": "2022-06-08",
+    "filed": "2022-06-10",
+    "code": "S",
+    "value": 32952,
+    "who": "Koppikar Utpal"
+   },
+   {
+    "date": "2022-05-17",
+    "filed": "2022-05-19",
+    "code": "S",
+    "value": 12317,
+    "who": "Murugan Amar"
+   },
+   {
+    "date": "2022-05-17",
+    "filed": "2022-05-19",
+    "code": "S",
+    "value": 4817,
+    "who": "Murugan Amar"
+   },
+   {
+    "date": "2022-05-17",
+    "filed": "2022-05-19",
+    "code": "S",
+    "value": 24539,
+    "who": "Koppikar Utpal"
+   },
+   {
+    "date": "2022-05-17",
+    "filed": "2022-05-19",
+    "code": "S",
+    "value": 5136,
+    "who": "Koppikar Utpal"
+   },
+   {
+    "date": "2022-05-17",
+    "filed": "2022-05-19",
+    "code": "S",
+    "value": 20597,
+    "who": "Dupont Jakob"
+   },
+   {
+    "date": "2022-05-17",
+    "filed": "2022-05-19",
+    "code": "S",
+    "value": 73962,
+    "who": "Touchon Pascal"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "atara biotherapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03283826",
+    "drugs": [
+     "ATA188"
+    ]
+   }
+  ]
+ }
+}

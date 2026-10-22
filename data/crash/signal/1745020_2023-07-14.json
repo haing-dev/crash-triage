@@ -1,0 +1,104 @@
+{
+ "id": "1745020_2023-07-14",
+ "kind": "crash",
+ "cik": "1745020",
+ "name": "Theseus Pharmaceuticals, Inc.",
+ "date": "2023-07-14",
+ "detected": "2023-07-14",
+ "asof": "2023-10-13",
+ "version": 7,
+ "price": {
+  "date": "2023-10-13",
+  "adj_close": 2.35
+ },
+ "balance": {
+  "end": "2023-06-30",
+  "cash": 234232000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0001745020-23-000050"
+ },
+ "burn6": {
+  "end": "2023-06-30",
+  "start": "2023-01-01",
+  "cash_used_ops": 28669000.0,
+  "capex": 11000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-08-04",
+  "shares": 43603369
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 85600000,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-09"
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2023-04-15",
+  "to": "2023-10-13",
+  "trades": [
+   {
+    "date": "2023-07-17",
+    "filed": "2023-07-19",
+    "code": "P",
+    "value": 1001870,
+    "who": "GORDON CARL L"
+   },
+   {
+    "date": "2023-07-17",
+    "filed": "2023-07-19",
+    "code": "P",
+    "value": 461922,
+    "who": "GORDON CARL L"
+   },
+   {
+    "date": "2023-07-17",
+    "filed": "2023-07-19",
+    "code": "P",
+    "value": 1001870,
+    "who": "ORBIMED ADVISORS LLC"
+   },
+   {
+    "date": "2023-07-17",
+    "filed": "2023-07-19",
+    "code": "P",
+    "value": 461922,
+    "who": "ORBIMED ADVISORS LLC"
+   },
+   {
+    "date": "2023-07-17",
+    "filed": "2023-07-19",
+    "code": "P",
+    "value": 1554646,
+    "who": "Foresite Capital Management V, LLC"
+   },
+   {
+    "date": "2023-07-17",
+    "filed": "2023-07-19",
+    "code": "P",
+    "value": 524354,
+    "who": "Foresite Capital Management V, LLC"
+   }
+  ]
+ },
+ "drug": "THE-630",
+ "trials": {
+  "query": "theseus pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 1,
+  "examples": []
+ }
+}

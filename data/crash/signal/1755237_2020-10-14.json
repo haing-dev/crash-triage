@@ -1,0 +1,83 @@
+{
+ "id": "1755237_2020-10-14",
+ "kind": "crash",
+ "cik": "1755237",
+ "name": "Korsana Biosciences, Inc.",
+ "date": "2020-10-14",
+ "detected": "2020-10-14",
+ "asof": "2021-01-13",
+ "version": 7,
+ "price": {
+  "date": "2021-01-13",
+  "adj_close": 504.0
+ },
+ "balance": {
+  "end": "2020-09-30",
+  "cash": 66840000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001564590-20-050844"
+ },
+ "burn6": {
+  "end": "2020-09-30",
+  "start": "2020-04-01",
+  "cash_used_ops": 29269000.0,
+  "capex": 84000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2020-11-03",
+  "shares": 33961868
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "2020 Equity Private Placement On July 29, 2020, the Company entered into a Common Stock Purchase Agreement (the \u201c2020 Equity Private Placement\u201d) with two investors for a private placement of 6,062,500 shares of the Company\u2019s common stock, at a purchase price of $4.00 per share for total gross proceeds of approximately $24.3 million."
+ },
+ "debt": {
+  "usd": 3509000.0,
+  "tags": "NotesPayableCurrent"
+ },
+ "public_float": {
+  "usd": 306200000,
+  "as_of": "2019-06-28",
+  "filed": "2020-03-12"
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2020-07-16",
+  "to": "2021-01-13",
+  "trades": [
+   {
+    "date": "2020-12-28",
+    "filed": "2020-12-30",
+    "code": "S",
+    "value": 60522,
+    "who": "Currie Mark G"
+   },
+   {
+    "date": "2020-11-09",
+    "filed": "2020-11-12",
+    "code": "P",
+    "value": 316250,
+    "who": "Busch Andreas"
+   },
+   {
+    "date": "2020-11-06",
+    "filed": "2020-11-10",
+    "code": "S",
+    "value": 9644,
+    "who": "Huyett William"
+   }
+  ]
+ },
+ "drug": "IW-6463",
+ "trials": {
+  "query": "korsana biosciences",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,91 @@
+{
+ "id": "1716947_2022-12-07",
+ "kind": "crash",
+ "cik": "1716947",
+ "name": "Ensysce Biosciences, Inc.",
+ "date": "2022-12-07",
+ "detected": "2022-12-07",
+ "asof": "2023-03-08",
+ "version": 7,
+ "price": {
+  "date": "2023-03-08",
+  "adj_close": 111.6
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 4503081,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001493152-22-032094"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 11154805.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-11-07",
+  "shares": 2841091
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These matters, among others, raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "floating_convertible": "The number of shares to be settled shall be based on a conversion price equal to the lesser of (a) $117.40 and (b) 92% of the average of the three lowest volume-weighted average prices (\u201cVWAP\u201d) during the 10 consecutive trading days prior to the applicable Monthly Redemption Date."
+ },
+ "debt": {
+  "usd": 8939741.0,
+  "tags": "NotesPayable"
+ },
+ "public_float": {
+  "usd": 3700000,
+  "as_of": "2020-06-30",
+  "filed": "2021-06-08"
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2022-09-08",
+  "to": "2023-03-08",
+  "trades": [
+   {
+    "date": "2023-03-02",
+    "filed": "2023-03-06",
+    "code": "P",
+    "value": 44087,
+    "who": "GOWER BOB G"
+   },
+   {
+    "date": "2023-02-28",
+    "filed": "2023-03-02",
+    "code": "P",
+    "value": 53371,
+    "who": "GOWER BOB G"
+   },
+   {
+    "date": "2023-03-01",
+    "filed": "2023-03-02",
+    "code": "P",
+    "value": 128979,
+    "who": "GOWER BOB G"
+   },
+   {
+    "date": "2022-12-09",
+    "filed": "2023-02-01",
+    "code": "P",
+    "value": 500000,
+    "who": "GOWER BOB G"
+   }
+  ]
+ },
+ "drug": "PF614",
+ "trials": {
+  "query": "ensysce biosciences",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

@@ -1,0 +1,145 @@
+{
+ "id": "1556263_2024-11-13",
+ "kind": "crash",
+ "cik": "1556263",
+ "name": "Syros Pharmaceuticals, Inc.",
+ "date": "2024-11-13",
+ "detected": "2024-11-13",
+ "asof": "2025-02-12",
+ "version": 7,
+ "price": {
+  "date": "2025-02-12",
+  "adj_close": 0.1841
+ },
+ "balance": {
+  "end": "2024-09-30",
+  "cash": 58275000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0000950170-24-119236"
+ },
+ "burn6": {
+  "end": "2024-09-30",
+  "start": "2024-04-01",
+  "cash_used_ops": 50356000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-10-24",
+  "shares": 26832457
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "The Company\u2019s history of significant losses, its negative cash flows from operations, its limited liquidity resources currently on hand, and its dependence on its ability to obtain additional financing to fund its operations after the current resources are exhausted, about which there can be no cert"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 41081000.0,
+  "tags": "LongTermDebtNoncurrent"
+ },
+ "public_float": {
+  "usd": 58560692,
+  "as_of": "2023-06-30",
+  "filed": "2024-03-27"
+ },
+ "insiders": {
+  "form4s": 17,
+  "from": "2024-08-15",
+  "to": "2025-02-12",
+  "trades": [
+   {
+    "date": "2024-12-02",
+    "filed": "2024-12-04",
+    "code": "S",
+    "value": 10016,
+    "who": "Simonian Nancy A"
+   },
+   {
+    "date": "2024-11-25",
+    "filed": "2024-11-27",
+    "code": "S",
+    "value": 35739,
+    "who": "Simonian Nancy A"
+   },
+   {
+    "date": "2024-11-18",
+    "filed": "2024-11-20",
+    "code": "S",
+    "value": 7949,
+    "who": "Stephens Kristin"
+   },
+   {
+    "date": "2024-11-18",
+    "filed": "2024-11-20",
+    "code": "S",
+    "value": 2382,
+    "who": "Roth David"
+   },
+   {
+    "date": "2024-11-19",
+    "filed": "2024-11-20",
+    "code": "S",
+    "value": 10321,
+    "who": "Quirk Gerald E"
+   },
+   {
+    "date": "2024-11-18",
+    "filed": "2024-11-20",
+    "code": "S",
+    "value": 26932,
+    "who": "Chee Conley"
+   },
+   {
+    "date": "2024-11-18",
+    "filed": "2024-11-20",
+    "code": "S",
+    "value": 28980,
+    "who": "Haas Jason"
+   },
+   {
+    "date": "2024-09-10",
+    "filed": "2024-09-12",
+    "code": "P",
+    "value": 54788,
+    "who": "Haas Jason"
+   },
+   {
+    "date": "2024-09-11",
+    "filed": "2024-09-12",
+    "code": "P",
+    "value": 30446,
+    "who": "Haas Jason"
+   },
+   {
+    "date": "2024-09-12",
+    "filed": "2024-09-12",
+    "code": "P",
+    "value": 76006,
+    "who": "Haas Jason"
+   },
+   {
+    "date": "2024-09-10",
+    "filed": "2024-09-12",
+    "code": "P",
+    "value": 75260,
+    "who": "Chee Conley"
+   },
+   {
+    "date": "2024-09-11",
+    "filed": "2024-09-12",
+    "code": "P",
+    "value": 85420,
+    "who": "Chee Conley"
+   }
+  ]
+ },
+ "drug": "tamibarotene",
+ "trials": {
+  "query": "syros pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

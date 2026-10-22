@@ -1,0 +1,111 @@
+{
+ "id": "1213037_2022-09-13",
+ "kind": "crash",
+ "cik": "1213037",
+ "name": "Cardiff Oncology, Inc.",
+ "date": "2022-09-13",
+ "detected": "2022-09-16",
+ "asof": "2022-12-16",
+ "version": 7,
+ "price": {
+  "date": "2022-12-16",
+  "adj_close": 1.32
+ },
+ "balance": {
+  "end": "2022-09-30",
+  "cash": 121390000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0001628280-22-028164"
+ },
+ "burn6": {
+  "end": "2022-09-30",
+  "start": "2022-04-01",
+  "cash_used_ops": 14181000.0,
+  "capex": 760000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2022-10-27",
+  "shares": 44677169
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 258944643,
+  "as_of": "2021-06-30",
+  "filed": "2022-02-24"
+ },
+ "insiders": {
+  "form4s": 7,
+  "from": "2022-06-15",
+  "to": "2022-12-16",
+  "trades": [
+   {
+    "date": "2022-11-25",
+    "filed": "2022-11-29",
+    "code": "P",
+    "value": 14300,
+    "who": "Erlander Mark"
+   },
+   {
+    "date": "2022-09-16",
+    "filed": "2022-10-11",
+    "code": "P",
+    "value": 20233,
+    "who": "Armitage James O"
+   },
+   {
+    "date": "2022-09-19",
+    "filed": "2022-09-20",
+    "code": "P",
+    "value": 24525,
+    "who": "White Lale"
+   },
+   {
+    "date": "2022-09-15",
+    "filed": "2022-09-19",
+    "code": "P",
+    "value": 10976,
+    "who": "TANNENBAUM RENEE P"
+   },
+   {
+    "date": "2022-09-15",
+    "filed": "2022-09-19",
+    "code": "P",
+    "value": 6192,
+    "who": "TANNENBAUM RENEE P"
+   },
+   {
+    "date": "2022-09-15",
+    "filed": "2022-09-19",
+    "code": "P",
+    "value": 256500,
+    "who": "PACE GARY W"
+   },
+   {
+    "date": "2022-09-16",
+    "filed": "2022-09-19",
+    "code": "P",
+    "value": 46710,
+    "who": "Levine James E."
+   }
+  ]
+ },
+ "drug": "onvansertib",
+ "trials": {
+  "query": "cardiff oncology",
+  "other_trials": 0,
+  "crashed_drug_trials": 3,
+  "examples": []
+ }
+}

@@ -1,0 +1,216 @@
+{
+ "id": "1604464_2023-11-09",
+ "kind": "crash",
+ "cik": "1604464",
+ "name": "Atara Biotherapeutics, Inc.",
+ "date": "2023-11-09",
+ "detected": "2023-11-09",
+ "asof": "2024-02-08",
+ "version": 7,
+ "price": {
+  "date": "2024-02-08",
+  "adj_close": 20.65
+ },
+ "balance": {
+  "end": "2023-09-30",
+  "cash": 102408000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0000950170-23-057147"
+ },
+ "burn6": {
+  "end": "2023-09-30",
+  "start": "2023-04-01",
+  "cash_used_ops": 104142000.0,
+  "capex": 780000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-10-27",
+  "shares": 101922250
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These conditions raise substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 715382568,
+  "as_of": "2022-06-30",
+  "filed": "2023-02-08"
+ },
+ "insiders": {
+  "form4s": 20,
+  "from": "2023-08-11",
+  "to": "2024-02-08",
+  "trades": [
+   {
+    "date": "2023-11-16",
+    "filed": "2023-11-20",
+    "code": "S",
+    "value": 7939,
+    "who": "Touchon Pascal"
+   },
+   {
+    "date": "2023-11-16",
+    "filed": "2023-11-20",
+    "code": "S",
+    "value": 3445,
+    "who": "Nguyen AnhCo"
+   },
+   {
+    "date": "2023-11-16",
+    "filed": "2023-11-20",
+    "code": "S",
+    "value": 3231,
+    "who": "Murugan Amar"
+   },
+   {
+    "date": "2023-11-16",
+    "filed": "2023-11-20",
+    "code": "S",
+    "value": 4780,
+    "who": "Joshi Manher"
+   },
+   {
+    "date": "2023-11-16",
+    "filed": "2023-11-20",
+    "code": "S",
+    "value": 4652,
+    "who": "Hyllengren Eric J"
+   },
+   {
+    "date": "2023-11-16",
+    "filed": "2023-11-20",
+    "code": "S",
+    "value": 1271,
+    "who": "Henrich Jill"
+   },
+   {
+    "date": "2023-11-13",
+    "filed": "2023-11-15",
+    "code": "P",
+    "value": 40029,
+    "who": "Gallagher Carol Giltner"
+   },
+   {
+    "date": "2023-11-14",
+    "filed": "2023-11-15",
+    "code": "P",
+    "value": 28186,
+    "who": "Gallagher Carol Giltner"
+   },
+   {
+    "date": "2023-11-10",
+    "filed": "2023-11-14",
+    "code": "P",
+    "value": 25330,
+    "who": "HEIDEN WILLIAM K"
+   },
+   {
+    "date": "2023-11-10",
+    "filed": "2023-11-14",
+    "code": "P",
+    "value": 101340,
+    "who": "DOBMEIER ERIC"
+   },
+   {
+    "date": "2023-08-16",
+    "filed": "2023-08-18",
+    "code": "S",
+    "value": 10586,
+    "who": "Hyllengren Eric J"
+   },
+   {
+    "date": "2023-08-16",
+    "filed": "2023-08-18",
+    "code": "S",
+    "value": 2941,
+    "who": "Hyllengren Eric J"
+   },
+   {
+    "date": "2023-08-16",
+    "filed": "2023-08-18",
+    "code": "S",
+    "value": 8343,
+    "who": "Murugan Amar"
+   },
+   {
+    "date": "2023-08-16",
+    "filed": "2023-08-18",
+    "code": "S",
+    "value": 5987,
+    "who": "Murugan Amar"
+   },
+   {
+    "date": "2023-08-16",
+    "filed": "2023-08-18",
+    "code": "S",
+    "value": 35406,
+    "who": "Touchon Pascal"
+   },
+   {
+    "date": "2023-08-16",
+    "filed": "2023-08-18",
+    "code": "S",
+    "value": 15429,
+    "who": "Touchon Pascal"
+   },
+   {
+    "date": "2023-08-16",
+    "filed": "2023-08-18",
+    "code": "S",
+    "value": 9663,
+    "who": "Nguyen AnhCo"
+   },
+   {
+    "date": "2023-08-16",
+    "filed": "2023-08-18",
+    "code": "S",
+    "value": 15335,
+    "who": "Nguyen AnhCo"
+   },
+   {
+    "date": "2023-08-16",
+    "filed": "2023-08-18",
+    "code": "S",
+    "value": 5290,
+    "who": "Joshi Manher"
+   },
+   {
+    "date": "2023-08-16",
+    "filed": "2023-08-18",
+    "code": "S",
+    "value": 6237,
+    "who": "Joshi Manher"
+   },
+   {
+    "date": "2023-08-16",
+    "filed": "2023-08-18",
+    "code": "S",
+    "value": 4609,
+    "who": "Henrich Jill"
+   },
+   {
+    "date": "2023-08-16",
+    "filed": "2023-08-18",
+    "code": "S",
+    "value": 923,
+    "who": "Henrich Jill"
+   }
+  ]
+ },
+ "drug": "ATA188",
+ "trials": {
+  "query": "atara biotherapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

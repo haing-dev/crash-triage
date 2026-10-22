@@ -1,0 +1,107 @@
+{
+ "id": "1721484_2025-08-08",
+ "kind": "crash",
+ "cik": "1721484",
+ "name": "Longeveron Inc.",
+ "date": "2025-08-08",
+ "detected": "2025-08-08",
+ "asof": "2025-11-07",
+ "version": 7,
+ "price": {
+  "date": "2025-11-07",
+  "adj_close": 7.369999900000001
+ },
+ "balance": {
+  "end": "2025-09-30",
+  "cash": 9244000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001193125-25-264604"
+ },
+ "burn6": {
+  "end": "2025-09-30",
+  "start": "2025-04-01",
+  "cash_used_ops": 8652000.0,
+  "capex": 218000.0,
+  "periods": 2
+ },
+ "shares": null,
+ "going_concern": {
+  "flag": true,
+  "quote": "As a result, there is substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 12438864,
+  "as_of": "2024-06-30",
+  "filed": "2025-02-28"
+ },
+ "insiders": {
+  "form4s": 32,
+  "from": "2025-05-10",
+  "to": "2025-11-07",
+  "trades": [
+   {
+    "date": "2025-08-11",
+    "filed": "2025-08-13",
+    "code": "P",
+    "value": 0,
+    "who": "Locklear Lisa"
+   },
+   {
+    "date": "2025-08-11",
+    "filed": "2025-08-13",
+    "code": "P",
+    "value": 0,
+    "who": "Baluch Khoso"
+   },
+   {
+    "date": "2025-05-29",
+    "filed": "2025-06-02",
+    "code": "S",
+    "value": 13000,
+    "who": "Soffer Rock"
+   },
+   {
+    "date": "2025-05-30",
+    "filed": "2025-06-02",
+    "code": "S",
+    "value": 13750,
+    "who": "Soffer Rock"
+   },
+   {
+    "date": "2025-05-22",
+    "filed": "2025-05-27",
+    "code": "S",
+    "value": 2640,
+    "who": "Soffer Rock"
+   },
+   {
+    "date": "2025-05-16",
+    "filed": "2025-05-16",
+    "code": "S",
+    "value": 7367,
+    "who": "Hare Joshua"
+   }
+  ]
+ },
+ "drug": "laromestrocel",
+ "trials": {
+  "query": "longeveron",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04925024",
+    "drugs": [
+     "Lomecel-B medicinal signaling cells"
+    ]
+   }
+  ]
+ }
+}
