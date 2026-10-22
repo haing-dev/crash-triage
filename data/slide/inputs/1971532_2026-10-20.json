@@ -1,0 +1,67 @@
+{
+ "id": "1971532_2026-10-20",
+ "kind": "slide",
+ "cik": "1971532",
+ "name": "Telomir Pharmaceuticals, Inc.",
+ "date": "2026-10-20",
+ "asof": "2026-10-20",
+ "final": false,
+ "version": 6,
+ "price": {
+  "date": "2026-10-20",
+  "adj_close": 1.01
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 5170286,
+  "parts": [
+   "Cash"
+  ],
+  "accn": "0001493152-26-037854"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": 2785842.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-08-12",
+  "shares": 68774956
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These factors raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 136372.0,
+  "tags": "LoansPayableCurrent"
+ },
+ "public_float": {
+  "usd": 18100000,
+  "as_of": "2025-06-30",
+  "filed": "2026-03-17"
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2026-07-22",
+  "to": "2026-10-22",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "telomir pharmaceuticals",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT07581314",
+    "drugs": [
+     "Zn-Telomir"
+    ]
+   }
+  ]
+ }
+}

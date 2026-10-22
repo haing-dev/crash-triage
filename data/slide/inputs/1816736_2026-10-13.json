@@ -45,10 +45,73 @@
   "filed": "2026-02-26"
  },
  "insiders": {
-  "form4s": 8,
+  "form4s": 9,
   "from": "2026-07-15",
-  "to": "2026-10-21",
+  "to": "2026-10-22",
   "trades": [
+   {
+    "date": "2026-10-19",
+    "filed": "2026-10-21",
+    "code": "S",
+    "value": 474782,
+    "who": "Bitterman Kevin"
+   },
+   {
+    "date": "2026-10-19",
+    "filed": "2026-10-21",
+    "code": "S",
+    "value": 395212,
+    "who": "Bitterman Kevin"
+   },
+   {
+    "date": "2026-10-19",
+    "filed": "2026-10-21",
+    "code": "S",
+    "value": 9197,
+    "who": "Bitterman Kevin"
+   },
+   {
+    "date": "2026-10-20",
+    "filed": "2026-10-21",
+    "code": "S",
+    "value": 229377,
+    "who": "Bitterman Kevin"
+   },
+   {
+    "date": "2026-10-20",
+    "filed": "2026-10-21",
+    "code": "S",
+    "value": 190921,
+    "who": "Bitterman Kevin"
+   },
+   {
+    "date": "2026-10-20",
+    "filed": "2026-10-21",
+    "code": "S",
+    "value": 4397,
+    "who": "Bitterman Kevin"
+   },
+   {
+    "date": "2026-10-21",
+    "filed": "2026-10-21",
+    "code": "S",
+    "value": 1105810,
+    "who": "Bitterman Kevin"
+   },
+   {
+    "date": "2026-10-21",
+    "filed": "2026-10-21",
+    "code": "S",
+    "value": 920238,
+    "who": "Bitterman Kevin"
+   },
+   {
+    "date": "2026-10-21",
+    "filed": "2026-10-21",
+    "code": "S",
+    "value": 21341,
+    "who": "Bitterman Kevin"
+   },
    {
     "date": "2026-09-11",
     "filed": "2026-09-15",
@@ -219,9 +282,10 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT07368972",
+    "nct": "NCT05883748",
     "drugs": [
-     "DISC-0974"
+     "DISC-1459",
+     "DISC-1459"
     ]
    },
    {
@@ -231,16 +295,15 @@
     ]
    },
    {
-    "nct": "NCT05320198",
+    "nct": "NCT07368972",
     "drugs": [
      "DISC-0974"
     ]
    },
    {
-    "nct": "NCT05883748",
+    "nct": "NCT05320198",
     "drugs": [
-     "DISC-1459",
-     "DISC-1459"
+     "DISC-0974"
     ]
    }
   ]

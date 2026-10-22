@@ -48,7 +48,7 @@
  "insiders": {
   "form4s": 13,
   "from": "2026-06-25",
-  "to": "2026-10-21",
+  "to": "2026-10-22",
   "trades": [
    {
     "date": "2026-09-14",
@@ -192,16 +192,23 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT06553768",
-    "drugs": [
-     "Maralixibat"
-    ]
-   },
-   {
     "nct": "NCT07200908",
     "drugs": [
      "Brelovitug 300 mg",
      "Bulevirtide 2 mg and Brelovitug - 300 mg"
+    ]
+   },
+   {
+    "nct": "NCT07454837",
+    "drugs": [
+     "Brelovitug (BJT-778)",
+     "Bulevirtide"
+    ]
+   },
+   {
+    "nct": "NCT06553768",
+    "drugs": [
+     "Maralixibat"
     ]
    },
    {
@@ -213,18 +220,9 @@
     ]
    },
    {
-    "nct": "NCT07454837",
+    "nct": "NCT05050136",
     "drugs": [
-     "Brelovitug (BJT-778)",
-     "Bulevirtide"
-    ]
-   },
-   {
-    "nct": "NCT06907290",
-    "drugs": [
-     "Brelovitug 300 mg",
-     "Brelovitug 900 mg",
-     "Delayed Treatment with Brelovitug 300mg"
+     "Volixibat"
     ]
    }
   ]

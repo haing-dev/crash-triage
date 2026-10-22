@@ -48,7 +48,7 @@
  "insiders": {
   "form4s": 5,
   "from": "2026-07-10",
-  "to": "2026-10-21",
+  "to": "2026-10-22",
   "trades": [
    {
     "date": "2026-09-04",
@@ -94,21 +94,16 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT05262023",
+    "nct": "NCT05371613",
     "drugs": [
-     "DNL593"
+     "tividenofusp alfa",
+     "idursulfase"
     ]
    },
    {
-    "nct": "NCT06075537",
+    "nct": "NCT06602193",
     "drugs": [
-     "tividenofusp alfa"
-    ]
-   },
-   {
-    "nct": "NCT04251026",
-    "drugs": [
-     "tividenofusp alfa"
+     "BIIB122 225 mg"
     ]
    },
    {
@@ -118,9 +113,15 @@
     ]
    },
    {
-    "nct": "NCT06602193",
+    "nct": "NCT05262023",
     "drugs": [
-     "BIIB122 225 mg"
+     "DNL593"
+    ]
+   },
+   {
+    "nct": "NCT04251026",
+    "drugs": [
+     "tividenofusp alfa"
     ]
    }
   ]
