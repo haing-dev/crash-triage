@@ -1,16 +1,17 @@
 """
 Build the static site into ./site: web/ (page code) + site/data.json with both triages.
 
-For every episode: the cells and call (fit.py), the crash announcement (crashes), market value at entry, and the total
-return if bought at the entry-day close (returns.py): one year later once the year is complete (backtest: Winner >=
-+30%, Recovery 0 to +30%, Failure < 0), else to the latest close (screener). Every return is shown next to the average
-of the 10 similar biotechs bought the same day (controls.py).
+For every episode: the cells and call (fit.py, made at entry), the crash announcement (crashes), market value at entry,
+and the total return if bought at the close of the buy day, 91 days after entry (returns.py): one year after the buy
+once that year is complete (backtest: Winner >= +30%, Recovery 0 to +30%, Failure < 0), else to the latest close
+(screener). Not bought if it stopped trading before the buy day. Every return is shown next to the average of the 10
+similar biotechs bought the same day (controls.py).
 
 Track record (Buy candidates with complete inputs):
-  line chart   average total return day by day for a year after entry (any single return capped at +500%), against
+  line chart   average total return day by day for a year after the buy (any single return capped at +500%), against
                their similar biotechs and the biotech index (XBI) over the same dates
-  $10,000      per year of entry: $10,000 split equally over that year's Buy candidates, each held a year (or to the
-               latest close if the year isn't over), against the same money in their similar biotechs and in XBI
+  $10,000      per year of buying: $10,000 split equally over the Buy candidates bought that year, each held a year (or
+               to the latest close if the year isn't over), against the same money in their similar biotechs and in XBI
   by cause     crashes only: one-year results per cause of the crash (from the company's announcement)
 Live calls: data/ledger.csv, one row each time a recent episode (entry within 30 days) gets a call or a new call;
 the build's time is the call time and the return is measured from the last close before it. The workflow publishes
@@ -19,7 +20,7 @@ new rows as a GitHub release, whose timestamp GitHub sets.
 import csv, json, shutil, statistics, time
 from datetime import date, datetime, timezone
 from common import DATA, ROOT, KINDS, closes, episodes, universe
-from returns import STEPS, path, plus, total_return
+from returns import STEPS, bought, buy_day, plus, total_return
 
 SITE = ROOT / "site"
 TODAY = date.today().isoformat()
@@ -49,15 +50,15 @@ def series(ctrl, r):
     """Return at each step after entry (as far as today reaches): own, similar biotechs, XBI."""
     own, ctl, idx = [], [], []
     for k in STEPS:
-        d1 = plus(r["entry_date"], k)
+        d1 = plus(r["buy_date"], k)
         if d1 > TODAY:
             break
-        a, _ = total_return(r["cik"], r["entry_date"], d1)
+        a, _ = total_return(r["cik"], r["buy_date"], d1)
         if a is None:
             break
         own.append(min(a, 5.0))
-        ctl.append(ctrl_return(ctrl, r["id"], r["entry_date"], d1))
-        idx.append(total_return("XBI", r["entry_date"], d1)[0])
+        ctl.append(ctrl_return(ctrl, r["id"], r["buy_date"], d1))
+        idx.append(total_return("XBI", r["buy_date"], d1)[0])
     return own, ctl, idx
 
 
@@ -101,17 +102,20 @@ def build(kind, ctrl):
         rec["sources"].append({"label": "All SEC filings",
                                "url": f"https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK={int(c['cik'])}&type=&dateb=&owner=include&count=40"})
         entry_d = c["end_date"]
-        one_year = plus(entry_d, 365)
-        rec["entry_date"], rec["played"] = entry_d, one_year <= TODAY
-        r, last = total_return(c["cik"], entry_d, one_year if rec["played"] else TODAY)
+        buy = buy_day(entry_d)
+        one_year = plus(buy, 365)
+        rec["entry_date"], rec["buy_date"], rec["played"] = entry_d, buy, one_year <= TODAY
+        ds, _ = closes(c["cik"])
+        if not bought(c["cik"], buy, TODAY):
+            rec["not_bought"] = rec["stopped"] = ds[-1] if ds else None
+        r, last = total_return(c["cik"], buy, one_year if rec["played"] else TODAY) if buy <= TODAY and not rec.get("not_bought") else (None, None)
         if r is not None:
             rec["ret"], rec["ret_to"] = round(r * 100, 1), last
-            cr = ctrl_return(ctrl, cid, entry_d, one_year if rec["played"] else TODAY)
+            cr = ctrl_return(ctrl, cid, buy, one_year if rec["played"] else TODAY)
             rec["ctrl_ret"] = round(cr * 100, 1) if cr is not None else None
             if rec["played"]:
                 rec["outcome"] = "Winner" if rec["ret"] >= 30 else "Recovery" if rec["ret"] >= 0 else "Failure"
                 rec["ctrl365"] = rec["ctrl_ret"]
-            ds, _ = closes(c["cik"])
             if ds and ds[-1] < min(one_year, plus(TODAY, -7)):
                 rec["stopped"] = ds[-1]
         items.append(rec)
@@ -120,8 +124,8 @@ def build(kind, ctrl):
     played = [ser[r["id"]] for r in buys if r["played"] and len(ser[r["id"]][0]) == len(STEPS)]
     track = {"n": len(played), "own": avg_path(played, 0), "ctrl": avg_path(played, 1), "xbi": avg_path(played, 2)} if played else None
     years = {}
-    for y in sorted({r["entry_date"][:4] for r in buys}):
-        grp = [r for r in buys if r["entry_date"][:4] == y]
+    for y in sorted({r["buy_date"][:4] for r in buys}):
+        grp = [r for r in buys if r["buy_date"][:4] == y]
         ss = [ser[r["id"]] for r in grp if ser[r["id"]][0]]
         if not ss:
             continue
