@@ -9,8 +9,9 @@ Prices, market value and returns, one implementation for every company and every
                  all on the same split-adjusted basis. A reverse split is in the adjusted prices, so it neither helps
                  nor hurts the return; new shares a company sells show up in its share price. A company that stopped
                  trading (bought out, delisted) is valued at its last close: what a holder could have sold at.
-  buy day        the call is made at entry; the buy is the close 91 days later (backtest: buying then beat buying at
-                 entry, before and after July 2023), held a year. A company no longer trading by then is not bought.
+  entry day      91 days after the crash/slide is detected: the call is made from everything public by then and the
+                 stock bought at that close, held a year (backtest: buying then beat buying on detection, before and
+                 after July 2023). A company no longer trading by then gets no call.
 """
 import csv, json
 from bisect import bisect_right
@@ -27,12 +28,6 @@ def plus(d, n):
 
 def buy_day(entry):
     return plus(entry, BUY_DELAY)
-
-
-def bought(cik, buy, today):
-    """False if the company stopped trading before the buy day (or, while the buy day is still ahead, already)."""
-    ds, _ = closes(cik)
-    return bool(ds) and ds[-1] >= plus(min(buy, today), -7)
 
 
 @lru_cache(maxsize=None)

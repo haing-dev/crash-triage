@@ -1,6 +1,7 @@
 """
-Similar biotechs: for every episode, the 10 companies in the universe most like it on its entry day, measured only
-with what was known that day, so the comparison asks "what if I had bought a similar biotech instead?".
+Similar biotechs: for every episode, the 10 companies in the universe most like it on its entry day (91 days after
+the crash/slide was detected, when the call is made and the stock bought), measured only with what was known that day,
+so the comparison asks "what if I had bought a similar biotech instead?".
 
   eligible   traded on the entry day (or within the 5 days before) and 6 months earlier; market value known
              (actual close x cover-page shares); not the company itself; no crash or slide entry of its own in the
@@ -13,7 +14,8 @@ Output: data/controls.json {episode id: {entry, ciks}} (rebuilt by fit.py every 
 import json
 from bisect import bisect_right
 from common import DATA, KINDS, closes, episodes
-from returns import mcap, plus
+from datetime import date
+from returns import buy_day, mcap, plus
 
 N = 10
 
@@ -59,7 +61,9 @@ def build():
     out, by_day = {}, {}
     for k in KINDS:                                       # recomputed every build: data filled in later is used
         for c in episodes(k):
-            by_day.setdefault(c["end_date"], []).append((f"{c['cik']}_{c['date']}", c["cik"]))
+            d = buy_day(c["end_date"])
+            if d <= date.today().isoformat():
+                by_day.setdefault(d, []).append((f"{c['cik']}_{c['date']}", c["cik"]))
     for d, eps in sorted(by_day.items()):
         cand = day_candidates(d, ciks, busy)
         pos = {x[0]: x for x in cand}

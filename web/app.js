@@ -6,9 +6,9 @@ const FACTS = [["ev","EV/Cash"],["programs","Alternative Programs"],["raise","Ra
   ["funds","High Conviction Owners"],["top","Top Performer Owners"],["short","Short Interest"]];
 const KIND = {
   crash: {label: "Crash Triage", word: "crash", plural: "crashes", facts: [["safety","Safety"], ...FACTS],
-    blurb: "a US biotech stock fell 50% or more within 5 trading days, starting with a news day of −25% or worse. Entry = the close on the day the crash is detected"},
+    blurb: "a US biotech stock fell 50% or more within 5 trading days, starting with a news day of −25% or worse. Entry = 91 days after the crash is detected: the call is made that day from everything public by then, and bought at that close"},
   slide: {label: "Slide Triage", word: "slide", plural: "slides", facts: FACTS,
-    blurb: "a US biotech stock slid 30% below its 6-month high with no single day of −25% or worse (stocks that crashed in the same period are left out). Entry = the first close 30% below the high"}};
+    blurb: "a US biotech stock slid 30% below its 6-month high with no single day of −25% or worse (stocks that crashed in the same period are left out). Entry = 91 days after the first close 30% below the high: the call is made that day from everything public by then, and bought at that close"}};
 const ICON = {g:"✓", r:"✕", n:"–"};
 const VERDICT = {
   overdone:["p-good","▲","Buy candidate","var(--g-line)"],
@@ -31,6 +31,10 @@ const usd = v => "$" + Math.round(v).toLocaleString("en-US");
 const mcapBucket = v => v == null ? "N/A" : v < 5e7 ? "Under $50M" : v < 3e8 ? "$50–300M" : v < 2e9 ? "$300M–2B" : "Over $2B";
 let D = null, K = "crash", SHOW = 60, MODE = "screener", SORT = false, AGO = 0;
 const daysAgo = c => Math.round((Date.parse(D.updated.slice(0, 10)) - Date.parse(c.date)) / 864e5);
+const upcoming = c => c.entry_date > D.updated.slice(0, 10);
+const daysTo = c => Math.round((Date.parse(c.entry_date) - Date.parse(D.updated.slice(0, 10))) / 864e5);
+const callCell = c => upcoming(c) ? `<td title="Call made on ${esc(c.entry_date)}, 91 days after the ${KIND[K].word}, from everything public by then">${pill("tbu")}<div class="muted sm">call in ${daysTo(c)} days</div></td>`
+  : `<td${c.why?.length ? ` title="${esc(c.why.join(" · "))}"` : ""}>${pill(c.verdict)}</td>`;
 const items = () => D.kinds[K].items;
 const base = () => `#/${K}`;
 
@@ -43,9 +47,8 @@ function hideTip(){ tip.style.opacity = 0; }
 function cell(f, wide){ const [k,v,n] = f || ["n","N/A",""], t = n ? ` title="${esc(n)}"` : "";
   return v === "N/A" ? `<td class="f f-na${wide?" wide":""}"${t}>N/A</td>` : `<td class="f f-${k}${wide?" wide":""}${n?" tip":""}"${t}><span class="ic">${ICON[k]||""}</span>${esc(v)}</td>`; }
 const th = (label, sub, cls="") => `<th class="${cls}">${label}${sub ? `<div class="hs">${sub}</div>` : ""}</th>`;
-const retCell = (c, bt) => c.not_bought ? `<td class="r muted" title="Stopped trading ${esc(c.stopped)}, before the buy day ${esc(c.buy_date)}">Not bought</td>` :
-  c.ret == null ? (c.buy_date > D.updated.slice(0, 10) ? `<td class="r" style="white-space:nowrap" title="Buy at the close on ${esc(c.buy_date)}, 91 days after entry"><b>Buy in ${Math.round((Date.parse(c.buy_date) - Date.parse(D.updated.slice(0, 10))) / 864e5)} days</b><div class="muted sm">${esc(c.buy_date)}</div></td>` : `<td class="r muted">N/A</td>`) :
-  `<td class="r" style="white-space:nowrap" title="Bought at the close of ${esc(c.buy_date)}, 91 days after entry"><span class="num" style="color:${c.ret >= 0 ? "var(--good)" : "var(--bad)"}">${pct(c.ret)}</span>
+const retCell = (c, bt) => c.ret == null ? `<td class="r muted">${upcoming(c) ? "–" : "N/A"}</td>` :
+  `<td class="r" style="white-space:nowrap" title="Bought at the entry close, ${esc(c.entry_date)}"><span class="num" style="color:${c.ret >= 0 ? "var(--good)" : "var(--bad)"}">${pct(c.ret)}</span>
    <div class="muted sm">${c.ctrl_ret != null ? `similar biotechs ${pct(c.ctrl_ret)}` : ""}${c.stopped ? `${c.ctrl_ret != null ? "<br>" : ""}stopped trading ${esc(c.stopped)}` : ""}</div></td>`;
 
 /* ------------------------------------------------------------------ the two tables
@@ -64,8 +67,8 @@ function viewTable(mode){
   const nT = rows.filter(c => c.verdict === "tbu").length;
   $("#app").innerHTML = `
   <div class="toprow"><div><h1>${bt ? "Backtest" : "Screener"}</h1><div class="muted">${rows.length} times ${kd.blurb}. ${bt
-     ? "A full year since the buy (the close 91 days after entry): total return held one year · Winner ≥ +30%, Recovery 0 to +30%, Failure below 0%"
-     : "Less than a year since the buy (the close 91 days after entry): total return to the latest close"}${nT ? ` · ${nT} TBU: an input for the entry day is still being collected` : ""}</div></div>
+     ? "A full year since entry: total return if bought at the entry close and held one year · Winner ≥ +30%, Recovery 0 to +30%, Failure below 0%"
+     : "Less than a year since entry: total return if bought at the entry close, to the latest close · before entry: TBU, call in N days"}${nT ? ` · ${nT} TBU: an input for the entry day is still being collected` : ""}</div></div>
    <div class="filters">
     <select id="fy"><option value="">All years</option>${years.map(y=>`<option>${y}</option>`).join("")}</select>
     <input id="fq" placeholder="Search company or ticker"></div></div>
@@ -94,12 +97,12 @@ function fill(){
     && (!q || `${c.name} ${c.ticker} ${c.summary||""}`.toLowerCase().includes(q)));
   if (SORT) list.sort((a, b) => (b.insider_net ?? 0) - (a.insider_net ?? 0));
   if (AGO) list.sort((a, b) => AGO * (daysAgo(a) - daysAgo(b)));          // fewest days ago first, or most
-  $("#rows").innerHTML = list.slice(0, SHOW).map(c => `<tr data-id="${c.id}"><td><b>${esc(c.name)}</b><div class="muted sm">${esc(c.ticker)} · ${esc(c.entry_date)}</div></td>
+  $("#rows").innerHTML = list.slice(0, SHOW).map(c => `<tr data-id="${c.id}"><td><b>${esc(c.name)}</b><div class="muted sm">${esc(c.ticker)} · entry ${esc(c.entry_date)}</div></td>
     <td class="r" style="white-space:nowrap"><span class="num">${pct(c.move)}</span><div class="muted sm">${daysAgo(c)} days ago</div></td>
     ${crash ? `<td class="what">${esc(c.summary || "Reading the company's announcement…")}</td>` : ""}
     <td class="r ${c.mcap == null ? "muted" : ""}" style="white-space:nowrap">${money(c.mcap)}${c.price != null ? `<div class="muted sm">$${c.price < 1 ? c.price.toFixed(3) : c.price.toFixed(2)}/share</div>` : ""}</td>
     ${kd.facts.map(f => cell(c.factors?.[f[0]], f[0] === "insider")).join("")}
-    <td${c.why?.length ? ` title="${esc(c.why.join(" · "))}"` : ""}>${pill(c.verdict)}</td>${retCell(c, bt)}
+    ${callCell(c)}${retCell(c, bt)}
     ${bt ? `<td>${c.outcome ? `<span class="pill ${OUTCOME[c.outcome]}">${c.outcome}</span>` : ""}</td>` : ""}</tr>`).join("") ||
     `<tr><td colspan="20" class="empty">Nothing matches these filters.</td></tr>`;
   $("#cnt").textContent = `Showing ${Math.min(SHOW, list.length)} of ${list.length}.`;
@@ -119,11 +122,11 @@ function viewOne(id){
   const quotes = (c.quotes||[]).map(q => `<div class="quote">“${esc(q)}”</div>`).join("");
   const src = (c.sources||[]).map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.label)}</a>`).join("");
   const after = c.ret == null ? "" : `<div class="card"><h4>What happened next</h4><div class="tiles">
-     <div><b>${pct(c.ret)}</b><span>${c.played ? "1-year total return" : `total return to ${esc(c.ret_to)}`} if bought at the close of ${esc(c.buy_date)}, 91 days after entry${c.stopped ? `; stopped trading ${esc(c.stopped)}, valued at its last close` : ""}</span></div>
+     <div><b>${pct(c.ret)}</b><span>${c.played ? "1-year total return" : `total return to ${esc(c.ret_to)}`} if bought at the entry close, ${esc(c.entry_date)}${c.stopped ? `; stopped trading ${esc(c.stopped)}, valued at its last close` : ""}</span></div>
      ${c.ctrl_ret == null ? "" : `<div><b>${pct(c.ctrl_ret)}</b><span>10 similar biotechs bought the same day (same size and 6-month price change, no crash or slide of their own)</span></div>`}
      ${c.outcome ? `<div><b><span class="pill ${OUTCOME[c.outcome]}">${c.outcome}</span></b><span>outcome</span></div>` : ""}</div></div>`;
-  const head = K === "crash" ? `News day ${esc(c.date)} (${pct(c.news_day)} that day) · entry close ${esc(c.entry_date)}`
-    : `Entry ${esc(c.entry_date)} · 6-month high on ${esc(c.peak_date)} · worst single day ${pct(c.news_day)}`;
+  const head = K === "crash" ? `News day ${esc(c.date)} (${pct(c.news_day)} that day) · detected ${esc(c.detected)} · entry ${esc(c.entry_date)}`
+    : `Slide detected ${esc(c.detected)} · 6-month high on ${esc(c.peak_date)} · worst single day ${pct(c.news_day)} · entry ${esc(c.entry_date)}`;
   $("#app").innerHTML = `
   <div class="vhead"><div><div class="muted">${head} · <a href="${back}">‹ ${c.played ? "Backtest" : "Screener"}</a></div>
     <h2>${esc(c.name)} <span class="muted" style="font-size:18px">${esc(c.ticker)}</span><span class="mv">${pct(c.move)}</span><span class="muted" style="font-size:16px;margin-left:8px">${daysAgo(c)} days ago</span></h2>
@@ -175,20 +178,20 @@ function barChart(el, data, keys){
 function viewTrack(){
   const kd = D.kinds[K], T = kd.track, Y = kd.years || {}, ys = Object.keys(Y).sort(), C = kd.causes || {}, f = v => v == null ? "–" : pct(v);
   const steps = kd.steps || [], last = a => a?.length ? a[a.length - 1] : null;
-  const causes = Object.keys(C).length ? `<div class="card"><h4>One year after the buy, by cause of the crash (all calls)</h4><div class="tablewrap"><table class="stats">
+  const causes = Object.keys(C).length ? `<div class="card"><h4>One year after entry, by cause of the crash (all calls)</h4><div class="tablewrap"><table class="stats">
     <thead><tr><th>Cause</th><th class="r">Crashes</th><th class="r">Median</th><th class="r">Average*</th><th class="r">Similar biotechs, average</th><th class="r">Up 30%+</th><th class="r">Down 80%+</th></tr></thead><tbody>
     ${Object.entries(C).map(([k, s]) => `<tr><td>${esc(k)}</td><td class="r">${s.n}</td><td class="r">${f(s.median)}</td><td class="r"><b>${f(s.mean)}</b></td><td class="r">${f(s.ctrl_mean)}</td><td class="r">${s.win30}%</td><td class="r">${s.wipe80}%</td></tr>`).join("")}</tbody></table></div></div>` : "";
-  $("#app").innerHTML = `<div class="toprow"><div><h1>Track record</h1><div class="muted">Buy candidates (called at entry), bought at the close 91 days after entry and held a year, against 10 similar biotechs bought the same day and the biotech index (XBI) over the same dates.</div></div></div>
+  $("#app").innerHTML = `<div class="toprow"><div><h1>Track record</h1><div class="muted">Buy candidates, called and bought at the entry close (91 days after the ${KIND[K].word} was detected) and held a year, against 10 similar biotechs bought the same day and the biotech index (XBI) over the same dates.</div></div></div>
    <div class="card" id="tr"><h4>Average return after buying${T ? ` · ${T.n} Buy candidates with a full year` : ""}</h4>${T ? `<div class="tiles" style="margin-bottom:12px">
      <div><b>${f(last(T.own))}</b><span>Buy candidates, 1 year later</span></div><div><b>${f(last(T.ctrl))}</b><span>similar biotechs</span></div><div><b>${f(last(T.xbi))}</b><span>biotech index (XBI)</span></div></div>` : `<p class="empty">Appears once Buy candidates have a full year of prices.</p>`}</div>
-   <div class="card" id="pf"><div class="toprow" style="margin-bottom:4px"><h4 style="margin:0">$10,000 test: all Buy candidates bought in one year, equal money in each, each held a year</h4>
+   <div class="card" id="pf"><div class="toprow" style="margin-bottom:4px"><h4 style="margin:0">$10,000 test: all Buy candidates of one entry year, equal money in each, each held a year</h4>
      ${ys.length ? `<select id="py">${ys.map(y => `<option${y === ys[ys.length - 2] || (ys.length === 1) ? " selected" : ""}>${y}</option>`).join("")}</select>` : ""}</div><div id="pfb"></div></div>
    ${causes}<div class="fnote">*Each return capped at +500%. Total return: price change plus cash paid out per share; a company that stopped trading (bought out, delisted) counts at its last close; reverse splits are taken out of the price. No trading costs. Similar biotechs: the 10 closest in market value and 6-month price change on the entry day, with no crash or slide of their own.</div>`;
   const xl = n => [0,90,180,270,365].map(d => [steps.indexOf(d) >= 0 ? steps.indexOf(d) : Math.round(d/365*(n-1)), d ? "day " + d : "bought"]).filter(([i]) => i < n);
   if (T) lineChart($("#tr"), [{l: "Buy candidates", col: "var(--g-line)", path: T.own}, {l: "Similar biotechs", col: "var(--idx)", path: T.ctrl, dash: true},
     {l: "Biotech index (XBI)", col: "var(--blue)", path: T.xbi, dash: true}], T.own.length, xl(T.own.length), {...PCT, at: j => `Day ${steps[j]}`});
   const draw = () => { const y = $("#py").value, v = Y[y], n = v.path.own.length, money = a => a.map(q => 10000 * (1 + q / 100));
-    $("#pfb").innerHTML = `<div class="tiles" style="margin:8px 0 10px"><div><b>${usd(v.own)}</b><span>in ${v.n} Buy candidates bought in ${y}</span></div><div><b>${usd(v.ctrl)}</b><span>in their similar biotechs</span></div><div><b>${usd(v.xbi)}</b><span>in the biotech index (XBI)</span></div></div>
+    $("#pfb").innerHTML = `<div class="tiles" style="margin:8px 0 10px"><div><b>${usd(v.own)}</b><span>in ${v.n} Buy candidates entered in ${y}</span></div><div><b>${usd(v.ctrl)}</b><span>in their similar biotechs</span></div><div><b>${usd(v.xbi)}</b><span>in the biotech index (XBI)</span></div></div>
       ${v.open ? `<div class="fnote" style="margin:0 0 8px">${v.open} of them bought less than a year ago: valued at the latest close.</div>` : ""}`;
     if (n > 1) lineChart($("#pfb"), [{l: "Buy candidates", col: "var(--g-line)", path: money(v.path.own)}, {l: "Similar biotechs", col: "var(--idx)", path: money(v.path.ctrl), dash: true},
       {l: "Biotech index (XBI)", col: "var(--blue)", path: money(v.path.xbi), dash: true}], n, xl(n),
