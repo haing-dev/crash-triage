@@ -1,7 +1,7 @@
 name: collect-inputs
 on:
   schedule:
-    - cron: "37 1 * * *"        # daily; new episodes are re-collected until their 30-day insider window has passed
+    - cron: "37 1 * * *"        # daily; episodes are collected once their entry day (detection + 91 days) has passed
   push:
     paths: ["pipeline/inputs.py"]
   workflow_dispatch:
@@ -32,6 +32,6 @@ jobs:
         run: |
           git config user.name "crash-triage-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/*/inputs
+          git add data/*/signal
           git commit -m "episode inputs [skip ci]" || echo "no change"
           for i in 1 2 3 4 5; do git pull --rebase -q && git push -q && break; sleep $((i*7)); done
