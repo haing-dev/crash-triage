@@ -44,7 +44,7 @@ function cell(f, wide){ const [k,v,n] = f || ["n","N/A",""], t = n ? ` title="${
   return v === "N/A" ? `<td class="f f-na${wide?" wide":""}"${t}>N/A</td>` : `<td class="f f-${k}${wide?" wide":""}${n?" tip":""}"${t}><span class="ic">${ICON[k]||""}</span>${esc(v)}</td>`; }
 const th = (label, sub, cls="") => `<th class="${cls}">${label}${sub ? `<div class="hs">${sub}</div>` : ""}</th>`;
 const retCell = (c, bt) => c.not_bought ? `<td class="r muted" title="Stopped trading ${esc(c.stopped)}, before the buy day ${esc(c.buy_date)}">Not bought</td>` :
-  c.ret == null ? `<td class="r muted"${c.buy_date > D.updated.slice(0, 10) ? ` title="Bought at the close 91 days after entry">Buy ${esc(c.buy_date)}` : ">N/A"}</td>` :
+  c.ret == null ? (c.buy_date > D.updated.slice(0, 10) ? `<td class="r" style="white-space:nowrap" title="Buy at the close on ${esc(c.buy_date)}, 91 days after entry"><b>Buy in ${Math.round((Date.parse(c.buy_date) - Date.parse(D.updated.slice(0, 10))) / 864e5)} days</b><div class="muted sm">${esc(c.buy_date)}</div></td>` : `<td class="r muted">N/A</td>`) :
   `<td class="r" style="white-space:nowrap" title="Bought at the close of ${esc(c.buy_date)}, 91 days after entry"><span class="num" style="color:${c.ret >= 0 ? "var(--good)" : "var(--bad)"}">${pct(c.ret)}</span>
    <div class="muted sm">${c.ctrl_ret != null ? `similar biotechs ${pct(c.ctrl_ret)}` : ""}${c.stopped ? `${c.ctrl_ret != null ? "<br>" : ""}stopped trading ${esc(c.stopped)}` : ""}</div></td>`;
 
