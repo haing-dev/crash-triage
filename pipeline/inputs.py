@@ -1,7 +1,6 @@
 """
-Collect each episode's factor inputs from public sources, using only what was public by its entry day: 91 days after
-the crash was detected (or a slide crossed -30%). The call is made that day and the backtest buys at that close, so
-there is one signal and no look-ahead. Episodes whose entry day is still ahead are collected once it has passed.
+Collect each episode's factor inputs from public sources, using only what was public by the entry day (the day the
+crash was detected, or the day a slide crossed -30%), which is where the backtest buys: no look-ahead.
 
   liquid funds  latest balance sheet filed by entry: unrestricted cash & equivalents + readily liquid marketable
                 securities (SEC XBRL; restricted cash removed; long-term investments left out)
@@ -15,11 +14,10 @@ there is one signal and no look-ahead. Episodes whose entry day is still ahead a
                 under $75M the SEC caps shelf sales (incl. ATM) at a third of it per 12 months
   financing terms in that same 10-Q/10-K text: convertibles whose conversion price floats below the market,
                 warrants whose price resets lower, and equity lines (fixed patterns; the matching sentence is kept)
-  insiders      every open-market buy (P) and sale (S) in Form 4s filed from 90 days before the episode date to entry
-  trials        other Phase 2+ trials the company leads that were running on the entry day (ClinicalTrials.gov)
+  insiders      every open-market buy (P) and sale (S) in Form 4s from 90 days before the episode date to 30 after
+  trials        other Phase 2+ trials the company leads that were running on the episode date (ClinicalTrials.gov)
 
-Output: data/<kind>/signal/<cik>_<date>.json (written once the entry day has passed and prices reach it;
-not_traded = the company stopped trading before its entry day, so it never gets a call)
+Output: data/<kind>/inputs/<cik>_<date>.json (re-collected until the 30-day insider window has passed)
 
     python inputs.py --kind crash --limit 2000      # re-collects everything when VERSION changes
 """
@@ -32,8 +30,7 @@ from urllib.parse import quote
 from common import closes, episodes, filings, get, kdir, sec_text, sec_url, KINDS
 
 TODAY = date.today().isoformat()
-VERSION = 7
-DELAY = 91
+VERSION = 6
 CASH = ["CashAndCashEquivalentsAtCarryingValue", "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents", "Cash"]
 RESTRICTED = ["RestrictedCash", "RestrictedCashCurrent", "RestrictedCashNoncurrent", "RestrictedCashAndCashEquivalentsAtCarryingValue",
               "RestrictedCashAndCashEquivalentsCurrent", "RestrictedCashAndCashEquivalentsNoncurrent"]
@@ -318,54 +315,48 @@ def main():
     ap.add_argument("--kind", choices=KINDS, required=True)
     ap.add_argument("--limit", type=int, default=2000)
     a = ap.parse_args()
-    out_dir = kdir(a.kind, "signal")
+    out_dir = kdir(a.kind, "inputs")
     eps = sorted(episodes(a.kind), key=lambda c: c["cik"])          # company by company: XBRL/filings stay cached
-    market = closes("XBI")[0][-1]                                     # prices are in through this day
-    n = done = wait = 0
+    n = done = 0
     for c in eps:
         cid = f"{c['cik']}_{c['date']}"
         out = out_dir / f"{cid}.json"
-        entry = (date.fromisoformat(c["end_date"]) + timedelta(days=DELAY)).isoformat()
-        if entry > market:
-            wait += 1
-            continue                                                  # entry day not reached (or its prices not in)
+        entry = c["end_date"]
         win0 = (date.fromisoformat(c["date"]) - timedelta(days=90)).isoformat()
+        win1 = (date.fromisoformat(c["date"]) + timedelta(days=30)).isoformat()
         if out.exists():
             old = json.loads(out.read_text())
-            if old.get("version") == VERSION and old.get("asof") == entry and not old.get("error"):
+            if old.get("version") == VERSION and old.get("final") and not old.get("error"):
                 done += 1
                 continue
         if n >= a.limit:
             break
         n += 1
-        rec = {"id": cid, "kind": a.kind, "cik": c["cik"], "name": c["name"], "date": c["date"], "detected": c["end_date"],
-               "asof": entry, "version": VERSION}
+        rec = {"id": cid, "kind": a.kind, "cik": c["cik"], "name": c["name"], "date": c["date"], "asof": entry,
+               "final": win1 <= TODAY, "version": VERSION}
         try:
+            f = facts(c["cik"])
             ds, cs = closes(c["cik"])
-            i = bisect_left(ds, entry + "~") - 1                      # last close on or before the entry day
-            if i < 0 or ds[i] < (date.fromisoformat(entry) - timedelta(days=7)).isoformat():
-                rec["not_traded"] = ds[-1] if ds else None
-            else:
-                f = facts(c["cik"])
-                rec["price"] = {"date": ds[i], "adj_close": cs[i]}
-                rec["balance"], rec["burn6"], rec["shares"] = balance(f, entry), burn6(f, entry), shares(f, entry)
-                accn = (rec["balance"] or {}).get("accn")
-                rec["going_concern"] = going_concern(c["cik"], accn)
-                rec["financing_terms"] = financing_terms(c["cik"], accn)
-                rec["debt"] = debt(f, rec["balance"]["end"], entry) if rec["balance"] else None
-                rec["public_float"] = public_float(f, entry)
-                rec["insiders"] = insiders(c["cik"], win0, entry)
-                ev = kdir("crash", "events") / f"{cid}.json"
-                drug = ((json.loads(ev.read_text()).get("facts") or {}).get("drug")) if a.kind == "crash" and ev.exists() else None
-                rec["drug"] = drug
-                rec["trials"] = trials(c["name"], entry, drug)
+            i = bisect_left(ds, entry)
+            rec["price"] = {"date": ds[i], "adj_close": cs[i]} if i < len(ds) else None
+            rec["balance"], rec["burn6"], rec["shares"] = balance(f, entry), burn6(f, entry), shares(f, entry)
+            accn = (rec["balance"] or {}).get("accn")
+            rec["going_concern"] = going_concern(c["cik"], accn)
+            rec["financing_terms"] = financing_terms(c["cik"], accn)
+            rec["debt"] = debt(f, rec["balance"]["end"], entry) if rec["balance"] else None
+            rec["public_float"] = public_float(f, entry)
+            rec["insiders"] = insiders(c["cik"], win0, min(win1, TODAY))
+            ev = kdir("crash", "events") / f"{cid}.json"
+            drug = ((json.loads(ev.read_text()).get("facts") or {}).get("drug")) if a.kind == "crash" and ev.exists() else None
+            rec["drug"] = drug
+            rec["trials"] = trials(c["name"], c["date"], drug)
         except Exception as e:
             rec["error"] = str(e)[:300]
         out.write_text(json.dumps(rec, indent=1))
         b = rec.get("balance") or {}
         print(f"{a.kind} {c['date']} {c['ticker']:6s} cash={b.get('cash')} trades={len((rec.get('insiders') or {}).get('trades', []))} "
-              f"{'not traded ' if 'not_traded' in rec else ''}{rec.get('error', '')[:80]}", flush=True)
-    print(f"{a.kind}: collected this run {n} · already done {done} · entry day ahead {wait} · episodes {len(eps)}")
+              f"{rec.get('error', '')[:80]}", flush=True)
+    print(f"{a.kind}: collected this run {n} · already final {done} · episodes {len(eps)}")
 
 
 if __name__ == "__main__":

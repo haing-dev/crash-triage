@@ -2,10 +2,10 @@
 Turn each episode's inputs into cells and a call (Buy candidate / Watch / Avoid, or TBU while an input is still being
 collected), for both triages with the same method; each learns its cell colours only from its own past episodes.
 
-Outcome used for the colours: total return from the buy day (entry + 91 days, returns.py) to 365 days later minus the
-average return of the 10 similar biotechs bought the same day (controls.py).
+Outcome used for the colours: total return from the entry day to 365 days later (returns.py) minus the average return
+of the 10 similar biotechs bought the same day (controls.py).
 
-Cells (as of the entry day, except the two owner cells, which use 13Fs filed by the buy day):
+Cells (all as of the entry day; nothing later):
   safety    crash only, from the crash announcement: Reported Death / Negative Side Effects / Well Tolerated / N/A
   ev        EV / Cash = (market value + debt - cash) / cash, cash and debt from the latest balance sheet filed by entry
             (SEC XBRL, at most 9 months old); below 0 = worth less than its cash
@@ -14,9 +14,8 @@ Cells (as of the entry day, except the two owner cells, which use 13Fs filed by 
             market, or warrants whose price resets) / Costly (last raise in 3 years came with warrants or at 15%+ below
             the previous close, or an equity line) / Friendly (an ATM programme or a clean last raise) / N/A
   insider   net open-market buying or selling in Form 4s (the call uses those filed by entry)
-  funds     13F filers holding the company at 2%+ of their whole reported portfolio at the end of the quarter before
-            the entry or of the quarter the entry falls in, counting only 13Fs filed by the buy day: how many
-  top       whether any of those is a top performer owner (ranking known at the buy day)
+  funds     13F filers holding the company at 2%+ of their whole reported portfolio, in the latest quarter whose 13F
+            deadline (45 days) had passed by entry: how many
   short     FINRA short interest at the latest settlement date 14+ days before entry, % of shares outstanding that day
             (N/A above 100%: the share count and the short interest then disagree)
 Colours are learned walk-forward (refitted monthly on episodes whose year had ended): the cut-off and which side is
@@ -37,7 +36,7 @@ from bisect import bisect_right
 from datetime import date
 from functools import lru_cache
 from common import DATA, ROOT, KINDS, closes, episodes, kdir, money
-from returns import actual_close, bought, buy_day, plus, shares_on, splits, total_return
+from returns import actual_close, plus, shares_on, splits, total_return
 import controls, holdings
 
 TODAY = date.today().isoformat()
@@ -84,6 +83,13 @@ def fund_data():
     return by_cik, through
 
 
+def quarter_before(d):
+    """Latest quarter end whose 13F deadline (45 days later) is on or before d."""
+    y = int(d[:4])
+    ends = sorted(f"{yy}-{mm:02d}-{dd}" for yy in (y, y - 1) for mm, dd in ((12, 31), (9, 30), (6, 30), (3, 31)))
+    return [e for e in ends if plus(e, 45) <= d][-1]
+
+
 def quarter_of(d):
     """End of the calendar quarter containing day d."""
     y, m = int(d[:4]), int(d[5:7])
@@ -92,21 +98,19 @@ def quarter_of(d):
 
 
 def funds(cik, asof):
-    """13F filers holding the company at 2%+ of their portfolio at the end of the quarter before the entry or of the
-    quarter the entry falls in (funds may buy just before or just after a fall), counting only 13Fs filed by the buy
-    day: everything here was public when the stock is bought."""
+    """13F filers holding the company at 2%+ of their portfolio at the end of the last quarter reported before the
+    entry day, or at the end of the quarter the entry falls in (funds may buy just before or just after a fall)."""
     by_cik, through = fund_data()
-    qa = quarter_of(asof)
-    qb, buy = quarter_of(plus(qa, -92)), buy_day(asof)
+    qb, qa = quarter_before(asof), quarter_of(asof)
     if through is None or through < plus(qb, 45):
         return None
     best = {}
     for r in by_cik.get(cik, []):
-        if r["period"] in (qb, qa) and r["filed"] <= buy:
+        if (r["period"] == qb and r["filed"] <= asof) or r["period"] == qa:
             k = r["filer_cik"]
             if k not in best or float(r["weight"]) > float(best[k]["weight"]):
                 best[k] = r
-    return {"before": qb, "after": qa, "buy": buy, "through": through, "pending": through < buy,
+    return {"before": qb, "after": qa, "after_pending": through < plus(qa, 45),
             "list": sorted(((r["filer_cik"], r["filer"], float(r["weight"]), r["period"]) for r in best.values()), key=lambda t: -t[2])}
 
 
@@ -367,7 +371,7 @@ def note(k, x):
         return f"Largest: {t['who']} {money(t['value'])} on {t['date']} (Form 4 filed {t['filed']}). Trades from 90 days before to 30 days after; the call uses those filed by entry."
     if k == "funds" and x.get("fund"):
         f = x["fund"]
-        tail = f" · 13Fs filed by the buy day ({f['buy']})" + (f"; those after {f['through']} not in yet" if f["pending"] else "")
+        tail = " (next quarter's 13F not filed yet)" if f["after_pending"] else ""
         if not f["list"]:
             return f"No 13F filer held it at 2%+ of its portfolio at the end of {f['before']} or {f['after']}{tail}"
         return "; ".join(f"{n} {w * 100:.1f}% ({q})" for _, n, w, q in f["list"][:8]) + tail
@@ -399,11 +403,11 @@ def prepare(kind, ctrl):
             ev = json.loads(q.read_text()) if q.exists() else None
         x = features(kind, r, ev)
         x["pending"] = pending(kind, r, ev, x)
-        x["y"], x["buy"] = None, buy_day(r["asof"])
-        d365 = plus(x["buy"], 365)
-        if d365 <= TODAY and bought(r["cik"], x["buy"], TODAY):
-            a, _ = total_return(r["cik"], x["buy"], d365)
-            cs = [min(v, 5.0) for v in (total_return(k, x["buy"], d365)[0] for k in (ctrl.get(cid) or {}).get("ciks", [])) if v is not None]
+        x["y"] = None
+        d365 = plus(r["asof"], 365)
+        if d365 <= TODAY:
+            a, _ = total_return(r["cik"], r["asof"], d365)
+            cs = [min(v, 5.0) for v in (total_return(k, r["asof"], d365)[0] for k in (ctrl.get(cid) or {}).get("ciks", [])) if v is not None]
             if a is not None:
                 x["abs"], x["d365"] = a, d365
             if a is not None and cs:
@@ -418,8 +422,7 @@ MIN_COMPANIES, PRIOR_PLAYS, WEIGHT_CAP, CONC_CAP = 5, 5, 0.20, 2.0
 def top_performers(all_rows):
     """Rank 13F filers by their record on backtest episodes (both triages) they held at 2%+ of their portfolio.
     Two halves, equally weighted (each as a percentile rank among the ranked funds):
-      quality  conviction-weighted hit rate x concentration. Hit = up 30%+ a year after the buy day (a giant winner
-               counts once).
+      quality  conviction-weighted hit rate x concentration. Hit = up 30%+ a year later (a giant winner counts once).
                Each play counts with the fund's portfolio weight in it (capped at 20%); the rate is shrunk toward the
                hit rate of all plays with the weight of 5 average plays, so a short record can't top it.
                Concentration = the fund's median position size / the median of all funds (capped at 2x): a fund that
@@ -533,16 +536,15 @@ def run_all():
             if not f:
                 x["top"] = None
                 continue
-            # the ranking known at the buy day (today's while the buy day is still ahead)
-            tops = as_of(TODAY if x["buy"] > TODAY else x["buy"][:7] + "-01")
+            # a call that is still open uses today's ranking; a past one the ranking known on its entry day
+            tops = as_of(TODAY if plus(x["asof"], 365) > TODAY else x["asof"][:7] + "-01")
             hit = sorted((tops[fc] + (fc,) for fc, *_ in f["list"] if fc in tops), key=lambda t: t[0])
             x["top"] = [(names.get(t[-1], t[-1]), t[0], t[2], t[3]) for t in hit]
         score_kind(k, rows[k])
     now = as_of(TODAY)
     (ROOT / "reports" / "top_performers.md").write_text(
         "# Top performer owners (as of today)\n\nHalf quality (conviction-weighted hit rate x concentration), half number of "
-        "winners, each as a percentile rank among funds with plays in 5+ companies. Hit = up 30%+ a year after the buy day "
-        "(entry + 91 days).\n\n"
+        "winners, each as a percentile rank among funds with plays in 5+ companies. Hit = up 30%+ a year later.\n\n"
         "| Rank | Fund | Plays up 30%+ | Hit rate (weighted) | Concentration | Score |\n|---|---|---|---|---|---|\n"
         + "\n".join(f"| {r} | {names.get(fc, fc)} | {h} of {n} | {rate:.0%} | {conc:.1f}x | {sc:.2f} |"
                      for fc, (r, sc, h, n, rate, conc) in sorted(now.items(), key=lambda t: t[1][0])) + "\n")
