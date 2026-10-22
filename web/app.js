@@ -44,7 +44,7 @@ function cell(f, wide){ const [k,v,n] = f || ["n","N/A",""], t = n ? ` title="${
   return v === "N/A" ? `<td class="f f-na${wide?" wide":""}"${t}>N/A</td>` : `<td class="f f-${k}${wide?" wide":""}${n?" tip":""}"${t}><span class="ic">${ICON[k]||""}</span>${esc(v)}</td>`; }
 const th = (label, sub, cls="") => `<th class="${cls}">${label}${sub ? `<div class="hs">${sub}</div>` : ""}</th>`;
 const retCell = (c, bt) => c.ret == null ? `<td class="r muted">N/A</td>` :
-  `<td class="r" style="white-space:nowrap"><span class="num" style="color:${c.ret >= 0 ? "var(--good)" : "var(--bad)"}">${pct(c.ret)}</span>
+  `<td class="r" style="white-space:nowrap" title="Bought at the close of ${esc(c.call_date)}${c.call_date !== c.entry_date ? ", the day it turned Buy" : ", entry"}"><span class="num" style="color:${c.ret >= 0 ? "var(--good)" : "var(--bad)"}">${pct(c.ret)}</span>
    <div class="muted sm">${c.ctrl_ret != null ? `similar biotechs ${pct(c.ctrl_ret)}` : ""}${c.stopped ? `${c.ctrl_ret != null ? "<br>" : ""}stopped trading ${esc(c.stopped)}` : ""}</div></td>`;
 
 /* ------------------------------------------------------------------ the two tables
@@ -63,8 +63,8 @@ function viewTable(mode){
   const nT = rows.filter(c => c.verdict === "tbu").length;
   $("#app").innerHTML = `
   <div class="toprow"><div><h1>${bt ? "Backtest" : "Screener"}</h1><div class="muted">${rows.length} times ${kd.blurb}. ${bt
-     ? "A full year since entry: total return if bought at entry and held one year · Winner ≥ +30%, Recovery 0 to +30%, Failure below 0%"
-     : "Less than a year since entry: total return if bought at entry, to the latest close"}${nT ? ` · ${nT} TBU: an input for the entry day is still being collected` : ""}</div></div>
+     ? "A full year since the call: total return if bought at the close that day and held one year · Winner ≥ +30%, Recovery 0 to +30%, Failure below 0%"
+     : "Less than a year since the call: total return if bought at the close that day, to the latest close"} · a Watch turns Buy candidate when a top performer owner's 13F shows a 2%+ position; its return counts from that filing day${nT ? ` · ${nT} TBU: an input for the entry day is still being collected` : ""}</div></div>
    <div class="filters">
     <select id="fy"><option value="">All years</option>${years.map(y=>`<option>${y}</option>`).join("")}</select>
     <input id="fq" placeholder="Search company or ticker"></div></div>
@@ -98,7 +98,7 @@ function fill(){
     ${crash ? `<td class="what">${esc(c.summary || "Reading the company's announcement…")}</td>` : ""}
     <td class="r ${c.mcap == null ? "muted" : ""}" style="white-space:nowrap">${money(c.mcap)}${c.price != null ? `<div class="muted sm">$${c.price < 1 ? c.price.toFixed(3) : c.price.toFixed(2)}/share</div>` : ""}</td>
     ${kd.facts.map(f => cell(c.factors?.[f[0]], f[0] === "insider")).join("")}
-    <td${c.why?.length ? ` title="${esc(c.why.join(" · "))}"` : ""}>${pill(c.verdict)}</td>${retCell(c, bt)}
+    <td${c.why?.length ? ` title="${esc(c.why.join(" · "))}"` : ""}>${pill(c.verdict)}${c.call_date !== c.entry_date ? `<div class="muted sm">from Watch, ${esc(c.call_date)}</div>` : ""}</td>${retCell(c, bt)}
     ${bt ? `<td>${c.outcome ? `<span class="pill ${OUTCOME[c.outcome]}">${c.outcome}</span>` : ""}</td>` : ""}</tr>`).join("") ||
     `<tr><td colspan="20" class="empty">Nothing matches these filters.</td></tr>`;
   $("#cnt").textContent = `Showing ${Math.min(SHOW, list.length)} of ${list.length}.`;
@@ -118,7 +118,7 @@ function viewOne(id){
   const quotes = (c.quotes||[]).map(q => `<div class="quote">“${esc(q)}”</div>`).join("");
   const src = (c.sources||[]).map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.label)}</a>`).join("");
   const after = c.ret == null ? "" : `<div class="card"><h4>What happened next</h4><div class="tiles">
-     <div><b>${pct(c.ret)}</b><span>${c.played ? "1-year total return if bought at entry" : `total return if bought at entry, to ${esc(c.ret_to)}`} (entry close ${esc(c.entry_date)}${c.stopped ? `; stopped trading ${esc(c.stopped)}, valued at its last close` : ""})</span></div>
+     <div><b>${pct(c.ret)}</b><span>${c.played ? "1-year total return if bought at the call" : `total return if bought at the call, to ${esc(c.ret_to)}`} (close of ${esc(c.call_date)}${c.call_date !== c.entry_date ? ", the day it turned Buy" : ", entry"}${c.stopped ? `; stopped trading ${esc(c.stopped)}, valued at its last close` : ""})</span></div>
      ${c.ctrl_ret == null ? "" : `<div><b>${pct(c.ctrl_ret)}</b><span>10 similar biotechs bought the same day (same size and 6-month price change, no crash or slide of their own)</span></div>`}
      ${c.outcome ? `<div><b><span class="pill ${OUTCOME[c.outcome]}">${c.outcome}</span></b><span>outcome</span></div>` : ""}</div></div>`;
   const head = K === "crash" ? `News day ${esc(c.date)} (${pct(c.news_day)} that day) · entry close ${esc(c.entry_date)}`
@@ -177,7 +177,7 @@ function viewTrack(){
   const causes = Object.keys(C).length ? `<div class="card"><h4>One year after entry, by cause of the crash (all calls)</h4><div class="tablewrap"><table class="stats">
     <thead><tr><th>Cause</th><th class="r">Crashes</th><th class="r">Median</th><th class="r">Average*</th><th class="r">Similar biotechs, average</th><th class="r">Up 30%+</th><th class="r">Down 80%+</th></tr></thead><tbody>
     ${Object.entries(C).map(([k, s]) => `<tr><td>${esc(k)}</td><td class="r">${s.n}</td><td class="r">${f(s.median)}</td><td class="r"><b>${f(s.mean)}</b></td><td class="r">${f(s.ctrl_mean)}</td><td class="r">${s.win30}%</td><td class="r">${s.wipe80}%</td></tr>`).join("")}</tbody></table></div></div>` : "";
-  $("#app").innerHTML = `<div class="toprow"><div><h1>Track record</h1><div class="muted">Buy candidates, bought at the entry close (the close on the day the ${KIND[K].word} was detected) and held a year, against 10 similar biotechs bought the same day and the biotech index (XBI) over the same dates.</div></div></div>
+  $("#app").innerHTML = `<div class="toprow"><div><h1>Track record</h1><div class="muted">Buy candidates, bought at the close of the call day (entry, or the day a Watch turned Buy) and held a year, against 10 similar biotechs bought the same day and the biotech index (XBI) over the same dates.</div></div></div>
    <div class="card" id="tr"><h4>Average return after buying${T ? ` · ${T.n} Buy candidates with a full year` : ""}</h4>${T ? `<div class="tiles" style="margin-bottom:12px">
      <div><b>${f(last(T.own))}</b><span>Buy candidates, 1 year later</span></div><div><b>${f(last(T.ctrl))}</b><span>similar biotechs</span></div><div><b>${f(last(T.xbi))}</b><span>biotech index (XBI)</span></div></div>` : `<p class="empty">Appears once Buy candidates have a full year of prices.</p>`}</div>
    <div class="card" id="pf"><div class="toprow" style="margin-bottom:4px"><h4 style="margin:0">$10,000 test: all Buy candidates of one year, equal money in each, each held a year</h4>

@@ -15,7 +15,9 @@ Cells (all as of the entry day; nothing later):
             the previous close, or an equity line) / Friendly (an ATM programme or a clean last raise) / N/A
   insider   net open-market buying or selling in Form 4s (the call uses those filed by entry)
   funds     13F filers holding the company at 2%+ of their whole reported portfolio, in the latest quarter whose 13F
-            deadline (45 days) had passed by entry: how many
+            deadline (45 days) had passed by entry: how many (the hover also lists those that report it in the
+            13Fs for the quarter of the crash/slide, filed after entry)
+  top       whether one of them is a top performer owner (ranking known when the 13F was filed)
   short     FINRA short interest at the latest settlement date 14+ days before entry, % of shares outstanding that day
             (N/A above 100%: the share count and the short interest then disagree)
 Colours are learned walk-forward (refitted monthly on episodes whose year had ended): the cut-off and which side is
@@ -24,9 +26,12 @@ biotechs. Insider buying is green and selling red; safety follows the announceme
 
 Call, a fixed rule, tested on the backtest (holds before and after July 2023, crashes and slides):
   Avoid          going-concern warning, share price under $1, or Toxic raise terms
-  Buy candidate  none of those, market value at least $50M and EV / Cash at most 2 (valued at most 3x its cash, debt in)
-  Watch          the rest
+  Buy candidate  none of those, market value at least $50M and EV / Cash at most 2 (valued at most 3x its cash, debt in),
+                 or a Watch with a top performer owner at 2%+ in the quarter before the fall
+  Watch          the rest; turns into a Buy candidate on the day a top performer owner's 13F for the quarter of the
+                 crash/slide reports it at 2%+ (filed after entry, by the 45-day deadline); its return counts from then
   TBU            an input for that day is still being collected
+Avoid is never upgraded: with a top performer owner, Avoids still failed about as often as other Avoids.
 Cash runway is no longer used: the burn needed per-filing reads that can't be done the same way for every company.
 
 Output: data/<kind>/scores/<id>.json, reports/fit_<kind>.md
@@ -98,20 +103,25 @@ def quarter_of(d):
 
 
 def funds(cik, asof):
-    """13F filers holding the company at 2%+ of their portfolio at the end of the last quarter reported before the
-    entry day, or at the end of the quarter the entry falls in (funds may buy just before or just after a fall)."""
+    """13F filers holding the company at 2%+ of their portfolio at the end of the last quarter reported by the entry
+    day (list), and those first reporting it at 2%+ for the quarter the entry falls in, filed after entry (later)."""
     by_cik, through = fund_data()
     qb, qa = quarter_before(asof), quarter_of(asof)
     if through is None or through < plus(qb, 45):
         return None
     best = {}
     for r in by_cik.get(cik, []):
-        if (r["period"] == qb and r["filed"] <= asof) or r["period"] == qa:
+        if r["period"] == qb and r["filed"] <= asof:
             k = r["filer_cik"]
             if k not in best or float(r["weight"]) > float(best[k]["weight"]):
                 best[k] = r
+    later = {}
+    for r in sorted(by_cik.get(cik, []), key=lambda r: r["filed"]):
+        if r["period"] == qa and asof < r["filed"] <= plus(qa, 45) and r["filer_cik"] not in best and r["filer_cik"] not in later:
+            later[r["filer_cik"]] = r
     return {"before": qb, "after": qa, "after_pending": through < plus(qa, 45),
-            "list": sorted(((r["filer_cik"], r["filer"], float(r["weight"]), r["period"]) for r in best.values()), key=lambda t: -t[2])}
+            "list": sorted(((r["filer_cik"], r["filer"], float(r["weight"]), r["period"]) for r in best.values()), key=lambda t: -t[2]),
+            "later": [(r["filer_cik"], r["filer"], float(r["weight"]), r["filed"]) for r in later.values()]}
 
 
 @lru_cache(maxsize=None)
@@ -327,7 +337,7 @@ def text(k, x):
         n = x["n_funds"]
         return "N/A" if n is None else "None" if n == 0 else f"{n} fund{'s' if n > 1 else ''}"
     if k == "top":
-        return "N/A" if x.get("top") is None else "Yes" if x["top"] else "No"
+        return "N/A" if x.get("top") is None else "Yes" if x["top"] else f"Yes, {x['top_later'][0][4]}" if x.get("top_later") else "No"
     if k == "short":
         v = x["short_pct"]
         return "N/A" if v is None else f"{v:.1f}%" if v < 10 else f"{v:.0f}%"
@@ -350,7 +360,7 @@ def bucket(k, x):
         n = x["n_funds"]
         return "N/A" if n is None else "None" if n == 0 else "1 fund" if n == 1 else "2+ funds"
     if k == "top":
-        return "N/A" if x.get("top") is None else "Yes" if x["top"] else "No"
+        return "N/A" if x.get("top") is None else "Yes" if x["top"] or x.get("top_later") else "No"
     if k == "short":
         v = x["short_pct"]
         return "N/A" if v is None else "Under 5%" if v < 5 else "5–15%" if v < 15 else "15%+"
@@ -371,12 +381,13 @@ def note(k, x):
         return f"Largest: {t['who']} {money(t['value'])} on {t['date']} (Form 4 filed {t['filed']}). Trades from 90 days before to 30 days after; the call uses those filed by entry."
     if k == "funds" and x.get("fund"):
         f = x["fund"]
-        tail = " (next quarter's 13F not filed yet)" if f["after_pending"] else ""
-        if not f["list"]:
-            return f"No 13F filer held it at 2%+ of its portfolio at the end of {f['before']} or {f['after']}{tail}"
-        return "; ".join(f"{n} {w * 100:.1f}% ({q})" for _, n, w, q in f["list"][:8]) + tail
-    if k == "top" and x.get("top"):
-        return "; ".join(f"{n} (top {rank}: {hits} of {n_} plays up 30%+)" for n, rank, hits, n_ in x["top"])
+        head = ("; ".join(f"{n} {w * 100:.1f}%" for _, n, w, _ in f["list"][:8]) + f" (end of {f['before']})") if f["list"] \
+            else f"No 13F filer held it at 2%+ of its portfolio at the end of {f['before']}"
+        later = "; ".join(f"{n} {w * 100:.1f}% (filed {d})" for _, n, w, d in f["later"][:6])
+        return head + (f" · Later, for {f['after']}: {later}" if later else "") + (f" · {f['after']} 13Fs not all in yet" if f["after_pending"] else "")
+    if k == "top" and (x.get("top") or x.get("top_later")):
+        return "; ".join([f"{n} (top {rank}: {hits} of {n_} plays up 30%+)" for n, rank, hits, n_ in x.get("top") or []] +
+                         [f"{n} (top {rank}: {hits} of {n_} plays up 30%+), 13F filed {d}" for n, rank, hits, n_, d in x.get("top_later") or []])
     if k == "short" and x.get("si") and x["si"].get("settlement"):
         return f"FINRA short interest at settlement {x['si']['settlement']} ÷ shares outstanding that day"
     if k == "programs" and r.get("trials"):
@@ -432,7 +443,7 @@ def top_performers(all_rows):
     done = sorted((x for x in all_rows if "tbu" not in x and x.get("d365") and x.get("fund")), key=lambda x: x["d365"])
     names = {}
     for x in all_rows:
-        for fc, n, _, _ in ((x.get("fund") or {}).get("list") or []):
+        for fc, n, _, _ in ((x.get("fund") or {}).get("list") or []) + ((x.get("fund") or {}).get("later") or []):
             names[fc] = n
     cache = {}
 
@@ -447,7 +458,7 @@ def top_performers(all_rows):
                 if x["d365"] > d:
                     break
                 hit = x["abs"] >= 0.3
-                for fc, _, w, _ in x["fund"]["list"]:
+                for fc, _, w, _ in x["fund"]["list"] + x["fund"]["later"]:    # held at the fall or bought into it
                     plays.setdefault(fc, []).append((w, hit, x["cik"]))
             allp = [p for v in plays.values() for p in v]
             elig = {fc: v for fc, v in plays.items() if len({c for _, _, c in v}) >= MIN_COMPANIES}
@@ -492,8 +503,16 @@ def score_kind(kind, rows):
             models[m0] = fit(tr, keys) if len(tr) >= MIN_TRAIN else None
         model = models[m0] or full
         verdict, why = verdict_rule(x)
+        call_date, upgraded = x["asof"], None
+        if verdict == "close" and x.get("top"):
+            verdict, upgraded = "overdone", "top performer owner before the fall"
+        elif verdict == "close" and x.get("top_later"):
+            call_date = x["top_later"][0][4]
+            verdict, upgraded = "overdone", f"Watch until {call_date}: top performer owner's 13F filed then"
+        if upgraded:
+            why = [upgraded]
         if x["pending"]:
-            verdict, why = "tbu", x["pending"]
+            verdict, why, call_date, upgraded = "tbu", x["pending"], x["asof"], None
 
         def colour(k):
             if text(k, x) == "N/A" or not model:
@@ -505,11 +524,12 @@ def score_kind(kind, rows):
             pts = model["points"][k].get(cat(model, x, k), 0.0)
             return "g" if pts >= 0.05 else "r" if pts <= -0.05 else "n"
 
-        out = {"id": x["id"], "verdict": verdict, "why": why, "mcap": x["mcap"], "price": x["px"], "insider_net": x["insider_net"],
+        out = {"id": x["id"], "verdict": verdict, "why": why, "call_date": call_date, "upgraded": upgraded,
+               "mcap": x["mcap"], "price": x["px"], "insider_net": x["insider_net"],
                "cause": x["cause"], "factors": {k: [colour(k), text(k, x), note(k, x), bucket(k, x)] for k in keys}}
         (out_dir / f"{x['id']}.json").write_text(json.dumps(out))
-        if x["y"] is not None and verdict != "tbu":
-            held.append((verdict, x["y"], x["abs"]))
+        if x["y"] is not None and verdict != "tbu" and not (upgraded and call_date != x["asof"]):
+            held.append((verdict, x["y"], x["abs"]))                 # report: calls made on the entry day
     rep = [f"# Fit report: {kind}", f"episodes: {len(rows)} · TBU: {sum(1 for x in rows if 'tbu' in x or x.get('pending'))} · "
            f"with a full year and complete inputs: {len(known)}", "",
            "| Call | n | median | mean | similar biotechs mean | beat them | up 30%+ | down 80%+ |", "|---|---|---|---|---|---|---|---|"]
@@ -536,10 +556,15 @@ def run_all():
             if not f:
                 x["top"] = None
                 continue
-            # a call that is still open uses today's ranking; a past one the ranking known on its entry day
-            tops = as_of(TODAY if plus(x["asof"], 365) > TODAY else x["asof"][:7] + "-01")
+            # each fund is checked against the ranking known when its 13F was public: by entry, or on its filing day
+            tops = as_of(x["asof"][:7] + "-01")
             hit = sorted((tops[fc] + (fc,) for fc, *_ in f["list"] if fc in tops), key=lambda t: t[0])
             x["top"] = [(names.get(t[-1], t[-1]), t[0], t[2], t[3]) for t in hit]
+            x["top_later"] = []
+            for fc, n, _, d in f["later"]:
+                t = as_of(d[:7] + "-01").get(fc)
+                if t:
+                    x["top_later"].append((names.get(fc, n), t[0], t[2], t[3], d))
         score_kind(k, rows[k])
     now = as_of(TODAY)
     (ROOT / "reports" / "top_performers.md").write_text(

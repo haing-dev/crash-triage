@@ -2,12 +2,13 @@
 Build the static site into ./site: web/ (page code) + site/data.json with both triages.
 
 For every episode: the cells and call (fit.py), the crash announcement (crashes), market value at entry, and the total
-return if bought at the entry-day close (returns.py): one year later once the year is complete (backtest: Winner >=
+return if bought at the close of the call day (returns.py) - the entry day, or for a Watch upgraded to Buy candidate
+by a later 13F, that 13F's filing day: one year later once the year is complete (backtest: Winner >=
 +30%, Recovery 0 to +30%, Failure < 0), else to the latest close (screener). Every return is shown next to the average
 of the 10 similar biotechs bought the same day (controls.py).
 
 Track record (Buy candidates with complete inputs):
-  line chart   average total return day by day for a year after entry (any single return capped at +500%), against
+  line chart   average total return day by day for a year after the call (any single return capped at +500%), against
                their similar biotechs and the biotech index (XBI) over the same dates
   $10,000      per year of entry: $10,000 split equally over that year's Buy candidates, each held a year (or to the
                latest close if the year isn't over), against the same money in their similar biotechs and in XBI
@@ -49,15 +50,15 @@ def series(ctrl, r):
     """Return at each step after entry (as far as today reaches): own, similar biotechs, XBI."""
     own, ctl, idx = [], [], []
     for k in STEPS:
-        d1 = plus(r["entry_date"], k)
+        d1 = plus(r["call_date"], k)
         if d1 > TODAY:
             break
-        a, _ = total_return(r["cik"], r["entry_date"], d1)
+        a, _ = total_return(r["cik"], r["call_date"], d1)
         if a is None:
             break
         own.append(min(a, 5.0))
-        ctl.append(ctrl_return(ctrl, r["id"], r["entry_date"], d1))
-        idx.append(total_return("XBI", r["entry_date"], d1)[0])
+        ctl.append(ctrl_return(ctrl, r["id"], r["call_date"], d1))
+        idx.append(total_return("XBI", r["call_date"], d1)[0])
     return own, ctl, idx
 
 
@@ -97,16 +98,17 @@ def build(kind, ctrl):
         sc = DATA / kind / "scores" / f"{cid}.json"
         if sc.exists():
             rec.update({k: v for k, v in json.loads(sc.read_text()).items()
-                        if k in ("factors", "verdict", "why", "insider_net", "mcap", "price", "cause")})
+                        if k in ("factors", "verdict", "why", "insider_net", "mcap", "price", "cause", "call_date", "upgraded")})
         rec["sources"].append({"label": "All SEC filings",
                                "url": f"https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK={int(c['cik'])}&type=&dateb=&owner=include&count=40"})
         entry_d = c["end_date"]
-        one_year = plus(entry_d, 365)
-        rec["entry_date"], rec["played"] = entry_d, one_year <= TODAY
-        r, last = total_return(c["cik"], entry_d, one_year if rec["played"] else TODAY)
+        call_d = rec.get("call_date") or entry_d
+        one_year = plus(call_d, 365)
+        rec["entry_date"], rec["call_date"], rec["played"] = entry_d, call_d, one_year <= TODAY
+        r, last = total_return(c["cik"], call_d, one_year if rec["played"] else TODAY)
         if r is not None:
             rec["ret"], rec["ret_to"] = round(r * 100, 1), last
-            cr = ctrl_return(ctrl, cid, entry_d, one_year if rec["played"] else TODAY)
+            cr = ctrl_return(ctrl, cid, call_d, one_year if rec["played"] else TODAY)
             rec["ctrl_ret"] = round(cr * 100, 1) if cr is not None else None
             if rec["played"]:
                 rec["outcome"] = "Winner" if rec["ret"] >= 30 else "Recovery" if rec["ret"] >= 0 else "Failure"
@@ -120,8 +122,8 @@ def build(kind, ctrl):
     played = [ser[r["id"]] for r in buys if r["played"] and len(ser[r["id"]][0]) == len(STEPS)]
     track = {"n": len(played), "own": avg_path(played, 0), "ctrl": avg_path(played, 1), "xbi": avg_path(played, 2)} if played else None
     years = {}
-    for y in sorted({r["entry_date"][:4] for r in buys}):
-        grp = [r for r in buys if r["entry_date"][:4] == y]
+    for y in sorted({r["call_date"][:4] for r in buys}):
+        grp = [r for r in buys if r["call_date"][:4] == y]
         ss = [ser[r["id"]] for r in grp if ser[r["id"]][0]]
         if not ss:
             continue
@@ -155,7 +157,7 @@ def ledger(data, ctrl):
     new = []
     for kind, kd in data.items():
         for it in kd["items"]:
-            if it["verdict"] not in CALLS or it["entry_date"] < plus(TODAY, -30) or latest.get((kind, it["id"])) == it["verdict"]:
+            if it["verdict"] not in CALLS or it["call_date"] < plus(TODAY, -30) or latest.get((kind, it["id"])) == it["verdict"]:
                 continue
             ds, _ = closes(it["cik"])
             base = max((d for d in ds if d <= TODAY), default=None)
