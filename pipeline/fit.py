@@ -26,10 +26,13 @@ biotechs. Insider buying is green and selling red; safety follows the announceme
 
 Call, a fixed rule, tested on the backtest (holds before and after July 2023, crashes and slides):
   Avoid          going-concern warning, share price under $1, or Toxic raise terms
-  Buy candidate  none of those, market value at least $50M and EV / Cash at most 2 (valued at most 3x its cash, debt in),
-                 or a Watch with a top performer owner at 2%+ in the quarter before the fall
-  Watch          the rest; turns into a Buy candidate on the day a top performer owner's 13F for the quarter of the
-                 crash/slide reports it at 2%+ (filed after entry, by the 45-day deadline); its return counts from then
+  Buy candidate  none of those, market value at least $50M, and at least one of: EV / Cash at most 1 (valued at most
+                 about twice its cash, debt in), 2+ high conviction owners, or a top performer owner (13Fs by entry)
+  Watch          the rest; one with market value $50M+ turns into a Buy candidate on the day a top performer owner's
+                 13F for the quarter of the crash/slide reports it at 2%+ (filed after entry, by the 45-day deadline);
+                 its return counts from then
+  Chosen over the earlier rule (EV / Cash at most 2) on: both halves, every entry year, company-clustered bootstrap,
+  and thresholds ($30-100M, EV / Cash 1-3x, 1-3 funds) all pointing the same way, for crashes and slides.
   TBU            an input for that day is still being collected
 Avoid is never upgraded: with a top performer owner, Avoids still failed about as often as other Avoids.
 Cash runway is no longer used: the burn needed per-filing reads that can't be done the same way for every company.
@@ -46,7 +49,7 @@ import controls, holdings
 
 TODAY = date.today().isoformat()
 MIN_TRAIN, SHRINK = 250, 30
-GATE_MCAP, GATE_EV, DEEP = 5e7, 2.0, -0.15
+GATE_MCAP, GATE_EV, GATE_FUNDS, DEEP = 5e7, 1.0, 2, -0.15
 KEYS = {"crash": ["safety", "ev", "programs", "raise", "insider", "funds", "top", "short"],
         "slide": ["ev", "programs", "raise", "insider", "funds", "top", "short"]}
 TOP_N = 10
@@ -264,10 +267,9 @@ def verdict_rule(x):
         soft.append("market cap unknown")
     elif x["mcap"] < GATE_MCAP:
         soft.append("market cap under $50M")
-    if x["ev_x"] is None:
-        soft.append("EV / cash unknown")
-    elif x["ev_x"] > GATE_EV:
-        soft.append(f"valued above {GATE_EV + 1:.0f}× cash")
+    cheap = x["ev_x"] is not None and x["ev_x"] <= GATE_EV
+    if not (cheap or (x.get("n_funds") or 0) >= GATE_FUNDS or x.get("top")):
+        soft.append("EV / Cash above 1×, fewer than 2 high conviction owners, no top performer owner")
     return ("close", soft) if soft else ("overdone", [])
 
 
@@ -504,9 +506,7 @@ def score_kind(kind, rows):
         model = models[m0] or full
         verdict, why = verdict_rule(x)
         call_date, upgraded = x["asof"], None
-        if verdict == "close" and x.get("top"):
-            verdict, upgraded = "overdone", "top performer owner before the fall"
-        elif verdict == "close" and x.get("top_later"):
+        if verdict == "close" and x.get("top_later") and x["mcap"] is not None and x["mcap"] >= GATE_MCAP:
             call_date = x["top_later"][0][4]
             verdict, upgraded = "overdone", f"Watch until {call_date}: top performer owner's 13F filed then"
         if upgraded:

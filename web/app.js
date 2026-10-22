@@ -127,7 +127,7 @@ function viewOne(id){
   <div class="vhead"><div><div class="muted">${head} · <a href="${back}">‹ ${c.played ? "Backtest" : "Screener"}</a></div>
     <h2>${esc(c.name)} <span class="muted" style="font-size:18px">${esc(c.ticker)}</span><span class="mv">${pct(c.move)}</span><span class="muted" style="font-size:16px;margin-left:8px">${daysAgo(c)} days ago</span></h2>
     <div class="what1">${K === "crash" ? esc(c.summary || "Reading the company's announcement…") + " · " : ""}Market cap at entry ${money(c.mcap)}</div></div>
-   <div class="vbox">${pill(c.verdict)}<div class="conf">${c.why?.length ? esc(c.why.join(" · ")) : c.verdict === "overdone" ? "No going-concern warning, share price $1+, no toxic financing, market cap $50M+, EV / Cash 2× or less" : ""}</div></div></div>
+   <div class="vbox">${pill(c.verdict)}<div class="conf">${c.why?.length ? esc(c.why.join(" · ")) : c.verdict === "overdone" ? "No going-concern warning, share price $1+, no toxic financing, market cap $50M+, and EV / Cash 1× or less, 2+ high conviction owners, or a top performer owner" : ""}</div></div></div>
   <div class="fcs" style="grid-template-columns:repeat(${Math.min(kd.facts.length, 4)},minmax(0,1fr))">${cards}</div>
   ${quotes ? `<div class="card"><h4>From the company's announcement</h4>${quotes}</div>` : ""}
   ${after}
