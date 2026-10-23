@@ -5,7 +5,7 @@
  "name": "ARVINAS, INC.",
  "date": "2026-09-23",
  "asof": "2026-09-23",
- "final": false,
+ "final": true,
  "version": 6,
  "price": {
   "date": "2026-09-23",
@@ -47,7 +47,7 @@
  "insiders": {
   "form4s": 6,
   "from": "2026-06-25",
-  "to": "2026-10-22",
+  "to": "2026-10-23",
   "trades": []
  },
  "drug": null,
@@ -57,17 +57,17 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
+    "nct": "NCT07023731",
+    "drugs": [
+     "ARV-806"
+    ]
+   },
+   {
     "nct": "NCT07749586",
     "drugs": [
      "ARV-6723",
      "Pembrolizumab",
      "SOC"
-    ]
-   },
-   {
-    "nct": "NCT07023731",
-    "drugs": [
-     "ARV-806"
     ]
    }
   ]

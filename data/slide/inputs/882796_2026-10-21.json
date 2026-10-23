@@ -1,0 +1,69 @@
+{
+ "id": "882796_2026-10-21",
+ "kind": "slide",
+ "cik": "882796",
+ "name": "BIOCRYST PHARMACEUTICALS INC",
+ "date": "2026-10-21",
+ "asof": "2026-10-21",
+ "final": false,
+ "version": 6,
+ "price": {
+  "date": "2026-10-21",
+  "adj_close": 7.75
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 352573000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001628280-26-053300"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": -42551000.0,
+  "capex": 620976.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-07-31",
+  "shares": 255535105
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "Concurrent with entering into the 2021 RPI Royalty Purchase Agreement, the Company and RPI entered into a Common Stock Purchase Agreement pursuant to which the Company sold common stock to RPI for a premium of $4,269."
+ },
+ "debt": {
+  "usd": 395400000.0,
+  "tags": "LongTermDebtNoncurrent"
+ },
+ "public_float": {
+  "usd": 1863392680,
+  "as_of": "2025-06-30",
+  "filed": "2026-02-26"
+ },
+ "insiders": {
+  "form4s": 5,
+  "from": "2026-07-23",
+  "to": "2026-10-23",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "biocryst pharmaceuticals",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT04933721",
+    "drugs": [
+     "berotralstat"
+    ]
+   }
+  ]
+ }
+}

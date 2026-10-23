@@ -1,0 +1,95 @@
+{
+ "id": "1724521_2026-10-21",
+ "kind": "slide",
+ "cik": "1724521",
+ "name": "Arcus Biosciences, Inc.",
+ "date": "2026-10-21",
+ "asof": "2026-10-21",
+ "final": false,
+ "version": 6,
+ "price": {
+  "date": "2026-10-21",
+  "adj_close": 19.1
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 775000000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0001724521-26-000044"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": 257000000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-07-30",
+  "shares": 127333376
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "(\"Gilead\") entered into an Option, License and Collaboration Agreement (the \"Gilead Collaboration Agreement\"), Common Stock Purchase Agreement (the \"Stock Purchase Agreement\"), and Investor Rights Agreement (the \"Investor Rights Agreement\")."
+ },
+ "debt": {
+  "usd": 101000000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 565882788,
+  "as_of": "2025-06-30",
+  "filed": "2026-02-25"
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2026-07-23",
+  "to": "2026-10-23",
+  "trades": [
+   {
+    "date": "2026-08-21",
+    "filed": "2026-08-24",
+    "code": "S",
+    "value": 84810,
+    "who": "Azoy Alexander"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "arcus biosciences",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05329766",
+    "drugs": [
+     "Domvanalimab",
+     "Quemliclustat",
+     "Zimberelimab"
+    ]
+   },
+   {
+    "nct": "NCT07011719",
+    "drugs": [
+     "Casdatifan",
+     "Cabozantinib"
+    ]
+   },
+   {
+    "nct": "NCT06608927",
+    "drugs": [
+     "Quemliclustat",
+     "Nab-paclitaxel",
+     "Gemcitabine"
+    ]
+   }
+  ]
+ }
+}

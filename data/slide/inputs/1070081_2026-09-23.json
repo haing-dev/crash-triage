@@ -5,7 +5,7 @@
  "name": "PTC THERAPEUTICS, INC.",
  "date": "2026-09-23",
  "asof": "2026-09-23",
- "final": false,
+ "final": true,
  "version": 6,
  "price": {
   "date": "2026-09-23",
@@ -47,7 +47,7 @@
  "insiders": {
   "form4s": 19,
   "from": "2026-06-25",
-  "to": "2026-10-22",
+  "to": "2026-10-23",
   "trades": [
    {
     "date": "2026-10-14",
@@ -450,13 +450,7 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT06302348",
-    "drugs": [
-     "Sepiapterin"
-    ]
-   },
-   {
-    "nct": "NCT07681713",
+    "nct": "NCT05515536",
     "drugs": [
      "Vatiquinone"
     ]
@@ -468,7 +462,13 @@
     ]
    },
    {
-    "nct": "NCT05515536",
+    "nct": "NCT06302348",
+    "drugs": [
+     "Sepiapterin"
+    ]
+   },
+   {
+    "nct": "NCT07681713",
     "drugs": [
      "Vatiquinone"
     ]

@@ -5,7 +5,7 @@
  "name": "Mirum Pharmaceuticals, Inc.",
  "date": "2026-09-23",
  "asof": "2026-09-23",
- "final": false,
+ "final": true,
  "version": 6,
  "price": {
   "date": "2026-09-23",
@@ -48,7 +48,7 @@
  "insiders": {
   "form4s": 13,
   "from": "2026-06-25",
-  "to": "2026-10-22",
+  "to": "2026-10-23",
   "trades": [
    {
     "date": "2026-09-14",
@@ -192,23 +192,22 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT07200908",
+    "nct": "NCT05050136",
     "drugs": [
-     "Brelovitug 300 mg",
-     "Bulevirtide 2 mg and Brelovitug - 300 mg"
-    ]
-   },
-   {
-    "nct": "NCT07454837",
-    "drugs": [
-     "Brelovitug (BJT-778)",
-     "Bulevirtide"
+     "Volixibat"
     ]
    },
    {
     "nct": "NCT06553768",
     "drugs": [
      "Maralixibat"
+    ]
+   },
+   {
+    "nct": "NCT07200908",
+    "drugs": [
+     "Brelovitug 300 mg",
+     "Bulevirtide 2 mg and Brelovitug - 300 mg"
     ]
    },
    {
@@ -220,9 +219,10 @@
     ]
    },
    {
-    "nct": "NCT05050136",
+    "nct": "NCT07454837",
     "drugs": [
-     "Volixibat"
+     "Brelovitug (BJT-778)",
+     "Bulevirtide"
     ]
    }
   ]
