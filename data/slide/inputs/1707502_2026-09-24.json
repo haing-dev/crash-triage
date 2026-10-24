@@ -5,7 +5,7 @@
  "name": "Solid Biosciences Inc.",
  "date": "2026-09-24",
  "asof": "2026-09-24",
- "final": false,
+ "final": true,
  "version": 6,
  "price": {
   "date": "2026-09-24",
@@ -47,7 +47,7 @@
  "insiders": {
   "form4s": 3,
   "from": "2026-06-26",
-  "to": "2026-10-23",
+  "to": "2026-10-24",
   "trades": [
    {
     "date": "2026-10-19",
@@ -65,9 +65,9 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT06138639",
+    "nct": "NCT03368742",
     "drugs": [
-     "SGT-003"
+     "SGT-001"
     ]
    },
    {
@@ -77,9 +77,9 @@
     ]
    },
    {
-    "nct": "NCT03368742",
+    "nct": "NCT06138639",
     "drugs": [
-     "SGT-001"
+     "SGT-003"
     ]
    }
   ]

@@ -46,7 +46,7 @@
  "insiders": {
   "form4s": 5,
   "from": "2026-07-14",
-  "to": "2026-10-23",
+  "to": "2026-10-24",
   "trades": [
    {
     "date": "2026-10-20",
@@ -85,10 +85,11 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT05926583",
+    "nct": "NCT05926765",
     "drugs": [
-     "AAV5-hRKp.RPGR",
-     "AAV5-hRKp.RPGR"
+     "AAV2-hAQP1 Concentration 1",
+     "AAV2-hAQP1 Concentration 2",
+     "AAV2-hAQP1 Concentration 3"
     ]
    },
    {
@@ -99,17 +100,17 @@
     ]
    },
    {
-    "nct": "NCT06544798",
+    "nct": "NCT05926583",
     "drugs": [
-     "AAV2-hAQP1"
+     "AAV5-hRKp.RPGR",
+     "AAV5-hRKp.RPGR"
     ]
    },
    {
-    "nct": "NCT05926765",
+    "nct": "NCT06646289",
     "drugs": [
-     "AAV2-hAQP1 Concentration 1",
-     "AAV2-hAQP1 Concentration 2",
-     "AAV2-hAQP1 Concentration 3"
+     "AAV5-hRKp.RPGR",
+     "No intervention (Follow-Up assessment)"
     ]
    },
    {
