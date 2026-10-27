@@ -1,0 +1,44 @@
+{
+ "cik": "1774857",
+ "name": "Aardvark Therapeutics, Inc.",
+ "ticker": "AARD",
+ "date": "2026-10-23",
+ "status": "read",
+ "source": {
+  "filing_date": "2026-10-23",
+  "accession": "0001193125-26-429509",
+  "doc": "ck0001774857-ex99_1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1774857/000119312526429509/ck0001774857-ex99_1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Terminated Phase 3 showed only modest exploratory benefit; new Phase 3 needed \u00b7 Phase 3 \u00b7 ARD-101 in Prader-Willi syndrome \u00b7 not yet approved",
+  "phase": "Phase 3",
+  "drug": "ARD-101",
+  "indication": "Prader-Willi syndrome hyperphagia",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": 1,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": false,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "HERO trial terminated early (67 of 90 planned participants randomized); all efficacy data are considered exploratory",
+   "primary_endpoint_met": null,
+   "safety": "One cardiac serious adverse event was observed in the HERO trial at 800 mg twice daily (BID) in a participant who was also taking pitolisant, a CYP2D6 substrate.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}
