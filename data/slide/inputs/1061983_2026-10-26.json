@@ -1,0 +1,199 @@
+{
+ "id": "1061983_2026-10-26",
+ "kind": "slide",
+ "cik": "1061983",
+ "name": "CYTOKINETICS INC",
+ "date": "2026-10-26",
+ "asof": "2026-10-26",
+ "final": false,
+ "version": 6,
+ "price": {
+  "date": "2026-10-26",
+  "adj_close": 60.73
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 1704003000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+   "AvailableForSaleSecuritiesDebtSecuritiesNoncurrent"
+  ],
+  "accn": "0001193125-26-338217"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": 305297000.0,
+  "capex": 10264000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-08-04",
+  "shares": 139023418
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 275560000.0,
+  "tags": "LongTermDebtNoncurrent+LongTermDebtCurrent"
+ },
+ "public_float": {
+  "usd": 2500000000,
+  "as_of": "2025-06-30",
+  "filed": "2026-02-26"
+ },
+ "insiders": {
+  "form4s": 21,
+  "from": "2026-07-28",
+  "to": "2026-10-27",
+  "trades": [
+   {
+    "date": "2026-10-20",
+    "filed": "2026-10-20",
+    "code": "S",
+    "value": 224035,
+    "who": "Malik Fady Ibraham"
+   },
+   {
+    "date": "2026-10-12",
+    "filed": "2026-10-13",
+    "code": "S",
+    "value": 471600,
+    "who": "Blum Robert I"
+   },
+   {
+    "date": "2026-10-06",
+    "filed": "2026-10-06",
+    "code": "S",
+    "value": 214830,
+    "who": "Malik Fady Ibraham"
+   },
+   {
+    "date": "2026-09-28",
+    "filed": "2026-09-28",
+    "code": "S",
+    "value": 490950,
+    "who": "Blum Robert I"
+   },
+   {
+    "date": "2026-09-22",
+    "filed": "2026-09-22",
+    "code": "S",
+    "value": 239015,
+    "who": "Malik Fady Ibraham"
+   },
+   {
+    "date": "2026-09-15",
+    "filed": "2026-09-15",
+    "code": "S",
+    "value": 72130,
+    "who": "Landry Robert E"
+   },
+   {
+    "date": "2026-09-14",
+    "filed": "2026-09-15",
+    "code": "S",
+    "value": 550800,
+    "who": "Blum Robert I"
+   },
+   {
+    "date": "2026-09-15",
+    "filed": "2026-09-15",
+    "code": "S",
+    "value": 6789210,
+    "who": "Blum Robert I"
+   },
+   {
+    "date": "2026-09-11",
+    "filed": "2026-09-11",
+    "code": "S",
+    "value": 74660,
+    "who": "Landry Robert E"
+   },
+   {
+    "date": "2026-09-08",
+    "filed": "2026-09-08",
+    "code": "S",
+    "value": 264110,
+    "who": "Malik Fady Ibraham"
+   },
+   {
+    "date": "2026-09-01",
+    "filed": "2026-09-01",
+    "code": "S",
+    "value": 357400,
+    "who": "PARSHALL B LYNNE"
+   },
+   {
+    "date": "2026-08-31",
+    "filed": "2026-08-31",
+    "code": "S",
+    "value": 702400,
+    "who": "Callos Andrew"
+   },
+   {
+    "date": "2026-08-31",
+    "filed": "2026-08-31",
+    "code": "S",
+    "value": 526800,
+    "who": "Blum Robert I"
+   },
+   {
+    "date": "2026-08-18",
+    "filed": "2026-08-18",
+    "code": "S",
+    "value": 265370,
+    "who": "Malik Fady Ibraham"
+   },
+   {
+    "date": "2026-08-10",
+    "filed": "2026-08-10",
+    "code": "S",
+    "value": 575700,
+    "who": "Blum Robert I"
+   },
+   {
+    "date": "2026-07-30",
+    "filed": "2026-07-30",
+    "code": "S",
+    "value": 1118320,
+    "who": "Callos Andrew"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "cytokinetics",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06412666",
+    "drugs": [
+     "Aficamten"
+    ]
+   },
+   {
+    "nct": "NCT04464525",
+    "drugs": [
+     "Omecamtiv mecarbil"
+    ]
+   },
+   {
+    "nct": "NCT04848506",
+    "drugs": [
+     "Aficamten (5 - 20 mg)"
+    ]
+   },
+   {
+    "nct": "NCT06736574",
+    "drugs": [
+     "Omecamtiv Mecarbil (OM)"
+    ]
+   }
+  ]
+ }
+}

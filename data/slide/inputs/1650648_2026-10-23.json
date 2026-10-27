@@ -1,0 +1,182 @@
+{
+ "id": "1650648_2026-10-23",
+ "kind": "slide",
+ "cik": "1650648",
+ "name": "4D Molecular Therapeutics, Inc.",
+ "date": "2026-10-23",
+ "asof": "2026-10-23",
+ "final": false,
+ "version": 6,
+ "price": {
+  "date": "2026-10-23",
+  "adj_close": 10.8
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 430629000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent",
+   "MarketableSecuritiesNoncurrent"
+  ],
+  "accn": "0001193125-26-349173"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": 138124000.0,
+  "capex": 55000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2024-02-23",
+  "shares": 49778127
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 19587000.0,
+  "tags": "LongTermDebtNoncurrent"
+ },
+ "public_float": {
+  "usd": 166461070,
+  "as_of": "2025-06-30",
+  "filed": "2026-03-18"
+ },
+ "insiders": {
+  "form4s": 9,
+  "from": "2026-07-25",
+  "to": "2026-10-27",
+  "trades": [
+   {
+    "date": "2026-10-16",
+    "filed": "2026-10-20",
+    "code": "S",
+    "value": 20993,
+    "who": "Bizily Scott"
+   },
+   {
+    "date": "2026-10-05",
+    "filed": "2026-10-07",
+    "code": "S",
+    "value": 750235,
+    "who": "Kirn David"
+   },
+   {
+    "date": "2026-10-05",
+    "filed": "2026-10-07",
+    "code": "S",
+    "value": 3702,
+    "who": "Kirn David"
+   },
+   {
+    "date": "2026-09-16",
+    "filed": "2026-09-22",
+    "code": "S",
+    "value": 22318,
+    "who": "Bizily Scott"
+   },
+   {
+    "date": "2026-09-14",
+    "filed": "2026-09-16",
+    "code": "S",
+    "value": 811004,
+    "who": "Kirn David"
+   },
+   {
+    "date": "2026-09-01",
+    "filed": "2026-09-03",
+    "code": "S",
+    "value": 8176,
+    "who": "Bizily Scott"
+   },
+   {
+    "date": "2026-08-19",
+    "filed": "2026-08-21",
+    "code": "S",
+    "value": 662622,
+    "who": "Kirn David"
+   },
+   {
+    "date": "2026-08-19",
+    "filed": "2026-08-21",
+    "code": "S",
+    "value": 425651,
+    "who": "Kirn David"
+   },
+   {
+    "date": "2026-08-13",
+    "filed": "2026-08-17",
+    "code": "S",
+    "value": 19620,
+    "who": "Bizily Scott"
+   },
+   {
+    "date": "2026-08-17",
+    "filed": "2026-08-17",
+    "code": "S",
+    "value": 19947,
+    "who": "Bizily Scott"
+   },
+   {
+    "date": "2026-08-04",
+    "filed": "2026-08-05",
+    "code": "S",
+    "value": 274596,
+    "who": "Kirn David"
+   },
+   {
+    "date": "2026-08-03",
+    "filed": "2026-08-04",
+    "code": "S",
+    "value": 124722,
+    "who": "Kirn David"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "4d molecular therapeutics",
+  "other_trials": 6,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05930561",
+    "drugs": [
+     "4D-150 IVT",
+     "Aflibercept IVT"
+    ]
+   },
+   {
+    "nct": "NCT06864988",
+    "drugs": [
+     "4D-150 IVT (3E10 vg/eye)",
+     "EYLEA\u00ae (aflibercept) Injection 2 mg (0.05mL)"
+    ]
+   },
+   {
+    "nct": "NCT07867080",
+    "drugs": [
+     "4D-150 IVT (3x10^10 vg)",
+     "EYELEA \u00ae (aflibercept) Injection 2 mg (0.05mL)"
+    ]
+   },
+   {
+    "nct": "NCT05197270",
+    "drugs": [
+     "4D-150 IVT",
+     "Aflibercept IVT"
+    ]
+   },
+   {
+    "nct": "NCT07064759",
+    "drugs": [
+     "4D-150 IVT (3E10 vg/eye)",
+     "EYLEA\u00ae (aflibercept) Injection 2 mg (0.05mL)"
+    ]
+   }
+  ]
+ }
+}

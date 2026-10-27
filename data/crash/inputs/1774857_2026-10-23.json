@@ -1,0 +1,75 @@
+{
+ "id": "1774857_2026-10-23",
+ "kind": "crash",
+ "cik": "1774857",
+ "name": "Aardvark Therapeutics, Inc.",
+ "date": "2026-10-23",
+ "asof": "2026-10-23",
+ "final": false,
+ "version": 6,
+ "price": {
+  "date": "2026-10-23",
+  "adj_close": 1.39
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 73870000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001193125-26-344987"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": 36468000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-07-31",
+  "shares": 21884846
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 162900000,
+  "as_of": "2025-06-30",
+  "filed": "2026-03-23"
+ },
+ "insiders": {
+  "form4s": 6,
+  "from": "2026-07-25",
+  "to": "2026-10-27",
+  "trades": [
+   {
+    "date": "2026-09-10",
+    "filed": "2026-09-11",
+    "code": "S",
+    "value": 73779,
+    "who": "Sun Nelson"
+   },
+   {
+    "date": "2026-09-11",
+    "filed": "2026-09-11",
+    "code": "S",
+    "value": 321179,
+    "who": "Sun Nelson"
+   }
+  ]
+ },
+ "drug": "ARD-101",
+ "trials": {
+  "query": "aardvark therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}
