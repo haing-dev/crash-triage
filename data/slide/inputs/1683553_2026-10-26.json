@@ -1,0 +1,56 @@
+{
+ "id": "1683553_2026-10-26",
+ "kind": "slide",
+ "cik": "1683553",
+ "name": "SPRUCE BIOSCIENCES, INC.",
+ "date": "2026-10-26",
+ "asof": "2026-10-26",
+ "final": false,
+ "version": 6,
+ "price": null,
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 96295000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001193125-26-345876"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": 30852000.0,
+  "capex": 145000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-08-10",
+  "shares": 2874013
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 19944000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 2800000,
+  "as_of": "2025-06-30",
+  "filed": "2026-03-09"
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2026-07-28",
+  "to": "2026-10-28",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "spruce biosciences",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

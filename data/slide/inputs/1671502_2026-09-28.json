@@ -5,7 +5,7 @@
  "name": "Quoin Pharmaceuticals Ltd.",
  "date": "2026-09-28",
  "asof": "2026-09-28",
- "final": false,
+ "final": true,
  "version": 6,
  "price": {
   "date": "2026-09-28",
@@ -48,7 +48,7 @@
  "insiders": {
   "form4s": 6,
   "from": "2026-06-30",
-  "to": "2026-10-27",
+  "to": "2026-10-28",
   "trades": [
    {
     "date": "2026-08-31",
@@ -87,12 +87,6 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT06953466",
-    "drugs": [
-     "QRX003, 4% Lotion"
-    ]
-   },
-   {
     "nct": "NCT07538583",
     "drugs": [
      "QRX003"
@@ -100,6 +94,12 @@
    },
    {
     "nct": "NCT05789056",
+    "drugs": [
+     "QRX003, 4% Lotion"
+    ]
+   },
+   {
+    "nct": "NCT06953466",
     "drugs": [
      "QRX003, 4% Lotion"
     ]

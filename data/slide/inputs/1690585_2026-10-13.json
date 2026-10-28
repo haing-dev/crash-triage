@@ -47,7 +47,7 @@
  "insiders": {
   "form4s": 8,
   "from": "2026-07-15",
-  "to": "2026-10-27",
+  "to": "2026-10-28",
   "trades": [
    {
     "date": "2026-09-17",
@@ -268,6 +268,12 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
+    "nct": "NCT06537999",
+    "drugs": [
+     "Claseprubart"
+    ]
+   },
+   {
     "nct": "NCT07647510",
     "drugs": [
      "Claseprubart",
@@ -278,12 +284,6 @@
     "nct": "NCT06858579",
     "drugs": [
      "Claseprubart",
-     "Claseprubart"
-    ]
-   },
-   {
-    "nct": "NCT06537999",
-    "drugs": [
      "Claseprubart"
     ]
    }

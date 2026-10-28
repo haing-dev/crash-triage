@@ -5,7 +5,7 @@
  "name": "OCULAR THERAPEUTIX, INC",
  "date": "2026-09-28",
  "asof": "2026-09-28",
- "final": false,
+ "final": true,
  "version": 6,
  "price": {
   "date": "2026-09-28",
@@ -46,7 +46,7 @@
  "insiders": {
   "form4s": 8,
   "from": "2026-06-30",
-  "to": "2026-10-27",
+  "to": "2026-10-28",
   "trades": [
    {
     "date": "2026-10-08",
@@ -113,9 +113,11 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT07516132",
+    "nct": "NCT06495918",
     "drugs": [
-     "OTX-TKI"
+     "OTX-TKI",
+     "Aflibercept",
+     "Aflibercept"
     ]
    },
    {
@@ -127,11 +129,9 @@
     ]
    },
    {
-    "nct": "NCT06495918",
+    "nct": "NCT07516132",
     "drugs": [
-     "OTX-TKI",
-     "Aflibercept",
-     "Aflibercept"
+     "OTX-TKI"
     ]
    }
   ]

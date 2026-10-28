@@ -1,0 +1,59 @@
+{
+ "id": "1402328_2026-10-08",
+ "kind": "crash",
+ "cik": "1402328",
+ "name": "Sunshine Biopharma Inc.",
+ "date": "2026-10-08",
+ "asof": "2026-10-09",
+ "final": false,
+ "version": 6,
+ "price": {
+  "date": "2026-10-09",
+  "adj_close": 6.76
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 13748301,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0001683168-26-006340"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": 2990077.0,
+  "capex": 12144.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-08-13",
+  "shares": 3877337
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 7061719,
+  "as_of": "2025-06-30",
+  "filed": "2026-04-03"
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2026-07-10",
+  "to": "2026-10-28",
+  "trades": []
+ },
+ "drug": "n/a",
+ "trials": {
+  "query": "sunshine biopharma",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}
