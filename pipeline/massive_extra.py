@@ -48,6 +48,7 @@ def add(folder, cik, rows, cols):
 
 def run(kind, base, date_field, cols, row, st, t_end):
     tick = {u["ticker"].upper(): u["cik"] for u in universe().values() if u["ticker"]}
+    tick.update({"XBI": "XBI", "SPY": "SPY"})                  # benchmarks, stored under their tickers
     s = st.setdefault(kind, {})
     order = {"sort": date_field, "order": "asc"} if "/v3/" in base else {"sort": date_field + ".asc"}   # v3 sorts differently
     url = s.get("next") or f"{base}?{urlencode({date_field + '.gte': s.get('through', START), **order, 'limit': s.get('limit', 50000)})}"

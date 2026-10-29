@@ -1,0 +1,24 @@
+name: benchmarks-backfill
+on:
+  push:
+    paths: ["pipeline/benchmarks.py"]
+permissions:
+  contents: write
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - env:
+          TWELVEDATA_API_KEY: ${{ secrets.TWELVEDATA_API_KEY }}
+          MASSIVE_API_KEY: ${{ secrets.MASSIVE_API_KEY }}
+        run: cd pipeline && python benchmarks.py
+      - run: |
+          git config user.name "crash-triage-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/prices/SPY.csv data/market/dividends/SPY.csv data/market/dividends/XBI.csv
+          git commit -m "benchmarks backfill [skip ci]" || true
+          for i in 1 2 3 4 5; do git pull --rebase -q && git push -q && break; sleep $((i*7)); done

@@ -20,6 +20,7 @@ STATE = ROOT / "data" / "state" / "prices.json"
 START = "2020-10-01"          # 5 years of crashes + lookback for the first day
 TD, TI = os.environ.get("TWELVEDATA_API_KEY", ""), os.environ.get("TIINGO_API_KEY", "")
 MK = os.environ.get("MASSIVE_API_KEY", "")
+BENCH = ("XBI", "SPY")      # biotech index and S&P 500 ETFs, stored under their tickers
 
 
 def load_state():
@@ -79,7 +80,7 @@ def massive_daily(st, uni):
     if not MK:
         return set()
     by_tick = {u["ticker"].upper(): u["cik"] for u in uni if u["price_source"] == "twelvedata" and u["ticker"]}
-    by_tick["XBI"] = "XBI"
+    by_tick.update({b: b for b in BENCH})
     last = st.get("massive_last") or (date.today() - timedelta(days=5)).isoformat()
     d, updated = date.fromisoformat(last) + timedelta(days=1), set()
     while d <= date.today():
@@ -105,7 +106,7 @@ def massive_daily(st, uni):
     seen = set(st.setdefault("splits_applied", []))
     for sp in j.get("results") or []:
         cik = by_tick.get(sp.get("ticker", "").upper())
-        if not cik or cik == "XBI" or sp.get("adjustment_type") not in ("forward_split", "reverse_split") \
+        if not cik or cik in BENCH or sp.get("adjustment_type") not in ("forward_split", "reverse_split") \
                 or sp["id"] in seen or sp["execution_date"] > date.today().isoformat():
             continue
         f = sp["split_from"] / sp["split_to"]                  # 1-for-50 reverse split: older closes x 50
@@ -144,15 +145,16 @@ def main():
             st["done"][cik] = today
     except Exception as e:
         print("massive daily update failed, falling back to Twelve Data:", str(e)[:200])
-    # benchmark: biotech index ETF (XBI), refreshed daily
-    if TD and st["done"].get("XBI", "") < (date.today() - timedelta(days=3)).isoformat() and budget["twelvedata"] > 0:
-        try:
-            save("XBI", twelvedata("XBI", START), "twelvedata")
-            st["done"]["XBI"] = today
-            use["twelvedata"] += 1
-            got["twelvedata"] += 1
-        except Exception as e:
-            print("XBI failed", e)
+    # benchmarks: biotech index ETF (XBI) and S&P 500 ETF (SPY), refreshed daily
+    for b in BENCH:
+        if TD and st["done"].get(b, "") < (date.today() - timedelta(days=3)).isoformat() and budget["twelvedata"] > 0:
+            try:
+                save(b, twelvedata(b, START), "twelvedata")
+                st["done"][b] = today
+                use["twelvedata"] += 1
+                got["twelvedata"] += 1
+            except Exception as e:
+                print(b, "failed", e)
     for u in uni:
         src, cik = u["price_source"], u["cik"]
         if src not in budget or got[src] >= budget[src]:
