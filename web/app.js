@@ -131,42 +131,25 @@ function lineChart(el, series, n, xlab, fmt){
   hit.onmouseleave = () => { xh.setAttribute("opacity", 0); hideTip(); };
 }
 const PCT = {lo: v => Math.floor(Math.min(-10, v) / 10) * 10, hi: v => Math.ceil(Math.max(10, v) / 10) * 10, zero: 0,
-  ticks: (lo, hi) => { const st = (hi - lo) > 120 ? 20 : 10, o = []; for (let t = lo; t <= hi; t += st) o.push(t); return o; },
+  ticks: (lo, hi) => { const st = (hi - lo) > 240 ? 50 : (hi - lo) > 120 ? 20 : 10, o = []; for (let t = 0; t >= lo; t -= st) o.unshift(t); for (let t = st; t <= hi; t += st) o.push(t); return o; },
   tick: t => t === 0 ? "0%" : (t > 0 ? "+" : "−") + Math.abs(t) + "%", end: v => pct(v)};
-
-/* difference per quarter: one Deep Blue column per quarter, labelled, zero line in black */
-function diffChart(el, qs){
-  const W = Math.max(520, el.clientWidth), H = 280, left = 8, right = 8, top = 24, bot = 64;
-  const vals = qs.map(q => q.diff ?? 0), lo = Math.min(0, ...vals), hi = Math.max(0, ...vals), span = (hi - lo) || 1;
-  const y = v => top + (hi - v) / span * (H - top - bot), gw = (W - left - right) / qs.length, bw = Math.min(56, gw * .6);
-  let s = `<div class="panel"><svg width="${W}" height="${H}">`;
-  qs.forEach((q, i) => { const cx = left + i * gw + gw / 2;
-    if (q.diff != null) { const a = y(Math.max(q.diff, 0)), b = y(Math.min(q.diff, 0));
-      s += `<rect x="${cx - bw / 2}" y="${a}" width="${bw}" height="${Math.max(1, b - a)}" fill="var(--deep)"/><text class="lab" x="${cx}" y="${q.diff >= 0 ? a - 6 : b + 14}" text-anchor="middle" font-weight="700">${pct(q.diff)}</text>`; }
-    else s += `<text x="${cx}" y="${y(0) - 6}" text-anchor="middle" fill="var(--g-mid)">none</text>`;
-    s += `<text x="${cx}" y="${H - 10}" text-anchor="middle">${esc(q.q)}</text>`; });
-  s += `<line x1="${left}" x2="${W - right}" y1="${y(0)}" y2="${y(0)}" stroke="var(--black)" stroke-width="1"/></svg></div>`;
-  el.innerHTML += s;
-}
 
 function viewTrack(){
   const kd = D.kinds[K], Q = kd.quarters || [], Y = kd.years || {}, ys = Object.keys(Y).sort(), steps = kd.steps || [];
   const done = Q.filter(q => q.n), beat = done.filter(q => q.diff > 0).length;
   const avg = k => done.length ? done.reduce((t, q) => t + q[k], 0) / done.length : null;
-  const rows = Q.map(q => q.n ? `<tr><td>${esc(q.q)}</td><td class="r">${q.n}${q.open ? ` <span class="muted sm">(${q.open} under a year)</span>` : ""}</td><td class="r">${pct(q.buy)}</td><td class="r">${pct(q.xbi)}</td><td class="r"><b>${pct(q.diff)}</b></td></tr>`
-    : `<tr><td>${esc(q.q)}</td><td class="r">0</td><td class="r muted">–</td><td class="r muted">–</td><td class="r muted">–</td></tr>`).join("");
   $("#app").innerHTML = `<div class="toprow"><div><h1>Track record</h1><div class="muted">Buy candidates, bought at the close of the call day (entry, or the day a Watch turned Buy) and held a year, against the same money in the biotech index (XBI) over the same dates.</div></div></div>
    <div class="card" id="qt"><h4>Buy candidates vs the biotech index (XBI), by quarter of the call, last 3 years</h4>
-     <div class="metric">Equal money in each Buy candidate called that quarter, held a year; difference in return, percentage points</div>
+     <div class="metric">Return of equal money in each Buy candidate called that quarter, held a year (or to the latest close), and of XBI over the same dates, %</div>
      ${done.length ? `<div class="tiles"><div class="hl"><b>${beat} of ${done.length}</b><span>quarters in which Buy candidates beat XBI</span></div>
        <div><b>${pct(avg("diff"))}</b><span>average difference per quarter (Buy candidates ${pct(avg("buy"))}, XBI ${pct(avg("xbi"))})</span></div></div>
-     <div id="qchart"></div>
-     <div class="tablewrap" style="margin-top:24px"><table class="stats"><thead><tr><th>Quarter of the call</th><th class="r">Buy candidates</th><th class="r">Their return</th><th class="r">XBI, same dates</th><th class="r">Difference</th></tr></thead>
-       <tbody>${rows}</tbody></table></div>` : `<p class="empty">No Buy candidates in the last 3 years.</p>`}</div>
+     <div id="qchart"></div>` : `<p class="empty">No Buy candidates in the last 3 years.</p>`}</div>
    <div class="card" id="pf"><div class="toprow"><h4>$10,000 test: all Buy candidates of one year, equal money in each, each held a year</h4>
      ${ys.length ? `<select id="py">${ys.map(y => `<option${y === ys[ys.length - 2] || (ys.length === 1) ? " selected" : ""}>${y}</option>`).join("")}</select>` : ""}</div><div id="pfb"></div></div>
    <div class="fnote">Each return capped at +500%. Total return: price change plus cash paid out per share; a company that stopped trading (bought out, delisted) counts at its last close; reverse splits are taken out of the price. Positions bought less than a year ago are valued at the latest close. No trading costs.</div>`;
-  if (done.length) diffChart($("#qchart"), Q);
+  if (done.length > 1) lineChart($("#qchart"), [{l: "Buy candidates", col: "var(--deep)", path: done.map(q => q.buy)},
+      {l: "Biotech index (XBI)", col: "var(--deep-tint)", path: done.map(q => q.xbi)}, {l: "Difference", col: "var(--cyan)", path: done.map(q => q.diff)}],
+    done.length, done.map((q, i) => [i, q.q]), {...PCT, at: j => `Calls in ${done[j].q}: ${done[j].n} Buy candidates${done[j].open ? `, ${done[j].open} under a year` : ""}`});
   const xl = n => [0,90,180,270,365].map(d => [steps.indexOf(d) >= 0 ? steps.indexOf(d) : Math.round(d/365*(n-1)), d ? "day " + d : "bought"]).filter(([i]) => i < n);
   const draw = () => { const y = $("#py").value, v = Y[y], n = v.path.own.length, money = a => a.map(q => 10000 * (1 + q / 100));
     $("#pfb").innerHTML = `<div class="tiles"><div class="hl"><b>${usd(v.own)}</b><span>in ${v.n} Buy candidates of ${y}</span></div><div><b>${usd(v.xbi)}</b><span>in the biotech index (XBI)</span></div></div>
