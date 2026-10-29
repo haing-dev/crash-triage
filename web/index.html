@@ -5,16 +5,29 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Biotech Triage</title>
 <meta name="description" content="When a biotech stock crashes or slides, did it deserve to? Verdicts backtested on five years of history.">
+<script>try { if (localStorage.getItem("theme") === "light") document.documentElement.dataset.theme = "light"; } catch (e) {}</script>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header class="top">
-  <div class="kind" role="tablist" aria-label="Triage"><button data-kind="crash" role="tab">Crash Triage</button><button data-kind="slide" role="tab">Slide Triage</button></div>
-  <nav><a data-nav="screener">Screener</a><a data-nav="backtest">Backtest</a><a data-nav="track">Track record</a></nav>
+  <div class="left">
+    <div class="kind" role="tablist" aria-label="Triage"><button data-kind="crash" role="tab">Crash Triage</button><button data-kind="slide" role="tab">Slide Triage</button></div>
+    <nav><a data-nav="screener">Screener</a><a data-nav="backtest">Backtest</a><a data-nav="track">Track record</a></nav>
+  </div>
+  <button class="mode" id="mode" role="switch" aria-checked="false" aria-label="Light mode">Light mode <span class="switch"></span></button>
 </header>
 <main id="app"><p class="muted">Loading…</p></main>
 <div id="tip" role="tooltip"></div>
 <footer class="foot" id="foot"></footer>
+<script>
+(function () {
+  const m = document.getElementById("mode"), root = document.documentElement;
+  const set = light => { if (light) root.dataset.theme = "light"; else delete root.dataset.theme; m.setAttribute("aria-checked", String(light));
+    try { localStorage.setItem("theme", light ? "light" : "dark"); } catch (e) {} };
+  m.setAttribute("aria-checked", String(root.dataset.theme === "light"));
+  m.onclick = () => set(root.dataset.theme !== "light");
+})();
+</script>
 <script src="app.js"></script>
 </body>
 </html>

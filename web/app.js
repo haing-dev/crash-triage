@@ -136,17 +136,17 @@ function viewOne(id){
 
 /* ------------------------------------------------------------------ track record */
 function lineChart(el, series, n, xlab, fmt){
-  const W = Math.max(520, el.clientWidth - 32), H = 340, left = 56, right = 150, top = 14, bot = 40;
+  const W = Math.max(520, el.clientWidth - 48), H = 340, left = 56, right = 150, top = 14, bot = 40;
   const all = series.flatMap(s => s.path), lo = fmt.lo(Math.min(...all)), hi = fmt.hi(Math.max(...all));
   const x = i => left + i / (n - 1) * (W - left - right), y = v => top + (hi - v) / (hi - lo) * (H - top - bot);
-  let s = `<div class="chartleg">${series.map(r => `<span><i class="ln" style="background:${r.col}"></i>${esc(r.l)}</span>`).join("")}</div><svg width="${W}" height="${H}">`;
+  let s = `<div class="panel"><div class="chartleg">${series.map(r => `<span><i class="ln" style="background:${r.col}"></i>${esc(r.l)}</span>`).join("")}</div><svg width="${W}" height="${H}">`;
   fmt.ticks(lo, hi).forEach(t => s += `<line x1="${left}" x2="${W-right}" y1="${y(t)}" y2="${y(t)}" stroke="${t===fmt.zero?"var(--axis)":"var(--line)"}"/><text x="${left-8}" y="${y(t)+4}" text-anchor="end">${fmt.tick(t)}</text>`);
   xlab.forEach(([i, l]) => s += `<text x="${x(i)}" y="${H-16}" text-anchor="middle">${esc(l)}</text>`);
   const ends = series.map((r,i) => ({i, y: y(r.path[n-1])})).sort((a,b) => a.y - b.y); let last = -1e9;
   ends.forEach(e => { e.ly = Math.max(e.y, last + 18); last = e.ly; });
   series.forEach((r, i) => { s += `<path d="M${r.path.map((v,j)=>`${x(j).toFixed(1)},${y(v).toFixed(1)}`).join(" L")}" fill="none" stroke="${r.col}" stroke-width="2.5" ${r.dash?'stroke-dasharray="6 5"':""}/>`;
     const e = ends.find(z => z.i === i); s += `<circle cx="${x(n-1)}" cy="${y(r.path[n-1])}" r="4.5" fill="${r.col}"/><text class="lab" x="${x(n-1)+10}" y="${e.ly+4}" font-weight="700">${fmt.end(r.path[n-1])}</text>`; });
-  s += `<line class="xh" y1="${top}" y2="${H-bot}" stroke="var(--axis)" opacity="0"/><rect x="${left}" y="${top}" width="${W-left-right}" height="${H-top-bot}" fill="transparent" class="hit"/></svg>`;
+  s += `<line class="xh" y1="${top}" y2="${H-bot}" stroke="var(--axis)" opacity="0"/><rect x="${left}" y="${top}" width="${W-left-right}" height="${H-top-bot}" fill="transparent" class="hit"/></svg></div>`;
   el.innerHTML += s;
   const hit = el.querySelector(".hit"), xh = el.querySelector(".xh");
   hit.onmousemove = e => { const b = hit.getBoundingClientRect(), j = Math.max(0, Math.min(n-1, Math.round((e.clientX - b.left) / b.width * (n - 1))));
@@ -159,16 +159,16 @@ const PCT = {lo: v => Math.floor(Math.min(-10, v) / 10) * 10, hi: v => Math.ceil
   tick: t => t === 0 ? "0%" : (t > 0 ? "+" : "−") + Math.abs(t) + "%", end: v => pct(v)};
 
 function barChart(el, data, keys){
-  const W = Math.max(520, el.clientWidth - 32), H = 330, left = 56, right = 16, top = 22, bot = 56;
+  const W = Math.max(520, el.clientWidth - 48), H = 330, left = 56, right = 16, top = 22, bot = 56;
   const vals = data.flatMap(d => keys.map(k => d[k.k]).filter(v => v != null)), lo = Math.floor(Math.min(0, ...vals) / 10) * 10 - 10, hi = Math.ceil(Math.max(10, ...vals) / 10) * 10 + 10;
   const y = v => top + (hi - v) / (hi - lo) * (H - top - bot), gw = (W - left - right) / data.length, bw = Math.min(30, (gw - 16) / keys.length);
-  let s = `<div class="chartleg">${keys.map(k => `<span><i class="ln" style="background:${k.col}"></i>${esc(k.l)}</span>`).join("")}</div><svg width="${W}" height="${H}">`;
+  let s = `<div class="panel"><div class="chartleg">${keys.map(k => `<span><i class="ln" style="background:${k.col}"></i>${esc(k.l)}</span>`).join("")}</div><svg width="${W}" height="${H}">`;
   PCT.ticks(lo, hi).forEach(t => s += `<line x1="${left}" x2="${W-right}" y1="${y(t)}" y2="${y(t)}" stroke="${t===0?"var(--axis)":"var(--line)"}"/><text x="${left-8}" y="${y(t)+4}" text-anchor="end">${PCT.tick(t)}</text>`);
   data.forEach((d, i) => { const x0 = left + i * gw + gw / 2 - keys.length * bw / 2;
     keys.forEach((k, j) => { const v = d[k.k]; if (v == null) return; const a = y(Math.max(v, 0)), b = y(Math.min(v, 0));
       s += `<rect x="${x0 + j * bw + 1}" y="${a}" width="${bw - 3}" height="${Math.max(1, b - a)}" rx="3" fill="${k.col}"/><text class="lab" x="${x0 + j * bw + bw / 2}" y="${v >= 0 ? a - 5 : b + 13}" text-anchor="middle" font-size="11">${pct(v)}</text>`; });
     s += `<text class="lab" x="${left + i * gw + gw / 2}" y="${H - 30}" text-anchor="middle" font-weight="600">${esc(d.label)}</text><text x="${left + i * gw + gw / 2}" y="${H - 14}" text-anchor="middle" font-size="11">${esc(d.sub)}</text>`; });
-  el.innerHTML += s + "</svg>";
+  el.innerHTML += s + "</svg></div>";
 }
 
 function viewTrack(){
