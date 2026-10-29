@@ -1,0 +1,112 @@
+/* McKinsey-style visual guide: white, black text, Georgia Bold titles, Arial elsewhere, thin gray rules,
+   Deep Blue for data, one Electric Blue / Cyan highlight. Light mode only. */
+:root{
+  --white:#FFFFFF;--black:#000000;--deep:#051C2C;--cyan:#00A9F4;--eblue:#1F40E6;--red:#E4536C;
+  --g-dark:#4D4D4D;--g-mid:#7F7F7F;--g-light:#B3B3B3;--g-slight:#D0D0D0;--g-pale:#E6E6E6;--deep-tint:#50606B;
+  --serif:Georgia,"Times New Roman",serif;--sans:Arial,"Helvetica Neue",Helvetica,sans-serif;
+  /* names the page code uses */
+  --line:var(--g-slight);--axis:var(--black);--g-line:var(--deep);--idx:var(--deep-tint);--blue:var(--deep-tint);
+  --good:var(--eblue);--bad:var(--red);
+}
+*{box-sizing:border-box}
+html{color-scheme:light}
+body{margin:0;background:var(--white);color:var(--black);font:16px/1.5 var(--sans)}
+a{color:var(--eblue);text-decoration:none}a:hover{text-decoration:underline}
+:focus-visible{outline:2px solid var(--eblue);outline-offset:3px}
+
+/* top bar */
+.top{display:flex;align-items:center;gap:48px;padding:0 48px;min-height:64px;border-bottom:1px solid var(--black);position:sticky;top:0;background:var(--white);z-index:5;flex-wrap:wrap}
+.kind{display:flex;gap:32px}
+.kind button{font:inherit;font-size:16px;border:0;background:none;padding:20px 0;color:var(--g-dark);cursor:pointer}
+.kind button:hover{color:var(--black)}
+.kind button.on{color:var(--black);font-weight:700}
+nav{display:flex;gap:28px;margin-left:auto}
+nav a{font-size:14px;color:var(--g-dark);padding:20px 0;cursor:pointer}
+nav a:hover{color:var(--black);text-decoration:none}
+nav a.on{color:var(--black);font-weight:700}
+
+main{max-width:1600px;margin:0 auto;padding:40px 48px 56px}
+h1{font:700 clamp(30px,3.2vw,40px)/1.15 var(--serif);color:var(--black);margin:0 0 12px}
+h4{font:700 20px/1.3 var(--sans);color:var(--black);margin:0 0 4px}
+.metric{font-size:14px;color:var(--black);margin:0 0 20px}
+.muted{color:var(--g-dark)}
+.toprow{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap;margin-bottom:24px;padding-bottom:20px;border-bottom:1px solid var(--g-light)}
+.toprow>div:first-child>.muted{max-width:110ch;font-size:16px;color:var(--black)}
+.filters{display:flex;gap:24px;flex-wrap:wrap;align-items:flex-end}
+
+select,input{font:inherit;font-size:14px;color:var(--black);background:var(--white);border:0;border-bottom:1px solid var(--g-mid);border-radius:0;padding:6px 2px}
+select:focus,input:focus{outline:none;border-bottom:2px solid var(--eblue);padding-bottom:5px}
+input{min-width:240px}input::placeholder{color:var(--g-mid)}
+
+/* tables: numbers right, text left, headings bottom-aligned, 1px mid-gray heading rule, light row rules */
+.tablewrap{overflow-x:auto}
+table.crash{width:100%;border-collapse:collapse;min-width:1100px}
+.crash th{text-align:left;font-weight:700;color:var(--black);font-size:12px;line-height:1.3;padding:8px 8px;vertical-align:bottom;white-space:normal}
+.crash thead tr:first-child th{border-bottom:0}
+.crash tr.frow th{padding:0 8px 10px;border-bottom:1px solid var(--g-mid);font-weight:400}
+.crash th.fh{text-align:left;min-width:88px;width:96px}
+.crash th.r{text-align:right}
+.crash td{padding:12px 8px;border-bottom:1px solid var(--g-pale);vertical-align:top;font-size:13px;line-height:1.4;color:var(--black)}
+.crash tbody tr:hover td{background:#F5F5F5}
+.crash .what{min-width:180px;max-width:240px}
+.hsel{width:100%;min-width:84px;font-size:12px;padding:3px 0}
+.hs{font-size:11px;color:var(--g-dark);font-weight:400;white-space:normal;line-height:1.25}
+th.sortable{cursor:pointer;user-select:none}th.sortable:hover{color:var(--eblue)}
+.num{font-variant-numeric:tabular-nums;font-weight:700}.r{text-align:right}
+.sm{font-size:12px}
+td[title],.tip{cursor:help}
+
+/* factor cells: black text, the symbol carries the state (check = better, cross = worse) */
+td.f{font-size:13px;white-space:normal;min-width:88px;max-width:150px;line-height:1.35}
+td.f.wide{min-width:128px;max-width:170px}
+.ic{display:inline-block;width:16px;font-size:12px;font-weight:700}
+.f-g .ic{color:var(--eblue)}.f-r .ic{color:var(--red)}.f-n .ic{color:var(--g-light)}
+td.f.f-na,.f-na{color:var(--g-mid)}
+
+/* call and outcome tags: status colours, square, thin outline */
+.pill{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:700;padding:3px 9px;border:1px solid;white-space:nowrap;background:var(--white)}
+.pill i{font-style:normal;font-size:9px}
+.p-good{color:var(--eblue);border-color:var(--eblue)}
+.p-warn{color:var(--g-dark);border-color:var(--g-light)}
+.p-crit{color:var(--red);border-color:var(--red)}
+.p-pend{color:var(--g-mid);border-color:var(--g-slight);font-weight:400}
+
+.legend{display:flex;gap:28px;align-items:center;margin-top:16px;font-size:12px;flex-wrap:wrap;color:var(--black)}
+.more{margin-top:24px}
+.more button{font:700 16px var(--sans);color:#fff;background:var(--deep);border:0;border-radius:0;padding:12px 22px;cursor:pointer}
+.more button:hover{background:#0B2A40}
+
+/* track record sections */
+.card{border-top:1px solid var(--g-light);padding:32px 0 8px;margin-bottom:32px}
+.card .toprow{border:0;padding:0;margin-bottom:4px}
+.toprow+.card{border-top:0;padding-top:8px}
+.tiles{display:flex;gap:40px;flex-wrap:wrap;margin:8px 0 24px}
+.tiles>div{flex:1;min-width:180px}
+.tiles b{display:block;font:700 44px/1.1 var(--serif);color:var(--black);margin-bottom:6px}
+.tiles .hl b{color:var(--eblue)}
+.tiles span{color:var(--black);font-size:14px}
+.fnote{font-size:12px;color:var(--g-dark);margin-top:16px;line-height:1.5;max-width:66%}
+table.stats{border-collapse:collapse;width:100%;max-width:900px}
+table.stats th,table.stats td{padding:8px 10px;font-size:14px}
+table.stats th{color:var(--black);font-weight:700;text-align:left;vertical-align:bottom;border-bottom:1px solid var(--g-mid)}
+table.stats td{border-bottom:1px solid var(--g-pale)}
+table.stats th.r,table.stats td.r{text-align:right;font-variant-numeric:tabular-nums}
+table.stats tr.total td{border-top:1px solid var(--g-mid);font-weight:700}
+.empty{padding:40px 0;color:var(--g-dark)}
+
+/* charts: white background, black category axis, light gridlines, 2px lines, direct labels */
+.panel{margin-top:8px}
+svg text{fill:var(--black);font:12px var(--sans)}svg .lab{fill:var(--black)}
+
+/* hover text on charts: subtle callout */
+#tip{position:fixed;pointer-events:none;background:var(--g-pale);color:var(--black);padding:10px 12px;font-size:13px;line-height:1.45;opacity:0;transition:opacity .15s;z-index:20;max-width:320px}
+#tip b{display:block}
+.foot{max-width:1600px;margin:0 auto;padding:16px 48px 40px;color:var(--g-dark);font-size:12px;border-top:1px solid var(--black)}
+
+@media (max-width:640px){
+  .top,main,.foot{padding-left:16px;padding-right:16px}
+  .top{gap:16px}nav{margin-left:0}
+  input{min-width:0;width:100%}
+  .fnote{max-width:100%}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
