@@ -48,7 +48,7 @@
  "insiders": {
   "form4s": 4,
   "from": "2026-07-03",
-  "to": "2026-10-28",
+  "to": "2026-10-29",
   "trades": [
    {
     "date": "2026-10-16",
@@ -87,6 +87,22 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
+    "nct": "NCT05980806",
+    "drugs": [
+     "Selinexor 60 mg",
+     "Selinexor 40 mg",
+     "Ruxolitinib"
+    ]
+   },
+   {
+    "nct": "NCT02343042",
+    "drugs": [
+     "Selinexor",
+     "Dexamethasone",
+     "Lenalidomide"
+    ]
+   },
+   {
     "nct": "NCT02227251",
     "drugs": [
      "Selinexor",
@@ -100,22 +116,6 @@
      "Selinexor (combination therapy)",
      "Selinexor (combination therapy)",
      "Selinexor (combination therapy)"
-    ]
-   },
-   {
-    "nct": "NCT02343042",
-    "drugs": [
-     "Selinexor",
-     "Dexamethasone",
-     "Lenalidomide"
-    ]
-   },
-   {
-    "nct": "NCT05980806",
-    "drugs": [
-     "Selinexor 60 mg",
-     "Selinexor 40 mg",
-     "Ruxolitinib"
     ]
    },
    {

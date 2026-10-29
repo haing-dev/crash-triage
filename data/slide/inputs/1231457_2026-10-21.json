@@ -48,7 +48,7 @@
  "insiders": {
   "form4s": 6,
   "from": "2026-07-23",
-  "to": "2026-10-28",
+  "to": "2026-10-29",
   "trades": [
    {
     "date": "2026-08-31",
@@ -101,19 +101,19 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT06463665",
-    "drugs": [
-     "Olvimulogene nanivacirepvec",
-     "Platinum chemotherapy: carboplatin or cisplatin",
-     "Non-platinum chemotherapy: paclitaxel or nab-paclitaxel for squamous cell NSCLC or pemetrexed for nonsquamous cell NSCLC"
-    ]
-   },
-   {
     "nct": "NCT05281471",
     "drugs": [
      "olvimulogene nanivacirepvec",
      "Platinum chemotherapy: carboplatin (preferred) or cisplatin",
      "Non-platinum chemotherapy: Physician's Choice of gemcitabine, taxane (paclitaxel, docetaxel or nab-paclitaxel) or pegylated liposomal doxorubicin"
+    ]
+   },
+   {
+    "nct": "NCT06463665",
+    "drugs": [
+     "Olvimulogene nanivacirepvec",
+     "Platinum chemotherapy: carboplatin or cisplatin",
+     "Non-platinum chemotherapy: paclitaxel or nab-paclitaxel for squamous cell NSCLC or pemetrexed for nonsquamous cell NSCLC"
     ]
    }
   ]

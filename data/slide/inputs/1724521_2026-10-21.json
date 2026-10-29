@@ -50,7 +50,7 @@
  "insiders": {
   "form4s": 1,
   "from": "2026-07-23",
-  "to": "2026-10-28",
+  "to": "2026-10-29",
   "trades": [
    {
     "date": "2026-08-21",
@@ -68,18 +68,18 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
+    "nct": "NCT07011719",
+    "drugs": [
+     "Casdatifan",
+     "Cabozantinib"
+    ]
+   },
+   {
     "nct": "NCT06608927",
     "drugs": [
      "Quemliclustat",
      "Nab-paclitaxel",
      "Gemcitabine"
-    ]
-   },
-   {
-    "nct": "NCT07011719",
-    "drugs": [
-     "Casdatifan",
-     "Cabozantinib"
     ]
    }
   ]

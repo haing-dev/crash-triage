@@ -50,7 +50,7 @@
  "insiders": {
   "form4s": 2,
   "from": "2026-07-07",
-  "to": "2026-10-28",
+  "to": "2026-10-29",
   "trades": [
    {
     "date": "2026-08-18",
@@ -75,15 +75,21 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT07473843",
+    "nct": "NCT07859813",
     "drugs": [
-     "Zodasiran"
+     "ARO-INHBE"
     ]
    },
    {
-    "nct": "NCT07037771",
+    "nct": "NCT07221344",
     "drugs": [
-     "zodasiran Injection"
+     "ARO-MAPT-SC"
+    ]
+   },
+   {
+    "nct": "NCT07241546",
+    "drugs": [
+     "ARO-RAGE"
     ]
    },
    {
@@ -93,15 +99,10 @@
     ]
    },
    {
-    "nct": "NCT06937203",
+    "nct": "NCT06700538",
     "drugs": [
-     "ARO-ALK7"
-    ]
-   },
-   {
-    "nct": "NCT07221344",
-    "drugs": [
-     "ARO-MAPT-SC"
+     "ARO-INHBE",
+     "Tirzepatide"
     ]
    }
   ]
