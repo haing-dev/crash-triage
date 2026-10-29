@@ -110,3 +110,11 @@ svg text{fill:var(--black);font:12px var(--sans)}svg .lab{fill:var(--black)}
   .fnote{max-width:100%}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+
+/* owner login */
+.owner{font-size:14px}.owner a{color:var(--g-dark)}.owner a:hover{color:var(--black)}
+.kind button[hidden]{display:none}
+form.login{max-width:360px;display:flex;flex-direction:column;gap:8px}
+form.login label{font-size:14px;font-weight:700;color:var(--black)}
+form.login input{min-width:0;width:100%;font-size:16px}
+form.login .err{font-size:14px;color:var(--red)}

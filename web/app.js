@@ -164,11 +164,28 @@ function viewTrack(){
 function median(a){ if (!a.length) return 0; const s = [...a].sort((x,y)=>x-y), m = s.length >> 1; return s.length % 2 ? s[m] : (s[m-1]+s[m]) / 2; }
 function hash(s){ let h = 2166136261; for (const ch of s) h = Math.imul(h ^ ch.charCodeAt(0), 16777619); return ((h >>> 0) % 1000) / 1000; }
 
+/* ------------------------------------------------------------------ owner login (the Fallen Biotech Screener is private) */
+let OWNER = false;
+function viewLogin(){
+  const failed = /failed=1/.test(location.hash);
+  $("#app").innerHTML = `<div class="toprow"><div><h1>Owner login</h1><div class="muted">The Fallen Biotech Screener is private.</div></div></div>
+    <form class="login" method="post" action="/owner/login">
+      <label for="pw">Password</label><input id="pw" name="password" type="password" autocomplete="current-password" required autofocus>
+      ${failed ? `<div class="err">That password didn't work.</div>` : ""}
+      <div class="more"><button type="submit">Log in</button></div></form>`;
+}
+function ownerLinks(){
+  document.querySelectorAll(".kind button").forEach(b => b.hidden = !D.kinds[b.dataset.kind]);
+  $("#owner").innerHTML = OWNER ? `<a href="/owner/logout">Log out</a>` : `<a href="#/login">Owner login</a>`;
+}
+
 function route(){
   hideTip();
   let h = (location.hash || "#/").slice(2);
+  if (h.startsWith("login")) { document.querySelectorAll(".kind button,nav a").forEach(b => b.classList.remove("on")); viewLogin(); return; }
   if (!/^(crash|slide)(\/|$)/.test(h)) h = "crash/" + h;
   const [kind, ...rest] = h.split("/"), view = rest[0] || "screener";
+  if (!D.kinds[kind]) { location.hash = "#/login"; return; }
   K = kind;
   document.querySelectorAll(".kind button").forEach(b => b.classList.toggle("on", b.dataset.kind === K));
   document.querySelectorAll("nav a").forEach(a => { a.href = `${base()}${a.dataset.nav === "screener" ? "" : "/" + a.dataset.nav}`;
@@ -178,9 +195,15 @@ function route(){
   else viewTable(view === "backtest" ? "backtest" : "screener");
   scrollTo(0, 0);
 }
-fetch("data.json", {cache: "no-store"}).then(r => r.json()).then(d => {
-  D = d; Object.values(D.kinds).forEach(k => k.items.sort((a,b) => b.date.localeCompare(a.date)));
+fetch("data.json", {cache: "no-store"}).then(r => r.json()).then(async d => {
+  D = d;
+  for (const k of d.private || []) {                        // owner-only data: the Worker answers 401 without the owner cookie
+    try { const r = await fetch(`private/${k}.json`, {cache: "no-store", credentials: "same-origin"});
+      if (r.ok) { Object.assign(D.kinds, (await r.json()).kinds); OWNER = true; } } catch (e) {}
+  }
+  Object.values(D.kinds).forEach(k => k.items.sort((a,b) => b.date.localeCompare(a.date)));
   document.querySelectorAll(".kind button").forEach(b => b.onclick = () => { location.hash = `#/${b.dataset.kind}`; });
+  ownerLinks();
   $("#foot").textContent = `Updated ${d.updated}. Data: SEC EDGAR (filings, XBRL, Form 4, 13F), FINRA short interest and prices via Massive, ClinicalTrials.gov, Twelve Data, Tiingo. Not investment advice.`;
   addEventListener("hashchange", route); route();
 }).catch(() => $("#app").innerHTML = `<p class="empty">Could not load data.</p>`);

@@ -26,6 +26,7 @@ TODAY = date.today().isoformat()
 LEDGER = DATA / "ledger.csv"
 LCOLS = ["called_utc", "kind", "id", "cik", "ticker", "name", "call", "base_date"]
 CALLS = ("overdone", "close", "justified")
+PRIVATE = ("slide",)          # owner-only screeners (the Fallen Biotech Screener): not in the public data.json
 
 
 def mean(v):
@@ -168,8 +169,10 @@ def ledger(data):
             if not rows:
                 w.writeheader()
             w.writerows(new)
-        (ROOT / "new_calls.md").write_text("Calls published by the build at " + now + ":\n\n" + "\n".join(
-            f"- {r['kind']} · {r['name']} ({r['ticker']}) · {r['call']} · measured from the close of {r['base_date']}" for r in new))
+        pub = [r for r in new if r["kind"] not in PRIVATE]
+        if pub:
+            (ROOT / "new_calls.md").write_text("Calls published by the build at " + now + ":\n\n" + "\n".join(
+                f"- {r['kind']} · {r['name']} ({r['ticker']}) · {r['call']} · measured from the close of {r['base_date']}" for r in pub))
     out = []
     for r in rows + new:
         res, _ = total_return(r["cik"], r["base_date"], TODAY)
@@ -180,16 +183,22 @@ def ledger(data):
 
 def main():
     kinds = {k: build(k) for k in KINDS}
-    data = {"updated": time.strftime("%Y-%m-%d %H:%M UTC", time.gmtime()), "companies": len(universe()),
-            "kinds": kinds, "live": ledger(kinds)}
+    ledger(kinds)
+    updated = time.strftime("%Y-%m-%d %H:%M UTC", time.gmtime())
+    public = {k: v for k, v in kinds.items() if k not in PRIVATE}
+    data = {"updated": updated, "companies": len(universe()), "kinds": public, "private": list(PRIVATE)}
     if SITE.exists():
         shutil.rmtree(SITE)
     shutil.copytree(ROOT / "web", SITE)
     (SITE / "data.json").write_text(json.dumps(data, separators=(",", ":")))
+    (SITE / "private").mkdir()
+    for k in PRIVATE:                                        # served only to the owner by the Worker (worker/worker.js)
+        (SITE / "private" / f"{k}.json").write_text(json.dumps({"updated": updated, "kinds": {k: kinds[k]}}, separators=(",", ":")))
     v = time.strftime("%Y%m%d%H%M", time.gmtime())          # new file names each build: browsers never keep old code
     idx = SITE / "index.html"
     idx.write_text(idx.read_text().replace('href="style.css"', f'href="style.css?v={v}"').replace('src="app.js"', f'src="app.js?v={v}"'))
-    (SITE / "_headers").write_text("".join(f"{p}\n  Cache-Control: no-cache\n" for p in ("/", "/index.html", "/data.json", "/app.js", "/style.css")))
+    (SITE / "_headers").write_text("".join(f"{p}\n  Cache-Control: no-cache\n" for p in ("/", "/index.html", "/data.json", "/app.js", "/style.css"))
+                                   + "/private/*\n  Cache-Control: private, no-store\n")
 
 
 if __name__ == "__main__":
