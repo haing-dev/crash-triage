@@ -4,23 +4,22 @@ Build the static site into ./site: web/ (page code) + site/data.json with both t
 For every episode: the cells and call (fit.py), the crash announcement (crashes), market value at entry, and the total
 return if bought at the close of the call day (returns.py) - the entry day, or for a Watch upgraded to Buy candidate
 by a later 13F, that 13F's filing day: one year later once the year is complete (backtest: Winner >=
-+30%, Recovery 0 to +30%, Failure < 0), else to the latest close (screener). Every return is shown next to the average
-of the 10 similar biotechs bought the same day (controls.py).
++30%, Recovery 0 to +30%, Failure < 0), else to the latest close (screener).
 
-Track record (Buy candidates with complete inputs):
-  line chart   average total return day by day for a year after the call (any single return capped at +500%), against
-               their similar biotechs and the biotech index (XBI) over the same dates
-  $10,000      per year of entry: $10,000 split equally over that year's Buy candidates, each held a year (or to the
-               latest close if the year isn't over), against the same money in their similar biotechs and in XBI
-  by cause     crashes only: one-year results per cause of the crash (from the company's announcement)
+Track record (Buy candidates with complete inputs; any single return capped at +500% in averages):
+  by quarter   the last 12 calendar quarters: equal money in each Buy candidate called that quarter, held a year (or to
+               the latest close if the year isn't over), against the same money in the biotech index (XBI) on the
+               same dates, and the difference
+  $10,000      per year of the call: $10,000 split equally over that year's Buy candidates, each held a year (or to the
+               latest close), against the same money in XBI
 Live calls: data/ledger.csv, one row each time a recent episode (entry within 30 days) gets a call or a new call;
 the build's time is the call time and the return is measured from the last close before it. The workflow publishes
 new rows as a GitHub release, whose timestamp GitHub sets.
 """
-import csv, json, shutil, statistics, time
+import csv, json, shutil, time
 from datetime import date, datetime, timezone
 from common import DATA, ROOT, KINDS, closes, episodes, universe
-from returns import STEPS, path, plus, total_return
+from returns import STEPS, plus, total_return
 
 SITE = ROOT / "site"
 TODAY = date.today().isoformat()
@@ -33,22 +32,22 @@ def mean(v):
     return sum(v) / len(v) if v else None
 
 
-def ctrl_return(ctrl, cid, d0, d1):
-    rs = [min(r, 5.0) for r in (total_return(k, d0, d1)[0] for k in (ctrl.get(cid) or {}).get("ciks", [])) if r is not None]
-    return mean(rs)                                      # each capped at +500%, like the averages of the calls
+def quarter(d):
+    return f"{d[:4]} Q{(int(d[5:7]) - 1) // 3 + 1}"
 
 
-def stats(group):
-    a = [r["ret"] for r in group]
-    c = [r["ctrl365"] for r in group if r.get("ctrl365") is not None]
-    return {"n": len(a), "median": round(statistics.median(a), 1), "mean": round(mean([min(v, 500) for v in a]), 1),
-            "ctrl_mean": round(mean(c), 1) if c else None,
-            "win30": round(100 * sum(v >= 30 for v in a) / len(a)), "wipe80": round(100 * sum(v <= -80 for v in a) / len(a))}
+def last_quarters(n):
+    y, q = int(TODAY[:4]), (int(TODAY[5:7]) - 1) // 3 + 1
+    out = []
+    for _ in range(n):
+        out.append(f"{y} Q{q}")
+        y, q = (y, q - 1) if q > 1 else (y - 1, 4)
+    return out[::-1]
 
 
-def series(ctrl, r):
-    """Return at each step after entry (as far as today reaches): own, similar biotechs, XBI."""
-    own, ctl, idx = [], [], []
+def series(r):
+    """Return at each step after the call (as far as today reaches): own, XBI."""
+    own, idx = [], []
     for k in STEPS:
         d1 = plus(r["call_date"], k)
         if d1 > TODAY:
@@ -57,9 +56,8 @@ def series(ctrl, r):
         if a is None:
             break
         own.append(min(a, 5.0))
-        ctl.append(ctrl_return(ctrl, r["id"], r["call_date"], d1))
         idx.append(total_return("XBI", r["call_date"], d1)[0])
-    return own, ctl, idx
+    return own, idx
 
 
 def avg_path(rows, i, carry=False):
@@ -75,7 +73,7 @@ def avg_path(rows, i, carry=False):
     return out
 
 
-def build(kind, ctrl):
+def build(kind):
     items = []
     for c in sorted(episodes(kind), key=lambda c: c["cik"]):
         cid = f"{c['cik']}_{c['date']}"
@@ -108,46 +106,45 @@ def build(kind, ctrl):
         r, last = total_return(c["cik"], call_d, one_year if rec["played"] else TODAY)
         if r is not None:
             rec["ret"], rec["ret_to"] = round(r * 100, 1), last
-            cr = ctrl_return(ctrl, cid, call_d, one_year if rec["played"] else TODAY)
-            rec["ctrl_ret"] = round(cr * 100, 1) if cr is not None else None
+            x, _ = total_return("XBI", call_d, one_year if rec["played"] else TODAY)
+            rec["xbi_ret"] = round(x * 100, 1) if x is not None else None
             if rec["played"]:
                 rec["outcome"] = "Winner" if rec["ret"] >= 30 else "Recovery" if rec["ret"] >= 0 else "Failure"
-                rec["ctrl365"] = rec["ctrl_ret"]
             ds, _ = closes(c["cik"])
             if ds and ds[-1] < min(one_year, plus(TODAY, -7)):
                 rec["stopped"] = ds[-1]
         items.append(rec)
     buys = [r for r in items if r["verdict"] == "overdone" and r.get("ret") is not None]
-    ser = {r["id"]: series(ctrl, r) for r in buys}
-    played = [ser[r["id"]] for r in buys if r["played"] and len(ser[r["id"]][0]) == len(STEPS)]
-    track = {"n": len(played), "own": avg_path(played, 0), "ctrl": avg_path(played, 1), "xbi": avg_path(played, 2)} if played else None
+    ser = {r["id"]: series(r) for r in buys}
+    quarters = []
+    for q in last_quarters(12):
+        grp = [r for r in buys if quarter(r["call_date"]) == q and r.get("xbi_ret") is not None]
+        if not grp:
+            quarters.append({"q": q, "n": 0})
+            continue
+        b, x = mean([min(r["ret"], 500) for r in grp]), mean([r["xbi_ret"] for r in grp])
+        quarters.append({"q": q, "n": len(grp), "open": sum(1 for r in grp if not r["played"]),
+                         "buy": round(b, 1), "xbi": round(x, 1), "diff": round(b - x, 1)})
     years = {}
     for y in sorted({r["call_date"][:4] for r in buys}):
         grp = [r for r in buys if r["call_date"][:4] == y]
         ss = [ser[r["id"]] for r in grp if ser[r["id"]][0]]
         if not ss:
             continue
-        pth = {"own": avg_path(ss, 0, True), "ctrl": avg_path(ss, 1, True), "xbi": avg_path(ss, 2, True)}
+        pth = {"own": avg_path(ss, 0, True), "xbi": avg_path(ss, 1, True)}
         fin = lambda k: round(10000 * (1 + pth[k][-1] / 100)) if pth[k] else None
-        years[y] = {"n": len(ss), "open": sum(1 for r in grp if not r["played"]), "own": fin("own"), "ctrl": fin("ctrl"),
+        years[y] = {"n": len(ss), "open": sum(1 for r in grp if not r["played"]), "own": fin("own"),
                     "xbi": fin("xbi"), "path": pth}
-    causes = {}
-    if kind == "crash":
-        done = [r for r in items if r.get("played") and r.get("ret") is not None and r.get("cause")]
-        for cz in ("Failed trial", "FDA rejection or delay", "Safety problem", "Share sale", "Other", "No announcement filed"):
-            grp = [r for r in done if r["cause"] == cz]
-            if grp:
-                causes[cz] = stats(grp)
     dates = sorted(r["date"] for r in items)
     fmt = lambda d: time.strftime("%b %Y", time.strptime(d, "%Y-%m-%d"))
     print(f"{kind}: {len(items)} episodes, {sum(1 for r in items if r['played'])} with a full year, "
           f"{sum(1 for r in items if r['verdict'] in CALLS)} with a call, {sum(1 for r in items if r['verdict'] == 'tbu')} TBU, "
           f"{len(buys)} buy candidates")
-    return {"range": f"{fmt(dates[0])} – {fmt(dates[-1])}" if dates else "", "items": items, "track": track,
-            "years": years, "causes": causes, "steps": STEPS}
+    return {"range": f"{fmt(dates[0])} – {fmt(dates[-1])}" if dates else "", "items": items, "quarters": quarters,
+            "years": years, "steps": STEPS}
 
 
-def ledger(data, ctrl):
+def ledger(data):
     """Append new calls on recent episodes; return all rows with their result so far."""
     rows = list(csv.DictReader(LEDGER.open())) if LEDGER.exists() else []
     latest = {}
@@ -176,17 +173,15 @@ def ledger(data, ctrl):
     out = []
     for r in rows + new:
         res, _ = total_return(r["cik"], r["base_date"], TODAY)
-        cr = ctrl_return(ctrl, r["id"], r["base_date"], TODAY)
-        out.append({**r, "ret": round(res * 100, 1) if res is not None else None, "ctrl_ret": round(cr * 100, 1) if cr is not None else None})
+        out.append({**r, "ret": round(res * 100, 1) if res is not None else None})
     print(f"live calls: {len(rows)} before, {len(new)} new")
     return sorted(out, key=lambda r: r["called_utc"], reverse=True)
 
 
 def main():
-    ctrl = json.loads((DATA / "controls.json").read_text()) if (DATA / "controls.json").exists() else {}
-    kinds = {k: build(k, ctrl) for k in KINDS}
+    kinds = {k: build(k) for k in KINDS}
     data = {"updated": time.strftime("%Y-%m-%d %H:%M UTC", time.gmtime()), "companies": len(universe()),
-            "kinds": kinds, "live": ledger(kinds, ctrl)}
+            "kinds": kinds, "live": ledger(kinds)}
     if SITE.exists():
         shutil.rmtree(SITE)
     shutil.copytree(ROOT / "web", SITE)

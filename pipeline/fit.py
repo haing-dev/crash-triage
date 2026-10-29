@@ -2,8 +2,7 @@
 Turn each episode's inputs into cells and a call (Buy candidate / Watch / Avoid, or TBU while an input is still being
 collected), for both triages with the same method; each learns its cell colours only from its own past episodes.
 
-Outcome used for the colours: total return from the entry day to 365 days later (returns.py) minus the average return
-of the 10 similar biotechs bought the same day (controls.py).
+Outcome used for the colours: total return from the entry day to 365 days later (returns.py), capped at +500%.
 
 Cells (all as of the entry day; nothing later):
   safety    crash only, from the crash announcement: Reported Death / Negative Side Effects / Well Tolerated / N/A
@@ -21,8 +20,8 @@ Cells (all as of the entry day; nothing later):
   short     FINRA short interest at the latest settlement date 14+ days before entry, % of shares outstanding that day
             (N/A above 100%: the share count and the short interest then disagree)
 Colours are learned walk-forward (refitted monthly on episodes whose year had ended): the cut-off and which side is
-green for ev / programs / funds / short, and for raise terms whether the category did better or worse than similar
-biotechs. Insider buying is green and selling red; safety follows the announcement's wording.
+green for ev / programs / funds / short, and for raise terms whether the category did better or worse than the
+other episodes. Insider buying is green and selling red; safety follows the announcement's wording.
 
 Call, a fixed rule, tested on the backtest (holds before and after July 2023, crashes and slides):
   Avoid          going-concern warning, share price under $1, or Toxic raise terms
@@ -45,7 +44,7 @@ from datetime import date
 from functools import lru_cache
 from common import DATA, ROOT, KINDS, closes, episodes, kdir, money
 from returns import actual_close, plus, shares_on, splits, total_return
-import controls, holdings
+import holdings
 
 TODAY = date.today().isoformat()
 MIN_TRAIN, SHRINK = 250, 30
@@ -400,7 +399,7 @@ def note(k, x):
 
 # ---------------------------------------------------------------- run
 
-def prepare(kind, ctrl):
+def prepare(kind):
     keys = KEYS[kind]
     rows = []
     for c in episodes(kind):
@@ -420,11 +419,8 @@ def prepare(kind, ctrl):
         d365 = plus(r["asof"], 365)
         if d365 <= TODAY:
             a, _ = total_return(r["cik"], r["asof"], d365)
-            cs = [min(v, 5.0) for v in (total_return(k, r["asof"], d365)[0] for k in (ctrl.get(cid) or {}).get("ciks", [])) if v is not None]
             if a is not None:
-                x["abs"], x["d365"] = a, d365
-            if a is not None and cs:
-                x["y"] = a - sum(cs) / len(cs)
+                x["abs"], x["d365"], x["y"] = a, d365, min(a, 5.0)
         rows.append(x)
     return rows
 
@@ -532,21 +528,18 @@ def score_kind(kind, rows):
             held.append((verdict, x["y"], x["abs"]))                 # report: calls made on the entry day
     rep = [f"# Fit report: {kind}", f"episodes: {len(rows)} · TBU: {sum(1 for x in rows if 'tbu' in x or x.get('pending'))} · "
            f"with a full year and complete inputs: {len(known)}", "",
-           "| Call | n | median | mean | similar biotechs mean | beat them | up 30%+ | down 80%+ |", "|---|---|---|---|---|---|---|---|"]
+           "| Call | n | median | mean | failed (below 0%) | up 30%+ | down 80%+ |", "|---|---|---|---|---|---|---|"]
     for v in ("overdone", "close", "justified"):
-        g = [(y, a) for gg, y, a in held if gg == v]
-        if g:
-            ys, aa = [y for y, _ in g], [a for _, a in g]
-            rep.append(f"| {v} | {len(g)} | {st.median(aa) * 100:+.0f}% | {sum(min(a, 5) for a in aa) / len(aa) * 100:+.0f}% | "
-                       f"{sum(a - y for y, a in g) / len(g) * 100:+.0f}% | {sum(y > 0 for y in ys) / len(ys):.0%} "
-                       f"| {sum(a >= .3 for a in aa) / len(aa):.0%} | {sum(a <= -.8 for a in aa) / len(aa):.0%} |")
+        aa = [a for gg, _, a in held if gg == v]
+        if aa:
+            rep.append(f"| {v} | {len(aa)} | {st.median(aa) * 100:+.0f}% | {sum(min(a, 5) for a in aa) / len(aa) * 100:+.0f}% | "
+                       f"{sum(a < 0 for a in aa) / len(aa):.0%} | {sum(a >= .3 for a in aa) / len(aa):.0%} | {sum(a <= -.8 for a in aa) / len(aa):.0%} |")
     (ROOT / "reports" / f"fit_{kind}.md").write_text("\n".join(rep) + "\n")
     print("\n".join(rep))
 
 
 def run_all():
-    c = controls.build()
-    rows = {k: prepare(k, c) for k in KINDS}
+    rows = {k: prepare(k) for k in KINDS}
     as_of, names = top_performers(rows["crash"] + rows["slide"])
     for k in KINDS:
         for x in rows[k]:
