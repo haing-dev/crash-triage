@@ -18,17 +18,21 @@ DESC2 = re.compile(r"((?:We are|We're|[A-Z][\w.,&' -]{1,60} is|The Company is|Ou
 ACTIVE = {"RECRUITING", "ACTIVE_NOT_RECRUITING", "NOT_YET_RECRUITING", "ENROLLING_BY_INVITATION"}
 
 
+BAD = re.compile(r"check mark|registrant|Rule 405|Securities Act|Board|incorporated by reference|forward-looking", re.I)
+KEY = re.compile(r"compan|biotech|biopharm|pharmaceutical|developer|leader|provider|manufacturer|organization", re.I)
+DESCX = re.compile(r"(?:We are|We're|[A-Z][\w.,&' -]{1,60} is|The Company is|Our company is) (?:a|an|one of the|the) [^.]{10,400}?\.(?:\s+[A-Z][^.]{20,320}\.)?")
+
+
 def description(cik):
     for form, fd, acc, doc in filings(cik):
         if form in ("10-K", "20-F", "10-K405", "40-F"):
-            t = sec_text(cik, acc, doc) or ""
-            i = t.lower().find("item 1.", len(t) // 20)
-            i = max(i, t.lower().find("overview"))
-            flat = re.sub(r"\s+", " ", t)
-            m = DESC.search(flat[max(0, i):i + 60000] if i > 0 else flat[:200000]) or DESC2.search(flat[:400000])
-            if m:
-                return {"text": (m.group(1) + (m.group(2) or "")).strip()[:600], "form": form, "filed": fd,
-                        "url": f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{acc.replace('-', '')}/{doc}"}
+            flat = re.sub(r"\s+", " ", sec_text(cik, acc, doc) or "")
+            start = len(flat) // 30                      # skip the cover page and table of contents
+            for m in DESCX.finditer(flat, start, start + 600000):
+                t = m.group(0)
+                if KEY.search(t.split(".")[0]) and not BAD.search(t):
+                    return {"text": t.strip()[:600], "form": form, "filed": fd,
+                            "url": f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{acc.replace('-', '')}/{doc}"}
             return {"text": None, "form": form, "filed": fd}
     return None
 
@@ -40,11 +44,14 @@ def programs(name):
     j = get("https://clinicaltrials.gov/api/v2/studies?pageSize=200&query.lead=" + quote(" ".join(words)) +
             "&fields=NCTId,LeadSponsorName,Phase,OverallStatus,InterventionName,Condition,StudyType") or {}
     drugs = defaultdict(lambda: {"phase": "", "conditions": set(), "trials": 0})
+    leads = set()
     for s in j.get("studies", []):
         p = s.get("protocolSection", {})
-        lead = p.get("sponsorCollaboratorsModule", {}).get("leadSponsor", {}).get("name", "").lower()
-        if not all(w in lead for w in words[:2]):
+        lead_name = p.get("sponsorCollaboratorsModule", {}).get("leadSponsor", {}).get("name", "")
+        lw = [w for w in re.sub(r"[^a-z0-9 ]+", " ", lead_name.lower()).split() if w not in STOP]
+        if lw[:len(words)] != words:                     # the sponsor's name must start with the company's name words
             continue
+        leads.add(lead_name)
         st = p.get("statusModule", {}).get("overallStatus")
         ph = p.get("designModule", {}).get("phases") or []
         if st not in ACTIVE or not any(x in ("PHASE2", "PHASE3") for x in ph):
@@ -59,13 +66,13 @@ def programs(name):
             d["trials"] += 1
             d["conditions"].update((p.get("conditionsModule", {}).get("conditions") or [])[:3])
     out = sorted(drugs.items(), key=lambda kv: (kv[1]["phase"], kv[1]["trials"]), reverse=True)[:4]
-    return [{"drug": k, "phase": v["phase"], "trials": v["trials"], "conditions": sorted(v["conditions"])[:3]} for k, v in out]
+    return [{"drug": k, "phase": v["phase"], "trials": v["trials"], "conditions": sorted(v["conditions"])[:3], "sponsors": sorted(leads)[:2]} for k, v in out]
 
 
 if __name__ == "__main__":
     lst = json.load(open(ROOT / "pipeline" / "pipeline_list.json"))
     p = ROOT / "reports" / "pipelines.json"
-    res = json.loads(p.read_text()) if p.exists() else {}
+    res = {}
     for r in lst:
         try:
             res[r["cik"]] = {"name": r["name"], "ticker": r["ticker"], "description": description(r["cik"]), "programs": programs(r["name"])}
