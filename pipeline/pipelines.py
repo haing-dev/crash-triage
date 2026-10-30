@@ -20,19 +20,25 @@ DESC2 = re.compile(r"((?:We are|We're|[A-Z][\w.,&' -]{1,60} is|The Company is|Ou
 ACTIVE = {"RECRUITING", "ACTIVE_NOT_RECRUITING", "NOT_YET_RECRUITING", "ENROLLING_BY_INVITATION"}
 
 
-BAD = re.compile(r"check mark|registrant|Rule 405|Securities Act|Board|incorporated by reference|forward-looking", re.I)
+BAD = re.compile(r"check mark|registrant|Rule 405|Securities Act|Board|incorporated|forward-looking|limited company|risk|patent|adverse", re.I)
 KEY = re.compile(r"compan|biotech|biopharm|pharmaceutical|developer|leader|provider|manufacturer|organization", re.I)
 DESCX = re.compile(r"(?:We are|We're|[A-Z][\w.,&' -]{1,60} is|The Company is|Our company is) (?:a|an|one of the|the) [^.]{10,400}?\.(?:\s+[A-Z][^.]{20,320}\.)?")
 
 
-def description(cik):
+def description(cik, name=""):
     for form, fd, acc, doc in filings(cik):
         if form in ("10-K", "20-F", "10-K405", "40-F"):
             flat = re.sub(r"\s+", " ", sec_text(cik, acc, doc) or "")
             start = len(flat) // 30                      # skip the cover page and table of contents
+            first = [w for w in re.sub(r"[^a-z0-9 ]+", " ", name.lower()).split() if w not in STOP][:1]
             for m in DESCX.finditer(flat, start, start + 600000):
                 t = m.group(0)
-                if KEY.search(t.split(".")[0]) and not BAD.search(t):
+                lead = t.split(" is ")[0].lower() if not t.startswith("We") else ""
+                if t.startswith("We") or (first and first[0] in lead and len(lead.split()) <= 6):
+                    pass
+                else:
+                    continue
+                if KEY.search(t.split(".")[0]) and not BAD.search(t.split(".")[0]):
                     return {"text": t.strip()[:600], "form": form, "filed": fd,
                             "url": f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{acc.replace('-', '')}/{doc}"}
             return {"text": None, "form": form, "filed": fd}
@@ -76,10 +82,10 @@ if __name__ == "__main__":
     p = ROOT / "reports" / "pipelines.json"
     res = json.loads(p.read_text()) if p.exists() else {}      # add to earlier results
     for r in lst:
-        if r["cik"] in res:
+        if r["cik"] in res and not r.get("redo"):
             continue
         try:
-            res[r["cik"]] = {"name": r["name"], "ticker": r["ticker"], "description": description(r["cik"]), "programs": programs(r["name"])}
+            res[r["cik"]] = {"name": r["name"], "ticker": r["ticker"], "description": description(r["cik"], r["name"]), "programs": programs(r["name"])}
         except Exception as e:
             res[r["cik"]] = {"name": r["name"], "ticker": r["ticker"], "error": str(e)[:200]}
         print(r["ticker"], bool((res[r["cik"]].get("description") or {}).get("text")), len(res[r["cik"]].get("programs") or []), flush=True)
