@@ -11,8 +11,10 @@ from collections import defaultdict
 from urllib.parse import quote
 from common import ROOT, filings, get, sec_text
 
-STOP = {"inc", "corp", "corporation", "co", "ltd", "limited", "plc", "nv", "sa", "ag", "llc", "holdings", "holding",
-        "group", "the", "de", "lp", "therapeutics", "pharmaceuticals", "biosciences", "bio", "biotherapeutics", "biopharma"}
+STOP = {"inc", "corp", "corporation", "co", "ltd", "limited", "plc", "nv", "n", "v", "sa", "ag", "llc", "holdings", "holding",
+        "group", "the", "de", "lp", "therapeutics", "pharmaceuticals", "pharmaceutical", "biosciences", "bio", "biotherapeutics",
+        "biopharma", "sciences", "gmbh", "us", "usa", "international", "company", "a", "s", "pharma", "laboratories", "biologics",
+        "biotechnology", "biotechnologies", "medicines", "oncology", "technologies", "healthcare", "health"}
 DESC = re.compile(r"((?:We are|[A-Z][\w.,&' -]{1,60} is) (?:a|an) [^.]{10,320}?(?:compan(?:y|ies)|biotech\w*|biopharm\w*)[^.]{0,320}\.)(\s+[A-Z][^.]{20,320}\.)?")
 DESC2 = re.compile(r"((?:We are|We're|[A-Z][\w.,&' -]{1,60} is|The Company is|Our company is) (?:a|an|one of the|the) [^.]{10,400}?\.)(\s+[A-Z][^.]{20,320}\.)?")
 ACTIVE = {"RECRUITING", "ACTIVE_NOT_RECRUITING", "NOT_YET_RECRUITING", "ENROLLING_BY_INVITATION"}
@@ -49,7 +51,7 @@ def programs(name):
         p = s.get("protocolSection", {})
         lead_name = p.get("sponsorCollaboratorsModule", {}).get("leadSponsor", {}).get("name", "")
         lw = [w for w in re.sub(r"[^a-z0-9 ]+", " ", lead_name.lower()).split() if w not in STOP]
-        if lw[:len(words)] != words:                     # the sponsor's name must start with the company's name words
+        if lw != words:                                  # the sponsor's name, without generic words, must equal the company's
             continue
         leads.add(lead_name)
         st = p.get("statusModule", {}).get("overallStatus")
