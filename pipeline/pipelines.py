@@ -74,8 +74,10 @@ def programs(name):
 if __name__ == "__main__":
     lst = json.load(open(ROOT / "pipeline" / "pipeline_list.json"))
     p = ROOT / "reports" / "pipelines.json"
-    res = {}
+    res = json.loads(p.read_text()) if p.exists() else {}      # add to earlier results
     for r in lst:
+        if r["cik"] in res:
+            continue
         try:
             res[r["cik"]] = {"name": r["name"], "ticker": r["ticker"], "description": description(r["cik"]), "programs": programs(r["name"])}
         except Exception as e:
