@@ -14,6 +14,7 @@ from common import ROOT, filings, get, sec_text
 STOP = {"inc", "corp", "corporation", "co", "ltd", "limited", "plc", "nv", "sa", "ag", "llc", "holdings", "holding",
         "group", "the", "de", "lp", "therapeutics", "pharmaceuticals", "biosciences", "bio", "biotherapeutics", "biopharma"}
 DESC = re.compile(r"((?:We are|[A-Z][\w.,&' -]{1,60} is) (?:a|an) [^.]{10,320}?(?:compan(?:y|ies)|biotech\w*|biopharm\w*)[^.]{0,320}\.)(\s+[A-Z][^.]{20,320}\.)?")
+DESC2 = re.compile(r"((?:We are|We're|[A-Z][\w.,&' -]{1,60} is|The Company is|Our company is) (?:a|an|one of the|the) [^.]{10,400}?\.)(\s+[A-Z][^.]{20,320}\.)?")
 ACTIVE = {"RECRUITING", "ACTIVE_NOT_RECRUITING", "NOT_YET_RECRUITING", "ENROLLING_BY_INVITATION"}
 
 
@@ -23,7 +24,8 @@ def description(cik):
             t = sec_text(cik, acc, doc) or ""
             i = t.lower().find("item 1.", len(t) // 20)
             i = max(i, t.lower().find("overview"))
-            m = DESC.search(re.sub(r"\s+", " ", t[max(0, i):i + 60000] if i > 0 else t[:200000]))
+            flat = re.sub(r"\s+", " ", t)
+            m = DESC.search(flat[max(0, i):i + 60000] if i > 0 else flat[:200000]) or DESC2.search(flat[:400000])
             if m:
                 return {"text": (m.group(1) + (m.group(2) or "")).strip()[:600], "form": form, "filed": fd,
                         "url": f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{acc.replace('-', '')}/{doc}"}
@@ -62,7 +64,8 @@ def programs(name):
 
 if __name__ == "__main__":
     lst = json.load(open(ROOT / "pipeline" / "pipeline_list.json"))
-    res = {}
+    p = ROOT / "reports" / "pipelines.json"
+    res = json.loads(p.read_text()) if p.exists() else {}
     for r in lst:
         try:
             res[r["cik"]] = {"name": r["name"], "ticker": r["ticker"], "description": description(r["cik"]), "programs": programs(r["name"])}
