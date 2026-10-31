@@ -124,18 +124,21 @@ def build(kind):
             quarters.append({"q": q, "n": 0})
             continue
         b, x = mean([min(r["ret"], 500) for r in grp]), mean([r["xbi_ret"] for r in grp])
+        tg = [r for r in grp if r.get("top_pick")]
         quarters.append({"q": q, "n": len(grp), "open": sum(1 for r in grp if not r["played"]),
-                         "buy": round(b, 1), "xbi": round(x, 1), "diff": round(b - x, 1)})
+                         "buy": round(b, 1), "xbi": round(x, 1), "diff": round(b - x, 1),
+                         "ntop": len(tg), "top": round(mean([min(r["ret"], 500) for r in tg]), 1) if tg else None})
     years = {}
     for y in sorted({r["call_date"][:4] for r in buys}):
         grp = [r for r in buys if r["call_date"][:4] == y]
         ss = [ser[r["id"]] for r in grp if ser[r["id"]][0]]
         if not ss:
             continue
-        pth = {"own": avg_path(ss, 0, True), "xbi": avg_path(ss, 1, True)}
+        st = [ser[r["id"]] for r in grp if r.get("top_pick") and ser[r["id"]][0]]
+        pth = {"own": avg_path(ss, 0, True), "xbi": avg_path(ss, 1, True), "top": avg_path(st, 0, True) if st else []}
         fin = lambda k: round(10000 * (1 + pth[k][-1] / 100)) if pth[k] else None
-        years[y] = {"n": len(ss), "open": sum(1 for r in grp if not r["played"]), "own": fin("own"),
-                    "xbi": fin("xbi"), "path": pth}
+        years[y] = {"n": len(ss), "ntop": len(st), "open": sum(1 for r in grp if not r["played"]), "own": fin("own"),
+                    "xbi": fin("xbi"), "top": fin("top"), "path": pth}
     tp = [r for r in buys if r.get("top_pick") and r["played"] and r.get("xbi_ret") is not None]
     ot = [r for r in buys if not r.get("top_pick") and r["played"] and r.get("xbi_ret") is not None]
     grp_stats = lambda g: {"n": len(g), "ret": round(mean([min(r["ret"], 500) for r in g]), 1),

@@ -113,21 +113,25 @@ function fill(){
    last point instead of a legend; Buy candidates in Deep Blue, XBI in the Deep Blue tint. */
 function lineChart(el, series, n, xlab, fmt){
   const W = Math.max(520, el.clientWidth), H = 320, left = 56, right = 210, top = 14, bot = 36;
-  const all = series.flatMap(s => s.path), lo = fmt.lo(Math.min(...all)), hi = fmt.hi(Math.max(...all));
+  const ok = v => v != null, last = r => { let j = n - 1; while (j > 0 && !ok(r.path[j])) j--; return j; };
+  const all = series.flatMap(s => s.path.slice(0, n).filter(ok)), lo = fmt.lo(Math.min(...all)), hi = fmt.hi(Math.max(...all));
   const x = i => left + i / (n - 1) * (W - left - right), y = v => top + (hi - v) / (hi - lo) * (H - top - bot);
   let s = `<div class="panel"><svg width="${W}" height="${H}">`;
   fmt.ticks(lo, hi).forEach(t => s += `<line x1="${left}" x2="${W-right}" y1="${y(t)}" y2="${y(t)}" stroke="${t===fmt.zero?"var(--black)":"var(--g-pale)"}" stroke-width="${t===fmt.zero?1:.75}"/><text x="${left-8}" y="${y(t)+4}" text-anchor="end">${fmt.tick(t)}</text>`);
   xlab.forEach(([i, l]) => s += `<text x="${x(i)}" y="${H-12}" text-anchor="middle">${esc(l)}</text>`);
-  const ends = series.map((r,i) => ({i, y: y(r.path[n-1])})).sort((a,b) => a.y - b.y); let last = -1e9;
-  ends.forEach(e => { e.ly = Math.max(e.y, last + 18); last = e.ly; });
-  series.forEach((r, i) => { s += `<path d="M${r.path.map((v,j)=>`${x(j).toFixed(1)},${y(v).toFixed(1)}`).join(" L")}" fill="none" stroke="${r.col}" stroke-width="2"/>`;
-    const e = ends.find(z => z.i === i); s += `<text class="lab" x="${x(n-1)+10}" y="${e.ly+4}"><tspan font-weight="700">${fmt.end(r.path[n-1])}</tspan> ${esc(r.l)}</text>`; });
+  const ends = series.map((r,i) => ({i, y: y(r.path[last(r)])})).sort((a,b) => a.y - b.y); let prev = -1e9;
+  ends.forEach(e => { e.ly = Math.max(e.y, prev + 18); prev = e.ly; });
+  series.forEach((r, i) => { let d = "", pen = false;
+    for (let j = 0; j < n; j++) { const v = r.path[j]; if (!ok(v)) { pen = false; continue; } d += `${pen ? " L" : "M"}${x(j).toFixed(1)},${y(v).toFixed(1)}`; pen = true;
+      if (r.dots) s += `<circle cx="${x(j).toFixed(1)}" cy="${y(v).toFixed(1)}" r="3" fill="${r.col}"/>`; }
+    s += `<path d="${d}" fill="none" stroke="${r.col}" stroke-width="2"/>`;
+    const e = ends.find(z => z.i === i); s += `<text class="lab" x="${x(n-1)+10}" y="${e.ly+4}"><tspan font-weight="700">${fmt.end(r.path[last(r)])}</tspan> ${esc(r.l)}</text>`; });
   s += `<line class="xh" y1="${top}" y2="${H-bot}" stroke="var(--g-mid)" stroke-width=".75" opacity="0"/><rect x="${left}" y="${top}" width="${W-left-right}" height="${H-top-bot}" fill="transparent" class="hit"/></svg></div>`;
   el.innerHTML += s;
   const hit = el.querySelector(".hit"), xh = el.querySelector(".xh");
   hit.onmousemove = e => { const b = hit.getBoundingClientRect(), j = Math.max(0, Math.min(n-1, Math.round((e.clientX - b.left) / b.width * (n - 1))));
     xh.setAttribute("x1", x(j)); xh.setAttribute("x2", x(j)); xh.setAttribute("opacity", 1);
-    showTip(e, `<b>${esc(fmt.at(j))}</b>` + series.map(r => `${esc(r.l)}: ${fmt.end(r.path[j])}`).join("<br>")); };
+    showTip(e, `<b>${esc(fmt.at(j))}</b>` + series.map(r => `${esc(r.l)}: ${ok(r.path[j]) ? fmt.end(r.path[j]) : "–"}`).join("<br>")); };
   hit.onmouseleave = () => { xh.setAttribute("opacity", 0); hideTip(); };
 }
 const PCT = {lo: v => Math.floor(Math.min(-10, v) / 10) * 10, hi: v => Math.ceil(Math.max(10, v) / 10) * 10, zero: 0,
@@ -136,28 +140,26 @@ const PCT = {lo: v => Math.floor(Math.min(-10, v) / 10) * 10, hi: v => Math.ceil
 
 function viewTrack(){
   const kd = D.kinds[K], Q = kd.quarters || [], Y = kd.years || {}, ys = Object.keys(Y).sort(), steps = kd.steps || [];
-  const done = Q.filter(q => q.n), beat = done.filter(q => q.diff > 0).length;
-  const avg = k => done.length ? done.reduce((t, q) => t + q[k], 0) / done.length : null;
+  const done = Q.filter(q => q.n);
   $("#app").innerHTML = `<div class="toprow"><div><h1>Track record</h1><div class="muted">Buy candidates, bought at the close of the call day (entry, or the day a Watch turned Buy) and held a year, against the same money in the biotech index (XBI) over the same dates.</div></div></div>
    <div class="card" id="qt"><h4>Buy candidates vs the biotech index (XBI), by quarter of the call, last 3 years</h4>
-     <div class="metric">Return of equal money in each Buy candidate called that quarter, held a year (or to the latest close), and of XBI over the same dates, %</div>
-     ${done.length ? `<div class="tiles"><div class="hl"><b>${beat} of ${done.length}</b><span>quarters in which Buy candidates beat XBI</span></div>
-       <div><b>${pct(avg("diff"))}</b><span>average difference per quarter (Buy candidates ${pct(avg("buy"))}, XBI ${pct(avg("xbi"))})</span></div></div>
-     <div id="qchart"></div>` : `<p class="empty">No Buy candidates in the last 3 years.</p>`}</div>
+     ${done.length ? `<div id="qchart"></div>` : `<p class="empty">No Buy candidates in the last 3 years.</p>`}</div>
    ${kd.top && kd.top.top.n ? `<div class="card" id="tpk"><h4>Top picks vs other Buy candidates, held a year</h4>
      <div class="tiles"><div class="hl"><b>${pct(kd.top.top.ret - kd.top.top.xbi)}</b><span>vs XBI, ${kd.top.top.n} Top picks (${kd.top.top.lost}% lost money)</span></div>
        <div><b>${pct(kd.top.other.ret - kd.top.other.xbi)}</b><span>vs XBI, ${kd.top.other.n} other Buy candidates (${kd.top.other.lost}% lost money)</span></div></div></div>` : ""}
-   <div class="card" id="pf"><div class="toprow"><h4>$10,000 test: all Buy candidates of one year, equal money in each, each held a year</h4>
+   <div class="card" id="pf"><div class="toprow"><span></span>
      ${ys.length ? `<select id="py">${ys.map(y => `<option${y === ys[ys.length - 2] || (ys.length === 1) ? " selected" : ""}>${y}</option>`).join("")}</select>` : ""}</div><div id="pfb"></div></div>
    <div class="fnote">Each return capped at +500%. Total return: price change plus cash paid out per share; a company that stopped trading (bought out, delisted) counts at its last close; reverse splits are taken out of the price. Positions bought less than a year ago are valued at the latest close. No trading costs.</div>`;
+  const tops = done.some(q => q.top != null);
   if (done.length > 1) lineChart($("#qchart"), [{l: "Buy candidates", col: "var(--deep)", path: done.map(q => q.buy)},
+      ...(tops ? [{l: "Top picks", col: "var(--eblue)", dots: true, path: done.map(q => q.top)}] : []),
       {l: "Biotech index (XBI)", col: "var(--deep-tint)", path: done.map(q => q.xbi)}, {l: "Difference", col: "var(--cyan)", path: done.map(q => q.diff)}],
-    done.length, done.map((q, i) => [i, q.q]), {...PCT, at: j => `Calls in ${done[j].q}: ${done[j].n} Buy candidates${done[j].open ? `, ${done[j].open} under a year` : ""}`});
+    done.length, done.map((q, i) => [i, q.q]), {...PCT, at: j => `Calls in ${done[j].q}: ${done[j].n} Buy candidates${done[j].ntop ? ` (${done[j].ntop} Top picks)` : ""}${done[j].open ? `, ${done[j].open} under a year` : ""}`});
   const xl = n => [0,90,180,270,365].map(d => [steps.indexOf(d) >= 0 ? steps.indexOf(d) : Math.round(d/365*(n-1)), d ? "day " + d : "bought"]).filter(([i]) => i < n);
   const draw = () => { const y = $("#py").value, v = Y[y], n = v.path.own.length, money = a => a.map(q => 10000 * (1 + q / 100));
-    $("#pfb").innerHTML = `<div class="tiles"><div class="hl"><b>${usd(v.own)}</b><span>in ${v.n} Buy candidates of ${y}</span></div><div><b>${usd(v.xbi)}</b><span>in the biotech index (XBI)</span></div></div>
-      ${v.open ? `<div class="fnote" style="margin:0 0 8px">${v.open} of them bought less than a year ago: valued at the latest close.</div>` : ""}`;
-    if (n > 1) lineChart($("#pfb"), [{l: "Buy candidates", col: "var(--deep)", path: money(v.path.own)}, {l: "Biotech index (XBI)", col: "var(--deep-tint)", path: money(v.path.xbi)}], n, xl(n),
+    $("#pfb").innerHTML = `${v.open ? `<div class="fnote" style="margin:0 0 8px">${v.open} of them bought less than a year ago: valued at the latest close.</div>` : ""}`;
+    const tp = (v.path.top || []).length ? [{l: `Top picks (${v.ntop})`, col: "var(--eblue)", path: money(v.path.top)}] : [];
+    if (n > 1) lineChart($("#pfb"), [{l: `Buy candidates (${v.n})`, col: "var(--deep)", path: money(v.path.own)}, ...tp, {l: "Biotech index (XBI)", col: "var(--deep-tint)", path: money(v.path.xbi)}], n, xl(n),
       {lo: v => Math.floor(Math.min(10000, v) / 2000) * 2000, hi: v => Math.ceil(Math.max(10000, v) / 2000) * 2000, zero: 10000,
        ticks: (lo, hi) => { const st = (hi - lo) > 16000 ? 4000 : 2000, o = []; for (let t = lo; t <= hi; t += st) o.push(t); return o; },
        tick: t => "$" + (t / 1000) + "k", end: v => usd(v), at: j => `Day ${steps[j]}`}); };
