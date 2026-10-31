@@ -97,7 +97,7 @@ def build(kind):
         sc = DATA / kind / "scores" / f"{cid}.json"
         if sc.exists():
             rec.update({k: v for k, v in json.loads(sc.read_text()).items()
-                        if k in ("factors", "verdict", "why", "insider_net", "mcap", "price", "cause", "call_date", "upgraded")})
+                        if k in ("factors", "verdict", "why", "insider_net", "mcap", "price", "cause", "call_date", "upgraded", "top_pick")})
         rec["sources"].append({"label": "All SEC filings",
                                "url": f"https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK={int(c['cik'])}&type=&dateb=&owner=include&count=40"})
         entry_d = c["end_date"]
@@ -136,13 +136,19 @@ def build(kind):
         fin = lambda k: round(10000 * (1 + pth[k][-1] / 100)) if pth[k] else None
         years[y] = {"n": len(ss), "open": sum(1 for r in grp if not r["played"]), "own": fin("own"),
                     "xbi": fin("xbi"), "path": pth}
+    tp = [r for r in buys if r.get("top_pick") and r["played"] and r.get("xbi_ret") is not None]
+    ot = [r for r in buys if not r.get("top_pick") and r["played"] and r.get("xbi_ret") is not None]
+    grp_stats = lambda g: {"n": len(g), "ret": round(mean([min(r["ret"], 500) for r in g]), 1),
+                           "xbi": round(mean([r["xbi_ret"] for r in g]), 1),
+                           "lost": round(100 * sum(1 for r in g if r["ret"] < 0) / len(g))} if g else {"n": 0}
+    top = {"top": grp_stats(tp), "other": grp_stats(ot)} if tp else None
     dates = sorted(r["date"] for r in items)
     fmt = lambda d: time.strftime("%b %Y", time.strptime(d, "%Y-%m-%d"))
     print(f"{kind}: {len(items)} episodes, {sum(1 for r in items if r['played'])} with a full year, "
           f"{sum(1 for r in items if r['verdict'] in CALLS)} with a call, {sum(1 for r in items if r['verdict'] == 'tbu')} TBU, "
           f"{len(buys)} buy candidates")
     return {"range": f"{fmt(dates[0])} – {fmt(dates[-1])}" if dates else "", "items": items, "quarters": quarters,
-            "years": years, "steps": STEPS}
+            "years": years, "top": top, "steps": STEPS}
 
 
 def ledger(data):

@@ -520,7 +520,11 @@ def score_kind(kind, rows):
             pts = model["points"][k].get(cat(model, x, k), 0.0)
             return "g" if pts >= 0.05 else "r" if pts <= -0.05 else "n"
 
-        out = {"id": x["id"], "verdict": verdict, "why": why, "call_date": call_date, "upgraded": upgraded,
+        # Top pick: a Crashed Buy candidate with a top performer owner known by the call date. WRDS test 1998-2023
+        # (train 1998-2019, test 2020-2023, company bootstrap, top list of 5/10/20): fewer losers and higher returns
+        # than the other Buy candidates in both periods. Not used for the Fallen screener (no edge over XBI there).
+        top_pick = kind == "crash" and verdict == "overdone" and bool(x.get("top") or upgraded)
+        out = {"id": x["id"], "verdict": verdict, "why": why, "call_date": call_date, "upgraded": upgraded, "top_pick": top_pick,
                "mcap": x["mcap"], "price": x["px"], "insider_net": x["insider_net"],
                "cause": x["cause"], "factors": {k: [colour(k), text(k, x), note(k, x), bucket(k, x)] for k in keys}}
         (out_dir / f"{x['id']}.json").write_text(json.dumps(out))

@@ -100,7 +100,7 @@ function fill(){
     ${crash ? `<td class="what">${esc(c.summary || "Reading the company's announcement…")}</td>` : ""}
     <td class="r ${c.mcap == null ? "muted" : ""}" style="white-space:nowrap">${money(c.mcap)}${c.price != null ? `<div class="muted sm">$${c.price < 1 ? c.price.toFixed(3) : c.price.toFixed(2)}/share</div>` : ""}</td>
     ${kd.facts.map(f => cell(c.factors?.[f[0]], f[0] === "insider")).join("")}
-    <td title="${esc(c.why?.length ? c.why.join(" · ") : c.verdict === "overdone" ? "No going-concern warning, share price $1+, no toxic financing, market cap $50M+, and EV / Cash 1× or less, 2+ high conviction owners, or a top performer owner" : "")}">${pill(c.verdict)}${c.call_date !== c.entry_date ? `<div class="muted sm">from Watch, ${esc(c.call_date)}</div>` : ""}</td>${retCell(c, bt)}
+    <td title="${esc(c.why?.length ? c.why.join(" · ") : c.verdict === "overdone" ? "No going-concern warning, share price $1+, no toxic financing, market cap $50M+, and EV / Cash 1× or less, 2+ high conviction owners, or a top performer owner" : "")}">${pill(c.verdict)}${c.top_pick ? `<div class="sm tp" title="Buy candidate with a top performer owner: fewer losers and higher returns than other Buy candidates, 1998–2023">★ Top pick</div>` : ""}${c.call_date !== c.entry_date ? `<div class="muted sm">from Watch, ${esc(c.call_date)}</div>` : ""}</td>${retCell(c, bt)}
     ${bt ? `<td>${c.outcome ? `<span class="pill ${OUTCOME[c.outcome]}">${c.outcome}</span>` : ""}</td>` : ""}</tr>`).join("") ||
     `<tr><td colspan="20" class="empty">Nothing matches these filters.</td></tr>`;
   $("#cnt").textContent = `Showing ${Math.min(SHOW, list.length)} of ${list.length}.`;
@@ -144,6 +144,9 @@ function viewTrack(){
      ${done.length ? `<div class="tiles"><div class="hl"><b>${beat} of ${done.length}</b><span>quarters in which Buy candidates beat XBI</span></div>
        <div><b>${pct(avg("diff"))}</b><span>average difference per quarter (Buy candidates ${pct(avg("buy"))}, XBI ${pct(avg("xbi"))})</span></div></div>
      <div id="qchart"></div>` : `<p class="empty">No Buy candidates in the last 3 years.</p>`}</div>
+   ${kd.top && kd.top.top.n ? `<div class="card" id="tpk"><h4>Top picks vs other Buy candidates, held a year</h4>
+     <div class="tiles"><div class="hl"><b>${pct(kd.top.top.ret - kd.top.top.xbi)}</b><span>vs XBI, ${kd.top.top.n} Top picks (${kd.top.top.lost}% lost money)</span></div>
+       <div><b>${pct(kd.top.other.ret - kd.top.other.xbi)}</b><span>vs XBI, ${kd.top.other.n} other Buy candidates (${kd.top.other.lost}% lost money)</span></div></div></div>` : ""}
    <div class="card" id="pf"><div class="toprow"><h4>$10,000 test: all Buy candidates of one year, equal money in each, each held a year</h4>
      ${ys.length ? `<select id="py">${ys.map(y => `<option${y === ys[ys.length - 2] || (ys.length === 1) ? " selected" : ""}>${y}</option>`).join("")}</select>` : ""}</div><div id="pfb"></div></div>
    <div class="fnote">Each return capped at +500%. Total return: price change plus cash paid out per share; a company that stopped trading (bought out, delisted) counts at its last close; reverse splits are taken out of the price. Positions bought less than a year ago are valued at the latest close. No trading costs.</div>`;
