@@ -1,0 +1,64 @@
+{
+ "id": "2023016_2026-10-29",
+ "kind": "slide",
+ "cik": "2023016",
+ "name": "Turn Therapeutics Inc.",
+ "date": "2026-10-29",
+ "asof": "2026-10-29",
+ "final": false,
+ "version": 6,
+ "price": {
+  "date": "2026-10-29",
+  "adj_close": 10.72
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 9948952,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001213900-26-088427"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": 2556171.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-08-12",
+  "shares": 29788040
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Our consolidated financial statements therefore express substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 7262500.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": null,
+ "insiders": {
+  "form4s": 0,
+  "from": "2026-07-31",
+  "to": "2026-10-31",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "turn therapeutics",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT07355075",
+    "drugs": [
+     "GX-03",
+     "Vehicle"
+    ]
+   }
+  ]
+ }
+}

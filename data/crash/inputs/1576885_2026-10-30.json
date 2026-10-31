@@ -1,0 +1,61 @@
+{
+ "id": "1576885_2026-10-30",
+ "kind": "crash",
+ "cik": "1576885",
+ "name": "Acumen Pharmaceuticals, Inc.",
+ "date": "2026-10-30",
+ "asof": "2026-10-30",
+ "final": false,
+ "version": 6,
+ "price": {
+  "date": "2026-10-30",
+  "adj_close": 0.21690001
+ },
+ "balance": {
+  "end": "2026-09-30",
+  "cash": 78604000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent"
+  ],
+  "accn": "0001628280-26-067276"
+ },
+ "burn6": {
+  "end": "2026-09-30",
+  "start": "2026-04-01",
+  "cash_used_ops": 44728000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-10-21",
+  "shares": 72327320
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Based on our current operating plan, we believe there is substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 5868000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 45300000,
+  "as_of": "2025-06-30",
+  "filed": "2026-03-26"
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2026-08-01",
+  "to": "2026-10-31",
+  "trades": []
+ },
+ "drug": "sabirnetug (ACU193)",
+ "trials": {
+  "query": "acumen pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 1,
+  "examples": []
+ }
+}

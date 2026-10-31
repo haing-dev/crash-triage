@@ -47,7 +47,7 @@
  "insiders": {
   "form4s": 2,
   "from": "2026-07-07",
-  "to": "2026-10-30",
+  "to": "2026-10-31",
   "trades": [
    {
     "date": "2026-08-19",
@@ -65,16 +65,15 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT05303519",
+    "nct": "NCT07154706",
     "drugs": [
-     "safusidenib"
+     "Taletrectinib"
     ]
    },
    {
-    "nct": "NCT06564324",
+    "nct": "NCT05303519",
     "drugs": [
-     "Taletrectinib",
-     "Crizotinib"
+     "safusidenib"
     ]
    },
    {
@@ -84,9 +83,10 @@
     ]
    },
    {
-    "nct": "NCT07154706",
+    "nct": "NCT06564324",
     "drugs": [
-     "Taletrectinib"
+     "Taletrectinib",
+     "Crizotinib"
     ]
    }
   ]
