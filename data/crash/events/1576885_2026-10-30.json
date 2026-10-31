@@ -1,0 +1,44 @@
+{
+ "cik": "1576885",
+ "name": "Acumen Pharmaceuticals, Inc.",
+ "ticker": "ABOS",
+ "date": "2026-10-30",
+ "status": "read",
+ "source": {
+  "filing_date": "2026-10-30",
+  "accession": "0001628280-26-068425",
+  "doc": "abos-20261030.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1576885/000162828026068425/abos-20261030.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 2 trial missed primary and secondary endpoints; development ceased \u00b7 Phase 2 \u00b7 sabirnetug in early Alzheimer's disease \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "sabirnetug (ACU193)",
+  "indication": "early Alzheimer's disease",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": false,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "the clinical trial did not meet its primary endpoint of change from baseline in cognitive and functional decline as measured by the Integrated Alzheimer\u2019s Disease Rating Scale at 18 months compared to placebo",
+   "primary_endpoint_met": "the clinical trial did not meet its primary endpoint of change from baseline in cognitive and functional decline as measured by the Integrated Alzheimer\u2019s Disease Rating Scale at 18 months compared to placebo at either the 35 mg/kg or the 50 mg/kg dose",
+   "safety": "The initial topline data indicate that sabirnetug was generally well tolerated, with amyloid-related imaging abnormalities - edema (\u201cARIA-E\u201d) observed in ~10% of sabirnetug-treated participants.",
+   "program_discontinued": "the Company plans to cease development of sabirnetug, including the open-label extension portion of the ALTITUDE-AD trial"
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}
