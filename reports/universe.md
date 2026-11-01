@@ -1,19 +1,19 @@
 # Universe
-built 2026-10-14 16:40 UTC
+built 2026-11-01 04:27 UTC
 
-- Companies reporting financials since 2021 (all sectors): 9,436
-- Pharma/biotech by SEC industry code 2834, 2836, 8731: **1,043**
+- Companies reporting financials since 2021 (all sectors): 9,459
+- Pharma/biotech by SEC industry code 2834, 2836, 8731: **1,041**
 
 | Status | Companies |
 |---|---|
-| listed | 601 |
-| stopped trading | 286 |
-| no ticker found | 71 |
-| OTC/other | 70 |
-| stopped trading · no price source | 15 |
+| listed | 598 |
+| stopped trading | 284 |
+| no ticker found | 73 |
+| OTC/other | 72 |
+| stopped trading · no price source | 14 |
 
 | Price source | Companies |
 |---|---|
-| twelvedata | 601 |
+| twelvedata | 598 |
 | tiingo | 353 |
-| none | 89 |
+| none | 90 |
