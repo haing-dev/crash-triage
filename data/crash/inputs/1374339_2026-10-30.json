@@ -1,0 +1,68 @@
+{
+ "id": "1374339_2026-10-30",
+ "kind": "crash",
+ "cik": "1374339",
+ "name": "ProMIS Neurosciences Inc.",
+ "date": "2026-10-30",
+ "asof": "2026-10-30",
+ "final": false,
+ "version": 6,
+ "price": {
+  "date": "2026-10-30",
+  "adj_close": 3.31
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 53463033,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001104659-26-095895"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": 22768585.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-08-13",
+  "shares": 8967693
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 29700000,
+  "as_of": "2025-06-30",
+  "filed": "2026-03-25"
+ },
+ "insiders": {
+  "form4s": 2,
+  "from": "2026-08-01",
+  "to": "2026-11-03",
+  "trades": [
+   {
+    "date": "2026-08-05",
+    "filed": "2026-08-07",
+    "code": "P",
+    "value": 30324,
+    "who": "Kaplan Johanne"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "promis neurosciences",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

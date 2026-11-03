@@ -1,0 +1,62 @@
+{
+ "id": "1695473_2025-04-22",
+ "kind": "crash",
+ "cik": "1695473",
+ "name": "TRAFALGAR INTERNATIONAL, INC.",
+ "date": "2025-04-22",
+ "asof": "2025-04-28",
+ "final": true,
+ "version": 6,
+ "price": {
+  "date": "2025-04-28",
+  "adj_close": 6.0
+ },
+ "balance": {
+  "end": "2024-12-31",
+  "cash": 57368,
+  "parts": [
+   "Cash"
+  ],
+  "accn": "0001641172-25-000512"
+ },
+ "burn6": {
+  "end": "2024-12-31",
+  "start": "2024-07-01",
+  "cash_used_ops": 22948.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2025-03-18",
+  "shares": 930888436
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Substantial Doubt about the Company\u2019s Ability to Continue as a Going Concern"
+ },
+ "financing_terms": {
+  "floating_convertible": "The Conversion Price shall be, equal to 70% of the average closing price of our common stock for the five prior trading days prior to the date that a registration statement in respect of the shares into which is the FF Note is convertible is declared effective."
+ },
+ "debt": {
+  "usd": 260000.0,
+  "tags": "LoansPayableCurrent"
+ },
+ "public_float": {
+  "usd": 586.11,
+  "as_of": "2024-06-30",
+  "filed": "2025-03-25"
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2025-01-22",
+  "to": "2025-05-22",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "trafalgar international",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

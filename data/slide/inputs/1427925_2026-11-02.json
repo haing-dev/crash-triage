@@ -1,0 +1,61 @@
+{
+ "id": "1427925_2026-11-02",
+ "kind": "slide",
+ "cik": "1427925",
+ "name": "TALPHERA, INC.",
+ "date": "2026-11-02",
+ "asof": "2026-11-02",
+ "final": false,
+ "version": 6,
+ "price": {
+  "date": "2026-11-02",
+  "adj_close": 1.01
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 17076000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001437749-26-027316"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": 7324000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-08-06",
+  "shares": 51905796
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These conditions raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 8300000,
+  "as_of": "2025-06-30",
+  "filed": "2026-03-23"
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2026-08-04",
+  "to": "2026-11-03",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "talphera",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

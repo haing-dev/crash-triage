@@ -45,16 +45,25 @@
   "filed": "2026-03-05"
  },
  "insiders": {
-  "form4s": 0,
+  "form4s": 1,
   "from": "2026-07-08",
-  "to": "2026-11-02",
+  "to": "2026-11-03",
   "trades": []
  },
  "drug": "firmonertinib",
  "trials": {
   "query": "arrivent biopharma",
-  "other_trials": 0,
+  "other_trials": 1,
   "crashed_drug_trials": 1,
-  "examples": []
+  "examples": [
+   {
+    "nct": "NCT05607550",
+    "drugs": [
+     "furmonertinib 240 mg oral, daily",
+     "furmonertinib 160 mg oral, daily",
+     "platinum-based chemotherapy"
+    ]
+   }
+  ]
  }
 }
