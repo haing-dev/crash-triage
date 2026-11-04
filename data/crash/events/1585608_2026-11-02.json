@@ -3,5 +3,42 @@
  "name": "Jaguar Health, Inc.",
  "ticker": "JAGX",
  "date": "2026-11-02",
- "status": "error: You've hit your 5-hour limit \u00b7 resets 7:50am (UTC)\n"
+ "status": "read",
+ "source": {
+  "filing_date": "2026-11-03",
+  "accession": "0001193125-26-445055",
+  "doc": "d152896d8k.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1585608/000119312526445055/d152896d8k.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Series R preferred dividend auto-converted into common stock, heavily increasing share count \u00b7 n/a \u00b7 n/a in n/a \u00b7 n/a",
+  "phase": "n/a",
+  "drug": "n/a",
+  "indication": "n/a",
+  "market_stage": "n/a",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "on November 2, 2026, each of the then outstanding shares of Series R Preferred Stock automatically converted into five shares of Common Stock (the \u201cConversion\u201d).",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
 }
