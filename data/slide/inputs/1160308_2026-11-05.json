@@ -1,0 +1,67 @@
+{
+ "id": "1160308_2026-11-05",
+ "kind": "slide",
+ "cik": "1160308",
+ "name": "Savara Inc",
+ "date": "2026-11-05",
+ "asof": "2026-11-05",
+ "final": false,
+ "version": 6,
+ "price": {
+  "date": "2026-11-05",
+  "adj_close": 4.38
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 173034000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001193125-26-344585"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": 62793000.0,
+  "capex": 276000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-08-11",
+  "shares": 205460015
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 30109000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 544458670,
+  "as_of": "2025-06-30",
+  "filed": "2026-03-13"
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2026-08-07",
+  "to": "2026-11-06",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "savara",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT06431776",
+    "drugs": [
+     "Molgramostim"
+    ]
+   }
+  ]
+ }
+}

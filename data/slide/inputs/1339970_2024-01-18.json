@@ -1,0 +1,111 @@
+{
+ "id": "1339970_2024-01-18",
+ "kind": "slide",
+ "cik": "1339970",
+ "name": "aTYR PHARMA INC",
+ "date": "2024-01-18",
+ "asof": "2024-01-18",
+ "final": true,
+ "version": 6,
+ "price": {
+  "date": "2024-01-18",
+  "adj_close": 1.42
+ },
+ "balance": {
+  "end": "2023-09-30",
+  "cash": 102131000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0000950170-23-062058"
+ },
+ "burn6": {
+  "end": "2023-09-30",
+  "start": "2023-04-01",
+  "cash_used_ops": 21569000.0,
+  "capex": 2952000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-11-03",
+  "shares": 58560061
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 77194107,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-14"
+ },
+ "insiders": {
+  "form4s": 8,
+  "from": "2023-10-20",
+  "to": "2024-02-17",
+  "trades": [
+   {
+    "date": "2024-02-06",
+    "filed": "2024-02-06",
+    "code": "S",
+    "value": 2687,
+    "who": "Broadfoot Jill Marie"
+   },
+   {
+    "date": "2023-12-11",
+    "filed": "2023-12-12",
+    "code": "P",
+    "value": 3510,
+    "who": "Shukla Sanjay"
+   },
+   {
+    "date": "2023-12-12",
+    "filed": "2023-12-12",
+    "code": "P",
+    "value": 14136,
+    "who": "Shukla Sanjay"
+   },
+   {
+    "date": "2023-11-10",
+    "filed": "2023-11-13",
+    "code": "P",
+    "value": 1618,
+    "who": "Shukla Sanjay"
+   },
+   {
+    "date": "2023-11-13",
+    "filed": "2023-11-13",
+    "code": "P",
+    "value": 15085,
+    "who": "Shukla Sanjay"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "atyr pharma",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05892614",
+    "drugs": [
+     "efzofitimod 450 mg",
+     "efzofitimod 270 mg"
+    ]
+   },
+   {
+    "nct": "NCT05415137",
+    "drugs": [
+     "Efzofitimod 3 mg/kg",
+     "Efzofitimod 5 mg/kg"
+    ]
+   }
+  ]
+ }
+}

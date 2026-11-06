@@ -1,0 +1,78 @@
+{
+ "id": "1339970_2023-03-29",
+ "kind": "slide",
+ "cik": "1339970",
+ "name": "aTYR PHARMA INC",
+ "date": "2023-03-29",
+ "asof": "2023-03-29",
+ "final": true,
+ "version": 6,
+ "price": {
+  "date": "2023-03-29",
+  "adj_close": 2.11
+ },
+ "balance": {
+  "end": "2022-12-31",
+  "cash": 66146000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0000950170-23-007873"
+ },
+ "burn6": {
+  "end": "2022-12-31",
+  "start": "2022-07-01",
+  "cash_used_ops": 22650000.0,
+  "capex": 1545000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2023-03-10",
+  "shares": 53162052
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "financing_terms": {
+  "equity_line": "Purchase Agreement In September 2020, we entered into a common stock purchase agreement (the Purchase Agreement) with Aspire Capital Fund, LLC (Aspire Capital), which provides that, upon the terms and subject to the conditions and limitations set forth therein, Aspire Capital is committed to purchase up to an aggregate of $20.0 million of shares of our common stock at our request from time to time"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 77194107,
+  "as_of": "2022-06-30",
+  "filed": "2023-03-14"
+ },
+ "insiders": {
+  "form4s": 12,
+  "from": "2022-12-29",
+  "to": "2023-04-28",
+  "trades": [
+   {
+    "date": "2023-02-06",
+    "filed": "2023-02-06",
+    "code": "S",
+    "value": 3696,
+    "who": "Broadfoot Jill Marie"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "atyr pharma",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05415137",
+    "drugs": [
+     "Efzofitimod 3 mg/kg",
+     "Efzofitimod 5 mg/kg"
+    ]
+   }
+  ]
+ }
+}
