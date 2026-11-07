@@ -5,7 +5,7 @@
  "name": "Oruka Therapeutics, Inc.",
  "date": "2026-10-08",
  "asof": "2026-10-08",
- "final": false,
+ "final": true,
  "version": 6,
  "price": {
   "date": "2026-10-08",
@@ -48,7 +48,7 @@
  "insiders": {
   "form4s": 20,
   "from": "2026-07-10",
-  "to": "2026-11-06",
+  "to": "2026-11-07",
   "trades": [
    {
     "date": "2026-11-02",
@@ -535,25 +535,25 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT07474792",
-    "drugs": [
-     "ORKA-002"
-    ]
-   },
-   {
     "nct": "NCT07783542",
     "drugs": [
      "ORKA-002"
     ]
    },
    {
-    "nct": "NCT07449702",
+    "nct": "NCT07474792",
+    "drugs": [
+     "ORKA-002"
+    ]
+   },
+   {
+    "nct": "NCT07290569",
     "drugs": [
      "ORKA-001"
     ]
    },
    {
-    "nct": "NCT07290569",
+    "nct": "NCT07449702",
     "drugs": [
      "ORKA-001"
     ]

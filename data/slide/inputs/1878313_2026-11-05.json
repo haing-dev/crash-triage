@@ -1,0 +1,125 @@
+{
+ "id": "1878313_2026-11-05",
+ "kind": "slide",
+ "cik": "1878313",
+ "name": "MAIA Biotechnology, Inc.",
+ "date": "2026-11-05",
+ "asof": "2026-11-05",
+ "final": false,
+ "version": 6,
+ "price": {
+  "date": "2026-11-05",
+  "adj_close": 1.04
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 0,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001493152-26-036764"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": 12061383.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-08-10",
+  "shares": 60825844
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 48948795,
+  "as_of": "2025-06-30",
+  "filed": "2026-03-23"
+ },
+ "insiders": {
+  "form4s": 11,
+  "from": "2026-08-07",
+  "to": "2026-11-07",
+  "trades": [
+   {
+    "date": "2026-09-14",
+    "filed": "2026-09-15",
+    "code": "P",
+    "value": 100010,
+    "who": "Vitoc Vlad"
+   },
+   {
+    "date": "2026-09-10",
+    "filed": "2026-09-14",
+    "code": "P",
+    "value": 49516,
+    "who": "Guerrero Ramiro"
+   },
+   {
+    "date": "2026-08-26",
+    "filed": "2026-09-01",
+    "code": "P",
+    "value": 12414,
+    "who": "Guerrero Ramiro"
+   },
+   {
+    "date": "2026-08-27",
+    "filed": "2026-09-01",
+    "code": "P",
+    "value": 108752,
+    "who": "Guerrero Ramiro"
+   },
+   {
+    "date": "2026-08-28",
+    "filed": "2026-09-01",
+    "code": "P",
+    "value": 62937,
+    "who": "Guerrero Ramiro"
+   },
+   {
+    "date": "2026-08-24",
+    "filed": "2026-08-26",
+    "code": "P",
+    "value": 2386,
+    "who": "Guerrero Ramiro"
+   },
+   {
+    "date": "2026-08-20",
+    "filed": "2026-08-24",
+    "code": "P",
+    "value": 16302,
+    "who": "Guerrero Ramiro"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "maia biotechnology",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05208944",
+    "drugs": [
+     "6-Thio-2'-Deoxyguanosine",
+     "Cemiplimab"
+    ]
+   },
+   {
+    "nct": "NCT06908304",
+    "drugs": [
+     "6-Thio-2'-Deoxyguanosine",
+     "Cemiplimab",
+     "Docetaxel"
+    ]
+   }
+  ]
+ }
+}
