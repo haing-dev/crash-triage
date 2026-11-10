@@ -18,12 +18,12 @@ cik,name,ticker,date,month,start_date,end_date,prev_close,low_close,fall_pct,day
 1819576,Liquidia Corp,LQDA,2026-09-30,Sep 2026,2026-09-28,2026-09-30,73.67,30.26,-58.9,1,-57.2,listed
 2079272,Lakewood-Amedex Biotherapeutics Inc.,LABT,2026-09-28,Sep 2026,2026-09-22,2026-09-29,1.99,0.99,-50.3,2,-31.1,listed
 1620463,"LeonaBio, Inc.",LONA,2026-09-25,Sep 2026,2026-09-18,2026-09-25,6.79,3.25,-52.1,1,-34.9,listed
-1896212,CDT Equity Inc.,CDT,2026-09-25,Sep 2026,2026-09-24,2026-10-01,3.025,1.25,-58.7,5,-33.9,listed
+1896212,CDT Equity Inc.,CDT,2026-09-25,Sep 2026,2026-09-24,2026-10-01,60.5,25,-58.7,5,-33.9,listed
 1659617,"Moleculin Biotech, Inc.",MBRX,2026-09-18,Sep 2026,2026-09-17,2026-09-18,15.6,0.773,-95.0,1,-95.0,listed
 1721484,Longeveron Inc.,LGVN,2026-09-17,Sep 2026,2026-09-11,2026-09-17,7.33,2.71,-63.0,1,-59.4,listed
 1348362,Lexaria Bioscience Corp.,LEXX,2026-09-08,Sep 2026,2026-09-04,2026-09-09,14.15,6.6,-53.4,2,-33.8,listed
 1585608,"Jaguar Health, Inc.",JAGX,2026-09-08,Sep 2026,2026-09-02,2026-09-10,10.95,4.785,-56.3,3,-30.7,listed
-1896212,CDT Equity Inc.,CDT,2026-09-02,Sep 2026,2026-08-26,2026-09-02,47.25,22.75,-51.9,1,-38.5,listed
+1896212,CDT Equity Inc.,CDT,2026-09-02,Sep 2026,2026-08-26,2026-09-02,945,455,-51.9,1,-38.5,listed
 1847367,ALUMIS INC.,ALMS,2026-09-01,Sep 2026,2026-08-25,2026-09-01,23.96,9.47,-60.5,1,-56.6,listed
 1517681,"Propanc Biopharma, Inc.",PPCB,2026-08-28,Aug 2026,2026-08-27,2026-09-02,22.3,10.3,-53.8,4,-39.5,listed
 1826892,"BioAtla, Inc.",BCAB,2026-08-28,Aug 2026,2026-08-25,2026-09-01,3.26,1.08,-66.9,3,-44.7,OTC/other (OTC)
@@ -50,7 +50,7 @@ cik,name,ticker,date,month,start_date,end_date,prev_close,low_close,fall_pct,day
 1809616,Universe Pharmaceuticals INC,UPC,2026-06-30,Jun 2026,2026-06-29,2026-07-01,12.18,5.56,-54.4,2,-49.9,listed
 2044725,"Evommune, Inc.",EVMN,2026-06-29,Jun 2026,2026-06-26,2026-07-06,25.18,12.36,-50.9,5,-40.2,listed
 1187953,"CREATIVE MEDICAL TECHNOLOGY HOLDINGS, INC.",CELZ,2026-06-26,Jun 2026,2026-06-24,2026-06-29,2,0.8102,-59.5,2,-40.0,listed
-1896212,CDT Equity Inc.,CDT,2026-06-25,Jun 2026,2026-06-22,2026-06-25,375,178.2,-52.5,1,-34.6,listed
+1896212,CDT Equity Inc.,CDT,2026-06-25,Jun 2026,2026-06-22,2026-06-25,7500,3565,-52.5,1,-34.6,listed
 1789192,Nexentis Technologies Inc.,NXTS,2026-06-23,Jun 2026,2026-06-22,2026-06-23,13,5.81,-55.3,1,-55.3,listed
 2070534,SL Science Holding Ltd,SLBT,2026-06-17,Jun 2026,2026-06-16,2026-06-23,8.89,3.96,-55.5,4,-28.2,listed
 1913577,"Semnur Pharmaceuticals, Inc.",SMNR,2026-06-16,Jun 2026,2026-06-10,2026-06-16,4.89,0.9,-81.6,1,-70.0,OTC/other (OTC)
@@ -86,7 +86,7 @@ cik,name,ticker,date,month,start_date,end_date,prev_close,low_close,fall_pct,day
 1840563,PMGC Holdings Inc.,ELAB,2026-04-02,Apr 2026,2026-04-01,2026-04-02,140,57.2,-59.1,1,-59.1,listed
 1035354,"Eloxx Pharmaceuticals, Inc.",ELOX,2026-03-31,Mar 2026,2026-03-27,2026-03-31,2.09,0.8888,-57.5,1,-57.5,listed
 1835597,PepGen Inc.,PEPG,2026-03-31,Mar 2026,2026-03-26,2026-03-31,4.89,1.77,-63.8,1,-58.2,listed
-1896212,CDT Equity Inc.,CDT,2026-03-31,Mar 2026,2026-03-24,2026-03-31,3088,1275,-58.7,1,-45.5,listed
+1896212,CDT Equity Inc.,CDT,2026-03-31,Mar 2026,2026-03-24,2026-03-31,6.175e+04,2.55e+04,-58.7,1,-45.5,listed
 1382574,"Scienture Holdings, Inc.",SCNX,2026-03-30,Mar 2026,2026-03-23,2026-03-30,12.12,6.025,-50.3,1,-42.2,listed
 1958777,"FibroBiologics, Inc.",FBLG,2026-03-30,Mar 2026,2026-03-25,2026-03-30,5.28,2.28,-56.8,1,-42.1,listed
 1763950,Lantern Pharma Inc.,LTRN,2026-03-27,Mar 2026,2026-03-23,2026-03-27,2.24,1.12,-50.0,1,-46.4,listed
@@ -190,7 +190,7 @@ cik,name,ticker,date,month,start_date,end_date,prev_close,low_close,fall_pct,day
 2025942,Curanex Pharmaceuticals Inc,CURX,2025-09-18,Sep 2025,2025-09-16,2025-09-18,9.16,1.25,-86.4,1,-86.4,listed
 1712762,"bioAffinity Technologies, Inc.",BIAF,2025-09-17,Sep 2025,2025-09-15,2025-09-18,157.5,76.05,-51.7,2,-29.9,listed
 1339970,aTYR PHARMA INC,ATYR,2025-09-15,Sep 2025,2025-09-12,2025-09-15,6.03,1.015,-83.2,1,-83.2,listed
-1896212,CDT Equity Inc.,CDT,2025-09-08,Sep 2025,2025-09-02,2025-09-09,6.65e+04,3.125e+04,-53.0,2,-32.5,listed
+1896212,CDT Equity Inc.,CDT,2025-09-08,Sep 2025,2025-09-02,2025-09-09,1.33e+06,6.25e+05,-53.0,2,-32.5,listed
 1857044,"Indaptus Therapeutics, Inc.",INDP,2025-09-05,Sep 2025,2025-08-29,2025-09-08,6.5,2.91,-55.2,2,-28.4,listed
 1621221,"ARTELO BIOSCIENCES, INC.",ARTL,2025-09-04,Sep 2025,2025-08-29,2025-09-04,27.75,13.05,-53.0,1,-50.3,listed
 1649989,"Outlook Therapeutics, Inc.",OTLK,2025-08-28,Aug 2025,2025-08-25,2025-08-28,2.97,1.09,-63.3,1,-54.1,listed
@@ -209,7 +209,7 @@ cik,name,ticker,date,month,start_date,end_date,prev_close,low_close,fall_pct,day
 1610820,BriaCell Therapeutics Corp.,BCTX,2025-07-15,Jul 2025,2025-07-08,2025-07-15,29.1,7.7,-73.5,1,-61.9,listed
 1840229,"MiNK Therapeutics, Inc.",INKT,2025-07-14,Jul 2025,2025-07-11,2025-07-15,64.17,28.01,-56.4,2,-36.7,listed
 1851484,"CITIUS ONCOLOGY, INC.",CTOR,2025-07-14,Jul 2025,2025-07-07,2025-07-14,4.71,1.94,-58.8,1,-31.2,listed
-1788028,"Jasper Therapeutics, Inc.",JSPR,2025-07-07,Jul 2025,2025-07-02,2025-07-07,6.82,3.04,-55.4,1,-55.1,listed
+1788028,"Jasper Therapeutics, Inc.",JSPR,2025-07-07,Jul 2025,2025-07-02,2025-07-07,204.6,91.2,-55.4,1,-55.1,listed
 1174940,ORAGENICS INC,OGEN,2025-07-01,Jul 2025,2025-06-27,2025-07-01,4.05,1.55,-61.7,1,-59.4,listed
 832489,"GeoVax Labs, Inc.",GOVX,2025-07-01,Jul 2025,2025-06-27,2025-07-02,24,11.93,-50.3,2,-44.0,listed
 1711754,"Inmune Bio, Inc.",INMB,2025-06-30,Jun 2025,2025-06-25,2025-06-30,7.37,2.31,-68.7,1,-56.7,listed
@@ -300,7 +300,7 @@ cik,name,ticker,date,month,start_date,end_date,prev_close,low_close,fall_pct,day
 1509745,CYPHERPUNK TECHNOLOGIES INC.,CYPH,2025-01-28,Jan 2025,2025-01-21,2025-01-28,2.46,0.65,-73.6,1,-71.1,listed
 1833214,"SAB Biotherapeutics, Inc.",SABS,2025-01-28,Jan 2025,2025-01-27,2025-01-28,4.36,2.07,-52.5,1,-52.5,listed
 1564824,Allakos Inc.,ALLK,2025-01-27,Jan 2025,2025-01-24,2025-01-27,1.21,0.2363,-80.5,1,-80.5,stopped trading
-1896212,CDT Equity Inc.,CDT,2025-01-27,Jan 2025,2025-01-17,2025-01-27,5.4e+06,2.475e+06,-54.2,1,-26.7,listed
+1896212,CDT Equity Inc.,CDT,2025-01-27,Jan 2025,2025-01-17,2025-01-27,1.08e+08,4.95e+07,-54.2,1,-26.7,listed
 863894,VERU INC.,VERU,2025-01-27,Jan 2025,2025-01-23,2025-01-27,12.8,6.4,-50.0,1,-47.1,listed
 890821,"Enveric Biosciences, Inc.",ENVB,2025-01-27,Jan 2025,2025-01-17,2025-01-27,955.8,54.9,-94.3,1,-93.5,listed
 1583771,"Hepion Pharmaceuticals, Inc.",HEPA,2025-01-22,Jan 2025,2025-01-14,2025-01-22,23.75,6.75,-71.6,1,-58.0,OTC/other (OTC)
@@ -313,7 +313,7 @@ cik,name,ticker,date,month,start_date,end_date,prev_close,low_close,fall_pct,day
 1442836,"Mersana Therapeutics, Inc.",MRSN,2025-01-10,Jan 2025,2025-01-03,2025-01-13,34.75,15.54,-55.3,2,-44.6,stopped trading
 1496323,"IGM Biosciences, Inc.",IGMS,2025-01-10,Jan 2025,2025-01-07,2025-01-10,6.8,2.09,-69.3,1,-66.3,stopped trading
 1693011,"Inozyme Pharma, Inc.",INZY,2025-01-10,Jan 2025,2025-01-07,2025-01-15,2.82,1.38,-51.1,4,-28.7,stopped trading
-1788028,"Jasper Therapeutics, Inc.",JSPR,2025-01-08,Jan 2025,2024-12-31,2025-01-08,21.38,6.99,-67.3,1,-60.5,listed
+1788028,"Jasper Therapeutics, Inc.",JSPR,2025-01-08,Jan 2025,2024-12-31,2025-01-08,641.4,209.7,-67.3,1,-60.5,listed
 1870404,"CERO THERAPEUTICS HOLDINGS, INC.",CERO,2025-01-08,Jan 2025,2025-01-07,2025-01-15,104.6,51.6,-50.7,5,-29.3,OTC/other (OTC)
 1697884,VITASPRING BIOMEDICAL CO. LTD.,VSBC,2025-01-07,Jan 2025,2024-12-30,2025-01-07,15,0.1,-99.3,1,-99.3,OTC/other (OTC)
 1239819,LUNA INNOVATIONS INC,LUNA,2025-01-06,Jan 2025,2024-12-27,2025-01-06,2.17,0.8891,-59.0,1,-56.6,stopped trading
@@ -430,7 +430,7 @@ cik,name,ticker,date,month,start_date,end_date,prev_close,low_close,fall_pct,day
 1468639,"Vicapsys Life Sciences, Inc.",VICP,2024-07-16,Jul 2024,2024-07-15,2024-07-16,7,1.51,-78.4,1,-78.4,OTC/other (OTC)
 1888012,"HilleVax, Inc.",HLVX,2024-07-08,Jul 2024,2024-06-28,2024-07-08,14.46,1.64,-88.7,1,-88.3,stopped trading
 1723059,Bio Essence Corp,BIOE,2024-07-05,Jul 2024,2024-07-03,2024-07-10,9.727,0.9,-90.7,4,-87.9,OTC/other (OTC)
-1896212,CDT Equity Inc.,CDT,2024-07-03,Jul 2024,2024-06-28,2024-07-08,7.95e+07,3.75e+07,-52.8,3,-27.2,listed
+1896212,CDT Equity Inc.,CDT,2024-07-03,Jul 2024,2024-06-28,2024-07-08,1.59e+09,7.5e+08,-52.8,3,-27.2,listed
 1394319,"Tracon Pharmaceuticals, Inc.",TCON,2024-07-01,Jul 2024,2024-06-28,2024-07-08,1.6,0.75,-53.1,5,-30.6,stopped trading
 1601485,"Elicio Therapeutics, Inc.",ELTX,2024-06-28,Jun 2024,2024-06-27,2024-07-02,6.89,3.39,-50.8,3,-40.3,listed
 1860657,"Allarity Therapeutics, Inc.",ALLR,2024-06-25,Jun 2024,2024-06-20,2024-06-25,13.65,6.24,-54.3,1,-34.8,listed
@@ -583,7 +583,7 @@ cik,name,ticker,date,month,start_date,end_date,prev_close,low_close,fall_pct,day
 1829635,"Transcode Therapeutics, Inc.",RNAZ,2023-09-26,Sep 2023,2023-09-25,2023-09-26,9.425e+04,2.554e+04,-72.9,1,-72.9,listed
 1137883,BRAINSTORM CELL THERAPEUTICS INC.,BCLI,2023-09-25,Sep 2023,2023-09-19,2023-09-25,15.3,6.415,-58.1,1,-47.6,OTC/other (OTC)
 1679363,"Morphic Holding, Inc.",MORF,2023-09-25,Sep 2023,2023-09-18,2023-09-25,53.07,23.14,-56.4,1,-36.9,stopped trading
-1896212,CDT Equity Inc.,CDT,2023-09-25,Sep 2023,2023-09-21,2023-09-26,1.274e+09,4.92e+08,-61.4,2,-38.4,listed
+1896212,CDT Equity Inc.,CDT,2023-09-25,Sep 2023,2023-09-21,2023-09-26,2.549e+10,9.84e+09,-61.4,2,-38.4,listed
 1401395,Neptune Wellness Solutions Inc.,NEPT,2023-09-22,Sep 2023,2023-09-15,2023-09-22,5.62,1.61,-71.4,1,-59.7,stopped trading
 1017491,"SEELOS THERAPEUTICS, INC.",SEEL,2023-09-20,Sep 2023,2023-09-19,2023-09-20,3840,1172,-69.5,1,-69.5,stopped trading
 1671858,"ARS Pharmaceuticals, Inc.",SPRY,2023-09-20,Sep 2023,2023-09-18,2023-09-20,7.44,2.92,-60.8,1,-55.8,listed
@@ -771,7 +771,7 @@ cik,name,ticker,date,month,start_date,end_date,prev_close,low_close,fall_pct,day
 1757499,"Shuttle Pharmaceuticals Holdings, Inc.",SHPH,2022-09-15,Sep 2022,2022-09-13,2022-09-15,8.236e+04,3.326e+04,-59.6,1,-55.7,listed
 1638287,MetaVia Inc.,MTVA,2022-09-14,Sep 2022,2022-09-13,2022-09-19,2631,1285,-51.2,4,-43.6,listed
 1213037,"Cardiff Oncology, Inc.",CRDF,2022-09-13,Sep 2022,2022-09-12,2022-09-16,3.21,1.58,-50.8,4,-41.1,listed
-1728328,InMed Pharmaceuticals Inc.,INM,2022-09-13,Sep 2022,2022-09-12,2022-09-16,375.6,169.8,-54.8,4,-35.7,listed
+1728328,InMed Pharmaceuticals Inc.,INM,2022-09-13,Sep 2022,2022-09-12,2022-09-16,3756,1698,-54.8,4,-35.7,listed
 1517681,"Propanc Biopharma, Inc.",PPCB,2022-09-09,Sep 2022,2022-09-08,2022-09-14,2100,850,-59.5,4,-45.2,listed
 1880438,"AN2 Therapeutics, Inc.",ANTX,2022-09-06,Sep 2022,2022-08-31,2022-09-06,17.14,8.57,-50.0,1,-32.9,listed
 1780097,"Baudax Bio, Inc.",BXRX,2022-08-30,Aug 2022,2022-08-26,2022-08-30,24.58,11.93,-51.5,1,-43.1,stopped trading
@@ -962,7 +962,7 @@ cik,name,ticker,date,month,start_date,end_date,prev_close,low_close,fall_pct,day
 1517681,"Propanc Biopharma, Inc.",PPCB,2020-11-19,Nov 2020,2020-11-12,2020-11-19,1e+06,4.85e+05,-51.5,1,-48.9,listed
 1603345,Agentix Corp.,AGTX,2020-11-19,Nov 2020,2020-11-12,2020-11-19,1.37,0.5,-63.5,1,-63.5,OTC/other (OTC)
 1137883,BRAINSTORM CELL THERAPEUTICS INC.,BCLI,2020-11-17,Nov 2020,2020-11-12,2020-11-17,186.4,60.3,-67.7,1,-66.3,OTC/other (OTC)
-1728328,InMed Pharmaceuticals Inc.,INM,2020-11-12,Nov 2020,2020-11-06,2020-11-12,3422,1625,-52.5,1,-33.4,listed
+1728328,InMed Pharmaceuticals Inc.,INM,2020-11-12,Nov 2020,2020-11-06,2020-11-12,3.422e+04,1.625e+04,-52.5,1,-33.4,listed
 1228627,"Opus Genetics, Inc.",IRD,2020-11-09,Nov 2020,2020-11-03,2020-11-09,7.56,3.76,-50.3,1,-37.3,listed
 1426800,"ASSEMBLY BIOSCIENCES, INC.",ASMB,2020-11-06,Nov 2020,2020-11-04,2020-11-06,192.5,58.44,-69.6,1,-69.4,listed
 1157075,"PharmaCyte Biotech, Inc.",PMCB,2020-11-04,Nov 2020,2020-10-28,2020-11-04,14.41,6.51,-54.8,1,-48.8,listed
