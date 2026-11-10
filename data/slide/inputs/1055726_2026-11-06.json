@@ -1,0 +1,70 @@
+{
+ "id": "1055726_2026-11-06",
+ "kind": "slide",
+ "cik": "1055726",
+ "name": "INOVIO PHARMACEUTICALS, INC.",
+ "date": "2026-11-06",
+ "asof": "2026-11-06",
+ "final": false,
+ "version": 6,
+ "price": {
+  "date": "2026-11-06",
+  "adj_close": 1.22
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 36674017,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001055726-26-000023"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": 39638543.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-08-10",
+  "shares": 103397518
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "In light of these factors, management believes that there is substantial doubt about the Company's ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 74300000,
+  "as_of": "2025-06-30",
+  "filed": "2026-03-12"
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2026-08-08",
+  "to": "2026-11-10",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "inovio pharmaceuticals",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03491683",
+    "drugs": [
+     "INO-5401",
+     "INO-9012",
+     "Cemiplimab"
+    ]
+   }
+  ]
+ }
+}
