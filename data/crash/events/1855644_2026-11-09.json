@@ -1,0 +1,44 @@
+{
+ "cik": "1855644",
+ "name": "Zura Bio Ltd",
+ "ticker": "ZURA",
+ "date": "2026-11-09",
+ "status": "read",
+ "source": {
+  "filing_date": "2026-11-09",
+  "accession": "0001104659-26-124149",
+  "doc": "tm2629310d1_ex99-1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1855644/000110465926124149/tm2629310d1_ex99-1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Missed primary and key secondary endpoints, HS development discontinued \u00b7 Phase 2 \u00b7 tibulizumab in hidradenitis suppurativa \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "tibulizumab (ZB-106)",
+  "indication": "hidradenitis suppurativa",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": false,
+  "safety": {
+   "treated_patients": 164,
+   "serious_drug_related_patients": 1,
+   "deaths": 1,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "did not meet its primary endpoint of percentage change from baseline in total abscess and inflammatory nodule (AN) count at Week 16 in either the 300 mg or 150 mg treatment arm.",
+   "primary_endpoint_met": "did not meet its primary endpoint of percentage change from baseline in total abscess and inflammatory nodule (AN) count at Week 16 in either the 300 mg or 150 mg treatment arm.",
+   "safety": "The data show that tibulizumab was well tolerated and observed safety was consistent with established safety profiles for both IL-17 and BAFF inhibition.",
+   "program_discontinued": "Based on these results, Zura is discontinuing development of tibulizumab in HS."
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": true
+  }
+ }
+}
