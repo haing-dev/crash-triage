@@ -48,7 +48,7 @@
  "insiders": {
   "form4s": 9,
   "from": "2026-07-25",
-  "to": "2026-11-10",
+  "to": "2026-11-11",
   "trades": [
    {
     "date": "2026-10-16",
@@ -143,7 +143,20 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT06864988",
+    "nct": "NCT05248230",
+    "drugs": [
+     "4D-710"
+    ]
+   },
+   {
+    "nct": "NCT07867080",
+    "drugs": [
+     "4D-150 IVT (3x10^10 vg)",
+     "EYELEA \u00ae (aflibercept) Injection 2 mg (0.05mL)"
+    ]
+   },
+   {
+    "nct": "NCT07064759",
     "drugs": [
      "4D-150 IVT (3E10 vg/eye)",
      "EYLEA\u00ae (aflibercept) Injection 2 mg (0.05mL)"
@@ -157,23 +170,10 @@
     ]
    },
    {
-    "nct": "NCT05248230",
-    "drugs": [
-     "4D-710"
-    ]
-   },
-   {
     "nct": "NCT05930561",
     "drugs": [
      "4D-150 IVT",
      "Aflibercept IVT"
-    ]
-   },
-   {
-    "nct": "NCT07867080",
-    "drugs": [
-     "4D-150 IVT (3x10^10 vg)",
-     "EYELEA \u00ae (aflibercept) Injection 2 mg (0.05mL)"
     ]
    }
   ]

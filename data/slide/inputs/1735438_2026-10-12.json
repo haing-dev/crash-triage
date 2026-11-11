@@ -5,7 +5,7 @@
  "name": "MeiraGTx Holdings plc",
  "date": "2026-10-12",
  "asof": "2026-10-12",
- "final": false,
+ "final": true,
  "version": 6,
  "price": {
   "date": "2026-10-12",
@@ -46,7 +46,7 @@
  "insiders": {
   "form4s": 5,
   "from": "2026-07-14",
-  "to": "2026-11-10",
+  "to": "2026-11-11",
   "trades": [
    {
     "date": "2026-10-20",
@@ -92,10 +92,10 @@
     ]
    },
    {
-    "nct": "NCT06646289",
+    "nct": "NCT04794101",
     "drugs": [
-     "AAV5-hRKp.RPGR",
-     "No intervention (Follow-Up assessment)"
+     "Genetic: AAV5-hRKp.RPGR Intermediate Dose",
+     "Genetic: AAV5-hRKp.RPGR Low Dose"
     ]
    },
    {
@@ -107,16 +107,16 @@
     ]
    },
    {
-    "nct": "NCT04794101",
-    "drugs": [
-     "Genetic: AAV5-hRKp.RPGR Intermediate Dose",
-     "Genetic: AAV5-hRKp.RPGR Low Dose"
-    ]
-   },
-   {
     "nct": "NCT05894343",
     "drugs": [
      "AAV-GAD"
+    ]
+   },
+   {
+    "nct": "NCT06646289",
+    "drugs": [
+     "AAV5-hRKp.RPGR",
+     "No intervention (Follow-Up assessment)"
     ]
    }
   ]

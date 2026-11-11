@@ -46,7 +46,7 @@
  "insiders": {
   "form4s": 0,
   "from": "2026-08-11",
-  "to": "2026-11-10",
+  "to": "2026-11-11",
   "trades": []
  },
  "drug": null,
@@ -55,6 +55,12 @@
   "other_trials": 4,
   "crashed_drug_trials": 0,
   "examples": [
+   {
+    "nct": "NCT06799247",
+    "drugs": [
+     "Decartes-08"
+    ]
+   },
    {
     "nct": "NCT07089121",
     "drugs": [
@@ -65,12 +71,6 @@
     "nct": "NCT06038474",
     "drugs": [
      "Descartes-08"
-    ]
-   },
-   {
-    "nct": "NCT06799247",
-    "drugs": [
-     "Decartes-08"
     ]
    },
    {
