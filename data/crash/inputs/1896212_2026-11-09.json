@@ -1,0 +1,71 @@
+{
+ "id": "1896212_2026-11-09",
+ "kind": "crash",
+ "cik": "1896212",
+ "name": "CDT Equity Inc.",
+ "date": "2026-11-09",
+ "asof": "2026-11-10",
+ "final": false,
+ "version": 6,
+ "price": {
+  "date": "2026-11-10",
+  "adj_close": 0.5613
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 747000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001493152-26-041808"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": 2438000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-08-12",
+  "shares": 786670
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Risks Related to Finances and Capital Requirements \u25cf There is substantial doubt regarding our ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "floating_convertible": "Additionally, subject to the requisite shareholder approval, the Lender shall have the right, at its sole option, to convert any or all of the outstanding balance of the Notes into Conversion Shares at a conversion price equal to the greater of (i) seventy percent of the lowest volume-weighted average price of the Company\u2019s Common Stock over the twenty consecutive trading days preceding the conver",
+  "equity_line": "Subsequent Events Equity Purchase Agreement On January 16, 2026, the Company entered into a directed stock purchase agreement with an institutional investor relating to an equity line of credit facility (the \u201cELOC\u201d)."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 55200,
+  "as_of": "2025-06-30",
+  "filed": "2026-04-15"
+ },
+ "insiders": {
+  "form4s": 2,
+  "from": "2026-08-11",
+  "to": "2026-11-12",
+  "trades": [
+   {
+    "date": "2026-08-28",
+    "filed": "2026-09-02",
+    "code": "S",
+    "value": 0,
+    "who": "Regan Andrew"
+   }
+  ]
+ },
+ "drug": "n/a",
+ "trials": {
+  "query": "cdt equity",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}
