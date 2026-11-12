@@ -1,7 +1,7 @@
 # Episodes
 scanned 973 price files
 
-## crash: 979
+## crash: 980
 
 | Year | Count |
 |---|---|
@@ -11,7 +11,7 @@ scanned 973 price files
 | 2023 | 180 |
 | 2024 | 206 |
 | 2025 | 187 |
-| 2026 | 135 |
+| 2026 | 136 |
 
 ## slide: 3160
 
