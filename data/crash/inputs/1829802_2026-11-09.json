@@ -1,0 +1,60 @@
+{
+ "id": "1829802_2026-11-09",
+ "kind": "crash",
+ "cik": "1829802",
+ "name": "Faeth Therapeutics, Inc.",
+ "date": "2026-11-09",
+ "asof": "2026-11-12",
+ "final": false,
+ "version": 6,
+ "price": {
+  "date": "2026-11-12",
+  "adj_close": 10.65
+ },
+ "balance": {
+  "end": "2026-09-30",
+  "cash": 174795000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001193125-26-444376"
+ },
+ "burn6": {
+  "end": "2026-09-30",
+  "start": "2026-04-01",
+  "cash_used_ops": 28675000.0,
+  "capex": 3000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-10-30",
+  "shares": 25843945
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 7100000,
+  "as_of": "2025-06-30",
+  "filed": "2026-06-02"
+ },
+ "insiders": {
+  "form4s": 3,
+  "from": "2026-08-11",
+  "to": "2026-11-14",
+  "trades": []
+ },
+ "drug": "PIKTOR (serabelisib and sapanisertib) plus paclitaxel",
+ "trials": {
+  "query": "faeth therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 2,
+  "examples": []
+ }
+}

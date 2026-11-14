@@ -1,0 +1,136 @@
+{
+ "id": "1674416_2026-11-12",
+ "kind": "slide",
+ "cik": "1674416",
+ "name": "CRISPR Therapeutics AG",
+ "date": "2026-11-12",
+ "asof": "2026-11-12",
+ "final": false,
+ "version": 6,
+ "price": {
+  "date": "2026-11-12",
+  "adj_close": 42.62
+ },
+ "balance": {
+  "end": "2026-09-30",
+  "cash": 2276569000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent",
+   "MarketableSecuritiesNoncurrent"
+  ],
+  "accn": "0001193125-26-443665"
+ },
+ "burn6": {
+  "end": "2026-09-30",
+  "start": "2026-04-01",
+  "cash_used_ops": 173182000.0,
+  "capex": 1062000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-10-30",
+  "shares": 97000813
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 586934000.0,
+  "tags": "LongTermDebt"
+ },
+ "public_float": {
+  "usd": 4100000000,
+  "as_of": "2025-06-30",
+  "filed": "2026-02-12"
+ },
+ "insiders": {
+  "form4s": 14,
+  "from": "2026-08-14",
+  "to": "2026-11-14",
+  "trades": [
+   {
+    "date": "2026-10-19",
+    "filed": "2026-10-20",
+    "code": "S",
+    "value": 2381326,
+    "who": "Kulkarni Samarth"
+   },
+   {
+    "date": "2026-10-14",
+    "filed": "2026-10-16",
+    "code": "S",
+    "value": 720373,
+    "who": "George Simeon"
+   },
+   {
+    "date": "2026-10-14",
+    "filed": "2026-10-15",
+    "code": "S",
+    "value": 51230,
+    "who": "KASINGER JAMES R."
+   },
+   {
+    "date": "2026-10-14",
+    "filed": "2026-10-15",
+    "code": "S",
+    "value": 201867,
+    "who": "Kulkarni Samarth"
+   },
+   {
+    "date": "2026-10-06",
+    "filed": "2026-10-08",
+    "code": "S",
+    "value": 119481,
+    "who": "KASINGER JAMES R."
+   },
+   {
+    "date": "2026-09-22",
+    "filed": "2026-09-24",
+    "code": "S",
+    "value": 626460,
+    "who": "KASINGER JAMES R."
+   },
+   {
+    "date": "2026-09-17",
+    "filed": "2026-09-21",
+    "code": "S",
+    "value": 780935,
+    "who": "Behbahani Ali"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "crispr therapeutics",
+  "other_trials": 4,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT07758634",
+    "drugs": [
+     "CTX340"
+    ]
+   },
+   {
+    "nct": "NCT05643742",
+    "drugs": [
+     "CTX112"
+    ]
+   },
+   {
+    "nct": "NCT07549698",
+    "drugs": [
+     "CTX112"
+    ]
+   },
+   {
+    "nct": "NCT07804004",
+    "drugs": [
+     "CTX112"
+    ]
+   }
+  ]
+ }
+}

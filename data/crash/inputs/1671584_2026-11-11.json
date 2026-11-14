@@ -1,0 +1,62 @@
+{
+ "id": "1671584_2026-11-11",
+ "kind": "crash",
+ "cik": "1671584",
+ "name": "Aptevo Therapeutics Inc.",
+ "date": "2026-11-11",
+ "asof": "2026-11-13",
+ "final": false,
+ "version": 6,
+ "price": {
+  "date": "2026-11-13",
+  "adj_close": 0.5941
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 9797000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001193125-26-350559"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": 13419000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-08-14",
+  "shares": 1801970
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "When considered in aggregate, these factors raise substantial doubt about our ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "equity_line": "In the second quarter of 2026, we raised approximately $0.6 million in aggregate net proceeds through the issuance of common stock under the Standby Equity Purchase Agreement with YA II PN, LTD., a Cayman Islands exempt limited company (\u201cYorkville\u201d), dated June 16, 2025 (the \u201cFirst SEPA\u201d) and the Standby Equity Purchase Agreement with Yorkville, dated January 8, 2026 (the \u201cSecond SEPA\u201d and collect"
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 9800000,
+  "as_of": "2025-06-30",
+  "filed": "2026-03-26"
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2026-08-13",
+  "to": "2026-11-14",
+  "trades": []
+ },
+ "drug": "mipletamig",
+ "trials": {
+  "query": "aptevo therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}
