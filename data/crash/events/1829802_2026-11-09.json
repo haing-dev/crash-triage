@@ -1,0 +1,44 @@
+{
+ "cik": "1829802",
+ "name": "Faeth Therapeutics, Inc.",
+ "ticker": "FTH",
+ "date": "2026-11-09",
+ "status": "read",
+ "source": {
+  "filing_date": "2026-11-09",
+  "accession": "0001193125-26-452755",
+  "doc": "d19560dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1829802/000119312526452755/d19560dex991.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Phase 2 topline showed modest response rate, high grade 3+ toxicity, below investor hopes \u00b7 Phase 2 \u00b7 PIKTOR plus paclitaxel in endometrial cancer \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "PIKTOR (serabelisib and sapanisertib) plus paclitaxel",
+  "indication": "advanced endometrial cancer",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": 42,
+   "serious_drug_related_patients": null,
+   "deaths": 0,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "PIKTOR plus paclitaxel: 33% confirmed ORR and 7.4-month preliminary median PFS after platinum and immunotherapy",
+   "primary_endpoint_met": null,
+   "safety": "No drug-related deaths",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}

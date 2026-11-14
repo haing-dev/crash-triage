@@ -1,0 +1,44 @@
+{
+ "cik": "1671584",
+ "name": "Aptevo Therapeutics Inc.",
+ "ticker": "APVO",
+ "date": "2026-11-11",
+ "status": "read",
+ "source": {
+  "filing_date": "2026-11-12",
+  "accession": "0001193125-26-458751",
+  "doc": "apvo-ex99_1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1671584/000119312526458751/apvo-ex99_1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "financing / dilution",
+  "summary": "Warrant inducement raised $3.0M with 13.9M new warrants at $1.08 \u00b7 Phase 1b/2 \u00b7 mipletamig in frontline AML \u00b7 not yet approved",
+  "phase": "Phase 1/2",
+  "drug": "mipletamig",
+  "indication": "frontline acute myeloid leukemia",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "The aggregate gross proceeds from the transaction described herein are expected to total approximately $3.0 million, before deducting placement agent fees and expenses.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}
