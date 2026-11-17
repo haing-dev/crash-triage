@@ -1,0 +1,77 @@
+{
+ "id": "2042347_2026-11-16",
+ "kind": "slide",
+ "cik": "2042347",
+ "name": "Seaport Therapeutics, Inc.",
+ "date": "2026-11-16",
+ "asof": "2026-11-16",
+ "final": false,
+ "version": 6,
+ "price": {
+  "date": "2026-11-16",
+  "adj_close": 19.12
+ },
+ "balance": {
+  "end": "2026-09-30",
+  "cash": 290434000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001193125-26-442634"
+ },
+ "burn6": {
+  "end": "2026-09-30",
+  "start": "2026-04-01",
+  "cash_used_ops": 48824000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-10-27",
+  "shares": 53530550
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": null,
+ "insiders": {
+  "form4s": 2,
+  "from": "2026-08-18",
+  "to": "2026-11-17",
+  "trades": [
+   {
+    "date": "2026-11-03",
+    "filed": "2026-11-04",
+    "code": "P",
+    "value": 99325,
+    "who": "Torres Denice"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "seaport therapeutics",
+  "other_trials": 2,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT07161700",
+    "drugs": [
+     "SPT-300"
+    ]
+   },
+   {
+    "nct": "NCT07065240",
+    "drugs": [
+     "SPT-300"
+    ]
+   }
+  ]
+ }
+}

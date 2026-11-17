@@ -1,0 +1,62 @@
+{
+ "id": "1757499_2026-11-13",
+ "kind": "slide",
+ "cik": "1757499",
+ "name": "Shuttle Pharmaceuticals Holdings, Inc.",
+ "date": "2026-11-13",
+ "asof": "2026-11-13",
+ "final": false,
+ "version": 6,
+ "price": {
+  "date": "2026-11-13",
+  "adj_close": 4.53
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 90238,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001493152-26-044107"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": 2984949.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-09-21",
+  "shares": 4764696
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These conditions raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "floating_convertible": "The notes were optionally convertible by each holder at a 10% premium beginning three months after the date of issuance, and the conversion price would be the 5-day volume-weighted-average price (\u201cVWAP\u201d) immediately prior to Closing unless re-set (one-time only) by a lower price of an offering entered into by the Company during the term of the notes."
+ },
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 4744078,
+  "as_of": "2025-06-30",
+  "filed": "2026-03-31"
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2026-08-15",
+  "to": "2026-11-17",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "shuttle pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}
