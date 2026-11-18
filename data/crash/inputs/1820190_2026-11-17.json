@@ -1,0 +1,63 @@
+{
+ "id": "1820190_2026-11-17",
+ "kind": "crash",
+ "cik": "1820190",
+ "name": "Scilex Holding Co",
+ "date": "2026-11-17",
+ "asof": "2026-11-17",
+ "final": false,
+ "version": 6,
+ "price": {
+  "date": "2026-11-17",
+  "adj_close": 0.642
+ },
+ "balance": {
+  "end": "2026-06-30",
+  "cash": 566000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001193125-26-352464"
+ },
+ "burn6": {
+  "end": "2026-06-30",
+  "start": "2026-01-01",
+  "cash_used_ops": 7844000.0,
+  "capex": 593000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-08-10",
+  "shares": 8493000
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "As a result, management has concluded that the aforementioned conditions, among other things, raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {
+  "price_reset_warrants": "The Exchange Warrant Exercise Price is also subject to full-ratchet adjustment (down to the Exchange Warrant Exercise Price Floor (as defined below)) in connection with a subsequent offering at a per-share price less than the exercise price then in effect.",
+  "equity_line": "Vivasor Agreement to Purchase WorldXchain Common Stock On May 11, 2026, Vivasor entered into a Common Stock Purchase Agreement (the \u201cWorldXchain Commitment\u201d) with WorldXchain Corporation, a Wyoming corporation (\u201cWorldXchain\u201d), pursuant to which WorldXchain agreed to sell to Vivasor, and Vivasor agreed to purchase from WorldXchain, 25,500,000 shares of WorldXchain Common Stock at $0.00001 per share"
+ },
+ "debt": {
+  "usd": 80806000.0,
+  "tags": "DebtCurrent"
+ },
+ "public_float": {
+  "usd": 32400000,
+  "as_of": "2025-06-30",
+  "filed": "2026-04-10"
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2026-08-19",
+  "to": "2026-11-18",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "scilex",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

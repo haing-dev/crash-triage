@@ -9,7 +9,7 @@
  "version": 6,
  "price": {
   "date": "2026-11-13",
-  "adj_close": 0.9146
+  "adj_close": 0.91000003
  },
  "balance": {
   "end": "2026-09-30",
@@ -45,10 +45,24 @@
   "filed": "2026-03-05"
  },
  "insiders": {
-  "form4s": 1,
+  "form4s": 3,
   "from": "2026-08-15",
-  "to": "2026-11-17",
+  "to": "2026-11-18",
   "trades": [
+   {
+    "date": "2026-11-16",
+    "filed": "2026-11-17",
+    "code": "P",
+    "value": 20000,
+    "who": "ANDREWS DEBORAH J"
+   },
+   {
+    "date": "2026-11-16",
+    "filed": "2026-11-17",
+    "code": "P",
+    "value": 37098,
+    "who": "Culley Brian M"
+   },
    {
     "date": "2026-11-16",
     "filed": "2026-11-16",

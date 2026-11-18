@@ -1,0 +1,113 @@
+{
+ "id": "1676725_2026-11-17",
+ "kind": "slide",
+ "cik": "1676725",
+ "name": "IDEAYA Biosciences, Inc.",
+ "date": "2026-11-17",
+ "asof": "2026-11-17",
+ "final": false,
+ "version": 6,
+ "price": {
+  "date": "2026-11-17",
+  "adj_close": 27.4
+ },
+ "balance": {
+  "end": "2026-09-30",
+  "cash": 1150827000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "MarketableSecuritiesCurrent",
+   "MarketableSecuritiesNoncurrent"
+  ],
+  "accn": "0001193125-26-445294"
+ },
+ "burn6": {
+  "end": "2026-09-30",
+  "start": "2026-04-01",
+  "cash_used_ops": 181692000.0,
+  "capex": 1139000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-10-31",
+  "shares": 96694575
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 1800000000,
+  "as_of": "2025-06-30",
+  "filed": "2026-02-17"
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2026-08-19",
+  "to": "2026-11-18",
+  "trades": [
+   {
+    "date": "2026-10-06",
+    "filed": "2026-10-08",
+    "code": "S",
+    "value": 954787,
+    "who": "Hata Yujiro S"
+   },
+   {
+    "date": "2026-10-06",
+    "filed": "2026-10-08",
+    "code": "S",
+    "value": 30610,
+    "who": "Hata Yujiro S"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "ideaya biosciences",
+  "other_trials": 6,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT03947385",
+    "drugs": [
+     "IDE196",
+     "Binimetinib",
+     "Crizotinib"
+    ]
+   },
+   {
+    "nct": "NCT07174583",
+    "drugs": [
+     "IDE849",
+     "durvalumab",
+     "IDE161"
+    ]
+   },
+   {
+    "nct": "NCT07804186",
+    "drugs": [
+     "Darovasertib",
+     "Crizotinib (Xalkori)"
+    ]
+   },
+   {
+    "nct": "NCT07015190",
+    "drugs": [
+     "Darovasertib",
+     "Primary Local Therapy"
+    ]
+   },
+   {
+    "nct": "NCT05907954",
+    "drugs": [
+     "Darovasertib"
+    ]
+   }
+  ]
+ }
+}
