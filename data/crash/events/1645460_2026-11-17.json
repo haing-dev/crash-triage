@@ -3,5 +3,42 @@
  "name": "Cue Biopharma, Inc.",
  "ticker": "CUE",
  "date": "2026-11-17",
- "status": "error: You've hit your 5-hour limit \u00b7 resets 8:30am (UTC)\n"
+ "status": "read",
+ "source": {
+  "filing_date": "2026-11-16",
+  "accession": "0001193125-26-463741",
+  "doc": "cue-ex99_1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1645460/000119312526463741/cue-ex99_1.htm"
+ },
+ "facts": {
+  "related": false,
+  "trigger": "other",
+  "summary": "Q3 results report with positive Phase 2 CSU data and no explanation for drop \u00b7 Phase 2 \u00b7 CUE-221 in chronic spontaneous urticaria \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "CUE-221",
+  "indication": "chronic spontaneous urticaria",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": true,
+  "subgroup_or_secondary_positive": true,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "We announced positive Phase 2 CSU topline results demonstrating highly statistically significant dose responsive clinical impact on the primary endpoint of complete hives resolution (HSS7=0)",
+   "primary_endpoint_met": "We announced positive Phase 2 CSU topline results demonstrating highly statistically significant dose responsive clinical impact on the primary endpoint of complete hives resolution (HSS7=0)",
+   "safety": "Collectively, the Phase 1 and Phase 2 CSU studies of CUE-221 demonstrated favorable and well-tolerated safety profiles, up to 10 mg/kg.",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
 }

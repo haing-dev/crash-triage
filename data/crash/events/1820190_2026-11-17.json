@@ -3,5 +3,42 @@
  "name": "Scilex Holding Co",
  "ticker": "SCLX",
  "date": "2026-11-17",
- "status": "error: You've hit your 5-hour limit \u00b7 resets 8:30am (UTC)\n"
+ "status": "read",
+ "source": {
+  "filing_date": "2026-11-17",
+  "accession": "0001193125-26-465507",
+  "doc": "sclx-20261111.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1820190/000119312526465507/sclx-20261111.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "other",
+  "summary": "Auditor BPM dismissed, Pipara appointed; prior going-concern doubt noted \u00b7 n/a \u00b7 n/a in n/a \u00b7 n/a",
+  "phase": "n/a",
+  "drug": "n/a",
+  "indication": "n/a",
+  "market_stage": "n/a",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "the audit committee (the \u201cCommittee\u201d) of the board of directors of Scilex Holding Company (the \u201cCompany\u201d) approved the dismissal of BPM LLP (\u201cBPM\u201d) as the Company\u2019s independent registered public accounting firm.",
+   "primary_endpoint_met": null,
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
 }
