@@ -46,10 +46,52 @@
   "filed": "2026-02-26"
  },
  "insiders": {
-  "form4s": 24,
+  "form4s": 27,
   "from": "2026-07-28",
-  "to": "2026-11-18",
+  "to": "2026-11-19",
   "trades": [
+   {
+    "date": "2026-11-16",
+    "filed": "2026-11-18",
+    "code": "S",
+    "value": 270198,
+    "who": "Blum Robert I"
+   },
+   {
+    "date": "2026-11-16",
+    "filed": "2026-11-18",
+    "code": "S",
+    "value": 120220,
+    "who": "Blum Robert I"
+   },
+   {
+    "date": "2026-11-16",
+    "filed": "2026-11-18",
+    "code": "S",
+    "value": 11042,
+    "who": "Blum Robert I"
+   },
+   {
+    "date": "2026-11-17",
+    "filed": "2026-11-18",
+    "code": "S",
+    "value": 170709,
+    "who": "Malik Fady Ibraham"
+   },
+   {
+    "date": "2026-11-17",
+    "filed": "2026-11-18",
+    "code": "S",
+    "value": 10518,
+    "who": "Malik Fady Ibraham"
+   },
+   {
+    "date": "2026-11-17",
+    "filed": "2026-11-18",
+    "code": "S",
+    "value": 794878,
+    "who": "Hessekiel Jeffrey"
+   },
    {
     "date": "2026-11-09",
     "filed": "2026-11-12",
@@ -199,27 +241,27 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT04848506",
-    "drugs": [
-     "Aficamten (5 - 20 mg)"
-    ]
-   },
-   {
     "nct": "NCT06736574",
     "drugs": [
      "Omecamtiv Mecarbil (OM)"
     ]
    },
    {
-    "nct": "NCT06412666",
+    "nct": "NCT04848506",
     "drugs": [
-     "Aficamten"
+     "Aficamten (5 - 20 mg)"
     ]
    },
    {
     "nct": "NCT04464525",
     "drugs": [
      "Omecamtiv mecarbil"
+    ]
+   },
+   {
+    "nct": "NCT06412666",
+    "drugs": [
+     "Aficamten"
     ]
    }
   ]

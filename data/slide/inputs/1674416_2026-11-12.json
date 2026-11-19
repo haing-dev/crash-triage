@@ -48,7 +48,7 @@
  "insiders": {
   "form4s": 14,
   "from": "2026-08-14",
-  "to": "2026-11-18",
+  "to": "2026-11-19",
   "trades": [
    {
     "date": "2026-10-19",
@@ -108,19 +108,7 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT07804004",
-    "drugs": [
-     "CTX112"
-    ]
-   },
-   {
     "nct": "NCT05643742",
-    "drugs": [
-     "CTX112"
-    ]
-   },
-   {
-    "nct": "NCT07549698",
     "drugs": [
      "CTX112"
     ]
@@ -129,6 +117,18 @@
     "nct": "NCT07758634",
     "drugs": [
      "CTX340"
+    ]
+   },
+   {
+    "nct": "NCT07804004",
+    "drugs": [
+     "CTX112"
+    ]
+   },
+   {
+    "nct": "NCT07549698",
+    "drugs": [
+     "CTX112"
     ]
    }
   ]

@@ -1,0 +1,67 @@
+{
+ "id": "1041024_2026-11-18",
+ "kind": "slide",
+ "cik": "1041024",
+ "name": "ROCKWELL MEDICAL, INC.",
+ "date": "2026-11-18",
+ "asof": "2026-11-18",
+ "final": false,
+ "version": 6,
+ "price": {
+  "date": "2026-11-18",
+  "adj_close": 6.1
+ },
+ "balance": {
+  "end": "2026-09-30",
+  "cash": 10631000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001628280-26-073086"
+ },
+ "burn6": {
+  "end": "2026-09-30",
+  "start": "2026-04-01",
+  "cash_used_ops": -554000.0,
+  "capex": 1339000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-08-10",
+  "shares": 4030465
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 9050000.0,
+  "tags": "LongTermDebtNoncurrent+LongTermDebtCurrent"
+ },
+ "public_float": {
+  "usd": 28688982,
+  "as_of": "2025-06-30",
+  "filed": "2026-03-26"
+ },
+ "insiders": {
+  "form4s": 1,
+  "from": "2026-08-20",
+  "to": "2026-11-19",
+  "trades": [
+   {
+    "date": "2026-10-01",
+    "filed": "2026-10-05",
+    "code": "S",
+    "value": 8420,
+    "who": "Strobeck Mark"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "rockwell medical",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}
