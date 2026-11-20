@@ -1,0 +1,67 @@
+{
+ "id": "1625297_2026-11-12",
+ "kind": "slide",
+ "cik": "1625297",
+ "name": "Indivior Pharmaceuticals, Inc.",
+ "date": "2026-11-12",
+ "asof": "2026-11-12",
+ "final": false,
+ "version": 6,
+ "price": {
+  "date": "2026-11-12",
+  "adj_close": 29.2
+ },
+ "balance": {
+  "end": "2026-09-30",
+  "cash": 305000000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue"
+  ],
+  "accn": "0001628280-26-068013"
+ },
+ "burn6": {
+  "end": "2026-09-30",
+  "start": "2026-04-01",
+  "cash_used_ops": -326000000.0,
+  "capex": 21000000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-10-09",
+  "shares": 118035272
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 488000000.0,
+  "tags": "LongTermDebtNoncurrent+LongTermDebtCurrent"
+ },
+ "public_float": {
+  "usd": 1830000000,
+  "as_of": "2025-06-30",
+  "filed": "2026-02-26"
+ },
+ "insiders": {
+  "form4s": 10,
+  "from": "2026-08-14",
+  "to": "2026-11-20",
+  "trades": [
+   {
+    "date": "2026-08-27",
+    "filed": "2026-08-27",
+    "code": "P",
+    "value": 53535,
+    "who": "Anderson Woodrow D"
+   }
+  ]
+ },
+ "drug": null,
+ "trials": {
+  "query": "indivior pharmaceuticals",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

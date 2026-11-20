@@ -1,0 +1,67 @@
+{
+ "id": "1799788_2026-11-19",
+ "kind": "slide",
+ "cik": "1799788",
+ "name": "Greenwich LifeSciences, Inc.",
+ "date": "2026-11-19",
+ "asof": "2026-11-19",
+ "final": false,
+ "version": 6,
+ "price": {
+  "date": "2026-11-19",
+  "adj_close": 19.79
+ },
+ "balance": {
+  "end": "2026-09-30",
+  "cash": 5898582,
+  "parts": [
+   "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
+  ],
+  "accn": "0001493152-26-052438"
+ },
+ "burn6": {
+  "end": "2026-09-30",
+  "start": "2026-04-01",
+  "cash_used_ops": 4917517.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-11-06",
+  "shares": 14678208
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "These circumstances raise substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 56000000,
+  "as_of": "2025-06-30",
+  "filed": "2026-06-01"
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2026-08-21",
+  "to": "2026-11-20",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "greenwich lifesciences",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT05232916",
+    "drugs": [
+     "GLSI-100"
+    ]
+   }
+  ]
+ }
+}

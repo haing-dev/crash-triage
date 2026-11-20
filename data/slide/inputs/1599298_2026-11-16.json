@@ -47,7 +47,7 @@
  "insiders": {
   "form4s": 4,
   "from": "2026-08-18",
-  "to": "2026-11-19",
+  "to": "2026-11-20",
   "trades": []
  },
  "drug": null,
@@ -57,13 +57,6 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT05899608",
-    "drugs": [
-     "Ivonescimab Injection",
-     "Pembrolizumab Injection"
-    ]
-   },
-   {
     "nct": "NCT07877194",
     "drugs": [
      "Ivonescimab (dose level 1) combined with Cadonilimab",
@@ -72,11 +65,10 @@
     ]
    },
    {
-    "nct": "NCT07815665",
+    "nct": "NCT05899608",
     "drugs": [
-     "Ivonescimab Dose 1",
-     "enfortumab vedotin (EV)",
-     "Pembrolizumab"
+     "Ivonescimab Injection",
+     "Pembrolizumab Injection"
     ]
    },
    {
@@ -84,6 +76,14 @@
     "drugs": [
      "Ivonescimab Injection",
      "Pembrolizumab Injection"
+    ]
+   },
+   {
+    "nct": "NCT07815665",
+    "drugs": [
+     "Ivonescimab Dose 1",
+     "enfortumab vedotin (EV)",
+     "Pembrolizumab"
     ]
    },
    {

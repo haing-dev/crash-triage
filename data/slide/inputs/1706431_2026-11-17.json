@@ -47,7 +47,7 @@
  "insiders": {
   "form4s": 4,
   "from": "2026-08-19",
-  "to": "2026-11-19",
+  "to": "2026-11-20",
   "trades": [
    {
     "date": "2026-11-02",
@@ -72,18 +72,11 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT05461170",
+    "nct": "NCT07142811",
     "drugs": [
-     "VIR-2218",
-     "VIR-3434",
-     "NRTI"
-    ]
-   },
-   {
-    "nct": "NCT05356741",
-    "drugs": [
-     "VIR-5818",
-     "pembrolizumab"
+     "Tobevibart",
+     "Elebsiran",
+     "Bulevirtide"
     ]
    },
    {
@@ -95,11 +88,18 @@
     ]
    },
    {
-    "nct": "NCT07142811",
+    "nct": "NCT05356741",
     "drugs": [
-     "Tobevibart",
-     "Elebsiran",
-     "Bulevirtide"
+     "VIR-5818",
+     "pembrolizumab"
+    ]
+   },
+   {
+    "nct": "NCT05461170",
+    "drugs": [
+     "VIR-2218",
+     "VIR-3434",
+     "NRTI"
     ]
    }
   ]
