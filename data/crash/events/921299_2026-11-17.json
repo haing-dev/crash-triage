@@ -1,0 +1,44 @@
+{
+ "cik": "921299",
+ "name": "KYNTRA BIO, INC.",
+ "ticker": "KYNB",
+ "date": "2026-11-17",
+ "status": "read",
+ "source": {
+  "filing_date": "2026-11-16",
+  "accession": "0001193125-26-463442",
+  "doc": "kynb-ex99_1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/921299/000119312526463442/kynb-ex99_1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "efficacy miss",
+  "summary": "Interim analysis showed insufficient efficacy, program terminated \u00b7 Phase 2 \u00b7 FG-3246 in metastatic castration-resistant prostate cancer \u00b7 not yet approved",
+  "phase": "Phase 2",
+  "drug": "FG-3246",
+  "indication": "metastatic castration-resistant prostate cancer (mCRPC)",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": false,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": true,
+  "evidence": {
+   "summary": "Following a pre-specified interim analysis of the ongoing Phase 2 study of FG-3246 in mCRPC, the Company decided to close enrollment in the study and discontinue development of the program.",
+   "primary_endpoint_met": "Preliminary efficacy results at the interim analysis did not meet the threshold required to support continued development.",
+   "safety": null,
+   "program_discontinued": "Decision to discontinue development of FG-3246 and FG-3180 following insufficient efficacy at the pre-specified Phase 2 interim analysis in metastatic castration-resistant prostate cancer (mCRPC)"
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": false,
+   "program_discontinued": true
+  }
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "cik": "1133869",
+ "name": "CAPRICOR THERAPEUTICS, INC.",
+ "ticker": "CAPR",
+ "date": "2026-11-23",
+ "status": "read",
+ "source": {
+  "filing_date": "2026-11-23",
+  "accession": "0001104659-26-130730",
+  "doc": "capr-ex99d1.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1133869/000110465926130730/capr-ex99d1.htm"
+ },
+ "facts": {
+  "related": true,
+  "trigger": "regulatory rejection",
+  "summary": "FDA issued Complete Response Letter, finding insufficient evidence of effectiveness \u00b7 Filed (BLA resubmission) \u00b7 Deramiocel in Duchenne muscular dystrophy \u00b7 not yet approved",
+  "phase": "Filed",
+  "drug": "Deramiocel (CAP-1002)",
+  "indication": "Duchenne muscular dystrophy",
+  "market_stage": "filed for approval",
+  "primary_endpoint_met": true,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": null,
+   "serious_drug_related_patients": null,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": null
+  },
+  "program_discontinued": false,
+  "evidence": {
+   "summary": "The CRL states that the FDA does not consider the data sufficient to establish substantial evidence of effectiveness and cites certain other clinical deficiencies.",
+   "primary_endpoint_met": "Deramiocel has been studied in two randomized, double-blind, placebo-controlled trials, HOPE-2 and HOPE-3, both of which met their primary endpoints.",
+   "safety": null,
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": true,
+   "safety": false,
+   "program_discontinued": false
+  }
+ }
+}
