@@ -1,0 +1,60 @@
+{
+ "id": "1133869_2026-11-23",
+ "kind": "crash",
+ "cik": "1133869",
+ "name": "CAPRICOR THERAPEUTICS, INC.",
+ "date": "2026-11-23",
+ "asof": "2026-11-23",
+ "final": false,
+ "version": 6,
+ "price": {
+  "date": "2026-11-23",
+  "adj_close": 1.92
+ },
+ "balance": {
+  "end": "2026-09-30",
+  "cash": 197580979,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001104659-26-125355"
+ },
+ "burn6": {
+  "end": "2026-09-30",
+  "start": "2026-04-01",
+  "cash_used_ops": 67173319.0,
+  "capex": 5874857.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-11-09",
+  "shares": 58142114
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 398991720,
+  "as_of": "2025-06-30",
+  "filed": "2026-03-17"
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2026-08-25",
+  "to": "2026-11-24",
+  "trades": []
+ },
+ "drug": "Deramiocel (CAP-1002)",
+ "trials": {
+  "query": "capricor therapeutics",
+  "other_trials": 0,
+  "crashed_drug_trials": 0,
+  "examples": []
+ }
+}

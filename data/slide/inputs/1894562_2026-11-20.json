@@ -1,0 +1,80 @@
+{
+ "id": "1894562_2026-11-20",
+ "kind": "slide",
+ "cik": "1894562",
+ "name": "Prime Medicine, Inc.",
+ "date": "2026-11-20",
+ "asof": "2026-11-20",
+ "final": false,
+ "version": 6,
+ "price": {
+  "date": "2026-11-20",
+  "adj_close": 3.55
+ },
+ "balance": {
+  "end": "2026-09-30",
+  "cash": 61157000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+  ],
+  "accn": "0001628280-26-073392"
+ },
+ "burn6": {
+  "end": "2026-09-30",
+  "start": "2026-04-01",
+  "cash_used_ops": 77729000.0,
+  "capex": 344000.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-10-31",
+  "shares": 181921405
+ },
+ "going_concern": {
+  "flag": true,
+  "quote": "Because certain elements of management\u2019s plans to mitigate the conditions that raised substantial doubt about the Company\u2019s ability to continue as a going concern"
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 238759057,
+  "as_of": "2025-06-30",
+  "filed": "2026-03-03"
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2026-08-22",
+  "to": "2026-11-24",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "prime medicine",
+  "other_trials": 3,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT07748403",
+    "drugs": [
+     "PM577a"
+    ]
+   },
+   {
+    "nct": "NCT06559176",
+    "drugs": [
+     "PM359"
+    ]
+   },
+   {
+    "nct": "NCT07887347",
+    "drugs": [
+     "PM647a"
+    ]
+   }
+  ]
+ }
+}

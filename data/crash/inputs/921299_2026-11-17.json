@@ -1,0 +1,60 @@
+{
+ "id": "921299_2026-11-17",
+ "kind": "crash",
+ "cik": "921299",
+ "name": "KYNTRA BIO, INC.",
+ "date": "2026-11-17",
+ "asof": "2026-11-20",
+ "final": false,
+ "version": 6,
+ "price": {
+  "date": "2026-11-20",
+  "adj_close": 1.56
+ },
+ "balance": {
+  "end": "2026-09-30",
+  "cash": 40290000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001193125-26-463519"
+ },
+ "burn6": {
+  "end": "2026-09-30",
+  "start": "2026-04-01",
+  "cash_used_ops": 16236000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-10-13",
+  "shares": 4049985
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 21000000,
+  "as_of": "2025-06-30",
+  "filed": "2026-03-16"
+ },
+ "insiders": {
+  "form4s": 4,
+  "from": "2026-08-19",
+  "to": "2026-11-24",
+  "trades": []
+ },
+ "drug": "FG-3246",
+ "trials": {
+  "query": "kyntra bio",
+  "other_trials": 0,
+  "crashed_drug_trials": 1,
+  "examples": []
+ }
+}
