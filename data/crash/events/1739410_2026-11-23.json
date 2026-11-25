@@ -1,0 +1,44 @@
+{
+ "cik": "1739410",
+ "name": "Rallybio Corp",
+ "ticker": "RLYB",
+ "date": "2026-11-23",
+ "status": "read",
+ "source": {
+  "filing_date": "2026-11-24",
+  "accession": "0001193125-26-473372",
+  "doc": "d503862dex991.htm",
+  "url": "https://www.sec.gov/Archives/edgar/data/1739410/000119312526473372/d503862dex991.htm"
+ },
+ "facts": {
+  "related": false,
+  "trigger": "other",
+  "summary": "Corporate presentation with early positive Phase 1 data, no drop explanation \u00b7 Phase 1 \u00b7 AVZO-023 in HR+/HER2- breast cancer \u00b7 not yet approved",
+  "phase": "Phase 1",
+  "drug": "AVZO-023",
+  "indication": "HR+/HER2- advanced breast cancer",
+  "market_stage": "not yet approved",
+  "primary_endpoint_met": null,
+  "subgroup_or_secondary_positive": null,
+  "safety": {
+   "treated_patients": 23,
+   "serious_drug_related_patients": 0,
+   "deaths": null,
+   "clinical_hold_or_trial_paused": null,
+   "described_as_well_tolerated": true
+  },
+  "program_discontinued": null,
+  "evidence": {
+   "summary": "Preliminary efficacy signal with 27% ORR in heavily pretreated patients (median 4 prior lines of systemic therapy) with HR+/HER2- advanced breast cancer",
+   "primary_endpoint_met": null,
+   "safety": "Generally well tolerated at doses up to 150 mg BID (N=23)",
+   "program_discontinued": null
+  },
+  "evidence_verified": {
+   "summary": true,
+   "primary_endpoint_met": false,
+   "safety": true,
+   "program_discontinued": false
+  }
+ }
+}
