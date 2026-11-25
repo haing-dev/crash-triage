@@ -48,7 +48,7 @@
  "insiders": {
   "form4s": 10,
   "from": "2026-08-22",
-  "to": "2026-11-24",
+  "to": "2026-11-25",
   "trades": [
    {
     "date": "2026-10-15",
@@ -367,6 +367,18 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
+    "nct": "NCT06431893",
+    "drugs": [
+     "Pegtibatinase"
+    ]
+   },
+   {
+    "nct": "NCT03406611",
+    "drugs": [
+     "Pegtibatinase"
+    ]
+   },
+   {
     "nct": "NCT05003986",
     "drugs": [
      "Sparsentan",
@@ -375,19 +387,7 @@
     ]
    },
    {
-    "nct": "NCT06431893",
-    "drugs": [
-     "Pegtibatinase"
-    ]
-   },
-   {
     "nct": "NCT06247085",
-    "drugs": [
-     "Pegtibatinase"
-    ]
-   },
-   {
-    "nct": "NCT03406611",
     "drugs": [
      "Pegtibatinase"
     ]

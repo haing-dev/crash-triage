@@ -45,10 +45,24 @@
   "filed": "2026-02-19"
  },
  "insiders": {
-  "form4s": 3,
+  "form4s": 4,
   "from": "2026-08-22",
-  "to": "2026-11-24",
+  "to": "2026-11-25",
   "trades": [
+   {
+    "date": "2026-11-23",
+    "filed": "2026-11-24",
+    "code": "S",
+    "value": 383601,
+    "who": "Huntsman Carole"
+   },
+   {
+    "date": "2026-11-23",
+    "filed": "2026-11-24",
+    "code": "S",
+    "value": 385685,
+    "who": "Huntsman Carole"
+   },
    {
     "date": "2026-11-04",
     "filed": "2026-11-06",
@@ -274,7 +288,14 @@
     ]
    },
    {
-    "nct": "NCT07763015",
+    "nct": "NCT03900429",
+    "drugs": [
+     "MGL-3196",
+     "Liver Biopsy"
+    ]
+   },
+   {
+    "nct": "NCT04951219",
     "drugs": [
      "Resmetirom"
     ]
@@ -286,14 +307,7 @@
     ]
    },
    {
-    "nct": "NCT03900429",
-    "drugs": [
-     "MGL-3196",
-     "Liver Biopsy"
-    ]
-   },
-   {
-    "nct": "NCT04951219",
+    "nct": "NCT07763015",
     "drugs": [
      "Resmetirom"
     ]
