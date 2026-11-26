@@ -5,7 +5,7 @@
  "name": "Azitra, Inc.",
  "date": "2026-10-27",
  "asof": "2026-10-29",
- "final": false,
+ "final": true,
  "version": 6,
  "price": {
   "date": "2026-10-29",
@@ -48,10 +48,17 @@
   "filed": "2026-02-27"
  },
  "insiders": {
-  "form4s": 2,
+  "form4s": 3,
   "from": "2026-07-29",
-  "to": "2026-11-25",
+  "to": "2026-11-26",
   "trades": [
+   {
+    "date": "2026-11-24",
+    "filed": "2026-11-25",
+    "code": "P",
+    "value": 118,
+    "who": "Salva Francisco D."
+   },
    {
     "date": "2026-11-23",
     "filed": "2026-11-24",

@@ -1,0 +1,67 @@
+{
+ "id": "1798749_2026-11-25",
+ "kind": "slide",
+ "cik": "1798749",
+ "name": "Jade Biosciences, Inc.",
+ "date": "2026-11-25",
+ "asof": "2026-11-25",
+ "final": false,
+ "version": 6,
+ "price": {
+  "date": "2026-11-25",
+  "adj_close": 17.0
+ },
+ "balance": {
+  "end": "2026-09-30",
+  "cash": 475706000,
+  "parts": [
+   "CashAndCashEquivalentsAtCarryingValue",
+   "ShortTermInvestments"
+  ],
+  "accn": "0001193125-26-459293"
+ },
+ "burn6": {
+  "end": "2026-09-30",
+  "start": "2026-04-01",
+  "cash_used_ops": 72566000.0,
+  "capex": 0.0,
+  "periods": 2
+ },
+ "shares": {
+  "end": "2026-11-06",
+  "shares": 69189448
+ },
+ "going_concern": {
+  "flag": false
+ },
+ "financing_terms": {},
+ "debt": {
+  "usd": 0.0,
+  "tags": null
+ },
+ "public_float": {
+  "usd": 289400000,
+  "as_of": "2025-06-30",
+  "filed": "2026-03-06"
+ },
+ "insiders": {
+  "form4s": 0,
+  "from": "2026-08-27",
+  "to": "2026-11-26",
+  "trades": []
+ },
+ "drug": null,
+ "trials": {
+  "query": "jade biosciences",
+  "other_trials": 1,
+  "crashed_drug_trials": 0,
+  "examples": [
+   {
+    "nct": "NCT07541287",
+    "drugs": [
+     "JADE101"
+    ]
+   }
+  ]
+ }
+}
