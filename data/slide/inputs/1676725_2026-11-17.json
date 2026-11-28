@@ -48,7 +48,7 @@
  "insiders": {
   "form4s": 1,
   "from": "2026-08-19",
-  "to": "2026-11-27",
+  "to": "2026-11-28",
   "trades": [
    {
     "date": "2026-10-06",
@@ -73,19 +73,10 @@
   "crashed_drug_trials": 0,
   "examples": [
    {
-    "nct": "NCT07174583",
+    "nct": "NCT07015190",
     "drugs": [
-     "IDE849",
-     "durvalumab",
-     "IDE161"
-    ]
-   },
-   {
-    "nct": "NCT03947385",
-    "drugs": [
-     "IDE196",
-     "Binimetinib",
-     "Crizotinib"
+     "Darovasertib",
+     "Primary Local Therapy"
     ]
    },
    {
@@ -95,18 +86,26 @@
     ]
    },
    {
-    "nct": "NCT07015190",
-    "drugs": [
-     "Darovasertib",
-     "Primary Local Therapy"
-    ]
-   },
-   {
     "nct": "NCT05987332",
     "drugs": [
      "IDE196",
      "Crizotinib",
      "Pembrolizumab"
+    ]
+   },
+   {
+    "nct": "NCT07804186",
+    "drugs": [
+     "Darovasertib",
+     "Crizotinib (Xalkori)"
+    ]
+   },
+   {
+    "nct": "NCT07174583",
+    "drugs": [
+     "IDE849",
+     "durvalumab",
+     "IDE161"
     ]
    }
   ]
